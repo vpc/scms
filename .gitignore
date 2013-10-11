@@ -4,6 +4,10 @@
 *.swp
 .\#*
 
+# elfinder bullshit
+.tmb/
+.quarantine/
+
 # Microsoft bullshit
 Thumbs.db
 ehthumbs.db
