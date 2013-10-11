@@ -1,0 +1,16 @@
+
+# Generic bullshit
+*~
+*.swp
+.\#*
+
+# Microsoft bullshit
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Apple bullshit
+.Spotlight-V100
+*.DS_Store
+.Trashes
