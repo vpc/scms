@@ -1,0 +1,498 @@
+[title]
+Inside the ROM: The deepest secrets of MissingNo. and Glitch Pokémon
+[head]
+<link href="/media/smog/smog-articles.css" type="text/css" rel="stylesheet" />
+<style type="text/css">
+.code {
+	padding: 5px;
+	border: 1px solid #E1E4F2;
+	background-color: #E1E4F2;
+	margin-bottom: 1em;
+	margin-left: 1em;
+}
+</style>
+[page]
+<div class="author">By <a href="/forums/member.php?u=42885">Crystal</a>. Art by <a href="/forums/member.php?u=57019">paintseagull</a>.</div>
+<table id="smogheader">
+<tr>
+<td class="left"><a href="cnc">« Previous Article</a></td>
+<td class="middle"><a href="/smog/issue27/">Home</a></td>
+<td class="right"><a href="pmd">Next Article »</a></td>
+</tr>
+</table>
+
+<h2>Introduction</h2>
+
+<p>Discovered back around 1999 when Pok&eacute;mon Gold and Silver were yet to be released, MissingNo. has become one of the most infamous glitches not only in the Pok&eacute;mon world, but in the world of video games in general. Childish rumors about MissingNo. are everywhere and of every kind, going from that it can break your game to that it will attack you in a nightmare. The truth is, very few people really know about what MissingNo. is and why it exists. If you ask someone familiar with Pok&eacute;mon about MissingNo., he will most likely be able to tell you that it is an "error Pok&eacute;mon" or something of the sort; to a lesser extent, he will probably tell you a bit about its moves or typing (even if he mistakes MissingNo.'s Bird typing with the Flying type!), but hardly anyone knows the deepest secrets of MissingNo.'s or Glitch Pok&eacute;mon's identities. With this article, I plan to introduce you to the world of Pok&eacute;mon Red/Blue glitches by focusing on the inner workings and the structure of the games and, more specifically, on what causes MissingNo. and Glitch Pok&eacute;mon to exist and be who they actually are. If you are the kind of person that has always found Pok&eacute;mon glitches fascinating, this article is totally for you!</p>
+
+<p>Before you continue, however, you should be aware of the advanced level of the article. This topic requires the reader to be constantly focused in order to grasp or interpret the different concepts and explanations that will be detailed in the article, from the most generic computer science to more advanced Pok&eacute;mon structures and data of various Pok&eacute;mon glitches stored in the Pok&eacute;mon Red/Blue ROM (Read-Only Memory). This may sound a bit boring, but I promise you that if you concentrate, learning how the game is structured and, more specifically, discovering the deepest secrets of MissingNo. and Glitch Pok&eacute;mon can be a very fun and interesting topic!</p>
+
+<h2>Hexadecimal numeration and game's internal structure</h2>
+
+<p>Before we get on-topic, there are some general concepts that, while not being directly related to Pok&eacute;mon, must be comprehended in order to understand all that comes next.</p>
+
+<h3>Hexadecimal System, Bits, and Bytes</h3>
+
+<p>Hexadecimal numbers will be used in the article very often, as the data we are going to look at in the ROM is in hexadecimal format. Hexadecimal is another numeration like decimal or binary, but on a different base. More specifically, it is based on sixteen numbers:</p>
+
+<div class="code">0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F</div>
+
+<p>A, B, C, D, E, and F represent the decimal equivalents of 10, 11, 12, 13, 14, and 15, respectively. The prefixes 0x and $ are used to indicate that the numerical system we are using is hexadecimal. So for example, 0x7C is the hexadecimal equivalent of 124.</p>
+
+<p>A binary digit represents one <strong>bit</strong> because the possible values are only 0 and 1, which make a total of 2^1 combinations. Since a hexadecimal digit can take sixteen different values, or 2^4 values, it represents a total of four bits. Two hexadecimal digits combined make for 2^8 possible combinations, ranging from 0x00 to 0xFF, or 0 to 255 in decimal format. Thus, two hex digits combined represent a total of eight bits, which is the same as one <strong>byte</strong>. Bytes are extremely important in this topic, since the Pok&eacute;mon games are structured internally by bytes. In Pok&eacute;mon Red and Blue, each byte represents something and affects the game in some way, be it the level of a Pok&eacute;mon, a letter of a text string, a part of one map, or anything else you can think of. As such, when looking at MissingNo. and Glitch Pok&eacute;mon, we will have to analyze their data byte by byte.</p>
+
+<h3>Banks, Offsets, and Pointers</h3>
+
+<p>ROM <strong>Banks</strong> are groups of 0x4000 bytes and thus are 0x4000 bytes long. If for example, we are in the bank number 0x1C, it means we are in the bank starting at 0x4000 * 0x1C = 0x70000 and finishing at 0x74000.</p>
+
+<p><strong>Offset</strong> is a word used to refer to the position of a certain byte. When a byte is in the offset 0x345FA, it means that it is located in the position 0x345FA and that there are 0x345FA bytes coming before it. The Pok&eacute;mon Red and Blue games have a size of 1 Megabyte or 1048576 bytes. In hexadecimal format, it translates to 0x100000, which means that the offsets we are going to look at may range between 0x0 and 0xFFFFF.</p>
+
+<p><strong>Pointers</strong> are slightly more complicated to understand. Essentially, a pointer "points" to a certain position or offset to tell the game that it should skip to that position to read data from it. For example, there is a pointer pointing to offset where the names of all Pok&eacute;mon start. Most of the pointers we are going to deal with in the article are <strong>two-byte pointers</strong>, because they occupy two bytes and thus, four hexadecimal digits. These pointers usually point to an offset in the same bank, while the third byte on <strong>three-byte pointers</strong> is used to denote the bank the offset is located at.</p>
+
+<p>Let's say our two-byte pointer is:</p>
+
+<div class="code">0x21 0x5E</div>
+
+<p>and that it is in the bank <strong>0x07</strong>&mdash;that is, the bank starting at offset 0x1C000. Firstly, in the Pok&eacute;mon games, pointers are little-endian (the least significant byte is stored before the most significant byte), which means we have to rotate the two bytes, resulting in:</p>
+
+<div class="code">0x5E21</div>
+
+<p>Then we have to subtract 0x4000 to point to the correct ROM address. It's not easy to explain why it works that way, so just believe me!</p>
+
+<div class="code">0x5E21 - 0x4000 = 0x1E21</div>
+
+<p>Finally, because our two-byte pointer was located in the bank 0x07, the offset it points to will also be in that same bank. More specifically, it will be 0x1E21 bytes after the first offset of the bank 0x07. In other words, the pointer points to:</p>
+
+<div class="code">0x1C000 + 0x1E21 = 0x1DE21</div>
+
+<p>If we had not subtracted 0x4000 before, the bank we would be accessing would've been the first one (bank 0x00) because of how the Game Boy RAM is structured.</p>
+
+<h3>Index Number and Pokédex Entry</h3>
+
+<p>We are getting closer to the body of the article, but first, the difference between Index Numbers and Pok&eacute;dex Entries in the Pok&eacute;mon games is another key concept you will need to grasp in order to understand what will come next.</p>
+
+<p>Quickly said, Pok&eacute;mon are internally ordered and identified by Index Number, but the order in which we see them displayed in the game (in the Pok&eacute;dex) is by Pok&eacute;dex Entry. The Index Number order presumably follows the order in which Pok&eacute;mon were made and inserted in the game. For example, Rhydon is a Pok&eacute;mon we all know to have a Pok&eacute;dex Entry of 112 or 0x70, but its internal Index Number is 0x01. In general, the Index Number order is messed up, as most evolutionary families aren't grouped together. As will be detailed in the following sections, excluding the number 000, the Pok&eacute;dex Entry list contains 151 Pok&eacute;mon, while the Index Number list contains 190. The reason is that the 39 extra Pok&eacute;mon are MissingNo., which don't show in the table where Pok&eacute;mon are ordered by Pok&eacute;dex Entry and thus don't show up in the Pok&eacute;dex. But what are 39 MissingNo. doing in the internal list of Pok&eacute;mon? Read on...</p>
+
+<h2>What defines a Pokémon</h2>
+
+<p>Our next step will be to get used to how the data that defines a Pok&eacute;mon is structured. MissingNo. and the glitches we are going to deal with are Pok&eacute;mon after all, so understanding them will be easier if we look at the data of real Pok&eacute;mon first. Now, think about everything that makes a Pok&eacute;mon be who it is, even the most obscure characteristics; there are certainly a lot of things to consider, from the most basic like the name and typing, to the lesser known or relevant like height and weight or the growth rate. Everything is defined in the game in some way, in a few different structures. In this section, our objective will be to discover what each structure contains and how it works. It should be noted that, while the sprites and cries are obviously important parts of all Pok&eacute;mon, their interpretation requires more advanced knowledge and thus will be left out from the article; in addition, the sprites of MissingNo. and the cries of both MissingNo. and Glitch Pok&eacute;mon are all "garbage", since a combination of bytes that aren't meant to be images or music cause glitched or random sprites and cries, respectively.</p>
+
+<h3>Names</h3>
+
+<p>The names are obviously an elemental part of the Pok&eacute;mon. Understanding how names work is simple, so it's a good starting point.</p>
+
+<p>To find the Pok&eacute;mon Names data, the pointer we have to look at is located at 0x2FAE and 0x2FAF, and this pointer is 0x1E 0x42. It points to a table containing all Pok&eacute;mon names. It's a three-byte pointer, however, as the data it points to is at the bank 0x07. The third byte that indicates the bank is located a bit earlier, at offset 0x2FA3. Note that the bank byte doesn't necessarily have to be near the other two bytes, as it's read separately. Anyway, following what we saw about pointers in the previous section, we come to the conclusion that the offset we are looking for is 0x1C21E.</p>
+
+<p>In fact, if we move to that offset, the first byte we see stands for the 'R' of Rhydon. We need to use the following table to translate hexadecimal numbers to the equivalent text character in Red/Blue:</p>
+
+<div class="code">
+4F==<br />57=#<br />51=*<br />52=A1<br />53=A2<br />54=PK<br />55=+<br />58=$<br />7F= <br />80=A<br />81=B<br />82=C<br />83=D<br />84=E<br />85=F<br />86=G<br />87=H<br />88=I<br />89=J<br />8A=K<br />8B=L<br />8C=M<br />8D=N<br />8E=O<br />8F=P<br />90=Q<br />91=R<br />92=S<br />93=T<br />94=U<br />95=V<br />96=W<br />97=X<br />98=Y<br />99=Z<br />9C=:<br />A0=a<br />A1=b<br />A2=c<br />A3=d<br />A4=e<br />A5=f<br />A6=g<br />A7=h<br />A8=i<br />A9=j<br />AA=k<br />AB=l<br />AC=m<br />AD=n<br />AE=o<br />AF=p<br />B0=q<br />B1=r<br />B2=s<br />B3=t<br />B4=u<br />B5=v<br />B6=w<br />B7=x<br />B8=y<br />B9=z<br />BA=‚<br />BC='l<br />BD='s<br />BE='t<br />BF='v<br />E0='<br />E1=PK<br />E2=MN<br />E3=-<br />E4='r<br />E5='m<br />E6=?<br />E7=!<br />E8=.<br />F4=,<br />F6=0<br />F7=1<br />F8=2<br />F9=3<br />FA=4<br />FB=5<br />FC=6<br />FD=7<br />FE=8<br />FF=9
+</div>
+
+<p>The first thing we notice is that the Pok&eacute;mon Names data is ordered by Index Number instead of by Pok&eacute;dex Entry. We see this by the fact that the first Pok&eacute;mon is Rhydon, followed by Kangaskhan, and so on. We'll see the relevance of this once we get into MissingNo. and Glitch Pok&eacute;mon later.</p>
+
+<p>Each entry is 10 bytes (or characters) long. Shorter names are filled up with [0x50], which is the terminator character in text strings. If we use a hexadecimal editor and load the aforementioned table, we'll see something like this:</p>
+
+<div><img src="/media/upload/smog/issue27/rom_namedata.png" alt="name data" /></div>
+
+<h3>General Pokémon Data</h3>
+
+<p>The General Pok&eacute;mon data structure contains a lot of important and interesting information about the Pok&eacute;mon, including stats, typing, and moves known at level 1. It starts at offset 0x383DE, but for curiosity, note that Mew's data is located at offset 0x425B instead. The General Pok&eacute;mon data is structured by Pok&eacute;dex Entry, meaning that it starts with Bulbasaur and ends with Mewtwo, and that there is data for 150 entries instead of 190. Each entry is 28 or 0x1C bytes long. We will look at what each byte stands for by using Bulbasaur's data as an example. As you would expect, it's located from offset 0x383DE to offset 0x383DE + 0x1C = 0x383F9:</p>
+
+<div class="code">01 2D 31 31 2D 41 16 03 2D 40 55 00 40 E5 40 21 2D 00 00 03 A4 03 38 C0 03 08 06 00</div>
+
+<p>Now let's go byte by byte:</p>
+
+<div class="code">
+Byte <strong>0x00</strong> = [0x01] ; <strong>Pok&eacute;dex number</strong> is 001<br />
+Byte <strong>0x01</strong> = [0x2D] ; <strong>Base HP</strong> is 45<br />
+Byte <strong>0x02</strong> = [0x31] ; <strong>Base Attack</strong> is 49<br />
+Byte <strong>0x03</strong> = [0x31] ; <strong>Base Defense</strong> is 49<br />
+Byte <strong>0x04</strong> = [0x2D] ; <strong>Base Speed</strong> is 45<br />
+Byte <strong>0x05</strong> = [0x41] ; <strong>Base Special</strong> is 65<br />
+Byte <strong>0x06</strong> = [0x16] ; <strong>Type 1</strong> is Grass<br />
+Byte <strong>0x07</strong> = [0x03] ; <strong>Type 2</strong> is Poison<br />
+Byte <strong>0x08</strong> = [0x2D] ; <strong>Catch Rate</strong> is 45 (relatively difficult to catch)<br />
+Byte <strong>0x09</strong> = [0x40] ; <strong>Base Experience Yield</strong> is 64 (determines the experience points given upon beating the Pok&eacute;mon)<br />
+Byte <strong>0x0A</strong> = [0x55] ; <strong>Size of fronsprite</strong> is 5x5 tiles or 40x40 pixels (it's a small sprite)<br />
+Bytes <strong>0x0B 0x0C</strong> = [0x00 0x40] ; <strong>Pointer to fontsprite</strong><br />
+Bytes <strong>0x0D 0x0E</strong> = [0xE5 0x40] ; <strong>Pointer to backsprite</strong><br />
+Byte <strong>0x0F</strong> = [0x21] ; First <strong>basic</strong> move is Tackle<br />
+Byte <strong>0x10</strong> = [0x2D] ; Second <strong>basic move</strong> is Growl<br />
+Bytes <strong>0x11 0x12</strong> = [0x00 0x00] ; No more <strong>basic moves</strong><br />
+Byte <strong>0x13</strong> = [0x03] ; <strong>Growth Rate</strong> is Medium Slow (stands for the amount of Experience Points required to level up the Pok&eacute;mon)<br />
+Bytes <strong>0x14 - 0x1A</strong> = [0xA4 0x03 0x38 0xC0 0x03 0x08 0x06] ; <strong>TM and HM flags</strong> (determine the TMs and HMs learned by the Pok&eacute;mon)<br />
+Bytes <strong>0x1B</strong> = [0x00] ; It's always <strong>[0x00]</strong>. (Bulbasaur data ends here and Ivysaur data comes next)
+</div>
+
+<h3>Pokédex Data</h3>
+
+<p>The two structures we have just looked at shared one basic thing in common: every entry was of the same length. However, this is not the case with the Pok&eacute;dex data structure, since, as we will see soon, the length will depend on the number of characters of the text string that determines the species of the Pok&eacute;mon. In the previous two structures, the game could just move forward X bytes depending on the length of the entries of the structure and the Pok&eacute;mon it wanted to access, and read data from there. However, this is not an option anymore. In the Pok&eacute;dex data structure, a table of pointers containing a pointer for each Pok&eacute;mon is necessary. This table is at offset 0x4047E.</p>
+
+<p>Since this is the first pointer table we are going to deal with, it won't cause any harm to see how it looks:</p>
+
+<div><img src="/media/upload/smog/issue27/rom_dexdata.png" alt="pokédex data" /></div>
+
+<p>Selected in green, you can see the whole pointer table. There are a total of 190 pointers, ordered by the Index Number of the Pok&eacute;mon it points to&mdash;for example, the first pointer points to Rhydon's data and the second pointer to Kangaskhan's. As expected then, the table is 0x17C or 380 bytes long, as there are 190 two-byte pointers. Thus, the table ends at offset 0x405F9. It's not hard to notice a pattern in the table; using what we have learned about pointers, we know that the first pointer (0xFA 0x45) points to 0x405FA. Now if we look at the next pointer, we can see that the offset it points to is 0x40609, just a few bytes after the first one. This pattern repeats almost every time, the only exception being the pointers of all 39 MissingNo., which point to the same location, as will be expanded on later in a different section. Not only that, but Rhydon's Pok&eacute;dex data happens to start right after the last pointer of the table, and, as seen from the pattern on the pointer table, the data of all other Pok&eacute;mon, ordered by Index Number, follow Rhydon's.</p>
+
+<p>Now that we understand how the pointer table works, we can move on with the data itself. The Pok&eacute;dex data structure contains the following information:</p>
+
+<div class="code">
+<strong>Species</strong> of the Pok&eacute;mon: It's of a variable length, but always ends with the terminator character [0x50]<br />
+<strong>Height:</strong> Two bytes (1st byte: feet; 2nd byte: inches)<br />
+<strong>Weight:</strong> Two bytes<br />
+<strong>[0x17]</strong><br />
+Three-byte <strong>pointer to Pok&eacute;dex Entry</strong>. Pok&eacute;dex Entries contain the two-page description displayed in the Pok&eacute;dex<br />
+<strong>[0x50]</strong>
+</div>
+
+<p>We'll use Kingler as an example:</p>
+
+<div><img src="/media/upload/smog/issue27/rom_kinglerdata.png" alt="kingler pokédex data" /></div>
+
+<p>The selected bytes correspond to Kingler's Pok&eacute;dex data. The first seven bytes (until the 0x50) determine the species of the Pok&eacute;mon. Then, we can see Kingler's height is 4'03''. We can calculate its weight by rotating the two bytes (which are 0x28 and 0x05), converting them to decimal, and finally dividing the obtained number by 10. The result is 132 pounds.</p>
+
+<h3>Evolution / Learnset Data</h3>
+
+<p>The Evolution / Learnset data is accessed similarly to the way Pok&eacute;dex data is. Since not every Pok&eacute;mon evolves and learns the same amount of moves by leveling up, it's to be expected that entries can have different lengths and that, as a consequence, a pointer table is required. The table is located at 0x3B05C and works in a very similar way to the table we have just seen. It's ordered by Index Number and the data of the first Pok&eacute;mon (Rhydon) starts right after the last pointer of the table, at 0x3B1D8. The only difference is that each MissingNo. points to a different location, but as we will see they all share the same data anyway, so it's a bit redundant.</p>
+
+<p>Now let's move on with the structure of the data itself. Evolution / Learnset data is structured in two different parts, separated by a 0x00 byte. The first one refers to the evolution data, and the second one stands for the level-up moves learned by the Pok&eacute;mon. To illustrate the format of the structure, Weepinbell's data will be used as an example:</p>
+
+<div class="code">
+<span style="color: rgb(65, 105, 225);">02 2F 01 BE</span> 00 <span style="color: rgb(0, 128, 0)">0D 23 0F 4D 12 4F 17 4E 1D 33 26 4B 31 15 00</span>
+</div>
+
+<p>As we've just seen, evolution data ends with the second 0x00. To translate evolution data, we'll have a look at the following structures:</p>.
+
+<div class="code">
+    <p><strong>Level-up evolution</strong><br /> 
+    [0x01][level][Pok&eacute;mon ID]<br /><br />
+
+    <strong>Item evolution</strong><br />
+    [0x02][item ID][0x01][Pok&eacute;mon ID]<br /><br />
+
+    <strong>Trade evolution</strong><br />
+    [0x03][0x01][Pok&eacute;mon ID]</p>
+</div>
+
+<p>Following the rules above, we come to the conclusion that the first byte (0x02) means that Weepinbell evolves by the use of an item. The second byte determines that Weepinbell evolves via Leaf Stone, whose ID is 0x2F. Lastly, the byte on Pok&eacute;mon ID means that the Pok&eacute;mon it evolves into is the one with an Index Number of 0xBE, which is Victreebel. Note that 0x01 in the item and trade evolutions just mean that the level required to evolve is 1, meaning that, in practice, only the item or the trade is required to make the Pok&eacute;mon evolve. Eevee's evolution data is longer, as it contains data for three item evolutions:</p>
+
+<div class="code">
+02 20 01 67 02 21 01 68 02 22 01 69 00
+</div>
+
+<p>Now let's go back to Weepinbell and take a look at its learnset data. It's not difficult to follow the structure; after the 0x00, the next two bytes mean that Weepenbell learns, at level 0x0D or 13, the move 0x23 or Wrap. From the next two bytes (0x0F and 0x4D), we see that at level 15 it learns Poisonpowder. And so on, until a 0x00 comes, causing Weepinbell's data to end and the next Pok&eacute;mon's data (Victreebel) to start.</p>
+
+<div class="float-right"><img src="/media/upload/smog/issue27/rom_missingno.png" alt="missingno" /></div>
+
+<h2>Why do MissingNo. and Glitch Pokémon exist?</h2>
+
+<p>Now, we know the concepts and understand the Pok&eacute;mon structures required to move on and look at MissingNo. and Glitch Pok&eacute;mon. You may be thinking, "Okay, they are some kind of bugged Pok&eacute;mon that exist in the Red/Blue Pok&eacute;mon games, but why do they exist?" The first thing you should know is that <strong>MissingNo.</strong> differs from the other Glitch or "Garbage" Pok&eacute;mon in many aspects. The key is to be aware that all 39 MissingNo. are some kind of placeholders, so to speak. Presumably, placeholders for Pok&eacute;mon that were planned to appear in the Red/Blue Pok&eacute;mon games, but in the end did not. In fact, Shigeki Morimoto, one of the game's programmers, once said that there were actually 190 Pokémon planned to be included in the games. Furthermore, there are many fact-based theories that support this, as we will see in the following paragraphs.</p>
+
+<p>The most evident proof is that all 39 MissingNo. have an Index Number assigned&mdash;just the fact that the game developers actually bothered to do that is pretty suspicious. As we saw, the order of the list of Pok&eacute;mon by Index Number is all "messed up", and while some evolution families are together, some others are not, and for the most part, the order is not logical (say, starter Pok&eacute;mon are in the end and legendary Pok&eacute;mon occupy random places). In the matter at hand, the most interesting thing is that MissingNo.'s Index Number entries are all scattered between the entries of real Pok&eacute;mon. For example, MissingNo. with an Index Number of 0x32 is located between Golem's and Magmar's entries. There is no better way to illustrate this than by linking to a Bulbapedia page that shows the <a href="http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_index_number_(Generation_I)">list of Pokémon by Index Number</a>. (By the way, note that the names in brackets near the MissingNo. entries on the page linked don't have anything to do with the Pok&eacute;mon which was intended to exist in that position; it's just the Gold/Silver identifier equivalent).</p>
+
+<p>To further support this theory, there are documents that prove that there were many designs or prototypes of Pok&eacute;mon that were discarded (although these Pok&eacute;mon could have been discarded long before the 151 Pok&eacute;mon cut-off), and there are theories about GSC Pok&eacute;mon that could have been planned to be released in the first generation. It's for example interesting that MissingNo. with Index Numbers of 0x56 and 0x57 are placed between evolution families that are ordered, and the same occurs for MissingNo. 0x5E and 0x5F (you can see what I'm talking about by having a look at the link above). This suggests that these four MissingNos. would have been two different two-evolution families.</p>
+
+<p>To further support this theory, there are documents that prove that there were many designs or prototypes of Pok&eacute;mon that were discarded (although these Pok&eacute;mon could have been discarded long before the 151 Pok&eacute;mon cut-off), and there are theories about GSC Pok&eacute;mon that could have been planned to be released in the first generation. It's for example interesting that MissingNo. with Index Numbers of 0x56 and 0x57 are placed between evolution families that are ordered, and the same occurs for MissingNo. 0x5E and 0x5F (you can see what I'm talking about by having a look at the link above). This suggests that these four MissingNos. would have been two different two-evolution families.</p>
+
+<p>Another interesting thing is that... well... MissingNo. has a defined name in the games, which is, in fact, MissingNo.. MissingNo. stands for nothing else than Missing Number, and if we scrolled down in the table of names that we saw before, we'll see some random "MISSINGNO." strings the same way we saw "RHYDON####" or "KANGASKHAN". It looks like when the creators decided that these 39 placeholders weren't going to be filled with Pok&eacute;mon, they decided to call them MissingNo. (since they automatically had an entry in the Pok&eacute;mon Names structure by the fact that this structure is ordered by Index Number) instead of leaving their names blank. This, or "MISSINGNO." was used as a placeholder name until it was replaced with the name of the Pok&eacute;mon that was supposed to be added there.</p>
+
+<p>Yet more important, or at least interesting, is something we can see from some MissingNo. cries. While I said we wouldn't get into cries, it's definitely interesting to have a look at the table that assigns a type of cry to each Pok&eacute;mon. For those interested, this table starts at offset 0x39446. It contains the base cry, pitch, and length of the cry (one byte each) of each Pok&eacute;mon ordered by Index Number. Most MissingNo. have [0x00][0x00][0x00] as their cry data; since 0x00 is also the base cry of Nidoran-M, most MissingNo. cries resemble Nidoran-M's cry. However, a total of nine MissingNo have different cry data, eight of them differing in base cry as well. The most interesting of all is the cry of MissingNo. 0xB5, which is almost exactly like Crobat's cry in the GSC games; it shares the base cry of Zubat and Golbat (as well as Tauros, Squirtle, and Wartortle), but has a different pitch (0x00), making it very similar to Crobat's cry. It may very likely have been just a beta cry... or might have not! There are other MissingNo. cries that, for example, share the base cry of the Dratini family, while 0x45 MissingNo.'s cry is similar to Zubat's, so the Crobat theory is far from proving anything&mdash;interesting stuff nonetheless. For those with even more interest, <a href="http://pastebin.com/mtrFXj46">here</a> is a Pastebin that contains data of each unique MissingNo. cry as well as a link to the audio to hear each cry.</p>
+
+<p>All in all, while there are not signs about which Pok&eacute;mon were supposed to be included in MissingNo.'s slots, it seems more than reasonable enough to think that 39 more Pok&eacute;mon were intended to be added to the Red/Blue games at some point, for a total of 190. But in the end, maybe due to time or memory issues, only 151 were released. Whether these Pok&eacute;mon were ever designed or not is another story.</p>
+
+<p>Now, onto Glitch <strong>Pokémon</strong>. While, MissingNo. is generally classified as a glitch as well, we are going to use the term "Glitch Pok&eacute;mon" to refer to the glitches that are not MissingNo.. These Pok&eacute;mon feature many different characteristics, as MissingNo. was actually programmed into the Red/Blue games to some extent, while these Glitch Pok&eacute;mon weren't at all. All their data, and with all I mean 100% of it, come from bytes that have other meanings in the game and were never intended to be part of the defining data of any Pok&eacute;mon. Glitch Pok&eacute;mon are the result of trying to access Pok&eacute;mon with "invalid" Index Numbers&mdash;that is, those outside of 1 to 190. Glitch Pok&eacute;mon can be forced to appear by performing the glitch known as the Johto Guard glitch with the help of Pok&eacute;mon Gold or Silver, or by manipulating the RAM (with Gameshark codes for example) or the ROM. If we don't count the more famous 'M [00], which will be explained later, there are a total of 65 Glitch Pok&eacute;mon which have Index Numbers between 191 and 255 or 0xBF and 0xFF. They cap at 0xFF because it's the last number that can be represented with a byte; as we saw, one byte is used to define the Index Number of a Pok&eacute;mon, and thus, also one byte is what is used to determine each individual wild and trainer Pok&eacute;mon, Pok&eacute;mon that are given by gift... When a byte that determines the Index Number of a Pok&eacute;mon is set to a number between 0xBF and 0xFF, the game accesses to one of the Glitch Pok&eacute;mon. Likewise, the Johto Guard Glitch consists of trading a Pok&eacute;mon with an Index Number outside of 1-190 from GSC to RBY, causing Glitch Pok&eacute;mon to appear.</p>
+
+<p>One important table that will be often referred to&mdash;and manipulated&mdash;later is the table located at 0x41024. This table is used by the game to associate the Index Number of all Pok&eacute;mon, including all MissingNo., with their Pok&eacute;dex Entry. Its format is very simple. Each entry is one byte long and its value contains the Pok&eacute;dex Entry of the corresponding Pok&eacute;mon, which are ordered by Index Number. For example, the first byte of the table is 0x70, which means that the Pok&eacute;mon with Index Number of 0x01&mdash;that is, Rhydon&mdash;gets a Pok&eacute;dex entry of 0x70 or 112. Likewise, the last byte of the table, the one at 0x410E1, is 0x47, meaning that Victreebel (Index Number of 0xBE) is number 0x47 or 71 in the Pok&eacute;dex. As expected, since all MissingNo. have an Index Number between 1 and 190, they have an entry in the table. They all have 0x00, meaning that they share an "invalid" Pok&eacute;dex Entry outside of 1 to 151. As we'll see in the next section, this heavily shapes MissingNo.'s identity (remember that we said that the General Pok&eacute;mon data is determined by Pok&eacute;dex Entry?).</p>
+
+<p>Without further ado, here is the table:</p>
+
+<div><img src="/media/upload/smog/issue27/rom_indextable.png" alt="pokémon index number table" /></div>
+
+<p>But why I'm bringing up this table now? And why am I showing data past the end of the table? Because from the end of the table to the byte selected in blue at offset 0x41122, we can take a lot of information about Glitch Pok&eacute;mon. Let me explain it: while the table ends and was made to end at offset 0x410E1 with Victreebel's entry, the following bytes are used to determine the Pok&eacute;dex Entry of Glitch Pok&eacute;mon. These 65 bytes are data used for other things, but when accessing Pok&eacute;mon with invalid Index Numbers, the game keeps reading data as if it was the continuation of the table. This causes Glitch Pok&eacute;mon to have "random" Pok&eacute;dex Entries; some will be invalid entires (those above 151), but some others will be shared with real Pok&eacute;mon! For example, Glitch Pok&eacute;mon 0xC0 (that is, the one with Index Number of 0xC0) has what would be its byte in the table set to 0x3D or 61, the Pok&eacute;dex Entry of Poliwhirl. Since the General Pok&eacute;mon data is determined by Pok&eacute;dex Entry, this leads to many Glitch Pok&eacute;mon sharing stats, basic moves, types, etc. of real Pok&eacute;mon; in the case of Glitch Pok&eacute;mon 0xC0, it will be Poliwhirl.</p>
+
+<p>And finally, in no man's land, we shouldn't forget about the aforementioned <strong>'M [00]</strong>, also known as 'M Block (note that it's called 'M [00] instead of just 'M to differentiate it from Glitch Pok&eacute;mon that share the same legible text string in their name). In short, it's a Glitch Pok&eacute;mon with MissingNo.'s Pok&eacute;dex Entry of 0x00, so it shares qualities of both. It's a Glitch Pok&eacute;mon because it has an Index Number outside of 0x01 to 0xBE (190): its Index Number is 0x00. It resembles MissingNo. because, as a result of sharing the Pok&eacute;dex Entry (0x00), they share the General Pok&eacute;mon data. Since the General Pok&eacute;mon data structure contains some of the most relevant characteristics of a Pok&eacute;mon, 'M [00] could be mistaken with MissingNo. (which shouldn't happen to you anymore considering you are reading this!). However, unlike MissingNo., 'M [00] actually learns moves by leveling up&mdash;well, just one, Pound at level 136&mdash;and can evolve into Kangaskhan, and, at a higher level, into Clefable. As we saw, Evolution / Learnset data is determined by Index Number, which MissingNo. and 'M [00] don't share, so differences between them in level-up moves and evolutions was a genuine option.</p>
+
+<h2>Why are MissingNo. and Glitch Pok&eacute;mon the way they are?</h2>
+
+<p>To this point, we have discovered the reasons that make MissingNo. and Glitch Pok&eacute;mon exist in Pok&eacute;mon Red and Blue and even speculated about the extra Pok&eacute;mon theory that comes from MissingNo.'s existence. Now we are going to look at all the data that give them an identity. In other words, we have seen why they are, now let's see what they are. Where does MissingNo. get, for example, its typing, stats, moves, etc. from? And what about the even more obscure Glitch Pok&eacute;mon? This is a topic we have already touched in some sparse parts of the previous sections of the article, but now we are going to approach this in a much more detailed manner. We are going to use what we have learned from the four Pok&eacute;mon data structures in the third section of the article to find out about MissingNo.'s and Glitch Pok&eacute;mon's identities. It can be claimed that this is the most important part of the whole article, since our goal was to arrive here with all the tools and knowledge required to identify and interpret the content of the data that makes MissingNo. and Glitch Pok&eacute;mon have the characteristics they have. The glitch properties of these Pok&eacute;mon cause them to take many of their data&mdash;especially true for Glitch Pok&eacute;mon&mdash;from locations that have different purposes in the game; for example, data used to determine the parties of some trainers. This data is structured in a way that it can do what it's supposed to do properly and, as a consequence, doesn't follow the structure required to be reasonable Pok&eacute;mon data. This leads to a lot of nonsense and glitched qualities on these Pok&eacute;mon that are always intriguing to reveal!</p>
+
+<h3>Names</h3>
+
+<h4>MissingNo.</h4>
+
+<p>You should already have an idea about where MissingNo.'s names come from. In fact, we have already mentioned it. We saw that the table at 0x1C21E that contains the names of all Pok&eacute;mon is ordered by Index Number, so if we scrolled it down we'll eventually see a total of 39 "MISSINGNO." strings in the positions matching the Index Number of all MissingNo.. Pretty simple, isn't it?</p>
+
+<div><img src="/media/upload/smog/issue27/rom_missingnoindex.png" alt="missingno index numbers" /></div>
+
+<h4>Glitch Pokémon</h4>
+
+<p>To find out the names of the Glitch Pok&eacute;mon, we have to look at the data located right after the end of the table. The Pok&eacute;mon Names table ends with Victreebel's name, as it is the last Pok&eacute;mon without an invalid Index Number. However, when accessing Pok&eacute;mon above 0xBE (Victreebel's Index Number), the game reads past the table as if it hadn't ended. Nothing tells the game where to stop reading or where to read from instead, since there is only one pointer involved in the Pok&eacute;mon Names structure and it points to the address the table starts at. In short, the game takes just the pointer and the Index Number of the Pok&eacute;mon and reads data accordingly.</p>
+
+<p>Now, let's try to come up with a simple math formula that can take us to the name's starting character of whichever Pok&eacute;mon we want, including Glitch Pok&eacute;mon. We already know that the length of each name is 0x0A characters and that the table starts at offset 0x1C21E with Rhydon's first character, so we don't need anything else! To find out the starting offset of any Pok&eacute;mon's name, we would need to make the following calculation:</p>
+
+<div class="code">0x1C21E + 0x0A * (0xXX - 0x01)</div>
+
+<p>where 0xXX is the desired Pok&eacute;mon's Index Number. The data used to name Glitch Pok&eacute;mon is logically completely random, since it takes bytes that have other purposes in the game. Out of all 256 possible values a byte can take, only around 90 can be translated to legible characters, causing Glitch Pok&eacute;mon to have glitched names that feature random tiles (graphical unit of 8x8 pixels).</p>.
+
+<p>Remember 'M[00]? It's a special case, since its Index Number (0x00) doesn't go after the valid Index Numbers, but before. No, this doesn't mean that its name would be located before Rhydon's name, since only data after the pointed address is read. So what then? To access to the name of any Pok&eacute;mon, 0x01 is subtracted from the Index Number of the Pok&eacute;mon, as seen from the formula above. When 0x01 is substracted from 0x00, it underflows to 0xFF, causing 'M[00]'s data to be at 0x1C21E + 0x0A * 0xFF or 0x1C21E + 0x0A * (0x100 - 0x01), which translates to offset 0x1CC14. In case you don't believe me:</p>
+
+<div><img src="/media/upload/smog/issue27/rom_m00data.png" alt="'M[00] index data" /></div>
+
+<p>All the '#' would translate to graphical tiles when displayed in the game. In some Glitch Pok&eacute;mon, these force the player to press the A button a few times in order to load up the whole name. From the image above, we can come to the conclusion that the Pok&eacute;mon we all refer to as 'M is not the only glitch Pok&eacute;mon with the same legible name. Now, if you remember that I said the most famous 'M is generally referred to as 'M[00] in order to distinguish it from other 'M, it makes sense right?</p>
+
+<h3>General Pokémon Data</h3>
+
+<h4>MissingNo.</h4>
+
+<p>This is one of the most interesting parts of the article because it contains the data that stands out most about MissingNo., including stats, basic moves, and typing. As we saw, the General Pok&eacute;mon data structure differs from the other three in the fact that it's structured by Pok&eacute;dex Entry instead of Index Number. But wait, MissingNo. doesn't have a valid Pok&eacute;dex Entry! So where does all its data come from?</p>
+
+<p>Well, first, you should know it's all random. That alone makes things very interesting. Similar to what happened with Glitch Pok&eacute;mon names, MissingNo.'s Pok&eacute;dex Entry of 0x00 causes an underflow. To find the data of any Pok&eacute;mon, we have to take</p>
+
+<div class="code">0x0383DE + 0x1C * (0xXX - 0x01)</div>
+
+<p>where 0xXX is the Pok&eacute;dex Entry of the Pok&eacute;mon; if you remember, 0x1C is the size of each entry in the General Pok&eacute;mon data structure. Since MissingNo.'s Pok&eacute;dex Entry is 0x00, when 0x01 is subtracted from 0x00, it underflows to 0xFF. This makes MissingNo.'s data be located at offset 0x39FC2. Its data is:</p>
+
+<div class="code">00 21 88 00 1D 06 06 00 1D 8F 88 00 19 37 8F 37 37 8F 00 1A 37 37 0D 37 00 1C 0D 0D</div>
+
+<p>It's not hard to realize that, due to the length of the General Pok&eacute;mon data structure, MissingNo's data comes long after the General Pok&eacute;mon data of real Pok&eacute;mon. In fact, MissingNo's data starts well into Trainer Pok&eacute;mon data, so it gets its information according to the party of the trainers that happen to be located from 0x39FC2 to 0x39FDD, which are some trainers that belong to the Biker class. Now, to make things more interesting, let's compare the effects these bytes have on MissingNo. with their real purpose and meaning in the game. The Trainer data structure is very easy to understand so don't worry about that:</p>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Offset</th>
+<th>Value</th>
+<th width=30%>Real meaning</th>
+<th>Effect on MissingNo.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>0x39FC2</td>
+<td>0x00</td>
+<td>This first byte of MissingNo.'s data happens to be the separator between the data of two trainers. More specifically, it makes the data of Biker 0x08 end and Biker 0x09's data start.</td>
+<td>This byte is supposed to match the Index Number of the Pok&eacute;mon. It coincidentally happens to match, but its value doesn't seem to make any difference anyway.</td>
+</tr>
+<tr>
+<td>0x39FC3</td>
+<td>0x21</td>
+<td>Except for Gym Leaders and other special trainers, they always have their Pok&eacute;mon at the same level, so only one byte is required to determine the level of the whole party. In this case, Biker 0x09 has Pok&eacute;mon at level 33.</td>
+<td>MissingNo.'s Base HP is 33.</td>
+</tr>
+<tr class="a">
+<td>0x39FC4</td>
+<td>0x88</td>
+<td>Biker 0x09's first Pok&eacute;mon is Muk, which has an Index Number of 0x88.</td>
+<td>Base Attack is 136.</td>
+</tr>
+<tr>
+<td>0x39FC5</td>
+<td>0x00</td>
+<td>Biker 0x09's data ends here so his only Pok&eacute;mon is Muk. Biker 0x0A comes next.</td>
+<td>Base Defense is 0. This means MissingNo.'s Defense stat can be as low as 5 at any level.</td>
+</tr>
+<tr class="a">
+<td>0x39FC6</td>
+<td>0x1D</td>
+<td>Biker 0x0A's Pok&eacute;mon are at level 29.</td>
+<td>Base Speed is 29.</td>
+</tr>
+<tr>
+<td>0x39FC7</td>
+<td>0x06</td>
+<td>Biker 0x0A's first Pok&eacute;mon is Voltorb, which has an Index Number of 0x06.</td>
+<td>Base Special is 0x06. As you see, MissingNo.'s stats are very lackluster despite its outstanding Attack.</td>
+</tr>
+<tr>
+<td>0x39FC8</td>
+<td>0x06</td>
+<td>Biker 0x0A's second Pok&eacute;mon is also Voltorb.</td>
+<td>MissingNo.'s first type is Bird. Bird is thought to be a beta version of the existing Flying type. Bird is the only unused type that is defined in the game. It has no weaknesses, resistances, or immunities.</td>
+</tr>
+<tr class="a">
+<td>0x39FC9</td>
+<td>0x00</td>
+<td>Biker 0x0A's data is over. Biker 0x0B comes next.</td>
+<td>Second type is Normal. Considering 240 out of the possible 256 values would translate to a glitch type, it's pretty noteworthy that odds have decided that MissingNo.'s types are both real (as long as you consider Bird a real type, that is).</td>
+</tr>
+<tr>
+<td>0x39FCA</td>
+<td>0x1D</td>
+<td>Biker 0x0B has its Pok&eacute;mon at level 29</td>
+<td>MissingNo.'s Catch Rate is 29. For reference, it's about as difficult to catch as Chansey.</td>
+</tr>
+<tr class="a">
+<td>0x39FCB</td>
+<td>0x8F</td>
+<td>First Pok&eacute;mon is Weezing.</td>
+<td>Base Experience Yield is 143. Same as Wartortle.</td>
+</tr>
+<tr>
+<td>0x39FCC</td>
+<td>0x88</td>
+<td>Second Pok&eacute;mon is Muk.</td>
+<td>MissingNo.'s fontsprite has a size of 8x8 tiles. However, only 5x5. 6x6, and 7x7 are used, with 7x7 being the maximum size permitted. This size value causes MissingNo.'s fontsprite have the famous backwards L shape is has.   </td>
+</tr>
+<tr class="a">
+<td>0x39FCD</td>
+<td>0x00</td>
+<td>Biker 0x0B's data ends.</td>
+<td></td>
+</tr>
+<tr>
+<td>0x39FCE</td>
+<td>0x19</td>
+<td>Biker 0x0C has level 25 Pok&eacute;mon.</td>
+<td>Pointer to fontsprite is 0x00 0x19. All MissingNo. except 0xB6, 0xB7, and 0xB8 have the same exact glitched frontsprite. These three have the Kabutops fossil, Aerodactyl fossil, and Ghost sprites respectively, which are not taken from the pointed address. It was probably done that way so that the game can access these three sprites more quickly when needed. The pointer points to the address where the most common MissingNo. fontsprite is stored. For curiosity, the reason all MissingNo. share the same sprite is that the accessed bank is always bank 0x00. Fontsprites are stored in different banks, which are determined by the Index Number of the Pok&eacute;mon. Had MissingNo. had a pointer between 0x00 0x40 and around 0x00 0x7F, there would exist 4 MissingNo. fontsprites with slight differences, and each MissingNo. would have one depending on its Index Number.</td>
+</tr>
+<tr class="a">
+<td>0x39FCF</td>
+<td>0x37</td>
+<td>First Pok&eacute;mon is Koffing.</td>
+</tr>
+<tr>
+<td>0x39FD0</td>
+<td>0x8F</td>
+<td>Second Pok&eacute;mon is Weezing.</td>
+<td>Pointer to backsprite is 0x37 0x8F. Pointers between 0x00 0x80 and 0xFF 0x9F point to the Video RAM.</td>
+</tr>
+<tr class="a">
+<td>0x39FD1</td>
+<td>0x37</td>
+<td>Third Pok&eacute;mon is Koffing.</td>
+<td>First basic move is Water Gun.</td>
+</tr>
+<tr>
+<td>0x39FD2</td>
+<td>0x37</td>
+<td>Fourth Pok&eacute;mon is Koffing.</td>
+<td>Second basic move is Water Gun too. This means MissingNo. learns two instances of Water Gun, which fill its first two moveslots. Pok&eacute;mon cannot learn duplicate moves via leveling up or TM/HM, but nothing prevents MissingNo. from learning Water Gun twice through two basic moves.</td>
+</tr>
+<tr class="a">
+<td>0x39FD3</td>
+<td>0x8F</td>
+<td>Fifth Pok&eacute;mon is Weezing.</td>
+<td>Third basic move is Sky Attack.</td>
+</tr>
+<tr>
+<td>0x39FD4</td>
+<td>0x00</td>
+<td>Biker 0x0C has no more Pok&eacute;mon and thus its data is made to end.</td>
+<td>MissingNo. doesn't have a fourth basic move.</td>
+</tr>
+<tr class="a">
+<td>0x39FD5</td>
+<td>0x1A</td>
+<td>Biker 0x0D's Pok&eacute;mon are at level 26.</td>
+<td>Growth Rate is 0x1A. Only 0x00, 0x03, 0x04, and 0x05 are valid Growth Rates. 0x1A is thus a glitched Growth Rate. For example, it makes MissingNo. reach level 100 at 345.420 Experience Points.</td>
+</tr>
+<tr>
+<td>0x39FD6</td>
+<td>0x37</td>
+<td>First Pok&eacute;mon is Koffing.</td>
+<td>The next 7 bytes are TM/HM flags. To figure out which moves MissingNo. can learn via TM/HM, we have to convert each flag in hexadecimal format to binary. For example, 0x37 translates to 00110111b. Since 0x37 is the value of the first flag, it means that MissingNo. can learn TMs 01, 02, 03, 05, 06. These are the positions with a '1' in the flag in binary format, in reverse order. The next byte would determine TMs between 09 and 16, and so on. The five HMs are treated as TMs between 51 and 55, and thus their compatibility is determined by the last flag.</td>
+</tr>
+<tr class="a">
+<td>0x39FD7</td>
+<td>0x37</td>
+<td>Second Pok&eacute;mon is Koffing.</td>
+</tr>
+<tr>
+<td>0x39FD8</td>
+<td>0x0D</td>
+<td>Third Pok&eacute;mon is Grimer.</td>
+</tr>
+<tr class="a">
+<td>0x39FD9</td>
+<td>0x37</td>
+<td>Fourth Pok&eacute;mon is Koffing.</td>
+</tr>
+<tr>
+<td>0x39FDA</td>
+<td>0x00</td>
+<td>Biker 0x0D is over. Biker 0x0E starts next.</td>
+</tr>
+<tr class="a">
+<td>0x39FDB</td>
+<td>0x1C</td>
+<td>Biker 0x0E has level 28 Pok&eacute;mon.</td>
+</tr>
+<tr>
+<td>0x39FDC</td>
+<td>0x0D</td>
+<td>First Pok&eacute;mon is Grimer.</td>
+</tr>
+<tr class="a">
+<td>0x39FDD</td>
+<td>0x0D</td>
+<td>Second Pok&eacute;mon is Grimer.</td>
+<td>This byte is used for padding and is supposed to be always 0x00, but its value doesn't matter in the end.</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Glitch Pokémon</h4>
+
+<p>Now that we know where MissingNo.'s data come from, it's straightforward to deduce the General Pok&eacute;mon data of any Glitch Pok&eacute;mon we want, provided we know its Pok&eacute;dex Number. As we saw, the Pok&eacute;dex Entry of some Pok&eacute;mon is a number higher than 151 or 0x97, but in many cases, it is not (refer to the data right after the Pok&eacute;dex Order table shown before). Glitch Pok&eacute;mon with valid Pok&eacute;dex Entries would take their General Pok&eacute;mon data from entries of real Pok&eacute;mon. This was already discussed before, and we saw that for example Pok&eacute;mon 0xC0 has a Pok&eacute;dex Entry equal to Poliwhirl's, making it a Poliwhril hybrid. However, the sprite is generally not shared. While the pointers to front and backsprites are the same, the bank loaded rarely coincides, so most hybrid Glitch Pok&eacute;mon would still have glitched sprites.</p>
+
+<p>A Pok&eacute;dex Entry between 0x98 and 0xFF (as well as 0x00, but no Glitch Pok&eacute;mon other than 'M[00] happens to have a Pok&eacute;dex Entry of 0x00) means that the General Pok&eacute;mon data of the Pok&eacute;mon would be taken from data with other meanings in the game, leading to illogical characteristics, which may feature extreme base stats or glitch moves that could make the game freeze or function inadequately. We can easily find the data of any Glitch Pok&eacute;mon according to the formula we used to locate MissingNo.. If we do that, we would see that Glitch Pok&eacute;mon with invalid Pok&eacute;dex Entires would take data from places where Pok&eacute;mon cry definitions or Trainer data is stored. Notice that some Glitch Pok&eacute;mon share their Pok&eacute;dex Entry while some entries are unused, which is logical considering the laws of probability alone. For example, 0x51 repeats three times, while 0xCD repeats a total of eight times. This causes three Magnemite hybrids to exist and eight different Glitch Pok&eacute;mon to share a glitched General Pok&eacute;mon data, respectively.</p>
+
+<h3>Pokédex Data</h3>
+
+<h4>MissingNo.</h4>
+
+<p>To find out MissingNo.'s Pok&eacute;dex data, we'll have to go back to the pointer table we saw when reading about Pok&eacute;dex data in the third section of the article. This way we will be able see how every MissingNo. has the same pointer and thus it points to the same offset. Therefore, it's pretty obvious that the programmers did this on purpose, and it's also evident that the 39 Pok&eacute;mon MissingNo. is supposed to cover were discarded before Pok&eacute;dex data was implemented, as otherwise each MissingNo. would point to a different offset and would be in order instead of after the last Pok&eacute;mon.</p>.
+
+<p>MissingNo.'s pointer is 0xE5 0x4F; the easiest way to notice this is by looking at the pointers of MissingNo. 0x1F and 0x20, which are located at the right of the fifth line of that table and share that pointer, like every other MissingNo. does. This means that the pointed address is 0x40FE5, right after Victreebel's Pok&eacute;dex data.</p>
+
+<p>So what does that data contain? It's more than clear that MissingNo.'s Pok&eacute;dex data was programmed manually and on purpose. The string that defines the species of MissingNo. is set to "???":</p>
+
+<div><img src="/media/upload/smog/issue27/rom_missingnospecies.png" alt="missingno species data" /></div>
+
+<p>In the Japanese Red/Blue games, its height and weight were set to generic values of 1.0 meters (0x0A) and 10.0 (0x64) kilogrames. However, the way height and weight are structured in the Japanese versions differs from the way they are structured and read in the English versions. The units of measure are different and, in the Japanese games, height and weight only occupy one byte each instead of two like in the English versions. MissingNo.'s Pok&eacute;dex data from the Japanese versions was not "translated" in the English versions, and this causes MissingNo. to have crazy height and weight values: 10 feet and 3507.2 pounds. MissingNo. weighs almost eight times as much as Onix!</p>
+
+<h3>Evolution / Learnset Data</h3>
+
+<h4>MissingNo.</h4>
+
+<p>Every MissingNo. has its Evolution / Learnset data set to [0x00][0x00] on purpose, meaning MissingNo. doesn't evolve and learns no moves by leveling up. While each MissingNo. has a different pointer in the pointer table to Evolution / Learnset data, all pointers point to the same null data. For example, MissingNo. 0x38's pointer is 0xA2 0x74, so it points to 0x3B4A2:</p>
+
+<div><img src="/media/upload/smog/issue27/rom_missingnopointer.png" alt="missingno 0x38 pointer data" /></div>
+
+<p>Notice Mankey's entry after MissingNo.'s data ends. Mankey's Index Number is logically 0x39. The 0x00 at offset 0x3B4A1 is the terminator for Koffing (0x37).</p>
+
+<h4>Glitch Pokémon</h4>
+
+<p>This part is very interesting. Previously, we saw that pointers to Evolution / Learnset data are located starting at offset 0x3B05C. So how would Glitch Pok&eacute;mon get their pointers then? By simply accessing to data past the pointer table, according to their Index Number. This means that, for example, Glitch Pok&eacute;mon 0xBF has its pointer located right after Victreebel's, which is the last Pok&eacute;mon by Index Number. We saw that the Evolution / Learnset data also begins after Victreebel's pointer, which translates to the fact that Glitch Pok&eacute;mon are taking their pointers from data of some Pok&eacute;mon. Needless to say, this would lead to random pointers pointing to data that makes no sense when read as Evolution / Learnset data. Let's have a look at the 66 Glitch Pok&eacute;mon pointers, from 0xBF to 0x00:</p>
+
+<div><img src="/media/upload/smog/issue27/rom_glitchmonpointers.png" alt="glitch pokémon pointers" /></div>
+
+<p>Notice that the pointers with the most significant byte between 0x00 and 0x3F point to the first bank, while those with it between 0x40 and 0x7F point to the bank they are at: bank 0x0E, which starts at 0x38000. There are four pointers that lead to the VRAM as they are between 0x8000 and 0x9FFF. The VRAM is constantly varying depending on the graphics; in fact, there is one Glitch Pok&eacute;mon (0xEA) having a pointer of 0x24 0x81, that features a different learnset depending on the way it is leveled up (battling or via Rare Candies). Let's leave curiosity aside and focus on more practical examples, though.</p>
+
+<p>Firstly, however, let's try to remember what we saw about the Evolution / Learnset data structure. If you remember, Evolution / Learnset data was separated by 0x00, while learnset data was also declared to end with its own 0x00. What this implies as far as Glitch Pok&eacute;mon are concerned is honestly pretty scary! Until a byte with 0x00 comes, we are certain that no matter what the current data stands for, it won't come to an end. With Glitch Pok&eacute;mon's data being taken from random places, a piece of large data without 0x00 could lead to extremely long evolutions or learnset lists. Yet, the funny thing is that this is not the whole story, as not even every 0x00 will mark the end!</p>
+
+<p>To better understand this, we should look back to when we saw the way the learnset and evolution data was structured. Notice that the 0x00 that make either of these lists to end share one basic thing in common; they come after a learned move or an evolution has already been defined entirely. For example, a 0x00 byte located after a byte that stands for a level in which a move is learned&mdash;let's say the level is 30&mdash;won't make learnset data end, but move 0x00 be learned at level 30 (the move with an Index Number of 0x00 is glitched). Likewise, a 0x00 in the place of the level in which a Pok&eacute;mon evolves won't make evolution data end, but the Pok&eacute;mon will evolve from level 0 on. On the other hand, while the evolution data does not necessarily end at the first 0x00, the learnset data does always begin there.</p>
+
+<p>As always, this is better understood with an example. 'M[00] is the most famous Glitch Pok&eacute;mon and its data has enough variety to help us illustrate the theory we have just seen, so it will serve us well. From the picture above, 'M[00]'s pointer is the last one&mdash;that is, 0x4F 0x36. It points to 0x364F, so let's move to that address. It's Learnset / Evolution data is indeed very long, although it's nothing compared to the length of the data of some other Glitch Pok&eacute;mon:</p>
+
+<div class="code">
+<span style="color: rgb(0, 128, 0);">20 F8 79 EA 0F CF C1 21 30 D7 CB C6 E1 AF EA 3B CD EA D3 CC 3D EA 6B CD EA 3A CD C9 E5 21 E7 FF AF 32 3A A7 28 09 2A 96 38 05 23 34 2B 18 F8 E1 C9 F0 40 CB 7F 20 0E 21 80 5A 11</span> <span style="color: rgb(65, 105, 225);">00 <strong>88 01</strong></span> <span style="color: rgb(128, 0, 128);">00</span> <span style="color: rgb(0, 128, 0)">04 3E 04 C3 2B 18 11 80 5A 21 00 88 <strong>01 80 04</strong> C3 86 18 F0 40 CB 7F 20 0E 21 88 62 11 00 96 <strong>01 00 02</strong> 3E 04 C3 F7 17 11 88 62 21</span> <span style="color: rgb(255, 0, 0);">00</span>
+</div>
+
+<p>Let's go part by part. In green, you can see the data that stands for the evolution data. The big length doesn't mean that 'M[00] can evolve into lots of Pok&eacute;mon though, since only the entries that follow the structure correctly are valid. For instance, [0x20] [0xF8] [0xEA] stands for nothing, and over 90% of the following "triplets" don't either. As we saw, not every 0x00 makes the evolutions list end, but only those that come after a previous evolution entry has ended. Even if invalid, evolution entires are read as three bytes long (or as "triplets") by default, as normal evolutions are three bytes long. So, unless there is a valid four-byte evolution entry (be it item or trade evolution), which is not our case, only 0x00 in the positions 1, 4, 7, 10... are treated as end markers. The first 0x00 that meets this requirement is the last byte of the code above, pictured in red. From the first byte of 'M[00]'s data at 0x364F to this ending 0x00, there is a total of two valid evolution entries, highlighted above in bold and green. The first one makes 'M[00] evolve into Clefable, whose Index Number is 0x04, at level 128, while the second one means that 'M[00] evolves into Kangaskhan at level 0, or, in other words, at any level.</p>
+
+<p>What about the learned moves? If you remember, we said that learnset data starts with the first 0x00 regardless of whether it makes evolution data finish. This 0x00 and the learnset data is colored in blue (but notice that this data also belongs to evolutions!). Unfortunately, 'M[00]'s learnset list ends not very far from there at all, as there is an ending [0x00] three bytes later. This means that 'M[00] only learns one move, according to 0x88 0x01. This data signifies learning Pound at level 136. Not very spectacular as you see...</p>
+
+<p>This doesn't mean that Glitch Pok&eacute;mon don't learn many moves as a rule though. Some Pok&eacute;mon enjoy a very wide learnset virtue of a very far-away ending 0x00. Some Pok&eacute;mon can learn over 50 moves, including glitch moves and more than one instance of the same move. On the other hand, more than half the Pok&eacute;mon don't evolve, since the Evolution structure is very difficult to match with random bytes.</p>
+
+<h3>An interesting note on 'M[00]</h3>
+
+<p>We saw some time before that 'M[00] shares the Pok&eacute;dex Entry of MissingNo., as both have a Pok&eacute;dex Entry of 0x00. Needless to say at this point, this means they share the General Pok&eacute;mon data including front and back sprites, making them very similar in practice. Therefore, 'M[00] is often referred to as the "sister counterpart" to MissingNo. since both are the most well-known glitch Pok&eacute;mon and, by far, the easiest to find (the Old Man Glitch makes the Pok&eacute;mon with an Index Number of 0x00 appear very frequently). However, what goes unnoticed is the fact that 'M[00] has a Pok&eacute;dex Entry of 0x00 just by chance! Not because it has been purposely set to 0x00 to match MissingNo's, but because the byte it takes its Pok&eacute;dex Entry from happens to be 0x00. If you look at the Pok&eacute;dex Order table pictured long above in the "Why do MissingNo. and Glitch Pok&eacute;mon exist?" section, you can see that after the selected byte at offset 0x41122 that makes the Pok&eacute;mon with an Index Number of 0xFF have a Pok&eacute;dex Entry of 0x06, there comes the byte that makes 'M[00] have a Pok&eacute;dex Entry of 0x00. This is something we can now deduce thanks to what we have read about data underflow. If the function the 0x00 is doing there was done with, say, 0x50 instead, now we would be saying that 'M[00] is a Slowbro hybrid instead. It is worth noting that 'M[00] happens to be the only Glitch Pok&eacute;mon with a Pok&eacute;dex Entry of 0x00, which makes it an even more improbable coincidence. In short, 'M[00] is a Glitch Pok&eacute;mon by heart, so whenever you see or hear that MissingNo. and 'M[00] are extremely similar Pok&eacute;mon or that "they are basically the same thing", remember that the qualities they share are just a mere coincidence! More specifically, a 1/66 coincidence considering there are a total of 66 Glitch Pok&eacute;mon counting 'M[00].</p>
+
+<table id="smogfooter">
+<tr>
+<td class="left"><a href="cnc">« Previous Article</a></td>
+<td class="middle"><a href="/smog/issue27/">Home</a></td>
+<td class="right"><a href="pmd">Next Article »</a></td>
+</tr>
+</table>

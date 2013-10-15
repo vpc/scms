@@ -1,0 +1,313 @@
+[title]
+Effort Values and Individual Values
+[head]
+<meta name="description" content="All you'd ever need to know about EVs and IVs in R/S." />
+[page]
+<div class="author">By <a href="/forums/member.php?u=1039">Reflect Suicune</a>, and various other contributors.</div>
+
+<ol class="toc">
+ <li><a href="#introduction">Introduction</a></li>
+ <li><a href="#howtoget">How to get EVs</a></li>
+ <li><a href="#vitamins">Vitamins</a></li>
+ <li><a href="#ivs">IVs</a></li>
+ <li><a href="#making">Making a Good EV Spread</a></li>
+ <li>
+  <a href="#places">Places to Train</a>
+  <ul>
+   <li><a href="#rse">Ruby, Sapphire and Emerald</a></li>
+   <li><a href="#frlg">Fire Red and Leaf Green</a></li>
+  </ul>
+ </li>
+ <li><a href="#undobutton">The Undo Button</a></li>
+ <li><a href="#conclusion">Conclusion</a></li>
+</ol>
+<h2><a name="introduction">Introduction</a></h2>
+<p>Effort Values, or EVs for short, can have a huge impact on your Pokémon and the battles they participate in. EVs will let Swampert survive Hidden Power Grass, or will let Skarmory outspeed Magneton, and many other things. Having a proper EV spread (distribution of EV points on a Pokémon) can mean the difference between a win and a loss.</p>
+<p>A total of 255 EV points can be put onto any one stat, and a total of 510 points total can be given to any Pokémon. However, it is important to note that a stat will only increase after every four EV points. In other words, putting 12 EVs and putting 15 EVs both result in the same thing: a 3 point increase to the stat.</p>
+<h2><a name="howtoget">How to get EVs</a></h2>
+<p>In Netbattle, and in the un-released Competitor, you only have to "decide" how many EV points you want on each stat, and you can fully customize each Pokémon's EV spread in minutes. However, in the Pokémon games, it isn't so easy.</p>
+<p>After you defeat a certain Pokémon, every Pokémon that receives experience in battle (meaning level 100 Pokémon do not receive EVs in battle) also receive a certain number of EV points depending on the defeated Pokémon. Every Pokémon gives at least one EV point, and no Pokémon gives more than three. Which means you will be fighting a lot of battles to get your Pokémon's stats the way you want them. Luckily, Nintendo gave you a couple of things to help you along the way.</p>
+<ul>
+ <li>Macho Brace: A hold item that doubles the amount of EV Points that the Pokémon holding it receives in battle. Keep in mind it also halves your Speed in-battle.</li>
+ <li>PokeRus: A rare "virus" that has no negative effects. When a Pokémon has it, it gets twice as much EVs. When you notice one of your Pokémon has PokeRus, it is important that you try to benefit as much as possible from it. That means you should spread it around and always save one Pokémon with PokeRus in your box. The reason for this is that PokeRus can wear off to an extent - it will still gain twice as much EVs, but it will not be able to spread it. This will be referred to as "passive" PokeRus as opposed to "active" PokeRus. PokeRus is spread simply by keeping a Pokémon with active PokeRus in your party along with others. Every time you battle there's a chance it spreads. Pokémon with passive PokeRus can be infected again and get the active form again.</li>
+</ul>
+<h2><a name="vitamins">Vitamins</a></h2>
+<p>Vitamins can also speed up the EV training process. There are six different vitamins, one for each stat, and each vitamin adds 10 EVs and increases your Pokémon's happiness. Unfortunately, vitamins cannot be used on stats that already have 100 EVs on them, which means you will still need to do some EV training. Regardless, they do save time. I recommend you save your money until a day where all vitamins are half-priced (it will be announced on TV), and splurge away. Here is what each vitamin does:</p>
+<ul>
+ <li>HP Up raises HP</li>
+ <li>Protein raises Attack</li>
+ <li>Iron raises Defense</li>
+ <li>Calcium raises Special Attack</li>
+ <li>Zinc raises Special Defense</li>
+ <li>Carbos raises Speed</li>
+</ul>
+<h2><a name="ivs">IVs</a></h2>
+<p>Like EVs, Individual Values also have a large effect on the stats of your Pokémon. However, unlike EVs, you cannot change the IVs of your Pokémon. For each stat, the IV itself is a number from 0, which gives you the lowest possible stat, to 31, which gives you the highest. For example, if you take two Vaporeon (at level 100), one with an ATK IV of 31, and another with an ATK IV of 0, you will see that the difference between the stats is exactly 31. At half the level, the difference becomes half of 31, and so on.</p>
+<p>Stats aren't the only thing affected by IVs. The type and Base Power of Hidden Power is also determined by the Pokémon's IVs. In general, the higher the IVs, the stronger Hidden Power will be (with a maximum Base Power of 70). However to control the type, you must specific combinations of IVs. For example, a Pokémon with an IV of 31 in every stat will have a dark-type Hidden Power, and if that Pokémon instead had a Special Attack IV of 0, the Hidden Power becomes type electric, and has a Base Power of 59.</p>
+<p>While you cannot change the IVs of a Pokémon, you can have a large influence on what IVs a newly hatched Pokémon have. When breeding, 3 of the baby Pokémon's IVs are chosen completely at random. The other three IVs come from its parents. At least one comes from its father, and at least one from its mother, the third comes is randomly from either parent. After you have hatched a Pokémon, you can take it to the Battle Frontier (Emerald version only). Directly north of the Pokémon Center, there is an old man that gives you an estimate of what the overall IVs are, as well as what stat the highest IV is in. If you don't have Emerald Version (or you want more accurate information) you can use an IV calculator, which compares the stats of your Pokémon (you will have to level up the Pokémon a bit, because IVs have a smaller impact on the stats at lower levels).</p>
+<h2><a name="making">Making a Good EV Spread</a></h2>
+<p>Most of the time, there won't be one proper EV spread for any particular Pokémon. When choosing the right EV spread you have to consider, what moves you plan on using, and what areas the rest of your team can cover. For example, surviving Raichu's Thunderbolt isn't as important if you have a Dugtrio on your team. A good EV spread should take advantage of a Pokémon's strong points, while at the same time protecting it from the most obvious weaknesses. For example, giving Special Defense EVs to Marowak will allow it to survive any super effective attack, making it harder to counter. But if you waste too many EVs on Special Defense, it won't have enough Attack to KO that Pokémon in one hit, or it won't have enough Speed to outspeed other important Pokémon. As you can see, making an EV spread can quickly become complicated, but here are a few tips on making and perfecting EV spreads:</p>
+<dl>
+ <dt>Battle</dt>
+ <dd>See what stats are most important on the particular Pokémon, do you need to outspeed a lot of things, or do more damage?</dd>
+ <dt>Calculate</dt>
+ <dd>Having enough power to do 70% to a Pokémon is not very useful. Set your Attack (or Special Attack) so that you can OHKO (100% damage) them, or so that you can 2HKO them (54% with leftovers). If it's somewhere in the middle, you are wasting EVs. Make use of damage calculators (Smogon will have one soon), and this guide on "magic" numbers.</dd>
+ <dt>Analyze</dt>
+ <dd>Consider what weaknesses your other Pokémon have. If your five other Pokémon are Heracross, Machamp, Medicham, Breloom, and Blaziken (not recommended you use this as a team) Then your Zapdos will need a lot more Defense EVs so that it can repeatedly switch in on Flying attacks.</dd>
+</dl>
+<h2><a name="places">Places to Train</a></h2>
+<p>These are best places to train in Ruby, Sapphire, and Emerald. Note that some are trainers and some are wild Pokémon. Trainers give more experience, but it can take some time before they fight you, and you might have to fight them a couple of times before they have the Pokémon listed below</p>
+<h3><a name="rse">Ruby, Sapphire, and Emerald</a></h3>
+<table class="sortable">
+ <thead>
+  <tr>
+   <th>Stat</th>
+   <th>Encounter</th>
+   <th>Location</th>
+   <th>EVs awarded</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td>HP</td>
+   <td>Whismur</td>
+   <td>Rusturf Tunnel</td>
+   <td>1</td>
+  </tr>
+  <tr class="a">
+   <td>HP</td>
+   <td>Expert Timothy</td>
+   <td>Route 115</td>
+   <td>2</td>
+  </tr>
+  <tr>
+   <td>HP</td>
+   <td>Tuber Lola</td>
+   <td>Route 119 (on land)</td>
+   <td>6</td>
+  </tr>
+  <tr class="a">
+   <td>Attack</td>
+   <td>Shuppet (rare in Ruby version)</td>
+   <td>Mt. Pyre</td>
+   <td>1</td>
+  </tr>
+  <tr>
+   <td>Attack</td>
+   <td>Triathlete Maria</td>
+   <td>Route 117</td>
+   <td>2</td>
+  </tr>
+  <tr class="a">
+   <td>Attack</td>
+   <td>Triathlete Dylan</td>
+   <td>Route 117</td>
+   <td>4</td>
+  </tr>
+  <tr>
+   <td>Attack</td>
+   <td>Black Belt Nob</td>
+   <td>Route 115</td>
+   <td>8</td>
+  </tr>
+  <tr class="a">
+   <td>Defense</td>
+   <td>Clamperl</td>
+   <td>Underwater</td>
+   <td>1</td>
+  </tr>
+  <tr>
+   <td>Defense</td>
+   <td>Kindler Bernie</td>
+   <td>Route 114</td>
+   <td>4</td>
+  </tr>
+  <tr class="a">
+   <td>Defense</td>
+   <td>Pokémaniac Steve</td>
+   <td>Route 114</td>
+   <td>5</td>
+  </tr>
+  <tr>
+   <td>Defense</td>
+   <td>Hiker Trent</td>
+   <td>Route 112</td>
+   <td>9</td>
+  </tr>
+  <tr class="a">
+   <td>Special Attack</td>
+   <td>Spinda</td>
+   <td>Route 113</td>
+   <td>1</td>
+  </tr>
+  <tr>
+   <td>Special Attack</td>
+   <td>Triathlete Abigail</td>
+   <td>Route 110</td>
+   <td>2</td>
+  </tr>
+  <tr class="a">
+   <td>Special Attack</td>
+   <td>Triathlete Benjamin</td>
+   <td>Route 110</td>
+   <td>2</td>
+  </tr>
+  <tr>
+   <td>Special Defense</td>
+   <td>Tentacool</td>
+   <td>Abandoned Ship</td>
+   <td>1</td>
+  </tr>
+  <tr class="a">
+   <td>Special Defense</td>
+   <td>Tentacruel</td>
+   <td>Abandoned Ship</td>
+   <td>2</td>
+  </tr>
+  <tr>
+   <td>Speed</td>
+   <td>Electrike, Wingull, Zigzagoon</td>
+   <td>Route 118</td>
+   <td>1</td>
+  </tr>
+  <tr class="a">
+   <td>Speed</td>
+   <td>Smeargle</td>
+   <td>Artisan Cave</td>
+   <td>1</td>
+  </tr>
+  <tr>
+   <td>Speed</td>
+   <td>Linoone, Manectric</td>
+   <td>Route 118</td>
+   <td>2</td>
+  </tr>
+  <tr class="a">
+   <td>Speed</td>
+   <td>Pokefan Isabel</td>
+   <td>Route 110</td>
+   <td>2</td>
+  </tr>
+  <tr>
+   <td>Speed</td>
+   <td>Twins Amy + Liv</td>
+   <td>Route 103</td>
+   <td>2</td>
+  </tr>
+ </tbody>
+</table>
+<h3><a name="frlg">Fire Red and Leaf Green (credit to Amazing Ampharos for this section)</a></h3>
+<table class="sortable">
+ <thead>
+  <tr>
+   <th>Stat</th>
+   <th>Encounter</th>
+   <th>Location</th>
+   <th>EVs awarded</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td>HP</td>
+   <td>Dunsparce</td>
+   <td>Three Island (through cave)</td>
+   <td>1</td>
+  </tr>
+  <tr class="a">
+   <td>Attack</td>
+   <td>Paras</td>
+   <td>Mt. Moon (B1)</td>
+   <td>1</td>
+  </tr>
+  <tr>
+   <td>Attack</td>
+   <td>Pokémon Ranger Nicolas</td>
+   <td>Sevault Canyon</td>
+   <td>6</td>
+  </tr>
+  <tr class="a">
+   <td>Defense</td>
+   <td>Tangela</td>
+   <td>Route 21</td>
+   <td>1</td>
+  </tr>
+  <tr>
+   <td>Defense</td>
+   <td>Biker Ruben</td>
+   <td>Cycling Road</td>
+   <td>6</td>
+  </tr>
+  <tr class="a">
+   <td>Special Attack</td>
+   <td>Gastly</td>
+   <td>Lavender Tower</td>
+   <td>1</td>
+  </tr>
+  <tr>
+   <td>Special Attack</td>
+   <td>Slugma</td>
+   <td>Mount Ember (B3)</td>
+   <td>1</td>
+  </tr>
+  <tr class="a">
+   <td>Special Attack</td>
+   <td>Haunter</td>
+   <td>Lavender Tower</td>
+   <td>2</td>
+  </tr>
+  <tr>
+   <td>Special Attack</td>
+   <td>Pokémon Ranger Madeline</td>
+   <td>Sevault Canyon</td>
+   <td>6</td>
+  </tr>
+  <tr class="a">
+   <td>Special Defense</td>
+   <td>Tentacool</td>
+   <td>One Island (water)</td>
+   <td>1</td>
+  </tr>
+  <tr>
+   <td>Special Defense</td>
+   <td>Tentacruel</td>
+   <td>One Island (water)</td>
+   <td>2</td>
+  </tr>
+  <tr class="a">
+   <td>Special Defense</td>
+   <td>Aroma Lady Miah</td>
+   <td>Sevault Canyon</td>
+   <td>6</td>
+  </tr>
+  <tr>
+   <td>Speed</td>
+   <td>Diglett</td>
+   <td>Diglett's Cave</td>
+   <td>1</td>
+  </tr>
+  <tr class="a">
+   <td>Speed</td>
+   <td>Dugtrio</td>
+   <td>Diglett's Cave</td>
+   <td>2</td>
+  </tr>
+  <tr>
+   <td>Speed</td>
+   <td>Picknicker Becky</td>
+   <td>Route 15</td>
+   <td>6</td>
+  </tr>
+ </tbody>
+</table>
+<h2><a name="undobutton">The Undo Button</a></h2>
+<p>If your Pokémon was already trained, or your dog trained it for you, that Pokémon probably has EVs you don't want. In Emerald version, there are six Berries you can use to remove these EVs. Each Berry removes 10 EVs and increases your Pokémon's happiness.</p>
+<ul>
+ <li>Pomeg Berry lowers HP</li>
+ <li>Kelpsy Berry lowers Attack</li>
+ <li>Qualot Berry lowers Defense</li>
+ <li>Hondew Berry lowers Special Attack</li>
+ <li>Grepa Berry lowers Special Defense</li>
+ <li>Tamato Berry lowers Speed</li>
+</ul>
+<h2><a name="conclusion">Conclusion</a></h2>
+<p>EVs are an important part of Pokémon and can be the key to victory. Whether you are battling a friend, playing Battle Frontier, or battling on Netbattle, make sure you always consider EVs when raising (or choosing) your Pokémon. Always be sure you are using the "snap" feature on Netbattle, and, as always, experiment to your heart's content.</p>

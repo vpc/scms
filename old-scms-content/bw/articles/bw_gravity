@@ -1,0 +1,512 @@
+[title]
+Generation V Guide to Gravity
+
+[head]
+<meta name="description" content="A guide to Gravity in the BW, courtesy of ginganinja" />
+
+[page]
+<div class="author">By <a href="/forums/member.php?u=32024">ginganinja</a>, partial credit to <a href="/forums/member.php?u=20140">Legacy Raider</a>. Art by <a href="/forums/member.php?u=67440">V0x</a>.</div>
+
+<ol class="toc">
+<li><a href="#intro">Introduction</a></li>
+<li><a href="#basics">Gravity Basics</a></li>
+<li><a href="#strategies">Gravity Strategies</a></li>
+<li><a href="#users">Gravity Users</a></li>
+<li><a href="#abusers">Pokemon That Work Well Under Gravity</a>
+<ul>
+<li><a href="#defensive_abusers">Defensive</a></li>
+<li><a href="#offensive_abusers">Offensive</a></li>
+</ul></li>
+<li><a href="#team_building">Team Building</a>
+<ul>
+<li><a href="#defensive_team">Defensive</a></li>
+<li><a href="#offensive_balanced_team">Offensive / Balanced</a></li>
+</ul></li>
+</ol>
+
+<div style="float: right; margin-left: 10px;"><img src="/media/upload/bw/articles/gravity.png" alt="" /></div>
+<h2><a name="intro">Introduction</a></h2>
+<p>Gravity is a five-turn field effect that was first introduced in the previous generation. Gravity never really took DPP's metagame by storm. It was often labeled as a gimmick, and as such, was rarely seen. This could be attributed to players just slapping it on teams, rather than basing their team around Gravity. Although Gravity itself did not receive any buffs in BW, it was distributed to a few more Pokemon and gained a few extra abusers as well. Gravity can be used to great effect; however, it requires a dedicated team for it to work to its full potential.</p>
+
+<h2><a name="basics">Gravity Basics</a></h2>
+<p>Gravity is a 5 PP Psychic-type move that lasts for five turns after being used. Unlike Light Screen and Reflect, there is no item that extends the duration of this effect, so it is important that you keep your Gravity users alive if you plan on winning battles with it. The following effects occur while Gravity is active:</p>
+
+<dl>
+<dt>All Pokemon become vulnerable to Ground-type moves.</dt>
+<dd>Flying-types and Pokemon with the ability Levitate, who usually enjoy an immunity to Ground attacks, suddenly find themselves damaged by them. This effect is not only limited to attacks. Spikes, a Ground-type entry hazard, will do damage to Flying-type and Levitating Pokemon under Gravity as well. Also, while Gravity is in effect, Toxic Spikes will poison all Pokemon bar those with Steel typing, Poison typing, or the ability Immunity. This also means that Poison-type Pokemon who normally have an immunity to Ground-type moves, such as Gengar and Crobat, will absorb and remove Toxic Spikes from the field upon entry while Gravity is active. Finally, the ability Arena Trap will prevent Flying-type and Levitating Pokemon from switching for Gravity's duration. There is a common misconception that the Flying-type is removed while Gravity is in effect, somewhat like the effect of the move Roost on a Pokemon's type. This is not strictly true. Even under Gravity, Skarmory is still neutral to Fighting-type moves and weak to Electric-type moves. The only difference in terms of type effectiveness is that Skarmory is now 2x weak to Ground-type attacks (because of its Steel typing), and is damaged by Spikes upon entry. Similarly, a Bug- and Flying-type Pokemon such as Yanmega, while normally immune to Ground-type attacks, will take 0.5x damage from them under Gravity (because of its Bug typing, which resists Ground-type moves), but will retain a 4x resistance to Fighting-type attacks. Furthermore, Flying-types will still take 2x damage from Stealth Rock, and those 4x weak to Stealth Rock, such as Ninjask and Volcarona, will still be stripped of half of their maximum HP upon entry.</dd>
+
+<dt>The effects of the item Air Balloon are temporarily negated.</dt>
+<dd>This is a very important effect, as Pokemon such as Heatran commonly abuse Air Balloon to avoid Ground-type moves. During the turns in which Gravity is active, the item Air Balloon becomes useless, giving the Gravity user a slight advantage—Ground-type attacks can still be abused without worrying that, for instance, Heatran or Terrakion can switch in for free.</dd>
+
+<dt>The use of the moves Bounce, Fly, Hi Jump Kick, Jump Kick, Magnet Rise, and Splash is prevented.</dt>
+<dd>This isn't of much significance, as the only moves in the list that really see any use at all are Bounce, Hi Jump Kick, and Magnet Rise. If Fly or Bounce is on its "charge turn" when Gravity is used, then the move will instantly be canceled and the user will drop to the ground.</dd>
+
+<dt>The Evasion of all Pokemon is lowered to 3/5.</dt>
+<dd>This is quite a significant component of Gravity's effect. Essentially, all move accuracies are boosted by 1.67x while Gravity is in play. This makes moves with at least 60% accuracy always hit during Gravity (60 x 1.67 = 100), and is quite a large factor in offensive Gravity teams' success, as they can now use high Base Power and low accuracy moves, such as Hydro Pump and Blizzard, to devastating effect. Although irrelevant for most matches—as they are played with OHKO clause—Gravity's accuracy boost does not affect the accuracy of OHKO moves.</dd>
+</dl>
+
+<p>Gravity teams aim to utilize many of these factors to gain an advantage in battle, one that, if used correctly, should be enough to ensure victory the vast majority of the time.</p>
+
+<h2><a name="strategies">Strategies with Gravity</a></h2>
+<p>Gravity can usually be split up into offensive and defensive play-styles. These two play-styles usually focus on the different effects of Gravity.</p>
+
+<p>Defensive Gravity teams abuse entry hazards, which affect a wider range of Pokemon under Gravity. For example, Pokemon such as Salamence can now be affected by Toxic Spikes and Spikes, to which it would normally be immune. The standard play for defensive teams is to set up hazards as quickly as possible, activate Gravity, and bring in bulky phazers to inflict massive damage to the opponent's team. In this way, defensive Gravity teams are similar to stall teams—they focus on forcing switches, applying residual damage, and outstalling the opponent's team.</p>
+
+<p>Offensive Gravity teams will often focus on abusing the evasion-lowering side effect that Gravity brings. Moves such as Hypnosis, Thunder, Hydro Pump, and Blizzard all have 100% accuracy once Gravity is up and, as such, can quickly do massive damage. Pokemon such as Landorus and Mamoswine can abuse powerful STAB Earthquakes to blast through Pokemon that would check them without Gravity. For example, Skarmory is no longer a viable check to Landorus under Gravity because it becomes weak to Landorus's Earthquake, allowing it to power past Skarmory. Dugtrio also gets a special mention for being able to trap Levitators and Flying-types that it would not be able to trap normally.</p>
+
+<h2><a name="users">Gravity Users</a></h2>
+
+<dl>
+<dt>Blissey</dt>
+<dd>
+<img src="/download/sprites/bw/242.png" alt="Blissey" />
+<p>Meet Blissey, one of the best special walls in all of BW. With its massive HP stat and excellent Special Defense, Blissey is an excellent choice to use on a Gravity team. It comfortably walls the special attackers that plague the tier and, with its large bulk, can safely set up Gravity for your team. Blissey can even fit into offensive teams as a general special wall. Blissey's main weakness is that it is very weak offensively, and with the influx of powerful Fighting-types in BW, Blissey can be set up on rather easily.</p>
+<p>
+As far as abusing Gravity herself, Blissey has access to Sing; this is usually an unreliable sleep move, but under Gravity, it has 92% accuracy, making Blissey a bit tougher to switch into. Blissey can also run more powerful special moves—Fire Blast, Thunder, and Blizzard—rather than their less powerful alternatives—Ice Beam, Thunderbolt, and Flamethrower. Though not affected by Gravity, Blissey can still run Aromatherapy or Wish to better support its teammates.</p></dd>
+
+<dt>Chansey</dt>
+<dd>
+<img src="/download/sprites/bw/113.png" alt="Chansey" />
+<p>With the arrival of BW came the item Eviolite, which boosts the Defense and Special Defense stats of NFE Pokemon by 50%. This item was a great boon to Chansey, who now rivals Blissey in terms of walling capacity. The downside is that it loses out on Leftovers, which means that Sandstorm and Hail damage can wear Chansey down. Chansey is bulkier than Blissey, but it lacks Blissey's higher Special Attack; Seismic Toss is usually Chansey's only method of doing damage, leaving it walled by Ghost-types.</p>
+</dd>
+
+<dt>Dusclops</dt>
+<dd><img src="/download/sprites/bw/356.png" alt="Dusclops" />
+<p>Dusclops is another Pokemon that benefited from the Eviolite. It becomes much bulkier than its evolved form Dusknoir, and the drop in Attack does not matter too much. Dusclops is a perfect partner to Blissey, as it can take the Fighting-type attacks directed at Blissey, walling physical attacks, while Blissey takes care of special attacks. Dusclops has a much smaller pool of Pokemon that it can wall and thus its use is limited on offensive teams. Dusclops really shines on defensive teams, as it can block Rapid Spin by virtue of its Ghost typing, preventing your hard-earned hazards from being blown away.</p>
+<p>With Gravity up, the only Pokemon that are immune to Toxic Spikes are Steel- and Poison-types and those with the ability Immunity. Dusclops helps take care of this with its Will-O-Wisp, which has perfect accuracy under Gravity. This is exceptionally helpful for defensive teams on which residual damage is key. Will-O-Wisp also cripples physical attackers such as Metagross and Terrakion, dropping their Attack stats and making them easier to wall. Though Dusclops has only modest Attack, it can run Earthquake, which gets solid coverage under Gravity. Dusclops can abuse the 83% accurate DynamicPunch, which gets awesome coverage with a Ghost-type move, while deterring Tyranitar and Heatran from switching in.</p>
+<p>Dusclops has its faults, though. Lack of reliable recovery really hurts, as it is forced to run Pain Split to get any sort of healing. Partner Dusclops with a cleric so it can run Rest, or even a Wish-passer so Dusclops can stay in tip-top shape during the battle.</p>
+</dd>
+<dt>Bronzong</dt>
+<dd>
+<img src="/download/sprites/bw/442.png" alt="Bronzong" />
+<p>Bronzong sets up Gravity extremely reliably. With its nice typing and stats it can take a hit or two and get Gravity up. However, Bronzong also suffers from lack of recovery and loses its ground immunity under Gravity. It's not all bad though—under Gravity, Hypnosis gets its accuracy boosted to 100%, allowing Bronzong to spam Earthquake much more easily. Bronzong is also decent at getting up Stealth Rock or dual screens if need be, which is useful for both defensive and offensive teams.</p>
+</dd>
+<dt>Cresselia</dt>
+<dd>
+<img src="/download/sprites/bw/493.png" alt="Cresselia" />
+<p>
+Cresselia is also very reliable at setting up Gravity. Its relatively low offensive stats often relegate it to a defensive role, and with base 120 / 120 / 130 defenses, it can take hits all day long. Cresselia can run Moonlight for recovery and has access to a nice range of support options such as Thunder Wave, dual screens, and its signature move, Lunar Dance. Even though Gravity robs Cresselia of its Ground immunity, its high defenses allow it to take an Earthquake if it needs to. Unfortunately, Cresselia faces heavy competition with Deoxys-D, who has similar support options with the added bonus of moves such as Spikes and Stealth Rock.
+
+</p>
+</dd>
+<dt>Jirachi</dt>
+<dd>
+<img src="/download/sprites/bw/385.png" alt="Jirachi" />
+<p>With awesome typing, base 100 stats across the board, and a wide movepool, Jirachi is the perfect Pokemon for both defensive and offensive teams. Jirachi will often run Gravity and U-turn on the same set, allowing it to scout ahead while giving you momentum. Jirachi can be used in different ways, often depending on what type of Gravity team it's used on. Defensive Gravity teams will often use Jirachi for Wish support while making use of its typing, while offensive teams may benefit from its paralysis support or its ability to quickly get up Stealth Rock. Both team styles will appreciate Jirachi setting up dual screens for them as well. On defensive teams, hazard-layers such as Forretress take hits more easily, while offensive teams appreciate the extra security to set up more easily. However, Jirachi cannot run both Gravity and dual screens effectively, because it must have powerful offensive moves to discourage your opponent from setting up on you. Jirachi's only added benefit from Gravity is a 100% accurate Thunder with a useful 60% paralysis rate, so it should just set up Gravity and U-turn out to gain momentum.</p>
+</dd>
+<dt>Forretress</dt>
+<dd>
+<img src="/download/sprites/bw/205.png" alt="Forretress" />
+<p>At first glance, Forretress suffers from severe competition with Ferrothorn for a slot on a Gravity Team. Both Pokemon have excellent defensive stats and typing, can set up hazards, and as a bonus, they can both set up Gravity for your team. Forretress, however, has a few slight advantages that set it apart from its fellow Spikes user.</p>
+<p>To begin with, Forretress has access to Rapid Spin, a really nice move to have on a Gravity team. When entry hazards hit all Pokemon under Gravity, having a Rapid Spinner on hand is an excellent choice to minimize the damage your team takes switching around. Forretress also has access to Toxic Spikes, which is really useful to defensive Gravity teams in making it much easier to stall out Pokemon. Perhaps the biggest advantage Forretress has over Ferrothorn is that it can run Gravity and Spikes together. The combination is illegal on Ferrothorn, but Forretress is under no such restrictions, and can freely set up Spikes and Gravity for your team.</p>
+<p>Forretress also has a few other cool moves at its disposal. Volt Switch, like U-turn, does a bit of damage and then switches Forretress for another Pokemon of your choice. This is really useful, as Forretress can set up Gravity then Volt Switch out, using its defensive stats as a shield to get your next Pokemon in safely, ready to abuse Gravity. Forretress also has access to Pain Split for recovery, which helps it stay in the game when its health is getting low. Forretress is really good at what it does, and can work on both offensive and defensive teams. Provided you stick to its advantages over Ferrothorn, you will rarely be disappointed.</p>
+</dd>
+<dt>Metagross</dt>
+<dd>
+<img src="/download/sprites/bw/376.png" alt="Metagross" />
+<p>Possessing a massive Attack stat and excellent defensive typing, Metagross is perfect for setting up Gravity. Metagross has the added bonus of being able to abuse Gravity as well. Gravity boosts Meteor Mash to 100% accuracy while letting Earthquake hit the Flying-types that would otherwise wall Metagross to hell and back.</p>
+<p>AgiliGross was a very dangerous set in the past, and can still work effectively in BW in conjunction with Gravity. This lets Metagross get past counters such as Bronzong and Skarmory. In addition, Gravity nullifies Air Balloon, so Steel-types such as Heatran that rely on Air Balloon to get past Earthquake can no longer stop an AgiliGross sweep. Metagross also has access to Explosion, which is still usable, even with the nerf, as well as various support moves such as Stealth Rock, Reflect, and Light Screen.</p>
+</dd>
+<dt>Starmie</dt>
+<dd>
+<img src="/download/sprites/bw/121.png" alt="Starmie" />
+<p>Starmie has excellent Speed and decent bulk, allowing it to set up Gravity for your team as well. Starmie can also make use of Gravity by spamming high-powered moves such as Hydro Pump, Thunder, and Blizzard with 100% accuracy. With its type coverage and Speed, Starmie can rampage through teams, making it an excellent choice for offensive teams. Starmie also handles many ground types that your opponent might have, thanks to its super effective moves. This is useful, as many Gravity teams require a Ground check to prevent the opponent from spamming Earthquake as well. Starmie does not resist Ground, but its Speed and coverage should discourage your opponent from switching their Ground-types into it.</p>
+
+<p>Starmie can also use Recover, allowing it to stay healthy throughout the match. However, this does come at the loss of a coverage move. Rapid Spin is also usable for offensive Gravity teams, but again, Starmie misses out on an extra attacking move, thus making it easier to check.</p>
+</dd>
+<dt>Smeargle</dt>
+<dd>
+<img src="/download/sprites/bw/235.png" alt="Smeargle" />
+<p>Viable Gravity users are hard to come by, and as such, Smeargle becomes a decent option. Due to its extremely poor defenses, Smeargle should not be used on defensive Gravity teams. However, offensive Gravity teams love its versatility. Smeargle can run a huge number of support options such as Spore, Spikes, Toxic Spikes, and Stealth Rock. Smeargle can also run dual screens, but these are generally left to other Gravity users, as Smeargle is a bit too frail to be using them.</p>
+<p>Moves such as Destiny Bond and Endeavor are nice for Smeargle, as they let it do decent damage to your opponent. Smeargle must avoid sandstorm if it runs these moves, however. U-turn and Volt Switch give Smeargle the chance to escape the battlefield, but with its pathetic offenses, these will do miniscule damage. Smeargle often works best as a lead to give offensive teams momentum from the start of the match.</p>
+</dd>
+<dt>Magnezone</dt>
+<dd>
+<img src="/download/sprites/bw/467.png" alt="Magnezone" />
+<p>
+Magnezone is a slightly odd choice, as Gravity will prevent Magnet Rise and Air Balloon from covering its crippling 4x Ground weakness, but its ability, Magnet Pull, lets it trap opposing Steel-types, giving it plenty of opportunities to set up Gravity while eliminating troublesome Steel-types with Hidden Power Fire or Thunder. Magnezone makes use of Gravity by abusing its STAB Thunder, as its 30% Paralysis rate is useful for many teams. However, it's the support Magnezone provides to offensive teams that really lets it shine. Trapping Ferrothorn, for example, will allow Starmie to sweep more easily. Trapping Scizor lets Gengar sweep, as it no longer has to worry about Bullet Punch. Magnezone can also use dual screens or status moves such as Toxic and Thunder Wave.</p>
+</dd>
+<dt>Clefable</dt>
+<dd>
+<img src="/download/sprites/bw/36.png" alt="Clefable" />
+<p>Clefable looks like an inferior choice to Blissey or Eviolite Chansey. In terms of walling power this may be the case, but Clefable brings excellent versatility to a Gravity team with its outstanding movepool. Clefable can abuse Magic Guard to protect it from passive damage, such as that from Toxic or sandstorm. Magic Guard also blocks Life Orb recoil, which allows Clefable to run an offensive set relying on moves such as Focus Blast, Fire Blast, Thunder, and Blizzard. Clefable can also run Sing, which has its accuracy boosted under Gravity. Encore is an excellent option to give one of your Pokemon a few free turns to set up. Setting up Stealth Rock is also a viable option, applying pressure to your opponent's team with further passive damage. Clefable can also spread status by tricking a Flame Orb onto a physical attacker or a Toxic Orb onto a wall such as Blissey.</p>
+<p>Clefable has access to healing moves such as Wish and Softboiled, with Softboiled generally being the better choice, as Chansey, Blissey, and Jirachi use Wish more effectively. Due to Blissey and Chansey outclassing Clefable in terms of defensive ability, Clefable is better suited to offensive teams. The best thing about Clefable is that it can be tailored to fit your Gravity team any way you'd like, be it an offensive sweeper or a team supporter.</p>
+</dd>
+<dt>Regice</dt>
+<dd>
+<img src="/download/sprites/bw/378.png" alt="Regice" />
+<p>Regice is often outclassed by Blissey due to lack of a recovery move and worse typing. Ice only grants Regice a resistance to Ice, while leaving it vulnerable to Rock, Fire, and Fighting attacks common in the current metagame. Still, Regice can go on the offensive, with Gravity boosting the accuracy of Zap Cannon and Blizzard—although its low Speed really hampers it.</p>
+</dd>
+<dt>Registeel</dt>
+<dd>
+<img src="/download/sprites/bw/379.png" alt="Registeel" />
+<p>
+Registeel has a nice Steel typing and solid defenses, letting it act as a reliable Gravity supporter. Lack of a viable recovery move hurts Registeel, but moves such as Thunder Wave and Toxic are frustrating for many teams. Registeel can also set up Stealth Rock if needed.
+</p>
+</dd>
+<dt>Regirock</dt>
+<dd>
+<img src="/download/sprites/bw/377.png" alt="Regirock" />
+<p>Regirock has base 200 Defense and base 100 Special Defense that can be further boosted under sandstorm. It can run supporting options such as Thunder Wave and Stealth Rock in a fashion similar to Registeel, but Regirock really loves the accuracy boost of its offensive moves under Gravity. The powerful STAB-boosted Stone Edge has 100% accuracy, as does Hammer Arm, and Earthquake is still available to spam. DynamicPunch is another option that has 83% accuracy under Gravity, letting Regirock play a more offensive role in a Gravity team.</p></dd>
+
+<dt>Mew</dt>
+<dd>
+<img src="/download/sprites/bw/151.png" alt="Mew" />
+<p>With base 100 stats across the board and a massive movepool, Mew is a fantastic option to set up Gravity on both offensive and defensive teams. Mew has access to a few instant recovery moves such as Roost and Recover, and can abuse Gravity with Fire Blast, Thunder, and Blizzard. Offensive teams may appreciate Mew Baton Passing boosts or running a straight up offensive set with Nasty Plot. Defensive teams love the variety of phazing moves Mew has access to as well as those valuable instant recovery moves. Both teams appreciate Mew being able to set up Stealth Rock or even dual screens to cushion hits.</p>
+<p>In addition to all of the above, Mew can act as a status platform of sorts, spamming Will-O-Wisp, Toxic, Hypnosis, and Thunder Wave. Offensive teams appreciate paralysis support as well as a possible threat being asleep, while stall teams love Toxic wearing down key members of the opponent's team. Will-O-Wisp cripples physical attackers as well. Mew is one of the few viable users of Super Fang, an excellent move that can take chunks out of your opponent's team, weakening key members. There is very little that Mew cannot do, and it can be tailored to fit onto almost any Gravity team.</p>
+</dd>
+<dt>Deoxys-D</dt>
+<dd>
+<img src="/download/sprites/bw/388.png" alt="Deoxys-D" />
+<p>Deoxys-D faced a bit of competition from its speedier forme Deoxys-S, as they share a similar movepool. Now that its speedier form has been banned, it can shine on its own. Due to Deoxys-D's high defensive stats, it can be relied on to get 3 layers of Spikes up. Forretress provides stiff competition for this role, however. Deoxys-D does boast a reliable recovery move in Recover, which can work well with its ability, Pressure, allowing it to PP-stall opponent's moves. Deoxys-D can also set up screens like its faster forme, which are still useful to defensive teams, providing a buffer to protect its walls. Although Deoxys-D lacks a phazing move, it can always run Recycle with Red Card. This new item introduced in BW, is a one-use item that forces the opponent out after it attacks the holder. Recycle lets you reuse this strategy, and Recover lets Deoxys-D stay healthy. That set does limit your move choices, though. Deoxys-D can again fire off those high power, low accuracy moves such as Thunder, but its lacking offenses relegate it to a support role.</p></dd>
+<dt>Ferrothorn</dt>
+<dd>
+<img src="/download/sprites/bw/628.png" alt="Ferrothorn" />
+<p>Ferrothorn is the new Grass- and Steel-type introduced in BW. It has excellent defensive typing and the stats to back it up. In addition, Ferrothorn boasts a base Attack stat of 94, which, in conjunction with powerful STAB moves in Gyro Ball and Power Whip, can pack quite a punch. Ferrothorn can learn Gravity, but it must forgo Spikes to use it. In addition, Leech Seed, Stealth Rock, and Gravity cannot all be used on the same set. While this does limit Ferrothorn a bit, teams can always use something else to set up Gravity if the loss of Spikes is too much. That said, with moves such as Thunder Wave, Leech Seed, Stealth Rock, and a 100% accurate Power Whip to threaten Ground- and Water-types, Ferrothorn can fit in both offensive and defensive teams exceptionally well.</p></dd>
+<dt>Sigilyph</dt>
+<dd>
+<img src="/download/sprites/bw/591.png" alt="Sigilyph" />
+<p>Sigilyph is a rather interesting Pokemon. It is a Psychic- and Flying-type, meaning it loses its Ground immunity under Gravity. However, Sigilyph boasts the incredible ability Magic Guard, which prevents it from taking passive damage. Sigilyph also gets Roost, which lets it hang around for a while, setting up Gravity over and over again as the match goes on. Sigilyph also gets useful moves such as Cosmic Power and Calm Mind if it wants to take the boosting sweeper route.</p>
+<p>Despite these Abilitys, Sigilyph does not abuse Gravity too well. Instead, it makes an excellent supporter with the ability to use tactics such as Toxic Orb or Flame Orb with Psycho Shift, or with moves such as Thunder Wave, Reflect, Light Screen, and Whirlwind. Sigilyph can also make use of a 100% accurate Hypnosis under Gravity, making it slightly more difficult to switch into.</p>
+</dd>
+<dt>Porygon2</dt>
+<dd>
+<img src="/download/sprites/bw/233.png" alt="Porygon2" />
+<p>Porygon2 was a rather forgotten Pokemon in DPP. It could check many threats with Trace, but that was the extent of its usefulness. With the introduction of Eviolite, Porygon2 gets a massive defensive boost which, when combined with Recover, makes it very tough to take down.</p>
+<p>Porygon2 can take tremendous punishment and keep Gravity up. It can then abuse buffed BoltBeam coverage, firing off Blizzards and Thunders without fearing a miss. Trace is an amazing ability that lets it switch into Heatran's Fire-type attacks and Jellicent's Water-type moves. It can also gain pseudo-immunity to status by switching into a Pokemon with Natural Cure, and can benefit from a plethora of other useful abilities. However, Porygon2 does suffer a bit from moveslots; if using Gravity, it may not find room for moves such as Thunder Wave, Toxic, and Magic Coat—Recover gives it the essential ability to set up Gravity repeatedly. Due to its wide coverage and excellent defenses, Porygon2 can function well on either offensive or defensive teams with little difficulty, making it a top choice for setting up Gravity.</p>
+</dd>
+<dt>Gigalith</dt>
+<dd>
+<img src="/download/sprites/bw/554.png" alt="Gigalith" />
+<p>Gigalith has a rather poor typing, but with its large Defense, it is capable of setting up Gravity for its teammates. Sandstorm support will allow it to take special hits better, allowing Gigalith to hang around much longer. Its poor movepool limits it, but it can set up Stealth Rock if needed. While Gigalith has few options, it has enough power to hit very hard under Gravity. With its large Attack stat, Gigalith can get awesome coverage with Earthquake and STAB Stone Edge. Gigalith can also utilize Explosion to go out with a bang, clearing the way for another sweeper to make use of Gravity. Even after the nerf in BW, Explosion will still do a lot of damage coming off a base 135 Attack stat. Gigalith also has boosting moves in Curse and Autotomize—the latter of which doubles its Speed and halves its weight—that it can use in conjunction with Gravity.</p>
+</dd>
+</dl>
+
+<h2><a name="abusers">Pokemon That Work Well Under Gravity</a></h2>
+<h4><a name="defensive_abusers">Defensive</a></h4>
+<dl>
+<dt>Skarmory</dt>
+<dd>
+<img src="/download/sprites/bw/227.png" alt="Skarmory" />
+<p>
+Skarmory is an excellent choice for teams needing a Spikes user. Skarmory can also set up Stealth Rock if needed, but with Stealth Rock's better distribution, that task is better left for another Pokemon.</p>
+<p>
+Skarmory shares with Forretress its Steel typing and huge Defense, but Skarmory has a huge advantage in having access to the move Roost, letting it recover 50% of its maximum HP. This makes it very difficult to take down. Skarmory also has access to Whirlwind, letting it phaze and quickly spread residual damage. It also has much higher Speed than Forretress, letting it set up multiple layers of Spikes more easily.</p>
+<p>On the other hand, Skarmory loses its Ground immunity under Gravity. This is a quite a problem, as it can no longer wall some of the attackers it would otherwise. For example, it can no longer check Landorus, a menace to Gravity teams. It is highly recommended that if Skarmory is to be your phazer, a second phazer should be used as backup.
+</p>
+</dd>
+<dt>Tentacruel</dt>
+<dd>
+<img src="/download/sprites/bw/73.png" alt="Tentacruel" />
+<p>Tentacruel is often thought of as being outclassed by Forretress, as its lack of access to Stealth Rock and Spikes is a big letdown. However, Tentacruel plays very differently from Forretress and should not be ignored when crafting your team.</p>
+<p>Tentacruel's main benefit is its access to Rapid Spin and Toxic Spikes, as well as its Poison typing, which allows it to absorb opposing Toxic Spikes. It can make use of Hydro Pump and Blizzard to strike hard under Gravity and can check many Fire- and Water-types with its impressive Special Defense. If you are using Tentacruel, you should pair it with a Spikes user, such as Ferrothorn, to get up as many hazards as possible to hurt your opponent.</p>
+</dd>
+<dt>Hippowdon</dt>
+<dd>
+<img src="/download/sprites/bw/455.png" alt="Hippowdon" />
+<p>When building a defensive team, it's hard to look past Hippowdon, and defensive Gravity teams are no exception. Hippowdon has fantastic physical bulk, making it almost impossible to OHKO with a physical attack. Its large HP stat also allows it to take some special attacks, and with Slack Off recovering 50% of its maximum HP, it becomes extremely difficult to take down. Hippowdon sets up a permanent sandstorm upon entering the field, starting the chain of residual damage by taking 6.25% of many Pokemon's maximum HP each turn. Hippowdon is also an excellent user of Stealth Rock; because very little can OHKO it, Hippowdon will be able to quickly get up Stealth Rock at the start of the match, provided the opponent does not use Taunt.</p>
+<p>Hippowdon also has access to Roar, which, in conjunction with its bulk, typing, and instant Recovery, makes it one of the best phazers under Gravity. Hippowdon can also smash through your opponent's team with its STAB Earthquake and base 112 Attack stat, which will do decent damage to any Pokemon that doesn't resist it.</p>
+</dd>
+<dt>Celebi</dt>
+<dd>
+<img src="/download/sprites/bw/251.png" alt="Celebi" />
+<p>Celebi is an often overlooked Pokemon that can fill a defensive role on both offensive and defensive Gravity teams. Celebi has base 100 stats across the board, giving it balanced defenses. Celebi's Grass typing also allows it to switch in on the opponent's Earthquakes, which can otherwise be rather difficult under Gravity.</p>
+<p>Celebi is blessed with a rather large support movepool, consisting of moves such as Thunder Wave, Leech Seed, Heal Bell, and Perish Song. Perish Song is particularly welcome for defensive Gravity teams, as it provides an excellent way of removing last Pokemon boosters such as RestTalk Suicune, Curse Snorlax, and Curse Tyranitar. Celebi can also set up dual screens, Baton Pass boosts, or even set up Stealth Rock if needed. Celebi also has access to Nasty Plot, which lets it function as an excellent offensive sweeper late-game. Access to Recover lets Celebi last for quite a long time, and U-turn in conjunction with Natural Cure lets it switch in and out of the battle, making it a decent scout.</p>
+<p>On the flip side, Celebi has a massive 7 weaknesses, and as such, can be quickly worn down by super effective moves. Its bulk, Recover, and U-turn can alleviate this to an extent, but repeated hits will take their toll. Also, Celebi does not have moves that can take advantage of Gravity besides a 100% accurate Leaf Storm, Toxic, and Leech Seed. Still, Perish Song and Heal Bell are excellent moves to have on a defensive Gravity team, and Celebi can use them very well.</p>
+</dd>
+<dt>Vaporeon</dt>
+<dd>
+<img src="/download/sprites/bw/134.png" alt="Vaporeon" />
+<p>Vaporeon is an excellent bulky Water-type for a defensive Gravity team. It has access to Water Absorb, potentially giving it free healing when it switches in on a Water move. Vaporeon has a great HP stat, which lets it pass rather large Wishes to heal teammates. Vaporeon can also abuse Roar and Heal Bell if your team requires a phazer or a cleric.</p>
+
+<p>In terms of abusing Gravity, Vaporeon can make use of its 110 base Special Attack stat and fire off 100% accurate Blizzards or Hydro Pumps.</p>
+</dd>
+<dt>Latias</dt>
+<dd>
+<img src="/download/sprites/bw/380.png" alt="Latias" />
+<p>At first glance, Latias seems to be an odd choice for a gravity team, but its base 80 / 90 / 130 defenses make it a great choice for sponging special attacks. It also has a large support movepool, with moves such as Wish, Thunder Wave, Reflect, Light Screen, Toxic, Charm, Healing Wish, and Roar.</p>
+<p>Access to Recover allows Latias to heal 50% of its maximum HP, and access to moves such as Refresh and Psycho Shift help protect it from status. Latias can phaze to great effect, and can even beat Reuniclus this way, using Calm Mind alongside it before sending it away with Roar. This is of great use to defensive teams, as Reuniclus can rip many defensive Gravity teams apart.</p>
+<p>Although losing its ground immunity is frustrating for Latias, it can abuse Gravity to a certain extent by firing off 100% accurate Thunders or Draco Meteors off a base 110 Special Attack stat.</p>
+</dd>
+<dt>Heatran</dt>
+<dd>
+<img src="/download/sprites/bw/490.png" alt="Heatran" />
+<p>With wonderful typing and above-average defensive stats, Heatran is very effective on defensive Gravity teams. These teams will often utilize Toxic Spikes to poison everything under Gravity bar Poison- and Steel-type Pokemon. For this reason, Heatran is an excellent choice to blast through those Steel-types with its STAB Fire moves. Heatran can abuse Gravity very well, as it gives Will-O-Wisp and Fire Blast perfect accuracy. Heatran also gets nice coverage with Fire Blast and Earth Power, hitting pretty much everything that is immune to Toxic Spikes for super effective damage. Heatran's signature attack, Magma Storm, also becomes more viable, as it will have 100% accuracy, trap the target, and deal an extra 6.25% each turn, increasing the amount of residual damage to your opponent's team.</p>
+<p>Heatran can also abuse Roar effectively, spreading residual damage and weakening the bulky Waters that like to switch in. Lastly, Heatran can set up Stealth Rock with its nice typing and defenses.</p>
+</dd>
+<dt>Roserade</dt>
+<dd>
+<img src="/download/sprites/bw/410.png" alt="Roserade" />
+<p>
+Roserade can work decently on both offensive and defensive Gravity teams. It has high Special Attack, Special Defense, and access to both Toxic Spikes and Spikes to rack up entry hazard damage. Roserade can run Sleep Powder—which is incompatible with Spikes—or GrassWhistle, which get their accuracy boosted under Gravity to 100% and 91.67%, respectively. Roserade also has access to Natural Cure, meaning that it can use Rest for recovery and switch out to heal its status. It can also act as a cleric with Aromatherapy. In addition, Roserade absorbs Toxic Spikes upon switching in by virtue of its Poison typing. This is a nice asset to have, considering that Toxic Spikes are extremely dangerous under Gravity.</p>
+<p>Lastly, Roserade can abuse Gravity with moves such as Leech Seed and Leaf Storm. It can also go the double powder route with 100% accurate Stun Spore and Sleep Powder to harass opponent. However, it does clash a bit with Toxic Spikes.</p>
+</dd>
+<dt>Jellicent</dt>
+<dd>
+<img src="/download/sprites/bw/623.png" alt="Jellicent" />
+<p>
+Jellicent is the premier spinblocker introduced in BW. Jellicent has high HP and Special Defense stats backed up with an excellent Water/Ghost typing. Jellicent also as the ability Water Absorb, giving it free healing whenever it switches into a Water-type attack. It can also use Recover, making it very tough to take down.</p>
+<p>Jellicent is useful for many defensive Gravity teams, as its Ghost typing lets it block Rapid Spin, ensuring that entry hazards are not removed. Jellicent can also use Will-O-Wisp, which has 100% accuracy under Gravity, to burn physical attackers that intend to prey on its less-than-stellar Defense stat. Scald is a nice STAB move with a 30% burn rate, giving Jellicent the ability to spread burns around the opponent's team very easily. Jellicent can abuse Gravity by running Blizzard and Hydro Pump, which can do decent damage off its base 100 Special Attack stat. You do miss out on the burn chance of Scald, though.</p>
+</dd>
+<dt>Cofagrigus</dt>
+<dd>
+<img src="/download/sprites/bw/593.png" alt="Cofagrigus" />
+<p>Cofagrigus is another new Ghost-type introduced in BW. Cofagrigus is notable for having a massive 145 Defense stat and a 105 Special Defense stat, making it one of the bulkiest Ghosts in the game. Dusclops provides a bit of competition for it with Eviolite boosting its defenses, but Cofagrigus has a free item slot it can use for items such as Leftovers, and it hits much harder than Dusclops with its base 95 Special Attack stat.</p>
+<p>Cofagrigus has the ability Mummy, which activates when Cofagrigus is hit by a contact move, changing the attacking Pokemon's ability to Mummy as well. Removing abilities such as Guts can be very convenient for defensive teams.</p>
+<p>Cofagrigus has a rather small movepool and really only has Will-O-Wisp to abuse Gravity. Cofagrigus does have a nice niche—with access to moves such as Haze and Curse, it can counter last-Pokemon stat boosters. On the flip side, Cofagrigus has no real recovery, having to rely on Rest. Lastly, Cofagrigus can sweep with moves such as Calm Mind and Nasty Plot, although its low Speed makes it hard to sweep effectively.</p>
+</dd>
+<dt>Spiritomb</dt>
+<dd>
+<img src="/download/sprites/bw/447.png" alt="Spiritomb" />
+<p>Spiritomb is another excellent option for a spinblocker on a defensive Gravity team. Its Ghost/Dark typing gives it no weaknesses, perfect for a spinblocker, and its base 108 base defenses make it tough to take down. In addition, Spiritomb has access to Pressure, letting it stall out powerful, low PP attacks.</p>
+<p>Spiritomb is one of the few Pokemon that can wall Reuniclus, a key threat to defensive Gravity teams. Under Gravity, Spiritomb can use a 100% accurate Will-O-Wisp to burn physical attackers. Alternatively, it can use Hypnosis with perfect accuracy to incapacitate a counter or other "problem Pokemon." Unfortunately, Spiritomb must resort to Pain Split for recovery, as a RestTalk set would limit its coverage. It can also trap and kill certain Starmie with Sucker Punch or Shadow Sneak, putting Starmie into a checkmate situation with Pursuit. Spiritomb can run a Trick Choice Band set to cripple certain Pokemon, or a Curse set to take down any last Pokemon that stall may have trouble with. Lastly, Spiritomb can attempt a sweep by running a mono-attacking set with Calm Mind, Rest, Sleep Talk, and Dark Pulse to take both special and physical hits while remaining a potent offensive threat later in the game.</p>
+</dd>
+</dl>
+<h4><a name="offensive_abusers">Offensive</a></h4>
+<dl>
+<dt>Landorus</dt>
+<dd>
+<img src="/download/sprites/bw/675.png" alt="Landorus" />
+<p>Landorus is yet another powerful Ground-type introduced in BW. Landorus plays a similar role to the late Excadrill, sweeping extremely effectively if sandstorm and Gravity are up. Landorus has access to the ability Sand Power, which boosts the power of Rock-, Ground-, and Steel-type moves by 30%. This gives Landorus an extremely powerful STAB Earthquake which, under Gravity, will hit everything neutrally except for Grass-types. Landorus has above average stats overall as well. Its Speed stat lets it outrun base 100s, and it has a very nice base 125 Attack stat. In addition, its decent defenses let it take a hit when needed.</p>
+<p>Landorus has access to Swords Dance and Rock Polish to boost its Attack and Speed stats, respectively. It can even run both on the same set if needed. Landorus can abuse U-turn to scout and can run a mixed or Special set, although it lacks a bit in coverage. Under Gravity, Landorus can abuse a 100% accurate Stone Edge for further coverage.</p>
+</dd>
+<dt>Golurk</dt>
+<dd>
+<img src="/download/sprites/bw/653.png" alt="Golurk" />
+<p>Golurk is very useful on Gravity teams. With a nice base 124 Attack stat and STAB Earthquake, Golurk hits very hard under Gravity. Its average defenses let it take a hit when needed as well, which is always a plus. Unfortunately, Golurk has several weaknesses, namely to Ice-, Grass-, Water-, Dark-, and Ghost-type attacks. These are rather common weaknesses, which can make it tough to switch in safely. It's not all bad for Golurk, though; its Ghost and Ground typing gives it immunities to Electric-, Fighting-, and Normal-type attacks. In addition, its Ghost typing lets it fit well on an offensive Gravity team as an offensive spin blocker, helping to maintain any hazards that might have been set up.</p>
+<p>Golurk can abuse the SubPunch combination; Focus Punch even gets an additional boost when paired with Golurk's ability Iron Fist. Additionally, its dual STAB combination grants it nice coverage. Golurk can also abuse a 100% accurate Stone Edge, granting it near-perfect coverage twice over, as both Rock + Ground and Ghost + Fighting work excellently together. It can use Rock Polish to increase its Speed if you want to sweep with Golurk, and can use Curse decently. DynamicPunch and Hammer Arm are other excellent options if you want to go with a Fighting-type move.</p>
+</dd>
+<dt>Virizion</dt>
+<dd>
+<img src="/download/sprites/bw/670.png" alt="Virizion" />
+<p>Virizion, one of BW's musketeer trio, has a great typing in Fighting and Grass, giving it a resistance to Earthquake that Gravity teams love. Virizion is also fairly bulky and with its base 108 Speed, can outspeed much of the metagame.</p>
+<p>Virizion has access to the set-up moves Calm Mind and Swords Dance, to boost either attacking stat, opening up the potential for it to go mixed. Nice STAB moves such as Close Combat, Leaf Blade, Giga Drain, and Focus Blast means that it can potentially hit very hard, no matter what set its running. Virizion can also act as a check to Rain teams, which struggle to get past its impressive Special Defense.</p>
+</dd>
+<dt>Mamoswine</dt>
+<dd>
+<img src="/download/sprites/bw/478.png" alt="Mamoswine" />
+<p>Mamoswine was a very threatening sweeper in DPP but suffered the unfortunate problem of being walled by defensive powerhouses such as Skarmory and Bronzong. While this is still the case in the new generation, Mamoswine has become a rather anti-metagame pokemon, and once Gravity is up, it's exceptionally hard to play around.</p>
+<p>First, Mamoswine has access to a massive base 130 Attack stat, which gives its attacks a lot of power. The speed creep of BW also allows Mamoswine to run Adamant for even more power. Access to a STAB Ice Shard is also perfect for Mamoswine, as Ice Shard lets it function as an effective revenge killer to Flying-types and the many Dragon-type Pokemon that plague the metagame. What Mamoswine really excels at, however, is luring out and eliminating the Pokemon that counter Landorus. Under Gravity, Skarmory and Bronzong no longer wall it and get smashed with Earthquake. Celebi, Tangrowth, Hippowdon, and Gliscor all hate Mamoswine's Ice attacks, while Rotom-W hates having Levitate ignored under Gravity. After a few turns, Mamoswine can quickly destroy a team's defensive backbone, leaving your opponent vulnerable to Landorus later in the game.</p>
+<p>With one of the strongest Earthquakes in the game, Mamoswine is hard to ignore for a spot on a Gravity team. STAB Ice attacks and attacks with priority are perhaps the biggest reasons to use it over Landorus. Play to its strengths and Mamoswine will do just fine on a Gravity team.</p>
+</dd>
+<dt>Tyranitar</dt>
+<dd>
+<img src="/download/sprites/bw/248.png" alt="Tyranitar" />
+<p>Tyranitar has always been a top Pokemon and not much has changed in BW. It works perfectly on a Gravity team, using its impressive Attack stat to smash through teams, while utilizing its awesome bulk to check powerful sweepers such as Latios.</p>
+<p>Tyranitar, upon entering the battlefield, will create a Sandstorm that will chip away at Pokemon not Rock-, Steel-, or Ground-type, and lack the abilities Magic Guard and Overcoat. Luckily, many Gravity abusers have one of these types, so the Sandstorm should not hinder your team as much. Tyranitar can abuse Stone Edge and Aqua Tail, which are 100% accurate under Gravity, as well as Earthquake, which hits Flying-types and Levitators. It can even run mixed or fully special sets, as it can drop Ice Beam, Thunderbolt, and Flamethrower for their more powerful alternatives. Tyranitar supports the team well, as the Sandstorm it brings to the field gives a nice boost to Landorus's offenses. Tyranitar can also set up Stealth Rock for your team.</p>
+</dd>
+<dt>Dugtrio</dt>
+<dd>
+<img src="/download/sprites/bw/51.png" alt="Dugtrio" />
+<p>Although Dugtrio is rather uncommon in the current metagame, it has huge success on Gravity teams, as with Arena Trap, it can trap any Pokemon in the game under Gravity. Dugtrio also got a boosting move in Hone Claws, letting it set up on a trapped opponent for as long as Gravity is up, then sweep. It may also choose to remove key Pokemon from your opponent's team. Even without Hone Claws, Dugtrio can still sweep, as an unresisted STAB Earthquake coming off a decent Attack stat can do nice damage. Combine that with Stone Edge, and under Gravity Dugtrio gets excellent coverage.</p>
+</dd>
+<dt>Heracross</dt>
+<dd>
+<img src="/download/sprites/bw/214.png" alt="Heracross" />
+<p>Heracross might not be the first Pokemon brought up when someone mentions Gravity. It doesn't have access to STAB Earthquake, but thanks to a large attack stat, its Earthquake still hits very hard. In addition, Heracross really sufferers from the poor accuracy of its moves. For example, Megahorn and Stone Edge are essential on most Heracross, despite their low accuracy. Under Gravity, both of those attacks have perfect accuracy, letting you abuse them with virtually no downside.</p>
+<p>Heracross also has an excellent niche as one of the few Fighting-types that can handle the powerful Psychic-type Pokemon that have become more popular. With a STAB Megahorn at its disposal, Reuniclus, Slowbro, and Latias all have to stay well clear, letting Heracross unleash its powerful Fighting-type STAB attacks.</p>
+</dd>
+<dt>Zweilous</dt>
+<dd><img src="/download/sprites/bw/664.png" alt="Zweilous" />
+<p>Although Zweilous has an underwhelming base 85 Attack stat, its ability, Hustle, boosts it to an equivalent of base 150. This gives Zweilous the most powerful Outrage in the game! However, Hustle has the downside of lowering the accuracy of Zweilous's physical attacks by 20%. In comes Gravity, which works to negate Hustle's accuracy drop. Furthermore, Zweilous's decent 72 / 70 / 70 base defenses can be boosted by the Eviolite, allowing it to be a hefty tank. However, its pitiful physical movepool outside of STAB Outrage and Crunch, along with a mediocre 58 base Speed stat, leave much to be desired. Still, in the right hands, Zweilous can be a frightening physical attacker, and is worth considering for an offensive Gravity team.</p></dd>
+<dt>Victini</dt>
+<dd>
+<img src="/download/sprites/bw/522.png" alt="Victini" />
+<p>At first glance, Victini does not seem like your average Gravity abuser. Its Psychic and Fire typing leaves it vulnerable to quite a few threats, while its weakness to Earthquake is not very desirable on a Gravity team. However, Victini can use Gravity and its ability Victory Star, which acts as a Wide Lens Boost, to use a nearly 100% accurate Inferno, normally a 50% accurate move; this move has 100 Base Power and comes with a 100% burn rate. Many common switch-ins to Victini, such as Tyranitar, do not appreciate a burn, and this makes Victini harder to deal with. Under Gravity, Victini can also get great coverage with 100% accurate Focus Blast and Thunder, while also having physical options such as Brick Break, Fusion Bolt, and V-create. Victini can also abuse certain status moves such as Toxic or Will-O-wisp to great effect under Gravity.</p>
+</dd>
+<dt>Shaymin</dt>
+<dd>
+<img src="/download/sprites/bw/497.png" alt="Shaymin" />
+<p>With base 100 stats across the board and pure Grass typing, Shaymin has Abilities that work well on many types of Gravity teams. As explained numerous times, Gravity teams greatly appreciate Pokemon who resist Ground-type attacks, and Shaymin also brings helpful resistances to Water- and Grass-type attacks that your main Earthquake users might be weak to. It can be defensive with Aromatherapy and/or Leech Seed, or offensive, with Earth Power and Seed Flare providing good coverage under Gravity. Lastly, Shaymin can abuse GrassWhistle, which has much better accuracy under Gravity and can disable key threats to your team.</p>
+</dd>
+<dt>Gengar</dt>
+<dd>
+<img src="/download/sprites/bw/94.png" alt="Gengar" />
+<p>
+Gengar is an odd choice for a Gravity team, as it loses its Ground immunity, making it much harder to switch in with those frail defenses. On the other hand, it brings to the table high Speed and Special Attack to bulldoze though teams. Focus Blast has perfect accuracy under Gravity, and Gengar can also abuse Hypnosis to put a counter to sleep, perhaps giving it the opportunity to set up a free Substitute and inflict more damage. Gengar can also spam a high-powered Thunder to wreck Water-types switching in.</p>
+</dd>
+<dt>Venomoth</dt>
+<dd>
+<img src="/download/sprites/bw/49.png" alt="Venomoth" />
+<p>Venomoth got a big boost in BW with the introduction of Quiver Dance to its movepool. One of the best set-up moves in the game, it increases Speed, Special Attack, and Special Defense by one stage each. Venomoth can then Baton Pass these boosts to a special sweeper such as Starmie, who can power through threats. For example, a +2 Starmie packs massive power, landing a 2HKO on Sassy max HP / SpD Ferrothorn with Blizzard. Venomoth can also abuse a 100% accurate Sleep Powder under Gravity, which can be very useful in gaining that free turn to set up a Quiver Dance.</p>
+</dd>
+<dt>Tornadus</dt>
+<dd>
+<img src="/download/sprites/bw/671.png" alt="Tornadus" />
+<p>Tornadus has access to Hurricane, which becomes a 100% accurate, 120 Base Power STAB attack that will do tremendous damage. Hurricane also comes with a neat 30% chance to cause confusion. Tornadus can also spam Focus Blast which, under Gravity, will not miss and can smash Steel-types that resist Hurricane. Tornadus has the excellent ability Prankster, which gives +1 priority to non-damaging moves. This lets Tornadus spam a fast Taunt or even Tailwind to increase your team's speed for four turns.</p>
+</dd>
+<dt>Rotom-W</dt>
+<dd>
+<img src="/download/sprites/bw/503.png" alt="Rotom-W" />
+<p>
+Rotom-W lost its Ghost typing in the generation shift, exchanging it for Water typing instead. This can be seen as a positive, as now Rotom-W has STAB on both Thunderbolt and Hydro Pump, which lets it have great coverage and hit very hard. By virtue of its typing, it can switch into Water and Ice attacks directed at your Ground-types and retaliate with a Hydro Pump.</p>
+<p>Under Gravity, Rotom-W loses its Ground immunity, but on the other hand, it can spam Hydro Pump and Thunder with 100% accuracy. Rotom-W can also spam status moves such as Will-O-Wisp with perfect accuracy, discouraging physical sweepers from switching in. Even without its Ground immunity, with excellent resistances and bulk, Rotom-W should still be able to switch in and out, firing off high powered attacks under Gravity.</p>
+</dd>
+<dt>Rotom-F</dt>
+<dd>
+<img src="/download/sprites/bw/501.png" alt="Rotom-F" />
+<p>Rotom-F has been largely forgotten in the new metagame in favor of Rotom-W, which has the advantage of a more accurate alternate STAB move and a better typing. However, under Gravity, Rotom-F has a few things that set it apart from its cousin. With the generation shift, the Rotom formes gained new typings. Rotom-F gained Ice typing, which is rather poor defensively. However, Ice is an excellent offensive typing, and under Gravity, Rotom-F can make use of it by spamming a 100% accurate STAB Blizzard, which deals huge damage. Rotom-F can also abuse the 100% accurate Thunder, giving it excellent, more powerful BoltBeam coverage. Will-O-Wisp, now 100% accurate, can ward off Tyranitar, which would otherwise shrug off a Thunder and threaten to retaliate with a STAB Stone Edge. Rotom-F, like its other formes, loses its Ground immunity under Gravity, which is frustrating. On the other hand, with nice bulk and strong offensive coverage, it can be a perfect fit on a Gravity team.</p>
+</dd>
+<dt>Nidoking</dt>
+<dd>
+<img src="/download/sprites/bw/34.png" alt="Nidoking" />
+<p>At first glance, a Ground weakness seems to hinder Nidoking's chances on an offensive Gravity team. However, with a huge attacking movepool and access to STAB Ground-type attacks, Nidoking can be very effective. With the introduction of the Dream World, Nidoking got the useful ability Sheer Force, which raises the base power of all moves that have a positive secondary effect by 30%. However, the secondary effect is eliminated in exchange. This ability also removes recoil from Life Orb, so long as you are using a move that is boosted by Sheer Force. This gives Nidoking huge amounts of power to complement its already awesome coverage. Nidoking can abuse its special movepool with attacks such as Earth Power, Fire Blast, Blizzard, Thunder, and Focus Blast all benefitting from Gravity in some way. As a bonus, all of these moves are boosted by Sheer Force, making the special attacker set one of Nidoking's best. However, Nidoking can also go physical, with moves such as Megahorn, Earthquake, Head Smash, Stone Edge, and Poison Jab all available; of these, though, only Poison Jab gets a boost from Sheer Force, making a physical set very ineffective. Lastly, Nidoking can phaze with Dragon Tail or even set up Stealth Rock if your team requires it.</p>
+</dd>
+<dt>Durant</dt>
+<dd>
+<img src="/download/sprites/bw/662.png" alt="Durant" />
+<p>Durant, the new Steel- and Bug-type introduced in BW, is also an option for your Gravity team. Durant has great Attack, Defense, and Speed stats, but the remainder of its stats are well below average, which means that it may require some careful prediction to get in safely. However, Durant does have a few excellent resistances, and once it's in safely, it can hit hard with its base 109 Attack stat.</p>
+<p>Durant has access to Hustle, which boosts the power of physical attacks by 50%, but in turn lowers their accuracy by 20%. Gravity somewhat nullifies this accuracy drop, making all physical moves with 80% or higher accuracy 100% accurate. However, Durant really struggles to damage Steel-types, with Dig and Rock Smash as its only options to hurt them. Teaming up Durant with Magnezone is a good idea, as Magnezone can trap and kill the Steels that give Durant trouble, as well as set up Gravity.</p>
+</dd>
+<dt>Torterra</dt>
+<dd>
+<img src="/download/sprites/bw/392.png" alt="Torterra" />
+<p>Torterra is an excellent Pokemon to use under Gravity that can fulfill both offensive and defensive roles for a team. It has the wonderful Grass and Ground typing, which lets it resist Ground-type attacks, a useful ability for Gravity teams. Torterra also has excellent bulk, which lets it take a few hits and dish them back out with a base 109 Attack stat. With a STAB Earthquake at its disposal, Torterra can quickly blast through teams once Gravity is active. It has access to the powerful Stone Edge, which has perfect accuracy under Gravity. The combination of Earthquake and Stone Edge gets phenomenal coverage. Torterra also has access to the powerful Wood Hammer to slam Water-type Pokemon. Aside from this, though, Torterra lacks many other useful offensive moves. Swords Dance lets it hit even harder and Rock Polish patches up its low Speed to try for a sweep. Both moves can make Torterra very threatening; however, they are tough to pull off effectively, as Gravity has a very limited timespan.</p>
+<p>On the defensive side, Torterra has access to the Leech Seed + Protect combination to annoy opponents as well as providing it with limited recovery. Torterra also can run Roar to phaze out stat boosters, or it can set up Stealth Rock if your team requires it.</p>
+</dd>
+</dl>
+
+<h2><a name="team_building">Team Building</a></h2>
+<h4><a name="defensive_team">Defensive Teams</a></h4>
+<p>Defensive Gravity teams work a lot like your average stall team, which involves setting up hazards to wear down your opponents team, while switching walls in and out to prevent your opponent from making any headway into your team. However, on Gravity teams, phazing suddenly becomes a lot more frightening to your opponent. If Gravity is up, Spikes hits all Pokemon on the field; in conjunction with Stealth Rock, the amount of damage to your opponent can be huge. For example, Salamence would take 50% switching into Stealth Rock and 3 layers of Spikes if Gravity is up, which is truly amazing. As stated above, traditional stall tactics, such as setting up hazards, playing around with resistances, and wearing down Pokemon with residual damage all apply here just as they would on a normal stall team.</p>
+<p>
+<img src="/download/sprites/bw/455.png" alt="Hippowdon" /><br />
+Hippowdon (M) @ Leftovers<br />
+Ability: Sand Stream<br />
+EVs: 252 HP / 4 Atk / 252 Def<br />
+Impish Nature (+Def, -SpA)<br />
+- Slack Off<br />
+- Roar<br />
+- Earthquake<br />
+- Stealth Rock</p>
+<p>The numerous roles Hippowdon fills on a Gravity team make it hard to ignore. Hippowdon starts the battle by setting up sandstorm, inflicting residual damage on your opponent's team from turn 1. Sandstorm is also useful in helping shut down other weather teams. Hippowdon can use its massive bulk to check the many physical sweepers in BW, such as Landorus. With access to Slack Off, Hippowdon can last for a long time and spam Roar very effectively, doing huge damage under Gravity when phazing. Earthquake is a nice STAB move to have and has lovely coverage with Gravity.</p>
+<p>
+<img src="/download/sprites/bw/242.png" alt="Blissey" /><br />
+Blissey (F) @ Leftovers<br />
+Ability: Natural Cure<br />
+EVs: 80 HP / 252 Def / 176 SpD<br />
+Bold Nature (+Def, -Atk)<br />
+- Softboiled<br />
+- Gravity<br />
+- Aromatherapy<br />
+- Seismic Toss<br />
+</p>
+<p>Blissey is a Pokemon you cannot ignore when building a defensive Gravity Team. Its massive HP and excellent Special Defense let it sponge special attacks with ease while setting up Gravity. Softboiled and Natural Cure mean it's not going down any time soon. Blissey can use Aromatherapy to heal any status that's been inflicted on its teammates. Seismic Toss is Blissey's best way to do damage when needed.</p>
+<p>
+<img src="/download/sprites/bw/356.png" alt="Dusclops" /><br />
+Dusclops (M) @ Eviolite<br />
+Ability: Pressure<br />
+EVs: 252 HP / 4 Atk / 252 Def<br />
+Impish Nature (+Def, -SpA)<br />
+- Gravity<br />
+- Pain Split<br />
+- Will-O-Wisp<br />
+- Earthquake<br />
+</p>
+<p>All defensive Gravity teams need a spinblocker, and Dusclops fits that role perfectly. Eviolite boosts both of its defenses by 50%, and with Pain Split, Dusclops can get some quick recovery. This is the team's second Gravity user, meaning that keeping Dusclops alive is very important. Dusclops and Blissey have good synergy, Dusclops taking the Fighting-type attacks directed at Blissey and burning the physical attackers that Blissey hates to face. Will-O-Wisp has perfect accuracy under Gravity and cripples any physical attacker trying to switch in. Dusclops can also get decent coverage with Earthquake under Gravity, hitting most Pokemon for neutral damage.</p>
+<p>
+<img src="/download/sprites/bw/205.png" alt="Forretress" /><br />
+Forretress (M) @ Leftovers<br />
+Ability: Sturdy<br />
+EVs: 252 HP / 4 Def / 252 SpD<br />
+Sassy Nature (+SpD, -Spe)<br />
+- Toxic Spikes<br />
+- Spikes<br />
+- Rapid Spin<br />
+- Gyro Ball</p>
+<p>Forretress has excellent Defense and is perfect for setting up the layers of hazards that all stall teams need. Toxic Spikes and Spikes will wreak havoc under Gravity, while Rapid Spin prevents opposing hazards from crippling the team.</p>
+<p>
+<img src="/download/sprites/bw/380.png" alt="Latias" /><br />
+Latias (F) @ Leftovers<br />
+Ability: Levitate<br />
+EVs: 252 HP / 4 SpA / 252 Spe<br />
+Timid Nature (+Spe, -Atk)<br />
+- Calm Mind<br />
+- Dragon Pulse<br />
+- Recover<br />
+- Roar</p>
+<p>Latias is the team's check to Calm Mind Reuniclus, which dismantles many stall teams. With Calm Mind and Roar, Latias can boost up alongside it, Roar it out, then freely sweep the opponent's team. Access to Recover means that Latias can hang around for a fair bit while acting as a backup phazer. She can switch in easily on the Water- and Grass-type moves that plague Hippowdon, allowing you to rack up residual damage quickly. Latias is also very useful against other stall teams, as it outspeeds many common phazers, including Skarmory, and can phaze them out first. Lastly, Latias can sweep late-game once it has amassed enough Calm Mind boosts.</p>
+<p>
+<img src="/download/sprites/bw/134.png" alt="Vaporeon" /><br />
+Vaporeon (M) @ Leftovers<br />
+Ability: Water Absorb<br />
+EVs: 248 HP / 252 Def / 8 SpD<br />
+Bold Nature (+Def, -Atk)<br />
+- Wish<br />
+- Protect<br />
+- Scald<br />
+- Ice Beam</p>
+<p>Vaporeon is the glue of the team. Passing large Wishes to Forretress and Dusclops is very important and helps this team function at its peak. Scald is an excellent STAB move with a 30% burn rate, which discourages many physical attackers from switching in. Ice Beam lets Vaporeon deal significant damage to the many Dragons in the metagame such as Salamence and Haxorus.</p>
+<h4><a name="offensive_balanced_team">Offensive / Balanced Teams</a></h4>
+<p>Offensive Gravity teams are difficult to classify because of the massive variety of options available. Deoxys, Jirachi, and even Mew are often used to set up Gravity, as they also play many other roles for the team. Offensive Gravity teams often carry a powerful Ground-type Pokemon, such as Landorus, to abuse powerful Earthquakes. They also often run high power, low accuracy moves that have greater accuracy under Gravity. Choice Band Dugtrio can also find its way onto offensive Gravity teams with its ability to trap anything when Gravity is active. Teams based around Dugtrio will often abuse entry hazards such as Spikes and Stealth Rock to lower Pokemon into Dugtrio's KO range. Offensive Gravity teams can still share basic strategies with your average non-gravity team, such as weakening your opponent's team for a sweeper to break through, or by playing around with resistances when switching into attacks.</p>
+<p>
+<img src="/download/sprites/bw/490.png" alt="Heatran" /><br />
+Heatran (M) @ Leftovers<br />
+Ability: Flash Fire<br />
+EVs: 252 HP / 252 SpD / 4 Spe<br />
+Calm Nature (+SpD, -Atk)<br />
+- Lava Plume<br />
+- Stealth Rock<br />
+- Toxic<br />
+- Roar</p>
+<p>Heatran can fill a myriad of roles for an offensive Gravity team. First and foremost, it sets up the useful Stealth Rock to increase residual damage. Stealth Rock is crucial for checking Pokemon such as Salamence and Volcarona, so getting it up quickly is very important. As a Fire-type, Heatran also serves as an excellent check to Pokemon such as Scizor and Celebi that can cause problems for this team. In addition, Heatran lures in bulky Water-types and can nail them with Toxic, wearing them down. Toxic also helps weaken opposing weather inducers such as Ninetales and Politoed, letting you control the weather. Lastly, Heatran also serves as the team's primary phazer. If Gravity is up in conjunction with a few layers of Spikes and Stealth Rock, Heatran can cause some serious damage, opening up the opponents team for a sweep.</p>
+<p>
+<img src="/download/sprites/bw/356.png" alt="Dusclops" /><br />
+Dusclops (M) @ Eviolite<br />
+Ability: Pressure<br />
+EVs: 252 HP / 80 Def / 176 SpD<br />
+Calm Nature (+SpD, -Atk)<br />
+- Pain Split<br />
+- Will-O-Wisp<br />
+- Night Shade<br />
+- Gravity</p>
+<p>Dusclops is the team's Ghost-type, preventing Rapid Spinners from removing any hazards. Eviolite boosts the Defense and Special Defense of NFE Pokemon by 50% each, and with Dusclops's already impressive defenses, makes it exceptionally hard to take down. Those impressive defenses let it switch in on nearly any Rapid Spinner in the game. Dusclops also helps provide burn support for/p
+- Stealth Rock
+- Pain Spl/pit the team, crippling physical attackers and spreading residual damage. Dusclops is also the team's first Gravity user, which makes the team's hazards much more threatening while limiting the opponent's switches.</p>
+<p>
+<img src="/download/sprites/bw/470.png" alt="Tangrowth" /><br />
+Tangrowth (M) @ Leftovers<br />
+Ability: Regenerator<br />
+EVs: 252 HP / 252 Def / 4 SpD<br />
+Relaxed Nature (+Def, -Spe)<br />
+- Power Whip<br />
+- Hidden Power Ice<br />
+- Sleep Powder<br />
+- Leech Seed<br />
+</p>
+<p>Powerful Ground-types such as Landorus are a massive pain to Gravity teams. While Gravity is in effect, they can do massive damage with STAB Earthquake and as such, a Pokemon that resists Ground-type attacks is needed. Tangrowth is the team's check to them, shrugging off Earthquakes and hitting back with a STAB Power Whip. Tangrowth can also use Leech Seed to pile up residual damage while keeping the team relatively healthy. Because sleep is so crippling in BW, having a sleep move on Tangrowth is very helpful, especially if you run into something dangerous. Hidden Power Ice nails Gliscor, which, again, can fire off Swords Dance-boosted Earthquakes that can be tough to switch into. Lastly, Tangrowth has the amazing ability Regenerator, which lets it heal 33% of its health upon switching out, making it a perfect pivot Pokemon for the team.</p>
+<p>
+<img src="/download/sprites/bw/248.png" alt="Tyranitar" /><br />
+Tyranitar (M) @ Choice Band<br />
+Ability: Sand Stream<br />
+EVs: 252 HP / 36 Atk / 220 SpD<br />
+Adamant Nature (+Atk, -SpA)<br />
+- Crunch<br />
+- Pursuit<br />
+- Stone Edge<br />
+- Aqua Tail</p>
+<p>Tyranitar performs a very important role for this team—setting up Sandstorm. Sandstorm is crucial, as it helps weaken Life Orb sweepers, limiting their attacks. Sandstorm also helps shut down any opposing Pokemon that might try and change the weather—once they have been sufficiently weakened, a Choice Band Pursuit can often cripple them enough to prevent them from switching in again. Aside from setting up Sandstorm, Tyranitar also serves as an excellent check to the powerful psychic types in the metagame, slamming them with a powerful Crunch or trapping them with Pursuit. Tyranitar's massive power lets it break down the opponent's team and makes it tough to switch into, especially once a few layers of hazards have been set up.</p>
+<p>
+<img src="/download/sprites/bw/388.png" alt="Deoxys-D" /><br />
+Deoxys-D @ Leftovers<br />
+Ability: Pressure<br />
+EVs: 252 HP / 4 Def / 252 SpD<br />
+Calm Nature (+SpD, -Atk)<br />
+- Gravity<br />
+- Recover<br />
+- Spikes<br />
+- Psychic</p>
+<p>Deoxys-D is the team's second Gravity user, working in tandem with Tangrowth to wall as many attackers as possible. Deoxys-D packs recovery as well as Spikes, which really hurts the opponent. Deoxys simply has the job of switching into pretty much any Special attack and using Spikes and Recover until all layers are up. It then hangs around to set up Gravity once or twice to cripple the opponent with hazard damage.</p>
+<p>
+<img src="/download/sprites/bw/675.png" alt="Landorus" /><br />
+Landorus @ Life Orb<br />
+Ability: Sand Power<br />
+EVs: 252 Atk / 4 SpA / 252 Spe<br />
+Naive Nature (+Spe, -SpD)<br />
+- Swords Dance<br />
+- Earthquake<br />
+- Stone Edge<br />
+- Hidden Power Ice</p>
+<p>Landorus packs massive power with a Life Orb under Gravity in the sand. Although running a boosting move under a field effect with such a short time clock, after one Swords Dance, it is guaranteed to OHKO Impish 252 HP / 252 Def Skarmory and 2HKO Hippowdon and Gliscor with Earthquake. You could run a Naughty nature to guarantee a OHKO on Hippowdon, but Landorus cannot afford to give up its treasured 101 Base Speed tier, and it has outstanding coverage regardless.</p>
+<h2><a name="conclusion">Conclusion</a></h2>
+<p>Gravity is a very rare sight to see in the BW metagame, as many players are not familiar with the move. Due to its lack of use, it is often labeled as a gimmick; however this is far from the case. A well-made Gravity team can quickly threaten a non-Gravity team with the advantages that Gravity brings, smashing through teams with powerful Ground-type attacks or dealing massive damage with Spikes. The purpose of this guide is to teach you about Gravity and how it can be readily abused. I hope you have enjoyed the article and that it has aided you in understanding Gravity.</p>

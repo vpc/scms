@@ -1,0 +1,876 @@
+[title]
+DPPt Tips and Tricks
+[head]
+<meta name="description" content="Tips and tricks for fourth generation Pokémon games." />
+<style type="text/css">
+.imgleft {
+float: left;
+margin-right: 25px;
+}
+
+.imgright {
+float: right;
+margin-left: 25px;
+}
+</style>
+[page]
+<div class="author">Compiled by <a href="/forums/member.php?u=32388">ClikC</a>.</div>
+<ol class="toc">
+<li><a href="#dp">4th Generation Tips</a>
+<ul><li><a href="#useful">Useful Pokémon and Abilities</a>
+<ul>
+<li><a href="#ingame">In-Game</a></li>
+<li><a href="#breeding">Breeding</a></li>
+<li><a href="#catching">Catching</a></li>
+<li><a href="#items">Items</a></li>
+</ul>
+</li>
+    <li><a href="#dpother">Other Tips and Tricks</a>
+<ul>        <li><a href="#discerning_nature">Discerning the Nature of Pokémon Eggs</a></li>
+            <li><a href="#characteristics">Characteristics</a></li>
+            <li><a href="#determining_ivs">Accurately Determining IVs</a></li>
+            <li><a href="#cloning">GTS Cloning in D/P</a></li>
+            <li><a href="#evcheck">EV Checking and Altering</a></li>
+            <li><a href="#time">Instant Massages, Swarm Changing, Trophy Garden, and Other Time-Based Manipulation</a></li>
+            <li><a href="#palpark">Pal Park Trick</a></li>
+            <li><a href="#evolving_without_trading">Evolving a Pokémon Without Trading</a></li>
+            <li><a href="#happiness">Speeding up the Process of Happiness-Based Evolution</a></li>
+            <li><a href="#money">Making Large Amounts of Money in a Short Time</a></li>
+            <li><a href="#free_pokemon">Free Pokémon</a></li>
+            </ul>
+            </li>
+            </ul>
+            </li>
+<li><a href="#platinum">Platinum-Exclusive Tips and Tricks</a>
+<ul>    <li><a href="#hp_reporter">Checking Newly Caught and Hatched Pokémon</a></li>
+</ul>
+</li>
+<li><a href="#pbr">Pokémon Battle Revolution Tips and Tricks</a>
+<ul><li><a href="#secret">Unlocking Secret Gifts</a></li></ul>
+</li>
+</ol>
+
+<h2><a name="dp">4th Generation Tips</a></h2>
+
+<h3><a name="useful">Useful Pokémon and Abilities</a></h3>
+
+<h4><a name="ingame">In-Game</a></h4>
+
+<p><strong>HM slaves</strong> are Pokémon that are not used for battling but for completion of the game, or for getting from area to area. The ideal HM slave learns multiple HM moves for efficient use of party slots.</p>
+
+<p>Nothing is more frustrating than traveling across all of Sinnoh for a particular item or Pokémon, only to discover a boulder in your path that you cannot move. This is why many players utilize HM slaves within their party. This saves taking up moveslots on your battling Pokémon with HM moves, which are hard to delete, and often terrible for in-game battling. Here are some examples.</p>
+
+<p><img src="/download/sprites/dp/431.png" alt="Drifblim" /></p>
+
+<p>Drifblim learns three of Sinnoh's HM moves: Fly, Defog, and Cut. Although it is arguably of limited use, it also has access to Flash. You can catch a Drifloon at the Valley Windworks on a Friday, after defeating Commander Mars there. Overall, Tropius is a better Flying HM slave, with access to 5 HMs, Flash, and Sweet Scent; however, Drifblim is the best Flying HM slave you can get early on in-game in Sinnoh.</p>
+
+<p><img src="/download/sprites/dp/403.png" alt="Bibarel" /></p>
+
+<p>Bibarel is probably the best HM slave in existence. You can get a Bidoof very early in-game, and Bibarel pop up not long after. It learns a whopping 6 HMs: Waterfall, Surf, Strength, Rock Smash, Rock Climb, and Cut. It is useful for both traveling over the sea and land.</p>
+
+<h4><a name="breeding">Breeding</a></h4>
+
+<p><img src="/download/sprites/dp/132.png" alt="Ditto" /></p>
+
+<p><strong>Ditto</strong> is the number one tool for breeders—any Pokémon which can breed can breed with Ditto, regardless of gender and species. Not only that, but when Ditto holds an Everstone while in the daycare, Pokémon Eggs generated have a 50% chance of inheriting the nature of the Ditto. A collection of Ditto with good IVs and natures is of the highest priority to any would-be Pokémon breeder. It should be noted that with the advent of RNG abuse it is possible to breed any nature onto a Pokémon Egg from any parents. This makes a Ditto with great IVs (regardless of nature) useful for breeding.</p>
+
+<p><img src="/download/sprites/dp/235.png" alt="Smargle" /></p>
+
+<p><strong>Smeargle</strong> is without a doubt the best Pokémon for breeding Egg moves onto new Pokémon. Smeargle is part of the Ground Egg group, the largest of all the Egg groups, containing 131 Pokémon. Smeargle also has the ability to learn every move in the game, via its signature move Sketch. Often, a combination of Egg moves is only possible with the use of a Smeargle as the male parent. Thus, next to Ditto, Smeargle is the second most important breeding tool within the game.</p>
+
+<p>The most effective method for tutoring Smeargle is to use the VS Seeker (obtained from Dawn/Lucas on Route 207 after the first trip down Cycling Road in D/P, and in Platinum, upon meeting at the entrance to Mt. Coronet) to start a new double battle with one of the many pairs of Trainers in Sinnoh. Lead with Smeargle and a Pokémon with the move you wish to Sketch. It is important to note their respective Speed stats. If Smeargle has a higher Speed stat, it will go first in battle; therefore, if it uses Sketch during the first turn, it will fail due to there being no move to copy. Keep in mind that Sketch only has 1 PP. So if Smeargle is faster, use a different attack during turn 1, while the slower Pokémon uses the move Smeargle is trying to Sketch. Then, select Sketch during the next turn. Otherwise, select both Sketch and the move you want to teach in the same turn.</p>
+
+<p>Make sure a Pokémon with either <strong>Magma Armor</strong> or <strong>Flame Body</strong> is in your party when hatching Eggs. With these Pokémon in your party, Eggs will hatch roughly twice as fast as they would normally. Slugma and Magcargo are guaranteed to have one of these abilities. Camerupt has Magma Armor, and Magby and Magmar have Flame Body.</p>
+
+<p>For more information on breeding, please read <a href="/ingame/guides/breeding_guide_part1">The Breeding Guide</a>, by X-Act and Peterko.</p>
+
+<h4><a name="catching">Catching</a></h4>
+
+<p>A <strong>Synchronizer</strong> is a Pokémon with the ability Synchronize and is the best tool for catching Pokémon with a desired nature. When the Synchronizer is first in the party (even if fainted), encountered Pokémon have a 54% chance of sharing the nature of the Synchronizer.</p>
+
+<p>A <strong>Sweet Scenter</strong> is a Pokémon with the move Sweet Scent. Using the move Sweet Scent in an applicable location immediately triggers an encounter with a wild Pokémon. This is exceptionally useful during RNG abuse for wild Pokémon, as walking to encounter a Pokémon advances the frame.</p>
+
+<p>A <strong>Trapper</strong> is a Pokémon dedicated to stopping other Pokémon from escaping. Many Pokémon can be used as a trapper, but arguably the best is Smeargle.</p>
+
+<img src="/download/sprites/dp/235.png" alt="Smeargle" />
+
+<pre>Smeargle @ Leftovers (lv. 100)
+Technician
+Jolly / Adamant
+6 HP / 252 Atk / 252 Spe
+~ Spore / Thunder Wave
+~ False Swipe
+~ Mean Look
+~ Haze / Foresight</pre>
+
+<p>False Swipe, Mean Look, and a status move are required. A sleeping Pokémon at 1 HP has the highest chance of being caught, but Thunder Wave is a usable alternative to Spore on Pokémon with the Insomnia ability. STAB powers up False Swipe to 60 Base Power and Technician increases this to 90. Mean Look prevents the running Pokémon such as Mesprit, Cresselia, Entei, Raikou, and Suicune from fleeing the battle. Foresight is useful for allowing False Swipe to work on Ghost-type Pokemon. Haze is useful for stat-uppers, but your own stat-increasing move such as Swords Dance can be used for upping the power of False Swipe. Recover or Refresh are also viable but lesser options, as you have access to items anyway.</p>
+
+<p>For more information on catching Pokémon, please read <a href="/ingame/guides/capturing_dp_legendaries">A Guide to Capturing D/P Legendaries</a> by Arseus and StrangerDanger, which contains a lot of information applicable to normal captures.</p>
+
+<h4><a name="items">Items</a></h4>
+
+<p>Pokémon with the ability <strong>Pickup</strong> may find items after battle. After a battle or wild Pokémon encounter, each Pokémon in the player's party that has Pickup has a 10% chance of having picked up an item, providing it did not already have an item.</p>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Level</th>
+<th>30%</th>
+<th>10%</th>
+<th>5%</th>
+<th>3%</th>
+<th>1%</th>
+</tr>
+</thead>
+<tbody>
+<tr >
+<td>1-10</td>
+<td>Potion</td>
+<td>Antidote, Super Potion, Great Ball, Repel, Escape Rope, Full Heal</td>
+<td>Hyper Potion</td>
+<td>Ultra Ball</td>
+<td>Revive, Nugget</td>
+</tr>
+<tr class="a">
+<td>11-20</td>
+<td>Antidote</td>
+<td>Super Potion, Great Ball, Repel, Escape Rope, Full Heal, Hyper Potion</td>
+<td>Ultra Ball</td>
+<td>Revive</td>
+<td>Nugget, King's Rock</td>
+</tr>
+<tr >
+<td>21-30</td>
+<td>Super Potion</td>
+<td>Great Ball, Repel, Escape Rope, Full Heal, Hyper Potion, Ultra Ball</td>
+<td>Revive</td>
+<td>Rare Candy</td>
+<td>King's Rock, Full Restore</td>
+</tr>
+<tr class="a">
+<td>31-40</td>
+<td>Great Ball</td>
+<td>Repel, Escape Rope, Full Heal, Hyper Potion, Ultra Ball, Revive, Rare Candy</td>
+<td>Dusk Stone</td>
+<td>Full Restore</td>
+<td>Ether</td>
+</tr>
+<tr >
+<td>41-50</td>
+<td>Repel</td>
+<td>Escape Rope, Full Heal, Hyper Potion, Ultra Ball, Revive, Rare Candy</td>
+<td>Dusk Stone</td>
+<td>Shiny Stone</td>
+<td>Ether, White Herb</td>
+</tr>
+<tr class="a">
+<td>51-60</td>
+<td>Escape Rope</td>
+<td>Full Heal, Hyper Potion, Ultra Ball, Revive, Rare Candy, Dusk Stone</td>
+<td>Shiny Stone</td>
+<td>Dawn Stone</td>
+<td>White Herb, TM44 (Rest)</td>
+</tr>
+<tr >
+<td>61-70</td>
+<td>Full Heal</td>
+<td>Hyper Potion, Ultra Ball, Revive, Dusk Stone, Shiny Stone</td>
+<td>Dawn Stone</td>
+<td>Full Restore</td>
+<td>TM44 (Rest), Elixir</td>
+</tr>
+<tr class="a">
+<td>71-80</td>
+<td>Hyper Potion</td>
+<td>Ultra Ball, Revive, Rare Candy, Dusk Stone, Shiny Stone, Dawn Stone</td>
+<td>Full Restore</td>
+<td>Max Revive</td>
+<td>Elixir, TM01 (Focus Punch)</td>
+</tr>
+<tr >
+<td>81-90</td>
+<td>Ultra Ball</td>
+<td>Revive, Rare Candy, Dusk Stone, Shiny Stone, Dawn Stone, Full Restore</td>
+<td>Max Revive</td>
+<td>PP Up</td>
+<td>TM01 (Focus Punch), Leftovers</td>
+</tr>
+<tr class="a">
+<td>91-100</td>
+<td>Revive</td>
+<td>Rare Candy, Dusk Stone, Shiny Stone, Dawn Stone, Full Restore, Max Revive</td>
+<td>PP Up</td>
+<td>Max Elixir</td>
+<td>Leftovers, TM26 (Earthquake)</td>
+</tr>
+</tbody>
+</table>
+
+<p>As the Pickup Pokemon's level goes up, the rarity of items found is increased. Often teams of six high level Pokémon are used to collect items.</p>
+
+<p>Outside of battle, a Pokémon with the ability <strong>Compoundeyes</strong> has an increased chance of encountering a Pokémon with a held item. This works even if the Compoundeyes Pokémon has fainted. Butterfree, Nincada, Venonat, and Yanma all have this ability.</p>
+
+<p>Pokémon with <strong>Frisk</strong> and <strong>Thief</strong> can be used in combination with a Compoundeyes Pokémon to steal specific items from wild Pokémon. This is exceptionally useful for finding evolution items such as Dragon Scale.</p>
+
+<p>The lead of your party should be a fainted Pokémon with Compoundeyes. In second position, place a Pokémon with the ability Frisk, the move Thief, and no held item. Upon encountering a wild Pokémon, Frisk will reveal its held item, should it have one. Use Thief to obtain it, then run from the battle. Make sure to remove the item from your Pokémon after the battle. Repeat as required.</p>
+
+<p>Stantler is a good candidate for such a Pokémon, but Shuppet and Banette are also viable. You may wish to bring a Sweet Scenter to speed up the process.</p>
+
+<h3><a name="dpother">Other Tips and Tricks</a></h3>
+
+<h4>Discerning the Nature of Pokémon Eggs</h4>
+
+<p>The <strong>Egg Box trick</strong> is an exploitable glitch within Diamond and Pearl (however, it has been fixed in Platinum), allowing you to see the nature of a Pokémon before it has hatched from an Egg. This is very useful for checking the nature of a Pokémon if you have RNG abused to produce the Egg.</p>
+
+<p>The trick involves having a Pokémon and an Egg on the same box tile, but in separate adjacent boxes with the cursor hovering over the Pokémon. With careful timing, press either the left or right shoulder button to change boxes from the one containing the Pokémon to the one containing the Egg, just as the small information box in the lower left hand corner of the screen switches from the Pokémon's type to the nature. This will trick the box into displaying the nature of the Pokémon within the Egg.</p>
+
+<h4><a name="characteristics">Characteristics</a></h4>
+
+<p>The characteristic of a Pokémon, introduced in the fourth generation and viewable on the trainer memo page of the Pokémon's summary, displays a message which is determined by the highest IV. It can be used as a method of identifying a probable IV value in a given stat, but is best combined with other methods of checking IVs, such as IV battles and Platinum's IV Reporter.</p>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th>
+<th>Characteristic</th>
+<th colspan="7">IV Value</th>
+</tr>
+</thead>
+<tbody>
+<tr >
+<td>HP</td>
+<td>Loves to eat</td>
+<td>0</td>
+<td>5</td>
+<td>10</td>
+<td>15</td>
+<td>20</td>
+<td>25</td>
+<td><strong>30</strong></td>
+</tr>
+<tr class="a">
+<td>HP</td>
+<td>Often dozes off</td>
+<td>1</td>
+<td>6</td>
+<td>11</td>
+<td>16</td>
+<td>21</td>
+<td>26</td>
+<td><strong>31</strong></td>
+</tr>
+<tr >
+<td>HP</td>
+<td>Scatters things often</td>
+<td>2</td>
+<td>7</td>
+<td>12</td>
+<td>17</td>
+<td>22</td>
+<td>27</td>
+<td>&mdash;</td>
+</tr>
+<tr class="a">
+<td>HP</td>
+<td>Often scatters things</td>
+<td>3</td>
+<td>8</td>
+<td>13</td>
+<td>18</td>
+<td>23</td>
+<td>28</td>
+<td>&mdash;</td>
+</tr>
+<tr >
+<td>HP</td>
+<td>Likes to relax</td>
+<td>4</td>
+<td>9</td>
+<td>14</td>
+<td>19</td>
+<td>24</td>
+<td>29</td>
+<td>&mdash;</td>
+</tr>
+<tr class="a">
+<td>Attack</td>
+<td>Proud of its power</td>
+<td>0</td>
+<td>5</td>
+<td>10</td>
+<td>15</td>
+<td>20</td>
+<td>25</td>
+<td><strong>30</strong></td>
+</tr>
+<tr >
+<td>Attack</td>
+<td>Likes to thrash about</td>
+<td>1</td>
+<td>6</td>
+<td>11</td>
+<td>16</td>
+<td>21</td>
+<td>26</td>
+<td><strong>31</strong></td>
+</tr>
+<tr class="a">
+<td>Attack</td>
+<td>A little quick-tempered</td>
+<td>2</td>
+<td>7</td>
+<td>12</td>
+<td>17</td>
+<td>22</td>
+<td>27</td>
+<td>&mdash;</td>
+</tr>
+<tr >
+<td>Attack</td>
+<td>Likes to fight</td>
+<td>3</td>
+<td>8</td>
+<td>13</td>
+<td>18</td>
+<td>23</td>
+<td>28</td>
+<td>&mdash;</td>
+</tr>
+<tr class="a">
+<td>Attack</td>
+<td>Quick-tempered</td>
+<td>4</td>
+<td>9</td>
+<td>14</td>
+<td>19</td>
+<td>24</td>
+<td>29</td>
+<td>&mdash;</td>
+</tr>
+<tr >
+<td>Defense</td>
+<td>Sturdy body</td>
+<td>0</td>
+<td>5</td>
+<td>10</td>
+<td>15</td>
+<td>20</td>
+<td>25</td>
+<td><strong>30</strong></td>
+</tr>
+<tr class="a">
+<td>Defense</td>
+<td>Capable of taking hits</td>
+<td>1</td>
+<td>6</td>
+<td>11</td>
+<td>16</td>
+<td>21</td>
+<td>26</td>
+<td><strong>31</strong></td>
+</tr>
+<tr >
+<td>Defense</td>
+<td>Highly persistent</td>
+<td>2</td>
+<td>7</td>
+<td>12</td>
+<td>17</td>
+<td>22</td>
+<td>27</td>
+<td>&mdash;</td>
+</tr>
+<tr class="a">
+<td>Defense</td>
+<td>Good endurance</td>
+<td>3</td>
+<td>8</td>
+<td>13</td>
+<td>18</td>
+<td>23</td>
+<td>28</td>
+<td>&mdash;</td>
+</tr>
+<tr >
+<td>Defense</td>
+<td>Good perseverance</td>
+<td>4</td>
+<td>9</td>
+<td>14</td>
+<td>19</td>
+<td>24</td>
+<td>29</td>
+<td>&mdash;</td>
+</tr>
+<tr class="a">
+<td>Special Attack</td>
+<td>Highly curious</td>
+<td>0</td>
+<td>5</td>
+<td>10</td>
+<td>15</td>
+<td>20</td>
+<td>25</td>
+<td><strong>30</strong></td>
+</tr>
+<tr >
+<td>Special Attack</td>
+<td>Mischievous</td>
+<td>1</td>
+<td>6</td>
+<td>11</td>
+<td>16</td>
+<td>21</td>
+<td>26</td>
+<td><strong>31</strong></td>
+</tr>
+<tr class="a">
+<td>Special Attack</td>
+<td>Thoroughly cunning</td>
+<td>2</td>
+<td>7</td>
+<td>12</td>
+<td>17</td>
+<td>22</td>
+<td>27</td>
+<td>&mdash;</td>
+</tr>
+<tr >
+<td>Special Attack</td>
+<td>Often lost in thought</td>
+<td>3</td>
+<td>8</td>
+<td>13</td>
+<td>18</td>
+<td>23</td>
+<td>28</td>
+<td>&mdash;</td>
+</tr>
+<tr class="a">
+<td>Special Attack</td>
+<td>Very finicky</td>
+<td>4</td>
+<td>9</td>
+<td>14</td>
+<td>19</td>
+<td>24</td>
+<td>29</td>
+<td>&mdash;</td>
+</tr>
+<tr >
+<td>Special Defense</td>
+<td>Strong-willed</td>
+<td>0</td>
+<td>5</td>
+<td>10</td>
+<td>15</td>
+<td>20</td>
+<td>25</td>
+<td><strong>30</strong></td>
+</tr>
+<tr class="a">
+<td>Special Defense</td>
+<td>Somewhat vain</td>
+<td>1</td>
+<td>6</td>
+<td>11</td>
+<td>16</td>
+<td>21</td>
+<td>26</td>
+<td><strong>31</strong></td>
+</tr>
+<tr >
+<td>Special Defense</td>
+<td>Strongly defiant</td>
+<td>2</td>
+<td>7</td>
+<td>12</td>
+<td>17</td>
+<td>22</td>
+<td>27</td>
+<td>&mdash;</td>
+</tr>
+<tr class="a">
+<td>Special Defense</td>
+<td>Hates to lose</td>
+<td>3</td>
+<td>8</td>
+<td>13</td>
+<td>18</td>
+<td>23</td>
+<td>28</td>
+<td>&mdash;</td>
+</tr>
+<tr >
+<td>Special Defense</td>
+<td>Somewhat stubborn</td>
+<td>4</td>
+<td>9</td>
+<td>14</td>
+<td>19</td>
+<td>24</td>
+<td>29</td>
+<td>&mdash;</td>
+</tr>
+<tr class="a">
+<td>Speed</td>
+<td>Likes to run</td>
+<td>0</td>
+<td>5</td>
+<td>10</td>
+<td>15</td>
+<td>20</td>
+<td>25</td>
+<td><strong>30</strong></td>
+</tr>
+<tr >
+<td>Speed</td>
+<td>Alert to sounds</td>
+<td>1</td>
+<td>6</td>
+<td>11</td>
+<td>16</td>
+<td>21</td>
+<td>26</td>
+<td><strong>31</strong></td>
+</tr>
+<tr class="a">
+<td>Speed</td>
+<td>Impetuous and silly</td>
+<td>2</td>
+<td>7</td>
+<td>12</td>
+<td>17</td>
+<td>22</td>
+<td>27</td>
+<td>&mdash;</td>
+</tr>
+<tr >
+<td>Speed</td>
+<td>Somewhat of a clown</td>
+<td>3</td>
+<td>8</td>
+<td>13</td>
+<td>18</td>
+<td>23</td>
+<td>28</td>
+<td>&mdash;</td>
+</tr>
+<tr class="a">
+<td>Speed</td>
+<td>Quick to flee</td>
+<td>4</td>
+<td>9</td>
+<td>14</td>
+<td>19</td>
+<td>24</td>
+<td>29</td>
+<td>&mdash;</td>
+</tr>
+</tbody>
+</table>
+
+<h4><a name="determining_ivs">Accurately Determining IVs</a></h4>
+
+<p>The <strong>IV Battle</strong> is a little-documented, if well-known, technique for checking the IVs of Pokémon without EVs. The technique involves using Nintendo Wi-Fi's Lv. 100 battle mode to level up non-permanently.</p>
+
+<p>Prerequisites:</p>
+<ol>
+<li>Two Nintendo DSes (if you do not have access to two, use a partner)</li>
+<li>Two fourth generation Pokémon game cartridges (if you do not have two DSes, you will need a partner with one)</li>
+<li>Access to Nintendo Wi-Fi from both DSes</li>
+</ol>
+
+<p>Place the Pokémon you wish to IV check in your party (make sure you can distinguish them from one another). Log on Wi-Fi and initiate a Lv. 100 Single Battle. When the battle starts, proceed to each Pokémon's status display. Note down the values for each stat, and input them into an IV calculator.</p>
+
+<h4><a name="cloning">GTS Cloning in D/P</a></h4>
+
+<p>The <strong>GTS cloning</strong> glitch can be exploited by following these steps carefully:</p>
+
+<ol>
+<li>Enter the GTS when you are not waiting for any Pokémon you have requested to be traded to you.</li>
+<li>Put the Pokémon you are trying to clone up for offer, and ask for something people wouldn't just have lying around their boxes. You should ask for the less common gender of a Lv. 100 NFE Pokémon, something people would not have unless they had specifically PokéSaved it for the trade.</li>
+<li>As the game is saving, watch the ticking clock icon, and keep track of how many times the clock has made a full cycle.</li>
+<li>When the clock has gone around about eight times, turn off your DS. If it says the Pokémon was put up for offer on the GTS, you were too late, and did not clone it. The number of times that works for cloning differs depending on the speed of your Wi-Fi connection, so you should try different amounts of time by cloning something that isn't valuable to the average GTS user. Find the amount most reliable for you.</li>
+<li>Turn your game back on. You will see a blue screen telling you that your save file is corrupted and your previous save file will be loaded, but this is not a problem.</li>
+<li>Remove your Pokémon from the GTS. If it was not there, you disconnected too early and it was not cloned.</li>
+<li>If the Pokémon is in your party, good work! You have cloned a Pokémon.</li>
+</ol>
+
+<p>You can use Pokétch Application #5 to instantly check your party when you load the game, but checking your party is sufficient. Note that, although the process of cloning does work in Platinum, you will <strong>not</strong> be able to retrieve the clone. The system will disconnect you from the GTS and delete the Pokémon.</p>
+
+<h4><a name="evcheck">EV Checking and Altering</a></h4>
+
+<img src="/media/ingame/images/dpp_tips_effortribbon.png" alt="Oh! That Effort Ribbon looks good on your STARMIE!" class="imgright" />
+
+<p>The EV Checker, or <strong>Effort Ribbon</strong> woman, is located in the Sunyshore Market in DPPT and in Blackthorn City in HGSS. She will check the lead Pokémon in your party, and tell you one of the following:</p>
+
+<ul>
+<li><em>Oh, your &lt;Pokémon&gt;, it worked stupendously hard, didn't it?</em></li>
+<li><em>Oh, your &lt;Pokémon&gt;, it needs to work a little harder.</em></li>
+<li><em>Oh, that Effort Ribbon looks good on your &lt;Pokémon&gt;!</em></li>
+</ul>
+
+<p>The first means that your Pokémon has 510 EVs and is most likely correctly EVed. After saying this, she will present your Pokémon with an Effort Ribbon. The second means it is not fully EVed. Keep in mind that if it has already received an Effort Ribbon, even if its EVs have been reduced, she will say the third.</p>
+
+<p>A useful way of checking Pokémon with simple EV spreads is as follows. For example, take a special sweeper with a spread of 6 HP / 252 SpA / 252 Spe. Feed it 10 Calcium vitamins and 10 Carbos (100 EVs in Special Attack and Speed respectively), then EV train so that both stats have 252 EVs. Present it to the Effort Ribbon lady. If you have done it correctly, she will say that it needs to work a little harder. Then give it a single HP Up and check again. If she awards the Effort Ribbon, it has most likely been trained correctly. For absolute certainty, check your Pokémon in an IV battle with an IV calculator, inputting your EV spread, against its known IVs.</p>
+
+<p>The <strong>EV wiping</strong> Berries are perhaps the most useful outside of those used in battle. They are ideal for correcting mistakes during EVing, or clearing a Pokémon of 'random' EVs gained during playthrough. Essentially, these Berries work in reverse to vitamins, removing 10 EVs at a time. However, you can use as many Berries as you wish in a given stat.</p>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Berry</th>
+<th>Stat</th>
+</tr>
+</thead>
+<tbody>
+<tr >
+<td>Pomeg Berry</td>
+<td>HP</td>
+</tr>
+<tr class="a">
+<td>Kelpsy Berry</td>
+<td>Attack</td>
+</tr>
+<tr >
+<td>Qualot Berry</td>
+<td>Defense</td>
+</tr>
+<tr class="a">
+<td>Hondew Berry</td>
+<td>Special Attack</td>
+</tr>
+<tr >
+<td>Grepa Berry</td>
+<td>Special Defense</td>
+</tr>
+<tr class="a">
+<td>Tamato Berry</td>
+<td>Speed</td>
+</tr>
+</tbody>
+</table>
+
+<p>With each use, the message '<em>&lt;Pokémon&gt; became more friendly, but its base &lt;stat&gt; fell.</em>' will be displayed. Once the EVs of a stat reach 0, each consecutive use will result in the messaage '<em>&lt;Pokémon&gt; became more friendly, but its base &lt;stat&gt; won't go lower.</em>' It is important to note that no matter how many EVs are in a given stat, it will only take 11 Berries to completely erase them. The first use of the Berry resets the EVs to 100, as long as that stat had 101-255 EVs previously. Each following use reduces the EVs by 10.</p>
+
+<p>For an extensive guide to EV training in DPP, please read Erodent's <a href="/ingame/guides/ev_manual">DPP EVing Manual</a>.</p>
+
+<h4><a name="time">Instant Massages, Swarm Changing, Trophy Garden, and Other Time-Based Manipulation</a></h4>
+
+<img src="/media/ingame/images/dpp_tips_swarm.png" class="imgleft" alt="Route 208! They said there's a whole bunch of DUNSPARCE there!" />
+
+<p>To manipulate the results of time-based in-game events, follow these steps:</p>
+
+<ol>
+<li>Save in front of whomever you receive the time-based event from, such as Mr. Backlot (Trophy Garden) or Dawn's little sister (swarm).</li>
+<li>Turn your DS clock off, and set the time to 23:59. Load up the game immediately.</li>
+<li>Let the day pass in-game (23:59-00:00).</li>
+<li>Receive your daily event. If you do not receive what you want (i.e. wrong Trophy Garden Pokemon, wrong item from massage) reset your game and repeat.</li>
+</ol>
+
+<img src="/media/ingame/images/dpp_tips_garden.png" class="imgright" alt="I noticed a cute-eyed BONSLY, which joyously ran over to me." />
+
+<p>It should be noted that you cannot reset your swarm Pokémon by simply repeating the fourth step. Swarm Pokémon are designated to a certain day, so using this method to get a different swarm Pokémon will not work. You must repeat <em>the entire process</em> to make the day pass in-game in order to receive different swarms.</p>
+
+<p>Regarding the Trophy Garden, the game has storage for two different Pokémon&mdash;'Today' and 'Yesterday'. Talking to Mr. Backlot will cause a new Pokémon to occupy today's slot, and will move the previous Pokémon to yesterday's slot. Once you have two Pokémon you like in the garden&mdash;for example, Eevee in today's slot and Ditto in yesterday's&mdash;they will occupy their given slots until you talk to Mr. Backlot again. Note that it is impossible to get the same species in both slots.</p>
+
+<h4><a name="palpark">Pal Park Trick</a></h4>
+
+<p>The <strong>Pal Park trick</strong> allows you to receive more than six Pokémon per day from one third-generation cartridge. It also allows you to reset the Pal Park clock if you have modified it for RNG abuse, or changed the DS used to normally Pal Park. For this trick to work, you will need at least two separate third-generation GBA Pokémon games&mdash;one used to synchronize the game and DS clocks, and one from which to import Pokémon. Here is an example step-by-step guide.</p>
+
+<ol>
+<li>Change the date on your DS. If you have already Pal Parked Pokémon on a given day, move your DS's internal calendar forward by a day.</li>
+<li>With the cartridge you will be using for synchronization inserted, turn on your DS and proceed to Pal Park as normal.</li>
+<li>You will receive the following message: <em>You are using different a Nintendo DS, or its internal clock has been altered. If the game's time settings are changed, you will not be able to migrate Pokemon for another 24 hours.</em> It will then give you the option to match settings on the current DS. Select Yes on the touch screen and the settings will change.</li>
+<li>Power off your DS, and insert the cartridge you wish to migrate Pokémon from.</li>
+<li>Turn it back on and Pal Park as normal.</li>
+<li>Repeat as required to Pal Park as many Pokémon as you wish in a single day, making sure to swap the cartridge as required.</li>
+</ol>
+
+<h4><a name="evolving_without_trading">Evolving a Pokémon Without Trading</a></h4>
+
+<p>The <strong>GTS Evolution trick</strong> allows you to evolve a Pokémon which would normally evolve only by trading. For those without access to a partner willing to trade back and forth, evolution is still possible by using the GTS.</p>
+
+<ol>
+<li>Go to the GTS and offer the Pokémon you wish to evolve for something much more valuable.</li>
+<li>Search the GTS for any Pokémon and successfully trade for it.</li>
+<li>Withdraw the Pokémon you offered originally from the GTS.</li>
+<li>The game will be fooled into thinking that your Pokémon has been traded, and it will evolve as if it had been sent to somebody else's game&mdash;even though it never left yours!</li>
+</ol>
+
+<h4><a name="happiness">Speeding Up the Process of Happiness-Based Evolution</a></h4>
+
+<p>Some of the metagame's most potent Pokémon evolve based on their dynamic happiness stat. Often, evolving these Pokémon is a timely affair, so following are some tips and an overall guide to happiness. It is also worth mentioning that happiness effects the Base Power of <a href="/dp/moves/return">Return</a> and <a href="/dp/moves/frustration">Frustration</a>.</p>
+
+<p><em>Determing Current Happiness Level</em></p>
+
+<img src="/media/ingame/images/dpp_tips_happinessrater.png" class="imgleft" alt="Welcome to the Pokémon Fan Club! Oh, your ILLUMISE..." />
+
+<p>The <strong>Happiness Rater</strong> is a character present in all games since the second generation. The happiness rater in DPPt is located at the Pokémon Fan Club in Hearthome City. She will say a phrase relating to the current happiness value of your Pokémon:</p>
+
+<p><strong>Diamond and Pearl</strong></p>
+
+<ul>
+<li><em>'It doesn't seem to like you at all. It looks mean.'</em> &ndash; Happiness value of between 0-49</li>
+<li><em>'You should treat it better. It's not used to you.'</em> &ndash; Happiness value of between 50-99.</li>
+<li><em>'It's quite cute.'</em> &ndash; Happiness value of between 100-149.</li>
+<li><em>'It's friendly towards you. It looks sort of happy.'</em> &ndash; Happiness value of between 150-199.</li>
+<li><em>'I get the feeling that it really trusts you.'</em> &ndash; Happiness value of between 200-249.</li>
+<li><em>'It looks really happy! It must love you a lot."</em> &ndash; Happiness value of between 250-255.</li>
+</ul>
+
+<p><strong>Platinum</strong></p>
+
+<ul>
+<li><em>'Oh, my... I think this one really hasn't taken too kindly to you.'</em> &ndash; Happiness value of 0.</li>
+<li><em>'Hmm... It seems to dislike you a little.'</em> &ndash; Happiness value of 1-49.</li>
+<li><em>'It's feeling neutral toward you. It's up to you to change that.'</em> Happiness value of between 50-99.</li>
+<li><em>'It's warming up to you. That's my impression.'</em> Happiness value of between 100-149.</li>
+<li><em>'It's quite friendly to you. It must be happy being with you.'</em> Happiness value of between 150-199.</li>
+<li><em>'It's very friendly toward you. I can tell you treat it kindly.'</em> Happiness value of between 200-254.</li>
+<li><em>'It simply adores you! Why, I feel like I'm intruding!'</em> Happiness value of 255.</li>
+</ul>
+
+<p>From the third generation onwards, Pokémon have a base happiness per species. Most Pokémon caught or recently traded have a happiness value of 70 points (the default reset value).</p>
+
+<p>In the Eterna City Pokémon Center, a girl will give away a Pokétch application that indicates in a basic way the party feels about you. To view the happiness of an individual Pokémon, hold the stylus over it. Maximum happiness is shown by two large hearts. On Route 213, east of Pastoria City, Dr. Footstep will also determine a Pokémon's happiness level. At maximum happiness, he will attach the Footstep Ribbon to the Pokémon.</p>
+
+<p><em>Changing the Current Happiness Level</em></p>
+
+<p>Various in-game activities increase or decrease the happiness level of your Pokémon.</p>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Event</th>
+<th>Change</th>
+<th>With Soothe Bell</th>
+<th>With Luxury Ball</th>
+<th>With Luxury Ball and Soothe Bell</th>
+</tr>
+</thead>
+<tbody>
+<tr ><td>Walking 256 steps with Pokémon in party</td> <td>+1</td> <td>+2</td> <td>+2</td> <td>+3</td></tr>
+<tr class="a"><td>Massage (Veilstone City)</td> <td>+3</td> <td>+4</td> <td>+5</td> <td>+6</td></tr>
+<tr ><td>Massage (Ribbon Syndicate)</td> <td>+5</td> <td>+6</td> <td>+6</td> <td>+7</td></tr>
+<tr class="a"><td>Using vitamins</td> <td>+2</td> <td>+3</td> <td>+6</td> <td>+7</td></tr>
+<tr ><td>Levelling up</td> <td>+2</td> <td>+3</td> <td>+6</td> <td>+7</td></tr>
+<tr class="a"><td>Using EV reducing Berries</td> <td>+2</td> <td>+3</td> <td>+6</td> <td>+7</td></tr>
+<tr ><td>Using healing items</td> <td>+1</td> <td>+2</td> <td>+2</td> <td>+3</td></tr>
+<tr class="a"><td>Fainting</td> <td>-1</td> <td>&mdash;</td> <td>&mdash;</td> <td>&mdash;</td></tr>
+<tr ><td>Using Energy or Heal Powder</td> <td>-5</td> <td>&mdash;</td> <td>&mdash;</td> <td>&mdash;</td></tr>
+<tr class="a"><td>Using Energy Root</td> <td>-10</td> <td>&mdash;</td> <td>&mdash;</td> <td>&mdash;</td></tr>
+<tr ><td>Using Revival Herb</td> <td>-15</td> <td>&mdash;</td> <td>&mdash;</td> <td>&mdash;</td></tr>
+<tr class="a"><td>Trading or Pal Parking</td> <td>Reset to base happiness</td> <td>&mdash;</td> <td>&mdash;</td> <td>&mdash;</td></tr>
+</tbody>
+</table>
+
+<p>The Soothe Bell gives one extra happiness point per happiness-raising event. This makes it the most invaluable tool for raising happiness, and can be applied to any Pokémon, unlike the Luxury Ball. The Soothe Bell can be obtained from either a maid at Mr. Backlot's Pokémon Mansi
+
+
++2on, or from Cheryl after travelling through Eterna Forest (Platinum).</p>
+
+<p>The base happiness of a Pokémon determines what its happiness value is when it is caught, and what it is set to when the Pokémon is traded.</p>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Base Happiness</th>
+<th>Pokémon</th>
+</tr>
+</thead>
+<tbody>
+<tr >
+<td>0</td>
+<td>Arceus, Buneary, Darkrai, Deoxys (all forms), Dialga, Giratina (both forms), Groudon, Ho-Oh, Kyogre, Lugia, Mewtwo, Palkia, Rayquaza, Regigigas.</td>
+<tr class="a">
+<td>35</td>
+<td>Absol, Aggron, Aron, Articuno, Bagon, Banette, Beldum, Cacnea, Cacturne, Carvanha, Chatot, Dragonair, Dragonite, Dratini, Dusclops, Dusknoir, Duskull, Entei, Gardevoir, Glaceon, Honchkrow, Houndoom, Houndour, Kirlia, Lairon, Larvitar, Leafeon, Metagross, Metang, Misdreavus, Mismagius, Moltres, Murkrow, Pupitar, Raikou, Ralts, Regice, Regirock, Registeel, Sableye, Salamence, Sharpedo, Shelgon, Shuppet, Sneasel, Suicune, Tyranitar, Umbreon, Weavile, Zapdos.</td>
+<tr >
+<td>70</td>
+<td>All other Pokémon.</td>
+<tr class="a">
+<td>90</td>
+<td>Latias, Latios.</td>
+<tr >
+<td>100</td>
+<td>Ambipom, Celebi, Cresselia, Croagunk, Heatran, Jirachi, Luxio, Mew, Pachirisu, Shaymin (both forms).</td>
+<tr class="a">
+<td>140</td>
+<td>Azelf, Blissey, Chansey, Clefable, Clefairy, Cleffa, Happiny, Lopunny, Mesprit, Uxie.</td>
+</tbody>
+</table>
+
+<h4><a name="money">Making Large Amounts of Money in a Short Time</a></h4>
+
+<p>Battling the <strong>'Rich Couple'</strong> is the standard way to make large sums of money in-game quickly. You will at least need the VS Seeker. To maximize the potential money made, equip your lead with an Amulet Coin (found in the left-hand ruin in Amity Square).</p>
+
+<img src="/media/ingame/images/dpp_tips_cash.png" class="imgright" alt="Rich Couple" />
+
+<p>The Rich Couple consists of a Gentleman and a Socialite, found on Route 212, just west of the Pokémon Mansion's front garden. At maximum level, each give a base money of $12000 (D/P) or $12200 (Platinum). With the Amulet Coin, the money awarded is increased to $24000 (D/P) or $24400 (Platinum). Using the Amulet Coin, you can completely fill your purse within 42 battles.</p>
+
+<h4><a name="free_pokemon">Free Pokémon in DPPT</a></h4>
+
+<ul>
+<li><strong>Togepi</strong> &ndash; Upon completing the Eterna City section of the game, Cynthia will give you an Egg containing Togepi.</li>
+<li><strong>Riolu</strong> &ndash; Upon completing the Iron Island quest, Riley will give you an Egg containing Riolu.</li>
+<li><strong>Eevee</strong> &ndash; Upon completing the National Dex, Bebe in Hearthome City will give you an Eevee.</li>
+<li><strong>Porygon</strong> &ndash; Upon completing the Galactic HQ quest, a couple in the right-hand house directly behind the Pokémon Center will give you a Porygon. (Platinum)</li>
+</ul>
+
+<h3><a name="platinum">Platinum-Exclusive Tips and Tricks</a></h3>
+
+<h4><a name="hp_reporter">Checking Newly Caught and Hatched Pokémon</a></h4>
+
+<p>The <strong>IV Reporter</strong> is located in the Battle Tower (Battle Frontier, near the Fight Area), to the right of the building near a PC. He will indicate the overall ability of your Pokémon based on the total number of IVs in each stat added together.</p>
+
+<img src="/media/ingame/images/dpp_tips_ivguy.png" class="imgleft" alt="I can discern, judge, you can say, the overall potential of individual Pokémon." />
+
+<ul>
+<li><em>'This Pokémon's potential is decent all around.'</em> &ndash; Total: 0-90</li>
+<li><em>'This Pokémon's potential is above average overall.'</em> &ndash; Total: 91-120</li>
+<li><em>'This Pokémon has relatively superior potential overall.'</em> &ndash; Total: 121 - 150</li>
+<li><em>'This Pokémon has outstanding potential overall.'</em> &ndash; Total: 151 - 186.</li>
+</ul>
+
+<p>He will then indicate your Pokémon's best overall stat. In the case of one or more of the highest IVs being equal, the stat he comments upon will be random, so it is best to talk to him multiple times to get an overall picture of your Pokémon.</p>
+
+<ul>
+<li><em>'It's rather decent in that regard.'</em> &ndash; IV: 0-15</li>
+<li><em>'It's very good in that regard.'</em> &ndash; IV:16-25</li>
+<li><em>'It's fantastic in that regard.'</em> &ndash; IV: 26-30</li>
+<li><em>'It can't be better in that regard.'</em> &ndash; IV: 31</li>
+</ul>
+
+<p>To more accurately determine your Pokémon's IVs, see <a href="#determining_ivs">this</a> section of the guide.</p>
+
+<p>The <strong>Hidden Power Reporter</strong> is located in Veilstone City's Game Corner Prize Exchange. He will tell you the Hidden Power of the Pokémon you show him, provided the Pokémon in question can learn Hidden Power.</p>
+
+<p>Every Pokémon can learn Hidden Power bar Magikarp, Ditto, Smeargle, Caterpie, Metapod, Weedle, Kakuna, Wurmple, Silcoon, Cascoon, Combee, Wynaut, Wobbuffet, Beldum, and Kricketot.</p>
+
+<h2><a name="pbr">Pokémon Battle Revolution Tips and Tricks</a></h2>
+
+<h3><a name="secret">Unlocking Secret Gifts</a></h3>
+
+<p>To unlock a Lv. 50 Adamant Electivire with the moves Cross Chop, Ice Punch, ThunderPunch, and Earthquake; simply go to edit your profile, and in the 'Self-Introduction' field, add the code for your region of the game. You can then follow the on-screen prompts in the PBR shop to download the wondercard.</p>
+
+<ul>
+<li>US &ndash; BA16-X4SH-E2AT</li>
+<li>UK &ndash; TKO3-9JWP-34KL</li>
+<li>France &ndash; JK4I-DF87-SDF9</li>
+<li>Spain &ndash; 04IN-1YNJ-24FV</li>
+<li>Germany &ndash; 0F9-UD0G-UGHJ</li>
+<li>Italy &ndash; T4OI-6J8D-SB5R</li>
+</ul>
+
+<p>To unlock a Lv. 50 Modest Magmortar with the moves Flamethrower, Psychic, Hyper Beam, and SolarBeam, use the codes shown below.</p>
+
+<ul>
+<li>US &ndash; B416-X4HT-VTWF</li>
+<li>UK &ndash; JL49-05KN-ODNV</li>
+<li>France &ndash; 13IO-H4RF-1TPA</li>
+<li>Italy &ndash; 97EA-78HL-JRGU</li>
+<li>Germany &ndash; KRE9-EF90-5HGN</li>
+<li>Spain &ndash; KN34-Q0UC-1MBX</li>
+</ul>

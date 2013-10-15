@@ -1,0 +1,601 @@
+[title]
+Capturing BW Legendaries
+[head]
+<meta name="description" content="A guide to efficiently capturing competitive legendary Pokemon in Black/White, courtesy of Nexus." />
+[page]
+<div class="author">By <a href="/forums/member.php?u=35537">Nexus</a>.</div>
+
+<ol class="toc">
+<li><a href="#preparations">Preparations</a>
+<ul>
+<li><a href="#capture_rate">Capture Rate</a></li>
+<li><a href="#ball_capsules">Ball Capsules</a></li>
+<li><a href="#synchronizer">The Synchronizer</a></li>
+<li><a href="#catcher">The Catcher</a></li>
+<li><a href="#one_under">The "One Under" Pokémon</a></li>
+<li><a href="#other">Other Items and Pokémon</a></li>
+<li><a href="#reviving">Reviving Legendaries</a></li>
+<li><a href="#tricks">Tricks of the Trade</a></li>
+</ul>
+</li>
+<li><a href="#catching">Catching the Legends</a>
+<ul>
+<li><a href="#resh">Reshiram/Zekrom</a></li>
+<li><a href="#cobalion">Cobalion</a></li>
+<li><a href="#terrakion">Terrakion</a></li>
+<li><a href="#virizion">Virizion</a></li>
+<li><a href="#torn">Tornadus/Thundurus</a></li>
+<li><a href="#landorus">Landorus</a></li>
+<li><a href="#kyurem">Kyurem</a></li>
+<li><a href="#victini">Victini</a></li>
+<li><a href="#kel">Keldeo/Meloetta/Genesect</a></li>
+</ul>
+</li>
+</ol>
+
+<h2><a name="preparations">Preparations</a></h2>
+
+<h3><a name="capture_rate">Capture Rate</a></h3>
+
+  <p>Each legendary is assigned a numerical catch rate, as are all wild Pokémon. Essentially, the higher the CatchRate, the higher the chance to capture. The CatchRate is plugged into a formula, which determines whether the Pokémon will be captured or not. While the actual in-game formula is quite complex, Community Member <a href="/forums/member.php?u=2412">X-Act</a> has made a formula that produces nearly exact results. Note that you must always round down should you get a decimal.</p>
+  
+<pre>(( 1 + ( MaxHP × 3 - CurrentHP × 2 ) × CatchRate × BallRate × Status# ) ÷ ( MaxHP × 3 )) ÷ 256</pre>  
+
+<p>Top Poké Ball Rates :</p>
+<ul> 
+<li>Master Ball : 255</li>
+<li>Timer Ball (30+ Turns) : 4</li>
+<li>Dusk Ball (In dark areas like caves or outside between the hours of 20:00 and 4:00) : 3.5</li>
+<li>Net Ball (Against a Bug- or Water-type) : 3</li>
+<li>Repeat Ball (Against previously caught Pokémon) : 3</li>
+<li>Ultra Ball : 2</li>
+<li>Great Ball : 1.5</li>
+</ul>
+
+<p>A Master Ball catches any wild Pokémon without fail, though it may only be obtained once from Professor Juniper after obtaining the eighth badge, or by completing 50 trades via the GTS or with friends and speaking to the man in dark glasses on the second floor of the Castelia City Pokémon Center. Timer Balls begin at 1 and increase every 10 turns, with a cap of 4. Quick Balls begin at 4 and decrease to 1 after the first turn. Although these Balls' BallRate exceeds the rate of the Dusk Ball, they are somewhat more circumstantial. All other Balls have a BallRate of 1 against the legendaries. Dusk or Ultra Balls are the preferred Balls while Timer Balls can be kept in reserve.</p>
+   
+<p>Status Numbers :</p>
+<ul>
+<li>Freeze : 2</li>
+<li>Sleep : 2</li>
+<li>Paralysis : 1.5</li>
+<li>Burn : 1.5</li>
+<li>Poison : 1.5</li>
+<li>None : 1</li>
+</ul>
+   
+<p>As you can see, sleep is your best bet due to the lack of reliable freeze moves. Paralysis gives a much lower number, so sleep moves are preferred. You should never poison or burn the legend; this sets a time limit on your legend's lifespan.</p>
+
+<p>The CatchRate of all legendaries available in BW is 3, except for Reshiram and Zekrom, which have a CatchRate of 45.</p>
+  
+<p>Let's say we try and catch a Level 5 max HP Lillipup with a Dusk Ball. Lillipup's Catch Rate is 255.</p>
+
+<pre>   
+Capture Rate = (( 1 + ( MaxHP × 3 - CurrentHP × 2 ) × CatchRate × BallRate × Status# ) ÷ ( MaxHP × 3 )) ÷ 256
+  = (( 1 + ( 18 × 3 - 18 × 2 ) × 255 × 3.5 × 1 ) ÷ ( 18 × 3 )) ÷ 256
+  = (( 1 + ( 54 - 36 ) × 255 × 3.5 × 1 ) ÷ ( 54 )) ÷ 256
+  = (( 1 + 16065 ) ÷ 54 ) ÷ 256
+  = ( 16066 ÷ 54 ) ÷ 256
+  = 297 ÷ 256
+  = 1.162181712962963
+  = 100%
+</pre>
+   
+<p>Any decimal numbers were not shown, and simply rounded down.</p>
+
+<p>If the end result is over 1, you have a 100% chance to capture the Pokémon. However, due to varying IVs, it is difficult to know the max HP of the legendaries, let alone determine their current HP. The formula is simply here for reference, and a little bit of insight on why certain Balls or status effects are used.</p>
+   
+<h3><a name="ball_capsules">Ball Capsules</a></h3>
+   
+<p>Just as you wouldn't go into the woods without proper equipment, you can't expect to catch the legendary Pokémon of Unova without being prepared. You'll need to stock up on Poké Balls, as explained above; Dusk Ball is the most effective. These can be picked up at most late-game Pokémon Centers, and are available before you fight your first legendary. You'll want to have at least 50 Dusk Balls on you for each encounter, and there are 8 legendaries per game cartridge that can be captured (including event Pokémon). That totals 400 Dusk Balls, and you'll probably want to have at least 50 Ultra and/or Timer Balls in reserve.</p>
+
+<p>Granted, it wouldn't be cost effective to go out and buy 400 Poké Balls at once, so it is best to only carry around 100 Dusk Balls and 50 Timer/Ultra Balls at one time. This is great if say, Cobalion is caught on the first Dusk Ball thrown, whereas Terrakion takes 65 Balls. Ultra Balls can be substituted for Dusk Ball as your primary Poké Ball for captures if you don't want to wait for night or change the DS clock, as most legendaries in BW are not found in caves or dark areas. Kyurem, Terrakion, and Cobalion are the only legends found in caves where the Dusk Ball is at its maximum BallRate all the time, for the remaining legendaries, you will have to wait or set the time between 20:00-4:00.  Timer Balls are a viable option if you are not battling in a cave, and if you wait long enough, which you typically shouldn't have to.</p> 
+   
+<h3><a name="synchronizer">The Synchronizer</a></h3>
+   
+<p>After you buy the appropriate Balls, you'll want to get a Synchronizer. "What's a Synchronizer?" you may ask. Well, when you have a Pokémon with the Ability Synchronize in the first slot of your party, all wild Pokémon have a 50% chance of inheriting the nature of that Pokémon. An even better trait is that the Pokémon doesn't have to be alive for Synchronize to work its magic, so you can have a fainted Synchronizer at the head of your party, and the effects remain intact. This way, you can have an increased chance of getting the nature you want, which is something you'll have to decide on your own; which nature to use is a trainer's personal preference. Refer to the analyses in the Smogon Dex for ideas if you're stuck.</p>
+  
+<p>The list of all Pokémon that can have Synchronize is as follows:</p>
+
+<dl>   
+<dt>Abra, Kadabra, Alakazam, Mew, Natu, Xatu, Espeon, Umbreon, Ralts, Kirlia, and Gardevoir, Munna, Musharna, Elgyem, and Beheeyem</dt>
+<dd>Aside from Mew, Espeon, and Umbreon, all Synchronizers have two abilities, so you will have to be wary of the ability of any Synchronizer you catch in the wild. Munna and Musharna are found early in the game in the Dreamyard. Elgyem is the next available Syncrhonizer, commonly found at the top of Celestial Tower. Beheeyem is located on Route 14. Abra and Ralts can be caught in White Forest, once you've battled the trainer corresponding to those Pokémon in Black City through the Entralink. Natu is found in Dream World, but must be bred to have a chance of possessing Synchronize as its ability. Umbreon and Espeon were also available in Dream World via an event, but must you must be breed and evolve the resulting Eevee to obtain an Espeon/Umbreon with Synchronize. Mew can be obtained by transferring one from a fourth generation game via Poké Transfer. The non-fifth generation Synchronizers can also be obtained via Poké Transfer; however, the ability to transfer Pokémon from fourth generation games becomes available only after defeating the Elite Four. Munna and Musharna are arguably the easiest to obtain if you lack the means to Poké Transfer, as they are found easily and their other ability (Forewarn) displays a message when they appear in battle, so it is simple to weed out the ones with Synchronize from those with Forewarn and avoid wasting time catching Munna/Musharna with the wrong ability.</dd> 
+</dl>   
+
+<h3><a name="catcher">The Catcher</a></h3>
+   
+<p>Now that you have your Synchronizer, unless you are planning on transferring over unlimited Master Balls from your previous generation games, you'll probably need a good capturing Pokémon to complement it. A Pokémon that can learn both a reliable sleep move (60 accuracy and up), and False Swipe (a TM you receive from Professor Juniper after obtaining 30 Pokémon that keeps the wild Pokémon at 1 HP if it would have fainted from the attack) is an example of a good capturing Pokémon. A list of Pokémon that meet the above criteria is as follows:</p>
+  
+<dl>
+<dt>Paras, Parasect, Mew, Breloom, Gallade, Smeargle, and Watchog.</dt> 
+<dd>Shroomish and Paras can be found as swarm Pokémon on Route 11 in Black and White, respectively. Breloom and Parasect can be obtained by evolving the aforementioned Pokémon. Breloom learns Spore via level up as a Shroomish, and unlike in fourth generation games, False Swipe from TM 54. Paras/Parasect learn Spore via level up, regardless of evolutionary stage, and False Swipe via TM. Ralts can be obtained in the White Forest, but requires that you use the Entralink with Pokémon Black to have it appear. Gallade learns Hypnosis by level up as a Ralts/Kirlia and False Swipe via level up or TM as a Gallade. Additionally, Gallade has access to Mean Look to prevent Tornadus/Thundurus from fleeing when you encounter them, but it must be bred onto Ralts. Smeargle is found as a swarm Pokémon on Route 5 in both Black and White. Smeargle can learn both False Swipe and Spore via Sketch and other useful moves like Mean Look or Trick to assist in captures. However, the hassle in Sketching the moves may not be worth the effort, along with the fact that Smeargle has mediocre stats. Mew is the most difficult catcher to obtain, as only the event Mew from My Pokémon Ranch knows a sleep move (Hypnosis) and Mew, in general, is released only via events. Finally, each of these catchers can be obtained by Poké Transfering them from a fourth generation game. In Black and White, Watchog is decent catcher that you can use throughout the game and have ready by the time you encounter your first legendary. Watchog is caught at the beginning of the game as Patrat (or in other areas as you progress through the game) and learns useful moves like Hypnosis and Mean Look to help with catching legendaries later on. While Watchog does not learn False Swipe, it does learn Super Fang to reduce the legendary's HP with some consistency.</dd>
+</dl> 
+   
+<h3><a name="one_under">The &quot;One Under&quot; Pokémon</a></h3> 
+   
+<p>An optional Pokémon that you may wish to take with you is the &quot;one under&quot; Pokémon. This is a Pokémon that has a Speed stat one point below the maximum of the legendary you're trying to catch. This is for the Pokémon you really need to have reach a certain speed. It isn't the wisest choice to bring one of these along for every legendary, since the &quot;one under&quot; Pokémon can be a pain to get, but it will be worth it if you don't have Master Balls. The idea is to switch your Synchronizer to the &quot;one under&quot; (or if your Synchronizer has been fainted just start off with the &quot;one under&quot;), then have the latter use an attack. If the legendary goes first, switch to the capture Pokémon and continue the battle, if not, reset. This &quot;one under&quot; should either be a high level, or holding a Focus Sash (which can be purchased from the Battle Subway Shop).</p>
+   
+<p>If you are going for a defensive legendary who is not concerned about outspeeding certain threats, or for a legendary you plan to use for a Trick Room team, then you may wish to go for a different variation of the &quot;one under&quot; Pokémon that uses Endeavor. Endeavor is a move that takes the foe's Pokémon's HP down to the HP the Endeavor user currently has, but fails if the Pokémon using Endeavor has more HP than its target. This can be abused by giving your Endeavor Pokémon 1 less HP than the maximum HP of the legendary you are going for. If your &quot;one under&quot; Pokémon's Endeavor attack fails, then you know that the legendary you are fighting does not have the amount of HP you are looking for, so you can reset without capturing it. If Endeavor takes the legendary's HP down, then you know it is fine to resume trying to capture it. However, this Pokémon must also be faster than the legendary, so it does not risk taking damage, which would result in a false positive.</p>
+   
+<h3><a name="other">Other Items and Pokémon</a></h3>
+   
+<p>Take another stop at a Pokémon Center; you'll want to buy a few Revives and Hyper Potions/Max/Full Restores if you're far enough in the game. These are mainly for keeping your main capture Pokémon alive, as well as the remainder of your party. About 30 Super Repels are almost mandatory too (these are more cost effective than Max Repels). Two or more Escape Ropes are also great to have for legendaries found at the end of long caves, such as Cobalion and Terrakion. You should always bring a team of three high-leveled Pokémon (the other two are HM slaves, but leveling them up is helpful) with your Synchronizer in the lead. The only exceptions are when you are catching your roamer. In this case, you could use Wobbuffet in your first slot in order to trap them, or use Mean Look Gallade (this is recommended, as Gallade is an excellent catcher). Watchog is also a fine choice to trap the roamers, and it is more accessible than the other options. Finally, Tornadus and Thundurus must be in your party when you visit the Abundant Shrine to have Landorus appear.</p> 
+  
+<h3><a name="reviving">Reviving Legendaries</a></h3>
+   
+<p>Much like in fourth generation games, the legendaries in Black and White will respawn if you happen to KO or flee from them. Most legendaries in Black and White will re-appear if you flee or KO them once you've defeated the Elite Four. Victini after fleeing or KOing it will re-appear at the basement of the lighthouse once you exit and re-renter its room, with no need to defeat the Elite Four. With the exception of the roamers, Reshiram, and Zekrom, legendaries will respawn at the location you encountered them previously. Additionally, you can save in front of a legendary and soft reset or RNG to obtain the nature/IVs you desire. Tornadus/Thundurus, however, will be re-released and roam Unova once you defeat the Elite Four with a new nature/IV combination, instead of you manually releasing them by visiting the house on Route 7 again.</p> 
+   
+<p>Although the task of reviving most legendaries requires simply fainting or fleeing form them, Reshiram/Zekrom have an additional requirement before they respawn. Since you cannot progress through the game without capturing Reshiram/Zekrom, you have to create a situation where it is impossible to capture Reshiram/Zekrom. This situation would require you to fill all your Pokémon storage boxes and your party; essentially, you would need to capture 720 Pokémon to fill all the boxes and have a party of six Pokémon. Then, when you face Reshiram/Zekrom, flee or defeat it to have it disappear, progress through the game, and it will re-appear at the top of Dragonspiral Tower. When Reshiram/Zekrom re-appears at Dragonspiral Tower, you can save in front of it and soft reset or RNG for a desirable nature/IVs combination. Reshiram, Zekrom, and Tornadus/Thundurus are the main legendaries where it would be useful to have them respawn, as it may be difficult or tedious to soft reset or RNG them at the time of you initially encounter them.</p> 
+   
+<h3><a name="tricks">Tricks of the Trade</a></h3>
+   
+<p>Before you go after your first legendary, keep in mind a couple tips:</p>
+ 
+<ul>  
+<li>Always save before the legendary. For Tornadus/Thundurus, save before exiting the house on Route 7.</li>
+<li>Check the stats in the legendary's section before you save, and after you compare the stats and are interested, check them with <a href="http://www.metalkid.info/Pokemon/OnlineProgram/Calculators/IV.aspx">Metalkid's IV Calculator</a>. You can use some Rare Candies and record the stats for each level if you wish, but for legendaries this is generally not necessary due to the higher base stats.</li>
+<li>Learn about characteristics, as they can usually help you determine the exact IV of at least one stat when combined with an IV calculator and the stat list.</li>
+<li>Make sure you have a maximum of five Pokémon in your party whenever you are about to fight a legendary. This allows you to check the nature and stats of your legendary while it is in your party, saving you a trip back to a Pokémon Center to check Aminata's PC.</li>
+<li>Keep realistic expectations if you are soft resetting your legendary. If you're only willing to accept a legendary with quadruple 31 IVs, you could be there for a very long time. Although, you can remedy this problem by RNG abusing your legendary, which allows you to control its nature and IVs to an extent. Information on PRNG manipulation can found <a href="http://www.smogon.com/forums/showthread.php?t=83057">here</a>.</li>
+<li>Watch the HP bars if you're not using Master Balls. Compare the approximate damage done by your Pokémon to the HP of the legendary once you've caught it, and vice-versa, with the legendary's Attack/Special Attack. This should help you out; if you do too much damage on a defensive legendary, you can reset without the battling process. The same goes if an offensive one doesn't do enough damage to you.</li>
+<li>If a legendary runs out of Power Points for all its moves, it will use the move Struggle. Struggle is a typeless attack that causes recoil equal to 25% of the user's maximum HP. So once a legendary starts to Struggle, it isn't going to last long, especially if you have previously used False Swipe to lower it to 1 HP.</li>
+<li>Having a Pokémon with the move Trick can be useful to give the legendary you're facing items. Tricking a Leppa Berry, for example, onto legendaries with attacks that have low PP ensures that you have a few more turns before they start Struggling. Tricking Focus Sash allows you to bring down the legendary Pokémon's HP to 1 with a single powerful attack, instead of wasting turns slowly reducing its HP with a weak attack like False Swipe. Bestow or Switcheroo can be used instead of Trick.</li> 
+</ul>
+   
+<h2><a name="catching">Catching the Legends</a></h2>
+   
+<p>Now that you have some more knowledge, or at least something to reference, get out a piece of paper and a pencil. Be prepared to make a tally mark every time a legendary uses a move, and put two marks if your Pokémon has the ability Pressure. This will be used to reference the amount of PP the legendaries have before Struggling, which is listed in this section. Note that if your sleep-inducing Pokémon is slower than the legendary, it will use a PP (or two with Pressure) the turn it is put to sleep; and of course it still uses PP the turn it wakes. PP is not used up while the legendary is asleep. Luckily, only Kyurem has the ability Pressure.</p>
+   
+<p>The order in which you catch these legendaries is a matter of personal preference and availability, as certain legendaries become available after you've completed specific tasks, such as obtaining the National Dex. That said, you should attempt the lower-leveled legendaries first and work your way up. The roamers would be best left for later, since you have to go through the hassle of getting them to appear in the area you are in and then prevent them from fleeing. Cobalion, Terrakion, Virizion, and Tornadus/Thundurus can be encountered prior to receiving the National Dex.</p> 
+   
+<h3><a name="resh">Reshiram/Zekrom</a></h3>
+   
+<p>Reshiram and Zekrom are the stars of Pokémon Black and White, respectively. Reshiram/Zekrom (Reshiram in Black, Zekrom in White) is first encountered at N's Castle once you've defeated the Elite Four. The room where Reshiram/Zekrom will appear is located on the top floor of the castle. Upon entering the room, you will confront N and he will summon either his Reshiram (in White) or his Zekrom (in Black) that he obtained at Dragonspiral tower. In response, the Light/Dark Stone you received at the Nacrene City Museum will activate and Reshiram/Zekrom will appear. After some dialogue from N, you will be able to save in front of Reshiram/Zekrom and catch it. Reshiram/Zekrom is at level 50 when you encounter it, and unless you have a full party and 720 Pokémon in your storage boxes, you must catch it to advance in the story. Fleeing or KOing it will not have an effect, as Reshiram/Zekrom will still be standing there after the battle. Additionally, your Pokémon do not gain experience from defeating it.</p>  
+   
+<p>Once you've captured the respective legendary, if you have an empty slot in your party, then Reshiram/Zekrom will occupy it and will be sent out first in the compulsory battle against N afterwards. If you have a full party, then Reshiram/Zekrom will be sent to your PC and you have the option of using it in the battle. Finally, due to a shiny check, Reshiram and Zekrom cannot be shiny when encountered either in N's Castle or on top of Dragonspiral Tower.</p> 
+   
+<h4>Reshiram's Maximum Stats</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>175</td> <td>-</td>
+</tr>
+<tr>
+<td>Atk</td> <td>126</td> <td>140</td> <td>154</td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>108</td> <td>120</td> <td>132</td>
+</tr>
+<tr>
+<td>SpA</td> <td>153</td> <td>170</td> <td>187</td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>126</td> <td>140</td> <td>154</td>
+</tr>
+<tr>
+<td>Spe</td> <td>99</td> <td>110</td> <td>121</td>
+</tr>
+</tbody>
+</table>   
+
+<h4>Reshiram's Moveset</h4>
+<ul>
+<li>DragonBreath (20 PP)</li>
+<li>Slash (20 PP)</li>
+<li>Extrasensory (30 PP)</li>
+<li>Fusion Flare (5 PP)</li>
+<li>Total PP = 75</li>
+</ul>
+   
+<p>Fusion Flare is the deadliest attack in Reshiram's arsenal, considering Reshiram's base 150 Special Attack stat and the possibility that your team may not be at a sufficiently high level to deal with it. Luckily, it only has 5 PP, so Reshiram won't get too many opportunities to fry your Pokémon with it. DragonBreath can be annoying with its 30% chance of paralysis and Extrasensory is the same, but only has a 10% of flinching. Slash is a minor issue with its increased critical hit ratio.</p> 
+   
+<h4>Zekrom's Maximum Stats</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>175</td> <td>-</td>
+</tr>
+<tr>
+<td>Atk</td> <td>153</td> <td>170</td> <td>187</td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>126</td> <td>140</td> <td>154</td>
+</tr>
+<tr>
+<td>SpA</td> <td>126</td> <td>140</td> <td>154</td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>108</td> <td>120</td> <td>132</td>
+</tr>
+<tr>
+<td>Spe</td> <td>99</td> <td>110</td> <td>121</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Zekrom's Moveset</h4>
+<ul>
+<li>DragonBreath (20 PP)</li>
+<li>Slash (20 PP)</li>
+<li>Zen Headbutt (15 PP)</li>
+<li>Fusion Bolt (5 PP)</li>
+<li>Total PP = 60</li>
+</ul>
+   
+<p>Fusion Bolt can flatten your Pokémon coming off Zekrom's phenomenal Attack and its 150 BP after STAB. Therefore, a Ground-type like Krookodile or Excadrill may be useful to have if you can fit it on your team. DragonBreath and Zen Headbutt can be hindrances with their 30% chance of paralysis and flinching, respectively. Slash can be troublesome if Zekrom manages to land a critical hit, but it will naturally be doing more damage than when Reshiram uses it due to Zekrom's greater Attack stat.</p> 
+   
+<p>If you need to prepare before catching Reshiram/Zekrom, there is a Team Plasma Grunt on the second floor of N's Castle that will transport you back to the Pokémon League Pokémon Center.</p> 
+   
+<h3><a name="cobalion">Cobalion</a></h3>
+   
+<p>Cobalion is encountered deep within Mistralton Cave, and is the first of the musketeer trio of legendaries that you can encounter. The entrance of Mistralton Cave can only be reached by Surfing on Route 6. Reaching Cobalion's room—Guidance Chamber—requires Strength, while Flash can be useful to help maneuver through the cave as it is dark. Guidance Chamber is the top floor of the cave, and upon entering, and old man will approach you and mention the legendary musketeer trio and that one of them is located in this very cave. Head to the northwest corner of the room and you will see Cobalion. Cobalion is at level 42 when you battle it. There are wild Pokémon in Guidance Chamber.</p> 
+   
+<h4>Cobalion's Maximum Stats</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>141</td> <td>-</td>
+</tr>
+<tr>
+<td>Atk</td> <td>83</td> <td>93</td> <td>102</td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>113</td> <td>126</td> <td>138</td>
+</tr>
+<tr>
+<td>SpA</td> <td>83</td> <td>93</td> <td>102</td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>70</td> <td>78</td> <td>85</td>
+</tr>
+<tr>
+<td>Spe</td> <td>97</td> <td>108</td> <td>118</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Cobalion's Moveset</h4>
+<ul>
+<li>Helping Hand (20 PP)</li>
+<li>Retaliate (5 PP)</li>
+<li>Iron Head (15 PP)</li>
+<li>Sacred Sword (20 PP)</li>
+<li>Total PP = 60</li>
+</ul>
+   
+<p>Cobalion has an impressive Defense stat and coupled with its Steel typing, meaning that False Swipe will do next to nothing. Iron Head can be a problem with it's 30% flinch rate, but only if Cobalion is faster than your Pokémon. Sacred Sword can hurt if you're using Smeargle or Watchog as catchers and it ignores any stat boosts your Pokémon has accumulated. Retaliate is not a threat and Helping Hand is useless to Cobalion since you're only facing it's alone, and it gives you a free turn to heal your Pokémon or weaken Cobalion.</p> 
+   
+<p>Once you've captured Cobalion, don't forget to pick up some of the treasures in Mistralton Cave, such as a Dusk Stone (in Guidance Chamber) and the Rock Slide TM on the second floor of the cave. Additionally, you can now proceed to catch Terrakion and Virizion in whatever order you chose.</p>
+   
+<h3><a name="terrakion">Terrakion</a></h3>
+   
+<p>Terrakion resides inside Victory Road in a small cavern aptly named Trial Chamber. Normally, a small boulder blocks the cavern. Therefore, you must encounter Cobalion in battle before you can access Trial Chamber. Reaching Trial Chamber is very simple: fly to the Pokémon League, enter Victory Road, take the left staircase, use Strength to move the large boulder, and enter the small cave to your left. Once inside, you'll see Terrakion standing in the middle of the cave. There are wild Pokémon inside Trial Chamber. Terrakion is at level 42 when you encounter it.</p>  
+   
+<h4>Terrakion's Maximum Stats</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>141</td> <td>-</td>
+</tr>
+<tr>
+<td>Atk</td> <td>113</td> <td>126</td> <td>138</td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>83</td> <td>93</td> <td>102</td>
+</tr>
+<tr>
+<td>SpA</td> <td>70</td> <td>78</td> <td>85</td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>83</td> <td>93</td> <td>102</td>
+</tr>
+<tr>
+<td>Spe</td> <td>97</td> <td>108</td> <td>118</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Terrakion's Moveset</h4>
+<ul>
+<li>Helping Hand (20 PP)</li>
+<li>Retaliate (5 PP)</li>
+<li>Rock Slide (10 PP)</li>
+<li>Sacred Sword (20 PP)</li>
+<li>Total PP = 55</li>
+</ul>
+   
+<p>Terrakion is the offensive member of the musketeer trio, so expect its attacks to inflict more damage than Cobalion or Virizion. Rock Slide can be a pain if Terrakion is faster than your Pokémon, as it can then makes use of that 30% flinch rate.  Sacred Sword is Terrakion's most damaging attack coming at 135 Base Power after STAB, and due to Terrakion's naturally high Attack stat, do not take it lightly. Retaliate will be doing some damage but it's not too much of a threat considering the rest of Terrakion's movepool. Helping Hand is more of a help to you than to Terrakion, as it gives you a free turn and 20 more PP for Terrakion to waste before it Struggles.</p> 
+   
+<h3><a name="virizion">Virizion</a></h3>
+   
+<p>Virizion is tucked away in a corner of Pinwheel Forest in an area called Rumination Field. The entrance to Rumination Field will be blocked by a row of small boulders until you face Cobalion in battle at Mistralton Cave. Reaching Rumination Field is most easily done by entering Pinwheel Forest through the entrance at the base of Skyarrow Bridge and heading towards the small opening in the fencing on the right side of the forest. HMs are not needed to reach Rumination Field. After going through the grass, you will end up at the entrance to the field, and inside you will find Virizion. There are no wild Pokémon in Rumination Field. Virizion is at level 42 when you battle it.</p> 
+   
+<h4>Virizion's Maximum Stats</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>141</td> <td>-</td>
+</tr>
+<tr>
+<td>Atk</td> <td>83</td> <td>93</td> <td>102</td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>70</td> <td>78</td> <td>85</td>
+</tr>
+<tr>
+<td>SpA</td> <td>83</td> <td>93</td> <td>102</td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>113</td> <td>126</td> <td>138</td>
+</tr>
+<tr>
+<td>Spe</td> <td>97</td> <td>108</td> <td>118</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Virizion's Moveset</h4>
+<ul>
+<li>Helping Hand (20 PP)</li>
+<li>Retaliate (5 PP)</li>
+<li>Giga Drain (10 PP)</li>
+<li>Sacred Sword (20 PP)</li>
+<li>Total PP = 55</li>
+</ul>
+   
+<p>Virizion is the easiest to catch of the musketeer trio, as it does not resist False Swipe and has a greater Special Defense than Defense. Giga Drain can be a hindrance during this catch, as it will restore Virizion's HP and make it difficult to keep it at low HP. Sacred Sword can inflict a decent amount of damage depending on your catcher's level and type, but it isn't as threatening when compared to Terrakion. Retaliate won't be doing too much damage and Helping Hand grants you free turns.</p> 
+   
+<p>Once you've caught Virizion, you may use Fly to leave Rumination Field.</p> 
+   
+<h3><a name="torn">Tornadus/Thundurus</a></h3>
+   
+<p>Tornadus and Thundurus are the roaming pair of legendaries in Pokémon Black and White. Tornadus is released to roam Unova in Black, while Thundurus roams Unova in White. Tornadus/Thundurus can be released once you've beaten the 8th gym and enter the terminal north of Opelucid City that exits to Route 10, where you will be told that there is a storm on Route 7. Head to Route 7, and enter the house located immediately after you pass Celestial Tower. Upon entering the house, an elderly woman will come towards you and a short dialogue will ensue, where she will tell you about Tornadus/Thundurus. Once the dialogue has ended, you may exit the house. If you're planning on soft resetting or RNGing Tornadus/Thundurus at this point, then save inside the house. When you exit the house the rain will cease, and you will here a roar, followed by Tornadus/Thundurus descending from the sky and immediately leaving to roam Unova. At this time, Tornadus/Thundurus will be displayed on your Poké Dex. Furthermore, based on the sprite displayed on the Poké Dex, you can determine whether Tornadus/Thundurus is shiny or not, as the shiny will be displayed if it is shiny and the normal sprite will be displayed if it is not. Finally, Synchronizers do not work on Tornadus/Thundurus.</p>
+   
+<p>Now, locating Tornadus/Thundurus may seem daunting considering there is no way to track it, but it is actually very simple to get it to appear on the route you desire. First, enter one of the green terminals that connects two areas, with one end leading to a route. Then, walk out of the terminal and enter the route, then back into the terminal. Repeat this process of walking in and out of the terminal until the instance when you exit the terminal and enter the route, it is raining heavily on that route. Heavy rain indicates the presence of Tornadus/Thundurus in that area. The display bve caught it, and vice-versa, with the legendaryoard in the terminal shows the route that Tornadus/Thundurus is located in by showing on which route it is raining heavily. Additionally, Tornadus/Thundurus appear on the upper half of Unova (using the Entralink, Mistralton City, and Undella Town as a dividing line between the upper and lower half of Unova) during the evening and the lower half during the morning and afternoon. When you encounter Tornadus/Thundurus it will immediately flee, in typical roamer fashion. However, it will maintain any status or damage the next time you encounter it. Furthermore, Tornadus/Thundurus has a high encounter rate in the grass it is located in, so you should have little trouble locating it.</p> 
+   
+<h4>Tornadus's Maximum Stats</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>125</td> <td>-</td>
+</tr>
+<tr>
+<td>Atk</td> <td>98</td> <td>109</td> <td>119</td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>65</td> <td>73</td> <td>80</td>
+</tr>
+<tr>
+<td>SpA</td> <td>108</td> <td>117</td> <td>128</td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>72</td> <td>81</td> <td>89</td>
+</tr>
+<tr>
+<td>Spe</td> <td>95</td> <td>106</td> <td>116</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Tornadus's Moveset</h4>
+<ul>
+<li>Revenge (10 PP)</li>
+<li>Air Cutter (25 PP)</li>
+<li>Extrasensory (30 PP)</li>
+<li>Agility (30 PP)</li>
+<li>Total PP = 95</li>
+</ul>
+   
+<p>Tornadus's ability (Prankster) ensures that it gets to waste PP with Agility before you can put it to sleep or hit with a non-priority move. Agility will eventually allow Tornadus to outrun your Pokémon after some boosts and waste additional PP before you can make a move. Air Cutter can be threatening if Tornadus manages to land a critical hit, which is likely due to Air Cutter's high critical hit rate. Revenge is only an issue if you inflict damage on Tornadus, but that will only be a problem if it wakes up after your Pokémon hit it with an attack. Extrasensory won't be inflicting too much damage if your Pokémon is at a significantly higher level, but it can be a nuisance with its 10% flinch rate.</p> 
+   
+<h4>Thundurus's Maximum Stats</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>125</td> <td>-</td>
+</tr>
+<tr>
+<td>Atk</td> <td>98</td> <td>109</td> <td>119</td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>65</td> <td>73</td> <td>80</td>
+</tr>
+<tr>
+<td>SpA</td> <td>108</td> <td>117</td> <td>128</td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>72</td> <td>81</td> <td>89</td>
+</tr>
+<tr>
+<td>Spe</td> <td>95</td> <td>106</td> <td>116</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Thundurus's Moveset</h4>
+<ul>
+<li>Revenge (10 PP)</li>
+<li>Shock Wave (20 PP)</li>
+<li>Heal Block (15 PP)</li>
+<li>Agility (30 PP)</li>
+<li>Total PP = 75</li>
+</ul>
+   
+<p>Prankster will give Heal Block and Agility +1 priority, allowing Thundurus to waste an additional PP before you can make a move. Agility will let Thundurus outspeed your Pokémon after a few boosts and waste more PP. Heal Block will prevent your Pokémon from using healing moves, but isn't a problem if you're packing Hyper Potions, Max Potions, or Full Restores. Revenge will only be a problem if you damage Thundurus on the turn it uses it, but it will allow you to move first due to negative priority, so you can put Thundurus to sleep before it uses Revenge. Shock Wave can inflict a decent amount of damage considering Thundurus's Special Attack stat, but overall it isn't a problem.</p> 
+
+<p>Using a &quot;One Under&quot; Pokémon to check the Speed of Tornadus/Thundurus is very difficult since Prankster will give priority to its non-damaging attacks, while Revenge will force it to move last. Additionally, Agility will double Tornadus/Thundurus's Speed, making it impossible to check with the &quot;One Under&quot; Pokémon as Tornadus/Thundurus will always outspeed it.</p> 
+   
+<h3><a name="landorus">Landorus</a></h3>
+   
+<p>Landorus appears at the Abundant Shrine on Route 14, and unlike its cousins, Tornadus and Thundurus, it will stay at the shrine where you can face it in battle and catch it. Reaching the Abundant Shrine requires Surf and Waterfall. Additionally, you must have Tornadus and Thundurus in your party, otherwise, Landorus will not appear. Climb the waterfall at the right end of Route 14 and Surf towards the left end of the route until you find an opening, which leads to the Abundant Shrine. Upon your arrival, head to the North end of the area where you will see a small brown shrine with some children in front of it. Approach the shrine, and the children will disperse. Interact with the shrine itself with Tornadus and Thundurus in your party to have Landorus descend from above. You can save once Landorus appears. Landorus is at level 70 when you encounter it.</p> 
+   
+<h4>Landorus's Maximum Stats</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>226</td> <td>-</td>
+</tr>
+<tr>
+<td>Atk</td> <td>180</td> <td>201</td> <td>221</td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>136</td> <td>152</td> <td>167</td>
+</tr>
+<tr>
+<td>SpA</td> <td>168</td> <td>187</td> <td>205</td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>124</td> <td>138</td> <td>151</td>
+</tr>
+<tr>
+<td>Spe</td> <td>151</td> <td>168</td> <td>184</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Landorus's Moveset</h4>
+<ul>
+<li>Rock Slide (10 PP)</li>
+<li>Earthquake (10 PP)</li>
+<li>Sandstorm (10 PP)</li>
+<li>Fissure (5 PP)</li>
+<li>Total PP = 35</li>
+</ul>
+
+<p>Simply looking at Landorus's moveset, it's apparent that you're in for a tough catch. Sandstorm will activate Landorus's Sand Force ability and boosts its already impressive Attack stat. Earthquake will be inflicting large amounts of damage thanks to its 150 BP after STAB, Landorus's superb Attack, and a possible boost from Sand Strength. Rock Slide can be a nuisance due to its 30% flinch rate, and it may make a decent dent in your Pokémon if a sandstorm is brewing. Fissure may OHKO your Pokémon if it is at or under level 70, so try to have your catcher at level 71 or higher if possible to avoid it. Finally, due to Landorus's low PP, try and make this a quick capture.</p> 
+   
+<p>Bronzong would be an exceptional Pokémon to bring to face Landorus due to its Levitate ability and Steel typing, which grants it immunity to sandstorm and a resistance to Rock Slide. Luckily, you can catch Bronzong right at the Abundant Shrine, but you would need the move re-learner in Mistralton City to teach it Hypnosis. Once you've captured Landorus, explore the Abundant Shrine to find a Rare Candy, a Razor Fang, and a TM 92 (Trick Room).</p> 
+   
+<h3><a name="kyurem">Kyurem</a></h3>
+   
+<p>Kyurem rests inside the Giant Chasm at the north of Route 13. Arriving at the entrance to the Giant Chasm requires Surfing towards the north end of Route 13. Surf until you arrive at a piece of land, climb up the stairs and enter the cave that appears the top of the stairs. Once you've entered the cavern, head to the exit on the lower floor. This can be done by going counter-clockwise around the cave or by using Strength on a nearby boulder to make a direct path to the exit. Upon exiting the cave, you will wind up at a forest. At this point, head towards the center of the forest where you will discover a dried up lake. When you approach the lake, you will hear Kyurem's roar and the entire area will be covered in snow. Head north from the lake and you will find a cave; enter it to find Kyurem at the center. There are wild Pokémon in the cave. Kyurem is at level 75 when you encounter it.</p> 
+   
+<h4>Kyurem's Maximum Stats</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>295</td> <td>-</td>
+</tr>
+<tr>
+<td>Atk</td> <td>200</td> <td>223</td> <td>245</td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>146</td> <td>163</td> <td>179</td>
+</tr>
+<tr>
+<td>SpA</td> <td>200</td> <td>223</td> <td>245</td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>146</td> <td>163</td> <td>179</td>
+</tr>
+<tr>
+<td>Spe</td> <td>153</td> <td>170</td> <td>187</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Kyurem's Moveset</h4>
+<ul>
+<li>Glaciate (10 PP)</li>
+<li>Dragon Pulse (10 PP)</li>
+<li>Imprison (10 PP)</li>
+<li>Endeavor (5 PP)</li>
+<li>Total PP = 35</li>
+</ul>
+   
+<p>Endeavor is definitely the move to watch out for when facing Kyurem, as it will reduce your Pokémon's HP to match its HP. As a result, lower Kyurem's HP down to 1 via False Swipe or another move may end up back firing and causing your Pokémon's demise. Dragon Pulse will be making a nice dent in your Pokémon considering Kyurem's uber Special Attack and 135 BP after STAB. Glaciate is not as damaging as Dragon pulse, but it does lower the targets Speed, so after a few hits, Kyurem will most likely outspeed your Pokémon. Consequently, allowing Kyurem to waste an additional PP before you can move, which can prove disastrous considering its low Total PP. Imprison isn't a problem unless you're trying to use the “One Under” Pokémon strategy, but your “One Under” Pokémon should be faster than Kyurem anyway.</p> 
+   
+<p>Due to Endeavor, it may be wise to bring a Ghost-type to face Kyurem. Chandelure is an excellent choice due to its resistance to Kyurem's Glaciate and the ability to raise its already decent Special Defense via Calm Mind to withstand Dragon Pulse. However, it may be difficult to capture Kyurem with Chandelure, as it does not learn any sleep inducing moves (or paralysis inducing moves) to improve the odds of a successful capture. Once you have captured Kyurem don't forget to pick up some the nice items scattered around the Giant Chasm, such as a TM 13 (Ice Beam).</p>
+   
+<h3><a name="Victini">Victini</a></h3>
+   
+<p>Victini is the first Pokémon in the Unova Dex, labeled as #000, and resides in a room in the basement of the lighthouse on Liberty Garden. The event key item, Liberty Pass, is necessary to board a boat that takes you to Liberty Garden. With the Liberty Pass in hand, head towards the final dock on the far left of Castelia City and speak to the sailor in front of the boat. He will notice the Liberty Pass and take you to Liberty Garden. When you arrive, you will immediately notice that a swarm of Team Plasma Grunts has infiltrated the island. Avoid or battle the Grunts and enter the lighthouse situated at the center of the island. The guard at the entrance of the lighthouse can heal your Pokémon. Proceed down the stairs and enter the room, where you will see Victini and a team Plasma Grunt that will immediately battle you. After the battle with the Grunt, you are free to capture Victini. Victini is at level 15 when you encounter it.  Finally, Victini cannot be shiny due a to a shiny check implemented in the game.</p> 
+   
+  Victini's Maximum Stats
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>59</td> <td>-</td>
+</tr>
+<tr>
+<td>Atk</td> <td>35</td> <td>39</td> <td>42</td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>35</td> <td>39</td> <td>42</td>
+</tr>
+<tr>
+<td>SpA</td> <td>35</td> <td>39</td> <td>42</td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>35</td> <td>39</td> <td>42</td>
+</tr>
+<tr>
+<td>Spe</td> <td>35</td> <td>39</td> <td>42</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Victini's Moveset</h4>
+<ul>
+<li>Confusion (25 PP)</li>
+<li>Incinerate (15 PP)</li>
+<li>Quick Attack (30 PP)</li>
+<li>Endure (10 PP)</li>
+<li>Total PP = 80</li>
+</ul>
+   
+<p>Victini is a simple catch due to its low level. Confusion won't be doing much damage, but it can be annoying if it manages to confuse your Pokémon. Incinerate is a very weak Fire-type attack, but it will burn away any berry your Pokémon is holding. Quick Attack will let Victini waste an additional PP before your Pokémon can act. Endure is very helpful, as it will allow Victini to survive at 1 HP, so if you get lucky and Victini uses Endure when your Pokémon launches a powerful attack, then it will leave Victini at 1 HP. Thus, sparing you turns of whittling down its HP with moves like False Swipe.</p> 
+   
+<h3><a name="kel">Keldeo/Meloetta/Genesect</a></h3>
+   
+<p>Black and White brought three more event legendaries in the form of Keldeo, Meloetta, and Genesect, but unlike previous event legendaries, these legendaries are not available for capture in-game. Keldeo, Meloetta, and Genesect can only be received via an external event using Mystery Gift. Finally, Keldeo, Meloetta, and Genesect all trigger events in Black and White. Bringing Keldeo to the Moor of Icirrus with Cobalion, Terrakion, and Virizion in your party will trigger an event where a man will appear and offer to teach Keldeo the move Secret Sword. If you take Meloetta in your party to a café in Castelia City, a singer will offer to teach it the move Relic Song, which will allow Meloetta to change between its Aria Forme and Pirouette Forme when used in battle. Entering the building located at P2 Laboratory with Genesect in your party will initiate a battle with a scientist (the battle is easily won, as he only has a Klink and Klang both at level 34). After the battle, the scientist will mention how Team Plasma created Genesect and will give you two drives (Burn Drive and Shock Drive in Black; Chill Drive and Douse Drive in White). When you attach one of these Drives to Genesect, the type of its signature attack, Techno Blast, will change depending on the Drive: the Burn Drive will make it a Fire-type attack, the Shock Drive an Electric-type attack, the Chill Drive an Ice-type attack, and the Douse Drive a Water-type attack.</p>

@@ -1,0 +1,186 @@
+[title]
+Substitute Analysis
+[head]
+<meta name="description" content="A treatise on the usage of the move Substitute." />
+[page]
+<div class="author">By <a href="/forums/member.php?u=12">Jumpman16</a>, rewritten by <a href="/forums/member.php?u=12630">Aldaron</a></div>
+
+<ol class="toc">
+	<li><a href="#general">Substitute General Information</a></li>
+	<li>
+		<a href="#tactics">Substitute Tactics</a>
+		<ul>
+			<li><a href="#freeturn">Obtaining a "free turn" or "scouting"</a></li>
+			<li><a href="#null_slaking">Nullifying Slaking</a></li>
+			<li><a href="#focuspunch">Substitute + Focus Punch</a></li>
+			<li><a href="#leechseed">Substitute + Leech Seed</a></li>
+			<li><a href="#batonpass">Substitute + Baton Pass</a></li>
+			<li><a href="#pressure">Substitute + Pressure</a></li>
+			<li><a href="#bellydrum">Substitute + Belly Drum</a></li>
+			<li><a href="#flailrev">Substitute + Flail / Reversal</a></li>
+			<li><a href="#calmmind">Substitute + Calm Mind</a></li>
+			<li><a href="#hp404">Substitute + 404 HP</a></li>
+			<li><a href="#altogether">Putting it all together</a></li>
+		</ul>
+	</li>
+</ol>
+
+<h2><a name="general">Substitute General Information</a></h2>
+
+<p>Since all 386 Pokémon became obtainable for competitive play, Substitute's usage has increased dramatically. Its utility is so varied that newer players might not entirely grasp exactly why this move is so useful.</p>
+
+<p>A technical description of the move, along with a list of the Pokémon who learn it, can be located <a href="/rs/moves/substitute">here.</a></p>
+
+<h2><a name="tactics">Substitute Tactics</a></h2>
+
+<h3><a name="freeturn">Obtaining a "free turn" or "scouting"</a></h3>
+
+<p>If the Substituting Pokémon is faster, it gains the ability to either block a predicted move (for example, blocking Thunder Wave) and net a free turn, or gain knowledge regarding the opposing Pokemon's set.</p>
+
+<h3><a name="null_slaking">Nullifying Slaking</a></h3>
+
+<p>If the Substituting Pokémon is faster than Slaking, it can Substitute on Slaking's move, and then Substitute again on the turn that Slaking loafs around in order to gain a free turn. If the Substituting Pokémon is slower, then it has to be able to take one hit from Slaking and survive with at least 25% health in order to gain the free turn. However, be wary that Slaking has the option of using Fury Swipes to counteract this strategy when it is used by frail Pokémon, such as Ninjask or Sceptile.</p>
+
+<h3><a name="focuspunch">Substitute + Focus Punch</a></h3>
+
+<p>This is commonly referred to as 'SubPunch.' With a Substitute, Focus Punch is successful every time given that the opponent is not using a move that hits more than once in a single turn. Some popular examples of this are:</p>
+<pre>
+Gengar
+~ Substitute
+~ Focus Punch
+~ Thunderbolt
+~ Ice Punch
+</pre>
+<p>Gengar switches in on Snorlax without Shadow Ball or Blissey without Ice Beam / Thunderbolt (but don't switch in on Thunder Wave), sets up a Substitute, and then proceeds to Focus Punch, Thunderbolt, or Ice Punch as necessary.</p>
+<pre>
+Tyranitar
+~ Substitute
+~ Crunch
+~ Thunderbolt
+~ Focus Punch
+</pre>
+<p>There will be more on this particular moveset when a special strategy regarding Substitute is explained in detail.</p>
+
+<h3><a name="leechseed">Substitute + Leech Seed</a></h3>
+
+<p>This is commonly referred to as 'SubSeed.' Two Pokémon that successfully execute this strategy are Sceptile and Jumpluff. The reason they are the best at doing this is because they both have high Speed. Another advantage is their low HP. This is somewhat counterintuitive, but lower HP is actually an advantage, because it means that Leech Seed recovers a higher percent of their max HP. The objective here is to make the opponent switch his Pokémon repeatedly, causing residual damage to build. A complementary strategy that takes advantage of the opponent's attempts to switch is using Spikes, as the residual damage will increase even more with Spikes on the field. Example:</p>
+<pre>
+Sceptile
+~ Leech Seed
+~ Substitute
+~ Leaf Blade
+~ Hidden Power Ice
+</pre>
+<p>With maximum Speed, Sceptile is faster than many Pokémon and can use Substitute before the opponent can move. Sceptile can then Leech Seed and proceed to use Substitute again, or Leaf Blade if it nets a free turn. This strategy is particularly popular against Blissey, Snorlax, Suicune, or any other Pokémon with high HP, although it can work well against any slower Pokémon as well.</p>
+
+<h3><a name="batonpass">Substitute + Baton Pass</a></h3>
+
+<p>The idea here is to Substitute and then Baton Pass to pass that Substitute along to the next Pokémon. This is mainly used to check and see what Pokémon the opponent is going to switch to. This is especially useful on high Speed Pokémon. The reason for this is that your Pokémon can get a Substitute as they switch to a counter, and then you can Baton Pass to a Pokémon that resists whatever move they are using. If Jolteon is out with a Substitute, it can use Baton Pass to Gengar or Salamence if your opponent is likely to use Earthquake. Examples:</p>
+<pre>
+Jolteon
+~ Thunderbolt
+~ Hidden Power Ice
+~ Baton Pass
+~ Substitute
+</pre>
+<p>Here, Jolteon uses its superior Speed to set up a Substitute and scout the opponent. For example, a common lead is Thunder Wave Zapdos, and Zapdos might use Thunder Wave in order to cripple Jolteon. However, with Substitute, Jolteon manages to block Thunder Wave and gain a free turn, during which it can pass the Substitute to any Pokémon that counters what the opponent currently has out.</p>
+<pre>
+Espeon
+~ Calm Mind
+~ Psychic
+~ Substitute
+~ Baton Pass
+</pre>
+<p>This set will not only Baton Pass Substitute, but Calm Minds as well. There is another Substitute oriented strategy at work here as well.</p>
+
+<p>There will be more on this particular moveset when the secondary Substitute strategy utilized here is explained.</p>
+
+<h3><a name="pressure">Substitute + Pressure</a></h3>
+
+<p>Using Substitute with a Pokémon with the Pressure ability will cause the opponent's Pokémon to lose PP at double the rate, all while doing minimal damage. This can also be paired with Protect to create an even more effective PP-stalling strategy. This works best on a fast Pokémon. Examples:</p>
+<pre>
+Aerodactyl
+~ Substitute
+~ Protect
+~ Rock Slide
+~ Earthquake / Rest
+</pre>
+<p>Here, Substitute is used first and then Protect is used accordingly to wear down the opponent's PP. Other options include Absol, Zapdos, and Suicune, although none of them work as well as Aerodactyl for Substitute Pressure PP stalling, mostly due to Aerodactyl's superior Speed.</p>
+
+<h3><a name="bellydrum">Substitute + Belly Drum</a></h3>
+
+<p>This can be a very devastating combination when played correctly. The goal here is to Substitute while predicting a switch or non-damaging move, and then use Belly Drum. If the Pokémon's HP is divisible by 4, Salac Berry will activate and it will have a Speed boost as well as the Belly Drum attack boost. Examples:</p>
+<pre>
+Linoone
+~ Substitute
+~ Belly Drum
+~ ExtremeSpeed
+~ Shadow Ball
+</pre>
+<p>First, Substitute is used and then, assuming the Substitute wasn't broken that turn, Belly Drum is used for the Attack boost and then the Salac Berry activation. The key factor to remember is that the HP must be divisible by 4 so that the Salac Berry activates directly after one Substitute and a Belly Drum.</p>
+
+<h3><a name="flailrev">Substitute + Flail / Reversal</a></h3>
+
+<p>The basis here is that if a Pokémon is holding a Salac Berry, it can simply Substitute four times and get the Salac Berry boost. Then, it uses either Reversal or Flail to sweep. Examples:</p>
+<pre>
+Heracross
+~ Substitute
+~ Reversal
+~ Megahorn
+~ Swords Dance / Focus Punch
+</pre>
+<p>This brings Heracross into Salac Berry range, brings Reversal up to 200 Base Power, and activates Swarm for Megahorn. Focus Punch lets you hit Skarmory if it tries to wall you before you Substitute down, while Swords Dance helps you sweep if they switch as you Substitute.</p>
+
+<h3><a name="calmmind">Substitute + Calm Mind</a></h3>
+
+<p>Basically, the concept here is to Substitute and then proceed to Calm Mind against special attackers such as Starmie, Celebi, or Zapdos. The Substitutes won't break as Calm Mind increases Special Defense. Once safely behind a Substitute, the increased Special Attack gained by repeated uses of Calm Mind can then be used to sweep. Additionally, Substitute serves to block status and absorb critical hits. Examples:</p>
+<pre>
+Jynx
+~ Lovely Kiss
+~ Calm Mind
+~ Ice Beam
+~ Substitute
+</pre>
+<p>Here, Jynx uses Substitute and then Calm Mind. Whatever it can't KO with Ice Beam, it puts to sleep with Lovely Kiss and then continues to Calm Mind. The two objectives here are to avoid Jynx becoming affected by a status effects and to Calm Mind enough so that Jynx's Substitutes cannot be broken by special attackers. Substitute also allows Jynx to safely Calm Mind while the opponent is sleeping, so Jynx doesn't have to fear an early wake up or a surprise Sleep Talk.</p>
+<pre>
+Espeon
+~ Calm Mind
+~ Psychic
+~ Substitute
+~ Baton Pass
+</pre>
+<p>In addition to Baton Passing Substitutes, Espeon also Baton Passes Calm Minds. This set's full potential is realized when Espeon has Calm Minded against an opponent and then Baton Passed to a sweeper with a Substitute in front of it. In addition, the Substitute also allows Espeon to keep itself from getting paralyzed or poisoned, though it isn't harmed by this as much as Jynx.</p>
+
+<h3><a name="hp404">Substitute + 404 HP</a></h3>
+
+<p>The main purpose of this is to counteract Seismic Toss or Night Shade. When a Pokémon with 404 or more HP creates a Substitute, the HP of the Substitute has 101 HP, requiring TWO Seismic Tosses to break. This means that if Blissey were to stay in, the Substituting Pokémon would get a "free turn."</p>
+<pre>
+Tyranitar
+~ Substitute
+~ Crunch
+~ Thunderbolt
+~ Focus Punch
+</pre>
+<p>This set, popularly known as "Tyraniboah," was designed to counter stall teams and specifically the Skarmory + Blissey combination. When Tyranitar Substitutes, Blissey's Seismic Toss cannot break that Substitute, allowing Tyranitar to Focus Punch the next turn without fear of being hit. The basis here is a combination of both the Substitute + Focus Punch and the Substitute + 404 HP ideas.</p>
+
+<h3><a name="altogether">Putting it all together</a></h3>
+
+<p>At this juncture, Substitute's general utility should be evident to even newer players. An important fact to realize is that Substitute's truly devastating potential is revealed when combining two or more of the Substitute strategies. Here are two Pokémon that use two or more Substitute strategies:</p>
+<pre>
+Celebi
+~ Substitute
+~ Calm Mind
+~ Baton Pass
+~ Recover / Psychic
+</pre>
+<p>This Celebi combines Substitute + 404 HP, + Calm Mind, and + Baton Pass to form an excellent Baton Passer. Its Substitutes cannot be broken by a single Seismic Toss; it cannot easily be stopped by a special attacker; and of course, it can Baton Pass all the Calm Minds to another Pokémon!</p>
+<pre>
+Jirachi
+~ Calm Mind
+~ Substitute
+~ Psychic
+~ Thunderbolt
+</pre>
+<p>Here, Jirachi combines only two Substitute strategies, but is a very effective anti-special attacker Calm Minder. Jirachi Calm Minds up as it uses its Substitute to block Blissey from using Thunder Wave, blocks Snorlax from paralyzing with Body Slam, and keeps Dugtrio from revenge-killing it as easily. Even if Blissey doesn't have Thunder Wave, using Substitute will allow Jirachi to heal double the amount from Leftovers, so it's still a smart idea to use Substitute.</p>
+
+<p>Several Pokémon are very effective because of the strategies they can pull off using Substitute and a combination of Substitute-specific strategies. Substitute is clearly one of the most important and diverse moves in the game, and with proper knowledge of the move, a competitively based Pokémon battler can add to his repertoire of viable strategies.</p>

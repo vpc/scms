@@ -1,0 +1,7 @@
+[title]
+[head]
+[page]
+
+<h1>Nido Ball</h1>
+
+<p>La Nido Ball tiene un índice de captura de *(40 - nivel) / 10. Si el nivel del Pokémon objetivo es de entre 1 y 10, el modificador será *3. En cambio, si su nivel es de entre 11 y 20, el modificador será *2. Finalmente, si el HP del Pokémon a capturar es de entre 21 y 100, el modificador será *1.</p>

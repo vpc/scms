@@ -1,0 +1,31 @@
+[title]
+Colossoil
+[head]
+<link rel="stylesheet" type="text/css" href="/media/dex/dex.css" />
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_template.js"></script>
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_database.js"></script>
+[header]
+[page]
+<script language="JavaScript">
+<!--
+var cap = Colossoil();
+
+cap.heightFeet = 8;
+cap.heightInches = 8;
+cap.weightPounds = 1507;
+cap.weightKilos = 683.6;
+cap.eggGroup1 = "Water 2";
+cap.eggGroup2 = "Ground"
+
+cap.topicLeader = "Plus";
+cap.conceptCreator = "moi"
+cap.statSpreadCreator = "Deck Knight";
+cap.designArtist = "CyzirVisheen";
+cap.spriteArtist = "Aragornbird";
+cap.nameCreator = "franky";
+cap.movepoolCreator = "Fuzznip";
+cap.playtestChampion = "Fuzznip";
+
+document.write(composeDexPage(cap));
+//-->
+</script>

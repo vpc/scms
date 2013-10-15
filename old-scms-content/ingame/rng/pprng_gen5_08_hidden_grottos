@@ -1,0 +1,76 @@
+<script src="https://dl.dropboxusercontent.com/u/18231634/Smogon/misc/scmsvalidator.min.js"></script>
+
+[Title]
+PPRNG Guide - Controlling Encounters in Hidden Grottoes
+
+[Head]
+<style type="text/css">
+	.centered-left { text-align:center; padding-right:40%}
+	img { max-width:100%; }
+	ol { list-style-type: upper-roman; }
+	ol ol { list-style-type: lower-roman; }
+	dl dl { margin-left:2em; }
+	dl dl dt { font-size:.85em; }
+</style>
+ 
+[Page]
+<div class="author">By <a href="/forums/members/69906/">chiizu</a>.</div>
+
+<ol class="toc"> 
+	<li><a href="/ingame/rng/pprng_gen5_01_intro">Introduction</a></li>
+	<li><a href="/ingame/rng/pprng_gen5_02_basics">The Basics of RNG Abuse</a></li>
+	<li><a href="/ingame/rng/pprng_gen5_03_id_abuse">How to RNG Abuse your TID/SID combo</a></li>
+	<li><a href="/ingame/rng/pprng_gen5_04_capture_abuse">Capturing/Receiving Perfect (and Shiny) Pokemon</a></li>
+	<li><a href="/ingame/rng/pprng_gen5_05_breeding">Breeding Perfect (and Shiny) Pokemon</a></li>
+	<li><a href="/ingame/rng/pprng_gen5_06_wondercard">Receiving Perfect Wondercard Pokemon</a></li>
+	<li><a href="/ingame/rng/pprng_gen5_07_roamers">Capturing Roaming Pokemon</a></li>
+	<li><strong>Controlling Encounters in Hidden Grottoes</strong></li>
+	<li><a href="/ingame/rng/pprng_gen5_09_dream_radar">Receiving Perfect Dream Radar Pokemon</a></li>
+	<li><a href="/ingame/rng/pprng_gen5_10_entralink">Capturing Perfect Entralink Pokemon</a></li>
+</ol>
+
+<p>
+	In order to more easily encounter some of the rarer Hidden Grotto Pokemon and items, PPRNG provides a function for searching for seeds  which will generate the desired Hidden Grotto contents.
+</p>
+
+<p>
+	The first step is to examine the details of which Pokemon and items appear in which Hidden Grotto. <a href="https://dl.dropboxusercontent.com/u/12206225/hollow.htm">This table</a> gives those details.
+</p>
+
+<p>
+	Note that the order in which the grottoes are listed is important, because the game decides whether to fill each empty Hidden Grotto every time you walk 256 steps, and it considers each grotto in the order that it is listed in that table (i.e. the grotto in Floccesy Ranch is always considered first). In order to simplify the grotto generation process, it's best if all grottoes listed before the grotto you are RNGing are already filled, and in fact PPRNG only supports RNGing in this situation.
+</p>
+
+<p>
+	As an example, let's say that we want to get a female Heracross from the grotto in Lostlorn Forest in White 2. There are two important things to note in this case: Heracross only appears in groups A, B, and C, and the Lostlorn Forest grotto is generated after the grottoes in Floccesy Ranch and Route 5 are considered, so we need to be sure that those grottoes are already filled.
+</p>
+
+<p>
+	To search for a seed, open the Hidden Grotto Seed Searcher window and configure it for the item / Pokemon you are RNGing using the information for the table. In the example of Heracross, we need to choose one of  the three groups it appears in (A, B, or C), and select the 1% encounter slot. Because we are going for a female, we set the gender to female and  we choose 30% female for the ratio, as listed in the table. Then we click search to get the possible seeds for the date selected.
+</p>
+
+<div class="centered-left">
+	<img src="/media/upload/ingame/rng/pprng_grotto_1.png" alt=""/>
+</div>
+
+<p>
+	Now, choose a seed with a start time and Timer0 value that you like (note that all Hidden Grotto seeds use no held buttons), and perform the following steps to generate your desired hollow contents.
+</p>
+
+<ol style="list-style-type:decimal">
+	<li>Ensure that all grottoes listed before your target grotto in <a href="https://dl.dropboxusercontent.com/u/12206225/hollow.htm">this table</a> are filled. Do not empty them when verifying that they are filled.</li>
+	<li>Enter the grotto you are RNGing, and empty it (take any item / capture or beat any Pokemon that is already there).</li>
+	<li>Save your game inside the empty grotto.  Standing on either the right or left side of the grotto is recommended for ease of subsequent step counting.</li>
+	<li>Hit your seed.</li>
+	<li>Take 256 steps in the grotto. The grotto is 8 steps wide, so running from side to side 32 times (16 laps) will give exactly 256 steps.</li>
+	<li>Exit and reenter the grotto. A Max Repel could help you count steps, at least 250 steps.</li>
+	<li>
+		If you hit your seed correctly, and all previous grottoes were already filled, you will find that your grotto now has the item / Pokemon you  were targeting. If you are targeting a Pokemon, you should save next to it and then use the Standard Seed Searcher to find a seed with IVs and a nature that you like.  Note that gender is fixed at this point, and that Pokemon encountered in Hidden Grottoes cannot be shiny.
+	</li>
+	<li>
+		If the grotto is empty or contains something other than what you were aiming for, and assuming that you properly verified that all previous grottoes were filled, it means that you missed your seed. Go back to step 4 and try again. There is unfortunately no easy way to know what seed you actually hit.
+	</li>
+	<li>
+		If you find that you are unsuccessful after 15 or so attempts, it's possible that you made a mistake in verifying the status of the previous grottoes. In this case, it's best to save again (after finding that the grotto is empty or does not contain the desired item / Pokemon) as this will save the status of any newly generated hollow that you may have missed.
+	</li>
+</ol>

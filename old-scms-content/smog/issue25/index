@@ -1,0 +1,96 @@
+[title]
+The Smog community web-zine
+
+[head]
+<link href="/media/smog/smog-issue.css" type="text/css" rel="stylesheet" />
+<style type="text/css">
+    /* Do not touch this declaration */
+       h1 { display: none; }
+    /* ********************* */
+</style>
+
+[page]
+<div id="smog-main-header">
+    <a href="/smog/"><img src="/media/smog/thesmog.png" alt="The Smog Logo" /></a>
+    <p>Smogon's Web-zine</p>
+    <div>Released March 4th, 2013</div>
+</div>
+
+<!-- Begin #page-wrapper -->
+<div id="page-wrapper" class="full">
+    
+    <div id="current-issue">
+        <img src="http://www.smogon.com/media/upload/smog/issue25/smog25.png" title="Cover Art" alt="" />
+        <div id="contribs">
+            This issue of The Smog is brought to you by <a href="http://www.smogon.com/smog/issue25/contributors">these contributors</a>.
+        </div>
+    </div>
+
+        <!-- Begin #issue-contents -->
+        <div id="issue-contents">
+
+            <!-- Begin first column -->
+            <div class="column">
+                <div class="section general">
+                    <h3>General</h3>
+                    <a href="note_from_editor">Note from the Editor</a>
+                    <a href="interview">Interview with Zebraiken</a>
+                    <a href="trivia">Trivia</a>
+                    <a href="smog_awards">The Smog Awards 2012</a>
+                </div>
+
+                <div class="section battling-strategy">
+                    <h3>Battling Strategy</h3>
+                    <a href="featured_pokemon_uu">Featured UU Pok&eacute;mon: Snorlax</a>
+                    <a href="featured_pokemon_nu">Featured NU Pok&eacute;mon: Gardevoir</a>
+                    <a href="featured_rmt_ou">Featured OU RMT</a>
+                    <a href="featured_rmt_ru">Featured RU RMT</a>
+                    <a href="featured_rmt_lc">Featured LC RMT</a>
+                    <a href="elemental_gems">Diamonds in the Rough: the Elemental Gems in Singles</a>
+                </div>
+
+                <div class="section metagame">
+                    <h3>Metagame</h3>
+                    <a href="leads">Getting a Strong Start: Leads in BW2 OU</a>
+                    <a href="suspect">Suspect Testing Rounds 6-7</a>
+                    <a href="nfes_nu">NFEs in NU</a>
+                    <a href="lc_sand">Just Deserts: A Taste of Sand in Little Cup</a>
+                    <a href="doubles_strategies">Uncommon Doubles Strategies</a>
+                    <a href="rely_abilities">15 Pok&eacute;mon That Rely on Their Abilities</a>
+                    <a href="adv_underrated_movesets">Underrated ADV OU Movesets</a>
+                    <a href="rby_underdogs">RBY Underdogs That Hit it Big in BW</a>
+                </div>
+            </div>
+
+            <!-- Begin second column -->
+            <div class="column">
+                <div class="section arts-and-recreation">
+                    <h3>Arts &amp; Recreation</h3>
+                    <a href="arterview">The Arterview: Birkal</a>
+                    <a href="smeargle">Smeargle's Studio Update</a>
+                    <a href="pathfinder">A Beginner's Guide to Pathfinder Society</a>
+                </div>
+
+                <div class="section entertainment">
+                    <h3>Entertainment</h3>
+                    <a href="pokemon_biology">Pok&eacute;mon Biology: Conditional Evolution</a>
+                    <a href="poketour">Pok&eacute;Tour: Fortree City</a>
+                    <a href="gym_guide">Do You Even Lift: Hoenn Hunks Edition</a>
+                </div>
+
+                <div class="section other">
+                    <h3>Other Features</h3>
+                    <a href="ingame_tiers">Tiers of Joy: Understanding Each Game's In-Game Tiers</a>
+                    <a href="xy_speculation">XY Primer: Mad Speculation, now in 3D</a>
+                    <a href="article_workshop">(WIP) The Article Workshop</a>
+                    <a href="zero_isle">A Close Look at Zero Isle</a>
+                    <a href="ps_staff">How to Not Piss Off the PS Staff</a>
+                </div>
+            </div>
+        </div> <!-- /end #issue-contents -->
+
+        <div class="clear"></div>
+</div> <!-- /end #page-wrapper -->
+
+<!-- Do NOT modify anything after this line. ~Setsuna -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>

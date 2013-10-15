@@ -1,0 +1,163 @@
+[title]
+Kitsunoh
+[head]
+<link rel="stylesheet" type="text/css" href="/media/dex/dex.css" />
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_template.js"></script>
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_database.js"></script>
+[header]
+[page]
+<script language="JavaScript">
+document.write(strategyTabs("Kitsunoh"));
+document.write(topHeaderInfo(Kitsunoh()));
+</script>
+
+<h2>Overview</h2>
+
+<h4>DPP</h4>
+
+<p>While it may be a stretch to call Kitsunoh "the ultimate scout," it is definitely adept at forcing switches with its great resists and vast array of powerful attacks and support options. With 110 Speed, Kitsunoh outpaces much of the metagame and is more than capable of forcing most foes into submission, be they walls or offensive threats. Furthermore, it is not a glass cannon like many of its fast brethren and is very capable of taking a hit when it has to. Kitsunoh is an asset to any team that is looking for a fast, hard-hitting attacker that forces switches and reveals team members.</p>
+
+<p>Despite the things it has going for it, Kitsunoh is not a sturdy Pokemon. Repeated neutral attacks, even those that lack STAB, will wear it down fast. Also, its weaknesses are two of the most commonly used attacking types in the metagame, meaning that most offensive and even defensive Pokemon will carry moves that hurt it substantially. Generally speaking, Kitsunoh doesn't respond well to pressure and will eventually and surely buckle under heavy stress. Even with these things factored in, though, Kitsunoh can bring down much of the metagame when played properly; this kitten's got claws.</p>
+
+<script language="JavaScript"> 
+var set = new CAPSet(); 
+set.name = "DPP Wispy Kit (Substitute)"; 
+set.move[1] = "Substitute"; 
+set.move[2] = "Will-O-Wisp"; 
+set.move[3] = "ShadowStrike"; 
+set.move[4] = "Superpower"; 
+set.item = "Leftovers"; 
+set.ability = "Limber"; 
+set.nature = "Jolly"; 
+set.evs.HP = 16; 
+set.evs.Atk = 240; 
+set.evs.Spe = 252; 
+document.write(composeSet(set)); 
+</script> 
+
+<p>This set is effective at putting a lot of pressure on the opponent and forcing one or more Pokemon to suffer a burn before it can be forced out. There exist very few Pokemon that can handle Kitsunoh's attacks and also shrug off a burn. Normally, your opponent will have to let one of his bulky Pokemon take a burn just to force this Kitsunoh to switch out. Switching in and starting this devastating chain of moves is not a difficult task for the Steel/Ghost fox, as it resists or is immune to common attacking types such as Ice, Rock, and Fighting. As the opponent switches, use Substitute to scout the incoming Pokemon. The usual switch-ins will be bulky Water-, Steel-, or Ground-typed Pokemon, almost all of whom are highly susceptible to Will-O-Wisp. Burn them as they break your sub and proceed from there. In some cases, like a full-HP burned Skarmory, it's best to simply switch out. Other times, one can use Substitute repeatedly to allow the burn to take its toll, and possibly lower the Pokemon into the KO range of one of Kitsunoh's other attacks. A mid-health Swampert can almost always be beaten by this method. If you can stall it into about the 20% range, Kitsunoh can deliver the finishing blow with ShadowStrike.</p>
+
+<p>ShadowStrike serves as Kitsunoh's reliable STAB attack. Superpower is recommended in the last slot as ShadowStrike and Superpower provide perfect neutral coverage. Although the set presented here is generally considered the best, there are a couple of alternatives available. Toxic has higher accuracy than Will-O-Wisp, and is more crippling to some Pokemon, particularly certain Water-types like Vaporeon and Swampert. However, Steel-types like Skarmory will completely shut Kitsunoh down, and most non-Steel Pokemon that will be switching in to Kitsunoh will hate the cut to their Attack, such as Gyarados and Gliscor. Protect over Superpower could allow Kitsunoh to stall out longer to rack up burn damage, but being walled by Blissey is embarrassing, and Magnezone could trap you with little fear. Earthquake could be used over Superpower, but its coverage is generally inferior and is only really useful on this set if you need to OHKO Heatran, Infernape and Magnezone.</p>
+
+<p>As this Kitsunoh doesn't switch around too much, Frisk is less useful; Limber is preferred and makes Kitsunoh an easy switch-in to various Thunder Waves, such as those of Blissey and Celebi. 16 HP EVs are recommended, as they put Kitsunoh at 305 HP; which means Leftovers heals one more HP per turn and allows Kitsunoh to make five Substitutes from full health (factoring Leftovers recovery).</p>
+
+<p>This set is extremely difficult to counter. Generally, your opponent will be more than willing to let one of his walls be burned to get rid of Kitsunoh. A burned Swampert or Skarmory will be much less effective at walling, so try to use a late-game sweeper or two that have a difficult time with them under ordinary circumstances. Gyarados top this long list, as he resists Fire and is immune to Ground. Agility Metagross also gets a special mention.</p>
+
+<p>The one Pokemon that Wispy Kit ever needs to be genuinely worried about is Umbreon. If you accidentally use Will-O-Wisp on one, Synchronize will burn Kitsunoh even if you have a Substitute. A burned Kitsunoh will not do substantial damage even to relatively frail Pokemon; in fact, Kitsunoh will not pose any offensive threat outside of Will-O-Wisp. The best Pokemon for dealing with Umbreon are powerful Fighting-types, as well as Scizor and Flygon. Fighters like Lucario, Machamp, and Heracross can force Umbreon out, even after a Curse. Scizor and Flygon can switch into Umbreon and break any Mean Look attempts with super effective U-turns. Flygon and Kitsunoh cover each other's weaknesses fantastically, while Scizor is more powerful and is better at taking advantage of burned walls.</p>
+
+<script language="JavaScript"> 
+var set = new CAPSet(); 
+set.name = "DPP Stallbreaker"; 
+set.move[1] = "Taunt"; 
+set.move[2] = "Will-O-Wisp"; 
+set.move[3] = "ShadowStrike"; 
+set.move[4] = ["Earthquake", "Superpower"]; 
+set.item = "Leftovers"; 
+set.ability = "Limber"; 
+set.nature = "Jolly"; 
+set.evs.HP = 12; 
+set.evs.Atk = 244; 
+set.evs.Spe = 252; 
+document.write(composeSet(set)); 
+</script> 
+
+<p>While the only difference between this set and Wispy Kit is the exchange of Taunt over Substitute, it serves a completely different role in battle. Kitsunoh can single-handedly dismantle stall with this set if given the chance. Kitsunoh possesses many features that make it excellent at switching into the various members of a stall team, including immunities to poison and paralysis (with Limber) as well as a resistance to Stealth Rock and many other types. Once in, Kitsunoh can use its base 110 Speed and Taunt to shut down any attempts to heal or phaze. Even common stall switch-ins to Kitsunoh, such as Swampert and Hippowdon, will be effectively neutered by a burn as they enter the battle.</p>
+
+<p>Taunt and Will-O-Wisp form the core of this set, preventing opponents from setting up, healing, or phazing Kitsunoh while whittling them down over time. Stall's most common answers to Kitsunoh will never appreciate being burned, and burn further punishes any of the walls that attempt to stay in after being taunted. ShadowStrike is the best STAB option for Kitsunoh as not only does it hit hard, but it also boasts an excellent 50% chance to reduce Defense one stage, opening walls up to being broken much quicker. Earthquake is the more reliable option for the last slot, as it doesn't reduce Kitsunoh's effectiveness over time, but Superpower is still an excellent choice for its power, type coverage, and ability to hit Blissey extremely hard.</p>
+
+<p>The 12 HP EVs for this set result in 304 maximum HP, an optimal Leftovers number, and 252 Speed EVs maximize Kitsunoh's Speed. The rest of the EVs are placed in Attack to make its attacks as dangerous as possible. A Jolly nature is chosen to further increase Kitsunoh's speed and outspeed as many potential threats as possible. Leftovers is the item of choice to give Kitsunoh lasting power against the weaker attacks it'll be staying in to take, such as Brave Birds from Skarmory, as well as the many entry hazards that defensive teams set up. Finally, Limber is selected for the ability so that Kitsunoh can switch in on Thunder Wave without fearing for its Speed. A Life Orb can feasibly be run on this set with Ice Punch over Will-O-Wisp to turn Kitsunoh into an offensive threat as well as a stallbreaker. If this route is chosen, an EV spread of 252 Atk / 4 Def / 252 Spe is recommended with a 29 HP IV to round down Life Orb recoil damage.</p>
+
+<p>This Kitsunoh can mesh itself into many different team styles. Both balanced and offensive teams alike will appreciate Kitsunoh's ability to tear down walls such as Blissey and Skarmory. Huge offensive threats like Gyarados love to switch into a taunted Blissey or Skarmory and proceed to set up a Dragon Dance as they flee. Furthermore, the insurance Kitsunoh offers against Pokemon who might wall a sweeper on your team is invaluable. Agility Empoleon can sweep unhindered once Kitsunoh wears down Blissey and Snorlax, meanwhile Swords Dance Lucario will no longer be worried about Hippowdon or Gliscor if they're burned or severely weakened. Entry hazard support makes the switches that Kitsunoh forces even deadlier for your opponent. Stealth Rock and Spikes in particular will cause massive damage as your opponent attempts to switch in Pokemon to force out Kitsunoh.</p>
+
+<script language="JavaScript"> 
+var set = new CAPSet(); 
+set.name = "DPP Choice Scarf"; 
+set.move[1] = "ShadowStrike"; 
+set.move[2] = "U-turn"; 
+set.move[3] = ["Ice Punch", "Trick"]; 
+set.move[4] = ["Earthquake", "Superpower"]; 
+set.item = "Choice Scarf"; 
+set.ability = ["Limber", "Frisk"]; 
+set.nature = ["Adamant", "Jolly"]; 
+set.evs.HP = 4; 
+set.evs.Atk = 252; 
+set.evs.Spe = 252; 
+document.write(composeSet(set)); 
+</script> 
+
+<p>A Kitsunoh with a Choice Scarf is one of the best revenge-killers in the game. Some of the common sweepers that it can check include: Dragon Dance Tyranitar, Infernape, and Swords Dance Lucario. ShadowStrike acts as a strong and reliable STAB move and will put a sizable chunk into any Pokemon that doesn't resist it. Thanks to its Steel/Ghost typing, Kitsunoh has very few problems switching in and out, so U-turn is greatly appreciated to scout the opponent while inflicting mild damage.</p>
+
+<p>Courtesy of Kitsunoh's extensive movepool, the final two moves are a difficult choice to make. Ice Punch has great coverage and allows Kitsunoh to Flygon, stopping any potential sweeps cold. It is also a great option for assorted Flying- and bulky Ground-type Pokemon, like Togekiss, Zapdos, and Gliscor. On the other hand, Trick allows Kitsunoh to ditch its Choice Scarf on the opponent, potentially crippling it for the remainder of the battle. This also makes a great lead, as it can Trick various Stealth Rock users that normally don't have a problem absorbing an attack or two from Kitsunoh. The choice between Superpower and Earthquake comes down to what you would prefer to beat. Earthquake has an excellent chance to 2HKO Metagross and Jirachi with Stealth Rock on the field, and will OHKO various threats such as Magnezone, Heatran, and Infernape. Superpower, on the other hand, allows Kitsunoh to OHKO Tyranitar and 2HKO Blissey. In general, Earthquake should be used with Ice Punch and Superpower should be used with Trick.</p>
+
+<p>The choice of nature largely depends on whether or not you intend to use Trick. If you're not running it, Adamant is the preferred nature, as Choice Scarf Kitsunoh needs all the power it can get. Note however that you will be outsped by boosted +Speed base 100 Speed Pokemon like Choice Scarf Jirachi. If this is an issue, then Jolly is still very viable. Obviously, if you intend to Trick away your Choice Scarf, you will want to run Jolly so as to retain your revenge-killing abilities against +Speed base 100 Speed Pokemon and most Infernape. Limber is the preferred ability, unless you are using a Trick Lead, in which case Frisk becomes an excellent option to scout for various Berries and Choice items.</p>
+
+<p>Probably the best partner for this set is Choice Scarf Flygon. Flygon resists Kitsunoh's two weaknesses, Fire and Ground, and vice-versa for Flygon's Ice and Dragon weaknesses. Between the two of them, all types except Water, Dark, and Ghost are covered, and their ability to U-turn back and forth is not comparable to anything else in the Standard metagame. Outside of that, with U-turn chipping away at Kitsunoh's counters, hard-hitters that attract bulky Water-, Ground-, and Steel-typed Pokemon will make good partners for Kitsunoh. Gyarados covers Kitsunoh's weaknesses and can set up a Dragon Dance sweep if Kitsunoh has worn out their common counters. Strong Fighting Pokemon like Heracross and Machamp are also good choices, though they lack defensive synergy.</p>
+
+<script language="JavaScript"> 
+var set = new CAPSet(); 
+set.name = "DPP Life Orb"; 
+set.move[1] = "ShadowStrike"; 
+set.move[2] = "Ice Punch"; 
+set.move[3] = ["Superpower", "Earthquake"]; 
+set.move[4] = ["ThunderPunch", "U-turn", "Taunt"]; 
+set.item = "Life Orb"; 
+set.ability = "Limber"; 
+set.nature = "Jolly"; 
+set.evs.Atk = 252; 
+set.evs.Def = 4; 
+set.evs.Spe = 252; 
+set.ivs.HP = 29; 
+document.write(composeSet(set)); 
+</script> 
+
+<p>This set is a competent late-game sweeper with the extra power granted by a Life Orb. A big part of what makes Kitsunoh capable of doing this is the fact that it is either resistant or immune to all of the common priority moves: Bullet Punch, Extremespeed, Ice Shard, Vacuum Wave, and Mach Punch. ShadowStrike's 50% chance of a Defense drop is used to maximum effect on this set; it is difficult even for very bulky Pokemon to switch in without fear of a 2HKO or 3HKO.</p>
+
+<p>The moves for this set are chosen to optimize Kitsunoh's coverage and ability to beat down man. ShadowStrike is the crux of the set with its 50% chance of reducing the opponent's Defense. Ice Punch will bring down Pokemon like Gliscor and Dragonite while offering a strong option against Ground-types. Superpower is recommended in the third slot for its ability to break through Blissey and Snorlax, while Earthquake provides a more reliable option against Pokemon like Heatran and Magnezone and doesn't reduce Kitsunoh's stats with use. In the last slot, many options are effective depending on what Pokemon you want to beat. Thunderpunch is Kitsunoh's best option against bulky Water-type Pokemon, U-turn can be useful for allowing Kitsunoh to scout its initial switch-ins, and Taunt allows it to break down walls like Skarmory and Blissey better than the other options.</p>
+
+<p>The EVs are placed to maximize Kitsunoh's Attack and Speed stats, while the last 4 EVs are put in Defense so as to not alter Kitsunoh's HP. As a 31 HP IV puts Kitsunoh at 301 HP, an IV of 29 HP is recommended if you are using Life Orb. This will round the Life Orb damage down, allowing Kitsunoh to survive 11 packets of recoil damage from Life Orb. A Jolly nature is necessary to outspeed base 100 Speed Pokemon as well as Speed-tie with base 110 Speed Pokemon, most notably Gengar. Limber is chosen for the ability to prevent Kitsunoh's sweep from being stopped cold by paralysis as well as to give it greater ability to switch in.</p>
+
+<p>This set is played much more offensively than the others, thus it depends more upon its teammates. Additionally, this set will most often be used as a late-game sweeper and will normally require considerable support to ensure a successful sweep. Stealth Rock should be set up, and if possible, a layer or two of Spikes, as most of Kitsunoh's counters are vulnerable to them. Lures work very well with Offensive Kitsunoh, so a baiting Tyranitar or Jirachi could be used to clear Kitsunoh's path. If you intend to use Kitsunoh early, Wish support is recommended so that you don't take too much damage from attacks or Life Orb. Blissey tends to attract Fighting-typed moves, so it may be the best supporter in this regard.</p>
+
+<h2>Team Options</h2>
+
+<h4>DPP</h4>
+
+<p>Kitsunoh is used most often on offensive teams, and generally plays one of two roles: sweeper or sweeper's assistant. The latter is more common, as Kitsunoh is very good at inflicting small, gradual damage onto the various walls of the Overused metagame. The most common Pokemon that will switch into Kitsunoh are bulky Water-, Ground-, and Steel-types, so anything that has trouble with these Pokemon welcomes Kitsunoh onto their team. This actually includes the majority of the OU physical sweepers, such as Scizor, Gyarados, Metagross, Lucario, Tyranitar, and a host of others. Tyranitar in particular is great to use alongside Kitsunoh, as Kitsunoh is immune to Sand Stream and it appreciates the passive damage. Speaking of passive damage, Kitsunoh greatly enjoys the assistance of Stealth Rock, and if possible Spikes, as early in the game as possible. A suicide lead is the quickest way of ensuring that those hazards are present, so Roserade, Smeargle, and Froslass make good choices for Spikes, while Azelf, Aerodactyl, and Infernape easily and reliably set up Stealth Rock.</p>
+
+<p>Defensively, Kitsunoh has a wide range of resistances and immunities at the cost of only two weaknesses: Fire and Ground. Fortunately, several OU Pokemon resist this attack combination. Flygon stands out for its ability to form a U-turn pair with Kitsunoh. Scizor, despite sharing a Fire-type weakness with Kitsunoh, also makes a good U-turn teammate for it. Gyarados is also a good choice, as he is among the most deadly Pokemon in the metagame, particularly after Kitsunoh has worn holes into their counters and checks. Blissey's Wish support can be invaluable for Kitsunoh, especially Wispy Kit; burned walls won't be able to to much damage to Blissey, even with powerful physical attacks like Earthquake and Brave Bird.</p>
+
+<p>A strategy that Choice Scarf Kitsunoh was once notorious for was Trick + Pursuit. Upon Tricking a Choice item onto a wall, Tyranitar would switch in (preferably on a Fire-type move) and chase it out with Pursuit. What sets Kitsunoh apart from other users of this strategy are two factors: the first being that Kitsunoh's two weaknesses are extremely easy types to take advantage of, and the second that this strategy doesn't come with the usual drawbacks associated with using Choice Band Pursuit. As long as Kitsunoh is alive, your team will not be swept by any Lucario or Infernape, so you are free to Pursuit to your heart's content.</p>
+
+<h2>Other Options</h2>
+
+<h4>DPP</h4>
+
+<p>Kitsunoh, like many CAP Pokemon, enjoys a vast movepool. On the offensive side, Thunderpunch is a good option for hitting Flying- and Water-types, most notably Gyarados. Super Fang can be used to cut a Pokemon's HP in half, but in Kitsunoh's case, it is often just as effective to use ShadowStrike. Meteor Mash and Iron Head are both excellent STAB moves, but their type coverage is usually redundant with the main options. Low Kick can be used over Superpower on any set if the stat drops are undesirable, but Superpower hits much harder most of the time. Although Fake Out works well on Kitsunoh and has great synergy with U-turn, Ambipom is a stronger user of that set. A Liechi Berry Substitute + Flail set is mildly viable, albeit gimmicky.</p>
+
+<p>Kitsunoh also has an excellent defensive / supporting movepool. Among these options, by far the most notable is Torment, which can cause major headaches for the opponent in tandem with Substitute. Pain Split is Kitsunoh's best form of healing, but it's difficult to find space on the moveset for such an unreliable move. Although Knock Off can remove an opponent's item, a burn is usually more crippling. Psycho Shift sounds good on paper, but Kitsunoh is already immune to the two most common forms of status, so it sees little use. Yawn, Roar, and Perish Song are excellent phazing moves that Kitsunoh has access to, but that sort of thing is done better by bulkier Pokemon like Celebi.</p>
+
+<p>Choice Band Kitsunoh is perfectly viable, but has few advantages over the Wispy Kit and Stallbreaker sets. Life Orb tends to be a much more effective item than Choice Band due to the versatility of Kitsunoh being able to change its attacks between turns, although it removes much of Kitsunoh's survivability. Wide Lens may be used to boost the accuracy of Will-O-Wisp, ShadowStrike, and possibly Meteor Mash.</p>
+
+<h2>CAP Metagame</h2>
+
+<h4>DPP</h4>
+
+<p>Kitsunoh is an excellent Pokemon in the CAP metagame with its ability to threaten most of the CAP Pokemon and adequately revenge kill weakened versions of almost all of them. While Arghonaut appears to wall Kitsunoh, it is really just another Will-O-Wisp target and falls flat in the face of Torment. Kitsunoh is also a fantastic check to Revenankh, with ShadowStrike easily 2HKOing virtually all variants. Kitsunoh's Superpower can put a serious dent in Colossoil while being neutral to Sucker Punch, although you shouldn't be staying in and attacking unless it's suffered enough damage for Superpower to OHKO. Kitsunoh also serves as an excellent revenge-killer for weakened Fidgit and Cyclohm, as they are both outsped and take serious damage from Earthquake, although it has no business switching into either in most cases.</p>
+
+<p>Unfortunately for Kitsunoh, however, some of the CAP Pokemon are a lot more threatening to it than those present in the OU metagame. Colossoil stands out from the crowd as the most immediate threat to Kitsunoh. Despite Kitsunoh being neutral to Sucker Punch and outspeeding it with Superpower, Colossoil can switch into Will-O-Wisp and either be boosted by it if it is running Guts or bounce it back on Kitsunoh if using Rebound. Furthermore, the popular Choice Scarf Colossoil will easily annihilate Kitsunoh with its Earthquake, so scouting for its item is important prior to attempting an engagement. In the CAP metagame, there also exist two CAP Pokemon that outspeed Kitsunoh. Stratagem can OHKO non-Choice Scarf Kitsunoh with Earth Power or Flamethrower, while Syclant with Earth Power will do the same.</p>
+
+<p>In a metagame in which Spikes can be found on every other team, Kitsunoh makes a quite good spin-blocker for offensive teams. It has the advantages of not slowing down the team like Dusknoir, not being terribly frail like Gengar, and not being weak to Pursuit like Rotom-A.</p>
+
+<p>What is most interesting about Kitsunoh is that the primary set is one that was not even considered during the creation process, and that the ferocity of the set was only discovered months after Kitsunoh was introduced to the CAP server. While Kitsunoh was originally considered a “failure” by many of the playtesters, it has now become one of the very best CAP Pokemon. This is most certainly an interesting study of how a Pokemon or a metagame can evolve over time as we learn more about it.</p>
+
+<h2>Counters</h2>
+
+<h4>DPP</h4>
+
+<p>Unfortunately, to stop Wispy Kit, you will need to either use Umbreon or allow one of your walls to be burned by Will-O-Wisp. With that in mind, Skarmory is the best counter, due to its resistance to Ghost and neutrality to everything else Kitsunoh has, barring the rare Thunderpunch. Forretress and Bronzong both have solid enough defenses to deal with Kitsunoh and take neutral damage at worst from its attacks, although without Earthquake, they will generally find themselves doing insufficient damage. Metagross can normally handle an Earthquake or two and threaten to hit back with its own, much more deadly, Earthquake.</p>
+
+<p>As Kitsunoh isn't that powerful, bulky Pokemon don't strictly have to resist Ghost to take it on. Swampert, Gyarados, and Suicune (particularly any of those with Rest and Sleep Talk) make good answers to Wispy Kit. However, beware not to try to stall for too long, as ShadowStrike's Defense drops will help Kitsunoh significantly the longer you stay in. Ground-types such as Hippowdon and Gliscor are also good choices. One ray of hope for any Pokemon attempting to counter Wispy Kit is the fact that Will-O-Wisp has a shaky 75% accuracy, so your Pokemon have a chance to come out of it in perfect health. All in all, the best counter for Wispy Kit is Aromatherapy or Heal Bell support.</p>
+
+<p>Choice and Life Orb sets are much easier to handle and are generally covered by the same Pokemon. The only concern for any of the previously mentioned Pokemon is Trick. Choice Kitsunoh is also extremely easy to revenge-kill; Dugtrio and Magnezone can both trap it and deliver major damage with Earthquake or Thunderbolt, respectively. Tyranitar and Scizor can both take ShadowStrike and use Pursuit to get rid of Kitsunoh. Life Orb Kitsunoh will not be able to significantly damage the standard walls like Skarmory before the Life Orb recoil spells its doom.</p>
+
+<p>While the Stallbreaker set is intentionally difficult for stall teams to handle, offensive teams generally won't have a problem with it if they can avoid a burn. Kitsunoh is not as bulky as its resistances might suggest at a glance; it has trouble taking neutral attacks from Pokemon with large attacking stats. Furthermore, almost anything that outspeeds Kitsunoh can beat it, examples being Choice Scarf Rotom-A, Heatran, and Flygon.</p>

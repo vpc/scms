@@ -1,0 +1,31 @@
+[title]
+Tomohawk
+[head]
+<link rel="stylesheet" type="text/css" href="/media/dex/dex.css" />
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_template.js"></script>
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_database.js"></script>
+[header]
+[page]
+<script language="JavaScript">
+<!--
+var cap = Tomohawk();
+
+cap.heightFeet = 4;
+cap.heightInches = 2;
+cap.weightPounds = 82;
+cap.weightKilos = 37.2;
+cap.eggGroup1 = "Ground";
+cap.eggGroup2 = "Flying"
+
+cap.topicLeader = "reachzero";
+cap.conceptCreator = "Korski"
+cap.statSpreadCreator = "Jibaku";
+cap.designArtist = "Cartoons!";
+cap.spriteArtist = "DarthVader317";
+cap.nameCreator = "DougJustDoug";
+cap.movepoolCreator = "capefeather";
+cap.playtestChampion = "Korski";
+
+document.write(composeDexPage(cap));
+//-->
+</script>

@@ -1,0 +1,991 @@
+[title]
+Capturing RSE Legendaries
+[head]
+<meta name="description" content="A guide to efficiently capturing competitive legendary Pokémon in Ruby/Sapphire/Emerald, courtesy of Nexus." />
+[page]
+<div class="author">By <a href="/forums/member.php?u=35537">Nexus</a>.</div>
+
+<ol class="toc">
+<li><a href="#preparations">Preparations</a>
+<ul>
+<li><a href="#capture_rate">Capture Rate</a></li>
+<li><a href="#ball_capsules">Ball Capsules</a></li>
+<li><a href="#catcher">The Catcher</a></li>
+<li><a href="#one_under">The "One Under" Pokémon</a></li>
+<li><a href="#other">Other Items and Pokémon</a></li>
+<li><a href="#tricks">Tricks of the Trade</a></li>
+<li><a href="#latios_latias">The Latios/Latias Factor</a></li>
+</ul>
+</li>
+<li><a href="#catching">Catching the Legendaries</a>
+<ul>
+<li><a href="#kyogre">Kyogre</a></li>
+<li><a href="#groudon">Groudon</a></li>
+<li><a href="#rayquaza">Rayquaza</a></li>
+<li><a href="#regi_trio">The Regi Trio</a></li>
+<li><a href="#regirock">Regirock</a></li>
+<li><a href="#regice">Regice </a></li>
+<li><a href="#registeel">Registeel</a></li>
+<li><a href="#latias_latios_40">Latios/Latias (Non-Event)</a></li>
+<li><a href="#event">Event Pokemon</a></li>
+<li><a href="#latias_latios_50">Latios/Latias (Eon Ticket Event)</a></li>
+<li><a href="#lugia_ho_oh">Lugia/Ho-Oh</a></li>
+<li><a href="#deoxys">Deoxys</a></li>
+<li><a href="#mew">Mew</a></li>
+</ul>
+</li>
+</ol>
+
+<h2><a name="preparations">Preparations</a></h2>
+
+<h3><a name="capture_rate">Capture Rate</a></h3>
+
+<p>Each legendary is assigned a numerical catch rate, as are all wild Pokémon. Essentially, the higher the Catch Rate, the higher the chance to capture. The Catch Rate is plugged into a formula, which determines whether the Pokémon will be captured or not. While the actual in-game formula is quite complex, Community Member <a href="/forums/member.php?u=2412">X-Act</a> has made a formula that produces nearly exact results. Note that you must always round down should you get a decimal.</p>
+
+<pre>(( 1 + ( MaxHP × 3 - CurrentHP × 2 ) × CatchRate × BallRate × Status# ) ÷ ( MaxHP × 3 )) ÷ 256</pre>
+
+<p>Top Poké Ball Rates :</p>
+<ul>
+<li>Master Ball : 255</li> 
+<li>Timer Ball (30+ Turns) : 4</li>
+<li>Dusk Ball (In dark areas like caves or outside between the hours of 20:00 and 4:00)) : 3.5</li>
+<li>Net Ball (Against a Bug- or Water-type) : 3</li>
+<li>Repeat Ball (Against previously caught Pokémon) : 3</li>
+<li>Ultra Ball : 2</li>
+<li>Great Ball : 1.5</li>
+</ul>
+
+<p>A Master Ball catches any wild Pokémon without fail and can be obtained at Aqua Hideout in Sapphire and Emerald or Magma Hideout in Ruby. Additionally, they can be won from the daily lottery held at the Lilycove Dept. Store. Timer Balls begin at 1 and increase every 10 turns, with a cap of 4. Therefore, Timer Balls have the highest BallRate of any Ball other than the Master Ball. Net Balls are only useful for Kyogre, as it is the only Water-type legendary available in Sapphire and Emerald. The Nest Ball has a BallRate of 1 against any legendary in RSE, as the lowest level of any legendary found in Ruby, Sapphire, or Emerald is 30. All other Balls have a BallRate of 1. It is best to use either Timer or Ultra Balls when going for the legendaries.</p>
+
+<p>Status Numbers :</p>
+<ul>
+<li>Freeze : 2</li>
+<li>Sleep : 2</li>
+<li>Paralysis : 1.5</li>
+<li>Burn : 1.5</li>
+<li>Poison : 1.5</li>
+<li>None : 1</li>
+</ul>
+
+<p>As you can see, sleep is your best bet due to the lack of reliable freeze moves. Paralysis gives a much lower number, so sleep moves are preferred. You should never poison or burn the legend; this sets a time limit on your legend's lifespan.</p>
+
+<p>The Catch Rate of all legendaries available in HGSS is 3, except for Groudon and Kyogre, who have a catch rate of 5.</p>
+
+<p>Let's say we try and catch a Level 5 max HP Magikarp with a Timer Ball after 30 turns. Magikarp's Catch Rate is 255.</p>
+
+<pre>
+Capture Rate = (( 1 + ( MaxHP × 3 - CurrentHP × 2 ) × CatchRate × BallRate × Status# ) ÷ ( MaxHP × 3 )) ÷ 256
+= (( 1 + ( 18 × 3 - 18 × 2 ) × 255 × 3.5 × 1 ) ÷ ( 18 × 3 )) ÷ 256
+= (( 1 + ( 54 - 36 ) × 255 × 3.5 × 1 ) ÷ ( 54 )) ÷ 256
+= (( 1 + 16065 ) ÷ 54 ) ÷ 256
+= ( 16066 ÷ 54 ) ÷ 256
+= 297 ÷ 256
+= 1.162181712962963
+= 100%
+</pre>
+
+<p>Any decimal numbers were not shown, and simply rounded down.</p>
+
+<p>If the end result is over 1, you have a 100% chance to capture the Pokémon. However, due to varying IVs, it is difficult to know the max HP of the legendaries, let alone determine their current HP. The formula is simply here for reference, and a little bit of insight on why certain Balls or status effects are used.</p>
+
+<h3><a name="ball_capsules">Ball Capsules</a></h3>
+
+<p>After you get your first Pokémon, and acquire the PokéDex, what does Professor Birch give you? That's right, Poké Balls. For capturing the legendaries, Ultra and Timer Balls are your best bets. Ultra Balls can be purchased at most late-game PokéMarts—initially at the PokéMart in Fortree City—and are available before you face your first legendary. Timer Balls can be purchased at the Rustboro City PokéMart after you have spoken to the Devon representative located at the entrance of Rusturf Tunnel near Rustboro City. He will only appear there once you have delivered the Devon Goods to Capt. Stern. You'll want to stock up on a good number of Balls; around fifty per legendary should do nicely, (there are seven legendaries, including event Pokémon, that can be caught in Ruby and Sapphire; twelve in Emerald), which makes for a total of three hundred and fifty in Ruby and Sapphire and six hundred in Emerald. However, it would not be very cost effective to purchase a large number of Balls at once, so it is best to carry around 100 Ultra Balls with 50 Timer Balls in reserve at one time. This is great, if say, Regirock is caught in a single Ultra Ball, while Rayquaza requires 50 Ultra Balls.</p>
+
+<p>Net Balls are good alternatives to Ultra Balls when capturing Kyogre in Sapphire and Emerald. Repeat Ball is useful if you can register the respective legendary in your PokéDex by trading it over from a different game. The Battle Tower cloning glitch in Emerald provides a cheap way of amassing a large amount of Balls, especially Master Balls, which can then be traded over to Ruby and Sapphire.</p>
+
+<h3><a name="catcher">The Catcher</a></h3>
+
+<p>If you are planning on transferring over unlimited Master Balls from Pokémon Emerald, this section will not be of much use to you. If not, you'll probably need a good capturing Pokémon. What makes a good capturing Pokémon? A Pokémon that can learn both a reliable sleep move and False Swipe fits the bill. False Swipe is a great move for catching legendaries; it allows you to always get them down to 1 HP, without the risk that you may do too much damage and cause them to faint. A list of Pokémon that meet the aforementioned criteria is as follows:</p>
+
+<dl>
+<dt>Paras, Parasect, Smeargle, and Breloom</dt>
+<dd>Breloom is arguably the easiest to obtain in Ruby, Sapphire, and Emerald, but it requires a lot of leveling up to learn Spore as a Shroomish, and False Swipe is an Egg move. Furthermore, Breloom's ability Effect Spore may inflict the legendary with an undesirable status condition if it uses a contact move on Breloom. Paras and Parasect can only be traded over from FireRed and LeafGreen, and you must get them up to a very high level with an Attack boosting nature. Like Breloom, Paras and Parasect possess Effect Spore, and must have False Swipe bred onto them. Due to the risk associated with Effect Spore, Smeargle is arguably the best option available, despite its lackluster base stats. Unfortunately, Smeargle is only available in Emerald and must be traded to Ruby and Sapphire, so you will have to settle for Breloom if you cannot trade. Finally, many legendaries have moves that are not too kind to Parasect and Breloom, forcing you to heal more often. As a result, Smeargle becomes a more appealing option, despite the difficulty in Sketching the desired moves, as only a few legendaries have a Fighting-type move that can truly harm Smeargle.</dd>
+</dl>
+
+<h3><a name="one_under">The "One Under" Pokemon</a></h3>
+
+<p>An optional Pokémon that you may wish to take with you is the "One Under" Pokémon. This is a Pokémon that has a Speed stat one point below the maximum of the legendary you're trying to catch. This is for Pokémon you really need to have reach a certain Speed. It isn't the wisest choice to bring one of these along for every legendary however; the "One Under" Pokémon can be a pain to get, but it will be worth it if you don't have Master Balls. The idea is to have your "One Under" Pokémon lead, then have it use an attack. If the legendary goes first, switch to the capture Pokémon and continue the battle. If not, reset. This "One Under" should preferably be at a high level, and not use any priority moves.</p>
+
+<p>However, there is a catch to using the "One Under" Pokémon in third generation games. If you are one of the select few people who read the instruction booklet that accompanies the game, you will notice that once you gain a badge, your Pokémon's stats will increase. However, this is not a visible change; once you collect a badge for a certain stat, all Pokémon you capture will have their appropriate stat permanently given a Badge Modifier of x1.1. This only applies for a Pokémon once it is in your possession; legendaries will not have this modifier in effect whilst you are attempting to capture them. On the other hand, your "One Under" Pokémon will. This means that your "One Under" Pokémon needs to reach the desired Speed stat after the x1.1 modifier is applied to its stats.</p>
+
+<p>As an example, say you were using a Zangoose to be the "One Under" Pokémon for Rayquaza. Assuming absolute maximum Speed, Rayquaza has a Speed stat of 174 at level 70. Rather than aiming for your Zangoose to have a Speed stat of 173, you would need to find what Speed stat it needs after the Badge Modifier is applied. Sounds rather difficult to find out what Speed is required, but it is actually quite simple if you use the following formula :</p>
+
+<p>"One Under" Speed = floor(Legendary Speed / 1.1) The operation "floor" simply means to round down whatever number is the result of the operations in brackets.</p>
+
+<p>Let's try this using the example of a 174 Speed Rayquaza.</p>
+
+<p>"One Under" Speed = floor(174 / 1.1)"One Under" Speed = 158</p>
+
+<p>Assuming you had 158 on its summary screen, this Zangoose should have 1 less Speed than a 174 Speed Rayquaza, once the Badge Modifier is in effect. To confirm your result, simply multiply the "One Under" Speed you found by 1.1, rounding down the result (Pokémon does not use decimals in stats).</p>
+
+<p>floor(158 * 1.1) = 173</p>
+
+<p>As you can see, calculating the Speed for your "One Under" Pokémon is not very difficult at all.</p>
+
+<p>If you are going for a defensive legendary who is not concerned about outspeeding certain threats, then you may wish to go for a different variation of the "One Under" Pokémon that uses Endeavor. Endeavor is a move that takes the opposing Pokémon's HP down to the HP the Endeavor user currently has, but fails if the Pokémon using Endeavor has more HP than its target. This can be abused by giving your Endeavor Pokémon 1 less HP than the maximum HP of the legendary you are going for. If your "One Under" Pokémon's Endeavor attack fails, then you know that the legendary you are fighting does not have the amount of HP you are looking for, so you can reset without having to capture it. If Endeavor takes the legendary's HP down, then you know it is fine to resume trying to capture it. However, this Pokémon must also be faster than the legendary, so it does not risk taking damage, which would result in a false positive. The Badge Modifier does not apply to HP, so finding a "One Under" Endeavor Pokémon is quite straightforward.</p>
+
+<h3><a name="other">Other Items and Pokemon</a></h3>
+
+<p>Make another stop at a PokéMart; you'll want to buy a few Revives and Hyper Potions/Max Potions/Full Restores if you're far enough in the game. Revives are very useful; they keep your main capture Pokémon alive, as well as the rest of your party. At least 30 Super Repels are almost mandatory (these are actually more cost effective than Max Repels) as most legendaries can only be reached by crossing areas with wild Pokémon. Five or more Escape Ropes are useful to have, albeit not required. You should always bring a team of at least three high-leveled Pokémon (the other two can be HM slaves or fodder for when you need a free turn to heal your Pokemon, but leveling them up is not a bad idea).</p>
+
+<h3><a name="tricks">Tricks of the Trade</a></h3>
+
+<p>Before you go after your first legendary, keep in mind a couple tips:</p>
+
+<ul>
+<li>Always save before the legendary. For Ho-Oh, save before the last spot on the top of the mountain; it will fly down to you. For Groudon and Kyogre, save at least one space before you are directly in front of them.</li>
+<li>Check the stats in the legendary's section before you save, and after you compare the stats and are interested, check them here: <a href="http://www.metalkid.info/Pokemon/OnlineProgram/Calculators/IV.aspx">Metalkid's IV Calculator</a>. You can use some Rare Candies and record the stats for each level if you wish, but for legendaries this is generally not necessary due to the higher base stats.</li>
+<li>Make sure you have a maximum of five Pokémon in your party whenever you are about to fight a legendary. This allows you to check the nature and stats of your legendary directly after capturing capturing it, saving you a trip back to a Pokémon Center to check Lanette's PC.</li>
+<li>If you don't like the Pokémon, press A + B + Start + Select simultaneously. This is known as soft resetting. It is less stressful on your system than turning the power off and on again, and it saves you time as well.</li>
+<li>Wait for a different amount of time in the title and menu screens when soft resetting. This helps prevent a repeated seed, and by extension, repeated legendaries. For more information see <a href="ingame/rng/pid_iv_creation">X-Act's article on PIDs</a>.</li>
+<li>Keep realistic expectations if you are soft resetting. If you're only willing to accept a legendary with quadruple 31 IVs, you could be there for a very long time. It is much harder to get a legendary Pokémon with great IVs than a bred one. Although, you can remedy this problem by RNG abusing your legendary, which allows you to control its nature and IVs to an extent. Information on PRNG manipulation in Emerald can found <a href="/forums/showthread.php?t=52180">here</a>. Furthermore, the information on Emerald RNG manipulation can be applied to Ruby and Sapphire once the internal battery has run dry on those games, as the games' RNG will function similar to Emerald and remain fixed on a single seed with the same frame advancement.</li>
+<li>Watch the HP bars if you're not using Master Balls. Compare the approximate damage done by your Pokémon to the HP of the legendary once you've caught it, and vice-versa, with the legendary's Attack/Special Attack. This should help you out; if you do too much damage on a defensive legendary, you can reset without going through the whole battling process. The same goes for an offensive one that doesn't do enough damage to you.</li>
+<li>If a legendary runs out of Power Points for all its moves, it will use the move Struggle. Struggle is a typeless attack that causes 50% recoil of the damage done. Once a legendary starts to Struggle, it isn't long for this world, especially if you have previously used False Swipe to lower it to 1 HP. Note that Struggle can miss in this generation, so using accuracy reducing moves like Sand-Attack and Flash can potentially prolong the number of turns the legendary lasts, especially if you didn't reduce its HP to 1.</li>
+
+</ul>
+
+<h3><a name="latios_latias">The Latios/Latias Factor</a></h3>
+
+<p>Latios's and Latias's uniqueness goes beyond being the only roamers in Ruby, Sapphire, and Emerald. In fact, it becomes apparent the moment their IVs and nature are determined, and after the television show mentions the color of the Pokémon roaming about Hoenn. In addition to the fact that their IVs and nature are set at that time, the IVs of the eon duo are victims of either an odd programming decision or a glitch; only their HP IV can be random, while the rest are set extremely low (typically in the 0-5 range). Despite what others may tell you, it is impossible to capture a competitive roaming Latios or Latias in Ruby or Sapphire. This is due to the programming, not "luck", so it is a fact that these particular legendaries will always have bad IVs, and very often poor natures as well. Luckily, this programming decision/glitch does not extend to the roaming Latios/Latias in Emerald.</p>
+
+<h2><a name="catching">Catching the Legendaries</a></h2>
+
+<h3><a name="kyogre">Kyogre</a></h3>
+
+<p>Kyogre is the mascot for Pokémon Sapphire, and is located at the bottom of the Cave of Origin in Sootopolis City in that game. Kyogre will arrive at the Cave of Origin once Archie awakens it at the Seafloor Cavern on Route 128. Head over to Sootopolis City once the events at the Seafloor Cavern have passed. When you arrive, you will be led to the Cave of Origin by Steven and Wallace and asked to confront Kyogre to end the perpetual rainfall. The Cave of Origin itself is a simple 5-floor dungeon. The first four floors are shrouded in darkness, so bring a Pokémon with Flash to navigate the cave more easily. Once you arrive at the bottom, Kyogre will be resting at the center of the floor. Remember to save at least one space before walking directly in front of Kyogre, as once you step in front of Kyogre the Blue Orb will glow and Kyogre will approach you to commence the battle. Kyogre is at level 45 when you engage it in battle. Finally, don't forget to pick up the Waterfall HM located in the Cave of Origin.</p>
+
+<p>After headlining in Sapphire, Kyogre decides to make a splash in Emerald, but in a new home that is constantly changing location. Kyogre can be caught in Marine Cave after defeating the Elite Four by speaking to a scientist on the second floor of the Weather Institute on Route 119. When you speak with him, the scientist will inform that it is raining heavily on a certain route. Immediately head to the route the scientist mentioned, as it will change if you let too much time pass, and don't forget to bring a Pokémon with Dive. Upon your arrival, you will notice heavy rain, indicating that Marine Cave is in the area. Search for a dark patch on the water and Dive to enter Marine Cave. Kyogre is at level 70 when you battle it; remember to save before stepping directly in front of Kyogre.</p>
+
+<h4>Kyogre's Maximum Stats (Level 45)</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>158</td> <td>-</td>
+</tr>
+<tr>
+<td>Atk</td> <td>97</td> <td>108</td> <td>118</td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>89</td> <td>99</td> <td>108</td>
+</tr>
+<tr>
+<td>SpA</td> <td>137</td> <td>153</td> <td>168</td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>129</td> <td>144</td> <td>158</td>
+</tr>
+<tr>
+<td>Spe</td> <td>89</td> <td>99</td> <td>108</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Kyogre's Minimum Speed (Level 45)</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Min-</th> <th>Min</th> <th>Min+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>77</td> <td>86</td> <td>94</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Kyogre's Moveset (Level 45)</h4>
+<ul>
+<li><a href="/rs/moves/body_slam">Body Slam</a> (15 PP)</li>
+<li><a href="/rs/moves/calm_mind">Calm Mind</a> (20 PP)</li>
+<li><a href="/rs/moves/ice_beam">Ice Beam</a> (10 PP)</li>
+<li><a href="/rs/moves/hydro_pump">Hydro Pump</a> (5 PP)</li>
+<li>Total PP = 50</li>
+</ul>
+
+<p>The biggest threat in Kyogre's arsenal is Hydro Pump with its 120 Base Power, coupled with Kyogre's massive Special Attack and the perpetual rain caused by Drizzle. With the boost from rain, Hydro Pump can tear through most Pokémon, especially at this point in the game, where your team is likely not at a high level. Luckily, Hydro Pump only has 5 PP, so Kyogre won't get too many chances to KO your Pokémon with it. Calm Mind makes Hydro Pump more lethal and Ice Beam a serious threat after some boosts. Body Slam won't be doing as much damage compared to any of Kyogre's other moves, but it does have a decent 30% chance of inflicting paralysis.</p>
+
+<h4>Kyogre's Maximum Stats (Level 70)</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>241</td> <td>-</td>
+</tr>
+<tr>
+<td>Atk</td> <td>149</td> <td>166</td> <td>182</td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>136</td> <td>152</td> <td>167</td>
+</tr>
+<tr>
+<td>SpA</td> <td>212</td> <td>236</td> <td>259</td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>199</td> <td>222</td> <td>244</td>
+</tr>
+<tr>
+<td>Spe</td> <td>136</td> <td>152</td> <td>167</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Kyogre's Minimum Speed (Level 70)</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Min-</th> <th>Min</th> <th>Min+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>117</td> <td>131</td> <td>144</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Kyogre'sMoveset (Level 70)</h4>
+<ul>
+<li><a href="/rs/moves/hydro_pump">Hydro Pump</a> (5 PP)</li>
+<li><a href="/rs/moves/rest">Rest</a> (10 PP)</li>
+<li><a href="/rs/moves/sheer_cold">Sheer Cold</a> (5 PP)</li>
+<li><a href="/rs/moves/double-edge">Double-Edge</a> (15 PP)</li>
+<li>Total PP = 35</li>
+</ul>
+
+<p>Hydro Pump is more devastating than before; now coming off Kyogre's higher Special Attack, while Drizzle still provides continuous rain to boost its damage. Rest will get annoying; forcing you to chip away Kyogre's HP all over again and re-inflict it with status after the sleep wears off. This will end up wasting more turns, which will lead to Kyogre Struggling sooner considering its lower total PP. Sheer Cold is only an issue if your Pokémon is at a level equal to or lower than Kyogre's level. Double-Edge is troublesome to work around, as Kyogre will be dealt recoil damage every time it hits the opposing Pokémon, making it impossible to keep Kyogre at 1 HP without running the risk of it KOing itself.</p>
+
+<p>A Pokémon with Sunny Day can dispose of the rain and cut Hydro Pump's damage output in half. In Emerald, if you caught Groudon prior to facing Kyogre, then its Drought ability can be used to replace the rain with perpetual sunlight. A Ghost-type, especially Shedinja, is highly recommended when capturing Kyogre in Emerald to prevent it from fainting itself with Double-Edge.</p>
+
+<h3><a name="groudon">Groudon</a></h3>
+
+<p>Groudon is the star of Pokémon Ruby, and much like its counterpart Kyogre, resides in the Cave of Origin. Groudon will head to the Cave of Origin after Maxie awakens it in the Seafloor Cavern on Route 128. Once you've battled Maxie and the remaining events in the Seafloor Cavern have transpired, head over to Sootopolis City, where you will be escorted to the Cave of Origin by Steven and Wallace to stop Groudon and end the continuous sunlight. The Cave of Origin is easy to navigate, especially if you bring a Pokémon with Flash. Groudon will be on the basement floor of the Cave of Origin. Remember to save at least one step before you're directly in front of Groudon, as Groudon will approach you and commence the battle the instant you get in front of it. Groudon is at level 45 when you battle it.</p>
+
+<p>In Emerald, Groudon is available for capture once you defeat the Elite Four, in a new location aptly named Terra Cave. Terra Cave's location is constantly changing, and to learn which route it is stationed at, you must speak with the scientist on the second floor of the Weather Institute on Route 119. When you speak with the scientist, he will mention that there is a drought on a certain route in Hoenn. Immediately head to the route he mentioned, and if you arrived in time, the weather will instantly turn sunny, indicating that Terra Cave is in the area. Groudon is at level 70 when you engage it in battle. Remember to save before you're directly in front of Groudon.</p>
+
+<h4>Groudon's Maximum Stats (Level 45)</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>158</td> <td>-</td>
+</tr>
+<tr>
+<td>Atk</td> <td>137</td> <td>153</td> <td>168</td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>129</td> <td>144</td> <td>158</td>
+</tr>
+<tr>
+<td>SpA</td> <td>97</td> <td>108</td> <td>118</td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>89</td> <td>99</td> <td>108</td>
+</tr>
+<tr>
+<td>Spe</td> <td>89</td> <td>99</td> <td>108</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Groudon's Minimum Speed (Level 45)</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Min-</th> <th>Min</th> <th>Min+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>77</td> <td>86</td> <td>94</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Groudon's Moveset (Level 45)</h4>
+<ul>
+<li><a href="/rs/moves/slash">Slash</a> (20 PP)</li>
+<li><a href="/rs/moves/bulk_up">Bulk Up</a> (20 PP)</li>
+<li><a href="/rs/moves/earthquake">Earthquake</a> (10 PP)</li>
+<li><a href="/rs/moves/fire_blast">Fire Blast</a> (5 PP)</li>
+<li>Total PP = 55</li>
+</ul>
+
+<p>Earthquake will be inflicting a lot of damage to your Pokémon, considering Groudon's exceptional Attack and the possibility that your team may not be at a high enough level at this point in the game. Bulk Up will only intensify the damage from Earthquake and Slash and improve Groudon's Ubers-worthy Defense stat, making it even more difficult to reduce its HP. Fire Blast is deadly, despite coming off Groudon's lower Special Attack, thanks to Drought casting everlasting sunlight. Therefore, if you're planning on using Breloom or Parasect as catchers, keep some Revives handy as Fire Blast will barbeque them both instantly. Slash is only an issue after some Bulk Up boosts or if it manages to score a critical hit, which is likely, due to its high critical hit ratio.</p>
+
+<h4>Groudon's Maximum Stats (Level 70)</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>241</td> <td>-</td>
+</tr>
+<tr>
+<td>Atk</td> <td>212</td> <td>236</td> <td>259</td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>199</td> <td>222</td> <td>244</td>
+</tr>
+<tr>
+<td>SpA</td> <td>149</td> <td>166</td> <td>182</td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>136</td> <td>152</td> <td>167</td>
+</tr>
+<tr>
+<td>Spe</td> <td>136</td> <td>152</td> <td>167</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Groudon's Minimum Speed (Level 70)</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Min-</th> <th>Min</th> <th>Min+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>117</td> <td>131</td> <td>144</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Groudon's Moveset (Level 70)</h4>
+<ul>
+<li><a href="/rs/moves/fire_blast">Fire Blast</a> (5 PP)</li>
+<li><a href="/rs/moves/rest">Rest</a> (10 PP)</li>
+<li><a href="/rs/moves/fissure">Fissure</a> (5 PP)</li>
+<li><a href="/rs/moves/solarbeam">SolarBeam</a> (10 PP)</li>
+<li>Total PP = 30</li>
+</ul>
+
+<p>Fire Blast is the main issue, as the eternal sunlight from Drought will give its damage output a 50% boost, causing serious damage to your Pokémon. Fissure is not a problem, unless your Pokémon are below or at level 70. Rest will be troublesome, as Groudon will use it to remove any damage that was previously done to it and force you to weaken it all over again. Luckily, you have two free turns to work on reducing Groudon's HP, thanks to the sleep status induced by Rest. However, Groudon's impressive HP and Defense will make it difficult to do so. SolarBeam does not have a charging turn with the sun shining and can dish out a decent amount of damage. With only 30 PP in total and Rest to heal itself, Groudon will not last long before Struggling, so try and make this a quick capture.</p>
+
+<p>A Rain Dance user can help cut Fire Blast's and SolarBeam's damage in half. If you captured Kyogre (in Emerald) prior to facing Groudon, then you can use it to replace the sunlight with endless rain. Remember to pick up the Waterfall HM in the Cave of Origin before leaving if you're capturing Groudon in Ruby.</p>
+
+<h3><a name="rayquaza">Rayquaza</a></h3>
+
+<p>Rayquaza is the face of Pokémon Emerald and sits high in the sky atop Sky Pillar. Sky Pillar is located on Route 131 and only requires Surf to get to it. In Ruby and Sapphire, you can only enter Sky Pillar once you have defeated the Elite Four. However, in Emerald, you must head to Sky Pillar to awaken Rayquaza and stop Kyogre and Groudon. Gaining access to Sky Pillar in Emerald requires that you observe Maxie awaken Groudon at Magma Hideout, witness Archie awaken Kyogre at the Seafloor Cavern, and speak with Wallace at the Cave of Origin. Once you have performed the aforementioned tasks and Rayquaza calms Kyogre and Groudon, you may revisit Sky Pillar and capture Rayquaza. Sky Pillar itself is not complicated, but can be annoying to navigate, as there are numerous cracks on the floor that require the Mach Bike to pass over. Rayquaza is at level 70 when you face it in Ruby, Sapphire, and Emerald.</p>
+
+<h4>Rayquaza's Maximum Stats</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>248</td> <td>-</td>
+</tr>
+<tr>
+<td>Atk</td> <td>212</td> <td>236</td> <td>259</td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>136</td> <td>152</td> <td>167</td>
+</tr>
+<tr>
+<td>SpA</td> <td>212</td> <td>236</td> <td>259</td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>136</td> <td>152</td> <td>167</td>
+</tr>
+<tr>
+<td>Spe</td> <td>143</td> <td>159</td> <td>174</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Rayquaza's Moveset</h4>
+<ul>
+<li><a href="/rs/moves/fly">Fly</a> (15 PP)</li>
+<li><a href="/rs/moves/rest">Rest</a> (10 PP)</li>
+<li><a href="/rs/moves/extremespeed">ExtremeSpeed</a> (5 PP)</li>
+<li><a href="/rs/moves/outrage">Outrage</a> (15 PP)</li>
+<li>Total PP = 45</li>
+</ul>
+
+<p>Outrage adds two levels of difficulty to this capture. Firstly, it can KO your Pokémon coming off Rayquaza's high Special Attack. Secondly, Outrage confuses Rayquaza after it calms down, so it is likely that Rayquaza will KO itself if its HP is low enough. Fly will severely damage Breloom and Parasect, if you are using either as your catcher, but it does gives you a free turn to heal your team. Rest can be annoying as you will have to lower Rayquaza's HP again, but it can help cure Rayquaza of its confusion from Outrage. Additionally, it will give you two free turns while Rayquaza takes its nap. ExtremeSpeed lets Rayquaza waste an additional PP before you can put it to sleep or attack it and damage your Pokémon before it can make a move, so ensure that your Pokémon has sufficient HP to withstand it.</p>
+
+<p>Sleep is the preferred status move for Rayquaza, as it can stop Rayquaza in the middle of Outrage and prevent it from becoming confused. Alternatively, you can use Skill Swap to give Rayquaza the ability Own Tempo, which will prevent it from becoming confused after Outrage. Grumpig and Smeargle possess Own Tempo, learn Skill Swap, and are available in RSE. If you're using Breloom or Parasect, then consider teaching them Protect via TM 17 to shield them from Fly; TM 17 can be purchased at the Lilycove Dept. Store. Once you've captured Rayquaza simply Fly to leave Sky Pillar.</p>
+
+<h3><a name="regi_trio">The Regi Trio</a></h3>
+
+<p>Every region has its own trio of legendaries. Hoenn holds the legendary golem trio: Regirock, Regice, and Registeel. The dwellings of these three Pokémon are scattered about Hoenn and locked, so you must unlock them before you can attempt to capture a member of the Regi Trio. Unlocking their chambers involves paying a visit to the Sealed Chamber on Route 134. Before making the trip, make sure you have Pokémon that can use Dive, Surf, and Dig, as well as Relicanth and Wailord, in your party. Surf on the lower end of the rapids that start on Route 132 and you will arrive at a dark patch of water. Dive and proceed to the end of the underwater cavern, then resurface to arrive at the Sealed Chamber. Head towards the wall at the end of room and use Dig, as instructed by the Braille on the wall, to open a passage to the second room in the Sealed Chamber. Now, place Relicanth at the head of your party and Wailord at the end in Ruby and Sapphire. For Emerald, place Wailord at the head and Relicanth at h4152the end of your party. Next, interact with the stone at the end of the room and the room will begin shaking; then, you will hear three thuds, indicating that the chambers have been unlocked. At last, you may proceed to catch the Regi trio.</p>
+
+<h3><a name="regirock">Regirock</a></h3>
+
+<p>Within the sandstorm on Route 111 lie the Desert Ruins, home to the stone golem, Regirock. The Desert Ruins are located towards the south of the desert on Route 111. Inside the Ruins is a single room with a wall of text written in Braille. Regirock is behind this wall, and you must create an opening in the wall to reach it. Luckily, the instructions are written on the wall itself. In Ruby and Sapphire, you must take two steps to the right from where the Braille inscription is written, then two steps down and use Strength. In Emerald, take two steps to the left, then two steps down and use Rock Smash. If you performed the previous steps correctly, then a hole will appear in the wall; proceed through it to reach Regirock. Regirock is at level 40 when you encounter it.</p>
+
+<h4>Regirock's Maximum Stats</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>126</td> <td>-</td>
+</tr>
+<tr>
+<td>Atk</td> <td>87</td> <td>97</td> <td>106</td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>159</td> <td>177</td> <td>194</td>
+</tr>
+<tr>
+<td>SpA</td> <td>51</td> <td>57</td> <td>62</td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>87</td> <td>97</td> <td>106</td>
+</tr>
+<tr>
+<td>Spe</td> <td>51</td> <td>57</td> <td>62</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Regirock's Minimum Speed</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Min-</th> <th>Min</th> <th>Min+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>40</td> <td>45</td> <td>49</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Regirock's Moveset</h4>
+<ul>
+<li><a href="/rs/moves/rock_throw">Rock Throw</a> (15 PP)</li>
+<li><a href="/rs/moves/curse">Curse</a> (10 PP)</li>
+<li><a href="/rs/moves/superpower">Superpower</a> (5 PP)</li>
+<li><a href="/rs/moves/ancientpower">AncientPower</a> (5 PP)</li>
+<li>Total PP = 35</li>
+</ul>
+
+<p>Curse is the main problem when facing Regirock. While it will ensure that your Pokémon will easily outspeed Regirock, the Defense boosts it provides will make it harder to whittle away Regirock's HP, especially if you're using False Swipe. As a result, the battle may be drawn out longer and Regirock may end up Struggling. The Attack boost lets Regirock hit your Pokémon harder with its remaining three attacks. Superpower and Rock Throw can demolish your Pokémon, especially after a few Curse boosts. Fortunately, Superpower will lower Regirock's Attack and Defense by 1 stage with each hit and counteract the boosts from Curse. AncientPower is only a problem if it manages to boost Regirock's stats, but there's only a 10% chance of that occurring.</p>
+
+<h3><a name="regice">Regice</a></h3>
+
+<p>Regice is found in isolation in the Island Cave on Route 105. Surf is the only HM necessary to arrive at the Island Cave. Upon entering Island Cave, you will notice an empty room with a Braille inscription on the northern wall. The inscription provides instructions on how to enter the room Regice is located in. In Ruby and Sapphire, after reading the text on the wall, your character must remain in place and not move for about 2 minutes to create an opening in the wall. In Emerald, your character must perform one clockwise lap around the cave and arrive back in front of the Braille inscription. Proceed through the opening that appears, and you will encounter Regice, it is at level 40.</p>
+
+<h4>Regice's Maximum Stats</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>126</td> <td>-</td>
+</tr>
+<tr>
+<td>Atk</td> <td>51</td> <td>57</td> <td>62</td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>87</td> <td>97</td> <td>106</td>
+</tr>
+<tr>
+<td>SpA</td> <td>87</td> <td>97</td> <td>106</td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>159</td> <td>177</td> <td>194</td>
+</tr>
+<tr>
+<td>Spe</td> <td>51</td> <td>57</td> <td>62</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Regice's Minimum Speed</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Min-</th> <th>Min</th> <th>Min+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>40</td> <td>45</td> <td>49</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Regice's Moveset</h4>
+<ul>
+<li><a href="/rs/moves/icy_wind">Icy Wind</a> (15 PP)</li>
+<li><a href="/rs/moves/curse">Curse</a> (10 PP)</li>
+<li><a href="/rs/moves/superpower">Superpower</a> (5 PP)</li>
+<li><a href="/rs/moves/ancientpower">AncientPower</a> (5 PP)</li>
+<li>Total PP = 35</li>
+</ul>
+
+<p>Icy Wind reduces your Pokémon's Speed, and will eventually let Regice outspeed your Pokémon. However, if Regice decides to accumulate some Curse boosts, then the Speed drops won't be a problem. On the subject of Curse, it will make Regice much more difficult to weaken with physical moves, particularly False Swipe. Superpower is threatening after a couple of Curse boosts, but ends up removing those boosts with each hit. AncientPower is a gamble, as it can boost all of Regice's stats, but only has a 1 in 10 chance of occurring.</p>
+
+<h3><a name="registeel">Registeel</a></h3>
+
+<p>On Route 120 lies the Ancient Tomb, and inside rests the iron golem Registeel. The Ancient Tomb itself is a simple cave with Braille text on the wall opposite the entrance. The text is a set of instructions to gain entry into Registeel's chamber. In Ruby and Sapphire, head to the center of the room and use Fly to reveal an opening in the wall of Braille text; in Emerald, use Flash instead of Fly. Enter the opening to find Registeel resting in the middle of the room. Registeel is at level 40 when you battle it.</p>
+
+<h4>Registeel's Maximum Stats</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>126</td> <td>-</td>
+</tr>
+<tr>
+<td>Atk</td> <td>69</td> <td>77</td> <td>84</td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>123</td> <td>137</td> <td>150</td>
+</tr>
+<tr>
+<td>SpA</td> <td>69</td> <td>77</td> <td>84</td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>123</td> <td>137</td> <td>150</td>
+</tr>
+<tr>
+<td>Spe</td> <td>51</td> <td>57</td> <td>62</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Registeel's Minimum Speed</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Min-</th> <th>Min</th> <th>Min+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>40</td> <td>45</td> <td>49</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Registeel's Moveset</h4>
+<ul>
+<li><a href="/rs/moves/metal_claw">Metal Claw</a> (35 PP)</li>
+<li><a href="/rs/moves/curse">Curse</a> (10 PP)</li>
+<li><a href="/rs/moves/superpower">Superpower</a> (5 PP)</li>
+<li><a href="/rs/moves/ancientpower">AncientPower</a> (5 PP)</li>
+<li>Total PP = 55</li>
+</ul>
+
+<p>Curse will make it painfully difficult to reduce Registeel's HP with any physical attacks, especially since Registeel's Steel typing grants it resistances to most types. Superpower will be doing serious damage after a couple of Curse boosts, but it sacrifices those boosts with each hit. Metal Claw and AncientPower rely on Attack boosts to do a significant amount of damage, but may raise Registeel's Attack and all of its stats 1 stage, respectively.</p>
+
+<h3><a name="latios_latias_40">Latios/Latias (Non-Event)</a></h3>
+
+<p>Latias and Latios roam throughout Hoenn after your triumphant return home to Littleroot Town from defeating the Elite Four. However, only one of the eon twins can be released into the grass and waters of Hoenn. Latias is exclusive to Sapphire and Latios to Ruby; while in Emerald, you decide whether Latias or Latios is released into the wild for capture. Latias/Latios is released to roam once you go downstairs and watch a TV news report with your mother. The reporter will mention that an unidentified Pokémon of a certain color, Red in Sapphire and Blue in Ruby, has been spotted around Hoenn. In Emerald, Latias/Latios will be generated when you select a color, either Red or Blue, after the program has ended. Therefore, if you would like to soft reset or RNG Latias or Latios in Emerald, as the ones in Ruby/Sapphire are useless thanks to the programming error that gives them low IVs in stats other than HP, you will have to save in your room. Latias/Latios is at level 40 when you encounter it.</p>
+
+<p>Once Latias/Latios have been released to roam Hoenn, the hardest part of this capture begins—locating it. Latias/Latios can appear on any route in the grass or on the water. Furthermore, since you cannot track Latias/Latios unless you've seen it at least once and registered it on the PokéDex, you will have to blindly go in search of Latias/Latios. One method involves entering and exiting a building that has a patch of grass nearby with a Pokémon at a level lower than Latias/Latios, but higher than that of the wild Pokémon in the grass, while a Super Repel is in effect. The idea is to place the Pokémon at the head of your party and run in the grass for a few seconds until Latias/Latios appears. If it does not appear, enter a nearby building, then exit, and run through the grass again. Repeat this process until Latias/Latios appears. The Seaside Cycling Road entrance on Route 110 is a good location to use for this method.</p>
+
+<p>Being roamers, Latias and Latios will flee instantly from battle, unless you trap them. Luckily, they will keep any damage or status that your Pokémon inflicted on them in previous encounters. In RSE, Wobbuffet is great at trapping Latias/Latios due to Shadow Tag, and can be caught in the Safari Zone. Additionally, Wobbuffet resists Latias's and Latios's attacks, so it won't be KOed easily. Smeargle is another good choice to handle the roamers, and it is easily obtained in Emerald. Smeargle can be taught Mean Look or Spider Web via Sketch to trap Latias or Latios, and it can also put them to sleep with Spore and reduce their HP with False Swipe.</p>
+
+<h4>Latias's Maximum Stats</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>126</td> <td>-</td>
+</tr>
+<tr>
+<td>Atk</td> <td>72</td> <td>81</td> <td>89</td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>80</td> <td>89</td> <td>97</td>
+</tr>
+<tr>
+<td>SpA</td> <td>94</td> <td>105</td> <td>115</td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>108</td> <td>121</td> <td>133</td>
+</tr>
+<tr>
+<td>Spe</td> <td>94</td> <td>105</td> <td>115</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Latias's Moveset</h4>
+<ul>
+<li><a href="/rs/moves/water_sport">Water Sport</a> (15 PP)</li>
+<li><a href="/rs/moves/refresh">Refresh</a> (20 PP)</li>
+<li><a href="/rs/moves/mist_ball">Mist Ball</a> (5 PP)</li>
+<li><a href="/rs/moves/psychic">Psychic</a> (10 PP)</li>
+<li>Total PP = 50</li>
+</ul>
+
+<p>Since Latias will flee as soon as you encounter it, remember to have your trapper at the head the party. Refresh will make paralysis useless against Latias, so use sleep status against it. Mist Ball has a 50% chance of reducing your Pokémon's Special Attack, but that should not be a problem as most catchers rely on their Attack stat. Psychic can cause some decent damage coming off Latias's above-average Special Attack.</p>
+
+<h4>Latios's Maximum Stats</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>126</td> <td>-</td>
+</tr>
+<tr>
+<td>Atk</td> <td>80</td> <td>89</td> <td>97</td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>72</td> <td>81</td> <td>89</td>
+</tr>
+<tr>
+<td>SpA</td> <td>108</td> <td>121</td> <td>133</td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>94</td> <td>105</td> <td>115</td>
+</tr>
+<tr>
+<td>Spe</td> <td>94</td> <td>105</td> <td>115</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Latios's Moveset</h4>
+<ul>
+<li><a href="/rs/moves/protect">Protect</a> (10 PP)</li>
+<li><a href="/rs/moves/refresh">Refresh</a> (20 PP)</li>
+<li><a href="/rs/moves/luster_purge">Luster Purge</a> (5 PP)</li>
+<li><a href="/rs/moves/psychic">Psychic</a> (10 PP)</li>
+<li>Total PP = 45</li>
+</ul>
+
+<p>Keep your trapping Pokémon at the front of the party to ensure Latios does not flee. Protect will force you to waste a turn and let Latios waste more PP. Refresh makes sleep the only viable status condition, as all others are removed. Luster Purge can be a problem due to its 50% chance of lowering your Pokémon's Special Defense, so Latios's attacks will hit for more damage with each drop. Psychic will be doing major damage after some Special Defense drops, and also has a chance of lowering your Pokémon's Special Defense.</p>
+
+<h3><a name="event">Event Pokemon</a></h3>
+
+<p>The following Pokémon cannot be obtained normally in the game. Instead, they require the use of special event key items, previously given away at Nintendo Events, to reach their location. Additionally, some of the Pokémon were distributed at Nintendo Events. Jirachi is the only Pokémon introduced in RSE that cannot be caught in any of those games, and must be received at a Nintendo Event.</p>
+
+<h3><a name="latios_latias_50">Latios/Latias (Eon Ticket Event)</a></h3>
+
+<p>Although you are only given one of the Eon Pokémon (Latias and Latios) initially, you can find the other member of the Lati twins on Southern Island. Southern Island can only be accessed via a special event item called the Eon Ticket. The Eon Ticket can be obtained using the e-Reader device or by mixing records with a game that has the Eon Ticket. With the Eon Ticket in hand, proceed to Lilycove City or Slateport City Harbor and speak with the lady in front of the ship and you will be taken to Southern Island. Upon your arrival, you will notice that the island is deserted. Proceed inside the island to find an odd round stone. Save before touching the stone, as once you do Latias or Latios will quickly appear in a rage and the battle will commence. Latios appears in Sapphire and Latias in Ruby, while in Emerald, Latios will appear if you chose Latias to roam Hoenn and vice-versa. Latias/Latios is at level 50 when you battle it and is holding the Soul Dew, which will raise its Special Attack and Special Defense by 50%. Note, the Latias/Latios from Southern Island does not suffer from the same programming that the roaming pair had in Ruby and Sapphire, so they may have good natures/IVs in those games.</p>
+
+<h4>Latias's Maximum Stats</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>155</td> <td>-</td>
+</tr>
+<tr>
+<td>Atk</td> <td>90</td> <td>100</td> <td>110</td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>99</td> <td>110</td> <td>131</td>
+</tr>
+<tr>
+<td>SpA</td> <td>117</td> <td>130</td> <td>143</td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>135</td> <td>150</td> <td>165</td>
+</tr>
+<tr>
+<td>Spe</td> <td>117</td> <td>130</td> <td>143</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Latias's Moveset</h4>
+<ul>
+<li><a href="/rs/moves/mist_ball">Mist Ball</a> (5 PP)</li>
+<li><a href="/rs/moves/psychic">Psychic</a> (10 PP)</li>
+<li><a href="/rs/moves/recover">Recover</a> (20 PP)</li>
+<li><a href="/rs/moves/charm">Charm</a> (55 PP)</li>
+<li>Total PP = 55</li>
+</ul>
+
+<p>Charm makes it difficult to weaken Latias with physical attacks, which is bad news if you were relying on False Swipe to lower Latias's HP. Recover will make it harder to keep Latias at low HP consistently and force you to constantly weaken Latias, which is no easy task thanks to Soul Dew raising its already impressive Special Defense and Charm lowering your Pokémon's Attack stat. Psychic will be hitting your Pokémon harder thanks to the boost in Special Attack from Soul Dew, along with a small chance of lowering your Pokémon's Special Defense. Mist Ball isn't as threatening as Psychic but lowers your Pokémon's Special Attack 50% of the time, making special attacks useless against Latias.</p>
+
+<h4>Latias's Maximum Stats</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>155</td> <td>-</td>
+</tr>
+<tr>
+<td>Atk</td><td>99</td> <td>110</td> <td>131</td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>90</td> <td>100</td> <td>110</td>
+</tr>
+<tr>
+<td>SpA</td> <td>135</td> <td>150</td> <td>165</td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>117</td> <td>130</td> <td>143</td>
+</tr>
+<tr>
+<td>Spe</td> <td>117</td> <td>130</td> <td>143</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Latios's Moveset</h4>
+<ul>
+<li><a href="/rs/moves/luster_purge">Luster Purge</a> (5 PP)</li>
+<li><a href="/rs/moves/psychic">Psychic</a> (10 PP)</li>
+<li><a href="/rs/moves/recover">Recover</a> (20 PP)</li>
+<li><a href="/rs/moves/dragon_dance">Dragon Dance</a> (20 PP)</li>
+<li>Total PP = 55</li>
+</ul>
+
+<p>The Special Attack boost from Soul Dew will make Latios's offensive moves much more potent. Luster Purge will be dealing serious damage, and with a 50% chance of lowering your Pokémon's Special Defense, that damage will only increase as the battle goes on. Psychic puts a large dent in your Pokémon coming off of Latios's base 130 Special Attack plus the Special Attack boost from Soul Dew. Recover improves Latios's durability and forces you to constantly weaken Latios, although that shouldn't be as troublesome as it was on its counterpart Latias due to Latios's lower defenses. Dragon Dance will allow Latios to outspeed your Pokémon and waste an additional PP before you can take action.</p>
+
+<h3><a name="lugia_ho_oh">Lugia/Ho-Oh</a></h3>
+
+<p>The stars of the preceding generation's games, Pokémon Silver and Pokémon Gold, make a glorious return in Emerald. Ho-Oh and Lugia reside on Navel Rock, which can only be accessed with the Mystic Ticket. The Mystic Ticket can only be obtained via Mystery Gift at a Nintendo Event. Once you have obtained the Mystic Ticket, take the S.S. Tidal in Slateport or Lilycove Harbor to arrive on Navel Rock. Navel Rock only holds Ho-Oh and Lugia, no other Pokémon inhabit it. After walking inside the cave, you will reach a point where there are two sets of stairs: one going higher up the cave, the other, heading down into the basement. If you choose the staircase that leads higher up the cave, you will arrive at a peak where Ho-Oh will be flying above. If you select the set of stairs that lead to the basement of the cave, you will encounter Lugia resting on the lowest floor. For Ho-Oh, save before the last spot on the top of the mountain. Lugia and Ho-Oh are at level 70 when you battle them.</p>
+
+<h4>Lugia's Maximum Stats</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>250</td> <td>-</td>
+</tr>
+<tr>
+<td>Atk</td> <td>136</td> <td>152</td> <td>167</td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>187</td> <td>208</td> <td>228</td>
+</tr>
+<tr>
+<td>SpA</td> <td>136</td> <td>152</td> <td>167</td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>217</td> <td>242</td> <td>266</td>
+</tr>
+<tr>
+<td>Spe</td> <td>162</td> <td>180</td> <td>198</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Lugia's Moveset</h4>
+<ul>
+<li><a href="/rs/moves/recover">Recover</a> (5 PP)</li>
+<li><a href="/rs/moves/hydro_pump">Hydro Pump</a> (5 PP)</li>
+<li><a href="/rs/moves/rain_dance">Rain Dance</a> (5 PP)</li>
+<li><a href="/rs/moves/swift">Swift</a> (25 PP)</li>
+<li>Total PP = 50</li>
+</ul>
+
+<p>Recover is going to be a problem when combined with Lugia's Defense and Speed, as Lugia can simply remove most of the damage dealt to it in a single turn, while it may take you multiple turns to reduce its HP. Furthermore, Pressure will quickly drain your Pokémon's PP, especially with Recover forcing you to waste more turns reducing Lugia's HP. Hydro Pump in the rain produced by Rain Dance is only as strong as a STAB Hydro Pump. Lugia's offensive stats are thankfully not that impressive, so it won't be inflicting too much damage.</p>
+
+<h4>Ho-Oh's Maximum Stats</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>250</td> <td>-</td>
+</tr>
+<tr>
+<td>Atk</td> <td>187</td> <td>208</td> <td>228</td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>136</td> <td>152</td> <td>167</td>
+</tr>
+<tr>
+<td>SpA</td> <td>162</td> <td>180</td> <td>198</td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>217</td> <td>242</td> <td>266</td>
+</tr>
+<tr>
+<td>Spe</td> <td>136</td> <td>152</td> <td>167</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Ho-Oh's Moveset</h4>
+<ul>
+<li><a href="/rs/moves/recover">Recover</a> (5 PP)</li>
+<li><a href="/rs/moves/fire_blast">Fire Blast</a> (5 PP)</li>
+<li><a href="/rs/moves/sunny_day">Sunny Day</a> (5 PP)</li>
+<li><a href="/rs/moves/swift">Swift</a> (25 PP)</li>
+<li>Total PP = 50</li>
+</ul>
+
+<p>Recover is a nuisance, as it will force you to weaken Ho-Oh throughout the match and waste a large amount of PP due to Pressure. However, it does have a lower Defense stat than its counterpart Lugia, so it should be easier to manage. STAB Fire Blast will incinerate Breloom and Parasect, if you are using either as a catcher. Sunny Day will raise Fire Blast's damage output, letting it cause major damage to the rest of your Pokémon and potentially burn them, despite it coming from Ho-Oh's lower Special Attack. Swift isn't threatening even if it is coming off Ho-Oh's 130 base Attack due to its low Base Power.</p>
+
+<p>Once you've captured Ho-Oh, check the spot where it was standing for a Sacred Ash.</p>
+
+<p>Packing some extra Max Elixir and Max Ether is recommended when attempting to capture Ho-Oh and Lugia, as those battles may last a large number of turns, unless you are using Master Balls. Escape Rope does not work on Navel Rock, so you'll have to walk back to the entrance.</p>
+
+<h3><a name="deoxys">Deoxys</a></h3>
+
+<p>Deoxys was introduced in RSE, but only becomes available for capture in Emerald on Birth Island. Birth Island can only be accessed through the use of the Aurora Ticket, which is a special event item obtained at a Nintendo Event via Mystery Gift. While in possession of the Aurora Ticket, visit the harbor in Lilycove or Slateport City, board the S.S. Tidal, and you will be taken to Birth Island. The island itself is a simple triangular piece of land with a gray triangular stone in the center. Summoning Deoxys involves a puzzle where you follow the triangular stone from one point to the next using the shortest path between two points. If you do not follow the shortest path, then the puzzle will reset and the stone will return to the middle. However, if you are following the shortest path, then the stone will start turning red, and finally will become bright red and move back to the center of the island. Save before interacting with the stone again, as once you do, it will shatter and Deoxys will descend from above and commence the battle. Deoxys is at level 30 and will appear in its Normal Forme, but change to its Speed Forme once it is captured. If Deoxys is traded to Ruby or Sapphire, it will revert to its Normal Forme.</p>
+
+<h4>Deoxys's Maximum Stats</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>79</td> <td>-</td>
+</tr>
+<tr>
+<td>Atk</td> <td>93</td> <td>104</td> <td>114</td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>39</td> <td>44</td> <td>48</td>
+</tr>
+<tr>
+<td>SpA</td> <td>93</td> <td>104</td> <td>114</td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>39</td> <td>44</td> <td>48</td>
+</tr>
+<tr>
+<td>Spe</td> <td>93</td> <td>104</td> <td>114</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Deoxys-S's Maximum Stats</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>79</td> <td>-</td>
+</tr>
+<tr>
+<td>Atk</td> <td>63</td> <td>71</td> <td>78</td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>61</td> <td>68</td> <td>78</td>
+</tr>
+<tr>
+<td>SpA</td> <td>63</td> <td>71</td> <td>78</td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>61</td> <td>68</td> <td>78</td>
+</tr>
+<tr>
+<td>Spe</td> <td>109</td> <td>122</td> <td>134</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Deoxy-S's Moveset</h4>
+<ul>
+<li><a href="/rs/moves/knock_off">Knock Off</a> (20 PP)</li>
+<li><a href="/rs/moves/pursuit">Pursuit</a> (20 PP)</li>
+<li><a href="/rs/moves/psychic">Psychic</a> (10 PP)</li>
+<li><a href="/rs/moves/swift">Swift</a> (20 PP)</li>
+<li>Total PP = 70</li>
+</ul>
+
+<p>Despite Deoxys's amazing offensive stats while in Normal Forme and its Uber status, most of its moves are hardly a threat. Psychic can still put a decent dent on your Pokémon though, due to STAB. Knock Off, Pursuit, and Swift will hardly be doing damage thanks to their low Base Power. However, Knock Off can be a nuisance if your Pokémon is holding an item. Finally, Deoxys has enough PP that you can catch it at your leisure.</p>
+
+<h3><a name="mew">Mew</a></h3>
+
+<p>The ancestor of all Pokémon, Mew, appears in Emerald on a secluded island referred to as Faraway Island. To access Faraway Island, you need the event key item, Old Sea Map. The Old Sea Map was distributed at an event in Japan, and never released outside of Japan. With the Old Sea Map in hand, head to the Lilycove City Harbor or Slateport City Harbor, and speak with the woman in front of the boat. After some dialogue, Mr. Briney will arrive and take you to Faraway Island. Upon your arrival, head to the inner section of the island, and Mew will spot you and flee into the grass. The grass is devoid of Pokémon, besides Mew. Remember to save at this point, as you will now be playing a game of hide and seek to corner Mew and engage it in battle. After chasing Mew around for a bit, Mew will be cornered and a battle will ensue. Mew is at level 30.</p>
+
+<h4>Mew's Maximum Stats</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>109</td> <td>-</td>
+</tr>
+<tr>
+<td>Atk</td> <td>66</td> <td>74</td> <td>81</td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>66</td> <td>74</td> <td>81</td>
+</tr>
+<tr>
+<td>SpA</td> <td>66</td> <td>74</td> <td>81</td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>66</td> <td>74</td> <td>81</td>
+</tr>
+<tr>
+<td>Spe</td> <td>66</td> <td>74</td> <td>81</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Mew's Moveset</h4>
+<ul>
+<li><a href="/rs/moves/pound">Pound</a> (35 PP)</li>
+<li><a href="/rs/moves/transform">Transform</a> (10 PP)</li>
+<li><a href="/rs/moves/mega_punch">Mega Punch</a> (20 PP)</li>
+<li><a href="/rs/moves/metronome">Metronome</a> (10 PP)</li>
+<li>Total PP = 75</li>
+</ul>
+
+<p>Transform is definitely something to watch out for, as it can help or hurt you. Transform will allow Mew to essentially become the Pokémon it's facing and adopt its characteristics. Most importantly, Mew will gain the Pokémon's CatchRate, so you can use Transform to your advantage and have Mew turn into a Pokémon with a higher CatchRate and thus make the capture much easier. Metronome is risky because Mew may randomly select a move that causes it to KO itself, such as Memento or Selfdestruct.</p>
+
+<p>Taunt is useful to stop Mew from putting itself at risk with Metronome. Bring along a Pokémon with a high CatchRate, such as Magikarp, Zigzagoon, or Wurmple, to abuse Mew's own Transform. However, Transform will leave Mew with only 5 PP for each move the Pokémon it Transformed into knew, so catch it quickly before it Struggles to death.</p>

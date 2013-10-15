@@ -1,0 +1,3305 @@
+[title]
+The Breeding Guide Part II
+[head]
+<meta name="description" content="Everything you need to know about breeding in DPP and ADV." />
+[page]
+<div class="author">By <a href="/forums/member.php?u=2412">X-Act</a> and <a href="/forums/member.php?u=1430">Peterko</a>. Art done by <a href="/forums/member.php?u=76891">Gerard</a>.</div>
+<img src="/media/upload/ingame/guides/breedingpt2.png" class="right" alt="" width="300"/>
+<ul class="toc">
+    <li>
+        <a href="breeding_guide_part1">Part One of the Breeding Guide</a>
+    </li>
+    <li>
+        <a href="breeding_guide_part2">Part Two of the Breeding Guide</a>
+        <ul>
+            <li>
+                <a href="#breeding_preparations">Section One: Breeding Preparations</a>
+                <ul>
+                    <li><a href="#magma_armor_flame_body">The Magma Armor/Flame Body effect (EDPPT and HGSS)</a></li>
+                    <li><a href="#everstone">The Everstone Hold Item (EDPPT and HGSS)</a></li>
+                    <li><a href="#ditto_master_breeder">Ditto: the Master Breeder</a></li>
+                    <li><a href="#moveset_breeding">Moveset Breeding</a></li>
+                    <li><a href="#level_5_stats">Level 5 Stats</a></li>
+                </ul>
+	    </li>
+	    <li><a href="#breeding_information">Section Two: Breeding Information</a>
+		<ul>
+                    <li><a href="#day_care_locations">Day Care Breeding Centre Locations</a></li>
+                    <li><a href="#baby_species">The Species of the Baby</a></li>
+                    <li><a href="#breedability">Breedability</a></li>
+                    <li><a href="#breeding_compatibility">Breeding Compatibility</a></li>
+                    <li><a href="#breeding_roads">Breeding Roads</a></li>
+                    <li><a href="#iv_chains">IV Chains</a></li>
+		</ul>
+	    </li>
+	    <li><a href="#hatching_eggs">Section Three: Hatching the Eggs</a>
+		<ul>
+		    <li>
+                        <a href="#steps_required">Number of steps required to hatch an egg</a>
+                        <ul>
+                            <li><a href="#steps_required_RSFRLGE">In RSFRLGE</a></li>
+                            <li><a href="#steps_required_DP">In DP</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#hatching_methods">Hatching Methods</a>
+                        <ul>
+                            <li><a href="#soft_reset">Soft Reset Method</a></li>
+                            <li><a href="#running">Running Method</a></li>
+                            <li><a href="#mass_hatch">Mass Hatch Method</a></li>
+                        </ul>
+                    </li>
+		</ul>
+	    </li>
+        </ul>
+    </li>
+    <li><a href="breeding_guide_part3">Part Three of the Breeding Guide</a></li>
+    <li><a href="breeding_guide_part4">Part Four of the Breeding Guide</a></li>
+</ul>
+
+<h2><a name="breeding_preparations">SECTION ONE: Breeding Preparations</a></h2>
+
+<h3><a name="magma_armor_flame_body">The Magma Armor/Flame Body effect (EDPP and HGSS)</a></h3>
+
+<p>A nice breeding feature introduced in Emerald is an additional effect that Pokémon with the ability Magma Armor or Flame Body have during the game.</p>
+
+<p>Eggs need warmth, right? Having a Pokémon with this ability in your team will reduce the number of steps you need to walk/ride in order for the egg to hatch by roughly half. The word 'roughly' here will be clarified later on in Section Three of this part of the breeding guide.</p>
+
+<p>Here is a list of Pokémon that can have the ability Magma Armor and Flame Body:</p>
+
+<dl>
+<dt>Magma Armor</dt>
+<dd>Camerupt, Slugma, Magcargo</dd>
+<dt>Flame Body</dt>
+<dd>Magby, Magmar, Slugma, Magcargo</dd>
+</dl>
+
+<p>Make sure you have always one of these in your team while you breed in Emerald, Diamond, or Pearl.</p>
+
+<p>Because Slugma and Magcargo both only have Magma Armor or Flame Body, we're going to work on capturing them. They can be captured from various games. Remember, their out of battle effects work only in EDPP and HGSS, so if you get a Slugma from outside EDP, you need to transfer it to Emerald, Diamond, or Pearl for Magma Armor or Flame Body to have their step-to-hatch reducing effects.</p>
+
+<dl>
+<dt>Ruby, Sapphire and Emerald</dt>
+<dd>Slugma is found 10% of the time on the Fiery Path. In addition, in E, Slugma can also be found in Route 113.</dd>
+<dt>FireRed and LeafGreen</dt>
+<dd>Slugma will always appear on the third basement floor of Mount Ember. If you use Rock Smash on the same floor, Magcargo appear 10% of the time.</dd>
+<dt>Diamond and Pearl</dt>
+<dd>Start by heading north from the Resort Area, onto Stark Mountain. Go inside Stark Mountain itself, and walk around the first area. You've got a 35% chance of getting either Slugma or Magcargo; capture it when you see one.</dd>
+<dt>Other</dt>
+<dd>In Colosseum, Roller Boy Lon of Pyrite Town has a Slugma, and in XD: Gale of Darkness, Cipher Peon Kolest in Citadark Isle has a Magcargo.</dd>
+</dl>
+
+<h3><a name="everstone">The Everstone Hold Item (EDPP and HGSS)</a></h3>
+
+<p>In EDPP, if a female Pokémon is holding the item Everstone and breeds with a male Pokémon, the baby will have a 50% chance of having the same nature as the female Pokémon. This also works if the Pokémon holding Everstone is Ditto.</p>
+
+<p>To be perfectly clear, these are the four different ways to transfer a nature 50% of the time to the baby:</p>
+
+<ul>
+<li> A Male Pokémon breeding with a Female Pokémon holding an Everstone results in the baby having a 50% chance of having the same nature as the Female Pokémon.</li>
+<li> A Male Pokémon breeding with a Ditto holding an Everstone results in the baby having a 50% chance of having the same nature as Ditto.</li>
+<li> A Female Pokémon breeding with a Ditto holding an Everstone results in the baby having a 50% chance of having the same nature as Ditto. (Even if both the female Pokémon and Ditto hold Everstone, it will still be a 50% chance of the nature being transferred, and it will always be the Ditto nature that is transferred to the baby. Also, Everstone will not work if it is being held by the female Pokémon while being bred with Ditto.)</li>
+<li> A Genderless Pokémon breeding with a Ditto holding an Everstone results in the baby having a 50% chance of having the same nature as Ditto.</li>
+</ul>
+
+<p>If you breed in DPP, it is possible that Everstone won't work. This happens if you breed two Pokémon that originate from different language versions, for example an English Emerald Ditto with a Japanese Diamond Chimchar.</p>
+
+<p>Everstone can also be found in various games. Remember that Everstone's effect in breeding works only in EDP, so be sure to transfer it to Emerald, Diamond, or Pearl if you find one outside of these three games.</p>
+
+<dl>
+<dt>Ruby, Sapphire, and Emerald</dt>
+<dd>An Everstone can be found in Granite Cave.</dd>
+<dt>FireRed and LeafGreen</dt>
+<dd>You can get an Everstone in the Pokémon Center near the Rock Tunnel.</dd>
+<dt>Diamond and Pearl</dt>
+<dd>Everstones are extremely common in the Sinnoh Underground. Just keep mining.</dd>
+</dl>
+
+<h3><a name="ditto_master_breeder">Ditto: the Master Breeder</a></h3>
+
+<p>As should be clear from the previous section, Ditto is a very valuable Pokémon to have, since it can breed with every breedable Pokémon, and it can also transfer its nature 50% of the time even to genderless Pokémon like Staryu, if it is equipped with the Everstone item (see section about breedability).</p>
+
+<p>You might be saying, after reading all this: "Okay, let's see if I'm understanding this correctly. I need a Ditto with a Timid Nature and a 31 IV in Speed in order to breed it with my Gastly, so that I can get a Timid Gastly with 31 Speed IV, right? But from where am I going to get such a Ditto?"</p>
+
+<p>The short answer is: you need to catch it.</p>
+
+<p>I can hear groans of disappointment, but cheer up: this is actually not very difficult to do.</p>
+
+<p>When a wild Pokémon is encountered, the IVs for that Pokémon are generated completely at random. This means that there is a 17.3% chance (about 1 in 6) that a Pokémon caught in the wild has at least one of its IV to be a perfect 31. All we need to do, then, is to catch six Ditto, each of which has a perfect IV in one of the six stats.</p>
+
+<p>However, we also need to ensure that its nature is the one we’re looking for. This can be done using a Pokémon that has the Synchronize ability (only in EDP).</p>
+
+<p>In EDPP and HGSS, if the first Pokémon in your party has the Synchronize ability, all the Pokémon encountered have a 50% chance of having the same nature as the Synchronize Pokémon. The Pokémon that can have the Synchronize ability are the following:</p>
+
+<ul>
+<li>Abra</li>
+<li>Kadabra</li>
+<li>Alakazam</li>
+<li>Mew</li>
+<li>Natu</li>
+<li>Xatu</li>
+<li>Espeon</li>
+<li>Umbreon</li>
+<li>Ralts</li>
+<li>Kirlia</li>
+<li>Gardevoir</li>
+</ul>
+
+<p>So first, you'll want to get a Ralts, a Natu, or an Abra. Abra has a catch rate of 200 and is very rare in Emerald (route 116 and Granite Cave), so you might want to go with Ralts or Natu. Ralts has a catch rate of 235 and can be found in Route 102, but is a bit rare. Natu can be found in the Safari Zone, is uncommon, and has a catch rate of 190. Remember that, the higher the catch rate, the easier that Pokémon is to catch.</p>
+
+<p>To get your Natu, Ralts, or Abra with the nature you want, there are three methods:</p>
+
+<ol>
+<li>Breed one of them until you get one with Synchronize and with the nature you want. This can get pretty time-consuming, however.</li>
+<li>If you have also access to FRLG, you can get an Abra with the right nature there easily. Just go to the Game Corner, buy 2400 or 3600 coins and get twenty or thirty Abra for 120 coins each and then check if you got the personality you wanted (if not and you don't have more money, save before "buying" them, soft reset and try again). Transfer it to Emerald afterwards.</li>
+<li>You can get a Natu or Xatu in the Safari Zone in RSE (Emerald is preferred, since, if you're using RS, you then need to transfer the Pokémon to Emerald anyway) by using a rather subtle trick. Go to a patch of grass where you can find Natu or Xatu in the Safari Zone and put a PokéBlock in the feeder. It will draw Pokémon that like the flavour of that block, as follows:
+<dl>
+<dt>Spicy</dt>
+<dd>Lonely, Adamant, Naughty, or Brave</dd>
+<dt>Sour</dt>
+<dd>Bold, Impish, Lax, or Relaxed</dd>
+<dt>Dry</dt>
+<dd>Modest, Mild, Rash, or Quiet</dd>
+<dt>Bitter</dt>
+<dd>Calm, Gentle, Careful, or Sassy</dd>
+<dt>Sweet</dt>
+<dd>Timid, Hasty, Jolly, or Naive</dd>
+</dl>
+To create the PokéBlocks, using Cheri Berry, Chesto Berry, Pecha Berry, Rawst Berry, or Aspear Berry is preferable for this case, since they create one-flavour PokéBlocks (one for each flavour listed above) and there are extremely easy to obtain and to harvest. After putting the PokéBlock with the necessary flavour, you'll have a higher chance of getting a Natu with the required trait (make sure it has the Synchronize ability too, however.)</li>
+</ol>
+
+<p>Here is a list of where Ditto is located:</p>
+<dl>
+<dt>FireRed and LeafGreen</dt>
+<dd>Routes 13, 14, and 15, in Cerulean Cave, and in the Pokémon Mansion. However, Synchronize doesn't work here, so it's not recommended to catch Ditto in FRLG.</dd>
+<dt>Emerald</dt>
+<dd>It is quite common in the Desert Underpass.</dd>
+<dt>Diamond and Pearl</dt>
+<dd>Once you've completed the Sinnoh Dex by having seen all the Pokémon native to Sinnoh, Professor Rowan will give you the PokéRadar. Head to Canalave City and buy 100 Super Repels (Max Repels are a ripoff of the highest order). Head east, onto Route 218. Stand in the middle of the grass without your bike and use one of the Super Repels, followed by the PokéRadar. Look for grass with yellow lines coming from it, and head directly for it. 18% of the time, a Ditto will appear in one of these patches. After you capture the Ditto, the grass will shake again, and you generally want to head for a patch that is furthest away, not on the edge of the patch, and has those same yellow lines. If you did it correctly, you will encounter another Ditto. This is called chaining. Also, try to level up your Synchonizer to Level 35; if you run into another Pokémon, your chain will be broken, you'll have to try again.</dd>
+</dl>
+
+<p>Now comes the important part: how to catch Ditto. We are going to consider the method to catch Ditto in Emerald here. The way to catch Ditto in DPP is similar.</p>
+
+<p>Go to the Desert Underpass (through Ruin Maniac's house on Route 114) with your Synchronizer equipped with the item Smoke Ball as the lead Pokémon, a low-level Magikarp, a Pokémon knowing Fly and a lot of Repeat Balls (buy in Rustboro City). The Smoke Ball is there to ensure that if the Pokémon you encounter is not Ditto, you can safely run away.</p>
+
+<p>When you encounter Ditto, switch immediately for the Magikarp. The Ditto will transform to the Magikarp, and its catch rate will also change to that of the Magikarp: 255. Also, the Ditto will not be able to hurt you at all, since it will know only Splash. Now throw a Repeat Ball, and you should be able to catch it.</p>
+
+<p>Another option would be to teach return to Ralts (235 catch rate) and have it attack Ditto in the turn it transforms and throw the Repeat Ball afterwards (takes less time than a switch). If you're sick of encountering level 35 Whismur, level up your Synchronizer to level 36-38, buy lot of Super Repels and use them. All Ditto are at level 38 to 45.</p>
+
+<p>If you're doing this in Emerald, after catching around 15 Ditto (or a full box), fly to the Battle Frontier IV guy (see the section 'how to discover the IVs of your Pokémon' in Part I) and let him check the Ditto you just caught. Release those that don't have a perfect IV, change your Synchronizer to breed for another nature if you like, and repeat this process as necessary.</p>
+
+<p>It actually turns out that the average amount of Ditto you need to catch in order to get six Dittos with one perfect IV, one Ditto for every stat, is 85. You might need less than this, or more, but 85 is the average number of Dittos you'll need to catch. This is slightly less than 3 full boxes of Ditto. To get these six Dittos, all with the nature you want, you'll need to catch twice this number, or an average of 170 Dittos. You might think that 170 Dittos are a lot, but remember that you need to do this only once (it only takes a few hours) and then always use these Ditto whenever you need to breed.</p>
+
+<h3><a name="moveset_breeding">Moveset Breeding</a></h3>
+
+<p>Not only IVs and natures can be passed down to the baby, but moves as well. Because of this, it is very important that before actually starting to breed, the baby's moveset should be decided, since there are some moves that can't be learned by certain Pokémon unless you breed with a particular parent. There are five types of moves that can be passed from the parents to the baby:</p>
+
+<dl>
+<dt>Level Up Moves</dt>
+<dd>If <strong>both parents</strong> know the same Level Up move and the baby can learn the same move by level up, the baby will be born with that move. For example, if a male Slowbro is breeding with a female Slowking and both know the Level up move Zen Headbutt, the baby Slowpoke will be born knowing Zen Headbutt.</dd>
+<dt>TM or HM moves</dt>
+<dd>If the <strong>male parent</strong> knows a TM or HM move and the baby can learn that same TM or HM, the baby will be born with that move. Also, if a genderless parent knows a TM or HM move when it breeds with Ditto, the baby will be born with that TM or HM move as well. For example, if you want a Swampert that knows the move Ice Beam, and you don't have Ice Beam as a TM, you can breed your Swampert with a male Dewgong that knows Ice Beam.</dd>
+<dt>Egg moves</dt>
+<dd>If the <strong>male parent</strong> knows a move which the baby can only learn as an Egg move, the baby will be born with that move. You can find a list of Egg moves that each Pokémon learns on most Pokédex (for example SmogonDex). For example, if you want a Sceptile that knows the move Leech Seed, you can breed a Sceptile with a male Venusaur knowing Leech Seed.</dd>
+<dt>Move Tutor moves</dt>
+<dd>These moves can only be passed to the baby if they are also among the <strong>Egg moves</strong> of the baby. See point 3) above. For example, if you want a Medicham with the move Ice Punch, which is an Egg move, you can breed it with a male Alakazam that learned Ice Punch from the Emerald move tutor.</dd>
+<dt>Volt Tackle move</dt>
+<dd>When breeding for <strong>Pichu</strong> in E, if <strong>any of the parents</strong> is a <strong>Pikachu</strong> or a <strong>Raichu</strong> holding the item <strong>Light Ball</strong>, then the baby Pichu will be born knowing the move <strong>Volt Tackle</strong>.</dd>
+</dl>
+
+<p>As you can see, Level up moves and TM or HM moves are relatively easy to breed. A slight complication can occur if you're breeding for an Egg move. Sometimes, you'd need to breed for various Pokémon consecutively in order to get the Egg move you need. This is called a breeding move chain.</p>
+
+<p>For example, suppose you need to breed a Larvitar with the Egg move Dragon Dance. Checking all the Pokémon that can breed with Larvitar and that can learn Dragon Dance, we find two possibilies: Charmander and (in DP) Totodile. The problem, though, is that Dragon Dance is an Egg move also for both Charmander and Totodile. So you first need to breed for a male baby Charmander or Totodile to get Dragon Dance, which would then be bred with your Larvitar to give him Dragon Dance. Charmander can breed with either Gyarados, Altaria, or Dragonite, all of which learn Dragon Dance by level up, and Totodile can breed with Kingdra, which also learns Dragon Dance by level up. So there are two breeding chains:</p>
+
+<p><em>Male Gyarados/Swablu/Dratini with Dragon Dance -> Male Charmander with Dragon Dance -> Larvitar with Dragon Dance</em></p>
+
+<p>or (for DP):</p>
+
+<p><em>Male Horsea with Dragon Dance -> Male Totodile with Dragon Dance -> Larvitar with Dragon Dance</em></p>
+
+<p>Let's give a second example. Suppose you need to breed a Snorunt with the egg move Spikes. Checking all the Pokémon that can breed with Snorunt and that can learn Spikes, we find that only Roselia can learn Spikes and can breed with Snorunt. The problem, though, is that Spikes is an Egg move also for Roselia. So you first need to breed for a male baby Roselia to get Spikes, which would then be bred with your Snorunt to give him Spikes. Roselia can breed with Cacturne, and Cacturne can learn Spikes by Level up. So the breeding move chain is:</p>
+
+<p><em>Male Cacturne with Spikes -> Male Roselia with Spikes -> Snorunt with Spikes</em></p>
+
+<h3><a name="level_5_stats">Level 5 Stats</a></h3>
+
+<p>As we have already said in Part I of this guide, it's easier to get rid of Pokémon that don't have the IVs you want while you're breeding. For this to not be too time consuming, you can find out the Level 5 maximum stats of the baby you're going to breed before you start breeding (refer to Part I section about finding out your IVs) and write them down on a piece of paper. Now, everytime you check the IVs of a baby, you will be able to tell whether the baby is good enough for further IV checking or not by just looking at its stats and comparing them with the numbers on your paper. If the numbers do not correspond, you release that Pokémon. After a while, you'll be able to do this without using the paper.</p>
+
+<p>To save you even more time, here is a list of all the Pokémon babies, and their maximum stats at Level 5. All the following stats assume a neutral nature.</p>
+
+<p>If the nature is boosting the stat, and the stat listed here is a two-digit number, add the first digit of that number to the number shown. If the nature is hindering the stat, first subtract one from the stat listed here, then, if the resulting number is a two-digit number, subtract further the first digit of that number from itself. To clarify:</p>
+
+<p>If a stat is less than 10, it stays the same with a beneficial nature and is decreased by 1 with a hindering nature.</p>
+<p>If a stat is 10, it is increased by 1 with a beneficial nature and is decreased by 1 with a hindering nature.</p>
+<p>If a stat is between 11 and 19, it is increased by 1 with a beneficial nature, and is decreased by 2 with a hindering nature.</p>
+
+<p>For example, if Bulbasaur is Adamant, then the maximum Attack stat is 12 (11 + the first digit of 11), and the maximum Special Attack stat is 11 (13 - 1 = 12, and since 12 is a two-digit number, 12 - 1, the first digit of 12, = 11).</p>
+
+<table class="sortable">
+<caption>Level 5 Stats with 31 IV</caption>
+<thead>
+
+<tr class="a">
+<th class="min_width">National Dex Number</th>
+<th>Pokémon</th>
+<th>HP</th>
+<th>Atk</th>
+<th>Def</th>
+<th>SpA</th>
+<th>SpD</th>
+<th>Spe</th>
+</tr>
+</thead>
+<tbody>
+
+<tr>
+<td>1</td>
+<td>Bulbasaur</td>
+<td>21</td>
+<td>11</td>
+<td>11</td>
+<td>13</td>
+<td>13</td>
+<td>11</td>
+</tr>
+
+<tr class="a">
+<td>4</td>
+<td>Charmander</td>
+<td>20</td>
+<td>11</td>
+<td>10</td>
+<td>12</td>
+<td>11</td>
+<td>13</td>
+</tr>
+
+<tr>
+<td>7</td>
+<td>Squirtle</td>
+<td>20</td>
+<td>11</td>
+<td>13</td>
+<td>11</td>
+<td>12</td>
+<td>10</td>
+</tr>
+
+<tr class="a">
+<td>10</td>
+<td>Caterpie</td>
+<td>21</td>
+<td>9</td>
+<td>10</td>
+<td>8</td>
+<td>8</td>
+<td>11</td>
+</tr>
+
+<tr>
+<td>13</td>
+<td>Weedle</td>
+<td>20</td>
+<td>10</td>
+<td>9</td>
+<td>8</td>
+<td>8</td>
+<td>11</td>
+</tr>
+
+<tr class="a">
+<td>16</td>
+<td>Pidgey</td>
+<td>20</td>
+<td>11</td>
+<td>10</td>
+<td>10</td>
+<td>10</td>
+<td>12</td>
+</tr>
+
+<tr>
+<td>19</td>
+<td>Rattata</td>
+<td>19</td>
+<td>12</td>
+<td>10</td>
+<td>9</td>
+<td>10</td>
+<td>13</td>
+</tr>
+
+<tr class="a">
+<td>21</td>
+<td>Spearow</td>
+<td>20</td>
+<td>12</td>
+<td>9</td>
+<td>9</td>
+<td>9</td>
+<td>13</td>
+</tr>
+
+<tr>
+<td>23</td>
+<td>Ekans</td>
+<td>20</td>
+<td>12</td>
+<td>10</td>
+<td>10</td>
+<td>11</td>
+<td>12</td>
+</tr>
+
+<tr class="a">
+<td>25</td>
+<td>Pikachu</td>
+<td>20</td>
+<td>12</td>
+<td>9</td>
+<td>11</td>
+<td>10</td>
+<td>15</td>
+</tr>
+
+<tr>
+<td>27</td>
+<td>Sandshrew</td>
+<td>21</td>
+<td>14</td>
+<td>15</td>
+<td>8</td>
+<td>9</td>
+<td>10</td>
+</tr>
+
+<tr class="a">
+<td>29</td>
+<td>Nidoran-F</td>
+<td>22</td>
+<td>11</td>
+<td>11</td>
+<td>10</td>
+<td>10</td>
+<td>10</td>
+</tr>
+
+<tr>
+<td>32</td>
+<td>Nidoran-M</td>
+<td>21</td>
+<td>12</td>
+<td>10</td>
+<td>10</td>
+<td>10</td>
+<td>11</td>
+</tr>
+
+<tr class="a">
+<td>35</td>
+<td>Clefairy</td>
+<td>23</td>
+<td>11</td>
+<td>11</td>
+<td>12</td>
+<td>13</td>
+<td>10</td>
+</tr>
+
+<tr>
+<td>37</td>
+<td>Vulpix</td>
+<td>20</td>
+<td>10</td>
+<td>10</td>
+<td>11</td>
+<td>13</td>
+<td>13</td>
+</tr>
+
+<tr class="a">
+<td>39</td>
+<td>Jigglypuff</td>
+<td>28</td>
+<td>11</td>
+<td>8</td>
+<td>11</td>
+<td>9</td>
+<td>8</td>
+</tr>
+
+<tr>
+<td>41</td>
+<td>Zubat</td>
+<td>20</td>
+<td>11</td>
+<td>10</td>
+<td>9</td>
+<td>10</td>
+<td>12</td>
+</tr>
+
+<tr class="a">
+<td>43</td>
+<td>Oddish</td>
+<td>21</td>
+<td>11</td>
+<td>12</td>
+<td>14</td>
+<td>13</td>
+<td>9</td>
+</tr>
+
+<tr>
+<td>46</td>
+<td>Paras</td>
+<td>20</td>
+<td>13</td>
+<td>12</td>
+<td>11</td>
+<td>12</td>
+<td>9</td>
+</tr>
+
+<tr class="a">
+<td>48</td>
+<td>Venonat</td>
+<td>22</td>
+<td>12</td>
+<td>11</td>
+<td>10</td>
+<td>12</td>
+<td>11</td>
+</tr>
+
+<tr>
+<td>50</td>
+<td>Diglett</td>
+<td>17</td>
+<td>12</td>
+<td>9</td>
+<td>10</td>
+<td>11</td>
+<td>16</td>
+</tr>
+
+<tr class="a">
+<td>52</td>
+<td>Meowth</td>
+<td>20</td>
+<td>11</td>
+<td>10</td>
+<td>10</td>
+<td>10</td>
+<td>15</td>
+</tr>
+
+<tr>
+<td>54</td>
+<td>Psyduck</td>
+<td>21</td>
+<td>11</td>
+<td>11</td>
+<td>13</td>
+<td>11</td>
+<td>12</td>
+</tr>
+
+<tr class="a">
+<td>56</td>
+<td>Mankey</td>
+<td>20</td>
+<td>14</td>
+<td>10</td>
+<td>10</td>
+<td>11</td>
+<td>13</td>
+</tr>
+
+<tr>
+<td>58</td>
+<td>Growlithe</td>
+<td>22</td>
+<td>13</td>
+<td>11</td>
+<td>13</td>
+<td>11</td>
+<td>12</td>
+</tr>
+
+<tr class="a">
+<td>60</td>
+<td>Poliwag</td>
+<td>20</td>
+<td>11</td>
+<td>10</td>
+<td>10</td>
+<td>10</td>
+<td>15</td>
+</tr>
+
+<tr>
+<td>63</td>
+<td>Abra</td>
+<td>19</td>
+<td>8</td>
+<td>8</td>
+<td>17</td>
+<td>12</td>
+<td>15</td>
+</tr>
+
+<tr class="a">
+<td>66</td>
+<td>Machop</td>
+<td>23</td>
+<td>14</td>
+<td>11</td>
+<td>10</td>
+<td>10</td>
+<td>10</td>
+</tr>
+
+<tr>
+<td>69</td>
+<td>Bellsprout</td>
+<td>21</td>
+<td>14</td>
+<td>10</td>
+<td>13</td>
+<td>9</td>
+<td>10</td>
+</tr>
+
+<tr class="a">
+<td>72</td>
+<td>Tentacool</td>
+<td>20</td>
+<td>10</td>
+<td>10</td>
+<td>11</td>
+<td>16</td>
+<td>13</td>
+</tr>
+
+<tr>
+<td>74</td>
+<td>Geodude</td>
+<td>20</td>
+<td>14</td>
+<td>16</td>
+<td>9</td>
+<td>9</td>
+<td>8</td>
+</tr>
+
+<tr class="a">
+<td>77</td>
+<td>Ponyta</td>
+<td>21</td>
+<td>15</td>
+<td>12</td>
+<td>13</td>
+<td>13</td>
+<td>15</td>
+</tr>
+
+<tr>
+<td>79</td>
+<td>Slowpoke</td>
+<td>25</td>
+<td>13</td>
+<td>13</td>
+<td>10</td>
+<td>10</td>
+<td>8</td>
+</tr>
+
+<tr class="a">
+<td>81</td>
+<td>Magnemite</td>
+<td>19</td>
+<td>10</td>
+<td>13</td>
+<td>16</td>
+<td>12</td>
+<td>11</td>
+</tr>
+
+<tr>
+<td>83</td>
+<td>Farfetch'd</td>
+<td>21</td>
+<td>13</td>
+<td>12</td>
+<td>12</td>
+<td>12</td>
+<td>12</td>
+</tr>
+
+<tr class="a">
+<td>84</td>
+<td>Doduo</td>
+<td>20</td>
+<td>15</td>
+<td>11</td>
+<td>10</td>
+<td>10</td>
+<td>14</td>
+</tr>
+
+<tr>
+<td>86</td>
+<td>Seel</td>
+<td>23</td>
+<td>11</td>
+<td>12</td>
+<td>11</td>
+<td>13</td>
+<td>11</td>
+</tr>
+
+<tr class="a">
+<td>88</td>
+<td>Grimer</td>
+<td>24</td>
+<td>14</td>
+<td>11</td>
+<td>10</td>
+<td>11</td>
+<td>9</td>
+</tr>
+
+<tr>
+<td>90</td>
+<td>Shellder</td>
+<td>19</td>
+<td>13</td>
+<td>16</td>
+<td>11</td>
+<td>9</td>
+<td>10</td>
+</tr>
+
+<tr class="a">
+<td>92</td>
+<td>Gastly</td>
+<td>19</td>
+<td>10</td>
+<td>9</td>
+<td>16</td>
+<td>10</td>
+<td>14</td>
+</tr>
+
+<tr>
+<td>95</td>
+<td>Onix</td>
+<td>20</td>
+<td>11</td>
+<td>22</td>
+<td>9</td>
+<td>11</td>
+<td>13</td>
+</tr>
+
+<tr class="a">
+<td>96</td>
+<td>Drowzee</td>
+<td>22</td>
+<td>11</td>
+<td>11</td>
+<td>10</td>
+<td>15</td>
+<td>10</td>
+</tr>
+
+<tr>
+<td>98</td>
+<td>Krabby</td>
+<td>19</td>
+<td>17</td>
+<td>15</td>
+<td>9</td>
+<td>9</td>
+<td>11</td>
+</tr>
+
+<tr class="a">
+<td>100</td>
+<td>Voltorb</td>
+<td>20</td>
+<td>9</td>
+<td>11</td>
+<td>12</td>
+<td>12</td>
+<td>16</td>
+</tr>
+
+<tr>
+<td>102</td>
+<td>Exeggcute</td>
+<td>22</td>
+<td>10</td>
+<td>14</td>
+<td>12</td>
+<td>11</td>
+<td>10</td>
+</tr>
+
+<tr class="a">
+<td>104</td>
+<td>Cubone</td>
+<td>21</td>
+<td>11</td>
+<td>16</td>
+<td>10</td>
+<td>11</td>
+<td>10</td>
+</tr>
+
+<tr>
+<td>108</td>
+<td>Lickitung</td>
+<td>25</td>
+<td>12</td>
+<td>14</td>
+<td>12</td>
+<td>14</td>
+<td>9</td>
+</tr>
+
+<tr class="a">
+<td>109</td>
+<td>Koffing</td>
+<td>20</td>
+<td>13</td>
+<td>16</td>
+<td>12</td>
+<td>11</td>
+<td>10</td>
+</tr>
+
+<tr>
+<td>111</td>
+<td>Rhyhorn</td>
+<td>24</td>
+<td>15</td>
+<td>16</td>
+<td>9</td>
+<td>9</td>
+<td>9</td>
+</tr>
+
+<tr class="a">
+<td>113</td>
+<td>Chansey</td>
+<td>41</td>
+<td>7</td>
+<td>7</td>
+<td>10</td>
+<td>17</td>
+<td>11</td>
+</tr>
+
+<tr>
+<td>114</td>
+<td>Tangela</td>
+<td>23</td>
+<td>12</td>
+<td>18</td>
+<td>16</td>
+<td>10</td>
+<td>12</td>
+</tr>
+
+<tr class="a">
+<td>115</td>
+<td>Kangaskhan</td>
+<td>27</td>
+<td>16</td>
+<td>14</td>
+<td>10</td>
+<td>14</td>
+<td>15</td>
+</tr>
+
+<tr>
+<td>116</td>
+<td>Horsea</td>
+<td>19</td>
+<td>10</td>
+<td>13</td>
+<td>13</td>
+<td>9</td>
+<td>12</td>
+</tr>
+
+<tr class="a">
+<td>118</td>
+<td>Goldeen</td>
+<td>21</td>
+<td>13</td>
+<td>12</td>
+<td>10</td>
+<td>11</td>
+<td>12</td>
+</tr>
+
+<tr>
+<td>120</td>
+<td>Staryu</td>
+<td>19</td>
+<td>11</td>
+<td>12</td>
+<td>13</td>
+<td>12</td>
+<td>15</td>
+</tr>
+
+<tr class="a">
+<td>122</td>
+<td>Mr. Mime</td>
+<td>20</td>
+<td>11</td>
+<td>13</td>
+<td>16</td>
+<td>18</td>
+<td>15</td>
+</tr>
+
+<tr>
+<td>123</td>
+<td>Scyther</td>
+<td>23</td>
+<td>17</td>
+<td>14</td>
+<td>12</td>
+<td>14</td>
+<td>17</td>
+</tr>
+
+<tr class="a">
+<td>127</td>
+<td>Pinsir</td>
+<td>23</td>
+<td>19</td>
+<td>16</td>
+<td>12</td>
+<td>13</td>
+<td>15</td>
+</tr>
+
+<tr>
+<td>128</td>
+<td>Tauros</td>
+<td>24</td>
+<td>16</td>
+<td>16</td>
+<td>10</td>
+<td>13</td>
+<td>17</td>
+</tr>
+
+<tr class="a">
+<td>129</td>
+<td>Magikarp</td>
+<td>18</td>
+<td>7</td>
+<td>12</td>
+<td>8</td>
+<td>8</td>
+<td>14</td>
+</tr>
+
+<tr>
+<td>131</td>
+<td>Lapras</td>
+<td>29</td>
+<td>15</td>
+<td>14</td>
+<td>15</td>
+<td>16</td>
+<td>12</td>
+</tr>
+
+<tr class="a">
+<td>133</td>
+<td>Eevee</td>
+<td>22</td>
+<td>12</td>
+<td>11</td>
+<td>11</td>
+<td>13</td>
+<td>12</td>
+</tr>
+
+<tr>
+<td>137</td>
+<td>Porygon</td>
+<td>23</td>
+<td>12</td>
+<td>13</td>
+<td>15</td>
+<td>14</td>
+<td>10</td>
+</tr>
+
+<tr class="a">
+<td>138</td>
+<td>Omanyte</td>
+<td>20</td>
+<td>10</td>
+<td>16</td>
+<td>15</td>
+<td>12</td>
+<td>10</td>
+</tr>
+
+<tr>
+<td>140</td>
+<td>Kabuto</td>
+<td>19</td>
+<td>14</td>
+<td>15</td>
+<td>12</td>
+<td>11</td>
+<td>12</td>
+</tr>
+
+<tr class="a">
+<td>142</td>
+<td>Aerodactyl</td>
+<td>24</td>
+<td>17</td>
+<td>13</td>
+<td>12</td>
+<td>14</td>
+<td>19</td>
+</tr>
+
+<tr>
+<td>143</td>
+<td>Snorlax</td>
+<td>32</td>
+<td>17</td>
+<td>13</td>
+<td>13</td>
+<td>17</td>
+<td>9</td>
+</tr>
+
+<tr class="a">
+<td>147</td>
+<td>Dratini</td>
+<td>20</td>
+<td>12</td>
+<td>11</td>
+<td>11</td>
+<td>11</td>
+<td>11</td>
+</tr>
+
+<tr>
+<td>152</td>
+<td>Chikorita</td>
+<td>21</td>
+<td>11</td>
+<td>13</td>
+<td>11</td>
+<td>13</td>
+<td>11</td>
+</tr>
+
+<tr class="a">
+<td>155</td>
+<td>Cyndaquil</td>
+<td>20</td>
+<td>11</td>
+<td>10</td>
+<td>12</td>
+<td>11</td>
+<td>13</td>
+</tr>
+
+<tr>
+<td>158</td>
+<td>Totodile</td>
+<td>21</td>
+<td>13</td>
+<td>12</td>
+<td>10</td>
+<td>11</td>
+<td>10</td>
+</tr>
+
+<tr class="a">
+<td>161</td>
+<td>Sentret</td>
+<td>20</td>
+<td>11</td>
+<td>9</td>
+<td>10</td>
+<td>11</td>
+<td>8</td>
+</tr>
+
+<tr>
+<td>163</td>
+<td>Hoothoot</td>
+<td>22</td>
+<td>9</td>
+<td>9</td>
+<td>10</td>
+<td>12</td>
+<td>11</td>
+</tr>
+
+<tr class="a">
+<td>165</td>
+<td>Ledyba</td>
+<td>20</td>
+<td>8</td>
+<td>9</td>
+<td>10</td>
+<td>14</td>
+<td>12</td>
+</tr>
+
+<tr>
+<td>167</td>
+<td>Spinarak</td>
+<td>20</td>
+<td>12</td>
+<td>10</td>
+<td>10</td>
+<td>10</td>
+<td>9</td>
+</tr>
+
+<tr class="a">
+<td>170</td>
+<td>Chinchou</td>
+<td>24</td>
+<td>10</td>
+<td>10</td>
+<td>12</td>
+<td>12</td>
+<td>13</td>
+</tr>
+
+<tr>
+<td>172</td>
+<td>Pichu</td>
+<td>18</td>
+<td>10</td>
+<td>8</td>
+<td>10</td>
+<td>10</td>
+<td>12</td>
+</tr>
+
+<tr class="a">
+<td>173</td>
+<td>Cleffa</td>
+<td>21</td>
+<td>9</td>
+<td>9</td>
+<td>11</td>
+<td>12</td>
+<td>8</td>
+</tr>
+
+<tr>
+<td>174</td>
+<td>Igglybuff</td>
+<td>25</td>
+<td>9</td>
+<td>8</td>
+<td>10</td>
+<td>8</td>
+<td>8</td>
+</tr>
+
+<tr class="a">
+<td>175</td>
+<td>Togepi</td>
+<td>20</td>
+<td>8</td>
+<td>13</td>
+<td>10</td>
+<td>13</td>
+<td>8</td>
+</tr>
+
+<tr>
+<td>177</td>
+<td>Natu</td>
+<td>20</td>
+<td>11</td>
+<td>11</td>
+<td>13</td>
+<td>11</td>
+<td>13</td>
+</tr>
+
+<tr class="a">
+<td>179</td>
+<td>Mareep</td>
+<td>22</td>
+<td>10</td>
+<td>10</td>
+<td>13</td>
+<td>11</td>
+<td>10</td>
+</tr>
+
+<tr>
+<td>183</td>
+<td>Marill</td>
+<td>23</td>
+<td>8</td>
+<td>11</td>
+<td>8</td>
+<td>11</td>
+<td>10</td>
+</tr>
+
+<tr class="a">
+<td>185</td>
+<td>Sudowoodo</td>
+<td>23</td>
+<td>16</td>
+<td>18</td>
+<td>9</td>
+<td>13</td>
+<td>9</td>
+</tr>
+
+<tr>
+<td>187</td>
+<td>Hoppip</td>
+<td>20</td>
+<td>10</td>
+<td>10</td>
+<td>10</td>
+<td>12</td>
+<td>11</td>
+</tr>
+
+<tr class="a">
+<td>190</td>
+<td>Aipom</td>
+<td>22</td>
+<td>13</td>
+<td>12</td>
+<td>10</td>
+<td>12</td>
+<td>15</td>
+</tr>
+
+<tr>
+<td>191</td>
+<td>Sunkern</td>
+<td>19</td>
+<td>9</td>
+<td>9</td>
+<td>9</td>
+<td>9</td>
+<td>9</td>
+</tr>
+
+<tr class="a">
+<td>193</td>
+<td>Yanma</td>
+<td>23</td>
+<td>13</td>
+<td>11</td>
+<td>14</td>
+<td>11</td>
+<td>16</td>
+</tr>
+
+<tr>
+<td>194</td>
+<td>Wooper</td>
+<td>22</td>
+<td>11</td>
+<td>11</td>
+<td>9</td>
+<td>9</td>
+<td>8</td>
+</tr>
+
+<tr class="a">
+<td>198</td>
+<td>Murkrow</td>
+<td>22</td>
+<td>15</td>
+<td>10</td>
+<td>15</td>
+<td>10</td>
+<td>15</td>
+</tr>
+
+<tr>
+<td>200</td>
+<td>Misdreavus</td>
+<td>22</td>
+<td>12</td>
+<td>12</td>
+<td>15</td>
+<td>15</td>
+<td>15</td>
+</tr>
+
+<tr class="a">
+<td>202</td>
+<td>Wobbuffet</td>
+<td>35</td>
+<td>9</td>
+<td>12</td>
+<td>9</td>
+<td>12</td>
+<td>9</td>
+</tr>
+
+<tr>
+<td>203</td>
+<td>Girafarig</td>
+<td>23</td>
+<td>14</td>
+<td>13</td>
+<td>15</td>
+<td>13</td>
+<td>15</td>
+</tr>
+
+<tr class="a">
+<td>204</td>
+<td>Pineco</td>
+<td>21</td>
+<td>13</td>
+<td>15</td>
+<td>10</td>
+<td>10</td>
+<td>8</td>
+</tr>
+
+<tr>
+<td>206</td>
+<td>Dunsparce</td>
+<td>26</td>
+<td>13</td>
+<td>13</td>
+<td>13</td>
+<td>13</td>
+<td>11</td>
+</tr>
+
+<tr class="a">
+<td>207</td>
+<td>Gligar</td>
+<td>23</td>
+<td>14</td>
+<td>17</td>
+<td>10</td>
+<td>13</td>
+<td>15</td>
+</tr>
+
+<tr>
+<td>209</td>
+<td>Snubbull</td>
+<td>22</td>
+<td>14</td>
+<td>11</td>
+<td>10</td>
+<td>10</td>
+<td>9</td>
+</tr>
+
+<tr class="a">
+<td>211</td>
+<td>Qwilfish</td>
+<td>23</td>
+<td>16</td>
+<td>14</td>
+<td>12</td>
+<td>12</td>
+<td>15</td>
+</tr>
+
+<tr>
+<td>213</td>
+<td>Shuckle</td>
+<td>18</td>
+<td>7</td>
+<td>29</td>
+<td>7</td>
+<td>29</td>
+<td>7</td>
+</tr>
+
+<tr class="a">
+<td>214</td>
+<td>Heracross</td>
+<td>24</td>
+<td>19</td>
+<td>14</td>
+<td>10</td>
+<td>16</td>
+<td>15</tNidoran-Mtd18tdd>
+</tr>
+
+<tr>
+<td>215</td>
+<td>Sneasel</td>
+<td>22</td>
+<td>16</td>
+<td>12</td>
+<td>10</td>
+<td>14</td>
+<td>18</td>
+</tr>
+
+<tr class="a">
+<td>216</td>
+<td>Teddiursa</td>
+<td>22</td>
+<td>14</td>
+<td>11</td>
+<td>11</td>
+<td>11</td>
+<td>10</td>
+</tr>
+
+<tr>
+<td>218</td>
+<td>Slugma</td>
+<td>20</td>
+<td>10</td>
+<td>10</td>
+<td>13</td>
+<td>10</td>
+<td>8</td>
+</tr>
+
+<tr class="a">
+<td>220</td>
+<td>Swinub</td>
+<td>21</td>
+<td>11</td>
+<td>10</td>
+<td>9</td>
+<td>9</td>
+<td>11</td>
+</tr>
+
+<tr>
+<td>222</td>
+<td>Corsola</td>
+<td>22</td>
+<td>12</td>
+<td>15</td>
+<td>13</td>
+<td>15</td>
+<td>10</td>
+</tr>
+
+<tr class="a">
+<td>223</td>
+<td>Remoraid</td>
+<td>20</td>
+<td>13</td>
+<td>10</td>
+<td>13</td>
+<td>10</td>
+<td>13</td>
+</tr>
+
+<tr>
+<td>225</td>
+<td>Delibird</td>
+<td>21</td>
+<td>12</td>
+<td>11</td>
+<td>13</td>
+<td>11</td>
+<td>14</td>
+</tr>
+
+<tr class="a">
+<td>226</td>
+<td>Mantine</td>
+<td>23</td>
+<td>10</td>
+<td>13</td>
+<td>14</td>
+<td>20</td>
+<td>13</td>
+</tr>
+
+<tr>
+<td>227</td>
+<td>Skarmory</td>
+<td>23</td>
+<td>14</td>
+<td>20</td>
+<td>10</td>
+<td>13</td>
+<td>13</td>
+</tr>
+
+<tr class="a">
+<td>228</td>
+<td>Houndour</td>
+<td>21</td>
+<td>12</td>
+<td>9</td>
+<td>14</td>
+<td>11</td>
+<td>13</td>
+</tr>
+
+<tr>
+<td>231</td>
+<td>Phanpy</td>
+<td>25</td>
+<td>12</td>
+<td>12</td>
+<td>10</td>
+<td>10</td>
+<td>10</td>
+</tr>
+
+<tr class="a">
+<td>234</td>
+<td>Stantler</td>
+<td>23</td>
+<td>16</td>
+<td>12</td>
+<td>15</td>
+<td>13</td>
+<td>15</td>
+</tr>
+
+<tr>
+<td>235</td>
+<td>Smeargle</td>
+<td>22</td>
+<td>8</td>
+<td>10</td>
+<td>8</td>
+<td>11</td>
+<td>14</td>
+</tr>
+
+<tr class="a">
+<td>236</td>
+<td>Tyrogue</td>
+<td>20</td>
+<td>10</td>
+<td>10</td>
+<td>10</td>
+<td>10</td>
+<td>10</td>
+</tr>
+
+<tr>
+<td>238</td>
+<td>Smoochum</td>
+<td>21</td>
+<td>9</td>
+<td>8</td>
+<td>15</td>
+<td>13</td>
+<td>13</td>
+</tr>
+
+<tr class="a">
+<td>239</td>
+<td>Elekid</td>
+<td>21</td>
+<td>12</td>
+<td>10</td>
+<td>13</td>
+<td>12</td>
+<td>16</td>
+</tr>
+
+<tr>
+<td>240</td>
+<td>Magby</td>
+<td>21</td>
+<td>14</td>
+<td>10</td>
+<td>13</td>
+<td>12</td>
+<td>14</td>
+</tr>
+
+<tr class="a">
+<td>241</td>
+<td>Miltank</td>
+<td>26</td>
+<td>14</td>
+<td>17</td>
+<td>10</td>
+<td>13</td>
+<td>16</td>
+</tr>
+
+<tr>
+<td>246</td>
+<td>Larvitar</td>
+<td>21</td>
+<td>12</td>
+<td>11</td>
+<td>11</td>
+<td>11</td>
+<td>10</td>
+</tr>
+
+<tr class="a">
+<td>252</td>
+<td>Treecko</td>
+<td>20</td>
+<td>11</td>
+<td>10</td>
+<td>13</td>
+<td>12</td>
+<td>13</td>
+</tr>
+
+<tr>
+<td>255</td>
+<td>Torchic</td>
+<td>21</td>
+<td>12</td>
+<td>10</td>
+<td>13</td>
+<td>11</td>
+<td>11</td>
+</tr>
+
+<tr class="a">
+<td>258</td>
+<td>Mudkip</td>
+<td>21</td>
+<td>13</td>
+<td>11</td>
+<td>11</td>
+<td>11</td>
+<td>10</td>
+</tr>
+
+<tr>
+<td>261</td>
+<td>Poochyena</td>
+<td>20</td>
+<td>12</td>
+<td>10</td>
+<td>9</td>
+<td>9</td>
+<td>10</td>
+</tr>
+
+<tr class="a">
+<td>263</td>
+<td>Zigzagoon</td>
+<td>20</td>
+<td>9</td>
+<td>10</td>
+<td>9</td>
+<td>10</td>
+<td>12</td>
+</tr>
+
+<tr>
+<td>265</td>
+<td>Wurmple</td>
+<td>21</td>
+<td>11</td>
+<td>10</td>
+<td>8</td>
+<td>9</td>
+<td>8</td>
+</tr>
+
+<tr class="a">
+<td>270</td>
+<td>Lotad</td>
+<td>20</td>
+<td>9</td>
+<td>9</td>
+<td>10</td>
+<td>11</td>
+<td>9</td>
+</tr>
+
+<tr>
+<td>273</td>
+<td>Seedot</td>
+<td>20</td>
+<td>10</td>
+<td>11</td>
+<td>9</td>
+<td>9</td>
+<td>9</td>
+</tr>
+
+<tr class="a">
+<td>276</td>
+<td>Taillow</td>
+<td>20</td>
+<td>12</td>
+<td>9</td>
+<td>9</td>
+<td>9</td>
+<td>15</td>
+</tr>
+
+<tr>
+<td>278</td>
+<td>Wingull</td>
+<td>20</td>
+<td>9</td>
+<td>9</td>
+<td>12</td>
+<td>9</td>
+<td>15</td>
+</tr>
+
+<tr class="a">
+<td>280</td>
+<td>Ralts</td>
+<td>19</td>
+<td>9</td>
+<td>9</td>
+<td>11</td>
+<td>10</td>
+<td>10</td>
+</tr>
+
+<tr>
+<td>283</td>
+<td>Surskit</td>
+<td>20</td>
+<td>9</td>
+<td>9</td>
+<td>11</td>
+<td>11</td>
+<td>13</td>
+</tr>
+
+<tr class="a">
+<td>285</td>
+<td>Shroomish</td>
+<td>22</td>
+<td>10</td>
+<td>12</td>
+<td>10</td>
+<td>12</td>
+<td>10</td>
+</tr>
+
+<tr>
+<td>287</td>
+<td>Slakoth</td>
+<td>22</td>
+<td>12</td>
+<td>12</td>
+<td>10</td>
+<td>10</td>
+<td>9</td>
+</tr>
+
+<tr class="a">
+<td>290</td>
+<td>Nincada</td>
+<td>19</td>
+<td>11</td>
+<td>15</td>
+<td>9</td>
+<td>9</td>
+<td>10</td>
+</tr>
+
+<tr>
+<td>293</td>
+<td>Whismur</td>
+<td>22</td>
+<td>11</td>
+<td>8</td>
+<td>11</td>
+<td>8</td>
+<td>9</td>
+</tr>
+
+<tr class="a">
+<td>296</td>
+<td>Makuhita</td>
+<td>23</td>
+<td>12</td>
+<td>9</td>
+<td>8</td>
+<td>9</td>
+<td>9</td>
+</tr>
+
+<tr>
+<td>298</td>
+<td>Azurill</td>
+<td>21</td>
+<td>8</td>
+<td>10</td>
+<td>8</td>
+<td>10</td>
+<td>8</td>
+</tr>
+
+<tr class="a">
+<td>299</td>
+<td>Nosepass</td>
+<td>19</td>
+<td>11</td>
+<td>20</td>
+<td>11</td>
+<td>15</td>
+<td>9</td>
+</tr>
+
+<tr>
+<td>300</td>
+<td>Skitty</td>
+<td>21</td>
+<td>11</td>
+<td>11</td>
+<td>10</td>
+<td>10</td>
+<td>11</td>
+</tr>
+
+<tr class="a">
+<td>302</td>
+<td>Sableye</td>
+<td>21</td>
+<td>14</td>
+<td>14</td>
+<td>13</td>
+<td>13</td>
+<td>11</td>
+</tr>
+
+<tr>
+<td>303</td>
+<td>Mawile</td>
+<td>21</td>
+<td>15</td>
+<td>15</td>
+<td>12</td>
+<td>12</td>
+<td>11</td>
+</tr>
+
+<tr class="a">
+<td>304</td>
+<td>Aron</td>
+<td>21</td>
+<td>13</td>
+<td>16</td>
+<td>10</td>
+<td>10</td>
+<td>9</td>
+</tr>
+
+<tr>
+<td>307</td>
+<td>Meditite</td>
+<td>19</td>
+<td>10</td>
+<td>12</td>
+<td>10</td>
+<td>12</td>
+<td>12</td>
+</tr>
+
+<tr class="a">
+<td>309</td>
+<td>Electrike</td>
+<td>20</td>
+<td>11</td>
+<td>10</td>
+<td>13</td>
+<td>10</td>
+<td>13</td>
+</tr>
+
+<tr>
+<td>311</td>
+<td>Plusle</td>
+<td>22</td>
+<td>11</td>
+<td>10</td>
+<td>15</td>
+<td>14</td>
+<td>16</td>
+</tr>
+
+<tr class="a">
+<td>312</td>
+<td>Minun</td>
+<td>22</td>
+<td>10</td>
+<td>11</td>
+<td>14</td>
+<td>15</td>
+<td>16</td>
+</tr>
+
+<tr>
+<td>313</td>
+<td>Volbeat</td>
+<td>23</td>
+<td>13</td>
+<td>12</td>
+<td>11</td>
+<td>14</td>
+<td>15</td>
+</tr>
+
+<tr class="a">
+<td>314</td>
+<td>Illumise</td>
+<td>23</td>
+<td>11</td>
+<td>12</td>
+<td>13</td>
+<td>14</td>
+<td>15</td>
+</tr>
+
+<tr>
+<td>315</td>
+<td>Roselia</td>
+<td>21</td>
+<td>12</td>
+<td>11</td>
+<td>16</td>
+<td>14</td>
+<td>13</td>
+</tr>
+
+<tr class="a">
+<td>316</td>
+<td>Gulpin</td>
+<td>23</td>
+<td>10</td>
+<td>11</td>
+<td>10</td>
+<td>11</td>
+<td>10</td>
+</tr>
+
+<tr>
+<td>318</td>
+<td>Carvanha</td>
+<td>21</td>
+<td>15</td>
+<td>8</td>
+<td>13</td>
+<td>8</td>
+<td>13</td>
+</tr>
+
+<tr class="a">
+<td>320</td>
+<td>Wailmer</td>
+<td>29</td>
+<td>13</td>
+<td>10</td>
+<td>13</td>
+<td>10</td>
+<td>12</td>
+</tr>
+
+<tr>
+<td>322</td>
+<td>Numel</td>
+<td>22</td>
+<td>12</td>
+<td>10</td>
+<td>13</td>
+<td>11</td>
+<td>10</td>
+</tr>
+
+<tr class="a">
+<td>324</td>
+<td>Torkoal</td>
+<td>23</td>
+<td>15</td>
+<td>20</td>
+<td>15</td>
+<td>13</td>
+<td>8</td>
+</tr>
+
+<tr>
+<td>325</td>
+<td>Spoink</td>
+<td>22</td>
+<td>9</td>
+<td>10</td>
+<td>13</td>
+<td>14</td>
+<td>12</td>
+</tr>
+
+<tr class="a">
+<td>327</td>
+<td>Spinda</td>
+<td>22</td>
+<td>12</td>
+<td>12</td>
+<td>12</td>
+<td>12</td>
+<td>12</td>
+</tr>
+
+<tr>
+<td>328</td>
+<td>Trapinch</td>
+<td>21</td>
+<td>16</td>
+<td>11</td>
+<td>11</td>
+<td>11</td>
+<td>7</td>
+</tr>
+
+<tr class="a">
+<td>331</td>
+<td>Cacnea</td>
+<td>21</td>
+<td>15</td>
+<td>10</td>
+<td>15</td>
+<td>10</td>
+<td>10</td>
+</tr>
+
+<tr>
+<td>333</td>
+<td>Swablu</td>
+<td>21</td>
+<td>10</td>
+<td>12</td>
+<td>10</td>
+<td>14</td>
+<td>11</td>
+</tr>
+
+<tr class="a">
+<td>335</td>
+<td>Zangoose</td>
+<td>23</td>
+<td>18</td>
+<td>12</td>
+<td>12</td>
+<td>12</td>
+<td>15</td>
+</tr>
+
+<tr>
+<td>336</td>
+<td>Seviper</td>
+<td>23</td>
+<td>16</td>
+<td>12</td>
+<td>16</td>
+<td>12</td>
+<td>13</td>
+</tr>
+
+<tr class="a">
+<td>337</td>
+<td>Lunatone</td>
+<td>23</td>
+<td>12</td>
+<td>13</td>
+<td>16</td>
+<td>15</td>
+<td>13</td>
+</tr>
+
+<tr>
+<td>338</td>
+<td>Solrock</td>
+<td>23</td>
+<td>16</td>
+<td>15</td>
+<td>12</td>
+<td>13</td>
+<td>13</td>
+</tr>
+
+<tr class="a">
+<td>339</td>
+<td>Barboach</td>
+<td>21</td>
+<td>11</td>
+<td>10</td>
+<td>11</td>
+<td>10</td>
+<td>12</td>
+</tr>
+
+<tr>
+<td>341</td>
+<td>Corphish</td>
+<td>20</td>
+<td>14</td>
+<td>13</td>
+<td>11</td>
+<td>10</td>
+<td>10</td>
+</tr>
+
+<tr class="a">
+<td>343</td>
+<td>Baltoy</td>
+<td>20</td>
+<td>10</td>
+<td>12</td>
+<td>10</td>
+<td>13</td>
+<td>12</td>
+</tr>
+
+<tr>
+<td>345</td>
+<td>Lileep</td>
+<td>23</td>
+<td>10</td>
+<td>14</td>
+<td>12</td>
+<td>15</td>
+<td>8</td>
+</tr>
+
+<tr class="a">
+<td>347</td>
+<td>Anorith</td>
+<td>21</td>
+<td>16</td>
+<td>11</td>
+<td>10</td>
+<td>11</td>
+<td>14</td>
+</tr>
+
+<tr>
+<td>349</td>
+<td>Feebas</td>
+<td>18</td>
+<td>8</td>
+<td>8</td>
+<td>7</td>
+<td>12</td>
+<td>14</td>
+</tr>
+
+<tr class="a">
+<td>351</td>
+<td>Castform</td>
+<td>23</td>
+<td>13</td>
+<td>13</td>
+<td>13</td>
+<td>13</td>
+<td>13</td>
+</tr>
+
+<tr>
+<td>352</td>
+<td>Kecleon</td>
+<td>22</td>
+<td>15</td>
+<td>13</td>
+<td>12</td>
+<td>18</td>
+<td>10</td>
+</tr>
+
+<tr class="a">
+<td>353</td>
+<td>Shuppet</td>
+<td>20</td>
+<td>14</td>
+<td>10</td>
+<td>12</td>
+<td>9</td>
+<td>11</td>
+</tr>
+
+<tr>
+<td>355</td>
+<td>Duskull</td>
+<td>18</td>
+<td>10</td>
+<td>15</td>
+<td>9</td>
+<td>15</td>
+<td>9</td>
+</tr>
+
+<tr class="a">
+<td>357</td>
+<td>Tropius</td>
+<td>26</td>
+<td>13</td>
+<td>14</td>
+<td>13</td>
+<td>15</td>
+<td>11</td>
+</tr>
+
+<tr>
+<td>358</td>
+<td>Chimecho</td>
+<td>23</td>
+<td>11</td>
+<td>13</td>
+<td>16</td>
+<td>14</td>
+<td>13</td>
+</tr>
+
+<tr class="a">
+<td>359</td>
+<td>Absol</td>
+<td>23</td>
+<td>19</td>
+<td>12</td>
+<td>14</td>
+<td>12</td>
+<td>14</td>
+</tr>
+
+<tr>
+<td>360</td>
+<td>Wynaut</td>
+<td>26</td>
+<td>8</td>
+<td>11</td>
+<td>8</td>
+<td>11</td>
+<td>8</td>
+</tr>
+
+<tr class="a">
+<td>361</td>
+<td>Snorunt</td>
+<td>21</td>
+<td>11</td>
+<td>11</td>
+<td>11</td>
+<td>11</td>
+<td>11</td>
+</tr>
+
+<tr>
+<td>363</td>
+<td>Spheal</td>
+<td>23</td>
+<td>10</td>
+<td>11</td>
+<td>12</td>
+<td>11</td>
+<td>9</td>
+</tr>
+
+<tr class="a">
+<td>366</td>
+<td>Clamperl</td>
+<td>20</td>
+<td>12</td>
+<td>15</td>
+<td>13</td>
+<td>12</td>
+<td>9</td>
+</tr>
+
+<tr>
+<td>369</td>
+<td>Relicanth</td>
+<td>26</td>
+<td>15</td>
+<td>19</td>
+<td>11</td>
+<td>13</td>
+<td>12</td>
+</tr>
+
+<tr class="a">
+<td>370</td>
+<td>Luvdisc</td>
+<td>20</td>
+<td>9</td>
+<td>12</td>
+<td>10</td>
+<td>13</td>
+<td>16</td>
+</tr>
+
+<tr>
+<td>371</td>
+<td>Bagon</td>
+<td>21</td>
+<td>14</td>
+<td>12</td>
+<td>10</td>
+<td>9</td>
+<td>11</td>
+</tr>
+
+<tr class="a">
+<td>374</td>
+<td>Beldum</td>
+<td>20</td>
+<td>12</td>
+<td>14</td>
+<td>10</td>
+<td>12</td>
+<td>9</td>
+</tr>
+
+<tr>
+<td>387</td>
+<td>Turtwig</td>
+<td>22</td>
+<td>13</td>
+<td>12</td>
+<td>11</td>
+<td>12</td>
+<td>9</td>
+</tr>
+
+<tr class="a">
+<td>390</td>
+<td>Chimchar</td>
+<td>20</td>
+<td>12</td>
+<td>10</td>
+<td>12</td>
+<td>10</td>
+<td>12</td>
+</tr>
+
+<tr>
+<td>393</td>
+<td>Piplup</td>
+<td>21</td>
+<td>11</td>
+<td>11</td>
+<td>12</td>
+<td>12</td>
+<td>10</td>
+</tr>
+
+<tr class="a">
+<td>396</td>
+<td>Starly</td>
+<td>20</td>
+<td>12</td>
+<td>9</td>
+<td>9</td>
+<td>9</td>
+<td>12</td>
+</tr>
+
+<tr>
+<td>399</td>
+<td>Bidoof</td>
+<td>22</td>
+<td>11</td>
+<td>10</td>
+<td>10</td>
+<td>10</td>
+<td>9</td>
+</tr>
+
+<tr class="a">
+<td>401</td>
+<td>Kricketot</td>
+<td>20</td>
+<td>9</td>
+<td>10</td>
+<td>9</td>
+<td>10</td>
+<td>9</td>
+</tr>
+
+<tr>
+<td>403</td>
+<td>Shinx</td>
+<td>21</td>
+<td>13</td>
+<td>9</td>
+<td>10</td>
+<td>9</td>
+<td>11</td>
+</tr>
+
+<tr class="a">
+<td>406</td>
+<td>Budew</td>
+<td>20</td>
+<td>9</td>
+<td>10</td>
+<td>11</td>
+<td>13</td>
+<td>12</td>
+</tr>
+
+<tr>
+<td>408</td>
+<td>Cranidos</td>
+<td>23</td>
+<td>19</td>
+<td>10</td>
+<td>9</td>
+<td>9</td>
+<td>12</td>
+</tr>
+
+<tr class="a">
+<td>410</td>
+<td>Shieldon</td>
+<td>19</td>
+<td>10</td>
+<td>18</td>
+<td>10</td>
+<td>15</td>
+<td>9</td>
+</tr>
+
+<tr>
+<td>412</td>
+<td>Burmy</td>
+<td>20</td>
+<td>9</td>
+<td>11</td>
+<td>9</td>
+<td>11</td>
+<td>10</td>
+</tr>
+
+<tr class="a">
+<td>415</td>
+<td>Combee</td>
+<td>19</td>
+<td>9</td>
+<td>10</td>
+<td>9</td>
+<td>10</td>
+<td>13</td>
+</tr>
+
+<tr>
+<td>417</td>
+<td>Pachirisu</td>
+<td>22</td>
+<td>11</td>
+<td>13</td>
+<td>11</td>
+<td>15</td>
+<td>16</td>
+</tr>
+
+<tr class="a">
+<td>418</td>
+<td>Buizel</td>
+<td>22</td>
+<td>13</td>
+<td>10</td>
+<td>12</td>
+<td>9</td>
+<td>15</td>
+</tr>
+
+<tr>
+<td>420</td>
+<td>Cherubi</td>
+<td>21</td>
+<td>10</td>
+<td>11</td>
+<td>12</td>
+<td>11</td>
+<td>10</td>
+</tr>
+
+<tr class="a">
+<td>422</td>
+<td>Shellos</td>
+<td>24</td>
+<td>11</td>
+<td>11</td>
+<td>12</td>
+<td>12</td>
+<td>9</td>
+</tr>
+
+<tr>
+<td>425</td>
+<td>Drifloon</td>
+<td>25</td>
+<td>11</td>
+<td>9</td>
+<td>12</td>
+<td>10</td>
+<td>13</td>
+</tr>
+
+<tr class="a">
+<td>427</td>
+<td>Buneary</td>
+<td>22</td>
+<td>13</td>
+<td>10</td>
+<td>10</td>
+<td>12</td>
+<td>15</td>
+</tr>
+
+<tr>
+<td>431</td>
+<td>Glameow</td>
+<td>21</td>
+<td>12</td>
+<td>10</td>
+<td>10</td>
+<td>10</td>
+<td>15</td>
+</tr>
+
+<tr class="a">
+<td>433</td>
+<td>Chingling</td>
+<td>21</td>
+<td>9</td>
+<td>11</td>
+<td>13</td>
+<td>11</td>
+<td>11</td>
+</tr>
+
+<tr>
+<td>434</td>
+<td>Stunky</td>
+<td>22</td>
+<td>12</td>
+<td>11</td>
+<td>10</td>
+<td>10</td>
+<td>13</td>
+</tr>
+
+<tr class="a">
+<td>436</td>
+<td>Bronzor</td>
+<td>22</td>
+<td>8</td>
+<td>15</td>
+<td>8</td>
+<td>15</td>
+<td>8</td>
+</tr>
+
+<tr>
+<td>438</td>
+<td>Bonsly</td>
+<td>21</td>
+<td>14</td>
+<td>16</td>
+<td>7</td>
+<td>11</td>
+<td>7</td>
+</tr>
+
+<tr class="a">
+<td>439</td>
+<td>Mime Jr.</td>
+<td>18</td>
+<td>9</td>
+<td>11</td>
+<td>13</td>
+<td>15</td>
+<td>12</td>
+</tr>
+
+<tr>
+<td>440</td>
+<td>Happiny</td>
+<td>26</td>
+<td>7</td>
+<td>7</td>
+<td>8</td>
+<td>13</td>
+<td>9</td>
+</tr>
+
+<tr class="a">
+<td>441</td>
+<td>Chatot</td>
+<td>24</td>
+<td>13</td>
+<td>11</td>
+<td>15</td>
+<td>10</td>
+<td>15</td>
+</tr>
+
+<tr>
+<td>442</td>
+<td>Spiritomb</td>
+<td>21</td>
+<td>15</td>
+<td>17</td>
+<td>15</td>
+<td>17</td>
+<td>10</td>
+</tr>
+
+<tr class="a">
+<td>443</td>
+<td>Gible</td>
+<td>22</td>
+<td>13</td>
+<td>11</td>
+<td>10</td>
+<td>11</td>
+<td>10</td>
+</tr>
+
+<tr>
+<td>446</td>
+<td>Munchlax</td>
+<td>30</td>
+<td>15</td>
+<td>10</td>
+<td>10</td>
+<td>15</td>
+<td>7</td>
+</tr>
+
+<tr class="a">
+<td>447</td>
+<td>Riolu</td>
+<td>20</td>
+<td>13</td>
+<td>10</td>
+<td>10</td>
+<td>10</td>
+<td>12</td>
+</tr>
+
+<tr>
+<td>449</td>
+<td>Hippopotas</td>
+<td>23</td>
+<td>13</td>
+<td>14</td>
+<td>10</td>
+<td>10</td>
+<td>9</td>
+</tr>
+
+<tr class="a">
+<td>451</td>
+<td>Skorupi</td>
+<td>20</td>
+<td>11</td>
+<td>15</td>
+<td>9</td>
+<td>12</td>
+<td>13</td>
+</tr>
+
+<tr>
+<td>453</td>
+<td>Croagunk</td>
+<td>21</td>
+<td>12</td>
+<td>10</td>
+<td>12</td>
+<td>10</td>
+<td>11</td>
+</tr>
+
+<tr class="a">
+<td>455</td>
+<td>Carnivine</td>
+<td>23</td>
+<td>16</td>
+<td>13</td>
+<td>15</td>
+<td>13</td>
+<td>11</td>
+</tr>
+
+<tr>
+<td>456</td>
+<td>Finneon</td>
+<td>21</td>
+<td>11</td>
+<td>12</td>
+<td>11</td>
+<td>12</td>
+<td>13</td>
+</tr>
+
+<tr class="a">
+<td>458</td>
+<td>Mantyke</td>
+<td>21</td>
+<td>8</td>
+<td>11</td>
+<td>12</td>
+<td>18</td>
+<td>11</td>
+</tr>
+
+<tr>
+<td>459</td>
+<td>Snover</td>
+<td>22</td>
+<td>12</td>
+<td>11</td>
+<td>12</td>
+<td>12</td>
+<td>10</td>
+</tr>
+
+<tr class="a">
+<td>479</td>
+<td>Rotom</td>
+<td>21</td>
+<td>11</td>
+<td>14</td>
+<td>16</td>
+<td>14</td>
+<td>15</td>
+</tr>
+
+<tr>
+<td>489</td>
+<td>Phione</td>
+<td>24</td>
+<td>14</td>
+<td>14</td>
+<td>14</td>
+<td>14</td>
+<td>14</td>
+</tr>
+
+<tr class="a">
+<td>490</td>
+<td>Manaphy</td>
+<td>26</td>
+<td>16</td>
+<td>16</td>
+<td>16</td>
+<td>16</td>
+<td>16</td>
+</tr>
+</tbody>
+</table>
+
+<h2><a name="breeding_information">SECTION TWO: Breeding Information</a></h2>
+
+<p>If you put two compatible Pokémon in the Day Care, the Day Care man will offer you an Egg after you walk or ride for a while.</p>
+
+<h3><a name="day_care_locations">Day Care Breeding Centre Locations</a></h3>
+
+<p>The locations of the Day Care breeding center in each game are the following:</p>
+
+<ul>
+<li><strong>FRLG</strong>: Four Island (after beating the Elite Four)</li>
+<li><strong>RSE</strong>: Route 117</li>
+<li><strong>DPP</strong>: Solaceon Town</li>
+</ul>
+
+<h3><a name="baby_species">The Species of the Baby</a></h3>
+
+<p>The Pokémon that will hatch from the Egg will be at Level 5 (Level 1 in DPP) and of the first evolution step of the mother's species, unless one of the following occurs:</p>
+
+<ul>
+<li>If one of the parents is <strong>Ditto</strong>, then the offspring's species is the <strong>other parent's first evolution step</strong>.</li>
+<li>If the mother is <strong>Nidoran-F</strong>, then the offspring will either be <strong>Nidoran-M</strong> or <strong>Nidoran-F</strong>, since they are treated as the same species.</li>
+<li>If the mother is <strong>Illumise</strong>, then the offspring wll either be <strong>Volbeat</strong> or <strong>Illumise</strong>, since they are treated as the same species.</li>
+<li>A <strong>Marill</strong> or <strong>Azumarill</strong>'s offspring will be <strong>Marill</strong> unless one of the parents is holding the item <strong>Sea Incense</strong>, in which case the baby will be <strong>Azurill</strong>.</li>
+<li>A <strong>Wobbuffet</strong>'s offspring will be <strong>Wobbuffet</strong> unless one of the parents is holding the item <strong>Lax Incense</strong>, in which case the baby will be <strong>Wynaut</strong>.</li>
+<li>A <strong>Roselia</strong> or <strong>Roserade</strong>'s offspring will be <strong>Roselia</strong> unless one of the parents is holding the item <strong>Rose Incense</strong>, in which case the baby will be <strong>Budew</strong>.</li>
+<li>A <strong>Chimecho</strong>'s offspring will be <strong>Chimecho</strong> unless one of the parents is holding the item <strong>Pure Incense</strong>, in which case the baby will be <strong>Chingling</strong>.</li>
+<li>A <strong>Sudowoodo</strong>'s offspring will be <strong>Sudowoodo</strong> unless one of the parents is holding the item <strong>Rock Incense</strong>, in which case the baby will be <strong>Bonsly</strong>.</li>
+<li>A <strong>Mr.Mime</strong>'s offspring will be <strong>Mr.Mime</strong> unless one of the parents is holding the item <strong>Odd Incense</strong>, in which case the baby will be <strong>Mime Jr.</strong>.</li>
+<li>A <strong>Chansey</strong> or <strong>Blissey</strong>'s offspring will be <strong>Chansey</strong> unless one of the parents is holding the item <strong>Luck Incense</strong>, in which case the baby will be <strong>Happiny</strong>.</li>
+<li>A <strong>Mantine</strong>'s offspring will be <strong>Mantine</strong> unless one of the parents is holding the item <strong>Wave Incense</strong>, in which case the baby will be <strong>Mantyke</strong>.</li>
+<li>A <strong>Snorlax</strong>'s offspring will be <strong>Snorlax</strong> unless one of the parents is holding the item <strong>Full Incense</strong>, in which case the baby will be <strong>Munchlax</strong>.</li>
+<li>A <strong>Manaphy</strong>'s offspring will be <strong>Phione</strong>, but Phione is itself a final evolution stage Pokémon.</li>
+</ul>
+
+<h3><a name="breedability">Breedability</a></h3>
+
+<p>All Pokémon except the following can produce Eggs (breed):</p>
+
+<dl>
+<dt>First stage evolution Pokémon that cannot breed:</dt>
+<dd>Pichu, Cleffa, Igglybuff, Togepi, Elekid, Magby, Smoochum, Tyrogue, Wynaut, Azurill, Happiny, Mime Jr., Munchlax, Bonsly, Mantyke, Chingling, Budew, Riolu</dd>
+<dt>Second stage evolution Pokemon that cannot breed:</dt>
+<dd>Nidorina</dd>
+<dt>Final stage evolution, non-legendary, Pokémon that cannot breed:</dt>
+<dd>Nidoqueen, Unown</dd>
+<dt>Legendary Pokémon that cannot breed:</dt>
+<dd>Articuno, Moltres, Zapdos, Mewtwo, Mew, Raikou, Entei, Suicune, Lugia, Ho-Oh, Celebi, Regirock, Registeel, Regice, Latias, Latios, Kyogre, Groudon, Rayquaza, Jirachi, Deoxys, Uxie, Mesprit, Azelf, Dialga, Palkia, Heatran, Regigigas, Giratina, Cresselia, Darkrai, Shaymin, Arceus</dd>
+</dl>
+
+<p>In addition to this, breeding a Ditto with another Ditto won't produce a Ditto Egg.</p>
+
+<h3><a name="breeding_compatibility">Breeding Compatibility</a></h3>
+
+<p>Only Pokémon from the same group can breed. The final forms of the Pokémon are listed in alphabetical order, since all evolved Pokémon forms can breed except Nidorina and Nidoqueen.</p>
+
+<dl>
+<dt>The Monster Group:</dt>
+<dd>Abomasnow, Aggron, Ampharos, Bastiodon, Blastoise, Charizard, Exploud, Feraligatr, Garchomp, Kangaskhan, Lapras, Lickylicky, Marowak, Meganium, Nidoking, Nidoran-F, Rampardos, Rhyperior, Sceptile, Slowbro, Slowking, Snorlax, Swampert, Torterra, Tropius, Tyranitar, Venusaur</dd>
+<dt>The Dragon Group:</dt>
+<dd>Altaria, Arbok, Charizard, Dragonite, Garchomp, Gyarados, Kingdra, Milotic, Salamence, Sceptile, Seviper</dd>
+<dt>The Ground Group:</dt>
+<dd>Absol, Ambipom, Ampharos, Arbok, Arcanine, Bibarel, Blaziken, Buizel, Camerupt, Delcatty, Delibird, Dewgong, Donphan, Dugtrio, Dunsparce, Empoleon, Espeon, Exploud, Farfetch'd, Flareon, Furret, Girafarig, Glaceon, Golduck, Granbull, Grumpig, Hippowdon, Houndoom, Infernape, Jolteon, Kecleon, Leafeon, Linoone, Lopunny, Lucario, Luxray, Mamoswine, Manectric, Mawile, Mightyena, Miltank, Nidoking, Nidoran?, Ninetales, Pachirisu, Persian, Primeape, Purugly, Quagsire, Raichu, Rapidash, Raticate, Rhyperior, Sandslash, Seviper, Shiftry, Skuntank, Slaking, Smeargle, Spinda, Stantler, Tauros, Torkoal, Typhlosion, Umbreon, Ursaring, Vaporeon, Wailord, Walrein, Weavile, Zangoose</dd>
+<dt>Water Group 1:</dt>
+<dd>Azumarill, Bibarel, Blastoise, Buizel, Corsola, Crawdaunt, Delibird, Dewgong, Dragonite, Empoleon, Feraligatr, Gastrodon, Golduck, Gorebyss, Huntail, Kabutops, Kingdra, Lapras, Ludicolo, Mantine, Masquerain, Milotic, Octillery, Omastar, Pelipper, Politoed, Poliwrath, Quagsire, Relicanth, Slowbro, Slowking, Swampert, Walrein</dd>
+<dt>Water Group 2:</dt>
+<dd>Gyarados, Lanturn, Lumineon, Luvdisc, Octillery, Qwilfish, Relicanth, Seaking, Sharpedo, Wailord, Whiscash</dd>
+<dt>Water Group 3:</dt>
+<dd>Armaldo, Cloyster, Corsola, Cradily, Crawdaunt, Drapion, Kabutops, Kingler, Omastar, Tentacruel</dd>
+<dt>The Flying Group:</dt>
+<dd>Aerodactyl, Altaria, Chatot, Crobat, Dodrio, Farfetch'd, Fearow, Honchkrow, Noctowl, Pelipper, Pidgeot, Skarmory, Staraptor, Swellow, Togekiss, Xatu</dd>
+<dt>The Bug Group:</dt>
+<dd>Ariados, Beautifly, Beedrill, Butterfree, Drapion, Dustox, Flygon, Forretress, Gliscor, Heracross, Illumise, Kricketune, Ledian, Masquerain, Mothim, Ninjask, Parasect, Pinsir, Scizor, Scyther, Shuckle, Venomoth, Vespiquen, Volbeat, Wormadam, Yanmega</dd>
+<dt>The Plant Group:</dt>
+<dd>Abomasnow, Bellossom, Breloom, Cacturne, Carnivine, Cherrim, Exeggutor, Jumpluff, Ludicolo, Meganium, Parasect, Roserade, Shiftry, Sunflora, Tangrowth, Torterra, Tropius, Venusaur, Victreebel, Vileplume</dd>
+<dt>The Fairy Group:</dt>
+<dd>Azumarill, Blissey, Breloom, Castform, Cherrim, Clefable, Delcatty, Froslass, Glalie, Granbull, Jumpluff, Mawile, Minun, Pachirisu, Plusle, Raichu, Roserade, Togekiss, Wigglytuff</dd>
+<dt>The Humanshape Group:</dt>
+<dd>Alakazam, Cacturne, Electivire, Hariyama, Hitmonchan, Hitmonlee, Hitmontop, Hypno, Illumise, Infernape, Jynx, Lopunny, Lucario, Machamp, Magmortar, Medicham, Mr. Mime, Sableye, Spinda, Toxicroak, Volbeat</dd>
+<dt>The Indeterminate Group:</dt>
+<dd>Banette, Castform, Chimecho, Drifblim, Dusknoir, Gallade, Gardevoir, Gastrodon, Gengar, Magcargo, Mismagius, Muk, Spiritomb, Swalot, Weezing, Wobbuffet</dd>
+<dt>The Mineral Group:</dt>
+<dd>Froslass, Glalie, Golem, Probopass, Steelix, Sudowoodo</dd>
+<dt>The Genderless Group (can only breed with Ditto):</dt>
+<dd>Bronzong, Claydol, Electrode, Lunatone, Magnezone, Manaphy, Metagross, Porygon-Z, Rotom, Shedinja, Solrock, Starmie</dd>
+</dl>
+
+<p>In addition, Ditto can breed with any Pokémon that can breed except another Ditto.</p>
+
+<p>The Day Care man can also tell you whether two Pokémon can breed together or not. After you deposit two Pokémon in the Day Care, you can speak to the Day Care man. He will tell you:</p>
+
+<p>"Ah, it's you! Your (<em>Parent A</em>) and (<em>Parent B</em>) are doing fine."</p>
+
+<p>The man then tells you one of the following four phrases:</p>
+
+<dl>
+<dt><em>"The two prefer to play with other Pokémon than each other."</em></dt>
+<dd>This means one of the following four cases:
+<ul>
+<li>One or both parents cannot breed.</li>
+<li>They are from different Egg groups.</li>
+<li>You are breeding a genderless Pokémon with a Pokémon that is not Ditto.</li>
+<li>You a breeding a male Pokémon with another male Pokémon, or a female Pokémon with another female Pokémon.</li>
+</ul>In this case, the two Pokémon will never breed.</dd>
+<dt><em>"They don't seem to like each other much."</em></dt>
+<dd>This means that the Pokémon being bred are different but have the same trainer IDs. They have a low chance of breeding, but they will eventually breed, so don't give up.</dd>
+<dt><em>"The two seem to get along."</em></dt>
+<dd>This means either that the Pokémon being bred are the same Pokémon and have the same trainer IDs, or that they are different Pokémon having different trainer IDs. They have a moderate chance of breeding.</dd>
+<dt><em>"The two seem to get along very well."</em></dt>
+<dd>This means that the Pokémon being bred are the same Pokémon having different trainer IDs. They have a high chance of breeding.</dd>
+</dl>
+
+<p>Note: By "same Pokémon" is meant two Pokémon of the same species and the same evolution form, for example Bagon + Bagon, Chimchar + Chimchar, etc. By "different Pokémon" is meant two different species of Pokémon or two Pokémon of different evolution forms, for example Kingdra + Bagon or Bagon + Salamence.</p>
+
+<h3><a name="breeding_roads">Breeding Roads</a></h3>
+
+<p>This is where you'll spend most of your time while you breed and hatch.</p>
+
+<p>In Emerald, there is a nice road 134 steps long, ranging from the Battle Tent sign in Verdanturf Town to the boulder on the shore of Route 118, where you can ride your bike on while waiting for the Egg to hatch. The distance from the Day Care man standing in front of his fence to the left hand side of the end of the route is 66 steps. The distance between him and the right end of the route is 70 steps.</p>
+
+<p>In Diamond, Pearl, and Platinum, there is a road connecting Route 210 (north of Solaceon Town) and Route 209 (south of Solaceon Town) where you can bike through it back and forth while you're breeding. This road is 123 steps long. The distance from the Day Care man standing in front of the day care to the top of Route 210 is 64 steps. The distance between him and the bottom of Route 209 is 71 steps.</p>
+
+<h3><a name="iv_chains">IV Chains</a></h3>
+
+<p>An IV chain is a chain of parents with which you get your Pokémon with the IVs you want.</p>
+
+<p>For example, an IV chain to get a Duskull with a perfect HP IV, a perfect Defense IV and a perfect Special Defense IV could be the following:</p>
+
+<ol>
+<li>First, breed a Duskull with any IVs with a Ditto with a perfect 31 IV in HP, until you get a Duskull with a 31 HP IV.</li>
+<li>Next, breed this Duskull with a Ditto with a perfect 31 Defense IV, until you get a Duskull with a 31 IV in HP and in Defense.</li>
+<li>Finally, breed this Duskull with a Ditto with a perfect 31 Special Defense IV, until you get a Duskull with a 31 IV in HP, Defense and Special Defense.</li>
+</ol>
+
+<p>This can be represented as follows:</p>
+
+<pre>
+Duskull x/x/x/x/x/x + Ditto 31/x/x/x/x/x = Duskull 31/x/x/x/x/x
+Duskull 31/x/x/x/x/x + Ditto x/x/31/x/x/x = Duskull 31/x/31/x/x/x
+Duskull 31/x/31/x/x/x + Ditto x/x/x/x/31/x = Duskull 31/x/31/x/31/x</pre>
+
+<p>Some IV chains provide a bigger probability of getting the IVs you want than others, which means that you get the Pokémon you want quicker if you use them. If you want to breed for your perfect IV Pokémon, then, you'll need a chart to see all the probabilities at a glance. This is what Part III of this guide provides. You might also want to use an IV chain in order to breed for your perfect Hidden Power type and Base Power, in which case, Part IV of this guide provides the details to do just that.</p>
+
+<p>Let's give an example of a small IV chain here. Suppose you want to breed for a Jolly Garchomp, having a perfect IV in Attack and Speed. You first breed a Gible with a 31 Attack IV Ditto, until you get a Gible with 31 Attack IV. (According to the applet and/or Part III of the guide, this should happen among the first 4 Eggs.) Then you breed this Gible with a 31 Speed IV Jolly Ditto holding Everstone, until you get a Gible with 31 IV in both Speed and Attack. (This happens in one in 17 eggs according to the applet and Part III. So, to get a Jolly Gible, you'll need 17x2 = 34 Eggs on average.) So, after breeding an average of only 38 Eggs, you have the Gible you want.</p>
+
+<p>This is illustrated by the following IV chain:</p>
+
+<pre>
+Gible x/x/x/x/x/x + Ditto x/31/x/x/x/x = Gible x/31/x/x/x/x (4 eggs average)
+Gible x/31/x/x/x/x + Jolly Ditto x/x/x/x/x/31 holding Everstone = Jolly Gible x/31/x/x/x/31
+                                                                             (34 Eggs average)</pre>
+<p>Note that if you do it in reverse (first getting the 31 Speed IV and then getting the 31 Attack IV and the Jolly nature), you need to breed the same number of Eggs on average in this case.</p>
+
+<h2><a name="hatching_eggs">SECTION THREE: Hatching The Eggs</a></h2>
+
+<h3><a name="steps_required">Number of steps required to hatch an Egg</a></h3>
+
+<p>Each Pokémon requires that you walk a certain number of steps in order to be able to hatch its Egg. This number, unlike what many people think, depends on many factors, which will be explained in detail here.</p>
+
+<p>First of all, there is an internal number for every hatchable Pokémon on which the number of steps for the Egg to hatch is dependent. We will call this number the <strong>Egg counter</strong>. For now, just remember that the smaller the Egg counter is, the quicker that Pokémon will hatch. Here is a list of all hatchable Pokémon, and their corresponding Egg counter starting number:</p>
+
+<table class="sortable">
+<thead>
+
+<tr class="a">
+<th>Egg Counter Starts From</th>
+<th>Pokémon To Be Hatched</th>
+</tr>
+</thead>
+<tbody>
+
+<tr>
+<td>5</td>
+<td>Magikarp</td>
+</tr>
+
+<tr class="a">
+<td>10</td>
+<td>Azurill, Cleffa, Croagunk, Igglybuff, Manaphy, Marill, Pachirisu, Pichu, Togepi</td>
+</tr>
+
+<tr>
+<td>15</td>
+<td>Bidoof, Burmy, Caterpie, Combee, Corphish, Geodude, Hoothoot, Illumise, Kricketot, Ledyba, Lotad, Nincada, Pidgey, Poochyena, Rattata, Seedot, Sentret, Shroomish, Skitty, Slakoth, Spearow, Spinarak, Spinda, Starly, Surskit, Taillow, Volbeat, Weedle, Wurmple, Zigzagoon, Zubat</td>
+</tr>
+
+<tr class="a">
+<td>20</td>
+<td>Any hatchable Pokémon not mentioned</td>
+</tr>
+
+<tr>
+<td>25</td>
+<td>Absol, Carnivine, Castform, Chimecho, Chingling, Duskull, Elekid, Heracross, Lunatone, Magby, Mantine, Mantyke, Mime Jr., Misdreavus, Mr. Mime, Onix, Pinsir, Riolu, Sableye, Sandshrew, Scyther, Shuppet, Skarmory, Smoochum, Solrock, Tropius, Tyrogue, Venonat</td>
+</tr>
+
+<tr class="a">
+<td>30</td>
+<td>Anorith, Cranidos, Drifloon, Hippopotas, Kabuto, Lileep, Omanyte, Shieldon, Spiritomb</td>
+</tr>
+
+<tr>
+<td>35</td>
+<td>Aerodactyl, Aron, Eevee</td>
+</tr>
+
+<tr class="a">
+<td>40</td>
+<td>Bagon, Beldum, Chansey, Dratini, Gible, Happiny, Lapras, Larvitar, Munchlax, Phione, Relicanth, Snorlax, Wailmer</td>
+</tr>
+</tbody>
+</table>
+
+<p>Internally, in the game, there is also a <strong>step counter</strong>. This step counter literally counts the number of steps that you walked during the game. It starts from zero and increases by 1 for every step you take. If it exceeds 255, (i.e. becomes 256) it is reset to zero. (In DPP, it is reset to zero when it becomes 255, not 256. Why this happens is unclear.) This step counter is also reset to zero whenever the player collects an Egg from the Day Care.</p>
+
+<p>Whenever the step counter reaches 255, the game checks if you have any Eggs in your team. If you do, then it checks if its Egg counter is zero or less. If it is not zero, this Egg counter is decreased by 1, or by 2 if you have a Pokémon with Flame Body or Magma Armor in your team. This is the reason why Flame Body and Magma Armor roughly half your number of steps needed in order to hatch an Egg. If the Egg counter is zero or less, that Egg hatches.</p>
+
+<p>If you are carrying more than one Egg, and the step counter reaches 255, then all the Egg counters, starting from the topmost one, are checked to see if they hatch or not. If that Egg's Egg counter is not zero, it is decreased accordingly (by 2 if you have a Magma Armor/Flame Body Pokémon, or by 1 otherwise), and the next Egg is checked. If it is zero, then that Egg hatches, <strong>and the other Eggs' counters are not checked or decreased</strong>. This means that you cannot hatch two or more Eggs simultaneously, but you need to wait at least 256 steps (255 in DP) between a hatching Egg and another.</p>
+
+<p>Here is a step-by-step account of the above explanation.</p>
+
+<p>Whenever the player walks/rides a step, the game does the following:</p>
+<ol>
+<li>Increase the step counter by 1.</li>
+<li>(For RSFRLGE) If the step counter is 256, reset the step counter to zero.</li>
+<li>If the step counter is not 255, skip all the following steps.</li>
+<li>(For DP) Reset the step counter to zero.</li>
+<li>Make an internal list of all the Eggs that the player has in the team, starting from the topmost Egg in the team and finishing with the bottom Egg.</li>
+<li>If this list is empty, skip all the following steps.</li>
+<li>If the Egg counter for the first Egg in the list is zero or less, ha20
+CacneaPiplup
+Skorupi
+tch that Egg and skip all the following steps.</li>
+<li>If the Egg counter for the first Egg in the list is greater than zero, decrease it by 2 if the player has a Pokémon with the ability Magma Armor or Flame Body in the team, or by 1 otherwise.</li>
+<li>Remove the first Egg from the list and go to Step 6.</li>
+</ol>
+
+<p>Remember also that the step counter resets to zero whenever you take an Egg from the Day Care. Every time you do so, the number of steps you need to walk in order to hatch your Eggs will be increased by at most 254, depending on how much was the step counter before being reset.</p>
+
+<p>Assuming you do NOT reset the internal step counter by taking another Egg from the Day Care and you have only one Egg in your team, these are the amount of steps you need to walk in order for your Egg to hatch:</p>
+
+<table class="sortable">
+<caption><a name="steps_required_RSFRLGE">Number of Steps in RSFRLGE</a></caption>
+<thead>
+
+<tr class="a">
+<th class="min_width">Egg Counter Starts From</th>
+<th class="min_width">Magma Armor/Flame Body</th>
+<th class="min_width">No Magma Armor/Flame Body</th>
+</tr>
+</thead>
+<tbody>
+
+<tr>
+<td>5</td>
+<td>1023</td>
+<td>1535</td>
+</tr>
+
+<tr class="a">
+<td>10</td>
+<td>1535</td>
+<td>2815</td>
+</tr>
+
+<tr>
+<td>15</td>
+<td>2303</td>
+<td>4095</td>
+</tr>
+
+<tr class="a">
+<td>20</td>
+<td>2815</td>
+<td>5375</td>
+</tr>
+
+<tr>
+<td>25</td>
+<td>3583</td>
+<td>6655</td>
+</tr>
+
+<tr class="a">
+<td>30</td>
+<td>4095</td>
+<td>7935</td>
+</tr>
+
+<tr>
+<td>35</td>
+<td>4863</td>
+<td>9215</td>
+</tr>
+
+<tr class="a">
+<td>40</td>
+<td>5375</td>
+<td>10495</td>
+</tr>
+</tbody>
+</table>
+
+
+<table class="sortable">
+<caption><a name="steps_required_DP">Number of Steps in DP</a></caption>
+<thead>
+
+<tr class="a">
+<th class="min_width">Egg Counter Starts From</th>
+<th class="min_width">Magma Armor/Flame Body</th>
+<th class="min_width">No Magma Armor/Flame Body</th>
+</tr>
+</thead>
+<tbody>
+
+<tr>
+<td>5</td>
+<td>1020</td>
+<td>1530</td>
+</tr>
+
+<tr class="a">
+<td>10</td>
+<td>1530</td>
+<td>2805</td>
+</tr>
+
+<tr>
+<td>15</td>
+<td>2298</td>
+<td>4080</td>
+</tr>
+
+<tr class="a">
+<td>20</td>
+<td>2805</td>
+<td>5355</td>
+</tr>
+
+<tr>
+<td>25</td>
+<td>3570</td>
+<td>6630</td>
+</tr>
+
+<tr class="a">
+<td>30</td>
+<td>4080</td>
+<td>7905</td>
+</tr>
+
+<tr>
+<td>35</td>
+<td>4845</td>
+<td>9180</td>
+</tr>
+
+<tr class="a">
+<td>40</td>
+<td>5355</td>
+<td>10455</td>
+</tr>
+</tbody>
+</table>
+
+
+<p>If you have more than one Egg in your team, and/or you get another Egg from the Day Care while already having an Egg in your party, the number of steps you need to walk for the Eggs to hatch isn't so clear-cut. An example would explain what will happen more than just words.</p>
+
+<p>Suppose we're breeding Magikarp in Emerald with a Magcargo with Flame Body in our team. A Magikarp Egg is taken from the Day Care, and thus, the step counter resets to zero. The Egg counter for Magikarp starts from 5:</p>
+
+<pre>Step Counter: <strong>0</strong>. Egg1 Counter: <strong>5</strong>.</pre>
+
+<p>After walking 255 steps, the step counter reaches 255. The game checks if Egg1 Counter is zero or less. It isn't, so it is decreased by 2.</p>
+
+<pre>Step Counter: <strong>255</strong>. Egg1 Counter: <strong>3</strong>.</pre>
+
+<p>Suppose that now we walk 50 more steps, and another Magikarp Egg is created. We go and fetch it. The step counter is reset to 0.</p>
+
+<pre>Step Counter: <strong>0</strong>. Egg1 Counter: <strong>3</strong>. Egg2 Counter: <strong>5</strong>.</pre>
+
+<p>After walking 255 steps, the step counter reaches 255. The game checks if Egg1 Counter is zero or less. It isn't, so it is decreased by 2. Egg2 Counter is also greater than zero, so it is decreased by 2 as well.</p>
+
+<pre>Step Counter: <strong>255</strong>. Egg1 Counter: <strong>1</strong>. Egg2 Counter: <strong>3</strong>.</pre>
+
+<p>We walk <strong>256</strong> more steps (one to reset the counter to zero, and 255 more to reach 255), and the step counter reaches 255 again. The game checks if Egg1 Counter is zero or less. It isn't, so it is decreased by 2. Egg2 Counter is also greater than zero, so it is decreased by 2 as well.</p>
+
+<pre>Step Counter: <strong>255</strong>. Egg1 Counter: <strong>-1</strong>. Egg2 Counter: <strong>1</strong>.</pre>
+
+<p>We walk 256 more steps, and the step counter reaches 255 again. This time, Egg1 Counter is less than zero, so the first Egg hatches. Since an Egg hatched, <strong>the game doesn't check nor decrease Egg2 Counter at this point</strong>.</p>
+
+<pre>Step Counter: <strong>255</strong>. <strong>Egg1 Hatches</strong>. Egg2 Counter: <strong>1</strong>.</pre>
+
+<p>We walk 256 more steps, and the step counter reaches 255 again. Egg2 Counter is still greater than zero, so it is decreased by 2.</p>
+
+<pre>Step Counter: <strong>255</strong>. Egg2 Counter: <strong>-1</strong>.</pre>
+
+<p>Finally, after walking yet another 256 steps, the second Egg hatches.</p>
+
+<pre>Step Counter: <strong>255</strong>. <strong>Egg2 Hatches</strong>.</pre>
+
+<p>Let's see how many steps we had to walk for the Eggs to hatch.</p>
+
+<p>For the first Egg, we walked 255 + 50 + 255 + 256 + 256 = <strong>1072 steps</strong>.</p>
+
+<p>For the second Egg, we walked 255 + 256 + 256 + 256 + 256 = <strong>1279 steps</strong>.</p>
+
+<p>The above example should have shown why calculating the number of steps required to hatch an Egg is more complicated than most people think. It showed, however, that <strong>having more than one Egg in your team increases the number of steps required in order to hatch them</strong>. In the example above, the first Egg required 49 steps more than the minimum 1023 steps in order to hatch, while the second one required a whopping 256 more steps.</p>
+
+<p>As most people know, you can also look at the Egg to check its state. The message that is displayed is directly related to its Egg counter. There are three different messages that can be displayed:</p>
+
+<dl>
+<dt><em>What will hatch from this? It will take some time.</em></dt>
+<dd>In this case, the Egg counter is 11 or more.</dd>
+<dt><em>It moves occasionally. It should hatch soon.</em></dt>
+<dd>In this case, the Egg counter is between 6 and 10.</dd>
+<dt><em>It's making sounds. It's about to hatch!</em></dt>
+<dd>In this case, the Egg counter is 5 or less.</dd>
+</dl>
+
+<h3><a name="hatching_methods">Hatching methods</a></h3>
+
+<h4><a name="soft_reset">Soft Reset Method</a></h4>
+
+<p>This method is based on the fact that in Emerald, Diamond, and Pearl, gender, nature, and ability are already set (locked) as soon as the Egg is created, before you take it. That means that if you save exactly before taking the Egg and then soft reset, the Pokémon inside the Egg will have the same gender, nature, and ability if you load again.</p>
+
+<ol>
+<li>Save in front of the Day Care man.</li>
+<li>Take the Egg.</li>
+<li>Bike on the breeding route.</li>
+<li>Ignore the next Egg proposed to you by the Day Care man.</li>
+<li>Hatch the Egg.</li>
+<li>Check the newly hatched Pokémon to see whether it does have the desired gender, nature, and ability and
+<ul>
+<li>If it doesn't have the desired gender/nature/ability, save in front of the Day Care man again (there should be another Egg waiting for you, which was produced while you hatched the first one) and repeat the process until you get a suitable baby.</li>
+<li>If it does have the desired gender/nature/ability, but it doesn't have the desired IVs, soft reset the game (START+SELECT+A+B) and take the Egg again (gender/nature/ability won't change, only the IVs), hatch and check the IVs, repeat the process until you get the IVs you want.</li>
+</ul></li>
+</ol>
+
+<dl>
+<dt>Pros:</dt>
+<dd>
+<ul>
+<li>The gender, nature, and ability you want are set in stone.</li>
+<li>This method is useful to get a female Pokémon with the right nature and a few perfect IVs.</li>
+<li>It is also useful if the parents don't like each other much.</li>
+</ul>
+</dd>
+<dt>Cons:</dt>
+<dd>
+<ul>
+<li>Not many babies are bred and checked using this method, which means that it can get hard to get the right IVs when there isn't a high probability.</li>
+<li>This method does not suit persons who care about game time more than anything else.</li>
+</ul>
+</dd>
+</dl>
+
+<p>It is recommended that this method is used in the beginning, when the probabilities to get the IVs you want are still relatively high (like when getting 1 or 2 flawless IVs). Alternatively, you can use this method when you're trying to get a female parent with the right nature. If you want to breed for 3 flawless IVs or more, where the probability of getting the desired IVs is less than 1 in 50, the running method is recommended.</p>
+
+<h4><a name="running">Running Method</a></h4>
+
+<p>Using this method, Pokémon are hatched and checked regularly while having five Eggs in your team.</p>
+
+<p>The following is the exact process for Pokémon having Egg counter 40 in Emerald:</p>
+
+<ol>
+<li>Take the first Egg.</li>
+<li>Bike:
+<ol>
+<li>66 steps to the left, to Vendanturf Town</li>
+<li>134 steps to the right, to the stone at Route 118</li>
+<li>134 steps to the left</li>
+<li>134 steps to the right</li>
+<li>134 steps to the left</li>
+<li>134 steps to the right</li>
+<li>134 steps to the left</li>
+<li>134 steps to the right</li>
+<li>134 steps to the left</li>
+<li>134 steps to the right</li>
+</ol></li>
+<li>Take another Egg.</li>
+<li>Repeat this process until you have five Eggs.</li>
+</ol>
+
+<p>As you start, some of the Eggs will hatch before you have five Eggs, but after a while, the first Egg will then always hatch after you hit (10), exactly two steps before the boy standing on route 118 (seven steps away form the right end of the Breeding route). This is exactly 1279 steps after taking the fifth Egg.</p>
+
+<p>Now, go to the Pokémon Center at Mauville City, choose the option "Deposit" in Lanette's PC and check the baby (use you level 5 max stats paper) and either release it or, if it looks promising, save in front of the PC and Rare Candy it to get a better view of the IVs.</p>
+
+<p>If the baby has better IVs than one of its parents, deposit the four Eggs, get the fifth, switch the baby with the appropriate parent, go to the PC in the Day Care, release the old parent, get the other 4 Eggs and continue.</p>
+
+<p>The following is the full process for Pokémon having Egg counter 20 in Emerald:</p>
+
+<ol>
+<li>Take the first Egg.</li>
+<li>Bike:
+<ol>
+<li>66 steps to the left, to Vendanturf Town</li>
+<li>134 steps to the right, to the stone at Route 118</li>
+<li>134 steps to the left</li>
+<li>134 steps to the right</li>
+<li>134 steps to the left</li>
+<li>134 steps to the right</li>
+</ol></li>
+<li>Take another Egg.</li>
+<li>Repeat this process until you have five Eggs.</li>
+</ol>
+
+<p>After a while, the first Egg will always hatch 31 steps away from the right end of the breeding route, which is a few steps before the Pokémon Center in Mauville City.</p>
+
+<p>This is the full process for Pokémon having Egg counter 10 in Emerald:</p>
+
+<ol>
+<li>Take the first Egg.</li>
+<li>Bike:
+<ol>
+<li>66 steps to the left, to Vendanturf Town</li>
+<li>134 steps to the right, to the stone at Route 118</li>
+<li>134 steps to the left</li>
+<li>134 steps to the right</li>
+</ol></li>
+<li>Take another Egg.</li>
+<li>Repeat this process until you have five Eggs.</li>
+</ol>
+
+<p>Take the next Egg. The first few Eggs will hatch before you have five in your team, but you have to ride those four lengths (1), (2), (3), and (4) nonetheless. After a while, the first Egg will always hatch at the same place. When you're done with the four lengths, go straight to the Pokémon Center at Mauville City. The Egg will hatch two steps away from the PC.</p>
+
+<p>Using this method, you breed:</p>
+
+<ul>
+<li>Around 25 to 26 Eggs an hour for Egg counter 40 Pokémon. One Egg takes approximately 137 to 140 seconds (2 minutes 20 seconds) to hatch.</li>
+<li>Around 34 to 35 Eggs an hour for Egg counter 20 Pokémon. One Egg takes approximately 102 to 105 seconds (1 minute 45 seconds) to hatch.</li>
+<li>Around 42 to 43 Eggs an hour for Egg counter 10 Pokémon. One Egg takes approximately 82 to 85 seconds (1 minute 25 seconds) to hatch.</li>
+</ul>
+
+<dl>
+<dt>Pros:</dt>
+<dd>
+<ul>
+<li>A large number of Eggs is bred.</li>
+<li>A newly hatched baby can be used as one of the new parents immediately.</li>
+</ul>
+</dd>
+<dt>Cons:</dt>
+<dd>
+<ul>
+<li>Sometimes, the Eggs are not created when you're ready to take another Egg. The result is that the next few Eggs will hatch earlier than you want. This means you have to oversee the number of lengths you ride, like at the beginning.</li>
+<li>There is no fix number of lengths for Egg counter 5, 15, 25 and 35 Pokémon, so you may find it a bit more difficult to breed those Pokémon using this method.</li>
+</ul>
+</dd>
+</dl>
+
+<p>Don't use this method when the parents don't like each other much, as you won't get Eggs at regular intervals. This method is best suited for the final stages of breeding, when you breed for 3 or more perfect IVs using at least parents with 2 flawless IVs (one overlaps), when you don't need to get a particular nature/ability combination. Most of the time it's worth even then, as you can get parents with awesome IVs who can then pass IVs to other Pokémon.</p>
+
+<h4><a name="mass_hatch">Mass Hatch Method</a></h4>
+
+<p>This method consists of three separate stages. First you get a large number of Eggs, then you hatch all of them and check them at the end.</p>
+
+<dl>
+<dt>Get a number of Eggs</dt>
+<dd>You take an Egg as soon as it is created. When you have five Eggs in your team and the next one is created, deposit all five in a box. Repeat this process until you have at least 25 Eggs in a box. Take the parents from the Day Care and leave the Pokémon you want to level up there instead.</dd>
+<dt>Hatch all Eggs</dt>
+<dd>Withdraw five Eggs having approximately the same number of steps walked before deposit and ride the bike unless all of them hatch. Then deposit the Pokémon, withdraw another five Eggs having around the same number of steps walked and hatch them. Repeat the process until all Eggs hatch.</dd>
+<dt>Checking all Eggs</dt>
+<dd>If you want, first save in front of the PC. This helps if you release the wrong Pokémon by mistake. In the PC, choose the "Move Pokémon" option and go through all of the babies quickly to check if there are any shinies. Get your level 5 max neutral stats paper and check the babies. If you see one that you're aiming for, mark that baby (for flawless IVs I use ring = HP, square = Attack/Defense, triangle = Special Attack/Special Defense, heart = Speed). After you're done, release all the unmarked babies. Now withdraw five of the marked babies, and save in front of the PC. Rare Candy all five to Level 10 and check their IVs. Continue to Rare Candy the ones that look promising. When you're done, soft reset, release the ones that didn't pass the check, and deposit the rest. Repeat the process until you check all of the marked babies.</dd>
+</dl>
+
+<dl>
+<dt>Pros:</dt>
+<dd>
+<ul>
+<li>A large number of Eggs (about the same amount as for the running method) are bred.</li>
+<li>Other Pokémon can level up during this process.</li>
+<li>You are able to do other things while riding your bike (like watching TV or surfing the Smogon website!)</li>
+<li>You don't lose as much time as with the running method while going to your PC and back - around 30 seconds. For 25 Eggs, this means there will be five deposits and five withdrawals. For the running method, you would make 25 deposits. On the other hand, the mass hatch method wastes time while waiting for Egg creation and because of some of the Eggs being left in the PC.</li>
+</ul>
+</dd>
+<dt>Cons:</dt>
+<dd>
+<ul>
+<li>The time it takes to complete this method relies a lot on how often an Egg is created. That's why it's only suited for when the parents get along very well, or get along. Sometimes, it takes around three minutes to get five Eggs, sometimes even more than five.</li>
+<li>Switching parents during this process is impossible. You'll have to wait until you have hatched and checked all the babies before doing so.</li>
+</ul>
+</dd>
+</dl>
+
+<p>This method is suited for the final stages of breeding, where you go for 3 or 4 flawless IV babies while you have both parents with at least 2 flawless IVs. You can also level up two other Pokémon while you ride the bike.</p>

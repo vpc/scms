@@ -1,0 +1,837 @@
+[title]
+The Process of PID and IV Creation of Non-Bred Pokemon
+[head]
+<meta name="description" content="An extensive guide detailing the mechanism by which non-bred Pokemon are generated in game." />
+[page]
+<div class="author">By <a href="/forums/member.php?u=2412">X-Act</a>.</div>
+
+<ol class="toc">
+    <li><a href="#credits">Credits</a></li>
+    <li>
+        <a href="#preliminaries">Preliminaries</a>
+        <ol>
+            <li><a href="#binary_system">The Binary System</a></li>
+            <li><a href="#hexadecimal_system">The Hexadecimal System</a></li>
+            <li><a href="#what_is_a_pid">What is a PID?</a></li>
+            <li><a href="#what_is_a_pid">The Pokemon Random Number Generator</a></li>
+        </ol>
+    </li>
+    <li>
+        <a href="#pokemon_creation">Pokemon Creation</a>
+        <ol>
+            <li><a href="#pid_creation">How the PID of a Pokemon is created</a></li>
+            <li>
+                <a href="#extracting_information_from_pid">How to extract information from its PID</a>
+                <ol>
+                    <li><a href="#finding_nature_from_pid">How to find the nature of a Pokemon from its PID</a></li>
+                    <li><a href="#finding_gender_from_pid">How to find the gender of a Pokemon from its PID</a></li>
+                    <li><a href="#finding_ability_from_pid">How to find the ability of a Pokemon from its PID</a></li>
+                </ol>
+            </li>
+            <li><a href="#iv_creation">How the IVs of a Pokemon are created</a></li>
+            <li><a href="#rng_pokemon_generation">How the RNG is called in the games to generate a Pokemon</a></li>
+        </ol>
+    </li>
+    <li><a href="#example">A Complete Example</a></li>
+    <li>
+        <a href="#pid_affected">More Things affected by the PID</a>
+        <ol>
+            <li><a href="#how_shiny">How the Game Makes a Pokemon Shiny</a></li>
+            <li><a href="#silcoon_cascoon">How to determine whether Wurmple evolves into Silcoon or into Cascoon</a></li>
+            <li><a href="#unown_shape">How to determine Unown’s shape</a></li>
+            <li><a href="#spinda_spots">How Spinda’s spots are determined</a></li>
+        </ol>
+    </li>
+    <li>
+        <a href="#pid_chained_shiny">The PID of Chained Shiny Pokemon</a>
+        <ol>
+            <li><a href="#probability_appear_shiny">The Probability of a Chained Pokemon to appear Shiny</a></li>
+            <li><a href="#silcoon_cascoon">How to determine whether Wurmple evolves into Silcoon or into Cascoon</a></li>
+            <li><a href="#pid_iv_creation_shiny">How the PID and IVs of a Chained Shiny Pokemon is created</a></li>
+            <li><a href="#example_generation_shiny">An Example of generating the PID of a Chained Shiny Pokemon</a></li>
+        </ol>
+    </li>
+</ol>
+
+<h2><a name="credits">Credits</a></h2>
+ 
+<p>Before I even start, I need to give credit to <a href="/forums/member.php?u=8067">loadingNOW</a> (a.k.a. pika) and <a href="/forums/member.php?u=6196">yamipoli</a> for providing me with invaluable information regarding this topic.</p>
+ 
+ 
+<h2><a name="preliminaries">Preliminaries</a></h2>
+ 
+<p>We start by providing preliminary information, without which the reader will have a very hard time understanding this article.</p>
+ 
+<h3><a name="binary_system">The Binary System</a></h3>
+ 
+<p>In a computer, numbers are not stored normally, but in a format called <strong>binary</strong>. The numbers we normally use are said to be in the <strong>decimal</strong> system. Every number in the decimal system is written as a series of digits, each of which can be one of the following ten: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. In the binary system, the same thing is true, but there are only two possible digits: 0 and 1. Each of these binary digits is called a <strong>bit</strong> (short for <strong>bi</strong>nary digi<strong>t</strong>). For example, the binary number 10001110 has 8 bits.</p>
+ 
+<p>The Game Boy Advance and Nintendo DS systems, on which the Pokemon games Ruby, Sapphire, Emerald, Fire Red, Leaf Green, Diamond and Pearl run, are, in effect, small computers, and thus also utilise binary numbers. The Pokemon games, however, have an extra simplification: they always use non-negative whole numbers only. This makes our discussion of binary numbers easier.</p>
+ 
+<p>How do we interpret a binary number? To do this, let’s think for a moment about how we interpret decimal numbers. What does the number 635, say, mean? It means a number that has 5 units, 3 tens (= 1 × 10) and 6 hundreds (= 10 × 10) added together. Notice that the value of a digit in the decimal system is ten times as big as that of the digit immediately to the right of it. So the number 635 really means 600 + 30 + 5.</p>
+ 
+<p>The same thing happens in binary, except that the value of a digit in the binary system is <strong>twice as big</strong> as that of the bit immediately to the right of it, not ten times as big.</p>
+ 
+<p>Let’s provide an example. Say we need to interpret the binary number 10001110 as a number in the decimal (i.e. normal) system. We have 0 units, 1 twos (= 1 × 2), 1 fours (= 2 × 2), 1 eights (= 4 × 2), 0 sixteens (= 8 × 2), 0 thirty-twos (= 16 × 2), 0 sixty-fours (= 32 × 2) and 1 one-hundred-and-twenty-eights (= 64 × 2). Thus, the binary number 10001110 is equal to 2 + 4 + 8 + 128 = <strong>142</strong>.</p>
+ 
+<p>Another example: let’s interpret the 12-bit binary number 101110010101 as a number in decimal. It is equal to 1 units, 0 twos, 1 fours, 0 eights, 1 sixteens, 0 thirty-twos, 0 sixty-fours, 1 one-hundred-and-twenty-eights, 1 two-hundred-and-fifty-sixes (= 128 × 2), 1 five-hundred-and-twelves (= 256 × 2), 0 one-thousand-and-twenty-fours (= 512 × 2) and 1 two-thousand-and-forty-eights (= 1024 × 2). Hence it is equal to 1 + 4 + 16 + 128 + 256 + 512 + 2048 = <strong>2965</strong>.</p>
+ 
+<h3><a name="hexadecimal_system">The Hexadecimal System</a></h3>
+ 
+<p>Binary numbers tend to have quite a large number of digits. A way to write binary numbers in a shorter way is the <strong>hexadecimal system</strong>.</p>
+ 
+<p>In the hexadecimal system, a binary number is first grouped into groups of four bits each. If the number of bits in the binary number is not divisible by 4, extra 0 bits are added at the start of the binary number so that the number of digits is divisible by 4. Then each group of four bits is replaced by a symbol as follows:</p>
+ 
+<ul>
+    <li><var>0000</var> is replaced by <var>0</var></li>
+    <li><var>0001</var> is replaced by <var>1</var></li>
+    <li><var>0010</var> is replaced by <var>2</var></li>
+    <li><var>0011</var> is replaced by <var>3</var></li>
+    <li><var>0100</var> is replaced by <var>4</var></li>
+    <li><var>0101</var> is replaced by <var>5</var></li>
+    <li><var>0110</var> is replaced by <var>6</var></li>
+    <li><var>0111</var> is replaced by <var>7</var></li>
+    <li><var>1000</var> is replaced by <var>8</var></li>
+    <li><var>1001</var> is replaced by <var>9</var></li>
+    <li><var>1010</var> is replaced by <var>A</var></li>
+    <li><var>1011</var> is replaced by <var>B</var></li>
+    <li><var>1100</var> is replaced by <var>C</var></li>
+    <li><var>1101</var> is replaced by <var>D</var></li>
+    <li><var>1110</var> is replaced by <var>E</var></li>
+    <li><var>1111</var> is replaced by <var>F</var></li>
+</ul>
+ 
+<p>For example, the binary number 10001110 is written in hexadecimal as <strong>8E</strong>. The first 4 bits are 1000, written as 8 in hexadecimal, while the last 4 bits are 1110, written as E. The binary number 101110010101 is written as <strong>B95</strong> in hexadecimal (1011 = B, 1001 = 9, 0101 = 5). The binary number 1110000001 has 10 bits. We first add two zeros at the beginning so that it has 12 bits: 001110000001. Then we convert it to hexadecimal as <strong>381</strong> (0011 = 3, 1000 = 8, 0001 = 1).</p>
+ 
+<p>Of course, we can also convert hexadecimal numbers to binary numbers easily by doing the reverse process. For example, the hexadecimal number 5AF7 is equal to 0101101011110111 in binary (5 = 0101, A = 1010, F = 1111, 7 = 0111).</p>
+ 
+<p>From now on, a hexadecimal number will be written surrounded by square brackets [] so as not to possibly confuse it with a decimal number. This is because the hexadecimal number [4680] is a different number from the decimal number 4680.</p>
+ 
+<h3><a name="what_is_a_pid">What is a PID?</a></h3>
+ 
+<p>Whenever a Pokemon is created in the games, the first thing that is generated is a 32-bit number called a <strong>PID</strong> (<strong>Pokemon IDentification</strong> number). This number is sometimes also called the <strong>Personality Value</strong> of a Pokemon, and is not visible anywhere in the game. It can only be found by looking into the Pokemon save file... or by an applet that can be located <a href="http://users.smogon.com/X-Act/IVtoPID.html">here</a>. A lot of information about the Pokemon can be found using just the PID alone. In particular, the nature of a Pokemon is found just from its PID. Where applicable, the gender, ability and Unown letter shape are also found just from the PID of the Pokemon in question.</p>
+ 
+<h3><a name="pokemon_random_number_generator">The Pokemon Random Number Generator</a></h3>
+ 
+<p>Whenever a random event occurs in the Pokemon games, and indeed in the majority of games, the randomness of the event is not truly random, but is governed by a mathematical formula that generates so-called <strong>pseudo-random numbers</strong>. When we say pseudo-random, we mean that the numbers generated are not truly random numbers, but are sort-of fake random numbers.</p>
+ 
+<p>There are various methods that can be used to generate pseudo-random numbers. One of the simplest types of random number generators is the class of <strong>linear congruential random number generators</strong>. Many computer applications adopt this method of random number generation, as, while it is very simple to implement, it produces good random numbers when given particular values. By "good random numbers" we mean that if the numbers were to be listed next to each other, we wouldn’t have a clue as to what the next pseudo-random number would be in the list unless we apply the formula.</p>
+ 
+<p>The random number generator (RNG) used in all the Pokemon games from Ruby and Sapphire onwards works as follows. When the game loads, the program assigns a number to a 32-bit variable which we shall call <strong>seed</strong>. The way this is done varies from game to game (you can read loadingNOW’s article for more information). Then, whenever the random number generator is invoked, the following steps are executed:</p>
+ 
+<ul>
+    <li>Make seed equal to the last 32 bits of <var>(seed × [41C64E6D] + [6073])</var></li>
+    <li>Output first 16 bits of seed as the next pseudo-random number</li>
+</ul>
+ 
+<p>Thus, as you can see, the Pokemon RNG produces pseudo-random 16-bit numbers, i.e. numbers between 0 and 65535 (or between [0000] and [FFFF]).</p>
+ 
+<p>For instance, given the seed [1A56B091], what is the random number that the above RNG outputs?</p>
+ 
+<p>First we need to multiply [1A56B091] by [41C64E6D]. Using a calculator, the answer of this multiplication is [6C469F301DB5BBD]. We now add [6073] to this, becoming [6C469F301DBBC30]. Remember that a computer adds and multiplies numbers only in binary, so multiplying and adding hexadecimal numbers is very easy for it. Windows’ own calculator application allows multiplication and addition of hexadecimal numbers to be done easily, if you want to do them yourself. We now make the new seed equal to the last 32 bits of this hexadecimal number, or [01DBBC30] (remember that a hexadecimal digit is 4 bits). The random number produced is thus the first 16 bits of this new seed, or <strong>[01DB]</strong>.</p>
+ 
+<p>Repeatedly invoking the RNG produces the following list of pseudo-random numbers:</p>
+ 
+<p>[01DB], [7B06], [5233], [E470], [5CC4], [36BB], ...</p>
+ 
+<p>It can be shown that the seed variable will become the same as it was at the start of the program only after the RNG is invoked 4,294,967,296 times. In all those RNG invocations, the variable seed would have become equal to every number between 0 and 4,294,967,295 (or between [00000000] and [FFFFFFFF]) exactly once. This essentially means that the random number sequence won’t repeat itself until after that amount of invocations.</p>
+ 
+ 
+<h2><a name="pokemon_creation">Pokemon Creation</a></h2>
+ 
+<h3><a name="pid_creation">How the PID of a Pokemon is created</a></h3>
+ 
+<p>The game creates a PID from two RNG calls. Since each RNG call results in a 16-bit number, appending these two 16-bit numbers together results in a 32-bit number, which becomes the PID of the Pokemon. The second random number becomes the first 16 bits of the PID, and the first random number becomes the second 16 bits.</p>
+ 
+<p>For example, suppose the two random numbers generated were [01DB] and [7B06] as above. Then the PID of the Pokemon would be <strong>[7B0601DB]</strong>, or 2063991259 in decimal.</p>
+ 
+<h3><a name="extracting_information_from_pid">How to extract information about the Pokemon from its PID</a></h3>
+ 
+<p>As was said before, a lot of things about a Pokemon can be known from just its PID. Here, we shall mention only three of these: nature, gender and ability.</p>
+ 
+<h4><a name="finding_nature_from_pid">How to find the nature of a Pokemon from its PID</a></h4>
+ 
+<p>First, convert the PID to decimal as described at the start of the article, and consider only this decimal number’s last two digits. If the number having these two digits is greater than 24, subtract 25 from it, and repeat this procedure until it becomes a number between 0 and 24. This number then corresponds to a particular nature according to the following table:</p>
+ 
+<table class="sortable">
+    <thead>
+        <tr>
+            <th>Number</th>
+            <th>Nature</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="a"><td>0</td><td>Hardy</td></tr>
+        <tr><td>1</td><td>Lonely</td></tr>
+        <tr class="a"><td>2</td><td>Brave</td></tr>
+        <tr><td>3</td><td>Adamant</td></tr>
+        <tr class="a"><td>4</td><td>Naughty</td></tr>
+        <tr><td>5</td><td>Bold</td></tr>
+        <tr class="a"><td>6</td><td>Docile</td></tr>
+        <tr><td>7</td><td>Relaxed</td></tr>
+        <tr class="a"><td>8</td><td>Impish</td></tr>
+        <tr><td>9</td><td>Lax</td></tr>
+        <tr class="a"><td>10</td><td>Timid</td></tr>
+        <tr><td>11</td><td>Hasty</td></tr>
+        <tr class="a"><td>12</td><td>Serious</td></tr>
+        <tr><td>13</td><td>Jolly</td></tr>
+        <tr class="a"><td>14</td><td>Naive</td></tr>
+        <tr><td>15</td><td>Modest</td></tr>
+        <tr class="a"><td>16</td><td>Mild</td></tr>
+        <tr><td>17</td><td>Quiet</td></tr>
+        <tr class="a"><td>18</td><td>Bashful</td></tr>
+        <tr><td>19</td><td>Rash</td></tr>
+        <tr class="a"><td>20</td><td>Calm</td></tr>
+        <tr><td>21</td><td>Gentle</td></tr>
+        <tr class="a"><td>22</td><td>Sassy</td></tr>
+        <tr><td>23</td><td>Careful</td></tr>
+        <tr class="a"><td>24</td><td>Quirky</td></tr>
+    </tbody>
+</table>
+ 
+<h4><a name="finding_gender_from_pid">How to find the gender of a Pokemon from its PID</a></h4>
+ 
+<p>This only applies to Pokemon that can be either male or female. If a Pokemon is always genderless (for example Staryu), always male (for example Tauros) or always female (for example Chansey), the Pokemon will, of course, always assume that gender.</p>
+ 
+<p>For the other Pokemon, first take the last two digits of the PID in hexadecimal form and convert that number to decimal. This number should be between 0 and 255.</p>
+ 
+<p>As is commonly known, some Pokemon are more probable to be of one gender than another (for example Bulbasaur). There are four gender categories in all, other than the genderless, always male and always female categories:</p>
+
+<dl>
+    <dt>Pokemon that have a 12.5% chance of being female</dt>
+    <dd>In this case, the Pokemon will be female if the number found above is between 0 and 30 inclusive, otherwise it will be male.</dd>
+    
+    <dt>Pokemon that have a 25% chance of being female</dt>
+    <dd>In this case, the Pokemon will be female if the number found above is between 0 and 63 inclusive, otherwise it will be male.</dd>
+    
+    <dt>Pokemon that have a 50% chance of being female</dt>
+    <dd>In this case, the Pokemon will be female if the number found above is between 0 and 126 inclusive, otherwise it will be male.</dd>
+    
+    <dt>Pokemon that have a 75% chance of being female</dt>
+    <dd>In this case, the Pokemon will be female if the number found above is between 0 and 190 inclusive, otherwise it will be male.</dd>
+</dl>
+
+<h4><a name="finding_ability_from_pid">How to find the ability of a Pokemon from its PID</a></h4>
+ 
+<p>This only applies to Pokemon that can have one of two possible abilities. If a Pokemon can have only one ability, then it will have that ability, of course.</p>
+ 
+<p>For the other Pokemon that can have one of two abilities, first convert the PID to binary, and look at the last bit. If it is <strong>0</strong>, the Pokemon will have its first possible ability, while if it is <strong>1</strong>, it will have the second possible ability.</p>
+ 
+<p>The following table lists all Pokemon having two possible abilities, showing which ability corresponds to 0 and which corresponds to 1 in Diamond and Pearl (thanks yamipoli for providing this chart):</p>
+ 
+<table class="sortable">
+    <thead>
+        <tr>
+            <th>Pokemon</th>
+            <th>Ability 0</th>
+            <th>Ability 1</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="a"><td>Pidgey</td><td>Keen Eye</td><td>Tangled Feet</td></tr>
+        <tr><td>Pidgeotto</td><td>Keen Eye</td><td>Tangled Feet</td></tr>
+        <tr class="a"><td>Pidgeot</td><td>Keen Eye</td><td>Tangled Feet</td></tr>
+        <tr><td>Rattata</td><td>Run Away</td><td>Guts</td></tr>
+        <tr class="a"><td>Raticate</td><td>Run Away</td><td>Guts</td></tr>
+        <tr><td>Ekans</td><td>Intimidate</td><td>Shed Skin</td></tr>
+        <tr class="a"><td>Arbok</td><td>Intimidate</td><td>Shed Skin</td></tr>
+        <tr><td>Nidoran-F</td><td>Poison Point</td><td>Rivalry</td></tr>
+        <tr class="a"><td>Nidorina</td><td>Poison Point</td><td>Rivalry</td></tr>
+        <tr><td>Nidoqueen</td><td>Poison Point</td><td>Rivalry</td></tr>
+        <tr class="a"><td>Nidoran-M</td><td>Poison Point</td><td>Rivalry</td></tr>
+        <tr><td>Nidorino</td><td>Poison Point</td><td>Rivalry</td></tr>
+        <tr class="a"><td>Nidoking</td><td>Poison Point</td><td>Rivalry</td></tr>
+        <tr><td>Cleffa</td><td>Cute Charm</td><td>Magic Guard</td></tr>
+        <tr class="a"><td>Clefairy</td><td>Cute Charm</td><td>Magic Guard</td></tr>
+        <tr><td>Clefable</td><td>Cute Charm</td><td>Magic Guard</td></tr>
+        <tr class="a"><td>Paras</td><td>Effect Spore</td><td>Dry Skin</td></tr>
+        <tr><td>Parasect</td><td>Effect Spore</td><td>Dry Skin</td></tr>
+        <tr class="a"><td>Venonat</td><td>Compoundeyes</td><td>Tinted Lens </td></tr>
+        <tr><td>Venomoth</td><td>Shield Dust</td><td>Tinted Lens </td></tr>
+        <tr class="a"><td>Diglett</td><td>Sand Veil</td><td>Arena Trap </td></tr>
+        <tr><td>Dugtrio</td><td>Sand Veil</td><td>Arena Trap </td></tr>
+        <tr class="a"><td>Meowth</td><td>Pick Up</td><td>Technician </td></tr>
+        <tr><td>Persian</td><td>Pick Up</td><td>Technician </td></tr>
+        <tr class="a"><td>Psyduck</td><td>Damp</td><td>Cloud Nine </td></tr>
+        <tr><td>Golduck</td><td>Damp</td><td>Cloud Nine </td></tr>
+        <tr class="a"><td>Mankey</td><td>Vital Spirit</td><td>Anger Point </td></tr>
+        <tr><td>Primeape</td><td>Vital Spirit</td><td>Anger Point </td></tr>
+        <tr class="a"><td>Growlithe</td><td>Intimidate</td><td>Flash Fire </td></tr>
+        <tr><td>Arcanine</td><td>Intimidate</td><td>Flash Fire </td></tr>
+        <tr class="a"><td>Poliwag</td><td>Water Absorb</td><td>Damp </td></tr>
+        <tr><td>Poliwhirl</td><td>Water Absorb</td><td>Damp </td></tr>
+        <tr class="a"><td>Poliwrath</td><td>Water Absorb</td><td>Damp </td></tr>
+        <tr><td>Politoed</td><td>Water Absorb</td><td>Damp </td></tr>
+        <tr class="a"><td>Abra</td><td>Synchronize</td><td>Inner Focus </td></tr>
+        <tr><td>Kadabra</td><td>Synchronize</td><td>Inner Focus </td></tr>
+        <tr class="a"><td>Alakazam</td><td>Synchronize</td><td>Inner Focus </td></tr>
+        <tr><td>Machop</td><td>Guts</td><td>No Guard </td></tr>
+        <tr class="a"><td>Machoke</td><td>Guts</td><td>No Guard </td></tr>
+        <tr><td>Machamp</td><td>Guts</td><td>No Guard </td></tr>
+        <tr class="a"><td>Tentacool</td><td>Clear Body</td><td>Liquid Ooze </td></tr>
+        <tr><td>Tentacruel</td><td>Clear Body</td><td>Liquid Ooze </td></tr>
+        <tr class="a"><td>Geodude</td><td>Rock Head</td><td>Sturdy </td></tr>
+        <tr><td>Graveler</td><td>Rock Head</td><td>Sturdy </td></tr>
+        <tr class="a"><td>Golem</td><td>Rock Head</td><td>Sturdy </td></tr>
+        <tr><td>Ponyta</td><td>Run Away</td><td>Flash Fire </td></tr>
+        <tr class="a"><td>Rapidash</td><td>Run Away</td><td>Flash Fire </td></tr>
+        <tr><td>Slowpoke</td><td>Oblivious</td><td>Own Tempo </td></tr>
+        <tr class="a"><td>Slowbro</td><td>Oblivious</td><td>Own Tempo </td></tr>
+        <tr><td>Slowking</td><td>Oblivious</td><td>Own Tempo </td></tr>
+        <tr class="a"><td>Magnemite</td><td>Magnet Pull</td><td>Sturdy </td></tr>
+        <tr><td>Magneton</td><td>Magnet Pull</td><td>Sturdy </td></tr>
+        <tr class="a"><td>Magnezone</td><td>Magnet Pull</td><td>Sturdy </td></tr>
+        <tr><td>Farfetch’d</td><td>Keen Eye</td><td>Inner Focus </td></tr>
+        <tr class="a"><td>Doduo</td><td>Run Away</td><td>Early Bird </td></tr>
+        <tr><td>Dodrio</td><td>Run Away</td><td>Early Bird </td></tr>
+        <tr class="a"><td>Seel</td><td>Thick Fat</td><td>Hydration </td></tr>
+        <tr><td>Dewgong</td><td>Thick Fat</td><td>Hydration </td></tr>
+        <tr class="a"><td>Grimer</td><td>Stench</td><td>Sticky Hold </td></tr>
+        <tr><td>Muk</td><td>Stench</td><td>Sticky Hold </td></tr>
+        <tr class="a"><td>Shellder</td><td>Shell Armor</td><td>Skill Link </td></tr>
+        <tr><td>Cloyster</td><td>Shell Armor</td><td>Skill Link </td></tr>
+        <tr class="a"><td>Onix</td><td>Rock Head</td><td>Sturdy </td></tr>
+        <tr><td>Steelix</td><td>Rock Head</td><td>Sturdy </td></tr>
+        <tr class="a"><td>Drowzee</td><td>Insomnia</td><td>Forewarn </td></tr>
+        <tr><td>Hypno</td><td>Insomnia</td><td>Forewarn </td></tr>
+        <tr class="a"><td>Krabby</td><td>Hyper Cutter</td><td>Shell Armor </td></tr>
+        <tr><td>Kingler</td><td>Hyper Cutter</td><td>Shell Armor </td></tr>
+        <tr class="a"><td>Voltorb</td><td>Soundproof</td><td>Static </td></tr>
+        <tr><td>Electrode</td><td>Soundproof</td><td>Static </td></tr>
+        <tr class="a"><td>Cubone</td><td>Rock Head</td><td>Lightningrod </td></tr>
+        <tr><td>Marowak</td><td>Rock Head</td><td>Lightningrod </td></tr>
+        <tr class="a"><td>Tyrogue</td><td>Guts</td><td>Steadfast </td></tr>
+        <tr><td>Hitmonlee</td><td>Limber</td><td>Reckless </td></tr>
+        <tr class="a"><td>Hitmonchan</td><td>Keen Eye</td><td>Iron Fist </td></tr>
+        <tr><td>Hitmontop</td><td>Intimidate</td><td>Technician </td></tr>
+        <tr class="a"><td>Lickitung</td><td>Own Tempo</td><td>Oblivious </td></tr>
+        <tr><td>Lickilicky</td><td>Own Tempo</td><td>Oblivious </td></tr>
+        <tr class="a"><td>Rhyhorn</td><td>Lightningrod</td><td>Rock Head </td></tr>
+        <tr><td>Rhydon</td><td>Lightningrod</td><td>Rock Head </td></tr>
+        <tr class="a"><td>Rhyperior</td><td>Lightningrod</td><td>Solid Rock </td></tr>
+        <tr><td>Happiny</td><td>Natural Cure</td><td>Serene Grace </td></tr>
+        <tr class="a"><td>Chansey</td><td>Natural Cure</td><td>Serene Grace </td></tr>
+        <tr><td>Blissey</td><td>Natural Cure</td><td>Serene Grace </td></tr>
+        <tr class="a"><td>Tangela</td><td>Chlorophyll</td><td>Leaf Guard </td></tr>
+        <tr><td>Tangrowth</td><td>Chlorophyll</td><td>Leaf Guard </td></tr>
+        <tr class="a"><td>Kangaskhan</td><td>Early Bird</td><td>Scrappy </td></tr>
+        <tr><td>Horsea</td><td>Swift Swim</td><td>Sniper </td></tr>
+        <tr class="a"><td>Seadra</td><td>Poison Point</td><td>Sniper </td></tr>
+        <tr><td>Kingdra</td><td>Swift Swim</td><td>Sniper </td></tr>
+        <tr class="a"><td>Goldeen</td><td>Swift Swim</td><td>Water Veil </td></tr>
+        <tr><td>Seaking</td><td>Swift Swim</td><td>Water Veil </td></tr>
+        <tr class="a"><td>Staryu</td><td>Illuminate</td><td>Natural Cure </td></tr>
+        <tr><td>Starmie</td><td>Illuminate</td><td>Natural Cure </td></tr>
+        <tr class="a"><td>Mime Jr.</td><td>Soundproof</td><td>Filter </td></tr>
+        <tr><td>Mr. Mime</td><td>Soundproof</td><td>Filter </td></tr>
+        <tr class="a"><td>Scyther</td><td>Swarm</td><td>Technician </td></tr>
+        <tr><td>Scizor</td><td>Swarm</td><td>Technician </td></tr>
+        <tr class="a"><td>Smoochum</td><td>Oblivious</td><td>Forewarn </td></tr>
+        <tr><td>Jynx</td><td>Oblivious</td><td>Forewarn </td></tr>
+        <tr class="a"><td>Pinsir</td><td>Hyper Cutter</td><td>Mold Breaker </td></tr>
+        <tr><td>Tauros</td><td>Intimidate</td><td>Anger Point </td></tr>
+        <tr class="a"><td>Lapras</td><td>Water Absorb</td><td>Shell Armor </td></tr>
+        <tr><td>Eevee</td><td>Run Away</td><td>Adaptability </td></tr>
+        <tr class="a"><td>Porygon</td><td>Trace</td><td>Download</td></tr>
+        <tr><td>Porygon2</td><td>Trace</td><td>Download </td></tr>
+        <tr class="a"><td>Porygon-Z</td><td>Adaptability</td><td>Download </td></tr>
+        <tr><td>Omanyte</td><td>Swift Swim</td><td>Shell Armor </td></tr>
+        <tr class="a"><td>Omastar</td><td>Swift Swim</td><td>Shell Armor </td></tr>
+        <tr><td>Kabuto</td><td>Swift Swim</td><td>Battle Armor </td></tr>
+        <tr class="a"><td>Kabutops</td><td>Swift Swim</td><td>Battle Armor </td></tr>
+        <tr><td>Aerodactyl</td><td>Rock Head</td><td>Pressure </td></tr>
+        <tr class="a"><td>Munchlax</td><td>Pick Up</td><td>Thick Fat </td></tr>
+        <tr><td>Snorlax</td><td>Immunity</td><td>Thick Fat </td></tr>
+        <tr class="a"><td>Sentret</td><td>Run Away</td><td>Keen Eye </td></tr>
+        <tr><td>Furret</td><td>Run Away</td><td>Keen Eye </td></tr>
+        <tr class="a"><td>Hoothoot</td><td>Insomnia</td><td>Keen Eye </td></tr>
+        <tr><td>Noctowl</td><td>Insomnia</td><td>Keen Eye </td></tr>
+        <tr class="a"><td>Ledyba</td><td>Swarm</td><td>Early Bird </td></tr>
+        <tr><td>Ledian</td><td>Swarm</td><td>Early Bird </td></tr>
+        <tr class="a"><td>Spinarak</td><td>Swarm</td><td>Insomnia </td></tr>
+        <tr><td>Ariados</td><td>Swarm</td><td>Insomnia </td></tr>
+        <tr class="a"><td>Chinchou</td><td>Volt Absorb</td><td>Illuminate </td></tr>
+        <tr><td>Lanturn</td><td>Volt Absorb</td><td>Illuminate </td></tr>
+        <tr class="a"><td>Togepi</td><td>Hustle</td><td>Serene Grace </td></tr>
+        <tr><td>Togetic</td><td>Hustle</td><td>Serene Grace </td></tr>
+        <tr class="a"><td>Togekiss</td><td>Hustle</td><td>Serene Grace </td></tr>
+        <tr><td>Natu</td><td>Synchronize</td><td>Early Bird </td></tr>
+        <tr class="a"><td>Xatu</td><td>Synchronize</td><td>Early Bird </td></tr>
+        <tr><td>Azurill</td><td>Thick Fat</td><td>Huge Power </td></tr>
+        <tr class="a"><td>Marill</td><td>Thick Fat</td><td>Huge Power </td></tr>
+        <tr><td>Azumarill</td><td>Thick Fat</td><td>Huge Power </td></tr>
+        <tr class="a"><td>Hoppip</td><td>Chlorophyll</td><td>Leaf Guard </td></tr>
+        <tr><td>Skiploom</td><td>Chlorophyll</td><td>Leaf Guard </td></tr>
+        <tr class="a"><td>Jumpluff</td><td>Chlorophyll</td><td>Leaf Guard </td></tr>
+        <tr><td>Bonsly</td><td>Sturdy</td><td>Rock Head </td></tr>
+        <tr class="a"><td>Sudowoodo</td><td>Sturdy</td><td>Rock Head </td></tr>
+        <tr><td>Aipom</td><td>Run Away</td><td>Pick Up </td></tr>
+        <tr class="a"><td>Ambipom</td><td>Technician</td><td>Pick Up </td></tr>
+        <tr><td>Sunkern</td><td>Chlorophyll</td><td>Solar Power </td></tr>
+        <tr class="a"><td>Sunflora</td><td>Chlorophyll</td><td>Solar Power </td></tr>
+        <tr><td>Yanma</td><td>Speed Boost</td><td>Compoundeyes </td></tr>
+        <tr class="a"><td>Yanmega</td><td>Speed Boost</td><td>Tinted Lens </td></tr>
+        <tr><td>Wooper</td><td>Damp</td><td>Water Absorb </td></tr>
+        <tr class="a"><td>Quagsire</td><td>Damp</td><td>Water Absorb </td></tr>
+        <tr><td>Murkrow</td><td>Insomnia</td><td>Super Luck </td></tr>
+        <tr class="a"><td>Honchkrow</td><td>Insomnia</td><td>Super Luck </td></tr>
+        <tr><td>Girafarig</td><td>Inner Focus</td><td>Early Bird </td></tr>
+        <tr class="a"><td>Dunsparce</td><td>Serene Grace</td><td>Run Away </td></tr>
+        <tr><td>Gligar</td><td>Hyper Cutter</td><td>Sand Veil </td></tr>
+        <tr class="a"><td>Gliscor</td><td>Hyper Cutter</td><td>Sand Veil </td></tr>
+        <tr><td>Snubbull</td><td>Intimidate</td><td>Run Away </td></tr>
+        <tr class="a"><td>Granbull</td><td>Intimidate</td><td>Quick Feet </td></tr>
+        <tr><td>Qwilfish</td><td>Poison Point</td><td>Swift Swim </td></tr>
+        <tr class="a"><td>Shuckle</td><td>Sturdy</td><td>Gluttony </td></tr>
+        <tr><td>Heracross</td><td>Swarm</td><td>Guts </td></tr>
+        <tr class="a"><td>Sneasel</td><td>Inner Focus</td><td>Keen Eye </td></tr>
+        <tr><td>Teddiursa</td><td>Pick Up</td><td>Quick Feet </td></tr>
+        <tr class="a"><td>Ursaring</td><td>Guts</td><td>Quick Feet </td></tr>
+        <tr><td>Slugma</td><td>Magma Armor</td><td>Flame Body </td></tr>
+        <tr class="a"><td>Magcargo</td><td>Magma Armor</td><td>Flame Body </td></tr>
+        <tr><td>Swinub</td><td>Oblivious</td><td>Snow Cloak </td></tr>
+        <tr class="a"><td>Piloswine</td><td>Oblivious</td><td>Snow Cloak </td></tr>
+        <tr><td>Mamoswine</td><td>Oblivious</td><td>Snow Cloak </td></tr>
+        <tr class="a"><td>Corsola</td><td>Hustle</td><td>Natural Cure </td></tr>
+        <tr><td>Remoraid</td><td>Hustle</td><td>Sniper </td></tr>
+        <tr class="a"><td>Octillery</td><td>Suction Cups</td><td>Sniper </td></tr>
+        <tr><td>Delibird</td><td>Vital Spirit</td><td>Hustle </td></tr>
+        <tr class="a"><td>Mantyke</td><td>Swift Swim</td><td>Water Absorb </td></tr>
+        <tr><td>Mantine</td><td>Swift Swim</td><td>Water Absorb </td></tr>
+        <tr class="a"><td>Skarmory</td><td>Keen Eye</td><td>Sturdy </td></tr>
+        <tr><td>Houndour</td><td>Early Bird</td><td>Flash Fire </td></tr>
+        <tr class="a"><td>Houndoom</td><td>Early Bird</td><td>Flash Fire </td></tr>
+        <tr><td>Stantler</td><td>Intimidate</td><td>Frisk </td></tr>
+        <tr class="a"><td>Smeargle</td><td>Own Tempo</td><td>Technician </td></tr>
+        <tr><td>Miltank</td><td>Thick Fat</td><td>Scrappy </td></tr>
+        <tr class="a"><td>Poochyena</td><td>Run Away</td><td>Quick Feet </td></tr>
+        <tr><td>Mightyena</td><td>Intimidate</td><td>Quick Feet </td></tr>
+        <tr class="a"><td>Zigzagoon</td><td>Pick Up</td><td>Gluttony </td></tr>
+        <tr><td>Linoone</td><td>Pick Up</td><td>Gluttony </td></tr>
+        <tr class="a"><td>Lotad</td><td>Swift Swim</td><td>Rain Dish </td></tr>
+        <tr><td>Lombre</td><td>Swift Swim</td><td>Rain Dish </td></tr>
+        <tr class="a"><td>Ludicolo</td><td>Swift Swim</td><td>Rain Dish </td></tr>
+        <tr><td>Seedot</td><td>Chlorophyll</td><td>Early Bird </td></tr>
+        <tr class="a"><td>Nuzleaf</td><td>Chlorophyll</td><td>Early Bird </td></tr>
+        <tr><td>Shiftry</td><td>Chlorophyll</td><td>Early Bird </td></tr>
+        <tr class="a"><td>Ralts</td><td>Synchronize</td><td>Trace </td></tr>
+        <tr><td>Kirlia</td><td>Synchronize</td><td>Trace </td></tr>
+        <tr class="a"><td>Gardevoir</td><td>Synchronize</td><td>Trace </td></tr>
+        <tr><td>Shroomish</td><td>Effect Spore</td><td>Poison Heal </td></tr>
+        <tr class="a"><td>Breloom</td><td>Effect Spore</td><td>Poison Heal </td></tr>
+        <tr><td>Makuhita</td><td>Thick Fat</td><td>Guts </td></tr>
+        <tr class="a"><td>Hariyama</td><td>Thick Fat</td><td>Guts </td></tr>
+        <tr><td>Nosepass</td><td>Sturdy</td><td>Magnet Pull </td></tr>
+        <tr class="a"><td>Probopass</td><td>Sturdy</td><td>Magnet Pull </td></tr>
+        <tr><td>Skitty</td><td>Cute Charm</td><td>Normalize </td></tr>
+        <tr class="a"><td>Delcatty</td><td>Cute Charm</td><tpTimidKeen Eyetdd>Normalize </td></tr>
+        <tr><td>Sableye</td><td>Keen Eye</td><td>Stall </td></tr>
+        <tr class="a"><td>Mawile</td><td>Hyper Cutter</td><td>Intimidate </td></tr>
+        <tr><td>Aron</td><td>Sturdy</td><td>Rock Head </td></tr>
+        <tr class="a"><td>Lairon</td><td>Sturdy</td><td>Rock Head </td></tr>
+        <tr><td>Aggron</td><td>Sturdy</td><td>Rock Head </td></tr>
+        <tr class="a"><td>Electrike</td><td>Static</td><td>Lightningrod </td></tr>
+        <tr><td>Manectric</td><td>Static</td><td>Lightningrod </td></tr>
+        <tr class="a"><td>Volbeat</td><td>Illuminate</td><td>Swarm </td></tr>
+        <tr><td>Illumise</td><td>Oblivious</td><td>Tinted Lens </td></tr>
+        <tr class="a"><td>Budew</td><td>Natural Cure</td><td>Poison Point </td></tr>
+        <tr><td>Roselia</td><td>Natural Cure</td><td>Poison Point </td></tr>
+        <tr class="a"><td>Roserade</td><td>Natural Cure</td><td>Poison Point </td></tr>
+        <tr><td>Gulpin</td><td>Liquid Ooze</td><td>Sticky Hold </td></tr>
+        <tr class="a"><td>Swalot</td><td>Liquid Ooze</td><td>Sticky Hold </td></tr>
+        <tr><td>Wailmer</td><td>Water Veil</td><td>Oblivious </td></tr>
+        <tr class="a"><td>Wailord</td><td>Water Veil</td><td>Oblivious </td></tr>
+        <tr><td>Numel</td><td>Oblivious</td><td>Simple </td></tr>
+        <tr class="a"><td>Camerupt</td><td>Magma Armor</td><td>Solid Rock </td></tr>
+        <tr><td>Spoink</td><td>Thick Fat</td><td>Own Tempo </td></tr>
+        <tr class="a"><td>Grumpig</td><td>Thick Fat</td><td>Own Tempo </td></tr>
+        <tr><td>Spinda</td><td>Own Tempo</td><td>Tangled Feet </td></tr>
+        <tr class="a"><td>Trapinch</td><td>Hyper Cutter</td><td>Arena Trap </td></tr>
+        <tr><td>Barboach</td><td>Oblivious</td><td>Anticipation</td></tr>
+        <tr class="a"><td>Whiscash</td><td>Oblivious</td><td>Anticipation</td></tr>
+        <tr><td>Corphish</td><td>Hyper Cutter</td><td>Shell Armor </td></tr>
+        <tr class="a"><td>Crawdaunt</td><td>Hyper Cutter</td><td>Shell Armor </td></tr>
+        <tr><td>Shuppet</td><td>Insomnia</td><td>Frisk </td></tr>
+        <tr class="a"><td>Banette</td><td>Insomnia</td><td>Frisk </td></tr>
+        <tr><td>Tropius</td><td>Chlorophyll</td><td>Solar Power </td></tr>
+        <tr class="a"><td>Absol</td><td>Pressure</td><td>Super Luck </td></tr>
+        <tr><td>Snorunt</td><td>Inner Focus</td><td>Ice Body </td></tr>
+        <tr class="a"><td>Glalie</td><td>Inner Focus</td><td>Ice Body </td></tr>
+        <tr><td>Spheal</td><td>Thick Fat</td><td>Ice Body </td></tr>
+        <tr class="a"><td>Sealeo</td><td>Thick Fat</td><td>Ice Body </td></tr>
+        <tr><td>Walrein</td><td>Thick Fat</td><td>Ice Body </td></tr>
+        <tr class="a"><td>Relicanth</td><td>Swift Swim</td><td>Rock Head </td></tr>
+        <tr><td>Bidoof</td><td>Simple</td><td>Unaware </td></tr>
+        <tr class="a"><td>Bibarel</td><td>Simple</td><td>Unaware </td></tr>
+        <tr><td>Shinx</td><td>Rivalry</td><td>Intimidate </td></tr>
+        <tr class="a"><td>Luxio</td><td>Rivalry</td><td>Intimidate </td></tr>
+        <tr><td>Luxray</td><td>Rivalry</td><td>Intimidate </td></tr>
+        <tr class="a"><td>Pachirisu</td><td>Run Away</td><td>Pick Up </td></tr>
+        <tr><td>Shellos</td><td>Sticky Hold</td><td>Storm Drain </td></tr>
+        <tr class="a"><td>Gastrodon</td><td>Sticky Hold</td><td>Storm Drain </td></tr>
+        <tr><td>Drifloon</td><td>Aftermath</td><td>Unburden </td></tr>
+        <tr class="a"><td>Drifblim</td><td>Aftermath</td><td>Unburden </td></tr>
+        <tr><td>Buneary</td><td>Run Away</td><td>Klutz </td></tr>
+        <tr class="a"><td>Lopunny</td><td>Cute Charm</td><td>Klutz </td></tr>
+        <tr><td>Glameow</td><td>Limber</td><td>Own Tempo </td></tr>
+        <tr class="a"><td>Purugly</td><td>Thick Fat</td><td>Own Tempo </td></tr>
+        <tr><td>Stunky</td><td>Stench</td><td>Aftermath </td></tr>
+        <tr class="a"><td>Skuntank</td><td>Stench</td><td>Aftermath </td></tr>
+        <tr><td>Bronzor</td><td>Levitate</td><td>Heatproof </td></tr>
+        <tr class="a"><td>Bronzong</td><td>Levitate</td><td>Heatproof </td></tr>
+        <tr><td>Chatot</td><td>Keen Eye</td><td>Tangled Feet </td></tr>
+        <tr class="a"><td>Riolu</td><td>Steadfast</td><td>Inner Focus </td></tr>
+        <tr><td>Lucario</td><td>Steadfast</td><td>Inner Focus </td></tr>
+        <tr class="a"><td>Skorupi</td><td>Battle Armor</td><td>Sniper </td></tr>
+        <tr><td>Drapion</td><td>Battle Armor</td><td>Sniper </td></tr>
+        <tr class="a"><td>Croagunk</td><td>Anticipation</td><td>Dry Skin </td></tr>
+        <tr><td>Toxicroak</td><td>Anticipation</td><td>Dry Skin </td></tr>
+        <tr class="a"><td>Finneon</td><td>Swift Swim</td><td>Storm Drain </td></tr>
+        <tr><td>Lumineon</td><td>Swift Swim</td><td>Storm Drain</td></tr>    </tbody>
+</table>
+ 
+<h3><a name="iv_creation">How the IVs of a Pokemon are created</a></h3>
+ 
+<p>The six IVs of the Pokemon are also created from just two RNG calls. Since each IV consists of 5 bits (because the binary number 11111 is equal to 31 in decimal), the first random number would contain 3 of these IVs (5 × 3 = 15), with one redundant bit, while the second random number would contain the other 3.</p>
+ 
+<p>The IVs would be extracted from the two random numbers as follows:</p>
+ 
+<pre>
+First Random Number:  x|xxxxx|xxxxx|xxxxx
+                      -|DefIV|AtkIV|HP IV
+ 
+Second Random Number: x|xxxxx|xxxxx|xxxxx
+                      -|SpDIV|SpAIV|SpeIV
+</pre>
+ 
+<p>For example, given the subsequent two random numbers [5233] and [E470] as above, we would have:</p>
+ 
+<p>First Random Number = [5233] = 0|10100|10001|10011. Hence, the Defense IV would be 10100 = <strong>20</strong>, the Attack IV would be 10001 = <strong>17</strong> and the HP IV would be 10011 = <strong>19</strong>.</p>
+ 
+<p>Second Random Number = [E470] = 1|11001|00011|10000. Hence, the Special Defense IV would be 11001 = <strong>25</strong>, the Special Attack IV would be 00011 = <strong>3</strong> and the Speed IV would be 10000 = <strong>16</strong>.</p>
+ 
+<p>Thus, our Pokemon would have the IVs 19/17/20/3/25/16, written in the usual format of HP IV/Atk IV/Def IV/SpA IV/SpD IV/Spe IV.</p>
+ 
+<h3><a name="rng_pokemon_generation">How the RNG is called in the games to generate a Pokemon</a></h3>
+ 
+<p>There are basically four different ways of how the RNG is invoked to produce a Pokemon, depending on the game and the Pokemon:</p>
+
+<dl>
+    <dt>Method 1</dt>
+    <dd>Four RNG calls are made, two to generate the PID and two to generate the IVs. It can be illustrated as [PID] [PID] [IVs] [IVs].</dd>
+
+    <dt>Method 2</dt>
+    <dd>Five RNG calls are made. The first two are used to generate the PID and the last two are used to generate the IVs. The third RNG call is not used for anything. It can be illustrated as [PID] [PID] [xxxx] [IVs] [IVs].</dd>
+
+    <dt>Method 4</dt>
+    <dd>Five RNG calls are made. The first and second are used to generate the PID and the third and fifth are used to generate the IVs. The fourth RNG call is not used for anything. It can be illustrated as [PID] [PID] [IVs] [xxxx] [IVs].</dd>
+
+</dl>
+    
+<p>Methods 2 and 4 are only used in Pokemon Ruby, Sapphire, Emerald, Fire Red and Leaf Green (RSEFRLG) to produce wild Pokemon. All the Pokemon you catch in these games that are not wild Pokemon are created using Method 1. Examples of non-wild Pokemon that you can catch or be given in the game are:</p>
+
+<ul>
+    <li>Legendary Pokemon</li>
+    <li>Starter Pokemon</li>
+    <li>Eevee in Fire Red and Leaf Green</li>
+    <li>Castform and Beldum in Ruby, Sapphire and Emerald</li>
+</ul>
+
+<p>Method 1 is also used for some RSEFRLG wild Pokemon and for all Diamond and Pearl Pokemon, whether they are wild or not.</p>
+ 
+<p>The criterion for choosing whether to use Method 1, 2, or 4 in the creation of wild Pokemon in Ruby, Sapphire, Fire Red and Leaf Green seems to be arbitrary, although it might be related to the terrain where they are situated.</p>
+ 
+<p>To summarise, here are the methods used for each game depending on the Pokemon being caught or given:</p>
+ 
+<table class="sortable">
+    <thead>
+        <tr>
+            <th>Game</th><th>Wild Pokemon Methods</th><th>Non-wild Pokemon Methods</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="a"><td>RSFRLGE</td><td>1, 2, or 4</td><td>1</td></tr>
+        <tr><td>DP</td><td>1</td><td>1</td></tr>
+    </tbody>
+</table>
+ 
+<h2><a name="example">A Complete Example</a></h2>
+ 
+<p>Suppose you meet a wild Tentacool in Emerald. Let’s assume that Method 2 is chosen for Tentacool to be generated. Also we assume that the current RNG seed is [560B9CE3].</p>
+ 
+<p>The game calls the RNG and gets the number [2751]. The game calls the RNG again and gets the number [7E48]. Thus, the PID of this Tentacool is [7E482751].</p>
+ 
+<p>This hexadecimal number is the 32-bit binary number</p>
+ 
+<pre>01111110010010000010011101010001</pre>
+ 
+<p>which is equal to 2118657873 in decimal. The last two digits of this decimal number are 73. Since this number is greater than 24, we subtract 25 from it. 73 minus 25 is equal to 48. 48 is still greater than 24, so we again subtract 25 from it, becoming 23. Hence this Tentacool would have a <strong>Careful</strong> nature, since that is the nature that the number 23 corresponds to.</p>
+ 
+<p>The last two digits of the PID in hexadecimal are 51, which is equal to 01010001 in binary, or 81 in decimal. Tentacool has a 50% chance of being female. Since the number 81 is between 0 and 126, this Tentacool would be <strong>female</strong>.</p>
+ 
+<p>The last digit of the binary representation of the PID is 1. Thus, this Tentacool would have the second possible ability, i.e. <strong>Liquid Ooze</strong>.</p>
+ 
+<p>The game now calls the RNG for a third time, getting the number [CAB4]. This number is discarded since we’re using Method 2 to generate the Pokemon. A fourth call to the RNG yields the number [629C]. This number is equal to </p>
+ 
+<pre>0|11000|10100|11100</pre>
+ 
+<p>in binary. The Defense IV would then be the binary number 11000, which is <strong>24</strong> in decimal, the Attack IV would be 10100, which is <strong>20</strong> in decimal, and the HP IV would be 11100, which is <strong>28</strong> in decimal.</p>
+ 
+<p>A final invocation to the RNG gives us the number [5EE9]. This number is equal to</p>
+ 
+<pre>0|10111|10111|01001</pre>
+ 
+<p>in binary. The Special Defense IV would thus be the binary number 10111, which is <strong>23</strong> in decimal, the Special Attack IV would be 10111, which is <strong>23</strong> in decimal and the Speed IV would be 01001, which is <strong>9</strong> in decimal.</p>
+ 
+<p>To recapitulate, you would have encountered a female Tentacool having a Careful nature, the Liquid Ooze ability and 28/20/24/23/23/9 IVs.</p>
+
+<h2><a name="pid_affected">More Things affected by the PID</a></h2>
+
+<h3><a name="how_shiny">How the Game Makes a Pokemon Shiny</a></h3>
+
+<p>Very rarely, you might encounter a Pokemon having a different coloration than usual. This is called a shiny Pokemon. The game’s criterion for making a shiny Pokemon depends in part on its PID, but also depends on two other numbers.</p>
+
+<p>One of these numbers is visible in the game. It is called the Trainer ID. This is the number you have when you look at your Trainer card, and is a number between 0 and 65535 (between [0000] and [FFFF] in hexadecimal). The other number is also a number between 0 and 65535 but is unfortunately invisible to you. It is called the Secret ID. Currently, there’s no way you can know your Secret ID without looking at your save file or without using cheat codes.</p>
+
+<p>So how does the game determine that a Pokemon is shiny? Here’s how.</p>
+
+<p>Split the PID in two 16-bit numbers. That is, if the PID was [465DB901], it would split it in two as [465D] and [B901]. We shall call the first 4 hexadecimal digits the HID (high ID) and the last 4 hexadecimal digits the LID (Low ID). Now convert the HID, LID, Trainer ID (which we shall denote by TID for short) and Secret ID (denoted by SID for short) to binary, and compare the first 13 bits of all four, like so:</p>
+
+<pre>HID: <strong><em>x</em></strong>xxxxxxxxxxxx|xxx
+LID: <strong><em>x</em></strong>xxxxxxxxxxxx|xxx
+TID: <strong><em>x</em></strong>xxxxxxxxxxxx|xxx
+SID: <strong><em>x</em></strong>xxxxxxxxxxxx|xxx</pre>
+
+<p>Here we’re counting the number of 1's in the first bit of the HID, LID, TID and SID. If there are either 1 or 3 ones among those bits, the Pokemon is automatically not shiny. If there aren’t, the game counts the second bits. Again, if there are either 1 or 3 ones among those bits, the Pokemon is automatically not shiny. The game checks the bits of the HID, LID, TID and SID up to their thirteenth one, and all of them would need to have 0, 2 or 4 ones for the Pokemon to be shiny! This is a one in 8192 (2 to the power of 13) chance of happening.</p>
+
+<p>Let’s have an example. Suppose the Trainer ID of the player is 43288, or [A918] in hexadecimal, and the Secret ID is 6075, or [17BB] in hexadecimal. Suppose also that the PID of the Pokemon is [B58F0B2A]. We split the PID in two, the HID [B58F] and the LID [0B2A], and convert the HID, LID, Trainer ID and Secret ID to binary. Thus we would have:</p>
+
+<pre>HID: 1011010110001|111
+LID: 0000101100101|010
+TID: 1010100100011|000
+SID: 0001011110111|011</pre>
+
+<p>We now count the number of bits in the first bit, second bit, third bit ... up to the thirteenth bit of each of these four 16-bit numbers.</p>
+
+<pre> HID: 1011010110001|111
+ LID: 0000101100101|010
+ TID: 1010100100011|000
+ SID: 0001011110111|011
+Ones: 2022222420224</pre>
+
+<p>Since counting the ones of each bit up to the thirteenth one in turn never yields a number that is not 1 or 3, the Pokemon will be shiny!</p>
+
+<h3><a name="silcoon_cascoon">How to determine whether Wurmple evolves into Silcoon or into Cascoon</a></h3>
+
+<p>There are many hoaxes on the internet as to how Wurmple evolves into Silcoon or into Cascoon. Some say that it is determined by gender, other say it is determined by whether or not it is night or day. The truth is that it is determined from the PID of Wurmple as follows.</p>
+
+<p>Look at the last 16 bits of the PID. We have called it the LID in the previous section. Convert the LID to decimal, and look at the last digit of this decimal number. If this digit is 0, 1, 2, 3 or 4, Wurmple would evolve into Silcoon. If the digit is 5, 6, 7, 8, or 9, Wurmple would evolve into Cascoon.</p>
+
+<p>Let’s provide an example. Say a Wurmple has a PID of [5CF4091C]. The last 16 bits of the PID are [091C], which is equal to 2332 in decimal. Since the last digit of this decimal number is 2, this Wumple would evolve into Silcoon.</p>
+
+<h3><a name="unown_shape">How to determine Unown’s shape</a></h3>
+
+<p>As claimed previously, even Unown’s shape is determined from its PID.</p>
+
+<p>First convert the PID to binary. Look at the seventh, eighth, fifteenth, sixteenth, twenty-third, twenty-fourth, thirty-first and thirty-second bits of the PID, i.e. the ones underlined below:</p>
+
+<pre>xxxxxx<strong><em>xx</em></strong>xxxxxx<strong><em>xx</em></strong>xxxxxx<strong><em>xx</em></strong>xxxxxx<strong><em>xx</em></strong></pre>
+
+<p>Combine these 8 bits together to form an 8-bit number, and convert it to decimal. If this number is 28 or more, subtract 28 from this number until it is a number between 0 and 27. This number would then correspond to the Unown symbol according to the following table:</p>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Number</th>
+<th>Unown Shape</th>
+</tr>
+</thead>
+<tbody>
+	<tr><td>0</td><td>A</td></tr>
+	<tr class="a"><td>1</td><td>B</td></tr>
+	<tr><td>2</td><td>C</td></tr>
+	<tr class="a"><td>3</td><td>D</td></tr>
+	<tr><td>4</td><td>E</td></tr>
+	<tr class="a"><td>5</td><td>F</td></tr>
+	<tr><td>6</td><td>G</td></tr>
+	<tr class="a"><td>7</td><td>H</td></tr>
+	<tr><td>8</td><td>I</td></tr>
+	<tr class="a"><td>9</td><td>J</td></tr>
+	<tr><td>10</td><td>K</td></tr>
+	<tr class="a"><td>11</td><td>L</td></tr>
+	<tr><td>12</td><td>M</td></tr>
+	<tr class="a"><td>13</td><td>N</td></tr>
+	<tr><td>14</td><td>O</td></tr>
+	<tr class="a"><td>15</td><td>P</td></tr>
+	<tr><td>16</td><td>Q</td></tr>
+	<tr class="a"><td>17</td><td>R</td></tr>
+	<tr><td>18</td><td>S</td></tr>
+	<tr class="a"><td>19</td><td>T</td></tr>
+	<tr><td>20</td><td>U</td></tr>
+	<tr class="a"><td>21</td><td>V</td></tr>
+	<tr><td>22</td><td>W</td></tr>
+	<tr class="a"><td>23</td><td>X</td></tr>
+	<tr><td>24</td><td>Y</td></tr>
+	<tr class="a"><td>25</td><td>Z</td></tr>
+	<tr><td>26</td><td>?</td></tr>
+	<tr class="a"><td>27</td><td>!</td></tr>
+</tbody>
+</table>
+
+<p>Let’s give an example. Suppose an Unown has PID [4C07DE71]. We first convert this PID to binary, getting</p>
+
+<pre>010011<strong><em>00</em></strong>000001<strong><em>11</em></strong>110111<strong><em>10</em></strong>011100<strong><em>01</em></strong></pre>
+
+<p>Combine the underlined bits together, getting 00111001, and convert it to decimal, getting 57. 57 is larger than 27, so it is subtracted by 28, becoming 29. 29 is again larger than 27, so it is subtracted by 28, getting 1. 1 corresponds to B, and hence the Unown would have the shape of a B.</p>
+
+<h3><a name="spinda_spots">How Spinda’s spots are determined</a></h3>
+
+<p>Spinda’s spots are the most useless thing ever implemented in the history of computer implementations, but, for the sake of completeness, we explain exactly how Spinda’s spots are placed on its rubbery body, because the PID, again, is the culprit.</p>
+
+<p>Look at Spinda’s PID in hexadecimal. Convert each hexadecimal digit into decimal in turn. So, for example, if Spinda’s PID is [65492BDA], we would have 6 = 6, 5 = 5, 4 = 4, 9 = 9, 2 = 2, B = 11, D = 13 and A = 10. From these numbers, the co-ordinates (5, 6), (9, 4), (11, 2) and (10, 13) are thus constructed. These correspond to the coordinates of the upper-left hand corner of Spinda’s left face spot, its right face spot, its left ear spot and its right ear spot respectively. (Spinda’s left spots appear on the right in its front sprite and vice-versa.) All Spinda have exactly 4 spots. If some Spinda appear to have less than four spots, it is either because some spots are superimposed on each other or because the coordinate for some spots does not fall completely on Spinda’s sprite.</p>
+
+<p>To put them in place, the game adds 18 to the x-coordinate and 19 to the y-coordinate of the left face spot. It also adds 6 to the x-coordinate and 18 to the y-coordinate of the right face spot. Lastly, it adds 24 to the x-coordinate and 1 to the y-coordinate of of the left ear spot. The right ear spot’s coordinates are left unchanged.</p>
+
+<pre>Thus we have:</pre>
+
+<pre> Left face spot upper-left hand coordinates: (23, 25)
+Right face spot upper-left hand coordinates: (15, 22)
+  Left ear spot upper-left hand coordinates: (35, 3)
+ Right ear spot upper-left hand coordinates: (10, 13)</pre>
+
+<h2><a name="pid_chained_shiny">The PID of Chained Shiny Pokemon</a></h2>
+
+<p>A new feature in Diamond and Pearl is the PokeRadar, which allows you to chain Pokemon. Chained Pokemon, besides having the advantage of always catching Pokemon of the same species, have a greater probability for them to appear shiny. This section explains in detail how the game determines whether or not a chained Pokemon is shiny, and how it constructs its PID so that it conforms to the criterion that appears in the previous section entitled ‘How the game makes a Pokemon shiny’.</p>
+
+<h3><a name="probability_appear_shiny">The Probability of a Chained Pokemon to appear Shiny</a></h3>
+
+<p>This depends on the chain number you’ve attained, which cannot be greater than 40. Suppose your chain number is c. The probability that a chained Pokemon is shiny is governed by the following formula:</p>
+
+<pre>Probability = floor((14747 – 40 × c) ÷ (1640 – 40 × c)) ÷ 65535</pre>
+ 
+<p>where floor(x) is x rounded down.</p>
+
+<p>Hereunder is the probability of catching a shiny Pokemon knowing your chain length:</p>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Chain Length</th>
+<th>Probability of catching a Shiny Pokemon</th>
+</tr>
+</thead>
+<tbody>
+	<tr><td>0</td><td>1 in 8192</td></tr>
+	<tr class="a"><td>1</td><td>1 in 7282</td></tr>
+	<tr><td>2</td><td>1 in 7282</td></tr>
+	<tr class="a"><td>3</td><td>1 in 7282</td></tr>
+	<tr><td>4</td><td>1 in 7282</td></tr>
+	<tr class="a"><td>5</td><td>1 in 6554</td></tr>
+	<tr><td>6</td><td>1 in 6554</td></tr>
+	<tr class="a"><td>7</td><td>1 in 6554</td></tr>
+	<tr><td>8</td><td>1 in 6554</td></tr>
+	<tr class="a"><td>9</td><td>1 in 5958</td></tr>
+	<tr><td>10</td><td>1 in 5958</td></tr>
+	<tr class="a"><td>11</td><td>1 in 5958</td></tr>
+	<tr><td>12</td><td>1 in 5462</td></tr>
+	<tr class="a"><td>13</td><td>1 in 5462</td></tr>
+	<tr><td>14</td><td>1 in 5042</td></tr>
+	<tr class="a"><td>15</td><td>1 in 5042</td></tr>
+	<tr><td>16</td><td>1 in 4682</td></tr>
+	<tr class="a"><td>17</td><td>1 in 4682</td></tr>
+	<tr><td>18</td><td>1 in 4370</td></tr>
+	<tr class="a"><td>19</td><td>1 in 4370</td></tr>
+	<tr><td>20</td><td>1 in 4096</td></tr>
+	<tr class="a"><td>21</td><td>1 in 3856</td></tr>
+	<tr><td>22</td><td>1 in 3641</td></tr>
+	<tr class="a"><td>23</td><td>1 in 3450</td></tr>
+	<tr><td>24</td><td>1 in 3277</td></tr>
+	<tr class="a"><td>25</td><td>1 in 3121</td></tr>
+	<tr><td>26</td><td>1 in 2979</td></tr>
+	<tr class="a"><td>27</td><td>1 in 2731</td></tr>
+	<tr><td>28</td><td>1 in 2521</td></tr>
+	<tr class="a"><td>29</td><td>1 in 2341</td></tr>
+	<tr><td>30</td><td>1 in 2185</td></tr>
+	<tr class="a"><td>31</td><td>1 in 1986</td></tr>
+	<tr><td>32</td><td>1 in 1772</td></tr>
+	<tr class="a"><td>33</td><td>1 in 1599</td></tr>
+	<tr><td>34</td><td>1 in 1395</td></tr>
+	<tr class="a"><td>35</td><td>1 in 1192</td></tr>
+	<tr><td>36</td><td>1 in 993</td></tr>
+	<tr class="a"><td>37</td><td>1 in 800</td></tr>
+	<tr><td>38</td><td>1 in 596</td></tr>
+	<tr class="a"><td>39</td><td>1 in 400</td></tr>
+	<tr><td>40+</td><td>1 in 200</td></tr>
+</tbody>
+</table>
+
+<p>Notice that the probabilities are not very good unless your chain’s length becomes 30 or more, so aim for as long a chain as possible.</p>
+
+<h3><a name="pid_iv_creation_shiny">How the PID and IVs of a Chained Shiny Pokemon is created</a></h3>
+
+<p>First, the game calls the RNG twice to create the PID as usual. Remember that the first number generated would be the LID (last 16 bits) of the PID, while the second one would be the HID (first 16 bits) of the PID. The game now needs to ‘fix’ the PID such that the criterion for the Pokemon to appear shiny is attained. This is done as follows.</p>
+
+<p>Convert the Trainer ID and Secret ID to binary, and look at their thirtheenth, twelfth, eleventh, etc. bits of both, until we reach their first bit. Suppose we’re looking at the i’th bit. For each of these pairs of bits, the RNG is called once and the resulting random number’s last bit is noted.</p>
+
+<p>If the pair of bits at the i’th position of TID and SID are the same (i.e. either both are 0 or both are 1), the HID and LID’s i’th bits are both set to the last bit of the random number generated. If the pair of bits at the i’th position of TID and SID are different (i.e. one is 0 and the other one is 1), the LID’s i’th bit is set to the last bit of the random number generated, and the HID’s i’th bit is set to the reverse bit (1 if it was 0, 0 if it was 1) of the last bit of the random number generated.</p>
+
+<p>Following this procedure, this would ensure that the number of 1’s in the i’th position of the TID, SID, HID and LID is either 0, 2 or 4. Since this would be true for all bits between the first and the thirteenth, the Pokemon would be ‘forced’ to appear shiny.</p>
+
+<p>After this is done, there are two subsequent calls to the RNG to create the IVs as usual. Thus, the RNG is called 17 times in all to generate a chained shiny Pokemon: twice to generate the initial PID, 13 times to ‘fix’ the PID, and twice to generate the IVs.</p>
+
+<h3><a name="example_generation_shiny">An Example of generating the PID of a Chained Shiny Pokemon</a></h3>
+
+<p>Suppose the player encounters a chained shiny Pokemon. We suppose the player has Trainer ID (TID) 38710 and Secret ID (SID) 13099. We also suppose that the current RNG seed is [69AC550F]. We call the RNG twice, getting the numbers [18E5] and [1DD6]. Hence, the LID is [18E5] and the HID is [1DD6]. The numbers in binary are:</p>
+
+<pre>TID: 1001011100110110
+SID: 0011001100101011
+HID: 0001110111010110
+LID: 0001100011100101</pre>
+
+<p>We now need to fix the HID and LID such that the Pokemon is shiny. We start looking from the thirteenth bit.</p>
+
+<p>We call the RNG, getting [A013]. When converted to binary, its last digit is 1. (To know at a glance if the last bit of a hexadecimal number is 0 or 1, look at the last hexadecimal digit. If it is 0, 2, 4, 6, 8, A, C or E, the last bit would be 0, otherwise it would be 1.)</p>
+
+<p>The TID and SID’s thirteenth bits are 0 and 1 respectively, hence they are different. Thus, we make the thirteenth bit of LID as 1 (last digit of the last random number generated) and the first bit of HID as 0. So we have:</p>
+
+<pre>TID: 1001011100110110
+SID: 0011001100101011
+HID: 000111011101<strong><em>0</em></strong>110
+LID: 000110001110<strong><em>1</em></strong>101</pre>
+
+<p>Next we go to the twelfth bit. We generate another random number, getting [A4AE], whose last bit is 0. TID’s and SID’s twelfth bits are 1 and 0 respectively. Hence the twelfth bit of the LID is made to be 0 and the HID's twelfth bit is made to be 1.</p>
+
+<pre>TID: 1001011100110110
+SID: 0011001100101011
+HID: 00011101111<strong><em>10</em></strong>110
+LID: 00011000111<strong><em>01</em></strong>101</pre>
+
+<p>Moving on to the eleventh bit, we call the RNG again, getting [77AD] whose last bit is 1. The TID and SID’s eleventh bit are both 1. Thus we make both the HID and the LID's eleventh bits to be 1.</p>
+
+<pre>TID: 1001011100110110
+SID: 0011001100101011
+HID: 0001110111<strong><em>110</em></strong>110
+LID: 0001100011<strong><em>101</em></strong>101</pre>
+
+<p>For the tenth bit, we again call the RNG, getting [B237] whose last bit is 1. The TID and SID’s tenth bits are both 0. Thus we make the fourth bit of LID and HID both 1.</p>
+
+<pre>TID: 1001011100110110
+SID: 0011001100101011
+HID: 000111011<strong><em>1010</em></strong>110
+LID: 000110001<strong><em>1101</em></strong>101</pre>
+
+<p>Continuing doing this until we reach the first bit, we get:</p>
+
+<pre> TID: 1001011100110110
+ SID: 0011001100101011
+ HID: <strong><em>1100001101110</em></strong>110
+ LID: <strong><em>0110011101101</em></strong>101
+Ones: 2222024402422</pre>
+
+<p>The last bit of each of the subsequent random numbers generated was 0, 1, 1, 1, 0, 0, 1, 1, 0 for the ninth, eighth, seventh, ... first bit respectively. As you can see, the HID and LID now satisfy the criterion for the Pokemon to appear shiny.</p>
+
+<p>Thus the PID of the chained shiny Pokemon would be</p>
+
+<pre>11000011011101100110011101101101</pre>
+
+<p>which is equivalent to [C376676D] in hexadecimal, or 3279316845 in decimal. Two subsequent RNG calls would then be made to create the Pokemon's IVs normally.</p>

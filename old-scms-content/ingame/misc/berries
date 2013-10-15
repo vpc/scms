@@ -1,0 +1,926 @@
+[title]
+The Hitchhiker's Guide to Berries
+[head]
+<meta name="description" content="In-depth information on D/P Berries, thanks to Blue Kirby." />
+[page] 		
+<div class="author">by <a href="/forums/member.php?u=15147">Blue Kirby</a>. Art by <a href="http://www.smogon.com/forums/member.php?u=53338">Danmire</a>.</div>
+<div style="float: right; margin: 0 10px 10px 10px"><img src="http://www.smogon.com/media/upload/ingame/guides/chatotberry.png" title="sand" alt="" width="400" /></div>
+<ol class="toc">
+<li><a href="#becoming">Becoming Familiar with Berries</a></li>
+<li><a href="#obtaining">Obtaining Berries</a></li>
+<li><a href="#moves">Moves Based on Berries</a></li>
+<li><a href="#growing">Growing Your Own Berries</a></li>
+</ol>
+<h2><a name="familiar">Becoming Familiar with Berries</a></h2>
+<p>The concept of Pokemon trainers collecting Berries to aid their teams is by no means new to Diamond and Pearl. However, with each passing generation, the significance behind Berry collection and utilization has become increasingly notable. The proper utilization of Berries can help you to gain an edge in battle.</p>
+<p>Berries are unique in that they can be used by Pokemon automatically during battle when a specific condition is met. An example of such a condition is a Pokemon's HP falling below 50%. Keep in mind that each attached Berry may only be used once unless a Pokemon that has already consumed a Berry uses the move Recycle.</p>
+<table class="sortable">
+<thead>
+<tr>
+<th>Berry Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cheri</td>
+<td>Cures paralysis. Activates when the Pokemon is paralyzed.</td>
+</tr>
+<tr class="a">
+<td>Chesto</td>
+<td>Cures sleep. Activates when the Pokemon is put to sleep.</td>
+</tr>
+<tr>
+<td>Pecha</td>
+<td>Cures poison. Activates when the Pokemon is poisoned.</td>
+</tr>
+<tr class="a">
+<td>Rawst</td>
+<td>Cures burn. Activates when the Pokemon is burned.</td>
+</tr>
+<tr>
+<td>Aspear</td>
+<td>Cures freeze. Activates when the Pokemon is frozen.</td>
+</tr>
+<tr class="a">
+<td>Leppa</td>
+<td>Restores 10 PP to a move that has run out of PP.</td>
+</tr>
+<tr>
+<td>Oran</td>
+<td>Restores 10 HP when the holder of this item is at 50% HP or less.</td>
+</tr>
+<tr class="a">
+<td>Persim</td>
+<td>Cures confusion. Activates when the Pokemon is confused.</td>
+</tr>
+<tr>
+<td>Lum</td>
+<td>Cures freeze, sleep, poison, paralysis, burn, or confusion. Activates when the Pokemon is afflicted with a status condition.</td>
+</tr>
+<tr class="a">
+<td>Sitrus</td>
+<td>Restores 25% HP when the holder of this item is at 50% HP or less.</td>
+</tr>
+<tr>
+<td>Figy</td>
+<td>Restores 12.5% HP. If held, it is used when the user's HP drops below 50%. If held by a Pokemon with a nature of Bold, Calm, Modest, or Timid, the user becomes confused.</td>
+</tr>
+<tr class="a">
+<td>Wiki</td>
+<td>Restores 12.5% HP. If held, it is used when the user's HP drops below 50%. If held by a Pokemon with a nature of Adamant, Careful, Impish, or Jolly, the user becomes confused.</td>
+</tr>
+<tr>
+<td>Mago</td>
+<td>Restores 12.5% HP. If held, it is used when the user's HP drops below 50%. If held by a Pokemon with a nature of Brave, Quiet, Relaxed, or Sassy, the user becomes confused.</td>
+</tr>
+<tr class="a">
+<td>Aguav</td>
+<td>Restores 12.5% HP. If held, it is used when the user's HP drops below 50%. If held by a Pokemon with a nature of Lax, Naive, Naughty, or Rash, the user becomes confused.</td>
+</tr>
+<tr>
+<td>Iapapa</td>
+<td>Restores 12.5% HP. If held, it is used when the user's HP drops below 50%. If held by a Pokemon with a nature of Gentle, Hasty, Lonely, or Mild, the user becomes confused.</td>
+</tr>
+<tr class="a">
+<td>Occa</td>
+<td>Reduces damage from a super effective Fire attack by 50%.</td>
+</tr>
+<tr>
+<td>Passho</td>
+<td>Reduces damage from a super effective Water attack by 50%.</td>
+</tr>
+<tr class="a">
+<td>Wacan</td>
+<td>Reduces damage from a super effective Electric attack by 50%.</td>
+</tr>
+<tr>
+<td>Rindo</td>
+<td>Reduces damage from a super effective Grass attack by 50%.</td>
+</tr>
+<tr class="a">
+<td>Yache</td>
+<td>Reduces damage from a super effective Ice attack by 50%.</td>
+</tr>
+<tr>
+<td>Chople</td>
+<td>Reduces damage from a super effective Fighting attack by 50%.</td>
+</tr>
+<tr class="a">
+<td>Kebia</td>
+<td>Reduces damage from a super effective Poison attack by 50%.</td>
+</tr>
+<tr>
+<td>Shuca</td>
+<td>Reduces damage from a super effective Ground attack by 50%.</td>
+</tr>
+<tr class="a">
+<td>Coba</td>
+<td>Reduces damage from a super effective Flying attack by 50%.</td>
+</tr>
+<tr>
+<td>Payapa</td>
+<td>Reduces damage from a super effective Psychic attack by 50%.</td>
+</tr>
+<tr class="a">
+<td>Tanga</td>
+<td>Reduces damage from a super effective Bug attack by 50%.</td>
+</tr>
+<tr>
+<td>Charti</td>
+<td>Reduces damage from a super effective Rock attack by 50%.</td>
+</tr>
+<tr class="a">
+<td>Kasib</td>
+<td>Reduces damage from a super effective Ghost attack by 50%.</td>
+</tr>
+<tr>
+<td>Haban</td>
+<td>Reduces damage from a super effective Dragon attack by 50%.</td>
+</tr>
+<tr class="a">
+<td>Colbur</td>
+<td>Reduces damage from a super effective Dark attack by 50%.</td>
+</tr>
+<tr>
+<td>Babiri</td>
+<td>Reduces damage from a super effective Steel attack by 50%.</td>
+</tr>
+<tr class="a">
+<td>Chilan</td>
+<td>Reduces damage from any one Normal attack by 50%.</td>
+</tr>
+<tr>
+<td>Liechi</td>
+<td>If the holder's HP reaches 25% or below, its Attack is raised by one stage.</td>
+</tr>
+<tr class="a">
+<td>Ganlon</td>
+<td>If the holder's HP reaches 25% or below, its Defense is raised by one stage.</td>
+</tr>
+<tr>
+<td>Salac</td>
+<td>If the holder's HP reaches 25% or below, its Speed is raised by one stage.</td>
+</tr>
+<tr class="a">
+<td>Petaya</td>
+<td>If the holder's HP reaches 25% or below, its Special Attack is raised by one stage.</td>
+</tr>
+<tr>
+<td>Apicot</td>
+<td>If the holder's HP reaches 25% or below, its Special Defense is raised by one stage.</td>
+</tr>
+<tr class="a">
+<td>Lansat</td>
+<td>If the holder's HP reaches 25% or below, its critical hit ratio is raised.</td>
+</tr>
+<tr>
+<td>Starf</td>
+<td>If the holder's HP reaches 25% or below, a random stat is raised by two stages.</td>
+</tr>
+<tr class="a">
+<td>Enigma</td>
+<td>When the holder is hit with a super effective attack, it recovers 25% of its maximum HP.</td>
+</tr>
+<tr>
+<td>Micle</td>
+<td>Activates when the holder's HP reaches 25% or below. The turn immediately following activation, the accuracy of the move used by the holder is increased.</td>
+</tr>
+<tr class="a">
+<td>Custap</td>
+<td>Activates when the holder's HP reaches 25% or below. The turn immediately following activation, the holder will go first if it is using a move of at least the same priority as the foe. If the foe's priority is higher, the effect of Custap is ignored.</td>
+</tr>
+<tr>
+<td>Jaboca</td>
+<td>If the holder is hit by a physical attack, the attacker takes 12.5% of its max HP as damage. The holder must survive the hit for this to activate. This damage is not blocked by Rock Head.</td>
+</tr>
+<tr class="a">
+<td>Rowap</td>
+<td>If the holder is hit by a special attack, the attacker takes 12.5% of its max HP as damage. The holder must survive the hit for this to activate. This damage is not blocked by Rock Head.</td>
+</tr>
+</tbody>
+</table>
+<h2><a name="obtaining">Obtaining Berries</a></h2>
+<p>When battling on an online Pokemon battle simulator, each Berry is unlimited in quantity. However, when preparing an ingame team for use in wireless battles, it becomes important to know how each Berry is obtained.</p>
+<table class="sortable">
+<thead>
+<tr>
+<th>Berry Name</th>
+<th>Method(s) of Obtaining Berry</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cheri</td>
+<td>Scattered randomly throughout the game. Also received from the Berry Master and the Floaroma Berry lady. Sometimes held by wild Glameow and Purugly.</td>
+</tr>
+<tr class="a">
+<td>Chesto</td>
+<td>Scattered randomly throughout the game. Also received from the Berry Master and the Floaroma Berry lady. Sometimes held by wild Spinda, Whismur, Loudred, and Exploud.</td>
+</tr>
+<tr>
+<td>Pecha</td>
+<td>Scattered randomly throughout the game. Also received from the Berry Master and the Floaroma Berry lady. Sometimes held by wild Poochyena, Mightyena, Stunky, and Skuntank.</td>
+</tr>
+<tr class="a">
+<td>Rawst</td>
+<td>Scattered randomly throughout the game. Also received from the Berry Master and the Floaroma Berry lady. Sometimes held by wild Vulpix, Ninetales, Growlithe, Arcanine, Numel, and Camerupt.</td>
+</tr>
+<tr>
+<td>Aspear</td>
+<td>Scattered randomly throughout the game. Also received from the Berry Master and the Floaroma Berry lady.</td>
+</tr>
+<tr class="a">
+<td>Leppa</td>
+<td>Scattered randomly throughout the game. Also received from the Berry Master and the Floaroma Berry lady. Sometimes held by wild Clefairy, Clefable, Mime Jr., Mr. Mime, Smoochum, Jynx, Skitty, and Delcatty.</td>
+</tr>
+<tr>
+<td>Oran</td>
+<td>Scattered randomly throughout the game. Also received from the Berry Master and the Floaroma Berry lady. Sometimes held by wild Pichu, Pikachu, Raichu, Shuckle, Sentret, Furret, Zigzagoon, Linoone, and Bibarel.</td>
+</tr>
+<tr class="a">
+<td>Persim</td>
+<td>Scattered randomly throughout the game. Also received from the Berry Master and the Floaroma Berry lady. Sometimes held by wild Girafarig and Kecleon.</td>
+</tr>
+<tr>
+<td>Lum</td>
+<td>Received from the Berry Master and the Floaroma Berry lady. Held by wild Mew, Celebi, and Shaymin.</td>
+</tr>
+<tr class="a">
+<td>Sitrus</td>
+<td>Scattered randomly throughout the game. Also received from the Berry Master. Sometimes held by wild Bibarel, Furret, and Linoone.</td>
+</tr>
+<tr>
+<td>Figy</td>
+<td>Scattered randomly throughout the game. Also received from the Berry Master.</td>
+</tr>
+<tr class="a">
+<td>Wiki</td>
+<td>Scattered randomly throughout the game. Also received from the Berry Master.</td>
+</tr>
+<tr>
+<td>Mago</td>
+<td>Scattered randomly throughout the game. Also received from the Berry Master.</td>
+</tr>
+<tr class="a">
+<td>Aguav</td>
+<td>Scattered randomly throughout the game. Also received from the Berry Master.</td>
+</tr>
+<tr>
+<td>Iapapa</td>
+<td>Scattered randomly throughout the game. Also received from the Berry Master.</td>
+</tr>
+<tr class="a">
+<td>Occa</td>
+<td>Received from the Pastoria Berry lady. Sometimes held by wild Mawile.</td>
+</tr>
+<tr>
+<td>Passho</td>
+<td>Received from the Pastoria Berry lady. Sometimes held by wild Phanpy and Donphan.</td>
+</tr>
+<tr class="a">
+<td>Wacan</td>
+<td>Received from the Pastoria Berry lady. Sometimes held by wild Buizel and Floatzel.</td>
+</tr>
+<tr>
+<td>Rindo</td>
+<td>Received from the Pastoria Berry lady. Sometimes held by wild Finneon and Lumineon.</td>
+</tr>
+<tr class="a">
+<td>Yache</td>
+<td>Received from the Pastoria Berry lady. Sometimes held by wild Starly and Staravia.</td>
+</tr>
+<tr>
+<td>Chople</td>
+<td>Received from the Pastoria Berry lady. Sometimes held by wild Buneary.</td>
+</tr>
+<tr class="a">
+<td>Kebia</td>
+<td>Received from the Pastoria Berry lady. Sometimes held by wild Shroomish.</td>
+</tr>
+<tr>
+<td>Shuca</td>
+<td>Received from the Pastoria Berry lady. Sometimes held by wild Ponyta and Rapidash.</td>
+</tr>
+<tr class="a">
+<td>Coba</td>
+<td>Received from the Pastoria Berry lady. Sometimes held by wild Sunkern.</td>
+</tr>
+<tr>
+<td>Payapa</td>
+<td>Received from the Pastoria Berry lady. Sometimes held by wild Mankey and Primeape.</td>
+</tr>
+<tr class="a">
+<td>Tanga</td>
+<td>Received from the Pastoria Berry lady. Sometimes held by wild Spoink and Grumpig.</td>
+</tr>
+<tr>
+<td>Charti</td>
+<td>Received from the Pastoria Berry lady. Sometimes held by wild Taillow and Swellow.</td>
+</tr>
+<tr class="a">
+<td>Kasib</td>
+<td>Received from the Pastoria Berry lady. Sometimes held by wild Duskull and Dusclops.</td>
+</tr>
+<tr>
+<td>Haban</td>
+<td>Received from the Pastoria Berry lady. Sometimes held by wild Gible.</td>
+</tr>
+<tr class="a">
+<td>Colbur</td>
+<td>Received from the Pastoria Berry lady. Sometimes held by wild Chingling and Chimecho.</td>
+</tr>
+<tr>
+<td>Babiri</td>
+<td>Received from the Pastoria Berry lady. Sometimes held by wild Snorunt.</td>
+</tr>
+<tr class="a">
+<td>Chilan</td>
+<td>Received from the Pastoria Berry lady. Sometimes held by wild Rattata and Raticate.</td>
+</tr>
+<tr>
+<td>Liechi</td>
+<td>Obtained in Ruby or Sapphire on Mirage Island, from which it can be transferred via Pal Park.</td>
+</tr>
+<tr class="a">
+<td>Ganlon</td>
+<td>Must be purchased in either Pokemon XD, Pokemon Colosseum or Pokemon Battle Revolution. Alternatively, can be held by a Jirachi downloaded from a Pokemon Colosseum bonus disc.</td>
+</tr>
+<tr>
+<td>Salac</td>
+<td>Must be purchased in either Pokemon XD, Pokemon Colosseum or Pokemon Battle Revolution. Alternatively, can be held by a Jirachi downloaded from a Pokemon Colosseum bonus disc.</td>
+</tr>
+<tr class="a">
+<td>Petaya</td>
+<td>Must be purchased in either Pokemon XD, Pokemon Colosseum or Pokemon Battle Revolution.</td>
+</tr>
+<tr>
+<td>Apicot</td>
+<td>Must be purchased in either Pokemon XD, Pokemon Colosseum or Pokemon Battle Revolution.</td>
+</tr>
+<tr class="a">
+<td>Lansat</td>
+<td>Must be obtained in Emerald after getting all Battle Frontier Silver Symbols, at which point it can be transferred via Pal Park. Can also be purchased in Pokemon Battle Revolution.</td>
+</tr>
+<tr>
+<td>Starf</td>
+<td>Must be obtained in Emerald after getting all Battle Frontier Gold Symbols, at which point it can be transferred via Pal Park. Can also be purchased in Pokemon Battle Revolution.</td>
+</tr>
+<tr class="a">
+<td>Enigma</td>
+<td>Must be obtained in Ruby or Sapphire using an E-Reader device, and then transferred via Pal Park. Can also be obtained from Movie Event Darkrai. Can also be purchased in Pokemon Battle Revolution.</td>
+</tr>
+<tr>
+<td>Micle</td>
+<td>Only obtainable via a Nintendo event, such as the Movie Shaymin.</td>
+</tr>
+<tr class="a">
+<td>Custap</td>
+<td>Only obtainable via a Nintendo event, such as the Movie Regigigas.</td>
+</tr>
+<tr>
+<td>Jaboca</td>
+<td>Only obtainable via a Nintendo event, such as the Tanabata Jirachi.</td>
+</tr>
+<tr class="a">
+<td>Rowap</td>
+<td>Only obtainable via a Nintendo event, such as the Movie Arceus.</td>
+</tr>
+</tbody>
+</table>
+<h2><a name="moves">Moves Based on Berries</a></h2>
+<p>The move Natural Gift provides an alternative use for Berries - when used, its power and type change based on the Berry attached. This also "uses up" the Berry, meaning the Pokemon cannot utilize the effects of the Berry or use Natural Gift again without using the move Recycle. Note that even Berries which have no effects when held by Pokemon in battle cause Natural Gift to change. Also, when combined with Technician, if Natural Gift is given a 60 base power attack, the 1.5x boost will be applied.</p>
+<table class="sortable">
+<thead>
+<tr>
+<th>Berry Name</th>
+<th>Attack Type</th>
+<th>Power</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cheri</td>
+<td>Fire</td>
+<td>60</td>
+</tr>
+<tr class="a">
+<td>Chesto</td>
+<td>Water</td>
+<td>60</td>
+</tr>
+<tr>
+<td>Pecha</td>
+<td>Electric</td>
+<td>60</td>
+</tr>
+<tr class="a">
+<td>Rawst</td>
+<td>Grass</td>
+<td>60</td>
+</tr>
+<tr>
+<td>Aspear</td>
+<td>Ice</td>
+<td>60</td>
+</tr>
+<tr class="a">
+<td>Leppa</td>
+<td>Fighting</td>
+<td>60</td>
+</tr>
+<tr>
+<td>Oran</td>
+<td>Poison</td>
+<td>60</td>
+</tr>
+<tr class="a">
+<td>Persim</td>
+<td>Ground</td>
+<td>60</td>
+</tr>
+<tr>
+<td>Lum</td>
+<td>Flying</td>
+<td>60</td>
+</tr>
+<tr class="a">
+<td>Sitrus</td>
+<td>Psychic</td>
+<td>60</td>
+</tr>
+<tr>
+<td>Figy</td>
+<td>Bug</td>
+<td>60</td>
+</tr>
+<tr class="a">
+<td>Wiki</td>
+<td>Rock</td>
+<td>60</td>
+</tr>
+<tr>
+<td>Mago</td>
+<td>Ghost</td>
+<td>60</td>
+</tr>
+<tr class="a">
+<td>Aguav</td>
+<td>Dragon</td>
+<td>60</td>
+</tr>
+<tr>
+<td>Iapapa</td>
+<td>Dark</td>
+<td>60</td>
+</tr>
+<tr class="a">
+<td>Razz</td>
+<td>Steel</td>
+<td>60</td>
+</tr>
+<tr>
+<td>Occa</td>
+<td>Fire</td>
+<td>60</td>
+</tr>
+<tr class="a">
+<td>Passho</td>
+<td>Water</td>
+<td>60</td>
+</tr>
+<tr>
+<td>Wacan</td>
+<td>Electric</td>
+<td>60</td>
+</tr>
+<tr class="a">
+<td>Rindo</td>
+<td>Grass</td>
+<td>60</td>
+</tr>
+<tr>
+<td>Yache</td>
+<td>Ice</td>
+<td>60</td>
+</tr>
+<tr class="a">
+<td>Chople</td>
+<td>Fighting</td>
+<td>60</td>
+</tr>
+<tr>
+<td>Kebia</td>
+<td>Poison</td>
+<td>60</td>
+</tr>
+<tr class="a">
+<td>Shuca</td>
+<td>Ground</td>
+<td>60</td>
+</tr>
+<tr>
+<td>Coba</td>
+<td>Flying</td>
+<td>60</td>
+</tr>
+<tr class="a">
+<td>Payapa</td>
+<td>Psychic</td>
+<td>60</td>
+</tr>
+<tr>
+<td>Tanga</td>
+<td>Bug</td>
+<td>60</td>
+</tr>
+<tr class="a">
+<td>Charti</td>
+<td>Rock</td>
+<td>60</td>
+</tr>
+<tr>
+<td>Kasib</td>
+<td>Ghost</td>
+<td>60</td>
+</tr>
+<tr class="a">
+<td>Haban</td>
+<td>Dragon</td>
+<td>60</td>
+</tr>
+<tr>
+<td>Colbur</td>
+<td>Dark</td>
+<td>60</td>
+</tr>
+<tr class="a">
+<td>Babiri</td>
+<td>Steel</td>
+<td>60</td>
+</tr>
+<tr>
+<td>Chilan</td>
+<td>Normal</td>
+<td>60</td>
+</tr>
+<tr class="a">
+<td>Bluk</td>
+<td>Fire</td>
+<td>70</td>
+</tr>
+<tr>
+<td>Nanab</td>
+<td>Water</td>
+<td>70</td>
+</tr>
+<tr class="a">
+<td>Wepear</td>
+<td>Electric</td>
+<td>70</td>
+</tr>
+<tr>
+<td>Pinap</td>
+<td>Grass</td>
+<td>70</td>
+</tr>
+<tr class="a">
+<td>Pomeg</td>
+<td>Ice</td>
+<td>70</td>
+</tr>
+<tr>
+<td>Kelpsy</td>
+<td>Fighting</td>
+<td>70</td>
+</tr>
+<tr class="a">
+<td>Qualot</td>
+<td>Poison</td>
+<td>70</td>
+</tr>
+<tr>
+<td>Hondew</td>
+<td>Ground</td>
+<td>70</td>
+</tr>
+<tr class="a">
+<td>Grepa</td>
+<td>Flying</td>
+<td>70</td>
+</tr>
+<tr>
+<td>Tamato</td>
+<td>Psychic</td>
+<td>70</td>
+</tr>
+<tr class="a">
+<td>Cornn</td>
+<td>Bug</td>
+<td>70</td>
+</tr>
+<tr>
+<td>Magost</td>
+<td>Rock</td>
+<td>70</td>
+</tr>
+<tr class="a">
+<td>Rabuta</td>
+<td>Ghost</td>
+<td>70</td>
+</tr>
+<tr>
+<td>Nomel</td>
+<td>Dragon</td>
+<td>70</td>
+</tr>
+<tr class="a">
+<td>Spelon</td>
+<td>Dark</td>
+<td>70</td>
+</tr>
+<tr>
+<td>Pamtre</td>
+<td>Steel</td>
+<td>70</td>
+</tr>
+<tr class="a">
+<td>Watmel</td>
+<td>Fire</td>
+<td>80</td>
+</tr>
+<tr>
+<td>Durin</td>
+<td>Water</td>
+<td>80</td>
+</tr>
+<tr class="a">
+<td>Belue</td>
+<td>Electric</td>
+<td>80</td>
+</tr>
+<tr>
+<td>Liechi</td>
+<td>Grass</td>
+<td>80</td>
+</tr>
+<tr class="a">
+<td>Ganlon</td>
+<td>Ice</td>
+<td>80</td>
+</tr>
+<tr>
+<td>Salac</td>
+<td>Fighting</td>
+<td>80</td>
+</tr>
+<tr class="a">
+<td>Petaya</td>
+<td>Poison</td>
+<td>80</td>
+</tr>
+<tr>
+<td>Apicot</td>
+<td>Ground</td>
+<td>80</td>
+</tr>
+<tr class="a">
+<td>Lansat</td>
+<td>Flying</td>
+<td>80</td>
+</tr>
+<tr>
+<td>Starf</td>
+<td>Psychic</td>
+<td>80</td>
+</tr>
+<tr class="a">
+<td>Enigma</td>
+<td>Bug</td>
+<td>80</td>
+</tr>
+<tr>
+<td>Micle</td>
+<td>Rock</td>
+<td>80</td>
+</tr>
+<tr class="a">
+<td>Custap</td>
+<td>Ghost</td>
+<td>80</td>
+</tr>
+<tr>
+<td>Jaboca</td>
+<td>Dragon</td>
+<td>80</td>
+</tr>
+<tr class="a">
+<td>Rowap</td>
+<td>Dark</td>
+<td>80</td>
+</tr>
+</tbody>
+</table>
+<p>If a Pokemon using the move Fling throws a Berry at a foe, that Berry's effect is activated immediately on the target. This is difficult to utilize effectively, though it could be used as a means of supplying an ally with much-needed support in a 2v2 scenario.</p>
+<p>If a Pokemon uses either the move Pluck or Bug Bite and the target is holding a Berry, they will consume the Berry. This means that the foe cannot consume the Berry, and the Pokemon that used Pluck is immediately affected by the Berry, regardless of whether they are holding an item at the time or not.</p>
+<h2><a name="growing">Growing Your Own Berries</a></h2>
+<p>Before you begin to plant Berries of your own, there are a few preparations that should be made to make your Berry harvesting more efficient and yield better results. You'll want to acquire a Sprayduck, which is a device that allows you to water your Berries to achieve the maximum possible harvest. This item can be obtained from Floaroma's flower shop. To ensure you don't lose track of Berries you've previously planted or visited, it's also a good idea to pick up the Berry Searcher, a Pokétch application obtainable from the Berry Master on Route 208.</p>
+<p>In order to achieve the best results from Berry trees, the soil must always be kept moist to allow as many Berries to grow as possible. Having the Sprayduck will allow you to succeed in this endeavor. The soil will change color based on how moist it is. The darker the soil is, the more moist it is - your aim is to water each patch of soil every few hours to keep them as dark as possible to yield the best results. Note that soil dries out faster during the daytime, so you can afford to water more sparingly throughout the night.</p>
+<p>New to Diamond and Pearl are the addition several forms of mulch, which can be used to aid your Berry growing ventures. It's a good idea to be familiar with each type of mulch, as each is useful under different conditions. The Berry Master's wife, present on Route 208, sells all types of mulch for 200 PokeDollars.</p>
+<dl>
+<dt>Growth Mulch</dt>
+<dd>Makes Berries mature in 75% of the time they normally would. When used, the soil requires more frequent watering.</dd>
+<dt>Damp Mulch</dt>
+<dd>Makes Berries mature in 125% of the time they normally would. When used, the soil requires less frequent watering.</dd>
+<dt>Stable Mulch</dt>
+<dd>Extends the time in which Berries must be picked before falling.</dd>
+<dt>Gooey Mulch</dt>
+<dd>Increases the number of new Berry plants that grow where previously matured plants have dropped their Berries.</dd>
+</dl>
+<p>Berry plants take different amounts of time before they mature enough for Berries to be picked. This depends largely on the rarity of the Berry planted. Furthermore, each Berry plant has its own maximum harvest. That is, the amount of Berries offered by equally well looked after plants will not always be the same. In terms of the Berries this article is concerned with, however, the yield amount is between 1 and 5 Berries per plant, depending on how well nourished the plant is throughout the time it takes to mature. Note that every plant will undergo 4 stages of maturity.</p>
+<table class="sortable">
+<thead>
+<tr>
+<th>Berry Name</th>
+<th>Maturing Time</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cheri</td>
+<td>3 hours</td>
+</tr>
+<tr class="a">
+<td>Chesto</td>
+<td>3 hours</td>
+</tr>
+<tr>
+<td>Pecha</td>
+<td>3 hours</td>
+</tr>
+<tr class="a">
+<td>Rawst</td>
+<td>3 hours</td>
+</tr>
+<tr>
+<td>Aspear</td>
+<td>3 hours</td>
+</tr>
+<tr class="a">
+<td>Leppa</td>
+<td>4 hours</td>
+</tr>
+<tr>
+<td>Oran</td>
+<td>4 hours</td>
+</tr>
+<tr class="a">
+<td>Persim</td>
+<td>4 hours</td>
+</tr>
+<tr>
+<td>Lum</td>
+<td>12 hours</td>
+</tr>
+<tr class="a">
+<td>Sitrus</td>
+<td>8 hours</td>
+</tr>
+<tr>
+<td>Figy</td>
+<td>5 hours</td>
+</tr>
+<tr class="a">
+<td>Wiki</td>
+<td>5 hours</td>
+</tr>
+<tr>
+<td>Mago</td>
+<td>5 hours</td>
+</tr>
+<tr class="a">
+<td>Aguav</td>
+<td>5 hours</td>
+</tr>
+<tr>
+<td>Iapapa</td>
+<td>5 hours</td>
+</tr>
+<tr class="a">
+<td>Occa</td>
+<td>18 hours</td>
+</tr>
+<tr>
+<td>Passho</td>
+<td>18 hours</td>
+</tr>
+<tr class="a">
+<td>Wacan</td>
+<td>18 hours</td>
+</tr>
+<tr>
+<td>Rindo</td>
+<td>18 hours</td>
+</tr>
+<tr class="a">
+<td>Yache</td>
+<td>18 hours</td>
+</tr>
+<tr>
+<td>Chople</td>
+<td>18 hours</td>
+</tr>
+<tr class="a">
+<td>Kebia</td>
+<td>18 hours</td>
+</tr>
+<tr>
+<td>Shuca</td>
+<td>18 hours</td>
+</tr>
+<tr class="a">
+<td>Coba</td>
+<td>18 hours</td>
+</tr>
+<tr>
+<td>Payapa</td>
+<td>18 hours</td>
+</tr>
+<tr class="a">
+<td>Tanga</td>
+<td>18 hours</td>
+</tr>
+<tr>
+<td>Charti</td>
+<td>18 hours</td>
+</tr>
+<tr class="a">
+<td>Kasib</td>
+<td>18 hours</td>
+</tr>
+<tr>
+<td>Haban</td>
+<td>18 hours</td>
+</tr>
+<tr class="a">
+<td>Colbur</td>
+<td>18 hours</td>
+</tr>
+<tr>
+<td>Babiri</td>
+<td>18 hours</td>
+</tr>
+<tr class="a">
+<td>Chilan</td>
+<td>18 hours</td>
+</tr>
+<tr>
+<td>Liechi</td>
+<td>24 hours</td>
+</tr>
+<tr class="a">
+<td>Ganlon</td>
+<td>24 hours</td>
+</tr>
+<tr>
+<td>Salac</td>
+<td>24 hours</td>
+</tr>
+<tr class="a">
+<td>Petaya</td>
+<td>24 hours</td>
+</tr>
+<tr>
+<td>Apicot</td>
+<td>24 hours</td>
+</tr>
+<tr class="a">
+<td>Lansat</td>
+<td>24 hours</td>
+</tr>
+<tr>
+<td>Starf</td>
+<td>24 hours</td>
+</tr>
+<tr class="a">
+<td>Enigma</td>
+<td>24 hours</td>
+</tr>
+<tr>
+<td>Micle</td>
+<td>24 hours</td>
+</tr>
+<tr class="a">
+<td>Custap</td>
+<td>24 hours</td>
+</tr>
+<tr>
+<td>Jaboca</td>
+<td>24 hours</td>
+</tr>
+<tr class="a">
+<td>Rowap</td>
+<td>24 hours</td>
+</tr>
+</tbody>
+</table>

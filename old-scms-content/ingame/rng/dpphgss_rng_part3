@@ -1,0 +1,169 @@
+[title]
+DPP / HGSS RNG Manipulation Guide Part 3 - How to Hatch Perfect Pokemon
+[head]
+<meta name="description" content="DPP / HGSS RNG Manipulation Guide Part 3 - How to Hatch Perfect Pokemon" />
+<style type="text/css">
+.underline{text-decoration:underline;}
+</style>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+	$(function(){
+		$("#gameselect").change(function(){
+			$(".dppt, .hgss").hide();
+			$(this.value).show();
+		})
+	});
+//]]>
+</script>
+
+[page]
+<div class="author">By <a href="/forums/member.php?u=18585">Everstone</a>.</div>
+<div style="float:right;">
+	Show steps for 
+	<select id="gameselect">
+		<option value=".dppt, .hgss">All</option>
+		<option value=".dppt">DPP</option>
+		<option value=".hgss">HGSS</option>
+	</select>
+</div>
+
+<ul class="toc">
+<li><a href="dpphgss_rng_intro">The DPP / HGSS RNG Manipulation Guide</a></li>
+<li><a href="dpphgss_rng_part1">DPP / HGSS RNG Manipulation Guide Part 1 - Common Information for Breeding, Capturing, and Receiving Perfect Pokemon</a></li>
+<li><a href="dpphgss_rng_part2">DPP / HGSS RNG Manipulation Guide Part 2 - How to Capture / Receive Perfect Pokemon</a></li>
+<li>DPP / HGSS RNG Manipulation Guide Part 3 - How to Hatch Perfect Pokemon
+<ul>
+<li><a href="#gensteps">General Steps for the RNG Manipulation of Bred Pokemon in DPP and HGSS</a>
+<ul>
+<li><a href="#stepone">Step 1: Setting Up Time Finder and Finding a Seed for IVs</a></li>
+<li><a href="#steptwo">Step 2: Finding a Seed for a Shiny Egg</a></li>
+<li><a href="#stepthree">Step 3: Getting your Shiny Egg</a></li>
+<li><a href="#stepfour">Step 4: Getting the Correct IVs</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="dpphgss_rng_part4">DPP / HGSS RNG Manipulation Guide Part 4 - How to Abuse for your Desired TID/SID</a></li>
+<li><a href="dpphgss_rng_part5">DPP / HGSS RNG Manipulation Guide Part 5 - Cute Charm TID/SID and Poke Radar Abuse</a></li>
+</ul>
+
+<h2><a name="gensteps">General Steps for the RNG Manipulation of Bred Pokemon in DPP and HGSS</a></h2>
+
+<p><span class="underline"><strong>Note:</strong></span> For a much easier experience, do your breeding in an HGSS cart. It also has the most exclusive Egg moves which is never a bad thing!</p>
+
+<p>This section assumes you've attempted capturing a Pokemon. You can still proceed if you haven't, but you may have to go back to that section to get a good understanding of some things.</p>
+
+<h3><a name="stepone">Step 1: Setting Up Time Finder and Finding a Seed for IVs</a></h3>
+
+<p>Breeding your ideal Pokemon is more involved than capturing one, especially if you want to hatch a shiny Pokemon. Hatching a shiny involves hitting two seeds instead of one, while getting a non-shiny Pokemon only requires hitting one seed.</p>
+
+<p>Whenever the Daycare Man has an Egg to receive, the nature, shininess, ability, and gender of the Pokemon are fixed and will not change until another Egg is generated. This is what hitting the first seed is for. The IVs of the Egg are generated upon receiving the Egg, and this is what hitting the second seed is for.</p>
+
+<p>The main things you need to know for this process are the IVs of your parents. Let's say we want to breed a shiny Jolly Scrappy Miltank. We'll be using a Smeargle and another Miltank as parents. The Smeargle has IVs of 31/31/31/31/31/31 and the Miltank has IVs of 31/31/31/10/31/31. Now in RNG Reporter head to the 4th Generation Time Finder. Our first step is to figure out what order to deposit our parents in.</p>
+
+<p>If you are using parents each with 3-6 of the desired IVs, then you won't have to worry about this step and can deposit them in any order. If not, and say you are using IVs of 4/18/31/5/16/20 on Smeargle and 25/31/6/8/31/31 on Miltank, you will want to head to the 4th Generation Time Finder and on the Egg IVs tab set it up like this:</p>
+
+<div class="dppt">
+<p><span class="underline">DPP</span></p>
+
+<img src="/media/upload/ingame/rng/dpphgss_hatch_1.png" alt="DPP Egg IVs Window" />
+</div>
+<div class="hgss">
+<p><span class="underline">HGSS</span></p>
+
+<img src="/media/upload/ingame/rng/dpphgss_hatch_2.png" alt="HGSS Egg IVs Window" />
+</div>
+
+<p>You can stop searching once you find a delay and frame you're comfortable with. <em>A frame of over 10 is recommended</em> but you can go lower if you don't like doing advances.</p>
+
+<p>Once that's done, if you are going for a shiny Egg you should take off any held items and deposit the parents in the order listed, otherwise if the female or Ditto parent has the nature you're going for have them hold an Everstone before depositing. "Parent A" should be the first parent you deposit and "Parent B" should be the second. Save your game at this time. Do NOT bike around until an Egg is generated at this time.</p>
+
+<h3><a name="steptwo">Step 2: Finding a Seed for a Shiny Egg</a></h3>
+
+<p>The next step is going to be getting that shiny Egg. If you don't care about that skip this step and simply bike around until the daycare man has an Egg, save in front of him, and take the Egg and hatch it. If it has the ability and nature you want you should reset your game and move on to the next section on getting IVs. If you don't mind hitting another delay/seed you can still use this to get a non-shiny Egg with the appropriate nature/ability/gender so read on.</p>
+
+<p>Still in 4th Generation Time Finder, check out the Shiny Egg tab. First, input your ID and SID and check the shiny only box if you want a shiny, leave it alone if you don't. Then select the nature/gender/ability you want. If you're using international parents (both parents do not have the same country of origin) check that box as well. Miltank will remain as the example for the following sections.</p>
+
+<h3><a name="stepthree">Step 3: Getting your Shiny Egg</a></h3>
+<div class="dppt">
+<p><span class="underline">DPP</span></p>
+
+<p>Setup the Shiny Egg window to look similar the screen below and hit Generate.</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_hatch_3.png" alt="DPP Shiny Egg Window Result" />
+
+<p>Now that we have our results, select one you'd like to use, preferably with the lowest number of additional flips. Then right click it and select "Copy Seed to Clipboard". And we're off to the Seed to Time window. We'll be using seed 0F0402F2 for this.</p>
+
+<p>Do the usual Seed to Time stuff and you should get something like this:</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_hatch_4.png" alt="DPP Seed to Time Window Result" />
+
+<p>Attempt to hit your seed (See the "<a href="/ingame/rng/dpphgss_rng_part1#using">Using EonTimer</a>" for more details.) and do 10 coin flips to confirm your seed (see Section III Verifying your seed (HGSS) for more details). Once that's done, do another coin flip (or if doing another seed, flip whatever the number in the Additional Flips column is after doing your first 10 flips) and bike around until the Daycare Man has an Egg for you. You should be doing a number of "10 + Additional Flips" coin flips if you did this right. Save in front of him, pick up the Egg, hatch it, and confirm your shiny.</p>
+</div>
+
+<div class="hgss">
+<p><span class="underline">HGSS</span></p>
+
+<p>Setup the Shiny Egg window to look similar the screen below and hit Generate.</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_hatch_6.png" alt="HGSS Shiny Egg Window Result" />
+
+<p>Now look at the frame column and <em>select an entry with a frame of 1</em>. You can pick other entries that don't have a frame of 1 but it is not recommended. It also doesn't matter whether you have roamers active in your game or not as they do not affect this frame. This frame is completely different from the usual frame you hit to get IVs, so we'll be calling this the "<strong>Egg frame</strong>".</p>
+
+<p>Once a suitable entry is found, right click it and select "Copy Seed to Clipboard". We'll be using seed 07050660 for this. Go to Seed to Time and do the usual stuff.</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_hatch_7.png" alt="HGSS Seed to Time Window Result" />
+
+<p>Now hit the seed (see the "<a href="/ingame/rng/dpphgss_rng_part1#using">Using EonTimer</a>" section for details) and confirm your seed through either Elm/Irwin calls or roamers (See the "<a href="/ingame/rng/dpphgss_rng_part2#stepthree">Step 3: Delay / Seed Verification</a>" for more details. For this scenario calls of EEEKEPEPK means you've hit your seed, as the above picture implies).</p>
+
+<p>Once you're certain you have the right seed, bike around until the Daycare Man has an Egg. Save in front of him, take the Egg, and hatch it to confirm your shiny.</p>
+
+<p>If you chose a seed that has an Egg frame greater than one you'll have to do a few extra things. Calling Joey advances the Egg frame by 2 and the Daycare Man generating an Egg will advance it by 1.</p>
+
+<p>So if your Egg frame is 6, you'd have to call Joey twice (moves the Egg frame to 4), reject the first Egg when the Daycare Man has one (moves it to 5) and save when the Daycare Man has another Egg (at Egg frame 6). This Egg should contain your shiny.</p>
+
+<p><span class="underline"><strong>For simplicity's sake you'll want to stick with Egg frames of 1 to avoid the extra steps.</strong></span></p>
+</div>
+
+<p>Once you've confirmed your Egg contains a shiny, you can reset your game, as long as you saved beforehand. Whenever you take that Egg, it will always contain a shiny.</p>
+
+<h3><a name="stepfour">Step 4: Getting the Correct IVs</a></h3>
+
+<div class="dppt">
+<p><span class="underline">DPP</span></p>
+
+<p>Solaceon Town is infested with randomly moving NPCs and will make getting the desired IVs difficult. <em>The best way to remedy this is to breed in HGSS</em>, but if you have absolutely no other choice, prepare for a lot of trial and error for each breed.</p>
+
+<p>Attempt to hit your delay, and when the game starts, mash X to bring up the menu ASAP, then close it and immediately take the Egg. Do ten coin flips to determine what seed/delay you hit and hatch the Egg. It doesn't matter whether or not you have the correct seed right now, as we are interested in figuring out our initial frame.</p>
+
+<p>Once the egg is hatched, check the IVs. If you're using Diamond or Pearl you either have to use Rare Candies, or fight one high level Pokemon to level them high enough without gaining more than 4 EVs. Platinum has the IV judge in the Battle Tower who can give you a good idea of how good the Pokemon's IVs are.</p>
+
+<p>For example, if you're going for seed 0B000799 but you got seed 0B00079F instead, say you hatch the Pokemon, check the IVs and get 3/18/31/5/16/12. This corresponds to frame 8, which means your initial frame is probably 8.</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_hatch_5.png" alt="Breeding DPPt Main Window" />
+
+<p>The target frame is 13, so every time you start your game up, you would have to do 5 frame advances, most likely through Chatter, before taking the Egg. After taking it, do your coin flips to verify your seed. If it isn't correct, retry until it is. Once you get it, hatch the Egg and confirm the IVs. If for some reason the IVs are not what you wanted, find the exact IVs and find out what frame you actually hit. You'll probably be 1-2 frames off, so if your frame is 15 instead of 13, compensate for this next attempt by doing 3 Chatters instead of 5.</p>
+</div>
+
+<div class="hgss">
+<p><span class="underline">HGSS</span></p>
+
+<p>Now that you've got a shiny Egg locked and loaded, it's time to get the IVs you want and hatch a perfect shiny.</p>
+
+<p>The biggest thing to worry about is a randomly moving NPC on the Daycare route, which is easily fixed by sticking to frames <strong>over 10</strong>. For this example we'll be using the seed 0B000799.</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_hatch_8.png" alt="HGSS Egg IVs Desired Frame" />
+
+<p>Using the seed 0B000799, we want to hit frame 13. The corresponding Elm/Irwin calls are EPPPKPPEKPPE. As usual, attempt to hit your seed and as soon as the game world is loaded mash X to bring up the menu ASAP so the NPC doesn't make too many unwanted advancements.</p>
+
+<p>On RNG Reporter you can look up where your current frame is and see what Elm/Irwin calls are needed by setting up the main window similarly to the picture below.</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_hatch_9.png" alt="Breeding HGSS Main Window" />
+
+<p>Make sure you get to the call that's on the frame before your target and stop there. This cannot be stressed enough.
+
+If using the roamer method for verifying seed you will start on frame 4, and if the NPC hasn't advanced the frames, you will get calls of PKPPEKPPE. There is a chance he might have advanced some frames so do around 3-4 Elm/Irwin calls and see if you can identify what frame you're on. Once you have that, the rest of the calls are trivial. After all the necessary calls are made, close the menu and mash A to claim your Egg. Hatch it and visit the IV judge at the Battle Tower to confirm the IVs.
+
+If your IVs do not match your target, you'll need to find the exact IVs of the offspring. If you got IVs of 10/31/21/8/16/15, then you've hit frame 11, and thus on the next attempt you'll need to do two more calls/Chatters (although if you're using Elm/Irwin calls, you should never be under your target frame, this is just an example so you can see how to use the picture above to find out what frame you really hit).</p>
+</div>

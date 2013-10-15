@@ -1,0 +1,959 @@
+[title]
+Rain Offense Guide
+[head]
+<meta name="description" content="A guide to assist with the creation and use of Offensive Rain teams, thanks to Legacy Raider, updated by EspyJoel and Fireburn." />
+[page]
+<div class="author">By <a href="/forums/member.php?u=20140">Legacy Raider</a>, updated by <a href="/forums/member.php?u=30865">EspyJoel</a> and <a href="/forums/member.php?u=29197">Fireburn</a>. Art by <a href="/forums/member.php?u=37526"/>Binary Solo</a>.</div>
+
+<img src="http://www.smogon.com/media/upload/dp/articles/rain.png"/>
+<ol>
+<li><a href="#intro">Introduction</a></li>
+<li><a href="#basics">Rain Basics</a></li>
+<li><a href="#speeds">Swift Swim Speeds</a></li>
+<ul>
+<li><a href="#speeds_to_hit">Speeds To Hit</a></li>
+</ul>
+<li><a href="#building">Rain Team Building</a></li>
+<li><a href="#leads">Rain Leads</a></li>
+<ul>
+<li><a href="#ou_leads">OU</a></li>
+<li><a href="#uu_leads">UU</a></li>
+</ul>
+<li><a href="#sweepers">Rain Sweepers</a></li>
+<ul>
+<li><a href="#ou_sweepers">OU</a></li>
+<li><a href="#uu_sweepers">UU</a></li>
+</ul>
+<li><a href="#support">Support Pokémon</a></li>
+<ul>
+ <li><a href="#ou_support">OU</a></li>
+ <li><a href="#uu_support">UU</a></li>
+ </ul>
+<li><a href="#threats">Threats</a></li>
+<ul>
+ <li><a href="#ou_threats">OU</a></li>
+ <li><a href="#uu_threats">UU</a></li>
+ <li><a href="#ubers">Ubers</a></li>
+ </ul>
+<li><a href="#example">Example Teams</a></li>
+<ul>
+ <li><a href="#ou_team">OU</a></li>
+ <li><a href="#uu_team">UU</a></li>
+ <li><a href="#uber_team">Ubers</a></li>
+ </ul>
+<li><a href="#battle">Battle Strategy</a></li>
+<li><a href="#conclusion">Conclusion</a></li>
+</ol>
+
+<h2><a name="intro">Introduction</a></h2>
+
+<p>Rain, the weather of Water-types, is one of the four types of weather in Pokemon. Unlike sandstorm and hail, rain does not have a permanent weather inducer in OU - a Pokemon that upon entering battle summons that form of weather. The only Pokemon capable of starting a permanent rainstorm is Kyogre, and it is banished to the Uber realm. Because of this, getting rain into play and making the most of it is a little harder than hail or sandstorm. But, if done correctly, you will be able to sweep most opposing teams away with ease.</p>
+
+<p>If you're anything like me, you like to play offensively. You like teams that are packed with super-powerful, threatening sweepers, and you rely on your prediction skills and sheer might to see you through your games. Offensive Rain Dance teams do just this. I've heard Rain Dance teams being called 'cheap' and 'skill-less,' but the truth of the matter is that, if played right, they are simply effective.</p>
+
+<p>This guide aims to introduce you to this playing style, give you some pointers and suggestions of how to construct a successful Rain Dance team, and show you some examples of tried and tested Pokemon that work on Rain Dance teams.</p>
+
+<p>Hopefully, after reading this, you will be able to construct your very own successful Rain Dance team.</p>
+
+
+<h2><a name="basics">Rain Basics</a></h2>
+
+<p>Rain can be summoned in two ways: either by the ability Drizzle, or by the move Rain Dance. Since only Kyogre has access to Drizzle, in OU and below rain is always summoned manually. Rain Dance summons rain for five turns, and this can be extended to eight turns if the user of the move is holding the item Damp Rock.</p>
+
+<p>The following effects occur when it is raining:</p>
+<ul>
+<li>The power of Water-type moves is boosted by 50%.</li>
+<li>The power of Fire-type moves is reduced by 50%.</li>
+<li>The move Thunder has 100% accuracy and can hit through Protect and Detect 30% of the time. Note that this only occurs in Diamond and Pearl versions - Protect always blocks Thunder even in the rain in Pokemon Platinum, Pokemon Battle Revolution, and Pokemon HeartGold and SoulSilver.</li>
+<li>The move SolarBeam has a base power of 60.</li>
+<li> The move Weather Ball becomes the Water-type and has a base power of 100.</li>
+<li>The moves Moonlight, Morning Sun, and Synthesis heal only 25% of the users full health.</li>
+<li>Pokemon with the ability Dry Skin heal 12.5% of their max HP every turn.</li>
+<li>Pokemon with the Forecast ability change their type to Water.</li>
+<li>Pokemon with the Hydration ability heal themselves of status effects at the end of every turn.</li>
+<li>Pokemon with the Rain Dish ability heal 6.25% of their max HP every turn.</li>
+<li>Pokemon with the Swift Swim ability double their Speed.</li>
+</ul>
+
+<p>As you can see, there are many advantages that can be gained in the rain. However, the two most beneficial effects to be garnered are the Water power-boosting effect and the boost in Speed given to Pokemon with the ability Swift Swim. The increased power boost granted to Water-type attacks allows these attacks to easily smash through even the toughest of walls, while the Speed boost granted by the rain allows Swift Swim Pokemon to outspeed and confound opposing offensive teams.</p>
+
+<p>Water is a flexible attacking type, with excellent neutral coverage and very few resists. One of the reasons that makes Water so good is that it hits the ubiquitous Steel-types for neutral damage, making it very hard to wall. Most special sweepers rely on the Water / Ice / Grass or Electric coverage, while physical sweepers often use the Water / Rock or Water / Normal combination. These combinations aren't resisted by many Pokemon, this makes them hard to wall. So when your opponent is facing a Pokemon such as Omastar that has excellent Special Attack, STAB on Water, Water's power boost in the rain, rain-boosted Speed, and access to high powered moves such as Hydro Pump, they have good reason to be worried.</p>
+
+<h2><a name="speeds">Swift Swim Speeds</a></h2>
+
+<p>Swift Swim is one of the defining abilities of Rain Dance teams, and it is the key behind their sweeping prowess. In the rain, Swift Swim Pokemon can outspeed almost every opposing Pokemon, allowing them to strike first and strike hard. This section will show you how much Speed to put on your Swift Swim Pokemon to make sure that their sweep is successful and uninterrupted.</p>
+
+<p>Swift Swim Pokemon and base Speeds:</p>
+
+<ul>
+<li><a href="/dp/pokemon/floatzel">Floatzel - base 115</a></li>
+<li><a href="/dp/pokemon/luvdisc">Luvdisc - base 97</a></li>
+<li><a href="/dp/pokemon/lumineon">Lumineon - base 91</a></li>
+<li><a href="/dp/pokemon/kingdra">Kingdra - base 85</a></li>
+<li><a href="/dp/pokemon/qwilfish">Qwilfish - base 85</a></li>
+<li><a href="/dp/pokemon/kabutops">Kabutops - base 80</a></li>
+<li><a href="/dp/pokemon/ludicolo">Ludicolo - base 70</a></li>
+<li><a href="/dp/pokemon/mantine">Mantine - base 70</a></li>
+<li><a href="/dp/pokemon/seaking">Seaking - base 68</a></li>
+<li><a href="/dp/pokemon/omastar">Omastar - base 55</a></li>
+<li><a href="/dp/pokemon/relicanth">Relicanth - base 55</a></li>
+<li><a href="/dp/pokemon/gorebyss">Gorebyss - base 52</a></li>
+<li><a href="/dp/pokemon/huntail">Huntail - base 52</a></li>
+</ul>
+
+<h3><a name="speeds_to_hit">Speeds to hit</a></h3>
+
+<table class="sortable">
+<thead>
+<tr>
+    <th>Pokemon</th>
+    <th>Speed</th>
+    <th>Speed to outrun in rain</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+    <td>+ve +1 Azelf</td>
+    <td>542</td>
+    <td>272</td>
+</tr>
+<tr class="a">
+    <td>+ve +1 Gengar</td>
+    <td>526</td>
+    <td>263</td>
+</tr>
+<tr>
+    <td>+ve +1 Infernape</td>
+    <td>519</td>
+    <td>260</td>
+</tr>
+<tr class="a">
+    <td>+ve +1 Flygon</td>
+    <td>493</td>
+    <td>247</td>
+</tr>
+<tr>
+    <td>+1 Gengar</td>
+    <td>478</td>
+    <td>240</td>
+</tr>
+<tr class="a">
+    <td>+ve +1 Yanmega</td>
+    <td>475</td>
+    <td>238</td>
+</tr>
+<tr>
+    <td>+ve Ninjask</td>
+    <td>460</td>
+    <td>231</td>
+</tr>
+<tr class="a">
+    <td>+1 Flygon</td>
+    <td>448</td>
+    <td>225</td>
+</tr>
+<tr>
+    <td>+1 Gliscor</td>
+    <td>433</td>
+    <td>217</td>
+</tr>
+<tr class="a">
+    <td>+1 Yanmega</td>
+    <td>433</td>
+    <td>217</td>
+</tr>
+<tr>
+    <td>+ve +1 Porygon-Z</td>
+    <td>418</td>
+    <td>210</td>
+</tr>
+<tr class="a">
+    <td>+ve +1 Heatran</td>
+    <td>417</td>
+    <td>209</td>
+</tr>
+<tr>
+    <td>+ve Electrode</td>
+    <td>416</td>
+    <td>209</td>
+</tr>
+<tr class="a">
+    <td>+1 Heracross</td>
+    <td>403</td>
+    <td>202</td>
+</tr>
+<tr>
+    <td>+ve Jolteon</td>
+    <td>394</td>
+    <td>198</td>
+</tr>
+</tbody>                                                              
+</table>
+
+<table class="sortable">
+<thead>
+<tr>
+    <th>Pokemon</th>
+    <th>Speed</th>
+    <th>Speed to outrun in rain</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+    <td>+ve +1 Mismagius</td>
+    <td>508</td>
+    <td>255</td>
+</tr>
+<tr class="a">
+    <td>+ve +1 Typhlosion</td>
+    <td>492</td>
+    <td>247</td>
+</tr>
+<tr>
+    <td>+ve +1 Espeon</td>
+    <td>478</td>
+    <td>240</td>
+</tr>
+<tr class="a">
+    <td>+1 Typhlosion</td>
+    <td>448</td>
+    <td>225</td>
+</tr>
+<tr>
+    <td>+2 Torterra</td>
+    <td>422</td>
+    <td>212</td>
+</tr>
+<tr class="a">
+    <td>+ve Electrode</td>
+    <td>416</td>
+    <td>209</td>
+</tr>
+<tr>
+    <td>+1 Hitmonlee</td>
+    <td>409</td>
+    <td>205</td>
+</tr>
+<tr class="a">
+    <td>+ve Swellow</td>
+    <td>383</td>
+    <td>192</td>
+</tr>
+</tbody>                                                              
+</table>
+
+<p>In OU, it is highly recommended that you run at least 209 Speed on your Swift Swim users in order to outrun Choice Scarf Heatran in the rain, who is a very common threat.</p>
+
+<p>Sweepers who are able to should run 225 Speed to outrun +1 neutral Flygon in the rain (i.e. Flygon with a Choice Scarf).</p>
+
+<p>It is also recommended that you have at least one sweeper on your team who can outrun a Timid Choice Scarf Gengar in the rain, lest it sweep your team with Thunderbolt.</p>
+
+<p>In UU, it is recommended that you run at least 217 Speed on your sweepers so as to outrun Adamant Choice Scarf Primeape in the rain.</p>
+
+<h2><a name="building">Rain Team Building</a></h2>
+
+<p>Probably the most important section of the guide. Here I will take you through the basics of building a successful rain team. I will show you many of the Pokemon available, and how to use them most effectively.</p>
+
+<p>Generally, Pokemon on an offensive rain team fall into the following categories:</p>
+
+<dl>
+<dt>Rain Lead</dt>
+<dd>Gets the rain going at the start of the battle, then allows you to get your sweepers out as soon as possible by means of Explosion, U-turn, Memento, etc. They try to take out common opposing leads if possible, and some leads can even set up the all-important Stealth Rock to help your sweepers. Most hold the item Damp Rock to extend the length of the initial downpour.</dd>
+
+<dt>Swift Swim Sweepers</dt>
+<dd>Pretty self-explanatory. These Pokemon abuse their Speed doubling abilities in the rain to lay waste to the opposing team. They can hit with both physical and special based Water-type attacks, and many of them can be powerful mixed wallbreakers as well.</dd>
+
+<dt>Dedicated Rain Dance setter / Bulky Rain Dancing Sweeper</dt>
+<dd>Since the rain only lasts for a maximum of eight turns, you will need to replenish the rain sometime in the battle as it is very difficult to sweep a team in only eight turns. Therefore, Rain Dance teams carry a Pokemon whose primary objective is to set up Rain Dance. Once this is done, they can go on to set up further support such as Stealth Rock, Reflect, and Light Screen, or they can use their own rain to stage a sweep. Usually these Pokemon also carry Damp Rock to have the rain last as long as possible.</dd>
+
+<dt>Supporting Pokemon</dt>
+<dd>There are a few problem Pokemon that give almost all Rain Dance teams trouble. As such, many Rain Dance teams carry Pokemon that are adept at dealing with these threats to then give the sweepers a much easier time plowing through teams.</dd>
+</dl>
+
+<p>So, how should you construct your Rain Dance team? Well the basic rule of thumb is that you should have at least three Pokemon on your team that can significantly benefit from the rain if you plan on using a team based around Rain Dance. These can be anything from Swift Swim Sweepers to strong Water-types, Electric-type Pokemon abusing Thunder, or something like Toxicroak with its Dry Skin ability. The long and short of it is that there must be quite a few of them on the team in order to make full use of the rain. Otherwise, setting up and keeping the rain going is a waste of time.</p>
+
+<p>Another commonly asked question is 'How many Rain Dance users should one have on a Rain Dance team?' Well, my answer to this is: 'as many as possible.' The truth is is that you can never have too many when rain is so essential to your entire strategy. Especially with all the auto-weather inducers running around OU, having several Pokemon that can replenish the rain (not necessarily with Damp Rock) is a very valuable thing for all Rain Dance teams to have. I for one, use at least 3, usually 4, Pokemon with Rain Dance on most of my competitive Rain Dance teams.</p>
+
+<p>Rain does not need to be set by a fully support Pokemon such as Bronzong or Claydol, as many rain sweepers themselves can use Rain Dance too. For example, Kingdra usually gets pretty excellent coverage with Surf / Dragon Pulse / Signal Beam, as does Ludicolo with Surf / Ice Beam / Grass Knot, and so both can run Rain Dance in their final slot over some filler attacking move. The good thing is that both these Pokemon (and many others) are bulky enough to take a hit whilst replenishing the rain, and so they can be extremely helpful to a very offensively minded team.</p>
+
+<p>In addition to these dancing sweepers, you will want to have a Pokemon with a Damp Rock dedicated to replenishing your rain mid-game. Bulky support Pokemon such as Bronzong are ideal, but a fast suicidal Rain Dance user such as Azelf can also be very helpful to get a quick Rain Dance off when you need it. However, you should try and ensure that you are not using two suicidal dancers, since if you ever need more than 16 turns to defeat the opposing team, you could find yourself in trouble. So having Azelf and Electrode on the same team is usually discouraged, as such teams usually have trouble against opposing stall teams. Similarly, it is often not the best idea to have two very slow dedicated dancers because then the team strategy becomes very susceptible to Taunt. Usually it is best to have a balance of a fast dancer (usually suicidal) and a bulky dancer that can set up rain more than once. You will want Stealth Rock somewhere on your team as it helps Kingdra and other Rain Dance sweepers get many OHKOes they otherwise couldn't get, such as on Togekiss. It also punishes opponents who try to switch around to waste your Rain Dance turns as they will be taking not only a powerful attack but also Stealth Rock damage.</p>
+
+<p>Three Rain Dance sweepers / three Rain Dance support Pokemon is a good, simple way to go. It gives you a lot of offensive power but also that defensive backing and support that you may need against bulkier teams. However, in UU, four Rain Dance sweepers / two Rain Dance support Pokemon can often work since weather changers aren't as common in UU as they are in OU. In UU, only Golduck, Hippopotas, and Snover can instantly stop your rain, and because they are uncommon and fragile, it is easy to get away with only two dedicated Rain Dance supporters, while the extra offensive power that another Rain Dance sweeper provides may be useful.</p>
+
+
+<h2><a name="leads">Rain Leads</a></h2>
+
+<p>The lead is a very important Pokemon in all teams, and this holds no less true in Rain Dance teams. Your lead is your conductor - it sets the rhythm and tempo for the battle to come. Since we are trying to make a Rain Dance team, this is naturally one of the major objectives for our lead. Generally, a fast lead works best to set a quick pace at the start of the match and be less susceptible to Taunt. However, a slower, but bulkier lead can be helpful for reliably setting up against non-Taunt leads.</p>
+
+<h3><a name="ou_leads">OU</a></h3>
+
+<p><img src="/download/sprites/dp/487.png" alt="" /></p>
+
+<p><a href="/dp/pokemon/azelf">Azelf</a> - Azelf makes an excellent lead on a rain team because of its great Speed, offenses, and movepool. Its Speed means that it can set up Rain Dance before opposing leads have a chance to Taunt it. Azelf can also Taunt the opponent's lead before they have a chance to do anything; stopping them from getting up Stealth Rock or hitting you with Spore can be very useful. It also means that you can set up Stealth Rock right at the start of the match, netting you the maximum amount of residual damage on your opponent's team. Azelf can leave the field with a smart U-turn, or it can go out with a bang by using Explosion, and possibly take out an opposing Pokémon all by itself.</p>
+
+<p>Useful Moves: Rain Dance, Stealth Rock, Explosion, U-turn, Reflect, Light Screen, Taunt, Trick</p>
+
+<p>Lead Rating - *****</p>
+
+<p><img src="/download/sprites/dp/169.png" alt="" /></p>
+
+<p><a href="/dp/pokemon/crobat">Crobat</a> - With its great Speed, Taunt, and decent defenses, Crobat makes a fine choice to set up your rain. Although a very unreliable move, Crobat also has the fastest Hypnosis in the game, and if you are willing to take the risk of it missing, you can incapacitate one of the opposing Pokemon right at the start of the battle. Taunt is a great move on something as fast as this and can prevent opposing leads from setting up their Stealth Rock. Finally, after having put the foe to sleep and setting up rain, Crobat can U-turn to get a light hit on the opponent and scout the switch. One of the best things about Crobat is its instant recovery move - Roost. Along with its reasonable 85/80/80 defenses, Crobat is not just a one-use lead. It can come in repeatedly to replenish the 8-turn rain, Roost up its health, and then U-turn back out.</p>
+
+<p>Useful Moves: Rain Dance, Taunt, U-turn, Roost, Hypnosis, Super Fang</p>
+
+<p>Lead Rating - ****</p>
+
+<img src="/download/sprites/dp/145.png" alt="" />
+<p><a href="/dp/pokemon/zapdos">Zapdos</a> - Much like Jirachi, Zapdos is one of those Pokemon that not only is very effective at setting up rain, it can make full use of it too. With the rain up, Zapdos can wreak havoc with STAB Thunder off its base 125 SpA. The 30% paralysis rate is very nice, and can cripple would-be counters.</p>
+
+<p>Zapdos also has very respectable defenses and can take a beating, and afterwards can Roost it off. This makes it a multi-use dancer as opposed to a suicide one. Like many other Rain Dance setters, Zapdos can also use U-turn to scout for counters and give your sweepers a safer switch in. Protect is a very good move for Zapdos in the lead slot as many Pokemon will want to Explode on it straight after you set up Rain Dance. With Protect and good prediction, they will faint and Zapdos will be at full health.</p>
+
+<p>Useful Moves: Rain Dance, Thunder, Roost, U-turn, Protect<br />
+Lead Rating - ****<br />
+Mid-Game Replenisher Rating - ****</p>
+
+<p><img src="/download/sprites/dp/442.png" alt="" /></p>
+
+<p><a href="/dp/pokemon/bronzong">Bronzong</a> - Bronzong is one of the most reliable Pokemon in the game, and almost guarantees you an eight turn Rain Dance unless it is faced with a Taunting foe. With Levitate in the rain, Bronzong has no weaknesses. Add to that its whopping 10 resistances/immunities and its excellent defenses and you have one tough Pokemon to take down. Bronzong has a plethora of support moves that it can use, and it has the bulk to set them all up before going out with a bang (Explosion).</p>
+
+<p>Although Bronzong makes for a really good rain lead, it works even better mid-game to replenish the rain. Whereas for the lead slot Bronzong has a lot of competition, no other Pokemon serves as quite a good transition Pokemon mid-game to restart the rain and to possibly set up some dual screens before Exploding.</p>
+
+<p>Useful Moves: Rain Dance, Stealth Rock, Reflect, Light Screen, Hypnosis, Explosion</p>
+
+<p>Lead Rating - ***<br />
+Mid-Game Replenisher Rating - *****</p>
+
+
+<p><img src="/download/sprites/dp/385.png" alt="" /></p>
+<p><a href="/dp/pokemon/jirachi">Jirachi</a> -  Jirachi is an excellent Rain Dance user, with many things in its favor that other potential dancers don't have. First of all, it has excellent defensive stats and typing. Its bulk and resistances mean that it is very hard to take down, and this allows it to set up Rain Dance more than once. Jirachi can also set up Stealth Rock and use U-turn, two more very useful moves on a dancer. Also, unlike many others of the same role, Jirachi can use the rain itself to create a pseudo para-fusion strategy with Thunder and Water Pulse. Its Serene Grace ability gives both a 60% chance to activate their effect, and the rain gives Thunder 100% accuracy and Water Pulse a 1.5x power boost.</p>
+
+<p>With Wish, Jirachi has access to reliable healing that can also revive one of your injured sweepers. However, it is often very difficult to fit Wish onto the moveset of a Rain Dance Jirachi, as it has so many viable moves it can use.</p>
+
+<p>Useful Moves: Rain Dance, Stealth Rock, U-turn, Wish, Thunder, Water Pulse, Trick</p>
+
+<p>Lead Rating - ***<br />
+Mid-Game Replenisher Rating - ****</p>
+
+
+<h3><a name="uu_leads">UU</a></h3>
+
+
+<p><img src="/download/sprites/dp/101.png" alt="" /></p>
+
+<p><a href="/dp/pokemon/electrode">Electrode</a> - Electrode is an UU Pokemon, but its effectiveness as a rain lead makes it an excellent choice even on an OU team. Electrode has access to the fastest Taunt and Explosion in the game, making it an awesome suicide lead. With its blistering Speed it can move before most opposing leads and can set up rain to its heart's content. Although it is very frail, with EV investment in HP it can survive most neutral hits, allowing you to use a Damp Rock as opposed to a Focus Sash. However, Electrode's poor base 50 Atk needs all the investment it can to leave a lasting dent with Explosion.</p>
+
+<p>Useful Moves: Rain Dance, Taunt, Explosion, Light Screen, Thunder</p>
+
+<p>UU Lead Rating - *****<br />
+OU Lead Rating - ****</p>
+
+
+<p><img src="/download/sprites/dp/429.png" alt="" /></p>
+<p><a href="/dp/pokemon/ambipom">Ambipom</a> - Ambipom makes an awesome UU Rain Dance lead. Its high Speed allows it to get off a quick Rain Dance before your opponent has a chance to move. It can also use a powerful STAB, Technician-boosted Fake Out for some early-game damage. With access to a fast Taunt and U-turn for scouting, there aren't many things Ambipom can't do.</p>
+
+<p>Useful Moves: Rain Dance, Fake Out, U-turn, Return, Taunt, Payback, Low Kick</p>
+
+<p>UU Lead Rating - *****<br />
+OU Lead Rating - **</p>
+
+
+<p><img src="/download/sprites/dp/485.png" alt="" /></p>
+<p><a href="/dp/pokemon/uxie">Uxie</a> - Not only is Uxie an amazing lead in UU, but it can also do well in OU, where Uxie is basically a slower, much bulkier version of Azelf. Uxie has less competition for mid-game slots due to its diverse movepool. Its excellent defenses allow it to set up Stealth Rock and Rain Dance with a lot more insurance than frail Rain Dance leads such as Ambipom and Electrode. Uxie's bulk and decent Speed allows it to be a very effective Choice Scarf Tricker; especially in OU. It has access to Yawn, which is an excellent move for scouting out an opponent's team and possibly eliminating one Pokemon from play. The main benefit of Uxie is its access to Memento to get a sweeper in for free against a weakened enemy. This makes Uxie a great choice on a team that uses boosting sweepers such as Swords Dance Kabutops or Swords Dance Qwilfish.</p>
+
+<p>Useful Moves: Rain Dance, Stealth Rock, Memento, Psychic, U-turn, Thunderbolt, Light Screen, Reflect, Yawn, Trick</p>
+
+<p>UU Lead Rating - ****<br />
+UU Mid-Game Replenisher Rating - *****<br />
+OU Lead Rating - ***<br />
+OU Mid-Game Replenisher Rating - ****</p>
+
+
+<h2><a name="sweepers">Rain Sweepers</a></h2>
+
+<p>The sweepers are really what make or break the team. They will either work together efficiently and break through the opponent's defenses or be walled and outstalled into submission. There are a lot of very powerful Pokemon that can be used on a Rain Dance team, but the trick is to get your sweepers to work together as an effective fighting unit. Generally you want three Swift Swim sweepers on your Rain Dance team in OU and possibly four in UU.</p>
+
+<p>This section will highlight the strengths, weaknesses, and particular talents of the most effective Rain Dance sweepers to better help you in making the decision for your team.</p>
+
+<h3><a name="ou_sweepers">OU</a></h3>
+
+<p><img src="/download/sprites/dp/230.png" alt="" /></p>
+<p><a href="/dp/pokemon/kingdra">Kingdra</a> - Kingdra is the only Swift Swim abuser in OU, and an OU Rain Dance team without Kingdra is barely comprehendible. It is a terror in the rain, with powerful mixed attacking stats and bulky defenses making it a very tough adversary. The biggest threat that Kingdra poses is that it can hit extraordinarily hard with physical and special attacks, so for all your opponent knows, his Blissey could potentially be switching into an Outrage, or his Skarmory into a Surf or Hydro Pump. Even on a physical sweeping set, Kingdra still has the option of running a powerful Hydro Pump or Draco Meteor in the last slot to combat any physical walls trying to take its attacks. With its STAB Water and Dragon attacks, Kingdra gets near perfect coverage with just two attacks and can therefore use its last two moveslots for support moves such as Rain Dance and Dragon Dance.</p>
+
+<p>Useful Moves: Hydro Pump, Waterfall, Draco Meteor, Surf, Dragon Pulse, Hidden Power Electric, Outrage, Rain Dance, Dragon Dance, Substitute, Yawn</p>
+
+<p>Rating - *****</p>
+
+
+<h3><a name="uu_sweepers">UU</a></h3>
+
+<p><img src="/download/sprites/dp/272.png" alt="" /></p>
+<p><a href="/dp/pokemon/ludicolo">Ludicolo</a> - Ludicolo gets STAB on both Water and Grass, and alongside Ice, this makes for an excellent attacking combination. In the rain, Ludicolo's coverage and special attacking power makes it a formidable special sweeper. It also has access to Focus Punch and Leech Seed which can make short work of predicted Blissey or Snorlax switch-ins. Ludicolo can deal with bulky Water-types extremely well, which many Pokemon on a Rain Dance team fail to do. Therefore, it should not be overlooked for any Rain Dance team, no matter the tier.</p>
+
+<p>Water/Grass is a good defensive typing, with each type canceling out the other's major weaknesses. With a high base 100 Special Defense, Ludicolo is deceptively bulky and makes a good user of Rain Dance. One should always go for Swift Swim over Rain Dish as it is more beneficial for both sweeping and SubSeeding. Also, Grass Knot is recommended as only Vaporeon in OU and Azumarill in UU are hit harder by Energy Ball.</p>
+
+<p>Although it has quite a low 70 Attack stat, Ludicolo can make great use of Swords Dance, Waterfall, Seed Bomb, and Ice Punch to turn the tables on some of its potential counters, such as Milotic in UU.</p>
+
+<p>Useful Moves: Surf, Grass Knot, Ice Beam, Rain Dance, Energy Ball, Hydro Pump, Focus Punch, Hidden Power Electric, Swords Dance, Waterfall, Seed Bomb, Ice Punch, Leech Seed</p>
+
+<p>UU Rating - *****<br />
+OU Rating - *****</p>
+
+<p><img src="/download/sprites/dp/141.png" alt="" /></p>
+<p><a href="/dp/pokemon/kabutops">Kabutops</a> - Kabutops is one of the best Water-type physical attackers, and it makes a great addition to rain teams who are usually wanting for a physical sweeper. Rock / Water is an amazing combined STAB, allowing it to get neutral hits on almost all opponents. In addition, Kabutops can use the Fighting / Rock combination by combining its Stone Edge with Superpower or Low Kick. It also has access to X-Scissor, which is a great move for getting rid of annoying Celebi that switch into your Waterfall. Kabutops can use Swords Dance very effectively to boost its own Attack to phenomenal levels. In the rain, a SD Waterfall can OHKO a Skarmory. It is also excellent for boosting Kabutops's final, and possibly most deadly attack - Aqua Jet. Kabutops makes a fine addition to almost any rain team with its powerful physical attacks.</p>
+
+<p>In UU, Kabutops has no real need to run X-Scissor, and can dedicate that slot to other attacks. Return is a very viable attack on a Kabutops as many a time after a SD you will just want a reliable neutral damage dealing attack (obviously when facing something that resists Waterfall). It also means that Pokemon like Poliwrath and Quagsire won't be able to wall you, as they are both 2HKOed by a +2 Return. Also, on an SD set, Rock Slide is the preferred choice over Stone Edge, as with that massive Attack stat, Rock Slide's superior accuracy and flinch rate will be worth more than Stone Edge's power boost.</p>
+
+<p>Useful Moves: Waterfall, Stone Edge, Swords Dance, X-Scissor, Low Kick, Superpower, Brick Break, Aqua Jet, Rain Dance, Rock Slide</p>
+
+<p>UU Rating - *****<br />
+OU Rating - *****</p>
+
+<p><img src="/download/sprites/dp/211.png" alt="" /></p>
+<p><a href="/dp/pokemon/qwilfish">Qwilfish</a> - In terms of sweeping potential, Qwilfish is essentially a less powerful and slightly faster Kabutops. However, it does have a few exclusive options available to it that differentiate it from its slashing brethren. Qwilfish's biggest selling point is its devastating Explosion, which, when coming off of a decent base 95 Attack stat and rain-boosted Speed, can easily take out any non-Ghost Pokémon on the opposing team. Qwilfish can also use the slightly less reliable Destiny Bond to effectively achieve the same effect. Qwilfish has access to Swords Dance as well, and after a dance its Waterfalls and Poison Jabs really start to dent the opponent. The great thing about Poison as a supporting type attack for Water is that it hits Grass-types super effectively, meaning that Qwilfish doesn't have to waste a moveslot to deal with Celebi (ahem Kabutops's X-Scissor). Also, it absorbs Toxic Spikes upon entry to the field, which can be very helpful on a rain team that doesn't have time for Rapid Spin.</p>
+
+<p>Qwilfish also makes an excellent lead for a rain team, as it can not only start the rain but can lay both Toxic Spikes and Spikes for passive damage to the opposing team. It can do respectable damage with a rain-boosted Waterfall, or almost guarantee taking out an opposing Pokemon with Explosion and Rain Dance, which all goes to make it a very effective lead.</p>
+
+<p>Useful Moves: Waterfall, Poison Jab, Explosion, Swords Dance, Destiny Bond, Rain Dance</p>
+
+<p>UU Sweeper Rating - *****<br />
+UU Lead Rating - ****<br />
+OU Sweeper Rating - ****<br />
+OU Lead Rating - **</p>
+
+<p><img src="/download/sprites/dp/139.png" alt="" /></p>
+<p><a href="/dp/pokemon/omastar">Omastar</a> - Omastar is a very powerful special sweeper on rain teams, possessing the highest Special Attack stat of any non-Uber Water- or Rock-types. Although its poor base 55 Speed stat means that it won't be outspeeding +1 Adamant Flygon in the rain (without using a positive Speed nature and detracting from its attacking power), Omastar still manages to hit the bare minimum Speed stat required of a Swift Swim sweeper (the 209 Speed required to outrun positive Speed Scarf Heatran in the rain). Omastar has access to a nice variety of special attacking moves not available to other rain sweepers, most notable of which being Earth Power and AncientPower. Omastar can make use of both the Water/Ground/Rock and Water/Ground/Ice attacking combinations, both of which have excellent coverage. Hidden Power Electric in the last slot adds to its coverage.</p>
+
+<p>Useful Moves: Surf, Earth Power, Ice Beam, Hidden Power Electric, AncientPower, Hydro Pump, Hidden Power Grass, Rain Dance</p>
+
+<p>UU Rating - *****<br />
+OU Rating - ****</p>
+
+
+<p><img src="/download/sprites/dp/368.png" alt="" /></p>
+<p><a href="/dp/pokemon/gorebyss">Gorebyss</a> - Gorebyss inevitably gets compared to Omastar when it comes to special sweeping, but Gorebyss does have some qualities that make it an adequate choice for UU play. Although Omastar has slightly more Special Attack, higher defenses, and Speed, its secondary Rock typing is more of a curse than a blessing in the lower tiers. Gorebyss is not weak to TechniTop's Mach Punch (which Omastar can take up to 80% from), it is not hurt too badly by random Earthquakes, and weak Grass attacks are not an automatic KO on Gorebyss. Gorebyss also has access to Psychic, which can be very helpful by hitting Toxicroak, Poliwrath, and Qwilfish convincingly hard. However, Gorebyss has no reliable way of hitting Lanturn (where Omastar has Earth Power). In OU, its low base Speed lets it down as even in the rain, since it won't be outspeeding a positive Speed Scarf Heatran without a positive Speed nature of its own.</p>
+
+<p>Useful Moves: Surf, Ice Beam, Hidden Power Electric, Psychic, Rain Dance</p>
+
+<p>UU Rating - *****<br />
+OU Rating - ***</p>
+
+
+<p><img src="/download/sprites/dp/424.png" alt="" /></p>
+<p><a href="/dp/pokemon/floatzel">Floatzel</a> - Floatzel has great Attack and Speed naturally, and on a rain team this can be built upon to make it a very formidable sweeper indeed. Floatzel almost doesn't even need rain to sweep with its excellent base 115 Speed, which allows it to outspeed many threats without any investment even when there is no rain. Waterfall, Crunch, and Ice Punch will make up the majority of its physical moveset, and the final move can go to providing yet another Rain Dance user on your team, or to the excellent set up move Bulk Up. Bulk Up increases Attack and Defense by one stage each, and after a Bulk Up Floatzel can do some serious damage with its STAB Water-type attacks.</p>
+
+<p>Since Floatzel already has such excellent Speed, it does not need nearly as much investment in it as other rain sweepers. As such, Floatzel can afford to invest more EVs into its decent base 85 Special Attack stat, with which it can still do good damage to physical walls switching in to take a Waterfall.</p>
+
+<p>Useful Moves: Waterfall, Ice Punch, Crunch, Rain Dance, Bulk Up, Surf, Ice Beam</p>
+
+<p>UU Rating - ****<br />
+OU Rating - ***</p>
+
+
+<h2><a name="support">Support Pokemon</a></h2>
+
+<p>There are many Pokemon that just fit well on offensive rain teams and do a good job of supporting your sweepers. They do this in a variety of ways, but most commonly it is by removing threats to rain sweeps and by providing key resistances on a team based around a single type.</p>
+
+<h3><a name="ou_support">OU</a></h3>
+
+<p><img src="/download/sprites/dp/212.png" alt="" /></p>
+
+<p><a href="/dp/pokemon/scizor">Scizor</a> - Scizor is an excellent supporting Pokemon on rain teams. Auto-weather inducers are the bane of rain teams, and Scizor can deal with Tyranitar and Abomasnow with ease using its powerful Bullet Punch. Also, its excellent defenses and typing can be built upon, allowing it to take out many other threats to rain teams such as Celebi, Blissey, Vaporeon, and Hippowdon.</p>
+
+<p>Scizor's only weakness is lessened in the rain, and usually a rain team has many Fire-type resists to switch-in on Scizor's counters. Despite this, in the rain Scizor itself can survive many attacks that would otherwise kill it such as Zapdos's Heat Wave and Magnezone's Hidden Power Fire. Scizor itself, with its Steel typing and Roost, makes an excellent user of Rain Dance for team support. It can also utilise a slow U-turn to scout for counters and get frailer sweepers in with little risk. And of course, Scizor can use his trademark Bullet Punch to finish off a beleaguered team.</p>
+
+<p>Useful Moves: Rain Dance, Bullet Punch, U-turn, Roost, Swords Dance, Superpower, Pursuit</p>
+
+<p>Rating - *****</p>
+
+<p><img src="/download/sprites/dp/503.png" /></p>
+<p><a href="/dp/pokemon/rotom-w">Rotom-W</a> - Rotom provides valuable Fighting- and Ground-type immunities to rain teams which are usually weak to those types of move (Kabutops, Omastar, Relicanth, etc). It also gives a team a very valuable Electric-type resistance, which is exceedingly helpful on teams packed full of Water-types. In addition to its typing, Rotom-W can both set up and take advantage of Rain Dance. With a powerful STAB Thunder and a boosted Hydro Pump, it can become a powerful sweeper of its own accord as well as being a great support Pokemon. Rotom also has access to both Reflect and Light Screen, making it a great mid-game rain replenisher as it can set up both the rain and the screens to help your late-game sweeper clean up the opponent's team.</p>
+
+<p>Useful Moves: Rain Dance, Thunder, Hydro Pump, Shadow Ball, Hidden Power Ice, Reflect, Light Screen</p>
+
+<p>Rating - *****</p>
+
+<p><img src="/download/sprites/dp/121.png" alt="" /></p>
+<p><a href="/dp/pokemon/starmie">Starmie</a> - If you're looking for a fast, bulky, yet offensive Pokemon that can function as both a sweeper and a supporter, then you have to look no further than Starmie. Its base 115 Speed means that it will be outrunning almost all opposition, letting it pull off a Rain Dance before an opponent can attack or Taunt it. The fun doesn't stop there - in the rain, Starmie becomes a scary sweeper with boosted Surf / Hydro Pump and a powerful Thunder attack, all coming off a respectable 100 base Special Attack. Starmie also excels in terms of support, being able to use Reflect, Light Screen, and Rapid Spin to great effect. With decent HP investment and Recover, Starmie can function as a Rain Dance setter many times over in the same battle, and its Natural Cure ability means that it can switch into Toxic Spikes, spin them away, and then switch out and cure its poisoning. All these aspects come together to make Starmie a fine choice for an OU Rain Dance team.</p>
+
+<p>Useful Moves: Rain Dance, Surf, Thunder, Recover, Hydro Pump, Ice Beam, Rapid Spin, Reflect, Light Screen</p>
+
+<p>Rating - ****</p>
+
+<p><img src="/download/sprites/dp/260.png" alt="" /></p>
+<p><a href="/dp/pokemon/swampert">Swampert</a> - Swampert is another great Pokemon to help deal with auto-weather inducers. It makes a great switch into both Tyranitar and Hippowdon, hitting them hard with its STAB attacks. Swampert provides a great Electric-type immunity for a Rain Dance team and can also set up Stealth Rock without much bother if your lead is designed to do other things. Swampert can also set up Rain Dance with little trouble because of its excellent defenses and can make full use of the rain to boost the power of its own Water-type attacks. Unlike many of the Water-type Pokemon used on an offensive team, Swampert packs considerable bulk.</p>
+
+<p>Useful Moves: Rain Dance, Stealth Rock, Waterfall, Earthquake, Ice Beam, Hydro Pump, Ice Punch, Superpower</p>
+
+<p>Rating - ****</p>
+
+
+<p><img src="/download/sprites/dp/135.png" alt="" /></p>
+<p><a href="/dp/pokemon/jolteon">Jolteon</a> - Jolteon gives Rain Dance teams a very welcome Electric immunity. The numerous Water-types on Rain Dance teams draw out Electric-type attacks, giving Jolteon ample opportunities for safe switch-ins and healings with Volt Absorb. Jolteon can also use the rain to its fullest with a powerful and extremely fast STAB Thunder that can tear apart all but dedicated special walls.</p>
+
+<p>Jolteon can also be very effective at passing boosts and Substitutes to your sweepers, allowing them to sweep entire teams with just this little support. Special Attack boosts (gained by either Charge Beam or Petaya Berry) are very well appreciated by Kingdra and Ludicolo, and in the latter case a resisted Earthquake to switch into is also appreciated. With just a single Special Attack boost and Life Orb, one of these Pokemon can rip an opposing team lacking a Blissey apart by themselves. Keep in mind, Jolteon may not be the best choice for a team that has a frail lead, due to Jolteon being rather frail itself.</p>
+
+<p>Useful Moves: Thunder, Rain Dance, Hidden Power Grass, Shadow Ball, Hidden Power Ice, Charge Beam, Substitute, Baton Pass</p>
+
+<p>Rating - ***</p>
+
+<h3><a name="uu_support">UU</a></h3>
+
+<p><img src="/download/sprites/dp/171.png" alt="" /></p>
+<p><a href="/dp/pokemon/lanturn">Lanturn</a> - In the lower tiers, Lanturn is one of the best possible support Pokemon a rain team could wish for. With an immunity to Electric attacks and excellent resistances to Water, Fire, and Ice, Lanturn can take most special attacks all day long with little worry. It resists the common BoltBeam combination, a feat very few Pokemon can boast. The rain gives Lanturn several significant advantages, namely a boosted STAB Surf or Hydro Pump attack and the ability to use a much more powerful STAB Thunder attack. Lanturn makes an excellent user of Rain Dance because of its bulk and great resistances, and once having set it up, it can make great use of its base 76 Special Attack.</p>
+
+<p>Useful Moves: Rain Dance, Thunder, Hydro Pump, Surf, Ice Beam, Thunder Wave, Toxic</p>
+
+<p>UU Rating - *****<br />
+OU Rating - ***</p>
+
+<p><img src="/download/sprites/dp/379.png" /></p>
+<p><a href="/dp/pokemon/registeel">Registeel</a> - Registeel's high defenses let it set up Rain Dance easily. It can also set up Stealth Rock which is invaluable for Rain Dance teams. Nasty Plot Toxicroak causes mayhem for Rain Dance teams, but Registeel can take a boosted Vacuum Wave and Earthquake Toxicroak into oblivion. It can also Explode once finished to get one your Swift Swim sweepers in for free. A Grass-type resistance is valuable in UU, otherwise powerful Leaf Storms from Sceptile could tear through your team.</p>
+
+<p>Useful Moves: Rain Dance, Stealth Rock, Earthquake, Explosion, Iron Head, Toxic, Thunder Wave</p>
+
+<p>UU Rating - *****<br />
+OU Rating - ***</p>
+
+<p><img src="/download/sprites/dp/334.png" alt="" /></p>
+<p><a href="/dp/pokemon/altaria">Altaria</a> - Altaria provides a very useful Ground-type immunity as well as Grass- and Fighting-type resistances. This makes it a great partner to many of the Water/Rock-types of UU such as Omastar and Kabutops. It can not only provide valuable Rain Dance support but also use Heal Bell to rid your team of status, something which could very useful for dealing with paralysis. Although very risky, Altaria can use Sing to incapacitate an opponent, but its low accuracy may let it down. Luckily, unlike frail Rain Dance supporters such as Persian, Altaria's high defenses give it more chances to use it. Perish Song can also be used to force switches or stop you from being stalled out by your opponent's last Pokemon.</p>
+
+<p>Useful Moves: Rain Dance, Roost, Heal Bell, Dragon Claw, Earthquake, Dragon Pulse, Toxic, Sing, Perish Song</p>
+
+<p>UU Rating - ****<br />
+OU Rating - **</p>
+
+<p><img src="/download/sprites/dp/36.png" alt="" /></p>
+<p><a href="/dp/pokemon/clefable">Clefable</a> - Clefable makes a good user of Rain Dance because of its bulk, which is further enhanced by its instant recovery moves and its Magic Guard ability. Clefable can take most special hits with ease, and it can give itself ample opportunities to set up Rain Dance with Encore. Encore also forces switches, scouting the opposing team and causing residual damage. With Softboiled, Clefable has a very reliable move for healing itself. However, Clefable's biggest attraction is its ability to use Wish to support both itself and the rest of the team. It can heal beleaguered sweepers who have taken lots of recoil damage and allow them a second sweep. Alongside Protect, it also allows Clefable to heal itself with a good degree of reliability. To put it simply, when it comes to support options, Clefable is one of the best in UU.</p>
+
+<p>Useful Moves: Rain Dance, Wish, Protect, Encore, Seismic Toss, Light Screen, Reflect, Toxic, Ice Beam, Thunder Wave</p>
+
+<p>UU Rating - ****<br />
+OU Rating - **</p>
+
+<p><img src="/download/sprites/dp/344.png" alt="" /></p>
+<p><a href="/dp/pokemon/claydol">Claydol</a> - With very welcome immunities to Electric- and Ground-type attacks and helpful resistances to Fighting- and Rock-type moves, Claydol makes a great user of Rain Dance and a supporter as a whole. It has high defensive stats, a nice typing, and a very wide support movepool. It has access to Rain Dance, Stealth Rock, Rapid Spin, and Reflect and Light Screen, meaning one is spoilt for choices when using Claydol as to which support moves to use. It can work like an UU Bronzong with a Rain Dance, Screens / Stealth Rock, Explosion movepool, or it can be a much longer lasting support Pokemon that can utilize Rapid Spin well. The damage on rain sweepers adds up very quickly when you consider they are taking 12.5% damage every time they switch in and 10% every time they attack, so Claydol helps your sweepers last a lot longer by removing that annoying Stealth Rock residual damage.</p>
+
+<p>Useful Moves: Rain Dance, Stealth Rock, Rapid Spin, Explosion, Earth Power, Earthquake, Reflect, Light Screen</p>
+
+<p>UU Rating - ****<br />
+OU Rating - **</p>
+
+<p><img src="/download/sprites/dp/51.png" alt="" /></p>
+<p><a href="/dp/pokemon/dugtrio">Dugtrio</a> -  In UU Dugtrio can trap and kill Chansey, Toxicroak, and weakened Registeel, making it a fine choice should you have trouble with them. Dugtrio is very helpful at trapping and removing two big hindrances to Rain Dance teams in OU: Tyranitar and Blissey. Tyranitar's Sand Stream is one of the best ways to counter a rain team's assault, and a smart opponent can just keep switching Tyranitar in over and over again to repeatedly ruin the team's rain. Dugtrio takes away Tyranitar's luxury to switch with its Arena Trap ability. It does a similar job to Blissey, who can easily take even the strongest rain special attackers' attacks without too much bother. Dugtrio 2HKOes both Pokemon with a powerful Choice Band Earthquake, immediately opening up an opponent's team to a sweep by a rain abuser waiting in the wings. Although holding a Choice Band is the best option in OU, Dugtrio can function with a Life Orb in UU, because the targets of its attacks have weaker Defense, and being able to switch attacks will prevent having to switch a frail Pokemon in when Dugtrio is trapped into an ineffective move due to Choice Band.</p>
+
+<p>Useful Moves: Earthquake, Stone Edge, Sucker Punch, Aerial Ace, Night Slash</p>
+
+<p>UU Rating - ****<br />
+OU Rating - ****</p>
+
+
+<p><img src="/download/sprites/dp/484.png" alt="" /></p>
+<p><a href="/dp/pokemon/rotom">Rotom</a> - Much like Rotom-W in OU, the basic Rotom forme makes an excellent support Pokemon in the lower tiers. Like Claydol, it provides resistances/immunities to Ground-, Electric-, and Fighting-type moves, and can set up rain and dual screens. It can also use a powerful STAB Thunder in the rain, but misses out on the Hydro Pump its advanced forme gets. Rotom's typing is extremely useful in UU where the most common rain sweepers have weaknesses to all three of Ground, Fighting, and Electric, and so Rotom has ample opportunity to switch-in on these resisted hits to restart the rain.</p>
+
+<p>Useful Moves: Rain Dance, Thunder, Shadow Ball, Will-O-Wisp, Reflect, Light Screen, Hidden Power Grass, Hidden Power Fighting</p>
+
+<p>UU Rating - ****</p>
+
+
+<h2><a name="threats">Threats</a></h2>
+
+<p>As with all playing styles, there are several Pokemon that can cause a rain team trouble. Either by resisting all the sweeper's attacks, spreading debilitating status throughout your team, or by stealing your weather - these are all threats that should be taken into consideration when building a rain team. Again, each Pokemon will be given a rating out of five stars, this time giving an idea of how threatening it is.</p>
+
+<h3><a name="ou_threats">OU</a></h3>
+
+<p><img src="/download/sprites/dp/248.png" alt="" /></p>
+<p><a href="/dp/pokemon/tyranitar">Tyranitar</a> - Possibly rain teams' biggest nemesis, the ubiquitous Tyranitar should be at the forefront of your thoughts when considering support Pokemon for your team. Its Sand Stream ability cancels out rain upon its entry into battle, and if left unchecked it can repeatedly switch in and interrupt your sweep, totally ruining your momentum. Despite its weakness to Water, its high Special Defense and the boost granted to it in the sandstorm means that it can take them without too much bother.</p>
+
+<p>Tyranitar is definitely a Pokemon to be wary of. However, Tyranitar will find it hard to repeatedly switch into super effective Water attacks, so it is not too hard to beat if you stay on the offensive. Dugtrio and Scizor also make excellent revenge killers.</p>
+
+<p>Threat level - *****</p>
+
+
+<p><img src="/download/sprites/dp/130.png" alt="" /></p>
+<p><a href="/dp/pokemon/gyarados">Gyarados</a> - With solid defenses, resistance to Water-type moves, and a powerful Attack stat, Gyarados can be a major pain for Rain Dance teams. The standard Mixed Kingdra won't be hurting it after suffering a Special Attack drop from Draco Meteor, meaning Gyarados can set up a Dragon Dance and cause some mayhem. If it somehow gets two Dragon Dances in, it's pretty much game over. Luckily, Kabutops's +1 Stone Edge will OHKO, and putting Hidden Power Electric on one of your Swift Swim sweepers can grab a surprise OHKO. With the right amount of Speed investment, Kingdra can outspeed even +2 Jolly Gyarados in the rain and take it out with Hidden Power Electric.</p>
+
+<p>Threat Level - *****</p>
+
+<p><img src="/download/sprites/dp/230.png" alt="" /></p>
+<p><a href="/dp/pokemon/kingdra">Kingdra</a> - It shouldn't be surprising that a Rain Dance team's greatest asset can become its greatest enemy. With the ability to outspeed most Pokemon used on Rain Dance teams, even other Kingdra who usually opt for less Speed will destroy any unprepared Rain Dance team. Outrage by itself can rampage through most Rain Dance team members. Also, Kingdra commonly uses Substitute, which means you can't just take a hit and then Explode on it to take it out. Luckily, it isn't too hard to trick Kingdra into using Outrage, allowing you to switch Bronzong or Jirachi in and KO it. However, if your Steel-type is down, you are in for a world of pain.</p>
+
+<p>Threat Level - *****</p>
+
+<p><img src="/download/sprites/dp/134.png" alt="" /></p>
+<p><a href="/dp/pokemon/vaporeon">Vaporeon</a> - The fact that Vaporeon makes Ludicolo consider Energy Ball over Grass Knot, the former of which hits pretty much every other Water-type weaker, shows how much of a threat Vaporeon is. Vaporeon's Water Absorb ability makes even the strongest Rain Dance sweeper think twice before launching Surfs all over the place. With an excellent Special Defense and Defense stats backed by massive HP, Vaporeon is a very tough opponent to take down. The fact that it can stall out rain with Wish + Protect, or even use it against you with boosted Surfs, make it a very annoying enemy to have to face. Luckily, its physical defenses aren't the best, and so a strong physical attacker like Kabutops or Qwilfish shouldn't have too much of a problem with the mermaid. Having a powerful abuser of Thunder, such as Zapdos, on your team can also help against this threat.</p>
+
+<p>Threat Level - *****</p>
+
+<p><img src="/download/sprites/dp/251.png" alt="" /></p>
+<p><a href="/dp/pokemon/celebi">Celebi</a> - Celebi's Grass typing affords it a valuable resistance to Rain Dance teams' primary attacks, and with Thunder Wave, Grass Knot, Calm Mind, etc, Celebi can be quite the nuisance. It has very bulky 100/100/100 defensive stats and instant recovery in the form of Recover (and Leech Seed), so this makes it quite a challenge to take out. Kingdra and Kabutops have access to Bug attacks, however, which can OHKO the flying cabbage. Qwilfish can also do a lot of damage with Poison Jab; after a Swords Dance boost, it will OHKO. Many rain support Pokemon can also utilize U-turn which is a very strong weapon to use against Celebi.</p>
+
+<p>Threat Level - *****</p>
+
+
+<p><img src="/download/sprites/dp/73.png" alt="" /></p>
+<p><a href="/dp/pokemon/tentacruel">Tentacruel</a> - Tentacruel is one of the biggest threats to Rain Dance teams, all because of one move: Toxic Spikes. With its massive Special Defense and resistance to both Ice and Water, Tentacruel usually has little trouble setting up the dreaded Toxic Spikes against a Rain Dance team. The spikes are one of the most efficient ways of beating a Rain Dance team, as the majority of rain sweepers will be worn down extremely quickly from Life Orb + Toxic poison damage. This is where Qwilfish becomes so much more appealing on Rain Dance teams, with its inherent ability to absorb the Toxic Spikes.</p>
+
+<p>Tentacruel doesn't take much from super effective Hidden Power Electrics with its excellent base 120 Special Defense, so the only thing that it really fears on a Rain Dance team is Kabutops's boosted Stone Edge, Qwilfish's Explosion, and the threat of a Dugtrio. Using Swords Dance Ludicolo on your team can be useful for taking out this threat. Tentacruel will most likely switch in, thinking you're specially oriented, only to let you get up a Swords Dance and, with the aid of Stealth Rock, take it out with a +2 Seed Bomb.</p>
+
+<p>Threat Level - *****</p>
+
+
+<p><img src="/download/sprites/dp/242.png" alt="" /></p>
+<p><a href="/dp/pokemon/blissey">Blissey</a> - Blissey, the best special wall in the game, can be a real pain to Rain Dance teams that rely a bit too heavily on special attackers. It can switch in with impunity against pure special attacking Pokemon, so it is strongly recommended that unless you run a Dugtrio, you have at least one mixed attacker or pure physical sweeper. Blissey can also cripple sweepers with Thunder Wave or hit super effectively with Thunderbolt. Alternatively, Wish + Protect stalling can mean that your eight turns of rain are gone before you know it. Blissey is a very common threat that all good Rain Dance teams should have a plan for.</p>
+
+<p>Threat Level - ****</p>
+
+
+<p><img src="/download/sprites/dp/465.png" alt="" /></p>
+<p><a href="/dp/pokemon/abomasnow">Abomasnow</a> - Abomasnow is one of the greatest threats to Rain Dance teams, but thankfully it is quite uncommon. With bulky HP and Special Defense stats and a typing with a few key resistances, Abomasnow can switch into almost all Water-types and take little damage, while posing an immediate threat with Wood Hammer and Grass Knot. Even if it weren't for Abomasnow's Snow Warning ability, it would make a fine counter to Rain Dance teams. As it stands, the fact that Abomasnow can bring your whole sweep to a grinding halt with a simple switch in is reason enough to pack a counter for this abominable snow tree. This is one of the reasons why Scizor and Dugtrio can be such big assets.</p>
+
+<p>Threat Level - ****</p>
+
+
+<p><img src="/download/sprites/dp/398.png" alt="" /></p>
+<p><a href="/dp/pokemon/empoleon">Empoleon</a> - Empoleon is a threat to Rain Dance teams because of its resistances to Water and Ice (4x) and its high Special Defense. Empoleon is also neutral to Grass, is immune to Poison (making it a great Qwilfish counter), and resists Rock, which allows it to come in on Stone Edges and Rock Slides unperturbed. Empoleon can also take all common attacks from Kingdra, Rain Dance teams' main weapon, with ease. With a high Special Attack of its own to take advantage of the rain and access to Grass Knot, Empoleon can become a major hindrance to a clean rain sweep and usually requires quite a bit of sacrifice to take out.</p>
+
+<p>Threat Level - ****</p>
+
+
+<p><img src="/download/sprites/dp/455.png" alt="" /></p>
+<p><a href="/dp/pokemon/hippowdon">Hippowdon</a> - Hippowdon isn't as much of a threat as Tyranitar and Abomasnow are, but it is still worth taking into consideration since it can also halt your sweep and kill your momentum with a moment's notice. Thankfully, Hippowdon doesn't have the best Special Defense and it isn't boosted in sandstorm, meaning a strong Water attack should be able to take him down.</p>
+
+<p>Threat Level - ***</p>
+
+<h3><a name="uu_threats">UU</a></h3>
+
+<p><img src="/download/sprites/dp/459.png" alt="" /></p>
+<p><a href="/dp/pokemon/toxicroak">Toxicroak</a> - With its Dry Skin ability, not only do Water-type attacks only heal Toxicroak, but it recovers a large amount of HP every turn in the rain as well. This means that despite its not-so-stellar defenses, Toxicroak can wall many Rain Dance sweepers on the spot. Its Fighting typing means that Rock attacks won't be doing too much either, while Toxicroak can hit back with STAB Fighting attacks against the Rock-typed sweepers. With a Nasty Plot set, it can often destroy whole Rain Dance teams by itself, and Kabutops's Aqua Jet won't save it unlike against many other priority users.</p>
+
+<p>However, Toxicroak is neutral to Ice Beam, and with its poor Special Defense they can easily 2-3HKO most Toxicroak. It also needs to be very wary of Relicanth's Earthquake, Omastar's Earth Power, and Gorebyss's Psychic.</p>
+
+<p>Threat Level - *****</p>
+
+
+<p><img src="/download/sprites/dp/350.png" alt="" /></p>
+<p><a href="/dp/pokemon/milotic">Milotic</a> - Milotic is why you need Ludicolo. High defenses help it take most attacks from Rain Dance teams without too much trouble. It forces Qwilfish to Explode, and since Milotic is often partnered with a Ghost-type, it may just end up a waste. It can stall out your Rain Dance turns with Recover while your sweepers die to Life Orb recoil. Hidden Power Grass from Omastar and Gorebyss will do just over 50%, but this is not enough to stop Milotic stalling you, barring a critical hit. A +2 Stone Edge from Kabutops barely succeeds in OHKOing with Stealth Rock down, and this just shows the bulk of this serpent. If Ludicolo is down, you better be prepared for a painful experience.</p>
+
+<p>Threat Level - *****</p>
+
+
+<p><img src="/download/sprites/dp/113.png" alt="" /></p>
+<p><a href="/dp/pokemon/chansey">Chansey</a> - For the same reasons as Blissey is in OU, Chansey is a major nuisance in UU. It can wall all the special Swift Swim sweepers with ease and can use Toxic and Wish + Protect to stall out your Rain Dance turns as well as your sweepers. Because Chansey is often paired with a bulky Water-type, it will be difficult for the likes of Floatzel, Kabutops, and Qwilfish to deal with it. Putting Focus Punch on Ludicolo or using a Swords Dance Ludicolo is a good way to turn the tables on Chansey.</p>
+
+<p>Threat Level - ****</p>
+
+
+<p><img src="/download/sprites/dp/237.png" alt="" /></p>
+<p><a href="/dp/pokemon/hitmontop">Hitmontop</a> - With access to Bullet Punch, Fake Out, Mach Punch, and Sucker Punch, Hitmontop is a major pain to Rain Dance teams. Whether it has Technician or Intimidate as its ability, its going to cause some pain. TechniTop can take out a lot of members of Rain Dance teams with a combination of Fake Out + Mach Punch, while the Intimidate versions will annoy your physical sweepers by cutting their Attack, and then hitting back with priority. It therefore can easily finish off a weakened Rain Dance team. Your best bet is to ensure you keep one of your members on high health until you know your opponent doesn't have Hitmontop.</p>
+
+<p>Because of Hitmontop, its usually not a good idea to have too many Water/Rock-type Swift Swim sweepers. Uxie can do very well against it, only fearing Sucker Punch, while hitting back with Psychic. Aqua Jet priority from Kabutops can be useful but don't expect it to OHKO, even after a Swords Dance, as Hitmontop's high Defense will let it take it. Its still a nice way to finish off a weakened Hitmontop before it hits you. Rotom is another nice Pokemon to deal with it. Being immune to Fighting- and Normal-type attacks is a huge asset against Hitmontop, while in the rain, Rotom can fire off powerful STAB Thunder attacks to injure Hitmontop.</p>
+
+<p>Threat Level - ****</p>
+
+
+<p><img src="/download/sprites/dp/171.png" alt="" /></p>
+<p><a href="/dp/pokemon/lanturn">Lanturn</a> - A great supporter is also a great threat. Luckily, it's not too common, but with high Special Defense, an Electric-type immunity, as well as access to Discharge and Thunder Wave to cripple your sweepers, it can cause some problems. The rain may help your team, but since many Rain Dance sweepers in UU are neutral to Water-type moves, taking boosted Surfs may not be an easy task for many of your Pokemon. However, Lanturn's physical defense isn't too great, meaning once your physical Swift Swim sweepers are in, they shouldn't have too much trouble taking care of it; the problem is switching in.</p>
+
+<p>Threat Level - ****</p>
+
+
+<p><img src="/download/sprites/dp/292.png" alt="" /></p>
+<p><a href="/dp/pokemon/shedinja">Shedinja</a> - A strange threat, but a very legitimate one in any case. Shedinja is immune to the movesets of the majority of rain sweepers, fearing only Kabutops's Stone Edge and the rare AncientPower from Omastar. Apart from that, Shedinja can easily outstall an entire team by taking nothing from any attacks thrown at it. As most teams running Shedinja also carry a Rapid Spinner, Stealth Rock usually isn't too much of an issue to it. In OU, as neither you nor the player using Shedinja is going to be carrying an auto-weather inducer, that is one less threat to Shedinja's frail existence. Because of this, Shedinja has little difficulty in beating the whole rain team by itself. Although it's very rare, you don't want an automatic loss every time you face one, so it is recommended that you run a move that can hit Shedinja on at least one, maybe two or more of your Pokemon, such as Dugtrio's Sucker Punch / Stone Edge / Rock Slide, Kabutops's Stone Edge, or Rotom's Shadow Ball. Additionally, packing entry hazards, status moves like Toxic, or other passive damage moves such as Leech Seed on Ludicolo will deal with Shedinja as well, albeit less directly.</p>
+
+<p>Threat Level - ****</p>
+
+
+<p><img src="/download/sprites/dp/195.png" alt="" /></p>
+<p><a href="/dp/pokemon/quagsire">Quagsire</a> - Quagsire can take on all rain sweepers without Hidden Power Grass with ease. Its Ground typing affords it valuable resistances to Rock- and Poison-type moves, allowing it to switch in on Qwilfish and Kabutops with ease. Water Absorb means that it won't be taking anything from Surf or Hydro Pump. Quagsire is reason enough to consider running Hidden Power Grass on your sweepers, but one must remember that with Hidden Power Grass, many sweepers will be unable to do a thing to Mantine. Thankfully, Mantine is much more uncommon so you can put Hidden Power Grass on your special sweepers without much fear, making Quagsire easier to deal with.</p>
+
+<p>Threat Level - ****</p>
+
+
+<p><img src="/download/sprites/dp/359.png" alt="" /></p>
+<p><a href="/dp/pokemon/absol">Absol</a> - Sucker Punch priority is what makes this annoying, since it can easily finish off a weakened Rain Dance team as most members take 50%+ from Sucker Punch. However, when Kabutops uses Aqua Jet, Sucker Punch will fail, and after a Swords Dance, Aqua Jet will OHKO Absol. As long as your sweepers are in good health, you'll be fine as it can't take boosted Water-type attacks. Prediction is your best bet against this beast.</p>
+
+<p>Threat Level - ****</p>
+
+
+<p><img src="/download/sprites/dp/282.png" alt="" /></p>
+<p><a href="/dp/pokemon/gardevoir">Gardevoir</a> - It can Trace Swift Swim, which can be a problem. It will often be faster than your Swift Swim sweepers, while its base 125 Special Attack means it can fire off powerful Thunderbolts to injure your team. Luckily, it's rather uncommon, but you still must be prepared for it. Adamant Qwilfish is faster than Modest Gardevoir, while Jolly Qwilfish is faster than all barring the rare Choice Scarf Gardevoir, so Qwilfish can do well in revenge killing Gardevoir.</p>
+
+<p>Threat Level - ****</p>
+
+
+<p><img src="/download/sprites/dp/272.png" alt="" /></p>
+<p><a href="/dp/pokemon/ludicolo">Ludicolo</a> - Ludicolo can deal with most special sweepers on a UU Rain Dance team with its STAB Grass-type attacks, making it a legitimate threat. It can also use the SubSeed strategy to stall your precious Rain Dance turns. Qwilfish resists or is neutral to Ludicolo's three main attacking types (Grass, Ice, and Water) and can KO with Poison Jab. Kabutops can prey on its weaker Defense and hit it with Stone Edge, but it needs to watch out for Ludicolo's STAB Grass- and Water-type attacks.</p>
+
+<p>Threat Level - ***</p>
+
+<p><img src="/download/sprites/dp/62.png" alt="" /></p>
+<p><a href="/dp/pokemon/poliwrath">Poliwrath</a> - Poliwrath makes a great counter for the Rock / Water sweepers in UU, as it resists both their STAB moves and can hit them back with super effective Fighting-type attacks or boosted unresisted Water-type attacks. Poliwrath's Water Absorb ability also makes it a good switch-in into Water-type attacks from the other Rain Dance sweepers, but super effective Hidden Powers do hurt quite a bit. Psychic from Gorebyss does a fair chunk too, and Grass-type attacks from Ludicolo will destroy it.</p>
+
+<p>Threat Level - ***</p>
+
+
+<p><img src="/download/sprites/dp/226.png" alt="" /></p>
+<p><a href="/dp/pokemon/mantine">Mantine</a> - Mantine, with its huge Special Defense and Water Absorb, can be very hard to take down for Water-type Pokemon. Surf and Ice Beam don't bother it in the slightest. The presence of both Mantine and Quagsire in UU means that one must take a risk in choosing either Hidden Power Grass or Electric, as either way there will be one Pokemon that takes pitiful damage from all your attacks (either Quagsire or Mantine). With its mediocre physical Defense, Mantine, if you happen to come across one, can be beaten into submission with Kabutops or Relicanth, and most physical attackers are going to leave a mark in Mantine with neutral hits.</p>
+
+<p>Threat Level - ***</p>
+
+
+<p><img src="/download/sprites/dp/55.png" alt="" /></p>
+<p><a href="/dp/pokemon/golduck">Golduck</a> - An uncommon threat but still a legitimate one. With its unique Cloud Nine ability, Golduck causes the rain to effectively stop while it is play. Although the rain will continue to fall, none of its effects - the Water attack boost and Swift Swim's Speed boost - will come into play. This means that Golduck works in UU much like the auto-weather inducers play in OU - but for Golduck these benefits only remain in play while it does. However, Golduck is much more of a rain check than a counter, as neither it nor rain sweepers can do much to the other. It is best used to deprive Rain Dance sweepers of rain's effects until it runs out. Luckily, Ludicolo won't have much trouble it, nor will Golduck like taking a boosted Stone Edge from Kabutops.</p>
+
+<p>Threat Level - **</p>
+
+
+<h3><a name="ubers">Ubers</a></h3>
+
+<p>Rain offense in Ubers is a completely different ball game than in the other tiers. The main difference is the existence of Kyogre and its Drizzle ability, providing everlasting rain to your team, and eliminating the need for additional Pokemon being tasked to set up the rain.  This frees up more Pokemon that can be used on your rain team, such as having more sweepers or supporters for your sweepers. However, as Kyogre is usually your only source of rain and with the existence of Groudon and its debilitating sun and Rayquaza and its weather nullifying abilities, whoever controls the weather will most likely control the match. Having a solid team and good prediction skills is important to fully utilizing rain in Ubers, as the threats to rain teams are far harder to stop than in OU and UU. Generally, you will want the following on your team:</p>
+
+<ul>
+<li>Kyogre for its permanent rain.</li>
+<li>A Stealth Rock user to aid your sweepers.</li>
+<li>A Groudon, Rayquaza, and Tyranitar counter. A counter to opposing Kyogre is also very helpful. Anything that can get rid of your rain is a huge threat.</li>
+<li>Resistances to Ghost-, Dark-, Dragon-, Grass-, and Electric-type attacks (Ubers rain teams tend to be very vulnerable to these attack types).</li>
+<li>Rain abusers. These are best left to Swift Swim Pokemon, powerful Water-types, or just a powerful special attacker that can take advantage of firing off 100% accurate Thunders in the rain.</li>
+</ul>
+
+<p>Kyogre is an obvious choice; you would be best off using a physically defense set with Rest and Calm Mind. This allows Kyogre to remain an offensive threat while also giving it staying power, so it can come back in to set up the rain repeatedly. It is also capable of stopping Groudon and Tyranitar with this Defensive spread (it can even stop Rayquaza if you give it enough Defense and Ice Beam). If you just want to hit hard, a Choice Specs set is perfectly useable as well. The next thing you will want to decide on are your rain abusers. Generally, you will want at least two or three of them. Kingdra is probably the best rain abuser there is in Ubers. With Swift Swim, it gains well over 500 Speed, and is able to outrun even common Choice Scarfed Pokemon. Kingdra is blessed with an amazing dual STAB combination, so it can literally devastate many teams with a Dragon Dance or a mixed set. Palkia also works well with a mixed set; it is not as fast as Kingdra, but it is stronger, bulkier, and has a much wider movepool, so it may have an easier time against stall teams than Kingdra. Kabutops can easily abuse Swords Dance with its Swift Swim ability to rip open many Ubers teams once Groudon is out of the way. Manaphy can abuse its ability, Hydration, with Rest to restore all HP at will, enabling it to easily use Tail Glow to boost up for a lethal sweep. Ludicolo works well on teams that are more defensive, as it can abuse its Rain Dish ability, essentially restoring 18.5% of its health in the rain every turn (factoring in Leftovers), to stall out many opponents with Leech Seed and Substitute. So, as you can see, there are many rain abusers that are viable in Ubers.</p>
+
+<p>However, your sweepers will find their lives difficult if you do not have any supporters to help them do their jobs. To best pick your supporters, you decide on the Pokemon that will give your team trouble. Generally, there are a few specific Pokemon notorious for giving Ubers rain teams issues. As mentioned before, Groudon, Rayquaza, and Tyranitar are obviously problems because of their weather changing abilities, and will likely be your biggest threats. Special attackers such as Mewtwo frequently carry Thunder and will not hesitate to use it on your Water-type dominant team. Latias also utilizes Thunder, which can shut down the most prominant of Pokemon found on Uber Rain Dance teams: Kyogre, Manaphy, and Palkia. Dialga's many resistances, including those to Water and Electric, can prove to be troublesome, and as Dialga is also extremely bulky to boot, taking it down can be hard. Blissey is annoying as always, walling most of your special attackers with great ease. Shaymin-S is frail, but it can easily cause some damage with its Seed Flare, a 120 Base Power STAB Grass-type move that will likely OHKO the majority of your sweepers. Finally, Forretress is not a direct threat, but it can set up the dreaded Toxic Spikes, which will likely ruin the majority of your sweepers. Your best shot at stopping Groudon, Rayquaza, and Tyranitar is using a very physically defensive Kyogre set, as Kyogre is very bulky and can handle these threats with strong super effective Water- and Ice-type strikes. Scizor can easily take on Latias, Mewtwo, Blissey, Rayquaza (while it is locked into Outrage), and Shaymin-S with its powerful Bullet Punch, U-turn, or Pursuit. Metagross can also work in this role. It has a few advantages over Scizor, such as being a better check to Dialga with its much lesser Fire-type weakness and greater bulk. It can also lure Groudon in, only for the Rock Titan to be KOed to a Choice Band Explosion. A Latias of your own provides useful resistances to Grass- and Electric-type attacks. It checks Shaymin-S very well and also stops people from spamming Thunder against your team. Forretress is easily handled by your rain sweepers and Kyogre. Wobbuffet, though it doesn't directly counter anything, can use Encore and Safeguard in tandem with its Shadow Tag ability to buy precious time for your sweepers to come in and set up to sweep.</p>
+
+<p>Lastly, now that your sweepers and supporters have been decided, it is time to pick a lead. You are preferably going to want something that can set up Stealth Rock reliably and easily. Dialga is an excellent choice because it can set up Stealth Rock, provide valuable resistances to Grass- and Electric-type attacks, and it can easily destroy Groudon leads with Draco Meteor, as they tend to actually stay in on Dialga. Deoxys-A can also maim Groudon while setting up Stealth Rock and even Spikes. Forretress is another good choice because it can set up all three entry hazards as well as having Rapid Spin to remove the enemy's entry hazards from the battle.</p>
+
+
+<h2><a name="example">Example Teams</a></h2>
+
+<p>Here I will give you an example of a Rain Dance team for the Uber, OU, and UU tiers, and explain all my choices clearly. This will help give you an idea of what Pokemon go well together, and hopefully aid you in making your own Rain Dance team.</p>
+
+<h3><a name="ou_team">OU</a></h3>
+
+<p>Azelf @ Damp Rock<br />
+Ability: Levitate<br />
+EVs: 252 HP / 4 Atk / 252 Spe<br />
+Jolly nature (+Spe, -SpA)<br />
+- Rain Dance<br />
+- Stealth Rock<br />
+- Taunt<br />
+- Explosion</p>
+
+<p>It is hard to use any other lead than Azelf in OU. Stealth Rock is vital to Rain Dance teams' success and there aren't many better than Azelf to set it up. It can afford to put lots of EVs into HP, because of its already high Attack, and so can carry Damp Rock to give your Rain Dance teams those eight turns of rain they crave. Azelf can easily set up Rain Dance and Stealth Rock against all the common leads barring Aerodactyl leads with Taunt, Meteor Mash + Bullet Punch Metagross leads who have a very high chance to 2HKO Azelf, and Choice Scarf Jirachi leads. Taunt allows you to stop slow bulky leads such as Hippowdon and Swampert from setting up Stealth Rock while they can do little back, barring the odd Hydro Pump or Waterfall on Swampert. It also stops Roserade and Smeargle leads from putting you to sleep and then setting up those deadly Spikes and Toxic Spikes that hinder your Rain Dance team. Azelf also has the deadly Explosion which can help you make holes in teams as well as getting in a Swift Swim sweeper for free.</p>
+
+<p>Kingdra @ Life Orb<br />
+Ability: Swift Swim<br />
+EVs: 252 Atk / 240 SpA / 16 Spe<br />
+Naughty nature (+Atk, -SpD)<br />
+- Waterfall<br />
+- Hydro Pump<br />
+- Draco Meteor<br />
+- Rain Dance</p>
+
+<p>Kingdra is one of those Pokemon that's very hard to not have on your Rain Dance team and for good reasons. The Mixed Sweeper is great for ripping apart your opponent's team, and can do a number to stall teams. Waterfall hits the very specially defensive Pokemon harder while Hydro Pump takes care of the physically defensive ones. Draco Meteor is insanely powerful and is your main attack to hit the Water-type resists. It can also set up Rain Dance itself; especially on Choice Scarf Heatran stuck into Fire Blast. This Kingdra is mainly an early-game attacker that blows holes in your opponent's team for the rest of your team to abuse.</p>
+
+<p>Bronzong @ Damp Rock<br />
+Ability: Levitate<br />
+EVs: 252 HP / 128 Atk / 128 Def<br />
+Impish nature (+Def, -SpA)<br />
+- Rain Dance<br />
+- Explosion<br />
+- Reflect<br />
+- Light Screen</p>
+
+<p>Bronzong is the most reliable Rain Dance support Pokemon there is. Barring Taunt and very powerful Fire-type attacks, nothing can take it out in one hit. Explosion allows Bronzong to blow holes in teams, and is a great move for Rain Dance teams to abuse. Its ability to set up both dual screens is very useful to Rain Dance teams as it helps them take hits better or set up a Swords Dance easier. Damp Rock is used over Light Clay as eight turns of rain are more beneficial than eight turns of the dual screens.</p>
+
+<p>Qwilfish @ Life Orb<br />
+Ability: Swift Swim<br />
+EVs: 4 HP / 252 Atk / 252 Spe<br />
+Adamant nature (+Atk, -SpA)<br />
+- Swords Dance<br />
+- Waterfall<br />
+- Poison Jab<br />
+- Explosion</p>
+
+<p>Qwilfish faces a lot of competition with Kabutops for a slot. The advantage it brings to this team is absorbing Toxic Spikes which would otherwise rip this team apart. Qwilfish doesn't have too much trouble setting up a Swords Dance as many Pokemon are scared off by rain-boosted Water-type attacks. Waterfall is a very powerful attack in the rain; after a Swords Dance, even the bulkiest of physical walls will fall when they are around 85%. Qwilfish also deals with Celebi thanks to its STAB Poison Jab, and this is very useful since this team hates Celebi. Qwilfish will OHKO almost everything with Explosion after a Swords Dance and so this is a great way of getting rid of a Pokemon which is causing your team a lot of trouble. Qwilfish is very fast in the rain, and so even Timid Choice Scarf Gengar can't revenge kill it.</p>
+
+<p>Scizor @ Damp Rock<br />
+Ability: Technician<br />
+EVs: 200 HP / 56 Atk / 252 SpD<br />
+Adamant nature (+Atk, -SpA)<br />
+- Rain Dance<br />
+- Bullet Punch<br />
+- U-turn<br />
+- Roost</p>
+
+<p>Scizor gives this Rain Dance team very useful priority, as well as dealing with both Tyranitar and Abomasnow whose weather changing abilities will annoy your Rain Dance team. It is very reliable at setting up eight turns of Rain Dance thanks to its bulk and many resistances, while Roost allows it to stay alive longer to set up Rain Dance many times. Scizor is slow compared to most Pokemon, and this allows it to use U-turn to great success as it will most likely be the one taking the hit allowing it to get a Swift Swim sweeper in for free.</p>
+
+<p>Ludicolo @ Life Orb<br />
+Ability: Swift Swim<br />
+EVs: 60 HP / 252 SpA / 196 Spe<br />
+Modest nature (+SpA, -Atk)<br />
+- Surf<br />
+- Energy Ball<br />
+- Ice Beam<br />
+- Rain Dance</p>
+
+<p>Ludicolo is a great late-game finisher on Rain Dance teams, as well as a good Pokemon to deal with the bulky Water-types Rain Dance teams hate. Surf is incredibly powerful in the rain, and not many Pokemon can easily take it. Energy Ball is preferred over Grass Knot on this team because it hates Vaporeon, and with Grass Knot Vaporeon could stall Ludicolo out of Life Orb recoil. Ice Beam deals with the Dragon- and Grass-types which laugh at its other attacks. Rain Dance takes the last slot as you can never have too many Pokemon with Rain Dance, and Ludicolo already has great coverage with the other three attacks. With the EVs Ludicolo outspeeds +1 neutral base 100s, and the HP EVs help it take hits better.</p>
+
+
+<h3><a name="uu_team">UU</a></h3>
+
+<p>Electrode @ Damp Rock<br />
+Ability: Static<br />
+EVs: 252 Atk / 28 SpA / 228 Spe<br />
+Hasty nature (+Spe, -Def)<br />
+- Rain Dance<br />
+- Explosion<br />
+- Taunt<br />
+- Thunder</p>
+
+<p>Electrode is the faster user of Rain Dance there is, and so almost guarantees you will set it up making it a great choose for this team. Explosion lets it go out with a bang, and do some good damage while letting you get in a Swift Swim sweeper in for free. It can Taunt slower leads that try and set up Stealth Rock or put you to sleep, and also take advantage of a STAB 100% accurate Thunder in the rain.</p>
+
+<p>Kabutops @ Life Orb<br />
+Ability: Swift Swim<br />
+EVs: 72 HP / 252 Atk / 184 Spe<br />
+Adamant nature (+Def, -Atk)<br />
+- Swords Dance<br />
+- Waterfall<br />
+- Stone Edge<br />
+- Aqua Jet</p>
+
+<p>Kabutops is a beast and a great sweeper for a Rain Dance team. With Sucker Punch being very common, this can give you a great chance to set up a Swords Dance. Kabutops has the highest Attack of all Swift Swim sweepers making Waterfall an insanely powerful attack. Stone Edge complements Waterfall by hitting most Water-type resists hard. Perhaps the greatest asset Kabutops brings to this team is Aqua Jet priority. This is very useful considering how much priority there is in UU. Assuming Kabutops is faster, when using Aqua Jet, Sucker Punch will fail, allowing you to bypass what otherwise could prove fatal to Kabutops.</p>
+
+<p>Uxie @ Damp Rock<br />
+Ability: Levitate<br />
+EVs: 252 HP / 252 Def / 4 SpD<br />
+Bold nature (+Def, -Atk)<br />
+- Rain Dance<br />
+- Stealth Rock<br />
+- Memento<br />
+- Psychic</p>
+
+<p>Uxie is the most reliable Pokemon in UU at setting up both Rain Dance and Stealth Rock. Stealth Rock is so important for Rain Dance teams as it makes it harder for opponents to just switch around to waste your Rain Dance teams as well as bringing Milotic among others into +2 Stone Edge range. Memento is an amazing move to abuse as it almost guarantees that Kabutops will be able to set up a Swords Dance. Psychic is chosen in the last slot because it hits Toxicroak hard who is a pain for UU Rain Dance teams.</p>
+
+<p>Ludicolo @ Life Orb<br />
+Ability: Swift Swim<br />
+EVs: 120 Atk / 252 SpA / 136 Spe<br />
+Modest nature (+SpA, -Atk)<br />
+- Surf<br />
+- Grass Knot<br />
+- Ice Beam<br />
+- Focus Punch</p>
+
+<p>Ludicolo deals with the bulky Water-types this team hates. It also lures in Chansey and takes it out with Focus Punch + Surf allowing it an easier time at sweeping. Ludicolo helps rip your opponent's team apart to let the rest of your sweepers finish them off. Surf, Grass Knot, and Ice Beam provide amazing coverage in UU. Since most Water-type Pokemon in UU are heavy, Grass Knot is chosen over Energy Ball.</p>
+
+<p>Lanturn @ Damp Rock<br />
+Ability: Volt Absorb<br />
+EVs: 40 HP / 216 SpA / 252 SpD<br />
+Calm nature (+SpD, -Atk)<br />
+- Rain Dance<br />
+- Hydro Pump<br />
+- Thunder<br />
+- Ice Beam</p>
+
+<p>Lanturn provides this team with an invaluable Electric-type resistance. It can also abuse both a 100% accurate STAB Thunder as well as a boosted Hydro Pump. Ice Beam hits the Grass-type Pokemon which resist Water- and Electric-type attacks as well as taking out Altaria. Lanturn is very reliable at setting up Rain Dance and also does well against Earthquake-less Registeel; who can otherwise annoy your Swift Swim sweepers thanks to its high Defense and access to Thunder Wave.</p>
+
+<p>Gorebyss @ Life Orb<br />
+Ability: Swift Swim<br />
+EVs: 36 HP / 252 SpA / 220 Spe<br />
+Modest nature (+SpA, -Atk)<br />
+- Surf<br />
+- Ice Beam<br />
+- Hidden Power Grass<br />
+- Psychic</p>
+
+<p>Gorebyss is one of the most powerful special attackers available in UU. It makes a great Swift Swim sweeper, and although its slightly slower and weaker than Omastar; it's better on this team, otherwise Nasty Plot Toxicroak would have a field day with. Surf is incredibly powerful, even when resisted. Ice Beam takes care of the Grass-type Pokemon which resist Surf, and also hits Altaria who laughs at all of Gorebyss's other attacks. Hidden Power Grass is chosen over Hidden Power Electric as Quagsire is a lot more common than Mantine. Psychic in the final slot is solely for Toxicroak who causes Rain Dance teams troubles by absorbing Water-type attacks.</p>
+
+<h3><a name="uber_team">Uber</a></h3>
+
+<p>Dialga @ Lum Berry<br />
+Ability: Pressure<br />
+EVs: 252 SpA / 4 SpD / 252 Spe<br />
+Timid nature (+Spe, -Atk)<br />
+- Draco Meteor<br />
+- Thunder<br />
+- Flamethrower<br />
+- Stealth Rock</p>
+
+<p>Dialga provides valuable resistances to Ghost-, Dark-, Grass-, and Electric-type attacks while also setting up Stealth Rock, which is vital to your team's success. Dialga also serves as a nice early-game opener. Chesto Berry and Draco Meteor ensure that Darkrai will not stop you from getting Stealth Rock up. Groudon leads also like to stay in on Dialga, only to be 2HKOed by Draco Meteor, meaning that one of Ubers rain's biggest threats will be dead from the start. Thunder destroys Lugia, Manaphy, and Kyogre. Flamethrower OHKOes Forretress so it can't spin away your Stealth Rock. Dialga's heavy Speed investment also allows it to outspeed and OHKO Adamant Rayquaza and Lucario before they have a chance to sweep your team.</p>
+
+<p>Kyogre @ Chesto Berry<br />
+Ability: Drizzle<br />
+EVs: 252 HP / 176 Def / 82 Spe<br />
+Bold nature (+Def, -Atk)<br />
+- Calm Mind<br />
+- Surf<br />
+- Ice Beam<br />
+- Rest</p>
+
+<p>Kyogre obviously provides your rain. It also stops Darkrai, Groudon, Rayquaza, and Tyranitar from causing mayhem with this team and from changing the weather. Kyogre will often find many chances to set up with Calm Mind, so it can still be a major offensive threat while being defensive. Ice Beam is used over Sleep Talk so Giratina-O and Rayquaza can't set up on you. Rest and Chesto Berry bring you back up to full HP so you can keep controlling the weather. The super defensive EV spread is very important. It allows Kyogre to handle attacks from Groudon and Tyranitar as well as always surviving an Adamant Life Orb Dragon Claw from Rayquaza after one Swords Dance.</p>
+
+<p>Kingdra (M) @ Life Orb<br />
+Ability: Swift Swim<br />
+EVs: 76 Atk / 252 SpA / 180 Spe<br />
+Mild nature (+SpA, -Def)<br />
+- Waterfall<br />
+- Outrage<br />
+- Hydro Pump<br />
+- Draco Meteor</p>
+
+<p>Kingdra is just an awesome force to behold on an Ubers rain team. It can easily tear apart defensive teams with just its STAB moves alone, and it can easily take advantage of its Swift Swim-boosted Speed to become your main revenge killer as well. Hydro Pump will OHKO legions of Pokemon; pretty much anything that doesn't resist it will fall to it. Draco Meteor 2HKOes Groudon, so it can no longer come to haunt you, as well as OHKOing Palkia. Outrage 2HKOes Blissey and Latias very easily, two major defensive threats to your team. Waterfall 2HKOes Blissey without having to have Kingdra locked into Outrage. The Speed EVs allow you to outrun most Groudon variants (particualrly most Rock Polish Groudon before a boost), as well as Choice Scarf Garchomp when the Rain is active.</p>
+
+<p>Latias (F) @ Soul Dew<br />
+Ability: Levitate<br />
+EVs: 4 HP / 252 SpA / 252 Spe<br />
+Timid nature (+Spe, -Atk)<br />
+- Calm Mind<br />
+- Thunder<br />
+- Recover<br />
+- Dragon Pulse</p>
+
+<p>Latias provides this team with important Grass- and Electric-type resistances. It also stops enemy Kyogre, Palkia, Shaymin-S, and Manaphy from being used against you in evil ways, as well as checking most Groudon variants. Calm Mind and Recover allow it to become a very sturdy tank and sweeper, as well as do some rain abusing of its own with Thunder. Dragon and Electric provide unresisted coverage in Ubers.</p>
+
+<p>Metagross @ Choice Band<br />
+Ability: Clear Body<br />
+EVs: 210 HP / 140 Atk / 160 SpD<br />
+Adamant nature (+Atk, -SpA)<br />
+- Meteor Mash<br />
+- Earthquake<br />
+- Pursuit<br />
+- Explosion</p>
+
+<p>Metagross is very important to this team for a number of reasons. It provides very important resistances to Dragon- and Grass-type attacks. It also stops Latias, Shaymin-S, Rayquaza, and Mewtwo from totally destroying this team, and can also act as a Groudon lure. The rain also eliminates Metagross's Fire-type weakness, letting it check Dialga very nicely as well. Metagross can easily survive even a boosted Outrage from Rayquaza and will OHKO it with Meteor Mash after Stealth Rock damage. Pursuit ensures that Latias, Mewtwo, and Shaymin-S will never plague your team again. Earthquake is mainly for Dialga. In short, Metagross takes care of the threats that are the bane of most Ubers rain teams.</p>
+
+<p>Kabutops (M) @ Life Orb<br />
+Ability: Swift Swim<br />
+EVs: 252 Atk / 4 Def / 252 Spe<br />
+Adamant nature (+Atk, -SpA)<br />
+- Swords Dance<br />
+- Stone Edge<br />
+- Waterfall<br />
+- Low Kick</p>
+
+<p>Kabutops is meant to be the late-game sweeper. Boasting Swift Swim, Swords Dance, the highest Attack of the rain abusers, and great type coverage, it is easy to see how it would get this role. As Latias often falls to Pursuit, Kabutops can easily switch in on those for a Swords Dance. Don't sweat it if you cannot set up however, as Kabutops is powerful enough to sweep without it. The only Uber that resists Water/Rock is Dialga, who is easily destroyed by Low Kick. Low Kick is also Kabutops's strongest attack against Groudon.</p>
+
+<h2><a name="battle">Battle Strategy</a></h2>
+
+<p>Now you have looked through the guide, checked out all possibilities, and tried out all the different sets. You now have your own powerful offensive Rain Dance team and are ready to enter battle with it. That's great - building a good team is probably the hardest and most important part of winning with a Rain Dance team. However, that is not all that decides whether you are successful or not. You must be able to use the team effectively in order to win with it, and there are some tips and tricks here to help you use your Rain Dance team to its fullest potential.</p>
+
+<dl>
+<dt>1. Be Offensive</dt>
+<dd><p>That doesn't mean you should start cussing at your opponent every battle. Basically, with a team that needs to accomplish so much in so little time, the most important thing you can do when using a Rain Dance team is to not give the opponent any time to mount a counterattack or set up a good defense. Momentum is so important with Rain Dance teams; ensure you keep it in your favor. That means you should be constantly attacking and wearing down your opponent's Pokemon and keeping up the momentum, not giving the opposing team any time to carry out its own strategy. Against stall teams, one should be careful to not be too reckless and throw away sweepers needlessly, as otherwise they can end up stalling out the rain and your team into submission. However, this doesn't change the fact that you still need to constantly be on the offensive when facing stall teams in order to get enough damage on those heavyweight walls to take them out. Against offensive teams, the key is to keep your rain up at all times, since while its pouring your sweepers will have an inherent advantage over the opposing sweepers in terms of both power and Speed.</p></dd>
+
+<dt>2. To Surf or not to Surf...</dt>
+<dd>There is a tendency for players to mindlessly spam their boosted Water-type attacks against any Pokemon they face. Simple - don't. While it is true that your Surf (or Waterfall or whatever you are using as your primary Water STAB) is a very powerful attack in the rain, you need to be mindful that most likely the opposing team will be packing something that resists or is immune to Water-type attacks. Just because you have a super-powered STAB attack doesn't mean the need for prediction goes out the window in battle. Since it is usually obvious when a Water-type attack is coming (most Rain Dance sweepers tend to use them exclusively), it is usually best to predict the Water resist at the start of the battle and use an alternative STAB attack to surprise the counter. Finding out what Pokemon on your opponent's team resist your Water-type STAB is important so that you know when you can start spamming your Water-type moves.</dd>
+
+<dt>3. Sacrificing your Pokemon</dt>
+<dd>Many a time, in order to take out a problem Pokemon or to weaken a wall into KO range, it is necessary to simply let your sweepers die. If two sweepers don't take out any opposing Pokemon, but sacrifice themselves to bring the entire team down to less than 50% health, they will have achieved a lot as they will have paved the way for one final sweeper to take out the entire opposing team in a late-game sweep. On the other hand, if you keep your beleaguered sweepers alive at 20% health or so, you leave them easy pickings for an opposing priority user and general residual damage. The simple lesson here is that do not be afraid to let your Pokemon go if it means it will increase the chances of the entire team breaking through in the end. This applies to support Pokemon too - usually it is best for Bronzong to simply Explode after setting up the rain, allowing it to do big damage on that one Blissey that was giving you trouble, and allowing for one of your sweepers to come in unscathed to finish off the remainder of the team.</dd>
+
+<dt>4. Preserving your Pokemon</dt>
+<dd>Conversely, it is usually very beneficial to keep one of your sweepers hidden and at full health for an attempt at a late-game sweep. For example, if you are using both special based Kingdra and Ludicolo on the same team, it is usually best if you use Kingdra exclusively in the mid-game and save Ludicolo (who has arguably better coverage and can so deal with a wider variety of opponents) for a late-game sweep. Most likely this will turn out to be more effective than if you used both the Pokemon in conjunction throughout the battle, as then both would be weakened and vulnerable to priority / residual damage KOs. Similarly, if you can, try and keep your Rain Dance supporters alive in case you are surprised by a late-game Tyranitar or something and need to replenish your rain one more time than you anticipated. So it is usually better to try and Roost Zapdos back up to full health instead of trying to damage opponents with Thunder - you have your sweepers to cause pain if need be. In reality, whether you choose to sacrifice or preserve your Pokemon depends very much on the situation, and you have to make an educated decision as to which would be more beneficial to the team as a whole.</dd>
+</dl>
+
+<h2><a name="conclusion">Conclusion</a></h2>
+
+<p>Rain is a very threatening and powerful playing style that can blow away teams in a heartbeat. It is also one of the least represented styles in terms of good teams - many people have a 'Rain Team Attempt' that met with little success tucked away somewhere.</p>
+
+<p>In battle, mistakes are costly. Mistakes have consequences. When using an all-or-nothing team like a rain offense team, these mistakes are amplified many times, as your entire strategy is on a constant timer. This is why it is so important to become familiar with the subtleties and concerns that Rain Dance faces in order to become proficient at the style.</p>
+
+<p>I hope this guide has helped you to better understand Rain Dance and how it can be used. It's not just a style that is used for a bit of fun, it can be very effective and even get you up onto the Pokemon Online leaderboard. Thanks for taking the time to read through it!</p>

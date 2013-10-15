@@ -1,0 +1,148 @@
+[title]
+Pyroak
+[head]
+<link rel="stylesheet" type="text/css" href="/media/dex/dex.css" />
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_template.js"></script>
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_database.js"></script>
+[header]
+[page]
+<script language="JavaScript">
+document.write(strategyTabs("Pyroak"));
+document.write(topHeaderInfo(Pyroak()));
+</script>
+
+<h2>Overview</h2>
+
+<h4>DPP</h4>
+
+<p>Pyroak is both bulky and a major offensive threat in one. His Rock Head ability combined with his 120 Base Power STAB attacks in Wood Hammer and Flare Blitz facilitate smashing through all of OU's premier walls, a fortiori when backed up by a Swords Dance or two. His defensive stats and lack of common weaknesses further prevent him from being dealt with easily. Beyond sweeping, his support options span the spectrum from being one of the best SubSeeders to running mixed defensive stats akin to Swampert. Substantial versatility combined with dangerous attacking options make Pyroak a threat to prepare for.</p>
+
+<p>Pyroak's flaws are few, but crippling if proper care is not taken. His Speed stat is dismal, and with no way to boost it, Pyroak will almost always be outsped by opposing Pokemon. Besides that, his weakness to Stealth Rock and susceptibility to all forms of passive damage, including sandstorm, Spikes, and Toxic Spikes will rapidly deplete his HP. If you're looking for a slow sweeper and wallbreaker or a defensive Fire-type pivot Pokemon, Pyroak will not disappoint.</p>
+
+<script language="JavaScript"> 
+var set = new CAPSet(); 
+set.name = "DPP Swords Dance"; 
+set.move[1] = "Swords Dance"; 
+set.move[2] = "Flare Blitz"; 
+set.move[3] = "Wood Hammer"; 
+set.move[4] = "Earthquake"; 
+set.item = ["Life Orb", "Leftovers"];
+set.ability = "Rock Head"; 
+set.nature = ["Jolly", "Adamant"]; 
+set.evs.HP = 4; 
+set.evs.Atk = 252; 
+set.evs.Spe = 252; 
+document.write(composeSet(set)); 
+</script> 
+
+<p>Switch Pyroak into a resisted move or non-threatening Pokemon, Swords Dance on the switch, and dismantle your opponent's team. With great type coverage within his STAB moves that is only resisted by Dragon- and Fire-types, Pyroak is a force to be reckoned with and something that every style of team, stall in particular, must keep in mind or risk being obliterated.</p>
+
+<p>The first two attacks are necessary on the set for STAB, excellent coverage, and massive damage with no recoil thanks to Rock Head. Earthquake allows it to beat Heatran easily, who is immune to Flare Blitz and has a 4x resistance to Grass, and threatens Pyroak with its own Fire Blast. Earthquake, together with his STAB moves, leaves only one common Pokemon that completely resists all of Pyroak's moves: Dragonite. Synthesis is also an option to offset the Life Orb recoil a bit, though it is generally unreliable and better coverage is preferred.</p>
+
+<p>The EV spread is rather simple, allowing you to hit hard and quickly. A Jolly nature is recommended, given that Pyroak needs all the Speed he can get. Adamant as a nature is a possibility. In that case, you should run 252 Speed EVs to outrun base 110s and tie with neutral-natured Breloom and Metagross. Leftovers is a fine alternative item choice, as it makes Pyroak less vulnerable to passive damage, but heavily reduces his damage output. Bulkier EV spreads can be run alongside Leftovers to turn Pyroak into a veritable defensive monster while he smashes apart your enemies. Without maximum offensive investment, though, he will miss out on outspeeding some threats and OHKOing others. </p>
+
+<p>Pyroak is typically found on offensive teams as a stallbreaker, but defensive support is welcome as well. As the only types that hit Pyroak super effectively are Rock, Poison, and Flying, Steel-types are extremely valuable teammates. Skarmory complements Pyroak very well by being able to shrug off all of these attacks. This Pyroak will gladly rip apart stall for you, so partnering him up with Pokemon that like having walls such as Bronzong, Skarmory, and  Blissey removed is a great idea, such as Calm Mind Suicune.</p>
+
+<script language="JavaScript"> 
+var set = new CAPSet(); 
+set.name = "DPP Lead"; 
+set.move[1] = "Flare Blitz"; 
+set.move[2] = "Wood Hammer"; 
+set.move[3] = "Stealth Rock"; 
+set.move[4] = "Earthquake"; 
+set.item = ["Leftovers", "Lum Berry", "Chilan Berry"]; 
+set.ability = "Rock Head"; 
+set.nature = "Adamant"; 
+set.evs.HP = 252; 
+set.evs.Def = 224; 
+set.evs.Spe = 32; 
+document.write(composeSet(set)); 
+</script> 
+
+<p>This Pyroak is one of the bulkiest and most versatile leads available to the OU metagame. With the ability to OHKO or 2HKO virtually every other lead out there, his reliability is the envy of many other leads. High-powered STAB attacks will even come in handy later in the game, if it survives to that stage.</p>
+
+<p>STAB Wood Hammer and Flare Blitz play a large role in why Pyroak is so excellent as a lead, hitting other bulky leads like Swampert, Metagross, and Hippowdon super effectively. Stealth Rock is mandatory for a lead like this, as setting it up early is a boon to many teams. Pyroak can freely set up his own Stealth Rock and then attack or switch, depending on if the opponent stays in or switches out.</p>
+
+<p>Pyroak needs to be extremely physically bulky to fit into the lead slot. The EVs used reflect this and provide him with near-maximum physical bulk while giving him enough Speed to beat lead Tyranitar, even if it adds extra EVs to its Speed stat. Rock Head is the ability of choice to remove the recoil from Wood Hammer and Flare Blitz, while Adamant as the nature raises Pyroak's Attack to a higher level despite the lack of Attack EV investment. For the item, there are a lot of viable options that all reflect what types of opposing leads you'd like to have a greater edge over. Leftovers gives Pyroak staying power over the course of a battle and is the most reliable and valuable option, Lum Berry provides a way for Pyroak to muscle through Smeargle and Roserade leads, and Chilan Berry is actually viable to comfortably absorb any Explosion or Selfdestruct that opposing leads might use to try to bring you down.</p>
+
+<p>The leads that give Pyroak the most trouble are Dragonite, Heatran, and Infernape. All of these Pokemon resist Pyroak's STAB options and will generally beat him down over multiple turns. To make matters worse, Heatran and Infernape can both get Stealth Rock in play before you can hurt them. Having Pokemon on your team that can switch into them with impunity is very helpful. Gyarados is a good partner for this Pyroak because it resists all of the STAB attacks that Heatran and Infernape use and can hit them all super effectively. Gyarados can also switch into most things Lead Dragonite does and threaten to OHKO back with Stone Edge. Aerodactyl can also give Pyroak some problems if he attacks right away, but if he is running Rock Slide over Stone Edge it will be 2HKO'd before Pyroak is taken down. Bulky Water-type Pokemon like Swampert or Vaporeon will also comfortably handle Infernape and Heatran and can also scare off Dragonite with the threat of an Ice Beam. Bulky Water-type Pokemon in general appreciate this Pyroak's ability to threaten Pokemon like Celebi, Jolteon, or Magnezone from the get-go and vice versa for the Waters' ability to handle opposing Fire- and Rock-types.</p>
+
+<script language="JavaScript"> 
+var set = new CAPSet(); 
+set.name = "DPP SubSeed"; 
+set.move[1] = ["Lava Plume", "Flamethrower"]; 
+set.move[2] = "Leech Seed"; 
+set.move[3] = "Substitute"; 
+set.move[4] = ["Earthquake", "Protect"]; 
+set.item = "Leftovers"; 
+set.ability = "Battle Armor"; 
+set.nature = "Bold"; 
+set.evs.HP = 252; 
+set.evs.SpA = 32; 
+set.evs.SpD = 224; 
+document.write(composeSet(set)); 
+</script>
+
+<p>SubSeed Pyroak can be quite an annoyance to your opponent once he gets the chance to set up. Pyroak can come in on an assortment of Pokemon, including virtually any of the Steel-type Pokemon in the metagame, Substitute on the switch, and then proceed to Leech Seed stall out much of the enemy's team. One of the greatest advantages that Pyroak has over other SubSeed Pokemon is that he has STAB Lava Plume for crushing enemy Grass-types who are immune to Leech Seed. Pyroak is also blessed with being able to take Fire- and Ice-type attacks aimed his way, something other SubSeeders like Shaymin and Abomasnow wish they could claim.</p>
+
+<p>Substitute and Leech Seed are given moves, while Lava Plume is chosen over Flamethrower for its 30% chance to burn the enemy while doing some damage. Flamethrower is still a viable option, however, if you'd like the chance to 2HKO the standard Specially Defensive Skarmory. Earthquake is the natural move for the fourth moveslot, and is your only method of handling Heatran. Protect can also be used in the last slot to scout choice-locked Pokemon as well as to gain a free turn of Leftovers and Leech Seed recovery.</p>
+
+<p>The EVs are the same as the MixOak set, optimizing Pyroak's bulkiness while still giving a little extra "oomph" to his STAB Fire-type attack. 252 HP EVs allow him to switch-in to Stealth Rock four times without dying. Bold is the preferred nature here, since Pyroak won't be using his Attack stat and the defensive balance is crucial for him to survive.</p>
+
+<p>This Pyroak is generally an annoyance, and is best used on teams needing a switch-in to Fire-type attacks that can spread status around. The counters list for this set is generally the same as for the Mixed Attacker set, but many of the most common switch-ins will hate to be burned. Furthermore, under the buffer of a Substitute, Pyroak can be very difficult to deal with. Still, Skarmory and bulky Water-types make excellent partners, and this Pyroak appreciates Rapid Spin support just as much as any of the others. As this set will force a lot of switches if played right, entry hazard support in the form of Spikes and Toxic Spikes are much more valuable here than with other Pyroak sets. Note that Lava Plume's burn change may be redundant with Toxic Spikes, so Flamethrower is the preferable STAB move.</p>
+
+<script language="JavaScript"> 
+var set = new CAPSet(); 
+set.name = "DPP Mixed Attacker"; 
+set.move[1] = "Seed Bomb"; 
+set.move[2] = "Flamethrower"; 
+set.move[3] = "Earthquake"; 
+set.move[4] = "Will-O-Wisp"; 
+set.item = "Leftovers"; 
+set.ability = "Battle Armor"; 
+set.nature = "Relaxed"; 
+set.evs.HP = 252; 
+set.evs.SpA = 32; 
+set.evs.SpD = 224; 
+document.write(composeSet(set)); 
+</script>
+
+<p>This Pyroak is a defensively-inclined pivot Pokemon who can come in on Fire-type attacks with ease and immediately threaten your opponent's response. He functions similarly to Swampert, but Pyroak has access to Will-O-Wisp to combat his counters. This status move will make common checks, such as Gyarados, think twice before switching-in.</p>
+
+<p>Earthquake is necessary on this set to immediately threaten Heatran and to round out his coverage. With Will-O-Wisp, Dragonite will not haphazardly switch-in. Stealth Rock is an option in the last slot if you need it and have no one else on your team using it. It is highly recommended to use one of Pyroak's status-inducing moves, however, as that is truly what distinguishes him from Swampert.</p>
+
+<p>The EV spread attempts to optimize Pyroak's defensive capacity on both ends. 252 HP EVs are used to maximize his bulk, and conveniently gives Pyroak 4 switch-ins to Stealth Rock. The Special Attack EVs are to allow Flamethrower to 2HKO Specially Defensive Skarmory the majority of the time. With a Relaxed nature and the Special Defense EVs, Pyroak is able to take on both physical and special attacks as necessary.</p>
+
+<p>This Pyroak is best used on balanced teams that have a good variety of defense and offense. Skarmory works well with this Pyroak, being able to come in on many of the attacks that threaten him and set up Spikes. Bulky Water-type Pokemon appreciate having Pyroak around as well because their weaknesses to Electric and Grass are covered by Pyroak. Furthermore, because of Pyroak's unfortunate weakness to Stealth Rock, he appreciates support in the way of Rapid Spin. Forretress makes a great partner as Pyroak will absorb Fire-typed attacks aimed at him while Forretress gladly takes on Rock-, Flying-, and Poison-type attacks pointed at Pyroak. If you can support him with the resistances and backup he needs, Pyroak can be a major thorn in your opponent's side.</p>
+
+<h2>Team Options</h2>
+
+<h4>DPP</h4>
+
+<p>Offensive Pyroak will usually want like-minded bulky offensive Pokemon for its partners, such as Scizor or Suicune. Steel-types in general make good partners to Pyroak, as Steel resists all three of his weaknesses (Rock, Flying, and Poison), so consider using Pokemon like Agility Metagross. In return, the Pokemon that hamper Metagross's sweep tend to be Water-typed Pokemon like Suicune and Swampert; Pyroak will have no trouble dispatching these with a solid Wood Hammer. On the defensive Pyroak sets, Steel-types and bulky Water-types will make the best teammates for their ability to cover each others' weaknesses relatively well. Vaporeon in particular makes for a good partner, being able to send Wishes Pyroak's way while Pyroak resists the Electric- and Grass-typed attacks she hates.</p>
+
+<p>Pyroak loves Stealth Rock support, especially if he is not running Rock Slide, as it will take a large chunk out of common switch-ins like Dragonite and Togekiss. Spikes support is nice but not generally necessary, as it rarely grants Pyroak any KOs that he would not otherwise get. Bronzong is a great user of Stealth Rock who resists all of Pyroak's weaknesses. If you are using Leftovers, Spikes becomes more important, as they ensure a couple of KOs, like against Shuca Berry Heatran, but Pyroak is still fully capable of working without them. Speaking of entry hazards, Rapid Spin will increase Pyroak's lifespan monumentally, as Pyroak takes double damage from Stealth Rock as well as being hit by Spikes and Toxic Spikes. Starmie makes a good offensive Rapid Spinner, though Forretress can use both Rapid Spin and entry hazards. To remove a potential sandstorm, you may consider using a Rain Dance Kingdra, but make sure Pyroak does not try to sweep until the rain has passed, as it weakens his Fire moves. Alternatively, you could consider setting up Sunny Day for Pyroak, but Sunny Day isn't nearly as good on its own as Rain Dance Kingdra is and isn't really worth it. On the other hand, Sunny Day will give Flare Blitz a huge power boost.</p>
+
+<h2>Other Options</h2>
+
+<h4>DPP</h4>
+
+<p>Pyroak has a vast movepool, and with it comes numerous options for specialized sets that any given player might want to take advantage of. Synthesis can be used to heal yourself, possibly even being boosted if Sunny Day is active. Pyroak also has Aromatherapy to serve as a cleric if your team desperately needs one. Pyroak could run a RestTalk set, possibly using Roar, but other Pokemon will often do that better.</p>
+
+<p>Pyroak can also put to use either a Choice Scarf or a Choice Band. His Stealth Rock weakness keeps him from being able to switch-in as often as he would like, though, so Rapid Spin would become even more important if those are chosen. Stealth Rock can be used by any of the defensively-minded sets if you have nowhere else to put it. Lastly, Pyroak can also set up Sunny Day to boost his own Fire-type attacks and Synthesis.</p>
+
+<h2>CAP Metagame</h2>
+
+<h4>DPP</h4>
+
+<p>Pyroak fares exceedingly well in the CAP metagame, threatening Kitsunoh, Syclant, Arghonaut, Cyclohm, and Colossoil with his STAB attacks and coverage moves. Fidgit and Revenankh both avoid being OHKOed by a boosted Wood Hammer or Flare Blitz, but lack anything with which they can threaten Pyroak back. Colossoil's Sucker Punches barely do upwards of 50% damage to Pyroak, so without a lot of passive damage, even the mighty narwhal will fall to Pyroak's destructive power. Arghonaut, despite negating Pyroak's attack boost, will still be put down by Wood Hammer. Stratagem threatens Pyroak the most of all of the CAP Pokemon, being able to strike him with a super effective Paleo Wave while outspeeding all variants of Pyroak even with a +1 boost to his Speed.</p>
+
+<p>Pyroak's movesets should not be differing much in the CAP metagame as opposed to the OU metagame. As Dragonite and opposing Pyroak tend to be the more common switch-ins to Pyroak in CAP, you may opt to run Rock Slide as the primary coverage move over Earthquake. Using a Charti Berry instead of Life Orb can allow Pyroak to break through Stratagem without taking more than 60% from its Paleo Wave, which can be game-changing. Of course, if your opponent doesn't have a Rock-type attack, the Berry is nearly worthless.</p>
+
+<h2>Counters</h2>
+
+<h4>DPP</h4>
+
+<p>Heatran is easily the best counter to any Pyroak who hasn't got Earthquake, as it is immune to Fire and 4x resists Grass. Heatran will also outspeed Pyroak, and Fire Blast is an easy 2HKO. Most Pyroak tend to carry Earthquake for this reason, so Dragonite is generally the safest switch-in.</p>
+
+<p>Typically, one of the best ways to check Pyroak is to switch to a Choice Scarf user like Rotom-A and Trick him; a Pyroak locked into any one move is not at all difficult to stop. Outside of that, you can try to wear him down through intelligent switching (this is especially true if he is accumulating damage through entry hazards, sandstorm, Toxic, or Life Orb); however, a misprediction will often result in the loss of a Pokemon in a single hit, so beware.</p>

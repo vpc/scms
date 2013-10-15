@@ -1,0 +1,93 @@
+[title]
+Lee
+[head]
+<meta name="description" content="Pictures of Hugendugen" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+	var baseUrl = "/forums/threads/3458341/";
+	var pages = 0;
+	var buf = '';
+	var hasImages = false;
+	$(document).ready(function() {
+		$.get(baseUrl, function(data) {
+			getPage(data);
+		});
+	});
+	function getPage(data) {
+        var data = data.replace(/src\=/gi, 'data-src=').replace(/href\=/gi, 'data-href=');
+		var headerHTML = $($(data).find('span.pageNavHeader')[0]).html();
+		var totalPages = headerHTML.split('of ');
+		pages = parseInt(totalPages[1]);
+		startScrape();
+	}
+	function startScrape() {
+		$('.loadmsg').html('Loading...');
+		hasImages = false;
+		for (var i=pages; i>pages-10; i--) {
+			$.get(baseUrl + 'page-' + i, function(data) {
+				scrapePage(data);
+			});
+		}
+		var initialPages = pages;
+		pages = pages-10;
+		//needs the bottom to be done only after the loop is complete
+		if (hasImages) {
+			$('.loadmsg').html('<input type="button" onclick="startScrape()" value="View More" />');
+		}
+		else {
+			$('.loadmsg').html('This user has not posted any photos in the thread from pages ' + initialPages + ' to ' + pages + '. Click the button to search deeper in the photo album thread.<br /><input type="button" onclick="startScrape()" value="View More" />');
+		}
+	}
+	function scrapePage(data) {
+        var data = data.replace(/src\=/gi, 'data-src=').replace(/href\=/gi, 'data-href=').replace(/<blockquote class\="quoteContainer">[^]*?<\/blockquote>/g, '');;
+        var posts = $(data).find('div.messageContent');
+		var posters = $(data).find('a.username.author');
+		var posterArray = [];
+		var postContent = [];
+		for (var a=0; a<posters.length; a++) {
+			posterArray.push(posters[a].innerHTML);
+		}
+        var forUser = $($('h1')[0]).html();
+		for (var b=0; b<posterArray.length; b++) {
+			if (posterArray[b] === forUser) {
+				postContent.push($(posts[b]).html());
+			}
+		}
+		if (!postContent) {
+			return;
+		}
+		for (var c=0; c<postContent.length; c++) {
+			//postContent[c].replace(/<blockquote class\="quoteContainer">[^]*?<\/blockquote>/g, '');
+			var imagesfromPost = $(postContent[c]).not('.quoteContainer').find('img');
+			var imageSrc = [];
+			for (var d=0; d<imagesfromPost.length; d++) {
+				imageSrc.push($(imagesfromPost[d]).attr('data-src'))
+			}
+			/* let's go back to the old version
+                        $(postContent[c]).find('.quoteContainer').html(''); 
+			var imageSrc = [];
+			var srcRex = /<img.*?src="(.*?\/([^\/"]*))".*?>/g;
+			var srcTest;
+			while (srcTest = srcRex.exec(postContent[c])) {
+				imageSrc.push(srcTest[1]);
+			}*/
+			if (!imageSrc) {
+				return;
+			}
+			else {
+				hasImages = true;
+			}
+			for (var e=0; e<imageSrc.length; e++) {
+				buf += '<img src="' + imageSrc[e] + '" alt="" /><br />';
+			}
+			$('.images').html(buf);
+		}
+		//$('.loadmsg').html('<input type="button" onclick="startScrape()" value="View More" />');
+	}
+//]]>
+</script>
+[page]
+<div class="images"></div>
+<p class="loadmsg">Loading...</p>
+<!--<input type="button" onclick="startScrape()" value="View More" />-->

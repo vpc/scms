@@ -1,0 +1,196 @@
+[title]
+Normalized Base Stats
+[head]
+<meta name="description" content="Normalizing base stats, thanks to X-Act." />
+[page]
+<div class="author">by <a href="/forums/member.php?u=2412">X-Act</a></div>
+<ol class="toc">
+<li><a href="#intro">Introduction</a></li>
+<li><a href="#deception">The Deception of Base Stats</a></li>
+<li><a href="#normalizing">Normalizing the Attacking Base Stats</a></li>
+<li><a href="#defense">Normalizing the Defense Base Stats</a></li>
+<li><a href="#hp">Normalizing the HP Base Stat</a></li>
+<li><a href="#statistical">Statistical Defense and Special Defense</a></li>
+<li><a href="#crude">Crude Percentage Damage Calculation</a></li>
+<li><a href="#why">Why add 18?</a></li>
+<li><a href="#summary">Summary</a></li>
+</ol>
+<h2><a name="intro">Introduction</a></h2>
+
+<p>"Given the same EVs, does a 150 base Attack Pokemon using Brick Break deal more damage than a 75 base Attack Pokemon using Focus Punch?"</p>
+
+<p>"Given the same EVs, is a Pokemon with 100 base HP and 80 base Defense (for example Azumarill) more defensive than one with 80 base HP and 100 base Defense (for example Meganium)?"</p>
+
+<p>You may be surprised to discover that the answer to both of the above questions is "no." The reason for this answer will be explained in this article, using the relatively new idea of normalized base stats.</p>
+
+<p>Before starting, all Pokemon mentioned in this article will be assumed to be at Level 100 and have 31 IVs in every stat.</p>
+
+<h2><a name="deception">The Deception of Base Stats</a></h2>
+
+<p>As we all know, all Pokemon have a set of base stats. These base stats are responsible for Cloyster's physical durability, for Electrode's amazing speed and for Alakazam's very powerful special attacks. No matter what a Cloyster's EVs and nature are, it will always have a very good physical defense, as its base Defense is a whopping 180.</p>
+
+<p>However, the base stats of a Pokemon do not truly reflect the actual stats that the Pokemon will end up having, especially when that Pokemon is at Level 100 and has 31 IVs in every stat.</p>
+
+<p>Consider Electivire as an example. Say we want to check if an Electivire with a neutral nature and no EVs that uses ThunderPunch (having 75 Base Power) will deal more damage than if it uses Thunderbolt (having 95 Base Power), assuming it is attacking a Pokemon with equal Defense and Special Defense stats. Electivire has 123 base Attack and 95 base Special Attack. One might think that since 123×75 = 9225 and 95×95 = 9025, then ThunderPunch would deal more damage. However, the actual Attack and Special Attack stats of such an Electivire would be 282 and 226 respectively. So the damage formula would actually need to multiply 282 by 75 and 226 by 95 to check the damage dealt. Since 282×75 = 21150 and 226×95 = 21470, we see that Thunderbolt would actually deal more damage than ThunderPunch against Pokemon having equal defense and special defense.</p>
+
+<p>The HP base stat has a further property that is sometimes overlooked. The formula for the Pokemon's actual HP is different than that for the other stats. This makes a Pokemon with 80 base HP and 70 base Defense have a different physical durability than a 70 base HP and 80 base Defense Pokemon, even though one might assume that they would have the same physical defense overall.</p>
+
+<p>The Speed base stat is the only bona fide base stat. You would always expect a 91 base Speed Pokemon outspeeding a 90 base Speed one, given the same EVs and nature.</p>
+
+<p>We would thus like to have a simple mechanism to change the base stats into more truthful values for us to be able to perform quick calculations on the fly about that Pokemon. And this is where the normalized base stats come in.</p>
+
+<h2><a name="normalizing">Normalizing the Attacking Base Stats</a></h2>
+
+<p>To normalize the Attack and Special Attack base stats, the procedure is very simple: <strong>add 18 to them</strong>. This would make the statistical damage calculation mimic the damage calculation of when the Pokemon has <strong>0 EVs and a neutral nature</strong>.</p>
+
+<p>Speaking of statistical damage, it is defined simply as follows:</p>
+
+<pre>Statistical Damage = Normalized Base (Special) Attack × Move Power</pre>
+
+<p>In our previous Electivire example, its normalized Attack base stat thus becomes 123+18 = 141 and its normalized Special Attack base stat becomes 95+18 = 113. Let's check the ThunderPunch versus Thunderbolt dilemma again using these new normalized base stats. For ThunderPunch, the statistical damage would be 141×75 = 10575. For Thunderbolt, it would be 113×95 = 10735. Thus, we see (correctly) that Thunderbolt would deal more damage... it would deal 1.5% more damage than ThunderPunch. (10735÷10575 = 1.015)</p>
+
+<p>The avid ThunderPunch Electivire lovers among you are probably saying that this calculation is both unfair and useless, since we are assuming 0 EVs in Attack and Special Attack, which will probably never be the case in a competitive Electivire. So is there a mechanism to factor in a Pokemon's EVs using these normalized base stats? Yes, there is.</p>
+
+<p><strong>If the Pokemon has 252 EVs in that stat, add 32 to its normalized base stat</strong>, or add 50 to its base stat. This roughly translates to adding 1 to the normalized base stat for every 8 EVs you put in the stat.</p>
+
+<p>Okay, so say our Electivire has 252 EVs in Attack. Its normalized base Attack stat would become 141+32 = 173. And now the statistical damage would be 173x75 = 12975, amply outdamaging Thunderbolt with 0 EVs in Special Attack (it deals 20.9% more damage).</p>
+
+<p>If Electivire has 252 EVs in Special Attack as well, its normalized base Special Attack stat would become 113+32 = 145. The statistical damage would be 145×95 = 13775, which does more damage than ThunderPunch again (by 6.2%).</p>
+
+<p>If you want to factor in natures, stat boosts, STAB, or any other multipliers in your calculations, you can do this by simply multiplying the statistical damage by the usual multiplier (1.1 for a boosting nature, 0.9 for a hindering nature, 1.5 for STAB, etc.).</p>
+
+<p>So an Adamant Electivire with 252 EVs in Attack would have a statistical damage of 12975×1.1 = 14272.5, which beats Thunderbolt with 252 EVs in Special Attack and a neutral nature (by dealing 3.6% more damage).</p>
+
+<p>Let's give a second example. Recall that, in the introduction, we posed the following question:</p>
+
+<p>"Given the same EVs, does a 150 base Attack Pokemon using Brick Break deal more damage than a 75 base Attack Pokemon using Focus Punch?"</p>
+
+<p>Let's answer it using normalized base stats.</p>
+
+<p>150 base Attack, 75 move power: 168×75 = 12600. (150+18 = 168)</p>
+
+<p>75 base Attack, 150 move power: 93×150 = 13950. (75+18 = 93)</p>
+
+<p>So the 75 base Attack Pokemon using Focus Punch would deal 10.7% more damage if both Pokemon have 0 EVs in Attack. (13950/12600 = 1.107) This will also be the case whatever the EVs are. (Actually, the more EVs you put in the calculation, the bigger the percentage increase in damage becomes. For 252 EVs, the second Pokemon ends up dealing 25% more damage than the first one.)</p>
+
+<h2><a name="defense">Normalizing the Defense Base Stats</a></h2>
+
+<p>Normalizing the Defense and Special Defense base stats is done in exactly the same way as for the Attack and Special Attack base stats. Here is a short summary:</p>
+
+<pre>Normalized Base (Special) Defense = Base (Special) Defense + 18</pre>
+
+<p>If you have 252 EVs in the stat, <strong>add 32 to the normalized base stat</strong> (or add 50 to the base stat).</p>
+
+<p>We shall see the use of normalized defense base stats shortly.</p>
+
+<h2><a name="hp">Normalizing the HP Base Stat</a></h2>
+
+<p>The HP base stat is normalized in a different way than the other base stats. Instead of adding 18 to it straight away, we must first divide the HP base stat by 4, and then add 18.</p>
+
+<pre>Normalized Base HP = Base HP ÷ 4 + 18</pre>
+
+<p>Also, <strong>if you have 252 EVs in HP, add 7 to the normalized HP base stat </strong>(or add 25 to the base HP stat divided by 4). This can be understood as adding 1 to the normalized HP base stat for every 36 EVs you put in HP.</p>
+
+<p>The reason why the HP stat is normalized differently is that the formula for the actual HP is different than that used for the other stats.</p>
+
+<h2><a name="statistical">Statistical Defense and Special Defense</a></h2>
+
+<p>As we saw before, a 100 base HP Pokemon having 80 base Defense does not have the same physical defense as an 80 base HP Pokemon having 100 base Defense. However, using the normalized HP and Defense stats, we can know which of the two is better. This is done by calculating the statistical defense, which has a very simple formula:</p>
+
+<pre>Statistical (Special) Defense = Normalized Base HP × Normalized Base (Special) Defense</pre>
+
+<p>A Pokemon with higher statistical defense will be dealt less physical damage than another Pokemon with a lower statistical defense.</p>
+
+<p>As an example, let's consider the second question posed in our introduction.</p>
+
+<p>"Given the same EVs, is a Pokemon with 100 base HP and 80 base Defense more defensive than one with 80 base HP and 100 base Defense?"</p>
+
+<p>A Pokemon with 100 base HP and 80 base Defense with 0 EVs will have a normalized base HP of (100÷4)+18 = 43 and a normalized base Defense of 80+18 = 98. Thus, the statistical defense would be 43×98 = 4214.</p>
+
+<p>A Pokemon with 80 base HP and 100 base Defense with 0 EVs will have a normalized base HP of (80÷4)+18 = 38 and a normalized base Defense of 100+18 = 118. Thus, the statistical defense would be 38×118 = 4484.</p>
+
+<p>Thus, the second Pokemon will have overall more defense than the first one. The first Pokemon will actually be dealt 6.4% more damage than the second one. (4484÷4214 = 1.064)</p>
+
+<p>Let's see what happens if both HP and Defense have 252 EVs.</p>
+
+<p>The 100 base HP and 80 base Defense Pokemon with 252 EVs in both stats will have a normalized base HP of 43+7 = 50 and a normalized base Defense of 98+32 = 130. Thus, the statistical defense would be 50×130 = 6500.</p>
+
+<p>The 80 base HP and 100 base Defense with 252 EVs in both stats will have a normalized base HP of 38+7 = 45 and a normalized base Defense of 118+32 = 150. Thus, the statistical defense would be 45×150 = 6750.</p>
+
+<p>So, again, the second Pokemon will have overall more defense than the first one, since the first Pokemon will be dealt 3.8% more damage than the second one. (6750÷6500 = 1.038)</p>
+
+<p>If the Defense or Special Defense stat has any modifiers (nature, stat boosts, etc.), they can be multiplied normally to the normalized base (special) defense stat.</p>
+
+<h2><a name="crude">Crude Percentage Damage Calculation</a></h2>
+
+<p>The statistical damage and statistical defense can also be used for a crude damage calculator. This allows us to calculate damage using just the base stats of the Pokemon, without having to calculate the actual stats of the Pokemon in question.</p>
+
+<pre>Maximum Percentage Damage = Statistical Damage × 10.5 ÷ Statistical (Special) Defense
+Minimum Percentage Damage = Statistical Damage × 9 ÷ Statistical (Special) Defense</pre>
+
+<p>Let's do a sample damage calculation: Garchomp with 252 Attack EVs using Earthquake against Slowbro with no EVs in Defenses.</p>
+
+<p>Garchomp has 130 base Attack. Slowbro has 95 base HP and 110 base Defense.</p>
+
+<pre>
+Statistical Damage = 180×100×1.5 = 27000. (130+18+32 = 180, ×1.5 is for STAB)
+Statistical Defense = (95÷4+18)×128 = 41.75×128 = 5344
+</pre>
+<p>Therefore,</p>
+<pre>
+Maximum percentage damage = 27000×10.5÷5344 = 53.1%
+Minimum percentage damage = 27000×9÷5344 = 45.5%
+</pre>
+
+<p>The real values are 53.8% and 45.6% respectively, which, as one can readily verify, are very close to the values calculated using the approximate method using normalized base stats.</p>
+
+<h2><a name="why">Why add 18?</a></h2>
+
+<p>This section will explain from where the equations for the normalized base stats were derived, and hence may be skipped upon first reading.</p>
+
+<p>The equation for the actual stat of a Level 100 Pokemon having 31 IVs in all stats is the following:</p>
+
+<pre>Stat = (Base Stat × 2 + 31 + Num + floor(EV ÷ 4)) × Nature</pre>
+
+<p>where Num = 110 if the stat is HP, and 5 otherwise.</p>
+
+<p>This means that for the stats other than HP, assuming a neutral nature:</p>
+
+<pre>Stat with 0 EVs = 2 × Base Stat + 36 = 2 × (Base Stat + 18)
+Stat with 252 EVs = 2 × Base Stat + 99 = 2 × (Base Stat + 49.5)</pre>
+
+<p>To calculate the statistical damage, we multiply the Attack or Special Attack stat by the move power. However, since the stat is always twice a number, the statistical damage will always end up as being twice a number as well. Hence, the normalized stats can be defined as being half the actual stats for simplicity purposes (rounding 49.5 up to 50):</p>
+
+<pre>Normalized Stat with 0 EVs = Base Stat + 18
+Normalized Stat with 252 EVs = Base Stat + 50</pre>
+
+<p>For the HP stats, we write them down in this way first:</p>
+
+<pre>HP Stat with 0 EVs = 2 × Base HP + 141 = 8 × (Base HP ÷ 4 + 17.625)
+HP Stat with 252 EVs = 2 × Base HP + 204 = 8 × (Base HP ÷ 4 + 25.5)</pre>
+
+<p>Since the statistical defense is equal to the HP and Defense stats multiplied by each other, we again can use one eighth of the HP stat multiplied by half the Defense stat instead, and the statistical defense will always be one sixteenth of what it should be. Hence, we can define the normalized HP stat as being one eighth of the real HP stat, rounding the numbers from 17.625 to 18 and from 25.5 to 25. This is simple since we still end up adding 18 for the 0 EV normalized HP. Thus:</p>
+
+<pre>Normalized HP with 0 EVs = Base HP ÷ 4 + 18
+Normalized HP with 252 EVs = Base HP ÷ 4 + 25</pre>
+
+<h2><a name="summary">Summary</a></h2>
+
+<p>Here is a short summary of all the formulas given in this article:</p>
+
+<pre>Normalized Base Stat = Base Stat + 18 if the stat is not HP
+Normalized Base HP = Base HP ÷ 4 + 18
+Normalized Base Stat with 252 EVs = Normalized Base Stat + 32 if the stat is not HP
+Normalized Base HP with 252 EVs = Normalized Base HP + 7
+Statistical Damage = Normalized Base (Special) Attack × Move Power
+Statistical (Special) Defense = Normalized Base HP × Normalized Base (Special) Defense
+Maximum Percentage Damage = Statistical Damage × 10.5 ÷ Statistical (Special) Defense
+Minimum Percentage Damage = Statistical Damage × 9 ÷ Statistical (Special) Defense</pre>
+
+<p>As one can see, the above formulas are all relatively straightforward (especially compared to the actual Stats formula and Damage formula).</p>
+
+<p>The statistical damage can be used as is to compare the damage dealt by different Pokemon using various moves, from just their base stats.</p>
+
+<p>The statistical defense or special defense can be used as is to compare the physical or special sturdiness, or lack of, of different Pokemon from just their base stats.</p>
+
+<p>I hope you find this article of some use. Thanks for reading.</p>

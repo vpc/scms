@@ -1,0 +1,103 @@
+[title]
+The Smog community web-zine
+[header]
+[head]
+<link href="/media/smog/smog.css" type="text/css" rel="stylesheet" />
+[page]
+
+<div style="text-align: center;">
+<img src="/media/upload/smog/issue20/smog20.png" alt="Cover Art" />
+
+<p>Smogon's Web-zine</p>
+
+<h2>Issue #20</h2>
+<h4>Released May 22, 2012</h4>
+
+<table id="smogfront">
+<tr>
+  <td class="col1">
+	<h3>General</h3>
+	<ul>
+		<li><a href="note_from_editor">Note from the Editor</a></li>
+		<li><a href="trivia">Trivia</a></li>
+		<li><a href="interview">Interview with Haunter</a></li>
+		<li><a href="tournaments">Tournaments Coverage</a></li>
+		<li><a href="smog_awards">The Smog Awards Results</a></li>
+	</ul>
+  </td>
+
+  <td class="col2">
+	<h3>Battling Strategy</h3>
+	<ul>
+		<li><a href="featured_pokemon">Featured Pokémon: Tyranitar</a></li>
+		<li><a href="featured_pokemon_uber">Featured Uber Pokémon: Rayquaza</a></li>
+		<li><a href="featured_pokemon_uu">Featured UU Pokémon: Zapdos</a></li>
+		<li><a href="featured_pokemon_lc">Featured LC Pokémon: Bronzor</a></li>
+		<li><a href="featured_pokemon_ru">Featured RU Pokémon: Aggron</a></li>
+		<li><a href="featured_pokemon_nu">Featured NU Pokémon: Samurott</a></li>
+		<li><a href="type_analysis">Type Analysis: Ice</a></li>
+		<li><a href="vgc_effects">VGC Field Effects</a></li>
+		<li><a href="trick_room">Trick Room in the Lower Tiers </a></li>
+		<li><a href="control_luck">Playing with Loaded Dice: How to Control Luck</a></li>
+		<li><a href="bw_to_dpp">Adjusting from BW to DPP</a></li>
+		<li><a href="prediction_ubers">Prediction in Ubers</a></li>
+	</ul>
+  </td>
+
+  <td class="col3">
+	<h3>Metagame</h3>
+	<ul>
+		<li><a href="featured_rmt_ou">Featured OU RMT</a></li>
+		<li><a href="featured_rmt_uber">Featured Ubers RMT</a></li>
+		<li><a href="featured_rmt_uu">Featured UU RMT</a></li>
+		<li><a href="featured_rmt_nu">Featured NU RMT</a></li>
+		<li><a href="underrated_movesets">OU Underrated Movesets</a></li>
+		<li><a href="uu_metagame_trends">UU Metagame Trends</a></li>
+		<li><a href="how_nu">How the Heck is that NU?</a></li>
+		<li><a href="lc_cores">LC Cores</a></li>
+		<li><a href="wonder_launcher">Introduction to Wonder Launcher</a></li>
+		<li><a href="intro_triple">Introduction to Triple Battles</a></li>
+		<li><a href="lottery">Hitting the Lottery: BW's Big Winners</a></li>
+		<li><a href="impact">The Impact of Forme-All Wear, and what it means for BW2</a></li>
+		<li><a href="nu">What's New in NU?</a></li>
+	</ul>
+  </td>
+</tr>
+
+<tr>
+  <td class="col1">
+	<h3>Arts & Recreation</h3>
+	<ul>
+		<li><a href="art_panel">Judge a Pok&eacute;mon: The Smog's 8th Art Panel</a></li>
+		<li><a href="smeargle">Smeargle's Studio Update</a></li>
+		<li><a href="arterview">The Arterview: Az</a></li>
+	</ul>
+  </td>
+
+  <td class="col2">
+	<h3>Entertainment</h3>
+	<ul>
+		<li><a href="memorable_articles">20 Memorable Articles in The Smog</a></li>
+		<li><a href="pokemon_biology">Pok&eacute;mon Biology</a></li>
+		<li><a href="dangerous_irl">Top 10 Most Dangerous Pok&eacute;mon IRL</a></li>
+		<li><a href="mock_awards">Mock Smog Awards</a></li>
+		<li><a href="poketour">Pok&eacute;Tour: Castelia City</a></li>
+	</ul>
+  </td>
+
+  <td class="col3">
+	<h3>Other Features</h3>
+	<ul>
+		<li><a href="dw_project">The Dream World Project</a></li>
+		<li><a href="welcome">Welcome to the Family</a></li>
+		<li><a href="nuzlocke">Nuzlocke and Loaded</a></li>
+	</ul>
+  </td>
+</tr>
+</table>
+
+</div>
+
+<div style="text-align: center;">
+	<h3>This issue of The Smog is brought to you by <a href="/smog/issue20/contributors">these contributors</a>.</h3>
+</div>

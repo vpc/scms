@@ -1,0 +1,64 @@
+[title]
+mIRC Tutorial
+[head]
+<meta name="description" content="A tutorial describing how to use mIRC to connect to #pokemon." />
+[page]
+<p>mIRC is an easy to use Windows <strong>I</strong>nternet <strong>R</strong>elay <strong>C</strong>hat client. This tutorial is here to help you install, set up, and run mIRC.</p>
+
+<h2>1. Downloading</h2>
+
+<p>Users can download mIRC <a href="http://www.mirc.com/get.php?version=635">here</a>. Should the main link fail, select a <a href="http://mirc.com/get.php">mirror site</a>. A mirror site will be automatically selected for you to download. Be sure to remember where you saved your file.</p>
+
+<h2>2. Installing</h2>
+
+<p>Open the mIRC installer. It is a simple self install. Select "Full" if you have never installed mIRC before. If you have downloaded and installed mIRC, select "Upgrade", and be sure that the check box for backing up scripts is selected.</p>
+
+<h2>3. Configuration</h2>
+
+<p>Open up mIRC. A pop-up will appear that says you need to register mIRC. You don't have to though. No features are disabled whether you register mIRC or not. That pop-up will disappear if you register though. Moving on, this screen will load once the pop-up goes away.</p>
+
+<div class="image_caption">
+<img src="/media/irc/mirc_startup.png" style="width: 434px; height: 368px;" alt="" />
+This is the mIRC Options for the first time.
+</div>
+
+<p>Fill in all the empty fields. You do not have to use your real name or real e-mail address.</p>
+
+<div class="image_caption">
+<img src="/media/irc/mirc_fields.png" style="width: 435px; height: 368px;" alt="" />
+mIRC Fields are completed.
+</div>
+
+<p>You must now go setup what server you want to connect to. #Pokemon is located on the synIRC IRC server (irc.synirc.net). To the left, select "Servers" and click the "Add" button.</p>
+
+<div class="image_caption">
+<img src="/media/irc/mirc_add_server_blank.png" style="width: 274px; height: 245px;" alt="" />
+This appears when you click "Add".
+</div>
+
+<div class="image_caption">
+<img src="/media/irc/mirc_add_server_full.png" style="width: 420px; height: 359px;" alt="" />
+Fill the fields in as so, and click.
+</div>
+
+<p>Click the server you just made, and press "Ok". It is now time to connect to the IRC server!</p>
+
+<h2>4. Connecting</h2>
+
+<p>Click the "Connect" button in the mIRC options or click the Lightning Bolt icon at the upper-left-hand corner of the screen.</p>
+
+<div class="image_caption">
+<img src="/media/upload/irc/irc1.png" style="width: 896px; height: 606px;" alt="" />
+You have connected to the synIRC IRC Server!
+</div>
+
+<p>To join a channel, type /join #channel. So, to join #pokemon, we type in this: /join #pokemon. It's advisable to join this channel to immerse yourself in our community as much as possible.</p>
+
+<p>#Pokemon has put up a small security measure to prevent bots from flooding the channel. So, when you try to join these channels, it will not let you join until you have registered a nickname. To register a nickname, type <kbd>/ns register <var>password</var> <var>e-mail</var></kbd>. <var>password</var> is a five letter or more case sensitive password. <var>e-mail</var> is a legitimate e-mail address. This is very important, as an activation key will be sent to you. You will then need to enter that activation key to finish registering. If a nickname is already registered, you must choose a different nickname to register.</p>
+
+<p>You can now enter #Pokemon. Enjoy chatting, and follow the rules!</p>
+
+<div class="image_caption">
+<img src="/media/upload/irc/irc2.png" style="width: 893px; height: 604px;" alt="" />
+Success.
+</div>

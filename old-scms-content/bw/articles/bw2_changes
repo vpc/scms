@@ -1,0 +1,739 @@
+[title]
+Black and White 2 Changes
+[head]
+<meta name="description" content="A comprehensive listing of the new competitive content in Black and White 2." />
+[page]
+<div class="author">Compiled by <a href="/forums/member.php?u=29010">Theorymon</a>. Additional help from <a href="/forums/member.php?u=20997">Seven Deadly Sins</a>.</div>
+<ol class="toc">
+<li><a href="#forms">The New Forms of Black 2 and White 2</a>
+<ul>
+<li><a href="#kyurem">Kyurem Forms</a></li>
+<li><a href="#therian">Therian Forms</a></li>
+<li><a href="#keldeo">Keldeo</a></li>
+</ul></li>
+<li><a href="#moves">Move Tutors and Level Up Moves</a>
+<ul>
+<li><a href="#tutors">Move Tutors</a></li>
+<li><a href="#learned">Learned Moves by Pok&eacute;mon</a></li>
+<li><a href="#learned5">Generation 5 Pok&eacute;mon</a></li>
+<li><a href="#learnedold">Older Generation Pok&eacute;mon</a></li>
+<li><a href="#other">Other</a></li>
+</ul></li>
+</ol>
+<h2><a name="forms">The New Forms of Black 2 and White 2</a></h2>
+<h3><a name="kyurem">Kyurem Forms</a></h3>
+<p>Kyurem can fuse with either Reshiram or Zekrom to become White Kyurem or Black Kyurem. To do so, use the key item DNA Link. The new Pok&eacute;mon's IVs and EVs will be based on Kyurem's, and its moveset is replaced by the last 4 moves learned by the new form. Both forms have an increased BST of 700, second only to Arceus. Both Formes lose the ability to use Glaciate and Scary Face on transformation.</p>
+<p><img src="/media/upload/bw/articles/whitekyurem.png" alt="" /></p>
+<h4>White Kyurem</h4>
+<table class="sortable">
+<thead><tr><th>Type:</th><th>HP</th><th>Atk</th><th>Def</th><th>SAtk</th><th>SDef</th><th>Spe</th><th>Ability</th></tr></thead>
+<tr><td>Dragon/Ice</td><td>125</td><td>120</td><td>90</td><td>170</td><td>100</td><td>95</td><td>Turboblaze</td></tr>
+<tr class="a"><td>Original:</td><td>125 (=)</td><td>130 (-10)</td><td>90 (=)</td><td>130 (+40)</td><td>90 (+10)</td><td>95 (=)</td><td>Pressure</td></tr>
+</table>
+<p>Gains the moves Ice Burn and Fusion Flare on transformation.</p>
+<p><img src="/media/upload/bw/articles/blackkyurem.png" alt="" /></p>
+<h4>Black Kyurem</h4>
+<table class="sortable">
+<thead><tr><th>Type:</th><th>HP</th><th>Atk</th><th>Def</th><th>SAtk</th><th>SDef</th><th>Spe</th><th>Ability</th></tr></thead>
+<tr><td>Dragon/Ice</td><td>125</td><td>170</td><td>100</td><td>120</td><td>90</td><td>95</td><td>Teravolt</td></tr>
+<tr class="a"><td>Original:</td><td>125 (=)</td><td>130 (+40)</td><td>90 (+10)</td><td>130 (-10)</td><td>90 (=)</td><td>95 (=)</td><td>Pressure</td></tr>
+</table>
+<p>Gains the moves Freeze Shock and Fusion Bolt on transformation.</p>
+<h3><a name="therian">Therian Forms</a></h3>
+<p>The Genies (Tornadus, Thundurus, and Landorus) can transform into their Therian Form with the use of the key item Reflecting Mirror. These forms have slight stat rearrangement and new abilities.</p>
+<p><img src="/media/upload/bw/articles/tornadust.png" alt="" /></p>
+<h4>Tornadus-T</h4>
+<table class="sortable">
+<thead><tr><th>Type:</th><th>HP</th><th>Atk</th><th>Def</th><th>SAtk</th><th>SDef</th><th>Spe</th><th>Ability</th></tr></thead>
+<tr><td>Flying</td><td>79</td><td>100</td><td>80</td><td>110</td><td>90</td><td>121</td><td>Regenerator</td></tr>
+<tr class="a"><td>Original:</td><td>79 (=)</td><td>115 (-15)</td><td>70 (+10)</td><td>125 (-15)</td><td>80 (+10)</td><td>111 (+10)</td><td>Prankster</td></tr>
+</table>
+<p><img src="/media/upload/bw/articles/thundurust.png" alt="" /></p>
+<h4>Thundurus-T</h4>
+<table class="sortable">
+<thead><tr><th>Type:</th><th>HP</th><th>Atk</th><th>Def</th><th>SAtk</th><th>SDef</th><th>Spe</th><th>Ability</th></tr></thead>
+<tr><td>Electric/Flying</td><td>79</td><td>105</td><td>70</td><td>145</td><td>80</td><td>101</td><td>Volt Absorb</td></tr>
+<tr class="a"><td>Original:</td><td>79 (=)</td><td>115 (-10)</td><td>70 (=)</td><td>125 (+20)</td><td>80 (=)</td><td>111 (-10)</td><td>Prankster</td></tr>
+</table>
+<p><img src="/media/upload/bw/articles/landorust.png" alt="" /></p>
+<h4>Landorus-T</h4>
+<table class="sortable">
+<thead><tr><th>Type:</th><th>HP</th><th>Atk</th><th>Def</th><th>SAtk</th><th>SDef</th><th>Spe</th><th>Ability</th></tr></thead>
+<tr><td>Ground/Flying</td><td>89</td><td>145</td><td>90</td><td>105</td><td>80</td><td>91</td><td>Intimidate</td></tr>
+<tr class="a"><td>Original:</td><td>89 (=)</td><td>125 (+20)</td><td>90 (=)</td><td>115 (-10)</td><td>80 (=)</td><td>101 (-10)</td><td>Sand Force</td></tr>
+</table>
+<h3><a name="keldeo">Keldeo</a></h3>
+<p><img src="/media/upload/bw/articles/keldeor.png" alt="" /></p>
+<h4>Keldeo-R</h4>
+<p>Is a Water / Fighting type, that MUST have the move Secret Sword, or else it will revert back to regular Keldeo. Has the same stats as Keldeo.</p>
+<h2><a name="moves">Move Tutors and Level Up moves</a></h2>
+<p>Like most generations, Black 2 and White 2 has brought us plenty of move tutors and a few new level up moves to upgrade our Pokémon with. Since most of the move tutors are based off of past move tutors or generation 4 TMs, we'll list the generation 5 Pokémon first.</p>
+<h3><a name="tutors">Tutors:</a></h3>
+<table class="sortable">
+<thead><tr><th>Shard Color</th><th>Moves Taught</th></tr></thead>
+<tr><td>Red Shard</td><td>Covet, Bug Bite, Drill Run, Bounce, Signal Beam, Iron Head, Super Fang, Uproar, Seed Bomb, Dual Chop, Low Kick, Thunderpunch, Fire Punch, Ice Punch</td></tr>
+<tr class="a"><td>Blue Shard</td><td>Last Resort, Magnet Rise, Magic Coat, Block, Hyper Voice, Electroweb, Icy Wind, Iron Tail, Aqua Tail, Earth Power, Zen Headbutt, Foul Play, Superpower, Gravity, Dragon Pulse, Dark Pulse</td></tr>
+<tr><td>Green Shard</td><td>Bind, Snore, Heal Block, Knock Off, Synthesis, Roost, Sky Attack, Role Play, Heat Wave, Giga Drain, Drain Punch, Pain Split, Tailwind</td></tr>
+<tr class="a"><td>Yellow Shard</td><td>Tailwind, Gastro Acid, Helping Hand, After You, Magic Room, Wonder Room, Spite, Recycle, Trick, Stealth Rock, Outrage, Endeavor, Sleep Talk, Skill Swap, Snatch</td></tr>
+</table>
+<h3>Learned Moves by Pok&eacute;mon</h3>
+<h4><a name="learned5">Generation 5</a></h4>
+<table class="sortable">
+<thead><tr><th>Pok&eacute;mon</th><th>Moves Learned</th></tr></thead>
+<tr><td>Victini</td><td> Bounce, Fire Punch, Heat Wave, Helping Hand, Last Resort, Magic Coat, Role Play, Signal Beam, Skill Swap, Sleep Talk, Snore, ThunderPunch, Trick, Uproar, Zen Headbutt</td></tr>
+<tr class="a"><td>Snivy</td><td> Aqua Tail, Bind, Gastro Acid, Giga Drain, Grass Pledge, Iron Tail, Knock Off, Seed Bomb, Sleep Talk, Snatch, Snore, Synthesis, Worry Seed</td></tr>
+<tr><td>Servine</td><td> Aqua Tail, Bind, Gastro Acid, Giga Drain, Grass Pledge, Iron Tail, Knock Off, Seed Bomb, Sleep Talk, Snatch, Snore, Synthesis, Worry Seed</td></tr>
+<tr class="a"><td>Serperior</td><td> Aqua Tail, Bind, Dragon Pulse, Frenzy Plant, Gastro Acid, Giga Drain, Grass Pledge, Iron Tail, Knock Off, Outrage, Seed Bomb, Sleep Talk, Snatch, Snore, Synthesis, Worry Seed</td></tr>
+<tr><td>Tepig</td><td> Covet, Endeavor, Fire Pledge, Heat Wave, Helping Hand, Iron Tail, Sleep Talk, Snore, Superpower</td></tr>
+<tr class="a"><td>Pignite</td><td> Covet, Endeavor, Fire Pledge, Fire Punch, Heat Wave, Helping Hand, Iron Tail, Low Kick, Sleep Talk, Snore, Superpower, ThunderPunch</td></tr>
+<tr><td>Emboar</td><td> Blast Burn, Block, Covet, Endeavor, Fire Pledge, Fire Punch, Heat Wave, Helping Hand, Iron Head, Iron Tail, Low Kick, Sleep Talk, Snore, Superpower, ThunderPunch</td></tr>
+<tr class="a"><td>Oshawott</td><td> Aqua Tail, Covet, Helping Hand, Icy Wind, Iron Tail, Sleep Talk, Snore, Water Pledge</td></tr>
+<tr><td>Dewott</td><td> Aqua Tail, Covet, Helping Hand, Icy Wind, Iron Tail, Sleep Talk, Snore, Water Pledge</td></tr>
+<tr class="a"><td>Samurott</td><td> Aqua Tail, Block, Covet, Helping Hand, Hydro Cannon, Icy Wind, Iron Tail, Knock Off, Sleep Talk, Snore, Superpower, Water Pledge</td></tr>
+<tr><td>Patrat</td><td> After You, Aqua Tail, Covet, Endeavor, Gunk Shot, Helping Hand, Iron Tail, Last Resort, Low Kick, Seed Bomb, Sleep Talk, Snore, Super Fang, Zen Headbutt</td></tr>
+<tr class="a"><td>Watchog</td><td> After You, Aqua Tail, Covet, Endeavor, Fire Punch, Gunk Shot, Helping Hand, Ice Punch, Iron Tail, Knock Off, Last Resort, Low Kick, Seed Bomb, Signal Beam, Sleep Talk, Snore, Super Fang, ThunderPunch, Zen Headbutt</td></tr>
+<tr><td>Lillipup</td><td> Covet, Helping Hand, Hyper Voice, Last Resort, Sleep Talk, Snore, Uproar</td></tr>
+<tr class="a"><td>Herdier</td><td> Covet, Helping Hand, Hyper Voice, Last Resort, Sleep Talk, Snore, Uproar</td></tr>
+<tr><td>Stoutland</td><td> Covet, Helping Hand, Hyper Voice, Iron Head, Last Resort, Sleep Talk, Snore, Superpower, Uproar</td></tr>
+<tr class="a"><td>Purrloin</td><td> Covet, Dark Pulse, Foul Play, Gunk Shot, Hyper Voice, Iron Tail, Knock Off, Role Play, Seed Bomb, Sleep Talk, Snatch, Snore, Spite, Trick, U-turn</td></tr>
+<tr><td>Liepard</td><td> Covet, Dark Pulse, Foul Play, Gunk Shot, Hyper Voice, Iron Tail, Knock Off, Role Play, Seed Bomb, Sleep Talk, Snatch, Snore, Spite, Trick, U-turn</td></tr>
+<tr class="a"><td>Pansage</td><td> Covet, Endeavor, Giga Drain, Gunk Shot, Helping Hand, Iron Tail, Knock Off, Low Kick, Recycle, Role Play, Seed Bomb, Sleep Talk, Snore, Synthesis, Uproar, Worry Seed</td></tr>
+<tr><td>Simisage</td><td> Covet, Endeavor, Giga Drain, Gunk Shot, Helping Hand, Iron Tail, Knock Off, Low Kick, Recycle, Role Play, Seed Bomb, Sleep Talk, Snore, Superpower, Synthesis, Uproar, Worry Seed</td></tr>
+<tr class="a"><td>Pansear</td><td> Covet, Endeavor, Fire Punch, Gunk Shot, Heat Wave, Helping Hand, Iron Tail, Knock Off, Low Kick, Recycle, Role Play, Sleep Talk, Snore, Uproar</td></tr>
+<tr><td>Simisear</td><td> Covet, Endeavor, Fire Punch, Gunk Shot, Heat Wave, Helping Hand, Iron Tail, Knock Off, Low Kick, Recycle, Role Play, Sleep Talk, Snore, Superpower, Uproar</td></tr>
+<tr class="a"><td>Panpour</td><td> Aqua Tail, Covet, Endeavor, Gunk Shot, Helping Hand, Ice Punch, Icy Wind, Iron Tail, Knock Off, Low Kick, Recycle, Role Play, Sleep Talk, Snore, Uproar</td></tr>
+<tr><td>Simipour</td><td> Aqua Tail, Covet, Endeavor, Gunk Shot, Helping Hand, Ice Punch, Icy Wind, Iron Tail, Knock Off, Low Kick, Recycle, Role Play, Sleep Talk, Snore, Superpower, Uproar</td></tr>
+<tr class="a"><td>Munna</td><td> After You, Gravity, Heal Bell, Helping Hand, Magic Coat, Pain Split, Signal Beam, Skill Swap, Sleep Talk, Snore, Trick, Wonder Room, Worry Seed, Zen Headbutt</td></tr>
+<tr><td>Musharna</td><td> After You, Gravity, Heal Bell, Helping Hand, Magic Coat, Pain Split, Signal Beam, Skill Swap, Sleep Talk, Snore, Trick, Wonder Room, Worry Seed, Zen Headbutt</td></tr>
+<tr class="a"><td>Pidove</td><td> Heat Wave, Roost, Sky Attack, Sleep Talk, Snore, Tailwind, Uproar</td></tr>
+<tr><td>Tranquill</td><td> Heat Wave, Roost, Sky Attack, Sleep Talk, Snore, Tailwind, Uproar</td></tr>
+<tr class="a"><td>Unfezant</td><td> Heat Wave, Roost, Sky Attack, Sleep Talk, Snore, Tailwind, Uproar</td></tr>
+<tr><td>Blitzle</td><td> Bounce, Magnet Rise, Signal Beam, Sleep Talk, Snore</td></tr>
+<tr class="a"><td>Zebstrika</td><td> Bounce, Magnet Rise, Signal Beam, Sleep Talk, Snore</td></tr>
+<tr><td>Roggenrola</td><td> Block, Earth Power, Gravity, Iron Defense, Sleep Talk, Snore, Stealth Rock</td></tr>
+<tr class="a"><td>Boldore</td><td> Block, Earth Power, Gravity, Iron Defense, Sleep Talk, Snore, Stealth Rock</td></tr>
+<tr><td>Gigalith</td><td> Block, Earth Power, Gravity, Iron Defense, Iron Head, Sleep Talk, Snore, Stealth Rock, Superpower</td></tr>
+<tr class="a"><td>Woobat</td><td> After You, Endeavor, Giga Drain, Heat Wave, Helping Hand, Knock Off, Magic Coat, Roost, Signal Beam, Skill Swap, Sleep Talk, Snore, Super Fang, Tailwind, Trick, Uproar, Zen Headbutt</td></tr>
+<tr><td>Swoobat</td><td> After You, Endeavor, Giga Drain, Heat Wave, Helping Hand, Knock Off, Magic Coat, Roost, Signal Beam, Skill Swap, Sky Attack, Sleep Talk, Snore, Super Fang, Tailwind, Trick, Uproar, Zen Headbutt</td></tr>
+<tr class="a"><td>Drilbur</td><td> Drill Run, Earth Power, Iron Defense, Sleep Talk, Snore, Stealth Rock</td></tr>
+<tr><td>Excadrill</td><td> Drill Run, Earth Power, Iron Defense, Iron Head, Magnet Rise, Sleep Talk, Snore, Stealth Rock</td></tr>
+<tr class="a"><td>Audino</td><td> After You, Covet, Drain Punch, Fire Punch, Gravity, Heal Bell, Helping Hand, Hyper Voice, Ice Punch, Icy Wind, Iron Tail, Knock Off, Last Resort, Low Kick, Magic Coat, Pain Split, Role Play, Signal Beam, Skill Swap, Sleep Talk, Snatch, Snore, ThunderPunch, Uproar, Zen Headbutt</td></tr>
+<tr><td>Timburr</td><td> Block, Drain Punch, Fire Punch, Helping Hand, Ice Punch, Knock Off, Low Kick, Sleep Talk, Snore, Superpower, ThunderPunch</td></tr>
+<tr class="a"><td>Gurdurr</td><td> Block, Drain Punch, Fire Punch, Helping Hand, Ice Punch, Knock Off, Low Kick, Sleep Talk, Snore, Superpower, ThunderPunch</td></tr>
+<tr><td>Conkeldurr</td><td> Block, Drain Punch, Fire Punch, Helping Hand, Ice Punch, Knock Off, Low Kick, Sleep Talk, Snore, Superpower, ThunderPunch</td></tr>
+<tr class="a"><td>Tympole</td><td> Bounce, Earth Power, Endeavor, Hyper Voice, Icy Wind, Sleep Talk, Snore, Uproar</td></tr>
+<tr><td>Palpitoad</td><td> Bounce, Earth Power, Endeavor, Gastro Acid, Hyper Voice, Icy Wind, Sleep Talk, Snore, Stealth Rock, Uproar</td></tr>
+<tr class="a"><td>Seismitoad</td><td> Bounce, Drain Punch, Earth Power, Endeavor, Gastro Acid, Hyper Voice, Ice Punch, Icy Wind, Knock Off, Low Kick, Sleep Talk, Snore, Stealth Rock, Uproar</td></tr>
+<tr><td>Throh</td><td> Bind, Block, Fire Punch, Helping Hand, Ice Punch, Knock Off, Low Kick, Pain Split, Sleep Talk, Snore, Superpower, ThunderPunch</td></tr>
+<tr class="a"><td>Sawk</td><td> Block, Dual Chop, Fire Punch, Helping Hand, Ice Punch, Knock Off, Low Kick, Pain Split, Sleep Talk, Snore, Superpower, ThunderPunch</td></tr>
+<tr><td>Sewaddle</td><td> Bug Bite, Electroweb, Giga Drain, Iron Defense, Magic Coat, Seed Bomb, Signal Beam, Sleep Talk, Snore, Synthesis, Worry Seed</td></tr>
+<tr class="a"><td>Swadloon</td><td> Bug Bite, Electroweb, Giga Drain, Iron Defense, Magic Coat, Seed Bomb, Signal Beam, Sleep Talk, Snore, Synthesis, Worry Seed</td></tr>
+<tr><td>Leavanny</td><td> Bug Bite, Electroweb, Giga Drain, Heal Bell, Helping Hand, Iron Defense, Knock Off, Magic Coat, Seed Bomb, Signal Beam, Sleep Talk, Snore, Synthesis, Worry Seed</td></tr>
+<tr class="a"><td>Venipede</td><td> Bug Bite, Endeavor, Iron Defense, Sleep Talk, Snore</td></tr>
+<tr><td>Whirlipede</td><td> Bug Bite, Endeavor, Iron Defense, Sleep Talk, Snore</td></tr>
+<tr class="a"><td>Scolipede</td><td> Aqua Tail, Bug Bite, Endeavor, Iron Defense, Iron Tail, Sleep Talk, Snatch, Snore, Superpower</td></tr>
+<tr><td>Cottonee</td><td> Covet, Endeavor, Giga Drain, Helping Hand, Knock Off, Seed Bomb, Sleep Talk, Snore, Tailwind, Worry Seed</td></tr>
+<tr class="a"><td>Whimsicott</td><td> Covet, Endeavor, Giga Drain, Helping Hand, Knock Off, Seed Bomb, Sleep Talk, Snore, Tailwind, Worry Seed</td></tr>
+<tr><td>Petilil</td><td> After You, Covet, Giga Drain, Heal Bell, Helping Hand, Seed Bomb, Sleep Talk, Snore, Synthesis, Worry Seed</td></tr>
+<tr class="a"><td>Lilligant</td><td> After You, Covet, Giga Drain, Heal Bell, Helping Hand, Role Play, Seed Bomb, Sleep Talk, Snore, Synthesis, Worry Seed</td></tr>
+<tr><td>Basculin</td><td> Aqua Tail, Bounce, Endeavor, Icy Wind, Sleep Talk, Snore, Superpower, Uproar, Zen Headbutt</td></tr>
+<tr class="a"><td>Sandile</td><td> Aqua Tail, Dark Pulse, Earth Power, Foul Play, Iron Tail, Sleep Talk, Snatch, Snore, Spite, Stealth Rock, Uproar</td></tr>
+<tr><td>Krokorok</td><td> Aqua Tail, Dark Pulse, Earth Power, Foul Play, Iron Tail, Knock Off, Low Kick, Sleep Talk, Snatch, Snore, Spite, Stealth Rock, Uproar</td></tr>
+<tr class="a"><td>Krookodile</td><td> Aqua Tail, Block, Dark Pulse, Dragon Pulse, Earth Power, Foul Play, Iron Tail, Knock Off, Low Kick, Outrage, Sleep Talk, Snatch, Snore, Spite, Stealth Rock, Superpower, Uproar</td></tr>
+<tr><td>Darumaka</td><td> Endeavor, Fire Punch, Heat Wave, Sleep Talk, Snore, Superpower, Uproar, Zen Headbutt</td></tr>
+<tr class="a"><td>Darmanitan (both formes)</td><td> Endeavor, Fire Punch, Heat Wave, Sleep Talk, Snore, Superpower, Uproar, Zen Headbutt</td></tr>
+<tr><td>Maractus</td><td> After You, Bounce, Drain Punch, Endeavor, Giga Drain, Helping Hand, Hyper Voice, Knock Off, Seed Bomb, Sleep Talk, Snore, Synthesis, Uproar, Worry Seed</td></tr>
+<tr class="a"><td>Dwebble</td><td> Block, Bug Bite, Iron Defense, Knock Off, Sleep Talk, Snore, Stealth Rock</td></tr>
+<tr><td>Crustle</td><td> Block, Bug Bite, Iron Defense, Knock Off, Sleep Talk, Snore, Stealth Rock</td></tr>
+<tr class="a"><td>Scraggy</td><td> Dark Pulse, Dragon Pulse, Drain Punch, Dual Chop, Fire Punch, Foul Play, Ice Punch, Iron Defense, Iron Head, Iron Tail, Knock Off, Low Kick, Sleep Talk, Snatch, Snore, Spite, Super Fang, ThunderPunch, Zen Headbutt</td></tr>
+<tr><td>Scrafty</td><td> Dark Pulse, Dragon Pulse, Drain Punch, Dual Chop, Fire Punch, Foul Play, Ice Punch, Iron Defense, Iron Head, Iron Tail, Knock Off, Low Kick, Outrage, Sleep Talk, Snatch, Snore, Spite, Super Fang, ThunderPunch, Zen Headbutt</td></tr>
+<tr class="a"><td>Sigilyph</td><td> Dark Pulse, Gravity, Heat Wave, Icy Wind, Magic Coat, Magic Room, Roost, Signal Beam, Skill Swap, Sky Attack, Sleep Talk, Snore, Tailwind, Trick, Zen Headbutt</td></tr>
+<tr><td>Yamask</td><td> After You, Block, Dark Pulse, Iron Defense, Knock Off, Magic Coat, Pain Split, Role Play, Skill Swap, Sleep Talk, Snatch, Snore, Spite, Trick, Wonder Room</td></tr>
+<tr class="a"><td>Cofagrigus</td><td> After You, Block, Dark Pulse, Iron Defense, Knock Off, Magic Coat, Pain Split, Role Play, Skill Swap, Sleep Talk, Snatch, Snore, Spite, Trick, Wonder Room</td></tr>
+<tr><td>Tirtouga</td><td> Aqua Tail, Block, Earth Power, Icy Wind, Iron Defense, Iron Tail, Sleep Talk, Snore, Stealth Rock</td></tr>
+<tr class="a"><td>Carracosta</td><td> Aqua Tail, Block, Earth Power, Icy Wind, Iron Defense, Iron Head, Iron Tail, Low Kick, Sleep Talk, Snore, Stealth Rock, Superpower</td></tr>
+<tr><td>Archen</td><td> Aqua Tail, Bounce, Dragon Pulse, Earth Power, Endeavor, Heat Wave, Iron Defense, Iron Tail, Roost, Sleep Talk, Snore, Stealth Rock, Tailwind, Uproar</td></tr>
+<tr class="a"><td>Archeops</td><td> Aqua Tail, Bounce, Dragon Pulse, Earth Power, Endeavor, Heat Wave, Iron Defense, Iron Tail, Outrage, Roost, Sky Attack, Sleep Talk, Snore, Stealth Rock, Tailwind, Uproar</td></tr>
+<tr><td>Trubbish</td><td> Dark Pulse, Drain Punch, Giga Drain, Gunk Shot, Pain Split, Recycle, Seed Bomb, Sleep Talk, Snore, Spite</td></tr>
+<tr class="a"><td>Garbodor</td><td> Dark Pulse, Drain Punch, Giga Drain, Gunk Shot, Pain Split, Recycle, Seed Bomb, Sleep Talk, Snore, Spite</td></tr>
+<tr><td>Zorua</td><td> Bounce, Covet, Dark Pulse, Foul Play, Hyper Voice, Knock Off, Sleep Talk, Snatch, Snore, Spite, Trick, Uproar</td></tr>
+<tr class="a"><td>Zoroark</td><td> Bounce, Covet, Dark Pulse, Foul Play, Hyper Voice, Knock Off, Low Kick, Sleep Talk, Snatch, Snore, Spite, Trick, Uproar</td></tr>
+<tr><td>Minccino</td><td> After You, Aqua Tail, Covet, Gunk Shot, Helping Hand, Hyper Voice, Iron Tail, Knock Off, Last Resort, Seed Bomb, Sleep Talk, Snore, Uproar</td></tr>
+<tr class="a"><td>Cinccino</td><td> After You, Aqua Tail, Covet, Gunk Shot, Helping Hand, Hyper Voice, Iron Tail, Knock Off, Last Resort, Seed Bomb, Sleep Talk, Snore, Uproar</td></tr>
+<tr><td>Gothita</td><td> Covet, Foul Play, Gravity, Heal Bell, Helping Hand, Magic Coat, Magic Room, Recycle, Role Play, Signal Beam, Skill Swap, Sleep Talk, Snatch, Snore, Trick, Uproar, Zen Headbutt</td></tr>
+<tr class="a"><td>Gothorita</td><td> Covet, Foul Play, Gravity, Heal Bell, Helping Hand, Magic Coat, Magic Room, Recycle, Role Play, Signal Beam, Skill Swap, Sleep Talk, Snatch, Snore, Trick, Uproar, Zen Headbutt</td></tr>
+<tr><td>Gothitelle</td><td> Covet, Foul Play, Gravity, Heal Bell, Helping Hand, Magic Coat, Magic Room, Recycle, Role Play, Signal Beam, Skill Swap, Sleep Talk, Snatch, Snore, Trick, Uproar, Zen Headbutt</td></tr>
+<tr class="a"><td>Solosis</td><td> After You, Endeavor, Gravity, Magic Coat, Pain Split, Role Play, Signal Beam, Skill Swap, Sleep Talk, Snatch, Snore, Trick, Wonder Room, Zen Headbutt</td></tr>
+<tr><td>Duosion</td><td> After You, Endeavor, Gravity, Magic Coat, Pain Split, Role Play, Signal Beam, Skill Swap, Sleep Talk, Snatch, Snore, Trick, Wonder Room, Zen Headbutt</td></tr>
+<tr class="a"><td>Reuniclus</td><td> After You, Drain Punch, Endeavor, Fire Punch, Gravity, Helping Hand, Ice Punch, Knock Off, Magic Coat, Pain Split, Role Play, Signal Beam, Skill Swap, Sleep Talk, Snatch, Snore, Superpower, ThunderPunch, Trick, Wonder Room, Zen Headbutt</td></tr>
+<tr><td>Ducklett</td><td> Endeavor, Icy Wind, Roost, Sleep Talk, Snore, Tailwind, Uproar</td></tr>
+<tr class="a"><td>Swanna</td><td> Endeavor, Icy Wind, Roost, Sky Attack, Sleep Talk, Snore, Tailwind, Uproar</td></tr>
+<tr><td>Vanillite</td><td> Icy Wind, Iron Defense, Magic Coat, Magnet Rise, Signal Beam, Sleep Talk, Snore, Uproar</td></tr>
+<tr class="a"><td>Vanillish</td><td> Icy Wind, Iron Defense, Magic Coat, Magnet Rise, Signal Beam, Sleep Talk, Snore, Uproar</td></tr>
+<tr><td>Vanilluxe</td><td> Icy Wind, Iron Defense, Magic Coat, Magnet Rise, Signal Beam, Sleep Talk, Snore, Uproar</td></tr>
+<tr class="a"><td>Deerling</td><td> Bounce, Giga Drain, Last Resort, Seed Bomb, Sleep Talk, Snore, Synthesis, Worry Seed</td></tr>
+<tr><td>Sawsbuck</td><td> Bounce, Giga Drain, Last Resort, Seed Bomb, Sleep Talk, Snore, Synthesis, Worry Seed</td></tr>
+<tr class="a"><td>Emolga</td><td> Covet, Helping Hand, Iron Tail, Knock Off, Last Resort, Roost, Signal Beam, Sleep Talk, Snore, Tailwind</td></tr>
+<tr><td>Karrablast</td><td> Bug Bite, Giga Drain, Iron Defense, Knock Off, Sleep Talk, Snore</td></tr>
+<tr class="a"><td>Escavalier</td><td> Bug Bite, Giga Drain, Iron Defense, Iron Head, Knock Off, Sleep Talk, Snore</td></tr>
+<tr><td>Foongus</td><td> After You, Foul Play, Gastro Acid, Giga Drain, Seed Bomb, Sleep Talk, Snore, Synthesis, Worry Seed</td></tr>
+<tr class="a"><td>Amoonguss</td><td> After You, Foul Play, Gastro Acid, Giga Drain, Seed Bomb, Sleep Talk, Snore, Synthesis, Worry Seed</td></tr>
+<tr><td>Frillish</td><td> Bind, Dark Pulse, Giga Drain, Icy Wind, Magic Coat, Pain Split, Sleep Talk, Snore, Spite, Trick</td></tr>
+<tr class="a"><td>Jellicent</td><td> Bind, Dark Pulse, Giga Drain, Icy Wind, Magic Coat, Pain Split, Sleep Talk, Snore, Spite, Trick</td></tr>
+<tr><td>Alomomola</td><td> Bounce, Helping Hand, Icy Wind, Knock Off, Magic Coat, Pain Split, Sleep Talk, Snore</td></tr>
+<tr class="a"><td>Joltik</td><td> Bounce, Bug Bite, Electroweb, Gastro Acid, Giga Drain, Magnet Rise, Signal Beam, Sleep Talk, Snore</td></tr>
+<tr><td>Galvantula</td><td> Bounce, Bug Bite, Electroweb, Gastro Acid, Giga Drain, Magnet Rise, Signal Beam, Sleep Talk, Snore</td></tr>
+<tr class="a"><td>Ferroseed</td><td> Endeavor, Giga Drain, Gravity, Iron Defense, Iron Head, Magnet Rise, Seed Bomb, Sleep Talk, Snore, Stealth Rock, Worry Seed</td></tr>
+<tr><td>Ferrothorn</td><td> Endeavor, Giga Drain, Gravity, Iron Defense, Iron Head, Knock Off, Magnet Rise, Seed Bomb, Sleep Talk, Snore, Stealth Rock, Worry Seed</td></tr>
+<tr class="a"><td>Klink</td><td> Bind, Gravity, Iron Defense, Magic Coat, Magnet Rise, Recycle, Signal Beam, Sleep Talk, Snore, Uproar, Wild Charge</td></tr>
+<tr><td>Klang</td><td> Bind, Gravity, Iron Defense, Magic Coat, Magnet Rise, Recycle, Signal Beam, Sleep Talk, Snore, Uproar, Wild Charge</td></tr>
+<tr class="a"><td>Klinklang</td><td> Bind, Gravity, Iron Defense, Magic Coat, Magnet Rise, Recycle, Signal Beam, Sleep Talk, Snore, Uproar, Wild Charge</td></tr>
+<tr><td>Tynamo</td><td> Magnet Rise</td></tr>
+<tr class="a"><td>Eelektrik</td><td> Aqua Tail, Bind, Bounce, Gastro Acid, Giga Drain, Iron Tail, Knock Off, Magnet Rise, Signal Beam, Sleep Talk, Snore, Super Fang</td></tr>
+<tr><td>Eelektross</td><td> Aqua Tail, Bind, Bounce, Drain Punch, Fire Punch, Gastro Acid, Giga Drain, Iron Tail, Knock Off, Magnet Rise, Signal Beam, Sleep Talk, Snore, Super Fang, Superpower, ThunderPunch</td></tr>
+<tr class="a"><td>Elgyem</td><td> After You, Dark Pulse, Gravity, Magic Coat, Pain Split, Recycle, Role Play, Signal Beam, Skill Swap, Sleep Talk, Snatch, Snore, Trick, Uproar, Wonder Room, Zen Headbutt</td></tr>
+<tr><td>Beheeyem</td><td> After You, Dark Pulse, Gravity, Magic Coat, Pain Split, Recycle, Role Play, Signal Beam, Skill Swap, Sleep Talk, Snatch, Snore, Trick, Uproar, Wonder Room, Zen Headbutt</td></tr>
+<tr class="a"><td>Litwick</td><td> Dark Pulse, Heat Wave, Pain Split, Sleep Talk, Snore, Spite, Trick</td></tr>
+<tr><td>Lampent</td><td> Dark Pulse, Heat Wave, Pain Split, Sleep Talk, Snore, Spite, Trick</td></tr>
+<tr class="a"><td>Chandelure</td><td> Dark Pulse, Heat Wave, Pain Split, Sleep Talk, Snore, Spite, Trick</td></tr>
+<tr><td>Axew</td><td> Aqua Tail, Draco Meteor, Dragon Pulse, Dual Chop, Endeavor, Iron Tail, Outrage, Sleep Talk, Snore, Superpower</td></tr>
+<tr class="a"><td>Fraxure</td><td> Aqua Tail, Draco Meteor, Dragon Pulse, Dual Chop, Endeavor, Iron Tail, Low Kick, Outrage, Sleep Talk, Snore, Superpower</td></tr>
+<tr><td>Haxorus</td><td> Aqua Tail, Draco Meteor, Dragon Pulse, Dual Chop, Endeavor, Iron Tail, Low Kick, Outrage, Sleep Talk, Snore, Superpower</td></tr>
+<tr class="a"><td>Cubchoo</td><td> Covet, Ice Punch, Icy Wind, Low Kick, Sleep Talk, Snore, Superpower</td></tr>
+<tr><td>Beartic</td><td> Covet, Ice Punch, Icy Wind, Low Kick, Sleep Talk, Snore, Superpower, Aqua Jet</td></tr>
+<tr class="a"><td>Cryogonal</td><td> Bind, Icy Wind, Iron Defense, Knock Off, Magic Coat, Signal Beam, Sleep Talk, Snore</td></tr>
+<tr><td>Shelmet</td><td> Bug Bite, Gastro Acid, Giga Drain, Signal Beam, Sleep Talk, Snore</td></tr>
+<tr class="a"><td>Accelgor</td><td> Bug Bite, Gastro Acid, Giga Drain, Knock Off, Signal Beam, Sleep Talk, Snore</td></tr>
+<tr><td>Stunfisk</td><td> Aqua Tail, Bounce, Earth Power, Electroweb, Endeavor, Foul Play, Magnet Rise, Pain Split, Sleep Talk, Snore, Spite, Stealth Rock, Uproar</td></tr>
+<tr class="a"><td>Mienfoo</td><td> Bounce, Drain Punch, Dual Chop, Helping Hand, Knock Off, Low Kick, Role Play, Sleep Talk, Snore</td></tr>
+<tr><td>Mienshao</td><td> Bounce, Drain Punch, Dual Chop, Helping Hand, Knock Off, Low Kick, Role Play, Sleep Talk, Snore</td></tr>
+<tr class="a"><td>Druddigon</td><td> Aqua Tail, Dark Pulse, Draco Meteor, Dragon Pulse, Fire Punch, Gunk Shot, Heat Wave, Iron Head, Iron Tail, Outrage, Sleep Talk, Snatch, Snore, Stealth Rock, Superpower, ThunderPunch</td></tr>
+<tr><td>Golett</td><td> Block, Drain Punch, Earth Power, Fire Punch, Gravity, Ice Punch, Icy Wind, Iron Defense, Low Kick, Magic Coat, Signal Beam, Sleep Talk, Snore, Stealth Rock, Superpower, ThunderPunch</td></tr>
+<tr class="a"><td>Golurk</td><td> Block, Drain Punch, Earth Power, Fire Punch, Gravity, Ice Punch, Icy Wind, Iron Defense, Low Kick, Magic Coat, Signal Beam, Sleep Talk, Snore, Stealth Rock, Superpower, ThunderPunch, Zen Headbutt</td></tr>
+<tr><td>Pawniard</td><td> Dark Pulse, Dual Chop, Foul Play, Iron Defense, Iron Head, Knock Off, Low Kick, Magnet Rise, Role Play, Sleep Talk, Snatch, Snore, Spite, Stealth Rock</td></tr>
+<tr class="a"><td>Bisharp</td><td> Dark Pulse, Dual Chop, Foul Play, Iron Defense, Iron Head, Knock Off, Low Kick, Magnet Rise, Role Play, Sleep Talk, Snatch, Snore, Spite, Stealth Rock</td></tr>
+<tr><td>Bouffalant</td><td> Endeavor, Iron Head, Outrage, Sleep Talk, Snore, Superpower, Uproar, Zen Headbutt</td></tr>
+<tr class="a"><td>Rufflet</td><td> Heat Wave, Roost, Sleep Talk, Snore, Superpower, Tailwind</td></tr>
+<tr><td>Braviary</td><td> Heat Wave, Roost, Sky Attack, Sleep Talk, Snore, Superpower, Tailwind</td></tr>
+<tr class="a"><td>Vullaby</td><td> Block, Dark Pulse, Foul Play, Heat Wave, Iron Defense, Knock Off, Roost, Sleep Talk, Snatch, Snore, Tailwind</td></tr>
+<tr><td>Mandibuzz</td><td> Block, Dark Pulse, Foul Play, Heat Wave, Iron Defense, Knock Off, Roost, Sky Attack, Sleep Talk, Snatch, Snore, Tailwind</td></tr>
+<tr class="a"><td>Heatmor</td><td> Bind, Bug Bite, Fire Punch, Gastro Acid, Giga Drain, Heat Wave, Knock Off, Low Kick, Recycle, Sleep Talk, Snatch, Snore, Superpower, ThunderPunch</td></tr>
+<tr><td>Durant</td><td> Bug Bite, Endeavor, Iron Defense, Iron Head, Sleep Talk, Snore, Superpower</td></tr>
+<tr class="a"><td>Deino</td><td> Aqua Tail, Dark Pulse, Draco Meteor, Dragon Pulse, Earth Power, Hyper Voice, Outrage, Sleep Talk, Snore, Spite, Superpower, Uproar, Zen Headbutt</td></tr>
+<tr><td>Zweilous</td><td> Aqua Tail, Dark Pulse, Draco Meteor, Dragon Pulse, Earth Power, Hyper Voice, Outrage, Sleep Talk, Snore, Spite, Superpower, Uproar, Zen Headbutt</td></tr>
+<tr class="a"><td>Hydreigon</td><td> Aqua Tail, Dark Pulse, Draco Meteor, Dragon Pulse, Earth Power, Heat Wave, Hyper Voice, Iron Tail, Outrage, Roost, Signal Beam, Sleep Talk, Snore, Spite, Superpower, Tailwind, Uproar, Zen Headbutt</td></tr>
+<tr><td>Larvesta</td><td> Bug Bite, Giga Drain, Heat Wave, Magnet Rise, Signal Beam, Sleep Talk, Snore, Zen Headbutt</td></tr>
+<tr class="a"><td>Volcarona</td><td> Bug Bite, Giga Drain, Heat Wave, Magnet Rise, Roost, Signal Beam, Sleep Talk, Snore, Tailwind</td></tr>
+<tr><td>Cobalion</td><td> Block, Bounce, Helping Hand, Iron Defense, Iron Head, Magnet Rise, Sleep Talk, Snore, Stealth Rock, Superpower, Zen Headbutt</td></tr>
+<tr class="a"><td>Terrakion</td><td> Block, Earth Power, Helping Hand, Iron Head, Sleep Talk, Snore, Stealth Rock, Superpower, Zen Headbutt</td></tr>
+<tr><td>Virizion</td><td> Block, Bounce, Giga Drain, Helping Hand, Seed Bomb, Sleep Talk, Snore, Superpower, Synthesis, Worry Seed, Zen Headbutt</td></tr>
+<tr class="a"><td>Tornadus (both formes)</td><td> Dark Pulse, Foul Play, Heat Wave, Icy Wind, Iron Tail, Knock Off, Role Play, Sleep Talk, Snore, Superpower, Tailwind, Uproar</td></tr>
+<tr><td>Thundurus (both formes)</td><td> Dark Pulse, Foul Play, Iron Tail, Knock Off, Role Play, Sleep Talk, Snore, Superpower, ThunderPunch, Uproar</td></tr>
+<tr class="a"><td>Reshiram</td><td> Draco Meteor, Dragon Pulse, Earth Power, Heat Wave, Hyper Voice, Outrage, Roost, Sleep Talk, Snore, Tailwind, Zen Headbutt</td></tr>
+<tr><td>Zekrom</td><td> Draco Meteor, Dragon Pulse, Earth Power, Hyper Voice, Magnet Rise, Outrage, Roost, Signal Beam, Sleep Talk, Snore, Tailwind, ThunderPunch, Zen Headbutt</td></tr>
+<tr class="a"><td>Landorus (both formes)</td><td> Block, Earth Power, Gravity, Iron Tail, Knock Off, Outrage, Role Play, Sleep Talk, Snore, Stealth Rock, Superpower</td></tr>
+<tr><td>Kyurem (all formes)</td><td> Draco Meteor, Dragon Pulse, Earth Power, Endeavor, Hyper Voice, Icy Wind, Iron Head, Outrage, Roost, Signal Beam, Sleep Talk, Snore, Zen Headbutt</td></tr>
+<tr class="a"><td>Keldeo</td><td> Aqua Tail, Bounce, Covet, Endeavor, Helping Hand, Icy Wind, Last Resort, Sleep Talk, Snore, Superpower</td></tr>
+<tr><td>Meloetta</td><td> Covet, Drain Punch, Dual Chop, Fire Punch, Gravity, Heal Bell, Helping Hand, Hyper Voice, Ice Punch, Knock Off, Last Resort, Low Kick, Magic Coat, Magic Room, Recycle, Role Play, Signal Beam, Skill Swap, Sleep Talk, Snatch, Snore, ThunderPunch, Trick, Uproar, Wonder Room, Zen Headbutt</td></tr>
+<tr class="a"><td>Genesect</td><td> Bug Bite, Dark Pulse, Electroweb, Giga Drain, Gravity, Gunk Shot, Iron Defense, Iron Head, Last Resort, Magic Coat, Magnet Rise, Recycle, Signal Beam, Sleep Talk, Snore, Zen Headbutt</td></tr>
+</table>
+<h4><a name="learnedold">Generations 1-4</a></h4>
+<table class="sortable">
+<thead><tr><th>Pok&eacute;mon</th><th>Moves Learned</th></tr></thead>
+<tr><td>Bulbasaur</td><td> Bind, Giga Drain, Grass Pledge, Knock Off, Seed Bomb, Sleep Talk, Snore, Synthesis, Worry Seed</td></tr>
+<tr class="a"><td>Ivysaur</td><td> Bind, Giga Drain, Grass Pledge, Knock Off, Seed Bomb, Sleep Talk, Snore, Synthesis, Worry Seed</td></tr>
+<tr><td>Venusaur</td><td> Bind, Block, Frenzy Plant, Giga Drain, Grass Pledge, Knock Off, Outrage, Seed Bomb, Sleep Talk, Snore, Synthesis, Worry Seed</td></tr>
+<tr class="a"><td>Charmander</td><td> Fire Pledge, Fire Punch, Heat Wave, Iron Tail, Outrage, Sleep Talk, Snore, ThunderPunch</td></tr>
+<tr><td>Charmeleon</td><td> Fire Pledge, Fire Punch, Heat Wave, Iron Tail, Outrage, Sleep Talk, Snore, ThunderPunch</td></tr>
+<tr class="a"><td>Charizard</td><td> Blast Burn, Dragon Pulse, Fire Pledge, Fire Punch, Heat Wave, Iron Tail, Outrage, Roost, Sleep Talk, Snore, Tailwind, ThunderPunch</td></tr>
+<tr><td>Squirtle</td><td> Aqua Tail, Ice Punch, Icy Wind, Iron Defense, Iron Tail, Sleep Talk, Snore, Water Pledge, Zen Headbutt</td></tr>
+<tr class="a"><td>Wartortle</td><td> Aqua Tail, Ice Punch, Icy Wind, Iron Defense, Iron Tail, Sleep Talk, Snore, Water Pledge, Zen Headbutt</td></tr>
+<tr><td>Blastoise</td><td> Aqua Tail, Hydro Cannon, Ice Punch, Icy Wind, Iron Defense, Iron Tail, Outrage, Signal Beam, Sleep Talk, Snore, Water Pledge, Zen Headbutt</td></tr>
+<tr class="a"><td>Caterpie</td><td> Bug Bite, Electroweb, Snore</td></tr>
+<tr><td>Metapod</td><td> Bug Bite, Electroweb, Iron Defense</td></tr>
+<tr class="a"><td>Butterfree</td><td> Bug Bite, Electroweb, Giga Drain, Roost, Signal Beam, Skill Swap, Sleep Talk, Snore, Tailwind</td></tr>
+<tr><td>Weedle</td><td> Bug Bite, Electroweb</td></tr>
+<tr class="a"><td>Kakuna</td><td> Bug Bite, Electroweb, Iron Defense</td></tr>
+<tr><td>Beedrill</td><td> Bug Bite, Drill Run, Electroweb, Endeavor, Giga Drain, Knock Off, Roost, Sleep Talk, Snore, Tailwind</td></tr>
+<tr class="a"><td>Pidgey</td><td> Heat Wave, Roost, Sleep Talk, Snore, Tailwind, Uproar</td></tr>
+<tr><td>Pidgeotto</td><td> Heat Wave, Roost, Sleep Talk, Snore, Tailwind, Uproar</td></tr>
+<tr class="a"><td>Pidgeot</td><td> Heat Wave, Roost, Sky Attack, Sleep Talk, Snore, Tailwind, Uproar</td></tr>
+<tr><td>Rattata</td><td> Covet, Endeavor, Icy Wind, Iron Tail, Last Resort, Sleep Talk, Snore, Super Fang, Uproar, Zen Headbutt</td></tr>
+<tr class="a"><td>Raticate</td><td> Covet, Endeavor, Icy Wind, Iron Tail, Last Resort, Sleep Talk, Snore, Super Fang, Uproar, Zen Headbutt</td></tr>
+<tr><td>Spearow</td><td> Drill Run, Heat Wave, Roost, Sky Attack, Sleep Talk, Snore, Tailwind, Uproar</td></tr>
+<tr class="a"><td>Fearow</td><td> Drill Run, Heat Wave, Roost, Sky Attack, Sleep Talk, Snore, Tailwind, Uproar</td></tr>
+<tr><td>Ekans</td><td> Aqua Tail, Bind, Dark Pulse, Gastro Acid, Giga Drain, Gunk Shot, Iron Tail, Seed Bomb, Sleep Talk, Snatch, Snore, Spite</td></tr>
+<tr class="a"><td>Arbok</td><td> Aqua Tail, Bind, Dark Pulse, Gastro Acid, Giga Drain, Gunk Shot, Iron Tail, Seed Bomb, Sleep Talk, Snatch, Snore, Spite</td></tr>
+<tr><td>Pikachu</td><td> Covet, Helping Hand, Iron Tail, Knock Off, Magnet Rise, Signal Beam, Sleep Talk, Snore, ThunderPunch</td></tr>
+<tr class="a"><td>Raichu</td><td> Covet, Helping Hand, Iron Tail, Knock Off, Magnet Rise, Signal Beam, Sleep Talk, Snore, ThunderPunch</td></tr>
+<tr><td>Sandshrew</td><td> Covet, Earth Power, Iron Tail, Knock Off, Sleep Talk, Snore, Stealth Rock, Super Fang, Magnitude</td></tr>
+<tr class="a"><td>Sandslash</td><td> Covet, Earth Power, Iron Tail, Knock Off, Sleep Talk, Snore, Stealth Rock, Super Fang, Magnitude</td></tr>
+<tr><td>Nidoran?</td><td> Helping Hand, Iron Tail, Sleep Talk, Snore, Super Fang</td></tr>
+<tr class="a"><td>Nidorina</td><td> Helping Hand, Iron Tail, Sleep Talk, Snore, Super Fang</td></tr>
+<tr><td>Nidoqueen</td><td> Aqua Tail, Dragon Pulse, Earth Power, Fire Punch, Helping Hand, Ice Punch, Icy Wind, Iron Tail, Outrage, Sleep Talk, Snore, Stealth Rock, Super Fang, Superpower, ThunderPunch, Uproar</td></tr>
+<tr class="a"><td>Nidoran?</td><td> Drill Run, Helping Hand, Iron Tail, Sleep Talk, Snore, Super Fang</td></tr>
+<tr><td>Nidorino</td><td> Drill Run, Helping Hand, Iron Tail, Sleep Talk, Snore, Super Fang</td></tr>
+<tr class="a"><td>Nidoking</td><td> Aqua Tail, Dragon Pulse, Drill Run, Earth Power, Fire Punch, Helping Hand, Ice Punch, Icy Wind, Iron Tail, Outrage, Sleep Talk, Snore, Stealth Rock, Super Fang, Superpower, ThunderPunch, Uproar</td></tr>
+<tr><td>Clefairy</td><td> After You, Bounce, Covet, Drain Punch, Endeavor, Fire Punch, Gravity, Heal Bell, Helping Hand, Hyper Voice, Ice Punch, Icy Wind, Iron Tail, Knock Off, Last Resort, Magic Coat, Recycle, Role Play, Signal Beam, Sleep Talk, Snatch, Snore, Stealth Rock, ThunderPunch, Trick, Wonder Room, Zen Headbutt, Body Slam</td></tr>
+<tr class="a"><td>Clefable</td><td> After You, Bounce, Covet, Drain Punch, Endeavor, Fire Punch, Gravity, Heal Bell, Helping Hand, Hyper Voice, Ice Punch, Icy Wind, Iron Tail, Knock Off, Last Resort, Magic Coat, Recycle, Role Play, Signal Beam, Sleep Talk, Snatch, Snore, Stealth Rock, ThunderPunch, Trick, Wonder Room, Zen Headbutt, Body Slam</td></tr>
+<tr><td>Vulpix</td><td> Covet, Dark Pulse, Foul Play, Heat Wave, Iron Tail, Pain Split, Role Play, Sleep Talk, Snore, Spite, Zen Headbutt, Faint Attack, Hex</td></tr>
+<tr class="a"><td>Ninetales</td><td> Covet, Dark Pulse, Foul Play, Heat Wave, Iron Tail, Pain Split, Role Play, Sleep Talk, Snore, Spite, Zen Headbutt, Faint Attack, Hex</td></tr>
+<tr><td>Jigglypuff</td><td> Bounce, Covet, Drain Punch, Endeavor, Fire Punch, Gravity, Heal Bell, Helping Hand, Hyper Voice, Ice Punch, Icy Wind, Knock Off, Last Resort, Magic Coat, Pain Split, Recycle, Role Play, Sleep Talk, Snatch, Snore, Stealth Rock, ThunderPunch</td></tr>
+<tr class="a"><td>Wigglytuff</td><td> Bounce, Covet, Drain Punch, Endeavor, Fire Punch, Gravity, Heal Bell, Helping Hand, Hyper Voice, Ice Punch, Icy Wind, Knock Off, Last Resort, Magic Coat, Magic Room, Pain Split, Recycle, Role Play, Sleep Talk, Snatch, Snore, Stealth Rock, ThunderPunch</td></tr>
+<tr><td>Zubat</td><td> Giga Drain, Heat Wave, Roost, Sleep Talk, Snatch, Snore, Super Fang, Tailwind, Uproar, Zen Headbutt</td></tr>
+<tr class="a"><td>Golbat</td><td> Giga Drain, Heat Wave, Roost, Sleep Talk, Snatch, Snore, Super Fang, Tailwind, Uproar, Zen Headbutt</td></tr>
+<tr><td>Oddish</td><td> After You, Gastro Acid, Giga Drain, Seed Bomb, Sleep Talk, Snore, Synthesis, Worry Seed</td></tr>
+<tr class="a"><td>Gloom</td><td> After You, Drain Punch, Gastro Acid, Giga Drain, Seed Bomb, Sleep Talk, Snore, Synthesis, Worry Seed</td></tr>
+<tr><td>Vileplume</td><td> After You, Drain Punch, Gastro Acid, Giga Drain, Seed Bomb, Sleep Talk, Snore, Synthesis, Worry Seed</td></tr>
+<tr class="a"><td>Paras</td><td> After You, Bug Bite, Giga Drain, Knock Off, Seed Bomb, Sleep Talk, Snore, Synthesis, Worry Seed</td></tr>
+<tr><td>Parasect</td><td> After You, Bug Bite, Giga Drain, Knock Off, Seed Bomb, Sleep Talk, Snore, Synthesis, Worry Seed</td></tr>
+<tr class="a"><td>Venonat</td><td> Bug Bite, Giga Drain, Signal Beam, Skill Swap, Sleep Talk, Snore, Zen Headbutt</td></tr>
+<tr><td>Venomoth</td><td> Bug Bite, Giga Drain, Roost, Signal Beam, Skill Swap, Sleep Talk, Snore, Tailwind, Zen Headbutt</td></tr>
+<tr class="a"><td>Diglett</td><td> Earth Power, Sleep Talk, Snore, Stealth Rock, Uproar</td></tr>
+<tr><td>Dugtrio</td><td> Earth Power, Sleep Talk, Snore, Stealth Rock, Uproar</td></tr>
+<tr class="a"><td>Meowth</td><td> Covet, Dark Pulse, Foul Play, Gunk Shot, Hyper Voice, Icy Wind, Iron Tail, Knock Off, Last Resort, Seed Bomb, Sleep Talk, Snatch, Snore, Spite, Uproar</td></tr>
+<tr><td>Persian</td><td> Covet, Dark Pulse, Foul Play, Gunk Shot, Hyper Voice, Icy Wind, Iron Tail, Knock Off, Last Resort, Seed Bomb, Sleep Talk, Snatch, Snore, Spite, Uproar, Swift</td></tr>
+<tr class="a"><td>Psyduck</td><td> Aqua Tail, Ice Punch, Icy Wind, Iron Tail, Role Play, Signal Beam, Sleep Talk, Snore, Wonder Room, Worry Seed, Zen Headbutt</td></tr>
+<tr><td>Golduck</td><td> Aqua Tail, Ice Punch, Icy Wind, Iron Tail, Low Kick, Role Play, Signal Beam, Sleep Talk, Snore, Wonder Room, Worry Seed, Zen Headbutt</td></tr>
+<tr class="a"><td>Mankey</td><td> Covet, Dual Chop, Endeavor, Fire Punch, Gunk Shot, Helping Hand, Ice Punch, Iron Tail, Low Kick, Outrage, Role Play, Seed Bomb, Sleep Talk, Spite, ThunderPunch, Uproar</td></tr>
+<tr><td>Primeape</td><td> Covet, Dual Chop, Endeavor, Fire Punch, Gunk Shot, Helping Hand, Ice Punch, Iron Tail, Low Kick, Outrage, Role Play, Seed Bomb, Sleep Talk, Spite, ThunderPunch, Uproar</td></tr>
+<tr class="a"><td>Growlithe</td><td> Covet, Heat Wave, Helping Hand, Iron Tail, Outrage, Sleep Talk, Snore, Outrage</td></tr>
+<tr><td>Arcanine</td><td> Covet, Dragon Pulse, Heat Wave, Helping Hand, Iron Head, Iron Tail, Outrage, Sleep Talk, Snore</td></tr>
+<tr class="a"><td>Poliwag</td><td> Endeavor, Helping Hand, Icy Wind, Sleep Talk, Snore</td></tr>
+<tr><td>Poliwhirl</td><td> Endeavor, Helping Hand, Ice Punch, Icy Wind, Sleep Talk, Snore</td></tr>
+<tr class="a"><td>Poliwrath</td><td> Endeavor, Helping Hand, Ice Punch, Icy Wind, Sleep Talk, Snore</td></tr>
+<tr><td>Abra</td><td> Drain Punch, Fire Punch, Foul Play, Gravity, Ice Punch, Iron Tail, Knock Off, Magic Coat, Magic Room, Recycle, Role Play, Signal Beam, Skill Swap, Sleep Talk, Snatch, Snore, ThunderPunch, Trick, Wonder Room, Zen Headbutt</td></tr>
+<tr class="a"><td>Kadabra</td><td> Drain Punch, Fire Punch, Foul Play, Gravity, Ice Punch, Iron Tail, Knock Off, Magic Coat, Magic Room, Recycle, Role Play, Signal Beam, Skill Swap, Sleep Talk, Snatch, Snore, ThunderPunch, Trick, Wonder Room, Zen Headbutt</td></tr>
+<tr><td>Alakazam</td><td> Drain Punch, Fire Punch, Foul Play, Gravity, Ice Punch, Iron Tail, Knock Off, Magic Coat, Magic Room, Recycle, Role Play, Signal Beam, Skill Swap, Sleep Talk, Snatch, Snore, ThunderPunch, Trick, Wonder Room, Zen Headbutt</td></tr>
+<tr class="a"><td>Machop</td><td> Dual Chop, Fire Punch, Helping Hand, Ice Punch, Knock Off, Low Kick, Role Play, Sleep Talk, Snore, Superpower, ThunderPunch</td></tr>
+<tr><td>Machoke</td><td> Dual Chop, Fire Punch, Helping Hand, Ice Punch, Knock Off, Low Kick, Role Play, Sleep Talk, Snore, Superpower, ThunderPunch</td></tr>
+<tr class="a"><td>Machamp</td><td> Dual Chop, Fire Punch, Helping Hand, Ice Punch, Knock Off, Low Kick, Role Play, Sleep Talk, Snore, Superpower, ThunderPunch</td></tr>
+<tr><td>Bellsprout</td><td> Bind, Gastro Acid, Giga Drain, Knock Off, Seed Bomb, Sleep Talk, Snore, Synthesis, Worry Seed</td></tr>
+<tr class="a"><td>Weepinbell</td><td> Bind, Bug Bite, Gastro Acid, Giga Drain, Knock Off, Seed Bomb, Sleep Talk, Snore, Synthesis, Worry Seed</td></tr>
+<tr><td>Victreebel</td><td> Bind, Bug Bite, Gastro Acid, Giga Drain, Knock Off, Seed Bomb, Sleep Talk, Snore, Synthesis, Worry Seed</td></tr>
+<tr class="a"><td>Tentacool</td><td> Bind, Giga Drain, Icy Wind, Knock Off, Magic Coat, Sleep Talk, Snore</td></tr>
+<tr><td>Tentacruel</td><td> Bind, Giga Drain, Icy Wind, Knock Off, Magic Coat, Sleep Talk, Snore</td></tr>
+<tr class="a"><td>Geodude</td><td> Block, Earth Power, Fire Punch, Iron Defense, Sleep Talk, Snore, Stealth Rock, Superpower, ThunderPunch</td></tr>
+<tr><td>Graveler</td><td> Block, Earth Power, Fire Punch, Iron Defense, Sleep Talk, Snore, Stealth Rock, Superpower, ThunderPunch</td></tr>
+<tr class="a"><td>Golem</td><td> Block, Earth Power, Fire Punch, Iron Defense, Iron Head, Sleep Talk, Snore, Stealth Rock, Superpower, ThunderPunch</td></tr>
+<tr><td>Ponyta</td><td> Bounce, Heat Wave, Iron Tail, Low Kick, Sleep Talk, Snore</td></tr>
+<tr class="a"><td>Rapidash</td><td> Bounce, Drill Run, Heat Wave, Iron Tail, Low Kick, Sleep Talk, Snore</td></tr>
+<tr><td>Slowpoke</td><td> After You, Aqua Tail, Block, Icy Wind, Iron Tail, Magic Coat, Recycle, Signal Beam, Skill Swap, Sleep Talk, Snore, Trick, Wonder Room, Zen Headbutt</td></tr>
+<tr class="a"><td>Slowbro</td><td> After You, Aqua Tail, Block, Drain Punch, Foul Play, Ice Punch, Icy Wind, Iron Defense, Iron Tail, Magic Coat, Recycle, Signal Beam, Skill Swap, Sleep Talk, Snore, Trick, Wonder Room, Zen Headbutt</td></tr>
+<tr><td>Magnemite</td><td> Electroweb, Gravity, Iron Defense, Magic Coat, Magnet Rise, Recycle, Signal Beam, Sleep Talk, Snore</td></tr>
+<tr class="a"><td>Magneton</td><td> Electroweb, Gravity, Iron Defense, Magic Coat, Magnet Rise, Recycle, Signal Beam, Sleep Talk, Snore</td></tr>
+<tr><td>Farfetch'd</td><td> Covet, Heat Wave, Helping Hand, Iron Tail, Knock Off, Last Resort, Roost, Sky Attack, Sleep Talk, Snore, Tailwind, Uproar</td></tr>
+<tr class="a"><td>Doduo</td><td> Endeavor, Knock Off, Roost, Sleep Talk, Snore, Uproar</td></tr>
+<tr><td>Dodrio</td><td> Endeavor, Knock Off, Roost, Sky Attack, Sleep Talk, Snore, Uproar</td></tr>
+<tr class="a"><td>Seel</td><td> Aqua Tail, Drill Run, Icy Wind, Iron Tail, Signal Beam, Sleep Talk, Snore</td></tr>
+<tr><td>Dewgong</td><td> Aqua Tail, Drill Run, Icy Wind, Iron Tail, Signal Beam, Sleep Talk, Snore</td></tr>
+<tr class="a"><td>Grimer</td><td> Fire Punch, Giga Drain, Gunk Shot, Ice Punch, Pain Split, Sleep Talk, Snore, ThunderPunch</td></tr>
+<tr><td>Muk</td><td> Block, Dark Pulse, Fire Punch, Giga Drain, Gunk Shot, Ice Punch, Pain Split, Sleep Talk, Snore, ThunderPunch</td></tr>
+<tr class="a"><td>Shellder</td><td> Icy Wind, Iron Defense, Sleep Talk, Snore</td></tr>
+<tr><td>Cloyster</td><td> Icy Wind, Iron Defense, Signal Beam, Sleep Talk, Snore</td></tr>
+<tr class="a"><td>Gastly</td><td> Dark Pulse, Fire Punch, Foul Play, Giga Drain, Ice Punch, Icy Wind, Knock Off, Pain Split, Skill Swap, Sleep Talk, Snatch, Snore, Spite, ThunderPunch, Trick, Uproar, Wonder Room</td></tr>
+<tr><td>Haunter</td><td> Dark Pulse, Fire Punch, Foul Play, Giga Drain, Ice Punch, Icy Wind, Knock Off, Pain Split, Skill Swap, Sleep Talk, Snatch, Snore, Spite, ThunderPunch, Trick, Uproar, Wonder Room</td></tr>
+<tr class="a"><td>Gengar</td><td> Dark Pulse, Drain Punch, Fire Punch, Foul Play, Giga Drain, Ice Punch, Icy Wind, Knock Off, Pain Split, Role Play, Skill Swap, Sleep Talk, Snatch, Snore, Spite, ThunderPunch, Trick, Uproar, Wonder Room</td></tr>
+<tr><td>Onix</td><td> Bind, Block, Dragon Pulse, Earth Power, Iron Head, Iron Tail, Sleep Talk, Snore, Stealth Rock</td></tr>
+<tr class="a"><td>Drowzee</td><td> Drain Punch, Fire Punch, Foul Play, Ice Punch, Low Kick, Magic Coat, Magic Room, Recycle, Role Play, Signal Beam, Skill Swap, Sleep Talk, Snatch, ThunderPunch, Trick, Zen Headbutt</td></tr>
+<tr><td>Hypno</td><td> Drain Punch, Fire Punch, Foul Play, Ice Punch, Low Kick, Magic Coat, Magic Room, Recycle, Role Play, Signal Beam, Skill Swap, Sleep Talk, Snatch, ThunderPunch, Trick, Zen Headbutt</td></tr>
+<tr class="a"><td>Krabby</td><td> Icy Wind, Iron Defense, Knock Off, Sleep Talk, Snore, Superpower</td></tr>
+<tr><td>Kingler</td><td> Icy Wind, Iron Defense, Knock Off, Sleep Talk, Snore, Superpower</td></tr>
+<tr class="a"><td>Voltorb</td><td> Foul Play, Magic Coat, Magnet Rise, Signal Beam, Sleep Talk, Snore</td></tr>
+<tr><td>Electrode</td><td> Foul Play, Magic Coat, Magnet Rise, Signal Beam, Sleep Talk, Snore</td></tr>
+<tr class="a"><td>Exeggcute</td><td> Block, Giga Drain, Gravity, Seed Bomb, Skill Swap, Sleep Talk, Snore, Synthesis, Uproar, Worry Seed, Extrasensory</td></tr>
+<tr><td>Exeggutor</td><td> Block, Giga Drain, Gravity, Low Kick, Seed Bomb, Skill Swap, Sleep Talk, Snore, Synthesis, Worry Seed, Zen Headbutt, Extrasensory</td></tr>
+<tr class="a"><td>Cubone</td><td> Earth Power, Endeavor, Fire Punch, Icy Wind, Iron Defense, Iron Head, Iron Tail, Knock Off, Low Kick, Sleep Talk, Snore, Stealth Rock, ThunderPunch, Uproar</td></tr>
+<tr><td>Marowak</td><td> Earth Power, Endeavor, Fire Punch, Icy Wind, Iron Defense, Iron Head, Iron Tail, Knock Off, Low Kick, Outrage, Sleep Talk, Snore, Stealth Rock, ThunderPunch, Uproar</td></tr>
+<tr class="a"><td>Hitmonlee</td><td> Bounce, Covet, Helping Hand, Knock Off, Low Kick, Role Play, Sleep Talk, Snore, Superpower</td></tr>
+<tr><td>Hitmonchan</td><td> Covet, Drain Punch, Fire Punch, Helping Hand, Ice Punch, Low Kick, Role Play, Sleep Talk, Snore, ThunderPunch</td></tr>
+<tr class="a"><td>Lickitung</td><td> Aqua Tail, Bind, Fire Punch, Ice Punch, Icy Wind, Iron Tail, Knock Off, Sleep Talk, Snore, ThunderPunch, Zen Headbutt</td></tr>
+<tr><td>Koffing</td><td> Dark Pulse, Pain Split, Sleep Talk, Snore, Spite, Uproar</td></tr>
+<tr class="a"><td>Weezing</td><td> Dark Pulse, Pain Split, Sleep Talk, Snore, Spite, Uproar</td></tr>
+<tr><td>Rhyhorn</td><td> Aqua Tail, Dragon Pulse, Drill Run, Earth Power, Endeavor, Icy Wind, Iron Tail, Sleep Talk, Snore, Spite, Stealth Rock, Superpower, Uproar</td></tr>
+<tr class="a"><td>Rhydon</td><td> Aqua Tail, Block, Dragon Pulse, Drill Run, Earth Power, Endeavor, Fire Punch, Ice Punch, Icy Wind, Iron Tail, Outrage, Sleep Talk, Snore, Spite, Stealth Rock, Superpower, ThunderPunch, Uproar</td></tr>
+<tr><td>Chansey</td><td> Covet, Drain Punch, Endeavor, Fire Punch, Gravity, Heal Bell, Helping Hand, Hyper Voice, Ice Punch, Icy Wind, Iron Tail, Last Resort, Recycle, Skill Swap, Sleep Talk, Snatch, Snore, Stealth Rock, ThunderPunch, Zen Headbutt</td></tr>
+<tr class="a"><td>Tangela</td><td> Bind, Endeavor, Giga Drain, Knock Off, Pain Split, Seed Bomb, Sleep Talk, Snore, Synthesis, Worry Seed</td></tr>
+<tr><td>Kangaskhan</td><td> Aqua Tail, Covet, Drain Punch, Endeavor, Fire Punch, Helping Hand, Ice Punch, Icy Wind, Iron Tail, Low Kick, Outrage, Sleep Talk, Snore, Spite, ThunderPunch, Uproar</td></tr>
+<tr class="a"><td>Horsea</td><td> Bounce, Dragon Pulse, Icy Wind, Outrage, Signal Beam, Sleep Talk, Snore</td></tr>
+<tr><td>Seadra</td><td> Bounce, Dragon Pulse, Icy Wind, Outrage, Signal Beam, Sleep Talk, Snore</td></tr>
+<tr class="a"><td>Goldeen</td><td> Aqua Tail, Bounce, Drill Run, Icy Wind, Knock Off, Signal Beam, Sleep Talk, Snore</td></tr>
+<tr><td>Seaking</td><td> Aqua Tail, Bounce, Drill Run, Icy Wind, Knock Off, Signal Beam, Sleep Talk, Snore</td></tr>
+<tr class="a"><td>Staryu</td><td> Gravity, Icy Wind, Magic Coat, Pain Split, Recycle, Signal Beam, Sleep Talk, Snore, Brine</td></tr>
+<tr><td>Starmie</td><td> Gravity, Icy Wind, Magic Coat, Pain Split, Recycle, Signal Beam, Skill Swap, Sleep Talk, Snore, Trick, Wonder Room, Brine</td></tr>
+<tr class="a"><td>Mr. Mime</td><td> Covet, Drain Punch, Fire Punch, Foul Play, Helping Hand, Ice Punch, Icy Wind, Iron Defense, Magic Coat, Magic Room, Recycle, Role Play, Signal Beam, Skill Swap, Sleep Talk, Snatch, Snore, ThunderPunch, Trick, Wonder Room, Zen Headbutt, Psywave</td></tr>
+<tr><td>Scyther</td><td> Bug Bite, Knock Off, Roost, Sleep Talk, Snore, Tailwind</td></tr>
+<tr class="a"><td>Jynx</td><td> Covet, Drain Punch, Heal Bell, Helping Hand, Hyper Voice, Ice Punch, Icy Wind, Magic Coat, Magic Room, Recycle, Role Play, Signal Beam, Skill Swap, Sleep Talk, Snore, Trick, Zen Headbutt</td></tr>
+<tr><td>Electabuzz</td><td> Covet, Dual Chop, Electroweb, Fire Punch, Helping Hand, Ice Punch, Iron Tail, Low Kick, Magnet Rise, Signal Beam, Sleep Talk, Snore, ThunderPunch</td></tr>
+<tr class="a"><td>Magmar</td><td> Covet, Dual Chop, Fire Punch, Heat Wave, Helping Hand, Iron Tail, Low Kick, Sleep Talk, Snore, ThunderPunch, Ckear Smog</td></tr>
+<tr><td>Pinsir</td><td> Bind, Bug Bite, Iron Defense, Knock Off, Sleep Talk, Snore, Stealth Rock, Superpower, Storm Throw</td></tr>
+<tr class="a"><td>Tauros</td><td> Endeavor, Helping Hand, Icy Wind, Iron Head, Iron Tail, Outrage, Role Play, Sleep Talk, Snore, Spite, Uproar, Zen Headbutt</td></tr>
+<tr><td>Magikarp</td><td> Bounce</td></tr>
+<tr class="a"><td>Gyarados</td><td> Aqua Tail, Bounce, Dark Pulse, Dragon Pulse, Icy Wind, Iron Head, Iron Tail, Outrage, Sleep Talk, Snore, Spite, Uproar</td></tr>
+<tr><td>Lapras</td><td> Aqua Tail, Block, Dragon Pulse, Drill Run, Heal Bell, Hyper Voice, Icy Wind, Iron Head, Iron Tail, Outrage, Signal Beam, Sleep Talk, Snore, Zen Headbutt</td></tr>
+<tr class="a"><td>Eevee</td><td> Covet, Heal Bell, Helping Hand, Hyper Voice, Iron Tail, Last Resort, Sleep Talk, Snore, Charm, Double-Edge</td></tr>
+<tr><td>Vaporeon</td><td> Aqua Tail, Covet, Heal Bell, Helping Hand, Hyper Voice, Icy Wind, Iron Tail, Last Resort, Signal Beam, Sleep Talk, Snore</td></tr>
+<tr class="a"><td>Jolteon</td><td> Covet, Heal Bell, Helping Hand, Hyper Voice, Iron Tail, Last Resort, Magnet Rise, Signal Beam, Sleep Talk, Snore</td></tr>
+<tr><td>Flareon</td><td> Covet, Heal Bell, Heat Wave, Helping Hand, Hyper Voice, Iron Tail, Last Resort, Sleep Talk, Snore, Superpower</td></tr>
+<tr class="a"><td>Porygon</td><td> Electroweb, Foul Play, Gravity, Icy Wind, Iron Tail, Last Resort, Magic Coat, Magnet Rise, Pain Split, Recycle, Signal Beam, Sleep Talk, Snore, Trick, Wonder Room, Zen Headbutt</td></tr>
+<tr><td>Omanyte</td><td> Bind, Earth Power, Icy Wind, Iron Defense, Knock Off, Sleep Talk, Snore, Stealth Rock</td></tr>
+<tr class="a"><td>Omastar</td><td> Bind, Earth Power, Icy Wind, Iron Defense, Knock Off, Sleep Talk, Snore, Stealth Rock</td></tr>
+<tr><td>Kabuto</td><td> Earth Power, Giga Drain, Icy Wind, Iron Defense, Knock Off, Sleep Talk, Snore, Stealth Rock</td></tr>
+<tr class="a"><td>Kabutops</td><td> Aqua Tail, Earth Power, Giga Drain, Icy Wind, Iron Defense, Knock Off, Low Kick, Sleep Talk, Snore, Stealth Rock, Superpower</td></tr>
+<tr><td>Aerodactyl</td><td> Aqua Tail, Dragon Pulse, Earth Power, Heat Wave, Iron Head, Iron Tail, Roost, Sky Attack, Sleep Talk, Snore, Stealth Rock, Tailwind</td></tr>
+<tr class="a"><td>Snorlax</td><td> After You, Block, Covet, Fire Punch, Gunk Shot, Hyper Voice, Ice Punch, Icy Wind, Iron Head, Last Resort, Outrage, Recycle, Seed Bomb, Sleep Talk, Snore, Superpower, ThunderPunch, Zen Headbutt</td></tr>
+<tr><td>Articuno</td><td> Icy Wind, Roost, Signal Beam, Sky Attack, Sleep Talk, Snore, Tailwind, Hurricane</td></tr>
+<tr class="a"><td>Zapdos</td><td> Heat Wave, Roost, Signal Beam, Sky Attack, Sleep Talk, Snore, Tailwind, Zap Cannon</td></tr>
+<tr><td>Moltres</td><td> Heat Wave, Roost, Sky Attack, Sleep Talk, Snore, Tailwind, Hurricane</td></tr>
+<tr class="a"><td>Dratini</td><td> Aqua Tail, Bind, Draco Meteor, Dragon Pulse, Icy Wind, Iron Tail, Outrage, Sleep Talk, Snore</td></tr>
+<tr><td>Dragonair</td><td> Aqua Tail, Bind, Draco Meteor, Dragon Pulse, Icy Wind, Iron Tail, Outrage, Sleep Talk, Snore</td></tr>
+<tr class="a"><td>Dragonite</td><td> Aqua Tail, Bind, Draco Meteor, Dragon Pulse, Fire Punch, Heat Wave, Ice Punch, Icy Wind, Iron Head, Iron Tail, Outrage, Roost, Sleep Talk, Snore, Superpower, Tailwind, ThunderPunch</td></tr>
+<tr><td>Mewtwo</td><td> Aqua Tail, Drain Punch, Fire Punch, Foul Play, Gravity, Ice Punch, Icy Wind, Iron Tail, Low Kick, Magic Coat, Magic Room, Recycle, Role Play, Signal Beam, Skill Swap, Sleep Talk, Snatch, Snore, ThunderPunch, Trick, Wonder Room, Zen Headbutt</td></tr>
+<tr class="a"><td>Mew</td><td> After You, Aqua Tail, Bind, Block, Bounce, Bug Bite, Covet, Dark Pulse, Dragon Pulse, Drain Punch, Drill Run, Dual Chop, Earth Power, Electroweb, Endeavor, Fire Punch, Foul Play, Gastro Acid, Giga Drain, Gravity, Gunk Shot, Heal Bell, Heat Wave, Helping Hand, Hyper Voice, Ice Punch, Icy Wind, Iron Defense, Iron Head, Iron Tail, Knock Off, Last Resort, Low Kick, Magic Coat, Magic Room, Magnet Rise, Outrage, Pain Split, Recycle, Role Play, Roost, Seed Bomb, Signal Beam, Skill Swap, Sky Attack, Sleep Talk, Snatch, Snore, Spite, Stealth Rock, Super Fang, Superpower, Synthesis, Tailwind, ThunderPunch, Trick, Uproar, Wonder Room, Worry Seed, Zen Headbutt</td></tr>
+<tr><td>Chikorita</td><td> Giga Drain, Grass Pledge, Iron Tail, Magic Coat, Seed Bomb, Sleep Talk, Snore, Synthesis, Worry Seed</td></tr>
+<tr class="a"><td>Bayleef</td><td> Giga Drain, Grass Pledge, Iron Tail, Magic Coat, Seed Bomb, Sleep Talk, Snore, Synthesis, Worry Seed</td></tr>
+<tr><td>Meganium</td><td> Frenzy Plant, Giga Drain, Grass Pledge, Iron Tail, Magic Coat, Outrage, Seed Bomb, Sleep Talk, Snore, Synthesis, Worry Seed</td></tr>
+<tr class="a"><td>Cyndaquil</td><td> Covet, Fire Pledge, Heat Wave, Sleep Talk, Snore</td></tr>
+<tr><td>Quilava</td><td> Covet, Fire Pledge, Heat Wave, Sleep Talk, Snore</td></tr>
+<tr class="a"><td>Typhlosion</td><td> Blast Burn, Covet, Fire Pledge, Fire Punch, Heat Wave, Low Kick, Sleep Talk, Snore, ThunderPunch</td></tr>
+<tr><td>Totodile</td><td> Aqua Tail, Block, Ice Punch, Icy Wind, Iron Tail, Low Kick, Sleep Talk, Snore, Spite, Superpower, Uproar, Water Pledge</td></tr>
+<tr class="a"><td>Croconaw</td><td> Aqua Tail, Block, Ice Punch, Icy Wind, Iron Tail, Low Kick, Sleep Talk, Snore, Spite, Superpower, Uproar, Water Pledge</td></tr>
+<tr><td>Feraligatr</td><td> Aqua Tail, Block, Dragon Pulse, Hydro Cannon, Ice Punch, Icy Wind, Iron Tail, Low Kick, Outrage, Sleep Talk, Snore, Spite, Superpower, Uproar, Water Pledge</td></tr>
+<tr class="a"><td>Sentret</td><td> Aqua Tail, Covet, Fire Punch, Helping Hand, Hyper Voice, Ice Punch, Iron Tail, Knock Off, Last Resort, Sleep Talk, Snore, Super Fang, ThunderPunch, Trick, Uproar</td></tr>
+<tr><td>Hoothoot</td><td> Heat Wave, Hyper Voice, Magic Coat, Recycle, Roost, Sky Attack, Sleep Talk, Tailwind, Uproar, Zen Headbutt</td></tr>
+<tr class="a"><td>Noctowl</td><td> Heat Wave, Hyper Voice, Magic Coat, Recycle, Roost, Sky Attack, Sleep Talk, Tailwind, Uproar, Zen Headbutt</td></tr>
+<tr><td>Ledyba</td><td> Bug Bite, Drain Punch, Giga Drain, Ice Punch, Knock Off, Roost, Sleep Talk, Snore, Tailwind, ThunderPunch, Uproar</td></tr>
+<tr class="a"><td>Ledian</td><td> Bug Bite, Drain Punch, Giga Drain, Ice Punch, Knock Off, Roost, Sleep Talk, Snore, Tailwind, ThunderPunch, Uproar</td></tr>
+<tr><td>Spinarak</td><td> Bounce, Bug Bite, Electroweb, Foul Play, Giga Drain, Signal Beam, Sleep Talk, X-scissor</td></tr>
+<tr class="a"><td>Ariados</td><td> Bounce, Bug Bite, Electroweb, Foul Play, Giga Drain, Signal Beam, Sleep Talk, X-scissor</td></tr>
+<tr><td>Crobat</td><td> Dark Pulse, Giga Drain, Heat Wave, Roost, Sky Attack, Sleep Talk, Snatch, Snore, Super Fang, Tailwind, Uproar, Zen Headbutt, Swift</td></tr>
+<tr class="a"><td>Chinchou</td><td> Bounce, Heal Bell, Icy Wind, Signal Beam, Sleep Talk, Snore</td></tr>
+<tr><td>Lanturn</td><td> Aqua Tail, Bounce, Heal Bell, Icy Wind, Signal Beam, Sleep Talk, Snore</td></tr>
+<tr class="a"><td>Pichu</td><td> Covet, Helping Hand, Iron Tail, Magnet Rise, Signal Beam, Sleep Talk, Snore, Uproar</td></tr>
+<tr><td>Cleffa</td><td> After You, Covet, Endeavor, Gravity, Helping Hand, Hyper Voice, Icy Wind, Iron Tail, Last Resort, Magic Coat, Recycle, Role Play, Signal Beam, Sleep Talk, Snore, Trick, Uproar, Wonder Room, Zen Headbutt</td></tr>
+<tr class="a"><td>Igglybuff</td><td> Bounce, Covet, Endeavor, Gravity, Heal Bell, Helping Hand, Hyper Voice, Icy Wind, Last Resort, Magic Coat, Pain Split, Recycle, Role Play, Sleep Talk, Snore, Uproar</td></tr>
+<tr><td>Togepi</td><td> After You, Covet, Endeavor, Heal Bell, Hyper Voice, Last Resort, Magic Coat, Signal Beam, Sleep Talk, Snore, Trick, Uproar, Zen Headbutt</td></tr>
+<tr class="a"><td>Togetic</td><td> After You, Covet, Drain Punch, Endeavor, Heal Bell, Heat Wave, Hyper Voice, Last Resort, Magic Coat, Roost, Signal Beam, Sleep Talk, Snore, Tailwind, Trick, Zen Headbutt</td></tr>
+<tr><td>Natu</td><td> Giga Drain, Heat Wave, Magic Coat, Magic Room, Pain Split, Roost, Signal Beam, Skill Swap, Sleep Talk, Snore, Tailwind, Trick, Zen Headbutt</td></tr>
+<tr class="a"><td>Xatu</td><td> Foul Play, Giga Drain, Heat Wave, Magic Coat, Magic Room, Pain Split, Roost, Signal Beam, Skill Swap, Sky Attack, Sleep Talk, Snore, Tailwind, Trick, Zen Headbutt</td></tr>
+<tr><td>Mareep</td><td> After You, Heal Bell, Iron Tail, Magnet Rise, Signal Beam, Sleep Talk, Snore, Confuse Ray, Take Down</td></tr>
+<tr class="a"><td>Flaaffy</td><td> After You, Fire Punch, Heal Bell, Iron Tail, Magnet Rise, Signal Beam, Sleep Talk, Snore, ThunderPunch, Confuse Ray, Take Down</td></tr>
+<tr><td>Ampharos</td><td> After You, Fire Punch, Heal Bell, Iron Tail, Magnet Rise, Outrage, Signal Beam, Sleep Talk, Snore, ThunderPunch, Confuse Ray, Take Down</td></tr>
+<tr class="a"><td>Bellossom</td><td> After You, Drain Punch, Gastro Acid, Giga Drain, Seed Bomb, Sleep Talk, Snore, Synthesis, Uproar, Worry Seed</td></tr>
+<tr><td>Marill</td><td> Aqua Tail, Bounce, Covet, Helping Hand, Hyper Voice, Ice Punch, Icy Wind, Iron Tail, Knock Off, Sleep Talk, Snore, Superpower, Water Sport, Bubble</td></tr>
+<tr class="a"><td>Azumarill</td><td> Aqua Tail, Bounce, Covet, Helping Hand, Hyper Voice, Ice Punch, Icy Wind, Iron Tail, Knock Off, Sleep Talk, Snore, Superpower, Water Sport, Bubble</td></tr>
+<tr><td>Sudowoodo</td><td> After You, Block, Covet, Earth Power, Fire Punch, Foul Play, Helping Hand, Ice Punch, Low Kick, Role Play, Sleep Talk, Snore, Stealth Rock, ThunderPunch</td></tr>
+<tr class="a"><td>Politoed</td><td> Bounce, Endeavor, Helping Hand, Hyper Voice, Ice Punch, Icy Wind, Sleep Talk, Snore</td></tr>
+<tr><td>Hoppip</td><td> Bounce, Giga Drain, Helping Hand, Seed Bomb, Sleep Talk, Snore, Synthesis, Worry Seed</td></tr>
+<tr class="a"><td>Skiploom</td><td> Bounce, Giga Drain, Helping Hand, Seed Bomb, Sleep Talk, Snore, Synthesis, Worry Seed</td></tr>
+<tr><td>Jumpluff</td><td> Bounce, Giga Drain, Helping Hand, Seed Bomb, Sleep Talk, Snore, Synthesis, Worry Seed</td></tr>
+<tr class="a"><td>Aipom</td><td> Bounce, Covet, Fire Punch, Foul Play, Gunk Shot, Ice Punch, Iron Tail, Knock Off, Last Resort, Low Kick, Role Play, Seed Bomb, Sleep Talk, Snatch, Snore, Spite, ThunderPunch, Uproar</td></tr>
+<tr><td>Sunkern</td><td> After You, Earth Power, Endeavor, Giga Drain, Helping Hand, Seed Bomb, Sleep Talk, Snore, Synthesis, Uproar, Worry Seed, Double Edge, Natural Gift</td></tr>
+<tr class="a"><td>Sunflora</td><td> After You, Earth Power, Endeavor, Giga Drain, Helping Hand, Seed Bomb, Sleep Talk, Snore, Synthesis, Uproar, Worry Seed, Double-Edge, Natural Gift</td></tr>
+<tr><td>Yanma</td><td> Bug Bite, Giga Drain, td Bug Bite, Knock Off, Roost, Sleep Talk, Snore, TailwindtdRoost, Signal Beam, Sleep Talk, Snore, Tailwind, Uproar</td></tr>
+<tr class="a"><td>Wooper</td><td> After You, Aqua Tail, Earth Power, Ice Puntdtdch, Icy Wind, Iron Tail, Sleep Talk, Snore</td></tr>
+<tr><td>Quagsire</td><td> After You, Aqua Tail, Earth Power, Ice Punch, Icy Wind, Iron Tail, Sleep Talk, Snore</td></tr>
+<tr class="a"><td>Espeon</td><td> Covet, Heal Bell, Helping Hand, Hyper Voice, Iron Tail, Last Resort, Magic Coat, Magic Room, Signal Beam, Skill Swap, Sleep Talk, Snore, Trick, Zen Headbutt</td></tr>
+<tr><td>Umbreon</td><td> Covet, Dark Pulse, Foul Play, Heal Bell, Helping Hand, Hyper Voice, Iron Tail, Last Resort, Sleep Talk, Snatch, Snore, Spite, Wonder Room</td></tr>
+<tr class="a"><td>Murkrow</td><td> Dark Pulse, Foul Play, Heat Wave, Icy Wind, Roost, Sky Attack, Sleep Talk, Snatch, Spite, Tailwind, Uproar</td></tr>
+<tr><td>Slowking</td><td> After You, Aqua Tail, Block, Drain Punch, Foul Play, Ice Punch, Icy Wind, Iron Defense, Iron Tail, Magic Coat, Recycle, Signal Beam, Skill Swap, Sleep Talk, Snore, Trick, Wonder Room, Zen Headbutt</td></tr>
+<tr class="a"><td>Misdreavus</td><td> Dark Pulse, Foul Play, Heal Bell, Hyper Voice, Icy Wind, Magic Coat, Magic Room, Pain Split, Skill Swap, Sleep Talk, Snatch, Snore, Spite, Trick, Uproar, Wonder Room</td></tr>
+<tr><td>Girafarig</td><td> Foul Play, Gravity, Hyper Voice, Iron Tail, Magic Coat, Recycle, Signal Beam, Skill Swap, Sleep Talk, Snore, Trick, Uproar, Zen Headbutt</td></tr>
+<tr class="a"><td>Pineco</td><td> Bug Bite, Drill Run, Giga Drain, Gravity, Iron Defense, Pain Split, Sleep Talk, Snore, Stealth Rock</td></tr>
+<tr><td>Forretress</td><td> Block, Bug Bite, Drill Run, Giga Drain, Gravity, Iron Defense, Magnet Rise, Pain Split, Signal Beam, Sleep Talk, Snore, Stealth Rock</td></tr>
+<tr class="a"><td>Dunsparce</td><td> Aqua Tail, Bind, Drill Run, Endeavor, Iron Tail, Last Resort, Magic Coat, Pain Split, Roost, Sleep Talk, Snore, Spite, Stealth Rock, Zen Headbutt, Double-Edge, Endure</td></tr>
+<tr><td>Gligar</td><td> Aqua Tail, Bug Bite, Dark Pulse, Earth Power, Iron Tail, Knock Off, Roost, Sleep Talk, Snore, Stealth Rock, Tailwind, Sky Uppercut</td></tr>
+<tr class="a"><td>Steelix</td><td> Aqua Tail, Bind, Block, Dark Pulse, Dragon Pulse, Earth Power, Iron Head, Iron Tail, Magnet Rise, Sleep Talk, Snore, Stealth Rock</td></tr>
+<tr><td>Snubbull</td><td> Covet, Fire Punch, Heal Bell, Hyper Voice, Ice Punch, Last Resort, Low Kick, Sleep Talk, Snore, Super Fang, Superpower, ThunderPunch</td></tr>
+<tr class="a"><td>Granbull</td><td> Covet, Fire Punch, Heal Bell, Hyper Voice, Ice Punch, Iron Tail, Last Resort, Low Kick, Outrage, Sleep Talk, Snore, Super Fang, Superpower, ThunderPunch</td></tr>
+<tr><td>Qwilfish</td><td> Aqua Tail, Bounce, Icy Wind, Pain Split, Signal Beam, Sleep Talk, Snore</td></tr>
+<tr class="a"><td>Scizor</td><td> Bug Bite, Iron Defense, Iron Head, Knock Off, Roost, Sleep Talk, Snore, Superpower, Tailwind</td></tr>
+<tr><td>Shuckle</td><td> After You, Bind, Bug Bite, Earth Power, Gastro Acid, Helping Hand, Knock Off, Sleep Talk, Snore, Stealth Rock, Rock Throw, Shell Smash</td></tr>
+<tr class="a"><td>Heracross</td><td> Bug Bite, Helping Hand, Iron Defense, Knock Off, Low Kick, Sleep Talk, Snore, Bulk Up</td></tr>
+<tr><td>Sneasel</td><td> Dark Pulse, Foul Play, Ice Punch, Icy Wind, Iron Tail, Knock Off, Low Kick, Sleep Talk, Snatch, Snore, Spite, Punishment</td></tr>
+<tr class="a"><td>Teddiursa</td><td> Covet, Fire Punch, Gunk Shot, Hyper Voice, Ice Punch, Last Resort, Seed Bomb, Sleep Talk, Snore, Superpower, ThunderPunch</td></tr>
+<tr><td>Ursaring</td><td> Covet, Fire Punch, Gunk Shot, Hyper Voice, Ice Punch, Last Resort, Low Kick, Seed Bomb, Sleep Talk, Snore, Superpower, ThunderPunch, Uproar</td></tr>
+<tr class="a"><td>Slugma</td><td> After You, Earth Power, Heat Wave, Iron Defense, Pain Split, Sleep Talk, Snore</td></tr>
+<tr><td>Magcargo</td><td> After You, Earth Power, Heat Wave, Iron Defense, Pain Split, Sleep Talk, Snore, Stealth Rock</td></tr>
+<tr class="a"><td>Swinub</td><td> Earth Power, Endeavor, Icy Wind, Sleep Talk, Snore, Stealth Rock, Superpower</td></tr>
+<tr><td>Piloswine</td><td> Earth Power, Endeavor, Icy Wind, Sleep Talk, Snore, Stealth Rock, Superpower</td></tr>
+<tr class="a"><td>Corsola</td><td> Earth Power, Endeavor, Icy Wind, Iron Defense, Magic Coat, Sleep Talk, Snore, Stealth Rock, Iron Defense, Flail, Endure</td></tr>
+<tr><td>Remoraid</td><td> Bounce, Gunk Shot, Icy Wind, Seed Bomb, Signal Beam, Sleep Talk, Snore, Hydro Pump</td></tr>
+<tr class="a"><td>Octillery</td><td> Bind, Bounce, Gunk Shot, Icy Wind, Seed Bomb, Signal Beam, Sleep Talk, Snore, Hydro Pump</td></tr>
+<tr><td>Delibird</td><td> Bounce, Gunk Shot, Ice Punch, Icy Wind, Recycle, Seed Bomb, Signal Beam, Sky Attack, Sleep Talk</td></tr>
+<tr class="a"><td>Mantine</td><td> Aqua Tail, Bounce, Gunk Shot, Helping Hand, Icy Wind, Iron Head, Seed Bomb, Signal Beam, Sleep Talk, Snore, Tailwind</td></tr>
+<tr><td>Skarmory</td><td> Dark Pulse, Icy Wind, Iron Defense, Iron Head, Roost, Sky Attack, Sleep Talk, Snore, Stealth Rock, Tailwind</td></tr>
+<tr class="a"><td>Houndour</td><td> Dark Pulse, Foul Play, Heat Wave, Hyper Voice, Iron Tail, Role Play, Sleep Talk, Snatch, Snore, Spite, Super Fang, Uproar</td></tr>
+<tr><td>Houndoom</td><td> Dark Pulse, Foul Play, Heat Wave, Hyper Voice, Iron Tail, Role Play, Sleep Talk, Snatch, Snore, Spite, Super Fang, Uproar</td></tr>
+<tr class="a"><td>Kingdra</td><td> Bounce, Draco Meteor, Dragon Pulse, Icy Wind, Iron Head, Outrage, Signal Beam, Sleep Talk, Snore</td></tr>
+<tr><td>Phanpy</td><td> Earth Power, Endeavor, Gunk Shot, Hyper Voice, Iron Tail, Knock Off, Last Resort, Seed Bomb, Sleep Talk, Snore, Stealth Rock, Superpower</td></tr>
+<tr class="a"><td>Donphan</td><td> Block, Bounce, Earth Power, Endeavor, Gunk Shot, Hyper Voice, Iron Defense, Iron Tail, Knock Off, Last Resort, Seed Bomb, Sleep Talk, Snore, Stealth Rock, Superpower</td></tr>
+<tr><td>Porygon2</td><td> Electroweb, Foul Play, Gravity, Icy Wind, Iron Tail, Last Resort, Magic Coat, Magnet Rise, Pain Split, Recycle, Signal Beam, Sleep Talk, Snore, Trick, Wonder Room, Zen Headbutt</td></tr>
+<tr class="a"><td>Stantler</td><td> Bounce, Gravity, Iron Tail, Last Resort, Magic Room, Role Play, Signal Beam, Skill Swap, Sleep Talk, Snore, Spite, Uproar, Zen Headbutt</td></tr>
+<tr><td>Smeargle</td><td></td></tr>
+<tr class="a"><td>Tyrogue</td><td> Covet, Helping Hand, Low Kick, Role Play, Sleep Talk, Snore, Uproar</td></tr>
+<tr><td>Hitmontop</td><td> Covet, Drill Run, Endeavor, Helping Hand, Low Kick, Role Play, Sleep Talk, Snore</td></tr>
+<tr class="a"><td>Smoochum</td><td> Covet, Heal Bell, Helping Hand, Ice Punch, Icy Wind, Magic Coat, Magic Room, Recycle, Role Play, Signal Beam, Skill Swap, Sleep Talk, Snore, Trick, Uproar, Zen Headbutt</td></tr>
+<tr><td>Elekid</td><td> Covet, Dual Chop, Electroweb, Fire Punch, Helping Hand, Ice Punch, Low Kick, Magnet Rise, Signal Beam, Sleep Talk, Snore, ThunderPunch, Uproar</td></tr>
+<tr class="a"><td>Magby</td><td> Covet, Dual Chop, Fire Punch, Heat Wave, Helping Hand, Iron Tail, Sleep Talk, Snore, ThunderPunch, Uproar, Clear Smog</td></tr>
+<tr><td>Miltank</td><td> After You, Block, Fire Punch, Heal Bell, Helping Hand, Ice Punch, Icy Wind, Iron Head, Iron Tail, Sleep Talk, Snore, Stealth Rock, ThunderPunch, Zen Headbutt</td></tr>
+<tr class="a"><td>Blissey</td><td> Block, Covet, Drain Punch, Endeavor, Fire Punch, Gravity, Heal Bell, Helping Hand, Hyper Voice, Ice Punch, Icy Wind, Iron Tail, Last Resort, Recycle, Skill Swap, Sleep Talk, Snatch, Snore, Stealth Rock, ThunderPunch, Zen Headbutt</td></tr>
+<tr><td>Raikou</td><td> Iron Head, Iron Tail, Magnet Rise, Signal Beam, Sleep Talk, Snore</td></tr>
+<tr class="a"><td>Entei</td><td> Heat Wave, Iron Head, Iron Tail, Sleep Talk, Snore</td></tr>
+<tr><td>Suicune</td><td> Icy Wind, Iron Head, Iron Tail, Signal Beam, Sleep Talk, Snore, Tailwind</td></tr>
+<tr class="a"><td>Larvitar</td><td> Dark Pulse, Earth Power, Iron Defense, Iron Head, Iron Tail, Outrage, Sleep Talk, Snore, Spite, Stealth Rock, Superpower, Uproar</td></tr>
+<tr><td>Pupitar</td><td> Dark Pulse, Earth Power, Iron Defense, Iron Head, Iron Tail, Outrage, Sleep Talk, Snore, Spite, Stealth Rock, Superpower, Uproar</td></tr>
+<tr class="a"><td>Tyranitar</td><td> Aqua Tail, Block, Dark Pulse, Dragon Pulse, Earth Power, Fire Punch, Foul Play, Ice Punch, Iron Defense, Iron Head, Iron Tail, Low Kick, Outrage, Sleep Talk, Snore, Spite, Stealth Rock, Superpower, ThunderPunch, Uproar</td></tr>
+<tr><td>Lugia</td><td> Aqua Tail, Dragon Pulse, Earth Power, Giga Drain, Hyper Voice, Icy Wind, Iron Head, Iron Tail, Roost, Signal Beam, Skill Swap, Sky Attack, Sleep Talk, Snore, Tailwind, Trick, Wonder Room, Zen Headbutt</td></tr>
+<tr class="a"><td>Ho-Oh</td><td> Earth Power, Giga Drain, Heat Wave, Hyper Voice, Iron Head, Roost, Signal Beam, Sky Attack, Sleep Talk, Snore, Tailwind, Zen Headbutt</td></tr>
+<tr><td>Celebi</td><td> Earth Power, Giga Drain, Heal Bell, Helping Hand, Last Resort, Magic Coat, Magic Room, Seed Bomb, Signal Beam, Skill Swap, Sleep Talk, Snore, Stealth Rock, Synthesis, Trick, Uproar, Wonder Room, Worry Seed, Zen Headbutt</td></tr>
+<tr class="a"><td>Treecko</td><td> Drain Punch, Endeavor, Giga Drain, Grass Pledge, Iron Tail, Low Kick, Seed Bomb, Sleep Talk, Snore, Synthesis, ThunderPunch, Worry Seed</td></tr>
+<tr><td>Grovyle</td><td> Drain Punch, Endeavor, Giga Drain, Grass Pledge, Iron Tail, Low Kick, Seed Bomb, Sleep Talk, Snore, Synthesis, ThunderPunch, Worry Seed</td></tr>
+<tr class="a"><td>Sceptile</td><td> Dragon Pulse, Drain Punch, Endeavor, Frenzy Plant, Giga Drain, Grass Pledge, Iron Tail, Low Kick, Outrage, Seed Bomb, Sleep Talk, Snore, Synthesis, ThunderPunch, Worry Seed</td></tr>
+<tr><td>Torchic</td><td> Bounce, Fire Pledge, Heat Wave, Helping Hand, Last Resort, Low Kick, Sleep Talk, Snore</td></tr>
+<tr class="a"><td>Combusken</td><td> Bounce, Dual Chop, Fire Pledge, Fire Punch, Heat Wave, Helping Hand, Last Resort, Low Kick, Sleep Talk, Snore, ThunderPunch</td></tr>
+<tr><td>Blaziken</td><td> Blast Burn, Bounce, Dual Chop, Fire Pledge, Fire Punch, Heat Wave, Helping Hand, Knock Off, Last Resort, Low Kick, Role Play, Sleep Talk, Snore, Superpower, ThunderPunch</td></tr>
+<tr class="a"><td>Mudkip</td><td> Aqua Tail, Earth Power, Endeavor, Icy Wind, Iron Tail, Low Kick, Sleep Talk, Snore, Superpower, Water Pledge</td></tr>
+<tr><td>Marshtomp</td><td> Aqua Tail, Earth Power, Endeavor, Ice Punch, Icy Wind, Iron Tail, Low Kick, Sleep Talk, Snore, Stealth Rock, Superpower, Water Pledge</td></tr>
+<tr class="a"><td>Swampert</td><td> Aqua Tail, Earth Power, Endeavor, Hydro Cannon, Ice Punch, Icy Wind, Iron Tail, Low Kick, Outrage, Sleep Talk, Snore, Stealth Rock, Superpower, Water Pledge</td></tr>
+<tr><td>Poochyena</td><td> Covet, Dark Pulse, Foul Play, Hyper Voice, Iron Tail, Sleep Talk, Snatch, Snore, Spite, Super Fang, Uproar</td></tr>
+<tr class="a"><td>Mightyena</td><td> Covet, Dark Pulse, Foul Play, Hyper Voice, Iron Tail, Sleep Talk, Snatch, Snore, Spite, Super Fang, Uproar</td></tr>
+<tr><td>Zigzagoon</td><td> Covet, Gunk Shot, Helping Hand, Hyper Voice, Icy Wind, Iron Tail, Last Resort, Seed Bomb, Sleep Talk, Snore, Super Fang, Trick</td></tr>
+<tr class="a"><td>Linoone</td><td> Covet, Gunk Shot, Helping Hand, Hyper Voice, Icy Wind, Iron Tail, Last Resort, Seed Bomb, Sleep Talk, Snore, Super Fang, Trick</td></tr>
+<tr><td>Wurmple</td><td> Bug Bite, Electroweb, Snore</td></tr>
+<tr class="a"><td>Silcoon</td><td> Bug Bite, Electroweb, Iron Defense</td></tr>
+<tr><td>Beautifly</td><td> Bug Bite, Electroweb, Giga Drain, Roost, Signal Beam, Sleep Talk, Snore, Tailwind</td></tr>
+<tr class="a"><td>Cascoon</td><td> Bug Bite, Electroweb, Iron Defense</td></tr>
+<tr><td>Dustox</td><td> Bug Bite, Electroweb, Giga Drain, Roost, Signal Beam, Sleep Talk, Snore, Tailwind</td></tr>
+<tr class="a"><td>Lotad</td><td> Giga Drain, Icy Wind, Seed Bomb, Sleep Talk, Snore, Synthesis, Uproar, Zen Headbutt</td></tr>
+<tr><td>Lombre</td><td> Drain Punch, Fire Punch, Giga Drain, Hyper Voice, Ice Punch, Icy Wind, Seed Bomb, Sleep Talk, Snore, Synthesis, ThunderPunch, Uproar, Zen Headbutt</td></tr>
+<tr class="a"><td>Ludicolo</td><td> Drain Punch, Fire Punch, Giga Drain, Hyper Voice, Ice Punch, Icy Wind, Seed Bomb, Sleep Talk, Snore, Synthesis, ThunderPunch, Uproar, Zen Headbutt</td></tr>
+<tr><td>Seedot</td><td> Foul Play, Giga Drain, Seed Bomb, Sleep Talk, Snore, Spite, Synthesis, Worry Seed</td></tr>
+<tr class="a"><td>Nuzleaf</td><td> Dark Pulse, Foul Play, Giga Drain, Low Kick, Seed Bomb, Sleep Talk, Snore, Spite, Synthesis, Worry Seed</td></tr>
+<tr><td>Shiftry</td><td> Bounce, Dark Pulse, Foul Play, Giga Drain, Icy Wind, Knock Off, Low Kick, Seed Bomb, Sleep Talk, Snore, Spite, Synthesis, Tailwind, Worry Seed</td></tr>
+<tr class="a"><td>Taillow</td><td> Endeavor, Heat Wave, Roost, Sleep Talk, Snore, Tailwind</td></tr>
+<tr><td>Swellow</td><td> Endeavor, Heat Wave, Roost, Sky Attack, Sleep Talk, Snore, Tailwind</td></tr>
+<tr class="a"><td>Wingull</td><td> Icy Wind, Knock Off, Roost, Sleep Talk, Snore, Tailwind, Uproar, Air Cutter</td></tr>
+<tr><td>Pelipper</td><td> Gunk Shot, Icy Wind, Knock Off, Roost, Seed Bomb, Sky Attack, Sleep Talk, Snore, Tailwind, Uproar, Brine, Air Cutter</td></tr>
+<tr class="a"><td>Ralts</td><td> Fire Punch, Helping Hand, Hyper Voice, Ice Punch, Icy Wind, Magic Coat, Magic Room, Pain Split, Recycle, Signal Beam, Skill Swap, Sleep Talk, Snatch, Snore, ThunderPunch, Trick, Wonder Room, Zen Headbutt</td></tr>
+<tr><td>Kirlia</td><td> Fire Punch, Helping Hand, Hyper Voice, Ice Punch, Icy Wind, Magic Coat, Magic Room, Pain Split, Recycle, Signal Beam, Skill Swap, Sleep Talk, Snatch, Snore, ThunderPunch, Trick, Wonder Room, Zen Headbutt</td></tr>
+<tr class="a"><td>Gardevoir</td><td> Fire Punch, Heal Bell, Helping Hand, Hyper Voice, Ice Punch, Icy Wind, Magic Coat, Magic Room, Pain Split, Recycle, Signal Beam, Skill Swap, Sleep Talk, Snatch, Snore, ThunderPunch, Trick, Wonder Room, Zen Headbutt</td></tr>
+<tr><td>Surskit</td><td> Bug Bite, Giga Drain, Icy Wind, Signal Beam, Sleep Talk, Snore</td></tr>
+<tr class="a"><td>Masquerain</td><td> Bug Bite, Giga Drain, Icy Wind, Roost, Signal Beam, Sleep Talk, Snore, Tailwind</td></tr>
+<tr><td>Shroomish</td><td> Drain Punch, Giga Drain, Helping Hand, Seed Bomb, Sleep Talk, Snatch, Snore, Synthesis, Worry Seed</td></tr>
+<tr class="a"><td>Breloom</td><td> Drain Punch, Giga Drain, Helping Hand, Iron Tail, Seed Bomb, Sleep Talk, Snatch, Snore, Superpower, Synthesis, ThunderPunch, Worry Seed</td></tr>
+<tr><td>Slakoth</td><td> After You, Covet, Fire Punch, Gunk Shot, Ice Punch, Icy Wind, Sleep Talk, Snore, ThunderPunch</td></tr>
+<tr class="a"><td>Vigoroth</td><td> After You, Covet, Fire Punch, Gunk Shot, Ice Punch, Icy Wind, Low Kick, Sleep Talk, ThunderPunch, Uproar</td></tr>
+<tr><td>Slaking</td><td> After You, Block, Covet, Fire Punch, Gunk Shot, Ice Punch, Icy Wind, Low Kick, Sleep Talk, Snore, ThunderPunch</td></tr>
+<tr class="a"><td>Nincada</td><td> Bug Bite, Giga Drain, Sleep Talk, Snore, Spite</td></tr>
+<tr><td>Ninjask</td><td> Bug Bite, Giga Drain, Roost, Sleep Talk, Snore, Spite, Uproar</td></tr>
+<tr class="a"><td>Shedinja</td><td> Bug Bite, Giga Drain, Sleep Talk, Snore, Spite, Trick</td></tr>
+<tr><td>Whismur</td><td> Endeavor, Fire Punch, Hyper Voice, Ice Punch, Icy Wind, Sleep Talk, Snore, ThunderPunch, Uproar, Zen Headbutt</td></tr>
+<tr class="a"><td>Loudred</td><td> Endeavor, Fire Punch, Hyper Voice, Ice Punch, Icy Wind, Low Kick, Sleep Talk, Snore, ThunderPunch, Uproar, Zen Headbutt</td></tr>
+<tr><td>Exploud</td><td> Endeavor, Fire Punch, Hyper Voice, Ice Punch, Icy Wind, Low Kick, Outrage, Sleep Talk, Snore, ThunderPunch, Uproar, Zen Headbutt</td></tr>
+<tr class="a"><td>Makuhita</td><td> Fire Punch, Helping Hand, Ice Punch, Knock Off, Low Kick, Role Play, Sleep Talk, Snore, Superpower, ThunderPunch</td></tr>
+<tr><td>Hariyama</td><td> Fire Punch, Helping Hand, Ice Punch, Iron Head, Knock Off, Low Kick, Role Play, Sleep Talk, Snore, Superpower, ThunderPunch</td></tr>
+<tr class="a"><td>Azurill</td><td> Bounce, Covet, Helping Hand, Hyper Voice, Icy Wind, Iron Tail, Knock Off, Sleep Talk, Snore, Uproar, Water Sport</td></tr>
+<tr><td>Nosepass</td><td> Block, Earth Power, Fire Punch, Gravity, Ice Punch, Iron Defense, Magic Coat, Magnet Rise, Pain Split, Sleep Talk, Snore, Stealth Rock, ThunderPunch, Rock Blast, Spark</td></tr>
+<tr class="a"><td>Skitty</td><td> Covet, Heal Bell, Helping Hand, Hyper Voice, Icy Wind, Iron Tail, Last Resort, Sleep Talk, Snore, Uproar, Zen Headbutt</td></tr>
+<tr><td>Delcatty</td><td> Covet, Heal Bell, Helping Hand, Hyper Voice, Icy Wind, Iron Tail, Last Resort, Sleep Talk, Snore, Uproar, Zen Headbutt</td></tr>
+<tr class="a"><td>Sableye</td><td> Dark Pulse, Fire Punch, Foul Play, Gravity, Ice Punch, Icy Wind, Knock Off, Low Kick, Magic Coat, Role Play, Signal Beam, Sleep Talk, Snatch, Snore, Spite, ThunderPunch, Trick, Wonder Room, Zen Headbutt</td></tr>
+<tr><td>Mawile</td><td> Dark Pulse, Foul Play, Ice Punch, Icy Wind, Iron Defense, Iron Head, Knock Off, Last Resort, Magnet Rise, Pain Split, Sleep Talk, Snatch, Snore, Stealth Rock, Super Fang, ThunderPunch</td></tr>
+<tr class="a"><td>Aron</td><td> Earth Power, Endeavor, Iron Defense, Iron Head, Iron Tail, Magnet Rise, Sleep Talk, Snore, Spite, Stealth Rock, Superpower, Uproar</td></tr>
+<tr><td>Lairon</td><td> Earth Power, Endeavor, Iron Defense, Iron Head, Iron Tail, Magnet Rise, Sleep Talk, Snore, Spite, Stealth Rock, Superpower, Uproar</td></tr>
+<tr class="a"><td>Aggron</td><td> Aqua Tail, Block, Dark Pulse, Dragon Pulse, Earth Power, Endeavor, Fire Punch, Ice Punch, Icy Wind, Iron Defense, Iron Head, Iron Tail, Low Kick, Magnet Rise, Outrage, Sleep Talk, Snore, Spite, Stealth Rock, Superpower, ThunderPunch, Uproar</td></tr>
+<tr><td>Meditite</td><td> Drain Punch, Fire Punch, Gravity, Helping Hand, Ice Punch, Low Kick, Magic Coat, Pain Split, Recycle, Role Play, Signal Beam, Sleep Talk, Snore, ThunderPunch, Trick, Zen Headbutt</td></tr>
+<tr class="a"><td>Medicham</td><td> Drain Punch, Fire Punch, Gravity, Helping Hand, Ice Punch, Low Kick, Magic Coat, Pain Split, Recycle, Role Play, Signal Beam, Sleep Talk, Snore, ThunderPunch, Trick, Zen Headbutt</td></tr>
+<tr><td>Electrike</td><td> Iron Tail, Magnet Rise, Signal Beam, Sleep Talk, Snore, Uproar</td></tr>
+<tr class="a"><td>Manectric</td><td> Iron Tail, Magnet Rise, Signal Beam, Sleep Talk, Snore, Uproar</td></tr>
+<tr><td>Plusle</td><td> Helping Hand, Iron Tail, Last Resort, Magnet Rise, Signal Beam, Sleep Talk, Snore, ThunderPunch, Uproar</td></tr>
+<tr class="a"><td>Minun</td><td> Helping Hand, Iron Tail, Last Resort, Magnet Rise, Signal Beam, Sleep Talk, Snore, ThunderPunch, Uproar</td></tr>
+<tr><td>Volbeat</td><td> Bug Bite, Giga Drain, Helping Hand, Ice Punch, Roost, Signal Beam, Sleep Talk, Snore, Tailwind, ThunderPunch, Trick, Zen Headbutt</td></tr>
+<tr class="a"><td>Illumise</td><td> Bug Bite, Covet, Giga Drain, Helping Hand, Ice Punch, Roost, Sleep Talk, Snore, Tailwind, ThunderPunch, Zen Headbutt</td></tr>
+<tr><td>Roselia</td><td> Covet, Giga Drain, Seed Bomb, Sleep Talk, Snore, Synthesis, Worry Seed</td></tr>
+<tr class="a"><td>Gulpin</td><td> Fire Punch, Gastro Acid, Giga Drain, Gunk Shot, Ice Punch, Pain Split, Seed Bomb, Sleep Talk, Snatch, Snore, ThunderPunch</td></tr>
+<tr><td>Swalot</td><td> Block, Fire Punch, Gastro Acid, Giga Drain, Gunk Shot, Ice Punch, Pain Split, Seed Bomb, Sleep Talk, Snatch, Snore, ThunderPunch</td></tr>
+<tr class="a"><td>Carvanha</td><td> Bounce, Dark Pulse, Icy Wind, Sleep Talk, Snore, Spite, Super Fang, Uproar, Zen Headbutt</td></tr>
+<tr><td>Sharpedo</td><td> Bounce, Dark Pulse, Icy Wind, Sleep Talk, Snore, Spite, Super Fang, Uproar, Zen Headbutt</td></tr>
+<tr class="a"><td>Wailmer</td><td> Bounce, Hyper Voice, Icy Wind, Sleep Talk, Snore, Zen Headbutt</td></tr>
+<tr><td>Wailord</td><td> Block, Bounce, Hyper Voice, Icy Wind, Iron Head, Sleep Talk, Snore, Zen Headbutt</td></tr>
+<tr class="a"><td>Numel</td><td> After You, Earth Power, Heat Wave, Iron Head, Sleep Talk, Snore, Stealth Rock, Curse, Yawn</td></tr>
+<tr><td>Camerupt</td><td> After You, Earth Power, Heat Wave, Iron Head, Sleep Talk, Snore, Stealth Rock, Curse, Yawn</td></tr>
+<tr class="a"><td>Torkoal</td><td> After You, Earth Power, Heat Wave, Iron Defense, Iron Tail, Sleep Talk, Snore, Stealth Rock</td></tr>
+<tr><td>Spoink</td><td> Bounce, Covet, Heal Bell, Icy Wind, Iron Tail, Magic Coat, Recycle, Role Play, Signal Beam, Skill Swap, Sleep Talk, Snatch, Snore, Trick, Zen Headbutt</td></tr>
+<tr class="a"><td>Grumpig</td><td> Bounce, Covet, Drain Punch, Fire Punch, Heal Bell, Ice Punch, Icy Wind, Iron Tail, Magic Coat, Recycle, Role Play, Signal Beam, Skill Swap, Sleep Talk, Snatch, Snore, ThunderPunch, Trick, Zen Headbutt</td></tr>
+<tr><td>Spinda</td><td> Covet, Drain Punch, Fire Punch, Helping Hand, Hyper Voice, Ice Punch, Icy Wind, Last Resort, Low Kick, Recycle, Role Play, Skill Swap, Sleep Talk, Snatch, Snore, ThunderPunch, Trick, Uproar, Zen Headbutt</td></tr>
+<tr class="a"><td>Trapinch</td><td> Bug Bite, Earth Power, Giga Drain, Signal Beam, Sleep Talk, Snore, Superpower, Bide</td></tr>
+<tr><td>Vibrava</td><td> Bug Bite, Draco Meteor, Dragon Pulse, Earth Power, Giga Drain, Heat Wave, Outrage, Roost, Signal Beam, Sleep Talk, Snore, Superpower, Tailwind, Bide</td></tr>
+<tr class="a"><td>Flygon</td><td> Bug Bite, Draco Meteor, Dragon Pulse, Earth Power, Fire Punch, Giga Drain, Heat Wave, Iron Tail, Outrage, Roost, Signal Beam, Sleep Talk, Snore, Superpower, Tailwind, ThunderPunch, Bide</td></tr>
+<tr><td>Cacnea</td><td> Block, Dark Pulse, Drain Punch, Giga Drain, Low Kick, Role Play, Seed Bomb, Sleep Talk, Snore, Spite, Synthesis, ThunderPunch, Worry Seed</td></tr>
+<tr class="a"><td>Cacturne</td><td> Block, Dark Pulse, Drain Punch, Foul Play, Giga Drain, Low Kick, Role Play, Seed Bomb, Sleep Talk, Snore, Spite, Superpower, Synthesis, ThunderPunch, Worry Seed</td></tr>
+<tr><td>Swablu</td><td> Dragon Pulse, Heal Bell, Heat Wave, Hyper Voice, Outrage, Roost, Sleep Talk, Snore, Tailwind, Uproar</td></tr>
+<tr class="a"><td>Altaria</td><td> Draco Meteor, Dragon Pulse, Heal Bell, Heat Wave, Hyper Voice, Iron Tail, Outrage, Roost, Sky Attack, Sleep Talk, Snore, Tailwind, Uproar, Wonder Room</td></tr>
+<tr><td>Zangoose</td><td> Endeavor, Fire Punch, Giga Drain, Ice Punch, Icy Wind, Iron Tail, Knock Off, Last Resort, Low Kick, Sleep Talk, Snore, ThunderPunch, Revenge</td></tr>
+<tr class="a"><td>Seviper</td><td> Aqua Tail, Bind, Dark Pulse, Gastro Acid, Giga Drain, Iron Tail, Knock Off, Sleep Talk, Snatch, Snore</td></tr>
+<tr><td>Lunatone</td><td> Earth Power, Gravity, Helping Hand, Icy Wind, Iron Head, Magic Coat, Magic Room, Pain Split, Recycle, Signal Beam, Skill Swap, Sleep Talk, Snore, Stealth Rock, Zen Headbutt</td></tr>
+<tr class="a"><td>Solrock</td><td> Earth Power, Gravity, Heat Wave, Helping Hand, Iron Defense, Iron Head, Magic Coat, Pain Split, Recycle, Signal Beam, Skill Swap, Sleep Talk, Snore, Stealth Rock, Wonder Room, Zen Headbutt</td></tr>
+<tr><td>Barboach</td><td> Aqua Tail, Bounce, Earth Power, Icy Wind, Sleep Talk, Snore</td></tr>
+<tr class="a"><td>Whiscash</td><td> Aqua Tail, Bounce, Earth Power, Icy Wind, Sleep Talk, Snore, Zen Headbutt</td></tr>
+<tr><td>Corphish</td><td> Endeavor, Icy Wind, Iron Defense, Knock Off, Sleep Talk, Snore, Spite, Superpower</td></tr>
+<tr class="a"><td>Crawdaunt</td><td> Dark Pulse, Endeavor, Icy Wind, Iron Defense, Knock Off, Sleep Talk, Snore, Spite, Superpower</td></tr>
+<tr><td>Baltoy</td><td> Drill Run, Earth Power, Gravity, Magic Coat, Recycle, Signal Beam, Skill Swap, Sleep Talk, Snore, Stealth Rock, Trick, Wonder Room, Zen Headbutt</td></tr>
+<tr class="a"><td>Claydol</td><td> Drill Run, Earth Power, Gravity, Magic Coat, Recycle, Signal Beam, Skill Swap, Sleep Talk, Snore, Stealth Rock, Trick, Wonder Room, Zen Headbutt</td></tr>
+<tr><td>Lileep</td><td> Bind, Earth Power, Gastro Acid, Giga Drain, Pain Split, Seed Bomb, Sleep Talk, Snore, Stealth Rock, Synthesis, Worry Seed</td></tr>
+<tr class="a"><td>Cradily</td><td> Bind, Block, Earth Power, Gastro Acid, Giga Drain, Pain Split, Seed Bomb, Sleep Talk, Snore, Stealth Rock, Synthesis, Worry Seed</td></tr>
+<tr><td>Anorith</td><td> Bug Bite, Earth Power, Iron Defense, Knock Off, Sleep Talk, Snore, Stealth Rock</td></tr>
+<tr class="a"><td>Armaldo</td><td> Aqua Tail, Block, Bug Bite, Earth Power, Iron Defense, Iron Tail, Knock Off, Low Kick, Sleep Talk, Snore, Stealth Rock, Superpower</td></tr>
+<tr><td>Feebas</td><td> Dragon Pulse, Icy Wind, Iron Tail, Sleep Talk, Snore</td></tr>
+<tr class="a"><td>Milotic</td><td> Aqua Tail, Bind, Dragon Pulse, Icy Wind, Iron Head, Iron Tail, Magic Coat, Sleep Talk, Snore</td></tr>
+<tr><td>Castform</td><td> Icy Wind, Last Resort, Sleep Talk, Snore, Tailwind</td></tr>
+<tr class="a"><td>Kecleon</td><td> After You, Aqua Tail, Bind, Drain Punch, Fire Punch, Foul Play, Ice Punch, Icy Wind, Iron Tail, Knock Off, Last Resort, Low Kick, Magic Coat, Recycle, Role Play, Skill Swap, Sleep Talk, Snatch, Snore, Stealth Rock, ThunderPunch, Trick, Wonder Room</td></tr>
+<tr><td>Shuppet</td><td> Dark Pulse, Foul Play, Icy Wind, Knock Off, Magic Coat, Magic Room, Pain Split, Role Play, Skill Swap, Sleep Talk, Snatch, Spite, Trick</td></tr>
+<tr class="a"><td>Banette</td><td> Dark Pulse, Foul Play, Icy Wind, Knock Off, Magic Coat, Magic Room, Pain Split, Role Play, Skill Swap, Sleep Talk, Snatch, Spite, Trick</td></tr>
+<tr><td>Duskull</td><td> Dark Pulse, Gravity, Icy Wind, Pain Split, Skill Swap, Sleep Talk, Snatch, Snore, Spite, Trick, Wonder Room</td></tr>
+<tr class="a"><td>Dusclops</td><td> Bind, Dark Pulse, Fire Punch, Gravity, Ice Punch, Icy Wind, Pain Split, Skill Swap, Sleep Talk, Snatch, Snore, Spite, ThunderPunch, Trick, Wonder Room</td></tr>
+<tr><td>Tropius</td><td> Dragon Pulse, Giga Drain, Outrage, Roost, Seed Bomb, Sleep Talk, Snore, Synthesis, Tailwind, Worry Seed</td></tr>
+<tr class="a"><td>Chimecho</td><td> Bind, Gravity, Heal Bell, Helping Hand, Hyper Voice, Icy Wind, Knock Off, Last Resort, Magic Coat, Recycle, Signal Beam, Skill Swap, Sleep Talk, Snatch, Snore, Trick, Uproar, Zen Headbutt</td></tr>
+<tr><td>Absol</td><td> Bounce, Dark Pulse, Foul Play, Icy Wind, Iron Tail, Knock Off, Magic Coat, Role Play, Sleep Talk, Snatch, Snore, Spite, Superpower, Zen Headbutt</td></tr>
+<tr class="a"><td>Snorunt</td><td> Block, Icy Wind, Sleep Talk, Snore, Spite</td></tr>
+<tr><td>Glalie</td><td> Block, Dark Pulse, Icy Wind, Iron Head, Signal Beam, Sleep Talk, Snore, Spite, Super Fang</td></tr>
+<tr class="a"><td>Spheal</td><td> Aqua Tail, Icy Wind, Iron Tail, Signal Beam, Sleep Talk, Snore, Super Fang</td></tr>
+<tr><td>Sealeo</td><td> Aqua Tail, Icy Wind, Iron Tail, Signal Beam, Sleep Talk, Snore, Super Fang</td></tr>
+<tr class="a"><td>Walrein</td><td> Aqua Tail, Block, Icy Wind, Iron Head, Iron Tail, Signal Beam, Sleep Talk, Snore, Super Fang</td></tr>
+<tr><td>Clamperl</td><td> Icy Wind, Iron Defense, Sleep Talk, Snore</td></tr>
+<tr class="a"><td>Huntail</td><td> Aqua Tail, Bind, Bounce, Icy Wind, Sleep Talk, Snatch, Snore, Super Fang</td></tr>
+<tr><td>Gorebyss</td><td> Aqua Tail, Bind, Bounce, Icy Wind, Signal Beam, Sleep Talk, Snore</td></tr>
+<tr class="a"><td>Relicanth</td><td> Aqua Tail, Bounce, Earth Power, Icy Wind, Sleep Talk, Snore, Stealth Rock, Zen Headbutt</td></tr>
+<tr><td>Luvdisc</td><td> Bounce, Icy Wind, Sleep Talk, Snore</td></tr>
+<tr class="a"><td>Bagon</td><td> Draco Meteor, Dragon Pulse, Hyper Voice, Outrage, Sleep Talk, Snore, Zen Headbutt</td></tr>
+<tr><td>Shelgon</td><td> Draco Meteor, Dragon Pulse, Hyper Voice, Iron Defense, Outrage, Sleep Talk, Snore, Zen Headbutt</td></tr>
+<tr class="a"><td>Salamence</td><td> Aqua Tail, Draco Meteor, Dragon Pulse, Heat Wave, Hyper Voice, Iron Tail, Outrage, Roost, Sleep Talk, Snore, Tailwind, Zen Headbutt</td></tr>
+<tr><td>Beldum</td><td> Iron Defense, Iron Head, Zen Headbutt</td></tr>
+<tr class="a"><td>Metang</td><td> Gravity, Ice Punch, Icy Wind, Iron Defense, Iron Head, Magnet Rise, Signal Beam, Sleep Talk, Snore, Stealth Rock, ThunderPunch, Trick, Zen Headbutt, Miracle Eye</td></tr>
+<tr><td>Metagross</td><td> Block, Gravity, Ice Punch, Icy Wind, Iron Defense, Iron Head, Magnet Rise, Signal Beam, Sleep Talk, Snore, Stealth Rock, ThunderPunch, Trick, Zen Headbutt, Miracle Eye</td></tr>
+<tr class="a"><td>Regirock</td><td> Block, Drain Punch, Earth Power, Fire Punch, Gravity, Ice Punch, Iron Defense, Iron Head, Sleep Talk, Snore, Stealth Rock, Superpower, ThunderPunch</td></tr>
+<tr><td>Regice</td><td> Block, Gravity, Ice Punch, Icy Wind, Iron Head, Signal Beam, Sleep Talk, Snore, Superpower, ThunderPunch</td></tr>
+<tr class="a"><td>Registeel</td><td> Block, Gravity, Ice Punch, Iron Defense, Iron Head, Magnet Rise, Sleep Talk, Snore, Stealth Rock, Superpower, ThunderPunch</td></tr>
+<tr><td>Latias</td><td> Covet, Draco Meteor, Dragon Pulse, Helping Hand, Icy Wind, Last Resort, Magic Coat, Magic Room, Outrage, Role Play, Roost, Sleep Talk, Snore, Tailwind, Trick, Zen Headbutt</td></tr>
+<tr class="a"><td>Latios</td><td> Draco Meteor, Dragon Pulse, Helping Hand, Icy Wind, Last Resort, Magic Coat, Outrage, Roost, Sleep Talk, Snore, Tailwind, Trick, Wonder Room, Zen Headbutt</td></tr>
+<tr><td>Kyogre</td><td> Aqua Tail, Block, Icy Wind, Iron Head, Signal Beam, Sleep Talk, Snore, Uproar</td></tr>
+<tr class="a"><td>Groudon</td><td> Block, Dragon Pulse, Earth Power, Fire Punch, Iron Head, Iron Tail, Sleep Talk, Snore, Stealth Rock, ThunderPunch, Uproar</td></tr>
+<tr><td>Rayquaza</td><td> Aqua Tail, Bind, Draco Meteor, Dragon Pulse, Earth Power, Hyper Voice, Icy Wind, Iron Head, Iron Tail, Outrage, Sleep Talk, Snore, Tailwind, Uproar</td></tr>
+<tr class="a"><td>Jirachi</td><td> Drain Punch, Fire Punch, Gravity, Helping Hand, Ice Punch, Icy Wind, Iron Defense, Iron Head, Last Resort, Magic Coat, Magic Room, Recycle, Signal Beam, Skill Swap, Sleep Talk, Snore, Stealth Rock, ThunderPunch, Trick, Uproar, Zen Headbutt</td></tr>
+<tr><td>Deoxys (all formes)</td><td> Bind, Drain Punch, Fire Punch, Gravity, Ice Punch, Icy Wind, Knock Off, Low Kick, Magic Coat, Recycle, Role Play, Signal Beam, Skill Swap, Sleep Talk, Snatch, Snore, Stealth Rock, ThunderPunch, Trick, Wonder Room, Zen Headbutt</td></tr>
+<tr class="a"><td>Turtwig</td><td> Earth Power, Giga Drain, Grass Pledge, Iron Tail, Seed Bomb, Sleep Talk, Snore, Stealth Rock, Superpower, Synthesis, Worry Seed</td></tr>
+<tr><td>Grotle</td><td> Earth Power, Giga Drain, Grass Pledge, Iron Tail, Seed Bomb, Sleep Talk, Snore, Stealth Rock, Superpower, Synthesis, Worry Seed</td></tr>
+<tr class="a"><td>Torterra</td><td> Block, Earth Power, Frenzy Plant, Giga Drain, Grass Pledge, Iron Head, Iron Tail, Outrage, Seed Bomb, Sleep Talk, Snore, Stealth Rock, Superpower, Synthesis, Worry Seed</td></tr>
+<tr><td>Chimchar</td><td> Covet, Endeavor, Fire Pledge, Fire Punch, Gunk Shot, Heat Wave, Helping Hand, Iron Tail, Low Kick, Role Play, Sleep Talk, Snore, Stealth Rock, ThunderPunch, Uproar</td></tr>
+<tr class="a"><td>Monferno</td><td> Covet, Dual Chop, Endeavor, Fire Pledge, Fire Punch, Gunk Shot, Heat Wave, Helping Hand, Iron Tail, Low Kick, Role Play, Sleep Talk, Snore, Stealth Rock, ThunderPunch</td></tr>
+<tr><td>Infernape</td><td> Blast Burn, Covet, Dual Chop, Endeavor, Fire Pledge, Fire Punch, Gunk Shot, Heat Wave, Helping Hand, Iron Tail, Low Kick, Role Play, Sleep Talk, Snore, Stealth Rock, ThunderPunch</td></tr>
+<tr class="a"><td>Piplup</td><td> Covet, Icy Wind, Signal Beam, Sleep Talk, Snore, Stealth Rock, Water Pledge</td></tr>
+<tr><td>Prinplup</td><td> Covet, Icy Wind, Signal Beam, Sleep Talk, Snore, Stealth Rock, Water Pledge</td></tr>
+<tr class="a"><td>Empoleon</td><td> Covet, Hydro Cannon, Icy Wind, Iron Defense, Knock Off, Signal Beam, Sleep Talk, Snore, Stealth Rock, Water Pledge</td></tr>
+<tr><td>Starly</td><td> Endeavor, Heat Wave, Roost, Sleep Talk, Snore, Tailwind</td></tr>
+<tr class="a"><td>Staravia</td><td> Endeavor, Heat Wave, Roost, Sleep Talk, Snore, Tailwind</td></tr>
+<tr><td>Staraptor</td><td> Endeavor, Heat Wave, Roost, Sky Attack, Sleep Talk, Snore, Tailwind</td></tr>
+<tr class="a"><td>Bidoof</td><td> Aqua Tail, Covet, Icy Wind, Iron Tail, Last Resort, Sleep Talk, Snore, Stealth Rock, Super Fang, Superpower</td></tr>
+<tr><td>Bibarel</td><td> Aqua Tail, Covet, Icy Wind, Iron Tail, Last Resort, Sleep Talk, Snore, Stealth Rock, Super Fang, Superpower</td></tr>
+<tr class="a"><td>Kricketot</td><td> Bug Bite, Endeavor, Snore, Uproar</td></tr>
+<tr><td>Kricketune</td><td> Bug Bite, Endeavor, Heal Bell, Hyper Voice, Knock Off, Sleep Talk, Snore, Uproar</td></tr>
+<tr class="a"><td>Shinx</td><td> Iron Tail, Magnet Rise, Signal Beam, Sleep Talk, Snore</td></tr>
+<tr><td>Luxio</td><td> Iron Tail, Magnet RisetdtdWailordtr, Signal Beam, Sleep Talk, Snore</td></tr>
+<tr class="a"><td>Luxray</td><td> Iron Tail, Magnet Rise, Signal Beam, Sleep Talk, Snore, Superpower</td></tr>
+<tr><td>Budew</td><td> Covet, Giga Drain, Seed Bomb, Sleep Talk, Snore, Synthesis, Uproar, Worry Seed</td></tr>
+<tr class="a"><td>Roserade</td><td> Covet, Giga Drain, Seed Bomb, Sleep Talk, Snore, Synthesis, Worry Seed</td></tr>
+<tr><td>Cranidos</td><td> Dragon Pulse, Earth Power, Endeavor, Fire Punch, Iron Head, Iron Tail, Sleep Talk, Snore, Spite, Stealth Rock, Superpower, ThunderPunch, Uproar, Zen Headbutt</td></tr>
+<tr class="a"><td>Rampardos</td><td> Dragon Pulse, Earth Power, Endeavor, Fire Punch, Iron Head, Iron Tail, Outrage, Pain Split, Sleep Talk, Snore, Spite, Stealth Rock, Superpower, ThunderPunch, Uproar, Zen Headbutt</td></tr>
+<tr><td>Shieldon</td><td> Earth Power, Iron Defense, Iron Head, Iron Tail, Magnet Rise, Sleep Talk, Snore, Stealth Rock</td></tr>
+<tr class="a"><td>Bastiodon</td><td> Block, Earth Power, Iron Defense, Iron Head, Iron Tail, Magic Coat, Magnet Rise, Outrage, Sleep Talk, Snore, Stealth Rock</td></tr>
+<tr><td>Burmy</td><td> Bug Bite, Electroweb, Snore</td></tr>
+<tr class="a"><td>Wormadam</td><td> Bug Bite, Electroweb, Endeavor, Giga Drain, Seed Bomb, Signal Beam, Skill Swap, Sleep Talk, Snore, Synthesis, Uproar, Worry Seed</td></tr>
+<tr><td>Wormadam-G</td><td> Bug Bite, Earth Power, Electroweb, Endeavor, Signal Beam, Skill Swap, Sleep Talk, Snore, Stealth Rock, Uproar</td></tr>
+<tr class="a"><td>Wormadam-S</td><td> Bug Bite, Electroweb, Endeavor, Gunk Shot, Iron Defense, Iron Head, Magnet Rise, Signal Beam, Skill Swap, Sleep Talk, Snore, Stealth Rock, Uproar</td></tr>
+<tr><td>Mothim</td><td> Bug Bite, Electroweb, Giga Drain, Roost, Signal Beam, Skill Swap, Sleep Talk, Snore, Tailwind</td></tr>
+<tr class="a"><td>Combee</td><td> Bug Bite, Endeavor, Snore, Tailwind, Bug Buzz</td></tr>
+<tr><td>Vespiquen</td><td> Bug Bite, Endeavor, Roost, Signal Beam, Sleep Talk, Snore, Tailwind, Air Slash, Bug Buzz</td></tr>
+<tr class="a"><td>Pachirisu</td><td> Covet, Gunk Shot, Helping Hand, Iron Tail, Last Resort, Magnet Rise, Seed Bomb, Sleep Talk, Snore, Super Fang, ThunderPunch, Uproar</td></tr>
+<tr><td>Buizel</td><td> Aqua Tail, Ice Punch, Icy Wind, Iron Tail, Sleep Talk, Snore, Double Hit, Hydro Pump</td></tr>
+<tr class="a"><td>Floatzel</td><td> Aqua Tail, Ice Punch, Icy Wind, Iron Tail, Low Kick, Sleep Talk, Snore, Double Hit, Hydro Pump</td></tr>
+<tr><td>Cherubi</td><td> Giga Drain, Helping Hand, Seed Bomb, Sleep Talk, Snore, Synthesis, Worry Seed</td></tr>
+<tr class="a"><td>Cherrim</td><td> Giga Drain, Helping Hand, Seed Bomb, Sleep Talk, Snore, Synthesis, Worry Seed</td></tr>
+<tr><td>Shellos</td><td> Earth Power, Icy Wind, Pain Split, Sleep Talk, Snore</td></tr>
+<tr class="a"><td>Gastrodon</td><td> Block, Earth Power, Icy Wind, Pain Split, Sleep Talk, Snore</td></tr>
+<tr><td>Ambipom</td><td> Bounce, Covet, Fire Punch, Foul Play, Gunk Shot, Ice Punch, Iron Tail, Knock Off, Last Resort, Low Kick, Role Play, Seed Bomb, Sleep Talk, Snatch, Snore, Spite, ThunderPunch, Uproar</td></tr>
+<tr class="a"><td>Drifloon</td><td> Bind, Icy Wind, Knock Off, Magic Coat, Pain Split, Recycle, Skill Swap, Sleep Talk, Snore, Spite, Tailwind, Trick, Amnesia</td></tr>
+<tr><td>Drifblim</td><td> Bind, Icy Wind, Knock Off, Magic Coat, Pain Split, Recycle, Skill Swap, Sleep Talk, Snore, Spite, Tailwind, Trick, Amnesia</td></tr>
+<tr class="a"><td>Buneary</td><td> After You, Bounce, Covet, Drain Punch, Endeavor, Fire Punch, Heal Bell, Helping Hand, Hyper Voice, Ice Punch, Iron Tail, Last Resort, Low Kick, Magic Coat, Sleep Talk, Snore, ThunderPunch, Uproar</td></tr>
+<tr><td>Lopunny</td><td> After You, Bounce, Covet, Drain Punch, Endeavor, Fire Punch, Heal Bell, Helping Hand, Hyper Voice, Ice Punch, Iron Tail, Last Resort, Low Kick, Magic Coat, Sleep Talk, Snore, ThunderPunch, Uproar</td></tr>
+<tr class="a"><td>Mismagius</td><td> Dark Pulse, Foul Play, Heal Bell, Hyper Voice, Icy Wind, Magic Coat, Magic Room, Pain Split, Skill Swap, Sleep Talk, Snatch, Snore, Spite, Trick, Uproar, Wonder Room</td></tr>
+<tr><td>Honchkrow</td><td> Dark Pulse, Foul Play, Heat Wave, Icy Wind, Roost, Sky Attack, Sleep Talk, Snatch, Spite, Superpower, Tailwind, Uproar</td></tr>
+<tr class="a"><td>Glameow</td><td> Covet, Foul Play, Hyper Voice, Iron Tail, Knock Off, Last Resort, Sleep Talk, Snatch, Snore, Super Fang</td></tr>
+<tr><td>Purugly</td><td> Covet, Foul Play, Hyper Voice, Iron Tail, Knock Off, Last Resort, Sleep Talk, Snatch, Snore, Super Fang</td></tr>
+<tr class="a"><td>Chingling</td><td> Bind, Gravity, Heal Bell, Helping Hand, Hyper Voice, Icy Wind, Knock Off, Last Resort, Magic Coat, Recycle, Signal Beam, Skill Swap, Sleep Talk, Snatch, Snore, Trick, Uproar, Zen Headbutt</td></tr>
+<tr><td>Stunky</td><td> Dark Pulse, Foul Play, Iron Tail, Sleep Talk, Snatch, Snore</td></tr>
+<tr class="a"><td>Skuntank</td><td> Dark Pulse, Foul Play, Iron Tail, Sleep Talk, Snatch, Snore</td></tr>
+<tr><td>Bronzor</td><td> Gravity, Iron Defense, Recycle, Signal Beam, Skill Swap, Sleep Talk, Snore, Stealth Rock, Trick, Wonder Room, Psywave, Metal Sound (note Bronzor learns Psywave and Metal Sound above level 5, and thus these two moves are not Little Cup legal)</td></tr>
+<tr class="a"><td>Bronzong</td><td> Block, Gravity, Iron Defense, Iron Head, Recycle, Signal Beam, Skill Swap, Sleep Talk, Snore, Stealth Rock, Trick, Wonder Room, Zen Headbutt, Psywave, Metal Sound</td></tr>
+<tr><td>Bonsly</td><td> After You, Block, Covet, Earth Power, Foul Play, Helping Hand, Low Kick, Role Play, Sleep Talk, Snore, Stealth Rock, Uproar</td></tr>
+<tr class="a"><td>Mime Jr.</td><td> Covet, Drain Punch, Helping Hand, Icy Wind, Magic Coat, Magic Room, Recycle, Role Play, Signal Beam, Skill Swap, Sleep Talk, Snatch, Snore, Trick, Uproar, Wonder Room</td></tr>
+<tr><td>Happiny</td><td> Covet, Drain Punch, Endeavor, Gravity, Heal Bell, Helping Hand, Hyper Voice, Icy Wind, Last Resort, Recycle, Sleep Talk, Snore, Uproar, Zen Headbutt</td></tr>
+<tr class="a"><td>Chatot</td><td> Heat Wave, Hyper Voice, Role Play, Roost, Sky Attack, Sleep Talk, Snore, Tailwind, Uproar</td></tr>
+<tr><td>Spiritomb</td><td> Dark Pulse, Foul Play, Icy Wind, Pain Split, Sleep Talk, Snatch, Snore, Spite, Trick, Uproar, Wonder Room</td></tr>
+<tr class="a"><td>Gible</td><td> Draco Meteor, Dragon Pulse, Earth Power, Iron Head, Iron Tail, Outrage, Sleep Talk, Snore, Stealth Rock</td></tr>
+<tr><td>Gabite</td><td> Draco Meteor, Dragon Pulse, Dual Chop, Earth Power, Iron Head, Iron Tail, Outrage, Sleep Talk, Snore, Stealth Rock</td></tr>
+<tr class="a"><td>Garchomp</td><td> Aqua Tail, Draco Meteor, Dragon Pulse, Dual Chop, Earth Power, Iron Head, Iron Tail, Outrage, Sleep Talk, Snore, Stealth Rock</td></tr>
+<tr><td>Munchlax</td><td> After You, Covet, Fire Punch, Gunk Shot, Hyper Voice, Ice Punch, Icy Wind, Last Resort, Recycle, Seed Bomb, Sleep Talk, Snatch, Snore, Superpower, ThunderPunch, Uproar, Zen Headbutt</td></tr>
+<tr class="a"><td>Riolu</td><td> Drain Punch, Dual Chop, Helping Hand, Ice Punch, Iron Defense, Iron Tail, Low Kick, Magnet Rise, Role Play, Sleep Talk, Snore, ThunderPunch, Zen Headbutt</td></tr>
+<tr><td>Lucario</td><td> Dark Pulse, Dragon Pulse, Drain Punch, Dual Chop, Helping Hand, Ice Punch, Iron Defense, Iron Tail, Low Kick, Magnet Rise, Role Play, Sleep Talk, Snore, ThunderPunch, Zen Headbutt</td></tr>
+<tr class="a"><td>Hippopotas</td><td> Earth Power, Iron Tail, Sleep Talk, Snore, Stealth Rock, Superpower</td></tr>
+<tr><td>Hippowdon</td><td> Earth Power, Iron Head, Iron Tail, Sleep Talk, Snore, Stealth Rock, Superpower</td></tr>
+<tr class="a"><td>Skorupi</td><td> Aqua Tail, Bug Bite, Dark Pulse, Iron Tail, Knock Off, Sleep Talk, Snore, Night Slash, Pursuit</td></tr>
+<tr><td>Drapion</td><td> Aqua Tail, Bug Bite, Dark Pulse, Iron Tail, Knock Off, Sleep Talk, Snore, Night Slash, Pursuit</td></tr>
+<tr class="a"><td>Croagunk</td><td> Bounce, Dark Pulse, Drain Punch, Dual Chop, Foul Play, Gunk Shot, Helping Hand, Ice Punch, Icy Wind, Knock Off, Low Kick, Role Play, Sleep Talk, Snatch, Snore, Spite, Super Fang, ThunderPunch</td></tr>
+<tr><td>Toxicroak</td><td> Bounce, Dark Pulse, Drain Punch, Dual Chop, Foul Play, Gunk Shot, Helping Hand, Ice Punch, Icy Wind, Knock Off, Low Kick, Role Play, Sleep Talk, Snatch, Snore, Spite, Super Fang, ThunderPunch</td></tr>
+<tr class="a"><td>Carnivine</td><td> Bind, Bug Bite, Gastro Acid, Giga Drain, Knock Off, Seed Bomb, Sleep Talk, Snore, Synthesis, Worry Seed</td></tr>
+<tr><td>Finneon</td><td> Aqua Tail, Bounce, Icy Wind, Signal Beam, Sleep Talk, Snore, Tailwind</td></tr>
+<tr class="a"><td>Lumineon</td><td> Aqua Tail, Bounce, Icy Wind, Signal Beam, Sleep Talk, Snore, Tailwind</td></tr>
+<tr><td>Mantyke</td><td> Bounce, Helping Hand, Icy Wind, Signal Beam, Sleep Talk, Snore, Air Slash, Wide Guard</td></tr>
+<tr class="a"><td>Snover</td><td> Giga Drain, Ice Punch, Icy Wind, Iron Tail, Role Play, Seed Bomb, Sleep Talk, Snore, Synthesis, Worry Seed</td></tr>
+<tr><td>Abomasnow</td><td> Block, Giga Drain, Ice Punch, Icy Wind, Iron Tail, Outrage, Role Play, Seed Bomb, Sleep Talk, Snore, Synthesis, Worry Seed</td></tr>
+<tr class="a"><td>Weavile</td><td> Dark Pulse, Foul Play, Ice Punch, Icy Wind, Iron Tail, Knock Off, Low Kick, Sleep Talk, Snatch, Snore, Spite</td></tr>
+<tr><td>Magnezone</td><td> Electroweb, Gravity, Iron Defense, Iron Head, Magic Coat, Magnet Rise, Recycle, Signal Beam, Sleep Talk, Snore</td></tr>
+<tr class="a"><td>Lickilicky</td><td> Aqua Tail, Bind, Block, Fire Punch, Ice Punch, Icy Wind, Iron Tail, Knock Off, Sleep Talk, Snore, ThunderPunch, Zen Headbutt</td></tr>
+<tr><td>Rhyperior</td><td> Aqua Tail, Block, Dragon Pulse, Drill Run, Earth Power, Endeavor, Fire Punch, Ice Punch, Icy Wind, Iron Head, Iron Tail, Outrage, Sleep Talk, Snore, Spite, Stealth Rock, Superpower, ThunderPunch, Uproar</td></tr>
+<tr class="a"><td>Tangrowth</td><td> Bind, Block, Endeavor, Giga Drain, Knock Off, Pain Split, Seed Bomb, Sleep Talk, Snore, Synthesis, Worry Seed</td></tr>
+<tr><td>Electivire</td><td> Covet, Dual Chop, Electroweb, Fire Punch, Helping Hand, Ice Punch, Iron Tail, Low Kick, Magnet Rise, Signal Beam, Sleep Talk, Snore, ThunderPunch</td></tr>
+<tr class="a"><td>Magmortar</td><td> Covet, Dual Chop, Fire Punch, Heat Wave, Helping Hand, Iron Tail, Low Kick, Sleep Talk, Snore, ThunderPunch, Clear Smog</td></tr>
+<tr><td>Togekiss</td><td> Covet, Drain Punch, Endeavor, Heal Bell, Heat Wave, Hyper Voice, Last Resort, Magic Coat, Roost, Signal Beam, Sky Attack, Sleep Talk, Snore, Tailwind, Trick, Zen Headbutt</td></tr>
+<tr class="a"><td>Yanmega</td><td> Bug Bite, Giga Drain, Roost, Signal Beam, Sleep Talk, Snore, Tailwind, Uproar</td></tr>
+<tr><td>Leafeon</td><td> Covet, Giga Drain, Heal Bell, Helping Hand, Hyper Voice, Iron Tail, Knock Off, Last Resort, Seed Bomb, Sleep Talk, Snore, Synthesis, Worry Seed</td></tr>
+<tr class="a"><td>Glaceon</td><td> Aqua Tail, Covet, Heal Bell, Helping Hand, Hyper Voice, Icy Wind, Iron Tail, Last Resort, Signal Beam, Sleep Talk, Snore</td></tr>
+<tr><td>Gliscor</td><td> Aqua Tail, Bug Bite, Dark Pulse, Earth Power, Iron Tail, Knock Off, Roost, Sky Attack, Sleep Talk, Snore, Stealth Rock, Tailwind, Sky Uppercut</td></tr>
+<tr class="a"><td>Mamoswine</td><td> Block, Earth Power, Endeavor, Icy Wind, Iron Head, Knock Off, Sleep Talk, Snore, Stealth Rock, Superpower, Thrash</td></tr>
+<tr><td>Porygon-Z</td><td> Dark Pulse, Electroweb, Foul Play, Gravity, Icy Wind, Iron Tail, Last Resort, Magic Coat, Magnet Rise, Pain Split, Recycle, Signal Beam, Sleep Talk, Snore, Trick, Uproar, Wonder Room, Zen Headbutt</td></tr>
+<tr class="a"><td>Gallade</td><td> Drain Punch, Dual Chop, Fire Punch, Helping Hand, Hyper Voice, Ice Punch, Knock Off, Low Kick, Magic Coat, Magic Room, Pain Split, Recycle, Signal Beam, Skill Swap, Sleep Talk, Snatch, Snore, ThunderPunch, Trick, Wonder Room, Zen Headbutt</td></tr>
+<tr><td>Probopass</td><td> Block, Earth Power, Fire Punch, Gravity, Ice Punch, Iron Defense, Iron Head, Magic Coat, Magnet Rise, Pain Split, Sleep Talk, Snore, Stealth Rock, ThunderPunch, Rock Blast, Spark</td></tr>
+<tr class="a"><td>Dusknoir</td><td> Bind, Dark Pulse, Fire Punch, Gravity, Ice Punch, Icy Wind, Pain Split, Skill Swap, Sleep Talk, Snatch, Snore, Spite, ThunderPunch, Trick</td></tr>
+<tr><td>Froslass</td><td> Block, Ice Punch, Icy Wind, Pain Split, Signal Beam, Sleep Talk, Snatch, Snore, Spite, Trick</td></tr>
+<tr class="a"><td>Rotom (all formes)</td><td> Dark Pulse, Electroweb, Pain Split, Signal Beam, Sleep Talk, Snatch, Snore, Spite, Trick, Uproar</td></tr>
+<tr><td>Uxie</td><td> Fire Punch, Foul Play, Giga Drain, Heal Bell, Helping Hand, Ice Punch, Iron Tail, Knock Off, Magic Coat, Magic Room, Recycle, Role Play, Signal Beam, Skill Swap, Sleep Talk, Snore, Stealth Rock, ThunderPunch, Trick, Wonder Room, Zen Headbutt</td></tr>
+<tr class="a"><td>Mesprit</td><td> Fire Punch, Helping Hand, Ice Punch, Iron Tail, Knock Off, Magic Coat, Magic Room, Recycle, Role Play, Signal Beam, Skill Swap, Sleep Talk, Snore, Stealth Rock, ThunderPunch, Trick, Wonder Room, Zen Headbutt</td></tr>
+<tr><td>Azelf</td><td> Fire Punch, Helping Hand, Ice Punch, Iron Tail, Knock Off, Last Resort, Magic Coat, Magic Room, Recycle, Role Play, Signal Beam, Skill Swap, Sleep Talk, Snore, Stealth Rock, ThunderPunch, Trick, Uproar, Wonder Room, Zen Headbutt</td></tr>
+<tr class="a"><td>Dialga</td><td> Draco Meteor, Dragon Pulse, Earth Power, Gravity, Hyper Voice, Iron Defense, Iron Head, Iron Tail, Magnet Rise, Outrage, Sleep Talk, Snore, Stealth Rock</td></tr>
+<tr><td>Palkia</td><td> Aqua Tail, Draco Meteor, Dragon Pulse, Earth Power, Gravity, Hyper Voice, Outrage, Sleep Talk, Snore</td></tr>
+<tr class="a"><td>Heatran</td><td> Bug Bite, Dark Pulse, Dragon Pulse, Earth Power, Heat Wave, Iron Defense, Iron Head, Sleep Talk, Snore, Stealth Rock, Uproar</td></tr>
+<tr><td>Regigigas</td><td> Block, Drain Punch, Earth Power, Fire Punch, Gravity, Ice Punch, Icy Wind, Iron Head, Knock Off, Sleep Talk, Snore, Superpower, ThunderPunch, Zen Headbutt</td></tr>
+<tr class="a"><td>Giratina</td><td> Aqua Tail, Dark Pulse, Draco Meteor, Dragon Pulse, Earth Power, Gravity, Hyper Voice, Icy Wind, Iron Head, Iron Tail, Outrage, Pain Split, Sleep Talk, Snore, Spite</td></tr>
+<tr><td>Giratina-O</td><td> Aqua Tail, Dark Pulse, Draco Meteor, Dragon Pulse, Earth Power, Gravity, Hyper Voice, Icy Wind, Iron Head, Iron Tail, Magic Coat, Outrage, Sleep Talk, Snore, Spite, Tailwind</td></tr>
+<tr class="a"><td>Cresselia</td><td> Gravity, Helping Hand, Icy Wind, Magic Coat, Magic Room, Recycle, Signal Beam, Skill Swap, Sleep Talk, Snore, Trick, Zen Headbutt</td></tr>
+<tr><td>Phione</td><td> Bounce, Covet, Heal Bell, Helping Hand, Icy Wind, Knock Off, Last Resort, Signal Beam, Sleep Talk, Snore, Uproar</td></tr>
+<tr class="a"><td>Manaphy</td><td> Bounce, Covet, Heal Bell, Helping Hand, Icy Wind, Knock Off, Last Resort, Signal Beam, Skill Swap, Sleep Talk, Snore, Uproar</td></tr>
+<tr><td>Darkrai</td><td> Dark Pulse, Drain Punch, Foul Play, Icy Wind, Knock Off, Last Resort, Sleep Talk, Snatch, Snore, Spite, Trick, Wonder Room</td></tr>
+<tr class="a"><td>Shaymin</td><td> Covet, Earth Power, Endeavor, Giga Drain, Last Resort, Seed Bomb, Sleep Talk, Snore, Synthesis, Worry Seed, Zen Headbutt</td></tr>
+<tr><td>Shaymin-S</td><td> Covet, Giga Drain, Last Resort, Seed Bomb, Sleep Talk, Snore, Synthesis, Tailwind, Worry Seed, Zen Headbutt</td></tr>
+<tr class="a"><td>Arceus</td><td> Aqua Tail, Dark Pulse, Draco Meteor, Dragon Pulse, Earth Power, Giga Drain, Gravity, Heat Wave, Hyper Voice, Icy Wind, Iron Defense, Iron Head, Iron Tail, Last Resort, Magic Coat, Outrage, Recycle, Signal Beam, Sleep Talk, Snore, Stealth Rock, Tailwind, Trick, Zen Headbutt</td></tr>
+</table>
+<h2><a name="other">Other</a></h2>
+<p>Keldeo is now legal for use, as it has been released.</p>
+<p>Apicot, Ganlon, Liechi, Petaya, and Salac Berry are all now legal for use, as they are obtainable in Join Avenue.</p>
+<p>TM95, Snarl, is now obtainable and can be used by all Pok&eacute;mon capable of learning it.</p>

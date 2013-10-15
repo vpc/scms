@@ -1,0 +1,1354 @@
+[title]
+The Breeding Guide Part I
+[head]
+<meta name="description" content="Everything you need to know about breeding in DP and ADV." />
+[page]
+<div class="author">By <a href="/forums/member.php?u=2412">X-Act</a> and <a href="/forums/member.php?u=1430">Peterko</a>. Art done by <a href="/forums/member.php?u=21701">Macle</a>.</div>
+
+<center><img src="http://www.smogon.com/media/upload/ingame/guides/eggs.png" /></center>
+<ul class="toc">
+    <li>
+        <a href="breeding_guide_part1">Part One of the Breeding Guide</a>
+        <ul>
+            <li><a href="#one">Section One</a>
+				<ul>
+					<li><a href="#1A">Introduction to IVs and Nature</a></li>
+					<li><a href="#1B">Abbreviations Explained</a></li>
+				</ul>
+			</li>
+			<li><a href="#two">Section Two</a>
+				<ul>
+					<li><a href="#2A">How to discover the IVs of your Pokémon</a></li>
+				</ul>
+			</li>
+			<li><a href="#three">Section Three</a>
+				<ul>
+					<li><a href="#3A">How the game provides IVs to an egg</a></li>
+				</ul>
+			</li>
+        </ul>
+    </li>
+	<li><a href="breeding_guide_part2">Part Two of the Breeding Guide</a></li>
+	<li><a href="breeding_guide_part3">Part Three of the Breeding Guide</a></li>
+	<li><a href="breeding_guide_part4">Part Four of the Breeding Guide</a></li>
+</ul>
+
+<h2><a name = "one">SECTION ONE</a></h2>
+<h3><a name = "1A">Introduction to IVs and Nature</a></h3>
+<p>Individual Values, or IVs for short (sometimes also called Diversification Values or DVs) are essentially numbers that act as the Pokémon's "genes." Every Pokémon has a "gene" for each of its stats (HP, Attack, Defense, Special Attack, Special Defense, and Speed), which is a number between 0 and 31. The higher the number, the better that particular stat will be for that Pokémon. The player cannot alter the IVs of any Pokémon in any way. They are set in stone the moment you encounter that Pokémon in the wild, or the moment that Pokémon's egg is given to you.</p>
+
+<p>Since the player cannot change the IVs of his or her Pokémon, the temptation would be not to even bother about IVs. However, IVs are very important, since a good IV may add up to 31 to a particular stat when the Pokémon is at Level 100, and sometimes even more than that, if that stat is being boosted by a favourable nature (see the next paragraph). It also turns out that, while breeding, some IVs of the parents are actually passed to the baby, and so, if the parents already have a few good, or even perfect IVs (31), then the baby would have a chance of inheriting them. Thus, breeding for perfect IVs is not only important, but also possible without cheating, and that is the whole scope of this guide.</p>
+
+<p>In addition, each Pokémon has a nature (sometimes also called personality). Most of these natures modify that Pokémon's stats in some way. There are 25 possible natures. Here is a list of them and what each does to your Pokémon.</p>
+
+<table class="sortable">
+    <thead>
+  <tr>
+   <th>Nature</th>
+   <th>Stat increased by 10%</th>
+   <th>Stat decreased by 10%</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td>Lonely</td>
+   <td>Attack</td>
+   <td>Defense</td>
+  </tr>
+  <tr class = 'a'>
+   <td>Adamant</td>
+   <td>Attack</td>
+   <td>Special Attack</td>
+  </tr>
+  <tr>
+   <td>Naughty</td>
+   <td>Attack</td>
+   <td>Special Defense</td>
+  </tr>
+  <tr class = 'a'>
+   <td>Brave</td>
+   <td>Attack</td>
+   <td>Speed</td>
+  </tr>
+  <tr>
+   <td>Bold</td>
+   <td>Defense</td>
+   <td>Attack</td>
+  </tr>
+  <tr class = 'a'>
+   <td>Impish</td>
+   <td>Defense</td>
+   <td>Special Attack</td>
+  </tr>
+  <tr>
+   <td>Lax</td>
+   <td>Defense</td>
+   <td>Special Defense</td>
+  </tr>
+  <tr class = 'a'>
+   <td>Relaxed</td>
+   <td>Defense</td>
+   <td>Speed</td>
+  </tr>
+  <tr>
+   <td>Modest</td>
+   <td>Special Attack</td>
+   <td>Attack</td>
+  </tr>
+  <tr class = 'a'>
+   <td>Mild</td>
+   <td>Special Attack</td>
+   <td>Defense</td>
+  </tr>
+  <tr>
+   <td>Rash</td>
+   <td>Special Attack</td>
+   <td>Special Defense</td>
+  </tr>
+  <tr class = 'a'>
+   <td>Quiet</td>
+   <td>Special Attack</td>
+   <td>Speed</td>
+  </tr>
+  <tr>
+   <td>Calm</td>
+   <td>Special Defense</td>
+   <td>Attack</td>
+  </tr>
+  <tr class = 'a'>
+   <td>Gentle</td>
+   <td>Special Defense</td>
+   <td>Defense</td>
+  </tr>
+  <tr>
+   <td>Careful</td>
+   <td>Special Defense</td>
+   <td>Special Attack</td>
+  </tr>
+  <tr class = 'a'>
+   <td>Sassy</td>
+   <td>Special Defense</td>
+   <td>Speed</td>
+  </tr>
+  <tr>
+   <td>Timid</td>
+   <td>Speed</td>
+   <td>Attack</td>
+  </tr>
+  <tr class = 'a'>
+   <td>Hasty</td>
+   <td>Speed</td>
+   <td>Defense</td>
+  </tr>
+  <tr>
+   <td>Jolly</td>
+   <td>Speed</td>
+   <td>Special Attack</td>
+  </tr>
+  <tr class = 'a'>
+   <td>Naive</td>
+   <td>Speed</td>
+   <td>Special Defense</td>
+  </tr>
+  <tr>
+   <td>Hardy</td>
+   <td>None</td>
+   <td>None</td>
+  </tr>
+  <tr class = 'a'>
+   <td>Bashful</td>
+   <td>None</td>
+   <td>None</td>
+  </tr>
+  <tr>
+   <td>Docile</td>
+   <td>None</td>
+   <td>None</td>
+  </tr>
+  <tr class = 'a'>
+   <td>Quirky</td>
+   <td>None</td>
+   <td>None</td>
+  </tr>
+  <tr>
+   <td>Serious</td>
+   <td>None</td>
+   <td>None</td>
+  </tr>
+ </tbody>
+</table>
+
+<p>If you want your Pokémon to have the highest speed possible, for example, you'll want it to have a 31 Speed IV and a nature that boosts Speed. This guide will also show you how to breed such a Pokémon.</p>
+
+<h3><a name = "1B">Abbreviations Explained</a></h3>
+
+<p>If you find a group of letters, or one letter, it means that what follows works only for the games referred by those letters. The letters stand for the following:</p>
+
+<table class="sortable">
+ <thead>
+  <tr>
+   <th>Abbreviation</th>
+   <th>Game</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td>R</td>
+   <td>Pokémon Ruby</td>
+  </tr>
+  <tr class = 'a'>
+   <td>S</td>
+   <td>Pokémon Sapphire</td>
+  </tr>
+  <tr>
+   <td>FR</td>
+   <td>Pokémon Fire Red</td>
+  </tr>
+  <tr class = 'a'>
+   <td>LG</td>
+   <td>Pokémon Leaf Green</td>
+  </tr>
+  <tr>
+   <td>E</td>
+   <td>Pokémon Emerald</td>
+  </tr>
+  <tr class = 'a'>
+   <td>D</td>
+   <td>Pokémon Diamond</td>
+  </tr>
+  <tr>
+   <td>P</td>
+   <td>Pokémon Pearl</td>
+  </tr>
+<tr class = 'a'>
+   <td>Pt</td>
+   <td>Pokémon Platinum</td>
+  </tr>
+  <tr>
+   <td>HGSS</td>
+   <td>Pokémon HeartGold and SoulSilver</td>
+  </tr>
+ </tbody>
+</table>
+
+<h2><a name = "two">SECTION TWO</a></h2>
+
+<h3><a name = "2A">How to discover the IVs of your Pokémon</a></h3>
+
+<p>You might think that the IVs of a Pokémon can be found rather easily among that particular Pokémon's stats. The truth is, the game conceals the IVs of your Pokémon, and rather well at that. So how can we discover the IVs of our Pokémon?</p>
+
+<h4>1. Estimation</h4>
+
+<p>When you breed a Pokémon and the Egg hatches, the Pokémon will hatch at Level 5. (In DPP, it hatches at Level 1. To make it Level 5, give it 4 Rare Candies.) Even at this low level, you can have a rough estimate of your IVs by looking at the babies' stats if you know the base stats of that Pokémon.</p>
+
+<p>First of all, let <var>a</var> be the base stat without its last digit, and <var>b</var> be the last digit of this base stat. For example, if the base stat is 105, then <var>a</var> = 10 and <var>b</var> = 5.</p>
+
+<p>Now, at Level 5, if a particular stat is unaffected by the Pokémon's nature, that stat always has the following minimum and maximum numbers:</p>
+
+<dl>
+<dt>If the stat is not HP:</dt>
+<dd>
+<pre>Minimum stat is <var>a</var> + 5
+Maximum stat is <var>a</var> + 6, if <var>b</var> is between 0 and 4
+Maximum stat is <var>a</var> + 7, if <var>b</var> is between 5 and 9</pre>
+</dd>
+<dt>If the stat is HP</dt>
+<dd>
+<pre>Minimum stat is <var>a</var> + 15
+Maximum stat is <var>a</var> + 16, if <var>b</var> is between 0 and 4
+Maximum stat is <var>a</var> + 17, if <var>b</var> is between 5 and 9</pre>
+</dd>
+</dl>
+
+<p>If the stat is boosted by the Pokémon's nature and the stats above has more than one digit, add the first digit of that stat to it. For example, if the minimum stat calculated above is 8, then it stays 8. If, however, it is 16, add 1 (the first digit of 16) to 16, becoming 17.</p>
+
+<p>If the stat is hindered by the Pokémon's nature, first subtract the stat by 1. Then, if that resulting number has more than one digit, subtract it further by the first digit of that stat. For example, if the maximum stat calculated above is 10, then subtract 1 from it, becoming 9. Since 9 is a one-digit number, it stays 9. If, in another example, the maximum stat calculated above was 13, then subtract 1 from it, becoming 12. Since 12 is a two-digit number, we subtract it further by 1 (the first digit of 12), becoming 11.</p>
+
+<p>Also, if your Pokémon has a maximum stat at Level 5, then:</p>
+
+<pre>If <var>b</var> is between 0 and 4, then the IV for that stat is between 20 - 2×<var>b</var> and 31.
+If <var>b</var> is between 5 and 9, then the IV for that stat is between 40 - 2×<var>b</var> and 31.</pre>
+
+<p>The above information can be used to see roughly if the Pokémon's IVs are bad, so that you can release it immediately if they are not good enough before proceeding to find the IVs more exactly.</p>
+
+<p>Let's give an example. Suppose you have bred a Magikarp, and want to check if your Speed stat has a good IV or not. Let's assume that your Magikarp has a Jolly nature.</p>
+
+<p>Magikarp's base Speed stat is 80. In our case, <var>a</var> = 8 and <var>b</var> = 0. So the minimum speed stat is 8 + 5 = 13. Since the stat is boosted by Jolly, we add 1 (first digit of 13) to 13, becoming 14. The maximum speed stat is 8 + 6 = 14. Again, since the stat is boosted by Jolly, we add 1 (first digit of 14) to 14, becoming 15. So, if the Magikarp's speed stat is 14, you can dismiss that Magikarp out of hand.</p>
+
+<p>If the Magikarp has a maximum Speed stat of 15, then its IVs are in the range 20 – 2×0 and 31, i.e. between 20 and 31.</p>
+
+<p>Let's give another example. Suppose you breed a Timid Treecko and you want it to have a high Special Attack stat. Treecko's base Special Attack is 65, so <var>a</var> = 6 and <var>b</var> = 5.</p>
+
+<p>Its minimum special attack stat at level 5 is thus 6 + 5 = 11. Its maximum special attack stat is 6 + 7 = 13.</p>
+
+<p>If your newborn Treecko has a special attack stat 11 or 12, then you dismiss it. If it has a Special Attack stat of 13, it means that its Special Attack IV is between 40 – 2×5 and 31; i.e. between 30 and 31 – a very good IV indeed.</p>
+
+<p>The maximum stats of all the bred Pokémon at Level 5 can also be found in Part II, Section 5 of this breeding guide, for a quicker reference.</p>
+
+<h4>2. The Battle Frontier IV guy (only in E)</h4>
+
+<p>In Emerald, you can check your IVs by speaking to a man who lives in a house just above the Pokémon Center of the Battle Frontier. He will give you an overall judgment of all the IVs and the best IV of one of your Pokémon.</p>
+
+<p>He will say the following:</p>
+
+<p><em>"Ah, youngster! Do your Pokémon's abilities intrigue you? Here, here! Let's have a look at your Pokémon!"</em></p>
+
+<p>You then choose the Pokémon that you need its IVs checked. He will then say:</p>
+
+<p><em>"...Hmm...This one, overall, ..."</em></p>
+
+<p>and then one of the following four:</p>
+
+<table class="sortable">
+ <thead>
+  <tr>
+   <th>If the man says</th>
+   <th>Total of the six IVs is</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td><em>"I would describe as being of average ability."</em></td>
+   <td>Between 0 and 90</td>
+  </tr>
+  <tr class = 'a'>
+   <td><em>"I would describe as having better-than-average ability."</em></td>
+   <td>Between 91 and 120</td>
+  </tr>
+  <tr>
+   <td><em>"I would say is quite impressive in ability!"</em></td>
+   <td>Between 121 and 150</td>
+  </tr>
+  <tr class = 'a'>
+   <td><em>"I would say is wonderfully outstanding in ability!"</em></td>
+   <td>Between 151 and 186</td>
+  </tr>
+ </tbody>
+</table>
+
+<p>Then the man will proceed to mention the best IV that Pokémon possesses. If it has more than one best IV, this will be random. Talking to the man repeatedly will make him speak about the other equally best stats.</p>
+
+<p><em>"Incidentally, the best aspect of it, I would say, is its </em>(HP / ATTACK / DEFENSE / SPECIAL ATTACK / SPECIAL DEFENSE / SPEED)<em> ..."</em></p>
+
+<p>He then gives a judgment about that IV alone:</p>
+
+<table class="sortable">
+ <thead>
+  <tr>
+   <th>If the man says</th>
+   <th>The best IV is</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td><em>"That stat is relatively good."</em></td>
+   <td>Between 0 and 15</td>
+  </tr>
+  <tr class = 'a'>
+   <td><em>"That stat is quite impressive."</em></td>
+   <td>Between 16 and 25</td>
+  </tr>
+  <tr>
+   <td><em>"That stat is outstanding!"</em></td>
+   <td>Between 26 and 30</td>
+  </tr>
+  <tr class = 'a'>
+   <td><em>"It's flawless! A thing of perfection!"</em></td>
+   <td>31</td>
+  </tr>
+ </tbody>
+</table>
+
+<p>The man will then finish up his monologue with the words: <em>"...Hm... That's how I call it."</em></p>
+
+<p>This Emerald feature is very handy to check if your Pokémon has a perfect IV.</p>
+
+<h4>3. IV calculator</h4>
+
+<p>If you prefer to just enter your stats in an IV calculator for it to work out the IVs for you, there are a few online programs that do just that. In such IV calculators, you usually input the stats of your Pokémon as you level it up with a few Rare Candies, and the program finds the IVs of your Pokémon for you. Refer to the particular IV calculator you're using for more information.</p>
+
+<h4>4. Wi-Fi IV battles (DPP and HGSS only)</h4>
+
+<p>In fourth generation games only, if you battle against someone using the Wi-Fi connection, you can select an option to scale your battling Pokémon to Level 100. When this option is chosen, their stats are automatically calculated for Level 100, even though the Pokémon itself may not be a Level 100 one. This feature allows you to find the exact IVs of up to six of your Pokémon that have not yet battled, because, at Level 100, the IVs of the Pokémon can be calculated exactly in the vast majority of cases.</p>
+
+<p>First, find a friend who is willing to let you check the IVs of all your Pokémon. (He or she might also want to do the same thing with his or her Pokémon.) Connect with him for a battle, and write down the stats of your Pokémon. When you're ready, you and your friend simply run from the battle, and the battle ends.</p>
+
+<p>Then, for each of the six stats of the Pokémon, given that</p>
+
+<pre>
+<var>S</var> is the Pokémon's stat at Level 100
+<var>B</var> is the base stat for that particular stat
+<var>N</var> is 110 if the stat is HP, and 5 otherwise
+<var>P</var> is 9 if the Pokémon's nature is hindering the stat, 11 if it is boosting it, and 10 otherwise
+ceil(<var>x</var>) is <var>x</var> rounded up, for example ceil(4.1) = 5 and ceil(4) = 4</pre>
+
+<p>then the IV can be found by the following formula:</p>
+
+<pre>IV = ceil(<var>S</var> × 10 ÷ <var>P</var>) - (2 × <var>B</var> + <var>N</var>)</pre>
+
+<p>However, if <var>P</var> = 9 and <var>S</var> is exactly divisible by 9, the IV cannot be found exactly, since it can be one of two possibilities: either the value given by the above formula, or 1 more than that. This is the only case where an IV cannot be determined exactly. To quickly check if a stat is divisible by 9, sum up its digits, and if this summation is divisible by 9, then the original number is also divisible by 9. For example, 288 is divisible by 9, since 2 + 8 + 8 = 18, which is divisible by 9.</p>
+
+<p>For example, suppose you have just bred a Modest Chimchar which hasn't battled yet, and you want to know its IVs. Let's say that the level 100 stats that were noted during the Wi-Fi battle were the following:</p>
+
+<table class="sortable">
+ <thead>
+  <tr>
+   <th>HP Stat</th>
+   <th>Atk Stat</th>
+   <th>Def Stat</th>
+   <th>SpA Stat</th>
+   <th>SpD Stat</th>
+   <th>Spe Stat</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td>210</td>
+   <td>127</td>
+   <td>97</td>
+   <td>167</td>
+   <td>102</td>
+   <td>153</td>
+  </tr>
+ </tbody>
+</table>
+<p>Chimchar's Base Stats are:</p>
+<table class="sortable">
+ <thead>
+  <tr>
+   <th>Base HP</th>
+   <th>Base Atk</th>
+   <th>Base Def</th>
+   <th>Base SpA</th>
+   <th>Base SpD</th>
+   <th>Base Spe</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td>44</td>
+   <td>58</td>
+   <td>44</td>
+   <td>58</td>
+   <td>44</td>
+   <td>61</td>
+  </tr>
+ </tbody>
+</table>
+
+<p>Chimchar's nature is Modest, so its Attack is hindered and its Special Attack is boosted. Note also that the hindered stat, Attack, is 127, which is not divisible by 9 (1 + 2 + 7 = 10).</p>
+
+<p>The IVs are thus calculated as follows:</p>
+
+<pre>
+ HP IV = ceil(210 × 10 ÷ 10) - (2 × 44 + 110) = <strong>12</strong>
+Atk IV = ceil(127 × 10 ÷ 9) - (2 × 58 + 5) = <strong>21</strong>
+Def IV = ceil(97 × 10 ÷ 10) - (2 × 44 + 5) = <strong>4</strong>
+SpA IV = ceil(167 × 10 ÷ 11) - (2 × 58 + 5) = <strong>31</strong>
+SpD IV = ceil(102 × 10 ÷ 10) - (2 × 44 + 5) = <strong>9</strong>
+Spe IV = ceil(153 × 10 ÷ 10) - (2 × 61 + 5) = <strong>26</strong>
+</pre>
+
+<h4>5. Pokémon Characteristics (DPP and HGSS only)</h4>
+
+<p>This method does not provide the player with all of the Pokémon's IVs, but it does shed a very accurate light on the value of the highest IV of the Pokémon at a glance, which is very useful when breeding for 31 IVs in a particular stat. It is also useful when mass catching Ditto in DPP (refer to part II of the breeding guide) since it provides a quick way of knowing if a Pokémon's highest IV is not 31.</p>
+
+<p>DP introduced Pokémon characteristics, which is a short phrase that provides an idea on which is the stat with the highest IV of that Pokémon, as well as a rough estimate of how high it is. The following table lists all the Pokémon characteristics, together with their meaning:</p>
+
+<table class="sortable">
+ <thead>
+  <tr>
+   <th>Characteristic</th>
+   <th>Stat with the highest IV</th>
+   <th>Last digit of that IV</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td>Loves to eat</td>
+   <td>HP</td>
+   <td>0 or 5</td>
+  </tr>
+  <tr class = 'a'>
+   <td><strong>Often dozes off</strong></td>
+   <td>HP</td>
+   <td>1 or 6</td>
+  </tr>
+  <tr>
+   <td>Often scatters things</td>
+   <td>HP</td>
+   <td>2 or 7</td>
+  </tr>
+  <tr class = 'a'>
+   <td>Scatters things often</td>
+   <td>HP</td>
+   <td>3 or 8</td>
+  </tr>
+  <tr>
+   <td>Likes to relax</td>
+   <td>HP</td>
+   <td>4 or 9</td>
+  </tr>
+  <tr class = 'a'>
+   <td>Proud of its power</td>
+   <td>Attack</td>
+   <td>0 or 5</td>
+  </tr>
+  <tr>
+   <td><strong>Likes to thrash about</strong></td>
+   <td>Attack</td>
+   <td>1 or 6</td>
+  </tr>
+  <tr class = 'a'>
+   <td>A little quick tempered</td>
+   <td>Attack</td>
+   <td>2 or 7</td>
+  </tr>
+  <tr>
+   <td>Likes to fight</td>
+   <td>Attack</td>
+   <td>3 or 8</td>
+  </tr>
+  <tr class = 'a'>
+   <td>Quick tempered</td>
+   <td>Attack</td>
+   <td>4 or 9</td>
+  </tr>
+  <tr>
+   <td>Sturdy body</td>
+   <td>Defense</td>
+   <td>0 or 5</td>
+  </tr>
+  <tr class = 'a'>
+   <td><strong>Capable of taking hits</strong></td>
+   <td>Defense</td>
+   <td>1 or 6</td>
+  </tr>
+  <tr>
+   <td>Highly persistent</td>
+   <td>Defense</td>
+   <td>2 or 7</td>
+  </tr>
+  <tr class = 'a'>
+   <td>Good endurance</td>
+   <td>Defense</td>
+   <td>3 or 8</td>
+  </tr>
+  <tr>
+   <td>Good perseverance</td>
+   <td>Defense</td>
+   <td>4 or 9</td>
+  </tr>
+  <tr class = 'a'>
+   <td>Highly curious</td>
+   <td>Special Attack</td>
+   <td>0 or 5</td>
+  </tr>
+  <tr>
+   <td><strong>Mischievous</strong></td>
+   <td>Special Attack</td>
+   <td>1 or 6</td>
+  </tr>
+  <tr class = 'a'>
+   <td>Thoroughly cunning</td>
+   <td>Special Attack</td>
+   <td>2 or 7</td>
+  </tr>
+  <tr>
+   <td>Often lost in thought</td>
+   <td>Special Attack</td>
+   <td>3 or 8</td>
+  </tr>
+  <tr class = 'a'>
+   <td>Very finicky</td>
+   <td>Special Attack</td>
+   <td>4 or 9</td>
+  </tr>
+  <tr>
+   <td>Strong willed</td>
+   <td>Special Defense</td>
+   <td>0 or 5</td>
+  </tr>
+  <tr class = 'a'>
+   <td><strong>Somewhat vain</strong></td>
+   <td>Special Defense</td>
+   <td>1 or 6</td>
+  </tr>
+  <tr>
+   <td>Strongly defiant</td>
+   <td>Special Defense</td>
+   <td>2 or 7</td>
+  </tr>
+  <tr class = 'a'>
+   <td>Hates to lose</td>
+   <td>Special Defense</td>
+   <td>3 or 8</td>
+  </tr>
+  <tr>
+   <td>Somewhat stubborn</td>
+   <td>Special Defense</td>
+   <td>4 or 9</td>
+  </tr>
+  <tr class = 'a'>
+   <td>Likes to run</td>
+   <td>Speed</td>
+   <td>0 or 5</td>
+  </tr>
+  <tr>
+   <td><strong>Alert to sounds</strong></td>
+   <td>Speed</td>
+   <td>1 or 6</td>
+  </tr>
+  <tr class = 'a'>
+   <td>Impetuous and silly</td>
+   <td>Speed</td>
+   <td>2 or 7</td>
+  </tr>
+  <tr>
+   <td>Somewhat of a clown</td>
+   <td>Speed</td>
+   <td>3 or 8</td>
+  </tr>
+  <tr class = 'a'>
+   <td>Quick to flee</td>
+   <td>Speed</td>
+   <td>4 or 9</td>
+  </tr>
+ </tbody>
+</table>
+
+<p>So if a Pokémon's IVs, for example, are 20, 13, 6, 19, 25, and 19 (in the order HP, Attack, Defense, Special Attack, Special Defense, and Speed), then its characteristic would be "Strong willed" (the highest IV is in the Special Defense stat and its last digit is 5). If there are two or more equal highest IVs, the characteristic for that Pokémon will be for one of those stats at random. So, if, for example, another Pokémon's IVs are 24, 31, 17, 8, 0, and 31, then the Pokémon's characteristic will either be "Likes to thrash about" or "Alert to sounds."</p>
+
+<p>As you can see, if the characteristic of a Pokémon is not one of the 6 marked in bold, then that Pokémon is sure not to have a 31 IV in any of the stats, and can be immediately released while breeding. Of course, if it is one of the bolded six characteristics, you still need to check that it is indeed 31, but the value of the stat itself after the Pokémon is given a few Rare Candies usually tells you immediately whether it is 31 or not.</p>
+
+<p>This makes it much easier to check for 31 IVs in stats, which is a very important shortcut when breeding in DPP. Unfortunately, the Pokémon characteristics are of little use to calculate the remaining 5 IVs of the Pokémon, so you'll still need to use one of the previously mentioned methods to discover them.</p>
+
+<h2><a name = "three">SECTION THREE</a></h2>
+
+<h3><a name = "3A">How the game provides IVs to an Egg</a></h3>
+
+<p>Before we start our breeding guide proper, you need to be informed of how exactly the game assigns the IVs to a baby. This actually differs from game to game.</p>
+
+<h4>IV Breeding in EDP</h4>
+
+<p>The IVs for the baby are first created at random. Then, a random IV from either parent is inherited to the baby. Then, any random IV except an HP IV is selected from either parent and is passed to the baby. Finally, any random IV except an HP or Defense IV is selected from either parent and passed to the baby. These three random IVs may overlap, that is, the same random IV can be chosen to be inherited in the second, or third, IV transfer.</p>
+
+<p>Let's give an example. Suppose Parent A and Parent B have the following IVs. Here, we also display the baby's IVs next to those of its parents:</p>
+
+<table class="sortable">
+ <thead>
+  <tr>
+   <th colspan="6">Parent A IVs</th>
+   <th class="min_width">&nbsp;</th>
+   <th colspan="6">Parent B IVs</th>
+   <th class="min_width">&nbsp;</th>
+   <th colspan="6">Baby IVs</th>
+  </tr>
+  <tr>
+   <th>HP</th>
+   <th>Atk</th>
+   <th>Def</th>
+   <th>SpA</th>
+   <th>SpD</th>
+   <th>Spe</th>
+   <th>&nbsp;</th>
+   <th>HP</th>
+   <th>Atk</th>
+   <th>Def</th>
+   <th>SpA</th>
+   <th>SpD</th>
+   <th>Spe</th>
+   <th>&nbsp;</th>
+   <th>HP</th>
+   <th>Atk</th>
+   <th>Def</th>
+   <th>SpA</th>
+   <th>SpD</th>
+   <th>Spe</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td>21</td>
+   <td>7</td>
+   <td>26</td>
+   <td>15</td>
+   <td>4</td>
+   <td>10</td>
+   <td>&nbsp;</td>
+   <td>5</td>
+   <td>3</td>
+   <td>16</td>
+   <td>30</td>
+   <td>28</td>
+   <td>20</td>
+   <td>&nbsp;</td>
+   <td>-</td>
+   <td>-</td>
+   <td>-</td>
+   <td>-</td>
+   <td>-</td>
+   <td>-</td>
+  </tr>
+ </tbody>
+</table>
+
+<p>First, the baby's IVs are generated at random:</p>
+
+<table class="sortable">
+ <thead>
+  <tr>
+   <th colspan="6">Parent A IVs</th>
+   <th class="min_width">&nbsp;</th>
+   <th colspan="6">Parent B IVs</th>
+   <th class="min_width">&nbsp;</th>
+   <th colspan="6">Baby IVs</th>
+  </tr>
+  <tr>
+   <th>HP</th>
+   <th>Atk</th>
+   <th>Def</th>
+   <th>SpA</th>
+   <th>SpD</th>
+   <th>Spe</th>
+   <th>&nbsp;</th>
+   <th>HP</th>
+   <th>Atk</th>
+   <th>Def</th>
+   <th>SpA</th>
+   <th>SpD</th>
+   <th>Spe</th>
+   <th>&nbsp;</th>
+   <th>HP</th>
+   <th>Atk</th>
+   <th>Def</th>
+   <th>SpA</th>
+   <th>SpD</th>
+   <th>Spe</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td>21</td>
+   <td>7</td>
+   <td>26</td>
+   <td>15</td>
+   <td>4</td>
+   <td>10</td>
+   <td>&nbsp;</td>
+   <td>5</td>
+   <td>3</td>
+   <td>16</td>
+   <td>30</td>
+   <td>28</td>
+   <td>20</td>
+   <td>&nbsp;</td>
+   <td>18</td>
+   <td>0</td>
+   <td>9</td>
+   <td>14</td>
+   <td>11</td>
+   <td>27</td>
+  </tr>
+ </tbody>
+</table>
+
+<p>Then a parent's random IV is chosen, and passed to the baby. Suppose Parent A's Speed IV is chosen first. So now the baby's IVs are: </p>
+
+<table class="sortable">
+ <thead>
+  <tr>
+   <th colspan="6">Parent A IVs</th>
+   <th class="min_width">&nbsp;</th>
+   <th colspan="6">Parent B IVs</th>
+   <th class="min_width">&nbsp;</th>
+   <th colspan="6">Baby IVs</th>
+  </tr>
+  <tr>
+   <th>HP</th>
+   <th>Atk</th>
+   <th>Def</th>
+   <th>SpA</th>
+   <th>SpD</th>
+   <th>Spe</th>
+   <th>&nbsp;</th>
+   <th>HP</th>
+   <th>Atk</th>
+   <th>Def</th>
+   <th>SpA</th>
+   <th>SpD</th>
+   <th>Spe</th>
+   <th>&nbsp;</th>
+   <th>HP</th>
+   <th>Atk</th>
+   <th>Def</th>
+   <th>SpA</th>
+   <th>SpD</th>
+   <th>Spe</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td>21</td>
+   <td>7</td>
+   <td>26</td>
+   <td>15</td>
+   <td>4</td>
+   <td><strong>10</strong></td>
+   <td>&nbsp;</td>
+   <td>5</td>
+   <td>3</td>
+   <td>16</td>
+   <td>30</td>
+   <td>28</td>
+   <td>20</td>
+   <td>&nbsp;</td>
+   <td>18</td>
+   <td>0</td>
+   <td>9</td>
+   <td>14</td>
+   <td>11</td>
+   <td><strong>10</strong></td>
+  </tr>
+ </tbody>
+</table>
+
+<p>Then a parent's random IV (other than an HP IV) is chosen, and passed to the baby. Suppose Parent A's Defense IV is chosen:</p>
+
+<table class="sortable">
+ <thead>
+  <tr>
+   <th colspan="6">Parent A IVs</th>
+   <th class="min_width">&nbsp;</th>
+   <th colspan="6">Parent B IVs</th>
+   <th class="min_width">&nbsp;</th>
+   <th colspan="6">Baby IVs</th>
+  </tr>
+  <tr>
+   <th>HP</th>
+   <th>Atk</th>
+   <th>Def</th>
+   <th>SpA</th>
+   <th>SpD</th>
+   <th>Spe</th>
+   <th>&nbsp;</th>
+   <th>HP</th>
+   <th>Atk</th>
+   <th>Def</th>
+   <th>SpA</th>
+   <th>SpD</th>
+   <th>Spe</th>
+   <th>&nbsp;</th>
+   <th>HP</th>
+   <th>Atk</th>
+   <th>Def</th>
+   <th>SpA</th>
+   <th>SpD</th>
+   <th>Spe</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td>21</td>
+   <td>7</td>
+   <td><strong>26</strong></td>
+   <td>15</td>
+   <td>4</td>
+   <td><strong>10</strong></td>
+   <td>&nbsp;</td>
+   <td>5</td>
+   <td>3</td>
+   <td>16</td>
+   <td>30</td>
+   <td>28</td>
+   <td>20</td>
+   <td>&nbsp;</td>
+   <td>18</td>
+   <td>0</td>
+   <td><strong>26</strong></td>
+   <td>14</td>
+   <td>11</td>
+   <td><strong>10</strong></td>
+  </tr>
+ </tbody>
+</table>
+
+<p>Finally, a parent's random IV (other than an HP or a Defense IV) is chosen, and inherited to the baby. Suppose Parent B's Special Attack IV is chosen. Thus, the baby IVs finally become:</p>
+
+<table class="sortable">
+ <thead>
+  <tr>
+   <th colspan="6">Parent A IVs</th>
+   <th class="min_width">&nbsp;</th>
+   <th colspan="6">Parent B IVs</th>
+   <th class="min_width">&nbsp;</th>
+   <th colspan="6">Baby IVs</th>
+  </tr>
+  <tr>
+   <th>HP</th>
+   <th>Atk</th>
+   <th>Def</th>
+   <th>SpA</th>
+   <th>SpD</th>
+   <th>Spe</th>
+   <th>&nbsp;</th>
+   <th>HP</th>
+   <th>Atk</th>
+   <th>Def</th>
+   <th>SpA</th>
+   <th>SpD</th>
+   <th>Spe</th>
+   <th>&nbsp;</th>
+   <th>HP</th>
+   <th>Atk</th>
+   <th>Def</th>
+   <th>SpA</th>
+   <th>SpD</th>
+   <th>Spe</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td>21</td>
+   <td>7</td>
+   <td><strong>26</strong></td>
+   <td>15</td>
+   <td>4</td>
+   <td><strong>10</strong></td>
+   <td>&nbsp;</td>
+   <td>5</td>
+   <td>3</td>
+   <td>16</td>
+   <td><strong>30</strong></td>
+   <td>28</td>
+   <td>20</td>
+   <td>&nbsp;</td>
+   <td>18</td>
+   <td>0</td>
+   <td><strong>26</strong></td>
+   <td><strong>30</strong></td>
+   <td>11</td>
+   <td><strong>10</strong></td>
+  </tr>
+ </tbody>
+</table>
+
+<p>Note that the amount of IVs passed from the parents will not always appear to be 3, for the following two reasons. Firstly, the random baby IVs created at the start might match some of the IVs of the parents, which would seem as if the baby got passed more than 3 IVs. Secondly, two or three of the IVs passed to the baby might be in the same stat, which would seem as if the baby got passed less than 3 IVs.</p>
+
+<p>This means that, while it may appear that the baby will inherit between 1 and 6 IVs from the parents, in actuality both parents will always pass a total of 3 IVs. The chances are as follows:</p>
+
+<table class="sortable">
+ <thead>
+  <tr>
+   <th>Number of IVs inherited</th>
+   <th>Percentage chance of being inherited</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td>1</td>
+   <td>2.44%</td>
+  </tr>
+  <tr class = 'a'>
+   <td>2</td>
+   <td>34.41%</td>
+  </tr>
+  <tr>
+   <td>3</td>
+   <td>53.01%</td>
+  </tr>
+  <tr class = 'a'>
+   <td>4</td>
+   <td>9.55%</td>
+  </tr>
+  <tr>
+   <td>5</td>
+   <td>0.58%</td>
+  </tr>
+  <tr class = 'a'>
+   <td>6</td>
+   <td>0.01%</td>
+  </tr>
+ </tbody>
+</table>
+
+<p>The majority of Eggs (about 8 out of 9 Eggs) will have 2 or 3 IVs transferred from the parents.</p>
+
+<p>HP and Defense IVs are harder to inherit from the parents than the other IVs. This is different from the other games (see IV Breeding in RSEFRLG), where each IV has the same percentage of being transferred to the baby (16.67%). The percentages for Emerald (and DPP) are as follows (considering also the fact that the random IVs generated for the baby can end up to be the same as that of one of the parent's IVs):</p>
+
+<table class="sortable">
+ <thead>
+  <tr>
+   <th>Stat</th>
+   <th>Probability of that Stat's IV to be inherited</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td>HP</td>
+   <td>8.02%</td>
+  </tr>
+  <tr class = 'a'>
+   <td>Atk</td>
+   <td>19.55%</td>
+  </tr>
+  <tr>
+   <td>Def</td>
+   <td>13.78%</td>
+  </tr>
+  <tr class = 'a'>
+   <td>SpA</td>
+   <td>19.55%</td>
+  </tr>
+  <tr>
+   <td>SpD</td>
+   <td>19.55%</td>
+  </tr>
+  <tr class = 'a'>
+   <td>Spe</td>
+   <td>19.55%</td>
+  </tr>
+ </tbody>
+</table>
+
+<p>This means that in EDP, the Attack, Speed, Special Attack, and Special Defense IVs have a better probability of being passed to the baby than in RSEFRLG, while the HP and Defense IVs have a worse probability of being passed to the baby than in RSEFRLG.</p>
+
+<h4>2. IV Breeding in RSEFRLG</h4>
+
+<p>The IVs for the baby are first created at random. Then, three random IVs from either parent are successively inherited to the baby. These three random IVs may not overlap, that is, the same random IV cannot be chosen to be inherited in the second, or third, IV transfer.</p>
+
+<p>Let's give an example to make things clearer. Suppose the parents have the same IVs as before. Let's recapitulate:</p>
+
+<table class="sortable">
+ <thead>
+  <tr>
+   <th colspan="6">Parent A IVs</th>
+   <th class="min_width">&nbsp;</th>
+   <th colspan="6">Parent B IVs</th>
+   <th class="min_width">&nbsp;</th>
+   <th colspan="6">Baby IVs</th>
+  </tr>
+  <tr>
+   <th>HP</th>
+   <th>Atk</th>
+   <th>Def</th>
+   <th>SpA</th>
+   <th>SpD</th>
+   <th>Spe</th>
+   <th>&nbsp;</th>
+   <th>HP</th>
+   <th>Atk</th>
+   <th>Def</th>
+   <th>SpA</th>
+   <th>SpD</th>
+   <th>Spe</th>
+   <th>&nbsp;</th>
+   <th>HP</th>
+   <th>Atk</th>
+   <th>Def</th>
+   <th>SpA</th>
+   <th>SpD</th>
+   <th>Spe</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td>21</td>
+   <td>7</td>
+   <td>26</td>
+   <td>15</td>
+   <td>4</td>
+   <td>10</td>
+   <td>&nbsp;</td>
+   <td>5</td>
+   <td>3</td>
+   <td>16</td>
+   <td>30</td>
+   <td>28</td>
+   <td>20</td>
+   <td>&nbsp;</td>
+   <td>-</td>
+   <td>-</td>
+   <td>-</td>
+   <td>-</td>
+   <td>-</td>
+   <td>-</td>
+  </tr>
+ </tbody>
+</table>
+
+<p>First, the baby's IVs are generated at random:</p>
+
+<table class="sortable">
+ <thead>
+  <tr>
+   <th colspan="6">Parent A IVs</th>
+   <th class="min_width">&nbsp;</th>
+   <th colspan="6">Parent B IVs</th>
+   <th class="min_width">&nbsp;</th>
+   <th colspan="6">Baby IVs</th>
+  </tr>
+  <tr>
+   <th>HP</th>
+   <th>Atk</th>
+   <th>Def</th>
+   <th>SpA</th>
+   <th>SpD</th>
+   <th>Spe</th>
+   <th>&nbsp;</th>
+   <th>HP</th>
+   <th>Atk</th>
+   <th>Def</th>
+   <th>SpA</th>
+   <th>SpD</th>
+   <th>Spe</th>
+   <th>&nbsp;</th>
+   <th>HP</th>
+   <th>Atk</th>
+   <th>Def</th>
+   <th>SpA</th>
+   <th>SpD</th>
+   <th>Spe</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td>21</td>
+   <td>7</td>
+   <td>26</td>
+   <td>15</td>
+   <td>4</td>
+   <t
+   ththsortabled>10</td>
+   <td>&nbsp;</td>
+   <td>5</td>
+   <td>3</td>
+   <td>16</td>
+   <td>30</td>
+   <td>28</td>
+   <td>20</td>
+   <td>&nbsp;</td>
+   <td>18</td>
+   <td>0</td>
+   <td>9</td>
+   <td>14</td>
+   <td>11</td>
+   <td>27</td>
+  </tr>
+ </tbody>
+</table>
+
+<p>Then a parent's random IV is chosen, and passed to the baby. This is repeated three times.</p>
+
+<p>Suppose Parent A's Speed IV is chosen first to be inherited:</p>
+
+<table class="sortable">
+ <thead>
+  <tr>
+   <th colspan="6">Parent A IVs</th>
+   <th class="min_width">&nbsp;</th>
+   <th colspan="6">Parent B IVs</th>
+   <th class="min_width">&nbsp;</th>
+   <th colspan="6">Baby IVs</th>
+  </tr>
+  <tr>
+   <th>HP</th>
+   <th>Atk</th>
+   <th>Def</th>
+   <th>SpA</th>
+   <th>SpD</th>
+   <th>Spe</th>
+   <th>&nbsp;</th>
+   <th>HP</th>
+   <th>Atk</th>
+   <th>Def</th>
+   <th>SpA</th>
+   <th>SpD</th>
+   <th>Spe</th>
+   <th>&nbsp;</th>
+   <th>HP</th>
+   <th>Atk</th>
+   <th>Def</th>
+   <th>SpA</th>
+   <th>SpD</th>
+   <th>Spe</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td>21</td>
+   <td>7</td>
+   <td>26</td>
+   <td>15</td>
+   <td>4</td>
+   <td><strong>10</strong></td>
+   <td>&nbsp;</td>
+   <td>5</td>
+   <td>3</td>
+   <td>16</td>
+   <td>30</td>
+   <td>28</td>
+   <td>20</td>
+   <td>&nbsp;</td>
+   <td>18</td>
+   <td>0</td>
+   <td>9</td>
+   <td>14</td>
+   <td>11</td>
+   <td><strong>10</strong></td>
+  </tr>
+ </tbody>
+</table>
+
+<p>Then Parent B's HP IV is chosen to be passed to the baby:</p>
+
+<table class="sortable">
+ <thead>
+  <tr>
+   <th colspan="6">Parent A IVs</th>
+   <th class="min_width">&nbsp;</th>
+   <th colspan="6">Parent B IVs</th>
+   <th class="min_width">&nbsp;</th>
+   <th colspan="6">Baby IVs</th>
+  </tr>
+  <tr>
+   <th>HP</th>
+   <th>Atk</th>
+   <th>Def</th>
+   <th>SpA</th>
+   <th>SpD</th>
+   <th>Spe</th>
+   <th>&nbsp;</th>
+   <th>HP</th>
+   <th>Atk</th>
+   <th>Def</th>
+   <th>SpA</th>
+   <th>SpD</th>
+   <th>Spe</th>
+   <th>&nbsp;</th>
+   <th>HP</th>
+   <th>Atk</th>
+   <th>Def</th>
+   <th>SpA</th>
+   <th>SpD</th>
+   <th>Spe</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td>21</td>
+   <td>7</td>
+   <td>26</td>
+   <td>15</td>
+   <td>4</td>
+   <td><strong>10</strong></td>
+   <td>&nbsp;</td>
+   <td><strong>5</strong></td>
+   <td>3</td>
+   <td>16</td>
+   <td>30</td>
+   <td>28</td>
+   <td>20</td>
+   <td>&nbsp;</td>
+   <td><strong>5</strong></td>
+   <td>0</td>
+   <td>9</td>
+   <td>14</td>
+   <td>11</td>
+   <td><strong>10</strong></td>
+  </tr>
+ </tbody>
+</table>
+
+<p>Finally, Parent B's Defense IV is chosen to be inherited. And the baby's IVs thus become:</p>
+
+<table class="sortable">
+ <thead>
+  <tr>
+   <th colspan="6">Parent A IVs</th>
+   <th class="min_width">&nbsp;</th>
+   <th colspan="6">Parent B IVs</th>
+   <th class="min_width">&nbsp;</th>
+   <th colspan="6">Baby IVs</th>
+  </tr>
+  <tr>
+   <th>HP</th>
+   <th>Atk</th>
+   <th>Def</th>
+   <th>SpA</th>
+   <th>SpD</th>
+   <th>Spe</th>
+   <th>&nbsp;</th>
+   <th>HP</th>
+   <th>Atk</th>
+   <th>Def</th>
+   <th>SpA</th>
+   <th>SpD</th>
+   <th>Spe</th>
+   <th>&nbsp;</th>
+   <th>HP</th>
+   <th>Atk</th>
+   <th>Def</th>
+   <th>SpA</th>
+   <th>SpD</th>
+   <th>Spe</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td>21</td>
+   <td>7</td>
+   <td>26</td>
+   <td>15</td>
+   <td>4</td>
+   <td><strong>10</strong></td>
+   <td>&nbsp;</td>
+   <td><strong>5</strong></td>
+   <td>3</td>
+   <td><strong>16</strong></td>
+   <td>30</td>
+   <td>28</td>
+   <td>20</td>
+   <td>&nbsp;</td>
+   <td><strong>5</strong></td>
+   <td>0</td>
+   <td><strong>16</strong></td>
+   <td>14</td>
+   <td>11</td>
+   <td><strong>10</strong></td>
+  </tr>
+ </tbody>
+</table>
+
+<p>Note that the amount of IVs passed from the parents is, again, not always 3, but this time, there will always be at least 3 IVs that are passed to the baby. As before, though, the random baby IVs created at the start might match some of the IVs of the parents, which would seem as if the baby got passed more than 3 IVs. The chances for each of them happening are these:</p>
+
+<table class="sortable">
+ <thead>
+  <tr>
+   <th>Number of IVs inherited</th>
+   <th>Percentage chance of being inherited</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td>3</td>
+   <td>82.66%</td>
+  </tr>
+  <tr class = 'a'>
+   <td>4</td>
+   <td>16.26%</td>
+  </tr>
+  <tr>
+   <td>5</td>
+   <td>1.06%</td>
+  </tr>
+  <tr class = 'a'>
+   <td>6</td>
+   <td>0.02%</td>
+  </tr>
+ </tbody>
+</table>
+
+<h3>3. Probabilities for IV Breeding</h3>
+
+<p>Now, I think you're asking "What is the probability, given two parents with a few perfect IVs (31) in certain stats, for the baby to obtain those same perfect IVs in those stats?" This question is answered later on, in Part III of this guide. There, a list of all the breeding combinations with their probabilities of inheriting IVs will be given. There is also a handy applet that provides you the probability of breeding a baby with the required IVs, starting from any given parents' IVs. You can then simply compare various methods of getting the desired IVs and save as much time as possible in the breeding process.</p>

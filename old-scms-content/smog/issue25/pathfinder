@@ -1,0 +1,190 @@
+[title]
+A Beginner's Guide to Pathfinder Society
+[head]
+<link href="/media/smog/smog.css" type="text/css" rel="stylesheet" />
+[page]
+<div class="author">By <a href="/forums/member.php?u=46856">vonFiedler</a>. Art by <a href="/forums/member.php?u=66676">Birkal</a>.</div>
+<table id="smogheader">
+<tr>
+<td class="left"><a href="smeargle">« Previous Article</a></td>
+<td class="middle"><a href="/smog/issue25/">Home</a></td>
+<td class="right"><a href="pokemon_biology">Next Article »</a></td>
+</tr>
+</table>
+ 
+<div class="float-right"><img src="/media/upload/smog/issue25/pathfinder.png" alt="compass" /></div>
+<h2>The d20 Roll</h2>
+
+<p>Pathfinder is a d20 game. That means that the success and failure of many actions is determined by rolling a single twenty-sided die. Online, we tend to use a dicebot to ensure fairness and to make rolls simple and easy. The breadth of rules in Pathfinder may seem unnerving at first, but at the heart of every ability is easy addition and simple formulas. Here are a few examples:</p>
+
+<p>A fighter tries to stab a goblin with his sword. This is an attack roll.<br />
+<strong>1d20 + Base Attack Bonus (determined by class level) + Strength Modifier</strong><br />
+The result must meet or beat the Armor Class (AC) of the Goblin.<br />
+<strong>10 + Armor Bonus (based on equipment) + Dexterity Modifier</strong></p>
+
+<p>AC is a type of Difficulty Class. Most d20 rolls have the goal of meeting or beating a DC. Say, for instance, a Rogue wants to pick a lock. That is a skill roll against a DC based on the type of lock.<br />
+<strong>1d20 + Disable Device Ranks + Dexterity Modifier</strong></p>
+
+<p>Saving Throws work the same way. If an enemy Wizard tries to cast Dominate Person on you, his spell has a DC.<br />
+<strong>10 + Spell Level + Intelligence Modifier</strong><br />
+You must beat this DC with your Will saving throw, lest you become enthralled.<br />
+<strong>1d20 + Base Will Save + Wisdom Modifier</strong></p>
+
+<h2>Tips for Building a Character</h2>
+
+<p>The most surefire way to learn how to create a character is to join us in #flamel. There are always friendly players on hand who love to help out. Other than that, we use <a href="http://www.d20pfsrd.com/basics-ability-scores/character-creation">this outline</a> to aid in character creation. I'm not going to expand upon it in any significantly detailed way, but I'll provide a few tips for creating your first Level 1 character. Also, the outline doesn't say it, but you get two Traits at level 1. Check out <a href="https://docs.google.com/document/d/1tnrq5qq78jC1FXc8mnRSNFsZWJ5LQXemK5dxSGwr1u0/edit">this guide</a> I wrote on the subject.</p>
+
+<h3>Ability Scores and Race</h3>
+
+<p>PFS uses a 20 point buy for ability scores as explained in the outline above. Your usual goal is to get 18 in your most favored ability score. This can be done easily by putting a 16 into that score, then taking a race that gives it +2 more.</p>
+
+<p>So which class wants which Ability Score the most?</p>
+
+<ul>
+<li>Alchemist &ndash; Intelligence (With some Dex)</li>
+<li>Barbarian &ndash; Strength (With extra Con)</li>
+<li>Bard &ndash; Charisma (With some Dex &amp; Int)</li>
+<li>Cavalier &ndash; Strength (With some Dex)</li>
+<li>Cleric &ndash; Wisdom</li>
+<li>Druid &ndash; Wisdom (With some Str)</li>
+<li>Fighter &ndash; Strength</li>
+<li>Gunslinger &ndash; Dexterity (With some Cha)</li>
+<li>Inquisitor &ndash; Strength (With some Wis)</li>
+<li>Magus &ndash; Strength (With some Int)</li>
+<li>Monk &ndash; Strength (With some Wis)</li>
+<li>Oracle &ndash; Charisma</li>
+<li>Paladin &ndash; Strength (With some Cha)</li>
+<li>Ranger &ndash; Dexterity (With some Wis)</li>
+<li>Rogue &ndash; Dexterity (With some Cha &amp; Int)</li>
+<li>Sorcerer &ndash; Charisma</li>
+<li>Summoner &ndash; Charisma</li>
+<li>Witch &ndash; Intelligence</li>
+<li>Wizard &ndash; Intelligence</li>
+</ul>
+
+<p>Keep in mind, no class should skimp on Constitution. Every player needs at least 12, if not 14. Also, while you can dip some scores below 10, I'd advise not get reckless with this; certain monsters attack Ability Scores directly.</p>
+
+<h3>Classes and Roles</h3>
+
+<p>Most of the Smogon PFS regulars have multiple characters. Still, everyone has a first. So which one should you pick? For the most part, you should look into each class and pick one which has flavor that you enjoy. However, I can help you narrow your choice down with the concept of roles. There are four common roles in Pathfinder. Damage dealer is not one of them. Every class can (and most should) have a way to deal damage.</p>
+
+<h4>Tank</h4>
+
+<p>The Tank doesn't draw aggro and soak damage like in video games. Rather, a combination of high AC to avoid attacks and high HP make Tanks ideal front combatants. Anything ranging from simple tactics, battlefield controlling spells, and even creative taunting can ensure that the focus stays on the Tank and away from the Caster.</p>
+
+<p>The best tanks are Barbarians, Cavaliers, Fighters, and Paladins. Barbarians have the highest HP, go into fits of rage that increase HP more, and gain damage reduction. Cavaliers have a special ability to challenge foes, which can draw more attention to themselves. Fighters are your bread and butter front line, and are trained to use armor better. Paladins have a wide variety of free damage abilities, and can invest more money into defense.</p>
+
+<p>The following classes can also be used to tank. The Ranger can be a good front line combatant and they have an animal companion that can also tank. However, Rangers tend to make better archers. The Monk is meant to front line and gains bonus AC, great saving throws, and has mobility powers to always be in the thick of battle. However, Monks are very hurt by the inability to wear armor. Summoners are an unorthodox tanking choice, in that they are arcane casters that use a summoned minion to tank. This is still quite effective, however.</p>
+
+<h4>Controller</h4>
+
+<p>While weak at low levels, full arcane casters become near gods in time. They offer vital utility, power, and battlefield control. The three full arcane casters are the Sorcerer, Wizard, and Witch. The Sorcerer learns very few spells and so has less utility, but can cast more spells per day and can do so spontaneously. The Wizard and Witch must prepare spells in the morning, but are able to learn as many spells as they please. While the Sorcerer and Wizard have robust spell lists spanning eight diverse schools of magic, the Witch has a small spell list containing mostly Conjuration, Enchantment, and Necromancy. The Witch makes up for this with hexes, very powerful abilities that can often be used an infinite number of times per day.</p>
+
+<p>The Bard, Magus, and Summoner are weaker arcane casters. However, their spells still make up a chunk of their power. Bards are battlefield control specialists. Their Bardic Performance gives a number of buffs to their allies. Magi are mixed attackers/casters, with a sword in one hand and a spell in the other. Summoner spells generally involve summoning and buffing creatures.</p>
+
+<h4>Skill-Monkey</h4>
+
+<p>Typically, the skill-monkey is concerned with finding and disarming traps, as well as filling in for the rest of the party when it comes to skills. Pathfinder Society includes faction missions which use a wide variety of different skills. This is the role we have the fewest players filling, but it can be a very important role. The king of skill-monkeys is the Rogue. Rogues get the most skills, get bonuses to many great skills, and in particular have bonuses when it comes to trap finding. Bards are also adept at this role, gaining bonuses to knowledge skills and able to use perform skills in place of others. Alchemists can be skill-monkeys as well. They have many skills, high intelligence, and potions for more support.</p>
+
+<h4>Healer</h4>
+
+<p>Unlike in video games, healing is purely an out of combat role. You heal up in between fights in order to be at full HP for the next one. The term healer can mean two things. The first is anyone who can use a Wand of Cure Light Wounds. This includes half the classes: Alchemist, Bard, Cleric, Druid, Inquisitor, Oracle, Paladin, Ranger, and Witch. The second refers to a full divine caster, which offers great buffs and utility just like full arcane casters, though they have very different spell lists. The Cleric and Druid are prepared casters, while the Oracle is spontaneous. Clerics can sacrifice any spell prepared in order to cast a healing spell. Druids have animal companions and can shape shift into animals. Oracles gain powerful abilities called revelations. The Inquisitor is not a full divine caster, but uses a mixture of martial prowess and divine magic.</p>
+
+<h3>That's a Lot of Feats</h3>
+
+<p>Feats are abilities that add to your character. Everyone gets a feat at Level 1. Humans get an extra feat, as do Fighters, but every race and class starts with at least one. For beginners, here are a few feats that I can recommend:</p>
+
+<h4>Power Attack</h4>
+
+<p>If you are going to be doing melee combat, this is absolutely essential. At Level 1, Power Attack gives +2 damage or +3 damage if you are wielding a weapon with two hands. You don't generally get extra damage as you go up in level, so having hard hitters at early levels is vital to surviving difficult fights.</p>
+
+<h4>Toughness</h4>
+
+<p>This feat gives you +1 HP per level. It doesn't sound like much; however, it gives you +3 HP at levels 1-3. This makes it a great Level 1 feat to toughen up a character.</p>
+
+<h4>Weapon Finesse</h4>
+
+<p>This is a must have for any melee character that focuses on dexterity (mainly Rogues). This allows you to use your dexterity modifier instead of strength for your melee attack rolls, so long as you are using a light weapon like a dagger or a rapier. This doesn't add damage, but a Rogue will be using Sneak Attack to make up for that.</p>
+
+<h4>Improved Initiative</h4>
+
+<p>Incredibly simple, this feat adds +4 to your initiative rolls. Those are rolls made at the start of combat to determine who goes first, and getting the jump on your enemies can change the course of a fight. Outside of dexterity, almost nothing else adds to initiative, so this is a feat most players pick up.</p>
+
+<h4>Combat Casting</h4>
+
+<p>Feats for casters is a complicated matter, what with spell schools, metamagic, and numerous feats that require you to pick single favored spells out of hundreds. You'll figure it out easily enough in time, but for now you want a feat that you won't regret later. Toughness and Improved Initiative are both perfectly valid for that, but so is Combat Casting. This feat adds +4 to defensive casting checks, which are made to safely cast a spell even when next an opponent.</p>
+
+<h2>Bring Your Own Wand: Tools for Survival</h2>
+
+<p>The following are all the items you really need for Level 1.</p>
+
+<h3>Armor</h3>
+
+<p>Unless you are a Monk who cannot use any armor, or a Sorcerer, Witch, or Wizard who cannot use any armor without failing spells, you want some sort of Armor. Do not worry about getting the best possible armor; you will get more money later for better armor. If you are using Light Armor, buy Studded Leather. If you are using Medium Armor, buy Scale Mail. If you plan on using Heavy Armor, buy Scale Mail anyway because you can't afford Heavy Armor yet. Hippie Druids need Wooden Armor. Do not purchase Leather Armor just because it has no Armor Check Penalty; -1 is pretty inconsequential and you'll get masterwork armor eventually anyway.</p>
+
+<h3>Melee Weapon</h3>
+
+<p>Everyone but the Monk needs a melee weapon. Not everyone should ever use it; if you have a d6 Hit Die, this should absolutely be a last resort. The Quarterstaff is free and every class can use it. If you are a dedicated melee class, then the choice of weapon is pretty much personal flavor. Unlike Armor, nothing is outside of your purchasing range at character creation, though the Falchion is a bit expensive.</p>
+
+<h3>Ranged Weapon</h3>
+
+<p>This is actually more important for everyone than the melee weapon. Don't tell me that ranged weapons don't fit into your meathead fighter concept. If your concept doesn't involve getting killed by dragons, which fly, then you want a Bow. Slings are free and their ammunition is cheap, and only the Wizard can't use them. The Wizard has to use the Light Crossbow; don't use Heavy Crossbows as they take a full turn to reload. Eventually, everyone should upgrade their Slings to Crossbows or Bows.</p>
+
+<h3>Pathfinder's Kit</h3>
+
+<p>This is from a PFS Companion Book, but most GMs will just let you borrow theirs for this purpose. It costs 12 gold and weighs 22 pounds. "This kit consists of a backpack, a bedroll, a belt pouch, a clay mug, a dagger, two fishhooks, a flint and steel, a sewing needle, a signal whistle, 50 feet of string, 50 feet of thread, a waterskin, a week’s worth of trail rations, and a whetstone. For Small creatures, the weight of a Pathfinder’s kit is 7-1/2 pounds. Leaving the bedroll and rations at camp or on a mount reduces the weight by 12 pounds for Medium creatures and by 3 pounds for Small creatures." So you get multiple forms of holding stuff, survival gear, and a dagger notably (a melee weapon!).</p>
+
+<h3>Light</h3>
+
+<p>I'm a little baffled that the Pathfinder's Kit does not include Torches. You should purchase a few unless you are a caster with the Light spell.</p>
+
+<h3>Divine Focus and Spell Components</h3>
+
+<p>The Alchemist, Magus, and Wizard all get their spell books for free automatically. However, every Divine Caster other than Oracle needs to buy a Divine Focus. So if you are a Cleric, Druid, Inquisitor, Paladin, or Ranger, you need to purchase a Divine Focus. Furthermore, Arcane Casters other than Sorcerer need to buy a spell component pouch. This includes the Bard, Magus, Summoner, and Wizard.</p>
+
+<h3>Lens of Truth</h3>
+
+<p>Here's a super cheap trick that can even pay off at Level 1. Fill up some Cloth Pouches with crushed up Chalk or Flour. Use the thread and needle in your Pathfinder Kit to sew them up, and now you have a splash weapon that reveals anyone who is invisible.</p>
+
+<h3>Swarms!</h3>
+
+<p>Swarms of insects are the most dangerous enemy early in the game (or, hell, even halfway through PFS given the level cap). So how do you hurt swarms if you aren't a caster? Simple, fire! Even with just a torch, you are capable of fighting swarms. Also, consider Alchemical Fire and even lighting lamp oil for tactical purposes.</p>
+
+<h3>Grappling Hook, Rope, and Chains</h3>
+
+<p>Note that not everyone should grab this, not because it is expensive, but because it's heavy. For everyone with a decent Strength however, want to entirely trivialize climbing? Attach a grappling hook to a rope, secure it, and now climbing is easy even with 0 skill ranks and an armor check penalty. Chains weigh and cost more, but are much harder to break.</p>
+
+<h3>Bringing Things Full Circle</h3>
+
+<p>Once you've played through your first scenario, you'll probably have 2 Prestige Points. Those can be spent to purchase any item of up to a value of 750 gold. It's not coincidence that Wands of Cure Light Wounds cost exactly that much. Every player should purchase a wand when able, even if you can't use it. At the start of each scenario, players hand their wands to the nearest healer, who will keep track of their wand charges.</p>
+
+<h2>Action Economy: Fight or Die</h2>
+
+<p>Enemies will almost never waste a turn that could be spent trying to kill you, and yet it's pretty easy for new and even veteran players to waste their turns on frivolous actions that have no effect. We all miss an attack sometimes, but if your Wizard's crossbow clearly can't penetrate that golem's natural armor, why aren't you using that grease spell you prepared?</p>
+
+<p>Yes, I suggested that everyone own and carry a melee and ranged weapon, but keep in mind that these can be really bad options in certain fights for certain classes. Once you've gotten a good gauge for how dangerous a situation is, you may need to start making every turn count. Ask yourself, if I'm trying to hit that thing, do I really have a chance to? Are you flanking to give yourself and an ally a better chance? Are you going to do damage this turn? Will it be significant damage? If not, are you using Power Attack? If you're casting a spell, will it severely hinder the opponent or significantly buff an ally?</p>
+
+<p>There are several ways to always have options in early-game combat. If you are a Sorcerer or Wizard and you already have your Wand of Cure Light Wounds, purchase a Wand of Magic Missile next. It's not much, but it's 2-5 guaranteed damage a turn. Any caster can also invest in scrolls; it only costs 25 gold for a Level 1 spell. Everyone can also take advantage of flasks of Alchemist's Fire. They are ranged touch attacks, so they are easy to hit with, and they deal 1-10 damage over two rounds. This damage can really pile up when multiple players are throwing them at bosses. Holy Water works the same way, but does 2-8 damage to undead, demons, and devils.</p>
+
+<h2>PFS Etiquette</h2>
+
+<p>Please follow these rules. PFS is designed to take four hours, but can stretch out (and, consequently, be less fun) easily on the internet. These rules keep the game brisk, fun, and convenient for people with busy schedules.</p>
+
+<ol>
+<li>If you RSVP, set aside plans and be prepared to show up on time.</li>
+<li>Do not multi-task on the internet while playing; this has been proven to waste time for everyone.</li>
+<li>Pay attention to the game; if you have to scroll up on IRC or have someone explain to you what has happened, you are wasting time.</li>
+<li>Be ready to act on your turn. Think about what your character would do before it is the time to do it. This is a common rule in person.</li>
+<li>If you have to go afk, we understand, but please tell people.</li>
+<li>Once you're past your first scenario, do not expect other players to spend their resources and money healing you. Bring your own wand.</li>
+</ol>
+
+<p>With all that, please join us anytime in Circus Maximus or in #flamel. Lastly, this FREE <a href="http://paizo.com/products/btpy84k4">Guide to Pathfinder Society Organized Play</a> is also required reading regardless of your experience level. We will also be starting Philosopher's Stone War IV playtesting very soon.</p>
+
+<table id="smogfooter">
+<tr>
+<td class="left"><a href="smeargle">« Previous Article</a></td>
+<td class="middle"><a href="/smog/issue25/">Home</a></td>
+<td class="right"><a href="pokemon_biology">Next Article »</a></td>
+</tr>
+</table>

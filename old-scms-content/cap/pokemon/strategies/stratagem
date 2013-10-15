@@ -1,0 +1,218 @@
+[title]
+Stratagem
+[head]
+<link rel="stylesheet" type="text/css" href="/media/dex/dex.css" />
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_template.js"></script>
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_database.js"></script>
+[header]
+[page]
+<script language="JavaScript">
+document.write(strategyTabs("Stratagem"));
+document.write(topHeaderInfo(Stratagem()));
+</script>
+
+<h2>Overview</h2>
+
+<h4>DPP</h4>
+
+<p>Stratagem is a very unique Pokemon for many reasons. It's the fastest Rock-type in the OU metagame, tying with Aerodactyl; has excellent attacks available to it from its giant offensive movepool, such as Earth Power, Flamethrower, and Energy Ball; and has two equally viable abilities in Levitate and Technician. On top of this, Stratagem has ways of overcoming the special wall named Blissey, who a majority of special sweepers have problems with. It can either Trick its Choice item to instantly make Blissey less of a threat, or it can use Substitute and Calm Mind to beat Blissey that lack Seismic Toss. It should also be noted that Stratagem is the fastest user of Calm Mind in the OU metagame.</p>
+
+<p>Due to the fact that Stratagem is a frail Rock-type, it's vulnerable to the commonly used Bullet Punch. Scizor, the most devastating user of Bullet Punch, can switch into many of Stratagem's attacks and revenge kill it with Bullet Punch or use Pursuit to catch a fleeing Stratagem off-guard. Also, because Stratagem is defensively weak, it has a harder time switching into most attacks, even ones that it resists, meaning it's hard to get Stratagem onto the battlefield without letting one of your Pokemon die. Despite these problems, through Stratagem's wide type coverage and excellent Special Attack and Speed stats, Stratagem poses a constant threat that teams need to prepare for.</p>
+
+<script language="JavaScript"> 
+var set = new CAPSet(); 
+set.name = "DPP All-Out Attacker"; 
+set.move[1] = "AncientPower"; 
+set.move[2] = ["Flamethrower", "Fire Blast"]; 
+set.move[3] = "Giga Drain"; 
+set.move[4] = ["Earth Power", "Vacuum Wave"]; 
+set.item = "Life Orb"; 
+set.ability = "Technician"; 
+set.nature = "Timid"; 
+set.evs.HP = 4; 
+set.evs.SpA = 252; 
+set.evs.Spe = 252; 
+document.write(composeSet(set)); 
+</script> 
+
+<p>Stratagem is the perfect all-out attacker with its perfect type coverage, phenomenally well-distributed stats, blistering Speed, and ability to single-handedly sweep over half the metagame. This set forfeits a boosting move for the perfect type coverage given by running four attacks and the ability to immediately attack once out and 2HKO virtually everything. It is quite literally impossible to switch into this set and avoid a 2HKO unless you are a dedicated special wall.</p>
+
+<p>This set is marked by its four attacks, each there for a specific subset of the Pokemon Stratagem will wind up facing down. AncientPower is a fierce STAB attack and Stratagem's preferred option with Technician, hitting everything that's neutral to it extremely hard. Flamethrower and Giga Drain combine to hit all of the types that resist AncientPower for super effective damage. Fire Blast can be used over Flamethrower for the ability to OHKO Jirachi and Bronzong, but the lower accuracy coupled with Stratagem's inability to take hits well makes Flamethrower the better choice. The last slot is given to either Earth Power or Vacuum Wave, both having distinct advantages and disadvantages. Earth Power is a great option for OHKOing Heatran that lack a Choice Scarf and Empoleon, while a Technician-boosted Vacuum Wave allows you to pick off weakened Choice Scarf Heatran and revenge KO Pokemon such as Agility Lucario and Agility Empoleon. Vacuum Wave also allows you to take down weakened users of opposing priority moves from the likes of Infernape, Breloom, Empoleon, Metagross, and Scizor, all of whom normally beat Stratagem.</p>
+
+<p>This Stratagem uses Technician to maximize the damage output from its attacking moves. The secondary effects of Giga Drain and AncientPower are invaluable, and Giga Drain's life restoration can both save Stratagem from some KOes and offset Life Orb recoil. Also, since this Stratagem is used on very offensive teams and has a tendency to come in after another Pokemon on its team has fainted or after a U-turn, it doesn't need Levitate for switching in. Furthermore, if Stratagem obtains an AncientPower boost, it will OHKO most of the metagame. Life Orb is a given on this set, as Stratagem needs the damage boost and ability to switch between its attacks. The EV spread is chosen to maximize Stratagem's Speed and Special Attack stats, with a Timid nature to ensure that it's as fast as possible to tie with Pokemon like Jolteon.</p>
+
+<p>The best partners of this Stratagem are those that can tear down the special wall, Blissey, when she rears her ugly head to stop Stratagem. Choice Band Tyranitar is the best option for this, as it doesn't particularly mind anything Blissey can do and will destroy it with Pursuit. The sandstorm boost also makes Stratagem slightly more difficult to take down with special attacks. Gyarados makes an excellent Pokemon to pair with Stratagem as well for its ability to come in on Scizor's Bullet Punch, Jirachi's Iron Head, Infernape's Mach Punch, or any of the Fighting- and Ground-type attacks aimed at Stratagem and setup on them all. This Stratagem also greatly appreciates the presence of Stealth Rock and Spikes for their ability to put the opponent into a checkmate position where they lose if they switch and lose if they stay in. Azelf is a good offensive Stealth Rock user to pair with Stratagem as it can use Explosion to get Stratagem in early and scout for the opponent's initial response. Specially defensive Skarmory makes an excellent teammate for Spikes support, being able to come in on many of the attacks that Stratagem will lure and setup on them. Skarmory can also scout the opponent's team with Whirlwind, seeing if there's anything that might threaten Stratagem. Lastly, as this Stratagem really can't take hits very well, it appreciates as many free switch-ins as possible. Scizor makes a superb teammate for its bulky offensive style, sheer power, slow U-turns that can give Stratagem the switches it needs, and ability to plow through Blissey when needed.</p> 
+
+<script language="JavaScript"> 
+var set = new CAPSet(); 
+set.name = "DPP Lead"; 
+set.move[1] = "Stealth Rock"; 
+set.move[2] = "Paleo Wave"; 
+set.move[3] = "Earth Power"; 
+set.move[4] = ["Flamethrower", "Energy Ball", "Trick"]; 
+set.item = ["Focus Sash", "Choice Scarf"]; 
+set.nature = "Timid"; 
+set.ability = "Levitate"; 
+set.evs.HP = 4; 
+set.evs.SpA = 252; 
+set.evs.Spe = 252; 
+document.write(composeSet(set)); 
+</script> 
+
+<p>Stratagem is the fastest user of Stealth Rock in the OU metagame, tying with Aerodactyl. It has a few unique traits that differentiate its from Aerodactyl, though, including the fact that it's special-based and has a broader movepool. The only move Aerodactyl has that Stratagem would love to use is Taunt, but through Stratagem's great type coverage and high Speed, it will often find itself threatening many opposing leads from staying in to set up, rendering Taunt unnecessary.</p>
+
+<p>Stealth Rock is obviously the center point of the set, as with Stratagem’s lightning-fast Speed, it's almost guaranteed to set it up. Paleo Wave is the primary STAB move due to its relatively high 85 Base Power and 20% chance to reduce the opponent's Attack, which can help significantly against physical leads, such as Tyranitar and Aerodactyl. Earth Power aids Stratagem in hitting Metagross and Heatran, and also gives Stratagem the great Rock- and Ground-type combo, resisted by only Flygon, Breloom, and Bronzong. In the last slot, Stratagem has several options to choose from. Flamethrower helps Stratagem hit Bronzong and Breloom, as well as hitting Metagross harder than Earth Power, while Energy Ball allows Stratagem to hit Swampert for major damage, who would otherwise laugh at anything Stratagem uses against it. If neither option appeals to you, Trick can be used in conjunction with Choice Scarf to potentially cripple leads that Stratagem would have trouble against, such as Swampert and Tyranitar. The Choice Scarf can also turn Stratagem into an effective revenge killer later in the match  Gyarados. Trick can also cripple troublesome Pokemon, like Blissey, who enjoy switching into Stratagem.</p>
+
+<p>This Stratagem has different problems depending on the last move it uses. Swampert and Hippowdon will be tough to take down without Energy Ball, while Bronzong will wall Stratagem lacking Flamethrower. If you don't use Trick, Blissey and Snorlax will laugh at Stratagem with their high Special Defense and HP. To deal with these aforementioned issues, Celebi is an excellent counter towards Hippowdon and Swampert thanks to its great bulk and access to Grass Knot. Rotom-H is a very effective switch-in to Bronzong, resisting Gyro Ball and threatening it with Overheat or Will-O-Wisp. As for Blissey and Snorlax, Machamp fares well against them with DynamicPunch, and it can use Rest to rejuvenate itself from status and previous hits. Machamp also does well against Tyranitar leads, a Pokemon that Stratagem can't really threaten.</p>
+
+<script language="JavaScript"> 
+var set = new CAPSet(); 
+set.name = "DPP Offensive Calm Mind"; 
+set.move[1] = "Calm Mind"; 
+set.move[2] = "AncientPower"; 
+set.move[3] = "Earth Power"; 
+set.move[4] = ["Flamethrower", "Giga Drain"]; 
+set.item = "Life Orb"; 
+set.ability = "Technician"; 
+set.nature = "Timid"; 
+set.evs.HP = 4; 
+set.evs.SpA = 252; 
+set.evs.Spe = 252; 
+document.write(composeSet(set)); 
+</script> 
+
+<p>Calm Mind is known for boosting Stratagem's Special Attack to sky-high levels, and this set takes full advantage of this, unlike the more defensively-inclined Substitute + Calm Mind set. With Technician, AncientPower and Giga Drain both have 90 Base Power, making them stronger options than Paleo Wave and Energy Ball while providing Stratagem with invaluable secondary effects: AncientPower's 10% chance to boost all of Stratagem's stats and Giga Drain's ability to recover HP lost from any damage taken.</p>
+
+<p>Earth Power is still recommended on this set, simply because it is Stratagem's best coverage option, and at 90 Base Power, not much - even with a Technician boost - can match it. Flamethrower is generally the preferred option over Giga Drain, as it is Stratagem's best answer to the likes of Scizor, Breloom, and Bronzong who are not instantly threatened by the Rock and Ground attacking combination. Giga Drain can be used over Flamethrower, however, as it allows Stratagem to deal with the likes of Swampert and Suicune, the former being OHKOed, while still recovering any damage Stratagem has taken. AncientPower's low PP rate isn't that important anymore either, as you'll be looking to grab one or two Calm Mind boosts then start sweeping as much as you can before you're killed.</p>
+
+<p>The EVs are straightforward, maximizing Stratagem's offensive potential in power and Speed, with the 4 EVs going into Defense rather than HP, to allow up to 11 uses of Life Orb. Life Orb is the recommended item for this set, as Stratagem needs all the power it can get to sweep effectively. An Expert Belt can be used instead of Life Orb if the recoil damage throws you off, as the difference in power is nothing dramatic; however, with only three attacks, Stratagem's coverage is limited, so the actual damage boost Expert Belt provides will never be as consistent as Life Orb.</p>
+
+<p>Technician is generally preferred as it gives Stratagem the most power for quick sweeping, but if you are after reliability, using Levitate with Paleo Wave and Energy Ball is acceptable. This isn't recommended, though, as the power and secondary effects of AncientPower and Giga Drain are too good to pass up on a frail sweeper like Stratagem.</p>
+
+<p>It's best to pair up Stratagem with physical sweepers, as Stratagem experiences extreme difficulties with Blissey and, to a lesser extent, Snorlax. Both of these threats are capable of switching into Stratagem with ease thanks to their high HP and Special Defense, and threaten Stratagem with Thunder Wave and Body Slam, respectively. Machamp is a great Pokemon to look into, as it doesn't necessarily worry about status ailments when using Rest, and can OHKO both with its STAB DynamicPunch. Depending on what move you use in the last slot, you will be vulnerable to either Flygon or Breloom and Bronzong. Flygon resists the Rock, Ground, and Fire combination and can hit Stratagem with a powerful Outrage, while Breloom and Bronzong resist the Rock, Ground, and Grass combination and can easily OHKO Stratagem with Seed Bomb and Gyro Ball, respectively. That being said, Skarmory can take on almost any attack from Flygon and Bronzong and deal with Breloom somewhat effectively. On top of this, Skarmory can aid Stratagem with Spikes support that will guarantee some OHKOs, such as against Breloom, who is OHKOed by a +1 AncientPower with a few layers of Spikes. Infernape is another valuable teammate to look into, as it can threaten all of Blissey, Snorlax, Bronzong, and Breloom, and can even catch Flygon off-guard with Hidden Power Ice.</p>
+
+<script language="JavaScript"> 
+var set = new CAPSet(); 
+set.name = "DPP Choice"; 
+set.move[1] = "Paleo Wave"; 
+set.move[2] = "Earth Power"; 
+set.move[3] = "Flamethrower"; 
+set.move[4] = ["Energy Ball", "Trick"]; 
+set.item = ["Choice Specs", "Choice Scarf"]; 
+set.nature = ["Timid", "Modest"]; 
+set.ability = "Levitate"; 
+set.evs.HP = 4; 
+set.evs.SpA = 252; 
+set.evs.Spe = 252; 
+document.write(composeSet(set)); 
+</script> 
+
+<p>With a Choice item, Stratagem can boost either its Special Attack or Speed to immediately threaten its opponents. With Choice Specs and a Timid nature, Stratagem's Special Attack reaches a terrifying 508, enough to crush anyone that doesn't invest in Special Defense. With Choice Scarf and a Modest nature, Stratagem sacrifices that immense power for the ability to outpace almost every threat in the metagame with its 538 Speed, including Dragonite and Gyarados after a Dragon Dance.</p>
+
+<p>Paleo Wave and Earth Power combined give the near-unresisted type coverage of Rock and Ground. Flamethrower rounds off the coverage by hitting Pokemon like Skarmory, Scizor, Forretress, and Bronzong super effectively. Energy Ball is the primary option for the last slot, as it hits the numerous bulky Water-types that will try to threaten you out, such as Swampert and Suicune. Energy Ball also gives Stratagem a means to hit Flygon for neutral damage, who otherwise resists Stratagem's entire moveset. Trick is another effective option for the fourth slot that can help you cripple Stratagem's defensive counters, most notably Blissey and Snorlax.</p>
+
+<p>Levitate is chosen for this set, as it maximizes Stratagem's ability to switch in. Because Stratagem is locked into an attack, it'll be switching in a lot and needs every opportunity it can get. The EVs are incredibly straightforward, placed to maximize both Stratagem's Special Attack and Speed stats. When using Choice Specs, you should definitely be running a Timid nature to maximize your Speed. With a Choice Scarf, however, you need all of the power you can get and should run Modest instead; Modest Stratagem with a Choice Scarf outspeeds everyone except base 115 Speed Pokemon carrying their own Choice Scarfs, all of whom are uncommon. If you plan on running a Choice Scarf with a Modest nature, be careful when using Trick, as Stratagem will be unable to outpace the threats that it would have been able to, such as Starmie and Azelf.</p>
+
+<p>This Stratagem, with a bit of prediction, has the means to defeat nearly every threat that it will come up against. Stratagem pairs exceptionally well with Pokemon that can scout the opponent's team so that you're aware of what the first switch-in to Stratagem will be. Scizor excels at scouting with its powerful U-turns, potentially giving Stratagem free switch-ins, and can also dispose of Blissey and Snorlax with Superpower.</p>
+
+<p>Since Stratagem can force out a lot of Pokemon, entry hazard support is invaluable. Skarmory is an excellent supporting Pokemon for the job, being able to set up Spikes and scout the opponent's team with Whirlwind. Stealth Rock at the very least is necessary with Choiced Stratagem, as it can turn many of its 2HKOs into OHKOs for the Choice Specs set and 3HKOs into 2HKOs for the Choice Scarf set.</p>
+
+<script language="JavaScript"> 
+var set = new CAPSet(); 
+set.name = "DPP SubCM"; 
+set.move[1] = "Substitute"; 
+set.move[2] = "Calm Mind"; 
+set.move[3] = "Paleo Wave"; 
+set.move[4] = "Earth Power"; 
+set.item = "Leftovers"; 
+set.nature = "Timid"; 
+set.ability = "Levitate"; 
+set.evs.HP = 4; 
+set.evs.SpA = 252; 
+set.evs.Spe = 252; 
+document.write(composeSet(set)); 
+</script> 
+
+<p>Stratagem is the fastest user of Calm Mind in the OU metagame, reaching a lightning-fast Speed stat of 394. With the use of Substitute and Calm Mind, Stratagem is capable of beating threats it otherwise cannot, specifically Blissey that lack Seismic Toss, all while firing off powerful STAB Paleo Waves at the opponent.</p>
+
+<p>Paleo Wave is the STAB move of choice for Stratagem, being able to OHKO a vast majority of threats after a couple of boosts. Even Pokemon that resist it but don't pack a lot of Special Defense, such as Breloom, take a heavy blow. Also, Paleo Wave's 20% chance to the lower the opponent's Attack by one stage means Stratagem can potentially make Substitutes that are harder to break from both physical and special attacks. Earth Power completes the set by hitting Steel-types that resist Paleo Wave super effectively and generally providing excellent coverage in tandem with Paleo Wave, the two being resisted by only Bronzong, Breloom, and Flygon.</p>
+
+<p>Levitate is recommended for Stratagem's ability, as a free switch in on Ground attacks is something Stratagem can take advantage of. Technician may seem appealing at first because it gives Stratagem a stronger STAB to work with in AncientPower, but its poor PP makes it a rather lackluster option considering the stall-ish nature of this set. Opening Stratagem up to the abundant Ground-type moves in the OU metagame as well as all entry hazards will hurt Stratagem more than weaker STAB option would.</p>
+
+<p>Even though Stratagem becomes a dangerous sweeper after a couple of Calm Minds, it still has some problems. Pokemon that resist the Paleo Wave and Earth Power combo will obviously become a big nuisance, particularly Bronzong and Flygon. The former has great overall bulk and can easily ruin Stratagem's sweep with Gyro Ball, while the latter can destroy it with Outrage. To deal with these threats, Heatran can come into Bronzong's Gyro Ball with impunity and scorch it with a STAB Fire Blast, while Skarmory can switch into almost any move Flygon uses and either set up Spikes, phaze it with Whirlwind, or smack it with Brave Bird.</p>
+
+<p>Toxic Spikes support should be considered, as it allows Stratagem to set up Calm Minds and Substitutes while the poison damage takes its toll, most likely putting your opponent in KO range for one of Stratagem's moves. Tentacruel is a great option for Toxic Spikes support, thanks to its excellent special bulk, resistance to Stratagem's Water, Steel, and Fighting weakness, and access to Rapid Spin and Knock Off. To further aid Stratagem in achieving multiple Calm Mind boosts, it's definitely not a bad idea to support it with Reflect and Light Screen. Dual screens will make Stratagem's Substitutes considerably harder to break, allowing it to boost up safely without worrying about being KOed as easily. Azelf and Bronzong are two excellent dual screeners, and both of them can set up Stealth Rock and give Stratagem a free switch in by using Explosion. Tyranitar or Hippowdon are excellent teammates as well, due to the the everlasting sandstorm they set up that will boost Stratagem's Special Defense by 50%, giving it an easier time setting up against special threats.</p>
+
+<script language="JavaScript"> 
+var set = new CAPSet(); 
+set.name = "DPP Substitute + 3 Attacks"; 
+set.move[1] = "Substitute"; 
+set.move[2] = ["Flamethrower", "Fire Blast"]; 
+set.move[3] = ["Energy Ball", "Earth Power"]; 
+set.move[4] = "Paleo Wave"; 
+set.item = "Leftovers"; 
+set.ability = "Levitate"; 
+set.nature = "Timid"; 
+set.evs.HP = 4; 
+set.evs.SpA = 252; 
+set.evs.Spe = 252; 
+document.write(composeSet(set)); 
+</script> 
+
+<p>Stratagem is an excellent user of Substitute, being able to force out a multitude of threats such as Breloom, Celebi, Heatran, Gliscor, Magnezone, and Zapdos. The idea of this set is to switch in on an immunity or resistance, and force out the opponent due to its offensive presence. With a free turn to use Substitute, Stratagem is in a position to score super effective hits with unrivaled coverage. Apart from Blissey and other exceptions, nothing in particular can switch safely into Stratagem. Pokemon such as as Scarf Rotom and Scarf Flygon that often switch into an Earth Power and attempt to threaten Stratagem can be KOed as they break the Substitute. As a result, Substitute Stratagem makes a decent scout that can take out a few Pokemon when need be.</p>
+
+<p>Energy Ball hits pokemon such as Flygon neutrally, and also hits Swampert for significant damage. Energy Ball also does better against Water types such as Vaporeon and Starmie, as the former can potentially stall this set with Wish. Earth Power is nice against pokemon such as Heatran and Empoleon, both of which are bulky enough to shrug off neutral hits and potentially force out Stratagem depending on their health and Speed. The choice between Fire Blast and Flamethrower is based on a decision of power versus accuracy. Fire Blast ensures KOs on pokemon such as SubSeed Breloom and a 2hko on Standard Wall Bronzong, while Flamethrower can sometimes fail to do so. </p>
+
+<p>Like most Stratagem sets, Seismic Toss Blissey counters this set. None of its attacks can penetrate through it, while it can keep on recovering and whittle down its health. RestTalk Machamp can also prove to be annoying, as Stratagem can't damage it enough before Machamp connects with DynamicPunch. Machamp can even recover its HP and can still deal significant damage with Payback or Stone Edge. Tyranitar can beat Stratagem, although it needs to be at decent health for it to retaliate with Crunches or Pursuits. </p>
+
+<p>Tyranitar makes a great partner to Substitute Stratagem because it summons a permanent sandstorm, boosting Stratagem's Special Defense by 1.5x while also trapping Blissey effectively in order for Stratagem to pull off a successful sweep. Spikes support also helps Stratagem pick off things easier, so Skarmory helps as well. Furthermore, it can help somewhat with Machamp problems, as it weakens it with Spikes and can threaten it with Brave Bird.</p> 
+
+<h2>Levitate or Technician?</h2>
+
+<p>A common problem with Stratagem is that it has two really good abilities to choose from, so it's difficult to decide which ability best fits the set you are using. However, there are a few points you should keep in mind that will help you select the right ability for your chosen set.</p>
+
+<p>Levitate is the preferred ability on sets that take a more defensive approach, such as the Substitute + Calm Mind set. The reason for this is because Stratagem needs to remove as many potential weaknesses as possible so it becomes more difficult to take down. Not only that, but sets that rely on switching in and out, like the Choiced Sweeper, should be using Levitate for its ability to grant Stratagem more opportunities to switch in, making it a more effective sweeper and revenge killer in general.</p>
+
+<p>On the other hand, all-out offensive sets, like the Offensive Calm Mind set, should be using Technician along with a 90 Base Power AncientPower and Giga Drain. These type of sets don't necessarily fear Stratagem's Ground-type weakness, since their job is to stay in and quickly gain as much damage and as many KOs against the opponent's team as possible before falling under a KO itself.</p>
+
+<h2>Team Options</h2>
+
+<h4>DPP</h4>
+
+<p>Offensively, Stratagem will always appreciate having entry hazards set up on the opponent's field, particularly Stealth Rock and Spikes as they chip off health instantly, unlike Toxic Spikes which takes more time. Bronzong and Swampert are excellent Pokemon to set up Stealth Rock with their great overall bulk and typing. Skarmory and Forretress are great providers of Spikes, the former being able to Roost off any damage taken and having Whirlwind to force the opponent to take entry hazard damage, while the latter carrying great physical bulk and having Rapid Spin to remove entry hazards set up on your field. The more defensive sets like the Substitute + Calm Mind set will definitely enjoy having Toxic Spikes set up, as it allows Stratagem to keep setting up Substitute and Calm Mind as the opponent gradually lowers their health to the point where Stratagem can knock them out. Tentacruel and Roserade are both fantastic at setting up Toxic Spikes, thanks to their considerable Special Defense and access to multiple support moves, the former having Knock Off and Rapid Spin, while the latter having Sleep Powder.</p>
+
+<p>Pairing up Stratagem with Tyranitar or Hippowdon is definitely recommended as well, as the sandstorm they provide will give Stratagem a 50% Special Defense boost thanks to its Rock-type. This also helps Stratagem's Calm Mind sets, as it gives Stratagem much higher special bulk that allows it to survive many super effective special hits coming from the likes of Starmie and Vaporeon. To further aid Stratagem's boosting capabilities, providing it with dual screen support is a good idea. Azelf is an incredible dual screen supporter, having a high Speed stat, Stealth Rock, and Explosion. Jirachi is a reliable defensive screener with Wish and U-turn to help Stratagem come in safely.</p>
+
+<p>Scizor, Metagross, and Choice Scarf Jirachi are Stratagem's worst nightmare, the former two having Bullet Punch and the latter having Iron Head. Even though they all hate being hit by Flamethrower on the switch, one misprediction may cost Stratagem's life. That being said, Choice Scarf Magnezone is one of the most effective switch-ins to these threats, resisting their Steel-typed moves by 4x and trapping them with its Magnet Pull ability, allowing it to easily dispose of them with Hidden Power Fire or Thunderbolt. Rotom-H is also an effective counter, shrugging off their Steel-type attacks and threatening them with Overheat or Will-O-Wisp.</p>
+
+<p>Blissey is the biggest threat to practically any Stratagem that don't carry Trick, especially ones with Seismic Toss as she can even deal with the Substitute + Calm Mind set. To deal with her, Machamp is an excellent consideration, as it obliterates Blissey with DynamicPunch and can use Rest to remove any status or damage it has taken. Flygon can also be a nuisance due to the fact that it resists Paleo Wave and Flamethrower, is immune to Earth Power, and threatens it with Outrage. Bronzong is one of Flygon's most effective counters, being resistant and immune to both Outrage and Earthquake, respectively, and threatening it with a powerful Gyro Ball. Swampert can also dispose of Flygon with Ice Beam, especially Flygon locked into using Outrage.</p>
+
+<h2>Other Options</h2>
+
+<h4>DPP</h4>
+
+<p>Stratagem has a really wide offensive movepool; however, many of the moves it has are outclassed by or provide redundant coverage with Stratagem's primary options. Weather Ball gives Stratagem a 100 Base Power Rock-type move in the sand, its strongest available STAB move. Beware of other weather teams, though, as they may leave Stratagem with no STAB attack to use. On the physical side, Explosion may seem appealing to use against Blissey and Snorlax, but it will never come even close to an OHKO. The only way to make Explosion worthwhile is to invest in Attack EVs and hold a Life Orb, but that should generally be looked away from as Stratagem has better things to do than to kill itself.</p>
+
+<p>Stratagem also has Gravity, which could help Earth Power hit Levitators and Flying-types and might support your team in general, but Stratagem doesn't have many inaccurate moves it could take advantage of this with. Metal Sound could be used to force switches, as well as allowing Stratagem to hit the struck opponent for double the damage should they stay in, but Stratagem is too frail to abuse this tactic effectively.</p>
+
+<p>As for item choices, Stratagem can run an Expert Belt on the Choice set to feign a Choice item, allowing for one or two surprise KOs. In terms of power, though, it is underwhelming. Expert Belt could be combined with Calm Mind to hit even harder, but the coverage given with four attacks backed by an Expert Belt is preferred.</p>
+
+<h2>CAP Metagame</h2>
+
+<h4>DPP</h4>
+
+<p>Stratagem is one of the most feared Pokemon in the CAP metagame. It has gone a long way in requiring dedicated special tanks on each team in order to successfully check or counter it. Revenankh stands out from the crowd as the best counter to Stratagem that lack Trick, being 4HKOed at best by even Choice Specs variants. Revenankh can then return with a super effective Hammer Arm, removing Stratagem from the picture, or use it as setup fodder. Kitsunoh, Colossoil, Arghonaut, and Fidgit all resist Paleo Wave and can force out Choiced Stratagem. Arghonaut, similarly to Revenankh, can use Stratagem lacking Energy Ball as setup fodder. Colossoil deserves its own special mention for being able to nearly kill Stratagem with a Pursuit as it flees or with Sucker Punch if it stays in to fight.</p>
+
+<p>Stratagem itself serves as one of the best checks to many of the other CAP Pokemon. Stratagem also serves as an effective revenge killer for almost all Syclant variants, both outspeeding it and carrying two 4x super effective attacks in Paleo Wave and Flamethrower to take it down. Furthermore, Stratagem smashes apart Cyclohm, Kitsunoh, and Fidgit with Earth Power, its guaranteed coverage move.</p>
+
+<p>Stratagem's movesets will not be varying virtually at all from the prescribed sets in the CAP metagame. Trick becomes even more useful on Choice sets due to its crippling effect on common switch-ins like Arghonaut and Revenankh. Technician sets are also slightly less viable, if only because of how common Colossoil is and how important the Ground-type immunity is.</p>
+
+<h2>Counters</h2>
+
+<h4>DPP</h4>
+
+<p>Blissey is by far Stratagem's worst nightmare, boasting insane Special Defense and HP which allows it to shrug off anything Stratagem throws at her. Snorlax works the same way, except it would need to watch out for boosted Paleo Wave attacks, as they can put a dent in it and also potentially reduce Snorlax's Attack. Basically, any Pokemon with high Special Defense and who doesn't fear Stratagem's moves can effectively counter it, such as Cresselia and Bronzong. Bronzong can even live through Flamethrower or Fire Blast and OHKO Stratagem with Gyro Ball.</p>
+
+<p>Scizor, Metagross, and Choice Scarf Jirachi can easily deal with Stratagem. Scizor and Metagross are able to switch in to Stratagem's STAB move and penetrate it with Bullet Punch, while Choice Scarf Jirachi can outpace it and revenge kill it with Iron Head. They should all watch out for Flamethrower and Earth Power if they are switching into Stratagem, though.</p>
+
+<p>Flygon has a resistance to Paleo Wave and Flamethrower and an immunity to Earth Power, so it can reliably switch into Stratagem and threaten it with a STAB Outrage. Tyranitar, who gains a 50% Special Defense boost from the sandstorm it summons, can effectively switch into Stratagem with little worry and revenge kill it with Pursuit. Lastly, Machamp's great overall bulk and resistance to Paleo Wave help it switch into Stratagem and threaten an OHKO with DynamicPunch.</p>

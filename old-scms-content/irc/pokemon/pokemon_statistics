@@ -1,0 +1,78 @@
+[title]
+#pokemon Statistics
+[head]
+<meta name="description" content="Detailed Stats of all #pokemon Challenges." />
+
+[page]
+<ol class="toc">
+<li><a href="#nohazards">No Hazards Challenge</a></li>
+<li><a href="#vgc12">VGC '12 Challenge</a></li>
+<li><a href="#diversity">Diversity Cup Challenge</a>
+<ul>
+<li><a href="#divou">Overused</a></li>
+<li><a href="#divuu">Underused</a></li>
+<li><a href="#divru">Rarelyused</a></li>
+<li><a href="#divnu">Neverused</a></li>
+<li><a href="#divoverall">Overall</a></li>
+</ul>
+</li>
+<li><a href="#noarceus">No Arceus Challenge</a></li>
+</ol>
+
+<p>Statistics of #pokemon challenges are recorded by polls given to the challengers. The data collected is then formatted to give us detailed information of what was popular and used in #pokemon challenges.</p>
+
+<h2><a name="nohazards">"No Hazards" Challenge</a></h2>
+
+<p>There are no statistics for this specific challenge.</p>
+
+<hr />
+
+<h2><a name="vgc12">"VGC '12" Challenge</a></h2>
+
+<p>There are no statistics for this specific challenge.</p>
+
+<hr />
+
+<h2><a name="diversity">"Diversity Cup" Challenge</a></h2>
+
+<p>The following are detailed statistics for Diversity Cup.</p>
+
+<h3><a name="divou">Overused</a></h3>
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js"> {"dataSourceUrl":"//docs.google.com/spreadsheet/tq?key=0AvuB0u4KIAfddGMwSkVTZmpGejVSNHJWS3ZQWUtabUE&transpose=0&headers=0&range=B19%3AC32&gid=0&pub=1","options":{"vAxes":[{"viewWindowMode":"pretty","viewWindow":{}},{"viewWindowMode":"pretty","viewWindow":{}}],"title":"OU Pokemon Usage in Teams","height":371,"backgroundColor":"#FFFFFF","colors":["#3366CC","#DC3912","#FF9900","#109618","#990099","#0099C6","#DD4477","#66AA00","#B82E2E","#316395","#994499","#22AA99","#AAAA11","#6633CC","#E67300","#8B0707","#651067","#329262","#5574A6","#3B3EAC","#B77322","#16D620","#B91383","#F4359E","#9C5935","#A9C413","#2A778D","#668D1C","#BEA413","#0C5922","#743411"],"legend":"right","width":600,"is3D":false,"hasLabelsColumn":true,"hAxis":{"maxAlternations":1}},"state":{},"chartType":"PieChart","chartName":"Chart 1"} </script>
+
+<h3><a name="divuu">Underused</a></h3>
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js"> {"dataSourceUrl":"//docs.google.com/spreadsheet/tq?key=0AvuB0u4KIAfddGMwSkVTZmpGejVSNHJWS3ZQWUtabUE&transpose=0&headers=0&range=B45%3AC59&gid=0&pub=1","options":{"vAxes":[{"viewWindowMode":"pretty","viewWindow":{}},{"viewWindowMode":"pretty","viewWindow":{}}],"title":"UU Pokemon Usage in Teams","backgroundColor":"#FFFFFF","colors":["#3366CC","#DC3912","#FF9900","#109618","#990099","#0099C6","#DD4477","#66AA00","#B82E2E","#316395","#000000","#22AA99","#AAAA11","#6633CC","#E67300","#8B0707","#651067","#329262","#5574A6","#3B3EAC","#B77322","#16D620","#B91383","#F4359E","#9C5935","#A9C413","#2A778D","#668D1C","#BEA413","#0C5922","#743411"],"legend":"right","is3D":false,"hAxis":{"maxAlternations":1},"hasLabelsColumn":true,"width":600,"height":371},"state":{},"chartType":"PieChart","chartName":"Chart 3"} </script>
+
+<h3><a name="divru">Rarelyused</a></h3>
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js"> {"dataSourceUrl":"//docs.google.com/spreadsheet/tq?key=0AvuB0u4KIAfddGMwSkVTZmpGejVSNHJWS3ZQWUtabUE&transpose=0&headers=0&range=B63%3AC70&gid=0&pub=1","options":{"vAxes":[{"viewWindowMode":"pretty","viewWindow":{}},{"viewWindowMode":"pretty","viewWindow":{}}],"title":"RU Pokemon Usage in Teams","backgroundColor":"#FFFFFF","legend":"right","colors":["#3366CC","#DC3912","#FF9900","#109618","#990099","#0099C6","#DD4477","#66AA00","#B82E2E","#316395","#994499","#22AA99","#AAAA11","#6633CC","#E67300","#8B0707","#651067","#329262","#5574A6","#3B3EAC","#B77322","#16D620","#B91383","#F4359E","#9C5935","#A9C413","#2A778D","#668D1C","#BEA413","#0C5922","#743411"],"is3D":false,"hasLabelsColumn":true,"hAxis":{"maxAlternations":1},"width":600,"height":371},"state":{},"chartType":"PieChart","chartName":"Chart 5"} </script>
+
+<h3><a name="divnu">Neverused</a></h3>
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js"> {"dataSourceUrl":"//docs.google.com/spreadsheet/tq?key=0AvuB0u4KIAfddGMwSkVTZmpGejVSNHJWS3ZQWUtabUE&transpose=0&headers=0&range=B85%3AC93&gid=0&pub=1","options":{"vAxes":[{"viewWindowMode":"pretty","viewWindow":{}},{"viewWindowMode":"pretty","viewWindow":{}}],"title":"NU Pokemon Usage in Teams","backgroundColor":"#FFFFFF","colors":["#3366CC","#DC3912","#FF9900","#109618","#990099","#0099C6","#DD4477","#66AA00","#B82E2E","#316395","#994499","#22AA99","#AAAA11","#6633CC","#E67300","#8B0707","#651067","#329262","#5574A6","#3B3EAC","#B77322","#16D620","#B91383","#F4359E","#9C5935","#A9C413","#2A778D","#668D1C","#BEA413","#0C5922","#743411"],"legend":"right","is3D":false,"hAxis":{"maxAlternations":1},"hasLabelsColumn":true,"width":600,"height":371},"state":{},"chartType":"PieChart","chartName":"Chart 7"} </script>
+
+<h3><a name="divoverall">Overall</a></h3>
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js"> {"dataSourceUrl":"//docs.google.com/spreadsheet/tq?key=0AvuB0u4KIAfddGMwSkVTZmpGejVSNHJWS3ZQWUtabUE&transpose=0&headers=0&range=B109%3AC111&gid=0&pub=1","options":{"vAxes":[{"viewWindowMode":"pretty","viewWindow":{}},{"viewWindowMode":"pretty","viewWindow":{}}],"title":"Weather Usage on Teams","backgroundColor":"#FFFFFF","legend":"right","colors":["#3366CC","#DC3912","#FF9900","#109618","#990099","#0099C6","#DD4477","#66AA00","#B82E2E","#316395","#994499","#22AA99","#AAAA11","#6633CC","#E67300","#8B0707","#651067","#329262","#5574A6","#3B3EAC","#B77322","#16D620","#B91383","#F4359E","#9C5935","#A9C413","#2A778D","#668D1C","#BEA413","#0C5922","#743411"],"is3D":false,"hasLabelsColumn":true,"hAxis":{"maxAlternations":1},"width":600,"height":371},"state":{},"chartType":"PieChart","chartName":"Chart 9"} </script>
+<p><em>Note that both Sand and Hail were other options, but no submitted team utilized either strategy.</em></p>
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js"> {"dataSourceUrl":"//docs.google.com/spreadsheet/tq?key=0AvuB0u4KIAfddGMwSkVTZmpGejVSNHJWS3ZQWUtabUE&transpose=0&headers=0&range=B134%3AC138&gid=0&pub=1","options":{"vAxes":[{"viewWindowMode":"pretty","viewWindow":{}},{"viewWindowMode":"pretty","viewWindow":{}}],"title":"Team Types","backgroundColor":"#FFFFFF","legend":"right","colors":["#3366CC","#DC3912","#FF9900","#109618","#990099","#0099C6","#DD4477","#66AA00","#B82E2E","#316395","#994499","#22AA99","#AAAA11","#6633CC","#E67300","#8B0707","#651067","#329262","#5574A6","#3B3EAC","#B77322","#16D620","#B91383","#F4359E","#9C5935","#A9C413","#2A778D","#668D1C","#BEA413","#0C5922","#743411"],"is3D":false,"hasLabelsColumn":true,"hAxis":{"maxAlternations":1},"width":600,"height":371},"state":{},"chartType":"PieChart","chartName":"Chart 11"} </script>
+<p><em>Note that Trick Room was another option, but no submitted team utilized this strategy.</em></p>
+
+<hr />
+
+<h2><a name="noarceus">"No Arceus" Challenge</a></h2>
+
+<p>The following are detailed statistics for No Arceus Ubers.</p>
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js"> {"dataSourceUrl":"//docs.google.com/spreadsheet/tq?key=0AvuB0u4KIAfddFNweU93a2N0SnNNeHB6dXBuT2pLNlE&transpose=0&headers=0&range=C22%3AD25&gid=0&pub=1","options":{"vAxes":[{"viewWindowMode":"pretty","viewWindow":{}},{"viewWindowMode":"pretty","viewWindow":{}}],"title":"Types of Teams Made","backgroundColor":"#FFFFFF","legend":"right","colors":["#3366CC","#DC3912","#FF9900","#109618","#990099","#0099C6","#DD4477","#66AA00","#B82E2E","#316395","#994499","#22AA99","#AAAA11","#6633CC","#E67300","#8B0707","#651067","#329262","#5574A6","#3B3EAC","#B77322","#16D620","#B91383","#F4359E","#9C5935","#A9C413","#2A778D","#668D1C","#BEA413","#0C5922","#743411"],"is3D":false,"hasLabelsColumn":true,"hAxis":{"maxAlternations":1},"width":600,"height":371},"state":{},"view":"{\"columns\":[0,1]}","chartType":"PieChart","chartName":"Chart 1"} </script>
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js"> {"dataSourceUrl":"//docs.google.com/spreadsheet/tq?key=0AvuB0u4KIAfddFNweU93a2N0SnNNeHB6dXBuT2pLNlE&transpose=0&headers=0&range=C44%3AD47&gid=0&pub=1","options":{"vAxes":[{"viewWindowMode":"pretty","viewWindow":{}},{"viewWindowMode":"pretty","viewWindow":{}}],"title":"Role Arceus Would Have Played on Team","backgroundColor":"#FFFFFF","legend":"right","colors":["#3366CC","#DC3912","#FF9900","#109618","#990099","#0099C6","#DD4477","#66AA00","#B82E2E","#316395","#994499","#22AA99","#AAAA11","#6633CC","#E67300","#8B0707","#651067","#329262","#5574A6","#3B3EAC","#B77322","#16D620","#B91383","#F4359E","#9C5935","#A9C413","#2A778D","#668D1C","#BEA413","#0C5922","#743411"],"is3D":false,"hasLabelsColumn":true,"hAxis":{"maxAlternations":1},"width":600,"height":371},"state":{},"view":"{\"columns\":[0,1]}","chartType":"PieChart","chartName":"Chart 2"} </script>
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js"> {"dataSourceUrl":"//docs.google.com/spreadsheet/tq?key=0AvuB0u4KIAfddFNweU93a2N0SnNNeHB6dXBuT2pLNlE&transpose=0&headers=0&range=L22%3AM29&gid=0&pub=1","options":{"vAxes":[{"viewWindowMode":"pretty","viewWindow":{}},{"viewWindowMode":"pretty","viewWindow":{}}],"title":"Type of Arceus that Would Have Been Used","backgroundColor":"#FFFFFF","legend":"right","colors":["#000000","#DC3912","#FF9900","#9900ff","#38761d","#783f04","#DD4477","#999999","#B82E2E","#316395","#994499","#22AA99","#AAAA11","#6633CC","#E67300","#8B0707","#651067","#329262","#5574A6","#3B3EAC","#B77322","#16D620","#B91383","#F4359E","#9C5935","#A9C413","#2A778D","#668D1C","#BEA413","#0C5922","#743411"],"is3D":false,"hasLabelsColumn":true,"hAxis":{"maxAlternations":1},"width":600,"height":371},"state":{},"view":"{\"columns\":[0,1]}","chartType":"PieChart","chartName":"Chart 3"} </script>
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js"> {"dataSourceUrl":"//docs.google.com/spreadsheet/tq?key=0AvuB0u4KIAfddFNweU93a2N0SnNNeHB6dXBuT2pLNlE&transpose=0&headers=0&range=L44%3AM56&gid=0&pub=1","options":{"vAxes":[{"viewWindowMode":"pretty","viewWindow":{}},{"viewWindowMode":"pretty","viewWindow":{}}],"title":"Pokemon Who Gave Teams Trouble that Could Have Been Solved by Arceus","backgroundColor":"#FFFFFF","legend":"right","colors":["#3366CC","#DC3912","#FF9900","#109618","#990099","#0099C6","#DD4477","#66AA00","#f1c232","#316395","#994499","#22AA99","#AAAA11","#6633CC","#E67300","#8B0707","#651067","#329262","#5574A6","#3B3EAC","#B77322","#16D620","#B91383","#F4359E","#9C5935","#A9C413","#2A778D","#668D1C","#BEA413","#0C5922","#743411"],"is3D":false,"hasLabelsColumn":true,"hAxis":{"maxAlternations":1},"width":600,"height":371},"state":{},"view":"{\"columns\":[0,1]}","chartType":"PieChart","chartName":"Chart 4"} </script>
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js"> {"dataSourceUrl":"//docs.google.com/spreadsheet/tq?key=0AvuB0u4KIAfddFNweU93a2N0SnNNeHB6dXBuT2pLNlE&transpose=0&headers=0&range=C65%3AD97&gid=0&pub=1","options":{"reverseCategories":false,"title":"Pokemon Frequency of Usage","titleX":"Frequency (out of 18 teams)","backgroundColor":"#FFFFFF","legend":"right","logScale":false,"hasLabelsColumn":true,"hAxis":{"minValue":null,"viewWindowMode":"pretty","viewWindow":{"min":null,"max":18},"maxValue":18},"reverseAxis":false,"isStacked":false,"width":964,"height":876},"state":{},"view":"{\"columns\":[0,1]}","chartType":"BarChart","chartName":"Chart 5"} </script>

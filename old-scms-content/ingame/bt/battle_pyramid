@@ -1,0 +1,1882 @@
+[title]
+Emerald Battle Pyramid Wild Pokémon Guide
+[head]
+<meta name="description" content="A guide to the Battle Pyramid facility in Pokémon Emerald, courtesy of Expert Evan." />
+[page]
+<div class="author">By <a href="/forums/member.php?u=7080">Expert Evan</a></div>
+
+<ol class="toc">
+	<li><a href="#introduction">Introduction</a></li>
+	<li><a href="#whylegacy">Why do it?</a></li>
+	<li><a href="#whypoints">Why earn points?</a></li>
+	<li><a href="#determination">Wild Pokémon Determination</a></li>
+	<li>
+		<a href="#round1">Round 1</a>
+		<ul>
+			<li><a href="#mt1">Misfortune Teller warning</a></li>
+			<li><a href="#wp1">Wild Pokémon</a></li>
+		</ul>
+	</li>
+	<li>
+		<a href="#round2">Round 2</a>
+		<ul>
+			<li><a href="#mt2">Misfortune Teller warning</a></li>
+			<li><a href="#wp2">Wild Pokémon</a></li>
+		</ul>
+	</li>
+	<li>
+		<a href="#round3">Round 3</a>
+		<ul>
+			<li><a href="#mt3">Misfortune Teller warning</a></li>
+			<li><a href="#wp3">Wild Pokémon</a></li>
+		</ul>
+	</li>
+	<li>
+		<a href="#round4">Round 4</a>
+		<ul>
+			<li><a href="#mt4">Misfortune Teller warning</a></li>
+			<li><a href="#wp4">Wild Pokémon</a></li>
+		</ul>
+	</li>
+	<li>
+		<a href="#round5">Round 5</a>
+		<ul>
+			<li><a href="#mt5">Misfortune Teller warning</a></li>
+			<li><a href="#wp5">Wild Pokémon</a></li>
+		</ul>
+	</li>
+	<li>
+		<a href="#round6">Round 6</a>
+		<ul>
+			<li><a href="#mt6">Misfortune Teller warning</a></li>
+			<li><a href="#wp6">Wild Pokémon</a></li>
+		</ul>
+	</li>
+	<li>
+		<a href="#round7">Round 7</a>
+		<ul>
+			<li><a href="#mt7">Misfortune Teller warning</a></li>
+			<li><a href="#wp7">Wild Pokémon</a></li>
+		</ul>
+	</li>
+	<li>
+		<a href="#round8">Round 8</a>
+		<ul>
+			<li><a href="#mt8">Misfortune Teller warning</a></li>
+			<li><a href="#wp8">Wild Pokémon</a></li>
+		</ul>
+	</li>
+	<li>
+		<a href="#round9">Round 9</a>
+		<ul>
+			<li><a href="#mt9">Misfortune Teller warning</a></li>
+			<li><a href="#wp9">Wild Pokémon</a></li>
+		</ul>
+	</li>
+	<li>
+		<a href="#round10">Round 10</a>
+		<ul>
+			<li><a href="#mt10">Misfortune Teller warning</a></li>
+			<li><a href="#wp10">Wild Pokémon</a></li>
+		</ul>
+	</li>
+	<li>
+		<a href="#round11">Round 11</a>
+		<ul>
+			<li><a href="#mt11">Misfortune Teller warning</a></li>
+			<li><a href="#wp11">Wild Pokémon</a></li>
+		</ul>
+	</li>
+	<li>
+		<a href="#round12">Round 12</a>
+		<ul>
+			<li><a href="#mt12">Misfortune Teller warning</a></li>
+			<li><a href="#wp12">Wild Pokémon</a></li>
+		</ul>
+	</li>
+	<li>
+		<a href="#round13">Round 13</a>
+		<ul>
+			<li><a href="#mt13">Misfortune Teller warning</a></li>
+			<li><a href="#wp13">Wild Pokémon</a></li>
+		</ul>
+	</li>
+	<li>
+		<a href="#round14">Round 14</a>
+		<ul>
+			<li><a href="#mt14">Misfortune Teller warning</a></li>
+			<li><a href="#wp14">Wild Pokémon</a></li>
+		</ul>
+	</li>
+	<li>
+		<a href="#round15">Round 15</a>
+		<ul>
+			<li><a href="#mt15">Misfortune Teller warning</a></li>
+			<li><a href="#wp15">Wild Pokémon</a></li>
+		</ul>
+	</li>
+	<li>
+		<a href="#round16">Round 16</a>
+		<ul>
+			<li><a href="#mt16">Misfortune Teller warning</a></li>
+			<li><a href="#wp16">Wild Pokémon</a></li>
+		</ul>
+	</li>
+	<li>
+		<a href="#round17">Round 17</a>
+		<ul>
+			<li><a href="#mt17">Misfortune Teller warning</a></li>
+			<li><a href="#wp17">Wild Pokémon</a></li>
+		</ul>
+	</li>
+	<li>
+		<a href="#round18">Round 18</a>
+		<ul>
+			<li><a href="#mt18">Misfortune Teller warning</a></li>
+			<li><a href="#wp18">Wild Pokémon</a></li>
+		</ul>
+	</li>
+	<li>
+		<a href="#round19">Round 19</a>
+		<ul>
+			<li><a href="#mt19">Misfortune Teller warning</a></li>
+			<li><a href="#wp19">Wild Pokémon</a></li>
+		</ul>
+	</li>
+	<li>
+		<a href="#round20">Round 20</a>
+		<ul>
+			<li><a href="#mt20">Misfortune Teller warning</a></li>
+			<li><a href="#wp20">Wild Pokémon</a></li>
+		</ul>
+	</li>
+	<li><a href="#reference">Reference</a></li>
+</ol>
+
+<h2><a name="introduction">Introduction</a></h2>
+<p>Welcome to the Battle Pyramid, one of seven battle facilities in the Battle Frontier of the Emerald version of Pokémon for the Advance generation. The Battle Pyramid is the pyramid building at the upper right side in this battle amusement park. In this topic, we are going to present the wild Pokémon you may encounter when you get to the Battle Pyramid. There may be many random Pokémon trainers to encounter and to be aware of, whom if you defeat, they'll give you a random hint; otherwise, they'll ridicule you for your defeat. The main focus will be detailing what to expect on your adventure in the Battle Pyramid as far as wild Pokémon.</p>
+
+<h2><a name="whylegacy">This is a legacy game: why should I do the Emerald Battle Frontier?</a></h2>
+<p>True, it's a legacy facility, but win each round here and you keep earning more battle points.</p>
+
+<h2><a name="whypoints">So why do I want to earn battle points?</a></h2>
+<p>While battle points can be used to earn nice prizes such as a Choice Band, which you can now easily duplicate with the cloning trick, along with many other items and minerals, there are move tutors that will teach Pokemon certain moves that are no longer learnable once they migrate over to Diamond &amp; Pearl through the Pal Park feature. Don't you want to teach Blissey Seismic Toss or Charizard Fire Punch? There are many other moves that can only be available in Emerald through earning battle points.</p>
+
+<h2><a name="determination">Wild Pokemon Determination</a></h2>
+<p>The Pokémon you battle depends on which floor you're on, and which round (set of seven floors) you're on. The first six floors have a low encounter rate, then the seventh doubles the encounter rate.</p>
+<p>To know which Pokémon will be on any given floor, find the floor on the chart below, then look at the numbers listed. Then, look for the Pokémon listed further below for the desired round's results. Match up the numbers with the Pokémon.</p>
+<pre>
+Floor 1: Rate=4% <span style="background: #000"><span style="color: #0f0">1 1</span> <span style="color: #00f">1 1 2 2</span> <span style="color: #ff0">3 3</span> <span style="color: #f90">3 4</span> <span style="color: #f00">3 4</span></span>
+Floor 2: Rate=4% <span style="background: #000"><span style="color: #0f0">2 2</span> <span style="color: #00f">2 2 3 3</span> <span style="color: #ff0">4 4</span> <span style="color: #f90">4 5</span> <span style="color: #f00">5 4</span></span>
+Floor 3: Rate=4% <span style="background: #000"><span style="color: #0f0">3 3</span> <span style="color: #00f">3 3 4 4</span> <span style="color: #ff0">5 5</span> <span style="color: #f90">5 6</span> <span style="color: #f00">5 6</span></span>
+Floor 4: Rate=4% <span style="background: #000"><span style="color: #0f0">5 5</span> <span style="color: #00f">5 5 6 6</span> <span style="color: #ff0">7 7</span> <span style="color: #f90">7 8</span> <span style="color: #f00">7 8</span></span>
+Floor 5: Rate=4% <span style="background: #000"><span style="color: #0f0">5 5</span> <span style="color: #00f">5 5 6 6</span> <span style="color: #ff0">7 7</span> <span style="color: #f90">7 8</span> <span style="color: #f00">7 8</span></span>
+Floor 6: Rate=4% <span style="background: #000"><span style="color: #0f0">6 6</span> <span style="color: #00f">6 5 7 7</span> <span style="color: #ff0">8 8</span> <span style="color: #f90">8 8</span> <span style="color: #f00">8 8</span></span>
+Floor 7: Rate=8% <span style="background: #000"><span style="color: #0f0">8 8</span> <span style="color: #00f">7 7 7 6</span> <span style="color: #ff0">6 6</span> <span style="color: #f90">5 5</span> <span style="color: #f00">5 5</span></span>
+
+<em>Legend:</em>
+<span style="color: #0f0; background: #000">20%</span>
+<span style="color: #00f; background: #000">10%</span>
+<span style="color: #ff0; background: #000">5%</span>
+<span style="color: #f90; background: #000">4%</span>
+<span style="color: #f00; background: #000">1%</span>
+</pre>
+
+<p>So, based on the defunct Pokefor site, which contained a page about Battle Pyramid wild Pokémon encounters, this is meant to present more clearly as a topic here; here they are.</p>
+
+<h2><a name="round1">Round 1</a></h2>
+<h3><a name="mt1">Misfortune Teller warning:</a></h3>
+<pre>
+... ... ... ... ... ...
+... ... ... ... ... ...
+... ... ... ... ... ...
+Aah!
+I see a shower of sparks...
+...And in it, I see your POKéMON
+struggling with paralysis...
+Whether you believe my fortunes
+or not, the choice is yours...
+The future can be changed anytime...
+I wish you safe passage...
+</pre>
+
+<h3><a name="wp1">Wild Pokemon:</a></h3>
+
+<h4>1. <a href="/rs/pokemon/plusle">Plusle</a></h4>
+<pre>Level 50 = Levels 30 - 40
+Open Level = (-20 - -10) levels from your highest level Pokémon
+~ Thunder Wave
+~ Spark
+~ Encore
+</pre>
+
+<h4>2. <a href="/rs/pokemon/minun">Minun</a></h4>
+<pre>Level 50 = Levels 30 - 40
+Open Level = (-20 - -10) levels from your highest level Pokémon
+~ Thunder Wave
+~ Thunderbolt
+~ Quick Attack
+</pre>
+
+<h4>3. <a href="/rs/pokemon/pikachu">Pikachu</a></h4>
+<pre>Level 50 = Levels 32 - 42
+Open Level = (-18 - -8) levels from your highest level Pokémon
+~ Thunder Wave
+~ Thunderbolt
+~ Slam
+</pre>
+
+<h4>4. <a href="/rs/pokemon/electabuzz">Electabuzz</a></h4>
+<pre>Level 50 = Levels 32 - 42
+Open Level = (-18 - -8) levels from your highest level Pokémon
+~ ThunderPunch
+~ Swift
+~ Screech
+</pre>
+
+<h4>5. <a href="/rs/pokemon/vileplume">Vileplume</a></h4>
+<pre>Level 50 = Levels 34 - 44
+Open Level = (-13 - -3) levels from your highest level Pokémon
+~ Stun Spore
+~ Giga Drain
+~ Protect
+</pre>
+
+<h4>6. <a href="/rs/pokemon/manectric">Manectric</a></h4>
+<pre>Level 50 = Levels 34 - 44
+Open Level = (-13 - -3) levels from your highest level Pokémon
+~ Thunder Wave
+~ Thunder
+~ Quick Attack
+</pre>
+
+<h4>7. <a href="/rs/pokemon/breloom">Breloom</a></h4>
+<pre>Level 50 = Levels 35 - 45
+Open Level = (-11 - -1) levels from your highest level Pokémon
+~ Stun Spore
+~ Focus Punch
+~ Giga Drain
+~ Mach Punch
+</pre>
+
+<h4>8. <a href="/rs/pokemon/jolteon">Jolteon</a></h4>
+<pre>Level 50 = Levels 35 - 45
+Open Level = (-11 - -1) levels from your highest level Pokémon
+~ Thunder Wave
+~ Thunder
+~ Pin Missile
+~ Quick Attack
+</pre>
+
+<h2><a name="round2">Round 2</a></h2>
+<h3><a name="mt2">Misfortune Teller warning:</a></h3>
+<pre>
+... ... ... ... ... ...
+... ... ... ... ... ...
+... ... ... ... ... ...
+Aah!
+I see poison...
+...And, I see your POKéMON suffering
+from the effects of poison...
+Whether you believe my fortunes
+or not, the choice is yours...
+The future can be changed anytime...
+I wish you safe passage...
+</pre>
+
+<h3><a name="wp2">Wild Pokemon:</a></h3>
+
+<h4>1. <a href="/rs/pokemon/gulpin">Gulpin</a></h4>
+<pre>Level 50 = Levels 31 - 41
+Open Level = (-19 - -9) levels from your highest level Pokémon
+~ Toxic
+~ Sludge
+~ Protect
+</pre>
+
+<h4>2. <a href="/rs/pokemon/roselia">Roselia</a></h4>
+<pre>Level 50 = Levels 31 - 41
+Open Level = (-19 - -9) levels from your highest level Pokémon
+~ Toxic
+~ Giga Drain
+~ Magical Leaf
+~ Petal Dance
+</pre>
+
+<h4>3. <a href="/rs/pokemon/butterfree">Butterfree</a></h4>
+<pre>Level 50 = Levels 33 - 43
+Open Level = (-17 - -7) levels from your highest level Pokémon
+~ Poisonpowder
+~ Gust
+~ Psybeam
+</pre>
+
+<h4>4. <a href="/rs/pokemon/seviper">Seviper</a></h4>
+<pre>Level 50 = Levels 33 - 43
+Open Level = (-17 - -7) levels from your highest level Pokémon
+~ Poison Fang
+~ Swagger
+~ Crunch
+~ Poison Tail
+</pre>
+
+<h4>5. <a href="/rs/pokemon/skarmory">Skarmory</a></h4>
+<pre>Level 50 = Levels 35 - 45
+Open Level = (-12 - -2) levels from your highest level Pokémon
+~ Toxic
+~ Fly
+~ Steel Wing
+</pre>
+
+<h4>6. <a href="/rs/pokemon/ludicolo, rain dish">Ludicolo, Rain Dish</a></h4>
+<pre>Level 50 = Levels 35 - 45
+Open Level = (-12 - -2) levels from your highest level Pokémon
+~ Toxic
+~ Protect
+~ Dive
+~ Rain Dance
+</pre>
+
+<h4>7. <a href="/rs/pokemon/crobat">Crobat</a></h4>
+<pre>Level 50 = Levels 36 - 46
+Open Level = (-10 - -0) levels from your highest level Pokémon
+~ Toxic
+~ Confuse Ray
+~ Mean Look
+~ Bite
+</pre>
+
+<h4>8. <a href="/rs/pokemon/gengar">Gengar</a></h4>
+<pre>Level 50 = Levels 36 - 46
+Open Level = (-10 - -0) levels from your highest level Pokémon
+~ Toxic
+~ Shadow Punch
+~ Night Shade
+</pre>
+
+<h2><a name="round3">Round 3</a></h2>
+<h3><a name="mt3">Misfortune Teller warning:</a></h3>
+<pre>
+... ... ... ... ... ...
+... ... ... ... ... ...
+... ... ... ... ... ...
+Aah!
+I see bright red flames...
+...And, I see your POKéMON suffering
+from burns...
+Whether you believe my fortunes
+or not, the choice is yours...
+The future can be changed anytime...
+I wish you safe passage...
+</pre>
+
+<h3><a name="wp3">Wild Pokemon:</a></h3>
+
+<h4>1. <a href="/rs/pokemon/growlithe">Growlithe</a></h4>
+<pre>Level 50 = Levels 32 - 42
+Open Level = (-18 - -8) levels from your highest level Pokémon
+~ Flame Wheel
+~ Take Down
+</pre>
+
+<h4>2. <a href="/rs/pokemon/vulpix">Vulpix</a></h4>
+<pre>Level 50 = Levels 32 - 42
+Open Level = (-18 - -8) levels from your highest level Pokémon
+~ Will-O-Wisp
+~ Flamethrower
+</pre>
+
+<h4>3. <a href="/rs/pokemon/magcargo, flame body">Magcargo, Flame Body</a></h4>
+<pre>Level 50 = Levels 34 - 44
+Open Level = (-16 - -6) levels from your highest level Pokémon
+~ Flamethrower
+~ Rock Slide
+~ Protect
+</pre>
+
+<h4>4. <a href="/rs/pokemon/ninetales">Ninetales</a></h4>
+<pre>Level 50 = Levels 34 - 44
+Open Level = (-16 - -6) levels from your highest level Pokémon
+~ Will-O-Wisp
+~ Quick Attack
+~ Flamethrower
+</pre>
+
+<h4>5. <a href="/rs/pokemon/medicham">Medicham</a></h4>
+<pre>Level 50 = Levels 36 - 46
+Open Level = (-11 - -1) levels from your highest level Pokémon
+~ Fire Punch
+~ Hi Jump Kick
+</pre>
+
+<h4>6. <a href="/rs/pokemon/weezing">Weezing</a></h4>
+<pre>Level 50 = Levels 36 - 46
+Open Level = (-11 - -1) levels from your highest level Pokémon
+~ Will-O-Wisp
+~ Flamethrower
+~ Protect
+</pre>
+
+<h4>7. <a href="/rs/pokemon/dusclops">Dusclops</a></h4>
+<pre>Level 50 = Levels 37 - 47
+Open Level = (-10 - -0) levels from your highest level Pokémon
+~ Will-O-Wisp
+~ Confuse Ray
+~ Mean Look
+~ Shadow Punch
+</pre>
+
+<h4>8. <a href="/rs/pokemon/houndoom">Houndoom</a></h4>
+<pre>Level 50 = Levels 37 - 47
+Open Level = (-10 - -0) levels from your highest level Pokémon
+~ Flamethrower
+~ Bite
+~ SolarBeam
+~ Overheat
+</pre>
+
+<h2><a name="round4">Round 4</a></h2>
+<h3><a name="mt4">Misfortune Teller warning:</a></h3>
+<pre>
+... ... ... ... ... ...
+... ... ... ... ... ...
+... ... ... ... ... ...
+Aah!
+I sense the tremendous pressure of
+unrequited anger...
+It is a curse...
+...And, I see your POKéMON drained of
+Power Points and having no recourse
+but to use STRUGGLE
+Whether you believe my fortunes
+or not, the choice is yours...
+The future can be changed anytime...
+I wish you safe passage...
+</pre>
+
+<h3><a name="wp4">Wild Pokemon:</a></h3>
+
+<h4>1. <a href="/rs/pokemon/dunsparce">Dunsparce</a></h4>
+<pre>Level 50 = Levels 37 - 47
+Open Level = (-13 - -3) levels from your highest level Pokémon
+~ Spite
+~ Toxic
+~ Protect
+</pre>
+
+<h4>2. <a href="/rs/pokemon/banette">Banette</a></h4>
+<pre>Level 50 = Levels 36 - 46
+Open Level = (-15 - -5) levels from your highest level Pokémon
+~ Grudge
+~ Will-O-Wisp
+~ Night Shade
+</pre>
+
+<h4>3. <a href="/rs/pokemon/misdreavus">Misdreavus</a></h4>
+<pre>Level 50 = Levels 37 - 47
+Open Level = (-13 - -3) levels from your highest level Pokémon
+~ Grudge
+~ Spite
+~ Shadow Ball
+</pre>
+
+<h4>4. <a href="/rs/pokemon/ninetales">Ninetales</a></h4>
+<pre>Level 50 = Levels 37 - 47
+Open Level = (-13 - -3) levels from your highest level Pokémon
+~ Grudge
+~ Will-O-Wisp
+~ Overheat
+</pre>
+
+<h4>5. <a href="/rs/pokemon/absol">Absol</a></h4>
+<pre>Level 50 = Levels 39 - 49
+Open Level = (-11 - -1) levels from your highest level Pokémon
+~ Bite
+~ Aerial Ace
+~ Shadow Ball
+~ Protect
+</pre>
+
+<h4>6. <a href="/rs/pokemon/dusclops">Dusclops</a></h4>
+<pre>Level 50 = Levels 39 - 49
+Open Level = (-11 - -1) levels from your highest level Pokémon
+~ Will-O-Wisp
+~ Protect
+~ Toxic
+~ Shadow Ball
+</pre>
+
+<h4>7. <a href="/rs/pokemon/shedinja">Shedinja</a></h4>
+<pre>Level 50 = Levels 40 - 50
+Open Level = (-10 - -0) levels from your highest level Pokémon
+~ Grudge
+~ Toxic
+~ Spite
+</pre>
+
+<h4>8. <a href="/rs/pokemon/gengar">Gengar</a></h4>
+<pre>Level 50 = Levels 40 - 50
+Open Level = (-10 - -0) levels from your highest level Pokémon
+~ Grudge
+~ Spite
+~ Night Shade
+</pre>
+
+<h2><a name="round5">Round 5</a></h2>
+<h3><a name="mt5">Misfortune Teller warning:</a></h3>
+<pre>
+... ... ... ... ... ...
+... ... ... ... ... ...
+... ... ... ... ... ...
+Aah!
+I see POKéMON loftily airborne...
+...And, I see your POKéMON frustrated
+by powerless GROUND-type moves...
+Whether you believe my fortunes
+or not, the choice is yours...
+The future can be changed anytime...
+I wish you safe passage...
+</pre>
+
+<h3><a name="wp5">Wild Pokemon:</a></h3>
+
+<h4>1. <a href="/rs/pokemon/haunter">Haunter</a></h4>
+<pre>Level 50 = Levels 36 - 46
+Open Level = (-15 - -5) levels from your highest level Pokémon
+~ Night Shade
+~ Thunderbolt
+~ Sludge Bomb
+</pre>
+
+<h4>2. <a href="/rs/pokemon/chimecho">Chimecho</a></h4>
+<pre>Level 50 = Levels 36 - 46
+Open Level = (-15 - -5) levels from your highest level Pokémon
+~ Double-Edge
+~ Toxic
+~ Psychic
+~ Protect
+</pre>
+
+<h4>3. <a href="/rs/pokemon/solrock">Solrock</a></h4>
+<pre>Level 50 = Levels 37 - 47
+Open Level = (-13 - -3) levels from your highest level Pokémon
+~ Earthquake
+~ Rock Slide
+~ Fire Blast
+~ Toxic
+</pre>
+
+<h4>4. <a href="/rs/pokemon/misdreavus">Misdreavus</a></h4>
+<pre>Level 50 = Levels 37 - 47
+Open Level = (-13 - -3) levels from your highest level Pokémon
+~ Psychic
+~ Spite
+~ Shadow Ball
+~ Pain Split
+</pre>
+
+<h4>5. <a href="/rs/pokemon/claydol">Claydol</a></h4>
+<pre>Level 50 = Levels 39 - 49
+Open Level = (-11 - -1) levels from your highest level Pokémon
+~ Earthquake
+~ AncientPower
+~ Selfdestruct
+~ Psychic
+</pre>
+
+<h4>6. <a href="/rs/pokemon/weezing">Weezing</a></h4>
+<pre>Level 50 = Levels 39 - 49
+Open Level = (-11 - -1) levels from your highest level Pokémon
+~ Sludge Bomb
+~ Selfdestruct
+~ Protect
+</pre>
+
+<h4>7. <a href="/rs/pokemon/flygon">Flygon</a></h4>
+<pre>Level 50 = Levels 40 - 50
+Open Level = (-10 - -0) levels from your highest level Pokémon
+~ Earthquake
+~ Crunch
+~ Dragon Claw
+~ Dragonbreath
+</pre>
+
+<h4>8. <a href="/rs/pokemon/gengar">Gengar</a></h4>
+<pre>Level 50 = Levels 40 - 50
+Open Level = (-10 - -0) levels from your highest level Pokémon
+~ Thunderbolt
+~ Psychic
+~ Giga Drain
+~ Night Shade
+</pre>
+
+<h2><a name="round6">Round 6</a></h2>
+<h3><a name="mt6">Misfortune Teller warning:</a></h3>
+<pre>
+... ... ... ... ... ...
+... ... ... ... ... ...
+... ... ... ... ... ...
+Aah!
+I sense terrific energy rising from
+the ground below...
+...And, I see your POKéMON unable to
+escape the power's clutches...
+Whether you believe my fortunes
+or not, the choice is yours...
+The future can be changed anytime...
+I wish you safe passage...
+</pre>
+
+<h3><a name="wp6">Wild Pokemon:</a></h3>
+
+<h4>1. <a href="/rs/pokemon/diglett">Diglett</a></h4>
+<pre>Level 50 = Levels 36 - 46
+Open Level = (-15 - -5) levels from your highest level Pokémon
+~ Rock Slide
+~ Slash
+~ Dig
+</pre>
+
+<h4>2. <a href="/rs/pokemon/trapinch">Trapinch</a></h4>
+<pre>Level 50 = Levels 36 - 46
+Open Level = (-15 - -5) levels from your highest level Pokémon
+~ Rock Slide
+~ Earthquake
+~ Giga Drain
+</pre>
+
+<h4>3. <a href="/rs/pokemon/wynaut, shadow tag">Wynaut, Shadow Tag</a></h4>
+<pre>Level 50 = Levels 37 - 47
+Open Level = (-13 - -3) levels from your highest level Pokémon
+~ Destiny Bond
+~ Splash
+~ Counter
+~ Mirror Coat
+</pre>
+
+<h4>4. <a href="/rs/pokemon/diglett">Diglett</a></h4>
+<pre>Level 50 = Levels 37 - 47
+Open Level = (-13 - -3) levels from your highest level Pokémon
+~ Earthquake
+~ Rock Slide
+~ Magnitude
+~ Toxic
+</pre>
+
+<h4>5. <a href="/rs/pokemon/trapinch">Trapinch</a></h4>
+<pre>Level 50 = Levels 39 - 49
+Open Level = (-11 - -1) levels from your highest level Pokémon
+~ Rock Slide
+~ Earthquake
+~ Giga Drain
+~ Protect
+</pre>
+
+<h4>6. <a href="/rs/pokemon/wynaut, shadow tag">Wynaut, Shadow Tag</a></h4>
+<pre>Level 50 = Levels 39 - 49
+Open Level = (-11 - -1) levels from your highest level Pokémon
+~ Counter
+~ Mirror Coat
+~ Destiny Bond
+</pre>
+
+<h4>7. <a href="/rs/pokemon/wobbuffet, shadow tag">Wobbuffet, Shadow Tag</a></h4>
+<pre>Level 50 = Levels 40 - 50
+Open Level = (-10 - -0) levels from your highest level Pokémon
+~ Counter
+~ Mirror Coat
+~ Destiny Bond
+</pre>
+
+<h4>8. <a href="/rs/pokemon/dugtrio, arena trap">Dugtrio, Arena Trap</a></h4>
+<pre>Level 50 = Levels 40 - 50
+Open Level = (-10 - -0) levels from your highest level Pokémon
+~ Rock Slide
+~ Sludge Bomb
+~ Earthquake
+~ Protect
+</pre>
+
+<h2><a name="round7">Round 7</a></h2>
+<h3><a name="mt7">Misfortune Teller warning:</a></h3>
+<pre>
+... ... ... ... ... ...
+... ... ... ... ... ...
+... ... ... ... ... ...
+Aah!
+I see ICE-type POKéMON...
+...And, I see your POKéMON fighting
+the freezing effects of ice...
+Whether you believe my fortunes
+or not, the choice is yours...
+The future can be changed anytime...
+I wish you safe passage...
+</pre>
+
+<h3><a name="wp7">Wild Pokemon:</a></h3>
+
+<h4>1. <a href="/rs/pokemon/glalie">Glalie</a></h4>
+<pre>Level 50 = Levels 36 - 46
+Open Level = (-15 - -5) levels from your highest level Pokémon
+~ Ice Beam
+~ Crunch
+~ Protect
+</pre>
+
+<h4>2. <a href="/rs/pokemon/sneasel">Sneasel</a></h4>
+<pre>Level 50 = Levels 36 - 46
+Open Level = (-15 - -5) levels from your highest level Pokémon
+~ Ice Beam
+~ Crush Claw
+~ Spite
+</pre>
+
+<h4>3. <a href="/rs/pokemon/dewgong">Dewgong</a></h4>
+<pre>Level 50 = Levels 37 - 47
+Open Level = (-13 - -3) levels from your highest level Pokémon
+~ Blizzard
+~ Double-Edge
+~ Surf
+</pre>
+
+<h4>4. <a href="/rs/pokemon/piloswine">Piloswine</a></h4>
+<pre>Level 50 = Levels 37 - 47
+Open Level = (-13 - -3) levels from your highest level Pokémon
+~ Ice Beam
+~ Earthquake
+~ Toxic
+</pre>
+
+<h4>5. <a href="/rs/pokemon/jynx">Jynx</a></h4>
+<pre>Level 50 = Levels 39 - 49
+Open Level = (-11 - -1) levels from your highest level Pokémon
+~ Blizzard
+~ Lovely Kiss
+~ Psychic
+</pre>
+
+<h4>6. <a href="/rs/pokemon/cloyster">Cloyster</a></h4>
+<pre>Level 50 = Levels 39 - 49
+Open Level = (-11 - -1) levels from your highest level Pokémon
+~ Ice Beam
+~ Surf
+~ Protect
+</pre>
+
+<h4>7. <a href="/rs/pokemon/walrein">Walrein</a></h4>
+<pre>Level 50 = Levels 40 - 50
+Open Level = (-10 - -0) levels from your highest level Pokémon
+~ Blizzard
+~ Body Slam
+~ Surf
+</pre>
+
+<h4>8. <a href="/rs/pokemon/lapras">Lapras</a></h4>
+<pre>Level 50 = Levels 40 - 50
+Open Level = (-10 - -0) levels from your highest level Pokémon
+~ Sing
+~ Body Slam
+~ Ice Beam
+~ Psychic
+</pre>
+
+<h2><a name="round8">Round 8</a></h2>
+<h3><a name="mt8">Misfortune Teller warning:</a></h3>
+<pre>
+... ... ... ... ... ...
+... ... ... ... ... ...
+... ... ... ... ... ...
+Aah!
+I see a flurry of moves that imperil
+the user...
+...And, I see your POKéMON falling
+to them...
+Whether you believe my fortunes
+or not, the choice is yours...
+The future can be changed anytime...
+I wish you safe passage...
+</pre>
+
+<h3><a name="wp8">Wild Pokemon:</a></h3>
+
+<h4>1. <a href="/rs/pokemon/weezing">Weezing</a></h4>
+<pre>Level 50 = Levels 36 - 46
+Open Level = (-15 - -5) levels from your highest level Pokémon
+~ Selfdestruct
+~ Sludge Bomb
+~ Fire Blast
+</pre>
+
+<h4>2. <a href="/rs/pokemon/electrode">Electrode</a></h4>
+<pre>Level 50 = Levels 36 - 46
+Open Level = (-15 - -5) levels from your highest level Pokémon
+~ Selfdestruct
+~ Thunderbolt
+~ Rollout
+</pre>
+
+<h4>3. <a href="/rs/pokemon/gengar">Gengar</a></h4>
+<pre>Level 50 = Levels 37 - 47
+Open Level = (-13 - -3) levels from your highest level Pokémon
+~ Destiny Bond
+~ Lick
+~ Shadow Ball
+</pre>
+
+<h4>4. <a href="/rs/pokemon/golem">Golem</a></h4>
+<pre>Level 50 = Levels 37 - 47
+Open Level = (-13 - -3) levels from your highest level Pokémon
+~ Selfdestruct
+~ Protect
+~ Earthquake
+</pre>
+
+<h4>5. <a href="/rs/pokemon/pineco">Pineco</a></h4>
+<pre>Level 50 = Levels 39 - 49
+Open Level = (-11 - -1) levels from your highest level Pokémon
+~ Explosion
+~ Double-Edge
+~ Giga Drain
+</pre>
+
+<h4>6. <a href="/rs/pokemon/solrock">Solrock</a></h4>
+<pre>Level 50 = Levels 39 - 49
+Open Level = (-11 - -1) levels from your highest level Pokémon
+~ Explosion
+~ Fire Spin
+~ Psywave
+</pre>
+
+<h4>7. <a href="/rs/pokemon/forretress">Forretress</a></h4>
+<pre>Level 50 = Levels 40 - 50
+Open Level = (-10 - -0) levels from your highest level Pokémon
+~ Explosion
+~ Toxic
+~ Rock Slide
+</pre>
+
+<h4>8. <a href="/rs/pokemon/shiftry">Shiftry</a></h4>
+<pre>Level 50 = Levels 40 - 50
+Open Level = (-10 - -0) levels from your highest level Pokémon
+~ Explosion
+~ Giga Drain
+~ SolarBeam
+~ Protect
+</pre>
+
+<h2><a name="round9">Round 9</a></h2>
+<h3><a name="mt9">Misfortune Teller warning:</a></h3>
+<pre>
+... ... ... ... ... ...
+... ... ... ... ... ...
+... ... ... ... ... ...
+Aah!
+I see PSYCHIC-type POKeMON...
+...And, I see your POKeMON
+in torment from PSYCHIC moves...
+Whether you believe my fortunes
+or not, the choice is yours...
+The future can be changed anytime...
+I wish you safe passage...
+</pre>
+
+<h3><a name="wp9">Wild Pokemon:</a></h3>
+
+<h4>1. <a href="/rs/pokemon/wobbuffet">Wobbuffet</a></h4>
+<pre>Level 50 = Levels 36 - 46
+Open Level = (-15 - -5) levels from your highest level Pokémon
+~ Counter
+~ Mirror Coat
+~ Safeguard
+~ Destiny Bond
+</pre>
+
+<h4>2. <a href="/rs/pokemon/metang">Metang</a></h4>
+<pre>Level 50 = Levels 36 - 46
+Open Level = (-15 - -5) levels from your highest level Pokémon
+~ Earthquake
+~ Toxic
+~ Sludge Bomb
+~ Psychic
+</pre>
+
+<h4>3. <a href="/rs/pokemon/exeggutor">Exeggutor</a></h4>
+<pre>Level 50 = Levels 37 - 47
+Open Level = (-13 - -3) levels from your highest level Pokémon
+~ Egg Bomb
+~ Psychic
+~ Hypnosis
+</pre>
+
+<h4>4. <a href="/rs/pokemon/slowking">Slowking</a></h4>
+<pre>Level 50 = Levels 37 - 47
+Open Level = (-13 - -3) levels from your highest level Pokémon
+~ Shadow Ball
+~ Surf
+~ Ice Beam
+~ Flamethrower
+</pre>
+
+<h4>5. <a href="/rs/pokemon/xatu">Xatu</a></h4>
+<pre>Level 50 = Levels 39 - 49
+Open Level = (-11 - -1) levels from your highest level Pokémon
+~ Confuse Ray
+~ Shadow Ball
+~ Psychic
+~ Steel Wing
+</pre>
+
+<h4>6. <a href="/rs/pokemon/alakazam">Alakazam</a></h4>
+<pre>Level 50 = Levels 39 - 49
+Open Level = (-11 - -1) levels from your highest level Pokémon
+~ Psychic
+~ Fire Punch
+~ Ice Punch
+~ Toxic
+</pre>
+
+<h4>7. <a href="/rs/pokemon/starmie">Starmie</a></h4>
+<pre>Level 50 = Levels 40 - 50
+Open Level = (-10 - -0) levels from your highest level Pokémon
+~ Psychic
+~ Thunderbolt
+~ Surf
+~ Ice Beam
+</pre>
+
+<h4>8. <a href="/rs/pokemon/espeon">Espeon</a></h4>
+<pre>Level 50 = Levels 40 - 50
+Open Level = (-10 - -0) levels from your highest level Pokémon
+~ Psychic
+~ Dig
+~ Shadow Ball
+</pre>
+
+<h2><a name="round10">Round 10</a></h2>
+<h3><a name="mt10">Misfortune Teller warning:</a></h3>
+<pre>
+... ... ... ... ... ...
+... ... ... ... ... ...
+... ... ... ... ... ...
+Aah!
+I see ROCK-type POKeMON...
+...And, I see your POKeMON
+suffering from ROCK moves...
+Whether you believe my fortunes
+or not, the choice is yours...
+The future can be changed anytime...
+I wish you safe passage...
+</pre>
+
+<h3><a name="wp10">Wild Pokemon:</a></h3>
+
+<h4>1. <a href="/rs/pokemon/golem">Golem</a></h4>
+<pre>Level 50 = Levels 36 - 46
+Open Level = (-15 - -5) levels from your highest level Pokémon
+~ Selfdestruct
+~ Earthquake
+~ Protect
+</pre>
+
+<h4>2. <a href="/rs/pokemon/steelix">Steelix</a></h4>
+<pre>Level 50 = Levels 36 - 46
+Open Level = (-15 - -5) levels from your highest level Pokémon
+~ Iron Tail
+~ Crunch
+~ Earthquake
+</pre>
+
+<h4>3. <a href="/rs/pokemon/omastar">Omastar</a></h4>
+<pre>Level 50 = Levels 37 - 47
+Open Level = (-13 - -3) levels from your highest level Pokémon
+~ Surf
+~ Mud Shot
+~ AncientPower
+</pre>
+
+<h4>4. <a href="/rs/pokemon/lunatone">Lunatone</a></h4>
+<pre>Level 50 = Levels 37 - 47
+Open Level = (-13 - -3) levels from your highest level Pokémon
+~ Hypnosis
+~ Psywave
+~ Explosion
+</pre>
+
+<h4>5. <a href="/rs/pokemon/shuckle">Shuckle</a></h4>
+<pre>Level 50 = Levels 39 - 49
+Open Level = (-11 - -1) levels from your highest level Pokémon
+~ Toxic
+~ Protect
+~ Wrap
+</pre>
+
+<h4>6. <a href="/rs/pokemon/armaldo">Armaldo</a></h4>
+<pre>Level 50 = Levels 39 - 49
+Open Level = (-11 - -1) levels from your highest level Pokémon
+~ AncientPower
+~ Protect
+~ Aerial Ace
+</pre>
+
+<h4>7. <a href="/rs/pokemon/cradily">Cradily</a></h4>
+<pre>Level 50 = Levels 40 - 50
+Open Level = (-10 - -0) levels from your highest level Pokémon
+~ Sludge Bomb
+~ Giga Drain
+~ Confuse Ray
+</pre>
+
+<h4>8. <a href="/rs/pokemon/aerodactyl">Aerodactyl</a></h4>
+<pre>Level 50 = Levels 40 - 50
+Open Level = (-10 - -0) levels from your highest level Pokémon
+~ Hyper Beam
+~ Rock Slide
+~ Bite
+</pre>
+
+<h2><a name="round11">Round 11</a></h2>
+<h3><a name="mt11">Misfortune Teller warning:</a></h3>
+<pre>
+... ... ... ... ... ...
+... ... ... ... ... ...
+... ... ... ... ... ...
+Aah!
+I see FIGHTING-type POKéMON...
+... And, I see your POKéMON pummeled
+by FIGHTING moves...
+Whether you believe my fortunes
+or not, the choice is yours...
+The future can be changed anytime...
+I wish you safe passage...
+</pre>
+
+<h3><a name="wp11">Wild Pokemon:</a></h3>
+
+<h4>1. <a href="/rs/pokemon/poliwrath">Poliwrath</a></h4>
+<pre>Level 50 = Levels 36 - 46
+Open Level = (-15 - -5) levels from your highest level Pokémon
+~ Submission
+~ Focus Punch
+~ Surf
+</pre>
+
+<h4>2. <a href="/rs/pokemon/hariyama">Hariyama</a></h4>
+<pre>Level 50 = Levels 36 - 46
+Open Level = (-15 - -5) levels from your highest level Pokémon
+~ Fake Out
+~ Surf
+~ Focus Punch
+</pre>
+
+<h4>3. <a href="/rs/pokemon/breloom">Breloom</a></h4>
+<pre>Level 50 = Levels 37 - 47
+Open Level = (-13 - -3) levels from your highest level Pokémon
+~ Spore
+~ Focus Punch
+~ Protect
+</pre>
+
+<h4>4. <a href="/rs/pokemon/medicham">Medicham</a></h4>
+<pre>Level 50 = Levels 37 - 47
+Open Level = (-13 - -3) levels from your highest level Pokémon
+~ ThunderPunch
+~ Fire Punch
+~ Ice Punch
+~ Focus Punch
+</pre>
+
+<h4>5. <a href="/rs/pokemon/hitmonchan">Hitmonchan</a></h4>
+<pre>Level 50 = Levels 39 - 49
+Open Level = (-11 - -1) levels from your highest level Pokémon
+~ ThunderPunch
+~ Fire Punch
+~ Ice Punch
+~ Focus Punch
+</pre>
+
+<h4>6. <a href="/rs/pokemon/hitmonlee">Hitmonlee</a></h4>
+<pre>Level 50 = Levels 39 - 49
+Open Level = (-11 - -1) levels from your highest level Pokémon
+~ Mega Kick
+~ Focus Punch
+</pre>
+
+<h4>7. <a href="/rs/pokemon/heracross">Heracross</a></h4>
+<pre>Level 50 = Levels 40 - 50
+Open Level = (-10 - -0) levels from your highest level Pokémon
+~ Megahorn
+~ Earthquake
+~ Focus Punch
+~ Rock Slide
+</pre>
+
+<h4>8. <a href="/rs/pokemon/machamp">Machamp</a></h4>
+<pre>Level 50 = Levels 45 - 55
+Open Level = (-10 - -0) levels from your highest level Pokémon
+~ Rock Slide
+~ Earthquake
+~ Focus Punch
+~ Seismic Toss
+</pre>
+
+<h2><a name="round12">Round 12</a></h2>
+<h3><a name="mt12">Misfortune Teller warning:</a></h3>
+<pre>
+... ... ... ... ... ...
+Aah!
+RAIN DANCE... SUNNY DAY...
+SANDSTORM... HAIL...
+I see POKéMON that become stronger
+with the weather...
+...And, I see your POKéMON confounded
+by different types of moves...
+Whether you believe my fortunes
+or not, the choice is yours...
+The future can be changed anytime...
+I wish you safe passage...
+</pre>
+
+<h3><a name="wp12">Wild Pokemon:</a></h3>
+
+<h4>1. <a href="/rs/pokemon/quagsire">Quagsire</a></h4>
+<pre>Level 50 = Levels 36 - 46
+Open Level = (-15 - -5) levels from your highest level Pokémon
+~ Rain Dance
+~ Surf
+~ Protect
+</pre>
+
+<h4>2. <a href="/rs/pokemon/tropius">Tropius</a></h4>
+<pre>Level 50 = Levels 36 - 46
+Open Level = (-15 - -5) levels from your highest level Pokémon
+~ Sunny Day
+~ SolarBeam
+</pre>
+
+<h4>3. <a href="/rs/pokemon/pupitar">Pupitar</a></h4>
+<pre>Level 50 = Levels 37 - 47
+Open Level = (-13 - -3) levels from your highest level Pokémon
+~ Sandstorm
+~ Earthquake
+~ Rock Slide
+</pre>
+
+<h4>4. <a href="/rs/pokemon/lapras">Lapras</a></h4>
+<pre>Level 50 = Levels 37 - 47
+Open Level = (-13 - -3) levels from your highest level Pokémon
+~ Hail
+~ Ice Beam
+</pre>
+
+<h4>5. <a href="/rs/pokemon/cacturne">Cacturne</a></h4>
+<pre>Level 50 = Levels 39 - 49
+Open Level = (-11 - -1) levels from your highest level Pokémon
+~ Sandstorm
+~ Giga Drain
+~ SolarBeam
+</pre>
+
+<h4>6. <a href="/rs/pokemon/flareon">Flareon</a></h4>
+<pre>Level 50 = Levels 39 - 49
+Open Level = (-11 - -1) levels from your highest level Pokémon
+~ Sunny Day
+~ Flamethrower
+~ Protect
+</pre>
+
+<h4>7. <a href="/rs/pokemon/walrein">Walrein</a></h4>
+<pre>Level 50 = Levels 40 - 50
+Open Level = (-10 - -0) levels from your highest level Pokémon
+~ Hail
+~ Ice Beam
+</pre>
+
+<h4>8. <a href="/rs/pokemon/gyarados">Gyarados</a></h4>
+<pre>Level 50 = Levels 45 - 55
+Open Level = (-10 - -0) levels from your highest level Pokémon
+~ Rain Dance
+~ Thunder
+~ Hydro Pump
+</pre>
+
+<h2><a name="round13">Round 13</a></h2>
+<h3><a name="mt13">Misfortune Teller warning:</a></h3>
+<pre>
+... ... ... ... ... ...
+... ... ... ... ... ...
+... ... ... ... ... ...
+Aah!
+I see BUG-type POKéMON...
+...And, I see your POKéMON suffering
+from different kinds of attacks...
+Whether you believe my fortunes
+or not, the choice is yours...
+The future can be changed anytime...
+I wish you safe passage...
+</pre>
+
+<h3><a name="wp13">Wild Pokemon:</a></h3>
+
+<h4>1. <a href="/rs/pokemon/pineco">Pineco</a></h4>
+<pre>Level 50 = Levels 37 - 47
+Open Level = (-15 - -5) levels from your highest level Pokémon
+~ Explosion
+~ Take Down
+</pre>
+
+<h4>2. <a href="/rs/pokemon/shuckle">Shuckle</a></h4>
+<pre>Level 50 = Levels 37 - 47
+Open Level = (-15 - -5) levels from your highest level Pokémon
+~ Toxic
+~ Earthquake
+~ Protect
+</pre>
+
+<h4>3. <a href="/rs/pokemon/venomoth">Venomoth</a></h4>
+<pre>Level 50 = Levels 41 - 51
+Open Level = (-13 - -3) levels from your highest level Pokémon
+~ Silver Wind
+~ Poisonpowder
+~ Sleep Powder
+~ Psychic
+</pre>
+
+<h4>4. <a href="/rs/pokemon/scizor">Scizor</a></h4>
+<pre>Level 50 = Levels 41 - 51
+Open Level = (-13 - -3) levels from your highest level Pokémon
+~ Quick Attack
+~ Metal Claw
+~ Fury Cutter
+~ Pursuit
+</pre>
+
+<h4>5. <a href="/rs/pokemon/heracross">Heracross</a></h4>
+<pre>Level 50 = Levels 43 - 53
+Open Level = (-11 - -1) levels from your highest level Pokémon
+~ Megahorn
+~ Brick Break
+~ Earthquake
+~ Rock Slide
+</pre>
+
+<h4>6. <a href="/rs/pokemon/forretress">Forretress</a></h4>
+<pre>Level 50 = Levels 43 - 53
+Open Level = (-11 - -1) levels from your highest level Pokémon
+~ Explosion
+~ Earthquake
+~ Protect
+</pre>
+
+<h4>7. <a href="/rs/pokemon/armaldo">Armaldo</a></h4>
+<pre>Level 50 = Levels 45 - 55
+Open Level = (-10 - -0) levels from your highest level Pokémon
+~ Water Pulse
+~ Protect
+~ Rock Slide
+</pre>
+
+<h4>8. <a href="/rs/pokemon/shedinja">Shedinja</a></h4>
+<pre>Level 50 = Levels 45 - 55
+Open Level = (-10 - -0) levels from your highest level Pokémon
+~ Shadow Ball
+~ Toxic
+~ Spite
+~ Grudge
+</pre>
+
+<h2><a name="round14">Round 14</a></h2>
+<h3><a name="mt14">Misfortune Teller warning:</a></h3>
+<pre>
+... ... ... ... ... ...
+... ... ... ... ... ...
+... ... ... ... ... ...
+Aah!
+I see DARK-type POKEMON...
+...And, I see your POKEMON suffering
+from DARK-type moves...
+Whether you believe my fortunes
+or not, the choice is yours...
+The future can be changed anytime...
+I wish you safe passage...
+</pre>
+
+<h3><a name="wp14">Wild Pokemon:</a></h3>
+
+<h4>1. <a href="/rs/pokemon/sableye">Sableye</a></h4>
+<pre>Level 50 = Levels 37 - 47
+Open Level = (-15 - -5) levels from your highest level Pokémon
+~ Night Shade
+~ Psychic
+~ Aerial Ace
+</pre>
+
+<h4>2. <a href="/rs/pokemon/sneasel">Sneasel</a></h4>
+<pre>Level 50 = Levels 37 - 47
+Open Level = (-15 - -5) levels from your highest level Pokémon
+~ Ice Beam
+~ Taunt
+~ Faint Attack
+~ Quick Attack
+</pre>
+
+<h4>3. <a href="/rs/pokemon/crawdaunt">Crawdaunt</a></h4>
+<pre>Level 50 = Levels 41 - 51
+Open Level = (-13 - -3) levels from your highest level Pokémon
+~ Crabhammer
+~ Ice Beam
+~ Surf
+</pre>
+
+<h4>4. <a href="/rs/pokemon/shiftry">Shiftry</a></h4>
+<pre>Level 50 = Levels 41 - 51
+Open Level = (-13 - -3) levels from your highest level Pokémon
+~ Explosion
+~ Shadow Ball
+~ Aerial Ace
+~ Giga Drain
+</pre>
+
+<h4>5. <a href="/rs/pokemon/cacturne">Cacturne</a></h4>
+<pre>Level 50 = Levels 43 - 53
+Open Level = (-11 - -1) levels from your highest level Pokémon
+~ Toxic
+~ Giga Drain
+~ Needle Arm
+</pre>
+
+<h4>6. <a href="/rs/pokemon/absol">Absol</a></h4>
+<pre>Level 50 = Levels 43 - 53
+Open Level = (-11 - -1) levels from your highest level Pokémon
+~ Bite
+~ Protect
+~ Slash
+</pre>
+
+<h4>7. <a href="/rs/pokemon/houndoom">Houndoom</a></h4>
+<pre>Level 50 = Levels 45 - 55
+Open Level = (-10 - -0) levels from your highest level Pokémon
+~ Overheat
+~ Crunch
+~ Shadow Ball
+~ Protect
+</pre>
+
+<h4>8. <a href="/rs/pokemon/umbreon">Umbreon</a></h4>
+<pre>Level 50 = Levels 45 - 55
+Open Level = (-10 - -0) levels from your highest level Pokémon
+~ Psychic
+~ Shadow Ball
+~ Iron Tail
+~ Quick Attack
+</pre>
+
+<h2><a name="round15">Round 15</a></h2>
+<h3><a name="mt15">Misfortune Teller warning:</a></h3>
+<pre>
+... ... ... ... ... ...
+... ... ... ... ... ...
+... ... ... ... ... ...
+Aah!
+I see WATER-type POKEMON…
+...And, I see your POKEMON suffering
+from WATER-type moves...
+Whether you believe my fortunes
+or not, the choice is yours...
+The future can be changed anytime...
+I wish you safe passage...
+</pre>
+
+<h3><a name="wp15">Wild Pokemon:</a></h3>
+
+<h4>1. <a href="/rs/pokemon/octillery">Octillery</a></h4>
+<pre>Level 50 = Levels 37 - 47
+Open Level = (-15 - -5) levels from your highest level Pokémon
+~ Octazooka
+~ Ice Beam
+~ Fire Blast
+</pre>
+
+<h4>2. <a href="/rs/pokemon/dewgong">Dewgong</a></h4>
+<pre>Level 50 = Levels 37 - 47
+Open Level = (-15 - -5) levels from your highest level Pokémon
+~ Water Pulse
+~ Ice Beam
+~ Headbutt
+</pre>
+
+<h4>3. <a href="/rs/pokemon/pelipper">Pelipper</a></h4>
+<pre>Level 50 = Levels 41 - 51
+Open Level = (-13 - -3) levels from your highest level Pokémon
+~ Protect
+~ Supersonic
+~ Surf
+</pre>
+
+<h4>4. <a href="/rs/pokemon/quagsire">Quagsire</a></h4>
+<pre>Level 50 = Levels 41 - 51
+Open Level = (-13 - -3) levels from your highest level Pokémon
+~ Earthquake
+~ Rock Tomb
+~ Surf
+</pre>
+
+<h4>5. <a href="/rs/pokemon/ludicolo">Ludicolo</a></h4>
+<pre>Level 50 = Levels 43 - 53
+Open Level = (-11 - -1) levels from your highest level Pokémon
+~ Protect
+~ SolarBeam
+~ Toxic
+~ Ice Beam
+</pre>
+
+<h4>6. <a href="/rs/pokemon/slowking">Slowking</a></h4>
+<pre>Level 50 = Levels 43 - 53
+Open Level = (-11 - -1) levels from your highest level Pokémon
+~ Psychic
+~ Headbutt
+~ Swagger
+</pre>
+
+<h4>7. <a href="/rs/pokemon/starmie">Starmie</a></h4>
+<pre>Level 50 = Levels 45 - 55
+Open Level = (-10 - -0) levels from your highest level Pokémon
+~ Water Pulse
+~ Thunderbolt
+~ Confuse Ray
+~ Blizzard
+</pre>
+
+<h4>8. <a href="/rs/pokemon/blastoise">Blastoise</a></h4>
+<pre>Level 50 = Levels 45 - 55
+Open Level = (-10 - -0) levels from your highest level Pokémon
+~ Hydro Pump
+~ Bite
+~ Ice Beam
+</pre>
+
+<h2><a name="round16">Round 16</a></h2>
+<h3><a name="mt16">Misfortune Teller warning:</a></h3>
+<pre>
+... ... ... ... ... ...
+... ... ... ... ... ...
+... ... ... ... ... ...
+Aah!
+I see GHOST-type POKEMON...
+...And, I see your POKEMON suffering
+from GHOST-type moves...
+Whether you believe my fortunes
+or not, the choice is yours...
+The future can be changed anytime...
+I wish you safe passage...
+</pre>
+
+<h3><a name="wp16">Wild Pokemon:</a></h3>
+
+<h4>1. <a href="/rs/pokemon/duskull">Duskull</a></h4>
+<pre>Level 50 = Levels 37 - 47
+Open Level = (-15 - -5) levels from your highest level Pokémon
+~ Night Shade
+~ Will-O-Wisp
+~ Shadow Ball
+~ Protect
+</pre>
+
+<h4>2. <a href="/rs/pokemon/haunter">Haunter</a></h4>
+<pre>Level 50 = Levels 37 - 47
+Open Level = (-15 - -5) levels from your highest level Pokémon
+~ Toxic
+~ Spite
+~ Hypnosis
+~ Shadow Ball
+</pre>
+
+<h4>3. <a href="/rs/pokemon/banette">Banette</a></h4>
+<pre>Level 50 = Levels 41 - 51
+Open Level = (-13 - -3) levels from your highest level Pokémon
+~ Shadow Ball
+~ Spite
+~ Will-O-Wisp
+</pre>
+
+<h4>4. <a href="/rs/pokemon/misdreavus">Misdreavus</a></h4>
+<pre>Level 50 = Levels 41 - 51
+Open Level = (-13 - -3) levels from your highest level Pokémon
+~ Perish Song
+~ Spite
+~ Mean Look
+</pre>
+
+<h4>5. <a href="/rs/pokemon/sableye">Sableye</a></h4>
+<pre>Level 50 = Levels 43 - 53
+Open Level = (-11 - -1) levels from your highest level Pokémon
+~ Shadow Ball
+~ Mean Look
+~ Dig
+~ Night Shade
+</pre>
+
+<h4>6. <a href="/rs/pokemon/dusclops">Dusclops</a></h4>
+<pre>Level 50 = Levels 43 - 53
+Open Level = (-11 - -1) levels from your highest level Pokémon
+~ Will-O-Wisp
+~ Toxic
+~ Shadow Ball
+</pre>
+
+<h4>7. <a href="/rs/pokemon/shedinja">Shedinja</a></h4>
+<pre>Level 50 = Levels 45 - 55
+Open Level = (-10 - -0) levels from your highest level Pokémon
+~ Shadow Ball
+~ Spite
+~ Grudge
+~ Protect
+</pre>
+
+<h4>8. <a href="/rs/pokemon/gengar">Gengar</a></h4>
+<pre>Level 50 = Levels 45 - 55
+Open Level = (-10 - -0) levels from your highest level Pokémon
+~ Psychic
+~ Destiny Bond
+~ Spite
+~ Night Shade
+</pre>
+
+<h2><a name="round17">Round 17</a></h2>
+<h3><a name="mt17">Misfortune Teller warning:</a></h3>
+<pre>
+... ... ... ... ... ...
+... ... ... ... ... ...
+... ... ... ... ... ...
+Aah!
+I see STEEL-type POKEMON…
+…And, I see your POKEMON suffering
+from enormously powerful moves...
+Whether you believe my fortunes
+or not, the choice is yours...
+The future can be changed anytime...
+I wish you safe passage...
+</pre>
+
+<h3><a name="wp17">Wild Pokemon:</a></h3>
+
+<h4>1. <a href="/rs/pokemon/mawile">Mawile</a></h4>
+<pre>Level 50 = Levels 37 - 47
+Open Level = (-15 - -5) levels from your highest level Pokémon
+~ Crunch
+~ Toxic
+~ Ice Beam
+</pre>
+
+<h4>2. <a href="/rs/pokemon/magneton">Magneton</a></h4>
+<pre>Level 50 = Levels 37 - 47
+Open Level = (-15 - -5) levels from your highest level Pokémon
+~ Thunderbolt
+~ Thunder Wave
+</pre>
+
+<h4>3. <a href="/rs/pokemon/steelix">Steelix</a></h4>
+<pre>Level 50 = Levels 41 - 51
+Open Level = (-13 - -3) levels from your highest level Pokémon
+~ Rock Throw
+~ Double-Edge
+~ Earthquake
+</pre>
+
+<h4>4. <a href="/rs/pokemon/scizor">Scizor</a></h4>
+<pre>Level 50 = Levels 41 - 51
+Open Level = (-13 - -3) levels from your highest level Pokémon
+~ Metal Claw
+~ Slash
+</pre>
+
+<h4>5. <a href="/rs/pokemon/forretress">Forretress</a></h4>
+<pre>Level 50 = Levels 43 - 53
+Open Level = (-11 - -1) levels from your highest level Pokémon
+~ Explosion
+~ Toxic
+</pre>
+
+<h4>6. <a href="/rs/pokemon/skarmory">Skarmory</a></h4>
+<pre>Level 50 = Levels 43 - 53
+Open Level = (-11 - -1) levels from your highest level Pokémon
+~ Steel Wing
+~ Toxic
+~ Fly
+~ Protect
+</pre>
+
+<h4>7. <a href="/rs/pokemon/aggron">Aggron</a></h4>
+<pre>Level 50 = Levels 45 - 55
+Open Level = (-10 - -0) levels from your highest level Pokémon
+~ Earthquake
+~ Take Down
+~ Surf
+~ Ice Beam
+</pre>
+
+<h4>8. <a href="/rs/pokemon/metagross">Metagross</a></h4>
+<pre>Level 50 = Levels 45 - 55
+Open Level = (-10 - -0) levels from your highest level Pokémon
+~ Earthquake
+~ Psychic
+~ Shadow Ball
+~ Brick Break
+</pre>
+
+<h2><a name="round18">Round 18</a></h2>
+<h3><a name="mt18">Misfortune Teller warning:</a></h3>
+<pre>
+... ... ... ... ... ...
+... ... ... ... ... ...
+... ... ... ... ... ...
+Aah!
+I see flying POKEMON...
+...And, I see your POKEMON suffering
+from enormously powerful moves...
+Whether you believe my fortunes
+or not, the choice is yours...
+The future can be changed anytime...
+I wish you safe passage...
+</pre>
+<h3><a name="wp18">Wild Pokemon:</a></h3>
+
+<h4>1. <a href="/rs/pokemon/dragonair">Dragonair</a></h4>
+<pre>Level 50 = Levels 37 - 47
+Open Level = (-15 - -5) levels from your highest level Pokémon
+~ Thunder Wave
+~ Toxic
+~ Ice Beam
+</pre>
+
+<h4>2. <a href="/rs/pokemon/vibrava">Vibrava</a></h4>
+<pre>Level 50 = Levels 37 - 47
+Open Level = (-15 - -5) levels from your highest level Pokémon
+~ Earthquake
+~ Dragonbreath
+~ Crunch
+~ Steel Wing
+</pre>
+
+<h4>3. <a href="/rs/pokemon/altaria">Altaria</a></h4>
+<pre>Level 50 = Levels 41 - 51
+Open Level = (-13 - -3) levels from your highest level Pokémon
+~ Earthquake
+~ Dragon Claw
+~ Sing
+~ Protect
+</pre>
+
+<h4>4. <a href="/rs/pokemon/flygon">Flygon</a></h4>
+<pre>Level 50 = Levels 41 - 51
+Open Level = (-13 - -3) levels from your highest level Pokémon
+~ Earthquake
+~ Dragon Claw
+~ Fire Blast
+</pre>
+
+<h4>5. <a href="/rs/pokemon/aerodactyl">Aerodactyl</a></h4>
+<pre>Level 50 = Levels 43 - 53
+Open Level = (-11 - -1) levels from your highest level Pokémon
+~ Earthquake
+~ Rock Slide
+~ Dragon Claw
+</pre>
+
+<h4>6. <a href="/rs/pokemon/gyarados">Gyarados</a></h4>
+<pre>Level 50 = Levels 43 - 53
+Open Level = (-11 - -1) levels from your highest level Pokémon
+~ Earthquake
+~ Surf
+~ Thrash
+~ Bite
+</pre>
+
+<h4>7. <a href="/rs/pokemon/kingdra">Kingdra</a></h4>
+<pre>Level 50 = Levels 45 - 55
+Open Level = (-10 - -0) levels from your highest level Pokémon
+~ Hydro Pump
+~ Ice Beam
+~ Protect
+</pre>
+
+<h4>8. <a href="/rs/pokemon/charizard">Charizard</a></h4>
+<pre>Level 50 = Levels 45 - 55
+Open Level = (-10 - -0) levels from your highest level Pokémon
+~ Flamethrower
+~ Focus Punch
+~ Fire Blast
+~ Iron Tail
+</pre>
+
+<h2><a name="round19">Round 19</a></h2>
+<h3><a name="mt19">Misfortune Teller warning:</a></h3>
+<pre>
+... ... ... ... ... ...
+... ... ... ... ... ...
+... ... ... ... ... ...
+Aah!
+I see those that have evolved from
+the power of stones...
+...I also sense fire, water
+and electricity...
+...And, I see your POKEMON suffering
+from those three powers...
+Whether you believe my fortunes
+or not, the choice is yours...
+The future can be changed anytime...
+I wish you safe passage...
+</pre>
+
+<h3><a name="wp19">Wild Pokemon:</a></h3>
+
+<h4>1. <a href="/rs/pokemon/arcanine">Arcanine</a></h4>
+<pre>Level 50 = Levels 37 - 47
+Open Level = (-15 - -5) levels from your highest level Pokémon
+~ Fire Blast
+~ Take Down
+</pre>
+
+<h4>2. <a href="/rs/pokemon/poliwrath">Poliwrath</a></h4>
+<pre>Level 50 = Levels 37 - 47
+Open Level = (-15 - -5) levels from your highest level Pokémon
+~ Hydro Pump
+~ Ice Beam
+</pre>
+
+<h4>3. <a href="/rs/pokemon/raichu">Raichu</a></h4>
+<pre>Level 50 = Levels 41 - 51
+Open Level = (-13 - -3) levels from your highest level Pokémon
+~ Thunder
+~ Thunder Wave
+~ Slam
+</pre>
+
+<h4>4. <a href="/rs/pokemon/vaporeon">Vaporeon</a></h4>
+<pre>Level 50 = Levels 41 - 51
+Open Level = (-13 - -3) levels from your highest level Pokémon
+~ Surf
+~ Ice Beam
+</pre>
+
+<h4>5. <a href="/rs/pokemon/jolteon">Jolteon</a></h4>
+<pre>Level 50 = Levels 43 - 53
+Open Level = (-11 - -1) levels from your highest level Pokémon
+~ Thunderbolt
+~ Pin Missile
+</pre>
+
+<h4>6. <a href="/rs/pokemon/flareon">Flareon</a></h4>
+<pre>Level 50 = Levels 43 - 53
+Open Level = (-11 - -1) levels from your highest level Pokémon
+~ Flamethrower
+~ Bite
+</pre>
+
+<h4>7. <a href="/rs/pokemon/ninetales">Ninetales</a></h4>
+<pre>Level 50 = Levels 45 - 55
+Open Level = (-10 - -0) levels from your highest level Pokémon
+~ Flamethrower
+~ Will-O-Wisp
+~ Protect
+</pre>
+
+<h4>8. <a href="/rs/pokemon/starmie">Starmie</a></h4>
+<pre>Level 50 = Levels 45 - 55
+Open Level = (-10 - -0) levels from your highest level Pokémon
+~ Ice Beam
+~ Surf
+~ Thunderbolt
+~ Psychic
+</pre>
+
+<h2><a name="round20">Round 20</a></h2>
+<h3><a name="mt20">Misfortune Teller warning:</a></h3>
+<pre>
+... ... ... ... ... ...
+... ... ... ... ... ...
+... ... ... ... ... ...
+Aah!
+I see NORMAL-type POKEMON...
+...And, I see your POKEMON suffering
+from enormously powerful moves...
+Whether you believe my fortunes
+or not, the choice is yours...
+The future can be changed anytime...
+I wish you safe passage...
+</pre>
+
+<h3><a name="wp20">Wild Pokemon:</a></h3>
+
+<h4>1. <a href="/rs/pokemon/kangaskhan">Kangaskhan</a></h4>
+<pre>Level 50 = Levels 37 - 47
+Open Level = (-15 - -5) levels from your highest level Pokémon
+~ Hyper Beam
+~ Flamethrower
+~ Surf
+~ Dizzy Punch
+</pre>
+
+<h4>2. <a href="/rs/pokemon/swellow">Swellow</a></h4>
+<pre>Level 50 = Levels 37 - 47
+Open Level = (-15 - -5) levels from your highest level Pokémon
+~ Aerial Ace
+~ Hyper Beam
+~ Toxic
+</pre>
+
+<h4>3. <a href="/rs/pokemon/ursaring">Ursaring</a></h4>
+<pre>Level 50 = Levels 41 - 51
+Open Level = (-13 - -3) levels from your highest level Pokémon
+~ Hyper Beam
+~ Earthquake
+~ Focus Punch
+~ Protect
+</pre>
+
+<h4>4. <a href="/rs/pokemon/porygon2">Porygon2</a></h4>
+<pre>Level 50 = Levels 41 - 51
+Open Level = (-13 - -3) levels from your highest level Pokémon
+~ Psybeam
+~ Hyper Beam
+~ Shadow Ball
+~ Ice Beam
+</pre>
+
+<h4>5. <a href="/rs/pokemon/tauros">Tauros</a></h4>
+<pre>Level 50 = Levels 43 - 53
+Open Level = (-11 - -1) levels from your highest level Pokémon
+~ Earthquake
+~ Hyper Beam
+~ Surf
+~ Thunderbolt
+</pre>
+
+<h4>6. <a href="/rs/pokemon/fearow">Fearow</a></h4>
+<pre>Level 50 = Levels 43 - 53
+Open Level = (-11 - -1) levels from your highest level Pokémon
+~ Hyper Beam
+~ Fly
+~ Mirror Move
+~ Protect
+</pre>
+
+<h4>7. <a href="/rs/pokemon/snorlax">Snorlax</a></h4>
+<pre>Level 50 = Levels 45 - 55
+Open Level = (-10 - -0) levels from your highest level Pokémon
+~ Hyper Beam
+~ Body Slam
+~ Shadow Ball
+~ Earthquake
+</pre>
+
+<h4>8. <a href="/rs/pokemon/slaking">Slaking</a></h4>
+<pre>Level 50 = Levels 45 - 55
+Open Level = (-10 - -0) levels from your highest level Pokémon
+~ Hyper Beam
+~ Earthquake
+~ Shadow Ball
+~ Ice Beam
+</pre>
+
+<h2><a name="reference">Reference</a></h2>
+<p><a href="http://web.archive.org/web/20041123105852/http://pokefor.greenchu.de/meowth346/gba/battle-frontier/battle-pyramid/">Pokefor's archived page</a></p>

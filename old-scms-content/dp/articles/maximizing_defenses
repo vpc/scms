@@ -1,0 +1,154 @@
+[title]
+How To Maximize Your Defenses
+[head]
+<meta name="description" content="How to get the most out of defensive EVs, thanks to X-Act." />
+[page]
+<div class="author">by <a href="/forums/member.php?u=2412">X-Act</a></div>
+<ol class="toc">
+<li><a href="#intro">Introduction</a></li>
+<li><a href="#overall">Overall Harm</a></li>
+<li><a href="#defense">The DefenseEffortValues Applet</a></li>
+<li><a href="#harm_formula">How the Overall Harm Formula was Obtained</a></li>
+<li><a href="#biased">Biased Overall Harm</a></li>
+<li><a href="#raising">Raising Your Defenses</a></li>
+<li><a href="#intimidate">Pokemon with Intimidate</a></li>
+<li><a href="#leftovers">Pokemon with Leftovers</a></li>
+</ol>
+<h2><a name="intro">Introduction</a></h2>
+<p>You are on Pokemon Online, trying to give your Dusclops good defensive effort values (EVs). You decide to use all of your EVs to boost its defenses, so you have 510 effort values to work with. You notice that Dusclops has 130 base Defense and 130 base Special Defense, so you put 252 EVs in Defense, 252 EVs in Special Defense and the remaining 6 EVs in HP. You then realize that you can give Dusclops a nature that boosts either its Defense or Special Defense. So now its defenses aren't equal, and… you start to wonder if your previous EV distribution was such a good idea after all...</p>
+
+<p>Or suppose you want to make your Salamence be able to take hits a little better. You can reserve 80 EVs, say, for this purpose, and you're trying to distribute them to Salamence's defenses in the best way possible. So, you look at Salamence's stats. It has 95 base HP, 80 base Defense and 80 base Special Defense. You notice Salamence's Intimidate trait, so you decide that Salamence can already take physical hits moderately well, and hence you put the 80 EVs in Special Defense. However, you start to wonder if this decision is justified. Maybe putting them in HP would have been better...</p>
+
+<p>If the above conforms to what you usually think about when trying to find good defensive EVs for your Pokemon, and want to start building the best defensive Pokemon given the EVs you have left, continue reading.</p>
+
+<h2><a name="overall">Overall Harm</a></h2>
+<p>To understand how to distribute your defensive EVs, it is important to understand what the Overall Harm that a Pokemon can sustain is.</p>
+
+<p>The Overall Harm is a number representing the fraction of HP a Pokemon would lose if it was to be dealt a physical move and a special move of the same power in succession. It is defined using the following formula:</p>
+
+<pre>Overall Harm = (<var>k</var>(<var>D</var> + <var>IS</var>) + 4<var>DS</var>) ÷ <var>HDS</var></pre>
+<p>where:</p>
+<ul>
+<li><var>k</var> is a constant representing the damage being dealt by the foe</li>
+<li><var>D</var> is your Defense stat</li>
+<li><var>S</var> is your Special Defense stat</li>
+<li><var>H</var> is your HP stat</li>
+<li><var>I</var> is 2/3 if your Pokemon has the Intimidate trait, 1 otherwise</li>
+</ul>
+<p>Thus, to distribute your EVs for maximum defenses, you need to choose <var>H</var>, <var>D</var> and <var>S</var> in the above formula such that the Overall Harm is the lowest possible.</p>
+
+<h2><a name="defense">The DefenseEffortValues Applet</a></h2>
+<p>The DefenseEffortValues applet uses the formula for the Overall Harm displayed above, and cycles through all possible EV distributions to give you the one that provides you with the lowest possible Overall Harm. (The value for <var>k</var> used in the applet is 20000. You can read later for an explanation of the choice of this value.) It can be accessed <a href="http://users.smogon.com/X-Act/defense.html">here</a>.</p>
+
+<p>For the Dusclops example written in the introduction, the applet tells us to put 252 EVs in HP, 160 EVs in Defense and 88 EVs in Special Defense, with a nature that boosts Special Defense. The stats would then be 284 HP, 336 Defense and 352 Special Defense.</p>
+
+<p>For the Salamence example, assuming it has an Adamant Nature, the applet tells us to put 60 EVs in HP and 20 EVs in Special Defense for the best overall defense. This gives us a 346 HP stat, 196 Defense stat and 201 Special Defense stat.</p>
+
+<p>You may skip all the following sections if you're not interested in how the formula for the overall harm was obtained.</p>
+
+<h2><a name="harm_formula">How the Overall Harm Formula was Obtained</a></h2>
+<p>To be able to understand how the Overall Harm formula was found, we first need to know how the game actually calculates the damage that your Pokemon is dealt. This is done by the so-called Damage Formula, which can be written in the following manner:</p>
+
+<pre>Damage = ((Harm Dealt) ÷ (Your Defense)) + 2) × TypeModifiers × RandomNumber</pre>
+<p>(Harm Dealt is equal to 42 × Foe's Attack × Move Base Power ÷ 50 if the foe is a Level 100 Pokemon.) We need to find out what happens to the damage dealt if the same Pokemon uses the same move over and over, and you increase or decrease your Defense (or Special Defense) stat. Because of this, the foe's Attack stat and move Base Power is kept constant throughout, and so are the Type Modifiers. We assume that the random number generated is always the maximum, too, so the damage formula becomes:</p>
+
+<pre>Damage = (<var>k</var> ÷ <var>D</var>) + 2</pre>
+<p>where <var>k</var> is the constant damage that the foe is dealing, and <var>D</var> is your defense stat.</p>
+
+<p>We now need to factor your HP in the calculation. If 60 damage is dealt to a Pokemon with 300 HP, it will lose 1/5 of its total HP, whereas 60 damage dealt to a Pokemon with 480 HP will only make it lose 1/8 of its total HP. Here, we see why the HP stat is also important. Hence, we can conclude that</p>
+
+<pre>Physical Damage as a Fraction of HP = ((<var>k</var> ÷ <var>D</var>) + 2) ÷ <var>H</var></pre>
+<p>where <var>H</var> is your HP stat. Rearranging, we get</p>
+
+<pre>Physical Damage as a Fraction of HP = (<var>k</var> + 2<var>D</var>) ÷ <var>HD</var></pre>
+<p>Similarly,</p>
+
+<pre>Special Damage as a Fraction of HP = (<var>k</var> + 2<var>S</var>) ÷ <var>HS</var></pre>
+<p>where <var>S</var> is your Special Defense stat. Adding the above two formulas together and rearranging the formula, we get the Overall Harm that the Pokemon will take as a fraction of its HP:</p>
+
+<pre>
+Overall Harm = ((<var>k</var> + 2<var>D</var>) ÷ <var>HD</var>) + ((<var>k</var> + 2<var>S</var>) ÷ <var>HS</var>)
+= (<var>S</var>(<var>k</var> + 2<var>D</var>) + <var>D</var>(<var>k</var> + 2<var>S</var>)) ÷ <var>HDS</var>
+= (<var>kS</var> + 2<var>DS</var> + <var>kD</var> + 2<var>DS</var>) ÷ <var>HDS</var>
+= (<var>k</var>(<var>D</var> + <var>S</var>) + 4<var>DS</var>) ÷ <var>HDS</var>
+<strong>Overall Harm = (<var>k</var>(<var>D</var> + <var>S</var>) + 4<var>DS</var>) ÷ <var>HDS</var></strong>
+</pre>
+<p>All that remains is to choose a suitable value of <var>k</var>. This can be basically any number that you can dream of. However, higher values of <var>k</var> produce better values (otherwise the value for the Overall Harm would be too small). 20000 seems to be a good all-round value. (Incidentally, it's very near the value generated when a Level 100 Pokemon with 317 Attack stat uses a 75 Base Power move).</p>
+
+<h2><a name="biased">Biased Overall Harm</a></h2>
+<p>Sometimes, you don't need your Pokemon to take hits equally well from both physical attacks and special attacks. Maybe you prefer your Pokemon to take hits better from the physical side, or from the special side. This is where the Biased Overall Harm comes in.</p>
+
+<p>First, we introduce a bias factor <var>B</var>. <var>B</var> is a number between 0 and 1 inclusive, which provides the degree of bias you want from the <em>physical</em> side. <var>B</var>=0 would make the Overall Harm formula take care of the special side exclusively; <var>B</var>=1 would make the formula take care of only the physical side; <var>B</var>=0.5 would make the Overall Harm formula take care of both equally (as it is right now). Of course, <var>B</var> can take any value you like between 0 and 1, which gives you varying degrees of bias.</p>
+
+<p>Let's see how we are going to incorporate this number in the Overall Harm formula now.</p>
+
+<p>First of all, we rewrite the Overall Harm formula as follows:</p>
+
+<pre>Overall Harm = [(<var>k</var> + 2<var>D</var>) ÷ <var>HD</var>] + [(<var>k</var> + 2<var>S</var>) ÷ <var>HS</var>]</pre>
+<p>Recall that the first pair of square brackets is the damage you take from a physical hit, and the second pair of square brackets is the damage you take from a special hit of the same power. We now need to vary this damage according to the value of <var>B</var>. Here is how it's done:</p>
+
+<pre>Biased Overall Harm = (2<var>B</var>)[(<var>k</var> + 2<var>D</var>) ÷ <var>HD</var>] + (2 – 2<var>B</var>)[(<var>k</var> + 2<var>S</var>) ÷ <var>HS</var>]</pre>
+<p>Let's see what happens when <var>B</var> = 1:</p>
+
+<pre>
+Biased Overall Harm = (2(1))[(<var>k</var> + 2<var>D</var>) ÷ <var>HD</var>] + (2 – 2(1))[(<var>k</var> + 2<var>S</var>) ÷ <var>HS</var>]
+= 2[(<var>k</var> + 2<var>D</var>) ÷ <var>HD</var>] + 0[(<var>k</var> + 2<var>S</var>) ÷ <var>HS</var>]
+= 2[(<var>k</var> + 2<var>D</var>) ÷ <var>HD</var>]
+</pre>
+<p>So, when <var>B</var> = 1, the Overall Harm formula returns the damage from two physical hits, and so the formula will exclusively raise the Defense stat to try to lower the overall damage harm as much as possible.</p>
+
+<p>When <var>B</var> = 0:</p>
+
+<pre>
+Biased Overall Harm = (2(0))[(<var>k</var> + 2<var>D</var>) ÷ <var>HD</var>] + (2 – 2(0))[(<var>k</var> + 2<var>S</var>) ÷ <var>HS</var>]
+= 0[(<var>k</var> + 2<var>D</var>) ÷ <var>HD</var>] + 2[(<var>k</var> + 2<var>S</var>) ÷ <var>HS</var>]
+= 2[(<var>k</var> + 2<var>S</var>) ÷ <var>HS</var>]
+</pre>
+<p>This returned the damage from two special hits, and so the formula would try to increase the Special Defense stat as much as possible in this case.</p>
+
+<p>And when <var>B</var> = 0.5:</p>
+
+<pre>
+Biased Overall Harm = (2(0.5))[(<var>k</var> + 2<var>D</var>) ÷ <var>HD</var>] + (2 – 2(0.5))[(<var>k</var> + 2<var>S</var>) ÷ <var>HS</var>]
+= 1[(<var>k</var> + 2<var>D</var>) ÷ <var>HD</var>] + 1[(<var>k</var> + 2<var>S</var>) ÷ <var>HS</var>]
+= [(<var>k</var> + 2<var>D</var>) ÷ <var>HD</var>] + [(<var>k</var> + 2<var>S</var>) ÷ <var>HS</var>]
+</pre>
+<p>This returned the usual, unbiased, Overall Harm formula we wrote before, as it should have done.</p>
+
+<h2><a name="raising">Raising Your Defenses</a></h2>
+<p>Sometimes, you raise your defenses during the match, either via moves, via items or via traits.</p>
+
+<p>The item <a href="/dp/items/soul_dew">Soul Dew</a> makes the Special Defense stat of Latios and Latias 1.5 times of what it was before. The item <a href="/dp/items/metal_powder">Metal Powder</a> makes both the Defense and Special Defense of Ditto 1.5 times of what they were before.</p>
+
+<p>The ability <a href="/dp/abilities/marvel_scale">Marvel Scale</a> makes the Defense of Milotic 1.5 times of what it was before if it is afflicted by a status condition.</p>
+
+<p>You can also raise your Defense and Special Defense stats using moves such as <a href="/dp/moves/curse">Curse</a>, <a href="/dp/moves/calm_mind">Calm Mind</a>, <a href="/dp/moves/amnesia">Amnesia</a>, <a href="/dp/moves/iron_defense">Iron Defense</a>, etc.</p>
+
+<p>The effect of these things in the Overall Harm formula is very minor: you just replace <var>D</var> and <var>S</var>, if necessary, by the modified Defense and/or Special Defense stats.</p>
+
+<h2><a name="intimidate">Pokemon with Intimidate</a></h2>
+<p>When a Pokemon with the
+<a href="/dp/abilities/intimidate">Intimidate</a> ability switches into the foe, it makes the opponent's physical attack stat 2/3 of what it was before. This means that, in the above formula, the physical damage as a fraction of HP would be</p>
+
+<pre>Physical Damage as a Fraction of HP = ((2/3)<var>k</var> + 2<var>D</var>) ÷ <var>HD</var></pre>
+<p>The special damage as a fraction of HP would still be the same. Hence, overall,</p>
+
+<pre>
+Overall Harm = (((2/3)<var>k</var> + 2<var>D</var>) ÷ <var>HD</var>) + ((<var>k</var> + 2<var>S</var>) ÷ <var>HS</var>)
+= (<var>S</var>((2/3)<var>k</var> + 2<var>D</var>) + <var>D</var>(<var>k</var> + 2<var>S</var>)) ÷ <var>HDS</var>
+= ((2/3)<var>kS</var> + 2<var>DS</var> + <var>kD</var> + 2<var>DS</var>) ÷ <var>HDS</var>
+= (<var>k</var>(<var>D</var> + (2/3)<var>S</var>) + 4<var>DS</var>) ÷ <var>HDS</var>
+<strong>Overall Harm for Pokemon with Intimidate = (<var>k</var>(<var>D</var> + (2/3)<var>S</var>) + 4<var>DS</var>) ÷ <var>HDS</var></strong>
+</pre>
+<p>Of course, this will hold for as long as the foe stays Intimidated.</p>
+
+<h2><a name="leftovers">Pokemon with Leftovers</a></h2>
+<p>A Pokemon with Leftovers recovers 1/16 of its HP at the end of each turn. Thus, at the end of the turn, the physical and special damage as a fraction of HP will both be 1/16 less, and hence</p>
+
+<pre>
+Overall Harm = ((<var>k</var> + 2<var>D</var>) ÷ <var>HD</var> – 1/16) + ((<var>k</var> + 2<var>S</var>) ÷ <var>HS</var> – 1/16)
+= ((<var>k</var> + 2<var>D</var>) ÷ <var>HD</var>) + ((<var>k</var> + 2<var>S</var>) ÷ <var>HS</var>) – (1/16 + 1/16)
+= ((<var>k</var>(<var>D</var> + <var>S</var>) + 4<var>DS</var>) ÷ <var>HDS</var>) – 1/8
+<strong>Overall Harm for Pokemon with Leftovers = Overall Harm – 0.125</strong>
+</pre>
+<p>This means that attaching Leftovers to a Pokemon will not affect the way you distribute your defensive EVs to guarantee the maximum defenses possible. This is why the Leftovers item is not mentioned anywhere in the formula.</p>

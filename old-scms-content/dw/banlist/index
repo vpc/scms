@@ -1,0 +1,89 @@
+[title]
+Clauses and Banlists
+[head]
+<meta name="description" content="A reference of Smogon's clauses and Dream World metagame-specific bans." />
+
+[page]
+
+<p>The tiering process of Smogon has come a long way from the simple days of RBY and many bans are now somewhat more complex than they were in previous generations. This page serves to document the precise definitions of all rules and lists the bans used in standard play. Below is the full list of Smogon's clauses and Dream World-specific banlist.</p>
+
+<h2>Clause Definitions</h2>
+
+<p>The clauses below apply to all BW tiers except Challenge Cup, which has no clauses.</p>
+
+<ul>
+<li><strong>Species Clause</strong> - A player cannot have two Pokemon with the same National Pokedex number on a team.
+<ul>
+<li>For example, using a team with two Koffing would break this clause.</li>
+<li>Using different formes on the same team, such as Rotom-W and Rotom-C, also breaks the clause since they share the same Pokedex number (#479).</li>
+<li>This rule was implemented for BW tiers following a <a href="/forums/showthread.php?t=81485">Policy Review vote</a> on October 30, 2010.</li>
+</ul>
+</li>
+
+<li><strong>Sleep Clause</strong> - You lose if, at the end of your turn, two of your opponent's Pokemon were put to sleep by a move you used but were not forced into, and neither have had their sleep removed since then.
+<ul>
+<li>The clause basically means that if you have already put a Pokemon on your opponent's side to sleep and it is still sleeping, you can't put another one to sleep.</li>
+<li>A move you were "forced into" is a move you must use because all other moves (that cannot inflict sleep) are disabled (by Choice item, Encore, or some combination of Taunt, Disable, Torment, and lack of PP) and you cannot switch (due to trapping moves, trapping abilities, Ingrain, or having all other pokemon be fainted).</li>
+<li>A move you used includes moves called by Metronome, Sleep Talk, Assist, Me First, or Copycat. It does not include Magic Coat or Magic Bounce.</li>
+<li>Rest, used by either player, is never counted by this clause.</li>
+<li>The definition of this rule was debated on in a <a href="/forums/showthread.php?t=3457184">Policy Review discussion</a>.</li>
+<li>This rule was implemented for BW tiers following a <a href="/forums/showthread.php?t=81484">Policy Review vote</a> on October 30, 2010.</li>
+</ul>
+</li>
+
+<li><strong>Evasion Clause</strong> - A Pokemon may not have the moves <a href="/bw/moves/double_team">Double Team</a> or <a href="/bw/moves/minimize">Minimize</a> in its moveset, or hold the items <a href="/bw/items/brightpowder">Brightpowder</a> or <a href="/bw/items/lax_incense">Lax Incense</a>.
+<ul>
+<li>Generally, this rule will be automatically enforced in simulator play. In Wi-Fi play, a player is considered to have broken the clause when a Pokemon is revealed to have been brought into the battle with a banned move or item.</li>
+<li>This rule was implemented for BW tiers following a <a href="/forums/showthread.php?t=81487">Policy Review vote</a> on October 30, 2010.</li>
+</ul>
+</li>
+
+<li><strong>OHKO Clause</strong> - A Pokemon may not have the moves <a href="/bw/moves/fissure">Fissure</a>, <a href="/bw/moves/guillotine">Guillotine</a>, <a href="/bw/moves/horn_drill">Horn Drill</a>, or <a href="/bw/moves/sheer_cold">Sheer Cold</a> in its moveset.
+<ul>
+<li>Generally, this rule will be automatically enforced in simulator play. In Wi-Fi play, a player is considered to have broken the clause when a Pokemon is revealed to have been brought into the battle with a banned move.</li>
+<li>This rule was implemented for BW tiers following a <a href="/forums/showthread.php?t=81486">Policy Review vote</a> on October 30, 2010.</li>
+</ul>
+</li>
+
+<li><strong>Moody Clause</strong> - A team cannot have a Pokemon with the ability <a href="/bw/abilities/moody">Moody</a>.</li>
+<ul>
+<li>This rule was implemented for BW tiers <a href="/forums/showthread.php?t=3448900">by acclamation</a> on June 7, 2011.</li>
+</ul>
+</ul>
+
+<h2><a href="/dw/">Dream World</a></h2>
+
+<ul>
+<li><strong>Banned Pokemon</strong> - A team cannot have any of the following Pokemon.</li>
+<ul>
+<li>Arceus</li>
+<li>Blaziken</li>
+<li>Darkrai</li>
+<li>Deoxys</li>
+<li>Deoxys-A</li>
+<li>Dialga</li>
+<li>Giratina</li>
+<li>Giratina-O</li>
+<li>Groudon</li>
+<li>Ho-Oh</li>
+<li>Kyogre</li>
+<li>Lugia</li>
+<li>Mewtwo</li>
+<li>Palkia</li>
+<li>Rayquaza</li>
+<li>Reshiram</li>
+<li>Shaymin-S</li>
+<li>Zekrom</li>
+</ul>
+</li>
+<li><strong>Drizzle + Swift Swim</strong> - Using both a Pokemon with <a href="/bw/abilities/drizzle">Drizzle</a> and a Pokemon with <a href="/bw/abilities/swift_swim">Swift Swim</a> on the same team is banned.</li>
+</ul>
+
+<ul>
+<li><strong>Banned Items</strong>
+<ul>
+<li>Brightpowder</li>
+<li>Lax Incense</li>
+<li>Soul Dew</li>
+</ul>
+</li>

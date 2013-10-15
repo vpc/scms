@@ -1,0 +1,254 @@
+[title]
+1v1 Metagame Guide
+[head]
+<meta name="description" content="A guide to the 1v1 metagame, thanks to badalcristiano, coolking49, and LinIsKorean." />
+[page]
+<div class="author">By <a href="/forums/member.php?u=41965">badalcristiano</a>, <a href="/forums/member.php?u=40793">coolking49</a>, and <a href="/forums/member.php?u=22375">LinIsKorean</a>.</div>
+ 
+<ol class="toc">
+<li><a href="#intro">Introduction</a>
+<ul>
+<li><a href="#what_is">What is 1v1</a></li>
+<li><a href="#how_is">How 1v1 is Different From the Standard Metagame</a></li>
+<li><a href="#history">History of 1v1</a></li>
+<li><a href="#overview">Overview of Rules</a></li>
+</ul>
+</li>
+<li><a href="#common">Common Strategies</a>
+<ul>
+<li><a href="#fear">F.E.A.R.</a></li>
+<li><a href="#counter">CounterCoat</a>
+<ul>
+<li><a href="#sash">Sash CounterCoat</a></li>
+</ul>
+</li>
+<li><a href="#trick">Trick</a></li>
+<li><a href="#all">All-Out Attackers</a></li>
+<li><a href="#stat">Stat-Changing Pokemon</a></li>
+<li><a href="#toxic">Toxic Stalling</a></li>
+<li><a href="#flinch">Flinch</a></li>
+<li><a href="#sleep">Sleep</a></li>
+</ul>
+</li>
+<li><a href="#common_items">Common Items in 1v1</a>
+<ul>
+<li><a href="#status">Status Berries</a></li>
+<li><a href="#choice">Choice Items</a></li>
+<li><a href="#mail">Mail</a></li>
+<li><a href="#focus">Focus Sash</a></li>
+</ul>
+</li>
+<li><a href="#conc">Conclusion</a></li>
+</ol>
+ 
+<h2><a name="intro">Introduction</a></h2>
+ 
+<h3><a name="what_is">What is 1v1?</a></h3>
+ 
+<p>1v1 is exactly what you think it is: each player only brings one Pokemon into the battle. This offers quick, entertaining, and interesting matches with a whole new outlook on Pokemon.</p>
+ 
+<h3><a name="how_is">How 1v1 is different from the Standard metagame</a></h3>
+ 
+<p>Since your Pokemon are not able to switch out, there is literally no point in setting up entry hazards such as Toxic Spikes and Stealth Rock. Whirlwind and Roar fail to activate, so those moves would also be useless on a Pokemon. Due to the fast pace of the metagame, Choice items are exceedingly common as the aim of the game is to hit hard and fast and Choice items help in doing so.</p> 
+ 
+<p>In the 1v1 metagame, most standard sets are not viable. This is because the standard Pokemon used in 1v1 are completely different from those used in standard OU, necessitating the use of very different sets.</p> 
+ 
+<p>You also need to have good coverage. In the standard OU metagame, you can switch out to a counter if your Pokemon has an inferior match-up, but this is impossible in 1v1. So what you are looking for is a Pokemon that is very versatile. In this metagame, most Pokemon used usually have variations of the standard sets that are present in the standard OU metagame.</p>
+ 
+<p>In 1v1 it is important to have a strategy in mind and stick to it; it is also advisable to have a Pokemon that has various functions so that it can adapt to the given situation. Some common and effective strategies for the 1v1 metagame are outlined below.</p>
+ 
+<h3><a name="history">History of 1v1</a></h3>
+ 
+<p>The first implementation of this metagame at a large scale was seen on Smogon with user Ditto's "Close Combat Tournament" over Wi-Fi. This idea was taken from YouTube user MtGXerxe's Pokémon Charity Event. This metagame was an instant hit at Smogon, with around 84 people signing up for the eventual 64-man tournament; on this occasion, user Ferrouswheel was the ultimate winner.</p> 
+ 
+<p>All of this led to an increase of activity in the 1v1 metagame thread, with the users themselves developing numerous new strategies periodically. Soon after, battle simulator Pokémon Online recognized this metagame and added it to their client. This has helped the popularity of the metagame grow and now we find ourselves here in this guide trying to understand what 1v1 really is.</p>
+ 
+<h3><a name="overview">Overview of Rules</a></h3>
+ 
+<p>Here are the basic rules of 1v1:</p>
+ 
+<ul>
+<li><strong>1 vs 1:</strong> Each player will only bring one Pokemon into the battle.</li>
+<li><strong>Hax Items Clause:</strong> BrightPowder, Focus Band, Quick Claw, Lax Incense, King's Rock, Razor Fang, Scope Lens, and Razor Claw cannot be held by your Pokemon.</li>
+<li><strong>Soul Dew Clause:</strong> Soul Dew cannot be held by your Pokemon.</li>
+<li><strong>Evasion Clause:</strong> A Pokemon may not use Double Team or Minimize.</li>
+<li><strong>Accuracy Clause:</strong> A Pokemon may not use Flash, Kinesis, Sand-Attack, or SmokeScreen.</li>
+<li><strong>OHKO Clause:</strong> A Pokemon may not use Horn Drill, Sheer Cold, Guillotine, or Fissure.</li>
+<li><strong>Self-KO Clause:</strong> A Pokemon may not use Destiny Bond, Explosion, Perish Song, or Selfdestruct.</li>
+<li><strong>Uber Clause:</strong> Players cannot use Arceus, Darkrai, Deoxys (All Formes), Dialga, Garchomp, Giratina, Giratina-O, Groudon, Ho-Oh, Kyogre, Latias, Latios, Lugia, Manaphy, Mew, Mewtwo, Palkia, Rayquaza, Salamence, Shaymin-S, Wobbuffet, and Wynaut.</li>
+</ul>
+ 
+<h2><a name="common">Common Strategies</a></h2>
+ 
+<h3><a name="fear">F.E.A.R.</a></h3>
+ 
+<p>Although initially banned, the item Focus Sash has been allowed in the metagame after a suspect test. As there are no entry hazards in 1v1, the advantages of Focus Sash here is considerably higher than in OU. However, Focus Sash is normally not a strategy in itself, but something that is added on to complement other strategies. The only specific Focus Sash strategy would be F.E.A.R., where you take a hit, go down to 1 HP, use Endeavor to get the opponent down to 1 HP as well, and then hit them with a priority move for the KO. Aside from Endeavor, the CounterCoating strategies are one of the more popular ways of combining two ideas into a coherent whole. Another common strategy is to combine Focus Sash with one of the heavy-hitting sweepers with frail defenses to ensure that they can survive a hit. There is no real difference in use of Focus Sash between 1v1 and OU aside from the lack of entry hazards, so it can be more easily used on any Pokemon that needs to survive a hit.</p>
+ 
+<p>This strategy also has its weaknesses, namely priority moves. It should also be noted that this strategy is namely weak to CounterCoating Focus Sash users along with other Pokemon running F.E.A.R. If your opponent is made to fall asleep, then whether the opponent has a Focus Sash or not is irrelevant. Sometimes it's possible to Trick the other Pokemon's Focus Sash away and take advantage of it, in addition to crippling the opponent. Pokemon that don't depend on OHKOing the opponent also tend to excel against Focus Sash holders.</p>
+ 
+<p><img src="/download/sprites/dp/235.png" alt="Smeargle" /><br />
+Smeargle @ Focus Sash<br /> 
+Ability: Own Tempo<br /> 
+Nature: Brave<br /> 
+EVs: 252 Atk<br />
+- Bullet Punch<br /> 
+- Endeavor<br />
+- Spore<br />
+- Substitute</p>
+ 
+<p><strong>Explanation:</strong> The main idea of this set is to either Spore the opponent into falling asleep the first turn, or take a hit, survive through Focus Sash, use Endeavor, and then Bullet Punch for the KO. Substitute can be used against another Pokemon using the F.E.A.R. strategy.</p>
+ 
+<h3><a name="counter">CounterCoat</a></h3>
+ 
+<p>Protect, Counter, and Mirror Coat work miracles in 1v1. This is mostly due to the large number of Pokemon being all-out attackers. This strategy utilizes bulky Pokemon and their ability to shrug off a hit and bounce the attack back at the opponent for double the damage, most likely KOing them in the process.</p>
+ 
+<p>This strategy is often countered by very powerful attackers that can OHKO the CounterCoater and also by Pokemon that use weak attacks to chip away at the CounterCoater's health and then use a strong attack for the finishing blow. Most CounterCoat Pokemon are slow and bulky; the most commonly-seen versions of these are Swampert and Blissey. This strategy also has Toxic stalling variants in which the Pokemon uses Toxic against the opponent and semi-stalls their way to victory, but this can be a hassle due to Steel-types being very common in the metagame.</p>
+ 
+<p><img src="/download/sprites/dp/260.png" alt="Swampert" /><br />
+Swampert @ Rindo Berry<br />
+Nature: Relaxed<br />
+EVs: 252 HP / 108 Atk / 84 Def / 64 SpD<br />
+- Counter<br />
+- Mirror Coat<br />
+- Earthquake<br />
+- Protect</p>
+ 
+<p><strong>Explanation:</strong> This Swampert set uses Protect first to see what move the opponent is using, then uses Counter or Mirror Coat as is appropriate. Earthquake is a powerful attack that makes sure Swampert isn't Taunt bait. Rindo Berry lets Swampert survive unSTABed Grass-type attacks such as Infernape's Grass Knot. Swampert should otherwise be able to survive all attacks outside of STAB Grass-type attacks and Choice Specs Porygon-Z's Hyper Beam. The Defense EVs let it survive a Jolly Life Orb Breloom's Seed Bomb if it chooses to attack instead of Sporing first. Protect helps it beat potential mixed attackers and Slaking, whose Giga Impact may also KO Swampert. The only problems to this set are sleep abusers, Grass-types, stat-uppers, and also physical Ghost-types such as Shedinja that Counter can't hit. Specially-based Dark-types tend to not be a problem.</p>
+ 
+<h4><a name="sash">Sash CounterCoat</a></h4>
+ 
+<p>This strategy uses the item Focus Sash to its advantage, assuming that it is allowed under the rules you are playing. The idea behind this strategy is to allow the opponent to break the CounterCoater's Focus Sash and then either use Counter or Mirror Coat depending on the move. Instead of taking a risk, the move Protect could also be used in order to scout the opponent's move. This way, you would know whether to Counter or Mirror Coat. Since these two moves return double the damage, having no Defense and Special Defense EVs on the Pokemon will allow the Focus Sash to be activated, leaving the user with 1 HP and knocking out the opponent's Pokemon by returning double the damage.</p>
+ 
+<p>External weather effects along with moves that have a fixed damage amount easily counter this strategy. Sandstorm causes the CounterCoater to lose the 1 HP that it had left, thus causing a tie. An example of this is Tyranitar and its ability Sand Stream, which summons sandstorm. Moves that don't do a lot of damage or fixed amounts of damage could prevent the Focus Sash from being activated and thus making the strategy useless. Conditions such as sleep, burn, and poison could also ruin the strategy since if the opponent uses status on the CounterCoating Pokemon, then the Pokemon will lose a certain amount of health or not be able to move, thus allowing the opponent to prevent the activation of Focus Sash (in the case of burn and poison) or not let them move and in turn 2HKO them (in the case of freeze and sleep).</p>
+ 
+<h3><a name="trick">Trick</a></h3>
+ 
+<p>The move Trick can be really useful in this metagame, especially against Pokemon that Protect on the first turn. This way, your Trick user can lock them into Protect on the second turn, leaving them helpless for the rest of the match as your Trick user proceeds to KO them.</p>
+ 
+<p>This strategy is quite viable unless you're facing a powerful attacker, in which case Tricking them will just help them KO your Trick user faster. This strategy also counters common sleep, Toxic, and F.E.A.R. strategies. It's not seen very often, however, since only a few Pokemon can use this strategy well; similar to the standard OU metagame, this is mostly seen on Jirachi that like to run Choice Scarf/Choice Specs and Trick.</p>
+ 
+<h3><a name="all">All-Out Attackers</a></h3>
+ 
+<p>These are the most used and one of the most effective strategies in 1v1. Choice Band or Choice Specs Pokemon are an example of this. Slaking with Choice Band is very effective due to its base 160 Attack. It can KO most Pokemon in one turn and thus not have to face a second turn of Truant.</p>
+ 
+<p>Powerful attackers come in two variants - bulky and non-bulky. The bulky ones, such as Metagross, are similar to the ones in the standard OU metagame. They can take a hit or two and proceed to OHKO or 2HKO their opponent in return and can usually be paired up with either a Choice Band or a Choice Specs to bolster their damage output. The non-bulky ones strive to KO their opponent using their good base Speed and attacking stats and can usually hold a Choice Scarf to boost their Speed even further. However, the Choice items are mostly interchangeable and can be equipped as you see fit.</p>
+ 
+<p><img src="/download/sprites/dp/68.png" alt="Machamp" /><br /> 
+Machamp @ Lum Berry<br /> 
+Ability: No Guard<br /> 
+Nature: Jolly<br /> 
+EVs: 244 HP / 252 Atk / 12 SpD<br /> 
+- DynamicPunch<br /> 
+- Payback<br /> 
+- Bullet Punch<br /> 
+- Ice Punch</p>
+ 
+<p><strong>Explanation:</strong> This set is extremely similar to the standard lead Machamp used in OU. The basic idea is to always DynamicPunch on the first turn, except against Ghost-types, to confuse the opponent and bring their chances of successfully attacking down to a coin toss. After that, Machamp can use the most damaging move depending on what the opposing Pokemon is. Payback is there for Ghosts that are immune to DynamicPunch. Bullet Punch finishes off weakened enemies (usually Focus Sash Pokemon), while Ice Punch covers Flying-types. Lum Berry is the preferred item to make sleep moves useless the first turn as Machamp confuses the opponent with DynamicPunch.</p>
+ 
+<p><img src="/download/sprites/dp/479.png" alt="Porygon-Z" /><br />
+Porygon-Z @ Choice Scarf<br />
+Ability: Adaptability<br />
+Nature: Modest<br />
+EVs: 4 HP / 252 SpA / 252 Spe<br />
+- Dark Pulse<br /> 
+- Hyper Beam<br />
+- Ice Beam<br />
+- Thunderbolt</p> 
+ 
+<p><strong>Explanation:</strong> This set abuses Porygon-Z's base 135 Special Attack to KO several threats. The wide array of moves grant it amazing type coverage, and with a Choice Scarf enhancing its above-average Speed, it is able to outspeed most Pokemon.</p>
+ 
+<h3><a name="stat">Stat-Changing Pokemon</a></h3>
+ 
+<p>Using stat-boosting moves such as Calm Mind can be an effective strategy in 1v1. Because there is no phazing in 1v1, the only way that a Pokemon can lose its stat boosts is if the opposing Pokemon has Haze, which is a rare scenario. This means that any stat boosts the Pokemon receives are virtually permanent. Another benefit to using stat-boosting moves is the ability to set up on the Mirror Coat and Counter users that are popular in the 1v1 metagame. Using stat-boosting moves in tandem with recovery moves allows some Pokemon to become extremely powerful. One example of this strategy is CroCune, or Suicune with Calm Mind / Rest / Sleep Talk / Surf. With Suicune's natural bulk combined with a few Calm Mind boosts, it becomes an extremely powerful force both offensively and defensively. Add in the ability to Rest and recover any damage and we get a force to be reckoned with in the 1v1 metagame.</p> 
+ 
+<p>However, while stat-boosting moves are great, they face their downfall against Taunt users that can prevent any form of stat boosting from happening. Aside from this weakness, stat-boosting moves are a great strategy to consider when choosing your Pokemon for 1v1.</p>
+ 
+<p><img src="/download/sprites/dp/245.png" alt="Suicune" /><br />
+Suicune @ Leftovers / Lum Berry<br />
+Nature: Bold<br />
+EVs: 252 HP / 252 Def / 4 SpD<br /> 
+- Calm Mind<br />
+- Rest<br />
+- Sleep Talk<br />
+- Surf</p>
+ 
+<p><strong>Explanation:</strong> Start off by using Calm Mind while Suicune's HP is slowly being cut down, then use Rest to regain full health. Afterwards, use Sleep Talk and win the game, barring critical hits. This strategy is very useful, unless facing something that is an all-out attacker, such as Slaking or Porygon-Z.</p>
+ 
+<h3><a name="toxic">Toxic Stalling</a></h3>
+ 
+<p>Using Toxic on a Pokemon and then using Protect or a recovery move every turn is an effective way to secure a win. A Pokemon can Toxic on turn one and then proceed to alternate between Protect and a recovery move as the opponent's health drains away.</p>
+ 
+<p>This strategy is countered by Steel-types and also by fast attackers. Lum Berry on the opponent can be devastating too, as you will effectively waste your first turn whereas they can attack twice in a row and effectively KO your Toxic user; due to these factors, Toxic stalling is not the most reliable strategy around. Opposing sleep inducers can also ruin this strategy. Supporting this strategy with actual attacks is a good idea, as then your Toxic staller now has an option to fall back on should things go wrong. Aside from this, the rare case of Taunt can also absolutely counter this style of play.</p> 
+ 
+<h3><a name="flinch">Flinch</a></h3>
+ 
+<p>Another strategy in the 1v1 metagame is to rely on the RNG to flinch your opponent for the win. Serene Grace users such as Jirachi and Togekiss, combined with their respective flinching moves, Iron Head and Air Slash, have a 60% chance to flinch the enemy with each attack. While a 60% flinch rate alone is a force to be reckoned with, by combining this with paralysis moves such as Body Slam and Thunder Wave, you can further abuse the RNG to your advantage. When a 60% flinch rate move attacks a paralyzed Pokemon, your opponent only has a 30% chance of successfully completing an attack because of the 25% chance for full paralysis. Paralysis also reduces the Pokemon's Speed to 25%, which ensures that the flincher can outspeed the opposing Pokemon and hax it to death. Serene Grace users can also abuse this flinch rate by using Choice Scarf in lieu of a paralysis move to ensure that they outspeed their opponents so that they can flinch their way to victory. Fake Out is also a highly effective strategy, since this way you can use Fake Out's priority along with the ability to flinch to your advantage in being able to make the opponent lose some health and thus breaking Focus Sash strategies.</p>
+ 
+<p>While using a flincher may seem "cheap," it is simply a strategy that relies on probability to win and is definitely a viable strategy.</p>
+ 
+<p><img src="/download/sprites/dp/385.png" alt="Jirachi" /><br /> 
+Jirachi @ Choice Scarf<br />
+Nature: Jolly<br />
+EVs: 4 HP / 252 Atk / 252 Spe<br />
+- Iron Head<br />
+- Zen Headbutt<br />
+- ThunderPunch<br />
+- Ice Punch</p>
+ 
+<p><strong>Explanation:</strong> The main strategy behind Choice Scarf Jirachi is to outspeed the opposing Pokemon and flinch it to death with either Iron Head or Zen Headbutt, depending on what the opposing Pokemon is. Thanks to Serene Grace, Jirachi has a 40% flinch rate with both moves, allowing it to hax its way to victory. The other moves are there for coverage in case the opposing Pokemon resists both of Jirachi's STAB flinching moves. Fire Punch can be used over one of the elemental punches so that Jirachi can hit Steels for super effective damage. Credit for this moveset goes to user Wild Eep.</p>
+ 
+<p>It should probably be noted that Heatran completely counters this set, but as Heatran isn't extremely common in the 1v1 metagame it isn't too big of a worry.</p>
+ 
+<h3><a name="sleep">Sleep</a></h3>
+ 
+<p>Using sleep-inducing moves can be extremely effective in 1v1. Disabling your opponent with sleep for 2-5 turns is invaluable as it allows your Pokemon to bombard your opponent with attacks while remaining unharmed. Some of the common moves for this strategy are Spore, Sleep Powder, Hypnosis, and Yawn. Spore is probably the most commonly used sleep move due to its 100% accuracy and the fact that it is used on Breloom, which can take full advantage of the sleep turns to set up a Substitute and begin using Focus Punch. As Spore is only found on a select few Pokemon, Sleep Powder and Hypnosis are used as well. However, these moves are risky due to their lower accuracy. Yawn is almost always used in conjunction with Protect to let the sleep take effect while avoiding damage. A F.E.A.R. Smeargle is an excellent example of this strategy, as it can use Spore to send the opponent to sleep, drain the opponent's HP to 1 with Endeavor, and then use Bullet Punch for the KO.</p>
+ 
+<p>Yawn and Protect can be a deadly combination if used correctly. This strategy is highly effective in 1v1 as sleep allows your Pokemon to get a couple of free hits. Yawn works at the end of the next turn, and while Protect renders your Pokemon invulnerable for that turn, you can effectively sleep the opponent without fear of retaliation. It is important for the user to be bulky since it will usually have to take at least one hit as it uses Yawn. This style is highly effective as it's almost guaranteed sleep; the game can then usually be quickly finished with a hard hitting attacking move or two.</p>
+ 
+<p>While sleep is certainly a very good strategy, it does have its weaknesses. Some Pokemon, such as Machamp, will run Lum Berry just to counter the sleep move and then OHKO the sleep user. Although uncommon in 1v1, some Pokemon have abilities such as Insomnia to prevent sleep or Early Bird to limit its effectiveness. Also, many of the sleep users are frail and can easily be taken out by a faster Pokemon.</p> 
+ 
+<p><img src="/download/sprites/dp/286.png" alt="Breloom" /><br />  
+Breloom @ Toxic Orb<br />
+Ability: Poison Heal<br />
+Nature: Jolly<br />
+EVs: 252 Atk / 4 SpD / 252 Spe<br />
+- Focus Punch<br />
+- Seed Bomb<br />
+- Spore<br />
+- Substitute</p>
+ 
+<p><strong>Explanation:</strong> This strategy first uses Spore to sleep the opponent, then uses Substitute in case the opponent wakes up, and lastly uses Focus Punch or Seed Bomb depending on the opponent.</p>
+ 
+<h2><a name="common_items">Common Items in 1v1</a></h2>
+ 
+<h3><a name="status">Status Berries</a></h3>
+ 
+<p>Lum Berry and Chesto Berry are common items in this metagame, seeing as sleep-inducers can have a free sweep if a Pokemon goes off to sleep. These Berries prevent the user from falling asleep, and thus help counter opposing sleep-inducers, especially for those Pokemon most at risk. This strategy is very effective against Pokemon that use Yawn/Protect since they waste one turn with Yawn, which gives your Pokemon a free hit, until they realize that your Pokemon has a Lum Berry, and that's when your Pokemon gets another free hit at them. These Berries are mostly seen on all-out attackers such as Machamp.</p>
+ 
+<h3><a name="choice">Choice Items</a></h3> 
+ 
+<p>Choice items, such as Choice Scarf, Choice Specs, and Choice Band, are plentiful in this metagame. Choice Specs and Band are usually seen on attackers that tend to aim for the OHKO, if not a 2HKO. These items boost a specific offensive stat of these attacking Pokemon, and thus increase the chances of a win. A Choice Band for instance would be a good item choice on a Slaking due to Slaking having a very high base Attack stat, which combined with Attack EVs sends Slaking's power through the roof.</p>
+ 
+<h3><a name="mail">Mail</a></h3>
+ 
+<p>The item Mail is a very peculiar choice to put on a Pokemon. It seemingly has no benefits, as it does nothing inside of battle. It does, in fact, have one benefit: it cannot be Tricked away from the holder. While this may not seem useful, it has merits on some Pokemon, namely those who are dependent on changing moves but have little use for an item.</p> 
+ 
+<p>The most prominent example of this is Blissey. The idea behind it is to use Counter against Pokemon using physical attacks and wear down Pokemon using special attacks with Toxic and a recovery move. The problem is, a Pokemon with Trick ruins this strategy by Tricking Blissey a Choice item. This prevents it from healing and limits it to one move, which is fatal. Mail cannot be Tricked away and is a nasty surprise for a Pokemon using Trick, only to get locked into a useless move while its HP is whittled down by Toxic. This strategy was popularized by user Ferrouswheel, when he won the Close Combat tournament using this Pokemon:</p>
+ 
+<p><img src="/download/sprites/dp/242.png" alt="Blissey" /><br />
+Blissey @ Heart Mail<br /> 
+Nature: Bold<br />
+Ability: Natural Cure<br />
+EVs: 252 HP / 252 Def / 4 Spe<br />
+- Toxic<br />
+- Counter<br />
+- Rest<br /> 
+- Protect</p> 
+ 
+<h3><a name="focus">Focus Sash</a></h3>
+ 
+<p>This item serves one main purpose: to prevent OHKOs and give the user another chance to make an attack. The item Focus Sash is mostly paired with the F.E.A.R. strategy. Focus Sash can also be used with weak Pokemon that carry Counter/Mirror Coat, so the Focus Sash can serve as a medium to give the user a definite KO if Counter/Mirror Coat is used.</p> 
+ 
+<h2><a name="conc">Conclusion</a></h2>
+ 
+<p>1v1 is a fast-paced metagame where the Pokemon you choose means everything. This metagame has a lot of luck involved and that's what makes it exciting, since you don't know what is coming next. I hope this guide has helped you get a better understanding of what the metagame is like, and if fast-paced and fun is what you're looking for, then the 1v1 metagame is just for you.</p>

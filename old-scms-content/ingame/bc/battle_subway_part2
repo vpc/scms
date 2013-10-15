@@ -1,0 +1,304 @@
+[title]
+Introduction to the Battle Subway, Part 2
+[head]
+<meta name="description" content="Everything you need to know about the Battle Subway in BW." />
+<style type="text/css">
+h5, h6 {
+font-size: 1em;
+}
+
+.columns {
+-moz-column-count: 4;
+-moz-column-gap: 2em;
+-webkit-column-count: 4;
+-webkit-column-gap: 2em;
+column-count: 4;
+column-gap: 2em;
+}
+</style>
+[page]
+<div class="author">By <a href="/forums/member.php?u=81404">flavor0</a> and <a href="/forums/member.php?u=51452">Cradily</a>.</div>
+
+<h2>Table of Contents</h2>
+
+<ul class="toc">
+<li><a href="battle_subway_part1">Part One</a></li>
+<li><a href="battle_subway_part2">Part Two</a>
+<ol>
+<li><a href="#playing">Playing in the Subway</a>
+<ul><li><a href="#playing_ivsevs">IVs and EVs for Subway Pokemon</a></li>
+<li><a href="#playing_speed">A Note on Speed Tiers</a></li>
+<li><a href="#playing_styles">Successful Team Styles</a></li></ul>
+</li>
+<li><a href="#charts">Using Subway Pokemon/Trainer Charts</a></li>
+<li><a href="#threats">Top Threats</a>
+<ul><li><a href="#threats_hail">Hail Teams (Ice Workers)</a></li>
+<li><a href="#threats_trickroom">Trick Room</a></li>
+<li><a href="#threats_legendary">Legendary Pokemon</a></li>
+<li><a href="#threats_ohko">OHKO Users</a></li></ul>
+</li>
+<li><a href="#hax">A Comment on Hax</a></li>
+<li><a href="#b2w2">Changes in Black 2 and White 2</a></li>
+<li><a href="#conclusion">Conclusion</a></li>
+<li><a href="#resources">Resources/Important Links</a></li>
+<li><a href="#credits">Credits</a></li>
+</ol></li>
+</ul>
+
+
+<h2><a name="playing">Playing in the Subway</a></h2>
+
+<h3><a name="playing_ivsevs">IVs and EVs for Subway Pokemon</a></h3>
+
+<p>When EVing your Battle Subway Pokemon, it's important to remember that they will be set to level 50, not 100. Keep these points in mind when planning EV spreads for your Battle Subway teams to maximize your stats at level 50:</p>
+
+<ul>
+<li>8 EVs equal 1 additional stat point at level 50.</li>
+<li>If the Pokemon has an <strong>even</strong> IV in the stat, its EVs for that stat should be divisible by 8.</li>
+<li>If the Pokemon has an <strong>odd</strong> IV in the stat, its EVs for that stat should be divisible by 4, but not 8.</li>
+</ul>
+
+<p>It's a good idea to use an IV/EV calculator to customize your EV spreads and ensure that you aren't losing stat points with an inefficient spread.</p>
+
+<h3><a name="playing_speed">A Note on Speed Tiers</a></h3>
+
+<p>Speed is one of the most, if not the most, important stat in competitive Pokemon, and it is no different in the Battle Subway. <a href="/forums/showpost.php?p=3398928&amp;postcount=10">Here</a> is a link to the Speed tiers in the subway, courtesy of fluffyflyingpig. This is a fantastic reference and is extremely helpful in letting you plan how many Speed EVs to put into your subway Pokemon.</p>
+
+<h3><a name="playing_styles">Successful Team Styles</a></h3>
+
+<p>Below are a few general team styles that many people have had success with in the Battle Subway.</p>
+
+<h4>Cripple and Set Up</h4>
+
+<p>An effective singles strategy, Cripple and Set Up focuses on hindering the opponent's lead Pokemon so that one of your Pokemon can set up without fear and sweep. This strategy is particularly successful in singles because it creates an environment where your team is very close to being hax-proof. One downside to this playstyle is the length of time each battle takes&mdash;spending time crippling the opponent's lead, setting up, and then sweeping is considerably longer than just plowing through an opponent's team. If long battles bore you, this is not the strategy for you. Cripple and Set Up is reserved almost exclusively for singles, as crippling two opponents in doubles is considerably more difficult.</p>
+
+<p>Teams that employ this strategy use 1-2 cripplers with the remaining slot(s) dedicated to setup sweepers. The purpose of the crippler Pokemon is to hinder the opponent's lead by reducing its Attack/Special Attack, Accuracy, and Speed in addition to locking it into one move. Cripplers commonly carry moves such as Flash, Charm, Thunder Wave, Memento, and Trick + Choice Scarf to accomplish this. Common crippling Pokemon include Whimsicott, Latias, Mesprit, Uxie, Shuckle, and Stoutland. Here's a sample crippling set for Mesprit, used by Jumpman16:</p>
+
+<p><img src="/download/sprites/bw/486.png" alt="" /><br />
+<strong>Mesprit</strong> @ Choice Scarf<br />
+Bold Nature<br />
+EVs: 252 HP / 4 Def / 252 Spe<br />
+- Trick<br />
+- Thunder Wave<br />
+- Charm<br />
+- Flash</p>
+
+<p>The standard setup sweeper carries Substitute, a setup move, a main STAB attack, and a coverage or recovery move. Substitute is a staple as it blocks status and protects your Pokemon from critical hits should the opponent manage to hit despite its reduced accuracy.</p>
+
+<p>The goal of the setup sweeper is simply to set up all over the opponent's crippled lead and proceed to sweep the rest of their team. Dragonite is a very popular setup sweeper, but other options such as Volcarona and Registeel work too. Here's a sample Dragonite setup sweeper set:</p>
+
+<p><img src="/download/sprites/bw/149.png" alt="" /><br />
+<strong>Dragonite</strong> @ Leftovers<br />
+Multiscale<br />
+Adamant Nature<br />
+EVs: 204 HP / 252 Atk / 20 Def / 28 SpD / 4 Spe<br />
+- Dragon Claw<br />
+- Dragon Dance<br />
+- Substitute<br />
+- Roost</p>
+
+<p>Black 2 and White 2 have brought a host of new Dream World abilities and moves to play with in the subway. The addition of Truant Durant has provided an extremely effective option for the Cripple and Set Up strategy. The typical crippler Durant set is as follows:</p>
+
+<p><img src="/download/sprites/bw/662.png" alt="" /><br />
+<strong>Durant</strong> @ Choice Scarf<br />
+Truant<br />
+Jolly Nature<br />
+EVs: 252 HP / 16 SpD / 240 Spe<br />
+- Entrainment<br />
+- X-Scissor<br />
+- Iron Head<br />
+- Protect / Superpower / Rock Slide</p>
+
+<p>Unlike other Pokemon who cripple the opposing lead Pokemon, Durant can do so in a single turn with Entrainment. The only change to setup sweepers is that they need to run Protect. The strategy is simple: use Entrainment on the opponent's lead, switch to your sweeper as they loaf, and then Protect when they attack/set up when they loaf. This crippling strategy is much more successful than other styles because it is incredibly consistent. However, this isn't to say there aren't flaws&mdash;the biggest threats to this strategy are leads that suicide or switch out. Moves such as Explosion, Memento, Volt Switch, and U-turn are problematic, especially if the opponent manages to KO your Durant before you can use Entrainment again.</p>
+
+<p>Like other Cripple and Set Up strategies, be prepared for lengthy battles. Perhaps even more so if you chose to use Durant since you will spend your turns alternating between Protect and your setup move on your sweeper.</p>
+
+<h4>Weather</h4>
+
+<p>The main goal of weather-based teams is, of course, to control the weather that gives your Pokemon an advantage. Weather teams are effective in the Battle Subway because they do not experience the same degree of "weather wars" that occurs in standard OU battles&mdash;the opponents do not use Pokemon with Dream World abilities, so only Tyranitar, Hippowdon, Abomasnow, and manual weather setters can disrupt your desired weather. CPU opponents also won't switch out their weather inducer so they can re-activate their weather again as human opponents often do. As such, playing under weather gives you a considerable advantage over your CPU opponents.</p>
+
+<p>However, knowing how to deal with opposing weather changers is key to a successful subway weather-based team.</p>
+
+<h4>Trick Room</h4>
+
+<p>Like weather-based strategies, Trick Room (TR) teams succeed by controlling a field effect that gives their Pokemon the advantage. Unlike weather teams, however, TR teams have little to no risk in getting their field effect removed by an opponent's move. On the other hand, they face the difficulty of keeping Trick Room active since it lasts only 5 turns. As such, TR is a much more successful strategy in doubles than singles since double battles tend to last fewer turns and two Pokemon can immediately benefit from it rather than just one.</p>
+
+<p>A key component to TR based teams is the Pokemon that initially sets up TR. Given the move's -7 priority, the TR setter is very susceptible to status, flinching, Taunt, or simply being KOed by powerful attacks. The first three dangers are unavoidable unless you use very specific tools to get around them (e.g. Lum Berry, Inner Focus, Mental Herb, etc). The last, getting KOed in the first turn of battle, is the most important danger to avoid. Solid TR setters tend to be bulky, have good defensive typing, and benefit from TR themselves. The following Bronzong set is a good Pokemon to get TR going:</p>
+
+<p><img src="/download/sprites/bw/442.png" alt="" /><br />
+<strong>Bronzong</strong> @ Occa Berry / Leftovers<br />
+Levitate<br />
+Sassy Nature<br />
+EVs: 252 HP / 156 Def / 100 SpD<br />
+IVs: 0 Spe<br />
+- Trick Room<br />
+- Gyro Ball<br />
+- Rock Slide / Hypnosis<br />
+- Reflect / Light Screen</p>
+
+<p>Occa Berry makes Bronzong have essentially no weaknesses for the first turn, while Leftovers grants longer-term recovery. While TR and Gyro Ball are staples, the last two slots are even more variable than just the options listed here. This is a very defensive Bronzong set that reliably sets up TR, can deal decent damage with Gyro Ball, potentially flinches the opponent with Rock Slide, and supports your team; the EV spread can be tweaked if a more offensive Bronzong is desired.</p>
+
+<p>TR based teams of course need Pokemon that benefit from TR! Pokemon with naturally low Speed and high attacking stats such as Snorlax and Reuniclus make excellent candidates for TR teams. Effective TR Pokemon are not limited to slow behemoths, though&mdash;Pokemon with middling speed can be made into great TR abusers by equipping a Macho Brace or Power item, halving their Speed.</p>
+
+<p>When acquiring and EV training TR Pokemon, it's important to keep in mind that they prefer a Speed reducing nature, a 0 IV in Speed, and no Speed EVs. Check the Battle Subway Speed Tiers to see which Pokemon will "outspeed" you in TR.</p>
+
+<h4>Tailwind</h4>
+
+<p>The flip side to TR teams, Tailwind (TW) teams use the move Tailwind to double their team's Speed for four turns. Like TR, Tailwind is more viable in doubles than singles given its limited duration. Also like their TR counterparts, the biggest challenge TW teams face is setting up and maintaining their beneficial field effect. However, unlike Trick Room, Tailwind is a normal priority move. Ideally, a TW setter has high Speed, the Prankster ability, or significant bulk. Prankster Tailwind users are excellent because their ability gives Tailwind +1 priority, almost guaranteeing that they can get the wind blowing on the first turn. Murkrow, Cottonee, Whimsicott, and Tornadus are the four Pokemon that have Prankster and learn Tailwind. Here's a sample TW setter set for Whimsicott:</p>
+
+<p><img src="/download/sprites/bw/575.png" alt="" /><br />
+<strong>Whimsicott</strong> @ Leftovers / Focus Sash<br />
+Prankster<br />
+Impish Nature<br />
+EVs: 252 HP / 44 Def / 212 SpD<br />
+- Tailwind<br />
+- Helping Hand<br />
+- Light Screen<br />
+- U-turn</p>
+
+<p>Depending on the staying power of your initial TW setter, it's not a bad idea to have a second Tailwind user as backup. This doesn't need to be a dedicated TW setter like the above Whimsicott, but could be an offensive TW sweeper that also carries TW in one of its moveslots.</p>
+
+<p>Ideally, a TW based team wants to smash the opposition within four turns. As such, Pokemon with high attacking stats that may suffer from low to middling Speed stats are excellent options. Pokemon with strong multi-target attacks are also fantastic TW abusers. Setup Pokemon don't mesh well with a TW based style because turns spent setting up are turns of doubled Speed lost. If you use any setup Pokemon, your best bet is to use a Pokemon that can set up a Swords Dance or Nasty Plot on the first turn while you set up Tailwind with its partner.</p>
+
+<h4>Other Styles</h4>
+
+<p>Successful subway teams are certainly not limited to the strategies outlined above. Not basing a team around a particular concept and instead selecting 3 or 4 Pokemon that simply work well together is very viable. The best way to determine how well a team performs is to actually test it in the Battle Subway; theorymon is great and all, but actual testing is the best evaluator. This is particularly true for the Battle Subway&mdash;it's very easy to overlook some of your team's weakness simply given the wide variety of Pokemon the subway throws at you. Once you build up a nice bank of subway Pokemon you can start to mix and match them, experimenting with different combinations to see what works best for you. Team building is half the battle in the subway, so have fun crafting teams that you enjoy playing with!</p>
+
+<h2><a name="charts">Using Subway Pokemon/Trainer Charts</a></h2>
+
+<p>Knowing what moveset the opposing Pokemon possesses is very helpful in predicting what their next attack will be. Luckily, some of Smogon's Pokemaniacs have compiled a list of all the Pokemon in the Battle Subway and by which Trainers they are used. Referencing these charts is a great way to familiarize yourself with the Pokemon you'll face in the subway and to help you get out of tough battle situations.</p>
+
+<ul>
+<li>List of Battle Subway Pokemon: <a href="bw_subway_pokemon">Battle Subway Pokemon</a></li>
+<li>List of Trainers and their Pokemon: <a href="bw_subway_trainers">Battle Subway Trainers</a></li>
+</ul>
+
+<p>These charts may look intimidating at first, but they're actually fairly easy to use. The first link above contains a numbered list of all subway Pokemon including their nature, hold item, moveset, and EV spread. Scrolling down to the Super Subway Trainers section (given the low difficulty of the regular lines, determining their Pokemon's sets is really not necessary) in the second link reveals a compilation of Trainer names followed by a list of numbers. These numbers correspond to the numbered Pokemon in the first link. By searching through these lists you can easily find which Pokemon the opponent is using against you. Sometimes, however, you cannot determine what set the opponent is running without additional information&mdash;some Trainers use multiple different sets of the same Pokemon. For example, if your opponent uses any of the four Gyarados in the subway you cannot tell which one you're facing until it attacks you. Although it's unfortunate when you cannot determine the exact set of the opposing Pokemon from the first turn, there's typically enough variation in a Pokemon's movesets that you can narrow it down to two options from just a single attack. Noting the Pokemon's relative Speed, whether it went before or after a Pokemon with a known Speed stat, can also help you eliminate possible choices.</p>
+
+<p>It may look tiresome to check what sets the opponent is running, but keep in mind that you don't need to do this for every single Pokemon you face&mdash;if you're using a rain team, say, it's really not that important what set an opponent's Golem has because you're just going to steamroll it anyway. These resources are most helpful for those Pokemon that sometimes carry a specific move that is a problem for your team or that run different EV spreads that would affect your battle strategy. Is there a lot of people that fit this description? Yes, but eventually you'll become familiar enough with subway Pokemon that you won't need to check these lists as often.</p>
+
+<p>Another suggestion that may be useful: if you use a Pokemon that has a glaring 4x weakness (Gyarados, Scizor, and Toxicroak come to mind), it's helpful to make a list of Pokemon that potentially carry a non-STAB coverage move that could exploit this weakness. That is, you would of course be wary of an Alakazam or any other Psychic-type one-shotting your Toxicroak, but you might get caught off guard by a Ninetales's Extrasensory or an Electivire's Psychic achieving the same result. Keeping a list of these Pokemon that could net surprise OHKOs can help you be prepared to deal with these threats. Of course, this works best for Pokemon with one prominent weakness that you want to avoid; if you try and make a list of Pokemon that could hit your Abomasnow with a super effective move, your list will probably contain over half the subway Pokemon!</p>
+
+<h2><a name="threats">Top Threats</a></h2>
+
+<p>Although each individual Battle Subway team will struggle with different Pokemon, there are a few noteworthy threats that seem to trouble the majority of players.</p>
+
+<h3><a name="threats_hail">Hail Teams (Ice Workers)</a></h3>
+
+<p>Between Snow Cloak and freezes, hail teams are notorious for their rage-inducing hax. Couple that with powerful, multi-targeting, 100% accuracy Blizzards and a fantastic offensive typing and you've got one potent opponent. Run teams vulnerable to Ice-type attacks at your own peril, for eventually these guys will just steamroll you. Even packing multiple Ice resists isn't always a foolproof plan&mdash;it's infuriating when you can't hit a Snow Cloak Froslass or your supposed hail counters are frozen for six turns straight. Ice may be an awful defensive typing, but don't underestimate these guys.</p>
+
+<h3><a name="threats_trickroom">Trick Room</a></h3>
+
+<p>Trick Room turns a speedy Pokemon's asset into a liability. An opponent can quickly turn a match around if they set up Trick Room and have Pokemon that are slower than yours under normal battle conditions. As such, Trick Room users are particularly dangerous for teams that have Speed-boosting Pokemon whether via a setup move or an ability. If your Cloyster Shell Smashes or if you have your Swift Swim Kingdra out in the rain when the opponent sets up Trick Room, your Pokemon just became the slowest on the field regardless of the opponent's team.</p>
+
+<p>Luckily, Harlequins Aramis and Athos are the only two subway opponents that specialize in Trick Room. In addition to TR setters, these two Trainers use very slow Pokemon that often have Speed-reducing natures and hold an Iron Ball. However, for all other subway opponents that may use a TR setting Pokemon, while the Pokemon that set up TR benefit from it themselves, the rest of the opponent's team may not be suited for it. Moreover, subway Pokemon aren't tailored for Trick Room play; that is, they don't always have Speed-reducing natures and won't have a 0 Speed IV. However, the subway Pokemon that have Trick Room are used by a wide variety of Trainers so it is much more likely that you'll come across one.</p>
+
+<p>Trick Room isn't a threat you can really, or should really, prepare for, though (unless you are using a TR team yourself!). Well-built teams can get around most Trick Room users with careful playing, even if they manage to successfully set up. If you think you might be facing a Pokemon that knows Trick Room, it's a good idea to KO or disable it. Remember that Trick Room has -7 priority, so even the slowest of Pokemon will act before it's used.</p>
+
+<h3><a name="threats_legendary">Legendary Pokemon</a></h3>
+
+<p>It should be pretty obvious that CPUs packing legendary Pokemon tend to be a bit tougher than your average subway opponent. While you won't find yourself up against a Mewtwo or Kyogre, the Lati twins, the Genies, and the Musketeers, among others, pose significant threats. It's not necessary to build a team focused on dealing with Latios, say, but you should keep these powerhouses in mind when putting together your subway Pokemon.</p>
+
+<p>The following trainers use legendary Pokemon exclusively:</p>
+
+<ul>
+<li><strong>Veterans (M) Columbo</strong> and <strong>Leron</strong></li>
+<li><strong>Veterans (F) Jeune</strong> and <strong>Risha</strong></li>
+<li><strong>Socialites Aparna</strong> and <strong>Saty</strong></li>
+<li><strong>Gentlemen Camus</strong> and <strong>Kavan</strong></li>
+</ul>
+
+<p>The following trainers may use legendary Pokemon in addition to regular Subway Pokemon:</p>
+
+<ul>
+<li><strong>Ace Trainer (F) Palm</strong>: Regice (#976)</li>
+<li><strong>Ace Trainer (M) Reigel</strong>: Regice (#976)</li>
+<li><strong>Worker Hayes</strong>: Regirock (#915), Landorus (#927), Terrakion (#979)</li>
+<li><strong>Janitors Eric</strong> and <strong>Oscar</strong>: Articuno (#949, #969), Zapdos (#970), Moltres (#971), Entei (#953), Suicune (#954, #974), Cresselia (#966), Thundurus (#982)</li>
+<li><strong>Pilots Artemas</strong> and <strong>Chand</strong>: Articuno (#909, #929, #949, #969), Zapdos (#910, #930, #950, #970), Moltres (#911, #931, #951, #971), Tornadus (#921, #941, #961, #981), Thundurus (#922, #942, #962, #982)</li>
+</ul>
+
+<h3><a name="threats_ohko">OHKO Users</a></h3>
+
+<p>OHKO moves are usually pretty terrible, but play enough battles in the Battle Subway and eventually your opponent will get lucky and hit. Thankfully, there's only a small pool of OHKO move-toting Subway Pokemon. Here are the three biggest culprits:</p>
+
+<p><img src="/download/sprites/bw/365.png" alt="" /><br />
+<strong>Walrein #880</strong> @ Lax Incense<br />
+Bold Nature<br />
+EVs: Def / SpD<br />
+- Sheer Cold<br />
+- Fissure<br />
+- Rest<br />
+- Sleep Talk</p>
+
+<p>As if it wasn't bad enough that Game Freak made a defensive, RestTalk Walrein with OHKO moves as its only attacks, they decided to give it Lax Incense. If you don't take out this guy quickly, you'd best start praying to the RNG gods.</p>
+
+<p><img src="/download/sprites/bw/127.png" alt="" /><br />
+<strong>Pinsir #827</strong> @ Choice Scarf<br />
+Jolly Nature<br />
+EVs: Atk / Spe<br />
+- X-Scissor<br />
+- Earthquake<br />
+- Close Combat<br />
+- Guillotine</p>
+
+<p>Yup, Choice Scarf Guillotine. Either hope that it chooses one of its other moves or that the first Guillotine misses.</p>
+
+<p><img src="/download/sprites/bw/232.png" alt="" /><br />
+<strong>Donphan #832</strong> @ Quick Claw<br />
+Adamant Nature<br />
+EVs: Atk / SpD<br />
+- Earthquake<br />
+- Stone Edge<br />
+- Seed Bomb<br />
+- Fissure</p>
+
+<p>Quick Claw + Fissure can mess you up before you have a chance to act. Donphan's Sturdy ability gives it a second opportunity to OHKO one of your team members.</p>
+
+<p>Even though there's only a handful of subway Pokemon that carry OHKO moves, it's not a bad idea to be aware of them so you aren't caught completely by surprise. Here's a compilation of all the subway Pokemon that have an OHKO move. Italicized Pokemon are ones you'll face only on the regular lines.</p>
+
+<ul>
+<li><strong>Fissure</strong>&mdash;<em>Stunfisk #198</em>, Bastiodon #637, Mamoswine #706, Whiscash #761, Donphan #832, Wailord #833, Walrein #880</li>
+<li><strong>Guillotine</strong>&mdash;<em>Fraxure #172</em>, Pinsir #827</li>
+<li><strong>Horn Drill</strong>&mdash;Rapidash #647, Rhyperior #710</li>
+<li><strong>Sheer Cold</strong>&mdash;<em>Beartic #204</em>, Cryogonal #618, Vanilluxe #713, Walrein #880, Articuno #929</li>
+</ul>
+
+<p>Also look out for Roughnecks Ganymed and Proteus&mdash;all of their possible Pokemon, except one, carry OHKO moves.</p>
+
+<h2><a name="hax">A Comment on Hax</a></h2>
+
+<p>Hax: it happens. Despite the Battle Subway's acronym, it contains far fewer hax-laden Pokemon (BrightPowder and Quick Claw holders, Double Team/Minimize spammers) than its predecessors. However, hax is a fundamental element of Pokemon and the Battle Subway is no exception. The most successful subway teams aim to minimize their vulnerability to hax. They following strategies are effective ways of making your team at least somewhat hax-proof:</p>
+
+<ul class="long_list">
+<li><strong>Substitute</strong>&mdash;in addition to blocking status and allowing you to fire off Focus Punches, Substitute has the invaluable role of preventing critical hits from ruining your day. Substitute is a staple on defensive setup Pokemon, as a super effective critical hit could render all your setup worthless. It is less effective in doubles than singles since the opponent can double target your Pokemon, breaking its Substitute and then smacking it while it's unprotected.</li>
+<li><strong>100% Accurate Moves</strong>&mdash;Flamethrower &gt; Fire Blast, Surf &gt; Hydro Pump, etc. Using a move with less than 100% accuracy is a significant risk. Sure, a Hydro Pump miss during a PO battle may cost you the match once every so often, but just a single miss at the wrong time in the Subway could spell an end to your streak. That's not to say that a successful team must only use 100% accurate moves&mdash;Rock Slide and High Jump Kick are used often on high-streak teams. Wide Lens is also a viable item to alleviate accuracy hax, bumping up 90% accurate moves to 99%.</li>
+<li><strong>Don't rely on hax-based strategies</strong>&mdash;it's not the best idea to build a subway team around something like Sand Veil + BrightPowder Garchomp abusing Substitute, a slow Pokemon equipped with Quick Claw, etc. Eventually, the CPU will hit a lucky streak and break through your team. That isn't to say that BrightPowder, Quick Claw, or evasion raising abilities are not viable; you just shouldn't rely on them extensively. The one team strategy that focuses on hax is Cripple and Sweep (see above).</li>
+</ul>
+
+<p>You will undoubtedly be faced with very trying hax during your adventures in the Battle Subway&mdash;it sucks when you miss that Snow Cloak Froslass three times in a row or that Rock Slide flinches both your Pokemon. Don't get discouraged though! If you find yourself frustrated, take a break and try again later. The Battle Subway will always be ready for a new challenge.</p>
+
+<h2><a name="b2w2">Changes in Black 2 and White 2</a></h2>
+
+<p>Other than the changes in available items and some item costs (detailed above), the Battle Subway has remained pretty much unchanged in Black 2 and White 2. The only change is the removal of Sky Drop from subway Pokemon movesets, since it causes a glitch when used in conjunction with Gravity.</p>
+
+<h2><a name="conclusion">Conclusion</a></h2>
+
+<p>It's no doubt that participating in the Battle Subway takes time, effort, and experience. So get out there! Check out what others have done to get their name on the records list. Compare EV spreads and put your team to the test. The Battle Subway is all about experimenting with different teams, so don't get discouraged if your team is not as successful as you hoped. And most of all, have fun in the subway!</p>
+
+<h2><a name="resources">Resources/Important Links</a></h2>
+
+<dl>
+<dt><a href="/forums/showthread.php?t=102593">Battle Subway Records Thread</a>, started and maintained by Peterko</dt>
+<dd>Got an impressive streak? Want input about your subway team? Then this thread is for you! This is a fantastic resource for discussion with fellow Battle Subway enthusiasts.</dd>
+<dt><a href="bw_subway_pokemon">Battle Subway Pokemon</a>, by Team Rocket Elite</dt>
+<dd>A very useful list detailing the nature, hold item, moveset, and EVs of every Pokemon used by subway opponents. Confused? Refer to <strong><a href="#charts">Using Subway Pokemon/Trainer Charts</a></strong> for help.</dd>
+<dt><a href="bw_subway_trainers">Battle Subway Trainers</a>, by Team Rocket Elite</dt>
+<dd>A very useful list detailing the possible Pokemon that every subway opponent may use. Confused? Refer to <strong><a href="#charts">Using Subway Pokemon/Trainer Charts</a></strong> for help.</dd>
+<dt><a href="/forums/showpost.php?p=3398928&amp;postcount=10">Battle Subway Speed Tiers</a>, by fluffyflyingpig and Team Rocket Elite</dt>
+<dd>A compilation of Speed tiers for the subway. A great resource when planning your subway teams.</dd>
+</dl>
+ 
+<h2><a name="credits">Credits</a></h2>
+
+<p>Credit for making the lists of subway Pokemon and subway Trainers goes to Team Rocket Elite. Credit for compiling the subway Speed Tiers goes to fluffyflyingpig. Credit for starting and updating the Battle Subway Records Thread goes to Peterko. Thanks to Level 51 for doing some great research on the IVs of subway Pokemon.</p>

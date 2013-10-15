@@ -1,0 +1,326 @@
+[title]
+OU Metagame Analysis
+[head]
+<link href="/media/smog/smog.css" type="text/css" rel="stylesheet" />
+<style type="text/css">
+.positive {
+color: green;
+}
+
+.negative {
+color: red;
+}
+</style>
+[page]
+<div class="author"> By <a href="/forums/member.php?u=21770">Philip7086</a> and <a href="/forums/member.php?u=14040">Scofield</a>. Art by <a href="/forums/member.php?u=32190">Buffalo Wings</a>.</div>
+<table id="smogheader">
+<tr>
+<td class="left"><a href="protips">&laquo; Previous Article</a></td>
+<td class="middle"><a href="/smog/issue8/">Home</a></td>
+<td class="right"><a href="moves">Next Article &raquo;</a></td>
+</tr>
+</table>
+
+<h2>The Big Picture</h2>
+
+<div style="float: right; margin: 10px;"><img src="/media/smog/scaryrachi.jpg" alt="" /></div>
+
+<p>The Pokémon metagame generally sees slow evolution over time, with hardly any huge changes in the short run. However, last month, there were some big shifts in the metagame &ndash; some logical and some unexplainable. This article is meant to highlight these changes in the top twenty most used Pokémon.</p>
+
+<p>To start things off, there have been some big drops in Latias and Rotom-A usage, which can most likely be attributed to the huge increase in Scarf Tyranitar. With these two major drops, Gyarados was able to move up two places without actually increasing at all in usage percentage, to take its spot in the top five most used Pokémon of April. With the popularity of Scarf Tyranitar not only restricting the effectiveness of fast special attackers, but also lowering its own threat as a physical tank or sweeper (Jolly unboosted attacks from Tyranitar are very easy to wall), we see a general increase in the use of more defensive teams. Skarmory, Blissey, and Gliscor all saw respectable increases in usage, hinting that taking a more defensive route in this metagame is not only possible, but ideal since Pokémon that are generally troublesome to stall are taken out by Scarf Tyranitar. There are, however, some statistics that go against the "Scarf Tyranitar trumps all" theory, such as an increase in Gengar and Starmie usage. Gengar, in particular, was able to jump up a few standings last month &ndash; a feat which is incredibly hard to do in the top ten which tends to be much more static than usages in the top forties. When considering the "most improved", though, Scizor saw the highest increase in usage from March to April, further separating itself from the pack as the by far most used Pokémon in OU. Machamp also saw a humongous jump in usage, particularly as a lead, going from the thirteenth most common lead to the seventh in one month's time. Although Machamp does not have access to Stealth Rock, it is currently considered to be the best anti-lead in the metagame, being able to essentially 2HKO most common leads while remaining unscathed by using the set: Dynamic Punch, Payback, Ice Punch, and Bullet Punch.</p>
+
+<p>Although Scizor and Machamp might be enjoying the increased usage, there are some Pokémon who rather inexplicably significantly dropped. One, as mentioned earlier, is Rotom-A who dropped 2.23% in usage since March (the biggest drop in the top twenty by far). Sure, the increase in Scarf Tyranitar popularity can explain this to some extent, but Rotom-A takes less of a beating from Scarf Tyranitar than Pokémon like Gengar and Starmie, who both saw increases in usage last month. Defensive Rotom-A can survive a Jolly Crunch from Tyranitar and retaliate with Will-O-Wisp, or even scout Tyranitar by using Substitute. This drop is undoubtedly the second most confusing event in April's stats. The most confusing, however, goes to Jirachi's drop of 1.88%. All of Jirachi's most common sets remain as potent as ever in the metagame, so what gives, fellow Pokémonners? If anything, the introduction of the most annoying set in the world (Substitute, Thunder Wave, Iron Head, and Fire Punch) should have increased the popularity of Jirachi last month. The Choice Scarf set remains as effective as ever at stopping offensive teams (and also enjoys the drop in Magnezone usage), and the Calm Mind + Wish set still beats down on defensive teams. There seems to be absolutely no logical explanation for this drop in usage, other than "I stopped using Jirachi out of respect for my opponent".</p>
+
+<p>It is too early to know whether any of these changes are a temporary anomaly, or indications of where the metagame will go in the future. Of course, the fate of the metagame is also hinging on the results of the Stage 3-5 vote which can potentially change the metagame forever (or at least until the fifth generation comes out). As long as Scarf Tyranitar remains popular, though, it looks like stall will start to continue to rise in popularity.</p>
+
+<h2>Under the Microscope</h2>
+
+<h4>Scizor &ndash; 28.69% (<span class="positive">+1.46</span>)</h4>
+<p><img src="/download/sprites/dp/212.png" alt="" /><br />
+<strong>Top Five Teammates</strong>:<br />
+1. Salamence (25.50%)<br />
+2. Heatran (25.07%)<br />
+3. Tyranitar (21.53%)<br />
+4. Latias (21.18%)<br />
+5. Gyarados (19.90%)</p>
+
+<p>Scizor has secured its spot as the number one most used Pokémon on the standard ladder ever since the release of Pokémon Platinum, and nothing has come even close to taking its throne. Jam packed with amazing resistances, natural bulk, a Base Attack stat of 130, the ability to scout with a powerful STAB U-turn, trapping skills with Pursuit (which is boosted by Technician if the opponent doesn't switch), and exclusive access to STAB Technician Bullet Punch (one of the most powerful priority attacks in the game), Scizor is arguably the most useful Pokémon in the game. It therefore comes as no surprise that month after month Scizor remains unrivaled at the top of the usage stats. However, for being the most used Pokémon in the game, Scizor sees a surprisingly low amount of variety &ndash; 58% of Scizor run Choice Band, 92.1% run Adamant, and 46.7% run over 200 HP EVs, with Bullet Punch seen on 97.5% of sets, Superpower on 69.3%, U-turn on 64.8%, and Pursuit on 56.6%. For the most part, it seems like people are primarily using the standard Choice Band Scizor, since it acts as a decent check on five of the top ten most used Pokémon in the game. Choice Band Bullet Punch is an easy way to check a lot of fast sweepers, and Choice Band STAB U-turn is a great way of denting bulky Pokémon like Swampert. The next most commonly used Scizor is the Swords Dance set, which is seen on slightly over one third of all Scizor. Although Scizor is slow, it can still pull off a Swords Dance set fairly effectively thanks to its amazingly strong Bullet Punch letting it hit faster threats.</p>
+
+<p>Although Scizor can pack a lot of utility for one Pokémon, using it often comes at a high price. As you can see, Scizor is a very predictable Pokémon, and as such, most top players come fully prepared for it, making it effectively less useful at higher levels of play. Some players even take advantage of the fact that people tend to rely on Scizor as their all-purpose check for big threats, and design their teams to lure out and KO Scizor before unveiling said threats. This will likely still not stop people from slapping Choice Band Scizor on all of their teams, though, because it is just too convenient to pass up.</p>
+
+<p>By looking at Scizor's top five teammates, one can see that it is generally used on bulky offensive teams. It is often hard for offensive teams to keep other offensive Pokémon in check &ndash; particularly Pokémon who increase their speed to sweep. With Scizor, this becomes less of an issue because it can revenge kill with Bullet Punch. Offensive teams also love getting momentum in a match to apply pressure on their opponents. Scizor helps to do this by utilizing U-turn, allowing its team to switch in an appropriate counter to whatever its opponent switches out. Scizor's number one partner in crime, Salamence, draws Dragon- and Ice-type attacks from Pokémon for Scizor to switch in on and often trap. These include Pokémon like Latias and Starmie (although the latter can 2HKO Scizor with Life Orb Ice Beam + Hydro Pump, so be careful if you use this strategy!). It's also worth noting that every one of Scizor's top five teammates resist Fire-type attacks. Since Scizor has so much natural bulk, it often takes a Fire-type attack to secure a OHKO on it, and people take advantage of that by packing plenty of Fire-type resistors.</p>
+
+<h4>Tyranitar &ndash; 21.51% (<span class="negative">-0.89</span>)</h4>
+<p><img src="/download/sprites/dp/248.png" alt="" /><br />
+<strong>Top Five Teammates</strong>:<br />
+1. Scizor (28.71%)<br />
+2. Latias (24.00%)<br />
+3. Salamence (23.10%)<br />
+4. Jirachi (21.37%)<br />
+5. Heatran (20.08%)</p>
+
+<p>In recent months, Tyranitar has surged to #2 on the usage statistics, supplanting Salamence in January and holding onto the #2 spot through April. The most commonly seen Tyranitar set on the ladder is the Choice Scarf set, with 37.8% of all Tyranitar utilizing a Scarf. This is most likely due to the ability of Scarfed Tyranitar to outspeed and trap the suspect Pokémon Latias with a STAB Pursuit. A mixed Tyranitar is also commonly used to lure and kill Scizor with a Fire move, as Flamethrower is the most common specially oriented attack seen on Tyranitar at 8%. A Dragon Dance Tyranitar can still be dangerous to most teams, and can still be seen on the ladder, with 23.5% of Tyranitar carrying the move and 10.1% carrying a Babiri Berry to prevent Scizor from stopping a Dragon Dance sweep.</p>
+
+<p>Scizor is Tyranitar's top teammate for being able to wear down common switch-ins that also happen to wall Tyranitar, such as Gliscor and Skarmory, allowing Tyranitar to more easily pick off the weakened Pokémon later on in the game. Latias and Salamence are good teammates for resisting Tyranitar's weaknesses to Water and Fighting, while being immune to Ground-type attacks. In return, Tyranitar can take specially-based Dragon and Ice attacks due to its Sandstorm-boosted Special Defense, and resist any Ghost or Dark-type attacks aimed at Latias. Jirachi and Heatran work well with Tyranitar despite their common Ground weakness, since they can both switch into Scizor's Bullet Punch and threaten it back with a Fire attack. A Scarfed Jirachi can also handle Speed boosters that can set up on a Scarfed Tyranitar, such as Dragon Dance Gyarados and Salamence, revenge killing them with ThunderPunch and Ice Punch respectively. Heatran also shares a common Fighting weakness with Tyranitar; however, it has the ability to switch into and absorb a Rotom-A's Will-O-Wisp to prevent the neutralization of Tyranitar's massive Attack.</p>
+
+<h4>Salamence &ndash; 20.91% (<span class="negative">-0.01</span>)</h4>
+<p><img src="/download/sprites/dp/373.png" alt="" /><br />
+<strong>Top Five Teammates</strong>:<br />
+1. Scizor (35.00%)<br />
+2. Tyranitar (23.77%)<br />
+3. Heatran (23.57%)<br />
+4. Metagross (21.49%)<br />
+5. Jirachi (18.94%)</p>
+
+<p>Although Salamence is only the third most used Pokémon on the standard ladder, many argue that it is the single most effective and devastating sweeper in the game. Salamence packs impressive speed and incredible power both physically and specially, which lends to the idea that the most threatening thing about Salamence is how unpredictable it is. In April, 51.6% of Salamence used Dragon Dance. That means that when Salamence appears, you have roughly a 50-50 shot at guessing whether it will Dragon Dance, or fire off a powerful attack right off the bat, like Draco Meteor. MixMence and Dragon Dance Salamence both have different counters, who can easily get KOed if you predict wrong. To top that all off, even if you predict that your opponent is using MixMence correctly, you still have to predict which move Salamence will use. If you switch a Steel-type, predicting a Dragon-type move and Salamence uses Fire Blast, you can kiss your Steel-type goodbye (bar Heatran, of course). Likewise, if you predict Fire Blast and switch in a bulky Water-type Pokémon, you run the risk of eating a powerful Draco Meteor.</p>
+
+<p>It is interesting to note that just a year ago, Salamence was found using a neutral-Speed nature 37.4% of the time, and a +Speed nature only 25.2% of the time. With the recent increase of things like +Speed Jirachi, Lucario, Flygon, and Gliscor, though, Salamence needs to run a +Speed nature itself to have an uninterrupted sweep. Last month, the usage stats reflected this when Salamence was found using a +Speed nature 58.9% of the time. Just about the only other predictable thing about Salamence is that he will likely be using Life Orb, which was seen on him 67% of the time. Aside from that, though, all of his usage stats have a relatively even distribution. Some use max Attack, some use max Special Attack, some use Outrage, some use Draco Meteor, some use Dragon Claw, some use Roost &ndash; it is just impossible to guess what Salamence will be packing!</p>
+
+<p>As to be expected, Salamence's top five teammates pack offensive pressure. Because MixMence does such a great job at breaking walls down, it only makes sense to pair it up with other offensive Pokémon who can take advantage of weakened defensive cores. Conversely, Dragon Dance Salamence does a great job at sweeping once everything has been somewhat weakened, which can also be accomplished by using a strong offensive team. Salamence's typing is interesting because all of its weaknesses (Dragon, Ice, and Rock) are resisted by a single type: Steel. As you can see, four out of the five top Salamence teammates are Steel-type Pokémon who can easily come in on super effective attacks aimed at Salamence. It is peculiar, though, that Magnezone is only thirteenth on the teammate usage stats for Salamence, seeing as the pair is a classically popular strategy &ndash; Magnezone helps eliminate Steel-type Pokémon allowing Salamence to sweep with greater ease. The increase in Shed Shell on Steel-types like Skarmory probably lends to lack of popularity for Magnezone recently.</p>
+
+<h4>Heatran &ndash; 19.49% (<span class="positive">+0.46</span>)</h4>
+<p><img src="/download/sprites/dp/490.png" alt="" /><br />
+<strong>Top Five Teammates</strong>:<br />
+1. Scizor (36.91%)<br />
+2. Salamence (25.29%)<br />
+3. Latias (24.51%)<br />
+4. Tyranitar (22.17%)<br />
+5. Jirachi (20.54%)</p>
+
+<p>Although Heatran only attacks specially (except for Explosion, of course), don't make the mistake of assuming Heatran are all the same. Choice Scarf seemed to be the item of choice on Heatran in April, being used 39% of the time; however, assuming that Heatran is Scarfed is the fastest way to lose a Pokémon. Leftovers (20.3%), Shuca Berry (17.7%), and Life Orb (13.1%) were all also commonly used on Heatran. Although Shuca Berry was probably used primarily on lead Heatran, people still enjoy tossing it on non-lead versions to deceive people into thinking it's locked onto an attack when they don't see Leftovers recovery or Life Orb recoil. Although Heatran's Speed can be described as mediocre at best, it pulls off Life Orb surprisingly well. Heatran forces tons of Pokémon to switch out, meaning whatever comes in is going to probably eat a Life Orb Fire Blast and another attack if it's not fast enough to outpace Heatran. If it IS fast enough, it most likely did not enjoy taking that strong attack, seeing as there's a correlation between speed and frailty in Pokémon builds.</p>
+
+<p>Heatran packs a very unique and valuable set of resistances, which is probably the biggest contributing factor to its high placing on the usage stats month after month. Heatran can find plenty of opportunities in a match to switch in with its natural bulk and resistances, force something out, and hit whatever comes in with a powerful special attack backed by its Base 130 Special Attack stat. On top of that, Heatran has some very scary coverage options with its attacks. Fire-, Ground-, and Dragon-type attacks provide unresisted coverage in OU (see: Salamence) and a choice from any Hidden Power, Stealth Rock, or Explosion make Heatran incredibly difficult to play around.</p>
+
+<p>It is pretty obvious why Scizor is Heatran's top used teammate &ndash; Heatran loves the Flash Fire boost that Scizor helps bait. Salamence and Heatran has always been a popular offensive pair, because the two resist most of each others weaknesses (bar Rock-type attacks aimed at Salamence). The same logic can be applied to Latias and Heatran. Heatran also helps Latias out by drawing out special sponges and destroying them with Explosion, allowing Latias to sweep with greater ease later in the game. If someone wants to use Tyranitar and a Fire-type Pokémon who doesn't take sandstorm damage, Heatran is the Pokémon of choice. Jirachi, like Scizor, helps draw Fire-type attacks for a potential Flash Fire boost.</p>
+
+<h4>Gyarados &ndash; 17.35% (+/-0.00)</h4>
+<p><img src="/download/sprites/dp/130.png" alt="" /><br />
+<strong>Top Five Teammates</strong>:<br />
+1. Scizor (32.92%)<br />
+2. Tyranitar (23.30%)<br />
+3. Heatran (22.27%)<br />
+4. Latias (19.62%)<br />
+5. Gengar (18.55%)</p>
+
+<p>Although Gyarados surpassed both Rotom-A and Latias in usage this last month, its actual own usage did not change at all (it only passed them because their usages dropped). Over the years, Gyarados has not changed much at all in terms of what it runs. With Intimidate, great typing, natural bulk, a high Base Attack stat, and access to Dragon Dance, Gyarados is the definition of a bulky sweeper. Even the Life Orb variants can take a hit or two before going down. The best thing that happened to Gyarados after Platinum came out was the increase in Choice Band Scizor usage. Gyarados can nab a free Dragon Dance on Scizor locked into pretty much any of its common attacks.</p>
+
+<p>The two most common "variants" of Gyarados are bulky Dragon Dance and offensive Dragon Dance. The former was used on approximately 30% of Gyarados last month, whereas the latter was seen on around 49.9%. A typical Gyarados moveset consisted of Dragon Dance, Waterfall, Stone Edge, and a move of preference (usually Earthquake, Taunt, or Bounce). There were also a few (6.4%) who used the physical wall Gyarados, which runs an Impish nature and the moves Rest, Sleep Talk, Roar, and Waterfall.</p>
+
+<p>Gyarados' top five teammates all have one thing in common: they draw in attacks that allow Gyarados to set up. Scizor draws in Fire-type attacks from Pokémon like Heatran and Infernape, which Gyarados can set up on all day. Tyranitar is the biggest Scizor lure in the game, whom, as I mentioned, Gyarados loves to set up on. It resists or is immune to every one of Heatran's weaknesses, which allows it to set up. Heatran also helps in that it counters some Pokémon that lay the hurt on Gyarados, like Rotom-A and Celebi. Latias and Gengar both attract Pursuit users, which is generally set up bait for any stat-upper, not just Gyarados specifically. Gengar also makes Scizor Bullet Punch happy, which Gyarados loves. It is also worth noting that Electivire is still a popular partner to Gyarados, being used on 12.6% of teams that Gyarados is on, so be careful when you recklessly throw Electric-type attacks at it!</p>
+
+<h4>Latias &ndash; 16.90% (<span class="negative">-1.81</span>)</h4>
+<p><img src="/download/sprites/dp/380.png" alt="" /><br />
+<strong>Top Five Teammates</strong>:<br />
+1. Scizor (35.95%)<br />
+2. Tyranitar (30.55%)<br />
+3. Heatran (28.25%)<br />
+4. Jirachi (27.36%)<br />
+5. Swampert (21.49%)</p>
+
+<p>Ah, Latias, one of the most controversial Pokémon of the year. Its contingency in OU hinges on the upcoming Stage 3-5 vote, after seeing a >60% Uber vote in Stage 3-4. As the closest-to-Uber OU at the moment, though, Latias surprisingly saw a substantial drop in usage in April, down 1.81% from March. This is probably the direct result of the ridiculous increase in Scarf Tyranitar usage in April. Although Leftovers is still the most used item on Latias, the general consensus among top players seems to be that the Choice Specs set is the most overwhelming set Latias can run. Scarf Tyranitar is built so that it can guarantee removal of Choice Specs Latias on revenge, which has probably led to the decreased usage of Choice Specs over the last few months, as usage of Scarf Tyranitar has gone up. The drop in usage for Latias, therefore, is likely not attributed to the realization that Latias is not very good, but rather the contrary &ndash; the realization that Latias is an extremely powerful threat, making people go to great lengths to ensure its removal from their opponent's team. Such lengths have effectively dropped Latias's effectiveness in the metagame, and ultimately dropped its usage.</p>
+
+<p>Even though Leftovers was the most common item found on Latias in April, seen on 32.8% of Latias, it is far from "standard," seeing as other items also saw relatively high usage (Choice Scarf: 21.6%, Choice Specs: 19.8%, Life Orb: 18.6%). Choice Scarf Latias has one of the highest utility out of all Choice Scarf Pokémon, being able to guarantee a revenge kill on all Dragon Dance Pokémon not named Tyranitar. Choice Specs can just pound on anything switching in with whatever move Latias chooses to use. People also still opted to use Calm Mind on Latias 32.6% of the time, despite the rise in Scarf Tyranitar usage.</p>
+
+<p>Every one of Latias' top five teammates are bulky Pokémon. Swampert has shown up on this list for the first time in this article, hinting that Latias is used on defensive teams more than most of the rest of the top used Pokémon. Scizor can take advantage of Scarf Tyranitar, who wreck all Latias variants (other than Reflect, I suppose). Jirachi can easily pass Wishes to Latias, due to very good typing synergy between the two. Heatran works well with Latias because it packs resistances to every type that Latias is weak against. Dragon Dance Tyranitar can easily set up on any Pokémon locked onto Pursuit, making him a decent partner as well.</p>
+
+<p>On a side note: 1.1% of Latias ran max Attack in April, which most likely means that ~1/100 people who used Latias couldn't tell the difference between Attack and Special Attack in the Shoddy Team Builder.</p>
+
+<h4>Rotom-A &ndash; 16.49% (<span class="negative">-2.23</span>)</h4>
+<p><img src="/download/sprites/dp/499.png" alt="" /><br />
+<strong>Top Five Teammates</strong> (Based on Rotom-H):<br />
+1. Tyranitar (38.23%)<br />
+2. Latias (29.38%)<br />
+3. Scizor (29.00%)<br />
+4. Skarmory (25.96%)<br />
+5. Jirachi (24.62%)</p>
+
+<p>Many will argue that Rotom-A has the best defensive typing in the game, being immune to three types, resisting four more, and only being weak to two (one of which being Ghost, which is a very uncommon attacking type in OU). This incredible typing mixed with natural bulk and the ability to set up screens or use Will-O-Wisp to cripple physical sweepers means that Rotom-A can be a complete nightmare for people to take out. However, even with all this going for it, Rotom-A saw the largest drop in usage out of all the top 20 most used Pokémon in April &ndash; and by a large margin too, going from the fifth most used Pokémon to the seventh in one month's time. Just like with Latias, this drop in usage can probably be attributed in large part to the increase in Scarf Tyranitar usage. Rotom-A can no longer reliably outpace Tyranitar and nail it with Will-O-Wisp before getting hit, allowing Tyranitar to freely fire away a fast STAB Crunch for massive damage.</p>
+
+<p>Although Rotom-A is primarily used for defensive roles, its wide variety of commonly used moves makes it very hard to switch into. Since the monthly stats do not provide data for Rotom-A stats, we will be analyzing the detailed stats of Rotom-H, the most common Rotom forme. Choice Scarf was used on 33.9% of Rotom-H in April, and nearly every one packed Trick, as shown through Trick being used on 33.3% of Rotom-H. The rest of Rotom-H opted to use Leftovers, and likely ran a more defensive set. The most commonly found moves on Rotom-H were Thunderbolt, Shadow Ball, Overheat, and Will-O-Wisp. However, Rest, Sleep Talk, Discharge, and Substitute were far from uncommon. To account for Tyranitar (as well as Blissey and Heatran on Charge Beam sets), 10.8% of Rotom-H even ran Hidden Power Fighting.</p>
+
+<p>Tyranitar and Rotom-A make fantastic teammates, seeing as Rotom-A is immune to two of Tyranitar's biggest weaknesses, Ground and Fighting. It is also important to note that Skarmory is listed as a top five teammate for the first time on this list, because Rotom-A is the premier Rapid Spin blocker in the OU metagame. Skarmory hates nothing more than a Rapid Spinner coming in and making its turns useless. All variants of Jirachi enjoy the burn support Rotom-A provides through Will-O-Wisp. Calm Mind versions no longer need to worry about physical attacks, and can boost their own Special Defense, so it doesn't need to worry about that either. Choice Scarf Jirachi love the burn support because it is extra damage that gets tacked on every time it flinches a Pokémon. Latias is the most reliable check to Rotom-A's most effective counter in the game &ndash; Heatran. Scizor is likely on that list, not particularly because of its synergy with Rotom-A, but because of the sheer number of teams it's on in general. However, Scizor does take advantage of Tyranitar, who can give Rotom-A a hard time.</p>
+
+<h4>Gengar &ndash; 15.97% (<span class="positive">+0.83</span>)</h4>
+<p><img src="/download/sprites/dp/94.png" alt="" /><br />
+<strong>Top Five Teammates</strong>:<br />
+1. Scizor (28.76%)<br />
+2. Salamence (24.48%)<br />
+3. Gyarados (20.15%)<br />
+4. Heatran (18.36%)<br />
+5. Infernape (18.31%)</p>
+
+<p>After initially dipping with the rise of Scizor usage, Gengar's usage is slowly increasing, up to #7 in the month of April. Gengar now has ways to work around the two Pokémon that threaten it the most in Scizor and Tyranitar. HP Fire can be seen on 28.5% of Gengar to deal with Scizor. With 73.1% of Gengar carrying Focus Blast, Tyranitar has to think carefully before switching in, as it can be OHKOed if it does not invest heavily in Special Defense; the move also hits Scizor for a decent amount of damage. Substitute is a fantastic move on Gengar, with 25.5% running it; it enables Gengar to scout for Choice Scarfed Tyranitar and avoid the Bullet Punch/Pursuit game with Scizor. Gengar run Pain Split 8.8% of the time, which is also an excellent move, as combined with Substitute, it prevents Blissey from walling Gengar as it previously used to, and can also extend Gengar's lifetime, giving it more opportunities to sweep.</p>
+
+<p>Scizor is the most used teammate with Gengar, as Gengar can take advantage of many Scizor switch-ins, with U-turn allowing Gengar to get in safely on foes such as Gliscor and set up a Substitute. Salamence, Gyarados, and Infernape all make excellent sweeping partners to pair with Gengar. Dragon Dancing Salamence and Gyarados can sweep after Gengar has sufficiently weakened the opposing team. Gengar can also switch in on Celebi trying to beat Gyarados with Grass Knot. Infernape also works well with Gengar, as Gengar resists Ground-type attacks aimed at Infernape and Infernape can beat Scizor with Fire attacks. Heatran and Gengar have very good synergy together, with Gengar being able to switch into Ground and Fighting attacks aimed at Heatran, whereas Heatran is able to switch into Dark and Ghost attacks. Heatran can also easily switch into Scizor's Bullet Punch and immediately threaten it with Fire attacks.</p>
+
+<h4>Metagross &ndash; 15.55% (<span class="negative">-0.09</span>)</h4>
+<p><img src="/download/sprites/dp/376.png" alt="" /><br />
+<strong>Top Five Teammates</strong>:<br />
+1. Salamence (28.88%)<br />
+2. Scizor (26.33%)<br />
+3. Tyranitar (23.35%)<br />
+4. Latias (22.99%)<br />
+5. Gyarados (19.77%)</p>
+
+<p>Although Metagross was, for the most part, replaced by Scizor after Platinum came out, it still has its own little niche in the metagame. Over one-third of all Metagross used on teams are used in the lead position, which Scizor cannot pull off due to its inability to use Stealth Rock. Metagross also differentiates itself by having access to powerful moves like Explosion, Earthquake, and Meteor Mash, which Scizor does not. Whereas Scizor typically only runs one set (Choice Band), Metagross has various popular sets, which can be seen by looking at its common items alone.</p>
+
+<p>Life Orb and Occa Berry saw almost identical usage, being used 20.5% and 20.4% respectively last month. Life Orb is generally used on Agility sweeping Metagross, whereas Occa Berry is generally used on Lead Metagross. Leftovers was also a popular item choice, seeing 19.6% usage in April. Metagross is one of the bulkiest offensive Pokémon in the game, and sometimes is used in a defensive fashion to absorb powerful Dragon-type attacks from Latias and Salamence. Metagross also utilized Lum Berry 16.8% of the time, which is also likely to be placed on lead Metagross who can bypass sleep inducing leads and Machamp's DynamicPunch confusion. Although Trick was only used on 5.9% of Metagross last month, it is not something that should be forgotten! Metagross is known to lock its opponents into an attack with Choice Band or Choice Scarf, and sometimes even ground and slow down its opponents with Iron Ball.</p>
+
+<p>Agility Metagross works incredibly well with MixMence, seeing as Latias loves coming in to revenge KO Salamence if it doesn't have a Dragon Dance under its belt. Metagross can then come in and Agility up for free on a locked Latias. Scizor and Metagross share a lot of common counters, so they work well on the same team by slowly weakening each others' counters until one can safely sweep. Tyranitar is one of the most helpful teammates Metagross can have, because it can manhandle Rotom-A, Metagross' most prominent counter in the metagame. Latias and Gyarados both resist Fire and are immune to ground, effectively covering Metagross' weaknesses, so they can often find an easy way in when paired up.</p>
+
+<h4>Swampert &ndash; 15.27% (<span class="negative">-0.25</span>)</h4>
+<p><img src="/download/sprites/dp/260.png" alt="" /><br />
+<strong>Top Five Teammates</strong>:<br />
+1. Scizor (32.30%)<br />
+2. Tyranitar (28.11%)<br />
+3. Salamence (25.82%)<br />
+4. Latias (23.78%)<br />
+5. Heatran (20.84%)</p>
+
+<p>Swampert is as sturdy and dependable as ever, being a safe switch in to the ever popular Scarfed Tyranitar. With a slight increase in Choice Specs and Grass Knot Latias, Swampert needs to be more careful in this metagame; however, the positives it brings to a team tend to outweigh what it takes away from the team. Most Swampert run a defensive set, with 89.9% of all Swampert using Leftovers. In April, Swampert is also rising in usage as a lead, now being the #3 lead and accounting for 5.73% of lead usages.</p>
+
+<p>Scizor is the most common partner for Swampert, being able to threaten one of Swampert's best counters; it easily switches into a Celebi's 4x-resisted Grass Knot and threatens to OHKO with U-turn if Celebi is without Hidden Power Fire. Tyranitar can also beat the aforementioned Celebi, although it has to be careful of switching in on a super effective Grass Knot. A Scarfed Tyranitar can also switch into Latias, who can threaten Swampert with Draco Meteor or Grass Knot. Salamence and Latias can resist Grass attacks aimed at Swampert, with Latias making a relatively safe counter for mixed Infernape, who can OHKO Swampert with Grass Knot. Heatran can also switch into Celebi easily and can absorb Will-O-Wisps from Rotom aiming at Swampert, to which Swampert cannot do much back.</p>
+
+<h4>Jirachi &ndash; 15.20% (<span class="negative">-1.88</span>)</h4>
+<p><img src="/download/sprites/dp/385.png" alt="" /><br />
+<strong>Top Five Teammates</strong>:<br />
+1. Latias (30.43%)<br />
+2. Tyranitar (30.24%)<br />
+3. Heatran (26.33%)<br />
+4. Salamence (26.04%)<br />
+5. Scizor (21.83%)</p>
+
+<p>Jirachi is the anomaly of this month's stats. For some reason, even though Jirachi fares well against most of the metagame, its usage dropped significantly. Choice Scarf Jirachi still reigns as one of the biggest headaches for offensive teams to beat, and Calm Mind Jirachi still lays the hurt on defensive teams which don't pack Trick. With the rising popularity of what some deem to be the most annoying set in the history of Pokémon, Substitute + Thunder Wave Jirachi, it's even more confusing why Jirachi's usage dropped so much in April.</p>
+
+<p>Jirachi's ability to be threatening both physically and specially, mixed with its ability to be a utility-based Pokémon with access to a plethora of support moves like Wish, Thunder Wave, Stealth Rock, and U-turn, means that Jirachi can fill almost any role on a team. In April, 39.1% of Jirachi users thought it was most useful as a Choice Scarf Pokémon, for revenge killing a variety of offensive Pokémon, and lucking its way to victory in worst-case-scenarios. Although this was a popular item choice, the most popular choice was Leftovers, which made up for 50.5% of Jirachi on the ladder. Calm Mind was the most popular use of the Leftovers sets; however, Substitute + Thunder Wave was also used a decent amount last month. I expect to see usage of that set to only increase from here on, once people fully appreciate how annoyingly effective it is.</p>
+
+<p>Jirachi's most common teammate, Latias, provides excellent resistances for Jirachi's weaknesses, and can therefore fully take advantage of any Wish passing Jirachi can provide. Salamence also falls in the same category, but appreciates the Wishes even more, due to its Stealth Rock weakness. Much like Metagross, Jirachi loves the Tyranitar support for helping eliminate Rotom-A who can be a pain for any Jirachi variant not called Substitute + Calm Mind. Heatran enjoys the Flash Fire boost that Jirachi helps bait out, and also makes for a great Rotom-A switch-in when Jirachi needs to get out. Scizor and Jirachi don't have the best synergy on paper, so it might just be on Jirachi's top five teammates list because of the sheer number of teams Scizor gets tossed onto. In fact, Jirachi is only the thirteenth most common teammate for Scizor to have, so that further backs up this assumption.</p>
+
+<h4>Infernape &ndash; 14.15% (<span class="negative">-0.57</span>)</h4>
+<p><img src="/download/sprites/dp/395.png" alt="" /><br />
+<strong>Top Five Teammates</strong>:<br />
+1. Scizor (30.32%)<br />
+2. Salamence (22.02%)<br />
+3. Gyarados (20.92%)<br />
+4. Gengar (20.66%)<br />
+5. Tyranitar (17.42%)</p>
+
+<p>In April, Infernape was seen as both a sweeper and as a lead. Infernape had a Focus Sash 28% of the time, an item commonly used on leads, and was the #6 most common lead at 4.09%, especially thanks to its ability to set up Stealth Rock, which is used on 23.5% of all Infernape. Infernape's other common function is as a sweeper, with 51.2% of Infernape carrying a Life Orb. The mixed sweeper is very common, with a Naive nature being the most common at 58.4%, and the three most commonly used moves on Infernape being Close Combat at 86%, Grass Knot at 40%, and Fire Blast at 39.9%. Infernape can also run a fully physical set, with U-turn being used 19.6% to hit Starmie and Latias hard on the switch.</p>
+
+<p>Scizor makes an excellent partner for Infernape, as U-turn can allow Infernape to get in without taking any damage. Scizor can also trap Infernape counters Starmie and Latias with Pursuit. Salamence, Gengar, and Gyarados make good sweeping partners when paired with Infernape, with all three resisting Infernape's Ground weakness and Salamence and Gyarados resisting the Water attacks aimed at Infernape. Similarly to Scizor, Tyranitar can trap Latias and Starmie, preventing either from ruining Infernape's sweep. Tyranitar's Sand Stream can be a hindrance with Life Orb and sand wearing away at Infernape, but it usually only needs a few turns to sweep.</p>
+
+<h4>Lucario &ndash; 13.47% (<span class="negative">-0.46</span>)</h4>
+<p><img src="/download/sprites/dp/453.png" alt="" /><br />
+<strong>Top Five Teammates</strong>:<br />
+1. Scizor (26.16%)<br />
+2. Salamence (26.09%)<br />
+3. Tyranitar (24.62%)<br />
+4. Latias (20.30%)<br />
+5. Gyarados (17.62%)</p>
+
+<p>Lucario is consistently one of the most dangerous sweepers in the game. Lucario's most common set contains Close Combat (seen 85.3% of the time), ExtremeSpeed (seen 79% of the time), and Swords Dance (seen 70.3% of the time), with various fourth moves, the most common being Crunch at 56.1% usage. With Life Orb used on 70.8% of Lucario, any team in need of a sweeper or some instant offense can usually rely on Lucario to provide it.</p>
+
+<p>Scizor works effectively with Lucario, as they have many common counters, allowing Scizor to weaken counters such as Gliscor with U-turn until Lucario is ready to sweep later. Salamence and Latias both have very good synergy with Lucario, resisting Fire and Fighting attacks and carrying immunities to Ground-type attacks. Lucario meanwhile resists Rock attacks aimed at Salamence and Dark/Ghost-type attacks aimed at Latias, such as Pursuit, which gives Lucario a free turn. Both can also hit hard with Draco Meteor to soften up the opposing team for a Lucario sweep. Tyranitar works well with Lucario in the same way as Scizor; it can also act as a lure for Gliscor and KO it with Ice Beam.</p>
+
+<h4>Starmie &ndash; 12.51% (<span class="positive">+0.64</span>)</h4>
+<p><img src="/download/sprites/dp/121.png" alt="" /><br />
+<strong>Top Five Teammates</strong>:<br />
+1. Scizor (33.43%)<br />
+2. Salamence (27.41%)<br />
+3. Tyranitar (19.23%)<br />
+4. Infernape (18.28%)<br />
+5. Heatran (17.70%)</p>
+
+<p>Starmie in April tended to run offensive sets, with 64% running max Special Attack and 64.9% running max Speed. With an offensive set, Starmie can be very dangerous to most teams, hitting many top Pokémon with fantastic coverage and great speed. Starmie also makes an excellent Rapid Spinner, as even Rotom-A is afraid to switch into Starmie's Surf. Life Orb Starmie was at 30.2% usage, although 38.8% of Starmies still ran Leftovers. The common moves used on Starmie were Thunderbolt at 89.2%, Ice Beam at 60.4%, Surf at 69.5% or Hydro Pump at 28.2%, Rapid Spin at 60.5%, and Recover at 43.2%.</p>
+
+<p>The top partner for Starmie is Scizor, who can come in on the Dark and Ghost-type moves Starmie attracts. Salamence works well with Starmie as Salamence appreciates the removal of Stealth Rock that Starmie can provide. Tyranitar can stop Calm Mind Latias with its STAB Crunches, since after a Calm Mind, Starmie's Ice Beams will not do much to Latias. Infernape also appreciates the removal of entry hazards, such as Toxic Spikes and Spikes, which can hinder Infernape's sweep. Heatran works well with Starmie, as it can easily switch into Scizor's U-turn, which Starmie is weak to but Heatran 4x resists, although Starmie needs to be wary of Pursuit.</p>
+
+<h4>Blissey &ndash; 12.23% (<span class="positive">+0.75</span>)</h4>
+<p><img src="/download/sprites/dp/242.png" alt="" /><br />
+<strong>Top Five Teammates</strong>:<br />
+1. Skarmory (28.68%)<br />
+2. Scizor (23.46%)<br />
+3. Gengar (19.25%)<br />
+4. Salamence (18.78%)<br />
+5. Gyarados (18.54%)</p>
+
+<p>Blissey is, and probably will always be, the best special sponge in the game. With its only weakness being to Fighting-type attacks, a type rarely given to special attacks, Blissey can sit there and wall special attacking Pokémon all day, while slowly taking them out with Seismic Toss or Ice Beam / Flamethrower. Hell, even with its measly Base 10 Defense, Blissey can wall a lot of physical attacks using its unmatched Base 255 HP. Blissey is so good at what it does, that it hasn't had to change much over the years at all, and its still just as effective. In fact, the only noticeable change in Blissey over the years has been a shift from Bold to Calm as the preferential nature &ndash; a shift that was likely brought forth by the increased use of "overpowered" special attacks like Life Orb Focus Blast from Gengar, and Choice Specs Fire Blast from Heatran. With recent trends in the metagame, one might notice that hard hitting physical attackers are actually not as popular as before, with one of the big hitters (Tyranitar) switching from commonly using Adamant and Choice Band to using Jolly and Choice Scarf. In fact, when looking at the most used set for each of the top ten most used Pokémon, nothing can currently OHKO Blissey except Choice Band Scizor's Superpower. It seems to therefore be more important for Blissey to soften blows from special attackers like Life Orb Starmie (who is incredibly hard to play around if you don't pack a Pokémon like Blissey), Choice Specs Latias, Life Orb or Choice Specs Heatran, and Life Orb Gengar than it is to maximize her Defense.</p>
+
+<p>It appears the SkarmBliss combo is still as popular as ever, making it no surprise that Skarmory was Blissey's number one teammate in April. The famous SkarmBliss combo is so potent and annoying that a few years back people wanted to ban the combination in unofficial matches. The other four most common teammates for Blissey are actually very interesting. The fact that none of them are considered "defensive" sheds light on the fact that Blissey is being used on offensive teams as a catch-all for troublesome special attackers like Starmie, Gengar, and Latias. These Pokémon are generally very difficult for offensive teams to handle. By throwing Blissey on an offensive team, these Pokémon no longer have to worry too much about the fast special sweepers that ruin their fun.</p>
+
+<h4>Skarmory &ndash; 11.13% (<span class="positive">+0.89</span>)</h4>
+<p><img src="/download/sprites/dp/227.png" alt="" /><br />
+<strong>Top Five Teammates</strong>:<br />
+1. Tyranitar (35.88%)<br />
+2. Blissey (31.50%)<br />
+3. Latias (23.47%)<br />
+4. Rotom-h (22.23%)<br />
+5. Swampert (21.91%)</p>
+
+<p>Skarmory is ever present in the metagame, as both stallish and offensive teams enjoy the presence of Spikes, which Skarmory is seen to carry an amazing 89.4% of the time. A defensive set is just about the only viable Skarmory set, with Roost being on 86.2% of Skarmory and Whirlwind being on 77.9% of Skarmory. The last move is usually either Brave Bird, seen on 40.2% of Skarmory, or Taunt, seen on 15.2% of Skarmory. Taunt is usually associated with a more specially defensive Skarmory, as it allows it to set up on weak special attackers such as defensive Vaporeon. Both defensive and special defensive Skarmory are rather common, with 30.1% of Skarmory running near max Defense and 19.7% of Skarmory running near max Special Defense.</p>
+
+<p>Tyranitar is the number one teammate for Skarmory for a couple of reasons. First, a specially defensive Tyranitar pairs well with Skarmory, being able to take special hits from Pokémon like Heatran. Secondly, a Tyranitar with Pursuit, such as a Choice Scarfed Tyranitar, can be used to easily remove Starmie from the game, preventing it from spinning away Skarmory's Spikes. Blissey works with Skarmory to form the popular "SkarmBliss" duo, which can be used to set up hazards, wall hits, and force switches; Blissey walls the special attackers that come in as Skarmory sets up, and Skarmory forces out the physical attackers that plague Blissey, such as Metagross. Latias works well with Skarmory by being able to switch in on Fire and Electric attacks and Recover off the damage. Rotom-A is a great partner for Skarmory, being the best Rapid Spin blocker in OU. Skarmory and Rotom-A also have decent defensive redundancy; for example, while Skarmory can switch in on Metagross and set up hazards or Whirlwind it out, it cannot beat Metagross in a one-on-one situation, whereas Rotom-A can actually beat Metagross by burning it with Will-O-Wisp or 3HKOing it with Thunderbolt. If Rotom-A is carrying a Choice Scarf, it can even switch in on a predicted Rapid Spin from the likes of Starmie and force a switch, racking up Spikes damage, or outspeed and OHKO. Swampert also works well with Skarmory to create a solid defensive core, being able to sponge Fire and Electric attacks. Swampert can also handle most mixed Tyranitar and Salamence, which can threaten Skarmory.</p>
+
+<h4>Machamp &ndash; 10.49% (<span class="positive">+1.16</span>)</h4>
+<p><img src="/download/sprites/dp/68.png" alt="" /><br />
+<strong>Top Five Teammates</strong>:<br />
+1. Scizor (24.67%)<br />
+2. Heatran (24.21%)<br />
+3. Latias (23.79%)<br />
+4. Jirachi (22.41%)<br />
+5. Tyranitar (21.89%)</p>
+
+<p>The current metagame allows Machamp to live up to its full potential. Machamp has risen dramatically as a lead, rising from #13 in March to #7 in April. Three attacks and Bullet Punch, seen 15.5% of the time, allows Machamp to beat all leads bar Metagross. Lead Machamp tend to run Lum Berry, seen 35.4% of the time, which can allow it to beat Roserade, or else take a Will-O-Wisp from Rotom-A while hitting back with a super effective Payback. Seen on 95.7% of Machamp, its main asset is DynamicPunch, which utilizes No Guard, a 100% confusion rate, and Machamp's high Attack to make it very difficult to counter. Combined with Stone Edge (seen 70.8% of the time) and Payback (seen 39.8% of the time), Machamp gets fantastic type coverage in its attacks. Machamp can also be used in a more defensive role, being able to repeatedly switch into Tyranitar while resisting its two STABs, as well as Blissey. Machamp can use Rest and Sleep Talk, seen 9.3% of the time, to extend its life. Leftovers also increase its longevity, and is the dominant item on Machamp, seen 49.8% of the time. Substitute Machamp has been quite popular in past months, but has fallen in popularity, down to 5.3% usage. Machamp's main downfall is its slow Speed, but it has enough positive qualities to compensate for it.</p>
+
+<p>Scizor works well with Machamp, being able to weaken its few counters, such as Gliscor. Since many battlers try to beat Machamp with powerful attacks, Choice Banded Scizor can switch into a Salamence Draco Meteor and OHKO Salamence after Stealth Rock and one turn of Life Orb recoil. Scizor can also do the same to Latias, and even trap Latias with Pursuit. Heatran can repeatedly switch into Jirachi, who can threaten Machamp both physically and specially, either hitting it hard with a super effective Psychic or flinching it with Iron Head. Heatran is also able to switch in on Will-O-Wisps, such as from Rotom-A, which can cut Machamp's Attack, while giving itself a boost. Latias can switch into powerful attacks such as Fire Blast from Heatran or Hydro Pump from Starmie, which can be used to revenge a weakened Machamp. Machamp can also switch into Tyranitar's super effective Crunch. Jirachi 4x resists Machamp's Psychic weakness and can also revenge Intimidate sweepers such as Gyarados or Salamence, who can set up on Machamp. Tyranitar is completely immune to Machamp's Psychic weakness and resists its Flying weakness. A Dragon Dance Tyranitar can set up on a Jirachi with Psychic and no Flash Cannon; Tyranitar can also trap Latias and Rotom-A with Pursuit and lure Gliscor before killing it with Ice Beam.</p>
+
+<h4>Gliscor &ndash; 10.40% (<span class="positive">+0.41</span>)</h4>
+<p><img src="/download/sprites/dp/477.png" alt="" /><br />
+<strong>Top Five Teammates</strong>:<br />
+1. Tyranitar (38.10)<br />
+2. Scizor (26.98%)<br />
+3. Heatran (20.19%)<br />
+4. Latias (19.00%)<br />
+5. Jirachi (18.48%)</p>
+
+<p>Gliscor started to see a huge drop in usage at the beginning of the Platinum era after things like Lucario got Ice Punch, because the standard was to run minimal Speed EVs and it couldn't counter Lucario anymore since it was being outsped and OHKOed with +2 Ice Punch. However, a few months ago, people started realizing that Gliscor can still remain relatively bulky while investing in enough Speed to beat Lucario. To top it all off, people started realizing that Gliscor could be extremely annoying and effective if given the move Taunt with such a fast speed. Currently, a lot of top players are utilizing the set Taunt, Toxic, Roost, Earthquake on Gliscor, and it has proven to be very effective in tournaments like the Smogon Tour. That set is particularly destructive to stall teams, who have no answer to a fast Taunt and are stuck dying to Toxic damage while Gliscor heals itself off with Roost. With such a powerful combination of moves, it is no wonder Gliscor has slowly been moving up the ranks in usage over the last year.</p>
+
+<p>Last month, slightly under one fourth of Gliscor were used as a lead. With Stealth Rock, a decently fast Taunt for slower leads, and access to U-turn for faster Focus Sash leads, Gliscor makes for a decent lead. Although Leftovers has taken over as the preferred item choice by a long shot, seeing 75.8% usage, around 10% of people are still using the infamous Rock Polish, Taunt, Swords Dance, Baton Pass set, which commonly utilizes Yache Berry behind dual screens. It appears that the Swords Dance sweeping Gliscor has also seen some action, as evidenced by the 18.5% usage of Stone Edge in April. For the most part, though, Taunt, Roost, and Earthquake are the moves most likely to be seen on Gliscor, and for good reason.</p>
+
+<p>It comes as no surprise that Tyranitar is Gliscor's number one partner in crime. Not only does Gliscor resist Fighting- and Ground-type attacks aimed at Tyranitar, but the everlasting sandstorm that Tyranitar kicks up is a huge bonus for Gliscor. Just like how Garchomp annoyed everybody with Sand Veil allowing it to pull off sweeps that it normally wouldn't be able to, Sand Veil makes Gliscor a huge prick. I'm sure countless people can attest to losing a match from a crucial miss against Gliscor, who subsequently was allowed to Toxic their Pokémon and stall it out. Scizor, Heatran, and Jirachi can all switch into Ice-type attacks aimed at Gliscor, and Heatran enjoys the same benefit that Tyranitar does, in terms of Gliscor resisting its weaknesses. Latias can switch into Water-type attacks aimed at Gliscor, and loves the help that Taunt provides for taking out walls that can heal off the damage that Latias dishes out.</p>
+
+<h4>Breloom &ndash; 10.33% (<span class="positive">+0.57</span>)</h4>
+<p><img src="/download/sprites/dp/286.png" alt="" /><br />
+<strong>Top Five Teammates</strong>:<br />
+1. Scizor (26.74%)<br />
+2. Heatran (24.24%)<br />
+3. Gyarados (18.88%)<br />
+4. Tyranitar (17.58%)<br />
+5. Jirachi (16.05%)</p>
+
+<p>One of Breloom's main draws is its unique ability in Poison Heal, seen 88.8% of the time, which, when utilized with a Toxic Orb, seen 92.6% of the time, can allow Breloom to heal more health than Leftovers provides while blocking other status. Breloom's other main draw is its unique 100% accuracy sleep move, Spore, which is seen on 99.3% of Breloom. Breloom can be very annoying to a team, with its health recovering ability, the best sleep move in the game, Substitute (seen 52.6% of the time), strong STABs in Focus Punch (seen 67.8% of the time) and Seed Bomb (seen 77.6% of the time). Breloom is a very unique Pokémon in that its ability and movepool have perfect synergy, making it a very annoying Pokémon to face.</p>
+
+<p>Breloom and Scizor work well together, as Scizor can weaken their similar counters, such as Gliscor and Zapdos, with U-turn. Scizor can also trap Latias and Gengar, who resist or are immune to Breloom's two STABs, with Pursuit. Scizor also can trap Starmie, who can OHKO Breloom, with Ice Beam and revenge Salamence, who threatens Breloom with Intimidate and Fire Blast, with Bullet Punch. Heatran and Breloom have good synergy together, with Heatran switching into Breloom's Fire weakness for a boost and Breloom switching into Ground attacks aimed at Heatran, such as Earthquake from Swampert, and proceeding to set up. Gyarados is a good sweeping partner to pair with Breloom, since they share many counters such as Rotom-A and Celebi; Breloom can sleep these foes and proceed to weaken them up for a Gyarados sweep. Breloom can also switch into bulky Water-types that counter Gyarados, such as Vaporeon and Suicune, although it now needs to be careful of the increasingly popular offensive Suicune, who can outspeed and OHKO Breloom with an unboosted Ice Beam. Tyranitar can trap Rotom-A, Gengar, and Latias with Pursuit, who can all stop Breloom's sweep. Breloom does not mind Tyranitar's Sandstorm too much, since it still regains health due to Poison Heal, even when taking Sandstorm damage. Jirachi with Choice Scarf can revenge Pokémon that can set up on Breloom, such as Taunt Gyarados or Lum Berry Salamence. Breloom can switch into Swampert's Earthquake; Swampert otherwise walls most Scarfed Jirachi.</p>
+
+<h4>Azelf &ndash; 9.89% (<span class="positive">+0.71</span>)</h4>
+<p><img src="/download/sprites/dp/487.png" alt="" /><br />
+<strong>Top Five Teammates</strong>:<br />
+1. Scizor (37.63%)<br />
+2. Salamence (26.97%)<br />
+3. Heatran (22.89%)<br />
+4. Gyarados (20.12%)<br />
+5. Metagross (20.04%)</p>
+
+<p>Despite being a possibly dangerous sweeper, Azelf is best known for being the most common lead in the game, with a 7.43% chance of leading a team. Leads tend to carry Focus Sash, as seen on 36.4% of Azelf, to guarantee a fast Stealth Rock, which is used on 56.1% of Azelf. After it gets up Stealth Rocks, lead Azelf can either attack with Psychic, seen on 62.7% of Azelf, or use Explosion, seen on 73.7% of Azelf. Rounding out the lead set is either a Fire move such as Flamethrower at 42.5% usage, or Taunt at 24.1% usage. Dual Screen Azelf with Reflect and Light Screen was really popular a few months ago for hyper offensive teams, but are now seen on less than 5.7% of Azelfs. Azelf can still be used to sweep, as 18% of Azelf still carry Nasty Plot.</p>
+
+<p>Lead Azelf is often used to set a fast-paced tempo for the game, and as such its most common partners are all hard-hitting Pokémon. Scizor can either be Choice Banded for a scout and revenge killer or Swords Dance for a sweeper. Salamence can hit hard immediately with a mixed set and Draco Meteor, or set up and sweep with Dragon Dance and Outrage. Heatran makes a check for common threats such as Scizor and Skarmory and can hit hard with Fire Blast and Explosion. Gyarados is a fast-paced sweeper with a deadly physical Water-type STAB, and Metagross can boost its Speed with Agility and sweep a weakened team.</p>
+
+<p><em>Special thanks to DougJustDoug for getting April's usage stats out incredibly fast!</em></p>
+
+<table id="smogfooter">
+<tr>
+<td class="left"><a href="protips">&laquo; Previous Article</a></td>
+<td class="middle"><a href="/smog/issue8/">Home</a></td>
+<td class="right"><a href="moves">Next Article &raquo;</a></td>
+</tr>
+</table>

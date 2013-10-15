@@ -1,0 +1,210 @@
+[title]
+Stat Limits Discussion
+[page]
+<ol class="toc">
+<li><a href="#intro">Introduction</a></li>
+<li><a href="#statbiases">Stat Biases</a>
+<ul>
+<li><a href="#biasexamples">Stat Bias Examples</a></li>
+</ul></li>
+<li><a href="#bsr">Base Stat Rating Limits</a></li>
+<li><a href="#references">References</a></li>
+</ol>
+
+<h2><a name="intro">Introduction</a></h2>
+
+<p>This step sets limits that will apply to the Stat Spread and Movepool of the CAP in later steps. The stats and movepool are very important competitive building blocks of a Pokémon, and this discussion allows the general power level of these two factors to be considered in tandem. The point of this discussion is not to consider specific stats or moves; only general biases and limits are discussed. The limits determined in this step also help shape the general "feel" of the Pokémon, and may influence other parts of the Pokémon&mdash;such as art, ability, etc.</p>
+
+<p>The Stat Biases, Base Stat Rating, and Movepool Limits are not formally voted on by the community. The community will get their "final say" on stats and movepool when they vote on actual stat spreads and moves later on in the process. This step of the process is where the community voices their opinions and arguments to the Stats Leader. At the end of the discussion thread, the Stat Limits will be selected by the Stats Leader.</p>
+
+<h2><a name="statbiases">Stat Biases</a></h2>
+
+Stat Bias Limits set the general stat bias of the Pokémon from an offensive and defensive standpoint. It should be noted that Stat Biases are not just for limiting stats, but also describe the general build of the Pokémon, in offensive and defensive terms. However, the stat spread is the only part of the project that will be specifically constrained by Stat Bias Limits. There will be four stat biases selected and a total Base Stat Rating (BSR) limit. The Stat Biases are:</p>
+
+<dl>
+<dt>Physical Tankiness (PT)</dt>
+<dd>The rating of the Pokémon's physical defense.</dd>
+<dt>Physical Sweepiness (PS)</dt>
+<dd>The rating of the Pokémon's physical offense.</dd>
+<dt>Special Tankiness (ST)</dt>
+<dd>The rating of the Pokémon's special defense.</dd>
+<dt>Special Sweepiness (SS)</dt>
+<dd>The rating of the Pokémon's special offense.</dd>
+</dl>
+
+<p>An application for calculating the biases can be found <a href="/forums/showpost.php?p=4455389&postcount=5">here</a> and the formulae themselves can be found <a href="/forums/showpost.php?p=3313125&postcount=1">here</a>. For each individual bias, a named range will be specified by the Stats Leader. The named ranges are as follows.</p>
+
+<dl>
+<dt>Below Average</dt>
+<dd>A stat bias between 0-80</dd>
+<dt>Average</dt>
+<dd>A stat bias between 81-99</dd>
+<dt>Above Average</dt>
+<dd>A stat bias between 100-149</dd>
+<dt>High</dt>
+<dd>A stat bias greater than or equal to 150</dd>
+</dl>
+
+<p>Some examples for different Stat Biases are provided below for referencing purposes.</p>
+
+<h3><a name="biasexamples">Stat Bias Examples</a></h3>
+<table class="sortable">
+<thead>
+<tr class="a">
+<th>PT/ST/PS/SS Range</th>
+<th>Stat Description</th>
+<th>Example (PT) </th>
+<th>Example (ST) </th>
+<th>Example (PS) </th>
+<th>Example (SS) </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td> < 25 </td>
+<td> Horrible </td>
+<td> Ralts </td>
+<td> Magikarp </td>
+<td> Shuckle </td>
+<td> N/A </td>
+</tr>
+<tr class="a">
+<td> 25 - 49</td>
+<td> Bad </td>
+<td> Shuppet </td>
+<td> Pikachu </td>
+<td> Smeargle </td>
+<td> Wooper </td>
+</tr>
+<tr>
+<td> 50 - 74 </td>
+<td> Poor </td>
+<td> Alakazam </td>
+<td> Swellow </td>
+<td> Probopass </td>
+<td> Bastiodon </td>
+</tr>
+<tr class="a">
+<td> 75 - 99 </td>
+<td> Below Average </td>
+<td> Gengar </td>
+<td> Breloom </td>
+<td> Spiritomb </td>
+<td> Slowbro </td>
+</tr>
+<tr>
+<td> 100 - 124 </td>
+<td> Above Average </td>
+<td> Ludicolo </td>
+<td> Mamoswine </td>
+<td> Hariyama </td>
+<td> Tyranitar </td>
+</tr>
+<tr class="a">
+<td> 125 - 149 </td>
+<td> Good </td>
+<td> Machamp </td>
+<td> Roserade </td>
+<td> Kingdra </td>
+<td> Flygon </td>
+</tr>
+<tr>
+<td> 150 - 174 </td>
+<td> Very Good </td>
+<td> Magnezone </td>
+<td> Heatran </td>
+<td> Metagross </td>
+<td> Rotom-A </td>
+</tr>
+<tr class="a">
+<td> 175 - 199 </td>
+<td> Excellent </td>
+<td> Gliscor </td>
+<td> Vaporeon </td>
+<td> Heracross </td>
+<td> Charizard </td>
+</tr>
+<tr>
+<td> 200 - 224 </td>
+<td> Fantastic </td>
+<td> Tangrowth </td>
+<td> Milotic </td>
+<td> Electivire </td>
+<td> Porygon-Z </td>
+</tr>
+<tr class="a">
+<td> > 224 </td>
+<td> Amazing </td>
+<td> Steelix </td>
+<td> Snorlax </td>
+<td> Weavile </td>
+<td> Espeon </td>
+</tr>
+</tbody>
+</table>
+
+<h2><a name="bsr">Base Stat Rating Limits</a></h2>
+
+<p>The Base Stat Rating measurement determines the desired overall "power level" of the Pokémon's base stats. In the past, the Base Stat Total (BST) was used to measure the power of base statistics. BST is a very poor metric for stat power, however, so the CAP project now uses Base Stat Rating (BSR) to determine the overall effectiveness of a Pokémon's base stats. The results are more useful and relevant to the relative power of a created Pokémon's stats. The Base Stat Rating is determined by a formula created by X-Act and updated by Rising_Dusk to the fifth generation.</p>
+
+<p>The Base Stat Rating directly impacts the size of the total movepool and Very Good Movepool for the CAP, which is relevant later on in the project. The higher the BSR for a CAP, the smaller its recommended Total Movepool Size and Very Good Movepool. The BSR of a Pokémon is divided into 12 different categories, ranging from the exaggerated rating of Arceus and other Uber Pokemon to the awful rating of Pokémon like Unown and most baby Pokémon. A better description of these ratings can be found <a href="/cap/articles/stat_ratings#overall">here</a>. For the purposes of the movepool limitations linked to the BSR of Pokémon, only 5 of these categories are available as listed below. More details on what the Very Good Movepool of a Pokémon means can be found <a href="/cap/process/events/movepool_submissions">here</a>.</p>
+
+<table class="sortable">
+<thead>
+<tr>
+<th colspan=3 style="text-align: center">Overall Ratings</th>
+<th colspan=4 style="text-align: center">Movepool Size</th>
+</tr>
+</thead>
+<tbody>
+<tr><th>Description</th>
+<th>Limit</th>
+<th>Examples</th>
+<th>Description</th>
+<th>Total Moves</th>
+<th>Very Good Moves</th>
+<th>Examples</th></tr>
+<tr class="a"><td>Above Average</td>
+<td>250</td>
+<td>Spiritomb, Azumarill</td>
+<td>Fantastic</td>
+<td>95</td>
+<td>45</td>
+<td>Tyranitar, Togekiss</td></tr>
+<tr><td>Good</td>
+<td>300</td>
+<td>Swampert, Gliscor</td>
+<td>Excellent</td>
+<td>85</td>
+<td>40</td>
+<td>Sceptile, Swampert</td></tr>
+<tr class="a"><td>Very Good</td>
+<td>350</td>
+<td>Infernape, Lucario</td>
+<td>Very Good</td>
+<td>75</td>
+<td>35</td>
+<td>Mismagius, Steelix</td></tr>
+<tr><td>Excellent</td>
+<td>400</td>
+<td>Mew, Heatran</td>
+<td>Good</td>
+<td>65</td>
+<td>30</td>
+<td>Walrein, Heracross</td></tr>
+<tr class="a"><td>Fantastic</td>
+<td>450</td>
+<td>Deoxys, Garchomp</td>
+<td>Above Average</td>
+<td>55</td>
+<td>25</td>
+<td>Jumpluff, Swellow</td></tr>
+</tbody>
+</table>
+
+<h2><a name="references">References</a></h2>
+<ul>
+<li>Information about the formula is located <a href="/cap/articles/stat_ratings">here</a>.</li>
+<li>A utility for calculating the BSRs for a Pokemon is located <a href="http://users.smogon.com/X-Act/BaseStatsRatings.html">here</a>.</li>
+<li>A new utility for calculating the BSRs for a Pokemon in Black &amp; White is located <a href="http://www.smogon.com/forums/showpost.php?p=3323869&postcount=4">here</a>.</li>
+</ul>

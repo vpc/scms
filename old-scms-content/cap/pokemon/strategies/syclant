@@ -1,0 +1,174 @@
+[title]
+Syclant
+[head]
+<link rel="stylesheet" type="text/css" href="/media/dex/dex.css" />
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_template.js"></script>
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_database.js"></script>
+[header]
+[page]
+<script language="JavaScript">
+document.write(strategyTabs("Syclant"));
+document.write(topHeaderInfo(Syclant()));
+</script>
+
+<h2>Overview</h2>
+
+<h4>DPP</h4>
+
+<p>Syclant is one of those Pokemon that are difficult and frustrating to use, as its horrible defenses and two 4x weaknesses make it a risky sweeper. Because of this, it's very hard to pull off a Tail Glow or Swords Dance boost, as one move can potentially end Syclant's life. It also needs a massive amount of team support to function properly, otherwise you'll find the end product underwhelming. On top of that, the addition of Bullet Punch to Scizor's movepool completely shuts down Syclant's sweeping ability. Even though Syclant has many problems to overcome as a sweeper, if you are able to give it the team support it needs, Syclant will become a potent threat within the OU metagame, ripping teams to shreds with its boosted STAB attacks.</p>
+
+<p>The good thing about Syclant is that being the fastest user of Spikes in the OU metagame gives it the ability to lay down multiple layers of Spikes before dying. Also, it hits nearly every common lead for super effective damage with its common attacks, Bronzong and Swampert being the only ones taking neutral damage.</p>
+
+<script language="JavaScript">
+var set = new CAPSet();
+set.name = "DPP Physical Spikes Lead";
+set.move[1] = "Spikes";
+set.move[2] = "Superpower";
+set.move[3] = ["Ice Shard", "Blizzard"];
+set.move[4] = "Taunt";
+set.item =  "Focus Sash";
+set.ability = "Compoundeyes";
+set.nature = "Naive";
+set.evs.Atk = 252;
+set.evs.SpA = 4;
+set.evs.Spe = 252;
+document.write(composeSet(set));
+</script>
+
+<p>Syclant is the fastest user of Spikes in the OU metagame, making it a very potent Spikes user in the lead position. It also has a fantastic movepool, which augments Syclant's ability to lay down Spikes and fire off powerful STAB attacks. Since Syclant is using Compoundeyes as its ability, Blizzard turns into a 91% accurate base 120 STAB attack that hits very hard, though if you are not using Blizzard, Compoundeyes is rather wasted. Ice Shard is recommended to come out on top of the common Aerodactyl leads, as well as helping Syclant revenge-kill Dragon Dance Dragonite should it still be alive later in the match. Blizzard overpowers Ice Punch even with the given EV spread and lets Syclant deal with Skarmory and other Pokemon with low Special Defense effectively. Taunt rounds off the set nicely, and with Syclant's high Speed, it stops every opposing lead bar Aerodactyl from setting up its own entry hazards.</p>
+
+<p>Since Syclant is a more offensive Spikes lead, it should be placed onto offensive teams that need the extra entry hazard support to ease sweeping. Gyarados is a great example of an offensive Pokemon that appreciates Spikes, making its Dragon Dance sweeps more efficient. Gyarados is also capable of setting up against Bronzong, Heatran, and Metagross, three leads that Syclant is unable to overcome, and to avoid their Explosions, it can use a Substitute and Bounce set. Other viable sweepers include Swords Dance Lucario, Choice Band Scizor, and Nasty Plot Infernape. To add even more residual damage, a Stealth Rock user is strongly recommended, making the opponent take upwards of 25% (if you are able to lay down at least two layers of Spikes) damage each time the opponent switches in a Pokemon. Heatran is a great Stealth Rock user to look into as not only does it guarantee a Stealth Rock set up, but it can absorb the Fire-type attacks aimed at Syclant for a Flash Fire boost.</p>
+
+<script language="JavaScript">
+var set = new CAPSet();
+set.name = "DPP Special Spikes Lead";
+set.move[1] = "Spikes";
+set.move[2] = "Blizzard";
+set.move[3] = ["Taunt", "Bug Buzz"];
+set.move[4] = "Earth Power";
+set.item =  "Focus Sash";
+set.ability = "Compoundeyes";
+set.nature = "Naive";
+set.evs.HP = 4;
+set.evs.SpA = 252;
+set.evs.Spe = 252;
+document.write(composeSet(set));
+</script>
+
+<p>Since Syclant is so versatile in its movepool, it can use another version of a Spikes lead. The thing that distinguishes this set from the above Spikes lead set is the fact that it's focusing primarily on the special side. That way, it packs an extremely powerful Blizzard that is capable of OHKOing and 2HKOing a vast majority of leads. This set also has added coverage with the use of Earth Power, making it a more threatening offensive suicide lead.</p>
+
+<p>Blizzard is Syclant's STAB move of choice, hitting extremely hard against Pokemon that don't resist it. It's also strong enough to 2HKO Relaxed Swampert that don't invest in a lot of Special Defense, one of the few leads that Syclant can't hit super effectively. Earth Power is a useful coverage attack, as it nails Metagross and Heatran for super effective damage. Taunt is an effective move to prevent the opponent from executing their own lead strategy or setting up their own entry hazards, but if you prefer, you can use Bug Buzz over it for a secondary STAB attack, which easily destroys Starmie and Azelf leads, and also hits Bronzong for neutral damage.</p>
+
+<p>This set has nearly the exact same problems and team options as the above Spikes lead, except that it is able to hit Heatran and Metagross with Earth Power should you choose to run it.</p>
+
+<script language="JavaScript">
+var set = new CAPSet();
+set.name = "DPP Tail Glow";
+set.move[1] = "Tail Glow";
+set.move[2] = "Ice Beam";
+set.move[3] = "Bug Buzz";
+set.move[4] = ["Earth Power", "Focus Blast"];
+set.item =  ["Focus Sash", "Life Orb"];
+set.ability = "Mountaineer";
+set.nature = "Timid";
+set.evs.HP = 4;
+set.evs.SpA = 252;
+set.evs.Spe = 252;
+document.write(composeSet(set));
+</script>
+
+<p>Tail Glow Syclant is one of the most effective and dangerous sets it can use, as it shoots Syclant's impressive Special Attack stat of 329 up to 658. Not only that, but it has a great offensive movepool to work with, fantastic offensive typing, and a helpful ability in Mountaineer, which allows it to switch into Stealth Rock or any Rock-type attack without taking any damage.</p>
+
+<p>Ice Beam and Bug Buzz are the two primary offensive STAB attacks and they provide great type coverage. After just one Tail Glow boost, they have enough power to OHKO many Pokemon that reside in the OU metagame. The last slot is a difficult choice, as Earth Power and Focus Blast both have their merits. Earth Power is mainly used for hitting grounded Steel-types, such as Metagross, Jirachi, and Heatran, and is Syclant's strongest option against Tentacruel. On the other hand, Focus Blast makes Snorlax and Blissey, two common switch-ins to Tail Glow Syclant, think twice before switching in, as a Tail Glow and Life Orb boosted Focus Blast will OHKO Snorlax and 2HKO Blissey with Stealth Rock in play. Focus Blast is a risky option with its 70% accuracy, however, and relying upon it may open up Syclant to taking a heavy hit or an OHKO if it misses.</p>
+
+<p>If you dislike the fact that you are unable to hit Scizor or Forretress super effectively, Hidden Power Fire may be used in the last slot to easily OHKO them. This choice comes at its own cost, though, as you are then unable to score neutral damage against Heatran. You may choose to use Compoundeyes instead of Mountaineer, as this lets you use a 91% accurate Focus Blast and Blizzard. Be sure that you remove Stealth Rock on your field, however, or else Syclant will take 50% damage upon switching in to it.</p>
+
+<p>Focus Sash is the preferred item as it guarantees Syclant at least one Tail Glow boost and takes advantage of Syclant's immunity to the common Stealth Rock. Focus Sash also provides a decent way at retaliating against Scizor's Bullet Punch. On the other hand, Life Orb can be deemed more useful because it provides a boost in power, making Syclant's attacks insanely powerful. Also, Life Orb won't be rendered useless like Focus Sash would be if a sandstorm is in play.</p>
+
+<p>Bullet Punch Scizor and Metagross are probably Syclant's biggest threats, as they can pretty much stop it cold from sweeping a team. With that being said, Magnezone is definitely worth considering, thanks to its excellent ability, Magnet Pull. Choice Scarf Magnezone in particular can outpace Scizor and Metagross and smack them with a powerful Hidden Power Fire or Thunderbolt, erasing them from the picture. Even though Syclant may be immune to Stealth Rock, Spikes and Toxic Spikes are a nightmare, as they negate Syclant's Focus Sash and reduce the amount of times Syclant can switch in. Carrying a Rapid Spinner is definitely recommended. Forretress is an effective Rapid Spinner because of its great physical bulk and has access to its own entry hazards, which would give Syclant many opportunities to turn its 2HKOs into OHKOs. It is worth noting that Forretress shares a 4x Fire-type weakness with Syclant, so covering that weakness elsewhere is necessary. Blissey can be a bit of a nuisance towards Syclant lacking Focus Blast because of her insane special bulk and access to crippling moves like Thunder Wave and Toxic, so it's best to have a Pokemon that can deal with it. Machamp is an excellent choice, as it can easily obliterate Blissey with DynamicPunch, as well as recovering from status with Rest. Abomasnow can also be a great addition to your team, replacing sand for hail to preserve Syclant's Focus Sash, and allowing the use of a perfectly accurate Blizzard.</p>
+
+<script language="JavaScript">
+var set = new CAPSet();
+set.name = "DPP Mixed Attacker";
+set.move[1] = "Tail Glow";
+set.move[2] = "Ice Beam";
+set.move[3] = "Bug Buzz";
+set.move[4] = "Superpower";
+set.item =  ["Focus Sash", "Life Orb"];
+set.ability = "Mountaineer";
+set.nature = "Naive";
+set.evs.Atk = 88;
+set.evs.SpA = 168;
+set.evs.Spe = 252;
+document.write(composeSet(set));
+</script>
+
+<p>Tail Glow Syclant has issues with the special defensive beast known as Blissey; however, this set attempts to shake things up and remedy that problem instantly. Through the use of Tail Glow and Superpower, Syclant can lure in the aforementioned Pokemon and dispose of her easily with Superpower. With the primary Special Defense wall out of the picture, Syclant becomes increasingly difficult to counter. Superpower also keeps Tyranitar, Snorlax, and Heatran at bay (though sadly it cannot OHKO the latter two), so Syclant doesn't miss out on too much when using Superpower instead of Earth Power. As usual, Ice Beam and Bug Buzz are essentials to Syclant's sweeping ability, both of which provide Syclant with powerful STAB attacks.</p>
+
+<p>The EV spread suggested is completely straightforward. With just 88 Attack EVs, Syclant is able to OHKO Blissey with a Life Orbed Superpower 59% of the time with Stealth Rock in play, meaning she will be OHKOed if she takes a bit more prior damage. Without Life Orb, however, you are unable to achieve an OHKO with Stealth Rock in play, as you only do 63% - 75% to her. The 88 Attack EVs also lets Syclant always OHKO Choice Band Tyranitar, even without a Life Orb, 100% of the time. Maximum Speed is required so Syclant can outspeed as many threats as possible, while the remaining 168 EVs are added to Special Attack to provide decent power with its special attacks.</p>
+
+<p>Entry hazard support is strongly suggested on this particular Syclant, more-so than the Tail Glow Sweeper Syclant. Since Syclant is splitting its Special Attack EVs with Attack, it becomes much weaker on the special side. For that reason, it needs as many entry hazards set up as possible so it can still achieve many of the same KOs that it does with Tail Glow Syclant. It also helps Syclant deal with Blissey easier if you are not using Life Orb, as with Stealth Rock and two to three layers of Spikes up, she's unable to survive Superpower. With that said, Swampert and Skarmory deserve to be considered; the former being one of the most reliable Stealth Rock supporters in the game, while the latter having many opportunities to set up Spikes with its great physical bulk. Skarmory also helps Syclant deal with its Scizor problem, so that's a good thing to keep in mind. To keep these hazards from being removed by opposing Rapid Spinners, Ghost-types are necessary. Rotom-H is the perfect Ghost-type to use, as its great overall bulk and ability to threaten Scizor, Metagross, and Lucario (all of whom can revenge-kill Syclant) is too good to pass up.</p>
+
+<script language="JavaScript">
+var set = new CAPSet();
+set.name = "DPP Swords Dance";
+set.move[1] = "Swords Dance";
+set.move[2] = "X-Scissor";
+set.move[3] = ["Ice Punch", "Ice Shard"];
+set.move[4] = ["Earthquake", "Stone Edge"];
+set.item =  ["Focus Sash", "Life Orb"];
+set.ability = "Mountaineer";
+set.nature = "Jolly";
+set.evs.HP = 4;
+set.evs.Atk = 252;
+set.evs.Spe = 252;
+document.write(composeSet(set));
+</script>
+
+<p>Syclant is mainly seen as a sweeper that utilizes special attacks and Tail Glow; however, this set attempts to take Syclant in a different direction. Swords Dance Syclant is an extremely threatening physical sweeper in the OU metagame, destroying many Pokemon in sight with its powerful STAB X-Scissor. After just a single Swords Dance, Syclant reaches 658 Attack, allowing it to OHKO or 2HKO almost every Pokemon in the OU metagame.</p>
+
+<p>X-Scissor is the primary STAB move of choice, as unfortunately, Syclant no longer learns Megahorn. Ice Punch gives Syclant a secondary STAB and provides great coverage in tandem with X-Scissor. Ice Shard is a reasonable alternative to Ice Punch if you want to have a priority to move to use in emergencies, and also makes Syclant a reasonable check to Dragon Dance Dragonite. The last slot is open to Earthquake or Stone Edge, each of them having their advantages. Earthquake is mainly used for Heatran, otherwise it can switch into Syclant with relative impunity and scorch it with Fire Blast. It also allows you to hit grounded Steel-types, such as Metagross and Jirachi, without resorting to the weaker X-Scissor to deal with them. On the other hand, Stone Edge allows Syclant to eliminate Gyarados, as well as hitting opposing Syclant for super effective damage. When making a decision in choosing which move to use in the last slot, make sure that your team can cover the threats Syclant will miss out on hitting.</p>
+
+<p>Focus Sash is the preferred item as it helps guarantee Syclant a Swords Dance boost. Also, Focus Sash will not be negated from Stealth Rock, as Syclant's Mountaineer ability prevents Stealth Rock, and any other Rock-type attack, from affecting Syclant upon switching in. If you feel that Syclant is not achieving the KOes you want it to, Life Orb is still a worthy alternative item. Be careful when setting up Swords Dance with Life Orb, though, as Syclant no longer has that safety net Focus Sash provides.</p>
+
+<p>Choice Scarf Magnezone is a staple when using Syclant, especially Swords Dance Syclant. Since it's being used physically, physically defensive Pokemon will prove troublesome. Skarmory and Forretress are prime examples of such Pokemon, boasting excellent Defense and super effective attacks to use against Syclant. Magnezone can come in on these threats, including Scizor and Bullet Punch Metagross, as they try to stop Syclant and dispose of them easily. Entry hazard support is also needed to give Syclant an easier time sweeping. Swampert can set up Stealth Rock reliably and also resists Syclant's weaknesses to Fire and Fighting (as well as Magnezone's Fire weakness should you choose to run it). Skarmory is one of the best Spikes users in the OU metagame and should be considered to set up Spikes for that reason. Beware of making your team weak to Fire-type moves, however, as Magnezone, Skarmory, and Syclant all pack Fire weaknesses.</p>
+
+<h2>Team Options</h2>
+
+<h4>DPP</h4>
+
+<p>When using Syclant, Choice Scarf Magnezone should always be on the team with it; it's basically mandatory. The reason for this is mainly because of Scizor, who is always switching into Syclant's STAB attacks and threatening it with the death-inducing Bullet Punch. Magnezone also helps defeat Lucario and Metagross, two other Pokemon who are capable of revenge-killing Syclant. Magnezone can easily trap them because of its ability, Magnet Pull, and finish them off in a blink of an eye with Hidden Power Fire; however, be careful of switching Syclant, as it can take a Superpower from Scizor, Close Combat from Lucario, or Earthquake from Metagross.</p>
+
+<p>Even though Syclant may be immune to Stealth Rock because of its ability, that doesn’t mean it shouldn't worry about entry hazards. With Focus Sash being Syclant's most commonly held item, Spikes or Toxic Spikes can negate it and leave Syclant vulnerable to a strong attack. That being said, it's best to use a Rapid Spinner to help keep Syclant's Focus Sash instead of losing it. Tentacruel and Forretress are excellent Rapid Spinners to use, thanks to their considerable bulk and access to many support moves, although Forretress shares a dangerous 4x Fire-type weakness with Syclant. Also, Tentacruel can set up Toxic Spikes, while Forretress can set set up any of the three entry hazards, giving Syclant an easier time sweeping. Syclant also pairs up well with Pokemon that resist or can take on the 4x weaknesses it has in Fire and Rock, such as Swampert or Flygon.</p>
+
+<p>Ice Beam is usually preferred on most of Syclant’s sets because of its perfect accuracy, as one miss from Blizzard can be the end of Syclant’s sweep. By using Abomasnow, however, Syclant can forget about Blizzard's shaky accuracy, firing it off without worrying about a miss due to the hailstorm Abomasnow provides. Syclant becomes significantly stronger with Blizzard as well, so it's not a bad idea to abuse it on a hail-based team.</p>
+
+<p>Blissey and Snorlax are two common switch-ins towards Tail Glow Syclant, due to their extremely high special bulk and having moves that can destroy Syclant with ease. It's a good idea to use a Pokemon that can deal with these threats, as Syclant won't be getting anywhere if they are still around and if it lacks Superpower. Machamp is an excellent choice, as it can easily destroy the aforementioned threats with a powerful DynamicPunch. On the other hand, Swords Dance Syclant has slight trouble with bulky Water-types and is shut down by Skarmory. Celebi can easily take out many bulky Water-types with Grass Knot, while Magnezone deserves a mention again to trap and kill Skarmory lacking Shed Shell with Thunderbolt.</p>
+
+<h2>Other Options</h2>
+
+<h4>DPP</h4>
+
+<p>Syclant can use the three Choice items to decent effect, as it has a wide enough movepool on the special and physical side. In most cases, however, Syclant with either Tail Glow or Swords Dance is more effective than Choice Specs or Choice Band. Choice Scarf is one of the better Choice items to use and can make Syclant a decent revenge-killer, but Syclant lacks the raw power to deal efficient damage. One of the biggest issues with Choice Syclant is the fact that it lacks the ability to switch into any direct attack reliably, resisted or not. Its frailty really hinders its switching potential. A mixed Substitute set with Hidden Power Fire and Focus Punch can be proven viable, luring out and KOing Scizor and Blissey, respectively.</p>
+
+<p>Syclant's huge movepool offers it many attacks to choose from; however, there are few notable ones that are usable on the physical or special side. Crunch is a decent move to help Syclant deal with defensive Rotom-A, who would otherwise cause problems. U-turn may also be used, providing Syclant with a decent scouting move that boasts STAB.</p>
+
+<p>Other moves to consider include Super Fang, Roost, and Rain Dance. Super Fang cuts the opponent's current HP by 50% which could put the enemy in KO range for one of Syclant's attacks. Roost, even though Syclant is very frail, could possibly be useful in restoring half of Syclant's HP to help it sweep longer. Finally, Rain Dance is a viable alternative move on one of the Spikes lead sets, giving its rain sweepers an easier time sweeping.</p>
+
+<h2>CAP Metagame</h2>
+
+<h4>DPP</h4>
+
+<p>Syclant has its ups and downs in a metagame consisting of the other CAP Pokemon.</p>
+
+<p>Syclant can easily defeat Fidgit, boasting a resistance to Fidgit's Earth Power and striking back with its super effective STAB attack. Cyclohm, despite Syclant being unable to switch into it, can be threatened with Ice Beam due to its Special Defense being the weaker of its defensive stats. Colossoil also needs to watch out for both of Syclant's STAB attacks, as well as Ice Shard because it negates Colossoil's attempt to KO Syclant with Sucker Punch. Kitsunoh, albeit resistant to both of Syclant's STAB moves, is outpaced and will be hit by Earth Power/Earthquake or Hidden Power Fire. Lastly, Pyroak has a difficult time switching into Syclant, because not only does it take 25% damage from Stealth Rock, but its lack of reliable recovery and vulnerability to a boosted Ice Beam or X-Scissor keeps it from threatening Syclant with its Fire-type moves.</p>
+
+<p>As for Syclant's problems, Arghonaut is perhaps the biggest. It resists both of Syclant's STAB attacks and ignores any stat boost Syclant may have. This allows Arghonaut to switch into Syclant with impunity and finish it off with Waterfall. Revenankh can also be troublesome, boasting excellent overall defense which helps it take Syclant's boosted attacks, a resistance to Syclant's Bug STAB, and access to a powerful Hammer Arm. Even though Kitsunoh may fear Earth Power/Earthquake and Hidden Power Fire, its unique typing lets it be completely resistant to the Mixed Tail Glow Sweeper, Tail Glow Sweeper that uses Focus Blast, and Swords Dance Sweeper that uses Stone Edge.</p>
+
+<h2>Counters</h2>
+
+<h4>DPP</h4>
+
+<p>Scizor is, and will always, be Syclant's worst nightmare. Resisting both of Syclant's STAB attacks and taking neutral damage from Earth Power and Focus Blast, Scizor can switch in quite easily and penetrate Syclant with a death-inducing Bullet Punch or trap it with Pursuit if Syclant thinks about switching out. All Scizor really needs to fear is if Syclant uses Hidden Power Fire as Scizor switches in (or if Syclant still has its Focus Sash intact). Bullet Punch Metagross works similarly to Syclant, though it needs to be cautious of Earth Power / Earthquake or Hidden Power Fire when switching in. Lucario is another Steel-type that can revenge-kill Syclant quite well with ExtremeSpeed, and it also resists both of Syclant's STAB attacks; however, Earth Power / Earthquake, Focus Blast / Superpower, and Hidden Power Fire all hit it super effectively. Bronzong and Forretress have the bulk to survive boosted attacks and can retaliate with their powerful Gyro Balls, though Forretress needs to watch out for Hidden Power Fire. Choice Scarf Heatran is also a big threat to Syclant, resisting both of its STAB moves by 4x and proceeding to scorch it with Fire Blast. A good thing to note is that the common Scizor + Heatran combo works extremely well. If Syclant has Hidden Power Fire instead of Earth Power or Focus Blast on the Tail Glow set, then Heatran will resist its entire moveset and beat it from there. On the other hand, Scizor can come in safely if Syclant carries Earth Power or Focus Blast.</p>
+
+<p>Blissey can shut down any specially-oriented Syclant thanks to her insane special bulk and having access to Flamethrower and Thunder Wave to use against Syclant. She needs to be cautious of Syclant that run Superpower, though. Tyranitar works the same way as Blissey, but Superpower or a +2 Focus Blast can OHKO it. Bulky Water-types, such as Suicune or Swampert, can survive most of the boosted attacks Syclant uses and can threaten it with STAB Surfs or can Roar it out. Skarmory makes a great counter to the Swords Dance Sweeper set, easily surviving boosted Ice Punches and finishing Syclant off with Brave Bird.</p>

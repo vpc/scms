@@ -1,0 +1,338 @@
+[Title]
+PPRNG Guide - Capturing Perfect Entralink Pokemon
+
+[Head]
+<style type="text/css">
+	.centered-left { text-align:center; padding-right:40%}
+	img { max-width:100%; }
+	ol { list-style-type: upper-roman; }
+	ol ol { list-style-type: lower-roman; }
+	dl dl { margin-left:2em; }
+	dl dl dt { font-size:.85em; }
+</style>
+ 
+[Page]
+<div class="author">By <a href="/forums/members/65876/">religiousjedi</a>.</div>
+
+<ol class="toc"> 
+	<li><a href="/ingame/rng/pprng_gen5_01_intro">Introduction</a></li>
+	<li><a href="/ingame/rng/pprng_gen5_02_basics">The Basics of RNG Abuse</a></li>
+	<li><a href="/ingame/rng/pprng_gen5_03_id_abuse">How to RNG Abuse your TID/SID combo</a></li>
+	<li><a href="/ingame/rng/pprng_gen5_04_capture_abuse">Capturing/Receiving Perfect (and Shiny) Pokemon</a></li>
+	<li><a href="/ingame/rng/pprng_gen5_05_breeding">Breeding Perfect (and Shiny) Pokemon</a></li>
+	<li><a href="/ingame/rng/pprng_gen5_06_wondercard">Receiving Perfect Wondercard Pokemon</a></li>
+	<li><a href="/ingame/rng/pprng_gen5_07_roamers">Capturing Roaming Pokemon</a></li>
+	<li><a href="/ingame/rng/pprng_gen5_08_hidden_grottos">Controlling Encounters in Hidden Grottoes</a></li>
+	<li><a href="/ingame/rng/pprng_gen5_09_dream_radar">Receiving Perfect Dream Radar Pokemon</a></li>
+	<li>
+		<strong>Capturing Perfect Entralink Pokemon</strong>
+		<ol>
+			<li><a href="#s1-two-forms">Two Different Forms of Entralink</a></li>
+			<li><a href="#s2-bw1">Pokemon Black and White Entralink Abuse</a></li>
+			<li><a href="#s3-bw2">Pokemon Black 2 and White 2 Entralink Abuse</a></li>
+		</ol>
+	</li>
+</ol>
+
+<p>
+	Perhaps one of the most difficult forms of RNG abuse in the 5th Generation right next to roaming Pokemon, Entralink Pokemon are rarities to be captured since most of the Pokemon available in the Pokemon Dream World website are available as female and thus Hidden Abilities are easily passed through breeding. However, the novelty of having a Pokemon with a Hidden Ability, a special move, and a choice of Pok&eacute; Ball outside of the standard choice makes this type of RNG Abuse a worthwhile endeavor.
+</p>
+ 
+<h3 id="s1-two-forms">Two Different Forms of Entralink</h3>
+ 
+<p>
+	There are two very distinct differences between Entralink abuse between Black/White and Black 2/White 2: C-Gear seeds are mandatory for BW. This may not seem like a big deal to those who have experience with delays, like those back in the 4th Generation, but you must also use standard seeds, or non-C-Gear seeds, in conjunction. B2W2 eliminates the use of C-Gear seeds in its Entralink abuse, simply requiring the use of any standard seed and switching the encounter type to "Entralink." The second important piece is the shifted starting frame IV. For BW Entralink the SSF for IVs is <strong>21</strong>; meanwhile, B2W2 Entralink shifts the initial IV frame to <strong>25</strong>. Keep these values in mind as you search for seeds in a corresponding game.
+</p>
+ 
+<p>
+	Both do share the same form of advancing the IV frame. Obviously, you can advance the IV frame by the number of Pokemon in your party by walking 128 steps. The second way to advance the IV frame would be by refusing to engage in battle with the desired Pokemon. This method advances the IV frame by 26, allowing a person to search for seeds with a higher IV frame. However, do note some important factors:
+</p>
+
+<ul>
+	<li>The steps counter does <strong>not</strong> reset, so you may trip the counter inadvertently and advance the IV frame.</li>
+	<li>
+		Advancing the IV frame by refusing to take the Pokemon in the Entree Forest also advances the PID frame, so you may get an undesirable nature even though your timing was supposedly correct; for this reason, it is advised you don't search for seeds with a higher IV frame than the amount of Pokemon in your party unless absolutely necessary. Refer to this <a href="/forums/showpost.php?p=4011989">post</a> for more info.
+	</li>
+	<li>The C-Gear is constantly advancing the PID frame, so you may want to be quick about IV frame advancements. For the record, the C-Gear advances the PID frame every 1.733~ seconds on average.</li>
+</ul>
+
+<h3 id="s2-bw1">Pokemon Black and White Entralink Abuse</h3>
+<div style="font-size:.8em; margin-top:-8px; margin-bottom:8px;">*Jump down to B2W2 Entralink if you are going for Entralink Pokemon in B2/W2.</div>
+ 
+<p>
+	Preparation must be done before anything can be done. In your game, your party should include at least one Chatot with the move Chatter in order to confirm hitting your standard seed. If your seed requires you to advance the IV frame, be sure to account for it by bringing the right amount of Pokemon. In your Entree Forest, be sure to have only the target Pokemon in the first area of the forest; the Pokemon in the Entree Forest are basically WNPCs, so to limit the advancements of the PID, it is advisable to limit the amount of NPCs in the forest.
+</p>
+ 
+<p>
+	ZOMG Timer is required, which can be downloaded <a href="/forums/showthread.php?t=81513">here</a>. This timer is used to hit C-Gear seeds, which as previously mentioned use delays. You will also need another timer, this one to account for PID advancements. Since EonTimer is not programmed for Mac use, we must make use of these tools. If you have a way to run EonTimer though, definitely use it instead.
+</p>
+ 
+<h4>Seed Searching</h4>
+ 
+<p>
+	In the main window of PPRNG, click on C-Gear Seed Searcher. Depending on your game, DS type, and MAC address, you may have to expand your search to get desirable IVs. However, it is highly advised to keep your IV range on the default 21-26 if this is your first time trying. It is always best to expand the delay range a bit, but you should never decrease the minimum range as it may make it impossible to hit a seed. In our results, we searched for a physical spread.
+</p>
+ 
+<div class="centered-left">
+	<img src="/media/upload/ingame/rng/pprng_entralink_1.png" alt=""/>
+</div>
+ 
+<p>
+	Find a suitable seed for which the delay, IV frame, or both is to your liking and double click it. Doing so will open the C-Gear Seed Inspector Window.
+</p>
+ 
+<div class="centered-left">
+	<img src="/media/upload/ingame/rng/pprng_entralink_2.png" alt=""/>
+</div>
+ 
+<p>
+	The frames tab can be largely ignored. Its usefulness is limited for Entralink abuse, since you already know your target IV frame. In any case, the program highlights the target frame. Instead, click on the Entralink Natures tab. In this part of the window, ensure the Standard Seed DS Configuration matches up with your DS Parameters. For held buttons, it is highly recommended to use zero button presses if this is your first time doing Entralink abuse. If your Pokemon is genderless, be sure to check the box. Genderless Pokemon have their PID frame shifted in times slightly. In the nature dropdown menu, choose the nature(s) you want. It is highly recommend unchecking the "Search from initial frame" box and changing the minimum frame from 50 to 80 and the max from 100 to 120. This is because otherwise PPRNG will search for frames that have your intended nature between those two values. Because the C-Gear advances the PID frame by 1 for a little over 1 second, if for example your initial frame is 50 and your target is 59, it would be impossible to enter the Entree Forest and talk to your Pokemon in that amount of time. You can adjust the Min Cluster Size to your needs but 3 is a reasonable number. Note that increasing the cluster makes it more likely to get the nature you want accidentally, but means it will yield less results. The opposite occurs if you lower the cluster. Finally, leave the Seconds Adjusted box alone for now; this will be addressed later.
+</p>
+ 
+<div class="centered-left">
+	<img src="/media/upload/ingame/rng/pprng_entralink_3.png" alt=""/>
+</div>
+ 
+<p>
+	Double click on a date of choice to open a Standard Seed Inspector window. For now, leave it aside. Return back to the C-Gear Seed Inspector window and click on the Time / Adjacents tab. Look for your chosen C-Gear Time from the date you chose earlier in the Entralink Natures tab. It is highly recommend to change the delay to 999 and the seconds to 9 if this is your first time doing Entralink abuse or working with delays.
+</p>
+ 
+<div class="centered-left">
+	<img src="/media/upload/ingame/rng/pprng_entralink_4.png" alt=""/>
+</div>
+ 
+<h4>Timer Setup</h4>
+ 
+<p>
+	Setting up your timer requires a bit of trickery when using ZOMG Timer. Unlike EonTimer, which has a method to accommodate Entralink delays, time, and nature, ZOMG Timer does not. In order to "change" ZOMG Timer into Entralink mode, a few things need to be changed. First, open up ZOMG Timer and change the mode to Gen 5 - C-Gear. For Calibrated Delay, leave it as-is if this is your first time. The adjustments come in the form of Target Delay and Target Time. Based on research done by <a href="/forums/member.php?u=30562">Toast++</a>, the adjustments are subtracting 5 seconds from your C-Gear time and 296 from your Actual Delay. <strong>Note:</strong> Very important! Use Actual Delay, <strong>not</strong> Base Delay. Using the Base Delay of your seed will make it so you hit the incorrect IVs. Actual Delay is listed in the C-Gear Seed Inspector window in both the Time/Adjacents and Entralink Natures tabs. Do note that these two values are simply averages; it is really dependent on your seed's time and delay how much value is taken off. In this example, it was discovered that a 6 second subtraction and 306 subtraction from the Actual Delay was needed.
+</p>
+ 
+<div class="centered-left">
+	<img src="/media/upload/ingame/rng/pprng_entralink_5.png" alt=""/>
+</div>
+ 
+<p>
+	A few things to note right here. First off, the first length of time. Note how in this example it states 17.81 seconds. Now, look back at your Standard Seed Inspector window (the one opened when you clicked on a date in the Entralink Natures tab).
+</p>
+ 
+<div class="centered-left">
+	<img src="/media/upload/ingame/rng/pprng_entralink_6.png" alt=""/>
+</div>
+ 
+<p>
+	The Standard Seed's time in this example reads 17:16.19 (17 hours, 16 minutes, 19 seconds). The point trying to be made here is that the first countdown is essentially you trying to hit your Standard Seed time. This is where the justification of the subtraction of 6 seconds instead of 5 seconds was made earlier for this example. In other words, if the timer in ZOMG Timer doesn't match with the Standard Seed time, subtract or add a second and adjust accordingly. Minutes before target should also be a reasonable distance from your target C-Gear time. In this example, ZOMG Timer states "Minutes Before Target" to be 3 which matches up to the C-Gear time of our choice (17:19.43).
+</p>
+ 
+<p>
+	The next part requires your external timer. Look at your Standard Seed Inspector window. The PID frame results should show already, with your target nature highlighted (and its cluster nearby). Based on the gender of the Pokemon you received from the Dream World, be sure to adjust the Target Gender and Gender Ratio to match what you received; otherwise, the results may yield the wrong PID. The time listed is what you want to use to get your intended nature. A cluster is chosen to increase your chances of getting the desired nature.
+</p>
+ 
+<div class="centered-left">
+	<img src="/media/upload/ingame/rng/pprng_entralink_7.png" alt=""/>
+</div>
+ 
+<p>
+	Scroll up to find the first three frames of your particular seed.
+</p>
+ 
+<div class="centered-left">
+	<img src="/media/upload/ingame/rng/pprng_entralink_8.png" alt=""/>
+</div>
+ 
+<p>
+	Now, note how it says Skipped? The first three frames are reserved to confirm you hit your standard seed by using Chatot (this is what C-Gear Start Offset suggests). Your external timer is what you'll be using to aim for the intended nature. So using this example, if we wanted a Pokemon with an Adamant nature, we would aim for the time 1:02.316 (1 minute, 2 seconds, 3 milliseconds). With all this in mind, now it's time to go for your Pokemon.
+</p>
+ 
+<h4>Step-by-Step Procedure</h4>
+ 
+<strong>Preparation:</strong>
+<ul>
+	<li>Bring at least one Chatot (to verify you hit your standard seed).</li>
+	<li>Bring the proper amount of Pokemon, in case you need to advance the IV frame. If you must advance the IV frame, use a Repel to count the first 100 steps. 28 more will then advance the IV frame by X amount of Pokemon you brought.</li>
+	<li>
+		In your Entree Forest, make sure your target Pokemon is the only one in the first area. The reason for this is to ensure the PID frame doesn't make unnecessary advancements (since the Pokemon in the Entree Forest can be considered wandering NPCs).
+	</li>
+	<li>Your character should be saved in an area where you can access Entralink and is an area where there are no WNPC. The Pokemon League entrance is an ideal place to do this.</li>
+</ul>
+
+<ol style="list-style-type:decimal">
+	<li>
+		In your DS settings, set your date and time like you would normally do with a Standard Seed. When setting the time, you must start ZOMG Timer at the same time as you set your DS clock. Then, wait at the main menu of your DS with the cursor directly over your cart.
+	</li>
+ 
+	<li>
+		The process is very similar to Standard Seed abuse currently. Do not press any buttons after you start the game (unless your standard seed requires it). When you reach the main menu of the game, be sure not to turn on the C-Gear. Allow the season screen to fade.
+	</li>
+	 
+	<li>
+		Right now, it is time to verify you hit your standard seed. Recall the first three PID frames mentioned earlier? Use your Chatot to compare. If they match, you hit your standard seed. If not, and this is your first time doing Entralink abuse, continue on. If you didn't hit your standard seed and you have experience, right now is the correct time to determine if you hit your other Timer0 or if you hit the incorrect second.
+	</li>
+	 
+	<li>
+		<p>
+			After verifying you hit your standard seed, turn on the C-Gear. <strong>Important!!!</strong> Mash the X button to skip the turn-on animation of the C-Gear. Remember that the C-Gear advances the PID frame, so to get as close to the result as possible, mash the X button to bring up the menu, close it, hit the Wireless button, and hit Entralink. The C-Gear will stop when the screen states "&lt;Player&gt; entered the Entralink!"
+		</p>
+	 
+		<div class="centered-left">
+			<img src="/media/upload/ingame/rng/pprng_entralink_9.png" alt=""/>
+		</div>
+	</li>
+	 
+	<li>
+		Wait until the second countdown of ZOMG Timer ends before pressing A. At this time, you also start up the external timer (the one counting for the nature). Once you regain control, right now is the time to advance your IV frame if you are using the X frames #Pokemon method. Once you do so, proceed into the forest and talk to your Pokemon. If you need to advance the IV frame via replying "no" to taking the Pokemon (recall each time you refuse to take the Pokemon and refuse to send it to the back, it advances by 26 frames), do so right now.
+	</li>
+	 
+	<li>
+		<p>Wait in the following screen when you've finished your IV frame advancements:</p>
+		<div class="centered-left">
+			<img src="/media/upload/ingame/rng/pprng_entralink_10.png" alt=""/>
+		</div>
+		<p>
+			Once your target time for nature comes up, hit A to engage the battle. Capture the Pokemon with whatever Ball you wish (all Balls have a capture rate of 100% in the Entree Forest, and if for some reason you don't have a Pok&eacute; Ball, you are given a Dream Ball to catch it).
+		</p>
+	</li>
+	 
+	<li>
+		Check the IVs of the Pokemon. Metalkid's IV Calculator is useful, as are Rare Candies, to narrow down your IVs. If you got the right nature and right IVs, congratulations. Go enjoy your new Entralink Pokemon! If one or the other didn't match, proceed to Troubleshooting.
+	</li>
+</ol>
+ 
+<h4>Troubleshooting</h4>
+
+<dl> 
+	<dt>What if I missed my delay?</dt>
+	<dd>
+		<p>
+			First off, determine what the IVs of your Pokemon are. Then, go back to the C-Gear Inspector window with the Time/Adjacents tab open. Look for your IVs there (you can use the Min/Max spaces to find the exact delay you hit by inputting the exact IVs you found). Based on your results, update ZOMG Timer with the delay you hit (remember to subtract 296 from the result before plugging it in the appropriate box).
+		</p>
+ 
+		<p>
+			If you missed the delay due to being off by a second, then adjust the seconds in the ZOMG Timer based on what you missed. Recall that you subtract 5 seconds from the C-Gear seed time. Depending on how off you are, add or subtract a second more from your target C-Gear time. From then on, use the new subtracted second for future endeavors.
+		</p>
+ 
+		<p>
+			Another case is that you tripped the step counter (remember that the game advances the frame by x number of Pokemon per 128 steps). Simply walk around a few steps, save, and retry again.
+		</p>
+	</dd>
+ 
+	<dt>What if I missed my nature?</dt>
+	<dd>
+		<p>
+			This is the scenario faced by most, even after hitting the right delay. From the cluster of natures of your target nature, find the nature you landed on. Then, subtract the difference in times from your target time to what nature you got. Use the new time in an attempt to get the right nature and adjust accordingly. On average, you may miss the nature by about 3-6 frames, sometimes more, sometimes less.
+		</p>
+ 
+		<p>
+			If you hit the wrong standard seed, determine if it was because you hit your other Timer0 or you hit the wrong second for the standard seed. If you hit your other Timer0, a simple retry is all that's really needed. If, however, you hit the wrong second, determine what second you actually hit. Then, return to the C-Gear Seed Inspector window, clicking on the Entralink Natures tab. In the box labeled Seconds Adjustment, make the proper adjustment and hit generate. For example, say your target second for the standard seed was 34 and you determine you hit 33. In the Seconds Adjustment, you'd put -1. Select a new seed from the results and resume Entralink abuse from there.
+		</p>
+	</dd>
+</dl>
+ 
+
+<h3 id="s3-bw2">Pokemon Black 2 and White 2 Entralink Abuse</h3>
+<div style="font-size:.8em; margin-top:-8px; margin-bottom:8px;">*Jump up to BW Entralink if you are going for Entralink Pokemon in B/W.</div>
+ 
+<p>
+	Unlike BW Entralink abuse, you will <strong>NOT</strong> be using C-Gear Seed Searcher. Instead, click on Standard Seed Searcher in the main window. You should already be familiar with this window, so put in the desired IVs. You can leave the whole Shiny Search Parameters portion alone since Entralink Pokemon cannot be shiny. Recall for BW2 Entralink abuse, the shifted starting IV frame is 25. That means your IV searches should range from 25 to 31. Note that you can still advance the IV frame 26 frames if you refuse to catch a Pokemon when you talk to it&mdash;though, recall that this method advances the PID frame too. Refer to this <a href="/forums/showpost.php?p=4011989">post</a> to see by how much, depending on your Pokemon. In our example, we are searching for a Trick Room Hidden Power spread.
+</p>
+ 
+<div class="centered-left">
+	<img src="/media/upload/ingame/rng/pprng_entralink_11.png" alt=""/>
+</div>
+ 
+<p>
+	Once you find a seed that you like, double click on it to open up the Standard Seed Inspector Window. Your target IVs should be highlighted, but one change must be done to this window. In the PID side, change encounter type to "Entralink," Lead Ability to "Other" (if it isn't), and if you hadn't defined it earlier, change gender to match what the gender of the Pokemon you got from Dream World is. Then hit generate to get the right list.
+</p>
+ 
+<div class="centered-left">
+	<img src="/media/upload/ingame/rng/pprng_entralink_12.png" alt=""/>
+</div>
+ 
+<p>
+	The first three PID frames are reserved to account for a confirmation of hitting the proper seed. Since in Black and White 2 there is a range of Timer0, this is most helpful to narrow down what Timer0 you hit.
+</p>
+ 
+<div class="centered-left">
+	<img src="/media/upload/ingame/rng/pprng_entralink_13.png" alt=""/>
+</div>
+ 
+<p>
+	The probability of a desired nature cluster is very low, so you must scroll down the list and find nature you want (though make sure you can hit the time). In this example, we found a desirable Quiet nature frame at 01:08.166.
+</p>
+ 
+<div class="centered-left">
+	<img src="/media/upload/ingame/rng/pprng_entralink_14.png" alt=""/>
+	<p>Very fortunate to have those other Quiet nature frames nearby!</p>
+</div>
+ 
+<p>
+	Since there is no delay to speak of, ZOMG Timer is unnecessary. You may use it to track the nature time, but if you're accustomed to using an external timer to track the nature, just stick with using that. With all this accounted for, it's time to get your Entralink Pokemon.
+</p>
+ 
+<h4>Step-by-Step</h4>
+ 
+<strong>Preparation</strong>
+<ul>
+	<li>Bring at least one Chatot (to verify you hit your standard seed).</li>
+	<li>Bring the proper amount of Pokemon, in case you need to advance the IV frame. If you must advance the IV frame, it is highly recommended using a Repel to count the first 100 steps. 28 more will then advance the IV frame by X amount of Pokemon you brought.</li>
+	<li>In your Entree Forest, make sure your target Pokemon is the only one in the first area. The reason for this is to ensure the PID frame doesn't make unnecessary advancements (since the Pokemon in the Entree Forest can be considered wandering NPCs).</li>
+	<li>Your character should be saved in an area where you can access Entralink and is an area where there are no WNPC. The Pokemon League entrance is an ideal place to do this.</li>
+</ul>
+
+<ol style="list-style-type:decimal">
+	<li>
+		In your DS settings, set your date and time like you would normally do with a Standard Seed. Then, wait at the main menu of your DS with the cursor directly over your cart until your seed's time comes around.
+	</li>
+ 
+	<li>
+		Since this is standard seed, be sure to do your keypresses if your seed requires it. When you reach the main menu of the game, be sure not to turn on the C-Gear. Allow the season screen to fade.
+	</li>
+ 
+	<li>
+		Right now, it is time to verify you hit your standard seed. Recall the first three PID frames mentioned earlier? Use your Chatot to compare. If they match, you hit your standard seed. If you missed your seed, restart.
+	</li>
+ 
+	<li>
+		<p>
+			After verifying you hit your standard seed, turn on the C-Gear. <strong>Important!!!</strong> Mash the X button to skip the turn-on animation of the C-Gear. Remember that the C-Gear advances the PID frame, so to get as close to the result as possible, mash the X button to bring up the menu, close it, hit the Wireless button, and hit Entralink. The C-Gear will stop when the screen states "&lt;Player&gt; entered the Entralink!"
+		</p>
+		<div class="centered-left">
+			<img src="/media/upload/ingame/rng/pprng_entralink_15.png" alt=""/>
+		</div>
+	</li>
+ 
+	<li>
+		Hit A to enter Entralink whenever you feel comfortable. At this time, you also start up your timer, which is how you are tracking your target nature. Once you regain control, right now is the time to advance your IV frame if you are using the X frames #Pokemon method (a Repel is helpful in keeping track of your steps). Once you do so, proceed into the forest and talk to your Pokemon. If you need to advance the IV frame via replying "no" to taking the Pokemon (recall each time you refuse to take the Pokemon and refuse to send it to the back, it advances by 26 frames), do so right now.
+	</li>
+ 
+	<li>
+		<p>Wait in the screen asking if you want to capture your Pokemon when you've finished your IV frame advancements:</p>
+		<div class="centered-left">
+			<img src="/media/upload/ingame/rng/pprng_entralink_16.png" alt=""/>
+		</div>
+		<p>
+			Once your target time for nature comes up, hit A to engage the battle. Capture the Pokemon with whatever Ball you wish (all Balls have a capture rate of 100% in the Entree Forest, and if for some reason you don't have a Pok&eacute; Ball, you are given a Dream Ball to catch it).
+		</p>
+	</li>
+ 
+	<li>
+		Check the IVs of the Pokemon. Metalkid's IV Calculator is useful, as are Rare Candies, to narrow down your IVs. If you got the right nature and right IVs, congratulations. Go enjoy your new Entralink Pokemon! If one or the other didn't match, proceed to Troubleshooting.
+	</li>
+</ol>
+ 
+<h4>Troubleshooting</h4>
+<dl> 
+	<dt>What if I missed my IVs/seed?</dt>
+	<dd>
+		This is simple to rectify, since it usually signifies you missed your Timer0. A simple retry is all that's needed. Recall that the first three Chatot Chatters are used to confirm you hit your Timer0. If they didn't match your seed, use the Adjacents tab in the Standard Seed Inspector window to figure what you hit and adjust your timing from there. The other case is that you tripped the step counter (remember that the game advances the frame by x number of Pokemon per 128 steps). Simply walk around a few steps, save, and try again.
+	</dd>
+ 
+	<dt>What if I missed my nature?</dt>
+	<dd>
+		The more likely problem in the whole ordeal. Simply pinpoint the nature that you got to the time you initiated the battle. Then, subtract the difference and use the new time to hit the target nature. Readjust as necessary. On average, you may miss the nature by about 3-6 frames, sometimes more, sometimes less.
+	</dd>
+ 
+	<dt>What if I missed both?</dt>
+	<dd>
+		Most likely, you didn't find the right parameters.
+	</dd>
+</dl>

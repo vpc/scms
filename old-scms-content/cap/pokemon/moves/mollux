@@ -1,0 +1,78 @@
+[title]
+Mollux
+[head]
+<link rel="stylesheet" type="text/css" href="/media/dex/dex.css" />
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_template.js"></script>
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_database.js"></script>
+[header]
+[page]
+<script language="JavaScript">
+var cap = Mollux();
+
+cap.movesLevel[0] = ["Bide", "Ember"];
+cap.movesLevel[4] = "Acid";
+cap.movesLevel[9] = "Withdraw";
+cap.movesLevel[12] = "Acid Spray";
+cap.movesLevel[17] = "Confuse Ray";
+cap.movesLevel[20] = "Clear Smog";
+cap.movesLevel[25] = "Lava Plume";
+cap.movesLevel[28] = ["Moonlight", "Acid Armor"];
+cap.movesLevel[33] = "Heat Wave";
+cap.movesLevel[36] = "Recover";
+cap.movesLevel[41] = "Toxic Spikes";
+cap.movesLevel[44] = "Inferno";
+cap.movesLevel[49] = "Gunk Shot";
+cap.movesLevel[52] = "Eruption";
+cap.movesLevel[57] = "Final Gambit";
+
+cap.movesTM[4] = "Calm Mind";
+cap.movesTM[6] = "Toxic";
+cap.movesTM[9] = "Venoshock";
+cap.movesTM[10] = "Hidden Power";
+cap.movesTM[11] = "Sunny Day";
+cap.movesTM[15] = "Hyper Beam";
+cap.movesTM[16] = "Light Screen";
+cap.movesTM[17] = "Protect";
+cap.movesTM[18] = "Rain Dance";
+cap.movesTM[21] = "Frustration";
+cap.movesTM[22] = "SolarBeam";
+cap.movesTM[24] = "Thunderbolt";
+cap.movesTM[25] = "Thunder";
+cap.movesTM[27] = "Return";
+cap.movesTM[32] = "Double Team";
+cap.movesTM[34] = "Sludge Wave";
+cap.movesTM[35] = "Flamethrower";
+cap.movesTM[36] = "Sludge Bomb";
+cap.movesTM[38] = "Fire Blast";
+cap.movesTM[42] = "Facade";
+cap.movesTM[43] = "Flame Charge";
+cap.movesTM[44] = "Rest";
+cap.movesTM[45] = "Attract";
+cap.movesTM[46] = "Thief";
+cap.movesTM[48] = "Round";
+cap.movesTM[50] = "Overheat";
+cap.movesTM[61] = "Will-O-Wisp";
+cap.movesTM[64] = "Explosion";
+cap.movesTM[66] = "Payback";
+cap.movesTM[68] = "Giga Impact";
+cap.movesTM[70] = "Flash";
+cap.movesTM[73] = "Thunder Wave";
+cap.movesTM[87] = "Swagger";
+cap.movesTM[90] = "Substitute";
+
+cap.movesEgg = [
+"Aqua Ring",
+"Charm",
+"Fire Spin",
+"Gastro Acid",
+"Heal Bell",
+"Heal Pulse",
+"Helping Hand",
+"Rapid Spin",
+"Trick",
+"Sleep Talk",
+"Stealth Rock"
+];
+
+document.write(composeMovesPage(cap));
+</script>

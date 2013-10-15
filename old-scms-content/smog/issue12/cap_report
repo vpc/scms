@@ -1,0 +1,175 @@
+[title]
+CAP11 Report: Where the Voodoom Roam
+[head]
+<link href="/media/smog/smog.css" type="text/css" rel="stylesheet" />
+<style type="text/css">
+.sidebyside {
+margin-top: -1em;
+width: 50%;
+}
+
+td.sprite {
+height: 80px;
+}
+</style>
+[page]
+<div class="author"> By <a href="/forums/member.php?u=43161">Rising_Dusk</a>. Art by <a href="/forums/member.php?u=15181">Cartoons!</a>.</div>
+<table id="smogheader">
+<tr>
+<td class="left"><a href="tournament_coverage">&laquo; Previous Article</a></td>
+<td class="middle"><a href="/smog/issue12/">Home</a></td>
+<td class="right"><a href="cap_vs_ou">Next Article &raquo;</a></td>
+</tr>
+</table>
+
+<div style="float: right; margin-left: 10px;"><img src="/media/smog/12/capreport_voodoom.png" alt="" /></div>
+
+<h2>News Flash: CAP has made another Pokemon</h2>
+
+<p><a href="/cap/pokemon/voodoom">Voodoom</a> is the <a href="/cap/">Create-A-Pokemon</a> (CAP) project's most recent creation. For Voodoom, a lot of emphasis was put on going back to the roots and analyzing an interesting concept, whether it works, and how exactly it functions in the OU metagame. Voodoom was built on the edge of the 5th generation of Pokemon, which really only means that veteran members wanted to see the predisposition toward creating "perfect" Pokemon vanquished. There was a huge calling during this project to intentionally weaken the CAP along the way so as to avoid creating something that totally redefines the OU metagame. That's not CAP's goal. CAP's goal is to further competitive understanding through discussion of the complex interactions of every facet of a Pokemon throughout its creation. For this reason, much of the discussion in this project was pockmarked with implications that "We need to not make this thing as ridiculous as past CAPs!" I'm sure you'll agree with me when I say that I approve of such sentiments. Let's delve deeper into Voodoom and see just what we even tried to make it do.</p>
+
+<h2>What it was supposed to do</h2>
+
+<p>The concept for Voodoom is a very simple one that I personally believe has a lot of merit behind it. It's also quite an obvious concept in retrospect, which makes it that much more exciting to explore. Oftentimes the best ideas are those that are right in front of your nose, yet you still don't notice. <a href="/forums/member.php?u=10787">DougJustDoug</a> submitted this CAP's concept, and it reads as follows:</p>
+
+<div style="border: solid 1px #adadad; background-color: #ededed; padding: 10px; margin: 10px;">
+<p><strong>Name:</strong><br />
+Perfect Mate</p>
+
+<p><strong>General Description:</strong><br />
+Pick a good-but-not-great OU pokemon, and design the perfect teammate for it, similar to the way Celebi &amp; Heatran, or Blissey &amp; Skarmory complement each other so well on competitive teams.</p>
+
+<p><strong>Justification:</strong><br />
+This would allow us to explore in detail how synergy between two pokemon can be achieved, because currently there are only a few perfect teammates in OU. And depending on the base pokemon we choose to give a "perfect mate", we can open a new niche in the metagame based around the efficient pairing.</p>
+
+<p>The niche we create will be inherently tied to an existing pokemon in the metagame, which should provide a natural limitation to prevent this concept from being broken or "too different" from standard OU.</p>
+
+<p><strong>Questions To Be Answered:</strong></p>
+<ul>
+<li>Is the base pokemon's usefulness (and usage) in the metagame increased as a result of having a "perfect mate"?</li>
+<li>What strategies are more effective for the base pokemon, as a result of having a perfect teammate?</li>
+<li>What are the most effective aspects of the new pokemon, for purposes of making a great teammate with the base pokemon?</li>
+<li>Is the new pokemon viable in the metagame without the base pokemon as a teammate?</li>
+</ul>
+</div>
+
+<p>The concept required a special type of assessment to be created, unlike most. First, we had to decide what <em>type</em> of core we wanted to build. We could build a defensive core or an offensive core. It was decided almost unanimously by the community to explore an offensive core because we already have so many examples of defensive cores. For those of you out there unfamiliar with what the difference is, let me explain. A defensive core is a largely defensive pairing where one Pokemon naturally resists or has sufficient bulk to cover the other Pokemon's weaknesses or vulnerabilities. A good example of a defensive core is Heatran and Celebi, which both resist everything that the other is weak to. An offensive core, on the other hand, sacrifices complete type coverage for the ability to do one of two things. Either one member of the core breaks down defensive Pokemon to enable the other Pokemon to sweep later, or only one Pokemon resists the weaknesses of the other for a one-directional switch. A good example of the former type of offensive core is a wallbreaker Choice Band Heracross followed by a Swords Dance Infernape. Heracross punches holes into defensive Pokemon and enable Infernape's subsequent sweep. For the latter type of offensive cores, the classic example of Dragon Dance Gyarados and Electivire. The one-directional movement from Gyarados to Electivire preserves offensive momentum and enables Electivire's sweep directly through Motor Drive. Now that we've addressed <em>what</em> these cores are, it'll make sense that we attempted to create an offensive core of the type of Gyarados and Electivire.</p>
+
+<p>So which Pokemon was the core to be formed with? Much discussion was had, but the settled partner was <strong>Togekiss</strong>. There are some good and bad things about Togekiss. First of all, it's a very diverse Pokemon, but its typing gives it a lot of trouble because it can't really come in on much. Secondly, it's a very difficult Pokemon to support <em>because</em> it can do so much. What sets should we try to partner with? All of them? A lot of us were skeptical, but there was nothing we could do to change it, and so we worked with what we had. Let's look at what Voodoom, the result of this partner, actually accomplished.</p>
+
+<h2>What it did</h2>
+
+<p>And so we, the people, playtested the creation that was Voodoom. We weren't really sure whether it would form an offensive core at all with Togekiss in the beginning, and to be fair, it really didn't. Togekiss ended up being dead weight, more or less, on any team. The only pairing of Togekiss and Voodoom that was really any success (and only marginally successful at that) was the following.</p>
+
+<table class="sidebyside">
+<tr>
+<td class="sprite">
+<img src="http://cap.smogon.com/Sprites/frontnormal-mvoodoom.png" alt="" />
+</td>
+<td class="sprite">
+<img src="/download/sprites/dp/473.png" alt="" />
+</td>
+</tr>
+<tr>
+<td>Voodoom @ Leftovers<br />
+Ability: Volt Absorb<br />
+EVs: 4 Atk / 252 SpA / 252 Spe<br />
+Naive nature (+Spe, -SpD)<br />
+- Aura Sphere<br />
+- Dark Pulse<br />
+- Close Combat<br />
+- Baton Pass</td>
+<td>Togekiss @ Leftovers<br />
+Ability: Serene Grace<br />
+EVs: 252 HP / 64 SpD / 192 Spe<br />
+Calm nature (+SpD, -Atk)<br />
+- Nasty Plot<br />
+- Baton Pass<br />
+- Air Slash<br />
+- Roost</td>
+</tr>
+</table>
+
+<div style="float: right; margin-left: 10px;"><img src="/media/smog/12/capreport_vookiss.png" alt="" /></div>
+
+<p>As you can see, it was a Baton Pass core where Voodoom would punch through Blissey with Close Combat and ultimately receive a Nasty Plot Baton Passed from Togekiss. Personally, whenever I actually succeeded in pulling off the strategy, I won the game. Therein lies the trouble, though. Successfully executing the strategy was difficult because Togekiss just wasn't fast enough to get in the Baton Pass against its common switch-ins. I ended up supporting the core with an Agility Baton Pass Zapdos to make it work. The problem here was that the team ended up lacking switch-ins to more than half the metagame, so it crumpled quickly. Needless to say, I would put the success of the pairing at "bad" to "terrible". When the community at large realized that Togekiss was terrible, we began exploring other options.</p>
+
+<p>Ever since Fighting-type was chosen for Voodoom, the community had felt that Zapdos would make a good partner. And so the pairing of Zapdos and Voodoom was tested rigorously during the next wave of the playtest metagame. Interestingly, Zapdos has much better typing when matched with Voodoom than Togekiss ever did. Zapdos resists both of Voodoom's weaknesses to Flying- and Fighting-type attacks. In response, Voodoom resists the Rock-type attacks aimed at Zapdos, leaving only the Ice-type uncovered. Because Voodoom's Special Attack is not that great and it relies primarily on neutral coverage, specially bulky Water-type Pokemon like Vaporeon and Suicune were frequent switch-ins. This is where Zapdos really shone, as it could come in on these Pokemon with its great defenses and blast them away with STAB Thunderbolt. Simultaneously, when Tyranitar came into Zapdos to threaten Stone Edge, Voodoom could jump out and threaten to OHKO Tyranitar with Aura Sphere. It was as if the match were made in heaven. So long as they were kept in respectable health, they could pivot back and forth and weaken each other's counters. One of the best offensive cores of the metagame had just been birthed, and you had best believe that people took advantage of it. Zapdos was <em>everywhere</em>. Let's look at the most common core that was present.</p>
+
+<table class="sidebyside">
+<tr>
+<td class="sprite">
+<img src="http://cap.smogon.com/Sprites/frontnormal-mvoodoom.png" alt="" />
+</td>
+<td class="sprite">
+<img src="/download/sprites/dp/145.png" alt="" />
+</td>
+</tr>
+<tr>
+<td>Voodoom @ Life Orb<br />
+Ability: Volt Absorb<br />
+EVs: 4 Atk / 252 SpA / 252 Spe<br />
+Naive nature (+Spe, -SpD)<br />
+- Aura Sphere<br />
+- Dark Pulse<br />
+- Close Combat<br />
+- Taunt</td>
+<td>Zapdos @ Leftovers<br />
+Ability: Pressure<br />
+EVs: 192 HP / 64 Def / 252 Spe<br />
+Timid nature (+Spe, -Atk)<br />
+- Substitute<br />
+- Roost<br />
+- Thunderbolt<br />
+- Toxic / Hidden Power Flying</td>
+</tr>
+</table>
+
+<p>SubRoost Zapdos was a monster in the metagame. Hidden Power Flying was used almost exclusively for beating up opposing Voodoom that sometimes switched into Zapdos. Toxic was usually the better option for still beating Pokemon like Swampert, who were otherwise problematic. Voodoom's role in this was as a pivot that would attempt a sweep once its responses were sufficiently weakened. Close Combat beat up Blissey, who sometimes liked being an annoyance. Otherwise, Taunt covered most stall Pokemon excellently, and it kept Pokemon from healing after taking a hit or two from Zapdos and then Voodoom. Ultimately, though, Voodoom's pairing with Zapdos was superb and this core pushed many a team into the top 15 on the ladder over the course of the two week playtest period.</p>
+
+<h2>The Verdict</h2>
+
+<p>It is perhaps the most amusing thing to me that we succeeded at the concept <em>unintentionally</em> and with the <em>wrong Pokemon</em> entirely! That it succeeded, though, raises a lot of intriguing questions that we should try to address when considering what we've learned from the creation of Voodoom. Let's first look at the "Questions to be Answered" section of the concept above and see whether or not we can answer them. Instead of looking at the intended partner, though, let's focus on Zapdos's successful partnership with Voodoom.</p>
+
+<ul>
+<li><strong>Is the base pokemon's usefulness (and usage) in the metagame increased as a result of having a "perfect mate"?</strong><br />
+<p>It's difficult to address this question because of the natural centralization of the metagame around the CAP, but I can say with absolute certainty that once the Zapdos and Voodoom core was discovered, it spread like wildfire. I won't say that it was used on every team&mdash;heck, a lot of teams I personally faced didn't even use Voodoom&mdash;but Zapdos was certainly used substantially more than it is on the regular OU ladder.</p>
+</li>
+<li><strong>What strategies are more effective for the base pokemon, as a result of having a perfect teammate?</strong><br />
+<p>It seems that most of the strategies that were effective for Zapdos remained the same as when Voodoom did not exist. Voodoom simply complemented traditional strategies very effectively. Specially defensive Zapdos also paired well with Voodoom that ran Bulk Up, for instance. I think this teaches us that a lot of cores really don't change how the individual Pokemon play, but rather augment those typical strategies through coordination with their partners.</p>
+</li>
+<li><strong>What are the most effective aspects of the new pokemon, for purposes of making a great teammate with the base pokemon?</strong><br />
+<p>Even for an offensive core, one of the most important aspects of Voodoom for Zapdos was the resistance of Rock-type attacks and access to a Close Combat that would destroy Blissey. What we can say that we've learned from this is that even in offensive cores, complementary typing is probably the most important part of the pairing. This is reflected in cores such as Gyarados + Jolteon and Machamp + Heatran. After typing, access to a movepool that beats mutual threats is the most valuable asset a core member can have. It would appear that stats really don't matter that much, so long as the core members have "good enough" stats that they can switch into and threaten what they need to.</p>
+</li>
+<li><strong>Is the new pokemon viable in the metagame without the base pokemon as a teammate?</strong><br />
+<p>Even on teams that players made without Zapdos or Togekiss, Voodoom was still very effective using all of its standard sets. There were lots of good times to be had exploring such sets as SubSplit Voodoom or TauntSplit Voodoom.</p>
+</li>
+</ul>
+
+<p>In addition to the questions asked by DougJustDoug in the concept, I have a few more that I want to discuss for the benefit of the readers. These following questions I will address more personally, based on my observations of the process that created Voodoom, and of Voodoom itself.</p>
+
+<ul>
+<li><strong>Did we go over the top and create something that's "too perfect" and unnecessarily powerful for the OU metagame?</strong><br />
+<p>For the first time in a good long while, I think we have created what I would consider an adequate Pokemon in the OU metagame. One of the most important parts of the playtest metagame personally is seeing how teams comprised of only OU Pokemon fare in the metagame featuring that CAP. Many of the top-ranked players on the ladder, and many other solid players, were met with a lot of success without even adjusting their standard OU teams for the playtest metagame. That, to me, speaks worlds more than anything I could say. Voodoom is the type of CAP we should strive to create.</p>
+</li>
+<li><strong>If you could go back and change parts of this CAP now that you've played it, would you change anything?</strong><br />
+<p>Actually, now that I have played Voodoom, I wouldn't change anything. At the time, there were a lot of decisions I disagreed with, but after seeing the Pokemon in action, I think Voodoom is right where it needs to be in terms of power, versatility, and success.</p>
+</li>
+<li><strong>What sort of changes might you want to see in the future for CAP now that you've been through this process and seen how it worked?</strong><br />
+<p>I think for the future, we need to work on less balanced CAPs and need to explore more diverse typings. Voodoom is our third Fighting-type CAP, and we still have not tried anything weak to Pursuit. These are flaws that the community has a hard time coming to terms with, but that we need to work toward if we're going to explore those sections of the metagame. The movepool changes that we made prior to making Voodoom helped tremendously with balancing out the CAP and forcing us to not give it everything it wanted. I strongly feel that we should stick with those restrictions for the future, and maybe even embrace a few more for stat distributions.</p>
+</li>
+</ul>
+
+<h2>Conclusion</h2>
+
+<p>Voodoom is perhaps the most successful CAP we've had as a project in a long time. It is both more balanced than all other CAPs in recent history and has actually met its concept (albeit in a bizarre way) without being too good at it. We certainly weren't right when we picked Togekiss as the partner, since Togekiss was terrible. Despite that, we succeeded at creating a Pokemon that we'd want to use as the perfect mate for another OU Pokemon. In doing so, we managed to learn a lot about cores in general, and we had a lot of strong discussions on the road to get here. That's really what CAP is all about.</p>
+
+<p>Hopefully the next CAP is as successful as this past one was, and I hope, now that you've read a bit about the learning process, you'll think of participating in it! If you ever want to learn more about the process, the <a href="/cap/">CAP site</a> is a good place to start, and when the next one begins, it'll be posted and detailed in the <a href="/forums/forumdisplay.php?f=66">CAP forum</a>. I hope to see you there!</p>
+
+<table id="smogfooter">
+<tr>
+<td class="left"><a href="tournament_coverage">&laquo; Previous Article</a></td>
+<td class="middle"><a href="/smog/issue12/">Home</a></td>
+<td class="right"><a href="cap_vs_ou">Next Article &raquo;</a></td>
+</tr>
+</table>

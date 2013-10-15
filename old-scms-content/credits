@@ -1,0 +1,1313 @@
+[title]
+Credits
+[head]
+<script src="/media/jquery.js" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+/* This stopped working with the forum update. Do not remove it, it will be updated when possible.
+//usernames that do not link correctly belong here
+var exceptions = {
+    'ODonut':'5304',
+    'Toast++':'30562'
+};
+
+$(function(){var dts=$('#content_wrapper dt');var name='';for(var i=0;i<dts.length;i++){name=dts[i].innerHTML;if(!exceptions[name])dts[i].innerHTML=('<a href="/forums/member.php?username='+encodeURI(name)+'">'+name+'</a>');else dts[i].innerHTML=('<a href="/forums/member.php?u='+exceptions[name]+'">'+name+'</a>')}});*/
+//]]>
+</script>
+
+[page]
+<h2>Introduction</h2>
+
+<p>Below are the contributors to the Smogon website. As Smogon is a community-run project, the site could not exist without its volunteer contributors. Everything you see on the site is made from scratch by our contributors, whether it is the analyses, art, or other projects. We value every single contribution the site receives, big or small. However, some users go above and beyond the norm and are awarded appropriately with the Contributor badge. Others are awarded an Artist badge, some a Researcher badge, and yet others a Programmer badge.  Everyone has something to contribute, and our thanks are graciously extended to the following users.</p>
+
+<dl>
+<dt>AccidentalGreed</dt>
+<dd>Contributed several <a href="/bw/metagames/ou">Black/White OU</a> Pokemon analyses.</dd>
+
+<dt>Ace Emerald</dt>
+<dd>Contributed several <a href="/bw/metagames/uu">Black/White UU</a> Pokemon analyses.</dd>
+<dd>Is an active member of the BW UU QC team.</dd>
+
+<dt>Aeolus</dt>
+<dd>Contributed several <a href="/rb/pokemon/">Red/Blue</a>, <a href="/rs/pokemon/">Ruby/Sapphire</a>, and <a href="/dp/pokemon/">Diamond/Pearl</a> Pokemon analyses.</dd>
+<dd>Was the <a href="/forums/forumdisplay.php?f=34">Tournaments</a> leader.</dd>
+<dd>Was the <a href="/forums/forumdisplay.php?f=42">Tutoring</a> leader.</dd>
+<dd>Was the co-director of the <a href="/forums/forumdisplay.php?f=74">DPP Suspect Testing</a> tiering project.</dd>
+
+<dt>Aeroblacktyl</dt>
+<dd>Wrote several articles and strategy guides for the site.</dd>
+
+<dt>Aeron Ee1</dt>
+<dd>Contributed several <a href="/dp/pokemon/">Diamond/Pearl</a> Pokemon analyses.</dd>
+<dd>Fixed many spelling, grammar, and presentation errors.</dd>
+
+<dt>Aerrow</dt>
+<dd>Contributed several <a href="/dp/pokemon/">Diamond/Pearl</a> and <a href="/bw/pokemon/">Black/White</a> Pokemon analyses.</dd>
+<dd>Was the leader of the <a href="/forums/forumdisplay.php?f=161">BW LC</a> tiering project.</dd>
+<dd>Was the LC QC team leader.</dd>
+
+<dt>Agammemnon</dt>
+<dd>Is the leader of the <a href="/forums/group.php?groupid=1687">French Translations</a> project.</dd>
+
+<dt>Alakapimp</dt>
+<dd>Provided the HTML of several articles so they could be uploaded to the site.</dd>
+<dd>Was the VGC QC team leader.</dd>
+<dd>Was head of <a href="/forums/forumdisplay.php?f=81">Wi-Fi Tournaments</a>.</dd>
+
+<dt>Aldaron</dt>
+<dd>Contributed several <a href="/dp/pokemon/">Diamond/Pearl</a> Pokemon analyses.</dd>
+<dd>Is a tiering leader of the <a href="/forums/forumdisplay.php?f=203">BW OU</a> tier.</dd>
+<dd>Is a co-leader of the <a href="/sim/">Smogon Pokemon simulator</a>.</dd>
+<dd>Is a leader of the official <a href="/irc/">Smogon IRC</a> channel.</dd>
+
+<dt>alexwolf</dt>
+<dd>Contributed several <a href="/bw/pokemon/metagames/ou">Black/White OU</a> Pokemon analyses.</dd>
+<dd>Is an active member of the BW OU QC team.</dd>
+
+<dt>Altmer</dt>
+<dd>Contributed and revised several <a href="/rb/pokemon/">Red/Blue</a>, <a href="/gs/pokemon/">Gold/Silver</a>, and <a href="/rs/pokemon/">Ruby/Sapphire</a> Pokemon analyses.</dd>
+<dd>Fixed many spelling, grammar, and presentation errors.</dd>
+
+<dt>Amarillo</dt>
+<dd>Contributed several <a href="/bw/pokemon/">Black/White</a> Pokemon analyses.</dd>
+<dd>Was an active member of the BW NU QC team.</dd>
+
+<dt>Amazing Ampharos</dt>
+<dd>Contributed research to the site.</dd>
+
+<dt>Antar</dt>
+<dd>Is a Programmer.</dd>
+<dd>Developed a system to obtain usage stats from the <a href="/forums/forumdisplay.php?f=159">Pokemon Online simulator</a>.</dd>
+
+<dt>Aqualouis</dt>
+<dd>Was a major contributor to the <a href="/forums/group.php?groupid=1687">French Translations</a> project.</dd>
+
+<dt>aragornbird</dt>
+<dd>Contributed artwork to the site.</dd>
+<dd>Contributed several <a href="/dp/pokemon/">Diamond/Pearl</a> Pokemon analyses.</dd>
+
+<dt>Articuno64</dt>
+<dd>Was the <a href="/forums/forumdisplay.php?f=34">Tournaments</a> leader.</dd>
+<dd>Developed the <a href="/forums/forumdisplay.php?f=49">Smogon Tour</a>.</dd>
+<dd>Was a Programmer.</dd>
+<dd>Was the leader of the Smogon site.</dd>
+<dd>Was the lead developer of the Pokemon Competitor simulator.</dd>
+
+<dt>Atlas</dt>
+<dd>Contributed research to the site.</dd>
+
+<dt>Aza</dt>
+<dd>Was a major contributor to the <a href="/forums/group.php?groupid=1490">Spanish Translations</a> project.</dd>
+
+<dt>barry4ever</dt>
+<dd>Contributed several <a href="/bw/metagames/uber">Black/White Uber</a> Pokemon analyses.</dd>
+
+<dt>bearzly</dt>
+<dd>Was a Programmer.</dd>
+<dd>Was the co-developer of <a href="/forums/forumdisplay.php?f=85">Shoddy Battle</a> and <a href="/forums/showthread.php?t=79808">Pokemon Laboratory</a>.</dd>
+
+<dt>Beej</dt>
+<dd>Was the fourth generation Create-A-Pokemon Topic Leader for CAP 10, <a href="/cap/pokemon/krilowatt">Krilowatt</a>.</dd>
+
+<dt>Biosci</dt>
+<dd>Contributed several <a href="/bw/metagames/vgc2012">Black/White VGC 2012</a> Pokemon analyses.</dd>
+
+<dt>Birkal</dt>
+<dd>Was a co-leader of the <a href="/forums/forumdisplay.php?f=192">Dream World</a> project.</dd>
+<dd>Contributed artwork to the site.</dd>
+<dd>Is the head artist of <a href="/forums/forumdisplay.php?f=79">The Smog</a>.</dd>
+<dd>Is the head moderator of the Create-A-Pokemon project.</dd>
+
+<dt>blarajan</dt>
+<dd>Contributed several <a href="/bw/pokemon/">Black/White</a> Pokemon analyses.</dd>
+<dd>Is an active member of the BW RU and LC QC teams.</dd>
+
+<dt>Bloo</dt>
+<dd>Contributed several <a href="/dp/pokemon/">Diamond/Pearl</a> Pokemon analyses.</dd>
+<dd>Was the BW OU QC team leader.</dd>
+<dd>Is the head of the <a href="/forums/forumdisplay.php?f=42">Tutoring</a> program.</dd>
+<dd>Is the leader of <a href="/forums/forumdisplay.php?f=34">Tournaments</a>.</dd>
+<dd>Was the head of the <a href="/forums/group.php?groupid=1490">Spanish Translations</a> project.</dd>
+<dd>Was a <a href="/forums/forumdisplay.php?f=52">Team Rating</a> leader.</dd>
+<dd>Contributed artwork to the site.</dd>
+<dd>Contributed research to the site.</dd>
+<dd>Is a tiering leader of the <a href="/forums/forumdisplay.php?f=203">BW OU</a> tier.</dd>
+<dd>Updates the <a href="/tournaments/">Tournaments</a> site.</dd>
+
+<dt>Blue Kirby</dt>
+<dd>Was the <a href="/forums/forumdisplay.php?f=42">Tutoring</a> leader.</dd>
+<dd>Was a leader of <a href="/forums/forumdisplay.php?f=27">Contributions and Corrections</a>.</dd>
+<dd>Wrote several articles and strategy guides.</dd>
+<dd>Contributed several <a href="/rs/pokemon/">Ruby/Sapphire</a> and <a href="/dp/pokemon/">Diamond/Pearl</a> Pokemon analyses.</dd>
+<dd>Was a Programmer.</dd>
+<dd>Provided the HTML of several articles so they could be uploaded to the site.</dd>
+<dd>Made a very large number of minor edits to the site via the SCMS.</dd>
+
+<dt>Bluewind</dt>
+<dd>Contributed several <a href="/dp/metagames/uu">Diamond/Pearl UU</a> Pokemon analyses.</dd>
+<dd>Was an active member of the UU QC team.</dd>
+
+<dt>bmelts</dt>
+<dd>Is a Programmer.</dd>
+<dd>Is a lead developer of the <a href="http://pokemonshowdown.com">Pokemon Showdown</a> simulator.</dd>
+
+<dt>Boa1891</dt>
+<dd>Contributed research to the site.</dd>
+
+<dt>BobDoily</dt>
+<dd>Contributed research to the site.</dd>
+
+<dt>Bond697</dt>
+<dd>Contributed research to the site.</dd>
+<dd>Was a major researcher into the complete <a href="/bw/articles/bw_complete_damage_formula">damage formula</a> for Black/White.</dd>
+
+<dt>bojangles</dt>
+<dd>Contributed several <a href="/dp/pokemon/">Diamond/Pearl</a> Pokemon analyses.</dd>
+<dd>Was the grammar head for <a href="/forums/forumdisplay.php?f=79">The Smog</a>.</dd>
+<dd>Is a leader of <a href="/forums/forumdisplay.php?f=27">Contributions and Corrections</a>.</dd>
+<dd>Founded and was the leader of the Grammar-Prose team in Contributions and Corrections.</dd>
+<dd>Is the head of #pokemon, the official <a href="/irc/">Smogon IRC</a> channel.</dd>
+<dd>Is the leader of the <a href="/forums/forumdisplay.php?f=160">BW Ubers</a> suspect tiering project.</dd>
+
+<dt>Bologo</dt>
+<dd>Contributed several <a href="/dp/pokemon/">Diamond/Pearl</a> Pokemon analyses.</dd>
+<dd>Fixed many spelling, grammar, and presentation errors.</dd>
+
+<dt>Brain</dt>
+<dd>Was a Programmer.</dd>
+<dd>Wrote the original Smogon Dex script and edited the phpBB.</dd>
+<dd>Came up with the name 'Smogon.'</dd>
+<dd>Was the leader of the Smogon site.</dd>
+
+<dt>BTzz</dt>
+<dd>Contributed several <a href="/bw/pokemon/">Black/White</a> Pokemon analyses.</dd>
+
+<dt>Buffalo_Wings</dt>
+<dd>Contributed artwork to the site.</dd>
+
+<dt>bugmaniacbob</dt>
+<dd>Contributed several <a href="/dp/pokemon/">Diamond/Pearl</a> Pokemon analyses.</dd>
+<dd>Contributed artwork to the site.</dd>
+<dd>Was the lead contributor to the Black/White <a href="/forums/showthread.php?t=3448931">Items/Moves/Abilities</a> project.</dd>
+
+<dt>Bugsy23</dt>
+<dd>Contributed to the site in its early stages.</dd>
+
+<dt>Bummer</dt>
+<dd>Contributed artwork to the site.</dd>
+
+<dt>CactuarJoe</dt>
+<dd>Contributed artwork to the site.</dd>
+
+<dt>Caelum</dt>
+<dd>Contributed several <a href="/dp/pokemon/">Diamond/Pearl</a> Pokemon analyses.</dd>
+<dd>Wrote several articles and strategy guides for the site.</dd>
+<dd>Was the co-leader of the <a href="/forums/forumdisplay.php?f=82">DPP UU</a> suspect testing tiering project.</dd>
+
+<dt>Calad</dt>
+<dd>Contributed artwork to the site.</dd>
+
+<dt>Calm Pokemaster</dt>
+<dd>Fixed countless spelling, grammar, and presentation errors.</dd>
+
+<dt>Cartoons!</dt>
+<dd>Contributed artwork to the site.</dd>
+<dd>Developed the battle simulator <a href="/forums/forumdisplay.php?f=135">Battle CAPacity</a>.</dd>
+
+<dt>Cathy</dt>
+<dd>Is a Programmer.</dd>
+<dd>Is a developer of <a href="http://pokemonshowdown.com">Pokemon Showdown</a>.</dd>
+<dd>Created <a href="http://pokemonlab.com">Shoddy Battle and Pok&eacute;mon Lab</a>.</dd>
+<dd>Maintained the Smogon Dex and created the <a href="/dp/buildteam/">Smogon Team Builder</a>.</dd>
+<dd>Optimised the <a href="/forums/">Smogon Forums</a> and created a number of forum extensions for Smogon.</dd>
+<dd>Maintained the <a href="/album/">Smogon Photo Album</a>.</dd>
+<dd>Contributed to Generation 4 research.</dd>
+
+<dt>Charmander</dt>
+<dd>Contributed several <a href="/bw/metagames/lc">Black/White LC</a> Pokemon analyses.</dd>
+
+<dt>Cherub Agent</dt>
+<dd>Contributed several <a href="/bw/pokemon/">Black/White</a> Pokemon analyses.</dd>
+<dd>Is the co-leader of the <a href="/forums/group.php?groupid=1495">German Translations</a> project.</dd>
+
+<dt>chiizu</dt>
+<dd>Is a Programmer.</dd>
+<dd>Contributed research to the site.</dd>
+<dd>Developed the <a href="/forums/showthread.php?t=102901">PPRNG for Mac</a>.</dd>
+
+<dt>cholena</dt>
+<dd>Contributed several articles and strategy guides.</dd>
+
+<dt>Chou Toshio</dt>
+<dd>Contributed artwork to the site.</dd>
+<dd>Was the leader of the <a href="/jp/">Japanese Translations</a> project.</dd>
+<dd>Fixed many spelling, grammar, and presentation errors.</dd>
+
+<dt>cim</dt>
+<dd>Was a leader of the <a href="/forums/forumdisplay.php?f=129">Smogcast</a> project.</dd>
+
+<dt>col49</dt>
+<dd>Contributed several <a href="/bw/metagames/ru">Black/White RU</a> Pokemon analyses.</dd>
+
+<dt>Colonel M</dt>
+<dd>Contributed several <a href="/dp/pokemon/">Diamond/Pearl</a> and <a href="/bw/metagames/ou">Black/White OU</a> Pokemon analyses.</dd>
+<dd>Was a co-leader of <a href="/forums/forumdisplay.php?f=27">Contributions and Corrections</a>.</dd>
+
+<dt>comatthew6</dt>
+<dd>Contributed several <a href="/dp/metagames/lc">Diamond/Pearl LC</a> and <a href="/bw/metagames/lc">Black/White LC</a> Pokemon analyses.</dd>
+
+<dt>complete legitimacy</dt>
+<dd>Contributed several <a href="/bw/metagames/ru">Black/White RU</a> Pokemon analyses.</dd>
+
+<dt>cookie</dt>
+<dd>Maintains the <a href="/qdb/">Quote Database</a>.</dd>
+
+<dt>Cooper</dt>
+<dd>Was the fourth generation Create-A-Pokemon Topic Leader for CAP 1, <a href="/cap/pokemon/syclant">Syclant</a>.</dd>
+<dd>Was the brainchild behind the <a href="/forums/forumdisplay.php?f=66">Create-A-Pokemon</a> project.</dd>
+
+<dt>cosmicexplorer</dt>
+<dd>Contributed several <a href="/bw/metagames/vgc2011">Black/White VGC 2011</a> and <a href="/bw/metagames/vgc2012">VGC 2012</a> Pokemon analyses.</dd>
+<dd>Fixed many spelling, grammar, and presentation errors.</dd>
+
+<dt>coyotte508</dt>
+<dd>Is a Programmer.</dd>
+<dd>Is the lead developer of the <a href="/forums/forumdisplay.php?f=159">Pokemon Online simulator</a>.</dd>
+
+<dt>Crystal_</dt>
+<dd>Contributed several <a href="/rb/pokemon/">Red/Blue</a> Pokemon analyses.</dd>
+
+<dt>cyberzero</dt>
+<dd>Was the fourth generation Create-A-Pokemon Topic Leader for CAP 8, <a href="/cap/pokemon/cyclohm">Cyclohm</a>.</dd>
+
+<dt>CyzirVisheen</dt>
+<dd>Contributed artwork to the site.</dd>
+
+<dt>Danmire</dt>
+<dd>Contributed artwork to the site.</dd>
+
+<dt>darkie</dt>
+<dd>Contributed several <a href="/rs/pokemon/">Ruby/Sapphire</a> and <a href="/dp/pokemon/">Diamond/Pearl</a> Pokemon analyses.</dd>
+<dd>Fixed many spelling, grammar, and presentation errors.</dd>
+<dd>Wrote several articles and strategy guides.</dd>
+<dd>Was the lead contributor to the <a href="/news/page/1">Smogon News</a> page.</dd>
+<dd>Was the fourth generation Create-A-Pokemon Topic Leader for CAP 6, <a href="/cap/pokemon/arghonaut">Arghonaut</a>.</dd>
+
+<dt>david stone</dt>
+<dd>Contributed several <a href="/rb/pokemon/">Red/Blue</a>, <a href="/gs/pokemon/">Gold/Silver</a>, <a href="/rs/pokemon/">Ruby/Sapphire</a>, and <a href="/dp/pokemon/">Diamond/Pearl</a> Pokemon analyses.</dd>
+<dd>Wrote most <a href="/dp/abilities/">ability</a>, <a href="/dp/items/">item</a>, and <a href="/dp/moves/">move</a> descriptions for Diamond/Pearl.</dd>
+<dd>Was a lead researcher for Ruby/Sapphire and Diamond/Pearl.</dd>
+<dd>Wrote several articles, strategy, and mechanics guides.</dd>
+<dd>Developed the Pokemon bot <a href="/forums/showthread.php?t=3455783">Technical Machine</a>.</dd>
+<dd>Made a very large number of minor edits to the site via the SCMS.</dd>
+
+<dt>Death Phenomeno</dt>
+<dd>Was a major contributor to the <a href="/forums/group.php?groupid=1490">Spanish Translations</a> project.</dd>
+
+<dt>Deck Knight</dt>
+<dd>Was the fourth generation Create-A-Pokemon Topic Co-Leader for CAP 11, <a href="/cap/pokemon/voodoom">Voodoom</a>.</dd>
+<dd>Was the fifth generation Create-A-Pokemon Topic Leader for CAP 3, <a href="/cap/pokemon/mollux">Mollux</a>.</dd>
+<dd>Was the head editor of <a href="/forums/forumdisplay.php?f=79">The Smog</a>.</dd>
+<dd>Is the leader of the <a href="/forums/forumdisplay.php?f=164">Smogon CAP ASB</a> project.</dd>
+
+<dt>Delko</dt>
+<dd>Is a <a href="/forums/forumdisplay.php?f=52">Team Rating</a> leader.</dd>
+
+<dt>Delta 2777</dt>
+<dd>Was an active member of the BW OU and DPP UU QC teams.</dd>
+<dd>Contributed several <a href="/bw/metagames/ou">Black/White OU</a> Pokemon analyses.</dd>
+
+<dt>DestinyUnknown</dt>
+<dd>Is an active member of the BW UU QC team.</dd>
+
+<dt>Diana</dt>
+<dd>Contributed several <a href="/bw/metagames/lc">Black/White LC</a> Pokemon analyses.</dd>
+
+<dt>diinbong</dt>
+<dd>Contributed several <a href="/dp/metagames/uu">Diamond/Pearl UU</a> Pokemon analyses.</dd>
+
+<dt>Ditto</dt>
+<dd>Contributed several <a href="/dp/pokemon/">Diamond/Pearl</a> Pokemon analyses.</dd>
+<dd>Contributed several <a href="/ingame/">in-game articles</a>.</dd>
+<dd>Provided the HTML of several articles so they could be uploaded to the site.</dd>
+<dd>Is the head of <a href="/forums/forumdisplay.php?f=81">Wi-Fi Tournaments</a>.</dd>
+
+<dt>DittoCrow</dt>
+<dd>Contributed several <a href="/bw/metagames/ru">Black/White RU</a> Pokemon analyses.</dd>
+<dd>Contributed to various miscellaneous projects in <a href="/forums/forumdisplay.php?f=27">Contributions and Corrections</a>.</dd>
+<dd>Fixed many spelling, grammar, and presentation errors.</dd>
+
+<dt>Django</dt>
+<dd>Contributed several <a href="/bw/metagames/nu">Black/White NU</a> Pokemon analyses.</dd>
+<dd>Was an active member of the BW NU QC team.</dd>
+
+<dt>DM</dt>
+<dd>Maintains the <a href="/album/">Smogon Photo Album</a>.</dd>
+
+<dt>DougJustDoug</dt>
+<dd>Is the Programming leader.</dd>
+<dd>Contributed artwork to the site.</dd>
+<dd>Is the leader of the Smogon <a href="/forums/forumdisplay.php?f=66">Create-A-Pokemon</a> project.</dd>
+<dd>Was the leader of the Smogon Shoddy simulator and <a href="/forums/forumdisplay.php?f=114">collected the usage stats</a> used to determine tiering.</dd>
+<dd>Wrote the DPP Smogon Pokemon Damage Calculator.</dd>
+
+<dt>Dozz</dt>
+<dd>Contributed artwork to the site.</dd>
+
+<dt>Dracoyoshi8</dt>
+<dd>Contributed several <a href="/dp/pokemon/">Diamond/Pearl</a> Pokemon analyses.</dd>
+
+<dt>dragonboy52</dt>
+<dd>Contributed several <a href="/bw/pokemon/">Black/White</a> Pokemon analyses.</dd>
+<dd>Contributed to various miscellaneous projects in <a href="/forums/forumdisplay.php?f=27">Contributions and Corrections</a>.</dd>
+
+<dt>DTC</dt>
+<dd>Contributed several <a href="/bw/metagames/nu">Black/White NU</a> analyses.</dd>
+
+<dt>Dubulous</dt>
+<dd>Was a co-leader of the <a href="/forums/forumdisplay.php?f=95">DPP</a> and <a href="/forums/forumdisplay.php?f=161">BW LC</a> suspect tiering project.</dd>
+<dd>Was a co-leader of the <a href="/forums/forumdisplay.php?f=129">Smogcast</a>.</dd>
+
+<dt>Earthworm</dt>
+<dd>Was the leader of <a href="/forums/forumdisplay.php?f=34">Tournaments</a>.</dd>
+<dd>Was a tiering leader of the <a href="/forums/forumdisplay.php?f=203">BW OU</a> tier.</dd>
+
+<dt>EBeast</dt>
+<dd>Is an active member of the BW NU QC team.</dd>
+
+<dt>elcheeso</dt>
+<dd>Contributed artwork to the site.</dd>
+
+<dt>elDino</dt>
+<dd>Contributed several <a href="/bw/pokemon/">Black/White</a> Pokemon analyses.</dd>
+<dd>Fixed many spelling, grammar, and presentation errors.</dd>
+
+<dt>Elevator Music</dt>
+<dd>Is an active member of the DPP and BW LC QC teams.</dd>
+<dd>Contributed several <a href="/dp/metagames/lc">Diamond/Pearl LC</a> and <a href="/bw/metagames/lc">Black/White LC</a> Pokemon analyses.</dd>
+<dd>Is the leader of the BW LC tiering project.</dd>
+
+<dt>Endorfins</dt>
+<dd>Contributed several <a href="/bw/pokemon/">Black/White</a> Pokemon analyses.</dd>
+
+<dt>Engineer Pikachu</dt>
+<dd>Contributed several <a href="/bw/pokemon/">Black/White</a> Pokemon analyses.</dd>
+<dd>Fixed many spelling, grammar, and presentation errors.</dd>
+
+<dt>Eo Ut Mortus</dt>
+<dd>Contributed several <a href="/dp/metagames/uu">Diamond/Pearl UU</a> Pokemon analyses.</dd>
+<dd>Fixed many spelling, grammar, and presentation errors.</dd>
+<dd>Was the BW OU QC team leader.</dd>
+<dd>Was an active member of the DPP UU QC team.</dd>
+
+<dt>Eraddd</dt>
+<dd>Was the head editor of <a href="/competitor/">The Competitor</a>.</dd>
+
+<dt>eric the espeon</dt>
+<dd>Started Little Cup in its present form by creating and running <a href="http://s1.zetaboards.com/The_Little_Cup_Forum/index/">The Little Cup Forum</a> before it merged with Smogon.</dd>
+<dd>Was the leader of the <a href="/forums/forumdisplay.php?f=95">DPP LC</a> suspect tiering project.</dd>
+<dd>Made a very large number of minor edits to the site via the SCMS.</dd>
+<dd>Wrote several articles and strategy guides for the site.</dd>
+<dd>Contributed research to the site.</dd>
+
+<dt>erisia</dt>
+<dd>Contributed several <a href="/bw/metagames/nu">Black/White NU</a> Pokemon analyses.</dd>
+
+<dt>EspyJoel</dt>
+<dd>Contributed several <a href="/dp/pokemon/">Diamond/Pearl</a> Pokemon analyses.</dd>
+<dd>Fixed many spelling, grammar, and presentation errors.</dd>
+
+<dt>Eternal</dt>
+<dd>Was the leader of the <a href="/forums/forumdisplay.php?f=182">Smogon Youtube</a> project.</dd>
+
+<dt>Fabbles</dt>
+<dd>Contributed countless stats for the <a href="/forums/showthread.php?t=3458348">Smogon Tour</a>.</dd>
+
+<dt>Fatecrashers</dt>
+<dd>Was the Artist leader.</dd>
+<dd>Was the head artist of <a href="/forums/forumdisplay.php?f=79">The Smog</a>.</dd>
+<dd>Was the co-head grammar checker for <a href="/forums/forumdisplay.php?f=79">The Smog</a>.</dd>
+<dd>Contributed artwork to the site.</dd>
+<dd>Fixed many spelling, grammar, and presentation errors.</dd>
+<dd>Is a co-leader the Grammar-Prose Team in Contributions and Corrections.</dd>
+
+<dt>Fig</dt>
+<dd>Contributed to the site in its early stages.</dd>
+
+<dt>Fireburn</dt>
+<dd>Contributed several <a href="/dp/metagames/uber">Diamond/Pearl Uber</a> Pokemon analyses.</dd>
+<dd>Was an active member of the DPP and BW Uber QC teams.</dd>
+
+<dt>firecape</dt>
+<dd>Contributed several <a href="/dp/metagames/uber">Diamond/Pearl Uber</a> Pokemon analyses.</dd>
+<dd>Was an active member of the DPP and BW Uber QC teams.</dd>
+<dd>Provided the HTML of several articles so they could be uploaded to the site.</dd>
+
+<dt>Firestorm</dt>
+<dd>Was the leader of the <a href="/news/page/1">Smogon News</a> page.</dd>
+<dd>Contributed artwork to the site.</dd>
+<dd>Was a leader of the <a href="/forums/forumdisplay.php?f=127">Smogon VGC</a> community.</dd>
+
+<dt>Fish</dt>
+<dd>Contributed and edited several <a href="/dp/pokemon/">Diamond/Pearl</a> Pokemon analyses.</dd>
+
+<dt>Fishin</dt>
+<dd>Contributed and edited several <a href="/dp/pokemon/">Diamond/Pearl</a> Pokemon analyses.</dd>
+<dd>Fixed many spelling, grammar, and presentation errors.</dd>
+<dd>Wrote a large number of descriptions for DPP non-battle <a href="/dp/items/">items</a>.</dd>
+
+<dt>Flameout</dt>
+<dd>Contributed several articles and strategy guides.</dd>
+
+<dt>FlareBlitz</dt>
+<dd>Was an active member of the DPP UU QC team.</dd>
+<dd>Is an active member of the BW UU QC team.</dd>
+<dd>Contributed several <a href="/dp/metagames/uu">Diamond/Pearl UU</a> Pokemon analyses.</dd>
+
+<dt>Flora</dt>
+<dd>Contributed several <a href="/dp/pokemon/">Diamond/Pearl</a> Pokemon analyses.</dd>
+<dd>Fixed many spelling, grammar, and presentation errors.</dd>
+
+<dt>franky</dt>
+<dd>Contributed several <a href="/dp/pokemon/">Diamond/Pearl</a> Pokemon analyses.</dd>
+
+<dt>Furai</dt>
+<dd>Contributed several <a href="/bw/pokemon/">Black/White</a> Pokemon analyses.</dd>
+
+<dt>Fuzznip</dt>
+<dd>Contributed several <a href="/dp/pokemon/">Diamond/Pearl</a> Pokemon analyses.</dd> 
+<dd>Was the fourth generation Create-A-Pokemon Topic Co-Leader for CAP 11, <a href="/cap/pokemon/voodoom">Voodoom</a>.</dd>
+
+<dt>GatoDelFuego</dt>
+<dd>Fixed many spelling, grammar, and presentation errors.</dd>
+
+<dt>gene</dt>
+<dd>Was the <a href="/forums/forumdisplay.php?f=34">Tournaments</a> leader.</dd>
+<dd>Updated the <a href="/tournaments/">Tournaments</a> site.</dd>
+<dd>Contributed and edited several <a href="/rs/pokemon/">Ruby/Sapphire</a> Pokemon analyses.</dd>
+
+<dt>ginganinja</dt>
+<dd>Is an active member of the BW OU QC team.</dd>
+
+<dt>Gothic Togekiss</dt>
+<dd>Was the fourth generation Create-A-Pokemon Topic Leader for CAP 3, <a href="/cap/pokemon/pyroak">Pyroak</a>.</dd>
+
+<dt>Governess</dt>
+<dd>Contributed several <a href="/bw/metagames/nu">Black/White NU</a> Pokemon analyses.</dd>
+
+<dt>GreenPikachu</dt>
+<dd>Contributed to the site in its early stages.</dd>
+
+<dt>Harsha</dt>
+<dd>Fixed many spelling, grammar, and presentation errors.</dd>
+<dd>Contributed several <a href="/bw/metagames/ou">Black/White OU</a> Pokemon analyses.</dd>
+<dd>Wrote several articles and strategy guides.</dd>
+
+<dt>Haunter</dt>
+<dd>Is the <a href="/forums/forumdisplay.php?f=52">Team Rating</a> leader.</dd>
+<dd>Is the leader of the <a href="/forums/group.php?groupid=1488">Italian Translations</a> project.</dd>
+<dd>Is a tiering leader of the <a href="/forums/forumdisplay.php?f=203">BW OU</a> tier.</dd>
+<dd>Is a co-leader of the <a href="/sim/">Smogon Pokemon simulator</a>.</dd>
+
+<dt>Havak</dt>
+<dd>Contributed several <a href="/dp/pokemon/">Diamond/Pearl</a> Pokemon analyses.</dd>
+<dd>Was a <a href="/forums/forumdisplay.php?f=42">Tutoring</a> leader.</dd>
+<dd>Made a very large number of minor edits to the site via the SCMS.</dd>
+
+<dt>havoc</dt>
+<dd>Contributed several <a href="/gs/pokemon/">Gold/Silver</a> and <a href="/dp/pokemon/">Diamond/Pearl</a> Pokemon analyses.</dd>
+<dd>Wrote several articles and strategy guides.</dd>
+
+<dt>Hawkstar</dt>
+<dd>Made a very large number of minor edits to the site via the SCMS.</dd>
+<dd>Fixed many spelling, grammar, and presentation errors.</dd>
+
+<dt>HellaHellaStyle</dt>
+<dd>Contributed artwork to the site.</dd>
+
+<dt>Heysup</dt>
+<dd>Contributed and edited several <a href="/dp/metagames/uu">Diamond/Pearl UU</a> and <a href="/dp/metagames/lc">LC</a> Pokemon analyses.</dd>
+
+<dt>Hipmonlee</dt>
+<dd>Contributed and edited several <a href="/rb/pokemon/">Red/Blue</a>, <a href="/rs/pokemon/">Ruby/Sapphire</a>, and <a href="/dp/pokemon/">Diamond/Pearl</a> Pokemon analyses.</dd>
+
+<dt>Honko</dt>
+<dd>Contributed several <a href="/dp/metagames/uu">Diamond/Pearl UU</a> and <a href="/bw/metagames/ru">Black/White RU</a> Pokemon analyses.</dd>
+<dd>Fixed many spelling, grammar, and presentation errors.</dd>
+<dd>Is an active member of the BW RU QC team.</dd>
+<dd>Developed the BW <a href="/forums/showthread.php?t=3454501">Damage Calculator</a>.</dd>
+
+<dt>Hyra</dt>
+<dd>Was the fourth generation Create-A-Pokemon Topic Leader for CAP 2, <a href="/cap/pokemon/revenankh">Revenankh</a>.</dd>
+
+<dt>icepick</dt>
+<dd>Contributed artwork to the site.</dd>
+
+<dt>Iconic</dt>
+<dd>Is an active member of the BW OU QC team.</dd>
+<dd>Contributed several <a href="/dp/pokemon/">Diamond/Pearl</a> and <a href="/bw/metagames/ou">Black/White OU</a> Pokemon analyses.</dd>
+<dd>Is a tiering leader of the <a href="/forums/forumdisplay.php?f=203">BW OU</a> tier.</dd>
+<dd>Updates the <a href="/tournaments/">Tournaments</a> site.</dd>
+
+<dt>idiotfrommars</dt>
+<dd>Was the leader of the <a href="/forums/forumdisplay.php?f=182">Smogon Youtube</a> project.</dd>
+
+<dt>iss</dt>
+<dd>Is an active member of the BW LC QC team.</dd>
+<dd>Contributed several <a href="/dp/metagames/lc">Diamond/Pearl LC</a> and <a href="/bw/metagames/lc">Black/White LC</a> Pokemon analyses.</dd>
+
+<dt>ium</dt>
+<dd>Contributed artwork to the site.</dd>
+
+<dt>JabbaTheGriffin</dt>
+<dd>Was the leader of the <a href="/forums/forumdisplay.php?f=82">DPP UU</a> and <a href="/forums/forumdisplay.php?f=170">BW UU</a> suspect testing tiering project.</dd>
+<dd>Is a tiering leader of the <a href="/forums/forumdisplay.php?f=203">BW OU</a> tier.</dd>
+<dd>Contributed several <a href="/dp/pokemon/">Diamond/Pearl</a> and <a href="/bw/metagames/ou">Black/White OU</a> Pokemon analyses.</dd>
+
+<dt>Jackal</dt>
+<dd>Wrote several articles and strategy guides.</dd>
+<dd>Contributed and edited several <a href="/rb/pokemon/">Red/Blue</a> and <a href="/gs/pokemon/">Gold/Silver</a> Pokemon analyses.</dd>
+<dd>Was the <a href="/forums/forumdisplay.php?f=34">Tournaments</a> leader.</dd>
+<dd>Updated the <a href="/tournaments/">Tournaments</a> site.</dd>
+
+<dt>jc104</dt>
+<dd>Fixed many spelling, grammar, and presentation errors.</dd>
+<dd>Contributed several <a href="/bw/pokemon/">Black/White</a> Pokemon analyses.</dd>
+<dd>Is an active member of the BW OU QC team.</dd>
+
+<dt>Jellicent</dt>
+<dd>Fixed many spelling, grammar, and presentation errors.</dd>
+<dd>Contributed several <a href="/bw/pokemon/">Black/White</a> Pokemon analyses.</dd>
+<dd>Is the co-leader of the Grammar-Prose team in Contributions and Corrections.</dd>
+
+<dt>Jibaku</dt>
+<dd>Contributed and edited several <a href="/dp/metagames/uber">Diamond/Pearl Uber</a> Pokemon analyses.</dd>
+<dd>Created the <a href="/dp/articles/uber_battling">Diamond/Pearl Uber Metagame</a> guide.</dd>
+<dd>Is a leader of the official <a href="/irc/">Smogon IRC</a> channel.</dd>
+
+<dt>Jimbo</dt>
+<dd>Contributed several <a href="/dp/pokemon/">Diamond/Pearl</a> Pokemon analyses.</dd>
+<dd>Wrote several articles and strategy guides.</dd>
+<dd>Was the <a href="/forums/forumdisplay.php?f=42">Tutoring</a> leader.</dd>
+<dd>Was the leader of <a href="/forums/forumdisplay.php?f=79">The Smog</a>.</dd>
+
+<dt>JMC</dt>
+<dd>Contributed several articles and strategy guides.</dd>
+
+<dt>Joim</dt>
+<dd>Was a major contributor to the <a href="/forums/group.php?groupid=1490">Spanish Translations</a> project.</dd>
+
+<dt>Jorgen</dt>
+<dd>Contributed several <a href="/gs/pokemon/">Gold/Silver</a> Pokemon analyses.</dd>
+
+<dt>JRank</dt>
+<dd>Contributed several <a href="/bw/metagames/vgc2011">Black/White VGC 2011</a> and <a href="/bw/metagames/vgc2012">VGC 2012</a> Pokemon analyses.</dd>
+
+<dt>jrrrrrrr</dt>
+<dd>Contributed and edited several <a href="/dp/pokemon/">Diamond/Pearl</a> Pokemon analyses.</dd>
+<dd>Was a co-leader of the <a href="/forums/forumdisplay.php?f=82">DPP UU</a> suspect tiering process.</dd>
+
+<dt>Jshadias</dt>
+<dd>Contributed to the site in its early stages.</dd>
+<dd>Was a Programmer.</dd>
+<dd>Wrote several scripts that were used for the functioning of <a href="http://pmnb.net/">Netbattle</a>.</dd>
+
+<dt>Jubilee</dt>
+<dd>Contributed several <a href="/bw/metagames/uu">Black/White UU</a> Pokemon analyses.</dd>
+<dd>Contributed several <a href="/ingame/">in-game articles</a>.</dd>
+
+<dt>Jukain</dt>
+<dd>Contributed several <a href="/bw/pokemon/">Black/White</a> Pokemon analyses.</dd>
+
+<dt>Jumpman16</dt>
+<dd>Formulated a statistics-driven, objective formula that gauges a player's experience with given Suspects during Suspect Tests for both the standard and UU metagames.</dd>
+<dd>Contributed and edited numerous <a href="/dp/pokemon/">Diamond/Pearl</a> and <a href="/rs/pokemon/">Ruby/Sapphire</a> Pokemon analyses.</dd>
+<dd>Wrote several articles and strategy guides.</dd>
+<dd>Was a researcher on Pokemon Emerald in-game data.</dd>
+<dd>Edited numerous Smogon "Journey Across America" warstories and articles.</dd>
+<dd>Was the co-director of the <a href="/forums/forumdisplay.php?f=74">DPP Suspect Testing</a> tiering project.</dd>
+<dd>Is a lead researcher of the <a href="/forums/showthread.php?t=102593">Battle Subway</a> mechanics of Black/White.</dd>
+
+<dt>jumpluff</dt>
+<dd>Contributed several years of grammar checking for Contributions &amp; Corrections and <a href="/forums/forumdisplay.php?f=79">The Smog</a>.</dd>
+<dd>Organized, edited, HTMLized, and collated a number of articles for <a href="/forums/forumdisplay.php?f=79">The Smog</a>.</dd>
+<dd>Contributed several <a href="/dp/pokemon/">Diamond/Pearl</a> analyses and miscellaneous articles for <a href="/forums/forumdisplay.php?f=79">The Smog</a>.</dd>
+<dd>Was a researcher on BW mechanics.</dd>
+<dd>Made a very large number of minor edits to the site via the SCMS.</dd>
+<dd>Is a leader of the official <a href="/irc/">Smogon IRC</a> channel.</dd>
+
+<dt>junior</dt>
+<dd>Contributed several <a href="/dp/pokemon/">Diamond/Pearl</a> Pokemon analyses.</dd>
+
+<dt>Justin8649</dt>
+<dd>Contributed to the site in its early stages.</dd>
+<dd>Was the leader of the Smogon site.</dd>
+<dd>Was the leader of <a href="/forums/forumdisplay.php?f=34">Tournaments</a>.</dd>
+
+<dt>just some chick</dt>
+<dd>Contributed artwork to the site.</dd>
+
+<dt>Kaphotics</dt>
+<dd>Was a head researcher on Black/White and Ruby/Sapphire RNG mechanics.</dd>
+<dd>Wrote several in-game articles and the <a href="/ingame/rng/">RNG guide</a> for Black/White.</dd>
+<dd>Was a major researcher into the complete <a href="/bw/articles/bw_complete_damage_formula">damage formula</a> for Black/White.</dd>
+
+<dt>kd24</dt>
+<dd>Contributed several <a href="/dp/pokemon/">Diamond/Pearl</a> Pokemon analyses.</dd>
+<dd>Was the co-leader of the <a href="/forums/forumdisplay.php?f=192">Dream World</a> project.</dd>
+<dd>Was the leader of the <a href="/forums/forumdisplay.php?f=182">Smogon Youtube</a> project.</dd>
+
+<dt>Kevin Garrett</dt>
+<dd>Updated the <a href="/tournaments/">Tournaments</a> site.</dd>
+<dd>Managed the <a href="/tournaments/frontier/">Smogon Frontier</a> and manages the <a href="/forums/forumdisplay.php?f=49">Smogon Tour</a>.</dd>
+<dd>Was the leader of <a href="/forums/forumdisplay.php?f=34">Tournaments</a>.</dd>
+<dd>Contributed artwork to the site.</dd>
+
+<dt>Kinneas</dt>
+<dd>Contributed artwork to the site.</dd>
+<dd>Was the head editor of <a href="/competitor/">The Competitor</a>.</dd>
+
+<dt>KoA</dt>
+<dd>Contributed artwork to the site.</dd>
+
+<dt>kokoloko</dt>
+<dd>Contributed several <a href="/bw/metagames/uu">Black/White UU</a> Pokemon analyses.</dd>
+<dd>Is the leader of the BW UU QC team.</dd>
+<dd>Is the leader of the <a href="/forums/forumdisplay.php?f=170">BW UU</a> tiering project.</dd>
+
+<dt>Komodo</dt>
+<dd>Contributed several <a href="/dp/metagames/uu">Diamond/Pearl UU</a> and <a href="/bw/pokemon/">Black/White</a> Pokemon analyses.</dd>
+<dd>Fixed many spelling, grammar, and presentation errors.</dd>
+<dd>Helped run the Grammar-Prose Team in Contributions &amp; Corrections.</dd>
+<dd>Contributed artwork to the site.</dd>
+<dd>Made a very large number of minor edits to the site via the SCMS.</dd>
+
+<dt>Kongler</dt>
+<dd>Contributed to the site in its early stages.</dd>
+
+<dt>Kumar</dt>
+<dd>Contributed and edited several <a href="/rs/pokemon/">Ruby/Sapphire</a> and <a href="/dp/pokemon/">Diamond/Pearl</a> Pokemon analyses.</dd>
+<dd>Was a researcher on Ruby/Sapphire in-game data.</dd>
+
+<dt>lamperi</dt>
+<dd>Is a Programmer.</dd>
+<dd>Contributed in various aspects to the <a href="/forums/forumdisplay.php?f=159">Pokemon Online simulator</a>.</dd>
+
+<dt>Legacy Raider</dt>
+<dd>Contributed and edited several <a href="/dp/pokemon/">Ddpiamond/Pearl</a> Pokemon analyses.</dd>
+<dd>Fixed many spelling, grammar, and presentation errors.</dd>
+<dd>Wrote several articles and strategy guides.</dd>
+<dd>Was a <a href="/forums/forumdisplay.php?f=52">Team Rating</a> leader.</dd>
+
+<dt>Limewire</dt>
+<dd>Contributed several <a href="/bw/pokemon/">Black/White</a> Pokemon analyses.</dd>
+<dd>Contributed to various miscellaneous projects in <a href="/forums/forumdisplay.php?f=27">Contributions and Corrections</a>.</dd>
+
+<dt>little gk</dt>
+<dd>Contributed several <a href="/dp/metagames/lc">Diamond/Pearl LC</a> Pokemon analyses.</dd>
+
+<dt>Lorak</dt>
+<dd>Contributed artwork to the site.</dd>
+
+<dt>lucariojr</dt>
+<dd>Contributed several <a href="/bw/metagames/vgc2012">Black/White VGC 2012</a> Pokemon analyses.</dd>
+
+<dt>Maaf</dt>
+<dd>Was a major contributor to the <a href="/forums/group.php?groupid=1687">French Translations</a> project.</dd>
+
+<dt>maddog</dt>
+<dd>Contributed to the site in its early stages.</dd>
+<dd>Contributed and edited several <a href="/dp/pokemon/">Diamond/Pearl</a> Pokemon analyses.</dd>
+
+<dt>macle</dt>
+<dd>Contributed several <a href="/dp/pokemon/">Diamond/Pearl</a> Pokemon analyses.</dd>
+<dd>Is the leader of the <a href="/ingame/">In-Game Expansion</a> project.</dd>
+
+<dt>Mafeking</dt>
+<dd>Fixed many spelling, grammar, and presentation errors.</dd>
+
+<dt>Magmortified</dt>
+<dd>Was the fourth generation Create-A-Pokemon Topic Leader for CAP 7, <a href="/cap/pokemon/kitsunoh">Kitsunoh</a>.</dd>
+
+<dt>makiri</dt>
+<dd>Was a leader of the <a href="/forums/forumdisplay.php?f=127">Smogon VGC</a> community.</dd>
+<dd>Wrote several articles and strategy guides.</dd>
+<dd>Contributed and edited several <a href="/rb/pokemon/">Red/Blue</a> Pokemon analyses.</dd>
+
+<dt>Maniaclyrasist</dt>
+<dd>Contributed and edited several <a href="/dp/pokemon/">Diamond/Pearl</a> Pokemon analyses.</dd>
+<dd>Contributed artwork to the site.</dd>
+
+<dt>Marty D</dt>
+<dd>Contributed research to the site.</dd>
+
+<dt>Matthew</dt>
+<dd>Wrote several <a href="/dp/articles/">Diamond/Pearl articles</a> showthread.php?t=3455783and strategy guides.</dd>
+<dd>Contributed a few <a href="/dp/pokemon/">Diamond/Pearl</a> Pokemon analyses.</dd>
+<dd>Was the leader of the <a href="/forums/forumdisplay.php?f=192">Dream World</a> tiering project.</dd>
+
+<dt>Max</dt>
+<dd>Contributed and edited several <a href="/rb/pokemon/">Red/Blue</a> and <a href="/dp/pokemon/">Diamond/Pearl</a> Pokemon analyses.</dd>
+<dd>Fixed many spelling, grammar, and presentation errors.</dd>
+
+<dt>McGrrr</dt>
+<dd>Contributed several <a href="/dp/pokemon/">Diamond/Pearl</a> Pokemon analyses.</dd>
+
+<dt>Mekkah</dt>
+<dd>Was the leader of <a href="/forums/forumdisplay.php?f=27">Contributions and Corrections</a>.</dd>
+<dd>Contributed and edited numerous <a href="/rb/pokemon/">Red/Blue</a>, <a href="/rs/pokemon/">Ruby/Sapphire</a>, and <a href="/dp/pokemon/">Diamond/Pearl</a> Pokemon analyses.</dd>
+<dd>Wrote several articles and strategy analyses for <a href="/rs/articles/">Ruby/Sapphire</a>.</dd>
+
+<dt>melvni</dt>
+<dd>Fixed many spelling, grammar, and presentation errors.</dd>
+
+<dt>metsrule158</dt>
+<dd>Contributed several <a href="/dp/metagames/lc">Diamond/Pearl LC</a> and <a href="/bw/metagames/lc">Black/White LC</a> Pokemon analyses.</dd>
+
+<dt>mien</dt>
+<dd>Contributed research to the site.</dd>
+
+<dt>MikeDecIsHere</dt>
+<dd>Was the leader of the <a href="/forums/forumdisplay.php?f=182">Smogon Youtube</a> and <a href="/forums/forumdisplay.php?f=129">Smogcast</a> projects.</dd>
+
+<dt>mingot</dt>
+<dd>Is the Researching leader.</dd>
+<dd>Is the Programming leader.</dd>
+<dd>Wrote Deducing Your Secret ID, and <a href="/ingame/rng/">The DPP RNG Abuse Guide</a>.</dd>
+<dd>Was a lead researcher on the mechanics of the RNG.</dd>
+<dd>Wrote the original RNG Reporter.</dd>
+<dd>Was the leader of the <a href="/ingame/">In-Game Expansion</a> project.</dd>
+
+<dt>Misty</dt>
+<dd>Was the Researching leader.</dd>
+<dd>Contributed and edited numerous <a href="/dp/pokemon/">Diamond/Pearl</a> Pokemon analyses.</dd>
+<dd>Wrote <a href="/philosophy">The Philosophy of Smogon</a>.</dd>
+<dd>Was a lead researcher on Diamond/Pearl.</dd>
+
+<dt>Molk</dt>
+<dd>Contributed several <a href="/bw/metagames/ru">Black/White RU</a> Pokemon analyses.</dd>
+<dd>Is an active member of the BW RU QC team.</dd>
+
+<dt>Moo</dt>
+<dd>Contributed several <a href="/rs/pokemon/">Ruby/Sapphire</a>, <a href="/dp/pokemon/">Diamond/Pearl</a>, and <a href="/bw/pokemon/">Black/White</a> Pokemon analyses.</dd>
+<dd>Provided the HTML of several articles so they could be uploaded to the site.</dd>
+<dd>Contributed artwork to the site.</dd>
+<dd>Contributed research to the site.</dd>
+<dd>Was the co-leader of the <a href="/forums/group.php?groupid=1495">German Translations</a> project.</dd>
+
+<dt>muffinhead</dt>
+<dd>Contributed several <a href="/bw/metagames/vgc2011">Black/White VGC 2011</a> and <a href="/bw/metagames/vgc2012">VGC 2012</a> Pokemon analyses.</dd>
+<dd>Was the leader of the VGC tutoring program.</dd>
+
+<dt>Nachos</dt>
+<dd>Contributed research to the site.</dd>
+
+<dt>Nails</dt>
+<dd>Was the co-leader of the <a href="/forums/forumdisplay.php?f=178">BW RU</a> tiering project.</dd>
+
+<dt>Nastyjungle</dt>
+<dd>Contributed artwork to the site.</dd>
+<dd>Is the Artist leader.</dd>
+
+<dt>NatGeo</dt>
+<dd>Fixed many spelling, grammar, and presentation errors.</dd>
+<dd>Contributed several <a href="/bw/pokemon/">Black/White</a> Pokemon analyses.</dd>
+
+<dt>New World Order</dt>
+<dd>Fixed many spelling, grammar, and presentation errors.</dd>
+<dd>Contributed several <a href="/bw/pokemon/">Black/White</a> Pokemon analyses.</dd>
+
+<dt>NixHex</dt>
+<dd>Fixed many spelling, grammar, and presentation errors.</dd>
+<dd>Wrote several articles and strategy guides.</dd>
+<dd>Provided the HTML of several articles so they could be uploaded to the site.</dd>
+
+<dt>noobster</dt>
+<dd>Contributed to the site in its early stages.</dd>
+<dd>Contributed research to the site.</dd>
+
+<dt>November Blue</dt>
+<dd>Fixed many spelling, grammar, and presentation errors.</dd>
+<dd>Contributed several <a href="/bw/pokemon/">Black/White</a> Pokemon analyses.</dd>
+
+<dt>Oglemi</dt>
+<dd>Contributed and edited several <a href="/dp/metagames/uu">Diamond/Pearl UU</a> Pokemon analyses.</dd>
+<dd>Contributed several in-game articles.</dd>
+<dd>Fixed many spelling, grammar, and presentation errors.</dd>
+<dd>Is the leader of the <a href="/forums/forumdisplay.php?f=178">BW RU</a> tiering project.</dd>
+<dd>Is the RU QC team leader.</dd>
+<dd>Is the co-leader of the Grammar-Prose team in Contributions and Corrections.</dd>
+<dd>Made a very large number of minor edits to the site via the SCMS.</dd>
+<dd>Wrote the item descriptions for <a href="/rb/items/">Red/Blue</a> and updated those for <a href="/gs/items/">Gold/Silver</a> and <a href="/rs/items/">Ruby/Sapphire</a>.</dd>
+<dd>Contributed to various miscellaneous projects in <a href="/forums/forumdisplay.php?f=27">Contributions and Corrections</a>.</dd>
+
+<dt>Omicron</dt>
+<dd>Was the co-leader of the <a href="/forums/group.php?groupid=1493">Chinese Translations</a> project.</dd>
+<dd>Fixed many spelling, grammar, and presentation errors.</dd>
+<dd>Contributed several <a href="/bw/pokemon/">Black/White</a> Pokemon analyses.</dd>
+
+<dt>omni</dt>
+<dd>Contributed several articles and strategy guides.</dd>
+
+<dt>paintseagull</dt>
+<dd>Contributed artwork to the site.</dd>
+
+<dt>panamaxis</dt>
+<dd>Contributed and edited numerous <a href="/dp/pokemon/">Diamond/Pearl</a> Pokemon analyses.</dd>
+<dd>Was an active member of the DPP OU QC team.</dd>
+
+<dt>Peterko</dt>
+<dd>Was a head researcher on Black/White, Diamond/Pearl, and Ruby/Sapphire in-game data.</dd>
+<dd>Co-wrote a comprehensive <a href="/forums/showthread.php?t=20655">breeding guide</a>.</dd>
+<dd>Did research on and co-wrote an article about the <a href="/dp/articles/damage_formula">damage formula</a> for Diamond/Pearl.</dd>
+<dd>Contributed the <a href="/forums/showthread.php?t=15426">Battle Frontier Max Stats Pokemon Database</a>.</dd>
+
+<dt>Philip7086</dt>
+<dd>Was a co-leader of <a href="/forums/forumdisplay.php?f=27">Contributions and Corrections</a>.</dd>
+<dd>Was a head researcher on Black/White in-game data.</dd>
+<dd>Was the leader of the <a href="/forums/forumdisplay.php?f=49">Smogon Tour</a>.</dd>
+<dd>Was the leader of the BW OU and ADV suspect tiering project.</dd>
+
+<dt>Phuquoph</dt>
+<dd>Contributed numerous <a href="/dp/pokemon/">Diamond/Pearl</a> Pokemon analyses.</dd>
+
+<dt>Pidgeot500</dt>
+<dd>Contributed several <a href="/rb/pokemon/">Red/Blue</a>, <a href="/gs/pokemon/">Gold/Silver</a>, and <a href="/rs/pokemon/">Ruby/Sapphire</a> Pokemon analyses.</dd>
+<dd>Wrote several articles and strategy guides.</dd>
+<dd>Contributed research to the site.</dd>
+
+<dt>Pirika</dt>
+<dd>Contributed artwork to the site.</dd>
+
+<dt>PK Gaming</dt>
+<dd>Is an active member of the DPP UU and BW OU and UU QC teams.</dd>
+<dd>Contributed several <a href="/dp/pokemon/">Diamond/Pearl</a> and <a href="/bw/pokemon/">Black/White</a> Pokemon analyses.</dd>
+
+<dt>Plus</dt>
+<dd>Contributed artwork to the site.</dd>
+<dd>Was the fourth generation Create-A-Pokemon Topic Leader for CAP 9, <a href="/cap/pokemon/colossoil">Colossoil</a>.</dd>
+
+<dt>poccil</dt>
+<dd>Contributed research to the site.</dd>
+<dd>Is the developer of <a href="http://upokecenter.dreamhosters.com/">upokecenter.com</a>.</dd>
+
+<dt>Pocket</dt>
+<dd>Is an active member of the BW OU QC team.</dd>
+
+<dt>Poppy</dt>
+<dd>Contributed several <a href="/bw/metagames/uber">Black/White Uber</a> Pokemon analyses.</dd>
+<dd>Was an active member of the BW Uber QC team.</dd>
+
+<dt>Precipice</dt>
+<dd>Contributed artwork to the site.</dd>
+
+<dt>prem</dt>
+<dd>Contributed several <a href="/bw/metagames/lc">Black/White LC</a> Pokemon analyses.</dd>
+<dd>Is an active member of the BW LC QC team.</dd>
+
+<dt>R Inanimate</dt>
+<dd>Contributed several <a href="/bw/metagames/vgc2011">Black/White VGC 2011</a> and <a href="/bw/metagames/vgc2012">VGC 2012</a> Pokemon analyses.</dd>
+<dd>Is a member of the VGC 2012 QC team.</dd>
+
+<dt>Raseri</dt>
+<dd>Contributed several <a href="/bw/metagames/nu">Black/White NU</a> Pokemon analyses.</dd>
+<dd>Is the leader of the BW NU QC team.</dd>
+<dd>Is an active member of the BW NU QC team.</dd>
+
+
+<dt>Ray Jay</dt>
+<dd>Fixed many spelling, grammar, and presentation errors.</dd>
+<dd>Contributed several <a href="/dp/pokemon/">Diamond/Pearl</a> and <a href="/bw/pokemon/">Black/White</a> Pokemon analyses.</dd>
+
+<dt>RBG</dt>
+<dd>Did research on Diamond/Pearl information that will never actually happen in battle.</dd>
+<dd>Is the leader of Smogon Social Media, including the <a href="http://www.facebook.com/Smogon">Smogon Facebook</a> page.</dd>
+<dd>Was a co-leader of the <a href="/forums/forumdisplay.php?f=82">DPP UU</a> suspect testing tiering project.</dd>
+
+<dt>reachzero</dt>
+<dd>Was the fifth generation Create-A-Pokemon Topic Leader for CAP 1, <a href="/forums/showthread.php?t=3446739">Tomohawk</a>.</dd>
+<dd>Was the leader of the <a href="/forums/forumdisplay.php?f=82">DPP UU</a> and BW OU suspect tiering projects.</dd>
+
+<dt>Redew</dt>
+<dd>Fixed many spelling, grammar, and presentation errors.</dd>
+
+<dt>RicepigeonKKM</dt>
+<dd>Contributed to the site in its early stages.</dd>
+
+<dt>Rising_Dusk</dt>
+<dd>Contributed several <a href="/dp/pokemon/">Diamond/Pearl</a> Pokemon analyses.</dd>
+<dd>Was a co-leader of <a href="/forums/forumdisplay.php?f=27">Contributions and Corrections</a>.</dd>
+<dd>Ran the Grammar-Prose Team in Contributions &amp; Corrections.</dd>
+<dd>Was the head of <a href="/forums/forumdisplay.php?f=79">The Smog</a>.</dd>
+<dd>Was the fifth generation Create-A-Pokemon Topic Leader for CAP 2, <a href="/forums/showthread.php?t=3462021">Necturna</a>.</dd>
+<dd>Was the leader of the Smogon <a href="/forums/forumdisplay.php?f=159">Pokemon Online simulator</a>.</dd>
+<dd>Made a very large number of minor edits to the site via the SCMS.</dd>
+
+<dt>RitterCat</dt>
+<dd>Contributed artwork to the site.</dd>
+<dd>Fixed many spelling, grammar, and presentation errors.</dd>
+
+<dt>Rocket Grunt</dt>
+<dd>Contributed artwork to the site.</dd>
+
+<dt>RockinX</dt>
+<dd>Was a major contributor to the <a href="/forums/group.php?groupid=1490">Spanish Translations</a> project.</dd>
+
+<dt>Roy</dt>
+<dd>Started numerous jokes about his age (lil roy).</dd>
+<dd>Is a soccer stud!!</dd>
+<dd>Refused to add himself to the credits.</dd>
+
+<dt>RT.</dt>
+<dd>Is an active member of the BW UU QC team.</dd>
+
+<dt>ryubahamut</dt>
+<dd>Was a Programmer.</dd>
+<dd>Helped to create the <a href="/qdb/">Quote Database</a>.</dd>
+
+<dt>Sanders</dt>
+<dd>Contributed research to the site.</dd>
+
+<dt>sandshrewz</dt>
+<dd>Fixed many spelling, grammar, and presentation errors.</dd>
+<dd>Contributed several <a href="/bw/pokemon/">Black/White</a> Pokemon analyses.</dd>
+<dd>Contributed artwork to the site.</dd>
+<dd>Was a major contributor to the <a href="/forums/group.php?groupid=1493">Chinese Translations</a> project.</dd>
+<dd>Created the <a href="/teambuilder">SmogDex Teambuilder</a>.</dd>
+
+<dt>Sarenji</dt>
+<dd>Contributed scripts and other programming data to Smogon's official simulator server.</dd>
+<dd>Contributed several <a href="/dp/pokemon/">Diamond/Pearl</a> Pokemon analyses.</dd>
+<dd>Wrote some ability descriptions.</dd>
+<dd>Was a researcher on Ruby/Sapphire and Diamond/Pearl.</dd>
+
+<dt>SePh</dt>
+<dd>Contributed and revised several <a href="/dp/pokemon/">Diamond/Pearl</a> Pokemon analyses.</dd>
+<dd>Was a researcher on Diamond/Pearl.</dd>
+
+<dt>Serv</dt>
+<dd>Contributed and revised several <a href="/dp/pokemon/">Diamond/Pearl</a> Pokemon analyses.</dd>
+<dd>Wrote several <a href="/ingame/">in-game articles</a>.</dd>
+
+<dt>Setsuna</dt>
+<dd>Is an Administrator of the site.</dd>
+<dd>Is the head editor and head coder of <a href="/competitor/">The Competitor</a>.</dd>
+<dd>Is the head editor and head coder of <a href="/smog/">The Smog</a>.</dd>
+<dd>Is the head of Smogon's <a href="/tutor/">Battling 101</a> tutoring program.</dd>
+<dd>Is the head of the <a href="/es/">Spanish Translations</a> Project.</dd>
+<dd>Senior Team Rater; led the <a href="/forums/forumdisplay.php?f=92">Rating Basics</a> sub-forum.</dd>
+<dd>Led the Pokemon Research for Black/White in-game data.</dd>
+<dd>Led the OU Quality Control Team in Contributions &amp; Corrections for DPP and Black/White.</dd>
+<dd>Contributed and edited Diamond/Pearl Pokemon <a href="/dp/pokemon/">analyses</a>.</dd>
+<dd>Was a <a href="/forums/forumdisplay.php?f=27">Contributions &amp; Corrections</a> Moderator and tier leader.</dd>
+<dd>Was a Shoddy Battle and Pokemon Online server Moderator.</dd>
+<dd>Hosted the Smogon Tour.</dd>
+
+<dt>Seven Deadly Sins</dt>
+<dd>Contributed several <a href="/dp/pokemon/">Diamond/Pearl</a> and <a href="/bw/metagames/ou">Black/White OU</a> Pokemon analyses.</dd>
+<dd>Is the Black/White OU QC team leader.</dd>
+<dd>Was a co-leader of the <a href="/forums/forumdisplay.php?f=129">Smogcast</a> project.</dd>
+
+<dt>ShakeItUp</dt>
+<dd>Fixed many spelling, grammar, and presentation errors.</dd>
+<dd>Contributed several <a href="/bw/pokemon/">Black/White</a> Pokemon analyses.</dd>
+<dd>Is an active member of the BW RU QC team.</dd>
+
+<dt>Shame That</dt>
+<dd>Fixed many spelling, grammar, and presentation errors.</dd>
+
+<dt>Shinxe</dt>
+<dd>Contributed artwork to the site.</dd>
+
+<dt>ShinyAzelf</dt>
+<dd>Contributed a ton of <a href="/dp/metagames/lc">Diamond/Pearl LC</a> Pokemon analyses.</dd>
+
+<dt>Shiv</dt>
+<dd>Helped to create the <a href="/qdb/">Quote Database</a>.</dd>
+
+<dt>shrang</dt>
+<dd>Contributed several <a href="/dp/pokemon/">Diamond/Pearl</a> and <a href="/bw/pokemon/">Black/White</a> Pokemon analyses.</dd>
+
+<dt>SilentVerse</dt>
+<dd>Contributed several <a href="/dp/metagames/uu">Diamond/Pearl UU</a> and <a href="/bw/pokemon/">Black/White</a> Pokemon analyses.</dd>
+<dd>Is an active member of the BW RU QC team.</dd>
+<dd>Was the co-leader of the <a href="/forums/forumdisplay.php?f=178">BW RU</a> tiering project.</dd>
+
+<dt>Sir</dt>
+<dd>Contributed several <a href="/rs/pokemon/">Ruby/Sapphire</a> and <a href="/bw/metagames/lc">Black/White LC</a> Pokemon analyses.</dd>
+
+<dt>sirndpt</dt>
+<dd>Fixed many spelling, grammar, and presentation errors.</dd>
+<dd>Contributed several <a href="/bw/pokemon/">Black/White</a> Pokemon analyses.</dd>
+<dd>Contributed artwork to the site.</dd>
+
+<dt>skarm</dt>
+<dd>Contributed to the site in its early stages.</dd>
+<dd>Was a leader of the Smogon site.</dd>
+
+<dt>SkullCandy</dt>
+<dd>Contributed several <a href="/bw/pokemon/">Black/White</a> Pokemon analyses.</dd>
+<dd>Fixed many spelling, grammar, and presentation errors.</dd>
+
+<dt>Slashmolder</dt>
+<dd>Contributed research to the site.</dd>
+<dd>Is a Programmer.</dd>
+<dd>Maintains the <a href="/forums/showthread.php?t=83057">Black/White RNG Reporter</a> and has contributed a ton of RNG research.</dd>
+
+<dt>Snorlaxe</dt>
+<dd>Contributed a couple of <a href="/dp/pokemon/">Diamond/Pearl</a> and <a href="/bw/pokemon/">Black/White</a> Pokemon analyses.</dd>
+<dd>Fixed countless spelling, grammar, and presentation errors.</dd>
+
+<dt>Snunch</dt>
+<dd>Was an active member of the BW UU QC team.</dd>
+<dd>Was a co-leader of the <a href="/forums/forumdisplay.php?f=170">BW UU</a> tiering project.</dd>
+
+<dt>Solace</dt>
+<dd>Was the leader of the <a href="/forums/showthread.php?t=3453359">GBU Pokédex</a> project.</dd>
+<dd>Is an active member of the VGC QC team.</dd>
+<dd>Is the leader of <a href="/forums/forumdisplay.php?f=127">Smogon VGC</a> community.</dd>
+
+<dt>SOMALIA</dt>
+<dd>Contributed and edited several <a href="/dp/metagames/uu">Diamond/Pearl UU</a> and <a href="/bw/pokemon/">Black/White</a> Pokemon analyses.</dd>
+<dd>Energy Ball Jellicent is dumb quite frankly.</dd>
+
+<dt>Sonuis</dt>
+<dd>Contributed and edited a few <a href="/rb/pokemon/">Red/Blue</a> and <a href="/gs/pokemon/">Gold/Silver</a> Pokemon analyses.</dd>
+<dd>Fixed many spelling, grammar, and presentation errors.</dd>
+<dd>Updated the <a href="/tournaments/">Tournaments</a> site.</dd>
+
+<dt>Stalfos</dt>
+<dd>Fixed many spelling, grammar, and presentation errors.</dd>
+
+<dt>Steelicks</dt>
+<dd>Contributed several <a href="/rs/pokemon/">Ruby/Sapphire</a> Pokemon analyses.</dd>
+
+<dt>Stellar</dt>
+<dd>Contributed several <a href="/dp/pokemon/">Diamond/Pearl</a> Pokemon analyses.</dd>
+
+<dt>Steven Snype</dt>
+<dd>Fixed many spelling, grammar, and presentation errors.</dd>
+
+<dt>Sunday</dt>
+<dd>Was the fourth generation Create-A-Pokemon Topic Leader for CAP 4, <a href="/cap/pokemon/fidgit">Fidgit</a>.</dd>
+
+<dt>Super</dt>
+<dd>Was a Programmer.</dd>
+<dd>Was a lead developer of <a href="/forums/forumdisplay.php?f=85">Shoddy Battle</a>, <a href="/forums/showthread.php?t=79808">Pokemon Laboratory</a>, and Smogon's <a href="/forums/forumdisplay.php?f=159">Pokemon Online simulator</a>.</dd>
+
+<dt>SuperJOCKE</dt>
+<dd>Fixed many spelling, grammar, and presentation errors.</dd>
+<dd>Contributed several <a href="/bw/pokemon/">Black/White</a> Pokemon analyses.</dd>
+
+<dt>supermarth64</dt>
+<dd>Contributed several <a href="/dp/pokemon/">Diamond/Pearl</a> Pokemon analyses.</dd>
+
+<dt>Surgo</dt>
+<dd>Contributed several <a href="/dp/pokemon/">Diamond/Pearl</a> Pokemon analyses.</dd>
+<dd>Was a Programmer.</dd>
+<dd>Was a co-developer of the Pokemon Competitor simulator.</dd>
+
+<dt>Swaggersaurus</dt>
+<dd>Maintains the <a href="/qdb/">Quote Database</a>.</dd>
+<dd>Was the Artist leader.</dd>
+<dd>Was the head artist of <a href="/forums/forumdisplay.php?f=79">The Smog</a>.</dd>
+<dd>Contributed artwork to the site.</dd>
+
+<dt>Swamp-Rocket</dt>
+<dd>Contributed several <a href="/bw/pokemon/">Black/White</a> Pokemon analyses.</dd>
+
+<dt>symphonyx64</dt>
+<dd>Uploaded many videos to and maintained the <a href="/forums/forumdisplay.php?f=182">Smogon Youtube</a> channel.</dd>
+
+<dt>Synre</dt>
+<dd>Contributed to the site in its early stages.</dd>
+<dd>Was a leader of the <a href="/forums/forumdisplay.php?f=127">Smogon VGC</a> community.</dd>
+
+<dt>Tangerine</dt>
+<dd>Was the leader of <a href="/forums/forumdisplay.php?f=79">The Smog</a>.</dd> 
+<dd>Helped write <a href="/bw/articles/bw_pokemon_dictionary">The Introduction to Competitive Battling Guide</a>.</dd>
+
+<dt>Team Rocket Elite</dt>
+<dd>Contributed research to the site.</dd>
+
+<dt>tenchi17</dt>
+<dd>Contributed to the site in its early stages.</dd>
+<dd>Contributed research to the site.</dd>
+
+<dt>tennisace</dt>
+<dd>Wrote and rewrote many entries in the CAP Process and other assorted CAP articles.</dd>
+<dd>Was an active member of the BW NU QC team.</dd>
+<dd>Was the leader of the <a href="/forums/forumdisplay.php?f=185">BW NU</a> tiering project.</dd>
+<dd>Was the fourth generation Create-A-Pokemon Topic Leader for CAP 5, <a href="/cap/pokemon/stratagem">Stratagem</a>.</dd>
+
+<dt>Texas Cloverleaf</dt>
+<dd>Is an active member of the BW RU QC team.</dd>
+<dd>Contributed several <a href="/bw/pokemon/">Black/White</a> Pokemon analyses.</dd>
+
+<dt>TheMantyke</dt>
+<dd>Contributed to various miscellaneous projects in <a href="/forums/forumdisplay.php?f=27">Contributions and Corrections</a>.</dd>
+<dd>Updated hundreds of analyses onsite via the SCMS to keep up with the tier shifts from usage stats.</dd>
+<dd>Helped maintain the <a href="http://www.facebook.com/Smogon">Smogon Facebook</a> page.</dd>
+
+<dt>TheMaskedNitpicker</dt>
+<dd>Wrote several articles and strategy guides.</dd>
+<dd>Was a head researcher on Diamond/Pearl.</dd>
+
+<dt>TheMutant</dt>
+<dd>Contributed artwork to the site.</dd>
+
+<dt>Theorymon</dt>
+<dd>Contributed several <a href="/dp/metagames/uber">Diamond/Pearl Uber</a> and <a href="/bw/metagames/uber">Black/White Uber</a> Pokemon analyses.</dd>
+<dd>Is an active member of the DPP and BW Uber QC teams.</dd>
+<dd>Is a leader of the official <a href="/irc/">Smogon IRC</a> channel.</dd>
+
+<dt>The_Chaser</dt>
+<dd>Contributed research to the site.</dd>
+
+<dt>Toast++</dt>
+<dd>Is a Programmer.</dd>
+<dd>Developed <a href="/forums/showthread.php?t=81513">EonTimer and ZomgTimer</a> used in RNGing projects.</dd>
+<dd>Is a member of The Smog staff.</dd>
+
+
+<dt>Tobes</dt>
+<dd>Is an active member of the BW Uber QC team.</dd>
+<dd>Contributed several <a href="/bw/pokemon/">Black/White</a> Pokemon analyses.</dd>
+<dd>Fixed many spelling, grammar, and presentation errors.</dd>
+<dd>Was the leader of the <a href="/forums/forumdisplay.php?f=192">Dream World</a> tiering project.</dd>
+
+<dt>ToxicPhox</dt>
+<dd>Contributed artwork to the site.</dd>
+
+<dt>Treecko</dt>
+<dd>Contributed several <a href="/bw/metagames/nu">Black/White NU</a> Pokemon analyses.</dd>
+<dd>Is an active member of the BW NU QC team.</dd>
+
+<dt>trickroom</dt>
+<dd>Is an active member of the BW Uber QC team.</dd>
+<dd>Contributed several <a href="/bw/metagames/uber">Black/White Uber</a> Pokemon analyses.</dd>
+
+<dt>TrollFreak</dt>
+<dd>Contributed several <a href="/bw/pokemon/">Black/White</a> Pokemon analyses.</dd>
+<dd>Contributed to various miscellaneous projects in <a href="/forums/forumdisplay.php?f=27">Contributions and Corrections</a>.</dd>
+
+<dt>TTS</dt>
+<dd>Contributed several <a href="/dp/pokemon/">Diamond/Pearl</a> Pokemon analyses and strategy guides.</dd>
+
+<dt>twash</dt>
+<dd>Contributed and edited several <a href="/dp/pokemon/">Diamond/Pearl</a> Pokemon analyses.</dd>
+<dd>Fixed many spelling, grammar, and presentation errors.</dd>
+<dd>Wrote several articles and strategy guides.</dd>
+<dd>Made a very large number of minor edits to the site via the SCMS.</dd>
+
+<dt>uraga</dt>
+<dd>Was an active member of the DPP UU QC team.</dd>
+<dd>Fixed many spelling, grammar, and presentation errors.</dd>
+<dd>Contributed several <a href="/dp/metagames/uu">Diamond/Pearl UU</a> Pokemon analyses.</dd>
+
+<dt>V0x</dt>
+<dd>Fixed many spelling, grammar, and presentation errors.</dd>
+<dd>Contributed several <a href="/bw/pokemon/">Black/White</a> Pokemon analyses.</dd>
+<dd>Contributed artwork to the site.</dd>
+
+<dt>V4Victini</dt>
+<dd>Contributed research to the site.</dd>
+
+<dt>Vader</dt>
+<dd><strong>is</strong> Little Cup.</dd>
+
+<dt>Vineon</dt>
+<dd>Contributed to the site in its early stages.</dd>
+<dd>Wrote several articles and strategy guides.</dd>
+
+<dt>Volmise</dt>
+<dd>Contributed artwork to the site.</dd>
+
+<dt>whistle</dt>
+<dd>Contributed several <a href="/dp/pokemon/">Diamond/Pearl</a> Pokemon analyses.</dd>
+<dd>Fixed many spelling, grammar, and presentation errors.</dd>
+<dd>Founded the Grammar-Prose Team in Contributions &amp; Corrections.</dd>
+
+<dt>Wichu</dt>
+<dd>Contributed research to the site.</dd>
+
+<dt>Wild Eep</dt>
+<dd>Did research encounter slots in Diamond/Pearl.</dd>
+<dd>Wrote the first version of Receiving Perfect Wondercard Pokemon.</dd>
+<dd>Wrote Pandora's Box.</dd>
+<dd>Is the leader of Smogon <a href="/forums/forumdisplay.php?f=53">Wi-Fi</a>.</dd>
+
+<dt>wilson46</dt>
+<dd>Was an active member of the BW OU QC team.</dd>
+
+<dt>Windsong</dt>
+<dd>Was an active member of the BW RU QC team.</dd>
+<dd>Contributed several <a href="/bw/pokemon/">Black/White</a> Pokemon analyses.</dd>
+
+<dt>Wyverii</dt>
+<dd>Contributed artwork to the site.</dd>
+
+<dt>X-Act</dt>
+<dd>Did research on, wrote, and co-wrote several articles, including: <a href="/dp/articles/damage_formula">DP Damage Formula</a>, <a href="/dp/articles/breeding_guide_part1">Breeding Guide</a>, <a href="/dp/articles/normalized_stats">Normalized Base Stats</a>, <a href="/dp/articles/maximizing_defenses">Maximizing Pokemon's Defenses</a>, and <a href="/dp/articles/pid_iv_creation">PID and IV of non-Bred Pokemon</a>.</dd>
+<dd>Did research and created the <a href="http://users.smogon.com/X-Act/BaseStatsRatings.html">Pokemon Base Stats Ratings</a>.</dd>
+<dd>Created the <a href="/forums/showthread.php?t=44721">Type Coverage Sheet</a>.</dd>
+<dd>Overall PokéMath guru.</dd>
+
+<dt>Xia</dt>
+<dd>Contributed several <a href="/dp/pokemon/">Diamond/Pearl</a> Pokemon analyses.</dd>
+
+<dt>yamipoli</dt>
+<dd>Contributed artwork to the site.</dd>
+
+<dt>Yilx</dt>
+<dd>Contributed artwork to the site.</dd>
+
+<dt>Yonko7</dt>
+<dd>Fixed many spelling, grammar, and presentation errors.</dd>
+<dd>Wrote several articles and strategy guides.</dd>
+
+<dt>zarator</dt>
+<dd>Wrote several articles and strategy guides.</dd>
+
+<dt>Zarel</dt>
+<dd>Is a Programmer.</dd>
+<dd>Developed many awesome things for Smogon, such as the <a href="/forums/showthread.php?t=3453192">Pokemon Online replay player</a> and a new battle simulator entitled <a href="http://pokemonshowdown.com">Pokemon Showdown</a>.</dd>
+
+<dt>Zebraiken</dt>
+<dd>Contributed several <a href="/bw/pokemon/">Black/White</a> Pokemon analyses.</dd>
+<dd>Is the leader of the <a href="/forums/forumdisplay.php?f=185">BW NU</a> tiering project.</dd>
+
+<dt>Zephyr</dt>
+<dd>Contributed several <a href="/bw/pokemon/">Black/White</a> Pokemon analyses.</dd>
+<dd>Contributed research to the site.</dd>
+
+<dt>zero2exe</dt>
+<dd>Was a major contributor to the <a href="/forums/group.php?groupid=1490">Spanish Translations</a> project.</dd>
+
+<dt>zdrup15</dt>
+<dd>Contributed several <a href="/bw/pokemon/">Black/White</a> Pokemon analyses.</dd>
+<dd>Fixed many spelling, grammar, and presentation errors.</dd>
+<dd>Was an active member of the BW RU QC team.</dd>
+
+<dt>zfs</dt>
+<dd>Contributed several <a href="/gs/pokemon/">Gold/Silver</a> and <a href="/rs/pokemon/">Ruby/Sapphire</a> Pokemon analyses.</dd>
+
+<dt>Zracknel</dt>
+<dd>Contributed artwork to the site.</dd>
+<dd>Is the graphic designer behind <a href="/competitor/">The Competitor</a> and various other Smogon projects.</dd>
+
+<dt>Zystral</dt>
+<dd>Fixed many spelling, grammar, and presentation errors.</dd>
+<dd>Contributed a couple <a href="/dp/pokemon/">Diamond/Pearl</a> and <a href="/bw/pokemon/">Black/White</a> Pokemon analyses.</dd>
+
+<dt>*Hen*</dt>
+<dd>Contributed artwork to the site.</dd>
+
+<dt>ODonut</dt>
+<dd>Was a head researcher on RNG research for Diamond/Pearl and Black/White.</dd>
+<dd>Expanded the RNG Reporter for use with Black/White.</dd>
+<dd>Is a Programmer.</dd>
+
+<dt>chaos</dt>
+<dd>Sits on his ass.</dd>
+</dl>

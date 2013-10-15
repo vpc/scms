@@ -1,0 +1,306 @@
+[title]
+Double Battle Primer
+[head]
+<meta name="description" content="An introduction to the world of doubles, thanks to TheMaskedNitpicker." />
+[page] 		
+<div class="author">by <a href="/forums/member.php?u=15799">TheMaskedNitpicker</a>. Art by <a href="/forums/member.php?u=123495">The Knights of Wario Land </a>.</div>
+
+<div style="text-align: center;"><img src="http://www.smogon.com/media/upload/bw/articles/zapdos_hitmontop.png" alt="" /></div>
+<ol class="toc">
+<li><a href="#teambuilding">Team Building</a>
+ <ul>
+ <li><a href="#attack">Attack Type Coverage</a></li>
+ <li><a href="#ev">EV Distribution</a></li>
+ <li><a href="#synergy">Synergy</a>
+  <ul>
+  <li><a href="#shooting">Not Shooting Yourself in the Foot</a></li>
+  <li><a href="#good_teamwork">Good Teamwork</a></li>
+  <li><a href="#move_combos">Move Combos</a></li>
+  <li><a href="#viability">The Viability of Combos</a></li>
+  <li><a href="#global">Global Effects</a></li>
+  </ul>
+ </li>
+ <li><a href="#support">Support Pokemon</a></li>
+ </ul>
+</li>
+<li><a href="#battle_strategy">Battle Strategy</a>
+ <ul>
+ <li><a href="#choosing">Choosing Your Target</a>
+  <ul>
+  <li><a href="#eliminating">Eliminating Threats</a></li>
+  <li><a href="#retargeting">Move Retargeting</a></li>
+  </ul>
+ </li>
+ <li><a href="#multi">Multi-Target Moves</a>
+  <ul>
+  <li><a href="#two-target">Two-Target Attacks</a></li>
+  <li><a href="#spread">Spread Attacks</a></li>
+  </ul>
+ </li>
+ <li><a href="#switching">Switching</a>
+  <ul>
+  <li><a href="#defensive">Defensive Switching</a></li>
+  <li><a href="#offensive">Offensive Switching</a></li>
+  <li><a href="#rescue">Rescue Switching</a></li>
+  <li><a href="#surprise_combo">The Surprise Combo</a></li>
+  </ul>
+ </li>
+ <li><a href="#stat-ups">Stat-ups</a></li>
+ <li><a href="#power">The Power of Knowledge</a>
+  <ul>
+  <li><a href="#process">The Process of Elimination</a></li>
+  <li><a href="#determining">Determining Relative Speed</a></li>
+  </ul>
+ </li>
+</ul>
+</li>
+<li><a href="#where">Where To Go From Here</a></li>
+</ol>
+
+<p>Welcome to my Double Battle Primer. This guide is geared toward players who have some experience with Single Battles and want to learn more about strategy in the Double Battle environment.</p>
+
+<p>A lot of serious Pokémon players consider Double Battles to be a sort of afterthought or add-on to the 3rd and 4th generations of the Pokémon games: a pleasant diversion, but nothing comparable to the standard Single Battle play. We hear things like, "2v2 is broken," "There are only a couple of good 2v2 strategies," and "2v2 has a completely offense-oriented metagame." In the 3rd (or Advance) generation, strong arguments could be made that these statements were true. However, it has been my experience that with the advent of Diamond and Pearl, Double Battles have attained a balance and complexity rivalling, and in many cases surpassing, that of Single Battles.</p>
+
+<p>In this guide and its planned companion guide, 'Double Battle Strategies,' I am making the assumption that you will be playing primarily in an environment without 'Uber' Pokémon. Much of the guide will remain pertinent in the Uber environment, but Ubers will not be addressed specifically, with the exception of Wobbuffet. I'm also assuming that the Sleep and Freeze Clauses will be in place. For the most part, this guide should be useful to you regardless of the other rules that you plan to play under, such as Item Clause, No Legendaries Clause, Hidden Power Clause, Evasion Clause, 1-Hit KO clause, etc.</p>
+
+<p>I've tried to divide this guide into two main sections: 'Team Building' and 'Battle Strategy.' However, these two topics are not completely separable, so I recommend that you read the entire guide before building your team.</p>
+
+<h2><a name="teambuilding">Team Building</a></h2>
+
+<p>Have you ever tried to use your Single Battle team in a Double Battle environment? If you were playing against a team that was made for Doubles, then chances are good that it didn't go well for you. The construction of a good Doubles team is significantly different than that of a good Singles team. The movesets used can be quite different. Team synergy, while important in Singles, is far more crucial in Doubles. Let's take a look at some of the aspects of a good Doubles team.</p>
+
+<h3><a name="attack">Attack Type Coverage</a></h3>
+
+<p>First of all, let's talk about attackers. These are Pokémon that are built to dish out pain with direct-damage attacks. When constructing an attacker moveset for a Single Battle Pokémon, the primary goal is usually to avoid being 'walled.' In other words, you want to have a set of attacks such that very few Pokémon can safely switch in to you and start setting up. Often this results in attackers that have three or even four direct-damage attacks.</p>
+
+<p>In Doubles, it is significantly easier to avoid being walled. For one thing, your attacker potentially has its partner to pick up the slack against an opponent it cannot effectively damage. It is often enough to construct your teams such that most pairs of your Pokémon are not easily walled. Also, keep in mind that if one of the opponent's Pokémon does wall all the attacks of both your Pokémon, you have the option of targeting the other opponent. It is very rare that both of your opponent's Pokémon will completely wall both of your Pokémon, and it's much easier to take out that last, hard-to-KO Pokémon when you can gang up on it with your remaining team.</p>
+
+<p>Does all this mean that you don't have to consider type coverage on your attacks? Of course not. As stated, you'll still want to make sure that together, most pairs of Pokémon on your team have good type coverage. As a general guideline, an attacker on a Doubles team needs at most three direct-damage attacks. The upshot here is that you have more moveslots free to spend on support moves, which is important for many Doubles strategies.</p>
+
+<p>However, it should be noted that a 'dead weight' Pokémon (one that can't damage or disable either opponent and cannot help its partner) carries with it a much higher cost in Doubles than in Singles. If your opponent realizes that one of your Pokémon is not a threat, they will often concentrate all of their efforts on your other Pokémon. To avoid this, try to choose support moves that are useful in situations in which your Pokémon cannot damage the opponents. If all else fails, try to have a contingency plan for your switch (see <a href="#switching">'Switching'</a> below).</p>
+
+<h3><a name="ev">EV Distribution</a></h3>
+
+<p>In the Singles environment, we are used to the luxury of very specialized EV distributions. For instance, let's say we have a Forretress. A Forretress is a physical wall or tank, so in a Singles environment, any points that don't go into Attack will be placed in HP and Defense with the goal of getting the latter two stats approximately equal to one another, maximizing physical defensive ability. We're not worried about Special Defense because we're not going to leave the Forretress in against a special attacker that can harm it.</p>
+
+<p>In Doubles, it's another story. You will frequently be facing both a strong physical attacker and a strong special attacker simultaneously. It is not practical to switch out your physical wall every time one of your opponents is a special attacker. You may go the entire match without a good opportunity to bring it back in. Furthermore, switching in the Doubles environment potentially carries a much higher cost than switching in the Singles environment, as we will discuss later (see <a href="#switching">'Switching'</a> below). However, if we invest some Special Defense EVs into our Forretress, it quickly gets to the point where it can withstand more than one unboosted special attack not of the Fire-type.</p>
+
+<p>Similarly, Pokémon that put all their points into Attack and Speed in Singles may want to invest some points in the defensive stats when moving to Doubles. You may be able to take out one of your opponents with your speed and attack power, but it is more difficult to set up a sustained sweep in this fashion. Unless each of your Pokémon can take out one of the opponents before it has the chance to move, you may be entering a world of pain.</p>
+
+<p>As a rule of thumb, it's a good idea to invest some EVs in HP and the defenses for all your Pokémon, as even most 'frail' Pokémon should generally be able to take an unboosted neutral STAB attack from most opponents. This may seem like a tall order, but you'd be surprised at the powerful hits that Pokémon like Primeape and Banette can take if you put 160 to 200 EVs into their HP stat. There are, of course, exceptions to every rule. For instance, I would not suggest defensive EVs on something like Sharpedo or Dugtrio. If you want these Pokémon to survive an attack, you're better off putting your EVs into Attack and Speed and using a Focus Sash.</p>
+
+<h3><a name="synergy">Synergy</a></h3>
+
+<p>The need for good synergy within a team is not unique to Double Battles. You are most likely familiar with the common Gyarados / Electivire Single Battle combo, where the Gyarados provokes Electric attacks from the opponent and the Electivire switches in to take advantage of Motor Drive. Another example is a sandstorm- or hail-based team, where most members don't take damage from the weather.</p>
+
+<p>In Doubles, good synergy can take several forms. In addition to the strategies listed above, which remain valid, there are also combos unique to the Doubles environment. Synergy can also take the form of an assisted setup with moves like Helping Hand and Follow Me.</p>
+
+<h4><a name="shooting">Not Shooting Yourself in the Foot</a></h4>
+
+<p>First and foremost, you want to make sure that the Pokémon on your team get in each other's way as little as possible. If you have Pokémon that use Earthquake, make sure that most of your team can take that hit. If one of your Pokémon has Lightningrod, be aware that it will also draw in targeted Electric attacks from your teammates. Don't use Trick Room unless the vast majority of your team has very low Speed. This may all seem like common sense, but I'm surprised at the number of Doubles RMT teams I've seen that would eat themselves alive given the chance.</p>
+
+<p>Here's a more specific example: if your Flygon has Earthquake but your other Pokémon is Heatran, your options are restricted. Granted, unless those are your last two Pokémon, you could switch Heatran to a Flying-type while Flygon performs Earthquake. Or perhaps Heatran has Protect. However, you can't perform an attack with your Heatran and use Earthquake with your Flygon in the same turn because the Flygon will KO the Heatran. Hence, your options have been restricted.</p>
+
+<p>Am I saying that you should never have Heatran on the same team as a Pokémon with Earthquake? No. What I'm saying is that you probably shouldn't have two Pokémon with Earthquake and three Pokémon with a Ground weakness all on the same team. The thing to remember is that you may not always be able to control which two of your Pokémon will be on the board at a given time. The less you restrict your options, the better.</p>
+
+<h4><a name="good_teamwork">Good Teamwork</a></h4>
+
+<p>In addition to having members that don't interfere with one another, many Double Battle teams have Pokémon that can provide benefits to each other. A Lightningrod Rhyperior can draw Electric attacks away from its Gyarados partner. A Pachirisu can Flatter its Slowbro partner with Own Tempo, raising its Special Attack. Even something as simple as a Pokémon with Intimidate helping its partner survive physical attacks is an example of good synergy.</p>
+
+<p>So, if a Rotom uses Discharge when paired with a Ground-type, then at least the Ground-type takes no damage and won't be paralyzed. However, if the Rotom uses Discharge when paired with an Electivire, then the Electivire gets a boost in Speed thanks to Motor Drive. Furthermore, Rotom's Levitate protects it from Electivire's Earthquakes. This is one example of a good pairing.</p>
+
+<p>Team synergy comes in many forms. In addition to using Pokémon abilities as described above, there are also move combinations that work particularly well. Also, many players use weather and other global effects to provide benefits to their entire team. For each two Pokémon on your team (15 possible match-ups), think about how they will work together. Each match-up doesn't have to have perfect synergy, but try to minimize situations in which your Pokémon's options are restricted. I won't be describing many specific combinations here, but take a look at a 'Double Battle Strategies' guide if you'd like more specific examples of good synergy.</p>
+
+<h4><a name="move_combos">Move Combos</a></h4>
+
+<p>Earlier I mentioned the Single Battle Gyarados / Electivire combo. That kind of bait-and-switch tactic can work in Doubles too, although it's riskier and requires better prediction. However, when I talk about Doubles combos, I'm generally talking about combos that either can only be performed in the Doubles environment (a Two-Poké Combo) or those that can be performed more effectively in the Doubles environment than they can in Singles (a Rush Combo).</p>
+
+<p>An example of a Two-Poké Combo is the Follow Me / Belly Drum strategy. A bulky Pokémon with Follow Me (like a Clefable or Togekiss) draws all targeted moves to itself while its partner Belly Drums in relative safety. If the Follow Me user is durable enough, it may even continue to draw moves while its partner attacks the opponents with its maximized Attack stat. Another example is the use of Helping Hand, which gives a boost to the power of your other Pokémon's attack.</p>
+
+<p>Rush Combos are strategies that could work in Singles, but would take too long to set up or would be foiled by a switch. For example, Dream Eater is seldom used in Single Battles because sleeping Pokémon are often switched out. In Doubles, however, you can have one of your Pokémon put an opponent to sleep and have your other Pokémon use Dream Eater during the same turn, robbing your opponent of the chance to switch. This is a risky strategy due to the inaccuracy of most sleep-inducing moves, but very effective when it works. For combos like this, the relative Speed of your Pokémon becomes very important; it doesn't do you much good to use Dream Eater before you put your opponent to sleep.</p>
+
+<h4><a name="viability">The Viability of Combos</a></h4>
+
+<p>Hey! Wouldn't it be a good idea to Skill Swap a Machamp's No Guard onto a Walrein with Sheer Cold? You'd be able to deal a guaranteed 1-Hit KO every turn! I've seen this strategy suggested often, and it certainly seems like a good idea on paper. However, there are three things you should keep in mind while thinking about Doubles combos:</p>
+
+<ol>
+<li>How long will it take to set up?</li>
+<li>How easy is it for my opponent to foil my strategy?</li>
+<li>How apparent is my strategy to my opponent?</li>
+</ol>
+
+<p>After answering these questions, we decide whether the risk of setting up the combo is worth the potential benefit. Let's take the 1-Hit KO move + No Guard strategy as an example. Since neither Machamp nor Walrein can learn Skill Swap, we require an intermediary between the two. Let's use Bronzong, since it's durable and doesn't have many weaknesses. Proponents of this strategy usually plan something like this:</p>
+
+<dl>
+<dt>Round 1:</dt>
+<dd>Machamp uses some sort of attack while the Bronzong uses Skill Swap to take No Guard.</dd>
+<dt>Round 2:</dt>
+<dd>Machamp switches to Walrein and Bronzong uses Skill Swap again to give Walrein No Guard.</dd>
+<dt>Round 3, 4, 5, etc.:</dt>
+<dd>Walrein uses Sheer Cold to KO opponents.</dd>
+</dl>
+
+<p>Now let's see how this plan measures up to our criteria. First of all, this strategy takes two full rounds to set up and the benefits are only realized on Round 3. During the first two rounds, Machamp gets one attack to damage the opponent, Bronzong is busy Skill Swapping, and Walrein can't attack while it switches in. That's two turns for each of our opponent's Pokémon to do with as they please.</p>
+
+<p>Second, how easy is it for our opponent to foil our strategy? First of all we have the aforementioned two-turn setup. This is plenty of time for the opponent to KO our Bronzong if they focus their fire on it. Also, if the opponent uses Taunt, Disable, Encore, or Worry Seed on our Skill Swapper, our strategy is ruined. Furthermore, while Bronzong has No Guard it is weak to both Ground- and Fire-type attacks (it has neither Levitate nor Heatproof). Finally, whichever Pokémon has No Guard can be instantly KOed by a 1-hit KO move from the opponents.</p>
+
+<p>Finally, how apparent is our strategy to our opponent? This is often a function of how popular a strategy is and how often it's implemented with the particular Pokémon we're using. In our case, as soon as Bronzong uses Skill Swap on the Machamp, the jig is up. A skilled opponent, even if they've never seen this strategy before, can guess exactly what we are doing. The opportunity for misdirection on our part is almost nil. So this implementation of our strategy fails all three criteria quite badly. However, there are things we can do to mitigate this problem and make our strategy more viable.</p>
+
+<p>First of all, we can disable our opponent. One good way to do this is to confuse an opponent with Machamp's DynamicPunch. If our Skill Swapper is slow, like Bronzong, we should be able to manage at least one DynamicPunch before Machamp loses No Guard. Also, if it seems prudent to delay our strategy a round, Machamp could use DynamicPunch on both opponents while Bronzong uses Hypnosis on one. These distractions may give us time to implement our strategy. Another thing we might consider is letting Machamp be KOed rather than switching it out. This means that we won't lose a turn as Walrein switches in. Also, while Bronzong has No Guard it can take advantage of a never-miss Hypnosis.</p>
+
+<p>Finally, we should have backup plans prepared for the fairly likely event that our strategy fails. We might consider having a Pokémon with the Sturdy ability like Donphan on the team to absorb 1-Hit KO moves targeting our No Guard Pokémon. Since Machamp, Walrein, and Bronzong are all quite slow, we could put Trick Room on Bronzong and fill the rest of our team with slow tanks. We should put an attack like Gyro Ball on our Bronzong in case we predict a Taunt from the opponent, and so on.</p>
+
+<p>Once we've considered our strategy's pros and cons, we can decide whether we want to attempt to implement it.</p>
+
+<h4><a name="global">Global Effects</a></h4>
+
+<p>Many Double Battles teams are built around a global effect. Examples of moves that create global effects are Sunny Day, Rain Dance, Sandstorm, Hail, Trick Room, and Gravity. This tactic tends to work better in Double Battles than it does in Singles because you have two Pokémon out on the field at once to take advantage of the effect. When using global effects, try to make sure that none of your Pokémon are made worse, such as a Clefable with Moonlight in a sandstorm. If you want to have one 'fail-safe' Pokémon in case your strategy is foiled, like a fast sweeper on your Trick Room team in case Trick Room runs out, that is a reasonable precaution. More than one Pokémon that suffers from the effect is asking for trouble.</p>
+
+<p>On the other hand, it's usually a good idea to make sure that most of the Pokémon on your team can function reasonably well without the effect. It's very risky to have your entire team dependent on one specific strategy since every strategy has weaknesses.</p>
+
+<h3><a name="support">Support Pokémon</a></h3>
+
+<p>I'd like to talk briefly about support Pokémon (or utility Pokémon). When I use the term 'Support Pokémon' in a Double Battle context, I'm referring to a Pokémon that supports its teammates but has little chance of KOing opponents with its own moves. For example, let's say we have a Shuckle with Acupressure, Knock Off, Gastro Acid, and Encore. Although this Shuckle is not going to win any battles on its own, it can still be a great asset to its team because it can disrupt many of its opponents' strategies and confer benefits to its teammates.</p>
+
+<p>Many Pokémon that are seldom used in the Singles environment can make excellent support Pokémon in a Doubles environment. Some examples include a Pidgeot with Tailwind, a Furret with Follow Me, and a Jumpluff with Worry Seed. Other useful support moves include Taunt, Encore, Snatch, Gastro Acid, Knock Off, Confuse Ray, Trick Room, and Helping Hand. Still other Pokémon fit a support role well due to their abilities, such as a Cherrim with Flower Gift or a Lumineon with Storm Drain.</p>
+
+<p>When choosing a support Pokémon for your team, make sure to take your overall strategy into account. For instance, a Sunny Day team benefits more from a Jumpluff or Cherrim, whereas a Rain Dance team has more synergy with an Electrode or Dewgong.</p>
+
+<p>Just like with any Pokémon you train, when designing a supporting Pokémon's moveset, plan ahead to ensure it has something productive to do each turn. For instance, if the moveset for our Ledian is Reflect, Light Screen, Safeguard, and Rest, then it's going to be dead weight for much of its time on the field; after it puts up its barriers it has nothing to do until they wear off. If our opponent doesn't perceive one of our Pokémon as a threat, chances are good that they're going to concentrate all their firepower on our other Pokémon. A better moveset might be Reflect, Light Screen, Knock Off, and Encore; more of our turns can be spent productively as we have at least two items to Knock Off and two opponents to Encore.</p>
+
+<p>If you decide to include a support Pokémon on your team, I generally advise that you not have more than one. Having multiple support Pokémon usually removes too much potential firepower from your team and you generally don't want to be stuck with two supporters as your last two Pokémon. This is not to say, however, that the other members of your team cannot also carry support moves.</p>
+
+<h2><a name="battle_strategy">Battle Strategy</a></h2>
+
+<p>In Single Battles, each player has a maximum of 9 options for each turn. The Pokémon on the field has 4 moves and at most 5 teammates to switch to. In Double Battles, each Pokémon has four moves, but for targetable moves, a target for the move must also be chosen. So at most, 4 moves multiplied by 3 targets (including its partner) makes 12 options for each Pokémon, not including switching. Of course, none of the two Pokémon's move options are mutually exclusive, so for each turn we have 12 squared, or 144 options total, not including switching. Throw in switching and we have an additional 108 options, for a grand total of 252 maximum options for each turn. That's up to 28 times as many options as we have in Single Battles.</p>
+
+<p>Of course, not all moves are targetable, so in most situations a large chunk can be taken out of this number. Also, as the match progresses, options will disappear as Pokémon faint and moves run out of PP. Moreover, most of the available options will not be good options, as veterans of Single Battles know. For example, you'll usually want to avoid targeting your partner with an attack unless you have a good reason (Toxic on a Pokémon with Guts, etc).</p>
+
+<p>Still, the increased number of choices is one of the things that makes the strategy of Double Battles so appealing. If you enjoy the thrill of prediction in Single Battles, you may enjoy Doubles even more.</p>
+
+<h3><a name="choosing">Choosing Your Target</a></h3>
+
+<p>One of the new decisions facing us in the Doubles environment is which Pokémon to aim for with our targeted moves. To be clear, when I say 'targeted attack' or 'targeted move,' I'm referring to any move that hits a single Pokémon other than the user, thereby allowing us to select the intended target. There are some moves (described below in 'Multi-Target Moves') that affect multiple Pokémon, and these moves never allow us to choose which targets are affected.</p>
+
+<p>The novice Doubles player will generally choose moves and targets so as to maximize the total damage dealt. For example, say that we start a battle with Arcanine and Rotom and our opponent begins with Scizor and Wailord. This looks like a good situation for us. Our instinct would be to have our Arcanine use Flamethrower on the Scizor and to hit the Wailord with a Thunderbolt from our Rotom. However, this may not be the best course of action.</p>
+
+<h4><a name="eliminating">Eliminating Threats</a></h4>
+
+<p>Let's continue with our Arcanine / Rotom / Scizor / Wailord situation. Which of our two opponents presents the greater threat to us? The Wailord could easily have Hydro Pump, which poses a threat to our Rotom and is a much greater danger to our Arcanine. The Scizor, on the other hand, poses very little threat to us. Its STAB attacks are all resisted by both of our Pokémon and its unSTABed attacks won't hurt much after Arcanine's Intimidate. Hence, we should most likely concentrate our attention on the Wailord. It's possible that we can eliminate it before it can act by hitting it with a Thunderbolt from Rotom and a Thunder Fang from Arcanine or by hitting it with a Thunderbolt boosted by Helping Hand from Arcanine. Even more important is the fact that our opponent is very likely to switch the Scizor out in these circumstances.</p>
+
+<p>We've determined that eliminating the Wailord is the higher priority. However, our opponent may have foreseen situations such as this and taught Protect to the Wailord. If we focus all our attacks on the Wailord and it uses Protect, we've essentially given Scizor a free turn to raise its stats or switch out to another Pokémon. For this reason, Protect is a useful move to have on Pokémon with high offensive power but significant defensive weaknesses, such as Rhyperior or Magnezone. So as we can see, prediction plays a large role in Double Battles.</p>
+
+<p>Of course, KOing a Pokémon is not the only way to neutralize the threat it poses. We can also put it to sleep, burn it, or otherwise disable it before it has the chance to launch an attack. This is usually riskier as status-inducing moves tend to have lower accuracy, but the payoff is often much higher.</p>
+
+<p>It should be noted that even when both opponents present a threat, it's usually preferable to take one out altogether than to severely damage both. It's a judgment call. Is it better to focus our attacks on one Pokémon and hope the opponent doesn't Protect or switch, or do we hedge our bets and target both?</p>
+
+<h4><a name="retargeting">Move Re-targeting</a></h4>
+
+<p>In the Advance generation of Pokémon (Ruby, Sapphire, etc), Pokémon that fainted in a Double Battle had to be replaced by a teammate immediately, even in the middle of a turn. In Diamond and Pearl, this mechanic has changed. New Pokémon are now brought out at the very end of the round. The upshot of this is that if we perform a move that targets an opponent Pokémon that has already been KOed earlier in the round, the attack will automatically target the opponent still left on the field instead. This makes prediction somewhat easier.</p>
+
+<p>For instance, say that we're not sure whether our Rotom's Thunderbolt will KO the Wailord in one hit. If the Wailord has EVs in HP and/or Special Defense, it could survive a STAB Thunderbolt. If we're sure that our Thunderbolt will at least nearly KO the Wailord, we could also target the Wailord with a Flamethrower from our Arcanine. This way, if the Thunderbolt doesn't KO the Wailord, the Flamethrower will (hopefully) finish the job. If the Thunderbolt does KO the Wailord, the Flamethrower will instead target the Scizor or target whatever the Scizor switches to. Note that this all assumes that our Rotom is faster than our Arcanine. Relative Speed of our Pokémon is crucial when hedging our bets in this fashion. Also, remember that this tactic will backfire if the Wailord uses Protect.</p>
+
+<h3><a name="multi">Multi-Target Moves</a></h3>
+
+<p>There are certain attacks that, when used in a Double Battle, target multiple Pokémon. These can generally be divided into two types: Two-Target Attacks and Spread Attacks. Two-Target Attacks hit both opponents, while Spread Attacks hit both opponents and the user's partner. In Diamond and Pearl, whenever a move targets multiple Pokémon, its power is reduced to 75% of its normal strength. The disadvantage is that you won't hit either opponent with the full strength of the move. The advantage is that, resistances and weaknesses aside, you'll be dealing more damage overall.</p>
+
+<p>The exception to the 75% rule is the Last-Pokémon-Standing scenario. If a move that normally targets multiple Pokémon only has one target available, it will have full power. Surprisingly, this includes situations where multiple Pokémon are hit, but all Pokémon hit before the final target are KOed by the attack. Say that our Arcanine uses Heat Wave against the Scizor and the Wailord. Multi-target attacks always hit Pokémon with higher Speed before Pokémon with lower Speed. Let's say the Scizor is faster than the Wailord. It will be hit by a Heat Wave at 75% power, which works out to a 75 Base Power, Fire-type move, enough to KO the Scizor. The Wailord will then be hit with the full strength of Heat Wave, a 100 Base Power, Fire-type move.</p>
+
+<p>Another disadvantage of multi-target moves that should be noted is the inability to choose a target. If, for instance, your opponent has both a Ninetales and a Forretress on the field, you may want to think twice about using Heat Wave. It will probably KO the Forretress, but it will also activate the Ninetales's Flash Fire ability. It is unusual but not unheard of for a Pokémon to have two damaging attacks of the same type: a targeted attack and a multi-target attack. Before deciding to do this, consider your team and the rest of the Pokémon's moveset. Can it afford to lose both of those slots? How often will it be using each attack?</p>
+
+<h4><a name="two-target">Two-Target Attacks</a></h4>
+
+<p>Two-Target Attacks include Hyper Voice, Heat Wave, Eruption, Muddy Water, Water Spout, Icy Wind, Blizzard, and Rock Slide. Attacks like these have the advantage of hitting both opponents but not affecting your ally. Since they don't target your partner, these attacks are far more flexible in terms of when you can use them. With Two-Target Attacks, it's also much easier to take advantage of the Last-Pokémon-Standing bonus than it is with Spread attacks, since your ally doesn't have to be KOed to activate the effect.</p>
+
+<h4><a name="spread">Spread Attacks</a></h4>
+
+<p>Spread attacks include Selfdestruct, Explosion, Lava Plume, Surf, Discharge, Magnitude, and Earthquake. When using these attacks, it's best to have a partner that can absorb, avoid, or at least take very little damage from the attack. Alternatively, the partner could carry Protect or Detect, although this tends to be more limiting. In some cases, Spread attacks carry the advantage of aiding your ally. For instance, Surf could damage both opponents while healing your ally with Water Absorb. However, Spread attacks cannot take advantage of the Last-Pokémon-Standing bonus unless your partner is KOed.</p>
+
+<h3><a name="switching">Switching</a></h3>
+
+<p>Experienced Single Battlers are familiar with the concept of a 'counter.' A counter to Pokémon X is a Pokémon Y that can safely switch into any of Pokémon X's attacks and pose a threat to Pokémon X with its own moves. Many Singles teams are constructed and judged based on what they can counter. This often leads to a great deal of switching during matches as each player tries to gain an advantage by outpredicting the other.</p>
+
+<p>In Double Battles, the concept of a 'counter' does not exist the way it does in Single Battles. It is often impossible to switch in a Pokémon that can resist the moves of both its opponents. Because of this, switching is less frequent in Double Battles and carries a much higher cost. Although you may switch to a more favorable Pokémon, your opponent may concentrate its efforts on your other Pokémon. Or, if they can predict your switch, they may even focus their fire on the Pokémon you bring in, KOing it before it gets a chance to act.</p>
+
+<p>In Single Battles, there are generally two reasons to switch: either the opponent Pokémon poses a threat to you or you don't pose a threat to the opponent. Often both of these things are true. We will refer to a switch made to avoid damage as a defensive switch and a switch made to pose a threat as an offensive switch. Ideally, most of your switches will be both defensive and offensive.</p>
+
+<p>There are four types of switches in Doubles: defensive switches, offensive switches, rescue switches, and the surprise combo. I will talk about each of these in turn, going into detail about how each one fits into the Doubles environment. I will stress that just like a Singles switch, you will nearly always want your switch to fit the criteria of at least two of the above.</p>
+
+<p>Note: It should be mentioned that because switching is less frequent in Double Battles, moves such as Spikes, Toxic Spikes, and Stealth Rock are much less common. This in turn means that Rapid Spin, while not useless, is not a requirement for most Doubles Teams.</p>
+
+<h4><a name="defensive">Defensive Switching</a></h4>
+
+<p>Defensive switches in Doubles are usually only a good idea in cases where one of the opponent's Pokémon outspeeds your Pokémon and can KO it in one hit. The reason that many people claim that Double Battles are all about speed and power is because they get into an arms race for these things and neglect their defenses. If your opponent's fast, frail sweepers are faster than your fast, frail sweepers, they're likely to win. With the advent of the Choice Scarf, this can become even more ridiculous.</p>
+
+<p>Although you could join the race and attempt to find and breed the best possible combination of frail, fast sweepers, in most cases you'll be better off using other methods to mitigate the damage you take. First of all, make your Pokémon bulkier than you would in Singles; see the section on 'EV Distribution' above. Second, use the type-resist Berries on Pokémon with obvious weaknesses. A well EVed Luxray loses less than a third of its HP from most STAB Earthquakes after Intimidate and a Shuca Berry are factored in. In the meantime, your partner has severely damaged or KOed the offending Ground-type with Ice Beam. Finally, have a couple of priority attacks like Quick Attack and Ice Shard on hand to finish off Pokémon you don't KO due to having fewer EVs in your attack stats or your opponent having a Focus Sash. With these tips, you can help reduce damage done and, more importantly, reduce the number of situations in which you have to lose a turn to make a defensive switch.</p>
+
+<p>When you do make a defensive switch, the guidelines are pretty much the same as in Singles. Try to predict what move or moves your opponent is targeting your Pokémon with and switch to something that can take the hit. If you can catch a side benefit from an ability like Flash Fire or Motor Drive, so much the better.</p>
+
+<p>Finally, there will be situations in which one of your opponents will pose a great threat to both your Pokémon, but the other poses relatively little threat to either. For example, say that you have a Machamp and a Dusknoir and your opponent has a Porygon-Z and an Umbreon. The Porygon-Z has Tri-Attack, Shadow Ball, and has raised Special Attack from Download. You're pretty sure that with Umbreon's Helping Hand, it can take out your Machamp with one Tri-Attack and your Dusknoir with one Shadow Ball and you know that it outspeeds both your Pokémon. Technically, both of your Pokémon fit the criteria for a defensive switch (assuming that something in your team can survive both these attacks), but the thing to notice is that our opponent can't take out both of our Pokémon at once.</p>
+
+<p>So, we have three choices here. First, we can switch both Pokémon (or Protect with one and switch the other), attempting to replace Machamp with something that can take a Tri-Attack and Dusknoir with something that can take a Shadow Ball. Even assuming that our opponent doesn't predict this, we would have to make sure what we brought out could deal with the threat. This is probably our worst option. Second, we could try to predict which of our Pokémon will be targeted, switch or Protect with that Pokémon, and take out the Porygon-Z with the other. This is the option with the highest risk, but also the highest return. Finally, knowing that the opponent can't KO both our Pokémon at once, we could just sacrifice one and take the Porygon-Z down with the other. This is less risky than the second option, but we're virtually guaranteed to lose a Pokémon. When it comes down to it, the choice between options 2 and 3 should depend on whether we think we can still win the match without both our Machamp and our Dusknoir (and whether we feel lucky).</p>
+
+<h4><a name="offensive">Offensive Switching</a></h4>
+<p>An offensive switch is probably the worst type of switch to have to make in Doubles. As mentioned under the 'Attack Type Coverage' section above, it is rare that both opponents will resist all four moves of one of your Pokémon. However, when it happens, suddenly the two-on-two battle has become a two-on-one battle. Your opponent is essentially free to focus their attention on your other Pokémon, and this is often what a skilled opponent will do because they'll expect you to switch out your dead-weight Pokémon. Unless you expect the situation to change for the better in the following round (your other Pokémon takes out one of the two opponents, etc.), you may have to suck it up and make the switch.</p>
+
+<p>An offensive switch is also sometimes a good idea in order to switch out a Pokémon that the opponent has put to sleep or disabled in some similar way. This happens more frequently and it's often a judgment call whether to switch or stick it out. The advantage here is that once the Pokémon wakes up, it gets an immediate (and theoretically crippling) attack.</p>
+
+<p>To avoid having to make offensive switches too often, try to make sure that most Pokémon on your team have decent type coverage for their attacks and a status or support move; see the section on 'Attack Type Coverage' section above.</p>
+
+<h4><a name="rescue">Rescue Switching</a></h4>
+
+<p>In Doubles, if a Pokémon is threatened, there are certain cases where it can be saved by switching its partner. For example, say that we have a Dodrio and a Snorlax and our opponent has a Jolteon and a Gallade. We predict that the Jolteon will Thunderbolt our Dodrio and the Gallade will use a Fighting move like Close Combat on our Snorlax. It looks like we'll almost have to switch out or sacrifice both our Pokémon (both very costly options). However, let's instead switch our Snorlax out for our Lightningrod Marowak. Because of Lightningrod, Jolteon's Thunderbolt instead targets the Marowak, doing nothing. Then our Dodrio uses Drill Peck on the Gallade, possibly KOing it. As an added bonus, their Jolteon has become much less of a threat with the Marowak out, allowing us to focus our attentions on its partner next turn. Now that's what I call a turnaround!</p>
+
+<p>That was an extreme example, but similar opportunities arise more often than you might think. The abilities that can potentially save your partner in this fashion are Air Lock, Cloud Nine, Damp, Drizzle, Drought, Flower Gift, Intimidate, Lightningrod, Sand Stream, Snow Warning, Storm Drain, and Trace. Some of these are much more reliable than others. For instance, Intimidate could lower your opponents' Attack enough to prevent them from KOing your partner, whereas Snow Warning is limited to raising the evasion of a partner with Snow Cloak.</p>
+
+<p>Although Rescue Switches can be very useful, you will nearly always want to make sure that the Pokémon switching in isn't too threatened by the opponent's Pokémon and that it poses a threat itself. After all, you don't want to have to switch the Pokémon out again immediately.</p>
+
+<h4><a name="surprise_combo">The Surprise Combo</a></h4>
+
+<p>A surprise combo switch is one in which your non-switching Pokémon uses an attack that is either aided by or avoided by the Pokémon switching in. For instance, if you're up against a Garchomp and a Raichu, you might guess that the Garchomp would avoid using Earthquake because it would KO the Raichu. Of course, this is not necessarily true. For one thing, the Raichu could use Protect to avoid the damage. Alternatively, the opponent could pull a surprise combo, switching Raichu out for Gyarados, avoiding hurting its partner and getting an Intimidate out of the deal. A similar trick can be (and often is) used with Explosion and a Ghost-type, or any other Spread attack with something that absorbs or resists it. Using the switch in this way makes your plan less obvious to your opponent, although a skilled player may still out-predict you. It also has the advantage of freeing up moveslots that would otherwise have to be filled by Protect or Detect and it doesn't have that nasty 50% failure chance when used consecutively.</p>
+
+<h3><a name="stat-ups">Stat-Ups</a></h3>
+
+<p>Using stat-up moves such as Curse and Dragon Dance on your Pokémon in Double Battles isn't much different than using them in Single Battles. The thing to remember is that if one of your Pokémon starts setting up with one of these moves, that Pokémon will immediately be perceived as a greater threat to your foe. They are more likely to focus their efforts on it in order to neutralize the threat, whether by KOing it or crippling it with a status effect. This could be a good or bad thing, but you'll want to be ready for it.</p>
+
+<h3><a name="power">The Power of Knowledge</a></h3>
+
+<p>As experienced battlers know, Pokémon is all about prediction. Therefore, knowledge is key. The more we know about our opponent's team, the more effective our predictions can be. In Diamond and Pearl, the keen observer has more opportunities than ever before to gain information about the opponent's team through new moves, abilities, and changes to the game engine. Some of the information in the following sections is only applicable to Double Battles, while the rest is pertinent to Single Battles as well.</p>
+
+<h4><a name="process">The Process of Elimination</a></h4>
+
+<p>Sometimes what the game doesn't tell us is as important as what it does tell us. On the face of it, Forewarn seems like a bad ability because it only tells us about one move that the opponent's Pokémon have. However, because it tells us about our opponents' most powerful move, it can also give us information about what moves they don't have.</p>
+
+<p>For example, let's say we're up against an Ampharos and a Bronzong. If our Hypno's Forewarn ability warns us that the Ampharos has Counter, we know the following useful pieces of information:</p>
+
+<ol>
+<li>The Ampharos has Counter (effectively 120 power).</li>
+<li>The Ampharos doesn't have Focus Punch (150 power).</li>
+<li>The Bronzong doesn't have Explosion (250 power).</li>
+</ol>
+
+<p>These are crucial facts that can help us decide what action to take. Without this information, we might be wasting turns Protecting because we expect an Explosion. We also know that we have the option of focusing our attention on the Bronzong (before it uses Trick Room) without fear of a Focus Punch from the Ampharos. The downside is that the opponent also knows that we know what we know, so they might not waste turns using Counter with their Ampharos.</p>
+
+<p>The Anticipation ability can be used in a similar fashion to determine if the opponents have Explosion or 1-Hit KO moves. Whiscash and Wormadam-S work best for this because they only have one weakness each. So if neither opponent can learn a Grass-type move, but Whiscash's Anticipation makes it shudder, you know that the opponent has either a 1-Hit KO move or Explosion.</p>
+
+<p>Changing gears, a few Pokémon that have two possible abilities have one ability with a warning and one ability without. Notable examples include Arcanine, Hypno, Hitmontop, Pinsir, Gardevoir, Banette, Absol, and Luxray. If a Gardevoir is sent out and doesn't Trace one of your abilities, don't try to poison, paralyze, or burn it because it has Synchronize. If the Hypno doesn't use Forewarn or the Banette doesn't Frisk you, don't try to put them to sleep; they have Insomnia. If Pinsir doesn't announce that it has Mold Breaker, it has Hyper Cutter and Intimidate isn't going to lower its Attack.</p>
+
+<h4><a name="determining">Determining Relative Speed</a></h4>
+
+<p>One interesting change made to the Doubles environment during the transition to Diamond and Pearl is the order in which multi-target moves affect the Pokémon. They always hit the Pokémon with the highest Speed first, then the next-fastest Pokémon, and so on. The Speed stat used for this calculation includes all temporary changes to the actual Speed stat such as the boosts from Agility or a Choice Scarf as well as the penalties from paralysis or an Iron Ball. When either you or your opponent uses an attack that hits both sides, you can use this information to determine the relative Speed of all Pokémon targeted by the attack.</p>
+
+<p>For instance, say that we start the match with Ambipom and Magnezone and our opponent leads with Heracross and Gyarados. Bad news for us. The first thing that will happen is that the Gyarados's Intimidate will hit Ambipom, and then hit Magnezone. This tells our opponent right up front that our Ambipom is faster than our Magnezone. No big surprise there. Now let's say that on the first turn, we predict a Close Combat from Heracross aimed at our Ambipom and an Earthquake from the Gyarados. To buy ourselves some time, we choose to Fake Out the Heracross with Ambipom and replace our Magnezone with our Tangrowth, figuring we can finish off the Heracross with Ambipom on the second turn and have Tangrowth Sleep Powder the Gyarados before it can Dragon Dance more than once.</p>
+
+<p>After we select these options, the first turn begins. First, our Magnezone switches out and our Tangrowth replaces it. Second, Ambipom uses Fake Out on Heracross. Third, a message appears saying that the Heracross flinched. Finally, Gyarados uses Earthquake. It hits Heracross first for a small amount of damage. Next it hits Ambipom and finally Tangrowth. Before the Earthquake went off, we were thinking that it might have been a good idea to take out the Heracross with an Aerial Ace from our Ambipom. However, since Gyarados's Earthquake hit Heracross first, we now know that it's faster than our Ambipom. It must have a Choice Scarf! Using this new knowledge, we can adjust our strategy and hopefully save our Ambipom for later in the match.</p>
+
+<p>Situations like the one just described are not uncommon. Always keep your eyes open and try to glean as much information as you can while the battle is in progress. Unfortunately, battles that take place using Pokémon Battle Revolution give us slightly less information. If two Pokémon have adjacent ranks in Speed and take damage from a multi-target move, Battle Revolution will usually show them both being hit simultaneously, robbing us of potential information. However, if one or both of two Pokémon with adjacent Speed rankings are not damaged by the attack (due to Protect, Levitate, Water Absorb, a type immunity, etc.), then you will be able to see the relative Speed as normal.</p>
+
+<p>Note: Each end-of-turn effect also hits Pokémon in order of decreasing Speed. This can give us similar information if multiple Pokémon are affected by sandstorm, etc.</p>
+
+<h2><a name="where">Where To Go From Here</a></h2>
+
+<p>This concludes the Double Battle Primer. I hope you found it interesting and informative. Most of all, I hope you've gained some interest in Double Battles! Unfortunately, at the time of this writing there exists no online simulator for the Doubles environment. If you have the patience to train a team on the cartridge games, you shouldn't have too much trouble finding other players interested in Double Battles. If you own a Wii and PBR, you can test your teams there, although there is unfortunately no way to set a tier for randomized battles, so you may frequently find your team pitted against much more or much less powerful Pokémon.</p>
+
+<p>You may have noticed that in this guide, I've tried to avoid talking about specific Double Battle strategies in too much depth. For that information, I plan to write a companion guide, "Double Battle Strategies." By no means is it required reading before you create your first Doubles Team, but I recommend that you at least read through the sections on Multi-target moves, Protect/Detect, Fake Out, and Trick Room because they will acquaint you with some of the most common strategies your opponents will be using in the Double Battle environment.</p>
+
+<p>Take care and happy battling!</p>

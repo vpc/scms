@@ -1,0 +1,795 @@
+[title]
+RNG Manipulation of Bred Pokémon
+[head]
+<meta name="description" content="Emerald RNG Abuse Guide Part 1 - RNG Manipulation of Bred Pokémon." />
+<script type="text/javascript" src="/media/jquery.js"></script>
+<script type="text/javascript" src="/media/jquery.tablesorter.js"></script>
+
+[page]
+
+
+        <div class="author">By <a href="/forums/member.php?u=5962">Arseus</a>.</div>
+        <ul class="toc">
+            <li><a href="emerald_rng_intro">Introduction and General Preparations</a></li>
+            <li>RNG Manipulation of Bred Pokémon
+                <ul>
+                    <li><a href="#intro">Introduction</a></li>
+                    <li><a href="#prepare">Preparations</a></li>
+                    <li><a href="#spread_selection">The A Bs and Spread Selection</a>
+                        <ul>
+                            <li><a href="#regular_spreads">Regular Spreads</a></li>
+                            <li><a href="#trickroom_spreads">Trick Room Spreads</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#parents">Parents and Locking into an Egg</a></li>
+                    <li><a href="#resetting">Soft Resetting</a></li>                    
+                </ul>
+            </li>
+            <li><a href="emerald_rng_part2">RNG Manipulation of Method 1 Pokémon</a></li>
+            <li><a href="emerald_rng_part3">RNG Manipulation of Wild Pokémon</a></li>
+            <li><a href="emerald_rng_part4">RNG Manipulation of Egg PIDs</a></li>                         
+        </ul>
+        
+        <h2><a name="intro">Introduction</a></h2>
+        <p>If you are new to the world of breeding, it is highly recommended that you take a quick look at 
+        <a href="/forums/member.php?u=2412">X-Act</a> and <a href="/forums/member.php?u=1430">Peterko's</a>
+        <a href="/ingame/guides/breeding_guide_part1">Breeding Guide</a> to familiarize yourself with the breeding process.</p>
+        <p>As you are most likely aware, the IVs of bred Pokémon are determined in part by its parents, ultimately at the mercy of the RNG. Using the predictable nature of Emerald’s RNG, it is possible to determine two things for any given frame: which IVs will be passed from which parents, and what the remaining IVs will be. It is possible to control both these factors by generating an Egg's IVs on a frame that yields optimal results. Now would be a good time to note that RNG manipulation of bred Pokémon deals solely with their IVs; it is much easier to set the Pokémon’s nature, ability, and gender by letting the RNG run its course.</p>
+        
+        <h2><a name="prepare">Preparations</a></h2>
+        <p>Before you go any further, make sure that you have a Pokémon with the ability Flame Body or Magma Armor. This Pokémon is a quintessential member of your party when you are breeding; if you have a Pokémon with one of the aforementioned abilities in your party while travelling with an Egg, the amount of steps required to hatch said Egg will be halved. A list of Pokémon that can have either of these useful abilities is as follows:</p>
+        <dl>
+            <dt>Magmar, Slugma, Magcargo, Magby, and Camerupt</dt>
+            <dd>Slugma and Magcargo can only have either Magma Armor or Flame Body, and Slugma is readily available in Emerald, so it is your best bet. Slugma can be found both on the Fiery Path, or on Route 113.</dd>
+        </dl>        
+        <p>Another tip to note is that having a female (or Ditto, if it is being used) hold an Everstone results in a 50% chance of the Everstone holder's nature being passed down to its offspring. This is extremely useful for getting an Egg that has the desired traits (nature, ability, and gender) before resetting for its IVs. The Everstone is found in Granite Cave. The last item that you will need to speed up the breeding process is the Mach Bike. Since Eggs are generated and hatched through steps, it makes sense to use the fastest method of transportation. Register it to Select, if you have not already.</p>
+        
+        <h2><a name="spread_selection">The A Bs and Spread Selection</a></h2>
+        <p>The first step in manipulating the RNG for bred Pokémon is selecting a suitable IV spread. Do not worry about having good parents at this point; the parent Pokémon will be dependant on the spread you choose. On the subject of parents, it is important to note that the parents you place in the Day Care are assigned a value of either "A" or "B". A parent in the "A" slot will always pass on the IVs of "A", and vice versa.</p>
+        <p>When you place two Pokémon in the Day Care, the first Pokémon you deposit will be assigned the "A" value, while the second is assigned "B". In order to check the slots, make sure the Day Care man does not have an Egg, and talk to his wife. When she asks you if you would like one of your Pokémon back, say "YES", and the screen where you select a Pokémon to withdraw will appear. The Pokémon that is listed first has a value of "A", and the second is "B". Due to the way the Day Care works, the second Pokémon can be replaced at any time, and still be assigned "B" when it is placed in the Day Care. However, removing the first Pokémon will cause the second to move up on the list; the Pokémon previously assigned "B" will be designated the value of "A". As such, both Pokémon should be withdrawn if the first Pokémon needs to be replaced; the new parent should be deposited first in order to be assigned the "A" value.</p>
+        
+        <h3><a name="regular_spreads">Regular Spreads</a></h3>
+        <p>Now that the values of "A" and "B" have been clarified, breeding spreads will make a whole lot more sense. That said, here 
+        is a list of good spreads to get you started:</p>
+        <table id="regular_spreads_tbl" class="sortable">
+            <thead>
+                <tr>
+                    <th>Frame</th>
+                    <th>Time</th>
+                    <th>HP</th>
+                    <th>Atk</th>
+                    <th>Def</th>                                                                                
+                    <th>SpA</th>
+                    <th>SpD</th>
+                    <th>Spe</th>
+                    <th>Description</th>                    
+                </tr>
+            </thead>
+<tbody>
+                <tr>
+                    <td>40523</td>
+                    <td>11:15.38</td>
+                    <td>31</td>
+                    <td>14</td>
+                    <td>30</td>
+                    <td>A</td>
+                    <td>A</td>
+                    <td>A</td>
+                    <td>Hidden Power Bug</td>
+                </tr>
+                <tr>
+                    <td>13930</td>
+                    <td>3:52.16</td>
+                    <td>31</td>
+                    <td>11</td>
+                    <td>B</td>
+                    <td>B</td>
+                    <td>A</td>
+                    <td>30</td>
+                    <td>Hidden Power Bug</td>
+                </tr>
+                <tr>
+                    <td>35106</td>
+                    <td>9:45.10 </td>
+                    <td>31</td>
+                    <td>A</td>
+                    <td>31</td>
+                    <td>A</td>
+                    <td>A</td>
+                    <td>30</td>
+                    <td>Mixed Bug Hidden Power Bug</td>
+                </tr>
+                <tr>
+                    <td>51258</td>
+                    <td>14:14.30</td>
+                    <td>30</td>
+                    <td>B </td>
+                    <td>B</td>
+                    <td>31</td>
+                    <td>B</td>
+                    <td>31</td>
+                    <td>Mixed Bug Hidden Power Bug</td>
+                </tr>    
+                <tr>
+                    <td>34198</td>
+                    <td>9:29.96 </td>
+                    <td>A</td>
+                    <td>31</td>
+                    <td>B</td>
+                    <td>30</td>
+                    <td>31</td>
+                    <td>A</td>
+                    <td>Mixed Hidden Power Electric</td>
+                </tr>    
+                <tr>
+                    <td>28696</td>
+                    <td>7:58.26 </td>
+                    <td>B</td>
+                    <td>B</td>
+                    <td>30</td>
+                    <td>31</td>
+                    <td>B</td>
+                    <td>30</td>
+                    <td>Mixed Hidden Power Electric</td>
+                </tr>
+                <tr>
+                    <td>29545</td>
+                    <td>8:12.41</td>
+                    <td>A</td>
+                    <td>6</td>
+                    <td>A</td>
+                    <td>30</td>
+                    <td>A</td>
+                    <td>30</td>
+                    <td>Hidden Power Fire</td>
+                </tr>    
+                <tr>
+                    <td>34198</td>
+                    <td>9:29.96</td>
+                    <td>A</td>
+                    <td>31</td>
+                    <td>B</td>
+                    <td>30</td>
+                    <td>31</td>
+                    <td>A</td>
+                    <td>Mixed Hidden Power Fire</td>
+                </tr>
+                <tr>
+                    <td>944</td>
+                    <td>0:15.73</td>
+                    <td>B</td>
+                    <td>19</td>
+                    <td>A</td>
+                    <td>30</td>
+                    <td>30</td>
+                    <td>B</td>
+                    <td>Hidden Power Fighting</td>
+                </tr>    
+                <tr>
+                    <td>16381</td>
+                    <td>4:33.01</td>
+                    <td>30</td>
+                    <td>B</td>
+                    <td>31</td>
+                    <td>A</td>
+                    <td>B</td>
+                    <td>30</td>
+                    <td>Mixed Hidden Power Fighting</td>
+                </tr>
+                <tr>
+                    <td>943<strong>S</strong></td>
+                    <td>0:15.71</td>
+                    <td>B</td>
+                    <td>31</td>
+                    <td>A</td>
+                    <td>30</td>
+                    <td>30</td>
+                    <td>B</td>
+                    <td>Mixed Hidden Power Fighting</td>
+                </tr>    
+                <tr>
+                    <td>944</td>
+                    <td>0:15.73</td>
+                    <td>B</td>
+                    <td>19</td>
+                    <td>A</td>
+                    <td>30</td>
+                    <td>30</td>
+                    <td>B</td>
+                    <td>Hidden Power Flying</td>
+                </tr>
+                <tr>
+                    <td>11306</td>
+                    <td>3:08.43</td>
+                    <td>30</td>
+                    <td>14</td>
+                    <td>A</td>
+                    <td>30</td>
+                    <td>A</td>
+                    <td>A</td>
+                    <td>Hidden Power Flying</td>
+                </tr>
+                <tr>
+                    <td>943<strong>S</strong></td>
+                    <td>0:15.71</td>
+                    <td>B</td>
+                    <td>31</td>
+                    <td>A</td>
+                    <td>30</td>
+                    <td>30</td>
+                    <td>B</td>
+                    <td>Mixed Hidden Power Flying</td>
+                </tr>
+                <tr>
+                    <td>10851</td>
+                    <td>3:00.85 </td>
+                    <td>A</td>
+                    <td>10</td>
+                    <td>B</td>
+                    <td>B</td>
+                    <td>31</td>
+                    <td>31</td>
+                    <td>Hidden Power Grass</td>
+                </tr>    
+                <tr>
+                    <td>34198</td>
+                    <td>9:29.96</td>
+                    <td>A</td>
+                    <td>31</td>
+                    <td>B</td>
+                    <td>30</td>
+                    <td>31</td>
+                    <td>A</td>
+                    <td>Mixed Hidden Power Grass</td>
+                </tr>
+                <tr>
+                    <td>10850<strong>S</strong></td>
+                    <td>3:00.83</td>
+                    <td>A</td>
+                    <td>30</td>
+                    <td>B</td>
+                    <td>B</td>
+                    <td>31</td>
+                    <td>31</td>
+                    <td>Mixed Hidden Power Grass</td>
+                </tr>    
+                <tr>
+                    <td>944</td>
+                    <td>0:15.73</td>
+                    <td>B</td>
+                    <td>19</td>
+                    <td>A</td>
+                    <td>30</td>
+                    <td>30</td>
+                    <td>B</td>
+                    <td>Hidden Power Ground</td>
+                </tr>
+                <tr>
+                    <td>16381</td>
+                    <td>4:33.01</td>
+                    <td>30</td>
+                    <td>B</td>
+                    <td>31</td>
+                    <td>A</td>
+                    <td>B</td>
+                    <td>30</td>
+                    <td>Mixed Hidden Power Ground</td>
+                </tr>    
+                <tr>
+                    <td>943<strong>S</strong></td>
+                    <td>0:15.71</td>
+                    <td>B</td>
+                    <td>31</td>
+                    <td>A</td>
+                    <td>30</td>
+                    <td>30</td>
+                    <td>B</td>
+                    <td>Mixed Hidden Power Ground</td>
+                </tr>
+                <tr>
+                    <td>10851</td>
+                    <td>3:00.85 </td>
+                    <td>A</td>
+                    <td>10</td>
+                    <td>B</td>
+                    <td>B</td>
+                    <td>31</td>
+                    <td>31</td>
+                    <td>Hidden Power Ice</td>
+                </tr>    
+                <tr>
+                    <td>35106</td>
+                    <td>9:45.10 </td>
+                    <td>31</td>
+                    <td>A</td>
+                    <td>31</td>
+                    <td>A</td>
+                    <td>A</td>
+                    <td>30</td>
+                    <td>Mixed Hidden Power Ice</td>
+                </tr>
+                <tr>
+                    <td>51258</td>
+                    <td>14:14.30 </td>
+                    <td>30</td>
+                    <td>B</td>
+                    <td>B</td>
+                    <td>31</td>
+                    <td>B</td>
+                    <td>31</td>
+                    <td>Mixed Hidden Power Ice</td>
+                </tr>    
+                <tr>
+                    <td>28696</td>
+                    <td>7:58.26</td>
+                    <td>B</td>
+                    <td>B</td>
+                    <td>30</td>
+                    <td>31</td>
+                    <td>B</td>
+                    <td>30</td>
+                    <td>Hidden Power Rock</td>
+                </tr>
+                <tr>
+                    <td>35106</td>
+                    <td>9:45.10 </td>
+                    <td>31</td>
+                    <td>A</td>
+                    <td>31</td>
+                    <td>A</td>
+                    <td>A</td>
+                    <td>30</td>
+                    <td>Mixed Hidden Power Rock</td>
+                </tr>
+                <tr>
+                    <td>13930</td>
+                    <td>3:52.16 </td>
+                    <td>31</td>
+                    <td>11</td>
+                    <td>B</td>
+                    <td>B</td>
+                    <td>A</td>
+                    <td>30</td>
+                    <td>Hidden Power Water</td>
+                </tr>
+                <tr>
+                    <td>16381</td>
+                    <td>4:33.01 </td>
+                    <td>30</td>
+                    <td>B</td>
+                    <td>31</td>
+                    <td>A</td>
+                    <td>B</td>
+                    <td>30</td>
+                    <td>Mixed Hidden Power Water</td>
+                </tr>    
+                <tr>
+                    <td>73781</td>
+                    <td>20:29.68</td>
+                    <td>31</td>
+                    <td>B</td>
+                    <td>B</td>
+                    <td>31</td>
+                    <td>A</td>
+                    <td>31</td>
+                    <td>Mixed Hidden Power Water</td>
+                </tr>
+                <tr>
+                    <td>2391</td>
+                    <td>0:39.85</td>
+                    <td>31</td>
+                    <td>4</td>
+                    <td>31</td>
+                    <td>A</td>
+                    <td>A</td>
+                    <td>B</td>
+                    <td>Flawless Special</td>
+                </tr>    
+                <tr>
+                    <td>15117</td>
+                    <td>4:11.95</td>
+                    <td>31</td>
+                    <td>B</td>
+                    <td>A</td>
+                    <td>21</td>
+                    <td>31</td>
+                    <td>A</td>
+                    <td>Flawless Physical</td>
+                </tr>
+                <tr>
+                    <td>73781</td>
+                    <td>20:29.68</td>
+                    <td>31</td>
+                    <td>B</td>
+                    <td>B</td>
+                    <td>31</td>
+                    <td>A</td>
+                    <td>31</td>
+                    <td>Flawless</td>
+                </tr>    
+                <tr>
+                    <td>14417<strong>S</strong></td>
+                    <td>4:00.28</td>
+                    <td>B</td>
+                    <td>A</td>
+                    <td>31</td>
+                    <td>31</td>
+                    <td>B</td>
+                    <td>31</td>
+                    <td>Flawless</td>
+                </tr>                                                                               <tbody>                            
+        </table>
+                
+        <h3><a name="trickroom_spreads">Trick Room Spreads</a></h3>
+        <p>Trick Room is a move introduced in Pokémon Diamond and Pearl that causes slower Pokémon to move first while Trick Room is in effect. While this move is not present in the third generation, you may wish to breed Trick Room Pokémon for use in fourth generation games. As such, a list of good Trick Room Spreads is as follows:</p>
+        <table id="trickroom_spreads_tbl" class="sortable">
+            <thead>
+                <tr>
+                    <th>Frame</th>
+                    <th>Time</th>
+                    <th>HP</th>
+                    <th>Atk</th>
+                    <th>Def</th>                                                                                
+                    <th>SpA</th>
+                    <th>SpD</th>
+                    <th>Spe</th>
+                    <th>Description</th>                    
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1304</td>
+                    <td>0:21.73 </td>
+                    <td>31</td>
+                    <td>19</td>
+                    <td>B</td>
+                    <td>A</td>
+                    <td>A</td>
+                    <td>2</td>
+                    <td>Hidden Power Bug</td>                                                                                                                                                                
+                </tr>
+                <tr>
+                    <td>45573</td>
+                    <td>12:39.55</td>
+                    <td>30</td>
+                    <td>31</td>
+                    <td>A</td>
+                    <td>A</td>
+                    <td>30</td>
+                    <td>B</td>
+                    <td>Mixed Hidden Power Bug</td>                                                                                                                                                                
+                </tr>    
+                <tr>
+                    <td>32015</td>
+                    <td>8:53.58 </td>
+                    <td>31</td>
+                    <td>10</td>
+                    <td>B</td>
+                    <td>30</td>
+                    <td>A</td>
+                    <td>B</td>
+                    <td>Hidden Power Fire</td>                                                                                                                                                                
+                </tr>
+                <tr>
+                    <td>34198</td>
+                    <td>9:29.96</td>
+                    <td>A</td>
+                    <td>31</td>
+                    <td>B</td>
+                    <td>30</td>
+                    <td>31</td>
+                    <td>A</td>
+                    <td>Mixed Hidden Power Fire</td>                                                                                                                                                                
+                </tr>    
+                <tr>
+                    <td>30732</td>
+                    <td>8:32.20 </td>
+                    <td>A</td>
+                    <td>7</td>
+                    <td>B</td>
+                    <td>30</td>
+                    <td>B</td>
+                    <td>3</td>
+                    <td>Hidden Power Electric</td>                                                                                                                                                                
+                </tr>
+                <tr>
+                    <td>40523</td>
+                    <td>11:15.38 </td>
+                    <td>31</td>
+                    <td>14</td>
+                    <td>30</td>
+                    <td>A</td>
+                    <td>A</td>
+                    <td>A</td>
+                    <td>Hidden Power Electric</td>                                                                                                                                                                
+                </tr>    
+                <tr>
+                    <td>32260</td>
+                    <td>8:57.66</td>
+                    <td>B</td>
+                    <td>B</td>
+                    <td>A</td>
+                    <td>30</td>
+                    <td>31</td>
+                    <td>3</td>
+                    <td>Mixed Hidden Power Electric</td>                                                                                                                                                                
+                </tr>
+                <tr>
+                    <td>65776</td>
+                    <td>18:16.26</td>
+                    <td>31</td>
+                    <td>A</td>
+                    <td>A</td>
+                    <td>A</td>
+                    <td>31</td>
+                    <td>2</td>
+                    <td>Mixed Hidden Power Electric</td>                                                                                                                                                                
+                </tr>    
+                <tr>
+                    <td>944</td>
+                    <td>0:15.73 </td>
+                    <td>B</td>
+                    <td>19</td>
+                    <td>A</td>
+                    <td>30</td>
+                    <td>30</td>
+                    <td>B</td>
+                    <td>Hidden Power Fighting</td>                                                                                                                                                                
+                </tr>
+                <tr>
+                    <td>48846</td>
+                    <td>13:34.10 </td>
+                    <td>31</td>
+                    <td>B</td>
+                    <td>B</td>
+                    <td>30</td>
+                    <td>B</td>
+                    <td>2</td>
+                    <td>Mixed Hidden Power Fighting</td>                                                                                                                                                                
+                </tr>    
+                <tr>
+                    <td>943<strong>S</strong></td>
+                    <td>0:15.71</td>
+                    <td>B</td>
+                    <td>31</td>
+                    <td>A</td>
+                    <td>30</td>
+                    <td>30</td>
+                    <td>B</td>
+                    <td>Mixed Hidden Power Fighting</td>                                                                                                                                                                
+                </tr>
+                <tr>
+                    <td>944</td>
+                    <td>0:15.73</td>
+                    <td>B</td>
+                    <td>19</td>
+                    <td>A</td>
+                    <td>30</td>
+                    <td>30</td>
+                    <td>B</td>
+                    <td>Hidden Power Flying</td>                                                                                                                                                                
+                </tr>    
+                <tr>
+                    <td>11306</td>
+                    <td>3:08.43</td>
+                    <td>30</td>
+                    <td>14</td>
+                    <td>A</td>
+                    <td>30</td>
+                    <td>A</td>
+                    <td>A</td>
+                    <td>Hidden Power Flying</td>                                                                                                                                                                
+                </tr>
+                <tr>
+                    <td>48846</td>
+                    <td>13:34.10</td>
+                    <td>31</td>
+                    <td>B</td>
+                    <td>B</td>
+                    <td>30</td>
+                    <td>B</td>
+                    <td>2</td>
+                    <td>Mixed Hidden Power Flying</td>                                                                                                                                                                
+                </tr>    
+                <tr>
+                    <td>7380</td>
+                    <td>2:03.00 </td>
+                    <td>B</td>
+                    <td>14</td>
+                    <td>A</td>
+                    <td>A</td>
+                    <td>31</td>
+                    <td>3</td>
+                    <td>Hidden Power Grass</td>                                                                                                                                                                
+                </tr>
+                <tr>
+                    <td>32260</td>
+                    <td>8:57.66</td>
+                    <td>B</td>
+                    <td>B</td>
+                    <td>A</td>
+                    <td>30</td>
+                    <td>31</td>
+                    <td>3</td>
+                    <td>Mixed Hidden Power Grass</td>                                                                                                                                                                
+                </tr>    
+                <tr>
+                    <td>944</td>
+                    <td>0:15.73</td>
+                    <td>B</td>
+                    <td>19</td>
+                    <td>A</td>
+                    <td>30</td>
+                    <td>30</td>
+                    <td>B</td>
+                    <td>Hidden Power Ground</td>                                                                                                                                                                
+                </tr>
+                <tr>
+                    <td>943<strong>S</strong></td>
+                    <td>0:15.71</td>
+                    <td>B</td>
+                    <td>31</td>
+                    <td>A</td>
+                    <td>30</td>
+                    <td>30</td>
+                    <td>B</td>
+                    <td>Mixed Hidden Power Ground</td>                                                                                                                                                                
+                </tr>    
+                <tr>
+                    <td>7380</td>
+                    <td>2:03.00 </td>
+                    <td>B</td>
+                    <td>14</td>
+                    <td>A</td>
+                    <td>A</td>
+                    <td>31</td>
+                    <td>3</td>
+                    <td>Hidden Power Ice</td>                                                                                                                                                                
+                </tr>
+                <tr>
+                    <td>76036</td>
+                    <td>21:07.26</td>
+                    <td>31</td>
+                    <td>30</td>
+                    <td>B</td>
+                    <td>A</td>
+                    <td>A</td>
+                    <td>3</td>
+                    <td>Mixed Hidden Power Ice</td>                                                                                                                                                                
+                </tr>
+                <tr>
+                    <td>98935</td>
+                    <td>27:28.91 </td>
+                    <td>30</td>
+                    <td>A</td>
+                    <td>A</td>
+                    <td>31</td>
+                    <td>A</td>
+                    <td>3</td>
+                    <td>Mixed Hidden Power Ice</td>                                                                                                                                                                
+                </tr>
+                <tr>
+                    <td>1304</td>
+                    <td>0:21.73</td>
+                    <td>31</td>
+                    <td>19</td>
+                    <td>B</td>
+                    <td>A</td>
+                    <td>A</td>
+                    <td>2</td>
+                    <td>Hidden Power Rock</td>                                                                                                                                                                
+                </tr>    
+                <tr>
+                    <td>47472</td>
+                    <td>13:11.20</td>
+                    <td>30</td>
+                    <td>B</td>
+                    <td>31</td>
+                    <td>B</td>
+                    <td>30</td>
+                    <td>A</td>
+                    <td>Mixed Hidden Power Rock</td>                                                                                                                                                                
+                </tr>
+                <tr>
+                    <td>6197<strong>S</strong></td>
+                    <td>1:43.28</td>
+                    <td>31</td>
+                    <td>B</td>
+                    <td>B</td>
+                    <td>B</td>
+                    <td>30</td>
+                    <td>2</td>
+                    <td>Mixed Hidden Power Rock</td>                                                                                                                                                                
+                </tr>    
+                <tr>
+                    <td>1304</td>
+                    <td>0:21.73</td>
+                    <td>31</td>
+                    <td>19</td>
+                    <td>B</td>
+                    <td>A</td>
+                    <td>A</td>
+                    <td>2</td>
+                    <td>Hidden Power Water</td>                                                                                                                                                                
+                </tr>
+                <tr>
+                    <td style="height: 24px">48846</td>
+                    <td style="height: 24px">13:34.10 </td>
+                    <td style="height: 24px">31</td>
+                    <td style="height: 24px">B</td>
+                    <td style="height: 24px">B</td>
+                    <td style="height: 24px">30</td>
+                    <td style="height: 24px">B</td>
+                    <td style="height: 24px">2</td>
+                    <td style="height: 24px">Mixed Hidden Power Water</td>                                                                                                            th
+                    tdtd                                                                                                                                                                
+                                                                    
+                </tr>    
+                <tr>
+                    <td>2391</td>
+                    <td>0:39.85</td>
+                    <td>31</td>
+                    <td>4</td>
+                    <td>31</td>
+                    <td>A</td>
+                    <td>A</td>
+                    <td>B</td>
+                    <td>Flawless Special</td>                                                                                                                                                                
+                </tr>
+                <tr>
+                    <td>15117</td>
+                    <td>4:11.95</td>
+                    <td>31</td>
+                    <td>B</td>
+                    <td>A</td>
+                    <td>21</td>
+                    <td>31</td>
+                    <td>A</td>
+                    <td>Flawless Physical</td>                                                                                                                                                                
+                </tr>    
+                <tr>
+                    <td>33680<strong>S</strong></td>
+                    <td>9:21.33</td>
+                    <td>31</td>
+                    <td>31</td>
+                    <td>A</td>
+                    <td>A</td>
+                    <td>B</td>
+                    <td>0</td>
+                    <td>Flawless</td>                                                                                                                                                                
+                </tr>                                                                                                                                                                                                                                                                        
+            </tbody>
+        </table>
+            
+        <p>For a complete list of frames up to and including 100,000, please download the following <a href="/media/ingame/csv/emerald_breeding.zip">.csv file</a>.</p>
+        <p>You might notice that, aside from the "A" and "B" values, the IVs generated for bred Pokémon match those generated for method 1 Pokémon. This is because the game uses method 1 to generate the Pokémon's IVs before it replaces them with the pre-set values from the parents. However, there are odd occasions when the game opts to either use a different method from method 1 to generate IVs, or assign "A" and "B" values in a different way. What exactly triggers this event is unknown, but most of the results have been documented.</p>
+        <p>While searching for spreads, you will notice that certain spreads have an "S" after their frame. This means the frame in question is what is known as a "split" spread. Split spreads earn their name because they get the first half of their IVs from the "normal" spread that occurs on that frame, and the second half of their IVs from the spread that follows (the IVs they inherit are taken from the spread that follows). This is due to being created by method 4, rather than method 1. While split spreads occur at the same time as their normal counterparts (for example, 943S occurs at the same time as 943). Split spreads are the most common non-traditional spreads that you will encounter, though there is no known way to hit them consistently, other than through trial and error.</p>
+        <p>Another less common anomaly is the game going into what is known as "Alternate Inheritance" mode. Alternate Inheritance mode causes the IVs inherited by the parents to shift backwards one frame. This means that the IVs passed from the parents on frame 943 when using the vanilla method 1 generation will be inherited on frame 942 in Alternate Inheritance mode. This completely changes what spreads are viable; better spreads may occur with shorter wait times, and different parents than usual. However, Alternate Inheritance mode is very unorthodox in its appearances; when it occurs, it will be the method of IV generation for an indefinite amount of time, liable to disappear without notice. For this reason, it is best not to aim for an Alternate Inheritance spread right away; wait until you see different IVs being inherited to take advantage of it.</p>        
+                    
+        <h2><a name="parents">Parents and Locking into an Egg</a></h2>
+        <p>Once you have decided upon your spread, you will need to get parents with the right IVs. There are two ways to go about doing this, though they are best used in conjunction. The first way is to capture wild Pokémon that have the right IVs in the right places; Ditto is the main Pokémon you will want to go after, as a collection of Ditto with 31s in the right stats make any breeding project a lot easier. A Ditto may be required regardless, for breeding Pokémon such as Metagross, which have indeterminate genders. For information on how to capture Ditto or other wild Pokémon with the right IVs, see the section on 
+        <a href="/ingame/rng/emerald_rng_part3">RNG Manipulation of Wild Pokémon</a>. 
+        The second way is breeding the desired parents. This can be done by mass hatching eggs, or by aiming for spreads that have 31s set in the places that you need them. Regardless, by the end, you will want either a Ditto or a female of the desired species with the right nature.</p>
+        <p>Make sure that you know all the IVs of your parent Pokémon; this will later help you determine which IVs came from parents if you hit a spread that you were not aiming for. Once this is cleared up, deposit the parents in the Day Care, in the appropriate order: the desired "A" first, and "B" second (if you wish to confirm, simply check the order the old lady lists them in). Make sure that your party has five members at maximum, and one of them has the ability Flame Body or Magma Armor. Hop on the Mach Bike, and bike form Verdanturf Town to Route 118 and back until the old man has stepped forward, signifying he has an Egg. Bike up to the old man, then save your game. Now, take the Egg and bike between Verdanturf and Route 118 like before, until the Egg hatches. From here, go to the summary screen of the newly hatched Pokémon, and check if it has the nature, ability, and gender (if applicable) that you desire. If it does not, release it or deposit it in a PC Box, and repeat this process until you have hatched a Pokémon that has the ideal attributes, IVs notwithstanding. After hatching such an Egg, reset the game.</p>
+        <p>Since your save is in front of the old man, who is holding an Egg, you will now be effectively "locked in" to the Egg that you want; all that remains is to hit your desired IV spread. The other attributes (nature, ability, gender) of the Egg will stay the same as you keep resetting, until you save the game after receiving the Egg; this will be after you hit your spread.</p>
+        
+        <h2><a name="resetting">Soft Resetting</a></h2>    
+        <p>While soft resetting for your IVs, you will require your stopwatch or timer. Set the stopwatch to 0, or if you are using a timer, set it to the time when your spread is set to occur. Next, make sure that your game is on, and when you are prepared to reset, position your fingers so that you are pressing three of the four buttons required to perform a soft reset (A+B+Start+Select), and are ready to press the fourth and start the stopwatch or timer. The idea is that you will simultaneously hit the last button and start your timing device; this way it starts counting as soon as you reset. Ergonomically, it makes the most sense to have either A or B as the last button to press; be sure to release all the buttons immediately after the last one is hit!</p>
+        <p>Once the game has reset, rapidly tap the A button to skip the game's intro and start your file; continue to mash A once the game loads to begin talking to the old man. Do not let up until he says "Take good care of it," in reference to your Egg. As soon as you press A again, the Egg's IVs will be generated. What you want to do is press A at the time that generates your spread; when your timer runs out, or when your stopwatch reaches the desired time. If you are using a stopwatch, stop it at the same time you press A, in order to gauge what time you hit.</p>
+        <p>You must now hatch your Egg, and proceed determine its IVs. If you want a rough estimate of your IVs as soon as the Pokémon emerges from its Egg, or need to keep your Pokémon at a low level for Little Cup purposes, head to the Battle Frontier's "IV man", located in a building to the north of the Pokémon Center. He will tell you information about the total and highest IVs; if you are aiming for an essentially flawless Pokémon, it is possible to confirm your results from what he says.</p>
+        <p>To determine your Pokémon's exact IVs, you must level it up via Rare Candies. If it turns out you did not hit your spread, find which spread you actually hit, taking IVs passed from its parents into account. If you were not within a reasonable range of your spread, you will want to adjust your timing by finding the difference between the frame you hit, and the one that you actually wanted to, then adjusting your timing accordingly.</p>
+        <p>Say for example, you hit frame 2360 when you were aiming for frame 2391. Subtracting 2391 from 2361 yields 30; this was how many frames you missed the spread by. Remembering that the RNG advances by approximately 60 frames per second, divide the number of frames by 60 to find how many seconds to alter your timing. In this example, 30 divided by 60 is 0.5; you would press A 0.5 seconds later to increase your chances of hitting your spread. Usually, after adjusting your timing once or twice, you should be able to hit your desired IV spread after repeated attempts. With patience, you can breed your flawless Pokémon!</p>
+
+<script type="text/javascript">
+$("#regular_spreads_tbl").tablesorter({
+widgets: ['zebra'],
+textExtraction: "complex",
+headers: { 1:{sorter: false} }
+})
+
+$("#trickroom_spreads_tbl").tablesorter({
+widgets: ['zebra'],
+textExtraction: "complex",
+headers: { 1:{sorter: false} }
+})
+</script>

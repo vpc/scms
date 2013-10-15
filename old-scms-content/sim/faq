@@ -1,0 +1,135 @@
+[title]
+Frequently Asked Questions
+[head]
+<meta name="description" content="Answers some questions frequently asked on Smogon University's Pokemon Showdown server." />
+[page]
+<div class="author"> By <a href="/forums/member.php?u=127720">Marty D</a> and <a href="/forums/member.php?u=102803">Zarel</a>. Art by <a href="/forums/member.php?u=66676">Birkal</a>.</div>
+
+<p>These questions are commonly asked in the chat on Pok&eacute;mon Showdown. This FAQ is here to minimize the sheer number of questions asked every minute.</p>
+
+<p>If the question you have is not here, please ask in the chat or in the appropriate forum thread and it may be added here at a later time. Thanks to Relados for writing most of this up, and thanks to verbatim and shnen for their help in revising it.</p>
+
+<!--<p><strong>Q: It says "Ladder (probably) updated, but score could not be retrieved (error: socket hangup / corruption)"! Did Pok&eacute;mon Showdown just cheat me of my points?</strong></p>
+<p>A: The ladder might be unresponsive because of lag and your ranking might not change immediately after a battle. However, the ladder will most likely update after a while, so rest assured you did not play through that battle for nothing.</p>-->
+
+<p><strong>Q: What are the commands and how do I use them?</strong></p>
+<p>A: Type <span style="color:#F00;"><strong>/help</strong></span> or <span style="color:#F00;"><strong>/?</strong></span> to see a list of commonly used commands. You may type those commands directly in the chat to use them.</p>
+
+<div style="float: right; margin-left: 10px;">
+<img src="/media/upload/sim/faq_drifloon.png" alt="" /></div>
+
+<p><strong>Q: How do I change / choose my username?</strong></p>
+<p>A: Log out of your account using the gear button in the top right then click the "Choose name" button. You will be prompted to select a new name, and, provided it is not already taken, you will be able to use it.</p>
+
+<p><strong>Q: How do I register my username?</strong></p>
+<p>A: Win a rated battle. A button asking you to register will show up in the battle room and in the main chat. Clicking it will start the registration process. Alternatively, click the gear icon in the top right and select "Register".</p>
+
+<p><strong>Q: How do I change my avatar?</strong></p>
+<p>A: Type <strong><span style="color:#F00;">/avatar</span></strong> to see the list of avatars you can choose from. Type <strong><span style="color:#F00;">/avatar #</span></strong>, where # is the number of the avatar you want to have (the space between avatar and # is important). Currently your avatar will be reset to one of the defaults with each server restart.</p>
+
+<p><strong>Q: How do I check my rating / another user's rating?</strong></p>
+<p>A: Type <strong><span style="color:#F00;">/rank</span></strong> to see your own rating for all tiers. To see another user's rating, add a space and their username after the command.</p>
+
+<p><strong>Q: How do I change the color of my name?</strong></p>
+<p>A: You can't change the color of your username.</p>
+
+<p><a name="doubles"><strong>Q: Does Pok&eacute;mon Showdown support Double / Triple / Rotation battles?</strong></a></p>
+<p>A: Pok&eacute;mon Showdown currently supports double battles. You may challenge a foe or friend to several double battles formats: VGC 2013, <a href="/forums/showthread.php?t=3476469">Smogon Doubles</a>, Random Battle, Custom Game, or Challenge Cup. Furthermore, VGC 2013 is ladderable, as is Smogon Doubles. Pok&eacute;mon Showdown still does not support any of the other two, but there are plans to implement all of them at a later date, as well as Wonder Launcher battles.</p>
+
+<p><strong>Q: How do I make a team?</strong></p>
+<p>A: Click on Teambuilder on the left side of the screen, and it will walk you through the steps to make your team.</p>
+
+<p><strong>Q: How do I import teams from PO?</strong></p>
+<p>A: First, export the teams from PO. Copy the text of your team and then click the Import/Export button on the Pok&eacute;mon Showdown  Teambuilder. Paste the text in there and click Save.</p>
+
+<p><strong>Q: My teams keep getting deleted. What is going on?</strong></p>
+<p>A: Pok&eacute;mon Showdown currently saves teams in your browser's storage. Deleting your cookies will delete your teams. You may either change the setting on your browser or go to Backup/Restore in the Teambuilder and copy your teams to save them in a text file for easy importing later if you are afraid of losing them.</p>
+
+<!--<p><strong>Q: How do I delete a Pokemon in the Teambuilder?</strong></p>
+<p>A: Usually, what you want to do is replace it with another Pokemon. To do this, simply change its species. If you really need to delete a Pokemon, click Import/Export and delete the text for the Pokemon you want to remove.</p>
+
+<p><strong>Q: How do I change the order of my team?</strong></p>
+<p>A: Once a team has been made you can click Import/Export and copy / paste the Pokemon and its moveset to a different position.</p>-->
+
+<p><strong>Q: How do I use the team I just made in a battle?</strong></p>
+<p>A: Select a tier other than Random Battle from the drop down menu underneath "Format:" in the top left corner of the screen.</p>
+
+<p><strong>Q: How do I save a log of the battle to watch later?</strong></p>
+<p>A: After you have finished a battle, click the Share Replay button. In a few seconds, a window will pop up with a link to your battle saved on the Pok&eacute;mon Showdown Replay Viewer. This link can be shared and will show a full replay of your battle including animations. If you were not in the battle, you can type <strong><span style="color:#F00;">/savereplay</span></strong> at any point to save the replay. If it says "Hash Mismatch", your replay had already been saved; you can search for it <a href="http://www.pokemonshowdown.com/replay/">here</a>.</p>
+
+<p><strong>Q: What is GXE?</strong></p>
+<p>A: GXE stands for <a href="/forums/showthread.php?t=51169">Glicko X-Act Estimate</a>. The number shown is the percentage that a player has of winning against any other random player.</p>
+
+<p><strong>Q: What is CAP?</strong></p>
+<p>A: Type <strong><span style="color:#F00;">/cap</span></strong> for an introduction to the Create-A-Pokemon project.</p>
+
+<p><strong>Q: What is Balanced Hackmons / Hackmons?</strong></p>
+<p>A: Please see the thread for <a href="/forums/showthread.php?t=3463764">Balanced Hackmons</a>. Hackmons is the same idea, except there are no restrictions at all.</p>
+
+<p><strong>Q: What is Glitchmons?</strong></p>
+<p>A: Please see the thread for <a href="/forums/showthread.php?t=3467120">Glitchmons</a>.</p>
+
+<p><strong>Q: What is Gen-NEXT OU?</strong></p>
+<p>A: Gen-NEXT is Zarel's personal mod. You can see the manifesto <a href="https://github.com/Zarel/Pokemon-Showdown/blob/master/mods/gennext/README.md">here</a>.</p>
+
+<p><strong>Q: How can I find information on a certain Pokemon / item / move / ability?</strong></p>
+<p>A: Type <strong><span style="color:#F00;">/data</span></strong> then a space and the name of whatever it is you want information about (not case-sensitive).</p>
+
+<p><strong>Q: Can [Pokemon] learn [move]?</strong></p>
+<p>A: Type <strong><span style="color:#F00;">/learn Pokemon, move</span></strong> to check whether the selected move can be learned by the selected Pokemon.</p>
+
+<p><strong>Q: Why did [move] raise / lower my [stat] by [X] stages instead of lowering / raising it?</strong></p>
+<p>A: Your Pokemon had the Ability Contrary, which reverses stat stage changes.</p>
+
+<p><strong>Q: Why did [move] raise / lower my [stat] by two stages instead of one?</strong></p>
+<p>A: Your Pokemon had the Ability Simple, which doubles stat stage changes.</p>
+
+<p><strong>Q: How do I report bugs or make a suggestion?</strong></p>
+<p>A: There is a <a href="/forums/showthread.php?t=3469932">Bug Reports thread</a> and a <a href="/forums/showthread.php?t=3469608">Suggestions thread</a> for these purposes.</p>
+
+<p><strong>Q: How do I send a user a private message?</strong></p>
+<p>A: One way is to scroll down through the list of online users and clicking on their name. A box will appear that has various commands on the bottom. Click PM open a box to private message them. You may also type <strong><span style="color:#F00;">/msg username, message</span></strong> or <strong><span style="color:#F00;">/w username, message</span></strong>, where username is their username and message is what you want to say to them (the space and the comma are important).</p>
+
+<p><strong>Q: How do I challenge another user to a battle?</strong></p>
+<p>A: As with private messaging, click on their name on the online users list. Click the Challenge button, select the specifications (tier, your team), and challenge them. If they choose to accept your challenge, the battle will begin. You may also type <strong><span style="color:#F00;">/challenge username</span></strong>, where username is their username (the space between challenge and username is important).</p>
+
+<p><strong>Q: What do symbols next to a person's name mean?</strong></p>
+<p>A: Type <strong><span style="color:#F00;">/groups</span></strong> to see this list at any time. See the <a href="/sim/staff_faq">staff faq</a> for more information.</p>
+<ul>
+<li>+ Voice - They can use ! commands such as !groups, and talk during moderated chat</li>
+<li>% Driver - The above, and they can also mute users and check for alts</li>
+<li>@ Moderator - The above, and they can ban users</li>
+<li>&amp; Leader - The above, and they can promote moderators and force ties</li>
+<li>~ Administrator - They can do anything</li>
+<li># Room Owner - They are the owner of the room
+<li>&#8253; Locked - This user cannot talk in rooms or in PM</li>
+<li>! Muted - This player cannot speak in this room</li>
+</ul>
+
+<p><strong>Q: What is a good rating?</strong></p>
+<p>A: What is and isn't a good rating generally depends on the tier and how active it is. Check the top 100 players on the ladder to get a better idea.</p>
+
+<p><strong>Q: What does provisional mean and why aren't I in the top 100?</strong></p><p>A: Provisional means that the deviation of your ranking is greater than 100. To remove your provisional status, simply play more battles until your deviation falls below 100. Having a provisional ranking will always place you below players whose rank is not provisional, and is likely why you are not shown in the top 100.</p>
+
+<p><strong>Q: What is this move called Magikarp's Revenge?</strong></p>
+<p>A: Magikarp's Revenge was designed for testing multiple effects on the same move. It is not a real move and is not allowed in standard battles, although you can use it in Debug Mode.</p>
+
+<p><a name="deviation"><strong>Q: Why did this user gain / lose so many points at once?</strong></a></p>
+<p>A: He had a high deviation. The more you play, the less deviation you have. Deviation shows how much your score is prone to change after a battle.</p>
+
+<p><a name="randomcap"><strong>Q: What is this fakemon that appeared in Random Battle and why is it here?</strong></a></p>
+<p>A: Random Battles feature the CAP Pokemon that are created by the Smogon community. Once again, type <strong><span style="color:#F00;">/cap</span></strong> for an introduction to the Create-A-Pokemon project.</p>
+
+<p><a name="restarts"><strong>Q: Why is the server shutting down?</strong></a></p>
+<p>A: In order to implement new features, to solve bugs or to get rid of lag, the server needs to restart time to time. Don't worry, the server restarts once most battles have ended and new battles are prevented from starting. The restart itself lasts for just 0.4 seconds.</p>
+
+<p><strong>Q: Can I host a tournament? Is there a tournament system on Pok&eacute;mon Showdown?</strong></p>
+<p>A: There is no tournament system currently in place on Pokemon Showdown. You can host tournaments by using an external bracket generator such as Challonge, so long as you do not disrupt the chat with your tournament announcements. The Tournaments room is designed for hosting these tournaments.</p>
+
+<p><strong>Q: Are leagues allowed on Pok&eacute;mon Showdown?</strong></p>
+<p>A: Pok&eacute;mon Showdown does not officially support leagues; however, please feel free to use the Leagues room to discuss your league or issue challenges, etc.</p>
+
+<p>Please try not to ask any of these questions in the main chat.</p>
+
+<h2 style="text-align: left; ">
+                        <img src="/media/upload/sim/faq_quagsire.png" alt="" /></h2>

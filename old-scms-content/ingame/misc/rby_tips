@@ -1,0 +1,786 @@
+[title]
+RBY Tips and Tricks
+[head]
+<meta name="description" content="Various Tips and Tricks for Red, Blue, and Yellow, courtesy of Aeron Ee1" />
+[page]
+<div class="author">By <a href="/forums/member.php?u=42173">Aeron Ee1</a>. Art by <a href="/forums/member.php?u=37526">BinarySolo</a>.</div>
+<img src="/media/upload/ingame/misc/rbytricks.png"/>
+<ol class="toc">
+<li><a href="#cloning">Cloning Pokemon</a></li>
+<li><a href="#walk">Walk Through Walls</a>
+<li><a href="#mew">The Mew Glitch</a>
+<ul>
+<li><a href="#long">Long-Distance Trainers</a></li>
+</ul>
+</li>
+<li><a href="#ditto">Ditto Glitch</a></li>
+<li><a href="#old">Old Man (Missingno.) Glitch</a>
+<ul>
+<li><a href="#missingno">Missingno. Pokemon Generators</a></li>
+</ul>
+</li>
+<li><a href="#evolving">Evolving Pokemon without Evolutionary Stones</a></li>
+<li><a href="#safari">Catching Safari Zone Pokemon</a></li>
+<li><a href="#level">Leveling 1 to 100 Glitch</a></li>
+<li><a href="#link">Link Cable Glitch</a>
+<ul>
+<li><a href="#decimal">Pokemon Decimal Listing</a></li>
+</ul>
+</li>
+<li><a href="#yellow">Yellow-Only Tips and Tricks</a>
+<ul>
+<li><a href="#rival">Easier Rival</a></li>
+</ul>
+</li>
+</ol>
+
+<h2><a name="cloning">Cloning Pokémon</a></h2>
+
+<p>Pokémon can be cloned in Gen I by abusing the trading mechanic. All that is needed is two Gen I games with a Pokémon to be cloned on on cartridge and a Pokémon that can be deleted on the other cartridge. Both games must also have progressed to the point that trading is possible.</p>
+ 
+<p>To start the process, begin trading the two Pokémon. When the screen reads "Waiting...", shut off the game that had the Pokémon to be cloned on it. After restarting both games, the cloned Pokémon will be present on both cartridges while the other Pokémon is deleted.</p>
+ 
+<p>It shoud be noted that Pokémon can also be cloned by switching boxes in Bill's PC, although this method tends to result in corrupted game data and loss of saved games. The steps to this glitch can be found in the Generation II Tips and Tricks compilation.</p>
+ 
+<h2><a name="walk">Walk Through Walls</a></h2>
+
+<p>Using the Walk Through Walls glitch allows the player to bypass many of the storyline elements that keep certain areas unreachable. Collecting hidden items, skipping dungeon puzzles, and encountering Mewtwo early are all made easier via this glitch.</p>
+ 
+<p><strong>Method:</strong></p>
+<ol>
+<li>Get one of your Pokemon poisoned.</li>
+<li>Once one Pokemon is poisoned, Fly to Fuschia City.</li>
+<li>Deposit all of your Pokemon <strong>except</strong> the one that got poisoned.</li>
+<li>Enter the Safari Zone.</li>
+<li>Exit the Safari Zone. When asked, "Leaving early?" reply "NO."</li>
+<li>Save your game and reset.</li>
+<li>Exit the Safari Zone again. You will be asked to enter the Safari Zone for $500. Reply "NO."</li>
+<li>Walk for 499 steps. On your 500th step jump off of a ledge. You will be teleported to the Safari Zone lobby. You now have the ability to walk through walls.</li>
+</ol>
+
+<p>The glitch will no longer work if you:</p>
+<ul>
+<li>Battle a trainer.</li>
+<li>Fly or Teleport to any location.</li>
+<li>Go inside a building.</li>
+<li>Go outside too far and have the game crash (these crashes will not damage your game).</li>
+<li>Save your game and turn it off.</li>
+</ul>
+
+<p>The glitch is unaffected by:</p>
+<ul>
+<li>Capturing or battling wild Pokemon.</li>
+<li>Talking to NPCs, including the old man for the Missingno. Glitch.</li>
+<li>Using the PC.</li>
+</ul> 
+
+<h2><a name="mew">The Mew Glitch</a></h2>
+
+<p>Forcing this glitch allows the player to obtain a Level 7 Mew. It is a variant of another glitch, commonly known as the Ditto Glitch. However, for this glitch to happen, the player must not have battled two trainers from the list below (known as long-distance Trainers) and have a Pokémon who knows Fly in your party.</p>
+ 
+<p><strong>Method:</strong></p>
+<ol>
+<li>Approach a long-distance Trainer so that you are one tile out of their line of vision.</li>
+<li>Take the one step needed to enter their view, but press the start button before they have the chance to engage you in battle.</li>
+<li>Use Fly and go to another long-distance Trainer.</li>
+<li>Cross this Trainer's view as far away from them as you can get (crossing their path any closer can cause the game to freeze).</li>
+<li>After defeating the second long-distance trainer, Fly close to the first Trainer and start walking near them.</li>
+<li>When the start menu comes up, press B. Once the menu closes, you will engage in a battle against a Level 7 Mew.</li>
+</ol>
+ 
+<h3><a name="long">Long-Distance Trainers</a></h3>
+<dl>
+<dt>Route 8:</dt>
+<dd>Gambler closest to the entry of the underground tunnel.</dd>
+<dt>Route 9:</dt>
+<dd>Male Jr. Trainer saying, "I'm taking the ROCK TUNNEL to go to LAVENDER..."</dd>
+<dt>Route 11:</dt>
+<dd>Youngster located in the upper-right corner of the route.</dd>
+<dd>Youngster farthest south.</dd>
+<dt>Route 12:</dt>
+<dd>Second Fisherman you meet as you walk south of Lavender Town. </dd>
+<dt>Route 17:</dt>
+<dd>Second farthest north Biker.</dd>
+<dt>Route 19:</dt>
+<dd>Swimmer looking upwards from a cluster of four trainers.</dd>
+<dd>Beauty looking right from a cluster of four trainers.</dd>
+<dd>Swimmer saying, "I tried diving for POKEMON, but it was a no go!"</dd>
+<dd>Swimmer saying, "What's beyond the horizon?"</dd>
+<dt>Route 20:</dt>
+<dd>Swimmer in upper-right hand corner of the route.</dd>
+<dd>Beauty saying, "My boyfriend gave me big pearls!"</dd>
+<dd>Beauty saying, "CINNABAR, in the west, has a LAB for POKEMON."</dd>
+<dt>Route 21:</dt>
+<dd>Swimmer south of bridge with 2 Fishermen. (1)</dd>
+<dd>Swimmer south of bridge with 2 Fishermen. (2)</dd>
+<dt>Route 24:</dt>
+<dd>Male Jr. Trainer left of the Nugget Bridge.</dd> 
+<dt>Fourth Floor of Silph Co.:</dt>
+<dd>Rocket that is on the right side of the table.</dd>
+<dd>Rocket that is the farthest left and down on the floor.</dd> 
+<dt>Eighth Floor of Silph Co.:</dt>
+<dd>Rocket that is farthest south of all.</dd>
+<dd>Rocket that is located in the lower right-hand corner of the floor.</dd>
+<dt>Ninth Floor of Silph Co.:</dt>
+<dd>Rocket located farthest south. (In the middle corridor)</dd> 
+<dt>Brock's Gym (Unusable):</dt>
+<dd>Only trainer in Brock's Gym.</dd> 
+<dt>Viridian Forest (Yellow ONLY)</dt>
+<dd>Next to last Bug Catcher. (Must use Escape Rope to leave)</dd>
+</dl>
+
+<h2><a name="ditto">Ditto Glitch</a></h2>
+
+<p>This variation of the Ditto Glitch can be used to receive an unlimited number of any species of Pokémon. In order for this glitch to have maximum effectiveness, the player must have a basic understanding of the hexidecimal and decimal systems used to identify Pokémon. This glitch will cause temporary loss of the start menu, but it will be restored after resetting the game.</p>
+ 
+<p><strong>Procedure:</strong></p>
+
+<ol>
+<li>Train a Pokémon so that its Special stat is the same as the decimal number of the Pokémon you want to receive, and keep it in your party for the remainder of the glitch.</li>
+<li>Approach a long-distance Trainer, walk into their view, and Fly away before they are able to battle you.</li>
+<li>Fly to any PokéCenter and save your game by switching boxes in Bill's PC (since the start menu is now gone).</li>
+<li>Reset the game, beat the Elite Four, then defeat the Champion.</li>
+<li>After defeating him, get in a battle with a wild Ditto and let it transform into the Pokémon with the calibrated Special stat.</li>
+<li>Run from the transformed Ditto and Fly back to the long-distance Trainer.</li>
+<li>Press B to exit the start menu when it appears. Once you press B you will be engaged in a battle with a Pokémon whose decimal identifier is the same as the calibrate Special stat.</li>
+</ol>
+ 
+<p>Other, non-infinite versions of this glitch can be found on other sites, including Glitch City Laboratories.</p>
+ 
+<h2><a name="old">Old Man (Missingno.) Glitch</a></h2>
+
+<p>This glitch can be used to obtain multiple glitch Pokémon, including Missingno. and Pokémon over Level 100. Missingno. can then be used to obtain 128 copies of the sixth item in your Bag at a time. However, it also results in some cosmetic or data changes to the game, some of which have the potential to make the entire game cartridge useless. These changes occur in the Hall of Fame portion of the PC; instead of your Pokémon's sprites showing up, glitched graphics will be displayed.</p>
+ 
+<p><strong>Prerequisites:</strong></p>
+
+<ul>
+<li>Game data that has progressed at least up to Cinnabar Island</li>
+<li>A Pokémon that knows the move Fly</li>
+<li>A Pokémon that knows the move Surf</li>
+</ul>
+ 
+<p><strong>Method</strong></p>
+<ol>
+<li>Go to Viridian City and talk to the old man who shows you how to catch Pokémon.</li>
+<li>Immediately after he completes his demonstration, Fly to Cinnabar Island.</li>
+<li>Go east until you reach the shore.</li>
+<li>Surf up and down the coast, staying as close to the shore as possible.</li>
+</ol>
+ 
+<p>Surfing in this location will cause many non-oceanic Pokémon—including those over Level 100—and glitch Pokémon like Missingno. or 'M to appear. Encountering either of these glitch Pokémon will give you 128 more copies of whatever your sixth item is. The other Pokémon you encounter are generated based on the third, fifth, and seventh letters of your character's name. Below is a list of which letters generate which Pokémon:</p>
+
+<h3><a name="missingno">Missingno. Pokémon Generators</a></h3>
+
+<table class="sortable" id="missingno_tbl">
+<thead>
+<tr>
+<th>Symbol</th>
+<th>Pokemon</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>A</td>
+<td>Golduck</td>
+</tr>
+<tr>
+<td>B</td>
+<td>Hypno</td>
+</tr>
+<tr class="a">
+<td>C</td>
+<td>Golbat</td>
+</tr>
+<tr>
+<td>D</td>
+<td>Mewtwo</td>
+</tr>
+<tr class="a">
+<td>E</td>
+<td>Snorlax</td>
+</tr>
+<tr>
+<td>F</td>
+<td>Magikarp</td>
+</tr>
+<tr class="a">
+<td>G</td>
+<td>Missingno.</td>
+</tr>
+<tr>
+<td>H</td>
+<td>Missingno.</td>
+</tr>
+<tr class="a">
+<td>I</td>
+<td>Muk</td>
+</tr>
+<tr>
+<td>J</td>
+<td>Missingno.</td>
+</tr>
+<tr class="a">
+<td>K</td>
+<td>Kingler</td>
+</tr>
+<tr>
+<td>L</td>
+<td>Cloyster</td>
+</tr>
+<tr class="a">
+<td>M</td>
+<td>Missingno.</td>
+</tr>
+<tr>
+<td>N</td>
+<td>Electrode</td>
+</tr>
+<tr class="a">
+<td>O</td>
+<td>Clefable</td>
+</tr>
+<tr>
+<td>P</td>
+<td>Weezing</td>
+</tr>
+<tr class="a">
+<td>Q</td>
+<td>Persian</td>
+</tr>
+<tr>
+<td>R</td>
+<td>Marowak</td>
+</tr>
+<tr class="a">
+<td>S</td>
+<td>Missingno.</td>
+</tr>
+<tr>
+<td>T</td>
+<td>Haunter</td>
+</tr>
+<tr class="a">
+<td>U</td>
+<td>Abra</td>
+</tr>
+<tr>
+<td>V</td>
+<td>Alakazam</td>
+</tr>
+<tr class="a">
+<td>W</td>
+<td>Pideotto</td>
+</tr>
+<tr>
+<td>X</td>
+<td>Pidgeot</td>
+</tr>
+<tr class="a">
+<td>Y</td>
+<td>Starmie</td>
+</tr>
+<tr>
+<td>Z</td>
+<td>Bulbasaur</td>
+</tr>
+<tr class="a">
+<td>(</td>
+<td>Venusaur</td>
+</tr>
+<tr>
+<td>)</td>
+<td>Tentacruel</td>
+</tr>
+<tr class="a">
+<td>:</td>
+<td>Missingno.</td>
+</tr>
+<tr>
+<td>;</td>
+<td>Goldeen</td>
+</tr>
+<tr class="a">
+<td>[</td>
+<td>Seaking</td>
+</tr>
+<tr>
+<td>]</td>
+<td>Missingno.</td>
+</tr>
+<tr class="a">
+<td>a</td>
+<td>Missingno.</td>
+</tr>
+<tr>
+<td>b</td>
+<td>Missingno.</td>
+</tr>
+<tr class="a">
+<td>c</td>
+<td>Missingno.</td>
+</tr>
+<tr>
+<td>d</td>
+<td>Ponyta</td>
+</tr>
+<tr class="a">
+<td>e</td>
+<td>Rapidash</td>
+</tr>
+<tr>
+<td>f</td>
+<td>Rattata</td>
+</tr>
+<tr class="a">
+<td>g</td>
+<td>Raticate</td>
+</tr>
+<tr>
+<td>h</td>
+<td>Nidorino</td>
+</tr>
+<tr class="a">
+<td>i</td>
+<td>Nidorina</td>
+</tr>
+<tr>
+<td>j</td>
+<td>Geodude</td>
+</tr>
+<tr class="a">
+<td>k</td>
+<td>Porygon</td>
+</tr>
+<tr>
+<td>l</td>
+<td>Aerodactyl</td>
+</tr>
+<tr class="a">
+<td>m</td>
+<td>Missingno.</td>
+</tr>
+<tr>
+<td>n</td>
+<td>Magnemite</td>
+</tr>
+<tr class="a">
+<td>o</td>
+<td>Missingno.</td>
+</tr>
+<tr>
+<td>p</td>
+<td>Missingno.</td>
+</tr>
+<tr class="a">
+<td>q</td>
+<td>Charmander</td>
+</tr>
+<tr>
+<td>r</td>
+<td>Squirtle</td>
+</tr>
+<tr class="a">
+<td>s</td>
+<td>Charmeleon</td>
+</tr>
+<tr>
+<td>t</td>
+<td>Wartortle</td>
+</tr>
+<tr class="a">
+<td>u</td>
+<td>Charizard</td>
+</tr>
+<tr>
+<td>v</td>
+<td>Missingno.</td>
+</tr>
+<tr class="a">
+<td>w</td>
+<td>Missingno.</td>
+</tr>
+<tr>
+<td>x</td>
+<td>Missingno.</td>
+</tr>
+<tr class="a">
+<td>y</td>
+<td>Missingno.</td>
+</tr>
+<tr>
+<td>z</td>
+<td>Oddish</td>
+</tr>
+</tbody>
+</table>
+ 
+<h2><a name="evolving">Evolving Pokemon without Evolutionary Stones</a></h2>
+
+<p><strong>Prerequisites:</strong></p>
+
+<ul>
+<li>A Pokémon that evolves by Evolution Stone, such as Clefairy, Staryu, or Pikachu, as the first Pokemon in your party.</li>
+<li>One of the following Pokemon, each one of which corresponds to an evolution stone, in your party.
+<ul>
+<li>Exeggutor - Moon Stone</li>
+<li>HEX 20 Missingno. - Fire Stone</li>
+<li>Psyduck - Leaf Stone</li>
+<li>Growlithe - Thunderstone</li>
+<li>Onix - Water Stone </li>
+</ul>
+</li>
+</ul>
+ 
+<p><strong>Method:</strong></p>
+
+<ol>
+<li>Get into a battle with a trainer or wild Pokémon (the former is the superior choice in most cases).</li>
+<li>Have the first Pokémon in your party—the one you're trying to evolve—gain a level.</li>
+<li>Switch out the Pokémon you're trying to evolve and put the Pokémon that corresponds to the necessary Evolution Stone.</li>
+<li>Have that Pokémon finish the trainer battle</li>
+</ol>
+ 
+<h2><a name="safari">Catching Safari Zone Pokémon</a></h2>
+
+<p>This glitch can be used to make encountering and catching hard-to-find Safari Zone Pokémon, like Chansey and Kangaskhan, easier. It can also be used to encounter any Pokemon from any Route simply by changing your location from the Safari Zone to the desired location. However, this glitch <strong>cannot</strong> be performed on the Yellow version.</p>
+ 
+<p><strong>Prerequisites:</strong></p>
+<ul>
+<li>Access to Fuscia City and Cinnibar Island</li>
+<li>A Pokémon with Fly</li>
+<li>A Pokémon with Surf</li>
+</ul>
+ 
+<p><strong>Method</strong></p>
+<ol>
+<li>Enter the Safari Zone.</li>
+<li>Either Retire or run around and use up all your time.</li>
+<li>Upon exiting, Fly to Cinnibar Island.</li>
+<li>Go to the coast that is next to the gym facing the Seafoam Islands.</li>
+<li>Surf up and down. You will run into Pokémon normally obtainable only in the Safari Zone and will be able to weaken and catch them without them running away.</li>
+</ol> 
+
+<h2><a name="level">Level 1 to 100 Glitch</a></h2>
+
+<p>Using this glitch will allow you to increase the level of a given Surprise Pokémon (one encountered using the Ditto or Mew Glitches) from Level 1 to Level 100 by manipulating how the game handles leveling up. Note that this can only be performed on three-stage Pokémon (ex. Bulbasaur line, Charmander line, ect.) and Mew.</p>
+ 
+<p><strong>Method:</strong></p>
+<ol>
+<li>Stand close enough to a long-ranged Trainer so that if you take one step towards them, they will challenge you.</li>
+<li>Hit start before the Trainer can walk up to you.</li>
+<li>Use Fly, Dig, Teleport, or an Escape Rope to transfer you to a Pokémon Center.</li>
+<li>Have a Pokémon that knows Growl.</li>
+<li>Growl at the desired Pokémon six times. This will make the Surprise Pokemon Level 1 (make sure this trainer has a vision of <strong>at least</strong> two tiles, so the Trainer can walk up to you; if the Trainer does not walk, your game will freeze).</li>
+<li>Defeat the trainer and make sure the last Pokemon you defeated had the desired Special stat.</li>
+<li>Return to the long-ranged Trainer.</li>
+<li>The start menu will pop up. Press B and exit it.</li>
+<li>Catch the Level 1 Surprise Pokémon.</li>
+<li>Make sure the Level 1 Pokémon is in the front of your party and that you have five other Pokémon.</li>
+<li>Encounter a Pokémon that is Level 9 or lower.</li>
+<li>Switch five times to <strong>different</strong> Pokémon. (This will make sure that you get less than 54 experience points.)</li>
+</ol>
+ 
+<p>If done correctly, the Surprise Pokémon will grow from Level 1 to 100, which is exceedingly helpful for those who don't want to use the Missingo. Glitch and don't have a Game Shark. It also makes it easier to Stat Exp. train your Pokémon using the <strong>Box Trick</strong>.</p>
+ 
+<h2><a name="link">Link Cable Glitch</a></h2>
+
+<p>Using this glitch will also allow one player to encounter Surprise Pokémon. For simplicity's sake, the two players involved in performing the glitch will be called A and B. It should also be noted that Player B must have a Pokémon that knows Dig in their party; Teleport and Escape Ropes are not usable substitutes.</p>
+ 
+<p><strong>Method:</strong></p>
+<ol>
+<li>A trains a Pokémon until its Special is the number needed to generate the desired Pokémon.</li>
+<li>A deposits all of his Pokémon to the PC until he / she is left only with the Pokémon that has calibrated Special stat.</li>
+<li>B triggers a long-ranged Trainer event and beats another Trainer. If the latter is not possible, follow these steps:
+<ol>
+<li>Go to the PC.</li>
+<li>Change the Pokémon Box.</li>
+<li>Reset.</li>
+<li>Reload and beat the Pokémon League.</li>
+</ol>
+</li>
+<li>B enters the Safari Zone.</li>
+<li>B exits the Safari Zone, but when asked, "Leaving early?", replies "No."</li>
+<li>Once B is back in the Safari Zone, B saves his / her game <strong>without</strong> moving.</li>
+<li>B resets and loads his / her game.</li>
+<li>B exits the Safari Zone (this time, B won't be asked, "Leaving early?").</li>
+<li>A and B link up and battle at the Colosseum.</li>
+<li>B defeats A.</li>
+<li>After the battle, B starts walking around inside the Colosseum. A resets and loads his / her game (after B takes 500 steps, the PA will ring; B will be transported back to the Safari House).</li>
+<li>B enters the Safari Zone again (once inside, B does not go into any fields).</li>
+<li>B uses Dig to return to the last Pokémon Center visited.</li>
+<li>B walks back to the long-ranged Trainer that he's triggered.</li>
+<li>B's start menu will pop up.</li>
+<li>B will close the Start menu and a Surprise Pokémon will appear. It will be the desired Pokémon.</li>
+<li>B catches it.</li>
+<li>B goes to the nearest PC and changes the Pokémon Box.</li>
+<li>B loads his / her game. B's Save option will be back on the Start menu and the Reset option will be gone.</li>
+</ol>
+ 
+<h3><a name="decimal">Pokémon Decimal Listing</a></h3>
+<ol>
+<li>Rhydon</li>
+<li>Kangaskhan</li>
+<li>Nidoran (M)</li>
+<li>Clefairy</li>
+<li>Spearow</li>
+<li>Voltorb</li>
+<li>Nidoking</li>
+<li>Slowbro</li>
+<li>Ivysaur</li>
+<li>Exeggutor</li>
+<li>Lickitung</li>
+<li>Exeggcute</li>
+<li>Grimer</li>
+<li>Gengar</li>
+<li>Nidoran (F)</li>
+<li>Nidoqueen</li>
+<li>Cubone</li>
+<li>Rhyhorn</li>
+<li>Lapras</li>
+<li>Arcanine</li>
+<li>Mew</li>
+<li>Gyarados</li>
+<li>Shellder</li>
+<li>Tentacool</li>
+<li>Gastly</li>
+<li>Scyther</li>
+<li>Staryu</li>
+<li>Blastoise</li>
+<li>Pinsir</li>
+<li>Tangela</li>
+<li>Missingno.</li>
+<li>Missingno.</li>
+<li>Growlithe</li>
+<li>Onix</li>
+<li>Fearow</li>
+<li>Pidgey</li>
+<li>Slowpoke</li>
+<li>Kadabra</li>
+<li>Graveler</li>
+<li>Chansey</li>
+<li>Machoke</li>
+<li>Mr. Mime</li>
+<li>Hitmonlee</li>
+<li>Hitmonchan</li>
+<li>Arbok</li>
+<li>Parasect</li>
+<li>Psyduck</li>
+<li>Drowzee</li>
+<li>Golem</li>
+<li>Missingno.</li>
+<li>Magmar</li>
+<li>Missingno.</li>
+<li>Electabuzz</li>
+<li>Magneton</li>
+<li>Koffing</li>
+<li>Missingno.</li>
+<li>Mankey</li>
+<li>Seel</li>
+<li>Diglett</li>
+<li>Tauros</li>
+<li>Missingno.</li>
+<li>Missingno.</li>
+<li>Missingno.</li>
+<li>Farfetch'd</li>
+<li>Venonat</li>
+<li>Dragonite</li>
+<li>Missingno.</li>
+<li>Missingno.</li>
+<li>Missingno.</li>
+<li>Doduo</li>
+<li>Poliwag</li>
+<li>Jynx</li>
+<li>Moltres</li>
+<li>Articuno</li>
+<li>Zapdos</li>
+<li>Ditto</li>
+<li>Meowth</li>
+<li>Krabby</li>
+<li>Missingno.</li>
+<li>Missingno.</li>
+<li>Missingno.</li>
+<li>Vulpix</li>
+<li>Ninetales</li>
+<li>Pikachu</li>
+<li>Raichu</li>
+<li>Missingno.</li>
+<li>Missingno.</li>
+<li>Dratini</li>
+<li>Dragonair</li>
+<li>Kabuto</li>
+<li>Kabutops</li>
+<li>Horsea</li>
+<li>Seadra</li>
+<li>Missingno.</li>
+<li>Missingno.</li>
+<li>Sandshrew</li>
+<li>Sandslash</li>
+<li>Omanyte</li>
+<li>Omastar</li>
+<li>Jigglypuff</li>
+<li>Wigglytuff</li>
+<li>Eevee</li>
+<li>Flareon</li>
+<li>Jolteon</li>
+<li>Vaporeon</li>
+<li>Machop</li>
+<li>Zubat</li>
+<li>Ekans</li>
+<li>Paras</li>
+<li>Poliwhirl</li>
+<li>Poliwrath</li>
+<li>Weedle</li>
+<li>Kakuna</li>
+<li>Beedrill</li>
+<li>Missingno.</li>
+<li>Dodrio</li>
+<li>Primeape</li>
+<li>Dugtrio</li>
+<li>Venomoth</li>
+<li>Dewgong</li>
+<li>Missingno.</li>
+<li>Missingno.</li>
+<li>Caterpie</li>
+<li>Metapod</li>
+<li>Butterfree</li>
+<li>Machamp</li>
+<li>Missingno.</li>
+<li>Golduck</li>
+<li>Hypno</li>
+<li>Golbat</li>
+<li>Mewtwo</li>
+<li>Snorlax</li>
+<li>Magikarp</li>
+<li>Missingno.</li>
+<li>Missingno.</li>
+<li>Muk</li>
+<li>Missingno.</li>
+<li>Kingler</li>
+<li>Cloyster</li>
+<li>Missingno.</li>
+<li>Electrode</li>
+<li>Clefable</li>
+<li>Weezing</li>
+<li>Persian</li>
+<li>Marowak</li>
+<li>Missingno.</li>
+<li>Haunter</li>
+<li>Abra</li>
+<li>Alakazam</li>
+<li>Pidgeotto</li>
+<li>Pidgeot</li>
+<li>Starmie</li>
+<li>Bulbasaur</li>
+<li>Venusaur</li>
+<li>Tentacruel</li>
+<li>Missingno.</li>
+<li>Goldeen</li>
+<li>Seaking (Beyond this point, you will need to use the Ditto Glitch or the Missingno. Glitch to get a "Surprise Pokémon.")</li>
+<li>Missingno.</li>
+<li>Missingno.</li>
+<li>Missingno.</li>
+<li>Missingno.</li>
+<li>Ponyta</li>
+<li>Rapidash</li>
+<li>Rattata</li>
+<li>Raticate</li>
+<li>Nidorino</li>
+<li>Nidorina</li>
+<li>Geodude</li>
+<li>Porygon</li>
+<li>Aerodactyl</li>
+<li>Missingno.</li>
+<li>Magnemite</li>
+<li>Missingno.</li>
+<li>Missingno.</li>
+<li>Charmander</li>
+<li>Squirtle</li>
+<li>Charmeleon</li>
+<li>Wartortle</li>
+<li>Charizard</li>
+<li>Missingno.</li>
+<li>Missingno.</li>
+<li>Missingno.</li>
+<li>Missingno.</li>
+<li>Oddish</li>
+<li>Gloom</li>
+<li>Vileplume</li>
+<li>Bellsprout</li>
+<li>Weepinbell</li>
+<li>Victreebel (Beyond this point, there are no more real Pokémon.)</li>
+<li>Glitch #250 (Ho-Oh?)</li>
+<li>Glitch #61 (Poliwhirl?)</li>
+<li>Glitch #234 (Stantler?) (Type 1 = Pokémaniac)</li>
+<li>Glitch #94 (If you don't have Gastly, game halts after capture.)</li>
+<li>Halts Game</li>
+<li>Halts Game</li>
+<li>Glitch #250 (Ho-Oh?)</li>
+<li>Glitch #62 (Poliwrath?)</li>
+<li>Halts Game</li>
+<li>Nameless Trainer (Halts Game)</li>
+<li>Youngster</li>
+<li>Bug Catcher</li>
+<li>Lass</li>
+<li>Sailor</li>
+<li>Male Jr. Trainer</li>
+<li>Female Jr. Trainer</li>
+<li>Pokemaniac</li>
+<li>Super Nerd</li>
+<li>Hiker</li>
+<li>Biker</li>
+<li>Burglar</li>
+<li>Engineer</li>
+<li>Juggler</li>
+<li>Fisherman</li>
+<li>Swimmer</li>
+<li>Cue Ball</li>
+<li>Gambler</li>
+<li>Beauty</li>
+<li>Psychic</li>
+<li>Rocker</li>
+<li>Juggler</li>
+<li>Tamer</li>
+<li>Bird Keeper</li>
+<li>Blackbelt</li>
+<li>Rival (From Pokemon League)</li>
+<li>Professor Oak</li>
+<li>Chief</li>
+<li>Scientist</li>
+<li>Giovanni</li>
+<li>Rocket</li>
+<li>Male Cooltrainer</li>
+<li>Female Cooltrainer</li>
+<li>Bruno</li>
+<li>Brock</li>
+<li>Misty</li>
+<li>Lt. Surge</li>
+<li>Erika</li>
+<li>Koga</li>
+<li>Blaine</li>
+<li>Sabrina</li>
+<li>Gentleman</li>
+<li>Rival</li>
+<li>Rival</li>
+<li>Lorelei</li>
+<li>Channeler</li>
+<li>Agatha</li>
+<li>Lance</li>
+<li>Nameless Trainer (Halts Game)</li>
+<li>Nameless Trainer (Halts Game)</li>
+<li>Nameless Trainer (Halts Game)</li>
+<li>Halts Game</li>
+<li>Nameless Trainer (Halts Game)</li>
+<li>Nameless Trainer (Can be beaten, but messes up graphics after battle)</li>
+<li>Nameless Trainer (Halts Game)</li>
+<li>Halts Game</li>
+</ol>
+
+<p>If a Pokémon's Special goes over 255, the list repeats itself. A Pokémon with a Special of 256 will generate the same thing as a Pokémon with a Special of 0.</p>
+ 
+<h2><a name="yellow">Yellow-Only Tips and Tricks</a></h2>
+ 
+<h3><a name="rival">Easier Rival</a></h3>
+
+<p>To make your rival's team weaker when he is the champion, simply lose the rival battles in Oak's Lab and either lose or skip the battle on Route 22. Losing will cause his Eevee to evolve into a Vaporeon, the single Eeveelution weak to Pikachu's Electric-type attacks.</p>
+ 
+<p>Side Note: Winning one of the two battles will cause his Eevee to evolve into a Flareon, and winning both will cause it to evolve into a Jolteon.</p>

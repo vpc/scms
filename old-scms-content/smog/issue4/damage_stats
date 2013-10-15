@@ -1,0 +1,220 @@
+[title]
+Damage Stats - An Easier Way to Calculate Damage
+[head]
+<link href="/media/smog/smog.css" type="text/css" rel="stylesheet" />
+[page]
+<div class="author"> By <a href="/forums/member.php?u=2412">X-Act</a>.</div>
+<table id="smogheader">
+<tr>
+<td class="left"><a href="hgss_uu">&laquo; Previous Article</a></td>
+<td class="middle"><a href="/smog/issue4/">Home</a></td>
+<td class="right"><a href="top_abilities">Next Article &raquo;</a></td>
+</tr>
+</table>
+        <h2>Introduction</h2>
+        <p>Often, you are in a situation where you want to approximate the damage your Pokemon is going to deal on the fly. Using Damage Stats, you can do this without even requiring that you know the actual stats of the Pokemon in question - only their base stats are needed.</p>
+
+        <h2>How to Use Damage Stats</h2>
+        <p>First of all, we'll need a chart converting a Base stat to the equivalent Damage stat, assuming that the Pokemon being used are at Level 100 and have 31 IVs in every stat. Here it is:</p>
+        
+        <pre>
+    BStat   DStat
+-----------------
+       5    2.19
+      10    2.67
+      15    3.14
+      20    3.62
+      25    4.10
+      30    4.57
+      35    5.05
+      40    5.52
+      45    6.00
+      50    6.48
+      55    6.95
+      60    7.43
+      65    7.90
+      70    8.38
+      75    8.86
+      80    9.33
+      85    9.81
+      90   10.29
+      95   10.76
+     100   11.24
+     105   11.71
+     110   12.19
+     115   12.67
+     120   13.14
+     125   13.62
+     130   14.10
+     135   14.57
+     140   15.05
+     145   15.52
+     150   16.00
+     160   16.95
+     165   17.43
+     170   17.90
+     180   18.86
+     190   19.81
+     200   20.76
+     230   23.62
+     250   25.52
+     255   26.00
+ Stat ±2   ±0.19
+ Stat ±4   ±0.38
+ 252 EVs   +3.00
+      HP   +5.00
+ Atk/SpA   &times;4.00
+        </pre>
+        
+        <p>The above table is to convert the Def or SpD base stat. To convert the base HP stat, just add 5 to the corresponding number. Also, if you want to convert the base Atk or SpA stat, just multiply the number by 4. You'll first need to do the additions and subtractions before performing any multiplications or divisions in order for the method to work, however.</p>
+        <p>If the stat you want is not on the list (say you have a Pokemon with 88 SpA or 144 HP or 77 SpD or some other base stat that is not a multiple of 5), you add or subtract 0.19 if you want to add or subtract 2 from the stat, and twice that (0.38) if you want to add or subtract 4.</p>        
+        <p>So, for example, 77 SpD corresponds to 8.86, the stat for 75, + 0.19 = 
+        <strong>9.05</strong>. 144 HP would correspond to 15.05, the stat for 140, + 0.38, + 5 (since this is HP) = 
+        <strong>20.43</strong>. 88 SpA would correspond to 10.29, the stat for 90, -0.19, &times; 4 (since this is SpA) = 
+        <strong>40.4</strong> (remember you first perform the subtraction and then the multiplication).</p>
+        <p>If you have 252 EVs in a stat, you add 3. Simple as that. This means that you add 1&divide;21, or 0.0476, for every 4 EVs you have. You can also understand it as dividing the EVs by 84 and adding that to the damage stat.</p>
+        <p>Any boosts or reduction in damage or in stats, be them due to nature, STAB, item, ability, or whatever are multiplied normally.</p>
+        <p>After doing all this, the percentage maximum damage dealt is then simply</p>
+        
+        <pre>
+Max Damage = (D[s]Atk &times; Boosts &times; MovePower) &divide; (DHP &times; D[s]Def)        
+        </pre>
+        
+        <p>where D[s]Atk is the Damage (Special) Attack Stat, MovePower is the move power of the move being used, DHP is the Damage HP Stat and D[s]Def is the Damage (Special) Defense Stat.</p>
+        <p>The min damage is just 0.85 multiplied by the max damage. You don't even need to convert it to a percentage; the answer is already a percentage!</p>
+        <p>Let's provide two full examples.</p>
+        
+        <dl>
+            <dt>Example 1:</dt>
+            <dd>
+                <p>Max Special Attack Choice Specs Kyogre using Thunder against Palkia with no EVs in SpD or HP.</p>
+                <p>We first start by finding Kyogre's Damage Atk Stat. Kyogre's base SpA is 150. 150 corresponds to a damage stat of 16.00. We add 3 due to having 252 EVs, so we have 19. We multiply by 4 since this is the SpA stat, so we have 76. We multiply by 1.1 since this is Modest, so we have 83.6. We finally multiply by 1.5 due to Choice Specs, so 
+                <strong>we have 125.4 for Kyogre's Damage Atk Stat</strong>.</p>
+                <p>We now move on to finding Palkia's Damage HP and Damage SpD Stats. Palkia's base HP is 90. 90 corresponds to a damage stat of 10.29. We add 5 since this is the HP stat, so 
+                <strong>we have 15.29, and this is its Damage HP Stat</strong>. Now Palkia's base SpD is 120. 120 corresponds to a damage stat of 
+                <strong>13.14, and this is its Damage SpD Stat</strong>.</p>
+                <p>So, remembering that <strong>Thunder's move power is 120</strong>, the maximum damage dealt by Kyogre is (125.4 &times; 120) &divide; (15.29 &times; 13.14) = 
+                <strong>74.90%</strong>. The minimum damage would be 74.9% &times; 0.85 = 
+                <strong>63.66%</strong>. The percentages are about 0.2% off the real damage dealt.</p>
+            </dd>
+            <dt>Example 2:</dt>
+            <dd>
+                <p>Max Attack Arghonaut using ThunderPunch against a Bold Milotic with 124 HP EVs and 252 Def EVs.</p>
+                <p>If you don't know what Arghonaut is, it is the sixth Pokemon created in the 'Create-A-Pokemon' project. For our intents and purposes, we only need to know that it has got 110 Base Atk and that its typing is Water/Fighting - and hence it does not get STAB on ThunderPunch.</p>
+                <p>Let's start with the damage calculation. Arghonaut's Base Atk is 110, which corresponds to 12.19. We have 252 EVs in Atk so we add 3, getting 15.19. Since this is Atk, we multiply by 4, getting 60.76. We multiply by 1.1 since it has a beneficial nature, getting 66.84. We further multiply by 2 since ThunderPunch is super effective against Milotic, and we finally get a 
+                <strong>Damage Atk Stat of 133.68</strong>.</p>
+                <p>Let's move on to Milotic. Its Base HP is 95, which corresponds to 10.76. We add 5 since this is HP, getting 15.76. We also add 124 &divide; 84 = 1.48 since it has 124 HP EVs, getting a final 
+                <strong>Damage HP Stat of 17.24</strong>. Furthermore, Milotic's Base Def is 79, which corresponds to 8.86 + 0.38 = 9.24. We add 3 since we have 252 EVs, getting 12.24. We multiply by 1.1 since this is Bold, and we get
+                <strong>Milotic's Damage Def Stat of 13.46</strong>.</p>
+                <p>Hence, the maximum damage dealt by Arghonaut, remembering that 
+                <strong>ThunderPunch has a move power of 75</strong>, would be (133.68 &times; 75) &divide; (17.24 &times; 13.46) = 
+                <strong>43.21%</strong>. The minimum damage would be 43.2 &times; 0.85 = 
+                <strong>36.73%</strong>. This is only about 1% off the real damage.</p>
+            </dd>        
+        </dl>
+        
+        <h2>Why Do Damage Stats Work?</h2>
+        <p>In this final part of this article, we explain the mathematical details as to why the above method works. Feel free to skip this part if you are not interested, or are otherwise intimidated by the inner workings of Damage Stats.</p>
+        <p>We first start from a simplified version of the Damage formula, assuming the Pokemon are at Level 100:</p>
+        <pre>
+Damage = (2 + (0.84 &times; [s]Atk &times; MovePower) &divide; [s]Def) &times; Boosts        
+        </pre>
+        <p>where [s]Atk is the (Special) Attack Stat of your Pokemon, MovePower is the move power of the move, [s]Def is the (Special) Defense Stat of the foe, and Boosts are the boosts or reductions pertaining to type effectiveness and STAB only.</p>
+        <p>To find the percentage damage from HP, we divide by the HP stat and multiply by 100, getting:</p>
+        <pre>
+PercentageDamage = 100 &times; ((2 + (0.84 &times; [s]Atk &times; MovePower) &divide; [s]Def) &times; Boosts) &divide; HP        
+        </pre>
+        <p>The '2 +' part in the Damage formula can be omitted and the result would still be a very good approximation to the damage dealt. Hence we simplify the above equation to:</p>
+        <pre>
+ApproxPercentDamage = 100 &times; (0.84 &times; [s]Atk &times; MovePower) &divide; [s]Def) &times; Boosts) &divide; HP
+                    = (84 &times; [s]Atk &times; MovePower &times; Boosts) &divide; ([s]Def &times; HP)
+                    = (84 &times; ([s]Atk &times; Boosts) &times; MovePower) &divide; ([s]Def &times; HP)        
+        </pre>
+        <p>Now we need to find the actual stats from their base stats. For [s]Atk and [s]Def, this can be found by:</p>
+        <pre>
+Stat = 2 &times; BaseStat + 36 + (EV &divide; 4)        
+        </pre>
+        <p>while for HP, this can be found by:</p>
+        <pre>
+HPStat = 2 &times; BaseHPStat + 141 + (EV &divide; 4)        
+        </pre>
+        <p>So the difference between an HP Stat and any other stat having the same EVs and Base Stat would be 141 - 36 = 105. Notice also that since EV can be a maximum of 252, then (EV &divide; 4) is 252 &divide; 4 = 63 at most.</p>
+        <p>Now notice the numbers we've used so far. We have:</p>
+        <dl>
+            <dt>63</dt>
+            <dd>for the maximum EVs</dd>
+            <dt>84</dt>
+            <dd>being multiplied in the formula</dd>
+            <dt>105</dt>
+            <dd>for the difference in stat between the HP stat and any other stat</dd>            
+        </dl>
+        <p>What do these numbers have in common? That's right: <strong>they're all divisible exactly by 21</strong>. 63 = 21 &times; 3, 84 = 21 &times; 4, and 105 = 21 &times; 5. Hence, it would make sense if we divided the actual stats (with no EVs) by 21, to make the damage calculation easier. This is actually the definition of the Damage Stats:</p>
+        <pre>
+Damage Stat = Actual Stat with no EVs &divide; 21        
+        </pre>
+        <p>For every stat other than HP:</p>
+        <pre>
+Damage Stat = (2 &times; BaseStat + 36) &divide; 21        
+        </pre>
+        <p>This is the formula used for the table in the previous section. For example, if BaseStat is 5, the equivalent damage stat would be (2 &times; 5 + 36) &divide; 21 = 46 &divide; 21 = 
+        <strong>2.19</strong>, which corresponds to the first value in the table provided previously.</p>
+        <p>And for the HP Stat:</p>
+        <pre>
+Damage HP Stat = (2 &times; BaseStat + 141) &divide; 21
+               = (2 &times; BaseStat + 36 + 105) &divide; 21
+               = (2 &times; BaseStat + 36) &divide; 21 + (105 &divide; 21)
+               = (2 &times; BaseStat + 36) &divide; 21 + 5        
+        </pre>
+        <p>And hence:</p>
+        <pre>
+Damage HP Stat = Damage Stat + 5        
+        </pre>
+        <p>The above is the reason why we add 5 to the Damage Stat if the Stat in question is the HP stat.</p>
+        <p>What happens if we have EVs in our stat?</p>        
+        <pre>
+Damage Stat with EVs = (2 &times; BaseStat + 36 + (EV &divide; 4)) &divide; 21
+                     = (2 &times; BaseStat + 36) &divide; 21 + (EV &divide; 4) &divide; 21
+                     = (2 &times; BaseStat + 36) &divide; 21 + (EV &divide; 84)        
+        </pre>
+        <p>Notice that if the EVs are maximised, i.e. EV = 252, then (EV &divide; 84) in the above formula would be equal to 3. Hence we have:</p>
+        <pre>
+Damage Stat with max EVs = (2 &times; BaseStat + 36) &divide; 21 + 3        
+        </pre>
+        <p>And thus we conclude that</p>
+        <pre>
+Damage Stat with max EVs = Damage Stat + 3        
+        </pre>
+        <p>This provides the reason for why we add 3 if we have 252 EVs in a stat.</p>
+        <p>Finally, notice that the actual Pokemon stats are simply equal to their Damage Stat multiplied by 21. If we substitute this in the ApproxPercentDamage formula given before, writing D[s]Atk to represent the Damage (Special) Attack stat, and so on, we get:</p>
+        <pre>
+ApproxPercentDamage = (84 &times; ([s]Atk &times; Boosts) &times; MovePower) &divide; ([s]Def &times; HP)
+                    = (84 &times; (D[s]Atk &times; 21) &times; Boosts &times; MovePower) &divide; ((D[s]Def &times; 21) &times; (DHP &times; 21))
+                    = (21 &times; 4 &times; 21 &times; D[s]Atk &times; Boosts &times; MovePower) &divide; (21 &times; 21 &times; D[s]Def &times; DHP)
+                    = (4 &times; D[s]Atk &times; Boosts &times; MovePower) &divide; (D[s]Def &times; DHP)        
+        </pre>
+        <p>The above is the formula provided in the previous section to calculate the damage, except for the '4 &times;' at the start. To solve this, we multiply the Damage Attack or Special Attack Stat by 4, as we said in the previous section.</p>
+        
+        <h2>A Closer Approximation</h2>
+        <p>Earlier, we said that the approximate percentage damage is the percentage damage without the '+ 2'. This means that the approximation that we get is always slightly less than the actual damage dealt. If we want to have a better approximation, we can reinstate the '+ 2' in the formula. In this case, we would get:</p>
+        <pre>
+PercentageDamage = 100 &times; ((2 + (0.84 &times; [s]Atk &times; MovePower) &divide; [s]Def) &times; Boosts) &divide; HP
+                 = 100 &times; ((0.84 &times; [s]Atk &times; MovePower &divide; [s]Def) &times; Boosts) &divide; HP + 200 &times; Boosts &divide; HP
+                 = ApproxPercentDamage + (200 &times; Boosts &divide; HP)        
+        </pre>
+        <p>Since HP = 21 &times; DHP, we have</p>
+        <pre>
+PercentageDamage = ApproxPercentDamage + (200 &times; Boosts &divide; (21 &times; DHP))
+                 = ApproxPercentDamage + (9.52 &times; Boosts &divide; DHP)        
+        </pre>
+        <p>Notice that if Boosts is at most 1, then the expression in brackets above would be less than 1% if DHP is larger than 9.52, which is practically always the case. However, if Boosts is greater than 1, then the error would be a bit larger, especially against Pokemon having a low Base HP. In such cases, you might want to add (9.52 &times; Boosts &divide; DHP) to the approximate damage found before to get an even better approximation.</p>
+        <p>For example, suppose we're using a Dark move against a max HP Dusknoir. Dusknoir's Base HP is 45, so its Damage HP stat is 6.00 + 5 + 3 = 14 (+5 for being the HP stat, and +3 for having 252 EVs in HP). Assuming that the Dark move gets STAB, Boosts would be equal to 2 &times; 1.5 = 3 since the move is super effective. Hence, we can add 9.52 &times; 3 &divide; 14 = 
+        <strong>2.04%</strong> to the maximum damage found approximately before to have a much better approximation of the maximum damage dealt.</p>
+        <p>All this means in practice is that the maximum percentage damage found by the Damage Stats formula at the start of this article will sometimes provide a percentage that is about 1% to 2% below the real value. This will especially happen if the opposing Pokemon has a low Base HP stat and the move is super effective and/or gets STAB. 
+        <strong>In all other cases, the margin of error between the above formula and the real damage is within 1%</strong>, which makes the Damage Stats formula a very good approximation indeed, in spite of its relative simplicity. </p>
+<table id="smogheader">
+<tr>
+<td class="left"><a href="hgss_uu">&laquo; Previous Article</a></td>
+<td class="middle"><a href="/smog/issue4/">Home</a></td>
+<td class="right"><a href="top_abilities">Next Article &raquo;</a></td>
+</tr>
+</table>

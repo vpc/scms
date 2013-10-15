@@ -1,0 +1,290 @@
+[title]
+EV Training in FRLG
+[head]
+<meta name="description" content="A guide for efficient EV training in Pokemon FireRed/LeafGreen, thanks to NixHex" />
+[page]
+<div class="author">By <a href="/forums/member.php?u=40064">NixHex</a></div>
+<ol class="toc">
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#source">The Source of EVs</a>
+<ul>
+<li><a href="#battling_ingame">Battling In-Game Pokemon</a></li>
+<li><a href="#items_and_pokerus">Special Items and Pokerus</a></li>
+</ul></li>
+<li><a href="#trainer_locations">In-Game Trainer Locations</a></li>
+<li><a href="#hotspots">Wild Pokemon Hot Spots</a></li>
+<li><a href="#item_locations">Item Locations</a></li>
+<li><a href="#conclusion">Conclusion</a></li>
+</ol>
+<h2><a name="introduction">Introduction</a></h2>
+<p>Effort Values, most commonly referred to as EVs, are one of the most important factors in competitive Pokemon. Unlike nature and IVs, which are controlled basically by luck, rigorous breeding, soft-resetting, or RNG abuse, EVs can be directly manipulated by the player on the fly with very few setbacks. The purpose of this guide is to direct the user through EV training in FireRed and LeafGreen, the remakes of the famous and beloved Generation 1 games Red and Blue. Why are these games important? Just as the Hoenn games have their respective guides, it is useful for a player to train his native Pokemon in Kanto to eliminate the need for extensive trading just for EV training. This guide will explain the barebones knowledge of EVs without going into too much detail. A more exhaustive guide on EVs can be found <a href="/ingame/guides/ev_manual">here</a>.</p>
+
+<h2><a name="source">The Source of EVs</a></h2>
+<p>All competitive Pokemon players know, or should know, the purpose of EVs. Training an in-game Pokemon to have competitive EVs, however, is much more time consuming than typing a number into a text box on a simulator.</p>
+
+<h2><a name="battling_ingame">Battling In-Game Pokemon</a></h2>
+<p>There are a plethora of in-game trainers and wild Pokemon to battle throughout your adventure. Without any modifiers, EVs are gained 1, 2, or 3 at a time, depending on the Pokemon you battle.</p>
+
+<h2><a name="items_and_pokerus">Special Items and Pokerus</a></h2>
+
+<p>If you are discouraged by the prospect of obtaining only at most 3 EVs at a time, fear not; there are a few ways to accelerate the growth of your Pokemon. EV-boosting vitamins can be found in various places on the ground or purchased on the fifth floor of the Celadon City Department Store. These items can be used to elevate a stat's EV to a maximum of 100, 10 per vitamin taken. Unfortunately, as life has taught us, nothing is free; you will be paying $9,800 for 1 vitamin. The maximum number of any given vitamin you can use on one Pokemon is 10, which comes to $98,000 just to get 100 EVs in a single stat! Fortunately, there are vitamins scattered throughout the game, and you will be shown in this guide where these items are.</p>
+
+<p>Late in the game you will find a very helpful item called the Macho Brace, which doubles the EVs earned from defeating a single Pokemon. The Macho Brace can be found after defeating Giovanni once and for all at the Viridian Gym. A second helpful item is the Exp. Share. After any battle, half of the total experience given after defeating a Pokemon goes to the holder, and the rest is distributed to the other battlers. Since experience is gained, a Pokemon holding the Exp. Share also gains EVs. The Exp. Share is found mid-game on Route 15, and you must have registered 50 Pokemon in your Pokedex to obtain it.</p>
+
+<p>The final key to accelerated EV training is the Pokerus. This rare virus doubles the EVs earned from defeating a single Pokemon, which in conjunction with the Macho Brace yields a possible 4, 8, or 12 EVs per Pokemon! Unfortunately, the Pokerus is even rarer than a random shiny Pokemon. In fact, you can only obtain the Pokerus in Ruby, Sapphire, and Emerald, so you will not be able to abuse the virus until after the Elite 4 without trading with another FireRed or LeafGreen game that has obtained the Pokerus by having traded with a Hoenn game itself.</p>
+
+<p>It is extremely important to note that the EV-reducing Berries do not work in FireRed or LeafGreen, so there is no way to delete unwanted EVs unless you trade your Pokemon to Emerald! That, however, is counterproductive to the idea of an in-game run, therefore it is imperative that you get them right the first time. Keep track of them in a text editor or on a sheet of paper.</p>
+
+<h2><a name="trainer_locations">In-Game Trainer Locations</a></h2>
+<p>This is a comprehensive list of trainers you will face throughout your adventure that give dedicated EVs. Of course, there are hundreds of in-game trainers, but a vast majority of them contain a variety of EVs, making it more difficult to plan ahead of time what EVs you wish to obtain.</p>
+
+<h4>HP</h4>
+<dl>
+<dt>Route 8</dt>
+<dd>Lass Julia - 2 Clefairy (4); Super Nerd Glenn - 2 Grimer (2), 1 Muk (2); Twins Eli &amp; Anne - Clefairy (2), Jigglypuff (2); Lass Paige - Nidoran-F (1), Nidorina (2); Biker Jaren - 2 Grimer (2)</dd>
+<dt>Saffron City (Gym):</dt>
+<dd>Psychic Cameron - 2 Slowpoke (2), Slowbro (2); Psychic Preston - Slowbro (2)</dd>
+</dl>
+
+<h4>Atk</h4>
+<dl>
+<dt>Route 11</dt>
+<dd>Youngster Dave - Nidoran-M (1), Nidorino (2)
+Celadon Gym: Beauty Tamia - 2 Bellsprout (2); Lass Kay - Bellsprout (1), Weepinbell (2); Cooltrainer Mary - Bellsprout (1), Weepinbell (2)
+Route 12: All Fishermen - 1 or more Goldeen (1); Camper Justin: Nidoran-M (1), Nidorino (1)</dd>
+<dt>Route 15:</dt>
+<dd>Bird Keeper Chester - 2 Doduo (2), 1 Dodrio (2)</dd>
+<dt>Route 17 &amp; 18</dt>
+<dd>Doduo (1); Cue Ball Isaiah - Machop (1), Machamp (3); Cue Ball Raul - Mankey (1), Primeape (2); Cue Ball Jamal - 2 Mankey (2), Machop (1), Machamp (3); Cue Ball Zeek - Machoke (2); Cue Ball Corey - Machoke (2), Primeape (2)</dd>
+<dt>Route 16</dt>
+<dd>Cue Ball Koji - 2 Machop (2), Mankey (1); Cue Ball Luke - Mankey (1), Machop (1); Cue Ball Camron - Machop (1), Mankey (1)</dd>
+<dt>Saffron City (Fighting Dojo)</dt>
+<dd>Black Belt Hideki - Machop (1), Machoke (2); Black Belt Hitoshi - Machop (1), Mankey (1), Primeape (2); Black Belt Mike - 2 Mankey (2), Primeape (2); Black Belt Aaron - Primeape (2)</dd>
+<dt>Route 19</dt>
+<dd>Sis and Bro Lia &amp; Luc - Goldeen (1), Seaking (2); Swimmer Alice - Goldeen (1), Seaking (2)</dd>
+<dt>Route 21</dt>
+<dd>Fisherman Ronald - 3 Seaking (6), Goldeen (1)</dd>
+<dt>Viridian Gym</dt>
+<dd>Tamer Cole - Arbok (2), Tauros (1 Atk, 1 Spe); Black Belt Kiyo - Machoke (2); Cooltrainer Samuel - 2 Sandslash (2 Def), Rhyhorn (1 Def), Nidorino (2), Nidoking (3); Black Belt Atsushi - Machop (1), Machoke (2); Black Belt Takashi - 2 Machoke (4), Machop (1)</dd>
+<dt>Victory Road</dt>
+<dd>Cooltrainer Caroline - Bellsprout (1), Weepinbell (2), Victreebel (3), Paras (1), Parasect (2)</dd>
+<dt>Elite Four</dt>
+<dd>Lance - Gyarados (2), 2 Dragonair (4), Dragonite (3), Aerodactyl (2 Spe); Lance (post-Sevii Islands): Gyarados (2), 2 Dragonite (6), Kingdra (1 Atk, 1 SpA, 1 SpD), Aerodactyl (1 Spe)</dd>
+</dl>
+
+<h4>Def</h4>
+<dl>
+<dt>Pewter City Gym</dt> 
+<dd>Camper Liam - Geodude(1), Sandshrew (1);
+Brock - Geodude (1), Onix (2)</dd>
+<dt>Rock Tunnel</dt>
+<dd>Hiker Lenny - 3 Geodude (3); Hiker Oliver - 2 Onix (2), Geodude (1); Hiker Lucas - Geodude (1), Graveler (2); Hiker Dudley - 2 Geodude (2), Graveler (2)</dd>
+<dt>Route 10 South</dt>
+<dd>Hiker Clark - Geodude (1), Onix (1); Hiker Trent - Onix (1), Graveler (2)</dd>
+<dt>Rocket Hideout (B3F)</dt>
+<dd>Team Rocket Grunt 2 - Sandshrew (1), Sandslash (2)</dd> 
+<dt>Rocket Hideout (B4F)</dt>
+<dd>Giovanni - Onix (1), Rhyhorn (1)</dd>
+<dt>Route 13</dt>
+<dd>Biker Jared - 3 Koffing (3)</dd>
+<dt>Route 15</dt>
+<dd>Biker Ernest - 3 Koffing (3 Def), Weezing (2); Biker Alex - Koffing (1), Weezing (2)</dd> 
+<dt>Fuchsia Gym</dt>
+<dd>Koga - 2 Koffing (3), Weezing (2)</dd>
+<dt>Route 17</dt>
+<dd>Biker Virgil - Koffing (1), 2 Weezing (4); Biker William - 3 Koffing (3), 2 Weezing (4)</dd>
+<dt>Route 16</dt>
+<dd>Cue Ball Ruben - Koffing (1), 2 Weezing (4)</dd>
+<dt>Saffron City (Silph Co.)</dt>
+<dd>Scientist Connor: Grimer (1 HP), Koffing (2), 2 Weezing (4); (7F): Team Rocket Grunt 1 - 2 Cubone (2); Team Rocket Grunt 3 - Sandshrew (1), Sandslash (2)</dd>
+<dt>Route 20</dt>
+<dd>Swimmer Barry - Shellder (1), Cloyster (2)</dd>
+<dt>Route 21</dt>
+<dd>Fisherman Claude - Shellder (1), Cloyster (2)</dd>
+<dt>Viridian Gym</dt>
+<dd>Cooltrainer Samuel - 2 Sandslash (4), Rhyhorn (1), Nidorino (2 Atk), Nidoking (3 Atk); Cooltrainer Yuji - Sandslash (2), 2 Graveler (2), Onix (1), Marowak (2); Cooltrainer Warren - 2 Marowak (4), Rhyhorn (1), Nidorina (2 HP), Nidoqueen (3 HP)</dd>
+</dl>
+
+<h4>SpA</h4>
+<dl>
+<dt>Route 5 &amp; 6</dt>
+<dd>Bug Catcher Elijah - Butterfree (2 SpA, 1 SpD)</dd>
+<dt>Route 11</dt>
+<dd>Engineer Bernie - 2 Magnemite (2), Magneton (2)</dd>
+<dt>Route 9</dt>
+<dd>Picnicker Alicia - 2 Oddish (2)</dd>
+<dt>Rock Tunnel</dt>
+<dd>Picnicker Martha - Oddish (1), Bulbasaur (1)</dd>
+<dt>Celadon Gym</dt>
+<dd>Beauty Bridget - 2 Oddish (2); Picnicker Tina - Bulbasaur (1), Ivysaur (1 SpA, 1 SpD); Cooltrainer Mary - Oddish (1), Gloom (2), Ivysaur (1 SpA, 1 SpD)</dd>
+<dt>Pokemon Tower</dt>
+<dd>All Channelers - Gastly (1), Haunter (2)</dd>
+<dt>Saffron City (Gym)</dt>
+<dd>Channeler Stacy - Haunter (2); Channeler Amanda - Gastly (1), Haunter (2); Sabrina - Kadabra (2), Alakazam (3), Venomoth (1 SpA, 1 Spe), Mr. Mime (2 SpD)</dd>
+</dl>
+
+<h4>SpD</h4>
+<dl>
+<dt>Fuchsia Gym</dt>
+<dd>Juggler Nate - Drowzee (1); Juggler Kayden - Hypno (2); Juggler Kirk - 3 Drowzee (3); Juggler Shawn - Drowzee (1), Hypno (2)</dd>
+</dl>
+
+<h4>Spe</h4>
+<dl>
+<dt>Cerulean Gym</dt>
+<dd>Misty - Staryu (1), Starmie (2)</dd>
+<dt>Routes 5 &amp; 6</dt>
+<dd>Bug Catcher Keigo - 2 Weedle (2); Picnicker Nancy - Rattata (1), Pikachu (2); Picnicker Isabelle - 3 Pidgey (3); Camper Jeff: Spearow (1), Raticate (2)</dd>
+<dt>Vermilion Gym</dt>
+<dd>Sailor Dwayne - 2 Pikachu (4); Engineer Baily - Voltorb (1); Gentleman Tucker - Pikachu (2); Lt. Surge: Voltorb (1), Pikachu (2), Raichu (3)</dd>
+<dt>Route 8</dt>
+<dd>Lass Andrea - 3 Meowth (3); Lass Megan - Pidgey (1), Rattata (1), Meowth (1), Pikachu (2)</dd>
+<dt>Pokemon Tower</dt>
+<dd>Team Rocket Grunt 1 - 2 Zubat (2), Golbat (2); Team Rocket Grunt 3 - 2 Zubat (2), Rattata (1), Raticate (2)</dd>
+<dt>Route 13</dt>
+<dd>Birdkeeper Sebastian Pidgey (1), Pidgeotto (2); Picnicker Susie - Pidgey (1), Rattata (2), 2 Meowth (2), Pikachu (2); Beauty Lola - 2 Rattata (2), Pikachu (2); Picnicker Gwen - 2 Pidgey (2), Pidgeotto (2), Meowth (1); Bird Keeper Robert - Pidgey (1), Pidgeotto (2), Spearow (1), Fearow (2); Bird Keeper Perry - 3 Spearow (3), 2 Pidgey (2); Picnicker Valerie - 2 Poliwag (2)</dd>
+<dt>Route 15</dt>
+<dd>Picnicker Becky - Pikachu (2), Raichu (3)</dd>
+<dt>Route 17 &amp; 18</dt>
+<dd>Spearow (2), Fearow (2), Raticate (2), Rattata (1), Bird Keeper Jacob - 3 Spearow (3), Fearow (2); Bird Keeper Wilton - Spearow (1), Fearow (2); Bird Keeper Ramiro - Dodrio (2)</dd>
+<dt>Saffron City (Silph Co.) (2F)</dt>
+<dd>Team Rocket Grunt 1 - 3 Zubat (3), Golbat (2), Raticate (2); (6F): Team Rocket Grunt 2 - 2 Zubat (2), Golbat (2); (7F): Rocket Grunt 2: Zubat (1), Golbat (2), Rattata (1), Raticate (2)</dd>
+<dt>Route 19</dt>
+<dd>Swimmer Connie - 3 Staryu (3)</dd>
+<dt>Route 21</dt>
+<dd>Fisherman Wade - 6 Magikarp (6)</dd>
+<dt>Cinnabar Gym</dt>
+<dd>Super Nerd Erik - 2 Vulpix (2), Ninetales (1 Spe, 1 SpD)</dd>
+</dl>
+
+<h2><a name="hotspots">Wild Pokemon Hot Spots</a></h2>
+
+<p>Battling wild Pokemon is much quicker and easier than trainer battles. Hot spots are areas that contain common wild Pokemon so you can gain EVs without battling trainers. In fact, they are vital to your success after you have defeated all of the in-game trainers. As you will see, it is much easier to find HP, Attack, and Speed EVs earlier in the game, while defensive and Special Attack EVs are extremely rare until later in the game.</p>
+
+<h4>HP</h4>
+<dl>
+<dt>Early routes / Viridian Forest</dt>
+<dd>Caterpie (1)</dd>
+<dt>Route 3</dt>
+<dd>Nidoran-F (1), Jigglypuff (1)</dd>
+<dt>Mt. Moon</dt>
+<dd>Clefairy (2)</dd>
+<dt>Route 12</dt>
+<dd>Snorlax (2)</dd>
+<dt>Route 16</dt>
+<dd>Snorlax (2)</dd>
+</dl>
+
+<h4>Atk</h4>
+<dl>
+<dt>Route 22</dt>
+<dd>Mankey (1)</dd>
+<dt>Mt. Moon (B1F)</dt>
+<dd>Paras (1) *</dd>
+<dt>Route 4</dt>
+<dd>Mankey (1), Ekans (1) (FireRed only)</dd>
+<dt>Route 5, 6, 25</dt>
+<dd>Bellsprout (1) (LeafGreen only)</dd>
+<dt>Route 8, 9, 10, 11</dt>
+<dd>Ekans (FireRed only)</dd>
+<dt>Rock Tunnel</dt>
+<dd>Machop (1), Mankey (1)</dd>
+<dt>Route 12</dt>
+<dd>Bellsprout (1), Weepinbell (2)</dd>
+<dt>Victory Road</dt><dd>Machop (1), Machoke (2), Arbok (2) (FireRed only), Primeape (2) (2F only)</dd>
+</dl>
+
+<h4>Def</h4>
+<dl>
+<dt>Mt. Moon</dt>
+<dd>Geodude (1)</dd>
+<dt>Route 4, 8, 9, 10, 11</dt>
+<dd>Sandshrew (1) (LeafGreen only)</dd>
+<dt>Rock Tunnel</dt>
+<dd>Geodude (1), Onix (1), Graveler (2)</dd>
+<dt>Route 21 (Grass)</dt>
+<dd>Tangela (1) *</dd>
+<dt>Pokemon Mansion</dt>
+<dd>Koffing (1), Weezing (2) (FireRed only)</dd>
+<dt>Victory Road</dt>
+<dd>Onix (1), Geodude (1), Sandslash (2) (LeafGreen only), Marowak (2)</dd>
+</dl>
+
+<h4>SpA</h4>
+<dl>
+<dt>Route 24</dt>
+<dd>Oddish (1) (FireRed only)</dd>
+<dt>Route 25, 5, 6, 7</dt>
+<dd>Oddish (1) (FireRed only)</dd>
+<dt>Pokemon Tower</dt>
+<dd>Gastly (1), Haunter (2) *</dd>
+<dt>Route 12</dt>
+<dd>Oddish (1), Gloom (2)</dd>
+</dl>
+
+<h4>SpD</h4>
+<dl>
+<dt>Route 11</dt>
+<dd>Drowzee (1)</dd>
+<dt>Route 12 &amp; 13</dt>
+<dd>Venonat (1)</dd>
+<dt>All Surfing Routes</dt>
+<dd>Tentacool (1)</dd>
+</dl>
+
+<h4>Spe</h4>
+<dl>
+<dt>Route 1</dt>
+<dd>Rattata (1), Pidgey (1) *</dd>
+<dt>Viridian Forest</dt>
+<dd>Weedle (1), Pikachu (2)</dd>
+<dt>Mt. Moon</dt>
+<dd>Zubat (1)</dd>
+<dt>Routes 5, 6, 7, 8</dt>
+<dd>Pidgey (1), Meowth (1)</dd>
+<dt>Diglett's Cave</dt>
+<dd>Diglett (1), Dugtrio (2) *</dd>
+<dt>Route 10</dt>
+<dd>Voltorb (1)</dd>
+<dt>Route 13</dt>
+<dd>Pidgey (1)</dd>
+<dt>Altering Cave</dt>
+<dd>Zubat (1) *</dd>
+</dl>
+
+<p>* Area contains only the listed Pokemon. In the case of Pokemon Tower, Cubone are so rare that it is arguably the best spot in the game to obtain Special Attack EVs.</p>
+
+<h2><a name="item_locations">Item Locations</a></h2>
+
+<p>There are many items spread throughout the land of Kanto that will assist you in your EV training. Here is a list of only these specific items and their locations.</p>
+<dl>
+<dt>HP Up</dt>
+<dd>Celadon City, Celadon Dept. Store, Silph Co., Pokemon Mansion, (Post-game) Six Island</dd>
+
+<dt>Protein</dt>
+<dd>Celadon City, Celadon Dept. Store, Silph Co., Safari Zone, Pokemon Mansion</dd>
+
+<dt>Iron</dt>
+<dd>Celadon City, Celadon Dept. Store, Silph Co., Route 12, 
+Pokemon Mansion</dd>
+
+<dt>Calcium</dt>
+<dd>Celadon City, Celadon Dept. Store, Rocket Hideout, Silph Co., Pokemon Mansion</dd>
+
+<dt>Zinc</dt>
+<dd>Cerulean City, Celadon Dept. Store, Silph Co., Pokemon Mansion, (Post-game) Three Island</dd>
+
+<dt>Carbos</dt>
+<dd>Celadon City, Celadon Dept. Store, Silph Co., Pokemon Mansion, (Post-game) Kindle Road</dd>
+
+<dt>Rare Candy</dt>
+<dd>Mt. Moon, Pokemon Tower, Rocket Hideout, Silph Co., Fuchsia City, Victory Road, (Post-game) Lost Cave</dd>
+
+<dt>Macho Brace</dt> 
+<dd>Viridian Gym (after defeating Giovanni)</dd>
+
+<dt>Exp. Share</dt>
+<dd>Route 15 - Professor Oak's Aide (must have captured at least 50 Pokemon)</dd></dl>
+
+<h2><a name="conclusion">Conclusion</a></h2>
+<p>Now that you are a master of EV training in FireRed and LeafGreen, get out there and take advantage of every trainer, item, and Pokemon you get your hands on! Thank you for reading.</p>

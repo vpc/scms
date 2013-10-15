@@ -1,0 +1,95 @@
+[title]
+An Introduction to Smogon's Tier System
+[head]
+<meta name="description" content="An article on how Smogon ranks various Pokemon." />
+[page]
+<p>Smogon's tier system is used to rank Pokemon into several groups based on their perceived power and usage in competitive play. These tiers dictate which Pokemon can be used in the various metagames of competitive play. Each metagame encompasses different Pokemon, and therefore each one is unique in its style of play. The standards set by Smogon's tier system seek to balance competitive battling, ensuring no Pokemon is "too powerful" or over-centralizes the metagame it appears in. This allows players the flexibility to show "flair" in their team design rather than being restricted to using a particular Pokemon to win.</p>
+
+<p>A Pokemon's placement within a tier is by no means set in stone. As people continue to engage in competitive battles, new strategies and movesets arise that may have previously been overlooked. Through increased play testing, the popularity of some Pokemon may fluctuate. Furthermore, the community may find their strengths and weaknesses to be handled by the metagame differently. Examples of what would prompt a Pokemon's change in tier include the adoption of new competitive movesets or the reduction in use of its counters. With this in mind, the Smogon tier system is reviewed and updated regularly to reflect how specific Pokemon are utilized by our community.</p>
+
+<h2>An Overview of the Tiers</h2>
+
+<p>Smogon has established five clearly defined tiers. Metagames restricted to a particular tier automatically include Pokemon from lower tiers. In practice, this means that in OU play, Pokemon from the BL, UU, RU, and NU tiers are allowed to participate, but Ubers are not.</p>
+
+<h3>Uber</h3>
+<p>The Uber tier is based solely on the power of the Pokemon present within it. Pokemon in this tier are considered to be too powerful to participate in the standard metagame. Note that no Pokemon is banned from competing with those in the Uber tier. The result is a "free-for-all" metagame with no restrictions on which Pokemon may participate.</p>
+
+<ul>
+    <li><a href="/bw/tiers/uber">The BW Uber Tier</a></li>
+    <li><a href="/dp/tiers/uber">The DPP Uber Tier</a></li>
+    <li><a href="/rs/tiers/uber">The ADV Uber Tier</a></li>
+    <li><a href="/gs/tiers/uber">The GSC Uber Tier</a></li>
+    <li><a href="/rb/tiers/uber">The RBY Uber Tier</a></li>
+</ul>
+
+<h3>Overused (OU)</h3>
+<p>OU consists of the Pokemon used prevalently by our community. Since these Pokemon are used frequently, they can be assumed to have a strong combination of stats, typing, ability, and movepool, as competitive battlers use them with the intent of winning their battles. All Pokemon present in the OU tier (as well as those present in lower tiers) may participate in what is the standard metagame.</p>
+
+<ul>
+
+    <li><a href="/bw/tiers/ou">The BW OU Tier</a></li>
+    <li><a href="/dp/tiers/ou">The DPP OU Tier</a></li>
+    <li><a href="/rs/tiers/ou">The ADV OU Tier</a></li>
+    <li><a href="/gs/tiers/ou">The GSC OU Tier</a></li>
+    <li><a href="/rb/tiers/ou">The RBY OU Tier</a></li>
+</ul>
+
+<h4>The Construction of the OU Tier</h4>
+ 
+<p>For RBY, GSC, and ADV, the OU tier is formed based on the experience of our community in regards to which Pokemon are commonly used in Smogon's standard metagame tournaments. In tournaments, people use Pokemon that can compete at the highest level to allow them to win, so naturally they are an excellent means of determining the OU tier.</p>
+ 
+<p>The OU tier for DPP and BW is constructed from the league statistics extracted from the past DPP and current BW Pokemon battling medium. These statistics provide the number of times each Pokemon was used in the standard metagame league during each month, and those of the three months prior to the OU tier creation are utilized in particular.</p>
+ 
+<p>The Pokemon usages from Smogon's Pokemon Online server of the three months prior to the OU update are first extracted. Each Pokemon usage of each month is then divided by the total of the usages during that particular month, so that the probability of that particular Pokemon being used during that month is obtained. Suppose the probability for a particular Pokemon to be used in month m is <var>P_m</var>. These months are ordered in the following manner: if the list is being updated in July, then April, May, and June correspond to months 1, 2 and 3 respectively.</p>
+
+<p>From previous Shoddy Battle statistics, a small computer program was written to generate an equation that would fit best the predicted probability <var>P</var> with the actual probability for each Pokemon. This equation is the following:</p>
+
+<pre><var>P</var> = (20×<var>P_3</var> + 3×<var>P_2</var> + <var>P_1</var>) ÷ 24</pre>
+
+<p>If, for some reason, a Pokemon was not legal in the Standard metagame in month 1 but was legal in the subsequent two months, its value of <var>P</var> for it would be calculated as follows:</p>
+
+<pre><var>P</var> = (5×<var>P_3</var> + <var>P_2</var>) ÷ 6</pre>
+
+<p>If a Pokemon was not legal in the Standard metagame in months 1 and 2 but was legal in month 3, its value of <var>P</var> would simply be equal to <var>P_3</var>.</p>
+
+<p>After the value of <var>P</var> is calculated for every Pokemon, these are summed up again. This summation <var>S</var> should result in a number that is extremely close to 1. Finally, the Pokemon whose <var>P</var> value is greater than or equal to <var>S</var> ÷ 176.14073324 make the OU tier. This number is the usage that Pokemon require in order to be present in at least one out of every 20 Standard metagame teams on average.</p>
+
+<h3>Borderline (BL)</h3>
+<p>Pokemon in the BL tier aren't used enough to be OU, but bring imbalance to the UU tier. A BL Pokemon isn't necessarily weaker than an OU Pokemon. BL Pokemon, however, are used less for reasons such as requiring additional team support or simply being outclassed by another Pokemon in a specific role. It usually takes only one such inadequacy to explain why a given Pokemon is BL and not OU.</p>
+
+<ul>
+
+    <li><a href="/bw/tiers/bl">The BW BL Tier</a></li>
+    <li><a href="/dp/tiers/bl">The DPP BL Tier</a></li>
+    <li><a href="/rs/tiers/bl">The ADV BL Tier</a></li>
+    <li><a href="/gs/tiers/bl">The GSC BL Tier</a></li>
+    <li><a href="/rb/tiers/bl">The RBY BL Tier</a></li>
+</ul>
+
+<h3>Underused (UU)</h3>
+<p>Pokemon in the UU tier are, simply put, underused. That is, when battling in the OU metagame, they will not be seen as much, likely because they are too weak. This weakness is based on a combination of stats, typing, movepool, and ability that restricts effective use of those particular Pokemon in the standard metagame. In UU play, Pokemon above the UU tier are banned, meaning NU (and RU in BW) Pokemon are still allowed to participate. The construction of the UU tier for DPP and BW is found from the usage statistics of UU battles and uses the same method as that for the OU tier.</p>
+
+<ul>
+    <li><a href="/bw/tiers/uu">The BW UU Tier</a></li>
+    <li><a href="/dp/tiers/uu">The DPP UU Tier</a></li>
+    <li><a href="/rs/tiers/uu">The ADV UU Tier</a></li>
+    <li><a href="/gs/tiers/uu">The GSC UU Tier</a></li>
+    <li><a href="/rb/tiers/uu">The RBY UU Tier</a></li>
+</ul>
+
+
+<h3>Rarelyused (RU)</h3>
+<p>A tier created as of BW, RU is the answer to the sheer number of Pokemon in the 5th generation. RU, essentially, is the UU of UU; that is, it is comprised of Pokemon not commonly used in the UU metagame. The addition of the RU tier, supplementing UU and NU, allows for a situation in which nearly every Pokemon in existence can become viable additions to teams. Pokemon placed in UU and higher tiers are banned from RU, as well as those explicitly banned in RU due to the imbalance they bring. The RU tier list is built the same way the OU and UU tiers are created.</p>
+
+<ul>
+    <li><a href="/bw/tiers/ru">The BW RU Tier</a></li>
+</ul>
+
+<h3>Neverused (NU)</h3>
+<p>Pokemon present in the NU tier lack qualities that would allow them to operate effectively, even in the UU (or RU) environment, and are thus not used much even in that metagame. This is generally due to a combination of poor base stats, typing, ability, and movepool. In NU play, only Pokemon in the NU tier are allowed. The NU tier attempts to place the Pokemon allowed within it on a more equal footing, allowing them to be used without the worry of being overpowered or outclassed by Pokemon in higher tiers. In GSC and RBY, NU does not exist due to the fact that there are not enough Pokemon to warrant a NU tier.</p>
+
+<ul>
+    <li><a href="/bw/tiers/nu">The BW NU Tier</a></li>
+    <li><a href="/dp/tiers/nu">The DPP NU Tier</a></li>
+    <li><a href="/rs/tiers/nu">The ADV NU Tier</a></li>
+</ul>

@@ -1,0 +1,253 @@
+[title]
+An Introduction to Setup Moves in OU
+[head]
+<link href="/media/smog/smog-articles.css" type="text/css" rel="stylesheet" />
+[page]
+<div class="author">By <a href="http://www.smogon.com/forums/member.php?u=71012">Joeyboy</a>. Art by <a href="/forums/member.php?u=173369">Magistrum</a>.</div>
+<table id="smogheader">
+<tr>
+<td class="left"><a href="doubles_spotlight_amoonguss">« Previous Article</a></td>
+<td class="middle"><a href="/smog/issue26/">Home</a></td>
+<td class="right"><a href="choice_items">Next Article »</a></td>
+</tr>
+</table>
+
+<div class="float-right"><img src="/media/upload/smog/issue26/setup_cloyster.png" alt="" /></div>
+
+<p>For as long as there's been Pok&eacute;mon, there's been setup moves. To clarify, setup moves are any move a Pok&eacute;mon can use to increase the relevant stats associated with said move. A sweeper may boost its Attack or Speed to better finish off any opposing force, while a tank might aim to raise its defenses to impenetrable levels. There are myriad different setup moves that can increase any and every stat imaginable. You can boost your accuracy, your evasiveness, your Speed, and many setup moves will increase multiple stats at the same time, like Dragon Dance, which increases a Pok&eacute;mon's Attack and Speed stats by one stage. Now, you may be wondering what exactly "one stage" is, so allow me to explain. For every stage a stat gains, it increases 1.5x. These boosts are cumulative, so if you raise a stat two stages it is increased by 2.0x, three stages equals 2.5x, and so on until you've accumulated six boosts&mdash;the maximum&mdash;and have an increase of 4.0x. Let's say you have a Scyther and its Attack stat is 100; if Scyther uses Swords Dance, which raises a stat by two stages, its Attack stat would then be 200. If you happened to get off three separate Swords Dances, a rise of six stages, Scyther would have 400 attack!</p>
+
+<p>Now, why exactly are these moves useful? I, like many others, never used any kind of setup moves while playing the Pok&eacute;mon cartridge games. My childish thought process was that I'd never use them because I could "better" spend the turn setting up by using an attack to damage my opponent. The point of these moves, which by the way will sound obvious, is that the boosts last until you switch out. This allows you to prepare, or set the stage, for future moves. Say, for example, you have your Dragon Dance Dragonite out against a weakened enemy Celebi. Your Dragonite has its Multiscale and Lum Berry intact and your opponent also has a Skarmory in the wings, sitting at 40% health. Now, you could just go for Fire Punch and KO the Celebi, but then Skarmory can come in, survive an unboosted Fire Punch, Roost, and Whirlwind you out. In the alternate scenario, you could have used Dragon Dance against Celebi, regardless of whether it stayed in or not, and would have had the power to also OHKO Skarmory when it reared its steely head.</p>
+
+<p>The point is is that these setup moves give you a larger amount of control over your game; they allow you to strategize and decide when to, or when not to, set up. These moves also tend to be the driving force behind "sweeps", when a Pok&eacute;mon knocks out numerous Pok&eacute;mon on the opposing squad.</p>
+
+<p>In this article I'll be exploring popular setup moves in the Overused metagame; by that I mean I'll be examining moves which are commonly seen and used by actual OU Pok&eacute;mon. So, no, I won't be covering things like Hone Claws Metagross or even Shell Smash Gorebyss.</p>
+
+<h2>Dragon Dance</h2>
+
+<p>When Pok&eacute;mon players think about setup moves, one of the first that should spring to mind is Dragon Dance. Dragon Dance raises both a Pok&eacute;mon's Attack and Speed stats by one stage. The beauty behind this monster of a move is that it gives its users all the boosts it could ever want. If you ever try to sweep a team with just +1 Speed, you'll commonly find you won't be able to dish out enough damage, and with just +1 Attack, you run the risk of being outsped. But with Dragon Dance, you get the best of both worlds! With one turn, any of these threats can quickly become unmanageable.</p>
+
+<h3>Common Overused Pok&eacute;mon Who Use It</h3>
+
+<ul>
+<li>Dragonite</li>
+<li>Gyarados</li>
+<li>Haxorus</li>
+<li>Salamence</li>
+</ul>
+
+<p>Say hello to the sweepers&mdash;with the exception of Latios and Latias, all of these Pok&eacute;mon make perfect use of the boosts provided by Dragon Dance. An example of a common set with Dragon Dance would look something like this:</p>
+
+<p><img src="http://www.smogon.com/download/sprites/bw/149.png" alt="" /><br />
+Dragonite @ Lum Berry<br />
+Ability: Multiscale<br />
+EVs: 4 HP / 252 Atk / 252 Spe<br />
+Adamant Nature (+Atk, -SpA)<br />
+- Dragon Dance<br />
+- Outrage<br />
+- Fire Punch<br />
+- ExtremeSpeed</p>
+
+<h2>Swords Dance</h2>
+
+<p>Swords Dance is the bread and butter of setup moves used by physical attackers, and it's easy to see why. Swords Dance raises the Attack stat of a Pok&eacute;mon by two stages, effectively doubling their attacking power in one turn! Swords Dance is commonly used by both wallbreakers and sweepers. Pok&eacute;mon like Garchomp and Terrakion may use Swords Dance to pummel physical walls with their enormous Attack, while 'mons like Lucario and Breloom will use it in conjunction with their priority attacks to finish any opposition.</p>
+
+<h3>Common Overused Pok&eacute;mon Who Use It</h3>
+
+<ul>
+<li>Breloom</li>
+<li>Garchomp</li>
+<li>Gliscor</li>
+<li>Haxorus</li>
+<li>Lucario</li>
+<li>Landorus-T</li>
+<li>Scizor</li>
+<li>Terrakion</li>
+<li>Toxicroak</li>
+</ul>
+
+<p>Looking at that list you'll not only find Pok&eacute;mon with some of the highest Attack stats in the game but also have the greatest potential Attack thanks to Swords Dance. An example of a common set with Swords Dance would look something like this:</p>
+
+<p><img src="http://www.smogon.com/download/sprites/bw/669.png" alt="" /><br />
+Terrakion @ Rock Gem<br />
+Ability: Justified<br />
+EVs: 252 Atk / 4 SpD / 252 Spe<br />
+Jolly Nature (+Spe, -SpA)<br />
+- Swords Dance<br />
+- Substitute<br />
+- Close Combat<br />
+- Stone Edge</p>
+
+<h2>Calm Mind</h2>
+
+<p>Calm Mind is our first setup discussed today that forgoes all out attacking for some extra bulk. Calm Mind increases a Pok&eacute;mon's Special Attack and Special Defense by one stage each. Pok&eacute;mon who use Calm Mind tend to have decent bulk to begin with, and once they've gotten a Calm Mind boost or two under their belts, they become notoriously hard to crack. Defensive teams without phazing moves will struggle against these true juggernauts, as they are typically offensively weak.</p>
+
+<h3>Common Overused Pok&eacute;mon Who Use It</h3>
+
+<ul>
+<li>Jirachi</li>
+<li>Keldeo</li>
+<li>Landorus</li>
+<li>Latias</li>
+<li>Reuniclus</li>
+</ul>
+
+<p>When the above Pok&eacute;mon run Calm Mind, they tend to do so with the intent that they will be able to crush stall teams. Because of this, they often run moves like Substitute or Heal Bell in their moveset, or have another way of beating the common status ailments thrown around by such teams. An example of a common set with Calm Mind would look something like this:</p>
+
+<p><img src="http://www.smogon.com/download/sprites/bw/380.png" alt="" /><br />
+Latias @ Leftovers<br />
+Ability: Levitate<br />
+EVs: 252 HP / 4 SpD / 252 Spe<br />
+Timid Nature (+Spe, -Atk)<br />
+- Calm Mind<br />
+- Substitute<br />
+- Dragon Pulse<br />
+- Recover</p>
+
+<h2>Agility / Rock Polish</h2>
+
+<p>I've put Agility and Rock Polish in the same category because they do the exact same thing! Both of these moves increase a Pok&eacute;mon's Speed stat by two stages. Pok&eacute;mon who utilize this move will tend to have very high natural attacking stats and below average to average Speed. However, after using a turn to boost said low Speed, you'll have a supremely powerful sweeper on your hands.</p>
+
+<h3>Common Overused Pok&eacute;mon Who Use Them</h3>
+
+<ul>
+<li>Landorus</li>
+<li>Landorus-T</li>
+<li>Terrakion</li>
+<li>Thundurus-T</li>
+</ul>
+
+<p>These Pok&eacute;mon all sport very high natural attacking stats and make awesome use of the +2 Speed boost. An example of a common set with Agility or Rock Polish would look something like this:</p>
+
+<p><img src="http://www.smogon.com/download/sprites/bw/675.png" alt="" /><br />
+Landorus @ Life Orb<br />
+Ability: Sheer Force<br />
+EVs: 4 HP / 252 SpA / 252 Spe<br />
+Modest Nature (+SpA, -Atk)<br />
+- Rock Polish<br />
+- Earth Power<br />
+- Focus Blast<br />
+- Hidden Power Ice</p>
+
+<h2>Nasty Plot</h2>
+
+<p>Nasty Plot mimics Swords Dance in that it gives a +2 stage boost to Special Attack, rather than Attack. Pok&eacute;mon with Nasty Plot are rare, and most who get it can make fairly good use of it. Again, to mirror Swords Dance, the Pok&eacute;mon who get Nasty Plot utilize its boosts for both wallbreaking and sweeping. Though for the most part, Nasty Plotters prey on slow defensive teams, as without a boost to Speed and no solid special priority it can be hard to sweep more speedy offensive teams.</p>
+
+<h3>Common Overused Pok&eacute;mon Who Use It</h3>
+
+<ul>
+<li>Celebi</li>
+<li>Infernape</li>
+<li>Thundurus-T</li>
+</ul>
+
+<p>You'll probably run into all of these Pok&eacute;mon using Nasty Plot at some time or another during your Pokémon career, though some use it much better than others. An example of a common set with Nasty Plot would look something like this:</p>
+
+<p><img src="http://www.smogon.com/download/sprites/bw/682.png" alt="" /><br />
+Thundurus-T @ Lum Berry<br />
+Ability: Volt Absorb<br />
+EVs: 4 HP / 252 SpA / 252 Spe<br />
+Timid Nature (+Spe, -Atk)<br />
+- Nasty Plot<br />
+- Thunderbolt<br />
+- Focus Blast<br />
+- Hidden Power Ice</p>
+
+<h2>Bulk Up</h2>
+
+<p>Bulk Up is the physical twin for Calm Mind in that it boosts a Pok&eacute;mon's Attack and Defense one stage. These Pok&eacute;mon are the definitions of tanks, taking hits and dishing out enough hurt to stop a stampede of Tauros. These Pok&eacute;mon also tend to run clever ways of recovering their health, as they do not often have access to reliable recovery.</p>
+
+<h3>Common Overused Pok&eacute;mon Who Use It</h3>
+
+<ul>
+<li>Breloom</li>
+<li>Conkeldurr</li>
+<li>Toxicroak</li>
+</ul>
+
+<p>The Pok&eacute;mon who make the most of Bulk Ups boosts are those who already have naturally high Attack and will be able to shrug off weaker moves, allowing them a chance to boost up. An example of a common set with Bulk Up would look something like this:</p>
+
+<p><img src="http://www.smogon.com/download/sprites/bw/459.png" alt="" /><br />
+Toxicroak @ Black Sludge<br />
+Ability: Dry Skin<br />
+EVs: 244 HP / 132 Atk / 12 Spe / 120 Def<br />
+Adamant Nature (+Atk, -SpA)<br />
+- Bulk Up<br />
+- Drain Punch<br />
+- Ice Punch<br />
+- Substitute</p>
+
+<h2>Quiver Dance</h2>
+
+<p>So here we have our first "unique" set up move. Volcarona is the only Pok&eacute;mon in the Overused tier who learns it, and the fiery moth can attribute most of its success to this one move. Quiver Dance is a special attacker's wet dream, being essentially just a beefed up Calm Mind. It boosts a Pok&eacute;mon's Special Attack, Special Defense, and Speed by one stage each! Quiver Dance really has everything going for it; you get an attacking boost to do more damage, a Speed boost to sweep, and a defensive boost allowing Volcarona to stay around much longer!</p>
+
+<h3>Common Overused Pok&eacute;mon Who Use It</h3>
+
+<ul>
+<li>Volcarona</li>
+</ul>
+
+<p>Volcarona can run multiple sets, all based around this move. A bulky set or an all-out attacking set, the world is never safe! An example of a common set with Quiver Dance would look something like this:</p>
+
+<p><img src="http://www.smogon.com/download/sprites/bw/667.png" alt="" /><br />
+Volcarona @ Life Orb<br />
+Ability: Flame Body<br />
+EVs: 252 Spe / 252 SpA / 4 SpD<br />
+Timid Nature (+Spe, -Atk)<br />
+- Quiver Dance<br />
+- Bug Buzz<br />
+- Fire Blast<br />
+- Hidden Power Ground</p>
+
+<h2>Growth</h2>
+
+<p>Growth is the penultimate set up move we'll be looking at, and it's a weird one. Growth is a move many veteran players will recognize, as it's been around forever and has usually been used only when nothing else good is available. It raised a Pok&eacute;mon's Special Attack by one stage, but it got a buff in the 5th Generation. Now, if Growth raises both Special Attack AND Attack, and if it's is used while in sunny weather, it raises both by two stages each! This, paired with the newly released Drought Ninetales, allows one Pok&eacute;mon with Chlorophyll to cause massive damage.</p>
+
+<h3>Common Overused Pok&eacute;mon Who Use It</h3>
+
+<ul>
+<li>Venusaur</li>
+</ul>
+
+<p>The power of Growth lies in its use by a Pok&eacute;mon with Chlorophyll who gains the +2 Speed boost in the sunny weather needed to boost Growth's potential. Venusaur makes perfect use of the boosts, being able to go mixed, all special, or even all physical. An example of a common set with Growth would look something like this:</p>
+
+<p><img src="http://www.smogon.com/download/sprites/bw/3.png" alt="" /><br />
+Venusaur @ Life Orb<br />
+Ability: Chlorophyll<br />
+EVs: 4 HP / 252 SpA / 252 Spe<br />
+Timid Nature (+Spe, -Atk)<br />
+- Growth<br />
+- Giga Drain<br />
+- Sludge Bomb<br />
+- Hidden Power Fire</p>
+
+<h2>Shell Smash</h2>
+
+<p>The Michael Jordan of setup moves, there's little reason not to call Shell Smash the G.O.A.T. Shell Smash. Now, stay with me because this is a long one: it raises Attack, Special Attack, and Speed by two stages, while lowering a Pok&eacute;mon's Defense and Special Defense one stage. I'll let that sink in... Yup, it's Swords Dance, Nasty Plot, and Agility all rolled into one megazord of a set up move, all for just a decrease in defense. The force of this move will become apparent when you see that Cloyster is the only Overused 'mon who can wield it, and it turns him into a monster.</p>
+
+<h3>Common Overused Pok&eacute;mon Who Use It</h3>
+
+<ul>
+<li>Cloyster</li>
+</ul>
+
+<p>Seriously, if you had told anyone, in any generation of Pok&eacute;mon before now, that they'd be able to sweep entire OU teams with the "defensive wall" Cloyster, you would've been locked away. An example of a common set with Shell Smash would look something like this:</p>
+
+<p><img src="http://www.smogon.com/download/sprites/bw/91.png" alt="" /><br />
+Cloyster @ White Herb<br />
+Ability: Skill Link<br />
+EVs: 252 Atk / 4 SpA / 252 Spe<br />
+Naive Nature (+Spe, -SpD)<br />
+- Shell Smash<br />
+- Icicle Spear<br />
+- Rock Blast<br />
+- Hydro Pump</p>
+
+<p>So there you have it&mdash;the most common setup moves used in the Overused tier. So, what are you waiting for? Get out there and sweep some teams!</p>
+
+<table id="smogfooter">
+<tr>
+<td class="left"><a href="doubles_spotlight_amoonguss">« Previous Article</a></td>
+<td class="middle"><a href="/smog/issue26/">Home</a></td>
+<td class="right"><a href="choice_items">Next Article »</a></td>
+</tr>
+</table>

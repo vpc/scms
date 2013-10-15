@@ -1,0 +1,77 @@
+[title]
+Soft Alliances in Mafia
+[head]
+<link href="/media/smog/smog.css" type="text/css" rel="stylesheet" />
+[page]
+<div class="author"> By <a href="/forums/member.php?u=273">Mekkah</a>.</div>
+<table id="smogheader">
+<tr>
+<td class="left"><a href="interview">&laquo; Previous Article</a></td>
+<td class="middle"><a href="/smog/issue11/">Home</a></td>
+<td class="right"><a href="mafia2">Next Article &raquo;</a></td>
+</tr>
+</table>
+ 
+<h2>Introduction</h2>
+
+<p>In a traditional mafia game, it's a clash between two groups: the village and the mafia. In such cases, each group only wants to work with themselves, and the challenge is in the "uninformed majority" vs "informed minority" idea. The whole game rests on whether or not the village finds their allies before the mafia overcomes their number disadvantage. In this basic format, there are only two possible winners, and they are mutually exclusive.</p>
+
+<p>These type of games are in a large minority in Smogon. A common format is 2v1 or 1v2, meaning either two different mafia factions versus one village, or two villages versus one mafia. You've got lynchpin, Viva, multifaction, and of course, games involving unaligned people, also known as neutrals. All these game types and factors add a new perspective to a game. While an 1v1 game consists largely of psychology and the question "can I trust this person to be with me?", any game with the former element suddenly introduces politics to the mix. It's not as simple as "play against the enemy in cooperation with my allies" any more.</p>
+
+<h2>The Friend of My Enemy Is My Enemy, the Enemy of My Enemy Is My Friend</h2>
+
+<p>The more factions there are in a game, the more the game shifts from psychology to politics and tactics. You have to negotiate with other factions, and you have to balance the use of your votes and night roles between what's good for your own team, and what keeps other teams off your neck. After all, while being the last team standing is the win criteria, you aren't really going to make it on your own. The most successful factions are the ones that work together to eliminate others in a joint effort. Two teams voting together will always outvote teams acting on their own. Two teams sharing information will find their most powerful enemies sooner. Two teams collaborating on night kills will be able to eliminate their opposition earlier. On the other end, teams trying to work alone will find themselves getting ganged up on, essentially fighting an uphill battle for the entire game.</p>
+
+<p>I call these necessary cooperations between factions "soft alliances". Two teams are working towards a common goal, usually eliminating some or all other teams. However, unlike "hard" alliances, they do not have to win together. Either it's impossible (both teams have to be last team standing), or one of multiple possibilities (win conditions require neither the elimination nor the survival of the other team). An example of the latter was in We Don't Need No Mafia, where each of the five teams needed two of the others eliminated. This made it possible for each team to make a soft alliance with two other teams that didn't need them dead.</p>
+
+<h2>Double Dipping</h2>
+
+<p>Soft alliances aren't bound by anything but promises. Players can make or break them as they wish, whatever they feel is advantageous.</p>
+
+<p>Whether or not to break an alliance, and of course when to do it, depends entirely on both the situation and your goals. Most of this comes down to stating the obvious. If you can win with another team, then you should probably do so. If you can choose between two teams to ally with, choose the one that is most cooperative, has the strongest roles, and the largest amount of votes. Of course, you don't have to choose right away; you can "double dip", meaning to work with both. If it's a game with win conditions like We Don't Need No Mafia's, they're probably doing it too. And if it's not, you should at least do it for as long as you can get away with. However, you cannot double dip forever, especially not in games where the goal of all factions is to eliminate all the others. Do it for too long, and you'll find both of your friendships broken.</p>
+
+<h2>It's Me, Not You; Can We Still Be Friends?</h2>
+
+<p>I should mention that "breaking an alliance" is not actually going to your conventional partner in crime and formally breaking up with them. We're talking about backstabbing here. You act like every other night, but instead of doing what you agree upon, you do whatever suits you best. You might be able to get away with going against your agreed plans without your opponent finding that out, but that is rare.</p>
+
+<h2>Prisoner's Dilemma</h2>
+
+<p>Deciding whether or not you should break an alliance that you don't necessarily have to break isn't easy. I like comparing it to the Prisoner's Dilemma, which is essentially a metaphor for this situation. There are many known variants of this analogy, but I think this one describes it the best.</p>
+
+<p>You committed a crime together with an accomplice, but you both got arrested and interrogated seperately. Thankfully, there is not a whole lot of evidence&mdash;not enough to keep both of you in jail for long without a confession. The cops offer you a deal: if you talk, you will not be sentenced to jail, but your friend gets ten years. However, your friend is given the same offer, and if you both confess, you both get five years. If you both choose to remain silent, the cops will only be able to keep you in jail for a year.</p>
+
+<p>Long story short:</p>
+
+<ul><li>If you both remain silent, 1 year for both of you</li>
+<li>If you both talk, 5 years for both of you</li>
+<li>If one of you talks, 10 years for the person that is ratted out</li></ul>
+
+<p>Now, imagine that this scenario isn't a one-time deal. Instead, you'll run into this exact situation an infinite number of times. What would be your most efficient strategy, in order to get the least amount of years in prison as possible?</p>
+
+<p>It's clear that either always talking or always remaining silent is not going to work&mdash;you will often end up with one of the two worst case scenarios (five or ten years of jail). Going completely random is not going to give optimal results, either.</p>
+
+<p>On average, the best thing to do is to start by not talking. If it turns out your friend did not talk either, you both only stay boxed in for one year. That's a combined two years of prison, whereas both other combinations are ten years total. If your friend does rat you out, simply get back at him at the next opportunity by ratting him out. Hopefully he takes the hint, and you can go back to not betraying each other again, and you can do the same.</p>
+
+<p>There have been real and simulated tournaments of this theoretical problem, where large groups of people "play" each other in brackets or round robins. At the end of the tournament, the winners are those with the lowest amount of years in jail. The above tactic practically guarantees you and your opponent to get the minimum amount of years in jail, assuming both players use it. That means your opponent has to be rational as well, though.</p>
+
+<p>What does this all have to do with mafia and soft alliances? Let's replace the interrogation with the game of mafia, your accomplice with your (temporary) ally, and the dilemma on whether to rat him out with the dilemma on whether to break the alliance. Not much has changed. Backstabbing your ally while he does't backstab you will give you a large positive (your ally isn't killing your men, but you are probably killing one of his men). If you don't backstab, you can both go forth and prosper, with a relatively small penalty (you are not as well off as if you had stabbed him, just like one year of jail is worse than none). If he does backstab you, you're both at a disadvantage. Not compared to each other, but compared to other players and/or teams.</p>
+
+<p>And again, the most efficient tactic here (barring exceptions which we'll get to) is obviously to stick to your ally instead of betraying him. If he betrays you, do the same to him, and he'll learn. This should put you in an advantage against players who backstab for the hell of it, or naïvely go along and get stabbed without returning fire.</p>
+
+<p>Of course, sometimes you need to stab to win. Back to the Prisoner's Dilemma game. If you know this is the last "interrogation round", there is no harm in stabbing your opponent. In fact, it puts you in a slightly better position. You have no more benefit from keeping him satisfied, but if he chooses not to stab you, you can stay out of prison while he can stay there for ten years. Worst case scenario, he realizes the same, but even then you're better off than if you had not stabbed (by five years, to be precise).</p>
+
+<p>In mafia, it's often not even a nice bonus. In a game where your team has to be last faction alive, you have to stab your now long-term friend in the back, preferably before but probably at the same time he does the same to you. This should, obviously, only be done when you can grab the game's momentum from there, to never let go. Do it too early, and you will face the wrath of a bitter former ally, as well as a couple of other teams that might have noticed how far ahead your numbers are compared to the other teams.</p>
+
+<h2>Game Over... Or Is It?</h2>
+
+<p>Remember when I said that there is no harm done in ratting out your accomplice in the last round of Prisoner's Dilemma? It doesn't work exactly that way in mafia. When not necessary, you will probably want to stay friends with as many people as you can, even if you have the game locked up in your favor. The reason for this is because it's decisions like this that allow you to build up a reputation as a good person to ally with. Some players on Smogon are known to be backstabbing bastards, who aren't bothered by killing off people who aren't actually of any harm, essentially robbing them of a win you could've shared with them. There's also people who stick with others until the bitter end if possible, sometimes going as far as holding back a little to keep an alliance going. It might sound irrational, but I also think being of the second type of player is a sign of good sportsmanship. In addition, if I ever have to make a choice about who to ally with, I'll go with the friendly guy over the backstabber. Such reputations can also earn you being "randomly" targeted in non-anonymous games. I believe this is actually a good way of picking your random targets, since it makes the game healthier for alliances for everyone.</p>
+
+<p>Long story short, just like that one interrogation is just one of many or even infinite, the game you're currently playing won't be your last, and people do remember how you acted in former games. You can call it holding a grudge, but I call it "what goes around, comes around".</p>
+ 
+<table id="smogfooter">
+<tr>
+<td class="left"><a href="interview">&laquo; Previous Article</a></td>
+<td class="middle"><a href="/smog/issue11/">Home</a></td>
+<td class="right"><a href="mafia2">Next Article &raquo;</a></td>
+</tr>
+</table>

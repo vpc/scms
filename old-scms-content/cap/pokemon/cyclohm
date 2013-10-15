@@ -1,0 +1,31 @@
+[title]
+Cyclohm
+[head]
+<link rel="stylesheet" type="text/css" href="/media/dex/dex.css" />
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_template.js"></script>
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_database.js"></script>
+[header]
+[page]
+<script language="JavaScript">
+<!--
+var cap = Cyclohm();
+
+cap.heightFeet = 5;
+cap.heightInches = 4;
+cap.weightPounds = 129.5;
+cap.weightKilos = 59;
+cap.eggGroup1 = "Dragon";
+cap.eggGroup2 = "Monster"
+
+cap.topicLeader = "cyberzero";
+cap.conceptCreator = "Elevator Music"
+cap.statSpreadCreator = "Deck Knight & Tennisace";
+cap.designArtist = "CyzirVisheen";
+cap.spriteArtist = "Aragornbird";
+cap.nameCreator = "Hohahihehu";
+cap.movepoolCreator = "Deck Knight";
+cap.playtestChampion = "Magmortified";
+
+document.write(composeDexPage(cap));
+//-->
+</script>

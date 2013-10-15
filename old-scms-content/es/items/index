@@ -1,0 +1,2259 @@
+[title]
+Objetos
+[head]
+<meta name="description" content="Index Spanish articles." />
+[page]
+
+<div style="float: right;"><img src="/media/es/spanish_items.png" alt="" /></div>
+
+<ol class="toc">
+	<li>Aventura
+		<ul>
+			<li><a href="#cartas">Cartas</a></li>
+			<li><a href="#evs">Entrenamiento Pokémon</a></li>
+			<li><a href="#evo">Evolución Pokémon: piedras y otros</a></li>
+			<li><a href="#fossils">Fósiles Pokémon</a></li>
+			<li><a href="#pokeball">PokéBall</a></li>
+			<li><a href="#restauracion">Restauración: estado, salud y PP</a></li>
+		</ul>
+	</li>
+<br />
+	<li>Competitivo & Batalla
+		<ul>
+			<li><a href="#bayas">Bayas</a></li>
+			<li><a href="#objbat">Objetos de uso Competitivo</a></li>
+			<li><a href="#otros">Otros de Apoyo</a></li>
+		</ul>
+	</li>
+<br />
+	<li>Otros
+		<ul>
+			<li><a href="#mtmo">MT y MO</a></li>
+			<li><a href="#objclave">Objetos Clave</a></li>
+		</ul>
+	</li>	
+</ol>	
+
+<h2><a name="cartas">Cartas</h2>
+
+<table class="sortable">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Nombre</th>
+			<th>Descripción</th>
+		</tr>
+	</thead>
+<tbody>
+
+<tr class="a">
+	<td><a href="/es/items/carta_acero">Steel Mail</a></td>
+	<td><a href="/es/items/carta_acero">Carta Acero</a></td>
+	<td>Impide que el movimiento <a href="/dp/moves/trick">Trick</a> (Truco) funcione.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/carta_aerea">Air Mail</a></td>
+	<td><a href="/es/items/carta_aerea">Carta Aérea</a></td>
+	<td>Correo con diseño de rayas. Cuando se usa en batalla hace que el oponente falle si usó <a href="/dp/moves/trick">Trick</a> (Truco).</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/car_corazon">Heart Mail</a></td>
+	<td><a href="/es/items/car_corazon">Carta Corazón</a></td>
+	<td>Previene el uso exitoso de <a href="/dp/moves/trick">Trick</a> (Truco).</td>
+</tr>
+<tr>
+	<td><a href="/es/items/carta_flores">Bloom Mail</a></td>
+	<td><a href="/es/items/carta_flores">Carta Flores</a></td>
+	<td>Cuando un Pokémon tiene equipado este objeto, <a href="/dp/moves/trick">Trick</a> (Truco) falla.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/carta_fuego">Flame Mail</a></td>
+	<td><a href="/es/items/carta_fuego">Carta Fuego</a></td>
+	<td>Previene que funcione el movimiento <a href="/dp/moves/trick">Trick</a> (Truco).</td>
+</tr>
+<tr>
+	<td><a href="/es/items/carta_hierba">Grass Mail</a></td>
+	<td><a href="/es/items/carta_hierba">Carta Hierba</a></td>
+	<td>Previene que tenga éxito <a href="/dp/moves/trick">Trick</a> (Truco).</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/carta_mina">Tunnel Mail</a></td>
+	<td><a href="/es/items/carta_mina">Carta Mina</a></td>
+	<td>Impide que el movimiento <a href="/dp/moves/trick">Trick</a> (Truco) funcione.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/carta_mosaico">Mosaic Mail</a></td>
+	<td><a href="/es/items/carta_mosaico">Carta Mosaico</a></td>
+	<td>Impide que el movimiento <a href="/dp/moves/trick">Trick</a> (Truco) funcione.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/carta_nieve">Snow Mail</a></td>
+	<td><a href="/es/items/carta_nieve">Carta Nieve</a></td>
+	<td>Impide que el movimiento <a href="/dp/moves/trick">Trick</a> (Truco) funcione.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/carta_pared">Brick Mail</a></td>
+	<td><a href="/es/items/carta_pared">Carta Pared</a></td>
+	<td>Cuando cualquier Pokémon tiene equipado este objeto, <a href="/dp/moves/trick">Trick</a> (Truco) falla.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/carta_pompas">Bubble Mail</a></td>
+	<td><a href="/es/items/carta_pompas">Carta Pompas</a></td>
+	<td>Cuando cualquier Pokémon tiene equipado este objeto, <a href="/dp/moves/trick">Trick</a> (Truco) falla.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/carta_pr_oak">Oak's Letter</a></td>
+	<td><a href="/es/items/carta_pr_oak">Carta Pr. Oak</a></td>
+	<td>Objeto de evento para <a href="/dp/pokemon/shaymin">Shaymin</a>.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/carta_sideral">Space Mail</a></td>
+	<td><a href="/es/items/carta_sideral">Carta Sideral</a></td>
+	<td>Impide que el movimiento <a href="/dp/moves/trick">Trick</a> (Truco) funcione.</td>
+</tr>	
+</tbody>
+</table>
+
+<h2><a name="evs">Entrenamiento Pokémon</a></h2>
+
+<table class="sortable">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Nombre</th>
+			<th>Descripción</th>
+		</tr>
+	</thead>
+<tbody>
+
+<tr class="a">
+	<td><a href="/es/items/mas_pp">PP Up</a></td>
+	<td><a href="/es/items/mas_pp">Más PP</a></td>
+	<td>Aumenta ligeramente los PP máximos de un ataque elegido de un Pokémon.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/max_pp">PP Max</a></td>
+	<td><a href="/es/items/max_pp">Máx. PP</a></td>
+	<td>Maximiza los PP de un movimiento de un Pokémon.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/mas_ps">HP Up</a></td>
+	<td><a href="/es/items/mas_ps">Más PS</a></td>
+	<td>Añade 10 EVs a los PS de un Pokémon.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/proteina">Protein</a></td>
+	<td><a href="/es/items/proteina">Proteína</a></td>
+	<td>Añade 10 EVs al Ataque de un Pokémon.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/hierro">Iron</a></td>
+	<td><a href="/es/items/hierro">Hierro</a></td>
+	<td>Añade 10 EVs a la Defensa de un Pokémon.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/carburante">Carbos</a></td>
+	<td><a href="/es/items/carburante">Carburante</a></td>
+	<td>Añade 10 EVs a la Velocidad de un Pokémon.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/calcio">Calcium</a></td>
+	<td><a href="/es/items/calcio">Calcio</a></td>
+	<td>Añade 10 EVs al Ataque Especial de un Pokémon.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/zinc">Zinc</a></td>
+	<td><a href="/es/items/zinc">Zinc</a></td>
+	<td>Añade 10 EVs a la Defensa Especial de un Pokémon.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/pesa_recia">Power Weight</a></td>
+	<td><a href="/es/items/pesa_recia">Pesa Recia</a></td>
+	<td>Reduce la Velocidad un 50%. Concede 4 EVs en PS cuando el oponente es derrotado.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/brazal_recio">Power Bracer</a></td>
+	<td><a href="/es/items/brazal_recio">Brazal Recio</a></td>
+	<td>Reduce la Velocidad un 50%. Concede 4 EVs en Ataque cuando el oponente es derrotado.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/cinto_recio">Power Belt</a></td>
+	<td><a href="/es/items/cinto_recio">Cinto Recio</a></td>
+	<td>Reduce la Velocidad un 50%. Concede 4 EVs en Defensa cuando el oponente es derrotado.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/lenta_recia">Power Lens</a></td>
+	<td><a href="/es/items/lenta_recia">Lente Recia</a></td>
+	<td>Reduce la Velocidad un 50%. Concede 4 EVs en Ataque Especial cuando el oponente es derrotado.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/banda_recia">Power Band</a></td>
+	<td><a href="/es/items/banda_recia">Banda Recia</a></td>
+	<td>Reduce la Velocidad un 50%. Concede 4 EVs en Defensa Especial cuando el oponente es derrotado.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/franja_recia">Power Anklet</a></td>
+	<td><a href="/es/items/franja_recia">Franja Recia</a></td>
+	<td>Reduce la Velocidad un 50%. Concede 4 EVs en Velocidad cuando el oponente es derrotado.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/brazal_firme">Macho Brace</a></td>
+	<td><a href="/es/items/brazal_firme">Brazal Firme</a></td>
+	<td>Reduce la Velocidad un 50%. Duplica los EVs ganados.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/baya_grana">Pomeg Berry</a></td>
+	<td><a href="/es/items/baya_grana">Baya Grana</a></td>
+	<td>Reduce los EVs en PS por 10. Incrementa la felicidad.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/baya_algama">Kelpsy Berry</a></td>
+	<td><a href="/es/items/baya_algama">Baya Algama</a></td>
+	<td>Reduce los EVs en Ataque por 10. Incrementa la felicidad.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/baya_ispero">Qualot Berry</a></td>
+	<td><a href="/es/items/baya_ispero">Baya Ispero</a></td>
+	<td>Reduce los EVs en Defensa por 10. Incrementa la felicidad.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/baya_tamate">Tamato Berry</a></td>
+	<td><a href="/es/items/baya_tamate">Baya Tamate</a></td>
+	<td>Reduce los EVs en Velocidad por 10. Incrementa la felicidad.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/baya_meluce">Hondew Berry</a></td>
+	<td><a href="/es/items/baya_meluce">Baya Meluce</a></td>
+	<td>Reduce los EVs en Ataque Especial por 10. Incrementa la felicidad.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/baya_uvav">Grepa Berry</a></td>
+	<td><a href="/es/items/baya_uvav">Baya Uvav</a></td>
+	<td>Reduce los EVs en Defensa Especial por 10. Incrementa la felicidad.</td>
+</tr>
+</tbody>
+</table>
+
+<h2><a name="evo">Evolución Pokémon: piedras y otros</a></h2>
+
+<table class="sortable">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Nombre</th>
+			<th>Descripción</th>
+		</tr>
+	</thead>
+<tbody>
+
+<tr class="a">
+	<td><a href="/es/items/piedra_agua">Water Stone</a></td>
+	<td><a href="/es/items/piedra_agua">Piedra Agua</a></td>
+	<td>Evoluciona a <a href="/dp/pokemon/eevee">Eevee</a>, <a href="/dp/pokemon/poliwhirl">Poliwhirl</a>, <a href="/dp/pokemon/shellder">Shellder</a>, <a href="/dp/pokemon/staryu">Staryu</a>, y <a href="/dp/pokemon/lombre">Lombre</a>.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/piedra_alba">Dawn Stone</a></td>
+	<td><a href="/es/items/piedra_alba">Piedra Alba</a></td>
+	<td>Evoluciona tanto a <a href="/dp/pokemon/kirlia">Kirlia</a> como a <a href="/dp/pokemon/snorunt">Snorunt</a>.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/piedra_dia">Shiny Stone</a></td>
+	<td><a href="/es/items/piedra_dia">Piedra Día</a></td>
+	<td>Evoluciona a <a href="/dp/pokemon/togetic">Togetic</a> y <a href="/dp/pokemon/roselia">Roselia</a>.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/dire_hit">Fire Stone</a></td>
+	<td><a href="/es/items/dire_hit">Piedra Fuego</a></td>
+	<td>Permite a <a href="/dp/pokemon/vulpix">Vulpix</a>, <a href="/dp/pokemon/growlithe">Growlithe</a> e <a href="/dp/pokemon/eevee">Eevee</a> evolucionar.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/piedra_hoja">Leaf Stone</a></td>
+	<td><a href="/es/items/piedra_hoja">Piedra Hoja</a></td>
+	<td>Evoluciona a <a href="/dp/pokemon/gloom">Gloom</a>, <a href="/dp/pokemon/weepinbell">Weepinbell</a>, <a href="/dp/pokemon/exeggcute">Exeggcute</a>, y <a href="/dp/pokemon/nuzleaf">Nuzleaf</a>.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/piedra_lunar">Moon Stone</a></td>
+	<td><a href="/es/items/piedra_lunar">Piedra Lunar</a></td>
+	<td>Evoluciona a <a href="/dp/pokemon/nidorina">Nidorina</a>a, <a href="/dp/pokemon/nidorino">Nidorino</a>, <a href="/dp/pokemon/skitty">Skitty</a>, <a href="/dp/pokemon/jigglypuff">Jigglypuff</a>, y <a href="/dp/pokemon/clefairy">Clefairy</a>.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/piedra_noche">Dusk Stone</a></td>
+	<td><a href="/es/items/piedra_noche">Piedra Noche</a></td>
+	<td>Evoluciona a <a href="/dp/pokemon/misdreavus">Misdreavus</a> en <a href="/dp/pokemon/mismagius">Mismagius</a> y a <a href="/dp/pokemon/murkrow">Murkrow</a> en <a href="/dp/pokemon/honchkrow">Honchkrow</a>.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/piedra_oval">Oval Stone</a></td>
+	<td><a href="/es/items/piedra_oval">Piedra Oval</a></td>
+	<td>Objeto para llevar que causa a <a href="/dp/pokemon/happiny">Happiny</a> evolucionar en <a href="/dp/pokemon/chansey">Chansey</a>.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/piedra_solar">Sun Stone</a></td>
+	<td><a href="/es/items/piedra_solar">Piedra Solar</a></td>
+	<td>Evoluciona a <a href="/dp/pokemon/sunkern">Sunkern</a> y <a href="/dp/pokemon/gloom">Gloom</a>.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/piedratrueno">Thunderstone</a></td>
+	<td><a href="/es/items/piedratrueno">Piedratrueno</a></td>
+	<td>Evoluciona a <a href="/dp/pokemon/pikachu">Pikachu</a> y a <a href="/dp/pokemon/eevee">Eevee</a>.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/colmillo_agudo">Razor Fang</a></td>
+	<td><a href="/es/items/colmillo_agudo">Colmillo Agudo</a></td>
+	<td>Ciertos movimientos ganan un 10% de probabilidades de causar retroceso. También permite a <a href="/dp/pokemon/gligar">Gligar</a> evolucionar en <a href="/dp/pokemon/gliscor">Gliscor</a>.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/diente_mar">DeepSeaTooth</a></td>
+	<td><a href="/es/items/diente_mar">Diente Marino</a></td>
+	<td>Multiplica por dos el Ataque Especial de <a href="/dp/pokemon/clamperl">Clamperl</a>. Evoluciona a Clamperl en <a href="/dp/pokemon/huntail">Huntail</a>.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/discoextrano">Dubious Disc</a></td>
+	<td><a href="/es/items/discoextrano">Discoextraño</a></td>
+	<td>Hace que <a href="/dp/pokemon/porygon2">Porygon 2</a> evolucione a <a href="/dp/pokemon/porygon-z">Porygon Z</a>.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/escama_mar">DeepSeaScale</a></td>
+	<td><a href="/es/items/escama_mar">Escama Marina</a></td>
+	<td>Multiplica por dos la Defensa Especial de <a href="/dp/pokemon/clamperl">Clamperl</a>. Evoluciona a Clamperl en <a href="/dp/pokemon/gorebyss">Gorebyss</a>.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/escama_dragon">Dragon Scale</a></td>
+	<td><a href="/es/items/escama_dragon">Escama Dragón</a></td>
+	<td>Hace que <a href="/dp/pokemon/seadra">Seadra</a> evolucione en <a href="/dp/pokemon/kingdra">Kingdra</a>.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/electrizador">Electirizer</a></td>
+	<td><a href="/es/items/electrizador">Electrizador</a></td>
+	<td>Hace que <a href="/dp/pokemon/electabuzz">Electabuzz</a> evolucione a <a href="/dp/pokemon/Electivire">Electivire</a>.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/garrafilada">Razor Claw</a></td>
+	<td><a href="/es/items/garrafilada">Garrafilada</a></td>
+	<td>Aumenta las probabilidades de golpe crítico un nivel. También sirve para evolucionar a <a href="/dp/pokemon/sneasel">Sneasel</a> en <a href="/dp/pokemon/weavile">Weavile</a>.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/magmatizador">Magmarizer</a></td>
+	<td><a href="/es/items/magmatizador">Magmatizador</a></td>
+	<td>Evoluciona a <a href="/dp/pokemon/magmar">Magmar</a> en <a href="/dp/pokemon/magmortar">Magmortar</a>.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/mejora">Up-Grade</a></td>
+	<td><a href="/es/items/mejora">Mejora</a></td>
+	<td>Evoluciona a <a href="/dp/pokemon/porygon">Porygon</a> en <a href="/dp/pokemon/porygon2">Porygon2</a>.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/protector">Protector</a></td>
+	<td><a href="/es/items/protector">Protector</a></td>
+	<td>Evoluciona a <a href="/dp/pokemon/rhydon">Rhydon</a> en <a href="/dp/pokemon/rhyperior">Rhyperior</a>.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/rev_metalico">Metal Coat</a></td>
+	<td><a href="/es/items/rev_metalico">Rev. Metálico</a></td>
+	<td>Aumenta el poder de los ataques de tipo <a href="/dp/types/steel">Acero</a> en un 20%. Permite evolucionar a Onix en Steelix, y Scyther en Scizor.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/telaterrible">Reaper Cloth</a></td>
+	<td><a href="/es/items/telaterrible">Telaterrible</a></td>
+	<td>Evoluciona a <a href="/dp/pokemon/dusclops">Dusclops</a> en <a href="/dp/pokemon/Dusknoir">Dusknoir</a>.</td>
+</tr>
+</tbody>
+</table>
+
+<h2><a name="fossils">Fósiles Pokémon</a></h2>
+
+<table class="sortable">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Nombre</th>
+			<th>Descripción</th>
+		</tr>
+	</thead>
+<tbody>
+
+<tr class="a">
+	<td><a href="/es/items/amber_viejo">Old Amber</a></td>
+	<td><a href="/es/items/amber_viejo">Ámbar Viejo</a></td>
+	<td>Fósil de color amarillo el cual puede ser revivido en <a href="/dp/pokemon/aerodactyl">Aerodactyl</a>.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/fosil_garra">Claw Fossil</a></td>
+	<td><a href="/es/items/fosil_garra">Fósil Garra</a></td>
+	<td>Si se le da al hombre del museo de Ciudad Pirita, se usa para revivir a <a href="/dp/pokemon/anorith">Anorith</a> en nivel 20. No tiene uso en batalla.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/fosil_raiz">Root Fossil</a></td>
+	<td><a href="/es/items/fosil_raiz">Fósil Raíz</a></td>
+	<td>Puede ser revivido en <a href="/dp/pokemon/lileep">Lileep</a>.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/fosil_domo">Dome Fossil</a></td>
+	<td><a href="/es/items/fosil_domo">Fósil Domo</a></td>
+	<td>Revive a <a href="/dp/pokemon/kabuto">Kabuto</a>.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/fosil_helix">Helix Fossil</a></td>
+	<td><a href="/es/items/fosil_helix">Fósil Helix</a></td>
+	<td>Revive a <a href="/dp/pokemon/omantye">Omanyte</a>.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/fosil_coraza">Armor Fossil</a></td>
+	<td><a href="/es/items/fosil_coraza">Fósil Coraza</a></td>
+	<td>Si se le da al hombre que revive fósiles en el museo de Ciudad Pirita, se convierte en un <a href="/dp/pokemon/shieldon">Shieldon</a> de nivel 20.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/fosil_craneo">Skull Fossil</a></td>
+	<td><a href="/es/items/fosil_craneo">Fósil Cráneo</a></td>
+	<td>Puede ser revivido en <a href="/dp/pokemon/cranidos">Cranidos</a>.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/hueso_raro">Rare Bone</a></td>
+	<td><a href="/es/items/hueso_raro">Hueso Raro</a></td>
+	<td>Puede ser vendido por 5000 Poké Dólares. Objeto sin otro uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/piedra_spiritu">Odd Keystone</a></td>
+	<td><a href="/es/items/piedra_spiritu">Piedra Espíritu</a></td>
+	<td>Objeto necesario para capturar a <a href="/dp/pokemon/spiritomb">Spiritomb</a>.</td>
+</tr>
+</tbody>
+</table>
+
+<h2><a name="pokeball">PokéBall</a></h2>
+
+<table class="sortable">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Nombre</th>
+			<th>Descripción</th>
+		</tr>
+	</thead>
+<tbody>
+
+<tr class="a">
+	<td><a href="/es/items/master_ball">Master Ball</a></td>
+	<td><a href="/es/items/master_ball">Master Ball</a></td>
+	<td>Poké Ball que nunca fallará.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/ultraball">Ultra Ball</a></td>
+	<td><a href="/es/items/ultraball">Ultraball</a></td>
+	<td>Poké Ball utilizada para capturar Pokémon.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/super_ball">Great Ball</a></td>
+	<td><a href="/es/items/super_ball">Superball</a></td>
+	<td>Una Ball para atrapar Pokémon mucho más efectiva que una Poké Ball regular.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/poke_ball">Poké Ball</a></td>
+	<td><a href="/es/items/poke_ball">Poké Ball</a></td>
+	<td>Poké Ball usada para capturar Pokémon.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/acopio_ball">Repeat Ball</a></td>
+	<td><a href="/es/items/acopio_ball">Acopio Ball</a></td>
+	<td>Poké Ball que es más efectiva cuando se trata de capturar un Pokémon que ya se tiene registrado en la PokéDex.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/buceo_ball">Dive Ball</a></td>
+	<td><a href="/es/items/buceo_ball">Buceo Ball</a></td>
+	<td>Una Poké Ball usada para capturar Pokémon.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/gloria_ball">Cherish Ball</a></td>
+	<td><a href="/es/items/gloria_ball">Gloria Ball</a></td>
+	<td>Una Poké Ball en la cual vienen los Pokémon de eventos.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/honor_ball">Premier Ball</a></td>
+	<td><a href="/es/items/honor_ball">Honor Ball</a></td>
+	<td>Bola de captura que funciona exactamente igual que la Poké Ball pero que tiene un diseño diferente.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/lujo_ball">Luxury Ball</a></td>
+	<td><a href="/es/items/lujo_ball">Lujo Ball</a></td>
+	<td>Poké Ball que causa que el Pokémon capturado en ella gane felicidad más rápido.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/malla_ball">Net Ball</a></td>
+	<td><a href="/es/items/malla_ball">Malla Ball</a></td>
+	<td>Poké Ball que es más eficiente en Pokémon de tipo <a href="/dp/types/bug">Bicho</a> y <a href="/dp/types/water">Agua</a>.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/nido_ball">Nest Ball</a></td>
+	<td><a href="/es/items/nido_ball">Nido Ball</a></td>
+	<td>Poké Ball que es más eficiente para capturar Pokémon de nivel bajo.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/ocaso_ball">Dusk Ball</a></td>
+	<td><a href="/es/items/ocaso_ball">Ocaso Ball</a></td>
+	<td>Poké Ball que se vuelve más eficiente si se utiliza de noche o en cuevas.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/safari_ball">Safari Ball</a></td>
+	<td><a href="/es/items/safari_ball">Safari Ball</a></td>
+	<td>Poké Ball utilizada para capturar Pokémon en el Gran Pantano.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/sana_ball">Heal Ball</a></td>
+	<td><a href="/es/items/sana_ball">Sana Ball</a></td>
+	<td>Poké Ball que sana al Pokémon capturado.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/turno_ball">Timer Ball</a></td>
+	<td><a href="/es/items/turno_ball">Turno Ball</a></td>
+	<td>Poké Ball que se vuelve más efectiva mientras más turnos pasan.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/veloz_ball">Quick Ball</a></td>
+	<td><a href="/es/items/veloz_ball">Veloz Ball</a></td>
+	<td>Poké Ball que cuenta con un índice de captura más alto si se usa en los primeros turnos de la batalla.</td>
+</tr>
+</tbody>
+</table>
+
+<h2><a name="restauracion">Restauración: estado, salud y PP</a></h2>
+
+<table class="sortable">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Nombre</th>
+			<th>Descripción</th>
+		</tr>
+	</thead>
+<tbody>
+
+<tr class="a">
+	<td><a href="/es/items/agua_fresca">Fresh Water</a></td>
+	<td><a href="/es/items/agua_fresca">Agua Fresca</a></td>
+	<td>Restaura 50 PS a un Pokémon.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/antidoto">Antidote</a></td>
+	<td><a href="/es/items/antidoto">Antídoto</a></td>
+	<td>Cura el veneno.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/antihielo">Ice Heal</a></td>
+	<td><a href="/es/items/antihielo">Antihielo</a></td>
+	<td>Cura el congelamiento.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/antiquemar">Burn Heal</a></td>
+	<td><a href="/es/items/antiquemar">Antiquemar</a></td>
+	<td>Al usarse, cura las quemaduras de un Pokémon.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/antiparaliz">Paralyz Heal</a></td>
+	<td><a href="/es/items/antiparaliz">Antiparaliz</a></td>
+	<td>Cura el estado de parálisis.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/barrita_plus">Old Gateau</a></td>
+	<td><a href="/es/items/barrita_plus">Barrita Plus</a></td>
+	<td>Elimina todos los efectos de estado de un Pokémon.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/ceniza_sagrada">Sacred Ash</a></td>
+	<td><a href="/es/items/ceniza_sagrada">Ceniza Sagrada</a></td>
+	<td>Revive completamente a todos tus Pokémon debilitados. </td>
+</tr>
+<tr>
+	<td><a href="/es/items/cura_total">Full Heal</a></td>
+	<td><a href="/es/items/cura_total">Cura Total</a></td>
+	<td>Cura de cualquier status al Pokémon.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/despertar">Awakening</a></td>
+	<td><a href="/es/items/despertar">Despertar</a></td>
+	<td>Cura el sueño.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/elixir">Elixir</a></td>
+	<td><a href="/es/items/elixir">Elixir</a></td>
+	<td>Recupera 10PP en cada uno de los ataques.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/elixir_max">Max Elixir</a></td>
+	<td><a href="/es/items/elixir_max">Elixir Máx.</a></td>
+	<td>Restaura todos los PP de todos los movimientos de un Pokémon.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/eter">Ether</a></td>
+	<td><a href="/es/items/eter">Éter</a></td>
+	<td>Recupera 10 PP de uno de los ataques del Pokémon.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/eter_max">Max Ether</a></td>
+	<td><a href="/es/items/eter_max">Éter Máx.</a></td>
+	<td>Restaura todos los PP de uno de los movimientos de un Pokémon.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/flauta_amarilla">Yellow Flute</a></td>
+	<td><a href="/es/items/flauta_amarilla">Flauta Amarilla</a></td>
+	<td>Cura la confusión. No desaparece tras ser usada.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/flauta_azul">Blue Flute</a></td>
+	<td><a href="/es/items/flauta_azul">Flauta Azul</a></td>
+	<td>Cuando se usa, cura el sueño del Pokémon seleccionado.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/flauta_roja">Red Flute</a></td>
+	<td><a href="/es/items/flauta_roja">Flauta Roja</a></td>
+	<td>Cura el enamoramiento.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/galleta_lava">Lava Cookie</a></td>
+	<td><a href="/es/items/galleta_lava">Galleta Lava</a></td>
+	<td>Elimina todos los efectos de estado de un Pokémon.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/hierba_revivir">Revival Herb</a></td>
+	<td><a href="/es/items/hierba_revivir">Hierba Revivir</a></td>
+	<td>Revive a un Pokémon debilitado y totalmente restaura todo sus PS.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/hiper_pocion">Hyper Potion</a></td>
+	<td><a href="/es/items/hiper_pocion">Hiper Poción</a></td>
+	<td>Restaura 200 PS a un Pokémon.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/leche_mumu">Moomoo Milk</a></td>
+	<td><a href="/es/items/leche_mumu">Leche Mu-mu</a></td>
+	<td>Restaura 100 PS a un Pokémon.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/limonada">Lemonade</a></td>
+	<td><a href="/es/items/limonada">Limonada</a></td>
+	<td>Restaura 80 PS a un Pokémon.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/max_pocion">Máx Potion</a></td>
+	<td><a href="/es/items/max_pocion">Máx. Poción</a></td>
+	<td>Restaura todo los PS de un Pokémon.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/max_revivir">Máx Revive</a></td>
+	<td><a href="/es/items/max_revivir">Máx. Revivir</a></td>
+	<td>Revive y restaura todo los PS de un Pokémon.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/pol_curacion">Heal Powder</a></td>
+	<td><a href="/es/items/pol_curacion">Polvo Curación</a></td>
+	<td>Cura cualquier estado, pero tiene sabor amargo.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/polvoenergia">EnergyPowder</a></td>
+	<td><a href="/es/items/polvoenergia">Polvoenergía</a></td>
+	<td>Recupera 50 PS pero tiene sabor amargo.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/raíz_energia">Energy Root</a></td>
+	<td><a href="/es/items/raíz_energia">Raíz Energía</a></td>
+	<td>Recupera 200 PS pero tiene sabor amargo.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/restau_todo">Full Restore</a></td>
+	<td><a href="/es/items/restau_todo">Restaura Todo</a></td>
+	<td>Cura cambios de estado y restaura toda la energía.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/superpocion">Super Potion</a></td>
+	<td><a href="/es/items/superpocion">Superpoción</a></td>
+	<td>Restaura 50 PS de un Pokémon.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/zumo_de_baya">Berry Juice</a></td>
+	<td><a href="/es/items/zumo_de_baya">Zumo de Baya</a></td>
+	<td>Recupera 20 puntos de salud cuando la energía del Pokémon que lo carga llega al 50%.</td>
+</tr>
+</tbody>
+</table>
+
+																	<hr />
+
+<h2><a name="bayas">Bayas</a></h2>
+
+<table class="sortable">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Nombre</th>
+			<th>Descripción</th>
+		</tr>
+	</thead>
+<tbody>
+
+<tr class="a">
+	<td><a href="/es/items/baya_acardo">Shuca Berry</a></td>
+	<td><a href="/es/items/baya_acardo">Baya Acardo</a></td>
+	<td>Reduce el daño de un ataque super efectivo de tipo <a href="/dp/types/ground">Tierra</a> en un 50%. La baya se consume una vez usada.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/baya_alcho">Charti Berry</a></td>
+	<td><a href="/es/items/baya_alcho">Baya Alcho</a></td>
+	<td>Reduce el daño de un ataque super efectivo de tipo <a href="/dp/types/rock">Roca</a> en un 50%. La baya se consume una vez usada.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/baya_algama">Kelpsy Berry</a></td>
+	<td><a href="/es/items/baya_algama">Baya Algama</a></td>
+	<td>Reduce los EVs en Ataque por 10. Incrementa la felicidad.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/baya_andano">Belue Berry</a></td>
+	<td><a href="/es/items/baya_andano">Baya Andano</a></td>
+	<td>Ingrediente para Pokochos.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/baya_ango">Mago Berry</a></td>
+	<td><a href="/es/items/baya_ango">Baya Ango</a></td>
+	<td>Restaura 1/8 de los PS máximos siempre y cuando éste se encuentre al 50% o menos. Puede causar confusión. Objeto de un solo uso.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/baya_anjiro">Haban Berry</a></td>
+	<td><a href="/es/items/baya_anjiro">Baya Anjiro</a></td>
+	<td>Reduce el daño de un ataque super efectivo de tipo <a href="/dp/types/dragon">Dragón</a> en un 50%. La baya se consume una vez usada.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/baya_aostan">Magost</a></td>
+	<td><a href="/es/items/baya_aostan">Baya Aostan</a></td>
+	<td>Ingrediente para Pokochos.</td>
+</tr>
+<tr >
+	<td><a href="/es/items/baya_arabol">Starf Berry</a></td>
+	<td><a href="/es/items/baya_arabol">Baya Arabol</a></td>
+	<td>Aumenta un stat dos niveles cuando el Pokémon usuario se encuentra al 25% de sus PS o menos. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/baya_aranja">Oran Berry</a></td>
+	<td><a href="/es/items/baya_aranja">Baya Aranja</a></td>
+	<td>Restaura 10 PS cuando el Pokémon que la usa se encuentra al 50% de sus PS o menos. Objeto de un solo uso.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/baya_aricoc">Apicot Berry</a></td>
+	<td><a href="/es/items/baya_aricoc">Baya Aricoc</a></td>
+	<td>Aumenta la Defensa Especial un nivel cuando el usuario se encuentra al 25% de sus PS o menos. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/baya_aslac">Salac Berry</a></td>
+	<td><a href="/es/items/baya_aslac">Baya Aslac</a></td>
+	<td>Aumenta la Velocidad un nivel cuando el usuario se encuentra al 25% de sus PS o menos. Objeto de un solo uso.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/baya_atania">Chesto Berry</a></td>
+	<td><a href="/es/items/baya_atania">Baya Atania</a></td>
+	<td>Cura el sueño. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/baya_bariba">Babiri Berry</a></td>
+	<td><a href="/es/items/baya_bariba">Baya Baribá</a></td>
+	<td>Reduce el daño de un ataque super efectivo de tipo <a href="/dp/types/steel">Acero</a> en un 50%. La baya se consume una vez usada.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/baya_caoca">Occa Berry</a></td>
+	<td><a href="/es/items/baya_caoca">Baya Caoca</a></td>
+	<td>Reduce el daño de un ataque super efectivo de tipo <a href="/dp/types/fire">Fuego</a> en un 50%. La baya se consume una vez usada.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/baya)caquic">Persim Berry</a></td>
+	<td><a href="/es/items/baya)caquic">Baya Caquic</a></td>
+	<td>Cura la confusión. Objeto de un solo uso.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/baya_chilan ">Chilan Berry</a></td>
+	<td><a href="/es/items/baya_chilan ">Baya Chilan</a></td>
+	<td>Reduce el daño de los ataques de tipo <a href="/dp/types/normal">Normal</a> en un 50%. La baya se consume una vez usada.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/baya_chiri">Custap Berry</a></td>
+	<td><a href="/es/items/baya_chiri">Baya Chiri</a></td>
+	<td>Se activa cuando el Pokémon que la usa se encuentra al 25% de sus PS, y le permitirá atacar primero durante el siguiente turno. Objeto de un solo uso.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/baya_dillo">Colbur Berry</a></td>
+	<td><a href="/es/items/baya_dillo">Baya Dillo</a></td>
+	<td>Reduce el daño de un ataque super efectivo de tipo Siniestro en un 50%.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/baya_drasi">Kasib Berry</a></td>
+	<td><a href="/es/items/baya_drasi">Baya Drasi</a></td>
+	<td>Reduce el daño de un ataque super efectivo de tipo <a href="/dp/types/ghost">Fantasma</a> en un 50%. La baya se consume una vez usada.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/baya_enigma">Enigma Berry</a></td>
+	<td><a href="/es/items/baya_enigma">Baya Enigma</a></td>
+	<td>Restaura el 25% de los PS cuando el Pokémon que la lleva es golpeado por un movimiento super efectivo.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/baya_frambu">Razz Berry</a></td>
+	<td><a href="/es/items/baya_frambu">Baya Frambu</a></td>
+	<td>Ingrediente para Pokochos.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/baya_gonlan">Ganlon Berry</a></td>
+	<td><a href="/es/items/baya_gonlan">Baya Gonlan</a></td>
+	<td>Aumenta la Defensa un nivel cuando el usuario se encuentra al 25% de sus PS o menos. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/baya_grana">Pomeg Berry</a></td>
+	<td><a href="/es/items/baya_grana">Baya Grana</a></td>
+	<td>Reduce los EVs en PS por 10. Incrementa la felicidad.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/baya_gualot">Wacan Berry</a></td>
+	<td><a href="/es/items/baya_gualot">Baya Gualot</a></td>
+	<td>Reduce el daño de un ataque super efectivo de tipo <a href="/dp/types/electric">Eléctrico</a> en un 50%. La baya se consume una vez usada.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/baya_guaya">Aguav Berry</a></td>
+	<td><a href="/es/items/baya_guaya">Baya Guaya</a></td>
+	<td>Restaura 1/8 de los PS máximos siempre y cuando éste se encuentre al 50% o menos. Puede causar confusión. Objeto de un solo uso.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/baya_higog">Figy Berry</a></td>
+	<td><a href="/es/items/baya_higog">Baya Higog</a></td>
+	<td>Restaura 1/8 de los PS máximos siempre y cuando éste se encuentre al 50% o menos.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/baya_ispero">Qualot Berry</a></td>
+	<td><a href="/es/items/baya_ispero">Baya Ispero</a></td>
+	<td>Reduce los EVs en Defensa por 10. Incrementa la felicidad.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/baya_jaboca">Jaboca Berry</a></td>
+	<td><a href="/es/items/baya_jaboca">Baya Jaboca</a></td>
+	<td>Al ser golpeado por un ataque físico, el atacante recibe un 12.5% de daño. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/baya_kebia">Kebia Berry</a></td>
+	<td><a href="/es/items/baya_kebia">Baya Kebia</a></td>
+	<td>Reduce el daño de un ataque super efectivo de tipo <a href="/dp/types/poison">Veneno</a> en un 50%. La baya se consume una vez usada.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/baya_kouba ">Coba Berry</a></td>
+	<td><a href="/es/items/baya_kouba ">Baya Kouba</a></td>
+	<td>Reduce el daño de un ataque super efectivo de tipo <a href="/dp/types/flying">Volador</a> en un 50%.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/baya_lagro">Micle Berry</a></td>
+	<td><a href="/es/items/baya_lagro">Baya Lagro</a></td>
+	<td>El siguiente movimiendo usado siempre acertará.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/baya_latano">Nanab Berry</a></td>
+	<td><a href="/es/items/baya_latano">Baya Latano</a></td>
+	<td>Ingrediente para Pokochos.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/baya_lichi">Liechi Berry</a></td>
+	<td><a href="/es/items/baya_lichi">Baya Lichi</a></td>
+	<td>Aumenta el Ataque un nivel cuando el Pokémon usuario se encuentra al 25% de sus PS o menos. Objeto de un solo uso.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/baya_magua">Rowap Berry</a></td>
+	<td><a href="/es/items/baya_magua">Baya Magua</a></td>
+	<td>Al ser golpeado por un ataque especial, el atacante recibe un 12.5% de daño. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/baya_mais">Cornn Berry</a></td>
+	<td><a href="/es/items/baya_mais">Baya Mais</a></td>
+	<td>Ingrediente para Pokochos.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/baya_meloc">Pecha Berry</a></td>
+	<td><a href="/es/items/baya_meloc">Baya Meloc</a></td>
+	<td>Cura el envenenamiento. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/baya_meluce">Hondew Berry</a></td>
+	<td><a href="/es/items/baya_meluce">Baya Meluce</a></td>
+	<td>Reduce los EVs en Ataque Especial por 10. Incrementa la felicidad.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/baya_monli">Nomel Berry</a></td>
+	<td><a href="/es/items/baya_monli">Baya Monli</a></td>
+	<td>Ingrediente para Pokochos.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/baya_oram">Bluk Berry</a></td>
+	<td><a href="/es/items/baya_oram">Baya Oram</a></td>
+	<td>Ingrediente para Pokochos.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/baya_pabaya">Iapapa Berry</a></td>
+	<td><a href="/es/items/baya_pabaya">Baya Pabaya</a></td>
+	<td>Restaura 1/8 de los PS máximos siempre y cuando éste se encuentre al 50% o menos. Puede causar confusión. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/baya_pasio">Passho Berry</a></td>
+	<td><a href="/es/items/baya_pasio">Baya Pasio</a></td>
+	<td>Reduce el daño de un ataque super efectivo de tipo <a href="/dp/types/water">Agua</a> en un 50%. La baya se consume una vez usada.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/baya_payapa">Payapa Berry</a></td>
+	<td><a href="/es/items/baya_payapa">Baya Payapa</a></td>
+	<td>Reduce el daño de un ataque super efectivo de tipo <a href="/dp/types/psychic">Psíquico</a> en un 50%. La baya se consume una vez usada.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/baya_peragu">Wepear Berry</a></td>
+	<td><a href="/es/items/baya_peragu">Baya Peragu</a></td>
+	<td>Ingrediente para Pokochos.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/baya_perasi">Aspear Berry</a></td>
+	<td><a href="/es/items/baya_perasi">Baya Perasi</a></td>
+	<td>Cura el congelamiento. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/baya_pinia">Pinap Berry</a></td>
+	<td><a href="/es/items/baya_pinia">Baya Pinia</a></td>
+	<td>Ingrediente para Pokochos.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/baya_plama">Pamtre Berry</a></td>
+	<td><a href="/es/items/baya_plama">Baya Plama</a></td>
+	<td>Ingrediente para Pokochos.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/baya_pomaro">Chople Berry</a></td>
+	<td><a href="/es/items/baya_pomaro">Baya Pomaro</a></td>
+	<td>Reduce el daño de un ataque super efectivo de tipo <a href="/dp/types/fighting">Lucha</a> en un 50%.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/baya_rautan">Rabuta Berry</a></td>
+	<td><a href="/es/items/baya_rautan">Baya Rautan</a></td>
+	<td>Ingrediente para Pokochos.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/baya)rimoya">Yache Berry</a></td>
+	<td><a href="/es/items/baya)rimoya">Baya Rimoya</a></td>
+	<td>Reduce el daño de un ataque super efectivo de tipo <a href="/dp/types/ice">Hielo</a> en un 50%. La baya se consume una vez usada.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/baya_rudion">Durin Berry</a></td>
+	<td><a href="/es/items/baya_rudion">Baya Rudion</a></td>
+	<td>Ingrediente para Pokochos.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/baya_safre">Rawst Berry</a></td>
+	<td><a href="/es/items/baya_safre">Baya Safre</a></td>
+	<td>Cura la quemadura. Objeto de un solo uso.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/baya_sambia">Watmel Berry</a></td>
+	<td><a href="/es/items/baya_sambia">Baya Sambia</a></td>
+	<td>Ingrediente para Pokochos.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/baya_tamar">Rindo Berry</a></td>
+	<td><a href="/es/items/baya_tamar">Baya Tamar</a></td>
+	<td>Reduce el daño de un ataque super efectivo de tipo <a href="/dp/types/grass">Planta</a> en un 50%. La baya se consume una vez usada.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/baya_tamate">Tamato Berry</a></td>
+	<td><a href="/es/items/baya_tamate">Baya Tamate</a></td>
+	<td>Reduce los EVs en Velocidad por 10. Incrementa la felicidad.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/baya_uvav">Grepa Berry</a></td>
+	<td><a href="/es/items/baya_uvav">Baya Uvav</a></td>
+	<td>Reduce los EVs en Defensa Especial por 10. Incrementa la felicidad.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/baya_wikano">Spelon Berry</a></td>
+	<td><a href="/es/items/baya_wikano">Baya Wikano</a></td>
+	<td>Ingrediente para Pokochos.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/baya_wiki">Wiki Berry</a></td>
+	<td><a href="/es/items/baya_wiki">Baya Wiki</a></td>
+	<td>Restaura 1/8 de los PS máximos siempre y cuando éste se encuentre al 50% o menos. Puede causar confusión. Objeto de un solo uso.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/baya_yapati">Petaya Berry</a></td>
+	<td><a href="/es/items/baya_yapati">Baya Yapati</a></td>
+	<td>Aumenta el Ataque Especial un nivel cuando el usuario se encuentra al 25% de sus PS o menos. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/baya_yecana">Tanga Berry</a></td>
+	<td><a href="/es/items/baya_yecana">Baya Yecana</a></td>
+	<td>Reduce el daño de un ataque super efectivo de tipo <a href="/dp/types/bug">Bicho</a> en un 50%. La baya se consume una vez usada.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/baya_zanama">Leppa Berry</a></td>
+	<td><a href="/es/items/baya_zanama">Baya Zanama</a></td>
+	<td>Restaura 10 PP de un movimiento cuyos PP hayan sido gastados. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/baya_zidra">Sitrus Berry</a></td>
+	<td><a href="/es/items/baya_zidra">Baya Zidra</a></td>
+	<td>Restaura el 25% de los PS cuando el Pokémon que la usa se encuentra al 50% ó menos de salud. Objeto de un solo uso.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/baya_ziuela">Lum Berry</a></td>
+	<td><a href="/es/items/baya_ziuela">Baya Ziuela</a></td>
+	<td>Cura cambios de estado. El objeto es consumido una vez usado.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/baya_zonlan">Lansat Berry</a></td>
+	<td><a href="/es/items/baya_zonlan">Baya Zonlan</a></td>
+	<td>Incrementa el índice de golpe crítico dos niveles cuando el Pokémon usuario se encuentra al 25% de sus PS o menos. Objeto de un solo uso.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/baya_zreza">Cheri Berry</a></td>
+	<td><a href="/es/items/baya_zreza">Baya Zreza</a></td>
+	<td>Cura la parálisis. Objeto de un solo uso.</td>
+</tr>
+</tbody>
+</table>
+
+<h2><a name="objbat">Objetos de uso Competitivo</a></h2>
+
+<table class="sortable">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Nombre</th>
+			<th>Descripción</th>
+		</tr>
+	</thead>
+<tbody>
+
+<tr class="a">
+	<td><a href="/es/items/agua_mistica">Mystic Water</a></td>
+	<td><a href="/es/items/agua_mistica">Agua Mística</a></td>
+	<td>Aumenta el poder de los ataques de tipo <a href="/dp/types/water">Agua</a> un 20%.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/antiderretir">NeverMeltIce</a></td>
+	<td><a href="/es/items/antiderretir">Antiderretir</a></td>
+	<td>Aumenta el poder de los ataques de tipo <a href="/dp/types/ice">Hielo</a> en un 20%.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/arena_fina">Soft Sand</a></td>
+	<td><a href="/es/items/arena_fina">Arena Fina</a></td>
+	<td>Aumenta el poder de los ataques de tipo <a href="/dp/types/ground">Tierra</a> en un 20%.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/banda_focus">Focus Sash</a></td>
+	<td><a href="/es/items/banda_focus">Banda Focus</a></td>
+	<td>El usuario siempre sobrevive un ataque con 1 PS. Solo funciona una vez.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/bolaluminosa">Light Ball</a></td>
+	<td><a href="/es/items/bolaluminosa">Bolaluminosa</a></td>
+	<td>Duplica el Ataque y Ataque Especial de <a href="/dp/pokemon/pikachu">Pikachu</a>.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/bola_ferrea">Iron Ball</a></td>
+	<td><a href="/es/items/bola_ferrea">Bola Férrea</a></td>
+	<td>La velocidad del usuario se reduce a la mitad.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/campana_concha">Shell Bell</a></td>
+	<td><a href="/es/items/campana_concha">Campana Concha</a></td>
+	<td>Recupera 1/8 del daño infligido al Pokémon rival.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/carbon">Charcoal</a></td>
+	<td><a href="/es/items/carbon">Carbón</a></td>
+	<td>Aumenta el poder los movimientos tipo <a href="/dp/types/fire">Fuego</a> un 20% cuando el usuario está sosteniendo este objeto.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/cin_elegida">Choice Band</a></td>
+	<td><a href="/es/items/cin_elegida">Cinta Elegida</a></td>
+	<td>El Ataque del usuario se aumenta un 50%, pero una vez que eligió utilizar un movimiento, no podrá usar otro hasta ser cambiado.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/cinta_focus">Focus Band</a></td>
+	<td><a href="/es/items/cinta_focus">Cinta Focus</a></td>
+	<td>Da una probabilidad de 10% de sobrevivir cualquier golpe con 1PS.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/cinta_fuerte">Muscle Band</a></td>
+	<td><a href="/es/items/cinta_fuerte">Cinta Fuerte</a></td>
+	<td>Aumenta el poder de los ataques físico en un 10%.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/cint_negro">Black Belt</a></td>
+	<td><a href="/es/items/cint_negro">Cinturón Negro</a></td>
+	<td>Aumenta el poder de los movimientos tipo <a href="/dp/types/fighting">Lucha</a> en un 20%.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/cinta_xperto">Expert Belt</a></td>
+	<td><a href="/es/items/cinta_xperto">Cinta Xperto</a></td>
+	<td>El daño de ataques super efectivo sube un 20%.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/cola_plumbea">Lagging Tail</a></td>
+	<td><a href="/es/items/cola_plumbea">Cola Plúmbea</a></td>
+	<td>El Pokémon que la sujeta se mueve último.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/colmillo_dragon">Dragon Fang</a></td>
+	<td><a href="/es/items/colmillo_dragon">Colmillo Dragón</a></td>
+	<td>Sube el poder de movimientos tipo <a href="/dp/types/dragon">Dragón</a> un 20%.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/cuchara_torcida">TwistedSpoon</a></td>
+	<td><a href="/es/items/cuchara_torcida">Cuchara Torcida</a></td>
+	<td>Aumenta el poder de los ataques de tipo <a href="/dp/types/psychic">Psíquico</a> en un 20%.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/diamansfera">Adamant Orb</a></td>
+	<td><a href="/es/items/diamansfera">Diamansfera</a></td>
+	<td>Un objeto que, al ser cargado por <a href="/dp/pokemon/dialga">Dialga</a>, aumenta un 20% el poder de sus movimientos de <a href="/dp/types/steel">Acero</a> y <a href="/dp/types/dragon">Dragón</a>.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/diente_mar">DeepSeaTooth</a></td>
+	<td><a href="/es/items/diente_mar">Diente Marino</a></td>
+	<td>Multiplica por dos el Ataque Especial de <a href="/dp/pokemon/clamperl">Clamperl</a>. Evoluciona a Clamperl en <a href="/dp/pokemon/huntail">Huntail</a>.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/escama_mar">DeepSeaScale</a></td>
+	<td><a href="/es/items/escama_mar">Escama Marina</a></td>
+	<td>Multiplica por dos la Defensa Especial de <a href="/dp/pokemon/clamperl">Clamperl</a>. Evoluciona a Clamperl en <a href="/dp/pokemon/gorebyss">Gorebyss</a>.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/escama_dragon">Dragon Scale</a></td>
+	<td><a href="/es/items/escama_dragon">Escama Dragón</a></td>
+	<td>Hace que <a href="/dp/pokemon/seadra">Seadra</a> evolucione en <a href="/dp/pokemon/kingdra">Kingdra</a>.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/flecha_venenosa">Poison Barb</a></td>
+	<td><a href="/es/items/flecha_venenosa">Flecha Venenosa</a></td>
+	<td>Aumenta el poder de los ataques de tipo <a href="/dp/types/poison">Veneno</a> en un 20%.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/gafas_elegid">Choice Specs</a></td>
+	<td><a href="/es/items/gafas_elegid">Gafas Elegidas</a></td>
+	<td>El Ataque Especial del usuario se aumenta un 50%, pero una vez que eligió utilizar un movimiento, no podrá usar otro hasta ser cambiado.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/gafas_de_sol">BlackGlasses</a></td>
+	<td><a href="/es/items/gafas_de_sol">Gafas de Sol</a></td>
+	<td>Aumenta el poder de los ataques tipo <a href="/dp/types/dark">Siniestro</a> en un 20%.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/gafas_especiales">Wise Glasses</a></td>
+	<td><a href="/es/items/gafas_especiales">Gafas Especiales</a></td>
+	<td>Aumenta el daño de los ataques especiales un 10%.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/garra_garfio">Grip Claw</a></td>
+	<td><a href="/es/items/garra_garfio">Garra Garfio</a></td>
+	<td>Hace que los movimientos que atrapan parcialmente duren más.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/garra_rapida">Quick Claw</a></td>
+	<td><a href="/es/items/garra_rapida">Garra Rápida</a></td>
+	<td>Brinda al usuario un 20% de probabilidades de atacar primero.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/griseosfera">Griseous Orb</a></td>
+	<td><a href="/es/items/griseosfera">Griseosfera</a></td>
+	<td>Los movimientos que reciben STAB de <a href="/dp/pokemon/giratina">Giratina</a> aumentan de poder en 20%.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/hechizo">Spell Tag</a></td>
+	<td><a href="/es/items/hechizo">Hechizo</a></td>
+	<td>Aumenta el poder de los ataques de tipo <a href="/dp/types/ghost">Fantasma</a> en un 20%.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/hierba_blanca">White Herb</a></td>
+	<td><a href="/es/items/hierba_blanca">Hierba Blanca</a></td>
+	<td>Elimina disminuciones de características. Consumido al ser usado.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/hierba_mental">Mental Herb</a></td>
+	<td><a href="/es/items/hierba_mental">Hierba Mental</a></td>
+	<td>Cura el enamoramiento. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/hierba_unica">Power Herb</a></td>
+	<td><a href="/es/items/hierba_unica">Hierba Única</a></td>
+	<td>Elimina el turno de preparación requerido de cualquiera de los ataques que lo necesiten.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/iman">Magnet</a></td>
+	<td><a href="/es/items/iman">Imán</a></td>
+	<td>Aumenta el poder de los ataques de tipo <a href="/dp/types/electric">Eléctrico</a> en un 20%.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/incienso_agua">Wave Incense</a></td>
+	<td><a href="/es/items/incienso_agua">Incienso Agua</a></td>
+	<td>Aumenta el poder de los ataques de tipo <a href="/dp/types/water">Agua</a> en un 20%.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/incienso_floral">Rose Incense</a></td>
+	<td><a href="/es/items/incienso_floral">Incienso Floral</a></td>
+	<td>Aumenta el poder de los ataques de tipo <a href="/dp/types/grass">Planta</a> en un 20%.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/incie_lento">Full Incense</a></td>
+	<td><a href="/es/items/incie_lento">Incienso Lento</a></td>
+	<td>El usuario siempre se moverá de último.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/incienso_mar">Sea Incense</a></td>
+	<td><a href="/es/items/incienso_mar">Incienso Mar</a></td>
+	<td>Aumenta el poder de los ataques de tipo <a href="/dp/types/water">Agua</a> en un 20%.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/incienso_raro">Odd Incense</a></td>
+	<td><a href="/es/items/incienso_raro">Incienso Raro</a></td>
+	<td>Aumenta el poder de los ataques de tipo <a href="/dp/types/psychic">Psíquico</a> en un 20%.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/incienso_roca">Rock Incense</a></td>
+	<td><a href="/es/items/incienso_roca">Incienso Roca</a></td>
+	<td>Aumenta el poder de los ataques de tipo <a href="/dp/types/roca">Roca</a> en un 20%.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/incienso_suave">Lax Incense</a></td>
+	<td><a href="/es/items/incienso_suave">Incienso Suave</a></td>
+	<td>Objeto para llevar que aumenta la evasión en un 5%.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/llamasfera">Flame Orb</a></td>
+	<td><a href="/es/items/llamasfera">Llamasfera</a></td>
+	<td>Quema al usuario.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/lazo_destino">Destiny Knot</a></td>
+	<td><a href="/es/items/lazo_destino">Lazo Destino</a></td>
+	<td>Si el usuario se enamora, también el enemigo.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/lodo_negro">Black Sludge</a></td>
+	<td><a href="/es/items/lodo_negro">Lodo Negro</a></td>
+	<td>Si el Pokémon que lo lleva es de tipo <a href="/dp/types/poison">Veneno</a>, recuperará 1/16 avo de sus puntos de salud, los cuales serán redondeados al final de cada turno.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/lupa">Wide Lens</a></td>
+	<td><a href="/es/items/lupa">Lupa</a></td>
+	<td>Aumenta la precisión un 10%.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/lustresfera">Lustrous Orb</a></td>
+	<td><a href="/es/items/lustresfera">Lustresfera</a></td>
+	<td>Aumenta el poder de los ataques STAB de <a href="/dp/pokemon/palkia">Palkia</a> en un 20%.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/metronomo">Metronome</a></td>
+	<td><a href="/es/items/metronomo">Metrónomo</a></td>
+	<td>Aumenta el poder de ataques usados consecutivamente.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/muda_concha">Shed Shell</a></td>
+	<td><a href="/es/items/muda_concha">Muda Concha</a></td>
+	<td>Permite al usuario dejar el combate incluso cuando está atrapado.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/palo">Stick</a></td>
+	<td><a href="/es/items/palo">Palo</a></td>
+	<td>Aumenta el índice de golpe crítico de <a href="/dp/pokemon/farfetchd">Farfetch’d</a> cuando éste lo lleva.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/pan_elegido">Choice Scarf</a></td>
+	<td><a href="/es/items/pan_elegido">Pañuelo Elegido</a></td>
+	<td>La velocidad del usuario se aumenta un 50%, pero una vez que eligió utilizar un movimiento, no podrá usar otro hasta ser cambiado.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/panuelo_seda">Silk Scarf</a></td>
+	<td><a href="/es/items/panuelo_seda">Pañuelo Seda</a></td>
+	<td>Aumenta el poder de los ataques de tipo <a href="/dp/types/normal">Normal</a> en un 20%.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/periscopio">Scope Lens</a></td>
+	<td><a href="/es/items/periscopio">Periscopio</a></td>
+	<td>Aumenta el índice de golpe crítico un nivel.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/pico_afilado">Sharp Beak</a></td>
+	<td><a href="/es/items/pico_afilado">Pico Afilado</a></td>
+	<td>Aumenta el poder de los ataques de tipo <a href="/dp/types/flying">Volador</a> un 20%.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/polvo_brillo">BrightPowder</a></td>
+	<td><a href="/es/items/polvo_brillo">Polvo Brillo</a></td>
+	<td>Incrementa la evasión en un 10%.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/polvo_metalico">Metal Powder</a></td>
+	<td><a href="/es/items/polvo_metalico">Polvo Metálico</a></td>
+	<td>Aumenta en un 50% la Defensa y Defensa Especial de Ditto.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/polvo_plata">SilverPowder</a></td>
+	<td><a href="/es/items/polvo_plata">Polvo Plata</a></td>
+	<td>Aumenta el poder de los ataques de tipo <a href="/dp/types/bug">Bicho</a> en un 20%.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/polvo_veloz">Quick Powder</a></td>
+	<td><a href="/es/items/polvo_veloz">Polvo Veloz</a></td>
+	<td>Duplica la Velocidad de <a href="/dp/pokemon/ditto">Ditto</a>.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/puno_suerte">Lucky Punch</a></td>
+	<td><a href="/es/items/puno_suerte">Puño Suerte</a></td>
+	<td>Aumenta en dos niveles las probabilidades de <a href="/dp/pokemon/chansey">Chansey</a> de dar un golpe crítico.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/raiz_grande">Big Root</a></td>
+	<td><a href="/es/items/raiz_grande">Raíz Grande</a></td>
+	<td>Si el usuario del objeto usa un movimiento drenador de energía, a ganancia en puntos de salud se aumenta en un 30%.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/refleluz">Light Clay</a></td>
+	<td><a href="/es/items/refleluz">Refleluz</a></td>
+	<td>Hace que <a href="/dp/moves/reflect">Reflejo</a> y <a href="/dp/moves/light_screen">Pantalla Luz</a> duren 8 turnos.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/restos">Leftovers</a></td>
+	<td><a href="/es/items/restos">Restos</a></td>
+	<td>Restaura 1/16 de PS cada turno.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/rev_metalico">Metal Coat</a></td>
+	<td><a href="/es/items/rev_metalico">Rev. Metálico</a></td>
+	<td>Aumenta el poder de los ataques de tipo <a href="/dp/types/steel">Acero</a> en un 20%.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/roca_calor">Heat Rock</a></td>
+	<td><a href="/es/items/roca_calor">Roca Calor</a></td>
+	<td>Hace que el sol producido por el movimiento <a href="/es/items/dia_soleado">Día Soleado</a> dure ocho turnos.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/roca_helada">Icy Rock</a></td>
+	<td><a href="/es/items/roca_helada">Roca Helada</a></td>
+	<td>Hace que el cambio climático provocado por el movimiento Granizo dure 8 turnos.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/roca_lluvia">Damp Rock</a></td>
+	<td><a href="/es/items/roca_lluvia">Roca Lluvia</a></td>
+	<td>Hace que el efecto de clima causado por el movimiento <a href="/dp/moves/rain_dance">Rain Dance</a> dure 8 turnos.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/roca_suave">Smooth Rock</a></td>
+	<td><a href="/es/items/roca_suave">Roca Suave</a></td>
+	<td>Hace que el movimiento <a href="/dp/moves/sandstorm">Tormenta Arena</a> dure 8 turnos.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/roca_del_rey">King's Rock</a></td>
+	<td><a href="/es/items/roca_del_rey">Roca del Rey</a></td>
+	<td>Hace que ciertos movimientos tengan un 10% de probabilidades de hacer retroceder al Pokémon rival.</td>
+</tr>	
+<tr>
+	<td><a href="/es/items/semilla_milagro">Miracle Seed</a></td>
+	<td><a href="/es/items/semilla_milagro">Semilla Milagro</a></td>
+	<td>Aumenta el poder de los ataques de tipo <a href="/dp/types/grass">Planta</a> un 20%.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/tabla_acero">Iron Plate</a></td>
+	<td><a href="/es/items/tabla_acero">Tabla Acero</a></td>
+	<td>Aumenta el poder de los ataques de tipo <a href="/dp/types/steel">Acero</a> un 20%.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/tabla_bicho">Insect Plate</a></td>
+	<td><a href="/es/items/tabla_bicho">Tabla Bicho</a></td>
+	<td>Aumenta el poder de los ataques de tipo <a href="/dp/types/bug">Bicho</a> un 20%.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/tabla_cielo">Sky Plate</a></td>
+	<td><a href="/es/items/tabla_cielo">Tabla Cielo</a></td>
+	<td>Aumenta el poder de los ataques de tipo <a href="/dp/types/flying">Volador</a> un 20%.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/tabla_draco">Draco Plate</a></td>
+	<td><a href="/es/items/tabla_draco">Tabla Draco</a></td>
+	<td>Aumenta un 20% el poder de movimientos tipo <a href="/dp/types/dragon">Dragón</a>.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/tabla_fuerte">Fist Plate</a></td>
+	<td><a href="/es/items/tabla_fuerte">Tabla Fuerte</a></td>
+	<td>Aumenta el poder de ataques tipo <a href="/dp/types/fighting">Lucha</a> un 20%.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/tabla_helada">Icicle Plate</a></td>
+	<td><a href="/es/items/tabla_helada">Tabla Helada</a></td>
+	<td>Aumenta el poder de los ataques de tipo <a href="/dp/types/ice">Hielo</a> un 20%.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/tabla_llama">Flame Plate</a></td>
+	<td><a href="/es/items/tabla_llama">Tabla Llama</a></td>
+	<td>Aumenta un 20% el poder de movimientos tipo <a href="/dp/types/fire">Fuego</a>.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/tabla_linfa">Splash Plate</a></td>
+	<td><a href="/es/items/tabla_linfa">Tabla Linfa</a></td>
+	<td>Aumenta el poder de los ataques de tipo <a href="/dp/types/water">Agua</a> un 20%.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/tabla_mental">Mind Plate</a></td>
+	<td><a href="/es/items/tabla_mental">Tabla Mental</a></td>
+	<td>Aumenta el poder de los ataques de tipo <a href="/dp/types/psychic">Psíquico</a> un 20%.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/tabla_oscura">Dread Plate</a></td>
+	<td><a href="/es/items/tabla_oscura">Tabla Oscura</a></td>
+	<td>Aumenta el poder de ataques tipo <a href="/dp/types/dark">Siniestro</a> un 20%.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/tabla_petrea">Stone Plate</a></td>
+	<td><a href="/es/items/tabla_petrea">Tabla Pétrea</a></td>
+	<td>Aumenta el poder de los ataques de tipo <a href="/dp/types/rock">Roca</a> un 20%.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/tabla_pradal">Meadow Plate</a></td>
+	<td><a href="/es/items/tabla_pradal">Tabla Pradal</a></td>
+	<td>Aumenta el poder de los ataques de tipo <a href="/dp/types/grass">Planta</a> un 20%.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/tabla_terrax">Earth Plate</a></td>
+	<td><a href="/es/items/tabla_terrax">Tabla Terrax</a></td>
+	<td>Aumenta el poder de ataques tipo <a href="/dp/types/ground">Tierra</a> un 20%.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/tabla_terror">Spooky Plate</a></td>
+	<td><a href="/es/items/tabla_terror">Tabla Terror</a></td>
+	<td>Aumenta el poder de los ataques de tipo <a href="/dp/types/ghost">Fantasma</a> un 20%.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/tabla_toxica">Toxic Plate</a></td>
+	<td><a href="/es/items/tabla_toxica">Tabla Tóxica</a></td>
+	<td>Aumenta el poder de los ataques de tipo <a href="/dp/types/poison">Veneno</a> un 20%.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/tabla_trueno">Zap Plate</a></td>
+	<td><a href="/es/items/tabla_trueno">Tabla Trueno</a></td>
+	<td>Aumenta el poder de los ataques de tipo <a href="/dp/types/electric">Eléctrico</a> un 20%.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/telescopio">Zoom Lens</a></td>
+	<td><a href="/es/items/telescopio">Telescopio</a></td>
+	<td>Aumenta la precisión en un 20% si el usuario se mueve después que el oponente.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/toxisfera">Toxic Orb</a></td>
+	<td><a href="/es/items/toxisfera">Toxisfera</a></td>
+	<td>Envenena al usuario.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/toxiestrella">Sticky Barb</a></td>
+	<td><a href="/es/items/toxiestrella">Toxiestrella</a></td>
+	<td>Causa daño al Pokémon que lo lleva y además se adhiere al oponente tras contacto.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/vidasfera">Life Orb</a></td>
+	<td><a href="/es/items/vidasfera">Vidasfera</a></td>
+	<td>Propicia un 30% de poder extra a los movimientos ofensivos.</td>
+</tr>
+</tbody>
+</table>
+
+<h2><a name="otros">Otros de Apoyo</a></h2>
+
+<table class="sortable">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Nombre</th>
+			<th>Descripción</th>
+		</tr>
+	</thead>
+<tbody>
+
+<tr class="a">
+	<td><a href="/es/items/ataque_x">X Attack</a></td>
+	<td><a href="/es/items/ataque_x">Ataque X</a></td>
+	<td>Aumenta el Ataque de un Pokémon en un nivel.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/defensa_x">X Defend</a></td>
+	<td><a href="/es/items/defensa_x">Defensa X</a></td>
+	<td>Aumenta la Defensa de un Pokémon en un nivel.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/velocidad_x">X Speed</a></td>
+	<td><a href="/es/items/velocidad_x">Velocidad X</a></td>
+	<td>Aumenta la Velocidad de un Pokémon en un nivel.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/especial_x">X Special</a></td>
+	<td><a href="/es/items/especial_x">Especial X</a></td>
+	<td>Aumenta el Ataque Especial de un Pokémon en un nivel.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/def_especial_x">X Sp. Def</a></td>
+	<td><a href="/es/items/def_especial_x">Def. Especial X</a></td>
+	<td>Aumenta la Defensa Especial de un Pokémon en un nivel.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/precision_x">X Accuracy</a></td>
+	<td><a href="/es/items/precision_x">Precisión X</a></td>
+	<td>Aumenta la precisión de un Pokémon en un nivel.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/amuleto">Cleanse Tag</a></td>
+	<td><a href="/es/items/amuleto">Amuleto</a></td>
+	<td>Cuando el primer miembro del equipo lo lleva, disminuye las probabilidades de encontrar Pokémon salvajes.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/bola_humo">Smoke Ball</a></td>
+	<td><a href="/es/items/bola_humo">Bola Humo</a></td>
+	<td>Cuando el Pokémon que lidera el equipo lo lleva, permite huir de cualquier encuentro salvaje sin fallo alguno.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/campana_alivio">Soothe Bell</a></td>
+	<td><a href="/es/items/campana_alivio">Campana Alivio</a></td>
+	<td>Aumenta la felicidad del Pokémon que lo lleva consigo.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/cola_skitty">Fluffy Tail</a></td>
+	<td><a href="/es/items/cola_skitty">Cola Skitty</a></td>
+	<td>Permite al jugador escapar de una batalla salvaje.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/huevo_suerte">Lucky Egg</a></td>
+	<td><a href="/es/items/huevo_suerte">Huevo Suerte</a></td>
+	<td>Potencia en un 50% la ganancia de Puntos de Exp. cuando se lleva.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/incienso_duplo">Luck Incense</a></td>
+	<td><a href="/es/items/incienso_duplo">Incienso Duplo</a></td>
+	<td>Duplica las ganancias y hace posible el nacimiento de <a href="/dp/pokemon/happiny">Happiny</a>.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/incienso_puro">Pure Incense</a></td>
+	<td><a href="/es/items/incienso_puro">Incienso Puro</a></td>
+	<td>Reduce las probabilidades de tener un encuentro con Pokémon salvajes cuando el primer Pokémon de tu escuadra lo lleva.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/mon_amuleto">Amulet Coin</a></td>
+	<td><a href="/es/items/mon_amuleto">Mon. Amuleto</a></td>
+	<td>La cantidad de dinero que obtiene de entrenadores del juego se multiplica por dos.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/red_flute">Yellow Scarf</a></td>
+	<td><a href="/es/items/red_flute">Pañuelo Amarillo</a></td>
+	<td>Aumenta la Dureza de un Pokémon en los concursos.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/panuelo_flute">Blue Scarf</a></td>
+	<td><a href="/es/items/panuelo_flute">Pañuelo Azul</a></td>
+	<td>Aumenta la Belleza de un Pokémon en los concursos.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/panuelo_rojo">Red Scarf</a></td>
+	<td><a href="/es/items/panuelo_rojo">Pañuelo Rojo</a></td>
+	<td>Aumenta el Carisma de un Pokémon en los concursos.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/panuelo_rosa">Pink Scarf</a></td>
+	<td><a href="/es/items/panuelo_rosa">Pañuelo Rosa</a></td>
+	<td>Aumenta la Dulzura de un Pokémon en concursos.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/pan_verde">Green Scarf</a></td>
+	<td><a href="/es/items/pan_verde">Pañuelo Verde</a></td>
+	<td>Incrementa el Ingenio de un Pokémon en concursos.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/piedraeterna">Everstone</a></td>
+	<td><a href="/es/items/piedraeterna">Piedraeterna</a></td>
+	<td>Previene la evolución de un Pokémon y ayuda a que los descendientes tengan la misma naturaleza que uno de los padres al estar criando.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/poke_muneco">Poké Doll</a></td>
+	<td><a href="/es/items/poke_muneco">Poké Muñeco</a></td>
+	<td>Permite escapar de combates contra Pokémon salvajes.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/repartir_exp">Exp. Share</a></td>
+	<td><a href="/es/items/repartir_exp">Repartir Exp.</a></td>
+	<td>Transfiere 50% de la experiencia ganada en una batalla al Pokémon que lo está sosteniendo.</td>
+</tr>
+</tbody>
+</table>
+
+													<hr />
+
+<h2><a name="mtmo">MT y MO</a></h2>
+
+<table class="sortable">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Nombre</th>
+			<th>Descripción</th>
+		</tr>
+	</thead>
+<tbody>					
+
+<tr>
+	<td><a href="/es/items/hm01">HM01</a></td>
+	<td><a href="/es/items/hm01">MO01</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/cut">Corte</a> a un Pokémon.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/hm02">HM02</a></td>
+	<td><a href="/es/items/hm02">MO02</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/fly">Vuelo</a> a un Pokémon.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/hm03">HM03</a></td>
+	<td><a href="/es/items/hm03">MO03</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/surf">Surf</a> a un Pokémon.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/hm04">HM04</a></td>
+	<td><a href="/es/items/hm04">MO04</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/strength">Fuerza</a> a un Pokémon.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/hm05">HM05</a></td>
+	<td><a href="/es/items/hm05">MO05</a></td>
+	<td>Enseña <a href="/dp/moves/defog">Despejar</a> a un Pokémon en DPP, y <a href="/dp/moves/whirlpool">Torbellino</a> a un Pokémon en HGSS.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/hm06">HM06</a></td>
+	<td><a href="/es/items/hm06">MO06</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/rock_smash">Golpe Roca</a> a un Pokémon.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/hm07">HM07</a></td>
+	<td><a href="/es/items/hm07">MO07</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/waterfall">Cascada</a> a un Pokémon.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/hm08">HM08</a></td>
+	<td><a href="/es/items/hm08">MO08</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/rock_climb">Treparrocas</a> a un Pokémon.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/mt01">TM01</a></td>
+	<td><a href="/es/items/mt01">MT01</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/focus_punch">Puño Certero</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/mt02">TM02</a></td>
+	<td><a href="/es/items/mt02">MT02</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/dragon_claw">Garra Dragón</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/mt03">TM03</a></td>
+	<td><a href="/es/items/mt03">MT03</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/water_pulse">Hidropulso</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/mt04">TM04</a></td>
+	<td><a href="/es/items/mt04">MT04</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/calm_mind">Paz Mental</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/mt05">TM05</a></td>
+	<td><a href="/es/items/mt05">MT05</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/roar">Rugido</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/mt06">TM06</a></td>
+	<td><a href="/es/items/mt06">MT06</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/toxic">Tóxico</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/mt07">TM07</a></td>
+	<td><a href="/es/items/mt07">MT07</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/hail">Granizo</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/mt08">TM08</a></td>
+	<td><a href="/es/items/mt08">MT08</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/bulk_up">Corpulencia</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/mt09">TM09</a></td>
+	<td><a href="/es/items/mt09">MT09</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/bullet_seed">Recurrente</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/mt10">TM10</a></td>
+	<td><a href="/es/items/mt10">MT10</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/hidden_power">Poder Oculto</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/mt11">TM11</a></td>
+	<td><a href="/es/items/mt11">MT11</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/sunny_day">Día Soleado</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/mt12">TM12</a></td>
+	<td><a href="/es/items/mt12">MT12</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/taunt">Mofa</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/mt13">TM13</a></td>
+	<td><a href="/es/items/mt13">MT13</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/ice_beam">Rayo Hielo</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/mt14">TM14</a></td>
+	<td><a href="/es/items/mt14">MT14</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/blizzard">Ventisca</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/mt15">TM15</a></td>
+	<td><a href="/es/items/mt15">MT15</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/hyper_beam">Hiperrayo</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/mt16">TM16</a></td>
+	<td><a href="/es/items/mt16">MT16</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/light_screen">Pantalla Luz</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/mt17">TM17</a></td>
+	<td><a href="/es/items/mt17">MT17</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/protect">Protección</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/mt18">TM18</a></td>
+	<td><a href="/es/items/mt18">MT18</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/rain_dance">Danza Lluvia</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/mt19">TM19</a></td>
+	<td><a href="/es/items/mt19">MT19</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/giga_drain">Gigadrenado</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/mt20">TM20</a></td>
+	<td><a href="/es/items/mt20">MT20</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/safeguard">Velo Sagrado</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/mt21">TM21</a></td>
+	<td><a href="/es/items/mt21">MT21</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/frustration">Frustración</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/mt22">TM22</a></td>
+	<td><a href="/es/items/mt22">MT22</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/solarbeam">Rayo Solar</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/mt23">TM23</a></td>
+	<td><a href="/es/items/mt23">MT23</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/iron_tail">Cola Férrea</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/mt24">TM24</a></td>
+	<td><a href="/es/items/mt24">MT24</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/thunderbolt">Rayo</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/mt25">TM25</a></td>
+	<td><a href="/es/items/mt25">MT25</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/thunder">Trueno</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/mt26">TM26</a></td>
+	<td><a href="/es/items/mt26">MT26</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/earthquake">Terremoto</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/mt27">TM27</a></td>
+	<td><a href="/es/items/mt27">MT27</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/return">Retroceso</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/mt28">TM28</a></td>
+	<td><a href="/es/items/mt28">MT28</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/dig">Excava</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/mt29">TM29</a></td>
+	<td><a href="/es/items/mt29">MT29</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/psychic">Psíquico</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/mt30">TM30</a></td>
+	<td><a href="/es/items/mt30">MT30</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/shadow_ball">Bola Sombra</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/mt31">TM31</a></td>
+	<td><a href="/es/items/mt31">MT31</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/brick_break">Demolición</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/mt32">TM32</a></td>
+	<td><a href="/es/items/mt32">MT32</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/double_team">Doble Equipo</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/mt33">TM33</a></td>
+	<td><a href="/es/items/mt33">MT33</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/reflect">Reflejo</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/mt34">TM34</a></td>
+	<td><a href="/es/items/mt34">MT34</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/shock_wave">Onda Voltio</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/mt35">TM35</a></td>
+	<td><a href="/es/items/mt35">MT35</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/flamethrower">Lanzallamas</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/mt36">TM36</a></td>
+	<td><a href="/es/items/mt36">MT36</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/sludge_bomb">Bomba Lodo</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/mt37">TM37</a></td>
+	<td><a href="/es/items/mt37">MT37</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/sandstorm">Tormenta Arena</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/mt38">TM38</a></td>
+	<td><a href="/es/items/mt38">MT38</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/fire_blast">Llamarada</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/mt39">TM39</a></td>
+	<td><a href="/es/items/mt39">MT39</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/rock_tomb">Tumba Rocas</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/mt40">TM40</a></td>
+	<td><a href="/es/items/mt40">MT40</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/aerial_ace">Golpe Aéreo</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/mt41">TM41</a></td>
+	<td><a href="/es/items/mt41">MT41</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/torment">Tormento</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/mt42">TM42</a></td>
+	<td><a href="/es/items/mt42">MT42</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/facade">Imagen</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/mt43">TM43</a></td>
+	<td><a href="/es/items/mt43">MT43</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/secret_power">Daño Secreto</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/mt44">TM44</a></td>
+	<td><a href="/es/items/mt44">MT44</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/rest">Descanso</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/mt45">TM45</a></td>
+	<td><a href="/es/items/mt45">MT45</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/attract">Atracción</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/mt46">TM46</a></td>
+	<td><a href="/es/items/mt46">MT46</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/thief">Ladrón</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/mt47">TM47</a></td>
+	<td><a href="/es/items/mt47">MT47</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/steel_wing">Ala de Acero</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/mt48">TM48</a></td>
+	<td><a href="/es/items/mt48">MT48</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/skill_swap">Intercambio</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/mt49">TM49</a></td>
+	<td><a href="/es/items/mt49">MT49</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/snatch">Robo</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/mt50">TM50</a></td>
+	<td><a href="/es/items/mt50">MT50</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/overheat">Sofoco</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/mt51">TM51</a></td>
+	<td><a href="/es/items/mt51">MT51</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/roost">Respiro</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/mt52">TM52</a></td>
+	<td><a href="/es/items/mt52">MT52</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/focus_blast">Onda Certera</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/mt53">TM53</a></td>
+	<td><a href="/es/items/mt53">MT53</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/energy_ball">Energibola</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/mt54">TM54</a></td>
+	<td><a href="/es/items/mt54">MT54</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/false_swipe">Falsotortazo</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/mt55">TM55</a></td>
+	<td><a href="/es/items/mt55">MT55</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/brine">Salmuera</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/mt56">TM56</a></td>
+	<td><a href="/es/items/mt56">MT56</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/fling">Lanzamiento</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/mt57">TM57</a></td>
+	<td><a href="/es/items/mt57">MT57</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/charge_beam">Rayo Carga</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/mt58">TM58</a></td>
+	<td><a href="/es/items/mt58">MT58</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/endure">Aguante</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/mt59">TM59</a></td>
+	<td><a href="/es/items/mt59">MT59</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/dragon_pulse">Pulso Dragón</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/mt60">TM60</a></td>
+	<td><a href="/es/items/mt60">MT60</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/drain_punch">Drenaje</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/mt61">TM61</a></td>
+	<td><a href="/es/items/mt61">MT61</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/will-o-wisp">Fuego Fatuo</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/mt62">TM62</a></td>
+	<td><a href="/es/items/mt62">MT62</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/silver_wind">Viento Plata</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/mt63">TM63</a></td>
+	<td><a href="/es/items/mt63">MT63</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/embargo">Embargo</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/mt64">TM64</a></td>
+	<td><a href="/es/items/mt64">MT64</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/explosion">Explosión</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/mt65">TM65</a></td>
+	<td><a href="/es/items/mt65">MT65</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/shadow_claw">Garra Umbría</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/mt66">TM66</a></td>
+	<td><a href="/es/items/mt66">MT66</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/payback">Vendetta</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/mt67">TM67</a></td>
+	<td><a href="/es/items/mt67">MT67</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/recycle">Reciclaje</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/mt68">TM68</a></td>
+	<td><a href="/es/items/mt68">MT68</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/giga_impact">Giga Impacto</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/mt69">TM69</a></td>
+	<td><a href="/es/items/mt69">MT69</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/rock_polish">Pulimento</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/mt70">TM70</a></td>
+	<td><a href="/es/items/mt70">MT70</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/flash">Destello</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/mt71">TM71</a></td>
+	<td><a href="/es/items/mt71">MT71</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/stone_edge">Roca Afilada</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/mt72">TM72</a></td>
+	<td><a href="/es/items/mt72">MT72</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/avalanche">Alud</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/mt73">TM73</a></td>
+	<td><a href="/es/items/mt73">MT73</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/thunder_wave">Onda Trueno</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/mt74">TM74</a></td>
+	<td><a href="/es/items/mt74">MT74</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/gyro_ball">Giro Bola</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/mt75">TM75</a></td>
+	<td><a href="/es/items/mt75">MT75</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/swords_dance">Danza Espada</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/mt76">TM76</a></td>
+	<td><a href="/es/items/mt76">MT76</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/stealth_rock">Trampa Rocas</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/mt77">TM77</a></td>
+	<td><a href="/es/items/mt77">MT77</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/psych_up">Más Psique</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/mt78">TM78</a></td>
+	<td><a href="/es/items/mt78">MT78</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/captivate">Seducción</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/mt79">TM79</a></td>
+	<td><a href="/es/items/mt79">MT79</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/dark_pulse">Pulso Umbrío</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/mt80">TM80</a></td>
+	<td><a href="/es/items/mt80">MT80</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/rock_slide">Avalancha</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/mt81">TM81</a></td>
+	<td><a href="/es/items/mt81">MT81</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/x-scissor">Tijera X</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/mt82">TM82</a></td>
+	<td><a href="/es/items/mt82">MT82</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/sleep_talk">Sonámbulo</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/mt83">TM83</a></td>
+	<td><a href="/es/items/mt83">MT83</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/natural_gift">Don Natural</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/mt84">TM84</a></td>
+	<td><a href="/es/items/mt84">MT84</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/poison_jab">Puya Nociva</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/mt85">TM85</a></td>
+	<td><a href="/es/items/mt85">MT85</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/dream_eater">Come Sueños</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/mt86">TM86</a></td>
+	<td><a href="/es/items/mt86">MT86</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/grass_knot">Hierba Lazo</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/mt87">TM87</a></td>
+	<td><a href="/es/items/mt87">MT87</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/swagger">Contoneo</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/mt88">TM88</a></td>
+	<td><a href="/es/items/mt88">MT88</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/pluck">Picoteo</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/mt89">TM89</a></td>
+	<td><a href="/es/items/mt89">MT89</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/u-turn">Ida y Vuelta</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/mt90">TM90</a></td>
+	<td><a href="/es/items/mt90">MT90</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/substitute">Sustituto</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/mt91">TM91</a></td>
+	<td><a href="/es/items/mt91">MT91</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/flash_cannon">Foco Resplandor</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/mt92">TM92</a></td>
+	<td><a href="/es/items/mt92">MT92</a></td>
+	<td>Cuando se usa, enseña <a href="/dp/moves/trick_room">Espacio Raro</a> a un Pokémon. Objeto de un solo uso.</td>
+</tr>								
+</tbody>
+</table>
+
+<h2><a name="objclave">Objetos Clave</a></h2>
+
+<table class="sortable">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Nombre</th>
+			<th>Descripción</th>
+		</tr>
+	</thead>
+<tbody>	
+
+<tr class="a">
+	<td><a href="/es/items/bicicleta">Bicycle</a></td>
+	<td><a href="/es/items/bicicleta">Bicicleta</a></td>
+	<td>Hace que el personaje del jugador se mueva más rápido fuera de los edificios.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/bloc_amigos">Pal Pad</a></td>
+	<td><a href="/es/items/bloc_amigos">Bloc Amigos</a></td>
+	<td>Guarda Códigos de Amigos.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/bolsa_sellos">Seal Bag</a></td>
+	<td><a href="/es/items/bolsa_sellos">Bolsa Sellos</a></td>
+	<td>Almacena hasta un máximo de 10 sellos.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/buscapelea">Vs. Seeker</a></td>
+	<td><a href="/es/items/buscapelea">Buscapelea</a></td>
+	<td>Te permite combatir de nuevo con entrenadores.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/caja_corazon">Fashion Case</a></td>
+	<td><a href="/es/items/caja_corazon">Caja Corazón</a></td>
+	<td>Contiene accesorios que se usan en los Concursos Pokémon.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/caja_sellos">Seal Case</a></td>
+	<td><a href="/es/items/caja_sellos">Caja Sellos</a></td>
+	<td>Caja para guardar los sellos que pueden ser adheridos a las Poké Balls.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/cana_buena">Good Rod</a></td>
+	<td><a href="/es/items/cana_buena">Caña Buena</a></td>
+	<td>Permite pescar Pokémon en el agua.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/cana_vieja">Old Rod</a></td>
+	<td><a href="/es/items/cana_vieja">Caña Vieja</a></td>
+	<td>Permite al usuario ir a pescar peces en el agua.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/carne_socio">Member Card</a></td>
+	<td><a href="/es/items/carne_socio">Carné Socio</a></td>
+	<td>Objeto de evento para obtener a <a href="/dp/pokemon/darkrai">Darkrai</a>.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/carta_pr_oak">Oak's Letter</a></td>
+	<td><a href="/es/items/carta_pr_oak">Carta Pr. Oak</a></td>
+	<td>Objeto de evento para <a href="/dp/pokemon/shaymin">Shaymin</a>.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/cupon_1">Coupon 1</a></td>
+	<td><a href="/es/items/cupon_1">Cupón 1</a></td>
+	<td>Necesario para obtener un Pokétech (Poké-reloj).</td>
+</tr>
+<tr>
+	<td><a href="/es/items/cupon_2">Coupon 2</a></td>
+	<td><a href="/es/items/cupon_2">Cupón 2</a></td>
+	<td>Necesario para obtener un Pokétech (Poké-reloj).</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/cupon_3">Coupon 3</a></td>
+	<td><a href="/es/items/cupon_3">Cupón 3</a></td>
+	<td>Necesario para obtener un Pokétech (Poké-reloj).</td>
+</tr>
+<tr>
+	<td><a href="/es/items/diario">Journal</a></td>
+	<td><a href="/es/items/diario">Diario</a></td>
+	<td>Graba el progreso.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/llave_almacen">Storage Key</a></td>
+	<td><a href="/es/items/llave_almacen">Llave Almacén</a></td>
+	<td>Llave del almacén del Equipo Galaxia que se encuentra en las afueras de Ciudad Rocavelo.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/llave_central">Works Key</a></td>
+	<td><a href="/es/items/llave_central">Llave Central</a></td>
+	<td>Llave para abrir la puerta de la Central del Valle Eólico. </td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/ll_galaxia">Galactic Key</a></td>
+	<td><a href="/es/items/ll_galaxia">Llave Galaxia</a></td>
+	<td>Abre las puertas de la base del Equipo Galaxia.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/llave_suite">Suite Key</a></td>
+	<td><a href="/es/items/llave_suite">Llave Suite</a></td>
+	<td>Llave de una suite del Hotel del Lago.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/mapa">Town Map</a></td>
+	<td><a href="/es/items/mapa">Mapa</a></td>
+	<td>Mapa de la región Sinnoh.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/monedero">Coin Case</a></td>
+	<td><a href="/es/items/monedero">Monedero</a></td>
+	<td>Tener este objeto en tu posesión te permite sostener monedas para ser usadas en la Game Corner.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/paquete">Parcel</a></td>
+	<td><a href="/es/items/paquete">Paquete</a></td>
+	<td>Paquete que ha de ser entregado a tu rival.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/pluma_lunar">Lunar Wing</a></td>
+	<td><a href="/es/items/pluma_lunar">Pluma Lunar</a></td>
+	<td>Puede ser usado para curar a un chico en un evento.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/pocion_secreta">SecretPotion</a></td>
+	<td><a href="/es/items/pocion_secreta">Poción Secreta</a></td>
+	<td>Poción especial obtenible en Ciudad Orquídea en Johto.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/pokeradar">Poké Radar</a></td>
+	<td><a href="/es/items/pokeradar">Pokéradar</a></td>
+	<td>Localiza Pokémon ocultos en la hierba.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/pokochera">Poffin Case</a></td>
+	<td><a href="/es/items/pokochera">Pokochera</a></td>
+	<td>Guarda Pokochos.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/psydugaderay">Sprayduck</a></td>
+	<td><a href="/es/items/psydugaderay">Psydugadera</a></td>
+	<td>Sirve para regar las Bayas.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/saca_botin">Loot Sack</a></td>
+	<td><a href="/es/items/saca_botin">Saca Botín</a></td>
+	<td>Sirve para transportar el botín reunido en la mina de carbón.</td>
+</tr>
+<tr>
+	<td><a href="/es/items/supercana">Super Rod</a></td>
+	<td><a href="/es/items/supercana">Supercaña</a></td>
+	<td>Permite al usuario ir a pescar peces en el agua.</td>
+</tr>
+<tr class="a">
+	<td><a href="/es/items/talisman">Old Charm</a></td>
+	<td><a href="/es/items/talisman">Talismán</a></td>
+	<td>Se ha de llevar a la abuela de Cintia.</td>
+</tr>
+</tbody>
+</table>

@@ -1,0 +1,108 @@
+[title]
+Kitsunoh
+[head]
+<link rel="stylesheet" type="text/css" href="/media/dex/dex.css" />
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_template.js"></script>
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_database.js"></script>
+[header]
+[page]
+<script language="JavaScript">
+var cap = Kitsunoh();
+
+cap.movesCustom = [ ShadowStrike() ];
+
+cap.movesLevel[0] = ["Scratch", "Tail Whip"];
+cap.movesLevel[6] = "Lick";
+cap.movesLevel[10] = "Odor Sleuth";
+cap.movesLevel[14] = "Faint Attack";
+cap.movesLevel[18] = "Shadow Sneak";
+cap.movesLevel[22] = "Copycat";
+cap.movesLevel[27] = "Metal Claw";
+cap.movesLevel[31] = "Memento";
+cap.movesLevel[35] = "Fake Out";
+cap.movesLevel[40] = "Shadow Claw";
+cap.movesLevel[44] = "Revenge";
+cap.movesLevel[49] = "ShadowStrike";
+cap.movesLevel[55] = "Perish Song";
+
+cap.movesTM[5] = "Roar";
+cap.movesTM[6] = "Toxic";
+cap.movesTM[10] = "Hidden Power";
+cap.movesTM[11] = "Sunny Day";
+cap.movesTM[12] = "Taunt";
+cap.movesTM[15] = "Hyper Beam";
+cap.movesTM[17] = "Protect";
+cap.movesTM[18] = "Rain Dance";
+cap.movesTM[20] = "Safeguard";
+cap.movesTM[21] = "Frustration";
+cap.movesTM[23] = "Iron Tail";
+cap.movesTM[26] = "Earthquake";
+cap.movesTM[27] = "Return";
+cap.movesTM[28] = "Dig";
+cap.movesTM[30] = "Shadow Ball";
+cap.movesTM[32] = "Double Team";
+cap.movesTM[41] = "Torment";
+cap.movesTM[42] = "Facade";
+cap.movesTM[43] = "Secret Power";
+cap.movesTM[44] = "Rest";
+cap.movesTM[45] = "Attract";
+cap.movesTM[46] = "Thief";
+cap.movesTM[49] = "Snatch";
+cap.movesTM[54] = "False Swipe";
+cap.movesTM[56] = "Fling";
+cap.movesTM[61] = "Will-O-Wisp";
+cap.movesTM[63] = "Embargo";
+cap.movesTM[65] = "Shadow Claw";
+cap.movesTM[66] = "Payback";
+cap.movesTM[68] = "Giga Impact";
+cap.movesTM[70] = "Flash";
+cap.movesTM[77] = "Psych Up";
+cap.movesTM[78] = "Captivate";
+cap.movesTM[79] = "Dark Pulse";
+cap.movesTM[82] = "Sleep Talk";
+cap.movesTM[83] = "Natural Gift";
+cap.movesTM[85] = "Dream Eater";
+cap.movesTM[87] = "Swagger";
+cap.movesTM[89] = "U-turn";
+cap.movesTM[90] = "Substitute";
+cap.movesTM[91] = "Flash Cannon";
+cap.movesTM[92] = "Trick Room";
+
+cap.movesHM[1] = "Cut";
+cap.movesHM[5] = "Defog";
+
+cap.movesEgg = [
+"Curse",
+"FeatherDance",
+"Flail",
+"Metal Sound",
+"Meteor Mash",
+"Psycho Shift",
+"Yawn"
+];
+
+cap.movesTutor = [
+"Endeavor",
+"Fury Cutter",
+"Headbutt",
+"Ice Punch",
+"Icy Wind",
+"Iron Defense",
+"Iron Head",
+"Knock Off",
+"Last Resort",
+"Low Kick",
+"Magic Coat",
+"Ominous Wind",
+"Pain Split",
+"Snore",
+"Spite",
+"Sucker Punch",
+"Super Fang",
+"Superpower",
+"ThunderPunch",
+"Trick"
+];
+
+document.write(composeMovesPage(cap));
+</script>

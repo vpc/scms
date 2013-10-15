@@ -1,0 +1,807 @@
+[title]
+DPP / HGSS RNG Manipulation Guide Part 2 - How to Capture / Receive Perfect Pokemon
+[head]
+<meta name="description" content="DPP / HGSS RNG Manipulation Guide Part 2 - How to Capture / Receive Perfect Pokemon" />
+<style type="text/css">
+.underline{text-decoration:underline;}
+</style>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+	$(function(){
+		$("#gameselect").change(function(){
+			$(".dppt, .hgss").hide();
+			$(this.value).show();
+		})
+	});
+//]]>
+</script>
+
+[page]
+<div class="author">By <a href="/forums/member.php?u=18585">Everstone</a>.</div>
+<div style="float:right;">
+	Show steps for 
+	<select id="gameselect">
+		<option value=".dppt, .hgss">All</option>
+		<option value=".dppt">DPP</option>
+		<option value=".hgss">HGSS</option>
+	</select>
+</div>
+
+
+<ul class="toc">
+<li><a href="dpphgss_rng_intro">The DPP / HGSS RNG Manipulation Guide</a></li>
+<li><a href="dpphgss_rng_part1">DPP / HGSS RNG Manipulation Guide Part 1 - Common Information for Breeding, Capturing, and Receiving Perfect Pokemon</a></li>
+<li>DPP / HGSS RNG Manipulation Guide Part 2 - How to Capture / Receive Perfect Pokemon
+<ul>
+<li><a href="#gensteps">General Steps for the RNG Manipulation of Method 1/J/K Pokemon in DPP and HGSS</a>
+<ul>
+<li><a href="#stepone">Step 1: Searching for a Seed</a></li>
+<li><a href="#steptwo">Step 2: Timer and Clock Setup, Hitting your Seed</a></li>
+<li><a href="#stepthree">Step 3: Delay / Seed Verification</a></li>
+<li><a href="#stepfour">Step 4: Frame Advancement</a>
+<ul>
+<li><a href="#stepfoura">Step 4a: Determining the Number of Advancements</a></li>
+</ul>
+</li>
+<li><a href="#stepfive">Step 5: Verifying your Frame</a></li>
+</ul>
+</li>
+<li><a href="#specialcases">Special Cases</a>
+<ul>
+<li><a href="#wondercards">Wondercards</a></li>
+<li><a href="#roamers">Roamers</a></li>
+<li><a href="#starters">Starter Pokemon</a></li>
+<li><a href="#fossil">Fossil Pokemon</a></li>
+<li class="dppt"><a href="#distortion">Distortion World Giratina</a></li>
+<li class="hgss"><a href="#sinjoh">Sinjoh Ruins Dragons</a></li>
+<li class="hgss"><a href="#rage">Lake of Rage / Red Gyarados</a></li>
+<li><a href="#egggift">Egg Gift Pokemon</a></li>
+<li><a href="#manaphy">Manaphy Egg</a></li>
+<li><a href="#surffish">Surfing / Fishing</a></li>
+<li><a href="#swarm">Swarm Pokemon</a></li>
+<li><a href="#honeytree">Honey Tree Pokemon</a></li>
+<li class="hgss"><a href="#headbutt">Headbutt Tree Pokemon</a></li>
+<li><a href="#rocksmash">Rock Smash Pokemon</a></li>
+<li class="hgss"><a href="#safari">Safari Zone Pokemon</a></li>
+<li class="dppt"><a href="#marsh">Great Marsh Pokemon</a></li>
+<li class="dppt"><a href="#trophy">Trophy Garden Pokemon</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="dpphgss_rng_part3">DPP / HGSS RNG Manipulation Guide Part 3 - How to Hatch Perfect Pokemon</a></li>
+<li><a href="dpphgss_rng_part4">DPP / HGSS RNG Manipulation Guide Part 4 - How to Abuse for your Desired TID/SID</a></li>
+<li><a href="dpphgss_rng_part5">DPP / HGSS RNG Manipulation Guide Part 5 - Cute Charm TID/SID and Poke Radar Abuse</a></li>
+</ul>
+
+<h2><a name="gensteps">General Steps for the RNG Manipulation of Method 1/J/K Pokemon in DPP and HGSS</a></h2>
+
+<p>Let's start off with the simplest form of RNG manipulation, the capture. First, we need to choose a target. Either a legendary or a wild Pokemon will work. To make life easier, bring a Pokemon with the Synchronize ability and the nature you wish to get.</p>
+
+<p>If you want a wild Pokemon, you'll have to find a Pokemon with Sweet Scent and bring it along as well. If you don't want to go through the trouble of finding a Pokemon with Sweet Scent, then you can use the item Honey, which gives you the same effect.</p>
+
+<h3><a name="stepone">Step 1: Searching for a Seed</a></h3>
+
+<p>The first thing we need to do is find an IV spread we're content with getting. To do that we need to go to the 4th Generation Time Finder as seen below.</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_capture_1.png" alt="4th Gen Time Finder Tab" />
+
+<p>Now that we're in Time Finder, we need to fill in some information before we search. Say we want to search for a pure specially based Pokemon. Such a Pokemon would use the IVs 31/x/31/31/31/31 and is typically either Modest, Calm, Bold, or Timid.</p>
+
+<p>You'd fill in the Time Finder similar to what's shown in the picture below. Before rushing in, let's take a moment to explain a few entries in Time Finder.</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_capture_2.png" alt="4th Gen Time Finder Window" />
+
+<p>Note about the dropboxes next to IVs:</p>
+
+<ul>
+<li>== means you want an exact IV.</li>
+<li>&gt;= means you want an IV greater than or equal to the selected IV.</li>
+<li>&lt;= means you want an IV less than or equal to the selected IV.</li>
+<li>!= means you want an IV not equal to the selected IV.</li>
+<li>E means you want an even IV. Useful if you want a certain Hidden Power but don't care too much about an imperfect Base Power.</li>
+<li>O means you want an odd IV. Useful if you want a certain Hidden Power but don't care too much about an imperfect Base Power.</li>
+<li>HP means you want an IV that keeps the Hidden Power's Base Power from being lowered. Useful if you want to search for a Hidden Power of 70 Base Power. If you're curious, the IVs that satisfy this are 2, 3, 6, 7, 10, 11, 14, 15, 18, 19, 22, 23, 26, 27, 30, and 31.</li>
+<li>HP_E is the same idea as HP, but restricts the search to even IVs. It's useful if you're looking for a specific Hidden Power of 70 Base Power.</li>
+<li>HP_O is the same idea as HP, but restricts the search to odd IVs. It's useful if you're looking for a specific Hidden Power of 70 Base Power.</li>
+<li>For DPPt minimum delay should be around 650. For HGSS minimum delay should be around 550.</li>
+<li>For HGSS it's recommended to set the minimum frame around 10-15.</li>
+</ul>
+
+<em><strong>Method</strong></em>
+
+<p>Regarding method, for all 4th generation games <strong>Method 1</strong> is used only if you're going for the following:</p>
+
+<ul>
+<li>Pokemon Ranger Manaphy Egg</li>
+<li>Wondercards have their own method, which is just a modified Method 1</li>
+</ul>
+
+<div class="dppt">
+<p><span class="underline">DPP</span></p>
+<ul>
+<li>Starter Pokemon</li>
+<li>Cynthia's Togepi Egg</li>
+<li>Fossil Pokemon from Mining Museum</li>
+<li>Riolu Egg from Riley</li>
+<li>Eevee from Bebe</li>
+<li>Porygon from Veilstone</li>
+<li>Cresselia, Mesprit, Articuno, Zapdos, and Moltres</li>
+</ul>
+</div>
+
+<div class="hgss">
+<p><span class="underline">HGSS</span></p>
+<ul>
+<li>Kanto/Hoenn/Johto Starters</li>
+<li>Togepi Egg</li>
+<li>Bill's Eevee</li>
+<li>Raikou, Entei, and Latios/Latias roamer; the Latios/Latias from the Enigma Stone event is NOT Method 1</li>
+<li>Tyrogue from Mt. Mortar</li>
+<li>ExtremeSpeed Dratini received from Dragon's Den</li>
+<li>Goldenrod/Celadon Game Corner Prize Pokemon</li>
+<li>Fossil Pokemon Pewter City Museum</li>
+<li>Sinjoh Ruins Dragon event where you need Arceus</li>
+</ul>
+</div>
+
+<p><span class="underline">Note:</span> Any Pokemon received from a trade or as a gift that has a fixed nickname and OT (Kenya the Spearow, Gaspar the Haunter, etc.) will have set IVs and nature so RNG manipulation techniques will never work on them.</p>
+
+<p>If the Pokemon you seek does not fall into the Method 1 category, select <strong><span class="underline">Method J if using Diamond/Pearl/Platinum</span></strong> and <strong><span class="underline">Method K if using HeartGold/SoulSilver</span></strong>. Please refer to the "<a href="/ingame/rng/dpphgss_rng_part2#specialcases">Special Cases</a>" section and check if your Pokemon falls under this category.</p>
+
+<em><strong>Encounter Type</strong></em>
+
+<p>As for Encounter Type, if you're going for a Pokemon that has an overworld sprite that isn't the Red Gyarados (Sudowoodo, Snorlax, Heatran, Giratina, Azelf, etc.) select Stationary Pokemon. The rest are self-explanatory. Most of the time you'll be picking Wild Pokemon as your method unless you're only going to capture legendaries, in which case you'd pick Stationary Pokemon.</p>
+
+<em><strong>Encounter Slot</strong></em>
+
+<p>If you're looking for a specific Pokemon, like a wild Bronzong in Mt. Coronet, you'll need to pay attention to what's called Encounter Slots. </p>
+
+<p><span class="underline">An Encounter Slot and its value determines the species of Pokemon you'll get.</span></p>
+
+<p>How do we know what's what for the Encounter Slots? On the main window of RNG Reporter, under 4th Gen tools, you'll find tables for this.</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_capture_3.png" alt="4th Gen Encounter Slots Tab" />
+
+<p>If using Platinum, select Platinum Encounter Table and search for "Bronzong" in the page that opens. You'll find that Bronzong is in slot 0 at Mt. Coronet, so you'll have to select slot 0 for Encounter Slot. If you don't care about getting a specific Pokemon at the moment leave it as Any.</p>
+
+<em><strong>Ability</strong></em>
+
+<p>For a list of which abilities are 0 or 1 see <a href="/ingame/rng/pid_iv_creation#finding_ability_from_pid">here</a>.</p>
+
+<p>Now that we've explained the Time Finder, let's see what comes up. Click the Generate button to start searching.</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_capture_4.png" alt="4th Time Finder Window Results" />
+
+<p>If you want to capture a wild shiny, that's also possible. To search for possible wild shiny IVs in your current file, input your ID and SID and check the shiny only box. If you are willing to start a new game to get better IV spreads on your shiny captures it is NOT recommended to search for shinies now, but you can still find out what shiny spreads your current game has. Select an IV range you are satisfied with (usually >=25 in the stats that matter) and whatever natures you're interested in and hit Search. See the picture below for an example layout.</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_capture_5.png" alt="4th Time Finder Window Shiny Results" />
+
+<p>Whichever path you choose, the end steps are the same. Once you've found an IV spread, nature, encounter slot, and ability you're satisfied with, right click it and select "Copy Seed to Clipboard". As an example, we'll be using the Modest 31/4/31/31/31/31 spread with seed C1070A66. Head to the 4th Gen Seed To Time window and input your seed and desired year and seconds. It does not matter what you put for year and seconds as long as seconds isn't close to 0 or 60. Once done, hit Generate. The picture below has DPPt selected so if you're playing HGSS, be sure to select that instead!</p>
+
+<p>In addition, change the entries next to "Delays" from 10 to 50 and the entries next to "Seconds" from 1 to 2. It's not necessary, but it's important if you actually want to find what delay you've hit.</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_capture_6.png" alt="4th Seed to Time Window" />
+
+<h3><a name="steptwo">Step 2: Timer and Clock Setup, Hitting your Seed</a></h3>
+
+<p>Now you can start hunting down your Pokemon! Do NOT close the Seed To Time window as you will need it open for the next 90% of this process. Go back to <a href="dpphgss_rng_part1">DPP / HGSS RNG Manipulation Guide Part 1 - Common Information for Breeding, Capturing, and Receiving Perfect Pokemon</a>, specifically the "<a href="/ingame/rng/dpphgss_rng_part1#using">Using EonTimer</a>" and "<a href="/ingame/rng/dpphgss_rng_part1#setupds">Setting up your DS Clock and Hitting your Seed</a>" sections and follow those instructions. Once you're in-game, see the next section on seed verification.</p>
+
+<h3><a name="stepthree">Step 3: Delay / Seed Verification</a></h3>
+
+
+
+<p><span style="color:#FF0000;"><strong>IMPORTANT</strong></span>:For DPP and HGSS, once you have confirmed your delay and if it is odd but your desired delay is even and vice-versa, insert either a FRLG or RSE cart into your DS to change this. It's important to note this because <span class="underline">if you hit an even delay once you will always hit even delays</span>. Likewise with odd delays, and <strong><span class="underline">inserting a GBA Pokemon game in your DS is the only way to flip the delays from even to odd and vice-versa</span></strong>. If you do not have a DS that has a second slot for GBA games, change your year in the Seed to Time window by 1. Make sure that you also change the year in your DS clock.</p>
+
+<p>Chatot's Chatter will have varying pitches every time you play it. This is useful if operating in an area with random NPCs or if you have caught all roamers in HGSS. To use this, record a custom Chatter loud enough so that you can distinguish between high and low pitches.</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_capture_7.png" alt="Main Window Chatot Pitches" />
+
+<p>Once in-game listen to Chatot's cry and note the pitches. See if the pattern matches that of your seed's. If a match is not found, use coin flips or Elm/Irwin calls to determine what seed you did hit. You'd probably want to copy the seed you hit in the main window and see how the pitches correspond to what you perceived them to be.</p>
+
+<p>It may take multiple tries until you can match the pitches with their categories, and even then there's room for error, so only use this if you absolutely have no other viable options.</p>
+
+<p>Also keep in mind that doing this will advance your frame by 1 for every Chatter you listen to, so make sure to account for this.</p>
+
+<div class="dppt">
+<p><span class="underline">DPP</span></p>
+
+<p>To reliably confirm your seed, you'll need the Coin Flip Pokétch application.</p> 
+
+<img src="/media/upload/ingame/rng/dpphgss_capture_8.png" alt="Coin Flip Pokétch App" />
+
+<p>But first, in Seed to Time, hit the Generate button that's next to the Search Coin Flips button, and change the Delays and Seconds +/- entries to match what's shown below. </p>
+
+<img src="/media/upload/ingame/rng/dpphgss_capture_9.png" alt="DPP Seed to Time" />
+
+<p>Now click "Search Coin Flips" and you should see the window below. Flip the coin in the in-game app 10 times and input the coin flips in this window. The top row corresponds to the first 5 coin flips and the bottom row corresponds to flips 6-10. Once done, click OK. Say we got the following for the first 10 flips: T, T, T, T, H, T, T, H, H, T; the input should look like:</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_capture_10.png" alt="Coin Flip Search" />
+
+<p>And we would get the following output:</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_capture_11.png" alt="DPP Seed to Time Coin Flip Search Results" />
+
+<p>So in this case we have hit a delay of 2642. If your delay is 2643 or another odd number, then as mentioned earlier insert a GBA Pokemon game into slot 2 if using a DS/DS Lite or just change the year in Seed to Time by 1 and redo this process.</p>
+</div>
+
+<div class="hgss">
+<p><span class="underline">HGSS</span></p>
+
+<p>Seed verification in HGSS is much less tedious than in DPP, as there are many ways to do this. The easiest way to verify your seed is through roamers. As soon as you start your game open the Pokégear map and look for the roamer heads that represent what route they're currently on.</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_capture_12.png" alt="Pokegear Map" />
+
+<p>In Seed To Time select HGSS and check the boxes to the right for whichever roamer is still active (R for Raikou, E for Entei, and L for Latias/Latios). Naturally if there are no active roamers you'd leave the R, E, L boxes unchecked.</p>
+
+<p>If you're saving at your destination, you will want to take note of where your roamers currently are and fill in their current locations next to the check box. See the note in the picture below. You don't have to do this, but very rarely some extra frames will be skipped or the roamer locations will be different, and doing that accounts for those irregularities.</p>
+
+<p>Click the first Generate button on top, then highlight a Date and time you're satisfied with and click the second Generate button. </p>
+
+<img src="/media/upload/ingame/rng/dpphgss_capture_13.png" alt="Seed to Time HGSS Roamer Box" />
+
+<p>Take note of all your roamer locations, either through the in-game map, or this window in RNG Reporter that already has all routes marked.</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_capture_14.png" alt="Roamer Map" />
+
+<p>Once that's done, click the Search Roamers button and enter the routes your roamers are currently on.</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_capture_15.png" alt="Search Roamer" />
+
+<p>Another way to confirm your seed is to resort to either calling Elm or Juggler Irwin, who is found on Route 35.</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_capture_16.png" alt="Juggler Irwin" />
+
+<p>Both NPCs have 3 different responses depending on the frame, and each response from Elm will have a counterpart response from Irwin. These 3 responses are denoted in RNG Reporter by E, P, or K. In other words, if you call Elm and he is going to say his E response, if you had called Irwin instead of Elm, he will say his corresponding E response. Which responses are which are shown below.</p>
+
+<p><strong>"E" Responses</strong></p>
+
+<img src="/media/upload/ingame/rng/dpphgss_capture_17.png" alt="Elm 'E' Response" />
+
+<img src="/media/upload/ingame/rng/dpphgss_capture_18.png" alt="Irwin 'E' Response" />
+
+<p><strong>"K" Responses</strong></p>
+
+<img src="/media/upload/ingame/rng/dpphgss_capture_19.png" alt="Elm 'K' Response" />
+
+<img src="/media/upload/ingame/rng/dpphgss_capture_20.png" alt="Irwin 'K' Response" />
+
+<p><strong>"P" Responses</strong></p>
+
+<img src="/media/upload/ingame/rng/dpphgss_capture_21.png" alt="Elm 'P' Response" />
+
+<img src="/media/upload/ingame/rng/dpphgss_capture_22.png" alt="Irwin 'P' Response" />
+
+<p>Do note that getting all of Elm's possible calls requires some work. You need to have gotten a Pokemon with Pokérus at some point to unlock his P option, and have been to Kanto to unlock his K option. Thus, Irwin is a much better choice to call as he is accessible when you get to Goldenrod and it takes no extra effort to unlock all his possible responses. Since roamer verification is much quicker than this, you should only resort to this method if you've already caught all your roamers or have only one active roamer left.</p>
+
+<p>To use Elm/Irwin calls effectively, click the Search Calls button, then call Elm/Irwin in-game and take note of what their responses are. Select K, E, or P as appropriate and note the Possible Results under the output. This updates as you enter your calls, and once you get 1 for it, you can stop calling. <strong>Make sure your Seed To Time window has the correct active roamers checked off as not doing so will mess up the search</strong>.</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_capture_23.png" alt="Search Elm/Irwin Responses" />
+
+<p>For the examples shown, both the roamer and Elm/Irwin calls method will give us a delay of 2644 which is 6 off from our target delay of 2650. Making sure that the date and time matches with the original date and time as well as getting a correct delay is only part of the equation of getting the right seed.</p>
+
+<p>If your delay is 2643 or another odd number, then as mentioned earlier insert a GBA Pokemon game into slot 2 if using a DS/DS Lite or just change the year in Seed to Time by 1 and redo this process.</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_capture_24.png" alt="HGSS Seed to Time Results" />
+
+<p>As a general rule, if your delay is around +/- 6 off from your target, you do not have to make any changes to EonTimer. If it's more than +/- 6 off, in EonTimer <strong>simply enter the delay you hit in the Delay Hit section and click update</strong>. You can still update EonTimer even if your delay is within the +/- 6 range, but it generally won't affect the results too much. Now try again and confirm your delay is consistently within the appropriate range.</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_capture_25.png" alt="Eon Timer" />
+</div>
+
+<p>Once you have verified your seed, head to the next section on frame advancement.</p>
+
+<h3><a name="stepfour">Step 4: Frame Advancement</a></h3>
+
+<p>Any NPC that randomly moves will advance frames by 1 for each random movement. This can include turning or walking. If an NPC does both at once, then the frame advances by 2. Note that NPCs who are off-screen can advance the frame still, as long as they are within the same area.</p>
+
+<p>Because of this, it is advisable to attempt your captures in areas with little or no NPCs. In DPPt you can stop some NPCs from randomly moving through the Vs Seeker. If this cannot be avoided you must press X to bring up the menu the moment you enter the in-game world. This freezes all NPCs in place and stops them from making any unnecessary advancements.</p>
+
+<p><span class="underline">Chatter:</span> to do this you must have a Chatot with the move and you MUST record a custom Chatter to advance frames with this method. </p>
+
+<img src="/media/upload/ingame/rng/dpphgss_capture_26.png" alt="Chatot in Party" />
+
+<p>Once you do, accessing Chatot's summary window like the one below will advance the frame by 1.</p> 
+
+<img src="/media/upload/ingame/rng/dpphgss_capture_27.png" alt="Chatot in Party" />
+
+<p>To make things quicker, you can have two Chatot next to each other in your party and just keep flipping between their summaries. You do not have to listen to the whole Chatter sound, simply accessing their summary is enough.</p>
+
+<p>Taking a step or turning in areas where you can encounter wild Pokemon (grass, water, or caves) advances the frame by 1 for each step/turn made.</p>
+
+<p>Walking at least 128 steps will advance the frames by the number of Pokemon in your party. Do know that the games have an internal step counter that starts at 0 and resets to 0 when it reaches 128 and is always saved. This means that if you load your game and the step counter is at 127, taking one step will advance your frames. As a result, don't resort to this method unless it's absolutely necessary, which it won't be a majority of the time.</p>
+
+<p>Having an active roamer in your game advances your initial frame by a different value depending on the seed. If you have Raikou, Entei, and Latios all roaming in your SoulSilver game, you could start off at frame 4 at least, but it's possible to start higher so remember to check the results to see how many frames the roamers will advance the RNG by for that seed.</p>
+
+<div class="dppt">
+<p><span class="underline">DPP</span></p>
+
+<p><em><strong>Journal Flips</strong></em></p>
+
+<p>Whenever your Journal is on a page that displays (insert Pokemon's name) was caught (Time) like the one below, frames are advanced by 2. Flipping your Journal to another page with a similar entry will also advance it by 2. It doesn't matter how many entries there are, as long it has at least one (Pokemon) was caught (Time) entry, the frame advances by 2.</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_capture_28.png" alt="DPP Journal" />
+</div>
+
+<div class="hgss">
+<p><span class="underline">HGSS</span></p>
+
+<p>Calling either Elm or Irwin will advance frames by 1 per call. By using this you can also tell what frame you are on. Let's say you're currently on seed 3F02A923, have 3 roamers out, and want to encounter a wild Pokemon. If you want to get to frame 12 your Elm/Irwin calls should be PEEKKEEE, then Sweet Scent/use Honey. <strong>It's important to get to the call that's on the frame before your target frame and stop there</strong> because going over means you can't get it anymore and will have to start over.</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_capture_29.png" alt="Method K Main Window Result" />
+
+<em><strong>Radio</strong></em>
+
+<p>This method is recommended only for very high (200+) frames.</p>
+
+<p>To advance frames with the radio, drag the cursor in the middle to an appropriate station which will advance frames by a certain amount. To advance again, move the cursor so that there is no station currently playing, like in the picture below, then drag it back to the station. Repeat as necessary.</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_capture_30.png" alt="No station" />
+
+<p>There are only two stations of interest, the first being the bottom right one, which advances by 1 unless Buena's Password is playing, in which case it advances by 0.</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_capture_31.png" alt="Serial Radio Drama station" />
+
+<p>The other one is Oak's Pokemon Talk, in the upper right. This one advances up to 14-18 frames, and is what you should use if you want to hit very large frames.</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_capture_32.png" alt="Pokemon Talk station" />
+
+<p>Because of the inconsistent frame advances with Oak's show, it's recommended to play it safe. If you were going for frame 210, you'd do 210/18 = 11 toggles to that station (always divide by 18). At this point we don't know what frame we're on but we're on at least frame 11x14=154. So do 5-10 Elm/Irwin calls and see if you can find a match. Once you do, do not advance through Pokemon Talk again, but instead use Chatters/the Drama station.</p>
+</div>
+
+<h3><a name="stepfoura">Step 4a: Determining the Number of Advancements</a></h3>
+
+<p>Now that you've seen the possible methods of advancement, the next question you might have is how many should I do? To answer this, we'll have to go to the main window of RNG Reporter. <strong>Copy your seed into Seed (Hex) and fill in your encounter type and method. Don't forget this step!</strong></p>
+
+<p>Unless otherwise noted, method should be J for DPPt and K for HGSS. Encounter type should also be left at Wild Pokemon unless you're fishing or doing a legendary or a Pokemon with an overworld sprite, in which case you'd select Stationary Pokemon. See the section "Special Cases" for more details.</p>
+
+<p>If you're going for a specific species of Pokemon (i.e. Bronzong in Mt. Coronet in Platinum), you'll need to take the encounter slot into account. As previously mentioned, Bronzong is in slot 0, so you'll need to find the frame that's slot 0. Make sure the slots match up, otherwise you'll get a different Pokemon. See the picture below for an example.</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_capture_33.png" alt="DPP Main Window Result" />
+
+<p>If you want Bronzong you'll have to use frame 230, not frame 224 or 226, despite those frames having the same IVs.</p>
+
+<p>You also need to check if you're using a Pokemon with Synchronize. If so, select the nature of your Synchronizer.</p>
+
+<p>Once that's done, hit Generate. Find your desired IV spread. It should be easy to spot the IVs because 30 and 31 IVs are bolded by RNG Reporter. Shown below is what a search for our Modest 31/4/31/31/31/31 spread in DPPt would look like.</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_capture_34.png" alt="DPP Main Window Result 2" />
+
+<p>If you are doing this in a "quiet" area (with no NPCs that will advance your frame) then you will start on frame 1 assuming no active roamers. If you are using the roamer verification method in HGSS, then your starting frame will be 1+ (# of active roamers), meaning if all three roamers are currently roaming you start on frame 4.</p>
+
+<p>For this case we want to get Modest 31/4/31/31/31/31, which is on frame 145 or 147. If there are no roamers active, simply do 145-1 = 144 OR 147-1 = 146 frame advances then encounter your Pokemon (either through Sweet Scent/Honey or talking to it). Once you capture it check its nature and IVs and it should be the Modest 31/4/31/31/31/31 Pokemon we seek. If there are active roamers, you'd be doing 145-(starting frame) or 147-(starting frame) advances where starting frame is 1+(# of active roamers). The (target frame)-(starting frame)=(# of advances) formula is virtually the same for any attempt at RNG manipulation, unless there are random NPCs in the area.</p>
+
+<p>(<span class="underline">NOTE TO USERS OF RNG REPORTER PRE 9.94</span>: The frames are automatically adjusted to account for Sweet Scent/Honey in later versions. In the above example, if you were trying to get this Pokemon you DO NOT have to make any further adjustments if using the most current RNG Reporter. Simply do 144 or 146 advances before Sweet Scenting/using Honey and you should get it.)</p>
+
+<p>For areas with randomly moving NPCs, it's going to be a little harder. Still using the above example, as soon as you enter the game world mash X to bring up the in-game menu ASAP. If you're using HGSS, then confirm your seed first through Elm/Irwin calls or roamers. If using DPPt, then you should use Vs Seeker to stop any NPCs from moving first before even attempting this, then if you're sure that the area has no randomly moving NPCs, verify your seed with coin flips.</p>
+
+<p>After that, do your frame advancements as if you're on frame 1 (that means 144 or 146 advancements still) then use Sweet Scent/Honey or talk to the Pokemon to start battle. If all goes well you should get your desired Pokemon. If you didn't, and say you got Quirky with IVs of 23/20/22/13/22/12 (frame 150), if you did 144 advances, you're aiming for frame 145 and had 5 random advances, so the next attempt should be 144-5 = 139 frame advances instead. By the same logic, doing 146 advances means you were aiming for frame 147, so you had 3 random advances, and thus should advance by 146-3 = 143 frames.</p>
+
+<p>If using DPPt and you still have randomly moving NPCs you can't stop (due to not being able to battle them), you'll have to give up trying to verify your seed through coin flips and resort to Chatot pitches.</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_capture_34.png" alt="DPP Main Window Result 2" />
+
+<p>Going back to the above picture, see how there's a column called "Chatot Pitch"? Each frame will generate a different pitch for Chatter whenever you listen to it, which also advances the frame by 1. You'll want to record a Chatter that makes it easy to identify the pitch upon listening to it. Once you've done this you should practice by first hitting a delay in an area with no NPCs but with wild Pokemon, finding the seed, copying the seed to RNG Reporter's main window, and listening to the Chatter pitches to try to get a feel for what's low, mid-low, high, etc. Once you've got the hang of it, your RNG manipulations should go a lot smoother, especially in DPP.</p>
+
+<p>If this method is too hard for you, you'll have to resort to bringing up the menu ASAP, doing your advances, and catching your Pokemon while hoping your seed is correct.</p>
+
+<h3><a name="stepfive">Step 5: Verifying your Frame</a></h3>
+
+<p>DPP does not have many methods to verify that you hit your correct frame. The best way to know this is after you've caught your Pokemon and check its IVs. Platinum has two useful NPCs that can help with this. One lies in Veilstone City's Game Corner exchange booth and can verify its Hidden Power type:</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_capture_35.png" alt="Prize Exchange Exterior" />
+
+<img src="/media/upload/ingame/rng/dpphgss_capture_36.png" alt="Prize Exchange Interior" />
+
+<p>and the other lies in the Battle Tower (called "The Judge" in-game) and can tell you some nice information about your Pokemon's IVs.</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_capture_37.png" alt="Battle Tower IV Man" />
+
+<em><strong>Using The Judge</strong></em>
+
+<p>The first thing he will tell you about your Pokemon relates to the sum of its IVs. He will say one of 4 options, depending on the sum of the Pokemon's IVs (ranges from 0 to 186):</p>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Message</th>
+<th>IV Range</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Decent</td> 
+<td>0-90</td>
+</tr>
+<tr class="a">
+<td>Above Average</td>
+<td>91-120</td>
+</tr>
+<tr>
+<td>Relatively Superior</td> 
+<td>121-150</td>
+</tr>
+<tr class="a">
+<td>Outstanding</td>
+<td>151-186</td>
+</tr>
+</tbody>
+</table>
+
+<p>Obviously, you'll want Outstanding, as shown below:</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_capture_38.png" alt="Outstanding Potential" />
+
+<p>The next thing he'll tell you is the stat that has the highest IV. If your Pokemon has multiple highest IVs the Judge will tell you which stat is the highest at random, with a tendency to say Special Defense if that is one of the Pokemon's highest IVs.</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_capture_39.png" alt="Best Stat" />
+
+<p>The last thing he tells you is related to the value of the highest IV. He will say one of the following, depending on the value of the highest IV:</p>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Message</tph>
+<th>IV / IV Range</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Rather Decent</td>
+<td>0-15</td>
+</tr>
+<tr class="a">
+<td>Very Good</td>
+<td>16-25</td>
+</tr>
+<tr>
+<td>Fantastic</td>
+<td>26-30</td>
+</tr>
+<tr class="a">
+<td>Can't be better</td>
+<td>31</td>
+</tr>
+</tbody>
+</table>
+
+Unless you're going for a specific Hidden Power, you'll want 31 most of the time, which results in "Can't be better", as shown below.
+
+<img src="/media/upload/ingame/rng/dpphgss_capture_40.png" alt="Best Message" />
+
+<em><strong>Characteristics</strong></em>
+
+<p>Circled in the picture below, a Pokemon's characteristic gives a hint on what one of its highest IVs is.</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_capture_41.png" alt="Characteristic Screen" />
+
+<p>Because you will be aiming for at least one 31 IV for virtually all your RNG manipulation time, only the characteristics that show up when your Pokemon has a 31 IV will be listed. They are as follows:</p>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th>
+<th>Characteristic</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HP</td>
+<td>Often dozes off</td>
+</tr>
+<tr class="a">
+<td>Atk</td>
+<td>Likes to thrash about</td>
+</tr>
+<tr>
+<td>Def</td>
+<td>Capable of taking hits</td>
+</tr>
+<tr class="a">
+<td>SpA</td>
+<td>Mischievous</td>
+</tr>
+<tr>
+<td>SpD</td>
+<td>Somewhat vain</td>
+</tr>
+<tr class="a">
+<td>Spe</td>
+<td>Alert to Sounds</td>
+</tr>
+</tbody>
+</table>
+
+<p>Because of the Judge's bias towards Special Defense in Platinum, it is not recommended to use him to confirm how many 31 IVs you have, as it can take over 30 conversations with him to confirm your Pokemon's IVs if you have a 31/31/31/31/31/31 Pokemon. To save time you'll instead want to determine this by using your Pokemon's characteristic and his overall assessment of your Pokemon's IVs.</p>
+
+<p>HGSS on the other hand has Elm/Irwin calls to verify your frame. If you're verifying your seed, you will either have roamers active or have to make a few Elm/Irwin calls, both of which advance frames.</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_capture_42.png" alt="HGSS Main Window Results Elm Calls" />
+
+<p>Your last calls should have the pattern EKKEEEEP, as shown below. To reiterate, <strong>it is important that you reach the call that's ONE FRAME BEFORE YOUR TARGET and no more</strong>. Once you've done that, acquire your Pokemon or engage it in battle. If encountering a wild Pokemon, <strong>use Sweet Scent/Honey to force an encounter</strong>.</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_capture_43.png" alt="HGSS Main Window Results Desired Frame" />
+
+<div class="hgss">
+<p>The two aforementioned NPCs are also present in HGSS, with the Hidden Power NPC located at the Celadon Game Corner and the IV NPC still residing in the Battle Tower.</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_capture_44.png" alt="Celadon Game Corner Hidden Power Man" />
+
+<p>The IV NPC has been dramatically improved in HGSS. If you have a 31/31/31/31/31/31 Pokemon, he will now say which stat is the highest in sequence, in the order of HP, Atk, Def, Speed, SpAtk, SpDef. Therefore, it will only take at most 6 conversations with him to determine your Pokemon's IVs.</p>
+</div>
+
+<h2><a name="specialcases">Special Cases</a></h2>
+
+<p>To reiterate, if something does not appear here, use Method J if using DPPt or Method K if using HGSS. <em><strong>For all cases, the given starting frame assumes that no roamers are active</strong></em>. If you have roamers, your starting frame will increase by the number of currently active roamers, the number of frames increased varies in HGSS.</p>
+
+<h3><a name="wondercards">Wondercards</a></h3>
+
+<p>Fundamentally, a Wondercard is not that much different from a regular capture, but there are some key differences. The first difference is the method of generation. It isn't going to affect too much when it comes to the Time Finder, just make sure you select Wondercard IVs as your method, as shown below.</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_capture_45.png" alt="Wondercard Time Finder" />
+
+<p>All Wondercards are obtained from a delivery man wearing green in any Poké Mart. Start off by saving in front of him.</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_capture_46.png" alt="HGSS Delivery Man" />
+
+<p>For DPP, you'll want to save in the Pastoria City Mart, as that has the least number of randomly moving NPCs. For HGSS, save in either Fuchsia or Cerulean City's Mart, as there are no randomly moving NPCs in either location. It's also important to save while no NPCs are currently moving.</p>
+
+<p>Once that's done, you'll have to do the usual steps of finding a date and time, delay, and advancing your frames to get to your desired Pokemon. See the section on capturing a perfect Pokemon for more details. The biggest difference is the method used is Wondercard IVs, so make sure that's what you set it to when trying to hit your frame. In addition, when doing this in DPPt make sure you bring up the menu the moment you enter your game to prevent any unnecessary advances by NPCs.</p>
+
+<p>The most painful part of this process is getting the correct nature. Whether you get it or not will come down to luck. Unlike other methods of RNG manipulation there is no known way to reliably control what nature you'll get without cheating, so it comes down to perseverance.</p>
+
+<h3><a name="roamers">Roamers</a></h3>
+
+<div class="dppt">
+<p><span class="underline">DPP</span></p>
+
+<em><strong>Cresselia and Mesprit</strong></em>
+
+<p>Cresselia and Mesprit are generated by Method 1 and have a starting frame of 5. Their data is generated once you talk to them and they fly off, so save in front of them and do your frame advances once you've confirmed your seed then talk to them to release them. If aiming for a frame of 100 you'd need to do 100-5=95 advances through either Journal flips or Chatters before talking to them to release them.</p>
+
+<em><strong>Kanto Birds</strong></em> (Does not apply in HGSS)
+
+<p>The birds are Method 1 Pokemon. Their data is generated after talking to Professor Oak and releasing them. Each bird has a different starting frame</p>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Pokemon</th>
+<th>Starting Frame</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Moltres</td>
+<td>1</td>
+</tr>
+<tr class="a">
+<td>Zapdos</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Articuno</td>
+<td>11</td>
+</tr>
+</tbody>
+</table>
+
+<p>*Choose one bird (preferably Moltres) and do your seed verification and frame advancements before releasing it.</p>
+
+<p>Once that's done, capture your target bird and KO the other two. Defeat the Pokemon League and head back to Oak. The remaining two birds will be generated in the same order and will have starting frames of 1 and 6, so if Moltres was caught Zapdos would now be on frame 1 and Articuno would be on frame 6.</p>
+
+<p>Do the usual delay hitting and frame advancements before talking to Oak to get the next bird, catch it and KO the bird you weren't going for and do the same thing you did to revive and capture the last bird.</p>
+</div>
+
+<div class="hgss">
+<p><span class="underline">HGSS</span></p>
+
+<p>All HGSS roamers are generated by Method 1 and have a starting frame of 1. It is recommended to release all roamers first. To get your dream roamer you need to KO the roamer you want to get, and leave the other two alive.</p>
+
+<p>Then you need to head to the Elite 4 and save one step before entering the battle with Lance. At this point you will need to hit your seed (verify it using the two roamers that are still alive, as you cannot call anybody here) and advance using Chatot or the radio. If you are using 2 roamers to verify delay, which you should be, and you are aiming for a frame of 100, you'd start on frame 3 and thus need to do 100-3 = 97 advances before battling Lance.</p>
+
+<p>Once the advances are done, defeat Lance and wait until the game saves. The KOed roamer will have respawned and all you need to do is catch it to verify it's the one you were after.</p>
+
+<p>As a side note, either Raikou or Entei can be easily done when you first meet them in the Burned Tower. If you manipulate their IVs upon first releasing Raikou and Entei, Raikou will have a starting frame of 1 and Entei will have a starting frame of 6.</p>
+</div>
+
+<h3><a name="starters">Starters</a></h3>
+
+<p>The starters are generated by Method 1. Each starter has a different starting frame however.</p>
+
+<p><strong>Kanto</strong></p>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Pokemon</th>
+<th>Starting Frame</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bulbasaur</td>
+<td>1</td>
+</tr>
+<tr class="a">
+<td>Charmander</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Squirtle</td>
+<td>9</td>
+</tr>
+</tbody>
+</table>
+
+<p>Hoenn starters all have a starting frame of 1.</p>
+
+<p>The Johto and Sinnoh starters also operate similarly, but it is NOT recommended to get perfect starters this way as you have no reliable method of confirming your seed or advancing your frames and will have to rely on luck from randomly moving NPCs. Additionally, if you're going for a shiny starter, you will be confirm if it is shiny by simply clicking on the Poke Ball and the image displayed should be the shiny sprite if you did everything correctly.</p>
+
+<p><strong>Johto</strong></p>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Pokemon</th>
+<th>Starting Frame</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Chikorita</td>
+<td>1</td>
+</tr>
+<tr class="a">
+<td>Cyndaquil</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Totodile</td>
+<td>9</td>
+</tr>
+</tbody>
+</table>
+
+<p>Sinnoh starters all have a starting frame of 1.</p>
+
+<h3><a name="fossil">Fossil Pokemon</a></h3>
+
+<p>The fossils are generated by Method 1 and have a starting frame of 1. Do note there are random NPCs in both facilities which may disrupt progress so keep the menu open as much as possible.</p>
+
+<div class="dppt">
+<h3><a name="distortion">Distortion World Giratina</a></h3>(NOT Turnback Cave Giratina)
+
+<p>Giratina is a Method J Pokemon. Every time the Distortion World is loaded the frame advances by 11. If you're doing advances through the Journal or Chatter your starting frame will be 23 (It will be 12 if you're advancing the frame through the Journal without accessing it from the menu, i.e. when it first appears when starting the game).</p>
+
+<p>The recommended procedure would be to start the game (loading the Distortion World map once), open the menu, and do either Chatters or Journal flips as if the starting frame is 23, then engage in battle (loading the Distortion World map a second time).</p>
+</div>
+
+<div class="hgss">
+<h3><a name="sinjoh">Sinjoh Ruins Dragons</a></h3>
+
+<p>The dragons are generated by Method 1 and have a starting frame of 1. Simply save one step away from the center of the circle of your desired dragon, as shown below, hit your seed, and do your Elm/Irwin calls to verify/advance your frame, then step into it to begin the event once you're done.</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_capture_47.png" alt="Sinjoh Ruins Event Altar" />
+
+<h3><a name="rage">Lake of Rage / Red Gyarados</a></h3>
+
+<p>The Red Gyarados is generated through the Chained Shiny method. Simply conduct a search using Chained Shiny as the method and go through the same steps you would for a regular capture.</p>
+</div>
+
+<h3><a name="egggift">Egg Gift Pokemon</a></h3>
+
+<p>All Egg gifts are generated by Method 1 and have a starting frame of 1. There may be NPCs that will interfere throughout this process, so it's up to you to decide whether they're worth it or not.</p>
+
+<h3><a name="manaphy">Manaphy Egg</a></h3>
+
+<p>The Manaphy Egg is received like a Wondercard Pokemon, but it uses the Method 1 generation. The Wondercard follows the usual initial frames. It has a shiny check on it that prevents the hatched Manaphy from being shiny normally, but there is a way to bypass this check and get a shiny Manaphy.</p>
+
+<p>You'll need to know the PID of the IV spread you're going for. Once you have it, you'll need a save file that isn't the one your Manaphy Wondercard is on, and has this PID shiny. Do the RNG manipulation and receive the Egg, and trade it to this game. Hatch it in the other game and if you did it correctly, you should now have a shiny Manaphy.</p>
+
+<p>Because trading requires saving, you'll want to attempt this in HGSS since there's almost no room for error there.</p>
+
+<p>To summarize, if you want a shiny Manaphy in game A:</p>
+
+<ol>
+<li>Find out what shiny PID you have in game A.</li>
+<li>Get the Egg with the same PID in game B.</li>
+<li>Trade the Egg from game B to game A.</li>
+<li>Hatch the Egg in game A.</li>
+<li>Congratulations, you now have a shiny Manaphy!</li>
+</ol>
+
+<h3><a name="surffish">Surfing / Fishing</a></h3>
+
+<p>Surfing/Fishing Pokemon are generated through Method J/K J in DPP, K in HGSS). Pokemon caught while Surfing have a starting frame of 3, Pokemon caught while fishing have a starting frame of 4. The main differences between them and a regular capture are:</p>
+
+<ul>
+<li>Surfing/Fishing have their own encounter slots.</li>
+<li>The encounter slots for Fishing vary based on the type of Rod you're using. In the Encounter Tables you can access the encounter slots for Fishing/Surfing methods at the bottom left.</li>
+<li>Surfing/Fishing Pokemon have their own method.</li>
+</ul>
+
+<p>The procedure for Surfing/Fishing is exactly the same as a capture. Make sure to save while already in the water and do not move until you're done. You'd encounter a Surfing Pokemon through Sweet Scent/Honey, while for Fishing you'd naturally use the appropriate Rod. Don't forget to also select the appropriate encounter type when doing your search and when trying to hit your frame.</p>
+
+<h3><a name="swarm">Swarm Pokemon</a></h3>
+
+<p>Swarm Pokemon are treated as Method J or K Pokemon depending on what game you're playing. Starting frame is normally 1 but could be higher due to random NPCs. The encounter type is Wild Pokemon. Once you've confirmed what Pokemon is currently swarming and what route it's on, simply head to the Encounter Slot tables and search for the swarming Pokemon. Once you know what encounter slot it's on, the steps are the same as a wild Pokemon capture.</p>
+
+<h3><a name="honeytree">Honey Tree Pokemon</a></h3>
+
+<p>Honey tree Pokemon use Method J, use method Wild Pokemon, and have a starting frame of 1. It's recommended to do this in a route with NPCs that can all be frozen through Vs Seeker. The hardest part of this is finding the desired Pokemon in your tree, so you'll need to place Honey in as many trees as possible and wait a day for Pokemon to appear, then check if the trees have your desired Pokemon.</p>
+
+<div class="hgss">
+<h3><a name="headbutt">Headbutt Tree Pokemon</a></h3>
+
+<p>Unfortunately the encounter slots vary each save file, so there is no reliable way to get your desired Pokemon from a Headbutt tree. Your best course of action would be to stick with one tree and determine what encounter slot your Pokemon resides by figuring out your seed then encountering Pokemon until you meet the one you want. You can use the main window of RNG Reporter to figure out what encounter slot the Pokemon occupies. Once that's done then do a search using the appropriate slot. From here the procedures are the same as a capture.</p>
+
+<p>Other than this obstacle it's the same as a capture in HGSS. Also try to do this in areas that don't have random NPCs.</p>
+</div>
+
+<h3><a name="rocksmash">Rock Smash Pokemon</a></h3>
+
+<p>There are encounter slots for Rock Smash Pokemon. However, there is no implementation for the frames where you get an encounter, so avoid this method for now.</p>
+
+<div class="hgss">
+<h3><a name="safari">Safari Zone Pokemon</a></h3>
+
+<p>Compared to the Great Marsh, the Safari Zone is relatively tame due to the lack of NPCs. The search procedure is exactly the same as a regular wild capture in HGSS (Method K). The only tricky part is manipulating the encounter slots. All information below is courtesy of <a href="/forums/member.php?u=53815">Princess of Johto</a>.</p>
+
+<span class="underline">Safari Zone: Encounter slots - How to Find the Slot for each Frame!</span>
+
+<p>First thing, open up the Safari Zone <a href="https://dl.dropbox.com/u/62170603/SafariZone.html">encounter slot tables</a>. Now, while it's true that the encounter slots have been mapped out, there is no way to calculate the encounter slot of a specific frame. So, the first step of using the encounter slots is to figure out the encounter slot of your target frame(s).</p>
+
+<p>Go to the Safari Zone encounter slots and choose "Plains" as the area. Ignore the Priority Table part for now. Notice how every encounter slot for the Plains area has a different Pokemon + Level combination. What you're going to do is change your Safari Zone so that the Plains is the first area you walk into. Bring your Synchronizer and Sweet Scent user, and save in front of the man who you pay. Hit your seed, get into the Safari Zone, go into a patch of grass, and start calling Elm to figure out what frame you're on. Advance to the frame you need to be at and then use Sweet Scent.</p>
+
+<p>Do your best to catch the Pokemon and verify that you hit your frame. Take note of what level and species of Pokemon you got. Now, look at the encounter slot table. What Pokemon did you get? Was it a level 16 Rattata? Then the encounter slot for your target frame is 3! Was it a level 17 Abra? Then your encounter slot for your target frame is 7! Pretty self-explanatory. As a side note, you will get Raticate instead of Rattata at night.</p>
+
+<p>I recommend finding the encounter slot for all of your possible target frames (some seeds have PIDs and IVs that repeat on different frames but have different encounter slots) so you have a wide variety of options.</p>
+
+<p>If you're not planning to catch block Pokemon, then you basically have everything you need to know. That's because once you find your slots for each frame, the slots will stay the same for every Safari Zone area. That means that if you have slot 8 on frame 13, and you go to the Savannah area at daytime and hit frame 13, you'll get a Tauros!</p>
+
+<p>But what if you do want block Pokemon? That's where the priority tables come in!</p>
+
+<span class="underline">Safari Zone: Encounter slots - How to Use the Priority Tables!</span>
+
+<p>On the encounter slot tables is a list of Pokemon that appear after placing x amount of blocks. To get a certain Pokemon to appear you must place the appropriate number of blocks in that area, and if there are any that require a certain amount of days you must leave them for that many days. Changing the date on the DS apparently does not make this process faster so if you want a Gible or Bagon you'll have to wait months to get it.</p>
+
+<p>You have your blocks set in the right area, you've waited the required amount of days, yet you don't know how to use the priority table, right? Well let's fix that!</p>
+
+<p>In this example, let's say I'm using a seed that has an encounter slot of 2 on frame 23. And I want a Gible from the Rocky Beach area. Let's go to the Rocky Beach area on the encounter slot tables. Look at the priority table, and notice that Gible is listed as "3". What does this mean?</p>
+
+<p>There are 4 different types of blocks, and each Pokemon requires a different type and number of each. When you place the blocks for a single Pokemon, that Pokemon takes up Slot 0. But once you place blocks that yield more than one Pokemon, then priority comes into play and determines which Pokemon takes slot 0, which Pokemon takes slot 1, and so on. Here's the priority: Plains blocks -> Forest blocks -> Peak blocks -> Water blocks.</p>
+
+<p>Looking at the priority table for Rocky Beach, Dodrio and Electrike are listed before Gible. Both Dodrio and Electrike require Plains objects, but since Dodrio needs less, it is the first priority. So if you placed 10 Plains blocks, Dodrio would take up Slot 0 and Electrike would be Slot 1.</p>
+
+<p>Now if we take a look at Gible, it needs 13 Plains and 17 Peak. So how come he's listed before Mareep? It has something to do with the fact that Gible requires Plains objects, and Plains are always first. With Pokemon that require two different block types, it's kind of hard to explain their priority. For example, Bagon needs 9 Forest objects and 19 Peak objects, but it is listed after all the Pokemon that require Peak objects, even though Forest comes before Peak. So when in doubt, just look at the priority table.</p>
+
+<p>If we placed 13 Plains objects and 17 Peak objects, then Gible would end up on Slot 2. This is because Dodrio and Electrike will be present because of the Plains blocks that Gible requires. Dodrio takes slot 0 because it's 1st priority, Electrike takes slot 1 because it's 2nd priority, and Gible would become slot 2 because it's 3rd priority. The rest of the Pokemon that appear because of Gible's Peak objects don't really matter, because they're all on encounter slots after Gible. So then I would advance to my target frame that has the encounter slot of 2, and Gible will appear!</p>
+
+<p>Usually, you would be able to manipulate the slot of the block Pokemon you wanted, but with Gible that's not the case. Let's try another one so I can show you how to manipulate the slots of a block Pokemon. We'll use the same area, Rocky Beach. This time I'll have an encounter slot of 4 instead of 2. My target Pokemon will be Manectric. Manectric needs 10 Forest blocks. How will I get it all the way to slot 4?!</p>
+
+<p>OK, so you place the 10 Forest blocks. You end up with Mareep in slot 0 (since it needs 5 Forest blocks) and Manectric in slot 1. So, let's manipulate these slots! If you place 10 Plains objects, you get Dodrio and Electrike involved. Dodrio will always take up slot 0 because it's 1st priority. Electrike becomes slot 1, Mareep becomes slot 2, and Manectric becomes slot 3. In order to push Manectric up one more slot, you need to place Gible's objects (and wait the required amount of days). So then Dodrio would be slot 0, Electrike will be 1, Gible will be 2, Mareep will be 3, and Manectric will be 4! Then I'd just advance to my target frame and Manectric will appear. You can't push Manectric up anymore slots because you've already made all the Pokemon before Manectric on the priority table appear. But Pokemon that need Peak or Water objects are generally easier to get onto the slot you want, because there are more Pokemon before them on the priority table so you can push them up more. But those Pokemon are harder to get on lower slots because they usually cause some other Pokemon to appear when you place their required blocks. For example, Gible. When you put down Gible's required blocks, Dodrio and Electrike would appear all the time no matter what. So Gible cannot be on a slot lower than 2.</p>
+
+<span class="underline">Safari Zone: How to Hit your Seed and Target Frame!</span>
+
+<p>You should know how to hit your seed and advance your frame, but the Safari Zone is a bit different. You still hit your delay and advance your frame the same way, but since you can't save inside the Safari Zone, you have to save before you enter the Safari Zone. So make sure you have your areas all set up where you want them and all your blocks laid out. Also bring a Synchronizer if you need it. Then go up to the man you pay to get inside, and save. Next, just keep attempting to hit your seed and verify with Elm calls. Once you hit your seed and verified it talk to the man and pay him.</p>
+
+<p>The beautiful thing about the Safari Zone is that there are no NPCs, so you won't experience any erratic frame advancements! The only frame advancements that won't happen on purpose is if you trigger the 128 step counter. That will advance the frame by however many Pokemon you have in your party. Anyways, once you're in the Safari Zone walk over to the grass patch or tiny pond and advance your frame like usual. To reduce your odds of hitting the wrong frame due to the 128 step advancement, you should resort to using Elm/Irwin calls. Once you get to the correct frame, Sweet Scent and you should have hit your frame!</p>
+
+<p>And that's it! Very easy, really. The hardest part is catching the Pokemon or waiting the amount of days.</p>
+</div>
+
+<div class="dppt">
+<h3><a name="marsh">Great Marsh Pokemon</a></h3>
+
+<p>In order to successfully get perfect Pokemon from the Great Marsh we will need to introduce the occidentary. After encountering a Pokemon, your frame will advance to the frame of "occidentary +6".</p>
+
+<p>Searching for Great Marsh encounters is the same as a capture in DPPt (Use Method J). Be sure to search for frames around 200-300 for this method. "Swarm" Pokemon such as Skorupi will replace encounter slots 6 or 7 so make sure you include that information in your search.</p>
+
+<p>To begin a Great Marsh capture, you'll first need to hit your seed and confirm it using coin flips before entering the Marsh. You'll also need to make sure you have at least 2 empty spaces in your party. Then enter the Marsh and go to the area where your desired Pokemon resides and head to a grass spot. Use Sweet Scent/Honey and capture the resulting Pokemon. After this, quickly open the menu and note the IVs/nature and try to find the resulting frame. Once you do, note the occidentary and add 6 to that number. This should be the frame you are now on. From this point you should do whatever frame advances are necessary to get to your target frame, then use Sweet Scent/Honey. Hopefully no NPCs will have made any unnecessary advances.</p>
+
+<h3><a name="trophy">Trophy Garden Pokemon</a></h3>
+
+<p>In order to do Trophy Garden Pokemon you will need to do a search for Encounter Slots 6 or 7. Slot 6 contains today's special Pokemon while Slot 7 contains yesterday's special Pokemon. Other than being limited to those two encounter slots the procedures are exactly the same as a regular wild capture in DPP.</p>
+</div>

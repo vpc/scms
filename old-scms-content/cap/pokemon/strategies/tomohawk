@@ -1,0 +1,104 @@
+[title]
+Tomohawk
+[head]
+<link rel="stylesheet" type="text/css" href="/media/dex/dex.css" />
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_template.js"></script>
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_database.js"></script>
+[header]
+[page]
+<script language="JavaScript">
+document.write(strategyTabs("Tomohawk"));
+document.write(topHeaderInfo(Tomohawk()));
+</script>
+
+<h2>Overview</h2>
+
+<p>Competitive Pokemon's long-awaited Flying/Fighting monster has arrived at last, in the shape of an efficient utility tank named Tomohawk, designed with players' in-battle momentum in mind. Tomohawk's bulky 105/90/80 defenses, backed up by Intimidate and useful resistances to Bug-, Dark-, Fighting-, Grass-, and Ground-type attacks, make it a solid check to many of OU's physical threats. But that's not all! Tomohawk also sports one of BW's most impressive new toys, Prankster, an ability that allows it to use moves like Taunt, Roost, Substitute, and Baton Pass with increased priority, making it an incredible strategy-breaker for defensive and offensive teams alike.</p>
+
+<p>Where Tomohawk's problems lie are in its unimpressive Special Defense and Speed stats. Strong special attackers and Pokemon looking to take advantage of its weaknesses to Electric-, Flying-, Ice-, and Psychic-type attacks will most often be targeting this soft spot, meaning that common threats like Latios, Thundurus, Reuniclus, and Starmie will be forcing it out more often than not. Similarly, Tomohawk's base 85 Speed means it won't be sweeping teams any time soon, relegating the griffin-mon to more defensive roles. However, it is with these more tankish options that Tomohawk truly shines. Whether acting as a check to most of sand offense, stallbreaking, or utility countering, Tomohawk can easily find a place on any team looking to build or sustain tactical advantages over opponents.</p>
+
+<script language="JavaScript">
+var set = new CAPSet();
+set.name = "Tank";
+set.move[1] = "Aura Sphere";
+set.move[2] = ["Air Slash", "Hurricane"];
+set.move[3] = "Roost";
+set.move[4] = ["Taunt", "Rapid Spin", "Hidden Power Ice"];
+set.item = "Leftovers";
+set.ability = "Intimidate";
+set.nature = "Modest";
+set.evs.HP = 252;
+set.evs.SpA = 24;
+set.evs.Spe = 232;
+document.write(composeSet(set));
+</script>
+
+<p>This set utilizes Tomohawk's bulk and Intimidate to act as a buffer against a whole host of physical threats. Between its STAB attacks, Tomohawk can score at least a neutral hit on every Pokemon commonly seen in OU, barring Thundurus, with notable super effective coverage on Ferrothorn, Tyranitar, Excadrill, Breloom, and Conkeldurr, amongst others. Roost keeps Tomohawk healthy between switches, but be careful, for while Tomohawk sheds its Electric- and Ice-type weaknesses while Roosting, it also loses its key resistances to Fighting-, Grass-, and Ground-type attacks, something which any savvy opponent can use to their advantage.</p>
+
+<p>The choice of move in the fourth slot is dependent upon Tomohawk's intended role on the team. Taunt is an excellent option for breaking down stall teams and slower Pokemon trying to set up. Rapid Spin acts in a similar way, removing entry hazards or Leech Seed from Tomohawk, whose immunity to Spikes and Toxic Spikes, alongside its Stealth Rock neutrality, make it very effective as a spinner. However, without Taunt it has no way of bypassing common spinblockers like Jellicent and Dusclops. For this reason, Toxic Spikes are an excellent way to support Rapid Spin Tomohawk. Hidden Power Ice makes Tomohawk a good general attacking tank, expanding its super effective coverage to include things like Garchomp, Gliscor, Landorus, Dragonite, and Thundurus, thus gaining neutral coverage on everything in the tier.</p>
+
+<p>The EVs are designed to allow Tomohawk to outrun all base 70 Speed Pokemon, such as Breloom and pre-Shell Smash Cloyster, both of whom you can OHKO with the appropriate super effective STAB move, as well as Modest Heatran and most Gliscor. 24 Special Attack EVs and a Modest nature are enough to reliably OHKO Excadrill with Aura Sphere, while 252 HP EVs maximize overall bulk. An alternative EV spread of 252 HP / 252 Def and a Bold nature is defensively superior over multiple turns or in the case of an opponent switching out, while the listed spread is better if you are only concerned with tanking an initial physical hit on the switch, and prefer having a better general offensive presence. When using this spread, consider using Prankster over Intimidate, as it will give priority to both Roost and Taunt, making Tomohawk capable of Taunting faster stat boosters like Salamence or Infernape.</p>
+
+<p>This particular build does not need a ton of support to function; however, Pokemon like Salamence, Volcarona, Thundurus, and Choice Pokemon vulnerable to entry hazards appreciate Tomohawk's ability to soften opposing offensive teams and mess with opposing defensive teams. Additionally, rain and sun-based teams can take advantage of Tomohawk's ability to check a majority of sand-based offensive Pokemon, especially Tyranitar. This is especially true for rain teams, as under rain, Tomohawk can make use of a 100% accurate STAB Hurricane.</p>
+
+<script language="JavaScript">
+var set = new CAPSet();
+set.name = "Baton Pass";
+set.move[1] = "Baton Pass";
+set.move[2] = "Substitute";
+set.move[3] = "Aura Sphere";
+set.move[4] = ["Taunt", "Roost", "Air Slash", "Hurricane"];
+set.item = "Leftovers";
+set.ability = "Prankster";
+set.nature = "Bold";
+set.evs.HP = 252;
+set.evs.Def = 252;
+set.evs.Spe = 4;
+document.write(composeSet(set));
+</script>
+
+<p>With Prankster, Tomohawk makes an impressive team supporter by abusing +1 priority Baton Pass and Substitute to help its teammates out. With all of the things Tomohawk can switch into and threaten, it has little trouble throwing up a 103 HP Substitute as the opponent switches and Baton Passing it away to something that can better handle the opponent's switch-in. This build does suffer from 4-moveslot syndrome, though, so be prepared to get let down because of a lack of a particular move from time to time. The fourth moveslot can be used to prevent pseudo-hazing or setup with Taunt (leaving Tomohawk unable to heal up and pass more Substitutes), to heal with Roost (leaving it open to pseudo-hazing), or for a secondary STAB (no healing, no protection from pseudo-hazing). Alternatively, Roost and Taunt can be used together, at the expense of Aura Sphere, to turn the set into a pure Baton Pass set (leaving it susceptible to opposing Taunts).</p>
+
+<p>What makes this set especially effective is that the super effective attacks aimed at Tomohawk are easily exploitable with the appropriate switch-in. Ground types like Garchomp can receive the Baton Pass and soak up Electric-type attacks, thus keeping the Substitute intact. Dark-types like Tyranitar or Hydreigon can absorb Psychic-type attacks in the same way. Steel-types such as Jirachi or Heatran can take resisted Psychic-, Flying-, and Ice-type attacks and most likely keep the Substitute intact. Really, there are innumerable ways to abuse the priority Substitute + Baton Pass combination, especially through keeping opponents from setting up any kind of strategy of their own, as they must attack to break the Substitute or risk letting something dangerous set up on them in turn.</p>
+
+<p>The EVs are the recommended build for all Prankster Tomohawk. Since Tomohawk's list of resisted attacks lie dominantly on the physical side, it would be advantageous to invest as many EVs as possible there. Speed is not a concern here, as the primary focus of the set is to abuse +1 priority moves, which only require Speed investment against other Prankster users and would generally be wasted. Tomohawk also has the boosting moves Work Up and Bulk Up to Baton Pass away if paired with good recipients like Deoxys-S (Work Up) or Machamp and Tyranitar (Bulk Up), amongst others. Excadrill, who resists the Electric-, Psychic-, and Flying-type attacks aimed at Tomohawk, is a good Bulk Up recipient, as at +1 Defense it comfortably survives even Choice Band Azumarill's Aqua Jet. In general, good teammates include anything that could use a free turn to set up or get an extra attack in, such as Terrakion, Garchomp, Calm Mind Jirachi, Shell Smash Cloyster or Gorebyss, Thundurus, and so on. Really, no Pokemon doesn't like a free Substitute and a free switch, which is something to keep in mind when using this set.</p>
+
+<script language="JavaScript">
+var set = new CAPSet();
+set.name = "Toxic Stall";
+set.move[1] = "Toxic";
+set.move[2] = "Substitute";
+set.move[3] = "Roost";
+set.move[4] = ["Aura Sphere", "Air Slash", "Taunt"];
+set.item = "Leftovers";
+set.ability = "Prankster";
+set.nature = "Bold";
+set.evs.HP = 252;
+set.evs.Def = 252;
+set.evs.Spe = 4;
+document.write(composeSet(set));
+</script>
+
+<p>Similar to DPPt Zapdos, Tomohawk's good bulk and Prankster make it an effective Toxic staller. The +1 priority granted by Prankster to the moves Toxic, Substitute, and Roost make Tomohawk incredibly frustrating to deal with if the opponent lacks bulky Steel-types or Gliscor. The strategy is simple enough: force a switch or come in on something that doesn't threaten Tomohawk at all, set up a Substitute, Toxic the incoming Pokemon, and then alternate between Substitute and Roost until the opponent succumbs to the Toxic damage.</p>
+
+<p>The fourth moveslot will decide which Pokemon Tomohawk will need help dealing with, and consequently, which teammates you will need to include. Aura Sphere is an excellent STAB move that hits all Steel-types for at least neutral damage, but leaves Tomohawk open to things like Gengar, Toxicroak, Venusaur, and Swords Dance Gliscor. Air Slash can wear down these two threats, but leaves Tomohawk exposed to Jirachi, Heatran, and other Steel-types. Both leave Tomohawk open to phazing, specially defensive Swords Dance Scizor and Wish or Calm Mind Jirachi, as well as rare sets such as Calm Mind/Recover/Refresh Latias or Dragon Dance/Roost/Heal Bell Dragonite, which is why Taunt can be used in the last slot. Taunt is also useful in terms of preventing opponents from recovering lost health or using Rest or Aromatherapy to heal themselves and teammates of status, but makes Tomohawk useless in the face of opposing Taunts, especially from Thundurus.</p>
+
+<p>Heat Wave is an additional option for the fourth slot, hitting most Steels that are immune to Toxic for SE damage, as well as Venusaur and Dry Skin Toxicroak, and does acceptable damage to Gengar and Gliscor, but again leaves Tomohawk without a prayer against the aforementioned pseudo-hazers, Latias, and Dragonite.</p>
+
+<p>As is the case with any Prankster Tomohawk, priority Roost will negate Tomohawk's Ice- and Electric-type weaknesses and give it a Rock-type resistance, while eliminating Tomohawk's Fighting-, Grass-, and Ground-type resistances for the turn in which it is used, so things like Starmie, Life Orb Latios, and Virizion can power through this build with good prediction. Pairing this build with Blissey may be a smart choice to deal with those threats. Magnezone also makes a good teammate, as it can trap and eliminate most Steel-types in the tier and resists all of Tomohawk's Electric-, Flying-, Ice-, and Psychic-type weaknesses, while Tomohawk covers its Fighting- and Ground-type weaknesses well.</p>
+
+<h2>Other Options</h2>
+
+<p>Hurricane is always an option over Air Slash, but is best used in rain due to the accuracy boost. Beware of weather changers, though, as Hurricane's accuracy will decrease back to 70% in sandstorm or hail and all the way down to 50% in sunlight. Tyranitar is less of a concern as it is extremely weak to Aura Sphere, although its Flying-type resistance and incredible Special Defense in a sandstorm make it a good weather-changing pivot alongside something like Gengar or something else that can take a Fighting-type attack. Abomasnow is weak to both of Tomohawk's STAB attacks, so it can't switch into a direct attack comfortably; however, watch out for Scarf versions that will OHKO with STAB Blizzard.</p>
+
+<p>In terms of team support, Reflect can be of use with priority against offensive teams or when trying to help a teammate set up. Tomohawk also has access to Stealth Rock, which it can lay down with priority. It also has both Roar and Whirlwind with which to shuffle opponents through entry hazards.</p>
+
+<p>Haze can be utilized with Prankster as a fail-safe against opponents who accumulate too many boosts or last-Pokemon set-up sweepers that would otherwise be problematic, as they cannot be pseudo-hazed. Yawn is effective at forcing switches, especially considering how powerful sleep is as a status in this generation. This could also be used as insurance against set-up sweepers if you have a means of neutralizing them after they've been put to sleep.</p>
+
+<h2>Checks and Counters</h2>
+
+<p>Thundurus is probably Tomohawk's biggest threat, as it resists both of its STAB moves and shuts it down with a faster priority Taunt, not to mention being able to threaten Tomohawk with STAB Thunderbolt, or by setting up Nasty Plot in its face. Offensive rain teams, in general, threaten Tomohawk greatly, despite giving Tomohawk the accuracy boost on Hurricane. Tornadus outspeeds and resists Tomohawk's Fighting attacks, and can end it with a 100% accurate STAB Hurricane. Similarly, Dragonite takes little from Tomohawk's attacks barring Hidden Power Ice and can OHKO with Hurricane. Tomohawk will also fall prey to Thunder and boosted Surfs and Hydro Pumps hitting it on its lower Special Defense stat.</p>
+
+<p>Calm Mind Reuniclus can set up on most Tomohawk while STAB Psychic may deter Tomohawk from staying in to Taunt it. Trick Room Reuniclus can survive a hit to set up Trick Room and proceed to OHKO. Similarly, Calm Mind Latias with Recover can set up freely on Tomohawk that lack Taunt or Toxic (CM/Refresh Latias can also set up on variants with Toxic).</p>
+
+<p>Finally, Life Orb Starmie can 2HKO Tomohawk with Ice Beam or Thunderbolt combined with Hydro Pump when dealing with Prankster sets that pack Roost. In fact, many special attackers with a strong STAB attack, especially those that also have a super effective attack in their arsenal, can come out on top against the faux-griffon.</p>

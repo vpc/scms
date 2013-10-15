@@ -1,0 +1,188 @@
+[title]
+Introduction to Competitive GSC
+[head]
+<link href="/media/smog/smog-articles.css" type="text/css" rel="stylesheet" />
+[page]
+<div class="author">By <a href="/forums/member.php?u=2601">Royal Flush</a>. Art by <a href="/forums/member.php?u=57019">paintseagull</a>.</div>
+<table id="smogheader">
+<tr>
+<td class="left"><a href="obscure_metagames">« Previous Article</a></td>
+<td class="middle"><a href="/smog/issue28/">Home</a></td>
+<td class="right"><a href="arterview">Next Article »</a></td>
+</tr>
+</table>
+
+<div class="align-center"><img src="/media/upload/smog/issue28/gsc_chess.png" alt="" /></div>
+ 
+<p>While the second generation of Pok&eacute;mon is the favorite of most fans, its competitive scene is probably the least played on the Smogon community for a variety of reasons. If you feel a bit discouraged from learning it because of popular feedback but always wanted to, I'm here to get you into the basics!</p>
+
+<h2>First Impressions of Earth(quake)</h2>
+
+<p>The first impression of GSC usually is that it seems too slow-paced and boring. Don't get it wrong, it just happens that GSC offers the most different gameplay of all gens. Think of it as a chess match&mdash;in fact, it's the closest generation to this&mdash;you can make something happen by slowly improving your position each turn, by having control of the board and the tempo. It's a lot more based on switching compared to any other gen as well, so having the upper hand in the 1v1 matchup is very important. There are no EVs (or consider that all the stats are maxed out), so even naturally squishy Pokémon like Gengar can live a few hits, and with Leftovers being the bread and butter item (apart from Thick Club on Marowak) and a lot less of residual damage moves, you can even manage to recover most of your HP with smart plays.</p>
+
+<p>In sum, you can't really deny that GSC matches can last longer than any other gens, but it's not something necessarily bad: in truth, it requires a lot of nerves of steel. You can't simply play by "feeling", like "Oh, right, he predicted me there but it's okay, I'll just sacrifice Pok&eacute;mon X here to have a free setup for Pok&eacute;mon Y and win"; you must think thoroughly, explore every possibility that can allow your win. It might sound obvious, but when GSC was in its prime, people tended to play not to win, but merely to not lose, and this is where all the hate from GSC came from. Years of Pok&eacute;mon history aside, if you are still eager to learn some good GSC, let's move forward!</p>
+
+<h2>Mechanics</h2>
+
+<p>If you never touched gen 2 before, it's very important to know the relevant mechanics that are different to the other generations, so I'm listing them below:</p>
+
+<ul class="long_list">
+<li><strong>Spikes</strong>: Introduced in this generation, Spikes originally had <strong>only one layer</strong>, which means you can't use it more than once and the residual damage will always be 1/8 of the Pok&eacute;mon's maximum HP. While it sure seems disappointing, I'll talk more about it later on.</li>
+
+<li><strong>Toxic</strong>: Starts out as venomous poison (1/16 HP initial damage, then adds 1/16 each turn) like the later gens, but it <strong>becomes normal poison</strong> (1/8 every turn) if the user switches out. Also looks disappointing like Spikes, but I'll cover more later as well.</li>
+
+<li><strong>999 Stat Limit</strong>: Since RSE, stats wouldn't have a limit. Until GSC though, the maximum number that a stat could have was 999. If a Pok&eacute;mon reaches 999 before the +6 stage boost, it'll be unable to boost further. For example, a Snorlax has 999 Attack at +5, so he will unable to hit +6 with Curse (Defense will still boost to +6, being lower). Plus, if he gets Growled by a Miltank, he will be at +4, which happens to be 954 Attack.</li>
+
+<li><strong>Sleep Talk</strong>: Sleep Talk can pick Rest, simply enough. The Pok&eacute;mon will regain its HP, and the sleep count will reset to the regular two turns of Rest (which means it can save you from the sleep count of Sleep Powder/Hypnosis).</li>
+
+<li><strong>Roar/Whirlwind</strong>: A very weird fact about pseudo-hazing in GSC is that it <em>needs</em> to go last to actually work. That said, we have exactly the opposite scenario of later gens: the <strong>slower Pok&eacute;mon</strong> will manage to phaze the opponent instead of the faster one. Furthermore, Roar/Whirlwind priority is set to -1, so if a Machamp uses Vital Throw against a Skarmory trying to Whirlwind him for instance, both moves happen to have -1 priority but Machamp is slower, resulting in Whirlwind failing (yes, that "But it failed!" message).</li>
+
+<li><strong>Belly Drum</strong>: Normally, Belly Drum cuts half of the user's HP and maximizes its Attack (regardless of being -6 to -1); however, if the Pok&eacute;mon has less than 50% of its HP, it will show a "But it failed!" message. Don't be fooled by mere words, though, because your Attack has secretly risen to +2!</li>
+
+<li><strong>Critical hits</strong>: Now this is interesting: considering the stat stages ranging from -6 to +6, if the stat stage for the Attack / Special Attack is <strong>equal or lower</strong> than the foe Defense / Special Defense, <strong>both</strong> boosts will be ignored on a critical hit, as well as Reflect / Light Screen and burn status Attack drops. If they are higher, nothing will be ignored. A simple example: Machamp landing a critical hit at +0 Attack against a Starmie behind Reflect will deal MORE damage than if he was at +1 Attack. Didn't see that coming, did you?</li>
+
+<li><strong>Mean Look</strong>: Contrary to popular belief, Substitute <strong>does not block Mean Look</strong> in GSC (nor Spider Web if you are using Smeargle).</li>
+</ul>
+
+<h2>Knowing Your Tools</h2>
+
+<p>GSC doesn't have too many viable Pok&eacute;mon, but each one fills some very unique role or niche. On the next part, there will be a very concise description of the main pieces for your board. Pick them wisely.</p>
+
+<h3>Your Loyal Pawns</h3>
+
+<p><img src="/download/sprites/g/243.png" alt="Raikou" /></p>
+
+<p>Raikou is the premier special wall on this generation, packing semi-decent physical bulk as well. What makes the tiger really shines though is its phazing capabilties, being undoubtedly the best Spikes shuffler in the game due to having a good matchup against more than half of the metagame. <em>Common moves: Thunder, Thunderbolt, Hidden Power Ice/Water, Roar, Rest, Reflect, Sleep Talk</em></p>
+
+<p><img src="/download/sprites/g/245.png" alt="Suicune" /></p>
+
+<p>The definition of a tank, Suicune won't die anytime soon. Coupled with Raikou, the dogs can successfully wall any mixed sweeper of the game. Don't get too excited, though: Suicune lacks offensive presence, and thus, is far inferior to Raikou when trying to force damage with Spikes. <em>Common moves: Surf, Toxic, Ice Beam, Roar, Rest, Sleep Talk</em></p>
+
+<p><img src="/download/sprites/g/227.png" alt="Skarmory" /></p>
+
+<p>The first thing you will notice is that Skarmory lacks Spikes in this generation. What keeps the steel bird popular then? The fact that he neutralizes the best Pok&eacute;mon of the game (you probably know who I'm talking about; if not, keep reading!). Nevertheless, don't expect Skarmory to wall all the physical threats forever, because his HP is not that great and he's incredibly vulnerable if forced to Rest. Think of him as a wildcard, your ideal backup plan. <em>Common moves: Drill Peck, Whirlwind, Rest, Curse, Thief</em></p>
+
+<p><img src="/download/sprites/g/242.png" alt="Blissey" /></p>
+
+<p>The infamous SkarmBliss duo was born here. Blissey is definitely an amazing support Pok&eacute;mon, packing the rare Heal Bell, Sing, and Light Screen. Her largest issue is being a big pushover, often leaving an opening to dangerous threats that usually need a safe switch. <em>Common moves: Heal Bell, Softboiled, Light Screen, Sing, Ice Beam, Growl</em></p>
+
+<p><img src="/download/sprites/g/241.png" alt="Miltank" /></p>
+
+<p>Utility at its best. With so many Pok&eacute;mon using Rest, Miltank's Heal Bell comes in handy so your team barely loses momentum. Growl is great to neutralize Curse users not named Machamp, but don't ever try to pick a fight against Belly Drummers, because it maximizes the user's Attack regardless of how many Growls you have used. <em>Common moves: Heal Bell, Growl, Milk Drink, Body Slam</em></p>
+
+<p><img src="/download/sprites/g/197.png" alt="Umbreon" /></p>
+
+<p>With modest 95/110/130 Defenses, Umbreon is a nasty tank. Charm is the best option you will find against Cursers, but similar to Miltank, fails to achieve the same success against Belly Drum. Moreover, it happens to be a solid Pursuiter even with a pathetic Special Attack and can also try a Mean Look + Baton Pass with a bit of luck from Confuse Ray/Sand-Attack. <em>Common moves: Charm, Toxic, Pursuit, Rest</em> </p>
+
+<p><img src="/download/sprites/g/121.png" alt="Starmie" /></p>
+
+<p>The ultimate spinner, Starmie will screw with spinblocking Gengar via its STAB Psychic and blow away any Spikes that Cloyster or Forretress try to set up. Additionally, it also provides good support with Thunder Wave and Reflect, but most notable, it's the only hard counter to Machamp. <em>Common moves: Rapid Spin, Recover, Psychic, Surf, Reflect, Thunder Wave</em> </p>
+
+<h3>Rooks, Bishops and Knights</h3>
+
+<p><img src="/download/sprites/g/145.png" alt="Zapdos" /></p>
+
+<p>Boasting base 125 Special Attack, overall balanced stats, and amazing typing, Zapdos is fantastic both offensively and defensively. Thunder deals massive damage and can keep even Snorlax at bay, also helping to spread paralysis. <em>Common moves: Thunder, Hidden Power Ice, Rest, Sleep Talk</em></p>
+
+<p><img src="/download/sprites/g/103.png" alt="Exeggutor" /></p>
+
+<p>Exeggutor suffered a lot from the special split and the overall Psychic nerf, but is still an amazing offensive-defensive Pok&eacute;mon. Having key resistances&mdash;namely Ground, Electric, Water, and Fighting&mdash;amazing utility moves like Sleep Powder, Stun Spore, and Leech Seed; highest Special Attack after Gengar; and being one of the most dangerous Explosion users make Eggy invaluable to any offensive team. <em>Common moves: Sleep Powder, Explosion, Psychic, Giga Drain, Hidden Power Fire, Stun Spore</em></p>
+
+<p><img src="/download/sprites/g/94.png" alt="Gengar" /></p>
+
+<p>Gengar's success lies in his deadly movepool. Mean Look, Explosion, Destiny Bond, and Hypnosis in any combination will allow at least one kill. Paired with special moves of diverse kinds coming from godlike base 130 Special Attack, the doppelganger won't fail your offensive needs. Horrorshow. <em>Common moves: Thunderbolt, Ice Punch, Fire Punch, Hypnosis, Explosion, Mean Look, Destiny Bond, Dynamicpunch</em></p>
+
+<p><img src="/download/sprites/g/91.png" alt="Cloyster" /></p>
+
+<p>Cloyster is your chief Spikes user. While he can't use both Rapid Spin and Explosion, he offers a lot regardless of your choice: being a spinner allows him to beat opposing Cloyster better, while Explosion makes him offensively threatening. <em>Common moves: Spikes, Explosion, Rapid Spin, Surf, Ice Beam, Toxic</em></p>
+
+<p><img src="/download/sprites/g/208.png" alt="Steelix" /></p>
+
+<p>The "offensive" counterpart of Skarmory, Steelix boasts gargantuan Defense and the incredible anti-BoltBeam combo thanks to his typing, offering Roar and Explosion as well. Typically has no room for Rest, so don't play too recklessly. <em>Common moves: Curse, Earthquake, Roar, Explosion</em></p>
+
+<p><img src="/download/sprites/g/134.png" alt="Vaporeon" /></p>
+
+<p>Growth blessed Vaporeon in so many ways and people still tend to overlook him. If your Electric is in a bad position, you better have something to cut your losses. If he's the Acid Armor variant, you can't even try to Explode in his face; if he's Sleep Talking, he will have t ridiculous longevity and can even afford to Hydro Pump for some extra aggression. <em>Common moves: Growth, Surf, Hydro Pump, Rest, Sleep Talk, Acid Armor</em></p>
+
+<p><img src="/download/sprites/g/34.png" alt="Nidoking" /></p>
+
+<p>Despite the average stats, Nidoking is a pretty scary mixed sweeper with an amazing movepool, including the fantastic NYPC move Lovely Kiss. A bit hard to get on the field safely often due to some common weaknesses, overall shaky defenses, and lack of recovery move (Morning Sun is illegal with LK and you probably don't wanna lose one of the most versatile sleepers of the game), but he will definitively put any team in a tough position. <em>Common moves: Lovely Kiss, Earthquake, Ice Beam, Thunder</em></p>
+
+<p><img src="/download/sprites/g/105.png" alt="Marowak" /></p>
+
+<p>A high-risk, high-reward sweeper. Taking hits from a 508 Attack Pok&eacute;mon is no easy task, and a single Swords Dance will reach the 999 mark. However, Marowak is very susceptible to Spikes and has mediocre stats overall, so you better have good support behind him. From paralysis to cleric, everything is worth enabling a sweep of this juggernaut. <em>Common moves: Swords Dance, Earthquake, Rock Slide, Hidden Power Bug, Rest</em></p>
+
+<p><img src="/download/sprites/g/68.png" alt="Machamp" /></p>
+
+<p>Machamp is something that looks better on paper than in practice. Amazing Attack, the feared STAB Cross Chop with pretty decent coverage moves, and above average defenses. He can potentially bring down a team without Starmie by himself, but it's just too hard to make it happen because he lacks useful resistances and has terrible Speed. Despite that, if you know your drills and exploit every opportunity to double switch, the payoff might be huge. <em>Common moves: Cross Chop, Curse, Hidden Power Ghost/Bug, Rock Slide, Earthquake</em></p>
+
+<p><img src="/download/sprites/g/248.png" alt="Tyranitar" /></p>
+
+<p>Jack of all trades, master of none. Tyranitar's early years weren't really great compared to the recent gens, mind you. He's fairly decent on every role he can play&mdash;phazer, Curser, mixed sweeper, Pursuiter (usually a combination of some)&mdash;but not outstanding on anything, and he also has a horrible moveslot syndrome. Unlike Umbreon, though, his Pursuit is a lot stronger, being able to trap and kill Exeggutor and the Ghosts faster. A bit rough to switch against when you are unaware of his moveset, so exploit it.<em>Common moves: Pursuit, Roar, Rock Slide, Crunch, Flamethrower, Curse, Earthquake, Thunderbolt</em></p>
+
+<h3>The Queen Herself</h3>
+
+<p><img src="/download/sprites/g/143.png" alt="Snorlax" /></p>
+
+<p>It's Snorlax, bitches. Words can't describe how powerful and dominant Snorlax is in GSC. No Pok&eacute;mon in any generation ever centralized the game like Snorlax did. If you ask why the lazy fat guy is not sitting along the Uber Pok&eacute;mon (ironically enough, Snorlax happens to be better than most of the Ubers in standard play), it's because Snorlax makes both offense and defense viable (but mainly for enabling offense). The Belly Drummer can potentially bring down even the best defensive team, while Curselax is the epitome of durability. If you are really up to play some competitive GSC, you better learn how to play with Snorlax, against Snorlax, and without Snorlax as well. <em>Common moves: Body Slam, Double-edge, Curse, Belly Drum, Earthquake, Fire Blast, Lovely Kiss, Rest</em></p>
+
+<p>Okay, now that we get the basics, it's time to go deeper within the black hole of competitive GSC.</p>
+
+<h2>So, How Do I Kill Pok&eacute;mon?</h2>
+
+<p>Sounds like an obnoxious question, and it is (kinda). If you ever watched a GSC match, you probably realized that things don't die that fast like they do in the recent gens; there's no Choice Band, no good setup moves, very few base 110+ (Special) Attack Pok&eacute;mon, maximum stats making almost everything (sorry, Smeargle) somehow bulky, single-layer Spikes, etc. So, indeed, how do you kill Pok&eacute;mon?</p>
+
+<p>Getting back to the chess analogy, GSC is all about long-term thinking, having a plan (and a backup plan), improving your position every turn. If you keep switching, taking a hit, attacking and repeat the process until you have to Rest, you are not achieving anything (and you became a lot more predictable as well). You can't win a match by just playing on autopilot ; you need to look ahead, to foresee 5, 10, 20, 50 turns instead of just the next one. You must exploit your opponent's switching pattern, risk some double switches, force poor matchups, and capitalize on your advantage. A bit more of insight is below.</p>
+
+<p>About residual damage: Granted, it's not that great like the later gens, but it does enable some useful aggression. A single layer of Spikes can provide key situations where chip damage adds up so you can actually make something happen, be it preventing Snorlax from using Belly Drum, Marowak being in the KO range of a Surf, 999 Attack Snorlax securing an OHKO against Cloyster, and so on.</p>
+
+<p>On a similar note, Toxic is not that bad; in truth, with GSC having so many switches, 1/8 damage every turn tends to be more effective on the long run than the regular venomous poison. Couple it with Spikes and suddenly you've done 25% damage right away. And the good thing is, regardless of whether your team is more defensively or offensively oriented, they can fit on both.</p>
+
+<p>Explosion, also known as skill gap: Well, not really a gap, but make the game more simple, more high-risk high-reward. It creates constant mindgames of whether the exploder is really trying to make the trade with your Pok&eacute;mon or not, but most importantly, makes Drumlax more checkable. Make sure the trade is worth it, though; sacrificing Exeggutor or Steelix too early might not be the ideal situation if you didn't see the whole opposing team yet.</p>
+
+<h2>To Snorlax or Not to Snorlax</h2>
+
+<p>Every good GSC player can acknowledge that a team NEEDS Snorlax; it's almost a no-brainer. On the other hand, people tend to conserve Snorlax too much, in a way nearly unconsciously, but when they realize it, almost their entire team is in a bad situation just because they went to high lengths to save the queen of GSC. While in a lot of situations it is indeed worth it to keep Snorlax in a good shape, he's essentially just one Pok&eacute;mon.</p>
+
+<p>What I'm trying to say is, don't ultimately rely on Snorlax to win a match. If your opponent has a Steelix and a Misdreavus to successfully wall your mono-attack LKDrumlax, you're in no-man's land, so learn to play without him. You still got 5 Pok&eacute;mon that can potentially win the game if you know what you are doing.</p>
+
+<p>Furthermore, stop trying to counter Snorlax, because it's impossible. Curselax is not something you can beat by yourself, but rather neutralize with Growl or Roar. Drumlax is a lot more about playing around; if you don't let him switch in without losing HP, you can most of the time deny his Belly Drum attempt. If this actually happens, there's always Skarmory or an Explosion user to scare him.</p>
+
+<p>On Teambuilding: Don't get too paranoid with it, and most importantly, don't get too overconfident just because your team looks solid. Teambuilding is important in any generation, mind you, but your performance in the match itself is a lot more relevant and can even allow you to overcome any weird weakness or bad matchup you might have. Your team happens to be kinda weak to CurseTar, but if you don't let him switch in and set up safely, he's not threatening your team, is he? Moreover, when making changes to the team, make sure it's worth it. For example, you just lost to Machamp and decided to trade Cloyster for Starmie. Problem solved? I suppose so, but at what price? You now have a solid spinner, but lack Spikes and Explosion, and maybe in the long run it will make a big difference. Suddenly you are also more open to Snorlax and lost a reliable backup plan against Vaporeon. Offense can cover defense, but the opposite doesn't hold true. And perhaps you had the good offense to keep Machamp at bay, but were playing so passively that your opponent easily got your switching pattern and capitalized on it. In simpler words, don't try to fix what's not broken.</p>
+
+<p>Help me to build a good team then!: While I said that in-game performance is a lot more important, of course you can't just put five walls and Snorlax or a bunch of mixed sweepers together and expect to grab wins. 
+Before, I gave most of the proper recognition to offense, but that doesn't mean defensive teams are bad. Playing brainlessly with a stall team definitely is, but they are both completely viable playstyles. And in a sense, they kinda complement each other; that's why it's very common to see a Marowak and a Drumlax along a good defensive core or offensive teams often carrying the so-called offensive-defensive Pok&eacute;mon like Zapdos and Exeggutor, so that they can offer their own aggression while also being able to check some threats.</p>
+
+<p>The main point when building a team, though, is to have a goal; give it a purpose, don't just gather six good OU Pok&eacute;mon and call it a team. Let's say you decided that you want to use Vaporeon; think thoroughly of what he needs to be successful, perhaps you want Exeggutor to bait and Explode on the Electrics? Maybe you need paralysis support, maybe Light Screen, maybe both? Additionally, instead of relying mostly on type synergies, explore more straightforward synergies; rather than putting a Steel-type to have a type synergy with Machamp, you can go for a Cloyster to Explode on Starmie so you will have an open path the four-armed titan. Even with few viable Pok&eacute;mon, there's a lot of space for being creative.</p>
+
+<h2>Last Quick Tips</h2>
+
+<ol class="long_list">
+<li>Don't overextend yourself. Or in slangy words, don't get cocky. If your main goal is to kill Starmie and you managed to put it on a very low HP and forced it to switch, make sure it can't successfully safely switch and Recover all the precious chip damage you were doing all this time. If you get a kill, don't start to play recklessly just because you were granted a big advantage.</li>
+
+<li>On a similar thought, don't get nervous if you get caught in a bad position&mdash;there's no GSC game that cannot be turned around&mdash;pressure is your enemy; you tend to do bad plays if you are in a tough situation. If a Snorlax safely Drummed, your Gengar is on the sidelines, and your Skarmory is paralyzed and not at full health, stay calm and think thoroughly it; do the damage calcs, weigh all your possible options, and choose the best one statistically speaking. Use the five minutes of the timer if you need to.</li>
+
+<li>About goals: of course you should have one, but you should, in fact, have more than one, and most importantly of all, know when which goal is better than another. Strict goals lead to close-minded thinking. If you made a team to sweep with Marowak and you keep playing stubbornly to enable Marowak to be in a good position, you tend to overlook the rest of your team. Maybe at some crucial moment, sweeping with Marowak wasn't the ideal situation, but rather with Snorlax, and you didn't even notice it.</li>
+
+<li>Prediction: it's like rock/paper/scissors; we are humans, not wizards, thus prediction is essentially a gamble, something risky. And if it's risky, then you should have a good reason to do it. Supposing you are going to great heights of risks with double switching and switchbacks just to kill Starmie, are you really achieving something? Is Starmie a big cockblock towards enabling your win or is it just annoying the hell out of you because you can't keep Spikes up?</li>
+
+<li>Luck: the greatest doom of Pok&eacute;mon, hands down. Luck in GSC can be played around moderately easily (Thunder critting Snorlax hurts, though), but there's nothing wrong in fishing for it to happen. When you can almost always force a Zapdos vs. Raikou matchup, there's nothing wrong with keeping on trying to paralyze Raikou with Thunder if you can take any advantage from this (Vaporeon comes to mind). If Confuse Ray can statistically work twice 1/4 of the time, it means you can potentially Mean Look + Baton Pass two times before Mean Look PPs run out. The outcome justifies the deed.</li>
+
+<li>All-you-say-looks-easy-on-paper-but-in-practice it-is-just-too-hard: indeed, it's hard, but that's why I said earlier you need nerves of steel. If you are not figuring out the switching pattern and are failing to do a successful double switch, it's just natural. Skill comes with experience, and experience comes with fails and losses. Sounds cliché I know, but what separates a good player from a bad one is that the good one knows to criticize itself and improve from this&mdash;"Hmm, maybe I shouldn't have used Rest with Skarmory that time against Snorlax, that was exactly what my opponent was planning!"&mdash;while the bad one will always have a good excuse, from "Lol I just lost because that Snorlax hid that weird CurseDrum set, whatever" to "If he didn't crit my Raikou that turn I'm 100% sure I could have won".</li>
+</ol>
+
+<h2>Conclusion</h2>
+
+<p>The <a href="/forums/forumdisplay.php?f=31">Ruins of Alph</a> subforum is the ideal place for discussing not only GSC, but all the old generations, and there also happens to be some small tournaments on a regular basis, so make sure to check it and participate! You can additionally post your team to be rated; there will always be a GSC veteran to help you.</p>
+
+<p>The <a href="/forums/forumdisplay.php?f=34">Tournaments</a> section from time to time hosts some tournaments of old generations (unfortunately not that many for GSC), but always keep an eye on the Tournament Listing. The Smogon Premier League also has a spot for GSC matches every year, so you can also give it a try!</p>
+
+<p>You might as well check the Smogon analyses for more deep insight on the movesets and strategies, since I just gave a raw overview of the most important Pok&eacute;mon, but I hope this guide makes you interested in playing some Gold/Silver/Crystal.</p>
+
+<table id="smogfooter">
+<tr>
+<td class="left"><a href="obscure_metagames">« Previous Article</a></td>
+<td class="middle"><a href="/smog/issue28/">Home</a></td>
+<td class="right"><a href="arterview">Next Article »</a></td>
+</tr>
+</table>

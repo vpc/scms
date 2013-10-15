@@ -1,0 +1,90 @@
+[title]
+Base Stat Ratings
+[head]
+<link href="/media/smog/smog.css" type="text/css" rel="stylesheet" />
+[page]
+<div class="author">By <a href="/forums/member.php?u=2412">X-Act</a>.</div>
+<table id="smogheader">
+<tr>
+<td class="left"><a href="doubles">&laquo; Previous Article</a></td>
+<td class="middle"><a href="/smog/issue6/">Home</a></td>
+<td class="right"><a href="gimmicks">Next Article &raquo;</a></td>
+</tr>
+</table>
+
+<h2>Introduction</h2>
+
+<p>The Base Stats of Pok&eacute;mon provide the inherent strengths and weaknesses of each Pok&eacute;mon. All Cloyster have very high Defense, for instance, due to their very high base Defense stat, while all Electrode are very fast because of their high base Speed stat.</p>
+
+<p>In this context, it is important to reason correctly about Base Stats. What does having a 70 base Defense really mean, or 80 base Speed, or 60 base Special Attack? Knowing exactly what these numbers mean will let us reason better about the Pok&eacute;mon's capabilities as a whole.</p>
+
+<p>We first look at the defensive aspects of a Pok&eacute;mon, followed by its offensive aspects.</p>
+
+<p>The Tankiness of a Pok&eacute;mon</p>
+
+<p>The Tankiness of a Pok&eacute;mon is how well the Pok&eacute;mon takes hits. This is usually split in two: the Physical Tankiness and Special Tankiness.</p>
+
+<p>It can be easily shown from experience that Tankiness depends not only on the Defense or Special Defense Base Stat, but also on the HP Base Stat. In fact, we define the Physical Tankiness of a Pok&eacute;mon by the multiplication of the HP stat and the Defense stat, both stats taken at Level 100, 31 IVs, no EVs and no Nature alterations. The Special Tankiness can be found similarly.</p>
+
+<h2>The Sweepiness of a Pok&eacute;mon</h2>
+
+<p>We now go on to the offensive capabilities, or lack of, of the Pok&eacute;mon in question. A Pokémon's Sweepiness is how hard it hits the opposing Pok&eacute;mon. Again we can split this in two: the Physical Sweepiness and the Special Sweepiness, as before.</p>
+
+<p>A Pok&eacute;mon can hit the foe more easily if it is faster. Indeed, it might happen that our Pok&eacute;mon does not even get the chance to hit the opposing Pok&eacute;mon if the latter is faster. When a Pok&eacute;mon is faster than its foe, it is guaranteed to hit one more time than the opponent.</p>
+
+<p>For example, suppose we have a Pok&eacute;mon A that is capable of fainting the foe, Pok&eacute;mon B, in two hits. Suppose also that Pok&eacute;mon B is also capable of fainting our Pok&eacute;mon in two hits. If Pok&eacute;mon A is faster, we would have:</p>
+
+<pre>Pok&eacute;mon A hits (60% damage)
+Pok&eacute;mon B hits (70% damage)
+Pok&eacute;mon A hits (40% damage; Pok&eacute;mon B faints)</pre>
+
+<p>while if Pok&eacute;mon B is faster, we would have:</p>
+
+<pre>Pok&eacute;mon B hits (70% damage)
+Pok&eacute;mon A hits (60% damage)
+Pok&eacute;mon B hits (30% damage; Pok&eacute;mon A faints)</pre>
+
+<p>In the first scenario, even though Pok&eacute;mon A hits for less damage than Pok&eacute;mon B over one turn, its superior Speed allows it to still beat it over two turns. This is ample proof that a good Speed stat allows a Pok&eacute;mon to be more offensive over several turns. Because of this, the Sweepiness formula combines the Attack (or Special Attack) of the Pok&eacute;mon with the Speed of the Pok&eacute;mon in question. Before this is done, however, the base Speed stat is first converted into a number corresponding to the probability that the Pok&eacute;mon is faster than the foe.</p>
+
+<p>Thus we have the Tankiness of a Pok&eacute;mon that combines its base HP with its base Defense or Special Defense, and the Sweepiness of a Pok&eacute;mon that combines its base Speed with its base Attack or Special Attack. In effect, we are converting a Pok&eacute;mon's six Base Stats into four, more meaningful, stats.</p>
+
+<h2>Overall Rating of a Pok&eacute;mon's Base Stats</h2>
+
+<p>We can naturally define the Overall Rating of the Base Stats of a particular Pok&eacute;mon simply by finding the average of its Physical Tankiness, Special Tankiness, Physical Sweepiness and Special Sweepiness. However, such an attempt is fraught with the danger of producing a skewed rating unless we first make our four stats have the same mean and standard deviation. This is the reason why, recently, the Base Stats Ratings of Pok&eacute;mon were improved from the previous version; the previous formulae did not take this into account, and thus had much more complicated equations to try to curb this discrepancy. The newer versions are not only better, but also much simpler, needing only the addition, subtraction, multiplication and division operators to perform.</p>
+
+<p>Consulting a basic statistics textbook tells us that changing the mean and standard deviation of a set of data is not difficult to do at all. If we subtract each value in a set of data by their mean, or average, and then divide them by the standard deviation of the data, the result is always an equivalent set of data that has an average of zero and a standard deviation of one. After doing this, it is easy to convert the set of data yet again to an equivalent one having a different mean and standard deviation, by first multiplying each value by the new standard deviation and then adding the new mean to them.</p>
+
+<p>The above is thus done to the set of all Physical Tankinesses of each Pok&eacute;mon, all Special Tankinesses, all Physical Sweepinesses, and all Special Sweepinesses separately, to obtain values that have an average of 100 and a standard deviation of 50.</p>
+
+<p>Another advantage of doing this is that such data immediately makes it clear whether or not a particular stat is good or not. In statistics, the 'distance' that a particular value in the data is to its average value is a measure of how high or low that value is. In general, if a value is within one standard deviation away from the mean, it is considered average. Below this region lie values that are below average, and above this region lie values that are above average. For example, if a set of data has an average of 100 and a standard deviation of 50, like our data, then the value '190' is very good, because it is 1.8 standard deviations above the mean [(190 - 100) / 50 = 1.8], while the value '10' is very bad, because it is 1.8 standard deviations below the mean [(10 - 100) / 50 = -1.8].</p>
+
+<p>After this is done, the Overall Rating of a Pok&eacute;mon's Base Stats is found just by finding the average of the four stats changed into a mean of 100 and a standard deviation of 50. This Overall Rating is then also given the same treatment as the Tankiness and Sweepiness stats so that we can reason about how good or bad it is. We convert all the Overall Ratings so that their average is 200 and their standard deviation is 100.</p>
+
+<h2>The Mathematical Details</h2>
+
+<p>The formulae used to find the Physical Tankiness, Special Tankiness, Physical Sweepiness, Special Sweepiness and Overall Rating are the following:</p>
+
+<pre>
+Physical Tankiness PT = RPT / 417.5187 - 18.9256
+Special Tankiness ST = RST / 434.8833 - 13.9044
+Physical Sweepiness PS = RPS / 1.855522 - 4.36533
+Special Sweepiness SS = RSS / 1.947004 + 4.36062
+Overall Rating = (PT + ST + PS + SS) / 1.525794 - 62.1586</pre>
+
+<p>RPT, RST, RPS, and RSS are the values for Physical Tankiness, Special Tankiness, Physical Sweepiness and Special Sweepiness respectively before being changed into values having a mean of 100 and standard deviation of 50. More information about the latest Base Stats Ratings formulae can be gathered from the CAP forum, particularly <a href="http://www.smogon.com/forums/showthread.php?t=64133">this thread</a>.</p>
+
+<p>If you require much more in-depth mathematical information about Base Stats Ratings, you can read <a href="http://users.smogon.com/X-Act/sweeptank_stats_ratings.pdf">this PDF document</a>. Note, however, that it is written in a formal mathematical fashion, and is based on Version 1 of the Base Stats Ratings, though most of the details hold also for the latest, Version 2.</p>
+
+<h2>Finding the Base Stats Ratings of Pok&eacute;mon</h2>
+
+<p>If you want to find the Base Stats Ratings of any Pok&eacute;mon, you have three options. The first one is simply to plug in your Base Stats in the formulae. Alternatively, you can use <a href="http://users.smogon.com/X-Act/BaseStatsRatings.html">this Java Applet</a>. The Java Applet provides a phrase for each stat it gives, commenting on how good or bad it is.</p>
+
+<p>Finally, you can download <a href="http://users.smogon.com/X-Act/Base%20Stats%20Ratings.zip">this .ZIP file</a> containing an Excel file with the Base Stats Ratings of all Pok&eacute;mon.</p>
+
+<table id="smogfooter">
+<tr>
+<td class="left"><a href="doubles">&laquo; Previous Article</a></td>
+<td class="middle"><a href="/smog/issue5/">Home</a></td>
+<td class="right"><a href="gimmicks">Next Article &raquo;</a></td>
+</tr>
+</table>

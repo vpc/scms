@@ -1,0 +1,144 @@
+[title]
+Voodoom
+[head]
+<link rel="stylesheet" type="text/css" href="/media/dex/dex.css" />
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_template.js"></script>
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_database.js"></script>
+[header]
+[page]
+<script language="JavaScript">
+document.write(strategyTabs("Voodoom"));
+document.write(topHeaderInfo(Voodoom()));
+</script>
+
+<h2>Overview</h2>
+
+<h4>DPP</h4>
+
+<p>Voodoom, the progeny of black magic and dollhouse play friends, can come in on many of the common Pokemon in DPP OU and immediately pose a serious threat. With nearly perfect type coverage in his STAB moves, resisted only by Toxicroak and Heracross, Voodoom can be annoyingly difficult to break without sacrificing a Pokemon or repeatedly predicting perfectly. Defensively, Voodoom is very difficult to OHKO on account of his few weaknesses and respectable bulk.</p>
+
+<p>Despite his many advantages, Voodoom is a fairly average Pokemon. His Special Attack stat isn't spectacular, his mediocre defenses let him be 2HKOed by most neutral offensive attacks, and his attacking options really don't give him the vast super effective coverage offensive Pokemon crave. Despite how average he is, Voodoom is still a difficult Pokemon to handle for many Pokemon and is easily capable of a late-game sweep against teams that have been appropriately weakened.</p>
+
+<script language="JavaScript">
+var set = new CAPSet();
+set.name = "DPP Pain Split";
+set.move[1] = "Pain Split";
+set.move[2] = "Taunt";
+set.move[3] = "Aura Sphere";
+set.move[4] = "Dark Pulse";
+set.item = "Life Orb";
+set.ability = "Volt Absorb";
+set.nature = "Timid";
+set.evs.HP = 4;
+set.evs.SpA = 252;
+set.evs.Spe = 252;
+document.write(composeSet(set));
+</script>
+
+<p>With Pain Split at his disposal combined with Taunt, Voodoom can eventually work his way through Blissey, a feat few special attackers can legitimately claim. In addition to faring decently against Blissey, Taunt lets this set serve as a relatively effective stallbreaker in general if Skarmory can be eliminated. Pain Split can be used to keep Voodoom healthy and Taunt can keep defensive Pokemon from crippling Voodoom with Toxic or healing themselves. Aura Sphere and Dark Pulse are staple STAB moves on Voodoom for completing his neutral type coverage and hitting hard.</p>
+
+<p>The EV spread is straightforward for a special attacker. Timid is chosen for the nature with 252 Speed EVs so that Voodoom at worst Speed ties with Gengar and opposing Voodoom. It may be tempting to run Substitute over Taunt, but Voodoom does not run SubSplit very effectively, since he is neither immune to Seismic Toss nor able to create 101 HP Substitutes. For these reasons, Taunt is generally better than Substitute.</p>
+
+<p>Heracross is a major thorn in the side of this set, as he can come into any of Voodoom's moves and threaten to OHKO back with Close Combat. For this reason, this set absolutely needs to be paired with Zapdos or Rotom-A. Zapdos and Rotom-A also resist Voodoom's only two weaknesses, turning this into a match made in heaven. Because of Voodoom's neutral coverage, pretty much anything can be hit hard by one of his attacks. Despite that, faster Pokemon such as Starmie or Choice Scarf Tyranitar with Superpower can switch into a resisted attack and do massive damage to Voodoom. Having a good switch-in to these offensive threats is important; Starmie can be dealt with by a bulky Kingdra, which is also able to revenge kill Choice Scarf Tyranitar if Kingdra is healthy.</p>
+
+<script language="JavaScript">
+var set = new CAPSet();
+set.name = "DPP Mixed Attacker";
+set.move[1] = "Aura Sphere";
+set.move[2] = "Dark Pulse";
+set.move[3] = "Close Combat";
+set.move[4] = ["Taunt", "Hidden Power Ice", "Pain Split"];
+set.item = "Life Orb";
+set.ability = "Volt Absorb";
+set.nature = ["Naive", "Hasty"];
+set.evs.Atk = 84;
+set.evs.SpA = 172;
+set.evs.Spe = 252;
+document.write(composeSet(set));
+</script>
+
+<p>While most special attackers have to rely either on Trick, some strange gimmick, or teammates to break through the immense special walls of OU, Voodoom is blessed with something else entirely: STAB Close Combat. Voodoom's Attack stat is nothing to write home about, but with a bit of investment can be tailored to OHKO even the bulkiest of Blissey.</p>
+
+<p>Aura Sphere and Dark Pulse return as the core of Voodoom's special attacking coverage, while Close Combat is used to punch through Blissey and Snorlax with ease. Either Taunt or Hidden Power Ice can be used in the last slot to help Voodoom stop healing and status or hit opposing Dragonite very hard, respectively. Pain Split can be used to give Voodoom some small measure of healing to offset Life Orb recoil.</p>
+
+<p>Voodoom's Speed stat is one of his greatest assets, so taking advantage of it with 252 Speed EVs and a boosting nature is necessary here. While the Attack EVs cut away from Voodoom's Special Attack stat, 84 Attack EVs guarantee a OHKO on 252 HP / 252 Def Bold Blissey after Stealth Rock and one round of sandstorm damage. The rest of the EVs are placed in Special Attack so that Voodoom can sweep once he's past Blissey. The choice of a Naive or Hasty nature depends upon whether you want Voodoom to take physical or special hits better. Life Orb is the item used on this set to guarantee the necessary KOs, particularly against Blissey, and to boost Voodoom's only slightly above average attack damage. Baton Pass can be used in the last slot over the other options as a means of scouting and also keeping a chain alive. With the means to get through most walls, this Voodoom can serve as a useful pivot for Baton Pass teams.</p>
+
+<p>Heracross is especially deadly to this Voodoom, as Voodoom lacks maximum investment in either attacking stat. For this reason, Zapdos returns as a premier teammate. Zapdos also really appreciates Voodoom's ability to crush Blissey with Close Combat, which enables Zapdos to function better. Because the Attack EVs are based around needing one layer of an entry hazard to OHKO Blissey, it's absolutely critical that something be set up on your opponent's side of the field. Skarmory makes an excellent partner for setting up Spikes with its immense bulk and ability to check some variants of Heracross well. Skarmory can also set up Stealth Rock if your team absolutely needs him to. When using entry hazards like this, Rotom-A becomes an excellent teammate to consider. Rotom-A can take Heracross's STAB attacks with relative ease, block Rapid Spin, and take advantage of the entry hazards with an offensive Life Orb set.</p>
+
+<script language="JavaScript">
+var set = new CAPSet();
+set.name = "DPP Substitute";
+set.move[1] = "Substitute";
+set.move[2] = ["Toxic", "Thunder Wave"];
+set.move[3] = "Aura Sphere";
+set.move[4] = "Dark Pulse";
+set.item = "Leftovers";
+set.ability = "Volt Absorb";
+set.nature = "Timid";
+set.evs.HP = 4;
+set.evs.SpA = 252;
+set.evs.Spe = 252;
+document.write(composeSet(set));
+</script> 
+
+<p>While Voodoom is typically a very direct sweeper, he can lure in and cripple many Pokemon by using a combination of Substitute and one of his status options. Typical Voodoom switch-ins include specially bulky Water-type Pokemon, such as Vaporeon or Suicune, as well as very fast attackers that can threaten Voodoom out with a powerful attack. By using Substitute, Voodoom scouts for these Pokemon, and can then use either Toxic or Thunder Wave to put them out of commission for the rest of the battle.</p>
+
+<p>Substitute is the namesake of the set, making it kind of a big deal to actually have. For the status option that Voodoom uses, both Toxic and Thunder Wave have their advantages against different Voodoom switch-ins. Toxic does a number on bulky Water-type Pokemon, including Wish support Vaporeon, non-Rest Suicune, and even Swampert. Thunder Wave, on the other hand, will utterly cripple Choice Scarf Tyranitar, Gengar, and Dragonite. In the last two slots, Aura Sphere and Dark Pulse make a showing as Voodoom's obligatory STAB moves for coverage and general power.</p>
+
+<p>The EVs are fairly straightforward, and maintain Voodoom's ability to create 5 Substitutes in a row from full HP should the need arise. 252 Speed and Special Attack EVs with a Timid nature allow Voodoom to abuse its excellent type coverage and Speed stat to their full effect. Leftovers prevent Voodoom from wearing himself out as he attacks from under a Substitute, although Life Orb can still be used for substantially improved damage output at the cost of Voodoom's longevity.</p>
+
+<p>Unfortunately, if Voodoom uses Toxic, Heracross is still going to be a major pain. Thunder Wave at least hurts Heracross to some extent, but will still provide the Guts boost that makes his attacks that much more powerful. Partnering this Voodoom with Zapdos or Rotom-A to deal with Heracross is incredibly important. As this set is effective at luring and eliminating bulky Water-type Pokemon and Zapdos with Toxic, Pokemon that take advantage of their removal are great teammates. Dragon Dance Gyarados, for example, will happily sweep with these critical threats removed. Gyarados can also come in on the Fighting-type attacks that Voodoom will lure. Infernape makes a good offensive partner for this Voodoom not for type synergy, but for being able to exploit the removed Water-types, like Vaporeon, with mixed attacking sets.</p>
+
+<script language="JavaScript">
+var set = new CAPSet();
+set.name = "DPP Baton Pass";
+set.move[1] = "Baton Pass";
+set.move[2] = "Bulk Up";
+set.move[3] = "Taunt";
+set.move[4] = ["Night Slash", "Low Kick"];
+set.item = "Leftovers";
+set.ability = "Volt Absorb";
+set.nature = "Jolly";
+set.evs.HP = 252;
+set.evs.Atk = 4;
+set.evs.Spe = 252;
+document.write(composeSet(set));
+</script> 
+
+<p>Pure Baton Pass Voodoom might seem bizarre on paper, but he fills such an important niche that it's almost a sin to pass him up. Voodoom is the second fastest Pokemon after Floatzel that can Baton Pass Bulk Up to his teammates, and is the only useful one that can do it outside of the Uber tier, where Mew resides. Coupled with a brilliant support move in Taunt and a key immunity to Electric-type attacks, Voodoom is an excellent choice for supporting a Baton Pass team.</p>
+
+<p>Baton Pass is the crux of this set, and Bulk Up is what Voodoom excels at passing. Taunt allows Voodoom to thwart your opponent's attempts to Taunt or phaze your Baton Pass chain. In the last slot, an attacking move for Voodoom to abuse the Bulk Up boosts and simultaneously not be Taunt bait for faster Taunters, like Aerodactyl, is important. Night Slash is the preferred attacking option because nothing is immune to it, while Low Kick can be very useful if your team needs that specific coverage.</p>
+
+<p>This Voodoom uses 252 HP EVs and 252 Speed EVs to serve as a very fast tank. Even without any Speed boosts passed to him, Voodoom is still very quick and can manage to set up against many would-be physical checks. Since this set is aiming to Bulk Up and Baton Pass boosts, massive Attack EV investment isn't necessary. Leftovers are used on this set to give Voodoom some added durability and outlast weaker physical attackers.</p>
+
+<p>This set can be used effectively on a dedicated Baton Pass chain or as a shallow pass to immediately powerful physical attackers. In a Baton Pass chain, partners like Vaporeon that benefit from Defense boosts, can set up Substitute, and lure Electric-type attacks for Voodoom to get in on are good to consider. Gliscor is also a great partner, as it resists Fighting-type attacks, receives the Defense boosts well, and can boost your chain's Speed with Rock Polish. For shallow passing, recipients like Dragon Dance Gyarados, Dragon Dance Dragonite, and Agility Metagross are great to consider. These Pokemon can boost their own Speed and receive the Attack and Defense boosts from Voodoom extremely well. In such shallow Baton Passing cases, dual screen support is very useful for letting both Voodoom and the recipient pick up the necessary boosts to fully sweep the opposing team.</p>
+
+<h2>Team Options</h2>
+
+<h4>DPP</h4>
+
+<p>Voodoom's typing, movepool, and coverage really set it up to be a perfect partner for either of the following two Pokemon: Zapdos and Rotom-A. Zapdos's durability and general ability to take advantage of Voodoom's sweep, along with his resistance to both of Voodoom's weaknesses, make him an excellent teammate to consider. Rotom-A functions similarly, boasting one better than Zapdos with its immunity to Fighting-type attacks. Rotom-A's lack of reliably recovery and vulnerability to being Pursuited usually make Zapdos the better partner, though Voodoom perfectly covers Rotom-A's Dark- and Ghost-type weaknesses, whereas Voodoom doesn't resist Zapdos's Ice-type weakness.</p>
+
+<p>Outside of Voodoom's soul mates, Zapdos and Rotom-A, many Pokemon appreciate the support Voodoom provides. Voodoom can switch into and crush Jolteon thanks to Volt Absorb and a resistance to Shadow Ball, so Gyarados loves having him around. Both of Gyarados's weaknesses to Rock- and Electric-type attacks are covered by Voodoom, while Gyarados in return covers Fighting-type attacks for Voodoom. Infernape makes a good offensive partner that can capitalize on many of the holes Voodoom knocks into a team.</p>
+
+<p>Voodoom loves layers of entry hazards. Stealth Rock really hinders Flying-type Pokemon that can survive Aura Sphere followed by Dark Pulse, such as Dragonite, opposing Zapdos, and Gyarados. With Spikes support alongside Stealth Rock, however, Voodoom can sweep very successfully. Of all Spikes users, Skarmory generally pairs the best with Voodoom. Skarmory's handy resistances, Whirlwind to rack up some residual damage, and ability to lure Electric-type attacks for Voodoom to switch into all make him a solid partner.</p>
+
+<h2>Other Options</h2>
+
+<h4>DPP</h4>
+
+<p>Unbelievably, Voodoom actually has a rather modest movepool for a CAP. Voodoom can run Vacuum Wave on any set to take advantage of the powerful STAB priority move, although with Voodoom's Speed, Aura Sphere is generally the preferred option. Psychic is a decent option for surprising and maiming Heracross, which generally walls Voodoom completely. The loss of one of Voodoom's STAB attacks or support moves is generally crippling to a set, however. Physical sets focusing on Substitute and Focus Punch or Bulk Up sweeping may look nice at first, but Voodoom's Attack stat is unfortunately underwhelming for such a role. Lastly, Acupressure is cute and can be useful at times, but is generally unreliable.</p>
+
+<h2>CAP Metagame</h2>
+
+<h4>DPP</h4>
+
+<p>Voodoom is a pretty unfortunate casualty of the CAP metagame. He has a few useful niches, such as being able to OHKO Colossoil with Aura Sphere while 4x resisting Sucker Punch, but these don't make up for his general shortcomings. Voodoom can also serve as a one-time check to offensive Stratagem with his respectable bulk, but gets worn down too quickly compared to better checks in Bulk Up Revenankh. Speaking of Revenankh, he sets up with impunity on Voodoom lacking Taunt, while even staying in to Taunt is risky since Hammer Arm OHKOes Voodoom. Pyroak's massive special bulk walls Voodoom, especially with Leech Seed keeping him healthy. Fidgit can take hits like a champ, is immune to both Thunder Wave and Toxic, and can set up on Voodoom with ease should Fidgit have Wish. Basically, while Voodoom is a good Pokemon, there are much better choices for all of his jobs in CAP, and he really lacks the raw offensive power to punch through the bulky CAP threats.</p>
+
+<h2>Counters</h2>
+
+<h4>DPP</h4>
+
+<p>When Voodoom hits the field, there is only one Pokemon that can switch into any of the typical sets and take him out: Heracross. Heracross has respectable special bulk, resists both of Voodoom's STABs, and has STAB Close Combat with which to OHKO Voodoom. Furthermore, even Substitute Voodoom will hesitate to use status moves against Heracross, as Guts will skyrocket his attack power to well over 9000.</p>
+
+<p>Outside of Heracross, the easiest way to deal with Voodoom is with bulky and faster Pokemon packing super effective moves. Most of these Pokemon resist one of Voodoom's STAB attacks, but are weak to the other. Choice Scarf Tyranitar, for instance, can switch safely into Dark Pulse and OHKO back with Superpower, but is maimed by Aura Sphere. Similarly, Life Orb Starmie can switch into Aura Sphere and do massive damage with Hydro Pump. Gengar and your own Voodoom can switch into Aura Sphere and Dark Pulse, respectively, but must risk a Speed tie to hit with their super effective attacks. Togekiss is also an excellent response to Voodoom with its massive special bulk and powerful Air Slash, but must be wary of Toxic variants if not packing Heal Bell. In addition to these Pokemon, Choice Scarf Pokemon with decent bulk, useful resistances, or both can switch into Voodoom and do serious damage; good candidates for this role include Heatran, Jirachi, and Shaymin.</p>

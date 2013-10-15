@@ -1,0 +1,100 @@
+[title]
+Attaques de priorité
+[head]
+<meta name="description" content="priorites" />
+
+[page]
+<div style="float: right; margin-left: 5px;">
+<img src="/forums/picture.php?albumid=748&pictureid=4547" alt="" />
+</div>
+
+ 
+<table class="sortable">
+<thead>
+   <tr>
+   <th>Priority</th>
+   <th>Moves</th>
+   </tr>  
+</thead>
+<tbody>
+   <tr class="a">
+   <td>+7</td>
+   <td>Poursuite (lors d'un switch)</td>
+   </tr>
+   <tr>
+   <td>+6</td>
+   <td>Switch, Rotation dans un Combat Rotatif</td>
+   </tr>
+   <tr class="a">
+   <td>+5</td>
+   <td>Coup D'Main</td>
+   </tr>
+   <tr>
+   <td>+4</td>
+   <td>Abri, Reflet Magik, Saisie</td>
+   </tr>
+   <tr class="a">
+   <td>+3</td>
+   <td>Bluff, D&#233;tection, Garde Large, Par Ici, PoudreFureur, Prevention, T&#233;nacit&#233;</td>
+   </tr>
+   <tr>
+   <td>+2</td>
+   <td>Ruse, Vit.Extreme</td>
+   </tr>
+   <tr class="a">
+   <td>+1</td>
+   <td>Aqua-Jet, Coup Bas, Eclats Glace, Interversion, Mach Punch, Ombre Port&#233;e, Onde Vide, Patience, Pisto-Poing, Vive-Attaque</td>
+   </tr>
+   <tr>
+   <td>0</td>
+   <td>Toutes les autres attaques</td>
+   </tr>
+   <tr class="a">
+   <td>-1</td>
+   <td>Corps Perdu</td>
+   </tr>
+   <tr>
+   <td>-2</td>
+   <td>Aucune</td>
+   </tr>
+   <tr class="a">
+   <td>-3</td>
+   <td>Mitra-Poing</td>
+   </tr>
+   <tr>
+   <td>-4</td>
+   <td>Avalanche, Vendetta</td>
+   </tr>
+   <tr class="a">
+   <td>-5</td>
+   <td>Riposte, Voile Miroir</td>
+   </tr>
+   <tr>
+   <td>-6</td>
+   <td>Cyclone, Draco-Queue, Hurlement, Projection</td>
+   </tr>
+   <tr class="a">
+   <td>-7</td>
+   <td>Distorsion, Zone Etrange, Zone Magique</td>
+   </tr>
+</tbody>
+</table>
+ 
+ 
+<p>Chaque niveau de priorit&#233; est consid&#233;r&#233; comme son propre ensemble. Si les deux attaques utilis&#233;es sont de m&#234;me priorit&#233;, c'est la vitesse de chaque Pok&#233;mon qui est prise en compte pour d&#233;terminer l'ordre d'action. Par exemple, la Vive-Attaque d'un Pok&#233;mon plus rapide agira avant la Vive-Attaque d'un Pok&#233;mon plus lent. Cependant, si les priorit&#233;s des deux attaques sont diff&#233;rentes, alors la priorit&#233; la plus &#233;lev&#233;e agira en premier, par exemple Vive-Attaque sera toujours avant Charge, peu importe la Vitesse des Pok&#233;mon.</p>
+ 
+<p>Distorsion inverse l'ordre d'action des attaques &#224; m&#234;me priorit&#233;. Par exemple, lorsqu'un Pok&#233;mon avec 3 de Vitesse affronte un Pok&#233;mon avec 10 de Vitesse, celui avec 10 de Vitesse devrait normalement agir en premier, mais sous Distorsion c'est celui avec 3 qui ira en premier. Les priorit&#233;s sup&#233;rieures passent toujours avant les priorit&#233;s inf&#233;rieures. Les Pok&#233;mon avec Encens Plein, Frein ou Ralentiqueue ignorent les effets de Distorsion, et agiront toujours en dernier selon l'ordre d&#233;fini plus haut. les Pok&#233;mon avec Vive Griffe ignorent aussi Distorsion, l'activation de Vive Griffe vous fait toujours agir en premier, et si deux Pok&#233;mon activent Vive Griffe, alors c'est le plus rapide qui agira en premier.
+ 
+<p>Vive Griffe donne 20% de chances &#224; votre Pok&#233;mon d'ignorer la Vitesse et d'&#234;tre premier de son ensemble de priorit&#233;, &#224; moins que deux Pok&#233;mon activent leur Vive Griffe, auquel cas c'est la Vitesse qui d&#233;terminera leur ordre d'action. Une attaque &#224; priorit&#233; inf&#233;rieure ne passera jamais avant une priorit&#233; sup&#233;rieure, m&#234;me avec une Vitesse sup&#233;rieure ou une Vive Griffe (ce qui fait qu'un Deoxys-S activant sa Vive Griffe et utilisant Riposte passera apr&#232;s un Caratroc avec Brac. Macho utilisant Piqure). La Baie Ch&#233;rim place automatiquement votre Pok&#233;mon en haut de son ensemble de priorit&#233; lorsqu'elle s'active.</p>
+ 
+<p>Encens Plein, Frein et Ralentiqueue font toujours passer le Pok&#233;mon en dernier si les deux Pok&#233;mon utilisent une attaque de m&#234;me priorit&#233;. Si deux Pok&#233;mon avec Frein sont face &#224; face, celui avec la Vitesse la plus &#233;lev&#233;e ira en dernier. Si deux Pok&#233;mon tiennent Encens Plein ou Ralentiqueue au m&#234;me moment, celui avec la Vitesse la plus &#233;lev&#233;e ira en dernier. Si un Pok&#233;mon tenant Encens Plein / Ralentiqueue est contre un Pok&#233;mon avec Frein, celui avec Encens Plein / Ralentiqueue agit en dernier. Si un Pok&#233;mon avec Frein active Vive Griffe, ce Pok&#233;mon passera en premier, en dehors d'un Pok&#233;mon plus rapide activant sa Vive Griffe.</p>
+ 
+<p>Poursuite agit juste avant un switch lorsqu'il a lieu, et sa puissance est alors doubl&#233;e. Si un Pok&#233;mon utilise Relais et que le poursuiteur (le Pok&#233;mon utilisant Poursuite) est plus rapide, le Pok&#233;mon relayeur prend les d&#233;g&#226;ts normaux de l'attaque. Si un Pok&#233;mon utilise Relais et que le poursuiteur est plus lent, le Pok&#233;mon relay&#233; prend les d&#233;g&#226;ts normaux. Si un Pok&#233;mon utilise Demi-Tour et que le poursuiteur devrait agir avant, le Pok&#233;mon utilisant Demi-Tour subit les d&#233;g&#226;ts normaux. Si un Pok&#233;mon utilise Demi-Tour et que le poursuiteur devrait agir apr&#232;s, le Pok&#233;mon utilisant Demi-Tour subit des d&#233;g&#226;ts doubl&#233;s, et ensuite choisit un Pok&#233;mon &#224; switcher, qui ne prend aucun d&#233;g&#226;t. (Cet effet s'inverse sous Distorsion, et il faut donc que le poursuiteur soit plus rapide que le Pok&#233;mon cible pour que les d&#233;g&#226;ts soient doubl&#233;s). ChangeEclair fonctionne de la m&#234;me mani&#232;re que Demi-Tour.
+ 
+<p>Le message de chargement de Mitra-Poing appara&#238;t toujours en premier, m&#234;me avant le switch d'un Pok&#233;mon.</p>
+ 
+        </div>
+        </td>
+        </tr>
+        </table>
+  </div>

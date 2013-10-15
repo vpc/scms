@@ -1,0 +1,108 @@
+[title]
+BW RNG Manipulation Guide Part 5 - How to Hatch Shiny (and Perfect) Pokemon
+[head]
+<meta name="description" content="BW RNG Manipulation Guide Part 5 - How to Hatch Shiny (and Perfect) Pokemon" />
+[page]
+<div class="author">By <a href="/forums/member.php?u=76392">Hozu</a>.</div>
+
+<ul class="toc">
+<li><a href="bw_rng_intro">The BW RNG Manipulation Guide</a></li>
+<li><a href="bw_rng_part1">BW RNG Manipulation Guide Part 1 - Common Information for Breeding, Capturing, and Receiving Perfect Pokemon</a></li>
+<li><a href="bw_rng_part2">BW RNG Manipulation Guide Part 2 - How to RNG a Perfect Pokemon</a></li>
+<li><a href="bw_rng_part3">BW RNG Manipulation Guide Part 3 - How to Capture Perfect and / or Shiny Pokemon by Controlling the PIDRNG</a></li>
+<li><a href="bw_rng_part4">BW RNG Manipulation Guide Part 4 - How to Abuse your IDs</a></li> 
+<li><a href="bw_rng_part5">BW RNG Manipulation Guide Part 5 - How to Hatch Shiny (and Perfect) Pokemon</a>
+<ul>
+<li><a href="#find">Finding Seeds for Breeding</a></li>
+<li><a href="#use">Using the Seed in the Main Window</a></li>
+<li><a href="#hit">Hitting your Seed and Target Spread</a>
+<ul>
+<li><a href="#without">Without Audible Chatot Pitches</a></li>
+<li><a href="#with">With Audible Chatot Pitches</a></li>
+</ul>
+</li>
+<li><a href="#adjacent">The Adjacent Seed Tool</a></li>
+</ul>
+</li>
+<li><a href="bw_rng_part6">BW RNG Manipulation Guide Part 6 - Receiving Perfect Wondercard Pokemon</a></li>
+<li><a href="bw_rng_part7">BW RNG Manipulation Guide Part 7 - Capturing Perfect Roaming Pokemon</a></li> 
+</ul>
+
+
+<p>In the 5th generation, Eggs are fully generated upon taking it from the Day-Care man. This means that you cannot lock in the PID as you could in 3rd or 4th generation titles. However, this means that RNG abusing an Egg happens all in one shot. <strong><u>Note: that Egg RNG abuse in Black 2 and White 2 is not possible, nor will it ever be.</u></strong></p>
+
+<p>Before we begin, there are certain things that should be made clear:</p>
+
+<ul>
+<li>If you are using a Ditto, it will be considered the opposite gender as the other parent.</li>
+<li>If you are using a Ditto with a genderless Pokémon, the Ditto will be considered the mother, while the genderless parent is considered the father.</li>
+<li>A Ditto parent prohibits Hidden Abilities from passing on, even if the mother has the Hidden Ability.</li>
+<li>If you are using two Shellos/Gastrodon parents, the baby will have the same form as the mother.</li>
+<li>If you are using a Shellos/Gastrodon and a Ditto as the parents, the baby will have the same form as the Shellos/Gastrodon.</li>
+<li>International parents refers to the Pokémon originating from saves that are of different languages. It has nothing to do with being a different language from your save file itself. If you are breeding two Japanese Pokémon on your English game cart, they would NOT be considered international parents.</li>
+<li>If you plan on trading the Egg to hatch shiny on another save file, you cannot use international parents. The Masuda Method checks for shiny against the TID/SID of the game the Egg will be received on, not the game it will be hatched on.</li>
+</ul>
+
+<h2><a name="find">Finding Seeds for Breeding</a></h2>
+
+<p>On the main window of RNG Reporter, click on the Time Finder button, then 5th Generation Time Finder to open a new window. On that window, click on the Eggs tab to bring up the following window:</p>
+
+<img src="/media/upload/ingame/rng/bw_breeding_1.png" alt="5th Gen Time Finder Eggs Window" />
+
+<p>The first thing to do is select the correct profile at the very top of the window. Then, fill in the relevant information regarding the parents (IVs, nature of the Pokémon holding the Everstone, Ditto parent, and International parents) on the left side. While it is not required to enter all of the IVs for the parents, the more you know about them the easier it will be to find the spread you hit.</p>
+
+<p>Since I am using a male Modest East Sea Gastrodon and a Hardy Ditto in this guide, I will enter the IVs of the Ditto in the Mother IVs spot, and the Egg will have the matching form of the Gastrodon father. Neither of my parents have the nature I want the baby to have, so I will not be using an Everstone.</p>
+
+<p>In the middle, enter the IVs you want for the baby (note that leaving an IV box blank makes it count as 0). On the right, enter the relevant other information you want for the baby. I want a Quiet Storm Drain Shellos, so I select Quiet nature and Ability 1 (refer to the Pokédex-IV Checker tool from the main window of RNG Reporter if you're unsure as to which ability is which). Leave the Shiny Charm checkbox unchecked as it does not exist in Black and White. As for the date in the top-left, that is entirely your preference. Min/Max advances is the amount of PIDRNG advancements from the initial frame that would have to be advanced. This is also your preference, though the random NPC in the area means that the minimum should be at least 10.</p>
+
+<p>Once you have everything entered, hit the Generate button and RNG Reporter will eventually find your results. If you do not find anything then either change your date, number of keypresses in Profiles, or get better parents. If you do get results, it should look like this:</p>
+
+<img src="/media/upload/ingame/rng/bw_breeding_2.png" alt="5th Gen Time Finder Eggs Window Result" />
+
+<p>Move the scroll bar to the right to see the date/time information for each seed. Note that this window does not display information as to the gender of Nidoran, or Volbeat/Illumise. If the mother does not have a Hidden Ability, or you're using a Ditto parent, disregard the Dream Ability column both here and on the main window.</p>
+
+<p>Once you find a spread you like, you can move onto the main window. At this point you should deposit both parents into the Day Care. Order does not matter, and make sure that the correct parent has the Everstone if applicable, and neither parent should be holding a Power item. Get two Chatot in your party, and set their custom Chatter. Having some Rare Candies on hand will help out when you have to do manual IV calculation for when you do not get your target spread. Run around until the Day-Care Man is holding an Egg, go next to him while facing him, and save.</p>
+
+<h2><a name="use">Using the Seed in the Main Window</a></h2>
+
+<p>The first thing that needs to be done is setting the Method. Select Breeding (BW), or if you're using international parents select Breeding (BW, International). Go back to the Time Finder window, right-click on the seed of the spread you want to use, click Copy seed to Clipboard, then paste it into the Seed (hex) box on the main window. You have to select the method prior to pasting the seed or else it will only paste half of the seed. Once you've done that, select the nature of the parent holding an Everstone in the Everstone drop-down box (or leave it as none if not using one), and check the box for Ditto parent if applicable. Click on Calculate Initial PIDRNG Frame, then click Generate. You should get something like this:</p>
+
+<img src="/media/upload/ingame/rng/bw_breeding_3.png" alt="RNG Reporter Main Window Breeding BW" />
+
+<p>Note that this is where you'll be able to find out the Nidoran gender and Volbeat/Illumise. If you're using an Everstone nature, you will see that many of the natures there will be in bold, matching the Everstone nature you selected. You're probably wondering how you can figure out what frame you hit if you miss your shiny spread, right? Right click on the results, then select Display Parents in Search...</p>
+
+<img src="/media/upload/ingame/rng/bw_breeding_4.png" alt="RNG Reporter Main Window Display parents IVs" />
+
+<p>Click on Get IVs from IVRNG (frame 8) (note these down somewhere), fill in the IVs for the parents, and click OK. The main window will change to this:</p>
+
+<img src="/media/upload/ingame/rng/bw_breeding_5.png" alt="RNG Reporter Main Window Display parents IVs Results" />
+
+<p>You can see the IVs of the Egg, as well as the characteristic. Gender and Ability (0 vs. 1) are also displayed. If the mother has its Hidden Ability and the other parent is not a Ditto, then a True in the Dream Ability column would override the Ability column. This will allow you to have a much better idea of what frame you actually hit.</p>
+
+<h2><a name="hit">Hitting your Seed and Target Spread</a></h2>
+
+<p>There are two methods you can use to hit your spread. You can use the audible changes in the pitch of the custom Chatters, or you can choose to not use them. There is also the Adjacent Seed Tool to figure out if you're hitting the correct seed. Do not save during this entire process until you successfully RNG abuse your Egg. This means that you will have to check the IVs, nature, gender, and ability manually.</p>
+
+<h3><a name="without">Without Audible Chatot Pitches</a></h3>
+
+<p>Hit your standard seed as usual. When you enter the game, bring up the menu as soon as you possibly can. Check your party, and view the summary of just one Chatot. Do not flip to another Chatot. Exit the summary screen, and go back to the menu. Quickly exit the menu and talk to the Day-Care Man, take the Egg, and hatch it. Check the IVs of the baby, and check the characteristic, and use this information to determine what spread you hit. You should have hit one within the first 10 frames of the initial. This spread will be considered your Shifted Starting Frame (SSF). Do not save after finding out your SSF as saving may cause it to change. Once you have your SSF just do target frame - SSF to get the number of additional advances you need to hit your target spread.</p>
+
+<p>Note that if any of the IVs from the baby do not come from either parent, or the IVRNG frame 8, then you hit the wrong Timer0. For me, if I had ended up with the baby having a defense IV of 20, then I hit the wrong Timer0 because both parents have a defense IV of 31, while the IVRNG frame 8 yielded a defense IV of 6.</p>
+
+<p>In my example, I hatched a Serious female Shellos with the Often Dozes Off characteristic, Sticky Hold (ability 0), and with IVs of 31 / 31 / 4 - 30 / 31 / 0 - 30 / 31. This fits frame 54. My target frame is 81, so 81 - 54 = 27 additional advancements. Since I already did one Chatot pitch advancement to figure out my SSF, I require a total of 28 advancements. So I hit my seed, and did 28 advancements. I took the Egg, and success!</p>
+
+<h3><a name="with">With Audible Chatot Pitches</a></h3>
+
+<p>Hit your standard seed as usual. When you enter the game, bring up the menu as fast as you possibly can. Bring up the summary of a Chatot, then alternate between the two (or go back and forth to a single one). Your goal is to try to match consecutive pitch values from the main window. If you cannot get a match, you probably hit the wrong Timer0. If you do get a match, continue on listening to the Chatter pitches until you reach your target. As a guideline, if you're using a Ditto parent you will want to hear the pitch from the frame two frames before the target. If you're not, then you want to be one frame before the target. If you miss your frame adjust accordingly.</p>
+
+<p>In my example, I noticed that the first pitch started at frame 52. My target frame is 81. Since one of my parents is a Ditto, I advanced until I heard the Chatter pitch from frame 79. I took the egg, then success!</p>
+
+<h2><a name="adjacent">The Adjacent Seed Tool</a></h2>
+
+<p>This is a fairly easy tool to use, though if you're already using the audible Chatter pitches method this tool is redundant. To find it from the main window go to the top and click on 5th Gen Tools, then down to Adjacent Seed Tool. Select Eggs as the method, and fill in the information from your seed. That information is in the 5th Gen Time Finder from the Eggs tab (closing the tab will not clear the data unless you close RNG Reporter itself). One you fill in the information, click on Generate and something like this will show up:</p>
+
+<img src="/media/upload/ingame/rng/bw_breeding_6.png" alt="Adjacent Seed Tool" />
+
+<p>You see that the results start on frame 14. This is because after taking an Egg the IVRNG would be at frame 14 if you immediately capture a Pokémon. So, to use this tool you go capture something as soon as you take the Egg, and go check the IVs. The Adjacent Seed Tool displays more than just the first frame in the event that you would trip the 128 step counter on the way to capturing something.</p>
+
+<p>Take the Egg, fly to Victory Road or any other area with high-leveled Pokémon, and capture anything. Then go check the IVs of the captured Pokémon. You should be able to find it in the Adjacent Seed Tool assuming that you held the correct keypresses. Note that it will show the Chatter pitches along the bottom for whatever seed you have highlighted, but only from the initial PIDRNG frame. If you got a result within the correct Timer0, you can go hatch the Egg. If you didn't, then go shut off your game because you already know that you didn't get your Egg spread.</p>

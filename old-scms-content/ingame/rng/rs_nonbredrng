@@ -1,0 +1,183 @@
+[title]
+Ruby and Sapphire RNG Manipulation of Method 1 Pokemon and TID/SID Guide
+[head]
+<meta name="description" content="An in-depth guide to the RNG manipulation of Method 1 Pokemon and TID/SID in the Pokemon Ruby and Sapphire games." />
+[page]
+<div class="author">Written by <a href="/forums/member.php?u=40064">NixHex</a>.</div>
+
+<ol class=toc">
+<li><a href="#intro">Introduction</a></li>
+<li><a href="#capture">Capturing Perfect pokemon</a>
+<ul>
+<li><a href="#initial">Initial (Monster) Frames</a></li>
+<li><a href="#spreads">Method 1 Spreads (dry battery)</a></li>
+</ul>
+</li>
+<li><a href="#idsid">TID / SID Abuse for Shiny Non-Bred Pokemon</a></li>
+<li><a href="#arbitrary">Arbitrary ID Numbers</a></li>
+<li><a href="#credits">Credits</a></li>
+</ol>
+
+<h2><a name="intro">Introduction</a></h2>
+
+<p>Since the advent of RNG abuse, Pokemon Emerald has been seen as the easiest RNG to manipulate. The fact that it generates an initial seed of 0 at all times makes abuse as simple as finding a desired spread (either in RNG Reporter, emloop, or by looking at readily compiled tables), calibrating your timer; and carefully hitting the seed you are seeking. However, as we know from life, the easy way is not always the best way. There are several spreads in Emerald that are obviously sub-par. In come Ruby and Sapphire to the rescue!</p>
+
+<p>On their own, Ruby and Sapphire are difficult to abuse. They undergo selection processes similar to that of FireRed and LeafGreen, where you must depend on finding common seeds and searching for desirable spreads that arise from those seeds. Of course, this opens up your options, but it is extremely difficult and therefore is out of the scope of this article. Instead, this article will focus on abusing a trait in Ruby / Sapphire that makes abuse just as easy as in Emerald: they too can hit a constant seed! There is one catch, however.</p>
+
+<h2>You may have to dismantle your cartridge.</h2>
+
+<p>In order to generate a constant seed, the Ruby and Sapphire cartridges must have a non-functioning internal battery. This can be achieved in two ways. First, your internal battery may, over time, dry up. Due to the game being out for nearly a decade, this is more common than it sounds, but it takes place after many hours of game play. If you don't feel like waiting for this to happen, you will have to resort to dismantling your cartridge and physically removing the battery. If you are too impatient to wait and you have moral qualms about tampering with your game, you may as well stop here.</p>
+
+<p>Once your battery has been incapacitated in whatever manner you saw fit, it now has a permanent starting seed of 5A0. This is what sets Ruby and Sapphire apart from Emerald. With a different starting seed, we can hit completely different spreads than on Emerald. These spreads happen to be much better at lower frame counts than those in Emerald, hence they are more easily obtainable on a cartridge.</p>
+
+<p>One final question that begs for an answer is why would you bother RNGing in Ruby / Sapphire when I can get flawless legendaries in DPP and HeartGold / SoulSilver? One example is the ability to capture Kyogre and Groudon at a lower level than 50, allowing them to be used at level 49 to gain control of the weather in the now defunct VGC 2010 metagame. Although this is such a tiny niche, it is still possible to play matches from this sort of metagame during a throwback tournament. More importantly, however, is that Registeel only learns Seismic Toss in Emerald and XD, and cannot learn it from any 4th Generation tutors. Therefore, the knowledge presented here is advantageous for obtaining a Seismic Toss Registeel with excellent stats.</p>
+
+<h2><a name="capture">Capturing Perfect Pokemon</a></h2>
+
+<p>Here is a list of obtainable Pokemon with amazing IV spreads in Ruby and Sapphire, provided graciously by user <a href="/forums/member.php?u=76392">Hozu</a>.</p>
+
+<h3><a name="initial">Initial (Monster) Frames</a></h3>
+
+<p>Frames to generate from pressing A:</p>
+
+<ul>
+<li>ID/SID - 75 frames</li>
+<li>Kyogre (Sapphire) - 654 frames</li>
+<li>Groudon (Ruby) - 654 frames</li>
+<li>Rayquaza - 2 frames</li>
+<li>Registeel, Regirock, and Regice - 56 frames</li>
+<li>Beldum - 167 frames</li>
+<li>Latias (Southern Island) - 404 frames</li>
+<li>Latios (Southern Island) - 431 frames</li>
+</ul>
+
+<h3><a name="spreads">Method 1 Spreads (dry battery)</a></h3>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Frame</th>
+<th>Nature</th>
+<th>IVs (HP/Atk/Def/SpA/SpD/Spe)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>38970</td>
+<td>Timid</td> 
+<td>29/14/30/28/29/31</td>
+</tr>
+<tr class="a">
+<td>65705</td> 
+<td>Calm</td> 
+<td>31/9/31/27/31/16</td>
+</tr>
+<tr>
+<td>67878</td> 
+<td>Modest</td> 
+<td>30/13/30/27/27/31</td>
+</tr>
+<tr class="a">
+<td>132519</td>
+<td>Bold</td> 
+<td>31/27/31/27/26/29</td>
+</tr>
+<tr>
+<td>172367</td>
+<td>Timid</td> 
+<td>31/18/28/31/25/31</td>
+</tr>
+<tr class="a">
+<td>181346</td>
+<td>Quiet</td> 
+<td>31/30/27/27/25/1</td>
+</tr>
+<tr>
+<td>194483</td> 
+<td>Adamant</td> 
+<td>31/29/28/31/29/31</td>
+</tr>
+<tr class="a">
+<td>212801</td> 
+<td>Bold</td> 
+<td>30/3/29/30/31/12</td>
+</tr>
+<tr>
+<td>264457</td> 
+<td>Impish</td> 
+<td>31/31/31/26/30/4</td>
+</tr>
+<tr class="a">
+<td>280898</td>
+<td>Quiet</td> 
+<td>28/27/29/27/31/1</td>
+</tr>
+<tr>
+<td>303092</td>
+<td>Brave</td> 
+<td>31/30/31/24/30/0</td>
+</tr>
+<tr class="a">
+<td>318944</td> 
+<td>Jolly</td> 
+<td>31/31/25/0/30/31</td>
+</tr>
+<tr>
+<td>340636</td> 
+<td>Adamant</td> 
+<td>30/30/26/30/27/31</td>
+</tr>
+<tr class="a">
+<td>436151</td> 
+<td>Quiet</td> 
+<td>31/5/25/30/25/1</td>
+</tr>
+<tr>
+<td>454718</td> 
+<td>Impish</td> 
+<td>31/31/30/4/30/28</td>
+</table>
+
+<p>For the actual process of RNGing these Pokemon, follow the steps in the "preparation" and "Calibrating and Soft Resetting" sections of the <a href="/ingame/rng/emerald_rng_part2">Emerald RNG Manipulation of Method 1 Pokemon</a> guide written by <a href="/forums/member.php?u=5962">Arseus</a>.</p>
+
+<h2><a name="idsid">TID / SID Abuse for Shiny Non-Bred Pokemon</a></h2>
+
+<p>ID abuse in Ruby and Sapphire is even easier than in the 4th and 5th generations. In fact, it is just as easy as capturing Pokemon. Why is this so? Because it is identical to Method 1 generation! The TID and SID are generated on one frame, from the time the game turns on to roughly after the name selection screen. Thus, at that time, the IDs generated are:</p>
+
+<p>TID: [PID high]<br />
+SID: [PID low]</p>
+
+<p>If you haven't already seen it, this makes hitting a particular shiny frame extremely simple. You may remember from <a href="/forums/member.php?u=2412">X-Act's</a> guide in PID generation that a Pokemon is shiny if, by stacking the following values:</p>
+
+<p>[PID high (upper 13 bits)]<br />
+[PID low (upper 13 bits)]<br />
+[TID (upper 13 bits)]<br />
+[SID (upper 13 bits)]</p>
+
+<p>Each column contains an even number of 0's (and, by extension 1's). In more technical terms:
+[PIDH] &oplus; [PIDL] &oplus; [TID] &oplus; [SID] ≤ 7 (111). In this case, the values for [PID high] and [PID low] are equivalent to [TID] and [SID], respectively. This means that you are guaranteed to find a shiny Pokemon on the exact frame on which your ID values were generated. Therefore, if you find a desirable IV spread in the lists above, just aim for that frame when you start your adventure. When you encounter that Pokemon in-game, it is guaranteed to be shiny. However, due to different methods of IV generation, an optimal spread generated by Method 1 will not match the spread of a Method H wild Pokemon.</p>
+
+<p>Now, to the exciting part! Here you will finally learn how to obtain your desired ID numbers. The SID\TID are generated shortly after pressing A after the message "Well, I'll be expecting you later. Come see me in my Pokemon Lab." appears and your character sprite turns white and fades away. The exact moment is shown here:</p>
+
+<div style="text-align: center;"><img src="/media/upload/ingame/rng/gameentry.png" alt="" /></div>
+
+<p>You will have to calibrate based on what frame you actually hit in order to get the exact time at which to press A. Calibration is extremely simple as shown by the following steps:</p>
+
+<ol>
+<li>First, press A at the exact frame of your desired SID\TID.</li>
+<li>When you gain control of your character for the first time, press Start and go to your character's name in the menu to check the Trainer ID.</li>
+<li>Convert the Trainer ID to hexadecimal using Windows's calculator application (in Programmer mode), Mac's calculator application, or any decimal to hex calculator online and you should receive a 4 digit hexadecimal representation of your Trainer ID. If it is less than 4 digits, insert enough 0's behind the given number to make 4 digits. For example, if your hex number is A7C, simply insert a 0 before A, making the representation 0A7C.</li>
+<li>Go to the main screen in RNG Reporter, choose Method 1, and use a seed of 5A0. Set the Starting Frame to Target Frame - 300, and set Max Results to 600. This will give you a reasonable window of results should you hit an earlier or later frame.</li>
+<li>Manually search the PID column for a number whose lowest 4 digits equal the hex number you calculated above. For example, if your calculated hex number was 0A7C, search for a PID of XXXX0A7C, where the left-most digits XXXX can be anything.</li>
+<li>Note what frame this ID lands on and subtract from it the desired frame number. This number represents the delay between the time when you will press A and the actual ID generation.</li>
+<li>Now, subtract this value from your desired frame number. This is your new delay, and represents the exact moment at which you will press A.</li>
+<li>After a few tries, you should end up with your desired ID numbers. From now on, when you encounter a Pokemon on this frame, it will be shiny and will have the desired nature and IVs. You can verify this by RNGing your starter on this frame.</li>
+</ol>
+
+<h2><a name="arbitrary">Arbitrary ID Numbers</a></h2>
+
+<p>Say you don't care about receiving a specific shiny Pokemon but would rather have a cool Trainer ID? This requires a little more work, but it's definitely possible. First, convert your desired TID or SID to hexadecimal. In this case, we will use a Trainer ID of 311, representing the best band in the world, 311. This number in hex representation is 137; pad it with one zero as described in the above calibration process, and we receive 0137. Right click the list of seeds and choose Output to Text and save it to something easy to remember like rsids.csv. Next, open it in Microsoft Excel or another program that views CSV files. It may ask you a few questions about delimiting. This is to make sure that the values in the CSV file are in the correct format to arrange the data in cells correctly. Click Next, then Finish, and the table will be generated for you. Click at the top of the PID column (it should be column E), hit Ctrl+F, and type in 0137, then Find All. As we can see, frame 12787 contains the PID 540A70137, whose PID low matches 0137, our desired ID.</p>
+
+<h2><a name="credits">Credits</a></h2>
+
+<p>Hozu and GoldenBanana provided lists of viable spreads and monster delay frames for each legendary. OmegaDonut, Bond697, Kaphotics, chiizu, ToastPlusOne, and countless other researchers provided the technical aspects that made this guide possible.</p>

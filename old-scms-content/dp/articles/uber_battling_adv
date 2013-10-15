@@ -1,0 +1,426 @@
+[title]
+Advanced Guide to Ubers
+[head]
+<meta name="description" content="The second of two articles with information on how to battle in the Ubers metagame thanks to Great Sage and Jibaku, rewritten by bojangles and Gen. Empoleon, rewritten again by firecape." />
+[page] 
+<div class="author">By <a href="/http://www.smogon.com/forums/member.php?u=1779">Jibaku</a> and <a href="http://www.smogon.com/forums/member.php?u=4852">Great Sage</a>, rewritten by <a href="http://www.smogon.com/forums/member.php?u=20796">bojangles</a> and <a href="http://www.smogon.com/forums/member.php?u=20899">Gen. Empoleon</a>, rewritten again by <a href="http://www.smogon.com/forums/member.php?u=46442">firecape</a>.</div>
+
+<ol class="toc">
+<li><a href="#strategy">Strategy In Ubers</a>
+<ul>
+<li><a href="#special">The Ubers Specials Rule</a></li> 
+<li><a href="#moves">Maximizing Moves</a></li> 
+<li><a href="#lead">The Lead Pokémon</a></li> 
+<li><a href="#styles">Different Playing Styles</a></li>
+</ul></li>
+<li><a href="#team">Team Building</a>
+<ul>
+<li><a href="#checklist">Uber Team Checklist</a></li> 
+<li><a href="#first">Sample Team #1</a></li> 
+<li><a href="#second">Sample Team #2</a></li> 
+<li><a href="#third">Sample Team #3</a></li>
+</ul></li>
+<li><a href="#trick">The Trick Room Factor</a></li> 
+<li><a href="#help">Additional Help</a></li>
+</ol>
+ 
+<h3><a name="advanced">Advanced Guide to Ubers</a></h3>
+ 
+<p>If you are just starting Ubers play, it is better to read the basic guide which can be found <a href="/dp/articles/uber_battling">here</a>. This article is for players who already have a grasp of the basics, or have read the basics section.</p>
+ 
+<h2><a name="strategy">Strategy in Ubers</a></h2>
+ 
+<p>Playing Ubers requires a completely different play style when compared to standard, as some strategies that are effective in standard simply don't cut it in Ubers. In standard play, for instance, a good team has multiple resistances to every type, but this is not always the case in the Uber metagame. In Ubers it is more important to have checks to all of the Pokemon than just to have a Pokemon who resists every type. For instance, in OU, to counter a Ground-type Pokemon it might be in your best interest to use a Grass-type Pokemon, as it would resist Ground-type moves and hit said Ground-type for super effective damage with its STAB. Uber Pokemon, however, have vast movepools, and their stats soar to such high levels, that they generally have an answer to nearly every type in the game. For this reason it is better to use checks to a specific Pokemon rather than a type resistance. This doesn't mean that having resistances is a bad thing though, and you should have at least one or two resistances to the common attacking types of the Ubers tier.</p>
+ 
+<h3><a name="special">The Ubers Special Rule</a></h3>
+ 
+<p>In standard play, many of the strongest attackers are physically based; in Ubers, the reverse is true. Much of the Uber metagame is centralized around Special Attack and Special Defense, as these two stats soar to astronomical levels with quite a few Ubers. This means that most Ubers have comparatively low Attack and Defense stats, which can be exploited by using heavy physical attackers such as Groudon and Metagross. These Pokemon should be handled with care, however, as physical attackers tend to have comparatively low Special Defense and therefore are vulnerable to the powerful special attacks that run rampant in Ubers.</p>
+ 
+<h3><a name="moves">Maximizing Moves</a></h3>
+ 
+<p>In Standard, it is generally advised to take advantage of a Pokemon's STAB, unless their STAB is useless. In Ubers, however, type coverage is sometimes more important than STAB, because of the large number of the Psychic-types; some Pokemon, regardless of type, use Dragon-, Electric-, Ice-, Water-, Dark-, and Ghost-type attacks to provide the maximum amount of super effective coverage. Even though many of the Ubers are Psychic-type, they seldom use Psychic-type moves for the very fact that many of their fellow Psychic-types resist them. For example, Mewtwo's Ice Beam hits the majority of the Ubers metagame harder than Psychic. In fact, the only Ubers that hit harder by Psychic are Ho-Oh, Kyogre, and Palkia.</p>
+ 
+<p>Dragon-, Ice-, and Dark-type attacks can usually be used alone to much success. Darkrai sometimes relies exclusively on its Dark-type STAB, and Mewtwo on Ice Beam. Electric- and Ghost-type moves are rarely seen alone on a moveset, for some Pokemon are completely immune to these attacking types. An Electric-type attack is often paired with an Ice-type attack, and Ghost-type attacks with Fighting-type attacks; the purpose of such pairings is to maximize a specific moveset's type coverage.</p>
+ 
+<p>Similarly, there are combinations of moves that do not have ample type coverage and are therefore discouraged. For example, a Pokemon almost never has both a Dragon- and an Ice-type attack on a single moveset, for both types together are redundant in that both are super effective against Dragon-types and ineffective against Steel-types. This is one instance where STAB does come into play; the general advice is that a Dragon-type attack be used if it receives STAB, and an Ice-type attack be used otherwise, as Ice-type attacks hits more than just Dragon-types for super effective damage.</p>
+ 
+<p>Almost all Ubers are capable of increasing their stats through moves such as Calm Mind and Swords Dance, and it would do one well to take advantage of such boosting moves. One would think that with the enormous number of stat boosters, phazers would be in high demand. This is a logical but unfortunately incorrect assumption; Ubers' stats can become numbers that reach far into the thousands, a level that phazers would be hard-pressed to contend with. Instead, the Ubers metagame relies on there being a solid, durable counter that can do something to the Pokemon it wants to counter (such as Giratina using Will-O-Wisp on Groudon to smash its physical potential). Often, it comes down to destroying the opponent before it has the time to set up, or occasionally even racing to see which Uber can raise its stats the fastest.</p>
+ 
+<h3><a name="lead">The Lead Pokemon</a></h3>
+ 
+<p>As with any metagame, having a good lead is crucial to in order to obtain an early advantage in the match. Most good leads fall into a few categories: entry hazard leads, anti-leads, and support leads.</p>
+ 
+<p>Deoxys-S is one of the best leads when it comes to setting up entry hazards, because it has the ability to lay down multiple layers with ease. Entry hazard leads are pretty self explanatory, but even so it is a deadly strategy when employed correctly. The point of leads like Deoxys-S is to limit the amount of switching the opponent can do, and wear them down slowly while making it more and more difficult for the opponent to carry out his strategy. The teams that employ this type of lead often use it in conjunction with phazers, such as Groudon, to rack up damage with their entry hazards quickly. This style is almost always used by stall teams as well, and is usually one of their primary sources of damage. The stacking of entry hazards also aids a lot of sweepers, such as Lucario, who need a small amount of prior damage to get past their counters (such as Groudon in the case of Lucario).</p>
+ 
+<p>The next type of lead is the anti-lead. Anti-leads are usually very specific to the current metagame, and attempt to hinder as many leads as possible by either hitting very hard, or preventing the opponent from accomplishing their goal with moves such as Taunt. Deoxys-A is a great example of a current anti-lead, able to limit Deoxys-S to one layer of entry hazards, and handle many other leads with great type coverage and access to Taunt and ExtremeSpeed. Anti-leads commonly employ moves like Taunt, to stop the opponent from setting up any entry hazards, or Rapid Spin to get rid of any progress the opposing lead has made.</p>
+ 
+<p>Support leads generally try to get Stealth Rock up, and then help the team by doing things such as spreading status, or having a use outside the lead spot. Groudon is a good example of this kind of lead as he is able to set up Stealth Rock early, spread paralysis via Thunder Wave, and phaze with Roar while he's at it. Groudon can also come in later in the game and wall nearly every physical attacker there is, meaning he is not just a wasted slot for Stealth Rock.</p>
+ 
+<p>Although it may be tempting to lead with a wall, it is highly discouraged for several reasons. Walls should react to certain threats, and as they can usually take a good amount of damage, it is not necessary to meet the Pokemon it wants to wall straight up. Additionally, walls are predictable and can easily become setup fodder. As if that were not enough, almost everything in the Uber metagame is capable of bypassing its potential walls; for example, Blissey can take Dialga's special attacks, but she hates Outrage, which leading Dialga often carry.</p>
+ 
+<p>For the sake of reference here is a list of leads that are viable in the current Ubers metagame, and the category they fall into. It is possible for a lead to fall under more than one category, in which case they will be mentioned twice.</p>
+ 
+<h4>Entry Hazard leads</h4> 
+<ul><li>Cloyster (Spikes / Toxic Spikes)</li> <li>Deoxys (Spikes / Stealth Rock)</li> <li>Deoxys-A (Spikes / Stealth Rock)</li> <li>Deoxys-S (Spikes / Stealth Rock)</li> <li>Dialga (Stealth Rock)</li> <li>Forretress (Spikes / Stealth Rock / Toxic Spikes)</li> <li>Froslass (Spikes)</li> <li>Groudon (Stealth Rock)</li> <li>Infernape (Stealth Rock)</li> <li>Mamoswine (Stealth Rock)</li> <li>Metagross (Stealth Rock)</li> <li>Mew (Stealth Rock)</li> <li>Smeargle (Stealth Rock / Spikes / Toxic Spikes)</li> <li>Tyranitar (Stealth Rock)</li> <li>Qwilfish (Spikes / Toxic Spikes)</li></ul>
+ 
+<h4>Anti-leads</h4> 
+<ul><li>Darkrai</li> <li>Deoxys</li> <li>Deoxys-A</li> <li>Forretress</li> <li>Giratina-O</li> <li>Hariyama</li> <li>Infernape</li> <li>Kyogre</li> <li>Lucario</li> <li>Mamoswine</li> <li>Metagross</li> <li>Mew</li> <li>Mewtwo</li> <li>Rayquaza</li> <li>Scizor</li> <li>Shaymin-S</li> <li>Smeargle</li> <li>Tyranitar</li></ul> 
+ 
+<h4>Support</h4> 
+<ul><li>Abomasnow</li> <li>Darkrai</li> <li>Forretress</li> <li>Froslass</li> <li>Groudon</li> <li>Kyogre</li> <li>Smeargle</li> <li>Tyranitar</li></ul> 
+ 
+<h3><a name="styles">Different Playing Styles</a></h3>
+ 
+<p>As with any other metagame, there are a few dominating forms of play in Ubers: stall, dual screen, and offense. However, in Ubers, with all the massively destructive sweepers, offense is far more prevalent than stall and dual screens. This section will talk about the pros and cons of each type.</p>
+ 
+<h4>Offense</h4>
+ 
+<p>Offense is the most common play style of Ubers for a good reason: all of the Pokemon are just so good at it. Any and every Uber Pokemon has the potential to be a threatening sweeper, except for Giratina, Wobbuffet, and Deoxys-D. As such, offense is by and far the most common for a team. Offensive teams are risky in the sense that they can perform very well, or very poorly, and either way, the match is over quite quickly. An offensive team that is built and played correctly can win quickly and therefore, very often. There are a few Pokemon that stand out in the area of sweeping, though, and they are Rayquaza, Palkia, Garchomp, and Kyogre. Rayquaza is the chief of physical sweepers. His massive base 150 Attack stat is accompanied by stat-up moves such as Swords Dance and Dragon Dance, both of which rocket his Attack stat up to scarily high numbers. An equally high Special Attack stat allows him to break physical walls too. He also has the wonderful Dragon-type STAB, which devastates almost every single Pokemon in Ubers. It's no exaggeration to say that Rayquaza is one of the biggest reasons that you must carry a Steel-type on your team.</p> 
+ 
+<p>Palkia is another potent sweeper in the Uber metagame. It gets two boosts, one being the Water-type boost from Kyogre's rain, and the other being its personal item, the Lustrous Orb, which boosts both its Water- and Dragon-type moves. It can go special, physical, or mixed, and thus has no true counters.</p>
+ 
+<p>Garchomp, while relatively new to the scene, is no slouch. Garchomp is arguably the best revenge killer in the Ubers metagame. Its odd base 102 Speed stat allows it to outrun rival revenge killers with a Choice Scarf and pummel all Pokemon on their generally weaker physical side with STAB Dragon- and Ground-type attacks.</p>
+ 
+<p>Finally, there's Kyogre, the King of Ubers. Kyogre's Water Spout is truly terrifying coming off of its base 150 Special Attack stat. Backed by STAB, weather boost, and often Choice Specs, this attack truly is the single most deadly attack in the entire game.</p> 
+ 
+<p>One must not forget Wobbuffet, though. Wobbuffet's home is on an offensive team, despite its defensive stats. It can use the power of Encore and Shadow Tag (and in some cases, Safeguard too) in order to give a Pokemon at least one turn to set up and sweep. Furthermore, with Shadow Tag and Counter and Mirror Coat, it can function as an effective revenge killer in a pinch. However, offensive teams are not unbeatable. Opposing offense can take them down quickly due to the powerful attacks that they can fire back at you. Furthermore, a well-built stall team is the bane of an Ubers offense team, as it can wear down the big hitters due to the necessity of constant switching.</p>
+ 
+<h4>Stall</h4>
+ 
+<p>Conversely, there's the quintessential stall team. These types of teams can be incredibly difficult to beat, as major offensive teams are quickly worn down by the passive damage that accompanies their constant switching. Any team that lacks a stallbreaking Pokemon will be eventually destroyed. An Ubers stall team is made up of a certain core of Pokemon, as only the best of the best in walls can stand up to the powerful attacks in Ubers. Generally, the team should have a Blissey, to soak special hits, Latias, to counter Kyogre and some Palkia, Groudon, to stop rain offense and take physical hits, and Forretress, to take high powered Dragon-type attacks and set down both types of Spikes. Other good Pokemon for stall are Giratina, who blocks Rapid Spin and takes sleep-inducing moves, Skarmory, who can also set up entry hazards and use Whirlwind to shuffle, Abomasnow, whose hail nullifies Leftovers and is a great SubSeeder, Cresselia, a great mixed wall, or Lugia, a great physical wall that counters Groudon, Rayquaza, and Garchomp very well.</p> 
+ 
+<p>There are a few Pokemon a stall team must watch out for, however, those being mixed Palkia, Dialga, and Rayquaza. Certain varieties of Rayquaza, such as the Dragon Dance version with Overheat, can bowl through a weakened stall team. The final two threats are two Substitute Calm Mind sweepers, Kyogre and Giratina-O. Both can boost their Special Attack and Special Defense to extraordinary levels with Calm Mind and protect themselves from status with Substitute, making Calm Mind/Psych Up Blissey the only way to stop them. Giratina-O is generally the more threatening of the two because it has Levitate, meaning that it avoids the Spikes and Toxic Spikes that wear Kyogre down.</p>
+ 
+<p>There also exists a variety of stall teams called "Quick Stall," in which fast Pokemon are used to set up entry hazards, like in Deoxys-S's case, or annoy and stall out the opponent, such as Jumpluff. Stall teams are good for some, as they require a bit less prediction, but their only way to victory is through a long match, which gives your opponent many potential chances to set up and wipe you out. That's what makes Quick Stall so appealing, it can speed up the game significantly if played right.</p>
+ 
+<h4>Dual Screens</h4>
+ 
+<p>Another type of play is based around the use of dual screens: Reflect and Light Screen. This play style can be further subdivided into Baton Pass and screen offensive, both of which use dual screens to cushion blows. However, it is what they do behind these screens that makes them different from one another. In screen offense, Reflect and Light Screen are used solely to help a normal offensive team run its course. Pokemon that would normally make good checks or counters will now fail because they only hit the Pokemon they're checking for half damage. For example, Dragon Dance Rayquaza behind a Reflect can set up and sweep before Groudon, a typical counter to the set, can down it with Dragon Claw. These teams are slightly harder to beat, as they cannot be stopped with brute force alone. One must stall out or break the screens with Brick Break, and then proceed from there as normal. However, the drawback to this sort of team is that it requires a dedicated dual screener. So as far as offense goes, the team really only has five players.</p>
+ 
+<p>Baton Pass, the other type of dual screen play, is as deadly as it is rare. What makes Baton Pass so successful in Ubers is the combination of two Pokemon: Deoxys-S and Mew. Deoxys-S, being the fastest Pokémon in the game, makes it easy to set up entry hazards, which will weaken potential counters to the Pokemon who will receive the boosts. Mew, however, is the glue that holds the team together. Mew is the ultimate Baton Passer, as it can pass +2 of whatever stat it chooses. Dual screens are set up to protect Mew as it boosts its stats to obscene levels, and then passes these boosts to a sweeper, which becomes nearly unstoppable after receiving these gifts. Generally, these boosts will be given to a physical Pokemon, such as Groudon, as there is no central physical wall, whereas Blissey and Latias are hard stops to most special threats.</p>
+ 
+<p>It is possible, albeit difficult, to counter Baton Pass teams. A team like this has one strategy and one strategy only: to prepare the sweeper. The way to counter this is by using smart switching and prediction in order to disrupt the opponent's course of play, making him or her unable to get a sweep ready. Since each Pokemon plays a key role in such a team, fainting even one of the members has essentially halted the process that the team is designed to fulfill. A less tactical and riskier method to counter a Baton Pass team is to include a Pokemon that knows Brick Break on your team, such as a mixed offensive Rayquaza. This can be unreliable, though, as you initially won't know if you are fighting one of these teams, and if your Brick Break user dies, you essentially wasted a moveslot. Baton Pass teams are some of the deadliest and best thought-out of offensive teams, regardless of whether or not one is prepared for them.</p> 
+ 
+<h2><a name="team">Team Building</a></h2>
+ 
+<p>A checklist and a sample team to help you create your own Uber team.</p>
+ 
+<h3><a name="checklist">Ubers Team Checklist</a></h3>
+ 
+<p>When you are playing in the Ubers metagame, make sure you have most of these items covered. Use this checklist as a guide to build your team. Even if an Ubers team do not have some of these, it is still important to cover the vast majority of threats, although some are more important than others.</p>
+ 
+<h4>Have key resistances.</h4>
+<p>A misconception in most Ubers teams is that you must have a physical and special wall. This is not the case. Instead, you need resistances to the following types: Dragon, Water, Ice, Ground, Electric, Dark, Normal, and Ghost. These are the types of the most common attacks in Ubers. Types like Grass and Bug are much more uncommon than the others, because they hit only some of the Ubers threats, which can be a big drawback in constructing a good moveset (see "Maximizing Moves"). The most important thing to make sure you have when checking for key resistances is a Dragon-type resist. It is crucial that your team has a method to absorb the powerful Dragon-type attacks that are thrown around in Ubers or your team will be destroyed easily. Blissey absorbs Draco Meteor and Spatial Rend, the most common Dragon-type attacks, if you don't feel like using a Steel-type, but she is not always the best choice for offensive teams because she is setup bait. If you are using an offensive team, Scizor, Metagross, and specially defensive Jirachi are examples of good Steel-types to use.</p> 
+ 
+<h4>Have a physical sweeper (for stall teams, change sweeper to wall).</h4>
+<p>You will need something to stop Blissey, and it is better to have more than one. Pokemon like Rayquaza cannot switch into Blissey directly due to Toxic and Thunder Wave, but after a Swords Dance or Dragon Dance (or any other boosting move), they can blow through Blissey, either sweeping themselves, or open up a hole for a special sweepers. Certain physical threats such as Metagross or Scizor are also good for their ability to switch directly into Blissey.</p>
+ 
+<h4>Have a special sweeper.</h4>
+<p>Physical walls may not be as common as special ones in Ubers, but they do exist; however, as a majority of the Ubers are special attackers, you're likely end up using two or three special sweepers anyway.</p>
+ 
+<h4>Have a pseudo hazer (phazer).</h4>
+<p>This isn't as necessary as the others, since Ninjask is the only thing that would really lose its Baton Passing abilities when phazed. Don't even think about phazing Mew; it will probably Taunt you anyway. This does not have to be a specialized Pokemon made just for phazing though; it's simple as putting Roar on your Groudon. This isn't as important for offensive teams as it is for stall teams.</p>
+ 
+<h4>Have a counter or check to most of the Pokemon described.</h4>
+<p>That would be all Ubers, Metagross, Blissey, Heatran, Forretress, Skarmory, Magnezone, Ninjask, Weavile, etc. It is impossible to fully counter everything, as some, such as Palkia, do not have a real counter. It is advised that you get close to countering all of them as possible, however. You must have something to switch into common attacks, such as a Kyogre's Water Spout and Rayquaza's Outrage. Pokemon that are faster than Kyogre and have good Special Defense work well, such as Latias or Palkia, whereas most physical walls not weak to Dragon will work for Rayquaza. It is generally better to outspeed Rayquaza as well (an example of a Pokemon who satisfies both conditions is Lugia). One of the biggest newbie mistakes is to switch Blissey into Specs Kyogre's Water Spout. Remember, Blissey is 2HKOed by the beast, making it a very bad switch-in.</p>
+ 
+<h4>Have a sleep talker/absorber.</h4>
+<p>There are two Ubers capable of using sleep moves: Darkrai and Mew. Due to the Uber metagame's speed and pace, losing a Pokemon to a sleep move can be fatal to your team. It is important to keep your Pokemon from fainting until it has done its job. A sleep absorber in this metagame is more important than in the OU metagame. For newer players, a sleep absorber uses the move Sleep Talk to take the status condition sleep and activate Sleep Clause (a standard rule that states one may only put one opposing Pokemon to sleep at a time); Sleep Talk is so it's not completely useless while sleeping.</p>
+ 
+<h4>Have a Rapid Spinner.</h4>
+<p>Spinning helps you get your Ho-Oh, Lugia, and Rayquaza onto the field. However, in the Uber metagame, the only Pokemon that should be considered for spinning is Forretress. Forretress can also help by physical walling, setting up its own entry hazards, and soaking up Outrages, and possibly Exploding. Having a Rapid Spinner isn't needed, but it's a nice thing to have as entry hazards limit your switching.</p>
+ 
+<h4>Have a Stealth Rock or Spikes user.</h4>
+<p>There are a few options here: Skarmory, Forretress, and Deoxys-S can learn Spikes and Stealth Rock. Other Pokemon that learn Stealth Rock but not Spikes are Dialga, Groudon, Blissey, Heatran, and Metagross. Stealth Rock will help you weaken things like Lugia, Ho-Oh, and Rayquaza, while Spikes hurt everything that's on the ground. One of the only Pokemon viable in Ubers that learns Toxic Spikes is Forretress, making it a key player in stall teams and teams that need residual damage. Spikes is not mandatory for offensive teams, but they, along with Toxic Spikes, are mandatory for stall teams.</p>
+ 
+<h4>Have a weather changer.</h4>
+<p>Tyranitar, Kyogre, Abomasnow, and Groudon are the main weather changers in Uber play. They help against teams that rely on weather to win, and those kinds of teams can be very dangerous unless the weather is changed. Even if you only have one weather changer, it can impact the game significantly.</p>
+ 
+<h3><a name="first">Sample Team #1</a></h3> 
+ 
+<p>This is a sample offensive team, designed to help brand new players get accustomed to Ubers. There is a disclaimer attached to this, and all of the other sample teams: <strong>Creating your own team is a great way of learning the metagame, and thus in order to get better with Ubers, you should make your own team after a few rounds with this one.</strong></p>
+ 
+<h4>The Lead</h4>
+ 
+<p><img src="/download/sprites/dp/389.png" alt="Deoxys-S" /><br />
+<strong>Deoxys-S</strong> @ Leftovers<br />
+Nature: Jolly (+Spe, -SpA)<br />
+EVs: 252 HP / 4 Atk / 252 Spe<br />
+- Stealth Rock<br />
+- Spikes<br />
+- Taunt<br />
+- Superpower<br /></p>
+ 
+<p>Deoxys-S is chosen to lead this team because it can reliably set up Stealth Rock against nearly every opposing lead and often get a layer or two of Spikes to boot. It has the highest Speed in the game, and it puts its Speed to great use with a speedy Taunt to stop any leads trying to set up their own hazards. Superpower is the attacking move of choice for Deoxys-S to hurt Darkrai. 252 HP EVs are chosen over Attack EVs because the added bulk allows Deoxys-S to score an additional layer on some occasions, and bulk is more useful than power on this suicide lead.</p>
+ 
+<h4>The Kyogre Counter</h4>
+ 
+<p><img src="/download/sprites/dp/380.png" alt="Latias" /><br />
+<strong>Latias</strong> @ Soul Dew<br />
+EVs: 160 HP / 96 SpA / 252 Spe<br />
+Timid nature (+Spe, -Atk)<br />
+- Dragon Pulse<br />
+- Calm Mind<br />
+- Recover<br />
+- Thunder<br /></p>
+ 
+<p>With the massive power and bulk provided by Soul Dew, Latias is considered to be one of the best Kyogre counters in the game. Thanks to its great Speed and numerous resistances, Latias will easily find a way to switch in and get in a Calm Mind boost (which can be facilitated by Wobbuffet) and punch holes in the opponent team, or even sweep. Latias also acts as a great defensive check to many dangerous Pokemon such as Garchomp, non-Scarfed Palkia, Shaymin-S, Manaphy, and it can even take a hit or two from Mewtwo and fire back a powerful STAB Dragon Pulse. Thunder is chosen as its coverage attack to zap Lugia, Manaphy, Kyogre, and most Steel-types, and it will never miss in the rain. Recover keeps Latias nice and healthy so it can continue to sweep and check threats on the opponent's team.</p>
+ 
+<h4>The Setup Aide</h4>
+ 
+<p><img src="/download/sprites/dp/202.png" alt="Wobbuffet" /><br />
+<strong>Wobbuffet</strong> @ Leftovers<br />
+Nature: Calm (+SpD, -Atk)<br />
+EVs: 28 HP / 228 Def / 252 SpD<br />
+- Counter<br />
+- Mirror Coat<br />
+- Encore<br />
+- Safeguard<br /></p>
+ 
+<p>The blue blob is a great addition to this team as it provides either a free set up for Kyogre and Latias, or a free kill on an opponent's team member. Counter and Mirror Coat's purposes are obvious; they allow Wobbuffet to often eliminate at least one Pokemon. Encore lets Wobbuffet turn a support Pokemon into helpless setup fodder, while Safeguard lets a teammate come in for free against an Encored status move.</p>
+ 
+<h4>The King</h4>
+ 
+<p><img src="/download/sprites/dp/382.png" alt="Kyogre" /><br />
+<strong>Kyogre</strong> @ Leftovers<br />
+Nature: Modest (+SpA, -Atk)<br />
+EVs: 240 HP / 236 Def / 32 Spe<br />
+- Calm Mind<br />
+- Surf<br />
+- Rest<br />
+- Sleep Talk<br /></p>
+ 
+<p>This isn't Kyogre's most common set, but it is extremely effective at destroying an unprepared opponent. Calm Mind allows Kyogre to boost its massive Special Attack and Special Defense, while Rest allows it to heal off the damage it takes in the process. Sleep Talk means Kyogre isn't completely useless for the two turns it sleeps. Surf is chosen as Kyogre's only attack as it gains a pseudo double STAB boost with rain and Kyogre's Water typing. As is the case with many setup sweepers, the presence of Wobbuffet makes it easier for Kyogre to setup its first Calm Mind. After one Calm Mind, Pokemon like Palkia will struggle to bring the great whale down, even with Thunder.</p>
+ 
+<h4>The Spinblocker</h4>
+ 
+<p><img src="/download/sprites/dp/504.png" alt="Giratina-O" /><br />
+<strong>Giratina-O</strong> @ Griseous Orb<br /> 
+EVs: 248 Atk / 64 SpA / 196 Spe<br />
+Nature: Naive (+Spe, -SpD)<br />
+- Draco Meteor<br />
+- Outrage<br />
+- Hidden Power Fire<br />
+- Shadow Sneak<br /></p>
+ 
+<p>Giratina-O is a nice addition as its Ghost typing prevents Forretress from spinning away Deoxys-S's entry hazards. The spectral Dragon is a great mixed attacker as well, with Draco Meteor and Outrage letting it hit both special and physical walls hard, allowing it to muscle through stall teams in most cases. Hidden Power Fire lets Giratina-O to quickly incinerate Forretress if it dares stay in and attempt to use Payback. Shadow Sneak rounds off the moveset nicely by giving Giratina-O a STAB priority attack to pick off weakened opponents.</p>
+ 
+<h4>The Revenge Killer</h4>
+ 
+<p><img src="/download/sprites/dp/385.png" alt="Jirachi" /><br />
+<strong>Jirachi</strong> @ Choice Scarf<br />
+EVs: 4 HP / 252 Atk / 252 Spe<br />
+Jolly nature (+Spe, -SpA)<br />
+- Iron Head<br />
+- Ice Punch<br />
+- U-turn<br />
+- Trick<br /></p>
+ 
+<p>Most Ubers teams need a good revenge killer to stop fast and powerful sweepers, such as Rayquaza, Mewtwo, and Darkrai. Jirachi does just that, and it does it well thanks to its good Speed stat and numerous resistances. Although Jirachi isn't very strong, it can still revenge kill many Pokemon with its STAB Iron Head, which has a 60% chance of flinching the opposing Pokemon. Ice Punch makes Jirachi into a great check for all forms of Rayquaza and Swords Dance Garchomp. U-turn severely hurts Darkrai and Mewtwo and allows Jirachi to scout its counters. It also lures in Groudon, which Kyogre or Latias can come in on and get a free Calm Mind or two. Trick locks an enemy Pokemon into one attack, which can allow Wobbuffet to come in and get a free KO, or Kyogre or Latias to come in and start Calm Minding.</p>
+ 
+<h3>Team Check</h3>
+ 
+<p>This is an evaluation of the sample team. Do they all come together?</p> 
+ 
+<ul>
+<li><strong>Have switch-ins to the major Ubers?</strong> Yes.</li>
+<li><strong>Have a special sweeper (for stall change sweeper to wall)?</strong> Yes (Latias).</li>
+<li><strong>Have a physical wall?</strong> Yes (Kyogre).</li>
+<li><strong>Have resistances to Dragon, Ice, Electric, Dark, Ghost, Bug, Fighting, Ground, Water, Fire, Steel and Rock?</strong> This team doesn't resist Ghost- and Dark-type attacks, but most of the attack of those types are Special Attacks, and Kyogre doesn't mind them.</li>
+<li><strong>Have a Spinner?</strong> Yes.</li>
+<li><strong>Have a phazer?</strong> Yes.</li>
+<li><strong>Have a weather changer?</strong> Yes.</li>
+<li><strong>Have a Stealth Rock/Spikes user?</strong> Yes.</li>
+<li><strong>Have a sleep talker?</strong> Yes.</li>
+</ul>
+ 
+<h3><a name="second">Sample Team #2</a></h3>
+ 
+<p>This sample team is designed for those who prefer to use stall teams. Please note that it may be harder to play stall than offense in Ubers when you first start. This is due to the fact that you may not know what's a good switch-in for a given situation; however, a stall team is provided if that is your preferred play-style. <strong>Creating your own team is a great way of learning the metagame, so to get better with Ubers, you should make your own team after a few rounds with this one.</strong></p>
+ 
+<h4>The Lead</h4>
+ 
+<p><img src="/download/sprites/dp/383.png" alt="Groudon" /><br />
+<strong>Groudon</strong> @ Leftovers<br />
+Nature: Impish (+Def, -SpA)<br />
+EVs: 252 HP / 156 Atk / 32 Def / 60 SpD / 8 Spe<br />
+- Earthquake<br />
+- Stealth Rock<br />
+- Roar<br />
+- Stone Edge<br /></p>
+ 
+<p>Groudon is one of the best leads for a stall team as it almost always manages to reliably get Stealth Rock up, in addition to having the ability to come in later to sponge a physical hit or two. Groudon is useful because it activates sunlight too, which the majority of offensive teams don't like. Groudon also provides phazing, which is important for most stall teams due to the powerful setup sweepers in Ubers. Stone Edge allows Groudon to effectively check Ho-Oh, who can 2HKO Kyogre with Brave Bird. Earthquake is a powerful STAB attack, and is needed to check things like Bulk Up Dialga.</p>
+ 
+<h4>The Special Wall</h4>
+ 
+<p><img src="/download/sprites/dp/242.png" alt="Blissey" /><br />
+<strong>Blissey</strong> @ Leftovers<br />
+Nature: Calm (+SpD, -Atk)<br /> 
+EVs: 4 HP / 252 Def / 252 SpD<br />
+- Wish<br />
+- Seismic Toss<br />
+- Toxic<br />
+- Protect<br /></p>
+ 
+<p>Blissey is a key member on any Uber stall team due to her ability to wall nearly every single special attacker in the game. In Ubers, unlike standard, Blissey needs a Calm nature with special powerhouses like Dialga running rampant. Wish allows Blissey to heal her teammates, and Protect in tandem with Wish lets her heal herself efficiently. Seismic Toss is mandatory as Blissey's only way of dealing damage, and Toxic lets Blissey stall out Pokemon that are immune to Toxic Spikes due to Levitate or Flying typing.</p>
+ 
+<h4>The Status Absorber</h4>
+ 
+<p><img src="/download/sprites/dp/382.png" alt="Kyogre" /><br />
+<strong>Kyogre</strong> @ Leftovers<br />
+Ability: Drizzle<br />
+EVs: 240 HP / 236 Def / 32 Spe<br />
+Modest nature (+SpA, -Atk)<br />
+- Calm Mind<br />
+- Surf<br />
+- Rest<br />
+- Sleep Talk<br /></p>
+ 
+<p>Kyogre serves as the late-game sweeper and status absorber, but also can create a win condition against opposing teams if they can't break through its defenses. Calm Mind in tandem with the RestTalk combo makes Kyogre very hard to kill, and allows Kyogre to boost its stats until it reaches a point where it can sweep. Surf is chosen as the only attack as it gets STAB and a boost from the rain.</p>
+ 
+<h4>The Spikes user and Rapid Spinner</h4>
+ 
+<p><img src="/download/sprites/dp/205.png" alt="Forretress" /><br />
+<strong>Forretress</strong> @ Leftovers<br />
+Nature: Careful (+ SpD, - SpA)<br />
+EVs: 252 HP / 4 Def / 252 SpD<br />
+- Rapid Spin<br />
+- Toxic Spikes<br />
+- Spikes<br />
+- Payback<br /></p>
+ 
+<p>Forretress is the only viable Rapid Spinner in Ubers, and the Toxic Spikes it provides help stall out a lot of Pokemon. Forretress is also chosen for his ability to lay Spikes, which makes it difficult for the opponent to switch frequently. This metal bug is also very useful due to its Steel typing, being able to easily switch into Dragon-type attacks and set up more entry hazards to the further hinder the opponent. A Careful nature and maximum special bulk are chosen to ensure Forretress isn't crushed by not very effective special attacks, such as Dragon Pulse from Dialga. Payback is needed to hit the Giratina formes hard if they attempt to block your Rapid Spin attempts, but it is only advised to attempt to hit them on the switch in, as they both carry moves that are bad news for the little iron ball.</p>
+ 
+<h4>The Glue</h4>
+ 
+<p><img src="/download/sprites/dp/489.png" alt="Palkia" /><br />
+<strong>Palkia</strong> @ Choice Scarf<br />
+EVs: 4 HP / 252 Spe / 252 SpA<br />
+Nature: Hasty (+Spe, -Def)<br />
+- Spacial Rend<br />
+- Surf<br />
+- Thunder<br />
+- Outrage<br /></p>
+ 
+<p>Palkia may not seem to fit on a team like this, but it is needed to check powerful set-up sweepers in Ubers, such as Dragon Dance Rayquaza. Spacial Rend provides a powerful STAB attack, and a way to hit Dragon-types for massive damage, whereas Surf compliments Spacial Rend nicely by washing away pesky Steel-types if sunlight isn't present. Thunder is used to check Kyogre, who can be a big threat to this team as its Water Spout can 2HKO Blissey. Outrage is in the last slot to decimate Latias and Latios if they manage to procure too many Calm Minds, as well as giving Palkia a way to hit opposing Blissey.</p>
+ 
+<h4>The Spinblocker</h4>
+ 
+<p><img src="/download/sprites/dp/504.png" alt="Giratina-O" /><br />
+<strong>Giratina-O</strong> @ Griseous Orb<br />
+EVs: 248 Atk / 64 SpA / 196 Spe<br />
+Nature: Naive (+Spe, -SpD)<br />
+- Draco Meteor<br />
+- Outrage<br />
+- Hidden Power Fire<br />
+- Shadow Sneak<br /></p>
+ 
+<p>Giratina-O is another Pokemon that may seem out of place in a stall team over Giratina, but this spinblocker has some key advantages. First off, Giratina's walling sets generally have problems with Forretress setting up on it, which isn't something this team wants, so this set aims to put a quick end to Forretress with Hidden Power Fire. Giratina-O has another valuable asset in its STAB Shadow Sneak, which can be useful to pick off weakened sweepers that threaten to take a chunk out of the team. Draco Meteor and Outrage form the double Dragon attacking combination, which coming off 120 base Attack and Special Attack, is nothing to scoff at.</p>
+ 
+<h3>Team check</h3>
+ 
+<p>This is an evaluation of the sample team. Do they all come together?</p> 
+ 
+<ul>
+<li><strong>Have switch-ins to the major Ubers?</strong> Yes.</li>
+<li><strong>Have a special sweeper (for stall change sweeper to wall)?</strong> Yes (Blissey).</li>
+<li><strong>Have a physical wall?</strong> Yes (Groudon).</li>
+<li><strong>Have resistances to Dragon, Ice, Electric, Dark, Ghost, Bug, Fighting, Ground, Water, Fire, Steel and Rock?</strong> Yes.</li>
+<li><strong>Have a Spinner?</strong> Yes.</li>
+<li><strong>Have a phazer?</strong> Yes.</li>
+<li><strong>Have a weather changer?</strong> Yes.</li>
+<li><strong>Have a Spikes / </strong> Yes.</li>
+<li><strong>Have a sleep talker?</strong> Yes.</li>
+</ul>
+ 
+<h3><a name="third">Sample Team #3</a></h3>
+ 
+<p>This is the final sample team, and it is a Baton Pass team centered around Mew's amazing ability to nearly always pull off a successful pass. This team should not be the first team you try, but it is here for reference if you wish to make a Baton Pass team of your own (there is no checklist at the end because Baton Pass teams operate differently from the 2 previous teams). <strong>Creating your own team is a great way of learning the metagame, so to get better with Ubers, you should make your own team after a few rounds with this one.</strong></p>
+ 
+<h4>The Lead</h4>
+ 
+<p><img src="/download/sprites/dp/389.png" alt="Deoxys-S" /><br />
+<strong>Deoxys-S</strong> @ Focus Sash<br />
+EVs: 252 HP / 4 Atk / 252 Spe<br />
+Jolly nature (+Spe, -SpA)<br />
+- Taunt<br />
+- Stealth Rock<br />
+- Spikes<br />
+- ExtremeSpeed<br /></p>
+ 
+<p>Deoxys-S can get Stealth Rock up against almost every lead, and can manage to get up a layer of Spikes sometimes. Taunt is great to stop opposing leads from executing their strategy, whatever it may be. ExtremeSpeed is useful to break the Focus Sashes of opposing leads, while Deoxys-S's own Focus Sash allows it to take a hit, meaning it can normally use two moves before going down. Max HP is chosen over Attack because Deoxys-S isn't meant to do damage, and that extra HP can help in a lot of situations.</p>
+ 
+<h4>The Dual Screener</h4>
+ 
+<p><img src="/download/sprites/dp/485.png" alt="Uxie" /><br />
+<strong>Uxie</strong> @ Light Clay<br />
+EVs: 252 HP / 40 Def / 216 SpD<br />
+Calm nature (+SpD, -Atk)<br />
+- Light Screen<br />
+- Reflect<br />
+- Memento<br />
+- Thunder Wave<br /></p>
+ 
+<p>Uxie is the choice for dual screens over Mewtwo and Latios for a few reasons. Uxie boasts the ability to use Memento, which works better then Selfdestruct for getting Mew in safely, because Selfdestruct gives the opponent a free switch too. Over Latios, Uxie has more bulk, which makes it easier to successfully put up both screens. In a pinch, Memento can be used without screens and Mew's bulk should allow it to survive a hit or so, but it is risky. Thunder Wave is useful for an obvious switch, and lets you choose your first screen accordingly, rather than blindly hoping you pick the right one. The EVs provided give Uxie considerable bulk on both the special and physical sides.</p>
+ 
+<h4>The Baton Passer</h4>
+ 
+<p><img src="/download/sprites/dp/151.png" alt="Mew" /><br />
+<strong>Mew</strong> @ Lum Berry<br />
+EVs: 244 HP / 56 SpD / 210 Spe<br />
+Calm nature (+SpD, -Atk)<br />
+- Baton Pass<br />
+- Nasty Plot<br />
+- Taunt<br />
+- Rock Polish<br /></p>
+ 
+<p>What good is an Ubers Baton Pass team without Mew? Mew nearly always provides a +2 in Special Attack and Speed to a recipient, as long as you can manage to get Reflect and Light Screen up. Lum Berry is there to act as a safeguard against status, as Taunt means nothing can phaze Mew. It is important to not get greedy with boosts, as it is easy to lose Mew that way, and 1 Nasty Plot and 1 Rock Polish will usually suffice. However, stall teams will usually have a much harder time dealing with this little pixie, so it is fine to go for multiple Nasty Plots while forgoing Rock Polish, as stall teams very rarely use fast Pokemon that can threaten Dialga, and Dialga needs 2 Nasty Plots to safely beat Blissey.</p>
+ 
+<h4>The Recipient Sweeper</h4>
+ 
+<p><img src="/download/sprites/dp/488.png" alt="Dialga" /><br />
+<strong>Dialga</strong> @ Lum Berry<br />
+EVs: 72 HP / 252 SpA / 186 Spe<br />
+Timid nature (+Spe, -Atk)<br />
+- Dragon Pulse<br />
+- Aura Sphere<br />
+- Flamethrower<br />
+- Thunderbolt<br /></p>
+ 
+<p>Dialga is our main recipient for Mew's Baton Pass because of its great type coverage, power, and resistance to most priority attacks. With +2 Special Attack and Speed, Dialga can plow through most of the metagame, being able to take at least one hit with its decent bulk and to use Lum Berry to block status from pests like Blissey. Speaking of Blissey, with +2, Dialga can't muscle past the ball of fat, but she is rarely seen outside of a stall team, meaning you can usually get more than one Nasty Plot. Dragon Pulse maims anything that doesn't resist it, so Thunderbolt and Flamethrower are there to crush the Steel-types that do, no matter the weather. Finally, Aura Sphere does a truck load to Blissey, Heatran, and opposing Dialga. The EVs are designed to let Dialga outspeed Scarfed Shaymin-S after a Rock Polish is passed to it.</p>
+ 
+<h4>Back-up Recipient</h4>
+ 
+<p><img src="/download/sprites/dp/504.png" alt="Giratina-O" /><br />
+<strong>Giratina-O</strong> @ Griseous Orb<br />
+EVs: 36 HP / 252 Spe / 220 SpA<br />
+Timid nature (+Spe, -Atk)<br />
+- Shadow Ball<br />
+- Substitute<br />
+- Aura Sphere<br />
+- Calm Mind<br /></p>
+ 
+<p>Giratina-O is a great choice as a back-up sweeper for Dialga because it achieves perfect coverage with Shadow Ball and Aura Sphere, as well as having a way to set up by itself if something goes wrong. Another reason Giratina-O is used as a back-up Baton Pass recipient is because if a Pokemon like Groudon comes into Mew, Mew can't safely pass its boosts to Dialga, but it can pass them to Giratina-O, who has a handy immunity to Earthquake. Substitute allows Giratina-O to block status if necessary, but be careful, as it has no way to recover the lost health. Giratina-O also acts as a spinblocker for this team, as it would be a shame for Deoxys-S's work to go waste.</p>
+ 
+<h4>The Clean Up</h4>
+ 
+<p><img src="/download/sprites/dp/382.png" alt="Kyogre" /><br />
+<strong>Kyogre</strong> @ Choice Scarf<br />
+EVs: 4 HP / 252 Spe / 252 SpA<br />
+Timid nature (+Spe, -Atk)<br />
+- Thunder<br />
+- Surf<br />
+- Sleep Talk<br />
+- Ice Beam<br /></p>
+ 
+<p>Kyogre's has two purposes: to come in if the Baton Pass recipient dies, and to absorb Darkrai's Dark Void. The first is its most important role, and it works as a great clean-up Pokemon with powerful Surfs under the rain, while Ice Beam and Thunder are for Dragons and opposing Water-types, respectively. Kyogre's second purpose is to come in on a Dark Void and Sleep Talk a powerful attack back at Darkrai. Be warned, however, as Sleep Talk can only be used once with a Choice item. Kyogre needs Choice Scarf as its item to effectively clean up a weakened team.</p>
+ 
+<h2><a name="trick">The Trick Room Factor</a></h2>
+ 
+<p>In Ubers, Pokemon are generally EVed to outspeed other Pokemon. Examples are Lugia being trained to outspeed Groudon and Rayquaza, and Latias being trained to outspeed Palkia. Trick Room reverses all of these, making these attempts at outspeeding useless. Therefore, hard-hitting and slow-moving Pokemon work extremely well under Trick Room. Some of these Pokemon are Dialga, Giratina-O, Kyogre, and Groudon. However, the Trick Room strategy has a big drawback in that it only lasts for four turns, not including the turn it is set up. Therefore, one must pack enough Trick Room users to keep the field effect up throughout the battle.</p>
+ 
+<p>Why would one use a turn and a moveslot to set up Trick Room, especially when time and space are such necessary commodities in Ubers? Trick Room can allow powerful but slow Pokemon such as Groudon or Dialga to make an impact. Of course, Pokemon that can set up Trick Room safely are also necessary. Usually, Pokemon that are used to set up Trick Room in Ubers are sturdy specimens such as Dialga, who is arguably the best Trick Room user in the game thanks to its fortuitous Dragon / Steel typing and decent defensive stats. Obviously, one would not leave the Trick Room supporting to something like Deoxys-A.</p>
+ 
+<h2><a name="help">Additional Help</a></h2>
+ 
+<p>If, after reading this guide, you feel that your Ubers skills are still lacking, there are some resources on Smogon's forums that can help you. First and foremost, there's the first section of the Ubers Guide, which can help you with the basics. Second, there is also another section to this guide, called <a href="/dp/articles/uber_battling">Basic Ubers Guide</a>, that has detailed information about Arceus and its many uses. There's also the <a href="/forums/forumdisplay.php?f=84"> Rate My Team Archive</a>, where great teams are saved, including Ubers teams, which can aid you in building a team. You can also use the <a href="/forums/forumdisplay.php?f=57">Warstory Archive</a> to get ideas for teams, and also to see how an Ubers match plays out. There's also the <a href="/forums/showthread.php?t=52261">Project Uber</a> thread in Stark Mountain, which, while currently closed, still has many pages on the uses of non-Uber Pokemon in the Ubers metagame. Furthermore, there is a more <a href="/forums/showthread.php?t=49710">general thread</a> on Ubers, which contains some basic answers and strategies. If you can't seem to find a lead that fits your team, you can look in the <a href="/forums/showthread.php?t=67414">Uber Leads thread</a>, which is still a work in progress. In addition, if you have a simple query, you can check the Ubers <a href="/forums/showthread.php?t=62951">Simple Questions Simple Answer</a> thread. Finally, you can stop by the <a href="/forums/forumdisplay.php?f=42">Battling 101 Forum</a> and sign up for Ubers tutoring when a new round starts.</p>

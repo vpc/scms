@@ -1,0 +1,254 @@
+[title]
+Get Your Priorities Straight - A Guide to Priority Attacks in the OU Tier
+[head]
+<meta name="description" content="A guide to priority attacks and users in the OU tier, thanks to zarator." />
+[page]
+<div class="author">By <a href="/forums/member.php?u=18580">zarator</a>. Art by <a href="/forums/member.php?u=173369">Magistrum</a>.</div>
+
+<div style="text-align: center;"><img src="/media/upload/bw/articles/oupriority_empoleon.png" alt="" /></div>
+ 
+<ol class="toc">
+<li><a href="#intro">Introduction</a></li>
+<li><a href="#mechanics">Priority Mechanics</a></li>
+<li><a href="#moves">In-depth analyses</a>
+<ul>
+<li><a href="#aqua_jet">Aqua Jet</a></li>
+<li><a href="#bullet_punch">Bullet Punch</a></li>
+<li><a href="#extremespeed">ExtremeSpeed</a></li>
+<li><a href="#fake_out">Fake Out</a></li>
+<li><a href="#ice_shard">Ice Shard</a></li>
+<li><a href="#mach_punch">Mach Punch</a></li>
+<li><a href="#quick_attack">Quick Attack</a></li>
+<li><a href="#shadow_sneak">Shadow Sneak</a></li>
+<li><a href="#sucker_punch">Sucker Punch</a></li>
+<li><a href="#vacuum_wave">Vacuum Wave</a></li>
+</ul></li>
+<li><a href="#against">Playing against priority</a></li>
+<li><a href="#conclusion">Conclusion</a></li>
+</ol>
+ 
+<h2><a name="intro">Introduction</a></h2>
+<p><em>The ability to attack before the opponent... Just that alone puts me at a great advantage, don't you agree?</em></p>
+ 
+<p>In a metagame where a sweeper can outspeed even the fastest users of Choice Scarf without any kind of setup, and where powerful setup moves such as Dragon Dance, Rock Polish, and Quiver Dance loom at every corner, priority attacks stand out as one of the most reliable checks to the many speedy threats present. This guide will analyze the existing priority attacking moves, focusing on how can they be used to ward off opposing sweepers and pull off a sweep on their own.</p>
+ 
+<h2><a name="mechanics">Priority Mechanics</a></h2>
+<p>Whenever you read about priority moves in general - not just attacks - you will often find the expression "priority bracket." What does it mean? The priority bracket is a number associated to each move. <a href="/bw/articles/priority">Here</a> you can find an extensive list and in-depth explanation of the concept. As far as it concerns us, what matters is that a move with a higher priority bracket than another one will always be executed first, regardless of the Speed stats of their respective users. On the contrary, if the two moves have the same priority bracket, Speed stats will determine which goes first, as usual.</p>
+ 
+<p>For example, Quick Attack has a priority bracket of +1. This means that if you use Quick Attack against someone who is using, say, Flamethrower (a +0 priority bracket move), the Quick Attack user will always go first. However, if the opponent of said user opted for ExtremeSpeed (which features a priority bracket of +2), the ExtremeSpeed user would go first. If both Pokemon were to use Quick Attack, their respective Speed stats will decide who will get their attack in first.</p>
+ 
+<h2><a name="moves">In-depth analyses</a></h2>
+ 
+<h3><a name="aqua_jet" href="/bw/moves/aqua_jet">Aqua Jet</a></h3>
+ 
+<p>In the transition to the newest generation, Aqua Jet rose significantly in popularity, for several reasons. It was already unique among priority moves because it was the only one to get a boost from a specific weather condition (rain), but Gen V introduced the Drizzle ability, via Dream World Politoed, into the OU metagame, enormously improving its viability. Moreover, teams which carry Drizzle Politoed cannot use Pokemon with the ability Swift Swim, making Aqua Jet even more appealing as a sweeping tool.</p>
+ 
+<p>But it doesn't end here. The new generation brought several powerful and fast threats, many of whom can boost their speed to frightening levels. Rock Polish Landorus, Rock Polish Terrakion, and Quiver Dance Volcarona can easily steamroll entire teams with their might and their quickness. They all have a crucial flaw, however: they are weak to Water-type attacks. This is where Aqua Jet comes in, putting a halt to their sweeps before it's too late.</p>
+ 
+<p>Quite a few Pokémon can make good use of this priority move, although almost all of them require rain support to be usable in OU. Azumarill immediately springs to mind, with his gargantuan Attack stat rivaling the ones of Groudon and Zekrom. Sharpedo, despite having Speed Boost to get the jump on faster enemies, often use this move when he still doesn't have enough boosts under his belt (or, sometimes, to outpace other priority attack users). Feraligatr can abuse his Torrent ability and Swords Dance to mop the floor with weakened teams. Several other Pokemon boast Aqua Jet and Swords Dance, but most of them lack the defenses to set up.</p>
+ 
+<p>Whether you employ Aqua Jet to mow through the opposition under the rainfall, or to ward yourself off a similar treatment, this move definitely made a splash in the OU metagame, and earned its place among the old standards.</p>
+ 
+<p><img src="/download/sprites/bw/184.png" alt="" /><br />
+Azumarill @ Choice Band<br />
+Ability: Huge Power<br />
+EVs: 212 HP / 252 Atk / 44 Spe<br />
+Nature: Adamant (+Atk, -SpA)<br />
+- Aqua Jet<br />
+- Superpower<br />
+- Waterfall<br />
+- Ice Punch / Return</p>
+ 
+<p>Azumarill's massive 654 Attack stat lets him use Aqua Jet to great effect. Frailer sweepers with a Water-type weakness, such as Volcarona, are outright knocked out (Volcarona is not safe even under the sun, as it is still OHKOed over 50% of the time after Stealth Rock damage). If rain is falling, bulkier ones like Landorus and Terrakion stand no chance, either. Aqua Jet's power under rain is so extreme that even Pokemon resisting it, such as Haxorus, are in trouble should they fall below one third of their life total. On top of it, crucial coverage moves like Superpower and Ice Punch ensure that almost nothing can switch in safely against Azumarill. </p>
+ 
+<h3><a name="bullet_punch" href="/bw/moves/bullet_punch">Bullet Punch</a></h3>
+ 
+<p>While not as popular as it used to be, Bullet Punch is still a fairly common sight in the OU metagame. Steel may not be renowned as an attacking type due to its lack of coverage, but no Pokemon besides Shedinja is immune to it. Moreover, even if Fire, Water, and Electric are all common types, many important sweepers do not belong to any of those, and quite a few actually happen to be weak to Steel-type attacks (most notably Terrakion).</p>
+ 
+<p>Bullet Punch has few but competent users. Scizor stands up above all the others, thanks to his wonderful Technician ability. Metagross can use this move to bypass its low Speed and revenge kill weakened opponents (although the damage output is a bit less impressive than in Scizor's case). Lucario sometimes uses it in tandem with ExtremeSpeed to punish Ghost- and Rock-types who attempt to stop him. Machamp lacks STAB, but he still finds Bullet Punch useful to pick off the likes of Gengar and Latios (and in particular, any Pokemon carrying a Focus Sash).</p>
+ 
+<p>It probably isn't the strongest priority attack out there, or the most effective one, but that's not reason enough to underestimate its usefulness. Bullet Punch is still the best option, among priority attacks, against a wide range of foes, from the Rock-type menaces like Tyranitar and the aforementioned Terrakion to the ever threatening Dragon-types.</p>
+ 
+<p><img src="/download/sprites/bw/212.png" alt="" /><br />
+Scizor @ Choice Band<br />
+Ability: Technician<br />
+EVs: 248 HP / 252 Atk / 8 Spe<br />
+Nature: Adamant (+Atk, -SpA)<br />
+- Bullet Punch<br />
+- U-turn<br />
+- Superpower<br />
+- Pursuit / Quick Attack</p>
+ 
+<p>Unsurprisingly, Scizor is still the most effective user of Bullet Punch. Thanks to Technician, the Steel-type mantis can revenge kill a lot of sweepers, often even if they resist the hit. Volcarona, for example, takes around 40% damage despite the resistance brought by his Fire typing. Rock-types such as Terrakion are obliterated instantly, and even neutral targets like Dragonite will get 2HKOed. Again, no Pokemon is complete without some moves to complement his priority attack, and Scizor makes no exception. U-turn allows him to scout and punch holes into threats such as Rotom-W which would otherwise wall Bullet Punch. Superpower annihilates most Steel-type Pokémon, and Pursuit makes for a wondrous trapper. Alternatively, Quick Attack doubles as a priority attack.</p>
+ 
+<h3><a name="extremespeed" href="/bw/moves/extremespeed">ExtremeSpeed</a></h3>
+ 
+<p>ExtremeSpeed has several advantages over its alternatives. First of all, 80 Base Power sets it apart from any other priority move besides the unreliable Sucker Punch, making it the strongest priority attack without any kind of drawback in the game. Sadly, most users of this move do not have STAB on it, meaning that other priority moves can outdamage it when backed by STAB and Technician (or STAB and rain in the case of Aqua Jet). Still, many of its users boast very high Attack stats (with the exception of Togekiss, who makes up for it with the coveted STAB), and some can even boost it further with Dragon Dance or Swords Dance.</p>
+ 
+<p>A peculiar feature of ExtremeSpeed is that it sits on a priority bracket of +2. This allows the user to get the jump on most other priority attackers (which can prove fatal to the ones who lack a Normal-type resistance like Azumarill and Mamoswine). Often, however, this improvement doesn't matter, as all ExtremeSpeed users boast at least a base 80 Speed stat (often with significant EV investment). It can prove crucial in some cases, especially against Ice Shard.</p>
+ 
+<p>ExtremeSpeed may have not the best distribution, but almost all the Pokemon who learn this move can put it to good use. Dragonite is maybe the strongest user available, and can easily 2HKO a lot of troublesome threats such as Latios and Haxorus. Lucario can boost his Attack further with Swords Dance and sweep almost unhindered. Togekiss is the only user with STAB on the move, which makes up for the paltry Attack to a certain extent and allows for some unpredictable mixed sets (especially in tandem with Hustle).</p>
+ 
+<p>Thanks to its wide neutral coverage, its good Base Power, and some competent users, ExtremeSpeed is a solid, if not common, threat and one of the most reliable priority moves out there.</p>
+ 
+<p><img src="/download/sprites/bw/149.png" alt="" /><br />
+Dragonite @ Choice Band<br />
+Ability: Multiscale<br />
+EVs: 252 Atk / 4 Def / 252 Spe<br />
+Nature: Adamant (+Atk, -SpA)<br />
+- ExtremeSpeed<br />
+- Outrage<br />
+- Waterfall<br />
+- Fire Punch / Dragon Claw</p>
+ 
+<p>Dragonite is very well designed for the use of ExtremeSpeed. His great Attack stat gives him the necessary punch to pull the job. Moreover, he has an offensive presence most priority attackers wish they could have, allowing Dragonite to avoid becoming setup bait more often than not (or at least, preventing him from being predicted too easily). Dragon-, Fire-, and Water-type attacks attain perfect coverage, giving Dragonite the chance to be much more than a mere revenge killer.</p>
+ 
+<h3><a name="fake_out" href="/bw/moves/fake_out">Fake Out</a></h3>
+ 
+<p>Fake Out is fairly unique among priority attacks. It can only be used on the first turn the user is out on the battlefield, meaning it is nonviable as a Choiced move. It also has an interesting side effect - the ability to flinch any Pokemon lacking Inner Focus, Shield Dust, or the Ghost typing can prove really neat at times. It is also the fastest priority attack in the game, surpassing even ExtremeSpeed.</p>
+ 
+<p>How do these points affect Fake Out's viability, compared to the other priority attacks? The first thing which should be noted is that this move has almost no sweeping potential, and serves better as a check to other fast sweepers (or even to opposing priority users). But most importantly, Fake Out is a scouting move with the element of surprise. In a metagame where the information warfare is played on the level of movesets rather than whole Pokemon, discovering which item the opponent is holding as soon as possible can make the difference. Dealing moderate damage and flinching the foe, Fake Out allows the user to check if the opponent is carrying Leftovers or not, a piece of information which often can tell a lot about which moveset the target is running (especially with threats such as Politoed who are known for carrying Leftovers or a Choice item). And while the damage inflicted by Fake Out is mostly too low to gain an accurate picture of how much the opponent invested in Defense, it is often enough to tell whether you're facing something with max HP EVs or a sweeping spread (max Speed and Atk or SpA).</p>
+ 
+<p>There are a handful of promising Fake Out users, but most of them have better things to do (like Scrafty and Infernape). Mienshao stands out since he is already a very good scout with a high Attack stat, so he can make great use of Fake Out. Ambipom is the strongest user thanks to Technician, but aside from that he has little to brag about in OU and finds it hard to compete with the likes of the aforementioned Mienshao. Hitmontop could use it, since he also has Technician, but he has a whole host of better priority moves to choose from and struggles to fit in the OU environment as well.</p>
+ 
+<p>In conclusion, Fake Out is more useful as a utility move which allows the user to gain information on the opponent, rack up damage throughout the match, (especially in tandem with weather and / or Toxic Spikes) and only sometimes actually revenge kill something.</p>
+ 
+<p><img src="/download/sprites/bw/650.png" alt="" /><br />
+Mienshao @ Life Orb<br />
+Ability: Regenerator<br />
+EVs: 252 Atk / 4 SpA / 252 Spe<br />
+Nature: Naive (+Spe, -SpD)<br />
+- Fake Out<br />
+- Hi Jump Kick<br />
+- U-turn<br />
+- Hidden Power Ice</p>
+ 
+<p>Mienshao is an excellent user of Fake Out, showing very well the value of this move as an utility tool of scouting. Thanks to Regenerator, Mienshao can switch and come in later repeatedly, allowing him to Fake Out multiple times, racking up a lot of residual damage. While said Fake Out doesn't pack a lot of power (especially when lacking STAB), 349 Attack and a Life Orb gives it quite a punch, allowing Mienshao to not only get a more accurate idea of which EVs the opponent is running, but also to effectively revenge kill sweepers. U-turn makes the scouting job even easier, avoiding annoying double switches and keeping momentum going. And finally, unlike most scouts, Mienshao packs an enormously powerful STAB in Hi Jump Kick, as well as a neat coverage move like Hidden Power Ice to kill common Fighting-type resistors like Gliscor.</p>
+ 
+<h3><a name="ice_shard" href="/bw/moves/ice_shard">Ice Shard</a></h3>
+ 
+<p>Ice Shard is one of the less commonly used priority attacks, mainly because Ice is such a terrible type defensively - and like other priority moves, Ice Shard almost always needs STAB to function properly. A pity, because the same Ice STAB, when used offensively, can be deadly with its wide super effective coverage, lack of immunities, its ability to hit some notable sweepers with super effective damage.</p>
+ 
+<p>To expand on this point, many Ice-type-weak Pokemon thrive on a resistance to some kind of priority move. Flying-types endure Mach Punch and Vacuum Wave easily, and the Dragon-types soak up Aqua Jet. But all of them fall to the frigid power of Ice Shard, making this move - at least on paper - one of the potentially best priority moves available. It would probably be used much more often, if it weren't for the inherent flaws of the Ice typing.</p>
+ 
+<p>Still, this move can be salvaged by some decent users. Weavile may look like an odd choice at first, since he already has a very good 125 Speed stat. But when you take into account the ever common Dragon Dance users such as Haxorus and Salamence, you'll find Weavile has plenty of opportunities to abuse it. Mamoswine has a very solid base 130 Attack stat to work with, and lacks the Stealth Rock weakness which plagues many Ice Shard users. Donphan may lack in power - even with a potential 372 Attack stat, Ice Shard is quite underwhelming without STAB - but he still can pick off weakened Dragon-types such as Latios.</p>
+ 
+<p><img src="/download/sprites/bw/478.png" alt="" /><br />
+Mamoswine @ Life Orb<br />
+Ability: Snow Cloak<br />
+EVs: 4 HP / 252 Atk / 252 Spe<br />
+Nature: Adamant (+Atk, -SpA)<br />
+- Ice Shard<br />
+- Earthquake<br />
+- Icicle Crash<br />
+- Stone Edge</p>
+ 
+<p>Mamoswine is one of the few Ice-type Pokemon which can actually work in OU. Ice Shard, whether you opt for Life Orb or Choice Band, packs a lot of power. It may not be as strong as Technician Bullet Punch or rain-boosted Aqua Jet, but since Ice Shard will hit its intended targets super effectively (much more often than Bullet Punch, anyway), this will rarely be an issue. On top of it, Mamoswine can do a lot of other things with his awesome Attack stat. Icicle Crash and Earthquake provide him with a STAB combination which leaves very little stuff uncovered, and Stone Edge patches such gaps almost perfectly.</p>
+ 
+<h3><a name="mach_punch" href="/bw/moves/mach_punch">Mach Punch</a></h3>
+ 
+<p>Another move which gained quite a bit more usage in the transition to the new generation, Mach Punch benefits from running off a very good attacking and defensive type, often meaning that its users can do much more than the revenge killing job. Its only drawback, compared to other priority moves, is that several important sweepers resist it. As such, Mach Punch is slightly more suited for sweeping than it is to check opposing Pokémon (although revenge killing Terrakion is always nice).</p>
+ 
+<p>Even then, though, Mach Punch is by no means a bad move. As a sweeping move, in fact, it benefits from the fact most users can boost their Attack stat with Bulk Up or Swords Dance. Moreover, the amount of super effective coverage is astounding. And while it is indeed resisted by quite a few types, most of them are Rock-type weak, which means that Stealth Rock support will help immensely. The exceptions are Poison-type Pokemon, but they're not as common.</p>
+ 
+<p>Conkeldurr stands out from the other users of Mach Punch because he possesses the bulk to set up comfortably against a fair range of enemies (including very common threats like Tyranitar and Ferrothorn). Infernape has a lot more trouble finding room to use Swords Dance, and often fails even to include Mach Punch in his movepool because of coverage issues. Breloom is helped by the invaluable Spore, which is often enough to buy him the free turn required to set up. Furthermore, with the release of Black and White 2, he gained the Technician ability, putting his Mach Punch at the exact same terrifying level of power as Scizor's Bullet Punch. However, the mushroom doesn't benefit from being stopped cold by quite a few Pokemon. Finally, as noted before in the case of Bullet Punch, Hitmontop is a fantastic user of weaker priority moves thanks to Technician and STAB on Fighting-type moves; he has the strength to actually hurt his intended targets (for example, Terrakion can take up to 70% damage).</p>
+ 
+<p><img src="/download/sprites/bw/562.png" alt="" /><br />
+Conkeldurr @ Leftovers<br />
+Ability: Guts<br />
+EVs: 120 HP / 252 Atk / 136 SpD<br />
+Nature: Brave (+Atk, -Spe) or Adamant (+Atk, -SpA)<br />
+- Mach Punch<br />
+- Drain Punch<br />
+- Bulk Up<br />
+- Payback / Stone Edge</p>
+ 
+<p>Conkeldurr is the premier Mach Punch sweeper in the metagame, and for good reason. Thanks to a frightening base 140 Attack, he can quickly boost the power of Mach Punch with Bulk Up to the point where it can OHKO or 2HKO the entire opposing team. At the same time, however, it has the bulk to switch into the likes of Terrakion to revenge kill them, and Drain Punch can extend his lifespan further. The fourth moveslot is mainly for a coverage option to deal with threats which pack a Fighting-type resistance.</p>
+ 
+<h3><a name="quick_attack" href="/bw/moves/quick_attack">Quick Attack</a></h3>
+ 
+<p>Quick Attack is one of the less used priority attacks, mainly because it lacks in power to actually be useful. Its possible users often lack STAB on it, and the fact that Normal-type attacks don't hit anything super effectively hardly helps. It shares all of ExtremeSpeed's issues, without boasting any of the benefits (besides the decent neutral coverage).</p>
+ 
+<p>This however doesn't mean Quick Attack is useless. When boosted by Technician, Choice Band, or a setup move, this move can dent foes remarkably hard, often when they least expect to be revenge killed. Perhaps this is the biggest advantage of Quick Attack: it can allow you to revenge kill some sweepers you couldn't otherwise deal with using the other priority moves. Sure, ExtremeSpeed does the same thing, but Quick Attack has a larger distribution, giving you more freedom in team building. Still, even if there are some potentially good users available, like Terrakion and the aforementioned Scizor, you'll often find that there are better options to go with.</p>
+ 
+<p><img src="/download/sprites/bw/669.png" alt="" /><br />
+Terrakion @ Choice Band<br />
+Ability: Justified<br />
+EVs: 4 HP / 252 Atk / 252 Spe<br />
+Nature: Adamant (+Atk, -SpA)<br />
+- Quick Attack<br />
+- Close Combat<br />
+- Stone Edge<br />
+- X-Scissor</p>
+ 
+<p>Choice Band Terrakion is one of the few Pokemon which can afford to use Quick Attack, mainly because its typing is so good offensively that he hardly needs coverage moves. Moreover, when boosted by a Choice Band, 357 Atk is enough to actually deal some damage. Sure, it will deal slightly more than 30% damage to Volcarona (let alone bulkier Pokémon like Landorus or Haxorus), but it can still be useful at times.</p>
+ 
+<h3><a name="shadow_sneak" href="/bw/moves/shadow_sneak">Shadow Sneak</a></h3>
+ 
+<p>Shadow Sneak is probably the rarest priority attack you will see in OU, mainly because of its really bad distribution. You will be hard pressed finding any Pokemon learning this move with any viability in the Standard environment, and even then, most of them either have unimpressive Attack stats (such as Dusknoir or Spiritomb) or lack STAB (as in the case of Gallade and Muk). The only exceptions are Banette, who has better things to do should it ever show his face in OU, and Giratina, who is an Uber.</p>
+ 
+<p>Still, it's not like Shadow Sneak would be extremely valuable in the Standard metagame. Most common threats are either neutral to it, or resist it outright. The only possible targets would be Gengar, Latios, and Reuniclus, who should be revenge killed with priority only under Trick Room. On top of it, Scizor can switch into all of them, and his Technician-boosted Bullet Punch is stronger than a super effective, non-STAB Shadow Sneak. Yeah, it is that bad.</p>
+ 
+<p><img src="/download/sprites/bw/480.png" alt="" /><br />
+Gallade @ Life Orb<br />
+Ability: Steadfast<br />
+EVs: 4 HP / 252 Atk / 252 Spe<br />
+Nature: Adamant (+Atk, -SpA)<br />
+- Swords Dance<br />
+- Close Combat<br />
+- Ice Punch / Stone Edge<br />
+- Shadow Sneak</p>
+ 
+<p>This is probably one of the few viable ways to use Shadow Sneak in OU. After a Swords Dance, Gallade will pack a hefty 766 Attack, further boosted by Life Orb. This actually allows him to OHKO Latios and Gengar among other things (although the former requires Stealth Rock to ensure the kill), even though he will do 81.9% at max to TR Reuniclus, and barely 2HKOes Bold variants. Luckily, for the slower opponents, Gallade has a pretty strong Close Combat (which actually out-damages a super effective Shadow Sneak), but really, this is as good as it gets.</p>
+ 
+<h3><a name="sucker_punch" href="/bw/moves/sucker_punch">Sucker Punch</a></h3>
+ 
+<p>"High risk, high reward" would describe Sucker Punch perfectly. This priority move can be pretty strong, indeed, as it shares the same 80 Base Power of ExtremeSpeed, and several users with very good Attack stats get STAB on it. However, again, Sucker Punch suffers from the same syndrome of Ice Shard - as good as the Dark-type may be offensively, it is pretty mediocre defensively. The OU metagame is filled with several strong Fighting-type sweepers, many of which can eat any Dark-type for lunch with ease. The three OU Pokemon with this type - Tyranitar, Hydreigon, and Scrafty - do not even learn the move. Moreover, much like Shadow Sneak, there aren't a lot of threats you'd want to hit super effectively with Sucker Punch. And to make things worse, the aforementioned Fighting-types resist the move (and in the case of the legendary trio, even take advantage of it to boost their Attack stats with Justified).</p>
+ 
+<p>It is not all doom and gloom for the ambushing attack, though. Unlike Ice Shard, it has a Base Power which makes it usable even without STAB, just like ExtremeSpeed. Sure, it is a bit more situational than Ice Shard, and relies a bit on prediction, but still has some potential. And unlike ExtremeSpeed, it has better coverage, pairing very well with Fighting-type attacks in particular. This allows Sucker Punch users to run less attacking moves, and focus on setup or support options. For example, Bisharp and Toxicroak often abuse this move in tandem with Fighting-type attacks to decimate teams lacking a good Dark-type resistance like Terrakion.</p>
+ 
+<p>One thing which should be noted, though, is that Sucker Punch is very risky as a check to faster Pokemon. More often than not, said faster Pokémon pack one (if not two) setup moves, with much more PP than the measly 8 PP of Sucker Punch. This allows them to easily outstall the Sucker Punch user, or at the very least to force a troubling gamble which won't work in favor of the priority attacker all the time. To make things worse, they could use Substitute to basically neuter the threat of Sucker Punch and turn the tables. And although not as problematic, a faster (or slower under Trick Room) user of a priority move, or any user of ExtremeSpeed, will go before Sucker Punch and therefore make the move fail. Sucker Punch shines more as a sweeping attack, and should be used as such. There are better, more reliable options for checking setup sweepers anyway.</p>
+ 
+<p><img src="/download/sprites/bw/459.png" alt="" /><br />
+Toxicroak @ Life Orb / Leftovers<br />
+Ability: Dry Skin<br />
+EVs: 4 HP / 252 Atk / 252 Spe<br />
+Nature: Adamant (+Atk, -SpA)<br />
+- Swords Dance<br />
+- Cross Chop<br />
+- Sucker Punch<br />
+- Ice Punch</p>
+ 
+<p>Thanks to the never-ending rain Drizzle provides, Toxicroak can boast a decent amount of bulkiness despite his seemingly mediocre defensive stats. This allows him to set up quite reliably, and sweep the field with his good coverage. In this case, Sucker Punch has the chance to work mainly because the opponent will have a hard time over-predicting Toxicroak. Each failed gamble, in fact, probably means that either the foe is dead (like Latios using Recover or Calm Mind and then eating an Ice Punch) or Toxicroak sets up another Swords Dance, meaning that if he gets past the supposed check, he will sweep.</p>
+ 
+<h3><a name="vacuum_wave" href="/bw/moves/vacuum_wave">Vacuum Wave</a></h3>
+ 
+<p>Fighting-types rarely boast good Special Attack stats, and many of the ones which do come from BW and therefore couldn't pick Vacuum Wave as a tutor move. However, Vacuum Wave actually has some potential despite its limited distribution. As noted for Mach Punch, in fact, Fighting is a good attacking type and can allow threats to sweep quite reliably, especially with Stealth Rock support.</p>
+ 
+<p>What really penalizes Vacuum Wave is the really bad distribution. And this doesn't hint only to the move itself, but also to the complementary moves which are so important to make priority moves work. While Swords Dance is a TM with very generous distribution, for example, Nasty Plot is much more uncommon. Bulk Up is learned by nearly all Fighting-types, but Calm Mind has only a few users among them.</p>
+ 
+<p>Luckily for Vacuum Wave, though, there isn't the same type of "wrong user syndrome" which affects Sucker Punch, for example. Whereas the latter is missed on some potentially awesome users, for example, Vacuum Wave shows up just on the few right Pokemon to make it work, and all of them are gifted with either Calm Mind or Nasty Plot - often with both. For example, Infernape and Lucario can deliver respectable amounts of damage, once they have pulled off a Nasty Plot. It may not have the same availability of its physical counterpart, but Vacuum Wave is definitely usable in OU and has its merits. Its only real defect, if anything, is that Terrakion has higher Special Defense in a sandstorm, and so can't be revenge killed like with the other priority moves.</p>
+ 
+<p><img src="/download/sprites/bw/453.png" alt="" /><br />
+Lucario @ Life Orb<br />
+Ability: Inner Focus<br />
+EVs: 4 HP / 252 SpA / 252 Spe<br />
+Nature: Modest (+SpA, -Atk)<br />
+- Nasty Plot<br />
+- Vacuum Wave<br />
+- Aura Sphere<br />
+- Dark Pulse</p>
+ 
+<p>Much like Lucario abused Swords Dance ExtremeSpeed in the last generation (and still does nowadays from time to time), the gift he received in the form of Nasty Plot allows him to sweep on the special side as well. And when backed by a respectable 115 base Special Attack stat, Vacuum Wave can really lay the hurt on the opponent once boosted. Aura Sphere provides a more consistent STAB move, while Dark Pulse rounds off coverage.</p>
+ 
+<h2><a name="against">Playing against priority</a></h2>
+ 
+<p>Dealing with priority attackers can be quite annoying. On one hand, they limit your freedom to sweep. If you see an Azumarill on the opponent's team, for example, you know your Terrakion will have a hard time until the threat is removed. On the other hand, once they set up with Swords Dance or Nasty Plot, they can manage to sweep you almost effortlessly, while you watch helplessly as your team is wiped out without being able to react at all. The strongest, Choiced priority attackers could even sweep the field without any kind of previous setup, making it even more frustrating.</p>
+ 
+<p>Despite all their power, however, priority moves come with some issues. Most of them lack in power (even the likes of ExtremeSpeed because of the lack of STAB), and this means that most users will either be having a Choice item or needing setup before they can be effective. This is what you need to take advantage of, turning their revenge kill or their setup against them. Whenever their Scizor kills your Haxorus with Bullet Punch, it is an opportunity for something with a Steel-type resistance, like Ferrothorn, to come in and set up Spikes or Stealth Rock. If their Scizor is a Swords Dance variant instead, just switch in Rotom-W and watch as they're forced to switch out or suffer a burn from Will-O-wisp (or perhaps an outright KO from Hidden Power Fire or Hydro Pump).</p>
+ 
+<p>Long story short, priority moves always have a cost, be it the need of locking oneself into an attack or the need to spend one turn (or more) to set up. As long as you're able to take advantage of these opportunities and prevent the opponent from restricting your options to the point you can no longer take advantage of said opportunities - you should be fine, even if they are "faster" than you. The only exception here is Fake Out, but remember that most times you will not lose a game to Fake Out alone. If you prevent them from setting up those Toxic Spikes, keep rain going instead of sand, or do whatever you can to neutralize any way they can abuse Fake Out (which naturally also includes intelligent switching), you should not incur any trouble.</p>
+ 
+<h2><a name="conclusion">Conclusion</a></h2>
+ 
+<p>You should now hopefully have a clearer idea of how priority moves work, which options are available, and how to deal with them. Priority moves can be an asset to most teams, due to their function as "universal checks" to a multitude of threats, and at the same time they can give the necessary "Speed" a team requires to sweep the opponent. However, they are not foolproof, and can be turned against their users if one is not careful.</p>

@@ -1,0 +1,304 @@
+[title]
+Little Cup EV Spreads Guide
+[head]
+<meta name="description" content="A guide to achieve the maximum potential from EV points in Little Cup" />
+[page]
+<div class="author">By <a href="/forums/member.php?u=12694">eric the espeon</a> and <a href="/forums/member.php?u=40358">Oglemi</a>.</div>
+
+<ol class="toc">
+<li><a href="#intro">Introduction</a></li>
+<li><a href="#table">Table of EVs Required for Stat Gains</a></li>
+<li><a href="#stat">Stat Ranges</a></li>
+<li><a href="#demo">Demonstration</a></li>
+<li><a href="#hp">Hidden Power</a></li>
+</ol>
+
+<h2><a name="intro">Introduction</a></h2>
+
+<p>Little Cup is a metagame that is played at Level 5. As such, the stats are affected by EVs in a different matter. To be as efficient as possible, Pokemon at level 5 need a very different style of EV spread than that of level 100 Pokemon. This guide will attempt to explain how to achieve the maximum potential from the 510 EV points you have at your disposal.</p>
+
+<p>At level 5, there is a smaller gap when comparing Pokemon with Base Stats, and in many cases, there is no gap in a final stat despite the Base Stat being different. Take Hippopotas's base 72 Atk and Goldeen's base 67 Atk at level 100 with maximum EV investment in both, and we can see that Hippopotas beats Goldeen by 10 points (243 against 233). But if we take those same Pokemon and set them to Level 5, we find that they both have 16 Attack. Why is that? Wasn't Hippopotas stronger than Goldeen?</p>
+
+<p>This happens because EVs affect stats differently at Level 5, and some Base Stat numbers max out with fewer EVs than others. Extending our previous example, we can see that:</p>
+
+<ul>
+<li>Hippopotas has a Base 72 Attack and maxes out with 180 EVs, the final stat is 16.</li>
+<li>Growlithe has a base 70 Attack and maxes out with 196 EVs, the final stat is 16.</li>
+<li>Turtwig has a base 68 Attack and maxes out with 212 EVs, the final stat is 16.</li>
+<li>Goldeen has a base 67 Attack and maxes out with 220 EVs, the final stat is 16.</li>
+<li>Koffing has a base 65 Attack and maxes out with 236 EVs, the final stat is 16.</li>
+<li>Stunky has a base 63 Attack and maxes out with 252 EVs, the final stat is 16.</li>
+<li>Snover has a base 62 Attack and maxes out with 180 EVs, the final stat is 15.</li>
+</ul>
+
+<p>We can observe a pattern here. Turtwig and Goldeen have a 1 Base Stat point of difference between them, and they max out the stat with 8 EVs of difference. Koffing and Stunky have a Base Stat difference of 2, and max out by a difference of 16 EVs. Yet, it seems their Base Stats all belong to a certain group of Base Stat numbers where the stat maxes are 16 with a neutral nature. Except for Snover, Snover only hits 15 Attack, and it needs 180 EVs to reach it.</p>
+
+<p>What we can see from this is that we can organize Base Stats at level 5 by 'Stat Ranges'. A Stat Range is comprised of a range of Base Stat numbers which will max out to the same final stat, but require a different amount of EVs to do so. Stat Ranges start on a Base Stat number which ends in 3, and finish with a Base Stat number which ends in 2. So, the Stat Range for our example would be:</p>
+
+<ul>
+<li>63 (Stunky / 252 EVs)</li>
+<li>64</li>
+<li>65 (Koffing / 236 EVs)</li>
+<li>66</li>
+<li>67 (Goldeen / 220 EVs)</li>
+<li>68 (Turtwig / 212 EVs)</li>
+<li>69</li>
+<li>70 (Growlithe / 196 EVs)</li>
+<li>71</li>
+<li>72 (Hippopotas / 180 EVs)</li>
+</ul>
+
+<p>All these Base Stat numbers max out at 16 with a neutral nature. We can confirm that only these numbers belong to this range, since a Pokemon with a Base 62 Attack (Snover) at level 5 with a neutral nature can only reach 15 Attack (thus, 62 belongs to the range below); likewise, a Pokemon with Base 73 Speed, at level 5 and with a neutral nature maxes out at 17 Speed (thus, 73 belongs to the range above).</p>
+
+<p>We can then conclude that as the Base Stat nears the next range, it needs less and less EVs to max out. On the other hand, the nearer the number is to the previous range, the more EVs it needs to max out.</p>
+
+<p>The amount of EVs needed to gain stats is directly related to the last digit of the Base Stat number.</p>
+
+<h2><a name="table">Table of EVs Required for Stat Gains:</a></h2>
+
+<p>This table will tell you how many EVs you need to raise a stat a certain number of points. It all depends on what digit the Base Stat ends in.</p>
+
+<p>If the Base Stat number ends in # then - x/y/z EVs are required for 1/2/3/4 stat point gain:</p>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Number</th>
+<th>EVs required for Stat Gain</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3</td>
+<td>12 / 92 / 172 / 252 EVs</td>
+</tr>
+<tr class="a">
+<td>4</td>
+<td>4 / 84 / 164 / 244 EVs</td>
+</tr>
+<tr>
+<td>5</td>
+<td>76 / 156 / 236 EVs</td>
+</tr>
+<tr class="a">
+<td>6</td>
+<td>68 / 148 / 228 EVs</td>
+</tr>
+<tr>
+<td>7</td>
+<td>60 / 140 / 220 EVs</td>
+</tr>
+<tr class="a">
+<td>8</td>
+<td>52 / 132 / 212 EVs</td>
+</tr>
+<tr>
+<td>9</td>
+<td>44 / 124 / 204 EVs</td>
+</tr>
+<tr class="a">
+<td>0</td>
+<td>36 /116 / 196 EVs</td>
+</tr>
+<tr>
+<td>1</td>
+<td>28 / 108 / 188 EVs</td>
+</tr>
+<tr class="a">
+<td>2</td>
+<td>20 / 100 / 180 EVs</td>
+</tr>
+</tbody>
+</table>
+
+<p>These numbers apply to all stats, not just Speed.</p>
+
+<p>This means that the absolute minimum number of EVs to maximize a stat will be 180, and this will only happen if your Base Stat's last digit is a two. This means that investing more than 180 EVs in Rattata's Speed (base 72), Snover's Attack (base 62) or Hippopotas's Special Defense (base 42) will not get you any more stat points, so it is wasteful. This often leaves some "spare" EVs once you have invested all you need in two stats.</p>
+
+<p>On the other hand, the absolute maximum number of EVs you will need to max a stat is 252, this time only if your Base Stat's last digit is a three. Magby's Speed (base 83), Corphish's HP (base 43), and Shuppet's Special Attack (base 63) need the full 252 EVs to max out; however, they have the advantage in that your first stat point will only need 4 EVs.</p>
+
+<h2><a name="stat">Stat Ranges</a></h2>
+
+<p>A list of the Stat Ranges at level 5 follows. This will quickly tell you which number your Pokemon will reach once EVs are adjusted, depending on the Base Stat range it belongs to.</p>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Range</th>
+<th>Max</th>
+<th>HP</th>
+<th>Base</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RANGE 1</td> 
+<td>10 with a neutral nature, 11 with a positive nature
+<td>20</td>
+<td>5, 6, 7, 8, 9, 10, 11, 12</td>
+</tr>
+<tr class="a">
+<td>RANGE 2</td>
+<td>11 with a neutral nature, 12 with a positive nature</td>
+<td>21</td>
+<td>13, 14, 15, 16, 17, 18, 19, 20, 21, 22</td>
+</tr>
+<tr>
+<td>RANGE 3</td>
+<td>12 with a neutral nature, 13 with a positive nature</td>
+<td>22</td>
+<td>23, 24, 25, 26, 27, 28, 29, 30, 31, 32</td>
+</tr>
+<tr class="a">
+<td>RANGE 4</td>
+<td>13 with a neutral nature, at 14 with a positive nature</td>
+<td>23</td>
+<td>33, 34, 35, 36, 37, 38, 39, 40, 41, 42</td>
+</tr>
+<tr>
+<td>RANGE 5</td>
+<td>14 with a neutral nature, 15 with a positive nature</td>
+<td>24</td>
+<td>43, 44, 45, 46, 47, 48, 49, 50, 51, 52</td>
+</tr>
+<tr class="a">
+<td>RANGE 6</td>
+<td>15 with a neutral nature, at 16 with a positive nature</td>
+<td>25</td>
+<td>53, 54, 55, 56, 57, 58, 59, 60, 61, 62</td>
+</tr>
+<tr>
+<td>RANGE 7</td>
+<td>16 with a neutral nature, 17 with a positive nature</td>
+<td>26</td>
+<td>63, 64, 65, 66, 67, 68, 69, 70, 71, 72</td>
+</tr>
+<tr class="a">
+<td>RANGE 8</td>
+<td>17 with a neutral nature, 18 with a positive nature</td>
+<td>27</td>
+<td>73, 74, 75, 76, 77, 78, 79, 80, 81, 82</td>
+</tr>
+<tr>
+<td>RANGE 9</td>
+<td>18 with a neutral nature, 19 with a positive nature</td>
+<td>28</td>
+<td>83, 84, 85, 86, 87, 88, 89, 90, 91, 92</td>
+</tr>
+<tr class="a">
+<td>RANGE 10</td>
+<td>19 with a neutral nature, 20 with a positive nature</td>
+<td>29</td>
+<td>93, 94, 95, 96, 97, 98, 99, 100, 101, 102</td>
+</tr>
+<tr>
+<td>RANGE 11</td>
+<td>20 with a neutral nature, 21 with a positive nature</td>
+<td>30</td>
+<td>103, 104, 105, 106, 107, 108, 109, 110, 111, 112</td>
+</tr>
+<tr class="a">
+<td>RANGE 12</td>
+<td>21 with a neutral nature, 22 with a positive nature</td>
+<td>31</td>
+<td>113, 114, 115, 116, 117, 118, 119, 120, 121, 122</td>
+</tr>
+<tr>
+<td>RANGE 13</td>
+<td>22 with a neutral nature, 23 with a positive nature</td>
+<td>32</td>
+<td>123, 124, 125, 126, 127, 128, 129, 130, 131, 132</td>
+</tr>
+<tr class="a">
+<td>RANGE 14</td>
+<td>23 with a neutral nature, at 24 with a positive nature</td>
+<td>33</td>
+<td>133, 134, 135</td>
+</tr>
+<tr>
+<td>RANGE 15</td>
+<td colspan="3">Nonexistent for Little Cup, no eligible Pokemon with a Base Stat between 143 and 152</td>
+</tr>
+<tr class="a">
+<td>RANGE 16</td>
+<td>25 with a neutral nature, 26 with a positive nature</td>
+<td></td>
+<td>160</td>
+</tr>
+</tbody>
+</table>
+
+<p>*Range 1 starts at 5, the lowest Base Stat for a Pokemon allowed in Little Cup (Happiny's Attack / Munchlax's Speed.)</p>
+
+<p>**Range 14 ends at 135, the highest Base Stat number of its range before entering the next (Munchlax's HP).</p>
+
+<p>***Range 16 only includes Onix's Defense (160), as no other numbers enter this range. It is also the highest base stat of any Little Cup Pokemon.</p>
+
+
+<h2><a name="demo">Demonstration</a></h2>
+
+<p>To apply all this to a practical example, let's prepare an EV spread for a level 5 Totodile. We want it to be a physical sweeper, so first we will maximize Attack and Speed.</p>
+
+<p>Totodile's Base Stats are 50 HP / 65 Atk / 64 Def / 44 SpA / 48 SpD / 43 Spe</p>
+
+<p>Its Attack is Base 65, so it falls under Range 6. We will use a Jolly nature, so Attack will max out at 16. Since 65 ends in 5, according to the table its Attack will max at 236 EVs. So far our EV spread is 236 Atk.</p>
+
+<p>The Speed sits at Base 43. This is Range 5, so it will reach 15. It ends with 3, so we need 252 EVs to max it. The EV spread is now 236 Atk / 252 Spe.</p>
+
+<p>After investing in the stats that were the greatest priority, we still have 22 EVs to place. Since our Totodile does not intend to use its Special Attack stat, the next priority will be bolstering its defenses and HP. To gain a point in another stat, we need said stat to end in 2, 3, or 4. HP and the defenses end in 0 / 4 / 8, respectively. This means that you can get an extra 1 point in Def for 12 EVs, but with the spare EVs, it is impossible to reach a point in either HP or SpD. After adding 12 Def, the spread becomes 236 Atk / 12 Def / 252 Spe. There are 10 EVs remaining, but we can't get a single point with them so they will go to waste.</p>
+
+<p>Now take a level 5 Cyndaquil. We'll make this a mixed sweeper, with mainly special attacks.</p>
+
+<p>Cyndaquil's Base Stats are 39 HP / 52 Atk / 43 Def / 60 SpA / 50 SpD / 65 Spe. Using a Naive nature, we see that the Speed is in Range 6, giving us 17 Speed. Special Attack belongs to Range 5, maxing out at 15.</p>
+
+<p>65 ends in 5, so we'll make use of 236 EVs. The spread is 236 Spe.</p>
+
+<p>SpA ends in 0, so we'll have to invest 196 EVs to get to the maximum. This leaves us with 196 SpA / 236 Spe with 78 EVs remaining.</p>
+
+<p>We can gain a stat point more if one of the other base stats end in 5, 6, 7, 8, 9, 0, 1, or 2. On our priority list, Attack is next. Fortunately, Attack's Base Stat ends in 2, so we only need 20 EVs to up it 1 point, but we don't have enough EVs for two points. The spread is now 20 Atk / 196 SpA / 236 Spe with 58 EVs remaining.</p>
+
+<p>We can still gain a point if a Base Stat ends in 8, 9, 0, 1, 2, 3, or 4. Both HP and Def fit into this, but HP is more important so we will do it first. It ends in 9, so we need 44 EVs, making the EV spread 44 HP / 20 Atk / 196 SpA / 236 Spe.</p>
+
+<p>Now there are only 14 EVs left, but maybe we can still squeeze one more point out of them. Def ends with 3, so it only needs 12 to get that extra point, and we have just enough! Since we won't be able to up the other stats, we are left with a final EV spread of 44 HP / 20 Atk / 12 Def / 196 SpA / 236 Spe.</p>
+
+<p>On these two examples, we first maximized the two most important stats and then checked if there was a way to extract some juice from the leftover EVs, thus maximizing the points gained from the EVs. You may not think that it is important for just one or two points, but look at the differences between the spreads we just made and quick and easy 252 / 252 spreads:</p>
+
+<p><strong>Totodile:</strong><br />
+21 / 16 / 12 / 9 / 11 / 15<br />
+21 / 16 / 13 / 9 / 11 / 15</p>
+
+<p>It may not look much different, but with spread 2 you will take every physical attack 8% better. Is that worth a few seconds of your time?</p>
+
+<p><strong>Cyndaquil:</strong><br />
+20 / 11 / 10 / 15 / 9 / 17<br />
+21 / 12 / 11 / 15 / 9 / 17</p>
+
+<p>Quite an obvious change here, 9% more physical offense (almost as much as a nature boost!), and it takes special and physical hits 5% and 15.5% better, respectively. That will significantly help Cyndaquil in quite a few situations.</p>
+
+<h2><a name="hp">Hidden Power</a></h2>
+
+<p>If you ever need to change the IVs of a Pokemon for Hidden Power purposes, make sure you add 4 EVs for each IV you subtract. Here's an example to make this clear: Say you want to give our Cyndaquil Hidden Power Grass with a Base Power of 70. You need an Attack and Special Attack IV of 30 to do so. We were left with only 2 EVs going to waste on the previous spread, so we'll have to reduce Defense (or HP, but HP is more important in this instance) to make up for it. Use those EVs to fix the attacking stats. Changing the EV spread to 44 HP / 24 Atk / 200 SpA / 236 Spe should leave Cyndaquil's more important stats intact.</p>
+
+<p>Use this guide as a reference when EVing Pokemon for Little Cup to find the best possible spreads, and also to know whether your Pokemon will outrun, tie, or go after a certain opponent.</p>
+
+<strong>Stat Formula</strong>
+<p>The formula for any stat at level 5 is:</p>
+
+<pre>(((2 x Base + IV + (EV / 4)) x 5 / 100 + 10)</pre>
+
+<p>For HP, and:</p>
+
+<pre>((((2 x Base + IV + (EV / 4)) x 5 / 100 + 5) x Nature)</pre>
+
+<p>For every other stat.</p>
+
+<p>Base = The base stat for that Pokemon.<br />
+EVs = The number of EVs invested in that stat.<br />
+IVs = The IV for that stat (normally 31).<br />
+Nature = 1 if the nature is neutral for that stat, 1.1 if it is boosting and 0.9 if it is hindering.<br />
+Between each step the total is rounded down.</p>
+
+<p><strong>Fun facts about stats at level 5:</strong><br />
+80 EVs = 1 Stat point (other than the first)<br />
+1 Base stat Point = 8 EVs<br />
+1 IV = 4 EVs</p>

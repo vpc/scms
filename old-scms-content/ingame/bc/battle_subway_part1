@@ -1,0 +1,851 @@
+[title]
+Introduction to the Battle Subway, Part 1
+[head]
+<meta name="description" content="Everything you need to know about the Battle Subway in BW." />
+<style type="text/css">
+h5, h6 {
+font-size: 1em;
+}
+
+.columns {
+-moz-column-count: 4;
+-moz-column-gap: 2em;
+-webkit-column-count: 4;
+-webkit-column-gap: 2em;
+column-count: 4;
+column-gap: 2em;
+}
+</style>
+[page]
+<div class="author">By <a href="/forums/member.php?u=81404">flavor0</a> and <a href="/forums/member.php?u=51452">Cradily</a>.</div>
+
+<h2>Table of Contents</h2>
+
+<ul class="toc">
+<li><a href="battle_subway_part1">Part One</a>
+<ol>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#mechanics">Mechanics</a>
+<ul><li><a href="#mechanics_basics">The Basics</a></li>
+<li><a href="#mechanics_breakdown">Subway Line Breakdown</a></li>
+</ul>
+</li>
+<li><a href="#abilities_unused">On Abilities and Unused Pokemon</a></li>
+<li><a href="#ai">AI Tendencies</a>
+<ul><li><a href="#ai_general">General</a></li>
+<li><a href="#ai_doubles">Double Battle-Specific</a></li></ul>
+</li>
+<li><a href="#evs_ivs">EVs and IVs of AI Pokemon</a></li>
+<li><a href="#items">Items</a></li>
+</ol></li>
+<li><a href="battle_subway_part2">Part Two</a></li>
+</ul>
+
+<h2><a name="introduction">Introduction</a></h2>
+
+<p>The Battle Subway is the fifth generation installment of the Battle Tower from prior generations. The player travels on a subway, moving from car to car as they defeat CPU opponents. The normal lines of the Battle Subway are available once the player has reached Nimbasa City, but the super lines, where the real challenge lies, are unreachable until after the National Pokedex is obtained. This article is designed to help new Battle Subway players learn about the underlying mechanics and basic strategies of the facility, while also providing returning players with the subtle details of the subway and links to useful subway data. Playing in the Battle Subway can be an immensely fun and rewarding experience, so pick a line and test your skills!</p>
+
+<h2><a name="mechanics">Battle Subway Mechanics</a></h2>
+
+<h3><a name="mechanics_basics">The Basics</a></h3>
+
+<p>Housed in Nimbasa City's Gear Station, the Battle Subway allows players to select a team of 2, 3, or 4 Pokemon (depending upon the subway line challenged, outlined later) to participate in sets of 7 battles against NPC trainers. The objective of the Battle Subway is to obtain the highest winning streak without losing, which resets the streak back to zero. Furthermore, at the end of each set of 7 opponents, the player is awarded Battle Points (BP). The amount of BP awarded depends upon the subway line and the current win streak of the player. BP is used to purchase powerful items, listed later.</p>
+
+<p>After each battle of every set, the player's party is fully healed and they are given the option to continue, record, rest, or retire. Continue triggers the next battle in the series. Record saves a video of the last battle fought. Saved battle videos can be watched using the Vs. Recorder; this key item also shows the player's current and best winning streaks in the subway. Rest saves and exits the game while preserving the player's current winning streak&mdash;they must, however, resume their Battle Subway challenge the next time they turn on the game. Retire exits the challenge, causing the player to lose their winning streak. If the player wins all 7 battles in the set, they arrive at a platform and are awarded BP. The player can chat with NPCs on the platform, some of which hand out items (detailed later). Talking to the subway conductor on either end of the platform allows the player to either continue their challenge or return to Nimbasa City. Note that returning to Nimbasa City at the end of a set does not reset the player's winning streak&mdash;the player can return later to continue their challenge.</p>
+
+<p>Turning off the power or encountering a communication error (Multi and Wi-Fi lines) anytime during a set results in a termination of the current challenge and an end to the current winning streak.</p>
+
+<p>There are a few restrictions on the team of Pokemon the player can select to use in a Battle Subway challenge:</p>
+
+<ul>
+<li>Pokemon must be distinct species&mdash;you cannot use a team containing two Pokemon of the same species. This includes both players partaking in the Multi Line. Also note that different forms of a Pokemon (i.e. Rotom forms) are counted as a single species.</li>
+<li>Pokemon must hold unique items&mdash;no two Pokemon can hold the same item. The only exception is on the Multi Line, where both you and your partner may give one of their Pokemon the same hold item.</li>
+<li>You may not use banned Pokemon&mdash;see list below.</li>
+</ul>
+
+<p>Furthermore, it is important to note that all Pokemon will be set to level 50, regardless of their actual level outside of the Subway. This is a change from past generations in which Pokemon above level 50 would be scaled down, but those below would not be scaled up. While this removes the need to train your Subway Pokemon to at least level 50, it also prevents some previously successful strategies from working (i.e. level 2 Endeavor Togekiss).</p>
+
+<h4><a name="mechanics_banned">Banned Pokemon</a></h4>
+
+<p>Neither the NPC nor the player are allowed to enter the following Pokemon:</p>
+
+<ul>
+<li>Mewtwo</li>
+<li>Mew</li>
+<li>Lugia</li>
+<li>Ho-Oh</li>
+<li>Celebi</li>
+<li>Kyogre</li>
+<li>Groudon</li>
+<li>Rayquaza</li>
+<li>Jirachi</li>
+<li>Deoxys (all Formes)</li>
+<li>Dialga</li>
+<li>Palkia</li>
+<li>Giratina (all Formes)</li>
+<li>Phione</li>
+<li>Manaphy</li>
+<li>Darkrai</li>
+<li>Shaymin (all Formes)</li>
+<li>Arceus (all Formes)</li>
+<li>Victini</li>
+<li>Reshiram</li>
+<li>Zekrom</li>
+<li>Kyurem</li>
+<li>Keldeo</li>
+<li>Meloetta</li>
+<li>Genesect</li>
+<li>Egg</li>
+</ul>
+
+<h3><a name="mechanics_breakdown">Subway Line Breakdown</a></h3>
+
+<p>The Gear Station contains 8 different subway lines, each marked with a distinct color. Each subway line conducts a different style of battle. There are 3 regular lines, 3 super lines, a Wi-Fi line, and a train to Anville Town.</p>
+
+<h4><a name="mechanics_regular">The Regular Lines</a></h4>
+
+<p>The regular lines are the first obstacle the Battle Subway throws at you. On these lines you will face 3 sets of 7 Trainers each. Their Pokemon consist mostly of not fully evolved Pokemon (NFEs) and Pokemon with lower than average base stat totals (BSTs). To complete the regular lines you must first conquer 20 NPC Trainers and then take on Subway Boss Emmet, Ingo, or both, depending on the line challenged. Once defeated, the respective super line is unlocked. The amount of BP awarded for winning streaks for these lines is as follows:</p>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Win Streak</th>
+<th>BP Awarded</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>7</td>
+<td>3</td>
+</tr>
+<tr class="a">
+<td>14</td>
+<td>3</td>
+</tr>
+<tr>
+<td>21 (Emmet and/or Ingo)</td>
+<td>10</td>
+</tr>
+</tbody>
+</table>
+
+<p>Even after you topple the Subway Boss(es) on a particular regular line, you are free to challenge that line as much as you would like. Given the lower difficulty of regular lines, this is an effective way for newer players to accumulate BP, allowing them to purchase powerful items that will give them an edge on the super lines.</p>
+
+<h5>Single Line (Dark Green)</h5>
+
+<p>The Single Line allows the player to select a team of 3 Pokemon to challenge NPC Trainers in a singles battle format. Subway Boss Ingo challenges the player at battle 21. Defeating him marks the end of the Single Line.</p>
+
+<h6>Subway Boss Ingo (Battle 21 of Single Line)</h6>
+
+<p><img src="/download/sprites/bw/588.png" alt="" /><br />
+<strong>Crustle</strong> @ Rocky Helmet<br />
+Adamant Nature<br />
+EVs: Atk / Def<br />
+- Stone Edge<br />
+- X-Scissor<br />
+- Earthquake<br />
+- Flail</p>
+
+<p><img src="/download/sprites/bw/631.png" alt="" /><br />
+<strong>Klinklang</strong> @ Occa Berry<br />
+Adamant Nature<br />
+EVs: Atk / Spe<br />
+- Shift Gear<br />
+- Gear Grind<br />
+- Volt Switch<br />
+- Giga Impact</p>
+
+<p><img src="/download/sprites/bw/599.png" alt="" /><br />
+<strong>Garbodor</strong> @ Black Sludge<br />
+Modest Nature<br />
+EVs: HP / SpA<br />
+- Venoshock<br />
+- Psychic<br />
+- Focus Blast<br />
+- Toxic</p>
+
+<h5>Double Line (Red)</h5>
+
+<p>The Double Line allows the player to select 4 Pokemon to battle NPC opponents in a doubles format. Subway Boss Emmet challenges the player at battle 21. Defeating him marks the end of the Double Line.</p>
+
+<h6>Subway Boss Emmet (Battle 21 of Double Line)</h6>
+
+<p><img src="/download/sprites/bw/588.png" alt="" /><br />
+<strong>Crustle</strong> @ Rocky Helmet<br />
+Adamant Nature<br />
+EVs: Atk / Def<br />
+- Stone Edge<br />
+- X-Scissor<br />
+- Earthquake<br />
+- Flail</p>
+
+<p><img src="/download/sprites/bw/631.png" alt="" /><br />
+<strong>Klinklang</strong> @ Steel Gem<br />
+Modest Nature<br />
+EVs: SpA / Spe<br />
+- Flash Cannon<br />
+- Thunderbolt<br />
+- Protect<br />
+- Toxic</p>
+
+<p><img src="/download/sprites/bw/599.png" alt="" /><br />
+<strong>Garbodor</strong> @ Black Sludge<br />
+Modest Nature<br />
+EVs: HP / SpA<br />
+- Venoshock<br />
+- Psychic<br />
+- Focus Blast<br />
+- Toxic</p>
+
+<p><img src="/download/sprites/bw/662.png" alt="" /><br />
+<strong>Durant</strong> @ Occa Berry<br />
+Jolly Nature<br />
+EVs: Atk / Spe<br />
+- X-Scissor<br />
+- Iron Head<br />
+- Rock Slide<br />
+- Shadow Claw</p>
+
+<h5>Multi Line (Orange)</h5>
+
+<p>Like the Double Line, the Multi Line conducts doubles format battles. However, the Multi Line allows for two players or one player and an NPC partner, either Hilda or Hilbert, to challenge subway Trainers together. As such, the opponents on this line are also tag teams consisting of two NPCs. Each challenger is allowed two Pokemon. All Pokemon submitted must be a unique species. Both the player and their partner, however, may use the same hold item on one of their Pokemon. Keep in mind that while the battle mechanics are fundamentally identical to regular doubles format, you can only control your Pokemon (think back to those in-game battles where you were forced to team up with some scrubby NPC). Also note that if both of your Pokemon faint while your partner still has their two, your partner cannot send their second Pokemon into battle&mdash;they continue to fight alone. One strategy for this line is to knock out both of one opponent's Pokemon, giving you a favorable 2v1 situation.</p>
+
+<p>When teaming up with Hilbert or Hilda, you will be asked what type of team style you want them to use: offensive, defensive, or balanced. This determines which Pokemon they use. Choosing offensive will give the CPU partner an offense-oriented team, defensive a defense one, and balanced a mix of offensive and defensive Pokemon. See the <a href="bw_subway_pokemon">Battle Subway Pokemon</a> chart to see the actual set of the Pokemon used by Hilbert and Hilda.</p>
+
+<p>The possible <strong>offensive</strong> Pokemon are as follows:</p>
+
+<ul class="columns">
+<li>Excadrill #495, #845</li>
+<li>Conkeldurr #669, #894</li>
+<li>Sawk #420, #596, #771</li>
+<li>Beartic #352, #702, #877</li>
+<li>Krookodile #671, #846</li>
+<li>Archeops #376, #551, #726, #901</li>
+<li>Darmanitan #607</li>
+<li>Reuniclus #629</li>
+<li>Braviary #502, #677, #852</li>
+<li>Vanilluxe #538</li>
+<li>Escavalier #466</li>
+<li>Eelektross #714</li>
+<li>Haxorus #547, #897</li>
+<li>Chandelure #689</li>
+<li>Cryogonal #443</li>
+<li>Accelgor #467</li>
+<li>Druddigon #794</li>
+<li>Mienshao #526, #701</li>
+<li>Bisharp #630, #805</li>
+<li>Bouffalant #703, #878</li>
+<li>Golurk #610</li>
+</ul>
+
+<p>The possible <strong>defensive</strong> Pokemon are as follows:</p>
+
+<ul class="columns">
+<li>Gigalith #493, #843</li>
+<li>Audino #144, #182</li>
+<li>Musharna #795</li>
+<li>Conkeldurr #494</li>
+<li>Throh #246</li>
+<li>Scrafty #796</li>
+<li>Cofagrigus #259, #784</li>
+<li>Gothitelle #628</li>
+<li>Reuniclus #804</li>
+<li>Vanilluxe #888</li>
+<li>Amoonguss #151</li>
+<li>Jellicent #201</li>
+<li>Alomomola #154</li>
+<li>Ferrothorn #272, #447, #797</li>
+<li>Klinklang #338, #863</li>
+<li>Eelektross #889</li>
+<li>Chandelure #514, #864</li>
+<li>Accelgor #817</li>
+<li>Mienshao #876</li>
+<li>Mandibuzz #326, #676, #851</li>
+<li>Durant #436, #786</li>
+</ul>
+
+<p>A <strong>balanced</strong> team consists of both offensive and defensive Pokemon.</p>
+
+<p>Subway Bosses Emmet and Ingo team up to take on the players at battle 21. Defeating them marks the end of the Multi Line.</p>
+
+<h6>Subway Boss Emmet</h6>
+
+<p><img src="/download/sprites/bw/631.png" alt="" /><br />
+<strong>Klinklang</strong> @ Occa Berry<br />
+Adamant Nature<br />
+EVs: Atk / Spe<br />
+- Gear Grind<br />
+- Volt Switch<br />
+- Shift Gear<br />
+- Giga Impact</p>
+
+<p><img src="/download/sprites/bw/596.png" alt="" /><br />
+<strong>Galvantula</strong> @ Scope Lens<br />
+Adamant Nature<br />
+EVs: Atk / Spe<br />
+- Wild Charge<br />
+- Thunder Wave<br />
+- Cross Poison<br />
+- X-Scissor</p>
+
+<h6>Subway Boss Ingo</h6>
+
+<p><img src="/download/sprites/bw/599.png" alt="" /><br />
+<strong>Garbodor</strong> @ Black Sludge<br />
+Modest Nature<br />
+EVs: HP / SpA<br />
+- Venoshock<br />
+- Focus Blast<br />
+- Psychic<br />
+- Toxic</p>
+
+<p><img src="/download/sprites/bw/662.png" alt="" /><br />
+<strong>Durant</strong> @ Occa Berry<br />
+Jolly Nature<br />
+EVs: Atk / Spe<br />
+- Iron Head<br />
+- X-Scissor<br />
+- Shadow Claw<br />
+- Rock Slide</p>
+
+<h4>The Super Lines</h4>
+
+<p>Don't let the regular lines lull you into a false sense of confidence; the true test of your abilities lies on the Subway's Super Lines. Super Line opponents trade in their NFEs (well, except for Porygon2) and generally weak Pokemon for fully evolved ones sporting impressive BSTs. Starting with battle 28 you may encounter CPUs using legendary Pokemon. At battle 49 of every Super Line, Subway Bosses Emmet and Ingo return with fancy new teams. Defeating them earns the player a trophy for that particular line that is displayed in their room. Unlike the regular lines, the Super Lines never end. How far can you make it?</p>
+
+<p>The amount of BP awarded to the player is as follows:</p>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Win Streak</th>
+<th>BP Awarded</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>7</td>
+<td>5</td>
+</tr>
+<tr class="a">
+<td>14</td>
+<td>6</td>
+</tr>
+<tr>
+<td>21</td>
+<td>7</td>
+</tr>
+<tr class="a">
+<td>28</td>
+<td>8</td>
+</tr>
+<tr>
+<td>35</td>
+<td>9</td>
+</tr>
+<tr class="a">
+<td>42</td>
+<td>10</td>
+</tr>
+<tr>
+<td>49 (Emmet and/or Ingo)</td>
+<td>30</td>
+</tr>
+<tr class="a">
+<td>56 (and all subsequent sets)</td>
+<td>10</td>
+</tr>
+</tbody>
+</table>
+
+<h5>Super Single Line (Light Green)</h5>
+
+<p>Like the Single Line, the Super Single Line allows the player to select a team of 3 Pokemon to face opponents in a singles format. At battle 49, Subway Boss Ingo returns to challenge the player.</p>
+
+<h6>Subway Boss Ingo (Battle 49 of Super Single Line)</h6>
+
+<p><img src="/download/sprites/bw/558.png" alt="" /><br />
+<strong>Excadrill</strong> @ Life Orb<br />
+Adamant Nature<br />
+EVs: Atk / Def / SpD<br />
+- Earthquake<br />
+- Aerial Ace<br />
+- Poison Jab<br />
+- Rock Slide</p>
+
+<p><img src="/download/sprites/bw/642.png" alt="" /><br />
+<strong>Haxorus</strong> @ Yache Berry<br />
+Jolly Nature<br />
+EVs: Atk / Spe<br />
+- Dragon Dance<br />
+- Dragon Claw<br />
+- Dragon Tail<br />
+- Earthquake</p>
+
+<p><img src="/download/sprites/bw/639.png" alt="" /><br />
+<strong>Chandelure</strong> @ White Herb<br />
+Modest Nature<br />
+EVs: HP / SpA<br />
+- Overheat<br />
+- Protect<br />
+- Shadow Ball<br />
+- Will-O-Wisp</p>
+
+<h5>Super Double Line (Pink)</h5>
+
+<p>Like the Double Line, the Super Double Line allows the player to select 4 Pokemon to challenge NPC opponents in a doubles format. These Trainers may employ double battle strategies (moves that hit both opponents, Water move + Storm Drain, etc). Be prepared to face weather and Trick Room teams. At battle 49, Subway Boss Emmet returns to challenge the player.</p>
+
+<h6>Subway Boss Emmet (Battle 49 of Super Double Line)</h6>
+
+<p><img src="/download/sprites/bw/558.png" alt="" /><br />
+<strong>Excadrill</strong> @ Life Orb<br />
+Adamant Nature<br />
+EVs: Atk / Def / SpD<br />
+- Earthquake<br />
+- Aerial Ace<br />
+- Poison Jab<br />
+- Rock Slide</p>
+
+<p><img src="/download/sprites/bw/642.png" alt="" /><br />
+<strong>Haxorus</strong> @ Yache Berry<br />
+Jolly Nature<br />
+EVs: Atk / Spe<br />
+- Dragon Dance<br />
+- Dragon Claw<br />
+- Dragon Tail<br />
+- Earthquake</p>
+
+<p><img src="/download/sprites/bw/639.png" alt="" /><br />
+<strong>Chandelure</strong> @ White Herb<br />
+Modest Nature<br />
+EVs: HP / SpA<br />
+- Overheat<br />
+- Protect<br />
+- Shadow Ball<br />
+- Will-O-Wisp</p>
+
+<p><img src="/download/sprites/bw/634.png" alt="" /><br />
+<strong>Eelektross</strong> @ Magnet<br />
+Quiet Nature<br />
+EVs: HP / SpA<br />
+- Discharge<br />
+- Gastro Acid<br />
+- Thunderbolt<br />
+- Thunder Wave</p>
+
+<h5>Super Multi Line (Yellow)</h5>
+
+<p>The Super Multi Line functions the same as the regular Multi Line. Like the Super Double Line, opposing NPC teams might employ double battle strategies. However, given that the two Trainers may specialize in different types of Pokemon, they could also use opposing strategies (two different types of weather, Trick Room with fast Pokemon, etc). Subway Bosses Ingo and Emmet team up once again at battle 49 to take on the players. If you choose to team up with Hilbert or Hilda, they use the same pool of Pokemon that they do for the regular Multi Line.</p>
+
+<h6>Subway Boss Emmet</h6>
+
+<p><img src="/download/sprites/bw/558.png" alt="" /><br />
+<strong>Excadrill</strong> @ Life Orb<br />
+Adamant Nature<br />
+EVs: Atk / Def / SpD<br />
+- Rock Slide<br />
+- Earthquake<br />
+- Poison Jab<br />
+- Aerial Ace</p>
+
+<p><img src="/download/sprites/bw/634.png" alt="" /><br />
+<strong>Eelektross</strong> @ Magnet<br />
+Quiet Nature<br />
+EVs: Hp / SpA<br />
+- Thunder Wave<br />
+- Thunderbolt<br />
+- Discharge<br />
+- Gastro Acid</p>
+
+<h6>Subway Boss Ingo</h6>
+
+<p><img src="/download/sprites/bw/642.png" alt="" /><br />
+<strong>Haxorus</strong> @ Yache Berry<br />
+Jolly Nature<br />
+EVs: Atk / Spe<br />
+- Earthquake<br />
+- Dragon Dance<br />
+- Dragon Claw<br />
+- Dragon Tail</p>
+
+<p><img src="/download/sprites/bw/597.png" alt="" /><br />
+<strong>Archeops</strong> @ Sitrus Berry<br />
+Jolly Nature<br />
+EVs: Atk / Spe<br />
+- Aerial Ace<br />
+- Protect<br />
+- Rock Slide<br />
+- Earthquake</p>
+
+<h5>Wi-Fi Line (Blue)</h5>
+
+<p>The Wi-Fi Line functions quite a bit differently from the other Battle Subway trains. Rather than focusing on obtaining a long winning streak, this line consists of 10 ranks. Each rank (1-10) has 50 different trains that the player can battle on, each train housing 7 CPU opponents. However, these CPU opponents do not use traditional subway Pokemon, but rather teams used by other human players who have conquered that particular train and chose to upload their winning roster. If the player completes a set of 7 Trainers their rank increases. However, losing too many times before beating the 7 Trainers causes their rank to drop. The number of losses it takes to drop a rank are:</p>
+
+<table class="sortable">
+<thead>
+<tr><th>Rank</th><th>Loss(es)</th></tr>
+</thead>
+<tbody>
+<tr><td>Rank 2</td><td>5 Losses</td></tr>
+<tr class="a"><td>Rank 3</td><td>4 Losses</td></tr>
+<tr><td>Rank 4</td><td>4 Losses</td></tr>
+<tr class="a"><td>Rank 5</td><td>3 Losses</td></tr>
+<tr><td>Rank 6</td><td>3 Losses</td></tr>
+<tr class="a"><td>Rank 7</td><td>2 Losses</td></tr>
+<tr><td>Rank 8</td><td>2 Losses</td></tr>
+<tr class="a"><td>Rank 9</td><td>1 Loss</td></tr>
+<tr><td>Rank 10</td><td>1 Loss</td></tr>
+</tbody>
+</table>
+
+<p>Note that the player may only challenge a particular train of a given rank once a day. Since the CPU opponents have teams used by other human players, popular and successful Battle Subway Pokemon such as Garchomp, Suicune, Latios, and Drizzle Politoed, frequently appear.</p>
+
+<h5>Train to Anville Town (Brown)</h5>
+
+<p>The only way to get to Anville Town in-game is through the Battle Subway. At any time during the game, the player is allowed to visit Anville Town via this train. Anville Town's residents are famous for giving away items; one will even give away items depending on how many sets of seven Battle Subway battles the player has defeated that day.</p>
+
+<h2><a name="abilities_unused">On Abilities and Unused Pokemon</a></h2>
+
+<p>No Pokemon used by NPC Trainers in the Battle Subway possess their Dream World ability, so don't worry about Magic Bounce Espeon or Speed Boost Blaziken ruining your fun. Another note on abilities: though each individual subway Pokemon has a set nature, EVs, item, and moveset, their abilities and gender are not fixed (unless, of course, they have only one ability or are genderless/one gender only). This leads to some interesting happenings, such as an Effect Spore Breloom holding a Toxic Orb. This also means that you must be aware of Pokemon that may have abilities that hinder your team (Water Absorb, Dry Skin, and Storm Drain for rain-based teams, for example) and scout or plan for them accordingly.</p>
+
+<p>Below is a list of fully evolved Pokemon that are not used by Battle Subway trainers. Note that they are not banned, so players can freely enter any of these Pokemon. Also note that this list does not include banned Pokemon, listed earlier.</p>
+
+<ul class="columns">
+<li>Butterfree</li>
+<li>Beedrill</li>
+<li>Pidgeot</li>
+<li>Raticate</li>
+<li>Fearow</li>
+<li>Arbok</li>
+<li>Sandslash</li>
+<li>Clefable</li>
+<li>Wigglytuff</li>
+<li>Parasect</li>
+<li>Persian</li>
+<li>Golduck</li>
+<li>Primeape</li>
+<li>Farfetch'd</li>
+<li>Dodrio</li>
+<li>Cloyster</li>
+<li>Hypno</li>
+<li>Kingler</li>
+<li>Hitmonlee</li>
+<li>Hitmonchan</li>
+<li>Seaking</li>
+<li>Ditto</li>
+<li>Omastar</li>
+<li>Kabutops</li>
+<li>Furret</li>
+<li>Noctowl</li>
+<li>Ledian</li>
+<li>Ariados</li>
+<li>Xatu</li>
+<li>Azumarill</li>
+<li>Sudowoodo</li>
+<li>Jumpluff</li>
+<li>Sunflora</li>
+<li>Wobbuffet</li>
+<li>Girafarig</li>
+<li>Dunsparce</li>
+<li>Qwilfish</li>
+<li>Magcargo</li>
+<li>Corsola</li>
+<li>Octillery</li>
+<li>Delibird</li>
+<li>Mantine</li>
+<li>Stantler</li>
+<li>Smeargle</li>
+<li>Hitmontop</li>
+<li>Mightyena</li>
+<li>Linoone</li>
+<li>Beautifly</li>
+<li>Dustox</li>
+<li>Swellow</li>
+<li>Pelipper</li>
+<li>Masquerain</li>
+<li>Ninjask</li>
+<li>Shedinja</li>
+<li>Delcatty</li>
+<li>Sableye</li>
+<li>Mawile</li>
+<li>Plusle</li>
+<li>Minun</li>
+<li>Volbeat</li>
+<li>Illumise</li>
+<li>Swalot</li>
+<li>Sharpedo</li>
+<li>Camerupt</li>
+<li>Torkoal</li>
+<li>Grumpig</li>
+<li>Spinda</li>
+<li>Cacturne</li>
+<li>Zangoose</li>
+<li>Seviper</li>
+<li>Lunatone</li>
+<li>Solrock</li>
+<li>Crawdaunt</li>
+<li>Castform</li>
+<li>Kecleon</li>
+<li>Banette</li>
+<li>Tropius</li>
+<li>Chimecho</li>
+<li>Glalie</li>
+<li>Huntail</li>
+<li>Gorebyss</li>
+<li>Relicanth</li>
+<li>Luvdisc</li>
+<li>Bibarel</li>
+<li>Kricketune</li>
+<li>Wormadam (all forms)</li>
+<li>Mothim</li>
+<li>Pachirisu</li>
+<li>Cherrim</li>
+<li>Purugly</li>
+<li>Chatot</li>
+<li>Carnivine</li>
+<li>Lumineon</li>
+<li>Rotom (all forms)</li>
+<li>Uxie</li>
+<li>Mesprit</li>
+<li>Azelf</li>
+</ul>
+
+<h2><a name="ai">AI Tendencies</a></h2>
+
+<p>Although it is difficult to predict precisely what a Battle Subway opponent will do during any given turn, they do follow some general attack patterns. Recognizing these patterns is useful as it helps you anticipate the CPU's moves and plan ahead accordingly. This allows you to outmaneuver opponents that may have an edge on you in regards to the Pokemon they're using. You will gradually catch on to many of these behaviors as you play more and more matches in the Battle Subway. Here's a few CPU trends to be aware of: </p>
+
+<h3><a name="ai_general">General</a></h3>
+
+<ul>
+<li>CPU prefers attacks that will KO one of your Pokemon</li>
+<li>An exception to the above, the CPU doesn't use the following moves properly: Gyro Ball, Grass Knot, Low Kick, Return, Frustration. They may not use the move even if it would result in a KO.</li>
+<li>CPU doesn't use Sucker Punch properly. They may use it to KO your Pokemon if none of their other attacks can or if it's their only attack. They tend to use it more often if a Pokemon has been Taunted. Otherwise, they tend to be reluctant to use Sucker Punch.</li>
+<li>CPU does not recognize Storm Drain or Dry Skin; they will continue to use Water attacks if it would normally be their strongest move against the Pokemon.</li>
+<li>CPU does not recognize Flash Fire initially, but will stop using Fire attacks entirely once Flash Fire has been activated. In a double battle, however, the CPU will still target your other, non-Flash Fire Pokemon with Fire moves.</li>
+<li>CPU will not continue to use a boosting move if one of the stats being boosted is already maxed.</li>
+<li>CPU avoids using Trick against a Pokemon that holds one of the following items: Choice Band, Choice Specs, Choice Scarf, Flame Orb, Toxic Orb, or Black Sludge.</li>
+<li>CPU tends to avoid using moves that lower their stats unless it results in a KO or they are holding White Herb.</li>
+<li>CPU tends to only use recovery moves when they are below half health. They sometimes, however, seem to "predict" when they will go below half health when their Pokemon is slower than yours.</li>
+<li>CPU tends to only use Destiny Bond when they are below half health.</li>
+<li>CPU may switch if their Pokemon is locked into a move that does not deal damage (either immune or status move) due to a Choice item.</li>
+<li>If the opponent is hit with an attack and they have a Pokemon that is immune to that attack's type, they may switch to the Pokemon that has that immunity. Strangely, they still have a chance to switch even if the Pokemon that performed that attack has already fainted.</li>
+<li>CPU considers multi-hit moves based on the power of a single hit (e.g. they see Icicle Spear as a 25 Base Power Ice-type attack).</li>
+</ul>
+
+<h3><a name="ai_doubles">Double Battle-Specific</a></h3>
+
+<ul>
+<li>CPU avoids using multi-target moves in a double battle if it damages their partner. They will, however, use them at the expense of a partner if it can KO one of your Pokemon.</li>
+<li>CPU prefers using a multi-target attack in a double battle if their partner is immune to it (e.g. Earthquake with a Flying-type partner), even if it's not particularly effective. If they can KO one of your Pokemon with a different attack, however, they will use that instead.</li>
+<li>CPU tends to target their partner in a double battle if they have an attack that can activate their partner's ability (e.g. using Will-O-Wisp to activate Flash Fire or Guts, using Surf to heal a partner with Water Absorb, using an Electric attack to activate Motor Drive, etc).</li>
+<li>Even when down to their last Pokemon, the CPU takes the existence of their last partner into account. For example, if an opponent's last two Pokemon are Rhyperior and Gyarados and Gyarados is KOed, the CPU will not hesitate to use Rhyperior's Earthquake. If they had a Tyranitar instead of a Gyarados, however, and their Tyranitar is KOed, they will still avoid using Earthquake.</li>
+</ul>
+
+<h2><a name="evs_ivs">EVs and IVs of AI Pokemon</a></h2>
+
+<p>Subway Pokemon use all 510 EVs, regardless of the line challenged and the player's current winning streak. These EVs are divided evenly between 2 or 3 stats, as detailed in the list of Battle Subway Pokemon. That is, a Pokemon whose EVs are listed as Atk/Spe will have 255 EVs in Attack and 255 EVs in Speed. Likewise, a Pokemon whose EVs are listed as HP/Def/SpD will have 170 EVs in HP, 170 EVs in Defense, and 170 EVs in Special Defense.</p>
+
+<p>The IVs of Subway Pokemon, however, vary depending on the current set being challenged. In all battles prior to #21, the Pokemon used by subway opponents have highly variable IVs&mdash;it is yet to be discovered what exactly determines their IVs in these battles. More importantly, however, from battle #21 and on, the IVs of Subway Pokemon become all 31s. </p>
+
+<h2><a name="items">Items</a></h2>
+
+<p>Now that you've been met with at least moderate success in the Battle Subway, you likely have accumulated some BP. Below is a list of shiny items available for purchase. These vendors can be found at any Subway Line station next to the PC.</p>
+
+<p>The lady behind the counter (right attendant) offers:</p>
+
+<h3>1 BP</h3>
+
+<ul>
+<li>Protein</li>
+<li>Calcium</li>
+<li>Iron</li>
+<li>Zinc</li>
+<li>Carbos</li>
+<li>HP Up</li>
+</ul>
+
+<h3>16 BP</h3>
+
+<ul>
+<li>Power Bracer</li>
+<li>Power Belt</li>
+<li>Power Lens</li>
+<li>Power Band</li>
+<li>Power Anklet</li>
+<li>Power Weight</li>
+<li>Toxic Orb</li>
+<li>Flame Orb</li>
+</ul>
+
+<h3>32 BP</h3>
+
+<ul>
+<li>White Herb</li>
+<li>Power Herb</li>
+<li>Absorb Bulb</li>
+<li>Cell Battery</li>
+<li>Red Card</li>
+<li>Eject Button</li>
+</ul>
+
+<h3>48 BP</h3>
+
+<ul>
+<li>Focus Band</li>
+<li>Choice Band</li>
+<li>Choice Scarf</li>
+<li>Focus Sash</li>
+<li>Razor Claw</li>
+<li>Razor Fang</li>
+<li>BrightPowder</li>
+<li>Life Orb</li>
+<li>Iron Ball</li>
+<li>Air Balloon</li>
+<li>Binding Band</li>
+<li>Rare Candy</li>
+</ul>
+
+<p>The man behind the counter (left attendant) offers:</p>
+
+<h3>36 BP</h3>
+
+<ul>
+<li>TM23 Smack Down</li>
+<li>TM48 Round</li>
+<li>TM87 Swagger</li>
+<li>TM88 Pluck</li>
+</ul>
+
+<h3>48 BP</h3>
+
+<ul>
+<li>TM34 Sludge Wave</li>
+<li>TM51 Ally Switch</li>
+<li>TM59 Incinerate</li>
+<li>TM60 Quash</li>
+<li>TM64 Explosion</li>
+<li>TM77 Psych Up</li>
+</ul>
+
+<p>Additionally, the following NPCs you meet on specific platforms along any of the Super Lines will give you an item:</p>
+
+<ul>
+<li>After 21 straight victories the Janitor or Artist will give the player a PP Up.</li>
+<li>After 28 straight victories the Lady or Ace Trainer will give the player a Rare Candy.</li>
+<li>After 105 straight victories a Trainer will give the player a Lansat Berry.</li>
+<li>After 203 straight victories a Trainer will give the player a Starf Berry.</li>
+</ul>
+
+<p>In Black 2 and White 2 both the list of purchasable items and cost of many items have changed. In these games, the items available are as follows:</p>
+
+<p>The lady behind the counter (right attendant) offers:</p>
+
+<h3>1 BP</h3>
+
+<ul>
+<li>Protein</li>
+<li>Calcium</li>
+<li>Iron</li>
+<li>Zinc</li>
+<li>Carbos</li>
+<li>HP Up</li>
+</ul>
+
+<h3>3 BP</h3>
+
+<ul>
+<li>Fire Stone</li>
+<li>Thunderstone</li>
+<li>Water Stone</li>
+<li>Leaf Stone</li>
+</ul>
+
+<h3>8 BP</h3>
+
+<ul>
+<li>Scope Lens</li>
+<li>Wide Lens</li>
+<li>Muscle Band</li>
+<li>Wise Glasses</li>
+<li>Razor Claw</li>
+<li>Razor Fang</li>
+<li>Binding Band</li>
+</ul>
+
+<h3>12 BP</h3>
+
+<ul>
+<li>Focus Band</li>
+<li>Zoom Lens</li>
+<li>Iron Ball</li>
+<li>Air Balloon</li>
+</ul>
+
+<h3>16 BP</h3>
+
+<ul>
+<li>Power Bracer</li>
+<li>Power Belt</li>
+<li>Power Lens</li>
+<li>Power Band</li>
+<li>Power Anklet</li>
+<li>Power Weight</li>
+<li>Toxic Orb</li>
+<li>Flame Orb</li>
+<li>White Herb</li>
+<li>Power Herb</li>
+<li>Absorb Bulb</li>
+<li>Cell Battery</li>
+<li>Red Card</li>
+<li>Eject Button</li>
+</ul>
+
+<h3>24 BP</h3>
+
+<ul>
+<li>Choice Band</li>
+<li>Choice Specs</li>
+<li>Choice Scarf</li>
+<li>Focus Sash</li>
+<li>Life Orb</li>
+<li>Rare Candy</li>
+</ul>
+
+<p>The man behind the counter (left attendant) offers:</p>
+
+<h3>6 BP</h3>
+
+<ul>
+<li>TM17 Protect</li>
+<li>TM20 Safeguard</li>
+<li>TM32 Double Team</li>
+<li>TM59 Incinerate</li>
+</ul>
+
+<h3>12 BP</h3>
+
+<ul>
+<li>TM31 Brick Break</li>
+<li>TM79 Frost Breath</li>
+<li>TM89 U-turn</li>
+</ul>
+
+<h3>18 BP</h3>
+
+<ul>
+<li>TM10 Hidden Power</li>
+<li>TM23 Smack Down</li>
+<li>TM48 Round</li>
+<li>TM75 Swords Dance</li>
+<li>TM87 Swagger</li>
+<li>TM88 Pluck</li>
+</ul>
+
+<h3>24 BP</h3>
+
+<ul>
+<li>TM34 Sludge Wave</li>
+<li>TM51 Ally Switch</li>
+<li>TM60 Quash</li>
+<li>TM64 Explosion</li>
+<li>TM77 Psych Up</li>
+</ul>

@@ -1,0 +1,29 @@
+[title]
+Fidgit
+[head]
+<link rel="stylesheet" type="text/css" href="/media/dex/dex.css" />
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_template.js"></script>
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_database.js"></script>
+[header]
+[page]
+<script language="JavaScript">
+<!--
+var cap = Fidgit();
+
+cap.heightFeet = 3;
+cap.heightInches = 1;
+cap.weightPounds = 116.8;
+cap.weightKilos = 53;
+cap.eggGroup1 = "Ground";
+
+cap.topicLeader = "Sunday";
+cap.statSpreadCreator = "Maniaclyrasist";
+cap.designArtist = "Cartoons!";
+cap.spriteArtist = "DougJustDoug";
+cap.movepoolCreator = "X-Act";
+cap.nameCreator = "Cartoons!";
+cap.conceptCreator = "Aldaron & Magmortified";
+
+document.write(composeDexPage(cap));
+//-->
+</script>

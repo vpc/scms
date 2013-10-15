@@ -1,0 +1,172 @@
+[title]
+Flavor of the Month: Hail
+[head]
+<link href="/media/smog/smog.css" type="text/css" rel="stylesheet" />
+[page]
+<div class="author"> By <a href="/forums/member.php?u=653">Deck Knight</a>.</div>
+<table id="smogheader">
+<tr>
+<td class="left"><a href="offensive_threats">&laquo; Previous Article</a></td>
+<td class="middle"><a href="/smog/issue5/">Home</a></td>
+<td class="right"><a href="featured_pokemon">Next Article &raquo;</a></td>
+</tr>
+</table>
+
+
+<p>Flavor of the Month is dedicated to the creation, implementation, and perfection of themed teams. Often derided as gimmicks (not usually unjustifiably), themed teams are based around a field effect, type, or other defining feature.</p>
+
+<p>It is occasionally said that most teams cannot counter Pokemon like Tyranitar, Lucario, or Salamence twice. Obviously using two of these Pokemon on the same team would violate Species Clause, but themed teams unify around one common threat and then stress it to its final end.</p>
+
+<p>This series will be written like a progressive RMT, going through each process change from the beginning of the team to its end, with any interim changes. It will go into great detail on addressing specific weaknesses of the theme and trying to adapt ways around them.</p>
+
+<p>When HGSS was first released, there was much speculation about the madness Stallrein would induce with Super Fang. A Hail themed team seemed like a fitting subject matter to test this idea.</p>
+
+<h3>Part 1: Central idea</h3>
+
+<p>Since this team seeks to utilize Hail and test the limits of Stallrein, two Pokemon become immediately apparent: Abomasnow and Walrein. Abomasnow’s Snow Warning ability brings permanent Hail immediately into the battle.</p>
+
+<div style="text-align: center;"><img src="/download/sprites/dp/465.png" alt="Abomasnow" /><img src="/download/sprites/dp/365.png" alt="Walrein" /></div>
+
+<h3>Part 2: Basic considerations</h3>
+
+<p>Our first two Pokemon have some serious type-overlap problems. They share common weaknesses to Fighting- and Rock-type attacks, and have similar offensive coverage. They are, however, staples of a team that wishes to abuse Hail.</p>
+
+<p>There’s also the important matter of deciding whether Abomasnow should lead the team. The advantage of an Abomasnow lead is immediate Hail. Beyond that, though, Abomasnow does little to stop the biggest thorn in the side to many viable Hail Pokemon: Stealth Rock. A leading Abomasnow also instantly signals your opponent that you are using a Hail team, and they will play accordingly. The first thought is to try a specialized lead that can either remove rocks set up by the most common leads or destroy the leads outright. Starmie immediately comes to mind. Starmie can use a combination of Surf, Grass Knot, and Rapid Spin to both keep most leads from setting up Stealth Rock and deal instant or perhaps lethal damage. Unlike, say, a Taunt Aerodactyl lead, Starmie can Rapid Spin as a faster lead sets up Stealth Rock or type-trump a slower lead. A defensive Starmie don't seem to have much power behind its attacks to threaten your opponent, and an all-out offensive Starmie won't be able to come in repeatedly. The best course of action is to strike a balance at 330 Speed, which will outspeed all base 100 Speed Pokemon, with 306 HP in order to get stabilized Leftovers recovery and 153 HP from Recover. The rest of the EVs are dumped into SpA for offensive power. The resulting spread is 180 HP / 192 SpA / 136 Spe with a Timid nature.</p>
+
+<div style="text-align: center;"><img src="/download/sprites/dp/121.png" alt="Starmie" /><img src="/download/sprites/dp/465.png" alt="Abomasnow" /><img src="/download/sprites/dp/365.png" alt="Walrein" /></div>
+
+<p>Next we need to consider counter-threats. We have massive overlapping coverage on Starmie, Abomasnow, and Walrein, who thus far only bring Water, Ice, and Grass attacks to the table. However, we also need hazards to make this work, specifically Toxic Spikes.
+Forretress seems like the natural fit here. It provides Toxic Spikes and additional Spikes coverage. It can also contribute to stall in its own way with Pain Split, which punishes Pokemon that use recovery moves by sapping the opponent's HP while keeping Forretress healthy. The standard Forretress is very weak to set-up Pokemon, so a more offensive Forretress should be used can help avoid a Fighting-type sweep. Payback and Earthquake will ensure that most of the Pokemon used to setting up on Forretress won’t go anywhere. They also can’t switch in as easily as they used to.</p>
+
+<div style="text-align: center;"><img src="/download/sprites/dp/121.png" alt="Starmie" /><img src="/download/sprites/dp/465.png" alt="Abomasnow" /><img src="/download/sprites/dp/365.png" alt="Walrein" /><img src="/download/sprites/dp/205.png" alt="Forretress" /></div>
+
+<p>More hazards would be very nice for this team. Mercifully there is a support Pokemon that helps this team with its lack of special bulk and provides excellent support: Blissey. With Wish and Heal Bell at its disposal, Blissey is no longer confined to Clerical duties. Seismic Toss / Wish / Heal Bell / Stealth Rock provides team support without compromising Blissey’s threat to special-based Pokemon. The loss of Protect leaves it without reliable recovery, but this moveset provides a toolbox that keeps the entire team healthy.</p>
+
+<div style="text-align: center;"><img src="/download/sprites/dp/121.png" alt="Starmie" /><img src="/download/sprites/dp/465.png" alt="Abomasnow" /><img src="/download/sprites/dp/365.png" alt="Walrein" /><img src="/download/sprites/dp/205.png" alt="Forretress" /><img src="/download/sprites/dp/242.png" alt="Blissey" /></div>
+
+<p>Our final problem is obvious: This team has an excessive Fighting-type weakness. We also need a way to to stop spinners from spinning our entry hazards. A Ghost-type Pokemon is clearly called for here, but which of them should be chosen? Dusknoir and Rotom-A stick out as the best choices. While Dusknoir's best options to take out Tyranitar are Will-O-Wisp and SubPunch, Rotom-A can use Will-O-Wisp and Reflect. However, with Toxic Spikes down you can’t burn opponents. We decide to try Dusknoir first, as it has more direct means of damaging opponents.</p>
+
+<p>Of note here is that we’ve not yet determined Abomasnow’s set. Choice Scarf Abomasnow offers the most potential of any set, being able to outspeed Base 110 Pokemon and menace the opponent with Blizzard. It’s an excellent revenge killer and is difficult to switch into.</p>
+
+
+<div style="text-align: center;"><img src="/download/sprites/dp/121.png" alt="Starmie" /><img src="/download/sprites/dp/465.png" alt="Abomasnow" /><img src="/download/sprites/dp/365.png" alt="Walrein" /><img src="/download/sprites/dp/205.png" alt="Forretress" /><img src="/download/sprites/dp/242.png" alt="Blissey" /><img src="/download/sprites/dp/482.png" alt="Dusknoir" /></div>
+
+<h3>Part 3: Initial battling impressions:</h3>
+
+<p>The team has immense difficulty with stat-boosting Ghost-type Pokemon. If Toxic Spikes are not laid down, most of them become threats quickly, especially Calm Mind Spiritomb. Lack of phasing ability is partly to blame here, but finding something that will do the job is difficult. Super Fang / Brine Stallrein has largely pulled its weight, so getting rid of one of those moves for Roar is problematic.</p>
+
+<p>We're at a bit of an impasse here. Starmie’s ability to reliably Rapid Spin has kept hazards away from the field and thwarted most Stealth Rockers. However the rest of the "niche" sort of sets can't really do everything at once. Right now this team is based on Hail Stall, but there might be a way to make it go offensive.</p>
+
+<h3>Step 4: Tweaking</h3>
+
+<p>Grass Knot on Starmie turned out to be useless. I almost never encountered a Swampert to use it on. Eventually I changed it to Blizzard, which has perfect accuracy when Hail is up and does sufficient damage to Celebi. Blizzard also deals the same amount of damage Grass Knot would have dealt to Gyarados.</p>
+
+<p>Another unforeseen benefit of Dusknoir was Taunt. This prevented opponents from using the move Recover, and kept opposing hazards from slow enemy rockers like Forretress and Bronzong off the field. However, Dusknoir has a serious 4 moveslot syndrome problem, as Focus Punch is its only attack move.</p>
+
+<h3>Step 5: Experimentation</h3>
+
+<p>The team was functioning fairly well, but had a serious Tyranitar and Lucario weakness, especially to the stat-boosting sets. Gliscor, who outspeeds both, has replaced Dusknoir. Gliscor retains Taunt, opens up a slot for Stealth Rock (allowing Blissey to drop it), and provides new immunities to Ground- and Electric-type attacks. Moreover, Gliscor has access to a reliable recovery move in Roost, keeping it from falling in the middle of the Hail.</p>
+
+<p>The loss of the ability to block spinners doesn't seem much of a problem either, especially since both Blissey and Walrein can use Protect when a spinner comes in, wracking up Toxic Spikes damage if they were laid down.</p>
+
+<div style="text-align: center;"><img src="/download/sprites/dp/482.png" alt="Dusknoir" /> &mdash;&raquo; <img src="/download/sprites/dp/477.png" alt="Gliscor" /></div>
+
+<p>Gliscor worked very well in the second round of battling. The most unexpected benefit was the electric immunity, allowing Gliscor to be a pivot for Starmie and Walrein.</p>
+
+<p>Forretress' moveset and EVs were also tweaked to provide more SpD and now that Gliscor could deal with Tyranitar and Lucario, Earthquake was removed from Forretress. The new set is Payback / Toxic Spikes / Spikes / Rapid Spin.</p>
+
+<h3>Final Report:</h3>
+
+<p>Hail is an interesting experiment in team building. In a metagame full of nasty offensive Dragons, having Ice attacks regularly at your disposal keeps them at bay. However, the Steel-typed pokemon in the metagame give Hail many problems, especially bulky offensive giants like Scizor and Metagross. Defensive Steel types aren't quite as effective, as they hate having their leftovers nullified and can't capitalize on teams that use multiple Rapid Spnners. The largest weakness of this particular team is the 4x weaknesses on the spikers. Whereas Blissey could get SR down fairly well, You are always taking a risk against potentially mixed threats like Tyranitar, trying to evade Fire Blast and Ice Beam for Forretress and Gliscor respectively.</p>
+
+<p>Hail can be brutally effective but it has a lot of weaknesses and pitfalls. You have to know when to stall and when to attack, and the flow of the battle changes quite a bit. Ultimately if you are facing off against a traditional stall team, provided you take out their spinner and remove their Spikes, you will usually be victorious. The matches tend to be long and drawn out with this variant of Hail stall, but if you can keep your defensive core relatively healthy you will prevail.</p>
+
+<p>Super Fang Stallrein was overhyped. The 90% accuracy can occasionally come back to bite you, and it is difficult to deal with foes that have reliable recovery or utilize Substitute. Super Fang itself is still a good move on it, and you should experiment with your 4th slot. Surf and Blizzard both serve well there, although Blizzard's PP is rather poor as the only attack Walrein can use for a direct KO.</p>
+
+<h3>Old Team Members:</h3>
+
+<p><img src="/download/sprites/dp/482.png" alt="Dusknoir" /><br />
+Dusknoir (M) @ Leftovers<br />
+Ability: Pressure<br />
+EVs: 248 HP / 136 Atk / 40 Def / 56 SpD / 28 Spe<br />
+Careful nature (+SpD, -SpA)<br />
+- Substitute<br />
+- Focus Punch<br />
+- Pain Split<br />
+- Taunt</p>
+
+<p>EV Notes: 28 Spe outruns 0 Spe Hippowdon, so it can be Taunted before using SR again.</p>
+
+<h3>Current Team:</h3>
+<p><img src="/download/sprites/dp/121.png" alt="Starmie" /><br />
+Starmie @ Leftovers<br />
+Ability: Natural Cure<br />
+EVs: 180 HP / 192 SpA / 136 Spe<br />
+Timid nature (+Spe, -Atk)<br />
+- Surf<br />
+- Rapid Spin<br />
+- Recover<br />
+- Blizzard</p>
+
+
+<p><img src="/download/sprites/dp/465.png" alt="Abomasnow" /><br />
+Abomasnow (M) @ Choice Scarf<br />
+Ability: Snow Warning<br />
+EVs: 28 Atk / 252 SpA /228 Spe<br />
+Naive nature (+Spe, -SpD)<br />
+- Blizzard<br />
+- Earthquake<br />
+- Ice Shard<br />
+- Wood Hammer</p>
+
+<p><img src="/download/sprites/dp/365.png" alt="Walrein" /><br />
+Walrein (M) @ Leftovers<br />
+Ability: Ice Body<br />
+EVs: 224 HP / 216 Def / 48 SpD / 20 Spe><br />
+Modest nature (+SpA, -Atk)<br />
+- Substitute<br />
+- Protect<br />
+- Super Fang<br />
+- Brine</p>
+
+<p>EV notes: Since Walrein has the same base Speed as Scizor, 20 EVs outspeeds most of the 8 and 12 EV bulky versions and lets you Substall Superpower from them.</p>
+
+<p><img src="/download/sprites/dp/205.png" alt="Forretress" /><br />
+Forretress (M) @ Shed Shell<br />
+Ability: Sturdy<br />
+EVs: 252 HP / 96 Def / 160 SpD<br />
+Impish nature (+Def, -SpA)<br />
+- Payback<br />
+- Toxic Spikes<br />
+- Spikes<br />
+- Rapid Spin</p>
+
+<p><img src="/download/sprites/dp/477.png" alt="Gliscor" /><br />
+Gliscor (M) @ Leftovers<br />
+Ability: Sand Veil<br />
+EVs: 252 HP / 40 Atk / 216 Spe<br />
+Jolly nature (+Spe, -SpA)<br />
+- Earthquake<br />
+- Stealth Rock<br />
+- Roost<br />
+- Taunt</p>
+
+<p><img src="/download/sprites/dp/242.png" alt="Blissey" /><br />
+Blissey (F) @ Leftovers<br />
+Ability: Natural Cure<br />
+EVs: 24 HP / 252 Def / 232 SpD<br />
+Calm nature (+SpD, -Atk)<br />
+- Seismic Toss<br />
+- Wish<br />
+- Protect<br />
+- Heal Bell</p>
+
+<p>I hope you enjoyed this Flavor of the Month!</p>
+
+<table id="smogfooter">
+<tr>
+<td class="left"><a href="offensive_threats">&laquo; Previous Article</a></td>
+<td class="middle"><a href="/smog/issue5/">Home</a></td>
+<td class="right"><a href="featured_pokemon">Next Article &raquo;</a></td>
+</tr>
+</table>

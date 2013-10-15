@@ -1,0 +1,247 @@
+[title]
+Treacherous Fields - An OU Guide to Entry Hazards
+[head]
+<meta name="description" content="A guide to entry hazards and users in the OU tier, thanks to zarator." />
+[page]
+<div class="author">By <a href="/forums/member.php?u=18580">zarator</a>.</div>
+
+<ol class="toc">
+<li><a href="#intro">Introduction</a></li>
+<li><a href="#moves">The Moves</a></li>
+<li><a href="#users">The Users</a></li>
+<li><a href="#abuse">How to Abuse Entry Hazards</a>
+<ul>
+<li><a href="#spinblock">Spinblocking</a></li>
+<li><a href="#phaze">Phazing</a></li>
+<li><a href="#weather">Weather Wars</a></li>
+</ul></li>
+<li><a href="#counter">How to Counter Entry Hazards</a>
+<ul>
+<li><a href="#rapid_spin">Rapid Spin</a></li>
+<li><a href="#magic_bounce">Magic Bounce</a></li>
+<li><a href="#magnet_pull">Magnet Pull</a></li>
+<li><a href="#HP">HP EVs</a></li>
+</ul></li>
+<li><a href="#conclusion">Conclusion</a></li>
+</ol>
+ 
+<h2><a name="intro">Introduction</a></h2>
+ 
+<p>In the wake of the fifth generation, several players expected entry hazards to not be as popular as they had been in the recent past. On one hand, Stealth Rock is no longer a TM, so many of the new Pokemon don't have access to this move. Moreover, several of the old users now suffer some illegality issues, especially with Dream World abilities. Another factor in the expected fall of entry hazards was Team Preview. With the possibility of choosing which Pokemon to start after viewing the opponent's roster, the entire concept of specialized Stealth Rock leads like Azelf and Aerodactyl basically went out of the window. In the end, between all the new threats, the focus on weather wars between the likes of Politoed and Ninetales, and the nuances of Team Preview, entry hazards initially went off the radar.</p>
+ 
+<p>However, these early predictions proved to be completely wrong. Not only did entry hazards not fall in popularity; the new environment proved to be particularly friendly to its users. The purpose of this guide is to introduce the readers to all the aspects concerning entry hazards—how to use them, and how to stop them.</p>
+ 
+<h2><a name="moves">The Moves</a></h2>
+ 
+<p>There are three varieties of entry hazards, each one with its own uses. They all have one thing in common: they hinder any Pokemon switching in. Whether through sheer damage or crippling status, they limit the freedom to switch, raising the pressure on the foe as every choice now comes with a much higher price. Entry hazards often can be stacked in layers as well. This means that the same move can be used more than once to make the negative effects on the opponent increasingly more intense.</p>
+ 
+<p>However, despite all these common features, entry hazards are significantly different from each other, both in their effects and the contexts which warrant their use. Learning how each kind of entry hazard works is the first step to fully understand how to deal with them.</p>
+ 
+<h3><a href="/bw/moves/spikes">Spikes</a></h3>
+ 
+<p>The oldest of entry hazards, Spikes has always pulled its weight since the second generation, and it is not hard to see why. Once Spikes are scattered on the opponent's field, each grounded Pokemon switching in loses 1/8 (12.5%) of its max HP. The definition of "grounded Pokemon" includes everything but Flying-types and Pokemon with Levitate, although it should be noted that Pokemon with the Magic Guard ability take no damage from Spikes whether they are grounded or not. The effect can be aggravated by using this move more times. A second layer of Spikes increases the damage taken to 3/16 (19.25%) of the foe's max HP, and a third layer will bring it up to 1/4 (25%). It may be hard to find time to set up all the three layers, but once they have been, the opponent will struggle mightily to react, as passive damage will add up <em>very</em> quickly.</p>
+ 
+<p>Spikes is the staple move of stall teams—it is not a coincidence that stall teams were born in the generation this move was first introduced. Due to the lack of firepower, such teams absolutely need the passive damage provided by Spikes to kill the enemy Pokemon before the opponent manages to break through. However, it should be noted that, with the advent of BW, it is not uncommon anymore to see Spikes being employed by offensive teams as well. Part of the reason is that Ferrothorn, the premier Spikes user, is very easy to fit on almost any kind of team. Another incentive (which will be explained in detail later on) is the importance of weather wars, and how Spikes help to wear down the opposing Tyranitar, Politoed, or Ninetales.</p>
+ 
+<h3><a href="/bw/moves/stealth_rock">Stealth Rock</a></h3>
+ 
+<p>Stealth Rock is undoubtedly the most popular of entry hazards, and the most influential as well. It only has one layer, which means that it is fairly easy to set up. Once Stealth Rock is on a player's field, each Pokemon he switches in will take damage equal to 1/8 (12.5%) of its maximum health. For example, if a Tyranitar with 320 out of 404 HP switches in and Stealth Rock is in effect, it will take 50 damage (404/8 = 50.5, rounded down) right off the bat. When someone factors in how many times a Pokemon switches in and out during a battle, the sheer amount of damage Stealth Rock may cause throughout a battle becomes apparent. On top of it, no Pokemon is immune to this move (the only exception being, once again, Magic Guard users), so every foe will be worn out eventually.</p>
+ 
+<p>But it doesn't end here. Stealth Rock, in fact, is a Rock-type move, and its damage is based on the weakness (or resistance) of the target to Rock-type moves. The Tyranitar in the example above was neutral, so it loses 1/8 of its max HP, but let's consider a Victini with the same HP stat switching in. Victini is weak to Rock-type attacks, and upon switching in, it will thus take 101 damage (1/4 or 25% of its max HP). On the contrary, if a Jirachi with the same HP stat switches into Stealth Rock, it will take only 25 damage (1/16 or 6.25% of its max HP). This damage also applies to quadruple resistances and weaknesses, dealing either 1/32 (3.125%) or 1/2 (50%) of the Pokemon's max HP, respectively.</p>
+
+<p>Since when it was first released in the DPP era, Stealth Rock shaped the metagame significantly. Many potentially good Pokemon like Moltres or Weavile fell in disgrace because of their weakness to Stealth Rock, whereas those like Flygon owed much of their popularity to their Rock-type resistance. What's better (or worse, depending on the point of view) is that Stealth Rock has a wide pool of potential users and takes only a turn to be put into use, making this move appealing to offensive and defensive teams alike. Sweepers rely significantly on the damage caused by Stealth Rock to break through a wall (it is not rare to read in an analysis that a certain wall is "2HKOed after Stealth Rock damage"), whereas walls and tanks inevitably need the passive damage Stealth Rock provides to wear down opponents (especially the ones which are immune to other entry hazards, like Flying-types). Stealth Rock is one of those "low risk, high reward" moves most teams will want to include in their arsenal.</p>
+ 
+<h3><a href="/bw/moves/toxic_spikes">Toxic Spikes</a></h3>
+ 
+<p>Unlike Spikes and Stealth Rock, Toxic Spikes don't cause direct damage. Instead, every grounded Pokemon switching in while Toxic Spikes are on the field will be poisoned. Toxic Spikes comes in two layers: if only one layer is up, the foe will be affected by regular poison; if both layers are up, the foe will be badly poisoned (as if it was hit by Toxic). However, Pokemon that are normally immune to this status aren't affected by Toxic Spikes. This includes Steel-types, Immunity users, Poison Heal Pokemon, and Magic Guard users (which will be poisoned, but won't take any damage regardless). Poison-types are a special case. In fact, if a grounded Poison-type switches in with Toxic Spikes active (this includes Levitate users and Flying-type Pokemon holding an Iron Ball), not only will they not get poisoned, but they will also soak up the Toxic Spikes, effectively removing them from the field regardless of the number of layers.</p>
+ 
+<p>Despite having a lot of potential, Toxic Spikes is not as popular as Spikes or Stealth Rock, and can't be slapped on a team mindlessly. There are not many viable users of the move to begin with, so the choices are pretty limited&mdash;especially for offensive teams. But most importantly, it is necessary to tailor the team specifically to abuse Toxic Spikes, more so than the other entry hazards. Hyper offensive teams, for example, won't get much benefit, as the poison damage racks up too slowly—they would be better off with Spikes or Stealth Rock, or just attacking.</p>
+ 
+<p>Toxic Spikes are best used on some specific kind of teams. The first one, obviously, is stall. What was said about Spikes applies here as well: stall teams lack offensive presence, so they need all the passive damage they can rack up. However, defensive Pokemon are not the only ones which enjoy Toxic Spikes. Some sweepers, in fact, often need Toxic Spikes to remove a certain wall (like Blissey or a bulky Water-type wall). Such is the case with special sweepers abusing the Substitute + Calm Mind combo, for example. Another use of Toxic Spikes is to check some threats which otherwise have the potential to set up and wipe out an entire team. However, it should be noted that this is not a very common practice in OU (as opposed to Ubers), because many sweepers aren't hindered by Toxic Spikes (such as Reuniclus, Air Balloon Terrakion, and Landorus) or better checked with other means, including different entry hazards (as in the case of Volcarona).</p>
+ 
+<h2><a name="users">The Users</a></h2>
+ 
+<p>The fifth generation saw the introduction of new users of entry hazards, as well as the return of some old standards. Regardless of whether you intend to use them or thwart their set up, it is important to familiarize yourself with each one.</p>
+ 
+<h4><a href="/bw/pokemon/deoxys-d">Deoxys-D</a></h4>
+<p><img src="/download/sprites/bw/388.png" alt="" /><br />
+Usable entry hazards: Spikes, Stealth Rock</p>
+ 
+<p>The defensive form of Deoxys is not only possibly one of the sturdiest users of entry hazards, but also a pretty fast one, sitting at base 90 Speed. This allows it to Taunt any Pokemon attempting to set up against it (including those which try to Taunt it back). Recover allows Deoxys-D to stay around for a long time, while Pressure helps in outstalling foes. On top of that, it can employ a vast array of support moves besides Spikes and Stealth Rock, ranging from screens to status. However, Deoxys-D's Psychic typing really hurts its viability, leaving it weak to Pursuit and U-turn, among other attacks. Moreover, 90 base Speed may be fast for a wall, but even with heavy investment Deoxys-D is still outsped by many boosting sweepers. Therefore, Deoxys-D will often fail to Taunt frightening set-up sweepers such as Volcarona, which usually only need one turn of set-up to wreck the opposition.</p>
+ 
+<h4><a href="/bw/pokemon/donphan">Donphan</a></h4>
+<p><img src="/download/sprites/bw/232.png" alt="" /><br />
+Usable entry hazards: Stealth Rock</p>
+ 
+<p>Donphan may look somewhat underwhelming in the OU environment at first, especially when compared to the likes of Ferrothorn. However, it has a niche on sun-based teams as a pretty surprising utility Pokemon. Its Rock-type resistance, combined with an impressive Defense, let Donphan counter Tyranitar, the worst nightmare of Drought teams. Rapid Spin is essential on teams littered with Fire-type Pokemon, which hate Stealth Rock (most notably Volcarona), and Stealth Rock support ensures Flying-type walls can't frustrate Chlorophyll sweepers so easily. On top of that, the intense sunlight weakens the Water-type attacks Donphan is afraid of, making sure it will last for enough time to fulfill its job.</p>
+ 
+<h4><a href="/bw/pokemon/ferrothorn">Ferrothorn</a></h4>
+<p><img src="/download/sprites/bw/628.png" alt="" /><br />
+Usable entry hazards: Spikes, Stealth Rock</p>
+ 
+<p>Ferrothorn is the indisputably best user of entry hazards in the entire OU environment. It has a stellar typing which lets it wall an astounding number of attacks; it can thus come in repeatedly to set up Spikes, Stealth Rock, and Leech Seed, piling up residual damage (as if its Iron Barbs ability wasn't enough). Leftovers, combined with the aforementioned Leech Seed and intelligent use of Protect, allow Ferrothorn to last throughout the match, while base 94 Attack and access to powerful STABs in Power Whip and Gyro Ball allow it to strike back hard when necessary. The extreme weakness to Fire-type attacks is surely a concern, but this isn't anything Ferrothorn can't deal with, especially when it can count on rain support.</p>
+ 
+<h4><a href="/bw/pokemon/forretress">Forretress</a></h4>
+<p><img src="/download/sprites/bw/205.png" alt="" /><br />
+Usable entry hazards: Spikes, Stealth Rock, Toxic Spikes</p>
+ 
+<p>Forretress is the most versatile user of entry hazards in OU. Not only does it learn all three variants, but it also can remove them from its own side of the field with Rapid Spin, allowing it to set up with impunity on other Spikes users such as Ferrothorn or Skarmory before spinning away their work. Another interesting feature is its access to the move Volt Switch. While Forretress won't hurt anything with its weak base 60 Special Attack, it can predict a spinblocker switching in and get out of there with Volt Switch, allowing a strong Pursuit user such as Tyranitar or Scizor to then come in and finish off the spinblocker. Forretress can then clear the field of entry hazards unhindered later on. However, it should be noted that Ferrothorn is a lot more resilient than it, thanks to a more favorable typing and better overall stats. Still, Forretress has enough tools to differentiate itself from Ferrothorn, although it must be played to its strengths to do so.</p>
+ 
+<h4><a href="/bw/pokemon/heatran">Heatran</a></h4>
+<p><img src="/download/sprites/bw/490.png" alt="" /><br />
+Usable entry hazards: Stealth Rock</p>
+ 
+<p>Heatran is one of the few Stealth Rock users which can afford to use a moveslot for the entry hazard without losing out significantly on coverage. Its STAB Fire Blast packs a lot of power, especially since it is backed by a stellar base 130 Special Attack. Earth Power and Hidden Power round off the coverage, making sure nothing is too safe against Heatran. This beast can also attempt a more defensive approach, abusing its respectable defenses along with Roar to annoy the opposition. Perhaps this generation is not as friendly to Heatran as the last one was, with the massive influx of Fighting-types and the high usage of Drizzle Politoed, but there's still enough room for it to thrive, and possibly sweep (especially under Drought).</p>
+ 
+<h4><a href="/bw/pokemon/nidoqueen">Nidoqueen</a></h4>
+<p><img src="/download/sprites/bw/31.png" alt="" /><br />
+Usable entry hazards: Stealth Rock, Toxic Spikes</p>
+ 
+<p>Nidoqueen has always been a niche Pokemon in OU, and while this hasn't changed in the transition to the fifth generation, she got an important update with the Dream World ability Sheer Force. The 30% boost in power to crucial moves such as Earth Power, Flamethrower and Ice Beam allows Nidoqueen to strike back when needed without sacrificing her bulk. Obviously, the old strengths are still there: a resistance to Bug-, Fighting- and Rock-type attacks (the latter two being even more useful nowadays because of Terrakion), and the ability to set up Toxic Spikes and soak them up as well. However, Nidoqueen is no Gliscor, and with no reliable recovery, she won't last for long without Wish support. Plus, the weakness to Ground-type attacks is particularly painful for a physical wall, exposing her to the likes of Landorus and Gliscor itself.</p>
+ 
+<h4><a href="/bw/pokemon/roserade">Roserade</a></h4>
+<p><img src="/download/sprites/bw/410.png" alt="" /><br />
+Usable entry hazards: Spikes, Toxic Spikes</p>
+ 
+<p>The transition to the new generation was a mixed bag for Roserade. On one hand, Team Preview basically destroyed its niche as a dedicated lead. On the other, though, the high usage of rain teams is a great opportunity for Roserade, as its typing, powerful STAB, and high Special Attack allow it to not only to counter some of the most prominent Drizzle sweepers like Rotom-W and Politoed itself, but also hit several common Pokemon for heavy damage. However, it should be noted that Roserade is very frail and will have trouble taking even resisted hits (Rotom-W, for example, can 2HKO with Hydro Pump under the rain if Roserade doesn't invest in Special Defense). Still, Sleep Powder buys it enough time to set up Toxic Spikes, and being a Poison-type itself, Roserade can soak up the opponent's ones as well. Sadly, Spikes is illegal with Sleep Powder, restricting Roserade's viability as an entry hazard user.</p>
+ 
+<h4><a href="/bw/pokemon/skarmory">Skarmory</a></h4>
+<p><img src="/download/sprites/bw/227.png" alt="" /><br />
+Usable entry hazards: Spikes, Stealth Rock</p>
+ 
+<p>Skarmory retained its niche as one of the premier Spikes users of OU, although Ferrothorn gives it stiffer competition than anything ever did in the past. But in a metagame where powerful Earthquake users shake the land, and fearsome dragons rampage relentlessly, there will always be room for Skarmory to come in and thwart their onslaughts, while setting up Spikes to make sure they won't be back in shape again. What sets Skarmory apart from other Spikes users, above all, is its ability to abuse Spikes on its own with the incredibly useful Whirlwind. Although Team Preview greatly lowered its value as a scouting move, racking up residual damage is still vital, and even in the fifth generation, phazing can provide vital information on the opponent (for example, whether a Pokemon is carrying Leftovers or not). The fact Skarmory can heal off damage with Roost means it will be able to phaze for a long time.</p>
+ 
+<h4><a href="/bw/pokemon/tentacruel">Tentacruel</a></h4>
+<p><img src="/download/sprites/bw/73.png" alt="" /><br />
+Usable entry hazards: Toxic Spikes</p>
+ 
+<p>Tentacruel got an unexpected gift in the generation shift in the form of the Dream World ability Rain Dish. Recovering 12.5% HP per turn (factoring in Leftovers), coupled with Protect, is the closest thing to reliable recovery Tentacruel has got ever since it first appeared on the competitive scene. And with Politoed providing never-ending rain, Tentacruel has no trouble getting the recovery going. But the synergy with Drizzle teams goes much further. Tentacruel is a Poison-type, which means it can clear Toxic Spikes upon switching in, and if there are other entry hazards, it can simply Rapid Spin them away. But most importantly, it can set up Toxic Spikes by itself, providing rain teams with an invaluable tool to cripple problematic Pokemon such as Jellicent and Gastrodon. And while Tentacruel is still prone to being set up on by several sweepers, the offensive boost Drizzle brings to the table significantly reduces the amount of Pokemon which can take hits from Tentacruel safely, not to mention the fact that its new favorite attack, Scald, carries a nasty 30% chance to burn the foe.</p>
+ 
+<h4><a href="/bw/pokemon/tyranitar">Tyranitar</a></h4>
+<p><img src="/download/sprites/bw/248.png" alt="" /><br />
+Usable entry hazards: Stealth Rock</p>
+ 
+<p>An important quality for any Stealth Rock user is the ability to force switches, since it helps to both buy a turn to set up the hazards and abuse them. Tyranitar accomplishes this nicely, since its ability Sand Stream often forces the opponent to switch out, even more so than last generation due to the prevalence of weather wars. However, it should be noted that using Stealth Rock is not without costs. With only three moves it's impossible for Tyranitar to cover all threats, and in fact some teams prefer to leave Stealth Rock duty to another team member. Still, Tyranitar is one of the few common Pokemon which can set up Stealth Rock reliably and without compromising its effectiveness excessively, so it should always be considered for this role.</p>
+ 
+<h2><a name="abuse">How to Abuse Entry Hazards</a></h2>
+ 
+<p>A rule of thumb for any supportive move should be "don't include it if you don't use it". Many people often overlook this idea when it comes to entry hazards, though, often tricked by the fact they still manage to deal some damage with them. However, entry hazards come with an opportunity cost, just like every other move. First of all, it means they use up a moveslot (sometimes an entire team slot) that could've been used for something more appropriate. For example, if a Tyranitar carries Stealth Rock along with Crunch, Fire Blast, and Superpower, it won't have room for other important coverage moves like Ice Beam. If a Drizzle team uses Tentacruel, it is employing a team slot which could've been filled with a sweeper like Starmie. Whenever you slap something on a team, you should ask yourself whether it is the best option available or not&mdash;and this holds true for entry hazards as well.</p>
+ 
+<p>What does this mean, in the end? Entry hazards are certainly powerful, but a few tweaks can ensure they're used to their maximum effects. On one hand, this means preventing the opponent from getting rid of them too easily. On the other hand, it means making sure they're doing the maximum amount of damage possible.</p>
+ 
+<h3><a name="spinblock">Spinblocking</a></h3>
+ 
+<p>After careful predictions and planned decisions, a player finally managed to set up three layers of Spikes, Stealth Rock, and both layers of Toxic Spikes. Then, the opponent gets out his Forretress and clears out all the hazards with a single Rapid Spin. At that point, the player who set up all the hazards just spent a large amount of turns for nothing, and if the opponent managed to set up hazards on their own (maybe with that same Forretress) the player is at a big disadvantage. So how do you prevent Rapid Spin from foiling all that hard work?</p>
+ 
+<p>Rapid Spin is a Normal-type move, and like all other Normal-type moves, it has no effect on Ghost-type Pokemon. This means that if one of them switches in while the foe attempts to use Rapid Spin, the move will have no effect, and the hazards will lie safe on the opponent's field. For this reason, Ghost-type Pokemon are often referred to as "spinblockers".</p>
+ 
+<p>Obviously, this doesn't mean a spinblocker is required on every team. Many teams, for example, use only Stealth Rock as their entry hazard. Since it takes only a turn to get them up (the exact number of turns the opponent has to spend on Rapid Spin), it's not a problem to come in a few turns after the Rapid Spin and set them up again. Certainly, it's not worth the hassle of forcing a Ghost-type onto the team and switching it repeatedly to prevent Rapid Spin from working. However, Ghost-types such as Jellicent may find a place on a team regardless of the need for a spinblocker, and if the opponent has something like a Volcarona ready to switch in once Stealth Rock is out of the equation, then trying to block Rapid Spin may be well worth it. It very much depends on the specifics of the situation. Even when using Spikes, despite the larger amount of turns required to set them up, it is not always necessary to pack a spinblocker. Many Drizzle teams, for example, run a Ferrothorn for the useful resistances it brings to the table. However, while they do enjoy the residual damage Spikes cause throughout the match, they're not so dependent on it as to spend an entire team slot on an otherwise unwanted spinblocker.</p>
+ 
+<p>On the other hand, if a team carries two or three varieties of entry hazards and depends on them for its success (such is the case with most stall teams), using a spinblocker to stop Rapid Spin attempts is often necessary. The options available aren't many, sadly, but some excellent ones stand out nonetheless.</p>
+ 
+<h4><a href="/bw/pokemon/dusclops">Dusclops</a></h4>
+<p><img src="/download/sprites/bw/356.png" alt="" /></p>
+ 
+<p>Dusclops's already good defensive capabilities got a big improvement in the fifth generation with the introduction of the Eviolite, which makes it bulkier than Arceus itself. This allows it to take all sort of hits from the common Rapid Spin users (except for Hydro Pump from Starmie in the rain) and retaliate with Will-O-Wisp or Night Shade. Pain Split provides good means of recovery, especially with Dusclops's abysmal HP stat, and allows it to stick around for a while.</p>
+ 
+<p>However, Dusclops suffers a lot from the lack of Leftovers recovery, especially since it will have to switch in and out a lot to accomplish its spinblocking job. It will also be taking a lot of residual damage from entry hazards and weather, with no Leftovers recovery to offset it. This doesn't mean Dusclops is bad, though; it has a lot of potential, but it can't just be slapped on a team (especially a sandstorm team) and be expected to work.</p>
+ 
+<h4><a href="/bw/pokemon/gengar">Gengar</a></h4>
+<p><img src="/download/sprites/bw/94.png" alt="" /></p>
+ 
+<p>One thing is immediately apparent about Gengar: it can't take hits well. 60 / 60 / 75 defenses won't stand up to much, even against neutral hits. Most Rapid Spin users can in fact easily 2HKO or OHKO it. Does this mean Gengar is useless as a spinblocker? Not necessarily. It is certainly not the kind of Pokemon you would employ on a defensive team, like Dusclops. However, one should note that no matter how frail, the presence of a Ghost-type on the opponent's team always puts pressure on any attempt to Rapid Spin. In fact, if Gengar manages to switch in on Forretress or Donphan unscathed, it has an easy time turning the tables against them. However, Tentacruel has no trouble taking a hit and 2HKOing with Scald under the rain, and Starmie is faster anyway.</p>
+ 
+<p>Thus, in a nutshell, Gengar is not a dedicated spinblocker, but it can still be a good choice for those offensive teams seeking to have at least the option of blocking Rapid Spin without sacrificing offenses. It is particularly useful for those teams which rely on Deoxys-S for entry hazards, since Deoxys-S often will die in the process and the player won't have any chance to set them up again should they be spun away.</p>
+ 
+<h4><a href="/bw/pokemon/jellicent">Jellicent</a></h4>
+<p><img src="/download/sprites/bw/623.png" alt="" /></p>
+ 
+<p>Jellicent is by far the most reliable choice when it comes to spinblocking. It has very respectable bulk, which when combined with Recover and Water Absorb give it a durability other Ghost-types can only wish for. This eerie jellyfish is not useful only as a spinblocker, either. Its superb typing allows it to wall many common threats, especially when used in tandem with Ferrothorn, which further helps because of the entry hazards it sets up. It can burn those pesky Steel-types which are immune to Toxic Spikes with Will-O-Wisp, and Taunt slower walls to stop them from setting up. When it comes to preventing Rapid Spin from being successful, Jellicent has pretty much no rivals. However, it should noted that some spinners, like Starmie and especially Tentacruel, will win against it 1-on-1, and Forretress can always Volt Switch to a Pursuit user.</p>
+ 
+<h4><a href="/bw/pokemon/sableye">Sableye</a></h4>
+<p><img src="/download/sprites/bw/302.png" alt="" /></p>
+ 
+<p>At first, Sableye's stats look pathetic. It is almost frailer than Gengar (in fact, the latter actually has more bulk on the special side), without having its awesome offenses or blistering Speed. 50 / 75 / 65 defenses are hardly salvageable even with the sum total of zero weaknesses. However, Sableye got a great gift from the Dream World in the form of Prankster. Having +1 priority on all support options suddenly turns a seemingly weak Pokemon in a respectable threat. Regardless of its low Speed, Sableye can now prevent any Pokemon from setting up with Taunt. Should they attack right away, they'll just eat a Will-O-Wisp while Sableye heals off the damage with Recover. And while its Attack may look unimpressive, Foul Play allows this little ghost to use sweepers' large Attack stats against them.</p>
+ 
+<p>Obviously, this doesn't mean Sableye is invincible. Starmie will OHKO with Life Orb Hydro Pump under the rain, regardless of the EVs Sableye runs. Even Tentacruel will at least 3HKO under the rain (and what's worse, it may burn it with Scald). However, the other spinners will struggle to prevail when their Attack stats are cut in half by Will-O-Wisp and their attempts to do anything else useful are stopped cold by Taunt.</p>
+ 
+<h3><a name="phaze">Phazing</a></h3>
+ 
+<p>As mentioned in the beginning, entry hazards cause damage upon switching in. So, why not actually force the switches? After a few uses of Whirlwind, Roar, or Dragon Tail, the opponent will have a hard time coping with the residual damage piling up on his team. Stall teams in particular often employ phazing tactics to speed up the racking of passive damage from entry hazards. For more information about phazing, there is (LINK) an article specifically about it.</p>
+ 
+<h3><a name="weather">Weather Wars</a></h3>
+ 
+<p>They have been mentioned several times throughout this article. But what exactly are weather wars, and how are entry hazards involved in it? Basically, a weather war starts when two teams are based on different kinds of weather, and they attempt to kill the opposing weather inducer so that they can force their own desired weather condition for the rest of the match.</p>
+ 
+<p>There are five main weather inducers, not counting NFE Pokemon: Abomasnow (hail), Hippowdon (sand), Ninetales (sun), Politoed (rain), and Tyranitar (sand). At a first glance, one thing should immediately be obvious: most of them are very weak to entry hazards. Abomasnow and Ninetales are crippled by Stealth Rock, while everyone is grounded and therefore will suffer the effects of Spikes and Toxic Spikes. The only exception here is Air Balloon Ninetales, but Stealth Rock is still a huge pain in the fox's side. Therefore, a good way to get an immediate advantage in a weather war is getting up entry hazards while also ensuring the opponent doesn't. Since these Pokemon will need to switch in often to establish the intended weather, they will frequently take damage from Stealth Rock and Spikes. Toxic Spikes are not as influential, but defensive Pokemon such as Abomasnow and Hippowdon will hate being badly poisoned.</p>
+ 
+<p>An important thing which should be noted is that if a weather inducer dies to the damage caused by entry hazards, it will <strong>not</strong> change the weather. This means that, as long as the opponent can't use Rapid Spin, if you put the opposing weather inducer within killing range for your entry hazards and you force it out, you basically have won the weather war. For example, if a Ninetales switches out at 20% of its max HP and the opponent gets up Stealth Rock, the Ninetales user has lost the weather war unless he manages to remove Stealth Rock from the field with Rapid Spin.</p>
+ 
+<h2><a name="counter">How to Counter Entry Hazards</a></h2>
+ 
+<p>So far, we've seen how entry hazards can be set up successfully. Now we'll see how a player can deal with them when they're used against him. We already noted that Toxic Spikes may be removed if the player switches in a grounded Poison-type. However, we'll now look at means to counter entry hazards in general.</p>
+ 
+<h3><a name="rapid_spin" href="/bw/moves/rapid_spin">Rapid Spin</a></h3>
+ 
+<p>Rapid Spin is the most obvious way to get rid of entry hazards; upon use, any kind of entry hazards (and even Leech Seed, for that matter) will be removed from the user's field. This alone makes this move invaluable for many teams. It is a must for any serious stall team, as the walls won't last for long if they lose 1/4 of their HP every time they switch in. It is an important move for offensive teams as well, because a sweeper taking too much residual damage is easy prey for priority attacks, or will just die to hostile weather eventually.</p>
+ 
+<p>As with spinblocking, the options for Rapid Spin are few and far between, but there are some good ones available. It should be noted that, since the opponent will often send in a Ghost-type to block Rapid Spin, the discussions of each Pokemon will be focused on how they deal with the most popular Ghost-types (Jellicent in particular). Even the best spinners, however, will struggle to get past a well played spinblocker, so it is often required to pair them with a Pursuit user to trap and take out the aforementioned Ghost-types.</p>
+ 
+<h4><a href="/bw/pokemon/donphan">Donphan</a></h4>
+<p><img src="/download/sprites/bw/232.png" alt="" /></p>
+ 
+<p>As mentioned before, Donphan gets Rapid Spin, and what sets it apart from the other Rapid Spin users is its access to a strong STAB Earthquake. Still, even with investment, it is not enough to break through the likes of Jellicent and Dusclops; like all other physical spinners, Donphan also risks getting crippled by Will-O-Wisp, which severely limits its effectiveness as a spinner.</p>
+ 
+<h4><a href="/bw/pokemon/forretress">Forretress</a></h4>
+<p><img src="/download/sprites/bw/205.png" alt="" /></p>
+ 
+<p>Forretress might be a very popular choice for a Rapid Spin user, but it doesn't perform very well against common Ghost-types. Most of them will burn it with Will-O-Wisp, pratically neutering its offensive presence even if it carries Payback; Volt Switch anyway does pitiful damage with Forretress's abysmal Special Attack, and needs a good degree of prediction to be used effectively. However, Forretress is still viable for one main reason: it can set up all three forms of entry hazards as well as spin them away. Is a Ferrothorn trying to set up Stealth Rock or Spikes? Just switch in Forretress and set up alongside it, before spinning away all its efforts (including Leech Seed). The passive damage of Iron Barbs is but a minor inconvenience. So, while Forretress may not be the best choice for a team looking simply for Rapid Spin support, its ability to clear the field of entry hazards while setting up its own in the face of the other users can earn it a spot on many teams.</p>
+ 
+<h4><a href="/bw/pokemon/hitmontop">Hitmontop</a></h4>
+<p><img src="/download/sprites/bw/237.png" alt="" /></p>
+ 
+<p>Hitmontop, known for its prowess as an abuser of priority moves, boasts a distinctive trait as a Rapid Spin user: access to Foresight. Using Foresight while the spinblocker switches in, Hitmontop can ensure Rapid Spin will hit the foe and spin away the hazards. Sure, it may be burned or even killed in the process, but it's often worth it (especially if something like Volcarona is waiting in the wings). The fact that Hitmontop can threaten Ferrothorn as well is just a plus. One interesting fact about this Fighting-type is that it shines particularly against teams relying on Sableye or Spiritomb as their spinblockers. After being hit with Foresight these Pokemon suddenly find themselves weak to Fighting-type moves. This means that, for example, a Sableye switching into Foresight with half its maximum health will risk being killed by Close Combat even if Hitmontop gets burned by Will-O-Wisp.</p>
+ 
+<p>Hitmontop can also be useful as a revenge killer, with powerful priority moves such as Mach Punch and Sucker Punch at its disposal. However, it struggles to find room on its moveset for both Rapid Spin + Foresight and such moves.</p>
+ 
+<h4><a href="/bw/pokemon/starmie">Starmie</a></h4>
+<p><img src="/download/sprites/bw/121.png" alt="" /></p>
+ 
+<p>Starmie is arguably the best offensive user of Rapid Spin available, as it can severely hurt any spinblocker with its powerful attacks. Under the rain and backed by Life Orb, Hydro Pump packs such massive power that Sableye is outright OHKOed, and even Dusclops faces a 2HKO. Jellicent may be immune to Water-type moves thanks to Water Absorb, but it risks eating a powerful Thunder which, although unable to kill the jellyfish right off the bat, will comfortably 2HKO it. The only thing hindering Starmie's effectiveness as a Rapid Spin user is its reliance on Drizzle support. In fact, whether it is needed to make Thunder accurate or to give Hydro Pump the necessary boost, rain is required to make Starmie work at its best. It can't work on other weather teams either, as the residual damage from sand or hail would add up very fast with Life Orb recoil, and Starmie hates getting its main STAB attacks weakened by the sun.</p>
+ 
+<h4><a href="/bw/pokemon/tentacruel">Tentacruel</a></h4>
+<p><img src="/download/sprites/bw/73.png" alt="" /></p>
+ 
+<p>Much like Starmie, Tentacruel is a nearly unrivaled Rapid Spin user as far as effectiveness goes&mdash;probably the best defensive one. However, it pretty much needs support in the form of Drizzle to be effective, even more so than Starmie. The rain activates its Rain Dish ability while boosting Scald's power enough to make it a legitimate threat. Due to this, most spinblockers will have serious trouble switching in and outlasting it. Dusclops will hate the residual damage of burn since it doesn't have Leftovers; Gengar is 2HKOed, while Sableye is 3HKOed and will eventually break because of the burn chance. Jellicent once again is the one spinblocker which can take Water-type attacks comfortably, but it can't do any kind of damage back besides maybe burning Tentacruel with Will-O-Wisp. Meanwhile, the venomous jellyfish can strike back with a powerful STAB Sludge Bomb which will eventually poison Jellicent (if it wasn't already by Tentacruel's Toxic Spikes), or with a super effective Giga Drain. Again, the main thing holding Tentacruel from showing up on all teams is the amount of support it requires to reach its maximum effectiveness.</p>
+ 
+<h3><a name="magic_bounce" href="/bw/abilities/magic_bounce">Magic Bounce</a></h3>
+ 
+<p>Rapid Spin is the most direct way to get rid of entry hazards, but not the only one. Magic Bounce is an ability introduced in the fifth generation which is received by only two fully evolved Pokémon: <a href="/bw/pokemon/espeon">Espeon</a> and <a href="/bw/pokemon/xatu">Xatu</a>. This ability allows the user to bounce back any kind of status changing effects, Taunt, Encore, Roar and Whirlwind, status conditions, and of course, entry hazards as well. This means that, if Xatu or Espeon switches into a Ferrothorn using Spikes, not only will the user have prevented Spikes from being laid on his field, but a layer of Spikes would have been stacked on the opponent's field as well!</p>
+ 
+<p>This ability is simply amazing, but using Magic Bounce over Rapid Spin is not always recommended. For one, using Magic Bounce to prevent entry hazards being set up requires a lot of prediction, and often it's just downright impossible. For example, it is way too risky to try and switch Espeon or Xatu into Tyranitar every time. They could even be lucky and bounce back Stealth Rock once, but sooner or later they will be caught by a super effective Crunch. Team Preview doesn't help either. Plus, there's the problem with the Pokemon themselves. As hinted before, they are both Psychic-types with sub-par defenses. Xatu may have Roost and dual screens, but while this may be enough to take on a Forretress or a Ferrothorn, it won't suffice in the face of powerful threats like Heatran or the aforementioned Tyranitar.</p>
+ 
+<p>In the end, Magic Bounce may be an interesting check to entry hazards along with a lot other strategies like phazing, but it takes a lot of predictions and guesswork to be effective. It is highly advisable to only resort to Magic Bounce if you are mostly concerned about Spikes and Toxic Spikes, since preventing Stealth Rock from being set up with Magic Bounce throughout the match is often impossible.</p>
+ 
+<h3><a name="magnet_pull" href="/bw/abilities/magnet_pull">Magnet Pull</a></h3>
+ 
+<p>Many common users of entry hazards have something in common, and that is their Steel typing. This means that they all boast useful resistance to commonly used attacking types, but they are susceptible to being trapped by any Pokemon with the ability Magnet Pull. While trapping a Pokemon often won't stop it from getting up at least 1 or 2 layers of hazards, taking out the entry hazards user means the Rapid Spinner will have an easier time clearing the field later. If the Magnet Pull user can set up on these Pokemon to sweep the opposition, this step may even be not necessary.</p>
+ 
+<p>Like Magic Bounce, Magnet Pull has only two fully evolved users: <a href="/bw/pokemon/magnezone">Magnezone</a> and <a href="/bw/pokemon/probopass">Probopass</a>. The latter is almost completely outclassed in OU, so our analysis will focus on the former. Magnezone has a frightening base 130 Special Attack, which allows it to kill most Steel-types in one or two hits through a combination of Thunderbolt and Hidden Power Fire. It can either go for a brutal revenge killer setup and wear a Choice Scarf to ensure maximum efficiency (sometimes even against the likes of Heatran), or it can take a more sweeping-oriented approach, abusing Substitute and Charge Beam to slowly boost up and then take the opponent by storm. The latter variant is particularly effective against Drizzle teams.</p>
+ 
+<p>Again, it should be noted that Magnezone isn't a full stop to entry hazards. Rather than clearing the field of them, it prevents the opponent from laying down too many layers and removes the user, allowing a teammate to remove them later. If a team really needs entry hazards out of the picture, it is advisable to actually pair up Magnezone with a Rapid Spin user, or not use it at all.</p>
+ 
+<h3><a name="HP">HP EVs</a></h3>
+ 
+<p>This part is not exactly about countering entry hazards, but rather about dampening its effects on the team. As explained above, Stealth Rock and Spikes always deal damage equal to a certain fraction of the Pokemon's max HP, rounded down. Here, we'll consider Stealth Rock for our examples, but the following considerations will hold true for Spikes as well.</p>
+ 
+<p>Let's consider a Choice Band Tyranitar with 236 HP EVs (always assume 31 IVs). This means our Tyranitar will have a maximum of 400 HP. Now, what happens if it switches into Stealth Rock? It will take damage equal to 1/8 of its max HP: 400/8 = 50 HP. So, after switching once into Stealth Rock (assuming it doesn't take any other kind of damage), it'll sit at 350 HP. After two switches, it will be at 300 HP, and so on. Now, let's suppose the same Tyranitar is being given 232 HP EVs instead. So, now our Tyranitar will have a maximum 399 HP. If it switches again into Stealth Rock, it will take 1/8 of its max HP worth of damage, as usual. However, this time the actual damage is 399/8 = 49 HP of damage (remember the result is <em>always</em> rounded down). So, after this Tyranitar switches in Stealth Rock once, it will sit at 399-49 = 350 HP, just like the other Tyranitar. If it switched in twice, it will sit at 399-98 = 301 HP, which is higher than the 300 of the other Tyranitar. When you factor in that the 4 EVs we took from HP could have been invested in any other stat (maybe even Defense or Special Defense), you'll see that the Tyranitar with 232 HP EVs is more efficient than the one with 236 HP EVs.</p>
+ 
+<p>Maybe you'll have guessed it, but this can lead us to formulate one rule of thumb for any Pokemon. <strong>When giving HP EVs to a Pokémon neutral to Stealth Rock, make sure you never have an HP stat which is divisible by 8.</strong> Obviously, this rule will also apply to Pokemon resistant to or weak to Rock-type attacks, but will need to be slightly tweaked, since in these cases we're dividing by 4 or by 16 instead of by 8. So, our final rule will look like this:</p>
+ 
+<p><strong>When giving HP EVs to a Pokemon, make sure you never have an HP stat which is divisible by X, where X is the number you divide the HP stat with when calculating Stealth Rock damage.</strong></p>
+ 
+<p>So, if the Pokemon is weak to Stealth Rock, like Victini, we'll need to make sure its HP is not divisible by 4. If instead we take Flygon (which actually resists Stealth Rock), its HP will need to not be divisible by 16. Obviously, this rule applies only for those Pokemon without any form of recovery which need to switch in several times, like users of Choice items. Pokemon like Skarmory or Gliscor won't need to follow it, as their recovery tools will get them to max HP after being switched in (whether via Roost or Poison Heal), thus defeating the main point against HP stats divisible by certain numbers.</p>
+ 
+<h2><a name="conclusion">Conclusion</a></h2>
+ 
+<p>Hopefully, after reading this guide, you'll have a better understanding of entry hazards, whether you intend to use them to your own advantage or wish to formulate an effective strategy for coping with them. Just remember that entry hazards always have a purpose, just like any other support move. If you opt to use them, make sure your team actually takes advantage of them enough to make up for the turns you spend setting them up, as well as the team slots you had to forgo in order to fit them in. If you face an opponent who uses entry hazards, try to understand how they can hamper you (limiting the number of times your weather changer can switch in, crippling your key wall against the foe's main sweeper, and so on) and react accordingly. Don't struggle to remove them with Rapid Spin unless the effort you put in is actually worth it. Every strategy has a cost, both when used and when foiled, and entry hazards are no exception.</p>

@@ -1,0 +1,139 @@
+[title]
+A Guide to Smogon IRC
+[head]
+<link href="/media/smog/smog.css" type="text/css" rel="stylesheet" />
+[page]
+<div class="author">By <a href="/forums/member.php?u=40358">Oglemi</a>. Art by <a href="/forums/member.php?u=25105">bugmaniacbob</a>.</div>
+<table id="smogheader">
+<tr>
+<td class="left"><a href="moves">« Previous Article</a></td>
+<td class="middle"><a href="/smog/issue19/">Home</a></td>
+<td class="right"><a href="translation">Next Article »</a></td>
+</tr>
+</table>
+
+<div style="text-align: center;"><img src="/media/upload/smog/issue19/guidetoirc_gardevoir.jpg" alt="" /></div>
+ 
+<h2>Introduction</h2>
+
+<p>Perhaps surprisingly, except for those of you that know me, I am actually one of the most computer-inept people on the Internet today. So, being the technophobe I am, it took me a really long time, even after I had gotten my mods on the forums, to get into IRC, or Internet Relay Chat for those acronymically-impaired like yours truly (I thought IRC and iirc were the same thing for a really long time). But the really surprising thing is, IRC is actually a really cool tool; imagine that! Being able to communicate with people that are interested in the same things you are is an amazing resource to have, especially when the pace of the forums is, well, sluggish, and having an extended conversation with someone over VM or PM can be just downright annoying. This makes getting work done and conversing with people about the metagames you enjoy about 50x easier, and even fun!</p>
+
+<p>While a lot of Smogon's activity occurs on its forums, ranging from discussion in Smogon Metagames to mafia in Circus Maximus, the site's heart and soul could easily be said to be on IRC. Running an IRC client (instructions <a href="/irc/">here</a>) allows you to have active conversations with many people in the various channels claimed by Smogon members. Depending on what channel you're in, you have the ability to have intelligent discussion, socialize with some of your friends from the forums, and even goof around when and where forum rules don't apply. It's definitely a tried-and-true formula, considering IRC chat among many of Smogon's greatest has been going on longer than the Smogon site itself&mdash;just ask one of them, like Articuno64! Below I'll take you through what you can expect when you first hop on IRC, so it isn't quite as frightening as I found it when I first joined, though that could have just been my inherent fear of anything too techy.</p>
+
+<h2>Basics</h2>
+
+<p>The link provided in the intro is an amazing resource to get you onto IRC, and if you follow the instructions to a tee, you should be ready to chat up a storm in #pokemon in no time.</p>
+
+<p>If you followed the instructions correctly, you should end up at the same SynIRC as the rest of Smogon. From there, you have to join the channel you want to chat in; channels are represented by a # (kinda like that Twitter crap). One of the most basic commands you need to know, and can survive on for quite a while alone might I add, is /join. (Without the period, mind you.) /join will get you to wherever you need to go on IRC. So, let's say you want to get to #pokemon. You'd type in /join #pokemon in the command bar (which also happens to be the chat bar). Voila! You are now in Smogon's main IRC channel, ready to chat to your heart's content.</p>
+
+<p>But wait, why are there weird symbols (or colors depending on the IRC client you're using) next to some people's names? Just like the forums, IRC is hierarchical, with some people having more status than others, giving them more powers, such as the ability to ban people from the channel. The current holders of Smogon status are listed in the link above and, if they are of enough power, by certain badges on the forums (only one channel can get you badges on the forums though). But basically, starting from top to bottom: ~ represents the founder of the channel, &amp; represents SOPs or channel leaders, @ represents AOPs or discussion leaders, % represents HOPs or channel mods, and + represents VOPs/voice or channel contributors.</p>
+
+<p>Finally, there are some things you shouldn't say as a whole while you adventure on IRC. Don't state the obvious in a channel. "Wow, this chat is dead" or "Wow, there's a lot of people here" are typically bad things to say and are seen all of the time. If a conversation is taking place or if someone asks a question, and you don't know how to respond (unless the question was directed specifically at you), you don't have to say anything. We don't need to know that you don't know the answer to the question. Finally, don't troll when you first start off on IRC (if you don't know what troll means, then you are a true Internet noob and I salute you). It's very hard to tell if you're trolling or just being stupid if no one knows your personality. There are members of the IRC community that troll each other, and that's fine because they're friends or are known to be trolls on occasion. But as someone who's just starting off, giving everyone the impression that you're just a troll isn't something you want to do if you want to make any friends.</p>
+
+<h2>#pokemon and #smogonwifi</h2>
+
+<p>#pokemon, previously #dreamworld, is basically <em>the</em> place to be to discuss Pok&eacute;mon in general, and it just so happens to be Smogon's main discussion channel and one of the two that'll get you badges on the forums if you prove your worth there. In #pokemon you can talk about just about anything dealing with Pok&eacute;mon. Have a question about the Smogon tiering process? Shoot away. Need advice on what set to run on one of your Pok&eacute;mon? Go right ahead. You can literally ask about anything dealing with competitive Pok&eacute;mon in any metagame, from OU to LC. You can even talk about casual Pok&eacute;mon stuff, such as how your Nuzlocke challenge is going, or which Pok&eacute;mon is the cutest. Don't be surprised if the conversation taking place when you join doesn't even deal with Pok&eacute;mon at all&mdash;that's not all we're interested in here at Smogon! We also like to talk about sports and life in general. However, if you want to talk about Pok&eacute;mon, you have immediate precedence in the channel and are free to interrupt the conversation; just remember to be courteous as well! Don't be afraid to start a conversation either! Sometimes the channel will lie dead with no one talking, but that doesn't mean no one's around. Just start firing questions or talking to yourself, as you're bound to attract someone's attention being on one of the largest channels on IRC.</p>
+
+<p>However, if you're looking for people to trade or battle with, IRC is probably not the place for you. The Wi-Fi forum and Pok&eacute;mon Online, our current battle simulator, is probably what you're looking for. #smogonwifi is not a place to go and request trades, Pok&eacute;mon, or battles; instead it is a place to talk about RNG, or chat with other Pok&eacute;mon researchers on their latest projects (i.e. mechanics of the game itself). If you're looking for a place to ask about RNG and learn how to get your own Pok&eacute;mon to put up for trade in the Wi-Fi forum, this is the place to go.</p>
+
+<h2>#smogon</h2>
+
+<p>While the channel does have the namesake of the site, and used to be the channel to talk all things Pok&eacute;mon, it is now mostly a social channel where the "old-timers" hang out. It is a channel deeply immersed in culture, and a truly unique place compared to most of the other Smogon channels you'll find. The regulars there are close-knit friends, so you may find it hard to "fit in". From the Rules section of the link in the intro: "You would do best to lurk for a while before jumping into the chat, regardless of which channels you're on. IRC channels can sometimes be cliquey, so try not to make an ass out of yourself. You might get trolled a bit, but so does everyone who is new. Take it with a grain of salt, and try to act like a normal human being." Don't let that completely scare you away though&mdash;they welcome any and all newcomers as long as you partake in the discussions in an intelligent manner (and have a tolerance for French)!</p>
+
+<h2>#insidescoop</h2>
+
+<p>This is the staff channel of Smogon, where the inner workings of the site are discussed. This channel is probably one of the few channels on Smogon IRC you'll run into that having "voice" or the + symbol is required to speak in the channel. This is done so that only badged members, those people whom the site has put trust into to be staff members, can talk about the things that matter for the functioning of the site itself without being sidetracked by the masses. If you aren't a badged member, it can be a cool experience to lurk the channel to see the discussions that make the site what it is. It can also be good motivation to become a contributor to the site so that you can get your own badge as well!</p>
+
+<h2>Metagame-Specific Channels</h2>
+
+<p>While #pokemon is available to talk about all things Pok&eacute;mon, sometimes the channel can get a bit hectic. If this is the case, there are metagame-specific channels where you can talk about certain metagames in depth with the more experienced players of that tier. Some of the metagame-specific channels that exist are #genvuu, #rarelyused, #neverused, #ubers, and #littlecup. #genvuu is the channel to talk all things BW UU where many of the tiering discussions for the tier take place, so if you want to catch some of the arguments that take place between the Senate members, this is the place to be. #genvuu is actually the replacement of the now-defunct #underused channel, which was used for DPP UU. #rarelyused, #neverused, #ubers, and #littlecup are pretty self-explanatory, and many of the top players and moderators of each tier are a constant presence of each channel.</p>
+
+<h2>C&amp;C Channels</h2>
+
+<p>C&amp;C, or Contributions and Corrections, is the portion of the site that works meticulously to bring you the best analyses of each tier possible for the StrategyDex, as well as useful articles and other projects like aesoft's Pok&eacute;mon Online Replay Player. On IRC there are a couple of channels that serve the purpose of helping out anyone who wants to contribute to C&amp;C. #C&amp;C is the main channel that will help you with any questions you may have with an analysis, article, or project you're working on, as well as any questions you may have about C&amp;C policy or processes. #grammar is the channel to go if you have any questions regarding the proper phrasing or spelling of anything in your writing for Smogon. There exist Quality Control channels, such as #qc, but they are typically reserved for members of the QC team to discuss analyses in detail, so you may require voice to talk in the channels. Most questions you may have about your analysis when it's in the QC stage can probably be directed to #C&amp;C, or one of the metagame specific channels where many of the QC members and good battlers of the tier reside.</p>
+
+<h2>Miscellaneous Channels</h2>
+
+<p>There are countless channels that I haven't gone over in the above, but there are a couple other important Smogon-related ones that I want to go over here. #cap is the channel for the Create-A-Pok&eacute;mon project, and is used to discuss the certain topics of the process, and then the CAP's performance in the metagame. When a project is not in process the channel is far more relaxed, with a distinct culture of its very own. #ratemyteam is the channel to go if you're into the RMT forum, and is also the place to be for the #ratemyteam cups. If you're an artist or enjoy the Smeargle's Studio part of the site, #smeargle is a cool place to hang out. If you're a good battler and want to get into the Smogon team tournaments, there are channels for all of the separate teams of SPL and WCOP; just beware though that when the tournament is going you may be asked to leave or even kicked out on sight if you're not part of the team. Finally, there are many different splinter casual channels where many of Smogon's members hang out. If you make friends in the official channels you may be invited to one of them, or if you gather up enough friends you could even start your own!</p>
+
+<h2>Useful Commands, Lingo, and Acronyms</h2>
+
+<p>As you explore IRC and get involved in the channels, you'll learn how to talk and use various commands to make your life easier. However, when you first get on, some of the things people say and do may be extremely confusing, so I've listed below some various commands and acronyms that can make your early ventures into IRC much easier.</p>
+
+<h2>Commands:</h2>
+
+<dl>
+<dt>/leave or /part</dt>
+<dd>Lets you leave a specific channel without having to leave all of them at once. For example, if I were in in multiple channels, but I wanted to just leave #ubers, I would type "/leave #ubers" and that channel window would disappear.</dd>
+<dt>/me</dt>
+<dd>A funny little command that can be used to show more emotion or used as a joke. Typing in "/me cries" in the command bar will show up as "* Oglemi cries" in the channel feed.</dd>
+<dt>/msg or /query</dt>
+<dd>Message is another one of the most basic commands you'll learn on IRC, much like /join, and using it can let you open new dialogue windows with other users so you can talk in private, or even use it to enter your password or open the HELP command list.</dd>
+<dt>/nick</dt>
+<dd>Changes your nickname on the channel. For example, if I were to type in "/nick Og" in the command bar, my username will change from Oglemi to Og in the channel feed and the users list.</dd>
+<dt>/quit</dt>
+<dd>Disconnects you from the IRC client.</dd>
+</dl>
+
+<h2>Lingo, Acronyms, and Abbreviations:</h2>
+
+<p>Every form of media has its own abbreviations and acronyms to make talking easier, the best example being texting. IRC is no different, and there's quite a few different words that I had never run into before, so I thought I'd give a few examples here. But remember, as defined in the rules, talking in all abbreviations, like sum1 or ne1, is usually frowned upon and makes you look unintelligent if anything. Some of these may be painfully obvious for some, but for those just getting into the Internet, I hope this is helpful!</p>
+
+<dl>
+<dt>Topic</dt>
+<dd>This is the message that appears when you join a channel; usually it's something completely random from a conversation that took place the other night, and sometimes there'll be useful links in it. The topic is typically set by status holders.</dd>
+<dt>Porygon2</dt>
+<dd>Porygon2 is a bot found in #pokemon and a few other channels that performs a few different functions and serves as the face of ChanServ. Don't let anyone fool you that it's actually a person!</dd>
+<dt>afaik</dt>
+<dd>as far as I know</dd>
+<dt>afk</dt>
+<dd>away from keyboard</dd>
+<dt>bbl / brb</dt>
+<dd>be back later / be right back</dd>
+<dt>c/p</dt>
+<dd>copy/paste</dd>
+<dt>dc'd</dt>
+<dd>disconnected</dd>
+<dt>dw</dt>
+<dd>don't worry</dd>
+<dt>gdi</dt>
+<dd>goddammit</dd>
+<dt>hops</dt>
+<dd>half-op, half-op status</dd>
+<dt>idc</dt>
+<dd>I don't care</dd>
+<dt>idgi</dt>
+<dd>I don't get it</dd>
+<dt>idk</dt>
+<dd>I don't know</dd>
+<dt>iirc</dt>
+<dd>if I remember correctly</dd>
+<dt>irl</dt>
+<dd>in real life</dd>
+<dt>itc</dt>
+<dd>in this chat/channel</dd>
+<dt>fwiw</dt>
+<dd>for what it's worth</dd>
+<dt>ofc</dt>
+<dd>of course</dd>
+<dt>ops</dt>
+<dd>operator, operator status</dd>
+<dt>w/e</dt>
+<dd>whatever</dd>
+</dl>
+
+<h2>Conclusion</h2>
+
+<p>A word to the wise: IRC is very addictive. While this can be said about anything, the one thing that many people will tell you is that once you get into IRC, you can find it very easy to lose track of time. I've spent hours on IRC at a time without even realizing it; you know what they say, you lose track of time when you're having fun. IRC is an amazing tool and the people that you will meet can become some of your best friends, but don't let IRC become your substitute for real world interaction. Remember, school and work &gt; Pok&eacute;mon. Time management is important, and we don't want anyone to fail in life just so that they can become good at Pok&eacute;mon or become an integral part of the community. If you have a school project coming up, and you're sitting on IRC, you need to log off and get to work! But don't ask the people of the channel to ban/kick if you come on when you have something important to do; we're your friends, not your parents. Responsibility is important.</p>
+
+<p>Hopefully this guide will help you on your endeavors to Smogon IRC! We really can't wait to meet you, and as was said in the intro, the heart and soul of Smogon really is on IRC. Happy chatting!</p>
+
+<div style="text-align: center;"><img src="/media/upload/smog/issue19/guidetoirc_porygon2.jpg" alt="" /></div>
+
+<table id="smogfooter">
+<tr>
+<td class="left"><a href="moves">« Previous Article</a></td>
+<td class="middle"><a href="/smog/issue19/">Home</a></td>
+<td class="right"><a href="translation">Next Article »</a></td>
+</tr>
+</table>

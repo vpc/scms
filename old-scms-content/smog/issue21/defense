@@ -1,0 +1,97 @@
+[title]
+How It's Made - Defense
+[head]
+<link href="/media/smog/smog.css" type="text/css" rel="stylesheet" />
+[page]
+<div class="author"> By <a href="/forums/member.php?u=43461">yee</a>, art by <a href="/forums/member.php?u=31311">Rocket Grunt</a>.</div>
+<table id="smogheader">
+<tr>
+<td class="left"><a href="status_uber_tier">« Previous Article</a></td>
+<td class="middle"><a href="/smog/issue21/">Home</a></td>
+<td class="right"><a href="top_10">Next Article »</a></td>
+</tr>
+</table>
+<h2>Introduction</h2>
+
+<p>Building a good stall team can be quite hard because of the main goal of the team. A perfect stall team would be able to counter every single possible threat with ease, forcing switches until residual damage finishes off the other team, or stalling indefinitely until the other Pokemon run out of PP. In reality, this isn't possible; we would be playing a pointless game if it was. The goal of a stall builder is to get as close to this ideal team as possible.</p>
+
+<h2>Where to begin?</h2>
+
+<p>In an unbroken metagame where there's nothing too good not to use (Tentacruel in rain *cough* Excadrill *cough*), you use the typings of Pokemon to narrow down the options for the backbone of your team. Applicable in DPP and BW, the 3 known requirements for an ideal stall team (with options tailored to BW OU) are as follows:</p>
+
+<dl><dt><em>1. A "Physically Bulky Steel-type" and a "Specially Bulky Steel-type"</em></dt>
+
+<dd><p>Steel is the single best defensive type—resisting 12 of the 17 types; no other individual type resists more than 4. Equally important, it is the sole resist to the most powerful type in the game: Dragon. Physically bulky Steel-types include Forretress, Skarmory, Ferrothorn, Steelix, and Bronzong, and  Specially bulky Steel-types include Ferrothorn, Empoleon, Bronzong, Jirachi, and Heatran.</p>
+
+<p>Let's remember to apply common sense here—everyone who's faced a Blissey or a Chansey knows exactly what stops the largest amount of special attackers. It is possible to build a solid team without one of the optional Steel-types above. Tangrowth is the single possible defensive substitute for a physically defensive Steel-type, it is the Blissey of physical walls. As long as your other Steel-type can take two Choice Band Outrages from a Haxorus you're good to go. Blissey or Chansey can be directly thrown into the specially bulky Steel-type slot. The same applies to Tyranitar with its ability to instantaneously jump up its Special Defense with Sand Stream. Note that if Blissey isn't used a Grass-type with Natural Cure is incredibly handy to block status from bulky Water-types, such as Rotom-W. </p></dd>
+
+<dt><em>2. Cover the Fighting Weakness</em></dt> 
+
+<dd><p>Steel-types are simply weak to Fighting, and if you have a special wall of any sort you'll have an opening to Fighting-types. They are conveniently the next most powerful attackers after Dragons, not including weather-boosted attacks. To determine when your Fighting weakness is sufficiently covered, you check if you can handle Fighting + Ice and Fighting + Dark combos, originating from Swords Dance Lucario running one of either. Both of these combos have near perfect coverage (Fighting + Ghost in fact is perfect), if you can handle them both physically and specially you can handle any Fighting-type. Slowbro, Gyarados, Mew, Deoxys-D, Cresselia, Sableye, Jellicent, and Tentacruel all resist Fighting and Ice, protecting them from Weavile, whereas Gliscor, Sableye, Gyarados, Salemence, Zapdos, Nidoqueen, and Dragonite perform well against Fighting and Dark, helping against Scrafty.</p>
+
+<p>Again, not all teams can fit these specially selected Pokemon for the job. If you can't fit one of the above in to check your Fighting weaknesses, Hippowdon and Quagsire can act as excellent checks.</p></dd>
+
+<dt><em>3. Bulky Water-types</em></dt>
+
+<dd><p>There's something special about bulky Water-types that makes them stand out defensively, they are the last group of Pokemon that famously handle more than the rest. They are generally the most solid stops to Water- and Fire-types when you need them, the last stand-out offensive types. They tend to have very few weaknesses and great mixed defenses letting them beat many Pokemon lacking super effective or set-up moves. As an added bonus, this pool contains a high concentration of the moves Perish Song, Haze, Dragon Tail, and Roar, as well as the single viable Unaware user, letting them take on a lot of stat-boosters that stall can't stop from setting up. Politoed, Tentacruel, Vaporeon, Jellicent, Starmie, Gyarados, Slowbro, Quagsire, Milotic, Slowking, Suicune, Swampert, Empoleon, Gastrodon, and Rotom-W are all common choices, each with their own defining trait.</p>
+
+<p>There are no substitutes here defensively.</p></dd>
+</dl>
+
+<p>Once these 3 bases are covered your team will approach its maximum defensive potential. The easiest way to build is to choose which Pokemon you would like to fill specific roles, such as entry hazards, spinblocking, or attacking, then building around them.</p>
+
+<div style="float: right; margin-left: 1em;"><img src="/media/upload/smog/issue21/howitsmadedefense_hippowdon.png" alt="" /></div>
+
+<h2>Proofs</h2>
+
+<p>You may be wondering if there are any good stall teams that verify this formula. Here are a few examples for skeptics.</p> 
+
+<dl><dt>Obi Stall by david stone: Hippowdon / Skarmory / Blissey / Tentacruel / Spiritomb / Celebi </dt>
+
+<dd><ol><li>Skarmory and Blissey help maximize the amount of physical and special attackers covered.</li>
+<li>Tentacruel and Spiritomb both cover Fighting + Ice decently, while Hippowdon can check Fighting-types using Dark-type coverage well.</li>
+<li>Tentacruel fills in as a bulky Water-type, while Celebi helps in stopping stat boosters with Perish Song.</li></ol></dd>
+
+<dt>Goodbye Gen. 4 by Lady Bug: Abomasnow / Skarmory / Nidoqueen / Blissey / Spiritomb / Starmie </dt>
+
+<dd><ol><li>SkarmBliss again.</li>
+<li>Nidoqueen is a great counter to Fighting-types with Dark-type coverage, while Starmie and Spiritomb backup against those with Ice-type coverage.</li>
+<li>Starmie fills in as a bulky Water-type.</li></ol></dd>
+
+<dt>IR: The Art of Rain Stall by M Dragon: Politoed / Quagsire / Dragonite / Chansey / Tentacruel / Ferrothorn </dt>
+
+<dd><ol><li>Ferrothorn and Chansey optimize coverage against Dragons and defenses in general.</li>
+<li>Tentacruel takes Fighting + Ice combinations, while Quagsire checks Fighters using Dark-type moves for coverage (and Terrakion).</li>
+<li>Politoed and Tentacruel annoy tons of Pokemon as bulky Water-types, with the added bonus of Perish Song from the former.</li></ol></dd>
+
+<dt>Rain Man by undisputed: Politoed / Blissey / Tentacruel / Ferrothorn / Gliscor / Jirachi </dt>
+
+<dd><ol><li>Ferrothorn and Blissey play a similar role in optimizing defenses as on M Dragon's team.</li>
+<li>Tentacruel handles Fighting + Ice, while Gliscor handles Fighting + Dark combos on the physical side.</li>
+<li>Politoed and Tentacruel do the same things they do on M Dragon's team.</li></ol></dd></dl>
+
+<p>There you have it, 4 revolutionary stall teams that, when taken apart, prove this formula. </p>
+
+<h2>What if I want to handle threats in a different way?</h2>
+
+<p>There are a few unique options to handle threats on stall teams: trappers. When you have a specific weakness you need covered, you can easily ensure that they won't get out of hand with the amount of competent trappers available. Scizor, Tyranitar, Wobbuffet, Magnezone, and Dugtrio are all great examples of Pokemon who can trap notable threats reliably, whether it be for winning the weather war, preventing Terrakion from eating your team, or trapping Latios.</p>
+
+<h2>Common mistakes when running defensive teams</h2>
+
+<ul><li>Don't run 252 HP / 252 Def Bold Blissey. This takes 40.5% - 47.9% damage from Politoed's Specs Hydro Pump, which it should be able to comfortably take. Another annoying hit is the +6 Giga Drain from Modest Celebi which will do 48.3% - 56.9% damage, if you plan to outstall it with Toxic you don't want that high of a chance to die to a critical hit. Try another spread like 236 HP / 252 Def / 20 SpD Calm, which isn't even 2HKOed by Modest Choice Specs Rotom-W and has a 75% chance to survive the critical hit from Celebi. If you want max Defense try 120 HP / 252 Def / 136 SpD Bold, which is enough to take two Choice Specs Hydro Pumps from a Modest Rotom-W, and two from Politoed after Stealth Rock. To give you an idea of how much more special fat you get, the Calm spread takes only 36.4% - 43% damage from Choice Specs Politoed Hydro Pump, meaning without a critical hit, Blissey is a safe switch with Stealth Rock on the field. Lastly, the Ubers spread of 4 HP / 252 Def / 252 SpD Calm can be very useful in BW2 to safely take multiple Choice Specs Focus Blasts from Thundurus-T after Stealth Rock damage. If you hear hype that special attackers are 2HKOing Blissey make sure it's assuming a proper EV spread. </li>
+
+<li>Minimize the use of your Rapid Spinner as a wall. The only time you will get away with using your spinner to counter threats is *broken* Rain Dish Tentacruel with a steady supply of rain. No using Hidden Power Ice Forretress as your primary Gliscor counter or Choice Band Tyranitar Crunch sponger unless its an emergency or in the latter case you know Tyranitar will Crunch. Letting your spinner get worn down will make it easier for your opponent to soften up your walls with hazards, meaning your hard work assembling a tough team will go to waste.</li>
+
+<li>Know your teams weaknesses—don't value every Pokemon equally. Scan with Team Preview and find the most threatening Pokemon, then try to play in a way that minimizes their effectiveness. Blissey is often the member to guard because common Pokemon like Rotom-W and Celebi are capable of taking on entire stall teams once it's gone. </li></ul>
+
+<h2>Is this just for stall players?</h2>
+
+<p>No, offensive players will surely find it useful to completely understand the backbones of defensive teams while even balanced teams can use this guide. If they rely on switching into threats often to handle them they probably have substitutes from this guide and/or trappers to make it happen! Hopefully this has given you a greater understanding of how defense in Pokemon works. Have fun applying it and enjoy your extra confidence!</p>
+
+<table id="smogfooter">
+<tr>
+<td class="left"><a href="status_uber_tier">« Previous Article</a></td>
+<td class="middle"><a href="/smog/issue21/">Home</a></td>
+<td class="right"><a href="top_10">Next Article »</a></td>
+</tr>
+</table>

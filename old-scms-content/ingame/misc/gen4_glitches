@@ -1,0 +1,93 @@
+[title]
+Competitive Glitches in Generation IV
+[head]
+<meta name="description" content="A comprehensive look at glitches with competitive implications in fourth generation games, thanks to Ditto." />
+[page]
+<div class="author">By <a href="/forums/member.php?u=10012">Ditto</a>.</div>
+
+<ul class="toc">
+	<li><a href="#acid_weather">Acid Weather</a></li>
+	<li><a href="#choiced_pursuit">Choiced Pursuit</a></li>
+	<li><a href="#choiced_uturn">Choiced U-turn</a></li>
+	<li><a href="#hitting_protect">Hitting through Protect</a></li>
+	<li><a href="#slow_start">Slow Start</a></li>
+	<li><a href="#transform_rage">Transform/Rage</a></li>
+</ul>
+
+<h2><a name="acid_weather">Acid Weather</a></h2>
+<dl>
+	<dt>Cause</dt> 
+	<dd>This Glitch occurs when Pursuit is used by the battle host to KO a switching Pokémon while Trick Room, Gravity, Uproar, fog, hail, sunshine, or sandstorm is in effect.</dd>
+	<dt>Effect</dt> 
+	<dd>Depending on which "weather" is in effect when Pursuit is  used, various acid weather effects can come into play.
+		<ul>
+				<li><strong>Trick Room:</strong> Gravity, acid fog, acid hail, acid sun, acid sandstorm, and acid rain.</li>
+				<li><strong>Gravity/Uproar:</strong> acid fog, acid hail, acid sun, acid sandstorm, and acid rain.</li>
+				<li><strong>Hail:</strong> acid hail, acid sun, acid sandstorm, acid rain.</li>
+				<li><strong>Sun:</strong> sandstorm, sand rain.</li>
+				<li><strong>Sandstorm:</strong> sand rain.</li>
+		</ul>
+	As you can see, there are two different types of weather produced, "acid" and "sand." Acid Weather uses one's ability to hurt them. So as Machamp takes damage it would read "Machamp was hurt by No Guard." Sand weather however, simply states "Machamp was hurt by Sandstorm (or Rain)." Chlorophyll and Solar Power are activated if acid sun is up.  In addition, as long as their acid weather effects are up, Blizzard and Thunder both have 100% accuracy and SolarBeam doesn't take a turn to charge; however, it does 50% of the normal damage it would do.</dd>
+	<dt>Immunities</dt> 
+	<dd>If acid hail isn't up, then Pokémon who are originally immune to Sandstorm are also immune to Acid Weather. If Hail is up as well, then Pokémon must be immune to both Hail and Sandstorm. Pokémon with the abilities Rain Dish, Ice Body, and Dry Skin will recover HP from each weather in effect until they are at 100%; after that they will get damaged.</dd>
+	<dt>Endless Circles</dt> 
+	<dd>Cherrim and Castform will change between their forms if Acid Sun and Acid Rain are up. This process creates an infinite loop within the form change, causing players to end the battle by turning off the game.</dd>
+	<dt>Getting rid of it</dt> 
+	<dd>Acid Weather can be stopped by setting up a weather effect that isn't up already or sending in a weather Pokémon (Tyranitar, Kyogre, Groudon, Hippopotas, Hippowdon, Snover, or Abomasnow).</dd>
+	<dt>Games Affected</dt> 
+	<dd>Platinum, HeartGold, SoulSilver. It will show up in Diamond or Pearl, but a Platinum, HeartGold, or SoulSilver game must be hosting.</dd>
+</dl>
+
+<h2><a name="choiced_pursuit">Choiced Pursuit</a></h2>
+<dl>
+	<dt>Cause</dt> 
+	<dd>This glitch occurs when a Pokémon using Pursuit has a  Choice Item equipped and the opponent's Pokémon switches out.</dd>
+	<dt>Effect</dt> 
+	<dd>The choiced Pokémon is not locked into Pursuit and may choose another move the next turn.</dd>
+	<dt>Games Affected</dt> 
+	<dd>Japanese Diamond, Japanese Pearl.</dd>
+</dl>
+
+<h2><a name="choiced_uturn">Choiced U-turn</a></h2>
+<dl>
+	<dt>Cause</dt> 
+	<dd>This glitch occurs when a Pokémon using U-turn has a Choice Item equipped and switches to another Pokémon who knows U-turn.</dd>
+	<dt>Effect</dt> 
+	<dd>The non-Choiced Pokémon is forced to use U-turn.</dd>
+	<dt>Games Affected</dt> 
+	<dd>Diamond, Pearl.</dd>
+</dl>
+
+<h2><a name="hitting_protect">Hitting through Protect</a></h2>
+<dl>
+	<dt>Cause</dt> 
+	<dd>The effect occurs when a move has its accuracy raised to 100%. No Guard, Rain, and Hail can all account for this accuracy raise, but Wide Lens, Compound Eyes, and Gravity do not.</dd>
+	<dt>Effect</dt> 
+	<dd>There is a chance that the move will bypass Protect/Detect.  This chance is equal to the amount that the accuracy was raised. For example, Thunder's accuracy is raised by 30% in the rain, so there would be a 30% chance that Thunder will bypass Protect/Detect.</dd>
+	<dt>Move Absorption</dt> 
+	<dd>Abilities that absorb moves will still absorb them even if Protect is up. These abilities are Dry Skin, Flash Fire, Motor Drive, Volt Absorb, and Water Absorb.</dd>
+	<dt>Games Affected</dt> 
+	<dd>Diamond, Pearl.</dd>
+</dl>
+
+<h2><a name="slow_start">Slow Start</a></h2>
+<dl>
+	<dt>Cause</dt> 
+	<dd>When a move is used to get rid of the ability Slow Start, such as Skill Swap or Worry Seed.</dd>
+	<dt>Effect</dt> 
+	<dd>Slow Start is no longer the ability, but the Pokémon must still wait 5 turns before the Attack and Speed drops end.</dd>
+	<dt>Games Affected</dt> 
+	<dd>Japanese Diamond, Japanese Pearl.</dd>
+</dl>
+
+<h2><a name="transform_rage">Transform/Rage</a></h2>
+<dl>
+	<dt>Cause</dt> 
+	<dd>This glitch occurs when a Pokémon transforms into a Pokémon that knows Rage. The transformed Pokémon must then use Rage and get the message "[Pokémon Name]'s Rage is building up" at least once. Then the Pokémon must run out of PP for all of its moves.</dd>
+	<dt>Effect</dt> 
+	<dd>After the battle is over and the transformed Pokémon returns to its original form, it will retain the moves from the Pokémon it had transformed into.</dd>
+	<dt>Adding Mimic</dt> 
+	<dd>When in a double battle, a Pokémon can use Mimic in order to copy Transform. Switch out the original Transformer (Ditto, Mew, or Smeargle) and switch in a Smeargle with 3 moves and Rage. Transform into this Smeargle and you will have a Pokémon with any 3 possible moves and Rage after the battle.</dd>
+	<dt>Games Affected</dt> 
+	<dd>Diamond, Pearl, Platinum, HeartGold, SoulSilver.</dd>
+</dl>

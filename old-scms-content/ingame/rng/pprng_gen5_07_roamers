@@ -1,0 +1,95 @@
+[Title]
+PPRNG Guide - Capturing Roaming Pokemon
+
+[Head]
+<style type="text/css">
+	.centered-left { text-align:center; padding-right:40%}
+	img { max-width:100%; }
+	ol { list-style-type: upper-roman; }
+	ol ol { list-style-type: lower-roman; }
+	dl dl { margin-left:2em; }
+	dl dl dt { font-size:.85em; }
+</style>
+ 
+[Page]
+<div class="author">By <a href="/forums/members/65876/">religiousjedi</a>.</div>
+
+<ol class="toc"> 
+	<li><a href="/ingame/rng/pprng_gen5_01_intro">Introduction</a></li>
+	<li><a href="/ingame/rng/pprng_gen5_02_basics">The Basics of RNG Abuse</a></li>
+	<li><a href="/ingame/rng/pprng_gen5_03_id_abuse">How to RNG Abuse your TID/SID combo</a></li>
+	<li><a href="/ingame/rng/pprng_gen5_04_capture_abuse">Capturing/Receiving Perfect (and Shiny) Pokemon</a></li>
+	<li><a href="/ingame/rng/pprng_gen5_05_breeding">Breeding Perfect (and Shiny) Pokemon</a></li>
+	<li><a href="/ingame/rng/pprng_gen5_06_wondercard">Receiving Perfect Wondercard Pokemon</a></li>
+	<li><strong>Capturing Roaming Pokemon</strong></li>
+	<li><a href="/ingame/rng/pprng_gen5_08_hidden_grottos">Controlling Encounters in Hidden Grottoes</a></li>
+	<li><a href="/ingame/rng/pprng_gen5_09_dream_radar">Receiving Perfect Dream Radar Pokemon</a></li>
+	<li><a href="/ingame/rng/pprng_gen5_10_entralink">Capturing Perfect Entralink Pokemon</a></li>
+</ol>
+
+<p>
+	Perhaps one of the most difficult forms of RNG abuse in the 5th Generation, the problem with catching roaming Pokemon doesn't lie in getting the right IVs but rather getting a desired nature, not to mention capturing a shiny Pokemon. This guide will assume that you are only aiming for a desired nature and IVs. If you are going for a shiny roamer, consider RNGing your Trainer ID/Secret ID with a specific seed that you know you can hit. <strong>A word of caution:</strong> much like in Platinum and onwards, legendaries can be respawned if they are knocked out by defeating the Champion, roamers included. However, 5th Generation roamers cannot be reliably RNGed from the Champion's room.
+</p>
+
+<p>
+	By now, you should be familiar with the workings of the Standard Seed Searcher. Simply find a desirable spread and ensure that the required encounter is set to roamer. If you are still attempting to hit a Shiny Seed without having RNGed your TID/SID, you should set a minimum PID frame search of 650. If you have a specific seed, just go ahead and skip over to the Standard Seed Inspector window and input the data there.
+</p>
+
+<div class="centered-left">
+	<img src="/media/upload/ingame/rng/pprng_roamer_1.png" alt=""/>
+</div>
+
+<p>
+	Over in the Standard Seed Inspector, ensure you set Encounter Type to Roamer Spawn and hit generate to adjust the PID frames.
+</p>
+
+<div class="centered-left">
+	<img src="/media/upload/ingame/rng/pprng_roamer_2.png" alt=""/>
+</div>
+
+<p>
+	With that all set, now you need to prepare in-game. Do note that the rain summoned by the roamer advances the PID frame at a rate of approximately 60 frames per second. Snow also advances the PID frame but at a slower rate. In addition, there are WNPCs on Route 7, so the advancement is pretty erratic. Before starting the conversation with the old lady who discusses the roamer and invites you into her house, make a note of the weather conditions outside on your chosen date. Summer (February, June, October) doesn't have any weather, so you might want to search for those months. If you need to make a season change, do so before you reach the house as otherwise you will encounter erratic results. With preparations done, converse with the old lady and save right at the exit of the house.
+</p>
+
+<h3>Capturing Your Roamer</h3>
+
+<p>
+	Remember that there is unpredictability in determining your shifted PID frame due to the factors mentioned before. To determine this, simply head outside and engage the conversation with your roamer. Mash the A button to skip the whole conversation until you regain control of your character. You will now proceed to catch it, verifying the IVs to ensure you hit your Timer0. Using the nature and characteristic, you will then narrow down what frame you hit. Remember the following contributing factors:
+</p>
+
+<ul>
+	<li>No Weather Present: 550-750</li>
+	<li>Rain Present: 1500-1900</li>
+	<li>Snow Present (Winter Only): 260-300</li>
+</ul>
+
+<p>
+	In order to better assist with determining the Roamer's shifted PID frame, you can use the following tips. Tornadus and Thundurus each have a different range generated for their shifted PID frame, with Tornadus's range between frame 600-620+ while Thundurus's lies between frame 440-460+. In addition, user <a href="/forums/members/princess-emily.41698/">Princess Emily</a> discovered the days in each season/month in which weather is in effect, which are the following:
+</p>
+
+<ul>
+<li>Summer: 9, 10, 20, 21</li>
+<li>Spring or Autumn: 3, 4, 5, 6, 11, 12, 13, 14, 19, 20, 21, 22, 27, 28, 29, 30</li>
+<li>Winter:<br />
+<u>April</u><br />
+Snow: 11, 12, 14, 18, 21, 22, 23, 24, 28, 29, 30<br />
+Hail: 1, 2, 3, 4, 9, 10, 13, 19, 20<br />
+<u>August</u><br />
+Snow: 11, 12, 13, 20, 21, 22, 23, 24, 28, 29, 30, 31<br />
+Hail: 1, 2, 8, 9, 10, 18, 19<br />
+<u>December</u><br />
+Snow: 4, 10, 11, 12, 13, 14, 19, 20, 21, 22, 23, 24, 28, 29, 30, 31<br />
+Hail: 1, 2, 3, 8, 9, 18</li>
+</ul>
+
+<p>
+	In order to determine your Shifted Starting PID Frame, you would switch over the the Adjacents tab. Ensure the information matches the Frames tab. Here, you'll want to adjust Second +/- and Timer0 +/- to 0, since you should already know if you hit your seed or not. Using the list above, you then set PID frame to the desired range.
+</p>
+
+<div class="centered-left">
+	<img src="/media/upload/ingame/rng/pprng_roamer_3.png" alt=""/>
+</div>
+
+<p>
+	In this example, we captured a Thundurus on an initial no weather present day with the desired IVs but an unwanted nature. Using the Adjacents tab, we discovered that the Quirky / Mischievous nature/characteristic combo was shared along with another frame. With that in mind, we can ascertain that it is one of the two (either frame 525 or 543). With a goal of a Timid nature, we discover that the closest is frame 531 or 538 for the former and frame 560 for the latter. Since we're not sure of which frame we hit though, we experiment by repeating the ordeal, except this time, we will advance the PID frame. As more information is gathered, we can eventually come to a reliable conclusion of what our SSF is and aim to do the proper PID frame advancements.
+</p>

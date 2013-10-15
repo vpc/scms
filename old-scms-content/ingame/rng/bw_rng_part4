@@ -1,0 +1,38 @@
+[title]
+BW RNG Manipulation Guide Part 4 - How to Abuse your IDs
+[head]
+<meta name="description" content="BW RNG Manipulation Guide Part 4 - How to Abuse your IDs" />
+[page]
+<div class="author">By <a href="/forums/member.php?u=32572">Kaphotics</a>.</div>
+
+
+<ul class="toc">
+<li><a href="bw_rng_intro">The BW RNG Manipulation Guide</a></li>
+<li><a href="bw_rng_part1">BW RNG Manipulation Guide Part 1 - Common Information for Breeding, Capturing, and Receiving Perfect Pokemon</a></li>
+<li><a href="bw_rng_part2">BW RNG Manipulation Guide Part 2 - How to RNG a Perfect Pokemon</a></li>
+<li><a href="bw_rng_part3">BW RNG Manipulation Guide Part 3 - How to Capture Perfect and / or Shiny Pokemon by Controlling the PIDRNG</a></li>
+<li><a href="bw_rng_part4">BW RNG Manipulation Guide Part 4 - How to Abuse your IDs</a></li> 
+<li><a href="bw_rng_part5">BW RNG Manipulation Guide Part 5 - How to Hatch Shiny (and Perfect) Pokemon</a></li> 
+<li><a href="bw_rng_part6">BW RNG Manipulation Guide Part 6 - Receiving Perfect Wondercard Pokemon</a></li>
+<li><a href="bw_rng_part7">BW RNG Manipulation Guide Part 7 - Capturing Perfect Roaming Pokemon</a></li> 
+</ul>
+
+<p>Now that you can control both RNGs, the remainder of this guide will be watered down, as it is expected that you know the basics of searching, making sure everything is filled out right, and methods of advancement. For those who are feeling adventurous and want particular shiny spreads, starters, or a specific Trainer ID, this portion of the guide will explain how.</p>
+
+<p><img src="/media/ingame/images/ingame_bwrng_pandora.png" alt="" /></p>
+
+<p>If you want a shiny starter or a particular shiny spread, it is required that you have the seed that you will RNG with for the target spread. What will happen is that we will make a particular PID that occurs on this seed shiny by getting specific IDs. If this is what you intend to do, have your seed at hand. Select the Seed check box, enter the seed and enter the frame you want shiny with the particular method.</p>
+
+<p>If you just want a novelty Trainer ID, select TID and enter the Trainer ID you want.</p>
+
+<p>Make sure the Parameters are correct for your setup, and then press the Find ID Seeds button. The output will tell you the Initial Frame and Frame on which the ID / SID spread occurs, in addition to the Time and Keypress. If it says True, that means a gift Pokemon will be shiny in addition to any Pokemon you encounter on that seed / frame. If you chose to make a particular seed's frame shiny, go back and verify it in RNG Reporter's main window, using the encounter method you intended. If it is not shiny (an adjacent frame is instead), adjust your Frame that you enter into Pandora's Box.</p>
+
+<p>Follow this formula to determine how many frames you need to advance to get the target IDs.</p>
+
+<h3>(Target Frame) - (Initial Frame) = Advances Required</h3>
+
+<p>To advance your frame, when Juniper asks "Is your name XXX", say no. The RNG will be advanced by 1 each time you do this.</p>
+
+<p><img src="/media/ingame/images/ingame_bwrng_idname.png" alt="" /></p>
+
+<p>Now delete the previously existing save file, hit your seed, and do your advancements. If done correctly, you should have your intended ID / SID!</p>

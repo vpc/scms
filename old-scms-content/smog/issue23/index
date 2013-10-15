@@ -1,0 +1,99 @@
+[title]
+The Smog community web-zine
+
+[head]
+<link href="/media/smog/smog.css" type="text/css" rel="stylesheet" />
+<!--Needs moved into smog.css-->
+<style type="text/css">
+   /* Do not touch this declaration */
+    h1 { display: none; }
+   /* ********************* */
+</style>
+
+[page]
+<div id="smog-main-header">
+    <a href="/smog/"><img src="/media/smog/thesmog.png" alt="The Smog Logo" /></a>
+    <p>Smogon's Web-zine</p>
+    <div>Released December 27th, 2012</div>
+</div>
+
+<div id="page-wrapper" class="full">
+    <div id="current-issue">
+        <img src="http://www.smogon.com/media/upload/smog/issue23/smog23.png" title="Cover Art" alt="" />
+        <div id="contribs">
+            This issue of The Smog is brought to you by <a href="http://www.smogon.com/smog/issue23/contributors">these contributors</a>.
+        </div>
+    </div>
+
+        <div id="issue-contents">
+    	<div class="column">
+	        <div class="section general">
+	            <h3>General</h3>
+	            <a href="note_from_editor">Note From The Editor</a>
+	            <a href="interview">Interview with Zarel</a>
+	            <a href="smogon_2012">Smogon 2012 in a Nutshell</a>
+	            <a href="trivia">Trivia</a>
+	            <a href="smog_awards">The Smog Awards</a>
+	        </div>
+
+	        <div class="section battling-strategy">
+	            <h3>Battling Strategy</h3>
+	            <a href="featured_pokemon_uber">Featured Ubers Pok&eacute;mon: Ho-Oh</a>
+	            <a href="featured_pokemon_uu">Featured UU Pok&eacute;mon: Crobat</a>
+	            <a href="featured_pokemon_nu">Featured NU Pok&eacute;mon: Sawk</a>
+	            <a href="featured_rmt_ou">Featured OU RMT</a>
+	            <a href="featured_rmt_ru">Featured RU RMT</a>
+	            <a href="featured_rmt_lc">Featured LC RMT</a>
+	            <a href="type_analysis">Type Analysis: Fighting</a>
+	        </div>
+
+	        <div class="section metagame">
+	            <h3>Metagame</h3>
+	            <a href="hail">Weather Analysis: Hail</a>
+	            <a href="annoying_sets">The 10 Most Annoying Pokémon Sets</a>
+	            <a href="nu_baton_pass">Buff, Buff, Pass: Baton Pass in NU</a>
+	            <a href="nu_ice_types">Unopened Christmas Gifts: NU Ice-types</a>
+	            <a href="other_metagames">Other Obscure Metagames</a>
+	            <a href="qc_corner">What's HOT in C&amp;C? QC Corner</a>
+	            <a href="underrated_ru_movesets">Underrated RU Movesets</a>
+	        </div>
+	    </div>
+	    <div class="column">
+	        <div class="section arts-and-recreation">
+	            <h3>Arts &amp; Recreation</h3>
+	            <a href="art_panel">Judge a Pokémon: The Smog's 9th Art Panel</a>
+	            <a href="poketour">PokéTour: Snowpoint City</a>
+	            <a href="smeargle">Smeargle's Studio Update</a>
+	            <a href="arterview">The Arterview: Volmise</a>
+	        </div>
+
+	        <div class="section entertainment">
+	        	<h3>Entertainment</h3>
+	            <a href="smogon_history">Great Moments in Smogon History</a>
+	            <a href="christmas_party">Top 10 Worst Pokémon to have as Christmas Party Guests</a>
+	            <a href="scramble_challange">Scramble Challange: Give the Gift of Pokémon</a>
+	            <a href="pokemon_biology">Pokémon Biology: Combined Evolution</a>
+	            <a href="pokeschool">Saved by the Bell: PokéSchool IRL</a>
+	            <a href="christmas_dinner">The Perfect Pokémon Christmas Dinner</a>
+	            <a href="gym_guide">Do You Even Lift? A Guide to the Gyms</a>
+	        </div>
+
+	        <div class="section other">
+	            <h3>Other Features</h3>
+	            <a href="starters">About the Starters: The Fire-types</a>
+	            <a href="tcg">Pokémon TCG: Boundaries Crossed Set Overview</a>
+	            <a href="pokestudios">Lights, Camera, Action! A Look at PokéStudios!</a>
+	            <a href="ladder_players">Players of the Ladders</a>
+	            <a href="avenue">Becoming Popular (The Avenue Every Player Should Know)</a>
+	            <a href="battle_capacity">Battling at Full CAPacity</a>
+	            <a href="cap">CAP4 Report: Aurumoth</a>
+	            <a href="competitor">The Competitor</a>
+	        </div>
+	    </div>
+    </div>
+    <div class="clear"></div>
+</div>
+
+<!-- Do NOT modify anything after this line -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="/media/smog/smog.js"></script>

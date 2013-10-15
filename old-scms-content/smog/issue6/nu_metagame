@@ -1,0 +1,304 @@
+[title]
+NU Metagame Analysis November 2009
+[head]
+<link href="/media/smog/smog.css" type="text/css" rel="stylesheet" />
+[page]
+
+<!-- scms body -->
+<div class="author">by 
+<a href="/forums/member.php?u=34896">Class</a>,
+<a href="/forums/member.php?u=17513">Luphrous</a>,
+<a href="/forums/member.php?u=">Master12345</a>,
+<a href="/forums/member.php?u=33818">Raikaria</a>,
+<a href="/forums/member.php?u=34029">ShadowRayquaza</a>,
+<a href="/forums/member.php?u=13971">underdawg</a>, and
+<a href="/forums/member.php?u=28290">Xaqwais</a>. Art by <a href="/forums/member.php?u=5735">Ryknow</a> and <a href="/forums/member.php?u=12801">icepick</a>.
+</div>
+
+
+<!-- heading -->
+
+<table id="smogheader">
+<tr>
+<td class="left"><a href="gimmicks">&laquo; Previous Article</a></td>
+<td class="middle"><a href="/smog/issue6/">Home</a></td>
+<td class="right"><a href="uber_metagame">Next Article &raquo;</a></td>
+</tr>
+</table>
+
+<!-- article body start -->
+
+<div style="text-align: center;"><img src="/media/smog/crawdaunt.jpg" alt="Crawdaunt" /></div>
+
+<h2>Introduction</h2>
+<p>The build-up to Christmas 2009 has seen some considerable changes to the NU metagame, with some significant promotions from and relegations to the tier, not to mention the chaotic aftermath of HGSS being released. The NeverUsed environment is as exciting as ever, perhaps even more volatile due to the recent changes, but the truth remains that NU allows for an enormous variety of playing styles and viable strategies, with new ideas and developments constantly being discovered. For those of you completely new to the NU world, see this link to the
+<a href="/smog/issue4/intro_nu">Introduction to NU Smog Article</a>. With that said, I'm going to dive right in and explain in a little more depth NU’s turbulent past few months.</p>
+<p>As previously alluded to, the last few months saw the addition of a number of competitively viable moves to an assortment of NU Pokemon. Moves such as Walrein’s Super Fang and Quagsire’s Recover saw a lot of exposure, whilst the excessive hype enjoyed by Aggron and his new-found Head Smash saw him promoted immediately to UU. Aggron was not NU’s only loss; the tiering update saw Drifblim, Gardevoir, and Magneton also climbing into UU, each to be missed in different ways. Fortunately, these losses were more than made up for by four exciting new NU additions; Charizard, Magmortar, Nidoqueen, and Porygon2. These unique threats really stirred up the NU metagame in different ways, and we will cover each in more detail later, as well as taking a sneaky peek at the changes that will affect NU in the not too distant future.</p>
+<p>It is worth noting that another revolution that NU has had to face was the change of server, moving from the NU Metagame Server to 
+<a href="/cap/server/">Doug’s CAP Server</a>, where NU Laddering and battles now take place. The NU populace is still strong after this movement, and this article is in fact a Project NU community effort, with contributions coming from a plethora of people. For contributor credits, see the end of the article.</p>
+<p>So after this brief summary of the changes undergone by the NeverUsed world, lets consider some of the more prominent developments in greater detail!</p>
+
+<h2>Charizard</h2>
+<p>When you look at Charizard's base stats, you notice two things. Firstly, they are all high for NU. Secondly, they scream 'special sweeper'. However, Charizard is not exclusively a special sweeper within the NU environment. Not only is Charizard an extraordinary flexible Pokemon at this level, but it also faces stiff competition from its fellow Fire-type Magmortar, who possesses both a superior specially-based movepool, and a higher Special Attack stat.</p>
+<p>This leaves Charizard with two options. It can either attempt to compete with Magmortar for a special attacker slot on a team, or it can use a more physically-oriented moveset. While Charizard's Attack stat does not suggest it, this is one area in which Charizard does outclass Magmortar. There are two reasons for this. The first being it's access to a wide array of boosting moves: Belly Drum, Dragon Dance, and Swords Dance are all options. The second is that Charizard has access to two unresisted physical attacking combinations in NU: Ground / Dragon and Fire / Dragon. Fire / Ground is also noteworthy, as only Charizard itself resists both.</p>
+<p>Lets take a look at some of Charizard's more popular and effective sets.</p>
+<p><img src="/download/sprites/dp/6.png" alt="Charizard" /></p>
+<p><strong>Stats: 78/84/78/109/85/100</strong></p>
+<p>The ability for perfect coverage within NU with two attacks, as well as a wide choice of boosting moves, makes Charizard a perfect candidate for a physical boosting sweeper.</p>
+<p>
+<strong>Charizard</strong> @ Leftovers / Life Orb / Lum Berry<br/>
+Ability: Blaze<br/>
+EVs: 32 HP / 252 Atk / 224 Spe<br/>
+Nature: Adamant (+Atk, -SpA)<br/>
+- Dragon Dance<br/>
+- Earthquake<br/>
+- Dragon Claw<br/>
+- Fire Punch / Flare Blitz<br/>
+</p>
+<p>This set plays quite similar to Dragon Dance Salamence or Dragonite in OU. Plenty of things in NU dislike Charizard, who carries one of the highest Speed stats in NU. This, combined with Charizard's decent bulk, allows it to set up a Dragon Dance effectively. As mentioned before, Charizard's attacking combination is unresisted in the tier.</p>
+<p>The choice between Fire Punch and Flare Blitz is primarily based on the item. On Life Orb sets, the recoil from Flare Blitz is unwelcome as it cuts Charizard's lifespan dramatically. On Leftovers sets, however, Flare Blitz can be used sparingly. Fire Punch can manage some impressive power on a Life Orb set, especially if Blaze is active. On the other hand, Flare Blitz can be used as a desperation attack, as, combined with Blaze, it effectively hits 240 Base Power, enough to destroy almost anything in the tier at +1, even on resisted hits.</p>
+<p>The Speed EVs are so that Charizard can run an Adamant Nature, and outspeed +Speed Magmortar with a Scarf. Magmortar sits at 436 Speed, while +1 Charizard sits at 438. Charizard's HP EVs give it 305 HP, which is a Stealth Rock number, and allows Charizard to switch in three times.</p>
+<p>Common counters to this Charizard set would be Quagsire, Gastrodon, Slowking, and Poliwrath. While DDZard has little to stop the latter two, Hidden Power Grass can be run over Dragon Claw or one of the Fire-type attacks to defeat them. Standard Quagsire and Gastrodon fail to ensure a OHKO on Charizard with Surf, while you 2HKO them with Hidden Power Grass (Life Orb Charizard OHKO's Quagsire). Roost is also a solid option on this set.</p>
+<p>
+<strong>Charizard</strong> @ Choice Specs<br/>
+Ability: Blaze<br/>
+EVs: 4 Def / 252 SpA / 252 Spe<br/>
+Nature: Modest (+SpA, -Atk) / Timid (+Spe, -Atk)<br/>
+- Overheat<br/>
+- Air Slash<br/>
+- Hidden Power Grass<br/>
+- Fire Blast / Flamethrower<br/>
+</p>
+<p>
+<strong>Charizard</strong> @ Life Orb<br/>
+Ability: Blaze<br/>
+EVs: 4 Def / 252 SpA / 252 Spe<br/>
+Nature: Timid (+Spe, -Atk) / Modest (+SpA, -Atk)<br/>
+- Fire Blast<br/>
+- Air Slash<br/>
+- Hidden Power Grass<br/>
+- Roost<br/>
+</p>
+<p>Specially Offensive Charizard is a beast in NU, with a great Speed stat he is able to outspeed a significant portion of the tier, and sweep fairly often. The Life Orb variant was extremely popular over the past phase of NU, hitting very hard with a STAB Fire Blast. Air Slash is a decently powered special attack with few resists (Steel-types were fairly uncommon in Magneton's absence), and most Electric- and Rock-types are specially frail). In the previous metagame, Air Slash was also the most reliable attack against Leafeon, since Fire Blast does have a shaky 85% accuracy. Finally, Roost allows Charizard to heal up on a switch just in case Rapid Spinning is not available. It also works well in tandem with Life Orb, healing off the recoil.</p>
+<p>Choice Specs Charizard is an equally enormous threat. With a boosted Special Attack and a hugely powerful STAB Overheat, SpecsZard was previously able to OHKO most sweepers, and outspeed, and OHKO every user of Stealth Rock (with the help of Hidden Power Grass). Overheat alone was able to OHKO the standard Nidoqueen, which is an impressive feat, as well as dealing around 60% damage to the standard Quagsire. No means of recovery after switching into Stealth Rock, as well as finding it hard to deal with the popular Slowking, have proved to be the main limiting factors in SpecsZard's effectiveness.</p>
+<p>Other sets that have uses in NU, despite Magmortar, include various mixed sets, often carrying Overheat. However, none of these sets have the ability to be a 'Checkmate' set, and are more oriented towards removing walls for something else to sweep, unlike the ever-frightening Charizard with BellyDrum. 'BellyZard' however is possibly outclassed in NU by the one-turn setup monster Linoone.</p>
+<p>In summary, Charizard has shaken up the NU metagame to quite a degree. Combined with Magmortar, it is the reason for the rise of bulky Water-types in NU. However, unlike Magmortar, Charizard has the option to fight on the physical side. Although facing heavy competition for a teamslot, Charizard can also run specially-based sets, or even a mixed set, to catch would-be counters off-guard. While it's not as popular as predicted, due to the effectiveness of Scarfed Magmortar and the near-crippling Stealth Rock weakness, if played with proper support, Charizard can be the trump card that wins the game.</p>
+
+<h2>Magmortar</h2>
+<p>Upon departing UU and entering the NU environment, Magmortar was hyped along with Charizard as being insane heavy-hitters able to break through the metagame. And quite soon it was realized that Magmortar really was the powerful force others had believed it would be, distinguishing itself from its fellow Fire-type addition Charizard. Still, an adapting metagame was forced to respond to Magmortar's attacking prowess, and did so. Let's take a look at Magmortar in more detail.</p>
+<p><img src="/download/sprites/dp/472.png" alt="Magmortar" /></p>
+<p><strong>Stats: 75 HP / 95 Atk / 67 Def / 125 SpA / 95 SpD / 83 Spe</strong></p>
+<p>For a NeverUsed, Magmortar sure does possess above-average stats in almost all areas. One is immediately attracted to Magmortar's astounding base 125 Special Attack, the second highest in the tier (surpassed only by Glaceon). Also of note are its solid base 95 Attack, and its decent base 83 Speed in a relatively slow metagame. These factors, combined with a deep movepool and a typing able to abuse that movepool, allow Magmortar to plow through the opposing team.</p>
+<p>So, what is the movepool that makes Magmortar so deadly? Well, considering the numerous Grass-, Bug-, and Ice types that cannot find a home in the upper tiers, Fire is one of the best attacking types in the metagame. Furthermore, Magmortar has very potent coverage with its attacks. Water-types trying to stop your Fire assaults? Nail them with a Thunderbolt. What about Rock-types, they resist Fire! Magmortar can choose from any of Earthquake, Cross Chop, or even Focus Blast. Earthquake hits other Fire-types too, and don't forget that Hidden Power is always an option, even moreso with Magmortar's superb Special Attack. With its varied attacking movepool, Magmortar 2HKOs nearly the entire metagame, and the ones that stop the typical moveset may be surprised by an unconventional Magmortar.</p>
+<p>
+<strong>Magmortar</strong> @ Choice Scarf<br/>
+Ability: Flame Body<br/>
+EVs: 4 Def / 252 SpA / 252 Spe<br/>
+Nature: Modest (+SpA, -Atk)<br/>
+- Fire Blast<br/>
+- Thunderbolt<br/>
+- Hidden Power Grass<br/>
+- Focus Blast<br/>
+</p>
+<p>Above was the typical moveset for Magmortar in October and November. Even without a boosting item, Magmortar's attacks still leave a large dent in anything that does not resist them. And, with the added Speed, Magmortar easily outspeeds and revenge-kills the very common Charizard and Leafeon with Thunderbolt and Fire Blast, respectively. Fire Blast and Thunderbolt form the crux of the set, allowing Magmortar to revenge the threats it is supposed to. Hidden Power Grass OHKOs Quagsire, who reliably sponges the other attacks. Focus Blast is largely filler, and is used to hit uncommon walls like Probopass; any of Earthquake, Cross Chop, or Overheat can fill that slot if necessary.</p>
+<p>
+<strong>Magmortar</strong> @ Life Orb / Expert Belt<br/>
+Ability: Flame Body<br/>
+EVs: 4 Def / 252 SpA / 252 Spe<br/>
+Nature: Timid (+Spe, -Atk) / Naive (+Spe, -SpD)<br/>
+- Fire Blast<br/>
+- Thunderbolt<br/>
+- Hidden Power Grass<br/>
+- Focus Blast / Earthquake / Cross Chop / Overheat / Psychic<br/>
+</p>
+<p>The second most common set really plays off of Magmortar's wallbreaking abilities. As you can see, the moveset is actually the same as the Choice Scarf set; the only difference is the item and the +Speed nature to compensate for the loss in speed. Base 83 Speed is rather low for a sweeper, but it is more than enough for handling any stall teams, and with paralysis support, even offensive teams too. The coverage within Magmortar's moveset is so great that Expert Belt is a viable option so that Stealth Rock, residual damage, and LO recoil will not pile up too much. Assuming the fourth slot goes to Earthquake (the current most common filler for this set), Magmortar hits 11 out of the 17 types super effectively; it does not hit Dark-, Ghost-, Dragon-, Normal-, Fighting-, or Psychic-types super effectively. Dragon-types are extremely rare in NU, and the Ghost-types are all very frail (even standard Dusclops is 2HKOed). This means that Magmortar's coverage is similar to that of Electivire's in OU; and Magmortar is in a much lower tier, too. Note that Magmortar can use a different coverage move over Earthquake to hit some of the previously neutral types super effectively, although several super effective hits in turn become neutral. With that said, the reliability of LO is still very useful.</p>
+<p>One common question is always asked: What are the differences between Charizard and Magmortar? Well, one main issue is their typings: the extra Flying-type for Charizard makes a profound impact on the way teams using Charizard are designed. The Ground-type immunity is very helpful, yes, but is it worth the 4x Stealth Rock weakness and possibly the use of a Rapid Spinner on the team? Moreover, because of the major Stealth Rock weakness, Charizard often runs Roost in its fourth slot, losing out on coverage that Magmortar often enjoys (the value of Roost cannot be underestimated, however). Both Fire-types actually have similar defenses, so it all boils down to whether or not Charizard's Flying-type is a real help or a real burden.</p>
+<p>Another major difference between the Fire-types is their seemingly insignificant stats. Magmortar has less Speed than Leafeon and Charizard, which is why the Choice Scarf set is the most common: to outspeed those threats. Of course, being Choiced has its natural drawbacks of being stuck into one move; so that is why some may prefer Charizard's versatility and Speed without having to be Choiced. On the other hand, Magmortar has higher Special Attack that can be handy in certain situations. For example, while LO Magmortar OHKOs standard 252/0 Nidoqueen with Overheat, Charizard needs Specs to achieve the same feat. Both Magmortar and Charizard have their own unique pros and cons, and it is up to the user to determine which is better suited for his or her own team.</p>
+<p>Like Charizard, Magmortar definitely shook up the tier in a major way. While the old NU tier had Primeape as its premier revenge-killer and Dusclops as Primeape's major stop, Magmortar comes in with its own Scarf set and special attacks that Dusclops can no longer wall. The growth of Fire/Water/Grass cores have grown considerably; compared to the old NU, which was centered around the Normal-, Fighting-, Psychic-, and Ghost-types, the shift from Fighting to Fire as the main attacking type has caused a metagame keeping in touch to the traditional Pokemon games - the Fire-, Water-, and Grass-type starters. While the starters are not the main focus in this tier, the types are, and Magmortar, with its type coverage, has caused more battlers to find resistances to the Scarf set. Fire-, Water-, and Grass-types have very good type synergy together, and these cores can use their resistances to work around Magmortar's excellent coverage. Slowking in particular can come in anything not named Thunderbolt (and it can even avoid the 2HKO on Thunderbolt too with heavy investment) and Thunder Wave Magmortar. To demonstrate the Fire/Water/Grass core, consider that Quagsire and Charizard are often paired together, usually with a Grass-type like Leafeon. If Magmortar is facing Quagsire and uses Hidden Power Grass, Charizard or Leafeon can sponge the hit. Of course, this does mean prediction is important, but that is true in any metagame.</p>
+<p>Besides the Fire/Water/Grass cores and the ubiquitous Stealth Rock, some other "lesser" ways of dealing with Magmortar have also appeared in the forms of Flareon and Munchlax. These two handle certain versions of Magmortar very well, usually the standard. Obviously, these two do more than just check Magmortar, such as pass Wish and/or wall other special attackers. But from October to November, both Flareon and Munchlax tripled in their usage, most likely attributed to dealing with Magmortar. Flareon beats Magmortar without Earthquake, and Munchlax can defeat those without Cross Chop and Focus Blast. These two cannot be full counters to all Magmortar because they can be beaten with the right move; however, their spike in usage does show the effect Magmortar has on the NU metagame.</p>
+
+<div style="float: left; margin-right: 1em;"><img src="/media/smog/beedrillsmog.jpg" alt="Beedrill" /></div>
+
+<h2>Nidoqueen</h2>
+<p>With relatively little hype surrounding it, Nidoqueen's entrance into NU went seemingly under the radar at first. However, a few of its most defining characteristics meant that she would not be ignored in the slightest. In fact, Nidoqueen proved herself to be quite popular, assuming a supporting role in many NU teams, and in addition a solid choice as one of the most reliable leads. Sadly, Nidoqueen is leaving NU with the latest tier update, but we will have a quick look at how she fared during her time in the tier.</p>
+<p><img src="/download/sprites/dp/31.png" alt="Nidoqueen" /></p>
+<p><strong>Stats: 90 HP / 82 Atk / 87 Def / 75 SpA / 85 SpD / 76 Spe</strong></p>
+<p>Nidoqueen's Poison / Ground typing granted her some very useful NU resistances against Rock-, Fighting-, Bug-, and Poison-type moves, thus presenting her ability as a bulky physical tank. That said, it was the moves available in Nidoqueen's arsenal that really helped her to shine.</p>
+<p>
+<strong>Nidoqueen</strong> @ Leftovers / Lum Berry<br/>
+Ability: Poison Point<br/>
+EVs: 252 HP / 252 Def / 6 Spe<br/>
+Nature: Bold (-Atk, +Def)<br/>
+- Taunt<br/>
+- Stealth Rock / Toxic Spikes<br/>
+- Earth Power<br/>
+- Ice Beam / Super Fang<br/>
+</p>
+<p>Nidoqueen was one of only 6 NU Pokemon able to carry Toxic Spikes, and the only one with a resistance to Stealth Rock. With this in mind however, she also presented her own downfall, given that an opposing Nidoqueen could absorb any Toxic Spikes set on the field. Stealth Rock was useful as ever, and with Taunt, one could attempt to prevent any entry hazards or setup moves from being used by an enemy Pokemon. For this reason, it was found quite useful to bump some of the Defense EVs into Speed, allowing Nidoqueen to fire off faster Taunts.</p>
+<p>On the attacking side of things, Ice- and Ground-type moves gave as-ever exceptional coverage. Earth Power collects STAB from Nidoqueen's typing, and Ice Beam could hit specific threats such as Gligar. Super Fang on the other hand was useful for taking away half the health of an incoming threat or wall, and with fairly few Ghost-types in the tier, could be used well by a skillful player on a bulky tank such as Nidoqueen.</p>
+<p>Nidoqueen was seen to be a significant factor in the decline of stall. She was able to act as a pivot on bulky offensive teams with an immunity to both Toxic and Thunder Wave, which are used by NU's various walls, whilst Taunt spoke for itself, as did the aforementioned ability to absorb Toxic Spikes and the resistance to Stealth Rock. In this way, Nidoqueen acted somewhat as a check to herself, as Earth Power takes off roughly half the standard opposing Nidoqueen's health, thus 2HKOing about a quarter of the time when Leftovers are not involved. Similarly, Ice Beam hits for super effective as well. Other major threats to Nidoqueen included Charizard, Slowking, and Quagsire, the former immune to Earth Power and Toxic Spikes, while able to OHKO with a Choice Specs Overheat, the latter two having risen significantly in usage though this can be attributed to the new Fire-type NUs. Sandslash usage on the other hand took a major hit, presumably in response to a new Ground-type snatching a large percentage of the supporting roles in NU teams.</p>
+
+<h2>Porygon2</h2>
+<p>When the new additions to the NeverUsed tier came in, most of the hype was centered on Charizard and Magmortar. Not without good reason, as they instantly became offensive powerhouses in NU. Nidoqueen took more of support role with its access to Stealth Rock and Spikes, which make it a great lead when coupled with its useful resistances. However, only the last of the new additions is able to fall under all three of the offensive, defensive, and support characteristics. Porygon2's useful ability, typing, movepool, and stats make it very solid and usable pokemon on all three styles.</p>
+<p>First, let's look at why Porygon2 dropped. Most of us know Porygon2 as the OU duck that fills a very specific niche. No other pokemon can switch into every Gyarados, a good amount of Heatrans, and some Salamences. With Trace, Porygon2 copies the opposing Pokemon's ability and uses it to gain the upper hand on his foe. Sounds great, right? But the fact is, it's still a niche role. While Porygon2 is the best Gyarados counter, in the end, it can't stop every Heatran, and can only help against certain Salamence sets.</p>
+<p>And with Porygon2's main roles useless in UU, Porygon2 is just another pokemon that's defensively and offensively outclassed. In fact, despite being in a lower tier, it only received 0.34% more usage in UU than in OU.</p>
+<p><img src="/download/sprites/dp/233.png" alt="Porygon2" /></p>
+<p><strong>Stats: 85 HP / 80 Atk / 90 Def / 105 SpA / 90 SpD / 60 Spe</strong></p>
+<p>The stat that sticks out is the 105 Special Attack, which is quite respectable for NU. Luckily, Porygon2 only has one weakness, so its 85/90/90 defenses give it surprisingly good bulk. Its main set will concentrate on his bulk to get the job done.</p>
+<p>
+Porygon2 @ Leftovers<br/>
+Ability: Download / Trace<br/>
+252 HP / 252 Def / 4 SpA / 252 HP / 252 SpA / 4 SpD<br/>
+Bold (-Atk, +Def) or Calm (-Atk, +SpD)<br/>
+- Discharge / Thunderbolt<br/>
+- Ice Beam<br/>
+- Recover<br/>
+- Toxic / Thunder Wave<br/>
+</p>
+<p>Looks familiar, right? This is practically the same set that Porygon2 would in OU. With less powerful attackers, this Porygon2 makes for a very solid tank on either the physical or special side of the spectrum, and still has enough bulk to take some light hits from the opposite side. Discharge provides a 30% chance of paralyzing the opponent, while Thunderbolt provides more power. Ice Beam rounds out the coverage and the only thing to resist the "BoltBeam" combo in NU is Shedinja. Recover is crucial for a wall, and goes well with Toxic to beat other walls or tanks. Thunder Wave can also be used for team support.</p>
+<p>The choice of ability is an interesting one when using Porygon2 in NU. While Trace is usually used in OU, its usefulness is much less in NU. While it would help against certain Pokemon (Shedinja's Wonder Guard, Flareon and Ninetales' Flash Fire, and Poliwrath and Quagsire's Water Absorb), it is generally a better idea to utilize Download. Download either raises Porygon2's Attack by one stage or Special Attack by one stage, depending on which stat is lower on the opposing Pokemon's defenses. While an Attack raise on this set would be useless, a Special Attack raise would actually make Porygon2's Special Attack really respectable. Taking it from 246 to 370 is no joke, especially coming from a tank.</p>
+<p>While the main set is more defense oriented, Porygon2 makes a very solid Choice Specs attacker. When starting with a 105 base Special Attack and Choice Specs, Porygon2 starts out with 508 for its Special Attack stat, and with a possible Special Attack raise, it'll hit almost everything very hard, and with prediction, Tricking any counter its Choice Specs. This set could also potentially go with Life Orb for freedom of move selection as well, and to replace Trick, Recover is available. Another option that's very viable to use on an NU Porygon2 is Trick Room. With almost every Trick Room sweeper in the NU tier, Porygon2 can set it up for them, as well as abuse it itself.</p>
+<p>Despite everything, Porygon2 was only used a bit less than about 6% of teams in November. It's possible that Porygon2 is unable to deal with either the offensive style or heavy stall style teams that have been popular in NU, and due to the relatively low frequency with which Porygon2 has been used, its effect on the metagame has been negligible.</p>
+<p>With so many options, Porygon2 really is the same niche Pokemon at core. However, in NU it has a few more roles it can fill, and in order to remain on the radar, it needs every one of them.</p>
+
+<h2>HGSS Changes in NU</h2>
+<p>Like the addition of the several new threats in NU, the HGSS changes that took place at around the same time completely shook up the NU metagame. The following is a list of some of the major Pokemon moveset changes and how they affected the metagame.</p>
+
+<h3>Aggron</h3>
+<p><img src="/download/sprites/dp/306.png" alt="Aggron" /></p>
+<p>What did it get? Head Smash.</p>
+<p>What happened to it? Aggron was rarely used before the changes and was defensively outclassed by Bastiodon, who had the same typing but better overall defenses. Neither saw much usage despite their stats, however, because they were both weak to the most common attacking type at the time: Fighting. With the addition of Head Smash, Aggron usage not only skyrocketed in NU, but it rose so much in UU as well that Aggron was forced out of the tier!</p>
+
+<h3>Quagsire</h3>
+<p><img src="/download/sprites/dp/195.png" alt="Quagsire" /></p>
+<p>What did it get? Recover.</p>
+<p>What happened to it? Quagsire usage skyrocketed almost as much as Aggron in NU. The addition of Recover solidified its dominance over Gastrodon as Quagsire already had Encore and the passive ability Water Absorb. Nowadays, Quagsire is commonly seen as with its new reliable method of healing and the ability to Encore, it can easily support a team of any kind as a glue or wall. On another note, it's typing isn't half bad either!</p>
+
+<h3>Poliwrath</h3>
+<p><img src="/download/sprites/dp/62.png" alt="Poliwrath" /></p>
+<p>What did it get? Encore.</p>
+<p>What happened to it? Surprisingly enough, Poliwrath usage pretty much remained consistent. The addition of Encore brought its usage up some, but the flare of that has pretty much died down as Quagsire and Slowking usage rose more. Encore still allows Poliwrath to set up its most common set easier, which is SubPunch and was very welcome as most Poliwraths were using Toxic or Hypnosis as its fourth move of choice beforehand. However, Poliwrath will be leaving the NU tier as the next update occurs.</p>
+<p>Didn't other Pokemon get Encore too? Yes, Golduck, Primeape, and Walrein, as well as a few other Pokemon also received Encore, but none of their usage has changed much. Golduck, Walrein, and several others were never used before and are still now, whereas Primeape's most popular set still has a choice item involved.</p>
+
+<h3>Crawdaunt and Whiscash</h3>
+<p><img src="/download/sprites/dp/342.png" alt="Crawdaunt" />
+<img src="/download/sprites/dp/340.png" alt="Whiscash" /></p>
+<p>What did they get? Dragon Dance .</p>
+<p>What happened to them? Both of these Pokemon were part of the never used of the NU tier before the HGSS updates, but unfortunately their usage only rose slightly. You can see some people attempting to make use of them on the NU ladder today, but sadly their Speed is just too subpar and they are generally stopped cold by the popular Quagsire and Poliwrath.</p>
+
+<h3>Kingler</h3>
+<p><img src="/download/sprites/dp/99.png" alt="Kingler" /></p>
+<p>What about Kingler? Kingler received Agility, which took care of the problem of its poor Speed, but usage never took off as, like the two named above, he is walled by Quagsire and Poliwrath.</p>
+
+<h3>Sharpedo</h3>
+<p><img src="/download/sprites/dp/319.png" alt="Sharpedo" /></p>
+<p>What did it get? Super Fang.</p>
+<p>What happened to it? Usage of Sharpedo rose slightly and it can be occasionally seen as a wallbreaker in today's metagame. The threat of Sharpedo is a dangerous one, as with the addition of Super Fang, it gained the ability to kill the only things that stopped it in the old metagame: bulky Pokemon and walls. With 95 base Speed, STAB priority, powerful STAB attacks like Crunch, and Super Fang to kill walls, a well-played Sharpedo can sweep through unprepared teams in today's NU metagame.</p>
+
+<h3>Nidoqueen </h3>
+<p><img src="/download/sprites/dp/31.png" alt="Nidoqueen" /></p>
+<p>What did it get? Super Fang.</p>
+<p>Though Nidoqueen has already been covered in another section, it should be noted that Super Fang was a HGSS update that was greatly appreciated as her subpar attacking stats disallowed her from doing much harm to walls, other than Toxic Spikes before. As mention in the Nidoqueen section, she will be leaving the tier pretty soon.</p>
+
+<h3>Manectric</h3>
+<p><img src="/download/sprites/dp/310.png" alt="Manectric" /></p>
+<p>What did it get? Switcheroo.</p>
+<p>What happened to it? Manectric is another Pokemon whose usage skyrocketed with the addition of the HGSS changes. Since Manectric sports high base 105 Special Attack and Speed stats, it looked like a great option, but it could never really fill out its last moveslot as Thunderbolt, Flamethrower, and Hidden Power was all the coverage it needed and were only good moves it had. Switcheroo changed that, allowing it to greatly cripple walls in addition to hitting hard with a Choice Specs set or outspeeding the entire tier with a Scarf.</p>
+
+<h3>Others</h3>
+<p>But isn't there more? Yes, there are several other Pokemon that were affected by the HGSS updates, including Curse Cradily, Extremespeed Dragonair, Nasty Plot Jynx, and Nasty Plot Mr. Mime. These Pokemon, however, are very rare in NU today and are generally not worth noting or not a major threat to the common team, but a few, like Block Lapras, are still to be tested extensively and may have their uses.</p>
+
+<div style="float: left; margin-right: 1em;"><img src="/media/smog/magmortarsmog.jpg" alt="Magmortar" /></div>
+
+<h2>The Rest of NU</h2>
+<p>The NU tier, like the UU tier, both loses and gains a few Pokemon every three months. The loss and addition of these Pokemon, like in UU, shakes up the metagame, causing the rise and fall of certain Pokemon. Here, we'll take a look at some of the most common Pokemon in the tier, and see how they're currently doing.</p>
+
+<h3>Medicham</h3>
+<p><img src="/download/sprites/dp/308.png" alt="Medicham" /></p>
+<p>Medicham is still one of the most used Pokemon in the tier. The two most common sets are the priority set utilizing Fake Out and Bullet Punch and the Scarf set.</p>
+<p>Why? With a whopping 480 Attack and good coverage, it's no surprise this monster is still a favorite for many battlers. In particular, the LO priority set has become a commonplace revenge killer, after largely being overlooked in the previous months.</p>
+
+<h3>Leafeon</h3>
+<p><img src="/download/sprites/dp/475.png" alt="Leafeon" /></p>
+<p>Leafeon has certainly been one of the biggest players in NU, but recently its usage has dropped. Recently, Swords Dance Leafeon has been very rare, and most Leafeon took on a more defensive approach. Commonly seen on stall teams, Leafeon acted as a physical wall and phazer with Roar and Wish.</p>
+<p>Why? Leafeon's drop in usage was almost certainly due to Charizard and Magmortar usage, as both were obviously huge threats to this Grass-type Eeveelution. However, Leafeon is due to leave NU with the latest tier update.</p>
+
+<h3>Skuntank</h3>
+<p><img src="/download/sprites/dp/440.png" alt="Skuntank" /></p>
+<p>As of late, Skuntank usage has dropped a lot. The few around right now are mostly of the LO version, which was by far the most common set during his heyday in usage.</p>
+<p>Why? Skuntank originally rose in usage due to his Ghost- and Psychic-type trapping abilities, revenge killing abilities, and his Toxic Spikes absorption. Today, we see that quite a few Ghost- and Psychic-types have left the tier or fallen out of favor, and Nidoqueen's Toxic Spikes have not been nearly as common as they once were, leading to his current drop in usage.</p>
+
+<h3>Gligar</h3>
+<p><img src="/download/sprites/dp/207.png" alt="Gligar" /></p>
+<p>Gligar's usage has remained about the same as it used to be. Most are seen as leads, due to the fact that it ties with Pinsir as the fastest SR user in the tier, and can use Taunt to shut down opposing SR leads.</p>
+<p>Why? With the new Charizard and Magmortar running around, it's no surprise players want to get their Stealth Rock down as soon as possible. A great resistance to Fighting-type moves as well as immunities to Ground- and Electric-type moves don't hurt either.</p>
+
+<h3>Venomoth</h3>
+<p><img src="/download/sprites/dp/49.png" alt="Venomoth" /></p>
+<p>Venomoth usage has basically dropped off the charts. It's a very rare sight today.</p>
+<p>Why? As a Toxic Spiker, it's mostly outclassed by the much bulkier Nidoqueen. Nidoqueen also absorbs the Toxic Spikes that Venomoth lays down, making it even harder to use them effectively.</p>
+
+<h3>Pinsir</h3>
+<p><img src="/download/sprites/dp/127.png" alt="Pinsir" /></p>
+<p>Pinsir is still fairly common, but almost always as a lead right now. Swords Dance sets are few and far between.</p>
+<p>Why? It ties with Gligar for fastest Stealth Rock user in the tier, and can pose an offensive threat making it a good choice to lead a team. The SD set, however, sees little use due to the fact that it isn't fast enough to sweep most teams, nor does it have priority outside of the weak Quick Attack in order to protect itself.</p>
+
+<h3>Slowking</h3>
+<p><img src="/download/sprites/dp/199.png" alt="Slowking" /></p>
+<p>Slowking usage is up. Most are used as walls to help cover against a variety of threats, like Medicham, Entei, Charizard, and Magmortar. There is also the occasional Trick Room Slowking too.</p>
+<p>Quite simply, Slowking can counter more threats than ever right now. With solid defenses on both sides of the spectrum, reliable recovery in Slack Off, and Thunder Wave to cripple common sweepers, it's one of the best bulky Water-types in the tier.</p>
+
+<h3>Dusclops</h3>
+<p><img src="/download/sprites/dp/356.png" alt="Dusclops" /></p>
+<p>Dusclops usage hasn't changed much. It is still the best Spin Blocker in the tier, and is still seen mostly as a staple on stall teams.</p>
+<p>Why? Dusclops is a fantastic Spin Blocker and wall in general, but it lacks offense and a good method of healing, which makes it harder to fit in on a typical team. Will-O-Wisp, its main stop to most of the physical attackers it walls, grants the threatening Charizard and Magmortar free switch-ins, which is never a good sight.</p>
+
+<h3>Haunter</h3>
+<p><img src="/download/sprites/dp/93.png" alt="Haunter" /></p>
+<p>Haunter usage has fallen quite a bit. The most common set today is the LO set.</p>
+<p>Skuntank's past popularity made it very hard to effectively use Haunter, and even though the skunk's usage is currently down, most players haven't experimented with this Ghost-type just yet.</p>
+
+<h3>Tauros</h3>
+<p><img src="/download/sprites/dp/128.png" alt="Tauros" /></p>
+<p>Tauros usage has remained constant. Both CB and LO sets are common for Tauros.</p>
+<p>Tauros has a great Speed for the tier, making it a good revenge killer and sweeper. However, it still finds itself walled by several Pokemon, so its popularity has never managed to surge through the roof.</p>
+
+<h3>Entei</h3>
+<p><img src="/download/sprites/dp/244.png" alt="Entei" /></p>
+<p>Entei usage is currently down. There is really no 'common set' as he has multiple sets to run and most if not all of them are viable.</p>
+<p>Why? Currently Entei is outclassed by Charizard and Magmortar in this more-offensive metagame. Even though Entei has access to Stone Edge, the aforementioned Fire-types both have the more reliable Earthquake to hit other Fire-types. Moreover, unless it really wants to use Fire Fang as its STAB, Entei really only has a modest base 90 Special Attack to work with.</p>
+
+<h2>Upcoming Changes to NU</h2>
+<p>Having looked at the way NU has shaped up over the past three months, lets take a quick glance at what movements will occur in the next tier change.</p>
+<p>
+<img src="/download/sprites/dp/101.png" alt="Electrode" />
+<img src="/download/sprites/dp/196.png" alt="Espeon" />
+<img src="/download/sprites/dp/282.png" alt="Gardevoir" />
+<img src="/download/sprites/dp/82.png" alt="Magneton" />
+<img src="/download/sprites/dp/241.png" alt="Miltank" />
+<img src="/download/sprites/dp/157.png" alt="Typhlosion" />
+</p>
+<p>Electrode, Espeon, Miltank, and Typhlosion will soon (quite literally) explode onto the NU scene, while we shall see the welcome return of Gardevoir and Magneton.</p>
+<p>
+<img src="/download/sprites/dp/91.png" alt="Cloyster" />
+<img src="/download/sprites/dp/475.png" alt="Leafeon" />
+<img src="/download/sprites/dp/31.png" alt="Nidoqueen" />
+<img src="/download/sprites/dp/62.png" alt="Poliwrath" />
+<img src="/download/sprites/dp/211.png" alt="Qwilfish" /></p>
+<p>Cloyster, Leafeon, Nidoqueen, Poliwrath, and Qwilfish are due to leave the NU tier in the next shake-up. They will be missed.</p>
+<p>So what will happen next? First impressions are of Miltank being very popular and effective, an even greater decline in stall, and the dawn of an even more offensive NU. Will Electrode bring with him an era of Rain Dance domination? Can NU's remaining defensive Pokemon muster enough strength to allow the survival of stall? We shall soon find out!</p>
+
+<h2>Conclusion</h2>
+<p>As we can see, NU has undergone some radical changes in recent times, and continues to prove an exciting and challenging metagame for players to test their ability to improve and adapt their battling styles and team-building. The NeverUsed tier has a thrilling and very colourful roster of Pokemon to select from, and indeed looks forward to whatever direction the next tier shake-up will take it in.</p>
+<p>Until then, NU players can rejoice in the fan favourite Charizard finally finding a home where it is competitively viable, or in this case, an absolute menace!</p>
+
+<!-- article body end -->
+
+<!-- footer -->        
+<table id="smogfooter">
+<tr>
+<td class="left"><a href="gimmicks">&laquo; Previous Article</a></td>
+<td class="middle"><a href="/smog/issue6/">Home</a></td>
+<td class="right"><a href="uber_metagame">Next Article &raquo;</a></td>
+</tr>
+</table>

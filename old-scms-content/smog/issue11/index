@@ -1,0 +1,87 @@
+[title]
+The Smog community web-zine
+[header]
+[head]
+<link href="/media/smog/smog.css" type="text/css" rel="stylesheet" />
+[page]
+
+<div style="text-align:center">
+<img src="/media/smog/11/smog11.jpg" alt="Cover Art" />
+<p>
+Smogon's Web-zine
+</p>
+
+<h2>Issue #11</h2>
+<h4>Released September 12, 2010</h4>
+<table id="smogfront">
+<tr>
+<td class="col1">
+<h3>General</h3>
+<ul>
+<li><a href="note_from_editor">Note From the Editor</a></li>
+<li><a href="trivia">Trivia</a></li>
+</ul>
+</td>
+
+
+<td class="col2">
+<h3>Site Projects</h3>
+<ul>
+<li><a href="shoddy_mods">Inside the Mind of: A Shoddy Moderator</a></li>
+<li><a href="cap_vs_ou">OU vs CAP Vol. 1: Play Styles</a></li>
+</ul>
+</td>
+
+
+<td class="col3">
+<h3>Community</h3>
+<ul>
+<li><a href="interview">Interview with jumpluff</a></li>
+<li><a href="mafia">Soft Alliances in Mafia</a></li>
+<li><a href="mafia2">The Art of Fake Claiming</a></li>
+<li><a href="cutemons">Cutemons</a></li>
+<li><a href="tcg_vs_shoddy">Why Pokemon TCG is better than Shoddy</a></li>
+<li><a href="tcg">Pokemon TCG - DP-on Metagame Review</a></li>
+</ul>
+</td>
+</tr>
+
+<tr>
+<td class="col1">
+<h3>Battling Strategy</h3>
+<ul>
+<li><a href="battle">When the Outcome Is Crit or Miss: A Match Analysis</a></li>
+<li><a href="protips">Phil's Protips Volume 4</a></li>
+<li><a href="weaknesses">It's Super Effective! The Worst Weaknesses in Competitive Pokemon</a></li>
+<li><a href="underrated_movesets">Underrated Movesets: OU</a></li>
+<li><a href="retyping">Competitive Retyping II: UU to OU</a></li>
+</ul>
+</td>
+
+
+<td class="col2">
+<h3>Metagame</h3>
+<ul>
+<li><a href="evolution">The Evolution of the 4th Generation Metagame</a></li>
+<li><a href="vgc_team">VGC Team Analysis</a></li>
+<li><a href="arceus">Arceus Unleashed: The Brand New Uber Metagame</a></li>
+<li><a href="hazards">Tripping Hazards: A Competitive Guide to OU Entry Hazards</a></li>
+</ul>
+</td>
+
+
+<td class="col3">
+<h3>Recurring Articles</h3>
+<ul>
+<li><a href="featured_pokemon">Featured Pokemon: Flygon</a></li>
+<li><a href="featured_pokemon_uu">Featured UU Pokemon: Spiritomb</a></li>
+<li><a href="featured_pokemon_uber">Featured Uber Pokemon: Giratina-O</a></li>
+<li><a href="featured_rmt_ou">Featured OU RMT</a></li>
+<li><a href="featured_rmt_uber">Featured Uber RMT</a></li>
+</ul>
+</td>
+</tr>
+</table> 
+</div>
+
+<div style="text-align: center;"><h3>This issue of the smog is brought to you by <a href="/smog/issue11/contributors">these contributors</a>.</h3></div>

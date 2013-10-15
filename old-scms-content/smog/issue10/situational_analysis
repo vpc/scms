@@ -1,0 +1,134 @@
+[title]
+A Situational Analysis
+[head]
+<link href="/media/smog/smog.css" type="text/css" rel="stylesheet" />
+[page]
+<div class="author"> By <a href="/forums/member.php?u=15210">Earthworm</a>.</div>
+<table id="smogheader">
+<tr>
+<td class="left"><a href="spriting">&laquo; Previous Article</a></td>
+<td class="middle"><a href="/smog/issue10/">Home</a></td>
+<td class="right"><a href="underrated_movesets">Next Article &raquo;</a></td>
+</tr>
+</table>
+ 
+<p>For many players, there are not a lot of turns that require much time while battling, even in important battles. This is due to different things for each player, such as already having dealt with a similar situation, having planned ahead for the situation coming up, most moves being 'obvious', or just wanting to look like a quick thinker. In a lot of situations in Pok&eacute;mon battles, there are no 'best moves' and in some cases there is only a fine line between a good move and a bad move. Prediction and guesswork often comes into play, and if your opponent makes what you perceive as a 'bad move' for them, you will sometimes be the one worse off, as you would sometimes have made the move to deal only with the opponent selecting a 'good move'. In cases such as this example, which move is the real good move? Is it better to go for an advantage by making risky moves, or is the move that deals with the most (and most likely) moves the best one? Most of the time, it is entirely dependent on the current situation in the battle, including what has already happened, and who your opponent is. Sometimes though, if you seriously care about the outcome of the battle and feel that you still have a chance, you will need to stop and think about the situation you are in, run some damage calculations, and try to work out which move will win you the match.</p>
+
+<p>In this article, I plan to talk about some of the factors that can be taken into account when deciding which move to make in a specific situation. Keep in mind that many people would regard me as a safe player (although they might add that I sometimes make erratic moves).</p>
+
+<h2>The Situation: Salamence v. Skarmory</h2>
+
+<p>Player 1 (hereby referred to as P1) controls an active Salamence (the mixed set) and a revealed Swampert in a Pok&eacute;Ball, while Player 2 (P2) controls an active Skarmory, a revealed Scarf Flygon, and a revealed Scarf Heatran. Stealth Rock is active on P1's side of the field, but not P2's side. All Pok&eacute;mon on the field are at full health. Skarmory has had its Attack lowered one stage by Intimidate. Self KO Clause is in effect. For the purposes of this example, we will assume that every detail about each Pok&eacute;mon's moveset is known by both players&mdash;remember that hidden Pok&eacute;mon and hidden moves often play a key part in catching an opponent offguard, or forcing them to play more safely. Also note that Salamence is now banned from Standard play.</p>
+
+<h3>P1's team</h3>
+
+<p><img src="/download/sprites/dp/373.png" alt="" /><br />
+Salamence (M) @ Life Orb<br />
+Ability: Intimidate<br />
+EVs: 16 Atk / 240 SpA / 252 Spe<br />
+Naive nature (+Spe, -SpD)<br />
+- Draco Meteor<br />
+- Fire Blast<br />
+- Earthquake<br />
+- Outrage</p>
+
+<p><img src="/download/sprites/dp/260.png" alt="" /><br />
+Swampert (M) @ Leftovers<br />
+Ability: Torrent<br />
+EVs: 252 HP / 4 Atk / 252 Def<br />
+Relaxed nature (+Def, -Spe)<br />
+- Stealth Rock<br />
+- Earthquake<br />
+- Ice Beam<br />
+- Roar</p>
+
+<h3>P2's team</h3>
+
+<p><img src="/download/sprites/dp/227.png" alt="" /><br />
+Skarmory (M) @ Shed Shell<br />
+Ability: Keen Eye<br />
+EVs: 252 HP / 64 Atk / 176 Def / 16 Spe<br />
+Impish nature (+Def, -SpA)<br />
+- Spikes<br />
+- Whirlwind<br />
+- Roost<br />
+- Brave Bird</p>
+
+<p><img src="/download/sprites/dp/330.png" alt="" /><br />
+Flygon (M) @ Choice Scarf<br />
+Ability: Levitate<br />
+EVs: 252 Atk / 4 SpD / 252 Spe<br />
+Jolly nature (+Spe, -SpA)<br />
+- Earthquake<br />
+- Outrage<br />
+- U-turn<br />
+- Stone Edge</p>
+
+<p><img src="/download/sprites/dp/490.png" alt="" /><br />
+Heatran (M) @ Choice Scarf<br />
+Ability: Flash Fire<br />
+EVs: 252 SpA / 4 SpD / 252 Spe<br />
+Naive nature (+Spe, -SpD)<br />
+- Fire Blast<br />
+- Earth Power<br />
+- Explosion<br />
+- Dragon Pulse</p>
+
+<p>To assist with the understanding of the situation, the most relevant damage calculations are shown below:</p>
+
+<pre>Flygon's Outrage v. Swampert: 31.4% - 37.1%
+Flygon's Outrage v. Swampert after an Intimidate: 20.8% - 24.8%
+Flygon's U-turn v. Swampert: 12.4% - 14.6%
+Flygon's Outrage v. Salamence: 118.4% - 140.2%
+Flygon's Outrage v. Salamence after an Intimidate: 79.8% - 94.3%
+Flygon's Stone Edge v. Salamence: 66.5% - 78.5%
+Skarmory's Brave Bird v. Swampert: 22.3% - 26.2%
+Skarmory's Brave Bird v. Salamence after an Intimidate: 28.1% - 33.5%
+Skarmory's Brave Bird v. Salamence: 42.6% - 50.2%
+Heatran's Dragon Pulse v. Salamence: 79.8% - 94.3%
+Heatran's Dragon Pulse v. Swampert: 26.5% - 31.4%
+Heatran's Explosion v. Salamence: 119% - 140.2%
+Heatran's Explosion v. Salamence after an Intimidate: 79.5% - 93.7%
+Heatran's Explosion v. Swampert: 62.6% - 73.8%</pre>
+
+<pre>Salamence's Draco Meteor v. Skarmory: 52.4% - 62%
+Salamence's Draco Meteor v. Skarmory after a two stage SpA drop: 26.3% - 31.1%
+Salamence's Fire Blast v. Skarmory: 119.8% - 141.3%
+Salamence's Fire Blast v. Skarmory after a two stage SpA drop: 60.5% - 71.3%
+Salamence's Draco Meteor v. Flygon after a two stage SpA drop: 104.3% - 123.6%
+Salamence's Draco Meteor v. Heatran: 42.7% - 50.2%
+Salamence's Earthquake v. Heatran: 146.1% - 172.1%
+Swampert's Ice Beam v. Skarmory: 24% - 28.1%
+Swampert's Earthquake v. Skarmory using Roost: 41.9% - 50.3%
+Swampert's Ice Beam v. Flygon: 95.7% - 113%
+Swampert's Earthquake v. Heatran: 138.7% - 164.7%</pre>
+
+<p>In this situation, P1, by process of elimination, can immediately logically deduce that several moves are 'bad'. P1 can rule out Outrage and a switch to Swampert right off the bat. Outrage's only use in this situation would be to hit Flygon without having a chance to miss, but even if P1 does pull this off, he will meet a timely death from Heatran, leaving him with very slim chances against Skarmory and Heatran with Swampert. On the other hand, if Salamence uses Outrage and it hits Skarmory or Heatran, it doesn't need to be stated that Salamence is going to faint quickly and P1 will suffer a near inevitable loss. A switch to Swampert could be seen as a way of dealing with switches to Heatran or Flygon, but in the event of a switch to Flygon, Flygon could simply U-turn back to Skarmory at zero cost. Additionally, if Heatran were to explode on Swampert, P2 is put in a position where he only needs to weaken Swampert a minimal amount before he can sweep through both Pok&eacute;mon with Flygon's Outrage. To top it all off, P1 would lose the opportunity he has to eliminate a Pok&eacute;mon on this single turn, which could turn what looks like a difficult situation into a very advantageous situation.</p>
+
+<p>Straight away, one can realise that Swampert must be healthy to stop Flygon from sweeping with Outrage. If Swampert is on less than approximately 68% of its health, Flygon coming out against Salamence will mean that it is very dangerous to switch to Swampert. P2's ability to repeatedly use Dragon moves whenever a Scarf user is brought out against Salamence could easily wear down Swampert to the point where a victory is guaranteed. P1 must therefore strive to predict correctly what P2 will do on this turn, and if incorrect, manipulate P2 into giving P1 another shot at the prediction. In this case, Salamence's viable moves are Draco Meteor, Fire Blast, and Earthquake, which will, in a single hit, KO Flygon, Skarmory, and Heatran respectively. Draco Meteor followed up by a Fire Blast would take out a Skarmory that does not Roost, does not Whirlwind, and does not switch out, and even after Draco Meteor lowers Salamence's Special Attack, a Flygon switch would be KOed in a single hit by the weakened Meteor. By this logic, Draco Meteor seems to be the most encompassing move, as there is a chance it will be effective against Skarmory and a very high chance of KOing Flygon in the event P2 chose that switch (barring a 10% chance to miss). However, the damage it does to Heatran means that it almost never KOs in two hits, which basically means that the damage is useless, as Heatran will either be taken out by Earthquake later or not defeated at all&mdash;Salamence does not have enough health to fire off three full powered Draco Meteors due to the presence of Stealth Rock.</p>
+
+<p>How well P1 knows P2's thought process, skill level, and play style is definitely a factor that can be taken into account on such an important turn. If P1 knows P2 will use a random number generator to decide which Pok&eacute;mon should face Salamence's wrath, it would be up to P1 to decide whether to use the 100% accurate Earthquake, 85% accurate but-with-a-10%-chance-to-burn-upon-hitting-Flygon Fire Blast, or the 90% accurate, second-chance-to-predict-if-it-hits-Skarmory Draco Meteor based solely on those figures. If P1 believes P2 thinks that P1 is the type of player to use an all-encompassing, 'statistically better' move, perhaps P1 can outdo P2's thought process by picking between Fire Blast and Earthquake. If P2 seems like the kind of player that has an ego and sees staying in with Skarmory as a daring move, perhaps Fire Blast should be chosen. Sometimes, analysing this type of thing can be beneficial and allow you to predict correctly. However, it is often simply not the case, because given that P2 is intelligent, s/he will know exactly what's at stake for each move. It is up to you to judge your opponent's personality when you decide which move to use.</p>
+
+<p>If P2 was to lose Skarmory on this turn, there is no way for Flygon and Heatran to overcome Swampert without scoring a critical hit. P1 may or may not be aware of this, and may or may not take it into account. A safe player would assume that they are aware and would therefore probably switch. The potential illusion that 'Draco Meteor hitting Heatran is helpful' could be a useful psychological aspect to the situation also. If P2 is a reactive player and sees Draco Meteor as being the likely move, they may see Heatran as the best and safest switch, only to be seen through by P1 who uses Earthquake. There are too many personality and play style related possibilities to list in this article.</p>
+
+<p>On Skarmory staying in against Salamence, there are a number of viable possibilities. A layer of Spikes may be just what is needed to wear down Swampert with ease. Whirlwind certainly puts P2 in a position of power as long as Fire Blast doesn't hit Skarmory, thanks to Stealth Rock being up&mdash;the possibilities of Spikes or Brave Bird versus another Whirlwind, if P2 is anticipated correctly, could quickly wear down Swampert and Salamence for the Choice Scarf users to clean up. Brave Bird is quite risky due to recoil&mdash;it could quite possibly leave Skarmory in Swampert's Ice Beam range or a second Draco Meteor's range due to Skarmory holding Shed Shell. Finally, Roost means Skarmory has little to fear from Salamence should it Draco Meteor and hit, barring a Fire Blast critical hit, especially with the chance that P1 predicts a Flygon switch and uses Draco Meteor again.</p>
+
+<p>To think ahead for P2, it should be taken into account what Flygon or Heatran can do if they come out successfully against Salamence on this turn. Flygon can choose between U-turn, Outrage, and Stone Edge if it is presented with an opportunity against Salamence. Stone Edge would leave Salamence low enough that even if it KOed Flygon after taking the hit, it would be unable to come in again later due to Stealth Rock and Life Orb recoil, and easily finished off by Heatran's Dragon Pulse, leaving Swampert to face Skarmory and Heatran, which is usually a losing battle for Swampert, especially if Heatran comes out on an Ice Beam early on, giving it the opportunity to use Explosion. Heatran has the options of using Explosion or Dragon Pulse when it emerges against Salamence, or a switch to Flygon or Skarmory can be used to take advantage of the probable Swampert switch.</p>
+
+<p>Accuracy and low chance secondary effects are also something to take into account, especially if you know your opponent is paranoid about such things. There isn't much to say about accuracy, except that it is sometimes worth considering when making a game-winning plan.</p>
+
+<p>The unknown, while not present at all in this example, is a psychological advantage you can use for surprise, forcing safe play, and many other effects. It should not be underestimated when considering how to approach a situation&mdash;think about what your opponent knows, try to deduce whether they can guess your last unshown Pok&eacute;mon, and try to reason their past moves to deduce what they expect and how they are planning the remainder of the game.</p>
+
+<p>Finally, for P1, I may have downplayed Swampert's ability to pull out a win without Salamence's presence. If Salamence somehow trades its life for another Pok&eacute;mon's (perhaps P2's Flygon used Stone Edge or Heatran exploded on Salamence), Swampert does indeed have a fighting chance against Skarmory and Heatran by itself thanks to Self KO Clause stopping last Pok&eacute;mon Heatran from exploding on it, Leftovers recovery being present with Swampert and not with Skarmory, Earthquake hitting Skarmory when it uses Roost, and Ice Beam's chance to freeze Skarmory.</p>
+
+<p>Undoubtedly, though I have tried to be quite thorough in considering this situation, there are things I have not mentioned and statements I have made that people will disagree with. While more experienced players probably know all of this through experience, I hope that it provides some of the less experienced players out there with some insight into things that can be taken into account during situations in battle.</p>
+
+<p>To close, I would like to invite everyone to send in which move (including switches) they would select as both Player 1 (Salamence) and Player 2 (Skarmory) on this single turn to <a href="/forums/private.php?do=newpm&u=32443">The Smog's Smogon account</a>, just to survey the player base. The results will be published in the Polls and Trivia section of the next issue of The Smog, possibly along with some top players' brief statements about the situation and their move selections.</p>
+ 
+<table id="smogfooter">
+<tr>
+<td class="left"><a href="spriting">&laquo; Previous Article</a></td>
+<td class="middle"><a href="/smog/issue10/">Home</a></td>
+<td class="right"><a href="underrated_movesets">Next Article &raquo;</a></td>
+</tr>
+</table>

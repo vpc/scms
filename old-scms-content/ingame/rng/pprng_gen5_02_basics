@@ -1,0 +1,295 @@
+[Title]
+PPRNG Guide - The Basics of RNG Abuse
+
+[Head]
+<style type="text/css">
+	.centered-left { text-align:center; padding-right:40%; }
+	img { max-width:100%; }
+	ol { list-style-type: upper-roman; }
+	ol ol { list-style-type: lower-roman; }
+	dl dl { margin-left:2em; }
+	dl dl dt { font-size:.85em; }
+</style>
+ 
+[Page]
+<div class="author">By <a href="/forums/members/65876/">religiousjedi</a> and <a href="/forums/members/69906/">chiizu</a>.</div>
+
+<ol class="toc"> 
+	<li><a href="/ingame/rng/pprng_gen5_01_intro">Introduction</a></li>
+	<li>
+		<strong>The Basics of RNG Abuse</strong>
+		<ol>
+			<li><a href="#s1-prereq">Prerequisites</a></li>
+			<li><a href="#s2-terms">Important Terminology</a></li>
+			<li><a href="#s3-calibration">Calibration (the old fashion way)</a></li>
+			<li><a href="#s4-link-calibration">Unova Link Calibration (B2/W2 only)</a></li>
+		</ol>
+	</li>
+	<li><a href="/ingame/rng/pprng_gen5_03_id_abuse">How to RNG Abuse your TID/SID combo</a></li>
+	<li><a href="/ingame/rng/pprng_gen5_04_capture_abuse">Capturing/Receiving Perfect (and Shiny) Pokemon</a></li>
+	<li><a href="/ingame/rng/pprng_gen5_05_breeding">Breeding Perfect (and Shiny) Pokemon</a></li>
+	<li><a href="/ingame/rng/pprng_gen5_06_wondercard">Receiving Perfect Wondercard Pokemon</a></li>
+	<li><a href="/ingame/rng/pprng_gen5_07_roamers">Capturing Roaming Pokemon</a></li>
+	<li><a href="/ingame/rng/pprng_gen5_08_hidden_grottos">Controlling Encounters in Hidden Grottoes</a></li>
+	<li><a href="/ingame/rng/pprng_gen5_09_dream_radar">Receiving Perfect Dream Radar Pokemon</a></li>
+	<li><a href="/ingame/rng/pprng_gen5_10_entralink">Capturing Perfect Entralink Pokemon</a></li>
+</ol>
+
+ 
+<h3 id="s1-prereq">I. Prerequisites</h3>
+<ul>
+	<li>PPRNG - <strong>Note:</strong> This program runs only on Mac OSX. If you run a Windows OS or Linux, please use RNG Reporter.</li>
+	<li>Any DS type. PPRNG supports all manner of DS from the original DS to the latest 3DS XL.</li>
+	<li>Any retail copy of Pokemon Black/White/Black 2/White 2.</li>
+	<li>A clock with a seconds timer. On older DS models, the seconds hand in the main menu of the DS worked decently. The more recent DS models, starting with the DSi, forwent the analog clock in favor of a digital one. The timer will come in handy for Entralink abuse in any case.</li>
+</ul>
+
+
+<h3 id="s2-terms">II. Important Terminology</h3>
+
+<p>There are a lot of terms and acronyms used throughout this guide which one would do good to remember.</p>
+
+<dl>
+	<dt>Initial Seed</dt>
+	<dd>
+		The initial seed is the number which is fed to the random number generator when the game starts. This number is created by a combination of the time and date the game started, your MAC Address, Keypress, and other Encryption Variables. Knowing the initial seed we start with allows us to predict the (no longer) random sequence of numbers that the game will produce and, in turn, how to proceed in order to catch the Pokemon or receive the Egg that we desire.
+		It is important to know that the initial seed is no longer dependent on delay, which makes hitting initial seeds incredibly easy.
+	</dd>
+	<dt>Target Time</dt>
+	<dd>	
+		When resetting for the IVs of Eggs or captured Pokemon, you must hard reset (power cycle) to hit your target time. In the following sections, target time is defined as the date and time of your DS upon booting the game. Please note that this has nothing to do with the "TIME" value that is shown on the "Continue" screen, as that indicates the amount of time that you have played the game and does not represent the current date and time on the DS clock.
+		As opposed to the initial seeds in the 4th Generation, the initial seed in the 5th Generation is set once the game (re)boots; this makes it much easier to hit seeds as it only requires precision down to the second.
+	</dd>
+	<dt>C-Gear Seeds vs. Standard Seeds (Non C-Gear)</dt>
+	<dd>	
+		This generation, a Mersenne Twister RNG is used to generate the IVs. In Generation 4, this same Mersenne Twister was used to create the Egg PIDs; however, this is no longer the case in Generation 5. Standard seeds and C-Gear seeds determine the IVs of a Pokemon.
+		Now to explain these two different seed types:
+		<dl>
+			<dt>Standard Seeds (Non C-Gear)</dt>
+			<dd>
+				These are the most commonly used seeds, and are very easy to hit. They are unique to your DS and game version. Unfortunately, they can only be hit at one time and date, so you are unable to choose the dates that appear on your Pokemon. The upper half is used to seed the MTRNG the moment the game (re)boots.
+			</dd>
+			<dt>C-Gear Seeds</dt>
+			<dd>
+				These seeds are commonly used for Entralink abuse. They are almost exactly the same as the seeds last generation except they also incorporate the MAC address of the DS.<br/>
+				The seed is set the moment you turn on the C-Gear, or when you warp into the Entralink.
+			</dd>
+		</dl>
+		The main difference between the two seed types is that C-Gear seeds use delay in addition to date and time, while Standard seeds only require precision down to the target second. For the vast majority of this guide, the focus will be on Standard seeds.
+	</dd>
+	<dt>Delay</dt>
+	<dd>	
+		The delay may be thought of as a fast counter that increases by one approximately 60 times per second. It starts when you launch (or soft reset) any of the Pokemon games. The delay is an important component of Entralink abuse, as a C-Gear seed must be used to hit your target IVs. Non C-Gear seeds do not use delay.
+		An important change from the 4th Generation is that delays will never be consistently odd or even, as the games do not support Slot-2 Game Pak interaction.
+	</dd>
+	<dt>Frame</dt>
+	<dd>	
+		A listing of frames is the sequence of Pokemon that can be captured or of IVs that may be passed down to an Egg, given a particular initial seed. A frame number, or target frame, is what you want to land on to get the desired result. There are different methods for targeting a particular frame depending on what you are doing or where you are in-game. For instance, when collecting an Egg, the frame will advance based on the amount of time that you spend before taking an Egg due to the onscreen or offscreen NPCs moving. When in a quiet cave, the frame does not advance at all on its own, but can be advanced by in-game actions, such as walking, saving, or listening to your awesome Chatot.
+	</dd>
+	<dt>Encounter Slot</dt>
+	<dd>	
+		An encounter slot is a value that determines what Pokemon will appear depending on the frame on which you encounter a wild Pokemon for the given encounter method.
+	</dd>
+	<dt>Individual Values</dt>
+	<dd>	
+		This should already be known, but Individual Values, or IVs, are hidden values which are basically stat boosters to a Pokemon. Since you are using PPRNG to get the desired IVs, these are not invisible per se.
+	</dd>
+	<dt>PID</dt>
+	<dd>	
+		Pokemon Identification. Each Pokemon has a unique PID which determines gender, nature, whether it is shiny or not, and characteristic. Unless you use the same seed, you wouldn't be likely to see the same PID for another Pokemon.
+	</dd>
+	<dt>(W)NPC</dt>
+	<dd>	
+		(W)NPC refers to (Wandering) Non-Playable Character. Those are characters in the game that you cannot control but you can interact with. Of importance to note is the wandering factor. WNPCs can advance the PID frame at an unpredictable way, so it is best to know the route layout. If an NPC walks around in a set route, then it is not considered a WNPC. WNPC move around in an unpredictable fashion, but if you battle them before going for a target Pokemon, they will stop moving around until you leave the route. In regards to breeding, this is an uncompromisable situation that must be accounted for.
+	</dd>
+</dl>
+
+<h3 id="s3-calibration">III. Calibration (The Old Fashion Way)</h3>
+
+<p>
+	<strong>Note:</strong> If you are planning RNG abuse on Pokemon Black 2 or White 2, it is highly recommended to skip over to IV. Unova Link Calibration as it is a much speedier method to attaining your parameters.
+</p>
+
+<p>
+	In order to do anything with this program, one must first find their DS Parameters. First, you can fill in the basic information of your profile by clicking "DS / Game Config" in the main window of PPRNG. The common information that should be filled in is DS type, version, whether you have the Shiny Charm and if you've done Memory Link (these two refer to Black 2 and White 2 only), your Trainer ID and Secret ID (should you have them), and your MAC address. Your MAC address can be found from the main menu if you you have a DS Phat or Lite.
+</p>
+
+<div class="centered-left">
+	<img src="/media/upload/ingame/rng/pprng_basics_1.png" alt=""/>
+	<p>*If you have a DSi or 3DS, you must find it through the System Settings.</p>
+</div>
+
+<div class="centered-left">
+	<img src="/media/upload/ingame/rng/pprng_basics_2.png" alt=""/>
+</div>
+
+<p>
+	Once that info is filled in, save the profile by clicking OK. Then, back in the main menu of PPRNG, click on DS Parameter Searcher to open a new window.
+</p>
+
+<div class="centered-left">
+	<img src="/media/upload/ingame/rng/pprng_basics_3.png" alt=""/>
+</div>
+
+<p>
+	The default values at the top can be left alone; the program should recognize the average ranges of the search based on the DS type and game you listed in the DS Game / Config, so be sure your profile is listed in the upper portion of the window.
+</p>
+
+<p>
+	In both the program and your DS, make sure you put in the same date and time. The most crucial of these values to note is seconds. It is also largely unnecessary to use keypresses for calibration, but if you do, make sure you use the same one(s) in both the program and your handheld.
+</p>
+
+<div class="centered-left">
+	<img src="/media/upload/ingame/rng/pprng_basics_4.png" alt=""/>
+</div>
+
+<p>
+	Finally, you'll want to prepare for the next part in-game. You should save in an area where you can easily capture a high level Pokemon (like Victory Road) or interact with one (like Kyurem). In your party, make sure to carry a Pokemon that knows the move Sweet Scent if you are capturing a wild Pokemon. You'll want to engage a battle with a wild Pokemon immediately when you regain control of your character. A Master Ball is handy if you wish to expedite the catching, though not necessary; don't worry, you're not saving.
+</p>
+
+
+<h4>The Process</h4>
+
+<p>
+	<em>1. Start your game, taking note of the time on the DS to the exact second.</em>
+</p>
+
+<p>
+	<em>2. Enter the game and immediately capture a Pokemon</em>
+</p>
+
+<p>
+	Be sure not to turn on the C-Gear at all, as it is unnecessary and will give you faulty or no results. When you regain control of your character, simply use Sweet Scent or talk to the Pokemon and capture it. This is where the Master Ball comes in handy. Don't worry, you will not be saving the game, so once you complete step 3, just shut off your system.
+</p>
+
+<p>
+	<em>3. Check the IVs and plug them into the DS Parameter Searcher window to find your parameters.</em>
+</p>
+
+<p>
+	After capturing the Pokemon, find out the IVs of it; you do not need to find the exact IVs but precise IVs result in an exact result. An IV calculator such as <a href="http://www.metalkid.info/pokemon/calculators/iv.aspx">Metalkid's</a> can help you out with this. Once you find the IV range, plug in the min and max values into the Searcher and hit the Search button.
+</p>
+
+<div class="centered-left">
+	<img src="/media/upload/ingame/rng/pprng_basics_5.png" alt=""/>
+</div>
+
+<p>
+	You'll want to repeat these steps a few times to discover your range of Timer0s. As this result illustrates, we have two varying results. With more precise IVs, thanks to the use of some Rare Candies, we ended up with the following result:
+</p>
+
+<div class="centered-left">
+	<img src="/media/upload/ingame/rng/pprng_basics_6.png" alt=""/>
+</div>
+
+<p>
+	Vcount, Vframe, and seconds are usually consistent so you can rely on new Timer0s that yield the same Vcount, Vframe, and seconds as previous results. It should be noted that 3DS and DSi users have noted an adjacent Vcount in their results. On a general note, you should memorize the seconds offset shown by the results. In this case, we chose to start the game from the DS menu at 15 seconds; the results reveal that the game seeds one second later. The usual seconds offset is as follows:
+</p>
+
+<ul>
+	<li>1 Second for DS Phat/DS Lite</li>
+	<li>1-2 seconds for DSi (XL)</li>
+	<li>8 seconds for 3DS (XL)</li>
+</ul>
+
+<p>
+	Once you are sure of your parameters, go back to the DS Game / Config window and put in the min/max values for your Timer0, Vcount, and Vframe. Remember that Vcount and Vframe are always consistent (aside from the aforementioned scenario with 3DS and DSi users).
+</p>
+
+<h3 id="s4-link-calibration">IV. Unova Link Calibration</h3>
+
+<p>
+	In Black 2 and White 2 there is a much quicker and easier way to determine your RNG parameters (Timer0, VCount, etc.) that you can use as soon as you begin your game.
+</p>
+
+<p>
+	At the moment, <strong>this process requires you to have started the game and saved at least once</strong> (i.e. created a save file), however, this may be revised in the future.  In the meantime, if you are planning to RNG abuse your Trainer ID on your first play through, you would need to start the game once and save as soon as possible (as soon as you are given control of your character) to create a save file. Then begin the process described below to determine your parameters, and finally clear your save file and restart your game to RNG abuse your Trainer ID.
+</p>
+
+<p>
+	Also note also that you can still calibrate using the same method used for Black 1 and White 1 (capture a Pokemon and check its IVs). See the Calibration section above for details.
+</p>
+
+<h4>Initial Config Setup</h4>
+<p>
+	Open the DS / Game Config window. Enter the game version, DS Type, and MAC address of the system. If you have done Memory Link and/or have the Shiny Charm in your save, be sure to check those boxes too. If you have started your game already and you know your Trainer ID and Secret ID, enter them as well. You will need these in order to find shiny seeds. You can find your Trainer ID on the back of your Trainer Card in-game. You can find your secret ID through various methods which will not be detailed here, but are easily found by Googling.
+</p>
+
+
+<h4>Parameter Searching Using the Unova Link</h4>
+<p>
+	Open the B2/W2 Parameter Searcher in the Black 2 / White 2 Only section of the PPRNG main menu.
+</p>
+
+<div class="centered-left">
+	<img src="/media/upload/ingame/rng/pprng_basics_7.png" alt=""/>
+</div>
+
+<p>
+	Start your game from the DS menu without holding any buttons, and note the date and time down to the second (synchronizing your DS clock with an external clock such as the one on your computer may be helpful for this). Enter this time into the B2/W2 Parameter Searcher.
+</p>
+
+<div class="centered-left">
+	<img src="/media/upload/ingame/rng/pprng_basics_8.png" alt=""/>
+</div>
+
+<p>
+	Select Unova Link from the game's top-level menu and then select Key System from the Unova Link main menu.
+</p>
+
+<p>
+	You will now begin a process of repeatedly activating the 'Send and Receive Keys' function and inputting the starting position of the spinning icon that appears there (more details below).
+</p>
+
+<p>
+	Select 'Send and Receive Keys' from the Key System menu. The game will ask you to confirm that you wish to begin IR transmission.
+</p>
+
+<div class="centered-left">
+	<img src="/media/upload/ingame/rng/pprng_basics_9.png" alt=""/>
+</div>
+
+<p>
+	At this point, you need to focus your attention on the bottom right corner of the top screen of your DS, because as soon as you select 'Yes,' the game will display a spinning icon there (the same spinning icon as shown when you are saving your game) and you need to take note of the starting position of the spinner. The icon spins fairly quickly, so you should be looking at the bottom right corner of the screen before selecting 'Yes' in order to be sure that you are able to see the icon's initial position.
+</p>
+
+<div class="centered-left">
+	<img src="/media/upload/ingame/rng/pprng_basics_10.png" alt=""/>
+
+</div>
+
+<p>
+	In the B2/W2 Parameter Searcher, select the arrow which corresponds to the spinner's initial position. In the example screenshot above, the spinner was initially pointing to the upper right corner, so you click the arrow which is pointing to the upper right.
+</p>
+
+<div class="centered-left">
+	<img src="/media/upload/ingame/rng/pprng_basics_11.png" alt=""/>
+</div>
+
+<p>
+	Cancel the key transmission and repeat the process again from the point of selecting 'Send and Receive Keys' from the Key System menu, taking note of the initial spinner position each time and entering that position into the B2/W2 Parameter Searcher. <ins>You must not exit the Unova Link menu during this process, or the calibration will fail</ins>. Once you have done this a minimum of 7 times (the actual minimum depends on the ranges chosen for the various RNG parameters; however, with the default values the minimum is 7), you can click the search button.
+</p>
+
+<div class="centered-left">
+	<img src="/media/upload/ingame/rng/pprng_basics_12.png" alt=""/>
+</div>
+
+<p>
+	The result should appear within a few seconds.  As in the example above, it is possible that you will get more than one result. The more times you check the spinner, the more accurate the process is, so if you find that you have multiple results you should perform more spinner checks until you are left with only 1 result.
+</p>
+
+<div class="centered-left">
+	<img src="/media/upload/ingame/rng/pprng_basics_13.png" alt=""/>
+</div>
+
+<p>
+	Add the parameters to your DS / Game configuration.
+</p>
+
+<div class="centered-left">
+	<img src="/media/upload/ingame/rng/pprng_basics_14.png" alt=""/>
+</div>
+
+<p>
+	Repeat the process again until you find several more values for Timer0. When using a retail cart on an actual DS system, it is normal to have up to 6 or 7 values for Timer0 (though you will most commonly hit 3 or 4 of them only), while Vcount and Vframe should always be  the same.
+</p>

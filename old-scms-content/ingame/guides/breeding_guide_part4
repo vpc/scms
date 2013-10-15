@@ -1,0 +1,1052 @@
+[title]
+The Breeding Guide Part IV
+[head]
+<meta name="description" content="Everything you need to know about breeding in DPP and ADV." />
+[page]
+<div class="author">By <a href="/forums/member.php?u=2412">X-Act</a> and <a href="/forums/member.php?u=1430">Peterko</a>.</div>
+
+<ul class="toc">
+    <li>
+        <a href="breeding_guide_part1">Part One of the Breeding Guide</a>
+    </li>
+    <li>
+        <a href="breeding_guide_part2">Part Two of the Breeding Guide</a>
+    </li>
+    <li>
+        <a href="breeding_guide_part3">Part Three of the Breeding Guide</a>
+    </li>
+    <li>
+        <a href="breeding_guide_part4">Part Four of the Breeding Guide</a>
+        <ul>
+            <li>
+                <a href="#general_information">Section One: Hidden Power - General Information</a>
+                <ul>
+                    <li><a href="#know_your_type">Know Your Type</a></li>
+                    <li><a href="#know_your_power">Know Your Power</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#how_to_breed">Section Two: How To Breed For Your Hidden Power</a>
+                <ul>
+                    <li><a href="#ice">Hidden Power ICE</a></li>
+                    <li><a href="#grass">Hidden Power GRASS</a></li>
+                    <li><a href="#fighting">Hidden Power FIGHTING</a></li>
+                    <li><a href="#ground">Hidden Power GROUND</a></li>
+                    <li><a href="#rock">Hidden Power ROCK</a></li>
+                    <li><a href="#flying">Hidden Power FLYING</a></li>
+                    <li><a href="#electric">Hidden Power ELECTRIC</a></li>
+                    <li><a href="#bug">Hidden Power BUG</a></li>
+                    <li><a href="#ghost">Hidden Power GHOST</a></li>
+                    <li><a href="#fire">Hidden Power FIRE</a></li>
+                    <li><a href="#water">Hidden Power WATER</a></li>
+                    <li><a href="#psychic">Hidden Power PSYCHIC</a></li>
+                    <li><a href="#dragon">Hidden Power DRAGON</a></li>
+                    <li><a href="#dark">Hidden Power DARK</a></li>
+                    <li><a href="#steel">Hidden Power STEEL</a></li>
+                    <li><a href="#poison">Hidden Power POISON</a></li>
+	                </ul>
+				<li>
+					<a href="#perfect_iv_combinations">Section Three: Perfect Hidden Power IV Combinations</a>
+				    </ul>
+                    </li>
+                    </ul>
+                    </li>
+                    </ul>
+
+<h2><a name="general_information">SECTION ONE: Hidden Power – General Information</a></h2>
+
+<p>Hidden Power is perhaps the most complex move in the Pokémon games.</p>
+
+<p>The Base Power of this move ranges from 30 to 70. It can be of any type (except Normal), depending on the IV combination that your Pokémon has. In RSFRLGE, it can be either a physical attack or a special attack. It is a physical attack if its type is Fighting, Flying, Poison, Ground, Rock, Bug, Ghost, or Steel; it is a special attack if its type is Fire, Water, Grass, Electric, Psychic, Ice, Dragon, or Dark. In DPP, there is no such complexity, since it is always a special attack.</p>
+
+<h3><a name="know_your_type">Know Your Type</a></h3>
+
+<p>Your Hidden Power type is determined by whether or not your IVs are even or odd. An even IV is an IV which can be divided by two without remainder, otherwise it is an odd IV. Namely:</p>
+
+<dl>
+<dt>Even</dt>
+<dd>IV 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2, 0</dd>
+<dt>Odd</dt>
+<dd>IV 31, 29, 27, 25, 23, 21, 19, 17, 15, 13, 11, 9, 7, 5, 3, 1</dd>
+</dl>
+
+<p>The easiest way to discover the type of your Hidden Power is to start from zero, and:</p>
+
+<ul>
+<li>Add 32 if the Special Defense IV is odd.</li>
+<li>Add 16 if the Special Attack IV is odd.</li>
+<li>Add 8 if the Speed IV is odd.</li>
+<li>Add 4 if the Defense IV is odd.</li>
+<li>Add 2 if the Attack IV is odd.</li>
+<li>Add 1 if the HP IV is odd.</li>
+</ul>
+
+<p>Depending on the resulting number, the type of your Hidden Power can be found using the following chart:</p>
+
+<table class="sortable">
+    <thead>
+        <tr>
+		<th>If Number Is Between</th>
+		<th>Hidden Power Type Is</th>
+	</tr>
+    </thead>
+    <tbody>	
+        <tr>
+		<td>0 and 4</td>
+		<td>Fighting</td>
+	</tr>	
+        <tr class="a">
+		<td>5 and 8</td>
+		<td>Flying</td>
+	</tr>	
+        <tr>
+		<td>9 and 12</td>
+		<td>Poison</td>
+	</tr>
+        <tr class="a">
+		<td>13 and 16</td>
+		<td>Ground</td>
+	</tr>	
+        <tr>
+		<td>17 and 20</td>
+		<td>Rock</td>
+	</tr>
+        <tr class="a">
+		<td>21 and 25</td>
+		<td>Bug</td>
+	</tr>
+	<tr>
+		<td>26 and 29</td>
+		<td>Ghost</td>
+	</tr>
+	<tr class="a">
+		<td>30 and 33</td>
+		<td>Steel</td>
+	</tr>
+	<tr>
+		<td>34 and 37</td>
+		<td>Fire</td>
+	</tr>
+	<tr class="a">
+		<td>38 and 41</td>
+		<td>Water</td>
+	</tr>
+	<tr>
+		<td>42 and 46</td>
+		<td>Grass</td>
+	</tr>
+	<tr class="a">
+		<td>47 and 50</td>
+		<td>Electric</td>
+	</tr>
+	<tr>
+		<td>51 and 54</td>
+		<td>Psychic</td>
+	</tr>
+	<tr class="a">
+		<td>55 and 58</td>
+		<td>Ice</td>
+	</tr>
+	<tr>
+		<td>59 and 62</td>
+		<td>Dragon</td>
+	</tr>
+	<tr class="a">
+		<td>63</td>
+		<td>Dark</td>
+	</tr>
+    </tbody>
+</table>
+
+<p>Let's have an example: Suppose your Pokémon has the following IVs (remember, in the order HP, Attack, Defense, Special Attack, Special Defense, Speed):</p>
+
+<p>11, 8, 23, 22, 31, 4</p>
+
+<p>We start from zero, then add 1 because of an odd HP IV (11), add 4 because of an odd Def IV (23), and add 32 because of an odd SpDef IV (31). The answer is 37, which corresponds to <strong>Hidden Power Fire</strong>.</p>
+
+<h3><a name="know_your_power">Know Your Power</a></h3>
+
+<p>The Base Power of your Hidden Power can be found as follows.</p>
+
+<p>Start from zero. Then, for each IV, if the IV divided by two is an odd number (rounded down), i.e. the IV is 31 or 30 (15), 27 or 26 (13), 23 or 22 (11), 19 or 18 (9), 15 or 14 (7), 11 or 10 (5), 7 or 6 (3), or 3 or 2 (1), then:</p>
+
+<ul>
+<li>Add 32 if the IV is the Special Defense IV.</li>
+<li>Add 16 if the IV is the Special Attack IV.</li>
+<li>Add 8 if the IV is the Speed IV.</li>
+<li>Add 4 if the IV is the Defense IV.</li>
+<li>Add 2 if the IV is the Attack IV.</li>
+<li>Add 1 if the IV is the HP IV.</li>
+</ul>
+
+<p>After doing this, multiply this number by 40, then divide the answer by 63, and round down. Finally, add 30 to this answer, and you have your Hidden Power Base Power.</p>
+
+<p>For example, for the IVs given earlier:</p>
+
+<p>11, 8, 23, 22, 31, 4</p>
+
+<p>We start from zero, then add 1 because the HP IV divided by 2 is odd (11 / 2 = 5 rounded down, which is odd), add 4 because of an the Def IV divided by 2 is odd (23 / 2 = 11 rounded down), add 16 since the SpA IV divided by 2 is odd (22 / 2 = 11) and add 32 since the SpD IV divided by 2 is odd (31 / 2 = 15 rounded down). The answer is 53. Multiplying by 40 gives 2120. Dividing 2120 by 63 and rounding down, we get 33. Finally we add 30 to this, getting 63. So Hidden Power's Base Power would be <strong>63</strong> in this case.</p>
+
+<p>If you haven't understood a single thing from the above, you don't need to worry, since you don´t have to know how exactly the Base Power is calculated. <strong>The most important thing to know is that if the Special Defense, Special Attack, and Speed IVs (all three) are odd numbers after being divided by two, you will always get at least Base Power 65.</strong> Because it is relatively easy to breed 3 IVs, these are the three IVs you should aim for when breeding for your Hidden Power.</p>
+
+<h2><a name="how_to_breed">SECTION TWO: How To Breed For Your Hidden Power</a></h2>
+
+<p>The IVs are written in the following order: HP, Attack, Defense, Special Attack, Special Defense, and Speed.</p>
+
+<p>A Pokemon having x/x/x/31/31/x IVs means that it has 31 IV in Special Attack and 31 IV in Special Defense, and any IV except 31 in HP, Attack, Defense, and Speed.</p>
+
+<p>Odds of 1:x means that the average number of Eggs that need to be bred in order for the baby to have the required IVs is x.</p>
+
+<p>It doesn't matter which IV out of SpA, SpD, or Spe you start breeding for first, or the order with which you breed them, because these three IVs all have the same probability to be passed in EDP.</p>
+
+<p>To have the maximum Base Power of 70, you will need each of the HP, Attack, and Defense IVs to be one of the following numbers:</p>
+
+<p>31, 30, 27, 26, 23, 22, 19, 18, 15, 14, 11, 10, 7, 6, 3, 2</p>
+
+<p>The Hidden Power types to be bred will be tackled in the following order: Ice, Grass, Fighting, Ground, Rock, Flying, Electric, Bug, Ghost, Fire, Water, Psychic, Dragon, Dark, Steel, Poison.</p>
+
+<h3><a name="ice">Hidden Power ICE</a></h3>
+
+<p>You must aim either for x/x/x/31/31/31 or for x/x/x/31/31/30. Here the method to breed for x/x/x/31/31/31 is described, since maximum speed is more important and it has a higher chance to get Hidden Power ICE.</p>
+
+<pre>
+   1.  x/x/x/x/x/31  +  x/x/x/x/x/x   =  x/x/x/x/x/31  (1:4)
+
+   2.  x/x/x/x/31/x  +  x/x/x/x/x/31  = x/x/x/x/31/31  (1:17)
+
+3. a) x/x/x/x/31/31  +  x/x/x/31/x/x  = x/x/x/31/31/x  (1:17)
+or b) x/x/x/x/31/31  +  x/x/x/31/x/x  = x/x/x/31/x/31  (1:17)
+
+4. a) x/x/x/31/31/x  + x/x/x/x/31/31  = x/x/x/31/31/31 (1:54)
+or b) x/x/x/31/x/31  + x/x/x/x/31/31  = x/x/x/31/31/31 (1:54)
+
+5. a) x/x/x/31/31/31 + x/x/x/31/31/x  = x/x/x/31/31/31 (1:29)
+or b) x/x/x/31/31/31 + x/x/x/31/x/31  = x/x/x/31/31/31 (1:29)
+or c) x/x/x/31/31/31 + x/x/x/x/31/31  = x/x/x/31/31/31 (1:29)
+
+   6. x/x/x/31/31/31 + x/x/x/31/31/31 = x/x/x/31/31/31 (1:16)
+</pre>
+
+<p>About every 16th baby will now have a chance to have Hidden Power ICE with Base Power at least 65, if any one of the following holds:</p>
+
+<ul>
+<li>HP IV is an odd number, Defense IV and Attack IV are even numbers</li>
+<li>Attack IV is an odd number, HP IV and Defense IV are even numbers</li>
+<li>HP IV, Attack IV and Defense IV are all even numbers</li>
+</ul>
+
+<p>This means that the highest IVs you can have for Hidden Power ICE with a 31 Speed IV are either 31/30/30/31/31/31 or 30/31/30/31/31/31.</p>
+
+<h3><a name="grass">Hidden Power GRASS</a></h3>
+
+<p>You must aim for x/x/x/30/31/31.</p>
+
+<pre>
+   1.  x/x/x/x/x/31  +  x/x/x/x/x/x   =  x/x/x/x/x/31  (1:4)
+
+   2.  x/x/x/x/31/x  +  x/x/x/x/x/31  = x/x/x/x/31/31  (1:17)
+
+3. a) x/x/x/x/31/31  +  x/x/x/30/x/x  = x/x/x/30/31/x  (1:17)
+or b) x/x/x/x/31/31  +  x/x/x/30/x/x  = x/x/x/30/x/31  (1:17)
+
+4. a) x/x/x/30/31/x  + x/x/x/x/31/31  = x/x/x/30/31/31 (1:54)
+or b) x/x/x/30/x/31  + x/x/x/x/31/31  = x/x/x/30/31/31 (1:54)
+
+5. a) x/x/x/30/31/31 + x/x/x/30/31/x  = x/x/x/30/31/31 (1:29)
+or b) x/x/x/30/31/31 + x/x/x/30/x/31  = x/x/x/30/31/31 (1:29)
+or c) x/x/x/30/31/31 + x/x/x/x/31/31  = x/x/x/30/31/31 (1:29)
+
+   6. x/x/x/30/31/31 + x/x/x/30/31/31 = x/x/x/30/31/31 (1:16)
+</pre>
+
+<p>About every 16th baby will now have a chance to have Hidden Power GRASS with Base Power at least 65, if any one of the following holds:</p>
+
+<ul>
+<li>HP IV is an even number, Attack IV and Defense IV are odd numbers</li>
+<li>Attack IV is an even number, HP IV and Defense IV are odd numbers</li>
+<li>Attack IV is an odd number, HP IV and Defense IV are even numbers</li>
+<li>Defense IV is an even number, HP IV and Attack IV are odd numbers</li>
+<li>Defense IV is an odd number, HP IV and Attack IV are even numbers</li>
+</ul>
+
+<p>This means that the highest IVs you can have for Hidden Power GRASS are either 30/31/31/30/31/31, 31/30/31/30/31/31 or 31/31/30/30/31/31.</p>
+
+<p>Note that if you want either Hidden Power ICE or Hidden Power GRASS, you can breed a x/x/x/30/31/31 parent with a x/x/x/31/31/31 parent.</p>
+
+<h3><a name="fighting">Hidden Power FIGHTING</a></h3>
+
+<p>You must aim for x/x/x/30/30/30.</p>
+
+<pre>
+   1.  x/x/x/x/x/30  +  x/x/x/x/x/x   =  x/x/x/x/x/30  (1:4)
+
+   2.  x/x/x/x/30/x  +  x/x/x/x/x/30  = x/x/x/x/30/30  (1:17)
+
+3. a) x/x/x/x/30/30  +  x/x/x/30/x/x  = x/x/x/30/30/x  (1:17)
+or b) x/x/x/x/30/30  +  x/x/x/30/x/x  = x/x/x/30/x/30  (1:17)
+
+4. a) x/x/x/30/30/x  + x/x/x/x/30/30  = x/x/x/30/30/30 (1:54)
+or b) x/x/x/30/x/30  + x/x/x/x/30/30  = x/x/x/30/30/30 (1:54)
+
+5. a) x/x/x/30/30/30 + x/x/x/30/30/x  = x/x/x/30/30/30 (1:29)
+or b) x/x/x/30/30/30 + x/x/x/30/x/30  = x/x/x/30/30/30 (1:29)
+or c) x/x/x/30/30/30 + x/x/x/x/30/30  = x/x/x/30/30/30 (1:29)
+
+   6. x/x/x/30/30/30 + x/x/x/30/30/30 = x/x/x/30/30/30 (1:16)
+</pre>
+
+<p>About every 16th baby will now have a chance to have Hidden Power FIGHTING with Base Power at least 65, if the Defense IV is an even number. The HP IV and the Attack IV can be any number you want.</p>
+
+<p>This means that the highest IVs you can have for Hidden Power FIGHTING are 31/31/30/30/30/30.</p>
+
+<h3><a name="ground">Hidden Power GROUND</a></h3>
+
+<p>You must aim either for x/x/x/30/30/31 or for x/x/x/31/30/30. Here the method to breed for x/x/x/30/30/31 is described, since maximum speed is more important and it has a higher chance to get Hidden Power GROUND.</p>
+
+<pre>
+   1.  x/x/x/x/x/31  +  x/x/x/x/x/x   =  x/x/x/x/x/31  (1:4)
+
+   2.  x/x/x/x/30/x  +  x/x/x/x/x/31  = x/x/x/x/30/31  (1:17)
+
+3. a) x/x/x/x/30/31  +  x/x/x/30/x/x  = x/x/x/30/30/x  (1:17)
+or b) x/x/x/x/30/31  +  x/x/x/30/x/x  = x/x/x/30/x/31  (1:17)
+
+4. a) x/x/x/30/30/x  + x/x/x/x/30/31  = x/x/x/30/30/31 (1:54)
+or b) x/x/x/30/x/31  + x/x/x/x/30/31  = x/x/x/30/30/31 (1:54)
+
+5. a) x/x/x/30/30/31 + x/x/x/30/30/x  = x/x/x/30/30/31 (1:29)
+or b) x/x/x/30/30/31 + x/x/x/30/x/31  = x/x/x/30/30/31 (1:29)
+or c) x/x/x/30/30/31 + x/x/x/x/30/31  = x/x/x/30/30/31 (1:29)
+
+   6. x/x/x/30/30/31 + x/x/x/30/30/31 = x/x/x/30/30/31 (1:16)
+</pre>
+
+<p>About every 16th baby will now have a chance to have Hidden Power GROUND with Base Power at least 65, if any one of the following holds:</p>
+
+<ul>
+<li>HP IV is an even number, Attack IV and Defense IV are odd numbers</li>
+<li>Attack IV is an even number, HP IV and Defense IV are odd numbers</li>
+<li>HP IV, Attack IV and Defense IV are all odd numbers</li>
+</ul>
+
+<p>This means that the highest IVs you can have for Hidden Power GROUND with a 31 Speed IV are 31/31/31/30/30/31.</p>
+
+<h3><a name="rock">Hidden Power ROCK</a></h3>
+
+<p>You must aim for x/x/x/31/30/30.</p>
+
+<pre>
+   1.  x/x/x/x/x/30  +  x/x/x/x/x/x   =  x/x/x/x/x/30  (1:4)
+
+   2.  x/x/x/x/30/x  +  x/x/x/x/x/30  = x/x/x/x/30/30  (1:17)
+
+3. a) x/x/x/x/30/30  +  x/x/x/31/x/x  = x/x/x/31/30/x  (1:17)
+or b) x/x/x/x/30/30  +  x/x/x/31/x/x  = x/x/x/31/x/30  (1:17)
+
+4. a) x/x/x/31/30/x  + x/x/x/x/30/30  = x/x/x/31/30/30 (1:54)
+or b) x/x/x/31/x/30  + x/x/x/x/30/30  = x/x/x/31/30/30 (1:54)
+
+5. a) x/x/x/31/30/30 + x/x/x/31/30/x  = x/x/x/31/30/30 (1:29)
+or b) x/x/x/31/30/30 + x/x/x/31/x/30  = x/x/x/31/30/30 (1:29)
+or c) x/x/x/31/30/30 + x/x/x/x/30/30  = x/x/x/31/30/30 (1:29)
+
+   6. x/x/x/31/30/30 + x/x/x/31/30/30 = x/x/x/31/30/30 (1:16)
+</pre>
+
+<p>About every 16th baby will now have a chance to have Hidden Power ROCK with Base Power at least 65, if any one of the following holds:</p>
+
+<ul>
+<li>HP IV is an odd number, Attack IV and Defense IV are even numbers</li>
+<li>Attack IV is an odd number, HP IV and Defense IV are even numbers</li>
+<li>Defense IV is an odd number, HP IV and Attack IV are even numbers</li>
+<li>Defense IV is an even number, HP IV and Attack IV are odd numbers</li>
+</ul>
+
+<p>This means that the highest IVs you can have for Hidden Power ROCK are 31/31/30/31/30/30.</p>
+
+<h3><a name="flying">Hidden Power FLYING</a></h3>
+
+<p>You must aim either for x/x/x/30/30/31 or for x/x/x/30/30/30. Both breeding methods are described here, since the former benefits from maximum speed while the latter has a higher chance of getting Hidden Power FLYING.</p>
+
+<p>Breeding for x/x/x/30/30/31:</p>
+
+<pre>
+   1.  x/x/x/x/x/31  +  x/x/x/x/x/x   =  x/x/x/x/x/31  (1:4)
+
+   2.  x/x/x/x/30/x  +  x/x/x/x/x/31  = x/x/x/x/30/31  (1:17)
+
+3. a) x/x/x/x/30/31  +  x/x/x/30/x/x  = x/x/x/30/30/x  (1:17)
+or b) x/x/x/x/30/31  +  x/x/x/30/x/x  = x/x/x/30/x/31  (1:17)
+
+4. a) x/x/x/30/30/x  + x/x/x/x/30/31  = x/x/x/30/30/31 (1:54)
+or b) x/x/x/30/x/31  + x/x/x/x/30/31  = x/x/x/30/30/31 (1:54)
+
+5. a) x/x/x/30/30/31 + x/x/x/30/30/x  = x/x/x/30/30/31 (1:29)
+or b) x/x/x/30/30/31 + x/x/x/30/x/31  = x/x/x/30/30/31 (1:29)
+or c) x/x/x/30/30/31 + x/x/x/x/30/31  = x/x/x/30/30/31 (1:29)
+
+   6. x/x/x/30/30/31 + x/x/x/30/30/31 = x/x/x/30/30/31 (1:16)
+</pre>
+
+<p>About every 16th baby will now have a chance to have Hidden Power FLYING with Base Power at least 65, if the HP IV, Attack IV and Defense IV are all even numbers.</p>
+
+<p>This means that the highest IVs you can have for Hidden Power FLYING with a 31 Speed IV are 30/30/30/30/30/31.</p>
+
+<p>Breeding for x/x/x/30/30/30:</p>
+
+<pre>
+   1.  x/x/x/x/x/30  +  x/x/x/x/x/x   =  x/x/x/x/x/30  (1:4)
+
+   2.  x/x/x/x/30/x  +  x/x/x/x/x/30  = x/x/x/x/30/30  (1:17)
+
+3. a) x/x/x/x/30/30  +  x/x/x/30/x/x  = x/x/x/30/30/x  (1:17)
+or b) x/x/x/x/30/30  +  x/x/x/30/x/x  = x/x/x/30/x/30  (1:17)
+
+4. a) x/x/x/30/30/x  + x/x/x/x/30/30  = x/x/x/30/30/30 (1:54)
+or b) x/x/x/30/x/30  + x/x/x/x/30/30  = x/x/x/30/30/30 (1:54)
+
+5. a) x/x/x/30/30/30 + x/x/x/30/30/x  = x/x/x/30/30/30 (1:29)
+or b) x/x/x/30/30/30 + x/x/x/30/x/30  = x/x/x/30/30/30 (1:29)
+or c) x/x/x/30/30/30 + x/x/x/x/30/30  = x/x/x/30/30/30 (1:29)
+
+   6. x/x/x/30/30/30 + x/x/x/30/30/30 = x/x/x/30/30/30 (1:16)
+</pre>
+
+<p>About every 16th baby will now have a chance to have Hidden Power FLYING with Base Power at least 65, if any one of the following holds:</p>
+
+<ul>
+<li>Attack IV is an even number, HP IV and Defense IV are odd numbers</li>
+<li>HP IV is an even number, Attack IV and Defense IV are odd numbers</li>
+<li>HP IV, Attack IV and Defense IV are all odd numbers</li>
+</ul>
+
+<p>This means that the highest IVs you can have for Hidden Power FLYING with a 30 Speed IV are 31/31/31/30/30/30.</p>
+
+<h3><a name="electric">Hidden Power ELECTRIC</a></h3>
+
+<p>You must aim either for x/x/x/30/31/31 or for x/x/x/31/31/30. Both breeding methods are described here, since the former benefits from maximum speed while the latter has a higher chance of getting Hidden Power ELECTRIC.</p>
+
+<p>Breeding for x/x/x/30/31/31:</p>
+
+<pre>
+   1.  x/x/x/x/x/31  +  x/x/x/x/x/x   =  x/x/x/x/x/31  (1:4)
+
+   2.  x/x/x/x/31/x  +  x/x/x/x/x/31  = x/x/x/x/31/31  (1:17)
+
+3. a) x/x/x/x/31/31  +  x/x/x/30/x/x  = x/x/x/30/31/x  (1:17)
+or b) x/x/x/x/31/31  +  x/x/x/30/x/x  = x/x/x/30/x/31  (1:17)
+
+4. a) x/x/x/30/31/x  + x/x/x/x/31/31  = x/x/x/30/31/31 (1:54)
+or b) x/x/x/30/x/31  + x/x/x/x/31/31  = x/x/x/30/31/31 (1:54)
+
+5. a) x/x/x/30/31/31 + x/x/x/30/31/x  = x/x/x/30/31/31 (1:29)
+or b) x/x/x/30/31/31 + x/x/x/30/x/31  = x/x/x/30/31/31 (1:29)
+or c) x/x/x/30/31/31 + x/x/x/x/31/31  = x/x/x/30/31/31 (1:29)
+
+   6. x/x/x/30/31/31 + x/x/x/30/31/31 = x/x/x/30/31/31 (1:16)
+</pre>
+
+<p>About every 16th baby will now have a chance to have Hidden Power ELECTRIC with Base Power at least 65, if the HP IV, Attack IV and Defense IV are all odd numbers.</p>
+
+<p>This means that the highest IVs you can have for Hidden Power ELECTRIC with a 31 Speed IV are 31/31/31/30/31/31.</p>
+
+<p>Breeding for x/x/x/31/31/30:</p>
+
+<pre>
+   1.  x/x/x/x/x/30  +  x/x/x/x/x/x   =  x/x/x/x/x/30  (1:4)
+
+   2.  x/x/x/x/31/x  +  x/x/x/x/x/30  = x/x/x/x/31/30  (1:17)
+
+3. a) x/x/x/x/31/30  +  x/x/x/31/x/x  = x/x/x/31/31/x  (1:17)
+or b) x/x/x/x/31/30  +  x/x/x/31/x/x  = x/x/x/31/x/30  (1:17)
+
+4. a) x/x/x/31/31/x  + x/x/x/x/31/30  = x/x/x/31/31/30 (1:54)
+or b) x/x/x/31/x/30  + x/x/x/x/31/30  = x/x/x/31/31/30 (1:54)
+
+5. a) x/x/x/31/31/30 + x/x/x/31/31/x  = x/x/x/31/31/30 (1:29)
+or b) x/x/x/31/31/30 + x/x/x/31/x/30  = x/x/x/31/31/30 (1:29)
+or c) x/x/x/31/31/30 + x/x/x/x/31/30  = x/x/x/31/31/30 (1:29)
+
+   6. x/x/x/31/31/30 + x/x/x/31/31/30 = x/x/x/31/31/30 (1:16)
+</pre>
+
+<p>About every 16th baby will now have a chance to have Hidden Power ELECTRIC with Base Power at least 65, if any one of the following holds:</p>
+
+<ul>
+<li>HP IV is an odd number, Attack IV and Defense IV are even numbers</li>
+<li>Attack IV is an odd number, HP IV and Defense IV are even numbers</li>
+<li>HP IV, Attack IV and Defense IV are all even numbers</li>
+</ul>
+
+<p>This means that the highest IVs you can have for Hidden Power ELECTRIC with a 30 Speed IV are either 30/31/30/31/31/30 or 31/30/30/31/31/30.</p>
+
+<h3><a name="bug">Hidden Power BUG</a></h3>
+
+<p>You must aim either for x/x/x/31/30/31 or for x/x/x/31/30/30. Both breeding methods are described here, since the former benefits from maximum speed while the latter has a slightly higher chance of getting Hidden Power BUG.</p>
+
+<p>Breeding for x/x/x/31/30/31:</p>
+
+<pre>
+   1.  x/x/x/x/x/31  +  x/x/x/x/x/x   =  x/x/x/x/x/31  (1:4)
+
+   2.  x/x/x/x/30/x  +  x/x/x/x/x/31  = x/x/x/x/30/31  (1:17)
+
+3. a) x/x/x/x/30/31  +  x/x/x/31/x/x  = x/x/x/31/30/x  (1:17)
+or b) x/x/x/x/30/31  +  x/x/x/31/x/x  = x/x/x/31/x/31  (1:17)
+
+4. a) x/x/x/31/30/x  + x/x/x/x/30/31  = x/x/x/31/30/31 (1:54)
+or b) x/x/x/31/x/31  + x/x/x/x/30/31  = x/x/x/31/30/31 (1:54)
+
+5. a) x/x/x/31/30/31 + x/x/x/31/30/x  = x/x/x/31/30/31 (1:29)
+or b) x/x/x/31/30/31 + x/x/x/31/x/31  = x/x/x/31/30/31 (1:29)
+or c) x/x/x/31/30/31 + x/x/x/x/30/31  = x/x/x/31/30/31 (1:29)
+
+   6. x/x/x/31/30/31 + x/x/x/31/30/31 = x/x/x/31/30/31 (1:16)
+</pre>
+
+<p>About every 16th baby will now have a chance to have Hidden Power BUG with Base Power at least 65, if any one of the following holds:</p>
+
+<ul>
+<li>HP IV is an odd number, Attack IV and Defense IV are even numbers</li>
+<li>HP IV, Attack IV and Defense IV are all even numbers</li>
+</ul>
+
+<p>This means that the highest IVs you can have for Hidden Power BUG with a 31 Speed IV are 31/30/30/31/30/31.</p>
+
+<p>Breeding for x/x/x/31/30/30:</p>
+
+<pre>
+   1.  x/x/x/x/x/30  +  x/x/x/x/x/x   =  x/x/x/x/x/30  (1:4)
+
+   2.  x/x/x/x/30/x  +  x/x/x/x/x/30  = x/x/x/x/30/30  (1:17)
+
+3. a) x/x/x/x/30/30  +  x/x/x/31/x/x  = x/x/x/31/30/x  (1:17)
+or b) x/x/x/x/30/30  +  x/x/x/31/x/x  = x/x/x/31/x/30  (1:17)
+
+4. a) x/x/x/31/30/x  + x/x/x/x/30/30  = x/x/x/31/30/30 (1:54)
+or b) x/x/x/31/x/30  + x/x/x/x/30/30  = x/x/x/31/30/30 (1:54)
+
+5. a) x/x/x/31/30/30 + x/x/x/31/30/x  = x/x/x/31/30/30 (1:29)
+or b) x/x/x/31/30/30 + x/x/x/31/x/30  = x/x/x/31/30/30 (1:29)
+or c) x/x/x/31/30/30 + x/x/x/x/30/30  = x/x/x/31/30/30 (1:29)
+
+   6. x/x/x/31/30/30 + x/x/x/31/30/30 = x/x/x/31/30/30 (1:16)
+</pre>
+
+<p>About every 16th baby will now have a chance to have Hidden Power BUG with Base Power at least 65, if any one of the following holds:</p>
+
+<ul>
+<li>Attack IV is an even number, HP IV and Defense IV are odd numbers</li>
+<li>HP IV is an even number, Attack IV and Defense IV are odd numbers</li>
+<li>HP IV, Attack IV and Defense IV are all odd numbers</li>
+</ul>
+
+<p>This means that the highest IVs you can have for Hidden Power BUG with a 30 Speed IV are 31/31/31/31/30/30.</p>
+
+<h3><a name="ghost">Hidden Power GHOST</a></h3>
+
+<p>You must aim for x/x/x/31/30/31.</p>
+
+<pre>
+   1.  x/x/x/x/x/31  +  x/x/x/x/x/x   =  x/x/x/x/x/31  (1:4)
+
+   2.  x/x/x/x/30/x  +  x/x/x/x/x/31  = x/x/x/x/30/31  (1:17)
+
+3. a) x/x/x/x/30/31  +  x/x/x/31/x/x  = x/x/x/31/30/x  (1:17)
+or b) x/x/x/x/30/31  +  x/x/x/31/x/x  = x/x/x/31/x/31  (1:17)
+
+4. a) x/x/x/31/30/x  + x/x/x/x/30/31  = x/x/x/31/30/31 (1:54)
+or b) x/x/x/31/x/31  + x/x/x/x/30/31  = x/x/x/31/30/31 (1:54)
+
+5. a) x/x/x/31/30/31 + x/x/x/31/30/x  = x/x/x/31/30/31 (1:29)
+or b) x/x/x/31/30/31 + x/x/x/31/x/31  = x/x/x/31/30/31 (1:29)
+or c) x/x/x/31/30/31 + x/x/x/x/30/31  = x/x/x/31/30/31 (1:29)
+
+   6. x/x/x/31/30/31 + x/x/x/31/30/31 = x/x/x/31/30/31 (1:16)
+</pre>
+
+<p>About every 16th baby will now have a chance to have Hidden Power GHOST with Base Power at least 65, if any one of the following holds:</p>
+
+<ul>
+<li>Attack IV is an odd number, HP IV and Defense IV are even numbers</li>
+<li>Defense IV is an odd number, HP IV and Attack IV are even numbers</li>
+<li>Attack IV is an even number, HP IV and Defense IV are odd numbers</li>
+<li>Defense IV is an even number, HP IV and Attack IV are odd numbers</li>
+</ul>
+
+<p>This means that the highest IVs you can have for Hidden Power GHOST are either 31/31/30/31/30/31 or 31/30/31/31/30/31.</p>
+
+<h3><a name="fire">Hidden Power FIRE</a></h3>
+
+<p>You must aim for x/x/x/30/31/30.</p>
+
+<pre>
+   1.  x/x/x/x/x/30  +  x/x/x/x/x/x   =  x/x/x/x/x/30  (1:4)
+
+   2.  x/x/x/x/31/x  +  x/x/x/x/x/30  = x/x/x/x/31/30  (1:17)
+
+3. a) x/x/x/x/31/30  +  x/x/x/30/x/x  = x/x/x/30/31/x  (1:17)
+or b) x/x/x/x/31/30  +  x/x/x/30/x/x  = x/x/x/30/x/30  (1:17)
+
+4. a) x/x/x/30/31/x  + x/x/x/x/31/30  = x/x/x/30/31/30 (1:54)
+or b) x/x/x/30/x/30  + x/x/x/x/31/30  = x/x/x/30/31/30 (1:54)
+
+5. a) x/x/x/30/31/30 + x/x/x/30/31/x  = x/x/x/30/31/30 (1:29)
+or b) x/x/x/30/31/30 + x/x/x/30/x/30  = x/x/x/30/31/30 (1:29)
+or c) x/x/x/30/31/30 + x/x/x/x/31/30  = x/x/x/30/31/30 (1:29)
+
+   6. x/x/x/30/31/30 + x/x/x/30/31/30 = x/x/x/30/31/30 (1:16)
+</pre>
+
+<p>About every 16th baby will now have a chance to have Hidden Power FIRE with Base Power at least 65, if any one of the following holds:</p>
+
+<ul>
+<li>Attack IV is an odd number, HP IV and Defense IV are even numbers</li>
+<li>Defense IV is an odd number, HP IV and Attack IV are even numbers</li>
+<li>Attack IV is an even number, HP IV and Defense IV are odd numbers</li>
+<li>Defense IV is an even number, HP IV and Attack IV are odd numbers</li>
+</ul>
+
+<p>This means that the highest IVs you can have for Hidden Power FIRE are either 31/31/30/30/31/30 or 31/30/31/30/31/30.</p>
+
+<h3><a name="water">Hidden Power WATER</a></h3>
+
+<p>You must aim either for x/x/x/30/31/31 or for x/x/x/30/31/30. Here the method to breed for x/x/x/30/31/31 is described, since maximum speed is more important and it has the same chance to get Hidden Power WATER as the other method.</p>
+
+<pre>
+   1.  x/x/x/x/x/31  +  x/x/x/x/x/x   =  x/x/x/x/x/31  (1:4)
+
+   2.  x/x/x/x/31/x  +  x/x/x/x/x/31  = x/x/x/x/31/31  (1:17)
+
+3. a) x/x/x/x/31/31  +  x/x/x/30/x/x  = x/x/x/30/31/x  (1:17)
+or b) x/x/x/x/31/31  +  x/x/x/30/x/x  = x/x/x/30/x/31  (1:17)
+
+4. a) x/x/x/30/31/x  + x/x/x/x/31/31  = x/x/x/30/31/31 (1:54)
+or b) x/x/x/30/x/31  + x/x/x/x/31/31  = x/x/x/30/31/31 (1:54)
+
+5. a) x/x/x/30/31/31 + x/x/x/30/31/x  = x/x/x/30/31/31 (1:29)
+or b) x/x/x/30/31/31 + x/x/x/30/x/31  = x/x/x/30/31/31 (1:29)
+or c) x/x/x/30/31/31 + x/x/x/x/31/31  = x/x/x/30/31/31 (1:29)
+
+   6. x/x/x/30/31/31 + x/x/x/30/31/31 = x/x/x/30/31/31 (1:16)
+</pre>
+
+<p>About every 16th baby will now have a chance to have Hidden Power WATER with Base Power at least 65, if any one of the following holds:</p>
+
+<ul>
+<li>HP IV is an odd number, Attack IV and Defense IV are even numbers</li>
+<li>HP IV, Attack IV and Defense IV are all odd numbers</li>
+</ul>
+
+<p>This means that the highest IVs you can have for Hidden Power WATER with a 31 Speed IV are 31/31/31/30/31/31.</p>
+
+<p>Note that if you breed for Hidden Power ICE or Hidden Power GRASS, you will also have a chance to get Hidden Power WATER.</p>
+
+<h3><a name="psychic">Hidden Power PSYCHIC</a></h3>
+
+<p>You must aim for x/x/x/31/31/30.</p>
+
+<pre>
+   1.  x/x/x/x/x/30  +  x/x/x/x/x/x   =  x/x/x/x/x/30  (1:4)
+
+   2.  x/x/x/x/31/x  +  x/x/x/x/x/30  = x/x/x/x/31/30  (1:17)
+
+3. a) x/x/x/x/31/30  +  x/x/x/31/x/x  = x/x/x/31/31/x  (1:17)
+or b) x/x/x/x/31/30  +  x/x/x/31/x/x  = x/x/x/31/x/30  (1:17)
+
+4. a) x/x/x/31/31/x  + x/x/x/x/31/30  = x/x/x/31/31/30 (1:54)
+or b) x/x/x/31/x/30  + x/x/x/x/31/30  = x/x/x/31/31/30 (1:54)
+
+5. a) x/x/x/31/31/30 + x/x/x/31/31/x  = x/x/x/31/31/30 (1:29)
+or b) x/x/x/31/31/30 + x/x/x/31/x/30  = x/x/x/31/31/30 (1:29)
+or c) x/x/x/31/31/30 + x/x/x/x/31/30  = x/x/x/31/31/30 (1:29)
+
+   6. x/x/x/31/31/30 + x/x/x/31/31/30 = x/x/x/31/31/30 (1:16)
+</pre>
+
+<p>About every 16th baby will now have a chance to have Hidden Power PSYCHIC with Base Power at least 65, if any one of the following holds:</p>
+
+<ul>
+<li>HP IV is an even number, Attack IV and Defense IV are odd numbers</li>
+<li>Attack IV is an even number, HP IV and Defense IV are odd numbers</li>
+<li>Defense IV is an even number, HP IV and Attack IV are odd numbers</li>
+<li>Defense IV is an odd number, HP IV and Attack IV are even numbers</li>
+</ul>
+
+<p>This means that the highest IVs you can have for Hidden Power PSYCHIC are either 31/31/30/31/31/30, 31/30/31/31/31/30 or 30/31/31/31/31/30.</p>
+
+<h3><a name="dragon">Hidden Power DRAGON</a></h3>
+
+<p>You must aim for x/x/x/31/31/31.</p>
+
+<pre>
+   1.  x/x/x/x/x/31  +  x/x/x/x/x/x   =  x/x/x/x/x/31  (1:4)
+
+   2.  x/x/x/x/31/x  +  x/x/x/x/x/31  = x/x/x/x/31/31  (1:17)
+
+3. a) x/x/x/x/31/31  +  x/x/x/31/x/x  = x/x/x/31/31/x  (1:17)
+or b) x/x/x/x/31/31  +  x/x/x/31/x/x  = x/x/x/31/x/31  (1:17)
+
+4. a) x/x/x/31/31/x  + x/x/x/x/31/31  = x/x/x/31/31/31 (1:54)
+or b) x/x/x/31/x/31  + x/x/x/x/31/31  = x/x/x/31/31/31 (1:54)
+
+5. a) x/x/x/31/31/31 + x/x/x/31/31/x  = x/x/x/31/31/31 (1:29)
+or b) x/x/x/31/31/31 + x/x/x/31/x/31  = x/x/x/31/31/31 (1:29)
+or c) x/x/x/31/31/31 + x/x/x/x/31/31  = x/x/x/31/31/31 (1:29)
+
+   6. x/x/x/31/31/31 + x/x/x/31/31/31 = x/x/x/31/31/31 (1:16)
+</pre>
+
+<p>About every 16th baby will now have a chance to have Hidden Power DRAGON with Base Power at least 65, if any one of the following holds:</p>
+
+<ul>
+<li>HP IV is an even number, Attack IV and Defense IV are odd numbers</li>
+<li>Attack IV is an even number, HP IV and Defense IV are odd numbers</li>
+<li>Defense IV is an even number, HP IV and Attack IV are odd numbers</li>
+<li>Defense IV is an odd number, HP IV and Attack IV are even numbers</li>
+</ul>
+
+<p>This means that the highest IVs you can have for Hidden Power DRAGON are either 31/31/30/31/31/31, 31/30/31/31/31/31 or 30/31/31/31/31/31.</p>
+
+<h3><a name="dark">Hidden Power DARK</a></h3>
+
+<p>You must aim for x/x/x/31/31/31.</p>
+
+<p>You must aim for x/x/x/31/31/31.</p>
+
+<pre>
+   1.  x/x/x/x/x/31  +  x/x/x/x/x/x   =  x/x/x/x/x/31  (1:4)
+
+   2.  x/x/x/x/31/x  +  x/x/x/x/x/31  = x/x/x/x/31/31  (1:17)
+
+3. a) x/x/x/x/31/31  +  x/x/x/31/x/x  = x/x/x/31/31/x  (1:17)
+or b) x/x/x/x/31/31  +  x/x/x/31/x/x  = x/x/x/31/x/31  (1:17)
+
+4. a) x/x/x/31/31/x  + x/x/x/x/31/31  = x/x/x/31/31/31 (1:54)
+or b) x/x/x/31/x/31  + x/x/x/x/31/31  = x/x/x/31/31/31 (1:54)
+
+5. a) x/x/x/31/31/31 + x/x/x/31/31/x  = x/x/x/31/31/31 (1:29)
+or b) x/x/x/31/31/31 + x/x/x/31/x/31  = x/x/x/31/31/31 (1:29)
+or c) x/x/x/31/31/31 + x/x/x/x/31/31  = x/x/x/31/31/31 (1:29)
+
+   6. x/x/x/31/31/31 + x/x/x/31/31/31 = x/x/x/31/31/31 (1:16)
+</pre>
+
+<p>About every 16th baby will now have a chance to have Hidden Power DARK with Base Power at least 65, if the HP IV, Attack IV and Defense IV are all odd numbers.</p>
+
+<p>This means that the highest IVs you can have for Hidden Power DARK are 31/31/31/31/31/31.</p>
+
+<h3><a name="steel">Hidden Power STEEL</a></h3>
+
+<p>You must aim either for x/x/x/31/30/31 or for x/x/x/30/31/30. Here the method to breed for x/x/x/31/30/31 is described, since maximum speed is more important and it has the same chance to get Hidden Power STEEL as the other method.</p>
+
+<pre>
+   1.  x/x/x/x/x/31  +  x/x/x/x/x/x   =  x/x/x/x/x/31  (1:4)
+
+   2.  x/x/x/x/30/x  +  x/x/x/x/x/31  = x/x/x/x/30/31  (1:17)
+
+3. a) x/x/x/x/30/31  +  x/x/x/31/x/x  = x/x/x/31/30/x  (1:17)
+or b) x/x/x/x/30/31  +  x/x/x/31/x/x  = x/x/x/31/x/31  (1:17)
+
+4. a) x/x/x/31/30/x  + x/x/x/x/30/31  = x/x/x/31/30/31 (1:54)
+or b) x/x/x/31/x/31  + x/x/x/x/30/31  = x/x/x/31/30/31 (1:54)
+
+5. a) x/x/x/31/30/31 + x/x/x/31/30/x  = x/x/x/31/30/31 (1:29)
+or b) x/x/x/31/30/31 + x/x/x/31/x/31  = x/x/x/31/30/31 (1:29)
+or c) x/x/x/31/30/31 + x/x/x/x/30/31  = x/x/x/31/30/31 (1:29)
+
+   6. x/x/x/31/30/31 + x/x/x/31/30/31 = x/x/x/31/30/31 (1:16)
+</pre>
+
+<p>About every 16th baby will now have a chance to have Hidden Power STEEL with Base Power at least 65, if any one of the following holds:</p>
+
+<ul>
+<li>HP IV is an even number, Attack IV and Defense IV are odd numbers</li>
+<li>HP IV, Attack IV and Defense IV are all odd numbers</li>
+</ul>
+
+<p>This means that the highest IVs you can have for Hidden Power STEEL with a 31 Speed IV are 31/31/31/31/30/31.</p>
+
+<h3><a name="poison">Hidden Power POISON</a></h3>
+
+<p>You must aim for x/x/x/30/30/31.</p>
+
+<p>Breeding for x/x/x/30/30/31:</p>
+
+<pre>
+   1.  x/x/x/x/x/31  +  x/x/x/x/x/x   =  x/x/x/x/x/31  (1:4)
+
+   2.  x/x/x/x/30/x  +  x/x/x/x/x/31  = x/x/x/x/30/31  (1:17)
+
+3. a) x/x/x/x/30/31  +  x/x/x/30/x/x  = x/x/x/30/30/x  (1:17)
+or b) x/x/x/x/30/31  +  x/x/x/30/x/x  = x/x/x/30/x/31  (1:17)
+
+4. a) x/x/x/30/30/x  + x/x/x/x/30/31  = x/x/x/30/30/31 (1:54)
+or b) x/x/x/30/x/31  + x/x/x/x/30/31  = x/x/x/30/30/31 (1:54)
+
+5. a) x/x/x/30/30/31 + x/x/x/30/30/x  = x/x/x/30/30/31 (1:29)
+or b) x/x/x/30/30/31 + x/x/x/30/x/31  = x/x/x/30/30/31 (1:29)
+or c) x/x/x/30/30/31 + x/x/x/x/30/31  = x/x/x/30/30/31 (1:29)
+
+   6. x/x/x/30/30/31 + x/x/x/30/30/31 = x/x/x/30/30/31 (1:16)
+</pre>
+
+<p>About every 16th baby will now have a chance to have Hidden Power POISON with Base Power at least 65, if any one of the following holds:</p>
+
+<ul>
+<li>HP IV is an odd number, Attack IV and303130 + x31lix30.lixx Defense IV are even numbers</li>
+<li>Attack IV is an odd number, HP IV and Defense IV are even numbers</li>
+<li>Defense IV is an odd number, HP IV and Attack IV are even numbers</li>
+<li>Defense IV is an even number, HP IV and Attack IV are odd numbers</li>
+</ul>
+
+<p>This means that the highest IVs you can have for Hidden Power POISON with a 31 Speed IV are 31/31/30/30/30/31.</p>
+
+<h3><a name="perfect_iv_combinations">Perfect Hidden Power IV Combinations</h3>
+
+<p>Here is a list of perfect Hidden Power IV combinations to help breeders see which IVs they are trying to receive on their Pokémon. If you want to make the Pokémon a great user of Trick Room switch the Speed IV from 31 to 3 or 30 to 2.</p>
+
+<dl>
+<dt>E is any of the following even numbers:</dt>
+<dd>2, 6, 10, 14, 18, 22, 26, 30</dd>
+<dt>O is any of the following odd numbers:</dt> 
+<dd>3, 7, 11, 15, 19, 23, 27, 31</dd>
+</dl>
+
+<p>The IVs are listed in HP / Atk / Def / SpA / SpD / Spe</p>
+
+<table class="sortable">
+<caption>Perfect IV Combinations for Hidden Power Fire</caption>
+<thead>
+<tr><th>HP</th><th>Atk</th><th>Def</th><th>SpA</th><th>SpD</th><th>Spe</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>31</td><td>E</td><td>31</td><td>30</td><td>31</td><td>30</td>
+<tr class="a"><td>31</td><td>O</td><td>30</td><td>30</td><td>31</td><td>31</td>
+<tr><td>30</td><td>E</td><td>31</td><td>30</td><td>31</td><td>30</td>
+<tr class="a"><td>30</td><td>O</td><td>30</td><td>30</td><td>31</td><td>30</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Perfect IV Combinations for Hidden Power Ice</caption>
+<thead>
+<tr><th>HP</th><th>Atk</th><th>Def</th><th>SpA</th><th>SpD</th><th>Spe</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>31</td><td>E</td><td>30</td><td>31</td><td>31</td><td>31</td>
+<tr class="a"><td>31</td><td>O</td><td>31</td><td>31</td><td>31</td><td>30</td>
+<tr><td>30</td><td>E</td><td>30</td><td>31</td><td>31</td><td>31</td>
+<tr class="a"><td>30</td><td>O</td><td>30</td><td>31</td><td>31</td><td>31</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Perfect IV Combinations for Hidden Power Grass</caption>
+<thead>
+<tr><th>HP</th><th>Atk</th><th>Def</th><th>SpA</th><th>SpD</th><th>Spe</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>31</td><td>E</td><td>31</td><td>30</td><td>31</td><td>31</td>
+<tr class="a"><td>31</td><td>O</td><td>30</td><td>30</td><td>31</td><td>31</td>
+<tr><td>30</td><td>O</td><td>31</td><td>30</td><td>31</td><td>31</td>
+<tr class="a"><td>30</td><td>O</td><td>30</td><td>30</td><td>31</td><td>31</td>
+<tr><td>30</td><td>E</td><td>31</td><td>30</td><td>31</td><td>31</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Perfect IV Combinations for Hidden Power Ground</caption>
+<thead>
+<tr><th>HP</th><th>Atk</th><th>Def</th><th>SpA</th><th>SpD</th><th>Spe</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>31</td><td>O</td><td>31</td><td>30</td><td>30</td><td>31</td>
+<tr class="a"><td>30</td><td>E</td><td>30</td><td>31</td><td>30</td><td>30</td>
+<tr><td>31</td><td>E</td><td>31</td><td>30</td><td>30</td><td>31</td>
+<tr class="a"><td>30</td><td>O</td><td>31</td><td>30</td><td>30</td><td>31</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Perfect IV Combinations for Hidden Power Fighting</caption>
+<thead>
+<tr><th>HP</th><th>Atk</th><th>Def</th><th>SpA</th><th>SpD</th><th>Spe</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>30</td><td>O</td><td>30</td><td>30</td><td>30</td><td>30</td>
+<tr class="a"><td>30</td><td>E</td><td>31</td><td>30</td><td>30</td><td>30</td>
+<tr><td>30</td><td>O</td><td>30</td><td>30</td><td>30</td><td>30</td>
+<tr class="a"><td>30</td><td>E</td><td>30</td><td>30</td><td>30</td><td>30</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Perfect IV Combinations for Hidden Power Water</caption>
+<thead>
+<tr><th>HP</th><th>Atk</th><th>Def</th><th>SpA</th><th>SpD</th><th>Spe</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>31</td><td>O</td><td>31</td><td>30</td><td>31</td><td>30</td>
+<tr class="a"><td>31</td><td>E</td><td>30</td><td>30</td><td>31</td><td>31</td>
+<tr><td>30</td><td>O</td><td>31</td><td>30</td><td>31</td><td>30</td>
+<tr class="a"><td>30</td><td>E</td><td>30</td><td>30</td><td>31</td><td>31</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Perfect IV Combinations for Hidden Power Electric</caption>
+<thead>
+<tr><th>HP</th><th>Atk</th><th>Def</th><th>SpA</th><th>SpD</th><th>Spe</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>31</td><td>O</td><td>31</td><td>30</td><td>31</td><td>31</td>
+<tr class="a"><td>31</td><td>E</td><td>30</td><td>31</td><td>31</td><td>30</td>
+<tr><td>30</td><td>O</td><td>30</td><td>31</td><td>31</td><td>30</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Perfect IV Combinations for Hidden Power Poison</caption>
+<thead>
+<tr><th>HP</th><th>Atk</th><th>Def</th><th>SpA</th><th>SpD</th><th>Spe</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>31</td><td>O</td><td>30</td><td>30</td><td>30</td><td>31</td>
+<tr class="a"><td>30</td><td>O</td><td>30</td><td>30</td><td>30</td><td>31</td>
+<tr><td>30</td><td>E</td><td>31</td><td>30</td><td>30</td><td>31</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Perfect IV Combinations for Hidden Power Flying</caption>
+<thead>
+<tr><th>HP</th><th>Atk</th><th>Def</th><th>SpA</th><th>SpD</th><th>Spe</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>31</td><td>O</td><td>31</td><td>30</td><td>30</td><td>30</td>
+<tr class="a"><td>30</td><td>E</td><td>30</td><td>30</td><td>30</td><td>31</td>
+<tr><td>31</td><td>E</td><td>31</td><td>30</td><td>30</td><td>30</td>
+<tr class="a"><td>30</td><td>O</td><td>31</td><td>30</td><td>30</td><td>30</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Perfect IV Combinations for Hidden Power Psychic</caption>
+<thead>
+<tr><th>HP</th><th>Atk</th><th>Def</th><th>SpA</th><th>SpD</th><th>Spe</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>31</td><td>E</td><td>31</td><td>31</td><td>31</td><td>30</td>
+<tr class="a"><td>31</td><td>O</td><td>30</td><td>31</td><td>31</td><td>30</td>
+<tr><td>30</td><td>O</td><td>31</td><td>31</td><td>31</td><td>30</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Perfect IV Combinations for Hidden Power Bug</caption>
+<thead>
+<tr><th>HP</th><th>Atk</th><th>Def</th><th>SpA</th><th>SpD</th><th>Spe</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>31</td><td>O</td><td>31</td><td>31</td><td>30</td><td>30</td>
+<tr class="a"><td>31</td><td>E</td><td>30</td><td>31</td><td>30</td><td>31</td>
+<tr><td>30</td><td>O</td><td>31</td><td>31</td><td>30</td><td>30</td>
+<tr class="a"><td>30</td><td>E</td><td>30</td><td>31</td><td>30</td><td>31</td>
+<tr><td>31</td><td>E</td><td>31</td><td>31</td><td>30</td><td>30</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Perfect IV Combinations for Hidden Power Rock</caption>
+<thead>
+<tr><th>HP</th><th>Atk</th><th>Def</th><th>SpA</th><th>SpD</th><th>Spe</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>31</td><td>O</td><td>30</td><td>31</td><td>30</td><td>30</td>
+<tr class="a"><td>30</td><td>E</td><td>31</td><td>31</td><td>30</td><td>30</td>
+<tr><td>31</td><td>E</td><td>30</td><td>31</td><td>30</td><td>30</td>
+<tr class="a"><td>30</td><td>O</td><td>30</td><td>31</td><td>30</td><td>30</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Perfect IV Combinations for Hidden Power Ghost</caption>
+<thead>
+<tr><th>HP</th><th>Atk</th><th>Def</th><th>SpA</th><th>SpD</th><th>Spe</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>31</td><td>O</td><td>30</td><td>31</td><td>30</td><td>31</td>
+<tr class="a"><td>31</td><td>E</td><td>31</td><td>31</td><td>30</td><td>31</td>
+<tr><td>30</td><td>O</td><td>30</td><td>31</td><td>30</td><td>31</td>
+<tr class="a"><td>30</td><td>E</td><td>31</td><td>31</td><td>30</td><td>31</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Perfect IV Combinations for Hidden Power Dragon</caption>
+<thead>
+<tr><th>HP</th><th>Atk</th><th>Def</th><th>SpA</th><th>SpD</th><th>Spe</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>31</td><td>E</td><td>31</td><td>31</td><td>31</td><td>31</td>
+<tr class="a"><td>31</td><td>O</td><td>30</td><td>31</td><td>31</td><td>31</td>
+<tr><td>30</td><td>O</td><td>31</td><td>31</td><td>31</td><td>31</td>
+<tr class="a"><td>30</td><td>E</td><td>31</td><td>31</td><td>31</td><td>31</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Perfect IV Combinations for Hidden Power Dark</caption>
+<thead>
+<tr><th>HP</th><th>Atk</th><th>Def</th><th>SpA</th><th>SpD</th><th>Spe</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>31</td><td>O</td><td>31</td><td>31</td><td>31</td><td>31</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Perfect IV Combinations for Hidden Power Steel</caption>
+<thead>
+<tr><th>HP</th><th>Atk</th><th>Def</th><th>SpA</th><th>SpD</th><th>Spe</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>31</td><td>O</td><td>31</td><td>31</td><td>30</td><td>31</td>
+<tr class="a"><td>30</td><td>E</td><td>30</td><td>30</td><td>31</td><td>30</td>
+<tr><td>31</td><td>E</td><td>30</td><td>30</td><td>31</td><td>30</td>
+<tr class="a"><td>30</td><td>O</td><td>31</td><td>31</td><td>30</td><td>31</td>
+</tr>
+</tbody>
+</table>

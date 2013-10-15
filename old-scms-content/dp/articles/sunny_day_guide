@@ -1,0 +1,447 @@
+[title]
+A Guide to DPP Sunny Day Teams
+[head]
+<meta name="description" content="Information on how to build and battle with Sunny Day teams, thank to Gen. Empoleon and Venom." />
+[page]
+<div class="author"> by <a href="/forums/member.php?u=20899">Gen. Empoleon</a> and <a href="/forums/member.php?u=15329">Venom</a>. Art by <a href="/forums/member.php?u=106838">jessifer</a></div>
+
+<img src="http://www.smogon.com/media/upload/dp/articles/sunny.png" />
+
+<ol class="toc">
+<li><a href="#intro">Introduction</a></li>
+<li><a href="#getting">Getting to know Sunny Day</a></li>
+<li><a href="#speeds">Sunny Day Speeds</a></li>
+<li><a href="#building">Sunny Day Team Building</a>
+<ul>
+<li><a href="#lead">The Lead</a></li>
+<li><a href="#abusers">Sunny Day Abusers</a></li>
+<li><a href="#backup">Sunny Day Back&mdash;up</a></li>
+<li><a href="#support">Support</a></li>
+</ul>
+</li>
+<li><a href="#strategies">Strategies</a></li>
+<li><a href="#check">Sunny Day Team Checklist</a></li>
+<li><a href="#ubers">Ubers</a></li>
+<li><a href="#pokemon">Sunny Day Pokémon</a>
+<ul>
+<li><a href="#sunleads">Sunny Day Leads</a></li>
+<li><a href="#sunsweep">Sunny Day Sweepers</a></li>
+<li><a href="#sunsupport">Sunny Day Support</a></li>
+</ul>
+</li>
+<li><a href="#threats">Threats</a></li>
+<li><a href="#conclusion">Conclusion</a></li>
+</ol>
+
+<h2><a name="intro">Introduction</a></h2>
+
+<p>Sunny Day seems to be the forgotten weather in Pokémon thanks to the introduction of Abomasnow, now providing teams with infinite hail, and also the new field effect Trick Room. While rain, hail, and sandstorm teams are used quite often, Sunny Day teams are left in the dust, trying to gain acknowledgment in any metagame that they can. Sadly, as the only Pokémon that can set up infinite sun is banished to Ubers, Sunny Day teams have to set up by using the move itself.</p>
+
+<p>Sunny Day has potential in both in UU and OU if used correctly. It is often said that Sunny Day is "not strong enough," or sometimes "not worth setting up," but this simply isn't true. The simple fact that Sunny Day has the ability to boost certain Pokémon's Speed thanks to their abilities makes it just as effective as rain teams, and those teams, of course have potential. The major thing with sun is that there are only a handful of Pokémon that can abuse it.</p>
+
+<p>With all hope, after reading this guide you may be able to build a good Sunny Day team on your own.</p>
+
+<h2><a name="getting">Getting to know Sunny Day</a></h2>
+
+<p>Like it was mentioned previously, Sunny Day can only be summoned into the field by using the move Sunny Day. Another way you can set up Sunny Day is by using the ability Drought, which sadly, is only seen in Ubers by Groudon, who will never get to show its face outside of that place.</p>
+
+<p>Sunny Day raises Fire-type moves' damage by 50% and causes Water-type moves to do half of their original damage. The healing moves Synthesis, Moonlight, and Morning Sun heal 2/3 of the user's maximum HP. Sunny Day also decreases Thunder's accuracy from 70% to 50%, making Thunder a very poor option to utilize while Sunny Day is in play. It lasts 5 turns (8 with the use of a Heat Rock), and no Pokémon can be frozen while Sunny Day is in effect, meaning Ice-type moves like Ice Beam cannot induce a freeze. Sunny Day's most important effect is probably the aptitude to double the Speed of Pokémon with the ability Chlorophyll, which can make them potential sweepers. While you will generally find them lacking in Speed, Pokémon with the ability Solar Power can become much more powerful sweepers, gaining a 50% power boost in their Special Attack in return for being sapped 10% of their HP every turn when the sun is shining.</p>
+
+<p>You will probably see more Sunny Day action in UU than you will in OU, since most Pokémon who benefit from Sunny Day are UU material due to their lesser Speed and Attack stats, though they can also be used in OU as well.</p>
+
+<h2><a name="speeds">Sunny Day Speed</a></h2>
+
+<p>There are only a handful of Pokémon that can abuse Speed with Chlorophyll, which will be listed here:</p>
+
+<ul>
+<li><a href="/dp/pokemon/jumpluff">Jumpluff - base 110</a></li>
+<li><a href="/dp/pokemon/shiftry">Shiftry - base 80</a></li>
+<li><a href="/dp/pokemon/victreebel">Victreebel - base 70</a></li>
+<li><a href="/dp/pokemon/exeggutor">Exeggutor - base 55</a></li>
+<li><a href="/dp/pokemon/tropius">Tropius - base 51</a></li>
+<li><a href="/dp/pokemon/bellossom">Bellossom - base 50</a></li>
+<li><a href="/dp/pokemon/tangrowth">Tangrowth - base 50</a></li>
+<li><a href="/dp/pokemon/vileplume">Vileplume - base 50</a></li>
+<li><a href="/dp/pokemon/sunflora">Sunflora - base 30</a></li>
+</ul>
+
+<p>As you can see, their base Speed stats are rather low, but they can manage to fix that with Sunny Day, which will help them outspeed many things, though more so in UU than they will in OU. When using Sunny Day in OU, it would be best to run at least 209 Speed on your Chlorophyll Pokémon, since with the sun shining, you are now faster than a positive nature Choice Scarf Heatran, a Pokémon which can spell trouble for your team with its now double STAB-boosted Fire-type attacks.</p>
+
+<h3>Speeds to hit</h3>
+
+<table class="sortable">
+<thead>
+<tr>
+    <th>Pokémon</th>
+    <th>Speed</th>
+    <th>Speed to outrun in sun</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+    <td>+ve +1 Azelf</td>
+    <td>542</td>
+    <td>272</td>
+</tr>
+<tr class="a">
+    <td>+ve +1 Gengar</td>
+    <td>526</td>
+    <td>263</td>
+</tr>
+<tr>
+    <td>+ve +1 Infernape</td>
+    <td>519</td>
+    <td>260</td>
+</tr>
+<tr>
+    <td>+1 Gengar</td>
+    <td>478</td>
+    <td>240</td>
+</tr>
+<tr class="a">
+    <td>+ve Ninjask</td>
+    <td>460</td>
+    <td>231</td>
+</tr>
+<tr class="a">
+    <td>+1 Primeape</td>
+    <td>433</td>
+    <td>217</td>
+</tr>
+<tr>
+    <td>+1 Lucario</td>
+    <td>418</td>
+    <td>210</td>
+</tr>
+<tr class="a">
+    <td>+ve +1 Heatran</td>
+    <td>417</td>
+    <td>209</td>
+</tr>
+<tr>
+    <td>+ve Electrode</td>
+    <td>416</td>
+    <td>209</td>
+</tr>
+<tr class="a">
+    <td>+1 Heracross</td>
+    <td>403</td>
+    <td>202</td>
+</tr>
+<tr>
+    <td>+ve Jolteon</td>
+    <td>394</td>
+    <td>198</td>
+</tr>
+</tbody>                                                              
+</table>
+
+<p>As you may be able to tell, many of the Chlorophyll Pokémon do not have the Speed to match some of these even with sun up, but it is recommended you carry at least one Pokémon which can outspeed a positive nature +1 Dragonite, a Pokémon which can get that boost rather easily. It is then suggested that your team has enough Speed to outrun positive nature +1 Heatran, as with sun up, Heatran becomes even more of a threat for a team carrying many Grass-type Pokémon.</p>
+
+<h2><a name="building">Sunny Day Team Building</a></h2>
+
+<p>This is the part where you will learn how to build your Sunny Day team. This part will go step-by-step telling you how to start shape up a good Sunny Day team.</p>
+
+<h3><a name="lead">The Lead</a></h3>
+
+<p>This is probably one of the most important parts when building the Sunny Day team, because this is the Pokémon that will lead the team and attempt to set up Sunny Day. In OU, you have the options of using a lead that can use the famous Stealth Rock and can possibly let you set up Sunny Day as well. Most importantly, you want a Pokémon that can make use of the move U-turn if possible. U-turn will ease prediction slightly, as you will be able to see exactly what Pokémon you will be facing and can send out the appropriate sweeper without fear of your opponent switching to its counter on the same turn. A slow U-turn user is especially useful as it can take an attack before U-turning, enabling your switch-in to enter battle for free. Whatever your lead is, it is strongly recommended that you use Heat Rock as an item on that certain Pokémon, to ensure eight full turns of glorious Sunny Day for your sweepers.</p>
+
+<h3><a name="abusers">Sunny Day Abusers</a></h3>
+
+<p>These are the kind of Pokémon that abuse their ability, Chlorophyll, with the help of Sunny Day, making them potential sweepers. Also thanks to Sunny Day, Fire-type Pokémon's STAB attacks are increased by 50% because of the sun. On top of that, their weakness to Water-type attacks merely becomes neutral damage because sun weakens Water-type moves; though you should be careful of STAB Water-type attacks all the same. Solar Power Pokémon can also make use of the sun; though most of them are lacking in Speed, that can be made up with the help of Choice Scarf.</p>
+
+<h3><a name="backup">Sunny Day Back-up</a></h3>
+
+<p>Back-up Pokémon who can also set up Sunny Day are valuable. A Pokémon such as this is better when it can counter weather changers, such as Abomasnow and Tyranitar. This Pokémon could also be used to take advantage of the sun with the ability Leaf Guard, stopping status from hindering its tanking abilities.</p>
+
+<h3><a name="support">Support</a></h3>
+
+<p>When using weather teams, especially Sunny Day, there will be certain Pokémon which will always give you trouble. You may say that you can revenge the Pokémon easily if the sun is shining, but if the sun is set, then who do you switch to? Having a back-up plan is never a bad idea, and it's generally better to cover all the Pokémon which can threaten your team, since it's easier to sweep with them removed.</p>
+
+<h2><a name="strategies">Strategies</a></h2>
+
+<p>Plans for Sunny Day are easy; there's nothing to them really. You will be abusing Fire- and Grass-type Pokémon, obtaining Speed boosts and boosted Fire-type attacks. As most Grass-type Pokémon will receive some Speed boost with Sunny Day and have access to Leech Seed and Substitute, Leech Seed stalling isn't a bad idea. This strategy will annoy your opponent to no end. Whenever they break a Substitute, you'll set another one up while slowly sapping their HP away. It is even better if you run this strategy with Toxic Spikes as your opponent will lose more and more HP each round; that is, of course, if it isn't a Flying-, Steel-, or Poison-type or a Pokémon with the ability Levitate, Magic Guard, or Immunity. You should feel safe running Toxic Spikes, as Sunny Day teams tend to have Fire-type Pokémon, which can help remove Steel-type Pokémon that are immune to Toxic Spikes, though you will find that offensive teams are better than teams that try to stall with Sunny Day.</p>
+
+<p>You can always go all-out offense with Sunny Day, which is probably the best strategy there is. If you plan on doing an offensive team, just make sure you cover big weaknesses that Sunny Day teams encounter the most. Those weaknesses include Dragon-type Pokémon, which are resistant to Fire- and Grass-type attacks. Heatran also proves to be a notable threat, resisting Grass-type attacks and absorbing your Fire-type attacks to increase its own power.</p>
+
+<h2><a name="check">Sunny Day Team Checklist</a></h2>
+
+<p>Whether you are playing OU or UU, you generally need the same things to run a successful Sunny Day team. Though you may not need them all, having the majority of them is advised.</p>
+
+<dl>
+<dt><strong>Have a resistance for bulky Water-types</strong></dt>
+
+<dd>Simple in thought and even easier to pull off in this kind of team. With your main sweepers being Grass-type Pokémon, they can use STAB SolarBeam or Grass Knot to handle bulky Water-type Pokémon with ease. If, for an odd reason, you want to run a Sunny Day team without a Grass-type, this will be a little more difficult. In UU, running a Slowbro with Grass Knot can handle other Water-types rather easily, while in OU Starmie can come in and scare Water-types away with Thunderbolt.</dd>
+
+<dt><strong>Have something to handle Fire-type Pokémon and Flash Fire</strong></dt>
+
+<dd>It doesn't take a rocket scientist to know that when you are boosting Fire-type moves by 50%, Fire-type Pokémon become increasingly dangerous. This is truer when the opposing Pokémon also has the ability Flash Fire. It is often a good idea to run a sun abuser with Hidden Power Ground or Earthquake. Tangrowth, a very good Sunny Day abuser, can outspeed a max Speed Heatran, with the sun up, and OHKO with Earthquake, leaving it to be able to run Hidden Power Ice to fend off Grass- and Dragon-type Pokémon. Carrying a Water-type isn't a bad idea, and though their STAB is weakened in the sun, it should deal more than enough to KO Fire-types if Stealth Rock is down. Swampert can also counter Fire-type Pokémon easily; it can use its STAB Ground-type attacks to hit all the Fire-type Pokémon, besides Moltres and Charizard, for super effective damage.</dd>
+
+<dt><strong>Have enough Sunny Day Users</strong></dt>
+
+<dd>The best Sunny Day team can go wrong if it doesn't have enough Pokémon which can set up Sunny Day. Your sweepers will no longer have enough power or Speed to be able to sweep effectively. How much Sunny Day should you carry? No more than three or four Pokémon on a team should run it. With Grass-type Pokémon not carrying that great of an attacking movepool, they need every slot they can get to sweep effectively. Pokémon such as Moltres can easily set up Sunny Day and also take advantage of it through their STAB.</dd>
+
+<dt><strong>Have a Rapid Spinner</strong></dt>
+
+<dd>Rapid Spin is always useful on a team, removing hazards such as Stealth Rock and Spikes which hinder the amount of times you can switch in. This is especially true for Fire-types who take quite a bit of damage from Stealth Rock, especially Moltres. If you want to run Moltres or any Fire-type weak to Rock-type moves then a Pokémon which can Rapid Spin would be extremely beneficial to your team.</dd>
+
+<dt><strong>Have a weather changer "counter"</strong></dt>
+
+<dd>Nothing is worse than when you set up weather, but then it is suddenly stripped away because of Tyranitar, Hippowdon, and Abomasnow. Removing these Pokémon is one step closer to victory. Tyranitar and Hippowdon fear STAB Grass-type attacks, so having Pokémon which can use Grass Knot will deal heavy damage to them as they switch in. Abomasnow can be handled by Fire-type Pokémon, for the most part, though hail and Life Orb damage may take a toll on them. Having a Pokémon who can switch in on these threats is a big help. Thick Fat Hariyama can switch into Fire- and Ice-type attacks easily thanks to its ability and massive HP stat; Hariyama also resists Rock- and Dark-type attacks, which are Tyranitar's STABs.</dd>
+</dl>
+
+<h2><a name="ubers">Ubers</a></h2>
+
+<p>Sunny Day is an excellent concept in OU and UU, but is it viable in Ubers? With Groudon, you no longer require a Pokémon on your team to use Sunny Day, as Groudon's ability, Drought, provides infinite sunlight. Ubers is an interesting twist to a Sunny Day team because it requires different Pokémon to counter. Such an example is Kyogre: its monstrous Special Defense stat, Water typing, and Drizzle ability make Sunny Day teams harder to use. Rayquaza is another threat to Sunny Day teams. Rayquaza's ability, Air Lock, nullifies all weather effects on the field. With the correct Pokémon and ample prediction, this can be handled. Keep in mind that Ubers is very unpredictable, but this shouldn't hinder your strategy. "Drought-abusing Teams," as we'll call it, requires the following:</p>
+
+<ul>
+<li>A Pokémon that can prevent Stealth Rock from being laid down.</li>
+<li>A Pokémon that can lay down Stealth Rock for the team.</li>
+<li>Groudon for infinite sun.</li>
+<li>Moves that counter threats; Kyogre and Rayquaza in particular.</li>
+<li>Pokémon to abuse the weather.</li>
+</ul>
+
+<p>A good lead would be either Deoxys-S or Scarf Darkrai. The former is the better decision, as Deoxys-S can set down Stealth Rock and Spikes, giving your abusers a much easier time to sweep. The combination of these two prevent Stealth Rock from being laid; whether the opponent depends on Stealth Rock being set up early or later in the match. Groudon should be considered next. The ParaDancer set is highly recommended to slow the opponent's switch-ins, but other sets such as the Rock Polish or Support sets work. Ho-Oh becomes a very obvious Pokémon to use in this specific kind of team. STAB Sacred Fire is hard to shrug off, especially when it's backed up with a 50% chance of inflicting a burn. Life Orb or Choice Scarf are the two items to run on Ho-Oh, but running Roost on either is a good idea to remove any damage it may have taken switching in. Forretress is a Pokémon to also use alongside Ho-Oh, removing the entry hazard Stealth Rock, which greedily strips 50% of Ho-Oh's max HP. A mixed Palkia can be a wonderful Pokémon to use along with Groudon, abusing the sun to increase its Fire Blasts' power and to also get superb coverage with its STAB Dragon-type attack, Spacial Rend. A 252 Attack Palkia with Lustrous Orb will always 2HKO a Kyogre with Outrage, along with Blissey, two Pokémon which wall most Sunny Day abusers.</p>
+
+<p>The final Pokémon is hard to choose from. Chlorophyll Pokémon such as Exeggutor, Shiftry, and Jumpluff are good options to choose from. Exeggutor has a 125 Special Attack stat, can outpace Deoxys-A with a positive Speed nature and 204 EVs placed into Speed, and Explode when necessary. Shiftry is able to Explode as well, and its second STAB is useful for damaging the ubiquitous Psychic-types in Ubers. Its lower Special Attack stat is noticeable, however, so using Nasty Plot to boost your Special Attack isn't a bad idea. Jumpluff is very effective, being able to Encore opposing Groudon into Earthquake and using Substitute and Leech Seed to cause your opponent nothing but grief. This is doubly true with Toxic Spikes in play as most teams do not carry Pokémon that can remove themselves of status.</p>
+
+<h2><a name="pokemon">Sunny Day Pokémon</a></h2>
+
+<p>This guide will be listing Pokémon that are very helpful Pokémon in Sunny Day conditions.</p>
+
+<h3><a name="sunleads">Sunny Day Leads</a></h3>
+
+<p><strong>OU:</strong></p>
+
+<dl>
+
+
+<img src="http://www.smogon.com/download/sprites/dp/169.png" alt="" />
+<dt><a href="/dp/pokemon/crobat">Crobat</a></dt> 
+<dd>Crobat can set up Sunny Day rather easily thanks to its high Speed and the ability to fire off a quick Hypnosis to incapacitate the opposing Pokémon. On top of that, Crobat also has the move U-turn to allow your sweeper easy passage into the field once Sunny Day is set up. Crobat has access to Roost, making it a long lasting set-up Pokémon.</dd>
+
+
+<img src="http://www.smogon.com/download/sprites/dp/487.png" alt="" />
+<dt><a href="/dp/pokemon/azelf">Azelf</a></dt>
+<dd>Just like the Rain Dance lead, Azelf makes a great Sunny Day lead. This is thanks to its great Speed stat and the move Taunt, which can also prevent the opponent from using Taunt themselves or setting up Stealth Rock. Azelf can also use U-turn which can allow it to switch back in once your sun has worn itself out. On top of all these things Azelf can also support the team by setting up both Reflect and Light Screen or Exploding in the opponent's face, thus having the possibility of taking down one of the opponent's Pokémon and clearing a path for one of your sweepers to come in safely.</dd>
+
+
+<img src="http://www.smogon.com/download/sprites/dp/442.png" alt="" />
+<dt><a href="/dp/pokemon/bronzong">Bronzong</a></dt>
+<dd>Bronzong, most commonly seen setting up Rain Dance teams, also possesses the ability to learn Sunny Day, making it a good choice for a lead in OU Sunny Day teams. With its amazing bulk and the move Hypnosis, Bronzong is one of those Pokémon that can ensure Sunny Day's set up, possibly for eight turns if it has Heat Rock. Bronzong can easily find itself coming in time after time to set up Sunny Day, and when its HP gets too low, Bronzong can Explode.</dd>
+
+
+<img src="http://www.smogon.com/download/sprites/dp/385.png" alt="" />
+<dt><a href="/dp/pokemon/jirachi">Jirachi</a></dt>
+<dd>Jirachi makes a good Sunny Day user. Like Bronzong, Jirachi is able to set up Sunny Day and has access to Stealth Rock. The most unique thing that Jirachi has is probably Wish, which will provide healing as team support, something that is extremely helpful in every team. Jirachi can also U-turn, getting your sweepers in without a scratch.</dd>
+
+
+<img src="http://www.smogon.com/download/sprites/dp/395.png" alt="" />
+<dt><a href="/dp/pokemon/infernape">Infernape</a></dt>
+<dd>Infernape is a very decent Pokémon to lead off with as it will guarantee either Stealth Rock or Sunny Day get off or score an early-game KO. With Fake Out, Fire Blast, Close Combat, Stealth Rock, and Sunny Day, the options are seemingly endless when it comes to Infernape's prowess as a support Pokémon, though you cannot run every move on Infernape, so choosing what is best for your team is vital.</dd>
+</dl>
+
+<p><strong>UU:</strong></p>
+
+<dl>
+
+<img src="http://www.smogon.com/download/sprites/dp/189.png" alt="" />
+<dt><a href="/dp/pokemon/jumpluff">Jumpluff</a></dt>
+<dd>Is one of the fastest Pokémon in UU that can also learn Sunny Day. Jumpluff makes a great option as a lead, not only because of its outstanding Speed, but also its status-inflicting moves, such as Sleep Powder and Stun Spore. Jumpluff also has access to U-turn, which allows it to switch safely from harm right after setting up the sun. In short, this gives Jumpluff the ability to set up Sunny Day again if needed. Encore is another surprise move on Jumpluff, being able to get the opponent stuck in one move can allow Jumpluff to proceed and set up Sunny Day.</dd>
+
+
+<img src="http://www.smogon.com/download/sprites/dp/297.png" alt="" />
+<dt><a href="/dp/pokemon/hariyama">Hariyama</a></dt>
+<dd>Is one Pokémon which can almost always last throughout a match. Thanks to its ability, Thick Fat, Hariyama can switch into boosted Fire-type attacks more easily than many other Pokémon can. On top of this, Hariyama can handle Clefable, a Pokémon who is hard to get around when running Sunny Day teams.</dd>
+
+
+<img src="http://www.smogon.com/download/sprites/dp/146.png" alt="" />
+<dt><a href="/dp/pokemon/moltres">Moltres</a></dt>
+<dd>Moltres is probably the Pokémon that will be scaring off most Steel-types such as Registeel in UU, but it can also potentially sweep as well thanks to its sun-boosted Fire-type STABs. You may want to have Rapid Spin support on your team to remove Stealth Rock if you're thinking about using Sunny Day and U-turn in tandem since, thanks to Moltres's typing, will cause it to lose 50% of its health every switch-in.</dd>
+
+
+<img src="http://www.smogon.com/download/sprites/dp/485.png" alt="" />
+<dt><a href="/dp/pokemon/uxie">Uxie</a></dt>
+<dd>The most bulky of the legendary pixies. Uxie is therefore able to almost guarantee a Sunny Day thanks to its phenomenal defenses. A lot of bulk means you have the capability of setting up Stealth Rock and Light Screen or Reflect without worrying about taking a hit. Unlike Azelf, Uxie has Yawn which can phaze out opposing Pokémon which are afraid of Yawn. Uxie, unlike Azelf, has to be very wary of Taunt, as it does not carry the Speed to stop the opponent from using Taunt against you.</dd>
+
+
+<img src="http://www.smogon.com/download/sprites/dp/429.png" alt="" />
+<dt><a href="/dp/pokemon/ambipom">Ambipom</a></dt>
+<dd>With a lightning fast Fake Out, Ambipom can remove Focus Sash from other lead Pokémon then set up Sunny Day with comfort. On top of this, Ambipom has U-turn, which can allow a sweeper of yours to come in safely.</dd>
+
+
+<img src="http://www.smogon.com/download/sprites/dp/59.png" alt="" />
+<dt><a href="/dp/pokemon/arcanine">Arcanine</a></dt>
+<dd>Arcanine is a valuable support and lead to Sunny Day teams. With it's very respectable bulk, Arcanine can set up Sunny Day with ease. On top of that it can carry moves such as Will-O-Wisp or Toxic to cripple sweepers that switch in on it.</dd>
+</dl>
+
+<h2><a name="sunsweep">Sunny Day Sweepers</a></h2>
+
+<p><strong>Note: Although most of the useful Sunny Day sweepers are listed for UU, the following Pokémon are fully capable of performing with excellence in OU as well, with the support of Sunny Day of course.</strong></p>
+
+<p><strong>OU:</strong></p>
+
+<dl>
+<img src="http://www.smogon.com/download/sprites/dp/395.png" alt="" />
+<dt><a href="/dp/pokemon/infernape">Infernape</a></dt>
+<dd>Infernape makes a powerful sweeper all around. Being able to hit hard with both attacking stats makes this Pokémon a great option. Infernape's STAB Fire-type attacks can become deadlier under Sunny Day, as they get a 50% boost from Sunny Day, making them its most powerful weapons. Hidden Power Ice hits Dragon-types while Grass Knot prevents it from being walled by bulky Water-types. As for Blissey, Close Combat will eliminate her as a threat.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/490.png" alt="" />
+<dt><a href="/dp/pokemon/heatran">Heatran</a></dt>
+<dd>Heatran is an awesome Pokémon with Steel / Fire typing, making it able to switch into Dragon-type attacks and many special attacks that are thrown at it. Heatran makes a good use of both Choice Specs and Choice Scarf and also has access to SolarBeam like most other Fire-type Pokémon, making Heatran another Pokémon that will enjoy Sunny Day for the 50% boost of its Fire-type attacks. Flash Fire allows Heatran to come in on opposing Fire-types and ruin their sweep entirely.</dd>
+</dl>
+
+<p><strong>UU:</strong></p>
+
+<dl>
+<img src="http://www.smogon.com/download/sprites/dp/470.png" alt="" />
+<dt><a href="/dp/pokemon/tangrowth">Tangrowth</a></dt>
+<dd>Tangrowth is a sturdy Pokémon; pretty much the best Grass-type when it comes to defensive capabilities. Unlike Celebi, Tangrowth does not learn Recover, but it's able to learn Synthesis and Morning Sun, which heal 66% of its HP in sunlight. Tangrowth's mixed set is something that is hard to handle under Sunny Day conditions, so it is something to consider when using it. The pure physical Swords Dance set is also devastating (at least in UU) and deserves a mention. Swords Dance / Earthquake / Power Whip / Rock Slide is absolutely perfect coverage.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/103.png" alt="" />
+<dt><a href="/dp/pokemon/exeggutor">Exeggutor</a></dt>
+<dd>Of all the Chlorophyll Pokémon, Exeggutor has the highest Special Attack, making it a pretty effective sweeper under Sunny Day. With the use of Chlorophyll, Exeggutor has the capability to reach a monster 418 Speed stat with max Speed and a neutral nature, which outspeeds Choice Scarf Heatran and others. Furthermore, Exeggutor has access to moves like SolarBeam, Stun Spore, and Sleep Powder, making it a pretty effective Pokémon. It also has access to Explosion, so once Exeggutor can't go on anymore, it can Explode and possibly take down another Pokémon.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/275.png" alt="" />
+<dt><a href="/dp/pokemon/shiftry">Shiftry</a></dt>
+<dd>Shiftry is one of those Pokémon that can play both the role of a physical or special sweeper, though it really wants more Special Attack and Speed. Shiftry's part Dark-type means it has the move, Dark Pulse, giving you a chance to eliminate things like Uxie and Mesprit without having to pack something specifically for both these Pokémon.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/71.png" alt="" />
+<dt><a href="/dp/pokemon/victreebel">Victreebel</a></dt>
+<dd>Victreebel is one of the Pokémon that shines the most in a Sunny Day team. Victreebel is much better than Shiftry at attacking both physical and special walls thanks to base 105 Attack and base 100 Special Attack, which is something that shouldn't be overlooked. It has access to Swords Dance, which makes it a pretty effective physical sweeper considering it has the ability Chlorophyll. Packed with Swords Dance, it can destroy a lot if used correctly. On top of that Victreebel can also use Sucker Punch, giving it some usefulness when the sun isn't out either. I would emphasize Sleep Powder here; one of the more effective Victreebel sets is Swords Dance / Sleep Powder / Leaf Blade / Sucker Punch or Return.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/229.png" alt="" />
+<dt><a href="/dp/pokemon/Houndoom">Houndoom</a></dt>
+<dd>Base 110 Special Attack is not bad at all. Houndoom becomes a beast when given Choice Specs. With access to SolarBeam and the boost of its Fire Blast, thanks to Sunny Day, it can be pretty dangerous. Though its Speed can be a let down for some, its ability to counter Psychic-types such as Azelf, thanks to its part Dark-type, shouldn't be overlooked. It also has the somewhat gimmicky Beat Up to beat Chansey or Blissey.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/472.png" alt="" />
+<dt><a href="/dp/pokemon/magmortar">Magmortar</a></dt>
+<dd>Magmortar is another great Fire-type Pokémon that should be an option for a Sunny Day, mostly because of its possible sweep with a Mixed Attacker set, something that is often overlooked. Magmortar, like Infernape, can hit both physical and special walls hard, so it's capable of running both a Choice Band and Choice Specs set, but with its access to SolarBeam, a 125 Special Attack stat, and the boost from Sunny Day, Fire Blast means danger. Magmortar does not really care about common Flash Fire Pokémon such as Heatran and Houndoom like other Fire-types, though, due to its access to Focus Blast and Cross Chop, though both of the attacks have less than stellar accuracy.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/157.png" alt="" />
+<dt><a href="/dp/pokemon/typhlosion">Typhlosion</a></dt>
+<dd>Typhlosion is great in Sunny Day with Choice Scarf or Specs. In fact, Modest Typhlosion manages to 2HKO (50.23% - 59.14%) 651 HP / 385 SpD Blissey with a Choice Specs Eruption under the sun. Unfortunately, Stealth Rock somewhat ruins this, but it is still a great option to consider.</dd>
+</dl>
+
+<h2><a name="sunsupport">Support</a></h2>
+
+<p><strong>Note: Although most of the useful Sunny Day sweepers are listed for UU, the following Pokémon are fully capable of performing with excellence in OU as well.</strong></p>
+
+<p><strong>OU:</strong></p>
+
+<dl>
+<img src="http://www.smogon.com/download/sprites/dp/251.png" alt="" />
+<dt><a href="/dp/pokemon/celebi">Celebi</a></dt>
+<dd>An extremely useful Pokémon for a Sunny Day team in the OU environment. Celebi will be the main Pokémon to stop Pokémon such as Swampert, Vaporeon, and Suicune from ruining your team's sweep. Celebi has access to Thunder Wave and Recover; Thunder Wave will provide some paralysis support, mostly used so you feel safer using your set-up Pokémon, such as Victreebel.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/493.png" alt="" />
+<dt><a href="/dp/pokemon/cresselia">Cresselia</a></dt>
+<dd>Sunny Day teams tend to have problems with Dragon-type Pokémon in OU, mostly Dragonite. Cresselia can be called the "#1 counter" to Dragon-types. With access to Reflect, Light Screen, Thunder Wave, and Ice Beam, there is little to worry about when Dragonite and Flygon are of concern. Moonlight even benefits from Sunny Day, which will heal 2/3 of Cresselia's HP.</dd>
+</dl>
+
+<p><strong>UU:</strong></p>
+
+<dl>
+<img src="http://www.smogon.com/download/sprites/dp/51.png" alt="" />
+<dt><a href="/dp/pokemon/dugtrio">Dugtrio</a></dt>
+<dd>One of the best revenge killers out there and it has a reason for that. You will sometimes find Pokémon like Tyranitar ruining Sunny Day teams, but Dugtrio is here for that. Dugtrio has STAB Earthquake, which can handle a Tyranitar that has lost 8% of its health.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/146.png" alt="" />
+<dt><a href="/dp/pokemon/moltres">Moltres</a></dt>
+<dd>Moltres is once again mentioned here, as it's a support Pokémon as well. Despite its horrific weakness to Stealth Rock, Moltres makes a great counter to Fighting-types and the ever dominant Scizor, and is able to set up Sunny Day as well.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/469.png" alt="" />
+<dt><a href="/dp/pokemon/rhyperior">Rhyperior</a></dt>
+<dd>Rhyperior's ability, Solid Rock, means it takes much less damage from Water-type moves, thus allowing Rhyperior to take super effective attacks more easily. Rhyperior is also able to learn Sunny Day and Stealth Rock, which also makes it a good support Pokémon.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/475.png" alt="" />
+<dt><a href="/dp/pokemon/leafeon">Leafeon</a></dt>
+<dd>A useful little Pokémon which can help remove Water-type Pokémon from the game with ease. Having the ability Leaf Guard allows Leafeon to heal much faster from status moves such as Toxic, making it a pretty effective bulky Grass-type Pokémon. Leafeon also has access to Swords Dance, and with its bulk, it's capable of causing havoc after a Swords Dance or two.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/334.png" alt="" />
+<dt><a href="/dp/pokemon/altaria">Altaria</a></dt>
+<dd>Altaria is here for opposing Fire-types in UU that trouble Sunny Day teams; not just any regular Fire-type, but Flash Fire Pokémon. Pokémon with Flash Fire get a boost if they switch into a Fire-type attack. Grass-type moves are not very effective on them either, so it causes trouble for Sunny Day teams to bypass. Altaria can also use Toxic on opposing Pokémon, and can heal itself with Roost.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/237.png" alt="" />
+<dt><a href="/dp/pokemon/hitmontop">Hitmontop</a></dt>
+<dd>Hitmontop will be helping out with Pokémon such as Registeel with Close Combat. As for Ghost-types, Stone Edge and Sucker Punch will shut them down. Hitmontop is also a nifty Rapid Spin user as well. Hitmontop also makes a check for Clefable, who can pretty much dominate a Sunny Day team if not prepared for.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/59.png" alt="" />
+<dt><a href="/dp/pokemon/arcanine">Arcanine</a></dt>
+<dd>Arcanine is a very good Fire-type to have on a Sunny Day team thanks to its bulk, almost ensuring to be able to set up Sunny Day. On top of this Arcanine also comes with Will-O-Wisp, a move which can cripple physical switch-ins.</dd>
+</dl>
+
+<h2><a name="threats">Threats</a></h2>
+
+<p><strong>OU:</strong></p>
+
+<dl>
+<img src="http://www.smogon.com/download/sprites/dp/248.png" alt="" />
+<dt><a href="/dp/pokemon/tyranitar">Tyranitar</a></dt>
+<dd>Weather teams' biggest enemy is usually Tyranitar. It's not so much the Pokémon itself; it is Tyranitar's ability, which automatically brings sandstorm into play when this Pokémon is sent out. Since it's a Rock-type, sandstorm boosts its Special Defense to a very high level and Fire-type attacks won't be doing much as they are not very effective. Sandstorm also makes SolarBeam have a one turn charge. Tyranitar can be brought down by several Pokémon including Swampert or bulky Fighting-type Pokémon such as Machamp or Hariyama; running any of these Pokémon makes taking Tyranitar less of a pain as they can switch into it time and time again.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/455.png" alt="" />
+<dt><a href="/dp/pokemon/hippowdon">Hippowdon</a></dt>
+<dd>This too is a threat thanks to Sand Stream again, but to a lesser extent. It's a Ground-type, meaning it won't be able to handle Grass-type Pokémon as well, so something like Tangrowth or Celebi should be able to handle it without much difficulty.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/465.png" alt="" />
+<dt><a href="/dp/pokemon/abomasnow">Abomasnow</a></dt>
+<dd>Abomasnow is a threat as well due to its ability changing the weather. Most Sunny Day teams pack a Fire-type; however, Grass-types should be aware of the 100% accurate Blizzards when facing Abomasnow.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/490.png" alt="" />
+<dt><a href="/dp/pokemon/heatran">Heatran</a></dt>
+<dd>Heatran's Flash Fire is something that can be troublesome. Heatran makes Fire-type moves useless thanks to Flash Fire. Your own Heatran can switch into opposing Heatran that aren't locked into Earth Power. It isn't the best answer, but is reliable in doing so thanks to your own Earth Power and possible boost to your Fire-type STAB. Hariyama can take down most Heatran with STAB Fighting-type attacks and can shrug off Fire-type attacks thanks to Thick Fat. Swampert can take on Heatran rather easily as well, thanks to its STAB Ground-type attacks.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/212.png" alt="" />
+<dt><a href="/dp/pokemon/scizor">Scizor</a></dt>
+<dd>With STAB U-turn and a 90 Base Power priority move, Scizor is a hassle to deal with when using Sunny Day teams. Luckily, Fire-type Pokémon resist Bullet Punch, making Scizor a bit easier to deal with, but the best answer to Scizor is a surprise Hidden Power Fire from your Grass-type Pokémon, or running Moltres. Heatran too makes a great counter to Scizor, but Heatran has to be wary of Superpower.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/242.png" alt="" />
+<dt><a href="/dp/pokemon/blissey">Blissey</a></dt>
+<dd>With a monster base 255 HP and base 135 Special Defense, she can be an unpleasant Pokémon to fight with a Sunny Day team due to the fact that most Sunny Day teams are composed of special attackers. Dugtrio can possibly 2HKO Blissey, while Infernape can handle Blissey with Close Combat. With the proper Pokémon, this shouldn't be an issue.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/230.png" alt="" />
+<dt><a href="/dp/pokemon/kingdra">Kingdra</a></dt>
+<dd>Kingdra is a troublesome Pokémon since it can take Fire-type attacks rather easily, and can set up rain on top of that too. Kingdra does take neutral damage from Grass-type attacks, though, so hitting it hard with boosted STAB Grass-type attacks will cause Kingdra pain.</dd>
+</dl>
+
+<p><strong>UU:</strong></p>
+
+<dl>
+<img src="http://www.smogon.com/download/sprites/dp/171.png" alt="" />
+<dt><a href="/dp/pokemon/lanturn">Lanturn</a></dt>
+<dd>Lanturn resists Fire-type attacks, which can become a problem for your Fire-type Pokémon. So using a Pokémon which can use Earthquake, or Hidden Power Ground will be helpful when taking Lanturn down. Lanturn does have trouble switching into your Grass-type sweepers, as it is hit super effectively by their STAB.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/55.png" alt="" />
+<dt><a href="/dp/pokemon/golduck">Golduck</a></dt>
+<dd>Golduck is probably the Water-type you should look out for the most, as its Cloud Nine ability nullifies Sunny Day, and consequently Chlorophyll, but Golduck is dominated by Grass-type attacks.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/36.png" alt="" />
+<dt><a href="/dp/pokemon/clefable">Clefable</a></dt>
+<dd>With its base 90 Special Defense and base 95 HP, it can be a potent threat that can shrug off special attacks with ease, but can be defeated by Sunny Day Swords Dance sweepers such as Leafeon and Victreebel. If you want to run something other than Grass-type Pokémon, then Fighting-type Pokémon such as Hariyama and Hitmontop take care of it easily.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/113.png" alt="" />
+<dt><a href="/dp/pokemon/chansey">Chansey</a></dt>
+<dd>Chansey can take most special attacks aimed at it as if they were nothing. Using a Fighting-type Pokémon is once again the correct move to beat Chansey with. Actually, any physical attacking Pokémon should defeat Chansey one-on-one.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/59.png" alt="" />
+<dt><a href="/dp/pokemon/arcanine">Arcanine</a></dt>
+<dd>With Flash Fire and resistance to Grass-type attacks, Arcanine can spell trouble for Sunny Day teams. The best bet to take out Arcanine is to send in a bulky Water-type Pokémon to hit it with Surf, or better yet smash Arcanine with Rhyperior's STAB Earthquake.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/229.png" alt="" />
+<dt><a href="/dp/pokemon/houndoom">Houndoom</a></dt>
+<dd>Like above, Houndoom resists Grass-type attacks and absorbs Fire-type attacks to boost Flash Fire. Hariyama handles Houndoom rather easily, thanks to its Fighting-type STAB and Thick Fat.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/237.png" alt="" />
+<dt><a href="/dp/pokemon/hitmontop">Hitmontop</a></dt>
+<dd>With powerful priority moves, Hitmontop can end your sweepers' run before they even have a chance to retaliate. Having a Moltres on your team will stop Hitmontop's Fighting-type moves from causing havoc, and it can hit for super effective damage with Air Slash.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/184.png" alt="" />
+<dt><a href="/dp/pokemon/azumarill">Azumarill</a></dt>
+<dd>Azumarill can use its Water-type priority move, Aqua Jet, to hurt your Fire-type sweepers. Azumarill also has Ice Punch to hit your Grass-type Pokémon if the sun is not up. However, because Azumarill is a Water-type, it will find difficulties switching in with the STAB Grass-type moves being fired off.</dd>
+</dl>
+
+<h2><a name="conclusion">Conclusion</a></h2>
+
+<p>After reading this guide hopefully you no longer agree that Sunny Day is a "gimmick" weather team, and you now have an understanding of how Sunny Day teams are run, and have the tools required to create an effective team.</p>

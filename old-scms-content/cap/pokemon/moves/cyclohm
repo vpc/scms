@@ -1,0 +1,91 @@
+[title]
+Cyclohm
+[head]
+<link rel="stylesheet" type="text/css" href="/media/dex/dex.css" />
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_template.js"></script>
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_database.js"></script>
+[header]
+[page]
+<script language="JavaScript">
+var cap = Cyclohm();
+
+cap.movesLevel[0] = ["Whirlwind", "Bide", "Tackle", "Growl"];
+cap.movesLevel[7] = "Dragon Rage";
+cap.movesLevel[11] = "Charge";
+cap.movesLevel[15] = "Thundershock";
+cap.movesLevel[19] = "Rain Dance";
+cap.movesLevel[22] = "Double Hit";
+cap.movesLevel[29] = "Sonicboom";
+cap.movesLevel[33] = "Tri Attack";
+cap.movesLevel[37] = "Discharge";
+cap.movesLevel[42] = "Slack Off";
+cap.movesLevel[50] = "Thrash";
+cap.movesLevel[59] = "Lock-On";
+cap.movesLevel[59] = "Zap Cannon";
+
+cap.movesTM[2] = "Dragon Claw";
+cap.movesTM[3] = "Water Pulse";
+cap.movesTM[5] = "Roar";
+cap.movesTM[6] = "Toxic";
+cap.movesTM[7] = "Hail";
+cap.movesTM[10] = "Hidden Power";
+cap.movesTM[11] = "Sunny Day";
+cap.movesTM[13] = "Ice Beam";
+cap.movesTM[14] = "Blizzard";
+cap.movesTM[15] = "Hyper Beam";
+cap.movesTM[16] = "Light Screen";
+cap.movesTM[17] = "Protect";
+cap.movesTM[18] = "Rain Dance";
+cap.movesTM[21] = "Frustration";
+cap.movesTM[24] = "Thunderbolt";
+cap.movesTM[25] = "Thunder";
+cap.movesTM[26] = "Earthquake";
+cap.movesTM[27] = "Return";
+cap.movesTM[32] = "Double Team";
+cap.movesTM[34] = "Shock Wave";
+cap.movesTM[35] = "Flamethrower";
+cap.movesTM[37] = "Sandstorm";
+cap.movesTM[38] = "Fire Blast";
+cap.movesTM[40] = "Aerial Ace";
+cap.movesTM[41] = "Torment";
+cap.movesTM[42] = "Facade";
+cap.movesTM[43] = "Secret Power";
+cap.movesTM[44] = "Rest";
+cap.movesTM[45] = "Attract";
+cap.movesTM[57] = "Charge Beam";
+cap.movesTM[58] = "Endure";
+cap.movesTM[59] = "Dragon Pulse";
+cap.movesTM[68] = "Giga Impact";
+cap.movesTM[70] = "Flash";
+cap.movesTM[73] = "Thunder Wave";
+cap.movesTM[78] = "Captivate";
+cap.movesTM[82] = "Sleep Talk";
+cap.movesTM[83] = "Natural Gift";
+cap.movesTM[90] = "Substitute";
+cap.movesTM[92] = "Trick Room";
+
+cap.movesHM[3] = "Surf";
+cap.movesHM[4] = "Strength";
+cap.movesHM[7] = "Waterfall";
+
+cap.movesEgg = [
+	"DragonBreath",
+        "Heal Bell",
+	"Hydro Pump",
+        "Mud-Slap",
+	"Power Gem"
+];
+
+cap.movesTutor = [
+	"Draco Meteor",
+	"Headbutt",
+	"Mud-Slap",
+	"Outrage",
+	"Signal Beam",
+	"Snore",
+	"Swift",
+	"Twister"
+];
+
+document.write(composeMovesPage(cap));
+</script>

@@ -1,0 +1,197 @@
+[title]
+Introduction To Competitive Pokemon 
+[head]
+<meta name="description" content="An introduction to the world of competitive Pokemon." />
+[page]
+<div class="author">By <a href="/forums/member.php?u=921">aragornbird</a>, <a href="/forums/member.php?u=15147">Blue Kirby</a>, <a href="/forums/member.php?u=1923">darkie</a>, <a href="/forums/member.php?u=10787">DougJustDoug</a>, <a href="/forums/member.php?u=20194">Imran</a>, <a href="/forums/member.php?u=1779">Jibaku</a>, <a href="/forums/member.php?u=597">Sarenji</a>, <a href="/forums/member.php?u=8840">Tangerine</a>, and <a href="/forums/member.php?u=15305">TAY</a>.</div>
+<ol class="toc">
+<li><a href="#intro">Introduction</a></li>
+<li><a href="#mechanics">Game Mechanics</a>
+      <ul>
+		<li><a href="#move_mech">Move Mechanics</a></li>
+		<li><a href="#stat_mech">Stat Mechanics</a></li>
+      </ul>
+</li>
+<li><a href="#sim">Simulators</a>
+      <ul>
+		<li><a href="#pokeonline">Pok&eacute;mon Online</a></li>
+		<li><a href="#pokelab">Pok&eacute;mon Laboratory</a></li>
+		<li><a href="#shoddy">Shoddy Battle</a></li>
+		<li><a href="#other_sim">Other Simulators</a></li>
+      </ul>
+</li>
+<li><a href="#expect">What To Expect</a></li>
+<li><a href="#clause">Competitive Clauses</a></li>
+<li><a href="#tiers">Tiers</a></li>
+<li><a href="#mistakes">Common Mistakes</a></li>
+<li><a href="#where">Where To Go From Here</a></li>
+</ol>
+
+
+<h2><a name="intro">Introduction</a></h2>
+
+<p>If you're a dedicated trainer, you've probably battled the Elite Four so many times they sound like boring class lectures. You endured this for the sake of training your loyal Pokemon, and after turning them into the fullest they could be, maybe you wanted more. So you decided to battle your friends on Wi-Fi, but after pounding them mercilessly (or having cried "Uncle!" one too many times), maybe Pokemon began to get stale.</p>
+
+<p>But there is more to this game. Something <em>bigger.</em></p>
+
+<p>This is the world of <strong>competitive Pokemon</strong>, the art of playing Pokemon to win. In this world, that 999 attack Pelipper you hacked as a joke to sweep your friend's team isn't allowed. Competitive Pokemon emphasizes an understanding of game mechanics, team organization, and battle tactics, rather than cramming four moves of differing types on your Pokemon and picking whichever one is super effective.</p>
+
+<p>Now that we've gotten you interested, you'll want to examine just what competitive Pokemon is about in more detail. You will first learn about the finer details of the game you may not have noticed, and then we will give you a brief overview of the competitive world.</p>
+
+<h2><a name="mechanics">Game Mechanics</a></h2>
+
+<p>"Mechanics" is the term we use to refer to the way Pokemon works internally. Up until now, you have probably been able to ignore most of the detailed mechanics of the game, and still be successful. But in competitive Pokemon, there is a very fine line between success and failure. You must understand the subtle mechanics of the game, and exploit them to their maximum effectiveness. If you don't, you can be sure that your opponent will.</p>
+
+<p>In order to win a battle, you must faint all of your opponent's Pokemon before they do it to you. As such, the entirety of competitive Pokemon strategy is focused on <strong>damage</strong> -- the ability to deal damage, withstand damage, and avoid damage. Since damage is the end-all-be-all of battling, you must become familiar with the various game mechanics that affect damage.</p>
+
+<h3><a name="move_mech">Move Mechanics</a></h3>
+
+<p>These are mechanics that affect the damage of a given move in battle.</p>
+
+<h4>Type Effectiveness</h4>
+<p>You are probably familiar with this from in-game play. Certain types of moves do more or less damage to certain types of Pokemon. For example, Ground moves are "super effective" against Electric Pokemon, doing twice as much damage to them. A Pokemon's type, and the type of moves it uses is the single biggest factor determining how much damage it can give and take. The ability for an individual Pokemon or a team of Pokemon to give and take damage across a variety of types is called "Type Coverage" or simply "Coverage."</p>
+
+<h4>Physical and Special moves</h4>
+<p>All damaging moves are either physical or special. Physical moves use the Attack stat while special moves use the Special Attack stat.</p>
+
+<p>In the first three generations, whether moves were physical or special depended on their type. All Bug, Flying, Fighting, Ground, Normal, Poison, Rock, Ghost, and Steel moves were physical. All Dark, Dragon, Electric, Fire, Grass, Ice, Psychic, and Water moves were special.</p>
+
+<p>It wasn't until the 4th generation that moves were categorized based on their style of attacking. This information can be found under your Pokemon's Battle Moves page on their Summary screen. Physical moves have a red and yellow box while special moves have a purple box. Moves that deal no direct damage have a gray and white box.</p>
+
+<p>It's important to keep this in mind when building your Pokemon's moveset. You do not want to give a move like Psycho Cut to a Pokemon like Alakazam, as even though Psycho Cut would be boosted by STAB, it is a physical move and will not deal much damage due to Alakazam's horrible Attack stat.</p>
+
+<h3><a name="stat_mech">Stat Mechanics</a></h3>
+
+<p>These are mechanics that affect the statistics of a Pokemon, and thus affect its ability to give, take, and avoid damage.</p>
+
+<h4>Natures</h4>
+<p>Every Pokemon can have 1 out of 25 different natures. Most natures will raise one stat by 10% and lower another stat by 10%. In competitive battling, every Pokemon has one or two preferred natures depending on the moveset they are using. For example, a Pokemon meant to use only physical attacks would most likely benefit from an Adamant nature, which raises Attack by 10% and lowers Special Attack by 10%.</p>
+
+<p>There are 5 Natures out there which do not have an effect on any stat. They are Hardy, Serious, Bashful, Quirky, and Docile. These natures should not be used in a competitive setting since they provide no beneficial stat boosts to the Pokemon.</p>
+
+<p>For a list of natures and what stats they affect, <a href="/dp/natures/">check here</a>.</p>
+
+<h4>Effort Values (EVs)</h4>
+
+<p>EVs are "invisible" numbers that can increase a Pokemon's stats. Every 4 EVs in a particular stat is equal to 1 point in that stat. Every Pokemon is capable of having a maximum of 510 EVs with a maximum of 255 EVs in any one stat. Note that neither 510 nor 255 are numbers that are divisible by 4. This means you only need 508 EVs total (252 EVs in any one stat) to have a completely EV-trained Pokemon. The remaining 2 EVs are useless.</p>
+
+<p>For more information on EV's and how to EV train Pokemon in the cartridge games, <a href="/ingame/guides/ev_manual">see here.</a></p>
+
+<h4>Individual Values (IVs)</h4>
+
+<p>Two untrained Pokemon of the same species with the same level and nature may still have slightly different stats. The reason behind this is that the two Pokemon have different IVs. IVs are "invisible" numbers that range from 0 to 31 and tell you the quality of a Pokemon's stats. 0 means that particular Pokemon's stat is the lowest it can be. 31 means that stat is at its best and is considered a perfect IV.</p>
+
+<p>Unlike EVs, IVs cannot be changed and are permanent when you obtain the Pokemon. There is no guaranteed way of obtaining the exact IVs you want. The best way to get a Pokemon with good IVs is by breeding. More information on IV breeding can be found in the <a href="/ingame/guides/breeding_guide_part1">Breeding Guide.</a></p>
+
+<p>Competitive Pokemon battling is based on the assumption that all players have perfect Pokemon. Much like professional athletes have near limitless access to state-of-the-art sports equipment, competitive Pokemon strategy assumes you have access to perfect Pokemon. This is often a difficult concept for players of the cartridge games to understand. But, it is essential to forget about that "awesome level 78 Charizard" you used to beat the Elite Four in FireRed. In competitive Pokemon, all players use level 100 Pokemon exclusively, they use only the most powerful species of Pokemon, AND the Pokemon are perfectly EV trained with perfect IVs, with perfect moves.</p>
+
+<p>You may wonder, "How it is possible to get completely perfect Pokemon for competitive play?" In most cases, it is only possible to obtain perfect Pokemon through the use of a Battle Simulator - which is a program built for the express purpose of allowing competitive players to quickly and easily assemble entire teams of perfect Pokemon, and then battle against others. It's also possible to acquire perfect Pokemon through trading networks of competitive breeders, and thus use perfect Pokemon and competitive strategies in Wi-Fi battles and real-life tournaments.</p>
+
+<h2><a name="sim">Simulators</a></h2>
+
+<p>The majority of competitive Pokemon battling is done over simulators. This was very important in the first three generations, as it was the only possible method of battling competitively against a large variety of opponents. The fourth generation brought Wi-Fi capability with it, but the most competitive play still exists on simulators, as they allow users to fine tune teams much more easily than they can in-game. On simulators, battles can also be conducted faster, rules can be enforced more strictly, and rating systems can be more easily implemented than would be possible by simply using Wi-Fi.</p>
+
+<h3><a name="pokeonline">Pok&eacute;mon Online</a></h3>
+
+<p>The current simulator used by Smogon members is <a href="http://www.pokemon-online.eu/">Pok&eacute;mon Online</a>. It rose as a simulator due to being the first to have access to the 5th generation, and eventually succeeded Pok&eacute;mon Laboratory as the leading simulator for competitive battling. You can download the simulator <a href="http://www.pokemon-online.eu/files/Pokemon-Online-Setup.exe">here</a>.</p>
+
+<h3><a name="pokelab">Pok&eacute;mon Laboratory</a></h3>
+
+<p>A simulator once used by Smogon members is <a href="http://trac.poke-lab.com/">Pok&eacute;mon Laboratory</a>, the successor to Shoddy Battle. This simulator brings to the table a completely new battle engine framework designed to be both extremely accurate and highly maintainable. Currently only Gen 4 is supported. Like Shoddy Battle, this program is free as in freedom, meaning that the <a href="http://poke-lab.com/hg">source code</a> is available to study, modify, and redistribute under the terms of the <a href="http://www.gnu.org/licenses/gpl.html">GNU General Public License</a>. Click <a href="http://poke-lab.com/pokelab-client/pokelab.php">here</a> to download Pok&eacute;mon Laboratory</p>
+
+<h3><a name="shoddy">Shoddy Battle</a></h3>
+
+<p>Previously, the most popular Pokemon battle simulator was <a href="/shoddybattle/">Shoddy Battle</a>, which simulates the DPP generation. The program can be downloaded from the "downloads" section of their website. You must connect to a server to battle, but remember that different servers have different aims, and may not always be what you are looking for. The most popular server for playing standard Pokemon was the Smogon server (now defunct). All servers have their own rules and are moderated. Reading the rules is vital, as it is possible to be banned from any server. Shoddy Battle is an open source program, meaning that users can submit patches to help improve the program, although server owners can choose whether to implement them or not.</p>
+
+<p>Loading the application brings up the welcome window; from there the team builder can be used to create a team. The team builder loads in a separate window and allows users to choose Pokemon and their items, nicknames, level, Individual Values (and corresponding Hidden Power type), Effort Values, ability, and nature. Once the team is built, to start battling, one must connect to a server. Clicking on the Smogon server and pressing "connect" opens up another, server specific, welcome screen. It is possible to register a username and password by clicking on the register tab, clicking back on "Log In" connects the user to the server, using the username and password they just created. Either rated battles or unrated battles can be found by using the "find" tab. The ladder is a good skill test, as it runs a rating system, allowing users to compare their ratings to those of other users. Unrated battles are more casual and do not carry any weight in terms of ranking points. The Smogon Shoddy Battle server provides a ladder for Uber, OU and UU tier battling and also allows users to conduct unrated battles with their own custom rules. It is also used to conduct suspect tests, which are vital to ensure that tiers are as balanced as possible.</p>
+
+<h3><a name="other_sim">Other Simulators</a></h3>
+
+<p>There are many old Pokemon simulations that are now out of commission, dating back to the days of RBY play. The most common of these old simulators were the IRC bots and Pokemon NetBattle. There were popular bots for the first three generations: RBY (#rbystadium), GSC (#battlearena), and RSE (#rsarena). They had no graphical interface, so they attracted only the more serious battlers. These bots are no longer in use.</p>
+
+<p>NetBattle allowed users to play all of the first three generations of Pokemon, and in limited capacity the fourth generation, and has an attractive graphical interface. This meant that it attracted a wider userbase, helping the competitive Pokemon community to grow. It was similar to Shoddy Battle for previous generations in some respects, one could create teams in the team builder, connect to a server, and conduct battles from there. NetBattle is still usable, but finding an active server on NetBattle is hard, as not many people run them.</p>
+
+<h2><a name="expect">What To Expect</a></h2>
+
+<p>The competitive Pokemon environment is drastically different from what most new players are used to. Unlike in the Gameboy and DS games, you play against human opponents. Outsmarting a handheld machine is one thing, but outsmarting a real person is something else entirely. As such, there are a few key things to expect in competitive battling.</p>
+
+<p>The first thing you need to know is that people will play to win. Although it was enough to get by in the cartridge games, using Pokemon because they are cool or your favorites is the fastest way to lose. Your opponents will be using whatever Pokemon they feel give them the best chance of winning, and in order to be competitive you should do the same.</p>
+
+<p>One of the most surprising aspects to new players is the idea of switching. No longer will an opponent leave in a Pokemon until it faints; they can-and will-take advantage of the ability to bring in a new Pokemon with a better matchup. Also, do not be surprised if your opponent predicts your switch to hit your incoming Pokemon with a super effective attack, as most players will take advantage of obvious plays in order to gain some sort of advantage.</p>
+
+<p>The role of luck in Pokemon comes as an unpleasant surprise to many new players. Between critical hits, chance effects such as burn and flinch, and attacks with less than perfect accuracy, the potential for lucky wins and losses is everywhere. At the end of the day, new players should realize that, while winning is important, any individual win is near meaningless. As in American Football, any given player can win on any given ladder match; what is more important is winning in the long run. The best player in the world can still lose, even to newcomers, but will likely be able to maintain a much higher win-loss ratio.</p>
+
+<h2><a name="clause">Competitive Clauses</a></h2>
+
+<p>In competitive Pokemon, there are several standard rules used in every match. These rules are called clauses, and they serve to stop some over-powerful strategies, reduce the role that luck can play in a match, and overall just make the game more enjoyable. If you are playing on a simulator, these rules will be enforced automatically; in Wi-Fi play, activating any one of these clauses will usually result in disqualification.</p>
+
+<dl>
+<dt>Evasion Clause</dt>
+<dd>Moves that boost evasion (i.e. Double Team and Minimize) are not allowed.</dd>
+
+<dt>Freeze Clause</dt>
+<dd>Two or more Pokemon on a team cannot be frozen at the same time.</dd>
+
+<dt>Sleep Clause</dt>
+<dd>Two or more Pokemon on a team cannot be asleep at the same time. Self-induce sleep via Rest does not activate Sleep Clause.</dd>
+
+<dt>OHKO Clause</dt>
+<dd>One-Hit KO moves are not allowed.</dd>
+
+<dt>Species Clause</dt>
+<dd>Two or more of the same Pokemon may not be used on the same team.</dd>
+
+<dt>Self KO Clause</dt>
+<dd>If both players have only one Pokemon left, moves which KO both the user and the opponent are not allowed (e.g. Explosion, Destiny Bond). If recoil damage would cause a tie, Self KO Clause does not activate, and the player who last attacked is the winner.</dd>
+
+<dt>Item Clause</dt>
+<dd>All Pokemon on a team must hold different items. This is not a standard clause in competitive play, but it is used in Nintendo tournaments.</dd>
+</dl>
+
+<h2><a name="tiers">Tiers</a></h2>
+
+<p>The <a href="/articles/tiers">tiers</a> serve a dual purpose. The first is to promote balanced gameplay and the second is to create an environment where weaker Pokemon can be used. A Pokemon may only be used in a tier equal or above its situated tier.</p>
+
+<dl>
+<dt><a href="/dp/tiers/uber">Uber</a></dt>
+<dd>Ubers are Pokemon that are considered too powerful for the OU metagame. The Uber tier is not meant to be a balanced tier, and therefore isn't the main metagame. Every Pokemon, ability, and item is allowed in this tier.</dd>
+
+<dt><a href="/dp/tiers/ou">OU</a></dt>
+<dd>OverUsed is the main metagame and used for most competitive battles and tournaments. It is the balanced tier that bans as few Pokemon as possible. However, placement in OU is based on usage rather than power, because power is difficult to gauge objectively. A Pokemon is OU if it shows up in 1 out of every 20 teams in the standard metagame.</dd>
+
+<dt><a href="/dp/tiers/bl">BL</a></dt>
+<dd>Borderline is a non-competitive tier that has a function similar to that of Ubers. It is to include Pokemon that aren't used sufficiently to be considered OU, but are too powerful to be used in UU.</dd>
+
+<dt><a href="/dp/tiers/uu">UU</a></dt>
+<dd>UnderUsed is a lower competitive metagame than OU and is generally composed of Pokemon that aren't powerful enough to compete in OU. It is also based on usage.</dd>
+
+<dt><a href="/dp/tiers/nu">NU</a></dt>
+<dd>NeverUsed is the lowest tier in the system and denoted Pokemon that are extremely weak. It is based on usage and doesn't exist in RBY or GSC, due to there not being enough Pokemon.</dd>
+
+<dt><a href="/dp/tiers/limbo">Limbo</a></dt>
+<dd>Limbo serves as a place where Pokemon that do not yet have a decided tier are put.</dd>
+</dl>
+
+<h2><a name="mistakes">Common Mistakes</a></h2>
+
+<p>Prediction is one of the keys to a successful game, but it should not be heavily relied upon. No one can predict with even close to perfect accuracy, and even a single missed prediction often means that one of your Pokemon will be KOed. That is not to say that you should never take risks, but it is important to weigh the rewards and the potential consequences of each decision that you make. To take a very basic example: Let's say you have a Choice Band Tyranitar (moveset: Stone Edge, Crunch, Earthquake, Pursuit) in play against your opponent's Heatran. It may seem like the best attack is Earthquake, which will hit Heatran for super effective damage and easily take it down in a single hit. However, Choice Band will force Tyranitar to continually attack with Earthquake, which is a very risky play due to the frequency and power of sweepers which are immune to Ground-type attacks. Stone Edge only has 80% accuracy, but it is Tyranitar's most powerful attack, and will prevent most sweepers from setting up safely. Additionally, Heatran will likely lose somewhere between 80% and 95% of its health even if it does stay in.</p>
+
+<p>Gimmicks, or novelty Pokemon or sets, are common among newer players. They can be fun for comical purposes, but will rarely serve any significant purpose in a competitive metagame. Once you get to more advanced levels of play you can start creating custom Pokemon sets, but until then, the best way to get started is to use the common, tried and true sets until you get down the basics.</p>
+
+<p>Although it may be difficult to comprehend at first, it is important to remember that directly countering every threat in the game is impossible. Even if the Black/White metagame was not filled with more powerful sweepers than in any previous generation, the metagame is constantly changing, and players will quickly find ways to abuse common trends. For this reason, there are in fact very few Pokemon that can always be directly countered at all! But fear not; Pokemon is more than just countering, and with experience you will learn that it is possible to play around any kind of threat with a well built team, through planning, prediction, and custom sets.</p>
+
+<p>Always try to think in the long term. A large part of competitive Pokemon deals with the ability to analyze situations and form a plan to deal with both short and long term threats, while at the same time executing your own strategy. It is easy to focus only on the Pokemon you are currently facing, but it is imperative that you learn to consider all of your opponent's possible plays in both the short and long term.</p>
+
+<h2><a name="where">Where To Go From Here</a></h2>
+
+<p>At this point, you are probably feeling pretty confident in the direction you are headed - you have a rough idea of how everything works and you can now begin to settle into our competitive battling community. As time goes by, however, you may find that you still need a bit of help every now and then. That is natural, and you can rest assured that the community is here for you.</p>
+
+<p>There are a number of places and people you can turn to when you are having trouble getting to the "next level." If you are still new to the battling scene, or perhaps need help jumping into a new tier, Smogon's <a href="/forums/forumdisplay.php?f=42">Battling 101 program</a> will be a perfect fit. Every three weeks, a new round of tutoring begins, and all you need to do is sign up in the Battling 101 forum when a new thread is posted. Although space in the tutoring program is limited, if you sign up quickly enough you will be assigned a tutor for the duration of the teaching period. It may take a few attempts to get in – the program is very popular and we only have so many tutors – but do not be discouraged, as the Smogon tutoring program is well worth the wait. Your tutor will be an invaluable contact, not only to pass on their competitive battling knowledge, but also to help introduce you to the community and help you fit in. Many tutor and apprentice pairs become great friends, and you'll often find that contact with your tutor will carry on long after your time in the Battling 101 program.</p>
+
+<p>Battling 101 also runs apprentice tournaments every two rounds. The first 16 applicants to declare their interest in the tournament will be eligible, and pitted against 16 competitors from another round. The last men standing from each teaching round are inducted into the Battling 101 Hall of Fame. If you intend to take part in one of these tournaments, make sure you put in the necessary preparation time with your tutor, as competition has been known to be quite fierce!</p>
+
+<p>You might feel that you do not need tutoring, but still have arrived at bit of a roadblock with that team you were working on. Whether you are just not as winning as much anymore, or you just need a bit of advice, you should check out the <a href="/forums/forumdisplay.php?f=52">Rate My Team forum</a>. It is here that you can get advice from all sorts of other users, including our expert Team Raters (signified by the Fist badge in their profiles). Having a fresh set of eyes look over your team never hurts, so if you are after a different perspective, look no further!</p>
+
+<p>Of course, in order to make use of both the Battling 101 program and the RMT forum, you must be a member of the forum. Signing up is easy, and should not take more than a few minutes. If you get tired of thinking about Pokemon, or just want to chat about something else, you should make your way to the <a href="/forums/forumdisplay.php?f=24">Socialization in the Empire</a> section of the forums, where you can discuss anything from politics, to sports, or even the arts. However, before posting in any forum you should be sure that you are familiar with the forum rules, as well as any rules specific to the subforum which you are visiting (which can be found in a "sticky" thread at the top of the list of threads).</p>
+
+<p>If you find that you are having trouble understanding the abbreviations, acronyms, and general terms used in competitive Pokemon, we have you covered. Here is a list of the more common ones: <a href="/dp/articles/pokemon_dictionary">Pok&eacute;mon Dictionary</a>. Be sure to check out our other <a href="/dp/articles/">helpful articles</a> as well!</p>

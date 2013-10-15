@@ -1,0 +1,753 @@
+[title]
+The Hitchhiker's Guide to the D/P Battle Tower
+[head]
+<meta name="description" content="An Introduction to the Diamond and Pearl Battle Tower." />
+[page]
+<div class="author">By <a href="/forums/member.php?u=15147">Blue Kirby</a>.</div>
+
+<ol class="toc">
+<li><a href="#intro">Introduction</a></li>
+<li><a href="#rules">Rules of the Battle Tower</a></li>
+<li><a href="#banned">Banned Pokemon</a></li>
+<li><a href="#items">Making Use of Items</a></li>
+<li><a href="#modes">Modes of Play</a></li>
+<li><a href="#pokemon">Pokemon of the Battle Tower</a></li>
+<li><a href="#points">Battle Points</a></li>
+<li><a href="#team">Building Your Own Team</a></li>
+</ol>
+
+<h2><a name="intro">An Introduction to the Battle Tower</a></h2>
+<p>Though the Battle Tower is not new to Diamond and Pearl, it has evolved significantly since its original implementation in Pokemon Crystal. Its purpose is to challenge players beyond the normal boundaries of ingame play, rewarding those players who continually win battles against increasingly difficult opponents. This guide aims to familiarize players with the many aspects of the offline Battle Tower.</p>
+
+<p>The Battle Tower only becomes available to players who have defeated the Elite Four, at which time, it is possible to travel to the Battle Tower by speaking to a sailor south of Snowpoint City. You will find the Battle Tower north of the Fight Zone, which is the location that the sailor whisks you off to after accepting his offer to do so.</p>
+
+<h2><a name="rule">Rules of the Battle Tower</a></h2>
+<p>Players select a team of 2 - 4 Pokemon to bring with them (depending on the mode chosen), and must use only those Pokemon in a series of 7 battles. The Pokemon are, of course, healed after each encounter - you're not expected to battle 7 times in a row with an increasingly weakened team! The objective is to win each of the 7 battles, which are then added to the player's running total in that particular mode. This is referred to as the winning streak of the player.</p>
+
+<p>It is possible to elect to take a break between each battle. The game is then saved and reset. The next time the game is entered, you're obliged to pick up your challenge where you left off, until such a time that you either lose or win the 7th battle in the series you're in. However, should the DS be turned off at any other time, such as in the middle of a battle, your challenge will be automatically ended.</p>
+
+<p>When selecting a team to use in the Battle Tower, there are several constraints to keep in mind. You will be battling against level 50 Pokemon, and as such, the Pokemon you bring will be the same level. Should you elect to bring a Pokemon above level 50 to the challenge, it will be scaled down to level 50 to put it on an even playing ground with the opposition. Once your challenge is completed, it will return to its normal level. Keep in mind that although Pokemon can be scaled down to level 50, they will not be scaled up. This means you can't bring, for example, a level 30 Pokemon in the hopes that you don't have to train it to level 50.</p>
+
+<h2><a name="banned">Banned Pokemon</a></h2>
+<p>The following Pokemon cannot be brought into the Battle Tower challenge under any circumstances. You can't select an Egg to be a part of your team either, for obvious reasons.</p>
+
+<ul>
+<li>Mewtwo</li>
+<li>Mew</li>
+<li>Lugia</li>
+<li>Ho-Oh</li>
+<li>Celebi</li>
+<li>Kyogre</li>
+<li>Groudon</li>
+<li>Rayquaza</li>
+<li>Jirachi</li>
+<li>Deoxys (all formes)</li>
+<li>Dialga</li>
+<li>Palkia</li>
+<li>Giratina</li>
+<li>Phione</li>
+<li>Manaphy</li>
+<li>Darkrai</li>
+<li>Shaymin</li>
+<li>Arceus</li>
+</ul>
+
+<h2><a name="items">Making Use of Items</a></h2>
+<p>It's advisable to attach an item to each of the Pokemon you select to bring with you to use in the Battle Tower. You may only use one specific type of item on one Pokemon per team. What this basically means is that you can't walk into a Battle Tower challenge with Leftovers (or any item) on 2 of your 3 team members. While there are many items to choose from, the following can be considered as "staple" items.</p>
+
+<ul>
+<li>Chesto Berry (for those making use of Rest specifically)</li>
+<li>Choice Band</li>
+<li>Choice Scarf</li>
+<li>Choice Specs</li>
+<li>Expert Belt</li>
+<li>Focus Sash</li>
+<li>Life Orb</li>
+<li>Leftovers</li>
+<li>Lum Berry</li>
+<li>Resistance Berries (eg. Shuca, Chople, Yache, etc.)</li>
+</ul>
+
+<h2><a name="modes">Modes of Play</a></h2>
+
+<h3>Single Battle</h3>
+<p>The Single Battle Mode of the Battle Tower can perhaps be referred to as the flagship battle mode that the Battle Tower has to offer, in which the player will select a group of three Pokemon to compete against the AI. Battles become more "difficult" as the player progresses. The Pokemon that the player faces are generated at random from a list of 950 pre-determined Pokemon. Obviously, that means that there is more than one variant of many Pokemon that you can run into. The Pokemon that comprise this list can be referred to separately.</p>
+
+<p>Though almost all battles in the Single Battle challenge are generated at random, there are two instances in which they are set almost completely in stone. At battle #21, as well as battle #49, the player will be challenged by the Palmer, the Battle Tower Tycoon. His teams for each battle are set in stone, though the order in which his Pokemon are used isn't. Note that the player also receives 20 BP for defeating Palmer as opposed to the regular amount.</p>
+
+<h4>Tycoon Team #1</h4>
+<pre>
+Milotic @ Salac Berry
+Timid Nature
+EVs: 255 Spe / 255 Def
+~ Dragon Pulse
+~ Hypnosis
+~ Recover
+~ Hydro Pump
+
+Rhyperior @ Expert Belt
+Quiet Nature
+EVs: 255 Atk / 255 SpA
+~ Ice Beam
+~ Thunderbolt
+~ Flamethrower
+~ Rock Wrecker
+
+Dragonite @ Wide Lens
+Adamant Nature
+EVs: 255 HP / 255 Atk
+~ Aqua Tail
+~ Stone Edge
+~ Iron Tail
+~ Dragon Rush
+</pre>
+
+<h4>Tycoon Team #2</h4>
+<pre>
+Heatran @ Brightpowder
+Quiet Nature
+EVs: 170 HP / 170 Atk / 170 SpA
+~ Explosion
+~ Magma Storm
+~ Dark Pulse
+~ Flash Cannon
+
+Cresselia @ Leftovers
+Bold Nature
+EVs: 255 HP / 255 Def
+~ Calm Mind
+~ Moonlight
+~ Psychic
+~ Shadow Ball
+
+Regigigas @ Chople Berry
+Adamant Nature
+EVs: 255 HP / 255 Atk
+~ Crush Grip
+~ Ice Punch
+~ Stone Edge
+~ Brick Break
+</pre>
+
+<h3>Double Battle</h3>
+<p>In the Double Battle Mode, you must select four of your own Pokemon to bring with you to battle the opponent in a 2v2 format. The Pokemon the player is pitted against are randomly drawn from the same pre-generated list as the Pokemon you battle in the Single Battle Mode. The Tower Tycoon does not challenge the player to a battle at any point throughout the Double Battle challenge.</p>
+
+<h3>Multi Battle</h3>
+<p>In the Multi Battle Mode, players are partnered up with another Pokemon trainer. Both trainers select two Pokemon to enter the challenge with, battling cooperatively in a 2v2 format. While you, of course, can pick your own Pokemon, your opponent's Pokemon will always be random. The following list shows each trainer's Pokemon, as well as their possible movesets.</p>
+
+<p>Note that it is also possible to team up with a partner using the wireless capabilities of the Nintendo DS. In that case, obviously both you and your partner will select two Pokemon to bring with you into the challenge. From that point, the challenge operates in the same way.</p>
+
+<h4>Cheryl (from Eterna Forest)</h4>
+
+<dl>
+
+<dt>Snorlax</dt>
+<dd>@ Zoom Lens, Adamant nature: Rollout/Defense Curl/Curse/Yawn</dd>
+<dd>@ Leftovers, Impish nature: Focus Punch/Curse/Substitute/Yawn</dd>
+<dd>@ Iron Ball, Adamant nature: Last Resort/Fling/Recycle/Yawn</dd>
+<dd>@ Chesto Berry, Adamant nature: Return/Rock Slide/Curse/Rest</dd>
+
+
+<dt>Latias</dt>
+<dd>@ Colbur Berry, Timid nature: Psychic/Energy Ball/Grass Knot/Recover</dd>
+<dd>@ Lum Berry, Modest nature: Calm Mind/Dragon Pulse/Psychic/Roost</dd>
+<dd>@ Brightpowder, Timid nature: Psychic/Dragon Pulse/Thunderbolt/Surf</dd>
+<dd>@ Leftovers, Bold nature: Mist ball/Draco Meteor/Calm Mind/Safeguard</dd>
+
+
+<dt>Latios</dt>
+<dd>@ Lum Berry, Adamant nature: Dragon Dance/Recover/Dragon Claw/Shadow Claw</dd>
+<dd>@ Expert Belt, Timid nature: Psychic/Dragon Pulse/Ice Beam/Shadow Ball</dd>
+<dd>@ Haban Berry, Modest nature: Luster Purge/Water Pulse/DragonBreath/Recover</dd>
+<dd>@ White Herb, Modest nature: Draco Meteor/Psychic/Thunder/Hyper Beam</dd>
+
+
+<dt>Porygon-Z</dt>
+<dd>@ Sitrus Berry, Bold nature: Tri Attack/Shadow Ball/Recycle/Conversion2</dd>
+<dd>@ Brightpowder, Timid nature: Charge Beam/Ice Beam/Signal Beam/Conversion2</dd>
+<dd>@ Leftovers, Timid nature: Charge Beam/Tri Attack/Magnet Rise/Conversion</dd>
+<dd>@ Expert Belt, Modest nature: Tri Attack/Shadow Ball/Thunderbolt/Recover</dd>
+
+
+<dt>Porygon2</dt>
+<dd>@ Leftovers, Calm nature: Magnet Rise/Conversion/Recover/Charge Beam</dd>
+<dd>@ Wise Glasses, Mild nature: Conversion2/Defense Curl/Recover/Tri Attack</dd>
+<dd>@ Quick Claw, Modest nature: Tri Attack/Ice Beam/Signal Beam/Shadow Ball</dd>
+<dd>@ Macho Brace, Quiet nature: Trick Room/Tri Attack/Ice Beam/Recover</dd>
+
+
+<dt>Blissey</dt>
+<dd>@ Leftovers, Bold nature: Counter/Toxic/Softboiled/Double Team</dd>
+<dd>@ Chople Berry, Bold nature: Stealth Rock/Gravity/Heal Wish/Fire Blast</dd>
+<dd>@ Brightpowder, Bold nature: Counter/Hyper Beam/Shadow Ball/Snatch</dd>
+<dd>@ Sitrus Berry, Bold nature: Counter/Ice Beam/Thunderbolt/Double Team</dd>
+
+
+<dt>Cresselia</dt>
+<dd>@ Focus Band, Bold nature: Lunar Dance/Safeguard/Future Sight/Psychic</dd>
+<dd>@ Lum Berry, Bold nature: Double Team/Moonlight/Toxic/Psychic</dd>
+<dd>@ Wise Glasses, Modest nature: Psychic/Ice Beam/Shadow Ball/Energy Ball</dd>
+<dd>@ Leftovers, Bold nature: Calm Mind/Moonlight/Psychic/Shadow Ball</dd>
+
+
+<dt>Milotic</dt>
+<dd>@ Salac Berry, Timid nature: Hydro Pump/Dragon Pulse/Recover/Hypnosis</dd>
+<dd>@ Leftovers, Bold nature: Surf/Ice Beam/Aqua Ring/Haze</dd>
+<dd>@ Wide Lens, Bold nature: Hydro Pump/Ice Beam/Mirror Coat/Recover</dd>
+<dd>@ Lum Berry, Modest nature: Surf/Ice Beam/Dragon Pulse/Recover</dd>
+
+
+<dt>Espeon</dt>
+<dd>@ Leftovers, Adamant nature: Morning Sun/Tail Whip/Sand Attack/Last Resort</dd>
+<dd>@ Brightpowder, Timid nature: Reflect/Shadow Ball/Future Sight/Morning Sun</dd>
+<dd>@ Razor Claw, Modest nature: Calm Mind/Psychic/Shadow Ball/Hyper Beam</dd>
+<dd>@ Lum Berry, Timid nature: Psychic/Shadow Ball/Swift/Charm</dd>
+
+
+<dt>Umbreon</dt>
+<dd>@ Leftovers, Lonely nature: Moonlight/Screech/Double Team/Last Resort</dd>
+<dd>@ Brightpowder, Sassy nature: Toxic/Attract/Protect/Pursuit</dd>
+<dd>@ Scope Lens, Relaxed nature: Confuse Ray/Assistance/Last Resort/Shadow Ball</dd>
+<dd>@ Leftovers, Impish nature: Swagger/Mean Look/Screech/Moonlight</dd>
+
+
+<dt>Gastrodon</dt>
+<dd>@ Focus Sash, Careful nature: Mirror Coat/Recover/Waterfall/Earthquake</dd>
+<dd>@ Brightpowder, Sassy nature: Mud Bomb/Surf/Ice Beam/Yawn</dd>
+<dd>@ Rindo Berry, Sassy nature: Surf/Mud Bomb/Recover/Counter</dd>
+<dd>@ Quick Claw, Sassy nature: Earthquake/Waterfall/Stone Edge/Curse</dd>
+
+</dl>
+
+<h4>Mira (from Wayward Cave)</h4>
+
+<dl>
+
+<dt>Latios</dt>
+<dd>@ Lum Berry, Adamant nature: Dragon Dance/Recover/Dragon Claw/Shadow Claw</dd>
+<dd>@ Expert Belt, Timid nature: Psychic/Dragon Pulse/Ice Beam/Shadow Ball</dd>
+<dd>@ Haban Berry, Modest nature: Luster Purge/Water Pulse/DragonBreath/Recover</dd>
+<dd>@ White Herb, Modest nature: Draco Meteor/Psychic/Thunder/Hyper Beam</dd>
+
+
+<dt>Zapdos</dt>
+<dd>@ Brightpowder, Timid nature: Double Team/Roost/Discharge/Pluck</dd>
+<dd>@ Focus Band, Bashful nature: Detect/Drill Peck/Toxic/Thunderbolt</dd>
+<dd>@ King's Rock, Jolly nature: Drill Peck/U-Turn/Steel Wing/Ancient Power</dd>
+<dd>@ Sharp Beak, Timid nature: Rain Dance/Thunder/Charge Beam/Drill Peck</dd>
+
+
+<dt>Magmortar</dt>
+<dd>@ White Herb, Brave nature: Overheat/Focus Punch/Confuse Ray/Smokescreen</dd>
+<dd>@ Sitrus Berry, Bashful nature: Earthquake/Flamethrower/Smokescreen/Will-O-Wisp</dd>
+<dd>@ Passho Berry, Adamant nature: Flare Blitz/ThunderPunch/Earthquake/Brick Break</dd>
+<dd>@ Shuca Berry, Modest nature: Fire Blast/Psychic/Focus Blast/Confuse Ray</dd>
+
+
+<dt>Alakazam</dt>
+<dd>@ Iron Ball, Modest nature: Psycho Cut/Disable/Recover/Trick Room</dd>
+<dd>@ Colbur Berry, Quiet nature: Psychic/Calm Mind/Shadow Ball/Future Sight</dd>
+<dd>@ Sitrus Berry, Timid nature: Psychic/Shadow Ball/Charge Beam/Energy Ball</dd>
+<dd>@ Brightpowder, Timid nature: Psychic/Shadow Ball/Energy Ball/Focus Blast</dd>
+
+
+<dt>Gardevoir</dt>
+<dd>@ Lum Berry, Timid nature: Psychic/Shadow Ball/Thunderwave/Confuse Ray</dd>
+<dd>@ Chesto Berry, Modest nature: Calm Mind/Psychic/Thunderbolt/Rest</dd>
+<dd>@ Brightpowder, Modest nature: Psychic/Thunderbolt/Energy Ball/Focus Blast</dd>
+<dd>@ Choice Specs, Modest nature: Psychic/Shadow Ball/Thunderbolt/Hyper Beam</dd>
+
+
+<dt>Gengar</dt>
+<dd>@ Scope Lens, Modest nature: Shadow Ball/Psychic/Energy Ball/Skill Swap</dd>
+<dd>@ Payapa Berry, Adamant nature: Explosion/ThunderPunch/Poison Jab/Shadow Claw</dd>
+<dd>@ Brightpowder, Timid nature: Hypnosis/Dream Eater/Shadow Ball/Focus Blast</dd>
+<dd>@ Life Orb, Modest nature: Shadow Ball/Sludge Bomb/Thunderbolt/Destiny Bond</dd>
+
+
+<dt>Porygon-Z</dt>
+<dd>@ Sitrus Berry, Bold nature: Tri Attack/Shadow Ball/Recycle/Conversion2</dd>
+<dd>@ Brightpowder, Timid nature: Charge Beam/Ice Beam/Signal Beam/Conversion2</dd>
+<dd>@ Leftovers, Timid nature: Charge Beam/Tri Attack/Magnet Rise/Conversion</dd>
+<dd>@ Expert Belt, Modest nature: Tri Attack/Shadow Ball/Thunderbolt/Recover</dd>
+
+
+<dt>Roserade</dt>
+<dd>@ Big Root, Serious nature: Leech Seed/Ingrain/Giga Drain/Substitute</dd>
+<dd>@ Miracle Seed, Careful nature: Water Sport/Worry Seed/Grass Knot/Toxic</dd>
+<dd>@ Coba Berry, Modest nature: Sleep Powder/Sludge Bomb/Shadow Ball/Giga Drain</dd>
+<dd>@ Rose Incense, Modest nature: Sludge Bomb/Shadow Ball/Energy Ball/Hyper beam</dd>
+
+
+<dt>Magnezone</dt>
+<dd>@ Quick Claw, Impish nature: Swagger/Psych Up/Charge Beam/Magnet Bomb</dd>
+<dd>@ Brightpowder, Bold nature: Magnet Rise/Rain Dance/Thunder/Flash Cannon</dd>
+<dd>@ Shuca Berry, Modest nature: Magnet Rise/Charge Beam/Flash Cannon/Thunderwave</dd>
+<dd>@ Silk Scarf, Quiet nature: Thunderbolt/Tri Attack/Flash Cannon/Explosion</dd>
+
+
+<dt>Togekiss</dt>
+<dd>@ Wide Lens, Adamant nature: ExtremeSpeed/Aerial Ace/Steel Wing/Roost</dd>
+<dd>@ Leftovers, Bold nature: Toxic/Double Team/Substitute/Air Slash</dd>
+<dd>@ Scope Lens, Modest nature: Water Pulse/Flamethrower/Silver Wind/Ancient Power</dd>
+<dd>@ Expert Belt, Modest nature: Air Slash/Aura Sphere/Psychic/Shadow Ball</dd>
+
+
+<dt>Espeon</dt>
+<dd>@ Leftovers, Adamant nature: Morning Sun/Tail Whip/Sand Attack/Last Resort</dd>
+<dd>@ Brightpowder, Timid nature: Reflect/Shadow Ball/Future Sight/Morning Sun</dd>
+<dd>@ Razor Claw, Modest nature: Calm Mind/Psychic/Shadow Ball/Hyper Beam</dd>
+<dd>@ Lum Berry, Timid nature: Psychic/Shadow Ball/Swift/Charm</dd>
+
+
+<dt>Glaceon</dt>
+<dd>@ Leftovers, Brave nature: Mirror Coat/Tail Whip/Sand Attack/Last Resort</dd>
+<dd>@ Focus Sash, Naughty nature: Hyper Beam/Mirror Coat/Avalanche/Last Resort</dd>
+<dd>@ Brightpowder, Calm nature: Yawn/Water Pulse/Ice Beam/Shadow Ball</dd>
+<dd>@ Wise Glasses, Modest nature: Hail/Blizzard/Shadow Ball/Mirror Coat</dd>
+
+</dl>
+
+
+<h4>Riley (from Iron Mountain)</h4>
+
+<dl>
+
+<dt>Poliwrath</dt>
+<dd>@ Rindo Berry, Modest nature: Surf/Ice Beam/Focus Blast/Mud Bomb</dd>
+<dd>@ Quick Claw, Adamant nature: Waterfall/Brick Break/Earthquake/Hypnosis</dd>
+<dd>@ King's Rock, Timid nature: Focus Punch/Strength/Giga Impact/Earthquake</dd>
+<dd>@ Black Belt, Gentle nature: Brick Break/Surf/Focus Blast/Bulk Up</dd>
+
+
+<dt>Machamp</dt>
+<dd>@ Focus Sash, Adamant nature: Counter/Revenge/Payback/Earthquake</dd>
+<dd>@ Wide Lens/Lax/Rock Slide/Rock Smash/Rock Climb/Rock Tomb</dd>
+<dd>@ Chesto Berry, Adamant nature: Brick Break/Earthquake/ThunderPunch/Rest</dd>
+<dd>@ Choice Scarf, Adamant nature: Dynamicpunch/Rock Slide/Earthquake/Ice Punch</dd>
+
+
+<dt>Rhydon</dt>
+<dd>@ Wise Glasses, Quiet nature: Ice Beam/Thunderbolt/Dragon Pulse/Surf</dd>
+<dd>@ Smooth Rock, Brave nature: Rock Blast/Fire Fang/Sandstorm/Avalanche</dd>
+<dd>@ Passho Berry, Brave nature: Earthquake/Arm Hammer/Shadow Claw/Stone Edge</dd>
+<dd>@ Quick Claw, Adamant nature: Earthquake/Megahorn/Stone Edge/Horn Drill</dd>
+
+
+<dt>Gyarados</dt>
+<dd>@ Quick Claw, Sassy nature: Avalanche/Payback/Endure/Flail</dd>
+<dd>@ Leftovers, Gentle nature: Rest/Earthquake/Thrash/Giga Impact</dd>
+<dd>@ King's Rock, Jolly nature: Waterfall/Ice Fang/Bite/Dragon Dance</dd>
+<dd>@ Chesto Berry, Adamant nature: Waterfall/Earthquake/Rest/Dragon Dance</dd>
+
+
+<dt>Ursaring</dt>
+<dd>@ Liechi Berry, Careful nature: Arm Hammer/Avalanche/Counter/Payback</dd>
+<dd>@ Chesto Berry, Adamant nature: Facade/Aerial Ace/Bulk Up/Rest</dd>
+<dd>@ Toxic Orb, Jolly nature: Facade/Protect/Earthquake/Crunch</dd>
+<dd>@ Quick Claw, Brave nature: Return/Earthquake/Arm Hammer/Counter</dd>
+
+
+<dt>Tyranitar</dt>
+<dd>@ Expert Belt, Modest nature: Dark Pulse/Ice Beam/Flamethrower/Ancient Power</dd>
+<dd>@ Quick Claw, Adamant nature: Earthquake/Dragon Claw/Shadow Claw/Iron Head</dd>
+<dd>@ Choice Scarf, Adamant nature: Crunch/Stone Edge/Earthquake/Aerial Ace</dd>
+<dd>@ Chople Berry, Jolly nature: Stone Edge/Crunch/Thunder Fang/Dragon Dance</dd>
+
+
+<dt>Blaziken</dt>
+<dd>@ Shell Bell, Bashful nature: Aerial Ace/Blaze Kick/Will-O-Wisp/Bulk Up</dd>
+<dd>@ Salac Berry, Jolly nature: Endure/Reversal/Sand Attack/Double Team</dd>
+<dd>@ Passho Berry, Modest nature: Flamethrower/Focus Blast/Sand Attack/Night Slash</dd>
+<dd>@ Leftovers, Adamant nature: Brave Bird/Flare Blitz/Brick Break/Stone Edge</dd>
+
+
+<dt>Breloom</dt>
+<dd>@ Toxic Orb, Calm nature: Protect/Spore/Leech Seed/Double Team</dd>
+<dd>@ Big Root, Gentle nature: Sky Uppercut/Focus Punch/Drain Punch/Swords Dance</dd>
+<dd>@ Shell Bell, Naughty nature: Spore/Mind Reader/Focus Blast/Energy Ball</dd>
+<dd>@ Focus Sash, Adamant nature: Spore/Focus Punch/Seed Bomb/Counter</dd>
+
+
+<dt>Slaking</dt>
+<dd>@ Sitrus Berry, Careful nature: Counter/Encore/Captivate/Slack Off</dd>
+<dd>@ Wide Lens, Timid nature: Hyper Beam/Blizzard/Fireblast/Thunderbolt</dd>
+<dd>@ Expert Belt, Jolly nature: Return/Arm Hammer/Shadow Claw/Earthquake</dd>
+<dd>@ Choice Band, Adamant nature: Giga Impact/Earthquake/Shadow Claw/Aerial Ace</dd>
+
+
+<dt>Hariyama</dt>
+<dd>@ Brightpowder, Adamant nature: Sand Attack/Focus Punch/Rock Tomb/Fake Out</dd>
+<dd>@ Quick Claw, Impish nature: Belly Drum/Brick Break/Earthquake/Stone Edge</dd>
+<dd>@ Salac Berry, Jolly nature: Endure/Reversal/Earthquake/Rock Tomb</dd>
+<dd>@ Scope Lens, Adamant nature: Focus Energy/Cross Chop/Poison Jab/Stone Edge</dd>
+
+
+<dt>Medicham</dt>
+<dd>@ Focus Band, Jolly nature: Force Palm/ThunderPunch/Rock Slide/Reversal</dd>
+<dd>@ Salac Berry, Jolly nature: Endure/Reversal/Psycho Cut/ThunderPunch</dd>
+<dd>@ Brightpowder, Lonely nature: Attract/Focus Punch/Drain Punch/Ice Punch</dd>
+<dd>@ Wise Glasses, Modest nature: Calm Mind/Focus Blast/Psychic/Shadow Ball</dd>
+
+
+<dt>Absol</dt>
+<dd>@ White Herb, Calm nature: Slash/Pursuit/Double Team/Taunt</dd>
+<dd>@ Focus Sash, Adamant nature: Swagger/Punishment/Sucker Punch/Taunt</dd>
+<dd>@ Scope Lens, Naughty nature: Night Slash/Psycho Cut/Perish Song/Me First</dd>
+<dd>@ Choice Scarf, Jolly nature: Night Slash/Shadow Claw/Slash/Zen Headbutt</dd>
+
+
+<dt>Salamence</dt>
+<dd>@ Cheri Berry, Adamant nature: Fly/Aerial Ace/Steel Wing/Roost</dd>
+<dd>@ King's Rock, Jolly nature: Dragon Dance/Fire Fang/Thunder Fang/Zen Headbutt</dd>
+<dd>@ Petaya Berry, Timid nature: Dragon Pulse/Hydro Pump/Flamethrower/Substitute</dd>
+<dd>@ Yache Berry, Jolly nature: Dragon Claw/Earthquake/Aerial Ace/Dragon Dance</dd>
+
+
+<dt>Metagross</dt>
+<dd>@ Occa Berry, Adamant nature: Magnet Rise/Rock Polish/Zen Headbutt/Meteor Mash/</dd>
+<dd>@ Wise Glasses, Modest nature: Psychic/Flash Cannon/Shadow Ball/Sludge Bomb</dd>
+<dd>@ Quick Claw, Adamant nature: Meteor Mash/Earthquake/Zen Headbutt/Arm hammer</dd>
+<dd>@ Quick Claw, Adamant nature: Explosion/Meteor Mash/Earthquake/Zen Headbutt</dd>
+
+
+<dt>Rampardos</dt>
+<dd>@ Persim Berry, Adamant nature: Thrash/Headbutt/Zen Headbutt/Head Smash</dd>
+<dd>@ Focus Sash, Adamant nature: Rock Polish/Stone Edge/Earthquake/Giga Impact</dd>
+<dd>@ Salac Berry, Jolly nature: Endure/Stone Edge/Earthquake/Giga Impact</dd>
+<dd>@ Choice Scarf, Jolly nature: Head Smash/Earthquake/Giga Impact/Iron Tail</dd>
+
+
+<dt>Lucario</dt>
+<dd>@ Brightpowder, Careful nature: Dark Pulse/Dragon Pulse/Aura Sphere/Force Palm</dd>
+<dd>@ Razor Fang, Hardy nature: Me First/Agility/Force Palm/Flash Cannon</dd>
+<dd>@ Salac Berry, Adamant nature: Endure/Reversal/Earthquake/Stone Edge</dd>
+<dd>@ Scope Lens, Modest nature: Aura Sphere/Flash Cannon/Psychic/Dragon Pulse</dd>
+
+
+<dt>Toxicroak</dt>
+<dd>@ Black Glasses, Modest nature: Pursuit/Faint Attack/Sucker Punch/Flatter</dd>
+<dd>@ Light Ball, Bashful nature: Fling/Me First/Taunt/Sucker Punch</dd>
+<dd>@ Scope Lens, Lonely nature: Poison jab/X-Scissor/Giga Impact/Focus Blast</dd>
+<dd>@ Muscle Band, Adamant nature: Earthquake/Brick Break/X-Scissor/Stone Edge</dd>
+
+
+<dt>Rhyperior</dt>
+<dd>@ Expert Belt, Quiet nature: Rock Wrecker/Ice Beam/Thunderbolt/Flamethrower</dd>
+<dd>@ Zoom Lens, Sassy nature: Stone Edge/Megahorn/Dragon Rush/Avalanche</dd>
+<dd>@ Choice Scarf, Adamant nature: Earthquake/Megahorn/Rock Wrecker/Horn Drill</dd>
+<dd>@ Quick Claw, Careful nature: Stone Edge/Megahorn/Earthquake/Hammer Arm</dd>
+
+
+<dt>Mamoswine</dt>
+<dd>@ Icy Rock, Modest nature: Hail/Blizzard/Mud Shot/Ancient Power</dd>
+<dd>@ Leftovers, Sassy nature: Substitute/Double Team/Avalanche/Earthquake</dd>
+<dd>@ Brightpowder, Careful nature: Hail/Earthquake/Fissure/Ice Fang</dd>
+<dd>@ Salac Berry, Adamant nature: Earthquake/Endure/Ice Fang/Stone Edge</dd>
+
+
+<dt>Regigigas</dt>
+<dd>@ Lum Berry, Careful nature: Substitute/Double Team/Thunderwave/Return</dd>
+<dd>@ Brightpowder, Jolly nature: Swagger/Psych Up/Crush Grip/Aerial Ace</dd>
+<dd>@ Shell Bell, Quiet nature: Thunderbolt/Focus Blast/Earthquake/Drain Punch</dd>
+<dd>@ Chople Berry, Adamant nature: Crush Grip/Ice Punch/Stone Edge/Brick Break</dd>
+
+</dl>
+
+<h4>Marley (from Victory Road)</h4>
+
+<dl>
+
+<dt>Dugtrio</dt>
+<dd>@ Grip Claw, Jolly nature: Sand Tomb/Toxic/Rock Slide/Dig</dd>
+<dd>@ Brightpowder, Careful nature: Swagger/Attract/Sand Attack/Sucker Punch</dd>
+<dd>@ Razor Claw, Jolly nature: Fissure/Giga Impact/Aerial Ace/Night Slash</dd>
+<dd>@ Muscle Band, Adamant nature: Earthquake/Stone Edge/Slash/Shadow Claw</dd>
+
+
+<dt>Electrode</dt>
+<dd>@ Sitrus Berry, Hasty nature: Toxic/Protect/Double Team/Light Screen</dd>
+<dd>@ Shuca Berry, Timid nature: Magnet Rise/Charge Beam/Hyper beam/Thunderwave</dd>
+<dd>@ Damp Rock, Timid nature: Magnet Rise/Thunder/Swift/Rain Dance</dd>
+<dd>@ Focus Sash, Adamant nature: Magnet Rise/Gyro Ball/Screech/Explosion</dd>
+
+
+<dt>Starmie</dt>
+<dd>@ Wide Lens, Quiet nature: Hydro Pump/Thunder/Blizzard/Light Screen</dd>
+<dd>@ Damp Rock, Modest nature: Rain Dance/Hydro Pump/Thunder/Confuse Ray</dd>
+<dd>@ Expert Belt, Timid nature: Psychic/Thunderbolt/Ice Beam/Surf</dd>
+<dd>@ Lum Berry, Timid nature: Hydro Pump/Psychic/Thunderbolt/Power Gem</dd>
+
+
+<dt>Aerodactyl</dt>
+<dd>@ Leftovers, Careful nature: Swagger/Attract/Rock Slide/Roost</dd>
+<dd>@ Yache Berry, Adamant nature: Giga Impact/Crunch/Rock Slide/Earthquake</dd>
+<dd>@ King's Rock, Jolly nature: Rock Slide/Iron Head/Ice Fang/Thunder Fang</dd>
+<dd>@ Choice Band, Jolly nature: Earthquake/Iron Head/Stone Edge/Dragon Claw</dd>
+
+
+<dt>Crobat</dt>
+<dd>@ King's Rock, Jolly nature: Bite/Zen Headbutt/Cross Poison/U-Turn</dd>
+<dd>@ Sharp Beak, Adamant nature: Air Cutter/Air Slash/Aerial Ace/U-Turn</dd>
+<dd>@ Lum Berry, Timid nature: Hypnosis/Roost/Sludge Bomb/Dark Pulse</dd>
+<dd>@ Payapa Berry, Adamant nature: Brave Bird/Cross Poison/X-Scissor/Confuse Ray</dd>
+
+
+<dt>Sceptile</dt>
+<dd>@ Leftovers, Bold nature: Leech Seed/Double Team/Toxic/Giga Drain</dd>
+<dd>@ Brightpowder, Timid nature: Energy Ball/Dragon Pulse/Focus Blast/Agility</dd>
+<dd>@ Occa Berry, Serious nature: Leaf Storm/Aerial Ace/Leaf Blade/Focus Blast</dd>
+<dd>@ Scope Lens, Jolly nature: Leaf Blade/X-Scissor/Dragon Claw/Crunch</dd>
+
+
+<dt>Swellow</dt>
+<dd>@ King's Rock, Adamant nature: Fly/Endeavour/Facade/Quick Attack</dd>
+<dd>@ King's Rock, Adamant nature: Facade/Aerial Ace/Pursuit/Double Team</dd>
+
+
+<dt>Ninjask</dt>
+<dd>@ Petaya Berry, Mild nature: Baton Pass/Swords Dance/Endure/Dig</dd>
+<dd>@ Focus Band, Docile nature: Slash/Shadow Ball/Swords Dance/Baton Pass</dd>
+
+
+<dt>Weavile</dt>
+<dd>@ Razor Claw, Brave nature: Night Slash/Metal Claw/Slash/Shadow Claw</dd>
+<dd>@ Chople Berry, Jolly nature: Night Slash/Ice Shard/X-Scissor/Poison Jab</dd>
+<dd>@ Choice Band, Jolly nature: Night Slash/Ice Shard/Aerial Ace/Brick Break</dd>
+<dd>@ Focus Sash, Jolly nature: Night Slash/Ice Punch/Aerial Ace/Brick Break</dd>
+
+</dl>
+
+<h4>Buck(from Stark Mountain)</h4>
+
+<dl>
+
+<dt>Umbreon</dt>
+<dd>@ Leftovers, Lonely nature: Moonlight/Screech/Double Team/Last Resort</dd>
+<dd>@ Brightpowder, Sassy nature: Toxic/Attract/Protect/Pursuit</dd>
+<dd>@ Scope Lens, Relaxed nature: Confuse Ray/Assistance/Last Resort/Shadow Ball</dd>
+<dd>@ Leftovers, Impish nature: Swagger/Mean Look/Screech/Moonlight</dd>
+
+
+<dt>Forretress</dt>
+<dd>@ Occa Berry, Careful nature: Gyro Ball/Counter/Spikes/Mirror Shot</dd>
+<dd>@ Sitrus Berry, Lonely nature: Payback/Toxic Spikes/Stealth Rock/Spikes</dd>
+<dd>@ Occa Berry, Hasty nature: Double-Edge/Earthquake/Toxic/Double Team</dd>
+<dd>@ Quick Claw, Relaxed nature: Explosion/Double-Edge/Rock Slide/Earthquake</dd>
+
+
+<dt>Steelix</dt>
+<dd>@ Occa Berry, Bold nature: Thunder Fang/Fire Fang/Ice Fang/Crunch</dd>
+<dd>@ Passho Berry, Impish nature: Sandstorm/Rock Tomb/Stone Edge/Rock Slide</dd>
+<dd>@ Metal Coat, Relaxed nature: Flash Cannon/Gyro Ball/Iron Tail/Stealth Rock</dd>
+<dd>@ Quick Claw, Brave nature: Gyro Ball/Explosion/Screech/Stone Edge</dd>
+
+
+<dt>Shuckle</dt>
+<dd>@ Chesto Berry, Calm nature: Withdraw/Protect/Swagger/Rest</dd>
+<dd>@ Brightpowder, Impish nature: Power Trick/Double Team/Stone Edge/Earthquake</dd>
+<dd>@ Leftovers, Bold nature: Double Team/Substitute/Toxic/Sandstorm</dd>
+<dd>@ Razor Fang, Sassy nature: Power Trick/Earthquake/Stone Edge/Gyro Ball</dd>
+
+
+<dt>Skarmory</dt>
+<dd>@ Occa Berry, Careful nature: Spikes/Roar/Drill peck/Double Team</dd>
+<dd>@ Occa Berry, Jolly nature: Swift/Metal Sound/Double Team/Sand Attack</dd>
+<dd>@ Life Orb, Sassy nature: Air Cutter/Steel Wing/Roost/Pluck</dd>
+<dd>@ Metal Coat, Lonely nature: Night Slash/Air Slash/X-Scissor/Flash Cannon</dd>
+
+
+<dt>Regirock</dt>
+<dd>@ Passho Berry, Adamant nature: Superpower/Ancient Power/Secret Power/Strength</dd>
+<dd>@ Leftovers, Careful nature: Stone Edge/Earthquake/Brick Break/Sandstorm</dd>
+<dd>@ Smooth Rock, Naughty nature: Sandstorm/Stone Edge/Earthquake/Iron Defense</dd>
+<dd>@ Quick Claw, Careful nature: Explosion/Stone Edge/Earthquake/Brick Break</dd>
+
+
+<dt>Regice</dt>
+<dd>@ Shell Bell, Modest nature: Ice Beam/Thunderbolt/Hyper Beam/Flash Cannon</dd>
+<dd>@ Ganlon Berry, Serious nature: Focus Blast/Natural Gift/Giga Impact/Rock Polish</dd>
+<dd>@ Chesto Berry, Bold nature: Ice Beam/Flash Cannon/Ancient Power/Rest</dd>
+<dd>@ Leftovers, Bold nature: Ice Beam/Thunderbolt/Protect/Toxic</dd>
+
+
+<dt>Registeel</dt>
+<dd>@ Chesto Berry, Relaxed nature: Curse/Rest/Flash Cannon/Metal Claw</dd>
+<dd>@ Occa Berry, Adamant nature: Iron Defense/Toxic/Substitute/Earthquake</dd>
+<dd>@ Damp Rock, Jolly nature: Rain Dance/Thunder/Stealth Rock/Protect</dd>
+<dd>@ Quick Claw, Sassy nature: Explosion/Double Team/Swagger/Substitute</dd>
+
+
+<dt>Bastiodon</dt>
+<dd>@ Focus Sash, Hardy nature: Metal Burst/Taunt/Swagger/Stone Edge</dd>
+<dd>@ Quick Claw, Modest nature: Sandstorm/Thunder/Blizzard/Fireblast</dd>
+<dd>@ Muscle Band, Lonely nature: Iron Head/Iron Tail/Metal Burst/Stone Edge</dd>
+<dd>@ Shuca Berry, Adamant nature: Iron Tail/Stone Edge/Earthquake/Giga Impact</dd>
+
+
+<dt>Rhyperior</dt>
+<dd>@ Expert Belt, Quiet nature: Rock Wrecker/Ice Beam/Thunderbolt/Flamethrower</dd>
+<dd>@ Zoom Lens, Sassy nature: Stone Edge/Megahorn/Dragon Rush/Avalanche</dd>
+<dd>@ Choice Scarf, Adamant nature: Earthquake/Megahorn/Rock Wrecker/Horn Drill</dd>
+<dd>@ Quick Claw, Careful nature: Stone Edge/Megahorn/Earthquake/Hammer Arm</dd>
+
+
+<dt>Probopass</dt>
+<dd>@ Rock Incense, Quirky nature: Rock Polish/Stealth Rock/Lock-On/Stone Edge</dd>
+<dd>@ King's Rock, Jolly nature: Rock Polish/Magnet Bomb/Stone Edge/Explosion</dd>
+<dd>@ Hard Stone, Adamant nature: Thunderwave/Rock Tomb/Rock Slide/Rollout</dd>
+<dd>@ Chople Berry, Modest nature: Magnet Rise/Flash Cannon/Discharge/Stealth Rock</dd>
+
+
+<dt>Dusknoir</dt>
+<dd>@ Ganlon Berry, Impish nature: Curse/Pain Split/Substitute/Protect</dd>
+<dd>@ Brightpowder, Sassy nature: Double Team/Rest/Sleep Talk/Payback</dd>
+<dd>@ Spell Tag, Brave nature: Trick Room/Shadow Punch/Earthquake/Ice Punch</dd>
+<dd>@ Muscle Band, Adamant nature: Earthquake/ThunderPunch/Shadow Punch/Fire Punch</dd>
+
+
+<dt>Cresselia</dt>
+<dd>@ Focus Band, Bold nature: Lunar Dance/Safeguard/Future Sight/Psychic</dd>
+<dd>@ Lum Berry, Bold nature: Double Team/Moonlight/Toxic/Psychic</dd>
+<dd>@ Wise Glasses, Modest nature: Psychic/Ice Beam/Shadow Ball/Energy Ball</dd>
+<dd>@ Leftovers, Bold nature: Calm Mind/Moonlight/Psychic/Shadow Ball</dd>
+
+</dl>
+
+
+<h3><a name="wifi">Wi-Fi Battle</a></h3>
+<p>The Wi-Fi Battle mode operates in almost the same way as the Single Battle mode. However, there are a few notable differences. You need to connect to Nintendo Wi-Fi to use this feature, as instead of facing randomly generated teams, you will be facing the teams of those who have also undertaken the challenge. These teams will still be controlled by the Battle Tower AI, however. Also, at no point will you be challenged by the Tower Tycoon. The Wi-Fi Battle system has an implemented ranking system. In the simplest sense, your rank will increase based on the amount of battles you win. If you consistently lose battles, you'll find that your rank can also drop.</p>
+
+<h2><a name="pokemon">Battle Tower Pokemon</a></h2>
+
+<p>The table located <a href="dp_bt_pokemon">here</a> shows the 950 pregenerated Pokemon you're likely to encounter throughout your Battle Tower challenge. These Pokemon are sorted into four distinct "tiers", only appearing at certain points throughout your challenge. The only tiers that will overlap are tiers 3 and 4, starting from battle 50 (49 is the Tower Tycoon).</p>
+
+<ul>
+<li>Pokemon 1 - 150 appear from battles 1 to 13.</li>
+<li>Pokemon 151 - 350 appear from battles 14 - 20.</li>
+<li>Pokemon 351 - 895 appear from battle 21 onwards.</li>
+<li>Pokemon 895 - 950 appear from battle 49 onwards.</li>
+</ul>
+
+<h2><a name="points">Battle Points</a></h2>
+<p>As you succeed in your challenges, you'll be rewarded with Battle Points, or BP. This provides a good incentive to continue with the Battle Tower challenge, as you can use BP to purchase items and TMs that you may not be able to obtain again otherwise. If you're only in it for the BP, the quickest way to obtain it is to end your challenge after battling the Tower Tycoon, and playing through to defeat again for 20 BP.</p>
+
+<ul>
+<li>Protein - 1BP</li>
+<li>Calcium - 1BP</li>
+<li>Iron - 1BP</li>
+<li>Zinc - 1BP</li>
+<li>Carbos - 1BP</li>
+<li>HP Up - 1BP</li>
+<li>Power Bracer - 16BP</li>
+<li>Power Belt - 16BP</li>
+<li>Power Lens - 16BP</li>
+<li>Power Band - 16BP</li>
+<li>Power Anklet - 16BP</li>
+<li>Power Weight - 16BP</li>
+<li>Toxic Orb - 16BP</li>
+<li>Flame Orb - 16BP</li>
+<li>White Herb - 32BP</li>
+<li>Power Herb - 32BP</li>
+<li>Bright Powder - 48BP</li>
+<li>Choice Band - 48BP</li>
+<li>Focus Band - 48BP</li>
+<li>Scope Lens - 48BP</li>
+<li>Muscle Band - 48BP</li>
+<li>Focus Sash - 48BP</li>
+<li>Choice Scarf - 48BP</li>
+<li>Razor Claw - 48BP</li>
+<li>Razor Fang - 48BP</li>
+<li>Rare Candy - 48BP</li>
+</ul>
+
+<ul>
+<li>TM06, Toxic - 32BP</li>
+<li>TM73, Thunder Wave - 32BP</li>
+<li>TM61, Will-O-Wisp - 32BP</li>
+<li>TM45, Attract - 32BP</li>
+<li>TM40, Aerial Ace - 40BP</li>
+<li>TM31, Brick Break - 40BP</li>
+<li>TM08, Bulk Up - 48BP</li>
+<li>TM04, Calm Mind - 48BP</li>
+<li>TM81, X-Scissor - 64BP</li>
+<li>TM30, Shadow Ball - 64BP</li>
+<li>TM53, Energy Ball - 64BP</li>
+<li>TM36, Sludge Bomb - 80BP</li>
+<li>TM59, Dragon Pulse - 80BP</li>
+<li>TM71, Stone Edge - 80BP</li>
+<li>TM26, Earthquake - 80BP</li>
+</ul>
+
+<h2><a name="team">Building Your Own Team</a></h2>
+<p>By now you may have decided that you think you've got what it takes to win continuously at the Battle Tower in a particular mode. Keep in mind that there is a lot more to consider than building a team for competitive battling on a regular basis. There are many things people building their own teams often forget; here's a quick rundown.</p>
+
+<p><em>You don't have a full team of Pokemon with you.</em> Depending on the mode you choose to battl 170 Atk 
+
+e in, you'll have between 2 and 4 Pokemon at your disposal. This means there are many threats to cover with fewer Pokemon, so keep that in mind when putting together your team.</p>
+
+<p><em>Your opponents aren't bound by "standard" clauses.</em> This is important to remember. Though you may be used to battling competitively with clauses such as Sleep Clause and Evasion Clause to make the game more "fair", there are no such limits imposed in the Battle Tower. This means that your opponent can put your entire team to sleep at the same time, and can use OHKO moves. Make no mistake, you'll come up against opponents that attempt to do just that. The silver lining here, of course, is that you can do the same. However, don't fall into the trap of doing so just for the sake of it.</p>
+
+<p><em>There's little room for stall.</em> With only three Pokemon on your team, should your opponent get a lucky hit against one of your team, or put them to sleep, you'll find your defensive capabilities quickly breaking down. Though being able to take hits is nice, you really want to be dealing them out to position the battle in your favor. With the many advantages the AI already has over you, you can't afford to let it set the pace!</p>
+
+<p>With these concepts in mind, let's take a look at some successful teams that were able to put them into practice. The following teams that have done exceptionally well in the Single Battle mode, reaching in excess of 200 straight wins!</p>
+
+<pre>
+Gengar @ Focus Sash
+Timid Nature
+EVs: 6 HP, 252 SpA, 252 Spd
+~ Thunderbolt
+~ Counter
+~ Shadow Ball
+~ Destiny Bond
+
+Blissey @ Leftovers
+Bold Nature
+EVs: 252 HP, 252 Def, 6 SpD
+~ Seismic Toss
+~ Counter
+~ Aromatherepy
+~ Softboiled
+
+Froslass @ Choice Scarf
+Timid Nature
+EVs: 150 HP, 4Def, 248 SpA, 108 Spd
+~ Thunderbolt
+~ Ice Beam
+~ Taunt
+~ Destiny Bond
+</pre>
+
+<p>This team, put together by Team Rocket Elite, takes advantage of the AI's lack of "intuition"; that is, it will attack regardless of Destiny Bond costing it a Pokemon just to remove one of Team Rocket Elite's from the picture. The general strategy is to knock out just one Pokemon before being able to use Destiny Bond on the remaining two. This team is especially effective due to its ability to easily handle status moves on continuous basis, as well as being able to bypass the evasion modifiers of those that use Double Team and Brightpowder with Froslass' Taunt (though it must switch after using it) and Destiny Bond.</p>
+
+<pre>
+Starmie @ Expert Belt
+Modest Nature
+EVs: 4 HP/252 SpA/252 Spe
+~ Surf
+~ Psychic
+~ Ice Beam
+~ Thunderbolt
+
+Tyranitar @ Lum Berry
+Jolly Nature
+EVs: 4 HP/252 Atk/252 Spe
+~ Crunch
+~ Dragon Dance
+~ Earthquake
+~ Rock Slide
+
+Garchomp @ Choice Scarf
+Adamant Nature
+EVs: 160 HP/252 Atk/96 Spe
+~ Outrage
+~ Earthquake
+~ Fire Fang
+~ Aerial Ace
+</pre>
+
+<p>This team was originally crafted by Jumpman16, and takes to heart the offensive nature of the 3v3 format. It's crafted to win battles before the opposition has a chance to respond. The idea is to take out as much as possible with Starmie, switching Garchomp into possible Electric moves. If Starmie kills the first Pokemon, often the game is over then and there, as Tyranitar can be easily sacrificed to allow a key switch between Starmie and Garchomp, while also acting as a means of absorbing status moves, as well as setting up Sand Stream to negate Focus Sash.</p>
+
+<p>These two teams serve as excellent examples of how to put together a winning team to take on the Battle Tower challenge. However, don't think that they are the be all and end all of teams; many others have had similar successes with completely different teams. Of course, teams should be adapted to each respective mode, but the threats in each mode remain largely constant. For examples of teams that have done well in all modes, take a look at <a href="http://www.smogon.com/forums/showthread.php?t=52858"> this thread</a> on the Smogon forums.</p>
+
+<p>Armed with this knowledge, we wish you good luck in what will hopefully be a very successful Battle Tower career!</p>

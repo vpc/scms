@@ -1,0 +1,98 @@
+[title]
+Pyroak
+[head]
+<link rel="stylesheet" type="text/css" href="/media/dex/dex.css" />
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_template.js"></script>
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_database.js"></script>
+[header]
+[page]
+<script language="JavaScript">
+var cap = Pyroak();
+
+cap.movesLevel[0] = ["Wood Hammer", "Flare Blitz", "Sweet Scent", "Bullet Seed"];
+cap.movesLevel[5] = "Growth";
+cap.movesLevel[9] = "Ember";
+cap.movesLevel[13] = "Leech Seed";
+cap.movesLevel[17] = "Flame Wheel";
+cap.movesLevel[21] = "Giga Drain";
+cap.movesLevel[28] = "Fire Spin";
+cap.movesLevel[36] = "Petal Dance";
+cap.movesLevel[42] = "Amnesia";
+cap.movesLevel[42] = "Iron Defense";
+cap.movesLevel[48] = "Synthesis";
+cap.movesLevel[54] = "Lava Plume";
+cap.movesLevel[60] = "Zap Cannon";
+
+cap.movesTM[5] = "Roar";
+cap.movesTM[6] = "Toxic";
+cap.movesTM[9] = "Bullet Seed";
+cap.movesTM[10] = "Hidden Power";
+cap.movesTM[11] = "Sunny Day";
+cap.movesTM[15] = "Hyper Beam";
+cap.movesTM[16] = "Light Screen";
+cap.movesTM[17] = "Protect";
+cap.movesTM[19] = "Giga Drain";
+cap.movesTM[20] = "Safeguard";
+cap.movesTM[21] = "Frustration";
+cap.movesTM[22] = "SolarBeam";
+cap.movesTM[23] = "Iron Tail";
+cap.movesTM[26] = "Earthquake";
+cap.movesTM[27] = "Return";
+cap.movesTM[32] = "Double Team";
+cap.movesTM[35] = "Flamethrower";
+cap.movesTM[38] = "Fire Blast";
+cap.movesTM[39] = "Rock Tomb";
+cap.movesTM[42] = "Facade";
+cap.movesTM[43] = "Secret Power";
+cap.movesTM[44] = "Rest";
+cap.movesTM[45] = "Attract";
+cap.movesTM[50] = "Overheat";
+cap.movesTM[53] = "Energy Ball";
+cap.movesTM[58] = "Endure";
+cap.movesTM[61] = "Will-O-Wisp";
+cap.movesTM[68] = "Giga Impact";
+cap.movesTM[70] = "Flash";
+cap.movesTM[75] = "Swords Dance";
+cap.movesTM[76] = "Stealth Rock";
+cap.movesTM[80] = "Rock Slide";
+cap.movesTM[82] = "Sleep Talk";
+cap.movesTM[83] = "Natural Gift";
+cap.movesTM[86] = "Grass Knot";
+cap.movesTM[87] = "Swagger";
+cap.movesTM[90] = "Substitute";
+
+cap.movesHM[4] = "Strength";
+cap.movesHM[6] = "Rock Smash";
+cap.movesHM[8] = "Rock Climb";
+
+cap.movesEgg = [
+        "Aromatherapy",
+        "Counter",
+        "DragonBreath",
+        "GrassWhistle",
+        "Psybeam",
+        "Revenge",
+        "Sand Tomb",
+        "Water Sport"
+];
+
+cap.movesTutor = [
+        "AncientPower",
+        "Block",
+        "Counter",
+        "Double-Edge",
+        "Earth Power",
+        "Headbutt",
+        "Heat Wave",
+        "Iron Defense",
+        "Low Kick",
+        "Mimic",
+        "Mud-Slap",
+        "Seed Bomb",
+        "Snore",
+        "Synthesis",
+        "Worry Seed"
+];
+
+document.write(composeMovesPage(cap));
+</script>

@@ -1,0 +1,139 @@
+[title]
+CAP3 Report: Mulling over Mollux
+[head]
+<link href="/media/smog/smog.css" type="text/css" rel="stylesheet" />
+[page]
+<div class="author"> By <a href="http://www.smogon.com/forums/member.php?u=32648">capefeather</a>. Art by <a href="/forums/member.php?u=67782">sandshrewz</a>.</div>
+<table id="smogheader">
+<tr>
+<td class="left"><a href="challenge">« Previous Article</a></td>
+<td class="middle"><a href="/smog/issue21/">Home</a></td>
+<td class="right"><span class="inactive-link">Next Article &raquo;</span></td>
+</tr>
+</table>
+  
+<div style="float: right; margin-left: 10px;"><img src="/media/upload/smog/issue21/capreport_mollux.png" alt="" /></div>
+
+<h2>Introduction</h2>
+
+<p><a href="/cap/pokemon/mollux">Mollux</a> is the Create-a-Pokemon project's latest concoction. In a way, it is the last hurrah of the original Black/White metagame, as we move on forward to a dangerous realm ruled by the Therians, Keldeo, and various new abilities for existing Pokemon. After going through three projects with deep, interesting concepts, the community decided that, for this project, they would go back to the simpler concepts of old — designing a Pokemon to fit specific criteria and examining its effect on the Black/White metagame — led, fittingly enough, by one who has been there since the beginning, Deck Knight. However, the ensuing discussions would turn out to be anything but simple. This project has, in a way, been more about the social dynamics of the community itself than just the final product. What this means as to how future project discussions should be handled remains to be seen.</p>
+
+<h2>What it was supposed to do</h2>
+
+<p>Mollux's concept comes from Theorymon:</p>
+
+<div style="border: solid 1px #adadad; background-color: #ededed; padding: 10px; margin: 10px;">
+<p><strong>Name:</strong><br />
+Extreme Makeover: Typing Edition</p>
+
+<p><strong>General Description:</strong><br />
+The idea here is to create a Pokemon who's typing, while normally considered poor defensively and/or offensively, becomes a strong selling point of the Pokemon itself via help from an ability, stats, and/or movepool.</p>
+
+<p><strong>Justification:</strong><br />
+There are a lot of typings we scoff at on a daily basis because of their serious flaws, often forgetting about their strong points. For example, Poison is a really terrible offensive typing, but a decent defensive typing, while the Ice typing is good offensively, but awful defensively. Instead of just accepting that some typings will just ruin a Pokemon, this CAP concept aims to take that "terrible typing", and find ways to fix it (usually via ability, movepool, or stats) to the point where the formerly terrible typing becomes the CAP's strong point! The reason this CAP could benefit OU is because a Pokemon who makes a "bad typing" into a great one could find many unique offensive and/or defensive niches that aren't currently found!</p>
+
+<p><strong>Questions To Be Answered:</strong></p>
+<ul>
+<li>What does it take for a Pokemon to overcome its "bad typing" so much that its typing becomes good? Are the stats the biggest contributer, is the ability the thing that saves it, does movepool make it a force, or is it a combination of the above? </li>
+
+<li>How does the typing makeover effect the Pokemon's playstyle? Does the Pokemon become a unique wall that uses its makeover to overcome its typing's normally fatal flaws, does the make over make a terrible offensive typing into a fearsome sweeper, does the makeover make it into a formidible combination of deffense and offense to a typing that brings it neither, or does the makeover bring forth something none of us see coming from the typing?</li>
+
+<li>Which resistances and immunities are the most relevant to the metagame? Sure, this concept is aiming to have a "bad typing" become good, but part of that will require the bad typing to have some key resistances and/or immunties to certain typings to defend against or set up on, while still having a very unorthodox competitive typing. This works the other way around too, what are the typings most relevant to hit super effectively or at least neutral?</li>
+
+<li>How will the rest of the OU metagame react to this extreme type makeover? Will Pokemon start carrying moves they normally wouldn't carry to break through a new defensive threat, will some Pokemon take on new defensive roles due to resisting the unorthodox STABs CAP 3 may carry? Or will This Pokemon, despite being a very real threat, not have many "custom made sets" to beat it, being more of a Pokemon that is a reaction to the metagame than causing a metagame reaction? </li>
+
+<li>Finally, how will this effect the teams CAP3 is on? Will this be the kind of Pokemon who needs a lot of support to become a threat, will this Pokemon be more of key team member to execute another strategy, or will this be the kind of Pokemon that's part of the glue that holds the team together?</li>
+</ul>
+</div>
+
+<p>This concept turned out to be very divisive for the community. Many people wanted another dose of intellectual maturation in the vein of the past three projects, resulting in extremely bold suggestions like the typing Ice / Rock and the ability Drought. People divided into camps of differing opinion, preaching their vision of how to interpret the concept and staunchly rejecting all others. The main problem was that the general description and the justification said two very different things. Consequently, it is difficult to say definitively what Mollux was intended to do.</p>
+
+<p>Some people focused on the general description: the bad-looking typing was to be made into a selling point of the Pokemon. Some who emphasized the "selling point" view were resistant to abilities that granted immunities, fearing was that an immunity-granting ability would take the focus away from the typing. Consider Tyranitar, for example. It has epic stats and a weather-summoning ability that makes its special bulk skyrocket. However, its typing still plays a key role in how it plays; you wouldn't casually switch it into Politoed's Hydro Pump or Gengar's Focus Blast, and it still runs away from physical Grass- and Fighting-type moves. Gastrodon is an example that brings to light another crucial point. Even with the immunity granted by Storm Drain, Gastrodon is still mostly thought of as a Water/Ground Pokemon, largely because its only weakness is to Grass, a trait shared only by Rotom-W, which plays vastly differently offensively. As for Fire/Poison, with Dry Skin involved, it would take more than a double Ground-type weakness to distinguish the typing decisively from Heatran, Tentacruel, and even Ninetales.</p>
+
+<p>Another prevailing school of thought was based on the justification: the goal was to take the typing and "fix" it with the abilities and movepool. Simply put, take an allegedly bad typing, compensate for what supposedly makes it bad, and subsequently make it good. Levitate is the classic example of a type-patching ability; without it, Gengar, Hydreigon, Latias, Latios, and Rotom-W would certainly be much worse than they are now. In a similar vein, Psychic-types like Alakazam, Reuniclus, and Espeon have powerful abilities like Magic Guard and Magic Bounce, without which none of them would have any business in OU. It became well-established early on that CAP 3 had to be able to hold its own against rain teams to be remotely worth using. There was a compromise with people whom, as mentioned earlier, disliked giving an ability like Water Absorb, which resulted in Dry Skin. There was also an agreement to leave the weaknesses to Ground and Rock alone, leading to the sound rejection of Levitate.</p>
+
+<p>One can imagine these two very different approaches clashing throughout the project, especially when Drought became a very real possibility. For people who wanted to sell the Fire/Poison typing (as opposed to just Fire or just Poison), Drought was almost perfect because it utilized one advantage of the Poison type that wasn't nullified by the Fire type: the immunity to Toxic, which, along with the immunity to burns from the Fire typing, which Tyranitar and Politoed would kill to have. On the other hand, there were those who saw Drought as such a defining trait that it would be seen as overshadowing the typing, even if the typing did synergize well with the ability. For many people focused on compensating the "bad" typing, Drought was nonsensical because it didn't do enough to make up for the Water weakness directly, and there were fears that Drought would make CAP 3 too powerful. Some disagreed with this, saying that Drought would be balanced and would do enough for the Water weakness to compete with Dry Skin. Whichever side you agree with, the result is set: Mollux does not have Drought.</p>
+
+<p>Again, it is hard to say what the community at large really wanted out of this project. After the Drought wars subsided, people began to realize that we had just made a Fire-type that wanted to be in the rain. This put some people into a panic in the movepool stage. The movepool was potentially a deciding factor as to whether Mollux would be bad, good, or broken. Everyone looked to the playtest to find out just where the lava lamp snail would end up on the OU totem pole...</p>
+
+<h2>What it did</h2>
+
+<p>Mollux was good. Very good. Defensively, it had similar stats and weakness/resistance palette to Tentacruel, and in fact it was actually bulkier specially. In addition to this, Mollux had far more support moves and better coverage, possessing all of Stealth Rock, Recover, and Thunderbolt and Thunder off a base 131 Special Attack stat, in addition to Tentacruel's niche moves, such as Rapid Spin and Toxic Spikes. Offensively, it was reminiscent of Heatran, though again, Thunderbolt and Thunder set it apart, while Dry Skin, Rapid Spin, and Recover provided major versatility advantages over Heatran. This isn't to say that Mollux outclassed Tentacruel or Heatran, but the fact that it competed rather successfully against two high-tier Pokemon for their niches is a good indicator of just how good Mollux became with its expansive movepool and awesome ability.</p>
+
+<p>Below are two of the most common sets that were used in the playtest, showing just how versatile Mollux turned out to be:</p>
+
+<table class="sidebyside">
+<tr>
+<td class="sprite">
+<img src="http://cap.smogon.com/Sprites/frontnormal-mmollux.png" alt="" />
+</td>
+<td class="sprite">
+<img src="http://cap.smogon.com/Sprites/frontnormal-mmollux.png" alt="" />
+</td>
+</tr>
+<tr>
+<td>Mollux @ Leftovers<br />
+Ability: Dry Skin<br />
+EVs: 252 HP / 252 SpD / 4 Spe<br />
+Calm nature (+SpD, -Atk)<br />
+- Rapid Spin<br />
+- Recover<br />
+- Lava Plume<br />
+- Thunderbolt / Sludge Wave</td>
+<td>Mollux @ Choice Scarf<br />
+EVs: 4 HP / 252 SpA / 252 Spe<br />
+Timid nature (+Spe, -Atk)<br />
+- Fire Blast<br />
+- Thunderbolt / Thunder<br />
+- Hidden Power Ice / Hidden Power Grass / Hidden Power Ground<br />
+- Trick / Sludge Wave</td>
+</tr>
+</table>
+
+<p>The specially defensive set was a resilient tank that took advantage of most of Mollux's positive qualities. With its mammoth special bulk and Recover, few special attackers could hope to break through it, outside of strong Psychic-type attackers, such as Alakazam and Reuniclus. Dry Skin activating under rain made Mollux even more difficult to vanquish. As if that weren't enough, physical attackers always had to be wary of Lava Plume burns. In a sense, specially defensive Mollux played not unlike a bulky Water-type, except it had Fire-type STAB and Electric-type coverage outside of Hidden Power. All this was backed up by a high base 131 Special Attack. As well, Mollux was one of the best spinners in the metagame, since it could beat Jellicent with Thunderbolt or a burn while Jellicent struggled to do anything back, and it walled Gengar unless it resorted to Psychic.</p>
+
+<p>The high Special Attack could also be used to great effect offensively, like on the Choice Scarf set. This set took advantage of Mollux's wide neutral coverage to revenge kill a variety of threats. Stealth Rock would normally deter Mollux somewhat from running a Choice Scarf set, but Dry Skin recovery could make up for it. Mollux could also power through enemies without a Choice Scarf, by using Recover instead to last a little while longer.</p>
+
+<p>Mollux's weakness to Ground-type moves meant that Flying-types and Levitate users were great teammates. Gliscor could check threats to Mollux, such as Terrakion, Tyranitar, and Landorus, while in return, Mollux could switch into the Water- and Ice-type attacks directed at Gliscor. Using both in a Toxic stalling role in the rain turned out to be an effective strategy, since both could make up for the HP lost to Substitute with their abilities and Protect. Skarmory was another effective teammate for similar reasons: it could check physical attackers while Mollux switched into the special attacks that Skarmory hated.</p>
+
+<h2>The Verdict</h2>
+
+<p>So, okay, Mollux was good. The project successfully compensated for a typing that was seen as bad. That much is pretty clear-cut. However, the other side of the concept — whether the typing is actually a main selling point of the Pokemon — remains to be examined, and thus it is the focus of this verdict section.</p>
+
+<ul>
+<li><strong>What does it take for a Pokemon to overcome its "bad typing" so much that its typing becomes good?</strong><br />
+<p>This is not the kind of question that can be definitively answered by a single CAP project. Mollux turned out the way it did because of the decisions that the community made for it. Both Dry Skin and its excellent movepool were crucial to its viability, plus it had special bulk exceeding Tentacruel's and Special Attack surpassing Heatran's. However, that does not mean that all of stats, ability, and movepool are necessary to compensate for a bad typing.</p>
+</li>
+<li><strong>How does the typing makeover affect the Pokemon's playstyle? Which resistances and immunities are the most relevant to the metagame? How will the rest of the OU metagame react to this extreme type makeover? How will this affect the teams CAP3 is on?</strong><br />
+<p>I put the remaining questions together because they are really all asking the same question in the end, as far as fulfillment of the concept goes. The common theme is that we have placed a Pokemon with a strange typing into the metagame, and we're asking how it reacts. As far as the concept is concerned, these questions can be reformulated as the following:</p>
+</li>
+<li><strong>Is Mollux actually played with and played against in a kind of manner that would be expected out of the typing?</strong><br />
+<p>In a sense, it is somewhat strange to think that Mollux is a Fire/Poison Pokemon. I click on Fire Blast or Lava Plume, knowing that Mollux has STAB on it, but not quite believing it. The sensation is hard to describe and I can only guess at why this is. I don't know about other people, but I tend to break typings down subconsciously into their component weaknesses and resistances. Most Pokemon have coverage moves, but they cannot escape their ability to switch into some types and not into others.</p>
+
+<p>The Water immunity completely changes how Fire/Poison is played in the metagame. Rather than being forced out by the likes of Politoed and Starmie, Mollux walls them completely outside of the anti-metagaming Psychic and Hidden Power Ground. Mollux also has a decisive advantage against Tentacruel, as it can burn Tentacruel while Tentacruel cannot burn back. There are few traits that can actually be pinpointed as indicative of the Fire/Poison typing specifically. To its credit, the typing does grant it definite advantages, such as the threat to KO Scizor and Ferrothorn even in the rain, as well as the immunities to both poison and burn.</p>
+</li>
+</ul>
+
+<p>There are a final couple of questions that I would personally like to address:</p>
+
+<ul>
+<li><strong>What does this project tell us about balancing a Pokemon, even with a supposedly crippling trait like a "bad" typing? How do we know if a typing is actually bad?</strong><br />
+<p>People have said that Fire/Poison isn't even that bad of a typing. The issue of whether Mollux proves this or the CAP community simply managed to do what it does best despite the "handicap" will probably be forever doomed to occasional casual debate in the future. That said, the concept and the Pokemon we made from it have brought one point home: typing does not exist in a vacuum. Whether it is through an ability like Dry Skin, Magic Guard, or Sand Stream, or through high defensive stats like Celebi's, a Pokemon can make up for its "bad typing" and use it as a strength to become a good Pokemon. Every typing has its strengths and weaknesses, and how much these matter depend greatly on the other aspects. Just compare Black Kyurem, White Kyurem, and normal Kyurem, and you can see what I mean. (Yeah, I kind of cheated by referencing the B2W2 metagame, but still!)</p>
+
+<p>This project also revealed a quirk about how balance is achieved. Even though people began to worry about the viability of a Fire-type that likes rain, the fact was that the movepool could more than make up for the present deficiencies, and even easily make the Pokemon broken, a fate that we tried to avoid by rejecting Drought! A crucial point to be made here is that every stage depends heavily on the results of the previous one. A great ability can be balanced by a small but precise movepool, but not having such an ability can result in splurging on the movepool. Both present balancing issues to the project that cannot truly be avoided, which is something to keep in mind in both earlier stages and later stages of the project.</p>
+</li>
+</ul>
+
+<h2>Conclusion</h2>
+
+<p>Whew, what do I even say after all this? Mollux is another good Pokemon that the community has made and inserted into the OU metagame to see what happens. It will also be the last CAP Pokemon to be made relative to the original BW metagame. It marks the end of an era that saw the community experience major setbacks, such as incompatibilities with Pokemon Online and the departure of many excellent contributors. CAP 4 will be a bold entrance into a new era, with new threats to consider, new thought processes to uncover, and new star contributors to bring fresh perspectives to the community.</p>
+
+<p>If you want to learn more about the Create-a-Pokemon Project, you can hit up the <a href="/cap/">CAP site</a>, which has been recently updated to include the Pokemon that have been made for this generation. The project also, of course, has a <a href="/forums/forumdisplay.php?f=66">forum</a> to itself, where all the action happens. We are always looking for new contributors bringing their various talents to this community, so don't be afraid to get in there and participate!</p>
+
+<table id="smogfooter">
+<tr>
+<td class="left"><a href="challenge">« Previous Article</a></td>
+<td class="middle"><a href="/smog/issue21/">Home</a></td>
+<td class="right"><span class="inactive-link">Next Article &raquo;</span></td>
+</tr>
+</table>

@@ -1,0 +1,65 @@
+[title]
+Past Generations
+[head]
+<meta name="description" content="The Past Generations Hub." />
+<style type="text/css">
+h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 600;
+    border-style: null;
+    border-bottom: 2px solid #697851;
+}
+h3 {
+    margin-top: -10px;
+    position: relative;
+    font-size: 10px;
+    font-weight: 600;
+    font-style: italic;
+}
+.announcement {
+    border: 6px solid #9FA374;
+    border-style: outset;
+    background-color: #B4B792;
+    width: 700px;
+    padding: 5px 25px 20px 25px;
+    margin-bottom: 10px;
+	-webkit-box-shadow: 7px 7px 10px #97999c;
+	   -moz-box-shadow: 7px 7px 10px #97999c;
+	        box-shadow: 7px 7px 10px #97999c;
+}
+</style>
+<script src="/media/jquery.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(function()
+    {
+        var h3s=$('#content_wrapper h3');
+        var date='';
+    for(var i=0;i<h3s.length;i++)
+	    {
+		date=h3s[i].innerHTML;
+		h3s[i].innerHTML=('Posted on ' + date);
+		}
+	});
+</script>
+[page]
+
+<div class="author">Past Gens Banner by <a href="/forums/member.php?u=2231">Zracknel</a></div>
+
+<div style="text-align: center;"><img src="/media/pastgens.gif" width="535" height="452" alt="Past Gens Hub Logo" title="Past Gen Hub Logo by Zracknel" /></div>
+
+<h2>Introduction to the Past Gens Hub</h2>
+
+<p>Welcome to the past generations hub. Here, you can find all relevant information for the various RBY, GSC, ADV, and DPP metagames. If you have any questions, be sure to swing by <a href="http://mibbit.com/?channel=%23ruinsofalph&amp;server=irc.synirc.net">#RuinsOfAlph</a> on SynIRC!</p>
+
+<h2>Latest News</h2>
+<!--post announcements after this line. Thanks to Setsuna for the original CSS which I adapted from-->
+
+<div class="announcement">
+<h2>RoA Mini-Tournaments 9 and 10</h2>
+<h3>posted May 30, 2013 by <strong>Jellicent</strong></h3>
+
+<p>RoA Mini-Tournaments are always a great source of competitive past gens battling. The 9th Mini-Tour, which featured GSC OU, was recently won by <a href="/forums/member.php?u=21345">M Dragon</a>. When one Mini-Tour ends, another begins. <a href="/forums/showthread.php?t=3484283">Sign-ups</a> are now open for RoA Mini-Tournament 10 - RBY Ubers. With <a href="/forums/showthread.php?t=3483874">recent discussions</a> debating just how broken Mewtwo is with proper Wrap mechanics, this Mini-Tour should hopefully shed some light on the debate.</p>
+
+<p>Congrats, M Dragon! Now all of you get out there and sign up for some RBY Ubers!</p>
+</div>

@@ -1,0 +1,98 @@
+[title]
+RNG Manipulation of Egg PIDs
+[head]
+<meta name="description" content="Emerald RNG Abuse Guide Part 4 - RNG Manipulation of Egg PIDs." />
+[page]
+<div class="author">By <a href="/forums/member.php?u=76392">Hozu</a>.</div>
+
+<ul class="toc">
+<li><a href="emerald_rng_intro">Introduction and General Preparations</a></li>
+<li><a href="emerald_rng_part1">RNG Manipulation of Bred Pokémon</a></li>
+<li><a href="emerald_rng_part2">RNG Manipulation of Method 1 Pokémon</a></li>
+<li><a href="emerald_rng_part3">RNG Manipulation of Wild Pokémon</a></li>
+<li>RNG Manipulation of Egg PIDs
+<ul>
+<li><a href="#intro">Introduction</a></li>
+<li><a href="#addprog">Additional Programs</a></li>
+<li><a href="#helpinfo">Helpful Information</a></li>
+<li><a href="#calibration">Calibration</a></li>
+<li><a href="#shinypid">Finding a Shiny PID</a></li>
+<li><a href="#timer">Setting up the Timer</a></li>
+<li><a href="#otherfile">RNGing an Egg to be Hatched on a Different Save File</a></li>
+</ul>
+</li>
+</ul>
+
+<h2><a name="intro">Introduction</a></h2>
+
+<p>Pokémon that have been RNG abused in Ruby/Sapphire/Emerald are not nearly as common as those RNG abused in 4th and 5th gen due to the difficulty. Shiny RNG abused Pokémon from Ruby/Sapphire/Emerald have historically been the product of emulators or the trading of Eggs, which would require the use of external devices. The aim of this guide is to bring shiny Egg RNG abuse to the retail cart players of Emerald. This guide assumes that you know how to do Egg IV RNG abuse. If not, take a look <a href="/ingame/rng/emerald_rng_part1">here</a>.</p>
+
+<h2><a name="addprog">Additional Programs</a></h2>
+
+<ul>
+<li><a href="http://pokemon.thundaga.com/research/apps/eepid.exe">eepid.exe</a> - A tool for figuring out how the PID halves are put together on your game. Requires <a href="http://www.microsoft.com/download/en/details.aspx?id=5555">MS Visual C++ 2010 Redistributable Package</a> to be installed on your computer.</li>
+<li><a href="http://pokemon.thundaga.com/spinda/Spinda%20Painter.htm">Spinda Painter</a> - For being able to figure out the PID of your Pokémon without any external assistance. Note that finding your SID will require external assistance unless you've captured a wild shiny Pokémon on that save file. If you have captured a wild shiny Pokémon check this <a href="/ingame/rng/deducing_secret_id">guide</a> to determine your SID (wild Pokémon in Emerald tend to be Method 2).</li>
+</ul>
+*<u>Note</u>: RNG reporter 9.96 or a later version is required.
+
+<h2><a name="helpinfo">Helpful Information</a></h2>
+
+<p><u>An oddity with the Emerald PRNG</u>: Part of the functions that display the screen is a function called VBlank. The main purpose of it is to clear the screen to prepare for the next video frame, but it makes one call to the PRNG for no reason. This is why the PRNG is tied to video frames. If the VBlank is called during the middle of the generation of a Pokémon, it causes oddities like Methods 2 and 4, split spreads, and alternate inheritance. It may also increase the total calibration value by 1 on occasion. This is what makes Everstone use inaccurate at times. It is believed that the closer you are to the end of the video frame interval of ~1/60th of a second when the functions to generate a Pokémon/Egg PID/Egg IVs, the more likely this will occur.</p>
+
+<p><u>Egg generation chances</u>: There are two separate things that affect the Egg generation chance. They are matching Pokédex number and non-matching Trainer ID numbers. If both are true, the Egg has a 70% chance to generate. If one of the two are true, the Egg has a 50% chance to generate. If neither are true, there is only a 20% chance for it to generate. This means that your Gengar and Gastly of the same Trainer ID have a 20% chance to generate an Egg, but two Gengar of the same Trainer ID have a 50% chance.</p>
+
+<p><u>How often the game checks to generate an Egg?</u>: When the player character takes the 255th step after depositing both parents in the Daycare, and every 255 steps thereafter. For the purposes of this guide, it is not important to know how the Egg is generated after one takes a different Egg from the old man. The game takes 16 frames after you press the D-Pad to move in the direction the player character is facing to generate an Egg on the 255th step.</p>
+
+<p><u>About Egg PIDs</u>: There are two parts to the egg PID&mdash;one is determined by the PRNG like usual, and the other is determined by a timer. The timer advances once every video frame. The PRNG advances by 1 for every timer advancement plus all other advancements (NPCs, encounters, battle, drawing the environment, etc). The drawing of the environment will become useful as you'll see later on, as it can change the difference between the PRNG and the timer.</p>
+
+<h2><a name="calibration">Calibration</a></h2>
+
+<p>Anecdotal evidence suggests that the base calibration value is 19, or 20 with Latios/Latias roaming. However, it would still be a good idea to test it for yourself.</p>
+
+<p>As noted earlier the PRNG and the timer are not totally synchronized. One must find out how far apart they are by generating an Egg in an area that does not advance the PRNG, and figure out the PID of that Egg. Here is what you must do to figure out your calibration:</p>
+<ol>
+<li>Catch a Spinda. Preferably two of different genders for the 50% Egg generation chance. If you can get them with different Trainer IDs that's even better.</li>
+<li>Get in front of the Daycare lady, use a Max Repel, and deposit both Spinda. For the calibration process, make sure an Everstone is not being held.</li>
+<li>Walk 254 steps. The Max Repel wears off after 250 steps. It does not matter where you do the steps as long as the Max Repel wears off in the Daycare building. Once it wears off, do 4 more steps. Changing direction without taking a step does not count as a step.</li>
+<li>Save and reset the game. This will give the lowest possible calibration value.</li>
+<li>Load the save and walk 1 step. Then go check if the old man has an Egg. If he does, go hatch it. If not, repeat until he has an Egg.</li>
+<li>Once the Egg is hatched, use the <a href="http://pokemon.thundaga.com/spinda/Spinda%20Painter.htm">Spinda Painter</a> to deduce the PID. Each spot can be within a 16x16 grid. You should check the PID given by the Spinda Painter to see if it makes sense. It might be tough by looking at a small sprite unfortunately. Take the decimal PID mod 25 to get the nature value and look in <a href="http://www.smogon.com/ingame/rng/pid_iv_creation#finding_nature_from_pid">this table</a> to see if the nature that the PID would yield matches the hatched Spinda. Also, take the decimal PID mod 256 to get the raw gender value. Since Spinda's gender ratio is 50M/50F, a result of 0-126 would be female while 127-255 would be male. Use windows calculator for the mod function (for me, it must be in Programmer or Scientific mode to work with hexadecimal and the mod function).</li>
+<li>Take the decimal PID and enter it into eepid.exe. For the delay range, unless you waited a long time since the reset to generate the Egg, you should search between 0 and 10000. Once it finds the PID you entered, it will give you your calibration value. Enter that into the spreadsheet in the spot for the Base Calibration.</li>
+</ol>
+
+<p>The calibration value can be affected by what's going on in the game. One thing that may affect it is the presence of a roamer. This will be your base calibration value.</p>
+
+<h2><a name="shinypid">Finding a Shiny PID</a></h2>
+
+<div style="text-align: center;"><img src="/media/upload/ingame/rng/e_shinyegg_finder_1.png" alt="Emerald Shiny Egg Finder" /></div>
+
+**<u>Note</u>: The Egg held frame is outside of the search range. The search range in Reporter is off by a total of Base calibration + Redraws x 3.
+
+<p>Most of the screen should be fairly obvious, but here are the less obvious ones:</p>
+
+<ul>
+<li><strong>Egg held frame</strong>: This is the frame that the Egg must be generated on to get the PID you want.</li>
+<li><strong>Redraws</strong>: This is the amount of times one must enter and exit the party menu/Trainer Card/Pokédex/Pokénav.
+For searching, enter your parameters (desired nature, parent compatibility, etc), and the range of frames and number of redraws you're willing to do. Note that it takes about 2.25 seconds to complete one redraw.</li>
+<li><strong>Advances</strong>: This column is displayed only if an Everstone nature is selected. The higher the number in this column is the less likely that you will obtain the predicted PID due to the VBlank function. Because of this, the PID won't match what is predicted if it's called prior to a PID that fits the nature being generated. From what I'm told, the safe number of advances is less than 17, but this may vary.</li>
+</ul>
+
+<p>Once you find a shiny spread you're willing to accept, do another search for all possible Eggs that are near your shiny PID with the given number of redraws. In this example, I will pick the Impish spread at the top. So, adjust Reporter to display any valid Egg PID and have the min/max redraws set to that of the Egg PID you wish to use.</p>
+
+<div style="text-align: center;"><img src="/media/upload/ingame/rng/e_shinyegg_finder_2.png" alt="Emerald Shiny Egg Finder 2" /></div>
+
+<p>The target frame is 4726, with the nearest non-shiny Eggs being possible on frames 4721 and 4730. Having a spread with possible Eggs far vs. close to the desired PID has advantages either way. With close Eggs, you can get more Eggs to confirm the frame you actually hit so you can adjust your timer accordingly. With no close Eggs, you'll immediately know when you did or didn't get your desired PID, but if you miss you won't know the frame you hit.</p>
+
+<h2><a name="timer">Setting up the Timer</a></h2>
+
+<p>Using only in-game means this will be quite time-consuming. You will have to test the ability to hit your shiny PID using Spinda breeds, with at least the minimum breeding percentage of the breed you will be doing. Set up your timer using the frame that has your shiny Egg PID and take the 255th step when the timer runs out. If the old man has an Egg, go hatch it and determine the PID. If the Spinda comes out shiny then congratulations, you hit your shiny spread. Go start your actual project. If not, then adjust your timer according to the frame you actually hit. If the old man did not have an Egg try again. If he consistently does not have an Egg, adjust the timer slightly and repeat (pick either direction based on whether you think you're early or late).</p>
+
+<p>If you get a PID that that isn't in the search result, first add one to the base calibration and run the search again. The reason for this is the aforementioned VBlank function. If you haven't found your PID, then you probably miscounted the amount of redraws you did. Run searches with increased/decreased amount of redraws, etc.</p>
+
+<p>When it comes to your actual project, you will have to save before picking up the Egg if you intend to abuse the Egg IVs as well. This means each time you don't get the desired PID you will have to take the parents out of the Daycare, redeposit them, walk 254 steps, save, and repeat. Once you have your shiny Egg, you may proceed to do RNG abuse for your Egg IVs.</p>
+
+<p>Sometimes, when doing Egg IV abuse you will hit split frames or alternate inheritance when you don't want to. Usually, waiting around and making another save can fix this, especially for split spreads. However, it might not, so you may have to generate another shiny Egg unfortunately.</p>
+
+<h2><a name="otherfile">RNGing an Egg to be Hatched on a Different Save File</a></h2>
+
+<p>Since the PID is generated separately from the IVs, and there is no way to guarantee the IVs without hatching the Egg, you may wonder how this is even possible. Well, normally it's not, but by taking advantage of the cloning glitch in a strange way it is. Once you have your Egg PID verified (check gender and nature) and you have the game saved prior to taking the Egg, you take it, save, then hatch it. If the IVs are what you want then reset, trade the Egg, and hatch it. If they're not, go do the cloning glitch, except you don't do anything with the PC, and you TURN OFF THE GAME during the "presave" part (when there's no dialogue on screen). This will CORRUPT the current save, which loads the previous save of you being in front of the Daycare man and him holding the Egg. MAKE SURE YOU SAVE AGAIN PRIOR TO DOING ANYTHING ELSE. Otherwise you risk losing your save completely. Then repeat the process until you get the desired IVs.</p>

@@ -1,0 +1,89 @@
+[title]
+Syclant
+[head]
+<link rel="stylesheet" type="text/css" href="/media/dex/dex.css" />
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_template.js"></script>
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_database.js"></script>
+[header]
+[page]
+<script language="JavaScript">
+var cap = Syclant();
+
+cap.movesLevel[0] = ["Fury Attack", "Leer", "Leech Life"];
+cap.movesLevel[5] = "Ice Shard";
+cap.movesLevel[8] = "Focus Energy";
+cap.movesLevel[14] = "Slash";
+cap.movesLevel[18] = "Icy Wind";
+cap.movesLevel[27] = "X-Scissor";
+cap.movesLevel[30] = "Ice Punch";
+cap.movesLevel[35] = "Hail";
+cap.movesLevel[42] = "Bug Buzz";
+cap.movesLevel[49] = "Avalanche";
+cap.movesLevel[60] = "Sheer Cold";
+
+cap.movesTM[1] = "Focus Punch";
+cap.movesTM[3] = "Water Pulse";
+cap.movesTM[6] = "Toxic";
+cap.movesTM[7] = "Hail";
+cap.movesTM[10] = "Hidden Power";
+cap.movesTM[12] = "Taunt";
+cap.movesTM[13] = "Ice Beam";
+cap.movesTM[14] = "Blizzard";
+cap.movesTM[15] = "Hyper Beam";
+cap.movesTM[17] = "Protect";
+cap.movesTM[18] = "Rain Dance";
+cap.movesTM[21] = "Frustration";
+cap.movesTM[26] = "Earthquake";
+cap.movesTM[27] = "Return";
+cap.movesTM[31] = "Brick Break";
+cap.movesTM[32] = "Double Team";
+cap.movesTM[42] = "Facade";
+cap.movesTM[43] = "Secret Power";
+cap.movesTM[44] = "Rest";
+cap.movesTM[45] = "Attract";
+cap.movesTM[52] = "Focus Blast";
+cap.movesTM[54] = "False Swipe";
+cap.movesTM[56] = "Fling";
+cap.movesTM[58] = "Endure";
+cap.movesTM[62] = "Silver Wind";
+cap.movesTM[68] = "Giga Impact";
+cap.movesTM[71] = "Stone Edge";
+cap.movesTM[72] = "Avalanche";
+cap.movesTM[75] = "Swords Dance";
+cap.movesTM[78] = "Captivate";
+cap.movesTM[80] = "Rock Slide";
+cap.movesTM[81] = "X-Scissor";
+cap.movesTM[82] = "Sleep Talk";
+cap.movesTM[83] = "Natural Gift";
+cap.movesTM[87] = "Swagger";
+cap.movesTM[89] = "U-turn";
+cap.movesTM[90] = "Substitute";
+
+cap.movesHM[1] = "Cut";
+cap.movesHM[4] = "Strength";
+cap.movesHM[6] = "Rock Smash";
+
+cap.movesEgg = [
+	"Earth Power",
+	"Pin Missile",
+	"Spikes",
+	"Superpower",
+	"Tail Glow"
+];
+
+cap.movesTutor = [
+        "Bug Bite",
+        "Counter",
+        "Double-Edge",
+        "Earth Power",
+        "Fury Cutter",
+        "Ice Punch",
+        "Icy Wind",
+        "Mimic",
+        "Snore",
+        "String Shot",
+        "Superpower"
+];
+
+document.write(composeMovesPage(cap));
+</script>

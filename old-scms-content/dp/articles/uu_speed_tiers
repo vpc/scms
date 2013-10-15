@@ -1,0 +1,838 @@
+[code]
+[title]
+Underused Speed Tiers
+[head]
+<meta name="description" content="A guide to the Magic Speed Numbers in the Underused metagame." />
+<script type="text/javascript" src="/media/jquery.js"></script>
+<script type="text/javascript" src="/media/jquery.tablesorter.js"></script>
+[page]
+        <div class="author">By <a href="/forums/member.php?u=24168">jumpluff</a>, <a href="/forums/member.php?u=18818">Serv</a>, <a href="/forums/member.php?u=20194">Imran</a>, <a href="/forums/member.php?u=24339">Peachfuzz</a>, and <a href="/forums/member.php?u=22173">Stellar</a>.</div>
+    
+
+        <ol class="toc">
+            <li><a href="#intro">Getting Started</a></li>          
+            <li><a href="#tier0">Tier 0 (+1 / +2 users to &gt;90 base Speed)</a></li>
+            <li><a href="#tier1">Tier 1 (100 to 140 Base Speed)</a></li>
+            <li><a href="#tier2">Tier 2 (70 to 100 Base Speed)</a></li>            
+            <li><a href="#tier3">Tier 3 (&lt;70 Base Speed)</a></li>
+        </ol>
+        
+        <h2><a name="intro">Getting Started</a></h2>
+        
+            <p>To begin with, find the maximum Speed of the Pokemon you're building. You can find this information on our <a href="/dp/pokemon/">analysis pages</a> for each Pokemon. After you've found your maximum Speed, use the following tables to see how much Speed the threats you wish to outspeed have, and EV your Pokemon accordingly. Keep in mind that when calculating your maximum Speed stat, you need to take into account your Pokemon's Speed IV.</p>
+            
+            <p>For example, +Speed natured Pinsir can hit a maximum Speed of 295. The closest threat in it's speed tier sits at 291 Speed (being a positive natured Magmortar). You can therefore safely run 292 Speed, which requires 240 EVs as opposed to 252, and still allows Pinsir to outrun all necessary threats in the speed tiers.</p>
+            
+        <h3>Speed Boosts</h3>
+        
+            <p>To calculate your necessary starting Speed when factoring in Agility, Rock Polish, Chlorophyll, or Swift Swim, all you need to do is add one to the Speed of the Pokemon you wish to outspeed, divide it by two and round up the result. In practice, for example, should you decide that you want your Altaria to outspeed positive Speed Electrode after a single agility to destroy it with Earthquake, you just add one to Electrode's Speed, giving you 418. Dividing this in half and rounding up the result when necessary gives you your desired starting Speed which is 209 in this case.</p>
+            
+            <p>To factor in the use of Dragon Dance or Salac Berry, you need to find the Speed of the target you wish to outspeed and multiply it by 2/3. For example, if you want your Altaria to outspeed positive Speed Electrode, all you need to do is multiply your target Speed (417) by 2/3, which returns 278. After a single Dragon Dance Altaria should now hit 417 but in order to outspeed Electrode you would want at least 418, so add a single point the 278, this is now the minimum starting Speed necessary in this case.</p>    
+    
+        <h2><a name="tier0">Tier 0 (+1 / +2 users to &gt;90 base Speed)</a></h2>
+        
+              <table class="sortable" id="tier0_tbl">
+                <thead>
+                    <tr>
+                        <th>Speed Stat</th>
+                        <th>Pokemon</th>
+                        <th>Base Speed</th>                                                
+                        <th>Nature</th>    
+                        <th>Boost</th>                                    
+                        <th>EVs</th>    
+                    </tr>
+                </thead>
+                <tbody>  
+                    <tr>                    
+                          <td>700</td>                      
+                          <td><a href="/dp/pokemon/jumpluff">Jumpluff</a></td>
+                          <td>110</td>                        
+                          <td>+Speed</td>
+                          <td>+2</td>
+                          <td>252</td>
+                    </tr>
+                    <tr>
+                          <td>658</td>                      
+                          <td><a href="/dp/pokemon/floatzel">Floatzel</a></td>
+                          <td>115</td>                        
+                          <td>Neutral</td>
+                          <td>+2</td>
+                          <td>252</td>
+                    </tr>
+                    <tr>                    
+                          <td>568</td>                      
+                          <td><a href="/dp/pokemon/drifblim">Drifblim</a>, <a href="/dp/pokemon/kabutops">Kabutops</a>, <a href="/dp/pokemon/shiftry">Shiftry</a></td>
+                          <td>80</td>                        
+                          <td>+Speed</td>
+                          <td>+2</td>
+                          <td>252</td>
+                    </tr>
+                    <tr>                    
+                          <td>538</td>                      
+                          <td><a href="/dp/pokemon/qwilfish">Qwilfish</a></td>
+                          <td>85</td>                        
+                          <td>Neutral</td>
+                          <td>+2</td>
+                          <td>252</td>
+                    </tr>
+                    <tr>                    
+                          <td>518</td>                      
+                          <td><a href="/dp/pokemon/blaziken">Blaziken</a>, <a href="/dp/pokemon/drifblim">Drifblim</a>, <a href="/dp/pokemon/kabutops">Kabutops</a>, <a href="/dp/pokemon/shiftry">Shiftry</a></td>
+                          <td>80</td>                        
+                          <td>Neutral</td>
+                          <td>+2</td>
+                          <td>252</td>
+                    </tr>
+                    <tr>                    
+                          <td>478</td>                      
+                          <td><a href="/dp/pokemon/ludicolo">Ludicolo</a>, <a href="/dp/pokemon/victreebel">Victreebel</a></td>
+                          <td>70</td>                        
+                          <td>Neutral</td>
+                          <td>+2</td>
+                          <td>252</td>
+                    </tr>
+                    <tr>                    
+                          <td>463</td>                      
+                          <td><a href="/dp/pokemon/rotom">Rotom</a></td>
+                          <td>91</td>                        
+                          <td>+Speed</td>
+                          <td>+1</td>
+                          <td>252</td>
+                    </tr>
+                    <tr>                    
+                          <td>459</td>                      
+                          <td><a href="/dp/pokemon/moltres">Moltres</a></td>
+                          <td>90</td>                        
+                          <td>+Speed</td>
+                          <td>+1</td>
+                          <td>252</td>
+                    </tr>
+                    <tr>                    
+                          <td>458</td>                      
+                          <td><a href="/dp/pokemon/exeggutor">Exeggutor</a>, <a href="/dp/pokemon/omastar">Omastar</a></td>
+                          <td>55</td>                        
+                          <td>+Speed</td>
+                          <td>+2</td>
+                          <td>252</td>
+                    </tr>    
+                    <tr>                    
+                          <td>448</td>                      
+                          <td><a href="/dp/pokemon/typhlosion">Typhlosion</a></td>
+                          <td>100</td>                        
+                          <td>Neutral</td>
+                          <td>+1</td>
+                          <td>252</td>
+                    </tr>
+                    <tr>                    
+                          <td>426</td>                      
+                          <td><a href="/dp/pokemon/altaria">Altaria</a>, <a href="/dp/pokemon/kabutops">Kabutops</a>, <a href="/dp/pokemon/venusaur">Venusaur</a></td>
+                          <td>80</td>                        
+                          <td>+Speed</td>
+                          <td>+1</td>
+                          <td>252</td>
+                    </tr>
+                    <tr>                    
+                          <td>422</td>                      
+                          <td><a href="/dp/pokemon/torterra">Torterra</a></td>
+                          <td>56</td>                        
+                          <td>Neutral</td>
+                          <td>+2</td>
+                          <td>252</td>
+                    </tr>
+                    <tr>                    
+                          <td>421</td>                      
+                          <td><a href="/dp/pokemon/rotom">Rotom</a></td>
+                          <td>91</td>                        
+                          <td>Neutral</td>
+                          <td>+1</td>
+                          <td>252</td>
+                    </tr>
+                    <tr>                    
+                          <td>418</td>                      
+                          <td><a href="/dp/pokemon/moltres">Moltres</a></td>
+                          <td>90</td>                        
+                          <td>Neutral</td>
+                          <td>+1</td>
+                          <td>252</td>
+                    </tr>
+                    <tr>                    
+                          <td>418</td>                      
+                          <td><a href="/dp/pokemon/exeggutor">Exeggutor</a>, <a href="/dp/pokemon/omastar">Omastar</a></td>
+                          <td>55</td>                        
+                          <td>Neutral</td>
+                          <td>+2</td>
+                          <td>252</td>
+                    </tr>
+                </tbody>
+            </table>    
+                
+        <h2><a name="tier1">Tier 1 (100 to 140 Base Speed)</a></h2>
+        
+              <table class="sortable" id="tier1_tbl">
+                <thead>
+                    <tr>
+                        <th>Speed Stat</th>
+                        <th>Pokemon</th>
+                        <th>Base Speed</th>
+                        <th>Nature</th>    
+                        <th>Boost</th>
+                        <th>EVs</th>    
+                    </tr>
+                </thead>
+                <tbody>      
+                    <tr>                    
+                          <td>416</td>                      
+                          <td><a href="/dp/pokemon/electrode">Electrode</a></td>
+                          <td>140</td>                        
+                          <td>+Speed</td>
+                          <td>None</td>
+                          <td>252</td>
+                    </tr>              
+                    <tr>                    
+                          <td>409</td>                      
+                          <td><a href="/dp/pokemon/absol">Absol</a></a></td>
+                          <td>75</td>                        
+                          <td>+Speed</td>
+                          <td>+1</td>
+                          <td>252</td>
+                    </tr>
+                    <tr>                    
+                          <td>409</td>                      
+                          <td><a href="/dp/pokemon/hitmonlee">Hitmonlee</a></td>
+                          <td>87</td>                        
+                          <td>Neutral</td>
+                          <td>+1</td>
+                          <td>252</td>
+                    </tr>    
+                    <tr>                    
+                          <td>406</td>                      
+                          <td><a href="/dp/pokemon/gorebyss">Gorebyss</a></td>
+                          <td>52</td>                        
+                          <td>Neutral</td>
+                          <td>+2</td>
+                          <td>252</td>
+                    </tr>
+                    <tr>                    
+                          <td>405</td>                      
+                          <td><a href="/dp/pokemon/linoone">Linoone</a></td>
+                          <td>100</td>                        
+                          <td>Neutral</td>
+                          <td>+1</td>
+                          <td>136</td>
+                    </tr>
+                    <tr>                    
+                          <td>398</td>                      
+                          <td><a href="/dp/pokemon/aggron">Aggron</a></td>
+                          <td>50</td>                        
+                          <td>Neutral</td>
+                          <td>+2</td>
+                          <td>252</td>
+                    </tr>
+                    <tr>              
+                          <td>397</td>                      
+                          <td><a href="/dp/pokemon/magmortar">Magmortar</a></td>
+                          <td>83</td>                        
+                          <td>Neutral</td>
+                          <td>+1</td>
+                          <td>252</td>
+                    </tr>
+                    <tr>          
+                          <td>393</td>                      
+                          <td><a href="/dp/pokemon/magneton">Magneton</a>, <a href="/dp/pokemon/poliwrath">Poliwrath</a></td>
+                          <td>70</td>                        
+                          <td>+Speed</td>
+                          <td>+1</td>
+                          <td>252</td>
+                    </tr>
+                    <tr>                  
+                          <td>392</td>                      
+                          <td><a href="/dp/pokemon/rhyperior">Rhyperior</a></a></td>
+                          <td>40</td>                        
+                          <td>+Speed</td>
+                          <td>+2</td>
+                          <td>252</td>
+                    </tr>
+                    <tr>                        
+                          <td>388</td>                      
+                          <td><a href="/dp/pokemon/altaria">Altaria</a>, <a href="/dp/pokemon/blaziken">Blaziken</a>, <a href="/dp/pokemon/kabutops">Kabutops</a>, <a href="/dp/pokemon/venusaur">Venusaur</a></td>
+                          <td>80</td>                        
+                          <td>Neutral</td>
+                          <td>+1</td>
+                          <td>252</td>
+                    </tr>
+                    <tr>                    
+                          <td>383</td>                      
+                          <td><a href="/dp/pokemon/swellow">Swellow</a></td>
+                          <td>125</td>                        
+                          <td>+Speed</td>
+                          <td>None</td>
+                          <td>252</td>
+                    </tr>          
+                    <tr>                      
+                          <td>382</td>                      
+                          <td><a href="/dp/pokemon/feraligatr">Feraligatr</a></td>
+                          <td>78</td>                        
+                          <td>Neutral</td>
+                          <td>+1</td>
+                          <td>252</td>
+                    </tr>
+                     <tr>                  
+                          <td>373</td>                      
+                          <td><a href="/dp/pokemon/absol">Absol</a></td>
+                          <td>75</td>                        
+                          <td>Neutral</td>
+                          <td>+1</td>
+                          <td>252</td>
+                    </tr>
+                    <tr>                      
+                          <td>372</td>                      
+                          <td><a href="/dp/pokemon/alakazam">Alakazam</a>, <a href="/dp/pokemon/dugtrio">Dugtrio</a>, <a href="/dp/pokemon/sceptile">Sceptile</a></td>
+                          <td>120</td>                        
+                          <td>+Speed</td>
+                          <td>None</td>
+                          <td>252</td>
+                    </tr>
+                    <tr>                    
+                          <td>363</td>                      
+                          <td><a href="/dp/pokemon/altaria">Altaria</a></td>
+                          <td>80</td>                        
+                          <td>Neutral</td>
+                          <td>+1</td>
+                          <td>184</td>
+                    </tr>
+                    <tr>                      
+                          <td>361</td>                      
+                          <td><a href="/dp/pokemon/ambipom">Ambipom</a>, <a href="/dp/pokemon/floatzel">Floatzel</a>, <a href="/dp/pokemon/raikou">Raikou</a></td>
+                          <td>115</td>                        
+                          <td>+Speed</td>
+                          <td>None</td>
+                          <td>252</td>
+                    </tr>
+                    <tr>                      
+                          <td>358</td>                      
+                          <td><a href="/dp/pokemon/camerupt">Camerupt</a>, <a href="/dp/pokemon/rhyperior">Rhyperior</a></td>
+                          <td>40</td>                        
+                          <td>Neutral</td>
+                          <td>+2</td>
+                          <td>252</td>
+                    </tr>
+                    <tr>                    
+                          <td>350</td>                      
+                          <td><a href="/dp/pokemon/espeon">Espeon</a>, <a href="/dp/pokemon/jumpluff">Jumpluff</a></td>
+                          <td>110</td>                        
+                          <td>+Speed</td>
+                          <td>None</td>
+                          <td>252</td>
+                    </tr>
+                    <tr>                    
+                          <td>343</td>                      
+                          <td><a href="/dp/pokemon/ursaring">Ursaring</a>, <a href="/dp/pokemon/crawdaunt">Crawdaunt</a></td>
+                          <td>55</td>                        
+                          <td>+Speed</td>
+                          <td>+1</td>
+                          <td>252</td>
+                    </tr>
+                    <tr>                    
+                          <td>339</td>                      
+                          <td><a href="/dp/pokemon/dugtrio">Dugtrio</a></td>
+                          <td>120</td>                        
+                          <td>Neutral</td>
+                          <td>None</td>
+                          <td>252</td>
+                    </tr>
+                    <tr>  
+                          <td>339</td>                      
+                          <td><a href="/dp/pokemon/mismagius">Mismagius</a>, <a href="/dp/pokemon/scyther">Scyther</a></td>
+                          <td>105</td>                        
+                          <td>+Speed</td>
+                          <td>None</td>
+                          <td>252</td>
+                    </tr>
+                    <tr>                    
+                          <td>328</td>                      
+                          <td><a href="/dp/pokemon/typhlosion">Typhlosion</a></td>
+                          <td>100</td>                        
+                          <td>+Speed</td>
+                          <td>None</td>
+                          <td>252</td>
+                    </tr>
+                    <tr>                      
+                          <td>318</td>                      
+                          <td><a href="/dp/pokemon/lapras">Lapras</a></td>
+                          <td>60</td>                        
+                          <td>Neutral</td>
+                          <td>+1</td>
+                          <td>252</td>
+                    </tr>
+                </tbody>    
+            </table>    
+            
+        <h2><a name="tier2">Tier 2 (70 to 100 Base Speed)</a></h2>
+        
+              <table class="sortable" id="tier2_tbl">
+                <thead>
+                    <tr>
+                       <th>Speed Stat</th>
+                        <th>Pokemon</th>
+                        <th>Base Speed</th>
+                        <th>Nature</th>
+                        <th>Boost</th>                                    
+                        <th>EVs</th>    
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>                    
+                          <td>317</td>                      
+                          <td><a href="/dp/pokemon/arcanine">Arcanine</a>, <a href="/dp/pokemon/drapion">Drapion</a>, <a href="/dp/pokemon/houndoom">Houndoom</a>, <a href="/dp/pokemon/jynx">Jynx</a>, <a href="/dp/pokemon/sharpedo">Sharpedo</a></td>
+                          <td>95</td>                        
+                          <td>+Speed</td>
+                          <td>None</td>
+                          <td>252</td>
+                    </tr>
+                     <tr>                  
+                          <td>309</td>                      
+                          <td><a href="/dp/pokemon/rotom">Rotom</a></td>
+                          <td>91</td>                        
+                          <td>+Speed</td>
+                          <td>None</td>
+                          <td>252</td>
+                    </tr>
+                    <tr>                    
+                          <td>309</td>                      
+                          <td><a href="/dp/pokemon/scyther">Scyther</a></td>
+                          <td>105</td>                        
+                          <td>Neutral</td>
+                          <td>None</td>
+                          <td>252</td>
+                    </tr>
+                    <tr>                    
+                          <td>306</td>                      
+                          <td><a href="/dp/pokemon/moltres">Moltres</a>, <a href="/dp/pokemon/kangaskhan">Kangaskhan</a></td>
+                          <td>90</td>                        
+                          <td>+Speed</td>
+                          <td>None</td>
+                          <td>252</td>
+                    </tr>
+                    <tr>                    
+                          <td>300</td>                      
+                          <td><a href="/dp/pokemon/hitmonlee">Hitmonlee</a></td>
+                          <td>87</td>                        
+                          <td>+Speed</td>
+                          <td>None</td>
+                          <td>252</td>
+                    </tr>
+                    <tr>                    
+                          <td>299</td>                      
+                          <td><a href="/dp/pokemon/miltank">Miltank</a>, <a href="/dp/pokemon/typhlosion">Typhlosion</a></td>
+                          <td>100</td>                        
+                          <td>Neutral</td>
+                          <td>None</td>
+                          <td>252</td>
+                    </tr>
+                    <tr>                    
+                          <td>295</td>                      
+                          <td><a href="/dp/pokemon/toxicroak">Toxicroak</a></td>
+                          <td>85</td>                        
+                          <td>+Speed</td>
+                          <td>None</td>
+                          <td>252</td>
+                    </tr>
+                    <tr>                    
+                          <td>291</td>                      
+                          <td><a href="/dp/pokemon/magmortar">Magmortar</a></td>
+                          <td>83</td>                        
+                          <td>+Speed</td>
+                          <td>None</td>
+                          <td>252</td>
+                    </tr>
+                    <tr>
+                          <td>289</td>                      
+                          <td><a href="/dp/pokemon/arcanine">Arcanine</a>, <a href="/dp/pokemon/drapion">Drapion</a>, <a href="/dp/pokemon/jynx">Jynx</a>, <a href="/dp/pokemon/primeape">Primeape</a>, <a href="/dp/pokemon/sharpedo">Sharpedo</a></td>
+                          <td>95</td>                        
+                          <td>Neutral</td>
+                          <td>None</td>
+                          <td>252</td>
+                    </tr>
+                    <tr>                    
+                          <td>287</td>                      
+                          <td><a href="/dp/pokemon/milotic">Milotic</a></td>
+                          <td>81</td>                        
+                          <td>+Speed</td>
+                          <td>None</td>
+                          <td>252</td>
+                    </tr>
+                    <tr>
+                          <td>284</td>                      
+                          <td><a href="/dp/pokemon/altaria">Altaria</a>, <a href="/dp/pokemon/blaziken">Blaziken</a>, <a href="/dp/pokemon/kabutops">Kabutops</a>, <a href="/dp/pokemon/shiftry">Shiftry</a>, <a href="/dp/pokemon/venusaur">Venusaur</a></td>
+                          <td>80</td>                        
+                          <td>+Speed</td>
+                          <td>None</td>
+                          <td>252</td>
+                    </tr>
+                    <tr>                    
+                          <td>281</td>                      
+                          <td><a href="/dp/pokemon/rotom">Rotom</a></a></td>
+                          <td>91</td>                        
+                          <td>Neutral</td>
+                          <td>None</td>
+                          <td>252</td>
+                    </tr>
+                    <tr>                    
+                          <td>280</td>                      
+                          <td><a href="/dp/pokemon/feraligatr">Feraligatr</a></td>
+                          <td>78</td>                        
+                          <td>+Speed</td>
+                          <td>None</td>
+                          <td>252</td>
+                    </tr>
+                    <tr>
+                          <td>279</td>                      
+                          <td><a href="/dp/pokemon/moltres">Moltres</a>, <a href="/dp/pokemon/kangaskhan">Kangaskhan</a></td>
+                          <td>90</td>                        
+                          <td>Neutral</td>
+                          <td>None</td>
+                          <td>252</td>
+                    </tr>
+                    <tr>                    
+                          <td>276</td>                      
+                          <td><a href="/dp/pokemon/hitmonchan">Hitmonchan</a></td>
+                          <td>76</td>                        
+                          <td>+Speed</td>
+                          <td>None</td>
+                          <td>252</td>
+                    </tr>
+                    <tr>                    
+                          <td>273</td>                      
+                          <td><a href="/dp/pokemon/hitmonlee">Hitmonlee</a></td>
+                          <td>87</td>                        
+                          <td>Neutral</td>
+                          <td>None</td>
+                          <td>252</td>
+                    </tr>
+                    <tr>                    
+                          <td>269</td>                      
+                          <td><a href="/dp/pokemon/qwilfish">Qwilfish</a>, <a href="/dp/pokemon/toxicroak">Toxicroak</a></td>
+                          <td>85</td>                        
+                          <td>Neutral</td>
+                          <td>None</td>
+                          <td>252</td>
+                    </tr>
+                    <tr>
+                          <td>265</td>                      
+                          <td><a href="/dp/pokemon/magmortar">Magmortar</a></td>
+                          <td>83</td>                        
+                          <td>Neutral</td>
+                          <td>None</td>
+                          <td>252</td>
+                    </tr>
+                    <tr>
+                          <td>261</td>                      
+                          <td><a href="/dp/pokemon/milotic">Milotic</a></td>
+                          <td>81</td>                        
+                          <td>Neutral</td>
+                          <td>None</td>
+                          <td>252</td>
+                    </tr>
+                    <tr>
+                          <td>259</td>                      
+                          <td><a href="/dp/pokemon/blaziken">Blaziken</a>, <a href="/dp/pokemon/kabutops">Kabutops</a></td>
+                          <td>80</td>                        
+                          <td>Neutral</td>
+                          <td>None</td>
+                          <td>252</td>
+                    </tr>
+                     <tr>                  
+                          <td>255</td>                      
+                          <td><a href="/dp/pokemon/Feraligatr">Feraligatr</a></td>
+                          <td>78</td>                        
+                          <td>Neutral</td>
+                          <td>None</td>
+                          <td>252</td>
+                    </tr>
+                    <tr>                  
+                          <td>249</td>                      
+                          <td><a href="/dp/pokemon/absol">Absol</a></td>
+                          <td>75</td>                        
+                          <td>Neutral</td>
+                          <td>None</td>
+                          <td>252</td>
+                    </tr>
+                    <tr>
+                          <td>242</td>                      
+                          <td><a href="/dp/pokemon/altaria">Altaria</a>, <a href="/dp/pokemon/blaziken">Blaziken</a></td>
+                          <td>80</td>                        
+                          <td>Neutral</td>
+                          <td>None</td>
+                          <td>184</td>
+                    </tr>
+                    <tr>                    
+                          <td>239</td>                      
+                          <td><a href="/dp/pokemon/hitmontop">Hitmontop</a>, <a href="/dp/pokemon/ludicolo">Ludicolo</a>, <a href="/dp/pokemon/poliwrath">Poliwrath</a></td>
+                          <td>70</td>                        
+                          <td>Neutral</td>
+                          <td>None</td>
+                          <td>252</td>
+                    </tr>
+                </tbody>    
+            </table>    
+            
+        <h2><a name="tier3">Tier 3 (&lt;70 Base Speed)</a></h2>
+        
+              <table class="sortable" id="tier3_tbl">
+                <thead>
+                    <tr>
+                        <th>Speed Stat</th>
+                        <th>Pokemon</th>
+                        <th>Base Speed</th>
+                        <th>Nature</th>
+                        <th>Boost</th>
+                        <th>EVs</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                          <td>236</td>                      
+                          <td><a href="/dp/pokemon/miltank">Miltank</a></td>
+                          <td>100</td>                        
+                          <td>Neutral</td>
+                          <td>None</td>
+                          <td>0</td>
+                    </tr>
+                    <tr>
+                          <td>229</td>                      
+                          <td><a href="/dp/pokemon/omastar">Omastar</a></td>
+                          <td>55</td>                        
+                          <td>+Speed</td>
+                          <td>None</td>
+                          <td>252</td>
+                    </tr>
+                    <tr>
+                          <td>226</td>                      
+                          <td><a href="/dp/pokemon/drapion">Drapion</a></td>
+                          <td>95</td>                        
+                          <td>Neutral</td>
+                          <td>None</td>
+                          <td>0</td>
+                    </tr>
+
+                    <tr>                    
+                          <td>218</td>                      
+                          <td><a href="/dp/pokemon/rotom">Rotom</a></td>
+                          <td>91</td>                        
+                          <td>Neutral</td>
+                          <td>None</td>
+                          <td>0</td>
+                    </tr>
+                    <tr>
+                          <td>218</td>                      
+                          <td><a href="/dp/pokemon/aggron">Aggron</a></td>
+                          <td>50</td>                        
+                          <td>+Speed</td>
+                          <td>None</td>
+                          <td>252</td>
+                    </tr>
+                    <tr>
+                          <td>211</td>                      
+                          <td><a href="/dp/pokemon/torterra">Torterra</a></td>
+                          <td>56</td>                        
+                          <td>Neutral</td>
+                          <td>None</td>
+                          <td>252</td>
+                    </tr>
+                    <tr>                    
+                          <td>209</td>                      
+                          <td><a href="/dp/pokemon/cacturne">Cacturne</a></td>
+                          <td>55</td>                        
+                          <td>Neutral</td>
+                          <td>None</td>
+                          <td>252</td>
+                    </tr>
+                    <tr>                    
+                          <td>200</td>                      
+                          <td><a href="/dp/pokemon/milotic">Milotic</a></td>
+                          <td>81</td>                        
+                          <td>Neutral</td>
+                          <td>None</td>
+                          <td>8</td>
+                    </tr>
+                    <tr>
+                          <td>199</td>                      
+                          <td><a href="/dp/pokemon/aggron">Aggron</a>, <a href="/dp/pokemon/tangrowth">Tangrowth</a></td>
+                          <td>50</td>
+                          <td>Neutral</td>
+                          <td>None</td>
+                          <td>252</td>
+                    </tr>
+                    <tr>  
+                          <td>196</td>
+                          <td><a href="/dp/pokemon/altaria">Altaria</a>, <a href="/dp/pokemon/blaziken">Blaziken</a>, <a href="/dp/pokemon/kabutops">Kabutops</a>, <a href="/dp/pokemon/mesprit">Mesprit</a>, <a href="/dp/pokemon/venusaur">Venusaur</a></td>
+                          <td>80</td>
+                          <td>Neutral</td>
+                          <td>None</td>
+                          <td>0</td>
+                    </tr>
+                    <tr>                  
+                          <td>196</td>                      
+                          <td><a href="/dp/pokemon/rhyperior">Rhyperior</a></td>
+                          <td>40</td>
+                          <td>+Speed</td>
+                          <td>None</td>
+                          <td>252</td>
+                    </tr>
+                    <tr>
+                          <td>192</td>                      
+                          <td><a href="/dp/pokemon/blastoise">Blastoise</a></td>
+                          <td>78</td>                        
+                          <td>Neutral</td>
+                          <td>None</td>
+                          <td>0</td>
+                    </tr>
+                    <tr>
+                          <td>188</td>                      
+                          <td><a href="/dp/pokemon/nidoqueen">Nidoqueen</a></td>
+                          <td>76</td>                        
+                          <td>Neutral</td>
+                          <td>None</td>
+                          <td>0</td>
+                    </tr>
+                    <tr>                    
+                          <td>186</td>                      
+                          <td><a href="/dp/pokemon/claydol">Claydol</a></td>
+                          <td>75</td>                        
+                          <td>Neutral</td>
+                          <td>None</td>
+                          <td>0</td>
+                    </tr>
+                    <tr>
+                          <td>179</td>                      
+                          <td><a href="/dp/pokemon/rhyperior">Rhyperior</a>, <a href="/dp/pokemon/shedinja">Shedinja</a></td>
+                          <td>40</td>                        
+                          <td>Neutral</td>
+                          <td>None</td>
+                          <td>252</td>
+                    </tr>
+                    <tr>                    
+                          <td>176</td>                      
+                          <td><a href="/dp/pokemon/cloyster">Cloyster</a>, <a href="/dp/pokemon/hitmontop">Hitmontop</a>, <a href="/dp/pokemon/poliwrath">Poliwrath</a> </td>
+                          <td>70</td>                        
+                          <td>Neutral</td>
+                          <td>None</td>
+                          <td>0</td>
+                    </tr>                    
+                    <tr>
+                          <td>170</td>                      
+                          <td><a href="/dp/pokemon/lanturn">Lanturn</a></td>
+                          <td>67</td>                        
+                          <td>Neutral</td>
+                          <td>None</td>
+                          <td>0</td>
+                    </tr>
+                    <tr>                    
+                          <td>166</td>                      
+                          <td><a href="/dp/pokemon/walrein">Walrein</a></td>
+                          <td>65</td>                        
+                          <td>Neutral</td>
+                          <td>None</td>
+                          <td>0</td>
+                    </tr>    
+                    <tr>                    
+                          <td>156</td>                      
+                          <td><a href="/dp/pokemon/clefable">Clefable</a>, <a href="/dp/pokemon/lapras">Lapras</a>, <a href="/dp/pokemon/porygon2">Porygon2</a>, <a href="/dp/pokemon/weezing">Weezing</a></td>
+                          <td>60</td>                        
+                          <td>Neutral</td>
+                          <td>None</td>
+                          <td>0</td>
+                    </tr>
+                    <tr>                    
+                          <td>146</td>                      
+                          <td><a href="/dp/pokemon/cacturne">Cacturne</a>, <a href="/dp/pokemon/omastar">Omastar</a></td>
+                          <td>55</td>                        
+                          <td>Neutral</td>
+                          <td>None</td>
+                          <td>0</td>
+                    </tr>
+                    <tr>                    
+                          <td>140</td>                      
+                          <td><a href="/dp/pokemon/weezing">Weezing</a></td>
+                          <td>60</td>                        
+                          <td>-Speed</td>
+                          <td>None</td>
+                          <td>0</td>
+                    </tr>
+                    <tr>                    
+                          <td>136</td>                      
+                          <td><a href="/dp/pokemon/aggron">Aggron</a>, <a href="/dp/pokemon/azumarill">Azumarill</a>, <a href="/dp/pokemon/chansey">Chansey</a>, <a href="/dp/pokemon/donphan">Donphan</a>, <a href="/dp/pokemon/hariyama">Hariyama</a>, <a href="/dp/pokemon/regirock">Regirock</a>, <a href="/dp/pokemon/registeel">Registeel</a>, <a href="/dp/pokemon/tangrowth">Tangrowth</a></td>
+                          <td>50</td>                        
+                          <td>Neutral</td>
+                          <td>None</td>
+                          <td>0</td>
+                    </tr>
+                    <tr>                    
+                          <td>122</td>                      
+                          <td><a href="/dp/pokemon/cradily">Cradily</a></td>
+                          <td>43</td>                        
+                          <td>Neutral</td>
+                          <td>None</td>
+                          <td>0</td>
+                    </tr>
+                    <tr>                    
+                          <td>116</td>                      
+                          <td><a href="/dp/pokemon/camerupt">Camerupt</a>, <a href="/dp/pokemon/rhyperior">Rhyperior</a>, <a href="/dp/pokemon/shedinja">Shedinja</a></td>
+                          <td>40</td>                        
+                          <td>Neutral</td>
+                          <td>None</td>
+                          <td>0</td>
+                    </tr>
+                    <tr>                    
+                          <td>106</td>                      
+                          <td><a href="/dp/pokemon/quagsire">Quagsire</a>, <a href="/dp/pokemon/spiritomb">Spiritomb</a></td>
+                          <td>35</td>                        
+                          <td>Neutral</td>
+                          <td>None</td>
+                          <td>0</td>
+                    </tr>
+                    <tr>                    
+                          <td>96</td>                      
+                          <td><a href="/dp/pokemon/slowbro">Slowbro</a>, <a href="/dp/pokemon/steelix">Steelix</a></td>
+                          <td>30</td>                        
+                          <td>Neutral</td>
+                          <td>None</td>
+                          <td>0</td>
+                    </tr>
+                    <tr>                    
+                         <td>58</td>
+                         <td><a href="/dp/pokemon/slowbro">Slowbro</a>, <a href="/dp/pokemon/steelix">Steelix</a></td>
+                         <td>30</td>
+                         <td>-Speed; 0 IV</td>
+                         <td>None</td>
+                         <td>0</td>
+                    </tr>
+                </tbody>
+            </table>
+
+<script type="text/javascript">
+$("#tier0_tbl").tablesorter({
+widgets: ['zebra'],
+textExtraction: "complex",
+headers: { 1:{sorter: false}, 3:{sorter: false}, 4:{sorter: false}, 5:{sorter: false} }
+})
+
+$("#tier1_tbl").tablesorter({
+widgets: ['zebra'],
+textExtraction: "complex",
+headers: { 1:{sorter: false}, 3:{sorter: false}, 4:{sorter: false}, 5:{sorter: false} }
+})
+
+$("#tier2_tbl").tablesorter({
+widgets: ['zebra'],
+textExtraction: "complex",
+headers: { 1:{sorter: false}, 3:{sorter: false}, 4:{sorter: false}, 5:{sorter: false} }
+})
+
+$("#tier3_tbl").tablesorter({
+widgets: ['zebra'],
+textExtraction: "complex",
+headers: { 1:{sorter: false}, 3:{sorter: false}, 4:{sorter: false}, 5:{sorter: false} }
+})
+
+</script>

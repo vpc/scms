@@ -1,0 +1,117 @@
+[title]
+EVs and IVs Through the Ages
+[head]
+<link href="/media/smog/smog-articles.css" type="text/css" rel="stylesheet" />
+[page]
+<div class="author">By <a href="/forums/member.php?u=161822">Joim</a>. Art by <a href="/forums/member.php?u=62885">Nastyjungle</a>.</div>
+<table id="smogheader">
+<tr>
+<td class="left"><a href="teambuilding">« Previous Article</a></td>
+<td class="middle"><a href="/smog/issue28/">Home</a></td>
+<td class="right"><a href="proposal">Next Article »</a></td>
+</tr>
+</table>
+
+<h2>Introduction</h2>
+
+<div style="text-align: center; margin-bottom: 10px;"><img src="/media/upload/smog/issue28/evsivs.png" alt="" /></div>
+
+<p>EVs and IVs are possibly the most complicated concept for new players entering the world of competitive Pok&eacute;mon, especially if you see numbers and say "ugh, math". You might even think "man they've complicated Pok&eacute;mon too much", but then you would be wrong: EVs and IVs have always been with us, just in different ways.</p>
+
+<h2>Stat Experience and Determinant Values</h2>
+<p>Back in Generation I and II, competitive Pok&eacute;mon wasn't that extended and most of us ignored the existence of these stat-determining values that are nowadays known to all competitive players: Stat Experience, now known as Effort Values or EVs, and Determinant Values or DVs, now known as Individual Values or IVs. Stat Experience ranged for every stat from 0 to 65535 due to it being a two byte-long datum. Every time a Pok&eacute;mon was defeated, its base stats were converted to effort points and then added to Stat Experience. For instance, a Mew would give 100 Stat Experience points to all stats. One Pok&eacute;mon could max the Stat Experience value for all of its stats and they were factored after each level up, but that doesn't mean that when a Pok&eacute;mon was level 100 it was stuck with its stats; taking a Pok&eacute;mon from Bill's PC would recalculate the stat points, so you could max all the Stat Experience for all stats on any Pok&eacute;mon. Stat Experience was square rooted and then divided by four, like current EVs, to determine the final stat increase. DVs had a different value from 0 to 15 and each DV added two points to the final stat, and as like current IVs, (add comma) they were invariable; since 15 is the max for DVs in Gens I and II, the max Stat for Pok&eacute;mon is 1 lower. That means that in competitive Pok&eacute;mon in Gen I all stats were maxed, making most Pok&eacute;mon viable as hybrids, attacking both with Special and Attack; as a trainer, youdon'thave to care much about them besides having them maxed.</p>
+
+<p>Generation II's a different story. It had the Special stat split, but the same Stat Exp and DV was still used for both Special stats, since the game was designed to have backwards compatibility. This compatibility made several things weird, like the gender calculation, shininess, or the Hidden Power of your Pok&eacute;mon, the big addition to the competitive scene. You have to take this into account this very seriously in order to make your Pok&eacute;mon competitively better, as the HP DV in generations I and II is calculated from the rest of DVs. While no one would use subpar DVs in Gen I, in Gen II you have access to Hidden Power, which is calculated with the following formula:</p>
+<p><code>HP power = ((5 * (v + 2w + 4x + 8y) + z) / 2) + 31</code></p>
+<p>Where v, w, x, and y are 0 or 1 depending on whether their respective stat is less than eight or not, the stats being Attack for v, Defense for w, Speed for x, and Special for y. As for z, it's equal to the Special DV if it's 3 or less, otherwise it's just 3. This operation gives us a Hidden Power with a Base Power ranging from 31 to 70, both included. This means that when choosing a Hidden Power in Gen II, you have to take into account both the drop in some stats' DV and the drop in HP DV. The important HP DV is calculated as follows:</p>
+<p><code>HP DV = (((AtkDV / 2) % 2 * 8) + ((DefDV / 2) % 2 * 4) + ((SpeedDV / 2) % 2 * 2) + ((SpcDV / 2) % 2 * 1)) * 2</code></p>
+<p>As you can see, odd DV stats would give you a number of HP DVs, while an even number would give you 0, so a high DV spread like 14/14/14/14 would give you 0 in the HP DV.<br />
+The Hidden Power type in Gen II is calculated just with Attack and Defense DVs:</p>
+<p><code>HP Type index = 4 * (AttDV % 4) + (DefDV % 4)</code></p>
+<p>After that was calculated, the resulting number would choose the type from the following type table:</p>
+<div><table class="sortable" style="width:50%;">
+<thead>
+<tr><th>Index</th><th>Type</th></tr>
+</thead>
+<tbody>
+<tr class="a"><td>0</td><td>Fighting</td></tr>
+<tr><td>1</td><td>Flying</td></tr>
+<tr class="a"><td>2</td><td>Poison</td></tr>
+<tr><td>3</td><td>Ground</td></tr>
+<tr class="a"><td>4</td><td>Rock</td></tr>
+<tr><td>5</td><td>Bug</td></tr>
+<tr class="a"><td>6</td><td>Ghost</td></tr>
+<tr><td>7</td><td>Steel</td></tr>
+<tr class="a"><td>8</td><td>Fire</td></tr>
+<tr><td>9</td><td>Water</td></tr>
+<tr class="a"><td>10</td><td>Grass</td></tr>
+<tr><td>11</td><td>Electric</td></tr>
+<tr class="a"><td>12</td><td>Psychic</td></tr>
+<tr><td>13</td><td>Ice</td></tr>
+<tr class="a"><td>14</td><td>Dragon</td></tr>
+<tr><td>15</td><td>Dark</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>But, as mentioned earlier, in Gen II gender and shininess are determined by DVs too. Using shiny or female Pok&eacute;mon where male were available in Gen II is inferior competitively. The gender was based solely on the Attack DV. It was compared to that Pok&eacute;mon's gender ratio when available, so if a Pok&eacute;mon had both male or female versions, it had a maximum Attack DV as a female:</p>
+<div><table class="sortable" style="width:50%;">
+<thead>
+<tr><th>Gender Ratio</th><th>Max Attack DV</th></tr>
+</thead>
+<tbody>
+<tr class="a"><td>0% male, 100% female</td><td>15</td></tr>
+<tr><td>25% male, 75% female</td><td>11</td></tr>
+<tr class="a"><td>50% male, 50% female</td><td>7</td></tr>
+<tr><td>75% male, 25% female</td><td>3</td></tr>
+<tr class="a"><td>87.5% male, 12.5% female</td><td>1</td></tr>
+</tbody>
+</table></div>
+<p>As for shininess, it was decided in Gen II by several DV factors. The most important to competitive battle and the reason why you shouldn't use shinies in competitive Gen II is that you're required a DV of 10 in Defense, Speed, and Special. That gives us a very poor HP DV. Additionally the Attack DV has to be 2, 3 6, 7, 10, 11, 14, or 15. Last but not least, DVs have a very important role in deciding Unown's letter! As a curious fact, only I and V Unowns can be shiny.</p>
+
+<h2>EVs and IVs</h2>
+<p>In Gen III, everything changed. It's widely considered a series reboot, as it changed a lot of the mechanics and improved the game considerably. EVs and IVs were revamped, and from Gen III onwards, HP IV has been on its own, and Special Defense and Attack IVs have been separated. For a Pok&eacute;mon to gain effort points, a Pok&eacute;mon must gain experience to be awarded from 1 to 3 of them. Every 4 effort points add 1 point to the stat, and the overall stat is calculated after every level up, Vitamin use, stat-reducing Berry use, or, as in the case of Deoxys, every battle. While every stat has a max of 255, it's useless to waste those 3 points on a specific stat, as the max amount of EVs that give you stats is 252, 63 points on the given stat when divided by four. The maximum number of EVs per Pok&eacute;mon is 510, so if you max two stats with 252 EVs, you will have 6 EVs leftover; you can add 4 of them to a stat to raise it by 1 point, but sadly, the other 2 will be useless.</p>
+
+<p>There are several mechanics to get EVs: Vitamins add 10 EVs at once, but they can only raise stats up to 100; Exp Share will give a Pok&eacute;mon EVs even if the battling Pok&eacute;mon is gaining none; Pok&eacute;rus, a special status that appears on your Pok&eacute;mon as an illness, will double the number of EVs you get. If you were careless enough, you could use one of the stat-decreasing berries to lower the EV of choice 10 points so you can re-EV your Pok&eacute;mon. This was updated in Gen IV, reducing EVs by 100 if the EV stat is above 100. In Gen III, you could still box a level 100 Pok&eacute;mon and retrieve it to update its stats, but that was not the case in Gen IV, where you were stuck with the EVs you had at level 100. That meant that Arceus, an event-only level 100 Pok&eacute;mon, could only legally have a max of 100 EVs in each stat in Gen IV, andhis EVs had to all be divisible by 10, given that Vitamins raise EVs in tens. This was fixed again in Gen V, which recalculates stats after every battle.</p>
+
+<p>Thanks to all these changes, you can have an IV of 31 in HP while having different IV spreads for Hidden Power, which in Gen III and onwards is calculated this way:</p>
+<p><code>HP power = (((u + 2v + 4w + 8x + 16y + 32z) * 40) / 63) + 30</code></p>
+<p>Where u is the HP IV, v is the Attack IV, w is the Defense IV, x is the Speed IV, y is the Special Attack IV, and z is the Special Defense IV.<br />
+This formula gives us a Hidden Power that has a Base Power of 30 to 70, both included. The type still follows the same table, only the index is now calculated like this:</p>
+<p><code>HP Type = ((a + 2b + 4c + 8d + 16e + 32f) * 15) / 63</code></p>
+<p>Where a is the HP IV, b is the Attack IV, c is the Defense IV, d is the Speed IV, e is the Special Attack IV, and f is the Special Defense IV. This formula is easily editable, as if you change the 15 for a 16, you'll have a table for 16 types (wink-wink, Fairy type). Due to the formula being like this, the farther down a type is in the table the better IV spreads it gets. That's why HP Dark is 31 across the board and HP Fighting sucks.<br />
+The power formula is constructed in such a way that different IV ranges give the same value. That means that depending on the remainder of the mod four, that ranges from 0 to 3, the values given by that stat will be the same regardless of the original number when they have the same remainder.<br />
+1. IV that gives a remainder of 0 when divided by 4 - has damage bit 0 and type bit 0: 0, 4, 8, 12, 16, 20, 24, 28<br />
+2. IV that gives a remainder of 1 when divided by 4 - has damage bit 0 and type bit 1: 1, 5, 9, 13, 17, 21, 25, 29<br />
+3. IV that gives a remainder of 2 when divided by 4 - has damage bit 1 and type bit 0: 2, 6, 10, 14, 18, 22, 26, 30<br />
+4. IV that gives a remainder of 3 when divided by 4 - has damage bit 1 and type bit 1: 3, 7, 11, 15, 19, 23, 27, 31<br />
+That is very important, as all desired spreads for Hidden Power of a base 70 or base 60 for Pok&eacute;mon with Technician have decent spreads that they can use over subpar ones.</p>
+
+<h2>Why are IVs so important</h2>
+<p>You might think that a single point doesn't matter that much and that you shouldn't overthink or work hard in getting that perfectly spreaded Pok&eacute;mon. Wrong. Every stat counts, every single point adds up to the outcome of a battle between two similarly skilled players. Attacking first is a huge advantage in Pok&eacute;mon, so having an IV of 31 in Speed means that you will always go first against a similar Pok&eacute;mon of an IV of 30, meaning you have advantage in that battle. The importance of Speed makes choosing certain types of Hidden Power, like Hidden Power Ice, which requires a Speed of 70, a difficult decision. When choosing a Hidden Power type, you must think of everything: the IVs you are going to use, the IVs your opponents are going to use, what you need Hidden Power for. Let's take into account Choice Specs Keldeo and one of its main counters, Jellicent. Jellicent is weak to Ghost, Dark, Electric, and Grass attacks. What Hidden Power should Keldeo choose to get past it? Both Ghost and Dark get past Jellicent and the Psychic-types that can defeat Keldeo, but there's an important difference in those Hidden Powers: Dark will give a perfect IV spread, since it's better spread is 31/31/31/31/31/31, while the best IV spread for Hidden Power Ghost 70 for Keldeo would be 31/30/31/31/30/31, losing one Special Defense point. This Keldeo would be worse against a Keldeo that uses Hidden Power Dark. Say you want your Keldeo to be able to get past Celebi; you will need Hidden Power Bug. You would use the first IV spread you find giving that type and power, right? Wrong again. You could end up using 30/30/30/31/30/31 or 30/31/31/31/30/30. Those spreads are subpar; you're losing a point on important stats like HP or Speed. You will need that point in HP to beat Celebi with more ease. The best spread is thus 31/30/30/31/30/31, which gives you perfect HP and Speed. It's always important to check the best IV ranges for the Hidden Power of choice.</p>
+
+<h2>Stat jump due to natures and the importance of EV spreads</h2>
+<p>You've probably read in Contributions &amp; Corrections "change that EV spread for the stat jump to X". Maybe you simply accepted it as the ultimate truth coming from C&amp;C wisdom, but you might not even know what this means.<br />
+The formula to get a final stat is:</p>
+<p><code>stat = floor(floor((2 * BaseStat + IVs + floor(EVs / 4)) * Level / 100 + 5) * NatureValue)</code></p>
+<p>Floor means rounding down the stat getting rid of decimals, and Nature Value is 0.9, 1, or 1.1 depending on nature. The floors are the important part. Some values of EVs will give you 2 stat points instead of 1 over the last EV point. Let's have an example: an EV of 172 should give you 43 points and an EV of 176 gives you 44 points, right? Well, let's see: with a base stat of 55 Speed and a positive nature, the formula would give us this:</p>
+<p><code>speed = floor(floor((2 * 55 + 31 + floor(172 / 4)) * 100 / 100 + 5) * 1.1)<br />
+speed = floor((110 + 31 + 43 + 5) * 1.1)</code></p>
+<p>That gives us 207.9 speed, which gets rounded down to 207. With 176 EVs we get:</p>
+<p><code>speed = floor(floor((2 * 55 + 31 + floor(176 / 4)) * 100 / 100 + 5) * 1.1)<br />
+speed = floor((110 + 31 + 44 + 5) * 1.1)</code></p>
+<p>That gives us 209 points; thus, 4 extra EVs gave us 2 points in the stat thanks to the rounding down. This happens with positive and negative natures, which introduce a decimal factor in the equation to be rounded down. It's thus important knowing this when choosing EV spreads that are not 252/252/4, as that extra point is some decimals you are not losing, and it's an advantage in battle.</p>
+
+<p>While the most straightforward way to EV a Pok&eacute;mon is to add 252 to the two most relevant stats and then give the leftover 4 to another somewhat important one, competitive Pok&eacute;mon always seek the best and only the best. You will find often weird HP EVs like 248 or 124. You might think: why not going all the way into HP if you are investing? The answer is simple. If you are leaving one point out of HP, it's either to maximize Leftovers or to minimize Life Orb. Due to the way of how the game works rounding down decimals, Leftovers adding 6.25% health, and Life Orb having a *0.1 recoil of a Pok&eacute;mon's HP, different EV spreads will make your Pok&eacute;mon get an additional Leftovers recovery or be able to hit 11 times with Life Orb before dying to the recoil. For Life Orb, the total HP stat must be a number divisible by 10, so you will be able to attack the 11 times. As for Leftovers, an HP stat that's divisible by 16 will give you the best recovery. But there's more to HP than Leftovers. Getting the perfect HP IVs <a href="/smog/issue2/saving_hp2">has always been a big deal</a>, as the difference of 1 switch-in or 1 HP can mean victory or defeat.</p>
+
+<p>The downside to this kind of perfection seeking can be seen in Speed creeping. While the EVs on Smogon sets have been thought up by a team of knowledgeable members, there's always someone smart trying to profit from them. Let's take Gliscor as an example, whose main EV spread has 72 EVs in Speed to outspeed max Speed Tyranitar and Adamant Breloom, noble goals. But Gliscor against Gliscor, you want to be the first using Ice Fang, so some players sacrifice EVs in either HP or Defense to be able to outspeed other Gliscor, having 76 EVs in the spread. With a player base small enough, this will lead to other Gliscor using 80 in Speed in turn, to be able to outrun these speed-enhanced Gliscors. This will only lead to Gliscor's demise, as the EV spreads get subpar to outspeed other Gliscor, while the original goal is tampered by giving Gliscor less Defense or HP to take on Tyranitar or Breloom.</p>
+
+<h2>Conclusion</h2>
+<p>Mock EVs and IVs not. They are one of the most important aspects of competitive Pok&eacute;mon and have always been, and we all know that competitive Pok&eacute;mon is serious business. When designing a new team, always keep in mind what's the best way to EV your Pok&eacute;mon and what each individual Pok&eacute;mon's goals are. You don't need to follow Smogon's default EV spreads if you are wise enough to calculate your own adapting to the metagame, and that will give you advantage over the rest of the players. You can soon find yourself calculating the exact EVs to transform that 2HKO to a 3HKO while maintaining offense prowess, or you could just keep copying spreads or using 252/252/4 and hoping for the best. That's up to you.</p>
+<table id="smogfooter">
+<tr>
+<td class="left"><a href="teambuilding">« Previous Article</a></td>
+<td class="middle"><a href="/smog/issue28/">Home</a></td>
+<td class="right"><a href="proposal">Next Article »</a></td>
+</tr>
+</table>

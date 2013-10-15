@@ -1,0 +1,192 @@
+[title]
+Necturna
+[head]
+<link rel="stylesheet" type="text/css" href="/media/dex/dex.css" />
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_template.js"></script>
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_database.js"></script>
+[header]
+[page]
+<script language="JavaScript">
+document.write(strategyTabs("Necturna"));
+document.write(topHeaderInfo(Necturna()));
+</script>
+
+<h2>Overview</h2>
+
+<p>This is Necturna, the adorable little flower with the ability to learn Sketch once, and only once, to obtain any one move that she could not learn otherwise. Shell Smash? Spore? Necturna can do it all, making her one of the most feared Pokemon in existence. Her base 120 Attack stat gives her the strongest Power Whip in the game and allows her to take advantage of powerful physical coverage moves such as Close Combat and Sacred Fire. Defensively, Necturna's 64/100/120 defenses make OHKOing her a difficult test, especially with invested defenses, making Necturna a capable special wall and spinblocker, with access to Horn Leech, Will-O-Wisp, Pain Split, Toxic Spikes, and moves like Rapid Spin or Recover via Sketch.</p>
+
+<p>While the power of a single Sketch move is incredible, Necturna can still run into real problems depending on her set; her Grass/Ghost typing and shallow non-Sketch offensive movepool are walled by many common Steel-types like Heatran, Ferrothorn, and Skarmory, along with bulky Dragon-types like Dragonite and Salamence who can take an unboosted Shadow Claw fairly easily. Her low base 81 Speed puts her at a disadvantage in the fast BW OU metagame, so setting up can be difficult, especially considering her Dark, Ghost, Fire, Flying, Ice, and Poison weaknesses and susceptibility to all forms of status and passive damage. With coverage options limited to Hidden Power and Stone Edge, offensive Necturna are defined by their "move of choice," making them easier to deal with once an opponent discovers the Sketch move.</p>
+
+<script language="JavaScript">
+var set = new CAPSet();
+set.name = "Shell Smash";
+set.move[1] = "Shell Smash";
+set.move[2] = ["Power Whip", "Horn Leech"];
+set.move[3] = "Shadow Claw";
+set.move[4] = ["Hidden Power Fire", "Hidden Power Fighting"];
+set.item = "Life Orb";
+set.ability = "Forewarn";
+set.nature = ["Naughty"];
+set.evs.Atk = 252;
+set.evs.SpA = 4;
+set.evs.Spe = 252;
+document.write(composeSet(set));
+</script>
+
+<p>Shell Smash is the single most powerful setup move in the game, able to boost Necturna's Attack stat to frighteningly high levels, while at the same time raising her Speed and Special Attack stats. Power Whip is a devastating STAB attack at +2 with its high Base Power, while Horn Leech is a decent alternative for its superior accuracy and for offsetting Life Orb recoil. Shadow Claw is her strongest Ghost-type STAB attack, but at only 70 Base Power, it is primarily used to take care of weakened opponents or to OHKO Celebi, Latias, and Latios, 2HKO Jirachi and Metagross, and OHKO Dragonite and Salamence after Stealth Rock. Hidden Power Fire is the ideal choice for the fourth slot, as with the boosts provided by Shell Smash and Life Orb, it can OHKO Ferrothorn, Forretress, Scizor, and physically defensive Skarmory. However, the move is laughably weak under rain and leaves Necturna open to Hydreigon and Heatran, so Hidden Power Fighting can be used instead, as it retains neutral or better coverage against all Steel-types.</p>
+
+<p>The given EVs, along with a Naughty nature and Life Orb, allow Necturna to OHKO Ferrothorn and Gliscor and 2HKO Jirachi after a Shell Smash. The Speed EVs enable Necturna to outpace Modest Heatran before a boost, and Modest Chlorophyll Venusaur and Jolly Choice Scarf Terrakion after a boost. Alternatively, a White Herb may be used to restore Necturna's defenses after a boost, but the drop in power without Life Orb is significant, as you lose out on the aforementioned KOs.</p>
+
+<p>The omnipresence of Steel-types, along with Necturna's weakness to passive damage and disappointing coverage moves, prevents her from reliably sweeping without the right kind of support. Dugtrio and Magnezone can trap and remove these threats; Dugtrio can revenge kill Heatran, weakened Jirachi, and weakened Metagross lacking Bullet Punch, while Magnezone has a fairly easy time against Ferrothorn, Skarmory, and Scizor. Heatran itself is a good teammate, as it can quite easily force out nearly all Steel-types in OU who would threaten Necturna while luring in bulky Water-types that Necturna can switch in on and threaten to KO or set up. Other good teammates include Vaporeon, as it can counter Heatran fairly well and pass huge Wishes to heal Necturna. Finally, this build appreciates entry hazards for netting key KOs, so teammates like Deoxys-D and Skarmory are good choices as well.</p>
+
+<script language="JavaScript">
+var set = new CAPSet();
+set.name = "Choice Band";
+set.move[1] = "Power Whip";
+set.move[2] = "Shadow Sneak";
+set.move[3] = ["Sacred Fire", "V-create"];
+set.move[4] = "Stone Edge";
+set.item = "Choice Band";
+set.ability = "Forewarn";
+set.nature = "Jolly";
+set.evs.HP = 4;
+set.evs.Atk = 252;
+set.evs.Spe = 252;
+document.write(composeSet(set));
+</script>
+
+<p>While Sketch grants Necturna access to such powerful setup moves as Shell Smash or Quiver Dance, it can also be used to access incredibly powerful coverage moves such as Sacred Fire or V-create. With a Choice Band equipped, Necturna reaches a 508 Attack stat with a Jolly nature, and with tricky Grass/Ghost/Fire/Rock coverage, she can be very difficult to switch into. Power Whip is the STAB move of choice, capable of 2HKOing Latios and Hydreigon with Stealth Rock support. Shadow Sneak is a useful priority move which lets Necturna double as a revenge killer, picking off weakened Pokemon and frail sweepers like Alakazam. Sacred Fire is a powerful attacking move that hits Steel-types that doubles as an excellent utility move for its 50% chance to burn the opponent. Alternatively, V-create has much more immediate power&mdash;enough to OHKO Skarmory&mdash;but its side effects are crippling compared to Sacred Fire. Lastly, Stone Edge is Necturna's only real extra physical coverage, catching threats such as Dragonite and Salamence off-guard.</p>
+
+<p>Necturna's base 81 Speed is middling, to say the least, so maximum Speed and Attack are both essential. A Jolly nature and 252 EVs are required for Necturna to outrun Timid Heatran and Jolly Dragonite. An alternative spread of 72 HP / 252 Atk / 184 Spe with an Adamant nature grants greater bulk and offensive presence while outrunning most Tyranitar, Scizor, and Breloom, although for the most part the given EV spread is superior.</p> 
+
+<p>Necturna is a decent spinblocker and Steel-type lure, drawing in the likes of Forretress, Ferrothorn, Skarmory, and Jirachi, all of whom are O-2HKOed with Choice Band Sacred Fire. While rain support may be ideal for other Necturna sets, it will ruin her chances of getting these crucial KOs, so weather starters like Tyranitar or Ninetales that can remove the rain make good teammates. Sun in particular boosts V-create and Sacred Fire to even more absurd levels of power but also makes defensive Heatran even more threatening (Timid Heatran is 2HKOed by Stone Edge), so Water-types make good teammates. Starmie is a useful Pokemon to bring along thanks to its access to Rapid Spin and Natural Cure, which can soak up status that could otherwise cripple this set. Vaporeon is also particularly helpful, as it can heal Necturna with Wish; Rotom-W is another notable partner. All three of these can also combat Salamence and Gyarados, should they attempt to take advantage of a Necturna locked into an ineffective attack.</p>
+
+<p>Necturna is capable of running a Choice Scarf set with these same moves and can catch a few opponents off-guard with its Speed, although the lack of immediate power is noticeable. Shadow Claw should be considered over Shadow Sneak here, as the Choice Scarf reduces the desire for priority, and the higher Base Power allows it to OHKO Latios, Gengar, and Alakazam. Additionally, Close Combat or Hi Jump Kick can be used over a Fire-type move for the surprise jump on Heatran and Tyranitar, but the utility and coverage of Sacred Fire will most often be preferred.</p>
+
+<script language="JavaScript">
+var set = new CAPSet();
+set.name = "Specially Defensive";
+set.move[1] = "Toxic Spikes";
+set.move[2] = ["Shadow Claw", "Power Whip"];
+set.move[3] = ["Rapid Spin", "Will-O-Wisp", "Power Whip"];
+set.move[4] = ["Pain Split", "Recover"];
+set.item = "Leftovers";
+set.ability = "Forewarn";
+set.nature = "Careful";
+set.evs.HP = 252;
+set.evs.Atk = 4;
+set.evs.SpD = 252;
+document.write(composeSet(set));
+</script>
+
+<p>While it is generally true that any one support move is not as amazing as any one set-up or coverage move, Necturna already has a fairly stellar non-Sketch support movepool, including Toxic Spikes, Will-O-Wisp, and Pain Split, giving the player more freedom with the Sketch slot. Necturna is also a fairly competent special wall with its impressive base 120 Special Defense stat, acting as a decent response to Pokemon such as Celebi, Latias, and most Water-types. Bulky Necturna is one of the best spinblockers in the game; the standard Timid Life Orb Starmie cannot even 2HKO with Ice Beam, factoring in Leftovers. In fact, Necturna performs well against all of OU's common Rapid Spin users, with the exception of Substitute + Toxic Tentacruel. As such, this Necturna can be a valuable Pokemon for stall and balanced teams alike.</p>
+
+<p>Toxic Spikes is a good support move, and is only made better by Necturna's ability to block Rapid Spin. Power Whip is a good STAB attack, capable of 2HKOing Donphan, Cloyster, Jellicent, and Tentacruel, while Shadow Claw has more reliable accuracy and better generic coverage. As far as the Sketch slot goes, Rapid Spin gives Necturna incredible utility, as it can hit Gengar, Jellicent, and Dusclops with super effective attacks, making spinning easy to accomplish. Pain Split is an unreliable form of recovery, so Recover may be the preferred option, greatly increasing Necturna's lifespan and special walling capabilities. When using Recover, the third moveslot can be used for a secondary STAB or for Will-O-Wisp, which is useful for patching up Necturna's lower Defense stat and hitting Pokemon immune to Toxic Spikes, notably Salamence, Dragonite, and Gyarados.</p>
+
+<p>Maximum Special Defense is necessary in order to make the most use of Necturna's impressive stats and to hold Life Orb Starmie at bay. This also improves Necturna's ability to come in on Pokemon such as Vaporeon and Rotom-W and start setting up entry hazards, as well as taking on dangerous, specially inclined Pokemon such as Virizion, Celebi, and Latias.</p>
+
+<p>As a spinblocker and a Toxic Spiker, this Necturna fits best on stall or bulky offense teams that depend on residual damage. Skarmory is an excellent choice to set up either Spikes or Stealth Rock, and can also deal with the Dragon-types that Necturna cannot handle. Deoxys-D is another good choice, able to quickly and efficiently layer hazards. Finally, if carrying Rapid Spin, Necturna is an excellent partner to Pokemon that fear Stealth Rock, such as Volcarona, Dragonite, Choice item users, VoltTurn teams, etc. Even though Necturna is a strong special wall, her five weaknesses to common attacking types render her somewhat vulnerable to a large number of opposing Pokemon. Starmie and Rotom-W are frequently paired with Pokemon that Necturna will struggle with, such as Tornadus and Dragonite on rain teams. A Steel-type such as specially defensive Jirachi can make a great teammate, as it resists Flying- and Ice-type attacks. Also, most Steel-types will be unable to deal with Heatran, who is a very great threat, so a bulky Water-type may be advisable. If running Rapid Spin, then Vaporeon is typically a good choice for its access to Wish, and if running Recover, then a Rapid Spin user such as Starmie or Tentacruel may be the better choice. Latias is also a good option to deal with Heatran as well as other threatening Pokemon such as Venusaur, Jirachi, and Dragon-types, though it does share Ghost- and Dark-type weaknesses with Necturna.</p>
+
+<script language="JavaScript">
+var set = new CAPSet();
+set.name = "Quiver Dance";
+set.move[1] = "Quiver Dance";
+set.move[2] = ["Giga Drain", "Substitute"];
+set.move[3] = "Shadow Ball";
+set.move[4] = ["Hidden Power Fire", "Hidden Power Fighting"];
+set.item = ["Leftovers", "Life Orb"];
+set.ability = "Forewarn";
+set.nature = "Modest";
+set.evs.HP = 68;
+set.evs.SpA = 252;
+set.evs.Spe = 188;
+document.write(composeSet(set));
+</script>
+
+<p>While Necturna's base 85 Special Attack stat and lack of any reliable offensive moves over 80 Base Power somewhat hurt her capabilities, her advantages over OU's existing Quiver Dance users are noticeable. Unlike Volcarona, Necturna does not require Rapid Spin support, and unlike Lilligant, Necturna has a secondary STAB, notable immunities to switch into, and better overall stats. Additionally, a high Special Defense stat gives Necturna greater longevity and an easier time setting up against special threats. Giga Drain is a useful STAB for restoring HP lost during setup, while Shadow Ball is Necturna's second STAB attack and achieves fairly good coverage alongside Giga Drain. To deal with Steel-types, Necturna has Hidden Power Fire to hit Jirachi, Scizor, Ferrothorn, Skarmory, Forretress, and Metagross for super effective damage, although it is greatly weakened in the rain. For that reason, Hidden Power Fighting is a decent alternative as it gets a stronger hit on Heatran and Hydreigon and is unaffected by weather. Necturna can also run Substitute and the unresisted Shadow Ball / Hidden Power Fighting combination to combat her weaknesses to status effects and priority attacks. Substitute can block status from Chansey or Blissey, who otherwise cannot touch Necturna thanks to her immunity to Seismic Toss. Substitute also blocks Jirachi's Thunder Wave and Politoed's Toxic and can give Necturna free turns to set up; however, this will mean no recovery from Giga Drain, so Leftovers is recommended to cover the damage from opponents' attacks as well as lost HP from Substitute.</p>
+
+<p>The EV spread allows Necturna to outrun all unboosted base 115 Speed Pokemon after a Quiver Dance. Offensive ability is maximized with a Modest nature and 252 EVs in Special Attack, and the remaining EVs are allocated to HP to enable Necturna to take hits more easily. A simple 4 HP / 252 SpA / 252 Spe spread with a Modest or Timid nature may also be used to outrun Heatran and Dragonite without a boost. For the item, Leftovers is typically the better choice, supplementing Giga Drain's healing effect for garnering additional boosts. Life Orb may be preferred to give Necturna more immediate power and the ability to 2HKO Heatran and Tyranitar after a boost; however, this cuts down on her longevity greatly.</p>
+
+<p>Generally speaking, the biggest threats to Quiver Dance Necturna are strong physical attackers that can take a hit, such as Dragonite, as well as specially defensive Steel-types like Jirachi and Heatran. A Reflect user would help with Necturna's weakness to priority attacks, especially from Mamoswine and Scizor, while Dugtrio can easily trap and remove both Jirachi and Heatran, as well as Tyranitar, Chansey, and Blissey. Rotom-W and Politoed can both also deal with Jirachi and Heatran, with Politoed's Drizzle support weakening incoming Fire-type attacks for Necturna using Hidden Power Fighting.</p>
+
+<script language="JavaScript">
+var set = new CAPSet();
+set.name = "Calm Mind + 3 Attacks";
+set.move[1] = "Calm Mind";
+set.move[2] = "Giga Drain";
+set.move[3] = "Blue Flare";
+set.move[4] = ["Hidden Power Ice", "Hidden Power Ground", "Shadow Ball"];
+set.item = "Leftovers";
+set.ability = "Forewarn";
+set.nature = "Modest";
+set.evs.HP = 72;
+set.evs.SpA = 252;
+set.evs.Spe = 184;
+document.write(composeSet(set));
+</script>
+
+<p>Unlike Quiver Dance, Necturna learns Calm Mind naturally, freeing up her Sketch slot for powerful coverage moves like Blue Flare, which is actually stronger than STAB Shadow Ball against neutral opponents, hitting specially defensive Jirachi for a minimum of 64% after a Calm Mind and OHKOing offensive variants. Giga Drain is this set's primary STAB, helping Necturna maintain her HP while setting up. For coverage, Hidden Power Ice hits Dragon-types like Hydreigon and Latios while Hidden Power Ground allows her to fare better against Fire-types like Heatran and Ninetales. Shadow Ball is a decent alternative for hitting other Calm Mind sweepers like Latias and Reuniclus, and in conjunction with Giga Drain and Blue Flare hits everything in OU bar Heatran and Hydreigon for at least neutral damage.</p>
+
+<p>The EVs are designed to give the maximum possible attacking prowess while at the same time compromising between Necturna's bulk and her ability to outrun things. 184 Speed EVs allow her to outrun most Tyranitar, Scizor, and Breloom, while also tying with bulky Rotom-W. For the item, Leftovers is preferred, as unlike Quiver Dance Necturna, she cannot rely on outrunning opponents enough to get away with using Life Orb.</p>
+
+<p>Without the Speed boost provided by Quiver Dance, it is far more difficult for Necturna to sweep and far easier to be revenge killed. This set has problems with Chansey and Blissey, and if Necturna is running Hidden Power Ice, Fire-types like Heatran and Ninetales also pose problems, so Dugtrio can be relied upon to remove them. Running Hidden Power Ground leaves you particularly vulnerable to Salamence, Dragonite, and other Dragon-types, so bulky Steel- and Water-types like Jirachi, Heatran, Vaporeon, Rotom-W, and Starmie or revenge killers like Choice Scarf Terrakion also make good teammates for Calm Mind Necturna.</p>
+
+<script language="JavaScript">
+var set = new CAPSet();
+set.name = "Soak";
+set.move[1] = "Soak";
+set.move[2] = "Power Whip";
+set.move[3] = "Shadow Claw";
+set.move[4] = ["Stone Edge", "Substitute", "Toxic Spikes"];
+set.item = ["Life Orb", "Leftovers"];
+set.ability = "Forewarn";
+set.nature = "Jolly";
+set.evs.Atk = 252;
+set.evs.Def = 4;
+set.evs.Spe = 252;
+document.write(composeSet(set));
+</script>
+
+<p>This set is the hallmark example of Sketch's immense versatility. Soak is a seemingly worthless move that turns the target into a pure Water-type, which to Necturna means she can hit just about any switch-in with a super effective Power Whip&mdash;even her greatest nemesis, Heatran. Additionally, Soaked opponents lose their typical STAB, greatly reducing their offensive potential against this set. With a Life Orb, even physically defensive Skarmory, usually one of Necturna's deadliest enemies, has a small chance to be OHKOed by Power Whip, factoring in Stealth Rock and one round of Leftovers recovery, and other common Steel-types don't stand a chance. This set may also run Horn Leech for help recovering from Life Orb recoil, or Leaf Blade for its 100% accuracy. Of course, using Soak will telegraph that you are about to use a Grass-type attack, so it will not be hard for the opponent to simply switch out again, especially as they will then know Necturna is not carrying a Fire-type attack. That said, you cannot simply rely only on Soak and Power Whip to carry the set. In the last two slots, STAB Shadow Claw and Stone Edge provide you with any coverage that you may need against un-Soaked opponents. Substitute is a nifty choice for the fourth slot, as it helps with prediction immensely and preserves Soak's surprise value, but should be run with Leftovers for survivability. Toxic Spikes can also be helpful to take advantage of the numerous switches this set can force.</p>
+
+<p>A Jolly nature and 252 Speed EVs are necessary in order to outrun Timid Heatran and Jolly Dragonite, although an Adamant nature with Life Orb would allow you to OHKO just about every single Steel-type in OU after a Soak, including Skarmory. The last 4 EVs are placed in Defense rather than HP in order to allow the creation of a maximum of 5 Substitutes. Life Orb is typically the best choice for the item, as the added power can be the difference between a OHKO and a 2HKO on many of the targets you want to be hitting. Leftovers increases survivability and can offset the passive damage from Substitute but misses out on key OHKOs, so it is recommended for use with Horn Leech or Leaf Blade.</p>
+
+<p>Thanks to Soak, Necturna is capable of taking on almost any Pokemon in existence, so in terms of partners, it is less a case of what you can do for Necturna, but what Necturna can do for you. As this Necturna set will be forcing plenty of switches, Spikes and Stealth Rock are a huge advantage. In addition, this set functions well as a Steel-type lure, so teammates who can take advantage of their absence are recommended, such as Psychic-type cleaners Alakazam and Latios, as well as set-up sweepers such as Dragonite and Scizor. Lastly, since this Necturna has no way to recover her health, a Wish passer like Vaporeon or Blissey makes a good teammate.</p>
+
+<script language="JavaScript">
+var set = new CAPSet();
+set.name = "Belly Drum";
+set.move[1] = "Belly Drum";
+set.move[2] = "Horn Leech";
+set.move[3] = "Shadow Sneak";
+set.move[4] = "Stone Edge";
+set.item = "Leftovers";
+set.ability = "Forewarn";
+set.nature = ["Adamant", "Jolly"];
+set.evs.Atk = 252;
+set.evs.Def = 4;
+set.evs.Spe = 252;
+document.write(composeSet(set));
+</script>
+
+<p>Another example of Necturna's vast sea of options is Belly Drum, which exchanges 50% of Necturna's HP for +6 Attack, which Necturna can then utilize with priority STAB Shadow Sneak and the HP-draining STAB Horn Leech to devastating effect. Stone Edge rounds out the coverage, able to hit Scizor, Forretress, and Skarmory for neutral damage amongst the Steel-types that completely wall this set. Even without a boost, Shadow Sneak is a useful priority attack, even if it is very weak, and Horn Leech and Leftovers ensure that Necturna will likely stay above 50% HP for the majority of the battle.</p>
+
+<p>Leftovers is the item of choice for this set, as Necturna is extremely vulnerable to priority and revenge killing at merely 50% HP, so the passive healing is crucial. Leftovers also takes some of the pressure off Horn Leech and makes it easier to get off a Belly Drum in the first place, despite making it a bit less capable once it's set up. A Jolly nature can be used over Adamant, as Necturna really wants to be outrunning as much as she can, especially Heatran, who is OHKOed by Stone Edge after a Belly Drum. However, the power of an Adamant nature at +6 is enormous compared to Jolly, so an Adamant nature is usually preferred.</p>
+
+<p>In general, Steel-types like Ferrothorn and Skarmory will wall this set indiscriminately, and fast Pokemon that can tank a +6 Shadow Sneak, such as Hydreigon, will be able to KO a Necturna with 50% HP easily. Scizor is a particularly menacing foe as well, as Bullet Punch will destroy Necturna. Rotom-W makes a good teammate as a check to Scizor, Skarmory, and Heatran, while a Heatran of your own can generally solve the big problems with other Steel-types like Ferrothorn.</p>
+
+<h2>Other Options</h2>
+
+<p>With the freedom that Sketch provides, it would be impossible to cover all of its possible applications. In terms of setup moves, Coil can be used to boost the unfortunate accuracy of Power Whip, as well as its power. Shift Gear can provide a physical sweep without the defense drops of Shell Smash. Close Combat or Hi Jump Kick could replace any Fire-type move in order to hit Heatran and Hydreigon. Spore is always available as a 100% accurate sleep-inducing move, and can be helpful for putting a crucial opponent out of commission. Finally, Spikes and Stealth Rock are available as an accompaniment to Toxic Spikes, a la Forretress or Cloyster. In terms of Necturna's natural movepool, Trick can be a useful and unexpected tool for the Choice sets. A simple non-boosting Life Orb set with Power Whip / Stone Edge / Sacred Fire / Shadow Sneak is also viable as an offensive pivot. The options are more or less limitless thanks to Sketch, so creative sets are always available.</p>
+
+<h2>Checks and Counters</h2>
+
+<p>Most often, Steel-types can give Necturna a lot of trouble, especially Heatran and Skarmory, who cannot both be covered by the same Hidden Power or Sketched coverage move. Rain, while inhibiting incoming Fire-type attacks, also neuters the Fire-type attacks Necturna relies upon to hit those Steels, so rain + Steel-types is solid enough general preparation for opposing Necturna.</p>
+
+<p>Heatran is probably the easiest stop to Necturna in OU; even a Shell Smash-boosted Life Orb Hidden Power Fighting cannot OHKO offensive Heatran, and defensive variants are not even 2HKOed without Stealth Rock support. In return, Heatran can OHKO most variants with Fire Blast or 2HKO with Lava Plume, absent rain or Special Defense boosts from Quiver Dance or Calm Mind. Offensive Heatran must watch out for Shell Smash-boosted Stone Edge though, as well as Close Combat from the lure sets and the rare Hidden Power Ground.</p>
+
+<p>Specially defensive Jirachi is another capable Steel-type, as it can take nearly any special attack that Necturna can dish out, as well as most physical ones barring Sacred Fire, especially in the rain, and cripple her with Thunder Wave or wear her down with Iron Head. Calm Mind Jirachi can set up on defensive Necturna with impunity. Skarmory is an excellent stop to nearly all Necturna, as physically defensive variants are not even 2HKOed by Choice Band Sacred Fire under the rain, while Skarmory can easily OHKO back with Brave Bird. Hidden Power Fire is also doing pitiful damage, and Fighting-type moves are no threat to Skarmory's defensive stats. It can also Whirlwind Necturna away if she is behind a Substitute. While Ferrothorn and Forretress cannot take a Fire-type attack at all, they can take just about everything else perfectly well and respond with Gyro Ball. However, all of these Pokemon can have difficulty with special variants.</p>
+
+<p>Necturna's other big foe is Dragonite, who can take a Shadow Claw from Shell Smash Necturna if its Multiscale is unbroken and attack back with a STAB Dragon-type attack or Fire Punch. Rain Dragonite can easily OHKO with STAB Hurricane or set up a Substitute or Roost in Necturna's face, while offensive variants can set up Dragon Dance on defensive Necturna that lack Will-O-Wisp. However, Dragonite must always be wary of Stone Edge and burns from Sacred Fire, and it relies on Multiscale to take +2 Shadow Claws. Hydreigon, like Heatran, resists everything Necturna commonly carries and can fry her with Fire Blast, but is beaten by any Fighting-type move and cannot switch repeatedly into strong Grass-type attacks. Intimidate Salamence can check physical Necturna and has access to Fire Blast and powerful STAB Dragon-type attacks. Volcarona can easily beat Necturna with its STAB Fire-type attacks, as well as set up Quiver Dance against special variants. Finally, Chansey and Blissey deserve special mention for beating pretty much all special sets by Toxic stalling alone, fearing only Substitute. Substitute + Toxic Tentacruel can also annoy Necturna hoping to set up.</p>
+
+<p>Typically, the easiest way to get rid of Necturna for good is to revenge kill her by preying on her weaker physically defensive side. Scizor can easily get rid of a Shell Smash or Belly Drum Necturna with Bullet Punch, and can 2HKO any other Necturna lacking a Fire-type move. Mamoswine does a similar job with Ice Shard, as Necturna resists or is immune to just about every other priority move in the metagame, save for Sucker Punch. In general, strong neutral hits from Haxorus, Terrakion, Metagross, and the like are all fully capable of taking down Necturna given the correct opportunity.</p>

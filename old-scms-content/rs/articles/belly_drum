@@ -1,0 +1,124 @@
+[title]
+Belly Drum Analysis
+[head]
+<meta name="description" content="An analysis of the high-risk, high-reward move Belly Drum. Originally written by Mekkah." />
+[page]
+
+<div class="author">By <a href="/forums/member.php?u=273">Mekkah</a>, rewritten by <a href="/forums/member.php?u=4852">Great Sage</a>.</div>
+
+<ol class="toc">
+	<li><a href="#introduction">Introduction</a></li>
+	<li>
+		<a href="#main_drummers">Some Important Belly Drummers</a>
+		<ul>
+			<li><a href="#charizard">Charizard</a></li>
+			<li><a href="#linoone">Linoone</a></li>
+			<li><a href="#smeargle">Smeargle</a></li>
+		</ul>
+	</li>
+	<li><a href="#finisher">The Finisher Function</a></li>
+	<li><a href="#countering">Countering Belly Drummers</a></li>
+	<li><a href="#final_words">Final Words</a></li>
+</ol>
+
+<h2><a name="introduction">Introduction</a></h2>
+
+<p>In the card game Hearts, certain cards are worth points, and if a player is holding a point card at the end of a round, he or she receives the appropriate number of points, one for each Heart, and 13 for the Queen of Spades. Contrary to many other games, players attempt to receive the lowest score possible, and therefore usually try to avoid holding point cards at the end of a round. However, if a certain player receives all thirteen Hearts and the Queen of Spades, that player gains zero points, whereas all other players accept a 26-point acquisition each, giving the player who obtained all the point cards a substantial advantage. This is called "shooting the moon" and is a very dynamic strategy that has huge rewards, but also enormous risk; if the player attempting to "shoot the moon" is missing even one point card, the scores are calculated regularly, and oftentimes the would-be shooter is burdened with a gigantic point gain if the strategy isn't executed perfectly.</p>
+
+<p>The concept of "shooting the moon" is analogous to using the move Belly Drum in Pokémon. Belly Drum is a risky move that raises the user's Attack stage to the maximum level of +6 regardless of the original stage, but in return for such an explosive boost rids the user of 50% of its maximum HP, leaving it open to being easily knocked out in subsequent turns. If the strategy succeeds, the Belly Drummer is set to sweep, especially if it receives a Speed boost from a Salac Berry, but if the strategy is somehow foiled, the Belly Drummer's team is put at an immediate disadvantage, leaving it with one fewer member and often at little or no cost to the opposition.</p>
+
+<p>There are two main formats for sets with Belly Drum: those with Substitute, and those without it. Substitute is an excellent choice to use with Belly Drum, as it allows the user to scout for unfavorable switches so it doesn't waste its Belly Drum on something it can't beat anyway. Substitute also takes 25% of the user's HP, which may at first appear to lack synergy with Belly Drum; however, if the user's HP is set at a number divisible by 4, a Substitute followed by a Belly Drum is enough to activate the Salac Berry, opening a pathway for a clean sweep. Unfortunately, using Substitute only leaves the Belly Drummer with two slots for offensive moves, and oftentimes two slots doesn't offer sufficient type coverage. Sets without Substitute don't usually have problems with type coverage, but are incredibly risky and aren't nearly as easy to use because of how difficult it is to set the user's HP under 25% and over 0% after a Belly Drum. A relatively weak attack from a wall that would switch out from a given Pokémon, such as a Skarmory Drill Peck on an incoming Charizard, will suffice, as it deals over 25% but under 50% damage.</p>
+
+<p>The subsequent portions of this article will discuss three main Pokémon: Charizard, Linoone, and Smeargle. In general, these are the most effective Belly Drummers; most other Belly Drummers are either too slow, too limited in movepool, or too weak defensively.</p>
+
+<h2><a name="main_drummers">Important Belly Drummers</a></h2>
+
+<h3><a name="charizard" href="/rs/pokemon/charizard">Charizard</a></h3>
+
+<p>Charizard is arguably the best Belly Drummer in Advance, because it is reasonably fast at 100 base Speed, has a large physical movepool consisting of attacks such as Earthquake, Hidden Power Flying, and Rock Slide, and can use STAB Fire attacks to annihilate Steel-type walls like Skarmory. Additionally, Charizard's Flying subtype grants it an immunity to one of the most common moves in the game, Earthquake, which makes switching in much easier; immunity to Spikes also helps it by cutting down on residual damage. The basic set with Substitute consists of Substitute, Belly Drum, and two offensive moves. One offensive move should be Hidden Power Flying, which receives STAB, while the other one is a choice between Earthquake, Rock Slide, and a Fire move from Flamethrower, Fire Blast, and Overheat.</p>
+
+<p>Earthquake and Rock Slide work well with Hidden Power Flying in terms of type coverage, but falter against solid physical walls such as Skarmory, Forretress, and Weezing. The Fire move easily dispatches Skarmory and Forretress, but leaves Charizard open to some threats like Tyranitar. Each Fire move also has its own advantages and foibles. Overheat is the most powerful option and has a good chance of OHKOing Weezing after an Overheat, assuming a Blaze boost and a Naughty or Lonely nature on Charizard's part, but is rendered tantamount to useless after the initial attack because of its two-stage Special Attack drop. Fire Blast is more consistent, can pierce through multiple Steel-types, and isn't vulnerable to a predicted switch, but is the least accurate of the three moves. Flamethrower is the most accurate but least powerful of the Fire-type options.</p>
+
+<p>A small note in the usage of Substitute Charizard is to use a 30 HP IV on it, and therefore a 30 HP / 30 Attack / 30 Defense / 30 Special Attack / 30 Special Defense / 31 Speed to attain Hidden Power Flying; a 30 HP IV will allow Salac Berry to activate at 25% HP rather than at 1%, meaning Charizard isn't instantly killed by weak priority moves and won't simply roll over to Sand Stream.</p>
+
+<p>Charizard can't possibly hope to be able to beat everything with two moves, which is where the non-Substitute version comes in. Earthquake becomes a mandatory move on this set, and the Fire moves and Rock Slide are left to vie for the final slot. Ideally, Charizard without Substitute should switch in on something that would surely switch out after dealing 25-50% damage; the aforementioned Skarmory and its Drill Peck is but one example of an excellent candidate. Even though Skarmory might predict a Belly Drum and subsequently kill Charizard with Drill Peck, more often than not it wouldn't want to risk an OHKOing Fire attack. Another way to knock down Charizard's health into the appropriate level is to use Double-Edge in the auxiliary slot; Double-Edge also usually handles the fact that it will never be able to OHKO Milotic or Swampert with a Belly Drum-boosted Hidden Power Flying, but unfortunately an OHKO on Suicune is still far from being attainable.</p>
+
+<p>However, Charizard is still counterable by small pools of Pokémon. Obviously, Pokémon that resist its offensive choices will easily smash the 25% HP or less it has left. Carefully juggling Pokémon with Intimidate, such as Gyarados and Salamence, can wear down Charizard's Attack to manageable levels; even a two-stage Attack drop heavily weakens Charizard, as its initial Attack isn't particularly impressive. While 25% health and Flying subtyping stops all Mach Punches and most Quick Attacks from taking effect, two or more Fake Outs, Choice Band and STAB-boosted Quick Attacks from Pokémon like Dodrio, or ExtremeSpeed from Linoone or Arcanine will murder a 25% HP Charizard. Tyranitar's Sand Stream puts a time limit on the time Charizard with Salac Berry can sweep by chipping away 6.25% HP each turn, a quarter of the 25% the most healthy Charizard should have; Charizard might like to carry Leftovers to circumvent death by weather, but it will not be as useful in general as Salac Berry. The rarest counter to Charizard is something that actually outspeeds it after a Belly Drum. The only non-Uber Pokémon that should be outrunning Charizard is Ninjask, from which a Hidden Power Flying does a minimum of 29%.</p>
+
+<p>It is critical when using Charizard, or any other Belly Drummer for that matter, to not take unnecessary risks. A Charizard that somehow returns to over 50% health, most commonly by Wish support or having an odd HP, should never risk not OHKOing a bulky Water Pokémon and fainting in return. A quick damage calculator on hand aids one in determining whether to attack or switch out.</p>
+
+<h3><a name="linoone" href="/rs/pokemon/linoone">Linoone</a></h3>
+
+<p>Initially, Linoone might seem utterly inferior to Charizard, with lower defenses and Attack, fewer resistances, and an essentially useless Ghost resistance (Ghost attacks are a bit rare, and most commonly found on non-Choice Banded attackers such as Snorlax) in exchange for Charizard's Ground and Spikes immunities. There are very few attacks that do less than 50% damage to Linoone, and it doesn't carry the threat Charizard does to force much or anything to switch out. Linoone does boast two major selling points, though. ExtremeSpeed is one, because its positive priority makes Salac Berry less of a necessity; another one is Flail, which is insanely powerful following a Belly Drum and especially at low HP. Not requiring Salac Berry lets Linoone thrive, even in sandstorm conditions, by grace of Leftovers. ExtremeSpeed Linoone can also make a case for using Shell Bell, as it should be OHKOing everything, and anything that suffers more than or equal to 152 damage will cause Shell Bell to outweigh Leftovers in terms of recovery.</p>
+
+<p>The basic ExtremeSpeed set for Linoone has Belly Drum, ExtremeSpeed, Shadow Ball for Ghost-types, and either Hidden Power Ground for type coverage on Metagross, Tyranitar and the like, or Return for a slightly stronger Normal-type STAB move. The only fast Pokémon Linoone should have problems with are Gengar and Aerodactyl, who respectively are immune to and resistant to ExtremeSpeed; the group it has the most problems with are somewhat defensive and slower Pokémon like Swampert. Return and Hidden Power Ground are intended to counter that group of Pokémon, but unfortunately Linoone can only choose one, leaving it vulnerable to either Tyranitar and Metagross in the case of Return or bulky Waters in the case of Hidden Power Ground. Either way, Skarmory and Forretress always beat it easily.</p>
+
+<p>A set with Flail and Substitute is also viable for Linoone, though Flail is an extremely risky tactic because of how critically low one needs to place Linoone's HP. Contrary to most Belly Drummers, Flail Linoone should have an HP that isn't divisible by four so it can get down to 1, 2, or 3 health and strike with Flail at its maximum power of 200. An extremely dynamic version of Linoone combines the ExtremeSpeed and the Flail sets, and should have an odd HP so it can Belly Drum twice. ExtremeSpeed kills some things during the first round, while Flail obliterates almost anything the second round. Shadow Ball or Hidden Power Ground are usable in the fourth slot for type coverage. It would do one well to remember that the combination set is extremely circumstantial and oftentimes won't find a suitable setup. Also, even though Flail is incredibly powerful, it still doesn't OHKO Skarmory or Forretress after a Belly Drum.</p>
+
+<h3><a name="smeargle" href="/rs/pokemon/smeargle">Smeargle</a></h3>
+
+<p>Smeargle is the maverick of the three Pokémon that can use Belly Drum effectively. Its HP and Speed are mediocre at best, and the rest of its stats are absolutely unusable; on the other hand, Smeargle learns every single move in the game through Sketch, and while it can't use Belly Drum for itself effectively (its absolute maximum Attack after a Belly Drum is 608, only one more than a once-Dragon Danced Salamence), it can Baton Pass it off to a more powerful Pokémon, most often Medicham. If Smeargle also passes a Salac Berry Speed boost successfully, then its recipient will probably be able to sweep the opponent's team.</p>
+
+<p>The standard Smeargle set consists of Substitute, Belly Drum, Baton Pass, and its linchpin, Spore. Spore is the only sleep move in the game with perfect accuracy, and allows Smeargle plenty of time to set up and Baton Pass Belly Drum. However, the opponent often anticipates it and switches to a Pokémon with Sleep Talk, so a full health Smeargle should use Substitute against a slower enemy, the only type of enemy Smeargle should stay in against. Hopefully, the opposing Pokémon will switch out, but even if it doesn't, Smeargle can Spore it on the next turn and Belly Drum, and if the opponent does switch out, it can Spore the switch-in, which ideally is also slower than Smeargle, and then Belly Drum. Either way, if Smeargle's HP is divisible by four, it will have activated the Salac Berry and become faster than every Pokémon allowed in OU except Electrode and Ninjask. From there, it is a matter of Baton Passing safely to the preferred recipients before winning.</p>
+
+<p>There is an extremely risky variant of the Belly Drumming Smeargle that replaces Substitute with ExtremeSpeed, which helps it against strong carriers of priority moves such as Dodrio, or Substitute with Taunt, which stops Skarmory from forcing it out with Whirlwind. However, it is one of the most difficult things possible in Pokémon to activate a Salac Berry with the modified set. One's best chance would be residual damage from Spikes or sandstorm.</p>
+
+<p>Medicham tends to be the best recipient, because its Pure Power ability allows it the highest non-Uber Attack in the game, and it sports a physical movepool capable of OHKOing everything except the most defensive Groudon after a Belly Drum. Some other useful recipients are Gyarados, Aerodactyl, Salamence, Zapdos, and many others.</p>
+
+<h2><a name="finisher">The Finisher Function</a></h2>
+
+<p>Belly Drummers are very powerful if set up correctly, but there is an anecdote to their usage that relates back to the game of Hearts. If a player realizes his or her opponent is attempting to "shoot the moon" and has the opportunity to stop it, but at the expense of taking the Queen of Spades, the player is more likely than not going to take the chance anyway. At worst, he or she gains 13 points, as opposed to the 26-point gain that would have occurred otherwise. This is why the user of the Belly Drummer should never over- or underestimate the opponent, especially on a second attempt at Belly Drumming, or with a well-known Belly Drummer such as Charizard. A predicted switch might very well not happen. For example, a Charizard that has just switched into a Skarmory's Drill Peck might suffer a fatal one while Belly Drumming on an incorrectly predicted switch. It is vital while using a Belly Drummer to not only consider the risks involved with the Belly Drummer, but also the risks run by the opponent.</p>
+
+<p>There are a few ways for one to force his or her opponent to keep the Belly Drummer alive. This section will also include general support for Belly Drummers.</p>
+
+<dl>
+<dt><a href="/rs/moves/substitute">Substitute</a></dt>
+<dd>A Substitute Baton Passed from another Pokémon is often extremely helpful and lets the Belly Drummer switch in easily and occasionally benefit from its immunities more easily. For example, a Jolteon is exceptionally good at supporting Charizard, because it is weak to Ground, so it can often Baton Pass from an impending Earthquake. It also is extremely fast and scares off Water-types that Charizard dislikes.</dd>
+
+<dt><a href="/rs/moves/perish_song">Perish Song</a></dt>
+<dd>When the opponent is down to a Perish count of 2, it is a perfect opportunity for a Belly Drummer to switch in. This places the opponent into a checkmate position, because if it switches out, it will give the Belly Drummer a free turn to set up, and if it attacks, it faints to Perish Song, because two turns will have elapsed by that time. Explosion or Selfdestruct will foil this strategy, though.</dd>
+
+<dt><a href="/rs/pokemon/dugtrio">Dugtrio</a></dt>
+<dd>Dugtrio is very circumstantial, but is also a checkmate strategy to allow for free turns. It is best revealed early and kept in reserve until a Pokémon vulnerable to it and valuable to the opposing team is facing a Belly Drummer. If the Pokémon in question knocks out the Belly Drummer, Dugtrio will revenge kill it.</dd>
+
+<dt><a href="/rs/pokemon/magneton">Magneton</a></dt>
+<dd>Magneton is a trapper of a different flavor from Dugtrio. It can only trap Steel Pokémon, but is generally very effective at killing them off, especially Skarmory, the bane of most Belly Drummers. It is important to keep in mind that Magneton shouldn't try to faint Skarmory if Charizard with a Fire move is active, because Skarmory is excellent switch-in bait.</dd>
+
+<dt>Dual Screens</dt>
+<dd><a href="/rs/moves/light_screen">Light Screen</a> and <a href="/rs/moves/reflect">Reflect</a> are moves that halve special and physical damage, respectively, for 5 turns. This can often be enough to lower damage sufficiently so the Belly Drummer suffers less than 25%, or less then enough to break a Substitute. Safeguard, another pseudo-passing move, stops the Belly Drummer from being afflicted by status, most importantly paralysis or burn.</dd>
+
+<dt>Choice Banded Opponents</dt>
+<dd>Choice Band stops the opponent in question from changing attacks, so if the Belly Drummer switches into an attack it is immune to, it will almost certainly pull off a successful Belly Drum. The best Pokémon for this is Charizard, because of its immunity to the popular Ground attack, Earthquake. Linoone and Smeargle will have to be satisfied with switching into the infrequent Shadow Ball.</dd>
+
+<dt><a href="/rs/moves/wish">Wish</a></dt>
+<dd>Wish restores the health of the Pokémon that is active when it takes effect, so it can be used to replenish a Belly Drummer's health to give it a second chance at sweeping. Unfortunately, it can't restore a Salac Berry if it has already been activated.</dd>
+
+<dt>Status</dt>
+<dd>There are four main statuses that help Belly Drummers: sleep, paralysis, burn, and a pseudo-status, <a href="/rs/moves/leech_seed">Leech Seed</a>. Sleep is obvious for its giving of free turns; freeze works similarly, but isn't the easiest status to inflict due to the fact that it can only be affected via luck. Paralysis can cause a fortunate full paralysis, and burn debilitates physical attackers, increasing the number of hits a Belly Drummer can take. Leech Seed saps the opponent's health to give Belly Drummers extra chances at using Substitute, and helps with its residual damage.</dd>
+
+<dt><a href="/rs/moves/spikes">Spikes</a></dt>
+<dd>As usual, Spikes are excellent for residual damage. It is especially useful for Charizard, because it just misses OHKOing several bulky Waters after a Belly Drum.</dd>
+
+<dt><a href="/rs/moves/explosion">Explosion</a> / <a href="/rs/moves/selfdestruct">Selfdestruct</a></dt>
+<dd>These moves faint the user and instantly end the turn, letting Belly Drummers switch in without any problems. One of the best users in theory is Metagross, which attracts Water-types, which may not be expecting an early Explosion.</dd>
+
+<dt><a href="/rs/moves/memento">Memento</a></dt>
+<dd>Memento is another self-sacrificial move, but rather than dealing direct damage like Explosion, it lowers both the Attack and Special Attack of the target by 2 stages. Like Explosion, Memento ends the turn when used. An excellent fact is that the three best users of Memento, Dusclops, Gardevoir, and Weezing, all learn Will-O-Wisp, which inflicts burn on the foe. Will-O-Wisp will deter Metagross, which has Clear Body to render Memento useless, however Regice doesn't care either way.</dd>
+
+<dt><a href="/rs/moves/grudge">Grudge</a></dt>
+<dd>Grudge is the third support option that involves the user fainting. It doesn't force the user to faint, but if the opponent uses a direct attack and it causes the Grudge user to faint in the turn immediately following Grudge's usage, that move loses all its PP. This will instantly ruin any Choice Bander and leave it open to switch-ins by Belly Drummers.</dd>
+</dl>
+
+<h2><a name="countering">Countering Belly Drummers</a></h2>
+<p>While Belly Drummers are immensely fearsome once set up, there are counters to every one except Medicham that has been passed Belly Drum. Two ways to beat Belly Drummers that are already set up are generally considered failsafe.</p>
+
+<dl>
+<dt>Priority Moves</dt>
+<dd>The priority moves available in Advance are <a href="/rs/moves/fake_out">Fake Out</a>, <a href="/rs/moves/quick_attack">Quick Attack</a>, <a href="/rs/moves/mach_punch">Mach Punch</a>, and <a href="/rs/moves/extremespeed">ExtremeSpeed</a>. Quick Attack is usually insufficient to finish Belly Drummers, because most keep their HP at 25%, but if heavily boosted, it can work. Mach Punch is essentially futile against Charizard because it resists Fighting, but it is super effective against Smeargle and Linoone. Fake Out will only work if it is heavily boosted or if the Pokémon using it has at least one surviving teammate; it can Fake Out for the flinch, and then come back later to Fake Out for the knockout. Only Linoone and Arcanine can use ExtremeSpeed in non-Uber environments, but it is essentially guaranteed to cut off a Belly Drummer's remaining sliver of health.</dd>
+
+<dt><a href="/rs/pokemon/tyranitar">Tyranitar</a></dt>
+<dd>Tyranitar is the absolute dread of most Belly Drummers, on par with Skarmory. Most threatening is its Sand Stream ability, which calls infinite sandstorm upon entry, which straps a ticking time bomb on Charizard. Linoone's standard ExtremeSpeed set is safe if it carries Leftovers, though. Tyranitar also resists many of the move combinations that Belly Drum sweepers often have, including Flying and Fire from Charizard. It doesn't particularly mind Rock Slide either.</dd>
+</dl>
+
+<h2><a name="final_words">Final Words</a></h2>
+<p>Belly Drum is, overall, one of the riskiest and most explosive strategies in the game. It requires tremendous team support, so if it fails, the entire team often loses the game. However, if executed properly, Belly Drum can make Charizard, Linoone, or Smeargle's recipient a game-winning sweeper. A clear vision of the game status is vital for a Belly Drum team's victory.</p>

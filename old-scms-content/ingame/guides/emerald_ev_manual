@@ -1,0 +1,203 @@
+[title]
+EV Training in Pokemon Emerald
+[head]
+<meta name="description" content="A guide to EV training in Pokemon Emerald by Jubilee." />
+[page]
+<div class="author">Written by <a href="/forums/member.php?u=35462">Jubilee</a>.</div>
+
+<ol class="toc">
+<li><a href="#intro">Introduction</a></li>
+<li><a href="#frequent">Frequently Encountered Pokemon for EV Training</a></li>
+<li><a href="#hotspots">Hotspots for EV Training over Multiple Pokemon</a></li>
+<li><a href="#macho">Macho Brace</a></li>
+<li><a href="#pokerus">Pokerus</a></li>
+<li><a href="#base">Secret Base EV Training</a></li>
+<li><a href="#ditto">Ditto EV Training</a></li>
+<li><a href="#calc">All Possible EV Calculations</a></li>
+</ol>
+
+<h2><a name="intro">Introduction</a></h2>
+
+<p>The following guide contains information on EV training in Pokemon Emerald. It will tell you all the necessary items you will need and where to get them. This guide also covers how to calculate your gained EVs and the hotspots for EV training in certain stats.</p>
+
+<h2><a name="frequent">Frequently Encountered Pokemon for EV Training</a></h2>                         
+<table class="sortable">
+    <thead>
+        <tr>
+            <th>Pokemon</th>
+            <th>Location</th>
+            <th>Appearance Rate</th>
+            <th>EVs</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th colspan="4">HP</th>
+        </tr>
+        <tr>
+            <td>Whismur</td>
+            <td>Rusturf Tunnel</td>
+            <td>100%</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <th colspan="4">Attack</th>
+        </tr>
+        <tr>
+            <td>Poochyena</td>
+            <td>Route 101</td>
+            <td>40%</td>
+            <td>1</td>
+        </tr>
+        <tr class="a">
+            <td>Carvanha</td>
+            <td>Route 118, Route 119</td>
+            <td>60% (Fishing)</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>Shuppet</td>
+            <td>Mt. Pyre (Floors 1-3)</td>
+            <td>100%</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <th colspan="4">Special Attack</th>
+        </tr>
+        <tr>
+            <td>Spinda</td>
+            <td>Route 113</td>
+            <td>70%</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <th colspan="4">Special Defense</th>
+        </tr>
+        <tr>
+            <td>Tentacool</td>
+            <td>Abandoned Ship</td>
+            <td>99% (Surfing), 80% (Fishing: Super Rod)</td>
+            <td>1</td>
+        </tr>
+        <tr class="a">
+            <td>Tentacruel</td>
+            <td>Abandoned Ship</td>
+            <td>1% (Surfing), 20% (Fishing: Super Rod)</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <th colspan="4">Speed</th>
+        </tr>
+        <tr>
+            <td>Zubat</td>
+            <td>Cave of Origin (Cave)</td>
+            <td>90%</td>
+            <td>1</td>
+        </tr>
+        <tr class="a">
+            <td>Golbat</td>
+            <td>Meteor Falls</td>
+            <td>65% (Inner Cave), 90% (Inner Cave Surfing)</td>
+            <td>2</td>
+        </tr>
+    </tbody>
+</table>
+
+<h2><a name="hotspots">Hotspots for EV Training over Multiple Pokemon</a></h2>                         
+<table class="sortable">
+    <thead>
+        <tr>
+            <th>Pokemon</th>
+            <th>Location</th>
+            <th>Appearance Rates</th>
+            <th>EVs</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th colspan="4">HP</th>
+        </tr>
+        <tr>
+            <td>Loudred, Whismur, Ditto</td>
+            <td>Desert Underpass</td>
+            <td>16%, 34%, 50% (100% to gain HP EVs)</td>
+            <td>2, 1, 1</td>
+        </tr>
+        <tr>
+            <th colspan="4">Attack</th>
+        </tr>
+        <tr>
+            <td>Shuppet, Poochyena, Mightyena</td>
+            <td>Route 121</td>
+            <td>30%, 20%, 20% (70% to gain Attack EVs)</td>
+            <td>1, 1, 2</td>
+        </tr>
+        <tr>
+            <th colspan="4">Defense</th>
+        </tr>
+        <tr>
+            <td>Graveler, Geodude, Torkoal</td>
+            <td>Magma Hideout</td>
+            <td>15%, 50%, 35% (Inside Cave) (100% to gain Defense EVs)</td>
+            <td>2, 1, 2</td>
+        </tr>
+        <tr>
+            <th colspan="4">Special Defense</th>
+        </tr>
+        <tr>
+            <td>Lombre, Lotad, Swablu</td>
+            <td>Route 114</td>
+            <td>20%, 30%, 40% (90% to gain Special Defense EVs)</td>
+            <td>2, 1, 1</td>
+        </tr>
+        <tr>
+            <th colspan="4">Speed</th>
+        </tr>
+        <tr>
+            <td>Zigzagoon, Electrike, Wingull, Linoone, Manectric</td>
+            <td>Route 118</td>
+            <td>30%, 30%, 19%, 10%, 10% (99% to gain Speed EVs)</td>
+            <td>1, 1, 1, 2, 2</td>
+        </tr>
+    </tbody>
+</table>
+
+<h2><a name="macho">Macho Brace</a></h2>
+
+<p>The Macho Brace is an item that will make EV training slightly easier because it doubles the EVs you gain in battle.</p>
+
+<dl>
+<dt>Where do you find the Macho Brace?</dt>
+<dd>The Macho Brace can be obtained from the Winstrate's House on Route 211 right above Mauville.</dd>
+</dl>
+
+<h2><a name="pokerus">Pokerus</a></h2>
+
+<p>Pokerus is another handy tool in EV Training because it doubles the amount of EVs you gain in battle as well. The downside of Pokerus is that it is extremely hard to find.</p>
+
+<dl>
+<dt>How do you get the Pokerus</dt>
+<dd>Pokerus can be found by battling wild Pokemon in the grass and capturing a wild Pokemon infected with Pokerus. When infected with Pokerus, there will be a purple "PKRS" sign in the status screen of the Pokemon. Pokerus will stay until the game's clock reaches midnight. Once the game hits midnight the Pokemon will be cleared of Pokerus and will no longer be able to infect others with it but it will still gain double the amount of EVs. Pokemon kept in the PC or Daycare with Pokerus will keep the infection as long as you do not withdraw them.</dd>
+</dl>
+
+<h2><a name="base">Secret Base EV Training</a></h2>
+
+<p>In Pokemon Emerald you can mix records with any other Pokemon Emerald, Ruby, or Sapphire game. Mixing records requires you to either have two of the above game cartridges and two Game Boy Advances, or know someone with them, which makes it a little harder to do. After mixing records, if you go to the location of your friend's Secret Base you mixed records with you can enter it. Inside will be an NPC and they will have the Pokemon party that your friend had at the time you mixed records. You can use this method by having your friend have a party of Pokemon who give 3 EVs in one stat, making EV training a lot easier and faster. Note that you need to have beaten the Elite Four for this to work and these battles can only be done once a day.</p>
+
+<h2><a name="ditto">Ditto EV Training</a></h2>
+
+<p>In Pokemon Emerald, Ditto can be found in the Desert Underpass. Ditto can be used as a handy EV training tool and here is how. First you put the Pokemon you want EV trained in the first slot and a Pokemon who yields 3 EVs in the stat in which you're EV training in your party. Once you have encountered a Ditto switch to the Pokemon who yields 3 EVs, let Ditto transform into that Pokemon, and then KO the Ditto with the Pokemon you're EV training. The Pokemon you're EV Training has now gained 3 easy EVs.</p>
+
+<h2><a name="calc">All Possible EV Calculations</a></h2>
+
+<ul>
+<li>1 EV + Macho Brace = 2 EVs</li>
+<li>1 EV + Pokerus = 2 EVs</li>
+<li>1 EV + Macho Brace + Pokerus = 4 EVs</li>
+<li>2 EVs + Macho Brace = 4 EVs</li>
+<li>2 EVs + Pokerus = 4 EVs</li>
+<li>2 EVs + Macho Brace + Pokerus = 8 EVs</li>
+<li>3 EVs + Macho Brace = 6 EVs</li>
+<li>3 EVs + Pokerus = 6 EVs</li>
+<li>3 EVs + Macho Brace + Pokerus = 12 EVs</li>
+</ul>

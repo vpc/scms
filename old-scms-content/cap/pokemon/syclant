@@ -1,0 +1,30 @@
+[title]
+Syclant
+[head]
+<link rel="stylesheet" type="text/css" href="/media/dex/dex.css" />
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_template.js"></script>
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_database.js"></script>
+[header]
+[page]
+<script language="JavaScript">
+<!--
+var cap = Syclant();
+
+cap.heightFeet = 5;
+cap.heightInches = 7;
+cap.weightPounds = 115;
+cap.weightKilos = 52;
+cap.eggGroup1 = "Bug";
+cap.eggGroup2 = ""
+
+cap.topicLeader = "Cooper";
+cap.conceptCreator = "";
+cap.statSpreadCreator = "Mario with Lasers";
+cap.designArtist = "CyzirVisheen";
+cap.spriteArtist = "KoA";
+cap.nameCreator = "Lawman";
+cap.movepoolCreator = "";
+
+document.write(composeDexPage(cap));
+//-->
+</script>

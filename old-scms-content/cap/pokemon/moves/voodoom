@@ -1,0 +1,96 @@
+[title]
+Voodoom
+[head]
+<link rel="stylesheet" type="text/css" href="/media/dex/dex.css" />
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_template.js"></script>
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_database.js"></script>
+[header]
+[page]
+<script language="JavaScript">
+var cap = Voodoom();
+
+cap.movesLevel[0] = ["Wrap", "Revenge", "Night Slash", "Astonish", "Copycat", "Pain Split", "Spite"];
+cap.movesLevel[7] = "Pain Split";
+cap.movesLevel[11] = "Spite";
+cap.movesLevel[15] = "Grudge";
+cap.movesLevel[19] = "Charge";
+cap.movesLevel[20] = "Follow Me";
+cap.movesLevel[25] = "Pin Missile";
+cap.movesLevel[30] = "Faint Attack";
+cap.movesLevel[35] = "Close Combat";
+cap.movesLevel[40] = "Acupressure";
+cap.movesLevel[45] = "Aura Sphere";
+cap.movesLevel[50] = "Substitute";
+cap.movesLevel[55] = "Beat Up";
+
+cap.movesTM[1] = "Focus Punch";
+cap.movesTM[6] = "Toxic";
+cap.movesTM[8] = "Bulk Up";
+cap.movesTM[10] = "Hidden Power";
+cap.movesTM[11] = "Sunny Day";
+cap.movesTM[12] = "Taunt";
+cap.movesTM[15] = "Hyper Beam";
+cap.movesTM[17] = "Protect";
+cap.movesTM[21] = "Frustration";
+cap.movesTM[26] = "Earthquake"
+cap.movesTM[27] = "Return";
+cap.movesTM[29] = "Psychic";
+cap.movesTM[31] = "Brick Break";
+cap.movesTM[34] = "Shock Wave";
+cap.movesTM[41] = "Torment";
+cap.movesTM[42] = "Facade";
+cap.movesTM[43] = "Secret Power";
+cap.movesTM[44] = "Rest";
+cap.movesTM[45] = "Attract";
+cap.movesTM[46] = "Thief";
+cap.movesTM[49] = "Snatch";
+cap.movesTM[52] = "Focus Blast";
+cap.movesTM[56] = "Fling";
+cap.movesTM[58] = "Endure";
+cap.movesTM[60] = "Drain Punch";
+cap.movesTM[66] = "Payback";
+cap.movesTM[68] = "Giga Impact";
+cap.movesTM[73] = "Thunder Wave";
+cap.movesTM[75] = "Stone Edge";
+cap.movesTM[78] = "Captivate";
+cap.movesTM[79] = "Dark Pulse";
+cap.movesTM[80] = "Rock Slide";
+cap.movesTM[82] = "Sleep Talk";
+cap.movesTM[83] = "Natural Gift";
+cap.movesTM[85] = "Dream Eater";
+cap.movesTM[87] = "Swagger";
+cap.movesTM[90] = "Substitute";
+
+cap.movesHM[4] = "Strength";
+cap.movesHM[6] = "Rock Smash";
+
+cap.movesEgg = [
+"Baton Pass",
+"Imprison",
+"Mach Punch",
+"Memento",
+"Perish Song",
+"Pursuit",
+"Smellingsalt",
+"Screech"
+];
+
+cap.movesTutor = [
+"Counter",
+"Ice Punch",
+"Knock Off",
+"Low Kick",
+"Magic Coat",
+"Metronome",
+"Mimic",
+"Mud-Slap",
+"Nightmare",
+"Pain Split",
+"Snore",
+"Spite",
+"Uproar",
+"Vacuum Wave"
+];
+
+document.write(composeMovesPage(cap));
+</script>

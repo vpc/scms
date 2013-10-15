@@ -1,0 +1,84 @@
+[title]
+BW RNG Manipulation Guide Part 6 - Receiving Perfect Wondercard Pokemon
+[head]
+<meta name="description" content="BW RNG Manipulation Guide Part 6 - Receiving Perfect Wondercard Pokemon" />
+[page]
+<div class="author">By <a href="/forums/member.php?u=32572">Kaphotics</a>.</div>
+
+
+<ul class="toc">
+<li><a href="bw_rng_intro">The BW RNG Manipulation Guide</a></li>
+<li><a href="bw_rng_part1">BW RNG Manipulation Guide Part 1 - Common Information for Breeding, Capturing, and Receiving Perfect Pokemon</a></li>
+<li><a href="bw_rng_part2">BW RNG Manipulation Guide Part 2 - How to RNG a Perfect Pokemon</a></li>
+<li><a href="bw_rng_part3">BW RNG Manipulation Guide Part 3 - How to Capture Perfect and / or Shiny Pokemon by Controlling the PIDRNG</a></li>
+<li><a href="bw_rng_part4">BW RNG Manipulation Guide Part 4 - How to Abuse your IDs</a></li> 
+<li><a href="bw_rng_part5">BW RNG Manipulation Guide Part 5 - How to Hatch Shiny (and Perfect) Pokemon</a></li>
+<li><a href="bw_rng_part6">BW RNG Manipulation Guide Part 6 - Receiving Perfect Wondercard Pokemon</a>
+<ul>
+<li><a href="#findr">Finding Wondercard Seeds</a></li>
+<li><a href="#hittingr">Hitting your Wondercard Seed and Frame</a></li>
+<li><a href="#finds">Finding Shiny Wondercard Seeds</a></li>
+</ul>
+</li>
+<li><a href="bw_rng_part7">BW RNG Manipulation Guide Part 7 - Capturing Perfect Roaming Pokemon</a></li> 
+</ul>
+
+<p>To RNG Wondercard Pokemon, one must utilize Wondercard seeds as opposed to Standard seeds. Wondercard seeds are similar to Standard seeds, except the IVs are based off of the PIDRNG frame. The Standard seeds you had before will not be useable, but the abuse is very easy once you find a seed. Regular Wondercards cannot be shiny.</p>
+<p>Save at a Pokemon Center in which there are no moving NPCs; the Pokemon Center at the Elite Four is suggested.</p>
+
+<h2><a name="findr">Finding Wondercard Seeds</a></h2>
+<ul>
+<li>Obtain your target Wondercard seed from RNG Reporter by searching Wondercards (5th Gen) with a Minimum Frame above 55 in Time Finder.
+<ul>
+<li>If the Wondercard gift has a forced gender use the GLAN Wondercard option instead. Do not use it under any other circumstance.</li>
+</ul></li>
+<li>Take note of the date, time, and keypress needed. </li>
+<li>Once you have this Wondercard seed, you will have to hit the seed just like you would for a Standard Seed.</li>
+</ul>
+<p><img src="/media/ingame/images/ingame_bwrng_tfwcr.png" alt="" /></p>
+
+<h2><a name="hittingr">Hitting your Wondercard Seed and Frame</a></h2>
+<ul><li>Hit your seed once and find the IVs you find which is the initial frame.
+<ul><li>In most cases, it will be the first frame, after you calculate the initial PIDRNG frame.</li>
+</ul></li>
+<li>In RNG Reporter, enter your seed and select Wondercard (5th Gen) to see the possible IV spreads.</li>
+<li>Calculate the amount of advances you need to do to hit the target frame with the following formula:</li></ul>
+
+<h3>(Target Frame) - (Initial Frame) = Advances Required</h3>
+
+<ul>
+<li>Hit your seed again, do the required advances, and verify your Pokemon.
+<ul>
+<li>Adjust accordingly.</li>
+</ul></li></ul>
+
+<p>Shiny Wondercards are a bit more complex, because they are different from regular Wondercards. They will always be shiny, and require a few tricks to RNG to your desire.</p>
+
+<h2><a name="finds">Finding Shiny Wondercard Seeds</a></h2>
+
+<ol style="list-style-type: decimal"><li>Search for Wondercard seeds with the frame range 60-100, with <strong>any</strong> nature selected.
+<ul><li>Wondercard IVs and PID / Nature are based off the PIDRNG completely. No Mersenne Twister RNG is used.</li>
+</ul></li>
+<li>Once you have a vast array of seeds, test each one out to see if you are able to hit that frame due to the initial offset of the game.
+<ul><li>This is done by pressing the Calculate Initial Frame Button.</li>
+<li>All possible target frames must be at least 2 frames after the initial frame.</li>
+</ul></li>
+<li>Now look at your target frame, and second frame directly after your target. Is your desired nature on this frame?
+<ul><li>If no, throw away that seed.</li>
+<li>If yes, keep that seed as a potential target.</li>
+</ul></li>
+<li>Once you have narrowed down your seeds from RNG Reporter to one(s) that have your target nature frame and seed, find out how many advances you need to do.</li>
+</ol>
+
+<h3>(Target Frame) - (Initial Frame) - 3 = Advances Required</h3>
+
+<p><strong>Detailed Information on Shiny Wondercards</strong>:</p>
+
+<ul><li>It takes more than the usual amount of frames to calculate a Shiny PID.</li>
+<li>Since the lastest RNG Reporter update (9.81) was published before we had knowledge of the Shiny Wondercard method, you will have to take a little bit more time to abuse.</li>
+<li>The game generates a Shiny PID with the "Current Seed" and Card IDs.
+<ul><li>Since the game generates the IVs before PID, the IVs are predictable.</li>
+<li>However, the game generates nature <strong>after</strong> the PID.</li>
+<li>The trick of this is that the subsequent frame will have the nature.</li>
+</ul></li>
+</ul>

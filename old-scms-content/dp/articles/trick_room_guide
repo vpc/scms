@@ -1,0 +1,684 @@
+[title]
+A Guide to DPP Trick Room Teams
+[head]
+<meta name="description" content="Information on how to build and battle with Trick Room teams, thank to Gen. Empoleon." />
+[page]
+<div class="author"> by <a href="/forums/member.php?u=20899">Gen. Empoleon</a></div>
+
+<ol class="toc">
+<li><a href="#intro">Introduction</a></li>
+<li><a href="#whatis">What is Trick Room?</a></li>
+<li><a href="#types">Types of Pokémon to use in Trick Room</a>
+<ul>
+<li><a href="#speed">Speed Tiers</a></li>
+</ul>
+</li>
+<li><a href="#building">Trick Room Team Building</a>
+<ul>
+<li><a href="#lead">The Lead</a></li>
+<li><a href="#abuse">Trick Room Abusers</a></li>
+<li><a href="#other">Other Trick Room Pokémon</a></li>
+<li><a href="#support">Support</a></li>
+</ul>
+</li>
+<li><a href="#ubers">Trick Room in Ubers</a></li>
+<li><a href="#check">Trick Room checklist</a></li>
+<li><a href="#use">Pokémon to use in Trick Room</a>
+<ul>
+<li><a href="#roomers">Trick Room Supporters</a></li>
+<li><a href="#tricksweep">Trick Room Sweepers</a></li>
+</ul>
+</li>
+<li><a href="#conclusion">Conclusion</a></li>
+</ol>
+
+
+<h2><a name="intro">Introduction</a></h2>
+
+<p>When Diamond and Pearl first came out it brought a bunch of new and interesting moves to the metagame, one of which is Trick Room. Trick Room is mostly seen as a gimmick move that makes the slower Pokémon go first. This is simply not true; Trick Room, with the right team, can pose a threat to any standard fast paced OU team that do not prepare for such a threat. The real problem that Trick Room has, unlike Sunny Day and Rain Dance, is there is no way to extend its effects.</p>
+
+<p>When making a Trick Room team it is better to plan out how you will sweep rather than how you will get your sweepers in. It is completely possible to create an effective Trick Room team that will sweep your opponent, though doing so will require thought. Trick Room is very powerful once it is set up, as the slower Pokémon tend to have higher Attack and Special Attack stats when compared to the fast Pokémon of OU.</p>
+
+<h2><a name="whatis">What is Trick Room?</a></h2>
+
+<p>Trick Room is a move which will make the slower Pokémon go first for four turns. It has -7 priority, that is to say that every single move, including Roar and Whirlwind, will go before Trick Room. There isn't a Pokémon that brings instant Trick Room to the field, which means that you will always have to set it up by using the move.</p>
+
+<p>Basing a team around Trick Room is a hard thing to do, considering that all of your Pokémon outside of Trick Room are going to be slow, and the vast majority of the OU Pokémon will outspeed them. So having a game plan will help you pull off a win. Trick Room is possible to do in every tier, it is most commonly seen in OU, but can also be used in UU and in Ubers.</p>
+
+<h2><a name="types">Type of Pokémon to use in Trick Room</a></h2>
+
+<p>When picking Trick Room the Speed of the Pokémon plays a major role. Pokémon like Starmie and Gengar thrive on being faster than common threats. Mamoswine often runs a Jolly nature to out run an Adamant Lucario, while Magnezone is equipped with a Choice Scarf so it doesn't have to worry about max Speed Scizor. The metagame is dependent on who is faster than who and outpacing certain threats. While running Trick Room the opposite is in effect. You want as little Speed as you can to out run the faster Pokémon while under its effects. Anything over base 100 Pokémon is risky to use inside of Trick Room, and for the purpose of this guide I will limit myself to the Pokémon that fit within these boundaries.</p>
+
+<h3><a name="speed">Speed Tiers</a></h3>
+
+<table class="sortable">
+<thead>
+<tr>
+    <th>Base Speed</th>
+    <th>Minimum Speed</th>
+    <th>Base Speeds outran under Trick Room</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+ <td>100</td>
+    <td>184</td>
+    <td>75</td>
+</tr>
+<tr class="a">
+    <td>95</td>
+    <td>175</td>
+    <td>70</td>
+</tr>
+<tr>
+    <td>90</td>
+    <td>166</td>
+    <td>66</td>
+</tr>
+<tr class="a">
+    <td>85</td>
+    <td>157</td>
+    <td>61</td>
+</tr>
+<tr>
+    <td>80</td>
+    <td>148</td>
+    <td>58</td>
+</tr>
+<tr class="a">
+    <td>77</td>
+    <td>143</td>
+    <td>55</td>
+</tr>
+<tr>
+    <td>75</td>
+    <td>139</td>
+    <td>52</td>
+</tr>
+<tr class="a">
+    <td>71</td>
+    <td>132</td>
+    <td>50</td>
+</tr>
+<tr>
+    <td>70</td>
+    <td>130</td>
+    <td>48</td>
+</tr>
+<tr class="a">
+    <td>65</td>
+    <td>121</td>
+    <td>43</td>
+</tr>
+<tr>
+    <td>61</td>
+    <td>114</td>
+    <td>40</td>
+</tr>
+<tr class="a">
+    <td>60</td>
+    <td>112</td>
+    <td>39</td>
+</tr>
+<tr>
+    <td>61 and 58</td>
+    <td>114 and 108</td>
+    <td>39</td>
+</tr>
+<tr class="a">
+    <td>55</td>
+    <td>103</td>
+    <td>35</td>
+</tr>
+<tr>
+    <td>50 and 45</td>
+    <td>94 and 85</td>
+    <td>30</td>
+</tr>
+<tr class="a">
+    <td>40</td>
+    <td>76</td>
+    <td>23</td>
+</tr>
+<tr>
+    <td>35, 33, and 30</td>
+    <td>67, 63, and 58</td>
+    <td>20</td>
+</tr>
+    </tbody> 
+            </table>
+
+
+<p>There are 43 Pokémon which can use the move Trick Room. Once you have removed the Pokémon which are banned from the OU tier and that are higher than 100 base Speed you are left with:</p>
+
+<table class="sortable">
+<thead>
+<tr>
+    <th>Pokémon</th>
+    <th>HP</th>
+    <th>Attack</th>
+    <th>Defense</th>
+    <th>Special Attack</th>
+    <th>Special Defense</th>
+    <th>Speed</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+ <td><a href="/dp/pokemon/jirachi">Jirachi</a></td>
+    <td>100</td>
+    <td>100</td>
+    <td>100</td>
+    <td>100</td>
+    <td>100</td>
+    <td>100</td>
+</tr>
+<tr>
+ <td><a href="/dp/pokemon/celebi">Celebi</a></td>
+    <td>100</td>
+    <td>100</td>
+    <td>100</td>
+    <td>100</td>
+    <td>100</td>
+    <td>100</td>
+</tr>
+<tr class="a">
+ <td><a href="/dp/pokemon/uxie">Uxie</a></td>
+    <td>75</td>
+    <td>75</td>
+    <td>130</td>
+    <td>75</td>
+    <td>130</td>
+    <td>95</td>
+</tr>
+<tr>
+ <td><a href="/dp/pokemon/jynx">Jynx</a></td>
+    <td>65</td>
+    <td>50</td>
+    <td>35</td>
+    <td>115</td>
+    <td>95</td>
+    <td>95</td>
+</tr>
+<tr class="a">
+ <td><a href="/dp/pokemon/xatu">Xatu</a></td>
+    <td>65</td>
+    <td>75</td>
+    <td>70</td>
+    <td>95</td>
+    <td>70</td>
+    <td>95</td>
+</tr>
+<tr>
+ <td><a href="/dp/pokemon/mr_mime">Mr. Mime</a></td>
+    <td>40</td>
+    <td>45</td>
+    <td>65</td>
+    <td>100</td>
+    <td>120</td>
+    <td>90</td>
+</tr>
+<tr class="a">
+ <td><a href="/dp/pokemon/porygon-z">Porygon-Z</a></td>
+    <td>85</td>
+    <td>80</td>
+    <td>70</td>
+    <td>135</td>
+    <td>75</td>
+    <td>90</td>
+</tr>
+<tr>
+ <td><a href="/dp/pokemon/stantler">Stantler</a></td>
+    <td>73</td>
+    <td>95</td>
+    <td>62</td>
+    <td>85</td>
+    <td>65</td>
+    <td>85</td>
+</tr>
+<tr class="a">
+ <td><a href="/dp/pokemon/girafarig">Girafarig</a></td>
+    <td>70</td>
+    <td>80</td>
+    <td>62</td>
+    <td>85</td>
+    <td>65</td>
+    <td>85</td>
+</tr>
+<tr>
+ <td><a href="/dp/pokemon/cresselia">Cresselia</a></td>
+    <td>120</td>
+    <td>70</td>
+    <td>120</td>
+    <td>75</td>
+    <td>130</td>
+    <td>85</td>
+</tr>
+<tr class="a">
+ <td><a href="/dp/pokemon/mesprit">Mesprit</a></td>
+    <td>80</td>
+    <td>105</td>
+    <td>105</td>
+    <td>105</td>
+    <td>105</td>
+    <td>80</td>
+</tr>
+<tr>
+ <td><a href="/dp/pokemon/gallade">Gallade</a></td>
+    <td>68</td>
+    <td>125</td>
+    <td>65</td>
+    <td>65</td>
+    <td>115</td>
+    <td>80</td>
+</tr>
+<tr class="a">
+ <td><a href="/dp/pokemon/grumpig">Grumpig</a></td>
+    <td>80</td>
+    <td>45</td>
+    <td>65</td>
+    <td>90</td>
+    <td>110</td>
+    <td>80</td>
+</tr>
+<tr>
+ <td><a href="/dp/pokemon/gardevoir">Gardevoir</a></td>
+    <td>68</td>
+    <td>65</td>
+    <td>65</td>
+    <td>125</td>
+    <td>115</td>
+    <td>80</td>
+</tr>
+<tr class="a">
+ <td><a href="/dp/pokemon/claydol">Claydol</a></td>
+    <td>60</td>
+    <td>70</td>
+    <td>105</td>
+    <td>70</td>
+    <td>120</td>
+    <td>75</td>
+</tr>
+<tr>
+ <td><a href="/dp/pokemon/smeargle">Smeargle</a></td>
+    <td>55</td>
+    <td>20</td>
+    <td>35</td>
+    <td>20</td>
+    <td>45</td>
+    <td>75</td>
+</tr>
+<tr class="a">
+ <td><a href="/dp/pokemon/lunatone">Lunatone</a></td>
+    <td>70</td>
+    <td>55</td>
+    <td>65</td>
+    <td>95</td>
+    <td>85</td>
+    <td>70</td>
+</tr>
+<tr>
+ <td><a href="/dp/pokemon/solrock">Solrock</a></td>
+    <td>70</td>
+    <td>95</td>
+    <td>85</td>
+    <td>55</td>
+    <td>65</td>
+    <td>70</td>
+</tr>
+<tr class="a">
+ <td><a href="/dp/pokemon/hypno">Hypno</a></td>
+    <td>85</td>
+    <td>73</td>
+    <td>70</td>
+    <td>73</td>
+    <td>115</td>
+    <td>67</td>
+</tr>
+<tr>
+ <td><a href="/dp/pokemon/banette">Banette</a></td>
+    <td>64</td>
+    <td>115</td>
+    <td>65</td>
+    <td>83</td>
+    <td>63</td>
+    <td>65</td>
+</tr>
+<tr class="a">
+ <td><a href="/dp/pokemon/chimecho">Chimecho</a></td>
+    <td>65</td>
+    <td>50</td>
+    <td>70</td>
+    <td>95</td>
+    <td>80</td>
+    <td>65</td>
+</tr>
+<tr>
+ <td><a href="/dp/pokemon/porygon2">Porygon2</a></td>
+    <td>85</td>
+    <td>80</td>
+    <td>90</td>
+    <td>105</td>
+    <td>95</td>
+    <td>60</td>
+</tr>
+<tr class="a">
+ <td><a href="/dp/pokemon/spinda">Spinda</a></td>
+    <td>60</td>
+    <td>60</td>
+    <td>60</td>
+    <td>60</td>
+    <td>60</td>
+    <td>60</td>
+</tr>
+<tr>
+ <td><a href="/dp/pokemon/exeggutor">Exeggutor</a></td>
+    <td>95</td>
+    <td>95</td>
+    <td>85</td>
+    <td>125</td>
+    <td>65</td>
+    <td>55</td>
+</tr>
+<tr class="a">
+ <td><a href="/dp/pokemon/dusknoir">Dusknoir</a></td>
+    <td>45</td>
+    <td>100</td>
+    <td>135</td>
+    <td>65</td>
+    <td>135</td>
+    <td>45</td>
+</tr>
+<tr>
+ <td><a href="/dp/pokemon/kecleon">Kecleon</a></td>
+    <td>60</td>
+    <td>90</td>
+    <td>70</td>
+    <td>60</td>
+    <td>120</td>
+    <td>40</td>
+</tr>
+<tr class="a">
+ <td><a href="/dp/pokemon/bronzong">Bronzong</a></td>
+    <td>67</td>
+    <td>89</td>
+    <td>116</td>
+    <td>79</td>
+    <td>116</td>
+    <td>33</td>
+</tr>
+<tr>
+ <td><a href="/dp/pokemon/slowbro">Slowbro</a></td>
+    <td>95</td>
+    <td>75</td>
+    <td>110</td>
+    <td>100</td>
+    <td>80</td>
+    <td>30</td>
+</tr>
+<tr class="a">
+ <td><a href="/dp/pokemon/slowking">Slowking</a></td>
+    <td>95</td>
+    <td>75</td>
+    <td>80</td>
+    <td>100</td>
+    <td>110</td>
+    <td>30</td>
+</tr>
+<tr>
+ <td><a href="/dp/pokemon/dusclops">Dusclops</a></td>
+    <td>40</td>
+    <td>70</td>
+    <td>130</td>
+    <td>60</td>
+    <td>130</td>
+    <td>25</td>
+</tr>
+ </tbody> 
+            </table>
+
+
+<p>That is a pretty extensive list of Pokémon which can use Trick Room well. You may be asking yourself "why base 100 Speed?" The answer is simple, base 100 Pokémon without any IVs and a negative Speed nature are slow enough to outspeed all base 75 Pokémon, which now allows you to outspeed almost everything in the OU tier. When picking sweepers for your Trick Room team it is suggested you run Pokémon with a base 85 Speed stat or slower. Base 85 Speed with 0 IVs and a negative Speed nature makes you slower than Tyranitar, who is probably the slowest Pokémon you will encounter in the OU tier.</p>
+
+<h2><a name="building">Trick Room Team Building:</a></h2>
+
+<p>Building a Trick Room team isn't as easy as it may seem. Slapping on a Rhyperior with a Trick Room user or two isn't the way to get a successful team. Trick Room teams need constant support, so having two to three Trick Room users is almost necessary on your team. That leaves only three spots for sweepers; however, this means that your team will need to be able to handle the top threats of OU through reliance on the effects of Trick Room or not.</p>
+
+
+<h3><a name="lead">The Lead:</a></h3>
+
+<p>When choosing a lead for Trick Room it is necessary that they can almost always set up Trick Room, it isn't necessary that they can set down Stealth Rock, but it is helpful for when you are trying to sweep. The lead isn't going to be a standard suicide lead such as Azelf, but a Pokémon able to come in time after time and hopefully set up Trick Room. You do not need to depend on this sole Pokémon to set up Trick Room, but if it is a weak link in the team, then the team will not defend itself well.</p>
+
+<h3><a name="abuse">Trick Room Abusers:</a></h3>
+
+<p>When it comes to abusing Trick Room, using mixed sweepers with high Attack and Special Attack stats is the way to break your opponent's walls. Of course we cannot run a Pokémon such as Infernape on our team, being too fast for it to abuse Trick Room easily, so you must rely on Pokémon such as Octillery and Tyranitar to act as wallbreakers. There is no point in trying to run a stall Trick Room team, it just wouldn't be effective due to the fact that Trick Room's main use is to allow slower, hard-hitting Pokémon to have an advantage in the high-paced metagame of Diamond and Pearl. An offensive team is how Trick Room teams should be built; the only wall like Pokémon on your teams should be the one setting up Trick Room.</p>
+
+<h3><a name="other">Other Trick Room Pokémon:</a></h3>
+
+<p>When finishing off your team by adding the final Trick Room Pokémon to your team, make sure to check that your Trick Room Pokémon are not easily defeated by common wallbreakers such as Infernape or BOAH Tyranitar. Having a strong defensive core with your Trick Room Pokémon is extremely helpful, making them able to switch in on one another's weaknesses. The other Trick Room Pokémon should be able to handle your sweeper's weaknesses as well, making sure to stop opposing sweepers once Trick Room is finished.</p>
+
+<h3><a name="support">Support:</a></h3>
+
+<p>Support is difficult to pull off in Trick Room, giving a spot on your team to one Pokémon is going to leave you a bit lacking either with Trick Room Pokémon or with sweepers. When trying to figure out how to support a Trick Room team, remember that Trick Room should support itself. It should have a Pokémon which can set up Trick Room that can also lay down Stealth Rock. It should be able to handle threats like Heatran and Scizor.</p>
+
+<h2><a name="ubers">Trick Room in Ubers</a></h2>
+
+<p>While it may be difficult to pull off, using Trick Room in Ubers is completely possible to do. In the Ubers tier everything is based around the Speed stat of the Pokémon. Kyogre run 252 Speed to out run the 176 Groudon that will be faster than Choice Scarf Palkia after a Rock Polish. When using Trick Room teams you now just need to minimize your Speed stat, and then sweep. However, there are less viable Pokémon that can set up Trick Room in the Ubers tier, which also hinders which Pokémon can sweep.</p>
+
+<p>Deoxys-D, Bronzong, Jirachi, Dialga, and Cresselia are the best choices to use for when it comes to Trick Room teams. All are very bulky Pokémon, except for Jirachi who is a Steel-type that resists the common Dragon-type attacks that are used often in Ubers. After getting Trick Room set up, you now have to decide which of the strong Uber Pokémon you would like to sweep with. It is suggested, though, that one of the Pokémon is a Ghost-type, because Ghost-types come with an immunity to the popular move ExtremeSpeed. Giratina-O, Palkia, Rayquaza, Kyogre, Groudon, and Dialga are perfect when it comes to either using mixed sets or just plowing through Pokémon with their powerful attacks.</p>
+
+<p>Rayquaza, Palkia, Dialga, and Giratina-O are the best wallbreakers to use, each one of them can bash through stall teams rather easily. Kyogre can now abuse its Choice Specs set better, KOing Latias with Water Spout as you do not have to worry about getting outsped. Groudon can abuse its Swords Dance set easier now, and can sweep extremely easily with it too.</p>
+
+<h2><a name="check">Trick Room checklist:</a></h2>
+
+<dl>
+<dt><strong>Have a few Pokémon that can Trick Room</strong></dt>
+
+<dd>Having one or two won't cut it, especially if they're going to be switching in constantly, if your opponent gets wise to your attack having a third Trick Room user as back up is something that should not be looked over. The Trick Room users should be able to cover each other's weaknesses, along with the weaknesses of the team. This is asking three Pokémon to do the job of what a normal team of six Pokémon does, so it will be difficult.</dd>
+
+<dt><strong>Have enough power behind your attacks</strong></dt>
+
+<dd>When picking a Pokémon you want to pick something with large attack stats and a big movepool. You use a Pokémon which can only use physical attacks and then you are walled by Skarmory or Hippowdon, or using a special attacker who is then walled by Blissey. Normally, Pokémon which can use a mix set is the best Pokémon to run in Trick Room. Tyranitar, Octillery, Metagross can all run decent mixed sets and can KO the most common walls that get in the way of a sweep.</dd>
+
+<dt><strong>Have a well balanced team</strong></dt>
+
+<dd>When using a Trick Room team you need to use a team that can defend itself from the common OU threats. Having a Pokémon which can stop a wallbreaker, such as Infernape or Dragonite, can be the deciding point between a loss or a win. If you cannot defend yourself from these threats without Trick Room being in effect, then you need to change your team a bit.</dd>
+
+<dt><strong>Natures, IVs, and Items</strong></dt>
+
+<dd>Normally Pokémon worry about their Speed stat, and mixed attackers have to worry about which defense stat that they have to drop; in Trick Room it's simple, just pick the stat you would like to raise, and then make sure it will lower the Speed stat. You want your Pokémon to be as slow as they can, so lowering it any way you can is necessary. You usually want your Speed IV to be as low as it can get, normally 0, though it is understandable and won't make much of an impact if you raise it so you can get a certain Hidden Power. For items your sweepers want all the power they can get, sadly Choice Band and Choice Specs are out of the question. When trying to sweep you do not want one of your Pokémon to become ineffective because the move it is using cannot hurt the opposing Pokémon. This means your sweepers will have to be relying on Life Orb to boost their power enough to get the sweep. The Pokémon that set up Trick Room will appreciate Leftovers so they can continually come back in through all the attacks. Speed reducing items, like Macho Brace, can be used on your sweepers if you would like to use a certain Pokémon on your team. Generally your Pokémon will miss the power of Life Orb, though.</dd>
+</dl>
+
+<h2><a name="use">Pokémon to use in Trick Room:</a></h2>
+
+<p>If the example team wasn't enough, I will be explaining how each Pokémon works in a Trick Room team, along with mentioning all sweepers that can work.</p>
+
+<h3><a name="roomers">Trick Room Supporters:</a></h3>
+
+<p><strong>OU:</strong></p>
+
+<dl>
+<img src="http://www.smogon.com/download/sprites/dp/251.png" alt="" />
+<dt><a href="/dp/pokemon/celebi">Celebi:</a></dt>
+<dd>With base 100 stats all around, Celebi is a very sturdy Pokémon to use Trick Room. Celebi also has the added bonuses of being one of the two only Grass-type Pokémon which can use Trick Room. It also comes with a few useful moves such as Reflect and U-turn, making sure your sweepers can get in easily.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/385.png" alt="" />
+<dt><a href="/dp/pokemon/jirachi">Jirachi:</a></dt>
+<dd>Jirachi comes with a handy Steel typing, and the move Wish. Wish allows Jirachi to heal your sweepers if Life Orb has taken a large toll on them. Jirachi, like Celebi, also comes with base 100 stats everywhere; give it an amazing amount of bulk.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/493.png" alt="" />
+<dt><a href="/dp/pokemon/cresselia">Cresselia:</a></dt>
+<dd>Some Trick Room users that have a bit of Speed on their side can be used effectively. Cresselia is one of the best Trick Room users because of her fairly low speed, and her outrageous defense stats. She can switch in over and over to set up your sweepers, which is something hard to pass up.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/235.png" alt="" />
+<dt><a href="/dp/pokemon/Smeargle">Smeargle:</a></dt>
+<dd>Is just listed since he can learn every move in the game, meaning that every set on a Smeargle can and probably will be different. This is to say that you can form Smeargle to fit any non-sweeper role on your team.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/482.png" alt="" />
+<dt><a href="/dp/pokemon/dusknoir">Dusknoir:</a></dt>
+<dd>The main Ghost Pokémon to use when considering Trick Room. He has a bit of bulk, and can use Will-O-Wisp to cripple physical Pokémon that switch in. He doesn't boast that great of offenses, but they can be helpful in weakening some of the bulkier Pokémon.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/442.png" alt="" />
+<dt><a href="/dp/pokemon/bronzong">Bronzong:</a></dt>
+<dd>One of the bulkiest Trick Room supporters. He can come in on repeated attacks thanks to his abundance of immunities. He packs the powerful attack Explosion, which gives your abuser a free switch in and three turns of sweeping after it comes in. Bronzong can also (inaccurately) put Pokémon to sleep with Hypnosis.</dd>
+</dl>
+
+<p><strong>UU:</strong></p>
+
+<dl>
+<img src="http://www.smogon.com/download/sprites/dp/485.png" alt="" />
+<dt><a href="/dp/pokemon/uxie">Uxie:</a></dt>
+<dd>Given great defense stats, Uxie has little to no trouble switching in several times. Uxie can also use the move U-turn, which can get your Pokemon in safely if Uxie runs enough Speed to be "slow" in Trick Room.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/486.png" alt="" />
+<dt><a href="/dp/pokemon/mesprit">Mesprit:</a></dt>
+<dd>Comes with a surprising amount of bulk to the team, and can set up Reflect or Light Screen for your team. Not only that but Mesprit stands a good chance at being able to sweep due to its great stats.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/344.png" alt="" />
+<dt><a href="/dp/pokemon/claydol">Claydol:</a></dt>
+<dd>Is a fantastic Pokémon when it comes to taking hits. It is immune to both Spikes and Toxic Spikes, as well as Ground- and Electric-type attacks. Claydol can fix a Fighting-type weakness.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/354.png" alt="" />
+<dt><a href="/dp/pokemon/banette">Banette:</a></dt>
+<dd>Though Banette has paper defenses, he can provide a solid lead to most Trick Room teams. With a Focus Sash equipped, it will always get off Trick Room, and then can use Destiny Bond to take down the opponent's lead or other Pokémon he sent in.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/233.png" alt="" />
+<dt><a href="/dp/pokemon/porygon2">Porygon2:</a></dt>
+<dd>A fantastic Trick Room supporter. Porygon2 can come in on the likes of Houndoom, Lanturn, and Rotom and then set up Trick Room. With the move Magic Coat, Porygon2 can reflect status, and give your team even more of an advantage when playing.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/103.png" alt="" />
+<dt><a href="/dp/pokemon/exeggutor">Exeggutor:</a></dt>
+<dd>Being the second Grass-type Pokémon that can use Trick Room certainly can be helpful. Exeggutor comes with various status moves, such as Sleep Powder and Stun Spore. With these moves, Exeggutor can take advantage of the switches it can cause and set up Trick Room easily. On top of that Exeggutor's STAB Grass-type moves can harm your opponent's bulky Water-types.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/80.png" alt="" />
+<dt><a href="/dp/pokemon/slowbro">Slowbro:</a></dt>
+<dd>Slowbro is an extremely defensive Pokémon that boasts a somewhat high Special Attack stat. Though Slowbro can raise his somewhat low Special Defense with Calm Mind, only doing +1 stat ups in Trick Room is a poor idea; doing 1 stat ups take too much time to get into a sweeping power, time which you do not have.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/199.png" alt="" />
+<dt><a href="/dp/pokemon/slowking">Slowking:</a></dt>
+<dd>The reverse of Slowbro in the defense stats. Slowking carries a much higher Special Defense than regular Defense, and instead of Calm Mind, he has Nasty Plot. Nasty Plot, when used, gives Slowking a +2 Special Attack boost, making him both a great Trick Room supporter and sweeper.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/356.png" alt="" />
+<dt><a href="/dp/pokemon/dusclops">Dusclops:</a></dt>
+<dd>Though Dusclops's evolution, Dusknoir, usually preforms better at setting up Trick Room, Dusclops can be used in UU. A lot of the UU Pokémon which can set up Trick Room are Psychic-types, meaning that if you do not have a Pokémon which can resist Bug-type attacks then you have a large hole in your team. Dusclops comes in and can beat Bug-types with its handy defensive movepool, and moves such as Will-O-Wisp.</dd>
+</dl>
+
+<h3><a name="tricksweep">Sweepers:</a></h3>
+
+<p><strong>OU:</strong></p>
+
+<dl>
+<img src="http://www.smogon.com/download/sprites/dp/143.png" alt="" />
+<dt><a href="/dp/pokemon/snorlax">Snorlax:</a></dt>
+<dd>Is a great physical sweeper to add in on a Trick Room team. His flaw was always his Speed and Defense stat, but now that he is put into Trick Room, that hardly matters. Snorlax isn't limited to two attack moves as he probably isn't going to be carrying Curse or Rest, though Curse could still be used to an extent.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/68.png" alt="" />
+<dt><a href="/dp/pokemon/machamp">Machamp:</a></dt>
+<dd>With his fantastic ability, Guts, Machamp can come into any status move and then hit back with boosted attacks. Machamp would work best with a Toxic Orb as it will do less damage, over three turns, than Flame Orb. No Guard can be used on Machamp, allowing it to use DynamicPunch without fear of it missing.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/398.png" alt="" />
+<dt><a href="/dp/pokemon/empoleon">Empoleon:</a></dt>
+<dd>Can be a deadly sweeper with Trick Room. Water-type moves are scary when used against you, resisted by only Water-, Dragon-, and Grass-types. All of which will be handled with Grass Knot and Ice Beam. You can also fit Agility on its moveset if you want the chance to sweep without Trick Room up. Empoleon can also use Aqua Jet outside of Trick Room, but with its lower Attack stat it will not do that much good.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/467.png" alt="" />
+<dt><a href="/dp/pokemon/magnezone">Magnezone:</a></dt>
+<dd>Can fit on a Trick Room team with relative ease thanks to its huge Special Attack stat along with its STAB Electric-type attacks. Magnezone has the move Explosion, which can be used to take down the opponent's special wall, such as Blissey, in a pinch.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/260.png" alt="" />
+<dt><a href="/dp/pokemon/swampert">Swampert:</a></dt>
+<dd>Can be EVed to make a decent mixed attacker. Though it is probably better at physical attacking due to its larger Attack stat and its STAB Earthquake. You could try to use the move Curse on Swampert, but as it only gives a 1.5x boost to Attack, it isn't really worth it.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/248.png" alt="" />
+<dt><a href="/dp/pokemon/tyranitar">Tyranitar:</a></dt>
+<dd>Tyranitar makes an excellent mixed attacker under Trick Room thanks to its low base Speed, its great Attack and Special Attack, and not to mention its huge movepool. Tyranitar can break almost every wall that comes in its way with its STAB moves, and it can even carry moves such as Fire Blast to hit Scizor with.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/212.png" alt="" />
+<dt><a href="/dp/pokemon/scizor">Scizor:</a></dt>
+<dd>Scizor is a great Pokémon to run on Trick Room teams as it is one of the few slow Pokémon which can use priority moves. Scizor can also make use of Swords Dance, to boost its Attack stat even higher.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/134.png" alt="" />
+<dt><a href="/dp/pokemon/vaporeon">Vaporeon:</a></dt>
+<dd>Normally a tank, Vaporeon's often over-looked base 110 Special Attack is something that can be used well in Trick Room. Vaporeon is bulky, allowing her to come in easily, and has enough power to break down Pokémon.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/286.png" alt="" />
+<dt><a href="/dp/pokemon/breloom">Breloom:</a></dt>
+<dd>Has a 100% accurate sleep move, Spore, which can be used to spread status, then attack through whatever you think has a chance of getting hurt. Breloom comes with a wide variety of physical attacks and can stat up effectively using Swords Dance. Breloom can also work well outside of Trick Room too thanks to its priority move, Mach Punch.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/376.png" alt="" />
+<dt><a href="/dp/pokemon/metagross">Metagross:</a></dt>
+<dd>Another physical Pokémon that is slow enough to be used in Trick Room. With its massive base 135 Attack, it is a force to be reckoned with. It also carries a base 95 Special Attack stat, which it could use to become an effective mixed attacker. Metagross also has the priority move Bullet Punch. Bullet Punch can be helpful outside of Trick Room, but it is a better idea to not waste a move slot on it.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/490.png" alt="" />
+<dt><a href="/dp/pokemon/heatran">Heatran:</a></dt>
+<dd>Heatran is a slow and bulky Pokémon which can beat walls easy thanks to Life Orb, STAB Fire Blast, Earth Power, and Explosion.  The Quiet nature that is mandatory for Eruption Heatran seems tailor made for a Trick Room team.  The only thing that can really stop Heatran from sweeping is if a Pokémon which is resistant or immune to Fire-type attacks switches in, which you can handle thanks to the power of Explosion.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/149.png" alt="" />
+<dt><a href="/dp/pokemon/dragonite">Dragonite:</a></dt>
+<dd>Dragonite can abuse its low base Speed, extensive movepool, and great Attack stats to breaks walls and sweep well under Trick Room. With Superpower, Dragon Claw, Outrage, Thunderbolt, Aqua Tail, Fire Blast, and other moves, Dragonite becomes extremely hard to stop. Although it does well in Trick Room, you may find it suffering from four moveslot syndrome; you give up one attack and it can no longer hit a specific wall.</dd>
+</dl>
+
+<p><strong>UU:</strong></p>
+
+<dl>
+<img src="http://www.smogon.com/download/sprites/dp/469.png" alt="" />
+<dt><a href="/dp/pokemon/rhyperior">Rhyperior:</a></dt>
+<dd>Is another great physical attacker that was only hampered by his Speed. Rhyperior gets STAB Stone Edge and Earthquake which provide superb coverage. On top of that, Rhyperior can also stat up in Trick Room by using Swords Dance, boosting its already huge Attack stat.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/412.png" alt="" />
+<dt><a href="/dp/pokemon/rampardos">Rampardos:</a></dt>
+<dd>With a sky high Attack stat, Rampardos can be a devastating sweeper to any team. Its Defense stats aren't that fantastic, so switching it in may be difficult. If you are feeling risky you can try to use Swords Dance on Rampardos, though it probably won't last too long.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/366.png" alt="" />
+<dt><a href="/dp/pokemon/clamperl">Clamperl:</a></dt>
+<dd>Given a DeepSeaTooth and 252 EVs Clamperl will reach a Special Attack stat of 540, with also the ability to change up its attacks, making it difficult to counter. Clamperl is one of the better Trick Room sweepers; the problem is being able to switch in the shell without it dying.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/447.png" alt="" />
+<dt><a href="/dp/pokemon/spiritomb">Spiritomb:</a></dt>
+<dd>With a 92 base stat in both Special Attack and Attack Spiritomb can become a mixed attacker for your team. Spiritomb also comes with a natural bulk that easily lets him switch in and prepare for a sweep. You may find his power lackluster, though. On top of that Spiritomb can carry moves such as Calm Mind and Will-O-Wisp to cripple opposing physical attackers, while you can stat up. Spiritomb can also use Sucker Punch to some use outside of Trick Room.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/323.png" alt="" />
+<dt><a href="/dp/pokemon/camerupt">Camerupt:</a></dt>
+<dd>Is a slow special attacker that comes with the rare attack, Eruption. Eruption is basically the strongest Fire-type move, while Camerupt is at 100% health. As Camerupt's health depletes then so does the power of Eruption; Camerupt then has to sweep by using Fire Blast and its other STAB move, Earth Power.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/105.png" alt="" />
+<dt><a href="/dp/pokemon/marowak">Marowak:</a></dt>
+<dd>With his item Thick Club, Marowak's Attack stat sky high gets boosted sky-high. He isn't fragile which lets him switch in easier; he also comes with Swords Dance, which it can use to boost its Attack even higher. No Pokémon which doesn't resist his attack is really going to stand up against a Marowak.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/224.png" alt="" />
+<dt><a href="/dp/pokemon/octillery">Octillery:</a></dt>
+<dd>Probably the best mixed attacker for a Trick Room team. With base 105 in both attacks stats, and a fairly large movepool, Octillery can provide a force to be reckoned with by all stall and regular teams.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/217.png" alt="" />
+<dt><a href="/dp/pokemon/ursaring">Ursaring:</a></dt>
+<dd>Comes with the Guts ability, and a base 130 Attack stat. Ursaring is a deadly sweeper if he gets status in battling. It can be given Toxic Orb if you don't want to have to rely on your opponent to status Ursaring for you.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/184.png" alt="" />
+<dt><a href="/dp/pokemon/azumarill">Azumarill:</a></dt>
+<dd>With Huge Power Azumarill's Attack stat gets a huge boost. Azumarill is also another one of the few slow Pokémon that can use a priority attacks. It can stat up with Belly Drum, but that would make him unable to run his priority move, which is probably a bad idea.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/297.png" alt="" />
+<dt><a href="/dp/pokemon/hariyama">Hariyama:</a></dt>
+<dd>With a fantastic Attack stat Hariyama fits in perfectly with a Trick Room team. It also has the choice of either absorbing status with his Guts ability, or taking Fire- and Ice-type attacks with Thick Fat, it is up to you. It also is one of the few Dark-type resists for Trick Room teams.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/470.png" alt="" />
+<dt><a href="/dp/pokemon/tangrowth">Tangrowth:</a></dt>
+<dd>Another powerful mixed attacker for a Trick Room team. Tangrowth has amazing attack stats and can set up his Attack stat with Swords Dance, one of the few reasons to run him over Octillery.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/332.png" alt="" />
+<dt><a href="/dp/pokemon/cacturne">Cacturne:</a></dt>
+<dd>Would probably be the best mixed attacker a Trick Room team could have if it had a larger movepool. Cacturne should run a mixed set if you were to use it, since Cacturne gains Swords Dance, an all out attacking set should work as well. Cacturne also comes with Sucker Punch, a useful priority move which can make use if its Dark-type STAB. Though be wary of it as it only hits if your opponent attacks.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/476.png" alt="" />
+<dt><a href="/dp/pokemon/glaceon">Glaceon:</a></dt>
+<dd>With a high base 130 Special Attack stat, Glaceon can cause hell inside of Trick Room. Glaceon's only flaw just happens to be that it is an Ice-type, being fraught with weaknesses will have a hard time switching into attacks.</dd>
+
+<img src="http://www.smogon.com/download/sprites/dp/359.png" alt="" />
+<dt><a href="/dp/pokemon/absol">Absol:</a></dt>
+<dd>We all know how powerful Absol can be once it comes in and boosts his 130 Attack stat with Swords Dance, good luck switching it in though. Absol also has an amazing enough movepool to try mixed attacking, but Swords Dance is a better set to run while using it. Absol can also be of help outside of Trick Room with the priority move Sucker Punch.</dd>
+
+<dt>Level 1 Endeavor Pokémon:</dt> 
+<dd>Like <a href="/dp/pokemon/rattata">Rattata</a>, <a href="/dp/pokemon/clefable">Clefable</a>, <a href="/dp/pokemon/smeargle">Smeargle</a>, <a href="/dp/pokemon/cleffa">Cleffa</a>, <a href="/dp/pokemon/clefairy">Clefairy</a>, and <a href="/dp/pokemon/phanpy">Phanpy</a> are all good examples of Endeavor Pokémon. These Pokémon that can come in after you Trick Room, take a hit, then bring the opposing Pokémon down to one HP using Endeavor. Cleffa, Clefairy, and Clefable are probably the best Pokémon to use with this strategy as they ignore entry hazards such as Spikes and Stealth Rock that would remove their Focus Sash.</dd>
+</dl>
+
+<h2><a name="conclusion">Conclusion</a></h2>
+<p>Hopefully, after reading this guide to Trick Room, you'll have a better understanding on how to create a Trick Room team. The next part is getting used to the play style, but with enough practice you will be sweeping in no time with your impressive Trick Room team.</p>

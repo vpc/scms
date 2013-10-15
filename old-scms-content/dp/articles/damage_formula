@@ -1,0 +1,644 @@
+[title]
+The Complete Damage Formula for Diamond & Pearl
+[head]
+<meta name="description" content="An insight on damage calculation in Diamond/Pearl, thanks to X-Act and Peterko." />
+[page]
+<div class="author">By <a href="/forums/member.php?u=2412">X-Act</a> and <a href="/forums/member.php?u=1430">Peterko</a>, updated by <a href="/forums/member.php?u=32572">Kaphotics</a>.</div>
+
+<ol class="toc">
+	<li><a href="#introduction">Introduction</a></li>
+	<li><a href="#formula">The Damage Formula and How to Use It</a></li>
+	<li>
+		<a href="#modifiers">The Base Power and Its Modifiers</a>
+		<ol style="list-style: upper-alpha">
+			<li><a href="#bp_variable">Moves having a Variable Base Power</a></li>
+			<li><a href="#bp_items">Items that affect Base Power</a></li>
+			<li><a href="#bp_abilities_user">User Abilities that affect Base Power</a></li>
+			<li><a href="#bp_abilities_foe">Foe Abilities that affect Base Power</a></li>
+		</ol>
+	</li>
+	<li>
+		<a href="#attack">The Attack and Special Attack stats and their Modifiers</a>
+		<ol style="list-style: upper-alpha">
+			<li><a href="#atk_stat">The Stat Modifier Multipliers</a></li>
+			<li><a href="#atk_stat">Abilities that change the Attack or Special Attack stat</a></li>
+			<li><a href="#atk_stat">Items that change the Attack or Special Attack stat</a></li>
+		</ol>
+	</li>
+	<li><a href="#defense">The Defense and Special Defense stats and their Modifiers</a></li>
+	<li><a href="#mod1">The First Modifier to the Damage Formula</a></li>
+	<li><a href="#mod2">The Second Modifier to the Damage Formula</a></li>
+	<li><a href="#mod3">The Third Modifier to the Damage Formula</a></li>
+	<li><a href="#exception">Exceptional Cases</a></li>
+</ol>
+
+<h2><a name="introduction">Introduction</a></h2>
+
+<p>The Damage Formula is one of the two most important calculations in a Pokemon game (the other one being the Stats Formula). Here, we provide the damage formula for Diamond, Pearl, and Platinum (DPP). Note that this formula is not the same as that for the games preceding DPP, so don't use it to calculate damage for other games.</p>
+
+<p>I need to immediately thank Peterko for all the testing data he has provided for me. This guide wouldn't have seen the light of day without all his efforts. He literally triggered the damage formula thousands of times (not an exaggeration) during the game so that I could come up with such a detailed description of it. I cannot thank him enough for his efforts. Thank you Peterko... you are one of the best testers I've ever seen!</p>
+
+<h2><a name="formula">Section 1: The Damage Formula and How to Use It</a></h2>
+
+<p>Here is the damage formula for DPP:</p>
+
+<pre>Damage Formula = (((((((Level × 2 ÷ 5) + 2) × <a href="#modifiers">BasePower</a> × <a href="#attack">[Sp]Atk</a> ÷ 50) ÷ <a href="#defense">[Sp]Def</a>) × <a href="#mod1">Mod1</a>) + 2) × 
+                 CH × <a href="#mod2">Mod2</a> × R ÷ 100) × STAB × Type1 × Type2 × <a href="#mod3">Mod3</a>)</pre>
+
+<p>where:</p>
+
+<dl>
+	<dt>Level</dt>
+	<dd>The user's current level.</dd>
+	<dt><a href="#modifiers">BasePower</a></dt>
+	<dd>The move's Base Power (after performing all necessary modifiers to it... see <a href="#modifiers">Section 2</a>).</dd>
+	<dt><a href="#attack">[Sp]Atk</a></dt>
+	<dd>The user's Attack or Special Attack stat (after performing all necessary modifiers to it... see <a href="#attack">Section 3</a>). If the move used is physical, the Attack stat is utilized; otherwise, the Special Attack stat is used.</dd>
+	<dt><a href="#defense">[Sp]Def</a></dt>
+	<dd>The foe's Defense or Special Defense stat (after performing all necessary modifiers to it... see <a href="#defense">Section 4</a>). If the move used is physical, the Defense stat is utilized; otherwise, the Special Defense stat is used.</dd>
+	<dt><a href="#mod1">Mod1</a></dt>
+	<dd>The first modifier to the damage formula. See <a href="#mod1">Section 5</a> for more details.</dd>
+	<dt>CH</dt>
+	<dd>3 if the move is a critical hit and the user has the Sniper ability, 2 if the move is a critical hit and the user's ability is not Sniper, and 1 otherwise.</dd>
+	<dt><a href="#mod2">Mod2</a></dt>
+	<dd>The second modifier to the damage formula. See <a href="#mod2">Section 6</a> for more details.</dd>
+	<dt>R</dt>
+	<dd>(100 - Rand), where Rand is a random whole number between 0 and 15 inclusive with uniform probability. This produces a whole number between 85 and 100 inclusive, with uniform probability.</dd>
+	<dt>STAB</dt>
+	<dd>2 if the move is of the same type as that of the user and the user has the Adaptability ability, 1.5 if the move is of the same type as that of the user and the user's ability is not Adaptability, and 1 otherwise. This is known as Same Type Attack Bonus (hence STAB).</dd>
+	<dt>Type1</dt>
+	<dd>2 if the move is super effective against the first type of the foe, 0.5 if the move is not very effective against the first type of the foe, 0 if the move type does not affect the first type of the foe, and 1 otherwise.</dd>
+	<dt>Type2</dt>
+	<dd>2 if the move is super effective against the second type of the foe, 0.5 if the move is not very effective against the second type of the foe, 0 if the move type does not affect the type of the foe, and 1 otherwise (or if the foe has only one type).</dd>
+	<dt><a href="#mod3">Mod3</a></dt>
+	<dd>The third modifier to the damage formula. See <a href="#mod3">Section 7</a> for more details.</dd>
+</dl>
+
+
+<p>It should be immediately mentioned that after successfully performing an operator (an operator being +, -, × or ÷), you need to "round down" the number to the nearest whole number before performing the next one. In simple terms, this means to remove all the numbers to the right of the decimal point every time the answer is a decimal before proceeding with the next arithmetic operation.</p>
+
+<p>If the damage formula's damage is 0 and the foe is not immune to the move used, the damage dealt will be 1 instead. This will happen if, say, a Level 2 Bidoof uses Tackle against a Level 100 Aggron. To paraphrase, unless the move does not affect the foe, the minimum amount of damage done is 1.</p>
+
+<p>The way the formula is written above is such that you can actually ignore all the brackets and proceed from left to right (ignoring the BODMAS rules, so to speak) and still come up with the correct answer.</p>
+
+<p>Let's provide an example here. For the sake of simplicity, we shall assume that Mod1, Mod2, and Mod3 are all 1 in this example.</p>
+
+<p>Say we want to calculate the minimum and maximum damage that a Level 47 Staraptor with 140 Attack stat will deal with the move Aerial Ace against a Roserade with 77 Defense stat.</p>
+
+<ol>
+	<li>We start with the Level of Staraptor, 47, and multiply it by 2, getting 94.</li>
+	<li>Next, we divide 94 by 5, getting 18.8, which is rounded down to 18.</li>
+	<li>Next, we add 2 to 18, getting 20.</li>
+	<li>Next, we multiply 20 by 60 (the move power of Aerial Ace), getting 1200.</li>
+	<li>Next, we multiply 1200 by 140 (the Attack stat of Staraptor), getting 168000.</li>
+	<li>Next, we divide 168000 by 50, getting 3360.</li>
+	<li>Next, we divide 3360 by 77 (the Defense stat of Roserade), getting 43.636363..., which is rounded down to 43.</li>
+	<li>Next, we multiply 43 by 1 (Mod1 is 1 here), getting 43.***</li>
+	<li>Next, we add 2 to 43, getting 45.</li>
+	<li>Next, we multiply 45 by 1 (assuming that we didn't get a critical hit here), getting 45.***</li>
+	<li>Next, we multiply 45 by 1 (Mod2 is 1 here), getting 45.***</li>
+	<li>Next, we multiply 45 by 85 (the minimum number that the random number can be), getting 3825.</li>
+	<li>Next, we divide 3825 by 100, getting 38.25, which is rounded down to 38.</li>
+	<li>Next, we multiply 38 by 1.5 (since Aerial Ace is Flying-type, like one of Staraptor's types is), getting 57.</li>
+	<li>Next, we multiply 57 by 2 (since Aerial Ace is Flying-type, which is super effective against Roserade's first type, Grass), getting 114.</li>
+	<li>Next, we multiply 114 by 1 (since Aerial Ace is Flying-type, which is neutral against Roserade's second type, Poison), getting 114.***</li>
+	<li>Finally, we multiply 114 by 1 (Mod3 is 1 here), getting 114.***</li>
+</ol>
+
+<p>So Staraptor's minimum damage would be 114.</p>
+
+<p>For the maximum damage, we do exactly the same steps, except that we multiply by 100 instead of by 85 in Step 12. We get 134 as the maximum damage if we do that. Try it out. (If you do not get 134, make sure that you have actually rounded down your answer at EVERY step in the calculation.)</p>
+
+<p>Note: The steps marked *** can be omitted, since multiplying by 1 does not change the answer.</p>
+
+
+<h2><a name="modifiers">Section 2: The Base Power and its Modifiers</a></h2>
+
+<p>The Base Power of the move might be considered to be simple, but in fact it can change by many things during the battle that can affect it.</p>
+
+<p>So many, in fact, that it can be summarised by the following formula:</p>
+
+<pre>BasePower = HH × BP × IT × CHG × MS × WS × UA × FA</pre>
+
+<p>where</p>
+
+<dl>
+	<dt>HH</dt>
+	<dd>1.5 if the move has been boosted by the move Helping Hand by the partner, and 1 otherwise.</dd>
+	<dt>BP</dt>
+	<dd>The Base Power of the move. This is usually found easily, like 80 for Energy Ball, 60 for Aerial Ace, etc. Some moves have a variable BP, a list of which is given in <a href="#bp_variable">Section 2A.</a></dd>
+	<dt><a href="#bp_items">IT</a></dt>
+	<dd>The item multiplier. The list of items that affect Base Power, together with their effects, is given in <a href="#bp_items">Section 2B</a>.</dd>
+	<dt>CHG</dt>
+	<dd>2 if the Pokemon's last move was Charge and this move's type is Electric and 1 otherwise.</dd>
+	<dt>MS</dt>
+	<dd>0.5 if one of the Pokemon in play used the move Mud Sport and this move's type is Electric, and 1 otherwise.</dd>
+	<dt>WS</dt>
+	<dd>0.5 if one of the Pokemon in play used the move Water Sport and this move's type is Fire, and 1 otherwise.</dd>
+	<dt><a href="#bp_abilities_user">UA</a></dt>
+	<dd>The user ability multiplier. A list of user abilities that affect Base Power, together with their effects, is given in <a href="#bp_abilities_user">Section 2C</a>.</dd>
+	<dt><a href="#bp_abilities_foe">FA</a></dt>
+	<dd>The foe ability multiplier. A list of foe abilities that affect Base Power, together with their effects, is given in <a href="#bp_abilities_foe">Section 2D</a>.</dd>
+</dl>
+
+<p>The Base Power is calculated from left to right, and is rounded down before the next multiplication is performed. The order of the multiplications is as written in the formula above... changing the order might result in the incorrect Base Power.</p>
+
+<h3><a name="bp_variable">Section 2A - Moves having a Variable Base Power</a></h3>
+
+<p>Here is a list of moves having variable Base Power. This Base Power is equal to BP in the Base Power formula.</p>
+
+<table class="sortable">
+	<thead>
+		<tr>
+			<th>Move name</th>
+			<th>Base Power</th>
+		</tr>
+	</thead>
+	
+	<tbody>
+		<tr><td><a href="/dp/moves/assurance">Assurance</a></td><td>100 if the foe was hurt that turn, 50 otherwise.</td></tr>
+		<tr class="a"><td><a href="/dp/moves/avalanche">Avalanche</a></td><td>120 if the targeted Pokemon did damage to the user, 60 otherwise.</td></tr>
+		<tr><td><a href="/dp/moves/brine">Brine</a></td><td>130 if the targeted Pokemon's current HP is less than or equal to half of its maximum HP, rounded down, 65 otherwise.</td></tr>
+		<tr class="a"><td><a href="/dp/moves/crush_grip">Crush Grip</a>***</td><td>1 + (120 × Foe's Current HP ÷ Foe's Max HP), rounded down.</td></tr>
+		<tr><td><a href="/dp/moves/eruption">Eruption</a>***</td><td>150 × User's Current HP ÷ User's Max HP, rounded down.</td></tr>
+		<tr class="a"><td><a href="/dp/moves/facade">Facade</a></td><td>140 if the user is paralyzed, poisoned, or burned, 70 otherwise.</td></tr>
+		<tr><td><a href="/dp/moves/flail">Flail</a></td><td>200 if CP is between 0 and 1, 150 if CP is between 2 and 5, 100 if CP is between 6 and 12, 80 if CP is between 13 and 21, 40 if CP is between 22 and 42, and 20 if CP is between 43 and 64, where CP = User's Current HP × 64 ÷ User's Total HP, rounded down.</td></tr>
+		<tr class="a"><td><a href="/dp/moves/fling">Fling</a>***</td><td>Check the move's page for more details.</td></tr>
+		<tr><td><a href="/dp/moves/frustration">Frustration</a></td><td>102 - (User's Happiness × 2 ÷ 5), rounded down. If BP is 0, it becomes 1.</td></tr>
+		<tr class="a"><td><a href="/dp/moves/fury_cutter">Fury Cutter</a></td><td>10 if Fury Cutter was not already used or it missed when it was last used, otherwise, BP is double the BP of the last used Fury Cutter. If BP is greater than 160, it becomes 160.</td></tr>
+		<tr><td><a href="/dp/moves/grass_knot">Grass Knot</a></td><td>20 if W is between 0 and 10, 40 if W is between 10.1 and 25, 60 if W is between 25.1 and 50, 80 if W is between 50.1 and 100, 100 if W is between 100.1 and 200, and 120 otherwise, where W is the weight of the foe in kilograms.</td></tr>
+		<tr class="a"><td><a href="/dp/moves/gyro_ball">Gyro Ball</a></td><td>1 + (25 × Foe's Speed ÷ User's Speed), rounded down. If BP is greater than 150, it becomes 150.</td></tr>
+		<tr><td><a href="/dp/moves/ice_ball">Ice Ball</a></td><td>If Defense Curl was used by the user in any of the previous turns, then 60 for the first turn that Ice Ball is used, followed by 120, 240, 480 and 960 for the second, third, fourth and fifth turns respectively. If Defense Curl was not used by the user in any of the previous turns, then 30 for the first turn that Ice Ball is used, then 60, 120, 240, and 480 for the second, third, fourth and fifth turns respectively. If Ice Ball fails, BP restarts from 60 or 30 in its next usage.</td></tr>
+		<tr class="a"><td><a href="/dp/moves/hidden_power">Hidden Power</a></td><td>Check the move's page for more details.</td></tr>
+		<tr><td><a href="/dp/moves/low_kick">Low Kick</a></td><td>20 if W is between 0 and 10, 40 if W is between 10.1 and 25, 60 if W is between 25.1 and 50, 80 if W is between 50.1 and 100, 100 if W is between 100.1 and 200, and 120 otherwise, where W is the weight of the foe in kilograms.</td></tr>
+		<tr class="a"><td><a href="/dp/moves/magnitude">Magnitude</a></td><td>10 if R is between 0 and 4 (Magnitude 4), 30 if R is between 5 and 14 (Magnitude 5), 50 if R is between 15 and 34 (Magnitude 6), 70 if R is between 35 and 64 (Magnitude 7), 90 if R is between 65 and 84 (Magnitude 8), 110 if R is between 85 and 94 (Magnitude 9), and 150 if R is between 95 and 99 (Magnitude 10), where R is a random whole number between 0 and 99 with uniform probability.</td></tr>
+		<tr><td><a href="/dp/moves/natural_gift">Natural Gift</a></td><td>Check the move's page for more details</td></tr>
+		<tr class="a"><td><a href="/dp/moves/nature_power">Nature Power</a></td><td>Becomes Earthquake if the location is on a road or in the desert, Tri Attack if the location is inside a building (this is the default choice in battles), Seed Bomb if the location is on grass or tall grass, Rock Slide if the location is in a cave or on a mountain, Blizzard if the location is on snow, and Hydro Pump if the location is on a pond or in the sea.</td></tr>
+		<tr><td><a href="/dp/moves/payback">Payback</a></td><td>100 if the targeted Pokemon moves before the user, 50 otherwise.</td></tr>
+		<tr class="a"><td><a href="/dp/moves/present">Present</a>***</td><td>40 if R is between 0 and 102, 80 if R is between 103 and 179, 120 if R is between 179 and 204, and 0 and the foe is healed by 80 HP otherwise, where R is a random whole number between 0 and 255 inclusive, with uniform probability.</td></tr>
+		<tr><td><a href="/dp/moves/punishment">Punishment</a></td><td>60 + (20 × Sum of positive stat modifiers of the foe). If BP is greater than 200, it becomes 200.</td></tr>
+		<tr class="a"><td><a href="/dp/moves/pursuit">Pursuit</a></td><td>80 if the foe switches out during that turn, 40 otherwise.</td></tr>
+		<tr><td><a href="/dp/moves/return">Return</a></td><td>User's Happiness × 2 ÷ 5, rounded down. If BP is 0, it becomes 1.</td></tr>
+		<tr class="a"><td><a href="/dp/moves/revenge">Revenge</a></td><td>120 if the targeted Pokemon did damage to the user, 60 otherwise.</td></tr>
+		<tr><td><a href="/dp/moves/reversal">Reversal</a></td><td>200 if CP is between 0 and 1, 150 if CP is between 2 and 5, 100 if CP is between 6 and 12, 80 if CP is between 13 and 21, 40 if CP is between 22 and 42, and 20 if CP is between 43 and 64, where CP = User's Current HP × 64 ÷ User's Total HP, rounded down.</td></tr>
+		<tr class="a"><td><a href="/dp/moves/rollout">Rollout</a></td><td>If Defense Curl was used by the user in any of the previous turns, then 60 for the first turn that Rollout is used, followed by 120, 240, 480 and 960 for the second, third, fourth and fifth turns, respectively. If Defense Curl was not used by the user in any of the previous turns, then 30 for the first turn that Rollout is used, then 60, 120, 240, and 480 for the second, third, fourth and fifth turns, respectively. If Rollout fails, BP restarts from 60 or 30 in its next usage.</td></tr>
+		<tr><td><a href="/dp/moves/smellingsalt">SmellingSalt</a></td><td>120 if the foe is paralyzed (and is healed from paralysis afterwards), 60 otherwise.</td></tr>
+		<tr class="a"><td><a href="/dp/moves/spit_up">Spit Up</a></td><td>100 if one Stockpile was used, 200 if two Stockpiles were used, 300 if three Stockpiles were used, 0 otherwise.</td></tr>
+		<tr><td><a href="/dp/moves/stomp">Stomp</a></td><td>130 if the foe used the move Minimize, 65 otherwise.</td></tr>
+		<tr class="a"><td><a href="/dp/moves/triple_kick">Triple Kick</a></td><td>10 in the first kick, 20 in the second kick, 30 in the third kick.</td></tr>
+		<tr><td><a href="/dp/moves/trump_card">Trump Card</a></td><td>40 if P is at least 4, 50 if P is 3, 60 if P is 2, 80 if P is 1, and 200 if P is 0, where P is the PP of Trump Card after being used.</td></tr>
+		<tr class="a"><td><a href="/dp/moves/wake-up_slap">Wake-Up Slap</a></td><td>120 if the foe is asleep (and is healed from sleep afterwards), 60 otherwise.</td></tr>
+		<tr><td><a href="/dp/moves/water_spout">Water Spout</a>***</td><td>150 × User's Current HP ÷ User's Max HP, rounded down.</td></tr>
+		<tr class="a"><td><a href="/dp/moves/weather_ball">Weather Ball</a></td><td>100 if the weather is Sunny Day, Rain Dance, Sandstorm, Hail, or Fog, 50 otherwise.</td></tr>
+		<tr><td><a href="/dp/moves/wring_out">Wring Out</a></td><td>1 + (120 × Foe's Current HP ÷ Foe’s Max HP), rounded down.</td></tr>
+	</tbody>
+</table>
+
+<p>*** - Exact BP not confirmed.</p>
+
+<h3><a name="bp_items">Section 2B - Items that affect Base Power</a></h3>
+
+<p>The following items equipped to the user provide the following boost to the IT multiplier:</p>
+
+<table class="sortable">
+	<thead>
+		<tr>
+			<th>Item name</th>
+			<th>IT multiplier</th>
+		</tr>
+	</thead>
+	
+	<tbody>
+		<tr><td><a href="/dp/items/muscle_band">Muscle Band</a></td><td>1.1 if the move used is physical, 1 otherwise.</td></tr>
+		<tr class="a"><td><a href="/dp/items/wise_glasses">Wise Glasses</a></td><td>1.1 if the move used is special, 1 otherwise.</td></tr>
+		<tr><td>Type-boosting items, plates and incenses</td><td>1.2 if the move used is of the same type as the type that the item, plate or incense boosts, 1 otherwise.</td></tr>
+		<tr class="a"><td><a href="/dp/items/adamant_orb">Adamant Orb</a></td><td>1.2 if the user is Dialga and the move used is Steel- or Dragon-type, 1 otherwise.</td></tr>
+		<tr><td><a href="/dp/items/lustrous_orb">Lustrous Orb</a></td><td>1.2 if the user is Palkia and the move used is Water- or Dragon-type, 1 otherwise.</td></tr>
+		<tr class="a"><td><a href="/dp/items/griseous_orb">Griseous Orb</a></td><td>1.2 if the user is Giratina and the move used is Ghost- or Dragon-type, 1 otherwise.</td></tr>
+		<tr><td>Any other item</td><td>1.</td></tr>
+	</tbody>
+</table>
+
+
+<h3><a name="bp_abilities_user">Section 2C - User Abilities that affect Base Power</a></h3>
+
+<p>The following abilities provide the following numbers to the UA multiplier if the user has one of them:</p>
+
+<table class="sortable">
+	<thead>
+		<tr>
+			<th>User ability</th>
+			<th>UA multiplier</th>
+		</tr>
+	</thead>
+
+	<tbody>
+		<tr><td><a href="/dp/abilities/rivalry">Rivalry</a></td><td>1.25 if the user is of the same gender as the targeted Pokemon, 0.75 if the user is of the opposite gender of the targeted Pokemon, 1 otherwise.</td></tr>
+		<tr class="a"><td><a href="/dp/abilities/reckless">Reckless</a></td><td>1.2 if the user uses a recoil move, 1 otherwise.</td></tr>
+		<tr><td><a href="/dp/abilities/iron_fist">Iron Fist</a></td><td>1.2 if the user uses a punching move, 1 otherwise.</td></tr>
+		<tr class="a"><td><a href="/dp/abilities/blaze">Blaze</a></td><td>1.5 if the user uses a Fire move and its current HP is less than 1/3 of its maximum HP (rounded down), 1 otherwise.</td></tr>
+		<tr><td><a href="/dp/abilities/overgrow">Overgrow</a></td><td>1.5 if the user uses a Grass move and its current HP is less than 1/3 of its maximum HP (rounded down), 1 otherwise.</td></tr>
+		<tr class="a"><td><a href="/dp/abilities/torrent">Torrent</a></td><td>1.5 if the user uses a Water move and its current HP is less than 1/3 of its maximum HP (rounded down), 1 otherwise.</td></tr>
+		<tr><td><a href="/dp/abilities/swarm">Swarm</a></td><td>1.5 if the user uses a Bug move and its current HP is less than 1/3 of its maximum HP (rounded down), 1 otherwise.</td></tr>
+		<tr class="a"><td><a href="/dp/abilities/technician">Technician</a></td><td>1.5 if the user uses a move with BP at most 60, 1 otherwise.</td></tr>
+		<tr><td>All other user abilities</td><td>1.</td></tr>
+	</tbody>
+</table>
+
+
+<h3><a name="bp_abilities_foe">Section 2D - Foe Abilities that affect Base Power</a></h3>
+
+<p>The following abilities provide the following numbers to the FA multiplier if the foe has one of them:</p>
+
+<table class="sortable">
+	<thead>
+		<tr>
+			<th>Foe ability</th>
+			<th>FA multiplier</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr><td><a href="/dp/abilities/thick_fat">Thick Fat</a></td><td>0.5 if the user is using an Ice or Fire move, 1 otherwise.</td></tr>
+		<tr class="a"><td><a href="/dp/abilities/heatproof">Heatproof</a></td><td>0.5 if the user is using a Fire move, 1 otherwise.</td></tr>
+		<tr><td><a href="/dp/abilities/dry_skin">Dry Skin</a></td><td>1.25 if the user is using a Fire move, 1 otherwise.</td></tr>
+		<tr class="a"><td>All other foe abilities</td><td>1.</td></tr>
+	</tbody>
+</table>
+
+
+<h2><a name="attack">Section 3 - The Attack and Special Attack stats and their Modifiers</a></h2>
+
+<p>The Attack and Special Attack stats can also be changed throughout the match by various things.</p>
+
+<pre>[Sp]Atk = Stat × SM × AM × IM</pre>
+
+<p>where:</p>
+
+<dl>
+	<dt>Stat</dt><dd>The normal Attack or Special Attack stat.</dd>
+	<dt><a href="#atk_stat">SM</a></dt><dd>The stat modifier multiplier. See <a href="#atk_stat">Section 3A</a> for more information.</dd>
+	<dt><a href="#atk_abilities">AM</a></dt><dd>The ability modifier. See <a href="#atk_abilities">Section 3B</a> for a list of abilities that change the attacking stats.</dd>
+	<dt><a href="#atk_items">IM</a></dt><dd>The item modifier. See <a href="#atk_items">Section 3C</a> for a list of items that change the attacking stats.</dd>
+</dl>
+
+<p>As we said for the calculation of the Base Power, the above multiplication is also performed from left to right, rounding down before performing the next one.</p>
+
+<h3><a name="atk_stat">Section 3A - The Stat Modifier Multipliers</a></h3>
+
+<p>Each stat (excluding HP) has a stat modifier which is a whole number between -6 and 6 inclusive. This stat modifier starts from 0 and is changed by various moves like Swords Dance and Defense Curl. Some attacks can also change either the user’s stat modifier or that of the foe as a secondary effect, like Overheat and Shadow Ball.</p>
+
+<p>The effect of SM is the following:</p>
+
+<table class="sortable">
+	<thead>
+		<tr>
+			<th>Stat Modifier</th>
+			<th>SM multiplier</th>
+			<th>Decimal Approximate</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr><td>-6</td><td>2/8</td><td>0.25</td></tr>
+		<tr class="a"><td>-5</td><td>2/7</td><td>0.2857</td></tr>
+		<tr><td>-4</td><td>2/6</td><td>0.3333</td></tr>
+		<tr class="a"><td>-3</td><td>2/5</td><td>0.4</td></tr>
+		<tr><td>-2</td><td>2/4</td><td>0.5</td></tr>
+		<tr class="a"><td>-1</td><td>2/3</td><td>0.6667</td></tr>
+		<tr><td>0</td><td>2/2</td><td>1</td></tr>
+		<tr class="a"><td>+1</td><td>3/2</td><td>1.5</td></tr>
+		<tr><td>+2</td><td>4/2</td><td>2</td></tr>
+		<tr class="a"><td>+3</td><td>5/2</td><td>2.5</td></tr>
+		<tr><td>+4</td><td>6/2</td><td>3</td></tr>
+		<tr class="a"><td>+5</td><td>7/2</td><td>3.5</td></tr>
+		<tr><td>+6</td><td>8/2</td><td>4</td></tr>
+	</tbody>
+</table>
+
+<p>A few points:</p>
+
+<dl>
+	<dt>Critical Hits</dt>
+	<dd>If the Stat Modifier for Attack or Special Attack is less than zero, SM is made equal to 1 if the attack hits for a critical hit. Also, if the Stat Modifier for Defense or Special Defense is greater than zero, SM is made equal to 1 if the attack hits for a critical hit.</dd>
+
+	<dt><a href="/dp/abilities/unaware">Unaware</a></dt>
+	<dd>If the user has the ability Unaware, SM for Defense or Special Defense of the foe is made equal to 1. If the foe has the ability Unaware, SM for Attack or Special Attack of the user is made equal to 1.</dd>
+
+	<dt><a href="/dp/abilities/simple">Simple</a></dt>
+	<dd>If any Pokemon has the ability Simple, SM conforms to a different chart, as shown below.</dd>
+</dl>
+
+<table class="sortable">
+	<thead>
+		<tr>
+			<th>Stat Modifier</th>
+			<th>SM multiplier</th>
+			<th>Decimal Approximate</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr><td>-3 to -6</td><td>2/8</td><td>0.25</td></tr>
+		<tr class="a"><td>-2</td><td>2/6</td><td>0.3333</td></tr>
+		<tr><td>-1</td><td>2/4</td><td>0.5</td></tr>
+		<tr class="a"><td>0</td><td>2/2</td><td>1</td></tr>
+		<tr><td>+1</td><td>4/2</td><td>2</td></tr>
+		<tr class="a"><td>+2</td><td>6/2</td><td>3</td></tr>
+		<tr><td>+3 to +6</td><td>8/2</td><td>4</td></tr>
+	</tbody>
+</table>
+
+
+<h3><a name="atk_abilities">Section 3B - Abilities that change the Attack or Special Attack stat</a></h3>
+
+<p>Here is a list of abilities that modify the Attack or Special Attack stat of the user, which affect the AM multiplier:</p>
+
+<p>Abilities that affect the Attack stat:</p>
+
+<table class="sortable">
+	<thead>
+		<tr>
+			<th>Ability name</th>
+			<th>AM multiplier</th>
+		</tr>
+	</thead>
+	
+	<tbody>
+		<tr><td><a href="/dp/abilities/pure_power">Pure Power</a></td><td>2.</td></tr>
+		<tr class="a"><td><a href="/dp/abilities/huge_power">Huge Power</a></td><td>2.</td></tr>
+		<tr><td><a href="/dp/abilities/flower_gift">Flower Gift</a></td><td>1.5 if Sunny Day is in effect, AM = 1 otherwise.</td></tr>
+		<tr class="a"><td><a href="/dp/abilities/guts">Guts</a></td><td>1.5 if the user is paralyzed, poisoned, burned, or asleep, AM = 1 otherwise.</td></tr>
+		<tr><td><a href="/dp/abilities/hustle">Hustle</a></td><td>1.5 (and physical moves have 80% accuracy).</td></tr>
+		<tr class="a"><td><a href="/dp/abilities/slow_start">Slow Start</a></td><td>0.5 if the user has been in the battlefield for less than 5 turns, AM = 1 otherwise.</td></tr>
+		<tr><td>Other abilities</td><td>1.</td></tr>
+	</tbody>
+</table>
+
+<p>If there are two simultaneous boosts in the Attack stat, first apply the attacking Pokemon's ability boost, then the allies ability boost.</p>
+
+<p>Abilities that affect the Special Attack stat:</p>
+
+<table class="sortable">
+	<thead>
+		<tr>
+			<th>Ability name</th>
+			<th>AM multiplier</th>
+		</tr>
+	</thead>
+	
+	<tbody>
+		<tr><td><a href="/dp/abilities/plus">Plus</a></td><td>1.5 if the partner has ability Minus, 1 otherwise.</td></tr>
+		<tr class="a"><td><a href="/dp/abilities/minus">Minus</a></td><td>1.5 if the partner has ability Plus, 1 otherwise.</td></tr>
+		<tr><td><a href="/dp/abilities/solar_power">Solar Power</a></td><td>1.5 if Sunny Day is in effect (and loses 1/8 of HP per turn), 1 otherwise.</td></tr>
+		<tr class="a"><td>Other abilities</td><td>1.</td></tr>
+	</tbody>
+</table>
+
+
+<h3><a name="atk_items">Section 3C - Items that change the Attack or Special Attack stat</a></h3>
+
+<p>Here is a list of items that modify the Attack or Special Attack stat of the user, which affect the IM multiplier:</p>
+
+<p>Items that affect the Attack stat:</p>
+
+<table class="sortable">
+	<thead>
+		<tr>
+			<th>Item name</th>
+			<th>IM multiplier</th>
+		</tr>
+	</thead>
+	
+	<tbody>
+		<tr><td><a href="/items/choice_band">Choice Band</a></td><td>1.5 (the user can't use any other move).</td></tr>
+		<tr class="a"><td><a href="/items/light_ball">Light Ball</a></td><td>2 if the user is Pikachu, 1 otherwise.</td></tr>
+		<tr><td><a href="/items/thick_club">Thick Club</a></td><td>2 if the user is Cubone or Marowak, 1 otherwise.</td></tr>
+		<tr class="a"><td>Other items</td><td>1.</td></tr>
+	</tbody>
+</table>
+
+<p>Items that affect the Special Attack stat:</p>
+
+<table class="sortable">
+	<thead>
+		<tr>
+			<th>Item name</th>
+			<th>IM multiplier</th>
+		</tr>
+	</thead>
+	
+	<tbody>
+		<tr><td><a href="/items/choice_band">Choice Specs</a></td><td>1.5 (the user can't use any other move).</td></tr>
+		<tr class="a"><td><a href="/items/choice_band">Light Ball</a></td><td>2 if the user is Pikachu, 1 otherwise.</td></tr>
+		<tr><td><a href="/items/choice_band">Soul Dew</a></td><td>1.5 if the user is Latios or Latias, 1 otherwise.</td></tr>
+		<tr class="a"><td><a href="/items/choice_band">Deepseatooth</a></td><td>2 if the user is Clamperl, 1 otherwise.</td></tr>
+		<tr><td>Other items</td><td>1.</td></tr>
+	</tbody>
+</table>
+
+
+<h2><a name="defense">Section 4 - The Defense and Special Defense stats and their Modifiers</a></h2>
+
+<p>Various changes can also be performed to the Defense and Special Defense stats of the foe during a match.</p>
+
+<p>In this case, there aren't many things that can change the Defense or Special Defense stats:</p>
+
+<pre>[Sp]Def = Stat × SM × Mod × SX</pre>
+
+<p>where:</p>
+
+<dl>
+	<dt>Stat</dt>
+	<dd>The normal Defense or Special Defense stat.</dd>
+
+	<dt><a href="#atk_stat">SM</a></dt>
+	<dd>The stat modifier multiplier. See <a href="#atk_stat">Section 3A</a> for more information.</dd>
+
+	<dt>SX</dt>
+	<dd>0.5 if the move used by the user is Selfdestruct or Explosion, otherwise 1.</dd>
+
+	<dt>Mod</dt>
+	<dd>A modifier depending on a few factors. These are as follows:</dd>
+
+</dl>
+
+<h4>Defense modifiers:</h4>
+
+<table class="sortable">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Modifier</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr><td><a href="/dp/items/metal_powder">Metal Powder</a></td><td>1.5 if the foe is Ditto, is holding the item Metal Powder and has not used the move Transform.</td></tr>
+		<tr class="a"><td><a href="/dp/abilities/marvel_scale">Marvel Scale</a></td><td>1.5 if the foe has the ability Marvel Scale and is paralysed, poisoned, burned, asleep, or frozen.</td></tr>
+	</tbody>
+</table>
+
+<h4>Special Defense modifiers:</h4>
+
+<table class="sortable">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Modifier</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr><td><a href="/dp/moves/sandstorm">Sandstorm</a></td><td>1.5 if Sandstorm is in effect and the foe is of Rock-type.</td></tr>
+		<tr class="a"><td><a href="/dp/items/soul_dew">Soul Dew</a></td><td>1.5 if the foe is Latios or Latias and is holding the item Soul Dew.</td></tr>
+		<tr><td><a href="/dp/items/metal_powder">Metal Powder</a></td><td>1.5 if the foe is Ditto, is holding the item Metal Powder and has not used the move Transform.</td></tr>
+		<tr class="a"><td><a href="/dp/items/deepseascale">Deepseascale</a></td><td>2 if the foe is Clamperl and is holding the item Deepseascale.</td></tr>
+		<tr><td><a href="/dp/abilities/flower_gift">Flower Gift</a></td><td>1.5 if one of the foes has the ability Flower Gift and Sunny Day is in effect.</td></tr>
+	</tbody>
+</table>
+
+<p>Otherwise, Mod = 1.</p>
+
+<p>Again, remember to multiply from left to right and round down after each multiplication.</p>
+
+<p>If there are two simultaneous boosts in Mod, first apply the ability boost, then the item boost, and finally the Sandstorm boost.</p>
+
+<p>If the Defense or Special Defense stat is equal to zero after all these modifiers, it becomes 1 instead.</p>
+
+
+
+<h2><a name="mod1">Section 5 - The First Modifier to the Damage Formula</a></h2>
+
+<p>This section will explain the function of Mod1, the first modifier to the damage formula.</p>
+
+<pre>Mod1 = BRN × RL × TVT × SR × FF</pre>
+
+<p>where:</p>
+
+<dl>
+	<dt>BRN</dt>
+	<dd>The Burn modifier</dd>
+
+	<dt>RL</dt>
+	<dd>The Reflect/Light Screen modifier</dd>
+
+	<dt>TVT</dt>
+	<dd>The 2v2 modifier</dd>
+
+	<dt>SR</dt>
+	<dd>The Sunny Day/Rain Dance modifier</dd>
+
+	<dt>FF</dt>
+	<dd>The Flash Fire modifier</dd>
+</dl>
+
+<p><var>BRN</var> is 0.5 if the move performed is physical, the user is affected by the burn special condition and the user's ability is not Guts, and 1 otherwise.</p>
+
+<p><var>RL</var> is:</p>
+<ul>
+	<li>0.5 if the move performed is physical, the foe has setup a Reflect and the game is 1vs1.</li>
+	<li>0.5 if the move performed is special, the foe has setup a Light Screen and the game is 1vs1.</li>
+	<li>2/3 if the move performed is physical, the foe has setup a Reflect and the game is 2v2.</li>
+	<li>2/3 if the move performed is special, the foe has setup a Light Screen and the game is 2v2.</li>
+	<li>1 otherwise.</li>
+</ul>
+
+<p>Also, if the move is a critical hit, RL is made equal to 1 no matter what.</p>
+
+<p><var>TVT</var> is 0.75 if the game is 2v2 and the move used hits more than one Pokemon, and 1 otherwise. Note: These moves don't always hit for 75% damage. Research on what conditions trigger the 75% damage is being carried out.</p>
+
+<p><var>SR</var> is:</p>
+<ul>
+	<li>1.5 if Sunny Day is in effect and the move is of Fire-type.</li>
+	<li>1.5 if Rain Dance is in effect and the move is of Water-type.</li>
+	<li>0.5 if Sunny Day is in effect and the move is of Water-type.</li>
+	<li>0.5 if Rain Dance is in effect and the move is of Fire-type.</li>
+	<li>1 otherwise.</li>
+</ul>
+
+<p><var>FF</var> is 1.5 if the user has the ability Flash Fire, was previously attacked by a move that is of Fire-type, and is using a Fire move, 1 otherwise.</p>
+
+<p>Yet again, it must be emphasized that the order of the multiplication must be as written above.</p>
+
+
+
+<h2><a name="mod2">Section 6 - The Second Modifier to the Damage Formula</a></h2>
+
+<p>This section explains what affects Mod2, the second modifier of the damage formula.</p>
+
+<p>Mod2 is</p>
+
+<ul>
+	<li>1.3 if the user is holding the item Life Orb.</li>
+	<li>1, 1.1, 1.2, 1.3, ..., 2 if the user is holding the item Metronome and has used the same move once, twice, three times, four times, ... etc. consecutively.</li>
+        <li>1.5 if the user is attacking with the move Me First.</li>
+	<li>1 otherwise.</li>
+</ul>
+
+<p>In the case when the Pokemon is using Me First and is also holding the item Life Orb or Metronome, the item boost multiplier is done first, followed by the Me First (x1.5) multiplier.</p>
+
+
+
+<h2><a name="mod3">Section 7 - The Third Modifier to the Damage Formula</a></h2>
+
+<p>Finally, we come to the third and final modifier to the damage formula, Mod3.</p>
+
+<pre>Mod3 = SRF × EB × TL × TRB</pre>
+
+<p>where:</p>
+
+<dl>
+	<dt>SRF</dt>
+	<dd>The Solid Rock/Filter modifier</dd>
+
+	<dt>EB</dt>
+	<dd>The Expert Belt modifier</dd>
+
+	<dt>TL</dt>
+	<dd>The Tinted Lens modifier</dd>
+
+	<dt>TRB</dt>
+	<dd>The type-resisting Berry modifier</dd>
+</dl>
+
+<p><var>SRF</var> is 0.75 if the foe's ability is Solid Rock or Filter and the move used is super effective against it, and 1 otherwise.</p>
+
+<p><var>EB</var> is 1.2 if the user is holding the item Expert Belt and the move used is super effective against the foe, and 1 otherwise.</p>
+
+<p><var>TL</var> is 2 if the user's ability is Tinted Lens and the move used is not very effective against the foe, and 1 otherwise.</p>
+
+<p><var>TRB</var> is:</p>
+<ul>
+	<li>0.5 if the foe is holding one of the type resisting Berries and the move used is super effective and of the same type as the type that the Berry knocks down.</li>
+	<li>0.5 if the foe is holding Chilan Berry and the move used is Normal-type.</li>
+	<li>1 otherwise.</li>
+</ul>
+
+<p>Remember once again that the multiplication must be carried out in the order listed above.</p>
+
+
+
+<h2><a name="exception">Section 8 - Exceptional Cases</a></h2>
+
+<p>The eighth and final section will concern moves that do not follow the damage formula to the rule.</p>
+
+<ol>
+	<li>Doom Desire and Future Sight use a slightly different variation of the damage formula for the calculation of the damage dealt two turns after they are used. They use the Special Defense stat of the foe that was targeted when the move was used. Type1 and Type2 are also both equal to 1 irrespective of the type of the Pokemon that is being dealt damage.</li>
+
+	<li>When Spit Up is used, the variable R in the damage formula (i.e. the random number between 85 and 100) is always taken to be 100.</li>
+
+	<li>Pain Split does not even do damage. The user's remaining HP and that of the foe are averaged and rounded down, and then both are set to this value.</li>
+
+	<li>There are certain moves that do not use the usual damage formula to determine the damage done to the foe. Here is a list of them, and how to determine the damage dealt by each:
+		<dl>
+			<dt><a href="/dp/moves/bide">Bide</a></dt><dd>Damage is equal to twice the damage received during the last two turns to the last Pokemon attacking the user.</dd>
+			<dt><a href="/dp/moves/counter">Counter</a></dt><dd>Damage is equal to twice the damage received from the last Pokemon attacking the user during that turn, if the move used was physical.</dd>
+			<dt><a href="/dp/moves/dragon_rage">Dragon Rage</a></dt><dd>Damage is always 40.</dd>
+			<dt><a href="/dp/moves/endeavor">Endeavor</a></dt><dd>Damage is equal to the foe's remaining HP minus the user's remaining HP. It fails if this number is not positive.</dd>
+			<dt><a href="/dp/moves/fissure">Fissure</a>, <a href="/dp/moves/guillotine">Guillotine</a>, <a href="/dp/moves/horn_drill">Horn Drill</a> and <a href="/dp/moves/sheer_cold">Sheer Cold</a></dt><dd>Damage is equal to the foe's maximum HP (even if the foe is behind a substitute, in which case this amount of damage is dealt to the substitute instead).</dd>
+			<dt><a href="/dp/moves/metal_burst">Metal Burst</a></dt><dd>Damage is equal to 1.5 times the damage received from the last Pokemon attacking the user during that turn. Fails if that Pokemon is your partner.</dd>
+			<dt><a href="/dp/moves/mirror_coat">Mirror Coat</a></dt><dd>Damage is equal to twice the damage received from the last Pokemon attacking the user during that turn, if the move used was special.</dd>
+			<dt><a href="/dp/moves/night_shade">Night Shade</a></dt><dd>Damage is equal to the user's Level.</dd>
+			<dt><a href="/dp/moves/psywave">Psywave</a></dt><dd>Damage is equal to (R + 5) × Level ÷ 10, rounded down, where R is a random whole number between 0 and 10 inclusive with uniform probability, and Level is the user's Level.</dd>
+			<dt><a href="/dp/moves/seismic_toss">Seismic Toss</a></dt><dd>Damage is equal to the user's Level.</dd>
+			<dt><a href="/dp/moves/sonicboom">SonicBoom</a></dt><dd>Damage is always 20.</dd>
+			<dt><a href="/dp/moves/super_fang">Super Fang</a></dt><dd>Damage is equal to half the foe's remaining HP, rounded down. (If this damage is 0, it becomes 1 instead.)</dd>
+		</dl>
+	</li>
+</ol>

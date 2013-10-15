@@ -1,0 +1,259 @@
+[title]
+DPP / HGSS RNG Manipulation Guide Part 4 - How to Abuse for your Desired TID/SID
+[head]
+<meta name="description" content="DPP / HGSS RNG Manipulation Guide Part 4 - How to Abuse for your Desired TID/SID" />
+<style type="text/css">
+.underline{text-decoration:underline;}
+</style>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+	$(function(){
+		$("#gameselect").change(function(){
+			$(".dppt, .hgss").hide();
+			$(this.value).show();
+		})
+	});
+//]]>
+</script>
+
+[page]
+<div class="author">By <a href="/forums/member.php?u=18585">Everstone</a>.</div>
+<div style="float:right;">
+	Show steps for 
+	<select id="gameselect">
+		<option value=".dppt, .hgss">All</option>
+		<option value=".dppt">DPP</option>
+		<option value=".hgss">HGSS</option>
+	</select>
+</div>
+
+<ul class="toc">
+<li><a href="dpphgss_rng_intro">The DPP / HGSS RNG Manipulation Guide</a></li>
+<li><a href="dpphgss_rng_part1">DPP / HGSS RNG Manipulation Guide Part 1 - Common Information for Breeding, Capturing, and Receiving Perfect Pokemon</a></li>
+<li><a href="dpphgss_rng_part2">DPP / HGSS RNG Manipulation Guide Part 2 - How to Capture / Receive Perfect Pokemon</a></li>
+<li><a href="dpphgss_rng_part3">DPP / HGSS RNG Manipulation Guide Part 3 - How to Hatch Perfect Pokemon</a></li>
+<li>DPP / HGSS RNG Manipulation Guide Part 4 - How to Abuse for your Desired TID/SID
+<ul>
+<li><a href="#gensteps">General Steps for the RNG Manipulation of TID / SID in DPP and HGSS</a>
+<ul>
+<li><a href="#intro">Introduction</a></li>
+<li><a href="#stepone">Step 1: Finding a PID</a></li>
+<li><a href="#steptwo">Step 2: Searching for a TID/SID</a></li>
+<li><a href="#stepthree">Step 3: Getting the TID/SID</a></li>
+<li><a href="#stepfour">Step 4: Checking your Delay</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="dpphgss_rng_part5">DPP / HGSS RNG Manipulation Guide Part 5 - Cute Charm TID/SID and Poke Radar Abuse</a></li>
+</ul>
+
+<h2><a name="gensteps">General Steps for the RNG Manipulation of TID / SID in DPP and HGSS</a></h2>
+
+<p><span class="underline">Note to previous version users:</span> Pandora's Box is bugged in version 9.94-9.95. Therefore, download the latest version before attempting this.</p>
+
+<h3><a name="intro">Introduction</a></h3>
+
+<p>RNG manipulation for an ID/SID combination is one of the lengthiest yet most rewarding endeavors in your quest to be a Pokemon master. Practical uses of ID/SID manipulation include:</p>
+<ul>
+<li>Getting a flawless shiny spread (or two) that can be used to capture shiny legendaries and wild Pokemon.</li>
+<li>Being able to nickname event Pokemon (and other trainers' Pokemon for that matter). To do this your Trainer ID must match up with the desired Pokemon's Trainer ID. Some noteworthy IDs are:
+
+<table class="sortable">
+<thead>
+<tr>
+<th>ID</th>
+<th>Event</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>02211</td>
+<td>Celebi, WIN2011 Suicune</td>
+</tr>
+<tr class="a">
+<td>02141</td>
+<td>WIN2011 Entei</td>
+</tr>
+<tr>
+<td>11088</td>
+<td>TRU Dragonite</td>
+</tr>
+<tr class="a">
+<td>02071</td>
+<td>WIN2011 Raikou</td>
+</tr>
+<tr>
+<td>05318</td>
+<td>ALAMOS Darkrai</td>
+</tr>
+<tr class="a">
+<td>01311</td>
+<td>GAMESTP Suicune</td>
+</tr>
+<tr>
+<td>01301</td> 
+<td>Ash's Pikachu</td>
+</tr>
+<tr class="a">
+<td>02089</td>
+<td>TRU Shaymin</td>
+</tr>
+<tr>
+<td>05099</td>
+<td>VGCS Milotic</td>
+</tr>
+<tr class="a">
+<td>01171</td>
+<td>GAMESTP Entei</td>
+</tr>
+<tr>
+<td>01031</td>
+<td>GAMESTP Raikou</td>
+</tr>
+<tr class="a">
+<td>10160</td>
+<td>FAL2010 Mew</td>
+</tr>
+<tr>
+<td>03060</td>
+<td>Oblivia Heatran, Shaymin, Deoxys</td>
+</tr>
+<tr class="a">
+<td>03050</td>
+<td>SPR2010 Pichu</td>
+</tr>
+<tr>
+<td>06260</td>
+<td>SMR2010 Jirachi</td>
+</tr>
+<tr class="a">
+<td>02270</td>
+<td>GAMESTP Jirachi</td>
+</tr>
+<tr>
+<td>01300</td>
+<td>GAMESTP Pichu</td>
+</tr>
+<tr class="a">
+<td>11079</td>
+<td>TRU Arceus</td>
+</tr>
+<tr>
+<td>03089</td>
+<td>TRU Regigigas</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+
+<p>To summarize, every IV/nature combination has what's called a PID, and certain PIDs in your save file are shiny, depending on what that save file's ID/SID is. There is no other way to change what PIDs are shiny other than starting a new game and getting a different ID/SID combination. The PID and shininess factor will come into play when attempting to capture wild Pokemon. Breeding is not affected that much by it because you can get any combination of IVs shiny.</p>
+
+<p>This means if you wanted to capture a shiny Jolly 31/31/31/29/31/31 Rayquaza, if your ID/SID does not make the corresponding PID shiny, you will never be able to capture that shiny Rayquaza in your game without getting a new ID/SID. On the other hand, if your ID/SID makes Calm 27/24/25/31/28/29 shiny, then any time you encounter any Pokemon with those IVs and nature, it will always be shiny.</p>
+
+<p><strong>Note</strong>: PID is NOT the same as seed. PID is only used when determining what capture spreads are shiny, nowhere else.</p>
+
+<p>To find an ID we want, we go to Pandora's Box, which can be accessed from RNG Reporter's main screen as shown below.</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_idsid_1.png" alt="Pandora's Box tab" />
+
+<h3><a name="stepone">Step 1: Finding a PID</a></h3>
+
+<p>In order to get Pandora's Box running, we need to find a PID for the spread that we want to make shiny. Let's say we want to make a spread of 31/x/31/31/31/31 shiny. Go to 4th Gen Time Finder, run the search similar to what's shown below, and let's see what we get. <em>Make sure to set the Method to "Method 1"</em>.</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_idsid_2.png" alt="4th Gen Time Finder Method 1 Result" />
+
+<p>Well, look at that, a Modest spread with a frame of 24! Surely this is a suitable PID right? Well, there's more to it than meets the eye. If we picked this PID and successfully got a matching ID/SID, we would be able to capture shiny Modest 31/31/31/31/31/31 Pokemon. However, every IV spread has a "pair" so to speak. In other words, for every IV spread, there is a paired spread with matching IVs but different nature.</p>
+
+<p>Looking at the above picture, there are a lot of hex-31 IV spreads. How are we supposed to figure out the pairs? It's actually pretty simple. Make sure the <strong>frame, hour, and IVs match</strong>. If you want to be extra careful, make sure the <strong>last 3 digits of the seed and PID match as well</strong>.</p>
+
+<p>So what's the significance of this pair stuff? Well, <strong><span class="underline">if you have a TID/SID that makes one spread shiny, its pair will also be shiny as well</span></strong>. Therefore, to minimize the number of new saves you make, always find the pairs and make sure you're satisfied with both of them. Since the paired nature is Docile, that last Modest spread doesn't look so enticing now does it? A better choice would be the spreads boxed in blue (Modest/Timid) or green (Modest/Calm). For the remainder of this section, let's pick the Modest/Calm spread. It doesn't matter whether you pick E9375A48 or 6937DA48 as either one will make both the Modest/Calm spreads shiny.</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_idsid_3.png" alt="4th Gen Time Finder Method 1 Spread Pairs" />
+
+<h3><a name="steptwo">Step 2: Searching for a TID/SID</a></h3>
+
+<p>Now in Pandora's Box under the shiny PID section, set it up as seen below and run a search by hitting "Find Compatible Seeds". You may choose to specify a maximum delay if you want but Infinite Search also works since you'll be getting a lot of seeds anyway. The program recommends a minimum delay of 5000 so it's best to leave it as such, though it is possible to go as low as 4000 (HGSS only).</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_idsid_4.png" alt="Pandora's Box Window" />
+
+<p>For our purposes we shall choose the ID of 04440 and SID of 41508. Right click and select "Copy Seed to Clipboard".
+Under the main screen of RNG Reporter, select "Seed to Time" under 4th Gen Tools. Copy the seed under Seed (Hex) and set the year and seconds to whatever you want, then click Generate.</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_idsid_5.png" alt="4th Gen Seed to Time" />
+
+<h3><a name="stepthree">Step 3: Getting the TID/SID</a></h3>
+
+<p>Select any date you want from what is given. Don't worry about the listed delay not matching the delay Pandora's Box gives, as that is calculated assuming the year is 2000.</p>
+
+<p>Now we have to set up our DS clock and timer. We'll be using the date 1/7/2012 and time 15:59:30 for this. See the section on setting up EonTimer and your DS clock for more details.</p>
+
+<p><span style="color:#FF0000;">Before setting up EonTimer, read the following:</span></p> 
+
+<div class="dppt">
+<p><span class="underline">If using DPP:</span><br />
+When setting up EonTimer, set your target seconds to the seconds shown in Seed to Time.</p>
+</div>
+
+<div class="hgss">
+<p><span class="underline">If using HGSS:</span><br />
+When setting up EonTimer, set your target seconds to 3 less than the time shown in Seed to Time. In our example we are going for 15:59:30, so the target seconds would be 30 normally. In EonTimer, input 27 for the Target Seconds.</p>
+</div>
+
+<p>Now that the timer's set up, skip to the appropriate section for the game you're working on.</p>
+
+<strong>Tip</strong>: If you want to get through the text quickly, hold A and mash B.
+
+<div class="dppt">
+<p><span class="underline">DPP</span></p>
+
+<p>When you get to this screen, select "NO INFO NEEDED" and get through everything until the character naming screen.</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_idsid_6.png" alt="DPP Info Screen" />
+
+<img src="/media/upload/ingame/rng/dpphgss_idsid_7.png" alt="DPP Naming Screen" />
+
+<p>You will also get to name your rival afterwards.</p>
+
+<p><span style="color:#FF0000;"><strong>IMPORTANT</strong></span>: Make sure you're consistent with how you name yourself and your rival for each attempt. i.e. Name them the exact same way each attempt.</p>
+
+<p>Get to this screen shown below, and when the 2nd timer ends hit A. Note that you will have to wait for the background music to end before the game will let you proceed, so it's important to get to this screen as fast as possible.</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_idsid_8.png" alt="In-Game TV Screen" />
+</div>
+
+<div class="hgss">
+<p><span class="underline">HGSS</span></p>
+
+<p>Select "NO INFO NEEDED" from the screen below. Do not select any other option as that will mess up your results.</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_idsid_9.png" alt="HGSS Info Screen" />
+
+<p>When you get to the naming screen, for all attempts you make, try to enter your trainer name exactly the same every time.</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_idsid_10.png" alt="HGSS Naming Screen" />
+
+<p>Get to this screen shown below, and when the 2nd timer ends, hit A.</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_idsid_11.png" alt="Oak Screen" />
+</div>
+
+<h3><a name="stepfour">Step 4: Checking your Delay</a></h3>
+
+<p>Reach the point where you can check your Trainer Card, and note the ID you got. It will probably not be the ID you want. Let's input the ID we got into Pandora's Box to see what delay we hit. Say you got an ID of 60749. To figure out what delay you actually hit, input the appropriate data into the Seed Finder in Pandora's Box as shown.</p> 
+
+<img src="/media/upload/ingame/rng/dpphgss_idsid_12.png" alt="Pandora's Box Delay Check" />
+
+<p>And Pandora's Box tells you that you have actually hit delay 5012 instead of 5021. To account for this, simply go to EonTimer and enter 5012 for "Delay Hit" then press update as shown below.</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_idsid_13.png" alt="Eon Timer Delay Hit" />
+
+<p><strong><span class="underline">Don't forget to click Update!</span></strong></p>
+
+<p>Additionally, because we hit an even delay, but want odd, we will need to fix this. When you are naming your character, do the same thing you did in your previous attempt, but once you're done, if your naming screen is in UPPERCASE mode click the lower button to switch cases, and vice versa, to switch the delay to even.</p>
+
+<p>At this point it's just a matter of perseverance. If you do not get your desired ID yet, you'd want to verify what seed/delay you hit and make sure you are hitting around +/- 6 from your target, and also verify that you are hitting delays that match the target delay being even or odd.</p>
+
+<p>It's only a matter of time until you get your ID.</p>

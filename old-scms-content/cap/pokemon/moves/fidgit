@@ -1,0 +1,106 @@
+[title]
+Fidgit
+[head]
+<link rel="stylesheet" type="text/css" href="/media/dex/dex.css" />
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_template.js"></script>
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_database.js"></script>
+[header]
+[page]
+<script language="JavaScript">
+var cap = Fidgit();
+
+cap.movesLevel[0] = ["Gust", "Tailwind", "Comet Punch", "Helping Hand"];
+cap.movesLevel[5] = "Encore";
+cap.movesLevel[9] = "Rapid Spin";
+cap.movesLevel[14] = "Knock Off";
+cap.movesLevel[19] = "Copycat";
+cap.movesLevel[25] = "Whirlwind";
+cap.movesLevel[30] = "Body Slam";
+cap.movesLevel[35] = "Sludge Bomb";
+cap.movesLevel[41] = "Toxic Spikes";
+cap.movesLevel[49] = "Gravity";
+cap.movesLevel[53] = "Heal Block";
+cap.movesLevel[59] = "Earth Power";
+cap.movesLevel[67] = "Lucky Chant";
+
+
+cap.movesTM[6] = "Toxic";
+cap.movesTM[10] = "Hidden Power";
+cap.movesTM[11] = "Sunny Day";
+cap.movesTM[12] = "Taunt";
+cap.movesTM[15] = "Hyper Beam";
+cap.movesTM[16] = "Light Screen";
+cap.movesTM[17] = "Protect";
+cap.movesTM[18] = "Rain Dance";
+cap.movesTM[20] = "Safeguard";
+cap.movesTM[21] = "Frustration";
+cap.movesTM[26] = "Earthquake";
+cap.movesTM[27] = "Return";
+cap.movesTM[30] = "Shadow Ball";
+cap.movesTM[32] = "Double Team";
+cap.movesTM[33] = "Reflect";
+cap.movesTM[36] = "Sludge Bomb";
+cap.movesTM[37] = "Sandstorm";
+cap.movesTM[39] = "Rock Tomb";
+cap.movesTM[40] = "Aerial Ace";
+cap.movesTM[41] = "Torment";
+cap.movesTM[42] = "Facade";
+cap.movesTM[43] = "Secret Power";
+cap.movesTM[44] = "Rest";
+cap.movesTM[45] = "Attract";
+cap.movesTM[46] = "Thief";
+cap.movesTM[48] = "Skill Swap";
+cap.movesTM[49] = "Snatch";
+cap.movesTM[56] = "Fling";
+cap.movesTM[58] = "Endure";
+cap.movesTM[68] = "Giga Impact";
+cap.movesTM[71] = "Stone Edge";
+cap.movesTM[76] = "Stealth Rock";
+cap.movesTM[77] = "Psych Up";
+cap.movesTM[78] = "Captivate";
+cap.movesTM[80] = "Rock Slide";
+cap.movesTM[82] = "Sleep Talk";
+cap.movesTM[83] = "Natural Gift";
+cap.movesTM[84] = "Poison Jab";
+cap.movesTM[87] = "Swagger";
+cap.movesTM[89] = "U-turn";
+cap.movesTM[90] = "Substitute";
+cap.movesTM[92] = "Trick Room";
+
+cap.movesHM[6] = "Rock Smash";
+cap.movesHM[8] = "Rock Climb";
+
+cap.movesEgg = [
+	"Disable",
+	"Follow Me",
+	"Me First",
+	"Metronome",
+	"Mimic",
+	"Sand Tomb",
+	"Spikes",
+	"Wish"
+];
+
+cap.movesTutor = [
+        "Block",
+        "Body Slam",
+        "Double-Edge",
+        "Earth Power",
+        "Gastro Acid",
+        "Gravity",
+        "Helping Hand",
+        "Icy Wind",
+        "Knock Off",
+        "Metronome",
+        "Mimic",
+        "Mud-Slap",
+        "Ominous Wind",
+        "Snore",
+        "Swift",
+        "Tailwind",
+        "Twister"
+];
+
+
+document.write(composeMovesPage(cap));
+</script>

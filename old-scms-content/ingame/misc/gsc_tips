@@ -1,0 +1,214 @@
+[title]
+Second Generation Tips, Tricks, and Glitches
+ 
+[head]
+<meta name="description" content="Tips, tricks, and glitches for second generation Pok&eacute;mon games, compiled by Xia." />
+ 
+[page]
+<div class="author">Compiled by <a href="/forums/member.php?u=15184">Xia</a>.</div>
+ 
+<ol class="toc">
+<li><a href="#gsc">Gold / Silver / Crystal Tips</a>
+<ul>
+<li><a href="#swarms">Finding Pok&eacute;mon Swarms</a></li>
+<li><a href="#pokegear">Useful Pok&eacute;Gear Radio Stations</a></li>
+<li><a href="#gsc_cloning">Gold / Silver Cloning Glitch</a></li>
+<li><a href="#starter_glitch">All Three Starter Glitch</a></li>
+<li><a href="#celebi_glitch">The Celebi Glitch</a></li>
+</ul>
+</li>
+<li><a href="#c_only">Crystal-Only Tips</a>
+<ul>
+<li><a href="#stones">Receiving Evolutionary Stones</a></li>
+<li><a href="#ruins">Solving the Ruins of Alph Puzzles</a></li>
+</ul>
+</li>
+</ol>
+ 
+<h2><a name="gsc">Gold, Silver, and Crystal</a></h2>
+ 
+<h3><a name="swarms">Pok&eacute;mon Swarms</a></h3>
+ 
+<p>Each of the following NPCs will alert you whenever there is a particular Pok&eacute;mon swarm occuring on their Route. In order for you to receive this alert, you must have the NPCs' number(s) saved in your Pok&eacute;Gear.</p>
+ 
+<table>
+<tr>
+<td>Qwilfish: Fisher Ralph - Found on Route 32</td>
+<td>Dunsparce: Hiker Anthony - Found on Route 33</td>
+</tr>
+<tr>
+<td><img src="/media/ingame/images/gsc_tips_ralph.png" alt="Fisher Ralph" /></td>
+<td><img src="/media/ingame/images/gsc_tips_anthony.png" alt="Hiker Anthony" /></td>
+</tr>
+<tr>
+<td>Snubbull: School Kid Chad - Found on Route 38</td>
+<td>Remoraid: Fisher Wilton - Found on Route 44</td>
+</tr>
+<tr>
+<td><img src="/media/ingame/images/gsc_tips_chad.png" alt="School Kid Chad" /></td>
+<td><img src="/media/ingame/images/gsc_tips_wilton.png" alt="Fisher Wilton" /></td>
+</tr>
+<tr>
+<td>Yanma: Bug Catcher Arnie - Found on Route 35</td>
+<td>Marill: Hiker Parry - Found on Route 45</td>
+</tr>
+<tr>
+<td><img src="/media/ingame/images/gsc_tips_arnie.png" alt="Bug Catcher Arnie" /></td>
+<td><img src="/media/ingame/images/gsc_tips_parry.png" alt="Hiker Parry" /></td>
+</tr>
+
+</table>
+ 
+<h3><a name="pokegear">Useful Pok&eacute;Gear Radio Stations</a></h3>
+ 
+<table class="sortable">
+<tr>
+<th>Station Number (Johto / Kanto)</th>
+<th>Program Name</th>
+<th>Use</th>
+</tr>
+<tr>
+<td>4.5 / (n/a)</td>
+<td>Oak's Pok&eacute;mon Talk</td>
+<td>Gives the areas of rare Pok&eacute;mon (morning broadcast only)</td>
+</tr>
+<tr class="a">
+<td>7.5 / 18.5</td>
+<td>Pok&eacute;Music / Let's All Sing</td>
+<td>Affects the encounter rate of wild Pok&eacute;mon. (Mon, Wed, Fri: decreased encounter rate; Tue, Thu, Sat, Sun: increased encounter rate) (EXPN Card needed for Kanto channel)</td>
+</tr>
+<tr>
+<td>8.5 / (n/a)</td>
+<td>Lucky Channel</td>
+<td>Draws a Trainer ID every Friday; if the ID matches one of the Trainer's Pok&eacute;mon, a prize can be picked up from a NPC on the ground floor at the Goldenrod Radio Tower.</td>
+</tr>
+<tr class="a">
+<td>13.5 / (n/a)</td>
+<td>???</td>
+<td>Plays only in the Ruins of Alph; increases encounter rate of Unown.</td>
+</tr>
+<tr>
+<td>16.5 / (n/a)</td>
+<td>Buena's Password</td>
+<td>From 18:00-24:00, the DJ broadcasts a password. By telling her this password, players can gain points that can be spent on rare items (Crystal only).</td>
+</tr>
+<tr class="a">
+<td>(n/a) / 20.0</td>
+<td>Pok&eacute;Flute</td>
+<td>Can be used to awaken Snorlax (EXPN Card needed).</td>
+</tr>
+</table>
+ 
+<h3><a name="gsc_cloning">The Cloning Glitch</a></h3>
+ 
+<p>Go to a computer and save the game. Deposit the Pok&eacute;mon that you want to clone. Then change boxes, and during the stage where the message "Saving... Don't turn off the power." appears, soft reset your game. When you turn your game back on, the Pok&eacute;mon you deposited will be both in your box and in your party. Any items held by the Pok&eacute;mon will also be duplicated. Be very cautious when using this glitch, as it may result in the loss of saved data.</p>
+ 
+<p>In order for this glitch to work on Crystal cartridges, you must reset when the game as soon as the last period of "Saving... Do not turn off the power." shows up.</p>
+ 
+<h3><a name="starter_glitch">All three Starter Glitch</a></h3>
+ 
+<p><strong>Note: Preforming this glitch will require an unsaved game file.</strong></p>
+ 
+<p><strong>Method</strong></p>
+ 
+<ol>
+<li>After going through the introductory information but before receiving a starter Pok&eacute;mon, save the game.</li>
+<li>Without saving, progress through the game until it is possible to catch Pok&eacute;mon.</li>
+<li>Catch any Pok&eacute;mon and travel to Cherrygrove City's Pok&eacute;center</li>
+<li>Preform the <a href="#gsc_cloning">Cloning Glitch</a> on the starter, making sure not to save the game</li>
+</ol>
+<p>After completing the glitch, the player will be back at their save point before choosing their starter; however, the clone of their starter will still be stored in the PC. Simply repeat these steps with the other two starters to obtain all three.</p>
+ 
+<h3><a name="celebi_glitch">The Celebi Glitch</a></h3>
+ 
+<p><strong>Prerequisites:</strong></p>
+<ul>
+<li>Beat the Elite Four.</li>
+<li>Have a Sneasel with the move Beat Up as its third move.</li>
+<li>Have an unfilled box in Bill's PC with a Pok&eacute;mon that can be deleted in it.</li>
+</ul>
+ 
+<p><strong>Method:</strong></p>
+ 
+<ol>
+<li>Go to a PC and use the <a href="#gsc_cloning">Cloning Glitch</a> on Sneasel four times.</li>
+<li>Incorrectly clone Sneasel once by shutting off the game when the "a" in "Saving... Don't turn off the power." appears (the chances of doing so correctly are fairly slim.</li>
+<li>Place the original Sneasel in the first slot of your party followed by the four regular clones and the one glitched clone.</li>
+<li>Go to the Pok&eacute;mon Daycare and deposit the glitched clone.</li>
+<li>Immediately withdraw to glitched clone and place it in the first slot of your party.</li>
+<li>Start the Daycare's computer and access Bill's PC.</li>
+<li>Select "Move PKMN w/o Mail", choose the Pok&eacute;mon to be deleted, and place it in the first slot in your party.</li>
+<li>Return to the Daycare man and redeposit the glitched clone that has been moved to the second party slot.</li>
+<li>Restart the Daycare computer and deposit the four good clones and the Pok&eacute;mon to be deleted in Bill's PC.</li>
+<li>Take back the bad clone and have the Daycare man raise the original Sneasel (if its name has changed, this is normal).</li>
+</ol>
+ 
+<p>Once you withdraw the original Sneasel it will turn into a Celebi; however, it will not be recorded in the Pok&eacute;dex and its level may be abnormally high. All other characteristics will be normal.</p>
+ 
+<p>Note that the third and fourth Sneasel clones will also have their species changed, but their sprites will remain the same until they are deposited and withdrawn from the Daycare.</p>
+ 
+<h2><a name="c_only">Crystal-Only Tips</a></h2>
+ 
+<h3><a name="stones">Receiving Evolutionary Stones</a></h3>
+ 
+<p><strong>Prerequisites:</strong></p>
+ 
+<ul>
+<li>Have the Daylight Savings Time (DST) feature turned on</li>
+<li>Have the Pok&eacute;Gear</li>
+<li>Record the stone-giving NPC's phone numbers in your contacts</li>
+</ul>
+ 
+<p><strong>Method</strong></p>
+ 
+<p>After meeting all of the prerequisites listed above, return to New Bark Town and talk to your mother. When she asks you if it is Daylight Savings Time, say "Yes" to change the clock by one hour. When the clock changes, you should get a phone call from a random contact in your Pok&eacute;Gear. If a stone-giving NPC does not call you, keep switching DST on and off until they do call. This can be done repeatedly as long as you pick up the item offered before trying again. Note that if changing the DST settings were to force the day to move forward or backward, your mother will simply say that she lost the instructions to the Pok&eacute;Gear and the time will not change. This is to prevent players from changing the day prematurely in order to activate time-sensitive events. Wait until after the next hour and try again.</p>
+ 
+<table>
+<tr>
+<td>Leaf Stone: Picknicker Gina - Found on Route 34</td>
+<td>Fire Stone: School Kid Alan - Found on Route 36</td>
+</tr>
+<tr>
+<td><img src="/media/ingame/images/gsc_tips_gina.png" alt="Picknicker Gina" /></td>
+<td><img src="/media/ingame/images/gsc_tips_alan.png" alt="School Kid Alan" /></td>
+</tr>
+<tr>
+<td>ThunderStone: Lass Dana - Found on Route 38</td>
+<td>Water Stone: Fisher Tully - Found on Route 42</td>
+</tr>
+<tr>
+<td><img src="/media/ingame/images/gsc_tips_dana.png" alt="Lass Dana" /></td>
+<td><img src="/media/ingame/images/gsc_tips_chris.png" alt="Fisher Tully" /></td>
+</tr>
+</table>
+ 
+<h3><a name="ruins">Solving the Ruins of Alph Puzzles</a></h3>
+ 
+<p>Each chamber of the Ruins of Alph hides a back room housing four rare items each, although each can only be unlocked after solving a riddle spelled out in Unown. Each riddle is explained below:</p>
+ 
+<table>
+<tr>
+<td>Kabuto Chamber: "Escape"</td>
+<td>Aerodactyl Chamber: "Light"</td>
+</tr>
+<tr>
+<td>Use an Escape Rope to exit the chamber. Upon reentry, the hidden room will be unlocked.</td>
+<td>Use the move Flash outside of battle to gain access to the hidden room.</td>
+</tr>
+<tr>
+<td><img src="/media/ingame/images/gsc_tips_kabuto.jpg" alt="Kabuto Chamber" /><img src="/media/ingame/images/gsc_tips_escape.jpg" alt="Escape Riddle" /></td>
+<td><img src="/media/ingame/images/gsc_tips_aerodactyl.jpg" alt="Aerodactyl Chamber" /><img src="/media/ingame/images/gsc_tips_light.jpg" alt="Light Riddle" /></td>
+</tr>
+<tr>
+<td>Omanyte Chamber: "Water"</td>
+<td>Ho-Oh Chamber: "Ho-Oh"</td>
+</tr>
+<tr>
+<td>Enter the chamber with a Water Stone in your Bag to open the hidden room.</td>
+<td>Have Ho-Oh in the lead party spot when entering the chamber to open the hidden room.</td>
+</tr>
+<tr>
+<td><img src="/media/ingame/images/gsc_tips_omanyte.jpg" alt="Omanyte Chamber" /><img src="/media/ingame/images/gsc_tips_water.jpg" alt="Water Riddle" /></td>
+<td><img src="/media/ingame/images/gsc_tips_ho.jpg" alt="Ho-Oh Chamber" /><img src="/media/ingame/images/gsc_tips_oh.jpg" alt="Ho-Oh Riddle" /></td>
+</tr>
+</table>

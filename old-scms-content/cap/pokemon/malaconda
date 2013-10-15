@@ -1,0 +1,31 @@
+[title]
+Malaconda
+[head]
+<link rel="stylesheet" type="text/css" href="/media/dex/dex.css" />
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_template.js"></script>
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_database.js"></script>
+[header]
+[page]
+<script language="JavaScript">
+<!--
+var cap = Malaconda();
+
+cap.heightFeet = 18;
+cap.heightInches = 0;
+cap.weightPounds = 240;
+cap.weightKilos = 108.8;
+cap.eggGroup1 = "Grass";
+cap.eggGroup2 = "Dragon";
+
+cap.topicLeader = "jas61292";
+cap.conceptCreator = "Base Speed"
+cap.statSpreadCreator = "Birkal & ginganinja";
+cap.designArtist = "Dracoyoshi8";
+cap.spriteArtist = "Wyverii";
+cap.nameCreator = "RivRivRiv";
+cap.movepoolCreator = "CiteAndPrune";
+cap.playtestChampion = "ballabrown24";
+
+document.write(composeDexPage(cap));
+//-->
+</script>

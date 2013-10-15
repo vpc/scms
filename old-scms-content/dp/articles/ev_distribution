@@ -1,0 +1,226 @@
+[title]
+A Beginner's Guide to Distributing EVs
+[head]
+<meta name="description" content="A guide to efficient EV distribution, courtesy of umbarsc"/>
+[page]
+<div class="author">By <a href="/forums/member.php?u=14131">umbarsc</a>, with additions by <a href="/forums/member.php?u=">TelamonianAjax</a> and fixes by <a href="/forums/member.php?u=97748">Snorlax 94</a></div>
+
+<ol class="toc">
+<li><a href="#intro">Introduction</a></li>
+<li><a href="#ideal_speed">Ideal Speed Numbers</a></li>
+<li><a href="#defensively">Distributing EVs Defensively</a></li>
+<li><a href="#ev_nature_stat">EVs, Nature, and Stat Distribution</a></li>
+<li><a href="#tips_notes">Other Tips and Notes</a>
+<ul>
+<li><a href="#correct_hp">Distributing EVs for Correct HP</a></li>
+<li><a href="#ko_targets">OHKOing / 2HKOing Key Targets</a></li>
+</ul>
+</li>
+<li><a href="#custom_spread">Building a Custom EV Spread</a>
+<ul>
+<li><a href="#ideal_speed_custom">Ideal Speed Numbers</a></li>
+<li><a href="#ko_targets_custom">OHKOing / 2HKOing Key Targets</a></li>
+<li><a href="#defensively_custom">Distributing EVs Defensively</a></li>
+<li><a href="#ev_nature_stat_custom">EVs, Nature, and Stat Distribution</a></li>
+</ul>
+</li>
+<li><a href="#conclusion">Conclusion</a></li>
+</ol>
+
+<h2><a name="intro">Introduction</a></h2>
+
+<p>Many of the EV spreads in the Strategy Pokedex analyses are as simple as maximizing two basic stats, usually Speed and an offensive stat on sweepers. In some, the EVs section consists of little more than telling you which two stats in which to focus your EVs. However, that is not the case with all Pokemon. Some, like Bulky Gyarados or Defensive Latias, need the right balance of Speed, bulk, and offense, making the right spread quite tricky to create. Another example would be mixed attackers such as Salamence, Infernape, or Tyranitar, who need to have enough Special Attack and Attack with just enough Speed, without going overboard.</p>
+
+<p>So how do you make EV spreads for these Pokemon? One way is to maximize one stat, then place 128 EVs in two others. Another would be to spread it evenly with 168 in two stats and 172 in the third. However, none of these ways are likely to produce any efficient or particularly effective spreads.</p>
+
+<p>This guide will help explain the best ways to make EV spreads for Pokemon when it's not as simple as putting 252 EVs into two stats, and four into one other. "Ideal Speed Numbers," stat distribution, and efficient defensive EVs will go a long way in ensuring you're making the most of your limited resources.</p>
+
+<h2><a name="ideal_speed">Ideal Speed Numbers</a></h2>
+
+<p>"Ideal Speed Numbers" are key benchmarks to hit so you can outspeed certain threats while reserving EVs for other stats. It can be useful for conserving your limited supply of EVs if you only need to hit, for example, 270 Speed to outspeed Adamant Heracross, but be warned—giving your sweeper slightly fewer than 252 Speed EVs means you risk being outsped if your opponent uses the same Pokemon.</p>
+
+<p>How, exactly, do you set EVs so that your Pokemon outspeeds a certain threat? It's quite simple, really. On a calculator, put in your Pokemon's maximum Speed (with the desired nature), subtract from it the Speed of the Pokemon you intend to outrun, then subtract one. Multiply the result by four. Then subtract the product from 252, and you are left with the EVs required for 1 Speed point more than the Pokemon you wish to outspeed.</p>
+
+<p>Here's the formula, if that sounded confusing.</p>
+
+<pre>e = 252 - ((p - o - 1) * 4)</pre>
+
+<p>In this formula, variable "p" is your Pokemon's max speed, variable "o" is the the speed of the opponent you intend to outspeed, and variable "e" is the amount of speed EVs you should invest to reach the desired speed. If this sounds confusing, trust that it is not. Let's look at an example with Impish Gliscor. In this example, we want Gliscor to outspeed Lucario. Gliscor's max speed with an Impish nature is 289. Lucario's max speed with a Adamant or Modest nature is 279. So subtract 279 from 289 and you have a difference of 10.</p>
+
+<pre>289 - 279 = 10</pre>
+
+<p>Subtract one from that and you are left with 9, then multiply by 4 to get 36.</p>
+
+<pre>10 - 1 = 9</pre>
+<pre>9 * 4 = 36</pre>
+
+<p>Now we subtract 36 from 252, and we are left with a result of 216 EVs.</p>
+
+<pre>252 - 36 = 216</pre>
+
+<p>So if tying base 95 Speed Pokemon doesn't concern you, 216 Speed EVs is a good benchmark for Gliscor to outspeed Lucario and other base 90 Speed Pokemon, and everything slower. If you intend to use a Speed-boosting nature, there is a slight change to the formula. The 10% stat increase is applied after Speed EVs, so to calculate the necessary amount of Speed EVs, divide the opponent's speed by 1.1. This leaves you with a formula of:</p>
+
+<pre>e = 252 - ((p - (o / 1.1) - 1) * 4)</pre>
+
+<p>If you intend for your Pokemon to hold a Choice Scarf and have a nature increasing Speed, simply divide the opponent's speed stat by both 1.5 and 1.1.</p>
+
+<h2><a name="defensively">Distributing EVs Defensively</a></h2>
+
+<p>Have you ever looked at Smogon's Blissey analysis, and wondered why it suggested 252 EVs be put into Defense? Isn't that a waste? It's a special wall, right, so why not put them into special defense? The reason is that Pokemon is a game of multiplication, not addition. Giving Blissey's respectable SpD stat 252 EVs will allow her to take special attacks roughly 20% better, which is significant. However, with that massive 682 HP stat, she can take heavy, heavy special beatings (which isn't as reliable this generation, but that's beside the point). Placing those 252 EVs into defense, however, will allow her to take physical attacks roughly 95% better, which is a major difference.</p>
+
+<p>Another example: you've noticed that Wobbuffet has been allowed on the ladder! You want to use it, so you put it in your Team Builder. You want it to take both physical and special hits, so you immediately maximize HP. This is a highly inefficient distribution of EVs. Wobbuffet has a gargantuan HP stat, maximizing at 584, while its defenses are comparatively puny. You'll want to maximize these, because the SpD and Def stats will appreciate the roughly 40% increase, while the HP stat gains only approximately 12%.</p>
+
+<p>Now, before we continue, for a rough estimate of a Pokemon's walling capabilities, simply calculate HP*(Sp)Def. This is crude, but quite accurate, and will allow you to compare the effectiveness of EV spreads.</p>
+
+<p>Let's take Shuckle, for example. You want it to sponge physical hits, so you give it a Bold nature with 252 Def EVs. Thus, its physical walling ability is:</p>
+
+<pre>181*614 = 111,134</pre>
+
+<p>Now let's compare that to a Shuckle with a Bold nature and 252 HP EVs.</p>
+<pre>244*551 = 134,444</pre>
+
+<p>134,444 is about a 20% increase from 111,134, which shows a lot about correctly distributing your EVs. Why is this the case? It's elementary math. When you multiply a factor by a percentage, the product will change by that percentage. If you have 100 HP, 100 Def, and SpD, and you double your HP, your Defensive and Specially Defensive walling capabilities will double as well.</p>
+
+<p>This is a good rule of thumb when investing EVs into defensive stats: Maximize the lower stat first. If you can only spare 192 EVs for Skarmory's defense, put all of them in HP. When creating defensive EV spreads, the idea is to make your defensive stats as close together as possible. User X-Act made a calculator long ago that is great for finding ideal defensive spreads, it can be found <a href="http://users.smogon.com/X-Act/defense.html">here</a>.
+</p>
+
+<h2><a name="ev_nature_stat">EVs, Nature, and Stat Distribution</a></h2>
+
+<p>For most Pokemon, the choice of nature seems obvious. Physical sweepers are Jolly, special walls are Calm or Careful, etc. However, there is an often overlooked aspect in choosing a nature, and that is in stat distribution. Let's look at an example with SubPunch Gengar. One possible nature and EV spread is:</p>
+
+<p>Lonely Nature (+Atk, -Def)<br />
+EVs: 112 Atk / 220 SpD / 176 Spe</p>
+
+<p>Assuming maximum IVs, this would yield stats of:</p>
+
+<p>HP: 261<br />
+Atk: 218<br />
+Def: 156<br />
+SpA: 296<br />
+SpD: 241<br />
+Spe: 300</p>
+
+<p>However, this is an inefficient use of the EVs / nature. Let's build a more efficient spread. First, we start off with 508 EVs. The 220 SpD EVs are necessary for Gengar's Substitute to survive Blissey's Ice Beam, so we have 288 EVs remaining for speed and attack. 300 Speed is an ideal Speed number to achieve to outspeed base 100 Speed Pokemon with a neutral nature. The goal is to achieve the the highest stat with your combination of EVs / nature, so can you guess what went wrong with the original spread?</p>
+
+<p>It's all in the choice of nature. Gengar's low Attack means that increasing it by 10% gives you fewer stat points than increasing its Speed by 10% would. This all goes back to "Pokemon is a game of multiplication. If we go with a Hasty nature over Lonely, you can invest fewer EVs to get the stat to 300, and focus more on attack, which is more useful than increasing it by 10%.</p>
+
+<p>Hasty Nature (+Spe, -Def)<br />
+EVs: 240 Atk / 200 SpD / 68 Spe</p>
+
+<p>This yields the following stats:</p>
+
+<p>HP: 261<br />
+Atk: 226<br />
+Def: 156<br />
+SpA: 296<br />
+SpD: 236<br />
+Spe: 300
+</p>
+
+<p>As you can see, we have gained 8 Attack points and lost absolutely nothing in return. It's all about smart stat distribution.</p>
+
+<h2><a name="tips_notes">Other tips and notes</a></h2>
+
+<h4><a name="correct_hp">Distributing EVs for Correct HP</a></h4>
+
+<p>If you've played on Pokemon Online (which I'm sure you have), you've noticed that Hail, Sandstorm, Leftovers, and Black Sludge all increase or decrease your health by 6% each turn. This is not actually the case. To be precise, all of these factors increase or decrease your health by 6.25% every turn, which equals 1/16 of your maximum health. To ensure that Leftovers restores your health by exactly 6.25% every turn, make your HP divisible by 16. Doing so is very simple. For those of you who aren't very calculator-savvy, to make sure your health total is divisible by 16, do the following steps. First, look at max HP for level 100. Subtract 63 from that (for EVs), then subtract 31 from that (for IVs). Add on your Pokemon's IV total, then add (invested EVs/4). Divide that by 16. If the answer is round, you have perfect Leftovers recovery. If it is not an even number, ignore everything left of the decimal, then subtract the remainder from 1. Multiply the remainder by 16, then multiply the product by four, then add that to the amount of EVs you input at the start.</p>
+
+<p>Here is an example. Let's say you want a tanking Hariyama to counter Weavile. Having read Section 2, you look at Hariyama's massive HP stat and think it wiser to maximize Defense, so you give it a 252 Def / 252 Atk / 4 HP EV spread. Thus, its HP stat is 430. Divide that by 16 and you get 26.875. Now subtract .875 from 1 to get .125. Multiply that by 16 to get 2. Multiply that by 4 to get 8. Now add 8 HP EVs to your current EV spread, so you get something looking like 12 HP / 252 Def / 244 Atk.</p>
+
+<p>Here is the formula for making your HP divisible by 16:</p>
+<pre>e = (4)(16)(1 - (h / 16 - n)) + c</pre>
+
+<p>In this formula, variable "h" is your HP stat, variable "n" is h / 16 rounded down, and "c" is the current EVs placed in HP. What are the advantages of maximum Leftovers recovery? If your HP isn't divisible by 16, your health regained each turn will be rounded down. Hariyama with 4 EVs replenishes 26 HP each turn, while Hariyama with 12 EVs replenishes 27 HP each turn. So essentially, 4 HP Hariyama recovers approximately 6.05% each turn, while the 12 HP Hariyama recovers exactly 6.25% each turn. What does this mean? Let's take a 12 HP Hariyama and a 4 HP Hariyama, lowering the 12 HP Hariyama's defense by 4 EVs to make their defenses approximately equal.</p>
+
+<p>Weavile's Expert Belt Aerial Ace will do 148–175 (34.42%–40.7%) to both a 4/252 and a 12/248 Hariyama. With Leftovers recovery, 4 / 252 Hariyama's net damage taken will be approximately 28.37%–34.65%. Now a 12 / 248 Hariyama will be taking 28.01%–34.26% net damage with Leftovers recovery. Is this a major difference? Of course not. You'll be increasing its staying ability by very low percentages, hardly noticeable at all, and to top it all off, Hail / Sandstorm renders this point moot. The main reason not to aim for maximum Leftovers recovery is that the 1 HP you gain is not enough to make up for the loss in defenses, as the percentage net damage of HP taken is far more important than the actual number.</p>
+
+<h4><a name="ko_targets">OHKOing / 2HKOing Key Targets</a></h4>
+
+<p>Particularly in the case of mixed sweepers or "tanks", often times it can be difficult knowing what is too little and what is too much when investing in offenses. The goal is to hit a balance that lets the Pokemon do its job offensively while saving EVs for other stats. One way is to find certain threats that the Pokemon is designed to beat, then, using a damage calculator, guess-and-check until you find the stat that allows you to OHKO or 2HKO the opponent, either guaranteed or on average. Two examples of this are mixed Infernape and mixed Dragonite, whose Attack EVs allow them to always OHKO Blissey with Close Combat and Superpower, respectively. This concept, focusing on hard-hitting special attacks while using a strong physical attack to break Blissey, is especially helpful on mixed attackers. Once you've found your desired benchmark, calculating the amount of EVs needed is almost identical to calculating the Ideal Speed Number.</p>
+
+<pre>e = 252 - 4(m - t)</pre>
+
+<p>In this equation, variable "m" is the maximum stat your Pokemon reaches, and "t" is the stat you intend for it to reach. If your Pokemon has a nature that increases the offensive stat it is using, use the following formula.</p>
+
+<pre>e = 252 - 4((m / 1.1) - t)</pre>
+
+<p>If your Pokemon holds a Life Orb, use the following formula.</p>
+
+<pre>e = 252 - 4((m / 1.3) - t)</pre>
+
+<p>If your Pokemon holds Choice Band or Choice Specs, use the following formula.</p>
+
+<pre>e = 252 - 4((m / 1.5) - t)</pre>
+
+<p>It's important to note that no matter how you distribute your attacking EVs, it's likely to be arbitrary. So don't, for example, go for the bare minimum by setting it just low enough to 2HKO Blissey at full health. Unless this is early-game and there are no entry hazards up, the opponent is likely not to be at full health, and it's always nice to give your attacks a little more kick.</p>
+
+<h2><a name="custom_spread">Building a Custom EV Spread</a></h2>
+
+<p>In this section, we will apply all of the previous sections into a specific example, that being Zapdos. As you know, Zapdos is a very versatile Pokemon with well-rounded stats, allowing it to fill many roles. For our example, we'll be looking at a physical tanking Zapdos.</p>
+
+<h4><a name="ideal_speed">Ideal Speed Numbers</a></h4>
+
+<p>Generally, when building an EV spread, the first thing you want to determine is Speed. We want Zapdos to outspeed Adamant Lucario, but nothing faster than that concerns us. Since Zapdos still needs Defense, HP, and Special Attack, we'll want to conserve our EVs. To do so we'll make our Zapdos hit 280 speed, just enough to outspeed Lucario without going overboard.</p>
+
+<pre>e = 252 - 4(299 - 279 - 1)</pre>
+
+<pre>e = 252 - 76</pre>
+
+<pre>e = 176</pre>
+
+<p>So with a Bold nature, Zapdos needs 176 Speed EVs to outspeed Lucario. Our tanking Zapdos thus far has an EV spread of:</p>
+
+<p>Bold Nature<br />
+EVs: 176 Spe<br /></p>
+
+<h4><a name="ideal_speed_custom">OHKOing / 2HKOing Key Targets</a></h4>
+
+<p>Even though this is listed later in the analyses, it's important to note that when you're using a Pokemon that needs Speed, offenses, and defenses, defenses should generally be decided last unless you need to avoid an OHKO or 2HKO. The reason is that to increase Speed and offense, you only invest in one stat each, but when investing in defenses, you have to spread EVs between two stats, so you need to know exactly how many remaining EVs you have to decide how best to place them.</p>
+
+<p>If you're aiming for a key defensive benchmark, then the opposite is true. In this case, we're aiming to ensure that Zapdos always OHKOs 4 HP / 0 SpD Lucario with Heat Wave, factoring in Stealth Rock and 1 turn of Life Orb recoil. So, Zapdos needs to do a minimum of 86.875%, or, to be precise, 245 damage. The minimum Special Attack needed for Zapdos to achieve this is 302 Special Attack.</p>
+
+<pre>e = 252 - 4(349 - 302)</pre>
+<pre>e = 252 - 4(47)</pre>
+<pre>e = 252 - 188</pre>
+<pre>e = 64</pre>
+
+<p>So Zapdos needs 64 Special Attack EVs in order to reach our benchmark of OHKOing Lucario with Heat Wave. Thus far our EV spread is:</p>
+
+<p>Bold Nature<br />
+176 Spe / 64 SpA<br /></p>
+
+<h4><a name="defensively_custom">Distributing EVs Defensively</a></h4>
+
+<p>We have 268 EVs left to invest in Zapdos's defenses. In this instance, we are going to ignore Zapdos's decent Special Defense and focus entirely on its Defense. With a Bold nature and no EV investment, Zapdos has HP and Defense stats of:</p>
+
+<p>HP: 321<br />
+Defense: 226</p>
+
+<p>In this case, it's clear that with such a massive difference between Defense and HP, the way to maximize Zapdos's bulk is to maximize Defense, then throw the remaining EVs in HP. We now have an EV spread of:</p>
+
+<p>Bold Nature<br />
+16 HP / 252 Def / 64 SpA / 176 Spe</p>
+
+<h4><a name="ev_nature_stat_custom">EVs, Nature, and Stat Distribution</a></h4>
+
+<p>Hopefully, 176 Speed with a Bold nature jumped out at you as horribly inefficient, especially with Zapdos's Base 100 Speed being significantly greater than its Base 85 Defense. In this case, we're going to test and see if running a Timid nature would be more efficient than running a Bold nature. With a Timid nature, only 80 Speed EVs are required to give Zapdos 281 Speed. This means that we now have 96 extra EVs to place in Zapdos's defenses. We must place all of them into HP, with Defense already being maximized. This new spread, 108 HP / 252 Def / 64 SpA / 80 Spe Timid, gives us defensive stats of:</p>
+
+<p>HP: 348<br />
+Def: 269</p>
+
+<p>This gives us a walling ability of 93,612. The original spread, 12 HP / 252 Def / 64 SpA / 80 Spe Bold, gives us defensive stats of:</p>
+
+<p>HP: 324<br />
+Def: 295</p>
+
+<p>This gives us a walling ability of 95,580. So the original spread takes physical hits approximately 2.1% better than the second spread. However, this does not mean that the original spread is automatically better. While the original spread takes physical hits about 2% better, the second spread takes special hits about 7.4% better. This is often the case with custom EV spreads; there isn't one objectively superior spread. Though this is primarily intended to take physical hits, Zapdos also makes a decent switch-in to the likes of Rotom-A, Celebi, or bulky Water-types (though it should avoid taking status from all of them), and the extra special walling capability is appreciated in that regard. In this case, you would have to make a choice; 2.1% increase in physical walling capability, or 7.4% increase in special walling capability?</p>
+
+<p>There is one other situation for which HP EVs are specialized but not immediately obvious: minimizing Life Orb recoil. As an example, let's look at Typhlosion. Typhlosion's base 78 HP stat translates, without any investment, to 297. The Choice Scarf set listed in the DPP analysis lists an EV spread of: 32 HP / 252 SpA / 224 Spe. The 32 HP EVs give Typhlosion 305 HP.</p>
+
+<p>Suppose we swap that Choice Scarf for a Life Orb. Each turn Typhlosion attacks, it loses 10%, rounded down, of its maximum HP. So with this particular spread, it loses 30 HP per attack. Suppose now that we change that spread to the following: 8 HP / 252 SpA / 248 Spe. Typhlosion's HP with this spread is 299. Now every time it attacks, it only loses 29 HP. You might be wondering, "But isn't that 6 HP more useful?" For Typhlosion's first five attacks, you would be right. Typhlosion's HP would be higher with the extra HP. However, after the sixth attack, it will actually have more HP because it loses less due to recoil.</p>
+
+<p>This type of detail is often unnecessary. For instance, that particular Typhlosion would be better off with a simple 252 SpA / 4 SpD / 252 Spe anyway. Nonetheless, it is one part of the Pokemon's spread that is easy to deal with. Minimizing Life Orb recoil is most prominent in Little Cup, where the difference between 19 HP and 20 HP is much larger, percentage-wise, than the difference between 299 and 300.</p>
+
+<h2><a name="conclusion">Conclusion</a></h2>
+
+<p>These kinds of choices are not easy to make. You are forced to give up the ability to take one kind of attack in order to take another kind more reliably. In the case of that Zapdos, for instance, it all depends on what you're trying to defend against. For instance, if your team already defends well against Rotom-A, Celebi, and bulky Water-types, you may want the extra insurance against physical attacks that the physically defensive spread provides. These kinds of choices mean that there is no "right" or "wrong" EV spread; only those that are more suited for a particular role. In the end, the only way to answer the question, "What is the ideal EV spread for my Pokemon?" is to carefully identify the roles you're trying to fill, and then go from there. This guide is simply a primer on how to find the ideal distributions for your needs.</p>

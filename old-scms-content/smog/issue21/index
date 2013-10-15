@@ -1,0 +1,113 @@
+[title]
+The Smog community web-zine
+[header]
+[head]
+<link href="/media/smog/smog.css" type="text/css" rel="stylesheet" />
+[page]
+
+<!-- begin centering container -->
+<div class="align-center">
+    <img src="/media/upload/smog/issue21/smog21.png" alt="Cover Art" />
+    
+    <p>Smogon's Web-zine</p>
+    
+    <h2>Issue #21</h2>
+    <h4>Released August 18, 2012</h4>
+    
+    <!-- begin wrapper table -->
+    <table id="smogfront">
+        <tr>
+          <!-- General section -->
+          <td class="col1">
+            <h3>General</h3>
+            <ul>
+                <li><a href="note_from_editor">Note from the Editor</a></li>
+                <li><a href="ask_admins">Ask the Admins</a></li>
+                <li><a href="interview">Interview with JabbaTheGriffin</a></li>
+                <li><a href="tournaments">Tournaments Coverage</a></li>
+                <li><a href="trivia">Trivia</a></li>
+            </ul>
+          </td>
+        
+          <!-- Battling Strategy section -->
+          <td class="col2">
+            <h3>Battling Strategy</h3>
+            <ul>
+                <li><a href="featured_pokemon">Featured OU Pokémon: Tornadus-T</a></li>
+                <li><a href="featured_pokemon_uber">Featured Ubers Pokémon: Kyurem-W</a></li>
+                <li><a href="featured_pokemon_uu">Featured UU Pokémon: Slowbro</a></li>
+                <li><a href="featured_pokemon_lc">Featured LC Pokémon: Porygon</a></li>
+                <li><a href="featured_pokemon_ru">Featured RU Pokémon: Moltres</a></li>
+                <li><a href="featured_pokemon_nu">Featured NU Pokémon: Skuntank</a></li>
+                <li><a href="type_analysis">Type Analysis: Grass</a></li>
+                <li><a href="bottom_barrel">Bottom of the Barrel: Stuff You Should Not Be Using</a></li>
+                <li><a href="best_of_best">Best of the Best: Pseudo-Legendaries in BW</a></li>
+                <li><a href="status_uber_tier">Status in the Uber Tier</a></li>
+                <li><a href="defense">How it's Made: Defense</a></li>
+                <li><a href="top_10">Top 10 Moves in OU</a></li>
+            </ul>
+          </td>
+        
+          <!-- Metagame section -->
+          <td class="col3">
+            <h3>Metagame</h3>
+            <ul>
+                <li><a href="featured_rmt_ou">Featured OU RMT</a></li>
+                <li><a href="featured_rmt_uber">Featured Ubers RMT</a></li>
+                <li><a href="featured_rmt_uu">Featured UU RMT</a></li>
+                <li><a href="featured_rmt_nu">Featured NU RMT</a></li>
+                <li><a href="metamorphosis">Metamorphosis: How Awful Bug-types Have Improved Over Time</a></li>
+                <li><a href="underrated_ubers_movesets">Underrated Ubers Movesets</a></li>
+                <li><a href="underrated_movesets">Underrated DPP OU Movesets</a></li>
+                <li><a href="hackmons">Introduction to "Balanced" Hackmons</a></li>
+                <li><a href="weather">Worrying About Weather</a></li>
+                <li><a href="metagame">BW1 OU Metagame Analysis</a></li>
+                <li><a href="ubers_cores">Ubers Cores</a></li>
+                <li><a href="nu">What's New in NU?</a></li>
+                <li><a href="ru">RU Ready for BW2</a></li>
+                <li><a href="nu_cores">NU Cores</a></li>
+            </ul>
+          </td>
+        </tr>
+        
+        <tr>
+          <!-- Arts and Recreation section -->
+          <td class="col1">
+            <h3>Arts &amp; Recreation</h3>
+            <ul>
+                <li><a href="pokemon_biology">Pok&eacute;mon Biology: Under the Sea</a></li>
+                <li><a href="poketour">Pok&eacute;Tour: Goldenrod City</a></li>
+                <li><a href="smeargle">Smeargle's Studio Update</a></li>
+            </ul>
+          </td>
+        
+          <!-- Entertainment section -->
+          <td class="col2">
+            <h3>Entertainment</h3>
+            <ul>
+                <li><a href="charizard">Why the Ladder Sucks at Ubers, or: Charizard is Not a Good Meta Pick</a></li>
+                <li><a href="bottom_10">Bottom 10 Most Threatening Pokemon IRL</a></li>
+                <li><a href="admin_tips">Admin Tips: How to Succeed on Smogon</a></li>
+                <li><a href="oi_players">The OI Players: TCG for GBC</a></li>
+                <li><a href="review">Review: Pokemon Conquest</a></li>
+                <li><a href="irc">IRC Survival Guide</a></li>
+            </ul>
+          </td>
+        
+          <!-- Other Features section -->
+          <td class="col3">
+            <h3>Other Features</h3>
+            <ul>
+                <li><a href="orange_islands">The Orange Islands - Smogon's Casual Retreat</a></li>
+                <li><a href="challenge">The Outsiders Challenge</a></li>
+                <li><a href="cap">CAP3 Report: Mulling Over Mollux</a></li>
+            </ul>
+          </td>
+        </tr>
+    </table> <!-- end wrapper table -->
+</div> <!-- end centering container -->
+
+<!-- contributors -->
+<div class="align-center">
+	<h3>This issue of The Smog is brought to you by <a href="/smog/issue21/contributors">these contributors</a>.</h3>
+</div>

@@ -1,0 +1,158 @@
+[title]
+Guide to LC Move Legality
+
+[head]
+<meta name="description" content="A guide to move legality in Gen V Little Cup, thanks to Ray Jay" />
+
+[page]
+<div class="author">by <a href="/forums/member.php?u=51861">Ray Jay</a>.</div>
+
+<ol class="toc">
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#banned">Banned Moves</a></li>
+<li><a href="#pomeg">Pomeg Glitch, Genderless Pokemon, and Single Gender Pokemon</a>
+<ul>
+<li><a href="#pomegglitch">Pomeg Glitch</a></li>
+<li><a href="#genderless">Gen IV and V Genderless Pokemon (Bronzor, Klink, Golett)</a></li>
+<li><a href="#singlegender">Gen IV and V Single Gender Pokemon (Happiny, Petilil, Rufflet, and Vullaby)</a></li>
+</ul></li>
+<li><a href="#illegal">Illegal Dream World Abilities</a></li>
+<li><a href="#previous">Previous Generation Tutors or Events, New Moves, and the Dream World</a>
+<ul>
+<li><a href="#additions">Earlier Generation Move Tutor + Later Generation Move Addition</a></li>
+<li><a href="#special">Special Event Move + Egg Move</a></li>
+<li><a href="#previous">Previously Available Moves + New Ability</a></li>
+<li><a href="#dreamworld">Dream World Moves</a></li>
+</ul></li>
+<li><a href="#egg">Egg Move Incompatibilities</a></li>
+<li><a href="#hypothetical">Hypothetical Sources of Illegality</a></li>
+</ol>
+
+<h2><a name="introduction">Introduction</a></h2>
+<p>Despite the seemingly infinite combinations of Level Up moves, event moves, Egg moves, and abilities, Pokemon are capable of learning; there are, unfortunately, restraints and impossibilities in creating a movepool with most Pokemon. Little Cup is not an exception to this rule; in fact, Little Cup actually has more restraints than standard play as it is played at Level 5. Because Little Cup is so different from the standard metagame, there are even some legality issues that some simulators do not catch, as such a moveset may be legal at Level 100. Legality in LC is something that puzzles many newer players, and this guide will attempt to help solve some of the mysteries behind just why a certain set is illegal, whether the simulator catches it or not.</p>
+
+<h2><a name="banned">Banned Moves</a></h2>
+<p>One of the most obvious sources of illegality within a moveset in Little Cup arises from there being some moves that are not banned in any other tier.</p>
+<ul>
+<li><strong>Dragon Rage</strong> is banned as it always deals 40 damage, which is easily an OHKO on any LC Pokemon.</li>
+<li><strong>SonicBoom</strong> is also banned as it always deals 20 damage, and although a portion of LC Pokemon have more than 20 HP, the move is still considered broken.</li>
+</ul>
+
+<h2><a name="pomeg">Pomeg Glitch, Genderless Pokemon, and Single Gender Pokemon</a></h2>
+<p>In order for a Pokemon to obtain a Level Up move by breeding, both of the parents must know the move. This becomes problematic for genderless Pokemon and Pokemon that are always a certain gender. This is cause for legality issues that simulators such as Pokemon Online do not currently catch, as most of these problems caused by this intricacy would not be present at Level 100. To make the matter even more complicated, legality in this field differs between Generation III and Generations IV and V, due to the Pomeg glitch being accessible only in ADV.</p>
+
+<h3><a name="pomegglitch">The Pomeg Glitch and Generation III</a></h3>
+<p>Pomeg Berries allow the user to remove 10 HP EVs from a Pokemon (and, in effect, remove all of their Hit Points), and in Generation III, this could be used to battle with an Egg by bringing the HP stats of all other party members down to 0. By battling with an Egg, the player could gain "Experience," allowing the Egg to learn Level Up Moves. However, when the Egg is hatched, it will still be at Level 5; this allows even genderless or single gender Pokemon to obtain a movepool consisting of Level Up moves. The discovery of the Pomeg glitch led to vast changes in the metagame, such as allowing Staryu to use Rapid Spin (normally learned at Level 10) and Hydro Pump (normally learned at Level 60).
+These are the genderless Pokemon that were introduced no later than ADV and can thus utilize the Pomeg glitch, along with a few moves for each one that become legal via the Pomeg glitch:</p>
+
+<ul>
+<li>Baltoy (Cosmic Power, Explosion)</li>
+<li>Beldum (No Level Up moves beyond Level 5)</li>
+<li>Magnemite (Zap Cannon)</li>
+<li>Porygon (Tri Attack, Agility [illegal with Download, which was introduced in Generation IV])</li>
+<li>Staryu (Rapid Spin, Hydro Pump)</li>
+<li>Voltorb (Mirror Coat)</li>
+</ul>
+
+<p>Pokemon that are always a single gender are a bit more complicated, as they do not always have to breed with Ditto. This means that there is always the potential for female Pokemon to breed with a male partner that knows the same Level Up move as them and can thus be passed down to the offspring; unfortunately, this does not always work out. These are the Pokemon that are always a single gender that were introduced no later than ADV and can thus utilize the Pomeg glitch, along with a few moves for each that become legal via the Pomeg glitch:</p>
+
+<ul>
+<li>Nidoran F (No legality issues as all moves are learnable by a potential mate)</li>
+<li>Nidoran M (Horn Attack)</li>
+<li>Smoochum (Powder Snow, Perish Song, Lucky Chant)</li>
+<li>Tyrogue (No Level Up moves beyond Level 5)</li>
+</ul>
+
+<p>One final note on the Pomeg glitch: because it is indeed a glitch, it is often considered by some to be unethical. Know that in an instance in which the Pomeg glitch is deemed illegal, all of the above moves, and a few more inconsequential ones, can be considered illegal as well. Also know, however, that Smogon's official Little Cup rules deem the Pomeg glitch as legal for Pokemon introduced no later than ADV.</p>
+
+<h3><a name="genderless">Genderless Pokemon in Generations IV and V</a></h3>
+<p>In DPP and BW, the Pomeg glitch is fixed and thus genderless Pokemon have a difficult time obtaining their Level Up moves, assuming they can at all. Fortunately, the addition of more TMs and Move Tutors has remedied some of these potential problems, with a good example being Bronzor and Gyro Ball. Many people try to argue that the Pomeg glitch is still included in Generations IV and V; however, attempting to do so on a Generation IV cartridge typically crashes the game, while it has indeed been completely removed in Generation V.
+Here is the list of genderless Pokemon introduced in Generations IV and V, along with some moves that are <strong>illegal</strong> due to the removal of the Pomeg glitch:</p>
+
+<ul>
+<li>Bronzor (Hypnosis, Iron Defense)</li>
+<li>Golett (Shadow Punch, Focus Punch)</li>
+<li>Klink (Shift Gear, Gear Grind)</li>
+</ul>
+
+<p>Once again, it is worth noting that as all of these are Level Up moves, simulators such as Pokemon Online will not recognize them as illegal, as current versions of said simulator cannot differentiate legality between Level 5 and Level 100.</p>
+
+<h3><a name="singlegender">Single Gender Pokemon in Generations IV and V</a></h3>
+<p>The lack of the Pomeg glitch also leads to complications for Pokemon with only one gender. Primarily, Pokemon that are always male find it simply impossible to breed Level Up moves; this is because these Pokemon can only breed with Ditto, who obviously cannot learn any of their Level Up moves. Pokemon that are always female can breed some of their Level Up moves, provided that there is a potential mate for them that can also learn the required Level Up moves.
+Here is the list of Pokemon that are always a specific gender (Happiny, Petilil, and Vullaby are always female, while Rufflet is always male) that were introduced in DPP or BW and thus cannot make use of the Pomeg glitch, along with some explanation on the legality of their Level Up moves:</p>
+
+<ul>
+<li>Happiny (its only Level Up moves past Level 5 are Refresh and Sweet Kiss, which can be supplied by a mother Blissey and father Audino; Happiny has no legality issues)</li>
+<li>Petilil (nothing in the Plant Egg group aside from Petilil and Lilligant has access to Entrainment, so Entrainment is illegal; furthermore, there are many specific combinations, such as After You + Helping Hand that cannot be obtained on anything in the Plant Egg group; this combination would be illegal)</li>
+<li>Rufflet (Rufflet is always male, so none of its Level Up moves beyond Level 5 are legal, including Whirlwind and Brave Bird)</li>
+<li>Vullaby (nothing in the Flying Egg group can learn the combination of Nasty Plot + Flatter, so this combination is illegal; most other combinations of moves can be solved by a father Honchkrow, Chatot, or something in the Zubat line)</li>
+</ul>
+
+<h2><a name="illegal">Illegal Dream World Abilities</a></h2>
+<p>While this section is technically out of the realm of "move legality," I've taken the liberty to add it in for you to point out that sometimes it may be the ability rendering a Pokemon in LC illegal rather than a move combination. Obviously, any unreleased Dream World ability is not allowed; however, Little Cup has some additional intricacies due to the way Dream World abilities are passed down.</p>
+
+<p>No Dream World Pokemon comes below Level 10 unless it is available from Dream Radar and you have zero Badges in-game. When breeding, there is a chance that the Dream World ability can be passed down if the mother has said ability. This creates legality issues for LC when there is no way to have a mother with the ability. The most obvious example is genderless Pokemon, but male only Pokemon are also included. Genderless Pokemon or Pokemon that are only male may not use their Dream World abilities, released or not, in LC unless they are available through Dream Radar. The following is the list of Pokemon that fit into this category and their respective Dream World abilities, which will likely never be legal:</p>
+
+<ul>
+<li>Golett (No Guard)</li>
+<li>Klink (Clear Body)</li>
+<li>Magnemite (Analytic)</li>
+<li>Rufflet (Hustle)</li>
+<li>Tyrogue (Vital Spirit)</li>
+<li>Voltorb (Aftermath)</li>
+</ul>
+
+<h2><a name="previous">Previous Generation Tutors or Events, New Moves, and the Dream World</a></h2>
+<p>Now that most of the Pokemon that work differently are out of the way, it's time to look at some facets of moveset legality that affect nearly every Pokemon. The general rule of thumb to keep in mind is that previous Generation tutor or event moves are incompatible with moves and abilities added to a Pokemon in a later Generation. As with any rule, there are exceptions, so let's take a look at some more specific examples of how illegality in LC can arise. Also keep in mind that many of the movepool problems posed in this section apply at both Level 5 and Level 100. Finally, this list is not exhaustive, as there are illegalities that arise for specific Pokemon that are almost never accounted for in Little Cup and are thus never discovered. These are just the common sources of illegality.</p>
+
+<h3><a name="additions">Earlier Generation Move Tutor + Later Generation Move Addition</a></h3>
+<p>Many Pokemon have access to Move Tutors in ADV that provide them with moves that are not obtainable in future generations. The same applies to DPP, which had a wealth of Move Tutors that are non-existent in BW. Fortunately, Nintendo often fixes potential problems here with TMs or movepool additions, so many of these problems don't exist at Level 100.
+Here are a few examples of when an earlier Generation Move Tutor and the acquirement of a new move for a Pokemon in a later Generation force illegality:</p>
+
+<ul>
+<li>Machop learns Mega Punch from a Generation III Move Tutor. Heavy Slam was added into Machop's Egg movepool in Generation V. A Level 5 Machop with Mega Punch + Heavy Slam is illegal.</li>
+<li>Houndour learns Double Edge from a Generation III Move Tutor. Thunder Fang was added as an Egg move for Houndour in Generation IV. As the only way to get Thunder Fang onto Houndour is to breed a new Houndour in DPP or later, Double Edge + Thunder Fang Houndour is illegal.</li>
+</ul>
+
+<h3><a name="special">Special Event Move + Egg Move</a></h3>
+<p>There are numerous events from the ADV era (and beyond) that provide complications to movepool legality both then and now. Here are a few examples of special event moves and Egg moves that lead to incompatibilities in Little Cup (and, most likely, other tiers):</p>
+
+<ul>
+<li>Lickitung obtains Wish via an ADV event. Lickitung has Curse as an Egg move, even in Generation III. As Wish is an event only move, Curse + Wish is illegal</li>
+<li>Pichu obtains Endeavor via a DPP event. Pichu has Reversal as an Egg move. As Endeavor is a special, event only move, Endeavor + Reversal is illegal</li>
+</ul>
+
+<h3><a name="previous">Previously Available Move + New Ability</a></h3>
+<p>This is easily one of the broadest categories, as both Generation IV and V have introduced new abilities. Previously available moves are moves that were able to be supplied onto a Pokemon in Generation III (or, rarely, in Generation IV) but not in subsequent Generations. Most of the time, this is not a problem as the Pokemon can simply be transferred into the future Generations of Pokemon games. However, the subsequent Generations often introduced a new ability for certain Pokemon, and these new abilities are almost always incompatible with the previously available moves as Pokemon do not change abilities upon being transferred into the future Generations.<br />
+Here are a few instances where previously available moves are illegal with a newer ability:</p>
+
+<ul>
+<li>Porygon obtains Tri Attack, a Level Up move, through the Pomeg glitch in ADV. Porygon obtained the new ability Download in DPP. Porygon with Tri Attack and the ability Download is thus illegal</li>
+<li>Cacnea obtains Focus Punch via a TM that is in DPP but not in BW. Cacnea's Dream World ability, Water Absorb, is available only in BW. Thus, Cacnea with Focus Punch and the ability Water Absorb is illegal</li>
+
+<h3><a name="dreamworld">Dream World Moves</a></h3>
+<p>This one's a bit easier: no Dream World Pokemon is obtainable at below Level 10. Furthermore, Dream World moves cannot as of yet be bred onto a baby Pokemon as Dream World abilities can. For this reason, no LC Pokemon can legally use its moves that are exclusively obtained from the Dream World. Here are a few examples of where this would cause illegality:</p>
+
+<ul>
+<li>Wooper obtains Aqua Tail from the Dream World, but also from a Generation IV move tutor. The only conceivable Wooper with Aqua Tail and its Dream World ability (Unaware) would have to be at Level 10 or greater, so Wooper with Aqua Tail that has the ability Unaware is illegal in LC. Wooper with Aqua Tail and either Damp or Water Absorb, however, is legal</li>
+<li>Natu obtains Giga Drain solely from the Dream World, so this move is illegal in LC. Natu also obtains FeatherDance from the Dream World; however, this is also one of Natu's Egg moves, meaning a Natu with its Dream World ability (Magic Bounce) and FeatherDance is thus legal</li>
+</ul>
+
+<h2><a name="egg">Egg Move Incompatibilities</a></h2>
+<p>So you've made it this far and still cannot figure out why your Pokemon's moveset is illegal. Egg moves are passed down to a Pokemon when the father possesses the desired moves. It is sometimes not possible to get the desired combination of moves onto a single father, meaning a Pokemon cannot obtain the combination of Egg moves in tandem with each other. Here are some examples of how this might cause trouble:</p>
+
+<ul>
+<li>Shelmet obtains Spikes and Encore as Egg moves. However, no Pokemon in the Bug breeding group can obtain Spikes and Encore on one moveset. Thus, Shelmet with Spikes + Encore is illegal</li>
+<li>Tentacool obtains Rapid Spin and Mirror Coat as Egg moves. However, no Pokemon in the Water 3 breeding group can obtain Rapid Spin and Mirror Coat on one moveset. Thus, Tentacool with Rapid Spin and Mirror Coat is illegal</li>
+</ul>
+
+<p>Pokemon that are in the Ground breeding group will very rarely have these problems, as they can breed with Smeargle.</p>
+
+<h2><a name="hypothetical">Hypothetical Sources of Illegality</a></h2>
+<p>There are other intricacies of Little Cup that, if a new Pokemon or new moveset combination was introduced that fits the below categories, would be illegal; however, at this time, no examples of these exist within the awareness of your author. Here are just a few potential sources of illegality:</p>
+
+<ul>
+<li>Pokemon X evolves into Pokemon Y via learning a special move. Pokemon X has four or more unique Level Up moves that Pokemon Y does not learn. Pokemon X cannot breed but Pokemon Y can. It would be illegal to have a baby Pokemon X with all four of these Level Up moves, as the baby can only carry three of these moves + the move required to evolve if it wants to be able to breed.</li>
+<li>Pokemon X wants to have a baby with Egg moves A and B. Unfortunately, the only potential "father" that knows moves A and B is always female. Therefore, baby Pokemon X cannot use moves A + B in Little Cup.</li>
+<li>Pokemon X learns move A by Level Up in one game but move B instead in a different game. In our scenario, for one of the complications already listed in this guide, no father can provide both move A and B. Pokemon X then cannot use move A + B in Little Cup.</li>
+</ul>

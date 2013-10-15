@@ -1,0 +1,97 @@
+[title]
+Aurumoth
+[head]
+<link rel="stylesheet" type="text/css" href="/media/dex/dex.css" />
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_template.js"></script>
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_database.js"></script>
+[header]
+[page]
+<script language="JavaScript">
+var cap = Aurumoth();
+
+cap.movesLevel[0] = ["Dragon Dance", "Quiver Dance", "Tackle", "String Shot", "Silver Wind", "Sunny Day"];
+cap.movesLevel[7] = "Silver Wind";
+cap.movesLevel[14] = "Sunny Day";
+cap.movesLevel[21] = "Heal Pulse";
+cap.movesLevel[27] = "Ominous Wind";
+cap.movesLevel[34] = "Will-o-Wisp";
+cap.movesLevel[41] = "Final Gambit";
+cap.movesLevel[47] = "Ancientpower";
+cap.movesLevel[54] = "Wish";
+cap.movesLevel[61] = "Healing Wish";
+cap.movesLevel[67] = "Tail Glow";
+
+cap.movesTM[3] = "Psyshock";
+cap.movesTM[6] = "Toxic";
+cap.movesTM[7] = "Hail";
+cap.movesTM[10] = "Hidden Power";
+cap.movesTM[11] = "Sunny Day";
+cap.movesTM[13] = "Ice Beam";
+cap.movesTM[14] = "Blizzard";
+cap.movesTM[15] = "Hyper Beam";
+cap.movesTM[16] = "Light Screen";
+cap.movesTM[17] = "Protect";
+cap.movesTM[18] = "Rain Dance";
+cap.movesTM[19] = "Telekinesis";
+cap.movesTM[20] = "Safeguard";
+cap.movesTM[21] = "Frustration";
+cap.movesTM[22] = "SolarBeam";
+cap.movesTM[24] = "Thunderbolt";
+cap.movesTM[25] = "Thunder";
+cap.movesTM[27] = "Return";
+cap.movesTM[29] = "Psychic";
+cap.movesTM[30] = "Shadow Ball";
+cap.movesTM[32] = "Double Team";
+cap.movesTM[33] = "Reflect";
+cap.movesTM[42] = "Facade";
+cap.movesTM[44] = "Rest";
+cap.movesTM[45] = "Attract";
+cap.movesTM[48] = "Round";
+cap.movesTM[49] = "Echoed Voice";
+cap.movesTM[50] = "Overheat";
+cap.movesTM[51] = "Ally Switch";
+cap.movesTM[52] = "Focus Blast";
+cap.movesTM[56] = "Fling";
+cap.movesTM[61] = "Will-O-Wisp";
+cap.movesTM[67] = "Retaliate";
+cap.movesTM[68] = "Giga Impact";
+cap.movesTM[70] = "Flash";
+cap.movesTM[76] = "Struggle Bug";
+cap.movesTM[77] = "Psych Up";
+cap.movesTM[81] = "X-Scissor";
+cap.movesTM[85] = "Dream Eater";
+cap.movesTM[87] = "Swagger";
+cap.movesTM[90] = "Substitute";
+
+cap.movesHM[1] = "Cut";
+cap.movesHM[3] = "Surf";
+
+cap.movesEgg = [
+        "Bug Buzz",
+        "Close Combat",
+        "Counter",
+        "Disable",
+        "Feint",
+        "Hydro Pump",
+        "Megahorn",
+        "Safeguard",
+        "Wing Attack",
+];
+
+cap.movesTutor = [
+        "Bug Bite",
+        "Electroweb",
+        "Helping Hand",
+        "Icy Wind",
+        "Magic Coat",
+        "Magic Room",
+        "Recycle",
+        "Roleplay",
+        "Skill Swap",
+        "Trick",
+        "Wonder Room",
+        "Zen Headbutt",
+];
+
+document.write(composeMovesPage(cap));
+</script>

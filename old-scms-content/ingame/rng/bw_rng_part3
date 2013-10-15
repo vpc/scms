@@ -1,0 +1,97 @@
+[title]
+BW RNG Manipulation Guide Part 3 - How to Capture Perfect and / or Shiny Pokemon by Controlling the PIDRNG
+[head]
+<meta name="description" content="BW RNG Manipulation Guide Part 3 - How to Capture Perfect and / or Shiny Pokemon by Controlling the PIDRNG" />
+[page]
+<div class="author">By <a href="/forums/member.php?u=32572">Kaphotics</a>.</div>
+
+
+<ul class="toc">
+<li><a href="bw_rng_intro">The BW RNG Manipulation Guide</a></li>
+<li><a href="bw_rng_part1">BW RNG Manipulation Guide Part 1 - Common Information for Breeding, Capturing, and Receiving Perfect Pokemon</a></li>
+<li><a href="bw_rng_part2">BW RNG Manipulation Guide Part 2 - How to RNG a Perfect Pokemon</a></li>
+<li><a href="bw_rng_part3">BW RNG Manipulation Guide Part 3 - How to Capture Perfect and / or Shiny Pokemon by Controlling the PIDRNG</a>
+<ul>
+<li><a href="#find">Finding (Shiny) PIDRNG Seeds</a></li>
+<li><a href="#info">Background Information about PIDRNG Seeds</a></li>
+<li><a href="#adv">Methods to advance the PIDRNG Frame</a></li>
+<li><a href="#hitting">Hitting your PIDRNG Seed and Frame</a></li>
+</ul>
+</li>
+<li><a href="bw_rng_part4">BW RNG Manipulation Guide Part 4 - How to Abuse your IDs</a></li> 
+<li><a href="bw_rng_part5">BW RNG Manipulation Guide Part 5 - How to Hatch Shiny (and Perfect) Pokemon</a></li> 
+<li><a href="bw_rng_part6">BW RNG Manipulation Guide Part 6 - Receiving Perfect Wondercard Pokemon</a></li>
+<li><a href="bw_rng_part7">BW RNG Manipulation Guide Part 7 - Capturing Perfect Roaming Pokemon</a></li> 
+</ul>
+
+<p><em>Note: If you do not want to abuse your IDs, it is suggested you do not try for perfect shiny Pokemon.</em></p>
+
+<p>The previous section of the guide covered how to control the Mersenne Twister half of the RNG, which determined what IVs you received from a Pokemon you encountered. Now that you have an adequate grasp of how to control this RNG, we will now explain how to control the other half: the PIDRNG. As you may know already, the PIDRNG determines everything except the IVs and acts completely separate from the Mersenne Twister RNG. Because of this, it is required that you approach things from a different angle.</p>
+
+<h2><a name="find">Finding (Shiny) PIDRNG Seeds</a></h2>
+
+<p>Since you most likely haven't RNGed your Trainer ID for a specific spread ahead of time, you will have to use the "Shiny Only" checkbox within Time Finder's Capture tab to find seeds for shiny Pokemon. You most likely will have to compromise between a mix of a high target frames or less than perfect spreads. If you intend to abuse for a shiny Pokemon, it is required that you know your Secret ID.</p>
+
+<p>If you do not want to RNG a shiny Pokemon, you may leave Shiny Only unchecked. This is highly suggested for first time PIDRNG abusers, as it will give more seeds to choose from for your IV and PIDRNG abuse.</p>
+
+<h2><a name="info">Background Information about PIDRNG Seeds</a></h2>
+
+<ul>
+<li>Since you are hitting a specific frame, the frame always will or will not be synchronized.
+<ul><li>If you generate the same seed with "Synchronize Frames Only" checked, only synchronizable frames will show up.</li>
+<li>RNG Reporter shows if a frame is synchronizeable or not by <strong>bolding</strong> the nature.</li>
+<li>This frame will always be synchronized only if you selected the correct encounter method when generating the seed.</li>
+</ul></li>
+</ul>
+
+<p>RNG Reporter will also output the Encounter Slot of the Pokemon, given your encounter type. Encounter Slots range from 0 to 11, and are different for each area. You can specify a particular encounter slot to search for.</p>
+
+<p>Encounter Slot tables are under the Tools tab of RNG Reporter. <a href="http://eggmove.com/encounterblack.html">Black</a> / <a href="http://eggmove.com/encounterwhite.html">White</a>.</p>
+
+<p>In the Capture Tab section of Time Finder, select Method 5 PIDRNG in addition to your Encounter Type. Just like the previous guide on Mersenne Twister RNG abuse, make sure the Parameters Tab is filled out correctly. Once everything is filled out to your liking, generate the seed list and select a PIDRNG Seed.</p>
+
+<p><img src="/media/ingame/images/ingame_bwrng_cap.png" alt="" /></p>
+
+<h2><a name="adv">Methods to advance the PIDRNG Frame</a></h2>
+
+<ul>
+<li>Saving the game increases the frame by 1.</li>
+<li>If you have recorded a Chatter for any Chatot, the frame advances by 1 for every time you hear its cry on the status screen.
+<ul>
+<li>If you have 2 Chatot, you can just flip between them!</li>
+<li>If you did RNG back in DPPt, this is essentially the same technique as journal flips.</li>
+</ul></li>
+<li>Walking or turning in an area with wild Pokemon increases frame advances 2 per step.
+<ul>
+<li>Do note that there are step counters that can advance the PIDRNG, so walking or turning is not suggested. Use Chatots!</li>
+</ul></li>
+<li>Wandering NPCs
+<ul>
+<li>NPCs that have no set movement path will advance the frame by their own irregular movements. </li>
+<li>If you cannot predict a definite path of walking or even turning for an NPC, chances are, it is a Wandering NPC.</li>
+<li>Therefore, if you walk and turn and run a different path each time, the NPCs may move a different way and thus the frame you hit will be different each time. </li>
+<li>You want to be able to control which one you hit. So keep this in mind and move <em><strong>exactly the same way</strong></em>.</li>
+</ul></li>
+</ul>
+
+<h2><a name="hitting">Hitting your PIDRNG Seed and Frame</a></h2>
+
+<ul>
+<li>Start off by generating your seed with the encounter method you are RNGing for.
+<ul>
+<li>Find your initial frame with the Calculate Initial PIDRNG button.</li>
+</ul></li>
+<li>Just like earlier in this guide, determine how many advances you need to hit your target frame.</li>
+<li>The first time you hit your seed, take note of the nature you hit. Go back to RNG Reporter's frame output search and look for that nature.
+<ul>
+<li>Depending on your initial PIDRNG Frame, it should be the first one, depending if any NPCs advanced the frame.</li>
+<li>This frame is now your Shifted Starting Frame (SSF), and should now be considered your initial frame.</li>
+</ul></li>
+<li>Next, hit your seed again and do the needed advancements to get to your target frame.
+<ul><li>If you didn't get the frame you intended to hit, just re-hit your seed and try again, changing the amount of advancements you do.</li>
+</ul></li>
+</ul>
+
+<p>For higher target frames, this same deal goes. You will just need to advance the frame on a larger scale. It is suggested that you use two Chatots to advance your frame twice as fast, flipping between both of them.</p>
+
+<p>Congratulations! You have successfully abused both the Mersenne Twister RNG as well as the PIDRNG!</p>

@@ -1,0 +1,840 @@
+[title]
+Habilidades
+[head]
+<meta name="description" content="Index Spanish abilities." />
+<link rel="stylesheet" type="text/css" href="/media/dex/dex.css" />
+<script type="text/javascript" src="/media/jquery.js"></script>
+<script type="text/javascript" src="/media/jquery.tablesorter.js"></script>
+[page]
+<table class="sortable" id="habilidades">
+<thead>
+<tr>
+<th>Name</th>
+<th>Nombre</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="/es/bw/abilities/absorbe_agua">Absorbe Agua</a></td>
+<td>Water Absorb</td>
+<td>Cura un 25% de PS cuando se es golpeado por un ataque del tipo Agua.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/absorbe_electricidad">Absorbe Electricidad</a></td>
+<td>Volt Absorb</td>
+<td>Cura un 25% de PS cuando se es golpeado por un ataque del tipo Eléctrico.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/absorbe_fuego">Absorbe Fuego</a></td>
+<td>Flash Fire</td>
+<td>Si es golpeado por un ataque de tipo Fuego su poder de Fuego se incrementa en un 50%, incluyendo Poder.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/aclimatacion">Aclimatación</a></td>
+<td>Cloud Nine</td>
+<td>Bloquea los efectos del clima.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/adaptable">Adaptable</a></td>
+<td>Adaptability</td>
+<td>El modificador de STAB del Pokémon aumenta a x2.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/afortunado">Afortunado</a></td>
+<td>Super Luck</td>
+<td>La probabilidad de golpe crítico se duplica.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/agallas">Agallas</a></td>
+<td>Guts</td>
+<td>Su Ataque se incrementa en un 50% cuando está congelado, dormido, paralizado, envenenado, intoxicado.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/alerta">Alerta</a></td>
+<td>Forewarn</td>
+<td>Conoces el ataque de mayor poder del rival al sacarlo a combatir. Si hay varios de igual poder, uno.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/allanamiento">Allanamiento</a></td>
+<td>Infiltrator</td>
+<td>Permite al Pokémon golpear ignorando el efecto de Pantalla Luz, Reflejo, Neblina y Velo Sagrado.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/alma_cura">Alma Cura</a></td>
+<td>Healer</td>
+<td>Puede curar cualquier cambio de estado de un Pokémon compañero adyacente en una batalla 2vs2 o 3vs3.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/anticipacion">Anticipación</a></td>
+<td>Anticipation</td>
+<td>Aumenta el ataque seis etapas (+6) si es golpeado por un golpe crítico.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/antidoto">Antídoto</a></td>
+<td>Poison Heal</td>
+<td>El Envenenamiento cura 12.5% PS cada turno en vez de hacer daño.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/armadura_batalla">Armadura Batalla</a></td>
+<td>Battle Armor</td>
+<td>Imposibilita los golpes críticos.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/armadura_fragil">Armadura Frágil</a></td>
+<td>Weak Armor</td>
+<td>Aumenta la Velocidad en 1 nivel y disminuye la Defensa en 1 nivel al ser golpeado por un movimiento físico.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/audaz">Audaz</a></td>
+<td>Reckless</td>
+<td>Aumenta el poder de movimientos con daño de retroceso.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/ausente">Ausente</a></td>
+<td>Truant</td>
+<td>Este Pokémon no hace nada cada 2 turnos.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/autoestima">Autoestima</a></td>
+<td>Moxie</td>
+<td>Incrementa un nivel el Ataque del Pokémon cuando debilita a un Pokémon rival con un ataque de daño.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/bromista">Bromista</a></td>
+<td>Prankster</td>
+<td>Los movimientos que no hacen daño directo tienen prioridad +1.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/bucle_aire">Bucle Aire</a></td>
+<td>Air Lock</td>
+<td>Bloquea los efectos de clima.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/cabeza_roca">Cabeza Roca</a></td>
+<td>Rock Head</td>
+<td>Los movimientos que causan daño de retroceso no le quitan energía al Pokémon tras ser usados.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/cacheo">Cacheo</a></td>
+<td>Frisk</td>
+<td>Te permite ver el objeto equipado del rival al entrar en batalla.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/calculo_final">Cálculo Final</a></td>
+<td>Analytic</td>
+<td>Aumenta el poder de todos los movimientos un 30% si el Pokémon es el último en mover.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/cambio_color">Cambio Color</a></td>
+<td>Color Change</td>
+<td>Cambia el tipo al de los movimientos del oponente.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/caparazon">Caparazón</a></td>
+<td>Shell Armor</td>
+<td>El Pokémon está protegido contra golpes críticos.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/chorro_arena">Chorro Arena</a></td>
+<td>Sand Stream</td>
+<td>Invoca una tormenta de arena infinita.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/clorofila">Clorofila</a></td>
+<td>Chlorophyll</td>
+<td>Doble velocidad bajo el sol.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/cobardia">Cobardía</a></td>
+<td>Rattled</td>
+<td>Sube la velocidad un nivel cuando le dan con un ataque tipo Bicho, Oscuro, o Fantasma.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/colector">Colector</a></td>
+<td>Storm Drain</td>
+<td>Cuando el Pokemon recibe un ataque de tipo Agua, el ataque especial se incrementa en 1. Todos los ataques de tipo Agua son atraídos por este Pokémon.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/compensacion">Compensación</a></td>
+<td>Multiscale</td>
+<td>Cuando el Pokémon tiene su PS al máximo, esta habilidad reduce a la mitad el daño recibido del ataque.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/competitivo">Competitivo</a></td>
+<td>Defiant</td>
+<td>La reducción del modificador de un stat cualquiera del Pokémon provocan un aumento de dos niveles.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/compiescolta">Compiescolta</a></td>
+<td>Friend Guard</td>
+<td>Reduce en un 25% el daño causado en una batalla 2vs2 o 3vs3 a un compañero.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/corte_fuerte">Corte Fuerte</a></td>
+<td>Hyper Cutter</td>
+<td>El rival no le puede bajar el Ataque. Los efectos secundarios de movimientos que impliquen la bajada.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/cosecha">Cosecha</a></td>
+<td>Harvest</td>
+<td>Cuando un Pokémon con esta habilidad utiliza una Baya equipada, existe un 50% de probabilidad de que.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/cromolente">Cromolente</a></td>
+<td>Tinted Lens</td>
+<td>Duplica el daño en los ataques que son resistidos.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/cuerpo_llama">Cuerpo Llama</a></td>
+<td>Flame Body</td>
+<td>Todo Pokémon que le golpee con un ataque de contacto tiene un 30% de probabilidades de resultar quemado.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/cuerpo_maldito">Cuerpo Maldito</a></td>
+<td>Cursed Body</td>
+<td>Todo aquel rival que golpee a un Pokémon con esta habilidad tiene un 30% de probabilidad de ver anulado.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/cuerpo_puro">Cuerpo Puro</a></td>
+<td>Clear Body</td>
+<td>Imposibilita que el enemigo le baje las estadísticas.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/cura_lluvia">Cura Lluvia</a></td>
+<td>Rain Dish</td>
+<td>Cura 1/16 de Puntos de Salud cada turno si está lloviendo</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/cura_natural">Cura Natural</a></td>
+<td>Natural Cure</td>
+<td>El Pokémon se ve curado de sus problemas de estado si es intercambiado en batalla.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/defensa_hoja">Defensa Hoja</a></td>
+<td>Leaf Guard</td>
+<td>En Día Soleado el Pokémon es protegido de cualquier cambio de estado.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/descarga">Descarga</a></td>
+<td>Download</td>
+<td>El Pokémon ve mejorado el stat de Ataque que el rival tenga menos fuerte en Defensa.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/despiste">Despiste</a></td>
+<td>Oblivious</td>
+<td>Inmunidad a la atracción.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/dicha">Dicha</a></td>
+<td>Serene Grace</td>
+<td>Incrementa la posibilidad de que efectos secundarios se activen.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/don_floral">Don Floral</a></td>
+<td>Flower Gift</td>
+<td>Aumento de Ataque y Defensa Especial en un 50% y cambio de forma en Día Soleado. Beneficia al compañero.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/efecto_espora">Efecto Espora</a></td>
+<td>Effect Spore</td>
+<td>Todo Pokémon que le golpee con un ataque de contacto tiene un 10% de probabilidades de resultar paralizado.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/electricidad_estatica">Electricidad Estática</a></td>
+<td>Static</td>
+<td>El enemigo puede ser paralizado si usa movimientos de contacto.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/electromotor">Electromotor</a></td>
+<td>Motor Drive</td>
+<td>Inmunidad a los ataques tipo Eléctrico, así como a Onda Trueno.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/encadenado">Encadenado</a></td>
+<td>Skill Link</td>
+<td>Incrementa la frecuencia de movimientos multi-ataque.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/energia_pura">Energía Pura</a></td>
+<td>Pure Power</td>
+<td>Multiplica por dos el stat de Ataque.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/enjambre">Enjambre</a></td>
+<td>Swarm</td>
+<td>Incrementa el poder de los ataques de tipo Bicho en 50% cuando el usuario se encuentra con 1/3 o menos de sus puntos de salud.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/entusiasmo">Entusiasmo</a></td>
+<td>Hustle</td>
+<td>El daño producido por sus ataques físicos aumenta en un 50%, pero su precisión es del 80%.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/escama_especial">Escama Especial</a></td>
+<td>Marvel Scale</td>
+<td>Si el Pokémon está congelado, dormido, paralizado, envenenado, intoxicado o quemado, su Defensa aumenta.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/escudo_magma">Escudo Magma</a></td>
+<td>Magma Armor</td>
+<td>Inmunidad al congelamiento. Si un Pokémon bajo los efectos de congelación adquiere esta habilidad.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/espejomagico">Espejomágico</a></td>
+<td>Magic Bounce</td>
+<td>Refleja el efecto de determinados movimientos modificadores al usuario.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/espesura">Espesura</a></td>
+<td>Overgrow</td>
+<td>Si el Pokémon queda con menos del 33% de PS, el poder de sus ataques de tipo Planta aumenta en un 50%.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/espiritu_vital">Espíritu Vital</a></td>
+<td>Vital Spirit</td>
+<td>Evita el sueño. Aumenta los encuentros con Pokémon salvajes de niveles superiores.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/experto">Experto</a></td>
+<td>Technician</td>
+<td>Movimientos con un poder base de 60 o menos tienen reciben un 50% más de daño.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/filtro">Filtro</a></td>
+<td>Filter</td>
+<td>Los ataques muy efectivos contra el Pokémon ven dividido su poder al 75% (x2 » x1.5 | x4 » x3).</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/flaqueza">Flaqueza</a></td>
+<td>Defeatist</td>
+<td>Si el PS restante del Pokémon es inferior al 50% de su PS máximo, su Ataque y Ataque Especial se reduce.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/flexibilidad">Flexibilidad</a></td>
+<td>Limber</td>
+<td>Inmunidad a la paralización. Si un Pokémon bajo los efectos de la paralización adquiere esta habilidad.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/foco_interno">Foco Interno</a></td>
+<td>Inner Focus</td>
+<td>El Pokémon nunca retrocederá.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/francotirador">Francotirador</a></td>
+<td>Sniper</td>
+<td>Incrementa el poder de golpes críticos.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/fuga">Fuga</a></td>
+<td>Run Away</td>
+<td>Escapa de una batalla contra Pokémon salvajes el 100% de las veces.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/funda">Funda</a></td>
+<td>Overcoat</td>
+<td>Impide que el Pokémon reciba daño derivado del clima (Tormenta Arena, Granizo).</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/gelido">Gélido</a></td>
+<td>Ice Body</td>
+<td>El Pokémon restaura un 6.25% de PS cada turno mientras el clima sea de Granizo.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/gran_encanto">Gran Encanto</a></td>
+<td>Cute Charm</td>
+<td>Todo Pokémon que le golpee con un ataque de contacto tiene un 30% de probabilidades de resultar atraído.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/gula">Gula</a></td>
+<td>Gluttony</td>
+<td>Usa las bayas más rápido de lo normal.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/hedor">Hedor</a></td>
+<td>Stench</td>
+<td>Incrementa la probabilidad de hacer retroceder al oponente cuando el Pokémon ataca. También disminuye la probabilidad de encontrar un Pokémon salvaje.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/herbivoro">Herbívoro</a></td>
+<td>Sad Sipper</td>
+<td>Concede inmunidad a los movimientos de tipo hierba y aumenta el ataque cuando se es dañado por un movimiento.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/hidratacion">Hidratación</a></td>
+<td>Hydration</td>
+<td>En Llovizna el Pokémon es curado de cualquier cambio de estado al final del turno.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/humedad">Humedad</a></td>
+<td>Damp</td>
+<td>Ningún Pokémon en batalla puede usar Autodestrucción ni Explosión. Si el Pokémon es sacado a batallar.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/humo_blanco">Humo Blanco</a></td>
+<td>White Smoke</td>
+<td>Las estadísticas del portador no pueden ser reducidas. Disminuye la probabilidad de encuentro con Pokémon salvajes.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/hurto">Hurto</a></td>
+<td>Pickpocket</td>
+<td>El Pokémon se queda con el objeto del rival que haga contacto con él.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/ignifugo">Ignífugo</a></td>
+<td>Heatproof</td>
+<td>Los ataques tipo Fuego que se usen contra el Pokémon ven su daño rebajado a la mitad.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/ignorante">Ignorante</a></td>
+<td>Unaware</td>
+<td>Ignora aumentos y reducciones en las estadísticas de otros Pokémon que no sean de Velocidad.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/iluminacion">Iluminación</a></td>
+<td>Illuminate</td>
+<td>Ningún efecto.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/ilusion">Ilusión</a></td>
+<td>Illusion</td>
+<td>Permite adoptar la apariencia y nombre de cualquier otro Pokémon, pero no adquirir características.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/iman">Imán</a></td>
+<td>Magnet Pull</td>
+<td>Los Pokémon de tipo Acero no pueden huir ni ser intercambiados mientras este Pokémon permanezca en juego.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/impasible">Impasible</a></td>
+<td>Steadfast</td>
+<td>La Velocidad aumenta un nivel si el Pokémon retrocede.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/impetu_ardiente">Ímpetu Ardiente</a></td>
+<td>Flare Boost</td>
+<td>Incrementa su Ataque Especial un 50% cuando el Pokémon está quemado.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/impetu_arena">Ímpetu Arena</a></td>
+<td>Sand Rush</td>
+<td>Multiplica la velocidad del usuario por 2 en una tormenta de arena.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/impetu_toxico">Ímpetu Tóxico</a></td>
+<td>Toxic Boost</td>
+<td>Incrementa su ataque en un 50% cuando está envenenado.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/impostor">Impostor</a></td>
+<td>Imposter</td>
+<td>El Pokémon se transforma automáticamente en el Pokémon rival al salir a la batalla.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/impulso">Impulso</a></td>
+<td>Speed Boost</td>
+<td>La Velocidad se incrementa al final del turno.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/indefenso">Indefenso</a></td>
+<td>No Guard</td>
+<td>Todo ataque que cause daño y sea usado por o contra el Pokémon tiene una Precisión del 100%.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/inicio_lento">Inicio Lento</a></td>
+<td>Slow Start</td>
+<td>Temporalmente reduce Ataque y Velocidad a la mitad.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/insomnio">Insomnio</a></td>
+<td>Insomnia</td>
+<td>Inmunidad al sueño. Si un Pokémon bajo los efectos del sueño adquiere esta habilidad se ve curado.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/insonorizar">Insonorizar</a></td>
+<td>Soundproof</td>
+<td>No le afectan los movimientos acústicos.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/intimidacion">Intimidación</a></td>
+<td>Intimidate</td>
+<td>Al entrar en batalla reduce en un nivel el Ataque del Pokémon rival (ambos rivales en 2on2).</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/intrepido">Intrépido</a></td>
+<td>Scrappy</td>
+<td>Permite atacar a monstruos tipo Fantasma con movimientos tipo Lucha y Normal.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/irascible">Irascible</a></td>
+<td>Anger Point</td>
+<td>Aumenta el ataque seis etapas (+6) si es golpeado por un golpe crítico.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/justiciero">Justiciero</a></td>
+<td>Justified</td>
+<td>Incrementa un nivel el Ataque del Pokémon cuando es golpeado con un ataque de tipo Siniestro.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/levitacion">Levitación</a></td>
+<td>Levitate</td>
+<td>Inmunidad a ataques de tipo Tierra, a Púas, a Púas Tóxicas y al efecto de la habilidad Trampa Arena.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/liviano">Liviano</a></td>
+<td>Unburden</td>
+<td>La Velocidad aumenta cuando un objeto se usa o se pierde.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/llovizna">Llovizna</a></td>
+<td>Drizzle</td>
+<td>Produce una llovizna perpetua al entrar en batalla, que dura toda la batalla salvo que se active otro.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/lodo_liquido">Lodo Líquido</a></td>
+<td>Liquid Ooze</td>
+<td>Si el Pokémon rival trata de absorberle PS, en vez de eso los perderá.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/madrugar">Madrugar</a></td>
+<td>Early Bird</td>
+<td>El número de turnos que este Pokémon permanece dormido se reduce a la mitad (redondeando hacia abajo).</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/mal_sueno">Mal Sueño</a></td>
+<td>Bad Dreams</td>
+<td>Daña un 12.5% a los oponentes dormidos cada turno.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/manto_niveo">Manto Níveo</a></td>
+<td>Snow Cloak</td>
+<td>Incrementa la evasión durante una granizada.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/mar_llamas">Mar Llamas</a></td>
+<td>Blaze</td>
+<td>Aumenta el poder de los movimientos de fuego un 50% cuando el Pokémon está a un tercio de vida o menos.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/mas">Más</a></td>
+<td>Plus</td>
+<td>Su Ataque Especial aumenta un 50% si tiene a un Pokémon con la habilidad Menos de compañero (modo 2on2).</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/menos">Menos</a></td>
+<td>Minus</td>
+<td>Su Ataque Especial aumenta un 50% si tiene a un Pokémon con la habilidad Más de compañero (modo 2on2).</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/metal_liviano">Metal Liviano</a></td>
+<td>Light Metal</td>
+<td>El Pokémon con esta habilidad tiene la mitad de peso.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/metal_pesado">Metal Pesado</a></td>
+<td>Heavy Metal</td>
+<td>El Pokémon con esta habilidad tiene el doble de peso.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/modo_daruma">Modo Daruma</a></td>
+<td>Zen Mode</td>
+<td>El portador cambia de forma cuando está por debajo del 50% de sus PS máximos.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/momia">Momia</a></td>
+<td>Mummy</td>
+<td>Todo Pokémon que le haga daño de contacto pasa a tener la habilidad Momia.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/mudar">Mudar</a></td>
+<td>Shed Skin</td>
+<td>El Pokémon puede curar sus propios problemas de status.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/multitipo">Multitipo</a></td>
+<td>Multitype</td>
+<td>El tipo y forma del Pokémon varía con la Tabla equipada.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/muro_magico">Muro Mágico</a></td>
+<td>Magic Guard</td>
+<td>Sólo afectan a este Pokémon los ataques de daño directo.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/nado_rapido">Nado Rápido</a></td>
+<td>Swift Swim</td>
+<td>Duplica la velocidad cuando está lloviendo.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/nerviosismo">Nerviosismo</a></td>
+<td>Unnerve</td>
+<td>Evita que el enemigo consuma su Baya.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/nevada">Nevada</a></td>
+<td>Snow Warning</td>
+<td>Llama a un granizado permanente.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/normalidad">Normalidad</a></td>
+<td>Normalize</td>
+<td>Todos los ataques de este Pokémon son de tipo Normal.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/ojocompuesto">Ojocompuesto</a></td>
+<td>Compoundeyes</td>
+<td>Aumenta precisión un 30%. Incrementa la posibilidad de encontrar objetos en Pokémon salvaje.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/pararrayos">Pararrayos</a></td>
+<td>Lightningrod</td>
+<td>El Pokémon atrae hacia sí todos los ataques de tipo Eléctrico (modo 2on2).</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/piel_milagro">Piel Milagro</a></td>
+<td>Wonder Skin</td>
+<td>Reduce la precisión de los movimientos de estado en un 50%.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/piel_seca">Piel Seca</a></td>
+<td>Dry Skin</td>
+<td>Restaura un 12.5% PS cada turno en Llovizna y un 25% de PS cuando recibe un ataque tipo Agua.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/piel_tosca">Piel Tosca</a></td>
+<td>Rough Skin</td>
+<td>Hace 12,5% de daño al oponente cuando éste usa un ataque de contacto.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/pies_rapidos">Pies Rápidos</a></td>
+<td>Quick Feet</td>
+<td>Sube 50% la Velocidad cuando tiene un problema de status.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/poder_arena">Poder Arena</a></td>
+<td>Sand Force</td>
+<td>Incrementa en 30% el daño de movimientos tipo Tierra, Roca y Acero en una tormenta de arena.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/poder_solar">Poder Solar</a></td>
+<td>Solar Power</td>
+<td>En clima soleado, pierde PS y su Ataque Especial se incrementa en un 50%.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/polvo_escudo">Polvo Escudo</a></td>
+<td>Shield Dust</td>
+<td>Frena los efectos secundarios de los ataques recibidos.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/potencia">Potencia</a></td>
+<td>Huge Power</td>
+<td>El Ataque del Pokémon aumenta en un 100%. Si la habilidad especial le es arrebatada, el Ataque volverá.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/potencia_bruta">Potencia Bruta</a></td>
+<td>Sheer Force</td>
+<td>Incrementa el poder de movimientos con efecto extra por 30%, pero el efecto extra se pierde.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/prediccion">Predicción</a></td>
+<td>Forecast</td>
+<td>El tipo y la figura del Pokémon cambian con el tiempo (hielo con Granizo, fuego con Día Soleado, agua.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/presion">Presión</a></td>
+<td>Pressure</td>
+<td>Los ataques enemigos pierden un PP adicional. Incrementa los encuentros con Pokémon salvajes.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/puno_ferreo">Puño Férreo</a></td>
+<td>Iron Fist</td>
+<td>Aumenta el poder un 20% de los ataques que usan los puños.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/punta_acero">Punta Acero</a></td>
+<td>Iron Barbs</td>
+<td>Provoca daño de un 12.5% del PS máximo al rival que haga contacto con este Pokémon.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/punto_toxico">Punto Tóxico</a></td>
+<td>Poison Point</td>
+<td>Todo Pokémon que le golpee con un ataque de contacto tiene un 30% de probabilidades de resultar envenenado.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/rastro">Rastro</a></td>
+<td>Trace</td>
+<td>Copia la habilidad del oponente.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/recogemiel">Recogemiel</a></td>
+<td>Honey Gather</td>
+<td>Puede recoger Miel tras cada batalla si no lleva otro objeto equipado.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/recogida">Recogida</a></td>
+<td>Pickup</td>
+<td>Si un Pokémon rival usa un objeto de un sólo uso y el Pokémon con esta habilidad no tiene objeto, ganará dicho objeto.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/regeneracion">Regeneración</a></td>
+<td>Regenerator</td>
+<td>El Pokémon cura un tercio de su energía al cambiarse.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/respondon">Respondón</a></td>
+<td>Contrary</td>
+<td>Se invierten los cambios de estadística del Pokémon.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/resquicio">Resquicio</a></td>
+<td>Aftermath</td>
+<td>Daña un 25% si el pokémon es debilitado por daño de contacto.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/rezagado">Rezagado</a></td>
+<td>Stall</td>
+<td>EL Pokémon siempre mueve último.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/ritmo_propio">Ritmo Propio</a></td>
+<td>Own Tempo</td>
+<td>Inmunidad a la confusión.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/rivalidad">Rivalidad</a></td>
+<td>Rivalry</td>
+<td>El poder de un movimiento depende del sexo del oponente.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/robustez">Robustez</a></td>
+<td>Sturdy</td>
+<td>Si el Pokémon tiene su PS lleno al 100%, podrá sobrevivir a cualquier ataque. Los movimientos OHKO fallarán siempre en este Pokémon.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/roca_solida">Roca Sólida</a></td>
+<td>Solid Rock</td>
+<td>Reduce el daño de golpes súper-efectivos en 1/4.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/rompemoldes">Rompemoldes</a></td>
+<td>Mold Breaker</td>
+<td>La habilidad del rival deja de surtir efectos. Sólo afecta a habilidades defensivas.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/sacapecho">Sacapecho</a></td>
+<td>Big Pecks</td>
+<td>El oponente no puede bajar la defensa de este Pokémon.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/sebo">Sebo</a></td>
+<td>Thick Fat</td>
+<td>Todo el daño de los tipos Fuego y Hielo es reducido a la mitad.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/sequia">Sequía</a></td>
+<td>Drought</td>
+<td>Produce un bochorno perpetuo al entrar en batalla, que dura toda la batalla salvo que se active otro.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/simple">Simple</a></td>
+<td>Simple</td>
+<td>El Pokémon es propenso a cambios estadísticos descontrolados.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/sincronia">Sincronía</a></td>
+<td>Synchronize</td>
+<td>Cuando recibe una condición especial, el enemigo también la recibe. También puede pasarle su Naturaleza a un Pokémon salvaje.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/sombratrampa">Sombratrampa</a></td>
+<td>Shadow Tag</td>
+<td>Previene el escape del oponente.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/superguarda">Superguarda</a></td>
+<td>Wonder Guard</td>
+<td>Sólo los ataques muy efectivos pueden dañar al portador.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/telepatia">Telepatía</a></td>
+<td>Telepathy</td>
+<td>El usuario no recibe daño de ataques de sus aliados.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/terravoltaje">Terravoltaje</a></td>
+<td>Teravolt</td>
+<td>Las habilidades que disminuyan los efectos de los movimientos son anuladas.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/tinovictoria">Tinovictoria</a></td>
+<td>Victory Star</td>
+<td>Aumenta la presición del portador y de sus aliados en el campo de batalla en un 10%.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/toque_toxico">Toque Tóxico</a></td>
+<td>Poison Touch</td>
+<td>Este Pokémon tiene 20% de probabilidades de envenenar al oponente cuando usa un movimiento que hace contacto.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/torrente">Torrente</a></td>
+<td>Torrent</td>
+<td>Incrementa el poder de los movimientos de tipo Agua en un 50% cuando los puntos de salud bajan a 1/3 o menos.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/trampa_arena">Trampa Arena</a></td>
+<td>Arena Trap</td>
+<td>Previene el cambio del rival y aumenta la probabilidad de encuentros salvajes.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/tumbos">Tumbos</a></td>
+<td>Tangled Feet</td>
+<td>Incrementa la evasion cuando está confundido.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/turbollama">Turbollama</a></td>
+<td>Turboblaze</td>
+<td>Las habilidades que obstruyen ataques son anuladas.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/veleta">Veleta</a></td>
+<td>Moody</td>
+<td>Al final de cada turno, el Pokémon experimenta una subida de dos niveles de un stat al azar y una baja un nivel.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/velo_agua">Velo Agua</a></td>
+<td>Water Veil</td>
+<td>Evita las quemaduras.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/velo_arena">Velo Arena</a></td>
+<td>Sand Veil</td>
+<td>Incrementa la Evasión en un 20%.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/ventosas">Ventosas</a></td>
+<td>Suction Cups</td>
+<td>No puede ser forzado a ser cambiado. También incrementa la probabilidad de encontrar un Pokémon salvaje mientras se está pescando.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/viscosidad">Viscosidad</a></td>
+<td>Sticky Hold</td>
+<td>El objeto de este Pokémon no puede ser quitado. También incrementa la probabilidad de encontrar un Pokémon cuando se está pescando.</td>
+</tr>
+<tr class="a">
+<td><a href="/es/bw/abilities/vista_lince">Vista Lince</a></td>
+<td>Keen Eye</td>
+<td>El Pokémon rival no le puede bajar la precisión.</td>
+</tr>
+<tr>
+<td><a href="/es/bw/abilities/zoquete">Zoquete</a></td>
+<td>Klutz</td>
+<td>El Pokémon no puede usar objetos equipados (salvo los que hacen ganar experiencia o esfuerzo, Brazal.</td>
+</tr>
+</tbody>
+</table>
+<script type="text/javascript">
+$("#habilidades").tablesorter({
+    widgets: ['zebra'],
+    textExtraction: "complex"
+})
+</script>

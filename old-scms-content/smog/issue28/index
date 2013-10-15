@@ -1,0 +1,100 @@
+[title]
+The Smog community web-zine
+
+[head]
+<link href="/media/smog/smog-issue.css" type="text/css" rel="stylesheet" />
+<style type="text/css">
+    /* Do not touch this line */
+       h1 { display: none; }
+    /* ********************* */
+</style>
+
+[page]
+<div id="smog-main-header">
+    <a href="/smog/"><img src="/media/smog/thesmog.png" alt="The Smog Logo" /></a>
+    <p>Smogon's Web-zine</p>
+    <div>Released June 23rd, 2013</div>
+</div>
+
+<!-- Begin #page-wrapper -->
+<div id="page-wrapper" class="full">
+    
+    <div id="current-issue">
+        <img src="/media/upload/smog/issue28/smog28.png" title="Cover Art" alt="" />
+        <div id="contribs">
+            This issue of The Smog is brought to you by <a href="http://www.smogon.com/smog/issue28/contributors">these contributors</a>.
+        </div>
+    </div>
+
+        <!-- Begin #issue-contents -->
+        <div id="issue-contents">
+
+            <!-- Begin first column -->
+            <div class="column">
+                <div class="section general">
+                    <h3>General</h3>
+                    <a href="note_from_editor">Note from the Editor</a>
+                    <a href="interview">Interview with Oglemi</a>
+                    <a href="trivia">Trivia</a>
+                </div>
+
+                <div class="section battling-strategy">
+                    <h3>Battling Strategy</h3>
+                    <a href="ou_spotlight_landorus">OU Spotlight: Landorus</a>
+                    <a href="ru_spotlight_druddigon">RU Spotlight: Druddigon</a>
+                    <a href="nu_spotlight_scolipede">NU Spotlight: Scolipede</a>
+                    <a href="nu_spotlight_kangaskhan">NU Spotlight: Kangaskhan</a>
+                    <a href="doubles_spotlight_heatran">Doubles Spotlight: Heatran</a>
+                    <a href="ru_spotlight_rmt">RU Spotlight RMT: Rise of Mangoose</a>
+                    <a href="teambuilding">Frameworks in Teambuilding</a>
+                    <a href="evs_ivs">EVs and IVs Through the Ages</a>
+                </div>
+
+                <div class="section metagame">
+                    <h3>Metagame</h3>
+                    <a href="proposal">Aldaron's Proposal</a>
+                    <a href="uu_theorymon">UU Theorymon</a>
+                    <a href="ru_underrated_movesets">Underrated RU Movesets</a>
+                    <a href="ru_metagame_analysis">RU Metagame Analysis</a>
+                    <a href="lc_fighting">Pee Wee Punchers: The Fighting-types in LC</a>
+                    <a href="obscure_metagames">More Obscure Metagames</a>
+                    <a href="gsc">Introduction to Competitive GSC</a>
+                </div>
+            </div>
+
+            <!-- Begin second column -->
+            <div class="column">
+                <div class="section arts-and-recreation">
+                    <h3>Arts &amp; Recreation</h3>
+                    <a href="arterview">The Arterview: Yilx</a>
+                    <a href="art_panel">Judge a Pokémon: The Smog's 11th Art Panel</a>
+                    <a href="movie_panel">Movie Critics - The Panel: Johto Journeys</a>
+                </div>
+
+                <div class="section entertainment">
+                    <h3>Entertainment</h3>
+                    <a href="gym_guide">Do You Even Lift: Over with Unova - Part 1</a>
+                    <a href="geology">Geological Wonders of the Pokémon World</a>
+                    <a href="n">Enter N</a>
+                    <a href="conspiracy">Smogon Conspiracy Theories: What Really Goes on Behind the Scenes</a>
+                    <a href="oddish">The Oddish</a>
+                    <a href="leadership_dojo">Leadership Dojo: How to Be a Gym Leader</a>
+                    <a href="leaks">Insider X &amp; Y Leaks, Straight from the Playground</a>
+                    <a href="edibles">Incredible Edibles</a>
+                    <a href="fairies">All These Freakin' Fairies</a>
+                </div>
+
+                <div class="section other">
+                    <h3>Other Features</h3>
+                    <a href="prerelease">XY Primer: How Much Will We Know Pre-Release?</a>
+                    <a href="other_way">Playing Your Games, The Other Way!</a>
+                </div>
+            </div>
+        </div> <!-- /end #issue-contents -->
+
+        <div class="clear"></div>
+</div> <!-- /end #page-wrapper -->
+
+<!-- Do NOT modify anything after this line. ~Setsuna -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="/media/smog/smog.js"></script>

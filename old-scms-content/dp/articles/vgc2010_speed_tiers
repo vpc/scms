@@ -1,0 +1,989 @@
+[title]
+VGC 2010 Speed Tiers
+[head]
+<meta name="description" content="A guide to the Magic Speed Numbers in the VGC metagame." />
+<script type="text/javascript" src="/media/jquery.js"></script>
+<script type="text/javascript" src="/media/jquery.tablesorter.js"></script>
+[page]
+<div class="author">By <a href="/forums/member.php?u=22604">Alaka</a>.</div>
+
+<ol class="toc">
+<li><a href="#intro">Getting Started</a></li>
+<li><a href="#tier0">Tier 0 (+1 Base 95s and Greater)</a></li>
+<li><a href="#tier1">Tier 1 (+Speed Base 90s to Neutral Scarf Base 90s)</a></li>
+<li><a href="#tier2">Tier 2 (Icy Winded +Speed Base 100s to Neutral 252 EV Base 100s)</a></li>
+<li><a href="#tier3">Tier 3 (Icy Winded 252 EV Neutral Base 77s to 0 EV Base 90s)</a></li>
+<li><a href="#tier4">Tier 4 (Minimum Speed Base 90s and Less)</a></li>
+</ol>
+
+<h2><a name="intro">Getting Started</a></h2>
+
+<p>To begin with, find the maximum Speed of the Pokemon you're building. You can find this information on our analysis pages for each Pokemon. After you've found your maximum Speed, use the following tables to see how much Speed the threats you wish to outspeed have, and EV your Pokemon accordingly. Keep in mind that when calculating your maximum Speed stat, you need to take into account your Pokemon's Speed IV.</p>
+
+<p>For example, positive Speed natured Crobat can hit a maximum Speed of 200. No Pokemon in Crobat's speed tier has greater than 194 Speed (Weavile). You can therefore safely run 195 Speed, which only requires 220 EVs as opposed to 252, and still allows Crobat to outrun all necessary threats.</p>
+
+<h3>Speed Boosts</h3>
+
+<p>To calculate your necessary starting Speed when factoring in Agility, Rock Polish, Chlorophyll, or Swift Swim, all you need to do is add one to the Speed of the Pokemon you wish to outspeed, divide it by two and round up the result. In practice, for example, should you decide that you want your Groudon to outspeed Modest +2 Ludicolo after using Rock Polish to avoid the faster Grass Knot, you just add one Ludicolo's Speed, giving you 255. Dividing this in half and rounding up the result (from 127.5 to 128) gives you your desired starting Speed.
+</p>
+
+<h3>VGC Specifics</h3>
+
+<p>Remember that in VGC all Pokemon are level 50 and so speeds are lower, and it takes more EVs to increase your Speed stat. Also, in VGC Speed altering mechanics, such as Icy Wind and Trick Room, are more prevalent and so there are more things to worry about when deciding what speed to run.</p>
+
+<h2><a id="tier0">Tier 0 (+1 Base 95s and Greater)</a></h2>
+<table class="sortable" id="tier0_tbl">
+<thead>
+<tr>
+<th>Speed Stat</th>
+<th>Pokemon</th>
+<th>Base Speed</th>
+<th>Nature</th>
+<th>Boost</th>
+<th>EVs</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>356</td>
+<td><a href="/dp/pokemon/jumpluff">Jumpluff</a></td>
+<td>110</td>
+<td>+Speed</td>
+<td>2</td>
+<td>252</td>
+</tr>
+<tr class="a">
+<td>322</td>
+<td><a href="/dp/pokemon/electivire">Electivire</a>, <a href="/dp/pokemon/yanmega">Yanmega</a></td>
+<td>95</td>
+<td>+Speed</td>
+<td>2</td>
+<td>252</td>
+</tr>
+<tr>
+<td>312</td>
+<td><a href="/dp/pokemon/groudon">Groudon</a></td>
+<td>90</td>
+<td>+Speed</td>
+<td>2</td>
+<td>252</td>
+</tr>
+<tr class="a">
+<td>294</td>
+<td><a href="/dp/pokemon/electivire">Electivire</a>, <a href="/dp/pokemon/yanmega">Yanmega</a></td>
+<td>95</td>
+<td>Neutral</td>
+<td>2</td>
+<td>252</td>
+</tr>
+<tr>
+<td>290</td>
+<td><a href="/dp/pokemon/shiftry">Shiftry</a></td>
+<td>80</td>
+<td>+Speed</td>
+<td>2</td>
+<td>252</td>
+</tr>
+<tr class="a">
+<td>284</td>
+<td><a href="/dp/pokemon/groudon">Groudon</a></td>
+<td>90</td>
+<td>Neutral</td>
+<td>2</td>
+<td>252</td>
+</tr>
+<tr>
+<td>274</td>
+<td><a href="/dp/pokemon/azelf">Azelf</a></td>
+<td>115</td>
+<td>+Speed</td>
+<td>1</td>
+<td>252</td>
+</tr>
+<tr class="a">
+<td>274</td>
+<td><a href="/dp/pokemon/kingdra">Kingdra</a></td>
+<td>85</td>
+<td>Neutral</td>
+<td>2</td>
+<td>252</td>
+</tr>
+<tr>
+<td>268</td>
+<td><a href="/dp/pokemon/ludicolo">Ludicolo</a></td>
+<td>70</td>
+<td>+Speed</td>
+<td>2</td>
+<td>252</td>
+</tr>
+<tr class="a">
+<td>264</td>
+<td><a href="/dp/pokemon/shiftry">Shiftry</a></td>
+<td>80</td>
+<td>Neutral</td>
+<td>2</td>
+<td>252</td>
+</tr>
+<tr>
+<td>250</td>
+<td><a href="/dp/pokemon/palkia">Palkia</a>, <a href="/dp/pokemon/zapdos">Zapdos</a></td>
+<td>100</td>
+<td>+Speed</td>
+<td>1</td>
+<td>252</td>
+</tr>
+<tr class="a">
+<td>246</td>
+<td><a href="/dp/pokemon/groudon">Groudon</a></td>
+<td>90</td>
+<td>Neutral</td>
+<td>2</td>
+<td>100</td>
+</tr>
+<tr>
+<td>244</td>
+<td><a href="/dp/pokemon/ludicolo">Ludicolo</a></td>
+<td>70</td>
+<td>Neutral</td>
+<td>2</td>
+<td>252</td>
+</tr>
+<tr class="a">
+<td>241</td>
+<td><a href="/dp/pokemon/electivire">Electivire</a>, <a href="/dp/pokemon/yanmega">Yanmega</a></td>
+<td>95</td>
+<td>+Speed</td>
+<td>1</td>
+<td>252</td>
+</tr>
+<tr>
+<td>234</td>
+<td><a href="/dp/pokemon/kyogre">Kyogre</a>, <a href="/dp/pokemon/dialga">Dialga</a>, <a href="/dp/pokemon/giratina">Giratina</a>, <a href="/dp/pokemon/moltres">Moltres</a>, <a href="/dp/pokemon/ho-oh">Ho-Oh</a></td>
+<td>90</td>
+<td>+Speed</td>
+<td>1</td>
+<td>252</td>
+</tr>
+<tr class="a">
+<td>228</td>
+<td><a href="/dp/pokemon/palkia">Palkia</a>, <a href="/dp/pokemon/zapdos">Zapdos</a></td>
+<td>100</td>
+<td>Neutral</td>
+<td>1</td>
+<td>252</td>
+</tr>
+<tr>
+<td>226</td>
+<td>Rotom-A</td>
+<td>86</td>
+<td>+Speed</td>
+<td>1</td>
+<td>252</td>
+</tr>
+<tr class="a">
+<td>220</td>
+<td><a href="/dp/pokemon/electivire">Electivire</a>, <a href="/dp/pokemon/yanmega">Yanmega</a></td>
+<td>95</td>
+<td>Neutral</td>
+<td>1</td>
+<td>252</td>
+</tr>
+</tbody>
+</table>
+
+<h2><a name="tier1">Tier 1 (+Speed Base 90s to Neutral Scarf Base 90s)</a></h2>
+
+<table class="sortable" id="tier1_tbl">
+<thead>
+<tr>
+<th>Speed Stat</th>
+<th>Pokemon</th>
+<th>Base Speed</th>
+<th>Nature</th>
+<th>Boost</th>
+<th>EVs</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>213</td>
+<td><a href="/dp/pokemon/kyogre">Kyogre</a>, <a href="/dp/pokemon/dialga">Dialga</a>, <a href="/dp/pokemon/giratina">Giratina</a>, <a href="/dp/pokemon/ho-oh">Ho-Oh</a>, <a href="/dp/pokemon/moltres">Moltres</a></td>
+<td>90</td>
+<td>Neutral</td>
+<td>1</td>
+<td>252</td>
+</tr>
+<tr class="a">
+<td>211</td>
+<td><a href="/dp/pokemon/heatran">Heatran</a></td>
+<td>77</td>
+<td>+Speed</td>
+<td>1</td>
+<td>252</td>
+</tr>
+<tr>
+<td>208</td>
+<td><a href="/dp/pokemon/smeargle">Smeargle</a></td>
+<td>75</td>
+<td>+Speed</td>
+<td>1</td>
+<td>252</td>
+</tr>
+<tr class="a">
+<td>207</td>
+<td>Rotom-A</td>
+<td>86</td>
+<td>Neutral</td>
+<td>1</td>
+<td>252</td>
+</tr>
+<tr>
+<td>201</td>
+<td><a href="/dp/pokemon/breloom">Breloom</a>, <a href="/dp/pokemon/metagross">Metagross</a></td>
+<td>70</td>
+<td>+Speed</td>
+<td>1</td>
+<td>252</td>
+</tr>
+<tr class="a">
+<td>200</td>
+<td><a href="/dp/pokemon/crobat">Crobat</a>, <a href="/dp/pokemon/mewtwo">Mewtwo</a></td>
+<td>130</td>
+<td>+Speed</td>
+<td>0</td>
+<td>252</td>
+</tr>
+<tr>
+<td>194</td>
+<td><a href="/dp/pokemon/weavile">Weavile</a></td>
+<td>125</td>
+<td>+Speed</td>
+<td>0</td>
+<td>252</td>
+</tr>
+<tr class="a">
+<td>193</td>
+<td><a href="/dp/pokemon/heatran">Heatran</a></td>
+<td>77</td>
+<td>Neutral</td>
+<td>1</td>
+<td>252</td>
+</tr>
+<tr>
+<td>184</td>
+<td><a href="/dp/pokemon/abomasnow">Abomasnow</a></td>
+<td>60</td>
+<td>+Speed</td>
+<td>1</td>
+<td>252</td>
+</tr>
+<tr class="a">
+<td>183</td>
+<td><a href="/dp/pokemon/azelf">Azelf</a></td>
+<td>115</td>
+<td>+Speed</td>
+<td>0</td>
+<td>252</td>
+</tr>
+<tr>
+<td>183</td>
+<td><a href="/dp/pokemon/breloom">Breloom</a>, <a href="/dp/pokemon/metagross">Metagross</a></td>
+<td>70</td>
+<td>Neutral</td>
+<td>1</td>
+<td>252</td>
+</tr>
+<tr class="a">
+<td>178</td>
+<td><a href="/dp/pokemon/froslass">Froslass</a>, <a href="/dp/pokemon/gengar">Gengar</a>, <a href="/dp/pokemon/jumpluff">Jumpluff</a>, <a href="/dp/pokemon/latios">Latios</a>, <a href="/dp/pokemon/lugia">Lugia</a></td>
+<td>110</td>
+<td>+Speed</td>
+<td>0</td>
+<td>252</td>
+</tr>
+<tr>
+<td>176</td>
+<td><a href="/dp/pokemon/infernape">Infernape</a></td>
+<td>108</td>
+<td>+Speed</td>
+<td>0</td>
+<td>252</td>
+</tr>
+<tr class="a">
+<td>169</td>
+<td><a href="/dp/pokemon/garchomp">Garchomp</a></td>
+<td>102</td>
+<td>+Speed</td>
+<td>0</td>
+<td>252</td>
+</tr>
+<tr>
+<td>168</td>
+<td><a href="/dp/pokemon/abomasnow">Abomasnow</a></td>
+<td>60</td>
+<td>Neutral</td>
+<td>1</td>
+<td>252</td>
+</tr>
+<tr>
+<td>167</td>
+<td><a href="/dp/pokemon/azelf">Azelf</a></td>
+<td>115</td>
+<td>Neutral</td>
+<td>0</td>
+<td>252</td>
+</tr>
+<tr class="a">
+<td>167</td>
+<td><a href="/dp/pokemon/palkia">Palkia</a>, <a href="/dp/pokemon/zapdos">Zapdos</a></td>
+<td>100</td>
+<td>+Speed</td>
+<td>0</td>
+<td>252</td>
+</tr>
+<tr>
+<td>161</td>
+<td><a href="/dp/pokemon/electivire">Electivire</a>, <a href="/dp/pokemon/rayquaza">Rayquaza</a>, <a href="/dp/pokemon/yanmega">Yanmega</a></td>
+<td>95</td>
+<td>+Speed</td>
+<td>0</td>
+<td>252</td>
+</tr>
+<tr class="a">
+<td>156</td>
+<td><a href="/dp/pokemon/kyogre">Kyogre</a>, <a href="/dp/pokemon/groudon">Groudon</a>, <a href="/dp/pokemon/dialga">Dialga</a>, <a href="/dp/pokemon/giratina">Giratina</a>, <a href="/dp/pokemon/giratina-o">Giratina-O</a>, <a href="/dp/pokemon/ho-oh">Ho-Oh</a>, <a href="/dp/pokemon/moltres">Moltres</a></td>
+<td>90</td>
+<td>+Speed</td>
+<td>0</td>
+<td>252</td>
+</tr>
+</tbody>
+</table>
+
+<h2><a name="tier2">Tier 2 (Icy Winded +Speed Base 100s to Neutral 252 EV Base 100s)</a></h2>
+
+<table class="sortable" id="tier2_tbl">
+<thead>
+<tr>
+<th>Speed Stat</th>
+<th>Pokemon</th>
+<th>Base Speed</th>
+<th>Nature</th>
+<th>Boost</th>
+<th>EVs</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>152</td>
+<td><a href="/dp/pokemon/palkia">Palkia</a>, <a href="/dp/pokemon/zapdos">Zapdos</a></td>
+<td>100</td>
+<td>Neutral</td>
+<td>0</td>
+<td>252</td>
+</tr>
+<tr class="a">
+<td>151</td>
+<td>Rotom-A</td>
+<td>86</td>
+<td>+Speed</td>
+<td>0</td>
+<td>252</td>
+</tr>
+<tr>
+<td>150</td>
+<td><a href="/dp/pokemon/toxicroak">Toxicroak</a></td>
+<td>85</td>
+<td>+Speed</td>
+<td>0</td>
+<td>252</td>
+</tr>
+<tr class="a">
+<td>147</td>
+<td><a href="/dp/pokemon/electivire">Electivire</a>, <a href="/dp/pokemon/yanmega">Yanmega</a>, <a href="/dp/pokemon/rayquaza">Rayquaza</a></td>
+<td>95</td>
+<td>Neutral</td>
+<td>0</td>
+<td>252</td>
+</tr>
+<tr>
+<td>145</td>
+<td><a href="/dp/pokemon/shiftry">Shiftry</a></td>
+<td>80</td>
+<td>+Speed</td>
+<td>0</td>
+<td>252</td>
+</tr>
+<tr class="a">
+<td>142</td>
+<td><a href="/dp/pokemon/kyogre">Kyogre</a>, <a href="/dp/pokemon/groudon">Groudon</a>, <a href="/dp/pokemon/dialga">Dialga</a>, <a href="/dp/pokemon/giratina">Giratina</a>, <a href="/dp/pokemon/giratina-o">Giratina-O</a>, <a href="/dp/pokemon/ho-oh">Ho-Oh</a>, <a href="/dp/pokemon/moltres">Moltres</a></td>
+<td>90</td>
+<td>Neutral</td>
+<td>0</td>
+<td>252</td>
+</tr>
+<tr>
+<td>141</td>
+<td><a href="/dp/pokemon/heatran">Heatran</a></td>
+<td>77</td>
+<td>+Speed</td>
+<td>0</td>
+<td>252</td>
+</tr>
+<tr class="a">
+<td>139</td>
+<td><a href="/dp/pokemon/smeargle">Smeargle</a></td>
+<td>75</td>
+<td>+Speed</td>
+<td>0</td>
+<td>252</td>
+</tr>
+<tr>
+<td>138</td>
+<td>Rotom-A</td>
+<td>86</td>
+<td>Neutral</td>
+<td>0</td>
+<td>252</td>
+</tr>
+<tr class="a">
+<td>137</td>
+<td><a href="/dp/pokemon/kingdra">Kingdra</a>, <a href="/dp/pokemon/toxicroak">Toxicroak</a></td>
+<td>85</td>
+<td>Neutral</td>
+<td>0</td>
+<td>252</td>
+</tr>
+<tr>
+<td>135</td>
+<td><a href="/dp/pokemon/honchkrow">Honchkrow</a></td>
+<td>71</td>
+<td>+Speed</td>
+<td>0</td>
+<td>252</td>
+</tr>
+<tr class="a">
+<td>134</td>
+<td><a href="/dp/pokemon/ludicolo">Ludicolo</a>, <a href="/dp/pokemon/metagross">Metagross</a></td>
+<td>70</td>
+<td>+Speed</td>
+<td>0</td>
+<td>252</td>
+</tr>
+<tr>
+<td>133</td>
+<td><a href="/dp/pokemon/crobat">Crobat</a>, <a href="/dp/pokemon/mewtwo">Mewtwo</a></td>
+<td>130</td>
+<td>+Speed</td>
+<td>-1</td>
+<td>252</td>
+</tr>
+<tr class="a">
+<td>132</td>
+<td><a href="/dp/pokemon/shiftry">Shiftry</a></td>
+<td>80</td>
+<td>Neutral</td>
+<td>0</td>
+<td>252</td>
+</tr>
+<tr>
+<td>130</td>
+<td><a href="/dp/pokemon/lugia">Lugia</a></td>
+<td>110</td>
+<td>Neutral</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr class="a">
+<td>129</td>
+<td><a href="/dp/pokemon/heatran">Heatran</a></td>
+<td>77</td>
+<td>Neutral</td>
+<td>0</td>
+<td>252</td>
+</tr>
+<tr>
+<td>129</td>
+<td><a href="/dp/pokemon/weavile">Weavile</a></td>
+<td>125</td>
+<td>+Speed</td>
+<td>-1</td>
+<td>252</td>
+</tr>
+<tr class="a">
+<td>123</td>
+<td><a href="/dp/pokemon/abomasnow">Abomasnow</a></td>
+<td>60</td>
+<td>+Speed</td>
+<td>0</td>
+<td>252</td>
+</tr>
+<tr>
+<td>123</td>
+<td><a href="/dp/pokemon/honchkrow">Honchkrow</a></td>
+<td>71</td>
+<td>Neutral</td>
+<td>0</td>
+<td>252</td>
+</tr>
+<tr class="a">
+<td>123</td>
+<td><a href="/dp/pokemon/groudon">Groudon</a></td>
+<td>90</td>
+<td>Neutral</td>
+<td>0</td>
+<td>100</td>
+</tr>
+<tr>
+<td>122</td>
+<td><a href="/dp/pokemon/breloom">Breloom</a>, <a href="/dp/pokemon/ludicolo">Ludicolo</a>, <a href="/dp/pokemon/metagross">Metagross</a></td>
+<td>70</td>
+<td>Neutral</td>
+<td>0</td>
+<td>252</td>
+</tr>
+<tr class="a">
+<td>120</td>
+<td><a href="/dp/pokemon/zapdos">Zapdos</a></td>
+<td>100</td>
+<td>Neutral</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>118</td>
+<td><a href="/dp/pokemon/froslass">Froslass</a>, <a href="/dp/pokemon/gengar">Gengar</a>, <a href="/dp/pokemon/latios">Latios</a>, <a href="/dp/pokemon/jumpluff">Jumpluff</a>, <a href="/dp/pokemon/lugia">Lugia</a></td>
+<td>110</td>
+<td>+Speed</td>
+<td>-1</td>
+<td>252</td>
+</tr>
+<tr class="a">
+<td>117</td>
+<td><a href="/dp/pokemon/infernape">Infernape</a></td>
+<td>108</td>
+<td>+Speed</td>
+<td>-1</td>
+<td>252</td>
+</tr>
+<tr>
+<td>112</td>
+<td><a href="/dp/pokemon/garchomp">Garchomp</a></td>
+<td>102</td>
+<td>+Speed</td>
+<td>-1</td>
+<td>252</td>
+</tr>
+<tr class="a">
+<td>112</td>
+<td><a href="/dp/pokemon/abomasnow">Abomasnow</a></td>
+<td>60</td>
+<td>Neutral</td>
+<td>0</td>
+<td>252</td>
+</tr>
+<tr>
+<td>111</td>
+<td><a href="/dp/pokemon/palkia">Palkia</a>, <a href="/dp/pokemon/zapdos">Zapdos</a></td>
+<td>100</td>
+<td>+Speed</td>
+<td>-1</td>
+<td>252</td>
+</tr>
+</tbody>
+</table>
+
+<h2><a name="tier3">Tier 3 (Icy Winded 252 EV Neutral Base 77s to 0 EV Base 90s)</a></h2>
+
+<table class="sortable" id="tier3_tbl">
+<thead>
+<tr>
+<th>Speed Stat</th>
+<th>Pokemon</th>
+<th>Base Speed</th>
+<th>Nature</th>
+<th>Boost</th>
+<th>EVs</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>110</td>
+<td><a href="/dp/pokemon/kyogre">Kyogre</a>, <a href="/dp/pokemon/groudon">Groudon</a>, <a href="/dp/pokemon/dialga">Dialga</a>, <a href="/dp/pokemon/giratina">Giratina</a>, <a href="/dp/pokemon/giratina-o">Giratina-O</a></td>
+<td>90</td>
+<td>Neutral</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>107</td>
+<td><a href="/dp/pokemon/electivire">Electivire</a>, <a href="/dp/pokemon/rayquaza">Rayquaza</a></td>
+<td>95</td>
+<td>+Speed</td>
+<td>-1</td>
+<td>252</td>
+</tr>
+<tr class="a">
+<td>106</td>
+<td>Rotom-A</td>
+<td>86</td>
+<td>Neutral</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>105</td>
+<td><a href="/dp/pokemon/cresselia">Cresselia</a></td>
+<td>85</td>
+<td>Neutral</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr class="a">
+<td>104</td>
+<td><a href="/dp/pokemon/kyogre">Kyogre</a>, <a href="/dp/pokemon/groudon">Groudon</a>, <a href="/dp/pokemon/dialga">Dialga</a>, <a href="/dp/pokemon/giratina">Giratina</a>, <a href="/dp/pokemon/giratina-o">Giratina-O</a>, <a href="/dp/pokemon/ho-oh">Ho-Oh</a>, <a href="/dp/pokemon/moltres">Moltres</a></td>
+<td>90</td>
+<td>+Speed</td>
+<td>-1</td>
+<td>252</td>
+</tr>
+<tr>
+<td>101</td>
+<td><a href="/dp/pokemon/palkia">Palkia</a>, <a href="/dp/pokemon/zapdos">Zapdos</a></td>
+<td>100</td>
+<td>Neutral</td>
+<td>-1</td>
+<td>252</td>
+</tr>
+<tr class="a">
+<td>100</td>
+<td><a href="/dp/pokemon/toxicroak">Toxicroak</a></td>
+<td>85</td>
+<td>+Speed</td>
+<td>-1</td>
+<td>252</td>
+</tr>
+<tr>
+<td>100</td>
+<td><a href="/dp/pokemon/togekiss">Togekiss</a></td>
+<td>80</td>
+<td>Neutral</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr class="a">
+<td>98</td>
+<td><a href="/dp/pokemon/electivire">Electivire</a>, <a href="/dp/pokemon/rayquaza">Rayquaza</a></td>
+<td>95</td>
+<td>Neutral</td>
+<td>-1</td>
+<td>252</td>
+</tr>
+<tr>
+<td>94</td>
+<td><a href="/dp/pokemon/kyogre">Kyogre</a>, <a href="/dp/pokemon/groudon">Groudon</a>, <a href="/dp/pokemon/dialga">Dialga</a>, <a href="/dp/pokemon/giratina">Giratina</a>, <a href="/dp/pokemon/giratina-o">Giratina-O</a>, <a href="/dp/pokemon/ho-oh">Ho-Oh</a>, <a href="/dp/pokemon/moltres">Moltres</a></td>
+<td>90</td>
+<td>Neutral</td>
+<td>-1</td>
+<td>252</td>
+</tr>
+<tr class="a">
+<td>94</td>
+<td><a href="/dp/pokemon/heatran">Heatran</a></td>
+<td>77</td>
+<td>+Speed</td>
+<td>-1</td>
+<td>252</td>
+</tr>
+<tr>
+<td>92</td>
+<td><a href="/dp/pokemon/shedinja">Shedinja</a></td>
+<td>40</td>
+<td>Neutral</td>
+<td>0</td>
+<td>252</td>
+</tr>
+<tr class="a">
+<td>92</td>
+<td><a href="/dp/pokemon/smeargle">Smeargle</a></td>
+<td>75</td>
+<td>+Speed</td>
+<td>-1</td>
+<td>252</td>
+</tr>
+<tr>
+<td>91</td>
+<td><a href="/dp/pokemon/toxicroak">Toxicroak</a>, <a href="/dp/pokemon/kingdra">Kingdra</a></td>
+<td>85</td>
+<td>Neutral</td>
+<td>-1</td>
+<td>252</td>
+</tr>
+<tr class="a">
+<td>90</td>
+<td><a href="/dp/pokemon/ludicolo">Ludicolo</a>, <a href="/dp/pokemon/hitmontop">Hitmontop</a>, <a href="/dp/pokemon/metagross">Metagross</a>, <a href="/dp/pokemon/poliwrath">Poliwrath</a></td>
+<td>70</td>
+<td>Neutral</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>88</td>
+<td><a href="/dp/pokemon/shiftry">Shiftry</a></td>
+<td>80</td>
+<td>Neutral</td>
+<td>-1</td>
+<td>252</td>
+</tr>
+<tr class="a">
+<td>86</td>
+<td><a href="/dp/pokemon/lugia">Lugia</a></td>
+<td>110</td>
+<td>Neutral</td>
+<td>-1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>86</td>
+<td><a href="/dp/pokemon/heatran">Heatran</a></td>
+<td>77</td>
+<td>Neutral</td>
+<td>-1</td>
+<td>252</td>
+</tr>
+</tbody>
+</table>
+
+<h2><a name="tier4">Tier 4 (Minimum Speed Base 90s and Less)</a></h2>
+
+<table class="sortable" id="tier4_tbl">
+<thead>
+<tr>
+<th>Speed Stat</th>
+<th>Pokemon</th>
+<th>Base Speed</th>
+<th>Nature</th>
+<th>Boost</th>
+<th>EVs</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>85</td>
+<td><a href="/dp/pokemon/kyogre">Kyogre</a>, <a href="/dp/pokemon/groudon">Groudon</a>, <a href="/dp/pokemon/dialga">Dialga</a>, <a href="/dp/pokemon/giratina">Giratina</a>, <a href="/dp/pokemon/ho-oh">Ho-Oh</a></td>
+<td>90</td>
+<td>-Speed; 0 IV</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr class="a">
+<td>81</td>
+<td><a href="/dp/pokemon/breloom">Breloom</a>, <a href="/dp/pokemon/ludicolo">Ludicolo</a></td>
+<td>70</td>
+<td>Neutral</td>
+<td>-1</td>
+<td>252</td>
+</tr>
+<tr>
+<td>81</td>
+<td><a href="/dp/pokemon/tyranitar">Tyranitar</a></td>
+<td>61</td>
+<td>Neutral</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr class="a">
+<td>80</td>
+<td><a href="/dp/pokemon/clefable">Clefable</a>, <a href="/dp/pokemon/abomasnow">Abomasnow</a></td>
+<td>60</td>
+<td>Neutral</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>75</td>
+<td><a href="/dp/pokemon/blissey">Blissey</a>, <a href="/dp/pokemon/machamp">Machamp</a></td>
+<td>55</td>
+<td>Neutral</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr class="a">
+<td>73</td>
+<td><a href="/dp/pokemon/kyogre">Kyogre</a>, <a href="/dp/pokemon/groudon">Groudon</a>, <a href="/dp/pokemon/dialga">Dialga</a>, <a href="/dp/pokemon/giratina">Giratina</a>, <a href="/dp/pokemon/ho-oh">Ho-Oh</a></td>
+<td>90</td>
+<td>Neutral</td>
+<td>-1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>73</td>
+<td><a href="/dp/pokemon/heatran">Heatran</a></td>
+<td>77</td>
+<td>-Speed; 0 IV</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr class="a">
+<td>72</td>
+<td><a href="/dp/pokemon/smeargle">Smeargle</a></td>
+<td>75</td>
+<td>-Speed; 0 IV</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>67</td>
+<td><a href="/dp/pokemon/metagross">Metagross</a>, <a href="/dp/pokemon/poliwrath">Poliwrath</a></td>
+<td>70</td>
+<td>-Speed; 0 IV</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr class="a">
+<td>59</td>
+<td><a href="/dp/pokemon/tyranitar">Tyranitar</a></td>
+<td>61</td>
+<td>-Speed; 0 IV</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>58</td>
+<td><a href="/dp/pokemon/abomasnow">Abomasnow</a></td>
+<td>60</td>
+<td>-Speed; 0 IV</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr class="a">
+<td>54</td>
+<td><a href="/dp/pokemon/machamp">Machamp</a></td>
+<td>55</td>
+<td>-Speed; 0 IV</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>54</td>
+<td><a href="/dp/pokemon/tyranitar">Tyranitar</a></td>
+<td>61</td>
+<td>Neutral</td>
+<td>-1</td>
+<td>0</td>
+</tr>
+<tr class="a">
+<td>45</td>
+<td><a href="/dp/pokemon/dusknoir">Dusknoir</a></td>
+<td>45</td>
+<td>-Speed; 0 IV</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>42</td>
+<td><a href="/dp/pokemon/kyogre">Kyogre</a>, <a href="/dp/pokemon/groudon">Groudon</a></td>
+<td>90</td>
+<td>-Speed; 0 IV</td>
+<td>-2</td>
+<td>0</td>
+</tr>
+<tr class="a">
+<td>40</td>
+<td><a href="/dp/pokemon/tyranitar">Tyranitar</a></td>
+<td>61</td>
+<td>Neutral</td>
+<td>-2</td>
+<td>0</td>
+</tr>
+<tr>
+<td>36</td>
+<td><a href="/dp/pokemon/heatran">Heatran</a></td>
+<td>77</td>
+<td>-Speed; 0 IV</td>
+<td>-2</td>
+<td>0</td>
+</tr>
+<tr class="a">
+<td>34</td>
+<td><a href="/dp/pokemon/bronzong">Bronzong</a></td>
+<td>33</td>
+<td>-Speed; 0 IV</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>31</td>
+<td><a href="/dp/pokemon/parasect">Parasect</a>, <a href="/dp/pokemon/snorlax">Snorlax</a>, <a href="/dp/pokemon/sunflora">Sunflora</a></td>
+<td>30</td>
+<td>-Speed; 0 IV</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr class="a">
+<td>29</td>
+<td><a href="/dp/pokemon/tyranitar">Tyranitar</a></td>
+<td>61</td>
+<td>-Speed; 0 IV</td>
+<td>-2</td>
+<td>0</td>
+</tr>
+<tr>
+<td>27</td>
+<td><a href="/dp/pokemon/machamp">Machamp</a></td>
+<td>55</td>
+<td>-Speed; 0 IV</td>
+<td>-2</td>
+<td>0</td>
+</tr>
+<tr class="a">
+<td>26</td>
+<td><a href="/dp/pokemon/abomasnow">Abomasnow</a></td>
+<td>60</td>
+<td>-Speed; 0 IV</td>
+<td>-2</td>
+<td>0</td>
+</tr>
+<tr>
+<td>5</td>
+<td><a href="/dp/pokemon/smeargle">Smeargle</a></td>
+<td>75</td>
+<td>-Speed; 0 IV; Level 1</td>
+<td>0</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+
+<script type="text/javascript">
+$("#tier0_tbl").tablesorter({
+widgets: ['zebra'],
+textExtraction: "complex",
+headers: { 1:{sorter: false}, 3:{sorter: false}, 4:{sorter: false}, 5:{sorter: false} }
+})
+
+$("#tier1_tbl").tablesorter({
+widgets: ['zebra'],
+textExtraction: "complex",
+headers: { 1:{sorter: false}, 3:{sorter: false}, 4:{sorter: false}, 5:{sorter: false} }
+})
+
+$("#tier2_tbl").tablesorter({
+widgets: ['zebra'],
+textExtraction: "complex",
+headers: { 1:{sorter: false}, 3:{sorter: false}, 4:{sorter: false}, 5:{sorter: false} }
+})
+
+$("#tier3_tbl").tablesorter({
+widgets: ['zebra'],
+textExtraction: "complex",
+headers: { 1:{sorter: false}, 3:{sorter: false}, 4:{sorter: false}, 5:{sorter: false} }
+})
+
+$("#tier4_tbl").tablesorter({
+widgets: ['zebra'],
+textExtraction: "complex",
+headers: { 1:{sorter: false}, 3:{sorter: false}, 4:{sorter: false}, 5:{sorter: false} }
+})
+
+</script>

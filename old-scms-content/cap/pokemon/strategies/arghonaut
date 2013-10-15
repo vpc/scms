@@ -1,0 +1,121 @@
+[title]
+Arghonaut
+[head]
+<link rel="stylesheet" type="text/css" href="/media/dex/dex.css" />
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_template.js"></script>
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_database.js"></script>
+[header]
+[page]
+<script language="JavaScript">
+document.write(strategyTabs("Arghonaut"));
+document.write(topHeaderInfo(Arghonaut()));
+</script>
+
+<h2>Overview</h2>
+
+<h4>DPP</h4>
+
+<p>Out of all bulky Water-types, it's safe to say that Arghonaut has had the greatest impact on the metagame. Through his unique ability in Unaware and excellent defensive typing, he has single-handedly caused many of the top OU threats, such as Tyranitar, Scizor, and Gyarados, to drop greatly in effectiveness. Arghonaut's Water- and Fighting-typing provides key resistances to Stealth Rock, U-turn, and Pursuit, three factors that a defensive Pokemon does not like. This is backed by having only four weaknesses, two of which (Flying and Psychic) are uncommon. Arghonaut also has Recover to help it repeatedly switch in and threaten dangerous Pokemon. Finally, Arghonaut is no sitting duck like some other defensive Pokemon, as with his base 110 Attack stat, ability to set up, and respectable movepool, he can be a powerful physical force.</p>
+
+<p>Unaware makes stat-boosting a fruitless endeavor for his opponents, resulting in Pokemon that were previously being used as stat-boosters now carrying attacks that hit Arghonaut super effectively. In some cases, this shift has overwhelmed Arghonaut's ability to stop these Pokemon, such as with Zen Headbutt Metagross. Furthermore, Arghonaut faces stiff competition for a spot on the team in Vaporeon, another formidable bulky Water-type. Even though Arghonaut has Unaware to stop threats from setting up, Vaporeon provides her team with valuable Wish support and a handy Water-type immunity, two traits Arghonaut cannot boast. Despite a metagame that has shifted to deal with it and competition from Vaporeon for a teamslot, Arghonaut is still a worthwhile, effective bulky Water-type that can solve many of your weaknesses to dangerous threats.</p>
+
+<script language="JavaScript"> 
+var set = new CAPSet(); 
+set.name = "DPP Physical Wall"; 
+set.move[1] = "Recover"; 
+set.move[2] = "Waterfall"; 
+set.move[3] = ["Low Kick", "Revenge"]; 
+set.move[4] = ["Ice Punch", "Stone Edge", "Roar"]; 
+set.item = "Leftovers"; 
+set.nature = "Impish"; 
+set.evs.HP = 252; 
+set.evs.Atk = 4; 
+set.evs.Def = 252; 
+document.write(composeSet(set)); 
+</script> 
+
+<p>This is Arghonaut's most commonly used set, and for good reason. With his excellent defensive typing, great overall bulk, instant recovery, and high base Attack stat, Arghonaut is one of the most effective tanks in the OU metagame. Not only that, but his ability, Unaware, allows him to counter powerful stat-boosting threats, such as Dragon Dance Gyarados and Tyranitar, Swords Dance Scizor and Lucario, and Calm Mind Suicune. This unique trait instantly differentiates Arghonaut from other tanks like Hippowdon, Vaporeon, and Swampert. All of these elements contribute to Arghonaut becoming a primary candidate for a team in need of a reliable, sturdy tank.</p>
+
+<p>Arghonaut is the only bulky Water-type that has access to instant recovery in the OU metagame, which helps him to continually counter the threats he's switched in on. Waterfall serves as Arghonaut's main STAB attack, providing great overall coverage and hitting non-resistant Pokemon reasonably hard. The choice of using Low Kick or Revenge is up to personal preference. Because the OU metagame is relatively heavy, Arghonaut will be hitting most of his targets for a Base Power of 80 or higher; however, Low Kick fails to hit some of the lighter Pokemon, such as Blissey and Vaporeon, for heavy damage. On the other hand, with Revenge, Arghonaut can have a shot at boosting the Base Power to 120 if he has been hit by an attack. The only downfall to this strategy is if the opposing Pokemon refuses to hit Arghonaut with a direct attack. For the last slot, there are several viable options. Ice Punch beats Flygon and Dragonite, while Stone Edge nails Gyarados (which can potentially be a problem if it packs Bounce), still retains the super effective damage against Dragonite, and hits other Flying-types like Zapdos harder than Ice Punch would. Since Arghonaut generally forces a lot of switches, Roar can be used to help scout the opponent's team, and force the opponent to take more entry hazard damage.</p>
+
+<p>The EV spread is geared towards maximizing Arghonaut's defensive capabilities. He  survives Adamant Metagross's Life Orb Zen Headbutt and Gyarados's Life Orb Bounce, even if he has taken a bit of prior damage. If you feel that Arghonaut is not dealing enough damage, you have the option to give him a more offensive direction by using an Adamant nature and more Attack EVs; however, it's recommended to capitalize on Arghonaut's great overall bulk and ability to switch into the dangerous setup threats present in the OU metagame.</p>
+
+<p>Because Arghonaut has Unaware, he makes a reliable pivot for offensive teams, as many of them are vulnerable to dangerous setup threats such as Swords Dance Scizor and Lucario. Arghonaut can help provide his team with reliable protection against the aforementioned threats without slowing down offensive momentum much. Arghonaut is also a valuable Pokemon on defensively-oriented teams, as they are susceptible to many powerful setup threats. Blissey and Skarmory, two common Pokemon on defensive teams, provide Arghonaut with handy Wish and entry hazard support, respectively. Additionally, Blissey's high Special Defense and HP stats help her absorb the frequent Thunderbolts, Grass Knots, Air Slashes, and Psychics directed at Arghonaut, while Skarmory handles the physical Psychic-, Flying-, and Grass-type attacks Arghonaut is weak to, particularly Zen Headbutt from Metagross and Bounce from Gyarados. Another option to consider is using Pokemon that threaten Arghonaut's common switch-ins, such as Celebi, Cresselia, and Skarmory. Tyranitar makes a superb partner in this case, as he can run a Dragon Dance or mixed set to defeat all three.</p>
+
+<script language="JavaScript"> 
+var set = new CAPSet(); 
+set.name = "DPP SubPunch"; 
+set.move[1] = "Substitute"; 
+set.move[2] = "Focus Punch"; 
+set.move[3] = "Waterfall"; 
+set.move[4] = "Recover"; 
+set.item = "Leftovers"; 
+set.nature = "Adamant"; 
+set.evs.HP = 252; 
+set.evs.Atk = 252; 
+set.evs.Spe = 4; 
+document.write(composeSet(set)); 
+</script> 
+
+<p>Arghonaut has all of the essentials to make a SubPunch set effective: high enough base HP to make 101 HP Substitutes, excellent overall bulk and typing, and STAB Focus Punch. This set goes against the grain and makes Arghonaut, normally a defensive Pokemon, one of the most threatening bulky offensive Pokemon in the OU metagame, capable of running through unprepared teams.</p>
+
+<p>Since Arghonaut boasts a high enough HP stat to set up a 101 HP Substitute, it can set up against Seismic Toss users, such as Blissey, with impunity. Arghonaut's natural bulk also makes his Substitutes difficult to break for offensively weak Pokemon, meaning he has several opportunities to set up and fire off high-powered Focus Punches. Waterfall is an excellent secondary STAB attack, hitting Pokemon such as Rotom-A and Cresselia, and providing respectable type coverage in tandem with Focus Punch. One of the major selling points of SubPunch Arghonaut is that he has access to Recover, allowing him to heal off any lost HP from Substitute or attacks and continually set up more Substitutes to wreak havoc. However, if you are not interested in using Recover, there are several other options, including Ice Punch, Swagger, and Bulk Up. Ice Punch is mainly used for the added coverage to hit Dragonite and Celebi, both of which are troublesome opponents. Swagger is an interesting option to use in conjunction with Substitute, as it can potentially give Arghonaut a chance to set up a Substitute without taking damage. Also, the Attack boost Swagger provides for the opponent is ignored by Arghonaut's Unaware, so Arghonaut won't be taking severe damage. Lastly, Bulk Up can be used to make Arghonaut's Substitutes harder to break on the physical side and his STAB attacks that much more powerful.</p>
+
+<p>Despite Arghonaut being a complete menace with this set, he still has a few solid counters, most notably Celebi and Cresselia. Celebi resists both of Arghonaut's STAB attacks, and its physical bulk makes it nearly impossible for Arghonaut to beat. Celebi can then cripple Arghonaut with Thunder Wave or hurt him severely with Grass Knot or Psychic. With Cresselia, her gargantuan physical bulk, resistance to Focus Punch, and STAB Psychic also give Arghonaut trouble. It's strongly recommended to use Pokemon that can eliminate the aforementioned Pokemon. Scizor can Pursuit both if you predict them to switch out or destroy them with U-turn should they stay in. Also, Scizor doesn't necessarily despise Thunder Wave, which both Pokemon commonly carry, and can switch into their STAB attacks with impunity. Scizor will want to be wary of Celebi carrying Hidden Power Fire, though. Furthermore, Scizor's Fire-type weakness is accommodated by Arghonaut, while Scizor takes on Arghonaut's Grass- and Psychic-type weaknesses. Besides dealing with Arghonaut's counters, entry hazard support is encouraged. With Stealth Rock in play, Arghonaut is able to 2HKO Gyarados with Focus Punch without Intimidate factored in, while Focus Punch can OHKO Scizor with Stealth Rock and a few layers of Spikes. That said, Heatran and Skarmory make great partners to set up Stealth Rock and Spikes, respectively, and they also form a very sturdy defensive core with Arghonaut.</p>
+
+<script language="JavaScript"> 
+var set = new CAPSet(); 
+set.name = "DPP Bulk Up"; 
+set.move[1] = "Bulk Up"; 
+set.move[2] = "Rest"; 
+set.move[3] = "Waterfall"; 
+set.move[4] = ["Sleep Talk", "ThunderPunch"]; 
+set.item = "Leftovers"; 
+set.nature = "Careful"; 
+set.evs.HP = 252; 
+set.evs.Def = 4; 
+set.evs.SpD = 252; 
+document.write(composeSet(set)); 
+</script> 
+
+<p>This set gives Arghonaut the ability to act as both a threatening offensive and defensive force through the use of Bulk Up. Like its fellow bulky Water-types Calm Mind Suicune and Curse Swampert, Arghonaut functions similarly by switching into a nonthreatening Pokemon and attempting to gather as many boosts as possible, Resting off any damage taken in the process. Once fully boosted, this Arghonaut becomes ridiculously hard to take down and is fully capable of sweeping entire teams. What makes Arghonaut stand out as a stat-booster is Unaware, an ability that allows him to fearlessly set up Bulk Up boosts against the likes of Swords Dance Lucario and Dragon Dance Gyarados, two Pokemon Suicune and Swampert can't afford to let set up.</p>
+
+<p>Water is one of the best attacking types to use on a RestTalk set, as it has excellent type coverage and very few things are immune to it. This makes Waterfall the primary STAB option, as using Arghonaut's Fighting-type attacks makes it more vulnerable to being stopped by Ghost-types. The choice for the last slot depends entirely on how you want to use this Arghonaut. Sleep Talk prevents Arghonaut from becoming vulnerable after using Rest, as it gives him a chance to use Bulk Up or Waterfall while sleeping. However, going with ThunderPunch provides Arghonaut with additional type coverage, primarily used to hit Vaporeon super effectively, as she's the only common OU Pokemon immune to Water-type attacks.</p>
+
+<p>Celebi is an enormous roadblock to this Arghonaut, as he has no moves that hit it super effectively. Meanwhile, Celebi can hit Arghonaut with Grass Knot or phaze him with Perish Song, all while using Recover to heal any damage taken. For these reasons, it is strongly recommended to pack Pokemon that can defeat Celebi and other bulky Grass-types in general when using this set, as it will greatly enhance Arghonaut's sweeping potential. Heatran has Fire Blast and a 4x resistance to Grass-type attacks, making it a formidable response to Grass-type enemies. If you choose Sleep Talk over ThunderPunch, Vaporeon will wall Arghonaut handily. Celebi makes a wonderful teammate to always threaten Vaporeon with Energy Ball or Leaf Storm. Also, using both Heatran and Celebi with Arghonaut forms the infamous Water/Fire/Grass core based on their fantastic type synergy within each other. Entry hazard support in the form of Toxic Spikes is also greatly appreciated by this Arghonaut, as it can then turn the likes of Vaporeon into a setup opportunity. Roserade is user of Toxic Spikes to consider for her ability to switch into Electric- and Grass-type attacks.</p>
+
+<h2>Team Options</h2>
+
+<h4>DPP</h4>
+
+<p>For Arghonaut's offensive sets, specifically SubPunch, he enjoys having a few layers of entry hazards set up to help score certain OHKOs and 2HKOs. For example, with Stealth Rock and two layers of Spikes, SubPunch Arghonaut's Focus Punch is capable of OHKOing 248 HP Scizor. Also, Stealth Rock helps Arghonaut 2HKO offensive Gyarados without Intimidate factored in. Skarmory has the ability to use both Stealth Rock and Spikes in the same set to good effect, thanks to its very high defense and numerous opportunities to switch in and set up. Skarmory also has resistances to Arghonaut's Psychic-, Flying-, and Grass-type weaknesses. Defensive Arghonaut, particularly Bulk Up variants, love to have Toxic Spikes support. This way, it can set up against troublesome threats, such as Vaporeon and Celebi, and stall them until poison damage gets to the point where they are unable to stay in. Roserade is a very successful user of Toxic Spikes with its great Speed and access to Sleep Powder, and it also resists Arghonaut's Electric- and Grass-type weaknesses.</p>
+
+<p>The main way to take down Arghonaut is by using high-powered STAB super effective attacks, and so this is a big problem Arghonaut will encounter. It's strongly recommended to prepare for Pokemon that commonly use these kinds of moves, such as Psychic Azelf and Leaf Storm Roserade. Thankfully, Choice Scarf Heatran is able to deal with all of the aforementioned threats. It resists their STAB moves, outpaces them, and finishes them off with the appropriate attack. Other Pokemon you can look into are Bronzong and Choice Scarf Jirachi.</p>
+
+<p>Stall teams in general really benefit from Arghonaut's presence, mainly because Arghonaut can easily handle the dangerous wall-breakers that often defeat stall teams, such as Infernape and Lucario. Major components of stall teams include Blissey, Skarmory, and Rotom-A. All three of these Pokemon have fantastic synergy in tandem with Arghonaut, making this combination a very difficult defensive core to plow through. Arghonaut also finds excellent use on bulky offensive teams to help prevent powerful set-up threats, such as Gyarados and Lucario, from sweeping the team. He also acts as a sturdy pivot with which to double-switch in frail offensive Pokemon.</p>
+
+<h2>Other Options</h2> 
+
+<h4>DPP</h4>
+
+<p>There are many other options Arghonaut can use with his quite decent movepool. On the supportive side, Yawn is an option to force switches or put something to sleep. Protect works well with Yawn, allowing Arghonaut to put the opponent to sleep without getting hit by a move. Taunt is useful in general as it can prevent some Pokemon from setting up, such as Spikes Skarmory. Swagger can be useful as Unaware means that Arghonaut ignores the Attack boost. Arghonaut also makes an effective Rain Dance user with his high overall bulk.</p>
+
+<p>Offensively, Punishment helps hit Psychic- and Ghost-types, such as Azelf and Rotom-A, and stat-boosting Pokemon in general since Punishment's effect activates even with Unaware ignoring boosts. Arghonaut can use Cross Chop instead of Low Kick or Revenge for a consistent 100 Base Power STAB attack, Superpower for a single, immensely powerful attack, Drain Punch to heal itself every time it attacks, Earthquake to provide decent overall coverage, Zen Headbutt for a possible flinch, and Avalanche to potentially become a 120 Base Power Ice-type move. He also has access to both Aqua Jet and Mach Punch, meaning he can use those moves to pick off Pokemon that are in KO range. Finally, while Arghonaut has the attacking options to pull together a Choice Band or Choice Scarf set, mediocre attacking STABs and Speed limit those sets' usefulness.</p>
+
+<h2>CAP Metagame</h2>
+
+<h4>DPP</h4>
+
+<p>Arghonaut's excellent typing, ability, and overall bulk help it fare exceptionally well against several CAP Pokemon. Syclant, one of the most dangerous boosting sweepers in CAP, is completely walled by Arghonaut because of Arghonaut's resistance to both of his STAB attacks and ability to ignore Syclant's Tail Glow or Swords Dance boosts. Offensive Revenankh encounters a similar problem, as his Bulk Up boosts are nullified unless he uses Mold Breaker to defeat the pirate octopus. Fidgit isn't able to deal enough damage to remotely threaten Arghonaut, while he is destroyed by Waterfall. Arghonaut is able to survive Stratagem's Energy Ball or Giga Drain, allowing him OHKO it with Waterfall. Lastly, Colossoil has a difficult time dealing with Arghonaut's immense physical bulk; however, if he manages to achieve a Guts and Life Orb boost, he can 2HKO Arghonaut with Earthquake.</p>
+
+<p>The remaining CAP Pokemon are very troublesome for Arghonaut, though. Defensive Revenankh can wall Arghonaut to no end, crippling him with Will-O-Wisp and disposing of his Leftovers with Knock Off. Kitsunoh has two moves that Arghonaut generally hates: Will-O-Wisp and ShadowStrike. Will-O-Wisp significantly hinders Arghonaut's ability to damage opposing Pokemon, which essentially means Arghonaut is useless offensively. ShadowStrike's 50% chance to drop Arghonaut's Defense also makes it difficult for Arghonaut to consistently wall Kitsunoh. Cyclohm and Krilowatt also give Arghonaut an incredibly hard time, as they resist Arghonaut's Waterfall, have excellent physical bulk, and have a super effective Thunderbolt with which they can OHKO Arghonaut</p>
+
+<h2>Counters</h2>
+
+<h4>DPP</h4>
+
+<p>Any Pokemon with high Defense that can threaten Arghonaut in some way are generally perfect switch-ins to Arghonaut. These include Celebi, Suicune, Vaporeon, Rotom-A, Zapdos, Skarmory, and Cresselia, among many others. Celebi's resistances to both of Arghonaut's STAB attacks and access to Grass Knot and Psychic easily make it one of the primary defensive counters to Arghonaut. Suicune with Hidden Power Electric and Vaporeon with Toxic are excellent bulky Water-types to use against Arghonaut, and Vaporeon is even able to completely wall RestTalk + Bulk Up Arghonaut. Rotom-A, particularly a RestTalk version, is also a reliable counter to Arghonaut, capable of crippling Arghonaut with Will-O-Wisp or eliminating it with Thunderbolt. Like Rotom-A, Zapdos is a powerful Electric-type that deals with Arghonaut effectively with Thunderbolt. Zapdos can also remove its weaknesses to Stone Edge and Ice Punch, one of which Arghonaut is bound to carry, with Roost. Skarmory's high Defense stat also gives Arghonaut a bit of trouble, as he can set up multiple layers of Spikes against him or hit him super effectively with Brave Bird. Skarmory needs to be wary of Focus Punch, however, as its negative priority will make it super effective if he's used Roost. Cresselia's huge defenses, resistance to Arghonaut's STAB Fighting-type moves, and access to Psychic make her basically impossible for Arghonaut to beat.</p>
+
+<p>Powerful Pokemon that have high-powered, STAB, super effective attacks give Arghonaut a lot of trouble. Gyarados isn't really threatened by much from Arghonaut, while, thanks to Intimidate, it can leave Arghonaut almost helpless when attacking and 2HKO it with Bounce. Metagross's great physical bulk and attack power help it utterly destroy Arghonaut with a Life Orb Zen Headbutt. Roserade resists both of Arghonaut's STAB attacks and can either put it to sleep with Sleep Powder or OHKO it with Leaf Storm. Although not as common in the OU metagame, Staraptor has the perfect traits to counter Arghonaut easily: Intimidate to weaken its attacks, Roost to avoid taking super effective damage from Ice Punch or Stone Edge, and Brave Bird to score a clean OHKO.</p>
+
+<p>Another way to cripple Arghonaut's effectiveness is by Tricking it a Choice item. Jirachi is the perfect candidate for this role, because not only is it one of the best Choice Scarf users around, it generally lures Arghonaut in to take its Iron Head, Fire Punch, Ice Punch, or U-turn, giving it many opportunities to catch Arghonaut off-guard. Toxic Spikes also massively hinders Arghonaut that lacks Rest, as it is no longer capable of stalling out Pokemon like Dragon Dance Gyarados and Calm Mind Suicune.</p>

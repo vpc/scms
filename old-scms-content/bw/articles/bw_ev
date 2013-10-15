@@ -1,0 +1,406 @@
+[title]
+5th Generation EV Training Guide
+[head]
+<meta name="description" content="A guide to EV Training in the 5th Generation" />
+[page]
+<div class="author">By <a href="/forums/member.php?u=35537">Nexus</a>. Art by <a href="/forums/member.php?u=158925">ium</a>.</div>
+
+<div style="text-align: center;"><img src="/media/upload/bw/articles/ev_tepig.png" alt="" width="600" height="326" /></div>
+
+<ol class="toc">
+<li><a href="#intro">Introduction</a></li>
+<li><a href="#how">How EVs Work</a>
+<ul>
+<li><a href="#rule1">Rule 1</a></li>
+<li><a href="#rule2">Rule 2</a></li>
+<li><a href="#rule3">Rule 3</a></li>
+<li><a href="#rule4">Rule 4</a></li>
+<li><a href="#rule5">Rule 5</a></li>
+</ul>
+</li>
+<li><a href="#tools">EV Training Tools</a>
+<ul>
+<li><a href="#items">Macho Brace and Power Items</a></li>
+<li><a href="#pkrs">Pokerus</a></li>
+<li><a href="#vitamins">Vitamins</a></li>
+<li><a href="#reduceberries">EV Reducing Berries</a></li>
+</ul>
+</li>
+<li><a href="#changes">Fifth Generation Changes and Additions to the EV System</a>
+<ul>
+<li><a href="#application">Application of EVs</a></li>
+<li><a href="#wings">Wings</a></li>
+<li><a href="#checker">The EV Checker</a></li>
+</ul>
+</li>
+<li><a href="#hotspots">EV Training Hotspots</a>
+</li>
+<li><a href="#level50">EVing for Level 50</a>
+<ul>
+<li><a href="#rule_1">Rule 1</a></li>
+<li><a href="#rule_2">Rule 2</a></li>
+</ul>
+</li>
+</ol>
+
+<h2><a name="intro">Introduction</a></h2>
+<p>EV training in Black and White has remained mostly unchanged from the fourth generation games, save for a few small changes. The changes are comprised of a new mechanic, new items, and the return of a third generation mechanic regarding the EV reducing berries. The new mechanic is a change to when EVs are applied, with the Pokemon no longer having to level up for EVs to effect the stat. Wings are the new set of items introduced in Black and White that give 1 EV to a specific stat with each use. The fifth generation EV system certainly brought some interesting new tools to ease the odious task of EV training, but let's first re-visit the basics of EV training.</p>
+
+
+<h2><a name="how">How EVs Work</a></h2>
+<p>Effort Values, or EVs for short, allow you to further build upon your Pokemon's base stats. They are extremely important in the world of competitive Pokemon battling, as the more EVs you invest in a stat, the higher that Pokemon's stats will be. To really understand EVs, you have to know more about how a Pokemon's stats are calculated.</p>
+
+<p>The following two formulas determine your Pokemon's stats (round down after every parenthesis):</p>
+
+<p>HP = ((2 * BaseHP + IV + (EV / 4)) * Level / 100 + Level + 10)<br />
+Stat = (((2 * BaseStat + IV + (EV / 4)) * Level / 100 + 5) * Nature)</p>
+
+<p>Where</p>
+
+<p>BaseHP = The Pokemon's base HP<br />
+BaseStat = The Pokemon's base stat for your given statistic (Attack, Defense, etc)<br />
+IV = The IV value of your Pokemon's stats (anywhere from 0 to 31)<br />
+EV = The amount of EVs you invested into your Pokemon (anywhere from 0 to 255)<br />
+Nature = Nature modifier for the given stat (0.9, 1.0, and 1.1)<br />
+Level = The Pokemon's current level.</p>
+
+<p>There are five basic rules that must be followed and remembered:</p>
+
+<h3><a name="rule1">Rule 1: At level 100, for every 4 EVs that a Pokemon gains in a particular stat, the stat is increased by one point.</a></h3>
+<p>This means that if you invest 252 EVs into Attack (the maximum effective amount of EVs, more on that later), your Pokemon's Attack stat will go up by 63.</p>
+
+<p>Here's an example using everyone's new favorite rodent, Victini.</p>
+
+<p>Its base Attack stat is 100, so its maximum Attack at level 100 is 236 (Assuming a neutral nature and 31 Attack IVs). However, throw in 252 Attack EVs, and it's maximum Attack goes up to a whopping 299.</p>
+
+<p>Stat = (((2 * BaseStat + IV + (EV / 4)) * Level / 100 + 5) * Nature)<br />
+Attack = (((2 * 100 + 31 + (252 / 4)) * 100 / 100 + 5) * 1.0)<br />
+Attack = (((231 + 63) * 1 + 5) * 1.0)<br />
+Attack = ((294 * 1 + 5) * 1.0)<br />
+Attack = ((299) * 1.0)<br />
+Attack = 299</p>
+
+<p>You should also keep in mind that natures affect stats after EVs are figured in. So if our Victini had an Attack-boosting nature (such as Adamant), you would multiply our 299 Attack stat by 1.1, which brings us to 328.8 which, after rounding down, becomes 328. Likewise, if we had an Attack-lowering nature (such as Modest), we would multiply our 299 Attack stat by 0.9, which brings us to 269.1 or, after rounding, 269.</p>
+
+<p>In general, it's a bad idea to invest EVs in stats negatively affected by nature, since it undermines much of the EV work that you do in the first place.</p>
+
+<h3><a name="rule2">Rule 2: EVs invested should always be divisible by four.</a></h3>
+<p>Due to how statistics are calculated, this is one very important rule you must follow. Any leftover EVs after you divide them by four is wasted.</p>
+
+<p>For example, if you earned 253 Attack EVs, 253 divided by 4 = 63.25, which is rounded down to 63. Those 0.25 stat points are completely wasted.</p>
+
+<p>Using our formula, we will look at the important part of the equation:</p>
+
+<p>Stat = (((2 * BaseStat + IV + <strong>(EV / 4)</strong>) * Level / 100 + 5) * Nature)<br />
+(EV / 4) = (253 / 4) = (63.25)</p>
+
+<p>And remember to round down, so 63.25 = 63.</p>
+
+<h3><a name="rule3">Rule 3: Each Stat can have a maximum of 255 EVs invested. Any Pokemon can only earn a maximum of 510 EVs.</a></h3>
+<p>Keep in mind that, because EVs should always be divisible by four, the effective maximum you should invest is 252 EVs.</p>
+
+<p>Because 510 EVs is the absolute maximum, and 252 is the effective maximum per stat, that means you can—at most—max out two stats, leaving you with 6 EVs left over. This allows you to invest 4 EVs into one more stat, and you will always be left with 2 EVs left over no matter what.</p>
+
+<h3><a name="rule4">Rule 4: You gain EVs by defeating in-game Pokemon. Different Pokemon give different EVs.</a></h3>
+<p>Each Pokemon you battle in-game awards a different amount of EVs. For example, Patrat will award 1 Attack EV, while Blitzle will award 1 Speed EV.</p>
+
+<p>This includes not just wild Pokemon battles, but trainer Battles, double Battles, triple Battles, and rotation Battles. In double, triple, and rotation battles, all Pokemon that participate in the battle will earn EVs.</p>
+
+<p>Of course, there is an exception to this rule: your Pokemon do not earn EVs in battles where they would not gain experience. This includes battles against other players via local wireless, IR, or Wi-Fi, the battle against Reshiram (Black) or Zekrom (White) at N's Castle, and battles against NPCs in the Battle Subway or Battle Institute.</p>
+
+<h3><a name="rule5">Rule 5: A Pokemon starts gaining EVs from its very first battle.</a></h3>
+<p>This is perhaps the very most important rule of all. Every battle that your Pokemon participates in and gains experience, it will earn EVs. This includes using an Exp. Share, and includes switching out without attacking!</p>
+
+<p>It's vitally important that you are ready for EV training before you begin exposing your Pokemon to combat.</p>
+
+<h2><a name="tools">EV Training Tools</a></h2>
+<p>The following is a compendium of the various tools available to trainers to ease the burden of EV training.</p>
+
+<h3><a name="items">Macho Brace and Power Items</a></h3>
+<p>The Macho Brace doubles the EVs earned from battle, at the cost of halving your Pokemon's Speed while equipped. For example, a Pokemon that normally awards 1 Speed EV will award 2 Speed EVs if your Pokemon wears a Macho Brace. You can get one from a man in a baseball uniform at the eastern gate in Nimbasa City that leads to Route 16.</p>
+
+<p>The Power Items reward an additional 4 EVs to their corresponding stat after each battle your Pokemon participates in, at the cost of halving your Pokemon's Speed while equipped. Each Power Item will reward the corresponding EVs regardless of what you earn otherwise. The Power Items can be purchased for 16 BP each at the Battle Subway. It is recommended that you purchase all six (for a total of 96 BP for the entire set). The list of Power Items includes:</p>
+<ul>
+<li>Power Weight - 4 HP</li>
+<li>Power Bracer - 4 Attack</li>
+<li>Power Belt - 4 Defense</li>
+<li>Power Lens - 4 Special Attack</li>
+<li>Power Band - 4 Special Defense</li>
+<li>Power Anklet - 4 Speed</li>
+</ul>
+
+<p>The Macho Brace and Power Items do not affect the number of EVs received from using Vitamins or Wings. The number of EVs gained for each item is set to 10 and 1, respectively.</p>
+
+<h3><a name="pkrs">Pokerus</a></h3>
+<p>A Pokemon that is infected by Pokerus, or has been cured of Pokerus, will earn double the EVs it normally would after a battle. This effect stacks with the boosts from Macho Brace and the Power Items. However, Pokerus does not double the EVs gained from Vitamins or Wings, which will be discussed later on.</p>
+
+<p>It's recommended that you infect the Pokemon you want to EV train with Pokerus to save you a significant amount of time EV training.</p>
+
+<p>The fastest EV training is done with a combination of Pokerus and a Power Item, earning EVs at this rate per battle:</p>
+
+<p>(<strong>y</strong> + 4) * 2</p>
+
+<p>where <strong>y</strong> is the amount of EVs you would earn alone.</p>
+
+<h3><a name="vitamins">Vitamins</a></h3>
+<p>Vitamins will grant your Pokemon 10 EVs to the corresponding stat, until your Pokemon reaches 100 EVs in that stat. If the Pokemon already had 100 or more EVs in the stat which the Vitamin boosts, it will have no effect. In Black and White, you can buy each of the Vitamins at Shopping Mall Nine located on Route 9 for 9800. You can also buy them in the Battle Subway for 1 BP each. The six Vitamins available are as follows:</p>
+<ul>
+<li>HP Up = 10 HP EVs</li>
+<li>Protein - 10 Attack EVs</li>
+<li>Iron - 10 Defense EVs</li>
+<li>Calcium - 10 Special Attack EVs</li>
+<li>Zinc - 10 Special Defense EVs</li>
+<li>Carbos - 10 Speed EVs</li>
+</ul>
+
+<h3><a name="reduceberries">EV Reducing Berries</a></h3>
+<p>The EV reducing berries are a set of berries introduced in Pokemon Emerald that reduce your Pokemon's EVs by 10 with every use, and raise its happiness. The six berries cannot be obtained in-game; they can only be be found in the Windswept Sky area in the Dream World. The six berries include:</p>
+<ul>
+<li>Pomeg Berry - Removes 10 HP EVs</li>
+<li>Kelpsy Berry - Removes 10 Attack EVs</li>
+<li>Qualot Berry - Removes 10 Defense EVs</li>
+<li>Hondew Berry - Removes 10 Special Attack EVs</li>
+<li>Grepa Berry - Removes 10 Special Attack EVs</li>
+<li>Tamato Berry - Removes 10 Speed EVs</li>
+</ul>
+
+<p>In fourth generation games, if your Pokemon had over 100 EVs already invested, consuming one of these berries would drop the value down to 100 EVs exactly. However, in Black and White, each EV reducing berry will only decrement the EV value by 10 regardless if it's over 100, so if your Pokemon has 200 EVs in its Attack stat and you use a Kelpsy Berry to lower it, the value will drop to 190. As a result, to completely wipe all the EVs from a stat that has the maximum number of EVs (255 EVs), you would need 26 EV reducing berries of the corresponding stat. Accumulating such a large number of berries is made even more tedious due to the fact that you can only grow the berries in your garden in your Dream World home, and it takes days for the trees to bear berries.</p>
+
+<h2><a name="NAME">Fifth Generation Changes and Additions to the EV System</a></h2>
+
+<h3><a name="application">Application of EVs</a></h3>
+<p>Perhaps the biggest change in EV training since the entire EV system was changed with Gen 3 is a shift away from having to level up your Pokemon to view the effects of EVs.</p>
+
+<p>In BW, after defeating a Pokemon and earning EVs, they are applied to your Pokemon's respective stat as soon as the battle ends, or you level up mid-battle. This means you can see the fruits of your labor immediately, without having to wait for your Pokemon to level up, and without having to resort to such things as the "Box Trick". Consequently, this means level 100 Pokemon can earn EVs through battle, as your Pokemon no longer needs to level up to reap the benefits of EVs. This development had the largest impact on Arceus, which can only be obtained at level 100 via events in both fourth and fifth generation games. Now, Arceus can be fully EVed in any stat instead of limiting itself to 100 EVs per stat from Vitamins.</p>
+
+<h3><a name="wings">Wings</a></h3>
+<p>The Wings are a set of items introduced in Pokemon Black and White that will grant your Pokemon 1 EV to the corresponding stat. They function similar to the Vitamins, but can be used over the 100 EV limit set on Vitamins. In essence, you can completely EV train a Pokemon using Wings alone without ever entering into battle with it. Wings can be found in the shadowy patches that appear on Driftveil Drawbridge and Marvelous Bridge (along with Ducklett on Driftveil Drawbridge and Swanna on Marvelous Bridge). The six type of Wings are as follows:</p>
+<ul>
+<li>Health Wing - 1 HP EV</li>
+<li>Muscle Wing - 1 Attack EV</li>
+<li>Resist Wing - 1 Defense EV</li>
+<li>Genius Wing - 1 Special Attack EV</li>
+<li>Clever Wing - 1 Special Defense EV</li>
+<li>Swift Wing - 1 Speed EV</li>
+</ul>
+
+<p>There is a seventh Wing that you can find on the bridges called the Pretty Wing, but it has no effect and only serves as an item to be sold. Additionally, the Ducklett on the Driftveil Drawbridge and the Swanna on the Marvelous Bridge that also appear in the shadow spots are good sources of HP and Speed EVs; Ducklett gives 1 HP EV and Swanna gives 2 Speed EVs. So, while you're out searching for Wings, you can start EV training your Pokemon on the bridge.</p>
+
+<h3><a name="checker">The EV Checker</a></h3>
+<p>In Black and White, you can no longer earn an Effort Ribbon for reaching 510 EVs. However, you can still check to see if you have properly EV trained your Pokemon by visiting the EV checker in Opelucid City. They are located in the small house directly north of the Pokemon Center. The EV checker is the woman in white walking walking around the first floor.</p>
+
+<p>When you speak to the EV checker, she will give you one of two messages. If the Pokemon at the head of your party has fewer than 510 EVs, then she will tell you "Your &lt;Pok&eacute;mon&gt;... looks like it can try harder." If it has 510 EVs, she will say "Your &lt;Pok&eacute;mon&gt;... put in great effort!" You can conveniently use her to verify that you have properly EV trained your Pokemon. Here's how:</p>
+
+1. Earn precisely 508 EVs (the effective maximum)
+2. Talk to her. She should say "Your &lt;Pok&eacute;mon&gt;... looks like it can try a little harder."
+3. Use one Wing of your choice.
+4. Talk to her. Her message should not have changed.
+5. Use one more Wing of your choice.
+6. Talk to her. Her message should now say "Your &lt;Pok&eacute;mon&gt;... has put in a great effort!"
+
+<p>If you don't have two feathers to use, you can also earn exactly 2 EVs of your choice and talk to her to see if your message changes. If for some reason you receive the "great effort" message before you expect to, then you have improperly EV trained, and you should probably reset and start over, or use EV-erasing berries.</p>
+
+<h2><a name="hotspots">EV Training Hotspots</a></h2>
+<p>Although you can train your EVs off of Pokemon anywhere you want, there are certain ideal locations in-game where you can train your Pokemon in the fastest possible manner, and with the least effort.</p>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Pokemon</th>
+<th>Levels</th>
+<th>Location</th>
+<th>Appearance Rate</th>
+<th>EVs Given</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th colspan="5">HP</th>
+</tr>
+<tr>
+<td>Stunfisk</td>
+<td>15-35</td>
+<td>Route 8 / Icirrus City (Surf)</td>
+<td>100%</td>
+<td>2</td>
+</tr>
+<tr class="a">
+<td>Victini</td>
+<td>15</td>
+<td>Liberty Island</td>
+<td>100%, only if Victini has not been captured and you have access to Liberty Gardens.</td>
+<td>3</td>
+</tr>
+<tr>
+<th colspan="5">Attack</th>
+</tr>
+<tr>
+<td>Patrat / Lillipup</td>
+<td>2-4</td>
+<td>Route 1</td>
+<td>50% / 50%</td>
+<td>1 / 1</td>
+</tr>
+<tr class="a">
+<td>Tranquill / Druddigon / Miefoo</td>
+<td>31-33</td>
+<td>Dragonspiral Tower - Outside / Entrance (Single Grass) - Spring / Summer / Autumn</td>
+<td>30% / 30% / 10%</td>
+<td></td>
+</tr>
+<tr>
+<td>Tranquill / Sawsbuck / Druddigon / Mienfoo</td>
+<td>34-37</td>
+<td>Tower - Outside (Double Grass) - Spring / Summer / Autumn</td>
+<td>30% / 30% / 10% / 30%</td>
+<td>2 / 2 / 2 / 1</td>
+</tr>
+<tr class="a">
+<td>Sawsbuck / Beartic / Mienfoo</td>
+<td>30-33</td>
+<td>Dragonspiral Tower - Outside/Entrance (Double Grass) - Winter</td>
+<td>30% / 10% / 30%</td>
+<td>2 / 2 / 1</td>
+</tr>
+<tr>
+<td>Druddigon / Golett / Mienfoo</td>
+<td>30-33</td>
+<td>Dragonspiral Tower - 1F</td>
+<td>30% / 50% / 20%</td>
+<td>2 / 1 / 1</td>
+</tr>
+<tr class="a">
+<td>Golett</td>
+<td>30-33</td>
+<td>Dragonspiral Tower - 2F</td>
+<td>100%</td>
+<td>1</td>
+</tr>
+<tr>
+<th colspan="5">Defense</th>
+</tr>
+<tr>
+<td>Roggenrola</td>
+<td>10-13</td>
+<td>Wellspring Cave</td>
+<td>50%</td>
+<td>1</td>
+</tr>
+<tr class="a">
+<td>Sandslash / Cofagrigus / Onix</td>
+<td>47-50</td>
+<td>Relic Castle - B6f</td>
+<td>30% / 20% / 15%</td>
+<td>2 / 2 / 1</td>
+</tr>
+<tr>
+<td>Sewaddle / Venipede</td>
+<td>14-17</td>
+<td>Pinwheel Forest (Inner area)</td>
+<td>35% / 15%</td>
+<td>1 / 1</td>
+</tr>
+<tr>
+<th colspan="5">Special Attack</th>
+</tr>
+<tr>
+<td>Litwick</td>
+<td>26-29</td>
+<td>Celestial Tower - 2F</td>
+<td>100%</td>
+<td>1</td>
+</tr>
+<tr class="a">
+<td>Litwick / Elgyem</td>
+<td>26-29</td>
+<td>Celestial Tower - 3F to 5F</td>
+<td>85% (4F: 70%) (5F: 50%) / 15%  (4F: 30%) (5F: 50%) </td>
+<td>1 / 1</td>
+</tr>
+<tr>
+<th colspan="5">Special Defense</th>
+</tr>
+<tr>
+<td>Frillish</td>
+<td>5-15</td>
+<td>Route 4 / 17/ 18 / Driftveil City (Surf)</td>
+<td>100%</td>
+<td>1</td>
+</tr>
+<tr class="a">
+<td>Claydol</td>
+<td>47-50</td>
+<td>Relic Castle - Maze End (Volcarona's Chamber)</td>
+<td>100%</td>
+<td>2</td>
+</tr>
+<tr>
+<th colspan="5">Speed</th>
+</tr>
+<tr>
+<td>Basculin</td>
+<td>5-15</td>
+<td>Route 1 / 3 / 6 / Striaton City (Surf)</td>
+<td>100%</td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+
+<h2><a name="level50">EVing for Level 50</a></h2>
+<p>If you plan on battling on one of the lines in the Battle Subway, playing ranked battles over Wi-Fi to boost your ranking in the Global Battle Union, or participating at a VGC, this section contains a few important exceptions you should be aware of before EVing your Pokemon. The following rules are here to guide you so that you don't waste EVs when you EV train your Pokemon for formats that use Flat Battle rules (All Pokemon have their levels reduced to 50).</p>
+
+<p>First, the HP formula at level 50 simplifies to the following:</p>
+
+<p>HP = (2 * BaseHP + IV + (EV / 4)) * Level / 100 + Level + 10<br />
+HP = (2 * BaseHP + IV + (EV / 4)) * 50/100 + 50 + 10<br />
+HP = (2 * BaseHP + IV + (EV / 4)) * 0.5 + 60<br />
+<strong>HP = BaseHP + 0.5 * IV + 0.125 * EV + 60</strong></p>
+
+<p>while the Stat formula at level 50 simplifies to the following:</p>
+
+<p>Stat = ((2 * BaseStat + IV + (EV / 4)) * Level / 100 + 5) * Nature<br />
+Stat = ((2 * BaseStat + IV + (EV / 4)) * 50/100 + 5) * Nature<br />
+Stat = ((2 * BaseStat + IV + (EV / 4)) * 0.5 + 5) * Nature<br />
+<strong>Stat = (BaseStat + 0.5 * IV + 0.125 * EV + 5) * Nature</strong></p>
+
+<p>Essentially, it means that the effectiveness of IVs and EVs is halved, which brings us to the first rule:</p>
+
+<h3><a name="rule_1">Rule 1: Stat Gains for EVs are Halved.</a></h3>
+<p>Essentially, at level 50 it takes 8 EVs to equal one stat point. This statement may lead one to think that instead of having your EVs divided by 4 at all times, you should have your EVs divided by 8 at all times. Therefore, only 248 EVs would have to be invested to maximize a stat. That's not entirely true, though, as you'll see after reading the next rule.</p>
+
+<h3><a name="rule_2">Rule 2: IV/2 + EVs/8 must be a whole number.</a></h3>
+<p>If IV/2 + EV/8 is not a whole number, you have not invested enough EVs!</p>
+
+<p><em>Alternatively, this rule can be written as "IV + EV/4 must be an even number".</em></p>
+
+<p>Due to the way stats are calculated (after adding IV and EV gain, you round down), if your Pokemon has an odd IV (such as 31), then the total stat gain from EVs (that is, EV/4) should also be odd, so that they are both divisible by two. If your Pokemon's IV is even (such as 30), then the total EV gain (EV / 4) should also be even.</p>
+
+<p>To show you what I'm talking about, let's take an example using Thundurus.</p>
+
+<p>With a base 125 Special Attack, the stat formula at level 50 becomes:<br />
+Stat = (BaseStat + 0.5 * IV + 0.125 EV + 5) * Nature</p>
+
+<p>Now, you would think that you would want your EVs to be 248 since it is divisible by 8, right? Let's plug in 125 for base Special Attack, 31 IV, and 248 EV (248 is divisible by 8), and see what we get:</p>
+
+<p>Stat = (125 + 0.5 * 31 + 0.125 * 248 + 5) * Nature<br />
+Stat = (100 + 15.5 + 31 + 5) * Nature<br />
+Stat = (176.5) * Nature</p>
+
+<p>Now, after rounding, we get 176*Nature. Essentially, we have not invested enough EVs into Special Attack to reach its maximum.</p>
+
+<p>Lets bump our EVs up to 252.</p>
+
+<p>Stat = (BaseStat + 0.5 * IV + 0.125 * EV + 5) * Nature<br />
+Stat = (125 + 0.5 * 31 + 0.125 * 252 + 5) * Nature<br />
+Stat = (125 + 15.5 + 31.5 + 5) * Nature<br />
+Stat = (177) * Nature</p>
+
+<p>Because 152 is a whole number, no rounding is necessary. And we got maximum effectiveness out of our EVs.</p>
+
+<p>Now what do we do if our IV is 30 instead of 31? In that case, we should lower our EVs in the stat to only 248, so that we don't end up with a decimal point.</p>
+
+<p>Stat = (BaseStat + 0.5 * 30 + 0.125 * 248 + 5) * Nature<br />
+Stat = (BaseStat + 15 + 31 + 5) * Nature</p>
+
+<p>Since 15 and 31 both add up to a whole number (46), no EVs are wasted. Unfortunately, as expected, we can't reach Thundurus's maximum Special Attack with 30 IVs.</p>

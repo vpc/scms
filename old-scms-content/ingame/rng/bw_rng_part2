@@ -1,0 +1,147 @@
+[title]
+BW RNG Manipulation Guide Part 2 - How to RNG a Perfect Pokemon
+[head]
+<meta name="description" content="BW RNG Manipulation Guide Part 2 - How to RNG a Perfect Pokemon" />
+[page]
+<div class="author">By <a href="/forums/member.php?u=32572">Kaphotics</a>.</div>
+
+
+<ul class="toc">
+<li><a href="bw_rng_intro">The BW RNG Manipulation Guide</a></li>
+<li><a href="bw_rng_part1">BW RNG Manipulation Guide Part 1 - Common Information for Breeding, Capturing, and Receiving Perfect Pokemon</a></li>
+<li><a href="bw_rng_part2">BW RNG Manipulation Guide Part 2 - How to RNG a Perfect Pokemon</a>
+<ul>
+<li><a href="#find">Finding the Standard Seeds for IV RNG Abuse</a></li>
+<li><a href="#prep">Preparations In Game to hit your Seed</a></li>
+<li><a href="#adv">Methods to advance the IV Frame</a></li>
+<li><a href="#hitting">Hitting your Standard Seed and receiving the IV Abused Pokemon</a></li>
+</ul>
+</li>
+<li><a href="bw_rng_part3">BW RNG Manipulation Guide Part 3 - How to Capture Perfect and / or Shiny Pokemon by Controlling the PIDRNG</a></li>
+<li><a href="bw_rng_part4">BW RNG Manipulation Guide Part 4 - How to Abuse your IDs</a></li> 
+<li><a href="bw_rng_part5">BW RNG Manipulation Guide Part 5 - How to Hatch Shiny (and Perfect) Pokemon</a></li> 
+<li><a href="bw_rng_part6">BW RNG Manipulation Guide Part 6 - Receiving Perfect Wondercard Pokemon</a></li>
+<li><a href="bw_rng_part7">BW RNG Manipulation Guide Part 7 - Capturing Perfect Roaming Pokemon</a></li> 
+</ul>
+
+<p>Now that you have successfully calibrated and have your Parameters for your version and DS, you now can predict what seeds your game will start with by using RNG Reporter.</p>
+
+<h2><a name="find">Finding the Standard Seeds for IV RNG Abuse</a></h2>
+
+<p>To find a Standard Seed that you need to hit, you will first have to open up <strong>RNG Reporter</strong>. Select <strong>Time Finder</strong>, and a new window will appear. The <strong>Capture</strong> tab will automatically be loaded and is the only one you need to worry about in order to RNG in Black and White.</p>
+
+<p><img src="/media/ingame/images/ingame_bwrng_tf.png" alt="" /></p>
+
+<p>Here's a slight predicament: There are actually <em><strong>two</strong></em> different RNGs. On one hand, you have the <strong>Mersenne Twister RNG</strong>, which determines IVs. The other, the PIDRNG, determines nature, ability, and shininess. The focus for this section of the guide is IVs, as we are still not very experienced this Generation. For right now we'll only care about IVs, leaving the nature to synchronization, which is a 50% chance.</p>
+
+<p>The easiest way to start is to catch a stationary legendary. The members of the <em>Musketeer Trio</em> are prime candidates, even Kyurem!</p>
+
+<p>In the IV section on the right, specify the criteria for your IV Spread that is desired for your target Pokemon. The larger the IV range you are accepting, the more results you will have to choose from.</p>
+
+<ol style="list-style-type: decimal">
+<li>Select the IV Frame Range to search. For now, it is best to have a frame 1 spread. Anything larger than that will require frame advancement, which will be covered later in this section and is not suggested for your first abuse.</li>
+<li>Choose a month to search for seeds in.</li>
+<li>Select Method 5 (Standard Seed) as the Method.</li>
+<li>Select the encounter type for your Pokemon.
+<ul>
+<li>Wild Pokemon: Anything that can be captured in the wild that is not stationary.
+<ul>
+<li>For IV spreads via Standard Seed, leave encounter slot at (Any).</li>
+</ul></li>
+<li>Stationary Pokemon: Non-moving Pokemon that you can interact with for a battle.</li>
+<li>Gift Pokemon: Eggs, gifts from NPCs, Fossils, and Starters.</li>
+<li>Roaming Pokemon: Only for the roaming Genie.</li>
+<li>You are unable to do Entralink Pokemon (DW) with this method. It is currently covered in the 5th Generation RNG Help Thread located in the Wi-Fi Sub-Forum.</li>
+</ul></li>
+<li>Click on the tab DS Parameters.
+<ul>
+<li>Make sure your parameters and version are correct.</li>
+<li>Do not select Soft Reset.</li>
+<li>Keypresses: More keypresses => More results => more time.
+<ul>
+<li>For the majority of people, having a keypress seed increases their calibrated timer0 by 1. If you want keypress seed, adjust your calibrated timer0 according to how your DS acts.</li>
+</ul></li>
+</ul></li>
+<li>Click back to the Capture tab.</li>
+<li>Press Generate. Depending on the amount of keypresses you allowed for, this may take awhile to complete.
+<ul>
+<li>You can stop the search by pressing cancel in the Time Finder Progress window that pops up when you press Generate.</li> 
+<li>All the currently found seeds will remain if you do so.</li>
+</ul></li>
+</ol>
+
+<p><img src="/media/ingame/images/ingame_bwrng_tfres.png" alt="" /></p>
+
+<h2><a name="prep">Preparations In Game to hit your Seed</a></h2>
+
+<ul>
+<li>While the results are generating, it is best to prepare for your capture in game.
+<ul>
+<li>If your target IV frame is 1, save in front of whatever you plan to catch. Bring no more than 5 Pokemon.</li>
+<li>If your target IV frame is not 1, you need a certain number of Pokemon in your party.</li>
+</ul></li>
+<li>Do not save in front of your legendary or at your location just yet if your target IV frame is not 1. The number of Pokemon you need in your party will vary depending on the frame you need to hit.</li>
+<li>When you manipulate the RNG, your Pokemon's target IV spread will fall onto a certain numbered frame.
+<ul>
+<li>When you first start up the game, the first thing you will get is on frame 1.</li>
+<li>If you want to catch a Pokemon that is on frame 4, for example, you need to bump up the frame count by 3. Follow this simple equation:</li>
+</ul></li></ul>
+
+<h3>(Target Frame) - (Initial Frame) - (Starting Frame) + 1 = Advances Required</h3>
+
+<ul>
+<li>Your Target Frame is the frame you are trying to hit. In RNG Reporter, it is listed under Frame.</li>
+<li>The Initial Frame is the frame you start at when you have loaded up the game.
+<ul>
+<li>For IVs, it will always be 1.</li>
+</ul></li>
+<li>Starting Frames for IVs are different for each encounter type.
+<ul><li>Wild and Stationary Pokemon start on frame 1.</li>
+<li>Roaming Pokemon start on frame 1.</li>
+<li>Eggs and Gifts start on frame 8.
+<ul>
+<li>Starters are on frame 1.</li>
+</ul></li>
+</ul></li>
+<li>Do the equation to find out how many advances you need to do to hit your target IV frame.</li></ul>
+
+<h2><a name="adv">Methods to advance the IV Frame</a></h2>
+
+<ul>
+<li>Move 128 steps with # Pokemon in your party.
+<ul>
+<li>This will increase your frame by #. For example, if you have 5 Pokemon in your party, the frame will go up by 5 after moving 128 steps.</li>
+</ul></li>
+<li>Move a Pokemon from the PC to your party.
+<ul>
+<li>This will increase your frame by 7.</li>
+</ul></li>
+<li>Use Repels to keep track of your steps, and then count the last few ones.
+<ul><li>Repel = 100 steps</li>
+<li>Super Repel = 200 steps</li>
+<li>Max Repel = 250 steps</li>
+</ul></li>
+</ul>
+
+<p>Now that you have prepared so that you can hit your target IV frame, you are ready to hit your seed and encounter your Pokemon!</p>
+
+<h2><a name="hitting">Hitting your Standard Seed and receiving the IV Abused Pokemon</a></h2>
+
+<p>Look at the Keypresses column for your seed. If you have a keypress combination in this column, take note of it: you need to hold these key(s) as you start the game until you get to the white Nintendo logo.</p>
+
+<p><img src="/media/ingame/images/ingame_bwrng_ninlogo.png" alt="" /></p>
+
+<ol style="list-style-type: decimal"><li>Set your DS clock so that you are able to start the game at the time RNG Reporter tells you to. 
+<ul>
+<li>When you calibrated, if you started the game at X seconds in the calibration phase and got X+Y seconds in Actual Seconds, you have an offset of Y seconds.</li> 
+<li>For almost everyone, the actual seconds offset it 1, so you would start your game one second earlier than your target time.</li>
+</ul></li>
+<li>Hit your target time, do your keypresses, and arrive at the continue screen. </li>
+<li>No rush, but do not be slow. Enter the game, and <strong><em>do not turn on the C-Gear</em></strong>.</li>
+</ol>
+
+<p>Now, catching something on the first frame is easy. Since you have hit your seed, just initiate the battle and catch or receive the target Pokemon once you have done your advances if necessary. Check its IVs to be sure you hit your seed and IV spread.</p>
+
+<p>If you want a particular nature, using a Pokemon with the ability Synchronize will give it a 50% chance of having the nature of the Synchronizer. If you do not like the nature you get, you can repeat the seed hitting process. If you get the same exact Pokemon (nature), saving the game at least once should change what nature (and wild Pokemon) you receive.</p>
+
+<p>Now that you are able to hit seeds and get excellent IVs on a Pokemon, there still remains another aspect of the RNG you have yet to control. The PIDRNG determines everything but IVs, and this is covered in the next section.</p>

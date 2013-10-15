@@ -1,0 +1,5407 @@
+[title]
+The Breeding Guide Part III
+[head]
+<meta name="description" content="Everything you need to know about breeding in DPP and ADV." />
+[page]
+<div class="author">By <a href="/forums/member.php?u=2412">X-Act</a> and <a href="/forums/member.php?u=1430">Peterko</a>.</div>
+
+<ul class="toc">
+    <li>
+        <a href="breeding_guide_part1">Part One of the Breeding Guide</a>
+    </li>
+    <li>
+        <a href="breeding_guide_part2">Part Two of the Breeding Guide</a>
+    </li>
+    <li>
+        <a href="breeding_guide_part3">Part Three of the Breeding Guide</a>
+        <ul>
+            <li><a href="#one">Section One: One Flawless IV</a></li>
+            <li><a href="#two">Section Two: Two Flawless IVs</a></li>
+            <li><a href="#three">Section Three: Three Flawless IVs</a></li>
+            <li><a href="#four">Section Four: Four Flawless IVs</a></li>
+            <li><a href="#five">Section Five: Five Flawless IVs</a></li>
+            <li><a href="#six">Section Six: Six Flawless IVs</a></li>
+            <li><a href="#other">Section Seven: Any Other Combination</a></li>
+        </ul>
+    </li>
+    <li><a href="breeding_guide_part4">Part Four of the Breeding Guide</a></li>
+</ul>
+
+<h2>Emerald, Diamond, and Pearl Breeding Combinations List</h2>
+
+<p>The IVs are written in the following order: HP, Attack, Defense, Special Attack, Special Defense, and Speed.</p>
+
+<p>A Pokemon having 31/x/x/31/31/x IVs means that it has 31 IV in HP, 31 IV in Special Attack, 31 IV in Special Defense, and any IV except 31 in Attack, Defense, and Speed.</p>
+
+<p>Odds of 1:x means that the average number of Eggs that need to be bred in order for the baby to have the required IVs is x.</p>
+
+<h3><a name="one">Section One: One Flawless IV</a></h3>
+
+<table class="sortable">
+<caption>Odds to Breed a 31/x/x/x/x/x Baby (flawless HP)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>31/x/x/x/x/x</td>
+<td>31/x/x/x/x/x</td>
+<td>1:6</td>
+</tr>
+<tr>
+<td>31/x/x/x/x/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:10</td>
+</tr>
+<tr class="a">
+<td>x/x/x/x/x/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:39</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a x/31/x/x/x/x Baby (flawless Atk)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>x/31/x/x/x/x</td>
+<td>x/31/x/x/x/x</td>
+<td>1:2</td>
+</tr>
+<tr>
+<td>x/31/x/x/x/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:4</td>
+</tr>
+<tr class="a">
+<td>x/x/x/x/x/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:64</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a x/x/31/x/x/x Baby (flawless Def)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>x/x/31/x/x/x</td>
+<td>x/x/31/x/x/x</td>
+<td>1:3</td>
+</tr>
+<tr>
+<td>x/x/31/x/x/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:6</td>
+</tr>
+<tr class="a">
+<td>x/x/x/x/x/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:48</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a x/x/x/31/x/x Baby (flawless SpA)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>x/x/x/31/x/x</td>
+<td>x/x/x/31/x/x</td>
+<td>1:2</td>
+</tr>
+<tr>
+<td>x/x/x/31/x/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:4</td>
+</tr>
+<tr class="a">
+<td>x/x/x/x/x/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:64</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a x/x/x/x/31/x Baby (flawless SpD)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>x/x/x/x/31/x</td>
+<td>x/x/x/x/31/x</td>
+<td>1:2</td>
+</tr>
+<tr>
+<td>x/x/x/x/31/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:4</td>
+</tr>
+<tr class="a">
+<td>x/x/x/x/x/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:64</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a x/x/x/x/x/31 Baby (flawless Spe)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>x/x/x/x/x/31</td>
+<td>x/x/x/x/x/31</td>
+<td>1:2</td>
+</tr>
+<tr>
+<td>x/x/x/x/x/31</td>
+<td>x/x/x/x/x/x</td>
+<td>1:4</td>
+</tr>
+<tr class="a">
+<td>x/x/x/x/x/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:64</td>
+</tr>
+</tbody>
+</table>
+
+<h3><a name="two">Section Two: Two Flawless IVs</a></h3>
+
+<table class="sortable">
+<caption>Odds to Breed a 31/31/x/x/x/x Baby (flawless HP and Atk)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>31/31/x/x/x/x</td>
+<td>31/31/x/x/x/x</td>
+<td>1:12</td>
+</tr>
+<tr>
+<td>31/31/x/x/x/x</td>
+<td>x/31/x/x/x/x</td>
+<td>1:21</td>
+</tr>
+<tr class="a">
+<td>31/31/x/x/x/x</td>
+<td>31/x/x/x/x/x</td>
+<td>1:23</td>
+</tr>
+<tr>
+<td>31/31/x/x/x/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:40</td>
+</tr>
+<tr class="a">
+<td>31/x/x/x/x/x</td>
+<td>x/31/x/x/x/x/x</td>
+<td>1:40</td>
+</tr>
+<tr>
+<td>x/31/x/x/x/x</td>
+<td>x/31/x/x/x/x</td>
+<td>1:72</td>
+</tr>
+<tr class="a">
+<td>x/31/x/x/x/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:140</td>
+</tr>
+<tr>
+<td>31/x/x/x/x/x</td>
+<td>31/x/x/x/x/x</td>
+<td>1:285</td>
+</tr>
+<tr class="a">
+<td>31/x/x/x/x/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:512</td>
+</tr>
+<tr>
+<td>x/x/x/x/x/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:2560</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a 31/x/31/x/x/x Baby (flawless HP and Def)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>31/x/31/x/x/x</td>
+<td>31/x/31/x/x/x</td>
+<td>1:22</td>
+</tr>
+<tr>
+<td>31/x/31/x/x/x</td>
+<td>x/x/31/x/x/x</td>
+<td>1:35</td>
+</tr>
+<tr class="a">
+<td>31/x/31/x/x/x</td>
+<td>31/x/x/x/x/x</td>
+<td>1:39</td>
+</tr>
+<tr>
+<td>31/x/31/x/x/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:64</td>
+</tr>
+<tr class="a">
+<td>31/x/x/x/x/x</td>
+<td>x/x/31/x/x/x</td>
+<td>1:64</td>
+</tr>
+<tr>
+<td>x/x/31/x/x/x</td>
+<td>x/x/31/x/x/x</td>
+<td>1:102</td>
+</tr>
+<tr class="a">
+<td>x/x/31/x/x/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:192</td>
+</tr>
+<tr>
+<td>31/x/x/x/x/x</td>
+<td>31/x/x/x/x/x</td>
+<td>1:214</td>
+</tr>
+<tr class="a">
+<td>31/x/x/x/x/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:384</td>
+</tr>
+<tr>
+<td>x/x/x/x/x/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:1920</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a 31/x/x/31/x/x Baby (flawless HP and SpA)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>31/x/x/31/x/x</td>
+<td>31/x/x/31/x/x</td>
+<td>1:12</td>
+</tr>
+<tr>
+<td>31/x/x/31/x/x</td>
+<td>x/x/x/31/x/x</td>
+<td>1:21</td>
+</tr>
+<tr class="a">
+<td>31/x/x/31/x/x</td>
+<td>31/x/x/x/x/x</td>
+<td>1:23</td>
+</tr>
+<tr>
+<td>31/x/x/31/x/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:40</td>
+</tr>
+<tr class="a">
+<td>31/x/x/x/x/x</td>
+<td>x/x/x/31/x/x</td>
+<td>1:40</td>
+</tr>
+<tr>
+<td>x/x/x/31/x/x</td>
+<td>x/x/x/31/x/x</td>
+<td>1:72</td>
+</tr>
+<tr class="a">
+<td>x/x/x/31/x/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:140</td>
+</tr>
+<tr>
+<td>31/x/x/x/x/x</td>
+<td>31/x/x/x/x/x</td>
+<td>1:285</td>
+</tr>
+<tr class="a">
+<td>31/x/x/x/x/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:512</td>
+</tr>
+<tr>
+<td>x/x/x/x/x/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:2560</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a 31/x/x/x/31/x Baby (flawless HP and SpD)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>31/x/x/x/31/x</td>
+<td>31/x/x/x/31/x</td>
+<td>1:12</td>
+</tr>
+<tr>
+<td>31/x/x/x/31/x</td>
+<td>x/x/x/x/31/x</td>
+<td>1:21</td>
+</tr>
+<tr class="a">
+<td>31/x/x/x/31/x</td>
+<td>31/x/x/x/x/x</td>
+<td>1:23</td>
+</tr>
+<tr>
+<td>31/x/x/x/31/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:40</td>
+</tr>
+<tr class="a">
+<td>31/x/x/x/x/x</td>
+<td>x/x/x/x/31/x</td>
+<td>1:40</td>
+</tr>
+<tr>
+<td>x/x/x/x/31/x</td>
+<td>x/x/x/x/31/x</td>
+<td>1:72</td>
+</tr>
+<tr class="a">
+<td>x/x/x/x/31/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:140</td>
+</tr>
+<tr>
+<td>31/x/x/x/x/x</td>
+<td>31/x/x/x/x/x</td>
+<td>1:285</td>
+</tr>
+<tr class="a">
+<td>31/x/x/x/x/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:512</td>
+</tr>
+<tr>
+<td>x/x/x/x/x/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:2560</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a 31/x/x/x/x/31 Baby (flawless HP and Spe)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>31/x/x/x/x/31</td>
+<td>31/x/x/x/x/31</td>
+<td>1:12</td>
+</tr>
+<tr>
+<td>31/x/x/x/x/31</td>
+<td>x/x/x/x/x/31</td>
+<td>1:21</td>
+</tr>
+<tr class="a">
+<td>31/x/x/x/x/31</td>
+<td>31/x/x/x/x/x</td>
+<td>1:23</td>
+</tr>
+<tr>
+<td>31/x/x/x/x/31</td>
+<td>x/x/x/x/x/x</td>
+<td>1:40</td>
+</tr>
+<tr class="a">
+<td>31/x/x/x/x/x</td>
+<td>x/x/x/x/x/31</td>
+<td>1:40</td>
+</tr>
+<tr>
+<td>x/x/x/x/x/31</td>
+<td>x/x/x/x/x/31</td>
+<td>1:72</td>
+</tr>
+<tr class="a">
+<td>x/x/x/x/x/31</td>
+<td>x/x/x/x/x/x</td>
+<td>1:140</td>
+</tr>
+<tr>
+<td>31/x/x/x/x/x</td>
+<td>31/x/x/x/x/x</td>
+<td>1:285</td>
+</tr>
+<tr class="a">
+<td>31/x/x/x/x/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:512</td>
+</tr>
+<tr>
+<td>x/x/x/x/x/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:2560</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a x/31/31/x/x/x Baby (flawless Atk and Def)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>x/31/31/x/x/x</td>
+<td>x/31/31/x/x/x</td>
+<td>1:7</td>
+</tr>
+<tr>
+<td>x/31/31/x/x/x</td>
+<td>x/31/x/x/x/x</td>
+<td>1:13</td>
+</tr>
+<tr class="a">
+<td>x/31/31/x/x/x</td>
+<td>x/x/31/x/x/x</td>
+<td>1:13</td>
+</tr>
+<tr>
+<td>x/31/31/x/x/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:24</td>
+</tr>
+<tr class="a">
+<td>x/31/x/x/x/x</td>
+<td>x/x/31/x/x/x</td>
+<td>1:24</td>
+</tr>
+<tr>
+<td>x/31/x/x/x/x</td>
+<td>x/31/x/x/x/x</td>
+<td>1:86</td>
+</tr>
+<tr class="a">
+<td>x/x/31/x/x/x</td>
+<td>x/x/31/x/x/x</td>
+<td>1:153</td>
+</tr>
+<tr>
+<td>x/31/x/x/x/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:167</td>
+</tr>
+<tr class="a">
+<td>x/x/31/x/x/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:293</td>
+</tr>
+<tr>
+<td>x/x/x/x/x/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:3414</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a x/31/x/31/x/x Baby (flawless Atk and SpA)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>x/31/x/31/x/x</td>
+<td>x/31/x/31/x/x</td>
+<td>1:5</td>
+</tr>
+<tr>
+<td>x/31/x/31/x/x</td>
+<td>x/31/x/x/x/x</td>
+<td>1:9</td>
+</tr>
+<tr class="a">
+<td>x/31/x/31/x/x</td>
+<td>x/x/x/31/x/x</td>
+<td>1:9</td>
+</tr>
+<tr>
+<td>x/31/x/31/x/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:17</td>
+</tr>
+<tr class="a">
+<td>x/31/x/x/x/x</td>
+<td>x/x/x/31/x/x</td>
+<td>1:17</td>
+</tr>
+<tr>
+<td>x/31/x/x/x/x</td>
+<td>x/31/x/x/x/x</td>
+<td>1:105</td>
+</tr>
+<tr class="a">
+<td>x/x/x/31/x/x</td>
+<td>x/x/x/31/x/x</td>
+<td>1:105</td>
+</tr>
+<tr>
+<td>x/31/x/x/x/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:205</td>
+</tr>
+<tr class="a">
+<td>x/x/x/31/x/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:205</td>
+</tr>
+<tr>
+<td>x/x/x/x/x/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:5120</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a x/31/x/x/31/x Baby (flawless Atk and SpD)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>x/31/x/x/31/x</td>
+<td>x/31/x/x/31/x</td>
+<td>1:5</td>
+</tr>
+<tr>
+<td>x/31/x/x/31/x</td>
+<td>x/31/x/x/x/x</td>
+<td>1:9</td>
+</tr>
+<tr class="a">
+<td>x/31/x/x/31/x</td>
+<td>x/x/x/x/31/x</td>
+<td>1:9</td>
+</tr>
+<tr>
+<td>x/31/x/x/31/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:17</td>
+</tr>
+<tr class="a">
+<td>x/31/x/x/x/x</td>
+<td>x/x/x/x/31/x</td>
+<td>1:17</td>
+</tr>
+<tr>
+<td>x/31/x/x/x/x</td>
+<td>x/31/x/x/x/x</td>
+<td>1:105</td>
+</tr>
+<tr class="a">
+<td>x/x/x/x/31/x</td>
+<td>x/x/x/x/31/x</td>
+<td>1:105</td>
+</tr>
+<tr>
+<td>x/31/x/x/x/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:205</td>
+</tr>
+<tr class="a">
+<td>x/x/x/x/31/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:205</td>
+</tr>
+<tr>
+<td>x/x/x/x/x/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:5120</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a x/31/x/x/x/31 Baby (flawless Atk and Spe)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>x/31/x/x/x/x/31</td>
+<td>x/31/x/x/x/31</td>
+<td>1:5</td>
+</tr>
+<tr>
+<td>x/31/x/x/x/31</td>
+<td>x/31/x/x/x/x</td>
+<td>1:9</td>
+</tr>
+<tr class="a">
+<td>x/31/x/x/x/31</td>
+<td>x/x/x/x/x/31</td>
+<td>1:9</td>
+</tr>
+<tr>
+<td>x/31/x/x/x/31</td>
+<td>x/x/x/x/x/x</td>
+<td>1:17</td>
+</tr>
+<tr class="a">
+<td>x/31/x/x/x/x</td>
+<td>x/x/x/x/x/31</td>
+<td>1:17</td>
+</tr>
+<tr>
+<td>x/31/x/x/x/x</td>
+<td>x/31/x/x/x/x</td>
+<td>1:105</td>
+</tr>
+<tr class="a">
+<td>x/x/x/x/x/31</td>
+<td>x/x/x/x/x/31</td>
+<td>1:105</td>
+</tr>
+<tr>
+<td>x/31/x/x/x/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:205</td>
+</tr>
+<tr class="a">
+<td>x/x/x/x/x/31</td>
+<td>x/x/x/x/x/x</td>
+<td>1:205</td>
+</tr>
+<tr>
+<td>x/x/x/x/x/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:5120</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a x/x/31/31/x/x Baby (flawless Def and SpA)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>x/x/31/31/x/x</td>
+<td>x/x/31/31/x/x</td>
+<td>1:7</td>
+</tr>
+<tr>
+<td>x/x/31/31/x/x</td>
+<td>x/x/x/31/x/x</td>
+<td>1:13</td>
+</tr>
+<tr class="a">
+<td>x/x/31/31/x/x</td>
+<td>x/x/31/x/x/x</td>
+<td>1:13</td>
+</tr>
+<tr>
+<td>x/x/31/31/x/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:24</td>
+</tr>
+<tr class="a">
+<td>x/x/31/x/x/x</td>
+<td>x/x/x/31/x/x</td>
+<td>1:24</td>
+</tr>
+<tr>
+<td>x/x/x/31/x/x</td>
+<td>x/x/x/31/x/x</td>
+<td>1:86</td>
+</tr>
+<tr class="a">
+<td>x/x/31/x/x/x</td>
+<td>x/x/31/x/x/x</td>
+<td>1:153</td>
+</tr>
+<tr>
+<td>x/x/x/31/x/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:167</td>
+</tr>
+<tr class="a">
+<td>x/x/31/x/x/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:293</td>
+</tr>
+<tr>
+<td>x/x/x/x/x/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:3414</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a x/x/31/x/31/x Baby (flawless Def and SpD)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>x/x/31/x/31/x</td>
+<td>x/x/31/x/31/x</td>
+<td>1:7</td>
+</tr>
+<tr>
+<td>x/x/31/x/31/x</td>
+<td>x/x/x/x/31/x</td>
+<td>1:13</td>
+</tr>
+<tr class="a">
+<td>x/x/31/x/31/x</td>
+<td>x/x/31/x/x/x</td>
+<td>1:13</td>
+</tr>
+<tr>
+<td>x/x/31/x/31/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:24</td>
+</tr>
+<tr class="a">
+<td>x/x/31/x/x/x</td>
+<td>x/x/x/x/31/x</td>
+<td>1:24</td>
+</tr>
+<tr>
+<td>x/x/x/x/31/x</td>
+<td>x/x/x/x/31/x</td>
+<td>1:86</td>
+</tr>
+<tr class="a">
+<td>x/x/31/x/x/x</td>
+<td>x/x/31/x/x/x</td>
+<td>1:153</td>
+</tr>
+<tr>
+<td>x/x/x/x/31/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:167</td>
+</tr>
+<tr class="a">
+<td>x/x/31/x/x/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:293</td>
+</tr>
+<tr>
+<td>x/x/x/x/x/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:3414</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a x/x/31/x/x/31 Baby (flawless Def and Spe)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>x/x/31/x/x/31</td>
+<td>x/x/31/x/x/31</td>
+<td>1:7</td>
+</tr>
+<tr>
+<td>x/x/31/x/x/31</td>
+<td>x/x/x/x/x/31</td>
+<td>1:13</td>
+</tr>
+<tr class="a">
+<td>x/x/31/x/x/31</td>
+<td>x/x/31/x/x/x</td>
+<td>1:13</td>
+</tr>
+<tr>
+<td>x/x/31/x/x/31</td>
+<td>x/x/x/x/x/x</td>
+<td>1:24</td>
+</tr>
+<tr class="a">
+<td>x/x/31/x/x/x</td>
+<td>x/x/x/x/x/31</td>
+<td>1:24</td>
+</tr>
+<tr>
+<td>x/x/x/x/x/31</td>
+<td>x/x/x/x/x/31</td>
+<td>1:86</td>
+</tr>
+<tr class="a">
+<td>x/x/31/x/x/x</td>
+<td>x/x/31/x/x/x</td>
+<td>1:153</td>
+</tr>
+<tr>
+<td>x/x/x/x/x/31</td>
+<td>x/x/x/x/x/x</td>
+<td>1:167</td>
+</tr>
+<tr class="a">
+<td>x/x/31/x/x/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:293</td>
+</tr>
+<tr>
+<td>x/x/x/x/x/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:3414</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a x/x/x/31/31/x Baby (flawless SpA and SpD)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>x/x/x/31/31/x</td>
+<td>x/x/x/31/31/x</td>
+<td>1:5</td>
+</tr>
+<tr>
+<td>x/x/x/31/31/x</td>
+<td>x/x/x/31/x/x</td>
+<td>1:9</td>
+</tr>
+<tr class="a">
+<td>x/x/x/31/31/x</td>
+<td>x/x/x/x/31/x</td>
+<td>1:9</td>
+</tr>
+<tr>
+<td>x/x/x/31/31/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:17</td>
+</tr>
+<tr class="a">
+<td>x/x/x/31/x/x</td>
+<td>x/x/x/x/31/x</td>
+<td>1:17</td>
+</tr>
+<tr>
+<td>x/x/x/31/x/x</td>
+<td>x/x/x/31/x/x</td>
+<td>1:105</td>
+</tr>
+<tr class="a">
+<td>x/x/x/x/31/x</td>
+<td>x/x/x/x/31/x</td>
+<td>1:105</td>
+</tr>
+<tr>
+<td>x/x/x/31/x/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:205</td>
+</tr>
+<tr class="a">
+<td>x/x/x/x/31/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:205</td>
+</tr>
+<tr>
+<td>x/x/x/x/x/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:5120</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a x/x/x/31/x/31 Baby (flawless SpA and Spe)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>x/x/x/31/x/31</td>
+<td>x/x/x/31/x/31</td>
+<td>1:5</td>
+</tr>
+<tr>
+<td>x/x/x/31/x/31</td>
+<td>x/x/x/31/x/x</td>
+<td>1:9</td>
+</tr>
+<tr class="a">
+<td>x/x/x/31/x/31</td>
+<td>x/x/x/x/x/31</td>
+<td>1:9</td>
+</tr>
+<tr>
+<td>x/x/x/31/x/31</td>
+<td>x/x/x/x/x/x</td>
+<td>1:17</td>
+</tr>
+<tr class="a">
+<td>x/x/x/31/x/x</td>
+<td>x/x/x/x/x/31</td>
+<td>1:17</td>
+</tr>
+<tr>
+<td>x/x/x/31/x/x</td>
+<td>x/x/x/31/x/x</td>
+<td>1:105</td>
+</tr>
+<tr class="a">
+<td>x/x/x/x/x/31</td>
+<td>x/x/x/x/x/31</td>
+<td>1:105</td>
+</tr>
+<tr>
+<td>x/x/x/31/x/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:205</td>
+</tr>
+<tr class="a">
+<td>x/x/x/x/x/31</td>
+<td>x/x/x/x/x/x</td>
+<td>1:205</td>
+</tr>
+<tr>
+<td>x/x/x/x/x/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:5120</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a x/x/x/x/31/31 Baby (flawless SpD and Spe)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>x/x/x/x/31/31</td>
+<td>x/x/x/x/31/31</td>
+<td>1:5</td>
+</tr>
+<tr>
+<td>x/x/x/x/31/31</td>
+<td>x/x/x/x/31/x</td>
+<td>1:9</td>
+</tr>
+<tr class="a">
+<td>x/x/x/x/31/31</td>
+<td>x/x/x/x/x/31</td>
+<td>1:9</td>
+</tr>
+<tr>
+<td>x/x/x/x/31/31</td>
+<td>x/x/x/x/x/x</td>
+<td>1:17</td>
+</tr>
+<tr class="a">
+<td>x/x/x/x/31/x</td>
+<td>x/x/x/x/x/31</td>
+<td>1:17</td>
+</tr>
+<tr>
+<td>x/x/x/x/31/x</td>
+<td>x/x/x/x/31/x</td>
+<td>1:105</td>
+</tr>
+<tr class="a">
+<td>x/x/x/x/x/31</td>
+<td>x/x/x/x/x/31</td>
+<td>1:105</td>
+</tr>
+<tr>
+<td>x/x/x/x/31/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:205</td>
+</tr>
+<tr class="a">
+<td>x/x/x/x/x/31</td>
+<td>x/x/x/x/x/x</td>
+<td>1:205</td>
+</tr>
+<tr>
+<td>x/x/x/x/x/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:5120</td>
+</tr>
+</tbody>
+</table>
+
+<h3><a name="three">Section Three: Three Flawless IVs</a></h3>
+
+<table class="sortable">
+<caption>Odds to Breed a 31/31/31/x/x/x Baby (flawless HP, Atk and Def)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>31/31/31/x/x/x</td>
+<td>31/31/31/x/x/x</td>
+<td>1:65</td>
+</tr>
+<tr>
+<td>31/31/31/x/x/x</td>
+<td>x/31/31/x/x/x</td>
+<td>1:102</td>
+</tr>
+<tr class="a">
+<td>31/31/31/x/x/x</td>
+<td>31/31/x/x/x/x</td>
+<td>1:114</td>
+</tr>
+<tr>
+<td>31/31/31/x/x/x</td>
+<td>31/x/31/x/x/x</td>
+<td>1:122</td>
+</tr>
+<tr class="a">
+<td>31/31/31/x/x/x</td>
+<td>x/31/x/x/x/x</td>
+<td>1:180</td>
+</tr>
+<tr>
+<td>31/31/x/x/x/x</td>
+<td>x/31/31/x/x/x</td>
+<td>1:180</td>
+</tr>
+<tr class="a">
+<td>31/31/31/x/x/x</td>
+<td>x/x/31/x/x/x</td>
+<td>1:191</td>
+</tr>
+<tr>
+<td>31/x/31/x/x/x</td>
+<td>x/31/31/x/x/x</td>
+<td>1:191</td>
+</tr>
+<tr class="a">
+<td>31/31/31/x/x/x</td>
+<td>31/x/x/x/x/x</td>
+<td>1:214</td>
+</tr>
+<tr>
+<td>31/31/x/x/x/x</td>
+<td>31/x/31/x/x/x</td>
+<td>1:214</td>
+</tr>
+<tr class="a">
+<td>x/31/31/x/x/x</td>
+<td>x/31/31/x/x/x</td>
+<td>1:229</td>
+</tr>
+<tr>
+<td>x/31/31/x/x/x</td>
+<td>31/x/x/x/x/x</td>
+<td>1:340</td>
+</tr>
+<tr class="a">
+<td>31/x/31/x/x/x</td>
+<td>x/31/x/x/x/x</td>
+<td>1:340</td>
+</tr>
+<tr>
+<td>31/31/x/x/x/x</td>
+<td>x/x/31/x/x/x</td>
+<td>1:340</td>
+</tr>
+<tr class="a">
+<td>31/31/31/x/x/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:340</td>
+</tr>
+<tr>
+<td>31/31/x/x/x/x</td>
+<td>31/31/x/x/x/x</td>
+<td>1:454</td>
+</tr>
+<tr class="a">
+<td>31/x/31/x/x/x</td>
+<td>31/x/31/x/x/x</td>
+<td>1:969</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a 31/31/x/31/x/x Baby (flawless HP, Atk and SpA)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>31/31/x/31/x/x</td>
+<td>31/31/x/31/x/x</td>
+<td>1:39</td>
+</tr>
+<tr>
+<td>31/31/x/31/x/x</td>
+<td>x/31/x/31/x/x</td>
+<td>1:62</td>
+</tr>
+<tr class="a">
+<td>31/31/x/31/x/x</td>
+<td>31/31/x/x/x/x</td>
+<td>1:74</td>
+</tr>
+<tr>
+<td>31/31/x/31/x/x</td>
+<td>31/x/x/31/x/x</td>
+<td>1:74</td>
+</tr>
+<tr class="a">
+<td>31/31/x/31/x/x</td>
+<td>x/31/x/x/x/x</td>
+<td>1:117</td>
+</tr>
+<tr>
+<td>31/31/x/x/x/x</td>
+<td>x/31/x/31/x/x</td>
+<td>1:117</td>
+</tr>
+<tr class="a">
+<td>31/31/x/31/x/x</td>
+<td>x/x/x/31/x/x</td>
+<td>1:117</td>
+</tr>
+<tr>
+<td>31/x/x/31/x/x</td>
+<td>x/31/x/31/x/x</td>
+<td>1:117</td>
+</tr>
+<tr class="a">
+<td>31/31/x/31/x/x</td>
+<td>31/x/x/x/x/x</td>
+<td>1:135</td>
+</tr>
+<tr>
+<td>31/31/x/x/x/x</td>
+<td>31/x/x/31/x/x</td>
+<td>1:135</td>
+</tr>
+<tr class="a">
+<td>x/31/x/31/x/x</td>
+<td>x/31/x/31/x/x</td>
+<td>1:161</td>
+</tr>
+<tr>
+<td>31/31/x/x/x/x</td>
+<td>x/x/x/31/x/x</td>
+<td>1:219</td>
+</tr>
+<tr class="a">
+<td>31/x/31/x/x/x</td>
+<td>x/31/x/x/x/x</td>
+<td>1:219</td>
+</tr>
+<tr>
+<td>x/31/x/31/x/x</td>
+<td>31/x/x/x/x/x</td>
+<td>1:219</td>
+</tr>
+<tr class="a">
+<td>31/31/x/31/x/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:219</td>
+</tr>
+<tr>
+<td>31/x/x/31/x/x</td>
+<td>31/x/x/31/x/x</td>
+<td>1:538</td>
+</tr>
+<tr class="a">
+<td>31/31/x/x/x/x</td>
+<td>31/31/x/x/x/x</td>
+<td>1:538</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a 31/31/x/x/31/x Baby (flawless HP, Atk and SpD)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>31/31/x/x/31/x</td>
+<td>31/31/x/x/31/x</td>
+<td>1:39</td>
+</tr>
+<tr>
+<td>31/31/x/x/31/x</td>
+<td>x/31/x/x/31/x</td>
+<td>1:62</td>
+</tr>
+<tr class="a">
+<td>31/31/x/x/31/x</td>
+<td>31/31/x/x/x/x</td>
+<td>1:74</td>
+</tr>
+<tr>
+<td>31/31/x/x/31/x</td>
+<td>31/x/x/x/31/x</td>
+<td>1:74</td>
+</tr>
+<tr class="a">
+<td>31/31/x/x/31/x</td>
+<td>x/31/x/x/x/x</td>
+<td>1:117</td>
+</tr>
+<tr>
+<td>31/31/x/x/x/x</td>
+<td>x/31/x/x/31/x</td>
+<td>1:117</td>
+</tr>
+<tr class="a">
+<td>31/31/x/x/31/x</td>
+<td>x/x/x/x/31/x</td>
+<td>1:117</td>
+</tr>
+<tr>
+<td>31/x/x/x/31/x</td>
+<td>x/31/x/x/31/x</td>
+<td>1:117</td>
+</tr>
+<tr class="a">
+<td>31/31/x/x/31/x</td>
+<td>31/x/x/x/x/x</td>
+<td>1:135</td>
+</tr>
+<tr>
+<td>31/31/x/x/x/x</td>
+<td>31/x/x/x/31/x</td>
+<td>1:135</td>
+</tr>
+<tr class="a">
+<td>x/31/x/x/31/x</td>
+<td>x/31/x/x/31/x</td>
+<td>1:161</td>
+</tr>
+<tr>
+<td>31/31/x/x/x/x</td>
+<td>x/x/x/x/31/x</td>
+<td>1:219</td>
+</tr>
+<tr class="a">
+<td>31/x/x/x/31/x</td>
+<td>x/31/x/x/x/x</td>
+<td>1:219</td>
+</tr>
+<tr>
+<td>x/31/x/x/31/x</td>
+<td>31/x/x/x/x/x</td>
+<td>1:219</td>
+</tr>
+<tr class="a">
+<td>31/31/x/x/31/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:219</td>
+</tr>
+<tr>
+<td>31/x/x/x/31/x</td>
+<td>31/x/x/x/31/x</td>
+<td>1:538</td>
+</tr>
+<tr class="a">
+<td>31/31/x/x/x/x</td>
+<td>31/31/x/x/x/x</td>
+<td>1:538</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a 31/31/x/x/x/31 Baby (flawless HP, Atk and Spe)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>31/31/x/x/x/31</td>
+<td>31/31/x/x/x/31</td>
+<td>1:39</td>
+</tr>
+<tr>
+<td>31/31/x/x/x/31</td>
+<td>x/31/x/x/x/31</td>
+<td>1:62</td>
+</tr>
+<tr class="a">
+<td>31/31/x/x/x/31</td>
+<td>31/31/x/x/x/x</td>
+<td>1:74</td>
+</tr>
+<tr>
+<td>31/31/x/x/x/31</td>
+<td>31/x/x/x/x/31</td>
+<td>1:74</td>
+</tr>
+<tr class="a">
+<td>31/31/x/x/x/31</td>
+<td>x/31/x/x/x/x</td>
+<td>1:117</td>
+</tr>
+<tr>
+<td>31/31/x/x/x/x</td>
+<td>x/31/x/x/x/31</td>
+<td>1:117</td>
+</tr>
+<tr class="a">
+<td>31/31/x/x/x/31</td>
+<td>x/x/x/x/x/31</td>
+<td>1:117</td>
+</tr>
+<tr>
+<td>31/x/x/x/x/31</td>
+<td>x/31/x/x/x/31</td>
+<td>1:117</td>
+</tr>
+<tr class="a">
+<td>31/31/x/x/x/31</td>
+<td>31/x/x/x/x/x</td>
+<td>1:135</td>
+</tr>
+<tr>
+<td>31/31/x/x/x/x</td>
+<td>31/x/x/x/x/31</td>
+<td>1:135</td>
+</tr>
+<tr class="a">
+<td>x/31/x/x/x/31</td>
+<td>x/31/x/x/x/31</td>
+<td>1:161</td>
+</tr>
+<tr>
+<td>31/31/x/x/x/x</td>
+<td>x/x/x/x/x/31</td>
+<td>1:219</td>
+</tr>
+<tr class="a">
+<td>31/x/x/x/x/31</td>
+<td>x/31/x/x/x/x</td>
+<td>1:219</td>
+</tr>
+<tr>
+<td>x/31/x/x/x/31</td>
+<td>31/x/x/x/x/x</td>
+<td>1:219</td>
+</tr>
+<tr class="a">
+<td>31/31/x/x/x/31</td>
+<td>x/x/x/x/x/x</td>
+<td>1:219</td>
+</tr>
+<tr>
+<td>31/x/x/x/x/31</td>
+<td>31/x/x/x/x/31</td>
+<td>1:538</td>
+</tr>
+<tr class="a">
+<td>31/31/x/x/x/x</td>
+<td>31/31/x/x/x/x</td>
+<td>1:538</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a 31/x/31/31/x/x Baby (flawless HP, Def and SpA)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>31/x/31/31/x/x</td>
+<td>31/x/31/31/x/x</td>
+<td>1:65</td>
+</tr>
+<tr>
+<td>31/x/31/31/x/x</td>
+<td>x/x/31/31/x/x</td>
+<td>1:102</td>
+</tr>
+<tr class="a">
+<td>31/x/31/31/x/x</td>
+<td>31/x/x/31/x/x</td>
+<td>1:114</td>
+</tr>
+<tr>
+<td>31/x/31/31/x/x</td>
+<td>31/x/31/x/x/x</td>
+<td>1:122</td>
+</tr>
+<tr class="a">
+<td>31/x/31/31/x/x</td>
+<td>x/x/x/31/x/x</td>
+<td>1:180</td>
+</tr>
+<tr>
+<td>31/x/x/31/x/x</td>
+<td>x/x/31/31/x/x</td>
+<td>1:180</td>
+</tr>
+<tr class="a">
+<td>31/x/31/31/x/x</td>
+<td>x/x/31/x/x/x</td>
+<td>1:191</td>
+</tr>
+<tr>
+<td>31/x/31/x/x/x</td>
+<td>x/x/31/31/x/x</td>
+<td>1:191</td>
+</tr>
+<tr class="a">
+<td>31/x/31/31/x/x</td>
+<td>31/x/x/x/x/x</td>
+<td>1:214</td>
+</tr>
+<tr>
+<td>31/x/x/31/x/x</td>
+<td>31/x/31/x/x/x</td>
+<td>1:214</td>
+</tr>
+<tr class="a">
+<td>x/x/31/31/x/x</td>
+<td>x/x/31/31/x/x</td>
+<td>1:229</td>
+</tr>
+<tr>
+<td>x/x/31/31/x/x</td>
+<td>31/x/x/x/x/x</td>
+<td>1:340</td>
+</tr>
+<tr class="a">
+<td>31/x/31/x/x/x</td>
+<td>x/x/x/31/x/x</td>
+<td>1:340</td>
+</tr>
+<tr>
+<td>31/x/x/31/x/x</td>
+<td>x/x/31/x/x/x</td>
+<td>1:340</td>
+</tr>
+<tr class="a">
+<td>31/x/31/31/x/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:340</td>
+</tr>
+<tr>
+<td>31/x/x/31/x/x</td>
+<td>31/x/x/31/x/x</td>
+<td>1:454</td>
+</tr>
+<tr class="a">
+<td>31/x/31/x/x/x</td>
+<td>31/x/31/x/x/x</td>
+<td>1:969</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a 31/x/31/x/31/x Baby (flawless HP, Def and SpD)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>31/x/31/x/31/x</td>
+<td>31/x/31/x/31/x</td>
+<td>1:65</td>
+</tr>
+<tr>
+<td>31/x/31/x/31/x</td>
+<td>x/x/31/x/31/x</td>
+<td>1:102</td>
+</tr>
+<tr class="a">
+<td>31/x/31/x/31/x</td>
+<td>31/x/x/x/31/x</td>
+<td>1:114</td>
+</tr>
+<tr>
+<td>31/x/31/x/31/x</td>
+<td>31/x/31/x/x/x</td>
+<td>1:122</td>
+</tr>
+<tr class="a">
+<td>31/x/31/x/31/x</td>
+<td>x/x/x/x/31/x</td>
+<td>1:180</td>
+</tr>
+<tr>
+<td>31/x/x/x/31/x</td>
+<td>x/x/31/x/31/x</td>
+<td>1:180</td>
+</tr>
+<tr class="a">
+<td>31/x/31/x/31/x</td>
+<td>x/x/31/x/x/x</td>
+<td>1:191</td>
+</tr>
+<tr>
+<td>31/x/31/x/x/x</td>
+<td>x/x/31/x/31/x</td>
+<td>1:191</td>
+</tr>
+<tr class="a">
+<td>31/x/31/x/31/x</td>
+<td>31/x/x/x/x/x</td>
+<td>1:214</td>
+</tr>
+<tr>
+<td>31/x/x/x/31/x</td>
+<td>31/x/31/x/x/x</td>
+<td>1:214</td>
+</tr>
+<tr class="a">
+<td>x/x/31/x/31/x</td>
+<td>x/x/31/x/31/x</td>
+<td>1:229</td>
+</tr>
+<tr>
+<td>x/x/31/x/31/x</td>
+<td>31/x/x/x/x/x</td>
+<td>1:340</td>
+</tr>
+<tr class="a">
+<td>31/x/31/x/x/x</td>
+<td>x/x/x/x/31/x</td>
+<td>1:340</td>
+</tr>
+<tr>
+<td>31/x/x/x/31/x</td>
+<td>x/x/31/x/x/x</td>
+<td>1:340</td>
+</tr>
+<tr class="a">
+<td>31/x/31/x/31/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:340</td>
+</tr>
+<tr>
+<td>31/x/x/x/31/x</td>
+<td>31/x/x/x/31/x</td>
+<td>1:454</td>
+</tr>
+<tr class="a">
+<td>31/x/31/x/x/x</td>
+<td>31/x/31/x/x/x</td>
+<td>1:969</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a 31/x/31/x/x/31 Baby (flawless HP, Def and Spe)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>31/x/31/x/x/31</td>
+<td>31/x/31/x/x/31</td>
+<td>1:65</td>
+</tr>
+<tr>
+<td>31/x/31/x/x/31</td>
+<td>x/x/31/x/x/31</td>
+<td>1:102</td>
+</tr>
+<tr class="a">
+<td>31/x/31/x/x/31</td>
+<td>31/x/x/x/x/31</td>
+<td>1:114</td>
+</tr>
+<tr>
+<td>31/x/31/x/x/31</td>
+<td>31/x/31/x/x/x</td>
+<td>1:122</td>
+</tr>
+<tr class="a">
+<td>31/x/31/x/x/31</td>
+<td>x/x/x/x/x/31</td>
+<td>1:180</td>
+</tr>
+<tr>
+<td>31/x/x/x/x/31</td>
+<td>x/x/31/x/x/31</td>
+<td>1:180</td>
+</tr>
+<tr class="a">
+<td>31/x/31/x/x/31</td>
+<td>x/x/31/x/x/x</td>
+<td>1:191</td>
+</tr>
+<tr>
+<td>31/x/31/x/x/x</td>
+<td>x/x/31/x/x/31</td>
+<td>1:191</td>
+</tr>
+<tr class="a">
+<td>31/x/31/x/x/31</td>
+<td>31/x/x/x/x/x</td>
+<td>1:214</td>
+</tr>
+<tr>
+<td>31/x/x/x/x/31</td>
+<td>31/x/31/x/x/x</td>
+<td>1:214</td>
+</tr>
+<tr class="a">
+<td>x/x/31/x/x/31</td>
+<td>x/x/31/x/x/31</td>
+<td>1:229</td>
+</tr>
+<tr>
+<td>x/x/31/x/x/31</td>
+<td>31/x/x/x/x/x</td>
+<td>1:340</td>
+</tr>
+<tr class="a">
+<td>31/x/31/x/x/x</td>
+<td>x/x/x/x/x/31</td>
+<td>1:340</td>
+</tr>
+<tr>
+<td>31/x/x/x/x/31</td>
+<td>x/x/31/x/x/x</td>
+<td>1:340</td>
+</tr>
+<tr class="a">
+<td>31/x/31/x/x/31</td>
+<td>x/x/x/x/x/x</td>
+<td>1:340</td>
+</tr>
+<tr>
+<td>31/x/x/x/x/31</td>
+<td>31/x/x/x/x/31</td>
+<td>1:454</td>
+</tr>
+<tr class="a">
+<td>31/x/31/x/x/x</td>
+<td>31/x/31/x/x/x</td>
+<td>1:969</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a 31/x/x/31/31/x Baby (flawless HP, SpA and SpD)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>31/x/x/31/31/x</td>
+<td>31/x/x/31/31/x</td>
+<td>1:39</td>
+</tr>
+<tr>
+<td>31/x/x/31/31/x</td>
+<td>x/x/x/31/31/x</td>
+<td>1:62</td>
+</tr>
+<tr class="a">
+<td>31/x/x/31/31/x</td>
+<td>31/x/x/31/x/x</td>
+<td>1:74</td>
+</tr>
+<tr>
+<td>31/x/x/31/31/x</td>
+<td>31/x/x/x/31/x</td>
+<td>1:74</td>
+</tr>
+<tr class="a">
+<td>31/x/x/31/31/x</td>
+<td>x/x/x/31/x/x</td>
+<td>1:117</td>
+</tr>
+<tr>
+<td>31/x/x/31/x/x</td>
+<td>x/x/x/31/31/x</td>
+<td>1:117</td>
+</tr>
+<tr class="a">
+<td>31/x/x/31/31/x</td>
+<td>x/x/x/x/31/x</td>
+<td>1:117</td>
+</tr>
+<tr>
+<td>31/x/x/x/31/x</td>
+<td>x/x/x/31/31/x</td>
+<td>1:117</td>
+</tr>
+<tr class="a">
+<td>31/x/x/31/31/x</td>
+<td>31/x/x/x/x/x</td>
+<td>1:135</td>
+</tr>
+<tr>
+<td>31/x/x/31/x/x</td>
+<td>31/x/x/x/31/x</td>
+<td>1:135</td>
+</tr>
+<tr class="a">
+<td>x/x/x/31/31/x</td>
+<td>x/x/x/31/31/x</td>
+<td>1:161</td>
+</tr>
+<tr>
+<td>31/x/x/31/x/x</td>
+<td>x/x/x/x/31/x</td>
+<td>1:219</td>
+</tr>
+<tr class="a">
+<td>31/x/x/x/31/x</td>
+<td>x/x/x/31/x/x</td>
+<td>1:219</td>
+</tr>
+<tr>
+<td>x/x/x/31/31/x</td>
+<td>31/x/x/x/x/x</td>
+<td>1:219</td>
+</tr>
+<tr class="a">
+<td>31/x/x/31/31/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:219</td>
+</tr>
+<tr>
+<td>31/x/x/x/31/x</td>
+<td>31/x/x/x/31/x</td>
+<td>1:538</td>
+</tr>
+<tr class="a">
+<td>31/x/x/31/x/x</td>
+<td>31/x/x/31/x/x</td>
+<td>1:538</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a 31/x/x/31/31/x Baby (flawless HP, SpA and Spe)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>31/x/x/31/x/31</td>
+<td>31/x/x/31/x/31</td>
+<td>1:39</td>
+</tr>
+<tr>
+<td>31/x/x/31/x/31</td>
+<td>x/x/x/31/x/31</td>
+<td>1:62</td>
+</tr>
+<tr class="a">
+<td>31/x/x/31/x/31</td>
+<td>31/x/x/31/x/x</td>
+<td>1:74</td>
+</tr>
+<tr>
+<td>31/x/x/31/x/31</td>
+<td>31/x/x/x/x/31</td>
+<td>1:74</td>
+</tr>
+<tr class="a">
+<td>31/x/x/31/x/31</td>
+<td>x/x/x/31/x/x</td>
+<td>1:117</td>
+</tr>
+<tr>
+<td>31/x/x/31/x/x</td>
+<td>x/x/x/31/x/31</td>
+<td>1:117</td>
+</tr>
+<tr class="a">
+<td>31/x/x/31/x/31</td>
+<td>x/x/x/x/x/31</td>
+<td>1:117</td>
+</tr>
+<tr>
+<td>31/x/x/x/x/31</td>
+<td>x/x/x/31/x/31</td>
+<td>1:117</td>
+</tr>
+<tr class="a">
+<td>31/x/x/31/x/31</td>
+<td>31/x/x/x/x/x</td>
+<td>1:135</td>
+</tr>
+<tr>
+<td>31/x/x/31/x/x</td>
+<td>31/x/x/x/x/31</td>
+<td>1:135</td>
+</tr>
+<tr class="a">
+<td>x/x/x/31/x/31</td>
+<td>x/x/x/31/x/31</td>
+<td>1:161</td>
+</tr>
+<tr>
+<td>31/x/x/31/x/x</td>
+<td>x/x/x/x/x/31</td>
+<td>1:219</td>
+</tr>
+<tr class="a">
+<td>31/x/x/x/x/31</td>
+<td>x/x/x/31/x/x</td>
+<td>1:219</td>
+</tr>
+<tr>
+<td>x/x/x/31/x/31</td>
+<td>31/x/x/x/x/x</td>
+<td>1:219</td>
+</tr>
+<tr class="a">
+<td>31/x/x/31/x/31</td>
+<td>x/x/x/x/x/x</td>
+<td>1:219</td>
+</tr>
+<tr>
+<td>31/x/x/x/x/31</td>
+<td>31/x/x/x/x/31</td>
+<td>1:538</td>
+</tr>
+<tr class="a">
+<td>31/x/x/31/x/x</td>
+<td>31/x/x/31/x/x</td>
+<td>1:538</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a 31/x/x/31/31/x Baby (flawless HP, SpD and Spe)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>31/x/x/x/31/31</td>
+<td>31/x/x/x/31/31</td>
+<td>1:39</td>
+</tr>
+<tr>
+<td>31/x/x/x/31/31</td>
+<td>x/x/x/x/31/31</td>
+<td>1:62</td>
+</tr>
+<tr clasx
+xx
+aParent Btdtdsortable1:17xx
+td
+xs="a">
+<td>31/x/x/x/31/31</td>
+<td>31/x/x/x/31/x</td>
+<td>1:74</td>
+</tr>
+<tr>
+<td>31/x/x/x/31/31</td>
+<td>31/x/x/x/x/31</td>
+<td>1:74</td>
+</tr>
+<tr class="a">
+<td>31/x/x/x/31/31</td>
+<td>x/x/x/x/31/x</td>
+<td>1:117</td>
+</tr>
+<tr>
+<td>31/x/x/x/31/x</td>
+<td>x/x/x/x/31/31</td>
+<td>1:117</td>
+</tr>
+<tr class="a">
+<td>31/x/x/x/31/31</td>
+<td>x/x/x/x/x/31</td>
+<td>1:117</td>
+</tr>
+<tr>
+<td>31/x/x/x/x/31</td>
+<td>x/x/x/x/31/31</td>
+<td>1:117</td>
+</tr>
+<tr class="a">
+<td>31/x/x/x/31/31</td>
+<td>31/x/x/x/x/x</td>
+<td>1:135</td>
+</tr>
+<tr>
+<td>31/x/x/x/31/x</td>
+<td>31/x/x/x/x/31</td>
+<td>1:135</td>
+</tr>
+<tr class="a">
+<td>x/x/x/x/31/31</td>
+<td>x/x/x/x/31/31</td>
+<td>1:161</td>
+</tr>
+<tr>
+<td>31/x/x/x/31/x</td>
+<td>x/x/x/x/x/31</td>
+<td>1:219</td>
+</tr>
+<tr class="a">
+<td>31/x/x/x/x/31</td>
+<td>x/x/x/x/31/x</td>
+<td>1:219</td>
+</tr>
+<tr>
+<td>x/x/x/x/31/31</td>
+<td>31/x/x/x/x/x</td>
+<td>1:219</td>
+</tr>
+<tr class="a">
+<td>31/x/x/x/31/31</td>
+<td>x/x/x/x/x/x</td>
+<td>1:219</td>
+</tr>
+<tr>
+<td>31/x/x/x/x/31</td>
+<td>31/x/x/x/x/31</td>
+<td>1:538</td>
+</tr>
+<tr class="a">
+<td>31/x/x/x/31/x</td>
+<td>31/x/x/x/31/x</td>
+<td>1:538</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a x/31/31/31/x/x Baby (flawless Atk, Def and SpA)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>x/31/31/31/x/x</td>
+<td>x/31/31/31/x/x</td>
+<td>1:23</td>
+</tr>
+<tr>
+<td>x/31/31/31/x/x</td>
+<td>x/31/x/31/x/x</td>
+<td>1:40</td>
+</tr>
+<tr class="a">
+<td>x/31/31/31/x/x</td>
+<td>x/31/31/x/x/x</td>
+<td>1:42</td>
+</tr>
+<tr>
+<td>x/31/31/31/x/x</td>
+<td>x/x/31/31/x/x</td>
+<td>1:42</td>
+</tr>
+<tr class="a">
+<td>x/31/31/31/x/x</td>
+<td>x/31/x/x/x/x</td>
+<td>1:74</td>
+</tr>
+<tr>
+<td>x/31/31/x/x/x</td>
+<td>x/31/x/31/x/x</td>
+<td>1:74</td>
+</tr>
+<tr class="a">
+<td>x/31/31/31/x/x</td>
+<td>x/x/x/31/x/x</td>
+<td>1:74</td>
+</tr>
+<tr>
+<td>x/31/x/31/x/x</td>
+<td>x/x/31/31/x/x</td>
+<td>1:74</td>
+</tr>
+<tr class="a">
+<td>x/31/31/31/x/x</td>
+<td>x/x/31/x/x/x</td>
+<td>1:86</td>
+</tr>
+<tr>
+<td>x/31/31/x/x/x</td>
+<td>x/x/31/31/x/x</td>
+<td>1:86</td>
+</tr>
+<tr class="a">
+<td>x/31/31/x/x/x</td>
+<td>x/x/x/31/x/x</td>
+<td>1:138</td>
+</tr>
+<tr>
+<td>x/31/x/31/x/x</td>
+<td>x/x/31/x/x/x</td>
+<td>1:138</td>
+</tr>
+<tr class="a">
+<td>x/x/31/31/x/x</td>
+<td>x/31/x/x/x/x</td>
+<td>1:138</td>
+</tr>
+<tr>
+<td>x/31/31/31/x/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:138</td>
+</tr>
+<tr class="a">
+<td>x/31/x/31/x/x</td>
+<td>x/31/x/31/x/x</td>
+<td>1:179</td>
+</tr>
+<tr>
+<td>x/31/31/x/x/x</td>
+<td>x/31/31/x/x/x</td>
+<td>1:293</td>
+</tr>
+<tr class="a">
+<td>x/x/31/31/x/x</td>
+<td>x/x/31/31/x/x</td>
+<td>1:293</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a x/31/31/x/31/x Baby (flawless Atk, Def and SpD)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>x/31/31/x/31/x</td>
+<td>x/31/31/x/31/x</td>
+<td>1:23</td>
+</tr>
+<tr>
+<td>x/31/31/x/31/x</td>
+<td>x/31/x/x/31/x</td>
+<td>1:40</td>
+</tr>
+<tr class="a">
+<td>x/31/31/x/31/x</td>
+<td>x/31/31/x/x/x</td>
+<td>1:42</td>
+</tr>
+<tr>
+<td>x/31/31/x/31/x</td>
+<td>x/x/31/x/31/x</td>
+<td>1:42</td>
+</tr>
+<tr class="a">
+<td>x/31/31/x/31/x</td>
+<td>x/31/x/x/x/x</td>
+<td>1:74</td>
+</tr>
+<tr>
+<td>x/31/31/x/x/x</td>
+<td>x/31/x/x/31/x</td>
+<td>1:74</td>
+</tr>
+<tr class="a">
+<td>x/31/31/x/31/x</td>
+<td>x/x/x/x/31/x</td>
+<td>1:74</td>
+</tr>
+<tr>
+<td>x/31/x/x/31/x</td>
+<td>x/x/31/x/31/x</td>
+<td>1:74</td>
+</tr>
+<tr class="a">
+<td>x/31/31/x/31/x</td>
+<td>x/x/31/x/x/x</td>
+<td>1:86</td>
+</tr>
+<tr>
+<td>x/31/31/x/x/x</td>
+<td>x/x/31/x/31/x</td>
+<td>1:86</td>
+</tr>
+<tr class="a">
+<td>x/31/31/x/x/x</td>
+<td>x/x/x/x/31/x</td>
+<td>1:138</td>
+</tr>
+<tr>
+<td>x/31/x/x/31/x</td>
+<td>x/x/31/x/x/x</td>
+<td>1:138</td>
+</tr>
+<tr class="a">
+<td>x/x/31/x/31/x</td>
+<td>x/31/x/x/x/x</td>
+<td>1:138</td>
+</tr>
+<tr>
+<td>x/31/31/x/31/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:138</td>
+</tr>
+<tr class="a">
+<td>x/31/x/x/31/x</td>
+<td>x/31/x/x/31/x</td>
+<td>1:179</td>
+</tr>
+<tr>
+<td>x/31/31/x/x/x</td>
+<td>x/31/31/x/x/x</td>
+<td>1:293</td>
+</tr>
+<tr class="a">
+<td>x/x/31/x/31/x</td>
+<td>x/x/31/x/31/x</td>
+<td>1:293</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a x/31/31/x/x/31 Baby (flawless Atk, Def and Spe)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>x/31/31/x/x/31</td>
+<td>x/31/31/x/x/31</td>
+<td>1:23</td>
+</tr>
+<tr>
+<td>x/31/31/x/x/31</td>
+<td>x/31/x/x/x/31</td>
+<td>1:40</td>
+</tr>
+<tr class="a">
+<td>x/31/31/x/x/31</td>
+<td>x/31/31/x/x/x</td>
+<td>1:42</td>
+</tr>
+<tr>
+<td>x/31/31/x/x/31</td>
+<td>x/x/31/x/x/31</td>
+<td>1:42</td>
+</tr>
+<tr class="a">
+<td>x/31/31/x/x/31</td>
+<td>x/31/x/x/x/x</td>
+<td>1:74</td>
+</tr>
+<tr>
+<td>x/31/31/x/x/x</td>
+<td>x/31/x/x/x/31</td>
+<td>1:74</td>
+</tr>
+<tr class="a">
+<td>x/31/31/x/x/31</td>
+<td>x/x/x/x/x/31</td>
+<td>1:74</td>
+</tr>
+<tr>
+<td>x/31/x/x/x/31</td>
+<td>x/x/31/x/x/31</td>
+<td>1:74</td>
+</tr>
+<tr class="a">
+<td>x/31/31/x/x/31</td>
+<td>x/x/31/x/x/x</td>
+<td>1:86</td>
+</tr>
+<tr>
+<td>x/31/31/x/x/x</td>
+<td>x/x/31/x/x/31</td>
+<td>1:86</td>
+</tr>
+<tr class="a">
+<td>x/31/31/x/x/x</td>
+<td>x/x/x/x/x/31</td>
+<td>1:138</td>
+</tr>
+<tr>
+<td>x/31/x/x/x/31</td>
+<td>x/x/31/x/x/x</td>
+<td>1:138</td>
+</tr>
+<tr class="a">
+<td>x/x/31/x/x/31</td>
+<td>x/31/x/x/x/x</td>
+<td>1:138</td>
+</tr>
+<tr>
+<td>x/31/31/x/x/31</td>
+<td>x/x/x/x/x/x</td>
+<td>1:138</td>
+</tr>
+<tr class="a">
+<td>x/31/x/x/x/31</td>
+<td>x/31/x/x/x/31</td>
+<td>1:179</td>
+</tr>
+<tr>
+<td>x/31/31/x/x/x</td>
+<td>x/31/31/x/x/x</td>
+<td>1:293</td>
+</tr>
+<tr class="a">
+<td>x/x/31/x/x/31</td>
+<td>x/x/31/x/x/31</td>
+<td>1:293</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a x/31/x/31/31/x Baby (flawless Atk, SpA and SpD)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>x/31/x/31/31/x</td>
+<td>x/31/x/31/31/x</td>
+<td>1:16</td>
+</tr>
+<tr>
+<td>x/31/x/31/31/x</td>
+<td>x/31/x/31/x/x</td>
+<td>1:29</td>
+</tr>
+<tr class="a">
+<td>x/31/x/31/31/x</td>
+<td>x/31/x/x/31/x</td>
+<td>1:29</td>
+</tr>
+<tr>
+<td>x/31/x/31/31/x</td>
+<td>x/x/x/31/31/x</td>
+<td>1:29</td>
+</tr>
+<tr class="a">
+<td>x/31/x/31/31/x</td>
+<td>x/31/x/x/x/x</td>
+<td>1:54</td>
+</tr>
+<tr>
+<td>x/31/x/31/x/x</td>
+<td>x/31/x/x/31/x</td>
+<td>1:54</td>
+</tr>
+<tr class="a">
+<td>x/31/x/31/31/x</td>
+<td>x/x/x/31/x/x</td>
+<td>1:54</td>
+</tr>
+<tr>
+<td>x/31/x/31/x/x</td>
+<td>x/x/x/31/31/x</td>
+<td>1:54</td>
+</tr>
+<tr class="a">
+<td>x/31/x/31/31/x</td>
+<td>x/x/x/x/31/x</td>
+<td>1:54</td>
+</tr>
+<tr>
+<td>x/31/x/x/31/x</td>
+<td>x/x/x/31/31/x</td>
+<td>1:54</td>
+</tr>
+<tr class="a">
+<td>x/31/x/31/x/x</td>
+<td>x/x/x/x/31/x</td>
+<td>1:101</td>
+</tr>
+<tr>
+<td>x/31/x/x/31/x</td>
+<td>x/x/x/31/x/x</td>
+<td>1:101</td>
+</tr>
+<tr class="a">
+<td>x/x/x/31/31/x</td>
+<td>x/31/x/x/x/x</td>
+<td>1:101</td>
+</tr>
+<tr>
+<td>x/31/x/31/31/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:101</td>
+</tr>
+<tr class="a">
+<td>x/31/x/31/x/x</td>
+<td>x/31/x/31/x/x</td>
+<td>1:201</td>
+</tr>
+<tr>
+<td>x/31/x/x/31/x</td>
+<td>x/31/x/x/31/x</td>
+<td>1:201</td>
+</tr>
+<tr class="a">
+<td>x/x/x/31/31/x</td>
+<td>x/x/x/31/31/x</td>
+<td>1:201</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a x/31/x/31/x/31 Baby (flawless Atk, SpA and Spe)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>x/31/x/31/x/31</td>
+<td>x/31/x/31/x/31</td>
+<td>1:16</td>
+</tr>
+<tr>
+<td>x/31/x/31/x/31</td>
+<td>x/31/x/31/x/x</td>
+<td>1:29</td>
+</tr>
+<tr class="a">
+<td>x/31/x/31/x/31</td>
+<td>x/31/x/x/x/31</td>
+<td>1:29</td>
+</tr>
+<tr>
+<td>x/31/x/31/x/31</td>
+<td>x/x/x/31/x/31</td>
+<td>1:29</td>
+</tr>
+<tr class="a">
+<td>x/31/x/31/x/31</td>
+<td>x/31/x/x/x/x</td>
+<td>1:54</td>
+</tr>
+<tr>
+<td>x/31/x/31/x/x</td>
+<td>x/31/x/x/x/31</td>
+<td>1:54</td>
+</tr>
+<tr class="a">
+<td>x/31/x/31/x/31</td>
+<td>x/x/x/31/x/x</td>
+<td>1:54</td>
+</tr>
+<tr>
+<td>x/31/x/31/x/x</td>
+<td>x/x/x/31/x/31</td>
+<td>1:54</td>
+</tr>
+<tr class="a">
+<td>x/31/x/31/x/31</td>
+<td>x/x/x/x/x/31</td>
+<td>1:54</td>
+</tr>
+<tr>
+<td>x/31/x/x/x/31</td>
+<td>x/x/x/31/x/31</td>
+<td>1:54</td>
+</tr>
+<tr class="a">
+<td>x/31/x/31/x/x</td>
+<td>x/x/x/x/x/31</td>
+<td>1:101</td>
+</tr>
+<tr>
+<td>x/31/x/x/x/31</td>
+<td>x/x/x/31/x/x</td>
+<td>1:101</td>
+</tr>
+<tr class="a">
+<td>x/x/x/31/x/31</td>
+<td>x/31/x/x/x/x</td>
+<td>1:101</td>
+</tr>
+<tr>
+<td>x/31/x/31/x/31</td>
+<td>x/x/x/x/x/x</td>
+<td>1:101</td>
+</tr>
+<tr class="a">
+<td>x/31/x/31/x/x</td>
+<td>x/31/x/31/x/x</td>
+<td>1:201</td>
+</tr>
+<tr>
+<td>x/31/x/x/x/31</td>
+<td>x/31/x/x/x/31</td>
+<td>1:201</td>
+</tr>
+<tr class="a">
+<td>x/x/x/31/x/31</td>
+<td>x/x/x/31/x/31</td>
+<td>1:201</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a x/31/x/x/31/31 Baby (flawless Atk, SpD and Spe)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>x/31/x/x/31/31</td>
+<td>x/31/x/x/31/31</td>
+<td>1:16</td>
+</tr>
+<tr>
+<td>x/31/x/x/31/31</td>
+<td>x/31/x/x/31/x</td>
+<td>1:29</td>
+</tr>
+<tr class="a">
+<td>x/31/x/x/31/31</td>
+<td>x/31/x/x/x/31</td>
+<td>1:29</td>
+</tr>
+<tr>
+<td>x/31/x/x/31/31</td>
+<td>x/x/x/x/31/31</td>
+<td>1:29</td>
+</tr>
+<tr class="a">
+<td>x/31/x/x/31/31</td>
+<td>x/31/x/x/x/x</td>
+<td>1:54</td>
+</tr>
+<tr>
+<td>x/31/x/x/31/x</td>
+<td>x/31/x/x/x/31</td>
+<td>1:54</td>
+</tr>
+<tr class="a">
+<td>x/31/x/x/31/31</td>
+<td>x/x/x/x/31/x</td>
+<td>1:54</td>
+</tr>
+<tr>
+<td>x/31/x/x/31/x</td>
+<td>x/x/x/x/31/31</td>
+<td>1:54</td>
+</tr>
+<tr class="a">
+<td>x/31/x/x/31/31</td>
+<td>x/x/x/x/x/31</td>
+<td>1:54</td>
+</tr>
+<tr>
+<td>x/31/x/x/x/31</td>
+<td>x/x/x/x/31/31</td>
+<td>1:54</td>
+</tr>
+<tr class="a">
+<td>x/31/x/x/31/x</td>
+<td>x/x/x/x/x/31</td>
+<td>1:101</td>
+</tr>
+<tr>
+<td>x/31/x/x/x/31</td>
+<td>x/x/x/x/31/x</td>
+<td>1:101</td>
+</tr>
+<tr class="a">
+<td>x/x/x/x/31/31</td>
+<td>x/31/x/x/x/x</td>
+<td>1:101</td>
+</tr>
+<tr>
+<td>x/31/x/x/31/31</td>
+<td>x/x/x/x/x/x</td>
+<td>1:101</td>
+</tr>
+<tr class="a">
+<td>x/31/x/x/31/x</td>
+<td>x/31/x/x/31/x</td>
+<td>1:201</td>
+</tr>
+<tr>
+<td>x/31/x/x/x/31</td>
+<td>x/31/x/x/x/31</td>
+<td>1:201</td>
+</tr>
+<tr class="a">
+<td>x/x/x/x/31/31</td>
+<td>x/x/x/x/31/31</td>
+<td>1:201</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a x/x/31/31/31/x Baby (flawless Def, SpA and SpD)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>x/x/31/31/31/x</td>
+<td>x/x/31/31/31/x</td>
+<td>1:23</td>
+</tr>
+<tr>
+<td>x/x/31/31/31/x</td>
+<td>x/x/x/31/31/x</td>
+<td>1:40</td>
+</tr>
+<tr class="a">
+<td>x/x/31/31/31/x</td>
+<td>x/x/31/31/x/x</td>
+<td>1:42</td>
+</tr>
+<tr>
+<td>x/x/31/31/31/x</td>
+<td>x/x/31/x/31/x</td>
+<td>1:42</td>
+</tr>
+<tr class="a">
+<td>x/x/31/31/31/x</td>
+<td>x/x/x/31/x/x</td>
+<td>1:74</td>
+</tr>
+<tr>
+<td>x/x/31/31/x/x</td>
+<td>x/x/x/31/31/x</td>
+<td>1:74</td>
+</tr>
+<tr class="a">
+<td>x/x/31/31/31/x</td>
+<td>x/x/x/x/31/x</td>
+<td>1:74</td>
+</tr>
+<tr>
+<td>x/x/x/31/31/x</td>
+<td>x/x/31/x/31/x</td>
+<td>1:74</td>
+</tr>
+<tr class="a">
+<td>x/x/31/31/31/x</td>
+<td>x/x/31/x/x/x</td>
+<td>1:86</td>
+</tr>
+<tr>
+<td>x/x/31/31/x/x</td>
+<td>x/x/31/x/31/x</td>
+<td>1:86</td>
+</tr>
+<tr class="a">
+<td>x/x/31/31/x/x</td>
+<td>x/x/x/x/31/x</td>
+<td>1:138</td>
+</tr>
+<tr>
+<td>x/x/x/31/31/x</td>
+<td>x/x/31/x/x/x</td>
+<td>1:138</td>
+</tr>
+<tr class="a">
+<td>x/x/31/x/31/x</td>
+<td>x/x/x/31/x/x</td>
+<td>1:138</td>
+</tr>
+<tr>
+<td>x/x/31/31/31/x</td>
+<td>x/x/x/x/x/x</td>
+<td>1:138</td>
+</tr>
+<tr class="a">
+<td>x/x/x/31/31/x</td>
+<td>x/x/x/31/31/x</td>
+<td>1:179</td>
+</tr>
+<tr>
+<td>x/x/31/31/x/x</td>
+<td>x/x/31/31/x/x</td>
+<td>1:293</td>
+</tr>
+<tr class="a">
+<td>x/x/31/x/31/x</td>
+<td>x/x/31/x/31/x</td>
+<td>1:293</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a x/x/31/31/x/31 Baby (flawless Def, SpA and Spe)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>x/x/31/31/x/31</td>
+<td>x/x/31/31/x/31</td>
+<td>1:23</td>
+</tr>
+<tr>
+<td>x/x/31/31/x/31</td>
+<td>x/x/x/31/x/31</td>
+<td>1:40</td>
+</tr>
+<tr class="a">
+<td>x/x/31/31/x/31</td>
+<td>x/x/31/31/x/x</td>
+<td>1:42</td>
+</tr>
+<tr>
+<td>x/x/31/31/x/31</td>
+<td>x/x/31/x/x/31</td>
+<td>1:42</td>
+</tr>
+<tr class="a">
+<td>x/x/31/31/x/31</td>
+<td>x/x/x/31/x/x</td>
+<td>1:74</td>
+</tr>
+<tr>
+<td>x/x/31/31/x/x</td>
+<td>x/x/x/31/x/31</td>
+<td>1:74</td>
+</tr>
+<tr class="a">
+<td>x/x/31/31/x/31</td>
+<td>x/x/x/x/x/31</td>
+<td>1:74</td>
+</tr>
+<tr>
+<td>x/x/x/31/x/31</td>
+<td>x/x/31/x/x/31</td>
+<td>1:74</td>
+</tr>
+<tr class="a">
+<td>x/x/31/31/x/31</td>
+<td>x/x/31/x/x/x</td>
+<td>1:86</td>
+</tr>
+<tr>
+<td>x/x/31/31/x/x</td>
+<td>x/x/31/x/x/31</td>
+<td>1:86</td>
+</tr>
+<tr class="a">
+<td>x/x/31/31/x/x</td>
+<td>x/x/x/x/x/31</td>
+<td>1:138</td>
+</tr>
+<tr>
+<td>x/x/x/31/x/31</td>
+<td>x/x/31/x/x/x</td>
+<td>1:138</td>
+</tr>
+<tr class="a">
+<td>x/x/31/x/x/31</td>
+<td>x/x/x/31/x/x</td>
+<td>1:138</td>
+</tr>
+<tr>
+<td>x/x/31/31/x/31</td>
+<td>x/x/x/x/x/x</td>
+<td>1:138</td>
+</tr>
+<tr class="a">
+<td>x/x/x/31/x/31</td>
+<td>x/x/x/31/x/31</td>
+<td>1:179</td>
+</tr>
+<tr>
+<td>x/x/31/31/x/x</td>
+<td>x/x/31/31/x/x</td>
+<td>1:293</td>
+</tr>
+<tr class="a">
+<td>x/x/31/x/x/31</td>
+<td>x/x/31/x/x/31</td>
+<td>1:293</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a x/x/31/x/31/31 Baby (flawless Def, SpD and Spe)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>x/x/31/x/31/31</td>
+<td>x/x/31/x/31/31</td>
+<td>1:23</td>
+</tr>
+<tr>
+<td>x/x/31/x/31/31</td>
+<td>x/x/x/x/31/31</td>
+<td>1:40</td>
+</tr>
+<tr class="a">
+<td>x/x/31/x/31/31</td>
+<td>x/x/31/x/31/x</td>
+<td>1:42</td>
+</tr>
+<tr>
+<td>x/x/31/x/31/31</td>
+<td>x/x/31/x/x/31</td>
+<td>1:42</td>
+</tr>
+<tr class="a">
+<td>x/x/31/x/31/31</td>
+<td>x/x/x/x/31/x</td>
+<td>1:74</td>
+</tr>
+<tr>
+<td>x/x/31/x/31/x</td>
+<td>x/x/x/x/31/31</td>
+<td>1:74</td>
+</tr>
+<tr class="a">
+<td>x/x/31/x/31/31</td>
+<td>x/x/x/x/x/31</td>
+<td>1:74</td>
+</tr>
+<tr>
+<td>x/x/x/x/31/31</td>
+<td>x/x/31/x/x/31</td>
+<td>1:74</td>
+</tr>
+<tr class="a">
+<td>x/x/31/x/31/31</td>
+<td>x/x/31/x/x/x</td>
+<td>1:86</td>
+</tr>
+<tr>
+<td>x/x/31/x/31/x</td>
+<td>x/x/31/x/x/31</td>
+<td>1:86</td>
+</tr>
+<tr class="a">
+<td>x/x/31/x/31/x</td>
+<td>x/x/x/x/x/31</td>
+<td>1:138</td>
+</tr>
+<tr>
+<td>x/x/x/x/31/31</td>
+<td>x/x/31/x/x/x</td>
+<td>1:138</td>
+</tr>
+<tr class="a">
+<td>x/x/31/x/x/31</td>
+<td>x/x/x/x/31/x</td>
+<td>1:138</td>
+</tr>
+<tr>
+<td>x/x/31/x/31/31</td>
+<td>x/x/x/x/x/x</td>
+<td>1:138</td>
+</tr>
+<tr class="a">
+<td>x/x/x/x/31/31</td>
+<td>x/x/x/x/31/31</td>
+<td>1:179</td>
+</tr>
+<tr>
+<td>x/x/31/x/31/x</td>
+<td>x/x/31/x/31/x</td>
+<td>1:293</td>
+</tr>
+<tr class="a">
+<td>x/x/31/x/x/31</td>
+<td>x/x/31/x/x/31</td>
+<td>1:293</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a x/x/x/31/31/31 Baby (flawless SpA, SpD and Spe)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>x/x/x/31/31/31</td>
+<td>x/x/x/31/31/31</td>
+<td>1:16</td>
+</tr>
+<tr>
+<td>x/x/x/31/31/31</td>
+<td>x/x/x/31/31/x</td>
+<td>1:29</td>
+</tr>
+<tr class="a">
+<td>x/x/x/31/31/31</td>
+<td>x/x/x/31/x/31</td>
+<td>1:29</td>
+</tr>
+<tr>
+<td>x/x/x/31/31/31</td>
+<td>x/x/x/x/31/31</td>
+<td>1:29</td>
+</tr>
+<tr class="a">
+<td>x/x/x/31/31/31</td>
+<td>x/x/x/31/x/x</td>
+<td>1:54</td>
+</tr>
+<tr>
+<td>x/x/x/31/31/x</td>
+<td>x/x/x/31/x/31</td>
+<td>1:54</td>
+</tr>
+<tr class="a">
+<td>x/x/x/31/31/31</td>
+<td>x/x/x/x/31/x</td>
+<td>1:54</td>
+</tr>
+<tr>
+<td>x/x/x/31/31/x</td>
+<td>x/x/x/x/31/31</td>
+<td>1:54</td>
+</tr>
+<tr class="a">
+<td>x/x/x/31/31/31</td>
+<td>x/x/x/x/x/31</td>
+<td>1:54</td>
+</tr>
+<tr>
+<td>x/x/x/31/x/31</td>
+<td>x/x/x/x/31/31</td>
+<td>1:54</td>
+</tr>
+<tr class="a">
+<td>x/x/x/31/31/x</td>
+<td>x/x/x/x/x/31</td>
+<td>1:101</td>
+</tr>
+<tr>
+<td>x/x/x/31/x/31</td>
+<td>x/x/x/x/31/x</td>
+<td>1:101</td>
+</tr>
+<tr class="a">
+<td>x/x/x/x/31/31</td>
+<td>x/x/x/31/x/x</td>
+<td>1:101</td>
+</tr>
+<tr>
+<td>x/x/x/31/31/31</td>
+<td>x/x/x/x/x/x</td>
+<td>1:101</td>
+</tr>
+<tr class="a">
+<td>x/x/x/31/31/x</td>
+<td>x/x/x/31/31/x</td>
+<td>1:201</td>
+</tr>
+<tr>
+<td>x/x/x/31/x/31</td>
+<td>x/x/x/31/x/31</td>
+<td>1:201</td>
+</tr>
+<tr class="a">
+<td>x/x/x/x/31/31</td>
+<td>x/x/x/x/31/31</td>
+<td>1:201</td>
+</tr>
+</tbody>
+</table>
+
+<h3><a name="four">Section Four: Four Flawless IVs</a></h3>
+
+<p>These are the odds for parents having at least three perfect IVs. If your parents have less than three perfect IVs, it is recommended to first breed for such parents before going for a baby with four perfect IVs.</p>
+
+<table class="sortable">
+<caption>Odds to Breed a 31/31/31/31/x/x Baby (flawless HP, Atk, Def and SpA)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>31/31/31/31/x/x</td>
+<td>31/31/31/31/x/x</td>
+<td>1:397</td>
+</tr>
+<tr>
+<td>31/31/31/31/x/x</td>
+<td>x/31/31/31/x/x</td>
+<td>1:513</td>
+</tr>
+<tr class="a">
+<td>31/31/31/31/x/x</td>
+<td>31/31/x/31/x/x</td>
+<td>1:610</td>
+</tr>
+<tr>
+<td>31/31/31/31/x/x</td>
+<td>31/31/31/x/x/x</td>
+<td>1:682</td>
+</tr>
+<tr class="a">
+<td>31/31/31/31/x/x</td>
+<td>31/x/31/31/x/x</td>
+<td>1:682</td>
+</tr>
+<tr>
+<td>x/31/31/31/x/x</td>
+<td>x/31/31/31/x/x</td>
+<td>1:725</td>
+</tr>
+<tr class="a">
+<td>31/31/x/31/x/x</td>
+<td>x/31/31/31/x/x</td>
+<td>1:831</td>
+</tr>
+<tr>
+<td>31/31/31/x/x/x</td>
+<td>x/31/31/31/x/x</td>
+<td>1:907</td>
+</tr>
+<tr class="a">
+<td>31/x/31/31/x/x</td>
+<td>x/31/31/31/x/x</td>
+<td>1:907</td>
+</tr>
+<tr>
+<td>31/31/31/x/x/x</td>
+<td>31/31/x/31/x/x</td>
+<td>1:1070</td>
+</tr>
+<tr class="a">
+<td>31/x/31/31/x/x</td>
+<td>31/31/x/31/x/x</td>
+<td>1:1070</td>
+</tr>
+<tr>
+<td>31/31/31/x/x/x</td>
+<td>31/x/31/31/x/x</td>
+<td>1:1187</td>
+</tr>
+<tr class="a">
+<td>31/31/x/31/x/x</td>
+<td>31/31/x/31/x/x</td>
+<td>1:1317</td>
+</tr>
+<tr>
+<td>31/31/31/x/x/x</td>
+<td>31/31/31/x/x/x</td>
+<td>1:2408</td>
+</tr>
+<tr class="a">
+<td>31/x/31/31/x/x</td>
+<td>31/x/31/31/x/x</td>
+<td>1:2408</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a 31/31/31/x/31/x Baby (flawless HP, Atk, Def and SpD)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>31/31/31/x/31/x</td>
+<td>31/31/31/x/31/x</td>
+<td>1:397</td>
+</tr>
+<tr>
+<td>31/31/31/x/31/x</td>
+<td>x/31/31/x/31/x</td>
+<td>1:513</td>
+</tr>
+<tr class="a">
+<td>31/31/31/x/31/x</td>
+<td>31/31/x/x/31/x</td>
+<td>1:610</td>
+</tr>
+<tr>
+<td>31/31/31/x/31/x</td>
+<td>31/31/31/x/x/x</td>
+<td>1:682</td>
+</tr>
+<tr class="a">
+<td>31/31/31/x/31/x</td>
+<td>31/x/31/x/31/x</td>
+<td>1:682</td>
+</tr>
+<tr>
+<td>x/31/31/x/31/x</td>
+<td>x/31/31/x/31/x</td>
+<td>1:725</td>
+</tr>
+<tr class="a">
+<td>31/31/x/x/31/x</td>
+<td>x/31/31/x/31/x</td>
+<td>1:831</td>
+</tr>
+<tr>
+<td>31/31/31/x/x/x</td>
+<td>x/31/31/x/31/x</td>
+<td>1:907</td>
+</tr>
+<tr class="a">
+<td>31/x/31/x/31/x</td>
+<td>x/31/31/x/31/x</td>
+<td>1:907</td>
+</tr>
+<tr>
+<td>31/31/31/x/x/x</td>
+<td>31/31/x/x/31/x</td>
+<td>1:1070</td>
+</tr>
+<tr class="a">
+<td>31/x/31/x/31/x</td>
+<td>31/31/x/x/31/x</td>
+<td>1:1070</td>
+</tr>
+<tr>
+<td>31/31/31/x/x/x</td>
+<td>31/x/31/x/31/x</td>
+<td>1:1187</td>
+</tr>
+<tr class="a">
+<td>31/31/x/x/31/x</td>
+<td>31/31/x/x/31/x</td>
+<td>1:1317</td>
+</tr>
+<tr>
+<td>31/31/31/x/x/x</td>
+<td>31/31/31/x/x/x</td>
+<td>1:2408</td>
+</tr>
+<tr class="a">
+<td>31/x/31/x/31/x</td>
+<td>31/x/31/x/31/x</td>
+<td>1:2408</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a 31/31/31/x/x/31 Baby (flawless HP, Atk, Def and Spe)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>31/31/31/x/x/31</td>
+<td>31/31/31/x/x/31</td>
+<td>1:397</td>
+</tr>
+<tr>
+<td>31/31/31/x/x/31</td>
+<td>x/31/31/x/x/31</td>
+<td>1:513</td>
+</tr>
+<tr class="a">
+<td>31/31/31/x/x/31</td>
+<td>31/31/x/x/x/31</td>
+<td>1:610</td>
+</tr>
+<tr>
+<td>31/31/31/x/x/31</td>
+<td>31/31/31/x/x/x</td>
+<td>1:682</td>
+</tr>
+<tr class="a">
+<td>31/31/31/x/x/31</td>
+<td>31/x/31/x/x/31</td>
+<td>1:682</td>
+</tr>
+<tr>
+<td>x/31/31/x/x/31</td>
+<td>x/31/31/x/x/31</td>
+<td>1:725</td>
+</tr>
+<tr class="a">
+<td>31/31/x/x/x/31</td>
+<td>x/31/31/x/x/31</td>
+<td>1:831</td>
+</tr>
+<tr>
+<td>31/31/31/x/x/x</td>
+<td>x/31/31/x/x/31</td>
+<td>1:907</td>
+</tr>
+<tr class="a">
+<td>31/x/31/x/x/31</td>
+<td>x/31/31/x/x/31</td>
+<td>1:907</td>
+</tr>
+<tr>
+<td>31/31/31/x/x/x</td>
+<td>31/31/x/x/x/31</td>
+<td>1:1070</td>
+</tr>
+<tr class="a">
+<td>31/x/31/x/x/31</td>
+<td>31/31/x/x/x/31</td>
+<td>1:1070</td>
+</tr>
+<tr>
+<td>31/31/31/x/x/x</td>
+<td>31/x/31/x/x/31</td>
+<td>1:1187</td>
+</tr>
+<tr class="a">
+<td>31/31/x/x/x/31</td>
+<td>31/31/x/x/x/31</td>
+<td>1:1317</td>
+</tr>
+<tr>
+<td>31/31/31/x/x/x</td>
+<td>31/31/31/x/x/x</td>
+<td>1:2408</td>
+</tr>
+<tr class="a">
+<td>31/x/31/x/x/31</td>
+<td>31/x/31/x/x/31</td>
+<td>1:2408</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a 31/31/x/31/31/x Baby (flawless HP, Atk, SpA and SpD)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>31/31/x/31/31/x</td>
+<td>31/31/x/31/31/x</td>
+<td>1:276</td>
+</tr>
+<tr>
+<td>31/31/x/31/31/x</td>
+<td>x/31/x/31/31/x</td>
+<td>1:358</td>
+</tr>
+<tr class="a">
+<td>31/31/x/31/31/x</td>
+<td>31/31/x/31/x/x</td>
+<td>1:460</td>
+</tr>
+<tr>
+<td>31/31/x/31/31/x</td>
+<td>31/31/x/x/31/x</td>
+<td>1:460</td>
+</tr>
+<tr class="a">
+<td>31/31/x/31/31/x</td>
+<td>31/x/x/31/31/x</td>
+<td>1:460</td>
+</tr>
+<tr>
+<td>x/31/x/31/31/x</td>
+<td>x/31/x/31/31/x</td>
+<td>1:510</td>
+</tr>
+<tr class="a">
+<td>31/31/x/31/x/x</td>
+<td>x/31/x/31/31/x</td>
+<td>1:621</td>
+</tr>
+<tr>
+<td>31/31/x/x/31/x</td>
+<td>x/31/x/31/31/x</td>
+<td>1:621</td>
+</tr>
+<tr class="a">
+<td>31/x/x/31/31/x</td>
+<td>x/31/x/31/31/x</td>
+<td>1:621</td>
+</tr>
+<tr>
+<td>31/31/x/31/x/x</td>
+<td>31/31/x/x/31/x</td>
+<td>1:783</td>
+</tr>
+<tr class="a">
+<td>31/31/x/31/x/x</td>
+<td>31/x/x/31/31/x</td>
+<td>1:783</td>
+</tr>
+<tr>
+<td>31/x/x/31/31/x</td>
+<td>31/31/x/x/31/x</td>
+<td>1:783</td>
+</tr>
+<tr class="a">
+<td>31/31/x/31/x/x</td>
+<td>31/31/x/31/x/x</td>
+<td>1:1382</td>
+</tr>
+<tr>
+<td>31/31/x/x/31/x</td>
+<td>31/31/x/x/31/x</td>
+<td>1:1382</td>
+</tr>
+<tr class="a">
+<td>31/x/x/31/31/x</td>
+<td>31/x/x/31/31/x</td>
+<td>1:1382</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a 31/31/x/31/31/x Baby (flawless HP, Atk, SpA and SpD)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>31/31/x/31/31/x</td>
+<td>31/31/x/31/31/x</td>
+<td>1:276</td>
+</tr>
+<tr>
+<td>31/31/x/31/31/x</td>
+<td>x/31/x/31/31/x</td>
+<td>1:358</td>
+</tr>
+<tr class="a">
+<td>31/31/x/31/31/x</td>
+<td>31/31/x/31/x/x</td>
+<td>1:460</td>
+</tr>
+<tr>
+<td>31/31/x/31/31/x</td>
+<td>31/31/x/x/31/x</td>
+<td>1:460</td>
+</tr>
+<tr class="a">
+<td>31/31/x/31/31/x</td>
+<td>31/x/x/31/31/x</td>
+<td>1:460</td>
+</tr>
+<tr>
+<td>x/31/x/31/31/x</td>
+<td>x/31/x/31/31/x</td>
+<td>1:510</td>
+</tr>
+<tr class="a">
+<td>31/31/x/31/x/x</td>
+<td>x/31/x/31/31/x</td>
+<td>1:621</td>
+</tr>
+<tr>
+<td>31/31/x/x/31/x</td>
+<td>x/31/x/31/31/x</td>
+<td>1:621</td>
+</tr>
+<tr class="a">
+<td>31/x/x/31/31/x</td>
+<td>x/31/x/31/31/x</td>
+<td>1:621</td>
+</tr>
+<tr>
+<td>31/31/x/31/x/x</td>
+<td>31/31/x/x/31/x</td>
+<td>1:783</td>
+</tr>
+<tr class="a">
+<td>31/31/x/31/x/x</td>
+<td>31/x/x/31/31/x</td>
+<td>1:783</td>
+</tr>
+<tr>
+<td>31/x/x/31/31/x</td>
+<td>31/31/x/x/31/x</td>
+<td>1:783</td>
+</tr>
+<tr class="a">
+<td>31/31/x/31/x/x</td>
+<td>31/31/x/31/x/x</td>
+<td>1:1382</td>
+</tr>
+<tr>
+<td>31/31/x/x/31/x</td>
+<td>31/31/x/x/31/x</td>
+<td>1:1382</td>
+</tr>
+<tr class="a">
+<td>31/x/x/31/31/x</td>
+<td>31/x/x/31/31/x</td>
+<td>1:1382</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a 31/31/x/31/x/31 Baby (flawless HP, Atk, SpA and Spe)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>31/31/x/31/x/31</td>
+<td>31/31/x/31/x/31</td>
+<td>1:276</td>
+</tr>
+<tr>
+<td>31/31/x/31/x/31</td>
+<td>x/31/x/31/x/31</td>
+<td>1:358</td>
+</tr>
+<tr class="a">
+<td>31/31/x/31/x/31</td>
+<td>31/31/x/31/x/x</td>
+<td>1:460</td>
+</tr>
+<tr>
+<td>31/31/x/31/x/31</td>
+<td>31/31/x/x/x/31</td>
+<td>1:460</td>
+</tr>
+<tr class="a">
+<td>31/31/x/31/x/31</td>
+<td>31/x/x/31/x/31</td>
+<td>1:460</td>
+</tr>
+<tr>
+<td>x/31/x/31/x/31</td>
+<td>x/31/x/31/x/31</td>
+<td>1:510</td>
+</tr>
+<tr class="a">
+<td>31/31/x/31/x/x</td>
+<td>x/31/x/31/x/31</td>
+<td>1:621</td>
+</tr>
+<tr>
+<td>31/31/x/x/x/31</td>
+<td>x/31/x/31/x/31</td>
+<td>1:621</td>
+</tr>
+<tr class="a">
+<td>31/x/x/31/x/31</td>
+<td>x/31/x/31/x/31</td>
+<td>1:621</td>
+</tr>
+<tr>
+<td>31/31/x/31/x/x</td>
+<td>31/31/x/x/x/31</td>
+<td>1:783</td>
+</tr>
+<tr class="a">
+<td>31/31/x/31/x/x</td>
+<td>31/x/x/31/x/31</td>
+<td>1:783</td>
+</tr>
+<tr>
+<td>31/x/x/31/x/31</td>
+<td>31/31/x/x/x/31</td>
+<td>1:783</td>
+</tr>
+<tr class="a">
+<td>31/31/x/31/x/x</td>
+<td>31/31/x/31/x/x</td>
+<td>1:1382</td>
+</tr>
+<tr>
+<td>31/31/x/x/x/31</td>
+<td>31/31/x/x/x/31</td>
+<td>1:1382</td>
+</tr>
+<tr class="a">
+<td>31/x/x/31/x/31</td>
+<td>31/x/x/31/x/31</td>
+<td>1:1382</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a 31/31/x/x/31/31 Baby (flawless HP, Atk, SpD and Spe)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>31/31/x/x/31/31</td>
+<td>31/31/x/x/31/31</td>
+<td>1:276</td>
+</tr>
+<tr>
+<td>31/31/x/x/31/31</td>
+<td>x/31/x/x/31/31</td>
+<td>1:358</td>
+</tr>
+<tr class="a">
+<td>31/31/x/x/31/31</td>
+<td>31/31/x/x/31/x</td>
+<td>1:460</td>
+</tr>
+<tr>
+<td>31/31/x/x/31/31</td>
+<td>31/31/x/x/x/31</td>
+<td>1:460</td>
+</tr>
+<tr class="a">
+<td>31/31/x/x/31/31</td>
+<td>31/x/x/x/31/31</td>
+<td>1:460</td>
+</tr>
+<tr>
+<td>x/31/x/x/31/31</td>
+<td>x/31/x/x/31/31</td>
+<td>1:510</td>
+</tr>
+<tr class="a">
+<td>31/31/x/x/31/x</td>
+<td>x/31/x/x/31/31</td>
+<td>1:621</td>
+</tr>
+<tr>
+<td>31/31/x/x/x/31</td>
+<td>x/31/x/x/31/31</td>
+<td>1:621</td>
+</tr>
+<tr class="a">
+<td>31/x/x/x/31/31</td>
+<td>x/31/x/x/31/31</td>
+<td>1:621</td>
+</tr>
+<tr>
+<td>31/31/x/x/31/x</td>
+<td>31/31/x/x/x/31</td>
+<td>1:783</td>
+</tr>
+<tr class="a">
+<td>31/31/x/x/31/x</td>
+<td>31/x/x/x/31/31</td>
+<td>1:783</td>
+</tr>
+<tr>
+<td>31/x/x/x/31/31</td>
+<td>31/31/x/x/x/31</td>
+<td>1:783</td>
+</tr>
+<tr class="a">
+<td>31/31/x/x/31/x</td>
+<td>31/31/x/x/31/x</td>
+<td>1:1382</td>
+</tr>
+<tr>
+<td>31/31/x/x/x/31</td>
+<td>31/31/x/x/x/31</td>
+<td>1:1382</td>
+</tr>
+<tr class="a">
+<td>31/x/x/x/31/31</td>
+<td>31/x/x/x/31/31</td>
+<td>1:1382</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a 31/x/31/31/31/x Baby (flawless HP, Def, SpA and SpD)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>31/x/31/31/31/x</td>
+<td>31/x/31/31/31/x</td>
+<td>1:397</td>
+</tr>
+<tr>
+<td>31/x/31/31/31/x</td>
+<td>x/x/31/31/31/x</td>
+<td>1:513</td>
+</tr>
+<tr class="a">
+<td>31/x/31/31/31/x</td>
+<td>31/x/x/31/31/x</td>
+<td>1:610</td>
+</tr>
+<tr>
+<td>31/x/31/31/31/x</td>
+<td>31/x/31/31/x/x</td>
+<td>1:682</td>
+</tr>
+<tr class="a">
+<td>31/x/31/31/31/x</td>
+<td>31/x/31/x/31/x</td>
+<td>1:682</td>
+</tr>
+<tr>
+<td>x/x/31/31/31/x</td>
+<td>x/x/31/31/31/x</td>
+<td>1:725</td>
+</tr>
+<tr class="a">
+<td>31/x/x/31/31/x</td>
+<td>x/x/31/31/31/x</td>
+<td>1:831</td>
+</tr>
+<tr>
+<td>31/x/31/31/x/x</td>
+<td>x/x/31/31/31/x</td>
+<td>1:907</td>
+</tr>
+<tr class="a">
+<td>31/x/31/x/31/x</td>
+<td>x/x/31/31/31/x</td>
+<td>1:907</td>
+</tr>
+<tr>
+<td>31/x/31/31/x/x</td>
+<td>31/x/x/31/31/x</td>
+<td>1:1070</td>
+</tr>
+<tr class="a">
+<td>31/x/31/x/31/x</td>
+<td>31/x/x/31/31/x</td>
+<td>1:1070</td>
+</tr>
+<tr>
+<td>31/x/31/31/x/x</td>
+<td>31/x/31/x/31/x</td>
+<td>1:1187</td>
+</tr>
+<tr class="a">
+<td>31/x/x/31/31/x</td>
+<td>31/x/x/31/31/x</td>
+<td>1:1317</td>
+</tr>
+<tr>
+<td>31/x/31/31/x/x</td>
+<td>31/x/31/31/x/x</td>
+<td>1:2408</td>
+</tr>
+<tr class="a">
+<td>31/x/31/x/31/x</td>
+<td>31/x/31/x/31/x</td>
+<td>1:2408</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a 31/x/31/31/x/31 Baby (flawless HP, Def, SpA and Spe)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>31/x/31/31/x/31</td>
+<td>31/x/31/31/x/31</td>
+<td>1:397</td>
+</tr>
+<tr>
+<td>31/x/31/31/x/31</td>
+<td>x/x/31/31/x/31</td>
+<td>1:513</td>
+</tr>
+<tr class="a">
+<td>31/x/31/31/x/31</td>
+<td>31/x/x/31/x/31</td>
+<td>1:610</td>
+</tr>
+<tr>
+<td>31/x/31/31/x/31</td>
+<td>31/x/31/31/x/x</td>
+<td>1:682</td>
+</tr>
+<tr class="a">
+<td>31/x/31/31/x/31</td>
+<td>31/x/31/x/x/31</td>
+<td>1:682</td>
+</tr>
+<tr>
+<td>x/x/31/31/x/31</td>
+<td>x/x/31/31/x/31</td>
+<td>1:725</td>
+</tr>
+<tr class="a">
+<td>31/x/x/31/x/31</td>
+<td>x/x/31/31/x/31</td>
+<td>1:831</td>
+</tr>
+<tr>
+<td>31/x/31/31/x/x</td>
+<td>x/x/31/31/x/31</td>
+<td>1:907</td>
+</tr>
+<tr class="a">
+<td>31/x/31/x/x/31</td>
+<td>x/x/31/31/x/31</td>
+<td>1:907</td>
+</tr>
+<tr>
+<td>31/x/31/31/x/x</td>
+<td>31/x/x/31/x/31</td>
+<td>1:1070</td>
+</tr>
+<tr class="a">
+<td>31/x/31/x/x/31</td>
+<td>31/x/x/31/x/31</td>
+<td>1:1070</td>
+</tr>
+<tr>
+<td>31/x/31/31/x/x</td>
+<td>31/x/31/x/x/31</td>
+<td>1:1187</td>
+</tr>
+<tr class="a">
+<td>31/x/x/31/x/31</td>
+<td>31/x/x/31/x/31</td>
+<td>1:1317</td>
+</tr>
+<tr>
+<td>31/x/31/31/x/x</td>
+<td>31/x/31/31/x/x</td>
+<td>1:2408</td>
+</tr>
+<tr class="a">
+<td>31/x/31/x/x/31</td>
+<td>31/x/31/x/x/31</td>
+<td>1:2408</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a 31/x/31/x/31/31 Baby (flawless HP, Def, SpD and Spe)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>31/x/31/x/31/31</td>
+<td>31/x/31/x/31/31</td>
+<td>1:397</td>
+</tr>
+<tr>
+<td>31/x/31/x/31/31</td>
+<td>x/x/31/x/31/31</td>
+<td>1:513</td>
+</tr>
+<tr class="a">
+<td>31/x/31/x/31/31</td>
+<td>31/x/x/x/31/31</td>
+<td>1:610</td>
+</tr>
+<tr>
+<td>31/x/31/x/31/31</td>
+<td>31/x/31/x/31/x</td>
+<td>1:682</td>
+</tr>
+<tr class="a">
+<td>31/x/31/x/31/31</td>
+<td>31/x/31/x/x/31</td>
+<td>1:682</td>
+</tr>
+<tr>
+<td>x/x/31/x/31/31</td>
+<td>x/x/31/x/31/31</td>
+<td>1:725</td>
+</tr>
+<tr class="a">
+<td>31/x/x/x/31/31</td>
+<td>x/x/31/x/31/31</td>
+<td>1:831</td>
+</tr>
+<tr>
+<td>31/x/31/x/31/x</td>
+<td>x/x/31/x/31/31</td>
+<td>1:907</td>
+</tr>
+<tr class="a">
+<td>31/x/31/x/x/31</td>
+<td>x/x/31/x/31/31</td>
+<td>1:907</td>
+</tr>
+<tr>
+<td>31/x/31/x/31/x</td>
+<td>31/x/x/x/31/31</td>
+<td>1:1070</td>
+</tr>
+<tr class="a">
+<td>31/x/31/x/x/31</td>
+<td>31/x/x/x/31/31</td>
+<td>1:1070</td>
+</tr>
+<tr>
+<td>31/x/31/x/31/x</td>
+<td>31/x/31/x/x/31</td>
+<td>1:1187</td>
+</tr>
+<tr class="a">
+<td>31/x/x/x/31/31</td>
+<td>31/x/x/x/31/31</td>
+<td>1:1317</td>
+</tr>
+<tr>
+<td>31/x/31/x/31/x</td>
+<td>31/x/31/x/31/x</td>
+<td>1:2408</td>
+</tr>
+<tr class="a">
+<td>31/x/31/x/x/31</td>
+<td>31/x/31/x/x/31</td>
+<td>1:2408</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a 31/x/x/31/31/31 Baby (flawless HP, SpA, SpD and Spe)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>31/x/x/31/31/31</td>
+<td>31/x/x/31/31/31</td>
+<td>1:276</td>
+</tr>
+<tr>
+<td>31/x/x/31/31/31</td>
+<td>x/x/x/31/31/31</td>
+<td>1:358</td>
+</tr>
+<tr class="a">
+<td>31/x/x/31/31/31</td>
+<td>31/x/x/31/31/x</td>
+<td>1:460</td>
+</tr>
+<tr>
+<td>31/x/x/31/31/31</td>
+<td>31/x/x/31/x/31</td>
+<td>1:460</td>
+</tr>
+<tr class="a">
+<td>31/x/x/31/31/31</td>
+<td>31/x/x/x/31/31</td>
+<td>1:460</td>
+</tr>
+<tr>
+<td>x/x/x/31/31/31</td>
+<td>x/x/x/31/31/31</td>
+<td>1:510</td>
+</tr>
+<tr class="a">
+<td>31/x/x/31/31/x</td>
+<td>x/x/x/31/31/31</td>
+<td>1:621</td>
+</tr>
+<tr>
+<td>31/x/x/31/x/31</td>
+<td>x/x/x/31/31/31</td>
+<td>1:621</td>
+</tr>
+<tr class="a">
+<td>31/x/x/x/31/31</td>
+<td>x/x/x/31/31/31</td>
+<td>1:621</td>
+</tr>
+<tr>
+<td>31/x/x/31/31/x</td>
+<td>31/x/x/31/x/31</td>
+<td>1:783</td>
+</tr>
+<tr class="a">
+<td>31/x/x/31/31/x</td>
+<td>31/x/x/x/31/31</td>
+<td>1:783</td>
+</tr>
+<tr>
+<td>31/x/x/x/31/31</td>
+<td>31/x/x/31/x/31</td>
+<td>1:783</td>
+</tr>
+<tr class="a">
+<td>31/x/x/31/31/x</td>
+<td>31/x/x/31/31/x</td>
+<td>1:1382</td>
+</tr>
+<tr>
+<td>31/x/x/31/x/31</td>
+<td>31/x/x/31/x/31</td>
+<td>1:1382</td>
+</tr>
+<tr class="a">
+<td>31/x/x/x/31/31</td>
+<td>31/x/x/x/31/31</td>
+<td>1:1382</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a x/31/31/31/31/x Baby (flawless Atk, Def, SpA and SpD)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>x/31/31/31/31/x</td>
+<td>x/31/31/31/31/x</td>
+<td>1:192</td>
+</tr>
+<tr>
+<td>x/31/31/31/31/x</td>
+<td>x/31/x/31/31/x</td>
+<td>1:280</td>
+</tr>
+<tr class="a">
+<td>x/31/31/31/31/x</td>
+<td>x/31/31/31/x/x</td>
+<td>1:307</td>
+</tr>
+<tr>
+<td>x/31/31/31/31/x</td>
+<td>x/31/31/x/31/x</td>
+<td>1:307</td>
+
+xx1:74
+
+xtdtd31</tr>
+<tr class="a">
+<td>x/31/31/31/31/x</td>
+<td>x/x/31/31/31/x</td>
+<td>1:307</td>
+</tr>
+<tr>
+<td>x/31/31/31/x/x</td>
+<td>x/31/x/31/31/x</td>
+<td>1:468</td>
+</tr>
+<tr class="a">
+<td>x/31/x/31/31/x</td>
+<td>x/31/31/x/31/x</td>
+<td>1:468</td>
+</tr>
+<tr>
+<td>x/31/x/31/31/x</td>
+<td>x/x/31/31/31/x</td>
+<td>1:468</td>
+</tr>
+<tr class="a">
+<td>x/31/31/31/x/x</td>
+<td>x/31/31/x/31/x</td>
+<td>1:508</td>
+</tr>
+<tr>
+<td>x/31/31/31/x/x</td>
+<td>x/x/31/31/31/x</td>
+<td>1:508</td>
+</tr>
+<tr class="a">
+<td>x/31/31/x/31/x</td>
+<td>x/x/31/31/31/x</td>
+<td>1:508</td>
+</tr>
+<tr>
+<td>x/31/x/31/31/x</td>
+<td>x/31/x/31/31/x</td>
+<td>1:524</td>
+</tr>
+<tr class="a">
+<td>x/31/31/31/x/x</td>
+<td>x/31/31/31/x/x</td>
+<td>1:775</td>
+</tr>
+<tr>
+<td>x/31/31/x/31/x</td>
+<td>x/31/31/x/31/x</td>
+<td>1:775</td>
+</tr>
+<tr class="a">
+<td>x/x/31/31/31/x</td>
+<td>x/x/31/31/31/x</td>
+<td>1:775</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a x/31/31/31/x/31 Baby (flawless Atk, Def, SpA and Spe)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>x/31/31/31/x/31</td>
+<td>x/31/31/31/x/31</td>
+<td>1:192</td>
+</tr>
+<tr>
+<td>x/31/31/31/x/31</td>
+<td>x/31/x/31/x/31</td>
+<td>1:280</td>
+</tr>
+<tr class="a">
+<td>x/31/31/31/x/31</td>
+<td>x/31/31/31/x/x</td>
+<td>1:307</td>
+</tr>
+<tr>
+<td>x/31/31/31/x/31</td>
+<td>x/31/31/x/x/31</td>
+<td>1:307</td>
+</tr>
+<tr class="a">
+<td>x/31/31/31/x/31</td>
+<td>x/x/31/31/x/31</td>
+<td>1:307</td>
+</tr>
+<tr>
+<td>x/31/31/31/x/x</td>
+<td>x/31/x/31/x/31</td>
+<td>1:468</td>
+</tr>
+<tr class="a">
+<td>x/31/x/31/x/31</td>
+<td>x/31/31/x/x/31</td>
+<td>1:468</td>
+</tr>
+<tr>
+<td>x/31/x/31/x/31</td>
+<td>x/x/31/31/x/31</td>
+<td>1:468</td>
+</tr>
+<tr class="a">
+<td>x/31/31/31/x/x</td>
+<td>x/31/31/x/x/31</td>
+<td>1:508</td>
+</tr>
+<tr>
+<td>x/31/31/31/x/x</td>
+<td>x/x/31/31/x/31</td>
+<td>1:508</td>
+</tr>
+<tr class="a">
+<td>x/31/31/x/x/31</td>
+<td>x/x/31/31/x/31</td>
+<td>1:508</td>
+</tr>
+<tr>
+<td>x/31/x/31/x/31</td>
+<td>x/31/x/31/x/31</td>
+<td>1:524</td>
+</tr>
+<tr class="a">
+<td>x/31/31/31/x/x</td>
+<td>x/31/31/31/x/x</td>
+<td>1:775</td>
+</tr>
+<tr>
+<td>x/31/31/x/x/31</td>
+<td>x/31/31/x/x/31</td>
+<td>1:775</td>
+</tr>
+<tr class="a">
+<td>x/x/31/31/x/31</td>
+<td>x/x/31/31/x/31</td>
+<td>1:775</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a x/31/31/x/31/31 Baby (flawless Atk, Def, SpD and Spe)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>x/31/31/x/31/31</td>
+<td>x/31/31/x/31/31</td>
+<td>1:192</td>
+</tr>
+<tr>
+<td>x/31/31/x/31/31</td>
+<td>x/31/x/x/31/31</td>
+<td>1:280</td>
+</tr>
+<tr class="a">
+<td>x/31/31/x/31/31</td>
+<td>x/31/31/x/31/x</td>
+<td>1:307</td>
+</tr>
+<tr>
+<td>x/31/31/x/31/31</td>
+<td>x/31/31/x/x/31</td>
+<td>1:307</td>
+</tr>
+<tr class="a">
+<td>x/31/31/x/31/31</td>
+<td>x/x/31/x/31/31</td>
+<td>1:307</td>
+</tr>
+<tr>
+<td>x/31/31/x/31/x</td>
+<td>x/31/x/x/31/31</td>
+<td>1:468</td>
+</tr>
+<tr class="a">
+<td>x/31/x/x/31/31</td>
+<td>x/31/31/x/x/31</td>
+<td>1:468</td>
+</tr>
+<tr>
+<td>x/31/x/x/31/31</td>
+<td>x/x/31/x/31/31</td>
+<td>1:468</td>
+</tr>
+<tr class="a">
+<td>x/31/31/x/31/x</td>
+<td>x/31/31/x/x/31</td>
+<td>1:508</td>
+</tr>
+<tr>
+<td>x/31/31/x/31/x</td>
+<td>x/x/31/x/31/31</td>
+<td>1:508</td>
+</tr>
+<tr class="a">
+<td>x/31/31/x/x/31</td>
+<td>x/x/31/x/31/31</td>
+<td>1:508</td>
+</tr>
+<tr>
+<td>x/31/x/x/31/31</td>
+<td>x/31/x/x/31/31</td>
+<td>1:524</td>
+</tr>
+<tr class="a">
+<td>x/31/31/x/31/x</td>
+<td>x/31/31/x/31/x</td>
+<td>1:775</td>
+</tr>
+<tr>
+<td>x/31/31/x/x/31</td>
+<td>x/31/31/x/x/31</td>
+<td>1:775</td>
+</tr>
+<tr class="a">
+<td>x/x/31/x/31/31</td>
+<td>x/x/31/x/31/31</td>
+<td>1:775</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a x/31/x/31/31/31 Baby (flawless Atk, SpA, SpD and Spe)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>x/31/x/31/31/31</td>
+<td>x/31/x/31/31/31</td>
+<td>1:147</td>
+</tr>
+<tr>
+<td>x/31/x/31/31/31</td>
+<td>x/31/x/31/31/x</td>
+<td>1:230</td>
+</tr>
+<tr class="a">
+<td>x/31/x/31/31/31</td>
+<td>x/31/x/31/x/31</td>
+<td>1:230</td>
+</tr>
+<tr>
+<td>x/31/x/31/31/31</td>
+<td>x/31/x/x/31/31</td>
+<td>1:230</td>
+</tr>
+<tr class="a">
+<td>x/31/x/31/31/31</td>
+<td>x/x/x/31/31/31</td>
+<td>1:230</td>
+</tr>
+<tr>
+<td>x/31/x/31/31/x</td>
+<td>x/31/x/31/x/31</td>
+<td>1:376</td>
+</tr>
+<tr class="a">
+<td>x/31/x/31/31/x</td>
+<td>x/31/x/x/31/31</td>
+<td>1:376</td>
+</tr>
+<tr>
+<td>x/31/x/31/31/x</td>
+<td>x/x/x/31/31/31</td>
+<td>1:376</td>
+</tr>
+<tr class="a">
+<td>x/31/x/x/31/31</td>
+<td>x/31/x/31/x/31</td>
+<td>1:376</td>
+</tr>
+<tr>
+<td>x/31/x/31/x/31</td>
+<td>x/x/x/31/31/31</td>
+<td>1:376</td>
+</tr>
+<tr class="a">
+<td>x/31/x/x/31/31</td>
+<td>x/x/x/31/31/31</td>
+<td>1:376</td>
+</tr>
+<tr>
+<td>x/31/x/31/31/x</td>
+<td>x/31/x/31/31/x</td>
+<td>1:538</td>
+</tr>
+<tr class="a">
+<td>x/31/x/31/x/31</td>
+<td>x/31/x/31/x/31</td>
+<td>1:538</td>
+</tr>
+<tr>
+<td>x/31/x/x/31/31</td>
+<td>x/31/x/x/31/31</td>
+<td>1:538</td>
+</tr>
+<tr class="a">
+<td>x/x/x/31/31/31</td>
+<td>x/x/x/31/31/31</td>
+<td>1:538</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a x/x/31/31/31/31 Baby (flawless Def, SpA, SpD and Spe)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>x/x/31/31/31/31</td>
+<td>x/x/31/31/31/31</td>
+<td>1:192</td>
+</tr>
+<tr>
+<td>x/x/31/31/31/31</td>
+<td>x/x/x/31/31/31</td>
+<td>1:280</td>
+</tr>
+<tr class="a">
+<td>x/x/31/31/31/31</td>
+<td>x/x/31/31/31/x</td>
+<td>1:307</td>
+</tr>
+<tr>
+<td>x/x/31/31/31/31</td>
+<td>x/x/31/x/31/31</td>
+<td>1:307</td>
+</tr>
+<tr class="a">
+<td>x/x/31/31/31/31</td>
+<td>x/x/31/31/x/31</td>
+<td>1:307</td>
+</tr>
+<tr>
+<td>x/x/31/31/31/x</td>
+<td>x/x/x/31/31/31</td>
+<td>1:468</td>
+</tr>
+<tr class="a">
+<td>x/x/x/31/31/31</td>
+<td>x/x/31/x/31/31</td>
+<td>1:468</td>
+</tr>
+<tr>
+<td>x/x/x/31/31/31</td>
+<td>x/x/31/31/x/31</td>
+<td>1:468</td>
+</tr>
+<tr class="a">
+<td>x/x/31/31/31/x</td>
+<td>x/x/31/x/31/31</td>
+<td>1:508</td>
+</tr>
+<tr>
+<td>x/x/31/31/31/x</td>
+<td>x/x/31/31/x/31</td>
+<td>1:508</td>
+</tr>
+<tr class="a">
+<td>x/x/31/x/31/31</td>
+<td>x/x/31/31/x/31</td>
+<td>1:508</td>
+</tr>
+<tr>
+<td>x/x/x/31/31/31</td>
+<td>x/x/x/31/31/31</td>
+<td>1:524</td>
+</tr>
+<tr class="a">
+<td>x/x/31/31/31/x</td>
+<td>x/x/31/31/31/x</td>
+<td>1:775</td>
+</tr>
+<tr>
+<td>x/x/31/x/31/31</td>
+<td>x/x/31/x/31/31</td>
+<td>1:775</td>
+</tr>
+<tr class="a">
+<td>x/x/31/31/x/31</td>
+<td>x/x/31/31/x/31</td>
+<td>1:775</td>
+</tr>
+</tbody>
+</table>
+
+<h3><a name="five">Section Five: Five Flawless IVs</a></h3>
+
+<p>These are the odds for parents having at least four perfect IVs. If your parents have less than four perfect IVs, it is recommended to first breed for such parents before going for a baby with five perfect IVs.</p>
+
+<table class="sortable">
+<caption>Odds to Breed a 31/31/31/31/31/x Baby (flawless HP, Atk, Def, SpA and SpD)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>31/31/31/31/31/x</td>
+<td>31/31/31/31/31/x</td>
+<td>1:4221</td>
+</tr>
+<tr>
+<td>31/31/31/31/31/x</td>
+<td>x/31/31/31/31/x</td>
+<td>1:5024</td>
+</tr>
+<tr class="a">
+<td>31/31/31/31/31/x</td>
+<td>31/31/x/31/31/x</td>
+<td>1:5777</td>
+</tr>
+<tr>
+<td>x/31/31/31/31/x</td>
+<td>x/31/31/31/31/x</td>
+<td>1:6025</td>
+</tr>
+<tr class="a">
+<td>31/31/31/31/31/x</td>
+<td>31/31/31/31/x/x</td>
+<td>1:6440</td>
+</tr>
+<tr>
+<td>31/31/31/31/31/x</td>
+<td>31/31/31/x/31/x</td>
+<td>1:6440</td>
+</tr>
+<tr class="a">
+<td>31/31/31/31/31/x</td>
+<td>31/x/31/31/31/x</td>
+<td>1:6440</td>
+</tr>
+<tr>
+<td>31/31/x/31/31/x</td>
+<td>x/31/31/31/31/x</td>
+<td>1:7073</td>
+</tr>
+<tr class="a">
+<td>31/31/31/31/x/x</td>
+<td>x/31/31/31/31/x</td>
+<td>1:7827</td>
+</tr>
+<tr>
+<td>31/31/31/x/31/x</td>
+<td>x/31/31/31/31/x</td>
+<td>1:7827</td>
+</tr>
+<tr class="a">
+<td>31/x/31/31/31/x</td>
+<td>x/31/31/31/31/x</td>
+<td>1:7827</td>
+</tr>
+<tr>
+<td>31/31/31/31/x/x</td>
+<td>31/31/x/31/31/x</td>
+<td>1:9074</td>
+</tr>
+<tr class="a">
+<td>31/31/31/x/31/x</td>
+<td>31/31/x/31/31/x</td>
+<td>1:9074</td>
+</tr>
+<tr>
+<td>31/31/x/31/31/x</td>
+<td>31/x/31/31/31/x</td>
+<td>1:9074</td>
+</tr>
+<tr class="a">
+<td>31/31/x/31/31/x</td>
+<td>31/31/x/31/31/x</td>
+<td>1:9152</td>
+</tr>
+<tr>
+<td>31/31/31/31/x/x</td>
+<td>31/31/31/x/31/x</td>
+<td>1:10120</td>
+</tr>
+<tr class="a">
+<td>31/31/31/31/x/x</td>
+<td>31/x/31/31/31/x</td>
+<td>1:10120</td>
+</tr>
+<tr>
+<td>31/31/31/x/31/x</td>
+<td>31/x/31/31/31/x</td>
+<td>1:10120</td>
+</tr>
+<tr class="a">
+<td>31/31/31/31/x/x</td>
+<td>31/31/31/31/x/x</td>
+<td>1:13580</td>
+</tr>
+<tr>
+<td>31/31/31/x/31/x</td>
+<td>31/31/31/x/31/x</td>
+<td>1:13580</td>
+</tr>
+<tr class="a">
+<td>31/x/31/31/31/x</td>
+<td>31/x/31/31/31/x</td>
+<td>1:13580</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a 31/31/31/31/x/31 Baby (flawless HP, Atk, Def, SpA and Spe)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>31/31/31/31/x/31</td>
+<td>31/31/31/31/x/31</td>
+<td>1:4221</td>
+</tr>
+<tr>
+<td>31/31/31/31/x/31</td>
+<td>x/31/31/31/x/31</td>
+<td>1:5024</td>
+</tr>
+<tr class="a">
+<td>31/31/31/31/x/31</td>
+<td>31/31/x/31/x/31</td>
+<td>1:5777</td>
+</tr>
+<tr>
+<td>x/31/31/31/x/31</td>
+<td>x/31/31/31/x/31</td>
+<td>1:6025</td>
+</tr>
+<tr class="a">
+<td>31/31/31/31/x/31</td>
+<td>31/31/31/31/x/x</td>
+<td>1:6440</td>
+</tr>
+<tr>
+<td>31/31/31/31/x/31</td>
+<td>31/31/31/x/x/31</td>
+<td>1:6440</td>
+</tr>
+<tr class="a">
+<td>31/31/31/31/x/31</td>
+<td>31/x/31/31/x/31</td>
+<td>1:6440</td>
+</tr>
+<tr>
+<td>31/31/x/31/x/31</td>
+<td>x/31/31/31/x/31</td>
+<td>1:7073</td>
+</tr>
+<tr class="a">
+<td>31/31/31/31/x/x</td>
+<td>x/31/31/31/x/31</td>
+<td>1:7827</td>
+</tr>
+<tr>
+<td>31/31/31/x/x/31</td>
+<td>x/31/31/31/x/31</td>
+<td>1:7827</td>
+</tr>
+<tr class="a">
+<td>31/x/31/31/x/31</td>
+<td>x/31/31/31/x/31</td>
+<td>1:7827</td>
+</tr>
+<tr>
+<td>31/31/31/31/x/x</td>
+<td>31/31/x/31/x/31</td>
+<td>1:9074</td>
+</tr>
+<tr class="a">
+<td>31/31/31/x/x/31</td>
+<td>31/31/x/31/x/31</td>
+<td>1:9074</td>
+</tr>
+<tr>
+<td>31/31/x/31/x/31</td>
+<td>31/x/31/31/x/31</td>
+<td>1:9074</td>
+</tr>
+<tr class="a">
+<td>31/31/x/31/x/31</td>
+<td>31/31/x/31/x/31</td>
+<td>1:9152</td>
+</tr>
+<tr>
+<td>31/31/31/31/x/x</td>
+<td>31/31/31/x/x/31</td>
+<td>1:10120</td>
+</tr>
+<tr class="a">
+<td>31/31/31/31/x/x</td>
+<td>31/x/31/31/x/31</td>
+<td>1:10120</td>
+</tr>
+<tr>
+<td>31/31/31/x/x/31</td>
+<td>31/x/31/31/x/31</td>
+<td>1:10120</td>
+</tr>
+<tr class="a">
+<td>31/31/31/31/x/x</td>
+<td>31/31/31/31/x/x</td>
+<td>1:13580</td>
+</tr>
+<tr>
+<td>31/31/31/x/x/31</td>
+<td>31/31/31/x/x/31</td>
+<td>1:13580</td>
+</tr>
+<tr class="a">
+<td>31/x/31/31/x/31</td>
+<td>31/x/31/31/x/31</td>
+<td>1:13580</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a 31/31/31/x/31/31 Baby (flawless HP, Atk, Def, SpD and Spe)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>31/31/31/x/31/31</td>
+<td>31/31/31/x/31/31</td>
+<td>1:4221</td>
+</tr>
+<tr>
+<td>31/31/31/x/31/31</td>
+<td>x/31/31/x/31/31</td>
+<td>1:5024</td>
+</tr>
+<tr class="a">
+<td>31/31/31/x/31/31</td>
+<td>31/31/x/x/31/31</td>
+<td>1:5777</td>
+</tr>
+<tr>
+<td>x/31/31/x/31/31</td>
+<td>x/31/31/x/31/31</td>
+<td>1:6025</td>
+</tr>
+<tr class="a">
+<td>31/31/31/x/31/31</td>
+<td>31/31/31/x/31/x</td>
+<td>1:6440</td>
+</tr>
+<tr>
+<td>31/31/31/x/31/31</td>
+<td>31/31/31/x/x/31</td>
+<td>1:6440</td>
+</tr>
+<tr class="a">
+<td>31/31/31/x/31/31</td>
+<td>31/x/31/x/31/31</td>
+<td>1:6440</td>
+</tr>
+<tr>
+<td>31/31/x/x/31/31</td>
+<td>x/31/31/x/31/31</td>
+<td>1:7073</td>
+</tr>
+<tr class="a">
+<td>31/31/31/x/31/x</td>
+<td>x/31/31/x/31/31</td>
+<td>1:7827</td>
+</tr>
+<tr>
+<td>31/31/31/x/x/31</td>
+<td>x/31/31/x/31/31</td>
+<td>1:7827</td>
+</tr>
+<tr class="a">
+<td>31/x/31/x/31/31</td>
+<td>x/31/31/x/31/31</td>
+<td>1:7827</td>
+</tr>
+<tr>
+<td>31/31/31/x/31/x</td>
+<td>31/31/x/x/31/31</td>
+<td>1:9074</td>
+</tr>
+<tr class="a">
+<td>31/31/31/x/x/31</td>
+<td>31/31/x/x/31/31</td>
+<td>1:9074</td>
+</tr>
+<tr>
+<td>31/31/x/x/31/31</td>
+<td>31/x/31/x/31/31</td>
+<td>1:9074</td>
+</tr>
+<tr class="a">
+<td>31/31/x/x/31/31</td>
+<td>31/31/x/x/31/31</td>
+<td>1:9152</td>
+</tr>
+<tr>
+<td>31/31/31/x/31/x</td>
+<td>31/31/31/x/x/31</td>
+<td>1:10120</td>
+</tr>
+<tr class="a">
+<td>31/31/31/x/31/x</td>
+<td>31/x/31/x/31/31</td>
+<td>1:10120</td>
+</tr>
+<tr>
+<td>31/31/31/x/x/31</td>
+<td>31/x/31/x/31/31</td>
+<td>1:10120</td>
+</tr>
+<tr class="a">
+<td>31/31/31/x/31/x</td>
+<td>31/31/31/x/31/x</td>
+<td>1:13580</td>
+</tr>
+<tr>
+<td>31/31/31/x/x/31</td>
+<td>31/31/31/x/x/31</td>
+<td>1:13580</td>
+</tr>
+<tr class="a">
+<td>31/x/31/x/31/31</td>
+<td>31/x/31/x/31/31</td>
+<td>1:13580</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a 31/31/x/31/31/31 Baby (flawless HP, Atk, SpA, SpD and Spe)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>31/31/x/31/31/31</td>
+<td>31/31/x/31/31/31</td>
+<td>1:3222</td>
+</tr>
+<tr>
+<td>31/31/x/31/31/31</td>
+<td>x/31/x/31/31/31</td>
+<td>1:3839</td>
+</tr>
+<tr class="a">
+<td>x/31/x/31/31/31</td>
+<td>x/31/x/31/31/31</td>
+<td>1:4747</td>
+</tr>
+<tr>
+<td>31/31/x/31/31/31</td>
+<td>31/31/x/31/31/x</td>
+<td>1:4793</td>
+</tr>
+<tr class="a">
+<td>31/31/x/31/31/31</td>
+<td>31/31/x/31/x/31</td>
+<td>1:4793</td>
+</tr>
+<tr>
+<td>31/31/x/31/31/31</td>
+<td>31/31/x/x/31/31</td>
+<td>1:4793</td>
+</tr>
+<tr class="a">
+<td>31/31/31/x/31/31</td>
+<td>31/x/x/31/31/31</td>
+<td>1:4793</td>
+</tr>
+<tr>
+<td>31/31/x/31/31/x</td>
+<td>x/31/x/31/31/31</td>
+<td>1:5844</td>
+</tr>
+<tr class="a">
+<td>31/31/x/31/x/31</td>
+<td>x/31/x/31/31/31</td>
+<td>1:5844</td>
+</tr>
+<tr>
+<td>31/31/x/x/31/31</td>
+<td>x/31/x/31/31/31</td>
+<td>1:5844</td>
+</tr>
+<tr class="a">
+<td>31/x/x/31/31/31</td>
+<td>x/31/x/31/31/31</td>
+<td>1:5844</td>
+</tr>
+<tr>
+<td>31/31/x/31/31/x</td>
+<td>31/31/x/31/x/31</td>
+<td>1:7352</td>
+</tr>
+<tr class="a">
+<td>31/31/x/31/31/x</td>
+<td>31/31/x/x/31/31</td>
+<td>1:7352</td>
+</tr>
+<tr>
+<td>31/31/x/31/31/x</td>
+<td>31/x/x/31/31/31</td>
+<td>1:7352</td>
+</tr>
+<tr class="a">
+<td>31/31/x/31/x/31</td>
+<td>31/31/x/x/31/31</td>
+<td>1:7352</td>
+</tr>
+<tr>
+<td>31/31/x/31/x/31</td>
+<td>31/x/x/31/31/31</td>
+<td>1:7352</td>
+</tr>
+<tr class="a">
+<td>31/31/x/x/31/31</td>
+<td>31/x/x/31/31/31</td>
+<td>1:7352</td>
+</tr>
+<tr>
+<td>31/31/x/31/31/x</td>
+<td>31/31/x/31/31/x</td>
+<td>1:9354</td>
+</tr>
+<tr class="a">
+<td>31/31/x/31/x/31</td>
+<td>31/31/x/31/x/31</td>
+<td>1:9354</td>
+</tr>
+<tr>
+<td>31/31/x/x/31/31</td>
+<td>31/31/x/x/31/31</td>
+<td>1:9354</td>
+</tr>
+<tr class="a">
+<td>31/x/x/31/31/31</td>
+<td>31/x/x/31/31/31</td>
+<td>1:9354</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a 31/x/31/31/31/31 Baby (flawless HP, Def, SpA, SpD and Spe)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>31/x/31/31/31/31</td>
+<td>31/x/31/31/31/31</td>
+<td>1:4221</td>
+</tr>
+<tr>
+<td>31/x/31/31/31/31</td>
+<td>x/x/31/31/31/31</td>
+<td>1:5024</td>
+</tr>
+<tr class="a">
+<td>31/x/31/31/31/31</td>
+<td>31/x/x/31/31/31</td>
+<td>1:5777</td>
+</tr>
+<tr>
+<td>x/x/31/31/31/31</td>
+<td>x/x/31/31/31/31</td>
+<td>1:6025</td>
+</tr>
+<tr class="a">
+<td>31/x/31/31/31/31</td>
+<td>31/x/31/31/31/x</td>
+<td>1:6440</td>
+</tr>
+<tr>
+<td>31/x/31/31/31/31</td>
+<td>31/x/31/31/x/31</td>
+<td>1:6440</td>
+</tr>
+<tr class="a">
+<td>31/x/31/31/31/31</td>
+<td>31/x/31/x/31/31</td>
+<td>1:6440</td>
+</tr>
+<tr>
+<td>31/x/x/31/31/31</td>
+<td>x/x/31/31/31/31</td>
+<td>1:7073</td>
+</tr>
+<tr class="a">
+<td>31/x/31/31/31/x</td>
+<td>x/x/31/31/31/31</td>
+<td>1:7827</td>
+</tr>
+<tr>
+<td>31/x/31/31/x/31</td>
+<td>x/x/31/31/31/31</td>
+<td>1:7827</td>
+</tr>
+<tr class="a">
+<td>31/x/31/x/31/31</td>
+<td>x/x/31/31/31/31</td>
+<td>1:7827</td>
+</tr>
+<tr>
+<td>31/x/31/31/31/x</td>
+<td>31/x/x/31/31/31</td>
+<td>1:9074</td>
+</tr>
+<tr class="a">
+<td>31/x/31/31/x/31</td>
+<td>31/x/x/31/31/31</td>
+<td>1:9074</td>
+</tr>
+<tr>
+<td>31/x/x/31/31/31</td>
+<td>31/x/31/x/31/31</td>
+<td>1:9074</td>
+</tr>
+<tr class="a">
+<td>31/x/x/31/31/31</td>
+<td>31/x/x/31/31/31</td>
+<td>1:9152</td>
+</tr>
+<tr>
+<td>31/x/31/31/31/x</td>
+<td>31/x/31/31/x/31</td>
+<td>1:10120</td>
+</tr>
+<tr class="a">
+<td>31/x/31/31/31/x</td>
+<td>31/x/31/x/31/31</td>
+<td>1:10120</td>
+</tr>
+<tr>
+<td>31/x/31/31/x/31</td>
+<td>31/x/31/x/31/31</td>
+<td>1:10120</td>
+</tr>
+<tr class="a">
+<td>31/x/31/31/31/x</td>
+<td>31/x/31/31/31/x</td>
+<td>1:13580</td>
+</tr>
+<tr>
+<td>31/x/31/31/x/31</td>
+<td>31/x/31/31/x/31</td>
+<td>1:13580</td>
+</tr>
+<tr class="a">
+<td>31/x/31/x/31/31</td>
+<td>31/x/31/x/31/31</td>
+<td>1:13580</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<caption>Odds to Breed a x/31/31/31/31/31 Baby (flawless Atk, Def, SpA, SpD and Spe)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>x/31/31/31/31/31</td>
+<td>x/31/31/31/31/31</td>
+<td>1:2458</td>
+</tr>
+<tr>
+<td>x/31/31/31/31/31</td>
+<td>x/31/x/31/31/31</td>
+<td>1:3255</td>
+</tr>
+<tr class="a">
+<td>x/31/31/31/31/31</td>
+<td>x/31/31/31/31/x</td>
+<td>1:3555</td>
+</tr>
+<tr>
+<td>x/31/31/31/31/31</td>
+<td>x/31/31/31/x/31</td>
+<td>1:3555</td>
+</tr>
+<tr class="a">
+<td>x/31/31/31/31/31</td>
+<td>x/31/31/x/31/31</td>
+<td>1:3555</td>
+</tr>
+<tr>
+<td>x/31/31/31/31/31</td>
+<td>x/x/31/31/31/31</td>
+<td>1:3555</td>
+</tr>
+<tr class="a">
+<td>x/31/x/31/31/31</td>
+<td>x/31/x/31/31/31</td>
+<td>1:4818</td>
+</tr>
+<tr>
+<td>x/31/31/31/31/x</td>
+<td>x/31/x/31/31/31</td>
+<td>1:4848</td>
+</tr>
+<tr class="a">
+<td>x/31/31/31/x/31</td>
+<td>x/31/x/31/31/31</td>
+<td>1:4848</td>
+</tr>
+<tr>
+<td>x/31/31/x/31/31</td>
+<td>x/31/x/31/31/31</td>
+<td>1:4848</td>
+</tr>
+<tr class="a">
+<td>x/31/x/31/31/31</td>
+<td>x/x/31/31/31/31</td>
+<td>1:4848</td>
+</tr>
+<tr>
+<td>x/31/31/31/31/x</td>
+<td>x/31/31/31/x/31</td>
+<td>1:5299</td>
+</tr>
+<tr class="a">
+<td>x/31/31/31/31/x</td>
+<td>x/31/31/x/31/31</td>
+<td>1:5299</td>
+</tr>
+<tr>
+<td>x/31/31/31/31/x</td>
+<td>x/x/31/31/31/31</td>
+<td>1:5299</td>
+</tr>
+<tr class="a">
+<td>x/31/31/31/x/31</td>
+<td>x/31/31/x/31/31</td>
+<td>1:5299</td>
+</tr>
+<tr>
+<td>x/31/31/31/x/31</td>
+<td>x/x/31/31/31/31</td>
+<td>1:5299</td>
+</tr>
+<tr class="a">
+<td>x/31/31/x/31/31</td>
+<td>x/x/31/31/31/31</td>
+<td>1:5299</td>
+</tr>
+<tr>
+<td>x/31/31/31/31/x</td>
+<td>x/31/31/31/31/x</td>
+<td>1:6424</td>
+</tr>
+<tr class="a">
+<td>x/31/31/31/x/31</td>
+<td>x/31/31/31/x/31</td>
+<td>1:6424</td>
+</tr>
+<tr>
+<td>x/31/31/x/31/31</td>
+<td>x/31/31/x/31/31</td>
+<td>1:6424</td>
+</tr>
+<tr class="a">
+<td>x/x/31/31/31/31</td>
+<td>x/x/31/31/31/31</td>
+<td>1:6424</td>
+</tr>
+</tbody>
+</table>
+
+<h3><a name="six">Section Six: Six Flawless IVs</a></h3>
+
+<p>These are the odds for parents having at least five perfect IVs. If your parents have less than five perfect IVs, it is recommended to first breed for such parents before going for a baby with six perfect IVs.</p>
+
+<table class="sortable">
+<caption>Odds to Breed a 31/31/31/31/31/31 Baby (flawless HP, Atk, Def, SpA, SpD and Spe)</caption>
+<thead>
+<tr>
+<th>Parent A</th>
+<th>Parent B</th>
+<th>Odds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>31/31/31/31/31/31</td>
+<td>31/31/31/31/31/31</td>
+<td>1:59916</td>
+</tr>
+<tr>
+<td>31/31/31/31/31/31</td>
+<td>x/31/31/31/31/31</td>
+<td>1:68307</td>
+</tr>
+<tr class="a">
+<td>31/31/31/31/31/31</td>
+<td>31/31/x/31/31/31</td>
+<td>1:76440</td>
+</tr>
+<tr>
+<td>x/31/31/31/31/31</td>
+<td>x/31/31/31/31/31</td>
+<td>1:79432</td>
+</tr>
+<tr class="a">
+<td>31/31/31/31/31/31</td>
+<td>31/x/31/31/31/31</td>
+<td>1:84049</td>
+</tr>
+<tr>
+<td>31/31/31/31/31/31</td>
+<td>31/31/31/x/31/31</td>
+<td>1:84049</td>
+</tr>
+<tr class="a">
+<td>31/31/31/31/31/31</td>
+<td>31/31/31/31/x/31</td>
+<td>1:84049</td>
+</tr>
+<tr>
+<td>31/31/31/31/31/31</td>
+<td>31/31/31/31/31/x</td>
+<td>1:84049</td>
+</tr>
+<tr class="a">
+<td>31/31/x/31/31/31</td>
+<td>x/31/31/31/31/31</td>
+<td>1:88605</td>
+</tr>
+<tr>
+<td>31/31/31/31/31/x</td>
+<td>x/31/31/31/31/31</td>
+<td>1:97139</td>
+</tr>
+<tr class="a">
+<td>31/31/31/31/x/31</td>
+<td>x/31/31/31/31/31</td>
+<td>1:97139</td>
+</tr>
+<tr>
+<td>31/31/31/x/31/31</td>
+<td>x/31/31/31/31/31</td>
+<td>1:97139</td>
+</tr>
+<tr class="a">
+<td>31/x/31/31/31/31</td>
+<td>x/31/31/31/31/31</td>
+<td>1:97139</td>
+</tr>
+<tr>
+<td>31/31/x/31/31/31</td>
+<td>31/31/x/31/31/31</td>
+<td>1:105551</td>
+</tr>
+<tr class="a">
+<td>31/31/31/31/31/x</td>
+<td>31/31/x/31/31/31</td>
+<td>1:109621</td>
+</tr>
+<tr>
+<td>31/31/31/31/x/31</td>
+<td>31/31/x/31/31/31</td>
+<td>1:109621</td>
+</tr>
+<tr class="a">
+<td>31/31/31/x/31/31</td>
+<td>31/31/x/31/31/31</td>
+<td>1:109621</td>
+</tr>
+<tr>
+<td>31/31/x/31/31/31</td>
+<td>31/x/31/31/31/31</td>
+<td>1:109621</td>
+</tr>
+<tr class="a">
+<td>31/31/31/31/31/x</td>
+<td>31/31/31/31/x/31</td>
+<td>1:121037</td>
+</tr>
+<tr>
+<td>31/31/31/31/31/x</td>
+<td>31/31/31/x/31/31</td>
+<td>1:121037</td>
+</tr>
+<tr class="a">
+<td>31/31/31/31/31/x</td>
+<td>31/x/31/31/31/31</td>
+<td>1:121037</td>
+</tr>
+<tr>
+<td>31/31/31/31/x/31</td>
+<td>31/31/31/x/31/31</td>
+<td>1:121037</td>
+</tr>
+<tr class="a">
+<td>31/31/31/31/x/31</td>
+<td>31/x/31/31/31/31</td>
+<td>1:121037</td>
+</tr>
+<tr>
+<td>31/31/31/x/31/31</td>
+<td>31/x/31/31/31/31</td>
+<td>1:121037</td>
+</tr>
+<tr class="a">
+<td>31/x/31/31/31/31</td>
+<td>31/x/31/31/31/31</td>
+<td>1:140734</td>
+</tr>
+<tr>
+<td>31/31/31/x/31/31</td>
+<td>31/31/31/x/31/31</td>
+<td>1:140734</td>
+</tr>
+<tr class="a">
+<td>31/31/31/31/x/31</td>
+<td>31/31/31/31/x/31</td>
+<td>1:140734</td>
+</tr>
+<tr>
+<td>31/31/31/31/31/x</td>
+<td>31/31/31/31/31/x</td>
+<td>1:140734</td>
+</tr>
+</tbody>
+</table>
+
+<h3><a name="other">Section 7: Any Other Combination</a></h3>
+
+<p>If you somehow need the odds for any other IV combination not listed above, you can use the applet found in the following <a href="http://users.smogon.com/X-Act/IVProbs.html">link</a>. First, choose whether the game you're breeding in is Pokemon Ruby, Pokemon Sapphire, Pokemon Fire Red, or Pokemon Leaf Green (in which case choose <strong>Ruby/Sapphire</strong>), or Pokemon Emerald, Pokemon Diamond, or Pokemon Pearl (in which case choose <strong>Emerald</strong>). Then input the IVs of the parents; you only need to input whether the IV is 31 or not. Afterwards, click on which of the baby's IVs you would like to be 31. Finally, click on <strong>Find Probability</strong> and the applet will tell you what is the probability of your parents breeding a baby with your desired IVs, and in how many eggs you will get such a baby on average. The <strong>Clear</strong> button resets all the values to their default value.</p>

@@ -1,0 +1,111 @@
+[title]
+Snatch Analysis
+
+[head]
+<meta name="description" content="An analysis of the tactical usage of the move Snatch." />
+
+[page]
+<div class="author">By <a href="/forums/member.php?u=273">Mekkah</a>, rewritten by <a href="/forums/member.php?u=15147">Blue Kirby</a>.</div>
+
+<ol class="toc">
+	<li><a href="#introduction">Introduction</a></li>
+	<li><a href="#working">How Does Snatch Work?</a></li>
+	<li><a href="#moves">What Moves Can Be Snatched?</a></li>
+	<li><a href="#mindset">The Snatch Mindset</a></li>
+	<li><a href="#example">A Practical Example</a></li>
+	<li><a href="#conclusion">Conclusion</a></li>
+</ol>
+
+<h2><a name="introduction">Introduction</a></h2>
+
+<p>Snatch is a move with a lot of potential. It can not only prevent the opposition from setting up against you or supporting their team, but can also transfer these beneficial effects to you! Despite this, Snatch is rarely seen in competitive play. It is the type of move that requires practice to use effectively—it either "never works" or has your opponent pulling out their hair in frustration as you block their every move.</p>
+
+<h2><a name="working">How Does Snatch Work?</a></h2>
+
+<pre>
+Begin Turn #1
+Banette used Snatch!
+Banette awaits its foe to make a move!
+---------------------------------
+Gyarados used Dragon Dance!
+Banette Snatched Gyarados's move!
+Banette's Attack rose!
+Banette's Speed rose!
+---------------------------------
+</pre>
+
+<p>What just happened here? In-game, Snatch is said to steal the effects of the move the foe uses next. As you can see, Banette has just nullified the Dragon Dance of a Gyarados, instead "Snatching" the effects for itself.</p>
+
+<p>The user of Snatch will always "await its foe to make a move." When the foe makes a move, if the move can be Snatched, a scenario like the above will occur, whereby the user of Snatch will receive the effects of the move used by the foe. If not, the foe's move will take place as normal.</p>
+
+<h2><a name="moves">Which Moves Can Be Snatched?</a></h2>
+
+<p>As you know, not all moves can be Snatched. As a rule of thumb, if the move damages the opponent in any way, it cannot be Snatched. The definitive list of Snatchable moves is as follows:</p>
+
+<ul>
+<li>Acid Armor</li>
+<li>Agility</li>
+<li>Amnesia</li>
+<li>Aromatherapy</li>
+<li>Barrier</li>
+<li>Belly Drum</li>
+<li>Bulk Up</li>
+<li>Calm Mind</li>
+<li>Camouflage</li>
+<li>Charge</li>
+<li>Cosmic Power</li>
+<li>Defense Curl</li>
+<li>Double Team</li>
+<li>Dragon Dance</li>
+<li>Growth</li>
+<li>Harden</li>
+<li>Howl</li>
+<li>Ingrain</li>
+<li>Iron Defense</li>
+<li>Light Screen</li>
+<li>Meditate</li>
+<li>Milk Drink</li>
+<li>Minimize</li>
+<li>Mist</li>
+<li>Moonlight</li>
+<li>Morning Sun</li>
+<li>Psych Up</li>
+<li>Recover</li>
+<li>Reflect</li>
+<li>Refresh</li>
+<li>Rest</li>
+<li>Safeguard</li>
+<li>Sharpen</li>
+<li>Softboiled</li>
+<li>Stockpile</li>
+<li>Substitute</li>
+<li>Synthesis</li>
+<li>Swallow</li>
+<li>Swords Dance</li>
+<li>Synthesis</li>
+<li>Withdraw</li>
+</ul>
+
+<h2><a name="mindset">The Snatch Mindset</a></h2>
+
+<p>It's possible to create a "Snatch-friendly" situation for you to work with, at least initially. In a lot of cases, when your opponent doesn't see your current Pokémon as an immediate threat, they will use a supporting move or a move to increase their stats. Once you've lured your opponent into this false sense of security, you'll quickly find yourself snagging beneficial effects for your Pokémon and team while preventing your opponent from reaping these same benefits.</p>
+
+<p>Snatch doesn't receive much use primarily because of the fact that once you've surprised your opponent with it once, it's difficult to continuously do so. Once your opponent knows that their support moves are likely to be Snatched by a particular Pokémon, they're going to be much more careful.</p>
+
+<h2><a name="example">A Practical Example</a></h2>
+
+<p>There are many Pokémon that can learn Snatch, some more effectively than others. Snatch can be used to accomplish different means depending on the Pokémon in question. For the purposes of putting Snatch to use in a practical situation, let's look at Alakazam.</p>
+
+<pre>
+Alakazam @ Leftovers
+~ Psychic
+~ Calm Mind
+~ Snatch
+~ Recover / Safeguard
+</pre>
+
+<p>Normally, Alakazam has a lot of trouble with Blissey in a one-on-one scenario. Therefore, Snatch is being employed here to aid that problem. The idea here is simple—once Blissey has been hurt enough from repeated Psychic barrages, it will attempt to recover using Softboiled. At this point, you can Snatch Softboiled away from it. This not only restores your HP, but also wastes the PP of Softboiled. At this point, your opponent will frantically try to get a Softboiled—this is where a keen sense of prediction is required. In the last slot, one could either use Recover to restore HP from Seismic Toss retaliations if Snatching Softboiled is just too unreliable. Alternatively, Safeguard protects Alakazam (and its team) from status moves such as Thunder Wave, further dampening Blissey's capability to fulfill her role.</p>
+
+<h2><a name="conclusion">Conclusion</a></h2>
+
+<p>Snatch can be a frustrating move to put to use. It relies heavily on the essence of surprise to begin with, and once that has been exhausted, it requires repeated predictions in order to be used effectively. In the hands of many players, Snatch simply hands the opponent free turns, but it can seriously disrupt the flow of a game if used effectively.</p>

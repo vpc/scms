@@ -1,0 +1,218 @@
+[title]
+Check like the Prose: A Guide to G/P
+[head]
+<link href="/media/smog/smog.css" type="text/css" rel="stylesheet" />
+<style type="text/css">
+.text-color-gray {
+    background-color: #ffffff;
+    color: #999999;
+}
+    
+.text-color-green {
+    background-color: #ffffff;
+    color: #66cc66;
+}
+    
+.text-color-orange {
+    background-color: #ffffff;
+    color: #ff9933;
+}
+    
+.text-color-red {
+    background-color: #ffffff;
+    color: #ff3333;
+}
+    
+.text-color-blue {
+    background-color: #ffffff;
+    color: #3333ff;
+}
+</style>
+[page]
+<div class="author"> By <a href="/forums/member.php?u=40064">NixHex</a> and <a href="/forums/member.php?u=20796">bojangles</a>, <a href="/forums/member.php?u=51861">Ray Jay</a>, and <a href="/forums/member.php?u=32149">Zystral</a>. Art by <a href="/forums/member.php?u=9179">&#42;Hen&#42;</a>.</div>
+<table id="smogheader">
+<tr>
+<td class="left"><a href="mop">&laquo; Previous Article</a></td>
+<td class="middle"><a href="/smog/issue17/">Home</a></td>
+<td class="right"><a href="analysis">Next Article &raquo;</a></td>
+</tr>
+</table>
+ 
+<div style="text-align: center;">
+  <img src="/media/smog/17/gpguide_alakazam.jpg" alt="" />
+</div>
+
+<h3>Introduction</h3>
+<p>If you have read zdrup15's article on C&C in Issue #16, you will have noticed a short section about the Grammar / Prose team. You may have written some A+ papers in high school in your language or creative writing classes and thought "grammar is easy, this is a great way for me to contribute!" This is the spirit we like to see in any facet of C&C, especially in grammar, which has a negative stigma among students of all ages. Some think editing is boring—indeed, it can be. Some think it is unnecessary, and that it takes away from the true meaning of the author's content. This can also be so if the editor chokes the life out of it. The purpose of grammar and prose editing is not to make your work soulless and robotic. Heck, most of the time, analyses and articles need a little bit of prose adjustment in order to not look soulless and robotic.</p>
+
+<h3>A brief history</h3> 
+
+<p>Once upon a time in a magical land known as Contributions & Corrections, grammar checking was based on survival of the fittest. There was no queue. There was no way to tell the good grammar checks from the bad. There was no order. Basically, you had to make a name for yourself through sheer brute force of checking. Of course it was painful when somebody posted his or her check while you were making yours (especially if they made a lot of errors!) or did not wait for the original writer to make changes before doing a check, thereby essentially copying yours, but hey, it was what we lived with. It was hard to get real recognition in this system (it was possible though; yours truly got his ladybug during this era). But luckily, the times, they were a changing. Soon after Philip7086 rolled out the Quality Control team, twash (a former C&C mod) brought up an issue involving this lack of order. whistle and myself both volunteered to head this elite organization of grammar-checkers-by-day-superheroes-by-night. Thus, the GP Team was born.</p>
+
+<p>The first thing we had to do as the leaders of this new organization was to make some sort of effective way of testing a user's aptitude with regards to grammar. whistle was actually working on a real analysis for C&C review (I believe it was Starmie), so we quickly adapted that and threw in every sort of major grammar error that came to mind (special shoutout to Theorymon, who helped us with some of the errors that he commonly made!). After making the first announcement, and dealing with the original surprise of the creation of a team for the one thing that "anybody can do" (let me just say it here: not all grammar checkers are equal), we started receiving submissions. I still remember that night when whistle and I set about to grade these things. We decided that the Pokégrammar was not worth our time, eventually boiling it down to a mere 11 grammar errors that we would be checking. Hours passed, with me spamming #C&C on irc with "another person admitted!!!!" every so often, pretty much all the applicants eagerly waiting in attendance. When the dust cleared, we accepted only 7 people, not including ourselves, to the team. I’m not going to name the original 7 (they know who they are), but I would like to point out one special irony. A user you all know and hopefully, like me, love, applied previously to grammar check for the Smog (I was the head of this too), but I initially denied him, saying he didn’t correct enough. That user proceeded to score the highest on the qualifier test, getting a 10/11, an almost perfect score. That user was Rising_Dusk. Suffice it to say that I was feeling pretty foolish thereafter.</p>
+
+<p>Since that time, the GP team has seen a lot of turnover in management. whistle retired soon after then, and I appointed Rising_Dusk (oh the irony) to help me run the crew. With college applications bearing down on me, I took a leave of absence, being replaced by that rapscallion Fatecrashers. Now I have returned, taking Rising_Dusk's spot back (at long last I am vindicated!) while he is on leave.</p>
+
+<p>And here you have the story of why the analyses are easy to read. Quoth the grammar checker, "Nevermore (shall analyses contain as many errors as suggestions)."</p>
+
+<p>Now that you know just where we come from, it's time to get to the boring part. Did I say boring? I meant to say, the enriching and educational experience that will help you become one of the most vital members in our society. Now take a walk into your musty language arts book and learn the ways of the Smogon grammar masters.</p>
+
+<h3>Establish Your Convention</h3>
+
+<p>Make sure you have an understandable convention. The last thing an author wants to do is to spend time <span class="text-color-gray"><em>deciphering</em></span> <strong>your</strong> <span class="text-color-green">chicken</span> <del><span class="text-color-orange">scratches</span></del>. Try to make your format as easy to correct as possible. The most common convention is some sort of color-coding. When I first started, I did all omissions in <span class="text-color-red"><strong>bold red</strong></span> and additions in <span class="text-color-blue"><strong>bold blue</strong></span>. This style of editing allows the author to see exactly where her mistakes have been made. If you get tired of bolding every erroneous section of text, you can stick to just color coding and forget about bolding altogether. Another popular option is to use [s] tags around omitted text, and highlight additions in bold and/or italic black. Again, this makes a stark distinction between what is correct and what is incorrect.</p>
+
+<h3>Punctuation</h3>
+
+<p>Punctuation is undoubtedly one of the areas where many less confident would-be grammar checkers struggle. Should it be a comma, a period, an apostrophe, or a question mark? For your reference, please take a quick look at what goes where.
+
+<p>The Comma - , - The comma is a staple of writing; at a most basic level, it allows pauses to be made, thus allowing emphasis to be made for people to read without suffocating. The comma should generally be used to separate an independent clause from a dependent clause or a phrase, such as in this sentence. Since "such as in this sentence" is not a complete thought (or independent clause), a comma is used. The comma is also key in listing things, such as names, colors, or things you could list.</p>
+
+<p>The Period - . - The period is the most basic way to end a sentence. Periods should be used when no exclamation is present or the sentence is not being phrased as a question. If your sentence can be categorized as the former, end your sentence with an exclamation point (!); the latter requires a question mark (?). Also notable is the elipses, which is three periods in a row (...). This often denotes a longer pause without ending the thought, but should generally not be found in every analysis.</p>
+
+<p>The Semicolon - ; - The semicolon is used as a way to separate two independent clauses without splitting the thought by a period. For example, "I like Pikachu, he is really cool" is incorrect. Simply replacing the comma with a semicolon fixes this problem. Semicolons also should be used when a list requires a comma elsewhere. A common example of this is where you are listing cities which are part of a certain state or country. "On my vacation, I went to Paris, France; Tokyo, Japan; and London, England" is an example of this.</p>
+
+<p>The Em Dash - &mdash; - The em dash is distinguishable from the hyphen as it is longer. It is used differently and denotes a break in the train of thought. The example currently in the Smogon's grammar standards illustrates this concept best: "Mareep—that is to say, the entire evolution family—is extremely cute." When coding in HTML, the code "&mdash;" is used to represent the em dash, and can be used in analyses as a more easily written substitution. Note that Smogon uses no space between the em dash and the aside comment.</p>
+
+<p>The Hyphen - - - The hyphen is often (incorrectly) used interchangeably with the em dash. The hyphen has a variety of uses, including word-combining or splitting a word up (such as W-O-W, which would signify that each letter is to be spelled out individually). Hyphens often help clarify a situation, such as in the phrase "There was a man eating chicken." If I wanted to state that I saw poultry with a hunger for humans, I would use a hyphen: "There was a man-eating chicken." Hyphens serve a variety of other uses, but are also notable to Pokemon grammar as you should use a hyphen when mentioning a Pokemon's specific typing as it would appear in-game. For example, I would have to say "Squirtle is a Water-type," but I would not have to use a hyphen to say "Squirtle has a Water typing," (more on this later). Although it is common in the English language, a hyphen is generally not used to split a word over two lines at Smogon.</p>
+
+<p>The Colon - : - The colon is used to signify a list when the list itself is functioning as a dependent clause. The phrase "I like many types of Pokemon: green, blue, orange, and gray" is an example of this. The colon is also the final module in the digestive system.</p>
+
+<p>The Apostrophe - ' - The apostrophe most commonly denotes abbreviation and possession. The phrase "Setsuna's parents don't like Pokemon" illustrates both of these concepts. The parents are the "possession" of Setsuna, and thus an apostrophe is used there. Also, "don't" is an abbreviation for "do not", so an apostrophe shows where a letter was cut out (in this case, the "o" between the n and the t). Please keep in mind that you should always use a straight apostrophe (and quotation marks) instead of the curly ones that will likely be found if you type in Microsoft Word. This can be fixed by typing the apostrophe or quotes while editing your post in Smogon, or by typing it out in Notepad.</p>
+
+<p>Quotation Marks - " - Quotation marks are used to show when someone is speaking. I said, "If you read this whole article you would be way smarter." Note a few things: in most cases, quotation marks come after punctuation, and there is a comma before most (but not all) quotations.</p>
+
+<p>The Ampersand - &amp; - Stop being lazy and take the two seconds it takes to type out "and."</p>
+
+<h3>They're? You're? It's?</h3>
+
+<p>Some of the worst written errors in the English language arise from variations of these three words. They can make or break a paper in school, and can influence the way people deduce your intelligence when reading your letters, emails, Facebook updates, or Pokemon analyses. Let's set the record straight, so you don't skip over these sensitive errors.</p>
+<dl>
+<dt>They're, there, and their:</dt>
+<dd>The word 'they're' is a no brainer. You can clearly see the apostrophe, and that implies a contraction of the phrase 'they are'.<dt>
+<dd><i>Example:</i> Arceus's formes are very awesome. They're the reason that Arceus can be 17 Pokemon at once and should be banned immediately.<dt>
+<dd>'There' is a preposition referring to the specific location of a given object.<dt>
+<dd><i>Example:</i> Quality Control members are jerks who don't give gimmicks a chance. It's probably not a good idea to post your Acrobatics Gliscor set there.<dt>
+<dd>'Their' is the most misunderstood word of the three. It is the a third-person, plural possessive.<dt>
+<dd><i>Example:</i> Psychic-types must use Choice items with care. Their tendency of turning your deadly sweeping Latios into Pursuit bait is alarming!<dt>
+<dt>You're and your:</dt>
+<dd>'You're', like 'they're', is simply the contraction of the phrase 'you are'.<dt>
+<dd><i>Example:</i> You're going to post THAT in a forum?<dt>
+<dd>'Your', on the other hand, is a second-person possessive, similar to 'their'.<dt>
+<dd><i>Example:</i> Great Sage is so quick, he will lock your thread before you can even post it!<dt>
+<dd>'Ur' is not a word and will automatically discredit anything you say, especially on these forums or IRC. In fact, it's against forum rules to speak this way. This is more of a warning to the analysis author than the grammar checker, though as a GP member, you must be on your feet at all times.<dt>
+<dd><i>Example:</i> ur an idiot for getting ur trade thread locked muahaha.<dt>
+<dt>It's and its:</dt>
+<dd>'It's', like 'you're' and 'they're', is a contraction of the phrase 'it is'.<dt>
+<dd><i>Example:</i> Look out, it's Great Sage coming to lock another Suggestion Box thread!<dt>
+<dd>'Its', like 'their' and 'your', is a third-person singular possessive.<dt>
+<dd><i>Example:</i> Spongebob used to be so great. What happened to its soul?<dt>
+</dl>
+
+<h3>Place and Time</h3>
+<dl>
+<dt>'Where', 'were', and "we're":</dt>
+<dd>'Where' is used to denote a location.</dd>
+<dd><i>Example:</i> Where is the best place to gain Special Defense EVs?</dd>
+<dd>'Were' is used in many different ways, almost always as a form of the verb "to be". Typically this is to denote a possibility or a chance, but is also used as the past tense form of the verb.</dd>
+<dd><i>Examples:</i> If I were king... / They were standing at the gates.</dd>
+<dd>'We're' is a contraction of 'we are'. Common sense should dictate when to use this.</dd>
+<dd><i>Example:</i> We're coming to your town.</dd>
+<dt>'Then' and 'than':</dt>
+<dd>'Then' simply refers to a different time period, usually but not necessarily sequentially.</dd>
+<dd><i>Example:</i> Use Rock Polish, then proceed to sweep with Rampardos's absurd 165 base Attack stat.</dd>
+<dd>'Than' is used to compare two options or characteristics. Seeing 'then' where 'than' must be is an eyesore for teachers, professors, and Pokemon writers alike.</dd>
+<dd><i>Example:</i>Scyther is better <em>than</em> Scizor.</dd>
+</dl>
+
+<h2>PokeGrammar (an Introduction)</h2>
+
+<p>At a most basic level, analyses are to be grammatically consistent with the rest of the English language. However, Game Freak brings many subtle nuances in spelling, hyphenation, capitalization, and more to the table. Let's take a brief look at some of the most common changes that need to be made.</p>
+<ul>
+<li>Pokemon names, abilities, and moves: Pokemon and their moves are always capitalized as they appear in the games. Flash Cannon, Thunderbolt, Ho-Oh, Compoundeyes, Dynamicpunch, SmokeScreen, and Porygon-Z are all correct, for example. Phrases such as "Baton Passer" or "Flamethrowered", while not preferred, are acceptable, provided the entire move name is used. <em>For example, "X passed Y", or "X Baton Passed Y".</em> It is preferred if "(move) user" was used instead.</li>
+<li>Pokemon items: Pokemon items always act as a singular noun, even if they appear otherwise. "Snorlax often holds Leftovers, which is a good item," shows this idea. Always use the full name of the item - never use abbreviations. Also refer to them with "user". For example, do not use "Salamencer is a good CBer/Choice Bander", but rather "Starmie is a good user of Choice Specs."</li>
+<li>OHKO, 2HKO, XHKO appear as such. Also note the discrepancy between the verb form and the plural, such as in "Latios OHKOes Garchomp" and "Latios scores OHKOs on Garchomp and Politoed." Also, use "an OHKO," rather than "a OHKO."</li>
+<li>Status, stats, and accepted terms: Status effects (burn, paralysis, or even confusion) are not capitalized. Stats (Attack, Defense, Speed) are capitalized and can be abbreviated as HP, Atk, Def, SpA, SpD, and Spe only if an EV spread is being listed. There are some terms that have become accepted by the community. These are not hyphenated and are not capitalized. Some examples of this include spinblocker, phazer, and movepool.</li>
+<li>Types: When referring plainly to a Pokemon's typing, it should appear as "Fire-type" rather than "Fire type" or "fire type." However, if the word "type" does not appear directly after the type in question, a hyphen is not used. For example, "Fire typing," not "Fire-typing."</li>
+<li>American spellings should be preferred (Defense instead of Defence). The one main exception is when referring to different formes of a specific Pokemon; formes instead of forms.</li>
+</ul>
+
+<h3>Coined/Common terminology</h3>
+<p>RestTalk is capitalized in ordinary writing. The following are not capitalized in ordinary writing: dual screens, bulkiness (bulky Water-types), the word "nature" in reference to natures, weather, "physical" and "special" when not referring to a stat, and "defenses" when not referring the stat. The following terms (and any derivatives) are coined terminology that are acceptable for use in writing: outspeed, spinblock, phaze, wall/stallbreak, moveslot, and movepool. None of these are capitalized. Base is only capitalized when referring to Base Power, and not base stats.</p>
+<ul>
+<li>Abbreviations should generally not be used, as analyses are to be written so even a newcomer can understand them. The few exceptions to this rule include tiers (OU is permissible) and some obvious combinations, including RestTalk.</li>
+<li>In an analysis, it is fine to refer to the battler as "you" instead of "one." Pokemon can also be referred to with "who," "he," or "she." For example, "Roserade is very versatile. She is a great Pokemon who can do many different things" is a perfectly fine sentence. This way of referring to the Pokemon must stay consistent throughout the analysis. There are some non-negotiable items in this category; for example, some Pokemon are genderless and thus "it."</li>
+<li>A Pokemon's name is both singular and plural, as shown by "Two Pikachu walk into a bar."</li>
+<li>When spelling "Pokemon", "Poke Ball", "Pokeblock", and the like, do not use an accent.</li>
+</ul>
+<p>There are a few other points worth remembering, but they are less common, and are expanded upon in the sticky. There is no shame in referring back to this thread every now and again. Sure, the check may take a little longer than if you had it committed to memory, but perfection is valued over hastiness.</p>
+
+<h2>Back to English 101</h2>
+
+<p>Believe it or not, a lot of our time is spent on fixing basic English mistakes as opposed to PokéGrammar. Here are the most frequently occurring grammar mistakes we have to face. Please learn these, as it saves us a lot of trouble! The big thing is that a lot of these mistakes are often repeated throughout an article, and so the more you learn how these little tangles of the English language work, the closer you get to consistency and correctness.</p>
+
+<dl>
+<dt>Like vs Such as</dt>
+<dd>When giving examples, we strongly recommend that you use "such as." It is the grammatically correct way of saying things. Using "like" to give an example is not recommended, and will cause some members of GP to hate you. "Like" is to be used to drawing comparisons. <em>Salamence has many similar counterparts, such as Rayquaza and Dragonite. Porygon-Z has a beastly Special Attack stat, like Alakazam.</em></dd>
+<dt>May or Might</dt>
+<dd>Most of the time when referring to probability, you will be using "might." "May" includes the idea of permission. Thus, <em>"It may not work"</em> is not recommended.</dd>
+<dt>Rising or Raising</dt>
+<dd>"To raise" something is to physically elevate or increase it. "To rise" is effectively to raise oneself, to move upward. The games themselves say that things rise (<em>Serperior's Special Attack stat sharply rose!"</em>), and so if you're not using "increase" or "boost", "rise" should be your next option.</dd>
+<dt>Comparisons</dt>
+<dd>To compare to is to measure similarity. To compare with is to measure the difference. These are not actually interchangeable, and are subject to context, so be careful.</dd>
+<dt>Counting</dt>
+<dd>How "many" is used for things that can be physically counted, for example, the number of Spikes layers in play, or the number of turns that have passed. How "much" refers to a much less quantitative object, such as damage or coverage. If you can describe it accurately with a number all the time, use "how many" (this is obviously slightly deuced by damage in that a number to two significant figures is usually shown, but this is an exception).</dd>
+<dt>Switching</dt>
+<dd>"Switch in" is a verb. "Switch-in" is a noun.</dd>
+<dt>Setting up</dt>
+<dd>"Set up" is a verb. "Set-up" is an adjective. "Setup" is a noun.</dd>
+</dl>
+
+<p>Being standard English convention, these are non-negotiable. Try to avoid making these mistakes, but if you do, if you are told to change it, then do so. Granted, some of these are a little advanced in that they aren't usually taught at school, but they can make quite a difference when used incorrectly, so where better to practice than on a Pokemon site?</p>
+
+<h2>Further Responsibilities</h2>
+
+<p>You may be the next Chaucer, or Jonathan Swift, or perhaps an Oxford English scholar, but it is important that you realize that you did not write the analysis you are checking. Here are some tips on how to edit an analysis to perfection, while keeping the author's style intact.<p>
+
+<h3>Know the Metagame</h3>
+
+<p>One of the advantages to having a GP team is that the editors are Pokemon fans. You are responsible for more than grammar nitpicking and spelling errors. A spell checking script does not know that Bold 252 HP / 252 Def Reuniclus at full health can stay in on a Jolly Tyranitar, as an unboosted Pursuit can't even attain a 3HKO, and doesn't always 2HKO. Furthermore, it doesn't know the indisputable fact that Jolly Excadrill is far superior to Adamant Excadrill. Here are some tips on knowing when you absolutely must suggest changes to the content of an analysis.</p>
+<ul>
+<li><strong>The content is factually / objectively wrong</strong> - If your strategy includes a note about sandstorm boosting the Special Defense of Rock-, Steel-, and Ground-types, this should stick out to you as misunderstanding of game mechanics. As it stands, sandstorm only boosts the Special Defense of Rock-types, so omit any notes about Steel- or Ground-types.</li>
+<li><strong>There are blatant errors in subjective content</strong> - Sometimes you will find content in an analysis that is just inadvisable or plain unacceptable. Now that the skeleton has passed its required amount of Quality Control checks, the author may take it upon themselves, consciously or unconsciously, to add content that clearly would not have been approved had it shown up in the skeleton. If you see such an error, but are unsure exactly how to fix it, consult a Quality Control member.</li>
+<li><strong>A certain counter or threat is banned</strong> - This arises naturally from the fact that Smogon's tiers are not static. If a Pokemon becomes banned before you are finished writing an analysis, there is no point in mentioning it. Say, for example, that a Little Cup Pokemon is known to be hard-countered by Gligar; it is safe to remove any mention of Gligar from the analysis. Better still would be to make a note for the author to change the factual content to the point where Gligar becomes irrelevant.</li>
+</ul>
+
+<h3>Don't Be Obnoxious</h3>
+
+<p>When doing a check, you might be tempted to explain each and every correction you make, down to the most minuscule of split infinitives. This is hard to avoid during your first couple of checks, but you must remember that 90% of the time, the author is not a scholar, and most likely does not care what you have to say about his endless list of errors. That's why they leave the responsibility up to you, the grammar checker! Make it easier for both the author—and yourself—and do what you have signed yourself up to do.</p>
+
+<h3>This needs some work...</h3>
+
+<p>On occasion, you will find that the necessary content is all there, but its presentation is poor. This is especially common in articles where, as opposed to analyses, the content tends be more broad than focused. It is easy for the author to put way too much detail into one specific section, rather than give a simple overview. Run on sentences appear in analyses and articles alike, and by their very nature, can confuse both the reader and the grammar checker. When you run into these issues, do not stress yourself out. Make the suggestions as you see fit, but don't be afraid to ask for another check. The minimum requirement may be two, but it is wise to remember the old adage, "three or four heads are better than two."</p>
+
+<h3>When an Analysis is Beyond Repair</h3>
+<p>As an aspiring GP checker, you are probably doing rapid-fire checks. You may get excited when you read an analysis riddled with minor punctuation and spelling errors, since you get to showcase what you know. This can be good exercise for you, but there are cases where you must be careful. If you find an analysis or article that contains so many grammatical, spelling, and punctuation errors, or is full of bad prose and unnecessary fluff that you are beginning to pull your hair out, it may be time to report it to a moderator. Do this in a discreet manner, via PM on the forums or on IRC. If it is truly beyond repair, the analysis or article will be reassigned. This may seem unfair to the author, but letting the analysis continue would be even more unfair to you, the other grammar checkers, and eventually the audience, who wants to learn something quickly, not waste their time digging through the author's irreparable grammar and prose errors.</p>
+
+<h3>Making the Cut</h3>
+<p>With your new-found knowledge, it's time to start doing checks at rapid fire, sniping analyses that have not already received their two GP stamps. Now, writers are starting to take your checks seriously, and are implementing them despite the fact that you haven't officially stamped them. Pretty soon, you notice that lazy bums such as Fatecrashers and NixHex are stamping your checks because they are great. It's now time to take the next step—joining the team! To apply, shoot off a PM to Fatecrashers and Rising_Dusk, stating your qualifications such as how many checks you've done, how many of those have been stamped by an official member, and your familiarity with the grammar and prose used on this site. If you show promise, you will undergo some hazing rituals (usually, checking a novel sized Theorymon analysis in public while wearing a Pikachu suit), then your new fellow teammates will join you in a candlelit initiation ritual.</p>
+
+<h3>Benefits and Responsibilities</h3>
+
+<p><img src="/media/contrib/contrib_gp.png" alt="" /></p>
+
+<p>Now that you are finally on the team, it's time to get to work! Don't fret, though, because you are now set to enjoy some new privileges. For one, you will finally be able to use the stamp for your own checks. There's no more need to wait around and pray that someone else will approve your hard work. Similarly, you are now free to approve other members' checks. You are encouraged to do this on a regular basis to pay it forward and encourage aspiring new members to join. Finally, after you have proven that you can check like the prose, you might find yourself heading to newer, better things...</p>
+
+<h2>References</h2>
+<p>If you don't read these things, your checks won't be worth reading.</p>
+<p>-Smogon's Spelling / Grammar Standards<br />
+-5th Gen Queue<br />
+-Past Gen Queue<br />
+-The OWL of Purdue</p>
+
+<table id="smogfooter">
+<tr>
+<td class="left"><a href="mop">&laquo; Previous Article</a></td>
+<td class="middle"><a href="/smog/issue17/">Home</a></td>
+<td class="right"><a href="analysis">Next Article &raquo;</a></td>
+</tr>
+</table>

@@ -1,0 +1,37 @@
+[Title]
+PPRNG Guide - Introduction
+
+[Head]
+<style type="text/css">
+	.centered-left { text-align:center; padding-right:40%}
+	img { max-width:100%; }
+	ol { list-style-type: upper-roman; }
+	ol ol { list-style-type: lower-roman; }
+	dl dl { margin-left:2em; }
+	dl dl dt { font-size:.85em; }
+</style>
+ 
+[Page]
+<div class="author">By <a href="/forums/members/65876/">religiousjedi</a>.</div>
+
+<ol class="toc"> 
+	<li><strong>Introduction</strong></li>
+	<li><a href="/ingame/rng/pprng_gen5_02_basics">The Basics of RNG Abuse</a></li>
+	<li><a href="/ingame/rng/pprng_gen5_03_id_abuse">How to RNG Abuse your TID/SID combo</a></li>
+	<li><a href="/ingame/rng/pprng_gen5_04_capture_abuse">Capturing/Receiving Perfect (and Shiny) Pokemon</a></li>
+	<li><a href="/ingame/rng/pprng_gen5_05_breeding">Breeding Perfect (and Shiny) Pokemon</a></li>
+	<li><a href="/ingame/rng/pprng_gen5_06_wondercard">Receiving Perfect Wondercard Pokemon</a></li>
+	<li><a href="/ingame/rng/pprng_gen5_07_roamers">Capturing Roaming Pokemon</a></li>
+	<li><a href="/ingame/rng/pprng_gen5_08_hidden_grottos">Controlling Encounters in Hidden Grottoes</a></li>
+	<li><a href="/ingame/rng/pprng_gen5_09_dream_radar">Receiving Perfect Dream Radar Pokemon</a></li>
+	<li><a href="/ingame/rng/pprng_gen5_10_entralink">Capturing Perfect Entralink Pokemon</a></li>
+</ol>
+
+ 
+<h3>Introduction</h3>
+ 
+<p>Due to the efforts of researchers in the forum, players have been able to reliably acquire Pokemon with desirable natures, IVs, shininess...whatever they wanted ever since the 3rd Generation of Pokemon. This is all thanks to recognizing what makes the Pokemon games run: a pseudo random number generator determines what event will occur at a given time. The researchers compiled their knowledge and created a program known as RNG Reporter, which turned such intricate values into easy to follow directions. However, this program only works on Windows or Linux operating systems, meaning Mac users were left with either using Boot Camp to use the program in another operating system or using programs like Wine or Mono in an attempt to run the program. However, on the cusp of the 5th Generation, a programmer and Mac user named <a href="/forums/members/69906/">chiizu</a> created the PPRNG program, a program exclusive for the Mac operating system with features that match those of RNG Reporter. This guide was created to highlight the differences and illustrate a step by step guide for the features offered.</p>
+ 
+<p>Special thanks goes out to the various RNG Researchers: <a href="/forums/member/5304/">ΩDonut</a>, <a href="/forums/members/54525/">Bond697</a>, <a href="/forums/members/32572/">Kaphotics</a>, <a href="/forums/members/83647/">Slashmolder</a>, and especially chiizu, who without we would have never had this program to speak of.</p>
+
+<div class="centered"><img src="/media/upload/ingame/rng/pprng_intro_1.png" alt="" /></div>

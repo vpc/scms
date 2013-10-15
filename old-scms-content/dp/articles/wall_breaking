@@ -1,0 +1,539 @@
+[title]
+Deconstructing: A Guide to Wallbreaking
+[head]
+<meta name="description" contents="A guide explaining wallbreaking strategies, by Jediment, rewritten by Xia and mtr." />
+[page]
+<div class="author">By <a href="/forums/member.php?u=15093">Jediment</a>, revamped by <a href="/forums/member.php?u=15184">Xia</a> and <a href="/forums/member.php?u=29628">mtr</a>. Art by <a href="/forums/member.php?u=88763">elcheeso</a>.</div>
+
+<div style="text-align: center;"><img src="/media/upload/dp/articles/wallbreaker_palkia.png" alt="Palkia" width="557" height="400" /></div>
+
+<ol>
+<li><a href="#intro">Introduction to Wallbreaking</a></li>
+<li><a href="#know">Know Your Walls</a>
+  <ul>
+  <li><a href="#ou">Overused Walls</a></li>
+  <li><a href="#uu">Underused Walls</a></li>
+  <li><a href="#uber">Uber Walls</a></li>
+  </ul>
+</li>
+<li><a href="#dir">Direct Countering</a>
+  <ul>
+  <li><a href="#choice">Choiced Attackers</a></li>
+  <li><a href="#boost">Boosting Attackers</a></li>
+  <li><a href="#mix">Mixed Attackers</a></li>
+  </ul>
+</li>
+<li><a href="#ind">Indirect Countering</a>
+  <ul>
+  <li><a href="#trap">Trapping</a></li>
+  <li><a href="#taunt">Taunt</a></li>
+  <li><a href="#trick">Trick</a></li>
+  <li><a href="#explode">Explosion</a></li>
+  </ul>
+</li>
+<li><a href="#strat">Wallbreaking Strategy</a>
+  <ul>
+  <li><a href="#mxsp">Effective Use of Mixed Sweepers</a></li>
+  <li><a href="#lure">Crafting a Lure</a></li>
+  <li><a href="#trickery">Trickery</a></li>
+  <li><a href="#sacrifice">Sacrifice</a></li>
+  </ul>
+</li>
+<li><a href="#end">Closing Remarks</a></li>
+</ol>
+ 
+<h2><a name="intro">Introduction to Wallbreaking</a></h2>
+ 
+<p>Walls are some of the most difficult Pokémon to defeat. They have huge defensive stats, crippling movesets, and more often than not a way to restore their HP while you repeatedly try to find the chink in their armor. From Chansey to SkarmBliss to CeleTran, walls have been a dominant part of the competitive metagame since its very beginning. Therefore, having a way to break these walls became a necessary asset to team strategy, and ultimately, wining. Walls take varying forms these days, sometimes in the form of the classic dedicated wall, but sometimes also mixed walls or wall combinations. Our strategies in defeating these walls are just as numerous.</p>
+ 
+<h2><a name="know">Know Your Walls</a></h2>
+ 
+<h3><a name="ou">Overused Walls</a></h3>
+ 
+<p>OU's walls have seen some changes since the advent of DPP, but many of the faces remain familiar. Each of the following Pokémon have proven themselves to be the juggernauts of all non-Uber walls, and each has their own style of walling.</p>
+ 
+<p><img src="/download/sprites/dp/242.png" alt="" /></p>
+<p><a href="/dp/pokemon/blissey">Blissey</a></p>
+<p><strong>Defenses:</strong> 255 / 10 / 135</p>
+<p><strong>Wall Sets:</strong> WishBliss, Cleric</p>
+ 
+<p>Blissey is one of the most commonly seen walls in the game, thanks to its combination of HP, Special Defense, and support movepool. Boasting access to moves like Softboiled, Wish, Aromatherapy, and a multitude of statuses only add to its survivability. Blissey is the epitome of dedicated walls.</p>
+ 
+<p>Thankfully, Blissey has a lot of exploitable weaknesses. Its defenses are so lopsided that overcoming its base 255 HP stat is relatively easy with a physical attack. Blissey isn't very fast, either, so using your chance to attack first will help you nab 2HKOes on the switch in, destroying Softboiled-dependent sets.</p>
+ 
+<p><img src="/download/sprites/dp/442.png" alt="" /></p>
+<p><a href="/dp/pokemon/bronzong">Bronzong</a></p>
+<p><strong>Defenses:</strong> 67 / 116 / 116</p>
+<p><strong>Wall Sets:</strong> Standard Wall, Screener</p>
+ 
+<p>Bronzong is one of DPP's mixed walls, and has proven to be the most useful transition Pokémon in OU. With the ability Levitate, Bronzong cuts the number of super effective move types down to just Fire; a trait envied by all walls. Bronzong's support options encompass nearly everything a team would ever need: Stealth Rock, dual screens, Hypnosis, weather inducing moves like Sunny Day and Rain Dance, and Explosion to clear up the field after its job is complete. Gyro Ball works amazingly with Bronzong's base 33 Speed stat and allows for huge damage against speedy attackers like Scarf Gengar. When it comes to overall bulk and utility, Bronzong is the standard.</p>
+ 
+<p>Bronzong lacks a reliable recovery move outside of Rest, meaning repeated attacks will eventually bring it down. Thanks to its low Speed stat, many Pokémon can come in and attack before Bronzong even gets a chance to set up support or attack, such as Choice Specs Heatran and Life Orb Infernape.</p>
+ 
+<p><img src="/download/sprites/dp/251.png" alt="" /></p>
+<p><a href="/dp/pokemon/celebi">Celebi</a></p>
+<p><strong>Defenses:</strong> 100 / 100 / 100</p>
+<p><strong>Wall Sets:</strong> Defensive, Cleric, SubSeed</p>
+ 
+<p>Celebi's balanced defenses make it an excellent wall, despite the fact that its typing does nothing to help it defensively. Celebi also has a very diverse movepool that allows it to act both as a team supporter and an annoyer. Moves like Heal Bell and Baton Pass are obvious choices for a Pokémon with the ability to sponge hits like Celebi can, while Recover, Leech Seed, and Substitute make it very hard to bring it into KO range. Celebi is often paired up with Heatran in a SkarmBliss-esque combination to help deter super effective Fire-type attacks, and allow for superior type coverage overall.</p>
+ 
+<p>Celebi's weaknesses come from its horrible dual types, Grass and Psychic. This type combination means Celebi takes super effective damage from Fire-, Ice-, Flying-, Poison-, Dark-, Ghost-, and Bug-type attacks. As stated earlier, though, Fire-type attacks run the risk of being absorbed by Heatran, so it's not recommended to use this attack type unless you already know Heatran is not on your opponent's team. Pursuit and U-turn are considered some of the best attacks to use against Celebi, and they both can be used by the infamous Choice Band Scizor.</p>
+ 
+<p><img src="/download/sprites/dp/493.png" alt="" /></p>
+<p><a href="/dp/pokemon/cresselia">Cresselia</a></p>
+<p><strong>Defenses:</strong> 120 / 120 / 130</p>
+<p><strong>Wall Sets:</strong> Support, Dual Screen</p>
+ 
+<p>Cresselia's monstrous defensive stats speak for themselves. Now imagine taking these stats and combining them with the ability to cut the power of both physical and special attacks, and you'll start to understand the mixed walling ability Cresselia possesses. Thunder Wave or Toxic can be used to further cripple sweepers, while Calm Mind boosts turn Cresselia into a massive tank; not half bad options for a non-Uber Pokémon.</p>
+ 
+<p>Cresselia's usage has been going down recently, due to a combination of factors. Psychic isn't the greatest defensive type, leaving Cresselia open to the likes of the Shadow Ball, Crunch, and, most frequently, Pursuit. These attacks may not be such a big threat if Cresselia had some sort of recovery outside of Moonlight, but, alas, it does not. Combine this with the fact that few Pokémon fear attacks from a base 75 Special Attack, and you'll find that Cresselia has quite a few chinks in its armor.</p>
+ 
+<p><img src="/download/sprites/dp/130.png" alt="" /></p>
+<p><a href="/dp/pokemon/gyarados">Gyarados</a></p>
+<p><strong>Defenses:</strong> 95 / 79 / 100</p>
+<p><strong>Wall Sets:</strong> RestTalk</p>
+ 
+<p>With Intimidate, respectable defenses, and excellent typing, Gyarados manages to function as a wall who can counter threats such as Lucario and Heatran, not to mention phazing out the opponent with Roar. Although it doesn't look like it, Gyarados is deceptively bulky, and should definitely be considered as a defensive threat.</p>
+ 
+<p>Fortunately, Gyarados can't quite wall Infernape, being 2HKOed by Grass Knot after Stealth Rock. Mixed Dragonite is a concern, as Draco Meteor easily 2HKOes as well. In general, any strong special attacker will overcome Gyarados, but make sure that Blissey, who will usually be seen alongside Gyarados, can be handled.</p>
+ 
+<p><img src="/download/sprites/dp/455.png" alt="" /></p>
+<p><a href="/dp/pokemon/hippowdon">Hippowdon</a></p>
+<p><strong>Defenses:</strong> 108 / 118 / 72</p>
+<p><strong>Wall Sets:</strong> Physical Wall, Stockpilopotamus</p>
+ 
+<p>Hippowdon may look like a fairly dedicated physical wall, until you factor in its ability, Sand Stream. With the permanent sandstorm it creates, anything not Rock-, Ground-, or Steel-type will be losing health every turn. Speaking of residual damage, Hippowdon's set Stockpilopotamus utilizes Toxic in an attempt to outstall its opponent. Stealth Rock and Roar make a great move combination made even better by sandstorm. Slack Off and Stockpile add to Hippowdon's survivability, making it one of the most elite stalling walls of DPP.</p>
+ 
+<p>Special moves, especially Grass Knot, will destroy Hippowdon in very short time. Hippowdon isn't very fast, either, meaning if it switches in on an ill-predicted Grass-, Water-, or Ice-type attack it could very well be 2HKOed before it can do anything of importance. Taunt also hurts Hippowdon's walling abilities. Skarmory is one of the best candidates for the job, thanks to Taunt, immunity to Earthquake, and sandstorm damage thanks to its dual Flying / Steel typing. Gyarados, also, is a great switch-in to Hippowdon, thanks to Earthquake immunity, Taunt, and super effective STAB attacks.</p>
+ 
+<p><img src="/download/sprites/dp/227.png" alt="" /></p>
+<p><a href="/dp/pokemon/skarmory">Skarmory</a></p>
+<p><strong>Defenses:</strong> 65 / 140 / 70</p>
+<p><strong>Wall Sets:</strong> Spikes</p>
+ 
+<p>Skarmory and Blissey are often seen working as a team, known commonly as SkarmBliss. The combination of these dedicated walls was a staple of any team during the GSC and RSE metagames, and has continued to see success today. Skarmory compliments Blissey's walling abilities with its assorted support options, most notably Spikes, Whirlwind, and Stealth Rock. Skarmory's defensive strength stems from its giant Defense stat, its partial Steel typing, and instant recovery in the form of Roost. Very little can overcome Skarmory, and even less when it is paired up with Blissey.</p>
+ 
+<p>Skarmory has trouble with revenge killers like Magnezone, as well as status effects like paralysis, thankfully lowering Skarmory's acceptable base 70 Speed. Special attacks like Flamethrower tear through Skarmory, so adding something to your team with access to these kinds of attacks is encouraged. The move Taunt also cripples Skarmory.</p>
+ 
+<p><img src="/download/sprites/dp/260.png" alt="" /></p>
+<p><a href="/dp/pokemon/swampert">Swampert</a></p>
+<p><strong>Defenses:</strong> 100 / 90 / 90</p>
+<p><strong>Wall Sets:</strong> Sleep Talk, Curse + RestTalk</p>
+ 
+<p>Swampert falls under the category of bulky Water, alongside Suicune, Vaporeon, and many other Water-types. The advantages Swampert has over its like-minded relatives, though, lie in its support movepool and immunity to Electric-type attacks, thanks to its partial Ground typing. Stealth Rock and Roar combine to force your opponent to switch out and receive damage all at once, while Earthquake, Surf, Ice Beam, and a multitude of offensive attacks can be used to pick off the weakened foes that are dragged out.</p>
+ 
+<p>Though Swampert cuts out Electric-type attacks, it doubles its weakness to Grass-type attacks. Grass Knot, Energy Ball, and Seed Bomb are the best choices for bringing down Swampert. To keep Swampert from boosting its stats, try Taunt or a phazing move.</p>
+ 
+<p><img src="/download/sprites/dp/134.png" alt="" /></p>
+<p><a href="/dp/pokemon/vaporeon">Vaporeon</a></p>
+<p><strong>Defenses:</strong> 130 / 60 / 95</p>
+<p><strong>Wall Sets:</strong> Standard Wish Support</p>
+ 
+<p>Vaporeon received one of the most useful stat distributions of the Eeveelutions, making it a premier bulky Water in today's metagame. Vaporeon's options as a support Pokémon are very plentiful, including Wish support, Toxic support, and phazing. Thanks to its ability, Water Absorb, Vaporeon becomes a reliable switch-in to CroCune and other Water-type attackers, forcing them to switch out while Vaporeon capitalizes on its free turn. Many players use Vaporeon as a check to both Gyarados and Heatran, two of the hardest hitters in the tier.</p>
+ 
+<p>Though it does have a base 130 HP stat, it doesn't do much to compensate for its low other defensive stats. Attacks like Thunderbolt and Energy Ball are recommended over their physical counterparts due to the fact that many Vaporeon run physically defensive EV spreads and natures. Any attack that 2HKOes will overcome Wish variants lacking Protect, while a combination of Taunt + 2HKO attack ruin those that sport Protect.</p>
+ 
+<h3><a name="uu">Underused Walls</a></h3>
+ 
+<p>Though the walls of UU may see less usage from a statistics standpoint, they do see heavy usage within their own tier. The following are some of the most common walls seen in UU.</p>
+ 
+<p><img src="/download/sprites/dp/113.png" alt="" /></p>
+<p><a href="/dp/pokemon/chansey">Chansey</a></p>
+<p><strong>Defenses:</strong> 250 / 5 / 105</p>
+<p><strong>Wall Sets:</strong> All</p>
+ 
+<p>Chansey takes the cake as the most often seen NFE Pokémon, thanks to the fact that her stats are comparable to her older sister, Blissey's. In fact, she functions exactly like Blissey, sponging special attacks and providing team support, all while staying healthy via Softboiled and Natural Cure. If you've grown accustomed to the walling capabilities Blissey provides in OU, using Chansey in UU will feel completely identical.</p>
+ 
+<p>Naturally, a Pokémon who so closely resembles their evolution shares common weaknesses with that evolution. Chansey sports an even lower base Defense stat than Blissey (a measly 5), so Close Combats and Superpowers will do her in even faster. In all actuality, any strong physical attack will do huge damage to Chansey, so bring on all the physical sweepers you have; just watch out for the occasional Thunder Wave or Toxic.</p>
+ 
+<p><img src="/download/sprites/dp/36.png" alt="" /></p>
+<p><a href="/dp/pokemon/clefable">Clefable</a></p>
+<p><strong>Defenses:</strong> 95 / 73 / 90</p>
+<p><strong>Wall Sets:</strong> Blissey with Weight Loss, Encore, Dual Screen, Wish</p>
+ 
+<p>Clefable has excellent walling capabilities, thanks to its huge movepool and coveted ability, Magic Guard. Boasting moves like dual screens, Encore, Wish, and Softboiled makes sure that Clefable is not useless once it switches in. Speaking of switching in, it should be noted that Magic Guard ignores all damage done by entry hazards (including the poison caused by Toxic Spikes).</p>
+ 
+<p>Clefable actually has low defenses, so hitting it with powerful and/or super effective attacks will more often than not lead to a 2HKO. Taunt also throws a wrench in Clefable's gears, since many of its wall sets rely on three support moves and Seismic Toss.</p>
+ 
+<p><img src="/download/sprites/dp/232.png" alt="" /></p>
+<p><a href="/dp/pokemon/donphan">Donphan</a></p>
+<p><strong>Defenses:</strong> 90 / 120 / 60</p>
+<p><strong>Wall Sets:</strong> Rapid Spin</p>
+ 
+<p>Donphan is a great physical wall, thanks to an impressive 120 base Defense. Donphan's support options also make it a great wall candidate, boasting Stealth Rock, Roar, Rapid Spin, and the occasional status move in its movepool. Donphan's offensive capabilities make it an amazingly difficult wall to take down, and he even gets a priority attack, Ice Shard.</p>
+ 
+<p>Donphan has a pitiful Special Defense stat, so bring out your special attackers. Water-types are prime candidates for taking down Donphan, since neither Ice Shard nor Earthquake are doing super effective damage to them, while Surf will completely annihilate Donphan. Grass Knot is an option as well, just be wary of the omnipresent Ice Shard.</p>
+ 
+<p><img src="/download/sprites/dp/350.png" alt="" /></p>
+<p><a href="/dp/pokemon/milotic">Milotic</a></p>
+<p><strong>Defenses:</strong> 95 / 79 / 125</p>
+<p><strong>Wall Sets:</strong> Sleep Support, Screen Support, Rest + Sleep Talk</p>
+ 
+<p>Most of the Water-types of UU sport higher Defense than Special Defense, allowing Milotic to take the crown of most specially defensive bulky Water. Thanks to Marvel Scale, any status effects you might normally use to stop walls result in a 50% Defense boost, making Milotic a huge mixed defensive threat. Recover only adds to Milotic's survivability, while STAB Water-type moves are fired off of an impeccable base 100 Special Attack. Oh, and it can set up Light Screen and Toxic, too; have fun with those.</p>
+ 
+<p>Luckily, Milotic's Marvel Scale ability doesn't stop residual damage, meaning at some point Toxic damage will overcome Recover. If you don't want to sit around and wait, though, firing off special Grass- and Electric-type attacks is a great idea, as are their physical counterparts as long as Marvel Scale hasn't been activated.</p>
+ 
+<p><img src="/download/sprites/dp/377.png" alt="" /></p>
+<p><a href="/dp/pokemon/regirock">Regirock</a></p>
+<p><strong>Defenses:</strong> 80 / 200 / 100</p>
+<p><strong>Wall Sets:</strong> Tank, Curse, Rest + Sleep Talk</p>
+ 
+<p>Regirock, though less seen than its Steel-type relative, is one amazing physical wall. Even a Life Orb-boosted Superpower from Absol fails to 2HKO Regirock, not factoring in any entry hazard damage-quite a feat for any Pokémon to accomplish. Regirock also has a base 100 Attack stat to fire off Earthquakes and Stone Edges from, creating a double threat not many sweepers care to deal with.</p>
+ 
+<p>Regirock's weaknesses come from his lack of recovery and weaknesses to common move types. A lot of UU Pokémon normally carry attacks like Surf, Earth Power, or Grass Knot to deal damage, and can therefore take down Regirock fairly easy. Always prey on its lower Special Defense if possible, since physical attacks aren't something that threaten him much.</p>
+ 
+<p><img src="/download/sprites/dp/379.png" alt="" /></p>
+<p><a href="/dp/pokemon/registeel">Registeel</a></p>
+<p><strong>Defenses:</strong> 80 / 150 / 150</p>
+<p><strong>Wall Sets:</strong> All</p>
+ 
+<p>Registeel has been one of the top five UU Pokémon for months now, and one doesn't have to think hard to figure out why. Sporting massive twin defensive stats and the durability associated with Steel-types means it is the most durable mixed wall available in this tier. Registeel also enjoys spreading around status effects, like paralysis and poison, in addition to setting up Stealth Rock to take huge chunks of HP out of its Fire-type counters. Then, when the end is near, all it takes is one Explosion to grab a quick KO on the way out.</p>
+ 
+<p>Though Registeel has identical defenses, it typically invests more EVs in Special Defense than Defense, meaning Earthquake and Close Combat are the way to go. Pokémon with immunities to status effects, like mixed attacking Nidoking or wallbreaking Blaziken, are great options to take him down. Registeel doesn't have the offensive capabilities to do much damage outside of Seismic Toss, and doesn't have a way to heal itself without Rest; hit him with a boosted super effective attack or two and he'll be ready to Explode on whoever is trying to take him down. When that time comes, have a Ghost-type in reserve to render Explosion useless.</p>
+ 
+<p><img src="/download/sprites/dp/80.png" alt="" /></p>
+<p><a href="/dp/pokemon/slowbro">Slowbro</a></p>
+<p><strong>Defenses:</strong> 95 / 110 / 80</p>
+<p><strong>Wall Sets:</strong> Bulky Water, Calm Mind</p>
+ 
+<p>Slowbro is one of the best bulky Water-types found in UU, thanks to its ability to boost its lower defense, recover off any damage it takes, and access status-inducing moves. Calm Mind helps bridge the gap between Slowbro's defenses, making it an effective tank as well. Slack Off is the crux of both wall sets, allowing for instant recovery and a chance to get more Calm Mind boosts. Toxic and Thunder Wave are also great options, allowing Slowbro to function as a staller or match pace with its opponents, respectively.</p>
+ 
+<p>Like all bulky Waters, Grass- and Electric-type attacks are ideal choices, though Slowbro's partial Psychic typing opens it up to double damage from Dark- and Ghost-type attacks as well. Getting Slowbro taken care of before it gets in its stat boosts is recommended, though moves like Haze, Whirlwind, and Roar form a great secondary strategy.</p>
+ 
+<p><img src="/download/sprites/dp/447.png" alt="" /></p>
+<p><a href="/dp/pokemon/spiritomb">Spiritomb</a></p>
+<p><strong>Defenses:</strong> 50 / 108 / 108</p>
+<p><strong>Wall Sets:</strong> Mono Attacker, Rest + Sleep Talk</p>
+ 
+<p>When you take a glance at Spiritomb's defensive stats, you may be wondering how a Pokémon with such average defenses could be considered a wall. Spiritomb's walling capabilities are helped by its base 108 defenses, but its true power comes from the fact that it doesn't have a single type weakness. This advantage allows it to switch in on nearly any threat and not have to worry about predicting whether it will use the right attack at the wrong time. Pressure and the possible Spite allow it to outstall nearly every Pokémon it encounters, while Calm Mind increases its durability. Moves like Pain Split, Will-O-Wisp, and Taunt do nothing to comfort opponents, either. No weaknesses and the power to extinguish PP makes Spiritomb a fearsome wall to deal with.</p>
+ 
+<p>Hopefully the fact that Spiritomb only has a base 50 HP stat leapt out at you, because this is the one thing that cripples Spiritomb the worst. Attacks with high Base Power, like Fire Blast or Earthquake will cause severe damage to Spiritomb, bringing it within 2HKO range for some of the stronger sweepers out there. Spiritomb also relies on status effects often, so Pokémon who benefit from status, like Milotic and Swellow, should be chomping at the bit to have a go with our cursed foe. Fire-type Pokémon also have nothing to fear from Will-O-Wisp, making wallbreaking Blaziken and Houndoom great switch-ins (not to mention the fact they both 2HKO Spiritomb with Fire Blast). A low Speed stat also hurts Spiritomb's walling capabilities, meaning it takes prediction to weasel out of being 2HKOed by boosted attacks.</p>
+ 
+<p><img src="/download/sprites/dp/208.png" alt="" /></p>
+<p><a href="/dp/pokemon/steelix">Steelix</a></p>
+<p><strong>Defenses:</strong> 75 / 200 / 65</p>
+<p><strong>Wall Sets:</strong> Physical Wall</p>
+ 
+<p>Steelix's Defense and many resistances make is an excellent physical wall. This defensive combination allows Steelix to set up Stealth Rock, in addition to allowing him to spread around status like Toxic quite often. Should Steelix find itself against one of its switch-ins, it has the options of Roaring it away or just Exploding on it. Gyro Ball is another deadly attack for Steelix, thanks to STAB and a low base 30 Speed stat.</p>
+ 
+<p>Taking out a dedicated wall like Steelix is easy: prey on his lower Special Defense stat with super effective attacks. Though Fire-type Pokémon must watch out for Earthquakes on the switch in, moves like Fire Blast and Flamethrower will cause huge dents in Steelix that he can't heal off. Grass Knot, too, is a great attack choice; Steelix's high weight boosts Grass Knot's Base Power to 120.</p>
+ 
+<p><img src="/download/sprites/dp/485.png" alt="" /></p>
+<p><a href="/dp/pokemon/uxie">Uxie</a></p>
+<p><strong>Defenses:</strong> 75 / 130 / 130</p>
+<p><strong>Wall Sets:</strong> Support, Dual Screen</p>
+ 
+<p>Unlike its higher-tiered relative Azelf, Uxie focuses more on defensive strategies to help both it and its teammates. To complement its mixed walling capabilities, Uxie also has access to the dual screens to halve the already pitiful amount of damage it will be taking, giving it time to spread Toxic poison or set up Stealth Rock. Should you be able to overcome these roadblocks, however, Uxie can sacrifice itself via Memento, leaving you with an extremely crippled sweeper and a fresh counter to deal with.</p>
+ 
+<p>Like all Psychic-types, Uxie falls prey to Pursuit and speedy Ghost-types like Mismagius. The dual screens it sets up can be taken down by Brick Break, even if your opponent switches in a Ghost-type. Causing residual damage to Uxie will eventually cause it to fall, due to a lack of recovery and low overall HP.</p>
+ 
+<h3><a name="uber">Uber Walls</a></h3>
+ 
+<p>Although offensive powerhouses run amok in Ubers more so than in any other tier, many walls exist to check them. Some are general purpose walls, others hold specific countering utility roles, but all of them have proven their prowess on stall teams.</p>
+ 
+<p><img src="/download/sprites/dp/242.png" alt="" /></p>
+<p><a href="/dp/pokemon/blissey">Blissey</a></p>
+<p><strong>Defenses:</strong> 255 / 10 / 135</p>
+<p><strong>Wall Sets:</strong> All</p>
+ 
+<p>The greatest special wall in OU is also one of the core pillars of Ubers stall. It is easily the nemesis of many special threats such as Latios, Dialga, Mewtwo, and others. Wish and Aromatherapy help it support the team even further. Blissey is such a threat that every team should have a plan to defeat it.</p>
+ 
+<p>Fortunately, any strong physical attack will OHKO Blissey, or at least come close. Kyogre gets a special mention for its ability to 2HKO Blissey with Water Spout, stopping Blissey from switching into the leviathan. A physical MixPalkia can lure in and OHKO a Blissey with Aqua Tail in the rain, or Outrage outside of it. Finally, Substitute + Calm Mind users, such as Giratina-O, have an easy time defeating the pink blob.</p>
+ 
+<p><img src="/download/sprites/dp/492.png" alt="" /></p>
+<p><a href="/dp/pokemon/giratina">Giratina</a></p>
+<p><strong>Defenses:</strong> 150 / 120 / 120</p>
+<p><strong>Wall Sets:</strong> All</p>
+ 
+<p>Giratina is a staple of Classical Ubers Stall for its ability to block Rapid Spin (courtesy of the Ghost typing), along with crippling Rock Polish Groudon with Will-O-Wisp rather than merely phazing it out as Lugia does. It is perhaps not an as effective general purpose wall as Lugia because of the disappointing weakness to Dragon-type moves, the lack of instant recovery, and no access to dual screens.</p>
+ 
+<p>Yet, it can cripple many physical attackers, and if Will-O-Wisp happens to hit a mixed attacker, then Blissey can easily stall it out. Also, the Water- and Electric-type resistances that Giratina possesses, combined with its remarkable Special Defense, let it wall Choiced Palkia variants not locked into Spacial Rend.</p>
+ 
+<p>Dialga is a perfect counter for Giratina, OHKOing it with Draco Meteor. A Bulk Up Dialga can use Rest to remove Will-O-Wisp as well. Darkrai and Mewtwo can come in on a Rest and use Taunt, thus shutting down Giratina and giving them a chance to set up. If the Giratina is the rarer Calm Mind user, Tyranitar defeats it with Crunch.</p>
+ 
+<p><img src="/download/sprites/dp/383.png" alt="" /></p>
+<p><a href="/dp/pokemon/groudon">Groudon</a></p>
+<p><strong>Defenses:</strong> 100 / 140 / 90</p>
+<p><strong>Wall Sets:</strong> Supporting Groudon</p>
+ 
+<p>Groudon is the traditional (and still commonly used) lead for Ubers stall teams, and is often used to set up Stealth Rock and sun. After a stall player loses a Pokémon or has a Blissey dealing with a potent mixed attacker such as Palkia, Groudon is often the switch-in, interrupting the rain with his ability. He also is an excellent Tyranitar counter. Therefore, he can be quite annoying to deal with.</p>
+ 
+<p>However, Groudon does have several disadvantages that an offensive player can exploit. The lack of recovery diminishes its walling potential dramatically, forcing it to rely on Wish from Blissey in order to survive. A Kyogre can revenge kill a Groudon fairly easily with a rain-boosted Water Spout or Surf. If Latias, Latios, or Shaymin-S enters on an Earthquake, a Grass Knot or Seed Flare is all they need to end Groudon's life. A Mewtwo or Deoxys-A can do the same with Grass Knot or Ice Beam so long as it avoids an Earthquake (or an attack, in the case of the latter), and Darkrai can shut down the Supporting set completely while setting up. Finally, Wobbuffet can use Groudon as setup bait for Rayquaza, which could mean the end of the game for the stall player.</p>
+ 
+<p><img src="/download/sprites/dp/380.png" alt="" /></p>
+<p><a href="/dp/pokemon/latias">Latias</a></p>
+<p><strong>Defenses:</strong> 80 / 90 / 130</p>
+<p><strong>Wall Sets:</strong> All</p>
+ 
+<p>Latias is a staple on Classical Ubers Stall for its ability to switch into Kyogre, which even Blissey cannot manage to do if the leviathan is using Water Spout or Substitute. Latias can then use Calm Mind can apply pressure to the opponent, and force it out of the field. Thanks to Soul Dew, even a Spacial Rend from Palkia fails to OHKO, while Latias returns an OHKO with Dragon Pulse. Latias also outspeeds much of the Ubers tier, enabling it to use Recover or Calm Mind more effectively.</p>
+ 
+<p>Fortunately, defeating Latias isn't too difficult. Tyranitar is the best counter with both Crunch and Pursuit, combined with its high Special Defense; be wary of Grass Knot, though, as it hits Tyranitar with 120 Base Power. Metagross and Scizor work similarly. Otherwise, the best way to deal with Latias is revenge killing, with Garchomp, Darkrai, and Heracross being the best choices.</p>
+ 
+<p><img src="/download/sprites/dp/249.png" alt="" /></p>
+<p><a href="/dp/pokemon/lugia">Lugia</a></p>
+<p><strong>Defenses:</strong> 106 / 130 / 154</p>
+<p><strong>Wall Sets:</strong> Great Wall, Special Attacker</p>
+ 
+<p>Lugia is perhaps the best general purpose wall in the game, countering threats such as Rayquaza, Garchomp, Groudon, Metagross, and Bulk Up Dialga. With its access to both Reflect and Light Screen, instant recovery in the form of Roost, Whirlwind for phazing, and Pressure to stall PP, Lugia can be a nuisance to take down. It is also difficult to prey on Lugia's still impressive Special Defense, as Lugia outspeeds many threats such as Kyogre, and can set up a Light Screen to cushion the blow.</p>
+ 
+<p>But many checks for Lugia exist in the Ubers tier. Darkrai in particular laughs at most Lugia sets and can use Dark Void or set up a Substitute, after which he can use Nasty Plot to threaten a sweep. Mewtwo can use Taunt and begin to set up Calm Minds, taking minimal damage from Lugia's pathetic Ice Beams, which is often its only attack. Tyranitar can defeat Lugia one-on-one by firing off Choice Band-boosted Crunches and obtaining Defense drops, or using Pursuit, but Toxic damage can add up. Wobbuffet's Tickle, combined with a Pursuit from a Tyranitar, Scizor, or Metagross can end the threat. Finally, Lugia's Stealth Rock weakness lets it down, and a Dragon Dance Rayquaza after a boost can outspeed and OHKO Lugia with Outrage if Stealth Rock is up (although the Swords Dance variant fails here because Lugia outspeeds it).</p>
+ 
+<p><img src="/download/sprites/dp/227.png" alt="" /></p>
+<p><a href="/dp/pokemon/skarmory">Skarmory</a></p>
+<p><strong>Defenses:</strong> 65 / 140 / 70</p>
+<p><strong>Wall Sets:</strong> All</p>
+ 
+<p>Although Forretress is the preferred choice on most Ubers stall teams because of its ability to Rapid Spin and use Toxic Spikes, Skarmory is still the more reliable Spikes user due to its access to instant recovery. Taunt and Whirlwind can prove even more annoying to incoming special attackers looking to set up on the metal bird. Skarmory can repeatedly come in on threats like Choice Scarf Garchomp, set up Spikes, and Roost off the damage, which can make your team suffer.</p>
+ 
+<p>You should go about dealing with Skarmory the same way as you go about dealing with Forretress: by striking it with strong special attacks. However, you should make sure your attacks strike for over 56% damage, as the instant recovery complicates matters. Be warned: Skarmory, just like Forretress, tends to exploit its excellent typing by investing in Special Defense, which can do things like turn a special MixPalkia's Spacial Rend into a 4HKO if a Careful nature is used. Make sure you have Fire Blast and Thunder around to deal super effective damage.</p>
+ 
+<h2><a name="dir">Direct Countering</a></h2>
+ 
+<h3><a name="choice">Choiced Attackers</a></h3>
+ 
+<p>With the introduction of the various Choice items during DPP, wallbreaking became even easier. The two most useful Choice items for wallbreaking, the Choice Band and Choice Specs, provide a 1.5x power boost to Attack or Special Attack, respectively, though limits the user to one attack. Though this may seem like a bad thing for the wallbreaker, the added power is exactly what is needed to put walls into the 2 and OHKO ranges they need to be put in.</p>
+ 
+<p>The biggest problem with Choiced attackers is knowing how your opponent will react to the attack you are locked into. If you lack substantial knowledge about the members of your opponent's team, you run the risk of choosing an attack easily walled by another one of your opponent's Pokémon. Your resulting switch not only gives your opponent a turn free of damage, but also a chance to see more of your team strategy. Entry hazards also limit the effectiveness of Choiced Pokémon early in the match, since the resulting switches will result in a lot of indirect damage.</p>
+ 
+<h4>Commonly Seen Choiced Attackers</h4>
+ 
+<h5>OU</h5>
+ 
+<p><a href="/dp/pokemon/gengar">Gengar</a>, <a href="/dp/pokemon/heatran">Heatran</a>, <a href="/dp/pokemon/jirachi">Jirachi</a>, <a href="/dp/pokemon/scizor">Scizor</a>, <a href="/dp/pokemon/starmie">Starmie</a>, <a href="/dp/pokemon/tyranitar">Tyranitar</a></p>
+ 
+<h5>UU</h5>
+ 
+<p><a href="/dp/pokemon/azumarill">Azumarill</a>, <a href="/dp/pokemon/donphan">Donphan</a>, <a href="/dp/pokemon/dugtrio">Dugtrio</a>, <a href="/dp/pokemon/magmortar">Magmortar</a>, <a href="/dp/pokemon/mismagius">Mismagius</a>, <a href="/dp/pokemon/rotom">Rotom</a></p>
+ 
+<h5>Uber</h5>
+ 
+<p><a href="/dp/pokemon/dialga">Dialga</a>, <a href="/dp/pokemon/garchomp">Garchomp</a>, <a href="/dp/pokemon/kyogre">Kyogre</a>, <a href="/dp/pokemon/palkia">Palkia</a>, <a href="/dp/pokemon/scizor">Scizor</a></p>
+ 
+<h3><a name="boost">Boosting Attackers</a></h3>
+ 
+<p>Sometimes, sacrificing a moveslot to a stat boosting move is more advantageous than being locked into one attack. Raising a Pokémon's stats to increased levels not only helps you overcome an opponent's wall, but also allows helps set up a sweep once the wall in question is KOed. These sweeps typically lead to multiple KOs by a single Pokémon, and can ultimately swing the battle in your favor.</p>
+ 
+<p>Stat boosting moves range in effectiveness, though the majority of them increase a Pokémon's stat or stats by increments called stages. These stages can be seen as percentages; a stat increased by one stage become 150% of the original stat, a stat boosted by two stages becomes 200% of the original stat, and so on. Pokémon can continue using boosting moves until they reach stage six, or 400% of the original stat. After this ceiling is reached, stat boosting moves fail to work, and become useless until the user is either KOed or switches out.</p>
+ 
+<h4>Commonly Seen Stat-Boosting Moves</h4>
+ 
+<p><a href="/dp/moves/bulk_up">Bulk Up</a>, <a href="/dp/moves/calm_mind">Calm Mind</a>, <a href="/dp/moves/curse">Curse</a>, <a href="/dp/moves/dragon_dance">Dragon Dance</a>, <a href="/dp/moves/nasty_plot">Nasty Plot</a>, <a href="/dp/moves/swords_dance">Swords Dance</a>, <a href="/dp/moves/rock_polish">Rock Polish</a></p>
+ 
+<p>Stat boosters may have problems quickly breaking walls due to the amount of turns needed to boost a stat and how easily these boosts can be removed. Due to the fact that the majority of stat boosting moves only raise stats by one or two stages at a time, it could take up to six turns for a stat to reach stage six; too many turns for a Pokémon who relies primarily on high offensive stats to stay alive. In addition to this problem, stat boosts can be removed through the use of the move Haze, or by forcing the stat booster to switch out via Whirlwind or some other phazing move. These problems are typically overcome through ample prediction and knowing when you've received enough stat boosts to comfortably KO your opponent.</p>
+ 
+<h4>Commonly Seen Boosting Attackers</h4>
+<h5>OU</h5>
+ 
+<p><a href="/dp/pokemon/dragonite">Dragonite</a>, <a href="/dp/pokemon/empoleon">Empoleon</a>, <a href="/dp/pokemon/gyarados">Gyarados</a>, <a href="/dp/pokemon/kingdra">Kingdra</a>, <a href="/dp/pokemon/lucario">Lucario</a>, <a href="/dp/pokemon/scizor">Scizor</a>, <a href="/dp/pokemon/tyranitar">Tyranitar</a></p>
+ 
+<h5>UU</h5>
+ 
+<p><a href="/dp/pokemon/absol">Absol</a>, <a href="/dp/pokemon/altaria">Altaria</a>, <a href="/dp/pokemon/drapion">Drapion</a>, <a href="/dp/pokemon/espeon">Espeon</a>, <a href="/dp/pokemon/feraligatr">Feraligatr</a>, <a href="/dp/pokemon/houndoom">Houndoom</a>, <a href="/dp/pokemon/mismagius">Mismagius</a>, <a href="/dp/pokemon/rotom">Rotom</a></p>
+ 
+<h5>Uber</h5>
+ 
+<p><a href="/dp/pokemon/darkrai">Darkrai</a>, <a href="/dp/pokemon/kyogre">Kyogre</a>, <a href="/dp/pokemon/lucario">Lucario</a>, <a href="/dp/pokemon/mewtwo">Mewtwo</a>, <a href="/dp/pokemon/rayquaza">Rayquaza</a>, <a href="/dp/pokemon/tyranitar">Tyranitar</a></p>
+ 
+<h3><a name="mix">Mixed Attackers</a></h3>
+ 
+<p>Utilizing both physical and special attacks in one moveset is one of the oldest forms of wallbreaking, dating back to the days of RBY. Mixed attackers create a difficult situation for an opponent's walls because they cannot be countered with a dedicated wall like other wallbreakers. Some mixed attackers, like the Infernape moveset MixApe, simply utilize two physical and two special attacks in their moveset, with a nature and EV spread that help power the attacks equally. Others shade their movesets towards either physical or special attacks. Still others substitute one attack moveslot for a support move, as is the case with Clefable's Wallbreaker set; the strategies behind mixed attackers are almost as numerous as the Pokémon themselves.</p>
+ 
+<p>The problems many mixed attackers have is a lack of extreme power on either the special or physical side, due to their split EV spreads and use of a possible lower offensive stat. Many Pokémon try to overcome this problem through the use of high Base Power, low accuracy attacks like Hydro Pump and Fire Blast over their lower Base Power, higher accuracy counterparts Surf and Flamethrower. Though this may help squeeze out a few extra KOs, the chance of missing becomes a liability and can weigh heavily on the outcome of a battle.</p>
+ 
+<p>UU mixed attackers get the benefit of not having to invest heavily in their Speed stat to outspeed the walls they will encounter, due to the low overall Speed of walls in this tier. Unfortunately for Pokémon in OU and Ubers, their walls are typically faster and require mixed attackers to pull some of their EVs from their attacking stats to keep pace.</p>
+ 
+<h4>Commonly Seen Mixed Attackers</h4>
+ 
+<h5>OU</h5>
+ 
+<p><a href="/dp/pokemon/dragonite">Dragonite</a>, <a href="/dp/pokemon/electivire">Electivire</a>, <a href="/dp/pokemon/infernape">Infernape</a>, <a href="/dp/pokemon/kingdra">Kingdra</a>, <a href="/dp/pokemon/lucario">Lucario</a>, <a href="/dp/pokemon/tyranitar">Tyranitar</a></p>
+ 
+<h5>UU</h5>
+ 
+<p><a href="/dp/pokemon/arcanine">Arcanine</a>, <a href="/dp/pokemon/blaziken">Blaziken</a>, <a href="/dp/pokemon/nidoking">Nidoking</a></p>
+ 
+<h5>Uber</h5>
+ 
+<p><a href="/dp/pokemon/dialga">Dialga</a>, <a href="/dp/pokemon/kingdra">Kingdra</a>, <a href="/dp/pokemon/palkia">Palkia</a>, <a href="/dp/pokemon/rayquaza">Rayquaza</a></p>
+ 
+<h2><a name="ind">Indirect Countering</a></h2>
+ 
+<h3><a name="trap">Trapping</a></h3>
+ 
+<p>Trapping an opponent's wall not only keeps you opponent from switching, but it allows you to exploit the weaknesses every wall has. Take, for example, the UU wall Chansey. Even though Chansey's Special Defense and HP stats are phenomenal, its Achilles' heel lies in its horrid base 5 Defense. Sending in a trapper that utilizes physical attacks, like Dugtrio, means Chansey has no chance of escaping the inevitable KO. Trappers come in different forms, based on their form of trapping.</p>
+
+<p>Some Pokémon, like Dugtrio and Magnezone, trap Pokémon through the use of their abilities. Though these Pokémon aren't very common, their trapping abilities, combined with their physical prowess, make them very effective wallbreakers.</p>
+ 
+<h4>Commonly Seen Ability Trappers</h4>
+ 
+<h5>OU</h5>
+ 
+<p><a href="/dp/pokemon/magnezone">Magnezone</a></p>
+ 
+<h5>UU</h5>
+ 
+<p><a href="/dp/pokemon/dugtrio">Dugtrio</a>, <a href="/dp/pokemon/magneton">Magneton</a></p>
+ 
+<h5>Uber</h5>
+ 
+<p><a href="/dp/pokemon/wobbuffet">Wobbuffet</a></p>
+ 
+<p>Wobbuffet deserves a special mention for his ability to turn walls into setup bait for sweepers such as Rayquaza with Encore, along with the Tickle strategy, in which a wall is Encored, Tickled repeatedly, and then hit with Pursuit by a Pseudo-trapper.</p>
+ 
+<p>Trapping an opponent can also be accomplished through the use of some specialized moves. By including the attacks Mean Look, Block, or Spider Web, an opponent loses the ability to switch out so long as the Pokémon who trapped them stays in battle. Though keeping your Mean Looker may prove troublesome, there is a way around it: Baton Pass. Though the only usable Pokémon who is capable of Baton Passing Mean Look is Umbreon, it is worth mentioning because it allows you to switch to a more appropriate counter for the wall, having full range to destroy it as you see fit.</p>
+ 
+<h4>Commonly Seen Move Trappers</h4>
+ 
+<h5>OU</h5>
+ 
+<p><a href="/dp/pokemon/smeargle">Smeargle</a>, <a href="/dp/pokemon/umbreon">Umbreon</a></p>
+ 
+<h5>UU</h5>
+ 
+<p><a href="/dp/pokemon/absol">Absol</a>, <a href="/dp/pokemon/mismagius">Mismagius</a></p> 
+ 
+<p>Though it does not directly trap your opponent, the attack Pursuit can force your opponent to keep their wall in against your Pokémon, due to Pursuit's secondary effect. If your opponent decided that they would rather switch out their wall than face your Pursuit user, Pursuit's Base Power doubles to 80 -- a consequence your opponent will most likely not want to deal with.</p>
+ 
+<h4>Commonly Seen Pseudo-Trappers</h4>
+ 
+<h5>OU</h5>
+ 
+<p><a href="/dp/pokemon/scizor">Scizor</a>, <a href="/dp/pokemon/tyranitar">Tyranitar</a>, <a href="/dp/pokemon/weavile">Weavile</a></p>
+ 
+<h5>UU</h5>
+ 
+<p><a href="/dp/pokemon/absol">Absol</a>, <a href="/dp/pokemon/spiritomb">Spiritomb</a></p>
+ 
+<h5>Uber</h5>
+ 
+<p><a href="/dp/pokemon/metagross">Metagross</a>, <a href="/dp/pokemon/scizor">Scizor</a>, <a href="/dp/pokemon/tyranitar">Tyranitar</a></p>
+ 
+<h3><a name="taunt">Taunt</a></h3>
+ 
+<p>Since the majority of walls focus their movesets on support rather than offense, Taunt can severely cripple their usefulness during a battle. Recovery moves like Softboiled and Recover, as well, are useless when walls are Taunted, shortening their lifespan by a considerable amount.</p>
+ 
+<p>Taunt is a great option for boosting attackers as well, since Taunted walls tend to switch out - a perfect time to nab that added power. Pursuit users, too, benefit from this switching to trap and/or KO walls.</p>
+ 
+<h4>Commonly Seen Taunters</h4>
+ 
+<h5>OU</h5>
+ 
+<p><a href="/dp/pokemon/aerodactyl">Aerodactyl</a>, <a href="/dp/pokemon/azelf">Azelf</a>, <a href="/dp/pokemon/gliscor">Gliscor</a>, <a href="/dp/pokemon/gyarados">Gyarados</a></p>
+ 
+<h5>UU</h5>
+ 
+<p><a href="/dp/pokemon/absol">Absol</a>, <a href="/dp/pokemon/alakazam">Alakazam</a>, <a href="/dp/pokemon/ambipom">Ambipom</a></p>
+ 
+<h5>Uber</h5>
+ 
+<p><a href="/dp/pokemon/darkrai">Darkrai</a>, <a href="/dp/pokemon/deoxys-s">Deoxys-S</a>, <a href="/dp/pokemon/mew">Mew</a>, <a href="/dp/pokemon/mewtwo">Mewtwo</a></p>
+ 
+<h3><a name="trick">Trick</a></h3>
+ 
+<p>Speedy Pokémon with access to Trick or Switcheroo, such as Alakazam or Rotom, can really limit the effectiveness of walls, in a multitude of ways. One of the most commonly seen strategies is Tricking a Choice item onto a wall. By doing so, the wall is forced to use only one of their moves; prediction and countering become a lot easier. Other strategies include Tricking harmful items like Flame Orb, Toxic Orb, Iron Ball, and the like to cripple walls through secondary effects.</p>
+ 
+<h4>Commonly Seen Trickers</h4>
+ 
+<h5>OU</h5>
+ 
+<p><a href="/dp/pokemon/azelf">Azelf</a>, <a href="/dp/pokemon/gengar">Gengar</a></p>
+ 
+<h5>UU</h5>
+ 
+<p><a href="/dp/pokemon/lopunny">Lopunny</a>, <a href="/dp/pokemon/rotom">Rotom</a></p>
+ 
+<h5>Uber</h5>
+ 
+<p><a href="/dp/pokemon/darkrai">Darkrai</a>, <a href="/dp/pokemon/gengar">Gengar</a>, <a href="/dp/pokemon/mewtwo">Mewtwo</a></p>
+ 
+<h3><a name="explode">Exploding</a></h3>
+ 
+<p>As a last ditch effort, some Pokémon can sacrifice themselves to leave giant holes in walls though the use of the attack Explosion. Explosion not only takes down walls, but it also allows you to set up your own revenge kill - a perfect time for ability trappers like Dugtrio to come in and clean up what's left. Be careful, though, because Ghost-types take no damage from this attack.</p>
+ 
+<h4>Commonly Seen Exploders</h4>
+ 
+<h5>OU</h5>
+ 
+<p><a href="/dp/pokemon/azelf">Azelf</a>, <a href="/dp/pokemon/forretress">Forretress</a>, <a href="/dp/pokemon/gengar">Gengar</a>, <a href="/dp/pokemon/heatran">Heatran</a>, <a href="/dp/pokemon/magnezone">Magnezone</a>, <a href="/dp/pokemon/metagross">Metagross</a></p>
+ 
+<h5>UU</h5>
+ 
+<p><a href="/dp/pokemon/cloyster">Cloyster</a>, <a href="/dp/pokemon/regirock">Regirock</a>, <a href="/dp/pokemon/registeel">Registeel</a>, <a href="/dp/pokemon/weezing">Weezing</a></p>
+ 
+<h5>Uber</h5>
+ 
+<p><a href="/dp/pokemon/metagross">Metagross</a>, <a href="/dp/pokemon/mew">Mew</a>, <a href="/dp/pokemon/mewtwo">Mewtwo</a></p>
+ 
+<h2><a name="strat">Wallbreaking Strategies</a></h2>
+ 
+<p>Up until now, we have discussed tactics you can use to dismantle walls. However, it's a safe bet to assume that stall players are familiar with all of these tactics, and have built their teams accordingly. Therefore, it is integral to learn the basics of wallbreaking strategy if you want to have success with your preferred method of stallbreaking.</p>
+ 
+<h3><a name="mxsp">Effective Use of Mixed Sweepers</a></h3>
+ 
+<p>A mistake that many players make is that they rely solely on their mixed sweepers to break down walls. They use these mixed sweepers in isolation from the rest of the team, attempt to pound through a stall team alone, and are often disappointed when this tactically limited plan fails them. If an Infernape runs up against a Tentacruel, Vaporeon, or Cresselia, the defender has once again taken control of the battle, at least for the moment. If a defender correctly throws a Blissey (or even a Specially Defensive Skarmory or Forretress) to a Draco Meteor, then your Dragonite has very little utility left and can easily be walled by Hippowdon or Skarmory, with sandstorm, Life Orb, and Stealth Rock wearing it down further. As an attacker, your goal should be to avoid such problematic situations.</p>
+ 
+<p>One way of using mixed sweepers effectively is using them to force the stall player to make certain moves, then double-switching to take advantage of such moves. Another way of going about it is to try to outpredict the defender, because it only takes one successful move to cripple a wall. If the defender is not applying substantive pressure (eg: Life Orb recoil, Toxic Spikes, sandstorm, etc) to you, then you have multiple chances to makes such a correct prediction, making it easier. The general principle here is trying to predict aggressively if the situation calls for it, which shall be elaborated on in the examples below.</p>
+ 
+<h4>OU</h4>
+ 
+<p>An Infernape is sent out against a weakened Celebi. The defender will likely send in Tentacruel. Knowing this, the attacker switches in a Life Orb Gyarados, who can set up a Dragon Dance and potentially sweep, or deal serious damage, enabling another Pokémon to sweep.</p>
+ 
+<h4>UU</h4>
+ 
+<p>A Registeel is sent out against an offensive mixed Clefable. Expecting the Thunder Wave carried by most Registeel, the player switches out their Clefable for Donphan, who can threaten Registeel directly or use the turn it switches out to set up Stealth Rock.</p>
+ 
+<h4>Uber</h4>
+ 
+<p>Early in the match, before Toxic Spikes are up, a specially-based MixPalkia is sent out against a weakened Blissey while there is rain on the field. The expected move of the attacker is Aqua Tail, so the defender is likely to switch in Groudon to easily take the hit in the sun. However, since the attacker is not threatened by poison, he can predict without much penalty at the moment, so he uses Spacial Rend to cripple the Groudon. If Toxic Spikes were up, the attacker would simply have less time to get a correct prediction.</p>
+ 
+<h3><a name="lure">Crafting a Lure</a></h3>
+ 
+<p>I'm sure everyone has seen things like SpecsNite, SpecsLuke, and (though not as popular) Expert Belt Jirachi. Lures can be a great way to break down a defensive team, but one must be clever about using them, and put some effort into making the defender fall for the bluff. For example, it is a hit-or-miss strategy to use an attack, bluffing a Choice item, and then instantly spring the trap, because the defender might switch to another Pokémon that can handle you well anyway. So to stop this possibility, you can try using Explosion to create a double-KO, which nullifies any information about your Pokémon that the defender might gain from you bringing in the lure on a defensive threat. Something else you can do is switch out the Pokémon after an unsuccessful attack to make it appear as if you are choiced, and coming in later and springing the trap.</p>
+ 
+<h4>OU</h4>
+ 
+<p>You have an Expert Belt Jirachi with Iron Head and Thunderbolt. The defender, however, sees you bring in the Jirachi on Blissey and suspects that something might be up, since he hasn't seen any known wallbreakers yet. To be safe (many defenders prefer to play conservatively), he sends in a Hippowdon, and sees you use Iron Head. He now thinks that you are a physical Choice set. So to encourage this illusion, you switch out. Later, you bring in Jirachi on a Blissey or Tentacruel, but not against a physical wall, or the point is moot. You use Iron Head as the opponent switches to Skarmory, then use Thunderbolt to spring your trap and OHKO.</p>
+ 
+<h4>UU</h4>
+ 
+<p>Arcanine is a great lure Pokémon, thanks to its even offenses and Choice sets. Assuming your Arcanine is a Choice Specs variant, your opponent switches in their Chansey. You, however, are running a mixed Arcanine, and can now destroy Chansey with Flare Blitz.</p>
+ 
+<h4>Uber</h4>
+ 
+<p>In Ubers, luring is fairly self-explanatory. The best Pokémon for such a role is Palkia, who can run many viable sets, increasing the confusion for the stall player. A physical MixPalkia can easily masquerade as the more popular special variant, although the special variant manages to 2HKO Blissey in the rain with Aqua Tail or with Outrage anyway.</p>
+ 
+<h3><a name="trickery">Trickery</a></h3>
+ 
+<p>Using Trick is one of the most popular ways to break through a stall team. It is very easy to fit onto an offensive team, and the potential to cripple Blissey (Chansey in UU) for the rest of the match makes it tempting. But unfortunately, many players do not use Trick to its fullest potential. They are often quite hasty about it, and so end up Tricking away their Choice item onto a Pokémon such as Rotom, thus failing in their mission to cripple the infamous pink blob. The principle to using Trick effectively works similarly to using lures effectively: you must make the stall player feel comfortable to switch in Blissey, so that you can hit it with Trick. Therefore, it is a good practice to play conservatively at first, not showing off the move until later. Having multiple users of the move makes it arguably exponentially easier to accomplish this, as the stall player risks serious holes being put in his team if he does not employ Blissey, forcing him to take the Trick.</p>
+ 
+<h4>OU</h4>
+ 
+<p>A player sends in their CroCune to take advantage of a Choice Scarf Starmie that is locked into Hydro Pump. Starmie switches out, only to come in later in the match and cripple Suicune as it uses Sleep Talk, forcing it to switch out and giving Starmie the freedom to choose its moves each turn.</p>
+ 
+<h4>UU</h4>
+ 
+<p>You switch in your Trick Specs Rotom against your opponent's weakened Spiritomb, already knowing that they carry a Donphan. Instead of losing Spiritomb, your opponent decides to switch in their Donphan to absorb the predicted Thunderbolt. You, however, decide to use Trick on the switch, knowing both Pokémon would be crippled by the Choice Specs.</p>
+ 
+<h4>Uber</h4>
+ 
+<p>Trick is actually rarely used in Ubers. Mewtwo and Darkrai sometimes employ it, though, and of the two, Darkrai rarely lures in Blissey because of the fear of Dark Void. Instead, Darkrai lures in sleep absorbers and Choice Scarfers, and only the former is crippled by Trick.</p>
+ 
+<h3><a name="sacrifice">Sacrifice</a></h3>
+ 
+<p>This is arguably the most potent wallbreaking strategy that players use, and has been practised since at least the dawn of DPP play. The principle here is simple: sacrifice one of your sweepers to cripple a wall, and make sure you can at least force it out and 2HKO it later, if not killing it immediately with the next Pokémon. Or, one can abuse an Explosion to hit Blissey and produce another special sweeper ready to defeat the foe. One should be careful about this, however, as defenders often double up on walls as a counterplay against such strategies. Using Hippowdon, Forretress, and Gyarados as a check on Dragonite/Lucario-based strategies is a classical example of this.</p>
+ 
+<h4>OU</h4>
+ 
+<p>Late in a match, a player finds their Choice Banded Scizor locked into Bullet Punch battling a Rotom-H in fairly low health. Instead of switching out, the player opts to attack, putting Rotom-H's HP below 25%, destroying its strategy while being OHKOed by Overheat. The player then sends in a Heatran to force out Rotom-A. Later in the match, he comes in with an AgiliGross, who proceeds to easily defeat the weakened Rotom-A and sweep the defender's team.</p>
+ 
+<h4>UU</h4>
+ 
+<p>Late in a match, a player finds their Registeel playing against an enemy Regirock, with a weakened Houndoom in reserve. To help open the field for Houndoom, the player decides to use Explosion to do a great deal of damage, effectively allowing Houndoom to enter the field and net the final KO.</p>
+ 
+<h4>Uber</h4>
+ 
+<p>An offensive player switches in a Mewtwo against a Giratina, and a stall player makes the standard counterplay by switching to Blissey. The Mewtwo player sacrifices his Taunt/Calm Mind Mewtwo to weaken Blissey, and then comes in with a Garchomp to force it out. Later in the match, he puts a Latios on the field and defeats Blissey by 2HKOing it as it switches in.</p>
+ 
+<h2><a name="end">Closing Remarks</a></h2>
+ 
+<p>Although walls may seem menacing at first glance, all it takes is a bit of preparation and insight to bring them down. The information in this article will help you with strategies, but it's up to you to implement them and keep walls at bay.</p>

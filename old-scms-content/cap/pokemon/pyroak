@@ -1,0 +1,28 @@
+[title]
+Pyroak
+[head]
+<link rel="stylesheet" type="text/css" href="/media/dex/dex.css" />
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_template.js"></script>
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_database.js"></script>
+[header]
+[page]
+<script language="JavaScript">
+<!--
+var cap = Pyroak();
+
+cap.heightFeet = 6;
+cap.heightInches = 9;
+cap.weightPounds = 370;
+cap.weightKilos = 168;
+cap.eggGroup1 = "Monster";
+cap.eggGroup2 = "Dragon";
+
+cap.topicLeader = "Gothic Togekiss";
+cap.statSpreadCreator = "Aldaron & Mekkah";
+cap.designArtist = "Elagune";
+cap.spriteArtist = "Wyverii";
+cap.nameCreator = "Deck Knight";
+
+document.write(composeDexPage(cap));
+//-->
+</script>

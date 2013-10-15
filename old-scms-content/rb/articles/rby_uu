@@ -1,0 +1,247 @@
+[title]
+The RBY UU Metagame
+[head]
+<meta name="description" content="A guide to the RBY UU metagame" />
+<style type="text/css">
+/* css starts here */
+.amnesia {
+color: #0000FF;
+font-weight: bold;
+}
+#vap {
+color: #00BFFF;
+font-weight: bold;
+}
+.electric {
+color: #FFA500;
+font-weight: bold;
+}
+.ground {
+color: #A52A2A;
+font-weight: bold;
+}
+.poison {
+color: #008000;
+font-weight: bold;
+}
+.sweep {
+color: #FF0000;
+font-weight: bold;
+}
+/* css ends here */
+</style>
+[page]
+<div class="author">By <a href="/forums/member.php?u=42885">Crystal_</a>.</div>
+
+<ol class="toc">
+<li><a href="#intro">Introduction</a></li>
+<li><a href="#best">The best of the UU metagame</a></li>
+<li><a href="#bad">Good on paper, but mediocre in practice</a></li>
+<li><a href="#trap">Partial trapping moves' impact on the UU metagame</a></li>
+</ol>
+
+<h2><a name="intro">Introduction</a></h2>
+
+<p>Not many people play RBY OU nowadays, and out of those who play it, only a very small percentage know about the UU metagame. In fact, Smogon doesn't even have a real RBY UU tier right now, so we are going to use <a href="http://wiki.pokemon-online.eu/wiki/1st_Gen_Tier_List#UU">Pokemon Online's</a>, since it is the one used in all battles. Despite its low activity, RBY UU is a fun metagame to play, arguably featuring more variety than OU type- and move-wise. For comparison's sake, UU is a bit fast paced than OU&mdash;an UU battle usually lasts between 30 and 50 turns. In the same way that Normal-types dominate OU, it is Water-types who dominate in UU, as common teams contain between two and three Water-type Pokemon. The most useful Pokemon in the UU metagame can be arranged in different categories depending on their type and/or their common roles, as you will see in the next section of this article.</p>
+
+<h2><a name="best">The best of the UU metagame</a></h2>
+
+<h3>Amnesiers</h3>
+
+<div><img src="/download/sprites/rb/55.png" alt="golduck" /><img src="/download/sprites/rb/62.png" alt="poliwrath" /></div>
+
+<p>Given how Amnesia works in RBY, it's no surprise that the two users of Amnesia are two of the most dominant Pokemon in UU. Golduck is the more consistent one, and the best at using an Amnesia + Rest set, while Poliwrath has an edge with its unpredictability and versatility.</p>
+
+<p class="amnesia">Golduck<br />
+- Amnesia<br />
+- Surf<br />
+- Ice Beam<br />
+- Rest</p>
+
+<p>After a single Amnesia boost, Golduck is able to 2HKO Kingler and every non-Water-type Pokemon in UU, OHKOing Grass-, Fire-, and Ground-types with either Surf or Ice Beam. Even if it's fresh, Electabuzz will need a critical hit to survive Golduck's attacks if it switches into Amnesia. The bad news for Golduck is that, since this is RBY, critical hits from something as fast as Electabuzz aren't very rare.</p>
+
+<p>Ice Beam is recommended over Blizzard to deal with possible Amnesia wars when used along with Rest. Rest can be useful for keeping Golduck alive for longer and attempting a more durable sweep, but against good players don't expect a lot of success with it, as UU is a pretty fast metagame, and many things can capitalize on a sleeping Golduck with powerful physical attacks. The most common strategy against Golduck consists of trying to force it to Rest&mdash;by wearing it down to low health, for instance&mdash;while it sets up, and then predicting the turn it's going to use Rest to send in a physical attacker like Raticate or Kingler. Body Slam Vaporeon is a possible choice to wear down Golduck, but will take a lot of damage in the process. Another possibility consists of using Haze on Vaporeon, but it doesn't come without flaws, which will later be explained.</p>
+
+<p class="amnesia">Poliwrath<br />
+- Amnesia / Earthquake<br />
+- Hypnosis / Earthquake<br />
+- Blizzard<br />
+- Psychic</p>
+
+<p>As said, Poliwrath is more versatile than Golduck. There are many other viable options not listed in the set given above, such as Surf, Rest, Submission, Hyper Beam, and Body Slam. You can mix and match between these moves and come up with an interesting set; as you can see, Amnesia isn't even mandatory. However, the secondary Fighting typing gives Poliwrath some disadvantages, namely when dealing with Psychic and Flying attacks. A Psychic weakness means that Poliwrath can hit each other for super effective damage, and that Venomoth can hit Poliwrath hard too, even after a boost. It doesn't help against Electabuzz either, because it makes predicting an incoming Ground-type a safer feat. Flying weakness isn't generally a big deal though, since Fearow is uncommon and is walled by Graveler. These weaknesses coupled with the nerf in Speed are the main reasons why Golduck does the Amnesia + Rest set better, as Kingler, probably the most threatening Pokemon in UU, outspeeds Poliwrath, making it a lot more likely to KO a sleeping Poliwrath than a sleeping Golduck.</p>
+
+<p>As for the moveset options, Psychic and Blizzard are there for super effective coverage on Poliwrath, Venomoth, Tangela, and Weepinbell. If used with Amnesia, Psychic is also useful for hitting Vaporeon for neutral damage, and is a better option to hit Kingler no matter the set. Surf is another option for STAB, and to hit Fire-types for super effective damage. Hypnosis is inaccurate, but sometimes unexpected on Poliwrath, as well as more dangerous. Hypnosis could even be used to replace the Grass- or Bug-type for the sleeper role on your team but keep in mind its unreliability. Earthquake is useful to hit Electabuzz and Magneton on the switch in for a 2HKO. Submission and Earthquake do some decent damage to Vaporeon and Golduck too, but Submission's recoil and iffy accuracy could be hard to deal with. If Earthquake or Submission is combined with Hyper Beam, you could maybe get past a Golduck with Rest with some luck.</p>
+
+<h3>Vaporeon</h3>
+
+<div><img src="/download/sprites/rb/134.png" alt="vaporeon" /></div>
+
+<p>This guy deserves its own section. Vaporeon fulfills the role of a bulky Water-type in the UU metagame, acting as an all-around check to various threats of the metagame. Having a bulky Water is useful so that your Amnesia user(s) does not have to fulfill defensive roles and you can keep it healthy for when trying to start a sweep.</p>
+
+<p id="vap">Vaporeon<br />
+- Surf<br />
+- Blizzard / Ice Beam<br />
+- Body Slam / Haze<br />
+- Rest / Haze</p>
+
+<p>Vaporeon is clearly the best bulky Water in UU; actually, it's probably the only one worth using. Its special attacks hit very hard and its bulk is pretty impressive; it can even survive two Thunderbolts from Electabuzz at max health, takes less than 20% from Tangela and Venomoth, around 35% from STAB Earthquakes, and easily deals with Fire-types. The main problem with Vaporeon is that as a Water-type it can't set up, meaning it can be vulnerable to Kingler, Poliwrath, and Golduck, all of which can outspeed Vaporeon and resist its special attacks. Still, Kingler doesn't like Vaporeon's Surf, as it is 4HKOed by it.</p>
+
+<p>Haze is used to deal with Amnesia users, and attempt to start a freeze war; however, keep in mind that in RBY, Haze also cures the status of your opponent, so if the Amnesia user is Resting, or your opponent predicts its use and sends in a Pokemon with status, Haze may help your opponent more than you. In a pinch though, Haze can save you against a Pokemon with multiple Amnesia boosts. Body Slam may seem weak, but it is Vaporeon's best move to actually damage boosted Amnesia users. It's good for wearing them down, since Vaporeon can take hits from the Amnesia users pretty well.</p>
+
+<p>Dewgong was once famous for being able to shut down Golduck and Submission-less Poliwrath with a Mimic set, as in Netbattle, Mimic was glitched and could only pick a move not already known by the user, thus ensuring that the picked move would always be Amnesia if it had the right set. Since Dewgong was immune to freeze due to being part Ice-type, it had the upper hand in the freeze war. However, with Mimic fixed in Pokemon Online, Dewgong's only selling point is its STAB Blizzard, but its bulk is inferior and it also boasts weaknesses to Fighting and Rock, as well as neutrality to Fire.</p>
+
+<p>Blastoise's main selling point is being able to learn Earthquake, which can 2HKO Electabuzz, and also boasts a slightly higher Speed and Attack stat. However, it is outclassed by Vaporeon in every other regard and not really worth using.</p>
+
+<h3>Electric-types</h3>
+
+<div><img src="/download/sprites/rb/125.png" alt="electabuzz" /><img src="/download/sprites/rb/82.png" alt="magneton" /></div>
+
+<p>In a metagame filled with so many Water-types, it doesn't come as a surprise that Electric-type Pokemon will make an appearance. STAB Thunderbolts can 3HKO the two Amnesia users at +2, and OHKO Kingler. Electric-types have a very hard time dealing with Ground-types though, especially if said Electric-type is not Electabuzz.</p>
+
+<p class="electric">Electabuzz<br />
+- Thunderbolt<br />
+- Psychic<br />
+- Thunder Wave<br />
+- Seismic Toss</p>
+
+<p>Electabuzz is clearly the best Electric-type in UU and probably the most prevalent Pokemon in the whole UU metagame. It's also the fastest relevant Pokemon in UU, and thus, the holder of the highest critical hit rate as well. In addition, Electabuzz is the only Electric-type in the metagame that can bother Graveler and Sandslash, thanks to Psychic, which will 4HKO them, or 3HKO with a critical hit or a timely Special drop. However, prediction is required; you will need to hit Ground-types on the switch in, as they can OHKO Electabuzz back with Earthquake. Psychic is also useful for hitting Venomoth and Weepinbell for super effective damage. However, its main attack is Thunderbolt as it boasts STAB and hits all the Water-types for super effective damage, as well as Charizard. Thunder Wave doesn't really help Electabuzz much, but may let other teammates outspeed certain threats and thus make them less dangerous. Lastly, Seismic Toss is Electabuzz's best option to hit Tangela and opposing Electric-types.</p>
+
+<p class="electric">Magneton<br />
+- Thunderbolt<br />
+- Thunder Wave<br />
+- Thunder<br />
+- Double-Edge</p>
+
+<p>Magneton is bulkier than Electabuzz and boasts a reasonably higher Special stat as well. It can 2HKO Vaporeon with Thunderbolt, and usually OHKOes Golduck and Poliwrath with Thunder. On the other hand, Magneton is slower. It outspeeds Vaporeon, but is slower than Kingler, Poliwrath, and Golduck. Its main disadvantage is, however, the fact that it can't do anything to Graveler and Sandslash, or much to Grass-types either. Its movepool is really small, and the last two moveslots are hardly relevant.</p>
+
+<p>Magneton isn't generally recommended in UU unless you want to double up on Electric-types, but using two Electric-types may not be all that bad of an idea in UU to be honest. If you want to use it, remember that Magneton is a pure Electric-type Pokemon in RBY, as Steel- and Dark-types don't exist until GSC. Electrode is a lot faster, but is really bad in every other regard and shouldn't be used. Its Explosion is too weak and won't do anything to Graveler.</p>
+
+<h3>Ground-types</h3>
+
+<div><img src="/download/sprites/rb/75.png" alt="graveler" /><img src="/download/sprites/rb/28.png" alt="sandslash" /></div>
+
+<p>If Ground-types didn't exist in UU, Electric-types would run rampant most of the time. Every UU team should have a Ground-type to deal with Electric-type Pokemon, or at the very least, Tangela. However, Graveler and Sandslash work better in this regard, as they can actually threaten to OHKO Electabuzz with STAB Earthquake.</p>
+
+<p class="ground">Graveler<br />
+- Earthquake<br />
+- Rock Slide<br />
+- Body Slam<br />
+- Explosion</p>
+
+<p>Despite being NFE, Graveler proves to be very useful in the RBY UU metagame. As said, its main job consists of dealing with Electric-types, thanks to being immune to Electric attacks. However, its HP and Special stats are very low, meaning that Electabuzz's Psychic will do over 30% to it, and around 63% with a critical hit. For this reason, you must be careful when switching Graveler into Electabuzz, and its abysmal Speed doesn't help either. What Graveler does not lack is power though; Earthquake will often OHKO Electabuzz and deal around 35% to Water-type Pokemon (a bit less to Poliwrath). Rock Slide is used mainly for Charizard (OHKOing it), but it's also Graveler's strongest move against Tangela, albeit only hitting it for 25% at most.</p>
+
+<p>Graveler's issues come from dealing with special attacks it is weak to, as even Tangela's Mega Drain has a chance to OHKO Graveler. Thankfully, Graveler has access to a fairly strong Explosion for when it doesn't have much else to do. Just make sure you are not being OHKOed before you are able to move!</p>
+
+<p class="ground">Sandslash<br />
+- Earthquake<br />
+- Rock Slide<br />
+- Hyper Beam<br />
+- Swords Dance</p>
+
+<p>Being mono-Ground-type is both good and bad. Thanks to it, Sandslash can even survive one Surf at full health and beat Venomoth one-on-one. In addition, since its special prowess is a bit higher than Graveler's, it can also deal with Electabuzz slightly better, taking around 26% damage from Psychic. On the other hand, it doesn't resist Normal and Fire attacks and loses STAB on Rock Slide, making it unable to wall Fearow and check Fire-types in a pinch.</p>
+
+<p>As far as the movepool goes, Sandslash trades Explosion for Swords Dance. This is arguably a bad trade, as Sandslash is too slow and weak to common attacks to pull off a Swords Dance sweep effectively. It may work with some paralysis support and if you weaken Water-types first, but paralysis isn't as common in UU as it is in OU anyway. The ability to score surprise kills on common switch-ins with Explosion will occasionally be missed.</p>
+
+<h3>Grass- and Bug-types</h3>
+
+<div><img src="/download/sprites/rb/49.png" alt="venomoth" /><img src="/download/sprites/rb/114.png" alt="tangela" /></div>
+
+<p>These Pokemon are mainly used due to their ability to induce sleep with accurate moves. They run Stun Spore as well to act as double powder users, being the most common paralysis spreaders in the tier. Tangela makes a great Ground-type check and a decent check to Kingler, while Venomoth enjoys a high Speed stat. All in all, Sleep Powder (or Spore) is the main reason Grass- and Bug-type Pokemon are used.</p>
+
+<p class="poison">Venomoth<br />
+- Sleep Powder<br />
+- Stun Spore<br />
+- Psychic<br />
+- Mega Drain</p>
+
+<p>Venomoth is the fastest sleeper in UU, and thus commonly used as a lead. Once it has put something to sleep, Venomoth generally attempts to paralyze something else with Stun Spore. Its attacking moves lack STAB and are fairly weak though, but at least Psychic enjoys good neutral coverage in UU, hitting Poliwrath and Venomoth for super effective damage. Venomoth's high critical rate could even let it get past a boosted Poliwrath in a pinch. Although Venomoth 3HKOes opposing Venomoth at worst with Psychic, it's generally recommended to go for Sleep Powder if you find yourself in a lead mirror match, or your Venomoth will likely end up being put to sleep. Mega Drain 2HKOes Graveler, and that's really about it. Psywave is another option, but both moves are pretty bad anyway. There is also SolarBeam…</p>
+
+<p class="poison">Tangela<br />
+- Sleep Powder<br />
+- Stun Spore<br />
+- Growth / Bind<br />
+- Mega Drain</p>
+
+<p>Tangela is the most common alternative to Venomoth for the sleep inducing niche. It's slow, meaning that faster sleepers will be able to get the sleep attack off first and that it is easy to finish off with a Blizzard user, but Tangela's physical bulk and Ground and Electric resistances will often come in handy. It can serve as a check to Ground-types and Electabuzz (threatening the latter with Stun Spore), and can also switch into Kingler when healthy. Tangela doesn't get Psychic, but, instead, it gains STAB on Mega Drain and learns Growth. Growth will rarely work though, since Amnesia users and Vaporeon will outpace it, and the occasional Fire-type or Venomoth will shut Tangela down completely. Tangela may also be able to use Bind to decent success if partial trapping moves are allowed, but keep in mind that Bind's accuracy is only 75% and Tangela's Attack stat is very low. Growth + Rest might work, but don't expect much from Rest in this tier outside of some specific scenarios. Don't even bother about Swords Dance…</p>
+
+<p>Other possible Pokemon that fall under this category are Weepinbell and Parasect. The former is the only Grass-type in UU able to learn Razor Leaf, and given the dominance of Amnesia-using Water-types in this metagame, a Grass-type move that almost always scores a critical hit will often turn out useful. Weepinbell has no business switching into fresh Amnesia users due to their Blizzard though, but if you can force them to use Rest with another Pokemon, Weepinbell will be able to 2HKO them. Weepinbell is also able to learn Wrap, and could be able utilize it to decent success as long as it is not banned. All in all, Weepinbell is very slow with below-average stats, so Razor Leaf is about the only thing going for it. Parasect, on the other hand, is better known for being the only Pokemon capable of learning Spore, the 100% accurate sleep move. Its Slash is fairly strong, but only when it critical hits. It's generally better to stick to any of the other options for the Grass- or Bug-type sleeper on your team though.</p>
+
+<h3>Powerful sweepers</h3>
+
+<div><img src="/download/sprites/rb/99.png" alt="kingler" /><img src="/download/sprites/rb/20.png" alt="raticate" /></div>
+
+<p>In a specially-oriented metagame, these Pokemon fulfill the role of a physically-oriented attacker. They are good for netting revenge kills against slow Pokemon and can hit Amnesia users hard in a pinch or when they are sleeping. Their sweeping capabilities shouldn't be underestimated either; Raticate and Kingler in particular are two of the most feared Pokemon in UU.</p>
+
+<p class="sweep">Kingler<br />
+- Swords Dance<br />
+- Body Slam<br />
+- Crabhammer<br />
+- Hyper Beam</p>
+
+<p>Kingler may very well be the most dangerous Pokemon in RBY UU, as it has no safe counters. Only Tangela, Electabuzz, and Magneton, at full health, are able to switch into Kingler, and Electabuzz is susceptible to Body Slam's paralysis. After a single Swords Dance, Kingler reaches an Attack stat of 716, becoming capable of 2HKOing everything in the game with a combination of Body Slam and Hyper Beam; in fact, a +2 Hyper Beam alone will OHKO Electabuzz and Raticate. While it does have very low Special and HP stats, Water- and Ice-type resistances let Kingler take hits from Water-type Pokemon reasonably well. While its Speed stat isn't stellar, Kingler is fast enough to outspeed Vaporeon and Poliwrath among others, gaining the upper hand against these two one-on-one. Despite being slower, Kingler doesn't do bad against Golduck either.</p>
+
+<p>Crabhammer's stellar mechanics make up for Kingler's awful Special stat. Its main use consists of dealing with Ground-types, as Crabhammer OHKOes Graveler and Sandslash. Crabhammer does have other upsides too; it does over 80% damage to Fire-types, 2HKOes Raticate, and puts Electabuzz and Venomoth in the KO range of Hyper Beam.</p>
+
+<p>Another interesting Swords Dance user could be Pinsir. It's slightly faster than Kingler, being able to outspeed Golduck. Unlike Kingler, Pinsir isn't OHKOed by STAB Thunderbolts, and, other than status, Tangela can't do anything to it. The main reason Pinsir is overshadowed by Kingler is the fact that it doesn't resist Water-type attacks, being 2HKOed by Vaporeon's Surf and Kingler's Crabhammer. Not only that, Pinsir also has to rely on the unreliable Submission to deal with Graveler, who can 2HKO back with Rock Slide, and is OHKOed by Fire-types' Fire Blast. While Pinsir can learn Bind and boasts a very high Attack stat and a decent Speed stat to utilize it, Bind's accuracy makes this strategy fairly unreliable, and using this move would mean dropping Body Slam.</p>
+
+<p class="sweep">Raticate<br />
+- Super Fang<br />
+- Body Slam<br />
+- Hyper Beam<br />
+- Blizzard</p>
+
+<p>You may be thinking: why Raticate? Easy. Because of Super Fang. Coupled with a very good Speed stat, Super Fang Raticate can be deadly in UU. Believe it or not, Raticate would've been decent in UU even without it, but nonetheless, Super Fang is what makes it legitimately belong to the "best of the UU metagame" section. Being able to do damage equal to half of the opposing Pokemon's HP before it can attack is wonderful in a metagame that lacks Recover users and is filled with many bulky Pokemon that can set up.</p>
+
+<p>In addition, Raticate can back up Super Fang with STAB Body Slam and Hyper Beam coming off an average 260 Speed stat. Hyper Beam is great for finishing off weakened stuff, and against many Pokemon, such as Golduck, Venomoth, and Electabuzz, it can follow Super Fang for a 2HKO. Blizzard is mainly there for Graveler, but also helps against Tangela and Sandslash. Both Blizzard and BubbleBeam will 2HKO Graveler, but Blizzard has more upsides. All in all, Raticate may not be able to survive for a long time due to its poor bulk and lack of resistances, but it's almost guaranteed to take a Pokemon down with it.</p>
+
+<p>As mixed sweepers, Fire-types would also fit in this category. They will be detailed in the next section. Same for Machamp.</p>
+
+<p>Another Pokemon that deserves a mention is Fearow. It's very fast, being only outsped by Electabuzz. It hits very hard; its Hyper Beam is probably the strongest move in UU, and it can hit Poliwrath and Grass- and Bug-types for super effective damage with STAB Drill Peck. However, its main downfall is the fact that Graveler, which is already commonly used to deal with Electabuzz, completely walls it, and weaknesses to the common Electric- and Ice-types moves undermine its usefulness. Fearow is still great for finishing off weakened Pokemon though, and it's probably, along with Charizard, the best Pokemon out of those that haven't been pictured in this section.</p>
+
+<h2><a name="bad">Good on paper, but mediocre in practice</a></h2>
+
+<p>To clarify, the Pokemon that you will see pictured and detailed in this section are not necessarily bad or inviable in UU. They belong here because they may look better in theory than in practice, or because they are sometimes given more credit than deserved.</p>
+
+<h3>Fire-types</h3>
+
+<div><img src="/download/sprites/rb/6.png" alt="charizard" /><img src="/download/sprites/rb/59.png" alt="arcanine" /><img src="http://www.smogon.com/download/sprites/rb/38.png" alt="ninetales" /></div>
+
+<p>Now that you have read most of this article, you should already be able to guess what the main reason is as to why Fire-types aren't more dominant: Water-type Pokemon. Golduck and Poliwrath take less than 25% from STAB Fire Blast or Body Slam, and Vaporeon less than 20%, although Charizard's Slash will hit them a bit harder. In addition, Graveler also resists their attacks and can deal loads of damage with Earthquake or Rock Slide, which will OHKO Charizard. Moreover, Charizard, which is the best Fire-type in UU, takes super effective damage from Thunderbolt. Put all this together and the result is that Fire-types will have a lot of issues dealing with around four Pokemon of the opponent's team, sometimes even five.</p>
+
+<p>Having said that, Fire-types shouldn't be underestimated either. They are arguably the best Pokemon in the UU metagame when it comes to fighting Grass- and Bug–types&mdash;although they don't like paralysis, they don't fear anything else from them and can scare them out with a super effective Fire Blast. Fire-types are all quite fast, especially Charizard, which is only outsped by Electabuzz. In addition, although they are not the best at it, Fire-types may prove useful to finish off weakened Pokemon, even Water-types, with a powerful STAB Fire Blast or a decently powered Hyper Beam. Except for Arcanine, all the Fire-types also learn Fire Spin. While it is resisted by all the Water-types and has an accuracy of 75%, it may work decently due to STAB and Fire-types' good Speed stat. With access to Swords Dance in addition to Slash and Earthquake, Charizard is by far the most versatile and dangerous Fire-type in UU, and the first you should always consider despite its added weaknesses.</p>
+
+<h3>Porygon</h3>
+
+<div><img src="/download/sprites/rb/137.png" alt="porygon" /></div>
+
+<p>Porygon is the only non-OU Pokemon that gets Recover, and while that sure bumps up Porygon's usefulness, it's still a mediocre Pokemon in UU. Porygon is the slowest Pokemon in the tier after Graveler, and its stats are all below average, so it is easy to revenge kill. It takes around 40% from any STAB-boosted attack, meaning that Porygon will have a very hard time switching into a damaging move, and that it will be forced to use Recover pretty much every turn. If Porygon gets paralyzed, it will eventually go down to an untimely full paralysis.</p>
+
+<p>Porygon does have a pretty good movepool though. It gets Thunder Wave, as well as Thunderbolt and Blizzard, so it is able to hit most Pokemon for super effective damage. Thunder Wave is useful given Porygon's awful Speed, but its special attacks won't do much unless the opponent is weak to it and has a medium-low special bulk. Despite their weakness to Thunderbolt, Amnesia users can take Thunderbolts with relative ease after a boost, and OHKO Porygon after two boosts. Porygon is that kind of Pokemon that, while not having a glaring weakness to any Pokemon, doesn't have very good match-ups either.</p>
+
+<h3>Machamp</h3>
+
+<div><img src="/download/sprites/rb/68.png" alt="machamp" /></div>
+
+<p>Boasting an Attack stat that excels even in OU, it seems like UU could be the perfect metagame for Machamp to shine, especially with Psychic-types out of the way. However, even in UU, Machamp remains a very unreliable Pokemon, the main reasons being its unreliable STAB attack, low Speed, and subpar Special. With a lot of STAB Surfs and Thunderbolts running around in UU, as well as unSTABed Psychics, Machamp is not going to stick around for very long. Even when Machamp gets to kill something, it's usually not very difficult to revenge kill it with a faster attacker.</p>
+
+<p>Machamp does still have some things going for it though. Nothing will like to switch into a STAB Submission coming off an Attack stat of 358, and with its coverage moves, Machamp can hit Electabuzz, Raticate, Venomoth, and Fire-types for super effective damage, including an OHKO on Charizard with Rock Slide. All in all though, everything makes up for a mediocre combination.</p>
+
+<h3>Rock- and Water-types</h3>
+
+<div><img src="/download/sprites/rb/139.png" alt="omastar" /><img src="/download/sprites/rb/141.png" alt="kabutops" /></div>
+
+<p>Water / Rock is not a very good type combination in the RBY UU metagame, and a pretty bad one if the Pokemon that holds it doesn't get Rock Slide. Offensively, there is no reward, since both Kabutops and Omastar don't learn a single Rock-type attack. The secondary Rock typing give these two Pokemon Water-type neutrality, an Earthquake weakness, and a 4x Grass weakness. The reward? A quadruple resistance to Fire-type attacks and resistance to Normal-type attacks. In practice, this implies that they can wall Fearow, and deal with Fire-types even better, but it's not that these roles are very necessary anyway. In return for these benefits they are setup bait for Amnesia users, weak to Graveler's and Sandslash's Earthquake, and 2HKOed by Tangela's Mega Drain, which just doesn't cut it. They would've been great UU Pokemon had it not been for their dual Rock-type, but as it stands, Omastar and Kabutops are outclassed by Vaporeon and Kingler respectively in almost every regard.</p>
+
+<h3><a name="trap">Partial trapping moves' impact on the UU metagame</a></h3>
+
+<div><img src="/download/sprites/rb/24.png" alt="arbok" /><img src="/download/sprites/rb/148.png" alt="dragonair" /><img src="/download/sprites/rb/70.png" alt="weepinbell" /></div>
+
+<p>Given that RBY UU was brought up again by the RBY2K10 community around two years ago, UU was always played with the moves Wrap, Fire Spin, Bind, and Clamp banned. These four moves were initially banned because they were deemed broken as a result of <a href="/rb/moves/wrap">their different mechanics in the first generation</a>. However, when the Pokemon Online simulator implemented the first generation, partial trapping moves got unbanned and are now allowed in UU. Before that, lots of arguments were made about whether these moves should be officially allowed or banned in RBY on the simulator, but all of these arguments were made with only OU in mind. In fact, a discussion regarding Dratini's status in RBY Little Cup has recently been brought up on the Pokemon Online forums. Nothing in UU seems to be as broken as Dratini in LC though, but still, the new threats that appeared in the RBY UU metagame as a consequence of the unban of partial trapping moves are unexplored for the most part.</p>
+
+<p>Dragonair's impact in UU can be compared to Dragonite's in OU. After an Agility, Dragonair can outspeed everything in the game, making the opposition unable to move until Wrap misses. While Dragonair's Attack stat is lower than Dragonite's, the average physical prowess of the Pokemon you will be facing is lower than in OU, so expect to do about the same damage. Although Dragonair is not 4x weak to Ice-type attacks, it's still 2HKOed by them. Also worth noting is that there is no Ghost-type in UU, so it doesn't have any surefire check. Dragonair can also be usable even with Wrap banned, thanks to Thunder Wave and the BoltBeam combination, but its Wrap is what puts it at the top of the list in the UU metagame.</p>
+
+<p>Another interesting Pokemon that gets Wrap is Arbok. It doesn't get Agility, but learns Glare and is already fast&mdash;faster than Dragonair&mdash;sitting between Kingler and Golduck. It doesn't get Blizzard or Thunderbolt, but learns Mega Drain and Earthquake to hit Graveler and Electric-types for super effective damage. Arbok is another Pokemon to be reckoned with in a Wrap-allowed metagame if you can paralyze the few Pokemon faster than it.</p>
+
+<p>Wrap can also be found in Weepinbell's movepool. Weepinbell is already usable without Wrap thanks to double powder and Razor Leaf, but Wrap further increases its usefulness. While Weepinbell is slow, it can paralyze opponents with Stun Spore and has access to Razor Leaf to deal with Ground- and Rock-types and finish off Water-types even at very high health.</p>
+
+<p>Other Pokemon that learn partial trapping moves in the UU metagame are Fire-types, which get STAB Fire Spin, and Tangela, which gets Bind. However, Fire Spin and Bind aren't as accurate, Fire Spin is resisted by many Pokemon, and Tangela's Attack stat is very low.</p>

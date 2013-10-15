@@ -1,0 +1,563 @@
+[title]
+An Analysis on Magic Stat Numbers
+[head]
+<meta name="description" content="A resource to help battlers understand the many magic numbers that define the game." />
+[page]
+<div class="author">Written by an unknown author, rewritten by <a href="/forums/member.php?u=1923">darkie</a> and <a href="/forums/member.php?u=19177">matty</a>.</div>
+<ol class="toc">
+<li><a href="#intro">Introduction</a></li>
+<li><a href="#hp">HP</a></li>
+<ul>
+<li><a href="#hpgen">General rules for HP</a></li> 
+</ul>
+<li><a href="#speed">Speed</a></li>
+<ul>
+<li><a href="#speboost">Speed boosting</a></li> 
+<li><a href="#otherspe">Other</a></li> 
+</ul>
+<li><a href="#attack">Attack</a></li>
+<li><a href="#spattack">Special Attack</a></li>
+</ol>
+<h2><a name="intro">Introduction</a></h2>
+<p>
+Numbers define Pokémon. Speed, Attack, Defense, and accuracy, along with many others, are just a few of the numbers that affect every match played. This guide has been created as a resource to help battlers understand the many magic numbers that define the game and also to give shortcuts in order to efficiently build teams and spread EVs. Using this guide in tandem with other resources including damage calculators and the Smogon analyses will help the player to become a stronger team builder with a broader knowledge of how to make the most out of his or her Pokémon.
+</p>
+<h2><a name="hp">HP</a></h2>
+<h3><a name="hpgen">General rules for HP:</a></h3>
+<p>
+HP divisible by 16 is always handy, but HP divisible by 16 + 1 is better in nearly all situations, as you can take 4 layers of 3 Spikes or take 8 rounds of Leech Seed or poison and have 1 HP left. It's way too circumstantial to ever help though, as you will probably always end up taking some other damage. Regardless, on nearly all Pokémon, maxing HP will yield more overall defense than settling for an HP divisible by 16.
+</p>
+<p>
+When using Substitute, it's important to note if your HP is divisible by four or not. If you have Reversal or Flail in the same set, be sure to have your HP indivisible, so you can Sub 4 times and end up with 1, 2, or 3 HP. It doesn't matter which, it will always be 200 Base Power when you do this.
+</p>
+<p>
+If you are using Substitute without Reversal / Flail, you are free to do divisible or indivisible by four. However, if you're going to use Substitute until you get a Berry boost (Salac, Petaya, Liechi), you might want to use divisible. You will only need to use Substitute 3 times to activate the Berry. When you run into something you can't kill, but you want to keep this Pokémon alive, you can switch it. It might be able to eat one more hit before dying, and there's still the possibility of healing it with Wish support.
+</p>
+<p>
+If you make your HP indivisible, you can use Substitute 4 times (more if you have Leftovers). This can be handy when you're banking on full paralysis or a miss of a less than 100% accurate move like Meteor Mash or Fire Blast. Whichever you use is up to preference.
+</p>
+<p>
+Ideally, you will want your HP to be about 110-120% of your defenses. If HP and your defense differ a lot, like in the case of Blissey or Dusclops (the former having about infinite HP and about the lowest Defense in the game, the latter having an utterly crappy HP but both defenses well coming close to the focused ones of the likes of Skarmory, Articuno, and Blissey), you will want to totally max out the low one to bring the two stats as close together as possible. The closer they are, the less % damage you take. Pokémon battling is not about bringing your opponent to a certain point of HP other than zero - 100 damage is relative per Pokémon, but 100% damage isn't. Always calculate hits in percentages. Anyway, some remotely respectable HPs that are Max HP/16. If you like that +1, go ahead and add one. After that, the number of HP gained by Leftovers,
+</p>
+<ul>
+<li>304 - 19</li>
+<li>320 - 20</li>
+<li>336 - 21*</li>
+<li>352 - 22</li>
+<li>368 - 23</li>
+<li>384 - 24</li>
+<li>400 - 25**</li>
+<li>416 - 26</li>
+<li>432 - 27</li>
+<li>448 - 28</li>
+<li>464 - 29</li>
+</ul>
+ 
+<ul>
+<li>
+*338 lives through 4 Seismic Tosses / Night Shades with Leftovers, so you will probably want to add those 8 EVs when using 336.
+</li>
+<li>
+**401 HP - Survives 5 Seismic Tosses / Night Shades with Leftovers, 4 without.
+</li>
+<li>
+**404 HP - Allows to create 101 HP Substitutes, which live through Seismic Toss / Night Shade without breaking.
+</li>
+</ul>
+<h2><a name="speed">Speed</a></h2>
+<h3><a name="speboost">Speed boosting</a></h3>
+<p>
+Some Pokémon boost their Speeds with moves or items. You'd think they wouldn't need too many EVs, but you might want to reach the following numbers to outspeed as much as possible, but still have some EVs left in other stats.
+</p>
+<dl>
+<dt>198</dt> 
+<dd>Outspeeds the 130 base Pokémon (Jolteon, Aerodactyl) after two Dragon Dances / Speed Boosts or one Agility, or Chlorophyll/Swift Swim, basically two levels up. This is where Agility Metagross should be, or a little above.</dd>
+<dt>200</dt> 
+<dd>Outspeeds the 100 base Pokémon with a neutral nature (Modest Shaymin and Adamant Staraptor) after one speed boost (Speed Boost, Dragon Dance, Salac Berry). Dragon Dance Tyranitar is the best example of the 200 Speed Pokémon.</dd>
+<dt>220</dt> 
+<dd>Outspeeds all 100 base Pokémon (Shaymin) after one speed boost.</dd>
+<dt>242</dt> 
+<dd>Outspeeds all 115 base Pokémon (Timid Raikou, Starmie) after one speed boost.</dd>
+<dt>250</dt> 
+<dd>Outspeeds all 120 base Pokémon (Timid Alakazam, Sceptile, Jolly Dugtrio) after one speed boost.</dd>
+<dt>264</dt> 
+<dd>Outspeeds Reversal/Flail Pokémon should have, or anything with Salac Berry. Some people like putting Gyarados here too.</dd>
+</dl>
+<h3><a name="otherspe">Other</a></h3>
+<p>
+I listed some you might not think of right away - you can easily look up the easy outspeedings on stuff like Raikou and Alakazam.
+</p>
+<dl>
+<dt>142</dt>
+<dd>Outspeeds negative Speed natured Swampert, handy if you have some spare EVs on slow Pokémon like Skarmory and Rhyperior.</dd>
+<dt>263</dt> 
+<dd>Outspeeds the 70 base group (max Speed Magneton and Breloom).</dd>
+<dt>395</dt> 
+<dd>The speediest you'll ever need in the normal metagame, beats 130 base group to it.</dd>
+</dl>
+<p>
+Then there are some Pokémon that are in certain "groups" of speed - it's not a standard at which speed they are, they usually try to beat the maximums of others, or just plain gamble how many they will need. These are the Pokémon that are not exceptionally fast to max Speed for, just slow enough to be satisfied to use 4-8 EVs to beat others to it.
+</p>
+<h4>Group 1: 140-165</h4> 
+<p>This one is centered around Weezing.</p>
+<dl>
+<dt>Tyranitar</dt> 
+<dd>Boah variants have about 160 usually.</dd>
+<dt>Rhyperior</dt> 
+<dd>SubPerior and sometimes CB Rhyperior tries to get about 160 to beat Weezing.</dd>
+<dt>Weezing</dt> 
+<dd>Minimal is 156, most won't go over 170 (which is already a lot).</dd>
+</dl>
+<h4>Group 2: 198-250</h4>
+<dl>
+<dt> Gyarados</dt> 
+<dd>From superslow tankish 198 Gyarados to 220ish Gyarados, sometimes even topping 264 to beat Aerodactyl and Jolteon after a Dragon Dance.</dd>
+<dt>Magneton</dt> 
+<dd>Some people even put 262 on this as the absolute max, some satisfy with 240 (still Timid) to beat Modest Magneton, others try about 208 or 210 to beat all these Agility Metagross and Chlorophyll/Swift Swim Pokémon that circle around 200.</dd>
+<dt>Metagross</dt>
+<dd>AgiliGross usually has between 198 and 205 Speed.</dd>
+<dt>Tyranitar</dt> 
+<dd>Some people are Adamant and go 220 Speed, I prefer keeping it in Metagross's area as it beats everything after 2 Dragon Dances anyway, but it's totally up to preference.</dd>
+<dt>Kingdra</dt> 
+<dd>Not used much, still too much. No speed Kingdra hangs at 206.</dd>
+<dt>Suicune</dt> 
+<dd>Minimum is 206, I'd say you're not going to encounter more than 220 Speed for normal tankish Suicunes.</dd>
+<dt>Breloom</dt> 
+<dd>Slow Brelooms (from around 210) to around 239 (max Adamant) to ultimate max (262, max Jolly).</dd>
+</dl>
+<h4>Group 3: 263-299</h4>
+<dl>
+<dt>Gyarados
+<dd> Said before, these are the fast Gyarados, that go for 264 at least to beat Jolteon and low HP Aerodactyl after a Dragon Dance.
+<dt>Heracross</dt> 
+<dd>Sometimes it's really slow, usually 264 Speed minimally (Reversal sets), 285 (Jolly Medicham), or 295 (max Jolly).</dd>
+</dl>
+<p>
+Now that I've had the easier stats, these are the more complicated ones. I'll only do the attacking stats and some well-known scenario's, working them out, including Leftovers, randomizers, and critical hits. Note that all of these are going off 100% healthy Pokémon, and that there's always a chance your opponent has other EVs that totally negate my calculations.
+</p>
+<p>
+These are seen from a standard, all-out perspective.
+</p>
+<h2><a name="attack">Attack</a><h2>
+<h4>Focus Punch on Blissey</h4>
+<p>
+We'll assume Blissey has max HP/Defense (though I usually satisfy with 697 HP). Many special attackers, such as Gengar, try to let Blissey not hinder them in their runs when special sweeping by using Focus Punch. Rumors say between 186 until even 220, but let's see how much Attack they really need.
+</p>
+<dl>
+<dt>186</dt>
+<dd>does 47% average.</dd>
+<dt>198</dt> 
+<dd>does 50% average, so this means a critical hit will KO Blissey 50% of the time.</dd>
+<dt>214</dt>
+<dd>does 54% average, so on average you will 2HKO Blissey, even with Leftovers recovery.</dd>
+<dt>215 </dt>
+<dd>does 50% minimally, so a critical hit will always kill Blissey.</dd>
+<dt>233 </dt>
+<dd>does 54% minimally and allows for a guaranteed 2HKO on Blissey.</dd>
+</dl>
+<p>
+Don't even try to try to OHKO Blissey without some sort of boost.
+</p>
+<dl>
+<dt>367</dt>
+<dd>1/38 chance at the OHKO.</dd>
+<dt>397</dt>
+<dd>50/50 chance - average or more will kill it.</dd>
+<dt>432</dt>
+<dd>a guaranteed OHKO.</dd>
+<dt>288</dt>
+<dd>an OHKO, provided you have Choice Band, STAB on Focus Punch, or some other one-level Attack boost.</dd>
+</dl>
+<h4>Explosion on Blissey</h4>
+<p>
+Here I calculated with the solid 500 Base Power without the halving Defense or halving Attack and dividing Defense by four, which should not matter either way.
+</p>
+<dl>
+<dt>239</dt>
+<dd>a 50/50 chance at OHKOing.</dd>
+<dt>260</dt>
+<dd>a guaranteed OHKO.</dd>
+<dt>173</dt> 
+<dd>with Choice Band or some other 1-level boost OHKOs Blissey with Explosion as well.</dd>
+</dl>
+<h4>Snorlax on Raikou</h4>
+<p>
+How much Attack Snorlax would need to kill Raikou with it's attacking moves: Body Slam, Earthquake, and Return, assuming Raikou has 354 HP (probably the highest you'll ever encounter)?
+</p>
+<p>
+Bad news for the Body Slam/Shadow Ball Snorlaxen:
+</p>
+<dl>
+<dt>662</dt>
+<dd>a 50% chance on OHKOing.</dd>
+<dt>719</dt>
+<dd>a guaranteed KO.</dd>
+</dl>
+<p>
+So you're going to have to Curse 3 times, in case of a low Attack Snorlax even 4 times, to OHKO it.
+</p>
+<p>
+For a Return Snorlax:
+</p>
+<dl>
+<dt>552</dt> 
+<dd>a 50% chance of OHKOing.</dd>
+<dt>600</dt> 
+<dd>is a guaranteed KO.</dd>
+</dl>
+<p>
+So if you run 300 Attack, Curse twice and you're in the money.
+</p>
+<p>
+If you use Earthquake:
+</p>
+<dl>
+<dt>421</dt> 
+<dd>a 50% chance of OHKOing.</dd>
+<dt>457</dt> 
+<dd>is a guaranteed KO.</dd>
+</dl>
+<p>
+If you have a Earthquake Snorlax, you might want to use 305 Attack, so you OHKO every Raikou with Earthquake after one Curse.
+</p>
+<p>
+Note how most Raikou will have lower HP, probably 321, 322, 336, etc, but when you use these you WILL beat a lot of them. Both Raikou and Snorlax are varied in EVs, some more defensive than others, but now you finally know what numbers you need and what numbers look nice.
+</p>
+<h4>Focus Punch on Snorlax</h4>
+<p>
+This is probably one of the harder ones, because Snorlax has a lot of different EV spreads, all can be equally effective. I have seen variants having 500 HP and 210 Defense, but old standards say 200 Defense and 480 HP can be enough to suit your needs. I have even seen someone use absolute max Defense. Not to mention that most Snorlax have Curse, so 2HKOing it is very difficult. I will assume 500 HP and 200 Defense, if you happen to encounter a higher-Defense one: you're screwed, sorry.
+</p>
+<dl>
+<dt>231 Attack</dt> 
+does 50% to Snorlax, guaranteed. This means you will KO it with a critical hit, despite how many Curses (critical hits ignore defensive boosts), and that if Snorlax has no Curses and no Leftovers, you will KO it in two hits (again, use Thief/Trick/Knock Off, people). In the meanwhile, 231 is a nice number because you will do 54% on average (so does 230, though), for the 2HKO with Leftovers.</dd>
+<dt>250 Attack</dt> 
+does 54% minimally, so if you happen to switch in this Focus Puncher on a Resting Snorlax without Curses, it should kill it in theory if it stays in.</dd>
+</dl>
+<p>
+Like with Blissey, OHKOing it comes close to impossible. With 394 Attack, you have a 1/38 chance to do it.
+</p>
+<dl>
+<dt>427</dt>
+<dd>will KO Snorlax 50% of the time.</dd>
+<dt>464</dt> 
+<dd>is a guaranteed OHKO.</dd>
+</dl>
+<p>
+Of course, no Pokémon other than Slaking and Deoxys-F even come close to this, so you'll need at least one attack boost, for example via Baton Passing or using Swords Dance, Sharpen, etc, using Choice Band, or just getting STAB.
+</p>
+<dl>
+<dt>263</dt>
+<dd>OHKO with max damage and one Attack boost</dd>
+<dt>285</dt>
+<dd>OHKO 50% of the time with one Attack boost</dd>
+<dt>310</dt>
+<dd>OHKO all the time with one Attack boost</dd>
+</dl>
+<h4>Focus Punch on Tyranitar</h4>
+<p>
+If you're going to kill Blissey with Focus Punch, will you kill Tyranitar as well? There are two versions of Tyranitar. The Dragon Dancers have 404 HP if they have Substitute, and so does Tyraniboah (the Crunch/Thunderbolt/Substitute/Focus Punch Tyranitar you see messing up stall teams). Dragon Dancers with Taunt usually have lower, so we can safely assume that no Tyranitar is going to have more than 404 HP and 256 Defense. Plus, Tyranitar doesn't have a move like Softboiled, so it's not as big of a disturbance if it has more Defense than for example if you are using a 6 Calm Minded Raikou that fails to 2HKO a Blissey because one raised its SpDef to 350, or something.
+</p>
+<p>
+Tyranitar is utterly vulnerable, more than you might think for a Pokémon with 110 base Defense. 
+</p>
+<dl>
+<dt>202</dt>
+<dd>gives you a 1/38 chance on an OHKO.</dd>
+<dt>220</dt>
+<dd>gives you a 50% chance to OHKO.</dd>
+<dt>238</dt>
+<dd>gives you a guaranteed OHKO on this 404/256 Tyranitar.</dd>
+</dl>
+<p>
+So if you're using a Focus Puncher in this range, be sure to consider the numbers from Blissey, Snorlax, and Tyranitar, and find out which one works out for you!
+</p>
+<h4>Earthquake on Metagross</h4>
+<p>One of the most durable Pokémon out there with a respectable Attack stat, a common way to get rid of it is abusing its weakness to Earthquake. Still, it rarely KOs it one hit, and sometimes it even survives two. How much do you need?</p>
+<p>
+Whether you're Choice Banded, Agilitied, or none of these, most Metagross have 200 Speed, more or less. Most have maximum Attack as well, leaving us with approx 341 HP (that's what you get with 200 Speed). I've seen more or less durable versions, and some people put 16 Def EVs for a rounded 300 Defense (though one of the things this guide proves is that round numbers don't really help). For these Leftovers whores out there, I will assume 353 HP and 296 Defense.
+</p>
+<p>
+First off, we'll go off totally un-boosted Earthquakes - no Choice Band, no STAB.
+</p>
+<dl>
+<dt>356 Attack</dt>
+<dd>gets a reliable 2HKO - 50% of the time you will do 54% damage or more on it.</dd>
+<dt>360 Attack</dt>
+<dd>is going to 2HKO non-Leftovers Metagross guaranteed, or will OHKO with a critical hit.</dd>
+<dt>390 Attack</dt>
+<dd>will 2HKO Metagross guaranteed.</dd>
+</dl>
+<p>
+Told you Metagross is an absolute pain to kill. Now, we'll throw STAB in the mix. STAB Earthquake is a big worry for Metagross, as:
+</p>
+<dt>237 Attack</dt>
+<dd>does 54% on average for the 2HKO with Leftovers.</dd>
+<dt>240 Attack</dt>
+<dd>does 50% guaranteed.</dd>
+<dt>260 Attack</dt>
+<dd>does 54% minimally and therefore always 2HKOs Metagross.</dd>
+<p>
+Oh, you want to OHKO the spider? Good luck, as you need 409 effective Attack, AND STAB or Choice Band to even have a shot at it.
+</p>
+<dl>
+<dt>444 Attack</dt> 
+<dd>will OHKO on average.</dd>
+<dt>483 Attack</dt> 
+<dd>will always OHKO.</dd>
+</dl>
+<p>
+Are you a Ground-type with a Choice Band?
+</p>
+<dl>
+<dt>296 Attack</dt> 
+<dd>has a 50% chance of OHKOing.</dd>
+<dt>321 Attack</dt> 
+<dd>is a guaranteed OHKO.</dd>
+</dl>
+<p>
+Keep in mind that moves like Swords Dance, Bulk Up, and Dragon Dance can help you here: one level equals approx a Choice Band or getting STAB. So now you know a little more how to put EVs on Gyarados or, while I think Earthquake on Fighting-types is overrated, it can help an Earthquake Heracross or Machamp. Not that you wouldn't max their Attack, but at least you will know whether you will OHKO it or not.
+</p>
+<h2><a name="spattack">Special Attack</a></h2>
+<h4>Flamethrower / Thunderbolt on Skarmory</h4>
+<p>
+As special attackers want to get across Blissey's fat egg, Skarmory is often in the way on the physical side. Here, we will assume max HP, and no Special Defense EVs for Skarmory, and an unSTABed super effective 95 Base Power attack, be it Flamethrower or Thunderbolt, both used to counter it.
+</p>
+<dl>
+<dt>197</dt> 
+<dd>does 50% average, so a critical hit Thunderbolt / Flamethrower has a 50/50 chance to kill Skarmory.</dd>
+<dt>212</dt> 
+<dd>does 54% average, so two of these will kill Skarmory, even with Leftovers.</dd>
+<dt>214</dt> 
+<dd>does 50% minimally, so a critical hit of this will always do the trick.</dd>
+230</dt> 
+<dd>does 54% minimally, so with two Thunderbolts / Flamethrowers Skarmory, with or without Leftovers, is dead.</dd>
+</dl>
+<p>
+For the record, and for the Pokémon that use Calm Mind / Petaya Berry or something else to boost their Special Attack:
+</p>
+<dl>
+<dt>365</dt> 
+<dd>has a 1/38 chance of OHKOing Skarmory.</dd>
+<dt>395</dt> 
+<dd>has a 50/50 chance of OHKOing (easy to remember because this is what you need to beat Jolteon/Aerodactyl).</dd>
+<dt>431</dt> 
+<dd>has a guaranteed KO.</dd>
+</dl>
+<p>
+When you have STAB, you need:
+</p>
+<dl>
+<dt>263<dt>
+<dd>for average KO.</dd>
+<dt>287<dt>
+<dd>for always-KO.</dd>
+</dl>
+<h4>
+Thunder / Fire Blast on Skarmory
+</h4>
+<p>
+Without STAB
+</p>
+<dl>
+<dt>156 
+<dd>for OHKO with critical hit Fire Blast / Thunder, average.</dd>
+<dt>170 
+<dd>for OHKO with critical hit Fire Blast / Thunder, always.</dd>
+<dt>165</dt> 
+<dd>for average 2HKO with Leftovers.</dd>
+<dt>182</dt> 
+<dd>for guaranteed 2HKO with Leftovers.</dd>
+</dl>
+<p>
+With STAB, no Pokémon is so sad that it cannot KO in two hits, so here are the OHKO rates:
+</p>
+<dl>
+<dt>208</dt> 
+<dd>for average OHKO.</dd>
+<dt>227</dt> 
+<dd>for guaranteed OHKO.</dd>
+</dl>
+<h4>
+Ice Beam on Salamence
+</h4>
+<p>
+Blissey, Water-types, they all want to knock out Salamence as quickly as possible, as they rarely stand two hits from a Dragon Danced or Choice Banded Salamence. We'll play with Dragon Dance Salamence first, assuming it has 264 Speed. Therefore it will have 368 HP - it gets 367 when you max Attack, but people probably want 1 more HP in Leftovers recovery than 1 point extra in Attack. Some people even put another extra point for poison and such (see HP section), I don't prefer all this, but we'll assume 369 so you will really KO as many Salamence as possible.
+</p>
+<dl>
+241</dt>
+SpA gives you an average OHKO.
+263</dt>
+is a guaranteed KO.
+</dl>
+<p>
+If you have STAB, it's a lot easier. Simply said, if you have 175 Special Attack or higher, you will OHKO the standard Dragon Dance Salamence with Ice Beam.
+</[>
+<p>
+For Choice Band Salamence, this guy has 332 HP (one EV, because of max Speed/Att).
+</p>
+<dl>
+<dt>217</dt> 
+<dd>SpA gives you an average OHKO.</dd>
+<dt>236</dt> 
+<dd>is a guaranteed KO.<dd>
+</dl>
+<p>
+STABed Ice Beam needs 158 Special Attack to KO this guy. A piece of cake.
+</p>
+<h4>
+Hidden Power Ice on Salamence
+</h4>
+<p>
+Some Grass-typs, with Chlorophyll (Exeggutor) or without (Celebi) want to take out Salamence out badly so they won't be walled by him - same goes for Heatran, or the Typhlosion that didn't reach his Petaya/Blaze boosts yet to KO him with Fire Blast. Or those Electric-types that do not want to max out their Special Attack but still beat up the dragon.
+</p>
+<p>
+On Choice Band Salamence (334/196 HP/SpDef):
+</p>
+<dl>
+<dt>297 SpA</dt> 
+<dd>gives you an average OHKO.</dd>
+<dt>324 SpA</dt> 
+<dd>gives a guaranteed OHKO.</dd>
+</dl>
+<p>
+On Dragon Dance Salamence (369/196):
+</p>
+<dl>
+<dt>327</dt> 
+<dd>gives you a 50/50 chance to KO.</dd>
+<dt>357</dt> 
+<dd>if you want to always kill it one hit.</dd>
+</dl>
+<h4>
+Thunderbolt on Gyarados
+</h4>
+<p>Like with Snorlax, spreads are variable for Gyarados, as I also stated in the Speed department. I will assume max HP, but minimal Special Defense here - the more offensive (speedy, usually) the Gyarados, the less Special Attack you need. Don't worry - you will always 2HKO Gyarados with Thunderbolt unless you are an exceptionally weak special attacker with lower than 181 SpA. However, this doesn't mean Gyarados is weak - it takes surprisingly much to OHKO this thing.
+</p>
+<dl>
+<dt>31</dt> 
+<dd>will, in 50% of the cases, OHKO.</dd> 
+<dt>338</dt> 
+<dd>OHKOs this Gyarados all the time.</dd> 
+</dl>
+<p>
+This should stand for a minimum of Gengar and an attacking Starmie, for example.
+</p>
+<h4>STAB Flamethrower / Ice Beam / Thunderbolt / Surf on Blissey</h4>
+<p>Pokémon like Raikou and Suicune tend to Calm Mind up to the max and sweep, but sometimes people want it to take hits with 404 HP but also out speed things, and they still want to 2HKO Blissey and Snorlax, of course. Snorlax has Thick Fat sometimes, I might do it later since it's more work and its EVs vary a lot, so I'll start out with Blissey.
+</p>
+<p>
+We'll work with a 714 HP Blissey, with 320 Special Defense (a little more than default). I'll state both the direct Special Attack, and the Special Attack you need to reach that with 6 Calm Minds.
+</p>
+<dl>
+<dt>982 (245)</dt> 
+<dd>will OHKO Blissey with a critical hit 50% of the time.</dd>
+<dt>1067 (267)</dt> 
+<dt>will OHKO Blissey with a critical hit 100% of the time.</dd>
+</dl>
+<p>
+These two can also be used with Knock Off/Thief/Trick support - without Leftovers, 2 hits of 50% damage (which they do 50% and 100% of the time respectively) will take care of Blissey, and so it will need to use Softboiled EVERY turn to avoid being KOed. It will probably be like: "Flamethrower, Seismic Toss, Flamethrower, dead," or "Flamethrower, Softboiled, Flamethrower, Softboiled, etc.,"
+</p>
+<pre>
+1059 (265) will 2HKO Blissey with Leftovers 50% of the time.
+</pre>
+<p>
+This means that you need both of the random integers in the BDF to be "average" (236, in the range of 217-255) or higher to kill Blissey.
+</p>
+<pre>
+1155 (28 will 2HKO Blissey with Leftovers all the time (54% min damage)
+</pre>
+<h4>
+STAB Thunderbolt / Ice Beam / Flamethrower / Surf on Snorlax
+</h4>
+<p>
+One of the staples of RSE play, Snorlax appeared on every other team out there. The preferred method of dealing with it is of course Focus Punch, but perhaps it might be switching in on your Raikou that has already got 2 Calm Minds. In these cases, you can either switch out, or risk Raikou by picking up another Calm Mind and going for the 2HKO. If you choose the latter, then this part is just for you. When calculating special attacks (even while using STAB 95 Base Power attacks) against Snorlax, it is nearly impossible to 2/3HKO it without some other boost. I will show the required special attack needed to reach a particular figure, along with the necessary number of boosts. Here I will assume that the move in question is either not affected by Thick Fat, or that Snorlax simply does not have it. For this example, Snorlax will have 501 HP and 330 SpD, which should be more than what most people use, but just to be on the safe side anyway.
+</p>
+<dl>
+<dt>301 SpAtk</dt>
+<dd>is required to 3HKO the above Snorlax with a 2-stage boost</dd>
+<dt>241 SpAtk</dt>
+<dd>(offensive Suicunes :/) will 3HKO the above Snorlax with a 3-stage attack boost</dd>
+</dl>
+<p>
+Occasionally though, you may find yourself using a special attacking move which has its power cut in half by Snorlax's preferred trait – Thick Fat. In which case, you'll need to have a doubled attack stat (highly unlikely), or perhaps double the amount of Calm Minds. Just to be certain though:
+</p>
+<dl>
+<dt>405 SpAtk</dt>
+<dd>will 3HKO said Snorlax with a 4-stage boost</dd>
+<dt>348 SpAtk</dt>
+<dd>will 3HKO with a 5-stage attack boost</dd>
+<dt>304 SpAtk</dt>
+<dd>will 3HKO Snorlax with maxed out stats.</dd>
+</dl>
+<p>
+Bottom line – consider yourself very, very unfortunate if you find yourself facing a Snorlax and your most powerful move is a STAB Flamethrower / Ice Beam. What this means is that you shouldn't even try to 2HKO Thick Fat Snorlax with a special attack if you're using Flamethrower / Ice Beam. The figures below will revert to the assumptions that Snorlax does not have Thick Fat, or that Thick Fat does not resist the move.
+</p>
+<dl>
+<dt>403 SpAtk</dt>
+<dd>will 2HKO said Snorlax after 2-stage attack boosts</dd>
+<dt>322 SpAtk</dt>
+<dd>will 2HKO after 3-stage attack boosts</dd>
+</dl>
+<p>
+With a fourth Calm Mind, 269 SpA can 2HKO when the above conditions are met.
+</p>
+<p>
+With the appropriate number of Calm Minds as mentioned, the SpA values above are also capable of 2HKOing Snorlax with a single critical hit, which happens quite often than not on the simulators anyway. Or if you're unable to reach those figures for the 2HKO, you could pray for the gods to be nice to you and bet on a 50% chance to 2HKO Snorlax.
+</p>
+<pre>
+371 SpA also has the same potential after 2 Calm Minds
+297 SpA does the same thing as well, but you need a third Calm Mind
+Failing that, 247 SpAtk will tide you over, but it requires 4-stage attack boosts
+</pre>
+<p>
+As with the set of numbers above this set, a critical hit will give you the OHKO, but this only occurs 50% of the time, even if you do succeed in cricital hitting the fat bastard. Finally, we attempt to 2HKO this special sponging monstrosity even while Leftovers is working to restore its health.
+</p>
+<dl>
+<dt>342 SpAtk</dt> 
+<dd>will 2HKO Lefties Snorlax with the aid of 3 Calm Minds</dd>
+<dt>285 SpAtk</dt> 
+<dd>does the same amount of damage after 4 Calm Minds</dd>
+<dt>244 SpAtk</dt> 
+<dd>will 2HKO with 5 CMs</dd>
+</dl>
+<p>
+Reasonable figures, but if you find yourself falling just shy, then perhaps you could look to good old 50% chance to help you 2HKO.
+</p>
+<dl>
+<dt>315 SpAtk</dt> 
+is all you need if you already have 3 Calm Minds under your belt</dd>
+<dt>262</dt> 
+<dd>works fine with a fourth CM</dd>
+<dt>225</dt> 
+<dd>SpAtk needs 5 Calm Minds to 2HKO</dd>
+</dl>
+<h4>Hidden Power Grass on Swampert</h4>
+<p>
+Yet another one of those Pokémon that is extremely durable, and can easily take damage while it's Cursing up to hit you with boosted STAB Earthquake. The most common way of handling it is abusing its 4x Grass weak, and even now it isn't uncommon to find a Pokémon carrying a random Hidden Power Grass to dent Swampert very badly. We'll look at what numbers you need for this endeavor. Swampert has above average Special Defense, and for this example, we will assume that it has max (404) HP, and 300 SpDef to be on the safe side.
+</p>
+<p>
+First, we'll start off with totally unboosted Hidden Power Grass.
+</p>
+<dl>
+<dt>269 SpAtk</dt>
+<dd>will deal enough damage to 2HKO Swampert 50% of the time if you can remove its Leftovers (or with a critical hit)</dd>
+<dt>293 SpAtk</dt>
+<dd>will 2HKO Swampert, again with the condition that Leftovers are removed</dd>
+<dt>287 SpAtk</dt>
+<dd>can 2HKO Leftovers Swampert 50% of the time</dd>
+<dt>313 SpAtk</dt>
+<dd>will 2HKO Swampert guaranteed, Leftovers or not</dd>
+</dl>
+<p>
+With STAB, you need 205 SpAtk to 2HKO Leftovers Swampert guaranteed.
+</p>
+<pre>
+So you will need a Pokémon with somewhat above average Special Attack just to 2HKO Swampert.
+</pre>
+<p>And if you thought those numbers were somewhat high, just wait for these next OHKO requirements. (Don't try to do this without any attack boosts by the way.)
+</p>
+<pre>
+With a 1-stage attack boost (STAB, Calm Mind, etc.) 394 SpAtk will OHKO Swampert</pre>
+<p>
+If that's a little too high, 293 SpAtk will OHKO, but you need 2-stage attack boosts. And if you're a Grass-type that's gotten some other one-stage boost (Overgrow / Growth / Petaya Berry), 259 SpAtk will grant the OHKO on Swampert, so it's obviously foolish to switch Swampert into said Grass-types.
+</p>

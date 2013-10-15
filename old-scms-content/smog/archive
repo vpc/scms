@@ -1,0 +1,865 @@
+[title]
+The Smog Article Index
+[head]
+<link rel="stylesheet" type="text/css" href="/media/page.css" />
+<script type="text/javascript" src="/media/jquery.js"></script>
+<script type="text/javascript" src="/media/jquery.tablesorter.js"></script>
+<meta name="description" content="A compendium of all past The Smog articles." />
+[page]
+<h2>Introduction</h2>
+
+<p>Located below is a sortable table of every <a href="/smog/">The Smog</a> article ever written so that readers can easily find past articles they'd like to read.</p>
+
+<table id="smog_compendium" class="sortable">
+<thead>
+<tr><th>Issue</th><th>Article Name</th><th>First Author</th><th>Additional Authors</th><th>Type</th></tr>
+</thead>
+<tbody>
+<tr><td>1</td><td><a href="/smog/issue1/note_from_the_editor">Note from the Editor </a></td><td>Shiv</td><td>TAY</td><td>General</td></tr>
+<tr class="a"><td>1</td><td><a href="/smog/issue1/featured_pokemon">Featured Pokémon</a></td><td>Blue Kirby</td><td>Havak</td><td>General</td></tr>
+<tr><td>1</td><td><a href="/smog/issue1/featured_rmt">Featured RMT</a></td><td>TAY</td><td>-</td><td>General</td></tr>
+<tr class="a"><td>1</td><td><a href="/smog/issue1/questions_and_answers">Questions &amp; Answers</a></td><td>tennisace</td><td>-</td><td>General</td></tr>
+<tr><td>1</td><td><a href="/smog/issue1/trivia">Polls/Trivia</a></td><td>N/A</td><td>-</td><td>General</td></tr>
+<tr class="a"><td>1</td><td><a href="/smog/issue1/ou_metagame_analysis">OU Metagame Lead Analysis</a></td><td>Legacy Raider</td><td>Imran</td><td>Metagame</td></tr>
+<tr><td>1</td><td><a href="/smog/issue1/new_faces_of_uu">New Faces of UU</a></td><td>Lonelyness</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>1</td><td><a href="/smog/issue1/inverse_metagames">Inverse Metagames</a></td><td>Seven Deadly Sins</td><td>-</td><td>Metagame</td></tr>
+<tr><td>1</td><td><a href="/smog/issue1/project_uber">Project Uber</a></td><td>Theorymon</td><td>-</td><td>Site Projects</td></tr>
+<tr class="a"><td>1</td><td><a href="/smog/issue1/st5">ST5</a></td><td>Twash</td><td>-</td><td>Site Projects</td></tr>
+<tr><td>1</td><td><a href="/smog/issue1/active_tournaments">Active and Recent Tournaments</a></td><td>Kevin Garrett</td><td>-</td><td>Site Projects</td></tr>
+<tr class="a"><td>1</td><td><a href="/smog/issue1/concept_of_lures">Concept of Lures</a></td><td>Aldaron</td><td>Caelum</td><td>Battling Strategy</td></tr>
+<tr><td>1</td><td><a href="/smog/issue1/introduction_to_prediction">Introduction to Prediction</a></td><td>Caelum</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>1</td><td><a href="/smog/issue1/rejected_names">Rejected Names for The Smog</a></td><td>cookie</td><td>-</td><td>Community</td></tr>
+<tr><td>1</td><td><a href="/smog/issue1/interview">Interview with chaos</a></td><td>Jimbo</td><td>Sarenji</td><td>Community</td></tr>
+<tr class="a"><td>1</td><td><a href="/smog/issue1/quantifying_change">Quantifying Change in Damage from Attack/Defensive EVs</a></td><td>X-Act</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>2</td><td><a href="/smog/issue2/note_from_editor2">Note from the Editor</a></td><td>Jimbo</td><td>-</td><td>General</td></tr>
+<tr class="a"><td>2</td><td><a href="/smog/issue2/featured_pokemon2">Featured Pokémon</a></td><td>Blue Kirby</td><td>Havak</td><td>General</td></tr>
+<tr><td>2</td><td><a href="/smog/issue2/trivia2">Polls/Trivia</a></td><td>N/A</td><td>-</td><td>General</td></tr>
+<tr class="a"><td>2</td><td><a href="/smog/issue2/questions2">Q&amp;A</a></td><td>N/A</td><td>-</td><td>General</td></tr>
+<tr><td>2</td><td><a href="/smog/issue2/minimizing_luck2">Minimizing the Effects of Luck</a></td><td>Caelum</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>2</td><td><a href="/smog/issue2/saving_hp2">Saving HP EVs</a></td><td>Jibaku</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>2</td><td><a href="/smog/issue2/appliance_shopping2">Appliance Shopping</a></td><td>Seven Deadly Sins</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>2</td><td><a href="/smog/issue2/cap2">CAP</a></td><td>Stellar</td><td><a href="/smog/issue2/cap2">Collaboration</a></td><td>Site Projects</td></tr>
+<tr><td>2</td><td><a href="/smog/issue2/recent_tournaments2">Active/Recent Tournaments</a></td><td>Kevin Garrett</td><td>-</td><td>Site Projects</td></tr>
+<tr class="a"><td>2</td><td><a href="/smog/issue2/smogon_frontier2">Smogon Frontier</a></td><td>Kevin Garrett</td><td>-</td><td>Site Projects</td></tr>
+<tr><td>2</td><td><a href="/smog/issue2/uber_analysis2">Uber Metagame Analysis</a></td><td>reachzero</td><td>Theorymon</td><td>Metagame</td></tr>
+<tr class="a"><td>2</td><td><a href="/smog/issue2/suspect_analysis2">Suspect Metagame Analysis</a></td><td>Legacy Raider</td><td>-</td><td>Metagame</td></tr>
+<tr><td>2</td><td><a href="/smog/issue2/interview_jumpman2">Interview with Jumpman16</a></td><td>Jimbo</td><td>Sarenji</td><td>Community</td></tr>
+<tr class="a"><td>2</td><td><a href="/smog/issue2/successes_at_vgc2">Successes at VGC</a></td><td>Caelum</td><td>-</td><td>Community</td></tr>
+<tr><td>2</td><td><a href="/smog/issue2/trolling_pokemon2">Pokémon Gamefreak Only Included to Troll Us</a></td><td>Thunda</td><td>Captkirby</td><td>Community</td></tr>
+<tr class="a"><td>2</td><td><a href="/smog/issue2/featured_rmt_ou2">Featured RMT - OU</a></td><td>Twist of Fate</td><td>-</td><td>Recurring Articles</td></tr>
+<tr><td>2</td><td><a href="/smog/issue2/featured_rmt_uber2">Featured RMT - Ubers</a></td><td>august</td><td>-</td><td>Recurring Articles</td></tr>
+<tr class="a"><td>2</td><td><a href="/smog/issue2/featured_rmt_suspect2">Featured RMT - Suspect</a></td><td>Twist of Fate</td><td>-</td><td>Recurring Articles</td></tr>
+<tr><td>2</td><td><a href="/smog/issue2/featured_rmt_uu2">Featured RMT - UU</a></td><td>Twist of Fate</td><td>-</td><td>Recurring Articles</td></tr>
+<tr class="a"><td>2</td><td><a href="/smog/issue2/type_analysis_poison2">Type Analysis - Poison</a></td><td>Seven Deadly Sins</td><td>-</td><td>Recurring Articles</td></tr>
+<tr><td>2</td><td><a href="/smog/issue2/type_analysis_ice2">Type Analysis - Ice</a></td><td>Lonelyness</td><td>-</td><td>Recurring Articles</td></tr>
+<tr class="a"><td>3</td><td><a href="/smog/issue3/note_from_editor">Note from the Editor</a></td><td>Tangerine</td><td>-</td><td>General</td></tr>
+<tr><td>3</td><td><a href="/smog/issue3/trivia">Polls/Trivia</a></td><td>N/A</td><td>-</td><td>General</td></tr>
+<tr class="a"><td>3</td><td><a href="/smog/issue3/questions">Q&amp;A</a></td><td>N/A</td><td>-</td><td>General</td></tr>
+<tr><td>3</td><td><a href="/smog/issue3/using_surprise">Using Surprise in Pokémon</a></td><td>Tangerine</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>3</td><td><a href="/smog/issue3/attacking_types">Attacking Types</a></td><td>X-Act</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>3</td><td><a href="/smog/issue3/cap">CAP Playtesting</a></td><td>Plus</td><td><a href="/smog/issue3/cap">Collaboration</a></td><td>Site Projects</td></tr>
+<tr class="a"><td>3</td><td><a href="/smog/issue3/recent_tournaments">Active/Recent Tournaments</a></td><td>Kevin Garrett</td><td>-</td><td>Site Projects</td></tr>
+<tr><td>3</td><td><a href="/smog/issue3/smogon_frontier">Smogon Frontier Review</a></td><td>Kevin Garrett</td><td>-</td><td>Site Projects</td></tr>
+<tr class="a"><td>3</td><td><a href="/smog/issue3/smogon_tour">Smogon Tour Review</a></td><td>twash</td><td>-</td><td>Site Projects</td></tr>
+<tr><td>3</td><td><a href="/smog/issue3/uu_analysis">UU Metagame Analysis</a></td><td>Legacy Raider</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>3</td><td><a href="/smog/issue3/interview_doug">Interview with DougJustDoug</a></td><td>Jimbo</td><td><a href="/smog/issue3/interview_doug">Collaboration</a></td><td>Community</td></tr>
+<tr><td>3</td><td><a href="/smog/issue3/dp_disappointments">Top Six Disappointments of DP</a></td><td>JabbaTheGriffin</td><td>-</td><td>Community</td></tr>
+<tr class="a"><td>3</td><td><a href="/smog/issue3/featured_pokemon">Featured Pokémon: Scizor</a></td><td>Seven Deadly Sins</td><td>-</td><td>Recurring Articles</td></tr>
+<tr><td>3</td><td><a href="/smog/issue3/featured_rmt_ou">Featured RMT - OU</a></td><td>Twist of Fate</td><td>-</td><td>Recurring Articles</td></tr>
+<tr class="a"><td>3</td><td><a href="/smog/issue3/bonus_ou_rmt">Bonus OU RMT</a></td><td>august</td><td>-</td><td>Recurring Articles</td></tr>
+<tr><td>3</td><td><a href="/smog/issue3/featured_rmt_uber">Featured RMT - Ubers</a></td><td>august</td><td>-</td><td>Recurring Articles</td></tr>
+<tr class="a"><td>3</td><td><a href="/smog/issue3/featured_uu_rmt">Featured RMT - UU</a></td><td>Twist of Fate</td><td>-</td><td>Recurring Articles</td></tr>
+<tr><td>3</td><td><a href="/smog/issue3/type_analysis_flying">Type Analysis - Flying</a></td><td>Lonelyness</td><td>-</td><td>Recurring Articles</td></tr>
+<tr class="a"><td>3</td><td><a href="/smog/issue3/type_analysis_fighting">Type Analysis - Fighting</a></td><td>Seven Deadly Sins</td><td>-</td><td>Recurring Articles</td></tr>
+<tr><td>4</td><td><a href="/smog/issue4/note_from_editor">Note from the Editor</a></td><td>Tangerine</td><td>-</td><td>General</td></tr>
+<tr class="a"><td>4</td><td><a href="/smog/issue4/trivia">Polls/Trivia</a></td><td>N/A</td><td>-</td><td>General</td></tr>
+<tr><td>4</td><td><a href="/smog/issue4/ask_admins">Ask the Admins</a></td><td>N/A</td><td>-</td><td>General</td></tr>
+<tr class="a"><td>4</td><td><a href="/smog/issue4/smog_awards">Introduction to the Smog Awards</a></td><td>Smogon</td><td>-</td><td>General</td></tr>
+<tr><td>4</td><td><a href="/smog/issue4/hgss_uu">HGSS takes UU by Storm</a></td><td>Lonelyness</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>4</td><td><a href="/smog/issue4/damage_stats">Damage Stats</a></td><td>X-Act</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>4</td><td><a href="/smog/issue4/top_abilities">Top 10 Abilites</a></td><td>Seven Deadly Sins</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>4</td><td><a href="/smog/issue4/cap">CAP: Pirates, Playtesting, and Policy Review</a></td><td>Deck Knight</td><td>-</td><td>Site Projects</td></tr>
+<tr><td>4</td><td><a href="/smog/issue4/tournament_coverage">Tournament Coverage</a></td><td>Kevin Garrett</td><td>-</td><td>Site Projects</td></tr>
+<tr class="a"><td>4</td><td><a href="/smog/issue4/uu_review">UU Review: Higher Ground</a></td><td>august</td><td>Eo Ut Mortus</td><td>Metagame</td></tr>
+<tr><td>4</td><td><a href="/smog/issue4/intro_nu">Introduction to NU</a></td><td>underdawg</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>4</td><td><a href="/smog/issue4/fallen_stars">Fallen Stars: Why did they fall?</a></td><td>RBG</td><td>Seven Deadly Sins</td><td>Metagame</td></tr>
+<tr><td>4</td><td><a href="/smog/issue4/hgss_review">Overview of Heart Gold and Soul Silver</a></td><td>Jimbo</td><td>Jibaku</td><td>Community</td></tr>
+<tr class="a"><td>4</td><td><a href="/smog/issue4/mafia">Introduction to Smogon Mafia</a></td><td>Mekkah</td><td>-</td><td>Community</td></tr>
+<tr><td>4</td><td><a href="/smog/issue4/interview_dm">Interview with DM</a></td><td>Jimbo</td><td>Sarenji</td><td>Community</td></tr>
+<tr class="a"><td>4</td><td><a href="/smog/issue4/sprites">The Demise of Sprites</a></td><td>CaptKirby</td><td>-</td><td>Community</td></tr>
+<tr><td>4</td><td><a href="/smog/issue4/featured_pokemon">Featured Pokémon: Celebi</a></td><td>Seven Deadly Sins</td><td>-</td><td>Recurring Articles</td></tr>
+<tr class="a"><td>4</td><td><a href="/smog/issue4/featured_rmt_ou">Featured RMT - OU</a></td><td>august</td><td>Tab</td><td>Recurring Articles</td></tr>
+<tr><td>4</td><td><a href="/smog/issue4/featured_rmt_uber">Featured RMT - Ubers</a></td><td>august</td><td>Tab</td><td>Recurring Articles</td></tr>
+<tr class="a"><td>4</td><td><a href="/smog/issue4/featured_rmt_uu">Featured RMT - UU</a></td><td>august</td><td>-</td><td>Recurring Articles</td></tr>
+<tr><td>4</td><td><a href="/smog/issue4/type_analysis_psychic">Type Analysis - Psychic</a></td><td>Seven Deadly Sins</td><td>-</td><td>Recurring Articles</td></tr>
+<tr class="a"><td>4</td><td><a href="/smog/issue4/type_analysis_fire">Type Analysis - Fire</a></td><td>Lonelyness</td><td>-</td><td>Recurring Articles</td></tr>
+<tr><td>5</td><td><a href="/smog/issue5/note_from_editor">Note from the Editor</a></td><td>Seven Deadly Sins</td><td>-</td><td>General</td></tr>
+<tr class="a"><td>5</td><td><a href="/smog/issue5/trivia">Polls/Trivia</a></td><td>N/A</td><td>-</td><td>General</td></tr>
+<tr><td>5</td><td><a href="/smog/issue5/ask_admins">Ask the Admins</a></td><td>N/A</td><td>-</td><td>General</td></tr>
+<tr class="a"><td>5</td><td><a href="/smog/issue5/smog_awards">Smogon Awards Nominees</a></td><td>N/A</td><td>-</td><td>General</td></tr>
+<tr><td>5</td><td><a href="/smog/issue5/speed_stat">Analysis of the Speed Stat</a></td><td>X-Act</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>5</td><td><a href="/smog/issue5/ladder">Mastering the OU Ladder</a></td><td>Reverb</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>5</td><td><a href="/smog/issue5/botw">Battle of the Week</a></td><td>Eo Ut Mortus</td><td>-</td><td>Site Projects</td></tr>
+<tr class="a"><td>5</td><td><a href="/smog/issue5/tournament_coverage">Tournament Coverage</a></td><td>Kevin Garrett</td><td>-</td><td>Site Projects</td></tr>
+<tr><td>5</td><td><a href="/smog/issue5/cap">CAP 9: Common Questions and Misconceptions</a></td><td>Plus</td><td>-</td><td>Site Projects</td></tr>
+<tr class="a"><td>5</td><td><a href="/smog/issue5/little_cup">Little Cup: Then and Now</a></td><td>eric the espeon</td><td><a href="/smog/issue5/little_cup">Collaboration</a></td><td>Metagame</td></tr>
+<tr><td>5</td><td><a href="/smog/issue5/offensive_threats">Top 10 Offensive Threats</a></td><td>Colonel M</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>5</td><td><a href="/smog/issue5/flavor">Flavor of the Month: Hail</a></td><td>Deck Knight</td><td>-</td><td>Metagame</td></tr>
+<tr><td>5</td><td><a href="/smog/issue5/interview_xact">Interview with X-Act</a></td><td>tennisace</td><td>-</td><td>Community</td></tr>
+<tr class="a"><td>5</td><td><a href="/smog/issue5/interview_mekkah">Interview with Mekkah</a></td><td>Jimbo</td><td><a href="/smog/issue5/interview_mekkah">Collaboration</a></td><td>Community</td></tr>
+<tr><td>5</td><td><a href="/smog/issue5/mafia_roles">Common Mafia Roles</a></td><td>Mekkah</td><td>-</td><td>Community</td></tr>
+<tr class="a"><td>5</td><td><a href="/smog/issue5/featured_pokemon">Featured Pokémon: Starmie</a></td><td>Seven Deadly Sins</td><td>-</td><td>Recurring Articles</td></tr>
+<tr><td>5</td><td><a href="/smog/issue5/featured_rmt_suspect">Featured RMT - Suspect</a></td><td>august</td><td>-</td><td>Recurring Articles</td></tr>
+<tr class="a"><td>5</td><td><a href="/smog/issue5/featured_rmt_suspect2">Bonus Suspect RMT</a></td><td>august</td><td>-</td><td>Recurring Articles</td></tr>
+<tr><td>5</td><td><a href="/smog/issue5/featured_rmt_uber">Featured RMT - Uber</a></td><td>Jibaku</td><td>-</td><td>Recurring Articles</td></tr>
+<tr class="a"><td>5</td><td><a href="/smog/issue5/type_analysis_electric">Type Analysis - Electric</a></td><td>Seven Deadly Sins</td><td>-</td><td>Recurring Articles</td></tr>
+<tr><td>5</td><td><a href="/smog/issue5/type_analysis_ghost">Type Analysis - Ghost</a></td><td>Seven Deadly Sins</td><td>-</td><td>Recurring Articles</td></tr>
+<tr class="a"><td>6</td><td><a href="/smog/issue6/note_from_editor">Note from the Editor</a></td><td>Jimbo</td><td>-</td><td>General</td></tr>
+<tr><td>6</td><td><a href="/smog/issue6/trivia">Polls/Trivia</a></td><td>N/A</td><td>-</td><td>General</td></tr>
+<tr class="a"><td>6</td><td><a href="/smog/issue6/ask_admins">Ask the Admins</a></td><td>N/A</td><td>-</td><td>General</td></tr>
+<tr><td>6</td><td><a href="/smog/issue6/smog_awards">Smogon Awards Winners</a></td><td>N/A</td><td>-</td><td>General</td></tr>
+<tr class="a"><td>6</td><td><a href="/smog/issue6/doubles">Top 10 Doubles Threats</a></td><td>makiri</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>6</td><td><a href="/smog/issue6/base_stats">Base Stat Ratings</a></td><td>X-Act</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>6</td><td><a href="/smog/issue6/gimmicks">Gimmicks: The Good, The Bad, and the Ugly</a></td><td>Alchemator</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>6</td><td><a href="/smog/issue6/suspect">The Suspect Test</a></td><td>Jumpman16</td><td>-</td><td>Site Projects</td></tr>
+<tr class="a"><td>6</td><td><a href="/smog/issue6/botw">Battle of the Week</a></td><td>Reverb</td><td>-</td><td>Site Projects</td></tr>
+<tr><td>6</td><td><a href="/smog/issue6/tournament_coverage">Tournament Coverage</a></td><td>Kevin Garrett</td><td>-</td><td>Site Projects</td></tr>
+<tr class="a"><td>6</td><td><a href="/smog/issue6/cap">Clearing the Air: CAP's Biggest Questions</a></td><td>Plus</td><td>Magmortified</td><td>Site Projects</td></tr>
+<tr><td>6</td><td><a href="/smog/issue6/nu_metagame">NU Metagame Analysis</a></td><td>Class</td><td><a href="/smog/issue6/nu_metagame">Collaboration</a></td><td>Metagame</td></tr>
+<tr class="a"><td>6</td><td><a href="/smog/issue6/uber_metagame">Uber Metagame Analysis</a></td><td>Kevin Garrett</td><td>-</td><td>Metagame</td></tr>
+<tr><td>6</td><td><a href="/smog/issue6/flavor">Flavor of the Month: Gravity</a></td><td>Deck Knight</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>6</td><td><a href="/smog/issue6/history">A Brief History of UU</a></td><td>Eo Ut Mortus</td><td>-</td><td>Metagame</td></tr>
+<tr><td>6</td><td><a href="/smog/issue6/interview_jimbo">Interview with Jimbo</a></td><td>tennisace</td><td>-</td><td>Community</td></tr>
+<tr class="a"><td>6</td><td><a href="/smog/issue6/interview_tangerine">Interview with Tangerine</a></td><td>tennisace</td><td>-</td><td>Community</td></tr>
+<tr><td>6</td><td><a href="/smog/issue6/village">Village leading in Mafia</a></td><td>Mekkah</td><td>-</td><td>Community</td></tr>
+<tr class="a"><td>6</td><td><a href="/smog/issue6/getting_caught">How to Avoid getting Caught</a></td><td>JabbaTheGriffin</td><td>-</td><td>Community</td></tr>
+<tr><td>6</td><td><a href="/smog/issue6/featured_pokemon">Featured Pokémon: Rotom-A</a></td><td>Seven Deadly Sins</td><td>-</td><td>Recurring Articles</td></tr>
+<tr class="a"><td>6</td><td><a href="/smog/issue6/featured_rmt_ou">Featured OU RMT</a></td><td>august</td><td>-</td><td>Recurring Articles</td></tr>
+<tr><td>6</td><td><a href="/smog/issue6/featured_rmt_uu">Featured UU RMT</a></td><td>whistle</td><td>-</td><td>Recurring Articles</td></tr>
+<tr class="a"><td>6</td><td><a href="/smog/issue6/type_analysis_ground">Type Analysis - Ground</a></td><td>Seven Deadly Sins</td><td>-</td><td>Recurring Articles</td></tr>
+<tr><td>6</td><td><a href="/smog/issue6/type_analysis_normal">Type Analysis - Normal</a></td><td>Chris is me</td><td>-</td><td>Recurring Articles</td></tr>
+<tr class="a"><td>7</td><td><a href="/smog/issue7/note_from_editor">Note from the Editor</a></td><td>Jimbo</td><td>-</td><td>General</td></tr>
+<tr><td>7</td><td><a href="/smog/issue7/trivia">Polls/Trivia</a></td><td>N/A</td><td>-</td><td>General</td></tr>
+<tr class="a"><td>7</td><td><a href="/smog/issue7/ask_admins">Ask the Admins</a></td><td>N/A</td><td>-</td><td>General</td></tr>
+<tr><td>7</td><td><a href="/smog/issue7/ubers">Cool Things to use in Ubers</a></td><td>Ace Matador</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>7</td><td><a href="/smog/issue7/abilities">The Best Abilities on the Worst Pokémon</a></td><td>Seven Deadly Sins</td><td>Philip7086</td><td>Battling Strategy</td></tr>
+<tr><td>7</td><td><a href="/smog/issue7/botw">Battle of the Week</a></td><td>Earthworm</td><td>jumpluff</td><td>Site Projects</td></tr>
+<tr class="a"><td>7</td><td><a href="/smog/issue7/wsc">A History of the WSC</a></td><td>Alchemator</td><td>-</td><td>Site Projects</td></tr>
+<tr><td>7</td><td><a href="/smog/issue7/cap">The CAP Revision Project</a></td><td>Umbreon Dan</td><td>-</td><td>Site Projects</td></tr>
+<tr class="a"><td>7</td><td><a href="/smog/issue7/nu_metagame">NU Metagame Update</a></td><td>VoiceOfReason</td><td>-</td><td>Metagame</td></tr>
+<tr><td>7</td><td><a href="/smog/issue7/uu_ducks">UU Ducks: Porygon-Z and Cresselia</a></td><td>whistle</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>7</td><td><a href="/smog/issue7/vgc">An Introduction to the VGC</a></td><td>zerowing</td><td>-</td><td>Metagame</td></tr>
+<tr><td>7</td><td><a href="/smog/issue7/interview_cookie">Interview with cookie</a></td><td>Jimbo</td><td>tennisace</td><td>Community</td></tr>
+<tr class="a"><td>7</td><td><a href="/smog/issue7/rtm">Real Time Mafia</a></td><td>Mekkah</td><td>-</td><td>Community</td></tr>
+<tr><td>7</td><td><a href="/smog/issue7/featured_pokemon">Featured Pokémon: Metagross</a></td><td>Seven Deadly Sins</td><td>-</td><td>Recurring Articles</td></tr>
+<tr class="a"><td>7</td><td><a href="/smog/issue7/featured_rmt_ou">Featured OU RMT</a></td><td>august</td><td>-</td><td>Recurring Articles</td></tr>
+<tr><td>7</td><td><a href="/smog/issue7/featured_rmt_uu">Featured UU RMT</a></td><td>whistle</td><td>-</td><td>Recurring Articles</td></tr>
+<tr class="a"><td>7</td><td><a href="/smog/issue7/type_analysis_grass">Type Analysis - Grass</a></td><td>Reverb</td><td>-</td><td>Recurring Articles</td></tr>
+<tr><td>7</td><td><a href="/smog/issue7/type_analysis_dark">Type Analysis - Dark</a></td><td>Seven Deadly Sins</td><td>-</td><td>Recurring Articles</td></tr>
+<tr class="a"><td>8</td><td><a href="/smog/issue8/note_from_editor">Note from the Editor</a></td><td>jumpluff</td><td>-</td><td>General</td></tr>
+<tr><td>8</td><td><a href="/smog/issue8/ask_admins">Ask the Admins</a></td><td>N/A</td><td>-</td><td>General</td></tr>
+<tr class="a"><td>8</td><td><a href="/smog/issue8/underrated_movesets">Underrated Movesets (UU)</a></td><td>whistle</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>8</td><td><a href="/smog/issue8/leads">Leads in Pokémon</a></td><td>Ala</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>8</td><td><a href="/smog/issue8/protips">Phil's Protips</a></td><td>Philip7086</td><td>makiri</td><td>Battling Strategy</td></tr>
+<tr><td>8</td><td><a href="/smog/issue8/wsc">A Continued History of the WSC</a></td><td>Alchemator</td><td>-</td><td>Site Projects</td></tr>
+<tr class="a"><td>8</td><td><a href="/smog/issue8/spriting">An Introduction to Spriting</a></td><td>Alchemator</td><td>-</td><td>Site Projects</td></tr>
+<tr><td>8</td><td><a href="/smog/issue8/cap">CAP FAQ</a></td><td>Fuzznip</td><td>Umbreon Dan</td><td>Site Projects</td></tr>
+<tr class="a"><td>8</td><td><a href="/smog/issue8/cap2">Traces of Magic: CAP 10 Update</a></td><td>Deck Knight</td><td>-</td><td>Site Projects</td></tr>
+<tr><td>8</td><td><a href="/smog/issue8/power_rankings">Smogon Power Rankings</a></td><td>Kevin Garrett</td><td>-</td><td>Site Projects</td></tr>
+<tr class="a"><td>8</td><td><a href="/smog/issue8/ou_metagame">OU Metagame Analysis</a></td><td>Philip7086</td><td>Scofield</td><td>Metagame</td></tr>
+<tr><td>8</td><td><a href="/smog/issue8/moves">Moves Pokémon SHOULD Have, but Don't</a></td><td>Philip7086</td><td>Seven Deadly Sins</td><td>Metagame</td></tr>
+<tr class="a"><td>8</td><td><a href="/smog/issue8/lc">The Little Suspects</a></td><td>macle</td><td>-</td><td>Metagame</td></tr>
+<tr><td>8</td><td><a href="/smog/issue8/rain_dance">UU Rain Dance</a></td><td>Diesel</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>8</td><td><a href="/smog/issue8/interview_earthworm">Interview with Earthworm</a></td><td>Mekkah</td><td>Jimbo</td><td>Community</td></tr>
+<tr><td>8</td><td><a href="/smog/issue8/cookie_tips">Cookie's Tips</a></td><td>cookie</td><td>-</td><td>Community</td></tr>
+<tr class="a"><td>8</td><td><a href="/smog/issue8/mafia">Designing and Hosting a Mafia Game</a></td><td>Mekkah</td><td>-</td><td>Community</td></tr>
+<tr><td>8</td><td><a href="/smog/issue8/mops_musings">MoP's Musings</a></td><td>MoP</td><td>-</td><td>Community</td></tr>
+<tr class="a"><td>8</td><td><a href="/smog/issue8/featured_pokemon">Featured Pokémon: Infernape</a></td><td>Seven Deadly Sins</td><td>-</td><td>Recurring Articles</td></tr>
+<tr><td>8</td><td><a href="/smog/issue8/featured_pokemon_uu">Featured UU Pokémon: Venusaur</a></td><td>Erazor</td><td>-</td><td>Recurring Articles</td></tr>
+<tr class="a"><td>8</td><td><a href="/smog/issue8/featured_rmt_ou">Featured OU RMT</a></td><td>vashta</td><td>-</td><td>Recurring Articles</td></tr>
+<tr><td>8</td><td><a href="/smog/issue8/featured_rmt_uu">Featured UU RMT</a></td><td>Twist of Fate</td><td>-</td><td>Recurring Articles</td></tr>
+<tr class="a"><td>8</td><td><a href="/smog/issue8/featured_uber_rmt">Featured Uber RMT</a></td><td>Jibaku</td><td>-</td><td>Recurring Articles</td></tr>
+<tr><td>8</td><td><a href="/smog/issue8/type_analysis_steel">Type Analysis - Steel</a></td><td>Seven Deadly Sins</td><td>-</td><td>Recurring Articles</td></tr>
+<tr class="a"><td>8</td><td><a href="/smog/issue8/type_analysis_bug">Type Analysis - Bug</a></td><td>Reverb</td><td>-</td><td>Recurring Articles</td></tr>
+<tr><td>9</td><td><a href="/smog/issue9/note_from_editor">Note From the Editor</a></td><td>Jimbo</td><td>-</td><td>General</td></tr>
+<tr class="a"><td>9</td><td><a href="/smog/issue9/trivia">Trivia</a></td><td>N/A</td><td>-</td><td>General</td></tr>
+<tr><td>9</td><td><a href="/smog/issue9/wsc">Another History of the WSC</a></td><td>Alchemator</td><td>-</td><td>Site Projects</td></tr>
+<tr class="a"><td>9</td><td><a href="/smog/issue9/spriting">Spriting Incognito - A Guide to Disguises</a></td><td>Alchemator</td><td>-</td><td>Site Projects</td></tr>
+<tr><td>9</td><td><a href="/smog/issue9/cap">Bad Taste - When CAP Flavor Goes Wrong!</a></td><td>Umbreon_Dan</td><td>Fuzznip</td><td>Site Projects</td></tr>
+<tr class="a"><td>9</td><td><a href="/smog/issue9/cap2">The Krilowatt Playtest</a></td><td>Fuzznip</td><td>Umbreon_Dan</td><td>Site Projects</td></tr>
+<tr><td>9</td><td><a href="/smog/issue9/spl">Smogon Premier League Coverage</a></td><td>Kinneas</td><td>-</td><td>Site Projects</td></tr>
+<tr class="a"><td>9</td><td><a href="/smog/issue9/interview">Interview Double Feature: Gouki &amp; Loki</a></td><td>Aldaron</td><td><a href="/smog/issue9/interview">Collaboration</a></td><td>Community</td></tr>
+<tr><td>9</td><td><a href="/smog/issue9/art_picks">Alchemator's Art Picks</a></td><td>Alchemator</td><td>-</td><td>Community</td></tr>
+<tr class="a"><td>9</td><td><a href="/smog/issue9/mafia">Mafia Revolution</a></td><td>Mekkah</td><td>-</td><td>Community</td></tr>
+<tr><td>9</td><td><a href="/smog/issue9/tcg">Pokémon Trading Card Game</a></td><td>Mekkah</td><td>-</td><td>Community</td></tr>
+<tr class="a"><td>9</td><td><a href="/smog/issue9/presentation">Looks Do Matter! A Guide to RMT Presentation</a></td><td>Bloo</td><td><a href="/smog/issue9/presentation">Collaboration</a></td><td>Community</td></tr>
+<tr><td>9</td><td><a href="/smog/issue9/rating">Top Five Tips for Rating</a></td><td>vashta</td><td>-</td><td>Community</td></tr>
+<tr class="a"><td>9</td><td><a href="/smog/issue9/underrated_movesets">Underrated Movesets (OU)</a></td><td>Reverb</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>9</td><td><a href="/smog/issue9/leads">Lead Synergy</a></td><td>Scofield</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>9</td><td><a href="/smog/issue9/protips">Phil's Protips Vol. 2</a></td><td>Philip7086</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>9</td><td><a href="/smog/issue9/uu_metagame">UU Metagame Analysis</a></td><td>Eo Ut Mortus</td><td>Legacy Raider</td><td>Metagame</td></tr>
+<tr class="a"><td>9</td><td><a href="/smog/issue9/black_white">Black, White, and Ugly: Speculation of a Madman</a></td><td>Deck Knight</td><td>-</td><td>Metagame</td></tr>
+<tr><td>9</td><td><a href="/smog/issue9/featured_pokemon">Featured Pokémon: Breloom</a></td><td>Seven Deadly Sins</td><td>-</td><td>Recurring Articles</td></tr>
+<tr class="a"><td>9</td><td><a href="/smog/issue9/featured_pokemon_uu">Featured UU Pokémon: Moltres</a></td><td>Erazor</td><td>-</td><td>Recurring Articles</td></tr>
+<tr><td>9</td><td><a href="/smog/issue9/featured_rmt_ou">Featured OU RMT</a></td><td>Twist of Fate</td><td>-</td><td>Recurring Articles</td></tr>
+<tr class="a"><td>9</td><td><a href="/smog/issue9/featured_rmt_uu">Featured UU RMT</a></td><td>Twist of Fate</td><td>-</td><td>Recurring Articles</td></tr>
+<tr><td>9</td><td><a href="/smog/issue9/featured_rmt_uber">Featured Uber RMT</a></td><td>Twist of Fate</td><td>-</td><td>Recurring Articles</td></tr>
+<tr class="a"><td>9</td><td><a href="/smog/issue9/type_analysis_dragon">Type Analysis - Dragon</a></td><td>Seven Deadly Sins</td><td>-</td><td>Recurring Articles</td></tr>
+<tr><td>9</td><td><a href="/smog/issue9/type_analysis_rock">Type Analysis - Rock</a></td><td>Erazor</td><td>-</td><td>Recurring Articles</td></tr>
+<tr class="a"><td>10</td><td><a href="/smog/issue10/note_from_editor">Note From the Editor</a></td><td>Jimbo</td><td>-</td><td>General</td></tr>
+<tr><td>10</td><td><a href="/smog/issue10/trivia">Trivia</a></td><td>jumpluff</td><td>Zystral</td><td>General</td></tr>
+<tr class="a"><td>10</td><td><a href="/smog/issue10/world_cup">World Cup Coverage</a></td><td>jumpluff</td><td>-</td><td>Site Projects</td></tr>
+<tr><td>10</td><td><a href="/smog/issue10/power_rankings">Smogon Power Rankings</a></td><td>Kevin Garrett</td><td>-</td><td>Site Projects</td></tr>
+<tr class="a"><td>10</td><td><a href="/smog/issue10/interview">Interview with MoP</a></td><td>Mekkah</td><td>bojangles</td><td>Site Projects</td></tr>
+<tr><td>10</td><td><a href="/smog/issue10/mafia">The Stealth Element of Mafia</a></td><td>Mekkah</td><td>-</td><td>Site Projects</td></tr>
+<tr class="a"><td>10</td><td><a href="/smog/issue10/tcg">Pokémon TCG: Ex-Deoxys Metagame Review</a></td><td>Zystral</td><td>-</td><td>Site Projects</td></tr>
+<tr><td>10</td><td><a href="/smog/issue10/tcg2">Pokémon TCG: NeoTRGym Metagame Review</a></td><td>Mekkah</td><td>-</td><td>Site Projects</td></tr>
+<tr class="a"><td>10</td><td><a href="/smog/issue10/spriting">Spriting Update: Pixel Overs</a></td><td>Alchemator</td><td>-</td><td>Site Projects</td></tr>
+<tr><td>10</td><td><a href="/smog/issue10/situational_analysis">Situational Analysis</a></td><td>Earthworm</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>10</td><td><a href="/smog/issue10/underrated_movesets">Underrated Movesets (OU)</a></td><td>Reberb</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>10</td><td><a href="/smog/issue10/nu">Surprising Movesets to use in NU</a></td><td>Plus</td><td><a href="/smog/issue10/nu">Collaboration</a></td><td>Battling Strategy</td></tr>
+<tr class="a"><td>10</td><td><a href="/smog/issue10/substitute">Move Analysis - Substitute</a></td><td>Bloo</td><td>MetaNite</td><td>Battling Strategy</td></tr>
+<tr><td>10</td><td><a href="/smog/issue10/leads">Creating and Selecting a Lead</a></td><td>Chris is me</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>10</td><td><a href="/smog/issue10/protips">Phil's Protips Vol. 3</a></td><td>Philip7086</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>10</td><td><a href="/smog/issue10/cores">Core Crisis - Centering Your Team</a></td><td>Bloo</td><td>Fuzznip</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>10</td><td><a href="/smog/issue10/latias">Latias: A History Of</a></td><td>vashta</td><td>Bloo</td><td>Metagame</td></tr>
+<tr><td>10</td><td><a href="/smog/issue10/little_cup_leads">Little Leads, Big Impact</a></td><td>macle</td><td><a href="/smog/issue10/little_cup_leads">Collaboration</a></td><td>Metagame</td></tr>
+<tr class="a"><td>10</td><td><a href="/smog/issue10/retype">Re-Re-Retypes! Competitive Pokémon Retypes</a></td><td>Rising_Dusk</td><td>-</td><td>Metagame</td></tr>
+<tr><td>10</td><td><a href="/smog/issue10/movesets">Worthless Abilities that Could Have Been Better (and How!)</a></td><td>Deck Knight</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>10</td><td><a href="/smog/issue10/adv">A Step Back - The Advance Metagame</a></td><td>Mekkah</td><td>-</td><td>Metagame</td></tr>
+<tr><td>10</td><td><a href="/smog/issue10/uu">Kill or be Killed - A UU Offense Analysis</a></td><td>Heysup</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>10</td><td><a href="/smog/issue10/featured_pokemon">Featured Pokémon: Heatran</a></td><td>Seven Deadly Sins</td><td>-</td><td>Recurring Articles</td></tr>
+<tr><td>10</td><td><a href="/smog/issue10/featured_pokemon_uu">Featured UU Pokémon: Milotic</a></td><td>Eo Ut Mortus</td><td>-</td><td>Recurring Articles</td></tr>
+<tr class="a"><td>10</td><td><a href="/smog/issue10/featured_pokemon_uber">Featured Uber Pokémon: Dialga</a></td><td>bojangles</td><td>-</td><td>Recurring Articles</td></tr>
+<tr><td>10</td><td><a href="/smo-smogPollstdBattling Strategytdtrtdg/issue10/featured_rmt_suspect">Featured Suspect RMT</a></td><td>vashta</td><td>-</td><td>Recurring Articles</td></tr>
+<tr class="a"><td>10</td><td><a href="/smog/issue10/featured_rmt_ou">Featured OU RMT</a></td><td>Reverb</td><td>-</td><td>Recurring Articles</td></tr>
+<tr><td>10</td><td><a href="/smog/issue10/featured_rmt_uu">Featured UU RMT</a></td><td>august</td><td>-</td><td>Recurring Articles</td></tr>
+<tr class="a"><td>10</td><td><a href="/smog/issue10/featured_rmt_uber">Featured Uber RMT</a></td><td>Twist of Fate</td><td>-</td><td>Recurring Articles</td></tr>
+<tr><td>10</td><td><a href="/smog/issue10/type_analysis_water">Type Analysis - Water</a></td><td>Seven Deadly Sins</td><td>Eo Ut Mortus</td><td>Recurring Articles</td></tr>
+<tr class="a"><td>11</td><td><a href="/smog/issue11/note_from_editor">Note From the Editor</a></td><td>jumpluff</td><td>-</td><td>General</td></tr>
+<tr><td>11</td><td><a href="/smog/issue11/trivia">Trivia</a></td><td>Zystral</td><td>RBG</td><td>General</td></tr>
+<tr class="a"><td>11</td><td><a href="/smog/issue11/shoddy_mods">Inside the Mind of: A Shoddy Moderator</a></td><td>vashta</td><td>-</td><td>Site Projects</td></tr>
+<tr><td>11</td><td><a href="/smog/issue11/cap_vs_ou">OU vs. CAP Vol. 1: Play Styles</a></td><td>Rising_Dusk</td><td>Zystral</td><td>Site Projects</td></tr>
+<tr class="a"><td>11</td><td><a href="/smog/issue11/interview">Interview with jumpluff</a></td><td>Mekkah</td><td>-</td><td>Community</td></tr>
+<tr><td>11</td><td><a href="/smog/issue11/mafia">Soft Alliances in Mafia</a></td><td>Mekkah</td><td>-</td><td>Community</td></tr>
+<tr class="a"><td>11</td><td><a href="/smog/issue11/mafia2">The Art of Fake Claiming</a></td><td>UncleSam</td><td>-</td><td>Community</td></tr>
+<tr><td>11</td><td><a href="/smog/issue11/cutemons">Cutemons</a></td><td>tab</td><td><a href="/smog/issue11/cutemons">Collaboration</a></td><td>Community</td></tr>
+<tr class="a"><td>11</td><td><a href="/smog/issue11/tcg_vs_shoddy">Why Pokémon TCG is better than Shoddy</a></td><td>Mekkah</td><td>Zystral</td><td>Community</td></tr>
+<tr><td>11</td><td><a href="/smog/issue11/tcg">Pokémon TCG - DP-on Metagame Review</a></td><td>Zystral</td><td>-</td><td>Community</td></tr>
+<tr class="a"><td>11</td><td><a href="/smog/issue11/battle">When the Outcome is Crit or Miss: A Match Analysis</a></td><td>whistle</td><td>Philip7086</td><td>Battling Strategy</td></tr>
+<tr><td>11</td><td><a href="/smog/issue11/protips">Phil's Protips Vol. 4</a></td><td>Philip7086</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>11</td><td><a href="/smog/issue11/weaknesses">It's Super Effective! The Worst Weaknesses in Competitive Pokémon</a></td><td>ChouToshio</td><td>Seven Deadly Sins</td><td>Battling Strategy</td></tr>
+<tr><td>11</td><td><a href="/smog/issue11/underrated_movesets">Underrated Movesets (OU)</a></td><td>Reverb</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>11</td><td><a href="/smog/issue11/retyping">Competitive Retyping II: UU to OU</a></td><td>Deck Knight</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>11</td><td><a href="/smog/issue11/evolution">The Evolution of the 4th Generation Metagame</a></td><td>Philip7086</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>11</td><td><a href="/smog/issue11/vgc_team">VGC Team Analysis</a></td><td>TTS</td><td>-</td><td>Metagame</td></tr>
+<tr><td>11</td><td><a href="/smog/issue11/arceus">Arceus Unleashed: The Brand New Uber Metagame</a></td><td>firecape</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>11</td><td><a href="/smog/issue11/hazards">Tripping Hazards: A Competitive Guide to OU Entry Hazards</a></td><td>DJX09</td><td>-</td><td>Metagame</td></tr>
+<tr><td>11</td><td><a href="/smog/issue11/featured_pokemon">Featured Pokémon: Flygon</a></td><td>Seven Deadly Sins</td><td>-</td><td>Recurring Articles</td></tr>
+<tr class="a"><td>11</td><td><a href="/smog/issue11/featured_pokemon_uu">Featured UU Pokémon: Spiritomb</a></td><td>Eo Ut Mortus</td><td>-</td><td>Recurring Articles</td></tr>
+<tr><td>11</td><td><a href="/smog/issue11/featured_pokemon_uber">Featured Uber Pokémon: Giratina-O</a></td><td>bojangles</td><td>Jibaku</td><td>Recurring Articles</td></tr>
+<tr class="a"><td>11</td><td><a href="/smog/issue11/featured_rmt_ou">Featured OU RMT</a></td><td>Reverb</td><td>-</td><td>Recurring Articles</td></tr>
+<tr><td>11</td><td><a href="/smog/issue11/featured_rmt_uber">Featured Uber RMT</a></td><td>Twist of Fate</td><td>-</td><td>Recurring Articles</td></tr>
+<tr class="a"><td>12</td><td><a href="/smog/issue12/note_from_editor">Note From the Editor</a></td><td>Mekkah</td><td>-</td><td>General</td></tr>
+<tr><td>12</td><td><a href="/smog/issue12/trivia">Trivia</a></td><td>Zystral</td><td>-</td><td>General</td></tr>
+<tr class="a"><td>12</td><td><a href="/smog/issue12/smog_awards">Smog Awards 2010: Nominations</a></td><td>N/A</td><td>-</td><td>General</td></tr>
+<tr><td>12</td><td><a href="/smog/issue12/tournament_coverage">Tournament Coverage</a></td><td>Atticus</td><td>Gouki</td><td>Site Projects</td></tr>
+<tr class="a"><td>12</td><td><a href="/smog/issue12/cap_report">CAP11 Report: Where the Voodoom Roam</a></td><td>Rising_Dusk</td><td>-</td><td>Site Projects</td></tr>
+<tr><td>12</td><td><a href="/smog/issue12/cap_vs_ou">OU vs. CAP Vol. 2: Effects on Teambuilding</a></td><td>Rising_Dusk</td><td>-</td><td>Site Projects</td></tr>
+<tr class="a"><td>12</td><td><a href="/smog/issue12/interview">Interview with Synre</a></td><td>Mekkah</td><td>bojangles</td><td>Community</td></tr>
+<tr><td>12</td><td><a href="/smog/issue12/tabloids">Smogon Tabloids</a></td><td>JabbaTheGriffin</td><td>-</td><td>Community</td></tr>
+<tr class="a"><td>12</td><td><a href="/smog/issue12/ha_dynasty">VGC: The Ha Dynasty</a></td><td>Dubulous</td><td>-</td><td>Community</td></tr>
+<tr><td>12</td><td><a href="/smog/issue12/movie_review">Movie Review: "Ruler of Illusions: Zoroark"</a></td><td>ChouToshio</td><td>-</td><td>Community</td></tr>
+<tr class="a"><td>12</td><td><a href="/smog/issue12/japanese">ようこそ!ポケモン世界へ!  (Welcome to the World of Pokémon!)"</a></td><td>ChouToshio</td><td>-</td><td>Community</td></tr>
+<tr><td>12</td><td><a href="/smog/issue12/mafia">Applied Planning for Villagers</a></td><td>UncleSam</td><td>-</td><td>Community</td></tr>
+<tr class="a"><td>12</td><td><a href="/smog/issue12/art">Art: What Is It?</a></td><td>Persistence</td><td>-</td><td>Community</td></tr>
+<tr><td>12</td><td><a href="/smog/issue12/art_cap">A ReCAP: Artistic Designs that Almost Made It</a></td><td>Alchemator</td><td>Swaggersaurus</td><td>Community</td></tr>
+<tr class="a"><td>12</td><td><a href="/smog/issue12/tcg">Pokémon TCG - Base/Jungle/Fossil Metagame Review</a></td><td>Mekkah</td><td>-</td><td>Community</td></tr>
+<tr><td>12</td><td><a href="/smog/issue12/tcg_bw">Pokémon Black/White TCG Expectations</a></td><td>Mekkah</td><td>Zystral</td><td>Community</td></tr>
+<tr class="a"><td>12</td><td><a href="/smog/issue12/nu">NU: What Works and How to Beat It</a></td><td>Vaz</td><td>Sceats</td><td>Battling Strategy</td></tr>
+<tr><td>12</td><td><a href="/smog/issue12/dreamworld">A Whole New World: A Guide to the Dream World</a></td><td>jumpluff</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>12</td><td><a href="/smog/issue12/bw_predictions">Gloats and Chokes: Where Speculation Went Wrong (and Right!)</a></td><td>Deck Knight</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>12</td><td><a href="/smog/issue12/ingame">Journey Through Isshu Region - Best of In-Game Badasses</a></td><td>ChouToshio</td><td><a href="/smog/issue12/ingame">Collaboration</a></td><td>Battling Strategy</td></tr>
+<tr class="a"><td>12</td><td><a href="/smog/issue12/uu_metagame">UU Metagame Analysis - When Hera Crossed Over</a></td><td>Erazor</td><td>Ala</td><td>Metagame</td></tr>
+<tr><td>12</td><td><a href="/smog/issue12/lc">The Effect of Weather on the 4th Generation Little Cup Metagame</a></td><td>macle</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>12</td><td><a href="/smog/issue12/ou_threats">Top New and Fallen Threats of the OU Metagame</a></td><td>undisputed</td><td>DJX09</td><td>Metagame</td></tr>
+<tr><td>12</td><td><a href="/smog/issue12/vgc">VGC Underdogs - From Zero to Hero</a></td><td>Kinneas</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>12</td><td><a href="/smog/issue12/featured_pokemon">Featured Pokémon: Looking Back, Looking Forward</a></td><td>Seven Deadly Sins</td><td>-</td><td>Recurring Articles</td></tr>
+<tr><td>12</td><td><a href="/smog/issue12/featured_rmt_ou">Featured OU RMT</a></td><td>Reverb</td><td>-</td><td>Recurring Articles</td></tr>
+<tr class="a"><td>12</td><td><a href="/smog/issue12/featured_rmt_uu">Featured UU RMT</a></td><td>Rising_Dusk</td><td>-</td><td>Recurring Articles</td></tr>
+<tr><td>12</td><td><a href="/smog/issue12/featured_rmt_uber">Featured Uber RMT</a></td><td>Rising_Dusk</td><td>-</td><td>Recurring Articles</td></tr>
+<tr class="a"><td>12</td><td><a href="/smog/issue12/featured_rmt_lc">Featured LC RMT</a></td><td>Heysup</td><td>-</td><td>Recurring Articles</td></tr>
+<tr><td>13</td><td><a href="/smog/issue13/note_from_editor">Note From the Editor</a></td><td>Deck Knight</td><td>-</td><td>General</td></tr>
+<tr class="a"><td>13</td><td><a href="/smog/issue13/trivia">Trivia</a></td><td>Zystral</td><td>-</td><td>General</td></tr>
+<tr><td>13</td><td><a href="/smog/issue13/smog_awards">Smog Awards 2010: Nominees</a></td><td>makiri</td><td>-</td><td>General</td></tr>
+<tr class="a"><td>13</td><td><a href="/smog/issue13/interview">Interview with Philip7086</a></td><td>Mekkah</td><td>-</td><td>General</td></tr>
+<tr><td>13</td><td><a href="/smog/issue13/bw_threatlist">The Competitors: Premiere BW Threatlist</a></td><td>Aerrow</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>13</td><td><a href="/smog/issue13/featured_pokemon">Featured Pokémon: Nattorei</a></td><td>Seven Deadly Sins</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>13</td><td><a href="/smog/issue13/featured_pokemon_uber">Featured Uber Pokémon: Zekrom</a></td><td>Jibaku</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>13</td><td><a href="/smog/issue13/featured_pokemon_lc">Featured LC Pokémon: Zuruggu</a></td><td>Dracoyoshi8</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>13</td><td><a href="/smog/issue13/type_analysis_fighting">Type Analysis: Fighting</a></td><td>Seven Deadly Sins</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>13</td><td><a href="/smog/issue13/metagame_ou">Black &amp; White Metagame Analysis</a></td><td>Destiny Warrior</td><td>-</td><td>Metagame</td></tr>
+<tr><td>13</td><td><a href="/smog/issue13/metagame_lc">5th Generation Little Cup Metagame Analysis</a></td><td>Destiny Warrior</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>13</td><td><a href="/smog/issue13/legends">A New Face on Legends of Old</a></td><td>firecape</td><td>-</td><td>Metagame</td></tr>
+<tr><td>13</td><td><a href="/smog/issue13/fallen_stars">Fallen Stars: The Decline of Once-Threats</a></td><td>Reverb</td><td>reyscarface</td><td>Metagame</td></tr>
+<tr class="a"><td>13</td><td><a href="/smog/issue13/featured_rmt_uber">Featured Uber RMT</a></td><td>firecape</td><td>-</td><td>Metagame</td></tr>
+<tr><td>13</td><td><a href="/smog/issue13/featured_rmt_lc">Featured Uber RMT</a></td><td>macle</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>13</td><td><a href="/smog/issue13/mafia">Up the Mafia Tempo</a></td><td>Mekkah</td><td>-</td><td>Arts &amp; Recreation</td></tr>
+<tr><td>13</td><td><a href="/smog/issue13/art_panel">Judge a Pokémon: The Smog's Art Panel</a></td><td>Chou Toshio</td><td><a href="/smog/issue13/art_panel">Collaboration</a></td><td>Arts &amp; Recreation</td></tr>
+<tr class="a"><td>13</td><td><a href="/smog/issue13/art_contest">No Contest: Monthly Art Contest Highlights</a></td><td>Alchemator</td><td>-</td><td>Arts &amp; Recreation</td></tr>
+<tr><td>13</td><td><a href="/smog/issue13/tcg">TCG: Triumphant!</a></td><td>Zystral</td><td>-</td><td>Arts &amp; Recreation</td></tr>
+<tr class="a"><td>13</td><td><a href="/smog/issue13/tcg_rogue">Going Rogue: TCG Strategies that look cool but don't work</a></td><td>Deck Knight</td><td>-</td><td>Arts &amp; Recreation</td></tr>
+<tr><td>13</td><td><a href="/smog/issue13/manliest_pokemon">Top 10 Manliest Pokémon</a></td><td>Iconic</td><td><a href="/smog/issue13/manliest_pokemon">Collaboration</a></td><td>Entertainment</td></tr>
+<tr class="a"><td>13</td><td><a href="/smog/issue13/design">Broken Unsaid Rules of Pokémon Design</a></td><td>Chou Toshio</td><td>Seven Deadly Sins</td><td>Entertainment</td></tr>
+<tr><td>13</td><td><a href="/smog/issue13/laughs">Stupid Japanese Pokémon Names: And you thought your name was bad?</a></td><td>Chou Toshio</td><td>-</td><td>Entertainment</td></tr>
+<tr class="a"><td>13</td><td><a href="/smog/issue13/cap">CAP Update: Survey Results and Going Forward</a></td><td>Chou Toshio</td><td>-</td><td>Other Features</td></tr>
+<tr><td>13</td><td><a href="/smog/issue13/ingame_tierlist">Introduction to In-Game Tier Lists</a></td><td>Colonel M</td><td>-</td><td>Other Features</td></tr>
+<tr class="a"><td>14</td><td><a href="/smog/issue14/note_from_editor">Note From the Editor</a></td><td>Deck Knight</td><td>-</td><td>General</td></tr>
+<tr><td>14</td><td><a href="/smog/issue14/note_from_editor">Note From the Editor</a></td><td>Deck Knight</td><td>-</td><td>General</td></tr>
+<tr class="a"><td>14</td><td><a href="/smog/issue14/trivia">Trivia</a></td><td>Zystral</td><td>-</td><td>General</td></tr>
+<tr><td>14</td><td><a href="/smog/issue14/smog_awards">Smog Awards 2010 Results</a></td><td>makiri</td><td>-</td><td>General</td></tr>
+<tr class="a"><td>14</td><td><a href="/smog/issue14/interview">Interview with makiri and Huy</a></td><td>Rising_Dusk</td><td>-</td><td>General</td></tr>
+<tr><td>14</td><td><a href="/smog/issue14/botw">Battle of the Week Vol. 1: Weeks 1-3</a></td><td>Eo Ut Mortus</td><td>-</td><td>General</td></tr>
+<tr class="a"><td>14</td><td><a href="/smog/issue14/featured_pokemon">Featured Pokémon: Reuniclus</a></td><td>Seven Deadly Sins</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>14</td><td><a href="/smog/issue14/featured_pokemon_uber">Featured Uber Pokémon: Reshiram</a></td><td>Flora</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>14</td><td><a href="/smog/issue14/featured_pokemon_lc">Featured LC Pokémon: Frillish</a></td><td>Dracoyoshi8</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>14</td><td><a href="/smog/issue14/type_analysis">Type Analysis: Ground</a></td><td>Seven Deadly Sins</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>14</td><td><a href="/smog/issue14/suprises">Competitive Surprises of Gen V</a></td><td>Rising_Dusk</td><td>-</td><td>Metagame</td></tr>
+<tr><td>14</td><td><a href="/smog/issue14/lcteamstyles">Team Style in Little Cup</a></td><td>macle</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>14</td><td><a href="/smog/issue14/featured_rmt_ou">Featured OU RMT</a></td><td>Iconic</td><td>-</td><td>Metagame</td></tr>
+<tr><td>14</td><td><a href="/smog/issue14/featured_rmt_lc">Featured LC RMT</a></td><td>macle</td><td>Elevator Music</td><td>Metagame</td></tr>
+<tr class="a"><td>14</td><td><a href="/smog/issue14/vgc2011">Introduction to the VGC Metagame</a></td><td>Destiny Warrior</td><td>Kinneas</td><td>Metagame</td></tr>
+<tr><td>14</td><td><a href="/smog/issue14/traveltokansai">Travel to Kansai: Another Look at Johto</a></td><td>Chou Toshio</td><td>-</td><td>Arts &amp; Recreation</td></tr>
+<tr class="a"><td>14</td><td><a href="/smog/issue14/art_panel">Judge a Pokémon: The Smog's 2nd Art Panel</a></td><td>Chou Toshio</td><td><a href="/smog/issue14/art_panel">Collaboration</a></td><td>Arts &amp; Recreation</td></tr>
+<tr><td>14</td><td><a href="/smog/issue14/tcgbattle">TCG Battle: Zy vs Mekkah</a></td><td>Zystral</td><td>-</td><td>Arts &amp; Recreation</td></tr>
+<tr class="a"><td>14</td><td><a href="/smog/issue14/uwabilities">Underwhelming Fifth Generation Abilities</a></td><td>Flora</td><td>-</td><td>Entertainment</td></tr>
+<tr><td>14</td><td><a href="/smog/issue14/firstvsfifth">Everything New is Old Again: 1st Gen vs. 5th Gen</a></td><td>Deck Knight</td><td>Chou Toshio</td><td>Entertainment</td></tr>
+<tr class="a"><td>14</td><td><a href="/smog/issue14/borntosurvive">Born to Survive: The OU Veterans</a></td><td>bugmaniacbob</td><td>-</td><td>Entertainment</td></tr>
+<tr><td>14</td><td><a href="/smog/issue14/artofwarstory">The Art of War(story)</a></td><td>bugmaniacbob</td><td>Chou Toshio</td><td>Other Features</td></tr>
+<tr class="a"><td>14</td><td><a href="/smog/issue14/teamrating">Critical Thinking: Team Rating From the Experts</a></td><td>Aerrow</td><td>vashta</td><td>Other Features</td></tr>
+<tr><td>14</td><td><a href="/smog/issue14/capspinoff">Creation Station: CAP Spinoff Game Design</a></td><td>Deck Knight</td><td>Cartoons!</td><td>Other Features</td></tr>
+<tr class="a"><td>15</td><td><a href="/smog/issue15/note_from_editor">Note From the Editor</a></td><td>Rising_Dusk</td><td>-</td><td>General</td></tr>
+<tr><td>15</td><td><a href="/smog/issue15/trivia">Trivia</a></td><td>Zystral</td><td>-</td><td>General</td></tr>
+<tr class="a"><td>15</td><td><a href="/smog/issue15/interview">Interview with reachzero</a></td><td>Mekkah</td><td>-</td><td>General</td></tr>
+<tr><td>15</td><td><a href="/smog/issue15/botw">Battle of the Week Vol. 2: Weeks 4-6</a></td><td>Ray Jay</td><td>-</td><td>General</td></tr>
+<tr class="a"><td>15</td><td><a href="/smog/issue15/featured_pokemon">Featured Pokémon: Thundurus</a></td><td>Seven Deadly Sins</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>15</td><td><a href="/smog/issue15/featured_pokemon_uber">Featured Ubers Pokémon: Palkia</a></td><td>Ray Jay</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>15</td><td><a href="/smog/issue15/featured_pokemon_lc">Featured LC Pokémon: Meditite</a></td><td>Dracoyoshi8</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>15</td><td><a href="/smog/issue15/type_analysis">Type Analysis: Psychic</a></td><td>Seven Deadly Sins</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>15</td><td><a href="/smog/issue15/featured_rmt_ou">Featured OU RMT</a></td><td>Aerrow</td><td>-</td><td>Metagame</td></tr>
+<tr><td>15</td><td><a href="/smog/issue15/lcsuspect">LC Suspect Test Coverage</a></td><td>macle</td><td>Destiny Warrior</td><td>Metagame</td></tr>
+<tr class="a"><td>15</td><td><a href="/smog/issue15/underrated">Underrated Movesets in the Fifth Generation</a></td><td>Snunch</td><td>-</td><td>Metagame</td></tr>
+<tr><td>15</td><td><a href="/smog/issue15/folklore">Japanese Folklore, Myths, and Pokémon</a></td><td>Chou Toshio</td><td>-</td><td>Arts &amp; Recreation</td></tr>
+<tr class="a"><td>15</td><td><a href="/smog/issue15/art_panel">Judge a Pokémon: The Smog's 3rd Art Panel</a></td><td>Chou Toshio</td><td><a href="/smog/issue15/art_panel">Collaboration</a></td><td>Arts &amp; Recreation</td></tr>
+<tr><td>15</td><td><a href="/smog/issue15/arterview">The Arterview: Kinneas</a></td><td>Alchemator</td><td>-</td><td>Arts &amp; Recreation</td></tr>
+<tr class="a"><td>15</td><td><a href="/smog/issue15/tcg">Pokémon TCG Metagame Overview</a></td><td>Mekkah</td><td>-</td><td>Arts &amp; Recreation</td></tr>
+<tr><td>15</td><td><a href="/smog/issue15/syndicates">Anthology of Evil: The Criminal Syndicates of Pokémon</a></td><td>Deck Knight</td><td>-</td><td>Entertainment</td></tr>
+<tr class="a"><td>15</td><td><a href="/smog/issue15/parable">A Pokémon Parable</a></td><td>bugmaniacbob</td><td>-</td><td>Entertainment</td></tr>
+<tr><td>15</td><td><a href="/smog/issue15/uuspeculations">Future UU Speculations</a></td><td>Oglemi</td><td>-</td><td>Other Features</td></tr>
+<tr class="a"><td>16</td><td><a href="/smog/issue16/note_from_editor">Note From the Editor</a></td><td>Rising_Dusk</td><td>-</td><td>General</td></tr>
+<tr><td>16</td><td><a href="/smog/issue16/trivia">Trivia</a></td><td>Zystral</td><td>-</td><td>General</td></tr>
+<tr class="a"><td>16</td><td><a href="/smog/issue16/interview">Interview with Blue Kirby</a></td><td>Mekkah</td><td>Setsuna</td><td>General</td></tr>
+<tr><td>16</td><td><a href="/smog/issue16/botw">Battle of the Week Vol. 3: Weeks 7-9</a></td><td>Ray Jay</td><td>-</td><td>General</td></tr>
+<tr class="a"><td>16</td><td><a href="/smog/issue16/tournaments">Tournaments Coverage</a></td><td>Earthworm</td><td>-</td><td>General</td></tr>
+<tr><td>16</td><td><a href="/smog/issue16/featured_pokemon">Featured Pokémon: Jellicent</a></td><td>Seven Deadly Sins</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>16</td><td><a href="/smog/issue16/featured_pokemon_uber">Featured Ubers Pokémon: Blaziken</a></td><td>bojangles</td><td><a href="/smog/issue16/featured_pokemon_uber">Collaboration</a></td><td>Battling Strategy</td></tr>
+<tr><td>16</td><td><a href="/smog/issue16/featured_pokemon_uu">Featured UU Pokémon: Victini</a></td><td>Chou Toshio</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>16</td><td><a href="/smog/issue16/featured_pokemon_lc">Featured LC Pokémon: Slowpoke</a></td><td>comatthew6</td><td>Destiny Warrior</td><td>Battling Strategy</td></tr>
+<tr><td>16</td><td><a href="/smog/issue16/type_analysis">Type Analysis: Dragon</a></td><td>Seven Deadly Sins</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>16</td><td><a href="/smog/issue16/underrated_uber">Underrated Uber Movesets</a></td><td>firecape</td><td><a href="/smog/issue16/underrated_uber">Collaboration</a></td><td>Battling Strategy</td></tr>
+<tr><td>16</td><td><a href="/smog/issue16/ru">What's an RU?</a></td><td>Oglemi</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>16</td><td><a href="/smog/issue16/featured_rmt_ou">Featured OU RMT</a></td><td>Aerrow</td><td>-</td><td>Metagame</td></tr>
+<tr><td>16</td><td><a href="/smog/issue16/featured_rmt_uber">Featured Uber RMT</a></td><td>firecape</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>16</td><td><a href="/smog/issue16/featured_rmt_lc">Featured LC RMT</a></td><td>ShinyAzelf</td><td>-</td><td>Metagame</td></tr>
+<tr><td>16</td><td><a href="/smog/issue16/metagame_ou">BW OU Metagame Analysis</a></td><td>elDino</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>16</td><td><a href="/smog/issue16/metagame_lc">BW LC Metagame Analysis</a></td><td>comatthew6</td><td>-</td><td>Metagame</td></tr>
+<tr><td>16</td><td><a href="/smog/issue16/suspect_ou">OU Suspect Testing Coverage</a></td><td>Iconic</td><td>TEzeon</td><td>Metagame</td></tr>
+<tr class="a"><td>16</td><td><a href="/smog/issue16/suspect_uu">UU Suspect Testing Coverage</a></td><td>Oglemi</td><td>-</td><td>Metagame</td></tr>
+<tr><td>16</td><td><a href="/smog/issue16/weather">Is Weather Necessary in BW OU?</a></td><td>Eternal</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>16</td><td><a href="/smog/issue16/uberchanges">An Uber Transition: Shifts from DPP Uber to BW Uber</a></td><td>Tobes</td><td>-</td><td>Metagame</td></tr>
+<tr><td>16</td><td><a href="/smog/issue16/smeargle">Smeargle's Studio Update</a></td><td>Alchemator</td><td>-</td><td>Arts &amp; Recreation</td></tr>
+<tr class="a"><td>16</td><td><a href="/smog/issue16/arterview">The Arterview: Nastyjungle</a></td><td>Alchemator</td><td>-</td><td>Arts &amp; Recreation</td></tr>
+<tr><td>16</td><td><a href="/smog/issue16/mafia">Inactivity in the Mafia</a></td><td>Staraptor Call</td><td>-</td><td>Arts &amp; Recreation</td></tr>
+<tr class="a"><td>16</td><td><a href="/smog/issue16/japanese">最終記事: A look back at The Smog's Japanese Articles</a></td><td>Chou Toshio</td><td>-</td><td>Entertainment</td></tr>
+<tr><td>16</td><td><a href="/smog/issue16/art_panel">Judge a Pokémon: The Smog's 4th Art Panel</a></td><td>Chou Toshio</td><td><a href="/smog/issue16/art_panel">Collaboration</a></td><td>Entertainment</td></tr>
+<tr class="a"><td>16</td><td><a href="/smog/issue16/tutors">To Learn is to Earn: OU Tutor Speculation and Shake-ups</a></td><td>Deck Knight</td><td>-</td><td>Entertainment</td></tr>
+<tr><td>16</td><td><a href="/smog/issue16/mop">MoP's Musings v.2</a></td><td>Aeroblacktyl</td><td>-</td><td>Entertainment</td></tr>
+<tr class="a"><td>16</td><td><a href="/smog/issue16/capreport">CAP1 Report: Tomohawks Take Flight</a></td><td>Rising_Dusk</td><td>-</td><td>Other Features</td></tr>
+<tr><td>16</td><td><a href="/smog/issue16/cnc">Contributions &amp; Corrections: Where the Magic Happens</a></td><td>zdrup15</td><td>-</td><td>Other Features</td></tr>
+<tr class="a"><td>17</td><td><a href="/smog/issue17/note_from_editor">Note From the Editor</a></td><td>Rising_Dusk</td><td>-</td><td>General</td></tr>
+<tr><td>17</td><td><a href="/smog/issue17/trivia">Trivia &amp; Polls</a></td><td>Zystral</td><td>-</td><td>General</td></tr>
+<tr class="a"><td>17</td><td><a href="/smog/issue17/interview">Interview with bojangles</a></td><td>Mekkah</td><td>-</td><td>General</td></tr>
+<tr><td>17</td><td><a href="/smog/issue17/tournaments">Tournaments Coverage</a></td><td>Earthworm</td><td>-</td><td>General</td></tr>
+<tr class="a"><td>17</td><td><a href="/smog/issue17/featured_pokemon">Featured Pokémon: Dragonite</a></td><td>Seven Deadly Sins</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>17</td><td><a href="/smog/issue17/featured_pokemon_uber">Featured Uber Pokémon: Mewtwo</a></td><td>bojangles</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>17</td><td><a href="/smog/issue17/featured_pokemon_uu">Featured UU Pokémon: Mew</a></td><td>Chou Toshio</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>17</td><td><a href="/smog/issue17/featured_pokemon_lc">Featured LC Pokémon: Mienfoo</a></td><td>ShinyAzelf</td><td>comatthew6</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>17</td><td><a href="/smog/issue17/type_analysis">Type Analysis: Water</a></td><td>Seven Deadly Sins</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>17</td><td><a href="/smog/issue17/core">Core Crisis II: Tiers of Joy</a></td><td>barry4ever</td><td><a href="/smog/issue17/core">Collaboration</a></td><td>Battling Strategy</td></tr>
+<tr class="a"><td>17</td><td><a href="/smog/issue17/rotation">An Introduction to Rotation Battles</a></td><td>Destiny Warrior</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>17</td><td><a href="/smog/issue17/hazards">Hazardous Strategy: A Guide to Entry Hazards</a></td><td>elDino</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>17</td><td><a href="/smog/issue17/featured_rmt_ou">Featured OU RMT</a></td><td>zdrup15</td><td>-</td><td>Metagame</td></tr>
+<tr><td>17</td><td><a href="/smog/issue17/featured_rmt_lc">Featured LC RMT</a></td><td>ShinyAzelf</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>17</td><td><a href="/smog/issue17/art_panel">Judge a Pokémon: The Smog's 5th Art Panel</a></td><td>Chou Toshio</td><td><a href="/smog/issue17/art_panel">Collaboration</a></td><td>Arts &amp; Recreation</td></tr>
+<tr><td>17</td><td><a href="/smog/issue17/smeargle">Smeargle's Studio Update</a></td><td>Alchemator</td><td>-</td><td>Arts &amp; Recreation</td></tr>
+<tr class="a"><td>17</td><td><a href="/smog/issue17/arterview">The Arterview: Chou Toshio</a></td><td>Alchemator</td><td>-</td><td>Arts &amp; Recreation</td></tr>
+<tr><td>17</td><td><a href="/smog/issue17/mop">How To Fit In</a></td><td>Aeroblacktyl</td><td>-</td><td>Entertainment</td></tr>
+<tr class="a"><td>17</td><td><a href="/smog/issue17/gp">Check like the Prose: A Guide to G/P</a></td><td>NixHex</td><td><a href="/smog/issue17/gp">Collaboration</a></td><td>Other Features</td></tr>
+<tr><td>17</td><td><a href="/smog/issue17/analysis">Making a Good Analysis Great</a></td><td>Ray Jay</td><td>-</td><td>Other Features</td></tr>
+<tr class="a"><td>17</td><td><a href="/smog/issue17/asb">CAP ASB Update &amp; Mechanics Discussion</a></td><td>Deck Knight</td><td>-</td><td>Other Features</td></tr>
+<tr><td>17</td><td><a href="/smog/issue17/cnc">Recently in C&amp;C</a></td><td>Oglemi</td><td>Calm_Pokemaster</td><td>Other Features</td></tr>
+<tr class="a"><td>18</td><td><a href="/smog/issue18/note_from_editor">Note From the Editor</a></td><td>Rising_Dusk</td><td>-</td><td>General</td></tr>
+<tr><td>18</td><td><a href="/smog/issue18/trivia">Trivia</a></td><td>Zystral</td><td>-</td><td>General</td></tr>
+<tr class="a"><td>18</td><td><a href="/smog/issue18/interview">Interrogation of Rising_Dusk</a></td><td>Mekkah</td><td>bojangles</td><td>General</td></tr>
+<tr><td>18</td><td><a href="/smog/issue18/tournaments">Tournaments Coverage</a></td><td>Earthworm</td><td>-</td><td>General</td></tr>
+<tr class="a"><td>18</td><td><a href="/smog/issue18/smog_awards">The Smog Awards 2011</a></td><td>bojangles</td><td>-</td><td>General</td></tr>
+<tr><td>18</td><td><a href="/smog/issue18/featured_pokemon">Featured Pokémon: Rotom-W</a></td><td>Seven Deadly Sins</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>18</td><td><a href="/smog/issue18/featured_pokemon_uber">Featured Uber Pokémon: Kyogre</a></td><td>bojangles</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>18</td><td><a href="/smog/issue18/featured_pokemon_uu">Featured UU Pokémon: Alakazam</a></td><td>Moo</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>18</td><td><a href="/smog/issue18/featured_pokemon_lc">Featured LC Pokémon: Gastly</a></td><td>comatthew6</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>18</td><td><a href="/smog/issue18/type_analysis">Type Analysis: Steel</a></td><td>Seven Deadly Sins</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>18</td><td><a href="/smog/issue18/bulky_psychic">The Role of the Bulky Psychic</a></td><td>Nachos</td><td><a href="/smog/issue18/bulky_psychic">Collaboration</a></td><td>Battling Strategy</td></tr>
+<tr><td>18</td><td><a href="/smog/issue18/stallbreakers">A Guide to Stallbreakers</a></td><td>Tomahawk9</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>18</td><td><a href="/smog/issue18/uberweather">Weather in Ubers</a></td><td>Tobes</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>18</td><td><a href="/smog/issue18/featured_rmt_ou">Featured OU RMT</a></td><td>Iconic</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>18</td><td><a href="/smog/issue18/featured_rmt_uu">Featured UU RMT</a></td><td>Moo</td><td>-</td><td>Metagame</td></tr>
+<tr><td>18</td><td><a href="/smog/issue18/featured_rmt_ru">Featured RU RMT</a></td><td>Omicron</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>18</td><td><a href="/smog/issue18/featured_rmt_lc">Featured LC RMT</a></td><td>comatthew6</td><td>-</td><td>Metagame</td></tr>
+<tr><td>18</td><td><a href="/smog/issue18/metagame_bwou">BW OU Metagame Analysis</a></td><td>Aerrow</td><td><a href="/smog/issue18/metagame_bwou">Collaboration</a></td><td>Metagame</td></tr>
+<tr class="a"><td>18</td><td><a href="/smog/issue18/metagame_dppou">DPP OU Metagame Analysis</a></td><td>Tomahawk9</td><td>-</td><td>Metagame</td></tr>
+<tr><td>18</td><td><a href="/smog/issue18/favorites">Forgotten Favorites in RU</a></td><td>Honko</td><td>Texas Cloverleaf</td><td>Metagame</td></tr>
+<tr class="a"><td>18</td><td><a href="/smog/issue18/nu">Ready for a whole NU metagame?</a></td><td>Oglemi</td><td>-</td><td>Metagame</td></tr>
+<tr><td>18</td><td><a href="/smog/issue18/fallen_stars">Fallen Stars</a></td><td>Seven Deadly Sins</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>18</td><td><a href="/smog/issue18/lc">What's new in LC?</a></td><td>Moo</td><td>Elevator Music</td><td>Metagame</td></tr>
+<tr><td>18</td><td><a href="/smog/issue18/ru">RU Overview</a></td><td>Texas Cloverleaf</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>18</td><td><a href="/smog/issue18/art_panel">Judge a Pokémon: The Smog's 6th Art Panel</a></td><td>Chou Toshio</td><td><a href="/smog/issue18/art_panel">Collaboration</a></td><td>Arts &amp; Recreation</td></tr>
+<tr><td>18</td><td><a href="/smog/issue18/smeargle">Smeargle's Studio Update</a></td><td>Alchemator</td><td>-</td><td>Arts &amp; Recreation</td></tr>
+<tr class="a"><td>18</td><td><a href="/smog/issue18/arterview">The Arterview: paintseagull</a></td><td>Alchemator</td><td>-</td><td>Arts &amp; Recreation</td></tr>
+<tr><td>18</td><td><a href="/smog/issue18/toptips">Brushing Up On Your Skills: Top Tips!</a></td><td>Alchemator</td><td>-</td><td>Arts &amp; Recreation</td></tr>
+<tr class="a"><td>18</td><td><a href="/smog/issue18/lcmystery">Little Cup: the Mystery Explained</a></td><td>Aerrow</td><td>-</td><td>Other Features</td></tr>
+<tr><td>18</td><td><a href="/smog/issue18/inb4nintendo">Inb4 Nintendo: Metagames To Be</a></td><td>Lady Salamence</td><td><a href="/smog/issue18/inb4nintendo">Collaboration</a></td><td>Other Features</td></tr>
+<tr class="a"><td>18</td><td><a href="/smog/issue18/lower_ladders">Working the Lower Ladders</a></td><td>Ray Jay</td><td><a href="/smog/issue18/lower_ladders">Collaboration</a></td><td>Other Features</td></tr>
+<tr><td>18</td><td><a href="/smog/issue18/gp">Check Like the Prose: Vol. II</a></td><td>bugmaniacbob</td><td>-</td><td>Other Features</td></tr>
+<tr class="a"><td>18</td><td><a href="/smog/issue18/analyses">A Recent History of Analyses</a></td><td>bugmaniacbob</td><td>-</td><td>Other Features</td></tr>
+<tr><td>19</td><td><a href="/smog/issue19/note_from_editor">Note From the Editor</a></td><td>Setsuna</td><td>-</td><td>General</td></tr>
+<tr class="a"><td>19</td><td><a href="/smog/issue19/trivia">Trivia</a></td><td>Zystral</td><td>-</td><td>General</td></tr>
+<tr><td>19</td><td><a href="/smog/issue19/interview">Interview with Seven Deadly Sins</a></td><td>Mekkah</td><td>Fatecrashers</td><td>General</td></tr>
+<tr class="a"><td>19</td><td><a href="/smog/issue19/tournaments">Tournaments Coverage</a></td><td>Earthworm</td><td>-</td><td>General</td></tr>
+<tr><td>19</td><td><a href="/smog/issue19/smog_awards">The Smog Awards 2011</a></td><td>bojangles</td><td><a href="/smog/issue19/smog_awards">Collaboration</a></td><td>General</td></tr>
+<tr class="a"><td>19</td><td><a href="/smog/issue19/featured_pokemon">Featured OU Pokémon: Jirachi</a></td><td>Seven Deadly Sins</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>19</td><td><a href="/smog/issue19/featured_pokemon_uber">Featured Uber Pokémon: Groudon</a></td><td>bojangles</td><td><a href="/smog/issue19/featured_pokemon_uber">Collaboration</a></td><td>Battling Strategy</td></tr>
+<tr class="a"><td>19</td><td><a href="/smog/issue19/featured_pokemon_uu">Featured UU Pokémon: Roserade</a></td><td>Moo</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>19</td><td><a href="/smog/issue19/featured_pokemon_lc">Featured LC Pokémon: Chinchou</a></td><td>comatthew6</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>19</td><td><a href="/smog/issue19/featured_pokemon_ru">Featured RU Pokémon: Honchkrow</a></td><td>Omicron</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>19</td><td><a href="/smog/issue19/featured_pokemon_nu">Featured NU Pokémon: Gorebyss</a></td><td>tennisace</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>19</td><td><a href="/smog/issue19/type_analysis">Type Analysis: Flying</a></td><td>Seven Deadly Sins</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>19</td><td><a href="/smog/issue19/vgc_core">Featured VGC 2012 Core: Metagross and Rotom-W</a></td><td>muffinhead</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>19</td><td><a href="/smog/issue19/viable_nfes">Viable NFEs</a></td><td>Omicron</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>19</td><td><a href="/smog/issue19/forgotten_strategies">Forgotten Strategies</a></td><td>Komodo</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>19</td><td><a href="/smog/issue19/rapid_spin">Rapid Spinning Among the Tiers</a></td><td>Tomahawk9</td><td><a href="/smog/issue19/rapid_spin">Collaboration</a></td><td>Battling Strategy</td></tr>
+<tr><td>19</td><td><a href="/smog/issue19/featured_rmt_ou">Featured OU RMT</a></td><td>New World Order</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>19</td><td><a href="/smog/issue19/featured_rmt_uu">Featured UU RMT</a></td><td>kokoloko</td><td>-</td><td>Metagame</td></tr>
+<tr><td>19</td><td><a href="/smog/issue19/featured_rmt_lc">Featured LC RMT</a></td><td>Ray Jay</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>19</td><td><a href="/smog/issue19/featured_rmt_ru">Featured RU RMT</a></td><td>Windsong</td><td>-</td><td>Metagame</td></tr>
+<tr><td>19</td><td><a href="/smog/issue19/featured_rmt_nu">Featured NU RMT</a></td><td>Komodo</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>19</td><td><a href="/smog/issue19/dreamworld">Welcome to Dream World</a></td><td>Tobes</td><td>-</td><td>Metagame</td></tr>
+<tr><td>19</td><td><a href="/smog/issue19/weather">Weather in the Lower Tiers</a></td><td>Omicron</td><td>Jellicent</td><td>Metagame</td></tr>
+<tr class="a"><td>19</td><td><a href="/smog/issue19/ru_suspect">RU Suspect Test Results</a></td><td>Texas Cloverleaf</td><td>-</td><td>Metagame</td></tr>
+<tr><td>19</td><td><a href="/smog/issue19/lc_eviolite">Eviolite in Little Cup</a></td><td>comatthew6</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>19</td><td><a href="/smog/issue19/uber_threats">Dealing with Ubers Threats</a></td><td>Poppy</td><td>Go10</td><td>Metagame</td></tr>
+<tr><td>19</td><td><a href="/smog/issue19/lc">What's Newer in LC?</a></td><td>Ray Jay</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>19</td><td><a href="/smog/issue19/nu">What's New in NU?</a></td><td>NatGeo</td><td>-</td><td>Metagame</td></tr>
+<tr><td>19</td><td><a href="/smog/issue19/art_panel">Judge a Pokémon: The Smog's 7th Art Panel</a></td><td>Chou Toshio</td><td><a href="/smog/issue19/art_panel">Collaboration</a></td><td>Arts &amp; Recreation</td></tr>
+<tr class="a"><td>19</td><td><a href="/smog/issue19/smeargle">Smeargle's Studio Update</a></td><td>Alchemator</td><td>-</td><td>Arts &amp; Recreation</td></tr>
+<tr><td>19</td><td><a href="/smog/issue19/art_panel">The Arterview: Zracknel</a></td><td>Alchemator</td><td>-</td><td>Arts &amp; Recreation</td></tr>
+<tr class="a"><td>19</td><td><a href="/smog/issue19/ladder_fail">Race to the Bottom: How to Ladder Hard and Fail</a></td><td>RitterCat</td><td>-</td><td>Entertainment</td></tr>
+<tr><td>19</td><td><a href="/smog/issue19/fabulous_pokemon">Top 10 Most Fabulous Pokémon</a></td><td>Oglemi</td><td>-</td><td>Entertainment</td></tr>
+<tr class="a"><td>19</td><td><a href="/smog/issue19/spl_drama">SPL Drama</a></td><td>Windsong</td><td>Lady Salamence</td><td>Entertainment</td></tr>
+<tr><td>19</td><td><a href="/smog/issue19/vgc_dynasties">VGC Dynasties: What's in a Name?</a></td><td>Solace</td><td>-</td><td>Entertainment</td></tr>
+<tr class="a"><td>19</td><td><a href="/smog/issue19/moves">How Moves Work</a></td><td>cookie</td><td>-</td><td>Entertainment</td></tr>
+<tr><td>19</td><td><a href="/smog/issue19/irc">A Guide to Smogon IRC</a></td><td>Oglemi</td><td>-</td><td>Other Features</td></tr>
+<tr class="a"><td>19</td><td><a href="/smog/issue19/translation">Lost in Translation: Smogon Translations Projects</a></td><td>Omicron</td><td>-</td><td>Other Features</td></tr>
+<tr><td>19</td><td><a href="/smog/issue19/cap">CAP2 Report: The Essence of Necturna</a></td><td>Birkal</td><td>-</td><td>Other Features</td></tr>
+<tr class="a"><td>19</td><td><a href="/smog/issue19/challengecup">Challenge Cup: Rotom-S @ Air Balloon</a></td><td>Lady Salamence</td><td>-</td><td>Other Features</td></tr>
+<tr><td>20</td><td><a href="/smog/issue20/note_from_editor">Note from the Editor</a></td><td>Setsuna</td><td>-</td><td>General</td></tr>
+<tr class="a"><td>20</td><td><a href="/smog/issue20/trivia">Trivia</a></td><td>Seven Deadly Sins</td><td>-</td><td>General</td></tr>
+<tr><td>20</td><td><a href="/smog/issue20/interview">Interview with Haunter</a></td><td>Setsuna</td><td>-</td><td>General</td></tr>
+<tr class="a"><td>20</td><td><a href="/smog/issue20/tournaments">Tournaments Coverage</a></td><td>Earthworm</td><td>-</td><td>General</td></tr>
+<tr><td>20</td><td><a href="/smog/issue20/smog_awards">Smogon Awards Results 2011</a></td><td>bojangles</td><td><a href="/smog/issue20/smog_awards">Collaboration</a></td><td>General</td></tr>
+<tr class="a"><td>20</td><td><a href="/smog/issue20/featured_pokemon">Featured Pokémon: Tyranitar</a></td><td>Seven Deadly Sins</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>20</td><td><a href="/smog/issue20/featured_pokemon_uber">Featured Ubers Pokémon: Rayquaza</a></td><td>bojangles</td><td>Great Sage</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>20</td><td><a href="/smog/issue20/featured_pokemon_uu">Featured UU Pokémon: Zapdos</a></td><td>kokoloko</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>20</td><td><a href="/smog/issue20/featured_pokemon_lc">Featured LC Pokémon: Bronzor</a></td><td>comatthew6</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>20</td><td><a href="/smog/issue20/featured_pokemon_ru">Featured RU Pokémon: Aggron</a></td><td>Komodo</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>20</td><td><a href="/smog/issue20/featured_pokemon_nu">Featured NU Pokémon: Samurott</a></td><td>Zebraiken</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>20</td><td><a href="/smog/issue20/type_analysis">5th Gen Type Analysis: Ice</a></td><td>Seven Deadly Sins</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>20</td><td><a href="/smog/issue20/vgc_effects">VGC Field Effects</a></td><td>Biosci</td><td><a href="/smog/issue20/vgc_effects">Collaboration</a></td><td>Battling Strategy</td></tr>
+<tr class="a"><td>20</td><td><a href="/smog/issue20/trick_room">Trick Room in the Lower Tiers</a></td><td>Jellicent</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>20</td><td><a href="/smog/issue20/control_luck">Playing with Loaded Dice: How to Control Luck</a></td><td>Snunch</td><td>Seven Deadly Sins</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>20</td><td><a href="/smog/issue20/bw_to_dpp">Adjusting from BW to DPP</a></td><td>Tomahawk9</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>20</td><td><a href="/smog/issue20/prediction_ubers">Prediction and Planning: The Art of Decision Making in Ubers</a></td><td>barry4ever</td><td>shrang</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>20</td><td><a href="/smog/issue20/featured_rmt_ou">Featured OU RMT</a></td><td>Iconic</td><td>-</td><td>Metagame</td></tr>
+<tr><td>20</td><td><a href="/smog/issue20/featured_rmt_uber">Featured Ubers RMT</a></td><td>Furai</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>20</td><td><a href="/smog/issue20/featured_rmt_uu">Featured UU RMT</a></td><td>kokoloko</td><td>-</td><td>Metagame</td></tr>
+<tr><td>20</td><td><a href="/smog/issue20/featured_rmt_nu">Featured NU RMT</a></td><td>Django Reinhart</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>20</td><td><a href="/smog/issue20/underrated_movesets">OU Underrated Movesets</a></td><td>Iconic</td><td>-</td><td>Metagame</td></tr>
+<tr><td>20</td><td><a href="/smog/issue20/uu_metagame_trends">UU Metagame Trends</a></td><td>kokoloko</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>20</td><td><a href="/smog/issue20/how_nu">How the Heck is that NU?</a></td><td>Jellicent</td><td>-</td><td>Metagame</td></tr>
+<tr><td>20</td><td><a href="/smog/issue20/lc_cores">Little Cup Cores</a></td><td>Furai</td><td>Elevator Music</td><td>Metagame</td></tr>
+<tr class="a"><td>20</td><td><a href="/smog/issue20/wonder_launcher">Introduction to Wonder Launcher</a></td><td>Destiny_Warrior</td><td>-</td><td>Metagame</td></tr>
+<tr><td>20</td><td><a href="/smog/issue20/intro_triple">Introduction to Triple Battles</a></td><td>Destiny_Warrior</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>20</td><td><a href="/smog/issue20/lottery">Hitting the Lottery: BW's Big Winners</a></td><td>sandshrewz</td><td>-</td><td>Metagame</td></tr>
+<tr><td>20</td><td><a href="/smog/issue20/impact">The Impact of Forme-All Wear, and what it means for BW2</a></td><td>Deck Knight</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>20</td><td><a href="/smog/issue20/nu">What's New in NU?</a></td><td>DTC</td><td>Zebraiken</td><td>Metagame</td></tr>
+<tr><td>20</td><td><a href="/smog/issue20/art_panel">Judge a Pokémon: The Smog's 8th Art Panel</a></td><td>Fatecrashers</td><td><a href="/smog/issue20/art_panel">Collaboration</a></td><td>Arts &amp; Recreation</td></tr>
+<tr class="a"><td>20</td><td><a href="/smog/issue20/smeargle">Smeargle's Studio Update</a></td><td>Alchemator</td><td>-</td><td>Arts &amp; Recreation</td></tr>
+<tr><td>20</td><td><a href="/smog/issue20/arterview">The Arterview: Swaggersaurus</a></td><td>Alchemator</td><td>-</td><td>Arts &amp; Recreation</td></tr>
+<tr class="a"><td>20</td><td><a href="/smog/issue20/memorable_articles">20 Memorable Articles in The Smog</a></td><td>Ray Jay</td><td>-</td><td>Entertainment</td></tr>
+<tr><td>20</td><td><a href="/smog/issue20/pokemon_biology">Pokémon Biology</a></td><td>Birkal</td><td><a href="/smog/issue20/pokemon_biology">Collaboration</a></td><td>Entertainment</td></tr>
+<tr class="a"><td>20</td><td><a href="/smog/issue20/dangerous_irl">Top 10 Dangerous Pokémon IRL</a></td><td>Oglemi</td><td>-</td><td>Entertainment</td></tr>
+<tr><td>20</td><td><a href="/smog/issue20/mock_awards">Mock Smog Awards</a></td><td>Eo Ut Mortus</td><td>Iconic</td><td>Entertainment</td></tr>
+<tr class="a"><td>20</td><td><a href="/smog/issue20/poketour">PokéTour: Castelia City</a></td><td>Birkal</td><td><a href="/smog/issue20/poketour">Collaboration</a></td><td>Entertainment</td></tr>
+<tr><td>20</td><td><a href="/smog/issue20/dw_project">The Dream World Project</a></td><td>Omicron</td><td>Tobes</td><td>Other Features</td></tr>
+<tr class="a"><td>20</td><td><a href="/smog/issue20/welcome">Welcome to the Family: An Introduction to Mafia</a></td><td>Acklow</td><td>-</td><td>Other Features</td></tr>
+<tr><td>20</td><td><a href="/smog/issue20/nuzlocke">Nuzlocke and Loaded</a></td><td>firecape</td><td>-</td><td>Other Features</td></tr>
+<tr class="a"><td>21</td><td><a href="/smog/issue21/note_from_editor">Note from the Editor</a></td><td>Setsuna</td><td>-</td><td>General</td></tr>
+<tr><td>21</td><td><a href="/smog/issue21/ask_admins">Ask the Admins</a></td><td>Setsuna</td><td>bojangles</td><td>General</td></tr>
+<tr class="a"><td>21</td><td><a href="/smog/issue21/interview">Interview with JabbaTheGriffin</a></td><td>bojangles</td><td>-</td><td>General</td></tr>
+<tr><td>21</td><td><a href="/smog/issue21/tournaments">Tournaments Coverage</a></td><td>Earthworm</td><td><a href="/smog/issue21/tournaments">Collaboration</a></td><td>General</td></tr>
+<tr class="a"><td>21</td><td><a href="/smog/issue21/trivia">Trivia</a></td><td>Zystral</td><td>-</td><td>General</td></tr>
+<tr><td>21</td><td><a href="/smog/issue21/featured_pokemon">Featured OU Pokémon: Tornadus-Therian</a></td><td>Seven Deadly Sins</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>21</td><td><a href="/smog/issue21/featured_pokemon_uber">Featured Ubers Pokémon: Kyurem-W</a></td><td>Jibaku</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>21</td><td><a href="/smog/issue21/featured_pokemon_uu">Featured UU Pokémon: Slowbro</a></td><td>kokololo</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>21</td><td><a href="/smog/issue21/featured_pokemon_lc">Featured LC Pokémon: Porygon</a></td><td>Ray Jay</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>21</td><td><a href="/smog/issue21/featured_pokemon_ru">Featured RU Pokémon: Moltres</a></td><td>Texas Cloverleaf</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>21</td><td><a href="/smog/issue21/featured_pokemon_nu">Featured NU Pokémon: Skuntank</a></td><td>NatGeo</td><td>DTC</td><td>Battling Strategy</td></tr>
+<tr><td>21</td><td><a href="/smog/issue21/type_analysis">Type Analysis: Grass</a></td><td>Seven Deadly Sins</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>21</td><td><a href="/smog/issue21/bottom_barrel">Bottom of the Barrel: The Stuff You Should NOT Be Using</a></td><td>kokoloko</td><td><a href="/smog/issue21/bottom_barrel">Collaboration</a></td><td>Battling Strategy</td></tr>
+<tr><td>21</td><td><a href="/smog/issue21/best_of_best">Best of the Best: Ranking of Pseudo-Legendaries in BW</a></td><td>SkullCandy</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>21</td><td><a href="/smog/issue21/status_uber_tier">Status in the Uber Tier</a></td><td>DracoYoshi8</td><td>firecape</td><td>Battling Strategy</td></tr>
+<tr><td>21</td><td><a href="/smog/issue21/defense">How it's Made: Defense</a></td><td>yee</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>21</td><td><a href="/smog/issue21/top_10">Top Ten Moves in OU</a></td><td>SkullCandy</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>21</td><td><a href="/smog/issue21/featured_rmt_ou">Featured OU RMT</a></td><td>Iconic</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>21</td><td><a href="/smog/issue21/featured_rmt_uber">Featured Ubers RMT</a></td><td>Furai</td><td>-</td><td>Metagame</td></tr>
+<tr><td>21</td><td><a href="/smog/issue21/featured_rmt_uu">Featured UU RMT</a></td><td>kokoloko</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>21</td><td><a href="/smog/issue21/featured_rmt_nu">Featured NU RMT</a></td><td>Django</td><td>-</td><td>Metagame</td></tr>
+<tr><td>21</td><td><a href="/smog/issue21/metamorphosis">Metamorphosis: How Awful Bug-types Have Improved Over Time</a></td><td>SilentVerse</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>21</td><td><a href="/smog/issue21/underrated_ubers_movesets">Underrated Ubers Movesets</a></td><td>Furai</td><td><a href="/smog/issue21/underrated_ubers_movesets">Collaboration</a></td><td>Metagame</td></tr>
+<tr><td>21</td><td><a href="/smog/issue21/underrated_movesets">Underrated DPP OU Movesets</a></td><td>Iconic</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>21</td><td><a href="/smog/issue21/hackmons">Introduction to "Balanced" Hackmons</a></td><td>DTC</td><td>verbatim</td><td>Metagame</td></tr>
+<tr><td>21</td><td><a href="/smog/issue21/weather">Worrying About Weather</a></td><td>Giga Punch</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>21</td><td><a href="/smog/issue21/metagame">BW1 OU Metagame Analysis</a></td><td>Harsha</td><td>-</td><td>Metagame</td></tr>
+<tr><td>21</td><td><a href="/smog/issue21/ubers_cores">Ubers Cores</a></td><td>Furai</td><td><a href="/smog/issue21/ubers_cores">Collaboration</a></td><td>Metagame</td></tr>
+<tr class="a"><td>21</td><td><a href="/smog/issue21/nu">What's New in NU?</a></td><td>DTC</td><td>Django</td><td>Metagame</td></tr>
+<tr><td>21</td><td><a href="/smog/issue21/ru">RU Ready for BW2?</a></td><td>Texas Cloverleaf</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>21</td><td><a href="/smog/issue21/nu_cores">NU Cores</a></td><td>DTC</td><td>Zebraiken</td><td>Metagame</td></tr>
+<tr><td>21</td><td><a href="/smog/issue21/pokemon_biology">Pokémon Biology: Under the Sea</a></td><td>Birkal</td><td><a href="/smog/issue21/pokemon_biology">Collaboration</a></td><td>Arts &amp; Recreation</td></tr>
+<tr class="a"><td>21</td><td><a href="/smog/issue21/poketour">PokéTour: Goldenrod City</a></td><td>Birkal</td><td><a href="/smog/issue21/poketour">Collaboration</a></td><td>Arts &amp; Recreation</td></tr>
+<tr><td>21</td><td><a href="/smog/issue21/smeargle">Smeargle's Studio Update</a></td><td>Fatecrashers</td><td>-</td><td>Arts &amp; Recreation</td></tr>
+<tr class="a"><td>21</td><td><a href="/smog/issue21/charizard">Why the Ladder Sucks at Ubers, or: Charizard is Not a Good Meta Pick</a></td><td>Tobes</td><td>-</td><td>Entertainment</td></tr>
+<tr><td>21</td><td><a href="/smog/issue21/bottom_10">Bottom 10 Most Threatening Pokémon IRL</a></td><td>Oglemi</td><td>-</td><td>Entertainment</td></tr>
+<tr class="a"><td>21</td><td><a href="/smog/issue21/admin_tips">Admin Tips - How to Succeed on Smogon</a></td><td>bojangles</td><td>-</td><td>Entertainment</td></tr>
+<tr><td>21</td><td><a href="/smog/issue21/oi_players">The OI Players Play: Pokémon TCG for GameBoy Color</a></td><td>Birkal</td><td><a href="/smog/issue21/oi_players">Collaboration</a></td><td>Entertainment</td></tr>
+<tr class="a"><td>21</td><td><a href="/smog/issue21/review">Review: Pokémon Conquest</a></td><td>bugmaniacbob</td><td>-</td><td>Entertainment</td></tr>
+<tr><td>21</td><td><a href="/smog/issue21/irc">IRC Survival Guide</a></td><td>Fatecrashers</td><td>-</td><td>Entertainment</td></tr>
+<tr class="a"><td>21</td><td><a href="/smog/issue21/orange_islands">The Orange Islands - Smogon's Casual Retreat</a></td><td>Jellicent</td><td>-</td><td>Other Features</td></tr>
+<tr><td>21</td><td><a href="/smog/issue21/challenge">The Outsiders Challenge</a></td><td>Harsha</td><td>-</td><td>Other Features</td></tr>
+<tr class="a"><td>21</td><td><a href="/smog/issue21/cap">CAP3 Report: Mulling over Mollux</a></td><td>capefeather</td><td>-</td><td>Other Features</td></tr>
+<tr><td>22</td><td><a href="/smog/issue22/note_from_editor">Note from the Editor</a></td><td>Setsuna</td><td>-</td><td>General</td></tr>
+<tr class="a"><td>22</td><td><a href="/smog/issue22/interview">Interview with Kevin Garrett</a></td><td>Oglemi</td><td>-</td><td>General</td></tr>
+<tr><td>22</td><td><a href="/smog/issue22/trivia">Trivia</a></td><td>Zystral</td><td>-</td><td>General</td></tr>
+<tr class="a"><td>22</td><td><a href="/smog/issue22/featured_pokemon_lc">Featured LC Pokémon: Drilbur</a></td><td>comatthew6</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>22</td><td><a href="/smog/issue22/featured_pokemon_ru">Featured RU Pokémon: Nidoqueen</a></td><td>SilentVerse</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>22</td><td><a href="/smog/issue22/safe_battling">Safe Battling: How to use Protection</a></td><td>shrang</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>22</td><td><a href="/smog/issue22/featured_rmt_uber">Featured Ubers RMT</a></td><td>Furai</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>22</td><td><a href="/smog/issue22/featured_rmt_uu">Featured UU RMT</a></td><td>PK Gaming</td><td>-</td><td>Metagame</td></tr>
+<tr><td>22</td><td><a href="/smog/issue22/featured_rmt_nu">Featured NU RMT</a></td><td>Django</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>22</td><td><a href="/smog/issue22/ru_normal_types">Normal-types in RU: Anything but Average</a></td><td>Molk</td><td>Oglemi</td><td>Metagame</td></tr>
+<tr><td>22</td><td><a href="/smog/issue22/bw2_ou_meta">BW2 OU Metagame Analysis</a></td><td>Harsha</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>22</td><td><a href="/smog/issue22/ou_underrated_movesets">Underrated OU Movesets</a></td><td>PDC</td><td>-</td><td>Metagame</td></tr>
+<tr><td>22</td><td><a href="/smog/issue22/uu_underrated_movesets">Underrated UU Movesets</a></td><td>kokoloko</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>22</td><td><a href="/smog/issue22/nu_underrated_movesets">Underrated NU Movesets</a></td><td>Zebraiken</td><td>-</td><td>Metagame</td></tr>
+<tr><td>22</td><td><a href="/smog/issue22/nu">What's New in NU?</a></td><td>EBeast</td><td>DTC</td><td>Metagame</td></tr>
+<tr class="a"><td>22</td><td><a href="/smog/issue22/smogcraft">Smogcraft, Smogon's Own Minecraft Server</a></td><td>SalTheThief</td><td>forks</td><td>Arts &amp; Recreation</td></tr>
+<tr><td>22</td><td><a href="/smog/issue22/pokemon_biology">Pok&eacute;mon Biology: Man-Made Species</a></td><td>Bummer</td><td><a href="/smog/issue22/pokemon_biology">Collaboration</a></td><td>Entertainment</td></tr>
+<tr class="a"><td>22</td><td><a href="/smog/issue22/oi_players">The OI Players: Pokémon Mystery Dungeon - Red/Blue Rescue Team</a></td><td>Jellicent</td><td><a href="/smog/issue22/oi_players">Collaboration</a></td><td>Entertainment</td></tr>
+<tr><td>22</td><td><a href="/smog/issue22/gamefreak">Game Freak's Birdchievements and Blunders</a></td><td>ballabrown24</td><td>-</td><td>Entertainment</td></tr>
+<tr class="a"><td>22</td><td><a href="/smog/issue22/bw2_medal_rally">Black and White 2, The Medal Rally, and You!</a></td><td>Joeyboy</td><td>-</td><td>Other Features</td></tr>
+<tr><td>22</td><td><a href="/smog/issue22/starters">About the Starters: The Grass-types</a></td><td>SuperJOCKE</td><td>sandshrewz</td><td>Other Features</td></tr>
+<tr class="a"><td>22</td><td><a href="/smog/issue22/asb">From Zero to Hero: Forgotten OU Members Who Excel in CAP ASB</a></td><td>zarator</td><td>-</td><td>Other Features</td></tr>
+<tr><td>22</td><td><a href="/smog/issue22/showdown">Peaking the Ladder on Pokemon Showdown!</a></td><td>PDC</td><td>-</td><td>Other Features</td></tr>
+<tr class="a"><td>22</td><td><a href="/smog/issue22/retyping">Competitive Retyping III - BW Edition</a></td><td>SkullCandy</td><td>Deck Knight</td><td>Other Features</td></tr>
+<tr><td>22</td><td><a href="/smog/issue22/old_vs_new">Pokémon: Old vs. New</a></td><td>SuperJOCKE</td><td>-</td><td>Other Features</td></tr>
+<tr class="a"><td>23</td><td><a href="/smog/issue23/note_from_editor">Note From The Editor</a></td><td>Setsuna</td><td>-</td><td>General</td></tr><tr><td>23</td><td><a href="/smog/issue23/interview">Interview with Zarel</a></td><td>Oglemi</td><td>-</td><td>General</td></tr>
+<tr class="a"><td>23</td><td><a href="/smog/issue23/smogon_2012">Smogon 2012 in a Nutshell</a></td><td>Birkal</td><td>Layell</td><td>General</td></tr>
+<tr><td>23</td><td><a href="/smog/issue23/trivia">Trivia</a></td><td>Level 51</td><td>-</td><td>General</td></tr>
+<tr class="a"><td>23</td><td><a href="/smog/issue23/smog_awards">The Smog Awards</a></td><td>bojangles</td><td>-</td><td>General</td></tr>
+<tr><td>23</td><td><a href="/smog/issue23/featured_pokemon_uber">Featured Ubers Pokemon: Ho-Oh</a></td><td>Furai</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>23</td><td><a href="/smog/issue23/featured_pokemon_uu">Featured UU Pokemon: Crobat</a></td><td>kokoloko</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>23</td><td><a href="/smog/issue23/featured_pokemon_nu">Featured NU Pokemon: Sawk</a></td><td>DTC</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>23</td><td><a href="/smog/issue23/featured_rmt_ou">Featured OU RMT</a></td><td>Harsha</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>23</td><td><a href="/smog/issue23/featured_rmt_ru">Featured RU RMT</a></td><td>Windsong</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>23</td><td><a href="/smog/issue23/featured_rmt_lc">Featured LC RMT</a></td><td>Elevator Music</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>23</td><td><a href="/smog/issue23/type_analysis">Type Analysis: Fighting</a></td><td>Harsha</td><td>PK Gaming</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>23</td><td><a href="/smog/issue23/hail">Weather Analysis: Hail</a></td><td>PDC</td><td>-</td><td>Metagame</td></tr>
+<tr><td>23</td><td><a href="/smog/issue23/annoying_sets">The 10 Most Annoying Pok&eacute;mon Sets</a></td><td>Superpowerdude</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>23</td><td><a href="/smog/issue23/nu_baton_pass">Buff, Buff, Pass: Baton Pass in NU</a></td><td>Django</td><td>-</td><td>Metagame</td></tr>
+<tr><td>23</td><td><a href="/smog/issue23/nu_ice_Metagames">Unopened Christmas Gifts: NU Ice-types</a></td><td>Annoyer</td><td>EBeast</td><td>Metagame</td></tr>
+<tr class="a"><td>23</td><td><a href="/smog/issue23/other_metagames">Other Obscure Metagames</a></td><td>DTC</td><td>-</td><td>Metagame</td></tr>
+<tr><td>23</td><td><a href="/smog/issue23/qc_corner">What's HOT in C&amp;C? QC Corner</a></td><td>Pocket</td><td><a href="/smog/issue23/qc_corner">Collaboration</a></td><td>Metagame</td></tr>
+<tr class="a"><td>23</td><td><a href="/smog/issue23/underrated_ru_movesets">Underrated RU Movesets</a></td><td>Windsong</td><td>Oglemi</td><td>Metagame</td></tr>
+<tr><td>23</td><td><a href="/smog/issue23/art_panel">Judge a Pok&eacute;mon: The Smog's 9th Art Panel</a></td><td>Birkal</td><td><a href="/smog/issue23/art_panel">Collaboration</a></td><td>Arts &amp; Recreation</td></tr>
+<tr class="a"><td>23</td><td><a href="/smog/issue23/poketour">Pok&eacute;Tour: Snowpoint City</a></td><td>Jellicent</td><td><a href="/smog/issue23/poketour">Collaboration</a></td><td>Arts &amp; Recreation</td></tr>
+<tr><td>23</td><td><a href="/smog/issue23/smeargle">Smeargle's Studio Update</a></td><td>ium</td><td><a href="/smog/issue23/smeargle">Collaboration</a></td><td>Arts &amp; Recreation</td></tr>
+<tr class="a"><td>23</td><td><a href="/smog/issue23/arterview">The Arterview: Volmise</a></td><td>ium</td><td>-</td><td>Arts &amp; Recreation</td></tr>
+<tr><td>23</td><td><a href="/smog/issue23/smogon_history">Great Moments in Smogon History</a></td><td>Fatecrashers</td><td>-</td><td>Entertainment</td></tr>
+<tr class="a"><td>23</td><td><a href="/smog/issue23/christmas_party">Top 10 Worst Pok&eacute;mon to have as Christmas Party Guests</a></td><td>Oglemi</td><td>-</td><td>Entertainment</td></tr>
+<tr><td>23</td><td><a href="/smog/issue23/scramble_challange">Scramble Challange: Give the Gift of Pok&eacute;mon</a></td><td>Jellicent</td><td>Its_A_Random</td><td>Entertainment</td></tr>
+<tr class="a"><td>23</td><td><a href="/smog/issue23/pokemon_biology">Pok&eacute;mon Biology: Combined Evolution</a></td><td>Bummer</td><td><a href="/smog/issue23/pokemon_biology">Collaboration</a></td><td>Entertainment</td></tr>
+<tr><td>23</td><td><a href="/smog/issue23/pokeschool">Saved by the Bell: Pok&eacute;School IRL</a></td><td>sandshrewz</td><td>-</td><td>Entertainment</td></tr>
+<tr class="a"><td>23</td><td><a href="/smog/issue23/christmas_dinner">The Perfect Pok&eacute;mon Christmas Dinner</a></td><td>bugmaniacbob</td><td>-</td><td>Entertainment</td></tr>
+<tr><td>23</td><td><a href="/smog/issue23/gym_guide">Do You Even Lift? A Guide to the Gyms</a></td><td>Rodan</td><td><a href="/smog/issue23/gym_guide">Collaboration</a></td><td>Entertainment</td></tr>
+<tr class="a"><td>23</td><td><a href="/smog/issue23/starters">About the Starters: The Fire-types</a></td><td>SuperJOCKE</td><td>sandshrewz</td><td>Other Features</td></tr>
+<tr><td>23</td><td><a href="/smog/issue23/tcg">Pok&eacute;mon TCG: Boundaries Crossed Set Overview</a></td><td>TheMantyke</td><td>-</td><td>Other Features</td></tr>
+<tr class="a"><td>23</td><td><a href="/smog/issue23/pokestudios">Lights, Camera, Action! A Look at Pok&eacute;Studios!</a></td><td>Joeyboy</td><td>-</td><td>Other Features</td></tr>
+<tr><td>23</td><td><a href="/smog/issue23/ladder_players">Players of the Ladders</a></td><td>Windsong</td><td>-</td><td>Other Features</td></tr>
+<tr class="a"><td>23</td><td><a href="/smog/issue23/avenue">Becoming Popular (The Avenue Every Player Should Know)</a></td><td>Level 51</td><td>-</td><td>Other Features</td></tr>
+<tr><td>23</td><td><a href="/smog/issue23/battle_capacity">Battling at Full CAPacity</a></td><td>Xaqwais</td><td>-</td><td>Other Features</td></tr>
+<tr class="a"><td>23</td><td><a href="/smog/issue23/cap">CAP4 Report: Aurumoth</a></td><td>capefeather</td><td>-</td><td>Other Features</td></tr>
+<tr><td>23</td><td><a href="/smog/issue23/competitor">The Competitor</a></td><td>Tobes</td><td>-</td><td>Other Features</td></tr>
+<tr class="a"><td>24</td><td><a href="/smog/issue24/note_from_editor">Note from the Editor</a></td><td>Birkal</td><td>-</td><td>General</td></tr>
+<tr><td>24</td><td><a href="/smog/issue24/interview">Interview with Glen</a></td><td>Oglemi</td><td>-</td><td>General</td></tr>
+<tr class="a"><td>24</td><td><a href="/smog/issue24/trivia">Trivia</a></td><td>Zystral</td><td>-</td><td>General</td></tr>
+<tr><td>24</td><td><a href="/smog/issue24/smog_awards">The Smog Awards 2012: Voting Stage</a></td><td>bojangles</td><td>Jellicent</td><td>General</td></tr>
+<tr class="a"><td>24</td><td><a href="/smog/issue24/featured_pokemon">Featured OU Pokémon: Terrakion</a></td><td>Harsha</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>24</td><td><a href="/smog/issue24/featured_pokemon_ru">Featured RU Pokémon: Snover</a></td><td>SilentVerse</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>24</td><td><a href="/smog/issue24/featured_pokemon_lc">Featured LC Pokémon: Tirtouga</a></td><td>Superpowerdude</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>24</td><td><a href="/smog/issue24/featured_rmt_uber">Featured Ubers RMT</a></td><td>syrim</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>24</td><td><a href="/smog/issue24/featured_rmt_nu">Featured NU RMT</a></td><td>Django</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>24</td><td><a href="/smog/issue24/featured_rmt_adv">Featured ADV OU RMT</a></td><td>Sir</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>24</td><td><a href="/smog/issue24/entry_hazards">Watch Your Step! Entry Hazard Laying in OU</a></td><td>Superpowerdude</td><td>-</td><td>Metagame</td></tr>
+<tr><td>24</td><td><a href="/smog/issue24/uu_101">Underused 101: Teambuilding</a></td><td>kokoloko</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>24</td><td><a href="/smog/issue24/nu">What's New in NU?</a></td><td>DTC</td><td>ium</td><td>Metagame</td></tr>
+<tr><td>24</td><td><a href="/smog/issue24/smogon_doubles_intro">Welcome to Smogon Doubles!</a></td><td>Pocket</td><td><a href="/smog/issue24/smogon_doubles_intro">Collaboration</a></td><td>Metagame</td></tr>
+<tr class="a"><td>24</td><td><a href="/smog/issue24/smogon_doubles">A Crash Course in Smogon Doubles</a></td><td>Pwnemon</td><td>-</td><td>Metagame</td></tr>
+<tr><td>24</td><td><a href="/smog/issue24/dpp_underrated_movesets">Underrated DPP OU Movesets</a></td><td>BKC</td><td><a href="/smog/issue24/dpp_underrated_movesets">Collaboration</a></td><td>Metagame</td></tr>
+<tr class="a"><td>24</td><td><a href="/smog/issue24/rby_stars">Where Are They Now? The Stars of RBY OU</a></td><td>Jellicent</td><td></td><td>Metagame</td></tr>
+<tr><td>24</td><td><a href="/smog/issue24/art_panel">Judge a Pokémon: The Smog's 10th Art Panel</a></td><td>Birkal</td><td><a href="/smog/issue24/art_panel">Collaboration</a></td><td>Arts &amp; Recreation</td></tr>
+<tr class="a"><td>24</td><td><a href="/smog/issue24/arterview">The Arterview: RitterCat</a></td><td>ium</td><td></td><td>Arts &amp; Recreation</td></tr>
+<tr><td>24</td><td><a href="/smog/issue24/smeargle">Smeargle's Studio Update</a></td><td>ium</td><td>RitterCat</td><td>Arts &amp; Recreation</td></tr>
+<tr class="a"><td>24</td><td><a href="/smog/issue24/pathfinder">Smogon Pathfinder: A Brief History</a></td><td>vonFiedler</td><td>-</td><td>Arts &amp; Recreation</td></tr>
+<tr><td>24</td><td><a href="/smog/issue24/pokemon_biology">Pokémon Biology: Specialized Combat</a></td><td>Bummer</td><td><a href="/smog/issue24/pokemon_biology">Collaboration</a></td><td>Entertainment</td></tr>
+<tr class="a"><td>24</td><td><a href="/smog/issue24/gym_guide">Do You Even Lift: Johto Jockstrap Edition</a></td><td>Rodan</td><td>Layell</td><td>Entertainment</td></tr>
+<tr><td>24</td><td><a href="/smog/issue24/dog_article">Dog Article</a></td><td>Django</td><td><a href="/smog/issue24/dog_article">Collaboration</a></td><td>Entertainment</td></tr>
+<tr class="a"><td>24</td><td><a href="/smog/issue24/good_game">Good Game, or Was It?</a></td><td>Ginku</td><td>McMeghan</td><td>Entertainment</td></tr>
+<tr><td>24</td><td><a href="/smog/issue24/starters">About the Starters: The Water-types</a></td><td>SuperJOCKE</td><td>sandshrewz</td><td>Other Features</td></tr>
+<tr class="a"><td>24</td><td><a href="/smog/issue24/gen_vi_speculation">The Sky's the Limit! Generation VI Speculation!</a></td><td>Joeyboy</td><td></td><td>Other Features</td></tr>
+<tr><td>24</td><td><a href="/smog/issue24/cap">CAP Policy Review: Getting the Bugs Out of Our System</a></td><td>Deck Knight</td><td>-</td><td>Other Features</td></tr>
+<tr class="a"><td>24</td><td><a href="/smog/issue24/challenge_cup">Winning With Wooper: A Guide to Challenge Cup</a></td><td>NfskMjmMal</td><td>-</td><td>Other Features</td></tr>
+<tr><td>25</td><td><a href="/smog/issue25/note_from_editor">Note from the Editor</a></td><td>Setsuna</td><td>-</td><td>General</td></tr>
+<tr class="a"><td>25</td><td><a href="/smog/issue25/interview">Interview with Zebraiken</a></td><td>Oglemi</td><td>ium</td><td>General</td></tr>
+<tr><td>25</td><td><a href="/smog/issue25/trivia">Trivia</a></td><td>Zystral</td><td>-</td><td>General</td></tr>
+<tr class="a"><td>25</td><td><a href="/smog/issue25/smog_awards">The Smog Awards 2012</a></td><td>Jellicent</td><td>-</td><td>General</td></tr>
+<tr><td>25</td><td><a href="/smog/issue25/featured_pokemon_uu">Featured UU Pokémon: Snorlax</a></td><td>kokoloko</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>25</td><td><a href="/smog/issue25/featured_pokemon_nu">Featured NU Pokémon: Gardevoir</a></td><td>Starships</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>25</td><td><a href="/smog/issue25/featured_rmt_ou">Featured OU RMT</a></td><td>Harsha</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>25</td><td><a href="/smog/issue25/featured_rmt_ru">Featured RU RMT</a></td><td>Jellicent</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>25</td><td><a href="/smog/issue25/featured_rmt_lc">Featured LC RMT</a></td><td>Superpowerdude</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>25</td><td><a href="/smog/issue25/elemental_gems">Diamonds in the Rough: the Elemental Gems in Singles</a></td><td>Cherub Agent</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>25</td><td><a href="/smog/issue25/leads">Getting a Strong Start: Leads in BW2 OU</a></td><td>pokemon0078</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>25</td><td><a href="/smog/issue25/suspect">Suspect Coverage: Rounds 6-7</a></td><td>PDC</td><td>-</td><td>Metagame</td></tr>
+<tr><td>25</td><td><a href="/smog/issue25/nfes_nu">NFEs in NU</a></td><td>Joim</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>25</td><td><a href="/smog/issue25/lc_sand">Just Deserts: A Taste of Sand in Little Cup</a></td><td>Elevator Music</td><td>-</td><td>Metagame</td></tr>
+<tr><td>25</td><td><a href="/smog/issue25/doubles_strategies">Uncommon Doubles Strategies</a></td><td>Level 51</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>25</td><td><a href="/smog/issue25/rely_abilities">15 Pokémon That Rely on Their Abilities</a></td><td>NfskMjmMal</td><td>-</td><td>Metagame</td></tr>
+<tr><td>25</td><td><a href="/smog/issue25/adv_underrated_movesets">Underrated ADV OU Movesets</a></td><td>Sir</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>25</td><td><a href="/smog/issue25/rby_underdogs">RBY Underdogs that Hit it Big in BW</a></td><td>Jellicent</td><td>-</td><td>Metagame</td></tr>
+<tr><td>25</td><td><a href="/smog/issue25/arterview">The Arterview: Birkal</a></td><td>ium</td><td>-</td><td>Arts &amp; Recreation</td></tr>
+<tr class="a"><td>25</td><td><a href="/smog/issue25/smeargle">Smeargle's Studio Update</a></td><td>ium</td><td>-</td><td>Arts &amp; Recreation</td></tr>
+<tr><td>25</td><td><a href="/smog/issue25/pathfinder">A Beginner's Guide to Pathfinder Society</a></td><td>vonFiedler</td><td>-</td><td>Arts &amp; Recreation</td></tr>
+<tr class="a"><td>25</td><td><a href="/smog/issue25/pokemon_biology">Pok&eacute;mon Biology: Conditional Evolution</a></td><td>Arcticblast</td><td><a href="/smog/issue25/pokemon_biology">Collaboration</a></td><td>Entertainment</td></tr>
+<tr><td>25</td><td><a href="/smog/issue25/poketour">Pok&eacute;Tour: Fortree City</a></td><td>Layell</td><td><a href="/smog/issue25/poketour">Collaboration</a></td><td>Entertainment</td></tr>
+<tr class="a"><td>25</td><td><a href="/smog/issue25/gym_guide">Do You Even Lift: Hoenn Hunks Edition</a></td><td>Rodan</td><td>Layell</td><td>Entertainment</td></tr>
+<tr><td>25</td><td><a href="/smog/issue25/ingame_tiers">Tiers of Joy: Understanding Each Game's In-Game Tiers</a></td><td>Layell</td><td>-</td><td>Other Features</td></tr>
+<tr class="a"><td>25</td><td><a href="/smog/issue25/xy_speculation">XY Primer: Mad Speculation, Now in 3D</a></td><td>Deck Knight</td><td>-</td><td>Other Features</td></tr>
+<tr><td>25</td><td><a href="/smog/issue25/article_workshop">(WIP) The Article Workshop</a></td><td>Redew</td><td>Lady Salamence</td><td>Other Features</td></tr>
+<tr class="a"><td>25</td><td><a href="/smog/issue25/zero_isle">A Close Look at Zero Isle</a></td><td>Superpowerdude</td><td>-</td><td>Other Features</td></tr>
+<tr><td>25</td><td><a href="/smog/issue25/ps_staff">How to Not Piss Off the PS Staff</a></td><td>Tobes</td><td>-</td><td>Other Features</td></tr>
+<tr class="a"><td>26</td><td><a href="/smog/issue26/note_from_editor">Note from the Editor</a></td><td>Setsuna</td><td>-</td><td>General</td></tr>
+<tr><td>26</td><td><a href="/smog/issue26/interview">Interview with Iconic</a></td><td>Oglemi</td><td>-</td><td>General</td></tr>
+<tr class="a"><td>26</td><td><a href="/smog/issue26/trivia">Trivia</a></td><td>Level 51</td><td>-</td><td>General</td></tr>
+<tr><td>26</td><td><a href="/smog/issue26/ou_spotlight_keldeo">OU Spotlight: Keldeo</a></td><td>Jukain</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>26</td><td><a href="/smog/issue26/arceus_formes">Enlightenment: Working Out Arceus Formes from Team Preview</a></td><td>shrang</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>26</td><td><a href="/smog/issue26/uu_201">Underused 201: Battling</a></td><td>kokoloko</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>26</td><td><a href="/smog/issue26/ru_status">Status in RU</a></td><td>Mack the Knife</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>26</td><td><a href="/smog/issue26/nu_spotlight_drifblim">NU Spotlight: Drifblim</a></td><td>Joim</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>26</td><td><a href="/smog/issue26/doubles_spotlight_amoonguss">Doubles Spotlight: Amoonguss</a></td><td>Pwnemon</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>26</td><td><a href="/smog/issue26/setting_up">An Introduction to Setup Moves in OU</a></td><td>Joeyboy</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>26</td><td><a href="/smog/issue26/choice_items">Using Choice Items in OU</a></td><td>Superpowerdude</td><td>-</td><td>Metagame</td></tr>
+<tr><td>26</td><td><a href="/smog/issue26/suspect">Suspect Testing Rounds 8-9</a></td><td>PDC</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>26</td><td><a href="/smog/issue26/top_threats">OU's Top Threats: How Do They Fare in Ubers?</a></td><td>ThisMysteriousGuy</td><td>-</td><td>Metagame</td></tr>
+<tr><td>26</td><td><a href="/smog/issue26/nu_doubles">NU Doubles</a></td><td>Starships</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>26</td><td><a href="/smog/issue26/new_gsc_pokemon">The Best New Pokémon of GSC</a></td><td>Jellicent</td><td>-</td><td>Metagame</td></tr>
+<tr><td>26</td><td><a href="/smog/issue26/underdogs">GSC and ADV Underdogs that Would Have Hit Big in RBY</a></td><td>Crystal_</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>26</td><td><a href="/smog/issue26/seasonal">Seasonal Fun</a></td><td>Joim</td><td>-</td><td>Metagame</td></tr>
+<tr><td>26</td><td><a href="/smog/issue26/arterview">The Arterview: Bummer</a></td><td>ium</td><td>-</td><td>Arts and Recreation</td></tr>
+<tr class="a"><td>26</td><td><a href="/smog/issue26/afd_sprites">The Many Styles of the April Fools' Sprites</a></td><td>Layell</td><td>RitterCat</td><td>Arts and Recreation</td></tr>
+<tr><td>26</td><td><a href="/smog/issue26/pokemon_biology">Pok&eacute;mon Biology: Special Abilities</a></td><td>Lady Salamence</td><td><a href="/smog/issue26/pokemon_biology">Collaboration</a></td><td>Entertainment</td></tr>
+<tr class="a"><td>26</td><td><a href="/smog/issue26/infuriating_pokemon">Top 10 Most Infuriating Pokémon In-Game</a></td><td>Jukain</td><td>-</td><td>Entertainment</td></tr>
+<tr><td>26</td><td><a href="/smog/issue26/oddish">The Oddish</a></td><td>cookie</td><td>-</td><td>Entertainment</td></tr>
+<tr class="a"><td>26</td><td><a href="/smog/issue26/beyond_the_barrel">Beyond the Barrel: Pokémon You REALLY Shouldn't Use in Overused</a></td><td>Articblast</td><td>jas61292</td><td>Entertainment</td></tr>
+<tr><td>26</td><td><a href="/smog/issue26/battling_1337">Battling 1337: How to Battle Correctly</a></td><td>Level 51</td><td>-</td><td>Entertainment</td></tr>
+<tr class="a"><td>26</td><td><a href="/smog/issue26/old_smogon">Where Are They Now? The Stars of Old Smogon</a></td><td>Fatecrashers</td><td>-</td><td>Entertainment</td></tr>
+<tr><td>26</td><td><a href="/smog/issue26/moves">How Moves Work</a></td><td>cookie</td><td>-</td><td>Entertainment</td></tr>
+<tr class="a"><td>26</td><td><a href="/smog/issue26/asb">Battling 101: Anime Style</a></td><td>Pwnemon</td><td>-</td><td>Other Features</td></tr>
+<tr><td>26</td><td><a href="/smog/issue26/moves">How Moves Work</a></td><td>cookie</td><td>-</td><td>Entertainment</td></tr>
+<tr class="a"><td>26</td><td><a href="/smog/issue26/player_bio">ADV Player Bio: reyscarface</a></td><td>kd24</td><td>-</td><td>Other Features</td></tr>
+<tr><td>26</td><td><a href="/smog/issue26/legendary_birds">Review: The Legendary Birds of Kanto</a></td><td>Lorenzo</td><td>-</td><td>Entertainment</td></tr>
+<tr class="a"><td>26</td><td><a href="/smog/issue26/monsters">The Monsters We Crave: Pok&eacute;mon and Monster Theory</a></td><td>eriXtone</td><td>-</td><td>Other Features</td></tr>
+<tr><td>26</td><td><a href="/smog/issue26/vgc_events">I Thought We Were Just Supposed to Play</a></td><td>Golden Piloswine</td><td>-</td><td>Entertainment</td></tr>
+<tr class="a"><td>27</td><td><a href="/smog/issue27/note_from_editor">Note from The Editor</a></td><td>Setsuna</td><td>-</td><td>General</td></tr>
+<tr><td>27</td><td><a href="/smog/issue27/interview">Interview with Vader</a></td><td>Jellicent</td><td>-</td><td>General</td></tr>
+<tr class="a"><td>27</td><td><a href="/smog/issue27/trivia">Trivia</a></td><td>Lady Salamence</td><td>Mack the Knife</td><td>General</td></tr>
+<tr><td>27</td><td><a href="/smog/issue27/elemental_gems">Diamonds Aren't Forever: Elemental Gems in the Lower Tiers</a></td><td>Starships</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>27</td><td><a href="/smog/issue27/ru_spotlight_slowking">RU Spotlight: Slowking</a></td><td>Mack the Knife</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>27</td><td><a href="/smog/issue27/adv_spotlight_tyranitar">ADV OU Spotlight: Tyranitar</a></td><td>Danilo</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>27</td><td><a href="/smog/issue27/suspect">Suspect Testing Round 10</a></td><td>PDC</td><td>-</td><td>Metagame</td></tr>
+<tr><td>27</td><td><a href="/smog/issue27/ou_playstyle">OU Playstyle Analysis: Rain Offense</a></td><td>Trinitrotoluene</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>27</td><td><a href="/smog/issue27/weatherless_offense">Everything you've been told is a lie: Weatherless Offense in BW2 OU</a></td><td>Jukain</td><td>-</td><td>Metagame</td></tr>
+<tr><td>27</td><td><a href="/smog/issue27/ru_theorymon">RU Theorymon</a></td><td>NfskMjmMal</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>27</td><td><a href="/smog/issue27/nu">NU's Newest Additions</a></td><td>Starships</td><td>-</td><td>Metagame</td></tr>
+<tr><td>27</td><td><a href="/smog/issue27/nu_underrated_movesets">Underrated NU Movesets</a></td><td>Zebraiken</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>27</td><td><a href="/smog/issue27/nu_priority">Priority in NU</a></td><td>Treecko</td><td>skylight</td><td>Metagame</td></tr>
+<tr><td>27</td><td><a href="/smog/issue27/lc_parents">LC Pok&eacute;mon That Take After Their OU Parents</a></td><td>Superpowerdude</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>27</td><td><a href="/smog/issue27/vgc_antirain">Stay Afloat: Simple VGC Anti-Rain Tips</a></td><td>TheMantyke</td><td>-</td><td>Metagame</td></tr>
+<tr><td>27</td><td><a href="/smog/issue27/doubles_fallen">Glory Hogs - Fallen Stars in the Doubles Metagame</a></td><td>Audiosurfer</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>27</td><td><a href="/smog/issue27/tier_shift_weather">War of the Weathers: A Look at Weather in Tier Shift</a></td><td>Treecko</td><td>-</td><td>Metagame</td></tr>
+<tr><td>27</td><td><a href="/smog/issue27/tier_shift_threats">Equality for All? Common Tier Shift Threats Explained</a></td><td>Yarnus of Bethany</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>27</td><td><a href="/smog/issue27/dpp_bw_underdogs">DPP and BW underdogs that would have hit big in RBY</a></td><td>Crystal_</td><td>-</td><td>Metagame</td></tr>
+<tr><td>27</td><td><a href="/smog/issue27/rby_moves">What Moves You: Later Gen Moves that would redefine RBY</a></td><td>Deck Knight</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>27</td><td><a href="/smog/issue27/mechanical_changes">The Top 10 Mechanical Changes to Competitive Pokémon</a></td><td>Jellicent</td><td>-</td><td>Metagame</td></tr>
+<tr><td>27</td><td><a href="/smog/issue27/ruined">Top 10 Things That Ruined Pokemon: Part 1</a></td><td>LonelyNess</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>27</td><td><a href="/smog/issue27/smeargle">Smeargle's Studio Update</a></td><td>Bummer</td><td>-</td><td>Arts and Recreation</td></tr>
+<tr><td>27</td><td><a href="/smog/issue27/movie_panel">Movie Critics - The Panel: Golden Oldies</a></td><td>Lady Salamence</td><td><a href="/smog/issue27/movie_panel">Collaboration</a></td><td>Arts and Recreation</td></tr>
+<tr class="a"><td>27</td><td><a href="/smog/issue27/gym_guide">Do You Even Lift: Sinnoh Sweat</a></td><td>Layell</td><td>Treecko</td><td>Entertainment</td></tr>
+<tr><td>27</td><td><a href="/smog/issue27/pokemon_biology">Pok&eacute;mon Biology: Baby Boomers</a></td><td>Layell</td><td><a href="/smog/issue27/pokemon_biology">Collaboration</a></td><td>Entertainment</td></tr>
+<tr class="a"><td>27</td><td><a href="/smog/issue27/poketour">Pok&eacute;Tour: Fuchsia City</a></td><td>Birkal</td><td><a href="/smog/issue27/poketour">Collaboration</a></td><td>Entertainment</td></tr>
+<tr><td>27</td><td><a href="/smog/issue27/gary_oak">Looking back: Blue aka Gary Oak, the best rival ever</a></td><td>Joim</td><td>-</td><td>Entertainment</td></tr>
+<tr class="a"><td>27</td><td><a href="/smog/issue27/cnc">Vis-&agrave;-vis with Contributions &amp; Corrections</a></td><td>Jukain</td><td>-</td><td>Other Features</td></tr>
+<tr><td>27</td><td><a href="/smog/issue27/glitch">Inside the ROM: The deepest secrets of MissingNo. and Glitch Pok&eacute;mon</a></td><td>Crystal_</td><td>-</td><td>Other Features</td></tr>
+<tr class="a"><td>27</td><td><a href="/smog/issue27/pmd">Pok&eacute;mon Mystery Dungeon: Moves in the Dungeons</a></td><td>Darknesscrusher</td><td>-</td><td>Other Features</td></tr>
+<tr><td>27</td><td><a href="/smog/issue27/nupl">A Look Back on NU's Premier League</a></td><td>Starships</td><td>-</td><td>Other Features</td></tr>
+<tr class="a"><td>28</td><td><a href="/smog/issue28/note_from_editor">Note from the Editor</a></td><td>Setsuna</td><td>-</td><td>General</td></tr>
+<tr><td>28</td><td><a href="/smog/issue28/interview">Interview with Oglemi</a></td><td>Jellicent</td><td>-</td><td>General</td></tr>
+<tr class="a"><td>28</td><td><a href="/smog/issue28/trivia">Trivia</a></td><td>Level 51</td><td>-</td><td>General</td></tr>
+<tr><td>28</td><td><a href="/smog/issue28/ou_spotlight_landorus">OU Spotlight: Landorus</a></td><td>Jukain</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>28</td><td><a href="/smog/issue28/ru_spotlight_druddigon">RU Spotlight:Druddigon</a></td><td>col49</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>28</td><td><a href="/smog/issue28/nu_spotlight_scolipede">NU Spotlight: Scolipede</a></td><td>skylight</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>28</td><td><a href="/smog/issue28/nu_spotlight_kangaskhan">NU Spotlight:Kangaskhan</a></td><td>Agent Dell</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>28</td><td><a href="/smog/issue28/doubles_spotlight_heatran">Double Spotlight: Heatran</a></td><td>Joim</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>28</td><td><a href="/smog/issue28/ru_spotlight_rmt">RU Spotlight RMT: Rise of Mangoose</a></td><td>Mack the Knife</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>28</td><td><a href="/smog/issue28/teambuilding">Frameworks in Teambuilding</a></td><td>Limitless</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>28</td><td><a href="/smog/issue28/evs_ivs">EVs and IVs Through the Ages</a></td><td>Joim</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>28</td><td><a href="/smog/issue28/proposal">Aldaron's Proposal</a></td><td>PDC</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>28</td><td><a href="/smog/issue28/uu_theorymon">UU Theorymon</a></td><td>NfskMjmMal</td><td>-</td><td>Metagame</td></tr>
+<tr><td>28</td><td><a href="/smog/issue28/ru_underrated_movesets">Underrated RU Movesets</a></td><td>ScraftyIsTheBest</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>28</td><td><a href="/smog/issue28/ru_metagame_analysis">RU Metagame Analysis</a></td><td>Yonko7</td><td>-</td><td>Metagame</td></tr>
+<tr><td>28</td><td><a href="/smog/issue28/lc_fighting">Pee-Wee Punchers: The Fighting-types in LC</a></td><td>Superpowerdude</td><td>The Unlucky one</td><td>Metagame</td></tr>
+<tr class="a"><td>28</td><td><a href="/smog/issue28/obscure_metagames">More Obscure Metagames</a></td><td>Arcticblast</td><td>Agent Dell</td><td>Metagame</td></tr>
+<tr><td>28</td><td><a href="/smog/issue28/gsc">Introduction to Competitive GSC</a></td><td>Royal Flush</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>28</td><td><a href="/smog/issue28/arterview">The Arterview: Yilx</a></td><td>Bummer</td><td>-</td><td>Arts and Recreation</td></tr>
+<tr><td>28</td><td><a href="/smog/issue28/art_panel">Judge a Pokémon: The Smog's 11th Art Panel</a></td><td>Birkal</td><td><a href="/smog/issue28/art_panel">Collaboration</a></td><td>Arts and Recreation</td></tr>
+<tr class="a"><td>28</td><td><a href="/smog/issue28/movie_panel">Movie Critics - The Panel: Johto Journeys</a></td><td>Lady Salamence</td><td><a href="/smog/issue28/movie_panel">Collaboration</a></td><td>Arts and Recreation</td></tr>
+<tr><td>28</td><td><a href="/smog/issue28/gym_guide">Do You Even Lift: Over with Unova - Part 1</a></td><td>Layell</td><td>Treecko</td><td>Entertainment</td></tr>
+<tr class="a"><td>28</td><td><a href="/smog/issue28/geology">Geological Wonders of the Pokémon World</a></td><td>Treecko</td><td>DarkBlazeR</td><td>Entertainment</td></tr>
+<tr><td>28</td><td><a href="/smog/issue28/n">Enter N</a></td><td>skylight</td><td>-</td><td>Entertainment</td></tr>
+<tr class="a"><td>28</td><td><a href="/smog/issue28/conspiracy">Smogon Conspiracy Theories: What Really Goes on Behind the Scenes</a></td><td>Jellicent</td><td>Mack the Knife</td><td>Entertainment</td></tr>
+<tr><td>28</td><td><a href="/smog/issue28/oddish">The Oddish</a></td><td>cookie</td><td>-</td><td>Entertainment</td></tr>
+<tr class="a"><td>28</td><td><a href="/smog/issue28/leadership_dojo">Leadership Dojo: How to Be a Gym Leader</a></td><td>Qwilphish</td><td>-</td><td>Entertainment</td></tr>
+<tr><td>28</td><td><a href="/smog/issue28/leaks">Insider X &amp; Y Leaks, Straight From the Playground</a></td><td>TheMantyke</td><td>-</td><td>Entertainment</td></tr>
+<tr class="a"><td>28</td><td><a href="/smog/issue28/edibles">Incredible Edibles</a></td><td>Phoenix01</td><td>-</td><td>Entertainment</td></tr>
+<tr><td>28</td><td><a href="/smog/issue28/fairies">All of These Freakin' Fairies!</a></td><td>Deck Knight</td><td>-</td><td>Entertainment</td></tr>
+<tr class="a"><td>28</td><td><a href="/smog/issue28/prerelease">XY Primer: How Much Will We Know Pre-Release?</a></td><td>Layell</td><td>-</td><td>Other Features</td></tr>
+<tr><td>28</td><td><a href="/smog/issue28/other_way">Playing Your Games, The Other Way!</a></td><td>Darknesscrusher</td><td>-</td><td>Other Features</td></tr>
+<tr class="a"><td>29</td><td><a href="/smog/issue29/note_from_editor">Note from the Editor</a></td><td>Toast++</td><td>-</td><td>General</td></tr>
+<tr><td>29</td><td><a href="/smog/issue29/interview">Interview with tab</a></td><td>Jellicent</td><td>-</td><td>General</td></tr>
+<tr class="a"><td>29</td><td><a href="/smog/issue29/how_to_host">How to Host a Tournament</a></td><td>FireMage</td><td>Lady Salamence</td><td>General</td></tr>
+<tr><td>29</td><td><a href="/smog/issue29/welcome_forums">Welcome to the New Forums!</a></td><td>Lady Salamence</td><td>-</td><td>General</td></tr>
+<tr class="a"><td>29</td><td><a href="/smog/issue29/trivia">Trivia</a></td><td>Level 51</td><td>Cereza</td><td>General</td></tr>
+<tr><td>29</td><td><a href="/smog/issue29/forum_projects">Creating Forum Projects 101</a></td><td>DittoCrow</td><td>-</td><td>General</td></tr>
+<tr class="a"><td>29</td><td><a href="/smog/issue29/uu_spotlight_mienshao">UU Spotlight: Mienshao</a></td><td>ScraftyIsTheBest</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>29</td><td><a href="/smog/issue29/uu_spotlight_qwilfish">UU Spotlight: Qwilfish</a></td><td>Qwilphish</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>29</td><td><a href="/smog/issue29/ru_spotlight_rotomc">RU Spotlight: Rotom-C</a></td><td>Mack the Knife</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>29</td><td><a href="/smog/issue29/nu_spotlight_jynx">NU Spotlight: Jynx</a></td><td>skylight</td><td>Raseri</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>29</td><td><a href="/smog/issue29/nu_spotlight_primeape">NU Spotlight: Primeape</a></td><td>Treecko</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>29</td><td><a href="/smog/issue29/lc_spotlight_murkrow">LC Spotlight: Murkrow</a></td><td>Superpowerdude</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>29</td><td><a href="/smog/issue29/om_spotlight_shuckle">OM Spotlight: Shuckle</a></td><td>Articblast</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>29</td><td><a href="/smog/issue29/ru_spotlight_rmt">RU Spotlight RMT: Daenerys Storm</a></td><td>DittoCrow</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>29</td><td><a href="/smog/issue29/nu_spotlight_rmt">NU Spotlight RMT: Light Speed</a></td><td>Raseri</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>29</td><td><a href="/smog/issue29/ou_metagame_analysis">OU Metagame Analysis for July</a></td><td>PDC</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>29</td><td><a href="/smog/issue29/ou_theorymon">OU Theorymon</a></td><td>vyomov</td><td>-</td><td>Metagame</td></tr>
+<tr><td>29</td><td><a href="/smog/issue29/banned">Banned But Not Forgotten: How Former OU Monsters Are Doing In Ubers</a></td><td>rileydelete</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>29</td><td><a href="/smog/issue29/overrated_ubers">Overrated Ubers Sets That Are Simply Mediocre
+</a></td><td>shrang</td><td>-</td><td>Metagame</td></tr>
+<tr><td>29</td><td><a href="/smog/issue29/ru101">RarelyUsed Teambuilding 101</a></td><td>DittoCrow</td><td>SilentVerse</td><td>Metagame</td></tr>
+<tr class="a"><td>29</td><td><a href="/smog/issue29/nu_theorymon">NU Theorymon</a></td><td>Raseri</td><td>-</td><td>Metagame</td></tr>
+<tr><td>29</td><td><a href="/smog/issue29/nu_birds">Kacaw! The Birds of NU</a></td><td>Treecko</td><td>Ranger Dell</td><td>Metagame</td></tr>
+<tr class="a"><td>29</td><td><a href="/smog/issue29/nu_underratedonoverrated">Underrated Sets on Overrated NU Pokémon</a></td><td>Raseri</td><td>-</td><td>Metagame</td></tr>
+<tr><td>29</td><td><a href="/smog/issue29/nu_srank">A Look at NU Viability Rankings: S-Rank</a></td><td>Raseri</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>29</td><td><a href="/smog/issue29/lc_underrated_movesets">Underrated LC Movesets</a></td><td>Dcae</td><td>mikel</td><td>Metagame</td></tr>
+<tr><td>29</td><td><a href="/smog/issue29/lc_dontuse">Pokémon You Probably Shouldn't Use in the LC Metagame</a></td><td>The Unlucky One</td><td>Goddess Briyella</td><td>Metagame</td></tr>
+<tr class="a"><td>29</td><td><a href="/smog/issue29/why_lc">Why LC Will Get You Laid</a></td><td>Dcae</td><td>-</td><td>Metagame</td></tr>
+<tr><td>29</td><td><a href="/smog/issue29/doubles_tailwind">Tailwind in Doubles</a></td><td>Joim</td><td>Mizuhime</td><td>Metagame</td></tr>
+<tr class="a"><td>29</td><td><a href="/smog/issue29/oi_hangout">Hang Out in the Orange Islands</a></td><td>Deionosaur</td><td>-</td><td>Arts and Recreation</td></tr>
+<tr><td>29</td><td><a href="/smog/issue29/movie_panel">Movie Critics - The Panel: Direct to Hoenn Video</a></td><td>Lady Salamence</td><td><a href="/smog/issue29/movie_panel">Collaboration</a></td><td>Arts and Recreation</td></tr>
+<tr class="a"><td>29</td><td><a href="/smog/issue29/gym_guide">Do You Even Lift: Over With Unova - Part 2</a></td><td>Layell</td><td>Treecko</td><td>Entertainment</td></tr>
+<tr><td>29</td><td><a href="/smog/issue29/pokemon_to_own">Top 10: Pokémon to Own</a></td><td>Deinosaur</td><td>-</td><td>Entertainment</td></tr>
+<tr class="a"><td>29</td><td><a href="/smog/issue29/pokemonsmash">Mewtwo Used Forward Smash! Pokémon's Likely Smash Representatives</a></td><td>TheMantyke</td><td>-</td><td>Entertainment</td></tr>
+<tr><td>29</td><td><a href="/smog/issue29/smogdoom">Smogdoom: June and July's Tales of DOOM</a></td><td>skylight</td><td>-</td><td>Entertainment</td></tr>
+<tr class="a"><td>29</td><td><a href="/smog/issue29/dualtypemoves">A Spectrum of Possibility: Dual-type Moves</a></td><td>Jukain</td><td>-</td><td>Entertainment</td></tr>
+<tr><td>29</td><td><a href="/smog/issue29/howtoladder">How to Ladder (and Win).</a></td><td>Windsong</td><td>-</td><td>Entertainment</td></tr>
+<tr class="a"><td>29</td><td><a href="/smog/issue29/howto_ps">How to Not Be a Dipshit on PS!</a></td><td>Tobes</td><td>-</td><td>Entertainment</td></tr>
+<tr><td>29</td><td><a href="/smog/issue29/gyarados_in_uberland">History of Gyarados in Uberland</a></td><td>trickroom</td><td>-</td><td>Other Features</td></tr>
+<tr class="a"><td>29</td><td><a href="/smog/issue29/fairies">The Fairy-Type</a></td><td>skylight</td><td>-</td><td>Other Features</td></tr>
+<tr><td>29</td><td><a href="/smog/issue29/cutemons">Cutemons That Don't Suck</a></td><td>Treecko</td><td>Raseri</td><td>Other Features</td></tr>
+<tr class="a"><td>30</td><td><a href="/smog/issue30/note_from_editor">Note From the Editor</a></td><td>Setsuna</td><td>-</td><td>General</td></tr>
+<tr><td>30</td><td><a href="/smog/issue30/interview">Interview with Stellar</a></td><td>Jellicent</td><td>-</td><td>General</td></tr>
+<tr class="a"><td>30</td><td><a href="/smog/issue30/sunandsandz">Sun and Sandz: A Farewell Interview</a></td><td>skylight</td><td>-</td><td>General</td></tr>
+<tr><td>30</td><td><a href="/smog/issue30/mentorship">What is Smogon mentorship?</a></td><td>Hulavuta</td><td>-</td><td>General</td></tr>
+<tr class="a"><td>30</td><td><a href="/smog/issue30/rmt">What's going on in RMT?</a></td><td>PDC</td><td>-</td><td>General</td></tr>
+<tr><td>30</td><td><a href="/smog/issue30/trivia">Trivia</a></td><td>Level 51</td><td>Cereza</td><td>General</td></tr>
+<tr class="a"><td>30</td><td><a href="/smog/issue30/nuteambuilding">NU Teambuilding 101</a></td><td>Raseri</td><td>-</td><td>Battling Strategy</td></tr>
+<tr><td>30</td><td><a href="/smog/issue30/trickroom">A Beginner's Guide to Trick Room</a></td><td>lucariojr</td><td>-</td><td>Battling Strategy</td></tr>
+<tr class="a"><td>30</td><td><a href="/smog/issue30/dragonsofru">The Outrageous Dragons of RU</a></td><td>DittoCrow</td><td>-</td><td>Metagame</td></tr>
+<tr><td>30</td><td><a href="/smog/issue30/grassofru">Powerful Plants: The Grass-types of RU</a></td><td>Mack the Knife</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>30</td><td><a href="/smog/issue30/nutopthreats">NU's Top Threats: How do they fare in RU?</a></td><td>ScraftyIsTheBest</td><td>-</td><td>Metagame</td></tr>
+<tr><td>30</td><td><a href="/smog/issue30/dppuu_vs_bwru">Metagame Comparison: DPP UU vs BW RU</a></td><td>SilentVerse</td><td>-</td><td>Metagame</td></tr>
+<tr class="a"><td>30</td><td><a href="/smog/issue30/smogdoubles_vs_vgc">Differences Between Smogon Doubles and VGC</a></td><td>lucariojr</td><td>-</td><td>Metagame</td></tr>
+<tr><td>30</td><td><a href="/smog/issue30/whenbabiesescape">When Babies Escape Daycare: LC Pokémon That Wreck Outside of LC</a></td><td>Goddess Briyella</td><td>Diatom</td><td>Metagame</td></tr>
+<tr class="a"><td>30</td><td><a href="/smog/issue30/anythinggoes">Anything Goes! Balanced Hackmons Threats Revealed</a></td><td>Ezio</td><td>Imanalt</td><td>Metagame</td></tr>
+<tr><td>30</td><td><a href="/smog/issue30/arterview">The Arterview: elcheeso</a></td><td>Bummer</td><td>-</td><td>Arts &amp; Recreation</td></tr>
+<tr class="a"><td>30</td><td><a href="/smog/issue30/movie_panel">Movie Critics - The Panel: Blue Times Two</a></td><td>Lady Salamence</td><td><a href="/smog/issue30/movie_panel">Collaboration</a></td><td>Arts &amp; Recreation</td></tr>
+<tr><td>30</td><td><a href="/smog/issue30/smogonnoir">Smogon Noir - The Underside of Smogburbia</a></td><td>Lady Salamence</td><td>-</td><td>Entertainment</td></tr>
+<tr class="a"><td>30</td><td><a href="/smog/issue30/hax">The Five Stages of Hax</a></td><td>Treecko</td><td>-</td><td>Entertainment</td></tr>
+<tr><td>30</td><td><a href="/smog/issue30/plusdropsbars">Plus drops some bars</a></td><td>Plus</td><td>-</td><td>Entertainment</td></tr>
+<tr class="a"><td>30</td><td><a href="/smog/issue30/rodanningit">RODANNING it, how to survive on smogon whilst badgeless</a></td><td>Rodan</td><td>-</td><td>Entertainment</td></tr>
+<tr><td>30</td><td><a href="/smog/issue30/thesocietea">The Societea: The Aftermath</a></td><td>Governess</td><td>-</td><td>Entertainment</td></tr>
+<tr class="a"><td>30</td><td><a href="/smog/issue30/newmoves">Best New Moves of Each Generation</a></td><td>Deck Knight</td><td>-</td><td>Other Features</td></tr>
+<tr><td>30</td><td><a href="/smog/issue30/megaevolution">Mega Speculation: Mega Evolutions and Their Potential Impact</a></td><td>Deck Knight</td><td>-</td><td>Other Features</td></tr>
+<tr class="a"><td>30</td><td><a href="/smog/issue30/goodbyegenv">Generation Five: The reasons why we wish we didn't have to say goodbye</a></td><td>skylight</td><td>-</td><td>Other Features</td></tr>
+<tr><td>30</td><td><a href="/smog/issue30/similaritiesanddifferences">Similarities &amp; Differences: Mantine &amp; Skarmory</a></td><td>Parallel</td><td>-</td><td>Other Features</td></tr>
+<tr class="a"><td>30</td><td><a href="/smog/issue30/origins">Pokémon Origins</a></td><td>Flora</td><td>-</td><td>Other Features</td></tr>
+<tr><td>30</td><td><a href="/smog/issue30/youtubers">Streaming: Next Generation YouTubers</a></td><td>V0x</td><td>-</td><td>Other Features</td></tr>
+<tr class="a"><td>30</td><td><a href="/smog/issue30/rusure">RU Sure About That? Advising Opponents on the RU Ladder</a></td><td>Mack the Knife</td><td>-</td><td>Other Features</td></tr>
+<tr><td>30</td><td><a href="/smog/issue30/alakazam">A Cyclic Psychic: The Ups and Downs of Alakazam</a></td><td>Ender</td><td>-</td><td>Other Features</td></tr>
+
+</tbody>
+</table>
+
+<script type="text/javascript">
+$("#smog_compendium").tablesorter({
+widgets: ['zebra'],
+textExtraction: "complex",
+sortList: [[0,0], [1,0], [2,1], [3,0], [4,0], [5,0]]
+})
+</script>

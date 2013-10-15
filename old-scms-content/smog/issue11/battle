@@ -1,0 +1,405 @@
+[title]
+When the Outcome Is Crit or Miss: A Match Analysis
+[head]
+<link href="/media/smog/smog.css" type="text/css" rel="stylesheet" />
+<style type="text/css">
+.green {
+color: green;
+}
+
+.blue {
+color: #0033cc;
+}
+</style>
+[page]
+<div class="author">By <a href="/forums/member.php?u=29162">whistle</a> and <a href="/forums/member.php?u=21770">Philip7086</a>. Art by <a href="/forums/member.php?u=9179">*Hen*</a>.</div>
+<table id="smogheader">
+<tr>
+<td class="left"><a href="tcg">&laquo; Previous Article</a></td>
+<td class="middle"><a href="/smog/issue11/">Home</a></td>
+<td class="right"><a href="protips">Next Article &raquo;</a></td>
+</tr>
+</table>
+
+<div style="text-align: center;"><img src="/media/smog/11/hax_lecture.jpg" alt="" /></div>
+ 
+<p>As this is the final issue of The Smog before Pokémon Black and White are released, we thought featuring a high-level battle from the recent World Cup of Pokémon 4 could serve as a symbolic goodbye to the DPPt metagame. You've probably heard of both Earthworm and Scofield in some context or another. Earthworm is one of the most prolific battles of the fourth generation; he was the winner of Smogon Tour 6, a finalist in Smogon Tournament 6, and a member of the winning team in last year's World Cup of Pokémon. Scofield posted an impressive undefeated record in the previous World Cup and was a Frontier Brain... but you may also know Scofield through his love for modding Shoddy.</p>
+
+<p>In any case, this battle was set to be an important one because it was the second to last in the preliminary round for Oceania, Earthworm's team. They were on the verge of elimination because they didn't have enough wins. If Earthworm won this battle, they would squeeze into the next round, but if he lost, Oceania would have to win three more battles in a row&mdash;their last battle of the round, Stallion's, as well as two tiebreaker matches. US West had accumulated more than enough points to cruise into Round 2, but this battle was still important for seeding purposes&mdash;and because, well, who doesn't want to win?</p>
+
+<p>In addition to turn-by-turn analyses written with the input of both players, we will explore the impact of hax. Let's be honest&mdash;we have all complained about getting haxed at one point or another in our Pokémon career. But have you ever stopped to really consider a full match and how it would have unfolded had the "hax" not taken place? Let's take a closer look and see which incidents actually mattered, and what each player's odds of coming out on top really were.</p>
+
+<p><em>Note: Some of the conclusions drawn are based on assumptions made as to how each player would play in hypothetical situations. Both players' teams are listed at the end of the article if you're interested.</em></p>
+
+<p>Without further ado:</p>
+
+<h2>Match Analysis</h2>
+
+<p>Rules: Evasion Clause, Freeze Clause, OHKO Clause, Sleep Clause, Species Clause, Strict Damage Clause, Timed Battle <br />
+<span class="blue"><strong>Scofield</strong></span> sent out <span class="blue"><strong>Floor is Lava</strong></span> (lvl 100 <span class="blue"><strong>Heatran</strong></span> ?).<br />
+<span class="green"><strong>Earthworm</strong></span> sent out <span class="green"><strong>Metagross</strong></span> (lvl 100 <span class="green"><strong>Metagross</strong></span>).<br />
+<span class="green"><strong>Earthworm</strong></span> switched in <span class="green"><strong>Kingdra</strong></span> (lvl 100 <span class="green"><strong>Kingdra</strong></span> ?).<br />
+<span class="blue"><strong>Floor is Lava</strong></span> used Overheat.<br />
+It's not very effective...<br />
+<span class="green"><strong>Kingdra</strong></span> lost 33% of its health.<br />
+<span class="blue"><strong>Floor is Lava's</strong></span> special attack was harshly lowered.<br />
+<span class="blue"><strong>Floor is Lava</strong></span> lost 10% of its health.</p>
+
+<p>Some players maintain that a team's lead is its most critical component, as an early-game advantage can easily carry through the entire match. Indeed, both players put quite a bit of thought in choosing their leads for this battle, even though Heatran vs Metagross might not look like it has any backstory. Scofield used a lead Roserade for most of the Smogon Frontier, a fact of which Earthworm was aware. As a result, he wanted to use a bulky Pokémon that could beat Roserade handily, and Lum Metagross was the perfect solution as it can set up Stealth Rock as well. However, Scofield knew that Earthworm knew of his love for lead Roserade, so he suspected that Earthworm might counter his preference with a Lum Berry lead&mdash;perhaps Machamp or Metagross. Modest Life Orb Heatran has a good shot to beat both (barring low damage rolls or an Overheat miss), and thus this matchup was born.</p>
+
+<p>As a conservative player, Earthworm didn't want to risk losing his Metagross to Fire Blast, so he switched to the Fire resist that he was most willing to reveal in the early game. Although the switch was almost telegraphed, Scofield still chose to use Overheat instead of Stealth Rock, a decision he later regretted. But as they say: hindsight is 20/20.</p>
+
+<p><span class="green"><strong>Kingdra</strong></span> used Dragon Dance.<br />
+<span class="green"><strong>Kingdra's</strong></span> attack was raised.<br />
+<span class="green"><strong>Kingdra's</strong></span> speed was raised.<br />
+<span class="blue"><strong>Floor is Lava</strong></span> used Explosion.<br />
+<span class="green"><strong>Kingdra</strong></span> lost 67% of its health.<br />
+<span class="green"><strong>Earthworm's</strong></span> <span class="green"><strong>Kingdra</strong></span> fainted.<br />
+<span class="blue"><strong>Scofield's Floor is Lava</strong></span> fainted.</p>
+
+<p>Since Kingdra's unboosted Waterfall doesn't KO Heatran (it deals 67.5% - 80.5%), Earthworm chose to use Dragon Dance, which also lets Kingdra beat switch-ins like Shaymin. But Scofield couldn't afford to let Kingdra get this Dragon Dance, so even though he didn't have Stealth Rock set up, he Exploded Heatran. Ironically, his decision to use Overheat instead of Stealth Rock last turn made this decision easier, since otherwise it was possible that Earthworm could have predicted the Explosion and switched to a Ghost.</p>
+
+<p>No real hax in these two exchanges. Overheat could have missed or critical hit on turn one, but the fact that Explosion was used turn two to eliminate Kingdra means that no matter what, any hax that happened here could not have changed the outcome of the game.</p>
+
+<p><span class="blue"><strong>Scofield</strong></span> switched in <span class="blue"><strong>GhostInTheWind</strong></span> (lvl 100 <span class="blue"><strong>Rotom-W</strong></span>).<br />
+<span class="green"><strong>Earthworm</strong></span> switched in <span class="green"><strong>Heatran</strong></span> (lvl 100 <span class="green"><strong>Heatran</strong></span> ?).<br />
+<span class="green"><strong>Heatran</strong></span> used Fire Blast.<br />
+<span class="green"><strong>Heatran's</strong></span> attack missed!<br />
+<span class="blue"><strong>GhostInTheWind</strong></span> used Hydro Pump. It's super effective!<br />
+<span class="green"><strong>Heatran</strong></span> lost 100% of its health.<br />
+<span class="green"><strong>Earthworm's</strong></span> <span class="green"><strong>Heatran</strong></span> fainted.</p>
+
+<p>It's always a bit of a toss up when it comes to deciding what Pokémon to bring out in blind switches early in a match, but a basic guideline is that it should match up well with your opponent's revealed Pokémon (especially his lead if it hasn't accomplished its goal). In this case, Scofield wanted to use a Pokémon that would put immediate pressure on Metagross, and chose his Choice Specs Rotom-W. As an added benefit, there are very few matchups in which Rotom-W flat-out loses. The most dangerous of these is against Choice Scarf Tyranitar, but that's an odd Pokémon to send out on a double switch in the early game without the guarantee of a kill looming. Earthworm applied largely the same principle but in reverse: since Scofield's lead was already KOed, Earthworm suspected that Scofield would probably send in a Pokémon that beats Metagross. Most of these, such as Forretress, Skarmory, and most Rotom appliances, lose to Heatran.</p>
+
+<p>Fire Blast was Heatran's most logical move this early in the game, since there wasn't enough information to try and predict a possible switch-in. Also, since Heatran was facing the Wash forme, there was a good chance that Rotom-W would stay in and use Hydro Pump (as it did). For Scofield, Hydro Pump is always a great opening move for Rotom, since it hits common switch-ins, such as Tyranitar, hard. There is also not much risk in staying in on Heatran, since Specs Rotom-W outpaces most Heatran and OHKOes sweeper variants with Hydro Pump. The only Heatran that is faster than Rotom-W, Choice Scarf Heatran, only deals 77.2% - 90.9% with Fire Blast. Well, unless it misses... Only turn three, and a crucial point of hax in Scofield's favor. Earthworm's Heatran's Fire Blast misses, only for a less accurate Hydro Pump to OHKO Heatran in return. But there are lots of sources of chance here&mdash;let's explore them all. Fire Blast doesn't OHKO Rotom-W, so the only ways Heatran would have survived the turn were if Fire Blast critical hit or Hydro Pump missed (25% chance). What if Fire Blast hit Rotom-W and burned it? Heatran wouldn't survive the turn, but if the hit dealt more than 87.5% damage (2.0% chance), Rotom-W wouldn't survive either&mdash;a double KO, roughly a neutral outcome. If the hit burned Rotom-W and dealt less than 87.5% damage (6.75% chance), Rotom-W would survive this turn but faint the following turn. Since Earthworm's Kingdra already fainted, he would have to revenge kill Rotom-W instead of using the turn to set up a sweeper. This is a negative outcome for Earthworm because it means Scofield would be able to "scout" Earthworm's revenge killer and bring in a Pokémon with an advantageous matchup.</p>
+
+<p>All in all, this means there was only a 25% chance that this turn would have ended up favorably for Earthworm. But what was the chance that it would have ended up <em>unfavorably</em> (as it did)? To answer that, we need to figure out what the true impact of the miss was. In the absence of these chance effects&mdash;that is, by comparing a clean Fire Blast hit against a Fire Blast miss&mdash;the impact of the miss is determined by the extent to which Scofield needs his Rotom-W in the later stages of the match. We will revisit this turn after this question is answered later in the article.</p>
+
+<p><span class="green"><strong>Earthworm</strong></span> switched in <span class="green"><strong>Shaymin</strong></span> (lvl 100 <span class="green"><strong>Shaymin</strong></span>).<br />
+<span class="blue"><strong>Scofield</strong></span> switched in <span class="blue"><strong>Devil You Know</strong></span> (lvl 100 <span class="blue"><strong>Salamence</strong></span> ?).<br />
+<span class="blue"><strong>Devil You Know's</strong></span> Intimidate cut <span class="green"><strong>Shaymin's</strong></span> attack!<br />
+<span class="green"><strong>Shaymin</strong></span> used Substitute.<br />
+<span class="green"><strong>Shaymin</strong></span> lost 25% of its health.<br />
+<span class="green"><strong>Shaymin</strong></span> made a substitute!<br />
+<span class="green"><strong>Shaymin's</strong></span> leftovers restored its health a little!<br />
+<span class="green"><strong>Shaymin</strong></span> restored 6% of its health.</p>
+
+<p>Recall that the only reason you know Scofield's Rotom-W is Choice Specs is that I have told you so. Or is it? Since there was no Life Orb recoil, we know that the Rotom-W is carrying either Leftovers, Choice Scarf, or Choice Specs. Leftovers and Choice Scarf Hydro Pump both deal 73.7% - 87.3% to Naive Heatran, so by process of elimination, Rotom-W is holding Choice Specs. Earthworm also easily deduced this information, so he sent in Shaymin to set up a Substitute. Scofield switched in Salamence because he expected either an Earth Power or Seed Flare from Shaymin.</p>
+
+<p><span class="blue"><strong>Scofield</strong></span> switched in <span class="blue"><strong>Left Turn Ahead</strong></span> (lvl 100 <span class="blue"><strong>Infernape</strong></span> ?).<br />
+<span class="green"><strong>Shaymin</strong></span> used Hidden Power. It's not very effective...<br />
+<span class="blue"><strong>Left Turn Ahead</strong></span> lost 16% of its health.<br />
+<span class="green"><strong>Shaymin's</strong></span> leftovers restored its health a little!<br />
+<span class="green"><strong>Shaymin</strong></span> restored 6% of its health.</p>
+
+<p>Earthworm's Shaymin has Hidden Power Ice, and it doesn't make much sense to try and predict a potential switch&mdash;especially when Earthworm has no idea what Scofield's remaining Pokémon are. But for Scofield, it's easy to pick a move. If he kept in Salamence, the most it would do is break a Substitute&mdash;and there was still a 50% chance it would lose the speed tie and faint. Infernape can take both Hidden Power Ice and Leech Seed, so it was a natural switch-in.</p>
+
+<p><span class="blue"><strong>Left Turn Ahead</strong></span> used Close Combat.<br />
+The substitute took damage for <span class="green"><strong>Shaymin</strong></span>!<br />
+<span class="green"><strong>Shaymin's</strong></span> substitute faded!<br />
+<span class="blue"><strong>Left Turn Ahead's</strong></span> defence was lowered.<br />
+<span class="blue"><strong>Left Turn Ahead's</strong></span> special defence was lowered.<br />
+<span class="green"><strong>Shaymin</strong></span> used Substitute.<br />
+<span class="green"><strong>Shaymin</strong></span> lost 25% of its health.<br />
+<span class="green"><strong>Shaymin</strong></span> made a substitute!<br />
+<span class="green"><strong>Shaymin's</strong></span> leftovers restored its health a little!<br />
+<span class="green"><strong>Shaymin</strong></span> restored 6% of its health.</p>
+
+<p>Scofield's Infernape runs Close Combat, Fire Blast, Grass Knot, and Vacuum Wave. Grass Knot is obviously the worst move to use here. Close Combat will always break Shaymin's Substitute, but comes with a drop to Defense and Special Defense&mdash;without such a drop, Shaymin's Earth Power only deals 73.7% - 87.4% to Infernape. This means if there's another move that is just as consistent in terms of breaking Shaymin's sub, it's superior to Close Combat. However, Fire Blast has a 15% chance to miss, and given the earlier Fire Blast miss... well, it wouldn't be a good choice to depend on it. Vacuum Wave seems appealing, until you notice that it only deals 21.3% - 25.4% to 4/0 Shaymin, a high chance not to break the sub. Although Infernape should survive an Earth Power, even if Fire Blast misses or Vacuum Wave rolls average damage, there is always a risk that Earth Power could crit, leaving Scofield down a Pokémon for absolutely no reason. Scofield's plan was to sacrifice Infernape to break the sub, allowing his next Pokémon to set up&mdash;no point in getting greedy, so he picked Close Combat.</p>
+
+<p>It may seem like Earthworm's choice of Substitute is just a needless waste of HP, but U-turn is a relatively common move on Infernape, and using Substitute can scout the switch in the case that Infernape uses that.</p>
+
+<p>There's been no hax in these last three turns. Simple.</p>
+
+<p><span class="blue"><strong>Left Turn Ahead</strong></span> used Close Combat.<br />
+A critical hit!<br />
+The substitute took damage for <span class="green"><strong>Shaymin</strong></span>!<br />
+<span class="green"><strong>Shaymin's</strong></span> substitute faded!<br />
+<span class="blue"><strong>Left Turn Ahead's</strong></span> defence was lowered.<br />
+<span class="blue"><strong>Left Turn Ahead's</strong></span> special defence was lowered.<br />
+<span class="green"><strong>Shaymin</strong></span> used Earth Power.<br />
+It's super effective!<br />
+<span class="blue"><strong>Left Turn Ahead</strong></span><br />
+lost 84% of its health.<br />
+<span class="blue"><strong>Scofield's</strong></span> <span class="blue"><strong>Left Turn Ahead</strong></span> fainted.<br />
+<span class="green"><strong>Shaymin's</strong></span> leftovers restored its health a little!<br />
+<span class="green"><strong>Shaymin</strong></span> restored 6% of its health.</p>
+
+<p>A relatively straightforward turn. Scofield is in the same place as the last turn, while Earthworm determines that Infernape most likely doesn't have U-turn and doesn't want to needlessly waste HP in case Shaymin needs, for example, to switch into Specs Thunderbolt.</p>
+
+<p>Wait a second... Scofield got a critical hit? Obviously this one did not matter in the slightest, but I have seen users complain about similar things like this before!</p>
+
+<p><span class="blue"><strong>Scofield</strong></span> switched in <span class="blue"><strong>Cinderella</strong></span> (lvl 100 <span class="blue"><strong>Kingdra</strong></span> ?).<br />
+<span class="green"><strong>Shaymin</strong></span> used Substitute.<br />
+<span class="green"><strong>Shaymin</strong></span> lost 25% of its health.<br />
+<span class="green"><strong>Shaymin</strong></span> made a substitute!<br />
+<span class="blue"><strong>Cinderella</strong></span> used Dragon Dance.<br />
+<span class="blue"><strong>Cinderella's</strong></span> attack was raised.<br />
+<span class="blue"><strong>Cinderella's</strong></span> speed was raised.<br />
+<span class="green"><strong>Shaymin's</strong></span> leftovers restored its health a little!<br />
+<span class="green"><strong>Shaymin</strong></span> restored 6% of its health.</p>
+
+<p>Earthworm decides to use Substitute again to scout whether Kingdra is running Choice Specs or Dragon Dance. This has the added benefit of baiting an Outrage if Kingdra is a Dragon Dance set. Scofield continues to carry out his plan of using Shaymin to set up with Dragon Dance.</p>
+
+<p><span class="blue"><strong>Cinderella</strong></span> used Waterfall.<br />
+It's not very effective...<br />
+The substitute took damage for <span class="green"><strong>Shaymin</strong></span>!<br />
+<span class="green"><strong>Shaymin's</strong></span> substitute faded!<br />
+<span class="green"><strong>Shaymin</strong></span> used Seed Flare.<br />
+<span class="blue"><strong>Cinderella</strong></span> lost 58% of its health.<br />
+<span class="green"><strong>Shaymin's</strong></span> leftovers restored its health a little!<br />
+<span class="green"><strong>Shaymin</strong></span> restored 6% of its health.</p>
+
+<p>Since Shaymin had already revealed three moves and odds are it wasn't lacking a STAB move (Seed Flare), it was most likely using a sweeper spread with Substitute to capitalize on its ability to force switches against offensive teams. This meant Scofield could safely use +1 Waterfall to break the sub instead of Outrage, which would make Kingdra easy prey for Metagross. Seed Flare is Shaymin's most powerful move against Kingdra, and it doesn't really make sense to make any other move from behind a Substitute.</p>
+
+<p><span class="green"><strong>Earthworm</strong></span> switched in <span class="green"><strong>Metagross</strong></span> (lvl 100 <span class="green"><strong>Metagross</strong></span>).<br />
+<span class="blue"><strong>Cinderella</strong></span> used Rest.<br />
+<span class="blue"><strong>Cinderella</strong></span> fell asleep!<br />
+<span class="blue"><strong>Cinderella's</strong></span> Chesto Berry cured its Sleep!<br />
+<span class="blue"><strong>Cinderella</strong></span> restored 58% of its health.</p>
+
+<p>Earthworm had a pretty easy move from his perspective. Shaymin is too useful against Scofield's team to sacrifice; the fact that Scofield had to set up Kingdra, a Pokémon that cannot get past Shaymin without locking itself into Outrage, probably means his last unrevealed Pokémon cannot take on Shaymin one-on-one.</p>
+
+<p>Scofield can pick between three options: Waterfall, Outrage, and Rest with Chesto Berry. Waterfall is the best option if Earthworm switches to Metagross as it 3HKOes, but is next-to-worthless against Shaymin. Outrage is just the opposite; it will OHKO Shaymin if it stays in, but is ineffective against Metagross&mdash;plus, even if Shaymin does get KOed, Metagross will just switch in for free immediately afterwards. Rest is not a great option against either of the two, but also doesn't lose horribly to either. If Earthworm switches to Metagross, Kingdra can still use Waterfall, and if Earthworm keeps Shaymin in, Kingdra can still decide to Outrage the next turn.</p>
+
+<p><span class="blue"><strong>Cinderella</strong></span> used Waterfall.<br />
+<span class="green"><strong>Metagross</strong></span> lost 37% of its health.<br />
+<span class="green"><strong>Metagross</strong></span> used Stealth Rock.<br />
+Pointed stones float in the air around the foe's team!</p>
+
+<p>Since Metagross is running max HP, it isn't 2HKOed by Kingdra's Waterfall. This gives Earthworm the opportunity to set up Stealth Rock, which will help wear down Scofield's Pokémon (especially Salamence). Scofield accurately predicts Earthworm's move, and stays in deal some damage or even potentially flinch Metagross.</p>
+
+<p><span class="blue"><strong>Cinderella</strong></span> used Waterfall.<br />
+<span class="green"><strong>Metagross</strong></span> lost 36% of its health.<br />
+<span class="green"><strong>Metagross</strong></span> used Explosion.<br />
+<span class="blue"><strong>Cinderella</strong></span> lost 100% of its health.<br />
+<span class="blue"><strong>Scofield's</strong></span> <span class="blue"><strong>Cinderella</strong></span> fainted.<br />
+<span class="green"><strong>Earthworm's</strong></span> <span class="green"><strong>Metagross</strong></span> fainted.</p>
+
+<p>Earthworm's move was essentially set in stone. His Metagross ran Meteor Mash, Bullet Punch, Stealth Rock, and Explosion, meaning his only effective move was Explosion. Even if he had Earthquake, it wouldn't 2HKO 100% Kingdra.</p>
+
+<p>Unfortunately, this meant his move was also pretty obvious to everyone else watching the battle&mdash;including Scofield. Many people claim that Scofield made a blunder here by staying in with Kingdra instead of switching to Rotom-W, but he maintains it was the correct move. If Rotom-W had switched into Explosion, Shaymin could switch in and force Rotom-W to lock itself in one of its attacks by using Substitute. At this point, since Scofield's Infernape had fainted, if Earthworm successfully set up a sweeper such as Dragon Dance Tyranitar, Scofield would be at a significant disadvantage. Shaymin could even sacrifice itself&mdash;after using Seed Flare once, or Substitute, to deter a switch&mdash;to clear the way for such a setup. In any case, he chose to play the move that had short-term consequences but was safest in the long-run, and Metagross's Explosion created another double KO.</p>
+
+<p>Nothing out of the ordinary in these last few turns... or is there? Upon closer inspection, I think we will find otherwise. After factoring in Waterfall's chance to crit or flinch and Seed Flare's accuracy, Earthworm only had a 59.765% chance of beating Kingdra in these last four turns (Seed Flare could have missed, the first Waterfall could have crit, and the second Waterfall could have flinched or crit, all of which ruin Earthworm's shot of KOing Kingdra). Judging from the rest of Earthworm's team, if Kingdra lived through these events it probably would have swept a good portion, if not all, of Earthworm's remaining team members. Although the odds were slightly in Earthworm's favor here, Scofield still had a decent shot of gaining a huge advantage that people often overlook.</p>
+
+<p><span class="blue"><strong>Scofield</strong></span> switched in <span class="blue"><strong>PrinceOfOrphans</strong></span> (lvl 100 <span class="blue"><strong>Lucario</strong></span> ?).<br />
+<span class="green"><strong>Earthworm</strong></span> switched in <span class="green"><strong>Tentacruel</strong></span> (lvl 100 <span class="green"><strong>Tentacruel</strong></span> ?).<br />
+Pointed stones dug into <span class="blue"><strong>PrinceOfOrphans</strong></span>.<br />
+<span class="blue"><strong>PrinceOfOrphans</strong></span> lost 3% of its health.<br />
+<span class="green"><strong>Tentacruel</strong></span> used Surf.<br />
+<span class="blue"><strong>PrinceOfOrphans</strong></span> lost 60% of its health.<br />
+<span class="blue"><strong>PrinceOfOrphans</strong></span> used Agility.<br />
+<span class="blue"><strong>PrinceOfOrphans's</strong></span> speed was sharply raised.</p>
+ 
+<p>With a blind double switch, Scofield's reasoning for abstaining from sending out Rotom-W against Metagross still applies. Salamence wouldn't be a good choice either because Stealth Rock was up, so if he was forced out, he would lose 25% of his HP needlessly. Therefore, it was up to Lucario, Scofield's last Pokémon. He also suspected that Earthworm would send out Shaymin, who had an advantageous matchup against both of Scofield's revealed Pokémon. While Lucario doesn't exactly have an advantageous matchup against Shaymin, it always survives Earth Power (taking 78.3% - 92.5%) and can KO in return with Ice Punch.</p>
+
+<p>Earthworm decided to send out his Tentacruel. Tentacruel is rare in competitive play, and Choice Scarf Tentacruel is even rarer. Earthworm chose to use it because it covered specific weaknesses on his team, and at the same time, has some utility through its surprise value. Surprise value is useful on blind double switches, since it can net a KO on an unsuspecting enemy. At this point, Scofield's team was completely revealed, making it possible for Earthworm to develop a plan.</p>
+
+<p>Agility and Choice Specs Lucario both aren't a problem for Tentacruel given their lowered damage output and lack of super effective attacks. If Lucario turned out to be Swords Dance, Tentacruel would be faster and threaten to 2HKO with Surf. This would force Scofield to use ExtremeSpeed after it uses Swords Dance, and Earthworm could switch to his as-of-yet unrevealed last Pokémon, who is immune to ExtremeSpeed, outpaces Lucario, and can KO it with Thunderbolt or Shadow Ball (depending on Surf's damage roll). A Specs Rotom-W switch would be out of the question against this Pokémon, so Scofield would be forced to switch to Salamence. Regardless of Salamence's set (Earthworm later commented that he thought it was Mix at the time), using Substitute with Gengar would be the best choice to scout. If Salamence was mixed, switching out after it broke the sub and sacrificing Shaymin to clean up with Tentacruel and Gengar would result in a guaranteed win for Earthworm. If Salamence was Dragon Dance, it would most likely Dragon Dance as Gengar used Sub; if it doesn't, sacrificing Shaymin and switching to Tentacruel is, again, a guaranteed win. If Salamence does use Dragon Dance and is Life Orbed, then one Shadow Ball and a round of recoil will KO it, again resulting in a win. Finally, if Salamence has Dragon Dance and holds a Lum Berry, the game would go to the winner of the Tentacruel/Salamence speed tie. In any case, Surfing Lucario with Tentacruel here is the best move.</p>
+
+<p>For Scofield, the "correct" move is a bit elusive. None of Tentacruel's sets can OHKO Lucario, but neither can Lucario OHKO Tentacruel, meaning Agility and an attack or just an attack would have the same end result. Scofield chose to use use Agility simply because it would be the most effective move just in case Earthworm switched out. Note that the high damage Tentacruel dealt in addition to its high Speed immediately tipped Scofield off that Tentacruel was an offensive set.</p>
+
+<p>Again, nothing wrong here. A neutral turn.</p>
+
+<p><span class="blue"><strong>PrinceOfOrphans</strong></span> used Crunch.<br />
+A critical hit!<br />
+<span class="green"><strong>Tentacruel</strong></span> lost 100% of its health.<br />
+<span class="green"><strong>Earthworm's</strong></span> <span class="green"><strong>Tentacruel</strong></span> fainted.<br />
+<span class="blue"><strong>PrinceOfOrphans</strong></span> lost 10% of its health.</p>
+
+<p>"Doesn't Close Combat do more damage to Tentacruel than Crunch? After all, 120 Base Power and STAB (1.5x multiplier) is more than 80 Base Power, even if Close Combat is not very effective." Yes, but Close Combat does not OHKO Tentacruel, and both Close Combat and Crunch will KO it in the event of a critical hit (as you can tell). However, Scofield also knew that Earthworm often uses bulky Choice Scarf Rotom-A, which is not OHKOed by a single Crunch (it deals 69.1% - 81.6%). This means that there is essentially no risk to using Crunch, while it does have a slight payoff in case Earthworm desides to get cute and switch into Rotom-A on a predicted Close Combat. And here it is, arguably the biggest instance of hax in the entire match. With Lucario's lucky critical hit here, Scofield finds himself in a hugely advantageous position. Earthworm needs to predict correctly from here on in order to have Lucario die from Life Orb recoil... which ends up happening, because Earthworm is an amazing player!</p>
+
+<p>But hold on a second, we have the benefit of hindsight now, so can we honestly conclude that this crit is exactly what Scofield needed to win the match? Earthworm's Choice Scarf Tentacruel means that if Lucario did not get a critical hit and instead died to Surf, Scofield would be faced with a tough decision. Even if the Crunch hit and revealed that Tentacruel didn't have Leftovers, it would be impossible to tell that it was Choice Scarfed. But if Salamence didn't Dragon Dance, the game was basically over, especially with an unrevealed sixth Pokémon on Earthworm's side. With a Dragon Dance, the game would be heavily in Scofield's favor. He later commented that even with limited information (i.e. not full awareness of Tentacruel's item), he still would have gone for the Dragon Dance. With that Dragon Dance, the match would have been decided on a speed tie between Choice Scarf Tentacruel and +1 Salamence. Earthworm still would only have a 50% chance to win this match, regardless of the critical hit! So while the critical hit definitely put the match heavily in Scofield's favor, this case isn't as egregious as some you see, where a single instance of hax robs an almost guaranteed win from a player.</p>
+
+<p><span class="green"><strong>Earthworm</strong></span> switched in <span class="green"><strong>Gengar</strong></span> (lvl 100 <span class="green"><strong>Gengar</strong></span> ?).<br />
+<span class="green"><strong>Earthworm</strong></span> switched in <span class="green"><strong>Shaymin</strong></span> (lvl 100 <span class="green"><strong>Shaymin</strong></span>).<br />
+<span class="blue"><strong>PrinceOfOrphans</strong></span> used Crunch.<br />
+<span class="green"><strong>Shaymin</strong></span> lost 33% of its health.<br />
+<span class="blue"><strong>PrinceOfOrphans</strong></span> lost 10% of its health.<br />
+<span class="green"><strong>Shaymin's</strong></span> leftovers restored its health a little!<br />
+<span class="green"><strong>Shaymin</strong></span> restored 6% of its health.</p>
+
+<p>Earthworm's only chance to worm himself back to a win at this point is clear: he must wear down Lucario with its own Life Orb, which gives it three attacks before it faints. However, if Crunch hits Gengar before the last attack, the game is over and Scofield wins. If Ice Punch hits Shaymin before the last attack, it is nearly guaranteed to KO (dealing 60.8% - 71.9% against a 62% Shaymin), winning the game for Scofield. This means baiting Crunch with Gengar is Earthworm's best option. If he tried to bait Ice Punch with Shaymin, Gengar would face a 2HKO, giving Scofield no reason not to use Ice Punch on the second attack&mdash;this would result in a KO of either Shaymin or Gengar on the second turn, leaving Lucario with enough HP to finish off the other. Thus, Earthworm's move for the next turn is determined as well&mdash;switch to Gengar on the Ice Punch.</p>
+
+<p>In spite of this switching game's predictability, Scofield says he was "not ballsy" enough to go for the Ice Punch against Gengar. Either way, as long as Lucario KOes either opposing Pokémon, the game was wrapped up in his favor, since Rotom beats Shaymin and Salamence beats Gengar.</p>
+
+<p><span class="green"><strong>Earthworm</strong></span> switched in <span class="green"><strong>Gengar</strong></span> (lvl 100 <span class="green"><strong>Gengar</strong></span> ?). <br />
+<span class="blue"><strong>PrinceOfOrphans</strong></span> used Ice Punch.<br />
+<span class="green"><strong>Gengar</strong></span> lost 64% of its health.<br />
+<span class="blue"><strong>PrinceOfOrphans</strong></span> lost 10% of its health.</p>
+
+<p>Essentially just a continuation of the last turn.</p>
+
+<p>It might be tempting for some more astute readers to suggest using Close Combat on this turn instead of Ice Punch. After all, if Gengar switches in, Lucario won't take Life Orb recoil. This means it still has two attacks left, putting the ball in Earthworm's court to make correct predictions: if Earthworm overpredicts and leaves Gengar in on Crunch, then the game is over and Scofield wins; if Earthworm switches to Shaymin on Crunch, then Lucario will KO something the following turn with Crunch. The important difference between this scenario and the result of the Ice Punch scenario is it leaves more room (one more turn, specifically) for Earthworm to overpredict and hand Scofield the win.</p>
+
+<p>However, if Earthworm chooses to sacrifice Shaymin, this alternate sequence allows him to switch in Gengar at full HP. Since Gengar's minimum HP is 261 HP, either 0 HP or 4 HP Gengar can both make four Substitutes from full health. This is just enough to have a chance at stalling out two rounds of Outrage if they both end up being two-turn (Salamence was holding a Lum Berry). Then, when Gengar is left at 1%, it could use Pain Split to restore HP and put Salamence into Shadow Ball KO range&mdash;if Salamence hit itself in confusion during this turn, it would be over for Scofield. It turns out that Earthworm's Gengar didn't have Pain Split, but Scofield had no way of knowing that because Pain Split is quite common on Gengar. Overall, this is a 12.5% chance for Gengar to stall out Salamence's Outrages and win the match&mdash;not worth it, considering the alternative is just the 6.25% chance of a Shadow Ball crit.</p>
+
+<p>The difference between these two moves is not quantitatively significant, but it is a good example of minimizing hax where possible. It may seem unimportant, but if you think losing games to hax is bad, losing games to hax you could have prevented is even worse. </p>
+
+<p><span class="green"><strong>Earthworm</strong></span> switched in <span class="green"><strong>Shaymin</strong></span> (lvl 100 <span class="green"><strong>Shaymin</strong></span>).<br />
+<span class="blue"><strong>PrinceOfOrphans</strong></span> used Ice Punch.<br />
+It's super effective!<br />
+<span class="green"><strong>Shaymin</strong></span> lost 35% of its health.<br />
+<span class="green"><strong>Earthworm's</strong></span> <span class="green"><strong>Shaymin</strong></span> fainted.<br />
+<span class="blue"><strong>PrinceOfOrphans</strong></span> lost 7% of its health.<br />
+<span class="blue"><strong>Scofield's</strong></span> <span class="blue"><strong>PrinceOfOrphans</strong></span> fainted.</p>
+
+<p>Shaymin cannot beat Specs Rotom-W one-on-one barring a crit, and it only beats Salamence if it wins a speed tie. Therefore, Gengar is the more useful Pokémon to save.</p>
+
+<p><span class="blue"><strong>Scofield</strong></span> switched in <span class="blue"><strong>Devil You Know</strong></span> (lvl 100 <span class="blue"><strong>Salamence</strong></span> ?).<br />
+<span class="green"><strong>Earthworm</strong></span> switched in <span class="green"><strong>Gengar</strong></span> (lvl 100 <span class="green"><strong>Gengar</strong></span>).<br />
+<span class="blue"><strong>Devil You Know's</strong></span> Intimidate cut <span class="green"><strong>Gengar's</strong></span> attack!<br />
+Pointed stones dug into <span class="blue"><strong>Devil You Know</strong></span>.<br />
+<span class="blue"><strong>Devil You Know</strong></span> lost 25% of its health.<br />
+<span class="green"><strong>Gengar</strong></span> used Shadow Ball.<br />
+<span class="blue"><strong>Devil You Know</strong></span> lost 73% of its health.<br />
+<span class="green"><strong>Gengar</strong></span> lost 10% of its health.<br />
+<span class="blue"><strong>Devil You Know</strong></span> used Outrage.<br />
+<span class="blue"><strong>Devil You Know</strong></span>  went on a rampage!<br />
+<span class="green"><strong>Gengar</strong></span> lost 26% of its health. <br />
+<span class="green"><strong>Earthworm's Gengar</strong></span> fainted.<br />
+<span class="blue"><strong>Scofield</strong></span> wins!</p>
+
+<p>You'll notice Scofield switched in his Lum Berry Salamence instead of Rotom-W. While this distinction did not make any difference in the battle, it was actually very important in terms of end-game planning. If Gengar was a variant with Substitute and Hypnosis, and if it hit Hypnosis on Rotom and killed Rotom with a sub up, Earthworm would have won. However, Salamence has a Lum Berry, which blocks Hypnosis shenanigans. Also, if Shadow Ball KOed Rotom-W, and Explosion KOed Salamence, and this was a ladder battle (and thus lacking Self-KO clause), Earthworm would be the winner. Obviously the latter doesn't matter in a tournament battle, but it's something to keep in mind for those who ladder frequently.</p>
+
+<p>The clock ended up running almost all the way down on this move&mdash;despite its seeming simplicity, there were quite a few factors for Earthworm to consider. His Gengar was Timid with a Life Orb and the moves Shadow Ball, Focus Blast, Substitute, and Thunderbolt. The first order of business was to find out how much Shadow Ball deals to both Jolly and Naive Salamence&mdash;61.9% - 73.4% and 69.2% - 81.6%, respectively. This meant that if Salamence was Jolly, the only chance Earthworm had of winning with Shadow Ball was a critical hit. A better option against Jolly Salamence (if it didn't have Lum Berry, in which case it's the same as Shadow Ball) would have been Thunderbolt&mdash;it carries the same critical hit chance, but backed up by a chance to paralyze and subsequently fully paralyze. However, against Naive Salamence, Thunderbolt must depend solely on this hax chance, while Shadow Ball has a roughly even chance to flat-out KO. Since Earthworm knew that Scofield had been using Mix Salamence (which is Naive) through the Smogon Frontier, he also suspected that this Salamence was Naive. This was backed up by the fact that Scofield's team lacked Magnezone, Scofield's preferred partner for Dragon Dance Salamence.</p>
+
+<p>After determining that he would be using Shadow Ball to attack "Mix" Salamence, Earthworm had to decide whether he would try to use Substitute to scout for a Draco Meteor miss. If Draco Meteor missed, Gengar would be at 1% before koing the last Pokémon, but Earthworm was unsure about the rules governing Life Orb recoil and Self-KO clause. It turns out that the user of the attack is the winner, but he didn't know that at the time and didn't want to risk a loss on those grounds.</p>
+
+<p>Once he had considered all these factors, he chose the seemingly basic option to just Shadow Ball. It turns out that Scofield's Salamence was a Jolly Dragon Dance variant, which is never OHKOed by Gengar's Shadow Ball even after Stealth Rock damage (it takes 61.9% - 73.4%). Earthworm didn't get the 6.25% chance of a critical hit that he needed, and Scofield's Salamence won the battle. It's fitting that a Salamence was the deciding factor in this match, one of the last official Smogon tournament matches in which Salamence was allowed in OU!</p>
+
+<h2>Teams</h2>
+
+<p>Here are both players' teams, in case you're interested:</p>
+
+<h3>Scofield</h3>
+
+<p>Floor is Lava (<span class="blue"><strong>Heatran</strong></span>) (F) @ Life Orb<br />
+Ability: Flash Fire<br />
+EVs: 32 HP / 252 SpA / 224 Spe<br />
+Modest nature (+SpA, -Atk)<br />
+- Overheat<br />
+- Hidden Power Grass<br />
+- Explosion<br />
+- Stealth Rock</p>
+
+<p>Cinderella (<span class="blue"><strong>Kingdra</strong></span>) (F) @ Chesto Berry<br />
+Ability: Swift Swim<br />
+EVs: 144 HP / 160 Atk / 40 SpD / 164 Spe<br />
+Adamant nature (+Atk, -SpA)<br />
+- Dragon Dance<br />
+- Waterfall<br />
+- Outrage<br />
+- Rest</p>
+
+<p>Left Turn Ahead (<span class="blue"><strong>Infernape</strong></span>) (F) @ Life Orb<br />
+Ability: Blaze<br />
+EVs: 64 Atk / 252 SpA / 192 Spe<br />
+Naive nature (+Spe, -SpD)<br />
+- Fire Blast<br />
+- Close Combat<br />
+- Grass Knot<br />
+- Vacuum Wave</p>
+
+<p>Devil You Know (<span class="blue"><strong>Salamence</strong></span>) (F) @ Lum Berry<br />
+Ability: Intimidate<br />
+EVs: 252 Atk / 4 Def / 252 Spe<br />
+Jolly nature (+Spe, -SpA)<br />
+- Outrage<br />
+- Earthquake<br />
+- Dragon Dance<br />
+- Flamethrower</p>
+
+<p>GhostInTheWind (<span class="blue"><strong>Rotom-W</strong></span>) @ Choice Specs<br />
+Ability: Levitate<br />
+EVs: 4 HP / 252 SpA / 252 Spe<br />
+Timid nature (+Spe, -Atk)<br />
+- Thunderbolt<br />
+- Shadow Ball<br />
+- Hydro Pump<br />
+- Trick</p>
+
+<p>PrinceOfOrphans (<span class="blue"><strong>Lucario</strong></span>) (F) @ Life Orb<br />
+Ability: Inner Focus<br />
+EVs: 252 Atk / 4 Def / 252 Spe<br />
+Adamant nature (+Atk, -SpA)<br />
+- Close Combat<br />
+- Crunch<br />
+- Ice Punch<br />
+- Agility</p>
+
+<h3>Earthworm</h3>
+
+<p><span class="green"><strong>Metagross</strong></span> @ Lum Berry<br />
+Ability: Clear Body<br />
+EVs: 240 HP / 240 Atk / 28 Spe<br />
+Adamant nature (+Atk, -SpA)<br />
+- Meteor Mash<br />
+- Stealth Rock<br />
+- Bullet Punch<br />
+- Explosion</p>
+
+<p><span class="green"><strong>Tentacruel</strong></span> (M) @ Choice Scarf<br />
+Ability: Clear Body<br />
+EVs: 4 HP / 252 SpA / 252 Spe<br />
+Timid nature (+Spe, -Atk)<br />
+- Toxic Spikes<br />
+- Surf<br />
+- Ice Beam<br />
+- Hidden Power Electric</p>
+
+<p><span class="green"><strong>Shaymin</strong></span> @ Leftovers<br />
+Ability: Natural Cure<br />
+EVs: 4 HP / 252 SpA / 252 Spe<br />
+Timid nature (+Spe, -Atk)<br />
+- Seed Flare<br />
+- Substitute<br />
+- Hidden Power Ice<br />
+- Earth Power</p>
+
+<p><span class="green"><strong>Kingdra</strong></span> (M) @ Chesto Berry<br />
+Ability: Swift Swim<br />
+EVs: 4 HP / 252 Atk / 252 Spe<br />
+Adamant nature (+Atk, -SpA)<br />
+- Dragon Dance<br />
+- Waterfall<br />
+- Outrage<br />
+- Rest</p>
+
+<p><span class="green"><strong>Gengar</strong></span> (M) @ Life Orb<br />
+Ability: Levitate<br />
+EVs: 4 HP / 252 SpA / 252 Spe<br />
+Timid nature (+Spe, -Atk)<br />
+- Substitute<br />
+- Shadow Ball<br />
+- Focus Blast<br />
+- Thunderbolt</p>
+
+<p><span class="green"><strong>Heatran</strong></span> (M) @ Choice Scarf<br />
+Ability: Flash Fire<br />
+EVs: 4 Atk / 252 SpA / 252 Spe<br />
+Naive nature (+Spe, -SpD)<br />
+- Fire Blast<br />
+- Earth Power<br />
+- Dragon Pulse<br />
+- Explosion</p>
+ 
+<h2>Post-Match</h2>
+
+<p>So what can we conclude about the hax in this match after analyzing it completely? Well, let's first return to the Fire Blast miss, which we promised we would revisit after full knowledge of the battle. </p>
+
+<p>It turns out that Scofield's Rotom-W never entered the battle again, which means the miss was totally meaningless... right? Not so fast! You'll notice that Earthworm's chance of winning at the end with Gengar was only 6.25%. But why did he choose to sacrifice Shaymin instead of Gengar in the first place? Because Shaymin cannot OHKO a full HP Specs Rotom-W, while it OHKOes in return with Shadow Ball. Thus, the earlier Fire Blast forced Earthworm's hand&mdash;without it, he could have sacrificed Gengar instead of Shaymin and relied on a 50% Speed tie with Salamence while KOing Rotom-W with Hidden Power Ice (it deals 25.3% - 29.9% in addition to Fire Blast's 77.2% minimum and Stealth Rock damage).</p>
+
+<p>We already discussed the impact of Lucario's critical hit&mdash;it was statistically the same as the Fire Blast miss, as it converted a roughly 50/50 game into one heavily in Scofield's favor. There is also one other major but not very obvious source of potential luck in this game&mdash;when Earthworm was fighting against Kingdra, he had about a 40% chance of either missing, getting crit, or getting flinched, which would have allowed Kingdra to heavily damage, if not flat-out sweep, Earthworm's team.</p>
+
+<p>Although Scofield got quite lucky at various points in the game, no single event allowed him to gain irreversible momentum over Earthworm. There aren't many instances of hax in Pok'emon that appear more unlucky than missing an attack on the turn your Pok'emon is OHKOed, or getting critical hit OHKOed on the fifth-to-last move of a match. But as we can see from the commentary in the match, Earthworm was never at a significant disadvantage until the last few turns of the match, and you could even say that he had an advantage in the mid game after he missed Fire Blast. As you can see, looking merely at the "hax" that happened in a match is not really conclusive if you don't take into account what actually mattered, or how the course of the match might have changed without the hax. It also shows how the very best players are able to adapt and respond to hax and also take steps to minimize hax wherever possible. Instead of jumping the gun and complaining about how unlucky you are next time you are "haxed", take a step back and analyze things fully. Who knows? Maybe you weren't as unlucky as you thought you were!</p>
+
+<p>Thanks to both Scofield and Earthworm for answering questions related to their thoughts before, during, and after the match! Goodnight Salamence, goodnight DPPt!</p>
+ 
+<table id="smogfooter">
+<tr>
+<td class="left"><a href="tcg">&laquo; Previous Article</a></td>
+<td class="middle"><a href="/smog/issue11/">Home</a></td>
+<td class="right"><a href="protips">Next Article &raquo;</a></td>
+</tr>
+</table>

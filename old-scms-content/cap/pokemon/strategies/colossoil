@@ -1,0 +1,132 @@
+[title]
+Colossoil
+[head]
+<link rel="stylesheet" type="text/css" href="/media/dex/dex.css" />
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_template.js"></script>
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_database.js"></script>
+[header]
+[page]
+<script language="JavaScript">
+document.write(strategyTabs("Colossoil"));
+document.write(topHeaderInfo(Colossoil()));
+</script>
+
+<h2>Overview</h2>
+
+<h4>DPP</h4>
+
+<p>That smug grin is there for a reason; Colossoil is a nightmare to face in battle. With its monstrous base 133 HP, huge base 122 Attack, respectable base 95 Speed, fantastic offensive typing, and great abilities, Colossoil can give many teams a great deal of trouble before being taken down. It doesn't end there, either. Colossoil is suited to switch into the users of many secondary moves, such as Rotom-A, and wipe them from the table without a second thought. Beyond that, Colossoil's support movepool gives it a lot of utility that it can easily take advantage of with the terror it instills in its enemies.</p>
+
+<p>As threatening as Colossoil is to virtually all teams, it is not without its faults. By resorting many times to a mind-game in order to defeat its opponents, Colossoil more often than not can be defeated by simply outpredicting it. It can also be taken advantage of by priority attacks or Pokemon faster than it that can afford to take a Sucker Punch, as despite its natural bulk, it isn't suited to taking a beating without defensive investment. Generally speaking, Colossoil is a Pokemon that hits hard, but doesn't like being hit back if it can avoid it. But don't let that deter you from using this narwhal, as it'll gladly sink those teeth into any number of things you pit it against.</p>
+
+<script language="JavaScript"> 
+var set = new CAPSet(); 
+set.name = "DPP Life Orb"; 
+set.move[1] = "Earthquake"; 
+set.move[2] = "Sucker Punch"; 
+set.move[3] = "Pursuit"; 
+set.move[4] = ["Stone Edge", "Taunt"]; 
+set.item = "Life Orb"; 
+set.nature = ["Adamant", "Jolly"]; 
+set.ability = "Guts"; 
+set.evs.Atk = 252; 
+set.evs.Def = 4; 
+set.evs.Spe = 252; 
+document.write(composeSet(set)); 
+</script> 
+
+<p>When Colossoil comes out to play, your opponent had best be prepared for hell. Life Orb Colossoil is a destructive force that can almost always, when played correctly, net at least two kills per game. Either coming in on one of its plentiful immunities or resistances or after a teammate has died, it will force its opponents into a deadly mind-game that if they misplay will tear gaping holes in their team. It's superb STAB in the Ground- and Dark-types go a long way to ensure that no matter what gets switched in, it will be threatened in some manner. To make matters worse for your opponent, inflicting status on this behemoth isn't going to make it any easier to deal with, as it will happily take any poison or burn coming its way because of Guts and is immune to the most common form of paralysis.</p>
+
+<p>The set itself is incredibly straightforward and is designed to take full advantage of Colossoil's excellent STABs. Earthquake is mandatory, while Sucker Punch and Pursuit combine to form the core of Colossoil's mind-game. Pursuit nails the Pokemon that switch out of you and Sucker Punch obliterates those that stay in to try to take you down. The final moveslot has numerous options, and all of them are useful depending upon which of your counters you'd like to beat the most. Stone Edge covers Gyarados that like to switch into your Earthquakes and Intimidate you, while Taunt is an option that allows you to prevent Skarmory or other Pokemon from setting up on you if you can't immediately threaten them.</p>
+
+<p>Max Attack and Speed EVs are a must have for this Colossoil to hit as hard and as fast as possible. The remaining 4 EVs are placed in Defense as its HP stat is high enough already. With priority more than making up for a general lack of Speed, Adamant is chosen as a nature to boost its already spectacular Attack stat. Jolly can still be useful if you'd like to outspeed Pokemon like Lucario with your Earthquake. Colossoil can clearly benefit from a Flame Orb or Toxic Orb with Guts, but there are some major reasons why Life Orb should be used instead. With Life Orb, Colossoil still achieves the necessary OHKOs and 2HKOs against Pokemon such as Starmie, Celebi, and Blissey. There is no reason to waste valuable HP each turn when Life Orb achieves everything that is necessary. Life Orb also won't drop your HP unless your attacks connect, which is important considering that both Earthquake and Sucker Punch can be dodged with appropriate prediction. Lastly, if Colossoil can switch into burn or poison status, Guts alongside Life Orb will boost its attacks to a level where virtually nothing that doesn't resist its STABs can survive a hit.</p>
+
+<p>Colossoil is a monster of an attacker, and it is hard to find a solid counter to it; however, Colossoil does have problems with bulky Water-types. Pokemon like Suicune and Vaporeon can come in on Colossoil, thanks to their high HP and good Defense stats, and hit back with a super effective STAB Water-type attack. To take care of the majority of the bulky Water-types, Celebi or Shaymin are excellent teammates, destroying them before they have a chance to set-up with their STAB Grass Knot and Seed Flare, respectively. The aforementioned Grass-types also resist Colossoil's Water-type weakness, and Celebi has the added resistance to Fighting-type attacks. Colossoil also appreciates Pokemon that lure Electric-type attacks as teammates, since it gives it a free switch in. Gyarados stands out as an excellent offensive teammate to Colossoil, as it will take the Water- and Fighting-type attacks aimed at Colossoil while Colossoil will happily switch into any Electric- or Rock-type attacks sent at Gyarados. Gyarados will also lure out Rotom-A, which Collossoil will gladly remove to facilitate Gyarados' sweep later. If Colossoil lacks Taunt, Skarmory will shut down Colossoil's sweep instantly, so it's recommended to use Pokemon that can bring it down. Magnezone is a reliable answer to Skarmory, trapping Skarmory thanks to its ability, Magnet Pull, and OHKOing it with Thunderbolt.</p>
+
+<script language="JavaScript"> 
+var set = new CAPSet(); 
+set.name = "DPP Choice Scarf"; 
+set.move[1] = "Earthquake"; 
+set.move[2] = "Crunch"; 
+set.move[3] = "Pursuit"; 
+set.move[4] = "U-turn"; 
+set.item = "Choice Scarf"; 
+set.nature = ["Adamant", "Jolly"]; 
+set.ability = "Guts"; 
+set.evs.Atk = 252; 
+set.evs.Def = 4; 
+set.evs.Spe = 252; 
+document.write(composeSet(set)); 
+</script> 
+
+<p>As much as Colossoil enjoys tearing through the metagame with its raw power, this set takes on a different approach and turns Colossoil into a very threatening Choice Scarf user. With Choice Scarf, it reaches 433 Speed with its base 95 Speed stat and an Adamant nature, meanwhile Colossoil's sky-high Attack and very respectable bulk allow it to switch in several times to fire off its STAB Dark- and Ground-type moves. This Colossoil is capable of outpacing many Pokemon that normally outspeed it, including Jolly Gyarados and Dragonite after a Dragon Dance, Modest Choice Scarf Rotom-A, and standard Agiligross after an Agility.</p>
+
+<p>Colossoil's movepool has just the right number and types of moves to make a Choice Scarf set extremely viable. Earthquake and Crunch are the highest-power STAB attacks available. Pursuit is used to guarantee kills on Pokemon like Gengar, Starmie, and Rotom-A if they try to switch out. Stone Edge is possible to hit Pokemon like Gyarados and Zapdos super effectively. U-turn is superb on a Choice Scarf set, as it allows you to scout your opponent's initial switch-ins to Colossoil and then switch to an appropriate counter. Oftentimes, the best responses to Colossoil are weak to Stealth Rock, so forcing them out to come back in later and take more Stealth Rock damage is excellent.</p>
+
+<p>Maximizing Colossoil's Speed and Attack stats are necessary for this set. As in the previous set, the last 4 EVs are placed in Defense to buffer that slightly. An Adamant nature is recommended to provide as much offensive power as possible, but a Jolly nature can be used if you want Colossoil to outpace more threats, such as Timid Choice Scarf Rotom-A, and Adamant Choice Scarf Jirachi. Guts is chosen again because if you are capable of switching Colossoil into a status move, such as Toxic or Will-O-Wisp, Colossoil will have greatly increased Attack power, allowing it to hit both fast and extremely hard.</p>
+
+<p>Much like the previous set, Suicune and Vaporeon are now greater hassles to Colossoil, as Colossoil is not carrying Life Orb. Celebi and Shaymin, once again, prove to be useful counters to both of these Pokemon, as they resist Water-type attacks aimed at Colossoil and dispose of them with their STAB Grass-type attacks. Playing into Colossoil's immunities will serve this set even better than in the previous set. Gyarados and bulky, yet offensive, Water-types, such as offensive Suicune, are excellent at luring the Electric-type attacks that Colossoil loves to switch into. Furthermore, these Electric-type attacks all come from Pokemon that Colossoil threatens immensely with its STABs. Entry hazard support is greatly recommended with this set, as with Stealth Rock and a layer or two of Spikes on the field, Colossoil has a chance to turn many of its 2HKOs into OHKOs, such as against Choice Band Metagross. Swampert is an excellent bulky Stealth Rock user, although if you use it, you should definitely cover the Grass-type weakness elsewhere on your team. For faster and more offensive teams with this Colossoil, Azelf makes an excellent Stealth Rock lead that can eliminate something Colossoil might not fare well against with its Explosion. Specially Defensive Skarmory makes an excellent partner to this set, as it 4x resists Grass-type attacks and can even setup against the weaker Water- and Ice-type attacks sent at Colossoil.</p>
+
+<script language="JavaScript"> 
+var set = new CAPSet(); 
+set.name = "DPP Rapid Spin"; 
+set.move[1] = "Rapid Spin"; 
+set.move[2] = "Crunch"; 
+set.move[3] = "Earthquake"; 
+set.move[4] = ["Encore", "Taunt"]; 
+set.item = "Leftovers"; 
+set.nature = "Jolly"; 
+set.ability = "Rebound"; 
+set.evs.HP = 36; 
+set.evs.SpD = 252; 
+set.evs.Spe = 220; 
+document.write(composeSet(set)); 
+</script> 
+
+<p>Colossoil's incredible offensive potency often overshadows its ability to be used as a defensive supporting Pokemon. This set attempts to take advantage of the several qualities Colossoil possesses to make a good supporting Pokemon, including its large base 133 HP, decent defenses, useful ability in Rebound, and Rapid Spin. Colossoil makes an incredibly successful Rapid Spinner because its Dark-type STAB forces enemy Ghosts to think twice before switching into a predicted Rapid Spin. In this manner, Colossoil is practically guaranteed to remove entry hazards on your field. In addition, Colossoil completely shuts down Rotom-A, the most common Rapid Spin blocker in the OU metagame, with its resistance to Shadow Ball, immunity to Thunderbolt and Discharge, and ability that bounces back Will-O-Wisp. In fact, Rotom-W and Rotom-C are the only common Rotom formes that are able to put a dent into Colossoil with Hydro Pump and Leaf Storm, respectively. Even so, they are still generally unable to break through Colossoil's excellent bulk.</p>
+
+<p>Crunch and Earthquake are the attacking moves of choice, both of which are boosted by STAB and have great coverage in tandem with each other, only resisted by Breloom, Heracross, and Skarmory. Encore enhances Colossoil's ability to Rapid Spin successfully, as it can trap the opponent into a non-threatening move, such as Skarmory's Spikes or Swampert's Stealth Rock, and Rapid Spin as they switch out. Taunt, meanwhile, prevents any of the opponent's indirect attacks and can keep opposing Pokemon from setting up on Colossoil. Encore and Taunt are both equally viable options, as they both have their advantages, so it really comes down to personal preference and team necessity when choosing one over the other.</p>
+
+<p>The EV spread focuses on Colossoil's Special Defense to deal with the special attacking Ghosts that might be bold enough to switch into it, as well as dealing with the stray special attacks that Colossoil tends to lure. As a testament to Colossoil's bulk, it is never OHKOed by Gengar's Life Orb Focus Blast. The Speed EVs and nature allow Colossoil to outpace Jolly Lucario and Jolly 216 Speed Gliscor. As if destined to be, the remaining 36 EVs, when placed in HP, put Colossoil comfortably at a Leftovers number.</p>
+
+<p>Teams that are in need of Rapid Spin support will enjoy this Colossoil on their teams, particularly offensive and stall teams. Most offensive teams steer away from using Rapid Spinners because many of the viable ones are too defensive for their liking, and will usually resort to Pokemon like Starmie who may not fit in their team well. Thanks to Colossoil's offensive nature, it can fulfill the role of a successful Rapid Spinner that doesn't slow down the offensive momentum of its team, yet still retains the bulk to take the hits it needs. Also, with the removal of entry hazards, offensive Pokemon such as Gyarados and Infernape will be more threatening without losing life as they switch in. On the other hand, Colossoil makes a great member on stall teams because of its ability to threaten Ghost-types if they try to absorb its Rapid Spin. Many defensive Rapid Spinners are incapable of breaking through Rotom-A, as its overall bulk and access to Will-O-Wisp makes it a troublesome threat for Spinners to deal with. This vital aspect of Rapid Spin Colossoil is what helps it outshine its counterparts, keeping it and its stall team in good shape.</p> 
+
+<h2>Team Options</h2>
+
+<h4>DPP</h4>
+
+<p>Pokemon that can apply their own offensive pressure on the opponent while threatening Colossoil's checks will serve a user of Colossoil well. Skarmory, one of the most common Colossoil switch-ins, can be easily beaten by Magnezone, trapping it with its ability, Magnet Pull, and finishing it off with Thunderbolt. Scizor also falls under Magnezone’s grips, especially since Scizor enjoys threatening Colossoil with Bullet Punch. Vaporeon and Suicune have the defenses to switch into Colossoil numerous amounts of times and finish it off with their STAB Surf, meaning Magnezone, once again, deserves to be mentioned as an answer to them, KOing both with its STAB Thunderbolt. Heatran is an excellent offensive Pokemon for disposing of the Grass-types that cause Colossoil trouble, especially Celebi and Tangrowth, and is also an excellent switch-in to Skarmory and Scizor.</p>
+
+<p>Since Colossoil is virtually guaranteed to bring down Rotom-A and Gengar with its STAB Pursuit or Sucker Punch, it’s an excellent idea to use Pokemon that appreciate having them out of the way. Scizor and Lucario are two common examples of Pokemon that Rotom-A and Gengar can generally stop, as Rotom-A resists both of Scizor’s STAB moves and Gengar is immune to ExtremeSpeed from Lucario. Gyarados works similarly to Scizor and Lucario, and since Rotom-A is a very common switch-in to Gyarados, Colossoil can absorb the Thunderbolt and proceed to eliminate Rotom-A with Pursuit or Sucker Punch. Colossoil is also capable of breaking Blissey, meaning that strong special sweepers, such as Heatran, Empoleon, and Gengar, will be much harder for your opponent to handle.</p>
+
+<p>Entry hazard support is extremely beneficial for Colossoil, as it can turn many of its 2HKOs into OHKOs. Skarmory and Celebi are reliable entry hazard supporters, the former setting up Spikes and the latter Stealth Rock. Colossoil’s ability to abuse Rapid Spin effectively to remove entry hazards will also help out common teammates that are weak to them, such as Gyarados. If you'd rather use an offensive Colossoil, though, Forretress can be put to good use in both Spinning away the opponent's hazards while setting up some of its own.</p>
+
+<h2>Other Options</h2>
+
+<h4>DPP</h4>
+
+<p>Colossoil's offensive movepool doesn't extend too far past what is listed in the sets in what is useful, but there are some useful options worth noting. Notably, Aqua Tail can be used on offensive sets with some Spikes support to 2HKO the standard Hippowdon, and Megahorn's ability to OHKO Celebi and Tangrowth is worth noting.</p>
+
+<p>Colossoil has a very respectable support movepool which can be put to great use because of the switches Colossoil forces. Knock Off can be excellent in removing critical items from Colossoil's switch-ins such as Skarmory's Shed Shell, rendering it vulnerable to Magnezone. Stockpile can be useful in making Colossoil very bulky, but it generally isn't able to take advantage of it very well. A combination of Screech and Pursuit can also be useful, dealing severe damage to the opposing Pokemon if they try to switch out or stay in.</p>
+
+<p>Colossoil can run a Choice Band set, although it appreciates Life Orb's flexibility with Sucker Punch or the Speed boost of a Choice Scarf far more. Flame Orb and Toxic Orb, as mentioned in the LOSoil set, are plausible, but inferior to Life Orb. Leftovers is perfectly usable on Colossoil if you would prefer more survivability, although beware that you will lose many OHKOs and 2HKOs without the power of a Life Orb.</p>
+
+<h2>CAP Metagame</h2>
+
+<h4>DPP</h4>
+
+<p>In the CAP metagame, Colossoil is still a great weapon against stall, even with newer threats, such as Arghonaut and Revenankh. If played correctly, Colossoil can usually dismantle the opponent's core, giving other Pokémon the opportunity to sweep. It is able to switch into Blissey with ease, and threaten her with moves like Pursuit or Earthquake, and is also capable of abusing Taunt to great effectiveness. With Colossoil's wide variety of moves, it is a very unpredictable Pokémon and can catch anybody off-guard. Being able to soften up the common stall CAPs, such as Arghonaut, Fidgit, and Revenankh, in addition to the usual stall staples, such as Rotom-A and Blissey, it is by far the biggest contributor to CAP anti-stall, also referred to as offense.</p>
+
+<p>Apart from that, Colossoil functions essentially the same as it does in OU. It fares excellently in general against most variants of Cyclohm, all Fidgit, Kitsunoh, and Stratagem. It needs to beware of Superpower on Kitsunoh, Hydro Pump from Cyclohm, and other stray super effective attacks, but in general, these CAP Pokemon don't like staring down the deadly Colossoil. Generally, the threat of Sucker Punch is enough to ward off most Syclant, as they are OHKOed, but if a boosted STAB attack from Syclant hits Colossoil it will go down hard. Choiced variants of Stratagem locked into a Rock-type attack can be eliminated handily with Pursuit or Sucker Punch if necessary. Revenankh can be a real problem for Colossoil if it's managed to set up a Bulk Up or two before Colossoil comes in. Without those boosts, however, even the bulky Revenankh can be eliminated with repeated Earthquakes. Arghonaut will force Colossoil out with its potent STABs and resistance to Sucker Punch, but if it's taken a bit of previous damage, it will go down to an Earthquake.</p>
+
+<h2>Counters</h2>
+
+<h4>DPP</h4>
+
+<p>When looking for counters to Colossoil, Skarmory immediately comes to mind. Its high Defense, excellent typing, and resistance to Colossoil's Dark-type attacks and immunity to its Ground-type attacks makes it a primary counter. The only issue Skarmory will face is if Colossoil is using Taunt, since it will be incapable of Roosting, using Whirlwind, or setting up Spikes.</p>
+
+<p>Bulky Water-types, specifically Vaporeon and Suicune, can handle Colossoil with relative ease. Vaporeon has access to Wish and Protect, making it more difficult for Colossoil to take down, while Suicune’s great defensive bulk allows it to set up multiple Calm Minds and Rest off any damage taken. Gyarados, although not as bulky as the aforementioned Water-types, can switch into a predicted Earthquake, activate its Intimidate, and finish off Colossoil with Waterfall.</p>
+
+<p>Tangrowth and Celebi are also great switch-ins to Colossoil. Tangrowth boasts excellent defensive stats in its base 100 HP and base 125 Defense and can easily destroy Colossoil with Power Whip. Celebi has the ability to outpace Colossoil, which means that it can hit Colossoil with Grass Knot first before it can move; however, Celebi must be wary of Sucker Punch, as it will do some heavy damage.</p>
+
+<p>Fighting-types like Hitmontop, Machamp, Heracross, and Breloom can switch into Crunch and proceed to destroy Colossoil with their STAB Fighting moves. Hitmontop in particular has Intimidate to cut Colossoil’s Attack, which makes it much harder for Colossoil to take it down with Earthquake. Both Heracross and Breloom resist both of Colossoil's STAB attacks, making them excellent Pokemon to deal with Colossoil.</p>

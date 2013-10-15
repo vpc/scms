@@ -1,0 +1,451 @@
+[title]
+Little Did You Know - A Beginner's Guide to Little Cup
+[head]
+<meta name="description" content="A guide to the 5th generation Little Cup metagame, thanks to Ray Jay, iss, blarajan, and Elevator Music." />
+[page]
+<div class="author">By <a href="/forums/member.php?u=51861">Ray Jay</a>, <a href="/forums/member.php?u=34723">iss</a>, <a href="/forums/member.php?u=59999">blarajan</a>, and <a href="/forums/member.php?u=17197">Elevator Music</a>. Art by <a href="/forums/member.php?u=96369">bluehoundoom</a>.</div>
+
+<ol class="toc">
+<li><a href="#intro">Introduction</a></li>
+<li><a href="#rules">Rules</a>
+<ul>
+<li><a href="#battlerules">Battle Rules</a></li>
+<li><a href="#eligibility">Pok&eacute;mon Eligibility</a></li>
+</ul></li>
+<li><a href="#banned">Banned Pok&eacute;mon</a></li>
+<li><a href="#evdistribution">EV Distribution</a></li>
+<li><a href="#commonpkmn">Common Pok&eacute;mon</a>
+<ul>
+<li><a href="#offensive">Offensive</a></li>
+<li><a href="#defensive">Defensive</a></li>
+</ul></li>
+<li><a href="#commonitems">Common Items</a>
+<ul>
+<li><a href="#should">What You Should Use</a></li>
+<li><a href="#shouldnt">What You Shouldn't Use</a></li>
+</ul></li>
+<li><a href="#further">Further Readings</a></li>
+</ol>
+
+<h2><a name="intro">Introduction</a></h2>
+<p>The original basis for Little Cup came from Pok&eacute;mon Stadium 2. During Gen IV, several members of Smogon, including <a href="/forums/member.php?u=12694">eric the espeon</a>, <a href="/forums/member.php?u=26772">Vader</a>, and <a href="/forums/member.php?u=20997">Seven Deadly Sins</a>, created the Little Cup Forum, which was later integrated into Smogon in 2009. During DPP, Little Cup was an extremely offensive metagame that revolved around Speed and priority attacks. However, due to the introduction of Eviolite (as well as several other changes) in BW, Little Cup has settled into a more balanced metagame where all playstyles are viable.</p>
+
+<h2><a name="rules">Rules</a></h2>
+
+<h3><a name="battlerules">Battle Rules:</a></h3>
+<ul>
+<li>Sleep Clause is on; only one Pok&eacute;mon on each team can be put to sleep by the opponent at a time.</li>
+<li>Self-KO Clause is on; if a player causes the game to end via the use of a move such as Explosion, that player loses the game.</li>
+<li>OHKO Clause is on; moves such as Sheer Cold or Horn Drill are banned.</li>
+<li>Evasion Clause is on; moves such as Double Team are banned.</li>
+<li>Species Clause is on; no team can have more than one of the same Pok&eacute;mon.</li>
+<li>Item Clause is off; a team is free to use six of the same item if it so desires.</li>
+<li>The moves SonicBoom and DragonRage are banned.</li>
+<li>The item Berry Juice is banned.</li>
+<li>The ability Moody is banned.</li>
+</ul>
+
+<h3><a name="eligibility">Pok&eacute;mon Eligibility:</a></h3>
+<ul>
+<li>The Pok&eacute;mon must be able to evolve.</li>
+<li>The Pok&eacute;mon must be the earliest evolution stage obtainable.</li>
+<li>The Pok&eacute;mon must be at Level 5.</li>
+<li>The Pok&eacute;mon must not be banned (see below).</li>
+</ul>
+
+<h2><a name="banned">Banned Pok&eacute;mon</a></h2>
+
+<h4>Carvanha</h4>
+<img src="/download/sprites/bw/318.png" alt="" />
+<p>During DPP, Carvanha was a major offensive threat. With Waterfall, Crunch, and Aqua Jet, combined with its massive base 90 Attack and respectable base 65 Speed, Carvanha could easily 2HKO or OHKO most of the metagame. However, its horrific defenses&mdash;the worst of all Pok&eacute;mon&mdash;prevented it from being broken, as nearly any attack could do massive damage to it. In addition, many common Pok&eacute;mon were faster than Carvanha and could survive Aqua Jet, while being able to OHKO it easily in return. However, Carvanha received Speed Boost from the Dream World. With Speed Boost, Carvanha was able to outspeed all unboosted Pok&eacute;mon in Little Cup after one turn and all Choice Scarf users after two. Combined with Carvanha's huge Attack stat, Little Cup teams were effectively forced to run priority moves that could OHKO Carvanha, such as Croagunk's Vacuum Wave and Timburr's Mach Punch. However, Carvanha users began to run Zen Headbutt to OHKO Croagunk and 2HKO Timburr. Ultimately, Little Cup players decided that Carvanha was too powerful, and banned it from the metagame in July 2011.</p>
+
+<h4>Gligar</h4>
+<img src="/download/sprites/bw/207.png" alt="" />
+<p>While Gligar was not banned in DPP, it received several things in BW that led to its ban. Eviolite made Gligar much tankier (although this is true for all Pok&eacute;mon in Little Cup) and made it one of the best walls in Little Cup, with excellent moves such as Stealth Rock, Roost, and Taunt at its disposal. However, Acrobatics Gligar with Flying Gem was discovered, terrorizing the metagame with its incredibly powerful Acrobatics, especially after a Swords Dance. While several checks and counters were soon discovered, AcroGar (as it was commonly referred to) combined with Gligar's amazing defensive and utility capabilities proved too good for Little Cup. Gligar was also banned by Little Cup players in July 2011 (coincidentally, the same vote as Carvanha and Meditite).</p>
+
+<h4>Meditite</h4>
+<img src="/download/sprites/bw/307.png" alt="" />
+<p>While Meditite was banned for the entirety of the DPP Little Cup metagame, it was unbanned at the start of BW. One of Meditite's abilities, Pure Power, allows it to double its Attack stat. With Pure Power, Meditite was the strongest Pok&eacute;mon in the metagame, with a massive Attack stat of up to 28 without any boosts. Combined with powerful STAB attacks in Hi Jump Kick, Drain Punch, and Zen Headbutt, as well as a variety of coverage attacks in ThunderPunch, Ice Punch, and Bullet Punch, Meditite was incredibly powerful and required Little Cup teams to run multiple counters to it in order to account for all of its coverage moves. Meditite was banned by Little Cup players in July 2011 (again, the same vote as Carvanha).</p>
+
+<h4>Scyther</h4>
+<img src="/download/sprites/bw/123.png" alt="" />
+<p>Scyther has stayed banned for the entirety of Little Cup. Simply put, its base stats are far too good for the rest of the metagame. If allowed into Little Cup, it would have the second highest Attack, highest Speed, and yet still be roughly as bulky as the bulkiest Pok&eacute;mon currently allowed in Little Cup. Technician with Bug Bite and Aerial Ace give it solid STAB attacks, while Swords Dance and Agility give it all the boosting moves it needs. Other nice moves such as Roost, Brick Break, and Pursuit aren't even necessary for Scyther. Although Scyther is extremely weak to Stealth Rock, Rapid Spin can easily deal with that. Scyther has never been unbanned, and likely never will be.</p>
+
+<h4>Sneasel</h4>
+<img src="/download/sprites/bw/215.png" alt="" />
+<p>Sneasel is very similar to Scyther. It has also remained banned throughout the history of Little Cup. While being slightly weaker and slightly less bulky, it makes up for it by having a fantastic offensive typing as well as being even faster than Scyther. Sneasel also has access to Swords Dance, which renders it practically unstoppable if it does manage to get a boost. While Sneasel's movepool is not as good or as strong as Scyther's, it still manages to get the job done. Ice Punch and Bite or Pursuit provide solid STAB attacks, while Ice Shard is extremely useful priority and Brick Break provides coverage on Steel-types. Like Scyther, Sneasel will most likely never be unbanned.</p>
+
+<h4>Tangela</h4>
+<img src="/download/sprites/bw/114.png" alt="" />
+<p>While not nearly as impressive as Scyther or Sneasel, Tangela boasts an amazing base 115 Defense and an equally as good base 100 Special Attack. The one problem that Tangela has is its somewhat mediocre Speed stat. However, Tangela has access to Chlorophyll, doubling its Speed while sun is active. It is able to render walls useless with Sleep Powder, while destroying everything else with SolarBeam, Hidden Power Fire, and AncientPower. Although Vulpix (see below), the only Pok&eacute;mon in Little Cup to provide permanent sun through Drought, was banned, Tangela still proved too strong; it could easily use Sunny Day itself with its impressive Defense and sweep Little Cup teams anyways. The ridiculous amount of power that Tangela has as well as the amazing utility of Sleep Powder simply makes Tangela too powerful for Little Cup.</p>
+
+<h4>Vulpix</h4>
+<img src="/download/sprites/bw/37.png" alt="" />
+<p>While Vulpix lacks good stats or an impressive movepool, it makes up for its deficiencies with an amazing ability in Drought. Drought summons permanent sun onto the field, allowing sweepers such as the aforementioned Tangela, Bellsprout, Oddish, and a few others to gain a massive Speed stat through Chlorophyll. Sun also allows these sweepers to use SolarBeam without penalty, as well as boosting the power of their Hidden Power Fire or Weather Ball. Permanent sun effectively forces Little Cup teams to be able to change the weather, as if sun is allowed to remain on the field, sweepers with Chlorophyll will simply wreck everything left on the field. Vulpix was determined to be too overcentralizing, and was banned from Little Cup in May 2011.</p>
+
+<h4>Yanma</h4>
+<img src="/download/sprites/bw/193.png" alt="" />
+<p>Just like the aforementioned Scyther and Sneasel, Yanma was banned from LC before BW started. While Yanma's stats are not quite as impressive as Scyther or Sneasel, it makes up for it in several ways. Although Yanma is already extremely fast (tied for the the fastest Pok&eacute;mon in Little Cup), it has access to Speed Boost, allowing it to outpace nearly all Choice Scarf users after one turn. Alternatively, Yanma could use Compoundeyes to get a fairly accurate Hypnosis. Combined with powerful STAB attacks in Bug Buzz and Air Slash, as well as decent coverage moves in Giga Drain and AncientPower, Yanma was extremely difficult to stop. Although still unlikely to be unbanned, Yanma is certainly not as good as Scyther or Sneasel. However, it is still extremely powerful, explaining its ban from Little Cup.</p>
+
+<h2><a name="evdistribution">EV Distribution</a></h2>
+One of the trickiest parts about learning LC is learning how to EV your Pok&eacute;mon. At Level 5, base stats are slightly less important in determining the final stat. For instance, a Pok&eacute;mon with a base Speed of 80 will max out its Speed at 17 with 196 Speed EVs (assuming a neutral nature), while a Pok&eacute;mon with a base Speed of 75 will also max out its Speed at 17, but with 236 Speed EVs (with a neutral nature). This example should show how EVs obviously affect stats differently than they do at level 100.
+
+Here is the simplified formula for stats (bar HP) at level 5:
+((((2 x Base + IV + (EV / 4)) x 5 / 100 + 5) x Nature)
+- "Base" means the base stat for that Pok&eacute;mon.
+- "IV" is the IV of the stat for that Pok&eacute;mon.
+- "EV" is number of EVs invested in that stat.
+- "Nature" is 1 if the nature is a neutral nature for that stat, 1.1 if the nature is a boosting nature for that stat, or 0.9 if the nature is a hindering nature for that stat.
+
+<p>One thing important to note is that after every division, the total is rounded down.</p>
+
+<dl>
+<dt><strong>The formula for HP at level 5 is very similar:</strong></dt>
+<dd>(((2 x Base + IV + (EV / 4)) x 5 / 100 + 15)</dd>
+</dl>
+
+<p>Formulas are boring though, so here's the quick shortcut. It takes 80 EVs to increase a stat by one point, with the exception of the first point. Going back to the first example, for a Pok&eacute;mon with a base Speed of 80, it would take 196 EVs to raise its Speed from 14 to 17. It would take 116 EVs to raise its Speed from 14 to 16, and only 36 EVs to raise its Speed from 14 to 15. However, for a Pok&eacute;mon with a base Speed of 75, it would take 236 EVs to get to 17, 156 EVs to get to 16, and 76 EVs to get to 15. For both Pok&eacute;mon, once they have raised their stat by one, it takes 80 more EVs to get to the next stat point. So once you've figured out how many EVs it takes to initially raise a stat by one, the rest is easy. It's just figuring that part out that's difficult. Here's a table that lists the number of EVs it takes to initially raise a stat, and how many EVs it takes to get the next stat points:</p>
+
+<table class="sortable"><thead><tr><th>Base Stat Ending</th><th>EVs required for stat gain</th></tr></thead>
+<tbody>
+<tr class="a"><td>xx0</td><td>36 /116 / 196 EVs</td></tr>
+<tr><td>xx1</td><td>28 / 108 / 188 EVs</td></tr>
+<tr class="a"><td>xx2</td><td>20 / 100 / 180 EVs</td></tr>
+<tr><td>xx3</td><td>12 / 92 / 172 / 252 EVs</td></tr>
+<tr class="a"><td>xx4</td><td>4 / 84 / 164 / 244 EVs</td></tr>
+<tr><td>xx5</td><td>76 / 156 / 236 EVs</td></tr>
+<tr class="a"><td>xx6</td><td>68 / 148 / 228 EVs</td></tr>
+<tr><td>xx7</td><td>60 / 140 / 220 EVs</td></tr>
+<tr class="a"><td>xx8</td><td>52 / 132 / 212 EVs</td></tr>
+<tr><td>xx9</td><td>44 / 124 / 204 EVs</td></tr>
+</tbody></table>
+			
+<p>As you might've noticed, base stats that end in 3 or 4 are special. Pok&eacute;mon can increase their stats 4 times for those base stats, while with the other numbers they can only increase their stat 3 times. They also cost the least to initially invest in, so even if you don't plan on maxing that stat out, you'll almost always have enough leftover EVs to increase it by 1. That can matter a lot, especially if a Pok&eacute;mon is holding an item like Eviolite and you increase its Defense.</p>
+
+<p>There's one other major nuance to EVing at level 5, and that's dealing with IVs that aren't 31. Luckily, this is dealt with the same way it is at level 100. Each time you decrease the IV of a stat you've invested in by 1, you need to increase the number of EVs by 4 to compensate. This doesn't count if you haven't invested any EVs in the stat at all, as lowering an IV from 31 to 30 won't lower the stat. Basically, going back to that Pok&eacute;mon with a base Speed of 80, if it had a Speed IV of 30 instead of 31, it would take 200 EVs to max out its Speed instead of 196. However, without any EVs invested in Speed at all, its Speed will still be 14 regardless of whether the Speed IV is 31 or 30.</p>
+
+<p>tl;dr: just scroll the bar until the stat point goes up</p>
+
+<h2><a name="commonpkmn">Common Pok&eacute;mon</a></h2>
+
+<h3><a name="offensive">Offensive</a></h3>
+
+<h4>Abra</h4>
+<img src="/download/sprites/bw/63.png" alt="" />
+<p>Abra really relies on Magic Guard and its strong Special Attack and 19 Speed to run a good Focus Sash attacking set. It doesn't frequently use Life Orb as its frail defenses require it to use Focus Sash in order to not get completely destroyed.</p>
+
+<div style="float: right; margin-left: 10px;"><img src="/media/upload/bw/articles/lcguide_archen.png" alt="" /></div>
+
+<h4>Archen</h4>
+<img src="/download/sprites/bw/596.png" alt="" />
+<p>Archen is kind of a mixed bag in that its really strong but has one of the worst abilities in the game. Archen generally runs an offensive Stealth Rock set, a Choice Scarf set, or an Agility with Flying Gem set. It does all of these things decently at best due to priority and Stealth Rock easily dropping it into Defeatist range.</p>
+
+<h4>Axew</h4>
+<img src="/download/sprites/bw/640.png" alt="" />
+<p>Axew is like Dratini in that its only use comes from Dragon Dance sets. It hits harder than Dratini, but is less bulky.</p>
+
+<h4>Chinchou</h4>
+<img src="/download/sprites/bw/170.png" alt="" />
+<p>While primarily seen as a defensive Pok&eacute;mon, Chinchou has the coverage and resistances to perform offensive roles admirably. Offensively, Chinchou most frequently is a bulky tank that relies on its high Special Attack, excellent coverage, and STAB Volt Switch to hit hard and act as a pivot. However, Chinchou's middling Speed causes many to run a Choice Scarf set or an Agility set, that hit hard and do a good job cleaning weakened teams.</p>
+
+<h4>Clamperl</h4>
+<img src="/download/sprites/bw/366.png" alt="" />
+<p>Clamperl uses Shell Smash and hits things hard. It either uses Eviolite to give it the bulk it needs to set up, or DeepSeaTooth, which lets it hit an insane 68 Special Attack after a boost.</p>
+
+<h4>Cranidos</h4>
+<img src="/download/sprites/bw/411.png" alt="" />
+<p>Cranidos has the most powerful attack in Little Cup, with its base Attack equaling that of the mighty Gyarados. It attempts to use its strong Attack and incredibly powerful STAB Head Smash with a Choice Scarf set. Occasionally, it uses Rock Polish to boost its middling Speed to perform a sweep. Even less frequently, it attempts to be an Eviolite attacker.</p>
+
+<h4>Croagunk</h4>
+<img src="/download/sprites/bw/458.png" alt="" />
+<p>Croagunk doesn't frequently run offensive sets, though it is occasionally EVed more offensively so as to hit harder with Drain Punch and Sucker Punch. Occasionally it runs Nasty Plot, but at that point all you have to do is laugh.</p>
+
+<h4>Darumaka</h4>
+<img src="/download/sprites/bw/583.png" alt="" />
+<p>Darumaka is best at its Choice sets. Due to Hustle, its Choice Scarf set is both fast and astronomically strong, especially due to its STAB Flare Blitz. Choice Band, on the other hand, is out of this galaxy when it comes to strength, but is more of a novelty if anything.</p>
+
+<h4>Deino</h4>
+<img src="/download/sprites/bw/663.png" alt="" />
+<p>Deino has a super strong Outrage due to Hustle, and uses Choice Scarf to ignore its low Speed in order to abuse this strong Outrage.</p>
+
+<h4>Diglett</h4>
+<img src="/download/sprites/bw/50.png" alt="" />
+<p>Diglett is something to really watch out for because, if it comes in on the right Pok&eacute;mon, you're in for a world of hurt due to its Arena Trap ability, preventing you from switching out. Furthermore, Diglett has 20 Speed, which is the fastest for any unboosted Pok&eacute;mon in the tier. Due to this and Arena Trap, Diglett most commonly runs a Life Orb attacking set, which is a very good trapper and revenge killer. This set frequently has Stealth Rock and / or Memento, so watch out.</p>
+
+<h4>Doduo</h4>
+<img src="/download/sprites/bw/84.png" alt="" />
+<p>Doduo only does Choice Scarf sets, as it is slightly stronger than Taillow.</p>
+
+<h4>Dratini</h4>
+<img src="/download/sprites/bw/147.png" alt="" />
+<p>Dratini is one of the few actually good Dragon-type Pok&eacute;mon in the tier. All of its offensive sets rely on Dragon Dance to boost its Attack and Speed to make it threatening. Life Orb Dragon Dance is rather common, especially due to Dratini's access to ExtremeSpeed, allowing it to muscle past Murkrow. The current craze, however, is its Rest / Sleep Talk / Dragon Dance / Outrage set, which uses Marvel Scale to make it incredibly bulky while asleep.</p>
+
+<h4>Drifloon</h4>
+<img src="/download/sprites/bw/430.png" alt="" />
+<p>Drifloon's offensive power comes from its ability Unburden, which synergizes incredibly well with its STAB Acrobatics. When equipped with a Flying Gem, Drifloon can hit incredibly hard with a full powered Acrobatics + Flying Gem, while doubling its Speed at the same time.</p>
+
+<h4>Drilbur</h4>
+<img src="/download/sprites/bw/557.png" alt="" />
+<p>Drilbur is one of the most offensively threatening Pok&eacute;mon in the entire tier. The crux of its offense comes from its incredible Speed due to Sand Rush. In the sand, Drilbur hits 32 Speed, faster than even Choice Scarf Pok&eacute;mon with 20 Speed, and every Shell Smash Pok&eacute;mon after a boost. Due to this speed and Drilbur's high Attack, it performs a medley of roles, such as revenge killer and wallbreaker, all at once. Its most common sets are Life Orb sets that rely on attacking hard from the get go, or Eviolite Swords Dance sets, that rely on its decent bulk with Eviolite to set up.</p>
+
+<h4>Dwebble</h4>
+<img src="/download/sprites/bw/587.png" alt="" />
+<p>When you see Dwebble, it will 99% of the time be a hazards lead with Oran Berry. However, it occasionally uses Shell Smash and its excellent coverage to pose an offensive threat.</p>
+
+<h4>Elekid</h4>
+<img src="/download/sprites/bw/239.png" alt="" />
+<p>Elekid uses its incredibly high Speed of 20 and excellent coverage to make an incredibly powerful Life Orb attacker. It occasionally runs Choice Scarf, but honestly that's just overkill.</p>
+
+<h4>Elgyem</h4>
+<img src="/download/sprites/bw/635.png" alt="" />
+<p>Elgyem's low Speed, high Special Attack, access to Analytic, and above average defenses allow it to pull off a bulky offensive set incredibly well. It outspeeds slower walls such as Lileep, but hits faster Pok&eacute;mon with powerful Analytic-boosted attacks.</p>
+
+<h4>Exeggcute</h4>
+<img src="/download/sprites/bw/102.png" alt="" />
+<p>Exeggcute's generally known for its Oran Berry Substitute sets which utilize Harvest to be incredibly annoying. Sleep Powder forces switches, while you can't ever kill it due to Harvest constantly recycling Oran Berry. It can also be a Chlorophyll sweeper in the sun, but Harvest Oran is its best bet at doing anything.</p>
+
+<h4>Gastly</h4>
+<img src="/download/sprites/bw/92.png" alt="" />
+<p>Gastly's claim to fame comes from its Substitute + coverage sets, running either Oran Berry to put out more Substitutes, or Life Orb to hit harder. It also occasionally runs Choice Scarf, though that isn't nearly as effective.</p>
+
+<div style="float: right; margin-left: 10px;"><img src="/media/upload/bw/articles/lcguide_houndour.png" alt="" /></div>
+
+<h4>Houndour</h4>
+<img src="/download/sprites/bw/228.png" alt="" />
+<p>Houndour's strong Special Attack, high powered STABs, and access to STAB Sucker Punch let it perform as one of the most threatening mixed attackers in the tier.</p>
+
+<h4>Joltik</h4>
+<img src="/download/sprites/bw/625.png" alt="" />
+<p>Joltik, when used, either employs a Choice Scarf set to abuse its STAB Volt Switch, or a Life Orb Agility set to abuse its excellent dual STABs.</p>
+
+<h4>Larvesta</h4>
+<img src="/download/sprites/bw/666.png" alt="" />
+<p>Larvesta tends to run a bulky pivot set with Eviolite, utilizing its strong Attack, excellent resistances, good bulk, STAB U-turn, and powerful Flare Blitz to hit hard, though deterred by its low Speed and 4x Stealth Rock weakness. However, it sometimes mitigates this with its Choice Scarf set.</p>
+
+<h4>Machop</h4>
+<img src="/download/sprites/bw/66.png" alt="" />
+<p>Machop will use its high Attack and incredibly powerful (and accurate) STAB DynamicPunch with a passable Choice Scarf set.</p>
+
+<h4>Magnemite</h4>
+<img src="/download/sprites/bw/81.png" alt="" />
+<p>Magnemite's strong Special Attack, good bulk, and excellent typing which includes STAB Volt Switch allows Magnemite to perform as an excellent bulky pivot. These qualities also allow Magnemite to pull off an excellent Choice Scarf set.</p>
+
+<h4>Mantyke</h4>
+<img src="/download/sprites/bw/463.png" alt="" />
+<p>Mantyke uses its Swift Swim ability to employ a Life Orb Rain Dance attacker. It sets up Rain Dance, which doubles its Speed and gives its Water-type attacks double STAB. Its STAB Air Slash also allow it to deal with Croagunk.</p>
+
+<h4>Meowth</h4>
+<img src="/download/sprites/bw/52.png" alt="" />
+<p>Meowth only really ever runs a Life Orb set with Fake Out / U-turn / Return / Bite, and it really sucks.</p>
+
+<div style="float: right; margin-left: 10px;"><img src="/media/upload/bw/articles/lcguide_mienfoo.png" alt="" /></div>
+
+<h4>Mienfoo</h4>
+<img src="/download/sprites/bw/649.png" alt="" />
+<p>Choice Scarf Mienfoo acts as a fantastic revenge killer, hard hitter, and scout due to Regenerator. Furthermore, Mienfoo can hit incredibly hard right off the bat with a Life Orb set. While uncommon, this is a threat that must be taken into consideration, as it can 2HKO common physical walls, such as Hippopotas, with its powerful attacks. Although it usually uses Eviolite on defensive sets, Eviolite Mienfoo can make use of Knock Off, which greatly aids offensive teams.</p>
+
+<h4>Minccino</h4>
+<img src="/download/sprites/bw/602.png" alt="" />
+<p>With Skill Link and STAB Tail Slap, Minccino hits incredibly hard with its reliable 125 Base Power attack. It either employs a Life Orb set, which allows it to muscle its way through even the bulkiest of physical walls, or a Choice Scarf set, using its strong Attack and high Speed to revenge kill many threats.</p>
+
+<h4>Misdreavus</h4>
+<img src="/download/sprites/bw/200.png" alt="" />
+<p>Misdreavus is one of the most offensively diverse Pok&eacute;mon in the metagame. It has access to a variety of boosting moves, such as Calm Mind and Nasty Plot, which dictate the type of set. Calm Mind sets are generally bulky, slow boosting sweepers that can tank a lot of hits while still being offensive devastating. On the other hand, Nasty Plot Misdreavus can boost incredibly quickly, allowing it to hit hard while maintaining its incredible bulk through Eviolite, or forgo Eviolite for Life Orb and act as one of the most threatening boosters in the tier. Choice Scarf Misdreavus is also popular, as it is nearly guaranteed to move first due to its high Speed.</p>
+
+<h4>Munchlax</h4>
+<img src="/download/sprites/bw/451.png" alt="" />
+<p>Munchlax tends to run a bulky attacking set with four attacking moves, relying on its immense bulk to sponge hits while it dishes out pain.</p>
+
+<h4>Murkrow</h4>
+<img src="/download/sprites/bw/198.png" alt="" />
+<p>Murkrow is another incredibly offensively diverse offensive Pok&eacute;mon, with many options that it can employ. The most common offensive sets are Eviolite Substitute / Roost, relying on Prankster for a priority Substitute and Roost, or Life Orb Mixkrow, which uses Insomnia to get free switches on Spore, and hits incredibly hard and has excellent coverage with Brave Bird / Sucker Punch / Heat Wave / Hidden Power Grass. Murkrow is also frequently seen sporting a Choice Scarf. Finally, Calm Mind sets are possible, though nowhere near as common as the above sets.</p>
+
+<h4>Oddish</h4>
+<img src="/download/sprites/bw/43.png" alt="" />
+<p>Oddish acts as a decently strong Chlorophyll sweeper.</p>
+
+<h4>Omanyte</h4>
+<img src="/download/sprites/bw/138.png" alt="" />
+<p>Omanyte does pretty much the exact same thing Clamperl does, except without DeepSeaTooth and more Life Orb. Shell Smash and hit hard.</p>
+
+<h4>Pawniard</h4> 
+<img src="/download/sprites/bw/654.png" alt="" />
+<p>Pawniard relies on its incredible Attack and STAB Sucker Punch to use a decent Swords Dance. It occasionally uses Choice Scarf, but it generally really only uses Swords Dance, either relying on Eviolite to set up, or Life Orb to hit incredibly hard off the bat.</p>
+
+<h4>Ponyta</h4>
+<img src="/download/sprites/bw/77.png" alt="" />
+<p>Ponyta's most common set is a bulky attacking Sunny Day + Morning Sun set, which uses its immunity to Fire-type attacks and strong Flare Blitz (especially when sun-boosted) to get switch in opportunities and to hit hard.</p>
+
+<h4>Porygon</h4>
+<img src="/download/sprites/bw/137.png" alt="" />
+<p>Porygon is normally seen as an incredibly bulky Pok&eacute;mon, but can use an incredible Choice Scarf set. Its Choice Scarf set is unique in that it is the only Pok&eacute;mon that can outspeed and revenge kill Drilbur, due to Trace copying Sand Rush, doubling Porygon's Speed. Porygon can also use a Life Orb set with Agility, which finds many opportunities to set up due to Trace.</p>
+
+<h4>Riolu</h4>
+<img src="/download/sprites/bw/452.png" alt="" />
+<p>Due to Prankster, Riolu is capable of pulling off a unique combination. This is the combination of Roar and Copycat. Once Riolu has used Roar, it can use priority Copycat to Roar again before the opponent has a chance to attack. Things that cancel this are Protect, Fake Out, Sucker Punch, and opponents with faster priority. This makes Riolu invaluable on hazard setting teams.</p>
+
+<h4>Sandshrew</h4>
+<img src="/download/sprites/bw/27.png" alt="" />
+<p>As one of the two Pokemon in Little Cup to get Sand Rush, Sandshrew is often used in conjunction with Drilbur and Hippopotas to provide permanent sandstorm. In sandstorm, Sandshrew reaches 28 Speed, enough to outspeed nearly all Pokemon that carry Choice Scarf. If it uses Swords Dance, it can reach 34 Attack, allowing it to sweep with the potent combination of Earthquake and Rock Slide. However, as its offensive stats are inferior to those of Drilbur, it is often used to weaken shared counters so that Drilbur can sweep later on in the game.</p>
+
+<div style="float: right; margin-left: 10px;"><img src="/media/upload/bw/articles/lcguide_scraggy.png" alt="" /></div>
+
+<h4>Scraggy</h4>
+<img src="/download/sprites/bw/589.png" alt="" />
+<p>Scraggy was once the defining metagame threat of Little Cup. Its offensive prowess comes from its access to Dragon Dance, incredible offensive STABs, good bulk with Eviolite, semi-reliable recovery in Drain Punch, and and ability to set up on status moves due to Shed Skin. With all of this, Scraggy is the premiere user of Dragon Dance in the tier. Furthermore, it can use Life Orb instead of Eviolite and Hi Jump Kick instead of Drain Punch to OHKO its best check, Mienfoo.</p>
+
+<h4>Shellder</h4>
+<img src="/download/sprites/bw/90.png" alt="" />
+<p>Shellder relies on the incredibly high base power of Icicle Spear and Rock Blast (125 Base Power due to Skill Link) to do damage. Shellder is most commonly seen as a Choice Scarf user, or Shell Smash attacker. Its attacking moves are really limited to Icicle Spear, Rock Blast, Razor Shell, and Ice Shard.</p>
+
+<h4>Snover</h4>
+<img src="/download/sprites/bw/464.png" alt="" />
+<p>Snover is most commonly seen as a Choice Scarf Pok&eacute;mon, which boosts its meager 14 Speed to 21, faster than any unboosted Pok&eacute;mon in the tier. It generally spams its STAB moves.</p>
+
+<h4>Staryu</h4>
+<img src="/download/sprites/bw/120.png" alt="" />
+<p>Staryu uses its high Speed in order to hit hard, using its high Base Power STAB Hydro Pump and excellent coverage options. Staryu generally uses Eviolite with Rapid Spin, Recover, Hydro Pump, and a coverage option, though occasionally it uses more coverage options and even Life Orb to hit harder.</p>
+
+<h4>Stunky</h4>
+<img src="/download/sprites/bw/439.png" alt="" />
+<p>Stunky's main goal in life is to trap Ghost-types, and it does so in different ways. It generally employs a bulky set and a lot of Dark-type attacks in order to put Ghost-type Pok&eacute;mon in a checkmate position. However, once in a blue moon it uses Life Orb to boost its strong STAB Sucker Punch and to pose more of an offensive presence.</p>
+
+<h4>Taillow</h4>
+<img src="/download/sprites/bw/276.png" alt="" />
+<p>Taillow's claim to fame comes from its Guts abuse set, relying on its status immunity from Toxic Orb and STAB Facade. It also excels with its Choice Scarf set, regardless of its poor coverage.</p>
+
+<h4>Timburr</h4>
+<img src="/download/sprites/bw/560.png" alt="" />
+<p>Timburr primarily runs a bulky boosting Bulk Up set, using its admirable bulk to tank special attacks in order to boost its stats. STAB Drain Punch keeps it healthy, while STAB Mach Punch allows it to overcome its poor Speed.</p>
+
+<h4>Tirtouga</h4>
+<img src="/download/sprites/bw/594.png" alt="" />
+<p>Tirtouga is arguably the best Shell Smash user in the tier, due to its access to STAB Aqua Jet, which allows it to get past Murkrow and Drilbur. Behind this cute exterior lies a behemoth that can muscle its way past the majority of the tier at +2.</p>
+
+<h4>Vullaby</h4>
+<img src="/download/sprites/bw/659.png" alt="" />
+<p>The only offensive sets Vullaby will ever run are Nasty Plot or Choice Scarf. Vullaby's claim to fame with the Choice Scarf set is its ability to revenge Scraggy.</p>
+
+<h3><a name="defensive">Defensive</a></h3>
+
+<div style="float: right; margin-left: 10px;"><img src="/media/upload/bw/articles/lcguide_bronzor.png" alt="" /></div>
+
+<h4>Bronzor</h4>
+<img src="/download/sprites/bw/441.png" alt="" />
+<p>Bronzor is one of the bulkiest Pok&eacute;mon in the tier. It is the best Drilbur counter in the tier bar none, best Snover check, best check to Dragon-type Pok&eacute;mon, and is your guy if you need to live a hit and get a Toxic off. Bronzor generally has Stealth Rock—its moves are normally Stealth Rock / Toxic / Flash Cannon / Earthquake or Psychic. It has access to Hypnosis though that is rather uncommon, and it occasionally uses Lum Berry and Recycle in order to infinitely Rest.</p>
+
+<h4>Cottonee</h4>
+<img src="/download/sprites/bw/574.png" alt="" />
+<p>Cottonee's access to Prankster gives it priority on a variety of support moves such as Leech Seed, Cotton Guard, Taunt, Encore, and Stun Spore. These qualities along with Cottonee's decent bulk turn it into a very diverse wall. It can prevent set-up with Encore, or stop a sweep with Cotton Guard.</p>
+
+<h4>Ferroseed</h4>
+<img src="/download/sprites/bw/627.png" alt="" />
+<p>Ferroseed takes after its big brother Ferrothorn by acting as one of the most effective mixed walls in the game. Its incredible defensive typing, access to Stealth Rock, Spikes, Thunder Wave, and Leech Seed, and its passable offenses make it one of the most valuable walls in the tier. Though set back by its Fighting-type weakness, it easily makes up for that by being able to switch into every Water-type in the tier, along with many other threats. Furthermore, Iron Barbs is a fantastic ability that deters Rapid Spin and U-turn.</p>
+
+<h4>Frillish</h4>
+<img src="/download/sprites/bw/622.png" alt="" />
+<p>Frillish is seen as one of the best defensive Ghost-type Pok&eacute;mon in the tier as its typing and incredible bulk allows it to act as a full stop to many Pok&eacute;mon such as Mienfoo and Larvesta. Access to Water Absorb makes it a fantastic spinblocker, as Staryu can't really touch it, seeing as Thunderbolt doesn't even do too much. Furthermore, Recover and Will-O-Wisp allows it to last an incredibly long time.</p>
+
+<h4>Hippopotas</h4>
+<img src="/download/sprites/bw/454.png" alt="" />
+<p>Hippopotas is one of the premiere physical walls in the tier. Its excellent physical bulk allows it to switch into common physical attackers, such as Timburr and Scraggy, with ease. Furthermore, its access to Slack Off guarantees it'll last for a long time. Stealth Rock is a fantastic move in its arsenal, and it always finds time to set it up. Access to Whirlwind prevents it from being used as set-up bait. Finally, though uninvested, its STAB Earthquake is very powerful, OHKOing or 2HKOing most offensive threats. However, the defining characteristic of Hippopotas is its ability Sand Stream. Sand as a whole is one of the most common team types.</p>
+
+<h4>Koffing</h4>
+<img src="/download/sprites/bw/109.png" alt="" />
+<p>Koffing's main niche comes from its ability to check both Fighting-type Pok&eacute;mon and Drilbur in the same set. Its Poison typing grants it a resistance to Fighting- and Bug-type attacks along with a neutrality to Dark-type attacks. Furthermore, its ability Levitate grants it an immunity to Ground-type attacks. These traits in tandem allow it to switch into every single Fighting- and Ground-type Pok&eacute;mon in the tier with impunity. Furthermore, access to Will-O-Wisp cripples these Pok&eacute;mon. STAB Clear Smog prevents them from setting up to break through Koffing, and Pain Split keeps it healthy in the long run.</p>
+
+<h4>Lickitung</h4>
+<img src="/download/sprites/bw/108.png" alt="" />
+<p>Lickitung faces competition from other bulky Normal-type Pok&eacute;mon, but its claim to fame is the ability to pass Wish. Access to Dragon Tail also allows it to bypass set-up sweepers by phazing them out.</p>
+
+<h4>Lileep</h4>
+<img src="/download/sprites/bw/345.png" alt="" />
+<p>Lileep is one of the best mixed walls in the tier. Its access to Stealth Rock allows it support the team, while its access to Storm Drain lets it switch into Water-type Pok&eacute;mon with impunity. Its incredible defenses allow it to live powerful attacks, such as +2 Life Orb Adamant Earthquake from Drilbur when at full health. Furthermore, Lileep's Rock typing capitalizes on sand's influence in the metagame, as it gains a 1.5x boost to its Special Defense in the sand. Its Fighting weakness is a problem, but its ability to switch into pretty much anything definitely makes up for this.</p>
+
+<h4>Mienfoo</h4>
+<img src="/download/sprites/bw/649.png" alt="" />
+<p>Mienfoo is one of the most common defensive Pok&eacute;mon, and for good reason. It combines a variety of traits to act as a fantastic defensive pivot. A resistance to Stealth Rock and its ability Regenerator make it so Mienfoo takes incredibly little residual damage. Furthermore, its stab Drain Punch assists this recovery. U-turn lets Mienfoo scout and switch out, maintaining momentum. Fake Out breaks Sturdy and gets free damage on nearly everything, while Knock Off grants fantastic team support by taking out opposing Eviolite. What's most important is Mienfoo's fantastic physical bulk, which makes it one of the best Scraggy checks in the tier, and a check for most other physical attackers.</p>
+
+<h4>Misdreavus</h4>
+<img src="/download/sprites/bw/200.png" alt="" />
+<p>While an excellent offensive Pok&eacute;mon, Misdreavus's excellent bulk allows it to act as a special sponge. Its high Speed for a wall, and access to Will-O-Wisp and Pain Split, make a support set incredibly viable. It makes for one of the best Fighting-type switch-ins and can check most special attackers.</p>
+
+<h4>Munchlax</h4>
+<img src="/download/sprites/bw/451.png" alt="" />
+<p>Munchlax occasionally runs RestTalk and Whirlwind to capitalize on its strong Special bulk, seeing as it is one of the most specially defensive Pok&eacute;mon in the tier. However, the most common Munchlax would be the bulky four attack set, as listed above. Its ability Thick Fat grants it a resistance to Ice- and Fire-type attacks, while its other ability, Immunity, grants it an immunity to Toxic.</p>
+
+<div style="float: right; margin-left: 10px;"><img src="/media/upload/bw/articles/lcguide_murkrow.png" alt="" /></div>
+
+<h4>Murkrow</h4>
+<img src="/download/sprites/bw/198.png" alt="" />
+<p>Murkrow has access to a variety of support moves that allow it to pull off a more defensive set. Priority FeatherDance, Toxic, Thunder Wave, and Perish Song, in tandem with Roost and Substitute, allow for some very interesting sets, though they are incredibly uncommon, as most players opt for an offensive Murkrow.</p>
+
+<h4>Natu</h4>
+<img src="/download/sprites/bw/177.png" alt="" />
+<p>Natu's main goal in life is keeping Stealth Rock off, which it excels at due to its ability Magic Bounce. Magic Bounce reflects entry hazards, Taunt, and status moves, making Natu invaluable as a defensive teammate. Furthermore, access to Featherdance, Toxic, and U-Turn allow Natu to check the vast majority of physical attackers in the tier, while acting as a defensive pivot as well.</p>
+
+<h4>Porygon</h4>
+<img src="/download/sprites/bw/137.png" alt="" />
+<p>Porygon is one of the better walls in the metagame due to its amazing bulk and fantastic ability in Trace. Its physical bulk allows it to avoid a 2HKO from Eviolite Murkrow. Its ability allows it to switch into Fire-type attacks from Houndour, or Electric-type attacks from Chinchou. It allows it to gain priority Recover from Murkrow, or to turn the Toxic that hit it into recovery if it switches into Shroomish. Porygon's fantastic bulk and amazing diversity, along with its high Special Attack, allow it to check an incredible range of Pok&eacute;mon.</p>
+
+<h4>Shelmet</h4>
+<img src="/download/sprites/bw/646.png" alt="" />
+<p>Shelmet's main goal in life is checking Fighting-type Pok&eacute;mon while setting up Spikes. Its fantastic bulk allows it to check Pok&eacute;mon such as Mienfoo, Timburr, Croagunk, Hippopotas, and Drilbur without Rock Slide, while also avoiding the 2HKO from Misdreavus's Shadow Ball. Access to Recover and Acid Armor allow Shelmet to stay alive and further prevent damage from set-up Pok&eacute;mon. Shelmet also has access to two wonderful abilities. Shell Armor prevents it from getting hit by a critical hit, which is fantastic for a defensive Pok&eacute;mon. On the other hand, Overcoat prevents Shelmet from taking sand damage.</p>
+
+<h4>Slowpoke</h4>
+<img src="/download/sprites/bw/79.png" alt="" />
+<p>Slowpoke is one of the best checks to Fighting-type Pok&eacute;mon in the tier bar Scraggy, due to its Psychic typing and great physical bulk. Furthermore, its excellent coverage, which includes Water- and Psychic-type STABs as well as Fire- and Ice-type attacks, allows it to pose an offensive threat. It can cripple foes with Toxic and Thunder Wave as well, while relying on Slack Off to keep itself healthy. Furthermore, its ability Regenerator makes it incredibly hard to wear down, as it gains 33% of its HP every time it switches.</p>
+
+<div style="float: right; margin-left: 10px;"><img src="/media/upload/bw/articles/lcguide_tentacool.png" alt="" /></div>
+
+<h4>Tentacool</h4>
+<img src="/download/sprites/bw/72.png" alt="" />
+<p>Tentacool acts as an incredible special sponge with its excellent special bulk. Tentacool serves 100% as team support, using its diverse support movepool, which includes Toxic Spikes, Rapid Spin, and Knock Off. Its ability Liquid Ooze allows it to switch into the many Giga Drains, Drain Punches, and Leech Seeds that litter the tier, forcing the user to lose HP instead of gaining it.</p>
+
+<h4>Vullaby</h4>
+<img src="/download/sprites/bw/659.png" alt="" />
+<p>Vullaby uses a combination of bulk, Overcoat, and a good bunch of resistances to act as a strong choice for defensive sandstorm teams. Furthermore, its Flying typing is a godsend in dealing with Mienfoo and Croagunk, two Pok&eacute;mon who tend to give many teams trouble. It also has access to Knock Off for more shenanigans, and is capable of switching into most Misdreavus consistently.</p>
+
+<h4>Wynaut</h4>
+<img src="/download/sprites/bw/360.png" alt="" />
+<p>Wynaut is an interesting Pok&eacute;mon to say the least. Its usage comes from its ability Shadow Tag which allows it to prevent any other Pok&eacute;mon bar opposing Wynaut from switching out. Access to Encore can force opposing set up, giving you free turns, or can force your opponent to hit you with weak attacks so you can Mirror Coat or Counter them. Tickle is a great move as well as it allows you to Pursuit trap anything.</p>
+
+<h2><a name="commonitems">Common Items</a></h2>
+
+<h3><a name="should">What You Should Use</a></h3>
+
+<p><strong>Eviolite</strong><br />
+There's really no reason not to use Eviolite a vast, vast majority of the time. With the 1.5x boost to both defensive stats, set up sweepers with recovery (such as Scraggy, who has Drain Punch, or Dratini, who has Rest and Marvel Scale) become incredibly difficult to face late-game. Eviolite is also better than nigh any other item for most walls; not only does it help them stick around longer, take more hits when they need to, and ensure that hazards can be put up or status can be spread, it allows for the game to slow down from the pace it was at in DPP. This item is so incredible in Little Cup, it has been contested as a possible suspect a number of times, but for now, it is a defining aspect of the metagame that doesn't seem to be going anywhere.</p>
+
+<p><strong>Choice Scarf</strong><br />
+Many Pok&eacute;mon sit at just the right Speed stat (14, if you were wondering) that they can outspeed the entire unboosted metagame with a Choice Scarf. The notable examples include Snover, Shellder, and some variants of Chinchou and Mienfoo. You'll notice something about all of these examples: they boast incredibly strong attacks, such as Snover's Blizzard or Mienfoo's Hi Jump Kick, meaning they can clean up late in the game if a team has been built to allow them to do so. Murkrow and Misdreavus, although at a whopping 19 Speed, can still both use a Choice Scarf as well; the former to revenge kill threats including Scraggy, and the latter to use Trick, Destiny Bond, and a mess of other toys. Porygon is also a notable Choice Scarf user, as it can utilize the Choice Scarf boost and Trace to outspeed Sand Rush Drilbur in sandstorm.</p>
+
+<p><strong>Life Orb</strong><br />
+Life Orb is an oft underestimated item in Little Cup because stats tend to be somewhat close together. Many Pok&eacute;mon with a strong STAB that intend on playing the role of glass cannon can afford to use a Life Orb; others rely on their immunities to soak hits, rendering Eviolite unnecessary. Most of the time, Life Orb should be used when the team can afford to lose some bulk in return for gaining a slight element of surprise; Mienfoo, Misdreavus, and Murkrow all net KOes they wouldn't normally obtain with Life Orb.</p>
+
+<p>It is also notable that the ideal HP for a Pok&eacute;mon using Life Orb is 19; each Life Orb recoil takes away 10% of the user's health, and for Pok&eacute;mon, this is calculated as 1.9, which rounds down to 1. Pok&eacute;mon with 19 HP take only 1 HP in recoil damage from Life Orb every turn.</p>
+
+<p><strong>Oran Berry</strong><br />
+While not nearly as good as Eviolite for Pok&eacute;mon that have recovery, Oran Berry still has its merits on certain Pok&eacute;mon. Dwebble is a notable example of this, as it can take a hit with Sturdy and then devour its Oran Berry to maybe get an extra layer of hazards up. It also eases the pressure on prediction-heavy Pok&eacute;mon, such as Wynaut, who are already pretty bulky.</p>
+
+<h3><a name="shouldnt">What You Shouldn't Use</a></h3>
+
+<p><strong>Leftovers</strong><br />
+Leftovers is a very common item in the upper tiers, as Pok&eacute;mon have higher base HP and will regain a more significant amount every turn. If healing is really necessary, an Oran Berry can be used instead, often doing in one turn what it would take Leftovers five or maybe even ten turns to accomplish.</p>
+
+<p><strong>Choice Band / Choice Specs</strong><br />
+As any given Pok&eacute;mon has much lower raw stats here than they would in another tier, the 50% boost from these Choice items is frankly not worth it. Almost all of the time, a Life Orb will allow you to reach a similar stat and maintain the ability to switch moves.</p>
+
+<p><strong>Sitrus Berry</strong><br />
+In Little Cup, 10 HP is always more than 25% of your health; for this reason, use Oran Berry, not Sitrus.</p>
+
+<h2><a name="further">Further Readings</a></h2>
+
+<p>While this guide has hopefully been helpful to your endeavors in LC, it's by no means the only resource at your disposal. Take a look at just some of the tools at your fingertips. If you still have questions, you're always welcome to ask on our IRC chat, #littlecup.</p>
+
+<ul>
+<li><a href="/bw/articles/lcspeed">Little Cup Speed Tiers</a></li>
+<li><a href="/bw/articles/lc_threats">Little Cup Threat List</a></li>
+<li><a href="/bw/articles/lc_move_legality">Guide to LC Move Legality</a></li>
+<li><a href="/forums/forumdisplay.php?f=161">Smogon's Little Cup Forum</a></li>
+</ul>

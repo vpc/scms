@@ -1,0 +1,273 @@
+[title]
+An Uber Transition: Shifts from DPP Uber to BW Uber
+[head]
+<link href="/media/smog/smog.css" type="text/css" rel="stylesheet" />
+<style type="text/css">
+.firstblock {
+    margin-top: -0.5em;
+    width: 65%;
+}
+
+.secondblock {
+    margin-top: -0.5em;
+    width: 45%;
+}
+
+td.sprite {
+    height: 80px;
+}
+</style>
+[page]
+<div class="author"> By <a href="/forums/member.php?u=56512">Tobes</a>.</div>
+<table id="smogheader">
+<tr>
+<td class="left"><a href="weather">&laquo; Previous Article</a></td>
+<td class="middle"><a href="/smog/issue16/">Home</a></td>
+<td class="right"><a href="smeargle">Next Article &raquo;</a></td>
+</tr>
+</table>
+
+<p>Metagames change between generations, and almost always drastically. The Ubers metagame is no exception. With the changes implemented to EVing Pokemon, Arceus finally became legal in Ubers. Furthermore, the loss of Soul Dew made Latios and Latias nearly irrelevant to Ubers. Added to the mix were the cover legendaries, Reshiram and Zekrom, both of which promised to have a large impact on the metagame, although not nearly as large of an impact as another Unova Pokemon. All of this, combined with the death of the lead metagame after the revelation of Team Preview, quickly made it apparent that Ubers was going to change as a metagame, and to an enormous extent.</p>
+
+<h2>Arceus Armageddon</h2>
+
+<p>For the entirety of DPPt Arceus was illegal in Ubers, not due to being too powerful for even the Ubers metagame, but due to technical limitations. In-game it was impossible to EV Arceus without using Vitamins, since it was an event-only Pokemon and was only given away at Level 100. Only 100 EVs could be placed in any given stat, a restriction Shoddy Battle could not enforce. As such, Arceus was unusable until 4th Gen itself had ended and Pokemon Online became the main simulator.</p>
+
+<p>Come Generation V, and Arceus is now fully legal due to changes in BW that allowed EV training even when a Pokemon is Level 100. Arceus became fully legal, and essentially added 17 new Pokemon to the Ubers tier. This initially caused a panic with parts of the community, who felt Arceus was unreasonable to prepare for, and felt that it should be banned from Ubers. A ban from a banlist, as it were. The motion was never passed though, as the majority of players felt Arceus was manageable, or opposed a ban from Ubers on principle.</p>
+
+<p>Arceus is one of the most defining Pokemon in BW Ubers. It can take on nearly any role successfully, and many players will argue that having Arceus in some form on your team is necessary. The Extreme Killer set is Arceus's main claim to fame. After a Swords Dance, the less bulky members of Ubers are OHKOed by a Life Orb-boosted ExtremeSpeed.</p>
+
+<p><img src="/download/sprites/dp/498.png" alt="" /><br />
+Arceus @ Life Orb / Silk Scarf<br />
+Ability: Multitype<br />
+EVs: 132 HP / 252 Atk / 124 Spe<br />
+Adamant nature (+Atk, -SpA)<br />
+- Swords Dance<br />
+- ExtremeSpeed<br />
+- Shadow Claw / Shadow Force<br />
+- Earthquake / Overheat / Recover</p>
+
+<p>Because its main attacking move has +2 priority, Arceus only needs to invest enough Speed to beat Pokemon with Base 90 Speed, in particular Dialga, who resists ExtremeSpeed. The set is powerful and rips apart unprepared teams mercilessly, but there are plenty of ways of dealing with it. Impish Groudon can take a +2 ExtremeSpeed and phaze out Arceus with Dragon Tail, robbing it of its boost and forcing it to take entry hazard damage if Groudon is properly supported. The same applies to Giratina, who can also burn Arceus with Will-O-Wisp while taking a +2 Shadow Claw. It needs to be wary of Shadow Force though. Other Arceus forms that resist ExtremeSpeed, primarily Ghost and Steel Arceus, can burn it with Will-O-Wisp before it can attack them, and then phaze it out with Roar. Skarmory can take on this set if it lacks Overheat, phazing it out with Whirlwind and damaging it when it switches back in with Spikes. A rather unique niche is held by Choice Scarf Terrakion, who can OHKO Arceus with Close Combat while resisting ExtremeSpeed.</p>
+
+<p><img src="/media/smog/16/transition_ghost_arceus.png" alt="" /><br />
+Arceus @ Spooky Plate<br />
+Ability: Multitype<br />
+EVs: 252 HP / 4 SpA / 252 Spe<br />
+Timid nature (+Spe, -Atk)<br />
+- Calm Mind<br />
+- Judgment<br />
+- Focus Blast / Flamethrower<br />
+- Recover / Substitute</p>
+
+<p>Ghost Arceus can run a frightening Calm Mind set, needing only its STAB Judgment and the powerful Focus Blast for perfect coverage. It can also opt to run Flamethrower over Focus Blast to nail Ferrothorn more reliably and hit Forretress as well. Chansey troubles this set somewhat, but a well-timed Substitute puts her in her place, since most Chansey can only threaten Ghost Arceus with Toxic.</p>
+
+<p>Ghost Arceus is also capable of running a devastating Swords Dance set, using incredibly powerful boosted Shadow Claws or Shadow Forces to tear through the opposition. Alternatively, it can also act as a useful supporter, providing Stealth Rock and keeping them up by blocking Rapid Spin.</p>
+
+<p><img src="/media/smog/16/transition_steel_arceus.png" alt="" /><br />
+Arceus @ Iron Plate<br />
+Ability: Multitype<br />
+EVs: 252 HP / 4 Def / 252 Spe<br />
+Timid nature (+Spe, -Atk)<br />
+- Will-O-Wisp<br />
+- Judgment<br />
+- Recover<br />
+- Stealth Rock / Roar</p>
+
+<p>Steel Arceus makes for an excellent support Pokemon, and one of the better checks for Extremekiller Arceus, which it can usually outspeed and burn with Will-O-Wisp, rendering the opposing Arceus nearly useless. Stealth Rock is a vital move in Ubers, helping to keep threats such as Ho-Oh under control, but Roar can also be used to rack up entry hazard damage, and also deals with an Extreme Killer Arceus attempting to use multiple Swords Dances to nullify the Attack cut a burn produces. Recover allows Arceus to sponge Draco Meteors and Outrages throughout the match.</p>
+
+<p>Steel Arceus can also run an excellent Calm Mind set, since it will beat Chansey one-on-one thanks to its immunity to Toxic. It can also use Roar efficiently to prevent phazers from robbing it of its boosts, or giving it an edge in a boosting war against other Calm Mind users.</p>
+
+<h2>The Portrait of Durian Grey</h2>
+
+<p>Although everyone initially had their eyes on Reshiram and Zekrom, it was, surprisingly, a non-Uber Pokemon that stole the show.</p>
+
+<p><img src="/media/smog/16/transition_ferrothorn.png" alt="" /><br />
+Ferrothorn @ Leftovers<br />
+Ability: Iron Barbs<br />
+EVs: 252 HP / 4 Def / 252 SpD<br />
+IVs: 0 Spe<br />
+Sassy nature (+SpD, -Spe)<br />
+- Spikes<br />
+- Power Whip / Gyro Ball<br />
+- Leech Seed<br />
+- Protect / Stealth Rock / Thunder Wave</p>
+
+<p>Ferrothorn seems to be tailor-made for Ubers with a fantastic Grass / Steel typing, excellent bulk, and a myriad of support options, including Spikes, Stealth Rock, Thunder Wave, and Leech Seed. With the combination of these traits, Ferrothorn is able to sponge all sorts of attacks in the Ubers environment, from Draco Meteors to Water Spouts, and provide entry hazards to wear down the opponent. Ferrothorn also carries a respectable Base Attack stat and powerful STAB moves in Power Whip and Gyro Ball.</p>
+
+<p>Spikes had long been a mainstay in DPP Ubers, thanks to the overbearing presence of Deoxys-S in the lead metagame. With the advent of Team Preview, Deoxys-S fell in usage. Ferrothorn had taken over its job as a Spiker, thanks to its reliability in tanking hits while setting hazards, something Deoxy-S needed to sacrifice itself in order to accomplish. Ferrothorn is so efficient at its job that Spikes have become even more common than Stealth Rock. Deoxys-S still has uses in Ubers, but is now almost entirely relegated to offensive teams, providing quick entry hazards and often dual screens.</p>
+
+<p>Another Pokemon that suffered from Ferrothorn's spike (pardon the pun) in usage was Scizor. Scizor had long been one of the most commonly used Pokemon in 4th Gen Ubers, thanks to its Steel typing, a fantastic boon in a metagame filled with Draco Meteors and Outrages. It also had reliable recovery in the form of Roost, and made an excellent scout and revenge killer with its STAB U-turn and Technician-boosted Bullet Punch. However, Ferrothorn's Grass typing, which allows it to check Kyogre to an extent, something Scizor could never hope to do, and Spikes proved to be too much of an advantage, so Scizor has fallen into relative obscurity in BW Ubers.</p>
+
+<p>There is one entry hazard Pokemon that has not suffered at all from the rise of Ferrothorn. Forretress is still commonly used in BW Ubers thanks to Toxic Spikes and Rapid Spin. It's not the most reliable switch-in for Dragon-type attacks, but it does its job efficiently. Forretress also gained from the transition with the new move Volt Switch, which allows Forretress to remove itself from an unfavorable match-up quickly and bring in a more suitable teammate to handle the threat. Another selling point for the metallic bagworm is the ability to nullify the efforts of Ferrothorn, although Forretress needs to watch out for the residual damage using Rapid Spin on Ferrothorn causes to itself due to Iron Barbs.</p>
+
+<h2>Yin and Yang</h2>
+
+<p>As with any new release, much of the focus of early BW Ubers was centered on the title legendaries. Reshiram was heavily focused on, with Zekrom slipping under the radar. People were drawn to Reshiram's incredible offensive typing and TurboBlaze, meaning even Heatran was not a safe switch-in. Reshiram was capable of massive damage outputs with its signature STAB move, Blue Flare, so much so that even Blissey was 2HKOed by a Choice Specs-boosted Blue Flare in the sun. Mixed sets with Flame Charge for boosting Speed also seemed promising, but the Choice Specs set seemed to be the focus of everyone.</p>
+
+<table class="firstblock">
+    <tr>
+        <td class="sprite"><img src="/media/smog/16/transition_reshiram.png" alt="" /></td>
+        <td class="sprite"><img src="/media/smog/16/transition_zekrom.png" alt="" /></td>
+    </tr>
+
+    <tr>
+        <td>Reshiram @ Choice Specs<br />
+            Ability: TurboBlaze<br />
+            EVs: 4 HP / 252 SpA / 252 Spe<br />
+            Timid nature (+Spe, -Atk)<br />
+            - Draco Meteor<br />
+            - Blue Flare<br />
+            - Dragon Pulse<br />
+            - Flamethrower</td>
+        
+        <td>Zekrom @ Life Orb<br />
+            Ability: Teravolt<br />
+            EVs: 104 HP / 148 Atk / 252 SpA / 4 Spe<br />
+            Lonely nature (+Atk, -Def) / Naughty nature (+Atk, -SpD)<br />
+            - Bolt Strike<br />
+            - Draco Meteor<br />
+            - Dragon Claw / Outrage<br />
+            - Focus Blast / Volt Switch</td>
+    </tr>
+</table>
+
+<p>When the sun is shining it is nearly impossible to safely switch into Blue Flare, with the best bets being Palkia and Chansey, with the former risking an easy OHKO from Dragon Pulse and the latter being highly susceptible to entry hazards. Kyogre is, of course, one way to deal with this set, since it replaces sun with rain and has excellent special bulk. Rayqauza also works in a pinch, resisting Blue Flare and nullifying sunlight with Air Lock, but like Palkia it needs to be wary of Dragon-type attacks.</p>
+
+<p>Although many hailed Reshiram as the new Kyogre, it soon became apparent that Reshiram was far from the level of the king of Ubers. The biggest difference between the two is Drizzle. Kyogre provides its own weather, while Reshiram is subpar in comparison to other Uber Dragons such as Palkia and Rayquaza without sunlight, forcing Groudon to be run as a partner. Even with Groudon's support, Reshiram cannot use its enhanced Blue Flare nearly as often as Kyogre can fire off rain-boosted Water Spouts. Another issue was a weakness to Stealth Rock, severely inhibiting Reshiram's ability to come in multiple times, something Kyogre was far less hindered by. After the initial hype, Reshiram faded into the background, still present but not nearly as common as it had once been.</p>
+
+<p>Zekrom, on the other hand, found a few niches of its own, and began to rise in popularity. As a revenge killer, the Choice Scarf set can handle threats like Calm Mind Sweepers thanks to its powerful STAB Bolt Strike, something Choice Scarf Palkia, one of the most common Choice Scarf Ubers, struggles to do. Although Zekrom is nearly hard countered by Ferrothorn and Groudon, it can also put massive dents in both with a Choice Band set, allowing teammates to clean up the weakened walls. Zekrom also has the option of using Volt Switch to maintain momentum, and can also run a viable mix set that gets around Groudon and Ferrothorn with Draco Meteor and Focus Blast, respectively.</p>
+
+<h2>Overdew</h2>
+
+<p>Two of the defining 4th Gen Ubers were Latios and Latias. The former was a devastating special sweeper, while the latter was one of the best Kyogre counters in the metagame. Their claim to fame was their signature item, Soul Dew, which granted them a 50% boost in both Special Attack and Special Defense. Latios essentially had a Choice Specs boost without being locked into a single move, while also taking resisted and neutral special attacks very well. Latias's stats lent her to more of a tank role, either acting as a Calm Mind sweeper or a dedicated Kyogre counter. Thanks to Soul Dew's defensive boost she could even take a Draco Meteor from Choice Scarf Palkia with as little bulk investment as 112 HP EVs. Sadly, neither of these Pokemon function as they once did in 4th Gen Ubers, since Soul Dew has not been released. Specially defensive Latias still has a niche as a Kyogre check though, since she ignores Spikes, a prevalent factor when considering how to deal with the leviathan.</p>
+
+<p>The metagame of course had a focus on these Pokemon, and some Pokemon were used specifically for their ability to deal with them. Tyranitar worked well for handling them, as it does in BW OU, although it was forced to run a specially defensive spread in order to have a chance at safely trapping Latios or Latias. Part of Scizor's popularity in DPPt Ubers was its ability to threaten and trap Latios and Latias, and their departure from the metagame helped to bring down Scizor in BW Ubers. Two other Pokemon that had been present in 4th Gen but mostly absent from 5th Gen Ubers, Jirachi and Metagross, were used almost specifically for how well they could handle Latios and Latias.</p>
+
+<p>The metagame has adapted to the lack of Soul Dew, and other Pokemon have risen to take the place of Latios and Latias. The powerful Draco Meteor Latios was once feared for is still used by Choice Specs Dialga, mixed Rayquaza, and Choice Scarf Palkia. Meanwhile new Calm Mind sweepers have risen up, including Arceus and the original Uber, Mewtwo.</p>
+
+<table class="secondblock">
+    <tr>
+        <td class="sprite"><img src="/download/sprites/dp/150.png" alt="" /></td>
+        <td class="sprite"><img src="/media/smog/16/transition_grass_arceus.png" alt="" /></td>
+    </tr>
+
+    <tr>
+        <td>Mewtwo @ Life Orb<br />
+            Ability: Pressure<br />
+            EVs: 4 HP / 252 SpA / 252 Spe<br />
+            Timid nature (+Spe, -Atk)<br />
+            - Calm Mind<br />
+            - Psystrike<br />
+            - Fire Blast / Aura Sphere<br />
+            - Ice Beam / Shadow Ball</td>
+        
+        <td>Arceus @ Meadow Plate<br />
+            Ability: Multitype<br />
+            EVs: 252 HP / 4 SpA / 252 Spe<br />
+            Timid nature (+Spe, - Atk)<br />
+            - Calm Mind<br />
+            - Recover<br />
+            - Grass Knot / Judgment<br />
+            - Ice Beam / Earth Power</td>
+    </tr>
+</table>
+
+<p>Mewtwo is now an all-purpose special sweeper thanks to its new signature move, Psystrike, which decimates Pokemon that could formerly wall it, such as Blissey, Ho-Oh, and Kyogre. Mewtwo is often used with Groudon, as the pseudo-STAB Fire Blast, in tandem with Ice Beam, gives Mewtwo the power it needs to muscle through most Pokemon that can take a Calm Mind-boosted Psystrike.</p>
+
+<p>Meanwhile, other checks have arisen to combat Kyogre during the absence of Latias. Palkia has long been a mainstay for checking the leviathan, and is still used on many teams, usually with its tremendously popular Choice Scarf set, but it is also capable of running Choice Specs, a Lustrous Orb bluff set, and even a Choice Band set. Ferrothorn deals with Kyogre fairly well, but is 2HKOed by a Choice Specs-boosted Water Spout from full health, so it needs to be wary of that. Another new check is Calm Mind Grass Arceus, which can handle Kyogre fairly well thanks to its bulk, typing, and access to Recover and Calm Mind. Grass Arceus can also effectively use Thunder Wave to cripple opposing sweepers.</p>
+
+<h2>An Inconsistent Metagame</h2>
+
+<p>During the development of the early BW OU metagame, it soon became apparent that the ability Moody (then known as Inconsistent) was a game-breaking force that took active control of the game out of the hands of both players. It was banned with nearly a 100% supermajority. Moody slipped under the radar a bit in Ubers, however. It was a bit easier to handle Moody teams in Ubers than in OU, and while Moody was still a concern for the top players, enough so that serious consideration was given to banning it from Ubers, it remained usable for some time, until Moody Smeargle was released. This proved to be the straw that broke the camel's back, as Smeargle took the Moody game to a whole new level, capable of passing along all of its boosts through Baton Pass or outright sweeping with Stored Powers that carried ridiculously massive base powers. Moody was banned from Ubers soon afterwards.</p>
+
+<h2>New Faces</h2>
+
+<p><img src="/download/sprites/dp/257.png" alt="" /></p>
+
+<p>Blaziken is the first starter Pokemon in history to be banned to the Ubers tier, and it can hold its own very well there. It can tear holes in teams with a Swords Dance set backed by very powerful STAB moves in Hi Jump Kick and Flare Blitz, and its Speed Boost ability can allow it to get the better of normally faster checks such as Choice Scarf Palkia, assuming Blaziken runs Protect. It can also run a Work Up set to good effect. Blaziken is very dependent on Groudon for providing sun, and has a hard time breaking through the common combination of Kyogre and Giratina-O, and it is frail enough to need dual screen support to be effective. However, unprepared teams can be slaughtered by it.</p>
+
+<p><img src="/download/sprites/dp/113.png" alt="" /></p>
+
+<p>Chansey gained a massive boost in BW in the form of Eviolite. With it Chansey becomes one hell of a wall, nearly impossible to break through for any special attacker aside from Choice Specs Kyogre or stat boosters with access to Substitute or Restalk. The lack of Leftovers recovery does hamper her a bit with the abundance of Spikes, but she can often act as a hard stop to a sweeper that normally might be able to sweep through the rest of her team.</p>
+
+<p><img src="/media/smog/16/transition_thundurus.png" alt="" /></p>
+
+<p>Thundurus can hold its own in Ubers thanks to its priority Thunder Wave and Taunt. It can also utilize a powerful Nasty Plot set, capable of breaking through slower Ubers teams with the right support. The ability to stop and cripple any fast sweeper such as Mewtwo or Darkrai can be invaluable, however. Thundurus does need to watch out for ExtremeSpeed users, though, since the move's priority bracket allows it to bypass Thundurus's Prankster ability.</p>
+
+<h2>Old Faces</h2>
+
+<p>Although many things have changed in the Ubers metagame, many things have also stayed the same. A large amount of Pokemon went nearly untouched in the generation transition, and still perform their roles just as effectively as they ever have. Stall and balanced teams jumped in usage thanks to various improvements, such as Ferrothorn and the new move Dragon Tail. Full offensive teams have fallen out of favor, though, as the introduction of Arceus and general metagame shifts have made them more difficult to use effectively.</p>
+
+<p><img src="/download/sprites/dp/382.png" alt="" /></p>
+
+<p>Kyogre has maintained its throne as the king of Ubers. It still keeps rain omnipresent in the metagame, fires off ridiculously powerful Water Spouts, and is the reason a good number of special sweepers run Thunder as a coverage move. Kyogre only got one new toy this generation: Scald. This move greatly improves the effectiveness of Calm Mind Kyogre sets, allowing it to cripple physical threats who would have once been able to threaten Kyogre. The RestTalk set, however, has been weakened by the new sleep mechanics.</p>
+
+<p><img src="/download/sprites/dp/383.png" alt="" />&nbsp;<img src="/download/sprites/dp/492.png" alt="" />&nbsp;<img src="/download/sprites/dp/249.png" alt="" /></p>
+
+<p>The main Ubers physical walls have mostly remained the same as well, with the only buff between them being the move Dragon Tail, which allows them to chip away at opponents much more effectively, while also helping to mitigate the weakness to Taunt they once had. Groudon now commonly runs a bulky support set to check Extreme Killer Arceus, but Rock Polish sets have not fallen completely off the wayside. Giratina and Lugia still run their own sets, although Lugia now has access to an interesting RestTalk set, allowing it to phaze the opponent before it can move by picking Whirlwind or Dragon Tail with Sleep Talk, bypassing their negative priority. Roar and Whirlwind, respectively, still have their uses though, because without them neither Giratina nor Lugia can touch Ho-Oh or an opposing Lugia that is using Substitute.</p>
+
+<p>Groudon also now has a counterpart for rain teams: Ground Arceus. The ability to soak up Electric-type attacks is invaluable for such a team, and it also harasses sun teams since Drought nullifies its weakness to Water-type attacks.</p>
+
+<p><img src="/download/sprites/dp/504.png" alt="" /></p>
+
+<p>In spite of the rise of Ghost Arceus, Giratina-O is still the preferred spinblocker of the tier, despite its lack of recovery. Its typing and Levitate give it some excellent resistances and immunities, and the most common Rapid Spin user, Forretress, does not like the prospect of Hidden Power Fire, a move made even more common on Giratina-O thanks to Ferrothorn. More importantly, using Giratina-O as a spinblocker allows an Arceus other than Ghost Arceus to be used on the same team. Giratina-O, like its more defensive counterpart, gained Dragon Tail, allowing it to play mindgames with opponents attempting to sponge its attacks.</p>
+
+<p><img src="/download/sprites/dp/489.png" alt="" /></p>
+
+<p>Palkia is still commonly seen as a Choice Scarf user, despite the decline in Rayquaza's usage. It is an excellent check for Kyogre, and a backbone for many teams, especially those lacking Ferrothorn. Palkia is still capable of using a devastating Choice Specs set, or a Lustrous Orb set that bluffs holding a Choice Scarf. </p>
+
+<p><img src="/download/sprites/dp/488.png" alt="" /></p>
+
+<p>Dialga now mostly runs a support set focused on setting up Stealth Rock and phazing with Dragon Tail. It is still a devastating Choice Specs attacker, and also serves as an excellent revenge killer with a Choice Scarf equipped. It can also take its usual checks by surprise with a Choice Band set, using very powerful Outrages to tear through specially bulky Pokemon such as Chansey, Kyogre, and Ho-Oh. It is also still a devastating mixed attacker.</p>
+
+<p><img src="/download/sprites/dp/250.png" alt="" /></p>
+
+<p>Ho-Oh gained competition for sun teams from Reshiram, but the phoenix is still as strong as ever, and got a new toy in Flame Charge, which allows it to take on a more offensive role. The SubRoost set is still as deadly as ever though, and has benefited greatly from the influx of Ferrothorn, allowing Ho-Oh to set up nearly effortlessly and start throwing out Brave Birds and Sacred Fires from behind the safety of a Substitute. It is also one of the few Pokemon capable of beating most Calm Mind Arceus, barring Water, Electric, and Rock Arceus.</p>
+
+<p><img src="/download/sprites/dp/384.png" alt="" /></p>
+
+<p>Although its Swords Dance set is often passed up in favor of Normal Arceus now, Rayquaza can still use a deadly Dragon Dance set, although it gained a new check in Choice Scarf Terrakion. Rayquaza can also smash physical walls such as Groudon with a mixed set, firing off powerful Life Orb-boosted Draco Meteors to OHKO Pokemon that are normally supposed to be able to wall it. Its Swords Dance set is still viable on its own, and can also be used to soften up defensive walls for an SD Arceus sweep, such as using an Air Lock-backed +2 Waterfall to devastate Groudon, or just smash it with STAB Outrage.</p>
+
+<p><img src="/download/sprites/dp/496.png" alt="" /></p>
+
+<p>Darkrai is now much easier to revenge kill due to the increase in ExtremeSpeed usage, but it did get a boost from the new sleep mechanics and is still a threatening sweeper. Darkrai remains one of the biggest banes of stall, capable of ripping through teams with a simple set of Dark Pulse / Focus Blast / Dark Void / Nasty Plot. It can also run a Choice Scarf set, allowing it to cripple an additional Pokemon with Trick.</p>
+
+<p><img src="/download/sprites/dp/505.png" alt="" /></p>
+
+<p>Like Darkrai, Shaymin-S suffered from the increase of ExtremeSpeed usage. However, it is still an excellent Pokemon that performs its role well. Shaymin-S can use an abusive SubSeed set. Thanks to Serene Grace, over half of the time a seeded opponent will be flinched by Air Slash, causing more residual damage and giving more recovery to Shaymin-S. Seed Flare is also a devastating move, capable of forcing even Chansey out with harsh Special Defense drops. Shaymin-S can also opt to run a powerful Choice Specs set, or run a Choice Scarf set to revenge the more niche speed freaks of Ubers, such as Kingdra and Shell Smash Cloyster, although in the latter's case Ice Shard is a problem.</p>
+
+<p><img src="/download/sprites/dp/495.png" alt="" /></p>
+
+<p>Manaphy is at its deadliest on a rain team, and even more so in BW Ubers, as Tail Glow now gives a +3 boost to Special Attack. It can also run a dangerous Calm Mind set, slowly boosting up and becoming more and more difficult to break through. Manaphy must be wary of Zekrom though, especially Choice Scarf variants, which can tear Manaphy to shreds before it can react.</p>
+
+<p><img src="/download/sprites/dp/450.png" alt="" /></p>
+
+<p>Nothing much has changed for Garchomp. It's most common role is still its Choice Scarf set, but the introduction of Arceus and Ferrothorn has reduced its utility. It can still revenge kill Dragon Dance Rayquaza and Choice Scarf Palkia, but the metagame has shifted so that different Choice Scarfers usually fit teams better than Garchomp does.</p>
+
+<p><img src="/download/sprites/dp/387.png" alt="" /></p>
+
+<p>Deoxys-A is still a powerhouse, but a metagame filled with priority and a lack of a lead metagame has led to a decline in usage. Its massive power is often passed up for Mewtwo, who can sweep through teams much more easily, as Psystrike is a far superior STAB move than Psycho Boost. Deoxys-A can still tear apart teams with good prediction though, and can punish predicted switches with Spikes, making the guessing game against it all the more difficult.</p>
+
+<p><img src="/download/sprites/dp/202.png" alt="" /></p>
+
+<p>Wobbuffet is no longer an Uber, but the blue blob is still one of the best supporters and trappers in the metagame. Wobbuffet is an extreme utility Pokemon, setting up all sorts of plays, such as Encoring Groudon into Earthquake, allowing Rayquaza to set up at no cost. Removing Choice Scarf Pokemon is also extremely useful. For example, removing Choice Scarf Palkia allows a partnered Choice Specs Kyogre to bludgeon the opponent with powerful Water Spouts, while removing Terrakion can open up an Extreme Killer Arceus sweep. Tickle is also excellent move, giving Pursuit users, such as Tyranitar and Scizor, a much easier time of removing a troublesome wall. Wobbuffet had dropped in usage due to a glitch that decreased Encore's effect by a turn, as well as how hard most Ubers hit, but it is still an amazing Pokemon when used correctly, especially now that the glitch has been corrected.</p>
+
+<p><img src="/download/sprites/dp/151.png" alt="" /></p>
+
+<p>Mew was once the poster Pokemon of Baton Pass, but multiple factors have led to its decline in the Ubers metagame. For one, Dragon Tail is now very prevalent, forcing it to run Substitute in order to pass safely, greatly reducing its options and taking away the versatility it was once feared for. Another factor is the move Shell Smash, which provides all of the boosts Mew would want to pass at once. Smeargle and Gorebyss have, for the most part, pushed Mew out of a job. Its utility set also took a hit from the Explosion nerf and the death of the lead metagame.</p>
+
+<p><img src="/download/sprites/dp/242.png" alt="" /></p>
+
+<p>Although many now prefer Chansey to her evolution, Blissey still has a few things going for her. She still has access to Leftovers, which can be very useful in a Spike-littered metagame. She also has a workable Special Attack stat, allowing her to run Calm Mind and Psych Up sets Chansey cannot pull off nearly as well.</p>
+
+<h2>Conclusion</h2>
+
+<p>Both 4th and 5th Gen Ubers are diverse metagames with a surprising amount of balance. New innovations are emerging all the time in BW Ubers. It's a metagame where Pokemon such as Blaziken and Cloyster can be the MVP in a clash of titans. The Ubers ladder can always use some more players, so get out there and try it out for yourself!</p>
+
+<table id="smogfooter">
+<tr>
+<td class="left"><a href="weather">&laquo; Previous Article</a></td>
+<td class="middle"><a href="/smog/issue16/">Home</a></td>
+<td class="right"><a href="smeargle">Next Article &raquo;</a></td>
+</tr>
+</table>

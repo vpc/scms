@@ -1,0 +1,298 @@
+[title]
+RBY Speed Tiers
+[head]
+<meta name="description" content="A detailed chart of the Speed stats Pokemon hit in the RBY metagame, courtesy of Niched." />
+<script type="text/javascript" src="/media/jquery.js"></script>
+<script type="text/javascript" src="/media/jquery.tablesorter.js"></script>
+[page]
+<div class="author">By <a href="/forums/member.php?u=30330">Niched</a>.</div>
+
+<ol class="toc">
+<li><a href="#tier0">Tier 0 (Pokemon with a Speed stat greater than 300)</a></li>
+<li><a href="#tier1">Tier 1 (Pokemon with a Speed stat between 200-299) </a></li>
+<li><a href="#tier2">Tier 2 (Pokemon with a Speed stat lower than 200</a></li>
+</ol>
+
+<h2><a name="tier0">Tier 0 (Pokemon with a Speed stat greater than 300)</a></h2>
+
+<table class="sortable" id="tier0_tbl">
+<thead>
+<tr>
+<th>Speed Stat</th>
+<th>Pokemon</th>
+<th>Base Speed</th> 
+<th>Crit Chance</th> 
+<th>Crit Chance with High Crit Moves</th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>378</td>
+<td><a href="/rb/pokemon/electrode">Electrode</a></td>
+<td>140</td>
+<td>27.3%</td>
+<td>99.6%</td>
+</tr>
+<tr>
+<td>358</td>
+<td><a href="/rb/pokemon/aerodactyl">Aerodactyl</a>, <a href="/rb/pokemon/jolteon">Jolteon</a>, <a href="/rb/pokemon/mewtwo">Mewtwo</a></td>
+<td>130</td>
+<td>25.4%</td>
+<td>99.6%</td>
+</tr>
+<tr>
+<td>338</td>
+<td><a href="/rb/pokemon/alakazam">Alakazam</a>, <a href="/rb/pokemon/Dugtrio">Dugtrio</a></td>
+<td>120</td>
+<td>23.4%</td>
+<td>99.6%</td>
+</tr>
+<tr>
+<td>328</td>
+<td><a href="/rb/pokemon/persian">Persian</a>, <a href="/rb/pokemon/starmie">Starmie</a></td>
+<td>115</td>
+<td>22.3%</td>
+<td>99.6%</td>
+</tr>
+<tr>
+<td>318</td>
+<td><a href="/rb/pokemon/gengar">Gengar</a>, <a href="/rb/pokemon/tauros">Tauros</a></td>
+<td>110</td>
+<td>21.5%</td>
+<td>99.6%</td>
+</tr>
+<tr>
+<td>308</td>
+<td><a href="/rb/pokemon/electabuzz">Electabuzz</a>, <a href="/rb/pokemon/kadabra">Kadabra</a>, <a href="/rb/pokemon/rapidash">Rapidash</a>, <a href="/rb/pokemon/scyther">Scyther</a></td>
+<td>105</td>
+<td>20.5%</td>
+<td>99.6%</td>
+</tr>
+</tbody>
+</table>
+
+<h2><a name="tier1">Tier 1 (Pokemon with a Speed stat between 200-299)</a></h2> 
+
+<table class="sortable" id="tier1_tbl">
+<thead>
+<tr>
+<th>Speed Stat</th>
+<th>Pokemon</th>
+<th>Base Speed</th> 
+<th>Crit Chance</th> 
+<th>Crit Chance with High Crit Moves</th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>298</td>
+<td><a href="/rb/pokemon/charizard">Charizard</a>, <a href="/rb/pokemon/dodrio">Dodrio</a>, <a href="/rb/pokemon/fearow">Fearow</a>, <a href="/rb/pokemon/mew">Mew</a>, <a href="/rb/pokemon/ninetales">Ninetales</a>, <a href="/rb/pokemon/raichu">Raichu</a>, <a href="/rb/pokemon/tentacruel">Tentacruel</a>, <a href="/rb/pokemon/zapdos">Zapdos</a></td>
+<td>100</td>
+<td>19.5%</td>
+<td>99.6%</td>
+</tr>
+<tr>
+<td>292</td>
+<td><a href="/rb/pokemon/raticate">Raticate</a></td>
+<td>97</td>
+<td>18.9%</td>
+<td>99.6%</td>
+</tr>
+<tr>
+<td>288</td>
+<td><a href="/rb/pokemon/arcanine">Arcanine</a>, <a href="/rb/pokemon/haunter">Haunter</a>, <a href="/rb/pokemon/jynx">Jynx</a>, <a href="/rb/pokemon/primeape">Primeape</a></td>
+<td>95</td>
+<td>18.6%</td>
+<td>99.6%</td>
+</tr>
+<tr>
+<td>284</td>
+<td><a href="/rb/pokemon/magmar">Magmar</a></td>
+<td>93</td>
+<td>18.2%</td>
+<td>99.6%</td>
+</tr>
+<tr>
+<td>280</td>
+<td><a href="/rb/pokemon/pidgeot">Pidgeot</a></td>
+<td>91</td>
+<td>17.8%</td>
+<td>99.6%</td>
+</tr>
+<tr>
+<td>278</td>
+<td><a href="/rb/pokemon/golbat">Golbat</a>, <a href="/rb/pokemon/kangaskahn">Kangaskahn</a>, <a href="/rb/pokemon/moltres">Moltres</a>, <a href="/rb/pokemon/mr_mime">Mr. Mime</a>, <a href="/rb/pokemon/venomoth">Venomoth</a></td>
+<td>90</td>
+<td>17.6%</td>
+<td>99.6%</td>
+</tr>
+<tr>
+<td>272</td>
+<td><a href="/rb/pokemon/hitmonlee">Hitmonlee</a></td>
+<td>87</td>
+<td>17%</td>
+<td>99.6%</td>
+</tr>
+<tr>
+<td>268</td>
+<td><a href="/rb/pokemon/articuno">Articuno</a>, <a href="/rb/pokemon/golduck">Golduck</a>, <a href="/rb/pokemon/nidoking">Nidoking</a>, <a href="/rb/pokemon/pinsir">Pinsir</a>, <a href="/rb/pokemon/seadra">Seadra</a></td>
+<td>85</td>
+<td>16.6%</td>
+<td>99.6%</td>
+</tr>
+<tr>
+<td>260</td>
+<td><a href="/rb/pokemon/gyarados">Gyarados</a></td>
+<td>81</td>
+<td>15.8%</td>
+<td>99.6%</td>
+</tr>
+<tr>
+<td>258</td>
+<td><a href="/rb/pokemon/arbok">Arbok</a>, <a href="/rb/pokemon/dragonite">Dragonite</a>, <a href="/rb/pokemon/kabutops">Kabutops</a>, <a href="/rb/pokemon/venusaur">Venusaur</a></td>
+<td>80</td>
+<td>15.6%</td>
+<td>99.6%</td>
+</tr>
+<tr>
+<td>254</td>
+<td><a href="/rb/pokemon/blastoise">Blastoise</a></td>
+<td>78</td>
+<td>15.2%</td>
+<td>99.6%</td>
+</tr>
+<tr>
+<td>250</td>
+<td><a href="/rb/pokemon/hitmonchan">Hitmonchan</a>, <a href="/rb/pokemon/nidoqueen">Nidoqueen</a></td>
+<td>76</td>
+<td>14.8%</td>
+<td>99.6%</td>
+</tr>
+<tr>
+<td>248</td>
+<td><a href="/rb/pokemon/beedrill">Beedrill</a>, <a href="/rb/pokemon/kingler">Kingler</a></td>
+<td>75</td>
+<td>14.6%</td>
+<td>99.6%</td>
+</tr>
+<tr>
+<td>238</td>
+<td><a href="/rb/pokemon/butterfree">Butterfree</a>, <a href="/rb/pokemon/cloyster">Cloyster</a>, <a href="/rb/pokemon/dewgong">Dewgong</a>, <a href="/rb/pokemon/magneton">Magneton</a>, <a href="/rb/pokemon/onix">Onix</a>, <a href="/rb/pokemon/poliwrath">Poliwrath</a>, <a href="/rb/pokemon/victreebel">Victreebel</a></td>
+<td>70</td>
+<td>13.7%</td>
+<td>99.6%</td>
+</tr>
+<tr>
+<td>234</td>
+<td><a href="/rb/pokemon/seaking">Seaking</a></td>
+<td>68</td>
+<td>13.3%</td>
+<td>99.6%</td>
+</tr>
+<tr>
+<td>232</td>
+<td><a href="/rb/pokemon/hypno">Hypno</a></td>
+<td>67</td>
+<td>13.1%</td>
+<td>99.6%</td>
+</tr>
+<tr>
+<td>228</td>
+<td><a href="/rb/pokemon/flareon">Flareon</a>, <a href="/rb/pokemon/sandslash">Sandslash</a>, <a href="/rb/pokemon/vaporeon">Vaporeon</a></td>
+<td>65</td>
+<td>12.7%</td>
+<td>99.6%</td>
+<tr>
+<td>218</td>
+<td><a href="/rb/pokemon/clefable">Clefable</a>, <a href="/rb/pokemon/farfetchd">Farfetch'd</a>, <a href="/rb/pokemon/lapras">Lapras</a>, <a href="/rb/pokemon/tangela">Tangela</a>, <a href="/rb/pokemon/weezing">Weezing</a></td>
+<td>60</td>
+<td>11.7%</td>
+<td>93.75%</td>
+</tr>
+<tr>
+<td>208</td>
+<td><a href="/rb/pokemon/exeggutor">Exeggutor</a>, <a href="/rb/pokemon/machamp">Machamp</a>, <a href="/rb/pokemon/omastar">Omastar</a></td>
+<td>55</td>
+<td>10.7%</td>
+<td>85.9%</td>
+</tr>
+</tbody>
+</table>
+
+<h2><a name="tier2">Tier 2 (Pokemon with a Speed stat lower than 200)</a></h2>
+
+<table class="sortable" id="tier2_tbl">
+<thead>
+<tr>
+<th>Speed Stat</th>
+<th>Pokemon</th>
+<th>Base Speed</th> 
+<th>Crit Chance</th> 
+<th>Crit Chance with High Crit Moves</th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>198</td>
+<td><a href="/rb/pokemon/chansey">Chansey</a>, <a href="/rb/pokemon/muk">Muk</a>, <a href="/rb/pokemon/vileplume">Vileplume</a></td>
+<td>50</td>
+<td>9.8%</td>
+<td>78.1%</td>
+</tr>
+<tr>
+<td>194</td>
+<td><a href="/rb/pokemon/ditto">Ditto</a></td>
+<td>48</td>
+<td>N/A</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>188</td>
+<td><a href="/rb/pokemon/golem">Golem</a>, <a href="/rb/pokemon/marowak">Marowak</a>, <a href="/rb/pokemon/wigglytuff">Wigglytuff</a></td>
+<td>45</td>
+<td>8.8%</td>
+<td>70.1%</td>
+</tr>
+<tr>
+<td>178</td>
+<td><a href="/rb/pokemon/porygon">Porygon</a>, <a href="/rb/pokemon/rhydon">Rhydon</a></td>
+<td>40</td>
+<td>7.8%</td>
+<td>62.5%</td>
+</tr>
+<tr>
+<td>158</td>
+<td><a href="/rb/pokemon/lickitung">Lickitung</a>, <a href="/rb/pokemon/parasect">Parasect</a>, <a href="/rb/pokemon/slowbro">Slowbro</a>, <a href="/rb/pokemon/snorlax">Snorlax</a></td>
+<td>30</td>
+<td>5.9%</td>
+<td>46.9%</td>
+</tr>
+</tbody>
+</table>
+
+<script type="text/javascript">
+$("#tier0_tbl").tablesorter({
+widgets: ['zebra'],
+textExtraction: "complex",
+headers: { 1:{sorter: false}, 3:{sorter: false}, 4:{sorter: false}, 5:{sorter: false} }
+})
+
+$("#tier1_tbl").tablesorter({
+widgets: ['zebra'],
+textExtraction: "complex",
+headers: { 1:{sorter: false}, 3:{sorter: false}, 4:{sorter: false}, 5:{sorter: false} }
+})
+
+$("#tier2_tbl").tablesorter({
+widgets: ['zebra'],
+textExtraction: "complex",
+headers: { 1:{sorter: false}, 3:{sorter: false}, 4:{sorter: false}, 5:{sorter: false} }
+})
+
+$("#tier3_tbl").tablesorter({
+widgets: ['zebra'],
+textExtraction: "complex",
+headers: { 1:{sorter: false}, 3:{sorter: false}, 4:{sorter: false}, 5:{sorter: false} }
+})
+
+</script>

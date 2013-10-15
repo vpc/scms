@@ -1,0 +1,1332 @@
+[title]
+Little Cup Article
+[head]
+<meta name="description" content="An analysis of the Little Cup Metagame, by ete, rewritten by macle and other various contributors." />
+[page]
+<div class="author">By <a href="/forums/member.php?u=21701">macle</a> and a thousand others. Art by <a href="http://www.smogon.com/forums/member.php?u=66676">Birkal</a></div>
+<div style="float: right; margin-left: 10px;"><img src="http://www.smogon.com/media/upload/dp/articles/magby.png" alt="" /></div>
+<ol class="toc">
+<ol class="toc">
+<li><a href="#intro">Introduction</a></li>
+
+<li>
+
+<a href="#rules">Rules</a>
+
+<ul>
+
+<li><a href="#itemclause">Item Clause</a></li>
+
+</ul>
+
+</li>
+
+<li>
+
+<a href="#banned">Banned Pokemon</a>
+
+<ul>
+
+<li><a href="#deepsea">DeepSeaTooth</a></li>
+
+</ul>
+
+</li>
+
+<li>
+
+<a href="#eligible">Eligible Pokemon</a>
+
+<ul>
+
+<li><a href="#RBY">RBY Pokemon</a></li>
+
+<li><a href="#GSC">GSC Pokemon</a></li>
+
+<li><a href="#RSE">RSE Pokemon</a></li>
+
+<li><a href="#DPP">DPP Pokemon</a></li>
+
+</ul>
+
+</li>
+
+<li>
+
+<a href="#moves">Moves Legality</a>
+
+<ul>
+
+<li><a href="#Genderless">Genderless Pokemon</a></li>
+
+<li><a href="#introduced">D/P Introduced Moves</a></li>
+
+<li><a href="#thirdgen">Third Generation Move Tutor / Other Game Special Moves</a></li>
+
+<li><a href="#event">Event Moves</a></li>
+
+</ul>
+
+</li>
+
+<li>
+
+<a href="#EVs">EV Distribution in Little Cup</a>
+
+<ul>
+
+<li><a href="#special">Special Cases</a></li>
+
+<li><a href="#formula">Stat Formula</a></li>
+
+</ul>
+
+</li>
+
+<li>
+
+<a href="#item">Item Analysis</a>
+
+<ul>
+
+<li><a href="#effective">The Most Effective Items in Little Cup</a></li>
+
+<li><a href="#noteffective">Items Which Are Good in OU but not in Little Cup</a></li>
+
+<li><a href="#right">The Right Item for your Pokemon</a></li>
+
+</ul>
+
+</li>
+
+<li>
+
+<a href="#common">Common Mistakes Regarding Items</a>
+
+<ul>
+
+<li><a href="#oran">Oran Berry over Sitrus Berry</a></li>
+
+</ul>
+
+</li>
+
+<li>
+
+<a href="#strategies">Common Strategies</a>
+
+<ul>
+
+<li><a href="#immunity">Immunity Teams</a></li>
+
+<li><a href="#rain">Rain Dance Teams</a></li>
+
+<li><a href="#trick">Trick Room Teams</a></li>
+
+<li><a href="#sun">Sun Day Teams</a></li>
+
+<li><a href="#sand">Sandstorm Teams</a></li>
+</ul>
+
+<li><a href="#pomeg">Pomeg Glitch</a>
+<ul>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#setup">Set-Up</a></li>
+<li><a href="#battling">Battling with the Egg</a></li>
+<li><a href="#hatch">Hatch!</a></li>
+</ul>
+</li>
+<li><a href="#team">Common Standard Team</a></li>
+<li><a href="#pokemon">Popular Little Cup Pokemon</a></li>
+<li><a href="#closing">Closing Words</a></li>
+</ol>
+
+
+
+<h2><a name="intro">Introduction</a></h2>
+
+
+
+<p>Little Cup was spawned in Pokémon Stadium 2. The idea was that you bred to achieve the perfect baby Pokémon to battle. It was later reintroduced for Advance, and now Little Cup is back for the 4th Generation. The metagame is generally faster-paced than the standard OU metagame, which results in a speed-centered environment where Pokémon rely on their resistances and immunities to counter the opponent's team and from there, execute their own team's strategy.</p>
+
+
+
+<h2><a name="rules">Rules</a></h2>
+
+
+
+<ul>
+
+<li>Eligible Pokémon must be able to evolve, and be the first in an evolution chain.</li>
+
+<li>All Pokémon used must be at or below Level 5.</li>
+
+<li>Sleep Clause is on.</li>
+
+<li>Self-KO Clause is on.</li>
+
+<li>Evasion Clause is on.</li>
+
+<li>OHKO Clause is on.</li>
+
+<li>Species Clause is on.</li>
+
+<li>Item Clause is off.</li>
+
+<li>The attacks SonicBoom and Dragon Rage are banned.</li>
+
+<li>The items DeepSeaTooth and Berry Juice are banned.</li>
+
+</ul>
+
+
+
+<h3><a name="itemclause">Item Clause</a></h3>
+
+
+
+<p>In the earlier stages of Little Cup, it was thought necessary that Item Clause should be in effect, the main reason being the propensity of players to put the item Focus Sash on multiple Pokémon and allow the Pokémon to survive what should be an OHKO and perhaps kill its counter. </p>
+
+
+
+<p>Since then, there has been a shift of thinking and Item Clause is widely thought to be unneeded. One of the main reasons for this is the prominence of Stealth Rock, which when laid early will nullify Focus Sash unless it is removed by Rapid Spin. Furthermore, D/P brought Little Cup two new auto-weather inducers in the forms of Snover and Hippopotas, so a Focus Sash user will die at the end of the turn should it use its item and take damage from hail or the sandstorm. Finally, the addition of Life Orb means that the typical Focus Sash users, frail but fast Pokémon, are forced to give up the extra damage output afforded by Life Orb over the ability to potentially survive a hit that would normally kill it.</p>
+
+
+
+<h2><a name="banned">Banned Pokémon</a></h2>
+
+<dl>
+<dt>Scyther</dt>
+<dd>A moveset consisting of Swords Dance, Aerial Ace, Quick Attack, and Brick Break is almost unstoppable in Little Cup, with no Pokémon in Little Cup able to resist that attack combination. Both Aerial Ace and Quick Attack have their power boosted by 50% due to Technician; the latter attack is vital in stopping Pokémon using Choice Scarf to outspeed it or in stopping slower users of priority attacks. Scyther's pedigree is enhanced by the sheer power of its base stats, boasting both the second highest Attack stat, base 110, and the second highest Speed stat, base 105.</dd>
+
+
+<dt>Sneasel</dt>
+<dd>Sneasel can run a similar moveset to Scyther consisting of Swords Dance, Ice Shard, Bite, and Brick Break and be equally difficult to stop. Also akin to Scyther, it boasts a priority attack and an attack combination that no Pokémon resists. A 95 base Attack stat and the highest unboosted Speed in Little Cup with a base stat of 115 make Sneasel all the harder to stop.</dd>
+
+
+<dt>Yanma</dt>
+<dd>Already in one of the highest speed tiers, Yanma's Speed Boost ability means that after two turns it will outspeed virtually everything. From there it can wreak havoc with STAB Air Slash or STAB Bug Buzz from a respectable Special Attack stat or simply put to sleep anything it can't kill with Hypnosis.</dd>
+
+
+<dt>Tangela</dt>
+<dd>With Sunny Day in effect, Tangela becomes an offensive juggernaut. Its Chlorophyll ability can take its Speed stat to 30, and it can power through anything not resistant to Grass-type attacks with SolarBeam from a 100 base Special Attack stat, which not even Munchlax can stand up to when factoring Life Orb in. Hidden Power Fire and AncientPower provide it with good type coverage, or it can take the option of putting its counters to sleep with Sleep Powder. Moreover, Tangela's bulky defensive nature--in particular its 115 base Defense stat—makes it even harder to take down.</dd>
+
+
+<dt>Misdreavus</dt>
+<dd>Misdreavus was the last Pokemon to be banned from Little Cup. After much discussion, it was unanimously voted Uber. Its ability to beat Munchlax and Stunky, its only two "checks," one-on-one as well as being used on over 70% of teams showed that it was clearly too powerful for the tier, and consequently it was removed. STAB Shadow Ball and Hidden Power Fighting afforded it flawless coverage, while Will-O-Wisp allowed it to burn attackers, Shadow Sneak allowed it to revenge kill Choice Scarf-wielding Pokemon and Substitute allowed it to attack with impunity. If anything could be called unstoppable in Little Cup post-Murkrow, it was Misdreavus.</dd>
+
+
+<dt>Meditite</dt>
+<dd>Pure Power transforms Meditite into a very potent threat, reaching 28 Attack with no item boosts. Not even Cranidos and its 125 base Attack stat can match that. Hi Jump Kick, Psycho Cut, and Ice Punch gives it all the coverage it needs, and such is the power of Hi Jump Kick is that with Life Orb it can OHKO Bronzor, arguably the best defensive Pokémon in Little Cup, who is not even weak to it. Alternatively, Choice Scarf can be used to remedy its average Speed stat and make it difficult to revenge kill. It is very possible that Meditite will be tested again in the future, though.</dd>
+
+
+<dt>Murkrow</dt>
+<dd>Murkrow was allowed in Little Cup for longer than the rest of the banned Pokémon (barring Misdreavus), but in the end it was deemed that its ability to sweep through multiple members of a team without any set-up pushed it over the banned threshold. Sucker Punch really makes Murkrow difficult to take on, bypassing the Speed hierarchy with an 80 Base Power STAB attack with priority running off 91 base Speed (i.e. the second highest speed tier aside excluding Sneasel and Scyther). Pluck complements Sucker Punch and runs off its 85 Base Attack, and hits any Pokémon carrying a berry, such as the Oran Berry, favored by walls, for 60 Base Power (90 Base Power after STAB), disabling and consuming the berry in the process. Dark Pulse hits many physical walls, such as Gligar and Koffing, for plentiful damage and has a 20% flinch rate. Murkrow also has access to Hidden Power, Heat Wave, Calm Mind, and Pursuit. Murkrow was not unstoppable but was deemed too powerful and was also a clear centralizing force.</dd>
+
+
+
+</dl>
+
+
+
+<h3><a name="deepsea">DeepSeaTooth</a></h3>
+
+<p>Clamperl is not banned, but the DeepSeaTooth item is. DeepSeaTooth can give Clamperl up to 36 Special Attack, more than a Modest Choice Specs Abra, whilst still retaining freedom to switch attacks. Surf, Ice Beam, and Hidden Power Electric or Hidden Power Grass provide good coverage, and not even Munchlax, the Pokémon widely considered to be the best Special wall in Little Cup, can switch in on Surf, being 2HKOed, even taking Oran Berry into account. Its low Speed is a problem but if it is Baton Passed an Agility then it will be incredibly dominant over an opponent's team. Without DeepSeaTooth, however, Clamperl is much more manageable.</p>
+
+
+
+<h2><a name="eligible">Eligible Pokémon</a></h2>
+
+
+
+<h3><a name="RBY">RBY Pokémon</a></h3>
+
+
+
+<ul>
+
+
+
+<li><a href="/dp/pokemon/bulbasaur">Bulbasaur</a></li>
+
+<li><a href="/dp/pokemon/charmander">Charmander</a></li>
+
+<li><a href="/dp/pokemon/squirtle">Squirtle</a></li>
+
+<li><a href="/dp/pokemon/caterpie">Caterpie</a></li>
+
+<li><a href="/dp/pokemon/weedle">Weedle</a></li>
+
+<li><a href="/dp/pokemon/pidgey">Pidgey</a></li>
+
+<li><a href="/dp/pokemon/ratatta">Ratatta</a></li>
+
+<li><a href="/dp/pokemon/spearow">Spearow</a></li>
+
+<li><a href="/dp/pokemon/ekans">Ekans</a></li>
+
+<li><a href="/dp/pokemon/sandshrew">Sandshrew</a></li>
+
+<li><a href="/dp/pokemon/nidoran-m">Nidoran M</a></li>
+
+<li><a href="/dp/pokemon/nidoran-f">Nidoran F</a></li>
+
+<li><a href="/dp/pokemon/vulpix">Vulpix</a></li>
+
+<li><a href="/dp/pokemon/zubat">Zubat</a></li>
+
+<li><a href="/dp/pokemon/oddish">Oddish</a></li>
+
+<li><a href="/dp/pokemon/paras">Paras</a></li>
+
+<li><a href="/dp/pokemon/venonat">Venonat</a></li>
+
+<li><a href="/dp/pokemon/diglett">Diglett</a></li>
+
+<li><a href="/dp/pokemon/meowth">Meowth</a></li>
+
+<li><a
+
+href="/dp/pokemon/psyduck">Psyduck</a></li>
+
+<li><a href="/dp/pokemon/mankey">Mankey</a></li>
+
+<li><a
+
+href="/dp/pokemon/growlithe">Growlithe</a></li>
+
+<li><a
+
+href="/dp/pokemon/poliwag">Poliwag</a></li>
+
+<li><a href="/dp/pokemon/abra">Abra</a></li>
+
+<li><a href="/dp/pokemon/machop">Machop</a></li>
+
+<li><a href="/dp/pokemon/bellsprout">Bellsprout</a></li>
+
+<li><a
+
+href="/dp/pokemon/tentacool">Tentacool</a></li>
+
+<li><a href="/dp/pokemon/geodude">Geodude</a></li>
+
+<li><a href="/dp/pokemon/ponyta">Ponyta</a></li>
+
+<li><a href="/dp/pokemon/slowpoke">Slowpoke</a></li>
+
+<li><a href="/dp/pokemon/magnemite">Magnemite</a></li>
+
+<li><a href="/dp/pokemon/doduo">Doduo</a></li>
+
+<li><a href="/dp/pokemon/seel">Seel</a></li>
+
+<li><a href="/dp/pokemon/grimer">Grimer</a></li>
+
+<li><a href="/dp/pokemon/shellder">Shellder</a></li>
+
+<li><a href="/dp/pokemon/gastly">Gastly</a></li>
+
+<li><a href="/dp/pokemon/onix">Onix</a></li>
+
+<li><a href="/dp/pokemon/drowzee">Drowzee</a></li>
+
+<li><a href="/dp/pokemon/krabby">Krabby</a></li>
+
+<li><a href="/dp/pokemon/voltorb">Voltorb</a></li>
+
+<li><a href="/dp/pokemon/exeggcute">Exeggcute</a></li>
+
+<li><a href="/dp/pokemon/cubone">Cubone</a></li>
+
+<li><a href="/dp/pokemon/lickitung">Lickitung</a></li>
+
+<li><a href="/dp/pokemon/koffing">Koffing</a></li>
+
+<li><a href="/dp/pokemon/rhyhorn">Rhyhorn</a></li>
+
+<li><a href="/dp/pokemon/horsea">Horsea</a></li>
+
+<li><a href="/dp/pokemon/goldeen">Goldeen</a></li>
+
+<li><a href="/dp/pokemon/staryu">Staryu</a></li>
+
+<li><a href="/dp/pokemon/magikarp">Magikarp</a></li>
+
+<li><a href="/dp/pokemon/eevee">Eevee</a></li>
+
+<li><a href="/dp/pokemon/porygon">Porygon</a></li>
+
+<li><a href="/dp/pokemon/omanyte">Omanyte</a></li>
+
+<li><a href="/dp/pokemon/kabuto">Kabuto</a></li>
+
+<li><a href="/dp/pokemon/dratini">Dratini</a></li>
+
+
+
+</ul>
+
+
+
+<h3><a name="GSC">GSC Pokémon</a></h3>
+
+
+
+<ul>
+
+
+
+<li><a href="/dp/pokemon/chikorita">Chikorita</a></li>
+
+<li><a href="/dp/pokemon/cyndaquil">Cyndaquil</a></li>
+
+<li><a href="/dp/pokemon/totodile">Totodile</a></li>
+
+<li><a href="/dp/pokemon/sentret">Sentret</a></li>
+
+<li><a href="/dp/pokemon/hoothoot">Hoothoot</a></li>
+
+<li><a href="/dp/pokemon/ledyba">Ledyba</a></li>
+
+<li><a href="/dp/pokemon/spinarak">Spinarak</a></li>
+
+<li><a href="/dp/pokemon/chinchou">Chinchou</a></li>
+
+<li><a href="/dp/pokemon/pichu">Pichu</a></li>
+
+<li><a href="/dp/pokemon/cleffa">Cleffa</a></li>
+
+<li><a href="/dp/pokemon/igglybuff">Igglybuff</a></li>
+
+<li><a href="/dp/pokemon/togepi">Togepi</a></li>
+
+<li><a href="/dp/pokemon/natu">Natu</a></li>
+
+<li><a href="/dp/pokemon/mareep">Mareep</a></li>
+
+<li><a href="/dp/pokemon/hoppip">Hoppip</a></li>
+
+<li><a href="/dp/pokemon/aipom">Aipom</a></li>
+
+<li><a href="/dp/pokemon/sunkern">Sunkern</a></li>
+
+<li><a href="/dp/pokemon/wooper">Wooper</a></li>
+
+<li><a href="/dp/pokemon/pineco">Pineco</a></li>
+
+<li><a href="/dp/pokemon/gligar">Gligar</a></li>
+
+<li><a href="/dp/pokemon/snubbull">Snubbull</a></li>
+
+<li><a href="/dp/pokemon/teddiursa">Teddiursa</a></li>
+
+<li><a href="/dp/pokemon/slugma">Slugma</a></li>
+
+<li><a href="/dp/pokemon/swinub">Swinub</a></li>
+
+<li><a href="/dp/pokemon/remoraid">Remoraid</a></li>
+
+<li><a href="/dp/pokemon/houndour">Houndour</a></li>
+
+<li><a href="/dp/pokemon/phanpy">Phanpy</a></li>
+
+<li><a href="/dp/pokemon/tyrogue">Tyrogue</a></li>
+
+<li><a href="/dp/pokemon/smoochum">Smoochum</a></li>
+
+<li><a href="/dp/pokemon/elekid">Elekid</a></li>
+
+<li><a href="/dp/pokemon/magby">Magby</a></li>
+
+<li><a href="/dp/pokemon/larvitar">Larvitar</a></li>
+
+
+
+</ul>
+
+
+
+<h3><a name="RSE">RSE Pokémon</a></h3>
+
+
+
+<ul>
+
+
+
+<li><a href="/dp/pokemon/treecko">Treecko</a></li>
+
+<li><a href="/dp/pokemon/torchic">Torchic</a></li>
+
+<li><a href="/dp/pokemon/mudkip">Mudkip</a></li>
+
+<li><a href="/dp/pokemon/poochyena">Poochyena</a></li>
+
+<li><a href="/dp/pokemon/zigzagoon">Zigzagoon</a></li>
+
+<li><a href="/dp/pokemon/wurmple">Wurmple</a></li>
+
+<li><a href="/dp/pokemon/lotad">Lotad</a></li>
+
+<li><a href="/dp/pokemon/seedot">Seedot</a></li>
+
+<li><a href="/dp/pokemon/taillow">Taillow</a></li>
+
+<li><a href="/dp/pokemon/wingull">Wingull</a></li>
+
+<li><a href="/dp/pokemon/ralts">Ralts</a></li>
+
+<li><a href="/dp/pokemon/surskit">Surskit</a></li>
+
+<li><a href="/dp/pokemon/shroomish">Shroomish</a></li>
+
+<li><a href="/dp/pokemon/slakoth">Slakoth</a></li>
+
+<li><a href="/dp/pokemon/nincada">Nincada</a></li>
+
+<li><a href="/dp/pokemon/whismur">Whismur</a></li>
+
+<li><a href="/dp/pokemon/makuhita">Makuhita</a></li>
+
+<li><a href="/dp/pokemon/azurill">Azurill</a></li>
+
+<li><a href="/dp/pokemon/skitty">Skitty</a></li>
+
+<li><a href="/dp/pokemon/aron">Aron</a></li>
+
+<li><a href="/dp/pokemon/nosepass">Nosepass</a></li>
+
+<li><a href="/dp/pokemon/electrike">Electrike</a></li>
+
+<li><a href="/dp/pokemon/gulpin">Gulpin</a></li>
+
+<li><a href="/dp/pokemon/carvanha">Carvanha</a></li>
+
+<li><a href="/dp/pokemon/wailmer">Wailmer</a></li>
+
+<li><a href="/dp/pokemon/numel">Numel</a></li>
+
+<li><a href="/dp/pokemon/spoink">Spoink</a></li>
+
+<li><a href="/dp/pokemon/trapinch">Trapinch</a></li>
+
+<li><a href="/dp/pokemon/cacnea">Cacnea</a></li>
+
+<li><a href="/dp/pokemon/swablu">Swablu</a></li>
+
+<li><a href="/dp/pokemon/barboach">Barboach</a></li>
+
+<li><a href="/dp/pokemon/corphish">Corphish</a></li>
+
+<li><a href="/dp/pokemon/baltoy">Baltoy</a></li>
+
+<li><a href="/dp/pokemon/lileep">Lileep</a></li>
+
+<li><a href="/dp/pokemon/anorith">Anorith</a></li>
+
+<li><a href="/dp/pokemon/feebas">Feebas</a></li>
+
+<li><a href="/dp/pokemon/shuppet">Shuppet</a></li>
+
+<li><a href="/dp/pokemon/duskull">Duskull</a></li>
+
+<li><a href="/dp/pokemon/wynaut">Wynaut</a></li>
+
+<li><a href="/dp/pokemon/snorunt">Snorunt</a></li>
+
+<li><a href="/dp/pokemon/spheal">Spheal</a></li>
+
+<li><a href="/dp/pokemon/clamperl">Clamperl</a></li>
+
+<li><a href="/dp/pokemon/bagon">Bagon</a></li>
+
+<li><a href="/dp/pokemon/beldum">Beldum</a></li>
+
+
+
+</ul>
+
+
+
+<h3><a name="DPP">D/P Pokémon</a></h3>
+
+
+
+<ul>
+
+
+
+<li><a href="/dp/pokemon/turtwig">Turtwig</a></li>
+
+<li><a href="/dp/pokemon/chimchar">Chimchar</a></li>
+
+<li><a href="/dp/pokemon/piplup">Piplup</a></li>
+
+<li><a href="/dp/pokemon/starly">Starly</a></li>
+
+<li><a href="/dp/pokemon/bidoof">Bidoof</a></li>
+
+<li><a href="/dp/pokemon/kricketot">Kricketot</a></li>
+
+<li><a href="/dp/pokemon/shinx">Shinx</a></li>
+
+<li><a href="/dp/pokemon/budew">Budew</a></li>
+
+<li><a href="/dp/pokemon/cranidos">Cranidos</a></li>
+
+<li><a href="/dp/pokemon/shieldon">Shieldon</a></li>
+
+<li><a href="/dp/pokemon/burmy">Burmy</a></li>
+
+<li><a href="/dp/pokemon/combee">Combee</a></li>
+
+<li><a href="/dp/pokemon/buizel">Buizel</a></li>
+
+<li><a href="/dp/pokemon/cherubi">Cherubi</a></li>
+
+<li><a href="/dp/pokemon/shellos">Shellos</a></li>
+
+<li><a href="/dp/pokemon/drifloon">Drifloon</a></li>
+
+<li><a href="/dp/pokemon/buneary">Buneary</a></li>
+
+<li><a href="/dp/pokemon/glameow">Glameow</a></li>
+
+<li><a href="/dp/pokemon/chingling">Chingling</a></li>
+
+<li><a href="/dp/pokemon/stunky">Stunky</a></li>
+
+<li><a href="/dp/pokemon/bronzor">Bronzor</a></li>
+
+<li><a href="/dp/pokemon/bonsly">Bonsly</a></li>
+
+<li><a href="/dp/pokemon/mime_jr">Mime Jr.</a></li>
+
+<li><a href="/dp/pokemon/happiny">Happiny</a></li>
+
+<li><a href="/dp/pokemon/gible">Gible</a></li>
+
+<li><a href="/dp/pokemon/munchlax">Munchlax</a></li>
+
+<li><a href="/dp/pokemon/riolu">Riolu</a></li>
+
+<li><a href="/dp/pokemon/hippopotas">Hippopotas</a></li>
+
+<li><a href="/dp/pokemon/skorupi">Skorupi</a></li>
+
+<li><a href="/dp/pokemon/croagunk">Croagunk</a></li>
+
+<li><a href="/dp/pokemon/finneon">Finneon</a></li>
+
+<li><a href="/dp/pokemon/mantyke">Mantyke</a></li>
+
+<li><a href="/dp/pokemon/snover">Snover</a></li>
+
+
+
+</ul>
+
+
+
+
+<h2><a name="moves">Move Legality</a></h2>
+
+
+
+<p>Since Little Cup is played with Level 5 Pokémon there can be discrepancies with Level 100 play in the OU metagame with regards to what moves certain Pokémon can or cannot learn at that level. It is important to check whether or not certain Pokémon can legitimately learn the move(s) at Level 5 since it is forbidden to use moves that cannot be learnt by the Pokémon by said level. This section will guide you through the ways in which certain moves and move combinations are illegal. Note that impossible breeding combinations such as Hypnosis + Nasty Plot Zubat are already assumed illegal.</p>
+
+
+
+<a name="Genderless"><h3>Genderless Pokémon</h3></a>
+
+<p>Genderless Pokémon lack the ability to breed unless it is with a Ditto. Thus, they do not have Egg moves and lack the ability to pass on level-up moves to their offspring. With this you would not expect genderless Pokémon to be able to use any level-up move that is learned beyond level 5. However, a glitch in Emerald, called the Pomeg Glitch, allows Pokémon to level up before hatching, and receive any level up move. These moves are not legal with 4th generation only abilities, and do not apply to 4th gen only Pokémon like Bronzor. Bronzor's evolution, Bronzong is often seen with Hypnosis, which Bronzor learns at Level 7 and thus is illegal in Little Cup.</p>
+
+
+
+<h3><a name="introduced">D/P Introduced Moves</a></h3>
+
+
+
+<p>Both Egg and level-up moves that were introduced in the fourth generation and are learned after Level 5 are illegal together with third generation Move Tutor moves.</p>
+
+
+
+<p>For example, Body Slam + Fire Fang Houndour is illegal, since Fire Fang is learned after level 5, and is thus not compatible with Body Slam, a 3rd generation move tutor attack.</p>
+
+
+
+<h3><a name="thirdgen">Third Generation Move Tutor / Other Game Special Moves</a></h3>
+
+
+
+<p>These moves are illegal together with any move introduced in D/P that is an Egg move or is learned after Level 5. An example of this would be Body Slam (third generation tutor move) + Cross Chop (Egg move) Elekid. They are also illegal with any new ability introduced in D/P, since the ability change only occurs during evolution. For example, Pickup Meowth with Double-Edge is legal, but Technician Double-Edge Meowth is not.</p>
+
+
+
+<p>Little Cup Pokémon that can use a move that comes from Pokémon XD and are caught in that game at a level higher than 5 are illegal with that move. In the event they are able to use it, it will be illegal together with any Egg or level-up move.</p>
+
+
+
+<p>Special moves from Pokémon Box Eggs are illegal with any level-up or Egg move, as they come from a pre-made Egg that hatches at Level 5. This is the reason why Belly Drum + ExtremeSpeed Zigzagoon is illegal; as ExtremeSpeed comes from an Egg from Pokémon Box, and it hatches at Level 5. For Belly Drum to be available to that Zigzagoon, it would be needed for two Linoone with Belly Drum to breed, but that Egg cannot hatch with ExtremeSpeed.</p>
+
+
+
+<h3><a name="event">Event Moves</a></h3>
+
+
+
+<p>Event moves are illegal together with any Egg Move or Level-up move learned after Level 5. If said event took place in D/P, they are also illegal with any 3rd generation move.</p>
+
+
+
+<h2><a name="EVs">EV Distribution in Little Cup</a></h2>
+
+
+
+<p>Little Cup is a metagame that is played at Level 5. As such, the stats are calculated in a different way. To be efficient with EVs and not miss out on free stat points, Pokémon at Level 5 need a type of EV spreads different from Level 100 Pokemon. This guide will attempt to explain how to achieve the maximum potential of the 510 EV points you have at your disposal.</p>
+
+
+
+<p>At Level 100 each 4 EVs give a single stat point for every Pokémon and every stat, but because Little Cup is played at Level 5 this in not the case. Depending on the number that the base stat for that Pokémon finishes in, your investment for a single point may be as high as 76, or a low as 4. Once you have boosted that stat by a single point each successive point requires an extra 80 EVs.</p>
+
+
+
+<p>The necessary investment for extra points is as follows:
+
+Number the base stat ends in - First extra point/Second extra point/Third extra point/Fourth extra point (if applicable).</p>
+
+
+
+<ul>
+
+
+
+<li>3 - 12/92/172/252 EVs</li>
+
+<li>4 - 4/84/164/244 EVs</li>
+
+<li>5 - 76/156/236 EVs</li>
+
+<li>6 - 68/148/228 EVs</li>
+
+<li>7 - 60/140/220 EVs</li>
+
+<li>8 - 52/132/212 EVs</li>
+
+<li>9 - 44/124/204 EVs</li>
+
+<li>0 - 36/116/196 EVs</li>
+
+<li>1 - 28/108/188 EVs</li>
+
+<li>2 - 20/100/180 EVs</li>
+
+
+
+</ul>
+
+
+
+<p>Instead of using this table and looking up each Pokemon's stats you can download <a href="http://s1.zetaboards.com/The_Little_Cup_Forum/topic/391860/1/">This Program</a> which gives you a readout of EVs requited for extra points, along with several other useful features. It is highly recommended that if you intend to make Little Cup teams you download this program; it will save you time.</p>
+
+
+
+<p>One thing to remember is that simply maxing out two stats is often a waste in Little Cup. After investing heavily in two stats you can often get free points in others, for example a Totodile with 252 Atk / 252 Spe would have 21/16/12/9/11/15, while a player who made a more careful spread of 236 Atk / 12 Def / 252 would end up with 21/16/13/9/11/15. The extra defense point may not look like much, but it means that Totodile will take Physical hits 8% better.</p>
+
+
+
+<p>A more extreme example is Drifloon. It could use a basic 252 SpA / 252 Spe spread; however, if you look at its stats in more detail you can make the following spread: 36 HP / 36 Atk / 4 Def / 196 SpA / 4 SpD / 36 Spe. That may seem complicated, but on a Hasty Explosion Drifloon, look at the difference:</p>
+
+
+
+<ul>
+
+
+
+<li>25/11/8/15/10/17</li>
+
+<li>26/12/9/15/11/17</li>
+
+
+
+</ul>
+
+
+
+<p>The second spread gives significantly better defenses on both sides, and an extra Attack point for Explosion.</p>
+
+
+
+<p>So if you want to max out two stats, don't put 252 in both (unless both end in three). Just use as many EVs as are needed to reach its maximum, and then look for other stats that you have enough spare EVs to get an extra point in.</p>
+
+
+
+<h3><a name="special">Special Cases</a></h3>
+
+
+
+<p>Often when using Hidden Power you will lower your IVs, to compensate for this you will need to add an extra 4 Evs for each IV you drop in order to reach the same stat (assuming you are investing in that stat, if you are not the IV drop will rarely affect your stats).</p>
+
+
+
+<p>Nature boosts are applied after EVs, so the table remains the same. However if you are trying to reach 10 in a stat and have a negative nature you will need 76 EVs more than normal, similarly going to 10 or 20 with a positive nature grants two extra points rather than one.</p>
+
+
+
+<h3><a name="formula">Stat Formula</a></h3>
+
+
+
+<p>If you like to do things by hand, then there are equations in which you can find the stat of any Level 5 Pokemon:</p>
+
+
+
+<h4>For HP</h4>
+
+<pre>(((2 x Base + IV + (EV / 4)) x 5 / 100 + 10)</pre>
+
+
+
+<h4>If the stat is not HP:</h4>
+
+<pre>(((2 x Base + IV + (EV / 4)) x 5 / 100 + 5) x Nature)</pre>
+
+
+
+<dl>
+
+
+
+<dt>Base</dt>
+
+<dd>The base stat for that Pokémon.</dd>
+
+<dt>EVs</dt>
+
+<dd>The number of EVs invested in that stat.</dd>
+
+<dt>IVs</dt>
+
+<dd>The IV for that stat (normally 31).</dd>
+
+<dt>Nature</dt>
+
+<dd>1 if the nature is neutral for that stat, 1.1 if it is boosting and 0.9 if it is hindering.</dd>
+
+
+
+</dl>
+
+
+
+<p>Round down the answer to the nearest whole number, and if the stat is HP simply add 10 points to the end result.</p>
+
+
+
+<h4>Some fun facts about stats at Lv. 5:</h4>
+
+
+
+<p>80 EVs = 1 Stat point</p>
+
+<p>1 Base stat Point = 8 EVs</p>
+
+<p>1 IV = 4 EVs</p>
+
+<h2><a name="item">Item Analysis</a></h2>
+
+<p>Just like in OU, there are specific items in Little Cup which are more useful than others. It is very important to know when to use a specific item over another one in such a fast paced metagame, and it is vital to know when an item is going to hurt you, rather than help you.</p>
+
+<h3><a name="effective">The Most Effective Items in Little Cup</a></h3>
+
+<dl>
+
+<dt>Choice Scarf</dt>
+
+<dd>Choice Scarf is possibly the most common item in the metagame. The ability to increase your Speed 50% is incredibly useful, as anything that normally maxes out at 14 Speed has the potential to outspeed every single Pokémon not wearing a Choice Scarf (the highest obtainable un-boosted Speed is 20). Starters, sweepers, and revenge killers are notorious for using Choice Scarves, and usually the only way to beat a Choice Scarf user is with priority, a Focus Sash, or simply by a faster Choice Scarf user. Cranidos and Remoraid (with Hustle) make great Choice Scarf users with their monstrous Attack stats and mediocre Speed. Pokémon such as Magby are used with Choice Scarves to revenge kill Pokémon in the rain or sun, and slower Choice Scarf users.</dd>
+
+
+
+<dt>Damp Rock / Heat Rock / Light Clay</dt>
+
+<dd>Little Cup is fast-paced enough that by the time you use Rain Dance/Sunny Day and switch to a sweeper, only three turns are left, and it's easy for your opponent to stall you out. As such, an extra three turns is incredibly useful, giving you a total of six. Light Clay is similar, because with both screens many Pokémon such as Gligar can set up and sweep or pass quite easily due to natural bulk, but only get 3 turns without Light Clay. Light Clay is often used with Pokémon such as Natu, or even on the odd Abra. All of these items are quite common on Bronzor.</dd>
+
+
+
+<dt>Focus Sash</dt>
+
+<dd>A great Little Cup item that pops up quite often. In OU it is used on frail but powerful Pokémon like Rampardos that could manage to get a Rock Polish in. In LC, it's abused by similar Pokémon, but for the purpose of killing fast Pokémon, but still used to get the set-up move most of the time. There are much more Pokémon in LC than OU that bear Rampardos's characteristics, such as Dratini. This item is also used by Pokémon such as Diglett to revenge kill Pokémon using Choice Scarf. Pokémon can also use Focus Sash to lead, and pretty much any Pokémon can be a usable lead as long as it has a Focus Sash, though Pokémon who have a decent attack stat and are fast or have priority generally do it better than others because they beat other Focus Sash leads. This allows the Pokémon to survive a hit and KO back. Beware of Stealth Rock, which is becoming very common to break the Focus Sashes of Pokémon so that they can't successfully revenge kill sweepers.</dd>
+
+
+
+<dt>Liechi / Petaya / Salac Berry</dt>
+
+<dd>The "pinch" berries are used mainly for those Pokémon with outstanding Attack (or Special Attack) / Speed, but which lack the stat to use the naturally strong stat with. A good example would be Substitute + Petaya Drifloon, which not only appreciates the boost to its mediocre Special Attack, but gets an added kick from Unburden.</dd>
+
+
+
+<dt>Life Orb</dt>
+
+<dd> Is often used on sweepers with the purpose of maximizing type coverage. The Pokémon that use Life Orb are generally fast, strong, have great coverage, or have a powerful priority move to make revenge killing quite difficult. The most common pure attacking sweepers with Life Orb are Elekid, followed by Magby. The mixed priority sweepers who use Life Orb effectively as well include Houndour and Croagunk. This item is as popular as Choice Scarf due to one of the best ways of countering a Choice Scarf Pokémon is with a Life Orb boosted priority attack.</dd>
+
+
+
+<dt>Lum Berry</dt>
+
+<dd>Little Cup is slightly more diversified in its metagame than OU is; that is, you'll see a lot more weather teams, and slightly more Trick Room teams. Because some of the common LC leads use Hypnosis or a lesser status move, teams that rely on set-up will often lead with a Lum Berry Pokémon to ensure they get the turn they need. Leads like Houndour are also common with Lum Berry because of their ability to trap and KO Gastly, another common lead. Pokémon that lead with an Agility, followed by Baton Pass strategy (such as Aipom) are also commonly found using Lum Berry.</dd>
+
+
+
+<dt>Oran Berry</dt>
+
+<dd>The other most common item in LC. If you can't think of a good item to put on your Pokémon, use Oran Berry. While 10 HP was next to nothing in standard, for many LC Pokémon, 10 HP is 50% of their health. Oran Berry is generally seen on walls, stat-uppers, and utility Pokémon.</dd>
+
+
+
+<dt>Toxic / Flame Orb</dt>
+
+<dd>Pokémon that use the ability Guts or Quick Feet can take advantage of status orbs, because it will increase their Attack or Speed respectively, giving an advantage of a Choice Band or Choice Scarf, but with the ability to change attacks, and use an 140 base power Facade. Pokémon such as Taillow and Teddiursa use these items effectively. Flame Orb does not work with Quick Feet well, though, as it still reduces the Attack of the Pokémon. Shroomish can also use the Toxic Orb with its Poison Heal ability.</dd>
+
+</dl>
+
+
+
+<h3><a name="noteffective">Items that are good in OU but not in Little Cup</a></h3>
+
+
+
+<dl>
+
+
+
+<dt>Leftovers</dt>
+
+<dd>Due to the fact that Leftovers heal only a relatively small percentage of your health per turn, it would take 5-10 turns for the majority of Pokémon to achieve the healing powers that one Oran Berry will have in a single use. Therefore, Oran Berry is a much better choice in Little Cup. There are a few exceptions, though. One exception to this is Munchlax with Protect, as it can out heal an Oran Berry after 4 or 5 turns, which is easy to do with Protect. Another is Sub-Seed Pokémon, who out heal Oran in around two turns with Leech Seed + Leftovers + Protect.</dd>
+
+
+
+<dt>Expert Belt</dt>
+
+<dd>Generally used on Pokémon that don't like taking recoil damage. Since the only Pokémon that rely on having lots of type coverage are fast sweepers that don't like getting hit anyway, some Life Orb recoil doesn't affect them as badly. Also, with 19 HP, Pokémon only lose about 6% of their health, which isn't nearly as much of an impact in LC than 10% in standard is. To summarize, Life Orb is always better than Expert Belt.</dd>
+
+
+
+</dl>
+
+
+
+<h3><a name="right">The Right Item for your Pokémon</a></h3>
+
+
+
+<p>A more extreme example is Drifloon. It could use a basic 252 SpA pthe diverse metagame of Little Cup and all the strategies that can be used effectively, it can be difficult to decide what the correct item to assign your Pokémon is. This section will break down some general guidelines regarding the qualities a specific Pokémon should have for each item.</p>
+
+
+
+<h3>Choice Scarf</h3>
+
+
+
+<dl>
+
+
+
+<dt>14 Unboosted Speed</dt>
+
+<dd>This is extremely important when considering using a Choice Scarf. Choice Scarf gives a multiplier boost of 1.5x to Speed, so to outspeed any non-Choice Scarf Pokémon would require an unboosted 14 (14*1.5=21).</dd>
+
+
+
+<dt>Destructive Power</dt>
+
+<dd>Choice Scarf Pokémon will generally want pretty high attack stats and a versatile movepool. Apply the principles for the other Choice items, but instead reverse (Special) Attack and Speed. Pokémon such as Cranidos or Remoraid have very high Attack stats, but are too slow to really use it. This is where Choice Scarf comes in; it allows these Pokémon to boost their Speed and use their hard hitting attacks while outspeeding almost every Pokémon in the metagame, except for those faster Pokémon such as Magby who also use Choice Scarf to revenge kill threats like the previously mentioned Cranidos.</dd>
+
+
+
+</dl>
+
+
+
+<h3>Life Orb</h3>
+
+
+
+<dl>
+
+
+
+<dt>High Attack Stat(s)</dt>
+
+<dd>As you probably could have guessed, Life Orb is used by either powerful mixed attackers, late game sweepers, and Pokémon with powerful priority attacks. Elekid is an excellent example, being strong and fast enough to do serious damage, but having low enough defenses and HP that it would not feel comfortable if a counter switched in. As such, it needs a varied movepool. Pokémon like Houndour use this well, because it can take out all slower Pokémon with a Life Orb boosted Fire Blast, and take out the frail, faster Pokémon with a Life Orb boosted Sucker Punch.</dd>
+
+
+
+<dt>19 HP</dt>
+
+<dd>The mechanics of Life Orb take away 10% of your health with each successful attack, but the damage is rounded down. So 10% of 20 HP is 2 HP per turn, but 10% of 19 is only 1.9. This is rounded down, so you only take 1 point of damage. Good Life Orb users are generally the ones that can manipulate their health to hit that magic number. This is not required, however; it just allows certain Pokémon to keep their health higher and be less vulnerable to revenge killers.</dd>
+
+
+
+</dl>
+
+
+
+<h3>Focus Sash</h3>
+
+
+
+<dl>
+
+
+
+<dt>A Good set-up Pokémon</dt>
+
+<dd>Pokémon that run Focus Sash should be those that are too frail to reliably increase their stats. However, after the boost, frail stats shouldn't matter, as the Pokémon should in theory be able to sweep. Think of Cranidos or Dratini. They have horrible HP and defenses, but high Attack (or move power) and decent Speed. After a Rock Polish or Agility, they should be able to reliably sweep any team, barring priority attacks. This can also include Pokémon that lead, who want to use Stealth Rock first and then live to contribute to the battle later.</dd>
+
+
+
+<dt>Revenge Killing Power</dt>
+
+<dd>Pokémon that are not either a set-up Pokémon with frail defenses or a Counter / Mirror Coat user need to have this aspect to take advantage of a Focus Sash. Pokémon that have trapping abilities, such as Diglett or Trapinch, or trapping moves, such as Pursuit, are good with Focus Sash to make sure your opponent will not switch out. Your Pokémon can also be slower, but this means it needs to hit hard because it only has one chance to KO your opponent's Pokémon. Sending a Pokémon equipped with Focus Sash will often put your opponent between a rock and a hard place. On one hand, your opponent can switch out and have to take two attacks from your Pokémon, but on the other hand, if they stay in, they lose their Pokémon.</dd>
+
+
+
+<dt>Counter / Mirror Coat</dt>
+
+<dd>Counter or Mirror Coat is not a requirement for a Focus Sash user, but it is an excellent strategy. The idea is to bring the Pokémon with Focus Sash into a Pokémon that will easily knock it out. The opposing Pokémon should attack, you survive, and reflect the attack right back. This is rather gimmicky, however, and makes your Pokémon rather useless after it hopefully takes out one Pokémon.</dd>
+
+
+
+</dl>
+
+
+
+<p>A Pokémon can also generally lead quite well when it is equipped with Focus Sash. It allows a Pokémon to nearly always beat another Pokémon without Focus Sash, but there are no requirements for this. Generally faster Pokémon or Pokémon with priority will do this better.</p>
+
+
+
+<h3>Oran Berry</h3>
+
+
+
+<p>There aren't any specific requirements for an Oran Berry user. Usually the item is put on walls to add to their staying power, but this isn't necessary one bit. I personally run a Belly Drum Poliwag with an Oran Berry to heal the damage. Just keep several things in mind about the item itself.</p>
+
+
+
+<p>Many Pokémon such as Natu and Paras carry the attack Pluck or Bug Bite (respectively) to deal with the bulky Pokémon who switch in with Oran Berry. This is something to keep in mind when switching Bronzor into any of these two Pokémon.</p>
+
+
+
+<h3>Liechi / Petaya / Salac Berry</h3>
+
+
+
+<dl>
+
+<dt>Lacks a Necessary Stat</dt>
+
+<dd>The "pinch Berries," as they are called, are a bit trickier to use than other items: not only do you not get their effect right away, you have to be very low of health for them to activate. For the downsides to be worth it, your Pokémon has to have a need for a particular stat. Something like Belly Drum Poliwag is a good example. One hit and a Belly Drum, and your berry will activate. The boost will make you faster than anything without high Speed and a Choice Scarf. And with the Attack increase from Belly Drum, you'll be a force to be reckoned with.</dd>
+
+</dl>
+
+
+
+<h2><a name="common">Common Mistakes Regarding Items</a></h2>
+
+
+
+<h3><a name="oran">Why Oran Berry over Sitrus Berry?</a></h3>
+
+
+
+<p>Sitrus Berry is a better choice when playing competitive OU, because 25% recovery is much more useful than a measly 10 HP. But, in Little Cup, 10 HP will always be more than what 25% would give you. For Sitrus Berry to be as effective as Oran, you'd need a Pokémon with 40 HP, of which there are none.</p>
+
+
+
+<h2><a name="strategies">Common Strategies</a></h2>
+
+
+
+<p>When it comes to Little Cup, there are a handful of strategies that are effective. Immunity, weather, and Trick Room teams are the most common and the most effective kinds of teams in the metagame.</p>
+
+
+
+<h3><a name="immunity">Immunity Teams</a></h3>
+
+
+
+<p>Immunity teams are teams that run off of coming in on resisted or immune attacks. A common example is bringing a Paras, Croagunk, or Poliwag in on a Wailmer's Water Spout, a very deadly move in Little Cup. Pokémon with Levitate are also very common on immunity teams, as they can switch in on an Earthquake, and in most cases, cause the opposing Pokémon to switch out. There are a total of nine immunities in Little Cup: Electric-, Fighting-, Psychic-, Water-, Fire-, Ghost-, Electric-, Normal-, and Ground-type attacks can all be absorbed for nothing, and the best immunity team in Little Cup has eight of the nine immunities. These kinds of teams do not come without fault, though; Elekid, Gastly and Diglett all cause issues. Elekid and Gastly have unresisted type coverage, making them extremely hard to switch into and counter. Diglett can remove key members of your team thanks to its ability, Arena Trap, which locks in your Pokémon to get hit with a STAB Earthquake.</p>
+
+
+
+<p>Field effect teams were very common strategies in Little Cup, but the advent of them has died out. By rule of thumb, rain teams are the best field effect teams in Little Cup. Trick Room comes next, followed by sun teams. Sandstorm teams are only run if you decide to run stall, and hail is rarely ever seen.</p>
+
+
+
+<h3><a name="rain">Rain Dance Teams</a></h3>
+
+
+
+<p>Rain teams are commonly lead by a Voltorb lead, who can set up rain extremely fast and then obtain a 100% accurate STAB Thunder. Bronzor is also very common on rain teams as it has no weaknesses under rain (Fire attacks are weakened under rain, effectively making them a neutral attack) and can also help the rain abusers by setting up Stealth Rock and stopping Snover, who is a pain in the ass for rain teams. As for the common rain abusers, any combination of Kabuto, Omanyte, Buizel, Mantyke, Horsea, Chinchou, and Croagunk are seen on almost all rain teams. Kabuto is the main rain sweeper, boasting unresisted coverage with Rock Slide, Aqua Jet, Waterfall, and Return and STAB boosted priority, which is a godsend in Little Cup. Omanyte, Mantyke, and Chinchou are very deadly special sweepers in rain as they can abuse STAB boosted Hydro Pump, which almost forces people to carry immunities in their team. Chinchou is especially dangerous as it can also carry STAB Thunder in the rain, making it extremely hard to switch in. Croagunk is deadly in the rain as, with Dry Skin, Croagunk will heal damage taken from using Life Orb, allowing it get the boost practically for free. When it comes to countering rain teams, there are a few options. Croagunk, Chinchou, and Munchlax are the main answers to counter rain teams. Though Croagunk and Chinchou are both commonly used on rain teams, they both can come in on boosted Water-type attacks and threaten the sweepers away with either priority attacks in Croagunk's case, or STAB Electric-type attacks, in Chinchou's case. Munchlax is mainly just extremely bulky enough to sustain a hit from a sweeper or two, and hit back with any one of its moves, though it is important to know that special sweepers, like Horsea and Omanyte, can smash right through them.</p>
+
+
+
+<h3><a name="trick">Trick Room Teams</a></h3>
+
+
+
+<p>Trick Room comes with a few more set up Pokémon than most other field effect based teams. Porygon, Shuppet, Duskull, Gastly, Bronzor, Smoochum, and Slowpoke are all very good at setting up Trick Room for other Pokémon. Gastly sets up Trick Room and then Explodes, while Shuppet can set it up and use Destiny Bond to remove another Pokémon from play, at the cost of itself. Smoochum can use Fake Out to remove Focus Sash off of lead Pokémon and then set up Trick Room. Porygon can set up Trick Room well, and attempt to sweep while under the effect of it as well; Slowpoke, on the other hand, can set up Trick Room and then sweep rather easily while it is up. Bronzor plays the same under Trick Room than it does rain; it can help set up Stealth Rock and Trick Room, and if things get dicey, then it can Explode. When it comes to abusing Trick Room, there are a handful of Pokémon which have the raw enough power to abuse it fully. Mixed Porygon, Lickitung, Krabby, Cubone, Munchlax, and Cranidos are the most common sweepers to use under the effects of Trick Room. Porygon, if you are not using it to set up, can use Download and hit everything in Little Cup for massive damage with Return, Thunderbolt, Ice Beam, and Shadow Ball. Munchlax is one of the slowest Pokémon in the metagame and can abuse its high base Attack stat along with its wide variety of moves to "put the hurt" on almost anything that switches in. Cranidos has the very important ability, Mold Breaker, which nullifies any ability that hinders attacks, and because of this, Cranidos can hit Pokémon with the Levitate ability with a powerful Earthquake and hit Flying-types with STAB Head Smash. Cubone comes with its unique item, Thick Club, which boosts its Attack stat extremely high. When given the moves Earthquake, Fire Punch, and Rock Slide, Cubone can 2HKO everything; if it is also given Swords Dance, it can OHKO everything but Duskull. Lickitung runs a mixed set much like our friend, Porygon, but unlike Porygon, Lickitung has a bit more bulk and a bit less Attack, but the thing Lickitung carries over Porygon is the ability to both use Swords Dance and Selfdestruct. Krabby is an excellent physical attacker as it carries unresisted type coverage thanks to Return and STAB Crabhammer; it can also become even more potent thanks to Swords Dance. </p>
+
+
+
+<h3><a name="sun">Sunny Day Teams</a></h3>
+
+
+
+<p>Sunny Day is the third most used field effect in the Little Cup metagame, but it is still a very effective strategy. The main problem with Sunny Day teams is that it is difficult to find effective Pokémon that can set it up throughout a game, so getting a fast sweep with the few sweepers you have is key. Koffing, Stunky, and Diglett are very good Sunny Day set up Pokémon. Diglett comes in as a lead, being able to Protect on a Fake Out while setting down Stealth Rock and setting up Sunny Day. Koffing and Stunky both run the same kind of idea; they set up Sunny Day and then Explode on a Pokémon to give their sweepers a free switch in. The sweepers in sun are very obvious: Oddish, Bellsprout, Exeggcute, Ponyta, Hoppip and Houndour. Oddish, Bellsprout, and Exeggcute all get Sleep Powder, which they can fire off quickly due to Chlorophyll, and they also get a no charge SolarBeam. If any of the Grass-type sweepers are given Hidden Power Fire, then Bronzor, which can easily come in on the STAB Grass-type attacks, will no longer stand in your way of an effective sweep. Bellsprout can also act as a physical sweeper due to it getting Swords Dance and the priority move, Sucker Punch, which can help beat Ghost-type Pokémon when the sun is not shining. Houndour is an effective Choice Scarf Pokémon in the sun, as its STAB Fire-type attacks get a boost, making even resisted attacks hit for neutral damage. Ponyta can run a similar set in the sun, but it doesn't need Choice Scarf due to it already being extremely fast by itself. When it comes to countering sun, it becomes pretty easy. Houndour and Munchlax are pretty much "true counters" as they can take whatever the Pokémon throw at them and hit back with moves of their own. If Houndour is given Substitute with either Hidden Power Fighting or Ground then not even opposing Houndour can stop it. Munchlax can shrug off most of the attacks that are thrown at it and can hit back with STAB Return or Fire Punch.</p>
+
+
+
+<h3><a name="sand">Sandstorm</a></h3>
+
+
+
+<p>Sandstorm teams are the least common field effect team you will find, mostly since it has to do with stall. Stall teams are very difficult to pull off in Little Cup as since it is such an offensive metagame, it is difficult to find time to set down Spikes and force your opponent to switch enough to cause residual damage. Obviously when making a stall teams based around sand, having a Hippopotas lead which can set up Stealth Rock and also start the sandstorm is key. Duskull is also a staple in sandstorm stall teams. It is one of the few Pokémon which can be called a counter to Gligar. Munchlax can also be brought in due to it being one of the bulkiest Pokémon in Little Cup and as a Ghost counter. Spikes, as we all know, is key in a stall team, and in Little Cup there is no exception to that. Omanyte and Pineco are the common Pokémon which set down Spikes. The advantage Omanyte brings is that it is not weak to Stealth Rock, but the disadvantage it bears is that it can not use Rapid Spin. Pineco is the exact opposite: it is weak to Stealth Rock, but it can also use Rapid Spin to remove it from the field. The choice is obviously dependent upon you and the team you build. Bronzor is another staple in stall teams, having a vast amount of resistances, and helping counter both Gligar and Elekid if they are both being extremely annoying. As for the final Pokémon on stall teams, Lileep can stall like no other Pokémon in sandstorm. With Stockpile, Recover, and Toxic, Lileep can stall out teams with little to no threat to itself. Though, being careful of Swords Dance Gligar could help in the long run as Lileep will not be able to stand the boosted hits too well. Diglett gives stall teams issues as it can trap important members of the team and OHKO them with STAB Earthquake.</p>
+
+<h2><a name="pomeg">Pomeg Glitch</a></h2>
+
+<h3><a name="overview">Overview</a></h3>
+
+<p>In the Emerald version, the Pomeg Berry can reduce your Pokemon's HP EVs when used. If you use a Pomeg Berry in the correct situation as described below, you can trick the game into letting you travel with only fainted Pokemon and Eggs in your party. This glitch enables you to battle with an Egg, level it up in the process, and gain high-level moves that normally cannot be passed down to genderless Pokemon and event Pokemon that come in Eggs. This glitch also allows you to evolve certain Pokemon, but that is beyond the scope of Little Cup. In the DS games, the Pomeg glitch is unproductive, as any attempt to enter a trainer battle while performing the glitch will result in freezing the game.</p>
+
+<h3><a name="setup">Set-Up</a></h3>
+
+<p>To start, one should have a high-level Pokemon with HP EVs such that when a Pomeg Berry is used and removes 10 EVs, the Pokemon loses more than one hit point. Before diving into the glitch, you need to reduce the high-level Pokemon's HP low enough so the Pomeg Berry removes more hit points than the Pokemon has. Sample methods of doing so are using Substitute, walking around while poisoned (don't forget to remove the poison once you are low enough), and the less-recommended methods of Belly Drum or having a Ghost use Curse. When you are ready to perform the glitch, place the Egg in the lead team slot and only have your low-HP Pokemon in the party. Use the Pomeg Berry on the low-HP Pokemon, and its current HP should become ?35 or something similar. If the glitch is performed correctly, the Pomeg Berry causes the Pokemon's HP to become negative and underflow to 65535. From here, save and reset. At this point using a healing item will bring the underflowed Pokemon back to 0. You now have no Pokemon that are normally eligible to battle in your party.</p>
+
+<h3><a name="battling">Battling with the Egg</a></h3>
+
+<p>When you get into battle, the game will see no eligible Pokemon and send out the Egg to battle. The backsprite will be that of the Pokemon inside the Egg except with the Egg's color palette (white, green, and red). The Egg will be able to battle and gain experience as though it were hatched. However, you should use a Revive during the first turn of such a battle. At the end of the first turn, the game will notice that you have no Pokemon normally eligible to battle and will trigger the whiteout sequence. Repeated use of the glitch allows you to train your Egg, gain level-up moves, and possibly even evolve!</p>
+
+<p>The best source of experience for Eggs is a secret base (or multiple bases). By mixing records with another Ruby, Sapphire, or Emerald game with a secret base, you can visit that game's secret base and battle the CPU with that game's party once per day. A party consisting of six Level 100 Latios knowing only Memento will yield the most experience points with minimal battling effort. The Emerald cloning glitch can help with obtaining Rare Candies and duplicating the Level 100 Pokemon. If you do not have access to Latios, Gardevoir with Memento (obtainable as an Egg move) yields almost as many experience points. The only caveat is that Memento will not knock out the Latios or Gardevoir if both your Attack and Special Attack are at -6 (which happens after being affected by three Mementos). This can be remedied by using an X Special or the more expensive X Attack each turn after the third Memento to restore your stat so Memento can reduce it again.</p>
+
+<p>For level-up moves obtainable in Fire Red and Leaf Green only, you can trade a Pokemon with underflowed HP from Emerald to Fire Red or Leaf Green and proceed with the glitch as though it were Emerald. It is recommended to do most Egg training in Emerald first because Fire Red and Leaf Green do not have secret bases and obtaining a Pokemon with underflowed HP in those games is more difficult.</p>
+
+<h3><a name="hatch">Hatch!</a></h3>
+
+<p>When the Egg hatches, it will revert to Level 5 but will stay evolved if it evolved as an Egg and more importantly will keep any moves it gained in the Egg. This is especially handy for obtaining advanced level-up moves on Little Cup eligible genderless Pokemon, such as Tri Attack Porygon and Hydro Pump Staryu.</p>
+
+
+<h2><a name="team">Common Standard Team</a></h2>
+
+<p><img src="/download/sprites/dp/66.png" alt="" /><br />
+Machop @ Oran Berry<br />
+Ability: No Guard<br />
+EVs: 116 HP / 196 Atk / 36 Def / 76 SpD / 76 Spe<br />
+Nature: Adamant (+Atk, -SpA)<br />
+- Dynamicpunch<br />
+- Ice Punch<br />
+- Payback<br />
+- Bullet Punch</p>
+
+<p>Machop is chosen for its ability to beat many common leads. It usually keeps Stealth Rock off the field, which is good for the whole team, especially for Mantyke. DynamicPunch can be abused with No Guard, while Ice Punch and Payback hit Gligar and Gastly respectively. Bullet Punch rounds out the set with priority, which lets Machop beat leads that carry Focus Sash, as well as revenge Pokemon mid-game.</p>
+
+<p><img src="/download/sprites/dp/441.png" alt="" /><br />
+Bronzor @ Oran Berry<br />
+Ability: Levitate<br />
+EVs: 220 HP / 4 Atk / 158 Def / 4 SpA / 68 SpD / 12 Spe<br />
+Nature: Relaxed (+Def, -Spe)<br />
+- Stealth Rock<br />
+- Earthquake<br />
+- Psychic<br />
+- Light Screen</p>
+
+<p>Bronzor is the team's main Gligar counter, as well as a good defensive pivot. It is able to switch into Aipom and Meowth, two leads that can beat Machop, and set up Stealth Rock against them. Earthquake hits Chinchou and Houndour for lots of damage, while STAB Psychic hits Gastly and Gligar. Light Screen is chosen as the fourth move so opposing Mantyke cannot set up on Bronzor, and it generally helps protect the team against special attacking threats.</p>
+
+<p><img src="/download/sprites/dp/439.png" alt="" /><br />
+Stunky @ Life Orb<br />
+Ability: Aftermath<br />
+EVs: 12 HP / 252 Atk / 244 Spe<br />
+Nature: Jolly (+Spe, -SpA)<br />
+- Crunch<br />
+- Sucker Punch<br />
+- Explosion<br />
+- Hidden Power Ground</p>
+
+<p>Stunky is the team's switch-in to Ghost-types, mainly Gastly. With Crunch and Sucker Punch, Stunky can threaten many Pokemon before, and even after they set-up. Sucker Punch also allows Stunky to revenge kill many Pokemon, such as Chinchou and Mantyke. Since Stunky can scare off Ghost-type Pokemon thanks to its Dark-type STAB, Explosion will almost always KO an opposing Pokemon. Hidden Power Ground OHKOes Aron, who otherwise could come in on Stunky for free and proceed to set up Rock Polish or crush Stunky with Head Smash.</p>
+
+<p><img src="/download/sprites/dp/92.png" alt="" /><br />
+Gastly @ Leftovers<br />
+Ability: Levitate<br />
+EVs: 36 Def / 196 SpA / 76 SpD / 196 Spe<br />
+Nature: Timid (+Spe, -Atk)<br />
+- Substitute<br />
+- Hypnosis<br />
+- Shadow Ball<br />
+- Sludge Bomb</p>
+
+<p>Substitute Gastly is relatively easy to use and is the team's main Machop/Fighting-type check. With Substitute and Hypnosis, Gastly can neutralize many of its common switch-ins and checks, such as Houndour, Pokemon with Sucker Punch, and Munchlax. Shadow Ball and Sludge Bomb are STAB attacks and hit a majority of the metagame very hard.</p>
+
+<p><img src="/download/sprites/dp/463.png" alt="" /><br />
+Mantyke @ Oran Berry<br />
+Ability: Swift Swim<br />
+EVs: 76 HP / 36 Def / 200 SpA / 196 Spe <br />
+Nature: Modest (+SpA, -Atk)<br />
+- Rain Dance<br />
+- Hydro Pump<br />
+- Ice Beam<br />
+- Hidden Power Grass / Hidden Power Electric</p>
+
+<p>When it israining, Mantyke becomes a very powerful threat. STAB Hydro Pump boosted by the rain will severely hurt any Pokemon it hits for neutral damage. Ice Beam and the Hidden Power of your choice round out the set's coverage, hitting Pokemon that resist or are immune to Hydro Pump. Hidden Power Grass hits Chinchou, while Hidden Power Electric hits opposing Mantyke.</p>
+
+<p><img src="/download/sprites/dp/458.png" alt="" /><br />
+Croagunk @ Life Orb<br />
+Ability: Dry Skin<br />
+EVs: 108 Atk / 188 SpA / 196 Spe <br />
+Nature: Hasty (+Spe, -Def)<br />
+- Vacuum Wave<br />
+- Earthquake<br />
+- Dark Pulse<br />
+- Ice Punch</p>
+
+<p>Mixed Croagunk is the glue of the team, checking many threats that the rest of the team can't. STAB Vacuum Wave makes Croagunk a solid revenge killer, and means Aron will not be an issue for the team. Dark Pulse hits Gastly switch-ins, and makes it so that Wynaut can't beat Croagunk too easily. Ice Punch hits Flying-types like Gligar that resist Vacuum Wave. Earthquake kills opposing Croagunk, who will usually be slower since this Croagunk runs max Speed. Earthquake also prevents Chinchou from setting up easily.</p>
+
+<h2><a name="pokemon">Popular Little Cup Pokemon</a></h2>
+
+<p><img src="/download/sprites/dp/451.png" alt="" /><br />
+Munchlax</p>
+
+<p>Munchlax is the best Pokemon in Little Cup for taking special attacks thanks to its impressive stat spread of 135 HP / 40 Def / 85 SpD. Thick Fat only adds to its impressive defensive abilities, turning Fire- and Ice-type attacks into resisted attacks. With an Attack stat of 85 and STAB Return, Munchlax can also severely hurt many Pokemon. Munchlax is capable of stopping and crushing of LC, such as Gastly, Mantyke, and Houndour. Even the most powerful special attackers Munchlax does have some shortcomings though. It is the slowest Pokemon in the tier, with a base Speed of 5, and although it has an enormous HP stat, it still can't take many physical hits, and powerful physical attackers, such as Machop and Gligar, are big threats to Munchlax.</p>
+
+<p><img src="/download/sprites/dp/441.png" alt="" /><br />
+Bronzor</p>
+
+<p>Bronzor is an excellent wall in Little Cup, thanks to its bulk and single weakness. Bronzor has the ability to aid your team in many ways, such as by setting up Stealth Rock, setting up Rain, and even setting up dual screens. Bronzor has the ability to use physical and special moves, so it can be unpredictable at times.</p>
+
+<p><img src="/download/sprites/dp/454.png" alt="" /><br />
+Hippopotas</p>
+
+<p>Hippopotas has a unique niche in the Little Cup world, being the only Pokemon in the metagame that can set up permanent Sandstorm. This not only makes Hippopotas useful in and of itself, but it also enables different playstyles and team types. Hippopotas is a staple on stall teams for its great bulk, access to support moves like Stealth Rock, Yawn, and Slack Off, and also because the constant damage from Sandstorm is so useful to these types of teams. Sandstorm does 6.25% damage to any non-Rock-, Ground-, or Steel-type Pokemon, meaning that stall teams can wear down their opponents much quicker than they would be able to otherwise. Sandstorm also gives Rock-types a 50% boost in Special Defense, making Pokemon like Lileep much more viable.</p>
+
+<p><img src="/download/sprites/dp/355.png" alt="" /><br />
+Duskull</p>
+
+<p>Duskull is one of the premier defensive Pokemon in the game thanks to what is likely the best defensive typing in Little Cup, Ghost, and excellent defenses. Ghost typing, especially with Levitate, is great for switching in on the ever-present Normal-, Fighting-, and Ground-type moves, ; but one of Duskull's greatest weapons is Will-O-Wisp. Burn is likely the most crippling status for any physical attacker, effectively neutering it for the rest of the match. Duskull also gets some useful moves in Pain Split, for healing up, and Shadow Sneak, which can, like almost any priority move, prove to be very valuable.</p>
+
+<p><img src="/download/sprites/dp/464.png" alt="" /><br />
+Snover</p>
+
+<p>Snover is one of the most unique and valuable Pokemon in Little Cup thanks to its well rounded stats, but more importantly: Snow Warning. Snow Warning lets the user dictate the tempo of the game thanks to hail hitting 6.25% damage on most Pokemon every turn. Hail also has other benefits such as breaking Focus Sashes, which can turn turn the tide of battle if the opponent was relying on it staying intact. The final added positive effect of hail is a 100% accurate Blizzard. Blizzard can be very taxing on the opponent with its good coverage and massive power. Even with hail aside, Snover is still a very good Pokemon. It has access to very powerful STAB attacks such as Blizzard and Wood Hammer, and can use them both effectively thanks to its equal Attack and Special Attack stats. Plus, it gets Ice Shard, which is very useful for revenge killing. However, Snover does have its drawbacks, first and foremost of which is its poor Speed and defensive stats. Without Choice Scarf attached, it will almost never be sweeping due to being outpaced by a large portion of the metagame. It also has poor defensive typing, which riddles it with weaknesses to common attacks without the benefit of numerous resistances.</p>
+
+<p><img src="/download/sprites/dp/66.png" alt="" /><br />
+Machop</p>
+
+<p>Machop's claim to fame is undoubtedly its ability; No Guard. With No Guard, attacks used by or aimed at Machop will never miss. This means that Machop's Dynamicpunch, which normally hits 50% of the time, is now 100% accurate. Because of this, Machop becomes a very effective Choice Scarf user and can be very difficult to bring down thanks to the Speed boost, good bulk, and the confusion caused by Dynamicpunch. It also makes an effective lead, being beaten by very little opposing leads and normally giving the user an advantage. However, outside of those two roles, Machop has little use.</p>
+
+<p><img src="/download/sprites/dp/239.png" alt="" /><br />
+Elekid</p>
+
+<p>Speed is paramount in Little Cup, and Elekid is one of the fastest Pokemon around. It reaches 20 Speed with max Speed, which allows Elekid to outspeed every unboosted Pokemon in Little Cup, bar Voltorb and Diglett. With its great Speed, Elekid becomes a very prominent sweeper, even with the lack of stat-up moves. Elekid has decent attacking stats, and has a fairly deep movepool to go along with it. Elekid's most common set is a physical set with ThunderPunch, Ice Punch, Cross Chop, and Quick Attack. ThunderPunch is Elekid's main STAB and strongest attack, whereas Ice Punch and Cross Chop provide coverage (on Gligar and Munchlax in particular), and Quick Attack is generally a very good move, as is any priority attack in Little Cup. A mixed set is less common but it does have the benefit of having Thunderbolt, which on its own is much stronger than ThunderPunch. A purely special set is much less viable because Elekid's special movepool is very shallow when compared to its physical one. Another one of Elekid's perks is its ability; Static. When hit with a physical attack, even if Elekid faints, it has a 30% chance of paralyzing the opponent, effectively crippling it.</p>
+
+<p><img src="/download/sprites/dp/318.png" alt="" /><br />
+Carvanha</p>
+
+<p>Substitute is one of the most game changing moves in Little Cup, and Carvanha is among the best users of it. Almost nothing in Little Cup can survive two hits from Carvanha, so it is almost guaranteed a KO when it gets a Substitute up. Carvanha has access to the strongest Aqua Jet in Little Cup, which helps make up for its semi-mediocre Speed. It also has access to strong STAB moves in Crunch and Waterfall. Carvanha can go entirely physical or mixed with access to Hydro Pump and Ice Beam, and it's a fantastic user of Choice Scarf. Speaking of mixed sets, Carvanha can also run a non-Scarf mixed set; however, it is generally inferior to the standard SubVanha set. Since Carvanha has some the worst defenses in the game, it is very vulnerable to faster Pokemon and priority without a Substitute. Watch out for this little frail fish, as it can certainly be very rough (skinned) if you are unprepared.</p>
+
+<p><img src="/download/sprites/dp/304.png" alt="" /><br />
+Aron</p>
+
+<p>Aron can be a very good sweeper in Little Cup. With access to Rock Polish to fix its poor Speed and a very powerful Head Smash (which does not inflict recoil due to Rock Head), Aron manages to OHKO nearly everything in Little Cup. Earthquake complements Head Smash well, while Aron has access to additional options such as Iron Head and Superpower for coverage. Aron's typing leaves it weak to many common attacking types, such as Ground, Water, and Fighting. This makes it somewhat difficult for Aron to set up; however, it can use Magnet Rise to temporarily remove its weakness to Ground, giving it the ability to set up on slow Pokemon such as Munchlax and Trapinch. Aron also functions very well in Trick Room, being able to switch in on many attacks due to its very good Defense stat and many resists afforded by its typing. From there, it can fire off its deadly Head Smash. Aron is easily revenge killed by faster Pokemon with Choice Scarf, such as Scarf Gligar and Scarf Diglett. Priority users, especially those with Fighting- and Water-type priority attacks, can easily revenge Aron e ven after a Rock Polish. Aron is easily stopped if you don't let it set up; however, be wary of its powerful Head Smash.</p>
+
+<p><img src="/download/sprites/dp/207.png" alt="" /><br />
+Gligar</p>
+
+<p>Gligar is one of the top threats in the Little Cup metagame and it's not hard to see why. It has very good 65 / 105 / 65 defenses, and one of the best defensive typings to go with it. Not only that, but Gligar is one of the fastest Pokemon in Little Cup, topping out at 19 Speed, and a good 75 Attack to go with it. But what really sets Gligar apart is its versatility. At any time, Gligar can easily be running one of seven sets, each of which presents a unique threat. It can run a sweeping set with Agility, a wall-breaking set with Swords Dance, a revenge killing or scouting set with Choice Scarf, among others. Common attacks that Gligar may carry are Earthquake, Aqua Tail, Stone Edge, Aerial Ace, Night Slash, or U-turn. While Gligar is very threatening, it's not impossible to handle. Bronzor is Gligar's best counter, being able to take any hit with ease and OHKO back with Hidden Power Ice. Other counters include Snover and Duskull.</p>
+
+<p><img src="/download/sprites/dp/228.png" alt="" /><br />
+Houndour</p>
+
+<p>Houndour's good attacking stats on both sides, great dual STAB, two convenient immunities, and access to a strong priority move in make it a powerful and useful staple of the Little Cup metagame. With a Flash Fire boost, Houndour's STAB Fire Blast is capable of putting a very large hole in the vast majority of the tier. Substitute is a great tool to ease prediction on a Life Orb set, while Choice Scarf Houndour is a strong revenge killer and sweeper once Munchlax is eliminated. A Focus Sash lead is also excellent with Overheat OHKOing standard Phanpy and Lead Machop; it can also lure in Munchlax and smack it with a boosted Reversal from 1 Sucker Punch HP.</p>
+
+<p>Houndour does have its disadvantages, however. It is not fast, especially with significant investment in both attacking stats, and Sucker Punch can easily be played around. Moreover, its counters—Munchlax especially—are common, and it cannot switch in and out of them repeatedly due to a debilitating Rock-type weakness. Combine this with its frailty and mounting Life Orb recoil, and it's easy to see why Houndour may not last long. However, it is still extremely effective and quite capable of eviscerating opposing teams before going down.</p>
+
+<p><img src="/download/sprites/dp/92.png" alt="" /><br />
+Gastly</p>
+
+<p>While Gastly falls a point short of the crucial 19 Speed tier, and is incredibly fragile defensively, it is nevertheless a potent sweeper in Little Cup. Its three immunities allow it a multitude of easy switch-ins on the frequently Choiced Gligar, Machop, Mankey, and Eevee, and its almost unparalleled Special Attack lets it take advantage of and cause massive damage to the opposing team. Moreover, Gastly's Ghost and Poison STABs provide much better coverage in Little Cup than they do in other tiers.</p>
+
+<p>Gastly is also relatively versatile; its Scarf set is an excellent revenge killer and cleaner, as well as being one of the only checks to Dragon Dance Dratini. Substitute sets, often with Life Orb, can let Gastly take advantage of being able to come in for free on Fighting-, Ground-, and Normal-type attacks, as well as protecting it from the likes of Munchlax and Stunky. Hypnosis and Explosion are both viable options which can incapacitate an enemy, while Sucker Punch is a decent revenge killing tool for other Ghost-types despite Gastly's low Attack stat.</p>
+
+<p><img src="/download/sprites/dp/458.png" alt="" /><br />
+Croagunk</p>
+
+<p>Despite unassuming stats, Croagunk has a vital role in many Little Cup teams thanks to its movepool, typing, and ability. With Fake Out, Sucker Punch, and Vacuum Wave, it has no shortage of strong priority options and this allows it to function as an exemplary revenge killer, even to Speed-boosting sweepers like Chinchou and Aron. Its immunity to Water-type attacks let it sponge powerful attacks from the likes of Mantyke, Chinchou, and Remoraid before retaliating with priority moves. Croagunk is also useful insurance against the threat of Rain Dance— - it can stall out turns of rain with Fake Out, kill off sweepers with its priority moves, and switch into powerful boosted Surfs which few other Pokemon can take. While it does suffer from being checked by the two most common Pokemon in the tier, Gligar and Gastly, Croagunk can take advantage of this by luring them out before hitting them with Ice Punch or Dark Pulse on the switch, respectively. This can clear the way for other dangerous sweepers on your team, such as Machop or Mankey. Nasty Plot is also an option, as Croagunk's Vacuum Waves can be dangerous after a boost, but the set is slow and plenty of opposing sweepers can take a +2 Vacuum Wave and OHKO back. Overall, Croagunk has a strong niche and can hold together teams against a huge variety of dangerous threats.</p>
+
+<p><img src="/download/sprites/dp/147.png" alt="" /><br />
+Dratini</p>
+
+<p>Prior to the release of HGSS, Dratini was largely seen as being outclassed by its fellow dragon, Bagon. However, this all changed thanks to Dratini getting an excellent tool for sweeping and revenge killing in ExtremeSpeed. Dratini is best used as a Dragon Dancer, letting it outspeed all unboosted Pokemon in Little Cup.</p>
+
+<p><img src="/download/sprites/dp/56.png" alt="" /><br />
+Mankey</p>
+
+<p>Mankey is pretty much always seen as a Choice Scarfer, and it's one of the best around. It has a very high Attack stat, and Choice Scarf makes up for its middling Speed. Mankey packs a deadly STAB in Close Combat, which hits for effectively 180 Base Power once the STAB boost is factored in, while the only downside is a drop in defenses, which is not a big issue for a Choice Scarf Pokemon. Now, while having an excellent STAB is great, there are many Pokemon in Little Cup that resist or are immune to Fighting-type attacks. Fortunately, Mankey has good coverage attacks to make up for this. Ice Punch can give Mankey coverage against common Pokemon such as Gligar. Ghost-type Pokemon are also common in Little Cup, so Mankey commonly runs either Payback or Punishment to hit them for super effective damage. Another thing that makes Mankey such a great Choice Scarf user is U-turn. U-turn lets Mankey scout for its potential counters as well as potential counters of other members of the team. Vital Spirit is a great ability for Mankey, meaning that often times it can switch in on Paras, Meowth, or Venonat for free.</p>
+
+<p><img src="/download/sprites/dp/170.png" alt="" /><br />
+Chinchou</p>
+
+<p>Chinchou is an excellent Water-type in Little Cup with great STABs, decent Special Attack, and very good bulk. Chinchou is most commonly seen as a sweeper and is a very effective one at that. While Chinchou has relatively low Speed for a sweeper, it has the option of boosting it with Agility. Chinchou is easily capable of outspeeding all Choice Scarf users after an Agility, and can be very difficult to take down after it does. Its good bulk means it is difficult to wear down through priority and it can even take some hits fairly well if it is unable to take down its target the first turn. The best answer to such a set is probably Snover, who can take most of Chinchou's attacks (unless it is using Hidden Power Fire, which few do) and deal very sizable damage back with its Grass-type move of its choice. Munchlax makes for another good counter, being able to take Chinchou's attacks and KO back with Earthquake. Thanks to Chinchou's bulk and very good defensive typing it can also make good use of a defensive set. It can check a large amount of the metagame; fast, frail sweepers in particular. Chinchou is also commonly seen holding the item Choice Scarf, and can make good use of it with its decent Speed and Special Attack, as well as an excellent special movepool.</p>
+
+<p><img src="/download/sprites/dp/120.png" alt="" /><br />
+Staryu</p>
+
+<p>Staryu is one of the best late-game cleaners in the Little Cup metagame. Reaching 19 speed, boasting 16 Special Attack, having an exceptional movepool, and neutrality to all priority moves, Staryu is a formidable threat. One of Staryu's biggest assets is its access to STAB Hydro Pump, with which it is able to OHKO many common threats in the Little Cup metagame. In addition to this, it has access to many other offensive moves, such as Thunderbolt and Ice Beam, and is often seen with HP Ground. Together, these moves give Staryu superb type coverage. Staryu also has access to instant recovery in the form of Recover, and it also makes an excellent support Pokemon due to Rapid Spin. Staryu's high Special Attack and Speed make it one of the best Rapid Spinners in the Metagame, removing entry hazards such as Stealth Rock and Spikes from its side of the field, allowing other sweepers to switch in for free. The ability Natural Cure allows Staryu to function as a status absorber for teams thatare weak to status effects such as sleep.</p>
+
+<p><img src="/download/sprites/dp/360.png" alt="" /><br />
+Wynaut</p>
+
+<p>Wynaut is certainly an oddball compared to all of the other Pokemon in Little Cup, not having a single attacking move in its movepool. Instead, it has just enough moves to be one of the most useful support Pokemon in Little Cup. Almost all Wynaut have the following three moves: Counter, Mirror Coat, and Encore. The first two moves make it very easy for Wynaut to dispose of most Pokemon it wants to, and Encore is an excellent move to aid in set up of other Pokemon. The true strength of Wynaut, however, lies in its ability; Shadow Tag. Shadow Tag lets Wynaut trap any Pokemon it wants to, making it easier to abuse Encore, Counter, and Mirror Coat. Wynaut has two roles it can do better than any other Pokemon: disposing of Choice Scarf users and giving another Pokemon a free turn of set up.</p>
+
+<p><img src="/download/sprites/dp/240.png" alt="" /><br />
+Magby</p>
+
+<p>With its 75/70/83 offensive stats, powerful STAB moves, and excellent coverage moves, Magby can be extremely hard for an opposing team to handle. Magby is often used as a lure in the metagame, since it generally brings out a few specific Pokemon. Some common Pokemon Magby lures out are Houndour, Chinchou, and Mantyke. Magby can actually beat all three, with the right coverage moves. ThunderPunch allows it to beat any Water-type besides Chinchou, while Hidden Power Grass beats Water-types that aren't named Mantyke. In addition, Magby has the choice between Cross Chop and Mach Punch. Cross Chop OHKOs Munchlax and severely dents Chinchou, while Mach Punch allows it to kill Houndour reliably. Once these Pokemon have fainted, or at least have beenMagby can avoid most Sucker Punches with its high Speed, and will attack first more often than not. severely damaged, Magby can be easily sacrificed to allow another dangerous sweeper to come in. Pokemon who benefit from this are Gastly, Paras, Carvanha, and other Houndour. However, the downside to Magby is that if Stealth Rock is up, it is limited in switching because it will take 25% damage on each switch in. In addition, Magby has the same defensive stats as Elekid (45/37/55), which means that any strong attack, resisted or not, will severely hurt it. The good thing is that with Mach Punch</p>
+
+<p><img src="/download/sprites/dp/50.png" alt="" /><br />
+Diglett</p>
+
+<p>Diglett is a very interesting Pokemon in Little Cup being tied for the fastest Speed along with being able to trap all non Flying-type or Levitating foes with Arena Trap. Diglett is one of the premier leads in Little Cup, thanks to its ability to always set up Stealth Rock, unless you lose a speed tie with a Taunting Voltorb. To go along with this, if the opponent is at a major disadvantage, they are most likely unable to switch out thanks to Arena Trap. Diglett also makes a very competent revenge killer thanks to the previously mentioned Speed and ability, and thanks to its Speed it isn't forced to run Choice Scarf as many revenge killers are. Diglett also has access to Sucker Punch which can be very useful, particularly when revenge killing Pokemon with Choice Scarf, or ones that have boosted their Speed through other means, such as Agility or Dragon Dance.</p>
+
+<p><img src="/download/sprites/dp/463.png" alt="" /><br />
+Mantyke</p>
+
+<p>Mantyke can serve as an excellent sweeper with two powerful tools in its arsenal; Swift Swim and Agility. Rain not only doubles Mantyke's Speed, but it boosts its already powerful STAB Hydro Pump. Along with its good Special Attack, this makes it a fantastic asset on Rain Dance teams as well as being a stand alone sweeper. Agility can also be used to boost Mantyke's Speed, allowing it to be useful outside of rain. Agility means that Mantyke can also use the ability Water Absorb, which can be very useful, especially because of Mantyke's Stealth Rock weakness. Chinchou is Mantyke's best counter, being able to take any of Mantyke's attacks and OHKO back with STAB Thunderbolt. Munchlax can also make a good counter, but it takes massive amounts of damage from STAB Hydro Pump in the rain, so while it can beat it, Munchlax will be severely crippled.</p>
+
+<p><img src="/download/sprites/dp/276.png" alt="" /><br />
+Tailow</p>
+
+<p>Taillow can be a very dangerous sweeper in Little Cup thanks to its ability, Guts, and its very high Speed. There are some Pokemon who can outspeed Taillow, but it can use Quick Attack, which hits very hard when boosted by STAB and Guts. It does have an unfortunate weakness to Stealth Rock making it much more difficult to switch in repeatedly. Steel-types do a very good job walling Taillow thanks to resisting both of its STABs. Likewise, Rock-types also can accomplish this, as most of them have a high Defense stat as well. Choice Scarf Gastly is an excellent choice to revenge kill Taillow, thanks to being faster and possessing an immunity to Quick Attack, however it can only be used to revenge, due to not being able to switch in on Taillow's Flying-type attacks such as Brave Bird or Pluck.</p>
+
+<p><img src="/download/sprites/dp/137.png" alt="" /><br />
+Porygon</p>
+
+<p>Porygon has one of the best overall stat spreads in Little Cup, letting it accomplish a variety of goals. One of Porygon's most common sets is one with a bulky spread and Choice Specs. With max Special Attack EVs and a Modest nature, Choice Specs Porygon reaches a massive 28 Special Attack. This makes it a very capable wall breaker, and it can also tank hits fairly well, thanks to its excellent bulk. Porygon also has the option of sweeping if it wants to. It has a great stat-up move in Agility, skyrocketing its Speed, and possibly sweeping unprepared teams. Another way Porygon can sweep or revenge kill opposing Pokemon is with Choice Scarf. Porygon can reach 21 Speed with Choice Scarf attached, letting it outspeed all unboosted Pokemon in Little Cup. Porygon is also one of the few Pokemon in Little Cup that can set up Trick Room, and is an excellent candidate to do so thanks to its low Speed and neutrality to Dark-type attacks. Unfortunately, Porygon can have a tough time setting up anything because of how common Fighting-type attacks are and because Porygon has no resistances at all.</p>
+
+<p><img src="/download/sprites/dp/52.png" alt="" /><br />
+Meowth</p>
+
+<p>While Meowth's offensive stats may look too poor to utilize Fake Out effectively, Technician and STAB boost Fake Out's power to decent levels. Meowth is often seen in the lead position carrying Fake Out, Return, U-turn, and either Bite to hit Ghost-types or Seed Bomb to hit the common Kabuto and Phanpy. Note that Bite also receives a boost from Technician. Meowth may also carry Hypnosis in an attempt to disable one of its counters. Focus Sash is generally the preferred item, since it allows Meowth to get off at least one attack, whereas Life Orb may also be used to even further raise Fake Out's damage. While Meowth's initial damage output may be high, it finds itself in trouble against especially bulky Pokemon such as Gligar, Bronzor, and Phanpy (if it lacks Seed Bomb). Meowth is also easily revenge killed by Choice Scarf users. Protect is also commonly seen on leads just to avoid taking any damage from Fake Out.</p>
+
+<p><img src="/download/sprites/dp/190.png" alt="" /><br />
+Aipom</p>
+
+<p>While Aipom may have a weaker Fake Out than Meowth, Aipom makes up for it by having better stats all a round; mostly in its Attack and defenses. Aipom usually runs Fake Out, Return, U-turn, and either Shadow Claw or Brick Break for coverage, although it may also carry Ice Punch for Gligar. Life Orb is usually the item of choice for Aipom, although some variants may run Oran Berry to take advantage of its decent bulk. While Aipom, like Meowth, may have trouble dealing with defensive walls, Aipom can usually deal significant damage before going down. For example, Fake Out followed by Return is usually an OHKO on Lead Phanpy.</p>
+
+<p><img src="/download/sprites/dp/393.png" alt="" /><br />
+Chimchar</p>
+
+<p>Chimchar packs the weakest Fake Out of the three most common Fake Out users, but this monkey has other tricks up its sleeve. For starters, Chimchar is the only Pokemon in Little Cup that has access to both Fake Out and Stealth Rock. Chimchar also packs the power to prevent other common leads from setting up, while at the same time setting up Stealth Rock for its team. Chimchar is most commonly seen with a moveset composing of Fake Out, Stealth Rock, Overheat, and Hidden Power Grass. Overheat is Chimchar's strongest attack, and is useful when Chimchar has nothing else to do once it has done its job. Hidden Power Grass is for Kabuto and Omanyte, who would otherwise set up on Chimchar without any fear. Chimchar may run Fire Blast over Overheat for consistency, although generally Chimchar prefers the immediate power of Overheat. Chimchar is not without problems, however, as faster Fake Out leads will KO it before it can do anything, and Houndour is barely scratched by Hidden Power Grass. Focus Sash is the preferred item on Chimchar to ensure that Stealth Rock is set up most of the time.</p> 
+
+<h2><a name="closing">Closing Words</a></h2>
+
+<p>Little Cup is a metagame that is dominated by hyper offensive playing, revenge killing, and priority moves. It is a metagame where anyone can win even if you are down three Pokémon. If you are looking to try a new metagame filled with excitement and new strategies, then give Little Cup a try.</p>

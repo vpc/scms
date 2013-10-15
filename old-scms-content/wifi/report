@@ -1,0 +1,39 @@
+[Title]
+Wi-Fi Incident Report Form
+
+[Head]
+		<style type="text/css">
+			#jswarning{
+				padding:8px 32px;
+				background-color: #C66;
+				color:#fff;
+				font-weight: bold;
+			}
+			#report-form { display:none; }
+		</style>
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script type="text/javascript">
+		    $(function(){
+		        $('#jswarning').hide();
+		        $('#checkread').change(function(){
+		        	if($(this).is(':checked')) {
+		        		$('#report-form').show();
+		        	} else {
+		        		$('#report-form').hide();
+		        	}
+		        })
+		    });
+		</script>
+
+[Page]
+
+<p>
+Is someone giving you a problem on wi-fi? This is where you can report them. <strong>Be sure to <a href="#LinkToTheRules">read the rules</a> first!</strong> If you've done that check the box below.
+</p>
+<p>
+<strong>I have read the rules.</strong> <input type="checkbox" id="checkread"/>
+</p>
+
+<div id="report-form">
+<iframe src="https://docs.google.com/forms/d/1VBGQFUD-I75Y_BeEbbhBGlK92y3gdQMOLf7zXM7bq1I/viewform?embedded=true" width="760" height="1024" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+</div>

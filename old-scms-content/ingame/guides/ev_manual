@@ -1,0 +1,2231 @@
+[title]
+The 4th Generation EVing Manual
+[head]
+<meta name="description" content="A guide that explains the basics of EVs, how they influence stats, and the steps one needs to take in order to effectively EV Train." />
+<style type="text/css">
+table.sortable td {
+    padding: .3em;
+    border-width: 1px;
+}
+</style>
+[page]
+<div class="author">By <a href="/forums/member.php?u=24169">Erodent</a> with HGSS updates by <a href="http://www.smogon.com/forums/member.php?u=10012">Ditto</a>.</div>
+
+<ol>
+<li><a href="#intro">Introduction</a></li>
+<li><a href="#stats">Analyzing Stats</a></li>
+<li><a href="#basics">Basics of EVs</a></li>
+<li><a href="#rules">Further Rules of EVs</a></li>
+<li><a href="#nature">The Nature Factor</a></li>
+<li><a href="#distribute">Distributing EVs</a></li>
+<li><a href="#prepare">EV Training Preparations and Hotspots</a>
+    <ul>
+        <li><a href="#hotspot_dp_wild">Diamond and Pearl Wild Pokémon</a></li>
+        <li><a href="#hotspot_dp_trainer">Diamond and Pearl Trainer Battles</a></li>
+        <li><a href="#hotspot_p_wild">Platinum Wild Pokémon</a></li>    
+        <li><a href="#hotspot_p_trainer">Platinum Trainer Battles</a></li>    
+        <li><a href="#hotspot_hgss_wild">HeartGold and SoulSilver Wild Pokémon</a></li>
+        <li><a href="#hotspot_hgss_trainer">HeartGold and SoulSilver Trainer Battles</a></li>
+    </ul>
+</li>
+<li><a href="#train">Begin EV Training</a></li>
+<li><a href="#samples">EV Training Samples</a></li>
+<li><a href="#erase">Erase Your EVs</a></li>
+<li><a href="#help">Additional Help</a></li>
+<li><a href="#credits">Credits</a></li>
+</ol>
+
+<h2><a name="intro">Section One - Introduction</a></h2>
+
+<p>One day, a friend of yours decides to challenge you to a Pokémon Wi-Fi Battle. You are bored, so you accept. Just then, you notice your friend grinning and laughing to himself. Hmm, you think. What does he have planned for me this time – a party of six legendary Pokémon?</p>
+
+<p>Quite the opposite, in fact – as you send your beloved Dialga into battle, your opponent sends in a rather extraordinary Pokémon – a Spinda! What? You think. Aargh, let's get this over with. You command Dialga to use Roar of Time on the unfortunate bunny and prepare for victory…until you realize that something's wrong. Something's VERY wrong. Instead of Roar of Time turning Spinda into bunny stew, the Spinda…is faster than you? It sets up a Substitute while you break it with Roar of Time, and you must recharge on the next turn. You spend this time doing a little research and deduce that you've been duped!</p>
+
+<p>"I've been duped!" you shout to your friend. After all, how does Spinda, a Pokémon with Base 60 Speed, outrun Dialga, a Pokémon with Base 90 Speed?</p>
+
+<h2><a name="stats">Section Two - Analyzing Stats</a></h2>
+
+<p>This section won't seem to make much sense YET, but please still read it anyway. As you read on through the other sections, it will be advantageous to be able to refer to this section and actually understand it as you learn bit by bit. Therefore, you should read it through beforehand anyway, even if it doesn’t make sense at all.</p>
+
+<p>We are going to learn how to "analyze" the statistics that you can find for every single Pokémon in every single available analysis. Here is an example of those statistics:</p>
+
+<p><img src="/media/ingame/images/dpp_evguide_stats1.png" alt="stats" /></p>
+
+<p>Have you ever wondered what all those numbers represent? Well, let's find out!</p>
+
+<ol>
+<li>The numbers in the <strong>colorful bars</strong> represent the base stat value of the Pokémon. Look at the ones above. It is easy to see that the Pokémon has high Attack and Speed, but poor Special attack, HP, and Defense. It has average Special Defense.</li>
+<li>The numbers in the <strong>Min(-)</strong> column give a Pokémon's stat value at level 100 assuming a negative nature, 0 EVs and 31 IVs in the stat.</li>
+<li>The numbers in the <strong>Min</strong> column give a Pokémon's stat value at level 100 assuming a neutral nature, 0 EVs and 31 IVs in the stat.</li>
+<li>The numbers in the <strong>Max</strong> column give a Pokémon's stat value at level 100 assuming a neutral nature, 252 EVs and 31 IVs in the stat.</li>
+<li>The numbers in the <strong>Max(+)</strong> column give a Pokémon's stat value at level 100 assuming a positive nature, 252 EVs and 31 IVs in the stat.</li>
+</ol>
+
+<p>Depending on your knowledge about EVs, IVs, and natures, you might not understand anything yet. However, I will make some references to this section. It will become clearer as you go through the guide.</p>
+
+<h2><a name="basics">Section Three - Basics of EVs</a></h2>
+
+<p>EVs, or <strong>effort values</strong>, are the building blocks of a Pokémon's stats. If you have always been an in-game trainer, chances are you've never heard of them before. However, EVs are extremely important in the world of competitive Pokémon – EVs are what allow a specific stat to reach its full potential! By engaging in a process known as <strong>EV Training</strong>, you will be able to make the most out of a Pokémon's capabilities.</p>
+
+<p>In order to make your Pokémon powerful, you must first understand the task you must accomplish. Make sure that you are <em>extremely</em> clear with this section before proceeding to the next one.</p>
+
+<p>To get us started, let's look at a Very Important EV Training Rule. There will be a couple of these throughout the guide, and you should know (if not memorize) them.</p>
+
+<p><strong>Very Important Rule #1</strong> - <em>For every 4 EVs that a Pokémon gains in a particular stat, the stat is increased by one point at level 100.</em></p>
+
+<p>If you didn't understand that, here is an example of EVs in action:</p>
+
+<p><img src="/download/sprites/dp/442.png" alt="bronzong" /></p>
+
+<p>Meet Bronzong. Bronzong will be our test subject in this explanation. We are going to analyze its HP stat:</p>
+
+<p><img src="/media/ingame/images/dpp_evguide_stats2.png" alt="stats2" /></p>
+
+<p>What the statistic above describes is that Bronzong has Base 67 HP. If you want to maximize its HP stat, you will need to EV Train it. Let's make something very clear by this point: since no nature influences HP, HP does not have Min(-) or Max(+) values, so don't worry about those just yet.</p>
+
+<p>With 0 EVs in HP, Bronzong will have the stat's Min value at level 100. In other words, <em>Bronzong will have 275 HP at level 100 with 0 EVs (and a HP IV of 31)</em>.</p>
+
+<p>Now, refer back to <strong>Very Important Rule #1</strong>. You can translate the rule to the following:</p>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Formula Translation of Very Important Rule #1</th>
+</tr>
+</thead>
+
+<tbody>
+<tr><td><strong>Stat Points Earned at level 100</strong> = (EVs in Stat) / (4)</td></tr>
+</tbody>
+</table>
+
+<p>So, if Bronzong has <strong>48 EVs in HP</strong>, what happens?</p>
+
+<p><strong>Stat Points Gained at level 100</strong> = (EVs in Stat) / (4)</p>
+<p><strong>Stat Points Gained at level 100</strong> = (48) / (4)</p>
+<p><strong>Stat Points Gained at level 100</strong> = 12</p>
+
+<p>It's not over yet, though. <em>12</em> refers to the Stat Points gained at level 100. Since we already figured out that Bronzong will have a HP Stat of 275 at level 100 with 0 HP EVs, simply add 275 + 12 = 287. The formula is this:</p>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Formula Used to Calculate Stat at level 100</th>
+</tr>
+</thead>
+
+<tbody>
+<tr><td><strong>Final Stat at level 100</strong> = (Stat's value in MIN/MIN(-) Column) + (Stat points gained through EVs)</td></tr>
+</tbody>
+</table>
+
+<p>Continue to use that formula and refer back to the previous paragraph:</p>
+
+<p><strong>Final Stat at level 100</strong> = (Stat's value in MIN/MIN(-) Column) + (Stat points gained through EVs)</p>
+<p><strong>Final Stat at level 100</strong> = (275) + (12)</p>
+<p><strong>Final Stat at level 100</strong> = 287</p>
+
+<p>And that's the final answer: 287, or: Bronzong will have 287 HP at level 100 with 48 HP EVs.</p>
+
+<p>It's not as hard as it looks. In fact, the formulas above are so simple that they're fit for even mental calculations assuming you know the Min/Min(-) value of any stat and the number of EVs you're investing in the stat. The Min/Min(-) values of a stat can be found on any Smogon analysis page. Now, to make sure you've understood, YOU try.</p>
+
+<p><strong>What will Bronzong's HP be at level 100 if it has 100 HP EVs?</strong></p>
+
+<p>The stat will increase by - you guessed it (100 EVs/4) = 25, and the final stat value will be - you guessed it again (275+25) = 300 HP. You're doing very well!</p>
+
+<p>Now that we're done with that, you should be able to make a wise inference. <strong>The number of EVs you invest should always be divisible by four</strong>. For example, if you invest 7 EVs in a stat, the stat will rise by (7/4) = 1.75, which is rounded down to 1. If you invest 8 EVs in a stat (8 is divisible by 4), the stat will rise by (8/2) = 2, which is 2, not 1.</p>
+
+<p>However, realize that the example in this section is only referring to Bronzong and its HP stat. Different Pokémon with different base stats obviously have different stats at level 100, but the concept remains the same. Hopefully you will be able to calculate the values of stats with varying EVs at level 100 with this newfound knowledge.</p>
+
+<h2><a name="rules">Section Four - Further Rules of EVs</a></h2>
+
+<p>Now, you're probably thinking, "Why can Bronzong only have a maximum HP stat of 338? Can't I maximize it and make it 999?" This brings us to Very Important Rule #2:</p>
+
+<p><strong>Very Important Rule #2</strong> - <em>A Pokémon can only have a maximum of 510 total EVs. A Pokémon can only have a maximum of 255 EVs in one stat.</em></p>
+
+<p>However, as previously explained, investing 255 EVs is unwise; always make your invested EVs divisible by 4. The closest number less than 255 which can be divided by 4 is <strong>252</strong>. Now, since you can only invest 252 EVs in one stat, how many stat points does that stat rise by? To figure that out, simply use (252/4) = <strong>63</strong>. The number 63 is very special. Now, let's take another look at Bronzong's HP stat:</p>
+
+<p><img src="/media/ingame/images/dpp_evguide_stats2.png" alt="stats" /></p>
+
+<p>Subtract Bronzong's Max HP and Min HP. (338-275) = ?</p>
+
+<p>Lo and behold...you get 63! If you still don't get it, it means that a stat can only rise by 63 points and no more. That's the highest it can go. The Min value is obviously defined by the Base Value of the stat. This applies to the stats ALL of the Pokémon in the game, except for Shedinja's HP stat, which is always 1, no matter what you do.</p>
+
+<p><strong>Refer!</strong> Let's go back to Section 2. Observe the Min and Max (not Min(-) or Max(+)) columns and subtract the numbers in the Max column by the numbers in the Min column. You get 63 all the time; there are no exceptions. Similarly, although the statistics don't show it, the Pokémon's stat at level 100 with 252 EVs and a NEGATIVE nature (Min(-)) will be the (value in the Min(-) column + 63). Hopefully some things have become clearer now.</p>
+
+<h2><a name="nature">Section Five - The Nature Factor</a></h2>
+
+<p>This section asks the question, <em>What about the Min (-) and Max(+) columns?</em></p>
+
+<p>Let's take a look at this Attack stat:</p>
+
+<p><img src="/media/ingame/images/dpp_evguide_stats3.png" alt="stats" /></p>
+
+<ol>
+<li>The number in the <strong>colorful bar</strong> represents the base stat value of the Pokémon. Look at the one above. It is easy to see that the Pokémon has high Attack.</li>
+<li>The numbers in the <strong>Min(-)</strong> column give a Pokémon's stat value at level 100 assuming a negative nature, 0 EVs and 31 IVs in the stat.</li>
+<li>The numbers in the <strong>Min</strong> column give a Pokémon's stat value at level 100 assuming a neutral nature, 0 EVs and 31 IVs in the stat.</li>
+<li>The numbers in the <strong>Max</strong> column give a Pokémon's stat value at level 100 assuming a neutral nature, 252 EVs and 31 IVs in the stat.</li>
+<li>The numbers in the <strong>Max(+)</strong> column give a Pokémon's stat value at level 100 assuming a positive nature, 252 EVs and 31 IVs in the stat.</li>
+</ol>
+
+<p>This is where it gets a little more complicated. Previously, we evaluated Bronzong's HP stat, but since HP is not influenced by any nature, the Min(-) and Max(+) columns were without values.</p>
+
+<p>However, the remaining five stats DO have values within the Min(-) and Max(+) columns. Some of these are influenced by natures. Consider this. Look at the Attack stat above. By now, you should know that with 252 Atk EVs, the Attack stat will become 339 at level 100.</p>
+
+<p>However, natures also come into play. Here are some examples of natures in conjunction with EVs:</p>
+
+<p>Suppose an Adamant nature is assumed. Adamant BOOSTS Attack, so appropriate investment in the Atk stat will unlock access to the Max(+) column. In other words, with <strong>252 Atk EVs, an Adamant (boosting) nature and 31 IVs</strong>, the Attack stat of the Pokémon with Base 120 Attack will be the Max(+) value, or <strong>372.</strong></p>
+
+<p>In reverse, suppose a Modest nature is assumed. Modest REDUCES Attack. With <strong>0 Atk EVs, a Modest (reducing) nature and 31 IVs</strong>, the Attack stat of the Pokémon with Base 120 Attack will be the Min(-) value, or <strong>248</strong>.</p>
+
+<p><strong>Refer!</strong> Go back to section two. The Max+ and Min- column explanations should be clear by now. You should also, by this point, understand quite a lot about EV investment.</p>
+
+<p><strong>Infer!</strong> If by this point you’re well-informed enough, then you can infer two things:</p>
+
+<ol>
+<li>Only two of a Pokémon's stats can be the value in the Max column at all times.</li>
+<li>Only one of a Pokémon's stats can be the value in the Max(+) column at all times.</li>
+</ol>
+
+<h2><a name="distribute">Section Six - Distributing EVs</a></h2>
+
+<p>As you should already know, a Pokémon has six stat categories: HP, Atk, Def, SpA, SpD, and Spe. Depending on the Pokémon you're using, you'll want to concentrate on EV Training the right stats. For example, let's imagine that we're going to EV Train an Aerodactyl. Aerodactyl's Attack stat is superior to its Special Attack stat, so you'll want to EV Train it in Attack. Also, how about we EV Train it in Speed to make it difficult to outrun? There, you have a plan as to what to EV Train (Attack and Speed)! By wisely and thoughtfully distributing your EVs, you will be able to turn an otherwise poor Pokémon into a very competent battling weapon.</p>
+
+<p>This section assumes that you already know the basics of EV investment. For example, if we're EV Training a Physical Lucario, then we should EV Train it in Attack, to boost its strength, and Speed, to boost its agility.</p>
+
+<p>Distributing EVs is very simple. First, you should decide the purpose of your Pokémon. After you've done that, take a look at this chart to see what EVs you should commonly invest in:</p>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Purpose of Pokémon</th>
+<th>EVs to Invest in</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><strong>Physical Sweeper</strong></td>
+<td>Atk EVs, Spe EVs</td>
+</tr>
+<tr class="a">
+<td><strong>Special Sweeper</strong></td>
+<td>SpA EVs, Spe EVs</td>
+</tr>
+<tr>
+<td><strong>Mixed Sweeper</strong></td>
+<td>Atk EVs, SpA EVs, Spe EVs</td>
+</tr>
+<tr class="a">
+<td><strong>Physical Wall</strong></td>
+<td>HP EVs, Def EVs</td>
+</tr>
+<tr>
+<td><strong>Special Wall</strong></td>
+<td>HP EVs, SpD EVs</td>
+</tr>
+<tr class="a">
+<td><strong>Double Wall</strong></td>
+<td>HP EVs, Def EVs, SpD EVs</td>
+</tr>
+<tr>
+<td><strong>Physical Tank</strong></td>
+<td>HP EVs, Atk EVs</td>
+</tr>
+<tr class="a">
+<td><strong>Special Tank</strong></td>
+<td>HP EVs, SpA EVs</td>
+</tr>
+<tr>
+<td><strong>Mixed Tank</strong></td>
+<td>HP EVs, Atk EVs, SpA EVs</td>
+</tr>
+<tr class="a">
+<td><strong>Wall Breaker</strong></td>
+<td>Atk EVs, SpA EVs, HP and/or Spe EVs</td>
+</tr>
+</tbody>
+</table>
+
+<p>With that information in mind, let's practice distributing EVs for some subjects. Firstly, Dugtrio. Dugtrio is a Physical Sweeper, so dump EVs into Attack and Speed. Secondly, Cresselia. Cresselia can be a Double Wall, so distribute EVs into HP, Defense, and Special Defense. Finally, Lickilicky. It has a good movepool going for it to go mixed, but it seems slow. It can't be a mixed sweeper because of lack of Speed, so why not make it a Wallbreaker? Invest Attack, Special Attack, and HP EVs into it. That wasn't difficult, was it?</p>
+
+<p>However, you may not always choose to invest maximum EVs into core stats all the time. Let's think of Gyarados. 252 Atk EVs is a no-brainer, but suppose you don't want all that Speed? You can make it Adamant-natured and EV Train it a spread of 252 Atk / 184 Spe / 74 HP to outrun Starmie after a Dragon Dance. As you can see, some Speed EVs were transferred to HP to make Gyarados slightly bulkier. Distribute your EVs wisely, find specific purposes with which they serve, and you will be off to a good start in no time.</p>
+
+<h2><a name="prepare">Section Seven - EV Training Preparations and Hotspots</a></h2>
+
+<p>Now you're thinking: The previous six sections were all about information, information, and more information; I've had enough, so tell me how I EV Train! Sorry, not just yet. We still need to make some very important preparations. Trust me, you'll need them - plus, this is the last boring section before we actually EV Train.</p>
+
+<p>Alright, let's say you just traded for a really cool Gengar you got off the GTS - and it has no EVs!</p>
+
+<p><img src="/download/sprites/dp/94.png" alt="gengar!" /></p>
+
+<p>How do you make Gengar obtain EVs?</p>
+
+<p><strong>Very Important Rule #3</strong> - <em>You gain EVs by defeating in-game Pokémon. Different Pokémon give different EVs.</em></p>
+
+<p>For example, by killing one Gastly, you will obtain 1 SpA EV, and by killing one Bidoof you will obtain 1 HP EV.</p>
+
+<p>The following tables are a compilation of useful information that attempt to enumerate all of the good EV Training hotspots. They are a list of essential Pokémon and trainers that you can challenge based on the stat you're looking to EV Train. Simply choose which game you're playing - Diamond and Pearl or Platinum - and check out their respective hotspots. This should be a staple and 
+an easy-to-understand resource that you can constantly refer to in the process of EV Training in the fourth generation.</p>
+
+           <h3>Diamond and Pearl</h3>
+           <h4><a name="hotspot_dp_wild">Wild Pokémon</a></h4>
+          
+          <table class="sortable">
+              <thead>        
+                  <tr>
+                      <th>Pokémon</th>
+                      <th>Levels</th>
+                      <th>Location</th>
+                      <th>EVs Given</th>                                                                                        
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <th colspan="4">Hit Point EVs</th>
+                  </tr>                    
+                <tr>
+                    <td>Bidoof</td>
+                    <td>2-4</td>
+                    <td>Route 201</td>
+                    <td>1</td>                                                                                
+                </tr>
+                <tr class="a">
+                    <td>Shellos</td>
+                    <td>8-12</td>
+                    <td>Route 205 South</td>
+                    <td>1</td>                                                                                
+                </tr>
+                <tr>
+                    <td>Gastrodon</td>
+                    <td>40-42</td>
+                    <td>Route 222</td>
+                    <td>2</td>                                                                                
+                </tr>
+                <tr class="a">
+                    <td>Wooper</td>
+                    <td>20-40</td>
+                    <td>Surf on Route 212 South</td>
+                    <td>1</td>                                                                                
+                </tr>
+                
+                  <tr>
+                      <th colspan="4">Attack EVs</th>
+                  </tr>
+                <tr>
+                    <td>Shinx</td>
+                    <td>3-4</td>
+                    <td>Route 202</td>
+                    <td>1</td>                                                                                
+                </tr>
+                <tr class="a">
+                    <td>Seaking / Gyarados</td>
+                    <td>20-55</td>
+                    <td>Fish with Super Rod at the southern pond of Twinleaf 
+                    Town</td>
+                    <td>2</td>                                                                                
+                </tr>
+                  <tr>
+                      <th colspan="4">Defense EVs</th>
+                  </tr>
+                <tr>
+                    <td>Geodude / Onix</td>
+                    <td>5-10</td>
+                    <td>Oreburgh Mine</td>
+                    <td>1</td>                                                                                
+                </tr>      
+                <tr class="a">
+                    <td>Geodude / Hippopotas</td>
+                    <td>22-24</td>
+                    <td>Ruin Maniac's Cave</td>
+                    <td>1</td>                                                                                
+                </tr>         
+                <tr>
+                    <td>Pelipper</td>
+                    <td>40-55</td>
+                    <td>Surf on Route 224</td>
+                    <td>2</td>                                                                                
+                </tr>                                         
+                  <tr>
+                      <th colspan="5">Special Attack EVs</th>
+                  </tr>
+                <tr>
+                    <td>Gastly</td>
+                    <td>12-16</td>
+                    <td>Old Chateau</td>
+                    <td>1</td>                                                                                
+                </tr>      
+                <tr class="a">
+                    <td>Golduck</td>
+                    <td>40-55</td>
+                    <td>Surf in the Resort Area</td>
+                    <td>2</td>                                                                                
+                </tr>                             
+                  <tr>
+                      <th colspan="4">Special Defense EVs</th>
+                  </tr>
+                <tr>
+                    <td>Tentacool</td>
+                    <td>20-30</td>
+                    <td>Surf in Valley Windworks</td>
+                    <td>1</td>                                                                                
+                </tr>  
+                <tr class="a">
+                    <td>Tentacruel</td>
+                    <td>40-55</td>
+                    <td>Surf on Route 223</td>
+                    <td>2</td>                                                                                
+                </tr>                                 
+                  <tr>
+                      <th colspan="4">Speed EVs</th>
+                  </tr>
+                <tr>
+                    <td>Starly</td>
+                    <td>2-3</td>
+                    <td>Route 201</td>
+                    <td>1</td>                                                                                
+                </tr>
+                <tr class="a">
+                    <td>Magikarp</td>
+                    <td>3-8</td>
+                    <td>Fish with Old Rod in any water</td>
+                    <td>1</td>                                                                                
+                </tr> 
+                <tr>
+                    <td>Poliwhirl</td>
+                    <td>40-55</td>
+                    <td>Surf on Route 227</td>
+                    <td>2</td>                                                                                
+                </tr>                                                    
+              </tbody>
+          </table>
+          
+          <h4><a name="hotspot_dp_trainer">Trainer Battles</a></h4>                          
+          <table class="sortable">
+              <thead>
+                  <tr>
+                      <th>Trainer Name</th>
+                      <th>Battle #</th>
+                      <th>Location</th>
+                      <th>Pokémon</th>
+                      <th>Level Range</th>
+                      <th>EVs Given</th>                                                                                        
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <th colspan="6">Hit Point EVs</th>
+                  </tr>              
+                <tr>
+<td>Cowgirl Shelly</td>
+<td>All</td>
+<td>Route 209</td>
+<td>Bidoof x 5</td>
+<td>11-12</td>
+<td>5 x 1</td>                                                                            
+                </tr>
+                <tr>
+                    <td colspan="6">Cowgirl Shelly is located near the 
+                    constantly moving couple, south of Solaceon Town.</td>                                                                        
+                </tr>
+                <tr class="a">
+                    <td>Tuber Jared</td>
+                    <td>1st / 2nd</td>
+                    <td>Route 213</td>
+                    <td>Shellos x 3</td>
+                    <td>27-29</td>
+                    <td>3 x 1</td>                                                                            
+                </tr>
+                <tr class="a">
+                    <td></td>
+                    <td>3rd +</td>
+                    <td>Route 213</td>
+                    <td>Gastrodon x 3</td>
+                    <td>53-54</td>
+                    <td>3 x 2</td>                                                                            
+                </tr>
+                <tr class="a">
+                    <td colspan="6">
+                    Tuber Jared is located just south of Hotel Grand Lake on 
+                    Route 213 and is the small child with a blue inner tube.</td>                                                                        
+                </tr>
+                  <tr>
+                      <th colspan="6">Attack EVs</th>
+                  </tr>
+                <tr>
+                    <td>PI Carlos</td>
+                    <td>1st</td>
+                    <td>Route 214</td>
+                    <td>Goldeen x 3</td>
+                    <td>23</td>
+                    <td>3 x 1</td>                                                                            
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>2nd</td>
+                    <td>Route 214</td>
+                    <td>Goldeen / Seaking x 2</td>
+                    <td>36-38</td>
+                    <td>1 / 2 x 2</td>                                                                            
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>3rd</td>
+                    <td>Route 214</td>
+                    <td>Seaking x 3</td>
+                    <td>56-58</td>
+                    <td>3 x 2</td>                                                                            
+                </tr>
+                
+                <tr>
+                    <td colspan="6">PI Carlos is the man with purple hair who is 
+                    standing near the walking Collector on Route 214. He is within the maze 
+                    of fences and is wearing what appears to be a suit.</td>                                                                        
+                </tr>
+                <tr class="a">
+                    <td>Swimmer Sheltin</td>
+                    <td>All</td>
+                    <td>Surf on Route 213</td>
+                    <td>Gyarados x 3</td>
+                    <td>29-31</td>
+                    <td>3 x 2</td>                                                                            
+                </tr>
+                <tr class="a">
+                    <td colspan="6">Swimmer Sheltin is found by Surfing through 
+                    the maze of rocks in Route 213.</td>                                                                        
+                </tr>                                  
+                  <tr>
+                      <th colspan="6">Defense EVs</th>
+                  </tr>
+                <tr>
+                    <td>Hiker Theodore</td>
+                    <td>1st / 2nd</td>
+                    <td>Route 206</td>
+                    <td>Onix x 2</td>
+                    <td>29</td>
+                    <td>2 x 1</td>                                                                            
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>3rd +</td>
+                    <td>Route 206</td>
+                    <td>Steelix x 2</td>
+                    <td>57-59</td>
+                    <td>2 x 2</td>                                                                            
+                </tr>
+                
+                <tr>
+                    <td colspan="6">To meet Hiker Theodore, go south across the 
+                    Cycling Road. Once you are out, go right and Cut the trees. 
+                    Keep going North and you will bump into him eventually.</td>                                                                        
+                </tr>
+                <tr class="a">
+                    <td>Psychic Daisy</td>
+                    <td>1st</td>
+                    <td>Route 225</td>
+                    <td>Slowbro x 2</td>
+                    <td>51-55</td>
+                    <td>2 x 2</td>                                                                            
+                </tr>
+                <tr class="a">
+                    <td></td>
+                    <td>2nd +</td>
+                    <td>Route 225</td>
+                    <td>Slowbro x 2</td>
+                    <td>58-60</td>
+                    <td>2 x 2</td>                                                                            
+                </tr>
+                
+                <tr class="a">
+                    <td colspan="6">To meet Psychic Daisy, Fly to the Fight 
+                    Area. Go left and up into Route 225. Head a little bit north 
+                    and you’ll find three trainers under three bridges. Psychic 
+                    Daisy is the one with bluish hair.</td>                                                                        
+                </tr>                       
+                  <tr>
+                      <th colspan="6">Special Attack EVs</th>
+                  </tr>
+                <tr>
+                    <td>Collector Douglas</td>
+                    <td>All</td>
+                    <td>Route 214</td>
+                    <td>Roselia x 3</td>
+                    <td>20-24</td>
+                    <td>3 x 2</td>                                                                            
+                </tr>
+                <tr>
+                    <td colspan="6">To find Collector Douglas, go to Route 214 
+                    via Valor Lakefront. He is the first trainer you see.</td>                                                                        
+                </tr>
+                <tr class="a">
+                    <td>Scientist Shaun</td>
+                    <td>1st</td>
+                    <td>Route 212</td>
+                    <td>Kadabra&nbsp; / Abra</td>
+                    <td>19</td>
+                    <td>2 / 1</td>                                                                            
+                </tr>
+                <tr class="a">
+                    <td>&nbsp;</td>
+                    <td>2nd / 3rd</td>
+                    <td>Route 212</td>
+                    <td>Kadabra x 2</td>
+                    <td>28-40</td>
+                    <td>2 x 2</td>                                                                            
+                </tr>
+                <tr class="a">
+                    <td>&nbsp;</td>
+                    <td>4th +</td>
+                    <td>Ros take another look at Bronzong1tdute 212</td>
+                    <td>Alakazam x 2</td>
+                    <td>53</td>
+                    <td>2 x 3</td>                                                                            
+                </tr>
+                <tr class="a">
+                    <td colspan="6">Scientist Shaun is located in the rainy area 
+                    of Route 212. To find him, exit Pastoria City from the west 
+                    end. Follow the path until you find two trees blocking a set 
+                    of stairs. Cut the trees, use your bike to cross the 
+                    tightrope, and descend. Scientist Shaun is the man with 
+                    glasses on the other side of the tightrope.</td>                                                                        
+                </tr>                                                   
+                  <tr>
+                      <th colspan="6">Special Defense EVs</th>
+                  </tr>
+                <tr>
+                    <td>Dragon Tamer Hayden</td>
+                    <td>1st</td>
+                    <td>Route 224</td>
+                    <td>Swablu / Altaria</td>
+                    <td>54-57</td>
+                    <td>1 / 2</td>                                                                            
+                </tr>
+                <tr>
+                    <td style="height: 25px"></td>
+                    <td style="height: 25px">2nd</td>
+                    <td style="height: 25px">Route 224</td>
+                    <td style="height: 25px"><aria x 2</td>
+                    <td style="height: 25px">60</td>
+                    <td style="height: 25px">2 x 2</td>                                                                            
+                </tr>
+                
+                <tr>
+                    <td colspan="6">To find Dragon Tamer Hayden, go to Route 
+                    224 via Victory Road. Dragon Tamer Hayden has the sprite of 
+                    an Ace Trainer (with green hair).</td>                                                                        
+                </tr>                      
+                  <tr>
+                      <th colspan="6">Speed EVs</th>
+                  </tr>
+                <tr>
+                    <td>Fisherman Andrew</td>
+                    <td>All</td>
+                    <td>Route 205</td>
+                    <td>Magikarp x 6</td>
+                    <td>10</td>
+                    <td>6 x 1</td>                                                                            
+                </tr>
+                <tr>
+                    <td colspan="6">To find Fisherman Andrew, exit Eterna City 
+                    via the west exit and go to the bridge. He is the fisherman 
+                    facing east.</td>                                                                        
+                </tr>
+                <tr class="a">
+                    <td>Collector Jamal</td>
+                    <td>All</td>
+                    <td>Route 214</td>
+                    <td>Buizel x 3</td>
+                    <td>21-24</td>
+                    <td>3 x 1</td>                                                                            
+                </tr>
+                <tr class="a">
+                    <td colspan="6">
+                    To find Collector Jamal, head South from Veilstone City and 
+                    into Route 214. Stick to the left and climb up and down the 
+                    first and second hills. You will encounter a trainer in very 
+                    tall grass, Collector Jamal, when you descend from the 
+                    second hill.</td>                                                                        
+                </tr>                     
+                
+              </tbody>
+          </table>
+            
+           <h3>Platinum</h3>
+           <h4><a name="hotspot_p_wild">Wild Pokémon</a></h4>           
+          <table class="sortable">
+              <thead>        
+                  <tr>
+                      <th>Pokémon</th>
+                      <th>Levels</th>
+                      <th>Location</th>
+                      <th>EVs Given</th>                                                                                        
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <th colspan="4">Hit Point EVs</th>
+                  </tr>
+                  <tr>
+                      <td>Bidoof</td>
+                      <td>2-4</td>
+                      <td>Route 201</td>
+                      <td>1</td>                                                                  
+                  </tr>
+                  <tr class="a">
+                      <td>Shellos</td>
+                      <td>8-12</td>
+                      <td>Valley Windworks</td>
+                      <td>1</td>                                                                  
+                  </tr>
+                  <tr>
+                      <td style="height: 25px">Azumarill</td>
+                      <td style="height: 25px">41-49</td>
+                      <td style="height: 25px">B1F on Victory Road</td>
+                      <td style="height: 25px">3</td>                                                                  
+                  </tr>
+                  
+                  <tr>
+                      <th colspan="4">Attack EVs</th>
+                  </tr>
+                  <tr>
+                      <td>Shinx</td>
+                      <td>3-4</td>
+                      <td>Route 202</td>
+                      <td>1</td>                                                                  
+                  </tr>
+                  <tr class="a">
+                      <td>Machop</td>
+                      <td>5-7</td>
+                      <td>Route 207</td>
+                      <td>1</td>                                                                  
+                  </tr>                  
+                  <tr>
+                      <th colspan="4">Defense EVs</th>
+                  </tr>
+                  <tr>
+                      <td>Geodude / Onix</td>
+                      <td>5-10</td>
+                      <td>Oreburgh Mine</td>
+                      <td>1</td>                                                                  
+                  </tr>
+                  <tr class="a">
+                      <td>Geodude / Rhyhorn</td>
+                      <td>21-24</td>
+                      <td>Route 214</td>
+                      <td>1</td>                                                                  
+                  </tr>
+                  <tr>
+                      <td>Geodude / Hippopotas</td>
+                      <td>22-24</td>
+                      <td>Ruin Maniac's Cave</td>
+                      <td>1</td>                                                                  
+                  </tr>
+                  <tr class="a">
+                      <td>Graveller / Steelix</td>
+                      <td>30-34</td>
+                      <td>Iron Island</td>
+                      <td>2</td>                                                                  
+                  </tr>
+                  
+                  <tr>
+                      <th colspan="4">Special Attack EVs</th>
+                  </tr>
+                  <tr>
+                      <td>Gastly</td>
+                      <td>12-16</td>
+                      <td>Old Chateau</td>
+                      <td>1</td>                                                                  
+                  </tr>                
+                  <tr>
+                      <th colspan="4">Special Defense EVs</th>
+                  </tr>
+                  <tr>
+                      <td>Tentacool</td>
+                      <td>20-30</td>
+                      <td>Surf at Valley Windworks</td>
+                      <td>1</td>                                                                  
+                  </tr>
+                  <tr class="a">
+                      <td>Tentacruel</td>
+                      <td>40-55</td>
+                      <td>Surf on Route 224</td>
+                      <td>2</td>                                                                  
+                  </tr>                  
+                  <tr>
+                      <th colspan="4">Speed EVs</th>
+                  </tr>
+                  <tr>
+                      <td>Starly</td>
+                      <td>2-3</td>
+                      <td>Route 201</td>
+                      <td>1</td>                                                                  
+                  </tr>
+                  <tr class="a">
+                      <td>Pikachu / Staravia</td>
+                      <td>16-18</td>
+                      <td>Trophy Garden</td>
+                      <td>2</td>                                                                  
+                  </tr>
+                  <tr>
+                      <td>Poliwhirl</td>
+                      <td>35-55</td>
+                      <td>Surf on Route 227</td>
+                      <td>2</td>                                                                  
+                  </tr>
+                  <tr class="a">
+                      <td>Golbat</td>
+                      <td>47-50</td>
+                      <td>Snowpoint Temple</td>
+                      <td>2</td>                                                                  
+                  </tr>                               
+              </tbody>           
+          </table>
+          
+          <h4><a name="hotspot_p_trainer">Trainer Battles</a></h4>          
+          <table class="sortable">
+              <thead>
+                  <tr>
+                      <th>Trainer Name</th>
+                      <th>Battle #</th>
+                      <th>Location</th>
+                      <th>Pokémon</th>
+                      <th>Level Range</th>
+                      <th>EVs Given</th>                                                                                        
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <th colspan="6">Hit Point EVs</th>
+                  </tr>  
+                <tr>
+                    <td>5 Maid Challenge</td>
+                    <td>All</td>
+                    <td>Trophy Garden Mansion</td>
+                    <td>Clefairy x 5</td>
+                    <td>25-33</td>
+                    <td>5 x 2</td>                                                                            
+                </tr>
+                <tr>
+                    <td colspan="6">Down the left hallway of the Trophy Garden 
+                    Mansion, you can fight five maids, each with a single 
+                    Clefairy.</td>                                                                        
+                </tr>
+                <tr class="a">
+                    <td>Rich Boy Liam or Lady Celeste</td>
+                    <td>All</td>
+                    <td>Trophy Garden Mansion</td>
+                    <td>Blissey</td>
+                    <td>35</td>
+                    <td>3</td>                                                                            
+                </tr>
+                <tr class="a">
+                    <td colspan="6">If you beat the maids within a set turn 
+                    limit, you get to fight one trainer with a Blissey.</td>                                                                        
+                </tr>
+                <tr>
+                    <td>Tuber Jared</td>
+                    <td>1st / 2nd</td>
+                    <td>Route 213</td>
+                    <td>Shellos x 3</td>
+                    <td>25-32</td>
+                    <td>3 x 1</td>                                                                            
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>3rd +</td>
+                    <td>Route 213</td>
+                    <td>Gastrodon x 3</td>
+                    <td>51</td>
+                    <td>3 x 2</td>                                                                            
+                </tr>
+                
+                <tr>
+                    <td colspan="6">Tuber Jared is located just south of Hotel 
+                    Grand Lake on Route 213 and is the small child with a blue 
+                    inner tube.</td>                                                                        
+                </tr>
+                <tr class="a">
+                    <td>Pokémon Trainer Cheryl</td>
+                    <td>All</td>
+                    <td>Battleground</td>
+                    <td>Wobbuffet / Hariyama / Wailord / Drifblim / Blissey</td>
+                    <td>61-65</td>
+                    <td>2 / 2 / 2 / 2 / 3</td>                                                                            
+                </tr>
+                <tr class="a">
+                    <td colspan="6">The Battleground can be accessed after you 
+                    complete the Stark Mountain sidequest (after the Looker man 
+                    foils Team Galactic's Final plan). It's in a restaurant in 
+                    the Survival Area. </td>                                                                        
+                </tr>
+                      
+                  <tr>
+                      <th colspan="6">Attack EVs</th>
+                  </tr> 
+                <tr>
+                    <td>Swimmer Sheltin</td>
+                    <td>All</td>
+                    <td>Surf on Route 213</td>
+                    <td>Gyarados x 3</td>
+                    <td>32</td>
+                    <td>3 x 2</td>                                                                            
+                </tr>
+                <tr>
+                    <td colspan="6" style="height: 25px">Swimmer Sheltin can be found by Surfing 
+                    through the maze of rocks on Route 213.</td>                                                                        
+                </tr>
+                <tr class="a">
+                    <td>Jogger Craig</td>
+                    <td>1st / 2nd</td>
+                    <td>Route 215</td>
+                    <td>Luxio x 2</td>
+                    <td>22-43</td>
+                    <td>2 x 2</td>                                                                            
+                </tr>
+                <tr class="a">
+                    <td></td>
+                    <td>3rd+</td>
+                    <td>Route 215</td>
+                    <td>Luxray x 2</td>
+                    <td>59</td>
+                    <td>2 x 3</td>                                                                            
+                </tr>
+                
+                <tr class="a">
+                    <td colspan="6">Jogger Craig is the trainer that doesn’t 
+                    stop walking on Route 215. </td>                                                                        
+                </tr>
+                  
+                  <tr>
+                      <th colspan="6">Defense EVs</th>
+                  </tr> 
+                <tr>
+                    <td>Hiker Kevin</td>
+                    <td>All</td>
+                    <td>Route 207</td>
+                    <td>Geodude / Onix x 3</td>
+                    <td>17-19</td>
+                    <td>4 x 1</td>                                                                            
+                </tr>
+                <tr>
+                    <td colspan="6">
+                    From Oreburgh City, go north into Route 207. Use your 
+                    bicycle to speed up the slope, turn right, and immediately 
+                    go down, following the narrow path downward instead of 
+                    continuing right. Follow the path and climb up the 2 stairs; 
+                    the trainer you will find on top is Hiker Kevin.</td>                                                                        
+                </tr>                  
+                  <tr>
+                      <th colspan="6">Special Attack EVs</th>
+                  </tr> 
+                <tr>
+                    <td>Scientist Shaun</td>
+                    <td>1st / 2nd</td>
+                    <td>Route 212</td>
+                    <td>Kadabra / Magnemite</td>
+                    <td>30-42</td>
+                    <td>2 / 1</td>                                                                            
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>3rd</td>
+                    <td>Route 212</td>
+                    <td>Kadabra / Magneton</td>
+                    <td>42-46</td>
+                    <td>2 x 2</td>                                                                            
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>4th</td>
+                    <td>Route 212</td>
+                    <td>Alakazam / Magneton</td>
+                    <td>51-55</td>
+                    <td>3 / 2</td>                                                                            
+                </tr>                
+                <tr>
+                    <td colspan="6">Scientist Shaun is located in the rainy area 
+                    of Route 212. To find him, exit Pastoria City from the west 
+                    end. Follow the path until you find two trees blocking a set 
+                    of stairs. Cut the trees, use your bike to cross the 
+                    tightrope, and descend. Scientist Shaun is the man with 
+                    glasses on the other side of the tightrope.</td>                                                                        
+                </tr>
+                  <tr>
+                      <th colspan="6">Special Defense EVs</th>
+                  </tr> 
+                <tr>
+                    <td>Beauty Devon</td>
+                    <td>All</td>
+                    <td>Route 214</td>
+                    <td>Wormadam x 3</td>
+                    <td>24</td>
+                    <td>3 x 2</td>                                                                            
+                </tr>
+                <tr>
+                    <td colspan="6">Beauty Devon is the woman with blonde hair 
+                    on Route 214. </td>                                                                        
+                </tr>
+                  <tr>
+                      <th colspan="6">Speed EVs</th>
+                  </tr>  
+                <tr>
+                    <td>Fisherman Andrew</td>
+                    <td>All</td>
+                    <td>Route 205</td>
+                    <td>Magikarp x 6</td>
+                    <td>10</td>
+                    <td>6 x 1</td>                                                                            
+                </tr>
+                <tr>
+                    <td colspan="6">To find Fisherman Andrew, exit Eterna City 
+                    via the west exit and go to the bridge. He is the fisherman 
+                    facing east.</td>                                                                        
+                </tr>                                                                                                          
+              </tbody>
+          </table>
+
+		<h3>HeartGold and SoulSilver</h3>
+           <h4><a name="hotspot_hgss_wild">Wild Pokémon</a></h4>           
+          <table class="sortable">
+              <thead>        
+                  <tr>
+                      <th>Pokémon</th>
+                      <th>Levels</th>
+                      <th>Location</th>                     
+                      <th>EVs Given</th>                                                                                        
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <th colspan="4">Hit Point EVs</th>
+                  </tr>
+                  <tr>
+                      <td>Slowpoke</td>
+                      <td>5-25</td>
+                      <td>Slowpoke Well</td>
+                      <td>1</td>                                                                  
+                  </tr>                  
+                  <tr>
+                      <th colspan="5">Attack EVs</th>
+                  </tr>
+                  <tr>
+                      <td>Goldeen </td>
+                      <td>5-10</td>
+                      <td>Route 25 / Cerulean City</td>                
+                      <td>1</td>                                                                  
+                  </tr>
+                  <tr class="a">
+                      <td>Seaking </td>
+                      <td>10</td>
+                      <td>Route 25 / Cerulean City</td>                   
+                      <td>2</td>                                                                  
+                  </tr>
+                  <tr>
+                      <td>Goldeen </td>
+                      <td>10-25</td>
+                      <td>Route 42 / Mt Mortar - 1F / Mt Mortar - B1F</td>                    
+                      <td>1</td>                                                                  
+                  </tr>
+                  <tr class="a">
+                      <td>Seaking </td>
+                      <td>15-25</td>
+                      <td>Route 42 / Mt Mortar - 1F / Mt Mortar - B1F</td>                    
+                      <td>2</td>                                                                  
+                  </tr>                                    
+                  <tr>
+                      <th colspan="4">Defense EVs</th>
+                  </tr>
+                  <tr>
+                      <td>Tangela </td>
+                      <td>20-30</td>
+                      <td>Route 21</td>                    
+                      <td>1</td>                                                                  
+                  </tr>
+                  
+                  <tr>
+                      <th colspan="4">Special Attack EVs</th>
+                  </tr>
+                  <tr>
+                      <td>Psyduck </td>
+                      <td>5-10</td>
+                      <td>Route 6</td>                    
+                      <td>1</td>                                                                  
+                  </tr>
+                  <tr class="a">
+                      <td>Golduck </td>
+                      <td>10</td>
+                      <td>Route 6</td>                  
+                      <td>2</td>                                                                  
+                  </tr>  
+                  <tr>
+                      <td>Psyduck </td>
+                      <td>5-20</td>
+                      <td>Route 35 / Ilex Forest</td>                     
+                      <td>1</td>                                                                  
+                  </tr>
+                  <tr class="a">
+                      <td>Golduck</td>
+                      <td>10-20</td>
+                      <td>Route 35 / Ilex Forest</td>                
+                      <td>2</td>                                                                  
+                  </tr>                                    
+                  <tr>
+                      <th colspan="4">Special Defense EVs</th>
+                  </tr>
+                  <tr>
+                      <td>Tentacool</td>
+                      <td>15-20</td>
+                      <td>Surf on Route 27</td>                   
+                      <td>1</td>                                                                  
+                  </tr>
+                  <tr class="a">
+                      <td>Tentacruel</td>
+                      <td>20</td>
+                      <td>Surf on Route 27</td>                    
+                      <td>2</td>                                                                  
+                  </tr> 
+                  <tr>
+                      <td>Tentacool</td>
+                      <td>10-25</td>
+                      <td>Surf on Routes 34 / 40 / New Bark Town / Cherrygrove City / Olivine City</td>                     
+                      <td>1</td>                                                                  
+                  </tr>
+                  <tr class="a">
+                      <td>Tentacruel</td>
+                      <td>15-29</td>
+                      <td>Surf on Routes 34 / 40 / New Bark Town / Cherrygrove 
+					  City / Olivine City</td>                    
+                      <td>2</td>                                                                  
+                  </tr> 
+                  <tr>
+                      <td>Tentacool</td>
+                      <td>15-25</td>
+                      <td>Surf on Cianwood City</td>                    
+                      <td>1</td>                                                                  
+                  </tr>
+                  <tr class="a">
+                      <td>Tentacruel</td>
+                      <td>15-25</td>
+                      <td>Surf on Cianwood City</td>                     
+                      <td>2</td>                                                                  
+                  </tr>                                                      
+                  <tr>
+                      <th colspan="4">Speed EVs</th>
+                  </tr>
+                  <tr>
+                      <td>Rattata</td>
+                      <td>3-6</td>
+                      <td>Sprout Tower All Floors</td>                    
+                      <td>1</td>                                                                  
+                  </tr>
+                  <tr class="a">
+                      <td>Magikarp</td>
+                      <td>2-20</td>
+                      <td>Blackthorn City</td>                     
+                      <td>1</td>                                                                  
+                  </tr>                               
+              </tbody>           
+          </table>
+
+          <h4><a name="hotspot_hgss_trainer">Trainer Battles</a></h4>                          
+          <table class="sortable">
+              <thead>
+                  <tr>
+                      <th>Trainer Name</th>
+                      <th>Battle #</th>
+                      <th>Location</th>
+                      <th>Pokémon</th>
+                      <th>Level Range</th>
+                      <th>EVs Given</th>                                                                                        
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <th colspan="6">Hit Point EVs</th>
+                  </tr>              
+                <tr>
+                    <td>Gentleman Alfred</td>
+                    <td>All</td>
+                    <td>Olivine Lighthouse</td>
+                    <td>Noctowl</td>
+                    <td>22-58</td>
+                    <td>2</td>                                                                            
+                </tr>
+                <tr>
+                    <td colspan="6">Call him on Tuesdays between 10:00-19:59. He also gives out Calciums.</td>                                                                        
+                </tr>
+                <tr class="a">
+                    <td>Picnicker Tiffany</td>
+                    <td>1-2</td>
+                    <td>Route 43</td>
+                    <td>Clefairy</td>
+                    <td>21-34</td>
+                    <td>2</td>                                                                            
+                </tr>
+                <tr class="a">
+                    <td></td>
+                    <td>3+</td>
+                    <td>Route 43</td>
+                    <td>Clefable</td>
+                    <td>41-61</td>
+                    <td>3</td>                                                                            
+                </tr>
+                <tr class="a">
+                    <td colspan="6">Call her on Tuesdays between 10:00-19:59.</td>                                                                        
+                </tr>
+                <tr>
+                    <td>Twins Kay and Tia</td>
+                    <td>All</td>
+                    <td>Route 15</td>
+                    <td>Quagsire x2</td>
+                    <td>41-55 x2</td>
+                    <td>2 x 2</td>                                                                            
+                </tr>
+                <tr>
+                    <td colspan="6">Call them on Saturdays between 00:00-03:59 and 20:00-23:59. This is a double battle.</td>                                                                        
+                </tr>
+                  <tr>
+                      <th colspan="6">Attack EVs</th>
+                  </tr>
+                <tr>
+                    <td>Fisherman Kyle</td>
+                    <td>1</td>
+                    <td>Route 12</td>
+                    <td>Goldeen x2 / Qwilfish</td>
+                    <td>35-39</td>
+                    <td>1</td>                                                                            
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>2</td>
+                    <td>Route 12</td>
+                    <td>Seaking x2 / Qwilfish</td>
+                    <td>38-40</td>
+                    <td>2 x 2 / 1</td>                                                                            
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>3</td>
+                    <td>Route 12</td>
+                    <td>Seaking x2 / Qwilfish / Krabby</td>
+                    <td>39-47</td>
+                    <td>2 x 2 / 1 / 1</td>                                                                            
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>4+</td>
+                    <td>Route 12</td>
+                    <td>Seaking x2 / Qwilfish / Kingler</td>
+                    <td>48-52</td>
+                    <td>2 x 2 / 1 / 2</td>                                                                            
+                </tr>
+                <tr>
+                    <td colspan="6">Call him on Wednesdays between 10:00-19:59. He is just south of Lavender Town.</td>                                                                        
+                </tr>
+                <tr class="a">
+                    <td>Ace Trainer Gaven</td>
+                    <td>All</td>
+                    <td>Route 26</td>
+                    <td>Victreebel / Kingler / Flareon</td>
+                    <td>32-52</td>
+                    <td>3 / 2 / 2</td>                                                                            
+                </tr>
+                <tr class="a">
+                    <td colspan="6">Call him on Thursdays between 04:00 and 09:59. He is in between the house and Victory Road.</td>                                                                        
+                </tr>
+                <tr>
+                    <td>Fisherman Ralph</td>
+                    <td>1</td>
+                    <td>Route 32</td>
+                    <td>Goldeen</td>
+                    <td>10</td>
+                    <td>1</td>                                                                            
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>2</td>
+                    <td>Route 32</td>
+                    <td>Seaking</td>
+                    <td>40</td>
+                    <td>2</td>                                                                            
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>3</td>
+                    <td>Route 32</td>
+                    <td>Qwilfish / Seaking</td>
+                    <td>42-45</td>
+                    <td>1 / 2</td>                                                                            
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>4+</td>
+                    <td>Route 32</t<6 x 1d>
+                    <td>Qwilfish / Seaking</td>
+                    <td>53-56</td>
+                    <td>1 / 2</td>                                                                            
+                </tr>
+                <tr>
+                    <td colspan="6">Call him on Wednesdays between 04:00-09:59.</td>                                                                        
+                </tr>
+                <tr class="a">
+                    <td>Fisherman Tully</td>
+                    <td>1</td>
+                    <td>Route 42</td>
+                    <td>Qwilfish</td>
+                    <td>19</td>
+                    <td>1</td>                                                                            
+                </tr>
+                <tr class="a">
+                    <td></td>
+                    <td>2</td>
+                    <td>Route 42</td>
+                    <td>Qwilfish</td>
+                    <td>33</td>
+                    <td>1</td>                                                                            
+                </tr>
+                <tr class="a">
+                    <td></td>
+                    <td>3</td>
+                    <td>Route 42</td>
+                    <td>Goldeen x2 / Qwilfish</td>
+                    <td>30-38</td>
+                    <td>1 x 3</td>                                                                            
+                </tr>
+                <tr class="a">
+                    <td></td>
+                    <td>4+</td>
+                    <td>Route 42</td>
+                    <td>Seaking x2 / Qwilfish</td>
+                    <td>41-53</td>
+                    <td>2 x 2 / 1</td>                                                                            
+                </tr>
+                <tr class="a">
+                    <td colspan="6">Call him on Sundays between 10:00-19:59.</td>                                                                        
+                </tr>
+                <tr>
+                    <td>Fisherman Wilton</td>
+                    <td>1</td>
+                    <td>Route 44</td>
+                    <td>Goldeen x2 / Seaking</td>
+                    <td>26-28</td>
+                    <td>1 x 2 / 2</td>                                                                            
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>2</td>
+                    <td>Route 44</td>
+                    <td>Goldeen x2 / Seaking</td>
+                    <td>32-36</td>
+                    <td>1 x 2 / 2</td>                                                                            
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>3</td>
+                    <td>Route 44</td>
+                    <td>Goldeen / Seaking x2</td>
+                    <td>32-40</td>
+                    <td>1 / 2 x 2</td>                                                                            
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>4+</td>
+                    <td>Route 44</td>
+                    <td>Seaking x3</td>
+                    <td>42-63</td>
+                    <td>2 x 3</td>                                                                            
+                </tr>
+                <tr>
+                    <td colspan="6">Call him on Thursdays between 04:00-09:59.</td>                                                                        
+                </tr>
+                  <tr>
+                      <th colspan="6">Defense EVs</th>
+                  </tr>
+                <tr>
+                    <td>Hiker Perry</td>
+                    <td>1</td>
+                    <td>Route 45</td>
+                    <td>Onix</td>
+                    <td>30</td>
+                    <td>1</td>                                                                            
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>2</td>
+                    <td>Route 45</td>
+                    <td>Onix / Graveler</td>
+                    <td>35-38</td>
+                    <td>1 / 2</td>                                                                            
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>3</td>
+                    <td>Route 45</td>
+                    <td>Steelix / Graveler</td>
+                    <td>37-41</td>
+                    <td>2 x 2</td>                                                                            
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>4+</td>
+                    <td>Route 45</td>
+                    <td>Steelix / Golem</td>
+                    <td>52-56</td>
+                    <td>2 / 3</td>                                                                            
+                </tr>
+                <tr>
+                    <td colspan="6">Call him on Fridays between 10:00-19:59. He also gives out Irons.</td>                                                                        
+                </tr>
+                <tr class="a">
+                    <td>Hiker Kenny</td>
+                    <td>All</td>
+                    <td>Route 13</td>
+                    <td>Sandslash / Graveler / Golem</td>
+                    <td>27-33</td>
+                    <td>2 / 2 / 3</td>                                                                            
+                </tr>
+                <tr class="a">
+                    <td></td>
+                    <td>All</td>
+                    <td>Route 13</td>
+                    <td>Onix / Sandslash / Graveler / Golem</td>
+                    <td>16-37</td>
+                    <td>1 / 2 / 2 / 3</td>                                                                            
+                </tr>
+                <tr class="a">
+                    <td></td>
+                    <td>All</td>
+                    <td>Route 13</td>
+                    <td>Sandslash / Graveler / Golem / Onix</td>
+                    <td>37-46</td>
+                    <td>2 / 2 / 3 / 1</td>                                                                            
+                </tr>
+                <tr class="a">
+                    <td></td>
+                    <td>All</td>
+                    <td>Route 13</td>
+                    <td>Sandslash / Graveler / Golem / Steelix</td>
+                    <td>11-12</td>
+                    <td>2 / 2 / 3 / 2</td>                                                                            
+                </tr>
+                <tr class="a">
+                    <td colspan="6">Call him on Saturdays between 10:00-19:59.</td>                                                                        
+                </tr>
+                  <tr>
+                      <th colspan="6">Special Attack EVs</th>
+                  </tr>
+                <tr>
+                    <td>Lass Dana</td>
+                    <td>1</td>
+                    <td>Route 38</td>
+                    <td>Flaaffy / Psyduck</td>
+                    <td>19</td>
+                    <td>2 / 1</td>                                                                            
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>2</td>
+                    <td>Route 38</td>
+                    <td>Flaaffy / Golduck</td>
+                    <td>31-32</td>
+                    <td>2 / 2</td>                                                                            
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>3+</td>
+                    <td>Route 38</td>
+                    <td>Golduck / Ampharos</td>
+                    <td>36-54</td>
+                    <td>2 / 3</td>                                                                            
+                </tr>
+                <tr>
+                    <td colspan="6">Call her on Thursdays between 00:00-03:59 and 20:00-23:59.</td>                                                                        
+                </tr>
+                <tr class="a">
+                    <td>Young Couple Tim and Sue</td>
+                    <td>1</td>
+                    <td>Route 13</td>
+                    <td>Kadabra / Psyduck</td>
+                    <td>41-46</td>
+                    <td>2 / 1</td>                                                                            
+                </tr>
+                <tr class="a">
+                    <td></td>
+                    <td>2-3</td>
+                    <td>Route 13</td>
+                    <td>Kadabra / Golduck</td>
+                    <td>45-52</td>
+                    <td>2 / 2</td>                                                                            
+                </tr>
+                <tr class="a">
+                    <td></td>
+                    <td>4+</td>
+                    <td>Route 13</td>
+                    <td>Alakazam / Golduck</td>
+                    <td>54-56</td>
+                    <td>3 / 2</td>                                                                            
+                </tr>
+                <tr class="a">
+                    <td colspan="6">Call them on Fridays between 10:00-19:59. This is a double battle.</td>                                                                        
+                </tr>
+                  <tr>
+                      <th colspan="6">Special Defense EVs</th>
+                  </tr>
+                <tr>
+                    <td>Biker Aiden</td>
+                    <td>All</td>
+                    <td>Route 17</td>
+                    <td>Tentacruel</td>
+                    <td>45</td>
+                    <td>2</td>                                                                            
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>All</td>
+                    <td>Route 17</td>
+                    <td>Hypno / Tentacruel</td>
+                    <td>49-55</td>
+                    <td>2 / 2</td>                                                                            
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>All</td>
+                    <td>Route 17</td>
+                    <td>Tentacruel x2 / Hypno</td>
+                    <td>55-58</td>
+                    <td>2 x 2 / 2</td>                                                                            
+                </tr>
+                <tr>
+                    <td colspan="6">Call him on Mondays between 04:00-09:59. He is the one that is riding up and down.</td>                                                                        
+                </tr>
+                  <tr>
+                      <th colspan="6">Speed EVs</th>
+                  </tr>
+                <tr>
+                    <td>Youngster Joey</td>
+                    <td>1</td>
+                    <td>Route 30</td>
+                    <td>Rattata</td>
+                    <td>4</td>
+                    <td>1</td>                                                                            
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>2+</td>
+                    <td>Route 30</td>
+                    <td>Raticate</td>
+                    <td>34-54</td>
+                    <td>2</td>                                                                            
+                </tr>
+                <tr>
+                    <td colspan="6">Call him on Mondays between 10:00-19:59.</td>                                                                        
+                </tr>
+                <tr class="a">
+                    <td>Fisherman Kyler</td>
+                    <td>1</td>
+                    <td>Route 12</td>
+                    <td>Magikarp x3</td>
+                    <td>18</td>
+                    <td>1 x 3</td>                                                                            
+                </tr>
+                <tr class="a">
+                    <td></td>
+                    <td>2</td>
+                    <td>Route 12</td>
+                    <td>Magikarp x4</td>
+                    <td>18</td>
+                    <td>1 x 4</td>                                                                            
+                </tr>
+                <tr class="a">
+                    <td></td>
+                    <td>3</td>
+                    <td>Route 12</td>
+                    <td>Magikarp x5</td>
+                    <td>18</td>
+                    <td>1 x 5</td>                                                                            
+                </tr>
+                <tr class="a">
+                    <td></td>
+                    <td>4+</td>
+                    <td>Route 12</td>
+                    <td>Magikarp x6</td>
+                    <td>18</td>
+                    <td>1 x 6</td>                                                                            
+                </tr>
+                <tr class="a">
+                    <td colspan="6">Call him on Thursdays between 10:00-19:59. He's at the very south end of Route 12.</td>                                                                        
+                </tr>
+                  <tr>
+                      <th colspan="6">Attack + Speed EVs</th>
+                  </tr>
+                <tr>
+                    <td>Youngster Ian</td>
+                    <td>1</td>
+                    <td>Route 34</td>
+                    <td>Mankey / Diglett</td>
+                    <td>10-12</td>
+                    <td>1 Attack / 1 Speed</td>                                                                            
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>2</td>
+                    <td>Route 34</td>
+                    <td>Mankey / Dugtrio</td>
+                    <td>27-33</td>
+                    <td>1 Attack / 2 Speed</td>                                                                            
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>3+</td>
+                    <td>Route 34</td>
+                    <td>Primeape / Dugtrio</td>
+                    <td>38-56</td>
+                    <td>2 Attack / 2 Speed</td>                                                                            
+                </tr>
+                <tr>
+                    <td colspan="6">Call him on Saturdays between 04:00-09:59.</td>                                                                        
+                </tr>
+                  <tr>
+                      <th colspan="6">Special Attack + Speed EVs</th>
+                  </tr>
+                <tr>
+                    <td>Trainer Hillary</td>
+                    <td>1</td>
+                    <td>Route 15</td>
+                    <td>Sunkern / Aipom</td>
+                    <td>31-41</td>
+                    <td>1 Special Attack / 1 Speed</td>                                                                            
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>2+</td>
+                    <td>Route 15</td>
+                    <td>Ambipom / Sunflora</td>
+                    <td>43-55</td>
+                    <td>2 Speed / 2 Special Attack</td>                                                                            
+                </tr>
+                <tr>
+                    <td colspan="6">Call him on Thursdays between 00:00-03:59 and 20:00-23:59.</td>                                                                        
+                </tr>
+                <tr class="a">
+                    <td>Ace Trainer Jamie</td>
+                    <td>1</td>
+                    <td>Route 26</td>
+                    <td>Rapidash / Flaaffy</td>
+                    <td>31-36</td>
+                    <td>2 Speed / 2 Special Attack</td>                                                                            
+                </tr>
+                <tr class="a">
+                    <td></td>
+                    <td>2+</td>
+                    <td>Route 26</td>
+                    <td>Rapidash / Ampharos</td>
+                    <td>37-59</td>
+                    <td>2 Speed / 3 Special Attack</td>                                                                            
+                </tr>
+                <tr class="a">
+                    <td colspan="6">Call her on Fridays between 10:00-19:59. She's right next to the Victory Road gate.</td>                                                                        
+                </tr>
+                  <tr>
+                      <th colspan="6">Defense + Special Defense EVs</th>
+                  </tr>
+                <tr>
+                    <td>Sailor Huey</td>
+                    <td>4+</td>
+                    <td>Olivine Lighthouse</td>
+                    <td>Politoed / Poliwrath</td>
+                    <td>48-52</td>
+                    <td>3 Special Defense / 3 Defense</td>                                                                            
+                </tr>
+                <tr>
+                    <td colspan="6">Call him on Wednesdays between 00:00-03:59 and 20:00-23:59. This trainer is only useful from the 4th battle onward.</td>                                                                        
+                </tr>
+              </tbody>
+          </table>
+
+<p>Alright, now that we have a pretty good idea of where to kill what, let's go back to our Gengar. Here's another rule for you -</p>
+
+<p><strong>Very Important Rule #4</strong> - <em>A Pokémon starts gaining EVs from its very first battle.</em></p>
+
+<p>That simply means that if you have a freshly bred Clamperl and send it to battle, it automatically gains EVs from what it first kills. Now, let's look at some steps that we need to take in order to help us EV Train.</p>
+
+<p><strong>1. Determine your Distribution</strong>.</p>
+
+<p>For more information, please check Section 6. Since we're dealing with Gengar, you can travel to <a href="/dp/pokemon/gengar">Gengar's Analysis</a> to figure out its base stats. Gengar's Special Attack and Speed are the qualities that make it effective, so in our example we will focus on that. A simple spread that maximizes Gengar's Special Attacking potential will do - we will set the following as our goal:</p>
+
+<p><strong>Timid Nature + 6 HP / 252 SpA / 252 Spe EVs</strong></p>
+
+<p>It's as simple as that! Simply determine what your Pokémon is good at (or steal or create some EVs), and you're ready to roll.</p>
+
+<p><strong>2. Make Preparations</strong>.</p>
+
+<p>Making preparations before EV Training is crucial. In fact, it's so crucial that it will make your work ten times easier...literally! Let's ponder over this for a while. Looking at our EV spread of 252 SpA / 252 Spe / 6 HP, we're going to need to kill 252 Pokémon that give special Attack EVs, 252 Pokémon that give Speed EVs, and 6 Pokémon that give HP EVs. Right?</p>
+
+<p>At first glance this might be the way to go. However, would you really want to spend hours killing more than 600 Pokémon? Obviously not! Thankfully, Game Freak has blessed the Pokémon games with a number of useful tools that will lift a burden off our shoulders and prevent us from clicking buttons from dusk till dawn.</p>
+
+<p>Let me introduce some (more) formulas to you. In the following formulas, please assume that the variable <strong>y</strong> refers to the number of unique EVs gained by defeating any Pokémon.</p>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Condition</th>
+<th>Formulae</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>With no Item and no Pokérus</td>
+<td>y</td>
+</tr>
+<tr class="a">
+<td>With Pokérus or a Macho Brace</td>
+<td>(y * 2)</td>
+</tr>
+<tr>
+<td>With Pokérus and a Macho Brace</td>
+<td>(y * 4)</td>
+</tr>
+<tr class="a">
+<td>With a Power Item</td>
+<td>(y + 4)</td>
+</tr>
+<tr>
+<td>With a Power Item and Pokérus</td>
+<td>(y + 4) * 2</td>
+</tr>
+</tbody>
+</table>
+
+<p>Yes, it's true - you can enhance the number of EVs you gain for every Pokémon you kill! The proof? Why, the formulas above! Now you're thinking about all those weird terms and items in the formulas up there, right? Well, fear no more - I will reveal their purposes!</p>
+
+<ol>
+<li><strong>Pokerus</strong> - You may have heard of a "virus" in the Pokémon games known as Pokérus. If you haven't, don't stress yourself, as there is only a 1/21845 chance for a Pokémon to actually be diagnosed by the mysterious virus. If a Pokémon in your party does have Pokérus, the nurse at the Pokémon Center will tell you. A Pokémon will also have the symbol <img src="/media/ingame/images/dpp_evguide_pkrs.png" alt="pokerus" /> in its profile if it does have the virus. In order to spread the virus around, you will want two Pokémon in your party: a Pokérus patient and a patient-to-be. Have the patient battle a few Pokémon (usually 3-7) until the symbol <img src="/media/ingame/images/dpp_evguide_pkrs.png" alt="pokerus" /> appears in the patient-to-be's profile. For more information, head over to the <a href="/forums/forumdisplay.php?f=53">Smogon Wi-Fi Forums</a>; I'm sure that a lot of friendly faces are willing to give you a hand. Anyway, what's so good about a stupid virus, you ask? Well...<strong>Pokérus doubles EVs earned</strong>. That's why it's such a useful thing to have. However, Pokérus is not unlimited. If you leave your Pokémon in your party and not in your PC for one day, the Pokémon in question will no longer be able to spread Pokérus, indicated by the symbol <img src="/media/ingame/images/dpp_evguide_pkrs_cured.png" alt="smiley" />. As said before, this Pokémon will be unable to spread Pokérus, but still has the effects of Pokérus remaining. It is not recommended that you begin EV Training without Pokérus. Have your Pokémon contract it now!</li>
+<li><strong>The Macho Brace</strong> - The Macho Brace is another excellent item that also <strong>doubles EVs earned</strong>. You can get it by heading to Pastoria City, entering a house directly north of the Poké Mart, talking to the boy, and showing him both genders of Combee. Do note that female Combees are rather rare, so you might have to do a little searching. The Macho Brace halves the Speed (not EVs, just the stat, temporarily) of your Pokémon in battle. Though the Macho Brace seems sweet, it's not really the best. The best are:</li>
+<li><strong>Power Items</strong> - Power Items also greatly aid in EV Training specific stats, although they can be rather problematic to purchase. They are only available as Battle Tower prizes, and each costs 16 BPs (Battle Points), so you will need to challenge the Battle Tower several times to earn the BPs you need. Purchase all six of them! You'll need them. Like the Macho Brace, Power Items also halve the Speed of your Pokémon in battle.</li>
+</ol>
+
+<p>Since I have advised you to buy all six Power Items, here is a reference as to which item boosts what:</p>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Power Item</th>
+<th>EVs Provided</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><img src="/media/ingame/images/dpp_evguide_power_weight.png" alt="power weight" /> Power Weight</td>
+<td>HP EVs Only</td>
+</tr>
+<tr class="a">
+<td><img src="/media/ingame/images/dpp_evguide_power_bracer.png" alt="power bracer" /> Power Bracer</td>
+<td>Atk EVs Only</td>
+</tr>
+<tr>
+<td><img src="/media/ingame/images/dpp_evguide_power_belt.png" alt="power belt" /> Power Belt</td>
+<td>Def EVs Only</td>
+</tr>
+<tr class="a">
+<td><img src="/media/ingame/images/dpp_evguide_power_lens.png" alt="power lens" /> Power Lens</td>
+<td>SpA EVs Only</td>
+</tr>
+<tr>
+<td><img src="/media/ingame/images/dpp_evguide_power_band.png" alt="power band" /> Power Band</td>
+<td>SpD EVs Only</td>
+</tr>
+<tr class="a">
+<td><img src="/media/ingame/images/dpp_evguide_power_anklet.png" alt="power anklet" /> Power Anklet</td>
+<td>Spe EVs Only</td>
+</tr>
+</tbody>
+</table>
+
+<p>Take another look at the five formulas of EV Training I just showed you. If you do a little math, you'll realize that the formulae that can yield the most EVs is:</p>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Condition</th>
+<th>Formula</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>With a Power Item and Pokérus</td>
+<td>(y + 4) * 2</td>
+</tr>
+</tbody>
+</table>
+
+<p>Therefore, we will be focusing on that one. But first, just how many EVs can you gain now if you have both Pokérus and equip a Power Item? Assume <strong>y</strong> is 1. That's 10 EVs per kill! See how I didn't lie when I told you your life would be ten times easier if you made preparations? (Also, if you haven't already, get your Power Items...NOW!)</p>
+
+<p>Pokérus and Power Items are pretty much the most essential things to have - together, they harmoniously make the most out of the number of EVs you gain for every Pokémon you kill. It's not over yet, though...</p>
+
+<p><strong>3. Vis-a-Vis Vitamins</strong>...</p>
+
+<p>It's in the human nature for we as people to look for the easiest way to get things done, and EV Training is no exception. Let's make your life ten times easier! Yes, again!</p>
+
+<p>Vitamins in Pokémon terminology are the following six items that require no additional explanation from me:</p>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Vitamin</th>
+<th>EVs Provided</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><img src="/media/ingame/images/dpp_evguide_vitamin_hpup.png" alt="hp up" /> HP UP</td>
+<td>10 HP EVs</td>
+</tr>
+<tr class="a">
+<td><img src="/media/ingame/images/dpp_evguide_vitamin_protein.png" alt="protein" /> Protein</td>
+<td>10 Atk Evs</td>
+</tr>
+<tr>
+<td><img src="/media/ingame/images/dpp_evguide_vitamin_iron.png" alt="iron" /> Iron </td>
+<td>10 Def EVs</td>
+</tr>
+<tr class="a">
+<td><img src="/media/ingame/images/dpp_evguide_vitaman_calcium.png" alt="calcium" /> Calcium</td>
+<td>10 SpA EVs</td>
+</tr>
+<tr>
+<td><img src="/media/ingame/images/dpp_evguide_vitamin_zinc.png" alt="zinc" /> Zinc</td>
+<td>10 SpD EVs</td>
+</tr>
+<tr class="a">
+<td><img src="/media/ingame/images/dpp_evguide_vitamin_carbos.png" alt="carbos" /> Carbos</td>
+<td>10 Spe EVs</td>
+</tr>
+</tbody>
+</table>
+
+<p>Just like that, you can use Vitamins to automatically add EVs to your Pokémon without having to do anything but press a few buttons! However, with good news usually comes the bad, and there are two "catches" of using Vitamins:</p>
+
+<ol>
+<li><strong>$$$$$... ?????</strong>: Vitamins are downright expensive. They cost $9800 a bottle and are sold from the Veilstone City Department Store (Fly to Veilstone City; the Department Store is on the same island as where you land). If you have $999,999 and are looking for a couple of battles, do spend your money on these valuable items. However, they are certainly worth the money. Vitamins can also be purchased for 1 BP per bottle in the Battle Tower.</li>
+<li><strong>Limitations</strong>: You can only use 10 Vitamins on each stat, and Vitamins only work for the first 100 EVs of any stat. That's the maximum number, but 10 Vitamins = 100 EVs already. That's no laughing matter.</li>
+</ol>
+
+<h2><a name="train">Section Eight - Begin EV Training</a></h2>
+
+<p>Previously we mentioned our example Gengar:</p>
+
+<p><img src="/download/sprites/dp/94.png" alt="gengar!" /></p>
+
+<p><strong>Goal: 6 HP / 252 SpA / 252 Spe</strong></p>
+
+<p>It is also very important to remember that EVs are invisible and that you will not be able to see their full advantages until your Pokémon reaches higher levels, so KEEP TRACK of your EVs, and don't worry if it doesn't seem like your Pokémon is gaining many stat points at low levels!</p>
+
+<p>Let's go through the process, then!</p>
+
+<p>Have a Pokérus patient spread the virus to Gengar. In order to do this, simply have them both (and both only) in the party and battle in the wild a few times.</p>
+
+<p>2. Purchase 10 Calcium and 10 Carbos Vitamins.</p>
+
+<p>3. Feed the Vitamins.</p>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Idea</th>
+<th>Data</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><strong>EVs Earned</strong></td>
+<td>100 SpA / 100 Spe</td>
+</tr>
+<tr class="a">
+<td><strong>EVs To Go</strong></td>
+<td>152 SpA / 152 Spe / 6 HP</td>
+</tr>
+<tr>
+<td><strong>Total EVs we Have</strong></td>
+<td>100 SpA / 100 Spe</td>
+</tr>
+</tbody>
+</table>
+
+<p>4. Go to Route 201.</p>
+
+<p>5. Do not equip anything and kill 3 Bidoof. <strong>(6 HP EVs)</strong></p>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Idea</th>
+<th>Data</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><strong>EVs Earned</strong></td>
+<td>6 HP</td>
+</tr>
+<tr class="a">
+<td><strong>EVs To Go</strong></td>
+<td>152 SpA / 152 Spe</td>
+</tr>
+<tr>
+<td><strong>Total EVs we Have</strong></td>
+<td>6 HP / 100 SpA / 100 Spe</td>
+</tr>
+</tbody>
+</table>
+
+<p>6. Head over to the Old Chateau in Eterna Forest.</p>
+
+<p>7. Equip the Power Lens.</p>
+
+<p>8. Kill 15 Gastly. <strong>(150 SpA EVs)</strong></p>
+
+<p>9. Remove the Power Lens.</p>
+
+<p>10. Kill 1 Gastly. <strong>(2 SpA EVs)</strong></p>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Idea</th>
+<th>Data</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><strong>EVs Earned</strong></td>
+<td>152 SpA</td>
+</tr>
+<tr class="a">
+<td><strong>EVs To Go</strong></td>
+<td>152 Spe</td>
+</tr>
+<tr>
+<td><strong>Total EVs we Have</strong></td>
+<td>6 HP / 252 SpA / 100 Spe</td>
+</tr>
+</tbody>
+</table>
+
+<p>11. Go anywhere with a pool of water.</p>
+
+<p>12. Equip the Power Anklet.</p>
+
+<p>13. Use your Old Rod to fish for Magikarp. Kill 15 Magikarp. <strong>(150 Spe EVs)</strong></p>
+
+<p>14. Remove the Power Anklet.</p>
+
+<p>15. Kill 1 Magikarp. <strong>(2 Spe EVs)</strong></p>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Idea</th>
+<th>Data</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><strong>EVs Earned</strong></td>
+<td>152 Spe</td>
+</tr>
+<tr class="a">
+<td><strong>EVs To Go</strong></td>
+<td>None</td>
+</tr>
+<tr>
+<td><strong>Total EVs we Have</strong></td>
+<td>6 HP / 252 SpA / 252 Spe - Done!</td>
+</tr>
+</tbody>
+</table>
+
+<p>17. Go to Sunyshore City, head over to the Market, and talk to the woman to get the Effort Ribbon.</p>
+
+<p><strong>Commentary</strong>: If you've been following intently, then you've just learnt how to EV Train a Pokémon. You might have some questions, though. For instance, what does Step 13 mean? By that point, you had 150 Speed EVs already and wanted only 2 more EVs. In order to do that, unequip your Power Item (Anklet in this case) and kill only one more Magikarp to obtain the 2 Speed EVs. How does that work? Well, refer to the old formula:</p>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Condition</th>
+<th>Formula</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>With Pokérus or a Macho Brace</td>
+<td>(y * 2)</td>
+</tr>
+</tbody>
+</table>
+
+<p>With only Pokérus, the EVs you gain are doubled. Magikarp yields 1 Speed EV, and if you double that, it becomes 2 EVs. Equipping and unequipping Power Items at the right times help prevent you from over-EVing.</p>
+
+<p><img src="/media/ingame/images/dpp_evguide_effort_ribbon.png" alt="Effort Ribbon" /><strong>The Effort Ribbon</strong></p>
+
+<p>The Effort Ribbon is awarded to a Pokémon by a woman in Sunyshore Market in DPP and in Blackthorn City in HGSS. A Pokémon obtains the Effort Ribbon if it successfully gains 510 EVs. You will need all 510; 508 won't do! Use the ribbon as a reference to realize whether or whether not you messed up. Practice makes perfect...don't finish EV Training until you get this reward! After you obtain 510 EVs, you may level your Pokémon up to whatever level you desire.</p>
+
+<p><strong>"Split EV Training"</strong></p>
+
+<p>Split EV Training is a far more dangerous method than the Standard method of focusing on one stat before moving on to the next. Split EV Training refers to the following: for example, you equip a Power Lens to your Pokémon and kill a Bidoof. That means you gain 4 Special Attack EVs and 1 HP EV by killing one Bidoof, numbers of which are obviously doubled by Pokérus. This method is not recommended because of difficulty to keep track of EVs, but if you have an effective way of doing so, feel free to Split EV Train.</p>
+
+<p><strong>"The Box Trick"</strong></p>
+
+<p>The Box Trick is a useful way to EV Train some Pokémon so that they are allowed to participate in Pokémon Video Game Tournaments. The Video Game Tournaments only permit Pokémon up to level 50 to enter; several important Pokémon are only available at level 50 in Platinum - for example, Heatran and Cresselia. Usually, after EV Training, you will level a Pokémon up unti Golemtdtd
+img src=trl the EVs you invested into it become clearly shown in its stats. However, with "The Box Trick," you will be able to simply EV Train a Pokémon, place it in your PC box (during which time your Pokémon's stats are recalculated to reflect the EVs you invested into it), withdraw it, and the Pokémon's stats change based on the EVs you invested into it. In other words, if your Pokémon is at level 1, no dramatic changes will be seen; however, if your Pokémon is at level 50, you will be able to see evident changes in their stats. Note that your Pokémon will still gain EXP in the EV Training process, though, so it is recommended that you fight low-level Pokémon. In conclusion, this is simply a way of making EVs seen without having to level a Pokémon up.</p>
+
+<h2><a name="samples">Section Nine - EV Training Samples</a></h2>
+
+<p>Still confused? This section provides 2 more examples of how to EV Train some spreads.</p>
+
+<p><strong>Example One: Uxie</strong></p>
+
+<p><img src="/download/sprites/dp/485.png" alt="Uxie" /></p>
+
+<p><strong>240 HP / 28 Def / 16 SpA / 8 SpD / 218 Spe</strong></p>
+
+<p>1. Have Uxie contract Pokérus.</p>
+
+<p>2. Buy the applicable vitamins - 10 HP Ups, 10 Carbos, 2 Iron, and 1 Calcium.</p>
+
+<p>3. Feed the Vitamins.</p>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Idea</th>
+<th>Data</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><strong>EVs Earned</strong></td>
+<td>100 Spe / 100 HP / 20 Def / 10 SpA</td>
+</tr>
+<tr class="a">
+<td><strong>EVs To Go</strong></td>
+<td>140 HP / 8 Def / 6 SpA / 8 SpD / 118 Spe</td>
+</tr>
+<tr>
+<td><strong>Total EVs we Have</strong></td>
+<td>100 Spe / 100 HP / 20 Def / 10 SpA</td>
+</tr>
+</tbody>
+</table>
+
+<p>4. Head over to Route 201. Equip the Power Weight.</p> 
+
+<p>5. Kill 14 Bidoof <strong>(140 HP EVs)</strong>.</p>
+
+<p>6. Unequip the Power Weight. Head over to Oreburgh Mine. Equip nothing.</p>
+
+<p>7. Kill 4 Geodude <strong>(8 Def EVs)</strong>.</p>
+
+<p>8. Head over to the Old Chateau. Equip nothing. Kill 3 Gastly <strong>(6 SpA EVs)</strong>.</p>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Idea</th>
+<th>Data</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><strong>EVs Earned</strong></td>
+<td>140 HP / 8 Def / 6 SpA</td>
+</tr>
+<tr class="a">
+<td><strong>EVs To Go</strong></td>
+<td>8 SpD / 118 Spe</td>
+</tr>
+<tr>
+<td><strong>Total EVs we Have</strong></td>
+<td>240 HP / 28 Def / 16 SpA / 100 Spe</td>
+</tr>
+</tbody>
+</table>
+
+<p>9. Head over to Route 213. Surf in the water and equip nothing.</p>
+
+<p>10. Kill 4 Tentacool <strong>(8 SpD EVs)</strong>.</p>
+
+<p>11. Find any pool of water. Equip a Power Anklet. Use your Old Rod and fish for Magikarp.</p>
+
+<p>12. Kill 11 Magikarp <strong>(110 Spe EVs)</strong>.</p>
+
+<p>13. Unequip the Power Anklet.</p>
+
+<p>14. Kill 4 Magikarp <strong>(8 Spe EVs)</strong>.</p>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Idea</th>
+<th>Data</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><strong>EVs Earned</strong></td>
+<td>8 SpD / 118 Spe</td>
+</tr>
+<tr class="a">
+<td><strong>EVs To Go</strong></td>
+<td>None</td>
+</tr>
+<tr>
+<td><strong>Total EVs we Have</strong></td>
+<td>240 HP / 28 Def / 16 SpA / 8 SpD / 218 Spe - Done!</td>
+</tr>
+</tbody>
+</table>
+
+<p>15. Collect the Effort Ribbon.</p>
+
+<p><strong>Example Two: Marowak</strong></p>
+
+<p><img src="/download/sprites/dp/105.png" alt="Marowak" /></p>
+
+<p><strong>??????????</strong></p>
+
+<p>Your mother asks you to EV Train her Marowak as a chore. She tells you these things:</p>
+
+<ol>
+<li><strong>Marowak is meant for Trick Room!</strong></li>
+<li><strong>Marowak must be bulky!</strong></li>
+<li><strong>Marowak must hit hard with Earthquake and Stone Edge!</strong></li>
+</ol>
+
+<p>In this example, we must adhere to Mother's rules, find a spread of our own, and train the Marowak.</p>
+
+<p>Clue 1 states that "Marowak is meant for Trick Room." This means that training Speed EVs is out of the question.</p>
+
+<p>Clue 2 states that "Marowak must be bulky." Usually, one would train HP EVs for this.</p>
+
+<p>Clue 3 states that "Marowak must hit hard with Earthquake and Stone Edge." Mother is referring to Marowak's Attack stat, so we'll train too.</p>
+
+<p>What do you think the spread will be?</p>
+
+<p>We can generate a simple spread of 252 HP / 252 Atk / 6 Def and begin training the Marowak! 252 HP EVs buffs Marowak up, 252 Atk EVs allows it to hit hard, and 6 Def is simply an excuse for not investing in Speed EVs.</p>
+
+<p>This example will not use references to how many EVs are left, how many EVs you gained, and the Total EVs you have. It gets harder, but isn't too hard at all!</p>
+
+<ol>
+<li>Have Marowak contract Pokérus.</li>
+<li>Buy 10 HP Ups and 10 Proteins. Feed the Vitamins.</li> 
+<li>Head over to Route 201.</li> 
+<li>Equip a Power Weight.</li> 
+<li>Kill 15 Bidoof.</li>
+<li>Unequip the Power Weight.</li>
+<li>Kill 1 Bidoof.</li>
+<li>Head over to Route 202.</li>
+<li>Equip a Power Bracer.</li>
+<li>Kill 15 Shinx.</li>
+<li>Unequip the Power Bracer.</li>
+<li>Kill 1 Shinx.</li>
+<li>Head over to Oreburgh Mine. Equip nothing.</li>
+<li>Kill 3 Geodude.</li>
+<li>Collect the Effort Ribbon.</li>
+</ol>
+
+<p>And we are finally done.</p>
+
+<h2><a name="erase">Section Ten - Erase Your EVs</a></h2>
+
+<p>Oh no, oh no! It's the end of the world! You were happily using this guide, read a little too much, and <em>trained the wrong EVs</em>! What can be done!?</p>
+
+<p>Well, hopefully you know the EVs you trained wrong. If not, you'll have to start all over again. And you can, with the help of these six Berries:</p>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Berry</th>
+<th>EVs Erased</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><img src="/media/ingame/images/dpp_evguide_pomeg_berry.png" alt="berry" /> Pomeg Berry</td>
+<td>10 HP EVs</td>
+</tr>
+<tr class="a">
+<td><img src="/media/ingame/images/dpp_evguide_kelpsey_berry.png" alt="berry" /> Kelpsy Berry</td>
+<td>10 Atk EVs</td>
+</tr>
+<tr>
+<td><img src="/media/ingame/images/dpp_evguide_qualot_berry.png" alt="berry" /> Qualot Berry</td>
+<td>10 Def EVs</td>
+</tr>
+<tr class="a">
+<td><img src="/media/ingame/images/dpp_evguide_hondew_berry.png" alt="berry" /> Hondew Berry</td>
+<td>10 SpA EVs</td>
+</tr>
+<tr>
+<td><img src="/media/ingame/images/dpp_evguide_greppa_berry.png" alt="berry" /> Grepa Berry</td>
+<td>10 SpD EVs</td>
+</tr>
+<tr class="a">
+<td><img src="/media/ingame/images/dpp_evguide_tomato_berry.png" alt="berry" /> Tamato Berry</td>
+<td>10 Spe EVs</td>
+</tr>
+</tbody>
+</table>
+
+<p>One thing about these Berries that turns them on is this: if you invested more than 100 EVs in a stat, the first Berry you use to delete EVs in that stat will <strong>reduce it to 100 EVs</strong>. That's right - if you had 240 Defense EVs in a stat, and you used one Qualot Berry, then you'd have 100 Defense EVs left. All subsequent Berries will reduce the EV points by 10. Conclusion: you will only need 11 of a type of Berry to completely erase the EVs in one particular stat.</p>
+
+<p>These Berries might seem like godsends, but they're actually pretty rare and hard to get. There are two ways to get them. First, hop over to the <a href="/forums/forumdisplay.php?f=53">Smogon Wi-Fi Forums</a> and ask for help. Second, get them from the Berry Master, located in the house on Route 208. You are better off going with the first option, since the Berry Master gives a whole lot of Berry types and you'll need to soft reset for these EV-Lowering Berries.</p>
+
+<h2><a name="samples">Section Eleven - Additional Help</a></h2>
+
+<p>By this point you should be thoroughly knowledgeable about EVs already! Remember, being knowledgeable means that you can explain something to someone.</p>
+
+<p>Anyway, you might be stuck along your way, or just want to ask a question that wasn't highlighted in this guide. Look no further - here are some links that will aid you in your quest in becoming the master of EVs.</p>
+
+<p><a href="/forums/forumdisplay.php?f=43"><strong>Stark Mountain</strong></a> - Click the link and make your way to the "<strong>Ask a simple question, get a simple answer</strong>" thread. Please avoid creating a new thread; simply ask there. Smogon members are generally fast in responding to your questions and are always willing to help. However, if your question is something along the lines of "WHAT ARE EVs!?" then please look at this guide again. The "<strong>Ask a simple question, get a simple answer</strong>" thread is the place to go to if you're going to ask about how things work.</p>
+
+<p><a href="/forums/forumdisplay.php?f=53"><strong>Smogon Wi-Fi Forums</strong></a> - Click the link and make your way to the "<strong>Simple Questions / Simple Requests</strong>" thread. This is the place to go to if you're looking for the oh-so-hard-to-get Pokérus and EV-reducing Berries. If you're looking to set up trade threads or want to help Wi-Fi members EV Train, browse around the Wi-Fi Forums as well.</p>
+
+<p><a href="/forums/forumdisplay.php?f=42"><strong>Battling 101</strong></a> - Battling 101 is Smogon's tutoring program that pairs you with an expert for around a one-month period. In addition to helping you battle, tutors will also happily answer questions about EVs and any concerns that you may have. However, this program is difficult to get into - when a new round is up, sign-ups fill very quickly. You will have to battle your way through the program if you want to be a part of this valuable experience.</p>
+
+<p><a href="http://shoddybattle.com/downloads"><strong>Shoddy Battle Team Builder Application</strong></a> - If you download Shoddy Battle from the link on the left and open its Team Builder Application, you will be able to play around with all Pokémon and their EVs. You can also join the Smogon University server to participate in fun-filled battles against many other players!</p>
+
+<p>Finally, if you're still stuck, I'd suggest reading <a href="/forums/showthread.php?t=57856">this</a> a few times.</p>
+
+<p>Now, if your friend decides to challenge you again...</p>
+
+<p><img src="/download/sprites/dp/327.png" alt="Spinda" /></p>
+
+<p><strong>Hey, remember me, Dialga? Yeah, I was faster than you the last time we met!</strong></p>
+
+<p><img src="/download/sprites/dp/488.png" alt="Dialga" /></p>
+
+<p><strong>Are you sure? I just got EV Trained, you know...</strong></p>
+
+<p><img src="/download/sprites/dp/327.png" alt="Spinda again" /></p>
+
+<p><strong>*gulp*</strong></p>
+
+<p>Thank you and I hope you enjoyed my guide in which I attempted to make you laugh a few times but probably failed miserably.</p>
+
+<h2><a name="credits">Section Twelve - Credits</a></h2>
+
+<p>Without the help of certain people, this guide would not have been as effective as it is. I feel the need to acknowledge several members that have helped me immensely with this project. First is darkie, who was enthusiastic and extremely supportive when I first posted this guide. Tangerine also deserves special mention, as he encouraged me to continue improving the guide. Second are the people from <a href="/forums/showthread.php?t=60140">this thread</a> - without your help it would have been impossible to compile the fantastic EV Training hotspots list in Section Seven. Chaos669 and RBG in particular deserve high recognition due to them constantly contributing information. Third is mingot, who obviously spent a lot of time working on the difficult and tedious HTMLization process of the entire guide, in addition to being patient enough to correct my many mistakes. Fourth, I would like to thank you, the reader, for taking a moment out of your schedule to read this guide. Thank you everyone; I shall always be grateful, and your help shall never be forgotten!</p>

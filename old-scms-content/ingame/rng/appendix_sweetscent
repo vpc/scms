@@ -1,0 +1,114 @@
+[title]
+A Guide to Sweet Scent in the Fourth Generation
+[head]
+<meta name="description"  content="An in-depth guide on the inner-workings of Sweet Scent in the fourth generation." />
+[page]
+<div class="author">By <a href="/forums/member.php?u=10012">Ditto</a>. Art by <a href="/forums/member.php?u=87192">raikou00</a>.</div>
+
+<ol class="toc">
+<li><a href="#intro">Introduction</a></li>
+<li><a href="#manipulation">The use of Sweet Scent in RNG Manipulation</a></li>
+<li><a href="#level_up">Pokemon who learn Sweet Scent through Level-Up</a></li>
+<li><a href="#breeding">Pokemon who learn Sweet Scent through Breeding</a></li>
+<li><a href="#frame_scent">Frame Advancements caused by the use of Sweet Scent</a></li>
+<li><a href="#frame_wild">Frame Advancements caused by the Wild Pokemon Encounter</a></li>
+<li><a href="#math">Math for Examples</a></li>
+</ol>
+
+<h2><a name="intro">Introduction</a></h2>
+
+<p>In the overworld, Sweet Scent is a move that has the ability to  initiate a wild Pokemon battle in locations where random encounters are  possible. Sweet Scent ignores the effect of Repel. However, Sweet Scent  does not work if there is hail, heavy rain, fog, or sandstorm present  in the overworld.</p>
+
+<h2><a name="manipulation">The use of Sweet Scent in RNG Manipulation</a></h2>
+
+<p>When trying to hit a higher frame, using Sweet Scent can be a  very useful method, because it can advance the frame by a large amount;  however, you must be very careful with your calculations. This method  also does not require you to keep count of taps or flips and you can  check your frame by checking the Pokemon you battle. No other method of  advancement in DPP allows this.</p>
+
+<h2><a name="level_up">Pokemon who learn Sweet Scent through Level-Up:</a></h2>
+
+<div style="float: right; margin-left: 10px;"><img src="/media/upload/ingame/rng/sweetscent_bulbasaur.png" alt="" /></div>
+
+<ul>
+<li>Bulbasaur (21)</li>
+<li>Ivysaur (23)</li>
+<li>Venusaur (23)</li>
+<li>Oddish (5)</li>
+<li>Gloom (1/5)</li>
+<li>Bellsprout (29)</li>
+<li>Weepinbell (29)</li>
+<li>Victreebel (1)</li>
+<li>Chikorita (28)</li>
+<li>Bayleef (32)</li>
+<li>Meganium (34)</li>
+<li>Bellossom (1)</li>
+<li>Teddiursa (22)</li>
+<li>Ursaring (22)</li>
+<li>Surskit (13)</li>
+<li>Masquerain (1/13)</li>
+<li>Mawile (16)</li>
+<li>Illumise (5)</li>
+<li>Roselia (31)</li>
+<li>Tropius (21)</li>
+<li>Roserade (1)</li>
+<li>Combee (1)</li>
+<li>Vespiquen (1)</li>
+<li>Carnivine (17)</li>
+<li>Shaymin (37)</li>
+</ul>
+
+<h2><a name="breeding">Pokemon who learn Sweet Scent through Breeding:</a></h2>
+
+<ul>
+<li>Paras</li>
+<li>Sunkern</li>
+<li>Shuckle</li>
+<li>Lotad</li>
+<li>Cherubi</li>
+</ul>
+
+<h2><a name="frame_scent">Frame Advancements caused by the use of Sweet Scent:</a></h2>
+
+<p>Note: Advancements only result when there is a successful Sweet Scent.</p>
+
+<ul>
+<li>Sweet Scent used in DPP in grass or cave: +2</li>
+<li>Sweet Scent used in DPP while Surfing: +3</li>
+<li>Sweet Scent used in HGSS on bike: +1 or +2 (Depends on the game, but consistent within that game)</li>
+<li>Sweet Scent used in HGSS with Pokemon following: This has been  inconsistent, so riding your bike is recommended.</li>
+<li>Sweet Scent used in HGSS while Surfing: +2 or +3 (Depends on the game, but consistent within that game)</li>
+</ul>
+
+<h2><a name="frame_wild">Frame Advancements caused by the Wild Pokemon Encounter:</a></h2>
+
+<p>This is for all Wild Pokemon Encounters, not just ones brought  about by sweet scent. First you must know the frame of the spread you  encountered. You must also know the &quot;Actual Frame&quot; of  the spread you encountered. The Actual Frame of a spread is the frame of  the spread in Method 1. To find your current frame after the encounter,  you must take the Actual Frame of the spread and add 6. That is your  current frame.</p>
+
+<p><strong>Example:</strong><br />
+Game: DPP<br />
+Sweet Scent used in DPP in grass or cave: +2<br />
+Seed: 9311077c <br />
+Method: J (Timid Synch)<br />
+Roamers: 0<br />
+Location: Lost Tower 2F<br />
+Target: Frame 257 - Gastly | Timid | Ability 1 | 31/12/31/31/31/31</p>
+
+<ol>
+<li>My stating frame is 1 because I have no roamers and I add 2  because of the Sweet Scent advancement, so I battle a Pokemon on frame 3  (Gastly | Timid 15/14/17/4/0/8) with an Actual Frame of 58 . Once the  encounter is complete and I have either captured or fainted the wild  Pokemon, I add 6 to the Actual Frame. My current frame is now frame  64.</li>
+<li>I open my journal and access 1 page that says  &quot;caught/defeated [Pokemon Name]&quot;, which advances by  frame by 2 and gives my a current frame of 66. I use Sweet Scent again,  advancing my current frame to 68. This will be a Lonely Zubat  (18/6/13/6/26/6) with an Actual Frame of 116, ending with a current  frame of 122 after the encounter.</li>
+<li>I open my journal again and access 2 pages (the page can be  accessed more than once) that says &quot;caught/defeated [Pokemon  Name]&quot;, which advances by frame by 2 for each page and gives my  a current frame of 126. I use Sweet Scent again to encounter frame 128  holding a Bold Zubat (16/10/11/1/27/1) with an Actual Frame of 166,  making my current frame 172 after the encounter.
+</li>
+<li>I open my journal and access 1 page that says  &quot;caught/defeated [Pokemon Name]&quot;, advancing my frame  to 174. After another Sweet Scent, I have encountered a Lonely Tentacool  (6/3/9/2/29/24) on frame 176 (Actual Frame 184). After this encounter, I  am currently on frame 190.</li>
+<li>I open my journal again and access 3 pages that say  &quot;caught/defeated [Pokemon Name]&quot;, which gives me a  current frame of 196. Then I turn once (do not move off the tile you are  on though), which advances my frame by 1 to a current frame of 197.  After Sweet Scenting, I will encounter a Timid Zubat (12/27/31/7/4/26)  on frame 199 (Actual Frame 244). This encounter with bring me to frame  250, just 7 frames from my target.</li>
+<li>Now I will open my journal again and access 2 pages that say  &quot;caught/defeated [Pokemon Name]&quot; and turn once,  bringing me to frame 255 and just a Sweet Scent away from my Gasty.  Within 9 Journal flips, 2 turns, and 6 Sweet Scent, I have advanced my  frame from 1 to 257 and been able to check that my advancements were  correct throughout the entire process.</li>
+</ol>
+
+<p>If using HGSS, then you can use the radio or Elm calls in  order to advance the smaller amount of frames instead of Journal flips  or turns.</p>
+
+<h2><a name="math">Math for Above Example:</a></h2>
+
+<ol>
+<li>1 (Normal Starting frame) + 0 (Roamers) = 1 (My Starting  frame) + 2 (Sweet Scent used in DPP in grass or cave) = 3 (Encounter  frame) --&gt; 58 (Actual Frame of Encounter frame) + 6 (Encounter  Advancement) = 64 (Current frame after Encounter)</li>
+<li>64 (Current frame) + 2 (1 Journal Flip) = 66 (Current Frame  after Flips) + 2 (Sweet Scent used in DPP in grass or cave) = 68  (Encounter frame) --&gt; 116 (Actual Frame of Encounter frame) + 6  (Encounter Advancement) = 122 (Current frame after Encounter)</li>
+<li>122 (Current frame) + 4 (2 Journal Flips) = 126 (Current Frame  after Flips) + 2 (Sweet Scent used in DPP in grass or cave) = 128  (Encounter frame) --&gt; 166 (Actual Frame of Encounter frame) + 6  (Encounter Advancement) = 172 (Current frame after Encounter)</li>
+<li>172 (Current frame) + 2 (1 Journal Flip) = 174 (Current Frame  after Flips) + 2 (Sweet Scent used in DPP in grass or cave) = 176  (Encounter frame) --&gt; 184 (Actual Frame of Encounter frame) + 6  (Encounter Advancement) = 190 (Current frame after Encounter)</li>
+<li>190 (Current frame) + 6 (3 Journal Flips) = 196 (Current frame  after Flips) + 1 (1 Turn) = 197 (Current Frame after Turn) + 2 (Sweet  Scent used in DPP in grass or cave) = 199 (Encounter frame) --&gt; 244  (Actual Frame of Encounter frame) + 6 (Encounter Advancement) = 250  (Current frame after Encounter)</li>
+<li>250 (Current Frame) + 4 (2 Journal Flips) = 254 (Current frame  after Flips) + 1 (1 Turn) = 255 (Current frame after Turn) + 2 (Sweet  Scent used in DPP in grass or cave) = 257 (Encounter/Target  Frame)</li>
+</ol>

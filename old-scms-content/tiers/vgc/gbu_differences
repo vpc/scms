@@ -1,0 +1,168 @@
+[title]
+Smogon and GBU Differences
+[head]
+<meta name="description" content="A guide on the ruleset of the Global Battle Union and how it differs from Smogon's tiers." />
+[page]
+<div class="author">by <a href="/forums/member.php?u=60007">BattleStar</a></div>
+
+<h2>Introduction</h2>
+
+<p>A major addition to cartridge competitive battling this generation is the Global Battle Union, which allows you to challenge players from around the world in a variety of battle styles. The battle modes available are Singles, Doubles, Triples, and Rotation. Singles will be the primary focus of this letter; a general overview of all of the other battle types will also be included (barring doubles). GBU metagames are very different from Smogon's; you will find a much larger variety of threats and playstyles. For this reason, GBU is a fun and nice change of pace from standard Smogon battling.</p>
+
+<h2>Ban List</h2>
+
+<p>GBU doesn't have any suspect votes, so these bans are here to stay.</p>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Pokemon</th><th>Type</th><th>Abilities</th><th>HP</th><th>Atk</th><th>Def</th><th>SpA</th><th>SpD</th><th>Spe</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td><a href="/bw/pokemon/mewtwo">Mewtwo</a></td><td><a href="/bw/types/psychic">Psychic</a></td><td><a href="/bw/abilities/pressure">Pressure</a> / <a href="/bw/abilities/unnerve"><em>Unnerve</em></a></td><td>106</td><td>110</td><td>90</td><td>154</td><td>90</td><td>130</td>
+</tr>
+<tr>
+<td><a href="/bw/pokemon/mew">Mew</a></td><td><a href="/bw/types/psychic">Psychic</a></td><td><a href="/bw/abilities/synchronize">Synchronize</a></td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/pokemon/lugia">Lugia</a></td><td><a href="/bw/types/psychic">Psychic</a> / <a href="/bw/types/flying">Flying</a></td><td><a href="/bw/abilities/pressure">Pressure</a> / <a href="/bw/abilities/multiscale"><em>Multiscale</em></a></td><td>106</td><td>90</td><td>130</td><td>90</td><td>154</td><td>110</td>
+</tr>
+<tr>
+<td><a href="/bw/pokemon/ho-oh">Ho-Oh</a></td><td><a href="/bw/types/fire">Fire</a> / <a href="/bw/types/flying">Flying</a></td><td><a href="/bw/abilities/pressure">Pressure</a> / <a href="/bw/abilities/regenerator"><em>Regenerator</em></a></td><td>106</td><td>130</td><td>90</td><td>110</td><td>154</td><td>90</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/pokemon/celebi">Celebi</a></td><td><a href="/bw/types/psychic">Psychic</a> / <a href="/bw/types/grass">Grass</a></td><td><a href="/bw/abilities/natural_cure">Natural Cure</a></td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td>
+</tr>
+<tr>
+<td><a href="/bw/pokemon/kyogre">Kyogre</a></td><td><a href="/bw/types/water">Water</a></td><td><a href="/bw/abilities/drizzle">Drizzle</a></td><td>100</td><td>100</td><td>90</td><td>150</td><td>140</td><td>90</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/pokemon/groudon">Groudon</a></td><td><a href="/bw/types/ground">Ground</a></td><td><a href="/bw/abilities/drought">Drought</a></td><td>100</td><td>150</td><td>140</td><td>100</td><td>90</td><td>90</td>
+</tr>
+<tr>
+<td><a href="/bw/pokemon/rayquaza">Rayquaza</a></td><td><a href="/bw/types/dragon">Dragon</a> / <a href="/bw/types/flying">Flying</a></td><td><a href="/bw/abilities/air_lock">Air Lock</a></td><td>105</td><td>150</td><td>90</td><td>150</td><td>90</td><td>95</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/pokemon/jirachi">Jirachi</a></td><td><a href="/bw/types/steel">Steel</a> / <a href="/bw/types/psychic">Psychic</a></td><td><a href="/bw/abilities/serene_grace">Serence Grace</a></td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td>
+</tr>
+<tr>
+<td><a href="/bw/pokemon/deoxys">Deoxys</a></td><td><a href="/bw/types/psychic">Psychic</a></td><td><a href="/bw/abilities/pressure">Pressure</a></td><td>50</td><td>150</td><td>50</td><td>150</td><td>50</td><td>150</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/pokemon/deoxys-a">Deoxys-A</a></td><td><a href="/bw/types/psychic">Psychic</a></td><td><a href="/bw/abilities/pressure">Pressure</a></td><td>50</td><td>180</td><td>20</td><td>180</td><td>20</td><td>150</td>
+</tr>
+<tr>
+<td><a href="/bw/pokemon/deoxys-d">Deoxys-D</a></td><td><a href="/bw/types/psychic">Psychic</a></td><td><a href="/bw/abilities/pressure">Pressure</a></td><td>50</td><td>70</td><td>160</td><td>70</td><td>160</td><td>90</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/pokemon/deoxys-s">Deoxys-S</a></td><td><a href="/bw/types/psychic">Psychic</a></td><td><a href="/bw/abilities/pressure">Pressure</a></td><td>50</td><td>95</td><td>90</td><td>95</td><td>90</td><td>180</td>
+</tr>
+<tr>
+<td><a href="/bw/pokemon/chatot">Chatot</a></td><td><a href="/bw/types/normal">Normal</a> / <a href="/bw/types/flying">Flying</a></td><td><a href="/bw/abilities/keen_eye">Keen Eye</a> / <a href="/bw/abilities/tangled_feet">Tangled Feet</a> / <a href="/bw/abilities/big_pecks"><em>Big Pecks</em></a></td><td>76</td><td>65</td><td>45</td><td>92</td><td>42</td><td>91</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/pokemon/dialga">Dialga</a></td><td><a href="/bw/types/steel">Steel</a> / <a href="/bw/types/dragon">Dragon</a></td><td><a href="/bw/abilities/pressure">Pressure</a> / <a href="/bw/abilities/telepathy"><em>Telepathy</em></a></td><td>100</td><td>120</td><td>120</td><td>150</td><td>100</td><td>90</td>
+</tr>
+<tr>
+<td><a href="/bw/pokemon/palkia">Palkia</a></td><td><a href="/bw/types/water">Water</a> / <a href="/bw/types/dragon">Dragon</a></td><td><a href="/bw/abilities/pressure">Pressure</a> / <a href="/bw/abilities/telepathy"><em>Telepathy</em></a></td><td>90</td><td>120</td><td>100</td><td>150</td><td>120</td><td>100</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/pokemon/giratina">Giratina</a></td><td><a href="/bw/types/ghost">Ghost</a> / <a href="/bw/types/dragon">Dragon</a></td><td><a href="/bw/abilities/pressure">Pressure</a> / <a href="/bw/abilities/telepathy"><em>Telepathy</em></a></td><td>150</td><td>100</td><td>120</td><td>100</td><td>120</td><td>90</td>
+</tr>
+<tr>
+<td><a href="/bw/pokemon/giratina-o">Giratina-O</a></td><td><a href="/bw/types/ghost">Ghost</a> / <a href="/bw/types/dragon">Dragon</a></td><td><a href="/bw/abilities/levitate">Levitate</a> / <a href="/bw/abilities/levitate"><em>Levitate</em></a></td><td>150</td><td>120</td><td>100</td><td>120</td><td>100</td><td>90</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/pokemon/phione">Phione</a></td><td><a href="/bw/types/water">Water</a></td><td><a href="/bw/abilities/hydration">Hydration</a></td><td>80</td><td>80</td><td>80</td><td>80</td><td>80</td><td>80</td>
+</tr>
+<tr>
+<td><a href="/bw/pokemon/manaphy">Manaphy</a></td><td><a href="/bw/types/water">Water</a></td><td><a href="/bw/abilities/hydration">Hydration</a></td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/pokemon/darkrai">Darkrai</a></td><td><a href="/bw/types/dark">Dark</a></td><td><a href="/bw/abilities/bad_dreams">Bad Dreams</a></td><td>70</td><td>90</td><td>90</td><td>135</td><td>90</td><td>125</td>
+</tr>
+<tr>
+<td><a href="/bw/pokemon/shaymin">Shaymin</a></td><td><a href="/bw/types/grass">Grass</a></td><td><a href="/bw/abilities/natural_cure">Natural Cure</a></td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/pokemon/shaymin-s">Shaymin-S</a></td><td><a href="/bw/types/grass">Grass</a> / <a href="/bw/types/flying">Flying</a></td><td><a href="/bw/abilities/serene_grace">Serene Grace</a></td><td>100</td><td>103</td><td>75</td><td>120</td><td>75</td><td>127</td>
+</tr>
+<tr>
+<td><a href="/bw/pokemon/arceus">Arceus</a></td><td><a href="/bw/types/normal">Normal</a></td><td><a href="/bw/abilities/multitype">Multitype</a></td><td>120</td><td>120</td><td>120</td><td>120</td><td>120</td><td>120</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/pokemon/victini">Victini</a></td><td><a href="/bw/types/psychic">Psychic</a> / <a href="/bw/types/fire">Fire</a></td><td><a href="/bw/abilities/victory_star">Victory Star</a></td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td>
+</tr>
+<tr>
+<td><a href="/bw/pokemon/reshiram">Reshiram</a></td><td><a href="/bw/types/dragon">Dragon</a> / <a href="/bw/types/fire">Fire</a></td><td><a href="/bw/abilities/turboblaze">Turboblaze</a></td><td>100</td><td>120</td><td>100</td><td>150</td><td>120</td><td>90</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/pokemon/zekrom">Zekrom</a></td><td><a href="/bw/types/dragon">Dragon</a> / <a href="/bw/types/electric">Electric</a></td><td><a href="/bw/abilities/teravolt">Teravolt</a></td><td>100</td><td>150</td><td>120</td><td>120</td><td>100</td><td>90</td>
+</tr>
+<tr>
+<td><a href="/bw/pokemon/kyurem">Kyurem</a></td><td><a href="/bw/types/dragon">Dragon</a> / <a href="/bw/types/ice">Ice</a></td><td><a href="/bw/abilities/pressure">Pressure</a></td><td>125</td><td>130</td><td>90</td><td>130</td><td>90</td><td>95</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/pokemon/kyurem-b">Kyurem-B</a></td><td><a href="/bw/types/dragon">Dragon</a> / <a href="/bw/types/ice">Ice</a></td><td><a href="/bw/abilities/teravolt">Teravolt</a></td><td>125</td><td>170</td><td>100</td><td>120</td><td>90</td><td>95</td>
+</tr>
+<tr>
+<td><a href="/bw/pokemon/kyurem-w">Kyurem-W</a></td><td><a href="/bw/types/dragon">Dragon</a> / <a href="/bw/types/ice">Ice</a></td><td><a href="/bw/abilities/turboblaze">Turboblaze</a></td><td>125</td><td>120</td><td>90</td><td>170</td><td>100</td><td>95</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/pokemon/meloetta">Meloetta</a></td><td><a href="/bw/types/normal">Normal</a> / <a href="/bw/types/psychic">Psychic</a></td><td><a href="/bw/abilities/serene_grace">Serence Grace</a></td><td>100</td><td>77</td><td>77</td><td>128</td><td>128</td><td>90</td>
+</tr>
+<tr>
+<td><a href="/bw/pokemon/meloetta-p">Meloetta-P</a></td><td><a href="/bw/types/normal">Normal</a> / <a href="/bw/types/fighting">Fighting</a></td><td><a href="/bw/abilities/serence_grace">Serence Grace</a></td><td>100</td><td>128</td><td>90</td><td>77</td><td>77</td><td>128</td>
+<tr class="a">
+<td><a href="/bw/pokemon/genesect">Genesect</a></td><td><a href="/bw/types/bug">Bug</a> / <a href="/bw/types/steel">Steel</a></td><td><a href="/bw/abilities/download">Download</a></td><td>71</td><td>120</td><td>95</td><td>120</td><td>95</td><td>99</td>
+</tr>
+</tbody>
+</table>
+
+<h2>Set Conditions and Clauses</h2>
+
+<ul>
+<li><strong>Number of Pokemon:</strong> You can bring up to six Pokemon with you. For the battle, however, you will pick three for singles, four for doubles and rotations, and six for Triples. Any remaining Pokemon will not be used. You must always bring the minimum number of Pokemon.</li>
+
+<li><strong>Team Preview:</strong> Team Preview is always on. You get to see your opponent's team before you pick your Pokemon.</li>
+
+<li><strong>Pokemon Level:</strong> All Pokemon above level 50 become level 50 for the duration of the fight. Pokemon below level 50 do not have their level adjusted.</li>
+
+<li><strong>Species Clause:</strong> No two Pokemon on your team may be of the same species.</li>
+
+<li><strong>Item Clause:</strong> No two Pokemon on your team may have the same item.</li>
+
+<li><strong>Sky Drop Clause:</strong> No Pokemon may possess the move Sky Drop.</li>
+
+<li><strong>Soul Dew Clause:</strong> No Pokemon may hold Soul Dew.</li>
+
+<li><strong>Dark Void Clause:</strong> No Pokemon may possess the move Dark Void.</li>
+</ul>
+
+<p>Remember these rules because they differ from the rules Smogon has set!</p>
+
+<ul>
+<li>Sleep Clause is not in effect. This means your opponent can put your entire team to sleep. You can use this to your advantage as well.</li>
+
+<li>OHKO Clause is not in effect, so moves like Sheer Cold and Horn Drill are legal.</li>
+
+<li>There are no ability bans. Pairs such as Swift Swim Kingdra with Drizzle Politoed are fair game!</li>
+
+<li>Evasion Clause is not in effect, which means that you can use Minimize and Double Team.</li>
+</ul>
+
+<h2>Battle Differences in GBU</h2>
+
+<p>GBU being a unique battling mode naturally brings about much variety. You will find yourself against a rain team one battle and an all-Dragon team the next. Accurate adjectives to describe GBU battling would be: quick, offensive, and surprising.</p>
+
+<p>GBU is mainly an offensive metagame. This is caused by the fact that, in most cases, you are limited to using fewer than six Pokemon.</p>
+
+<p>In Singles, you won't be very successful if you decide to use the same strategies that are successful in Smogon OU. Entry hazards are seldom seen in any format due to the fact that, with the exception of Triples, there are fewer Pokemon available for use than normal.</p>
+
+<p>Another aspect of the Global Battle Union is that you must be aware that there are a plethora of surprises awaiting your arrival. This is an attribute which makes the metagame very enjoyable. Don't be shocked to find your opponent using Double Team on his Slugma or disregarding Sleep Clause. There are oodles of strategic surprises here that are fair game, which leads to a completely different set of tactics. You will find many interesting sets, some that are effective and others that are not so much. Nothing feels more satisfying than seeing your own gimmick sweep a team clean.</p>
+
+<h2>Conclusion</h2>
+
+<p>GBU is still a metagame that hasn't been explored much. It is one of the most fun features of Wi-Fi in BW. You will find a great, unique experience battling in the various modes of the GBU. It is a refreshing change in battling, and you can carve out your own place in the rankings and be seen as a top player without any standards to follow. Battling in the GBU pits you against other players against whom you can hope to prove you are a Global Battle Champ!</p>

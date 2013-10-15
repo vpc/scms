@@ -1,0 +1,50 @@
+[title]
+Standings - World Cup of Pokemon VI
+[header]
+[head]
+<script type="text/javascript" src="/media/jquery.js"></script>
+<script type="text/javascript" src="/media/jquery.tablesorter.js"></script>
+<link href="/media/worldcup/worldcup.css" type="text/css" rel="stylesheet" />
+[page]
+
+<h2>Standings</h2>
+
+<p>These standings will be used as qualifying for the World Cup quarter finals. The top 8 teams advance to the next stage of the tournament.</p>
+
+    <table class="sortable" id="standings">
+    <thead>
+        <tr>
+            <th>Team</th>
+            <th>Wins</th>
+            <th>Losses</th>
+            <th>Points</th>
+        </tr>
+    </thead>
+    <tbody>
+
+<tr><td class="azn"><strong>Asia</strong></td><td>12</td><td>11</td><td>24</td></tr>
+<tr><td class="ben"><strong>Benelux</strong></td><td>11</td><td>13</td><td>22</td></tr>
+<tr><td class="bra"><strong>Brazil</strong></td><td>13</td><td>11</td><td>26</td></tr>
+<tr><td class="cdn"><strong>Canada</strong></td><td>14</td><td>10</td><td>29</td></tr>
+<tr><td class="eur"><strong>Europe</strong></td><td>13</td><td>11</td><td>27</td></tr>
+<tr><td class="fra"><strong>France</strong></td><td>13</td><td>11</td><td>27</td></tr>
+<tr><td class="ger"><strong>Germany</strong></td><td>5</td><td>18</td><td>11</td></tr>
+<tr><td class="lat"><strong>Latin America</strong></td><td>14</td><td>10</td><td>25</td></tr>
+<tr><td class="mex"><strong>Mexico</strong></td><td>8</td><td>16</td><td>18</td></tr>
+<tr><td class="ocn"><strong>Oceania</strong></td><td>16</td><td>8</td><td>33</td></tr>
+<tr><td class="spa"><strong>Spain</strong></td><td>12</td><td>12</td><td>24</td></tr>
+<tr><td class="ukb"><strong>United Kingdom</strong></td><td>10</td><td>14</td><td>19</td></tr>
+<tr><td class="usc"><strong>USA Central</strong></td><td>7</td><td>17</td><td>14</td></tr>
+<tr><td class="use"><strong>USA East</strong></td><td>14</td><td>10</td><td>28</td></tr>
+<tr><td class="usm"><strong>USA Metro</strong></td><td>15</td><td>9</td><td>31</td></tr>
+<tr><td class="usw"><strong>USA West</strong></td><td>14</td><td>10</td><td>26</td></tr>
+
+</tbody>
+</table>
+
+<script type="text/javascript">
+$("#standings").tablesorter({
+widgets: ['zebra'],
+textExtraction: "complex",
+})
+</script>

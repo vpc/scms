@@ -1,0 +1,178 @@
+[Title]
+Wi-Fi Blacklist
+
+[Head]
+				<style type="text/css">
+			#blacklist {
+				display:block;
+				font-family: arial;
+				font-size:1em;
+				width:100%;
+			}
+			#blacklist thead { border-bottom:3px solid #68217A; }
+			#blacklist tbody, #blacklist thead{
+				display:block;
+				width:100%;
+			}
+			#blacklist tr {
+				display:block;
+				background-color: #FFF;
+				padding:.5em;
+			}
+			#blacklist tbody tr:hover {
+				color:#fff;
+				background-color: #68217A;
+			}
+			#blacklist td, #blacklist th {
+				width:33%;
+				text-align: left;
+				vertical-align: top;
+				display:inline-block;
+			}
+			#blacklist .username {
+				max-width: 128px;
+				min-width: 96px;
+				padding-right:1em;
+			}
+			#blacklist .fc {
+				max-width: 120px;
+				min-width: 96px;
+				padding-right:1em;
+			}
+			#blacklist .reason {
+				max-width: 512px;
+				min-width: 256px;
+			}
+			#blacklist a {
+				text-decoration: none;
+				color:inherit;
+				display:block;
+			}
+			#blacklist a:hover{
+				background-color: transparent !important;
+				color:inherit;
+			}
+
+			#jswarning{
+				padding:8px 32px;
+				background-color: #C66;
+				color:#fff;
+				font-weight: bold;
+			}
+
+			#bl-filter {
+				margin:8px 16px;
+			}
+			#bl-filter input{
+				padding: 4px 8px;
+				border:1px solid #CCC;
+				border-radius: 3px;
+			}
+		</style>
+
+
+[Page]
+		<div id="jswarning">
+			This page requires JavaScript.
+		</div>
+		<div id="bl-filter">
+			<label for="filter">Looking for someone?</label>
+			<input type="text" id="filter"/>
+		</div>
+		<table id="blacklist">
+			<thead>
+				<tr>
+				    <th class="username">Username</th>
+				    <th class="fc">FC</th>
+				    <th class="reason">Reason</th>
+			    </tr>
+			</thead>
+			<tbody>
+				<tr><td colspan="3">Loading...</td></tr>
+			</tbody>
+		</table>
+		<script id="blacklist-template" type="text/x-handlebars-template">
+			    {{#each this}}
+			    	<tr>
+			    		<td class="username"><a href="{{userprofile}}">{{username}}</a></td>
+			    		<td class="fc">{{userfc}}</td>
+			    		<td class="reason">{{reason}}</td>
+			    	</tr>
+			    {{/each}}
+		</script>
+
+
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.0.0-rc.3/handlebars.min.js"></script>
+		<script type="text/javascript">
+			ttp = { spreadsheet:[] };
+
+			ttp.settings = {
+				spreadsheetUrl: 'https://docs.google.com/spreadsheet/pub',
+				spreadsheetData: { key:'0AtyB9OcCj_WSdEY5UFVOSXdjYmtUUi00NFlOcG1PMXc', output:'csv', single:true, gid:9 },
+				mapping: [
+					{property:'username', index:0},
+					{property:'userprofile', index:1},
+					{property:'userfc', index:2},
+					{property:'reason', index:3}
+				]
+			};
+
+			ttp.processSpreadsheet = function(data){
+				var tempRecord, tempCells;
+				var map = ttp.settings.mapping;
+				ttp.spreadsheet = [];
+
+				var records = data.split('\n');
+				var tempCells, tempRecord;
+
+				for(var i = 1; i < records.length; i++)
+				{
+					tempRecord = { };
+					tempCells = records[i].split(',');
+
+					for(var j in map){
+						tempRecord[map[j].property] = tempCells[map[j].index].replace('((comma))', ','). replace('((newline))',' ');
+					}
+
+					ttp.spreadsheet.push(tempRecord);
+				}
+
+
+				$('#blacklist tbody').html(ttp.settings.template(ttp.spreadsheet));
+			};
+
+			$(function(){
+				$('#jswarning').hide();
+
+				if(!$.support.cors){
+					$('#unsupported').show();
+				}
+				else
+				{
+					ttp.settings.template = Handlebars.compile($("#blacklist-template").html());
+					$.support.cors = true;
+					$.ajax({
+						type:'get',
+						url:ttp.settings.spreadsheetUrl, 
+						data:ttp.settings.spreadsheetData, 
+						success:ttp.processSpreadsheet,
+						error:function(err){
+							$('#blacklist tbody td').html('Something went wrong. :( [This doesn\'t work right on IE9, so that could be it. I\'m working on it.]');
+						},
+						dataType: 'text'
+					});
+					$('#filter').keyup(function(){
+						var searchstr = $(this).val().toLowerCase();
+						$('#blacklist tr').each(function(){
+							var slf = $(this);
+							if(slf.text().toLowerCase().indexOf(searchstr) === -1){
+								slf.hide();
+							} else {
+								slf.show();
+							}
+						})
+					});
+				}
+			});
+		</script>

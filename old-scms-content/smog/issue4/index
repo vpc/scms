@@ -1,0 +1,84 @@
+[title]
+The Smog community web-zine
+[header]
+[head]
+<link href="/media/smog/smog.css" type="text/css" rel="stylesheet" />
+[page]
+
+<div style="text-align:center">
+<img src="/media/smog/smog_4.jpg" alt="Cover Art" />
+<p>
+Smogon's Web-zine
+</p>
+
+<h2>Issue #4</h2>
+<h4>Released October 18, 2009</h4>
+<table id="smogfront">
+<tr>
+<td class="col1">
+<h3>General</h3>
+<ul>
+<li><a href="note_from_editor">Note From the Editor</a></li>
+<li><a href="trivia">Polls/Trivia</a></li>
+<li><a href="ask_admins">Ask the Admins</a></li>
+<li><a href="smog_awards">Introduction to the Smog Awards</a></li>
+</ul>
+</td>
+
+
+<td class="col2">
+<h3>Site Projects</h3>
+<ul>
+<li><a href="cap">CAP: Pirates, Playtesting, and Policy Review</a></li>
+<li><a href="tournament_coverage">Tournament Coverage</a></li>
+</ul>
+</td>
+
+
+<td class="col3">
+<h3>Community</h3>
+<ul>
+<li><a href="hgss_review">Overview of Heart Gold and Soul Silver</a></li>
+<li><a href="mafia">Introduction to Smogon Mafia</a></li>
+<li><a href="interview_dm">Interview with DM</a></li>
+<li><a href="sprites">The Demise of Sprites</a></li>
+</ul>
+</td>
+</tr>
+
+<tr>
+<td class="col1">
+<h3>Battling Strategy</h3>
+<ul>
+<li><a href="hgss_uu">HGSS Takes UU by Storm</a></li>
+<li><a href="damage_stats">Damage Stats</a></li>
+<li><a href="top_abilities">Top 10 Abilities</a></li>
+</ul>
+</td>
+
+
+<td class="col2">
+<h3>Metagame</h3>
+<ul>
+<li><a href="uu_review">UU Review: Higher Ground</a></li>
+<li><a href="intro_nu">Introduction to NU</a></li>
+<li><a href="fallen_stars">Fallen Stars: Why did they fall?</a></li>
+</ul>
+</td>
+
+
+<td class="col3">
+<h3>Recurring Articles</h3>
+<ul>
+<li><a href="featured_pokemon">Featured Pokemon: Celebi</a></li>
+<li><a href="featured_rmt_ou">Featured RMT - OU</a></li>
+<li><a href="featured_rmt_uber">Featured RMT - Ubers</a></li>
+<li><a href="featured_rmt_uu">Featured RMT - UU</a></li>
+<li><a href="type_analysis_psychic">Type Analysis - Psychic</a></li>
+<li><a href="type_analysis_fire">Type Analysis - Fire</a></li>
+</ul>
+</td>
+</tr>
+</table>
+
+<div style="text-align: center;"><h3>This issue of the smog is brought to you by <a href="/smog/issue4/contributors">these contributors</a>.</h3></div>

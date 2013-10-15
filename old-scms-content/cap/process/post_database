@@ -1,0 +1,413 @@
+[title]
+OP Database
+[page]
+
+<ol class="toc">
+<li><ul><li><a href="#conceptsub">Concept Submissions</a></li>
+<li><a href="#tlnom">Topic Leader Nominations</a></li>
+<li><a href="#pcnom">Policy Committee Nominations</a></li></ul></li>
+<li><ul><li><a href="#tlselect">Topic Leader Selection</a></li></ul></li>
+<li><ul><li><a href="#conpoll">Part 1 (Concept Poll)</a></li></ul></li>
+<li><ul><li><a href="#conassess">Concept Assessment</a></li></ul></li>
+<li><ul><li><a href="#maintypepoll">Part 2 (Main Type Poll)</a></li></ul></li>
+<li><ul><li><a href="#sectypepoll">Part 3 (Secondary Type Poll)</a></li></ul></li>
+<li><ul><li><a href="#stylebias">Comp Part 1 (Style Bias Poll</a></li>
+<li><a href="#spreadsub">Comp Part 2a (Stat Spread Submission)</a></li>
+<li><a href="#abilitydisc">Comp Part 3a (Ability Discussion)</a></li></ul></li>
+<li><ul><li><a href="#buildbias">Comp Part 4 (Build Bias Poll)</a></li></ul></li>
+<li><ul><li><a href="#statrate">Comp Part 5 (Stat Rating Poll)</a></li>
+<li><a href="#abilitypoll">Comp Part 3b (Ability Poll)</a></li></ul></li>
+<li><ul><li><a href="#statpoll">Comp Part 6 (Stat Spread Poll)</a></li></ul></li>
+<li><ul><li><a href="#counterdisc">Comp Part 7 (Counters Discussion)</a></li></ul></li>
+<li><ul><li><a href="#amovedisc">Comp Part 8a (Attacking Moves Discussion)</a></li></ul></li>
+<li><ul><li><a href="#amovepoll">Comp Part 8b (Attacking Moves Poll)</a></li>
+<li><a href="#namovedisc">Comp Part 8a (Non-Attacking Moves Discussion)</a></li></ul></li>
+<li><ul><li><a href="#namovepoll">Comp Part 9b (Non-Attacking Moves Poll)</a></li></ul></li>
+<li><ul><li><a href="#cmovedisc">Comp Part 10a (Complete Movepool Discussion)</a></li></ul></li>
+<li><ul><li><a href="#cmovepoll">Comp Part 10b (Complete Movepool Poll)</a></li></ul></li>
+<li><ul><li><a href="#artsub">Flav Part 1a (Art Submissions)</a></li></ul></li>
+<li><ul><li><a href="#artpoll">Flav Part 1b (Art Poll)</a></li></ul></li>
+<li><ul><li><a href="#namedisc">Flav Part 2a (Name Discussion)</a></li>
+<li><a href="#spritesub">Flav Part 3a Sprite Submissions</a></li></ul></li>
+<li><ul><li><a href="#namepoll">Flav Part 2b (Name Poll)</a></li>
+<li><a href="#spritepoll">Flav Part 3b (Sprite Poll)</a></li></ul></li>
+<li><ul><li><a href="#misc">Misc (Pre-Evos, Height, Weight, etc.)</a></li>
+<li><a href="#servimp">Server Implementation</a></li></ul></li>
+<li><ul><li><a href="#playtest">Playtesting</a></li>
+<li><a href="#analysis">Analysis</a></li></ul></li>
+</ol>
+
+<hr />
+<h2><a name="conceptsub">Concept Submissions</a></h2>
+
+This is where we discuss the general goal of the pokemon we create in CAP X. The Concept will be a guiding force throughout the ensuing project, to ensure the the final result is a cohesive competitive pokemon. Any discussions, suggestions, or submissions in later topics, that do not support the spirit of the Concept, will be moderated by the Topic Leader. 
+
+Concepts must be presented as high-level descriptions of a general idea. They cannot be detailed pokemon designs. Since we have polls to determine each aspect of the pokemon, we cannot allow any specific features of the pokemon to be determined by the details of the Concept.
+
+We intentionally have many rules regarding Concept submissions. If you are not prepared to read and understand all the rules, then don't bother making a submission. These rules are made to help narrow the field of concepts down to those that have been carefully designed. This is not meant to be easy for everyone -- a good, legal Concept requires a lot of thought and careful wording.
+
+&91;B&93;&91;U&93;&91;SIZE=4&93;Concept Content Rules&91;/SIZE&93;&91;/U&93;&91;/B&93;
+The following rules must be followed when submitting a Concept:&91;LIST&93;
+&91;*&93;&91;B&93;One submission per person.&91;/B&93; You may edit your Concept, but you may not change the fundamental premise after it has been posted. If editing your concept, please edit the original post instead of posting a new revision. Do not bump your Concept after you have posted it. If people do not comment on it, so be it.
+&91;*&93;&91;B&93;Do not duplicate or closely-resemble Concepts already posted by others.&91;/B&93; It is your responsibility to read through all previous submissions in this thread to ensure you are complying with this rule. Ignorance or laziness is not an excuse.
+&91;*&93;&91;B&93;Specific Pokemon types or type combos cannot be included or excluded in a Concept.&91;/B&93; Nor can other characteristics of the Concept specifically result in in the inclusion or exclusion of Types. For example, the following phrases would be illegal:&91;INDENT&93;"This is a Dragon pokemon with..."
+"The pokemon should be immune to Ghost attacks..."
+"The pokemon should have at least 7 resistances..."
+"The pokemon should get STAB on Thunderbolt.."&91;/INDENT&93;
+&91;*&93;&91;B&93;Specific Abilities are not allowed.&91;/B&93; This applies to existing abilities and new abilities. Do not attempt to circumvent this rule by mentioning specific battle effects that can only be achieved by the implementation of an ability. For example, the following phrases would be illegal:&91;INDENT&93;"This pokemon should have a defensive ability like Intimidate or Marvel Scale..."
+"This pokemon has an ability that steals the opponent's held item..."
+"When this pokemon is switched in, all weather conditions are nullified..."&91;/INDENT&93;
+&91;*&93;&91;B&93;Movepools or lists of moves are not allowed.&91;/B&93; A specific move can be mentioned if it is the basis for the entire concept. For example, the Concept "Rapid Spinner" would obviously mention the move Rapid Spin.
+&91;*&93;&91;B&93;Specific stat bias, base stats, or base stat ratings are not allowed.&91;/B&93; It is acceptable to use descriptive phrases like "fast", "bulky", "strong attacker", etc -- since there are a variety of ways a pokemon can fit those descriptions without specifically requiring certain stats. But, do not use overly-specific descriptions that would narrowly constrain the pokemon's base stat spread.
+&91;*&93;&91;B&93;Indications of Physical/Special bias are discouraged&91;/B&93;, but acceptable if it is essential to the Concept.
+&91;*&93;&91;B&93;Do not refer to any part of the pokemon's artistic design.&91;/B&93; For example, the following phrases would be illegal:&91;INDENT&93;"This is a bright blue pokemon..."
+"The pokemon looks like a..."
+"The pokemon uses its long tail to..."&91;/INDENT&93;
+&91;*&93;&91;B&93;A Concept Submission must have a Name, General Description, Justification and Explanation.&91;/B&93; See the format rules described below. If the proper format is not used, the moderators will not evaluate the submission, regardless of content.&91;/LIST&93;
+&91;B&93;&91;U&93;&91;SIZE=4&93;Concept Submission Format&91;/SIZE&93;&91;/U&93;&91;/B&93;
+Use this format for all concept submissions:
+&91;quote&93;&91;B&93;Name:&91;/B&93; (short name)
+&91;B&93;General Description:&91;/B&93; (See rules below. No more than a sentence or two here.)
+
+&91;B&93;Justification:&91;/B&93; (See rules below.)
+&91;B&93;Explanation:&91;/B&93; (Whatever you want to say here.)
+&91;/quote&93;Here is the format with tags. Just copy/paste this into your post, and fill it out:
+&91;quote&93;&91;noparse&93;&91;b&93;Name:&91;/b&93; (short name)
+&91;b&93;General Description:&91;/b&93; (See rules below. No more than a sentence or two here.)
+
+&91;b&93;Justification:&91;/b&93; (See rules below.)
+&91;b&93;Explanation:&91;/b&93; (Whatever you want to say here.)
+&91;/noparse&93;&91;/quote&93;&91;LIST&93;
+&91;*&93;&91;B&93;Name&91;/B&93; - Don't get too clever with the name. If the essence of the concept is not intuitively obvious in the name, then you are hurting your chances of people understanding it. If the essence of your concept cannot be expressed in a few words, then you need to seriously re-evaluate your concept.
+&91;*&93;&91;B&93;Description&91;/B&93; - This is the official description of the concept, and must follow ALL the content rules listed above. Do not make this a long description. Long descriptions are invariably too specific or too convoluted. Keep it short. Any more than a sentence or two is TOO MUCH. Do NOT include your Explanation of the concept in the Description. See "Explanation" below.
+&91;*&93;&91;B&93;Justification&91;/B&93; - A few sentences describing how the concept satisfies one or more of the following:&91;LIST&93;
+&91;*&93;Has a positive effect on the metagame (e.g Fidgit’s Pure Utility)
+&91;*&93;Allows us to learn more about the metagame (e.g Kitsunoh’s Ultimate Scout)
+&91;*&93;Introduces a new niche in the metagame (such as Arghonaut’s Decentralizer)&91;/LIST&93;
+Do not make up your own categories for justification. If you cannot justify your concept against at least one of the three requirements above, then your concept is illegal for the CAP project. The justification is used by the moderators to judge if the concept is legal, but it will not be included in later polls.
+&91;*&93;&91;B&93;Explanation&91;/B&93; - This can contain just about anything. This is where you can explain your concept without restraint. You may make suggestions, even specific suggestions, regarding the possible implementation of the Concept. This explanation should help facilitate discussion of the Concept -- but the Explanation is NOT part of the Concept and will be omitted from the polls and any future use of the Concept. Since your explanation is non-binding, regarding future polls and threads, it will not be evaluated for purposes of determining if your concept is legal or illegal.&91;/LIST&93;
+&91;B&93;&91;U&93;&91;SIZE=4&93;Concept Examples&91;/SIZE&93;&91;/U&93;&91;/B&93;
+It is the submitter's responsibility to figure out how to make a legal submission within the rules listed above. Do not complain about the difficulty of making a submission in this thread. There are many, many legal concepts that can be presented within the rules. Here are few examples of good and bad Concepts from previous projects:&91;INDENT&93;&91;B&93;&91;U&93;Good Concepts from Past Projects&91;/U&93;&91;/B&93;
+"Pure Utility Pokemon"
+"Anti-Ghost Rapid Spinner"
+"True Garchomp Counter"
+"Great Lead Pokemon"
+"Ultimate Weather Abuser"
+"Status Counter"
+
+&91;B&93;&91;U&93;Bad Concepts from Past Projects&91;/U&93;&91;/B&93;
+"Ice-Resisting Dragon"
+"Super Luck User"
+"STAB Explosion Glass Cannon"
+"Auto-Stealth Rock Remover"
+"A Pokemon with Special Intimidate"
+"Pyrokinetic Pokemon (Fire/Psychic)"
+"Special Guts"
+"Typing Means Nothing"&91;/INDENT&93;Here's a sample of a legal Concept post. This is not an actual submission. I'm just using it to illustrate the format and legal content:
+&91;quote&93;&91;B&93;Concept:&91;/B&93; "Kingdra of the Sun"
+&91;B&93;Description:&91;/B&93; A good pokemon with a varied movepool under normal conditions. But, it becomes a dangerous sweeping force in sunny weather.
+
+&91;B&93;Justification:&91;/B&93; Sunny Day is almost never used in the current metagame. This concept could make Sun teams playable in OU, much like Kingdra almost single-handedly makes Rain teams viable in OU. We will learn more about existing pokemon that can use sun to their advantage, and we may even discover that some underutilized pokemon have untapped relevance in the current metagame.
+&91;B&93;Explanation:&91;/B&93; A good Sunny Day abuser would be fresh and fun. Typing could be just about anything, although Fire and/or Grass are the most obvious. Water typing might be interesting to help it stop Heatran from becoming even more of a beast once the Sun goes up, and ruining the fun for this pokemon. Chlorophyll would be an easy way to make a good sweeper, but Solar Power doesn't get the love it should, and might be an interesting option. There are lots of nice abilities that could help this thing do its job. I think fiery art designs are always cool and I can imagine this pokemon having lots of colorful fire effects, if we make it part Fire.&91;/quote&93;Note that all the "illegal stuff" is in the Explanation. The Description is short, and very carefully worded to follow all the rules. It does not specifically dictate anything in later polls.
+
+Please try to remember that we are simply pointing the project in a general direction, we are not trying to decide anything right now. We have several weeks of polls ahead of us where EVERYTHING about this pokemon will be dissected, discussed, voted, and decided. The Concept is a very basic guide for the creation process. It is hard to provide solid concept descriptions without basically designing the entire pokemon right off the bat. Submissions should be written and chosen very carefully, to avoid these problems.
+
+<hr />
+
+<h2><a name="tlnom">Topic Leader Nominations</a></h2>
+
+This is the thread for people to announce their desire to be the Topic Leader for the upcoming creation project.&91;B&93; Do not suggest other people.&91;/B&93; If someone doesn't strongly desire to be a Topic Leader without provocation, then we don't need them signing up for the job. Topic Leader is not an honorary title. It requires a lot of work and attention. If you are not prepared to fulfill all the responsibilities, then do not throw your hat in the ring.
+
+To avoid confusion -- &91;B&93;Topic Leader nominees will automatically be considered nominees for the CAP 8 Policy Committee, after the Topic Leader vote is complete.&91;/B&93; See the Policy Committee Nomination thread for more information regarding the the Policy Committee.
+
+This thread is strictly for candidacy posts, and posts supporting those candidates. Please stay on topic.
+
+&91;B&93;Here are the guidelines for posting in this thread:&91;/B&93;&91;LIST&93;
+&91;*&93;Candidates must have been actively involved through the entire duration of the most recent CAP project (CAP 7). Involvement in multiple CAP projects is strongly preferred.
+&91;*&93;Do not suggest other people. If you want you encourage someone else to run, then send them a PM.
+&91;*&93;If you are new to the CAP project, don't bother signing up to be a Topic Leader. Lurk more.
+&91;*&93;Include a summary of your involvement in the CAP project.
+&91;*&93;Make a pitch for why you should be selected. If you can't present and defend yourself, then how can you expect to lead a project whose primary function is discussion and debate? Convince us that you are a good choice.
+&91;*&93;Poor spelling, punctuation, and grammar are great ways to look like an uneducated idiot. It's not a great way to look like a thoughtful, intelligent, community leader.
+&91;*&93;Even if you don't think you are better-qualified than certain other candidates, you still should consider posting a candidacy. Candidates not selected as the TL for this project, will be on the "watch list" by the community for next time. Don't post your name if you don't intend to be active in the project, even if you are not selected. Like I said, if you post here, people will be scrutinizing your involvement more closely in the future.
+&91;*&93;Feel free to post support for any candidates already named.
+&91;*&93;Please do not post disparaging remarks about any candidates.&91;/LIST&93;&91;B&93;If these rules are not followed by all posters, the offenders will be moderated.&91;/B&93;
+
+<hr />
+
+<h2><a name="pcnom">Policy Comittee Nominations</a></h2>
+
+This is the thread for people to announce their desire to be on the Policy Committee for the upcoming creation project. &91;B&93;Do not suggest other people.&91;/B&93; 
+
+The Policy Committee performs the following key functions:&91;LIST&93;
+&91;*&93;Selecting a Topic Leader for the CAP Project
+&91;*&93;Creating Policy Review topics
+&91;*&93;Voting in Policy Review polls&91;/LIST&93;The Policy Committee selection process is designed to be very &91;B&93;inclusive&91;/B&93;. This is not a popularity contest. Anyone with an established history of active involvement on the CAP project, that has the desire to serve on this committee -- should be selected. The main purpose of this thread, is to force members to overtly request to be a part of the committee, and be willing to advertise their history of involvement on the CAP project. That's it. Selection to this committee should have nothing to do with whether a person is "liked" or "disliked" -- but you must be "active".
+
+&91;B&93;All Topic Leader nominees will be automatically nominated for inclusion on the Policy Committee, after the conclusion of the Topic Leader vote.&91;/B&93; Anyone that is active enough on the CAP project to seek the TL position, is assumed to be active enough to desire a position on the Policy Committee. However, just because the TL nominees are automatically nominated for the Policy Commitee, does not mean they will be automatically selected. See the Process guide sticky for more information about the Policy Committee.
+
+This thread is strictly for candidacy posts. Do not post support for the candidates, since this is not a public poll. This is not a discussion topic about the Policy Committee, so please do not ask questions about it here.
+
+Here are the rules for Policy Committee candidacy posting:
+&91;LIST&93;
+&91;*&93;Candidates must have been actively involved through the entire duration of the most recent CAP project (CAP 7). Involvement in multiple CAP projects is preferred. Voting is not "active involvement". Lurking is not "active involvement". You must have a strong track record of making intelligent posts and contributions to the project. Active playtesting on the CAP server is a highly valued contribution to the project.
+&91;*&93;You must have a clear understanding of the CAP process and rules. If you are not familiar with current policy, you cannot expect to participate in changing it.
+&91;*&93;If you are a member of the current Policy Committee -- then you simply need to make a post stating, "I am a member of the current Policy Committee, and I would like to serve on the committee again." It is not necessary for you to re-post your qualifications.
+&91;*&93; If you are not a member of the current Policy Committee -- include a brief summary of your involvement in the CAP project. Include enough summary to remind the moderators of who you are and what you have done here. If you assume the mods are familiar with your work, and they are not -- then it is your fault if you are passed over.
+&91;*&93;Make candidacy posts only. A sure-fire way to prove that you do not understand CAP rules is to go off-topic in this thread.&91;/LIST&93;
+
+<hr />
+
+<h2><a name="tlselect">Topic Leader Selection</a></h2>
+
+&91;quote&93;&91;B&93;&91;SIZE=3&93;Only CAP X Policy Committee members can vote in this thread. Posts by anyone else will be deleted. Policy Committee members are listed &91;post=post#&93;here&91;/post&93;.&91;/SIZE&93;&91;/B&93;&91;/quote&93;The Topic Leader is the most important leadership position in the project during the creation process. So, it is important that we pick someone that will do a good job. For this reason, we do not choose a TL by popular community vote. Instead we choose the TL by a committee of trusted expert project members.
+
+Here is the list of self-nominated candidates (in the order they submitted their candidacy):
+
+&91;B&93;List of nominees&91;/B&93;
+
+The candidacy announcements and support posts from members of the community are in this thread: &91;URL&93;urltonomineethread&91;/URL&93; Please review all the information in that thread in order to inform your decision.
+
+&91;B&93;Here's how to vote:&91;/B&93;&91;LIST&93;
+&91;*&93;Only current Policy Committee members are eligible to vote. Policy Committee members are listed &91;post=post#&93;here&91;/post&93;.
+&91;*&93;Please post all three candidate names ranked in order of preference. Also, please include a brief summary of your reasons for the ranking on your ballot. Do not adjust your rankings to attempt to "game the poll results". As expert project members, I hope we can expect everyone to vote fairly, and with integrity.
+&91;*&93;If you do not complete a full ranked ballot with reasoning, as prescribed here, your ballot will be deleted. So, please take the time to evaluate all the candidates and compose a proper ranked ballot.
+&91;*&93;I will only vote in the case of a tie. If my vote is needed, I will compose a ballot and cast it at the conclusion of this poll.
+&91;*&93;Please post your ballots as soon as possible. This poll should close 24 hours from now. If any committee member needs more time to compose a ballot, please PM me and ask for an extension.&91;/LIST&93;
+
+<hr />
+
+<h2><a name="conpoll">Part 1 (Concept Poll)</a></h2>
+
+This is a BOLD VOTE poll. Vote for one concept only. Please bold the name of the concept and the user who submitted it. Not all submissions will make it through because they were either redundant with another concept or a previous CAP. Anyone and everyone can participate!
+
+Before voting, please make sure to read through each concept. They will be posted in order of submission. This will be open for about two days or so, so hurry up and make your votes people!
+
+&91;quote=&93;Concept: ConceptName.
+
+General Description:
+
+Justification: 
+
+Explanation: &91;/quote&93;
+
+<hr />
+
+<h2><a name="conassess">Concept Assessment</a></h2>
+
+The concept for CAPX has been decided! We'll be going with this:&91;quote&93;&91;B&93;Name:&91;/B&93; NameofConcept.
+ 
+&91;B&93;Description: &91;/B&93;
+ 
+&91;B&93;Justification: &91;/B&93;
+
+&91;B&93;Explanation: &91;/B&93;
+
+As the typing poll goes on, at the TL's discretion, along with the opinions of others, abilities can be moved from previously Allowed to Unallowed. The goal should be that by the time that the Ability Discussion rolls around, we have a good number of abilities to choose from, but not stretching to infinite, so that we'll be able to better focus our CAP based on previous decisions. Unallowed's primary purpose should be that people KNOW it's not going to be in there. The abilities will be moved based on the typing and bias that YOU choose. 
+
+If there is a defensive ability, such as Filter, on the Allowed list, but we choose an offensive bias and typing, Filter will be removed. If it's not on the Allowed list, it's not a candidate. Please don't continue preaching for your own preference if it's not Allowed. If you DO decide to argue, you better have a good argument. 
+
+This is how the process will go. Don't argue - it's been decided. No changes will be made to the actual order of events. Now, onto the discussion!
+
+&91;B&93;&91;U&93;Allowed:&91;/U&93;&91;/B&93;
+
+&91;U&93;&91;B&93;Pending:&91;/B&93;&91;/U&93;
+ 
+&91;B&93;&91;U&93;Unallowed:&91;/U&93;&91;/B&93;
+
+
+<hr />
+
+<h2><a name="maintypepoll">Part 2 (Main Type Poll)</a></h2>
+
+&91;SIZE=4&93;&91;U&93;&91;B&93;Any reference of Abilities in this poll WILL result in a post deletion and most likely an infraction.&91;/B&93;&91;/U&93;&91;/SIZE&93;
+
+Here's our concept:&91;quote&93;&91;B&93;Name:&91;/B&93; NameofConcept
+ 
+&91;B&93;Description: &91;/B&93;
+ 
+&91;B&93;Justification: &91;/B&93;
+
+&91;B&93;Explanation: &91;/B&93;&91;/quote&93;
+
+Alright people, vote away! The Allowed/Unallowed list in the Concept Assessment will change accordingly. &91;B&93;Typing will decide ability - not the other way around.&91;/B&93;
+
+<hr />
+
+<h2><a name="sectypepoll">Part 3 (Secondary Type Poll)</a></h2>
+
+&91;quote&93;&91;B&93;Name:&91;/B&93; NameofConcept
+
+&91;B&93;Description: &91;/B&93;&91;/quote&93;
+
+&91;B&93;Type:&91;/B&93; Type1 / &91;To be voted&93;
+
+Please refer to the Secondary Typing Discussion before posting your vote. 
+This poll is the &91;B&93;VOTING&91;/B&93; thread. Please only post to submit a &91;B&93;BOLD VOTE&91;/B&93; for a type. Discussion is carried out in the other thread. Non-vote posts will be deleted with the possibility of an infraction. Any type can be voted for.
+
+<hr />
+
+<h2><a name="stylebias">Comp Part 1 (Style Bias Poll)</a></h2>
+
+Our Pokemon so far:
+&91;quote&93;Name: ConceptName
+
+Description:&91;/quote&93;
+
+&91;B&93;Type:&91;/B&93; Type1 / Type2
+
+This is where we determine the general style of the pokemon, from an offensive and defensive standpoint. We also will set limits on the stat spreads that support that style. It should be noted that the Style Bias is not just for limiting stats, but also helps shape the general "feel" of the pokemon. The Style may influence other parts of the pokemon -- such as art, movepool, ability, etc. However, the stat spread is the only part of the project that will be specifically constrained by the voted Style Bias.
+
+Offensive/Defensive Balance is part of the Stats Rating Formula developed by X-Act for numerically measuring a pokemon's base stats.
+
+&91;URL="http://www.smogon.com/forums/showthread.php?t=39556"&93;Information about the formula is located here.&91;/URL&93;&91;URL="http://users.smogon.com/X-Act/BaseStatsRatings.html"&93;A utility for calculating the ODB is located here.&91;/URL&93;
+
+Style Bias should consist of a single poll with four options:&91;U&93;
+
+Offensive/Defensive Balance&91;/U&93;
+Offensive: 20 to 40+
+Mixed, possibly Offensive: 0 to 20
+Mixed, possibly Defensive: -20 to 0
+Defensive: -40 to -20
+
+The voted ODB range must be followed by stat spread creators when submitting final stat spreads for the Stat Spread Poll later. The Style Bias that is chosen will have an effect on the Abilities that we can choose from for our Neglected Ability. &91;URL="http://www.smogon.com/forums/showpost.php?p=1879647&postcount=1"&93;The list can be found here.&91;/URL&93;
+
+<hr />
+
+<h2><a name="#spreadsub">Comp Part 2a (Stat Spread Submission)</a></h2>
+
+
+
+<hr />
+
+<h2><a name="abilitydisc">Com Part 3a (Ability Discussion)</a></h2>
+
+
+
+<hr />
+
+<h2><a name="buildbias">Comp Part 4 (Build Bias Poll)</a></h2>
+
+
+
+<hr />
+
+<h2><a name="statrate">Comp Part 5 (Stat Rating Poll)</a></h2>
+
+
+
+<hr />
+
+<h2><a name="#abilitypoll">Comp Part 3b (Ability Poll)</a></h2>
+
+
+
+<hr />
+
+<h2><a name="statpoll">Comp Part 6 (Stat Spread Poll)</a></h2>
+
+
+
+<hr />
+
+<h2><a name="counterdisc">Comp Part 7 (Counters Discussion)</a></h2>
+
+
+
+<hr />
+
+<h2><a name="amovedisc">Comp Part 8a (Attacking Moves Discussion)</a></h2>
+
+
+
+<hr />
+
+<h2><a name="amovepoll">Comp Part 8b (Attacking Moves Poll)</a></h2>
+
+
+
+<hr />
+
+<h2><a name="namovedisc">Comp Part 9a (Non-Attacking Moves Discussion)</a></h2>
+
+
+
+<hr />
+
+<h2><a name="namovepoll">Comp Part 9b (Non-Attacking Moves Poll)</a></h2>
+
+
+
+<hr />
+
+<h2><a name="cmovedisc">Comp Part 10a (Complete Movepool Discussion)</a></h2>
+
+
+
+<hr />
+
+<h2><a name="cmovepoll">Comp Part 10b (Complete Movepool Poll)</a></h2>
+
+
+
+<hr />
+
+<h2><a name="artsub">Flav Part 1a (Art Submissions)</a></h2>
+
+
+
+<hr />
+
+<h2><a name="artpoll">Flav Part 1b (Art Poll)</a></h2>
+
+
+
+<hr />
+
+<h2><a name="namedisc">Flav Part 2a (Name Discussion)</a></h2>
+
+
+
+<hr />
+
+<h2><a name="spritesub">Flav Part 3a (Sprite Submissions)</a></h2>
+
+
+
+<hr />
+
+<h2><a name="namepoll">Flav Part 2b (Name Poll)</a></h2>
+
+
+
+<hr />
+
+<h2><a name="spritepoll">Flav Part 3b (Sprite Poll)</a></h2>
+
+
+
+<hr />
+
+<h2><a name="misc">Misc (Pre-Evos, Height, Weight, etc.)</a></h2>
+
+
+
+<hr />
+
+<h2><a name="servimp">Server Implementation</a></h2>
+
+
+
+<hr />
+
+<h2><a name="playtest">Playtesting</a></h2>
+
+
+
+<hr />
+
+<h2><a name="analysis">Analysis</a></h2>
+
+
+
+<hr />

@@ -1,0 +1,432 @@
+[title]
+January 2009 CAP Metagame Guide
+
+[head]
+<meta name="description" content="A historical analysis of the state of the metagame in January 2009, and an introduction to the first five CAPs." />
+
+[page]
+<div class="author">By <a href="/forums/member.php?u=462">sbc</a>, <a href="/forums/member.php?u=18858">beej</a>, <a href="/forums/member.php?u=17197">Elevator Music</a>, <a href="/forums/member.php?u=12694">eric the espeon</a>, <a href="/forums/member.php?u=16017">tennisace</a>, <a href="/forums/member.php?u=18580">zarator</a>.</div>
+
+<ol class="toc">
+<li><a href="#intro">Introduction</a></li>
+<li><a href="#cap_glace">The CAP Pokémon At A Glance</a></li>
+<li><a href="#indepth">In-Depth Look At The New Pokémon</a></li>
+<li><ul>
+<li><a href="#syclant">Syclant</a></li>
+<li><a href="#revenankh">Revenankh</a></li>
+<li><a href="#pyroak">Pyroak</a></li>
+<li><a href="#fidgit">Fidgit</a></li>
+<li><a href="#stratagem">Stratagem</a></li>
+</ul>
+</li>
+<li><a href="#differences">Differences between the Standard Metagame and the CAP Metagame</a></li>
+<li><a href="#team_building">Team Building</a></li>
+<li><a href="#standardteam">A Standard Metagame Team that would perform well in the CAP Metagame</a></li>
+<li><a href="#capteam">A Team Incorporating the CAP Pokémon</a></li>
+</ol>
+
+<h2><a name="intro">Introduction</a></h2>
+
+<p><img src="http://cap.smogon.com/Sprites/frontnormal-fsyclant.png" alt="Syclant" />
+<img src="http://cap.smogon.com/Sprites/frontnormal-frevenankh.png" alt="Revenankh" />
+<img src="http://cap.smogon.com/Sprites/frontnormal-fpyroak.png" alt="Pyroak" />
+<img src="http://cap.smogon.com/Sprites/frontnormal-ffidgit.png" alt="Fidget" />
+<img src="http://cap.smogon.com/Sprites/frontnormal-fstratagem.png" alt="Stratagem" /></p>
+
+<p>The mission statement of the CAP Project reads: <em>"The Create-A-Pokémon project is a community dedicated to exploring and understanding the competitive Pokémon metagame by designing, creating, and playtesting new Pokémon concepts."</em> As of now, 5 new Pokémon have been implemented in the <a href="/cap/server/">server</a>, each with their own unique impact, resulting in the formation of a new metagame which has some important distinctions from the standard OU environment. This guide is tailored for players new to the playtesting aspect of the CAP Project to help them to understand and become proficient in playing in a different metagame.</p>
+
+<h2><a name="cap_glace">The CAP Pokémon At A Glance</a></h2>
+<p><em>Follow the links for access to the Pokémon's movepool, stats and other information from near to the time this as written.</em></p>
+
+<p><img src="http://cap.smogon.com/Sprites/frontnormal-fsyclant.png" alt="Syclant" /></p>
+
+<p><strong>Name:</strong> <a href="/forums/showpost.php?p=1061818&amp;postcount=3">Syclant</a><br />
+<strong>Typing:</strong> Bug / Ice<br />
+<strong>Trait:</strong> Compound Eyes, Mountaineer (This Pokémon takes no indirect or direct damage from Rock type attacks upon switching in. This doesn't block additional effects.)<br />
+<strong>Stats:</strong> 70 HP / 116 Atk / 70 Def / 114 SpA / 64 SpD / 115 Spe<br />
+<strong>Role(s):</strong> Special sweeper, Mixed attacker.<br />
+<strong>What to watch out for:</strong> Tail Glow -- usually seen alongside Ice Beam, Bug Buzz and Earth Power. It hits hard after a Tail Glow and can clean up teams with its high Speed. Mixed attacker sets can also pose a big threat with Brick Break, Ice Beam or Blizzard, Bug Buzz and Earth Power with Life Orb the most frequent choices on such a set. Syclant's Mountaineer trait renders it immune to Stealth Rock although Compound Eyes can be used to allow the more powerful Blizzard to be used with almost perfect accuracy.<br />
+<strong>Counters:</strong> Scizor, Blissey, Choice Scarf Heatran, Forretress, Metagross, Bronzong, Hariyama.</p>
+
+<p><img src="http://cap.smogon.com/Sprites/frontnormal-frevenankh.png" alt="Revenankh" /></p>
+
+<p><strong>Name:</strong> <a href="http://www.smogon.com/forums/showpost.php?p=1061822&amp;postcount=5">Revenankh</a><br />
+<strong>Typing:</strong> Ghost / Fighting<br />
+<strong>Trait:</strong> Shed Skin, Air Lock<br />
+<strong>Stats:</strong> 90 HP / 105 Atk / 90 Def / 65 SpA / 100 SpD / 65 Spe<br />
+<strong>Role(s):</strong> Bulky sweeper, Fighting-type counter, Rapid Spin blocker<br />
+<strong>What to watch out for:</strong> A Bulk Up sweep. Bulk Up with Hammer Arm, Shadow Sneak and Rest is potent and very destructive if you allow Revenankh more than a couple of Bulk Ups. Shed Skin and Rest makes it ultra-durable and protects it from status.<br />
+<strong>Counters:</strong> Jirachi (with Psychic), Zapdos (with Metal Sound), Togekiss, Fidgit, Cresselia (with Calm Mind and Psychic), Spiritomb (with Shadow Ball), Rotom Appliances, Gyarados (with Taunt), Staraptor, Metagross (with Zen Headbutt).</p>
+
+<p><img src="http://cap.smogon.com/Sprites/frontnormal-fpyroak.png" alt="Pyroak" /></p>
+
+<p><strong>Name:</strong> <a href="http://www.smogon.com/forums/showpost.php?p=1105376&amp;postcount=7">Pyroak</a><br />
+<strong>Typing:</strong> Fire / Grass<br />
+<strong>Trait:</strong> Rock Head / Battle Armor<br />
+<strong>Stats:</strong> 120 HP / 70 Atk / 105 Def / 95 SpA / 90 SpD / 60 Spe<br />
+<strong>Role(s):</strong> Mixed Wall<br />
+<strong>What to watch out for:</strong> Lava Plume's burn-rate, Leech Seed and Toxic. Pyroak can cripple almost every switch-in with these three attacks which combined with its bulky nature and lack of weaknesses, makes it hard to take down.<br />
+<strong>Counters:</strong> Heatran, Togekiss, Salamence, Tentacruel, Clefable (with Toxic), Tyranitar</p>
+
+<p><img src="http://cap.smogon.com/Sprites/frontnormal-ffidgit.png" alt="Fidgit" /></p>
+
+<p><strong>Name:</strong> <a href="http://www.smogon.com/forums/showpost.php?p=1421225&amp;postcount=9">Fidgit</a><br />
+<strong>Typing:</strong> Poison / Ground<br />
+<strong>Trait:</strong> Persistent (Increases the duration of Gravity, Trick Room, Heal Block, Safeguard and Tailwind by two turns when used by this Pokémon), Vital Spirit<br />
+<strong>Stats:</strong> 95 HP / 76 Atk / 109 Def / 90 SpA / 80 SpD / 105 Spe<br />
+<strong>Role(s):</strong> Team Support<br />
+<strong>What to watch out for:</strong> Entry hazards in particular as Fidgit is the only Pokémon other than Smeargle, Omastar and Forretress that learns all of Stealth Rock, Spikes and Toxic Spikes and has the bulk and Speed to make good use of them. Also watch out for Gravity, Trick Room and Tailwind themed teams -- Persistent lengthens the duration of each by two turns and makes these strategies more viable.<br />
+<strong>Counters:</strong> Bulky waters, Azelf, Hippowdon, Celebi, Rotom Appliances, Faster Taunters.</p>
+
+<p><img src="http://cap.smogon.com/Sprites/frontnormal-fstratagem.png" alt="Stratagem" /></p>
+
+<p><strong>Name:</strong> <a href="/forums/showpost.php?p=1605658&amp;postcount=11">Stratagem </a><br />
+<strong>Typing:</strong> Rock<br />
+<strong>Trait:</strong> Levitate, Technician<br />
+<strong>Stats:</strong> 90 HP / 60 Atk / 65 Def / 120 SpA / 70 SpD / 130 Spe<br />
+<strong>Role(s):</strong> Special Sweeper<br />
+<strong>What to watch out for:</strong> Calm Mind and its massive offensive movepool, including Paleo Wave (an 85 BP 100% Acc 15 PP Special Rock attack with 20% chance of lowering the target's Attack one stage), Ice Beam, Thunderbolt, Energy Ball and Flamethrower. Thankfully it can only carry 4 of these at the same time. It is also the joint fastest user of Stealth Rock (barring Deoxys formes) as well as having the second fastest Explosion.<br />
+<strong>Counters:</strong> Vary according to moveset. Revenankh, Blissey, Scizor, Machamp, Poliwrath, Flygon, Bronzong, Fidgit, Metagross.</p>
+
+<h2><a name="indepth">In-Depth Look At The New Pokémon</a></h2>
+
+<p><em>Click the sprites to see the Pokémon's analysis for example sets and EVs from near to the time this as written.</em></p>
+
+<h3><a name="syclant">Syclant</a></h3>
+
+<p><a href="http://www.smogon.com/forums/showpost.php?p=1061816&amp;postcount=2"><img src="http://cap.smogon.com/Sprites/backnormal-fsyclant.png" alt="Syclant" /></a></p>
+
+<h4>How is it commonly used?</h4>
+
+<p>Syclant as its stat distribution may suggest is used in a role as a sweeper, specifically a Special attacker. The most common set is the Tail Glow set which usually comprises of Tail Glow, Ice Beam, Bug Buzz and Earth Power. The choice of item is usually Focus Sash which is typically used with Mountaineer, which renders Syclant immune to Stealth Rock and usually guarantees at least one Tail Glow due to the comparative rarity of other entry hazards. Life Orb is sometimes used over Focus Sash for the extra damage output. Blizzard can be used in place of Ice Beam should you opt for Syclant's secondary ability of Compound Eyes but this removes Syclant's immunity to Stealth Rock meaning that it loses 50% of its HP should it switch in whilst Stealth Rock is in play.</p>
+
+<p>Syclant can also function as a wall-breaking mixed attacker. It is effective in its role as its STAB attacks can hit sturdy Pokémon such as Cresselia, Hippowdon, Zapdos and Celebi for super-effective damage. Moreover, Syclant has the ability to make use of physical Fighting-type attacks to hit Blissey and other special walls such as Snorlax and Empoleon for good damage. The set used is usually along the lines of Blizzard or Ice Beam, Bug Buzz, Brick Break and Earth Power with Life Orb almost always used in the absence of a stat-boosting attack.</p>
+
+<h4>What else can it do?</h4>
+
+<p>Syclant has a rich offensive and supporting movepool and so can fill a variety of roles. Its 116 Base Attack is actually higher than its Special Attack and it gets Swords Dance to further boost its physical Attack. A Swords Dance set is made viable by the fact that Syclant's movepool contains useful physical attacks; notably Ice Shard, Ice Punch, X-Scissor, Brick Break and U-turn.</p>
+
+<p>With Syclant's high Speed and good offensive movepool and stats on both sides of the spectrum, it makes a good candidate for both Choice Band (U-turn can make this set very dangerous) and Choice Specs. Its Mountaineer ability allows it to avoid Stealth Rock, the most common form of passive damage that will wear down some other Choice-item users.</p>
+
+<p>Finally, an interesting set could be an anti-lead variant of Ice Shard, X-Scissor, U-turn, and Taunt in the final slot. Such a set when combined with a Focus Sash would beat both Azelf (X-Scissor followed by Ice Shard) and Aerodactyl (two Ice Shards) who are common suicide leads.</p>
+
+<h4>How do you stop it?</h4>
+
+<p>Syclant is a beast of a Pokémon but is easier to stop in practice than it looks like on paper. The Tail Glow set almost always loses to Blissey, who can OHKO with Flamethrower or Thunder Wave and cripple it. Scizor is not OHKOed by anything that Syclant can throw at it, and can come in easily and Bullet Punch it. Roost prevents Scizor from being worn down. Metagross is in the same boat but without access to Roost and unlike Scizor, the OHKO with Bullet Punch is not guaranteed. Fellow Steel-types Forretress and Bronzong that invest (heavily in the case of the former) in special defense will hold firm against mixed attackers. The common Scarf Heatran is also an invaluable help against Syclant, able to come in on both STAB moves with 4x resistance to both and threaten an OHKO on the next turn. Finally, Poliwrath and Hariyama possess resistances to both STABs of Syclant and have the all-round defenses to take a hit on either side of the spectrum but may find it hard to take out Syclant quickly without running specialized attacks for said purpose.</p>
+
+<h3><a name="revenankh">Revenankh</a></h3>
+
+<p><a href="/forums/showpost.php?p=1061819&amp;postcount=4"><img src="http://cap.smogon.com/Sprites/backnormal-frevenankh.png" alt="Revenankh" /></a></p>
+
+<h4>How is it commonly used?</h4>
+
+<p>Revenankh's by far most common and effective set is the Bulk Up set, almost always consisting of Bulk Up, Rest, Hammer Arm and Shadow Sneak and is usually paired with Shed Skin and Leftovers. Revenankh possess a great typing (Resists Rock x2, Bug x4, Poison x2 and immune to Fighting and Normal) and well rounded defenses and Shed Skin grants it virtual immunity to status along with reliable recovery with a potential one-turn Rest. These facts combined together make a lot of defensive Pokémon which rely on status-inflicting attacks, simple set-up fodder.</p>
+
+<p>This is why Revenankh is such a huge threat and is very capable of boosting its Attack and Defense to extraordinary heights with ease thanks to Bulk Up. Hence almost any team must have a reliable and swift answer to Revenankh, much like Snorlax in the GSC era.</p>
+
+<p>Revenankh is weak to Flying, Psychic and Ghost and thus Shadow Sneak is useful for stopping Pokémon of the latter two types revenge-killing Revenankh. However, its low base power means that a significant percentage of Revenankh users use Ice Punch in place of it which allows it to hurt bulky Flying-types that otherwise threaten to wall it. Shadow Punch is also sometimes used over Shadow Sneak for extra power whilst retaining perfect coverage from the famed Fighting/Ghost combination.</p>
+
+<h4>What else can it do?</h4>
+
+<p>First and foremost, Revenankh has access to another reliable recovery method with the Moonlight and Air Lock combination which makes Revenankh immune to Hail and Sandstorm damage and nullifies the effects of Rain Dance and Sunny Day whilst Revenankh is in play. The instant recovery of Moonlight is sometimes advantageous but usually the virtual status immunity provided by Shed Skin is preferable.</p>
+
+<p>Although Revenankh are almost exclusively Bulk Up variants, Revenankh has alternative sets notably Choice Band, Nasty Plot and SubPunch sets. When equipped with a Choice Band, Revenankh packs quite a punch, and since it can easily come in unscathed and force switches and thus can wreak havoc with Focus Punch. Furthermore, Revenankh deters Ghost-types with STAB Shadow Sneak and Shadow Punch exposing your opponent's team to full-powered Fighting attacks. In a similar vein, a SubPunch set along the lines of Substitute, Focus Punch, Shadow Sneak and Ice Punch or another attack, can be threatening as many defensive Pokémon cannot break its Substitute, particularly so when combined with Toxic Spikes, with Revenankh's Ghost-typing blocking Rapid Spin.</p>
+
+<p>A Nasty Plot set is interesting as Revenankh can Nasty Plot against Blissey and Snorlax with impunity and smack them with a super-effective Focus Blast although Revenankh needs to invest heavily into Special Attack to make a set worthwhile and so in the end Revenankh will usually lack the bulk that it needs to eliminate its usual counters.</p>
+
+<p>Beware, however, these sets rely heavily on the surprise factor. Once the set is unveiled, these strategies lose most of their efficacy, and can be countered without much more easily compared to the more threatening Bulk Up set.</p>
+
+<h4>How do you stop it?</h4>
+
+<p>Revenankh can be daunting to face, particularly as its typing and ability makes it invulnerable to common strategies such as Status and simply exploding on it. However, as long as you take immediate action against Revenankh you will almost always beat it if you have a solid counter.</p>
+
+<p>Spiritomb is quite possibly the best counter around to Revenankh, being immune to Hammer Arm and being neutral to Shadow Sneak and Shadow Ball on any special attacking set. In return, Spiritomb can apprehend Revenankh with Taunt or use Calm Mind to set up on it before beating it with Shadow Ball.</p>
+
+<p>Revenankh without Ice Punch will fall quite easily to Zapdos, who can Roost off any residual damage it takes and has high defenses to sponge repeated attacks. However, Zapdos will need Metal Sound or Hidden Power Flying (the former is preferable) efficiently and reliably KO Revenankh. Fidgit is in a similar boat to Zapdos, being able to come in on Revenankh and Encore or Taunt it to prevent it resting and then 4HKO with Earth Power faster than Revenankh can kill it with NVE Hammer Arms. Togekiss can Air Slash and 2HKO Revenankh whilst being neutral to Fighting and immune to Shadow Sneak. Roost can also be a double-edged sword for Togekiss, providing reliable recovery whilst making it vulnerable to being hit super effective by Hammer Arm. Staraptor suffers from the same issues but has Intimidate to help it switch in. Beware of Brave Bird recoil and Stealth Rock damage adding up however. Last but not least, Bulky Gyarados is a good counter to Revenankh albeit lacking a recovery move. It must run Taunt to shut down Revenankh.</p>
+
+<p>Despite their weakness to Ghost, bulky Psychic types fare well against Bulk up Revenankh who choose Shadow Sneak over Shadow Punch. A Bold Cresselia is not even 2HKOed by a +4 Shadow Sneak which allows it ample time to Calm Mind once or twice before hitting hard with Psychic. Celebi is less bulky than Cresselia but unlike its fellow legendary Psychic-type, it can scare off Revenankh more easily with access to Leech Seed, Perish Song and a more powerful STAB Psychic. Metagross and Jirachi will also beat Revenankh one on one. Metagross, especially is effective against Revenankh, with Zen Headbutt almost OHKOing even after a Bulk up and 2HKOing even without Choice Band. Jirachi has sturdy 100 / 100 / 100 Defenses and access to Wish to help it negate Revenankh.</p>
+
+<p>Hippowdon and Skarmory can both phaze Revenankh with almost complete impunity in an emergency but only Skarmory can threaten Revenankh at all with its STAB Brave Bird, which may allow it to beat a Revenankh yet without a Bulk Up. And finally, Revenankh really dislikes Trick, particularly from the Rotom appliances which also have the option of a STAB Shadow Ball to dislodge Revenankh.</p>
+
+<h3><a name="pyroak">Pyroak</a></h3>
+
+<p><a href="/forums/showpost.php?p=1105375&amp;postcount=6"><img src="http://cap.smogon.com/Sprites/backnormal-fpyroak.png" alt="Pyroak.png" /></a></p>
+
+<h4>How is it commonly used?</h4>
+
+<p>Pyroak's massive HP and very impressive defenses means that the most common sets tend to be Leech Seed-orientated; with a STAB Fire Attack, Synthesis and Toxic or Grass Knot in the last slot. Those who opt for Grass Knot in the last slot tend to go for Lava Plume as the Fire attack whilst Toxic usually works better with Flamethrower so there isn't a conflict of status. Lava Plume's burn-rate is a greater deterrent to the likes of Salamence, Gyarados and Tyranitar and can beat recovery-less Tentacruel through outstalling with Synthesis. However, Toxic wears down the likes of Cresselia and Togekiss that can afford to be inflicted with a Burn and is more reliable than Lava Plume, which only has a 30% chance of burning the opponent.</p>
+
+<p>Not many Pokémon have the brute force to force away Pyroak and this set is especially dangerous to the common walls in the OverUsed environment who dislike Leech Seed and Status (e.g. Blissey) or fear its STAB attacks (e.g. Swampert).</p>
+
+<h4>What else can it do?</h4>
+
+<p>Pyroak can usually make space in its normal moveset by removing Synthesis. In this slot, Pyroak can also use Stealth Rock and Aromatherapy. Pyroak is a good choice for a bulky Stealth Rock user, especially as a lead as it scares off fellow bulky Stealth Rock users such as Swampert, Bronzong and Hippowdon with the threat of STABbed attacks. Aromatherapy is also a great move on Pyroak due to the scarcity of durable clerics and in the meanwhile helps Pyroak combat its vulnerability to Toxic Spikes.</p>
+
+<p>Pyroak's offensive capabilities can be referred to as "gimmicky" but should be given due consideration. It can attempt a physical sweep with Howl and recoilless (thanks to Rock Head) Flare Blitz and Wood Hammer which hits typically defensive types such as Water, Ground and Steel for super-effective damage. It is also a good candidate for Choice Specs as Fire and Grass combined have excellent coverage.</p>
+
+<h4>How do you stop it?</h4>
+
+<p>Pyroak is paradoxical as in a way it is both the hardest and easiest of the CAP Pokémon to stop. It's hard to stop in that very few Pokémon can actually switch in without fear of Status or Leech Seed and with enough power to take it down but thankfully Pyroak's durability is limited by common strategies - namely entry hazards. Stealth Rock will strip 25% off its life every time it switches in on it and often seen without Rest, it is vulnerable to Toxic Spikes which reduces its ability to outstall opponents with residual damage.</p>
+
+<p>Tyranitar is also a major threat to Pyroak, more indirectly than anything; its Sand Stream trait means that Pyroak's Synthesis will only heal 25% and it effectively nullifies its Leftovers. Tyranitar's Choice Banded Stone Edge is one of the few attacks that will OHKO Pyroak but be cautious about Lava Plume's burn-rate and Grass Knot. Heatran is also a good switch in for Pyroak, particularly if it packs Taunt as it is then able to stop Pyroak stalling with a combination of Leech Seed and Synthesis. Other Heatran variants will need to pack Choice Specs or get a Flash Fire boost from Pyroak in order to beat Synthesis outside of a Sandstorm. Tentacruel's immunity to Poison, high Special Defense and Liquid Ooze trait means that Pyroak will find it hard to wear it down so long as it has Rest and in the meanwhile it can lay Toxic Spikes to cripple it should it switch back in. Pyroak hates Toxic more than anything and special mention must go to Clefable, who with the aid of Toxic can easily beat Pyroak having Softboiled and immunity to Leech Seed damage and Burn and Poison damage.</p>
+
+<p>Finally, Flying-types fare well against Pyroak; Gyarados with Taunt will beat Toxic-versions quite easily and special-based versions of Salamence have little fear of Burn and resist both of its STABs. A Choice Specs Draco Meteor has a 67% chance of OHKOing with SR damage while sets incorporating Roost do even better against Pyroak. Togekiss is similar, but has Air Slash to reliably 2HKO as well as a formidable base Special defense to compensate for not resisting Fire. Moltres and Charizard are all good counters but are decimated by Stealth Rock.</p>
+
+<p>Pyroak is slow and does not resist the most powerful attacking types and thus can be preyed upon by faster Pokémon sporting strong Rock-, Poison- or Flying-type attacks. Special mention goes to Stratagem for keeping Pyroak in check.</p>
+
+<h3><a name="fidgit">Fidgit</a></h3>
+
+<p><a href="/forums/showpost.php?p=1421121&amp;postcount=8"><img src="http://cap.smogon.com/Sprites/backnormal-ffidgit.png" alt="Fidgit" /></a></p>
+
+<h4>How is it commonly used?</h4>
+
+<p>Pinpointing what set that Fidgit uses commonly is difficult as its vast movepool means that there are many variations according to the needs of the individual's team. The majority of Fidgit however, carry at least one entry hazard -- usually Stealth Rock although Toxic Spikes are almost as common whilst some tend to use Spikes. Earth Power and Encore are also staples on most Fidgit; Earth Power provides reliable STAB for dealing with Lucario, Revenankh and non-Levitate Stratagem whilst Encore allows Fidgit to annoy Zapdos and to beat Revenankh one-on-one and in general helps it to create free turns that it can utilize with its massive supporting movepool.</p>
+
+<h4>What else can it do?</h4>
+
+<p>What else can't it do? Certainly not much when it comes to team support. Fidgit's bulk means that it is a viable and effective Wish-passer, especially being capable of learning U-turn. It is also one of the better purveyors of Rapid Spin, being able to beat Revenankh, resisting Stealth Rock and absorbing Toxic Spikes. Whirlwind can also be used to phaze out threats.</p>
+
+<p>Interestingly, Fidgit is also able to carry out the same Taunt / Reflect / Light Screen / Stealth Rock set that made Deoxys-E infamous although this is not as effective as a lead as it is slower than and duly Taunted by Azelf and Aerodactyl.</p>
+
+<p>Final mention must be reserved for Fidgit's Persistent trait which increases the duration of Gravity, Trick Room, Heal Block, Safeguard and Tailwind by two turns. Fidgit makes Trick Room more appealing with the defenses and the Speed to set it up under almost all circumstances and the ability to make a slower U-turn out and get the next Pokémon in safely with 5 turns remaining. The same goes applicable for Gravity-based teams.</p>
+
+<h4>How do you stop it?</h4>
+
+<p>Stopping Fidgit is relatively easy; it's usually a mono-attacker with Earth Power or Earthquake in rare cases, although some may carry Energy Ball, Shadow Ball, Stone Edge or U-turn alongside it so be cautious in general. That said, bulky waters will virtually always beat Fidgit one-on-one as will Syclant, Salamence and Rotom appliances especially if Fidgit lacks Wish.</p>
+
+<p>Stopping Fidgit setting up whatever it wants to is a lot more difficult. Starmie outspeeds Fidgit and can threaten it with both STABs and crucially has Rapid Spin to remove any entry hazards that it may lay. Azelf and Aerodactyl are also good responses to Fidgit, particularly Azelf with its STAB Psychic, as they outspeed and Taunt Fidgit with no fear of Earth Power.</p>
+
+<p>With Fidgit the emphasis is more on dealing with what is throws at you rather than stopping the source. It is a good idea to have a team that does not really mind entry hazards or with a Rapid Spinner and ironically Fidgit is a great help against opposing Fidgit being able to Rapid Spin and absorb Toxic Spikes on switching in. Tentacruel can perform the same role if need be. The second part of the equation is having a team that can cope with Trick Room and Gravity sweepers if need be, particularly as Persistent extends the time of both strategies so stalling out Trick Room or Gravity is much harder.</p>
+
+<h3><a name="stratagem">Stratagem</a></h3>
+
+<p><a href="/forums/showpost.php?p=1605626&amp;postcount=10"><img src="http://cap.smogon.com/Sprites/backnormal-fstratagem.png" alt="Stratagem" /></a></p>
+
+<h4>How is it commonly used?</h4>
+
+<p>Stratagem is often seen as a Special sweeper, or more specifically, a Calm Mind sweeper. The most common set is actually the Technician set which is more often that not is a very offensive version with Life Orb. The main form of STAB on these sets is usually AncientPower whose 10% chance of increasing Stratagem stats can mess up revenge killers that rely on Choice Scarf to outspeed Stratagem (which considering Stratagem's 130 Base Speed is rather common) as well as being a reliable and powerful attack at 90 Base Power before STAB is factored in. Needless to say that after a Calm Mind, not much can stand up to it. Giga Drain and Flamethrower quite often round off the coverage on this set, Giga Drain threatens Ground-types, and helps to combat Life Orb's recoil and generally keeps Stratagem at good health. Flamethrower of course threatens Steel-types, of the common Steel-types in OU, only Bronzong stands a chance against it and even it's taking on average 88% damage (338 HP / 330 SpD).</p>
+
+<p>Alternatively, Stratagem is also quite seen running a different variant of Calm Mind, similar to Raikou, incorporating Substitute to enable it to set up on the likes of Cresselia, non-Seismic Toss Blissey. Stratagem has two distinct advantages over Raikou in this respect; first of all Sandstorm can boost its Special Defense to a stat of approximately 300, in which case Weather Ball is used as the primary STAB attack, being 100 Base Power (otherwise Paleo Wave is used), and Stratagem also can utilize Levitate, as it so often does with Substitute, to shed its weakness to Ground-type attacks and increase the scope of the Pokémon it can set up on to include the likes of Fidgit and Roar-less Hippowdon and other Ground-types that don't carry a secondary attack able to break its Substitute such as Donphan. Earth Power is usually the secondary attack to maximize coverage.</p>
+
+<h4>What else can it do?</h4>
+
+<p>The most appealing of Stratagem's options are the Choice sets, perhaps Choice Scarf even more so than Choice Specs. Even with a Modest Nature, Stratagem outpaces the likes of Timid Choice Scarf Gengar as well as +1 Gyarados and Salamence and with its mammoth Special movepool it can boast Earth Power to hit potent threats such as Infernape and Lucario (ExtremeSpeed resist is a bonus) and has Focus Blast, Ice Beam and Thunderbolt to hit the three most common Dragon Dancers for x4 Super Effective damage. With most Special Attackers Choice Specs is an invaluable option to hit hard right off the bat and Stratagem is no different particularly with its blistering 130 base Speed which means that running a Modest nature is more feasible.</p>
+
+<p>With its high Speed and access to Stealth Rock (as well as immunity to Sandstorm), Stratagem invariably has the potential to become a good suicide lead with a moveset of Stealth Rock, Paleo Wave, Shadow Ball or U-turn and the ever potent Explosion. 130 Base Speed guarantees that it bypasses Azelf's Taunt and gives a 50% chance of bypassing Aerodactyl's Taunt when laying Stealth Rock. As a bonus it outspeeds Choice Scarf Metagross meaning that if it uses Trick, Stratagem isn't locked into Stealth Rock on the next turn. When done laying Stealth Rock, either Explode or pound the switch-in with Paleo Wave or use Shadow Ball or U-turn out for a later Explosion if you are met with a Ghost-type. Unfortunately, Stratagem has no way of preventing opponents setting up their own Stealth Rock which does make it a liability as a lead should your team be particularly prone to residual damage.</p>
+
+<p>Finally, Stratagem's mere 60 Base Attack may mean that it is more suited to the Special side of the spectrum but it certainly has a Physical movepool that many other Pokémon would be jealous of. With Swords Dance and an Adamant nature it reaches 480 Attack which can be abused with Head Smash, Stone Edge, Earthquake and of course Explosion. With Life Orb, there is a chance to OHKO two common switch-ins in Tyranitar (92% chance with Stealth Rock damage) and Blissey (42% chance with Stealth Rock damage) with Earthquake and Stone Edge respectively. The power of its Explosion can be brutal, even Skarmory fears it taking around 88% damage on average which is of course an OHKO with Stealth Rock in play.</p>
+
+<h4>How do you stop it?</h4>
+
+<p>Stopping Stratagem is difficult at times due to its high Speed and Special Attack and more importantly its unpredictability with the sheer depth of its attacking movepool. Thankfully, it can only use 4 attacks at once. The two best initial switch-ins are Blissey and Revenankh. In the case of Blissey, its colossus HP and plentiful Special Defense means that it can come in on the Calm Mind sets and cripple with Thunder Wave or Toxic before using Seismic Toss to wear it down as well as being able to take anything thrown at it from a Choice Specs Stratagem. However, Blissey may lose to Stratagem if it doesn't carry Seismic Toss, becoming merely set-up bait to any Substitute-variants and also if Blissey doesn't carry a Status-inducing attack then Giga Drain Stratagem may also beat it one-on-one thanks to the health recovered in the process.</p>
+
+<p>Unlike Blissey, Revenankh doesn't worry about Life Orbed Explosions, resists its sole STAB and has 100 Base Special Defense to sponge anything else that Stratagem commonly carries, enough so that a Life Orb Flamethrower doesn't 2HKO after a Calm Mind. Hammer Arm easily OHKOes in return. Stratagem can run Shadow Ball or Technician-boosted Hidden Power Flying (60) to inflict huge damage on Revenankh but it is extremely rare and means that Stratagem must sacrifice Giga Drain (and lose to Swampert) or Flamethrower (and lose to Bronzong) and in any case neither will OHKO with Life Orb after a Calm Mind the standard Revenankh.</p>
+
+<p>Flygon is a good switch in general into Stratagem, only fearing Ice Beam, which is relatively rare and beating the Levitate, Paleo Wave and Earth Power combination easily as well as faring well against Technician sets. Fidgit is another good switch in to the Technician set but ends up becoming set-up fodder against Levitate variants. Fighting-types Machamp and Hariyama have the defenses to withstand anything boosted bar the negligibly rare Hidden Power Flying and OHKO in return with any decently powered STAB attack. It is recommended that both are given Special Defense investment to take it on effectively.</p>
+
+<p>Stopping Stratagem is not limited to having fool-proof switch-ins but rather having deterrents from Calm Minding freely, off the bat. One of method of doing this is exploiting Stratagem's weakness to priority attacks; it is hit Super Effective by Aqua Jet, Mach Punch and Bullet Punch which all bypass Calm Mind. Scizor is useful as it is the only Pokémon that can OHKO with the aforementioned attacks without an item boost. Metagross and Lucario can both also come in on Rock-attacks and then hit hard with STAB Bullet Punches although Earth Power and Flamethrower must be avoided at all costs. Azumarill and Hitmontop can terrorize Stratagem with Huge Power and Technician boosted Aqua Jet and Mach Punch respectively. Substitute sets are less prone to priority attacks but must sacrifice coverage and thus are easier to counter. Any Pokémon that reaches over 394 Speed with a strong Physical attack will likely revenge kill Stratagem with ease, Jirachi is a good example with STAB Iron Head and Rock resistance.</p>
+
+<p>Choice sets, as always, require prediction to work around.</p>
+
+<h2><a name="differences">Differences between the Standard Metagame and the CAP Metagame</a></h2>
+
+<p>It is important to keep in mind that there are not fundamental differences between the CAP and Standard metagames. It is as important to prepare for each Pokémon, be it Salamence, Tyranitar or any other common Pokémon in both metagames. However, there are a few differences, perhaps minute, which have arisen from the characteristics of the 5 implemented new Pokémon and the reaction of users in stopping them.</p>
+
+<ul>
+<li><strong>Increased use of entry hazards.</strong> The introduction of Fidgit and its ability to lay all 3 types of entry hazards mean that entry hazards are more abundant. Tentacruel's usage is higher due to Fidgit laying Toxic Spikes as well as being able to reliable counter Pyroak. Hence Toxic Spikes is more prevalent.</li>
+<li><strong>Increased viability of stall.</strong> Stall is more common in the CAP metagame due to Revenankh's claim to being non-Pursuit weak Rapid Spin blocker as well as Fidgit being able to lay Spikes and Toxic reliably as an alternative to Forretress and Skarmory.</li>
+<li><strong>More use of Flying-type attacks.</strong> The Flying-type STAB is generally considered a bad one in the Standard metagame but of the 5 implemented Pokémon, Syclant, Pyroak and Revenankh are weak to it. It's not surprising to see Zapdos and Salamence running Hidden Power Flying as a response to Revenankh and Pyroak as well as increase in usage of Togekiss, particularly ScarfTogekiss.</li>
+<li><strong>Psychic-type attacks are more common.</strong> Psychic-type attacks are generally considered bad in the Standard metagame but in the CAP metagame, its ability to hit Fidgit and more importantly Revenankh for Super Effective damage cannot be understated. Be aware that Metagross, Celebi, Bronzong and Cresselia may carry Psychic-type attacks when they may normally not.</li>
+<li><strong>Fighting-types are redefined.</strong> In general, the Fighting-type is better defensively than it is offensively in the CAP metagame, to the detriment of Lucario in particular. Revenankh can counter almost every Fighting-type and Fidgit is a solid response to the majority of them, particularly when without Ice Punch or the rare Earthquake. However, on the contrary, Fighting-types are ever useful to take on Stratagem, particularly with Mach Punch on hand and also resist one of Syclant's STABs, many of them also resist Ice as well such as Lucario, Hariyama and Poliwrath.</li>
+</ul>
+
+<h2><a name="team_building">Team Building</a></h2>
+
+<h3><a name="incorporating">Incorporating the CAP Pokémon into your team</a></h3>
+
+<h4>Syclant</h4>
+
+<p>Syclant, being very offensive-orientated is usually found on offensive teams and also on balanced teams, usually employed in a Lucario-esque clean up Pokémon on offensive teams or a stall breaker for balanced teams. The Compoundeyes mixed attacker set is usually better suited to being a stall-breaker on balanced teams as these teams are more flexible with being able to fit in Wish support and Rapid Spin support to allow Syclant to pose a consistent menace. As such, Fidgit is a good partner on such teams being able to provide this support. On the other hand, the Tail Glow set is better for offensive teams as there is less need for Rapid Spin support and Focus Sash allows Syclant to be a last ditch revenge killer of sorts, which makes it useful for these teams.</p>
+
+<p>Syclant is usually a good Pokémon to build a team around and it enjoys good synergy with both Dugtrio and Magnezone, who between them trap and kill Heatran, Scizor, Tentacruel, Bronzong and Forretress who are prominent counters to Syclant. Of the two most common sets, the Tail Glow set is probably walled most easily but probably has more destructive potential and so it is recommended your team focuses on eliminating counters/checks to allow a clean sweep. Celebi is a good lure for Scizor and Scarf Heatran and can pack a surprise Hidden Power Fire or Thunder Wave to hinder both Pokémon. Tyranitar can also make a good partner for Syclant being able to Pursuit Blissey comfortably and luring Scizor and Forretress out to be hit by an unexpected Fire attack. However, watch out for Sand Stream damage when combining Tyranitar with a Life Orb Syclant. Finally, Abomasnow's permanent Hail makes it a good partner to Syclant, allowing it to use Blizzard and Mountaineer simultaneously but they share many common weaknesses meaning any team with both of the two needs a strong defensive backbone.</p>
+
+<h4>Revenankh</h4>
+
+<p>Revenankh requires very little team support as it has its only reliable recovery and does not greatly mind Stealth Rock and Toxic Spikes and thus it can fit into a lot of teams. Offensive Teams will enjoy Revenankh's tanking prowess and ability to absorb paralysis although Revenankh can sometimes kill the momentum of such teams by allowing Skarmory and Hippowdon to perhaps lay entry hazards before phazing. Teams full of Special attackers may like the ease it switches into Blissey. However, stalling teams are probably where Revenankh is found most thanks to its ability to block Rapid Spin typing quite useful; only Psychic Starmie is really able to deter it from doing so.</p>
+
+<p>If you wish to build your team around Revenankh, however, there are some good options to help. Scarf Heatran is a good weapon to against Jirachi and Celebi. Careful CBTyranitar may help against Zapdos, Celebi, Rotom Appliances and Cresselia, being able to Pursuit them. Magnezone can trap and kill pesky Jirachi and Metagross that may attempt to hit Revenankh with Psychic-type attacks. And finally, Stealth Rock in general will help stall wear down many of its Flying-type counters such as Togekiss and Zapdos.</p>
+
+<h4>Pyroak</h4>
+
+<p>Being primarily a defensive Pokémon it makes sense to list Pokémon that Pyroak can stop. Most notably this list includes Zapdos who needs Hidden Power Flying to even begin to threaten it. Pyroak also walls the majority of Metagross, resisting Meteor Mash and being neutral to everything else. Electric-types in general are beaten quite easily by Pyroak: Electivire and Jolteon are stopped effectively along with the Rotom-formes whose Shadow Ball barely concerns Pyroak can't even Will-o-Wisp it to wear it down. Pyroak is a good choice for teams that need extra protection from these Pokémon.</p>
+
+<p>As far as team support goes, Pyroak doesn't necessarily need much but will greatly benefit from having Rapid Spin support, particularly from Fidgit who can sponge strong Rock-type attacks aimed at it as well as absorbing Toxic Spikes instantaneously. Alternatively, a faster Taunt may suffice to stop Stealth Rock going up early should you not want to use a Rapid Spinner.</p>
+
+<p>Balanced teams probably complement Pyroak's ability the greatest, as it is able to add bulk and durability to teams whilst being able to retain practical functions such as being able to set up Stealth Rock and perform the cleric role with Aromatherapy. Perhaps more importantly it is able to do so whilst keeping the opponent's defensive Pokémon on the back foot; Blissey won't like Leech Seed, Skarmory and fellow Steels will cower from the threat of a STAB Fire attack similarly Ground-types and bulky waters will not want to face its STAB Grass Knot. Despite its great defenses, Pyroak is usually a liability on pure stall teams because of its lack of reliable recovery (especially with Hippowdon's Sand Stream around) and proneness to entry hazards.</p>
+
+<h4>Fidgit</h4>
+
+<p>Fidgit needs virtually no team support, and as such is invaluably flexible: it is able to fit on all types of teams, be it offensive, balanced or all-out stall and particularly theme teams such as Trick Room teams. Offensive teams will enjoy Fidgit's ability to set up both screens almost all of the time as well as any kind of entry hazard. Kingdra can make a good partner to Dual-Screen Fidgit as Fidgit lures out the bulky waters that Kingdra can set up on with ease, and with halved damage from all attacks, many good switch-ins to Kingdra are rendered useless as they fail to break its Substitute -- Celebi and Swampert being good examples.</p>
+
+<p>Balanced teams may make use of many of Fidgit's abilities and are usually more vulnerable to Toxic Spikes and hence Fidgit's ability to absorb them may be handy. Fidgit is a great addition for stall teams as well, primarily being able to lay both Spikes and Toxic Spikes whilst not being a liability from a defensive point of view, being able to check Lucario and Stratagem notably. It can also provide Wish support as an alternative to Blissey and Rapid Spin to help against other stall teams. And of course, Fidgit's Persistent means that Trick Room, Gravity teams and the like are easier to use.</p>
+
+<h4>Stratagem</h4>
+
+<p>With its exceptional Speed and Special Attack, Stratagem makes a fine choice to construct a team around with the aim of a sweep by Stratagem.</p>
+
+<p>Being Rock-type, the main way in which Stratagem can be aided by its team is through Sandstorm support, provided by either Hippowdon or Tyranitar. Tyranitar is usually a better choice to partner Stratagem, being able to Pursuit low health Blissey and luring out Ground-types that may serve to counter Stratagem. On the other hand, Hippowdon shares fewer common weaknesses with Stratagem which may lead to a more coherent team. Omnipresent Sandstorm allows Stratagem to use the 100 Base Power Weather Ball for STAB, which is especially useful for Substitute variants as the higher base power helps to counteract the lower coverage. 96 EVs mean that Stratagem's Special Defense is at a stat of 300 in Sandstorm which means that the likes of Cresselia become even easier to set up on and that bulky waters cannot stop a sweep in a pinch. If the Rock-Ground attacking axis is chosen, then Magnezone may be a useful addition to a team to remove both Bronzong and Scizor.</p>
+
+<p>There are a few lures that can be used in conjunction with Stratagem to ensure that it is more effective at sweeping. Alakazam for example will tend to lure out Blissey, Metagross, Bronzong and Scizor. It can run Hidden Power Fire to unexpectedly KO or severely weaken the Steel-types with the aid of Choice Specs and can also Trick Choice Specs onto Blissey meaning that later on, if it is trapped into a Status attack then the Substitute variant will beat it easily and if it is locked into Seismic Toss, Giga Drain versions will beat Blissey. Poliwrath, Flygon and Revenankh are all lured in by Dragon Dance Tyranitar which can run a Shuca Berry or Chople Berry alongside Counter to eliminate these Pokémon.</p>
+
+<p>Stratagem's high Speed and weakness to common priority attacks means that it lures many of the Pokémon carrying these attacks. Hence, feel free to use this to your advantage to scout opponents that may use this to ruin other strategies such as Dragon Dancing or using Reversal.</p>
+
+<h2><a name="standardteam">A Standard Metagame Team that would perform well in the CAP Metagame</a></h2>
+
+<p>Aerodactyl (M) @ Focus Sash<br />
+Ability: Pressure<br />
+EVs: 4 HP / 252 Atk / 252 Spe<br />
+Jolly nature (+Spe, -SpA)<br />
+- Taunt<br />
+- Stealth Rock<br />
+- Crunch<br />
+- Rock Slide</p>
+
+<p>Gets Stealth Rock up early as is essential for offensive teams and stops Fidgit leads cold by Taunting them.</p>
+
+<p>Salamence (M) @ Choice Band<br />
+Ability: Intimidate<br />
+EVs: 4 HP / 252 Atk / 252 Spe<br />
+Adamant nature (+Atk, -SpA)<br />
+- Outrage<br />
+- Fire Blast<br />
+- Earthquake<br />
+- Dragon Claw</p>
+
+<p>Hits hard and disrupts stall teams well. Helps out with Pyroak and Revenankh.</p>
+
+<p>Heatran (M) @ Life Orb<br />
+Ability: Flash Fire<br />
+EVs: 4 HP / 252 SpA / 252 Spe<br />
+Timid nature (+Spe, -Atk)<br />
+- Fire Blast<br />
+- Explosion<br />
+- Earth Power<br />
+- Hidden Power Electric</p>
+
+<p>Lures out and explodes on special walls to allow Zapdos to sweep more easily. Uses Pyroak to grab a Flash Fire boost.</p>
+
+<p>Rotom-W @ Choice Scarf<br />
+Ability: Levitate<br />
+EVs: 4 HP / 252 SpA / 252 Spe<br />
+Modest nature (+SpA, -Atk)<br />
+- Thunderbolt<br />
+- Shadow Ball<br />
+- Hydro Pump<br />
+- Trick</p>
+
+<p>Revenge killer and Mamoswine, Metagross, Zapdos and Scizor counter as well as Ice Punch Revenankh counter, particularly with Trick.</p>
+
+<p>Scizor (M) @ Leftovers<br />
+Ability: Technician<br />
+EVs: 252 HP / 252 Atk / 4 Def<br />
+Adamant nature (+Atk, -SpA)<br />
+- Bullet Punch<br />
+- Swords Dance<br />
+- Roost<br />
+- Superpower</p>
+
+<p>Useful revenge killer and sweeper and main Syclant counter.</p>
+
+<p>Zapdos @ Life Orb<br />
+Ability: Pressure<br />
+EVs: 4 HP / 252 SpA / 252 Spe<br />
+Timid nature (+Spe, -Atk)<br />
+- Thunderbolt<br />
+- Heat Wave<br />
+- Hidden Power Grass<br />
+- Roost</p>
+
+<p>Late-game cleaner and anti-bulky water Pokémon. Initial Revenankh switch in.</p>
+
+<h4>CAP Pokémon Threat List:</h4>
+
+<ul>
+<li>Syclant - Compound Eyes variants hampered greatly by Stealth Rock. Scizor can almost always come in and OHKO with Bullet Punch. Rotom-W and Aerodactyl revenge kill easily.</li>
+<li>Revenankh - Without Ice Punch it falls to Zapdos who 3HKOs with Thunderbolt. Rotom-W can Trick it with need be and Salamence's Outrage will still 2HKO after a bulk up.</li>
+<li>Pyroak - Heatran can come in for a Flash Fire boost and smash it with Fire Blast. Salamence comes in on Grass-attacks and hits it hard with Outrage. Also dislikes Rotom-W's Trick and Stealth Rock.</li>
+<li>Fidgit - Leads are taunted by Aerodactyl and Rotom-W can Trick it or hit it with Hydro Pump. All Pokémon are immune to Toxic Spikes should Fidgit be carrying it.</li>
+<li>Stratagem - Slight weakness here but Scizor revenge kills 100% and Rotom-W can break its substitute with Hydro Pump so Scizor can come in.</li>
+</ul>
+
+<p>Notice how other threats such as Mamoswine, Metagross, Tyranitar, Zapdos and Heatran are also countered. In general standard metagame teams fare well in the CAP metagame as long as you have good knowledge of the CAP Pokémon.</p>
+
+<h2><a name="capteam">A Team Incorporating the CAP Pokémon</a></h2>
+<p><em>With thanks to <a href="/forums/member.php?u=15565">Magmortified</a></em></p>
+
+<p>Tyranitar (M) @ Choice Band<br />
+Ability: Sand Stream<br />
+EVs: 4 HP / 252 Atk / 252 SpD<br />
+Adamant nature (+Atk, -SpA)<br />
+- Crunch<br />
+- Stone Edge<br />
+- Earthquake<br />
+- Aqua Tail</p>
+
+<p>Here to provide valuable Sandstorm support for Stratagem, as well as to be a cool anti-lead. Sandstorm breaking Focus Sash, a powerful Earthquake to batter the common Fidgit and so on. Helps to keep Rotom and Zapdos away. And even serves as a Stratagem check if it isn't too beaten up.</p>
+
+<p>Stratagem @ Leftovers<br />
+Ability: Levitate<br />
+EVs: 64 HP / 96 SpA / 96 SpD / 252 Spe<br />
+Timid nature (+Spe, -Atk)<br />
+- Calm Mind<br />
+- Earth Power<br />
+- Paleo Wave<br />
+- Substitute</p>
+
+<p>The star of the squad. Sets up a Sub or Calm Minds and begins its reign of terror over the opponent's team. Also one of the team's only real defenses against Gyarados, sadly. The spread coincidentally hits some nice numbers for Calm Mind. 300 Special Attack, 200 Special Defense, and after two CMs and Sandstorm they're both at a nasty 600. A lot of the rest of the team is set up so as to deal with Stratagem's opponents, so there's a good chance I might be able to get that far and kill stuff.</p>
+
+<p>Celebi @ Leftovers<br />
+Ability: Natural Cure<br />
+EVs: 252 HP / 220 Def / 32 Spe<br />
+Bold nature (+Def, -Atk)<br />
+- Recover<br />
+- Perish Song<br />
+- Psychic<br />
+- Energy Ball</p>
+
+<p>Celebi is here to make sure this team doesn't fall prey to rampant Gyarados and Revenankh. Energy Ball is primarily to at least break Stratagem subs.</p>
+
+<p>Revenankh (M) @ Leftovers<br />
+Ability: Shed Skin<br />
+EVs: 252 HP / 120 Def / 136 SpD<br />
+Careful nature (+SpD, -SpA)<br />
+- Bulk Up<br />
+- Hammer Arm<br />
+- Shadow Sneak<br />
+- Rest</p>
+
+<p>The terror of unprepared teams. Revenankh takes Status, Stratagem, and other general issues that this team has an issue with. Revenankh aims to take in a few Bulk Ups, then hit stuff while absorbing hits with its massive bulk.</p>
+
+<p>Dugtrio (M) @ Choice Band<br />
+Ability: Arena Trap<br />
+EVs: 4 HP / 252 Atk / 252 Spe<br />
+Adamant nature (+Atk, -SpA)<br />
+- Aerial Ace<br />
+- Earthquake<br />
+- Stone Edge<br />
+- Sucker Punch</p>
+
+<p>While it's arguable that this team already has enough Blissey protection, Dugtrio can ensure that it, and another Stratagem check, Tyranitar - are out of the game.</p>
+
+<p>Zapdos @ Leftovers<br />
+Ability: Pressure<br />
+EVs: 252 HP / 220 Def / 32 Spe<br />
+Bold nature (+Def, -Atk)<br />
+- Thunderbolt<br />
+- Hidden Power Ice<br />
+- Roost<br />
+- Metal Sound</p>
+
+<p>Catches stuff off-guard in preparation for a special assault by Stratagem, or to scare off Pokémon like Revenankh.</p>
+
+<p>This team has some issues with Gyarados and Infernape but nevertheless is a good example of how teams can use the CAP Pokémon, in particular Stratagem in this example, to the best of their potential.</p>

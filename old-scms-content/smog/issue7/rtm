@@ -1,0 +1,71 @@
+[title]
+Real Time Mafia
+[head]
+<link href="/media/smog/smog.css" type="text/css" rel="stylesheet" />
+[page]
+<div class="author"> By <a href="/forums/member.php?u=273">Mekkah</a>.</div>
+<table id="smogheader">
+<tr>
+<td class="left"><a href="interview_cookie">&laquo; Previous Article</a></td>
+<td class="middle"><a href="/smog/issue7/">Home</a></td>
+<td class="right"><a href="ubers">Next Article &raquo;</a></td>
+</tr>
+</table>
+
+<h2>How it all began</h2>
+
+<p>Before RTMs came up, there were two ways of playing mafia in Smogon environment: the IRC-based mafiabot in #fluodome, and forum mafia on Circus Maximus.</p>
+
+<p>The bot in #fluodome has the advantage of being quick and easy: games are over in 10-15 minutes at most, and a bot rather than a host handles all the actions. However, the games are also repetitive. There's very little variety in the roles used, and to make it worse, the bot announces exactly which roles are in. This makes false claiming almost impossible. Playing mafia on #fluodome is rarely taken seriously anymore. People collaborate (work together regardless of alignment), vote/kill people they don't like, etc.</p>
+
+<p>Forum mafia is much more competitive, and doesn't have the variety problem, but each day and each night generally take 48 hours to complete. Being slow isn't only a bad thing, since it also allows you to dedicate time to the game whenever you feel like it, but nonetheless, sometimes you wish it went faster.</p>
+
+<p>That's why I came up with Real Time Mafia, commonly abbreviated as RTM, a happy medium between #fluodome and forum mafia. The proposal thread can be found <a href="/forums/showthread.php?t=61658">here</a>. It was met with a lot of enthusiasm from regular players, resulting a fun game for 18 players. The postgame can be found <a href="/forums/showthread.php?t=62006">here</a>.</p>
+
+<div style="float: left; margin-right: 1em;"><img src="/media/upload/smog/issue7/realtimemafia.png" alt="Mafia" /></div>
+
+<h2>The technical workings of an RTM</h2>
+
+<h3>Preparations</h3>
+
+<p>First and foremost, if you want to play RTM, you will need some kind of IRC client. If you have never been on IRC before, you can find elaborate documentation <a href="/irc/">here</a>. This article is not intended to be an explanation of the inner workings of IRC, so if anything regarding that is unclear, I recommend you check there first.</p>
+
+<p>The moment it is clear an RTM will be held, a host (and his co-host) occupy two empty channels, and encourage everyone who wants to play to join. All hosts should be able to set modes in these channels, which is why registering one's own channel is recommended.</p>
+
+<p>The channel mode (for both channels) should be set to +mntrN, and all people who play in the RTM should have a voice (+v). After enough people have joined the channels, the host randomizes his sign-up list (usually using this <a href="http://www.random.org/lists/">List Randomizer</a>) and pastes the list in a (preferably pre-made) Google Docs Spreadsheet.</p>
+
+<h3>The game flow</h3>
+
+<p>After all the mechanical preparations are done, the host distributes the roles to the players. Mafia teams should be invited to a private mafia channel where they can collaborate, and people with a unique role, such as inspector, should be given a short "role PM" that explains their powers.</p>
+
+<p>Once everything is ready, the game begins, either with Night Zero (a night where no kills occur), Night One (a night where kills do occur) or Day One (a normal day with a lynch). The respective night / day should probably be put in the main channel's topic, as this is a very visible place.</p>
+
+<p>During the night, players contemplate how to use the night roles at their disposal, and send in their actions via a query to the host when they're done. Instead of sending privately, the mafia could put their actions in their private channel topic (recommended). They will need mode +t to be off, or need at least hops or above to alter the topic.</p>
+
+<p>Once all night actions are in, the topic should be changed to indicate such (for example, "Night 1 is over, updating") to make sure nobody changes their actions while you are updating. The host does the "update": eliminated players are devoiced in both the main and the voting channel, their role is revealed, any investigative roles get their results, and other roles that require message sending (such as silencer, persuader, and sometimes hooker) are executed as well. After all updating is done, the host announces that it's daytime (which should be put into the topic as well), and the day begins.</p>
+
+<p>During the day, players contemplate on who to lynch, just like they would in a normal forum mafia. Don't fret if this is a little chaotic, especially early on when there's very little information out..</p>
+
+<p>To vote another player to be lynched, all a participant has to do is put "lynch/vote [username]" on the voting channel in bold. The host is supposed to keep track of votes, and ends the day when majority has been reached. The voting channel is not to be used for discussion, as otherwise it would be much harder for the host to properly count the votes. If the day takes too long, the host should announce a deadline, such as "3 more minutes until the day ends".</p>
+
+<p>When majority or deadline is reached, the person with the most votes against him is devoiced and his/her role is revealed, and then the game goes into night sequence again.</p>
+
+<h2>Strategic pointers</h2>
+
+<p>RTM is much more fast paced than forum mafia. This makes it harder to recover from a single error, which usually favors the evil sides as it's easier to fool the good side when the game is chaotic. A trusted village leader is more essential than ever.</p>
+
+<p>If I had to name one scumtell that works in RTM while it doesn't when playing under other media, it would be being quiet. The mafia will have to collaborate on night targets and other strategies, and it's hard to do this and maintain an active profile in the main chat as well. Like all scumtells though, this is in no way foolproof. Remember, some clean people will be discussing things with other clean people outside of the main chat, and generally wolves have no one to talk to, so they'll stay active.</p>
+
+<p>For the rest, most mafia strategies that apply to forum mafia apply to RTM as well.</p>
+
+<h2>Conclusion</h2>
+
+<p>This is definitely not everything there is to know about Real Time Mafia, but it's intended to get you started on the basics. You now know what you can expect when someone is repeatedly announcing an RTM, and you might be able to host one yourself. For those interested in that, I plan on writing an article about hosting games in general, both for Circus Maximus and RTM, so watch the Smog for that!</p>
+ 
+<table id="smogfooter">
+<tr>
+<td class="left"><a href="interview_cookie">&laquo; Previous Article</a></td>
+<td class="middle"><a href="/smog/issue7/">Home</a></td>
+<td class="right"><a href="ubers">Next Article &raquo;</a></td>
+</tr>
+</table>

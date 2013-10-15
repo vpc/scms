@@ -1,0 +1,134 @@
+[Title]
+PPRNG Guide - Capturing / Receiving Perfect (and Shiny) Pokemon
+
+[Head]
+<style type="text/css">
+	.centered-left { text-align:center; padding-right:40%}
+	img { max-width:100%; }
+	ol { list-style-type: upper-roman; }
+	ol ol { list-style-type: lower-roman; }
+	dl dl { margin-left:2em; }
+	dl dl dt { font-size:.85em; }
+</style>
+ 
+[Page]
+<div class="author">By <a href="/forums/members/the-agonist.52007/">The Agonist</a>.</div>
+
+<ol class="toc"> 
+	<li><a href="/ingame/rng/pprng_gen5_01_intro">Introduction</a></li>
+	<li><a href="/ingame/rng/pprng_gen5_02_basics">The Basics of RNG Abuse</a></li>
+	<li><a href="/ingame/rng/pprng_gen5_03_id_abuse">How to RNG Abuse your TID/SID combo</a></li>
+	<li>
+		<strong>Capturing/Receiving Perfect (and Shiny) Pokemon</strong>
+	</li>
+	<li><a href="/ingame/rng/pprng_gen5_05_breeding">Breeding Perfect (and Shiny) Pokemon</a></li>
+	<li><a href="/ingame/rng/pprng_gen5_06_wondercard">Receiving Perfect Wondercard Pokemon</a></li>
+	<li><a href="/ingame/rng/pprng_gen5_07_roamers">Capturing Roaming Pokemon</a></li>
+	<li><a href="/ingame/rng/pprng_gen5_08_hidden_grottos">Controlling Encounters in Hidden Grottoes</a></li>
+	<li><a href="/ingame/rng/pprng_gen5_09_dream_radar">Receiving Perfect Dream Radar Pokemon</a></li>
+	<li><a href="/ingame/rng/pprng_gen5_10_entralink">Capturing Perfect Entralink Pokemon</a></li>
+</ol>
+ 
+<p>
+	Now that you've got your parameters found, naturally the first thing you'll want to do is start RNGing your perfect Pokemon, and what better way to start then RNGing a perfect wild Pokemon? However, there are a few things to get out of the way first. There are two separate frames involved in this process. One is the IVRNG, and the other, the PIDRNG. IVRNG, as the name suggests, controls the IVs you will get. The PIDRNG is responsible for the characteristics&mdash;shininess, ability, gender, and nature. The IVRNG is the lesser concern&mdash;PPRNG automatically sets it to IV frame 1, and there isn't any reason to change it for standard captures. The PIDRNG is a bit a trickier, and is the primary concern. Advancing it is how you will get what you want, and there are a couple of ways to advance it.
+</p>
+ 
+<ul>
+	<li>Saving advances the PIDRNG by 1 frame.</li>
+	<li>Listening to a custom Chatter cry from Chatot in the summary screen will advance it by 1. This is the fastest way to advance the PIDRNG.</li>
+	<li>Weather (sandstorm, rain, and snow all advance it, but unpredictably, and rather fast).</li>
+	<li>Wandering NPCs, or WNPCs will advance it each time they move. It's unpredictable in how they will advance it, but they don't advance it too fast, and you can hit target PID frames with a bit of effort while they're in the area. It's also worth noting that in the case of battle-able WNPCs, you can battle them, and they won't move as long as you stay on that route.</li>
+</ul>
+
+<p>
+	There are a few things you may want to get before doing a capture project:
+</p>
+
+<ul>
+	<li><strong>Crucial:</strong> At least one Chatot that knows the move Chatter. In addition, you'll want to record a custom cry using the move Chatter.</li>
+	<li><strong>Crucial:</strong> A Pokemon knowing Sweet Scent. Amoonguss is the best Pokemon for this, and has the added bonus of being able to learn Spore too. If you're playing White, Paras can be found in a swarm, can be bred to know Sweet Scent, and learns Spore much earlier than Amoonguss. It can also use False Swipe, which is very useful for catching Pokemon (it can't faint a Pokemon). Finally, Smeargle is an option in BW, via a Swarm, and is the best Pokemon to catch things with since it can learn just about every move in the game.</li>
+	<li><strong>Optional, but highly recommended:</strong> Pokemon with the ability Synchronize. Munna and Elgyem are available in Unova with this ability (they do have other abilities in addition to Synchronize). However, in BW2, Munna isn't available until after beating the Elite 4.</li>
+	<li><strong>Optional:</strong> A Pokemon with a sleep- or paralysis-inducing move. Amoonguss is probably the best example, learning Spore, which has perfect accuracy (sadly, it learns it rather late, at level 62). Many Pokemon can be taught Thunder Wave through the TM, but sleep is the preferred status due to the increased catch-rate and the afflicted Pokemon being unable to fight back.</li>
+	<li><strong>Optional:</strong> A male and female Cute Charm Pokemon. Jigglypuff is relatively easy to find in BW, but sadly is only available after beating the Elite Four. Minccino is available relatively early in both BW and BW2, and in W2, Skitty is available early on in Castelia City. Finally, Clefairy is available in both BW and BW2, but is only available after beating the game in BW, and rather late in BW2.</li>
+	<li><strong>Optional:</strong> If you're doing Compoundeyes, Joltik is a good option, being rather common in Chargestone Cave. It does have two abilities, but its other ability has a notification at the beginning of the battle.</li>
+	<li><strong>Optional:</strong> Finally, Suction Cups is available through Octillery, though you'll have to evolve it from Remoraid (or get lucky with a fishing spot). Remoraid can be found fishing in BW (post-game), and both Surfing and fishing in BW2 before beating the Elite 4. Once you've beat the game, another option arises in Lileep, which can revived from a fossil.</li>
+</ul>
+<p>
+	Now that that's out of the way, the first thing you'll need to do is open up PPRNG to start finding some seeds.
+</p>
+ 
+<div class="centered-left">
+	<img src="/media/upload/ingame/rng/pprng_capture_1.png" alt=""/>
+</div>
+ 
+<p>
+	Click the highlighted button to bring up this screen:
+</p>
+ 
+<div class="centered-left">
+	<img src="/media/upload/ingame/rng/pprng_capture_2.png" alt=""/>
+</div>
+ 
+<p>
+	The first thing you will want to do is set the range for the date. Any date from 2000-2099 will work (though it should be noted that 3DS dates only reach 2050). Below that are the held button boxes. Check off however many you want for that (the more keypresses, the more results, but the longer the search will take). Now comes the part where you enter your IVs. PPRNG has preset options to choose from, including physical flawless or special flawless, so you can choose from one of those, or enter your own desired IVs. Leave the IV frame as 1/1 (always do that, there isn't any reason to change it for standard captures). <strong>If you don't care about shininess, that's all you need to enter to start searching for seeds. Click search and wait for PPRNG to find you seeds</strong>.
+</p>
+ 
+<p>
+	If you want a shiny, you'll need to click the shiny only check box. Next to that is a dropdown list of options for the lead ability (Synchronize, Cute Charm, Compoundeyes, and Suction Cups). Synchronize is a very useful ability that makes wild encounters have a 50% chance of having the same nature as your Synchronizer. Cute Charm is a bit different, forcing Pokemon to have the opposite gender most of the time. There is a bit more to Cute Charm, which I will explain a bit later. Compoundeyes increases the chance of a wild held item, and for the most part you won't normally find too many seeds with this type of lead. Finally, Suction Cups is useful only for fishing, and guarantees an encounter while fishing.
+</p>
+ 
+<p>
+	Select which options you want for the lead, and just leave them all checked. The next dropdown menu is one for ability, and you can select as many natures are you want for that. Next to that is an ability dropdown menu, which has any, 0, or 1. That refers to the ability of the Pokemon (for example, Zigzagoon has Pickup for ability 0 and Gluttony for ability 1). Select any if you don't care, or the desired number depending on your target's ability (you can find the ability order on common Pokemon websites such as Smogon or Bulbapedia). Next to that is a gender option. Select whichever gender you want, or any if you don't care. Next to that is a ratio option. This is a bit trickier. The default option is ---, which is any, but it also has ⅛♀, ¼♀, ½♀, and ¾♀. These fractions refer to the gender ratio of Pokemon species, with most being ½♀ (meaning 50% chance of male or female), but others have different odds. Refer to the above sites for gender ratios of Pokemon. If you're using Cute Charm, this is important, since you can get results that would ordinarily be good but made useless because your target doesn't have the right gender ratio.
+</p>
+ 
+<p>
+	Below that there is a required encounters option (the default is all, but the other encounters are pretty self-explanatory, so just check off what you're looking for). Next to that is an encounter slots option. Encounter slots refer to how common a Pokemon is&mdash;each species has a predetermined encounter slot for each area it's in, with Metang being on encounter slot 7, 9, and 11 in the Giant Chasm, for example. Finally, the last option is PID frame (leave the checkbox above it checked off). The first box doesn't matter, but the second is how high of a PIDRNG frame it will search for. The higher you search, the better chance you have at finding a seed, but it will also take longer and you'll have to do more work. Set it at a number you feel comfortable doing (500 is generally pretty good, so don't do something crazy like 10,000). Once you've got your PIDRNG frame set, you can go ahead and click search.
+</p>
+ 
+<p>
+	After a while of searching, your seed searcher should look something like this:
+</p>
+ 
+<div class="centered-left">
+	<img src="/media/upload/ingame/rng/pprng_capture_3.png" alt=""/>
+</div>
+ 
+<p>
+	Scroll through the list of seeds, find one that you like, and double click it. That will bring up the seed inspector window.
+</p>
+ 
+<div class="centered-left">
+	<img src="/media/upload/ingame/rng/pprng_capture_4.png" alt=""/>
+</div>
+ 
+<p>
+	Now, I've searched a shiny seed, so in theory all I need to do is hit my seed, and do the necessary PIDRNG advancements, and I'll get a shiny. <strong>If you didn't search for a shiny frame, the next step is important for you</strong>. You can ignore the top half of the screen, that doesn't matter (just pay attention to the bottom-left corner). What you'll want to do is set the encounter type to whatever your target uses, then set the lead ability to whichever you want to use. I have Cute Charm set in the demonstration picture, so if you choose to use Cute Charm, make sure you set the proper gender ratio then click generate. The results that come up will list the frame number, the chatter pitch, the PID of each frame, shininess (shininess is indicated by a black ★), ability, gender ratio, encounter slot, and finally, whether it will be holding an item. If you didn't bother going for shiny, just scroll through until you find a PID frame that you like. If you set Synchronize as your choice of lead, the nature will be replaced by &lt;SYNC&gt;, meaning the nature will be the nature of your synchronizer.
+</p>
+ 
+<p>
+	Now that you've got that out of the way, it's time to actually catch it. For first time RNG abusers, I highly recommend you go to a place without WNPCs, with a good choice being either the Giant Chasm or the Victory Road (although there are a few rooms in the Victory Road with WNPCs, it's not hard to figure out which ones do&mdash;just look for any NPCs that move in an unpredictable pattern). Go to your area of choice and save the game, with your lead in the front of the party, your two Chatot, and your catcher (your lead can be fainted, so you can immediately lead with your catcher&mdash;its ability will still kick in and do what it needs to).
+</p>
+ 
+<p>
+	Change the date and time to the one for your seed, and then turn off your DS, and turn it back on, and wait for your time to occur. Start your game depending on your DS type (for DS and DS Lites, you'll want to start the game a second early, for DSi models, you'll want to start one to three seconds early, and for 3DS models it's seven to eight seconds early). Hold down any keypresses required immediately after starting the game until the Game Freak shooting star logo. Then mash A until you come to the screen giving you the option to start your game. Press A to continue to your game, and quickly mash A through the season screen and immediately press X to open up your menu screen for your game. Go to your Chatot's summary and flip back and forth between them&mdash;each time you view the summary, it advances the PIDRNG by one frame. For the seed I'm using, the initial frame is 48 and my target is 221. Subtract the initial frame from the target frame, and you'll get the number of Chatters you need to do&mdash;for me it would be 173. So, I'd have to view the summary screens of my Chatot 173 times to advance to PIDRNG frame 221. After that, all I need to do is Sweet Scent, and if I hit my seed, I'll get my desired result (remember, I'm doing this in an area where there aren't any WNPCs, so the only thing that can advance the PIDRNG is me).
+</p>
+ 
+<p>
+	For captures in areas with WNPCs it's a bit trickier, but by no means impossible. The first thing you will need to do is determine by how much the wandering NPCs advance the PIDRNG. The easiest way to do that is to follow the steps above, mash A through the season screen, then open up the menu immediately and Sweet Scent without doing any Chatters. Catch the Pokemon you find, and use the characteristics (nature, gender, IVs, and match it to the appropriate frame in the seed inspector&mdash;it's worth noting that in some areas there are A LOT of WNPCs, and they will advance the PIDRNG very quickly). This frame is your shifting starting frame. Once you've figured out what frame you hit, subtract that from your target and that will be the number of Chatters you need to do. Then, just perform a hard reset on your DS (don't save after finding out what frame the WNPCs advance you to), repeat the above process, and do the number of Chatters required by subtracting your shifting starting frame from your target frame, and you should encounter your target Pokemon.
+</p>
+ 
+<p>
+	Note that the above processes only cover a normal wild capture. For stationary Pokemon, it is almost exactly the same except you don't need to use Sweet Scent to encounter your Pokemon, and they have a slightly PID method. All you need to do for stationary Pokemon is save right in front of them, or in the case of Latios and Latias in B2W2, save right before you trigger their encounter, hit your seed like normal, do your Chatters, and then talk to it. You can select the stationary PIDRNG method in the dropdown menu under Encounter type.
+</p>
+ 
+<p>
+	Unova introduced a new type of grass, called doubles grass. Like normal grass, it can be RNGed; however, it uses a slightly different encounter method, and there's the possibility of encountering two Pokemon instead of one. At this time, you can only RNG the Pokemon that appears on the right side in the case that you do run into two Pokemon (the seed inspector will tell you if that's the case once you select Doubles as the encounter type). Other than those differences, it's exactly the same as RNGing a standard grass encounter.
+</p>
+ 
+<p>
+	Another encounter type introduced in the Unova is a spot; either shaking grass, bubbling water, swirling dust, or a feather. These are much more difficult to RNG than any other encounter type, since they involve multiple aspects. To trigger one of these spots, you need to walk around, and every twenty steps a call is made to see if a spot is generated. That in itself isn't a big deal&mdash;the problem lies in the fact that the PIDRNG is advanced while walking through grass (advances two frames each time you take a step, or turn, but don't take a step), and that you can easily advance the IV frame by walking (every 128 steps it advances by the number of Pokemon in your party). The fact that you may have to use different IV frames, the advancing PIDRNG, and possible WNPCs makes this type of RNG abuse rather difficult, and even worse, there isn't much point to doing it, since almost of the Pokemon encountered by this type of abuse need Egg moves. Finally, while doing spot abuse, Compoundeyes can be used to change encounters around and possibly generate more viable seeds for you to use. Do note that doing this will prevent you from using a Synchronizer.
+</p>
+ 
+<p>
+	The final encounter type is Surfing / fishing. Both methods have their own PID type, but are otherwise similar. Encounters of this type only have five possible encounter slots, unlike the twelve possible everywhere else. Surfing uses the same process as grass encounters, so you can just Sweet Scent for those. Fishing, on the other hand, use the Super Rod, a key item received after beating the game. To use the Super Rod, you merely need to select in the bag, face an open tile of water, and use it. For the most part, it follows the same process as other types of abuse, but instead of using Sweet Scent, you need to exit your Pokemon menu and then activate the Super Rod. Fortunately, all WNPCs are frozen during the fishing animation, so unlike Sweet Scent, you won't have them advancing the frame after you've done your Chatters.
+</p>

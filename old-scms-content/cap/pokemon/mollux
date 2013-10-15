@@ -1,0 +1,31 @@
+[title]
+Mollux
+[head]
+<link rel="stylesheet" type="text/css" href="/media/dex/dex.css" />
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_template.js"></script>
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_database.js"></script>
+[header]
+[page]
+<script language="JavaScript">
+<!--
+var cap = Mollux();
+
+cap.heightFeet = 3;
+cap.heightInches = 11;
+cap.weightPounds = 90.2;
+cap.weightKilos = 41;
+cap.eggGroup1 = "Fairy";
+cap.eggGroup2 = "Field"
+
+cap.topicLeader = "Deck Knight";
+cap.conceptCreator = "Theorymon"
+cap.statSpreadCreator = "Rising_Dusk";
+cap.designArtist = "Mos-Quitoxe";
+cap.spriteArtist = "Wyverii";
+cap.nameCreator = "DougJustDoug";
+cap.movepoolCreator = "nyttyn";
+cap.playtestChampion = "DetroitLolcat";
+
+document.write(composeDexPage(cap));
+//-->
+</script>

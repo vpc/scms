@@ -1,0 +1,28 @@
+[title]
+Revenankh
+[head]
+<link rel="stylesheet" type="text/css" href="/media/dex/dex.css" />
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_template.js"></script>
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_database.js"></script>
+[header]
+[page]
+<script language="JavaScript">
+<!--
+var cap = Revenankh();
+
+cap.heightFeet = 6;
+cap.heightInches = 0;
+cap.weightPounds = 97;
+cap.weightKilos = 44;
+cap.eggGroup1 = "Indeterminate";
+cap.eggGroup2 = "Humanshape";
+
+cap.topicLeader = "Hyra";
+cap.statSpreadCreator = "Mario with Lasers";
+cap.designArtist = "KoA";
+cap.spriteArtist = "KoA";
+cap.nameCreator = "Deck Knight";
+
+document.write(composeDexPage(cap));
+//-->
+</script>

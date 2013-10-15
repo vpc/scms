@@ -1,0 +1,29 @@
+[title]
+Stratagem
+[head]
+<link rel="stylesheet" type="text/css" href="/media/dex/dex.css" />
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_template.js"></script>
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_database.js"></script>
+[header]
+[page]
+<script language="JavaScript">
+<!--
+var cap = Stratagem();
+
+cap.heightFeet = 2;
+cap.heightInches = 11;
+cap.weightPounds = 99;
+cap.weightKilos = 45;
+cap.eggGroup1 = "Does Not Breed";
+
+cap.topicLeader = "tennisace";
+cap.conceptCreator = "Latinoheat"
+cap.statSpreadCreator = "Gothic Togekiss & Goodbar";
+cap.designArtist = "YourDeadGrandad";
+cap.spriteArtist = "Wyverii";
+cap.nameCreator = "X-Act";
+cap.movepoolCreator = "X-Act";
+
+document.write(composeDexPage(cap));
+//-->
+</script>

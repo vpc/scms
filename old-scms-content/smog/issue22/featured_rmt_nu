@@ -1,0 +1,691 @@
+[title]
+Featured NU RMT 
+[head]
+<link href="/media/smog/smog.css" type="text/css" rel="stylesheet" />
+<style type="text/css">
+.rmt-border {
+    margin: 20px 10px 20px 10px;
+    padding: 3px 10px 10px 10px;
+    background-color: #ededed;
+    border: 1px solid #adadad;
+    -webkit-border-radius: 12px;
+       -moz-border-radius: 12px;
+            border-radius: 12px;
+}
+.dots {
+font-size: 300%;
+}
+.golurk {
+color: teal;
+font-weight: bold;
+}
+.ludicolo {
+color: yellowgreen;
+font-weight: bold;
+}
+.torkoal {
+color: darkred;
+font-weight: bold;
+}
+.gurdurr {
+color: plum;
+font-weight: bold;
+}
+.skuntank {
+color: darkslateblue;
+font-weight: bold;
+}
+.rotom {
+color: orange;
+font-weight: bold;
+}
+.margin-1 {
+margin-left: 25px;
+}
+.margin-2 {
+margin-left: 50px;
+}
+.margin-small {
+margin-left: 25px;
+font-size: 70%;
+font-style: italic;
+}
+.rmt-writer {
+       padding-top: 1px;
+       padding-left: 5px;
+       background-color: #ededed;
+       border-style: null;
+       border-bottom: 5px double #adadad;
+       margin-top: 10px;
+       margin-bottom: 10px;
+}
+</style>
+[page]
+<div class="author"> Teams by <a href="/forums/member.php?u=46293">FLCL</a> and <a href="/forums/member.php?u=110102">Zebraiken</a>, with commentary by <a href="/forums/member.php?u=40735">Django</a>. Art by <a href="/forums/member.php?u=12801">icepick</a>.</div>
+<table id="smogheader">
+<tr>
+<td class="left"><a href="featured_rmt_uu">« Previous Article</a></td>
+<td class="middle"><a href="/smog/issue22/">Home</a></td>
+<td class="right"><a href="ru_normal_types">Next Article »</a></td>
+</tr>
+</table>
+ 
+<h2>Introduction</h2>
+
+<p>As I'm sure many of you are aware, the NU Open section of the Smogon Grand Slam has recently finished, with a hotly contested final between FLCL and Zebraiken. Both users have recently posted RMTs of the teams they used throughout the tournament and during the final, so as a special we will be featuring both RMTs, as well as providing a commentary of game two of the finals between the two featured teams. Without further ado, let's move onto the two players and their teams!</p>
+
+<p>The first team is from NU Open winner FLCL. This user should be commended for continuing to produce successful and relevant teams in NU, this being the second Smog issue in a row where he has been in the Featured NU RMT article. It was not used on the ladder as much as some of FLCL's previous teams, but it clearly had great success in the NU Open, not losing a single match. It takes the most popular playstyle in current NU, bulky offense, and uses unique sets like Shell Smash Torkoal to create a very difficult team to play against. Zebraiken's team is actually very similar to FLCL's; they both use the popular Gurdurr plus Skuntank core, and Ludicolo makes an appearance on both teams, cementing its position as the most dangerous Pok&eacute;mon in NU. In contrast to FLCL, this is Zebraiken's first RMT in a long time. The wait was certainly worth it however, and we are presented with a team that has gone a long way in shaping the metagame recently. It has achieved a huge amount of ladder success, getting something close to 600 wins over a number of alts, as well as going 5-2 in the NU Open. Apart from the aforementioned Ludicolo, Skuntank, and Gurdurr, Zebraiken's team uses one of the most prevalent and dangerous sets in recent memory: Substitute + Bulk Up Braviary. His is a similar brand of bulky offense to FLCL's, but makes use of more hazards in contrast to constant offensive pressure.</p>
+
+<div id="rmt-border">
+
+<div class="rmt-writer"><p><strong><a href="/forums/showthread.php?t=3473443">Volcanic Eruption</a></strong> by <strong><a href="/forums/member.php?u=46293">FLCL</a></strong></p></div>
+
+<div style="text-align: center;"><img src="/download/sprites/bw/653.png" alt="" /> &nbsp; <img src="/download/sprites/bw/272.png" alt="" /> &nbsp; <img src="/download/sprites/bw/324.png" alt="" /> &nbsp; <img src="/download/sprites/bw/561.png" alt="" /> &nbsp; <img src="/download/sprites/bw/440.png" alt="" /> &nbsp; <img src="/download/sprites/bw/502.png" alt="" /></div>
+
+<div style="text-align: center;" class="dots"><p><strong><span style="color: red;">.</span><span style="color: orange;">.</span><span style="color: yellow;">.</span><span style="color: lime;">.</span><span style="color: cyan;">.</span><span style="color: deepskyblue;">.</span><span style="color: blue;">.</span><span style="color: purple;">.</span><span style="color: navy;">.</span></strong></p></div>
+
+<h2>UNDER THE MICROSCOPE</h2>
+
+<div style="text-align: center;"><img src="/media/upload/smog/issue22/featurednurmt_golurk.png" alt="" /></div>
+
+<div style="text-align: center;"><p><span class="golurk">GOLURK</span> @ <img src="/media/upload/smog/issue22/leftovers.png" alt="" /><br />
+<span class="golurk">Ability:</span> Iron Fist<br />
+<span class="golurk">EVs:</span> 172 HP | 252 Atk | 84 Spe<br />
+<span class="golurk">Nature:</span> Adamant (+Atk, -SpA)<br />
+<span class="golurk">Moveset:</span> Stealth Rock | Earthquake | Ice Punch | Shadow Punch</p></div>
+
+<p>Golurk is one of the most reliable Stealth Rock setters in the current metagame. Many common leads such as Golem, Regirock, and Armaldo are beaten handily by it. Golurk's sheer bulk makes it very hard to OHKO without a powerful Surf, Ice Beam, or Grass Knot, which allows it to set up Stealth Rocks in nearly every match. Offensively, it's no slouch either; Golurk's gigantic Attack stat allows it to dish out damage consisitently to every Pok&eacute;mon in the tier due to the perfect coverage it has between its attacks. It also supports the team by adding useful Normal, Electric, and Fighting type immunities. Golurk is usually the initial switch-in to Pok&eacute;mon such as Tauros, Sawk, and Rotom-S.</p>
+
+<div style="text-align: center;" class="dots"><p><strong><span style="color: red;">.</span><span style="color: orange;">.</span><span style="color: yellow;">.</span><span style="color: lime;">.</span><span style="color: cyan;">.</span><span style="color: deepskyblue;">.</span><span style="color: blue;">.</span><span style="color: purple;">.</span><span style="color: navy;">.</span></strong></p></div>
+
+<div style="text-align: center;"><img src="/media/upload/smog/issue22/featurednurmt_ludicolo.png" alt="" /></div>
+
+<div style="text-align: center;"><p><span class="ludicolo">LUDICOLO</span> @ <img src="/media/upload/smog/issue22/lifeorb.png" alt="" /><br />
+<span class="ludicolo">Ability:</span> Swift Swim<br />
+<span class="ludicolo">EVs:</span> 4 Def | 252 SAtk | 252 Spd<br />
+<span class="ludicolo">Nature:</span> Timid (+Spe, -Atk)<br />
+<span class="ludicolo">Moveset:</span> Giga Drain | Hydro Pump | Ice Beam | Rain Dance</p></div>
+
+<p>Ludicolo is one of the most devistating Pok&eacute;mon in NU simply because of this set. The power and coverage it provides allows it to plow through the many teams that lack a dedicated special wall. Rain Dance allows Ludicolo to sweep at a moment's notice if given a free turn and is extremely useful at breaking down offensive teams. Its typing is also very important as it helps the team take Hydro Pumps from the likes of Samurott, Simipour, and opposing Ludicolo.</p>
+
+<div style="text-align: center;" class="dots"><p><strong><span style="color: red;">.</span><span style="color: orange;">.</span><span style="color: yellow;">.</span><span style="color: lime;">.</span><span style="color: cyan;">.</span><span style="color: deepskyblue;">.</span><span style="color: blue;">.</span><span style="color: purple;">.</span><span style="color: navy;">.</span></strong></p></div>
+
+<div style="text-align: center;"><img src="/media/upload/smog/issue22/featurednurmt_torkoal.png" alt="" /></div>
+
+<div style="text-align: center;"><p><span class="torkoal">TORKOAL</span> @ <img src="/media/upload/smog/issue22/lifeorb.png" alt="" /><br />
+<span class="torkoal">Ability:</span> Shell Amor<br />
+<span class="torkoal">EVs:</span> 4 Def | 252 SpA | 252 Spe<br />
+<span class="torkoal">Nature:</span> Modest (+SpA, -Atk)<br />
+<span class="torkoal">Moveset:</span> Fire Blast | Earth Power | Shell Smash | Rapid Spin</p></div>
+
+<p>Shell Smash Torkoal is one of the coolest sets circulating around the metagame right now. It is one of the only spinners that can get past common Spinblockers like Misdreavus and Golurk. On top of that, it has a huge surprise factor that allows Torkoal to sweep entire teams at times. Fire Blast is extremely powerful after a boost, 2HKOing even dedicated special walls such as Licklicky. It synergises extremely well with Ludicolo; the two form a pseudo Fire / Water / Grass core and can break down Pok&eacute;mon that give each other trouble. Props to EBeast for popularizing Smashkoal, and to Django for inventing it?!!?!</p>
+
+<div style="text-align: center;" class="dots"><p><strong><span style="color: red;">.</span><span style="color: orange;">.</span><span style="color: yellow;">.</span><span style="color: lime;">.</span><span style="color: cyan;">.</span><span style="color: deepskyblue;">.</span><span style="color: blue;">.</span><span style="color: purple;">.</span><span style="color: navy;">.</span></strong></p></div>
+
+<div style="text-align: center;"><img src="/media/upload/smog/issue22/featurednurmt_gurdurr.png" alt="" /></div>
+
+<div style="text-align: center;"><p><span class="gurdurr">GURDURR</span> @ <img src="/media/upload/smog/issue22/eviolite.png" alt="" /><br />
+<span class="gurdurr">Ability:</span> Guts<br />
+<span class="gurdurr">EVs:</span> 252 HP | 252 Atk | 4 Def<br />
+<span class="gurdurr">Nature:</span> Adamant (+Atk, -SpA)<br />
+<span class="gurdurr">Moveset:</span> Bulk Up | Drain Punch | Ice Punch | Mach Punch</p></div>
+
+<p>Meet one of the premier bulky attackers in the tier, Gurdurr. It boasts massive bulk and a great attack stat, which can be pumped up to extremely dangerous levels thanks to Bulk Up and Guts. It has the ability to recover HP with Drain Punch, which helps it immensely when it's matched up against Pok&eacute;mon such as Samurott and Emboar. There are very few physical attackers, or even physical walls, that can come on top against this beast. Outside of sweeping, Gurdurr can break down bulky Rock and Steel types that wall Skuntank, which greatly increases its utility and usefulness in a match.</p>
+
+<div style="text-align: center;" class="dots"><p><strong><span style="color: red;">.</span><span style="color: orange;">.</span><span style="color: yellow;">.</span><span style="color: lime;">.</span><span style="color: cyan;">.</span><span style="color: deepskyblue;">.</span><span style="color: blue;">.</span><span style="color: purple;">.</span><span style="color: navy;">.</span></strong></p></div>
+
+<div style="text-align: center;"><img src="/media/upload/smog/issue22/featurednurmt_skuntank.png" alt="" /></div>
+
+<div style="text-align: center;"><p><span class="skuntank">SKUNTANK</span> @ <img src="/media/upload/smog/issue22/leftovers.png" alt="" /><br />
+<span class="skuntank">Ability:</span> Aftermath<br />
+<span class="skuntank">EVs:</span> 20 HP | 252 Atk | 236 Spe<br />
+<span class="skuntank">Nature:</span> Adamant (+Atk, -SpA)<br />
+<span class="skuntank">Moveset:</span> Poison Jab | Sucker Punch | Pursuit | Taunt</p></div>
+
+<p>As strong as Gurdurr may be, it is stopped cold by most Psychic-types in the tier. Skuntank's role is to eliminate those Pok&eacute;mon by virtue of its typing and move-pool. It is immune to Psychic and takes very little from their coverage move of choice, Signal Beam. With Pursuit, Musharna and friends won't be escaping without having a huge chunk of their health ripped out of them. Skuntank can also provide priority, which is useful for wearing down faster threats as this team is fairly slow.</p>
+
+<div style="text-align: center;" class="dots"><p><strong><span style="color: red;">.</span><span style="color: orange;">.</span><span style="color: yellow;">.</span><span style="color: lime;">.</span><span style="color: cyan;">.</span><span style="color: deepskyblue;">.</span><span style="color: blue;">.</span><span style="color: purple;">.</span><span style="color: navy;">.</span></strong></p></div>
+
+<div style="text-align: center;"><img src="/media/upload/smog/issue22/featurednurmt_rotom-s.png" alt="" /></div>
+
+<div style="text-align: center;"><p><span class="rotom">ROTOM-FAN</span> @ <img src="/media/upload/smog/issue22/choicescarf.png" alt="" /><br />
+<span class="rotom">Ability:</span> Levitate<br />
+<span class="rotom">EVs:</span> 4 Def | 252 SpA | 252 Spe<br />
+<span class="rotom">Nature:</span> Timid (+Spe, -Atk)<br />
+<span class="rotom">Moveset:</span> Air Slash | Volt Switch | Trick | Thunderbolt</p></div>
+
+<p>Choice Scarf Rotom-Fan is probably the best user of Choice Scarf in the whole tier. Thanks to Torkoal, Stealth Rocks are usually off the field, which means that Rotom can hop in and out of battle, doing huge amounts of damage to offensive teams and often putting the opponent in a bad position. Huge threats such as Sawk, Braviary, and Samurott are either forced out or killed by Rotom.</p>
+
+<div style="text-align: center;" class="dots"><p><strong><span style="color: red;">.</span><span style="color: orange;">.</span><span style="color: yellow;">.</span><span style="color: lime;">.</span><span style="color: cyan;">.</span><span style="color: deepskyblue;">.</span><span style="color: blue;">.</span><span style="color: purple;">.</span><span style="color: navy;">.</span></strong></p></div>
+
+</div>
+
+
+<h2>Volcanic Eruption</h2>
+
+<p>This team seems strange at first glance, as it appears to have no real "focal point" or final goal for a sweep in mind. Ludicolo is perhaps the closest thing to this, but the presence of other Ludicolo throughout the metagame means it often struggles to sweep on its own. Instead, FLCL ensures each team member can keep constant offensive pressure on the opponent, slowly wearing them down to the point where a single Pok&eacute;mon will inevitably clean up. Great offensive and defensive synergy between all of his Pok&eacute;mon also massively helps with this goal. Teams such as this often hate having to waste a turn using Rapid Spin, so FLCL uses Golurk as his own Stealth Rock setter, being able to scare away many opposing Stealth Rock leads such as Golem. Once it does get up Stealth Rock, it can use its great STAB moves and Ice Punch to hurt almost every single Pok&eacute;mon in NU. In terms of synergy, it is a great response to Normal- and Fighting-types, which could otherwise give FLCL's team a great deal of trouble. It also pairs fantastically with FLCL's next Pok&eacute;mon, Ludicolo. With it's unique typing and access to Rain Dance and Swift Swim, Ludicolo is among the most dangerous Pok&eacute;mon in NU. Given a single free turn to set up Rain Dance, it can sweep entire teams, and any team not packing a dedicated special wall or their own Ludicolo will struggle to deal with it at that point. Due to it's strange typing, Ludicolo pairs quite well with Fire-types, making a psuedo Fire / Water / Grass core with just two Pok&eacute;mon. FLCL takes advantage of this and uses Torkoal, who has recently gained a niche as a very reliable spinner thanks to Shell Smash. After a Shell Smash it will outspeed and KO the few Ghost-types in NU, meaning it can then Rapid Spin freely. It also hits incredibly hard at +2, and many teams are still underprepared for it.</p>
+
+<p>Priority is incredibly valuable in NU, primarily because it is so fast-paced and offensive; being able to put weakened Pok&eacute;mon in checkmate positions without using dedicated walls is a great tool to have. FLCL's next two Pok&eacute;mon do just that, and first up is Gurdurr. The mini-Conkeldurr is a threat to every team not carrying Musharna or another bulky Psychic-type, and has become even more potent with Ice Punch as a BW2 tutor move, which lets it beat Amoonguss and hit Exeggutor as it switches in. Physical walls such as Alomomola just get set up on, while it also makes great use of Mach Punch to revenge kill Zangoose and other Normal-types. The only issue is those Psychic-types, which is exactly why it is so often paired with Skuntank. Being able to so consistently wear down and beat Musharna, among other Psychic-types such as Gardevoir, has placed Skuntank among the best Pok&eacute;mon in NU. It also carries a very strong Sucker Punch, which can be essential when dealing with sweepers like Ludicolo. Finally, to round out FLCL's team, he uses one of the most reliable revenge killers in the tier: Rotom-S. On top of being able to revenge kill huge threats like Gorebyss and Swellow, Rotom-S is a fantastic Pok&eacute;mon to keep up momentum with, forcing out Pok&eacute;mon such as Sawk and then Volt Switching away to an appropriate teammate. This role is made much easier when Ground-types have been removed, something which the rest of FLCL's team does with great regularity, making Rotom-S a natural choice for the last slot. The troublesome Stealth Rock weakness is also kept in check by Torkoal.</p>
+
+<h2>Threats</h2>
+
+<p>No team is perfect, and so naturally there will be threatening Pok&eacute;mon to face for every team. This team in particular can struggle to deal with Flying-types such as Swellow, as it will outspeed and KO most members of the team, only being revenge killed by Rotom-S. FLCL has to play carefully around it, keeping up Stealth Rock and getting priority users like Skuntank and Gurdurr in against it. Skuntank's Aftermath can also be used to bring it down in a pinch. Articuno is another particularly troubling Flying-type, being able to threaten everything on FLCL's team between Ice Beam and Hurricane. Setting up Stealth Rock and careful play with Rotom-S is again essential.</p>
+
+<div class="rmt-border">
+
+<div class="rmt-writer"><p><strong><a href="/forums/showthread.php?t=3474237">THE HEIST</a></strong> by <strong><a href="/forums/member.php?u=110102">Zebraiken</a></strong></p></div>
+
+<img src="/download/sprites/bw/76.png" alt="" />
+
+<div class="margin-1">
+<p><strong><a href="http://www.youtube.com/watch?v=mW9k3oC5SdE">Jimmy Iovine</a></strong> (Golem) @ Lum Berry<br />
+Ability: Sturdy<br />
+EVs: 92 HP / 252 Atk / 164 Spe<br />
+Adamant Nature<br />
+- Stealth Rock<br />
+- Earthquake<br />
+- Rock Blast<br />
+- Sucker Punch</p>
+</div>
+
+<div class="margin-2">
+<p>If you've never seen this set, you definitely haven't played NU in the last like six months. This is the most standard set for Golem and has been around for ages, but it still works wonderfully time and time again. I think there was a little stint in late BW1 NU where Raseri popularized using Toxic over Sucker Punch, which was absolutely amazing for luring Quagsire and Tangela, but other than that this is the tried and true Golem set and it hasn't changed. It's typically my lead unless I spy a potential counter-lead like Samurott or Cacturne, and I'll change my lead accordingly. Nearly all players just assume I'll lead with Golem and that I will let them drop it to its Sturdy just to get up SR - while that is all Golem has to do in some matchups, I often rely on Golem to do a lot more than that and I'll save it for midgame or later. Otherwise, I usually play very suicidally with Golem and I'll stay in in most situations where people expect me to switch out (I really can't tell you how many people have tried to set up their Gorebyss on Golem while I just EQ + Sucker Punch for a free KO and my Sturdy not even broken).</p>
+
+<p>Golem's got several utilities that are of varying importance to this team, mostly depending on team matchup. Sturdy is probably the best part about Golem and it's the primary reason I prefer it over any other Stealth Rock user. It's just useful in so many situations, letting me stay in without fear when stuff like the above Gorebyss situation happens, or helping me stall out rain turns or whatever by eating a Surf and using Rock Blast, then Sucker Punching whatever else to death. If the opponent carries any kind of spinner, I often keep Golem out of harm's way until I can kill off the spinner and set up SR safely. Getting up SR and keeping it is of utmost importance to this team, especially given how weak it can be to stuff like Articuno - also, if I let Golem drop to its Sturdy, all that I have left to check Braviary / Swellow is SR, various forms of priority, and residual damage via Aftermath and Rocky Helmet. Rock Blast is vital to deal with stuff like Baton Pass teams which sort of had a spike in popularity a while ago but people stopped using them for some reason despite the fact that they're incredible. I'll also save a 1 HP Golem if the opponent has no hazards up, because it means that later I've either got something to sack if needed or I can fire off a Sucker Punch and hopefully snipe something that's gotten out of control.</p>
+
+<p>Lum Berry over Leftovers is nothing but personal preference; the utility from Leftovers is very useful sometimes (notably for getting Sturdy back from switching into SR) but I've found that I really prefer Lum Berry for security and not having to worry about stuff like fast Exeggutor preventing me from getting SR up with Sleep Powder. Lefties would certainly absolve a few weaknesses but at the same time it also creates a few others. There have been a few games where I wished I had Leftovers, but many others where I was really glad I had Lum. Also, I run a lot more Speed than standard (and actually I creep beyond this spread I gave), primarily to outrun Golurk and 2HKO it with Earthquake while it either brings Golem down to Sturdy or it just sets up its own SR. Golurk is actually one of the biggest threats to this team when played well, so taking it out with Golem early on gives me a great advantage for the midgame and beyond.</p>
+</div>
+
+<div class="margin-small">
+<p>I put my life on the line<br />
+I roll them dice and I'm fine<br />
+Cause all I ever dreamt about was makin' it<br />
+They ain't giving it, I'm taking it</p></div>
+
+<img src="/download/sprites/bw/599.png" alt="" />
+
+<div class="margin-1">
+<p><strong><a href="http://www.youtube.com/watch?v=QK8mJJJvaes&amp;feature=related">Thrift Shop</a></strong> (Garbodor) @ Rocky Helmet<br />
+Ability: Aftermath<br />
+EVs: 252 HP / 144 Def / 112 Spe<br />
+Impish Nature<br />
+- Spikes<br />
+- Toxic<br />
+- Pain Split<br />
+- Rock Blast</p>
+</div>
+
+<div class="margin-2">
+<p>Garbodor is the glue that holds my team together, against offensive, balanced, and defensive teams alike. This set is probably my favorite Garbo set I've ever used, which is saying a lot since I've used quite a few Garbo sets. Most defensive or bulky Garbodor sets prior to this were usually some combination of Spikes or Toxic Spikes / Clear Smog / Gunk Shot / Rock Blast @ Lefties, but I always felt that those sets were missing a lot of utility and stability (plus having a 70% accurate attack as your STAB with no investment tends to be a pretty awful idea in my experience). Garbodor received Pain Split from BW2 tutors iirc, and it's what really makes this set better than most others as it gives Garbo legitimate recovery. Garbo can set up Spikes on literally every defensive Pok&eacute;mon in the tier and fears nothing but Taunt (and Will-O-Wisp / Spore, kinda). Amoonguss, Alomomola, Miltank, Tangela, Cradily, Regirock, even Gurdurr - you name it, it's Spikes bait. Toxic is super useful against these kinds of teams too and lets Garbodor win all of these matchups one on one, as well as catching Musharna and Gardevoir on the switch-in. I've actually stalled many a Miltank out of Heal Bell PP entirely just because I could take a few Body Slams (while they take RH damage), Toxic it, Pain Split back up to full, etc. Pain Split just makes it sososo reliable at just getting up multiple layers over and over against defensive teams, it's not even funny.</p>
+
+<p>That doesn't mean it's dead weight against offensive teams though, either. While it doesn't have nearly as many opportunities to stack up Spikes in a higher-paced offensive match, it usually can sneak its way in on a Fighting-type move and grab a layer or two. It's my favorite switch-in to stuff like Emboar, as Emboar will just Flare Blitz it and take more than half of its HP with Rocky Helm + recoil, and then take another dose of RH + recoil + Aftermath beyond that as it KOes Garbodor after I grab a layer (also fuck the people who still run Earthquake Emboar x_x). This works for just about everything too, from CB Braviary to Swellow to Kangaskhan or whatever else.</p>
+
+<p>I run quite a lot of Speed, but this is mostly because I have found that I am weak to my own Braviary set. Being able to outrun the standard spread for BU Braviary and Toxic it after breaking its Sub is essentially the only way I can stop it from running over my team, unless a) it's running weak Return in which case Gurdurr can set up alongside it or b) I get lucky with some predictions from Skuntank and weaken it a bit and keep the Sub away, then force it out with Ludicolo. Rock Blast is also essentially a filler move. I had a few different moves there to test them all out earlier but I found I liked Rock Blast the best for two primary reasons. One, my team really doesn't like SubDisable Haunter at all, and I don't want to insta-lose to it if Skuntank dies. Two, it has occasionally hit more than twice and done significant damage to a very threatening Articuno lategame. I'd be fine with any suggestions for replacements, but keep in mind I've tested quite a lot of stuff and nothing fits too well there outside of Rock Blast, haha.</p>
+</div>
+
+<div class="margin-small">
+<p>I'm gonna pop some tags, only got twenty dollars in my pocket<br />
+I'm, I'm, I'm hunting, looking for a come up, this is fucking awesome<br />
+I'm digging, I'm digging, I'm searching right through that luggage<br />
+One man's trash, that's another man's come up</p></div>
+
+<img src="/download/sprites/bw/561.png" alt="" />
+
+<div class="margin-1">
+<p><strong><a href="http://www.youtube.com/watch?v=z8Vk2EfQxXc">Neon Cathedral</a></strong> (Gurdurr) @ Eviolite<br />
+Ability: Guts<br />
+EVs: 252 HP / 252 Atk / 4 SpD<br />
+Adamant Nature<br />
+- Bulk Up<br />
+- Drain Punch<br />
+- Ice Punch<br />
+- Mach Punch</p>
+</div>
+
+<div class="margin-2">
+<p>An incredibly standurrd set (so I probably won't have as much to say about it as the rest), but still one of my favorite mons to use. It has pretty solid defensive bulk and lets me check all of the incredibly dangerous Normal-types in NU, like Kangaskhan, Zangoose, Cinccino, etc. Garbodor is an excellent pivot and can rack up a ton of damage simply by switching into those guys, but most of the time I prefer to double switch Gurdurr in to threaten them out and rack up Spikes damage. Mach Punch also gives me a third form of priority (outside of Golem and Skuntank) and helps me finish off weakened stuff like Floatzel, Swellow, Zangoose and the like. Those all have priority, and are faster than Skuntank, so I really don't like trying to push the Sucker Punch mindgame with them and prefer to just finish them off with Mach Punch if they're in range.</p>
+
+<p>Gurdurr is my primary tool against most offensive or hyper offense-esque teams. It's bulky enough to take a hit from just about anything except Psychic-types and boosted Flying-types (Choice Scarf Braviary fails to OHKO with Brave Bird!) and the combination of Drain Punch and Mach Punch allows it to take punishment and trade off a bit of its HP in exchange for KOing a threat that would otherwise run through my team. This is particularly helpful against stuff like Shell Smash Carracosta, who would 6-0 me if I didn't carry Gurdurr. I don't think there's anything else in the tier that gives me the combination of bulk, power, and priority that it carries. Against bulkier teams though, Gurdurr is more or less dead weight. It can't boost on really anything without fear of getting statused, and even with Guts activated it doesn't hit hard enough to break Musharna, Garbodor, or Alomomola. I have experimented with a couple different out-of-the-norm sets, like Toxic &gt; Bulk Up to nail incoming Alomomola and Musharna, but it turned out to be more situational than helpful and I really missed being able to Bulk Up on more offensive teams and straight up sweeping. That, and people kept using dumb things like Rest + Curse Cradily when I wasn't using Bulk Up so yeaaah. If I were to replace anything on my team, this would be it... but I don't know if anything can even replace it for me. :(</p>
+</div>
+
+<div class="margin-small">
+<p>Underneath this fragile frame<br />
+Lives a battle between pride and shame<br />
+But I've misplaced that sense of fright<br />
+This crown of thorns is perched atop my spine<br />
+But listen closely as I testify<br />
+Dependency has been a thief at night<br />
+Thief at night, thief at night</p></div>
+
+<img src="/download/sprites/bw/658.png" alt="" />
+
+<div class="margin-1">
+<p><strong><a href="http://www.youtube.com/watch?v=bgjwAZ9TR3U">Can't Hold Us</a></strong> (Braviary) @ Leftovers<br />
+Ability: Defiant<br />
+EVs: 252 HP / 176 SpD / 80 Spe<br />
+Careful Nature<br />
+- Substitute<br />
+- Roost<br />
+- Bulk Up<br />
+- Brave Bird</p>
+</div>
+
+<div class="margin-2">
+<p>KACAW. SubBU Braviary is a monster, and anyone who has faced it will probably agree. It sets up on every defensive threat in NU bar Power Gem + Toxic Probopass, and even bulky Rock-types like Regirock are stalled out of Stone Edge / Rock Slide PP thanks to Substitute and Roost, and then Brav has freedom to just boost up to +6 / +6 and destroy everything. Braviary has 100 base HP on the dot, letting him make 101 Subs (preventing stuff like Seismic Toss Miltank, Hypno, and Lickilicky from ruining the fun). The given EV spread also always prevents Amoonguss's Sludge Bomb and Alomomola's Scald from OHKOing and 2HKOing Braviary's Sub respectively, and 80 Speed allows Braviary to outrun max Spe Adamant Rampardos (which I have lost a match to before, thanks to it outspeeding what I had before). This thing is next to impossible to beat if you don't carry any of the following: a bulky Electric-type, an Encore user, Golem or something that can use Rock Blast, or SubDisable Haunter. That's it. Super effective attacks? There was one match where I set up on a Choice Band Golurk locked into Ice Punch and proceeded to win the game.</p>
+
+<p>This set is used rather than any other Braviary set because I needed something that could shred through defensive teams (especially Amoonguss) for me without suiciding itself on Brave Bird recoil + SR. I had Ludicolo, who is an awesome offensive threat, but a neutral nature 90 base Special Attack just isn't enough to punch through things like SpDef Amoonguss or Lickilicky. That said, SubBU Brav doesn't always hold its weight against more offensive teams. Against teams like Zangoose / Rotom-A / Ludicolo / whatever, Brav's role is usually just to tank some attacks that you wouldn't expect it to be able to (it lives a Swellow Facade, with no rocks up) and just hit hard with Brave Bird, even with no investment. One thing that I've seriously considered is changing the spread back up to 252 Atk / 252 Spe Jolly, which prevents it from being revenged / stopped by a lot more things (Ludicolo, Samurott, outspeeding Taunt Skuntank) and makes it significantly more useful against offensive teams as well as a lot stronger, but the additional special bulk and 101 HP subs are quite nice. I don't know, but being able to live a Rotom-A Thunderbolt has saved my ass in more than a few matches. It's worth thinking about if you plan on using this team, though.</p>
+
+<p>Anyway, just to reiterate myself: Braviary is incredible and well-deserving of its S-rank in NU.</p>
+</div>
+
+<div class="margin-small">
+<p>Here we go back, this is the moment<br />
+Tonight is the night, we'll fight till it's over<br />
+So we put our hands up like the ceiling can't hold us<br />
+Like the ceiling can't hold us</p>
+</div>
+
+<img src="/download/sprites/bw/440.png" alt="" />
+
+<div class="margin-1">
+<p><strong><a href="http://www.youtube.com/watch?v=dIIS9yCJHmE">Make the Money</a></strong> (Skuntank) @ Leftovers<br />
+Ability: Aftermath<br />
+EVs: 252 Atk / 4 Def / 252 Spe<br />
+Adamant Nature<br />
+- Poison Jab<br />
+- Taunt<br />
+- Pursuit<br />
+- Sucker Punch</p>
+</div>
+
+<div class="margin-2">
+<p>Another rather standard set, but one of the best "safety valve" Pok&eacute;mon you can get. I actually disliked using Skuntank for quite a long time before FLCL converted me to appreciate it, and now I use it on like every team smh. I basically rely on Skuntank as a backup check to everything, even in situations like trying to face down a +2 Gorebyss that just crit my Ludicolo. I deviate from the standard spread a little (which is 20 HP / 252 Atk / 232 Spe, iirc) because I don't think the 20 HP is worth all that mach and it gives me the ability to tie with other skunks at the very worst, which has won me a skunk war multiple times. Poison Jab is much much much better than Crunch in my experience, as mono-Dark coverage is pretty mediocre and Poison Jab lets me do things like KO an Absol at ~60% and 2HKO Emboar on the switch-in. I can always play around Musharna and stuff too, since Skuntank puts pressure on Musharna and it's usually rather easy to identify what it's gonna do depending on how much HP Musharna has left and the decisions that my opponent has made throughout the match.</p>
+
+<p>Aftermath is an awesome and underrated tool of Skuntank's. If I'm facing down something like CB Braviary and all I have left is Skuntank out and a slightly weakened Gurdurr in the back, Sucker Punch + Aftermath + BB recoil will push Braviary down into Mach Punch range for the win. If Braviary switched into SR, it's basically dead from BBing Skuntank. Outside of checking basically everything in NU, Skuntank's primary role is beating Musharna for the rest of my team. No matter what Musharna does, if I predict correctly I can push it into KO range for everything else on my team, especially after it takes hazard damage from switching back in later. Skuntank is also my go-to guy for getting damage onto dangerous Pok&eacute;mon like Articuno (even though it's kinda pitiful damage, being able to Taunt it and at least try to poison it is always good) and Eelektross.</p>
+</div>
+
+<div class="margin-small">
+<p>Make the money, don't let the money make you<br />
+Change the game, don't let the game change you<br />
+I'll forever remain faithful<br />
+All my people stay true</p>
+</div>
+
+<img src="/download/sprites/bw/272.png" alt="" />
+
+<div class="margin-1">
+<p><strong><a href="http://www.youtube.com/watch?v=78SAb0yHq4E">Thin Line</a></strong> (Ludicolo) @ Life Orb<br />
+Ability: Swift Swim<br />
+EVs: 4 HP / 252 SpA / 252 Spe<br />
+Timid Nature<br />
+- Giga Drain<br />
+- Hydro Pump<br />
+- Ice Beam<br />
+- Rain Dance</p>
+</div>
+
+<div class="margin-2">
+<p>IMO, Ludicolo is hands-down the best Pok&eacute;mon in NU. It just checks so much as an offensive Pok&eacute;mon while also being incredibly threatening after a single turn of setup... if you haven't used Ludicolo in NU yet, you should. Anyway, Ludi is my primary form of offense early to mid-game until I get Brav rolling, and is my primary method of forcing switches thanks to its insane coverage. Just about everything that can "reliably" switch into Ludicolo is set-up bait for Garbodor, and I often make use of double-switching early in the game to drop a few layers and make it easier on Ludicolo when the opponent's team needs to be put out of its misery. What's really nice is that Ludicolo puts a ton of pressure on every single spinner in the tier, threatening to OHKO all of them before they can get a spin off which really eases my worries about them. Spinners are always a pain for teams like this that carry hazards but no Ghost-type, but I am really not too worried about them simply because Ludicolo is mitey.</p>
+
+<p>While it's an excellent offensive tool, Ludicolo also holds my team together against basically every other Water-type in NU. Being able to live a +2 Gorebyss Ice Beam and OHKOing in return is something that nothing else in the tier can do. I've thought about running a bulkier set to help Ludicolo fit more into the "bulky" mold of my team (and also so I don't get fucked when Gorebyss crits my Ludicolo) but running max Speed is vital for it to keep Swords Dance Samurott from always outspeeding and mutilating it with Megahorn. Samurott is a pretty strong threat to the rest of my team, so it's pretty important for Ludicolo to at least act as a check. I have also debated with using Modest as it outspeeds everything in rain anyway (plus it actually lets me win 1vs1 against other Ludicolo) but just lets it hit much harder, but there's still the issue of losing to Jolly Samurott. :/</p>
+</div>
+
+<div class="margin-small">
+<p>Bought a one night stand, just a bootleg<br />
+A duplication of something authentic<br />
+Heart augmented, and it's so hard to end it<br />
+I said peace before but this time I meant it</p>
+</div>
+</div>
+
+<h2>The Heist</h2>
+
+<p>Zebraiken's team is actually somewhat similar to FLCL's, both relying on the same core of three Pok&eacute;mon. The thing that really sets The Heist apart, however, is its use of entry hazards and the metagame defining Substitute + Bulk Up Braviary. It is interesting to note that Zebraiken uses both Spikes and Stealth Rock without a Ghost-type to block Rapid Spin, instead relying on the constant offensive pressure bulky offense provides, or simply getting rid of the opposing spinner before setting up hazards. The first part of this hazard setup is the ever popular Golem, which remains just as effective as ever in guaranteeing Stealth Rock goes up. Between Sturdy and Lum Berry, only Taunt or Magic Coat users can stop Golem from setting up Stealth Rock, and most of those don't want to be anywhere near Golem's STAB attacks anyway. Sucker Punch is also incredibly useful on a slow and powerful Pok&eacute;mon like this, and yet again the importance of priority in NU is displayed. Garbodor provides Spikes for the team, and Zebraiken has created a new and effective set for it. Garbodor is normally more offensive, but by using a bulky EV spread with the BW2 tutor move Pain Split it can easily set up multiple layers in situations where the offensive version could not. Toxic is also a great move to use against defensive teams, catching Alomomola and Regirock in particular. As for its only attacking move, Zebraiken chooses Rock Blast which provides insurance against Ninjask, as rare as it is. After this, the similarities to FLCL's team really do become apparent. The incredibly popular core of Skuntank and Gurdurr is again utilized, and they just do such a good job of removing each others counters that it's not hard to see why they get used together so much. The Gurdurr set is the same standard set as FLCL, while Skuntank also uses the Taunt + Sucker Punch combination to remove Psychic-types for Gurdurr.</p>
+
+<p>The final two Pok&eacute;mon are probably the two most threatening and dangerous sets NU has to offer. Ludicolo is the same Rain Dance set as FLCL, but there is no reason why Zebraiken would need to deviate from this. It just does its job so well and manages to be effective against so many different types of teams. On top of being one of the most dangerous threats, it also provides an excellent offensive check to powerful Water-type sweepers like Gorebyss and indeed other Ludicolo. This combination of offensive and defensive capabilities make it an absolute top tier Pok&eacute;mon in NU. The other huge threat is Braviary, in particular its new set. Braviary has always been one of the hardest Pok&eacute;mon to deal with in NU, primarily due to its huge Attack stat and great STAB moves, as well as Superpower to break through Rock- and Steel-types. It also possesses Bulk Up and decent defenses to make use of it, but always lacked one particular tool: Roost. However, with the release of BW2, Braviary gets Roost as a tutor move and it hasn't looked back since. With Bulk Up and Roost it can turn regular checks such as Regirock into setup fodder, easily stalling them out of Stone Edge and getting to +6 in the process. A simple change of set completely changes the way you have to deal with Braviary, making it that much more dangerous, and the Bulk Up set really has changed the metagame and forced people to be creative in dealing with it. A lot of this can be put down to the success of this team, and thus people evolved to counter it.</p>
+
+<h2>Threats</h2>
+
+<p>Where FLCL struggles with Flying-types, Zebraiken struggles with Poison-types. They can easily set up on Skuntank, Gurdurr, or Garbodor and use their STAB moves to beat down Ludicolo. Golem is absolutely key to beating them, but can even fall to Seed Bomb or Aqua Tail from Arbok. Zebraiken's team also struggles with Articuno, as nothing on his team can take more than one hit from it. Golem can survive with Sturdy and KO with Rock Blast, while Garbodor can also hurt it but there is not much else he can do. Getting Stealth Rock up, and then keeping them up, is key.</p>
+
+<h3>The Match</h3>
+
+<p>Zebraiken joined.<br />
+FLCL joined.<br />
+Format: NU<br />
+Rule: Sleep Clause<br />
+Rule: Species Clause<br />
+Rule: OHKO Clause<br />
+Rule: Evasion Clause</p>
+
+<p>Zebraiken's team: Braviary / Garbodor / Gurdurr / Skuntank / Ludicolo / Golem</p>
+
+<p>FLCL's team: Torkoal / Golurk / Rotom-Fan / Ludicolo / Gurdurr / Skuntank</p>
+
+<p><em>As the players look at each others teams, they will both certainly notice Ludicolo straight away. Fortunately, they won't be too worried as their Ludicolo can check the opponent's pretty well. Zebraiken will be looking for opportunities for Braviary to set up, and can find little room against FLCL's bulky offense. Meanwhile, FLCL should notice the bit problems Zebraiken has in dealng with Shell Smash Torkoal, provided he can set up at the right moment. Both teams can play around opposing Gurdurr decently well, and Zebraiken should look to keep Golem healthy in order to deal with Rotom-S. In terms of leads, Golem is an obvious choice for Zebraiken, as it can set up Stealth Rock in order to lure in Torkoal and force it to use Rapid Spin, meaning he can take it out before it gets a chance to sweep. FLCL is aware of this, and can lead with either Golurk in order to scare it away with STAB Earthquake, or Ludicolo to do similarly.</em></p>
+
+<p>Battle between Zebraiken and FLCL started!</p>
+
+<p>Zebraiken sent out foolay coolay (Ludicolo)!<br />
+FLCL sent out GOLURK (Golurk)!</p>
+
+<p><em>Zebraiken reads FLCL well and picks a lead that matches up well against FLCL's likely leads. FLCL is on the back foot already, as Golurk is easily outsped and OHKOed by Ludicolo.</em></p>
+
+<div style="float: right; margin-left: 10px;"><img src="/media/upload/smog/issue22/featurednurmt_log1.png" alt="" /></div>
+
+<h4>Turn 1</h4>
+
+<p>foolay coolay used Hydro Pump!<br />
+It's super effective! The foe's GOLURK lost 100% of its health!<br />
+foolay coolay lost some of its HP!<br />
+The foe's GOLURK fainted!</p>
+
+<p>FLCL sent out SKUNTANK (Skuntank)!</p>
+
+<p><em>Which is exactly what happens. Left with no other options (FLCL did not want to risk switching Ludicolo into Giga Drain this early, or indeed letting Ludicolo set up Rain Dance) he decides to cut his losses and gain some momentum by letting Golurk die. It is also possible FLCL overpredicted by expecting Zebraiken to double switch to Skuntank as FLCL went to his own Ludicolo. In the end Zebraiken played simple on Turn 1, as is commonplace. Ludicolo cannot OHKO Skuntank, and it does not want to take a STAB Poison Jab so it will likely switch out.</em></p>
+
+<h4>Turn 2</h4>
+
+<p>Zebraiken called foolay coolay back!<br />
+Zebraiken sent out ROCK L (Golem)!</p>
+
+<p>The foe's SKUNTANK used Poison Jab!<br />
+It's not very effective... ROCK L lost 7% of its health!</p>
+
+<p><em>Golem is an easy switch-in for Skuntank, and threatens with STAB Earthquake. It also has a chance to set up Stealth Rock now, but must watch out for Taunt from Skuntank.</em></p>
+
+<h4>Turn 3</h4>
+
+<p>FLCL called SKUNTANK back!<br />
+FLCL sent out GURDURR (Gurdurr)!</p>
+
+<p>ROCK L used Rock Blast!<br />
+It's not very effective... The foe's GURDURR lost 4% of its health!<br />
+It's not very effective... The foe's GURDURR lost 4% of its health!<br />
+Hit 2 time(s)!</p>
+
+<p><em>Expecting either Taunt or a switch to either Ludicolo or Rotom-S, Zebraiken goes for Rock Blast. In hindsight he could have set up Stealth Rock, but he didn't want to risk the Taunt. Gurdurr is a great switch-in in this situation, and Zebraiken does not want to stay in and risk Drain Punch, especially when Golem is essential for stopping Rotom-S.</em></p>
+
+<h4>Turn 4</h4>
+
+<p>Zebraiken called ROCK L back!<br />
+Zebraiken sent out shneat (Garbodor)!</p>
+
+<p>FLCL called GURDURR back!<br />
+FLCL sent out TORKOAL (Torkoal)!</p>
+
+<p><em>Now things are getting interesting. Zebraiken makes the obvious switch to Garbodor, being a full stop to most Gurdurr. FLCL sees this coming, and also knows just how much difficulty Zebraiken's team has dealing with Shell Smash Torkoal. Garbodor is probably the best setup situation for Torkoal, as it can only Toxic it back, and this is certainly a situation Zebraiken does not want to be in. A great double switch by FLCL, really making up for his losses on Turn 1.</em></p>
+
+<h4>Turn 5</h4>
+
+<p>shneat used Toxic!<br />
+The foe's TORKOAL was badly poisoned!<br />
+The foe's TORKOAL used Shell Smash!<br />
+The foe's TORKOAL's Attack sharply rose!<br />
+The foe's TORKOAL's Special Attack sharply rose!<br />
+The foe's TORKOAL's Speed sharply rose!<br />
+The foe's TORKOAL's Defense fell!<br />
+The foe's TORKOAL's Special Defense fell!<br />
+The foe's TORKOAL restored its status using White Herb!<br />
+The foe's TORKOAL was hurt by poison!</p>
+
+<p><em>As expected, Torkoal sets up while Garbodor uses Toxic to at least put it on a timer. From this point though, Zebraiken can do very little except sacrifice a Pok&eacute;mon and hit it back with priority.</em></p>
+
+<h4>Turn 6</h4>
+
+<p>Zebraiken called shneat back!<br />
+Zebraiken sent out ROCK L (Golem)!</p>
+
+<p>The foe's TORKOAL used Fire Blast!<br />
+It's not very effective... ROCK L lost 79% of its health!<br />
+The foe's TORKOAL was hurt by poison!</p>
+
+<p><em>Zebraiken switches in his only Fire resist and Torkoal just...does not care. Zebraiken is just trying to wear it down through Toxic and priority without losing too many important team members. Golem could be a key asset in dealing with Rotom-S though...</em></p>
+
+<div style="float: right; margin-left: 10px;"><img src="/media/upload/smog/issue22/featurednurmt_log2.png" alt="" /></div>
+
+<h4>Turn 7</h4>
+
+<p>ROCK L used Sucker Punch!<br />
+The foe's TORKOAL lost 24% of its health!<br />
+The foe's TORKOAL used Fire Blast!<br />
+It's not very effective... ROCK L lost 14% of its health!<br />
+ROCK L fainted!<br />
+The foe's TORKOAL was hurt by poison!</p>
+
+<p>Zebraiken sent out Mad Dingo (Braviary)!</p>
+
+<p><em>Torkoal takes chip damage from Sucker Punch and another turn of Toxic. In return, Golem goes down and it's 5-5. Braviary is running a Specially Defensive Bulk Up set, so Zebraiken knows it can take one hit from a boosted Torkoal.</em></p>
+
+<div style="float: right; margin-left: 10px;"><img src="/media/upload/smog/issue22/featurednurmt_log3.png" alt="" /></div>
+
+<h4>Turn 8</h4>
+
+<p>The foe's TORKOAL used Fire Blast!<br />
+Mad Dingo lost 83% of its health!<br />
+Mad Dingo used Brave Bird!<br />
+The foe's TORKOAL lost 40% of its health!<br />
+Mad Dingo is damaged by recoil!<br />
+The foe's TORKOAL fainted!<br />
+Mad Dingo restored HP using its Leftovers!</p>
+
+<p>FLCL sent out ROTOM-FAN (Rotom-Fan)!</p>
+
+<p><em>Which it does, and Braviary finishes off Torkoal. It did manage to take out Golem before it got up Stealth Rock, as well as essentially make Braviary useless, which Zebraiken can't be too happy about. Rotom-S can now Volt Switch at will seeing as Golem is out of the picture.</em></p>
+
+<h4>Turn 9</h4>
+
+<p>The foe's ROTOM-FAN used Volt Switch!<br />
+It's super effective! Mad Dingo lost 14% of its health!<br />
+Mad Dingo fainted!</p>
+
+<p>FLCL called ROTOM-FAN back!<br />
+FLCL sent out SKUNTANK (Skuntank)!</p>
+
+<p>Zebraiken sent out [Raseri] Gurdurr (Gurdurr)!</p>
+
+<p><em>Zebraiken lets Braviary die, seeing as it's not going to be much use for the rest of the match. Now he gets to see what FLCL is going to send out, and seeing Skuntank he takes the opportunity to get Gurdurr in.</em></p>
+
+<h4>Turn 10</h4>
+
+<p>The foe's SKUNTANK used Poison Jab!<br />
+[Raseri] Gurdurr lost 22% of its health!<br />
+[Raseri] Gurdurr used Ice Punch!<br />
+The foe's SKUNTANK lost 36% of its health!<br />
+The foe's SKUNTANK restored HP using its Leftovers!</p>
+
+<p><em>FLCL doesn't have a lot left to deal with Gurdurr, and just wants to wear it down with Skuntank. Zebraiken actually predicts a switch to Rotom-S, but it doesn't come off.</em></p>
+
+<h4>Turn 11</h4>
+
+<p>The foe's SKUNTANK used Poison Jab!<br />
+[Raseri] Gurdurr lost 22% of its health!<br />
+[Raseri] Gurdurr was poisoned!<br />
+[Raseri] Gurdurr used Drain Punch!<br />
+The foe's SKUNTANK lost 70% of its health!<br />
+The foe's SKUNTANK had its energy drained!<br />
+The foe's SKUNTANK fainted!<br />
+[Raseri] Gurdurr is hurt by its Aftermath!<br />
+[Raseri] Gurdurr was hurt by poison!</p>
+
+<p>FLCL sent out ROTOM-FAN (Rotom-Fan)!</p>
+
+<p><em>FLCL just wants to do as much damage to Gurdurr as possible (including Aftermath) while regaining momentum when Skuntank dies, and the whole process is sped up by that poison activating Guts. Rotom-S comes in again and puts Zebraiken, once again, firmly on the back foot. Having Stealth Rock up now would be fantastic to limit all the Rotom-S switches in.</em></p>
+
+<h4>Turn 12</h4>
+
+<p>Zebraiken called [Raseri] Gurdurr back!<br />
+Zebraiken sent out champion cbb (Skuntank)!</p>
+
+<p>The foe's ROTOM-FAN used Air Slash!<br />
+champion cbb lost 51% of its health!<br />
+champion cbb restored HP using its Leftovers!</p>
+
+<p><em>Gurdurr is never taking Air Slash from Rotom-S, so Zebraiken goes out to Skuntank, who is not 2HKOed with Leftovers and can threaten Rotom-S with Sucker Punch. It looks like Rotom-S is going to be key to FLCL winning this match, and Zebraiken is struggling for an answer.</em></p>
+
+<h4>Turn 13</h4>
+
+<p>The foe's ROTOM-FAN used Air Slash!<br />
+champion cbb lost 53% of its health!<br />
+champion cbb flinched!<br />
+champion cbb restored HP using its Leftovers!</p>
+
+<p><em>Skuntank takes another Air Slash, but unfortunately gets flinched, while Zebraiken didn't choose to Sucker Punch in case FLCL decided to switch. Poison Jab plus Sucker Punch next turn would really have hurt Rotom-S.</em></p>
+
+<h4>Turn 14</h4>
+
+<p>FLCL called ROTOM-FAN back!<br />
+FLCL sent out GURDURR (Gurdurr)!</p>
+
+<p>champion cbb used Sucker Punch!<br />
+But it failed!<br />
+champion cbb restored HP using its Leftovers!</p>
+
+<p><em>Zebraiken is now almost forced to use Sucker Punch, but FLCL sees it coming and preserves his win condition. Now it's FLCL's Gurdurr taking on Zebraikens Skuntank, a good match up for Gurdurr.</em></p>
+
+<h4>Turn 15</h4>
+
+<p>Zebraiken called champion cbb back!<br />
+Zebraiken sent out shneat (Garbodor)!</p>
+
+<p>The foe's GURDURR used Drain Punch!<br />
+It's not very effective... shneat lost 16% of its health!<br />
+The foe's GURDURR is hurt by shneat's Rocky Helmet!<br />
+shneat had its energy drained!</p>
+
+<p><em>Zebraiken has a much better response to Gurdurr, however, and Garbodor manages to make a nuisance of itself with Rocky Helmet.</em></p>
+
+<h4>Turn 16</h4>
+
+<p>FLCL called GURDURR back!<br />
+FLCL sent out LUDICOLO (Ludicolo)!</p>
+
+<p>shneat used Toxic!<br />
+The attack of shneat missed!</p>
+
+<p><em>Gurdurr is clearly fighting a losing battle here, but Garbodor's lack of offensive presence means he is pretty much free to switch in what he chooses. He decides on Ludicolo, which Zebraiken has a decent answer to himself, but may still struggle with. Hitting Toxic would have made it a lot easier.</em></p>
+
+<h4>Turn 17</h4>
+
+<p>Zebraiken called shneat back!<br />
+Zebraiken sent out foolay coolay (Ludicolo)!</p>
+
+<p>The foe's LUDICOLO used Hydro Pump!<br />
+It's not very effective... foolay coolay lost 18% of its health!<br />
+The foe's LUDICOLO lost some of its HP!</p>
+
+<p><em>Ludicolo yet again manages to check itself. Zebraikens is slightly lower on HP, but it won't matter much as they just Giga Drain each other and the final result comes down to whoever can win the crucial Speed ties.</em></p>
+
+<h4>Turn 18</h4>
+
+<p>foolay coolay used Giga Drain!<br />
+The foe's LUDICOLO lost 42% of its health!<br />
+The foe's LUDICOLO had its energy drained!<br />
+foolay coolay lost some of its HP!<br />
+The foe's LUDICOLO used Giga Drain!<br />
+foolay coolay lost 45% of its health!<br />
+foolay coolay had its energy drained!<br />
+The foe's LUDICOLO lost some of its HP!</p>
+
+<p><em>They trade Giga Drains and both come out worse for wear. The next turn is crucial and losing the Speed tie here could be very dangerous.</em></p>
+
+<h4>Turn 19</h4>
+
+<p>FLCL called LUDICOLO back!<br />
+FLCL sent out ROTOM-FAN (Rotom-Fan)!</p>
+
+<p>foolay coolay used Giga Drain!<br />
+A critical hit! It's not very effective... The foe's ROTOM-FAN lost 51% of its health!<br />
+The foe's ROTOM-FAN had its energy drained!<br />
+foolay coolay lost some of its HP!</p>
+
+<p><em>FLCL makes a gutsy play to get his Rotom-S in, as a Hydro Pump or Ice Beam there could have been devastating. Zebraiken gets a crit however, which slightly makes up for the earlier flinch. He is really short on options to deal with Rotom-S now.</em></p>
+
+<h4>Turn 20</h4>
+
+<p>Zebraiken called foolay coolay back!<br />
+Zebraiken sent out [Raseri] Gurdurr (Gurdurr)!</p>
+
+<p>The foe's ROTOM-FAN used Air Slash!<br />
+It's super effective! [Raseri] Gurdurr lost 52% of its health!<br />
+[Raseri] Gurdurr fainted!</p>
+
+<p>Zebraiken sent out champion cbb (Skuntank)!</p>
+
+<p><em>Sucker Punch is about the only thing standing between Zebraiken and defeat, so he sacrifices Gurdurr to get Skuntank in safely. This leads to an interesting 50 / 50 though, will FLCL go to Gurdurr on the Sucker Punch, or will Zebraiken predict this and hit Rotom-S with Pursuit?</em></p>
+
+<h4>Turn 21</h4>
+
+<p>champion cbb used Sucker Punch!<br />
+The foe's ROTOM-FAN lost 48% of its health!<br />
+The foe's ROTOM-FAN used Air Slash!<br />
+champion cbb lost 14% of its health!<br />
+champion cbb fainted!</p>
+
+<p>Zebraiken sent out shneat (Garbodor)!</p>
+
+<p><em>Rotom-S actually ends up taking the Sucker Punch with an average damage roll, while Skuntank goes down. The lack of Stealth Rock really shows itself now, as Rotom-S would be dead and gone. Zebraiken must be kicking himself. He goes to Garbodor knowing it can take an Air Slash and finish off Rotom-S.</em></p>
+
+<div style="float: right; margin-left: 10px;"><img src="/media/upload/smog/issue22/featurednurmt_log4.png" alt="" /></div>
+
+<h4>Turn 22</h4>
+
+<p>The foe's ROTOM-FAN used Air Slash!<br />
+shneat lost 39% of its health!<br />
+shneat used Rock Blast!<br />
+It's super effective! The foe's ROTOM-FAN lost 1% of its health!<br />
+Hit 1 time(s)!<br />
+The foe's ROTOM-FAN fainted!</p>
+
+<p>FLCL sent out LUDICOLO (Ludicolo)!</p>
+
+<p><em>Which it does. FLCL can either go to Ludicolo or Gurdurr, and Ludicolo is the obvious option as Gurdurr loses to Garbodor.</em></p>
+
+<h4>Turn 23</h4>
+
+<p>The foe's LUDICOLO used Hydro Pump!<br />
+shneat lost 45% of its health!<br />
+The foe's LUDICOLO lost some of its HP!<br />
+shneat fainted!</p>
+
+<p>Zebraiken sent out foolay coolay (Ludicolo)!</p>
+
+<p><em>Garbodor goes down, and Zebraiken is down to just Ludicolo. He needs to win the Speed tie and get a crit here to have any chance of winning.</em></p>
+
+<h4>Turn 24</h4>
+
+<p>The foe's LUDICOLO used Giga Drain!<br />
+foolay coolay lost 43% of its health!<br />
+foolay coolay had its energy drained!<br />
+The foe's LUDICOLO lost some of its HP!<br />
+foolay coolay used Giga Drain!<br />
+The foe's LUDICOLO lost 42% of its health!<br />
+The foe's LUDICOLO had its energy drained!<br />
+foolay coolay lost some of its HP!</p>
+
+<p><em>Which doesn't happen. Zebraikens Ludicolo is now in Mach Punch range from Gurdurr, so FLCL has this game all wrapped up.</em></p>
+
+<h4>Turn 25</h4>
+
+<p>The foe's LUDICOLO used Giga Drain!<br />
+foolay coolay lost 17% of its health!<br />
+foolay coolay had its energy drained!<br />
+The foe's LUDICOLO lost some of its HP!<br />
+foolay coolay fainted!<br />
+FLCL won the battle!</p>
+
+<p><em>In the end it doesn't even come down to that as FLCL wins the final Speed tie. The players exchange gg's and FLCL wins 2-0!</em></p>
+
+<p><em>So looking back on the match, Zebraiken really needed to set up Stealth Rock on Turn 3. Torkoal would have been able to spin them away, but it also would have meant either Golem or Braviary coming out of Torkoal alive. Fearing that Taunt from Skuntank was crucial. Because of this Zebraiken was then forced to sacrifice Golem to Torkoal, which meant Rotom-S was free to Volt Switch and Air Slash as it wanted, eventually leading to defeat. The fantastic double switch by FLCL on Turn 4 also really swung the game in his favor, and Zebraiken was playing catch up from there and just couldn't pull through. Well played both of you, and congratulations for getting to the final!</em></p>
+
+<h2>Conclusion</h2>
+
+<p>Congratulations must be given to both players for building these hugely successful teams. Between the two of them you get a really good cross-section of what NU is currently about, and a good idea of how balanced it is. There has never been a better time to come and get involved with NU, being both balanced and still having a lot of room for unexplored sets and strategies, so come and play!</p>
+
+<table id="smogfooter">
+<tr>
+<td class="left"><a href="featured_rmt_uu">« Previous Article</a></td>
+<td class="middle"><a href="/smog/issue22/">Home</a></td>
+<td class="right"><a href="ru_normal_types">Next Article »</a></td>
+</tr>
+</table>

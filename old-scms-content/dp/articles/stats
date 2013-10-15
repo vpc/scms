@@ -1,0 +1,1046 @@
+[title]
+Stats in DP
+[head]
+<meta name="description" content="Stats in DP" />
+[page]
+<div class="author">By <a href="/forums/member.php?u=5962">Arseus</a>, with help from <a href="/forums/member.php?u=1098">david stone</a>.</div>
+
+<pre><em>The foe's GARCHOMP used Swords Dance!
+The foe's GARCHOMP's Attack sharply rose!</em></pre>
+
+<p>If you've seen the above scenario before, you probably know that stat boosts and drops are a major part of Pokémon battles. Most "sweepers" cannot sweep without a boost to their relevant attacking stat(s), and without a move like Calm Mind, Pokémon such as Suicune would have a much harder time taking hits.</p>
+
+<p>Sections in this guide:</p>
+
+<ol>
+<li><a href="#statformula">How do I find out my stats?</a></li>
+<li><a href="#why">Why do I need to mess with the stats?</a></li>
+<li><a href="#stagemods">Stat Stage Modifiers</a></li>
+<li><a href="#stagemodmoves">Moves Affecting the Stat Modifier</a></li>
+<li><a href="#abilitymods">Ability Modifiers</a></li>
+<li><a href="#itemmods">Item Modifiers</a></li>
+<li><a href="#conclusion">Putting it all together</a></li>
+</ol>
+
+
+<h2><a name="statformula">How do I find out my stats?</a></h2>
+
+<p>The formula for determining a Pokémon's stats is somewhat long, but if you just follow each step, is not that difficult.</p>
+
+<p>For determining a Pokémon's HP, you use the following formula:</p>
+
+<pre>HP = ((2 * BaseStat + IV + (EV / 4)) * Level / 100 + Level + 10)</pre>
+
+<p>HP is your final stat. BaseStat is the Pokémon's base stat (for instance, Gyarados's base HP is 95). IV is the Pokémon's IV, or "Individual Value", and ranges from 0 to 31. EV is the amount of EVs, or "Effort Value" that the Pokémon has. This is capped at 255 in a single stat, and 510 overall. Level is the Pokémon's level. You round down the value you get after each set of parentheses.</p>
+
+<p>As stated above, Gyarados's Base HP is 95. What if we wanted to know the final HP stat of the <a href="http://www.smogon.com/dp/pokemon/gyarados">Bulky Dragon Dance Gyarados</a> if we remembered it has 156 HP EVs but were not able to look up anything else?  It's simple:</p>
+
+<pre>2 * 95 BaseStat = 190
++ 31 IV = 221
++ (156 EVs / 4) = 221 + 39 = 260
+* 100 Level / 100 = 260
++ 100 Level = 360
++ 10 = 370</pre>
+
+<p>For a Level 50 calculation, relevant to Video Game Championship players and Battle Frontier / Battle Tower enthusiasts, we would very simply just have multiplied 260 by 0.5 (50/100, same as dividing by two) to get 130, added 50 for 180, then 10 more for 190 HP.</p>
+
+<p>If you want to find a stat that isn't HP, then you use the following formula:</p>
+
+<pre>Stat = (((2 * BaseStat + IV + (EV / 4)) * Level / 100 + 5) * Nature)</pre>
+
+<p>Stat is your final stat. BaseStat is the Pokémon's base stat (for instance, Salamence's base Attack is 135). IV is the Pokémon's IV, or "Internal Value," and ranges from 0 to 31. EV is the amount of EVs, or "Effort Value" that the Pokémon has. This is capped at 255 in a single stat, and 510 overall. Level is the Pokémon's level, which ranges from 1 to 100. Nature is 1.1 if the Pokémon has a nature that raises the relevant stat, .9 if it lowers it, and 1 otherwise. You round down the value you get after each set of parentheses.</p>
+
+<p>So for Salamence and its aforementioned 135 base Attack, how do we get to the 405 Attack that many already know is its maximum at Level 100 with an Adamant nature? Well:</p>
+
+<pre>2 * 135 BaseStat = 270
++ 31 IV = 301
++ (252 EVs / 4) = 301 + 63 = 364
+* 100 Level / 100 = 36
++ 5 = 369
+* 1.1 [Adamant nature] = 405.9</pre>
+
+<p>Rounding down, we arrive at 405. Again, for Level 50, we would very simply just have divided 364 by 2 to get 182, added 5 for 187, then multiplied by 1.1 and rounded down to arrive at 205. So as you can see, these stats calculations are rather easy to do on the fly if you ever have to.</p>
+
+
+<h2><a name="why">Why do I need to mess with the stats?</a></h2>
+
+<p>This is a question commonly asked by players new to the competitive scene. Why can't you just attack outright, while your opponent is wasting their time boosting their stats? Well, most Pokémon simply can't plow through an average team without a boost in their stats. That makes them easier to be stopped and taken down. More defensive Pokémon would have a much harder time staying in the battle if they didn't use moves such as Calm Mind to lower the amount of damage done by the opponent.</p>
+
+<p>The majority of Pokémon have one or two stat-enhancing moves available to them. The vast majority of Pokémon use at least one method to affect stats in their standard movesets. Whether it is in the form of a Dragon Dancing Gyarados, or a Choice Band-wielding Tyranitar, all attackers must have a method of enhancing their stats to be effective. If you do not want to use a moveslot or item on the attacker itself, there is always the option of using the move Baton Pass to pass stat boosts onto the desired recipient.</p>
+
+<p>Generally, lowering the foe's stats is less effective than raising your own. However, the ability Intimidate is great for lowering the foe's stats when switching in, because it does not take any extra time to do. Paralysis is great with its Speed-cutting property and lasts until the opponent is cured via a Berry, an ability, or a specific move. The other methods of lowering stats last only as long as the foe is in battle. Given the fact that competitive battles are chock-full of switching in and out, it does not make much of a difference. Sure, you may force a switch, but threats like a Dragon Dancing Gyarados can do this anyway.</p>
+
+<p>The rule of thumb is: unless the effect lasts even after the foe has switched out, it is not the most effective use of a move on most Pokémon to use stat-lowering moves. That is not to say these moves are worthless in every situation, but it is wise to take extra careful thought when using a stat-lowering move on a Pokémon. Another good rule is only to use a move if it raises or lowers a stat by at least two stages. What exactly does that mean? Read the next section to find out.</p>
+
+<h2><a name="stagemods">Stat Stage Modifiers</a></h2>
+
+<p>When a Pokémon has its stats affected, it is generally referred to in stages or modifiers such as +2 Attack, or even +4 or +6. What this means is the stat has been raised, or lowered by that many modifiers. The levels themselves add on to each other, but the stat modifiers do not. What this means is each time a stat reaches a different level, there is only that level's modifier in effect, rather than the combined modifiers from previous levels.</p>
+
+<p>On the SmogonDexes, anything that alters stats according to the following formula is listed as being a move that "boosts" or "lowers" a stat some number of "stages."</p>
+
+<p>The formula for stat modifiers for Attack, Defense, Special Attack, Special Defense, and Speed is as follows:</p>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat Modifier Level</th>
+<th>Stat multiplier</th>
+</tr>
+</thead>
+
+<tbody>
+<tr><td>+6</td> <td>Stat * 8/2 (4)</td></tr>
+<tr class="a"><td>+5</td> <td>Stat * 7/2 (3.5)</td></tr>
+<tr><td>+4</td> <td>Stat * 6/2 (3)</td></tr>
+<tr class="a"><td>+3</td> <td>Stat * 5/2 (2.5)</td></tr>
+<tr><td>+2</td> <td>Stat * 4/2 (2)</td></tr>
+<tr class="a"><td>+1</td> <td>Stat * 3/2 (1.5)</td></tr>
+<tr><td>±0</td> <td>Stat * 2/2 (1)</td></tr>
+<tr class="a"><td>-1</td> <td>Stat * 2/3 (0.6667)</td></tr>
+<tr><td>-2</td> <td>Stat * 2/4 (0.5)</td></tr>
+<tr class="a"><td>-3</td> <td>Stat * 2/5 (0.4)</td></tr>
+<tr><td>-4</td> <td>Stat * 2/6 (0.3333)</td></tr>
+<tr class="a"><td>-5</td> <td>Stat * 2/7 (0.2857)</td></tr>
+<tr><td>-6</td> <td>Stat * 2/8 (0.25)</td></tr>
+</tbody>
+</table>
+
+<p>A stat stage will never go any higher than +6 or lower than - 6.</p>
+
+<p>This applies to all stats except for HP (which do not get any boosts or drops; a Pokémon simply loses and restores HP in battle), accuracy, and evasion. The formula to figure out what the stat would be after <em>n</em> number of boosts is actually pretty simple, provided the ability or item of the Pokémon do not affect stats.</p>
+
+<pre>Final [Special] Attack Stat = Stat * Stat Modifier * Attack Ability Modifier * Attack Item Modifier</pre>
+
+<p>"Attack Ability Modifier" and "Attack Item Modifier" apply to the relevant attacking stat (physical or special).</p>
+
+<p>Note that the burn status actually does not lower Attack (and thus anything that interacts with Attack modifiers will not have an interaction with burn, unless specifically mentioned). Burn is its own modifier in the damage formula (that halves damage for physical attacks).</p>
+
+<p>Say you have an Arcanine with 319 Attack that uses the move Howl, thus raising its Attack one stage. With Arcanine, you are dealing with the Attack stat. In this particular case, Arcanine isn't holding an item that affects its stats, and it does not have an ability that affects its stats. So these modifiers stay at 1.</p>
+
+<pre>319 * 1.5 * 1 * 1 = 478.5</pre>
+
+<p>Uh-oh! There is a decimal, now what? Well, in Pokémon, multiplication with decimals simply is not done. So, we eliminate the decimal, and round down to 478. Just pretend the decimal is not there, and you have your stat number! Keep in mind that if an item or ability is in effect, they must be incorporated. More on this is in the <strong>Ability Modifier</strong> and <strong>Item Modifier</strong> sections.</p>
+
+<p>For the Defense and Special Defense stats, a slightly different formula is used.</p>
+
+<pre>Final [Special] Defense Stat = Stat * Stat Modifier * Defense Ability Modifier *
+                               Defense Item Modifier * Sandstorm Modifier * Boom Modifier</pre>
+
+<p>The Stat Modifier still conforms to the aforementioned levels.</p>
+
+<p>"Defense Ability Modifier" and "Defense Item Modifier" apply to the relevant defending stat.</p>
+
+<p>The Sandstorm Modifier is 1.5 only for Special Defense and only if the defender is a Rock-type and the weather is a sandstorm. Otherwise, it is 1.</p>
+
+<p>The Boom Modifier is very simple, and not often used. If the foe is using the move Explosion or Selfdestruct against your Pokémon, the Boom Modifier is 0.5. That means Defense is effectively halved, but only when those moves are being used. This does not apply to Special Defense in any way; both Selfdestruct and Explosion are physical moves. If neither moves are being used, the mod is a neutral 1, and not necessary in the equation.</p>
+
+<p>For Speed, the formula is different once again:</p>
+
+<pre>Final Speed Stat = Current Stat * Stat Modifier * Speed Ability Modifier * Speed Item Modifier *
+                   Paralysis Modifier * Tailwind Modifier</pre>
+
+<p>The Paralysis Modifier applies if a Pokémon is paralyzed, and does not have the ability Quick Feet. In this case, it gives a modifier of 0.25. If the Pokémon is not paralyzed, or is paralyzed with the ability Quick Feet, the Paralysis Modifier is a neutral 1. The Tailwind Modifier is 2 if Tailwind is active on the Pokémon's side, and 1 otherwise. Other than this, the Speed formula is essentially the same as the one for [Special] Attack.</p>
+
+<p>Now, many players either forget, or do not know about the "hidden" stats. These are Accuracy and Evasion. Accuracy is lowered by the foe, and raised by you. Evasion can be raised and lowered by both parties. Luckily, in battle, they are referred to as accuracy and evasiveness, so it's not as confusing.</p>
+
+<p>The modifiers for Accuracy works as follows:</p>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Accuracy Modifier Level</th>
+<th>Stat multiplier</th>
+</tr>
+</thead>
+
+<tbody>
+<tr><td>+6</td> <td>(Move Accuracy) * 9/3 (3)</td></tr>
+<tr class="a"><td>+5</td> <td>(Move Accuracy) * 8/3 (2.6666)</td></tr>
+<tr><td>+4</td> <td>(Move Accuracy) * 7/3 (2.3333)</td></tr>
+<tr class="a"><td>+3</td> <td>(Move Accuracy) * 6/3 (2)</td></tr>
+<tr><td>+2</td> <td>(Move Accuracy) * 5/3 (1.6666)</td></tr>
+<tr class="a"><td>+1</td> <td>(Move Accuracy) * 4/3 (1.3333)</td></tr>
+<tr><td>±0</td> <td>(Move Accuracy) * 3/3 (1)</td></tr>
+<tr class="a"><td>-1</td> <td>(Move Accuracy) * 3/4 (0.75)</td></tr>
+<tr><td>-2</td> <td>(Move Accuracy) * 3/5 (0.6)</td></tr>
+<tr class="a"><td>-3</td> <td>(Move Accuracy) * 3/6 (0.5)</td></tr>
+<tr><td>-4</td> <td>(Move Accuracy) * 3/7 (0.4285)</td></tr>
+<tr class="a"><td>-5</td> <td>(Move Accuracy) * 3/8 (0.375)</td></tr>
+<tr><td>-6</td> <td>(Move Accuracy) * 3/9 (0.3333)</td></tr>
+</tbody>
+</table>
+
+<p>Evasion is identical, except the chart works in reverse:</p>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Evasion Modifier Level</th>
+<th>Stat multiplier</th>
+</tr>
+</thead>
+
+<tbody>
+<tr><td>+6</td> <td>(Move Accuracy) * 3/9 (0.3333)</td></tr>
+<tr class="a"><td>+5</td> <td>(Move Accuracy) * 3/8 (0.375)</td></tr>
+<tr><td>+4</td> <td>(Move Accuracy) * 3/7 (0.4285)</td></tr>
+<tr class="a"><td>+3</td> <td>(Move Accuracy) * 3/6 (0.5)</td></tr>
+<tr><td>+2</td> <td>(Move Accuracy) * 3/5 (0.6)</td></tr>
+<tr class="a"><td>+1</td> <td>(Move Accuracy) * 3/4 (0.75)</td></tr>
+<tr><td>±0</td> <td>(Move Accuracy) * 3/3 (1)</td></tr>
+<tr class="a"><td>-1</td> <td>(Move Accuracy) * 4/3 (1.3333)</td></tr>
+<tr><td>-2</td> <td>(Move Accuracy) * 5/3 (1.6666)</td></tr>
+<tr class="a"><td>-3</td> <td>(Move Accuracy) * 6/3 (2)</td></tr>
+<tr><td>-4</td> <td>(Move Accuracy) * 7/3 (2.3333)</td></tr>
+<tr class="a"><td>-5</td> <td>(Move Accuracy) * 8/3 (2.6666)</td></tr>
+<tr><td>-6</td> <td>(Move Accuracy) * 9/3 (3)</td></tr>
+</tbody>
+</table>
+
+<p>Accuracy and Evasion can each only reach +6 or -6. They are separate stats.</p>
+
+<p>Now, here's where it gets a little tricky. Not only are the numbers much harder to work with, but the application is as well. Move accuracy is the base accuracy of the move. Accuracy of the move is easy to see, most of which are 100. There also moves like Hydro Pump or Stone Edge with 80. So if only one "hidden" modifier is in effect, you can just plug in the numbers and see how often the move will hit.</p>
+
+<p>If both are in effect, you are going to have a bit more difficulty. You must use a longer formula, which looks like this:</p>
+
+<pre>Chance to hit = Move Accuracy * Accuracy Mod * Evasion Mod * Accuracy Item Mod *
+                Evasion Item Mod * Accuracy Ability Mod * Evasion Ability Mod * Gravity Modifier</pre>
+
+<p>The order of multiplication is currently unknown, however, which may make the calculations off by a % or two thanks to rounding. It is recommended you use the above formula though, to make sure you account for everything.</p>
+
+<p>So say Tyranitar was trying to hit its foe with Crunch, but its foe had lowered Tyranitar's Accuracy to -1, and raised its own evasion to +2. Tyranitar does not have an ability that affects its accuracy or evasion, and in this instance, neither does its foe.</p>
+
+<pre>Chance to hit: 100% * 0.75 * 0.6
+= 45%</pre>
+
+<p>So Tyranitar would only have a 45% chance of landing a hit with Crunch, one of its more reliable moves. Yikes!</p>
+
+<p>In general, you will not be calculating accuracy and evasion, due to the fact that it is rarely used. Moves that raise evasion are usually banned in competitive play.</p>
+
+<h2><a name="stagemodmoves">Moves Affecting the Stat Modifier</a></h2>
+
+<h3>Attack</h3>
+
+<h4>Boosts</h4>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Move</th>
+<th>Number of stages Attack is boosted</th>
+</tr>
+</thead>
+
+<tbody>
+<tr><td>AncientPower</td> <td>1</td></tr>
+<tr class="a"><td>Acupressure</td> <td>2</td></tr>
+<tr><td>Belly Drum</td> <td>12</td></tr>
+<tr class="a"><td>Bulk Up</td> <td>1</td></tr>
+<tr><td>Curse</td> <td>1</td></tr>
+<tr class="a"><td>Dragon Dance</td> <td>1</td></tr>
+<tr><td>Howl</td> <td>1</td></tr>
+<tr class="a"><td>Meditate</td> <td>1</td></tr>
+<tr><td>Metal Claw</td> <td>1</td></tr>
+<tr class="a"><td>Meteor Mash</td> <td>1</td></tr>
+<tr><td>Ominous Wind</td> <td>1</td></tr>
+<tr class="a"><td>Rage</td> <td>1</td></tr>
+<tr><td>Sharpen</td> <td>1</td></tr>
+<tr class="a"><td>Silver Wind</td> <td>1</td></tr>
+<tr><td>Swagger</td> <td>2 (target)</td></tr>
+<tr class="a"><td>Swords Dance</td> <td>2</td></tr>
+</tbody>
+</table>
+
+<p>If a Pokémon is holding a Liechi Berry, its Attack will be raised one stage once its health reaches 25% or less, or 50% or less if the Pokémon has the ability Gluttony. If a Starf Berry is activated, it raises a visible stat two stages, with a 20% chance of picking Attack. The effects of the Berry can also be obtained by using Pluck or Bug Bite against a Pokémon that is holding one.</p>
+
+<p>Bulk Up, Curse, Dragon Dance, and Swords Dance are your best bets for raising Attack here. Swords Dance and Dragon Dance are primarily to be used on a Pokémon setting up for a sweep, whereas Curse and Bulk Up are more suited on bulkier Pokémon that would like an extra punch. Dragon Dance has the added advantage of raising Speed one stage as well; Bulk Up and Curse each raise Defense as well, albeit Curse comes with the side effect of lowering Speed. Most non-Ghost Pokémon that learn Curse are slow enough not to mind anyway.</p>
+
+<p>Belly Drum is very risky, due to taking away half of your Pokémon's health, but it also brings Attack to the maximum level. That means even if your Poliwrath is at -6 Attack, it can still use Belly Drum and end up at +6. It is certainly usable if you are wiling to take the risk, and have good prediction skills. Acupressure is not the most effective choice, as it can raise any stat, and Attack must be randomly chosen.</p>
+
+
+<h4>Drops</h4>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Move</th>
+<th>Number of stages Attack is lowered</th>
+</tr>
+</thead>
+
+<tbody>
+<tr><td>Aurora Beam</td> <td>1</td></tr>
+<tr class="a"><td>Charm</td> <td>2</td></tr>
+<tr><td>FeatherDance</td> <td>2</td></tr>
+<tr class="a"><td>Growl</td> <td>1</td></tr>
+<tr><td>Memento</td> <td>2</td></tr>
+<tr class="a"><td>Secret Power</td> <td>1</td></tr>
+<tr><td>Superpower</td> <td>1 (self)</td></tr>
+<tr class="a"><td>Tickle</td> <td>1</td></tr>
+</tbody>
+</table>
+
+<p>Pokémon with the ability Intimidate lower the Attack of all foes by one stage when it switches in.</p>
+
+<p>Intimidate is a very useful ability, as it makes switching in to physical threats much easier for certain Pokémon, as well as forcing the opponent to switch in many cases. Outside of this, Superpower is really the only Attack drop you will see, and it is not learned by many Pokémon in the first place. In general, it is better to burn a physical threat than lower their Attack.</p>
+
+<h3>Defense</h3>
+
+<h4>Boosts</h4>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Move</th>
+<th>Number of stages Defense is boosted</th>
+</tr>
+</thead>
+
+<tbody>
+<tr><td>Acid Armor</td> <td>2</td></tr>
+<tr class="a"><td>AncientPower</td> <td>1</td></tr>
+<tr><td>Acupressure</td> <td>2</td></tr>
+<tr class="a"><td>Barrier</td> <td>2</td></tr>
+<tr><td>Bulk Up</td> <td>1</td></tr>
+<tr class="a"><td>Cosmic Power</td> <td>1</td></tr>
+<tr><td>Curse</td> <td>1</td></tr>
+<tr class="a"><td>Defend Order</td> <td>1</td></tr>
+<tr><td>Defense Curl</td> <td>1</td></tr>
+<tr class="a"><td>Harden</td> <td>1</td></tr>
+<tr><td>Iron Defense</td> <td>2</td></tr>
+<tr class="a"><td>Ominous Wind</td> <td>1</td></tr>
+<tr><td>Silver Wind</td> <td>1</td></tr>
+<tr class="a"><td>Skull Bash</td> <td>1</td></tr>
+<tr><td>Steel Wing</td> <td>1</td></tr>
+<tr class="a"><td>Stockpile</td> <td>1</td></tr>
+<tr><td>Withdraw</td> <td>1</td></tr>
+</tbody>
+</table>
+
+<p>If a Pokémon is holding a Ganlon Berry, its Defense will be raised one stage once its health reaches 25% or less, or 50% or less if the Pokémon has the ability Gluttony. If a Starf Berry is activated, it raises a visible stat two stages, with a 20% chance of picking Defense. The effects of the Berry can also be obtained by using Pluck or Bug Bite against a Pokémon that is holding one.</p>
+
+<p>Barrier, Bulk Up, and Curse are the most effective here. Barrier is handy with its two stage boost, and while Acid Armor does the exact same thing, very few Pokémon learn it, and those that do will want to have the moveslot used for something else. Bulk Up and Curse are good choices because they both raise Attack one stage as well, although Curse will also lower Speed. Cosmic Power and Stockpile both raise Defense and Special Defense, though Cosmic Power is not unlike Acid Armor, in that Pokémon that actually learn it would rather do something else. Stockpile is limited in its boosts, but is learned by a few more Pokémon, namely Drifblim, which can use Baton Pass to give the boosts to another Pokémon.</p>
+
+<p>Defense Curl is interesting, because it provides a boost in power to the moves Ice Ball and Rollout, should the user attack with them after using the move. While the Defense boost from Defense Curl can be Baton Passed, the boost to the aforementioned moves cannot.</p>
+
+<h4>Drops</h4>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Move</th>
+<th>Number of stages Defense is lowered</th>
+</tr>
+</thead>
+
+<tbody>
+<tr><td>Close Combat</td> <td>1 (self)</td></tr>
+<tr class="a"><td>Crunch</td> <td>1</td></tr>
+<tr><td>Crush Claw</td> <td>1</td></tr>
+<tr class="a"><td>Iron Tail</td> <td>1</td></tr>
+<tr><td>Leer</td> <td>1</td></tr>
+<tr class="a"><td>Rock Smash</td> <td>1</td></tr>
+<tr><td>Screech</td> <td>2</td></tr>
+<tr class="a"><td>Superpower</td> <td>1 (self)</td></tr>
+<tr><td>Tail Whip</td> <td>1</td></tr>
+<tr class="a"><td>Tickle</td> <td>1</td></tr>
+</tbody>
+</table>
+
+<p>Close Combat is a common attacking move, but it does lower both defensive stats by one stage. Crunch is fairly common as well, but the chance of lowering the target's Defense is slim. Although Superpower is a powerful move, it is not seen much due to how few Pokémon learn it. The other most notable move is Screech, which, while very capable of forcing a switch, is not used often.</p>
+
+
+<h3>Special Attack</h3>
+
+<h4>Boosts</h4>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Move</th>
+<th>Number of stages Special Attack is boosted</th>
+</tr>
+</thead>
+
+<tbody>
+<tr><td>AncientPower</td> <td>1</td></tr>
+<tr class="a"><td>Acupressure</td> <td>2</td></tr>
+<tr><td>Calm Mind</td> <td>1</td></tr>
+<tr class="a"><td>Charge Beam</td> <td>1</td></tr>
+<tr><td>Flatter</td> <td>1 (target)</td></tr>
+<tr class="a"><td>Growth</td> <td>1</td></tr>
+<tr><td>Nasty Plot</td> <td>2</td></tr>
+<tr class="a"><td>Ominous Wind</td> <td>1</td></tr>
+<tr><td>Silver Wind</td> <td>1</td></tr>
+<tr class="a"><td>Tail Glow</td> <td>2</td></tr>
+</tbody>
+</table>
+
+<p>If a Pokémon is holding a Petaya Berry, its Special Attack will be raised one stage once its health reaches 25% or less, or 50% or less if the Pokémon has the ability Gluttony. If a Starf Berry is activated, it raises a visible stat two stages, with a 20% chance of picking Special Attack. The effects of the Berry can also be obtained by using Pluck or Bug Bite against a Pokémon that is holding one.</p>
+
+<p>Calm Mind and Nasty Plot are your best bets for raising Special Attack, followed up by Charge Beam and Tail Glow. Calm Mind has the added bonus of raising Special Defense one stage as well, allowing the user to take more Special abuse, as well as give it. Tail Glow is second in line to Nasty Plot, but is only learned by two Pokémon. Charge Beam could be viable, however, it can be somewhat unreliable, and it is an attacking move with a weak Base Power, plus the opponent could resist Electric.</p>
+
+<h4>Drops</h4>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Move</th>
+<th>Number of stages Special Attack is lowered</th>
+</tr>
+</thead>
+
+<tbody>
+<tr><td>Captivate</td> <td>2</td></tr>
+<tr class="a"><td>Draco Meteor</td> <td>2 (self)</td></tr>
+<tr><td>Leaf Storm</td> <td>2 (self)</td></tr>
+<tr class="a"><td>Memento</td> <td>2</td></tr>
+<tr><td>Mist Ball</td> <td>1</td></tr>
+<tr class="a"><td>Overheat</td> <td>2 (self)</td></tr>
+<tr><td>Psycho Boost</td> <td>2 (self)</td></tr>
+</tbody>
+</table>
+
+<p>Chances are you will lower your own Pokémon's Special Attack much more than the foe will. Each of the moves that lower the user's Special Attack by two stages are feasible options for some Pokémon; such as Choice Specs Kingdra and its Draco Meteor. It is wise to use an item to boost your Special Attack while using these moves, as they will often cause you to switch out, and it is best to do as much damage in one go as possible.</p>
+
+<h3>Special Defense</h3>
+
+<h4>Boosts</h4>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Move</th>
+<th>Number of stages Special Defense is boosted</th>
+</tr>
+</thead>
+
+<tbody>
+<tr><td>Amnesia</td> <td>2</td></tr>
+<tr class="a"><td>AncientPower</td> <td>1</td></tr>
+<tr><td>Acupressure</td> <td>2</td></tr>
+<tr class="a"><td>Calm Mind</td> <td>1</td></tr>
+<tr><td>Charge</td> <td>1</td></tr>
+<tr class="a"><td>Cosmic Power</td> <td>1</td></tr>
+<tr><td>Defend Order</td> <td>1</td></tr>
+<tr class="a"><td>Ominous Wind</td> <td>1</td></tr>
+<tr><td>Silver Wind</td> <td>1</td></tr>
+<tr class="a"><td>Stockpile</td> <td>1</td></tr>
+</tbody>
+</table>
+
+<p>If a Pokémon is holding an Apicot Berry, its Special Defense will be raised one stage once its health reaches 25% or less, or 50% or less if the Pokémon has the ability Gluttony. If a Starf Berry is activated, it raises a visible stat two stages, with a 20% chance of picking Special Attack. The effects of the Berry can also be obtained by using Pluck or Bug Bite against a Pokémon that is holding one.</p>
+
+<p>Calm Mind is your best bet for raising Special Defense. It offers another bonus as well: Calm Mind boosts Special Attack. Cosmic Power and Stockpile both raise Defense and Special Defense, though with Cosmic Power, Pokémon that actually learn it would often rather do something else. Stockpile is limited in its boosts, but is learned by a few more Pokémon, namely Drifblim, which can use Baton Pass to give the boosts to another Pokémon. Amnesia is great if you can fit it into a moveset, but not many Pokémon will use it.</p>
+
+<h4>Drops</h4>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Move</th>
+<th>Number of stages Special Defense is lowered</th>
+</tr>
+</thead>
+
+<tbody>
+<tr><td>Acid</td> <td>1</td></tr>
+<tr class="a"><td>Bug Buzz</td> <td>1</td></tr>
+<tr><td>Close Combat</td> <td>1 (self)</td></tr>
+<tr class="a"><td>Earth Power</td> <td>1</td></tr>
+<tr><td>Energy Ball</td> <td>1</td></tr>
+<tr class="a"><td>Fake Tears</td> <td>2</td></tr>
+<tr><td>Flash Cannon</td> <td>1</td></tr>
+<tr class="a"><td>Focus Blast</td> <td>1</td></tr>
+<tr><td>Luster Purge</td> <td>1</td></tr>
+<tr class="a"><td>Metal Sound</td> <td>2</td></tr>
+<tr><td>Psychic</td> <td>1</td></tr>
+<tr class="a"><td>Shadow Ball</td> <td>1</td></tr>
+<tr><td>Seed Flare</td> <td>2</td></tr>
+</tbody>
+</table>
+
+<p>Close Combat is a common attacking move, but it does lower both defensive stats by one stage. Many of the Special Defense drops you will see come randomly from moves such as Psychic and Shadow Ball. Metal Sound and Fake Tears will rarely appear on certain sets, possibly forcing a switch, but they are not seen much.</p>
+
+
+<h3>Speed</h3>
+
+<h4>Boosts</h4>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Move</th>
+<th>Number of stages Speed is boosted</th>
+</tr>
+</thead>
+
+<tbody>
+<tr><td>Agility</td> <td>2</td></tr>
+<tr class="a"><td>AncientPower</td> <td>1</td></tr>
+<tr><td>Acupressure</td> <td>2</td></tr>
+<tr class="a"><td>Dragon Dance</td> <td>1</td></tr>
+<tr><td>Ominous Wind</td> <td>1</td></tr>
+<tr class="a"><td>Rock Polish</td> <td>2</td></tr>
+<tr><td>Silver Wind</td> <td>1</td></tr>
+</tbody>
+</table>
+
+<p>Pokémon with the ability Motor Drive raise their Speed by one stage when hit by an Electric move.</p>
+
+<p>Pokémon with the ability Speed Boost raise their Speed by one stage at the end of each turn.</p>
+
+<p>Pokémon with the ability Steadfast raise their Speed by one stage when they flinch.</p>
+
+<p>If a Pokémon is holding a Salac Berry, its Speed will be raised one stage once its health reaches 25% or less, or 50% or less if the Pokémon has the ability Gluttony. If a Starf Berry is activated, it raises a visible stat two stages, with a 20% chance of picking Speed. The effects of the Berry can also be obtained by using Pluck or Bug Bite against a Pokémon that is holding one.</p>
+
+<p>Agility, Dragon Dance, and Rock Polish are your best options here, move-wise.  Dragon Dance is the only one of the three that will only raise Speed by one stage, but it has the added benefit of simultaneously boosting Attack.  The ability Speed Boost is still very useful, though the Speed Boost is most effective if Baton Passed onto another Pokémon. Holding a Salac Berry is a viable option as well.</p>
+
+
+<h4>Drops</h4>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Move</th>
+<th>Number of stages Speed is lowered</th>
+</tr>
+</thead>
+
+<tbody>
+<tr><td>Bubble</td> <td>1</td></tr>
+<tr class="a"><td>BubbleBeam</td> <td>1</td></tr>
+<tr><td>Constrict</td> <td>1</td></tr>
+<tr class="a"><td>Cotton Spore</td> <td>2</td></tr>
+<tr><td>Curse</td> <td>1 (self)</td></tr>
+<tr class="a"><td>Hammer Arm</td> <td>1 (self)</td></tr>
+<tr><td>Icy Wind</td> <td>1</td></tr>
+<tr class="a"><td>Mud Shot</td> <td>1</td></tr>
+<tr><td>Rock Tomb</td> <td>1</td></tr>
+<tr class="a"><td>Scary Face</td> <td>2</td></tr>
+<tr><td>String Shot</td> <td>1</td></tr>
+</tbody>
+</table>
+
+<p>As with raising Speed, lowering Speed does not leave you with a lot of options. Despite their Speed-lowering side effects, Curse and Hammer Arm are mostly learned by slower Pokémon, which do not mind losing their Speed. As for lowering the opponent's Speed, Cotton Spore and Scary Face are a poor use of a moveslot, and they are inaccurate. Generally, if there is a speedy threat, it's best to paralyze it.</p>
+
+<h3>Accuracy</h3>
+
+<h4>Boosts</h4>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Move</th>
+<th>Number of stages accuracy is boosted</th>
+</tr>
+</thead>
+
+<tbody>
+<tr><td>Acupressure</td> <td>2</td></tr>
+</tbody>
+</table>
+
+<p>Once again, you should not rely on Acupressure to raise any given stat. It is not a damaging move, and there is only a 14.2857% chance Accuracy will be chosen over the other stats. </p>
+
+<h4>Drops</h4>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Move</th>
+<th>Number of stages accuracy is lowered</th>
+</tr>
+</thead>
+
+<tbody>
+<tr><td>Flash</td> <td>1</td></tr>
+<tr class="a"><td>Kinesis</td> <td>1</td></tr>
+<tr><td>Mirror Shot</td> <td>1</td></tr>
+<tr class="a"><td>Mud Bomb</td> <td>1</td></tr>
+<tr><td>Mud Slap</td> <td>1</td></tr>
+<tr class="a"><td>Muddy Water</td> <td>1</td></tr>
+<tr><td>Octazooka</td> <td>1</td></tr>
+<tr class="a"><td>Sand Attack</td> <td>1</td></tr>
+<tr><td>Secret Power</td> <td>1</td></tr>
+<tr class="a"><td>SmokeScreen</td> <td>1</td></tr>
+</tbody>
+</table>
+
+<p>These moves can only give a one stage drop at most, and many are either inaccurate, or very weak offensively and unreliable. It is best to leave the foe's Accuracy alone, and raise your own Pokémon's Evasion if you wish to avoid hits.</p>
+
+<h3>Evasion</h3>
+
+<h4>Boosts</h4>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Move</th>
+<th>Number of stages evasion is boosted</th>
+</tr>
+</thead>
+
+<tbody>
+<tr><td>Acupressure</td> <td>2</td></tr>
+<tr class="a"><td>Double Team</td> <td>1</td></tr>
+<tr><td>Minimize</td> <td>1</td></tr>
+</tbody>
+</table>
+
+<p>Double Team is learned by most everything, but you'll have to tailor a moveset around it to make it work, as well as use an appropriate Pokémon. Minimize is learned by fewer Pokémon, and has the side effect of giving Stomp increased power against the user. While the Evasion boosts from Minimize can be Baton Passed, the extra damage from Stomp cannot. Note that Double Team and Minimize are banned in most competitive venues.</p>
+
+<h4>Drops</h4>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Move</th>
+<th>Number of stages evasion is dropped</th>
+</tr>
+</thead>
+
+<tbody>
+<tr><td>Defog</td> <td>1</td></tr>
+<tr class="a"><td>Sweet Scent</td> <td>1</td></tr>
+</tbody>
+</table>
+
+<p>Defog and Sweet Scent are not recommended in any competitive environment.</p>
+
+
+<h3>Critical Hits</h3>
+
+<p>If a Pokémon scores a critical hit against its foe, certain Stat Modifier boosts and drops are ignored. If the attacker has drops in its Attack or Special Attack, the stat is set to level 0 for calculating the damage of the hit. If the victim of the critical hit has boosts in the Defense or Special Defense stat, the stat is automatically set to level 0 as well. Reflect and Light Screen are also ignored. This only applies for the critical hit, and reverts back to whatever boosts and drops the Pokémon had previously after the hit's damage has been calculated.</p>
+
+<h3>Miscellaneous</h3>
+
+<p>Pokémon with the ability Clear Body and White Smoke are not affected by any stat-lowering moves that they do not use themselves. They are unaffected by Intimidate. Paralysis's Speed drop still affects these Pokémon.</p>
+
+<p>Pokémon with the ability Hyper Cutter cannot have their Attack lowered by any stat-lowering moves that they do not use themselves. They are unaffected by Intimidate.</p>
+
+<p>Pokémon with the ability Keen Eye cannot have their accuracy lowered.</p>
+
+<p>If a Pokémon with the ability Unaware is the target of an attack, all of the attacker's [Special] Attack boosts are ignored. If a Pokémon with the ability Unaware is attacking, all of the defender's [Special] Defense boosts are ignored.</p>
+
+<p>The move Guard Swap swaps Defense and Special Defense Stat Modifier boosts and drops with the target. Similarly, the move Power Swap swaps Attack and Special Attack Stat Modifier boosts and drops with the target.</p>
+
+<p>The move Haze eliminates all Stat Modifier boosts and drops from all Pokémon on the field. This move is to be used strategically, as it can prevent some of your own Pokémon from being successful as well! Haze is not blocked by Clear Body, Hyper Cutter, Keen Eye, or White Smoke, even if it does lower the ability possessor's stats. Haze does not eliminate any other modifiers, nor does it eliminate the drop from paralysis.</p>
+
+<p>The move Heart Swap swaps all Stat Modifier boosts and drops with the user and targeted Pokémon.</p>
+
+<p>The move Mist prevents any moves that lower stats from working for 5 turns. Moves that have a side effect of lowering stats can still be used, although the side effect cannot occur.</p>
+
+<p>The move Psych Up copies all of the foe's Stat Modifier changes, but at the cost of losing any changes the Pokémon had prior to using the move.</p>
+
+<p>The move Punishment gains power with the more stat-ups the target uses. Note that stat drops are ignored.</p>
+
+<p>If a Pokémon has set up a Substitute, it is not affected by any stat-altering moves that it does not use itself. It is also unaffected by Intimidate.</p>
+
+<p>A Pokémon that uses the move Transform will copy any Stat Modifiers the target had at the time of the user Transforming. The Transforming Pokémon will lose any Stat Modifiers it had possessed prior to Transforming into its target.</p>
+
+<p>While there are quite a few miscellaneous moves to take note of, they are not seen very often in most games.</p>
+
+
+<h2><a name="abilitymods">Ability Modifiers</a></h2>
+
+<p>Every Pokémon has an ability. Many species only have one to choose from, yet others may have one of two. Certain abilities affect the stats of the Pokémon. Note that these are separate modifiers from Stat Modifiers, and there can be only one in effect.</p>
+
+<p>Unlike Stat Modifiers, Ability Modifiers do not conform to a certain chart. Instead, the number listed is actually the number that the stat is multiplied by.</p>
+
+<pre>Final [Special] Attack Stat = Current Stat * Stat Modifier * Attack Ability Modifier * 
+                              Attack Item Modifier</pre>
+
+<p>Once again, "Attack Ability Modifier" and "Attack Item Modifier" apply to the relevant attacking stat.</p>
+
+<p>Say there is a Medicham with 240 Attack. Upon looking at Medicham's SmogonDex entry, you would discover Medicham has the ability Pure Power, which doubles the Attack stat. Assuming Medicham does not have any Stat Modifiers in effect, and is not holding an item that affects its Attack (say it is holding a Focus Sash), it is ridiculously simple to find its final Attack. The irrelevant Modifiers are a neutral 1.</p>
+
+<pre>Final Attack Stat = 240 * 1 * 2 * 1 = 480</pre>
+
+<p>Wow, Medicham sure isn't lacking in power, now is it? It's a good thing Medicham has very frail defensive stats, else it would be a nightmare to face.</p>
+
+<h3>Attack</h3>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Ability</th>
+<th>Attack Ability Multiplier</th>
+</tr>
+</thead>
+
+<tbody>
+<tr><td>Flower Gift (even on ally)</td> <td>1.5 (if the sun is bright)</td></tr>
+<tr class="a"><td>Guts</td> <td>1.5 (if the attacker is afflicted with status)</td></tr>
+<tr><td>Huge Power</td> <td>2</td></tr>
+<tr class="a"><td>Hustle</td> <td>1.5</td></tr>
+<tr><td>Pure Power</td> <td>2</td></tr>
+<tr class="a"><td>Slow Start</td> <td>0.5 (for the first five turns this Pokémon is out each time it's sent out)</td></tr>
+</tbody>
+</table>
+
+<p>All other abilities have an Attack Ability Modifier of 1. If the requirements for Flower Gift or Guts are not met, they too give a Modifier of 1.</p>
+
+<h3>Defense</h3>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Ability</th>
+<th>Defense Ability Multiplier</th>
+</tr>
+</thead>
+
+<tbody><tr><td>Marvel Scale</td> <td>1.5 (if the defender is afflicted with status)</td></tr>
+</tbody>
+</table>
+
+<p>All other abilities give a Defense Ability Modifier of 1. If the requirements for Marvel Scale are not met, it gives a Defense Ability Modifier of 1.</p>
+
+<h3>Special Attack</h3>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Ability</th>
+<th>Attack Ability Multiplier</th>
+</tr>
+</thead>
+
+<tbody>
+<tr><td>Minus</td> <td>1.5 (if the partner's ability is Plus)</td></tr>
+<tr class="a"><td>Plus</td> <td>1.5 (if the partner's ability is Minus)</td></tr>
+<tr><td>Solar Power</td> <td>1.5 (if the sun is bright)</td></tr>
+</tbody>
+</table>
+
+<p>All other abilities have an Attack Ability Modifier of 1. If the requirements for the aforementioned abilities are not met, they too give a Modifier of 1.</p>
+
+<h3>Special Defense</h3>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Ability</th>
+<th>Defense Ability Multiplier</th>
+</tr>
+</thead>
+
+<tbody>
+<tr><td>Flower Gift (even on ally)</td> <td>1.5 (if the sun is bright)</td></tr>
+</tbody>
+</table>
+
+<p>All other abilities give a Defense Ability Modifier of 1. If the requirements for Flower Gift are not met, it gives a Defense Ability Modifier of 1.</p>
+
+<h3>Speed</h3>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Ability</th>
+<th>Speed Ability Multiplier</th>
+</tr>
+</thead>
+
+<tbody><tr><td>Chlorophyll</td> <td>2 (if the sun is bright)</td></tr>
+<tr class="a"><td>Quick Feet</td> <td>1.5 (if this Pokémon is afflicted with status. The Speed drop from paralysis is nullified)</td></tr>
+<tr><td>Slow Start</td> <td>0.5 (for the first five turns this Pokémon is out each time it's sent out)</td></tr>
+<tr class="a"><td>Swift Swim</td> <td>2 (if it is raining)</td></tr>
+<tr><td>Unburden</td> <td>2 (if this Pokémon loses its item)</td></tr>
+</tbody>
+</table>
+
+<p>All other abilities have a Speed Ability Modifier of 1. If the requirements for the aforementioned abilities are not met, they too give a Modifier of 1.</p>
+
+
+<h3>Accuracy</h3>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Ability</th>
+<th>Accuracy Ability Multiplier</th>
+</tr>
+</thead>
+
+<tbody>
+<tr><td>CompoundEyes</td> <td>1.3</td></tr>
+<tr class="a"><td>Hustle</td> <td>0.8 (if the move used is physical)</td></tr>
+</tbody>
+</table>
+
+<p>All other abilities have an Accuracy Ability Modifier of 1. If a Pokémon with the ability Hustle does not use a physical move, Hustle's Accuracy Ability Modifier is 1 as well.</p>
+
+<h3>Evasion</h3>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Ability</th>
+<th>Evasion Ability Multiplier</th>
+</tr>
+</thead>
+
+<tbody>
+<tr><td>Sand Veil</td> <td>0.8 (if there is a sandstorm)</td></tr>
+<tr class="a"><td>Snow Cloak</td> <td>0.8 (if it is hailing)</td></tr>
+<tr><td>Tangled Feet</td> <td>0.5 (if this Pokémon is confused)</td></tr>
+</tbody>
+</table>
+
+<p>All other abilities have an Evasion Ability Modifier of 1. If the requirements for the aforementioned abilities are not met, they too give a Modifier of 1.</p>
+
+
+<h2><a name="itemmods">Item Modifiers</a></h2>
+
+<p>In battle, every Pokémon should be holding an item of some sort. In some cases, that item will boost a stat. Again, "Attack Item Modifier" applies to the relevant attacking stat; "Defense Item Modifier" applies to the relevant defending stat.</p>
+
+<h3>Attack</h3>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Item</th>
+<th>Attack Item Multiplier</th>
+</tr>
+</thead>
+
+<tbody>
+<tr><td>Choice Band</td> <td>1.5</td></tr>
+<tr class="a"><td>Light Ball</td> <td>2 (Pikachu only)</td></tr>
+<tr><td>Thick Club</td> <td>2 (Cubone and Marowak only)</td></tr>
+</tbody>
+</table>
+
+<p>All other items give an Item Modifier of 1. If Light Ball is not held by a Pikachu, or Thick Club not by Cubone or Marowak, they also give an Item Modifier of 1. "Now wait!", you may say, "Don't items like Life Orb and Muscle Band boost Attack as well?" In reality, any other items that claim to boost Attack actually boost the Base Power of physical moves, or are their own modifier in the damage formula.</p>
+
+<h3>Defense</h3>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Item</th>
+<th>Defense Item Multiplier</th>
+</tr>
+</thead>
+
+<tbody>
+<tr><td>Metal Powder</td> <td>1.5 (non-Transformed Ditto only)</td></tr>
+</tbody>
+</table>
+
+<p>All other items give a Defense Item Modifier of 1. If the requirements for Metal Powder are not met, it gives a Defense Item Modifier of 1.</p>
+
+<h3>Special Attack</h3>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Item</th>
+<th>Attack Item Multiplier</th>
+</tr>
+</thead>
+
+<tbody>
+<tr><td>Choice Specs</td> <td>1.5</td></tr>
+<tr class="a"><td>DeepSeaTooth</td> <td>2 (Clamperl only)</td></tr>
+<tr><td>Light Ball</td> <td>2 (Pikachu only)</td></tr>
+<tr class="a"><td>Soul Dew</td> <td>1.5 (Latias and Latios only)</td></tr>
+</tbody>
+</table>
+
+<p>All other items give an Attack Item Modifier of 1. Keep in mind, that bar Choice Specs, these items must be held by the aforementioned Pokémon to give their boosts, else their Attack Item Modifiers are 1 as well. You might be thinking that items like Life Orb and Wise Glasses boost Special Attack as well. In reality, any other items that claim to boost Special Attack actually boost the Base Power of special moves, or are their own modifier in the damage formula.</p>
+
+<h3>Special Defense</h3>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Item</th>
+<th>Defense Item Multiplier</th>
+</tr>
+</thead>
+
+<tbody>
+<tr><td>DeepSeaScale</td> <td>2 (Clamperl only)</td></tr>
+<tr class="a"><td>Metal Powder</td> <td>1.5 (non-Transformed Ditto only)</td></tr>
+<tr><td>Soul Dew</td> <td>1.5 (Latias and Latios only)</td></tr>
+</tbody>
+</table>
+
+<p>All other abilities and items give a Defense Item Modifier of 1. If the requirements for the aforementioned items are not met, they give a Defense Item Modifier of 1.</p>
+
+<h3>Speed</h3>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Item</th>
+<th>Speed Item Multiplier</th>
+</tr>
+</thead>
+
+<tbody>
+<tr><td>Choice Scarf</td> <td>1.5</td></tr>
+<tr class="a"><td>Iron Ball</td> <td>0.5</td></tr>
+<tr><td>Macho Brace</td> <td>0.5</td></tr>
+<tr class="a"><td>Power Anklet</td> <td>0.5</td></tr>
+<tr><td>Power Band</td> <td>0.5</td></tr>
+<tr class="a"><td>Power Belt</td> <td>0.5</td></tr>
+<tr><td>Power Bracer</td> <td>0.5</td></tr>
+<tr class="a"><td>Power Lens</td> <td>0.5</td></tr>
+<tr><td>Power Weight</td> <td>0.5</td></tr>
+<tr class="a"><td>Quick Powder</td> <td>2 (non-Transformed Ditto only)</td></tr>
+</tbody>
+</table>
+
+<p>All other items give an Item Modifier of 1. If the requirements for Quick Powder are not met, it will also give an Item Modifier of 1.</p>
+
+<h3>Accuracy</h3>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Item</th>
+<th>Accuracy Item Multiplier</th>
+</tr>
+</thead>
+
+<tbody>
+<tr><td>Wide Lens</td> <td>1.1</td></tr>
+<tr class="a"><td>Zoom Lens</td> <td>1.2 (if the holder goes after its target)</td></tr>
+</tbody>
+</table>
+
+<p>All other items give an Accuracy Item Modifier of 1. If the requirements for Zoom Lens are not met, it too gives an Accuracy Item Modifier of 1.</p>
+
+<h3>Evasion</h3>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Item</th>
+<th>Evasion Item Multiplier</th>
+</tr>
+</thead>
+
+<tbody>
+<tr><td>BrightPowder</td> <td>0.9</td></tr>
+<tr class="a"><td>Lax Incense</td> <td>0.95</td></tr>
+</tbody>
+</table>
+
+<p>All other items give an Evasion Item Modifier of 1.</p>
+
+
+<h2><a name="conclusion">Putting It All Together</a></h2>
+
+<p>Wow, there sure are many things that can affect a Pokémon's stats. So now it is time to revisit the formulas for calculating the stats:</p>
+
+
+<h3>[Special] Attack:</h3>
+
+<pre>Final [Special] Attack Stat = Current Stat * Stat Modifier * Attack Ability Modifier *
+                              Attack Item Modifier</pre>
+
+<p>It is time to see the entire formula in action! For this example, Tropius has had the move Flatter used against it, the ability Solar Power in effect, and is holding Choice Specs. This Tropius has a Special Attack stat of 267. Upon looking up Flatter, it ups the Stat Modifier two stages, and looking at the Stat Modifier chart, this means Tropius has a Stat Modifier of 2. Solar Power is in effect, giving Tropius an Attack Ability Modifier of 1.5. Lastly, upon looking up Choice Specs, it can be seen that they give an Attack Item Modifier of 1.5.</p>
+
+<pre>Final Special Attack Stat = 267 * 2 * 1.5 * 1.5
+                          = 534 * 1.5 * 1.5
+                          = 801 * 1.5
+                          = 1201.5</pre>
+
+<p>Of course, the final answer cannot have a decimal, so it ends up...</p>
+
+<pre>Final Special Attack Stat = 1201</pre>
+
+<p>Wow, this Tropius sure packs a serious punch! However, this massive Special Attack stat would come at the cost of being locked into one move, and losing a portion of HP each turn. Not to mention the chances of the foe using Flatter on a Pokémon that inherently has higher Special Attack than Attack, <em>and</em> the sun being out are slim. However, Tropius has helped show you how the In-Battle [Special] Attack stat is calculated!</p>
+
+<h3>[Special] Defense</h3>
+
+<p>The defensive stats are very useful; they reduce the damage done to your Pokémon, causing less HP to be lost.</p>
+
+<pre>Final [Special] Defense Stat = Stat * Stat Modifier * Defense Ability Modifier *
+                               Defense Item Modifier * Sandstorm Modifier * Boom Modifier</pre>
+
+<p>Today, Milotic is going to be in an interesting situation. It has been previously burned, activating Marvel Scale, and it also used the move Psych Up to take the foe Swampert's Curse.</p>
+
+<p>This Milotic begins with 279 Defense. Upon looking up Curse, it can be seen that it will up the Stat Modifier of Defense by one stage, making it 1.5. The Defense Ability Modifier from activated Marvel Scale can be seen as 1.5 as well. Swampert is not using Selfdestruct or Explosion, so there is no issue there.</p>
+
+<pre>Final Defense Stat = 279 * 1.5 * 1.5 * 1</pre>
+
+<p>Remember, multiplying by 1 does not do anything to the equation.</p>
+
+<pre>Final Defense Stat = 418.5 * 1.5</pre>
+
+<p>No decimals should be in solved numbers so....</p>
+
+<pre>Final Defense Stat = 418 * 1.5
+                   = 627</pre>
+
+<p>Wow, Milotic is going to be taking a lot of hits from the physical side isn't it? Now, keep in mind that Milotic is rarely going to come across a Defensive boost, so the actual Defense most Milotic will have will be lower. This was just an example to show how the equation works.</p>
+
+<p>One last note on Defense and Special Defense is that Reflect and Light Screen effectively double them, respectively. In Double Battles, they are effectively increased by two thirds.</p>
+
+<h3>Speed</h3>
+
+<p>The Speed stat is very important, as in a pinch, having the faster Pokémon could very well turn a sure loss into victory!</p>
+
+<pre>Final Speed Stat = Current Stat * Stat Modifier * Speed Ability Modifier *
+                   Speed Item Modifier * Paralysis Modifier * Tailwind Modifier</pre>
+
+<p>For today's lesson, a Ninjask has Baton Passed three Speed boosts onto a Manectric. However, Manectric was Baton Passed into an Umbreon, which attacked it, activating Manectric's Static and was paralyzed! Umbreon's Synchronize ability caused poor Manectric to become paralyzed as well! What will become of Manectric's Speed stat?</p>
+
+<p>This particular Manectric starts out with 309 Speed. The +3 Speed for Manectric gives it a Stat Modifier of 2.5. Manectric does not have an ability that affects its stats, nor is it holding an item that does so. However, the paralysis gives a Paralysis Modifier of 0.25.</p>
+
+<pre>Final Speed Stat = 309 * 2.5 * 1 * 1 * 0.25 * 1</pre>
+
+<p>Multiplying a number by 1 does not change it, so any multiplications by 1 can be omitted from the equation.</p>
+
+<pre>
+Final Speed Stat = 309 * 2.5 * 0.25
+                 = 772.5 * 0.25</pre>
+
+<p>Remember to get rid of those pesky decimals!</p>
+
+<pre>
+Final Speed Stat = 772 * 0.25
+                 = 193</pre>
+
+<p>Ouch! Even though Manectric had gained three Stat Modifier levels, it still ended up with less Speed than it started with after paralysis kicked in. This story does have a happy ending however; Umbreon was the only Pokémon left on the foe's team, and the Manectric beat it one-on-one.</p>
+
+<p>Note that some moves have priority over others, meaning the Pokémon that uses them will go first, regardless of the Speed stat. For more information on that, read this guide to <a href="/dp/articles/move_priority">move priority</a>.</p>
+
+
+<h3>Accuracy and Evasion</h3>
+
+<p>Accuracy and Evasion are not calculated very often at all, but if you want to know how to do so, it is explained in full here.</p>
+
+<pre>Chance to hit = Move Accuracy * Accuracy Mod * Evasion Mod * Accuracy Item Mod *
+                Evasion Item Mod * Accuracy Ability Mod * Evasion Ability Mod * Gravity Mod</pre>
+
+<p>Today, Articuno is going to try to use Ice Beam against Gliscor. However, this Gliscor has used Double Team twice, and has Sand Veil in effect! Luckily, this Articuno is holding a Wide Lens.</p>
+
+<p>Ice Beam starts out with 100 Accuracy. Gliscor's two Double Teams give it two Stat Modifier levels, making the Stat Modifier 0.6. Articuno's Wide Lens will give an Accuracy Item Modifier of 1.1. Lastly, Gliscor's Sand Veil ability provides it with an Evasion Ability Modifier of 0.8.</p>
+
+<pre>Chance to hit = 100 * 1 * 0.6 * 1.1 * 1 * 1 * 0.8 * 1</pre>
+
+<p>It's best to get rid of all those 1s that are clogging up the equation. Now remember, it is okay to have decimals this time around.</p>
+
+<pre>Chance to hit = 100 * 0.6 * 1.1 * 0.8
+              = 60 * 1.1 * 0.8
+              = 66 * 0.8
+              = 52.8%</pre>
+
+<p>So Ice Beam, a 100% accuracy move, will only have a 52.8% chance of nailing Gliscor. Bringing accuracy and evasion into play certainly brings a lot more luck into the game.</p>
+
+<p>Pokémon with the ability No Guard make all moves used by them, or directly against them, have 100% accuracy. The formula is not used.</p>
+
+<p>Using the moves Lock-On or Mind Reader will assure the next move to hit, unless the target switches out via means other than Baton Pass, or uses Protect or Detect.</p>
+
+<p>Moves that are made to OHKO the foe, such as Sheer Cold, are unaffected by accuracy and evasion boosts and drops. They still work with the aforementioned Lock-On and Mind Reader. Also, they will give a higher accuracy if the target is of a lower level than the user. This does not apply in most competitive battles however; Pokémon are typically all set to level 50 or 100.</p>
+
+<p>Lastly, there are some moves which ignore the formula whenever they are used. These moves are listed with --% accuracy.</p>
+
+<p>Hopefully now you have an idea of how stats work in-battle with Pokémon Diamond and Pearl. Calculating how much Attack Gyarados will have after a Dragon Dance can help you see what you will and won't hit hard, and you can see how much Metagross will outrun with an Agility. Remember, stat boosts and drops can turn the tide of any battle!</p>

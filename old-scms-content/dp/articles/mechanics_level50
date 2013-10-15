@@ -1,0 +1,212 @@
+[title]
+Battle Mechanics at Level 50
+[head]
+<meta name="description" content="An overview of stat and damage calculation when playing with level 50 Pokemon, thanks to Ditto." />
+[page]
+<div class="author">By <a href="/forums/member.php?u=10012">Ditto</a>.</div>
+
+<ol class="toc">
+	<li><a href="#introduction">Introduction</a></li>
+	<li><a href="#types">Types of Level 50 Battling</a></li>
+	<li><a href="#damage">Damage at Level 50</a></li>
+	<li><a href="#stats">Stats at Level 50</a></li>
+</ol>
+
+<h2><a name="introduction">Introduction</a></h2>
+
+<p>While we often strive to have our Pokemon at their peak condition at level 100, there are certain styles of play that require us to go beneath that, such as the Video Game Championships and the Battle Tower. While you may think that level 50 is just half of level 100, many slight differences exist between the two.</p>
+
+<h2><a name="types">Types of Level 50 Battling</a></h2>
+
+<dl>
+	<dt>Free Level 50</dt>
+	<dd>Pokemon below level 50 remain at their current level. In DPP, no Pokemon above level 50 can be used, making moves obtained after level 50 impossible to use. In HGSS, Pokemon above 50 are brought down to level 50 and retain the moves they know. This allows for moves obtained above level 50 to be used.</dd>
+	<dt>Forced Level 50</dt>
+	<dd>The levels of all Pokemon are changed to level 50 (whether they are lower or higher than level 50) with their stats changed accordingly. Pokemon will retain the moves and EVs that they had previously, allowing moves that are obtained after level 50 possible.</dd>
+</dl>
+
+<h2><a name="damage">Damage at Level 50</a></h2>
+
+<pre>
+[((11 BP × BOOSTa × [NATa × (BSTa + 0.5 IVa + 0.125 EVa + 5)]) ÷ 
+(25 × BOOSTd [NATd × (BSTd + 0.5 IVd + 0.125 EVd + 5)]) × Mod1 + 2) × 
+STAB × RESIST × R × CH × Mod2 ÷ 100]
+</pre>
+
+<p>Above is a modified version of both the HP Stat and Other Stat formula for easy use at level 50. Whenever you get to a pair of [], you must round down your current total to the nearest integer.</p>
+
+<p>Where:</p>
+
+<dl>
+	<dt>a</dt>
+	<dd>Attacking Pokemon</dd>
+	<dt>d</dt>
+	<dd>Defending Pokemon</dd>
+	<dt>BP</dt>
+	<dd>The move's Base Power</dd>
+	<dt>NAT</dt>
+	<dd>The Nature Multiplier (either 0.9, 1.0, or 1.1)</dd>
+	<dt>BST</dt>
+	<dd>The Base Stat</dd>
+	<dt>IV</dt>
+	<dd>The Individual Value of the stat (0 - 31)</dd>
+	<dt>EV</dt>
+	<dd>The amount of Effort Values in the Stats (0 - 255)</dd>
+	<dt>BOOST</dt>
+	<dd>Any boost in stats, such as the boost from Swords Dance
+	<pre>+0 / -0 = 1.0
++1 / -1 = 1.5 / 0.667
++2 / -2 = 2.0 / 0.5
++3 / -3 = 2.5 / 0.4
++4 / -4 = 3.0 / 0.333
++5 / -5 = 3.5 / 0.286
++6 / -6 = 4.0 / 0.25</pre>
+	</dd>
+	<dt>Mod1</dt>
+	<dd>The first modifier which consists of multiplying all of the following together:
+		<ul>
+			<li>Burn: 0.5 if the Pokemon is using a physical attack and burned, otherwise 1.0</li>
+			<li>Dual Screens: 0.5 in a single battle (0.66 in a double battle) if Reflect or Light Screen is up, otherwise 1.0</li>
+			<li>Multiple Targets: 0.75 if the move has more than one target in a double battle, otherwise 1.0
+				<ul>
+					<li>If a move that hits both of your opponent's Pokemon and the first target faints as a result of the move, the second Pokemon will receive the usual 1.0 multiplier for damage.</li>
+				</ul>
+			</li>
+			<li>Weather: In rain, 0.5 for all Fire moves and 2.0 for all Water moves. In sun, 0.5 for all Water moves and 2.0 for all Fire moves. 1.0 if neither sun nor rain is up.</li>
+		</ul>
+	</dd>
+	<dt>STAB</dt>
+	<dd>Same Type Attack Boost (either 1.0 or 1.5)
+		<ul>
+			<li>If the attacking Pokemon has the ability Adaptability, STAB is 2.0.</li>
+		</ul>
+	</dd>
+	<dt>RESIST</dt>
+	<dd>The resistance that the defending Pokemon has to the move, based on the typing of both the move and the defending Pokemon. Either 0.0, 0.25, 0.5, 1.0, 2.0, or 4.0.</dd>
+	<dt>R</dt>
+	<dd>The damage roll that is randomly selected by the game (85 - 100).
+		<ul>
+			<li>85, 87, 89, 90, 92, 94, 96, and 98 each have a 7.69% chance of being chosen.</li>
+			<li>86, 88, 91, 93, 95, 97, and 99 each have a 5.13% chance of being chosen.</li>
+			<li>100 only has a 2.56% chance of being chosen.</li>
+		</ul>
+	</dd>
+	<dt>CH</dt>
+	<dd>The critical hit modifier (1.0 if there is not a critical hit and 2.0 if there is)
+		<ul>
+			<li>If the attacking Pokemon has the ability Sniper, CH is 3.0 if there is a critical hit</li>
+		</ul>
+	</dd>
+	<dt>Mod2</dt>
+	<dd>The second modifier which consists of multiplying all of the following together:
+		<ul>
+			<li>Life Orb = 1.3 if the user is holding a Life Orb, otherwise 1.0</li>
+			<li>Metronome = 1, 1.1, 1.2, 1.3, ..., 2 if the user is holding the item Metronome and has used the same move several times consecutively</li>
+			<li>Me First = 1.5 if the attack is Me First, otherwise 1.0</li>
+			<li>Solid Rock/Filter = 0.75 if the defending Pokemon's ability is Solid Rock or Filter and the move used is super effective against it, otherwise 1.0</li>
+			<li>Expert Belt = 1.2 if the user is holding the item Expert Belt and the move used is super effective against the defending Pokemon, otherwise 1.0</li>
+			<li>Tinted Lens = 2.0 if the user's ability is Tinted Lens and the move used is not very effective against the foe, otherwise 1.0</li>
+			<li>Berries = 0.5 if the type resisting Berry activates, otherwise 1.0</li>
+		</ul>
+	</dd>
+</dl>
+
+<p>Attacks at level 50 often deal a higher percentage (1 - 2% more) and have a wider range (6 - 7% wider) than the same attack with the same spread would yield at level 100. This is because the same EV spreads at Level 100 are only 48.5% - 49.5% greater than the spreads at level 50, giving them higher stats in the broad scheme of things.</p>
+
+<h2><a name="stats">Stats at Level 50</a></h2>
+
+<pre>HP = [BST + 0.5 IV + 0.125 EV + 60]</pre>
+
+<pre>Stat = [(BST + 0.5 IV + 0.125 EV + 5) × NAT]</pre>
+
+<p>The above formulas are modified versions of the HP Stat and Other Stat formulas for easy use at level 50. Whenever you get to a pair of [], you must round down your current total to the nearest integer.</p>
+
+<p>Where:</p>
+
+<dl>
+	<dt>NAT</dt>
+	<dd>The Nature Multiplier. Either 0.9, 1.0, or 1.1.</dd>
+	<dt>BST</dt>
+	<dd>The Base Stat.</dd>
+	<dt>IV</dt>
+	<dd>The Individual Value of the Stat. 0 - 31.</dd>
+	<dt>EV</dt>
+	<dd>The amount of Effort Values in the Stats. 0 - 255.</dd>
+</dl>
+
+<p>The important part to notice about this formula is</p>
+
+<pre>0.5 IV + 0.125 EV</pre>
+
+<p>This also means</p>
+
+<pre>[(IV + (EV ÷ 4)) ÷ 2]</pre>
+
+<p>As you can see, it is important for the sum of every IV and four EVs to be an even number, otherwise you are wasting EVs. This will change your EV spreads somewhat, especially if you are using Hidden Power. However, if you do not wish to place EVs into a stat that is being lowered by one in order to get a specific Hidden Power, then the stats will not even show the lowered IV. Without any EV investment, IVs are grouped into pairs that will provide the same stats. These pairs are 0/1, 2/3, 4/5, 6/7, 8/9, 10/11, 12/13, 14/15, 16/17, 18/19, 20/21, 22/23, 24/25, 26/27, 28/29, and 30/31.</p>
+
+<h3>Example</h3>
+
+<pre>Modest Kyogre
+Level 50
+30/22/30/30/30/31
+Proposed Spread: 4 HP / 252 SpA / 252 Spe
+</pre>
+
+<pre>
+HP = [BST + 0.5 IV + 0.125 EV + 60]
+HP = [100 + 0.5 × 30 + 0.125 × 4 + 60]
+HP = [100 + 15 + 0.5 + 60]
+HP = [175.5]
+HP = 175
+</pre>
+
+<pre>
+Special Attack = [(BST + 0.5 IV + 0.125 EV + 5) × NAT]
+Special Attack = [(150 + 0.5 × 30 + 0.125 × 252 + 5) × 1.1]
+Special Attack = [(150 + 15 + 31.5 + 5) × 1.1]
+Special Attack = [(201.5) × 1.1]
+Special Attack = [221.65]
+Special Attack = 221
+</pre>
+
+<pre>
+Speed = [(BST + 0.5 IV + 0.125 EV + 5) × NAT]
+Speed = [(90 + 0.5 × 31 + 0.125 × 252 + 5) × 1.0]
+Speed = [(90 + 15.5 + 31.5 + 5) × 1.0]
+Speed = [(142) × 1.0]
+Speed = [142]
+Speed = 142
+</pre>
+
+<p>However, you are wasting good EVs in both HP and Special Attack, as shown below.</p>
+
+<pre>
+HP = [BST + 0.5 IV + 0.125 EV + 60]
+HP = [100 + 0.5 × 30 + 0.125 × 0 + 60]
+HP = [100 + 15 + 0 + 60]
+HP = [175]
+HP = 175
+</pre>
+
+<pre>
+Special Attack = [(BST + 0.5 IV + 0.125 EV + 5) × NAT]
+Special Attack = [(150 + 0.5 × 30 + 0.125 × 248 + 5) × 1.1]
+Special Attack = [(150 + 15 + 31 + 5) × 1.1]
+Special Attack = [(201) × 1.1]
+Special Attack = [221.1]
+Special Attack = 221
+</pre>
+
+<p>Therefore, to remedy this situation, you simply place the 4 leftover EVs from Special Attack and place them into HP.</p>
+
+<pre>
+HP = [BST + 0.5 IV + 0.125 EV + 60]
+HP = [100 + 0.5 × 30 + 0.125 × 8 + 60]
+HP = [100 + 15 + 1 + 60]
+HP = [176]
+HP = 176
+</pre>
+
+<p>And now you have the optimum stat distribution for a speedy sweeper Kyogre: 176/116/110/221/160/142.</p>
+
+<p>A Pokemon's difference in ratio between its level 50 stats and level 100 stats increases as its base stats get lower. A Pokemon with a base 230 stat and a boosting nature only has 50.48% of its total potential, whereas a Pokemon with a base 5 stat and a boosting nature has 52.10% of its total potential. Because of this, a Pokemon's stats seem more balanced at level 50 than they do at level 100. While this does not make too much of a difference overall, it can give frail Pokemon a slightly better chance of surviving attacks or give weaker Pokemon a chance to do a little more damage.</p>

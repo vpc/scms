@@ -1,0 +1,165 @@
+[title]
+Questions and Answers - Ask the Admins
+[head]
+<link href="/media/smog/smog.css" type="text/css" rel="stylesheet" />
+<style type="text/css">
+#interview .speaker {
+    min-height: 80px;
+    height: auto !important;
+    height: 80px;
+    margin: 10px 0;
+    padding: 10px;
+    padding-left: 100px;
+}
+
+#interview .speaker img {
+    position: absolute;
+    left: 10px;
+}
+
+#interview .question {
+    border: 1px solid #AFA8CF;
+    background: #E3E0EF;
+}
+
+#interview .answer {
+    border: 1px solid #D9DFA7;
+    background-color: #F8FAEB;
+    position: relative;
+    margin-left: 25px;
+}
+
+blockquote {
+font-style: italic;
+}
+
+#interview .aside1 {
+    border: 1px solid #e0e0e0;
+    background: #f9f9f9;    
+    padding: 8px 8px 0px 8px;
+    margin-top: 10px;
+}
+
+#interview ul {
+margin-left: 20px;
+}
+</style>
+[page]
+<table id="smogheader">
+<tr>
+<td class="left"><a href="note_from_editor">&laquo; Previous Article</a></td>
+<td class="middle"><a href="/smog/issue8/">Home</a></td>
+<td class="right"><a href="wsc">Next Article &raquo;</a></td>
+</tr>
+</table>
+
+<div style="text-align: center; width: 100%;"><img alt="Question" src="http://img.photobucket.com/albums/v232/highoctaneinterim/Pokeymans/Smogon/koffquest2.png" /> <img alt="Answer" src="http://img.photobucket.com/albums/v232/highoctaneinterim/Pokeymans/Smogon/answerkazam2.png" /></div>
+
+<div id="interview">
+<div class="aside1"><p>Note beforehand: I was overall very pleased with the improvement of question quality for this issue. Barring the <a href="/forums/showpost.php?p=2551670&amp;postcount=29">obligatory exception</a>, it seems most submissions were considered carefully. However, I'm afraid they're lacking in the originality department. When scanning these for this issue, I couldn't help but feel that I was going to have to repeat myself a lot, because many of the questions asked seemed so similar to those asked in previous issues. That is, of course, not completely unexpected, since we've run this for the 8th time now. But it's also why this will be the last one for a long time coming. A recurring article should not be forced to linger on forever when it's exhausted all new material. There's a reason most good movies have worse sequels: you can only do so much with one idea before it gets bothersome. I thank everyone for contributing to the goal we had in mind from the start: connecting the userbase at large with the upper levels of this organization.</p></div>
+
+<div class="speaker question">
+<img src="http://i50.tinypic.com/2co2c0x.png.jpg" alt="Question" />
+<p>"How do you, as an admin, view the Smogon community at large? How do you view the admin community? How do you think these two communities would best connect outside of Ask the Admins?"&mdash;Aura Guardian</p>
+</div>
+
+<div class="speaker answer">
+<img src="http://i45.tinypic.com/33wmple.png" alt="Answer" />
+<p>I really don't think there is one right answer to how all admins (or even one admin) views the whole community. I also think it's odd that you say the admins themselves have formed a community, because it isn't true! We're a group of people with more powerful banhammers and other scary powers than the rest of the staff. We're no more of a group or community than any other usergroup. You might as well have asked "How do you view the suspect test voter community"? &mdash;Mekkah
+</div>
+
+<div class="speaker question">
+<img src="http://i50.tinypic.com/2co2c0x.png.jpg" alt="Question" /><p><em>My main gripe with Smogon nowadays is that there seems to be quite a bit of segregation, both in the userbase and in the different "hard" aspects of it.</em>&mdash;Mekkah</p>
+<p>Do you have any ideas on how to change this? Do you think it can be changed? &mdash;Fink</p>
+</div>
+
+<div class="speaker answer">
+<img src="http://i45.tinypic.com/33wmple.png" alt="Answer" />
+<p>I believe IRC is a key to it, particularly the large amount of different channels. We have an official Pokémon channel in #stark, which also has off-topic chats occasionally (which is necessary). But then there's channels for other aspects of the site, official or not, such as channels to discuss several of the subforums, channels for different tiers, and worst of all, channels because some people want their own channel. Whenever I connect to IRC I connect to about 13 different channels because I don't want to miss activity and I have no idea where people are going to chat next. Many of these channels largely overlap in userbase, which I think is a waste. This is also why I'm generally not very fond of the hyped World Cup, since it adds about eight splinters to the list. But you can consider this a rather personal answer. I could think of one or two other admins who are likely to have a whole different view of IRC splinters.</p>
+
+<p>Besides that, you'd think the Congregation and Firebot forums would bring people together, but for a long time now both seem to be the base of permanent feuds with different aspects of the site, be it "core Firebotters" vs "WiFi-ers" or "right wing" vs "left wing". Sometimes I wish people would just get along, but in these forums I get the idea it's never going to happen...if you're someone on either side of this conflict and you're reading this, please stop fueling the fire. If you're someone who doesn't understand how Firebot works, sit back and lurk more like the rules tell you to. If you're one of these people who gets caught up in a flame war in Congregation over something political, maybe you should get what the infraction message is trying to tell you and stop making debates so personal.</p>
+</div>
+
+<div class="speaker question">
+<img src="http://i50.tinypic.com/2co2c0x.png.jpg" alt="Question" />
+<p>What is the hierarchy of the mods? I would suppose chaos is at the top, but does he get the final say on everything? When there are disagreements, does one person decide? Does one mod get the final say in his subsection, such as cookie in Firebot? &mdash;Phantom_IV</p>
+</div>
+
+<div class="speaker answer">
+<img src="http://i45.tinypic.com/33wmple.png" alt="Answer" />
+<p>Principally, all admins can have the final say in almost anything, but within reason. All of them are admins because they know what "within reason" means, and know to talk it over with others before doing something controversial. Priority among admins is only really there for aspects of the site. You can't expect, say, Misty to overturn a decision by Jumpman16 on the Suspect Test Process. Not that he'd ever do that.</p>
+
+<p>The same goes for other staff members to large extends. The lower you go on this ladder, the more people you will see occupying a rank. Rarely will you see one super moderator changing a rule all by himself: generally they'll create a discussion about it first, and other people weigh in. If it's not controversial at all, then the change is made. If it is, then it's discussed for a while until an admin decides to make the call. Oftentimes controversial discussions are the ones that require a large change, which means that the outcome of a debate can often be to remain status quo.</p></div>
+
+<div class="speaker question">
+<img src="http://i50.tinypic.com/2co2c0x.png.jpg" alt="Question" />
+<p>Why was the word Smogon chosen? &mdash;Marionic</p>
+</div>
+
+<div class="speaker answer">
+<img src="http://i45.tinypic.com/33wmple.png" alt="Answer" />
+<p>It was <a href="/forums/member.php?u=1816">Brain</a>'s IRC nick once, chosen on a whim, and then later they decided to call the site that. If there's a deeper reason, I'm not aware of it.</p>
+</div>
+
+<div class="speaker question">
+<img src="http://i50.tinypic.com/2co2c0x.png.jpg" alt="Question" />
+<p>What is your honest opinion on spriting and its effect on the art forum? &mdash;Igor</p>
+</div>
+
+<div class="speaker answer">
+<img src="http://i45.tinypic.com/33wmple.png" alt="Answer" />
+<p>I used to laugh with some friends about some of the ridiculous things that would pop up in the spriting threads, but when I look now it seems a very organized concept with some very original and aesthetically pleasing results. It's definitely changed for the better. I like looking at sprite projects better than some people's artworks... but I also still love a lot of the "scratch" artwork that's been put out there, too!</p>
+</div>
+
+<div class="speaker question">
+<img src="http://i50.tinypic.com/2co2c0x.png.jpg" alt="Question" />
+<p>Are the admins active battlers? Do they ever ladder? &mdash;Golden Sun</p>
+</div>
+
+<div class="speaker answer">
+<img src="http://i45.tinypic.com/33wmple.png" alt="Answer" />
+<p>Some don't, because they don't play Pokémon. Most of us do play once in a while, generally laddering under alts. Because we're that modest (and because nothing is more annoying than people bragging they beat admin so-and-so).</p>
+</div>
+
+<div class="speaker question">
+<img src="http://i50.tinypic.com/2co2c0x.png.jpg" alt="Question" />
+<p>What is the best way (other than the 101 tutoring program) to get integrated into the community? &mdash;Atomos</p>
+</div>
+
+<div class="speaker answer">
+<img src="http://i45.tinypic.com/33wmple.png" alt="Answer" />
+<p>Come on IRC! Talk to the people in #stark or #smogon or whatever tickles your fancy! Don't be shy about joining the place where all the action happens. Keep a lower profile at first, be nice to people, and you'll find you'll have a bunch of cool chat partners in no time.</p>
+</div>
+
+<div class="speaker question">
+<img src="http://i50.tinypic.com/2co2c0x.png.jpg" alt="Question" />
+<p>In which direction would you like to take the Suspect Process in the future, if it differs at all from the current method? Furthermore, how do you feel this will apply to the coming 5th Generation? &mdash;Rising Dusk</p>
+</div>
+
+<div class="speaker answer">
+<img src="http://i45.tinypic.com/33wmple.png" alt="Answer" />
+<p>I could swear there was a Policy Review thread on this, but I don't see it anywhere. There is still plenty of time to think up a new process if needed. The main complaint about the current one has been the time taken to do it, but the reason behind that is obviously that we want the Suspect Test to be thorough and accurate. You might just see something about this pop up in Stark or Policy Review in the near future.</p>
+</div>
+
+<div class="speaker question">
+<img src="http://i50.tinypic.com/2co2c0x.png.jpg" alt="Question" />
+<p>Which IRC channel would you say is most intimidating for new users? Which would you say is the easiest to slide into for a new user? (In terms of discussions and such.)&mdash;Exarius</p>
+</div>
+
+<div class="speaker answer">
+<img src="http://i45.tinypic.com/33wmple.png" alt="Answer" />
+<p>Most intimidating might be #smogon. It's got an operator list of "big names" and it's quiet half the time, so to chat there you have to break the silence.</p>
+
+<p>For most friendly to new users, I would say #stark. It's easy to lurk there, and they'll likely be discussing something you have experience with even as a beginning Shoddy battler. And then the off-topic discussions are usually quite friendly too.</p>
+</div>
+
+<div class="aside1"><p>That's all for this one. If for whatever reason you still have a question and a burning desire to have it answered, perhaps you should try to contact a staff member on IRC (believe it or not, non-admins know a lot about Smogon too!) or over PM. They might just be willing to answer!</p></div>
+</div>
+
+<table id="smogfooter">
+<tr>
+<td class="left"><a href="note_from_editor">&laquo; Previous Article</a></td>
+<td class="middle"><a href="/smog/issue8/">Home</a></td>
+<td class="right"><a href="wsc">Next Article &raquo;</a></td>
+</tr>
+</table>

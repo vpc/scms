@@ -1,0 +1,114 @@
+[title]
+Rules
+[head]
+[page]
+
+<ol class="toc">
+<li><a href="#rules">Rules</a>
+<ul>
+<li><a href="#gen">General</a></li>
+<li><a href="#tiers">Tiers</a></li>
+<li><a href="#clauses">Clauses</a></li>
+</ul>
+</li>
+<li><a href="#point">Point System</a></li>
+</ol>
+
+<h2><a name="rules">Rules</a></h2>
+
+<h3><a name="gen">General</a></h3>
+
+<div style="float: right; margin-left: 5px;">
+<img src="/media/upload/tournaments/grandslam/grandslamlogo1.png" alt="" />
+</div>
+
+<p>The following general rules apply to all tiers and all Smogon Grand Slam matches. The breaking of any single rule, including the match clauses, at any time is grounds for immediate disqualification. If your opponent breaks a rule in your match, you are to report it to the host. Breaking any of the rules may result in a penalty of three points being deducted from your season record. Bad faith attempts to circumvent rules or instances of dishonesty or unethical behaviour are dealt with on an individual basis. A range of penalties may be applied in such situations. Habitual rule breakers will be barred from joining the Smogon Grand Slam permanently.</p>
+
+<dl>
+<dt>Disconnecting</dt>
+<dd>In the case of a player disconnecting during a battle, either player is to provide the log to the Open host, who will then determine the course of action. Ideally the match will be replayed to the point of the disconnection, but in some cases it may be appropriate to award a win or have the players play a new game with new teams. Since this is not a live tournament, <strong>the player that disconnects will not automatically be assumed the loser</strong>, and in certain scenarios, may be awarded the win if they possessed an irrefutable win condition at the point of the disconnection.</dd>
+<dt>No Coaching</dt>
+<dd>No coaching, advising, or consulting between players is allowed <strong>during</strong> a Smogon Grand Slam game. Anyone found to be either giving or receiving advice will be disqualified and penalized in the standings. Collaboration on team building before the tournament is acceptable.</dd>
+<dt>No Ghost Battling</dt>
+<dd>Do not play matches using someone else's account with or without permission.</dd>
+
+<h3><a name="tiers">Tiers</a></h3>
+
+<ul>
+<li><a href="/bw/tiers/uu">BW Underused (UU)</a>
+<li><a href="/bw/tiers/ru">BW Rarelyused (RU)</a>
+<li><a href="/bw/tiers/uber">BW Ubers (Ubers)</a>
+<li><a href="/bw/tiers/nu">BW Neverused (NU)</a>
+<li><a href="/bw/tiers/lc">BW Little Cup (LC)</a>
+</ul>
+
+<p>All tiers are based on Smogon Tiers. If you have any question about whether a particular Pokémon is banned or not in any particular tier, reference the ban list of the appropriate ladder available on the Pokemon Online server. This is not confusing. There will be no exceptions.</p>
+
+<h3><a name="clauses">Clauses</a></h3>
+
+<p>The following clauses must be enabled for all Smogon Grand Slam matches.</p>
+
+<dl>
+<dt>Timed Battle</dt>
+<dd>Select this clause when challenging for all Smogon Grand Slam matches. This is necessary in the interest of finishing the match in a speedy manner.</dd>
+<dt>Species Clause</dt>
+<dd>A player cannot have two of the same Pokémon on their team. For example, a player cannot have two Bulbasaur on his or her team.</dd>
+<dt>Sleep Clause</dt>
+<dd>A player cannot put two or more different opposing Pokémon to sleep using attacks that induce sleep to opposing Pokémon.
+<dt>Evasion Clause</dt>
+<dd>A player cannot increase their Pokémon's evasion stat with a move that specifically increases evasion. Items or indirect boosts do not break this clause.</dd>
+<dt>OHKO Clause</dt>
+<dd>Players cannot use moves that have a chance of instantly KO opposing Pokémon. For example, Horn Drill is an illegal move to have on a Pokémon's move set.</dd>
+</dl>
+
+<h2><a name="point">Point System</a></h2>
+
+<p>Much like the Smogon Tour, a system of tallied points is used for the Smogon Grand Slam. Over the several months that the five Opens take place, players must try to rack up as many points as possible. After five tournaments have been completed, the top eight players will be invited to participate in the single elimination championship tournament to determine the winner! For each round you win, you will receive points for your record; each successive round is worth more points. If you lose a match, you do not lose any points. Points are awarded as shown below.</p>
+
+<table class="sortable">
+    <thead>
+        <tr>
+            <th style="text-align: center;">Single Elimination</th>
+            <th colspan="8" style="text-align: center;">Point Value for Winning a Round</th>
+        </tr>
+        <tr>
+            <th>Player Count</th>
+            <th>R1</th>
+            <th>R2</th>
+            <th>R3</th>
+            <th>R4</th>
+            <th>R5</th>
+            <th>R6</th>
+            <th>R7</th>
+            <th>Winner</th>
+        </tr>
+    </thead>
+    <tbody>
+    <tr class="a"><td>256</td><td>1</td><td>2</td><td>3</td><td>5</td><td>7</td><td>9</td><td>11</td><td>13</td>
+    <tr><td>128</td><td>1</td><td>2</td><td>3</td><td>5</td><td>7</td><td>9</td><td>-</td><td>11</td>
+    <tr class="a"><td>64 </td><td>1</td><td>2</td><td>3</td><td>5</td><td>7</td><td>-</td><td>- </td><td>9</td>
+    <tr><td>32 </td><td>1</td><td>2</td><td>3</td><td>5</td><td>-</td><td>-</td><td>-</td><td>7</td>
+
+        <tr>
+            <th style="text-align: center;">Round Robin Finals</th>
+            <th colspan="8" style="text-align: center;">Point Value for Winning a Round</th>
+        </tr>
+        <tr>
+            <th>Player Count</th>
+            <th>R1</th>
+            <th>R2</th>
+            <th>R3</th>
+            <th>R4</th>
+            <th>R5</th>
+            <th>R6</th>
+            <th>Finalists</th>
+            <th>Winner</th>
+        </tr>
+
+    <tr class="a"><td>384</td><td>1</td><td>2</td><td>3</td><td>5</td><td>7</td><td>9</td><td>11</td><td>14</td>
+    <tr><td>192</td><td>1</td><td>2</td><td>3</td><td>5</td><td>7</td><td>-</td><td>9</td><td>12</td>
+    <tr class="a"><td>96</td><td>1</td><td>2</td><td>3</td><td>5</td><td>-</td><td>-</td><td>7</td><td>10</td>
+    <tr><td>48</td><td>1</td><td>2</td><td>3</td><td>-</td><td>-</td><td>-</td><td>5</td><td>8 </td>
+    <tr class="a"><td>24</td><td>1</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>4</td><td>6 </td>
+    </tbody>
+</table>

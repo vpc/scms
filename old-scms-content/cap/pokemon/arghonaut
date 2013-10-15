@@ -1,0 +1,30 @@
+[title]
+Arghonaut
+[head]
+<link rel="stylesheet" type="text/css" href="/media/dex/dex.css" />
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_template.js"></script>
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_database.js"></script>
+[header]
+[page]
+<script language="JavaScript">
+<!--
+var cap = Arghonaut();
+
+cap.heightFeet = 5;
+cap.heightInches = 6;
+cap.weightPounds = 333;
+cap.weightKilos = 151;
+cap.eggGroup1 = "Water 1";
+cap.eggGroup2 = "Water 3"
+
+cap.topicLeader = "darkie";
+cap.conceptCreator = "Hyra"
+cap.statSpreadCreator = "Gothic Togekiss";
+cap.designArtist = "Aragornbird";
+cap.spriteArtist = "Cartoons!";
+cap.nameCreator = "Sikh Assassin";
+cap.movepoolCreator = "X-Act";
+
+document.write(composeDexPage(cap));
+//-->
+</script>

@@ -1,0 +1,239 @@
+[title]
+Introduction and General Preparations
+[head]
+<meta name="description" content="Introduction to the Emerald RNG Abuse Guide." />
+[page]
+<div class="author">By <a href="/forums/member.php?u=5962">Arseus</a>. Information on battle videos by Hozu.</div>         
+        <ul class="toc">
+            <li>Introduction and General Preparations
+                <ul>
+                <li><a href="#credits">Credits</a></li>                
+                <li><a href="#intro">Introduction</a></li>
+                <li><a href="#physical_prepare">Physical Preparations</a></li>
+                <li><a href="#spreads">Understanding Spread Selection</a></li>
+                <li><a href="#shiny">Shiny Pokémon</a></li>
+                <li><a href="#rngreporter">RNG Reporter</a></li>
+                <li><a href="#ingame_prepare">In-Game Preparations</a></li>
+                <li><a href="#battlevideos">Emerald Battle Videos</a></li>
+                </ul>
+            </li>
+            <li><a href="emerald_rng_part1">RNG Manipulation of Bred Pokémon</a></li>
+            <li><a href="emerald_rng_part2">RNG Manipulation of Method 1 Pokémon</a></li>
+            <li><a href="emerald_rng_part3">RNG Manipulation of Wild Pokémon</a></li>
+            <li><a href="emerald_rng_part4">RNG Manipulation of Egg PIDs</a></li>                         
+        </ul>
+         
+         <h2><a name="credits">Credits</a></h2>
+         <p>This guide would not have been possible without Smogon’s own 
+         <a href="/forums/member.php?u=8067">loadingNOW</a> 
+         and <a href="/forums/member.php?u=2412">X-Act</a>, 
+         who discovered the internal workings of the Pokémon random number generators. Of course, other members of Smogon 
+         have contributed to making this guide possible. 
+         <a href="/forums/member.php?u=29010">Theorymon</a>
+         and <a href="/forums/member.php?u=1779">Jibaku</a>
+         also deserve recognition; 
+         the former for finding the Japanese information, and the latter for bringing it to Smogon's 
+         attention. From here, many users did research and refined the community's understanding of 
+         Emerald's RNG, including 
+         <a href="/forums/member.php?u=9526">Wichu</a>, 
+         who released an English program to the masses. Of course, it is 
+         worth noting that 
+         <a href="/forums/member.php?u=18585">Everstone</a>
+         noticed some trends in Emerald's RNG, and gathered a group of users 
+         to research Emerald's breeding nuances.</p>
+         
+         <p>Finally, there are a couple of Smogon users who had a more direct influence on this guide. 
+         Registered User 
+         <a href="/forums/member.php?u=13593">Negator</a>
+         assembled lists for Method 1 and Wild Pokémon spreads. Community Member 
+         <a href="/forums/member.php?u=2412">X-Act</a>
+         also helped clarify some specifics concerning rare breeding occurrences. Finally, 
+         <a href="/forums/member.php?u=21459">mingot</a>
+         assembled all the breeding spreads, in addition to generating the .csv files found in each section. 
+         mingot has also graciously written the RNG Reporter instructions found later in this section, 
+         having originally authored the program himself. Without the help of all these users, you would 
+         not be reading this guide today.</p>
+         
+         <h2><a name="intro">Introduction</a></h2>
+         
+         <p>Ironically, it is currently impossible to create a software random number generator that generates random numbers. The best these types of random number generators (or RNGs for short) can hope for is to output numbers that appear to lack any sort of pattern. In the world of Pokémon, these numbers are used to determine the outcome of any action that should be inherently "random", from which way a non-player character should turn, to whether or not a Pokémon is frozen, to the IVs and natures of wild Pokémon. All Pokémon games from Ruby and Sapphire onwards use a certain formula to generate these pseudo-random numbers.</p>
+         <p>Each time a game boots up, or is soft reset, a number known as a "seed" is plugged into this formula, in a process fittingly known as "seeding". The seed gets its name because all of the other pseudo-random numbers "grow" out from this seed. Since true random numbers cannot be generated, any given seed will always output the same numbers in the same order. Therein lies the foundation of Emerald’s RNG.</p>
+         <p>Instead of choosing a different seed each time the game boots up (and by extension, a different sequence of pseudo-random numbers), Emerald always sets its seed as 0. This means that every time the game starts, the same numbers are always output in the same order. In an attempt to hide this, Emerald asks its RNG to spit out numbers at a considerable pace; approximately 60 times per second. Each of these instances is known as a "frame".</p>
+         <p>A frame is an instant that holds all the "random" numbers given by the RNG. These numbers are then used to decide whatever they are asked to; if you are near an NPC, the frame dictates which way they turn. If a Pokémon is frozen, the frame decides whether or not it will thaw. If a wild Pokémon is encountered, the frame decides what its nature is, and how its IVs are distributed.</p>
+         <p>Since all the numbers are generated in the same sequence, frames will always occur at the same time, each time you reset the game. That means if you take a certain action at the same time after the game loads, the outcome will always be the same. Think of this like pausing a movie; the action that is shown on the screen is the same each time you pause in a specific place. However, since the movie’s frames move very quickly (it is a motion picture after all), it is difficult to always pause in the same place.</p>
+         <p>Unlike a movie, you cannot alter the pace of Emerald's RNG by choosing to rewind or fast-forward, but the basic analogy holds. By taking an action to create a wild Pokémon on a certain frame, you will always get the IV spread of that frame. By extension, the spreads of Eggs and legendary Pokémon can also be manipulated by calling upon the RNG to set them on a certain frame. It is difficult to stop on a specific frame, as they are passing by at a rate of approximately 60 per second, but if you do, you will always get the results associated with that frame.</p>
+         <p>We can convert the frame into a time by dividing it by 60. By aiming to create a Pokémon at the time a frame with a desirable spread occurs, you can obtain almost any Pokémon you want. It is a simple matter of waiting for a frame to occur, then giving an input to create a spread. This is how you can eventually manipulate Emerald's RNG to create your dream Pokémon.</p>
+         <p>The one downside to Emerald’s RNG is that you may have to wait a while for a frame with a good spread to roll around. In fact, a flawless spread on a wild or legendary Pokémon can take weeks to occur, thus it is all but impossible to obtain. Nonetheless, very good spreads can be found within the first hour and a half of the game's time, after hundreds of thousands of frames have advanced. In the case of Pokémon hatched from Eggs, it is possible to hatch a completely flawless Pokémon with less than an hour's wait.</p>
+         <p>How do you obtain a flawless Pokémon? It depends on how the Pokémon is created; the same frame yields different spreads depending on how a Pokémon is generated by the game. There are three categories of Pokémon: bred Pokémon, method 1 Pokémon, and wild Pokémon. Bred Pokémon are self-explanatory; these are the Pokémon you hatch from Eggs "mysteriously" found at the Day Care. Method 1 Pokémon mostly occur in set locations, such as the invisible Kecleon, or Rayquaza. Wild Pokémon are the critters that lurk in the tall grass, and other such places. Each category of Pokémon has a different way of manipulating the RNG to give you the spread you want, but they all have things in common. Read on to learn the basics of RNG manipulation, then check out each respective section to learn the specifics on manipulating different Pokémon to get the spreads you want.</p>                  
+         
+         <h2><a name="physical_prepare">Physical Preparations</a></h2>
+         
+         <p>A list of items outside the game you will need to manipulate the RNG is as follows:</p>
+        <ul>
+            <li>A Pokémon Emerald Game Pak</li>
+            <li>A Game Boy or Nintendo DS system capable of playing GBA games</li>
+            <li>A stopwatch or timer with at least a milliseconds display</li>
+            <li>An IV calculator</li>
+            <li>A program to view .csv files OR</li>                                                                    
+            <li>The <a href="http://users.smogon.com/mingot/rngreporter.htm">RNG Reporter</a> program</li>
+        </ul>
+         
+         <p>Your Game Boy or Nintendo DS system should preferably be a model with a rechargeable battery; in other words, 
+         every system that was released after the original Game Boy Advance. This allows you to plug in your system, 
+         alleviating the potential for the battery to run out while waiting for a high frame to occur. You probably 
+         have a stopwatch or timer that meets the criteria already, even if you do not know it! iPods, cell phones, 
+         and a myriad of electronic devices contain stopwatches or timers, so check any devices you have, and see how 
+         many digits they display (the more, the better). You can also find free online stopwatches and timers if you 
+         reset near your computer. Of course, traditional stopwatches are easy to find as well; a functional one can 
+         likely be bought at a relatively low price from your local sporting equipment store. Finally, for an IV calculator, 
+         <a href="http://www.metalkid.info/Pokemon/Calculators/IV.aspx">Metalkid’s IV Calculator</a>
+         is generally recognized as the most reliable; determining IVs is essential to figuring 
+         out what spread a Pokémon has, and, by extension, what frame was hit.</p>
+         <p>In order to see lists of frames, you will need to have a program on your computer that will open the spreadsheets contained in the .csv files. Programs that will open .csv files in neat, spreadsheet form include Microsoft Excel, and Numbers, for Windows and Mac OS X computers respectively. If you do not have access to either of these programs, a .csv file can be opened in a text editor such as Notepad or TextEdit. However, this will have less of a "clean" output, as the spreads will not be organized in a spreadsheet; this also limits how effectively you can sort through spreads. Another very useful program that will aid you in your quest is RNG Reporter, created by Smogon’s own 
+        <a href="/forums/member.php?u=21459">mingot</a>.
+        While a list of good spreads is contained in every section of this guide, RNG Reporter allows you to search for your own spreads, including any that may be shiny. RNG Reporter is capable of running on Windows and Linux, with mono fixes for Mac users coming at some point in the future.</p>
+         
+         <h2><a name="spreads">Understanding Spread Selection</a></h2>
+         
+         <p>Included in this guide are a number of .csv files, containing full lists of spreads up to 100,000 frames. The .csv files relevant to the different methods can be found in their respective sections. However, the information in the spreadsheets is not limited to frames and IVs; it can tell you all about the Pokémon you wish to capture, including their abilities and genders! The output for method 1 and 2 is displayed as follows:</p>
+         
+         <p>Frame, Time, Nature, Ability, HP, Atk, Def, SpA, SpD, Spe, Hidden Power, Hidden Power Power, 50% Female, 12.5% Female, 25% Female, and 75% Female</p>
+         
+         <p>Frame and Time list the frame that the spread occurs at, and the approximate time when that Frame occurs. 
+         Nature is similarly self-explanatory, listing the nature that the Pokémon on that frame will have. Ability 
+         does not make sense at first glance; it is either a 0 or a 1. For Pokémon with multiple abilities (for example, 
+         Geodude can have Rock Head or Sturdy), this number dictates which ability that Pokémon will have. For a list 
+         of which abilities correspond to which numbers, see the ability section of 
+         <a href="/forums/member.php?u=2412">X-Act</a>'s 
+         article concerning 
+         <a href="/ingame/rng/pid_iv_creation#finding_ability_from_pid">PID Creation</a>. 
+         Note that some Pokémon with only one ability in the third generation gain a second ability in the fourth generation; 
+         for example, Shroomish can only have Effect Spore in Emerald, whereas in Diamond and Pearl onwards, it can have 
+         Effect Spore or Poison Heal. A Pokémon's ability is checked when it evolves, meaning if you want your Pokémon 
+         to change abilities, you must evolve it in a fourth generation game. It is important to note that the new ability 
+         (if applicable) will correspond to ability 1; if the Pokémon has an ability of 0, it will simply keep its old 
+         ability upon evolution. Note that there is no way to know if a bred Pokémon's ability will change without 
+         actually evolving it in the fourth generation.</p>
+         
+         <p>The following six categories: HP, Atk, Def, SpA, SpD, and Spe, are rather self-explanatory, stating what IV 
+         the Pokémon has in its respective stats. Hidden Power states which type the move Hidden Power will have when 
+         used by this Pokémon; this can be any of the seventeen types except for Normal. Hidden Power Power is the Pase 
+         Power of the move Hidden Power. As you may have guessed, Hidden Power is a unique move; it is determined by the 
+         Pokémon's IVs. For more information on these mechanics, see the page on 
+         <a href="/rs/moves/hidden_power">Hidden Power</a>. 
+         When catching a Pokémon, 
+         it is important to consider whether you will keep it in your third generation games, or transfer it into the 
+         fourth generation via the Pal Park. In the third generation, Hidden Power is either physical or special depending on which 
+         type it happens to be; in the fourth generation, Hidden Power has become special, meaning that 
+         Pokémon with high Special Attack stats will benefit from it.</p>
+         
+         <p>The final categories: 50% Female, 12.5% Female, 25% Female, and 75% Female, will determine what gender a Pokémon 
+         will have based on its gender ratio. All Pokémon are assigned a gender ratio within the game's code; with the exception 
+         of Pokémon with indeterminate gender, such as Metagross, or with pre-set genders, such as Latias, a value known as the 
+         PID (or Pokémon Identification Number) will determine their genders based upon the gender ratio. For a more technical 
+         explanation of the PID, see 
+         <a href="/forums/member.php?u=2412">X-Act</a>'s 
+         ever-helpful article on 
+         <a href="/ingame/rng/pid_iv_creation#finding_gender_from_pid">PID Creation</a>. 
+         The most important thing to know about gender 
+         ratios is that the gender of the Pokémon on any given frame corresponds to the letter (M for male, and F for Female) 
+         listed under the appropriate gender ratio. For example, Mudkip will be found as a Female 12.5% of the time. If you wish 
+         to obtain a Mudkip on frame 2298, look under the 12.5% Female column, and will see the letter "M", meaning that Mudkip 
+         will be a male. However, if you obtain a Skitty on the same frame, you would look under the 75% Female column to find 
+         that your Skitty would be a female. So while the gender will always be the same for each gender ratio on any given frame, 
+         Pokémon with different gender ratios may have different genders, despite being caught on the same frame.</p> 
+
+         <p>There are some minor differences in the spreadsheets for bred Pokémon; they are addressed in the 
+         <a href="/ingame/rng/emerald_rng_part1">RNG Manipulation of Bred Pokémon</a>
+         section.</p>                                   
+         
+         <h2><a name="shiny">Shiny Pokémon</a></h2>
+         
+         <p>An attractive option afforded by resetting for method 1 or wild Pokémon is the ability to obtain 
+         alternate-coloured, or "shiny" Pokémon with relative ease—a simple matter of resetting for a Pokémon 
+         on the desired frame, which is predetermined to generate a shiny Pokémon. The only catch is that you 
+         need to calculate a hidden value known as your "Secret ID"; this value can only be calculated if you 
+         have already caught a shiny Pokémon. For more information, see the article on 
+         <a href="/ingame/rng/deducing_secret_id">SID Deduction</a>.
+         </p>
+         
+         <p>Once your Secret ID has been determined, you must generate a list of shiny spreads using RNG Reporter (see the following section). Bear in mind that the spreads will vary depending on the method that generates them; a great method 1 spread is exclusive to Pokémon generated via method 1, and so on. On the subject of exclusivity, shiny spreads are tied to the combination of your Trainer ID and Secret ID. In other words, if your friend discovers a great shiny spread on his or her game, it will not be shiny on yours, save the immensely unlikely scenario that both your IDs and SIDs are identical.</p>                 
+                           
+         <h2><a name="rngreporter">RNG Reporter</a></h2>
+         <p>Although the goal of this article has been to remove the need to use any external software (by providing comprehensive frame lists in the form of .csv files), it may be useful to familiarize yourself with the tool that was used to create them. Additionally, RNG Reporter has some advantages over the spreadsheets and is necessary if you wish to capture shiny Pokémon. Efficient filtering and the ability to search frames higher than the 100,000 that are included in the spreadsheet are also be useful features.</p>
+         <p>Before starting you must download and install RNG Reporter. Please pay particular attention to the prerequisites and the installation directions.</p>
+         <p>RNG Reporter, at its heart, is a tool to predict the nature and IVs when a Pokémon is created on a particular frame. By default, RNG Reporter will show the output of the first 100,000 frames, starting from the first, but is flexible enough to allow you to start at some later point in time. Up to 999,999 frames may be shown at one time. To get the most out of the tool, there are quite a few settings and filters can be tweaked which are outlined below.</p>
+        <dl>
+            <dt>Method</dt>
+            <dd>The method, which was briefly described above, is used to govern how output from the random number generator is used to create an IV spread. When attempting to capture method 1 Pokémon, select "Method 1". When attempting to capture wild Pokémon, select "Method 2". For breeding, you should select "Breeding (Emerald Splits)". The other options listed on this dropdown are generally used for other games, and may safely be ignored.</dd>
+            <dt>HP, Atk, Def, SpA, SpD, and Spe</dt>
+            <dd>These items allow you to filter by a Pokémon's IVs. There are two elements to each IV. The comparison type, which is a dropdown list, and the comparison value which will either be left blank or contain a value between 0 and 31. 
+                <dl>
+                    <dt>None</dt>
+                    <dd>When this option is selected, no comparison or filtering will take place on the corresponding IV. Leaving all IVs' comparison types set to null will allow you to get an unadulterated listing of spreads.</dd>
+                    <dt>==</dt>
+                    <dd>When this option is selected, the IV of the frame must match the corresponding IV entered into the textbox adjacent to the dropdown.</dd>
+                    <dt>&gt;=</dt>
+                    <dd>When this option is selected, the IV of the frame must be greater than or equal to the corresponding IV entered into the textbox adjacent to the dropdown.</dd>
+                    <dt>&lt;=</dt>
+                    <dd>When this option is selected, the IV of the frame must be less than or equal to the corresponding IV entered into the textbox adjacent to the dropdown.</dd>
+                    <dt>!=</dt>
+                    <dd>When this option is selected, the IV of the frame must not match the corresponding IV entered into the textbox adjacent to the dropdown.</dd>
+                    <dt>E</dt>
+                    <dd>When this option is selected, the IV of the frame must be even. The content of the textbox adjacent to the dropdown is ignored.</dd>
+                    <dt>O</dt>
+                    <dd>When this option is selected, the IV of the frame must be odd. The content of the textbox adjacent to the dropdown is ignored.</dd>
+                    <dt>HP</dt>
+                    <dd>When this option is selected, the IV of the frame must be what is considered a perfect Hidden Power number. These numbers are 2, 3, 6, 7, 10, 11, 14, 15, 18, 19, 22, 23, 26, 27, 30, and 31. The content of the textbox adjacent to the dropdown is ignored.</dd>
+                    <dt>HP_E</dt>
+                    <dd>When this option is selected, the IV of the frame must be what is considered a perfect even Hidden Power number. These numbers are 2, 6, 10, 14, 18, 22, 26, and 30, and 31. The content of the textbox adjacent to the dropdown is ignored.</dd>
+                    <dt>HP_O</dt>
+                    <dd>When this option is selected, the IV of the frame must be what is considered a perfect Hidden Power number. These numbers are 3, 7, 11, 15, 19, 23, 27, and 31. The content of the textbox adjacent to the dropdown is ignored.</dd>                                                    
+                </dl>
+            </dd>
+            <dt>Nature</dt>
+            <dd>When selected, this will cause RNG Reporter to filter on the nature of the Pokémon, showing only those which match.</dd>
+            <dt>Ability</dt>
+            <dd>When selected, this will cause RNG Reporter to filter on the ability of the Pokémon, showing only those which match. Please refer to the abilities section of <a href="/ingame/rng/pid_iv_creation#finding_ability_from_pid">The Process of PID and IV Creation of Non-Bred Pokémon</a>.</dd>
+            <dt>ID and SID</dt>
+            <dd>When both of these items are filled in with your trainer ID and secret ID, RNG Reporter will be able to mark particular frames as being shiny, or "find your shiny frames". As these frames will be different for each combination of ID and SID it is important that they are entered correctly. Frames which hold shiny Pokémon will be denoted a by the presence of the text "!!!" under a similarly named heading in the output. Once identified, these shiny frames are targeted exactly like any other.</dd>
+            <dt>Shiny Only</dt>
+            <dd>When this option is checked, RNG Reporter will filter out all Pokémon that are not shiny, leaving you only with those that are. This requires that your trainer ID and secret ID were correctly entered.</dd>            
+        </dl>         
+        <p>Once all of the desired options and filters are selected, clicking the "Generate" button will produce the listing of frames. Once generated, this list can be browsed on screen or output to .csv by right clicking anywhere in the listing and selecting "Output Results to .csv" from the menu. There are a number of other useful features squirreled away in this menu which deserve mention.</p>
+        <dl>
+            <dt>Set as Target Frame</dt>
+            <dd>This option allows you to tag your target frame and to easily return to it after scrolling around through the output. The current target frame can be determined by checking the "Target Frame" label at the bottom right hand corner of the RNG Reporter window.</dd>
+            <dt>Jump to Target Frame</dt>
+            <dd>This option will select, and show if it is not currently visible, the frame which you have previous marked at the target.</dd>
+            <dt>Center to +/- x Seconds and Set as Target Frame</dt>
+            <dd>This option is used to trim the frame output, centering on the selected frame and limiting the output to a certain number of seconds before and after. For example, if your target frame is 1,000 and you select this option (with one second) then frame 1,000 will set as the target and the complete listing of frames will only include those between 940 and 1060. Each second is considered to be 60 frames.</dd>
+            <dt>Remove Centering</dt>
+            <dd>Using this option will remove any of the frame trimming that is caused by the center function which was explained above.</dd>            
+        </dl>
+        
+        <h2><a name="ingame_prepare">In-Game Preparations</a></h2>
+                        
+        <p>In addition to the physical items you need, there are a couple of in-game requirements for the most streamlined RNG manipulating experience. First of all, you should have access to the Battle Frontier. The Battle Frontier is home to the "IV man", who can tell you about your Pokémon's total and highest IVs. He mainly comes in handy for breeding, where there are most likely to be flawless IVs flying around. More importantly, the Battle Frontier is home to the Battle Tower, which allows you to exploit Emerald's famous cloning glitch. Using Emerald’s cloning glitch, you will be able to obtain as many Rare Candies as you need; at least 10 are good to have at any given time, though you may need slightly more or less depending on the Pokémon.</p>
+
+        <p>One Pokémon that will come in handy both for method 1 and wild Pokémon is a "catcher". This Pokémon will weaken and inflict status on the Pokémon you are battling, in order to make it easier to capture. The best Pokémon for this job is a high-level Smeargle; Smeargle is found in the Battle Frontier’s Artisan Cave. Smeargle can Sketch False Swipe, a move that will leave the target with at least 1 HP, from either Sceptile or Nincada. It can also Sketch Spore, the only 100% accurate sleep move, from Shroomish, making it easy to get a catcher Smeargle in Hoenn. As far as wild Pokémon are concerned, you can opt to inflict paralysis instead; wild Pokémon have higher catch rates than the legendaries, so you can teach Smeargle the more common Thunder Wave if you do not wish to obtain a level 54 Shroomish.</p>
+
+<h2><a name="battlevideos">Emerald Battle Videos</a></h2>
+
+<p>At first glance, battle videos don't appear to have any useful purpose, other than for entertainment. However, a video can be used to save and restore a specific PRNG value. Using a battle video allows cart players to reach frames that were once thought to be out of reach, as one can advance to a very high frame and save a value within quick reach of the target frame.</p>
+
+<p><strong>How it works</strong></p>
+
+<p>When you enter a battle in the Battle Frontier, as soon as the screen fades to black, that PRNG value is stored. To save the video, you must win or lose the battle&mdash;quitting doesn't allow you to save. When you view the battle video, the PRNG doesn't advance at all (not even the normal advance every frame). The value remains unchanged until the first turn begins to play out.</p>
+
+<p>To find out the PRNG value stored in the video, simply use EonTimer set at a low frame like 1000, start the timer at the same time you press B to exit the video, and encounter a Pokemon when the timer runs out. A stationary Pokemon would be ideal, as it's easier to find out what frame you hit. Determine the frame you landed on, subtract that value from your target frame, and add that to the value in EonTimer.</p>
+
+<p><strong>Tips/misc. info on using Battle Videos</strong></p>
+
+<p>The RNG advances twice as fast when you're in a battle (except in the Battle Frontier, where the RNG doesn't advance at all except for battle calculations). Combine this with battle videos to advance to high frames even faster.</p>
+
+<p>By using multiple battle videos, you don't have to leave the game on for one continuous period of time. Save after saving a battle video, and then load it to continue to advance the RNG another time. It would be a good idea to test the PRNG value stored for each video made to keep track of the current frame.</p>
+
+<p>The only Pokemon that can't be RNG abused using battle videos are the starters, Castform, and the roaming Latias or Latios. Because the game resets after beating the Pokemon League, players can't take advantage of a different starting seed from starting a new game.</p>
+
+<p>Battle videos can be saved in any facility, except for the Battle Pike and Battle Pyramid.</p>

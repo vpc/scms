@@ -1,0 +1,51 @@
+[title]
+Rate My Team
+[head]
+<style type="text/css">
+h3 {
+    margin-bottom: 10px;
+	padding: 3px;
+    border-style: null;
+    border-bottom: 2px solid #8e8e8e;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: 500;
+	color: #6363b0;
+}
+h4 {
+	margin-left:25px;
+	top: -5px;
+	font-size: 11px;
+	font-style: italic;
+	font-weight: 400;
+	color: #8e8e8e;
+}
+.announcement {
+	width: 650px;
+	margin-bottom: 45px;
+	padding: 5px 25px 20px 25px;
+	font-family: Verdana, Arial, Helvetica, Sans-serif;
+	background-color: #f6f6f6;
+	border: 6px solid #e1e2e2;
+	border-style: outset;
+	-webkit-box-shadow: 7px 7px 10px #97999c;
+	   -moz-box-shadow: 7px 7px 10px #97999c;
+	        box-shadow: 7px 7px 10px #97999c;
+}
+</style>
+[page]
+<div class="author">Art by <a href="/forums/member.php?u=158925">ium</a>.</div>
+
+<div style="text-align: center;margin-bottom: 50px;"><img src="/media/upload/rmt/rmt-logo.png" alt="" /></div>
+
+<div class="announcement">
+<h3>Congrats MCBarrett!</h3>
+<h4>Posted by Harsha on <strong>August 23, 2013</strong></h4>
+<p><a href="/forums/members/mcbarrett.134180/">MCBarrett</a> has recently earned his official Team Rater badge! Please make sure to congratulate him on his accomplishment, as his consistent rates and sound suggestions have earned our recognition. Make sure to follow his example and hone your rating skills; who knows, you could end up with a shiny badge of your own!</p>
+</div>
+
+<div class="announcement">
+<h3>Welcome to the RMT Hub!</h3>
+<h4>Posted by Harsha on <strong>August 2, 2013</strong></h4>
+<p>Welcome to the RMT Hub! Here, you can find information about numerous RMT projects, such as weekly updates about happenings in Rating Activities, badging updates, and new additions to the RMT Archive. Speaking of the RMT Archive, you can find an (incomplete) index at the left side of the page, one for BW teams and one for DPP teams. Thanks to the hard work of many RMT staff members, the RMT Archive is now complete and on-site. Be sure to give Novaray a big thank you for his exceptional help on the project! While the index is currently unfinished, you can use the format http://smogon.com/rmt/archive/team_name_goes_here to get to the team you'd like to visit. For example, if you want to get to the team Enter the Dragon, you would simply type <a href="/rmt/archive/enter_the_dragon">http://smogon.com/rmt/archive/enter_the_dragon</a>. The index will be complete in the near future. We hope that you enjoy your stay at the RMT Hub! Be sure to visit the RMT forum to get your teams rated and participate in RMT projects!</p>
+</div>

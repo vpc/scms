@@ -1,0 +1,128 @@
+[title]
+Opening the Door - A Guide to Entry Hazards by Dark Talon
+[head]
+<meta name="description" content="An Introduction to effectively using Entry Hazards." />
+[page]
+<div class="author">By <a href="/forums/member.php?u=37987">Dark Talon</a>. Art by <a href="/forums/member.php?u=73434">Bummer</a>.</div>
+
+<center><img src="/media/upload/dp/articles/entry.png"/></center>
+<ol class="toc">
+<li><a href="#intro">Introduction to Entry Hazards</a>
+ <ul>
+ <li><a href="#stealth_rock">Stealth Rock</a></li> 
+ <li><a href="#spikes">Spikes</a></li>
+ <li><a href="#toxic_spikes">Toxic Spikes</a></li>
+ </ul>
+</li>
+<li><a href="#utilizing_and_combating">Ways of Utilizing and Combating Entry Hazards</a>
+ <ul>
+ <li><a href="#setting_up">Setting Up Entry Hazards</a></li>
+ <li><a href="#abusing">Abusing Entry Hazards</a></li>
+ <li><a href="#protecting">Protecting Entry Hazards</a></li>
+ <li><a href="#dealing">Dealing With Entry Hazards</a></li>
+ </ul>
+</li>
+<li><a href="#different_teams">Entry Hazards on Different Teams</a>
+ <ul>
+ <li><a href="#offensive_teams">Entry Hazards on Offensive Teams</a></li>
+ <li><a href="#stall_teams">Entry Hazards on Stall Teams</a></li>
+ </ul>
+</li>
+<li><a href="#other_tiers">Entry Hazards in Different Tiers</a>
+ <ul>
+ <li><a href="#uu">Entry Hazards in UU</a></li> 
+ <li><a href="#ubers">Entry Hazards in Ubers</a></li>
+ </ul>
+</li>
+</ol>
+<h2><a name="intro">Introduction to Entry Hazards</a></h2>
+<p>Entry Hazards are Pokemon techniques that damage Pokemon when they switch into battle. There are three types of entry hazards, each hitting certain types of Pokemon and each having a specific maximum number of layers:</p>
+<ul>
+<li>Stealth Rock</li> 
+<li>Spikes</li>
+<li>Toxic Spikes</li> 
+</ul>
+<h4><a name="stealth_rock">Stealth Rock</a></h4>
+<p>Stealth Rock is easily the most useful entry hazard in Pokemon, if not the most useful move in the entire game. It hits every single Pokemon who switches into it (aside from Magic Guard Clefable) and is the best defense against teams running Focus Sash (not that Focus Sash is used for anything besides a lead). Stealth Rock will do damage based on how weak a Pokemon is to Rock-type attacks.</p>
+
+<p>4x Resistance: 3.125% (1/32) Damage<br />
+2x Resistance: 6.25% (1/16) Damage<br />
+1x Neutrality: 12.5% (1/8) Damage<br />
+2x Weakness: 25% (1/4) Damage<br /> 
+4x Weakness: 50% (1/2) Damage</p>
+
+<p>While 3-25% damage might not look like much, it certainly adds up, especially since switching is an integral part of battling. Stealth Rock no longer allows your opponent to freely switch to a counter or check for your Pokemon without some sort of fee. In this case, that fee is a percentage of their switch-in's health.</p>
+
+<p>Stealth Rock only takes a single turn to set up, not 2 or 3 like other entry hazards, so teams that are very offensive can viably use it due to the speed of activation. Even if it is spun away, it can very easily be set up again, which makes it very convenient, useful, and deadly.</p>
+
+<p>Every team should have a slot for Stealth Rock. By damaging your opponent's switch-ins, you can gradually wear down their team to the point where one of your Pokemon can sweep. Stealth Rock is most useful on offensive teams where the battles tend to be fast and furious, with plenty of switches going on. Stealth Rock also turns some 3HKOes into 2HKOes and 2HKOes into OHKOes, so that your sweepers will be able to defeat enemies in a more timely fashion, thus reducing the damage they take in return. Pokemon EV spreads are now always made taking Stealth Rock into account. For example, a counter that can take 90% damage and OHKO back is no longer useful, since it will take 12.5% damage switching in, thus causing it to faint. Pokemon such as Gyarados have their ability to sweep hindered due to the 25% damage they take switching into the field. All in all, Stealth Rock should always find a spot on your team.</p>
+
+<h4><a name="spikes">Spikes</a></h4>
+<p>Spikes are set up in three layers, and damage all Pokemon that can be hurt by the move Earthquake, which is to say all Pokemon that aren't Flying-type or have the abilities Levitate or Magic Guard. Depending on how many layers of Spikes get set up, they will do different amounts of damage to opponents switching in:</p>
+
+<p>1 layer: 12.5% (1/8) Damage<br />
+2 layers: 18.75% (3/16) Damage<br />
+3 layers: 25% (1/4) Damage</p>
+
+<p>As you can see, a consistent 25% damage every time many Pokemon switch in can easily add up and weaken the opposing team for a sweep much faster than Stealth Rock, but at the price of being far less accessible and more difficult to set up.</p>
+
+<p>Spikes are most useful on stall teams where the damage from entry hazards is the primary method of hurting opposing Pokemon. Combined with phazing moves such as Roar and Whirlwind or moves that force switches such as Yawn, Perish Song, or Confuse Ray, Spikes can rack up massive amounts of damage. On more offensive teams, however, where the pace is very fast and losing momentum can mean losing the game, Stealth Rock is generally a better choice.</p>
+
+<h4><a name="toxic_spikes">Toxic Spikes</a></h4>
+<p>Toxic Spikes are a slightly different form of entry hazard that induce a certain status ailment depending on how many layers are set up.</p>
+
+<p>1 layers: Poison (steady 1/8th damage per turn)<br />
+2 layers: Bad Poison (1/16 * # of turns in play)</p>
+
+<p>Toxic Spikes will not affect Pokemon who Levitate, or are Flying-, Steel-, or Poison-type. In fact, grounded Poison-types (those without Levitate or a secondary Flying-type) will absorb Toxic Spikes if it comes in contact with them.</p>
+
+<p>Toxic Spikes is an excellent move for a stall team. Having every susceptible Pokemon on the opponent's team badly poisoned disables virtually all attempts to set up and break a stall team's core. However, Toxic Spikes can also be used on an offensive team to break walls and generally weaken the opposing team for a sweep later in the game. It is also a great way to cripple bulky Water-types and Ground-types such as Swampert, Vaporeon, and Hippowdon who don't normally have a way to cure status. While it may take longer to set up than Stealth Rock, the time can usually be afforded, especially in the beginning of the game.</p>
+
+<h2><a name="utilizing_and_combating">Ways of Utilizing and Combating Entry Hazards</a></h2>
+<h3><a name="setting_up">Setting Up Entry Hazards</a></h3>
+<p>Entry hazards should generally be set up as soon as possible (ideally, this would be in the first turn of the game) in order to ensure maximum effectiveness. For Stealth Rock on offensive teams, it is common to use 'suicide leads' whose sole purpose on the team is to set up Stealth Rock, and then die in order for the next member to arrive unharmed. Azelf, Infernape, and Aerodactyl are the most common suicide leads. Bulkier Pokemon such as Swampert, Metagross, Jirachi, and Bronzong can be used on most teams to not only set up Stealth Rock, but also to come back in later or serve as a check to certain Pokemon without essentially starting the game 5-6. On stall-oriented teams, Swampert, Blissey, and Hippowdon are all excellent choices for setting up Stealth Rock. Skarmory may also be used, but stall teams would make better use of Skarmory by running Spikes on it instead, due to the much more limited amount of Spikes supporters.</p>
+
+<p>Spikes are a bit trickier to set up. The only truly viable 'Spikers' in OU are Skarmory, Forretress, Smeargle, and Roserade. Spikes should also be set up as early as possible. Toxic Spikes can be set up by Forretress, Smeargle, Roserade, Tentacruel, Drapion, or Nidoqueen with relative ease. The latter four also have the added bonus of absorbing opposing Toxic Spikes.</p>
+
+<h3><a name="abusing">Abusing Entry Hazards</a></h3>
+<p>To use entry hazards (especially Spikes) to their maximum potential, entry hazard abuse is used. The simplest way to abuse entry hazards are the moves Roar and Whirlwind, which force the opponent to change Pokemon. When the new Pokemon enters the field, they will then take damage from any existing entry hazards. However, moves that usually cause the opponent to switch, such as Perish Song and Yawn are also a good way to abuse entry hazards. With Perish Song, the opponent will either die in three turns or switch in another Pokemon who will then take damage. The same goes for Yawn, except the target Pokemon goes to sleep instead, effectively eliminating it from the match for a few turns. The last way to abuse entry hazards is to use Pokemon such as Heatran and Scizor that can usually cause the opponent to switch out. This makes them suffer damage each time they switch a vulnerable Pokemon out from Pokemon with a wide array of coverage.</p>
+
+<h3><a name="protecting">Protecting Entry Hazards</a></h3>
+<p>The most prominent threat to entry hazards is the move Rapid Spin, which completely clears the field of all entry hazards placed by your opponent. This means that if you had 6 layers of entry hazards up and your opponent uses Rapid Spin, you have just let 6 turns go to waste. The easiest way to block this move is to use a 'spinblocker.' A spinblocker is a Ghost-type Pokemon that makes the secondary effect of Rapid Spin fail because they are immune to Normal-type moves. Rotom-A is the most effective spinblocker currently available due to its outstanding typing, good defenses, and high Special Attack. Spiritomb and Dusknoir can also be used. Spiritomb does not have a weakness to Pursuit, which is commonly used to eliminate Rotom, and Dusknoir has access another recovery move in the form of Pain Split as well as Fighting-type attacks that will allow it to effectively deal with Tyranitar, Heatran, and Weavile, three Pokemon that Rotom routinely has trouble with. Gengar is also an option, but only if an offensive team is being used. While it does have defenses that are far below average, its three immunities and outstanding offensive stats allow it to force switches, causing more entry hazard damage.</p>
+
+<h3><a name="dealing">Dealing with Entry Hazards</a></h3>
+<p>As stated earlier, Rapid Spin is the only move that will get rid of opposing entry hazards. Not all teams require a Rapid Spinner to be effective. Many offensive teams don't use one because the time it takes for it to switch in, remove the entry hazards, and then switch out again will cause the player to lose any momentum they have built up. Offensive teams that rely on many Pokemon weak to entry hazards, especially Stealth Rock, will be more likely to use entry hazards. Many common Pokemon such as Gyarados, Zapdos, Togekiss, and Weavile all lose 1/4th of their health every time the switch into battle, severely limiting the amount of times they can come into play as well as allowing opposing Pokemon to KO them more easily. Teams using several of these Pokemon may want to consider a spinner to keep Stealth Rock off the field. Bulky offensive and stall teams that severely dislike Toxic Spikes may also want to either carry a Rapid Spinner or a Poison-type Pokemon to get rid of them. Tentacruel is the single best Toxic Spikes remover in OU due to the fact that it can switch in with its massive 120 Base Special Defense on a resisted hit such as Flamethrower or Ice Beam, immediately remove Toxic Spikes, and even threaten to set up Toxic Spikes of its own. Tentacruel also has access to Rapid Spin, allowing it to remove Spikes and Stealth Rock as well. Roserade can also absorb and set up Toxic Spikes, but does not have the defensive stats to live for as long as Tentacruel will be able to, unless it is a SubSeed variant. Forretress also is an excellent option for a Rapid Spinner. It's incredible typing gives it only a single weakness, and its stellar Defense allows it to wall all sorts of physical attacks. Forretress can also set up all three types of entry hazards, and Explode when the job has been completed. Forretress also has access to Payback, which allows it to hurt spinblockers on the switch in. Donphan also has access Rapid Spin and amazing Defense. It can use Assurance to damage spinblockers, but is very vulnerable to Toxic Spikes without any decent form of recovery. Starmie is very useful as a spinner because it has access to a reliable recovery move, outspeeds all OU spinblockers, and can deal damage to them with STAB Hydro Pump or Surf. Natural Cure allows it to switch into Toxic Spikes, remove them, and then retreat and shed the status. Claydol can also be a good choice, especially in lower tiers, due to its resistance to Stealth Rock and immunity to Spikes and Toxic Spikes.</p>
+
+<p>Since players generally try to deploy entry hazards as quickly as possible, starting out with a fast Taunt user such as Azelf or Aerodactyl can easily stop slower Spikes leads in their tracks. Common Spikes leads such as Forretress, Roserade, and Skarmory are slower than both Azelf and Aerodactyl and can be easily neutralized, at least for a small while, via Taunt.</p>
+ 
+<h2><a name="different_teams">Entry Hazards on Different Teams</a></h2>
+<h3><a name="offensive_teams">Entry Hazards on Offensive Teams</a></h3>
+<p>Entry hazards are supremely useful on offensive teams, since most teams tend to deal with them by switching out a vulnerable Pokemon to bring in a specific counter or resist. If Stealth Rock is up, then the Pokemon switching in will usually take 6-25% damage in addition to whatever damage the attacking Pokemon deals. Pokemon such as Zapdos and Gyarados, who would otherwise hinder a Scizor or Lucario sweep, won't be able to switch into as many attacks now that they lose an additional 25% health every time they enter the field. This easily weakens them enough to render either Pokemon unable to stop a Scizor or Lucario sweep. As mentioned earlier, the most useful Pokemon for setting up Stealth Rock on offensive teams fall into two categories: bulky and suicide. Smeargle, Aerodactyl, Infernape, and Azelf are all excellent choices for suicide leads, whose sole purpose is to set up Stealth Rock, hopefully neutralize the opposing setup lead, and then die. Bulkier users of Stealth Rock include Lead/Support Metagross, Support Heatran, Bronzong, and Lead Jirachi, all who will set up Stealth Rock and then continue to support your team via resistances, Wish support, dual screens, or status. Pokemon who should not be used on offensive teams to set up Stealth Rock are Hippowdon, Skarmory, and in most cases, Forretress. These Pokemon will generally not help build momentum for your team and will not keep pressure on the opponent at all times by threatening massive damage or KOs.</p>
+
+<p>Stealth Rock is not the only entry hazard that is viable on offensive teams. Toxic Spikes will benefit any team that needs to quickly and efficiently get rid of bulky Water- and Ground-type Pokemon such as Hippowdon, Swampert, Vaporeon, and Suicune. Pokemon that will benefit by Toxic Spikes support include Empoleon (who does not like to tangle with bulky Water-types, especially if running Ice Beam), Suicune (Water-types will usually stop any of Suicune's sweeping attempts), Rotom (Swampert can routinely give him trouble), and Infernape (Vaporeon and Suicune take little damage from its attacks). The only two viable offensive Toxic Spikes users are Smeargle and Roserade. Smeargle offers perfectly accurate sleep in the form of Spore as well as ExtremeSpeed and Fake Out, but does not have any true offensive power, making it effectively worthless after Toxic Spikes have been activated. Roserade offers less accurate sleep through Sleep Powder, but much higher offensive power via Leaf Storm and Sludge Bomb. Roserade also doubles as a Toxic Spikes remover which can be a huge boon to Pokemon such as Swampert and Tyranitar.</p>
+
+<h3><a name="stall_teams">Entry Hazards on Stall Teams</a></h3>
+<p>Entry hazards are used very differently on stall teams than they are on offensive ones. Stall teams generally deal most of their damage through status or residual damage. Entry hazards are the most reliable form of indirect damage, as the combination of Spikes + Stealth Rock will hit many Pokemon in OU (i.e. all Pokemon except those with Levitate) for upwards of 25% damage every time they enter the battle. In order to do the most damage, several layers of entry hazards must be placed. It is recommended, but not required, that stall teams carry all three types of entry hazards in order to deal the largest amount of indirect damage possible. Roar and Whirlwind are excellent moves to both mess up opposing momentum and deal indirect damage.</p>
+
+<p>There are many Pokemon who can set up Stealth Rock on a stall team. Swampert, Bronzong, and Blissey are the best choices due to their phenomenal defensive stats and ability to counter many dangerous threats. Celebi is another choice worth considering, but it is not wise to waste Celebi's precious moveslot on Stealth Rock when so many other Pokemon can set it up.</p>
+
+<p>Forretress and Skarmory are the undisputed champs of setting up Spikes on a stall team. Skarmory is invulnerable to Ground-type attacks and carries Roost, while Forretress has access to Explosion, Rapid Spin, and can deal more damage on the whole. Both carry a tremendous base Defense and great typing, allowing them to wall many physical attackers.</p>
+
+<p>Forretress is also one of two viable users of Toxic Spikes on a stall team, the other being Tentacruel. Forretress has superior typing for the most part, along with better Defense, but Tentacruel can absorb Toxic Spikes and counter the ubiquitous Mixed Infernape. Both have access to Rapid Spin. Roserade can also be used, but it is inadvisable to do so due to its less than desirable defenses and typing.</p>
+
+<h2><a name="other_tiers">Entry Hazards in Other Tiers</a></h2>
+<h3><a name="uu">Entry Hazards in UU</a></h3>
+<p>Entry hazards are not limited to OU by any means; UU also makes full use of them, but they are played in a very different way. UU has none of the suicide leads that are so popular in OU, so players rely on bulky Pokemon such as Uxie, Donphan, and Registeel to set up Stealth Rock. Due to the prevalence of Flying- and Bug-type Pokemon in UU, Stealth Rock can be used very effectively; in particular, its presence hinders Scyther, Swellow, Moltres, and Houndoom. Toxic Spikes is very rarely seen due to the tremendous amount of Poison-type Pokemon that are able to absorb it and is generally a waste of time to set up. Spikes is not as common or as beneficial as Stealth Rock in UU, but it is still a viable option to hurt Pokemon like Steelix and Registeel on the switch. While there are several Pokemon capable of setting up Spikes such as Cacturne, Cloyster, and Qwilfish, Omastar stands out as the best user of Spikes in UU because of its bulk and solid typing.</p>
+
+<p>The most reliable way to remove entry hazards in UU is via a Rapid Spin Donphan. With proper EV investment, Donphan can 2HKO the very popular spinblockers Rotom and Mismagius as well as 3HKOing Spiritomb by using Assurance and Earthquake. Foresight Hitmontop is another excellent choice. Foresight allows it to hit Ghost-type Pokemon for neutral damage (and Spiritomb for super effective damage) with Fighting-type attacks such as Close Combat. Once the ghost has retreated or been KOed, Hitmontop can then Rapid Spin away any entry hazards on its side of the field.</p>
+
+<p>To see entry hazards having a great effect in UU, please refer to Chou Toshio's <a href="/forums/showthread.php?t=41502">warstory</a>.</p>
+
+<h3><a name="ubers">Entry Hazards in Ubers</a></h3>
+<p>The Ubers tier also makes great use of entry hazards. Again, different playing styles will determine what entry hazards are necessary for a player's team. Stealth Rock is practically mandatory for any Ubers team because it hurts two prominent Ubers Pokemon, Rayquaza and Lugia, as well as crippling the rare Ho-Oh. It also breaks any Focus Sashes you will find on Pokemon like Deoxys and will outright kill Shedinja. Stealth Rock can be set up by many Pokemon, including Heatran, Groudon, Deoxys-S, Deoxys-A, Deoxys-D, Metagross, and Dialga. Spikes, being used mostly by stall teams, are less common in Ubers, but their presence is still noteworthy. Deoxys-S, Deoxys-A, Deoxys-D, Forretress, and Skarmory are the only Pokemon who are capable of setting up Spikes. Finally, Forretress is the only Pokemon who can set up Toxic Spikes.</p>
+
+<p>There are two spinblockers that can be chosen from in Ubers; Giratina and its counterpart, Giratina-O. Giratina's monstrous HP and Defense stat allows it to block Rapid Spin quite comfortably, shrugging off Forretress's Payback like it was nothing. However, Giratina can not do too much in return bar Hidden Power Fire, and often times Forretress can use Giratina to set up its other entry hazards. Giratina-O, although unable to take repeated Paybacks without Rest, posseses enough firepower to pose a direct threat to stall teams to compensate for its drawback. Finally, its ability, Levitate, prevents Spikes and Toxic Spikes from affecting it, giving it more chances to switch in than Giratina.</p>
+
+<p>To get rid of entry hazards in Ubers, you must rely on Forretress, who is an excellent choice due to its amazing Defense and stellar typing. As mentioned earlier, Forretress can hit both spinblockers with Payback, but does not have any hope of doing real damage to Giratina.</p>
+
+<p>For a demonstration on the effectiveness of Stealth Rock in Ubers, please read Train Man's <a href="/forums/showthread.php?t=40417">warstory</a>.</p>

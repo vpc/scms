@@ -1,0 +1,107 @@
+[title]
+Underused 101: Teambuilding
+[head]
+<link href="/media/smog/smog.css" type="text/css" rel="stylesheet" />
+[page]
+<div class="author">By <a href="/forums/member.php?u=38358">kokoloko</a>. Art by <a href="/forums/member.php?u=3892">Yilx</a>.</div>
+<table id="smogheader">
+<tr>
+<td class="left"><a href="entry_hazards">« Previous Article</a></td>
+<td class="middle"><a href="/smog/issue24/">Home</a></td>
+<td class="right"><a href="nu">Next Article »</a></td>
+</tr>
+</table>
+
+<h2>Introduction</h2>
+
+<div class="float-right"><img src="/media/upload/smog/issue24/uu101_heracross.png" alt="" /></div>
+
+<p>Hey there. Ever found yourself unable to get into a new metagame because the massive amount of threats in it make it really hard to build an efficient team? If so, this article's for you (but only if you want to try UU; the other metagames all suck). By reading this two part article, you will learn all about what the metagame actually looks like (because usage statistics and tier lists do not paint a full picture), and how to take this into account when you are building a team (part one) and battling (part two). I'll try to go into as much detail as possible, so don't be surprised if this turns out a little "tl;dr", but if you're really keen on getting into UU, this'll certainly help you along. Ready? Let's go.</p>
+
+<h2>Step One: Identifying the Top Threats</h2>
+
+<p>The first thing you need to know is the relevant metagame and its prominent threats; you have to focus on these when building your team.</p>
+
+<h3>First Priority: Fighting-types</h3>
+
+<p><img src="/download/sprites/bw/650.png" alt="Mienshao" /> <img src="/download/sprites/bw/214.png" alt="Heracross" /> <img src="/download/sprites/bw/590.png" alt="Scrafty" /> <img src="/download/sprites/bw/670.png" alt="Virizion" /> <img src="/download/sprites/bw/68.png" alt="Machamp" /> <img src="/download/sprites/bw/668.png" alt="Cobalion" /></p>
+
+<p>If you were to break down UU into a pie chart, the thing that would stand out the most is the sheer amount of Fighting-types in the tier. Between the raw damage output of Mienshao and Heracross, and the versatility that all the other Fighting-types have (for example, Scrafty's amazing STAB combination), if you don't keep these guys in mind when you're teambuilding, you will fail to do well in the tier. It's because of this group of Pok&eacute;mon that things such as Nidoqueen being better than Nidoking and Cofagrigus being amazing even happen. I don't think anyone who plays UU at all would try to debate how dominant Fighting-types are in this tier.</p>
+
+<h3>Second Priority: Fire-types</h3>
+
+<p><img src="/download/sprites/bw/522.png" alt="Victini" /> <img src="/download/sprites/bw/639.png" alt="Chandelure" /> <img src="/download/sprites/bw/584.png" alt="Darmanitan" /> <img src="/download/sprites/bw/59.png" alt="Arcanine" /></p>
+
+<p>The main reason why these are so dangerous is their sheer power. Darmanitan, Victini, and Chandelure claim title to some of the strongest moves in the entire game. What makes beating these guys all at once tricky is the fact that Darmanitan attacks solely from the physical side, Chandelure solely from the special side, and Victini, while it usually only attacks from the physical side, has the potential to go special or even mixed. To compound the problem, these guys are so strong that if you don't have a solid answer to them (as in, something that can come in at least 2-3 times without dying), you run the risk of getting run over.</p>
+
+<h3>Third Priority: Electric-types</h3>
+
+<p><img src="/download/sprites/bw/145.png" alt="Zapdos" /> <img src="/download/sprites/bw/243.png" alt="Raikou" /></p>
+
+<p>Ah, yes, good old Zapdos and Raikou. You might notice that there's only two of these guys here, and yet they are considered dangerous enough to be included among your top priorities in teambuilding. The reason? Unlike the previous two groups of Pok&eacute;mon, which are dangerous for more concrete and obvious reasons, the danger in facing these two Pok&eacute;mon lies in a few different aspects. On one hand, we have Zapdos, a Pok&eacute;mon that can be customized to do almost anything you want it to. On the other, we have Raikou, whose bulk, Speed, access to Calm Mind, and lack of multiple weaknesses make it the single most fearsome setup sweeper in the tier. Not to mention that the introduction of Volt Switch in BW made these two all the more difficult to play around. Needless to say, if you're up against one&mdash;or even worse, both&mdash;of these guys in a battle and don't have a solid Electric-type check, you're up a creek without a paddle.</p>
+
+<h3>Fourth Priority: Miscellaneous <em>Common</em> Dangerous Threats</h3>
+
+<p><img src="/download/sprites/bw/330.png" alt="Flygon" /> <img src="/download/sprites/bw/593.png" alt="Cofagrigus" /> <img src="/download/sprites/bw/230.png" alt="Kingdra" /> <img src="/download/sprites/bw/410.png" alt="Roserade" /> <img src="/download/sprites/bw/151.png" alt="Mew" /> <img src="/download/sprites/bw/143.png" alt="Snorlax" /></p>
+
+<p>Despite being listed as a fourth priority, the importance of having other common threats covered cannot be understated. Things such as Nasty Plot/Swords Dance Mew, Nasty Plot Togekiss, Life Orb Shaymin and Roserade, Choice Band Flygon, Offensive Trick Room Cofagrigus, and all variants of Snorlax and Kingdra are extremely important to keep in mind during teambuilding. The key word to keep in mind here is "common." The reason I'm having you focus on this is because if you get caught up trying to have a solid answer to uncommon dangerous Pok&eacute;mon (Sharpedo, for example), you're more likely to open up other holes in your team that'll make you weak to more common Pok&eacute;mon, leading to a greater amount of losses.</p>
+
+<div class="float-right"><img src="/media/upload/smog/issue24/uu101_chandelure.png" alt="" /></div>
+
+<h2>Step Two: Planning and Execution</h2>
+
+<p>All of the above Pok&eacute;mon are the ones you should have covered in order to have a decent team. Let's pause for a second and figure out what "covered" actually means. Checks and counters. The difference between a check and a counter is that a counter can consistently switch into a threat and either force it out or kill it, while a check can range anywhere from a revenge killer to a Pok&eacute;mon that can only switch in on coverage moves but is faster and OHKOes. When I say "covered," I mean you should have at least two checks or one counter to a threat. You're probably going to be dealing mostly with checks in UU, as the sheer power level of UU's offensive Pok&eacute;mon make them very difficult to hard-counter.</p>
+
+<p>Now I know this sounds really hard... after all, you only have six slots in a team and you have a slew of things to check. Fret not, as there are a few silver linings here. For one, if you manage to cover everything I listed above while using up to four of your team members, filling in the gaps to cover the rest of the metagame becomes extremely easy. There's also the fact that the first three groups of Pok&eacute;mon are grouped for a reason; they all have&mdash;for the most part&mdash;similar checks and counters, making this task much easier. And for God's sake, do not try to hard-counter everything on that "list" I gave earlier&mdash;much less all of UU&mdash;it simply isn't possible (hell, countering Mew alone is impossible). If you have two to three checks to the important Pok&eacute;mon, you'll find that you have about 90% of the rest of the metagame covered as well. That's good enough to do well.</p>
+
+<p>This leads me to my next point. Sometimes, you'll make a team and realize you're unable to actually switch anything into certain threats (for example, Choice Band Flygon). If your team is defensive, then this is obviously a problem because the whole point of defensive teams is to be able to tank hits. However, if your team is offensive, you need to keep in mind the concept of offensive pressure. What I mean by this is that even if you are not able to switch into threat x, as long as threat x can't switch into&mdash;or at least set up on&mdash;any of your Pok&eacute;mon, you should be okay. In fact, you probably don't realize this, but purely offensive teams only work because of this very principle. A good example here is Swords Dance Weavile. A huge number of offensive teams are, in theory, weak to this set because once it sets up, it sweeps them clean. However, the reality is that Weavile does not have the space to set up against most offensive teams because it gets OHKOed very easily.</p>
+
+<p>There's one thing that needs to be emphasized above all others, though. When you're building a team (and this is in any tier, not just UU), you absolutely need to have a goal in mind. Be it a late-game Swords Dance Heracross sweep, or the desire to wear down the opposition with entry hazards until Sharpedo can sweep, you need a plan. Either way, you need to build your team in such a way that every Pok&eacute;mon aids your long-term goal in one way or another. This is where the concept of offensive synergy comes in&mdash;which, despite this section of the article being smaller than the one that focuses on the defensive side of things, is far more important than defensive synergy. This is where strategies such as "double Fighting" and "double Electric" come from&mdash;because multiple Pok&eacute;mon that play similarly offensively can easily wear down each other's checks and counters until one of them can sweep. You shouldn't fall into the trap of focusing on one thing and one thing only, though; you need a backup plan in case your original one falls apart&mdash;preferably one that works well with said original plan. Alternatively, you could simply construct your team in such a way that you have two different ways to win that happen to work well together.</p>
+
+<h2>Here's Some Tips:</h2>
+
+<div class="float-right"><img src="/media/upload/smog/issue24/uu101_zapdos.png" alt="" /></div>
+
+<p>Be creative. Sticking to the standards will not always lead to a good team. About half of RU is viable in UU, and some of NU is as well. Take advantage of this to surprise your opponent and find niche Pok&eacute;mon that can cover the holes your team has.</p>
+
+<p>Choice Scarf. Use it. Not everyone agrees with me, but I think Choice Scarf is the single most important item in competitive Pok&eacute;mon. Why? Because it gives you a backup plan against almost anything, should things not go the way you planned. It literally transforms one of your Pok&eacute;mon into a check to everything it can revenge kill. This is especially important on offensive teams, where a fast Choice Scarf user, such as Mienshao, that can revenge kill Speed-boosting Pok&eacute;mon is optimal. While less necessary on defensive teams, you should still consider Pok&eacute;mon such as Heracross and Krookodile as your Choice Scarf user, who can use Moxie to take advantage of the entry hazards your team most likely utilizes.</p>
+
+<p>This should be obvious, but don't prioritize less prominent threats over more important ones when you're building your team. No one cares how well-covered Swampert is when Zapdos absolutely wrecks you.</p>
+
+<p>Use cores and Pok&eacute;mon that cover large portions of the metagame at once. Here's some examples:</p>
+
+<h3>Cofagrigus / Snorlax</h3>
+
+<p><img src="/download/sprites/bw/593.png" alt="" /> <img src="/download/sprites/bw/143.png" alt="" /></p>
+
+<p>Specifically, Offensive Trick Room Cofagrigus and Choice Band Snorlax. This is a great bulky offensive core that gives you a check to almost anything you can think of. Cofagrigus covers nearly every physical attacker in the tier, Snorlax covers nearly every special attacker, and both are bulky enough on their "weaker" defensive stat to check other threats as well. Keep in mind this is an offensive core, not a defensive one, so don't expect to be taking hits forever if you use these two.</p>
+
+<h3>Swampert / Flygon</h3>
+
+<p><img src="/download/sprites/bw/260.png" alt="" /> <img src="/download/sprites/bw/330.png" alt="" /></p>
+
+<p>This core has been around since the ADV era, in which it was used to ensure Raikou could not sweep your team regardless of its Hidden Power of choice. Luckily for us, both of these Pok&eacute;mon ended up in UU this generation, allowing us to make use of them in order to tank not only Raikou, but also its cousin Zapdos, and the Fire-types as well. This core works on balanced teams as well as bulky offensive ones, because it gives you plenty of options. You can either go with the more standard Choice Scarf Flygon and defensive Swampert (which also gives you a Stealth Rock user), or you can switch it up a bit and use Choice Band on one... or both of them. Seriously, double Choice Band Ground-types gives you excellent offensive and defensive synergy to work with.</p>
+ 
+<h3>Snorlax / Slowbro</h3>
+
+<p><img src="/download/sprites/bw/143.png" alt="" /> <img src="/download/sprites/bw/80.png" alt="" /></p>
+
+<p>Like the above core, this one can be used both offensively and defensively. More conservative players will likely go for either Tank or Calm Mind Slowbro and defensive Curse Snorlax, while more offensive players might instead choose to use Choice Specs Slowbro and an offensive variant of Snorlax. Obviously, if you go for the latter, you're going to have to rely a bit more on keeping pressure on your opponent than if you go for the former, but that isn't to say that it's less reliable. On the contrary, most of the top players in the metagame prefer more offensive playstyles at the moment, as it gives the opposition less breathing room to set up dangerous threats like Dragon Dance Kingdra and Swords Dance / Nasty Plot Mew.</p>
+
+<h3>Nidoqueen</h3>
+
+<p><img src="/download/sprites/bw/31.png" alt="" /></p>
+
+<p>Nidoqueen is kind of like a one-Pok&eacute;mon-core in the sense that it can both check a large part of the metagame via its sheer bulk (including two of the main groups of threats: Fighting- and Electric-types), and provide Stealth Rock support all at the same time. It's no wonder top players use it as often as they do, really; it's a great Pok&eacute;mon.</p>
+
+<h2>Conclusion</h2>
+
+<p>There's a bunch of other things you can use, I only listed the first few that came to my head. I could probably provide you with a sample team and go through the teambuilding process, but I don't really want to because then you'll just copy it and not try to think through making your own. In part two of this article, I'll discuss things a little more in-depth and go through my thought processes during an actual UU battle (I guess you'll get to steal one of my teams then!). If there's anything you didn't understand or just want to ask me something else, feel free to shoot me a PM on the forums. I'm a busy man, but I'll answer it as soon as I get a chance to. Otherwise, just hop right on the ladder and do your best. Until next time!</p>
+
+<table id="smogfooter">
+<tr>
+<td class="left"><a href="entry_hazards">« Previous Article</a></td>
+<td class="middle"><a href="/smog/issue24/">Home</a></td>
+<td class="right"><a href="nu">Next Article »</a></td>
+</tr>
+</table>

@@ -1,0 +1,284 @@
+[title]
+Pokémon TCG - NeoTRGym Metagame Review
+[head]
+<link href="/media/smog/smog.css" type="text/css" rel="stylesheet" />
+[page]
+<div class="author">By <a href="/forums/member.php?u=273">Mekkah</a>. Art by <a href="/forums/member.php?u=38249">porygon-d</a>.</div>
+<table id="smogheader">
+<tr>
+<td class="left"><a href="tcg">&laquo; Previous Article</a></td>
+<td class="middle"><a href="/smog/issue10/">Home</a></td>
+<td class="right"><a href="spriting">Next Article &raquo;</a></td>
+</tr>
+</table>
+
+<div style="float: right; margin-left: 10px;"><img src="/media/smog/10/tcg_feraligatr.jpg" alt="" /></div>
+ 
+<p>NeoTRGym is a collection of the sets between the classic Base/Jungle/Fossil sets and the EX sets. The four Neo sets form the GSC era of the Pokémon TCG, and the three older, but not quite classic, sets (Team Rocket, Gym Challenge, and Gym Heroes) are added to it.</p>
+
+What you end up with is the following set list:
+
+<ul>
+<li>Team Rocket</li>
+<li>Gym Challenge</li>
+<li>Gym Heroes</li>
+<li>Neo Genesis</li>
+<li>Neo Discovery</li>
+<li>Neo Revelation</li>
+<li>Neo Destiny</li>
+</ul>
+
+<p>These seven sets are the ones used in Smogon's first TCG tournament, and they're also the big seven included in what was once the tournament setting back in the day. There are various smaller promotional sets, such as Southern Islands, the E-Reader sets, and the POP series. I've chosen not to include them in that tournament. If you're going to play other Smogoners in this format, agreeing beforehand if you're using anything besides the standard sets is a good idea.</p>
+
+<p>In this article, I'll walk you through the defining elements of this TCG metagame. If you encounter the name of a card you don't immediately recognize, just read on, as I'm sure I'll get to it later. Some combinations are just impossible to explain without knowledge of both cards.</p>
+
+<h2>The Banned Cards</h2>
+<p>In competitive play, Slowking and Sneasel, both from the Neo Genesis set, have been banned. They have both been defining factors in competitive play for quite a while.</p>
+
+<p>The former was very disruptive thanks to its Pokémon Power, Mind Games. Every time your opponent plays a Trainer while you have Slowking in play, you can flip a coin (if you want to). If you get tails, the Trainer is played normally. But if you get heads, that Trainer does nothing, and it goes on top of your opponent's deck. This power was also stackable, so with two Slowkings, you could flip two coins, and so on. On the Japanese version of the card, Mind Games actually only works if Slowking is your active Pokémon. This is much less harsh, since it allows you to KO the Slowking and then play your Trainers. Not to mention it stops the stacking effect (obviously, you can only have one active Slowking). It was mistranslated, however, and instead of fixing it through errata, they chose to ban it.</p>
+
+<p>The latter is the fastest and most powerful attacker in the format. For two Darkness Energy, Sneasel allows you to flip a coin for every single Pokémon in play (yours and your opponent's), and do 20 damage for each heads. Note that each Darkness Energy attached to Sneasel adds 10 damage at the end, and that the maximum HP of any Pokémon in this format is 120 (with 100 being much more common). So Sneasel only needs four heads to knock out the most powerful opponents you'll encounter, something it achieves on average if you and your opponent only have three benched Pokémon. And that's an attack it will often be able to launch within two turns of being benched. This kind of power and speed is unmatched in the format, and there's almost nothing you can do to stop it. It has no weakness or retreat cost, and 60 HP is enough for it to survive, especially if the opponent is given no time to set up.</p>
+
+<p>When we started playing this metagame with Smogoners, we agreed not to use Sneasel, and to treat Slowking as if it was the Japanese version. This makes our metagame significantly different from the tournament environment back then. Personally, I believe it's more diverse and fun this way.</p>
+
+<h2>The Baby Factor</h2>
+<p>One of the most distinct features of the Neo era is the Baby Pokémon. They can be put on the bench as basics, and evolve into the "normal" basic Pokémon if you want them to. However, it turns out these Babies are usually far more useful than their later Stages (though they'd have fiercer competition if champions from the Base/Jungle/Fossil era, such as Hitmonchan and Electabuzz, weren't banned from this format).</p>
+
+<p>All Babies have 30 hp, and no retreat cost, weakness, or resistance. Most of them have unique powers rarely if ever found on other basic Pokémon, but those would not be worth the trade-off if it weren't for the Baby Rule. The Baby Rule is a Poké-Note on each of them that states that if the Baby is active while your opponent announces an attack, they have to flip a coin before doing anything. If tails, their attack is not executed and their turn ends.</p>
+
+<p>Because of the Baby rule, Babies are actually some of the hardest Pokémon to take care of. You can plan ahead all you want, playing all sorts of Trainers and setting up some combos, but if you fail that Baby flip at the end of the turn, your opponent might still be able to stop you.</p>
+
+<p>By far the most dominant Baby Pokémon is Cleffa. For just a colorless Energy, Cleffa's Eeeeeek allows you to shuffle all the cards in your hand into your deck and draw 7 fresh ones. Cleffa can and should be put into every single deck you make, as this kind of reliable drawing power isn't really found anywhere else. Every turn Cleffa survives is another turn for you to play all the cards you want, then press the attack button to do it all over again next turn. And if you don't want to for that particular turn, you can either idle and keep it active, or use its free retreat to have something with more offensive power in the active spot. An example of this situation: you got a basic and a corresponding evolution in your hand last time and you want that evolution out as soon as possible, but you can't evolve a Pokémon the turn you play it.</p>
+
+<p>The other Babies are not as useful, but there's a few whose use should be noted.</p>
+
+<p>Elekid has a Pokémon Power called Playful Punch that is essentially a free attack that can be used even if Elekid is on the bench. It's only 20 damage, and you have to flip heads for it to actually work, but it's better than nothing. Examples of when this "better than nothing" attack is useful is when you can't or don't want to attack with your active (such as the above situation where you want to keep the cards in your hand and Cleffa active), or if you evolved your active into something that needs more Energy to attack. Since Playful Punch is a Pokémon Power and not an attack, it also bypasses things such as Baby Rule and Focus Band.</p>
+
+<p>Tyrogue's Smash Punch does 30 for just a single colorless Energy, as long as you flip heads, which gives it a 25% chance to KO an opposing Baby. Like with Elekid, it's not bad if you don't have anything else available at the moment. Its main use is probably taking out Eevee in one hit.</p>
+
+<p>There's also Igglybuff, whose Gaze Pokémon Power shuts down a single one of your opponent's Pokémon Powers, but only until the end of your turn, so it's only useful for disruptive powers that work outside of your opponent's turn. Obviously, this made Igglybuff very useful against Slowking. With Slowking nerfed or banned, it's nearly useless.</p>
+
+<h2>Darkness and Metal Energy</h2>
+<p>Gold and Silver introduced us to these two new types, and the TCG is no different. The Team Rocket set already introduced us to Energy cards with an additional effect (Potion Energy and Full Heal Energy), and Metal and Dark continue that interesting trend.</p>
+
+<p><strong><a href="http://pokebeach.com/scans/neo-genesis/104-darkness-energy.jpg">Darkness Energy</a></strong><br />
+<em>If the Pokémon Darkness Energy is attached to damages the Defending Pokémon (after applying Weakness and Resistance), the attack does 10 more damage to the Defending Pokémon. At the end of every turn, put 1 damage counter on the Pokémon Darkness Energy is attached to, unless it's <img src="/media/smog/10/tcg_darkness.png" alt="[D]" /> or has Dark in its name. Darkness Energy provides <img src="/media/smog/10/tcg_darkness.png" alt="[D]" /> Energy. (Doesn't count as a basic Energy card.)</em></p>
+
+<p>In short, Darkness Energy makes you deal 10 more damage whenever you attack the Defending Pokémon. And as a trade-off, unless your Pokémon has Dark in the name (such as Dark Charizard), or has the Dark-type (such as Murkrow), it also takes 10 damage between turns (so essentially, twice in a full turn cycle). This generally makes Darkness Energy a losing trade for anything that isn't immune to its side effect. For the large amount of Pokémon that are, though, it's essentially a more permanent Pluspower that also fulfills their Energy requirements. You're only allowed to put four of these in your deck (since they're not basic Energy cards).</p>
+
+<p><strong><a href="http://pokebeach.com/scans/neo-genesis/19-metal-energy.jpg">Metal Energy</a></strong><br />
+<em>Damage done to the Pokémon Metal Energy is attached to is reduced by 10 (after applying Weakness and Resistance). If the Pokémon Metal Energy is attached to isn't <img src="/media/smog/10/tcg_metal.png" alt="[M]" />, whenever it damages a Pokémon, reduce that damage by 10 (before applying Weakness and Resistance). Metal Energy provides <img src="/media/smog/10/tcg_metal.png" alt="[M]" /> Energy. (Doesn't count as a basic Energy card.)</em></p>
+
+<p>Metal Energy is the polar opposite of Darkness Energy: it shaves 10 damage off any damage done to the holder. A Metal Pokémon like Steelix will obviously appreciate the damage cut, but that's not where the fun ends. The penalty of a non-Metal Pokémon using it is much less severe, to the point where it's actually usable by non-Metal Pokémon, if not advantageous. First, reducing attacking power by 10 is not a big deal for something that kills everything in one or two hits anyway. In addition, due to the way Metal Energy is worded, it shaves 20 damage off attacks that make a Pokémon damage itself. After all, in such cases, it's not only the damage dealer, but also the damage receiver, meaning both of the Metal Energy's effects apply. This is very useful for Dark Weezing and Rocket's Zapdos, both of which have monstrous attacking power.</p>
+
+<h2>The Trainers</h2>
+<p>NeoTRGym's Trainers are the weakest out of all generations, but that doesn't mean they're not worth playing. Due to the lack of powerful basic Pokémon (such as Hitmonchan and Electabuzz from the Base Set), you'll usually need an evolution to deal notable damage to your opponent. And to get those out, you'll need some help from the Trainers.</p>
+
+<p>Note that these are not listed in any particular order.</p>
+
+<p><strong><a href="http://pokebeach.com/scans/neo-genesis/96-professor-elm.jpg">Professor Elm</a></strong><br />
+<em>Shuffle your hand into your deck. Then, draw 7 cards. You can't play any more Trainer cards this turn.</em></p>
+
+<p>Barring Cleffa, this is the best way to get a hand refresher. It is safer and more conservative than Professor Oak from the Base Set (discard your hand, then draw 7 cards), since Elm puts the leftover cards in your deck instead of the discard, and stops you from playing Trainers for the rest of your current turn. It works well in conjunction with Cleffa. You play all the cards you need to play, then use Professor Elm. Play any non-Trainers you can, then use Cleffa to refresh your hand for a second time this turn.</p>
+
+<p><strong><a href="http://pokebeach.com/scans/neo-genesis/87-mary.jpg">Mary</a></strong><br />
+<em>Draw 2 cards. Then, shuffle 2 cards from your hand into your deck.</em></p>
+
+<p>Mary is to the Base Set Bill (draw 2 cards) what Elm is to Oak: a more conservative version. Mary basically gets you two fresh cards, then puts your two least useful cards at that point back into the deck. It's not as much of a staple as Professor Elm, but it's a good filler card that works with any deck.</p>
+
+<p><strong><a href="http://pokebeach.com/scans/team-rocket/76-imposter-oak%27s-revenge.jpg">Imposter Oak's Revenge</a></strong><br />
+<em>Discard a card from your hand in order to play this card. Your opponent shuffles his or her hand into his or her deck, then draws 4 cards.</em></p>
+
+<p>Imposter Oak's Revenge, or IOR for short, is part of several useful combinations, one of which is the "Trapper" combo, which I will elaborate on in a different entry. Its primary use is disruption: you just made your opponent refresh his hand when he didn't want to, and with only 5 cards (including his next draw), the chance that he has what he needs is smaller. IOR comes with the cost of discarding a card from your hand, which doesn't have to be a bad thing. It allows Rocket's Zapdos to draw a Lightning Energy from the discard on turn 1, for example.</p>
+
+<p><strong><a href="http://pokebeach.com/scans/team-rocket/72-rocket%27s-sneak-attack.jpg">Rocket's Sneak Attack</a></strong><br />
+<em>Look at your opponent's hand. If he or she has any Trainer cards, choose 1 of them. Your opponent shuffles that card into his or her deck.</em></p>
+
+<p>The second part of the Trapper combination. After you used Imposter Oak's Revenge, your opponent is left with 4 cards. You can then play this card to see what they have. If they were lucky enough to get a Professor Elm within those four, you can have them reshuffle it. Rocket's Sneak Attack also works well outside of the context of the Trapper. Simply knowing their hand gives you a good idea of what you can expect to happen in the next one or two turns, and removing one of their Trainers will likely slow them down. And if they have multiple copies of something you don't want them to have, you can play multiple Sneak Attacks in a turn.</p>
+
+<p><strong><a href="http://pokebeach.com/scans/gym-heroes/19-the-rocket%27s-trap.jpg">The Rocket's Trap</a></strong><br />
+<em>Flip a coin. If heads, choose up to 3 cards at random from your opponent's hand (don't look at them). Your opponent shuffles those cards into his or her deck.</em></p>
+
+<p>The final episode of the Trapping combo. It's the most unreliable one, since if you flip tails, you wasted a card. But if you flip heads after playing the two other cards, you leave your opponent with zero cards in their hand. Of course, if they have a Cleffa ready to Eeeeeeek!, it's a large waste of time to attempt to trap them, but otherwise it can get you a great head start. This card doesn't work very well on its own since you are picking cards blindly, but if you're in a pinch you could always try. Playing multiple copies in the same turn increases your chances of success. You have a 75% chance of succeeding at least once if you play two, and 87.5% if you play three.</p>
+
+<p><strong><a href="http://pokebeach.com/scans/gym-heroes/100-erika.jpg">Erika</a></strong><br />
+<em>You may draw up to 3 cards, then your opponent may draw up to 3 cards.</em></p>
+
+<p>On its own, this card's use is questionable. Three extra cards for both players is only a slight advantage to the Erika player, since they get to use their new cards first. But when you combine multiple copies of Erika with an Imposter Oak's Revenge, you get an extremely fast drawing engine that can net you up to 12 extra cards in a turn while also putting your opponent with a 4 card hand. It's a good way to get the Trapper combo in your hand, as well as obviously your own key evolutions. I heavily recommend against using this card without having an Imposter Oak's Revenge in your hand.</p>
+
+<p><strong><a href="http://pokebeach.com/scans/gym-heroes/111-good-manners.jpg">Good Manners</a></strong><br />
+<em>In order to play this card, you can't have any Basic Pokémon cards in your hand. Show your hand to your opponent, then search your deck for a Basic Pokémon card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.</em></p>
+
+<p>Searching whatever Basic you want is good enough to offset for minor drawbacks like having to show your opponent your hand, especially since you can just use Professor Elm or Cleffa to get a new hand afterwards. A very simple but useful Trainer&mdash;most decks should run at least two copies of this.</p>
+
+<p><strong><a href="http://pokebeach.com/scans/neo-revelation/62-pokemon-breeder-fields.jpg">Pokémon Breeder Fields</a></strong><br />
+<em>Flip a coin for 1 or 2 of your non-Baby Pokémon that can evolve. For each heads, search your deck for a later-Stage card that matches that Pokémon. Then put that card into your hand. Shuffle your deck afterward.</em></p>
+
+<p>The fact that this flippy Trainer is the best way to get your evolutions out as soon as possible says a lot about the pace of the metagame. The most efficient way to use it is to play it when you have two copies of the same basic Pokémon out. You have a 75% chance of getting at least one heads, and a 25% chance of getting two heads. So if you're dealing with a Stage 2 line, there's a chance you can get both the cards you need. Or if you already have one Stage but still need the other, you have a 75% chance of being able to fetch that. Again, multiple copies of this card means more chance of success.</p>
+
+<p><strong><a href="http://pokebeach.com/scans/neo-genesis/100-double-gust.jpg">Double Gust</a></strong><br />
+<em>If you have any Benched Pokémon, your opponent chooses 1 of them and switches it with your Active Pokémon. Then, if your opponent has any Benched Pokémon, choose 1 of them and switch it with his or her Active Pokémon.</em></p>
+
+<p>Double Gust is essentially a classic Gust of Wind for both players, with your opponent choosing first, allowing you to get the most favourable match-up. The best time to play it is when your entire Bench can retreat for free, since then you can take full advantage of the card's positive effect while essentially ignoring the negative side. Double Gust allows you to circumvent your opponent's Baby Rule, it allows you to pick off weak Basics before they evolve, and it can force a weak Pokémon with high retreat in the active spot to buy you some set-up time.</p>
+
+<p><strong><a href="http://pokebeach.com/scans/neo-genesis/86-focus-band.jpg">Focus Band</a></strong><br />
+<em>Attach Focus Band to 1 of your Pokémon that doesn't have a Pokémon Tool attached to it. If the Pokémon Focus Band is attached to would be Knocked Out by your opponent's attack, flip a coin. If heads, that Pokémon is not Knocked Out and its remaining HP becomes 10 instead. Then, discard Focus Band.</em></p>
+
+<p>Gold and Silver were the first games to have held items in them. The TCG followed suit by introducing Pokémon Tools, which essentially have the same mechanics. Focus Band is a gamble, but one your opponent is just as worried about as you are. Its main use is stacking with the Baby Rule, giving your opponent's hard hitter a 25% chance to break through both barriers. Of course, once it worked once, it's discarded and you have to attach a new one to keep going.</p>
+
+<p><strong><a href="http://pokebeach.com/scans/neo-genesis/93-gold-berry.jpg">Gold Berry</a></strong><br />
+<em>Attach Gold Berry to 1 of your Pokémon that doesn't have a Pokémon Tool attached to it. At any time between turns, if there are at least 4 damage counters on the Pokémon Gold Berry is attached to, you may remove 4 of them and discard Gold Berry. At the start of each turn, if there are at least 4 damage counters on the Pokémon Gold Berry is attached to, remove 4 of them and discard Gold Berry.</em></p>
+
+<p>Whereas Focus Band is most useful on frail Pokémon that get killed quickly, Gold Berry is for Pokémon with high HP that are around to stay. Pokémon such as Feraligatr can use Gold Berry to stick around for one more turn, and for a durability monster such as Steelix it might even be multiple turns. Gold Berry can not only wash away normal damage, but also recoil damage (for example, from Arcanine's Heat Tackle, or Rocket's Zapdos' Electroburn), and poison damage. Beware though, that it can be bypassed. For example, you put Gold Berry on a Pokémon with 80 HP. Your opponent does 30 damage to it, and it doesn't activate. Next turn, he does 50 damage, and the Pokémon is Knocked Out.</p>
+
+<p>There are some other Trainers out there that I decided not to list, since they are either less consistent or fit into fewer decks. However, I will casually mention the following as Trainers you might want to check out when deck building.</p>
+
+<ul>
+<li><a href="http://pokebeach.com/scans/gym-challenge/102-chaos-gym.jpg">Chaos Gym</a></li>
+<li><a href="http://pokebeach.com/scans/team-rocket/15-here-comes-team-rocket.jpg">Here Comes Team Rocket!</a></li>
+<li><a href="http://pokebeach.com/scans/gym-challenge/116-master-ball.jpg">Master Ball</a></li>
+<li><a href="http://pokebeach.com/scans/gym-heroes/114-misty%27s-wrath.jpg">Misty's Wrath</a></li>
+<li><a href="http://pokebeach.com/scans/team-rocket/77-nightly-garbage-run.jpg">Nightly Garbage Run</a></li>
+<li><a href="http://pokebeach.com/scans/neo-revelation/63-rocket%27s-hideout.jpg">Rocket's Hideout</a></li>
+<li><a href="http://pokebeach.com/scans/neo-genesis/98-super-scoop-up.jpg">Super Scoop Up</a></li>
+<li><a href="http://pokebeach.com/scans/gym-heroes/126-trash-exchange.jpg">Trash Exchange</a></li>
+<li><a href="http://pokebeach.com/scans/gym-challenge/126-warp-point.jpg">Warp Point</a></li>
+</ul>
+
+<h2>Pokémon</h2>
+
+<p>So now that we've established what kind of support we can put into a deck, it's time to look for the core Pokémon we can use. The Pokémon listed below generally need a deck based around them to be most effective. Sometimes, Pokémon should nearly always be used in combination with other Pokémon (for example, Typhlosion with other Fire attackers, or Dark Gengar with Misdreavus). So just because these partners aren't listed in their own entry doesn't mean they're not good enough. You can often get away with just using your core attackers, 4 Cleffa, and an Elekid for Pokémon. Add around 15 Energies, fill everything else with fitting Trainers, and you have a decent deck!</p>
+
+<p>Again, note that they're not really listed in any order.</p>
+
+<h4>Feraligatr [Neo Genesis]</h4>
+
+<p><strong><a href="http://pokebeach.com/scans/neo-genesis/5-feraligatr.jpg">Feraligatr</a></strong><br />
+<em>120 HP | W: <img src="/media/smog/10/tcg_grass.png" alt="[G]" /> | R: &nbsp;&nbsp; | RC: <img src="/media/smog/10/tcg_colorless.png" alt="[C]" /><img src="/media/smog/10/tcg_colorless.png" alt="[C]" /><img src="/media/smog/10/tcg_colorless.png" alt="[C]" /><br />
+PokéPower - Downpour: As often as you like during your turn (before your attack), you may discard a <img src="/media/smog/10/tcg_water.png" alt="[W]" /> Energy card from your hand. This power can't be used if Feraligatr is Asleep, Confused, or Paralyzed.<br />
+<img src="/media/smog/10/tcg_water.png" alt="[W]" /><img src="/media/smog/10/tcg_water.png" alt="[W]" /><img src="/media/smog/10/tcg_water.png" alt="[W]" /> - Riptide (10+): Does 10 damage plus 10 more damage times the number of <img src="/media/smog/10/tcg_water.png" alt="[W]" /> Energy cards in your discard pile. Then, shuffle all <img src="/media/smog/10/tcg_water.png" alt="[W]" /> Energy cards from your discard pile into your deck.</em></p>
+
+<p>Feraligatr is the most threatening attacker in the NTRG metagame. It might look like a one-day fly at first: you find enough <img src="/media/smog/10/tcg_water.png" alt="[W]" /> Energy for it to use somehow, discard enough to KO whatever Feraligatr is up against, and then all that Energy goes into your deck and he's all out of steam. But thanks to Misty's Wrath and Trash Exchange, you can fill your discard pile with Energy time and time again, hopefully enough to completely flush your opponent. Its damage is enormous, nothing resists Water, and very few things can threaten Feraligatr's 120 HP. The few things that can, such as Meganium and Erika's Victreebel, take just as long to set up as he does. Further back-up for Feraligatr can be Misty's Tears to get some Energy from the deck, Gold Berry and Metal Energy to keep it alive, and of course Double Gust to pick off the right targets.</p>
+
+<h4>Typhlosion [Neo Genesis]</h4>
+
+<p><strong><a href="http://pokebeach.com/scans/neo-genesis/17-typhlosion.jpg">Typhlosion</a></strong><br />
+<em>100 HP | W: <img src="/media/smog/10/tcg_water.png" alt="[W]" /> | R: &nbsp;&nbsp; | RC: <img src="/media/smog/10/tcg_colorless.png" alt="[C]" /><img src="/media/smog/10/tcg_colorless.png" alt="[C]" /><br />
+PokéPower - Fire Recharge: Once during your turn (before your attack), you may flip a coin. If heads, attach a R Energy card from your discard pile to 1 of your R Pokémon. This power can't be used if Typhlosion is Asleep, Confused, or Paralyzed.<br />
+<img src="/media/smog/10/tcg_fire.png" alt="[R]" /><img src="/media/smog/10/tcg_fire.png" alt="[R]" /><img src="/media/smog/10/tcg_fire.png" alt="[R]" /><img src="/media/smog/10/tcg_fire.png" alt="[R]" /> - Flame Burst (60+): Flip a coin. If heads, this attack does 60 damage plus 20 more damage and does 20 damage to Typhlosion. If tails, this attack does 60 damage.</em></p>
+
+<p>Typhlosion is a great support partner for the numerous dangerous Fire Pokémon in NTRG, most notably Magcargo and Blaine's Arcanine. Magcargo's Lava Flow attack costs <img src="/media/smog/10/tcg_fire.png" alt="[R]" /><img src="/media/smog/10/tcg_fire.png" alt="[R]" /><img src="/media/smog/10/tcg_fire.png" alt="[R]" /> for 40, and you're allowed to discard as many R Energy attached to it as you wish. Each one you discard adds 20 damage. Blaine's Arcanine is more simple; it just needs <img src="/media/smog/10/tcg_fire.png" alt="[R]" /><img src="/media/smog/10/tcg_fire.png" alt="[R]" /><img src="/media/smog/10/tcg_fire.png" alt="[R]" /><img src="/media/smog/10/tcg_fire.png" alt="[R]" /> to use Firestorm for 120 damage, and then discard three <img src="/media/smog/10/tcg_fire.png" alt="[R]" /> Energies. With Typhlosion on the bench, you can recycle those Energies to launch those attacks more often. Multiple Typhlosions means more reliability (it's a flippy Pokémon Power, after all), and more potential Energy gained back. Typhlosion can function as an attacker as well if needed, though its attack isn't ideal: either you do 60, or you do 80 and 20 to yourself, and you have no control over which. Though if you wish, you can attach a Metal Energy to take away the recoil damage entirely, turning it into either 50 or 70. Obviously, Typhlosion's weakness to Feraligatr is a large drawback, which is another reason why Blaine's Arcanine is better suited for the active spot: it can use Cinnabar City Gym to eliminate its weakness, and it can OHKO Feraligatr with Firestorm.</p>
+
+<h4>Dark Gengar [Neo Destiny]</h4>
+
+<p><strong><a href="http://pokebeach.com/scans/neo-destiny/6-dark-gengar.jpg">Dark Gengar</a></strong><br />
+<em>70 HP | W: &nbsp;&nbsp; | R: <img src="/media/smog/10/tcg_fighting.png" alt="[F]" /> | RC: <img src="/media/smog/10/tcg_colorless.png" alt="[C]" /><img src="/media/smog/10/tcg_colorless.png" alt="[C]" /><br />
+PokéPower - Deep Sleep: As long as any Dark Gengar are in play, a player flips 2 coins for each of his or her Pokémon that is Asleep at the end of each turn. If either of them is tails, that Pokémon is still Asleep. This power stops working if Dark Gengar is Asleep, Confused, or Paralyzed.<br />
+<img src="/media/smog/10/tcg_psychic.png" alt="[P]" /><img src="/media/smog/10/tcg_psychic.png" alt="[P]" /><img src="/media/smog/10/tcg_psychic.png" alt="[P]" /> - Pull In (30): If your opponent has any Benched Pokémon, you may choose 1 of them and switch it with the Defending Pokémon (before doing damage or other effects of this attack). Either way, the Defending Pokémon is now Asleep.</em></p>
+
+<p>Dark Gengar is an enormous nuisance to be up against. Unlike the above two cards, Dark Gengar isn't going to stampede through your deck: he's going to take it slowly, while you're unable to attack. Its Pokémon Power reduces the chance of curing Sleep directly after it's induced from 50% to 25%. That's a 75% chance you won't be able to attack. Then, after your turn ends, you get to try again. Your chance of staying asleep even after your turn is roughly 56%. Those chances aren't pretty. With Dark Gengar on the bench, Misdreavus now has a 56% chance of pulling off a kill with the Night Eyes/Perish Song combo. Rocket's Drowzee's Long-Distance Hypnosis Pokémon Power also works well with this. And if needed, Dark Gengar also makes for a menace in the active spot. It can drag any of your benched Pokémon to the active spot, dealing 30 to them and putting them to sleep. It's one of the best Baby killers there is, since Baby Rule doesn't work if the Baby isn't active when Dark Gengar announces the attack. Dark Gengar has no exploitable weakness either, other than the fact that its HP is only 70, but that can be made into 90 with Rocket's Hideout.</p>
+
+<h4>Donphan [Neo Genesis]</h4>
+
+<p><strong><a href="http://pokebeach.com/scans/neo-genesis/21-donphan.jpg">Donphan</a></strong><br />
+<em>70 HP | W: <img src="/media/smog/10/tcg_grass.png" alt="[G]" /> | R: <img src="/media/smog/10/tcg_lightning.png" alt="[L]" /> | RC: <img src="/media/smog/10/tcg_colorless.png" alt="[C]" /><img src="/media/smog/10/tcg_colorless.png" alt="[C]" /><img src="/media/smog/10/tcg_colorless.png" alt="[C]" /><br />
+<img src="/media/smog/10/tcg_fighting.png" alt="[F]" /> - Flail (10x): Does 10 damage times the number of damage counters on Donphan.<br />
+<img src="/media/smog/10/tcg_fighting.png" alt="[F]" /><img src="/media/smog/10/tcg_fighting.png" alt="[F]" /><img src="/media/smog/10/tcg_fighting.png" alt="[F]" /> - Rapid Spin (50): If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with his or her Active Pokémon, then, if you have any Benched Pokémon, you switch 1 of them with your Active Pokémon. (Do the damage before switching the Pokémon.)</em></p>
+
+<p>Donphan's Rapid Spin serves three purposes: it damages the Defending Pokémon, it forces them to switch out, and it also retreats Donphan. When combined with an army of Baby Pokémon such as Cleffa and Elekid, while holding Focus Band, this makes him a very disruptive and powerful force. Once the Rapid Spinning starts, it's very hard to stop. After all, he's dealing a solid 50 damage every turn, and he also runs off to the bench to leave you with something that has a 50% or 75% chance to survive anything, whether it's Feraligatr's Riptide with 10 Energies in the discard, or Typhlosion's Flame Burst. It works in perfect tandem with the free retreat on the Babies, and it has the opposite effect on decks which have no Pokémon with free retreat on their bench. The addition of a Resistance Gym allows Donphan to deal a solid 40 to Pokémon that resist Fighting, such as Dark Gengar.</p>
+
+<h4>Rocket's Zapdos [Gym Challenge]</h4>
+
+<p><strong><a href="http://pokebeach.com/scans/gym-challenge/15-rocket%27s-zapdos.jpg">Rocket's Zapdos</a></strong><br />
+<em>70 HP | W: &nbsp;&nbsp; | R: <img src="/media/smog/10/tcg_fighting.png" alt="[F]" /> | RC: <img src="/media/smog/10/tcg_colorless.png" alt="[C]" /><img src="/media/smog/10/tcg_colorless.png" alt="[C]" /><br />
+<img src="/media/smog/10/tcg_lightning.png" alt="[L]" /> - Plasma (20): If there are any <img src="/media/smog/10/tcg_lightning.png" alt="[L]" /> Energy cards in your discard pile, attach 1 of them to Rocket's Zapdos.<br />
+<img src="/media/smog/10/tcg_lightning.png" alt="[L]" /><img src="/media/smog/10/tcg_lightning.png" alt="[L]" /><img src="/media/smog/10/tcg_lightning.png" alt="[L]" /><img src="/media/smog/10/tcg_colorless.png" alt="[C]" /> - Electoburn (70): Rocket's Zapdos does damage to itself equal to 10 times the number of <img src="/media/smog/10/tcg_lightning.png" alt="[L]" /> Energy cards attached to it.</em></p>
+
+<p>Aside from Cleffa, Rocket's Zapdos is the best basic Pokémon in the NTRG metagame. Both of its attacks allow for an infinite amount of quick and effective combos, and yet, it's also tremendous at taking care of itself. The first attack does 20 damage for just one Energy, and also allows it to move an Energy card from the discard pile to itself. If it had just one of these effects, it would be decent. Together, it's great. That means you can prepare it for Electroburn with just two Plasmas and one Energy card attachment from your hand. The second attack is extremely devastating considering how fast you can set it up: 70 damage on just the third turn it's out, with little to no Trainer support required. Just the Energy cards from either your hand or your discard pile. However, with four <img src="/media/smog/10/tcg_lightning.png" alt="[L]" /> Energy attached, Electroburn also does 40 damage to Rocket's Zapdos, which is problematic since it only has 70 HP to begin with. This is where you substitute one of those <img src="/media/smog/10/tcg_lightning.png" alt="[L]" /> Energies with a Metal Energy. Suddenly, it only deals 10 to itself: 30 from three Lightning Energies, minus 10 since Metal Energy reduces damage taken by 10, minus another 10 since Metal Energy reduces damage dealt (by non-Metal Pokémon) by 10. Add a Gold Berry, and we're dealing with a tanky basic Pokémon that starts dealing 60 after turn 3. Rocket's Zapdos makes for a great attacking Pokémon in disruption decks with the Trapper combo: Imposter Oak's Revenge gets you <img src="/media/smog/10/tcg_lightning.png" alt="[L]" /> Energy in the discard to absorb with Plasma, and the disruption stops your opponent from getting their evolutions out, while Zapdos takes out pretty much every common basic with Electroburn.</p>
+
+<h4>Meganium [Neo Genesis]</h4>
+
+<p><strong><a href="http://pokebeach.com/scans/neo-genesis/11-meganium.jpg">Meganium</a></strong><br />
+<em>100 HP | W: <img src="/media/smog/10/tcg_fire.png" alt="[R]" /> | R: &nbsp;&nbsp; | RC: <img src="/media/smog/10/tcg_colorless.png" alt="[C]" /><img src="/media/smog/10/tcg_colorless.png" alt="[C]" /><img src="/media/smog/10/tcg_colorless.png" alt="[C]" /><br />
+PokéPower - Wild Growth: As long as Meganium is in play, each <img src="/media/smog/10/tcg_grass.png" alt="[G]" /> Energy card attached to your <img src="/media/smog/10/tcg_grass.png" alt="[G]" /> Pokémon instead provides <img src="/media/smog/10/tcg_grass.png" alt="[G]" /><img src="/media/smog/10/tcg_grass.png" alt="[G]" />. This power stops working while Meganium is Asleep, Confused, or Paralyzed.<br />
+<img src="/media/smog/10/tcg_grass.png" alt="[G]" /><img src="/media/smog/10/tcg_grass.png" alt="[G]" /><img src="/media/smog/10/tcg_grass.png" alt="[G]" /><img src="/media/smog/10/tcg_grass.png" alt="[G]" /> - Soothing Scent (40): The Defending Pokémon is now Asleep.</em></p>
+
+<p>Wild Growth is what Meganium is all about. It reduces virtually every powerful attack from any Grass-type you could field to <img src="/media/smog/10/tcg_grass.png" alt="[G]" /><img src="/media/smog/10/tcg_grass.png" alt="[G]" /> at most. Examples include Erika's Victreebel (50 damage for <img src="/media/smog/10/tcg_grass.png" alt="[G]" /><img src="/media/smog/10/tcg_grass.png" alt="[G]" />, and Victreebel's Pokémon Power allows you to pick off your opponent's benched Basics), Crobat (Cross Attack for <img src="/media/smog/10/tcg_grass.png" alt="[G]" /><img src="/media/smog/10/tcg_grass.png" alt="[G]" />, see below), Giovanni's Nidoking (<img src="/media/smog/10/tcg_grass.png" alt="[G]" /><img src="/media/smog/10/tcg_grass.png" alt="[G]" /> for 40 damage, 70 if you flip heads), or even itself! Just like Typhlosion, Meganium works well as an accelerator for other Pokémon, but it can also hold its own. For just <img src="/media/smog/10/tcg_grass.png" alt="[G]" /><img src="/media/smog/10/tcg_grass.png" alt="[G]" />, it deals 40 damage and inflicts Sleep, which stops the Defending Pokémon from harming Meganium or retreating 50% of the time (unless they find a way to cure the status). Besides the obvious Grass Pokémon, Meganium can also be paired with Dark Gengar to make the sleep infliction even more vicious.</p>
+
+<h4>Crobat [Neo Revelation]</h4>
+
+<p><strong><a href="http://pokebeach.com/scans/neo-revelation/4-crobat.jpg">Crobat</a></strong><br />
+<em>90 HP | W: <img src="/media/smog/10/tcg_psychic.png" alt="[P]" /> | R: <img src="/media/smog/10/tcg_fighting.png" alt="[F]" /> | RC: &nbsp;&nbsp;<br />
+<img src="/media/smog/10/tcg_grass.png" alt="[G]" /> - Triggered Poison (20): If your opponent attaches an Energy card to the Defending Pokémon during his or her next turn, that Pokémon becomes Poisoned.<br />
+<img src="/media/smog/10/tcg_grass.png" alt="[G]" /><img src="/media/smog/10/tcg_grass.png" alt="[G]" /><img src="/media/smog/10/tcg_colorless.png" alt="[C]" /> - Cross Attack (20x): Flip 4 coins. This attack does 20 damage times the number of heads. If you get 2 or more heads, the Defending Pokémon is now Confused.</em></p>
+
+<p>Crobat is part of the club of Stage 2 Grass Pokémon that can threaten Feraligatr, along with Erika's Victreebel and Meganium. It makes a fine attacker on its own: it's fast for a Stage 2 due to the cheapness of Triggered Poison, and once it has three Energies it's packing an average of 40 damage and an over 50% chance of confusing the Defending Pokémon. Confusion is extremely disruptive, since it forces your opponent to take gambles whether they want to retreat or attack. It also stops Pokémon Powers such as Feraligatr's Downpour from working. What makes Crobat even more annoying is its lack of retreat cost, which allows the player to play Double Gust to their heart's content. As mentioned, Crobat works well with Meganium if you can get both lines up to Stage 2, since that makes Cross Attack cost a lousy <img src="/media/smog/10/tcg_grass.png" alt="[G]" /><img src="/media/smog/10/tcg_grass.png" alt="[G]" />.</p>
+
+<p>Crobat is also the best attacker in a deck based around Dark Crobat. Dark Crobat is good enough to warrant mention in this article, but not really good enough for a spot on its own. Both Dark Golbat and Dark Crobat can deal damage to one of your opponent's Pokémon of your choice just by coming into play, and since it's with a Pokémon Power rather than an attack, it's ideal for killing off Babies. It can weaken your opponent to the point where they're in KO range when they didn't expect it. Super Scoop Up and Hyper Devolution Spray can allow the re-use of Dark Crobat. Of course, such a deck would need an attacker in the Active spot to remain a threat&mdash;so why wouldn't you use the other part of the Zubat line for that?</p>
+
+<h4>Murkrow [Neo Genesis]</h4>
+
+<p><strong><a href="http://pokebeach.com/scans/neo-genesis/24-murkrow.jpg">Murkrow</a></strong><br />
+<em>50 HP | W: &nbsp;&nbsp; | R: <img src="/media/smog/10/tcg_psychic.png" alt="[P]" /> | RC: &nbsp;&nbsp;<br />
+<img src="/media/smog/10/tcg_darkness.png" alt="[D]" /> - Mean Look: The Defending Pokémon can't retreat as long as Murkrow remains your Active Pokémon. (Benching or evolving either Pokémon ends this effect.)<br />
+<img src="/media/smog/10/tcg_darkness.png" alt="[D]" /><img src="/media/smog/10/tcg_colorless.png" alt="[C]" /> - Feint Attack: Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. This attack's damage isn't affected by Weakness, Resistance, Pokémon Powers, or any other effects on the Defending Pokémon.</em></p>
+
+<p>Murkrow is a Pokémon that can literally lock up the game with the correct support. Its first attack can trap a harmless Pokémon in the active position, and from there, it can start sniping the opponent's bench. Cleffa makes for excellent trapping bait with Murkrow, though you will have to flip heads on Baby Rule when using Mean Look. You can pull it active with a well-timed Double Gust, which Murkrow decks can use very well considering its lack of a retreat cost. After Murkrow trapped something, you will want to make sure your opponent can't escape the lock. Dark Feraligatr stops Cleffa from refreshing your opponent's hand, and conveniently turns other Babies into trapping fodder as well. Dark Feraligatr also prevents Elekid from using Playful Punch to try and take out Murkrow (who doesn't have more than 50 HP to spare). Dark Vileplume completely stops all Trainers from being played, which is Murkrow's best defense against a Double Gust. Obviously, the Trapper Trainer combo works very well with Murkrow as well.</p>
+
+<p>These eight Pokémon (or deck types) are the main things to watch out for. There's definitely more viable cards out there, including but not limited to:</p>
+
+<ul>
+<li>Ampharos (either version)</li>
+<li>Dark Dragonair</li>
+<li>Dark Tyranitar</li>
+<li>Dark Weezing</li>
+<li>Giovanni's Machamp</li>
+<li>Kabutops</li>
+<li>Omastar</li>
+</ul>
+
+<h2>Example Deck</h2>
+
+<p>Here's a Fire deck that I've personally used numerous times to good success, to give you an idea of the proportions of a good NTRG deck.</p>
+
+<ul>
+<li>Typhlosion, NGen-17 x 4</li>
+<li>Quilava, NGen-47 x 4</li>
+<li>Cyndaquil, NGen-57 x 4</li>
+<li>Blaine's Arcanine, GC-1 x 3</li>
+<li>Blaine's Growlithe, GC-62 x 3</li>
+<li>Cleffa, NGen-20 x 4</li>
+<li>Elekid, NGen-22 x 1</li>
+</ul>
+
+<p>The only Pokémon lines included are Blaine's Arcanine (the main attacker), Typhlosion (Energy acceleration and back-up attacker), Cleffa (hand refreshing), and a single Elekid (for when there's nothing else to do for the Active Pok&eacute;mon). Having multiple Typhlosion on the bench allows Arcanine to use Firestorm more often, but usually one or two Arcanine are enough to sweep the opponent, so that's why the former line is 4-4-4 while the latter is 3-3.</p>
+
+<p>An optional change here would be to remove the Elekid for another Trainer, since most Pokémon on this deck are quite productive in the active spot, with the exception of Cyndaquil.</p>
+
+<ul>
+<li>Professor Elm, NGen-96 x 4</li>
+<li>Super Energy Retrieval, NGen-89 x 1</li>
+<li>Pokemon Breeder Fields, NRev-62 x 3</li>
+<li>Blaine, GC-17 x 4</li>
+<li>Mary, NGen-87 x 2</li>
+<li>Gold Berry, NGen-93 x 2</li>
+<li>Focus Band, NGen-86 x 3</li>
+<li>Cinnabar City Gym, GC-113 x 2</li>
+</ul>
+
+<p>Professor Elm, Mary, and Pokemon Breeder Fields help to get Arcanine and Typhlosion up and running as soon as possible. Blaine allows two <img src="/media/smog/10/tcg_fire.png" alt="[R]" /> Energy attachments to Blaine's Arcanine (not to any of the other Pokémon in this deck), which helps if Typhlosion's Fire Recharge isn't sufficient for that for whatever reason. Super Energy Retrieval is an ultimate back-up card, trading 2 cards in your hand for 4 <img src="/media/smog/10/tcg_fire.png" alt="[R]" /> Energy from the discard, just in case you need them in your hand quickly. Works well with Blaine. Gold Berry, Focus Band, and, in Arcanine's case, Cinnabar City Gym, keep the Active alive, but they're not crucial enough to warrant more than 2-3 of each.</p>
+
+<ul>
+<li>Fire Energy, NGen-107 x 16</li>
+</ul>
+
+<p>Once Arcanine has enough Energy, any others in the deck become dead draws, since Typhlosion can keep recycling them. The fact that Blaine's Growlithe's Stoke can get Energy from the deck helps as well. But less Energy than this runs the risk of not being able to attack at all in the beginning.</p>
+
+<p>Card scans courtesty of PokeBeach.com</p>
+<table id="smogfooter">
+<tr>
+<td class="left"><a href="tcg">&laquo; Previous Article</a></td>
+<td class="middle"><a href="/smog/issue10/">Home</a></td>
+<td class="right"><a href="spriting">Next Article &raquo;</a></td>
+</tr>
+</table>

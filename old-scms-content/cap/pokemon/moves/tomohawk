@@ -1,0 +1,90 @@
+[title]
+Tomohawk
+[head]
+<link rel="stylesheet" type="text/css" href="/media/dex/dex.css" />
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_template.js"></script>
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_database.js"></script>
+[header]
+[page]
+<script language="JavaScript">
+var cap = Tomohawk();
+
+cap.movesLevel[0] = ["Sunny Day", "Aura Sphere", "Fury Swipes", "Harden"];
+cap.movesLevel[8] = "Fury Swipes";
+cap.movesLevel[13] = "Harden";
+cap.movesLevel[17] = "Aerial Ace";
+cap.movesLevel[20] = "Morning Sun";
+cap.movesLevel[23] = "Whirlwind";
+cap.movesLevel[29] = "Rain Dance";
+cap.movesLevel[33] = "Earth Power";
+cap.movesLevel[37] = "Air Slash";
+cap.movesLevel[42] = "Submission";
+cap.movesLevel[45] = "Heat Wave";
+cap.movesLevel[49] = "Hyper Voice";
+cap.movesLevel[50] = "Sky Drop";
+cap.movesLevel[51] = "Superpower";
+cap.movesLevel[53] = "Rest";
+cap.movesLevel[55] = "Hurricane";
+cap.movesLevel[60] = "Healing Wish";
+
+cap.movesTM[5] = "Roar";
+cap.movesTM[6] = "Toxic";
+cap.movesTM[8] = "Bulk Up";
+cap.movesTM[10] = "Hidden Power";
+cap.movesTM[12] = "Taunt";
+cap.movesTM[15] = "Hyper Beam";
+cap.movesTM[17] = "Protect";
+cap.movesTM[18] = "Rain Dance";
+cap.movesTM[20] = "Safeguard";
+cap.movesTM[21] = "Frustration";
+cap.movesTM[22] = "SolarBeam";
+cap.movesTM[26] = "Earthquake";
+cap.movesTM[27] = "Return";
+cap.movesTM[31] = "Brick Break";
+cap.movesTM[32] = "Double Team";
+cap.movesTM[33] = "Reflect";
+cap.movesTM[39] = "Rock Tomb";
+cap.movesTM[40] = "Aerial Ace";
+cap.movesTM[42] = "Facade";
+cap.movesTM[43] = "Secret Power";
+cap.movesTM[44] = "Rest";
+cap.movesTM[45] = "Attract";
+cap.movesTM[46] = "Thief";
+cap.movesTM[48] = "Round";
+cap.movesTM[49] = "Echoed Voice";
+cap.movesTM[52] = "Focus Blast";
+cap.movesTM[54] = "False Swipe";
+cap.movesTM[56] = "Fling";
+cap.movesTM[58] = "Sky Drop";
+cap.movesTM[59] = "Incinerate";
+cap.movesTM[60] = "Quash";
+cap.movesTM[62] = "Acrobatics";
+cap.movesTM[67] = "Retaliate";
+cap.movesTM[68] = "Giga Impact";
+cap.movesTM[70] = "Flash";
+cap.movesTM[71] = "Stone Edge";
+cap.movesTM[78] = "Bulldoze";
+cap.movesTM[80] = "Rock Slide";
+cap.movesTM[83] = "Work Up";
+cap.movesTM[86] = "Grass Knot";
+cap.movesTM[87] = "Swagger";
+cap.movesTM[90] = "Substitute";
+cap.movesTM[94] = "Rock Smash"
+
+cap.movesHM[2] = "Fly";
+cap.movesHM[4] = "Strength";
+
+cap.movesEgg = [
+"Baton Pass",
+"Confuse Ray",
+"Haze",
+"Memento",
+"Rapid Spin",
+"Roost",
+"Stealth Rock",
+"Yawn"
+];
+
+
+document.write(composeMovesPage(cap));
+</script>

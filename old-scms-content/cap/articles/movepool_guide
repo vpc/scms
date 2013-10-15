@@ -1,0 +1,161 @@
+[title]
+Guide to Creating a CAP Movepool
+[page]
+<div class="author">Written by <a href="/forums/member.php?u=43161">Rising_Dusk</a> with research by <a href="/forums/member.php?u=2412">X-Act</a>. </div>
+
+<ol class="toc">
+<li><a href="#intro">Introduction</a></li>
+<li><a href="#restrict">Movepool Restrictions</a></li>
+<li><a href="#require">Movepool Requirements </a></li>
+<li><a href="#tm">TM Moves</a>
+<ul>
+<li><a href="#tmlist">TM Move List</a></li>
+</ul>
+</li>
+<li><a href="#levelup">Level-Up Moves</a></li>
+<li><a href="#egg">Egg Moves</a></li>
+<li><a href="#tutor">Move Tutor Moves</a>
+<ul>
+<li><a href="#tutorlist">Move Tutor Move List</a></li>
+</ul>
+</li>
+<li><a href="#example">Example</a>
+<ul>
+<li><a href="#gengar">Gengar's Movepool</a></li>
+</ul>
+</li>
+</ol>
+
+<h2><a name="intro">Introduction</a></h2>
+
+<p>Movepools are largely considered the single most important competitive aspect of a Pokémon. The reasoning for this is that a movepool defines a Pokémon's diversity, what he can and cannot beat, and what functionality he can provide for his team. Many Pokémon, such as Breloom with Spore, are defined by their specific, yet incredible movepools. Some movepools, such as those of Tyranitar and Blissey, are enormous and provide nearly limitless options, while others, like that of Hippowdon, are just big enough to make the Pokémon worth using. Both of these types of movepools have their respective places with different CAPs, but there's a lot to movepools that might not be apparent at first glance. This article's focus is to bring those tricks and traps to the forefront and address them so that you might not make the same mistakes that many others have in the past when creating your CAP movepool.</p>
+
+<h2><a name="restrict">Movepool Restrictions</a></h2>
+
+<p>In the past, many CAP movepools have tended to creep in power toward being obscene. In order to address these issues, as well as bring CAP Pokémon movepools back in line with the movepools of common OU Pokémon, some limitations and restrictions were placed upon the movepool stage of the CAP process. As listed in <a href="/cap/process/events/stat_and_movepool_limits">this</a> process guide article, the Stat and Movepool Limits stage imposes restrictions on the number of Very Good Moves that a CAP Pokémon may have in its movepool. To learn more about what a Very Good Move is and to find the list of them, refer to <a href="/cap/process/events/movepool_submissions#restrictions">this</a> process guide article. Once these restrictions are set by the Topic Leader, you as a movepool creator must adhere to them strictly.</p>
+
+<h2><a name="require">Movepool Requirements </a></h2>
+
+<p>In addition to having a raw limit placed on the number of Very Good Moves that may be in your CAP Pokémon's movepool, there exist some requirements that must be in all movepools. The first of these requirements is the Type-Move Requirement list. The Type-Move Requirements are moves that must be on your CAP movepool somewhere based upon the typing of the CAP Pokémon. A list of these Type-Move Requirements can be found <a href="/cap/process/events/movepool_submissions#type-move">here</a>. So, for instance, if the given CAP that you are creating a movepool for is a Fire/Ghost Pokémon, he would be required to have Fire Blast, Flamethrower, Dream Eater, Sucker Punch, and Trick, among other moves. This limits the diversity and overall power of movepools by forcing there to exist many potentially competitively similar moves on a Pokémon.</p>
+
+<p>The other requirement placed upon CAP movepools is the Move-Move Requirement list. The list of Move-Move Requirements is given <a href="/cap/process/events/movepool_submissions#move-move">here</a>. In essence, the Move-Move Requirements make it so that in order to put one Very Good Move on a movepool, you must also put in all other required moves as listed in the above linked table. For instance, if you wanted your Rock-type Pokémon to get Flamethrower, you would also have to give him Fire Blast. Similarly, if you wanted a Pokémon to have Ice Beam, he would also have to learn Blizzard. This further limits movepools by forcing like moves to be present in a group on movepools, preventing too many stray Very Good Moves from being added into that movepool, given the Very Good Move limit imposed by the Stat and Movepool Limits stage of the CAP process.</p>
+
+<h2><a name="tm">TM Moves</a></h2>
+
+<p>There are 100 TM moves available to all Pokémon. Some of these moves have to be chosen depending on certain aspects of the CAP Pokémon, but many of them can fit into basically any movepool, with the following exceptions: Fire- and Grass-type Pokémon do not learn any Ice-type moves, while Ice- and Grass-type Pokémon do not learn any Fire-type moves.</p>
+
+<h3><a name ="tmlist">TM Move List</a></h3>
+<table class="sortable">
+<thead>
+<tr>
+<th colspan="4" style="text-align: center;">TM Moves</th>
+</tr>
+</thead>
+<tbody>
+        <tr>    <td>    TM01    Focus Punch    </td>    <td>    TM26    Earthquake    </td>    <td>    TM51    Roost    </td>    <td>    TM76    Stealth Rock    </td>    </tr>
+        <tr class="a">    <td>    TM02    Dragon Claw    </td>    <td>    <strong>TM27    Return</strong>    </td>    <td>    TM52    Focus Blast    </td>    <td>    TM77    Psych Up    </td>    </tr>
+        <tr>    <td>    TM03    Water Pulse    </td>    <td>    TM28    Dig    </td>    <td>    TM53    Energy Ball    </td>    <td>    <strong>TM78    Captivate ***</strong>    </td>    </tr>
+        <tr class="a">    <td>    TM04    Calm Mind    </td>    <td>    TM29    Psychic    </td>    <td>    TM54    False Swipe    </td>    <td>    TM79    Dark Pulse    </td>    </tr>
+        <tr>    <td>    TM05    Roar    </td>    <td>    TM30    Shadow Ball    </td>    <td>    TM55    Brine    </td>    <td>    TM80    Rock Slide    </td>    </tr>
+        <tr class="a">    <td>    <strong>TM06    Toxic</strong>    </td>    <td>    TM31    Brick Break    </td>    <td>    TM56    Fling    </td>    <td>    TM81    X-Scissor    </td>    </tr>
+        <tr>    <td>    TM07    Hail    </td>    <td>    <strong>TM32    Double Team</strong>    </td>    <td>    TM57    Charge Beam    </td>    <td>    <strong>TM82    Sleep Talk</strong>    </td>    </tr>
+        <tr class="a">    <td>    TM08    Bulk Up    </td>    <td>    TM33    Reflect    </td>    <td>    <strong>TM58    Endure</strong>    </td>    <td>    <strong>TM83    Natural Gift</strong>    </td>    </tr>
+        <tr>    <td>    TM09    Bullet Seed    </td>    <td>    TM34    Shock Wave    </td>    <td>    TM59    Dragon Pulse    </td>    <td>    TM84    Poison Jab    </td>    </tr>
+        <tr class="a">    <td>    <strong>TM10    Hidden Power</strong>    </td>    <td>    TM35    Flamethrower    </td>    <td>    TM60    Drain Punch    </td>    <td>    TM85    Dream Eater    </td>    </tr>
+        <tr>    <td>    <strong>TM11    Sunny Day *</strong>    </td>    <td>    TM36    Sludge Bomb    </td>    <td>    TM61    Will-O-Wisp    </td>    <td>    TM86    Grass Knot    </td>    </tr>
+        <tr class="a">    <td>    TM12    Taunt    </td>    <td>    TM37    Sandstorm    </td>    <td>    TM62    Silver Wind    </td>    <td>    <strong>TM87    Swagger</strong>    </td>    </tr>
+        <tr>    <td>    TM13    Ice Beam    </td>    <td>    TM38    Fire Blast    </td>    <td>    TM63    Embargo    </td>    <td>    TM88    Pluck    </td>    </tr>
+        <tr class="a">    <td>    TM14    Blizzard    </td>    <td>    TM39    Rock Tomb    </td>    <td>    TM64    Explosion    </td>    <td>    TM89    U-turn    </td>    </tr>
+        <tr>    <td>    <strong>TM15    Hyper Beam</strong>    </td>    <td>    TM40    Aerial Ace    </td>    <td>    TM65    Shadow Claw    </td>    <td>    <strong>TM90    Substitute</strong>    </td>    </tr>
+        <tr class="a">    <td>    TM16    Light Screen    </td>    <td>    TM41    Torment    </td>    <td>    TM66    Payback    </td>    <td>    TM91    Flash Cannon    </td>    </tr>
+        <tr>    <td>    <strong>TM17    Protect</strong>    </td>    <td>    <strong>TM42    Facade</strong>    </td>    <td>    TM67    Recycle    </td>    <td>    TM92    Trick Room    </td>    </tr>
+        <tr class="a">    <td>    <strong>TM18    Rain Dance **</strong>    </td>    <td>    <strong>TM43    Secret Power</strong>    </td>    <td>    <strong>TM68    Giga Impact</strong>    </td>    <td>    HM01    Cut    </td>    </tr>
+        <tr>    <td>    TM19    Giga Drain    </td>    <td>    <strong>TM44    Rest</strong>    </td>    <td>    TM69    Rock Polish    </td>    <td>    HM02    Fly    </td>    </tr>
+        <tr class="a">    <td>    TM20    Safeguard    </td>    <td>    <strong>TM45    Attract ***</strong>    </td>    <td>    TM70    Flash    </td>    <td>    HM03    Surf    </td>    </tr>
+        <tr>    <td>    <strong>TM21    Frustration</strong>    </td>    <td>    TM46    Thief    </td>    <td>    TM71    Stone Edge    </td>    <td>    HM04    Strength    </td>    </tr>
+        <tr class="a">    <td>    TM22    SolarBeam    </td>    <td>    TM47    Steel Wing    </td>    <td>    TM72    Avalanche    </td>    <td>    HM05    Defog / Whirlpool    </td>    </tr>
+        <tr>    <td>    TM23    Iron Tail    </td>    <td>    TM48    Skill Swap    </td>    <td>    TM73    Thunder Wave    </td>    <td>    HM06    Rock Smash    </td>    </tr>
+        <tr class="a">    <td>    TM24    Thunderbolt    </td>    <td>    TM49    Snatch    </td>    <td>    TM74    Gyro Ball    </td>    <td>    HM07    Waterfall    </td>    </tr>
+        <tr>    <td>    TM25    Thunder    </td>    <td>    TM50    Overheat    </td>    <td>    TM75    Swords Dance    </td>    <td>    HM08    Rock Climb    </td>    </tr>
+</tbody>
+</table>
+<dl>
+<dt>Bolded entries indicate moves that every Pokémon must  have.</dt>
+<dt>* Except most Water- and Ice-type Pokémon</dt>
+<dt>** Except most Grass- and Fire-type Pokémon</dt>
+<dt>*** Except genderless Pokémon</dt>
+</dl>
+
+<h2><a name ="levelup">Level-Up Moves</a></h2>
+
+<p>A level-up move list contains anywhere between 13 and 16 moves. Up to three of these moves may be Heart Scale moves, meaning that they are relearned and aren't known at Level 1 and aren't learned at any higher level. A Pokémon may only have a Heart Scale move if it has at least 4 Level 1 moves already. As a Pokémon levels up, the moves tend to get more powerful. This means that a move such as Crunch or Earthquake would always be learned later than Bite or Mud-Slap. Furthermore, if the Pokémon has a pre-evolution, such as Arcanine or Ampharos, one of the following two things will happen.</p>
+<ul>
+<li>Up to three Level 1 moves may be repeated in further levels. These moves are learned by the Pokémon's pre-evolution as well. For example, Ampharos learns Growl, ThunderShock, and Thunder Wave at Level 1, and learns them again at Level 5, 10, and 14, respectively.</li>
+<li>The Pokémon has a few Level 1 moves, and then an extremely short or non-existent movepool. For example, Arcanine only learns one move at Level 39 (ExtremeSpeed), and the other moves he learns by Level-up are all Level 1 or Heart Scale moves. In this case, the Pokémon would use his pre-evolution's movepool.</li>
+</ul>
+
+<h2><a name ="egg">Egg Moves</a></h2>
+
+<p>Egg moves are those moves learned through breeding. In order to have egg moves, a CAP must have its egg groups defined. The movepool designer will have to decide on egg groups that achieve the moves that are desired, and it is preferred that they make sense on the Pokémon. A Pokémon may have as few as 4 egg moves and at most 12 egg moves. Pokémon that are genderless or do not breed cannot have any egg moves.</p>
+
+<h2><a name ="tutor">Move Tutor Moves</a></h2>
+
+<p>Move Tutors are people in the Pokémon world that teach Pokémon moves for a price. For purposes of the CAP project, all past generation move tutors have been allowed for all of the CAP Pokemon. (Including Pokemon XD moves) In competitive terms, this is where a movepool can be filled out in order to obtain all of the necessary options, given that they're available. Be mindful of the Very Good Move limit for a CAP when adding moves to it from the Move Tutors, but otherwise this is the move list where many competitive moves in a Pokémon's final movepool will come from.</p>
+
+<h3><a name ="tutorlist">Move Tutor Move List</a></h3>
+<table class="sortable">
+<thead>
+<tr>
+<th colspan="7" style="text-align: center;">Move Tutor Moves</th>
+</tr>
+</thead>
+<tbody>
+        <tr>        <td>    Air Cutter        </td>    <td>    ThunderPunch   </td>    <td>    Uproar        </td>    <td>    Iron Head        </td>    <td>    Blast Burn     </td>    <td>    Magic Coat    </td>    <td>    Mimic        </td></tr>
+        <tr class="a">  <td>    Dive        </td>    <td>    Vacuum Wave    </td>    <td>    AncientPower   </td>    <td>    Mud-Slap        </td>    <td>    Hydro Cannon   </td>    <td>    String Shot    </td>    <td>    Metronome    </td></tr>
+        <tr>        <td>    Fire Punch    </td>    <td>    Zen Headbutt   </td>    <td>    Aqua Tail        </td>    <td>    Outrage        </td>    <td>    Headbutt       </td>    <td>    Worry Seed     </td>    <td>    Softboiled    </td></tr>
+        <tr class="a">  <td>    Fury Cutter        </td>    <td>    Helping Hand   </td>    <td>    Bounce       </td>    <td>    Rollout        </td>    <td>    Low Kick       </td>    <td>    Heal Bell      </td>    <td>    Explosion    </td></tr>
+        <tr>        <td>    Ice Punch     </td>    <td>    Last Resort    </td>    <td>    Earth Power       </td>    <td>    Seed Bomb        </td>    <td>    Super Fang     </td>    <td>    Role Play      </td>    <td>    DynamicPunch    </td></tr>
+        <tr class="a">  <td>    Icy Wind    </td>    <td>    Magnet Rise    </td>    <td>    Endeavor        </td>    <td>    Signal Beam    </td>    <td>    Pain Split     </td>    <td>    Tailwind       </td>    <td>    Defense Curl    </td></tr>
+        <tr>        <td>    Knock Off        </td>    <td>    Snore        </td>    <td>    Gastro Acid    </td>    <td>    Superpower     </td>    <td>    Sky Attack     </td>    <td>    Body Slam      </td>    <td>    Selfdestruct    </td></tr>
+        <tr class="a">  <td>    Ominous Wind    </td>    <td>    Spite       </td>    <td>    Gunk Shot        </td>    <td>    Twister        </td>    <td>    Bug Bite    </td>    <td>    Double-Edge    </td>    <td>            </td></tr>
+        <tr>        <td>    Sucker Punch    </td>    <td>    Swift       </td>    <td>    Heat Wave        </td>    <td>    Draco Meteor   </td>    <td>    Block       </td>    <td>    Counter        </td>    <td>            </td></tr>
+        <tr class="a">  <td>    Trick        </td>    <td>    Synthesis    </td>    <td>    Iron Defense   </td>    <td>    Frenzy Plant   </td>    <td>    Gravity    </td>    <td>    Seismic Toss   </td>    <td>            </td></tr>
+</tbody>
+</table>
+
+<h2><a name ="example">Example</a></h2>
+
+<p>Below is an example movepool for Gengar. It shows how each of his moves fit into his movepool.</p>
+
+<h3><a name ="gengar">Gengar's Movepool</a></h3>
+<table class="sortable">
+ <thead>
+ <tr>
+ <th colspan="6" style="text-align: center;">Gengar's Movepool</th>
+ </tr>
+ </thead>
+ <tbody>
+<tr><th style="text-align: center;">Level-Up List</th><th  colspan="3" style="text-align: center;">TM List</th><th style="text-align: center;">Egg Moves</th><th style="text-align: center;">Move Tutor Moves</th></tr>
+        <tr>    <td>    1. Hypnosis    </td>    <td>    TM01 Focus Punch    </td>    <td>    TM36 Sludge Bomb    </td>    <td>    TM65 Shadow Claw        </td>    <td>    Psywave    </td>    <td>    Fire Punch    </td>    </tr>
+        <tr class="a">    <td>    1. Lick    </td>    <td>    TM06 Toxic    </td>    <td>    TM41 Torment    </td>    <td>    TM66 Payback        </td>    <td>    Perish Song    </td>    <td>    Ice Punch    </td>    </tr>
+        <tr>    <td>    1. Spite    </td>    <td>    TM10 Hidden Power    </td>    <td>    TM42 Facade    </td>    <td>    TM68 Giga Impact        </td>    <td>    Haze    </td>    <td>    Icy Wind    </td>    </tr>
+        <tr class="a">    <td>    5. Spite    </td>    <td>    TM11 Sunny Day    </td>    <td>    TM43 Secret Power    </td>    <td>    TM77 Psych Up        </td>    <td>    Astonish    </td>    <td>    Knock Off    </td>    </tr>
+        <tr>    <td>    8. Mean Look    </td>    <td>    TM12 Taunt    </td>    <td>    TM44 Rest    </td>    <td>    TM78 Captivate        </td>    <td>    Will-O-Wisp    </td>    <td>    Ominous Wind    </td>    </tr>
+        <tr class="a">    <td>    12. Curse    </td>    <td>    TM15 Hyper Beam    </td>    <td>    TM45 Attract    </td>    <td>    TM79 Dark Pulse        </td>    <td>    Grudge    </td>    <td>    Sucker Punch    </td>    </tr>
+        <tr>    <td>    15. Night Shade    </td>    <td>    TM17 Protect    </td>    <td>    TM46 Thief    </td>    <td>    TM82 Sleep Talk        </td>    <td>    Explosion    </td>    <td>    Trick    </td>    </tr>
+        <tr class="a">    <td>    19. Confuse Ray    </td>    <td>    TM18 Rain Dance    </td>    <td>    TM48 Skill Swap    </td>    <td>    TM83 Natural Gift        </td>    <td>    Fire Punch    </td>    <td>    ThunderPunch    </td>    </tr>
+        <tr>    <td>    22. Sucker Punch    </td>    <td>    TM19 Giga Drain    </td>    <td>    TM49 Snatch    </td>    <td>    TM84 Poison Jab        </td>    <td>    Ice Punch    </td>    <td>    Snore    </td>    </tr>
+        <tr class="a">    <td>    25. Shadow Punch    </td>    <td>    TM21 Frustration    </td>    <td>    TM52 Focus Blast    </td>    <td>    TM85 Dream Eater        </td>    <td>    ThunderPunch    </td>    <td>    Spite    </td>    </tr>
+        <tr>    <td>    28. Payback    </td>    <td>    TM24 Thunderbolt    </td>    <td>    TM53 Energy Ball    </td>    <td>    TM87 Swagger        </td>    <td>    Disable    </td>    <td>    Uproar    </td>    </tr>
+        <tr class="a">    <td>    33. Shadow Ball    </td>    <td>    TM25 Thunder    </td>    <td>    TM56 Fling    </td>    <td>    TM90 Substitute        </td>    <td>        </td>    <td>    Pain Split    </td>    </tr>
+        <tr>    <td>    39. Dream Eater    </td>    <td>    TM27 Return    </td>    <td>    TM58 Endure    </td>    <td>    TM92 Trick Room        </td>    <td>        </td>    <td>    Magic Coat    </td>    </tr>
+        <tr class="a">    <td>    44. Dark Pulse    </td>    <td>    TM29 Psychic    </td>    <td>    TM60 Drain Punch    </td>    <td>    HM04 Strength        </td>    <td>        </td>    <td>    Role Play    </td>    </tr>
+        <tr>    <td>    50. Destiny Bond    </td>    <td>    TM30 Shadow Ball    </td>    <td>    TM61 Will-O-Wisp    </td>    <td>    HM06 Rock Smash        </td>    <td>        </td>    <td>    Headbutt    </td>    </tr>
+        <tr class="a">    <td>    55. Nightmare    </td>    <td>    TM31 Brick Break    </td>    <td>    TM63 Embargo    </td>    <td>            </td>    <td>        </td>    <td>        </td>    </tr>
+        <tr>    <td>        </td>    <td>    TM32 Double Team    </td>    <td>    TM64 Explosion    </td>    <td>            </td>    <td>        </td>    <td>        </td>    </tr>
+</tbody>
+ </table>
+<dl>
+<dt>Gengar has 84 total moves in its movepool, 47 of which are Very Good Moves.
+</dl>
+<p>It is clearly noted from the above lists that the reason Gengar is said to have an enormous movepool is because of his TM move list. Very few of Gengar's moves from his level-up list or egg moves list are viable. Only Pain Split and Trick of the move tutor list are really useful, and Explosion is about the only remotely useful move from the egg move list. As you can see, Gengar's movepool is not overwhelmingly powerful. He actually had very limited options, but just enough diversity to be useful and varied in the standard metagame. This is a good example of what CAP Pokémon movepools should look like.</p>

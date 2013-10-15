@@ -1,0 +1,172 @@
+[title]
+Krilowatt
+[head]
+<link rel="stylesheet" type="text/css" href="/media/dex/dex.css" />
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_template.js"></script>
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_database.js"></script>
+[header]
+[page]
+<script language="JavaScript">
+document.write(strategyTabs("Krilowatt"));
+document.write(topHeaderInfo(Krilowatt()));
+</script>
+
+<h2>Overview</h2>
+
+<h4>DPP</h4>
+
+<p>Krilowatt is a Pokemon on a mission, standing as insurance for his team against the particular Pokemon he's been prepared to take on. His niche as a utility counter, capable of being tweaked to take down whatever he needs to, makes him unpredictable and therefore very dangerous until the opponent knows his complete set. A tremendous HP stat, respectable defenses, and very potent abilities in Magic Guard and Trace allow him to switch in repeatedly, disregard all entry hazards if using Magic Guard, and handle specific threats as needed.</p>
+
+<p>Despite Krilowatt's strengths, he lacks a reliable recovery option to use instead of Rest. Furthermore, the allure of a Life Orb with no recoil damage thanks to Magic Guard will often leave Krilowatt without even Leftovers recovery on most sets so that he can hit much harder. This lack of reliable healing can result in Krilowatt falling apart after taking too many neutral attacks on switching in. Lastly, while Krilowatt's typing affords him only two weaknesses, one of those weaknesses, the Ground-type, is extremely common in OU. Nevertheless, Krilowatt stands defiant in the face of monstrous OU threats like Gyarados, Suicune, and Lucario. Krilowatt is able and willing to take them down as needed by any given team, although not all at once.</p>
+
+<script language="JavaScript"> 
+var set = new CAPSet(); 
+set.name = "DPP Krilowattacker (Life Orb)"; 
+set.move[1] = "Surf"; 
+set.move[2] = "Thunderbolt"; 
+set.move[3] = "Ice Beam"; 
+set.move[4] = ["Earth Power", "Hidden Power Fire", "Thunder Wave"]; 
+set.item = "Life Orb"; 
+set.ability = "Magic Guard"; 
+set.nature = "Timid"; 
+set.evs.Def = 4; 
+set.evs.SpA = 252; 
+set.evs.Spe = 252; 
+document.write(composeSet(set)); 
+</script> 
+
+<p>This Krilowatt is a surprisingly excellent sweeper, despite only having a base 83 Special Attack stat. Thanks to Magic Guard, using a Life Orb comes at no cost to Krilowatt and gives him the equivalent power of an unboosted base 125 Special Attack stat. Krilowatt's STABs offer excellent type coverage, and with the quintessential Ice Beam, he hits everything but Lanturn and Shedinja for at least neutral damage. Beyond this, Magic Guard renders entry hazards and other forms of passive damage useless against Krilowatt, making him impossible to take down without attacking him and suffering deadly attacks in return.</p>
+
+<p>Surf, Thunderbolt, and Ice Beam together form the crux of this set with their impressive type coverage. The final slot determines which Pokemon will check and counter Krilowatt, though few of them will want to switch into a neutral hit. Earth Power is the primary fourth option for its ability to OHKO Heatran and 2HKO opposing Krilowatt, while still hitting Metagross, Lucario, and Jirachi hard. Hidden Power Fire is an alternative to OHKO Scizor and Forretress, but can only 2HKO Lucario and Metagross, and even worse, only 3HKO Bronzong and Jirachi. Thunder Wave can also be used effectively on this set, as many of the offensive Pokemon that switch into Krilowatt to threaten him are severely crippled by it, such as Choice Scarf Tyranitar. Substitute can be used with the switches that Krilowatt forces, but usually you're better off just attacking. Hidden Power Grass also deserves a mention for hitting Swampert the hardest of all options, though it fails to OHKO and isn't usually worth the moveslot.</p>
+
+<p>Magic Guard with a Life Orb is what makes this set effective, giving Krilowatt a superb boost to damage output with no recoil. Maximum investment in Special Attack ensures that Krilowatt hits as hard as possible, while a Timid nature and maximum Speed forces a Speed tie with opposing Krilowatt. Even with no EV investment, Krilowatt's defenses prevent him from being OHKOed by most Earthquakes, while he can cripple or OHKO the opponent in return.</p>
+
+<p>Krilowatt's typing when paired with Magic Guard makes him an excellent Pokemon on teams that take advantage of passive damage. Sandstorm and Hail teams alike appreciate Krilowatt's resistances and ability to immediately threaten opponents with his high-power STAB attacks and coverage moves. Breloom is a particularly excellent partner for this set as he can come in on Choice-locked Earthquakes and take advantage of the next switch-in. This Krilowatt also greatly appreciates both Spikes and Stealth Rock support to soften his common switch-ins, put opponents in OHKO and 2HKO range, and take advantage of the switches he forces. Skarmory makes an excellent Spiker to use with Krilowatt for his respectable type synergy and ability to cover each other's weaknesses. As this Krilowatt is very offensive with a ton of natural bulk, other bulky offensive attackers make excellent partners. Scizor is a great choice for his ability to scout the opposing team and come in on Krilowatt's Grass-type weakness with impunity, while Krilowatt will gladly take on Pokemon like Zapdos or Heatran if in good health.</p>
+
+<script language="JavaScript"> 
+var set = new CAPSet(); 
+set.name = "DPP Mixed Attacker"; 
+set.move[1] = ["Waterfall", "Surf"]; 
+set.move[2] = "Thunderbolt"; 
+set.move[3] = ["Earthquake", "Low Kick"]; 
+set.move[4] = ["Ice Shard", "Ice Beam"]; 
+set.item = "Life Orb"; 
+set.ability = "Magic Guard"; 
+set.nature = "Naive"; 
+set.evs.Atk = 252; 
+set.evs.SpA = 4; 
+set.evs.Spe = 252; 
+document.write(composeSet(set)); 
+</script> 
+
+<p>This set is a variant of the Krilowattacker set that focuses on using Krilowatt's balanced stats to punch through different threats, including some of its various checks, with far greater ease. Backed by a Life Orb and Magic Guard, Krilowatt hits respectably hard against numerous Pokemon, so much so that it can even take Blissey by surprise and 2HKO it if it's taken much previous damage. Many of Krilowatt's standard counters and checks can be easily eliminated by this set as well, making it an effective lure for those Pokemon.</p>
+
+<p>Waterfall acts as the primary Water-type STAB for hitting the hardest of all physical options against Pokemon like Tyranitar. Surf can be used instead to 2HKO Hippowdon, who will otherwise avoid a 2HKO from Waterfall. Thunderbolt is chosen over ThunderPunch despite the Attack EV investment to OHKO defensive Skarmory after Stealth Rock damage. Thunderbolt also hits most defensive bulky Water-type Pokemon hard. Earthquake is chosen for the third slot to take out opposing Krilowatt, Jirachi, Metagross, Heatran, and Lucario. Low Kick can be used in place of it, though, to OHKO Tyranitar and 2HKO Snorlax at the expense of missing an OHKO on Heatran and slightly weakened Lucario. When using Low Kick, it is best to use Surf over Waterfall, since you already OHKO Tyranitar. In the final slot, Ice Shard is chosen to maim Flygon and with priority. Ice Shard just barely misses the OHKO on both of these Pokemon, even after Stealth Rock damage, but can cripple them severely and prevent them from surviving another hit or their next switch in. Ice Beam can be used over Ice Shard to OHKO these Pokemon, but the priority often makes Ice Shard the better choice.</p>
+
+<p>Magic Guard and Life Orb make a return on this set to wreak havoc on an opponent's team. The EV spread is simple, maximizing Attack and Speed as no Special Attack investment is necessary to OHKO Skarmory with Thunderbolt or 2HKO Hippowdon with Surf. A Naive nature is chosen to boost Krilowatt's Speed without weakening either attack stat. Naive is the better nature over Hasty, since no measure of investment will prevent STAB Leaf Storms from OHKOing Krilowatt and many of the counters he's luring and eliminating with this set are physical in nature.</p>
+
+<p>As this set is particularly effective at luring in and eliminating the likes of Flygon, Tyranitar, Snorlax, and opposing Krilowatt (though not all at once), Pokemon that can take advantage of their absence are excellent partners. Rotom-A and Gengar will appreciate the lack of Tyranitar and Snorlax and can both switch into the Ground-type attacks aimed at Krilowatt with impunity. Gengar also resists the Grass-type attacks sent at Krilowatt, but its poor defenses generally dislike taking strong hits anyway. Entry hazard support from the likes of Skarmory and Forretress is incredibly useful for this set, Steath Rock in particular. With two switch-ins to Stealth Rock, Flygongoes down to Ice Shard. With Stealth Rock and two layers of Spikes, even max defensive Blissey can be 2HKOed by Waterfall. Sandstorm support from Tyranitar or Hippowdon is also helpful, as it can wear down some Pokemon into KO range for one of Krilowatt's attacks.</p>
+
+<script language="JavaScript"> 
+var set = new CAPSet(); 
+set.name = "DPP Utility Counter"; 
+set.move[1] = "Surf"; 
+set.move[2] = "Thunderbolt"; 
+set.move[3] = "Ice Beam"; 
+set.move[4] = ["Thunder Wave", "Hidden Power Fire", "Heart Swap"]; 
+set.item = "Leftovers"; 
+set.ability = "Trace"; 
+set.nature = "Timid"; 
+set.evs.Def = 216; 
+set.evs.SpA = 40; 
+set.evs.Spe = 252; 
+document.write(composeSet(set)); 
+</script> 
+
+<p>The unique combination of Krilowatt's Speed, typing, bulk, and Trace truly give him the optimal setup for being a utility counter to some of the biggest threats stalking OU. Krilowatt is a very effective switch-in to offensive monsters such as Gyarados. Krilowatt's ability, Trace, allows him to return Intimidate back to both of them, survive whatever their next move is, and OHKO them back. Trace also provides Krilowatt the ability to absorb Fire Blast from Heatran, Thunderbolt from Jolteon, Surf from Vaporeon, and Earthquake from Flygon. These excellent switch-in opportunities make Krilowatt a great asset to any team needing the coverage he can provide.</p>
+
+<p>This set takes advantage of the near-perfect type coverage provided by using Surf, Thunderbolt, and Ice Beam in unison with STAB on both Surf and Thunderbolt. The fourth moveslot should be chosen based on what your team needs Krilowatt to cover most. Thunder Wave is the primary choice as it severely cripples many of the fast Pokemon that tend to switch in to Krilowatt to threaten him out, such as Choice Scarf Tyranitar. Steel-type Pokemon, such as Bronzong and Scizor, are also common switch-ins to Krilowatt with their general bulk and ability to do chunks of damage to him. Hidden Power Fire puts Scizor in its place, OHKOing it easily, but is outdamaged by STAB Surf against all other OU Steel-types. Hence, Earth Power may be better if you are more worried about Swords Dance Lucario, another major OU threat. Lastly, Heart Swap is a good choice for dealing with all of the common Calm Mind setup sweepers in OU, such as Suicune and Jirachi.</p>
+
+<p>The EV spread affords Krilowatt a lot of physical bulk while retaining his excellent Speed stat in full. 252 Speed EVs and a Timid nature allow Krilowatt to at worst Speed tie with opposing Krilowatt for the Thunderbolt while reliably outspeeding positive-nature base 100s. 40 Special Attack EVs are required to guarantee an OHKO on Gyarados with Thunderbolt. The rest of the EVs are placed in Defense so that Krilowatt can take hits from the physical attacking Pokemon he's trying to counter. Leftovers is used to give Krilowatt the ability to heal a bit over the course of the match and make up for the entry hazard damage it will be taking as it switches in to counter threats.</p>
+
+<p>Krilowatt's excellent type coverage and general bulk affords him very few true weaknesses, but he does have issues with many of OU's defensive and bulky offensive Pokemon. Bulky Grass-type Pokemon can switch into either of Krilowatt's STABs and threaten back with their STAB Grass-type attacks. Specially defensive Celebi isn't 2HKOed by a max investment and Life Orb boosted Ice Beam, meanwhile it can deal massive damage back with Energy Ball and Leaf Storm or cripple Krilowatt with Thunder Wave. Shaymin can perform a similar role, but will use Seed Flare to utterly destroy Krilowatt. Bronzong and Scizor fare well against variants of Krilowatt that lack Hidden Power Fire and can deal serious damage to him with Earthquake and U-turn, respectively. Swampert is also an excellent switch-in to this Krilowatt with his immunity to Electric-type attacks, neutrality to Water- and Ice-type attacks, and access to STAB Earthquake. Since Krilowatt isn't running Magic Guard, entry hazards prevent Krilowatt from countering its targets repeatedly over the course of a battle. Rapid Spin support, particularly from Forretress who has excellent defensive synergy with Krilowatt, is much appreciated. Forretress can also setup Spikes or Toxic Spikes to wear down many of Krilowatt's checks and counters. Speaking of entry hazards, Stealth Rock is very important with this set to punish Pokemon like Gyarados as he is forced to switch out of Krilowatt to come in later. On offensive teams, Pokemon like MixNite pair superbly with this Krilowatt, as he is immune to Ground-type attacks, 4x resists Grass-type attacks, and can fire off powerful Draco Meteors to beat down common counters, such as Swampert.</p>
+
+<script language="JavaScript"> 
+var set = new CAPSet(); 
+set.name = "DPP Parafusion"; 
+set.move[1] = "Thunder Wave"; 
+set.move[2] = "Confuse Ray"; 
+set.move[3] = ["Ice Beam", "Surf"]; 
+set.move[4] = "Thunderbolt"; 
+set.item = "Leftovers"; 
+set.ability = "Magic Guard"; 
+set.nature = "Bold"; 
+set.evs.HP = 116; 
+set.evs.Def = 192; 
+set.evs.SpD = 200; 
+document.write(composeSet(set)); 
+</script> 
+
+<p>This set is a general annoyance that relies on wholly incapacitating its enemies to take advantage of them. Paralysis combined with confusion renders a Pokemon unable to perform any move five turns out of eight, giving you ample opportunities to KO them or setup. Thunder Wave utterly cripples a sizable portion of Krilowatt's list of checks, and is generally the best first move to use unless you're sure that an Electric-immune Pokemon is inbound. Either way, this combination will prove bothersome to take down by your opponent given Krilowatt's immense invested bulk.</p>
+
+<p>Thunder Wave and Confuse Ray form the core of the set, providing paralysis and confusion, respectively. Ice Beam and Thunderbolt are the recommended options for attacking moves to provide the best possible coverage, though STAB Surf is an option over Ice Beam for dealing with the likes of Infernape and Heatran better. Discharge can be used over Thunderbolt, though it is redundant with Thunder Wave and it is much better to be able to control which opponents you paralyze.</p>
+
+<p>The EVs and nature are chosen to maximize distributed bulk, with Leftovers as the item to give Krilowatt more staying power. Magic Guard rounds out this Krilowatt, rendering it immune to passive damage, particularly entry hazards and sandstorm, ensuring that it always gets the Leftovers healing.</p>
+
+<p>Teammates for this Krilowatt are best chosen who can abuse the paralysis and confusion it inflicts. Substitute + Thunder Wave Jirachi with Iron Head can supplement the goal of this Krilowatt extremely effectively. Jirachi with Wish also makes a good partner as Krilowatt appreciates the healing. A RestTalk Machamp makes a good teammate with its ability to keep the confusion going with DynamicPunch and take advantage of the paralysis, making it faster than the opponent to hit very hard. A Nasty Plot Togekiss can take advantage of the paralysis as well, and its Serene Grace Air Slash will almost entirely prevent a confused and paralyzed opponent from doing anything at all. Togekiss also has good type synergy with Krilowatt, taking the Ground- and Grass-type attacks aimed at it with its respectable bulk. Because confusion has a tendency to force a bunch of switches, entry hazards are very useful for this set. Spikes and Stealth Rock will be particularly helpful as the opponent shuffles themselves to try to get rid of confusion, while Toxic Spikes should generally be avoided as they conflict with paralysis.</p>
+
+<script language="JavaScript"> 
+var set = new CAPSet(); 
+set.name = "DPP CounterCoat"; 
+set.move[1] = "Counter"; 
+set.move[2] = "Mirror Coat"; 
+set.move[3] = ["Ice Beam", "Thunderbolt", "Surf"]; 
+set.move[4] = ["Thunder Wave", "Thunderbolt", "Rest"]; 
+set.item = "Leftovers"; 
+set.ability = "Magic Guard"; 
+set.nature = "Bold"; 
+set.evs.HP = 160; 
+set.evs.Def = 252; 
+set.evs.SpD = 96; 
+document.write(composeSet(set)); 
+</script> 
+
+<p>Krilowatt's enormous HP stat, respectable and balanced defenses, phenomenal ability in Magic Guard, and excellent defensive typing make it a perfect candidate for a CounterCoat set. This Krilowatt takes a completely different approach at handling assorted threats from the previous sets. What makes this set so effective in the end, though, is Krilowatt's immunity to passive damage. Because things like Toxic and sandstorm do nothing to Krilowatt, enemies are forced to attack it to kill it, resulting in them killing themselves if you predict properly. This set is made even more effective by the fact that many of Krilowatt's common switch-ins are incredibly predictable in how they address Krilowatt, and can thus be easily exploited and eliminated.</p>
+
+<p>Counter and Mirror Coat define the set with their capacity for returning both physical and special damage to the source. The third slot is given to Ice Beam or one of Krilowatt's primary STAB attacks, Thunderbolt or Surf. Ice Beam or Thunderbolt should be selected based on whether you want to prevent Gyarados from being able to setup on you once they discover your set. Ice Beam coupled with Thunder Wave is generally the safest and most reliable combination for keeping things from setting up while still being able to KO weakened Hippowdon, Swampert, and the like. Surf can be run in the third slot over both Ice Beam and Thunderbolt if you really need Krilowatt to be able to hit Infernape and Heatran hard without resorting to countering their attacks. Thunder Wave is the primary option in the fourth slot because nothing that switches in expecting to setup on you will appreciate being paralyzed. Thunderbolt can also be run in tandem with Ice Beam in the fourth slot to complete the BoltBeam combo and keep both Gyarados in fear of you. Finally, Rest is an option in the last slot to completely heal Krilowatt and allow it to perform its job again later on in the match, but can make Krilowatt easy setup fodder as the sleep wears off.</p>
+
+<p>The EVs are chosen to avoid specific 2HKOs from Pokemon who are likely to switch into Krilowatt and try to threaten it out. 160 HP and 252 Defense EVs with a Bold nature prevent Krilowatt from being 2HKOed by a Choice Scarf Tyranitar's Earthquake, while a Choice Scarf Flygon's Earthquake after Leftovers recovery will only have a 30% chance to do over 50% damage to Krilowatt. Both of these Pokemon can then be easily OHKOed in return by Counter. The 96 Special Defense EVs alongside the HP EVs prevent defensive Celebi's Energy Ball and Leaf Storm from 2HKOing or OHKOing Krilowatt, respectively. Leftovers is chosen as the item to increase Krilowatt's longevity. Life Orb is unnecessary as Krilowatt is only using its attacks to prevent from being setup on.</p>
+
+<p>This set specializes in removing predictable attacking Pokemon that do not typically run mixed sets. Being able to remove or cripple virtually any attacking Pokemon when at full health is an impressive boon to a team. This Krilowatt can remove Tyranitar, Flygon, Celebi, Rotom-A, and countless other predictable attackers when played correctly. As it is largely defensive and once discovered, the enemy will play very conservatively around it. Because of this, entry hazards and Toxic Spikes in particular can be a very valuable asset. Forretress is the perfect complement to Krilowatt for setting these up. Additionally, this Krilowatt is deathly afraid of being Tricked a Choice item, so having a dedicated Trick absorber is crucial to his success. Tyranitar is excellent for this job as many of the Pokemon that will try to Trick away a Choice Scarf are vulnerable to Pursuit. A cleric is an excellent choice as a teammate if you choose to run Rest in the fourth slot, as they can remove the sleep with ease. Dragonite can function as a remarkable teammate for such a Krilowatt with his superb type synergy and ability to use Heal Bell to remove sleep.</p>
+
+<h2>Team Options</h2>
+
+<h4>DPP</h4>
+
+<p>Krilowatt is only weak to Ground- and Grass-type attacks, and these types are easily covered by other Pokemon on Krilowatt's team. Flying- and Grass-type teammates resist Grass-type attacks and are immune to and resist Ground-type attacks, respectively. For offensive teams that could use the extra coverage Krilowatt provides, Pokemon with good type synergy with Krilowatt include Dragonite, Gengar, Heracross, and Breloom. All of these appreciate Krilowatt's ability to repeatedly take Ice Beams and the like, while Krilowatt will happily send Ground- and Grass-type attacks aimed at him to them. On defensive teams, Skarmory, Bronzong, and Zapdos make strong partners. All of these Pokemon can setup on many of the attacks that get sent at Krilowatt, meanwhile Krilowatt threatens Pokemon that give them trouble. Stall teams in particular find Krilowatt to be an especially useful utility counter, as it can deal with stallbreakers such as Infernape and Gliscor exceedingly well.</p>
+
+<p>As a utility counter, Krilowatt can fit into practically any team and serve as extra insurance against some dangerous threat to that team. Teams with a weakness to Gyarados, and Lucario can all take advantage of what Krilowatt provides. Krilowatt with its excellent coverage also appreciates free switch-ins to Pokemon that it can threaten. Pokemon on offensive teams with U-turn, such as Scizor or Flygon, are excellent choices for this. Additionally, Krilowatt in general dislikes facing bulky Grass-type Pokemon. Teammates that can threaten those Grass-types, such as Heatran, make excellent teammates. Heatran, however, shares a Ground-type weakness with Krilowatt, so be careful when using him.</p>
+
+<h2>Other Options</h2>
+
+<h4>DPP</h4>
+
+<p>Krilowatt's movepool is not what it once was - despite being one of the most versatile Pokemon ever created at its genesis, there are surprisingly few viable options other than those listed above. Earth Power, Earthquake, Payback, Ice Punch, and Thunderpunch are the only ones worth noting, and in general, they provide redundant or unnecessary coverage with the suggested options for each set, but they can see use when needed. Krilowatt also has access to priority in the form of Ice Shard, which can nail faster Dragon-types to prevent a sweep if need be.</p>
+
+<p>Krilowatt is also far from lacking in support moves, boasting a wide range of different moves for sets to take advantage of. It has access to Imprison, which when used in tandem with popular moves like Earthquake, can make it very difficult for your opponent to take Krilowatt down. The combination of Heart Swap and Swagger  can net Krilowatt some Attack boosts while annoying the opponent. Me First deserves a special mention with Krilowatt's excellent Speed stat to potentially use Lucario's Close Combat or Tyranitar or Metagross's Earthquake back to the source with pseudo-STAB damage. Finally, Krilowatt is an excellent user of Rain Dance with both STAB Water-type moves and STAB Thunder.</p>
+
+<h2>CAP Metagame</h2>
+
+<h4>DPP</h4>
+
+<p>Krilowatt's role has changed substantially when used in the CAP metagame. Many of the largest offensive threats, such as Life Orb Colossoil, Syclant, Bulk Up Revenankh, and Stratagem cannot be reliably dealt with by using Trace. Additionally, with Spikes support being much more common in CAP than in OU, Magic Guard shines as the far superior ability on all sets. However, even with Magic Guard, Krilowatt is many times unable to stop these threats at all, forcing him to be an offensive threat himself or go unused. He does not perform this role poorly, though, as his type coverage and general unpredictability give him an upper hand against Colossoil, Kitsunoh, Fidgit, Arghonaut, and Cyclohm, all of whom can be OHKOed with the appropriate coverage or STAB attack and sufficient investment. Furthermore, Heart Swap has new value in the CAP metagame by allowing a physical Krilowatt to reliably beat Bulk Up Revenankh.</p>
+
+<p>A lot of the CAP Pokemon threaten Krilowatt substantially with their excellent type coverage and attacking stats. Stratagem outspeeds Krilowatt and can deal massive damage to him with a Life Orb boosted Earth Power or Giga Drain. Syclant also outspeeds Krilowatt and can easily revenge KO damaged versions of Krilowatt with Bug Buzz. Choice Scarf variants of Colossoil will easily destroy Krilowatt with Earthquake as well. Revenankh can also switch in and set up on any variant of Krilowatt that lacks Heart Swap or Knock Off his item. Kitsunoh, while fearing Earth Power and Earthquake, outspeeds Krilowatt and can strike back with his own Earthquake to do some serious damage. Krilowatt also has to win a Speed tie to hit Fidgit first, which is unfortunate given Krilowatt's weakness to Earth Power. Despite these dangers, Krilowatt is still one of the best in the metagame at putting immediate pressure on his opponents and surprising their would-be counters with his excellent coverage movepool.</p>
+
+<h2>Counters</h2>
+
+<h4>DPP</h4>
+
+<p>Because many Krilowatt sets use Magic Guard as an ability, entry hazards will have no effect on him and the best response is to hit him hard and fast. Bulky Grass-type Pokemon, such as Celebi and Shaymin, threaten Krilowatt with Energy Ball and Seed Flare, respectively, while also resisting both of Krilowatt's STABs. Swampert is a reliable check to Krilowatt with his STAB Earthquake, immunity to Electric-type attacks, and neutrality to both Water- and Ice-type attacks. Krilowatt, despite being immune to full paralysis, does not enjoy having his Speed cut. Blissey can switch into special attacking Krilowatt with impunity and threaten him with Thunder Wave. Snorlax can also switch in with his enormous special bulk and either Earthquake if Krilowatt stays in or Pursuit if he flees. Snorlax can also set up Curse on Krilowatt. Bronzong and Cresselia can also switch in, take a few hits, and strike back with Earthquake or Thunder Wave, respectively.</p>
+
+<p>Offensive teams also have many options to check and beat Krilowatt. Tyranitar's excellent special bulk and ability to outspeed Krilowatt when carrying a Choice Scarf make his Earthquakes deadly, although he will want to avoid a stray Low Kick. Flygon is also an excellent check, outspeeding Krilowatt with his Choice Scarf and threatening with Earthquake or U-turn to scout switch-ins, but must be careful of Ice Shard. Finally, any Pokemon that can take a hit or two and isn't weak to either of Krilowatt's STABs will perform well just by using neutral attacks against him.</p>

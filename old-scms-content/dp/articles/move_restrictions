@@ -1,0 +1,272 @@
+[title]
+Move Restriction Guide
+[head]
+<meta name="description" content="A closer look at the workings of moves, items, and abilities that restrict the move options available to Pokémon, thanks to TheMaskedNitpicker." />
+[page]
+<div class="author">by <a href="/forums/member.php?u=15799">TheMaskedNitpicker</a></div>
+<ol class="toc">
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#effects">Effects That Restrict Moves</a>
+ <ul>
+ <li><a href="#disable">Disable</a></li>
+ <li><a href="#taunt">Taunt</a></li>
+ <li><a href="#choice">Choice Items</a></li>
+ <li><a href="#encore">Encore</a></li>
+ <li><a href="#torment">Torment</a></li>
+ <li><a href="#spite">Spite, Pressure, and Grudge</a></li>
+ <li><a href="#imprison">Imprison</a></li>
+ <li><a href="#heal">Heal Block</a></li>
+ <li><a href="#gravity">Gravity</a></li>
+ </ul>
+</li>
+<li><a href="#interact">How Attacks Interact With Move Restriction</a>
+ <ul>
+ <li><a href="#rampage">Rampage Moves</a></li>
+ <li><a href="#uproar">Uproar</a></li>
+ <li><a href="#momentum">Momentum Moves</a></li>
+ <li><a href="#charge">Charge Moves</a></li>
+ <li><a href="#recharge">Recharge Moves</a></li>
+ <li><a href="#struggle">Struggle</a></li>
+ </ul>
+</li>
+<li><a href="#misc">Miscellaneous Information</a>
+ <ul>
+ <li><a href="#damp">Damp</a></li>
+ <li><a href="#sucker">Sucker Punch</a></li>
+ <li><a href="#bp">Baton Pass and U-turn</a></li>
+ <li><a href="#truant">Truant</a></li>
+ <li><a href="#mirror">Mirror Move</a></li>
+ <li><a href="#copycat">Copycat</a></li>
+ </ul>
+</li>
+<li><a href="#tiers">Veto Tiers</a>
+</li>
+</ol>
+<h2><a name="introduction">Introduction</a></h2>
+<p>Welcome to the Move Restriction Guide. Here, we take a close look at the workings of moves, items, and abilities that restrict the move options available to Pokémon. Any and all conditions that prevent the use of one or more moves will be analyzed here.</p>
+
+<p>Before we get into the specifics, it's important that we lay down some definitions to avoid confusion.</p>
+<dl>
+
+<dt>Move Selection vs. Move Execution</dt>
+<dd>A very important distinction that must be made when talking about move restriction is the difference between the selection of a move and the execution of a move. Some effects restrict move selection, some restrict move execution, and some restrict both. If a move cannot be selected, it means that when the player is selecting moves at the beginning of the round, that move cannot be chosen. If a move cannot be executed, it means that when the affected Pokémon's turn comes up and it attempts to use the move, it will be unable to do so.</dd>
+<dt>Move Execution vs. Move Success</dt>
+<dd>Any time a Pokémon uses a move, that is considered an execution. Whether the move hits or misses, succeeds or fails, the move is still considered to have been executed. If a Pokémon cannot perform a move because it hurts itself in confusion, gets flinched, is immobilized by love, is Disabled, or is Taunted, its move does not execute. If you see a message displayed that reads, <em>&quot;Pokémon X used move Y!&quot;</em> then you know the move has been executed. If a move is executed, it loses PP. If it is not executed, no PP is lost.</dd>
+</dl>
+<h2><a name="effects">Effects That Restrict Moves</a></h2>
+<h3><a name="disable">Disable</a></h3>
+<p>When a Pokémon uses the move Disable, it locks the last move executed by the target. This lock prevents both the selection and execution of the move and remains in effect for 4-7 rounds or until the target leaves the field. If the last action taken by the target was not an executed move, Disable fails. If the targeted move has no PP left, Disable fails. Only one move can be Disabled per Pokémon at any given time.</p>
+
+<h3><a name="taunt">Taunt</a></h3>
+<p>When a Pokémon uses the move Taunt, it locks all of the target's non-damaging moves. This lock prevents both the selection and execution of these moves and remains in effect for 3-5 rounds or until the target leaves the field. Any move that the game designates as 'Other' (as opposed to physical or special) is locked by Taunt, including moves that could potentially become physical or special moves, such as Assist, Copycat, Me First, Metronome, Mimic, Mirror Move, and Sleep Talk. The moves Bide, Counter, Endeavor, Metal Burst, and Mirror Coat are not classified as 'Other' and are therefore not locked by Taunt.</p>
+
+<h3><a name="choice">Choice Items</a></h3>
+<p>When a Pokémon holding a Choice Band, Choice Specs, or Choice Scarf executes a move, a lock is placed on all of the Pokémon's other moves. These locks prevent the selection of the moves and remain in effect until the Pokémon leaves the field or until the Choice Item is removed or made unusable with Embargo.</p>
+
+<p>Note that these locks may very well prevent the execution of the moves as well, but I have yet to conceive of a scenario in which a Pokémon will attempt to execute a move locked out by a Choice Item. If a Pokémon gains a Choice item by using Covet, Switcheroo, Thief, or Trick, all moves other than the move used to gain the item are immediately locked. If a Pokémon loses one Choice item and gains another through a single use of Trick or Switcheroo, any existing locks are not removed.</p>
+
+<h3><a name="encore">Encore</a></h3>
+<p>When a Pokémon uses the move Encore, it fixes the last move executed by the target. Instead of being allowed to select a move, the target Pokémon automatically selects the fixed move each round. If the fixed move cannot be legally selected, the target selects Struggle instead. A fixed move that targets a single Pokémon other than the user has its target chosen randomly from the available foes. In addition, only the fixed move may be executed. If the user receives an Encore during a round in which it has not yet acted, its original move selection for that round is ignored and the Encored move is selected (with a randomly chosen target). This fix remains in effect for 4-8 rounds, until the target leaves the field, or until the fixed move runs out of PP. If the last action taken by the target was not an executed move, Encore fails. If the targeted move has no PP left, Encore fails.</p>
+
+<p>There are subtle but important differences between the effect of a Choice item and the effect of an Encore. A Choice item locks all moves but one. An Encore automatically selects a move for use. The most important effect of this can be seen in a Double Battle. While a Choice item allows the selection of a single move and the selection of a target for that move, an Encore does not allow move selection. Hence, if the move has a single target other than the user, the target is chosen randomly between the available foes (your ally is never randomly chosen). In fact, Encore can be used to force a randomized retargeting of an already-selected move.</p>
+
+<p>Example: A Hitmonlee faces off against a Wigglytuff and an Alakazam. On round one, the Hitmonlee selects Blaze Kick targeting the Wigglytuff, the Wigglytuff selects Hyper Voice, and the Alakazam selects Reflect. All the moves are executed in the following order: Alakazam's Reflect, Hitmonlee's Blaze Kick, and Wigglytuff's Hyper Voice. None of the Pokémon are KOed. On round two, Hitmonlee again selects Blaze Kick targeting the Wigglytuff, hoping to finish it off. Wigglytuff selects Hyper Voice again and Alakazam selects Encore targeting the Hitmonlee. When the round starts, the Alakazam executes Encore, forcing Hitmonlee to execute Blaze Kick. Hitmonlee had already selected Blaze Kick, so no change there. However, Encore also forces Hitmonlee to redirect its targeting. A new target for Blaze Kick is randomly chosen between Alakazam and Wigglytuff (50% chance for each).</p>
+
+<p>Notes:</p>
+<ul>
+<li>When Encore targets most Call Moves (moves that use other moves), the Call Move is fixed. Examples include Me First, Metronome, and Sleep Talk. However, when Sleep Talk is fixed, every time it executes it will be unable to call any of the Sleep Talker's other moves due to the fix on Sleep Talk. Hence, Sleep Talk will fail every time it is executed.</li>
+<li>Encored Call Moves such as Metronome that do not rely on the user's other moves do not have their effects fixed by Encore. So an encored Metronome used twice could call two different moves.</li>
+<li>Encore cannot place a fix on Mirror Move and always fails when targeting it.</li>
+</ul>
+<h3><a name="torment">Torment</a></h3>
+<p>A Pokémon afflicted by Torment is unable to select a move that it executed in the previous round. Torment remains in effect until the target leaves the field. If the Pokémon did not execute a move in the preceding round, Torment does not prevent the selection of any move.</p>
+
+<p>The interesting thing about Torment is that it never prevents the execution of any move, only its selection. Here's an example to show you what I mean. A Mr. Mime faces off against a Slowbro. On the first round, Mr. Mime selects the move Torment and Slowbro chooses Calm Mind. Both moves are successfully executed and the Slowbro is subjected to Torment. On the second round, Mr. Mime selects Encore and Slowbro, unable to choose Calm Mind again, selects Surf. Mr. Mime gives the Slowbro an Encore. The Slowbro is forced to execute Calm Mind rather than its chosen move. Since Torment does not prevent the execution of any move, the Calm Mind works and Slowbro's stats are raised again. However, Slowbro cannot legally select any move for the third round and must switch out or use Struggle. Slowbro is forced to alternate between Calm Mind and Struggle every other round until the Encore wears off.</p>
+
+<h3><a name="spite">Spite, Pressure, and Grudge</a></h3>
+<p>When a move's PP reaches 0, that move is no longer eligible for selection and cannot be executed. There are a few ways to speed up the drop of a Pokémon's PP: Spite, Grudge, and Pressure.</p>
+
+<p>Spite is a move that subtracts four PP from the last move executed by the target. If the last action taken by the target was not an executed move, Spite fails. If the targeted move has no PP left, Spite fails.</p>
+
+<p>Pressure is an ability that subtracts an extra PP from any executed move that targets the Pressure Pokémon (excepting moves it uses on itself). If an executed move targets multiple Pokémon that have Pressure, an extra PP is subtracted from the move for each Pokémon with Pressure targeted. When a Pokémon with Pressure enters the field, a message appears indicating its ability.</p>
+
+<p>If a Pokémon uses a direct damage attack and KOes a Pokémon whose last action was the successful execution of Grudge, the attack used to KO the user of Grudge loses all of its remaining PP.</p>
+
+<h3><a name="imprison">Imprison</a></h3>
+<p>When a Pokémon uses Imprison, it places an effect on itself that prevents its opponent(s) from selecting or executing moves that the user knows. If no opponent knows any moves that the user knows at the time Imprison is used, it fails. Since this is an effect on the user of Imprison, it ends when the user leaves play. This effect is not Baton Passable. If the user learns new moves through the use of Mimic, Sketch, or Transform, these moves become Imprisoned and moves previously known by the user cease to be Imprisoned.</p>
+
+<h3><a name="heal">Heal Block</a></h3>
+<p>When a Pokémon uses Heal Block, all of its opponents are unable to select or execute the following moves for five turns, including the turn Heal Block is used: Heal Order, Milk Drink, Moonlight, Morning Sun, Recover, Rest, Roost, Slack Off, Softboiled, Swallow, Synthesis, and Wish. In addition, the target(s) do not heal when receiving the effects of Wish or Leech Seed. The targets can still deal damage with draining moves like Drain Punch and Dream Eater, but do not receive their healing effects. Heal Block is an effect on the target(s) and will end when a target leaves play.</p>
+
+<h3><a name="gravity">Gravity</a></h3>
+<p>During the effects of Gravity, the following moves may not be selected or executed by any Pokémon: Bounce, Fly, Hi Jump Kick, Jump Kick, Magnet Rise, and Splash. Any Pokémon currently under the effect of Magnet Rise immediately lose the effect. Any Pokémon that has executed the charge turn of Fly or Bounce immediately returns to the ground without performing the attack.</p>
+
+<h2><a name="interact">How Attacks Interact With Move Restriction:</a></h2>
+<h3><a name="rampage">Rampage Moves (Outrage, Petal Dance, and Thrash)</a></h3>
+<p>A rampage move is only selected once but executes 2-3 times, once per round, with a target chosen randomly among the available foes. At the end of the final round, the user becomes confused. If a Pokémon is unable to execute a rampage move, the rampage ends, the user does not become confused, and the user may select its action the following round. If a Pokémon executes a rampage move but the move fails, the rampage ends and the user may select its action the following round. However, if it is the last turn of the move that fails, the user will still become confused at the end of the round. Only one PP is used up regardless of the number of turns the rampage lasts.</p>
+
+<p>Because the move is only selected once (before the first execution), preventing the selection of the rampage move will not halt a rampage already in progress. Subsequent rounds of a rampage move bypass the selection process entirely. However, preventing the execution of a rampage move will stop the rampage, costing the user of the rampage move a turn in the process. For example, say a Primeape is fighting a Muk. The Primeape uses Thrash and the Muk uses Disable. Now Thrash can neither be selected nor executed. However, since Thrash bypasses the action selection process, Primeape will attempt to execute Thrash again in the second round. It will be unable to do so and will therefore forfeit its turn while our Muk takes the opportunity to set up with Curse. On round three, the Primeape is free to switch or to select any move other than Thrash.</p>
+
+<p>Also, Torment will prevent the use of a rampage move on the turn after the rampage ends, provided the last turn of move was executed.</p>
+
+<h3><a name="uproar">Uproar</a></h3>
+<p>Uproar works exactly like Outrage, Petal Dance, and Thrash except it lasts 2-5 rounds, doesn't confuse the user when it ends, and prevents all Pokémon on the field from sleeping.</p>
+
+<p>When the first turn of Uproar is executed, all sleeping Pokémon on the field without the Soundproof ability will awaken. After this point, no Pokémon without the Soundproof ability may fall asleep until the round after the uproar ends. If the move cannot be executed or fails for any reason, the Uproar stops at the end of the round and the user may select its action the following round.</p>
+
+<h3><a name="momentum">Momentum Moves (Ice Ball, Rollout)</a></h3>
+<p>A momentum move is only selected once but executes up to five times, once per round, doubling in power each round. If the move cannot be executed or fails for any reason, the momentum ends and the user may select its action the following round. Only one PP is used up regardless of the number of turns the move lasts.</p>
+
+<p>Momentum moves work just like rampage moves for the purposes of move restriction.</p>
+
+<p>Notes:</p>
+<ul>
+<li>Fury Cutter also doubles in power with each hit. Unlike Rollout and Ice Ball, however, Fury Cutter only executes once each time it is selected instead of automatically executing five rounds in a row. Hence, move restriction effects work on Fury Cutter like they would on any other single-turn move.</li>
+<li>A Pokémon holding a Metronome item only receives a boost each time the momentum move is selected, not each round it's executed.</li>
+</ul>
+
+<h3><a name="charge">Charge Moves (Bounce, Dig, Dive, Fly, Razor Wind, Shadow Force, Skull Bash, Sky Attack, SolarBeam)</a></h3>
+<p>Charge moves are two-round attacks. The user charges the move on the first turn (the Charge Action) and delivers the attack on the second turn (the Attack Action). For the purposes of move restriction, the move is selected once and executes twice. Both the Charge Action and the Attack Action are considered an execution of the move. However, only one PP is used up each time the move is used. The PP is lost when the Charge Action executes.</p>
+
+<p>Because the move is only selected once (before the Charge Action), preventing the selection of the move after the execution of the Charge Action will not prevent the execution of the Attack Action. The Attack Action bypasses the selection process entirely. However, preventing the execution of the move will prevent the Attack Action.</p>
+
+<p>To aid understanding, here are some examples.</p>
+
+<ul>
+<li>If a Pokémon uses Disable on a target that has just performed the Charge Action of a charge move, the target will be unable to perform the Attack Action and will therefore forfeit its turn.</li>
+<li>A Pokémon under the effect of Torment cannot select the charge move of which it has just performed the attack turn.</li>
+<li>A Pokémon with a Choice item selects a charge move on its first turn in the battle and successfully executes the move's Charge Action. On its second turn, it is unable to execute the Attack Action of the charge move (it flinches, for example). All of its other moves will still be locked because the Charge Action is considered an execution of the move.</li>
+</ul>
+
+<h3><a name="recharge">Recharge Moves (Blast Burn, Frenzy Plant, Giga Impact, Hydro Cannon, Hyper Beam, Rock Wrecker)</a></h3>
+<p>Recharge moves are two-round attacks. The user attacks on the first turn (the Attack Action). If the move hits the target, the user must spend the subsequent turn recharging (the Recharge Action). For the purposes of move restriction, the move is selected once and executes once on the Attack Action. The Recharge Action is not considered an execution of the move.</p>
+
+<p>To aid understanding, here are some examples.</p>
+<ul>
+<li>A recharge move can be used every other round even when the user is under the effect of Torment because the recharge turn does not qualify as an execution of the move.</li>
+<li>If a Pokémon attempts to use Disable or Encore and the last action taken by the target was the recharge turn of a recharge move, the Disable or Encore will fail because the last action taken by the target was not the execution of any move.</li>
+<li>If a Pokémon gains a Choice item (via Trick or Switcheroo) after it executes the attack turn of a recharge move but before it executes the recharge turn, its other moves will not be locked because the recharge turn does not qualify as a move execution.</li>
+</ul>
+
+<h3><a name="struggle">Struggle</a></h3>
+<p>When a Pokémon does not switch and cannot legally select any of its moves, it selects Struggle and a message is displayed to the screen, <em>&quot;Pokémon X has no moves left!&quot;</em> Struggle is a typeless physical attack with 50 Base Power that cannot miss. If Struggle successfully deals damage, the user receives recoil damage equal to 1/4 of its own maximum HP, rounded down. Because Struggle cannot be selected manually, its target is chosen randomly from the available foes.</p>
+
+<p>Struggle only happens when no other move can be selected. If a Pokémon has selected a move, but is prevented from executing it, the Pokémon will not use Struggle.</p>
+
+<h2><a name="misc">Miscellaneous Info:</a></h2>
+<h3><a name="damp">Damp</a></h3>
+<p>If a Pokémon with the Damp ability is on the field, the moves Explosion and Selfdestruct will fail. Note that these moves can still be selected and executed (using up PP in the process), but will not work.</p>
+
+<h3><a name="sucker">Sucker Punch</a></h3>
+<p>Sucker Punch works on any target that has selected a damaging (physical or special) move at the beginning of the turn. The actual ability of the target to pull off said attack does not play a part in deciding Sucker Punch's result. For instance, the target might have been put asleep since its last turn and have no chance to wake up. Or it might have the Truant ability. None of this plays a part in Sucker Punch's result. If the Pokémon selected a direct-damage move and has not yet taken its turn, Sucker Punch works.</p>
+
+<h3><a name="bp">Baton Pass and U-turn</a></h3>
+<p>For the purposes of move restriction, a Pokémon that is brought into play by Baton Pass is considered to have just executed Baton Pass itself. This means that if the incoming Pokémon has Baton Pass as one of its own moves, it is a legitimate target for Disable and Encore. An incoming Pokémon that holds a Choice item and has Baton Pass, however, will not have its other moves locked.</p>
+
+<p>This makes Disable a particularly good way to put a stop to Baton Pass chains, especially since it bypasses Substitute. Encore is significantly less useful, since the Encore itself is not Baton Passable, even if the recipient has Baton Pass.</p>
+
+<p>This all holds true for U-turn as well, with one exception. In Diamond and Pearl, if a Pokémon is brought into play through U-turn, has U-turn as one of its own moves, and has a Choice item, all other moves will be locked, allowing only U-turn. In subsequent games, U-turn acts the same way as Baton Pass with regard to Choice items.</p>
+
+<h3><a name="truant">Truant</a></h3>
+<p>The Truant ability prevents a Pokémon from executing its selected move every other round. Turns spent loafing around due to the Truant ability do not count as executed moves. Truant in no way alters the action selection process. Here's the upshot:</p>
+
+<ul>
+<li>Torment does not prevent the selection of any move if the afflicted Pokémon spent the previous round loafing around. It may still prevent the selection of a move for a turn spent loafing, but this should only matter if the Truant Pokémon is the target of Sucker Punch or Me First.</li>
+<li>Disable and Encore fail when used on a Pokémon whose most recent action was loafing around.</li>
+<li>Even if the Pokémon is forced to select Struggle as its move, it will not execute Struggle if it is loafing around.</li>
+<li>Charge moves that are selected on a Truant Pokémon's active turn will have their Charge Actions execute normally. However, the Pokémon will be loafing around the following turn due to Truant and will be unable to execute the Attack Action, stopping the move altogether.</li>
+<li>Recharge moves that are selected on a Truant Pokémon's active turn will have their Attack Action executed normally. Since Truant in no way alters the action selection process, the Pokémon will still be unable to switch out on the following turn.</li>
+</ul>
+<h3><a name="mirror">Mirror Move</a></h3>
+<p>For the purposes of Mirror Move, every Pokémon X in battle keeps a short list of attacks that have targeted it. Every time Pokémon Y executes a move that targets Pokémon X, Pokémon X adds that move to the top of the list and notes that Pokémon Y was the one that used it. It doesn't matter if the move misses or fails; if it targeted Pokémon X, it goes on Pokémon X's list. If there is already a move on the list that Pokémon Y used, the older move is removed from the list. Pokémon X only cares about the last move that each other Pokémon on the field used against it. Hence, the list is at most one move long in Single Battles and at most three moves long in Double Battles. Only moves that can be replicated by Mirror Move appear on this list. Moves that cannot be replicated by Mirror Move do not replace existing moves on the list, with few exceptions. If a Pokémon Y leaves play for any reason (switches out, faints, get Roared away, etc.), its move is removed from Pokémon X's list. When a Pokémon uses Mirror Move, it executes the move at the top of its list (the most recently used one). The number of rounds that have passed since the user was targeted with the move does not matter. Replicated moves with a single target will have their target chosen randomly from the available opponents.</p>
+
+<p>Here's an example: A Pidgeot and a Ninetales face off against a Mr. Mime and a Raichu.</p>
+
+<dl>
+<dt>First round action selections:</dt>
+<dd>Pidgeot selects Tailwind.</dd>
+<dd>Ninetales selects Confuse Ray and targets its partner, Pidgeot.</dd>
+<dd>Mr. Mime selects Psychic and targets Ninetales.</dd>
+<dd>Raichu selects Thunderbolt and targets Pidgeot.</dd>
+<dt>The first round begins.</dt>
+<dd>Ninetales goes first and confuses the Pidgeot. This gives the Pidgeot a 50% evasion rate due to its ability, Tangled Feet.</dd>
+<dd>Raichu targets Pidgeot with Thunderbolt, but misses.</dd>
+<dd>Mr. Mime hits Ninetales with Psychic, doing some damage.</dd>
+<dd>Pidgeot avoids hitting itself in confusion and uses Tailwind, doubling its and Ninetales's Speed.</dd>
+<dt>Second round action selections:</dt>
+<dd>Pidgeot selects Mirror Move.</dd>
+<dd>Ninetales selects Safeguard.</dd>
+<dd>Mr. Mime selects Psychic and targets Ninetales again.</dd>
+<dd>Raichu selects Light Screen.</dd>
+<dt>The second round begins.</dt>
+<dd>Ninetales moves first and puts up a Safeguard.</dd>
+<dd>Pidgeot goes next (due to Tailwind), avoids confusion, and uses Mirror Move. Pidgeot remembers that Raichu shot a Thunderbolt at it (it doesn't matter that it missed) and Ninetales used Confuse Ray on it (it doesn't consider Safeguard a move that targeted it). Mr. Mime hasn't targeted Pidgeot with anything yet. The Thunderbolt was more recent than the Confuse Ray, so Pidgeot replicates Thunderbolt. The target is chosen randomly and hits the Raichu, doing a small amount of damage.</dd>
+<dd>Raichu uses Light Screen and puts up a barrier.</dd>
+<dd>Mr. Mime uses Psychic on Ninetales again, dealing more damage.</dd>
+<dt>Third round action selections:</dt>
+<dd>Pidgeot selects Mirror Move.</dd>
+<dd>Ninetales selects Flamethrower and targets Raichu.</dd>
+<dd>Mr. Mime selects Psychic and targets Ninetales again.</dd>
+<dd>Raichu selects Quick Attack and targets Pidgeot.</dd>
+<dt>The third round begins.</dt>
+<dd>Raichu launches its Quick Attack, landing a small hit on Pidgeot.</dd>
+<dd>Ninetales hits Raichu with Flamethrower. Critical hit! Raichu is KOed!</dd>
+<dd>Pidgeot snaps out of confusion and uses Mirror Move. The last move that targeted it was Raichu's Quick Attack, but Raichu has left the field. All memory of Raichu has been erased from Pidgeot's brain. It only knows that Ninetales has hit it with Confuse Ray and Mr. Mime has done nothing to it. So Pidgeot uses Confuse Ray. Since Mr. Mime is the only opponent available, it becomes the target and is confused by Confuse Ray.</dd>
+<dd>Mr. Mime avoids smacking itself and finishes Ninetales off with a third Psychic.</dd>
+<dd>The Tailwind peters out.</dd>
+</dl>
+<p>We'll say that each trainer only had two Pokémon, so no new Pokémon are brought out.</p>
+<dl>
+<dt>Fourth round action selections:</dt>
+<dd>Pidgeot selects Mirror Move.</dd>
+<dd>Mr. Mime selects Psychic and targets Pidgeot.</dd>
+<dt>The fourth round begins.</dt>
+<dd>Mr. Mime hits itself in confusion.</dd>
+<dd>Pidgeot uses Mirror Move, but the only Pokémon on the field has yet to target it with a move (Mr. Mime could not actually execute its attack). So, Mirror Move fails.</dd>
+</dl>
+<p>My apologies for the lengthy example, but I hope it illustrates the mechanics well.</p>
+<p>Notes:</p>
+<ul>
+<li>As a point of clarity, if no Pokémon has targeted the Mirror Move user with a repeatable move since the last time it used Mirror Move, it will simply replicate the same move again (assuming the original user of the move has not left the field).</li>
+<li>Moves that miss the Mirror Move user and those that do not affect it (such as a Ground move on a Flying-type user) can still be replicated by Mirror Move.</li>
+<li>If a Pokémon uses Protect or Detect, moves that target the user and are blocked are still stored in the target's memory and can be replicated by Mirror Move.</li>
+<li>If a Pokémon has a Substitute, moves that target the Substitute are still stored in target's memory and can be replicated by Mirror Move.</li>
+<li>Moves that the user's partner targets the user with are replicated by Mirror Move.</li>
+<li>Damaging attacks with multiple targets such as Discharge and Earthquake that include the Mirror Move user as one of the targets are replicated by Mirror Move.</li>
+<li>Rampage moves (like Thrash) and momentum moves (like Rollout) that target the user of Mirror Move during execution are replicated by Mirror Move. The Mirror Move user will begin its own rampage or momentum normally, with the usual effects.</li>
+<li>For the purposes of Mirror Move, Global Effects such as Rain Dance and Hail do not 'target' any Pokémon and hence are not replicated by Mirror Move.</li>
+<li>For the purposes of Mirror Move, Field Effects such as Light Screen, Safeguard, Spikes, and Stealth Rock do not 'target' any Pokémon and hence are not replicated by Mirror Move.</li>
+<li> Mirror Move cannot replicate the following moves: Acupressure, Chatter, Counter, Curse, Doom Desire, Feint, Focus Punch, Future Sight, Helping Hand, Mimic, Mirror Coat, Role Play, Perish Song, Psych Up, Sketch, Spit Up, Struggle, and Transform. These moves are not added to the Mirror Move user's 'memory.'</li>
+<li>Encore and Mirror Move do not mix. Mirror Move cannot be Encored and Encore cannot be called by Mirror Move. The Mirror Move user remembers being targeted by Encore, but Mirror Move fails when trying to replicate it, even when other attacks are available in its memory for replication.</li>
+<li>The memory of which moves were used against a Pokémon is not Baton Passable. Also, if a Pokémon leaves the field via Baton Pass, its moves are still erased from the memory of other Pokémon, even if the receiver of the Baton Pass knows the move(s) in question.</li>
+<li>Other call moves (Assist, Copycat, Magic Coat, Me First, Metronome, Mirror Move, Nature Power, Sleep Talk, and Snatch) cannot be replicated by Mirror Move. The moves called by these moves also cannot be replicated, with the exception of charge moves (Dig, SolarBeam, etc.).</li>
+<li>Even Pokémon that do not have Mirror Move in their moveset remember which moves have most recently targeted them. If a Pokémon gains Mirror Move through the use of Sketch or Mimic, it remembers moves used against it prior to gaining Mirror Move.</li>
+</ul>
+
+<h3><a name="copycat">Copycat</a></h3>
+<p>Copycat executes the last move that was executed by any other Pokémon on the field. Even if the last move executed missed or didn't affect the target (Ground attack vs. Flying-type, etc.), Copycat still replicates it. If the last action taken by a Pokémon was not an executed move (a Pokémon flinched, was asleep, hit itself in confusion, was immobilized by love, etc.), Copycat fails. Switching Pokémon is not considered an action for the purposes of Copycat. If the replicated move has a single target other than the user, the target is chosen randomly from the available opponents.</p>
+
+<ul>
+<li>The user of Copycat does not need to witness a move to replicate it. If it is brought onto the field after the move executes, it can still replicate the move.</li>
+<li>A Pokémon switch is not considered an action for the purposes of Copycat. Copycat will attempt to replicate the last move executed before the switch(es).</li>
+<li>Rampage moves (like Thrash) and Momentum moves (like Rollout) are replicated by Copycat. The Copycat user will begin its own rampage or momentum normally, with the usual effects.</li>
+<li>Feint and Focus Punch cannot be replicated with Copycat.</li>
+<li>Other Call Moves (Copycat, Metronome, Mirror Move, etc.) cannot be replicated by Copycat. The moves called by these moves also cannot be replicated, with the exception of charge moves (Dig, SolarBeam, etc.).</li>
+</ul>
+
+<h2><a name="tiers">Veto Tiers</a></h2>
+<p>When multiple effects act on the same Pokémon to prevent the execution of a move, the game will first check one effect, then the next, and so on. This is the order that is checked. When a move is vetoed from being executed, no other checks are performed.</p>
+
+<ol>
+<li>Freeze / Sleep</li>
+<li>Truant</li>
+<li>Disable</li>
+<li>Imprison</li>
+<li>Heal Block</li>
+<li>Confuse</li>
+<li>Flinch</li>
+<li>Taunt</li>
+<li>Gravity</li>
+<li>Attract</li>
+<li>Paralysis</li>
+</ol>

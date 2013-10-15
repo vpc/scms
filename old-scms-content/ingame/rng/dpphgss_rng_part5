@@ -1,0 +1,495 @@
+[title]
+DPP / HGSS RNG Manipulation Guide Part 5 - Cute Charm TID/SID and Poke Radar Abuse
+[head]
+<meta name="description" content="DPP / HGSS RNG Manipulation Guide Part 5 - Cute Charm TID/SID and Poke Radar Abuse" />
+<style type="text/css">
+	.underline{text-decoration: underline;}
+        table th { width:25%; }
+</style>
+
+[page]
+<div class="author">By <a href="/forums/member.php?u=18585">Everstone</a>.</div>
+
+<ul class="toc">
+<li><a href="dpphgss_rng_intro">The DPP / HGSS RNG Manipulation Guide</a></li>
+<li><a href="dpphgss_rng_part1">DPP / HGSS RNG Manipulation Guide Part 1 - Common Information for Breeding, Capturing, and Receiving Perfect Pokemon</a></li>
+<li><a href="dpphgss_rng_part2">DPP / HGSS RNG Manipulation Guide Part 2 - How to Capture / Receive Perfect Pokemon</a></li>
+<li><a href="dpphgss_rng_part3">DPP / HGSS RNG Manipulation Guide Part 3 - How to Hatch Perfect Pokemon</a></li>
+<li><a href="dpphgss_rng_part4">DPP / HGSS RNG Manipulation Guide Part 4 - How to Abuse for your Desired TID/SID</a></li>
+<li>DPP / HGSS RNG Manipulation Guide Part 5 - Cute Charm TID/SID and Poke Radar Abuse
+<ul>
+<li><a href="#cutecharm">Cute Charm TID/SID Abuse</a>
+<ul>
+<li><a href="#ccintro">Introduction</a></li>
+<li><a href="#abuse">Abusing for a Cute Charm TID/SID</a></li>
+</ul>
+</li>
+<li><a href="#pokeradar">RNG Manipulation of Poke Radar Pokemon</a>
+<ul>
+<li><a href="#printro">Introduction</a></li>
+<li><a href="#seed">Finding a Seed</a></li>
+<li><a href="#prep">Preparation</a></li>
+<li><a href="#chain">Starting your Chain</a></li>
+<li><a href="#shinypatch">Getting the Shiny Patch</a></li>
+<li><a href="#shinypoke">Obtaining your Shiny Pokemon from the Patch</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+<h2><a name="cutecharm">Cute Charm TID/SID Abuse</a></h2>
+
+<h3><a name="ccintro">Introduction</a></h3>
+
+<p>New to version 9.94+ is the inclusion of Cute Charm PIDs. With this method, you will be able to capture a wider range of natures and IVs than before, and if you have the right ID/SID, capture a wider range of perfect shinies. In order for Cute Charm to work, the target Pokemon must have a gender and have a non-100% male-female gender ratio.</p>
+
+<p>This means Cute Charm won't work on fixed gender Pokemon such as Kangaskhan, Latios, or Tauros. It also won't work on genderless Pokemon. Thus, it won't work on legendaries other than Heatran.</p>
+
+<p>What Cute Charm does is modify the PID of a wild Pokemon to a value out of 125 possible combinations. Which combination you get will depend on the gender ratio of the target.</p>
+
+<p>This method requires you to have a Pokemon with Cute Charm in your lead, meaning you give up Synchronize, and thus do not get more possible frames for one IV spread.</p>
+
+<p>The true value of Cute Charm lies in the huge possibility of shiny spreads. In other words, instead of just catching shiny Pokemon that are Modest/Timid 31/31/31/31/31/31 in one save file, you could be catching shiny Calm 31/14/31/31/31/31, Adamant 31/31/31/7/31/31, Jolly 31/31/31/16/31/31 or Modest 31/12/31/31/31/31 Pokemon all in one save file! And that's just the beginning!</p>
+
+The list of possible PIDs are:
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Male Lead (Any gender ratio for female)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>Shiny Group 1</th>
+<th>Shiny Group 2</th>
+<th>Shiny Group 3</th>
+<th>Shiny Group 4</th>
+</tr>
+<tr>
+<td>00000000 Hardy</td>
+<td>00000008 Impish</td>
+<td>00000010 Mild</td>
+<td>00000018 Quirky</td>
+</tr>
+<tr class="a">
+<td>00000001 Lonely</td>
+<td>00000009 Lax</td>
+<td>00000011 Quiet</td>
+</tr>
+<tr>
+<td>00000002 Brave</td>
+<td>0000000A Timid</td>
+<td>00000012 Bashful</td>
+</tr>
+<tr class="a">
+<td>00000003 Adamant</td>
+<td>0000000B Hasty</td>
+<td>00000013 Rash</td>
+</tr>
+<tr>
+<td>00000004 Naughty</td>
+<td>0000000C Serious</td>
+<td>00000014 Calm</td>
+</tr>
+<tr class="a">
+<td>00000005 Bold</td>
+<td>0000000D Jolly</td>
+<td>00000015 Gentle</td>
+</tr>
+<tr>
+<td>00000006 Docile</td>
+<td>0000000E Naive</td>
+<td>00000016 Sassy</td>
+</tr>
+<tr class="a">
+<td>00000007 Relaxed</td>
+<td>0000000F Modest</td>
+<td>00000017 Careful</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Female Lead (87.5% Male Target)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>Shiny Group 1</th>
+<th>Shiny Group 2</th>
+<th>Shiny Group 3</th>
+<th>Shiny Group 4</th>
+</tr>
+<tr>
+<td>00000032 Hardy</td>
+<td>0000003A Impish</td>
+<td>00000042 Mild</td>
+<td>0000004A Quirky</td>
+</tr>
+<tr class="a">
+<td>00000033 Lonely</td>
+<td>0000003B Lax</td>
+<td>00000043 Quiet</td>
+</tr>
+<tr>
+<td>00000034 Brave</td>
+<td>0000003C Timid</td>
+<td>00000044 Bashful</td>
+</tr>
+<tr class="a">
+<td>00000035 Adamant</td>
+<td>0000003D Hasty</td>
+<td>00000045 Rash</td>
+</tr>
+<tr>
+<td>00000036 Naughty</td>
+<td>0000003E Serious</td>
+<td>00000046 Calm</td>
+</tr>
+<tr class="a">
+<td>00000037 Bold</td>
+<td>0000003F Jolly</td>
+<td>00000047 Gentle</td>
+</tr>
+<tr>
+<td>00000038 Docile</td>
+<td>00000040 Naive</td>
+<td>00000048 Sassy</td>
+</tr>
+<tr class="a">
+<td>00000039 Relaxed</td>
+<td>00000041 Modest</td>
+<td>00000049 Careful</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Female Lead (75% Male Target)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>Shiny Group 1</th>
+<th>Shiny Group 2</th>
+<th>Shiny Group 3</th>
+<th>Shiny Group 4</th>
+</tr>
+<tr>
+<td>0000004B Hardy</td>
+<td>00000053 Impish</td>
+<td>0000005B Mild</td>
+<td>00000063 Quirky</td>
+</tr>
+<tr class="a">
+<td>0000004C Lonely</td>
+<td>00000054 Lax</td>
+<td>0000005C Quiet</td>
+</tr>
+<tr>
+<td>0000004D Brave</td>
+<td>00000055 Timid</td>
+<td>0000005D Bashful</td>
+</tr>
+<tr class="a">
+<td>0000004E Adamant</td>
+<td>00000056 Hasty</td>
+<td>0000005E Rash</td>
+</tr>
+<tr>
+<td>0000004F Naughty</td>
+<td>00000057 Serious</td>
+<td>0000005F Calm</td>
+</tr>
+<tr class="a">
+<td>00000050 Bold</td>
+<td>00000058 Jolly</td>
+<td>00000060 Gentle</td>
+</tr>
+<tr>
+<td>00000051 Docile</td>
+<td>00000059 Naive</td>
+<td>00000061 Sassy</td>
+</tr>
+<tr class="a">
+<td>00000052 Relaxed</td>
+<td>0000005A Modest</td>
+<td>00000062 Careful</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Female Lead (50% Male Target)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>Shiny Group 1</th>
+<th>Shiny Group 2</th>
+<th>Shiny Group 3</th>
+<th>Shiny Group 4</th>
+</tr>
+<tr>
+<td>00000096 Hardy</td>
+<td>0000009E Impish</td>
+<td>000000A6 Mild</td>
+<td>000000AE Quirky</td>
+</tr>
+<tr class="a">
+<td>00000097 Lonely</td>
+<td>0000009F Lax</td>
+<td>000000A7 Quiet</td>
+</tr>
+<tr>
+<td>00000098 Brave</td>
+<td>000000A0 Timid</td>
+<td>000000A8 Bashful</td>
+</tr>
+<tr class="a">
+<td>00000099 Adamant</td>
+<td>000000A1 Hasty</td>
+<td>000000A9 Rash</td>
+</tr>
+<tr>
+<td>0000009A Naughty</td>
+<td>000000A2 Serious</td>
+<td>000000AA Calm</td>
+</tr>
+<tr class="a">
+<td>0000009B Bold</td>
+<td>000000A3 Jolly</td>
+<td>000000AB Gentle</td>
+</tr>
+<tr>
+<td>0000009C Docile</td>
+<td>000000A4 Naive</td>
+<td>000000AC Sassy</td>
+</tr>
+<tr class="a">
+<td>0000009D Relaxed</td>
+<td>000000A5 Modest</td>
+<td>000000AD Careful</td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Female Lead (25% Male Target)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>Shiny Group 1</th>
+<th>Shiny Group 2</th>
+<th>Shiny Group 3</th>
+<th>Shiny Group 4</th>
+</tr>
+<tr>
+<td>000000C8 Hardy</td>
+<td>000000D0 Impish</td>
+<td>000000D8 Mild</td>
+<td>000000E0 Quirky</td>
+</tr>
+<tr class="a">
+<td>000000C9 Lonely</td>
+<td>000000D1 Lax</td>
+<td>000000D9 Quiet</td>
+</tr>
+<tr>
+<td>000000CA Brave</td>
+<td>000000D2 Timid</td>
+<td>000000DA Bashful</td>
+</tr>
+<tr class="a">
+<td>000000CB Adamant</td>
+<td>000000D3 Hasty</td>
+<td>000000DB Rash</td>
+</tr>
+<tr>
+<td>000000CC Naughty</td>
+<td>000000D4 Serious</td>
+<td>000000DC Calm</td>
+</tr>
+<tr class="a">
+<td>000000CD Bold</td>
+<td>000000D5 Jolly</td>
+<td>000000DD Gentle</td>
+</tr>
+<tr>
+<td>000000CE Docile</td>
+<td>000000D6 Naive</td>
+<td>000000DE Sassy</td>
+</tr>
+<tr class="a">
+<td>000000CF Relaxed</td>
+<td>000000D7 Modest</td>
+<td>000000DF Careful</td>
+</tr>
+</tbody>
+</table>
+
+<h3><a name="abuse">Abusing for a Cute Charm TID/SID</a></h3>
+
+<p>Go back to the long list of Cute Charm PIDs. Each set of 25 PIDs is divided into 4 "Shiny Groups." Look at the natures in each shiny group and pick which set of natures you like the best. <strong>Pick ANY ONE of the PIDs</strong> in this shiny group and let's go to Pandora's Box. Say we want shiny group 1 for male leads, so we'll pick anything from 00000000-00000007.</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_misc_7.png" alt="Pandora's Box Cute Charm PID" />
+
+<p>Let's pick the combination 20101/20101 for this. For more information on getting your ID/SID in-game refer to <a href="dpphgss_rng_part4">DPP / HGSS RNG Manipulation Guide Part 4 - How to Abuse for your Desired TID/SID</a>.</p>
+
+<p>To see what Cute Charm can do, on the main window of RNG Reporter, enter the ID/SID in the appropriate boxes.
+Let's pick a random seed, say 900207ff, and see what happens. Enter this seed in Seed (Hex), don't forget to click the Synchronize button so it becomes Cute Charm, and set it to Male Lead (50% F target). Set the Encounter Type to Wild Pokemon as well. Click Generate. Results are shown below.</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_misc_8.png" alt="Cute Charm Main Window" />
+
+<p>Check out the !!! (indicates shiny frame). There's 4 of them, which is normally a rare occurrence. The IVs may be awful, but this was to illustrate how easily you can find shinies through this method.</p>
+
+<p>You're probably wondering how to find seeds with good IVs now. Once again we head to Time Finder. Do the usual search routine and see what comes up. Don't forget to input your ID/SID and check the shiny only box. Here's what a typical search would generate.</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_misc_9.png" alt="4th Gen Time Finder Cute Charm" />
+
+<p>The great thing about this is ALL the results given will be shiny with just this one ID/SID combination.</p>
+
+<p>From here on the usual methods of capturing Pokemon apply. The procedure is exactly the same except you must lead with a male or female Pokemon with the Cute Charm ability.</p>
+
+<p>Here are some things to take note of:</p>
+<ol>
+<li>The chosen ID/SID combo will only work for the PIDs of ONE shiny group within the same lead/gender ratio pairing. This means 20101/20101 will work ONLY for PIDs 00000000-00000007 (Male lead) but NOT 00000032-00000039 (Female lead, 87.5% male target) or any of the other shiny group 1's for that matter.</li>
+<li>It is recommended to pick a shiny group in the Male Lead section. The reason for this is it has a lot more possibilities for shinies as opposed to the female leads.</li>
+<li>You're crazy if you pick any kind of shiny group 4.</li>
+</ol>
+
+<p>One final thing to take note of. Each Pokemon has its own gender ratio, so you're going to have to find out what Pokemon you're going after using the encounter slot tables and what its gender ratio is.</p>
+
+<p>If say, you want a Machop (75% male/25% female) in Platinum, you'd have to pick either Male Lead (25% F Target) or Female Lead (75% M Target) in the dropdown box below, depending on what gender you wanted. and look for frames with encounter slots 4 or 6 in order to battle one.</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_misc_10.png" alt="Gender Ratio Selection" />
+
+<h2><a name="pokeradar">RNG Manipulation of Poke Radar Pokemon</a></h2>
+
+<h3><a name="printro">Introduction</a></h3>
+
+<p>Chaining is one of the more involved RNG manipulations. Let's start off with the usual search. This method outlines the use of nonshiny patches.</p>
+
+<p>First you'll need to find a Poke Radar Pokemon you wish to get by looking at the encounter slot tables for <a href="http://www.eggmove.com/encounterdiamond.htm">Diamond</a>/<a href="http://www.eggmove.com/encounterpearl.htm">Pearl</a>/<a href="http://www.eggmove.com/encounterplat.htm">Platinum</a> (tables are linked under the corresponding game). Make sure to look at the Poke Radar lines. Note the encounter slots for the Pokemon. The search in Time Finder will be exactly the same as capturing a regular wild Pokemon (Method J, Wild Pokemon encounter type).</p>
+
+<p>You will need the usual capturing tools (Synchronizer, Spore user, Chatter, etc). You also need to freeze all NPCs in the area you wish to do this by using the Vs. Seeker. Once that's done, head to the middle of a grass patch and save.</p>
+
+<p>Attempt to hit your seed and verify it with coin flips. Once your seed is verified, use the Poke Radar. Take note of how many radar patches there are and their general locations. The patches will always follow this pattern, shown below.</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_misc_1.png" alt="Viable Patches" />
+
+<p>There will always be one patch randomly generated in the boxed areas. If a boxed area happens to contain some spots with no patches and the game happens to generate a radar patch in one of those spots, there won't be a shaking spot seen, so for all radar attempts you can get up to 1-4 patches. To maximize the number of patches, stand in the middle of a large grass patch as shown above to always get 4 radar patches.</p>
+
+<p>Once you've determined the location of your patches, make a note of them, as the radar patch locations will be in the exact same locations as long as you've hit your seed, and as long as you haven't saved.</p>
+
+<p>You'll need to find a special radar patch to find a Poke Radar exclusive Pokemon. It looks like the one below.</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_misc_2.png" alt="Special Patches" />
+
+<p>If your first use of the Poké Radar produced this patch, you're good to go. If not, you'll need to move to another spot, save, hit your seed, and use the Poké Radar again until this patch appears.</p>
+
+<p>The number of patches produced advances the IV frames. Depending on this, your starting frame will be as follows:</p>
+
+<ul>
+<li>1 patch = 5</li>
+<li>2 patches = 7</li>
+<li>3 patches = 9</li>
+<li>4 patches = 11</li>
+</ul>
+
+<p>Every step/turn you make will advance frames by 1 for each step/turn made. That means if you turn and move forward, you've advanced 2 frames. The step you make when moving towards the radar patch will also count as 1 advance.</p>
+
+<p>For this, you want to determine your starting frame based on the number of patches generated; move towards the sparkling patch, while keeping track of the number of steps/turns made. Stop one step before the patch and do however many advancements are needed. The number of needed advances is (Target frame) - (1+# of steps/turns+initial frame). Don't account for the last step into the patch, as that's what the +1 is for.</p>
+
+<p>If the Pokemon encountered is not the one you're looking for, don't worry. Catch it and note the Pokemon's traits; use that to figure out what frame you're on and adjust accordingly. The reason you may have been off is due to the "128 on step counter = advance by # of party Pokemon" factor, which can't be controlled reliably.</p>
+
+<strong><em>During Sandstorm / Hail</em></strong>
+
+<p>Sandstorm and hail advance the "shiny Egg RNG" in DPPt. This means you cannot use coins flips to verify your seed since the RNG that controls your seed verification is constantly advancing. IV frames do NOT advance though, so the process is exactly the same as a regular Poké Radar attempt except you skip the seed verification part. In addition, you can still check what seed/frame you're on using Chatter pitches.</p>
+
+<p>You can, however, use the locations of the radar patches to verify your seed, so you'd have to note the radar patch pattern, encounter and catch a Pokemon, and note the IVs until you find one that matches your seed.</p>
+
+<strong><em>Shiny Patches</em></strong>
+
+<p>This info is courtesy of <a href="/forums/member.php?u=62556">Dark Ray</a>. This will generate a shiny patch using a chain of 1.</p>
+
+<p><span class="underline"><strong>Prerequisites</strong>:</span> Access to National Dex and Poké Radar, Coin Flip Pokétch App, Repels, Vs. Seeker, Synchronizer, Chatot with Chatter.</p>
+
+<p><span class="underline">Note:</span> You must be able to identify Chatter pitches to some degree.</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_misc_1.png" alt="Viable Patches" />
+
+<p>The patches generated in the outermost (blue) box have the best chance of generating a shiny patch. In the diagram below, it's any patch on the area marked 4.</p>
+
+<pre>
+	4 4 4 4 4 4 4 4 4
+	4 3 3 3 3 3 3 3 4
+	4 3 2 2 2 2 2 3 4
+	4 3 2 1 1 1 2 3 4
+	4 3 2 1 <span style="color:#FF0000;">P</span> 1 2 3 4
+	4 3 2 1 1 1 2 3 4
+	4 3 2 2 2 2 2 3 4
+	4 3 3 3 3 3 3 3 4
+	4 4 4 4 4 4 4 4 4
+</pre>
+
+<p><span style="color:#FF0000;">P</span> = Player</p>
+
+<h3><a name="seed">Finding a Seed</a></h3>
+
+<p>To search for your own seed, open 4th gen Time Finder, choose "Chained Shiny" as the method, and enter your ID/SID and any IV/Nature/Ability filters you want to use (don't be too specific); you also need to set your max frame higher than normal (1000-3000 recommended), then open up Researcher on RNG Reporter's main window and follow the next steps.</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_misc_4.png" alt="Researcher Dara Abuse" />
+
+<p>Set up Researcher as shown (max results should be the max results you put into Time Finder), then hit generate, click to select "Frame" and "16BitHigh" columns, and export to text to allow easier searching. You'll want to search for a 16BitHigh value equal to or less than 0008 in hex so just search for 0000, if you don't find anything search for 0001, 0002, and so on. If you didn't find anything, choose a different seed, and repeat. Once you find something, check your frame and see if it's appropriate enough for you (shiny patch with a frame of around 200 or higher is good, if it's lower you might advance past it trying to start your chain and recharge the Poke Radar).</p>
+
+<h3><a name="prep">Preparation</a></h3>
+
+<p>Now that you have your seed, a few preparations need to be done in-game first. Set up your Journal with the appropriate entries to easily advance the frame. You will be advancing to high frames and Chatot summaries will take twice as long.</p>
+
+<p>Next get your party together; you'll want 5 members MAX so you can catch the Pokemon you use to start your chain to confirm frame. A team of Catcher, Chatot, Chatot, Synchronizer or HM slave is recommended, and your leading Pokemon should be a higher level than anything you can encounter in your designated area so Repels work.</p>
+
+<p>Choose an area that has your target Pokemon and head there. If there are any NPCs in the area that can be rebattled using the Vs. Seeker, do so. Make sure to get every one to minimize the chances of them interfering with your frame advances. Once that's done, head to the middle of the patch of grass (being in the middle of a full 9X9 square of grass is best as it ensures 4 patches will shake when you activate the Poké Radar). Now switch your party around if needed, use a Repel, switch to the Coin Flip app, and save.</p>
+
+<h3><a name="chain">Starting your Chain</a></h3>
+
+<p>Hit your seed as normal, confirm with Coin Flips (or Chatter pitches in areas with weather) and activate the Poké Radar, making note of the patches that shook. If you're going for a Poké Radar exclusive you'll need to find a sparkly patch and might need to reset the PokeRadar to get one to appear, otherwise go beside any normal patch that shook and turn so your character is <strong><span class="underline">looking away</span></strong> from it, then advance to (frame with desired encounter-2) and turn+walk into the patch that shook and you should encounter your target.</p> 
+
+<h3><a name="shinypatch">Getting the Shiny Patch</a></h3>
+
+<p>First you must figure out the frame you're on after starting the chain; a good way to do this is to catch the Pokemon rather than KOing it and finding the spread in reporter, then going to the Occidentary frame in reporter and trying to match up chatter pitches to ~6-12 frames after that, it will vary due to the number of number of patches that shook after you caught/defeated the Pokemon and any active NPCs in the area. Next, you must recharge the PokeRadar by walking 50 steps; these steps do not have to be in the grass (and will not advance the RNG if they aren't) but you must be able to see at least 1 of the patches that shook at all times or your chain will break. Now walk to/near the center of the grass while avoiding any patches that shook.</p>
+
+<p>Now check your current frame with Chatter pitches as walking+any NPCs will have advanced it, how much walking advanced it by will depend on how much walking you did in grass, but will generally be 1 frame advance per step or turn you made in grass.</p>
+
+<p>It is now time for the main event, getting a shiny patch to appear! You're surrounded by lots of grass, your Poké Radar is charged, and you know which frame you're on; now all that's left is to advance to the right frame and activate the Poké Radar! But wait, how do you know which is the right frame?</p>
+
+<p>Remember the frame from Researcher with the very low 16BitHigh? That - X is your target frame, where X is equal to 5 for a 4 patch, 7 for a 3 patch, 9 for 2 and 11 for 1, you'll want to use a 4 patch as they have the best odds of working.</p>
+
+<p>In the example below, 201 is the frame from researcher and I'm going for a 4 patch, 201-5=196, so my target frame is 196. Once frame 196 is reached, use the Poké Radar and a shiny patch should appear.</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_misc_5.png" alt="Chained Shiny Main Window" />
+
+<h3><a name="shinypoke">Obtaining your Shiny Pokemon from the Patch</a></h3>
+
+<p>Congrats! You should now have a shiny patch, if you don't then either the frame does not match up or the RNG decided the 4th patch would not contain the Pokemon you were chaining.</p>
+
+<p>Walk beside the shiny patch and turn so your character is not facing it, now just figure out your current frame (should be higher than but still somewhat near the frame your shiny patch was on) and advance to target frame-1 if not using a Synchronizer, or target frame-2 if using a Synchronizer. You should be making sure that you're advancing by Chatter pitches and make a note of what the pitches are once you get about 50 frames within your target. Once you've advanced to the designated frame turn and walk into the shiny patch.</p>
+
+<p><span class="underline">Note:</span> Sometimes the game will skip over your target frame completely. If it does you can either find a new spread or try using a Synchronize lead. Don't forget to advance to target frame-2 if you're doing this.</p>
+
+<p>In the example below my target is a quint flawless spread on frame 928 and I experienced frame skipping on my first attempt, so I used a sync lead, 928-2=926, so I want to be on frame 926 before I turn+walk into the shiny patch.</p>
+
+<img src="/media/upload/ingame/rng/dpphgss_misc_6.png" alt="Chained Shiny Main Window Correct Frame" />
+
+<p>And that's basically all you need to know for chained shinies.</p>

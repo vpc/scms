@@ -1,0 +1,29 @@
+[title]
+Kitsunoh
+[head]
+<link rel="stylesheet" type="text/css" href="/media/dex/dex.css" />
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_template.js"></script>
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_database.js"></script>
+[header]
+[page]
+<script language="JavaScript">
+<!--
+var cap = Kitsunoh();
+
+cap.heightFeet = 3;
+cap.heightInches = 7;
+cap.weightPounds = 112;
+cap.weightKilos = 51;
+cap.eggGroup1 = "Ground";
+
+cap.topicLeader = "Magmortified";
+cap.conceptCreator = "Beej"
+cap.statSpreadCreator = "Gothic Togekiss";
+cap.designArtist = "Elegy";
+cap.spriteArtist = "Aragornbird";
+cap.nameCreator = "Deck Knight";
+cap.movepoolCreator = "darkie";
+
+document.write(composeDexPage(cap));
+//-->
+</script>

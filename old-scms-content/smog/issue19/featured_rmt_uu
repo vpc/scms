@@ -1,0 +1,253 @@
+[title]
+Featured UU RMT
+[head]
+<link href="/media/smog/smog.css" type="text/css" rel="stylesheet" />
+<style type="text/css">
+#border {
+   border: 1px solid #adadad;
+   background-color: #ededed;
+   margin: 10px;
+   padding: 10px;
+}  
+ 
+.center {
+    text-align:center;
+}
+</style>
+[page]
+<div class="author">Team by <a href="/forums/member.php?u=57534">Davy Jones</a>, with commentary by <a href="/forums/member.php?u=38358">kokoloko</a>.</div>
+<table id="smogheader">
+<tr>
+<td class="left"><a href="featured_rmt_ou">« Previous Article</a></td>
+<td class="middle"><a href="/smog/issue19/">Home</a></td>
+<td class="right"><a href="featured_rmt_lc">Next Article »</a></td>
+</tr>
+</table>
+
+<div id="border">
+<h2>Introduction</h2>
+
+<p>When OU Suspect Testing ended, I lost interest in the OU section of Dragonspiral Tower. While looking for something new to focus on, I decided to do some reading in the UU subforum since the UU tier contains several of my favorite Pok&eacute;mon and I thought it would make a nice break from the Deoxys-S-dominated offense that made up most of OU at that point.</p>
+
+<p>I had tried to start playing UU before, but with little success. I wasn't really sure how to get started on my own, so I began by looking at the most recent usage stats at the time (both the regular and 1337 variants) to determine what the metagame was like. After gaining my initial impressions from the usage stats, I read through the UU Stage 4 thread so that I understood the metagame as well as I could before I started to play. From there, with a better understanding of the metagame, I went back to the usage stats to begin building my team, as detailed in the Teambuilding Process section below.</p>
+
+<p>The result was the single most successful ladder team I have ever used when playing Pok&eacute;mon in any tier. Laddering under the name Cold Fire, I peaked at #2 on the Smogon University UU ladder, both winning and losing against some of Smogon's top UU players. Despite the fact that I am relatively unknown, other UU players recognized my skill (at least one person mistook me for Heysup at one point).</p>
+
+<p>This team has shown both that it matches up well against all other types of teams and that its strategy and design allow a competent player to win consistently. </p>
+
+<p>Posting this team has three purposes: first, and most importantly, it allows me to receive feedback from the Smogon community and improve this team and my own skills as a UU player. Second, I want to share this team to increase awareness of the UU tier within the community and help players unfamiliar with the tier get started by providing both a team that is straightforward and easy to use and an explanation of my battling and teambuilding strategies and philosophies. Finally, posting this team is part of what is essentially a bid for a spot on an SPL team during midseason pickups. I hope that it demonstrates my skill at the tier sufficiently to persuade at least one team to bid on me during the midseason pickups. The team title is a reference to lightning's typical discharge of 30,000 amperes at up to 100 million volts, a fitting title for the team because it's based around the most powerful Electric-type sweeper available.</p>
+
+<h2>The Team</h2>
+
+<h3>The Hazard Setter (My Life For My Team!)</h3>
+
+<p><img src="/download/sprites/bw/388.png" alt="Deoxys-D" /><br />
+<strong>Deoxys-D</strong> @ Leftovers<br />
+Trait: Pressure<br />
+EVs: 252 HP / 4 Def / 252 Spe<br />
+Jolly Nature (+Spe, -SpA)<br />
+- Stealth Rock<br />
+- Spikes<br />
+- Night Shade<br />
+- Taunt</p>
+
+<h4>Overview</h4>
+
+<p>Deoxys-D is usually the Pok&eacute;mon I lead with, as it excels at setting up Stealth Rock and Spikes early in the game. Deoxys-D's bulk and typing make it extremely difficult to OHKO, and it has decent Speed for a wall, which means that it can often set up Stealth Rock and at least one layer of Spikes before it is KOed. This set is taken directly from Snunch's RMT (<a href="/forums/showthread.php?t=3454629">Blazefire Saber</a>), so all credit for it goes to him. It often serves as a suicide lead, sacrificing itself to set up entry hazards, which are extremely important to this team. Setting up Stealth Rock against Sunny Day teams is particularly important because so many of the Pok&eacute;mon on those teams are weak to Rock-type attacks. Very few Pok&eacute;mon commonly seen on Sunny Day teams can outspeed and OHKO Deoxys-D, so I usually manage to set up Stealth Rock.</p>
+
+<p>In addition to setting up hazards, Deoxys-D also serves as a check to dangerous Pok&eacute;mon such as Swords Dance Cobalion because its bulk allows it to survive one boosted hit (including X-Scissor if Deoxys-D has at least 92% of its health left) and use Night Shade to inflict sufficient damage to bring it within KO range of Flygon's Earthquake or Raikou's Thunderbolt. Deoxys-D's ability to bring threats within KO range of my other Pok&eacute;mon means that I try to keep it relatively healthy throughout the game instead of sacrificing it to get as many layers of entry hazards as possible, although I'm perfectly willing to trade Deoxys-D for entry hazards if that gains me more of an advantage than saving it for later in the game. Deoxys-D is an extremely important part of my team because of its versatility. It takes pressure off of my other Pok&eacute;mon by easing KOs through entry hazard support and by providing a defensive safety net throughout the game.</p>
+
+<p>Deoxys-D is very effective at providing hazard support, as most users of Rapid Spin lack reliable recovery, so I can force them to take Night Shade damage just to remove Stealth Rock or Stealth Rock and a layer of Spikes. After I've weakened Blastoise with Night Shade once, I can double switch to Chandelure as the opponent brings in Blastoise again and immediately threaten it out. After being forced to switch into hazards and/or Night Shade, Chandelure can easily dispose of common users of Rapid Spin or render them too weakened to come in again and threaten my entry hazards.</p>
+
+<h4>Moveset and EV Spread</h4>
+
+<p>The moves and EVs are fairly straightforward: Stealth Rock and Spikes are my entry hazards, which are almost mandatory in UU, Taunt prevents opposing Pok&eacute;mon from setting up boosting moves or entry hazards or using status moves such as Toxic or Sleep Powder. Deoxys-D often faces mirror matches against other Deoxys-D, so Taunt gives it the chance to make the most out of winning the Speed tie. Night Shade simply gives Deoxys-D some offensive presence and enables it to function when Taunted. The HP EVs maximize overall bulk, while 252 Speed EVs and a Jolly nature maximize Speed so that I at least tie with other Deoxys-D, as early hazards enable me to dictate the flow of the match.</p>
+
+<h3>The Hazard Protector (Bring it On, Blastoise!)</h3>
+
+<p><img src="/download/sprites/bw/639.png" alt="Chandelure" /><br />
+<strong>Chandelure</strong> @ Leftovers<br />
+Trait: Flash Fire<br />
+EVs: 48 HP / 208 SpA / 252 Spe<br />
+Timid Nature (+Spe, -Atk)<br />
+- Substitute<br />
+- Fire Blast<br />
+- Shadow Ball<br />
+- Energy Ball</p>
+
+<h4>Overview</h4>
+
+<p>Chandelure replaced Weezing as my answer to dangerous Pok&eacute;mon such as Heracross and Roserade and it has performed above and beyond my expectations. Its excellent set of immunities and resistances, combined with its reasonable bulk, are exactly what this team needs, as they allow me to switch in against Pok&eacute;mon such as Roserade, Heracross, and Darmanitan much more easily than I would otherwise be able to. Chandelure also gave me a weapon against Hail teams before the ban on Snow Warning.</p> 
+
+<p>Chandelure's most important job is to protect my entry hazards by blocking Rapid Spin. Chandelure matches up well against every Rapid Spinner besides Blastoise, but it even beats Blastoise with enough residual damage. I generally have to play carefully around Blastoise, weakening it with Deoxys-D's Night Shade or double switching to Heracross when I predict that Blastoise will try to come in and spin away my entry hazards. From there, I can threaten it out or KO it outright. Entry hazards are so important to my team that, in many cases, I'll sacrifice Chandelure to weaken the opponent's user of Rapid Spin to the point that it can't come in and remove my hazards later. For example, Chandelure's Energy Ball does 35.9% - 42.5% to 252 HP/252 SDef Calm Blastoise, so if it switches into Night Shade once I have a chance to 2HKO it with Energy Ball even without entry hazard damage, which becomes a guaranteed 2HKO with Stealth Rock or one layer of Spikes, while Blastoise can never OHKO me with uninvested Scald even after Stealth Rock damage (uninvested Scald removes 61.5% - 72.5% of Chandelure's health). In addition, 252 HP/252 Def Impish Hitmontop fails to OHKO with Stone Edge or Sucker Punch (Stone Edge does 55.7% - 65.9%), while Chandelure can 2HKO Hitmontop with a combination of Fire Blast and Shadow Ball. Sucker Punch is actually more of a problem than Stone Edge, since it does 44.7% - 52.7%, so I have to play mind games to avoid being 2HKOed if Chandelure has taken prior damage, although Chandelure avoids the 2HKO at full health.</p>
+
+<p>Chandelure's second purpose is to provide offensive pressure and weaken Raikou or Suicune's counters. Snorlax counters both Chandelure and Raikou, so a smart double switch to Heracross as Snorlax comes in to wall Chandelure forces it to take hazard damage and immediately either switch out due to the threat of Heracross's 120 Base Power physical STAB moves and take more hazard damage the next time it comes in or take the hit from Heracross. Bulky Ground-type Pok&eacute;mon who can survive a +1 Hidden Power Ice from Raikou such as Rhyperior often come in on Chandelure, trying to force it out by threatening it with their super effective STAB attacks. However, Rhyperior is easily OHKOed by Energy Ball without the presence of Sandstorm or significant EV investment in Special Defense. </p>
+
+<p>Many players rely on bulky Water-type Pok&eacute;mon such as Blastoise or Milotic to wall Suicune and either inflict status or pseudo-Haze it out with Roar or Dragon Tail. Chandelure lures in and helps weaken these Pok&eacute;mon to the point where Suicune can eventually break through them, and I often sacrifice Chandelure in exchange for a weakened counter to Suicune or Raikou.</p>
+
+<p>In addition, Chandelure's Base 145 Special Attack stat helps it weaken teams even when it's not luring and damaging counters to my main sweepers. Its phenomenal power and coverage put significant pressure on my opponents and force them into a restricted set of moves. It is very easy to predict how an opponent will react to Chandelure and move accordingly as very few Pok&eacute;mon can avoid a 2HKO from the appropriate move, which is easy to select thanks to the scouting utility that Substitute provides.</p>
+
+<p>Finally, Chandelure's Flash Fire Ability provides me with my second method of defending myself from Sunny Day teams. I can come in on a Pok&eacute;mon locked into a Fire-type attack, get the boost, set up a Substitute, and hit the switch-in with the appropriate attack.</p>
+
+<h4>Moveset and EV Spread</h4>
+
+<p>Chandelure's moveset and EVs are slightly irregular, but they make sense in the context of Chandelure's role in this team. Substitute helps Chandelure scout and eases prediction by providing it with a safety blanket against the opponent's next move. From the safety present behind a Substitute, Chandelure can strike the Pok&eacute;mon that my opponent switches in with impunity. This also helps me deal with Pok&eacute;mon equipped with Choice Items, such as Flygon. I can make the appropriate switch if it uses Earthquake or Outrage, while I retain my Substitute if Flygon uses U-turn. Substitute also throws opponents off balance if they expect a set using a Choice Item, as Chandelure decimates the Pok&eacute;mon they send in to wall one attack with another altogether from the protection of a Substitute. Fire Blast is Chandelure's best STAB move because it possesses the best balance of Base Power, accuracy, and consistency. Overheat is more powerful and accurate, but less consistent due to the drop in Special Attack that it causes, while Flamethrower is significantly less powerful in exchange for its increased PP and accuracy. Shadow Ball is Chandelure's secondary, more accurate and reliable, STAB move, which provides decent coverage with Fire Blast. Finally, Energy Ball rounds out the coverage by hitting very specific targets: bulky Water-type Pok&eacute;mon and Pok&eacute;mon such as Rhyperior that wall Raikou and resist Fire Blast, as Shadow Ball is not powerful enough to dispose of these Pok&eacute;mon alone. I've been considering changing Energy Ball to another move such as Will-o-Wisp or Pain Split, but I don't like giving up the coverage it provides.</p>
+
+<p>The EV spread is fairly simple even though it is not the standard offensive spread of 252 SAtk/252 Speed. The 48 HP EVs provide me with one point of additional Leftovers recovery and one additional HP so that I can switch into Stealth Rock five times instead of four. I maximized Speed with 252 EVs and a Timid nature so that I could tie with positive-natured Pok&eacute;mon with a Base Speed of 80 and outrun all Pok&eacute;mon below that Speed benchmark. The remainder of the EVs are dedicated to boosting Chandelure's Special Attack.</p>
+
+<h3>The Wallbreaker (The Strongest Bug in the World)</h3>
+
+<p><img src="/download/sprites/bw/214.png" alt="Heracross" /><br />
+<strong>Heracross</strong> @ Choice Band<br />
+Trait: Guts<br />
+EVs: 72 HP / 220 Atk / 216 Spe<br />
+Adamant Nature (+Atk, -SpA)<br />
+- Close Combat<br />
+- Megahorn<br />
+- Stone Edge<br />
+- Pursuit</p>
+
+<h4>Overview</h4>
+
+<p>Even though Heracross technically has a lower Base Attack stat than Scizor or Escavalier, its Choice Band set is arguably better at punching holes in teams than those of either Scizor or Escavalier, and thus I grant it the title of Strongest Bug in the World. Its Fighting-type STAB attacks and Speed outweigh Escavalier's bulk and additional power, which is why I selected it over Escavalier, and a Guts boost even makes it more powerful than Escavalier. Heracross provides crucial power to this team and can take advantage of its typing and solid bulk to find many opportunities to switch in over the course of a game. As useful for Heracross as the extra Speed a Choice Scarf provides is, I believe that it benefits far more from the extra power that a Choice Band grants. A Base Attack stat of 125, backed up by the Choice Band boost and two 120 Base Power STAB attacks, allows Heracross to OHKO or 2HKO most of the UU metagame even without entry hazard support, while entry hazards ensure that almost no Pok&eacute;mon available in UU play can safely switch in on Choice Band Heracross.</p>
+
+<p>Heracross's primary function is to weaken the Special walls and bulky Water-type Pok&eacute;mon that inhibit a sweep by Raikou or Suicune, which it performs admirably. Damage calculations provided below illustrate how effectively Heracross breaks down some of the most prominent Pok&eacute;mon in UU.</p>
+
+<ul>
+<li>-1 Close Combat vs. 72 HP / 0 Def Arcanine: 72.6% - 85.8% (Probable OHKO after Stealth Rock, potential but unlikely OHKO after one layer of Spikes)</li>
+<li>-1 Close Combat vs. 180 HP / 0 Def Arcanine: 67.2% - 79.5% (Possible OHKO after Stealth Rock, guaranteed OHKO after Stealth Rock and one layer of Spikes.)</li>
+<li>+ 0 Close Combat or Megahorn vs. 252 HP / 252 Def Bold Blastoise: 60.8% - 72.1% (Guaranteed 2HKO)</li>
+<li>+0 Close Combat or Megahorn vs. 252 HP / 4 Def Blastoise, neutral nature: 84.5% - 99.7% (Probable OHKO with Stealth Rock or one layer of Spikes, guaranteed OHKO with both Stealth Rock and one layer of Spikes)</li>
+<li>+0 Stone Edge vs. 4 HP / 0 Def Chandelure: 142.7% - 167.9% (Guaranteed OHKO)</li>
+<li>+0 Close Combat vs. 248 HP / 0 Def Escavalier: 85.7% - 101.5% (Probable OHKO after Stealth Rock or one layer of Spikes)</li>
+<li>+0 Megahorn vs. 232 HP / 100 Def Timid Froslass: 53.1% - 62.5% (Almost guaranteed 2HKO even without entry hazards</li>
+<li>-1 Close Combat vs 252 HP / 252 Def Impish Hitmontop: 50.3% - 59.5% (Guaranteed 2HKO with Stealth Rock)</li>
+<li>+0 Close Combat or Megahorn vs. 252 HP / 252 Def Bold Milotic: 65.1% - 77.1% (Guaranteed 2HKO)</li>
+<li>+0 Close Combat or Megahorn vs. 252 HP / 0 Def Calm Milotic: 94.9% - 112.2% (Guaranteed OHKO after Stealth Rock)</li>
+<li>+0 Close Combat or Megahorn vs. 252 HP / 252 Def Bold Suicune: 49.8% - 58.7% (Guaranteed 2HKO after Stealth Rock)</li>
+<li>+0 Close Combat or Megahorn vs. 252 HP / 0 Def Modest Suicune: 67.1% - 79.5% (Possible OHKO after Stealth Rock and a layer of Spikes)</li>
+<li>+0 Close Combat or Megahorn vs. 252 HP / 216 Def Relaxed Swampert: 60.5% - 71.5% (Guaranteed 2HKO)</li>
+<li>+0 Close Combat or Megahorn vs. 172 HP / 0 Def Adamant Swampert: 87.5% - 103.1% (Guaranteed OHKO with one layer of Spikes)</li>
+<li>+0 Megahorn vs. 4 HP / 0 Def Victini: 89.7% - 106.2% (OHKO with Stealth Rock or one layer of Spikes)</li>
+<li>+0 Stone Edge vs. 248 HP / 228 Def Bold Zapdos: 73.1% - 86.2% (Probable OHKO after Stealth Rock)</li>
+<li>+0 Stone Edge vs. 248 HP / 0 Def Zapdos: 102.3% - 120.6% (Guaranteed OHKO)</li>
+</ul>
+
+<p>These calculations should effectively demonstrate Heracross's immense power.</p> 
+
+<p>I usually bring Heracross out early-game or midgame on a double switch or a resisted attack, select the appropriate coverage move to deal with the opponent's Heracross counter (usually Stone Edge), switch it out again, and bring it in later to fire off powerful STAB attacks. Heracross often nets two KOs a game and it is very rare that it is KOed before it has the chance to eliminate at least one of my opponent's Pok&eacute;mon. Heracross brings resistances to some of the most common attack types in UU, which grant it quite a few opportunities to switch in. Its typing allows it to check dangerous Pok&eacute;mon such as Krookodile, Weavile, Roserade, Bisharp, Hitmontop, Shaymin, and Rhyperior. Heracross often puts opponents in something of a checkmate position, where they lose a Pok&eacute;mon regardless of whether they switch or stay in. Like Chandelure, Choice Band Heracross has very few counters, which makes my opponent's next move obvious and allows me to take advantage of that and my entry hazards to make smart switches and wear down the opposing team. Heracross's counters are easy prey for the rest of my team, so smart double switching in conjunction with the damage my entry hazards provide allows me to gain and retain momentum easily. I've talked less about Heracross than about other members of the team, but this is in no way a reflection on its value to this team. Heracross is an invaluable part of this team.</p>
+
+<h4>Moveset and EV Spread</h4>
+
+<p>Close Combat and Megahorn are obligatory STAB moves. There is no reason for any Heracross set to pass over either of these moves unless it's some sort of gimmicky Bulk Up + Rest + Sleep Talk set. Stone Edge provides coverage and allows Heracross to eliminate Pok&eacute;mon that would otherwise counter it. Pursuit is mostly meant to remove dangerous Ghost-type and Psychic-type Pok&eacute;mon, but it serves well to damage most frail fleeing Pok&eacute;mon. The 72 HP EVs ensure that Mismagius will never OHKO Heracross at +2 Special Attack with Shadow Ball unless it uses a Life Orb. The 216 Speed EVs enable Heracross to outspeed all Pok&eacute;mon with a Base Speed of 80 and a neutral nature (this was mostly to beat Mamoswine at the time of the team's inception). Finally, the Attack EVs and the Adamant nature grant Heracross as much power as possible.</p>
+
+<h3>The Revenge Killer (Fastest of the Fast)</h3>
+
+<p><img src="/download/sprites/bw/330.png" alt="Flygon" /><br />
+<strong>Flygon</strong> @ Choice Scarf<br />
+Trait: Levitate<br />
+EVs: 4 HP / 252 Atk / 252 Spe<br />
+Jolly Nature (+Spe, -SpA)<br />
+- Outrage<br />
+- Earthquake<br />
+- U-turn<br />
+- Stone Edge</p>
+
+<h4>Overview</h4>
+
+<p>Flygon may not be one of the most powerful Pok&eacute;mon around, but its utility is not to be underestimated. Its typing synergizes incredibly well with Raikou and Suicune: it is immune to the Ground-type attacks that Raikou lures and the Electric-type attacks that Suicune draws, while Suicune resists Ice-type attacks, Flygon's major weakness. It also benefits enormously from entry hazards, not only because residual damage makes it easier for Flygon to perform its revenge killing duties, but also because it can scout and abuse multiple layers of entry hazards with U-turn. Despite its primary role as a revenge killer, Flygon also serves as a useful scout early in the game. Flygon's useful resistances and immunities allow me to switch it in early and often, usually for free, and rack up damage with U-turn and entry hazards. It lures Pok&eacute;mon that other members of my team can take advantage of. For example, people often switch bulky Water-type Pok&eacute;mon into Flygon in order to absorb an attack, but when I use U-turn I can set up entry hazards with Deoxys-D while weak Scalds fail to do significant damage or bring in Heracross to 2HKO them with boosted attacks. Later in the game, when Raikou's counters and checks have been sufficiently weakened, I can use U-turn to switch Raikou in on a bulky Water-type Pok&eacute;mon and begin setting up and sweeping. If the opponent switches to a Steel-type Pok&eacute;mon to take advantage of a predicted Outrage, I can take advantage of that by switching Chandelure into play and setting up a Substitute while Pok&eacute;mon such as Escavalier or Registeel switch out.</p>
+
+<p>Flygon holds this team together against a variety of threats. It allows me to revenge kill or otherwise check some of the most menacing sweepers in the tier, such as Raikou, Cobalion, Kingdra, and Nidoking. It also outspeeds or ties with common users of Choice Scarf such as Victini, Darmanitan, and Heracross, which gives me an advantage when matched up against them because I can force them out with the threat of Earthquake or Outrage and take advantage of the switch by using U-turn. It also helps me handle Rain Dance and Sunny Day teams, as it is faster than many common Pok&eacute;mon that utilize the Abilities Swift Swim or Chlorophyll, such as Omastar, Tangrowth, and Victreebel. I try to preserve Flygon when facing Sunny Day or Rain Dance teams because its Speed and STAB attacks are extremely dangerous to such teams. Its STAB attacks provide amazing coverage and allow it to threaten almost every Pok&eacute;mon in the tier. There is really no one Pok&eacute;mon that holds the team together (team matchups can vary so widely in Generation 5 that a Pok&eacute;mon absolutely crucial in one battle can end up being utterly useless in the next), but Flygon is the Pok&eacute;mon that comes closest to doing that. I try to play conservatively with Flygon because it's so useful throughout the game.</p>
+
+<h4>Moveset and EV Spread</h4>
+
+<p>Outrage is Flygon's most powerful STAB move. Its 120 Base Power gives Flygon some much-needed strength, and its phenomenal coverage makes it an excellent choice when I want to clean up weakened teams. With the opponent's Steel-type Pok&eacute;mon KOed and entry hazards set up, very few Pok&eacute;mon can avoid a 2HKO from Flygon's Outrage. The resulting Confusion and obligatory move restriction can be a problem, which is why I avoid spamming Outrage early unless something dangerous (such as Dragon Dance Kingdra) has managed to set up and my other counters or checks are unable to stop it. Earthquake is Flygon's secondary STAB move. It's safer to use than Outrage even though there are plenty of common Pok&eacute;mon immune to Earthquake and no Pok&eacute;mon immune to Outrage at all because it doesn't force me to stay in for at least two turns like Outrage does and therefore usually gives my opponent less momentum. It also gets good coverage in UU, especially with Outrage available to complement it. U-turn is probably the move I use most often, since I bring Flygon in throughout the game to scout and pressure the opponent. Its typing is almost irrelevant since its only real purpose is to retain momentum and help me control the game. Stone Edge is my coverage option, since it allows me to hit Pok&eacute;mon such as Zapdos and Honchkrow harder than Outrage, but I'm considering changing it to Fire Blast in case Sunny Day teams become more common. The EVs give Flygon as much Speed and power as possible. Although I often find myself desiring the power an Adamant nature provides, a Jolly nature is necessary to outspeed threats like Omastar after a Shell Smash or Swift Swim boost.</p>
+
+<h3>The Initial Sweeper (The North Wind)</h3>
+
+<p><img src="/download/sprites/bw/245.png" alt="Suicune" /><br />
+<strong>Suicune</strong> @ Leftovers<br />
+Trait: Pressure<br />
+EVs: 236 HP / 56 SpA / 216 Spe<br />
+Modest Nature (+SpA, -Atk)<br />
+- Calm Mind<br />
+- Scald<br />
+- Ice Beam<br />
+- Roar</p>
+
+<h4>Overview</h4>
+
+<p>Suicune is my first Special sweeper. It works well in conjunction with Raikou because Suicune and Raikou can set up on each other's counters. Suicune can force out Pok&eacute;mon such as Rhyperior, Donphan, and Mamoswine with the threat of a super effective Scald, which means that, once these Pok&eacute;mon suffer from enough entry hazard damage, they can't wall Raikou anymore. Suicune is also very good at spreading residual damage. Despite lacking instant recovery, Suicune's bulk is very impressive and its typing is excellent defensively. Its bulk and typing allow it to come in several times throughout the match to check threats and spread residual damage before attempting a sweep. Since this team relies so much on residual damage, Suicune's ability to increase residual damage through spreading Burn status with Scald or pseudo-Hazing opposing Pok&eacute;mon with Roar is very useful and important.</p>
+
+<p>Suicune serves as my check to most Fire-type Pok&eacute;mon in the tier. The only Fire-type Pok&eacute;mon in UU that Suicune loses to outright is Arcanine. Suicune provides me with another method of dealing with Darmanitan and Chandelure because it can take their hits and retaliate with a super effective Scald. It also checks Houndoom because it can take a Sucker Punch with ease and Houndoom can't OHKO it without Hidden Power [Grass], a Nasty Plot boost, and a Life Orb. Even then, it requires Stealth Rock or one layer of Spikes to even have a chance of OHKOing Suicune (it has to roll fairly high damage) and only guarantees the OHKO with Stealth Rock and one layer of Spikes or three layers of Spikes. Suicune serves as a failsafe against so many things that I can't imagine this team operating without it. I feel that a bulky Water-type Pok&eacute;mon is almost a necessity in this metagame, despite the fact that it allows Roserade essentially free reign, because of the enormous utility it provides. In fact, a bulky Water-type Pok&eacute;mon can even bait Roserade and hit it with Ice Beam as it switches in or double switch to something that can take advantage of Roserade. Suicune's bulk allows me to check Weavile, which would otherwise run roughshod over my team because Flygon, which is weak to Ice Shard, is the only thing that can outspeed it. Therefore, I need Suicune's bulk so that I can take a hit and retaliate by Burning, KOing, or weakening Weavile to the point where another member of the team can finish it off.</p>
+
+<p>Suicune helps me deal with opposing support Pok&eacute;mon because it presents itself as setup bait. When Pok&eacute;mon such as Blastoise or Roserade switch in, Suicune can Roar them out and force them to take residual damage and receive no gain whatsoever. This helps me retain momentum and wear down the opposing team. If I shuffle out something that Suicune has an advantage against, I have control of the game because, depending on what I think my opponent will do, I can either set up with Suicune or take advantage of an impending switch with Roar or a double switch.</p>
+
+<p>Finally, Suicune is an important check to Rain Dance teams because its enormous bulk and resistance to Water-type attacks allow it to take hits from Swift Swim sweepers and either use Roar to force them out or retaliate with boosted Scalds. Suicune can even set up in certain situations against Rain Dance teams, such as after Kingdra has used Draco Meteor, although I have to make sure that Ludicolo won't pose a threat to me before going for the sweep.</p>
+
+<p>Suicune is an invaluable member of the team because of the offensive and defensive pressure it places on the opponent, which allows me to control the game more effectively. It is the only Pok&eacute;mon on the team that really qualifies as a bulky offensive Pok&eacute;mon, as the rest of the team, barring Deoxys-S, takes advantage of resistances, immunities, and offensive pressure to make safe switches, while Suicune can simply rely on its bulk to get in safely.</p>
+
+<h4>Moveset and EV Spread</h4>
+
+<p>Calm Mind fits perfectly with the bulky offensive nature of this Suicune and is the only stat-boosting move besides Double Team that Suicune receives. After a boost or two, Suicune can shrug off even super effective Special attacks and strike back with its own powerful moves. Scald is a reliable STAB attack. I chose it over Surf because of the 30% chance to Burn. While I sometimes wish that I had the extra power from Surf, I feel that the Burn chance makes Scald the more valuable move in the long run. I've lost games because I needed Surf's power, but I've also won games thanks to Burns from Scald. Ice Beam provides super effective coverage against Grass-type Pok&eacute;mon and allows me to hit Pok&eacute;mon such as Zapdos super effectively. The coverage against Pok&eacute;mon such as Roserade and Zapdos is valuable because they could otherwise stop my sweep. I often try to hit them on the switch and weaken them to the point where they can't stop me the next time they come in. Roar is a very useful move. It allows me to win Calm Mind wars, rack up entry hazard damage, scout the opposing team, and check setup sweepers by forcing them out. It allows me to take advantage of Suicune's impressive bulk and decent Speed to control the game.</p>
+
+<p>The EV spread seems a little complex and unorthodox, but it's tailored for specific purposes. 216 Speed EVs let me outspeed Adamant Mamoswine, while 236 HP EVs give me 400 HP and therefore additional Leftovers recovery. I wanted to have 401 HP so that I could switch into entry hazards more often, but I needed 56 Special Attack EVs to reach a jump point in Special Attack. A Modest nature allows me to hit harder, since I don't need to outspeed or tie with Pok&eacute;mon with 85 Base Speed and a Speed-boosting nature and everything slower; I only need to outspeed Adamant Mamoswine. I originally wanted to outspeed Mamoswine because it threatened Raikou by having enough bulk to comfortably survive a +1 Hidden Power Ice and access to STAB Earthquake.</p>
+
+<h3>The Final Sweeper (The God of Thunder)</h3>
+
+<p><img src="/download/sprites/bw/243.png" alt="Raikou" /><br />
+<strong>Raikou</strong> @ Leftovers<br />
+Trait: Pressure<br />
+EVs: 128 HP / 76 Def / 52 SpA / 252 Spe<br />
+Timid Nature (+Spe, -Atk)<br />
+- Substitute<br />
+- Calm Mind<br />
+- Thunderbolt<br />
+- Hidden Power Ice</p>
+
+<h4>Overview</h4>
+
+<p>Raikou is my main sweeper, which most people would describe as "the star of the show" or something, and normally, in the case of most teams, that's fairly accurate. However, this team really doesn't have a star or an MVP. It requires every member to work effectively and perform their separate jobs, and no one job is more important than the others. While Raikou generally cleans up at the end of the game, I am more than capable of cleaning up with whatever Pok&eacute;mon are still available to me. However, as this team works toward facilitating a Raikou sweep, I try to focus on keeping Raikou alive until the endgame. I consider Raikou the most powerful and threatening setup sweeper in UU. Having tried both Life Orb and Substitute + Calm Mind Raikou, I can safely say that this set is by far the better of the two. A plethora of setup opportunities mean that Raikou wreaks havoc more often than not. It can set up on so much of the UU tier that I almost always have a chance to bring it in and start wrecking opposing teams. It sets up on many of the prominent Pok&eacute;mon in the tier, such as Roserade, Blastoise, Zapdos, Empoleon, and Froslass. Once Raikou has a Substitute and a few Calm Mind boosts, it's almost impossible to revenge kill and can OHKO or 2HKO almost all of the UU tier.</p> 
+
+<p>I try to avoid using Raikou defensively, but it does check some important things. In particular, it is my best answer to Zapdos, since it can come in on really anything besides Toxic and proceed to set up. While Flygon is immune to Zapdos's STAB attacks, it can't OHKO with Stone Edge and loses to Hidden Power Ice. Raikou also scares out Froslass, which is important because the rest of the team has trouble preventing it from setting up Spikes. It can also check Cobalion, Mismagius, and almost everything else slower. Raikou is my best way of defeating Crobat, since it resists Brave Bird and isn't really affected by anything else Crobat can do.</p>
+
+<p>Raikou is also my offensive answer to Rain Dance teams, along with Flygon. I can bring Raikou in on Tornadus and immediately force the other player to play a mind game by threatening to use Calm Mind or Substitute if the opponent uses Rain Dance or simply OHKO the opposing Tornadus and prevent the use of Rain Dance. Either way, I benefit from the situation if I predict correctly. Rain Dance teams don't like playing without rain up or facing down a Raikou either behind a Substitute or in possession of a +1 boost to both Special Attack and Special Defense. I can usually defeat at least one member of common Rain Dance teams and then severely weaken or KO the next if Raikou gets a boost or a Substitute.</p>
+
+<p>While I may not have written as much about Raikou as I did about the rest of the team, that does not reflect its importance. Raikou simply performs one main role: sweeping/cleaning. It also provides a primary check to a few Pok&eacute;mon and a secondary or tertiary check to others, but it should aim to sweep before all else in most games.</p>
+
+<h4>Moveset and EV Spread</h4>
+
+<p>Substitute eases prediction and protects Raikou from status. It also allows Raikou to defeat certain Pok&eacute;mon that it otherwise would not be able to, such as Flygon. Calm Mind is Raikou's only legal boosting move. Ideally, I would use something like Quiver Dance, but I have to settle for Calm Mind. Thunderbolt provides a powerful and reliable STAB move, which also has good coverage. Hidden Power Ice provides the best coverage out of Raikou's available coverage moves and also hits the Pok&eacute;mon that resist or are immune to Raikou's Electric-type STAB attacks super effectively. The HP and Defense EVs allow Raikou's Substitute to survive Jolly Choice Scarf Flygon's U-turn 100% of the time, while 252 Speed EVs and a Timid nature make Raikou as fast as possible. The remaining EVs are allocated toward pumping up Raikou's Special Attack so that it hits as hard as possible.</p>
+
+<h2>Conclusion</h2>
+
+<p>Well, that's my team. Feel free to rate it, use it, modify it, or anything else you want. Ask any questions you'd like. It took me forever to write this up and it ended up being like 16 pages long in Microsoft Word, so don't totally ignore it. I really have nothing else to say except that the next post will contain a threat list, and thanks for reading!</p>
+</div>
+
+<h2>Introduction</h2>
+
+<p>Although this team was created during the hail-dominated period in UU, the concept of using Suicune and Raikou as an offensive pair translated very well into the post-Snow Warning era. In fact, the team benefited from this change, as SubCM Raikou becomes much more threatening without harmful weather nullifying its precious Leftovers recovery. What makes this duo so dangerous is the ability they posses to lure and set up on each other's counters: Raikou draws out Ground-types for Suicune to set up on, while Suicune lures out Electric-types for Raikou to get a free boost. It's really one of the most basic concepts in teambuilding, but Davy Jones has pulled it off excellently. This pair also happens to posses fantastic synergy with the Spikes that Deoxys-D is nearly guaranteed to lay down early in the match; and with Chandelure around to help prevent them from being spun away, fighting against this team is sure to be an uphill battle.</p>
+
+<h2>The Team</h2>
+
+<p>Davy Jones essentially uses two cores in this team, both with great efficiency. The first of the two is the hazard supporting combination of Deoxys-D and Chandelure, which makes it easy to lay down and maintain multiple layers of hazards on his opponent's side. This in turn paves the wave for his second core, Suicune and Raikou, to smash his opposition into oblivion. As has been previously mentioned, this offensive pair works fantastically well together thanks to their shared ability to set up on each other's counters. The opponent will be forced to switch around a lot in order to prevent one of them from boosting to the point where it becomes unstoppable, racking up lots of Spikes damage in the process, and eventually weakening their team to the point where neither legendary beast will need many boosts to sweep. The final two members of the team, Choice Band Heracross and Choice Scarf Flygon, also play very crucial roles in Davy Jones's strategy. Flygon acts as a 'catch-all' revenge killer, and can also use U-turn early in the game to force even more switches. Heracross, on the other hand, is simply here to strike fear into the hearts of the special walls that could potentially halt either Suicune's or Raikou's Calm Mind sweep.</p>
+
+<p>Lets take a more in-depth look at the two Pok&eacute;mon who essentially make this team what it is. Suicune's set might seem a little unorthodox for newer players, but people who have been around for a while should recognize good ol' Calm Mind + Roar Suicune from back in the ADV days. While it may have played a different role during the Paleozoic era, in 2012, this set is an excellent choice for offensive teams looking for a Pok&eacute;mon who can serve as a defensive pivot without losing the ability to quickly become a dangerous threat. Additionally, its excellent bulk and access to Roar, especially when used in conjunction with Spikes, is sure to quickly wear down the opponent's team. As for the second half of this dynamic duo, Raikou is utilizing its bread-and-butter SubCM set, which has stood the test of time and remained an excellent sweeper since its inception. A big part of the reason behind this set's success is the sheer difficulty the opposition has breaking its Substitutes once it has set up a Calm Mind or two. Of course, Ground-types should have no problem taking on Raikou, but here's the catch: Suicune can then switch in and force them right back out, so they are forced to take yet another round of Spikes damage. It's really quite the effective combination, isn't it?</p>
+
+<p>However, one of the many things that makes this team as good as it is, is the fact that even if the legendary beasts fail to pull off a sweep, the remainder of the team has more than enough offensive pressure to pull through. In other words, it's very likely that while the opponent is focused on preventing a Suicune or Raikou sweep, they are allowing their team to become so weakened such that Flygon, Chandelure, or Heracross will be able to pick them off late-game. Choice Scarf Flygon has always been a nightmare for offensive teams to face, and in conjunction with Spikes, it becomes even more hellish. Chandelure and Heracross are more suited to sweep defensive teams, as their tremendous power is sure to break through even the sturdiest walls once they have been slightly weakened. Once again, Spikes play a crucial role here because they are just so effective at doing exactly that. Speaking of Spikes, lets take a brief look at Davy Jones's Deoxys-D set, which opts not to use Recover in favor of focusing solely on setting hazards. While it's true that this decreases its longevity by a significant amount, it also means that Davy Jones will have more hazards up in a shorter period of time, allowing the rest of his team to be that much more devastating.</p>
+
+<h2>Threats</h2>
+
+<p>As good as this team is, however, it still has its weaknesses. Weavile is the number one threat to this team, as Swords Dance variants can easily sweep right though it once Suicune has been weakened a bit. Roserade is another huge threat, as nothing on this team can stomach a STAB- and Life Orb-boosted Leaf Storm very well; when you consider its access to Sleep Powder and Toxic Spikes, it becomes evident that Davy Jones absolutely hates having to face one. In a similar vein, Shaymin, with its good coverage and access to Seed Flare, can tear huge holes into this team. Flygon and Kingdra will have a fairly easy time spamming their STAB Dragon-type attacks with no Steel-types to absorb them. A less obvious threat to this team is Blastoise, as its Water-typing means Chandelure risks coming into a STAB super effective Scald every time it wants to block Rapid Spin. Finally, Agility Empoleon can really put the hurt on Davy Jones if he lets go of his Flygon too early. In a similar vein, unless he manages to prevent them from setting up, Rain Dance teams can usually overpower this team due to the sheer offensive pressure they posses.</p>
+
+<h2>Conclusion</h2>
+
+<p>Like every other team out there, this team has its flaws, but that doesn't mean it isn't built well, as evidenced by its success on the ladder. Davy Jones managed to epitomize the current state of UU, which, if you haven't figured out by now, is simply Spikestacking Offense around every corner, but he does so while giving his team some personality though the use of interesting sets, like Calm Mind + Roar Suicune. I encourage you to go and test this team yourself and see how you fare against the ladder, but remember not to ragequit too often when you misclick due to the awful lag on the Smogon University server, otherwise you wont get too far!</p>
+
+<table id="smogfooter">
+<tr>
+<td class="left"><a href="featured_rmt_ou">« Previous Article</a></td>
+<td class="middle"><a href="/smog/issue19/">Home</a></td>
+<td class="right"><a href="featured_rmt_lc">Next Article »</a></td>
+</tr>
+</table>

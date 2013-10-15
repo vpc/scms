@@ -1,0 +1,68 @@
+[title]
+Create-A-Pokémon Project
+[header]
+[head]
+<meta name="description" content="Website for Smogon's Create-A-Pokémon Project." />
+<link rel="stylesheet" type="text/css" href="http://cap.smogon.com/web/cap.css" />
+[page]
+<center>
+<img src="/media/cap/cartoons_syclant180x180.jpg" hspace=10 vspace=5 />
+<img src="/media/cap/cartoons_revenankh180x180.jpg" hspace=10 vspace=5 />
+<img src="/media/cap/cartoons_pyroak180x180.jpg" hspace=10 vspace=5 />
+<div id="capfront_textArea">
+
+<div id="capfront_headingArea">
+<h2>Create-A-Pokémon Project</h2>
+<p>"The Create-A-Pokémon project is a community dedicated to exploring and understanding the competitive Pokémon metagame by designing, creating, and playtesting new Pokémon concepts."</p>
+</div>
+
+<div id="capfront_newcomers">
+<p>If you are new to the CAP Project, please read this before proceeding any further:
+<br>
+<strong><a href="/cap/articles/newcomers_guide">Welcome to Create-A-Pokémon: A Guide for Newcomers</a></strong></p>
+</div>
+
+<div id="capfront_linksArea">
+<table id="capfront_linksTable" CELLSPACING=0>
+<tr>
+<td class="leftSide"><dl>
+<dt><a href="/cap/pokemon/">Pokémon</a></dt>
+<dd>Online Pokédex of all the Pokémon created in the CAP project to date.</dd>
+</dl></td>
+<td><dl>
+<dt><a href="/cap/process/">Process</a></dt>
+<dd>Detailed descriptions of every step of the process for creating Pokémon.</dd>
+</dl></td>
+</tr><tr>
+<td class="leftSide"><dl>
+<dt><a href="/forums/forumdisplay.php?f=66">Forum</a></dt>
+<dd>Community forum where we create Pokémon and discuss the project.</dd>
+</dl></td>
+<td><dl>
+<dt><a href="/cap/articles/">Articles</a></dt>
+<dd>Reference information and guides on a variety of topics related to the project.</dd>
+</dl></td>
+</tr><tr>
+<td class="leftSide bottomCell"><dl>
+<dt><a href="/cap/server/">Battle Server</a></dt>
+<dd>Information about Pokemon Showdown!, where all CAP creations can be used in real battles.</dd>
+</dl></td>
+<td class="bottomCell"><dl>
+<dt><a href="/cap/gallery/">Gallery</a></dt>
+<dd>Art designs from past CAP projects and other contributions from the amazing CAP artists!</dd>
+</dl></td>
+</tr>
+</table>
+</div>
+
+<div id="capfront_footerArea">
+<table id="capfront_footerTable" CELLSPACING=0>
+<tr>
+<td class="leftSide"><a href="/cap/mission_statement">Project Mission Statement</a></td>
+<td class="rightSide"><a href="/cap/leadership_team">Project Leadership Team</a></td>
+</tr>
+</table>
+</div>
+
+</div>
+</center>

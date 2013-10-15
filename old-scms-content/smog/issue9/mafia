@@ -1,0 +1,77 @@
+[title]
+Mafia Revolution
+[head]
+<link href="/media/smog/smog.css" type="text/css" rel="stylesheet" />
+[page]
+<div class="author"> By <a href="/forums/member.php?u=273">Mekkah</a>. Art by <a href="/forums/member.php?u=31311">Rocket Grunt</a>.</div>
+<table id="smogheader">
+<tr>
+<td class="left"><a href="art_picks">&laquo; Previous Article</a></td>
+<td class="middle"><a href="/smog/issue9/">Home</a></td>
+<td class="right"><a href="tcg">Next Article &raquo;</a></td>
+</tr>
+</table>
+
+<div style="margin-left: 5px; float: right;"><img src="/media/smog/9/mafiarevolution_mafia.jpg" alt="" /></div>
+ 
+<h2>Introduction</h2>
+
+<p>Those who pay attention to the forum might have noticed: Circus Maximus went through an important change between this issue and the last one. Earthworm and I finally made the call on how exactly to implement these "Circus Maximus Changes" that have been debated on for a long time, both on the private staff forum and out in the open. We're very grateful for everyone's input, because it helped us cater the new process and rules towards the people who will be playing the games they apply to!</p>
+
+<p>I'll give a brief summary of these changes for those who didn't follow. Games are now divided into three difficulty levels: Beginner, Standard, and Expert.</p>
+
+<p>Beginner is for people who want to get into mafia, get a feel for the system and the metagame, basically learning how to play. A good idea to start with even if you have experience playing mafia elsewhere, since Smogon's mafia is very, very different from other versions of the game (if you forgot why, it's described in detail in my <a href="/smog/issue4/mafia">first Smogon Mafia article</a>).</p>
+
+<p>Standard is simply the level small games have been for a long time now. Unlike Beginner games, however, they can be harder, more complicated, and most importantly, experimental. The need for experimental games has increased drastically, since it's recently been agreed upon that <a href="/forums/showthread.php?t=69744">the old 2v1 formula is broken</a>. But if you're afraid of changes, don't worry, because there's still plenty of normal village vs mafia (vs mafia) games out there.</p>
+
+<p>Expert is for that small core of seasoned hosts and players who want the maximum freedom in their design, host and play. The games on this level are not moderated by Mekkah or Earthworm; instead, the hosts themselves are judged on whether they are capable of hosting a high level game. The player lists are entirely handpicked by the host. The desire for playing on a higher level is one of the reasons the whole process of "Circus Changes" was set up.</p>
+
+<p>If you want more information on the changes or the rules, visit the <a href="/forums/showthread.php?t=66788">updated sticky</a>.</p>
+
+<h2>About Experimental Concepts</h2>
+
+<p>Not even that long ago, the realization that mafia games do not necessarily have to be uninformed majority versus informed minority has really struck upon design enthusiasts all over the place. Viva la Mafia and the lynchpin format were the first to deviate from the norm, but nowadays most if not all games have a very experimental element in them, and at least half of them are even very daring in this concept.</p>
+
+<p>It isn't easy to think of a new format, and a beginner to mafia design might fall for some beginners' traps. Here are the two biggest dangers:</p>
+
+<h4>1. The game is in danger of becoming either one-sided, or stale</h4>
+
+<p>This is what happens if you make a game between just two equal factions. Either one side will have the advantage from a lucky start, or the two sides will just knock each other down. There is no real wildcard, no unpredictability.</p>
+
+<p>So, is the ultimate solution to make more than two factions? No, because...</p>
+
+<h4>2. The game is vulnerable to ending in a kingmaker position</h4>
+
+<p>The moment more than two factions are in play whose win condition is "You win if all other factions are eliminated", the game changes to a free for all. In these cases, it becomes very hard for a faction to dominate, because the others won't let that happen. No matter how well you plan your strategies, you can't take on three others who know fighting you is in their best interest. Night kills and lynches will be aimed at you until everyone is on equal footing again, and there's very little you can do about it.</p>
+
+<p>Problem #1 only really occurs with an 1v1 game, and those are rare. If you want to make a game between two factions, you will want to make sure there are both ways to dominate it by good play, and ways to come back (also through good play). Here are some pointers to consider:</p>
+
+<ul>
+<li>Make the teams more of a village than a mafia. The diversifying element of moling and false claiming is much needed in 1v1.</li>
+<li>A person dying does not mean their ability has to be lost. You can include various kinds of back-up roles that make sure that a random early kill on a good role screws over the other team.</li>
+<li>Think long and hard before throwing in neutrals. This goes for every type of game, but in this instance, realize that whoever the neutral is going to work with will come out with a big advantage, even if he has no real powers at all.</li>
+</ul>
+
+<p>Problem #2 is harder to solve, and has haunted almost any game, no matter how traditional, experimental or anything. Whenever you have three or more factions, and whenever politics come into play, at some point one side is going to give a possibly decisive advantage to one of the other two. Frankly, I don't believe this problem can be solved entirely, but I believe you can steer things in the right direction as a host before the game starts. You can forge alliances and connections between factions through giving them roles that work together, common goals (needing a certain other faction or neutral to lose), anonymous contacting possibilities, etcetera. A rough outline of who is going to align with who is way better than none at all.</p>
+
+<h2>Things to Experiment With</h2>
+
+<p>If you want to design something new and fresh but you need a little more ideas, look here for a list of things you should toy around with. They were inspired by <a href="/forums/showthread.php?t=67851">this</a> topic in the Office. Try toying with:</p>
+
+<ul>
+<li>Locations. The basic premise here is that every player is on a location (a room, a floor, a country, a planet, what have you), and that this affects roles in a way. A role could require being in the same place as or close to your target, or the opposite. A role could find your target, or place them somewhere else. The possibilities here are endless and I won't be surprised if someone tries this soon.</li>
+<li>Lynches. In the traditional game of mafia, the village vs mafia lynch is based on a democratic agreement on the most suspicious member. But in Smogon mafia, people generally vote for a person because they know it is in their best interest to remove them. This is a large difference in certainty and reason. Therefore, the lynching system seems very outdated at times. People should try experimenting with how much everyone's vote counts, the amount of lynches in a day, a credit system or even play a game with no lynch at all.</li>
+<li>Allegiances. Clear cut teams and stand-alone neutrals are not the extent of what we can do here. While allegiance shifts have been perceived as broken in the past, you have to remember this is largely because people were not prepared for them. The moment you can't even trust your own teammate anymore, the game gets a new dimension: the "who can I trust" part of mafia comes back, which can be a good thing. Additionally, you may want to try out giving people more than one faction they're aligned with. (Keep in mind that generally, everyone should have a roughly equal chance of winning, with the exceptions of wolves etc.)</li>
+</ul>
+
+<h2>Closing Words</h2>
+
+<p>The games on Circus are going through the conversion from mafia to a whole new different kind of game, sometimes called "Tactical Game". I don't think there's a better name than "mafia" since it fits so well with the politics, the backstabbing, and the murders that the games will always have, but I think everyone should keep in mind that we're no longer really playing mafia. We're playing some kind of negotiating, strategizing game that has evolved past the old game that became impossible to stick to due to the outside communication. And that's why hosts should be more creative when thinking up their roles and games. They need to think outside the box to keep the environment interesting.</p>
+ 
+<table id="smogfooter">
+<tr>
+<td class="left"><a href="art_picks">&laquo; Previous Article</a></td>
+<td class="middle"><a href="/smog/issue9/">Home</a></td>
+<td class="right"><a href="tcg">Next Article &raquo;</a></td>
+</tr>
+</table>

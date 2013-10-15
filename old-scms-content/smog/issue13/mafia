@@ -1,0 +1,65 @@
+[title]
+Up the Mafia Tempo
+[head]
+<link href="/media/smog/smog.css" type="text/css" rel="stylesheet" />
+[page]
+<div class="author"> By <a href="/forums/member.php?u=273">Mekkah</a>.</div>
+<table id="smogheader">
+<tr>
+<td class="left"><a href="featured_rmt_lc">&laquo; Previous Article</a></td>
+<td class="middle"><a href="/smog/issue13/">Home</a></td>
+<td class="right"><a href="art_panel">Next Article &raquo;</a></td>
+</tr>
+</table>
+
+<h2>Introduction</h2>
+
+<p>On Smogon, we don't actually play Mafia. We play a mutated, perhaps evolved form of it. Traditionally, Mafia is a game with no outside communication, and an uninformed majority versus an informed minority. Both of these ideas have been reduced from necessary to optional, and as such, our metagame is vastly different. Because of that, various adjustments to gameplay and standard rule-sets have been made. For example, on dedicated Mafia websites, a Day can last as long as 3 weeks. On Smogon, it is rarely any longer than 48 hours.</p>
+
+<p>The standard rules as they are now are workable, but can be much improved to make the game even better. Too often, a game gets a "dragging" feel. Most of the players are simply waiting for the host to update their game, usually because one or two players have not sent in their PM yet. This is especially bad late in the game, where most of the players are dead but still can't get into another game because of their lower priority, and where oftentimes the game is either going to end up in a kingmaker scenario (one side decides which of the other sides wins without being able to win themselves) or it's already clear on who the winner is.</p>
+
+<p>So, here are some ideas to keep everyone on the edge of their seat until the last moment!</p>
+
+<h2>Shorter deadlines</h2>
+
+<p>It's a no-brainer, really. The careful way of doing this is using 48 hour Nights and 24 hour Days. Days are traditionally meant for long deliberation amongst villagers (and scum pretending to be villagers, of course) on who to lynch. On Smogon, early on, it's nothing but the village leader collecting results and pointing out a lynch target which everyone proceeds to roll on. Generally, at least. Late-game, kingmaker scenario, factions might negotiate a bit with each other, and will just post their votes as one. Not much different in a game where the winner is rather clear.</p>
+
+<p>Sometimes these activities do need the full 48 hours. But those are 24 extra boring hours for most of the game. At the very least, you should consider making 24 hours the default, and only adding 24 upon request. But it should be noted that blue_light successfully hosted a “speed mafia” before with a deadline every 24 hours.</p>
+
+<p>On that note, aside from the above "24 by default, 48 by request" regulation, deadline extensions should be a rarity, not a convenience for those slackers who cannot get their PMs in. Sub out repeat offenders instead of delaying your update for them.</p>
+
+<h2>Unicycle</h2>
+
+<p>For those who don't know what Unicycle means, it's essentially fusing the Day and Night into one Cycle, during which all events that would normally happen during Day and Night are executed. It's essentially implemented as a Day and then a Night, meaning the lynch and its votes take a higher priority than the Night. This means that someone's vote counts even if they are killed during that Cycle, and you cannot execute your "Night" role if you are lynched. Treat the lynch in general as the highest priority action and it's not even that much more difficult to implement.</p>
+
+<p>I have ran two games in Unicycle fashion so far: Unicycle Mafia and Pokémon TCG Mafia. As long as the game is designed well, there are absolutely no problems in it. The only disadvantage I can think of is that updating takes a little longer as it is more complicated, but this is a very minor complaint. You don't even need to make a Cycle longer than a Day or Night: I started out Unicycle with 48 hour deadlines, with the exception of Cycle 1 and extension requests, which were 72. Neither of these ended up being necessary.</p>
+
+<p>The idea of Unicycle works because it turns out that most people spend Mafia games waiting. During the Day, there is absolutely nothing to do except decide your vote, and so often in team games, this isn't all that exciting. It's often straight forward, and for people who aren't in charge, it often gets decided for them. During the Night, the same goes, except for your Night action. It turned out people were easily able to decide both of these in just 48 hours.</p>
+
+<p>I would recommend Unicycle hosts to default everyone's Cycle 1 vote to “No Lynch” though, until changed to something else. This way, if there are people who really want to put someone on the chopping block, they will have to rally a lot of support for it to happen.</p>
+
+<p>On a similar note, if your game has some unorthodox design and you think you need a third type of phase (besides Night and Day), I would recommend trying to eliminate that third phase. Metroid Prime Mafia has two “Day” stages and one “Night” stage and it is turning out to be rather slow.</p>
+
+<h2>More deaths or less death prevention methods</h2>
+
+<p>A game always needs people to die to progress. Therefore, a game with lots of ways to stop kills or lynches is going to drag on a lot longer. This applies to games where people have more than one life or a certain number of lynch blocks, but the most common cause of this is a game with too many kill prevention methods, such as bodyguards, hookers, kidnappers, lynch protects or blocks, etcetera. And of course, if you give the Mafia less than one kill every Night (such as 2 kills in 3 Nights, or 1 kill in 2 Nights), then the game will slow down as well.</p>
+
+<p>Oftentimes, a game has one or two Neutrals with a killing power that fades away as soon as they are eliminated. You can opt to redistribute this killing power to other faction(s) to keep the number of kills per Night the same.</p>
+
+<p>What can you do besides obvious solutions such as increasing kill frequency and reducing the amount of kill blockers? You can introduce roles that can pierce those blocking roles, such as the Usain Bolt role in Viva la Mafia. Be careful with those, though.</p>
+
+<p>A lynch tie can also slow down the game. A good way to solve this is to either kill off everyone who is tied for most votes, or have some other way of resolving a lynch tie (for example through a village role).</p>
+
+<h2>Wrapping up the game</h2>
+
+<p>Sometimes a game can go every way, but at other times, one team can be so far ahead of others that the only way they can lose is through some really obscure ways. In such a case, the host can often do some things to put the losing teams out of their misery without giving them an unfair loss.</p>
+
+<p>Obviously, a host should always call the game when there is literally no other outcome possible. But, sometimes you need to know what would happen a few Cycles in advance before you can actually call the game. What you should do if you feel the game can be resolved soon is to ask every faction what their plans are for upcoming Nights, especially with regard to backstabbing other factions. For example, in MGS Mafia, at one point, there were three factions alive. One of these could win with either of the two others. So, instead of having the game play out entirely, the hosts asked the faction that could win with either of the other two which one they would go with, and based on that the game was called.</p>
+
+<table id="smogfooter">
+<tr>
+<td class="left"><a href="featured_rmt_lc">&laquo; Previous Article</a></td>
+<td class="middle"><a href="/smog/issue13/">Home</a></td>
+<td class="right"><a href="art_panel">Next Article &raquo;</a></td>
+</tr>
+</table>

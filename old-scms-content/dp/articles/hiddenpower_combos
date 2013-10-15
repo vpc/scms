@@ -1,0 +1,759 @@
+[title]
+Nature, IV, and Hidden Power Combinations for Legendary Pokemon
+[head]
+<link rel="stylesheet" type="text/css"   href="/media/page.css" />
+<script type="text/javascript" src="/media/jquery.js"></script>
+<script type="text/javascript" src="/media/jquery.tablesorter.js"></script>
+<meta name="description" content="A listing of all useful nature, Hidden Power, and IV combinations for legendary Pokemon, by Rising_Dusk, eric the espeon, and assorted C&amp;C contributors." />
+[page]
+<div class="author">By <a href="/forums/member.php?u=43161">Rising_Dusk</a>, <a href="/forums/member.php?u=12694">eric the espeon</a>, and assorted C&amp;C contributors.</div>
+
+<ol class="toc">
+<li><a href="#intro">Introduction</a></li>
+<li><a href="#ivs">IV Combinations</a>
+<ul>
+<li><a href="#timid">Timid (+Spe, -Atk)</a></li>
+<li><a href="#modest">Modest (+SpA, -Atk)</a></li>
+<li><a href="#bold">Bold (+Def, -Atk)</a></li>
+<li><a href="#calm">Calm (+SpD, -Atk)</a></li>
+<li><a href="#hasty">Hasty (+Spe, -Def)</a></li>
+<li><a href="#naive">Naive (+Spe, -SpD)</a></li>
+<li><a href="#rash">Rash (+SpA, -SpD)</a></li>
+<li><a href="#naughty">Naughty (+Atk, -SpD)</a></li>
+<li><a href="#mild">Mild (+SpA, -Def)</a></li>
+<li><a href="#lonely">Lonely (+Atk, -Def)</a></li>
+</ul></li>
+<li><a href="#list">Applicable Pokemon</a></li>
+</ol>
+
+<h2><a name="intro">Introduction</a></h2>
+
+<p>In many cases for competitive Pokemon, using a Pokemon with the maximum in all IVs is either suboptimal or altogether impossible. A ubiquitous scenario would be when the Pokemon needs a specific Hidden Power type in order to obtain a very specific coverage move. Furthermore, a lower HP stat can sometimes reduce Stealth Rock damage taken or facilitate the creation of five Substitutes in a row with Leftovers recovery. As if to make things worse, some legendary Pokemon are unable to have certain IV spreads, making it even more difficult to find the right combination of IVs that are both legal with a certain nature and yield the desired type of Hidden Power. This article was created in order to facilitate the process of finding the right IV spread for your Pokemon, regardless of the nature or Hidden Power type you need. Note that only competitively useful combinations are given in the tables below.</p>
+
+<p>As mentioned above, sometimes you need your Pokemon to have fewer HP IVs in order to take less damage from Stealth Rock or create more Substitutes. For this reason, viable IV spreads with possible combinations of 30 HP and 31 HP are provided. If a set has more than two IV combinations, or two of equal HP stats, it is because there are completely different combinations that can be used, each of which are useful in their own way.</p>
+
+<p>Finally, you will notice that many of the following IV combinations yield very low Attack stats. These low Attack stats are useful for specially offensive Pokemon so that they take less damage when they are confused and hit themselves. Separate spreads are provided for each Hidden Power type and each relevant nature with the highest possible Attack IV as well as the lowest. Note that for the natures which boost the Pokemon's Attack stat, these Attack-reducing IV spreads are not present.</p>
+
+<h2><a name="ivs">IV Combinations</a></h2>
+
+<h3><a name="timid">Timid (+Spe, -Atk)</a></h3>
+
+<table class="sortable">
+<thead>
+	<tr><th>HP</th><th>Atk</th><th>Def</th><th>SpA</th><th>SpD</th><th>Spe</th><th>Notes</th></tr>
+</thead>
+<tbody>
+	<tr><th colspan=7 style="text-align: left">Bug-type</th></tr>
+		<tr>          <td>31</td><td>19</td><td>31</td><td>31</td><td>30</td><td>30</td><td></td></tr>
+		<tr class="a"><td>30</td><td>31</td><td>31</td><td>31</td><td>30</td><td>30</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Dark-type</th></tr>
+		<tr>          <td>31</td><td>31</td><td>31</td><td>31</td><td>31</td><td>31</td><td></td></tr>
+		<tr class="a"><td>31</td><td> 7</td><td>31</td><td>31</td><td>31</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Dragon-type</th></tr>
+		<tr>          <td>31</td><td>14</td><td>31</td><td>31</td><td>31</td><td>31</td><td></td></tr>
+		<tr class="a"><td>30</td><td>26</td><td>31</td><td>31</td><td>31</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Electric-type</th></tr>
+		<tr>          <td>31</td><td>23</td><td>31</td><td>30</td><td>31</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Fighting-type</th></tr>
+		<tr>          <td>31</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td><td></td></tr>
+		<tr class="a"><td>31</td><td> 3</td><td>30</td><td>30</td><td>30</td><td>30</td><td></td></tr>
+		<tr>          <td>30</td><td> 6</td><td>31</td><td>30</td><td>30</td><td>30</td><td></td></tr>
+		<tr class="a"><td>30</td><td>14</td><td>31</td><td>30</td><td>30</td><td>30</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Fire-type</th></tr>
+		<tr>          <td>31</td><td> 6</td><td>31</td><td>30</td><td>31</td><td>30</td><td></td></tr>
+		<tr class="a"><td>30</td><td>18</td><td>31</td><td>30</td><td>31</td><td>30</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Flying-type</th></tr>
+		<tr>          <td>31</td><td>19</td><td>31</td><td>30</td><td>30</td><td>30</td><td></td></tr>
+		<tr class="a"><td>30</td><td>22</td><td>30</td><td>30</td><td>30</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Ghost-type</th></tr>
+		<tr>          <td>31</td><td>11</td><td>30</td><td>31</td><td>30</td><td>31</td><td></td></tr>
+		<tr class="a"><td>30</td><td>31</td><td>22</td><td>31</td><td>30</td><td>31</td><td></td></tr>
+		<tr>          <td>31</td><td> 0</td><td>31</td><td>31</td><td>30</td><td>31</td><td>68 BP</td></tr>
+		<tr class="a"><td>30</td><td>12</td><td>31</td><td>31</td><td>30</td><td>31</td><td>68 BP</td></tr>
+	<tr><th colspan=7 style="text-align: left">Grass-type</th></tr>
+		<tr>          <td>30</td><td>11</td><td>31</td><td>30</td><td>31</td><td>31</td><td></td></tr>
+		<tr class="a"><td>31</td><td> 2</td><td>31</td><td>30</td><td>31</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Ground-type</th></tr>
+		<tr>          <td>31</td><td>31</td><td>31</td><td>30</td><td>30</td><td>31</td><td></td></tr>
+		<tr class="a"><td>31</td><td>14</td><td>31</td><td>30</td><td>30</td><td>31</td><td></td></tr>
+		<tr>          <td>30</td><td>19</td><td>31</td><td>30</td><td>30</td><td>31</td><td></td></tr>
+		<tr class="a"><td>30</td><td>22</td><td>30</td><td>31</td><td>30</td><td>30</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Ice-type</th></tr>
+		<tr>          <td>31</td><td>22</td><td>30</td><td>31</td><td>31</td><td>31</td><td></td></tr>
+		<tr class="a"><td>30</td><td> 3</td><td>30</td><td>31</td><td>31</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Poison-type</th></tr>
+		<tr>          <td>30</td><td> 3</td><td>30</td><td>30</td><td>30</td><td>31</td><td></td></tr>
+		<tr class="a"><td>31</td><td>31</td><td>14</td><td>30</td><td>30</td><td>31</td><td></td></tr>
+		<tr>          <td>31</td><td> 8</td><td>30</td><td>30</td><td>30</td><td>31</td><td>68 BP</td></tr>
+	<tr><th colspan=7 style="text-align: left">Psychic-type</th></tr>
+		<tr>          <td>31</td><td>14</td><td>31</td><td>31</td><td>31</td><td>30</td><td></td></tr>
+		<tr class="a"><td>30</td><td>23</td><td>31</td><td>31</td><td>31</td><td>30</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Rock-type</th></tr>
+		<tr>          <td>30</td><td>14</td><td>31</td><td>31</td><td>30</td><td>30</td><td></td></tr>
+		<tr class="a"><td>31</td><td> 3</td><td>30</td><td>31</td><td>30</td><td>30</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Steel-type</th></tr>
+		<tr>          <td>31</td><td> 3</td><td>31</td><td>31</td><td>30</td><td>31</td><td></td></tr>
+		<tr class="a"><td>30</td><td> 2</td><td>30</td><td>30</td><td>31</td><td>30</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Water-type</th></tr>
+		<tr>          <td>30</td><td> 2</td><td>30</td><td>30</td><td>31</td><td>31</td><td></td></tr>
+		<tr class="a"><td>31</td><td>14</td><td>30</td><td>30</td><td>31</td><td>31</td><td></td></tr>
+</tbody>
+</table>
+
+<h3><a name="modest">Modest (+SpA, -Atk)</a></h3>
+
+<table class="sortable">
+<thead>
+	<tr><th>HP</th><th>Atk</th><th>Def</th><th>SpA</th><th>SpD</th><th>Spe</th><th>Notes</th></tr>
+</thead>
+<tbody>
+	<tr><th colspan=7 style="text-align: left">Bug-type</th></tr>
+		<tr>          <td>31</td><td>19</td><td>31</td><td>31</td><td>30</td><td>30</td><td></td></tr>
+		<tr class="a"><td>30</td><td> 7</td><td>31</td><td>31</td><td>30</td><td>30</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Dark-type</th></tr>
+		<tr>          <td>31</td><td> 7</td><td>31</td><td>31</td><td>31</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Dragon-type</th></tr>
+		<tr>          <td>31</td><td> 2</td><td>31</td><td>31</td><td>31</td><td>31</td><td></td></tr>
+		<tr class="a"><td>30</td><td> 2</td><td>31</td><td>31</td><td>31</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Electric-type</th></tr>
+		<tr>          <td>31</td><td>23</td><td>31</td><td>30</td><td>31</td><td>31</td><td></td></tr>
+		<tr class="a"><td>31</td><td>10</td><td>30</td><td>31</td><td>31</td><td>30</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Fighting-type</th></tr>
+		<tr>          <td>31</td><td>22</td><td>30</td><td>30</td><td>30</td><td>30</td><td></td></tr>
+		<tr class="a"><td>30</td><td> 2</td><td>31</td><td>30</td><td>30</td><td>30</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Fire-type</th></tr>
+		<tr>          <td>31</td><td>26</td><td>31</td><td>30</td><td>31</td><td>30</td><td></td></tr>
+		<tr class="a"><td>30</td><td> 6</td><td>31</td><td>30</td><td>31</td><td>30</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Flying-type</th></tr>
+		<tr>          <td>31</td><td>19</td><td>31</td><td>30</td><td>30</td><td>30</td><td></td></tr>
+		<tr class="a"><td>30</td><td>18</td><td>30</td><td>30</td><td>30</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Ghost-type</th></tr>
+		<tr>          <td>31</td><td>22</td><td>31</td><td>31</td><td>30</td><td>31</td><td></td></tr>
+		<tr class="a"><td>30</td><td>12</td><td>31</td><td>31</td><td>30</td><td>31</td><td>68 BP</td></tr>
+	<tr><th colspan=7 style="text-align: left">Grass-type</th></tr>
+		<tr>          <td>31</td><td> 2</td><td>31</td><td>30</td><td>31</td><td>31</td><td></td></tr>
+		<tr class="a"><td>30</td><td> 2</td><td>31</td><td>31</td><td>30</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Ground-type</th></tr>
+		<tr>          <td>31</td><td> 7</td><td>31</td><td>30</td><td>30</td><td>31</td><td></td></tr>
+		<tr class="a"><td>30</td><td>22</td><td>30</td><td>31</td><td>30</td><td>30</td><td></td></tr>
+		<tr>          <td>31</td><td>14</td><td>31</td><td>30</td><td>30</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Ice-type</th></tr>
+		<tr>          <td>31</td><td>10</td><td>30</td><td>31</td><td>31</td><td>31</td><td></td></tr>
+		<tr class="a"><td>30</td><td>10</td><td>30</td><td>31</td><td>31</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Poison-type</th></tr>
+		<tr>          <td>31</td><td>30</td><td>30</td><td>30</td><td>30</td><td>31</td><td></td></tr>
+		<tr class="a"><td>30</td><td>17</td><td>30</td><td>30</td><td>30</td><td>31</td><td>68 BP</td></tr>
+	<tr><th colspan=7 style="text-align: left">Psychic-type</th></tr>
+		<tr>          <td>31</td><td>26</td><td>31</td><td>31</td><td>31</td><td>30</td><td></td></tr>
+		<tr class="a"><td>30</td><td> 7</td><td>31</td><td>31</td><td>31</td><td>30</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Rock-type</th></tr>
+		<tr>          <td>31</td><td> 3</td><td>30</td><td>31</td><td>30</td><td>30</td><td></td></tr>
+		<tr class="a"><td>30</td><td> 3</td><td>30</td><td>31</td><td>30</td><td>30</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Steel-type</th></tr>
+		<tr>          <td>31</td><td> 3</td><td>31</td><td>31</td><td>30</td><td>31</td><td></td></tr>
+		<tr class="a"><td>30</td><td> 2</td><td>30</td><td>30</td><td>31</td><td>30</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Water-type</th></tr>
+		<tr>          <td>31</td><td>23</td><td>31</td><td>30</td><td>31</td><td>30</td><td></td></tr>
+		<tr class="a"><td>31</td><td>10</td><td>30</td><td>30</td><td>31</td><td>31</td><td></td></tr>
+		<tr>          <td>30</td><td>11</td><td>31</td><td>30</td><td>31</td><td>30</td><td></td></tr>
+		<tr class="a"><td>30</td><td>26</td><td>30</td><td>30</td><td>31</td><td>31</td><td></td></tr>
+</tbody>
+</table>
+
+<h3><a name="bold">Bold (+Def, -Atk)</a></h3>
+
+<table class="sortable">
+<thead>
+	<tr><th>HP</th><th>Atk</th><th>Def</th><th>SpA</th><th>SpD</th><th>Spe</th><th>Notes</th></tr>
+</thead>
+<tbody>
+	<tr><th colspan=7 style="text-align: left">Bug-type</th></tr>
+		<tr>          <td>30</td><td>19</td><td>31</td><td>31</td><td>30</td><td>30</td><td></td></tr>
+		<tr class="a"><td>31</td><td>26</td><td>31</td><td>31</td><td>30</td><td>30</td><td></td></tr>
+		<tr>          <td>31</td><td> 5</td><td>31</td><td>31</td><td>30</td><td>30</td><td>68 BP</td></tr>
+	<tr><th colspan=7 style="text-align: left">Dark-type</th></tr>
+		<tr>          <td>31</td><td>17</td><td>31</td><td>31</td><td>31</td><td>31</td><td>68 BP</td></tr>
+	<tr><th colspan=7 style="text-align: left">Dragon-type</th></tr>
+		<tr>          <td>31</td><td>14</td><td>31</td><td>31</td><td>31</td><td>31</td><td></td></tr>
+		<tr class="a"><td>30</td><td>14</td><td>31</td><td>31</td><td>31</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Electric-type</th></tr>
+		<tr>          <td>31</td><td> 7</td><td>31</td><td>30</td><td>31</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Fighting-type</th></tr>
+		<tr>          <td>30</td><td>10</td><td>30</td><td>30</td><td>30</td><td>30</td><td></td></tr>
+		<tr class="a"><td>31</td><td> 8</td><td>30</td><td>30</td><td>30</td><td>30</td><td>68 BP</td></tr>
+	<tr><th colspan=7 style="text-align: left">Fire-type</th></tr>
+		<tr>          <td>30</td><td>18</td><td>31</td><td>30</td><td>31</td><td>30</td><td></td></tr>
+		<tr class="a"><td>31</td><td> 4</td><td>31</td><td>30</td><td>31</td><td>30</td><td>68 BP</td></tr>
+	<tr><th colspan=7 style="text-align: left">Flying-type</th></tr>
+		<tr>          <td>31</td><td>19</td><td>31</td><td>30</td><td>30</td><td>30</td><td></td></tr>
+		<tr class="a"><td>30</td><td>22</td><td>30</td><td>30</td><td>30</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Ghost-type</th></tr>
+		<tr>          <td>31</td><td>10</td><td>31</td><td>31</td><td>30</td><td>31</td><td></td></tr>
+		<tr class="a"><td>30</td><td>22</td><td>31</td><td>31</td><td>30</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Grass-type</th></tr>
+		<tr>          <td>31</td><td>14</td><td>31</td><td>30</td><td>31</td><td>31</td><td></td></tr>
+		<tr class="a"><td>30</td><td>23</td><td>31</td><td>30</td><td>31</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Ground-type</th></tr>
+		<tr>          <td>31</td><td>19</td><td>31</td><td>30</td><td>30</td><td>31</td><td></td></tr>
+		<tr class="a"><td>30</td><td>19</td><td>31</td><td>30</td><td>30</td><td>31</td><td></td></tr>
+		<tr>          <td>30</td><td>30</td><td>30</td><td>31</td><td>30</td><td>30</td><td></td></tr>
+		<tr class="a"><td>31</td><td>26</td><td>31</td><td>30</td><td>30</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Ice-type</th></tr>
+		<tr>          <td>31</td><td>10</td><td>30</td><td>31</td><td>31</td><td>31</td><td></td></tr>
+		<tr class="a"><td>30</td><td>27</td><td>30</td><td>31</td><td>31</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Poison-type</th></tr>
+		<tr>          <td>31</td><td>18</td><td>30</td><td>30</td><td>30</td><td>31</td><td></td></tr>
+		<tr class="a"><td>30</td><td> 3</td><td>30</td><td>30</td><td>30</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Psychic-type</th></tr>
+		<tr>          <td>31</td><td>14</td><td>31</td><td>31</td><td>31</td><td>30</td><td></td></tr>
+		<tr class="a"><td>30</td><td> 9</td><td>31</td><td>31</td><td>31</td><td>30</td><td>68 BP</td></tr>
+	<tr><th colspan=7 style="text-align: left">Rock-type</th></tr>
+		<tr>          <td>31</td><td>15</td><td>30</td><td>31</td><td>30</td><td>30</td><td></td></tr>
+		<tr class="a"><td>30</td><td>27</td><td>30</td><td>31</td><td>30</td><td>30</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Steel-type</th></tr>
+		<tr>          <td>31</td><td>15</td><td>31</td><td>31</td><td>30</td><td>31</td><td></td></tr>
+		<tr class="a"><td>30</td><td>14</td><td>30</td><td>30</td><td>31</td><td>30</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Water-type</th></tr>
+		<tr>          <td>31</td><td>11</td><td>31</td><td>30</td><td>31</td><td>30</td><td></td></tr>
+		<tr class="a"><td>30</td><td>25</td><td>31</td><td>30</td><td>31</td><td>30</td><td>68 BP</td></tr>
+</tbody>
+</table>
+
+<h3><a name="calm">Calm (+SpD, -Atk)</a></h3>
+
+<table class="sortable">
+<thead>
+	<tr><th>HP</th><th>Atk</th><th>Def</th><th>SpA</th><th>SpD</th><th>Spe</th><th>Notes</th></tr>
+</thead>
+<tbody>
+	<tr><th colspan=7 style="text-align: left">Bug-type</th></tr>
+		<tr>          <td>31</td><td>31</td><td>31</td><td>31</td><td>30</td><td>30</td><td></td></tr>
+		<tr class="a"><td>31</td><td> 6</td><td>30</td><td>31</td><td>30</td><td>31</td><td></td></tr>
+		<tr>          <td>30</td><td>31</td><td>31</td><td>31</td><td>30</td><td>30</td><td></td></tr>
+		<tr class="a"><td>30</td><td>10</td><td>30</td><td>31</td><td>30</td><td>31</td><td></td></tr>
+		<tr>          <td>31</td><td>12</td><td>31</td><td>31</td><td>30</td><td>30</td><td>68 BP</td></tr>
+		<tr class="a"><td>30</td><td>17</td><td>31</td><td>31</td><td>30</td><td>30</td><td>68 BP</td></tr>
+	<tr><th colspan=7 style="text-align: left">Dark-type</th></tr>
+		<tr>          <td>31</td><td>31</td><td>31</td><td>31</td><td>31</td><td>31</td><td></td></tr>
+		<tr class="a"><td>27</td><td> 3</td><td>31</td><td>31</td><td>31</td><td>31</td><td></td></tr>
+		<tr>          <td>31</td><td> 5</td><td>31</td><td>31</td><td>31</td><td>31</td><td>68 BP</td></tr>
+	<tr><th colspan=7 style="text-align: left">Dragon-type</th></tr>
+		<tr>          <td>31</td><td> 2</td><td>31</td><td>31</td><td>31</td><td>31</td><td></td></tr>
+		<tr class="a"><td>31</td><td>15</td><td>30</td><td>31</td><td>31</td><td>31</td><td></td></tr>
+		<tr>          <td>30</td><td>14</td><td>31</td><td>31</td><td>31</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Electric-type</th></tr>
+		<tr>          <td>31</td><td>19</td><td>31</td><td>30</td><td>31</td><td>31</td><td></td></tr>
+		<tr class="a"><td>30</td><td>15</td><td>30</td><td>31</td><td>31</td><td>30</td><td></td></tr>
+		<tr>          <td>31</td><td> 8</td><td>30</td><td>31</td><td>31</td><td>30</td><td>68 BP</td></tr>
+	<tr><th colspan=7 style="text-align: left">Fighting-type</th></tr>
+		<tr>          <td>31</td><td> 3</td><td>30</td><td>30</td><td>30</td><td>30</td><td></td></tr>
+		<tr class="a"><td>30</td><td> 2</td><td>31</td><td>30</td><td>30</td><td>30</td><td></td></tr>
+		<tr>          <td>30</td><td>31</td><td>30</td><td>30</td><td>30</td><td>30</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Fire-type</th></tr>
+		<tr>          <td>31</td><td> 7</td><td>30</td><td>30</td><td>31</td><td>30</td><td></td></tr>
+		<tr class="a"><td>30</td><td> 6</td><td>31</td><td>30</td><td>31</td><td>30</td><td></td></tr>
+		<tr>          <td>30</td><td> 5</td><td>30</td><td>30</td><td>31</td><td>30</td><td>68 BP</td></tr>
+	<tr><th colspan=7 style="text-align: left">Flying-type</th></tr>
+		<tr>          <td>31</td><td>26</td><td>31</td><td>30</td><td>30</td><td>30</td><td></td></tr>
+		<tr class="a"><td>30</td><td>10</td><td>30</td><td>30</td><td>30</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Ghost-type</th></tr>
+		<tr>          <td>31</td><td>11</td><td>30</td><td>31</td><td>30</td><td>31</td><td></td></tr>
+		<tr class="a"><td>31</td><td>22</td><td>31</td><td>31</td><td>30</td><td>31</td><td></td></tr>
+		<tr>          <td>30</td><td>23</td><td>30</td><td>31</td><td>30</td><td>31</td><td></td></tr>
+		<tr class="a"><td>30</td><td> 2</td><td>31</td><td>31</td><td>30</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Grass-type</th></tr>
+		<tr>          <td>31</td><td> 7</td><td>30</td><td>30</td><td>31</td><td>31</td><td></td></tr>
+		<tr class="a"><td>30</td><td>11</td><td>31</td><td>30</td><td>31</td><td>31</td><td></td></tr>
+		<tr>          <td>31</td><td>14</td><td>31</td><td>30</td><td>31</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Ground-type</th></tr>
+		<tr>          <td>31</td><td> 7</td><td>31</td><td>30</td><td>30</td><td>31</td><td></td></tr>
+		<tr class="a"><td>30</td><td>19</td><td>31</td><td>30</td><td>30</td><td>31</td><td></td></tr>
+		<tr>          <td>31</td><td>31</td><td>31</td><td>30</td><td>30</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Ice-type</th></tr>
+		<tr>          <td>31</td><td>19</td><td>31</td><td>31</td><td>31</td><td>30</td><td></td></tr>
+		<tr class="a"><td>31</td><td> 8</td><td>30</td><td>31</td><td>31</td><td>31</td><td>68 BP</td></tr>
+		<tr>          <td>30</td><td> 8</td><td>30</td><td>31</td><td>31</td><td>31</td><td>68 BP</td></tr>
+	<tr><th colspan=7 style="text-align: left">Poison-type</th></tr>
+		<tr>          <td>31</td><td>15</td><td>30</td><td>30</td><td>30</td><td>31</td><td></td></tr>
+		<tr class="a"><td>30</td><td>15</td><td>30</td><td>30</td><td>30</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Psychic-type</th></tr>
+		<tr>          <td>31</td><td> 2</td><td>31</td><td>31</td><td>31</td><td>30</td><td></td></tr>
+		<tr class="a"><td>31</td><td> 3</td><td>30</td><td>31</td><td>31</td><td>30</td><td></td></tr>
+		<tr>          <td>30</td><td>11</td><td>31</td><td>31</td><td>31</td><td>30</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Rock-type</th></tr>
+		<tr>          <td>31</td><td> 6</td><td>30</td><td>31</td><td>30</td><td>30</td><td></td></tr>
+		<tr class="a"><td>30</td><td> 2</td><td>31</td><td>31</td><td>30</td><td>30</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Steel-type</th></tr>
+		<tr>          <td>31</td><td>17</td><td>31</td><td>31</td><td>30</td><td>31</td><td>68 BP</td></tr>
+		<tr class="a"><td>30</td><td> 0</td><td>30</td><td>30</td><td>31</td><td>30</td><td>68 BP</td></tr>
+	<tr><th colspan=7 style="text-align: left">Water-type</th></tr>
+		<tr>          <td>31</td><td>23</td><td>31</td><td>30</td><td>31</td><td>30</td><td></td></tr>
+		<tr class="a"><td>31</td><td>10</td><td>30</td><td>30</td><td>31</td><td>31</td><td></td></tr>
+		<tr>          <td>30</td><td>24</td><td>30</td><td>30</td><td>31</td><td>31</td><td>68 BP</td></tr>
+</tbody>
+</table>
+
+<h3><a name="hasty">Hasty (+Spe, -Def)</a></h3>
+
+<table class="sortable">
+<thead>
+	<tr><th>HP</th><th>Atk</th><th>Def</th><th>SpA</th><th>SpD</th><th>Spe</th><th>Notes</th></tr>
+</thead>
+<tbody>
+	<tr><th colspan=7 style="text-align: left">Bug-type</th></tr>
+		<tr>          <td>31</td><td>31</td><td>23</td><td>31</td><td>30</td><td>30</td><td></td></tr>
+		<tr class="a"><td>31</td><td>30</td><td>30</td><td>31</td><td>30</td><td>31</td><td></td></tr>
+		<tr>          <td>31</td><td>31</td><td>23</td><td>31</td><td>30</td><td>30</td><td></td></tr>
+		<tr class="a"><td>30</td><td>31</td><td>31</td><td>31</td><td>30</td><td>30</td><td>67 BP</td></tr>
+	<tr><th colspan=7 style="text-align: left">Dark-type</th></tr>
+		<tr>          <td>27</td><td>31</td><td>23</td><td>31</td><td>31</td><td>31</td><td></td></tr>
+		<tr class="a"><td>31</td><td>23</td><td>31</td><td>31</td><td>31</td><td>31</td><td></td></tr>
+		<tr>          <td>23</td><td>31</td><td>27</td><td>31</td><td>31</td><td>31</td><td></td></tr>
+		<tr class="a"><td>29</td><td>31</td><td>27</td><td>31</td><td>31</td><td>31</td><td>69 BP</td></tr>
+	<tr><th colspan=7 style="text-align: left">Dragon-type</th></tr>
+		<tr>          <td>31</td><td>31</td><td>30</td><td>31</td><td>31</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Electric-type</th></tr>
+		<tr>          <td>31</td><td>31</td><td>27</td><td>30</td><td>31</td><td>31</td><td></td></tr>
+		<tr class="a"><td>27</td><td>30</td><td>30</td><td>31</td><td>31</td><td>30</td><td></td></tr>
+		<tr>          <td>31</td><td>10</td><td>30</td><td>31</td><td>31</td><td>30</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Fighting-type</th></tr>
+		<tr>          <td>30</td><td>31</td><td>30</td><td>30</td><td>30</td><td>30</td><td></td></tr>
+		<tr class="a"><td>31</td><td>31</td><td>10</td><td>30</td><td>30</td><td>30</td><td></td></tr>
+		<tr>          <td>31</td><td>31</td><td>30</td><td>30</td><td>22</td><td>30</td><td></td></tr>
+		<tr class="a"><td>30</td><td> 7</td><td>30</td><td>30</td><td>30</td><td>30</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Fire-type</th></tr>
+		<tr>          <td>31</td><td>31</td><td>30</td><td>30</td><td>27</td><td>30</td><td></td></tr>
+		<tr class="a"><td>26</td><td>31</td><td>30</td><td>30</td><td>31</td><td>30</td><td></td></tr>
+		<tr>          <td>27</td><td>31</td><td>22</td><td>30</td><td>31</td><td>30</td><td></td></tr>
+		<tr class="a"><td>29</td><td>31</td><td>26</td><td>30</td><td>31</td><td>30</td><td>69 BP</td></tr>
+		<tr>          <td>28</td><td> 0</td><td>31</td><td>30</td><td>31</td><td>30</td><td>68 BP</td></tr>
+		<tr class="a"><td>31</td><td>30</td><td>25</td><td>30</td><td>31</td><td>30</td><td>67 BP</td></tr>
+	<tr><th colspan=7 style="text-align: left">Flying-type</th></tr>
+		<tr>          <td>30</td><td>30</td><td>26</td><td>30</td><td>30</td><td>31</td><td></td></tr>
+		<tr class="a"><td>26</td><td>30</td><td>30</td><td>30</td><td>30</td><td>31</td><td></td></tr>
+		<tr>          <td>26</td><td>31</td><td>31</td><td>30</td><td>30</td><td>30</td><td></td></tr>
+		<tr class="a"><td>29</td><td>31</td><td>27</td><td>30</td><td>30</td><td>30</td><td>69 BP</td></tr>
+		<tr>          <td>29</td><td>31</td><td>29</td><td>30</td><td>30</td><td>30</td><td>66 BP</td></tr>
+	<tr><th colspan=7 style="text-align: left">Ghost-type</th></tr>
+		<tr>          <td>30</td><td>31</td><td>22</td><td>31</td><td>30</td><td>31</td><td></td></tr>
+		<tr class="a"><td>26</td><td>31</td><td>26</td><td>31</td><td>30</td><td>31</td><td></td></tr>
+		<tr>          <td>29</td><td>31</td><td>30</td><td>31</td><td>30</td><td>31</td><td>69 BP</td></tr>
+		<tr class="a"><td>28</td><td>30</td><td>31</td><td>31</td><td>30</td><td>31</td><td>69 BP</td></tr>
+		<tr><td>31</td><td>30</td><td>29</td><td>31</td><td>30</td><td>31</td><td>67 BP</td></tr>
+	<tr><th colspan=7 style="text-align: left">Grass-type</th></tr>
+		<tr>          <td>30</td><td>30</td><td>31</td><td>30</td><td>31</td><td>31</td><td></td></tr>
+		<tr class="a"><td>31</td><td>30</td><td>31</td><td>30</td><td>27</td><td>31</td><td></td></tr>
+		<tr>          <td>31</td><td>30</td><td>11</td><td>30</td><td>31</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Ground-type</th></tr>
+		<tr>          <td>30</td><td>31</td><td>31</td><td>30</td><td>30</td><td>31</td><td></td></tr>
+		<tr class="a"><td>31</td><td>31</td><td>31</td><td>30</td><td>22</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Ice-type</th></tr>
+		<tr>          <td>31</td><td>30</td><td>26</td><td>31</td><td>31</td><td>31</td><td></td></tr>
+		<tr class="a"><td>27</td><td>30</td><td>30</td><td>31</td><td>31</td><td>31</td><td></td></tr>
+		<tr>          <td>30</td><td>31</td><td>28</td><td>31</td><td>31</td><td>31</td><td>67 BP</td></tr>
+		<tr class="a"><td>30</td><td>30</td><td>28</td><td>31</td><td>31</td><td>31</td><td>67 BP</td></tr>
+	<tr><th colspan=7 style="text-align: left">Poison-type</th></tr>
+		<tr>          <td>30</td><td>31</td><td>30</td><td>30</td><td>30</td><td>31</td><td></td></tr>
+		<tr class="a"><td>31</td><td>31</td><td>22</td><td>30</td><td>30</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Psychic-type</th></tr>
+		<tr>          <td>31</td><td>31</td><td>30</td><td>31</td><td>31</td><td>30</td><td></td></tr>
+		<tr class="a"><td>30</td><td>30</td><td>31</td><td>31</td><td>23</td><td>30</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Rock-type</th></tr>
+		<tr>          <td>31</td><td>31</td><td>22</td><td>31</td><td>30</td><td>30</td><td></td></tr>
+		<tr class="a"><td>27</td><td>31</td><td>26</td><td>31</td><td>30</td><td>30</td><td></td></tr>
+		<tr>          <td>30</td><td>30</td><td>29</td><td>31</td><td>30</td><td>30</td><td>67 BP</td></tr>
+	<tr><th colspan=7 style="text-align: left">Steel-type</th></tr>
+		<tr>          <td>31</td><td>31</td><td>31</td><td>31</td><td>30</td><td>31</td><td></td></tr>
+		<tr class="a"><td>31</td><td> 3</td><td>31</td><td>31</td><td>30</td><td>31</td><td></td></tr>
+		<tr>          <td>30</td><td>31</td><td>31</td><td>31</td><td>30</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Water-type</th></tr>
+		<tr>          <td>27</td><td>31</td><td>31</td><td>30</td><td>31</td><td>30</td><td></td></tr>
+		<tr class="a"><td>27</td><td>30</td><td>30</td><td>30</td><td>31</td><td>31</td><td></td></tr>
+		<tr>          <td>30</td><td>30</td><td>22</td><td>30</td><td>31</td><td>31</td><td></td></tr>
+		<tr class="a"><td>30</td><td>31</td><td>23</td><td>30</td><td>31</td><td>30</td><td></td></tr>
+		<tr>          <td>28</td><td>30</td><td>30</td><td>30</td><td>31</td><td>31</td><td>69 BP</td></tr>
+		<tr class="a"><td>31</td><td>30</td><td>28</td><td>30</td><td>31</td><td>31</td><td>67 BP</td></tr>
+		<tr>          <td>30</td><td>31</td><td>29</td><td>30</td><td>31</td><td>30</td><td>67 BP</td></tr>
+</tbody>
+</table>
+
+<h3><a name="naive">Naive (+Spe, -SpD)</a></h3>
+
+<table class="sortable">
+<thead>
+	<tr><th>HP</th><th>Atk</th><th>Def</th><th>SpA</th><th>SpD</th><th>Spe</th><th>Notes</th></tr>
+</thead>
+<tbody>
+	<tr><th colspan=7 style="text-align: left">Bug-type</th></tr>
+		<tr>          <td>30</td><td>31</td><td>31</td><td>31</td><td>26</td><td>30</td><td></td></tr>
+		<tr class="a"><td>31</td><td>30</td><td>30</td><td>31</td><td>2</td><td>31</td><td></td></tr>
+		<tr>          <td>28</td><td>31</td><td>31</td><td>31</td><td>30</td><td>30</td><td>69 BP</td></tr>
+	<tr><th colspan=7 style="text-align: left">Dark-type</th></tr>
+		<tr>          <td>31</td><td>31</td><td>31</td><td>31</td><td>23</td><td>31</td><td></td></tr>
+		<tr class="a"><td>29</td><td>31</td><td>31</td><td>31</td><td>31</td><td>31</td><td>69 BP</td></tr>
+	<tr><th colspan=7 style="text-align: left">Dragon-type</th></tr>
+		<tr>          <td>30</td><td>31</td><td>31</td><td>31</td><td>31</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Electric-type</th></tr>
+		<tr>          <td>31</td><td>31</td><td>31</td><td>30</td><td>31</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Fighting-type</th></tr>
+		<tr>          <td>27</td><td>31</td><td>30</td><td>30</td><td>26</td><td>30</td><td></td></tr>
+		<tr class="a"><td>31</td><td>30</td><td>30</td><td>30</td><td>22</td><td>30</td><td></td></tr>
+		<tr>          <td>28</td><td>31</td><td>30</td><td>30</td><td>30</td><td>30</td><td>69 BP</td></tr>
+	<tr><th colspan=7 style="text-align: left">Fire-type</th></tr>
+		<tr>          <td>30</td><td>30</td><td>31</td><td>30</td><td>27</td><td>30</td><td></td></tr>
+		<tr class="a"><td>31</td><td>31</td><td>22</td><td>30</td><td>31</td><td>30</td><td></td></tr>
+		<tr>          <td>29</td><td>31</td><td>30</td><td>30</td><td>31</td><td>30</td><td>69 BP</td></tr>
+		<tr class="a"><td>29</td><td>30</td><td>31</td><td>30</td><td>27</td><td>30</td><td>69 BP</td></tr>
+		<tr>          <td>31</td><td>28</td><td>31</td><td>30</td><td>31</td><td>30</td><td>68 BP</td></tr>
+	<tr><th colspan=7 style="text-align: left">Flying-type</th></tr>
+		<tr>          <td>26</td><td>30</td><td>30</td><td>30</td><td>22</td><td>31</td><td></td></tr>
+		<tr class="a"><td>22</td><td>30</td><td>30</td><td>30</td><td>26</td><td>31</td><td></td></tr>
+		<tr>          <td>31</td><td>31</td><td>31</td><td>30</td><td>14</td><td>30</td><td></td></tr>
+		<tr class="a"><td>29</td><td>31</td><td>31</td><td>30</td><td>30</td><td>30</td><td>69 BP</td></tr>
+		<tr>          <td>31</td><td>29</td><td>31</td><td>30</td><td>30</td><td>30</td><td>68 BP</td></tr>
+	<tr><th colspan=7 style="text-align: left">Ghost-type</th></tr>
+		<tr>          <td>31</td><td>30</td><td>31</td><td>31</td><td>22</td><td>31</td><td></td></tr>
+		<tr class="a"><td>31</td><td>31</td><td>30</td><td>31</td><td>26</td><td>31</td><td></td></tr>
+		<tr>          <td>30</td><td>30</td><td>27</td><td>31</td><td>30</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Grass-type</th></tr>
+		<tr>          <td>30</td><td>31</td><td>31</td><td>30</td><td>31</td><td>31</td><td></td></tr>
+		<tr class="a"><td>31</td><td>27</td><td>30</td><td>30</td><td>31</td><td>31</td><td></td></tr>
+		<tr>          <td>31</td><td>30</td><td>29</td><td>30</td><td>31</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Ground-type</th></tr>
+		<tr>          <td>29</td><td>31</td><td>31</td><td>30</td><td>30</td><td>31</td><td></td></tr>
+		<tr class="a"><td>30</td><td>30</td><td>30</td><td>31</td><td>30</td><td>30</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Ice-type</th></tr>
+		<tr>          <td>31</td><td>30</td><td>30</td><td>31</td><td>31</td><td>31</td><td></td></tr>
+		<tr class="a"><td>31</td><td>31</td><td>31</td><td>31</td><td>31</td><td>30</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Poison-type</th></tr>
+		<tr>          <td>31</td><td>30</td><td>30</td><td>30</td><td>30</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Psychic-type</th></tr>
+		<tr>          <td>30</td><td>31</td><td>31</td><td>31</td><td>31</td><td>30</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Rock-type</th></tr>
+		<tr>          <td>27</td><td>31</td><td>30</td><td>31</td><td>30</td><td>30</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Steel-type</th></tr>
+		<tr>          <td>22</td><td>31</td><td>31</td><td>31</td><td>30</td><td>31</td><td></td></tr>
+		<tr class="a"><td>28</td><td>31</td><td>31</td><td>31</td><td>30</td><td>31</td><td>69 BP</td></tr>
+	<tr><th colspan=7 style="text-align: left">Water-type</th></tr>
+		<tr>          <td>26</td><td>30</td><td>30</td><td>30</td><td>31</td><td>31</td><td></td></tr>
+		<tr class="a"><td>31</td><td>27</td><td>27</td><td>30</td><td>31</td><td>30</td><td></td></tr>
+		<tr>          <td>27</td><td>27</td><td>31</td><td>30</td><td>31</td><td>30</td><td></td></tr>
+		<tr class="a"><td>22</td><td>31</td><td>31</td><td>26</td><td>31</td><td>30</td><td></td></tr>
+		<tr>          <td>29</td><td>31</td><td>27</td><td>30</td><td>31</td><td>30</td><td>69 BP</td></tr>
+</tbody>
+</table>
+
+<h3><a name="rash">Rash (+SpA, -SpD)</a></h3>
+
+<table class="sortable">
+<thead>
+	<tr><th>HP</th><th>Atk</th><th>Def</th><th>SpA</th><th>SpD</th><th>Spe</th><th>Notes</th></tr>
+</thead>
+<tbody>
+	<tr><th colspan=7 style="text-align: left">Bug-type</th></tr>
+		<tr>          <td>31</td><td>30</td><td>30</td><td>31</td><td>30</td><td>31</td><td></td></tr>
+		<tr class="a"><td>30</td><td>31</td><td>31</td><td>31</td><td>30</td><td>30</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Dark-type</th></tr>
+		<tr>          <td>23</td><td>31</td><td>31</td><td>31</td><td>15</td><td>31</td><td></td></tr>
+		<tr class="a"><td>15</td><td>31</td><td>31</td><td>31</td><td>31</td><td>31</td><td></td></tr>
+		<tr>          <td>29</td><td>31</td><td>31</td><td>31</td><td>31</td><td>31</td><td>69 BP</td></tr>
+	<tr><th colspan=7 style="text-align: left">Dragon-type</th></tr>
+		<tr>          <td>30</td><td>31</td><td>31</td><td>31</td><td>27</td><td>31</td><td></td></tr>
+		<tr class="a"><td>27</td><td>30</td><td>31</td><td>31</td><td>31</td><td>31</td><td></td></tr>
+		<tr>          <td>27</td><td>31</td><td>30</td><td>31</td><td>27</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Electric-type</th></tr>
+		<tr>          <td>31</td><td>31</td><td>31</td><td>30</td><td>23</td><td>31</td><td></td></tr>
+		<tr class="a"><td>23</td><td>31</td><td>31</td><td>30</td><td>27</td><td>31</td><td></td></tr>
+		<tr>          <td>31</td><td>30</td><td>30</td><td>31</td><td>27</td><td>30</td><td></td></tr>
+		<tr class="a"><td>26</td><td>30</td><td>30</td><td>31</td><td>31</td><td>30</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Fighting-type</th></tr>
+		<tr>          <td>26</td><td>30</td><td>31</td><td>30</td><td>30</td><td>30</td><td></td></tr>
+		<tr class="a"><td>28</td><td>31</td><td>30</td><td>30</td><td>30</td><td>30</td><td>69 BP</td></tr>
+	<tr><th colspan=7 style="text-align: left">Fire-type</th></tr>
+		<tr>          <td>30</td><td>31</td><td>30</td><td>30</td><td>27</td><td>30</td><td></td></tr>
+		<tr class="a"><td>29</td><td>31</td><td>30</td><td>30</td><td>31</td><td>30</td><td>69 BP</td></tr>
+		<tr>          <td>28</td><td>30</td><td>31</td><td>30</td><td>31</td><td>30</td><td>69 BP</td></tr>
+	<tr><th colspan=7 style="text-align: left">Flying-type</th></tr>
+		<tr>          <td>22</td><td>30</td><td>30</td><td>30</td><td>22</td><td>31</td><td></td></tr>
+		<tr class="a"><td>30</td><td>31</td><td>31</td><td>30</td><td>30</td><td>30</td><td></td></tr>
+		<tr>          <td>24</td><td>30</td><td>30</td><td>30</td><td>26</td><td>31</td><td>69 BP</td></tr>
+	<tr><th colspan=7 style="text-align: left">Ghost-type</th></tr>
+		<tr>          <td>26</td><td>31</td><td>30</td><td>31</td><td>26</td><td>31</td><td></td></tr>
+		<tr class="a"><td>27</td><td>30</td><td>31</td><td>31</td><td>22</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Grass-type</th></tr>
+		<tr>          <td>30</td><td>31</td><td>31</td><td>30</td><td>27</td><td>31</td><td></td></tr>
+		<tr class="a"><td>27</td><td>30</td><td>31</td><td>30</td><td>31</td><td>31</td><td></td></tr>
+		<tr>          <td>28</td><td>30</td><td>31</td><td>30</td><td>31</td><td>31</td><td>69 BP</td></tr>
+	<tr><th colspan=7 style="text-align: left">Ground-type</th></tr>
+		<tr>          <td>23</td><td>31</td><td>31</td><td>30</td><td>30</td><td>31</td><td></td></tr>
+		<tr class="a"><td>30</td><td>31</td><td>31</td><td>30</td><td>22</td><td>31</td><td></td></tr>
+		<tr>          <td>30</td><td>30</td><td>30</td><td>31</td><td>30</td><td>30</td><td></td></tr>
+		<tr class="a"><td>29</td><td>31</td><td>31</td><td>30</td><td>26</td><td>31</td><td>69 BP</td></tr>
+	<tr><th colspan=7 style="text-align: left">Ice-type</th></tr>
+		<tr>          <td>31</td><td>30</td><td>30</td><td>31</td><td>31</td><td>31</td><td></td></tr>
+		<tr class="a"><td>30</td><td>18</td><td>30</td><td>31</td><td>31</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Poison-type</th></tr>
+		<tr>          <td>27</td><td>31</td><td>30</td><td>30</td><td>26</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Psychic-type</th></tr>
+		<tr>          <td>27</td><td>30</td><td>31</td><td>31</td><td>31</td><td>30</td><td></td></tr>
+		<tr class="a"><td>29</td><td>31</td><td>30</td><td>31</td><td>31</td><td>30</td><td>69 BP</td></tr>
+	<tr><th colspan=7 style="text-align: left">Rock-type</th></tr>
+		<tr>          <td>27</td><td>31</td><td>30</td><td>31</td><td>30</td><td>30</td><td></td></tr>
+		<tr class="a"><td>26</td><td>30</td><td>31</td><td>31</td><td>30</td><td>30</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Steel-type</th></tr>
+		<tr>          <td>27</td><td>31</td><td>31</td><td>31</td><td>14</td><td>31</td><td></td></tr>
+		<tr class="a"><td>14</td><td>31</td><td>31</td><td>31</td><td>22</td><td>31</td><td></td></tr>
+		<tr>          <td>27</td><td>30</td><td>30</td><td>30</td><td>31</td><td>30</td><td></td></tr>
+		<tr class="a"><td>28</td><td>31</td><td>31</td><td>31</td><td>30</td><td>31</td><td>69 BP</td></tr>
+	<tr><th colspan=7 style="text-align: left">Water-type</th></tr>
+		<tr>          <td>26</td><td>30</td><td>30</td><td>30</td><td>27</td><td>31</td><td></td></tr>
+		<tr class="a"><td>31</td><td>31</td><td>31</td><td>30</td><td>31</td><td>30</td><td></td></tr>
+</tbody>
+</table>
+
+<h3><a name="naughty">Naughty (+Atk, -SpD)</a></h3>
+
+<table class="sortable">
+<thead>
+	<tr><th>HP</th><th>Atk</th><th>Def</th><th>SpA</th><th>SpD</th><th>Spe</th><th>Notes</th></tr>
+</thead>
+<tbody>
+	<tr><th colspan=7 style="text-align: left">Bug-type</th></tr>
+		<tr>          <td>31</td><td>31</td><td>11</td><td>31</td><td>30</td><td>30</td><td></td></tr>
+		<tr class="a"><td>30</td><td>31</td><td>31</td><td>31</td><td> 6</td><td>30</td><td></td></tr>
+		<tr>          <td>31</td><td>29</td><td>31</td><td>31</td><td>30</td><td>30</td><td>68 BP</td></tr>
+		<tr class="a"><td>30</td><td>29</td><td>31</td><td>31</td><td>30</td><td>30</td><td>68 BP</td></tr>
+		<tr>          <td>30</td><td>31</td><td>17</td><td>31</td><td>30</td><td>30</td><td>67 BP</td></tr>
+	<tr><th colspan=7 style="text-align: left">Dark-type</th></tr>
+		<tr>          <td>31</td><td>31</td><td>31</td><td>31</td><td>31</td><td>27</td><td></td></tr>
+		<tr class="a"><td>31</td><td>31</td><td>17</td><td>31</td><td>31</td><td>31</td><td>67 BP</td></tr>
+	<tr><th colspan=7 style="text-align: left">Dragon-type</th></tr>
+		<tr>          <td>31</td><td>30</td><td>21</td><td>31</td><td>31</td><td>31</td><td></td></tr>
+		<tr class="a"><td>30</td><td>30</td><td>29</td><td>31</td><td>31</td><td>31</td><td></td></tr>
+		<tr>          <td>30</td><td>31</td><td>31</td><td>31</td><td>23</td><td>31</td><td></td></tr>
+		<tr class="a"><td>30</td><td>31</td><td>23</td><td>31</td><td>31</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Electric-type</th></tr>
+		<tr>          <td>31</td><td>31</td><td>25</td><td>30</td><td>31</td><td>31</td><td></td></tr>
+		<tr class="a"><td>31</td><td>31</td><td>31</td><td>30</td><td>27</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Fighting-type</th></tr>
+		<tr>          <td>31</td><td>31</td><td>26</td><td>30</td><td>30</td><td>30</td><td></td></tr>
+		<tr class="a"><td>30</td><td>31</td><td>26</td><td>30</td><td>30</td><td>30</td><td></td></tr>
+		<tr>          <td>30</td><td>31</td><td>28</td><td>30</td><td>30</td><td>30</td><td>67 BP</td></tr>
+	<tr><th colspan=7 style="text-align: left">Fire-type</th></tr>
+		<tr>          <td>31</td><td>30</td><td>11</td><td>30</td><td>31</td><td>30</td><td></td></tr>
+		<tr class="a"><td>30</td><td>30</td><td>31</td><td>30</td><td>31</td><td>30</td><td></td></tr>
+		<tr>          <td>31</td><td>30</td><td>31</td><td>30</td><td>31</td><td>28</td><td>64 BP</td></tr>
+	<tr><th colspan=7 style="text-align: left">Flying-type</th></tr>
+		<tr>          <td>31</td><td>31</td><td>31</td><td>30</td><td>14</td><td>30</td><td></td></tr>
+		<tr class="a"><td>30</td><td>31</td><td>31</td><td>30</td><td>30</td><td>30</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Ghost-type</th></tr>
+		<tr>          <td>31</td><td>31</td><td>30</td><td>31</td><td>18</td><td>31</td><td></td></tr>
+		<tr class="a"><td>31</td><td>31</td><td>0</td><td>31</td><td>30</td><td>31</td><td></td></tr>
+		<tr>          <td>30</td><td>31</td><td>26</td><td>31</td><td>30</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Grass-type</th></tr>
+		<tr>          <td>31</td><td>30</td><td>23</td><td>30</td><td>31</td><td>31</td><td></td></tr>
+		<tr class="a"><td>30</td><td>31</td><td>31</td><td>30</td><td>31</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Ground-type</th></tr>
+		<tr>          <td>31</td><td>31</td><td>31</td><td>30</td><td>18</td><td>31</td><td></td></tr>
+		<tr class="a"><td>30</td><td>31</td><td>19</td><td>30</td><td>30</td><td>31</td><td></td></tr>
+		<tr>          <td>31</td><td>31</td><td>29</td><td>30</td><td>30</td><td>31</td><td>67 BP</td></tr>
+	<tr><th colspan=7 style="text-align: left">Ice-type</th></tr>
+		<tr>          <td>31</td><td>30</td><td>30</td><td>31</td><td>31</td><td>31</td><td></td></tr>
+		<tr class="a"><td>30</td><td>30</td><td>24</td><td>31</td><td>31</td><td>31</td><td></td></tr>
+		<tr>          <td>30</td><td>30</td><td>30</td><td>31</td><td>11</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Poison-type</th></tr>
+		<tr>          <td>30</td><td>31</td><td> 6</td><td>30</td><td>30</td><td>31</td><td></td></tr>
+		<tr class="a"><td>31</td><td>31</td><td>20</td><td>30</td><td>30</td><td>31</td><td>67 BP</td></tr>
+		<tr>          <td>30</td><td>31</td><td>28</td><td>30</td><td>30</td><td>31</td><td>67 BP</td></tr>
+	<tr><th colspan=7 style="text-align: left">Psychic-type</th></tr>
+		<tr>          <td>30</td><td>30</td><td>23</td><td>31</td><td>31</td><td>30</td><td></td></tr>
+		<tr class="a"><td>31</td><td>30</td><td> 3</td><td>31</td><td>31</td><td>30</td><td></td></tr>
+		<tr>          <td>31</td><td>30</td><td>21</td><td>31</td><td>31</td><td>30</td><td>67 BP</td></tr>
+	<tr><th colspan=7 style="text-align: left">Rock-type</th></tr>
+		<tr>          <td>30</td><td>31</td><td>6</td><td>31</td><td>30</td><td>30</td><td></td></tr>
+		<tr class="a"><td>31</td><td>29</td><td>26</td><td>31</td><td>30</td><td>30</td><td>68 BP</td></tr>
+		<tr>          <td>31</td><td>31</td><td>20</td><td>31</td><td>30</td><td>30</td><td>67 BP</td></tr>
+		<tr class="a"><td>30</td><td>31</td><td> 8</td><td>31</td><td>30</td><td>30</td><td>67 BP</td></tr>
+	<tr><th colspan=7 style="text-align: left">Steel-type</th></tr>
+		<tr>          <td>30</td><td>31</td><td>31</td><td>31</td><td>30</td><td>31</td><td></td></tr>
+		<tr class="a"><td>31</td><td>31</td><td>21</td><td>31</td><td>30</td><td>31</td><td>67 BP</td></tr>
+	<tr><th colspan=7 style="text-align: left">Water-type</th></tr>
+		<tr>          <td>31</td><td>31</td><td>31</td><td>30</td><td>27</td><td>30</td><td></td></tr>
+		<tr class="a"><td>30</td><td>31</td><td>19</td><td>30</td><td>31</td><td>30</td><td></td></tr>
+		<tr>          <td>30</td><td>31</td><td>31</td><td>30</td><td>11</td><td>30</td><td></td></tr>
+		<tr class="a"><td>31</td><td>31</td><td>25</td><td>30</td><td>31</td><td>30</td><td>BP 67</td></tr>
+</tbody>
+</table>
+
+<h3><a name="mild">Mild (+SpA, -Def)</a></h3>
+
+<table class="sortable">
+<thead>
+	<tr><th>HP</th><th>Atk</th><th>Def</th><th>SpA</th><th>SpD</th><th>Spe</th><th>Notes</th></tr>
+</thead>
+<tbody>
+	<tr><th colspan=7 style="text-align: left">Bug-type</th></tr>
+		<tr>          <td>31</td><td>30</td><td>26</td><td>31</td><td>30</td><td>31</td><td></td></tr>
+		<tr class="a"><td>26</td><td>30</td><td>30</td><td>31</td><td>30</td><td>31</td><td></td></tr>
+		<tr>          <td>31</td><td>31</td><td>31</td><td>31</td><td>30</td><td>30</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Dark-type</th></tr>
+		<tr>          <td>27</td><td>31</td><td>23</td><td>31</td><td>31</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Dragon-type</th></tr>
+		<tr>          <td>30</td><td>31</td><td>27</td><td>31</td><td>31</td><td>31</td><td></td></tr>
+		<tr class="a"><td>31</td><td>30</td><td>23</td><td>31</td><td>31</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Electric-type</th></tr>
+		<tr>          <td>31</td><td>31</td><td>27</td><td>30</td><td>31</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Fighting-type</th></tr>
+		<tr>          <td>30</td><td>31</td><td>30</td><td>30</td><td>26</td><td>30</td><td></td></tr>
+		<tr class="a"><td>26</td><td>30</td><td>27</td><td>30</td><td>30</td><td>30</td><td></td></tr>
+		<tr>          <td>22</td><td>31</td><td>26</td><td>30</td><td>30</td><td>30</td><td></td></tr>
+		<tr class="a"><td>29</td><td>31</td><td>30</td><td>30</td><td>30</td><td>30</td><td>69 BP</td></tr>
+	<tr><th colspan=7 style="text-align: left">Fire-type</th></tr>
+		<tr>          <td>31</td><td>30</td><td>31</td><td>30</td><td>31</td><td>30</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Flying-type</th></tr>
+		<tr>          <td>30</td><td>30</td><td>22</td><td>30</td><td>22</td><td>31</td><td></td></tr>
+		<tr class="a"><td>26</td><td>31</td><td>31</td><td>30</td><td>30</td><td>30</td><td></td></tr>
+		<tr>          <td>27</td><td>31</td><td>23</td><td>30</td><td>30</td><td>30</td><td></td></tr>
+		<tr class="a"><td>28</td><td>30</td><td>22</td><td>30</td><td>30</td><td>31</td><td>69 BP</td></tr>
+	<tr><th colspan=7 style="text-align: left">Ghost-type</th></tr>
+		<tr>          <td>31</td><td>30</td><td>27</td><td>31</td><td>30</td><td>31</td><td></td></tr>
+		<tr class="a"><td>27</td><td>31</td><td>26</td><td>31</td><td>30</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Grass-type</th></tr>
+		<tr>          <td>30</td><td>30</td><td>31</td><td>30</td><td>31</td><td>31</td><td></td></tr>
+		<tr class="a"><td>30</td><td>31</td><td>26</td><td>30</td><td>31</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Ground-type</th></tr>
+		<tr>          <td>30</td><td>31</td><td>27</td><td>30</td><td>30</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Ice-type</th></tr>
+		<tr>          <td>31</td><td>30</td><td>26</td><td>31</td><td>31</td><td>31</td><td></td></tr>
+		<tr class="a"><td>27</td><td>30</td><td>30</td><td>31</td><td>31</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Poison-type</th></tr>
+		<tr>          <td>30</td><td>31</td><td>30</td><td>30</td><td>30</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Psychic-type</th></tr>
+		<tr>          <td>31</td><td>31</td><td>30</td><td>31</td><td>31</td><td>30</td><td></td></tr>
+		<tr class="a"><td>30</td><td>30</td><td>31</td><td>31</td><td>31</td><td>30</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Rock-type</th></tr>
+		<tr>          <td>30</td><td>31</td><td>30</td><td>31</td><td>30</td><td>30</td><td></td></tr>
+		<tr class="a"><td>31</td><td>31</td><td>22</td><td>31</td><td>30</td><td>30</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Steel-type</th></tr>
+		<tr>          <td>31</td><td>31</td><td>31</td><td>31</td><td>30</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Water-type</th></tr>
+		<tr>          <td>27</td><td>30</td><td>26</td><td>30</td><td>31</td><td>31</td><td></td></tr>
+		<tr class="a"><td>27</td><td>31</td><td>31</td><td>30</td><td>31</td><td>30</td><td></td></tr>
+		<tr>          <td>29</td><td>30</td><td>30</td><td>30</td><td>31</td><td>31</td><td>69 BP</td></tr>
+</tbody>
+</table>
+
+<h3><a name="lonely">Lonely (+Atk, -SpD)</a></h3>
+
+<table class="sortable">
+<thead>
+	<tr><th>HP</th><th>Atk</th><th>Def</th><th>SpA</th><th>SpD</th><th>Spe</th><th>Notes</th></tr>
+</thead>
+<tbody>
+	<tr><th colspan=7 style="text-align: left">Bug-type</th></tr>
+		<tr>          <td>31</td><td>30</td><td>30</td><td>31</td><td>26</td><td>31</td><td></td></tr>
+		<tr class="a"><td>26</td><td>30</td><td>22</td><td>31</td><td>30</td><td>31</td><td></td></tr>
+		<tr>          <td>26</td><td>31</td><td>31</td><td>31</td><td>30</td><td>30</td><td></td></tr>
+		<tr class="a"><td>27</td><td>31</td><td>23</td><td>31</td><td>30</td><td>30</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Dark-type</th></tr>
+		<tr>          <td>31</td><td>31</td><td>27</td><td>31</td><td>27</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Dragon-type</th></tr>
+		<tr>          <td>31</td><td>31</td><td>22</td><td>31</td><td>31</td><td>31</td><td></td></tr>
+		<tr class="a"><td>31</td><td>30</td><td>23</td><td>31</td><td>31</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Electric-type</th></tr>
+		<tr>          <td>27</td><td>31</td><td>31</td><td>30</td><td>27</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Fighting-type</th></tr>
+		<tr>          <td>31</td><td>31</td><td>30</td><td>30</td><td>30</td><td>30</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Fire-type</th></tr>
+		<tr>          <td>31</td><td>31</td><td>30</td><td>30</td><td>31</td><td>30</td><td></td></tr>
+		<tr class="a"><td>27</td><td>30</td><td>23</td><td>30</td><td>31</td><td>30</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Flying-type</th></tr>
+		<tr>          <td>30</td><td>30</td><td>26</td><td>30</td><td>26</td><td>31</td><td></td></tr>
+		<tr class="a"><td>30</td><td>31</td><td>27</td><td>30</td><td>30</td><td>30</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Ghost-type</th></tr>
+		<tr>          <td>30</td><td>31</td><td>22</td><td>31</td><td>30</td><td>31</td><td></td></tr>
+		<tr class="a"><td>31</td><td>31</td><td>22</td><td>31</td><td>22</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Grass-type</th></tr>
+		<tr>          <td>31</td><td>31</td><td>30</td><td>30</td><td>31</td><td>31</td><td></td></tr>
+		<tr class="a"><td>31</td><td>30</td><td>31</td><td>30</td><td>31</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Ground-type</th></tr>
+		<tr>          <td>31</td><td>31</td><td>27</td><td>30</td><td>30</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Ice-type</th></tr>
+		<tr>          <td>26</td><td>30</td><td>30</td><td>31</td><td>31</td><td>31</td><td></td></tr>
+		<tr class="a"><td>27</td><td>30</td><td>22</td><td>31</td><td>31</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Poison-type</th></tr>
+		<tr>          <td>30</td><td>31</td><td>30</td><td>30</td><td>26</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Psychic-type</th></tr>
+		<tr>          <td>31</td><td>30</td><td>31</td><td>31</td><td>31</td><td>30</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Rock-type</th></tr>
+		<tr>          <td>31</td><td>31</td><td>22</td><td>31</td><td>26</td><td>30</td><td></td></tr>
+		<tr class="a"><td>27</td><td>31</td><td>26</td><td>31</td><td>26</td><td>30</td><td></td></tr>
+		<tr>          <td>22</td><td>31</td><td>30</td><td>31</td><td>30</td><td>30</td><td></td></tr>
+		<tr class="a"><td>23</td><td>31</td><td>22</td><td>31</td><td>30</td><td>30</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Steel-type</th></tr>
+		<tr>          <td>31</td><td>31</td><td>31</td><td>31</td><td>26</td><td>31</td><td></td></tr>
+	<tr><th colspan=7 style="text-align: left">Water-type</th></tr>
+		<tr>          <td>27</td><td>30</td><td>30</td><td>30</td><td>23</td><td>31</td><td></td></tr>
+		<tr class="a"><td>23</td><td>30</td><td>22</td><td>30</td><td>31</td><td>31</td><td></td></tr>
+		<tr>          <td>27</td><td>31</td><td>31</td><td>30</td><td>27</td><td>30</td><td></td></tr>
+</tbody>
+</table>
+
+<h2><a name="list">Applicable Pokemon</a></h2>
+
+<p>Below is a list of Pokemon that the above restrictions are applicable to.</p>
+
+<table id="pokemon_list" class="sortable">
+<thead>
+	<tr><th>Pokedex Number</th><th>Pokemon Name</th></tr>
+</thead>
+<tbody>
+	<tr><td>144</td><td><a href="/dp/pokemon/articuno">Articuno</a></td></tr>
+	<tr><td>145</td><td><a href="/dp/pokemon/zapdos">Zapdos</a></td></tr>
+	<tr><td>146</td><td><a href="/dp/pokemon/moltres">Moltres</a></td></tr>
+	<tr><td>150</td><td><a href="/dp/pokemon/mewtwo">Mewtwo</a></td></tr>
+	<tr><td>151</td><td><a href="/dp/pokemon/mew">Mew</a></td></tr>
+	<tr><td>243</td><td><a href="/dp/pokemon/raikou">Raikou</a></td></tr>
+	<tr><td>244</td><td><a href="/dp/pokemon/entei">Entei</a></td></tr>
+	<tr><td>245</td><td><a href="/dp/pokemon/suicune">Suicune</a></td></tr>
+	<tr><td>249</td><td><a href="/dp/pokemon/lugia">Lugia</a></td></tr>
+	<tr><td>250</td><td><a href="/dp/pokemon/ho-oh">Ho-Oh</a></td></tr>
+	<tr><td>251</td><td><a href="/dp/pokemon/celebi">Celebi</a></td></tr>
+	<tr><td>377</td><td><a href="/dp/pokemon/regirock">Regirock</a></td></tr>
+	<tr><td>378</td><td><a href="/dp/pokemon/registeel">Registeel</a></td></tr>
+	<tr><td>379</td><td><a href="/dp/pokemon/regice">Regice</a></td></tr>
+	<tr><td>380</td><td><a href="/dp/pokemon/latias">Latias</a></td></tr>
+	<tr><td>381</td><td><a href="/dp/pokemon/latios">Latios</a></td></tr>
+	<tr><td>382</td><td><a href="/dp/pokemon/kyogre">Kyogre</a></td></tr>
+	<tr><td>383</td><td><a href="/dp/pokemon/groudon">Groudon</a></td></tr>
+	<tr><td>384</td><td><a href="/dp/pokemon/rayquaza">Rayquaza</a></td></tr>
+	<tr><td>385</td><td><a href="/dp/pokemon/jirachi">Jirachi</a></td></tr>
+	<tr><td>386</td><td><a href="/dp/pokemon/deoxys">Deoxys</a></td></tr>
+	<tr><td>386</td><td><a href="/dp/pokemon/deoxys-a">Deoxys-A</a></td></tr>
+	<tr><td>386</td><td><a href="/dp/pokemon/deoxys-d">Deoxys-D</a></td></tr>
+	<tr><td>386</td><td><a href="/dp/pokemon/deoxys-s">Deoxys-S</a></td></tr>
+	<tr><td>480</td><td><a href="/dp/pokemon/uxie">Uxie</a></td></tr>
+	<tr><td>481</td><td><a href="/dp/pokemon/mesprit">Mesprit</a></td></tr>
+	<tr><td>482</td><td><a href="/dp/pokemon/azelf">Azelf</a></td></tr>
+	<tr><td>483</td><td><a href="/dp/pokemon/dialga">Dialga</a></td></tr>
+	<tr><td>484</td><td><a href="/dp/pokemon/palkia">Palkia</a></td></tr>
+	<tr><td>485</td><td><a href="/dp/pokemon/heatran">Heatran</a></td></tr>
+	<tr><td>486</td><td><a href="/dp/pokemon/regigigas">Regigigas</a></td></tr>
+	<tr><td>487</td><td><a href="/dp/pokemon/giratina">Giratina</a></td></tr>
+	<tr><td>487</td><td><a href="/dp/pokemon/giratina-o">Giratina-O</a></td></tr>
+	<tr><td>488</td><td><a href="/dp/pokemon/cresselia">Cresselia</a></td></tr>
+	<tr><td>490</td><td><a href="/dp/pokemon/manaphy">Manaphy</a></td></tr>
+	<tr><td>491</td><td><a href="/dp/pokemon/darkrai">Darkrai</a></td></tr>
+	<tr><td>492</td><td><a href="/dp/pokemon/shaymin">Shaymin</a></td></tr>
+	<tr><td>492</td><td><a href="/dp/pokemon/shaymin-s">Shaymin-S</a></td></tr>
+	<tr><td>493</td><td><a href="/dp/pokemon/arceus">Arceus</a></td></tr>
+</tbody>
+</table>
+
+<script type="text/javascript">
+    $("#pokemon_list").tablesorter({
+        widgets: ['zebra'],
+        textExtraction: "complex",
+        sortList: [[0,0], [1,0]]
+    })
+</script>

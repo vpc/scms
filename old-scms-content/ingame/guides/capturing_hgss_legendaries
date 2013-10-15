@@ -1,0 +1,1079 @@
+[title]
+Capturing HGSS Legendaries
+[head]
+<meta name="description" content="A guide to efficiently capturing competitive legendary Pokémon in HeartGold/SoulSilver, courtesy of Nexus." />
+[page]
+<div class="author">By <a href="/forums/member.php?u=35537">Nexus</a>.</div>
+
+<ol class="toc">
+<li><a href="#preparations">Preparations</a>
+	<ul>
+		<li><a href="#ball_capsules">Ball Capsules</a></li>
+		<li><a href="#synchronizer">The Synchronizer</a></li>
+		<li><a href="#catcher">The Catcher</a></li>
+		<li><a href="#one_under">The "One Under" Pokémon</a></li>
+		<li><a href="#other">Other Items and Pokémon</a></li>
+		<li><a href="#reviving">Reviving Legendaries</a></li>
+		<li><a href="#tricks">Tricks of the Trade</a></li>
+	</ul>
+</li>
+<li><a href="#catching">Catching the Legends</a>
+	<ul>
+		<li><a href="#lugia">Lugia</a></li>
+		<li><a href="#ho_oh">Ho-Oh</a></li>
+		<li><a href="#raikou_entei">Raikou/Entei</a></li>
+		<li><a href="#suicune">Suicune</a></li>
+		<li><a href="#articuno">Articuno</a></li>
+		<li><a href="#zapdos">Zapdos</a></li>
+		<li><a href="#moltres">Moltres</a></li>
+		<li><a href="#mewtwo">Mewtwo</a></li>
+		<li><a href="#latias_latios_35">Latios/Latias (Non-Event)</a></li>
+		<li><a href="#groudon_kyogre">Groudon/Kyogre</a></li>
+		<li><a href="#rayquaza">Rayquaza</a></li>
+		<li><a href="#latias_latios_40">Latios/Latias (Enigma Stone Event)</a></li>
+		<li><a href="#dialga_palkia_giratina">Dialga/Palkia/Giratina</a></li>
+	</ul>
+</li>
+</ol>
+
+<h2><a name="preparations">Preparations</a></h2>
+
+<h3><a name="capture_rate">Capture Rate</a></h3>
+
+<p>Each legendary is assigned a numerical catch rate, as are all wild Pokémon. Essentially, the higher the Catch Rate, the higher the chance to capture. The Catch Rate is plugged into a formula, which determines whether the Pokémon will be captured or not. While the actual in-game formula is quite complex, Community Member <a href="/forums/member.php?u=2412">X-Act</a> has made a formula that produces nearly exact results. Note that you must always round down should you get a decimal.</p>
+
+<pre>(( 1 + ( MaxHP × 3 - CurrentHP × 2 ) × CatchRate × BallRate × Status# ) ÷ ( MaxHP × 3 )) ÷ 256</pre>
+
+<p>Top Poké Ball Rates :</p>
+<ul>
+	<li>Master Ball : 255</li>	
+	<li>Timer Ball (30+ Turns) : 4</li>
+        <li>Dusk Ball (In dark areas like caves or outside between the hours of 20:00 and 4:00)) : 3.5</li>
+	<li>Net Ball (Against a Bug- or Water-type) : 3</li>
+	<li>Repeat Ball (Against previously caught Pokémon) : 3</li>
+	<li>Ultra Ball : 2</li>
+	<li>Great Ball : 1.5</li>
+</ul>
+
+<p>A Master Ball catches any wild Pokémon without fail, though it may only be obtained either through Prof. Elm or by winning the lottery held at Goldenrod Radio Tower. Timer Balls begin at 1 and increase every 10 turns, with a cap of 4. Quick Balls begin at 4, and are reduced to 1 on the next turn. While both these Balls exceed the Rate of the Dusk Ball, they are more circumstantial. All other Balls have a catch rate of 1 against the legendaries. It is preferred to use either Dusk or Ultra Balls, keeping some Timer Balls in reserve.</p>
+
+<p>Status Numbers :</p>
+<ul>
+<li>Freeze : 2</li>
+<li>Sleep : 2</li>
+<li>Paralysis : 1.5</li>
+<li>Burn : 1.5</li>
+<li>Poison : 1.5</li>
+<li>None : 1</li>
+</ul>
+
+<p>As you can see, sleep is your best bet due to the lack of reliable freeze moves. Paralysis gives a much lower number, so sleep moves are preferred. You should never poison or burn the legend; this sets a time limit on your legend's lifespan.</p>
+
+<p>The Catch Rate of all legendaries available in HGSS is 3, except for Groudon and Kyogre, who have a catch rate of 5.</p>
+
+<p>Let's say we try and catch a Level 5 max HP Magikarp with a Dusk Ball. Magikarp's Catch Rate is 255.</p>
+
+<pre>
+Capture Rate = (( 1 + ( MaxHP × 3 - CurrentHP × 2 ) × CatchRate × BallRate × Status# ) ÷ ( MaxHP × 3 )) ÷ 256
+= (( 1 + ( 18 × 3 - 18 × 2 ) × 255 × 3.5 × 1 ) ÷ ( 18 × 3 )) ÷ 256
+= (( 1 + ( 54 - 36 ) × 255 × 3.5 × 1 ) ÷ ( 54 )) ÷ 256
+= (( 1 + 16065 ) ÷ 54 ) ÷ 256
+= ( 16066 ÷ 54 ) ÷ 256
+= 297 ÷ 256
+= 1.162181712962963
+= 100%
+</pre>
+
+<p>Any decimal numbers were not shown, and simply rounded down.</p>
+
+<p>If the end result is over 1, you have a 100% chance to capture the Pokémon. However, due to varying IVs, it is difficult to know the max HP of the legendaries, let alone determine their current HP. The formula is simply here for reference, and a little bit of insight on why certain balls or status effects are used.</p>
+
+<h3><a name="ball_capsules">Ball Capsules</a></h3>
+
+<p>Just like you wouldn't go into the woods without proper equipment, you can't expect to catch the legendary Pokémon in Johto and Kanto without being prepared. You'll need to stock up on Poké Balls; as explained above, Dusk Ball is the most effective. These can be picked up at a few late-game PokéMarts, Safari Zone Gate, and Frontier Access. Furthermore, they are available before you fight your first stationary legendary. You'll want to have at least 50 Dusk Balls on you for each encounter, and there are 13 legendaries per game cartridge that are caught in Poké Balls (including event Pokémon). That totals 650 Dusk Balls, and you'll probably want to have at least 50 Ultra and/or Timer Balls in reserve.</p>
+
+<p>Granted, it wouldn't be cost effective to go out and buy 600 Poké Balls at once, so it is best to only carry around 100 Dusk Balls and 50 Timer/Ultra Balls at one time. This is great if, say, Groudon is caught on the first Dusk Ball thrown, whereas Lugia takes 65 balls. Timer Balls are a viable option if you are not battling in a cave, and if you wait long enough, which you typically shouldn't have to. Net Balls make capturing Suicune and Kyogre easier, and are therefore good substitutes for Dusk Balls when capturing them. For Ho-Oh, Suicune, Latios, Latias, Zapdos, Raikou, and Entei, you'll have to wait until between 20:00 and 4:00 on your DS clock for the Dusk Balls to work to their full potential, but you can always change the time on the DS clock if you would rather not wait. However, the remaining legendaries are found in caves or dark areas, so Dusk Balls function at their maximum capability when used on them. Alternatively, if you own a copy of Pokémon Emerald and a DS/DS Lite system, you can use the Battle Tower cloning glitch to produce multiple Master Balls and transfer them to your HeartGold or SoulSilver through the Pal Park in Fuchsia City. Furthermore, in HG/SS the 24-hour limit on migrating does not exist, so you can transfer as many Master Balls as you like without having to wait a day after each migration.</p>
+
+<p>Since they are remakes of the original Gold and Silver, the concept of Apricorn Balls has been revived in HeartGold and SoulSilver. There are 7 Apricorn Balls in total, but the most useful ones for capturing legendaries would be Fast, Level, and Heavy Balls. The Apricorn Balls function differently to other Poké Balls by directly affecting a Pokémon's Catch Rate. The Fast Ball is crafted from the Wht Apricorn, and multiplies a Pokémon's Catch Rate by 4 when it's used on Pokémon with base 100 or greater Speed. Therefore, the Fast Ball is definitely a Poké Ball to consider stocking up on when preparing to catch a legendary, especially the roamers, who meet the Speed requirement necessary to use the Fast Ball to its full potential. The Level Ball is created from the Red Apricorn, and its effectiveness depends on the level difference between the legendary you are facing and the Pokémon you have out. At most, the Level Ball will multiply the capture rate of a legendary by 4 when the difference in level between the Pokémon you have out and the one you're facing is greater than half of your Pokémon's level, which includes the following legendaries (for the rest it will only multiply their capture rates by 1 or 2): Suicune, Entei, Raikou, Ho-Oh (HeartGold), Lugia (SoulSilver), Latios, and Latias. The reason that the Level Ball's maximum Rate is 4 when used on the aforementioned legendaries is that their levels are below 50, with the highest being 45 for Ho-Oh and Lugia in their respective versions, so all you have to do is use a Pokémon with level 91+ to multiply the CatchRate of any of these legendaries by 4. The Heavy Ball, created from Blk Apricorns, deserves a mention due to the Hoenn weather trio. The Heavy Ball adds 20 to a Pokémon's catch rate if it weighs more than 451.5 lbs, 30 if it weighs more than 677.3 lbs, and 40 if it weighs over 903.0 lbs. Groudon, being the heaviest Pokémon in the current PokéDex (weighing over a ton), brings out the Heavy Ball's full potential, which makes capturing Groudon much simpler by adding 40 to its catch rate. Kyogre is heavy enough that the Heavy Ball adds 30 to its catch rate, and Rayquaza gains 20 on its catch rate.</p>
+
+<p>While the Apricorn Balls may be useful for capturing legendaries, they are also more difficult to obtain than typical Poké Balls. Kurt can only make one type of Ball a day, and Apricorn trees only produce one Apricorn a day. However, you can resolve these problems by changing the DS clock if you would like to speed up the process and assemble a large collection of Balls. For a list of where to find Apricorns look <a href="/forums/showpost.php?p=2634739&postcount=20">here</a>.</p>
+
+<h3><a name="synchronizer">The Synchronizer</a></h3>
+
+<p>After you by the appropriate Balls, you'll want to get a Synchronizer. "What's a Synchronizer?" you may ask. Well, when you have a Pokémon with the Ability Synchronize in the first slot of your party, all wild Pokémon have a 50% chance of inheriting the nature of that Pokémon. An even better trait is that the Pokémon doesn't have to be alive for Synchronize to work its magic, so you can have a fainted Synchronizer at the head of your party, and the effects remain intact. This way, you can have an increased chance of getting the nature you want, which is something you'll have to decide on your own; which nature to use is a trainer's personal preference. Refer to the analyses in the SmogonDex for ideas if you're stuck.</p>
+
+<p>The list of all Pokémon that can have Synchronize is as follows:</p>
+
+<dl>
+	<dt>Abra, Kadabra, Alakazam, Mew, Natu, Xatu, Espeon, Umbreon, Ralts, Kirlia, and Gardevoir</dt>
+	<dd>Natu is the most common Synchronizer found in the wild (in the Ruins of Alph), although you will need to go through a section of Union Cave and use Surf to access the area they are found in. Abra will probably be the first Synchronizer you run into on Route 34, and subsequently on Route 5, Route 6, Route 8, Route 24, Route 25, Route 35, and the Safari Zone. Alternatively, you can purchase Abra at Goldenrod Game Corner for 200 coins and soft reset for its nature and ability. Kadabra makes its home in Route 8 and Cerulean Cave. Espeon and Umbreon can be obtained by evolving the Eevee given to you by Bill in Goldenrod City. After obtaining the National Dex, you will have access to Ralts, who is found on Route 34 as a Swarm Pokémon. Finally, Mew is obtained through Nintendo events. Furthermore, it is worth noting that aside from Mew, Umbreon, and Espeon, the aforementioned Pokémon have two abilities, so you may not always get Synchronize and the nature you want on the first try.</dd>
+</dl> 
+
+<p>After obtaining the National Dex and access to Kanto (which you will need to catch a majority of the legendaries in HG/SS), it is considerably easier to get Synchronizers. You can soft reset at the Game Corner Prize Shop in FireRed/LeafGreen for Abra, or transfer over Synchronizers you had in the previous generation for catching non-legendaries in Emerald.</p>
+
+<h3><a name="catcher">The Catcher</a></h3>
+
+<p>Now that you have your Synchronizer, unless you are planning on transferring over unlimited Master Balls from your previous generation games, you'll probably need a good capturing Pokémon to complement it. A Pokémon that can learn both a reliable sleep move (60 accuracy and up), and False Swipe (a TM found in the Goldenrod Department Store that keeps the wild Pokémon at 1 HP if it would have fainted from the attack) is an example of a good capturing Pokemon. A list of Pokémon that meet the above criteria is as follows:</p>
+
+<dl>
+	<dt>Paras, Parasect, Mew, Breloom and Gallade</dt>
+	<dd>Parasect is probably the easiest to obtain, but you must get it up to a very high level, with an Attack boosting nature. If you do end up using Parasect, make sure it was obtained in a fourth generation game, to ensure it has the ability Dry Skin, rather than Effect Spore, which could give the legendary an undesired status ailment. Mew only learns Hypnosis via Pokémon XD and My Pokémon Ranch, and Gallade can only learn Hypnosis while it is Ralts or Kirlia, and False Swipe only once it is evolved into Gallade. However, Gallade also learns Mean Look as an Egg move, so it can be used to trap the roamers as well. Breloom is a good option as well, learning Spore, the most accurate Sleep move available. However, you must breed False Swipe onto it as an Egg move, and, like Parasect, avoid the ability Effect Spore. In conclusion, Gallade is probably the best; it's just a bit of a pain to get Ralts/Kirlia to a high level to get Hypnosis, and even more of a pain to get a male one in the first place. Mind you, your catcher should be at a high level anyway—hopefully level 70+, since the highest level of any in-game legendary is 70.</dd>
+</dl>
+
+<h3><a name="one_under">The "One Under" Pokémon</a></h3>
+
+<p>An optional Pokémon that you may wish to take with you is the "one under" Pokémon. This is a Pokémon that has a Speed stat one point below the maximum of the legendary you're trying to catch. This is for the Pokémon you really need to have reach a certain speed. It isn't the wisest choice to bring one of these along for every legendary, since the "one under" Pokémon can be a pain to get, but it will be worth it if you don't have Master Balls. The idea is to switch your Synchronizer to the "one under" (or if your Synchronizer has been fainted just start off with the "one under"), then have the latter use an attack. If the legendary goes first, switch to the capture Pokémon and continue the battle, if not, reset. This "one under" should either be a high level, or be holding a Focus Sash (which can be obtained from the Winner's Path PokéWalker course, the Battle Frontier, or as a gift from your mother when you allow her to save your money).</p>
+
+<p>If you are going for a defensive legendary who is not concerned about outspeeding certain threats, or for a legendary you plan to use for a Trick Room team, then you may wish to go for a different variation of the "one under" Pokémon that uses Endeavor. Endeavor is a move that takes the foe's Pokémon's HP down to the HP the Endeavor user currently has, but fails if the Pokémon using Endeavor has more HP than its target. This can be abused by giving your Endeavor Pokémon 1 less HP than the maximum HP of the legendary you are going for. If your "one under" Pokémon's Endeavor attack fails, then you know that the legendary you are fighting does not have the amount of HP you are looking for, so you can reset without capturing it. If Endeavor takes the legendary's HP down, then you know it is fine to resume trying to capture it. However, this Pokémon must also be faster than the legendary, so it does not risk taking damage, which would result in a false positive.</p>
+
+<h3><a name="other">Other Items and Pokémon</a></h3>
+
+<p>Take another stop at a PokéMart; you'll want to buy a few Revives and Hyper/Max Potions or Full Restores if you're far enough in the game. Revives are also found by using Rock Smash, along with their more powerful variant: Max Revives, but only in Ruins of Alph. These are mainly for keeping your main capture Pokémon alive, as well as the remainder of your party. About 30 Super Repels are almost mandatory too (these are actually more cost effective than Max Repels). 5 or so Escape Ropes are good to have for Pokémon like Articuno and Lugia, who are found deep within caves. You should always bring a team of 3 high-leveled Pokémon (the other two are HM slaves, but leveling them up is great) with your Synchronizer in the lead. The only exceptions are when you are catching any of the runners. In this case, you could use Wobbuffet in your first slot in order to trap them, or use Mean Look Gallade (this is recommended, as Gallade is an excellent catcher).</p>
+
+<h3><a name="reviving">Reviving Legendaries</a></h3>
+
+<p>A feature introduced in Platinum has been brought back in HeartGold and SoulSilver on a much larger scale: the ability to revive legendaries after you have KOed them or run from the battle. This ability applies to every legendary that you can capture in a Ball, including the Engima Stone event Latios and Latias. However, you will have to defeat the Elite Four every time you wish to revive any legendaries you have KOed/run from prior to defeating the Elite Four. Most of the legendaries will reappear in the location at which you encountered them (ex: Ho-Oh at Bell Tower and Lugia at Whirl Islands). However, Suicune will reappear at Burned Tower. The roamers will not reappear at the location at which you released them (Raikou and Entei at Burned Tower, Latias and Latios after leaving the Pokémon Fan Club and talking to Steven); instead, they will reappear roaming Johto/Kanto, and you can only faint them to revive them after beating the Elite Four. Furthermore, the IVs and nature of the revived legendaries are not set to the ones they had when you fainted them. For example, if Raikou had the arbitrary nature and IVs combination of Modest nature and 13/21/6/5/0/28 while roaming Johto, and you faint it and revive it by defeating the Elite Four, it can reappear roaming Johto with a different nature/IVs combination. Finally, all of the roamers' IVs and natures are generated at the same time that they are re-released after defeating the Elite Four. In other words, if you faint both Raikou and Entei the first time around, both of the legendary beasts will be revived with new IVs and natures upon defeating the Elite Four.</p>
+
+<p>The ability to revive legendaries is most useful when you have to forcibly confront your box Pokémon—Ho-Oh and Lugia in HeartGold and SoulSilver, respectively. Instead of having to spend time preparing to catch your legendary, you can simply flee or faint them and return at a later point in the game when you have the time to prepare and have access to more functions like the Pal Park. Of course, prior to confronting Ho-Oh or Lugia you had to release the legendary beasts from Burned Tower, so this feature could prove useful if you didn't want to waste time capturing them at that point in the game. Nonetheless, it is easier to soft reset or RNG them at Burned Tower, since it gets tedious having to defeat all the members of the Elite Four and Lance every time you want to re-release the Raikou/Entei. The Red Gyarados, while not a legendary Pokémon, can also be revived through this method, which is useful since you're forced to battle it to progress through the story, and you may not wish to waste time soft resetting or RNG abusing it at that time. This feature also acts a safety measure, to ensure that you don't lose any legendaries you accidentally faint or flee from without saving prior to encountering them.</p>
+
+<h3><a name="tricks">Tricks of the Trade</a></h3>
+
+<p>Before you go after your first legendary, keep in mind a couple tips:</p>
+
+<ul>
+	<li>Always save before the legendary. For Raikou and Entei, save before stepping off the second set of stairs in the basement floor of Burned Tower, where they are located. For the roaming Latios and Latias (in HeartGold and SoulSilver, respectively), save before leaving the Pokémon Fan Club after obtaining the Poké Doll.</li>
+	<li>Check the stats in the legendary's section before you save, and after you compare the stats and are interested, check them with <a href="http://www.metalkid.info/Pokemon/OnlineProgram/Calculators/IV.aspx">Metalkid's IV Calculator</a>. You can use some Rare Candies and record the stats for each level if you wish, but for legendaries this is generally not necessary due to the higher base stats.</li>
+	<li>Learn about characteristics, as they can usually help you determine the exact IV of at least one stat when combined with an IV calculator and the stat list.</li>
+	<li>Make sure you have a maximum of five Pokémon in your party whenever you are about to fight a legendary. This allows you to check the nature and stats of your legendary while it is in your party, saving you a trip back to a Pokémon Center to check Bill's PC.</li>
+	<li>Keep realistic expectations if you are soft resetting your legendary. If you're only willing to accept a legendary with quadruple 31 IVs, you could be there for a very long time. Although, you can remedy this problem by RNG abusing your legendary, which allows you to control its nature and IVs to an extent. Information on PRNG manipulation can found <a href="/forums/showthread.php?t=52180">here</a>.</li>
+	<li>Watch the HP bars if you're not using Master Balls. Compare the approximate damage done by your Pokémon to the HP of the legendary once you've caught it, and vice-versa, with the legendary's Attack/Special Attack. This should help you out; if you do too much damage on a defensive legendary, you can reset without the battling process. The same goes if an offensive one doesn't do enough damage to you.</li>
+	<li>If a legendary runs out of Power Points for all its moves, it will use the move Struggle. Struggle is a typeless attack that causes recoil equal to 25% of the user's maximum HP. So once a legendary starts to Struggle, it isn't long for this world, especially if you have previously used False Swipe to lower it to 1 HP.</li>
+	<li>Having a Pokémon with the move Trick can be useful to give the legendary you're facing items. Tricking a Leppa Berry, for example, onto legendaries with attacks that have low PP ensures that you have a few more turns before they start Struggling. Tricking Focus Sash allows you to bring down the legendary Pokémon's HP to 1 with a single powerful attack, instead of wasting turns slowly reducing its HP with a weak attack like False Swipe.</li>
+</ul>
+
+<h2><a name="catching">Catching the Legends</a></h2>
+
+<p>Now that you have some more knowledge, or at least something to reference, get out a piece of paper and a pencil. Be prepared to make a tally mark every time a legendary uses a move, and put two marks if your Pokémon has the ability Pressure. This will be used to reference the amount of PP the legendaries have before Struggling, which is listed in this section. Note that if your sleep-inducing Pokémon is slower than the legendary, it will use a PP (or two with Pressure) the turn it is put to sleep; and of course it still uses PP the turn it wakes. PP is not used up while the legendary is asleep.</p> 
+
+<p>The order in which you catch these legendaries is a matter of personal preference and availability, as certain legendaries become available after you've completed specific tasks, such as obtaining the National Dex or defeating Red. That said, you should attempt the lower-leveled legendaries first and work your way up. The roamers would be best left for later, since you have to go through the hassle of getting them to appear in the area you are in and then prevent them from fleeing.</p>
+
+<h3><a name="lugia">Lugia</a></h3>
+
+<p>Lugia is the mascot for SoulSilver, and is the first stationary legendary you will encounter in that game. It is located deep in the Whirl Islands, specifically the island located on the upper east, and can only be reached (in SoulSilver) by receiving the Silver Wing from the director of the Goldenrod Radio Tower, and obtaining the Tidal Bell after defeating the Kimono Girls. However, in HeartGold you only need the Silver Wing, given to you by a man in Pewter City, to gain access to Lugia. The Whirl Islands can get confusing, so it's best to bring along plenty of Super Repels and a Pokémon that knows Flash to make navigating through the caves much easier. Lugia appears at level 45 in SoulSilver and level 70 in HeartGold.</p>
+
+<h4>Lugia's Maximum Stats (Level 45)</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>164</td> <td>-</td>
+</tr>
+<tr>
+<td>Atk</td> <td>89</td> <td>99</td> <td>108</td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>121</td> <td>135</td> <td>148</td>
+</tr>
+<tr>
+<td>SpA</td> <td>89</td> <td>99</td> <td>108</td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>141</td> <td>157</td> <td>172</td>
+</tr>
+<tr>
+<td>Spe</td> <td>105</td> <td>117</td> <td>128</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Lugia's Moveset (Level 45)</h4>
+<ul>
+	<li><a href="/dp/moves/extrasensory">Extrasensory</a> (30 PP)</li>
+	<li><a href="/dp/moves/rain_dance">Rain Dance</a> (5 PP)</li>
+	<li><a href="/dp/moves/hydro_pump">Hydro Pump</a> (5 PP)</li>
+	<li><a href="/dp/moves/aeroblast">Aeroblast</a> (5 PP)</li>
+	<li>Total PP = 45</li>
+</ul>
+
+<p>Aeroblast is definitely the move to watch out for when battling Lugia, since it is super effective against most of the Pokémon recommended as catchers—the only one that doesn't share the weakness being Mew—and possesses a high critical hit rate. Extrasensory can be annoying if it manages to flinch your Pokémon, although with a 10% chance of that happening, you shouldn't agonize over it.</p>
+
+<h4>Lugia's Maximum Stats (Level 70)</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>250</td> <td>-</td>
+</tr>
+<tr>
+<td>Atk</td> <td>136</td> <td>152</td> <td>167</td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>187</td> <td>208</td> <td>228</td>
+</tr>
+<tr>
+<td>SpA</td> <td>136</td> <td>152</td> <td>167</td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>217</td> <td>242</td> <td>266</td>
+</tr>
+<tr>
+<td>Spe</td> <td>162</td> <td>180</td> <td>198</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Lugia's Moveset (Level 70)</h4>
+<ul>
+	<li><a href="/dp/moves/aeroblast">Aeroblast</a> (5 PP)</li>
+	<li><a href="/dp/moves/punishment">Punishment</a> (5 PP)</li>
+	<li><a href="/dp/moves/ancientpower">AncientPower</a> (5 PP)</li>
+	<li><a href="/dp/moves/safeguard">Safeguard</a> (25 PP)</li>
+	<li>Total PP = 40</li>
+</ul>
+
+<p>Safeguard is one of the new additions to Lugia's repertoire that you should watch out for. Safeguard prevents you from inflicting a status condition upon Lugia, while Lugia wastes more PP and gets closer to Struggling. AncientPower can be a pain if it manages to boost Lugia's stats, but with only a 10% chance of that happening you shouldn't worry too much about it.</p>
+
+<p>In SoulSilver there isn't any strategy to capturing Lugia besides whittling down its HP and inflicting it with paralysis or sleep. However, in HeartGold it is best to simply paralyze Lugia from the start of the battle to make Safeguard useless. Using Taunt to prevent Lugia from using Safeguard is tempting, but Lugia has such low PP that it would only cause it to Struggle sooner. Once you've finished with Lugia, you can just use an Escape Rope and exit the cave, or explore the Whirl Islands and pick up some of the items lying around, such as a Rare Candy and Max Elixir.</p>
+
+<h3><a name="ho_oh">Ho-Oh</a></h3>
+
+<p>Ho-Oh is the star of HeartGold. The Rainbow Pokémon is located high above the clouds atop the sacred Bell Tower. To reach Ho-Oh in HeartGold, you will have to acquire the Rainbow Wing from the manager of the Goldenrod Radio Tower and the Clear Bell from the Kimono Girls. In SoulSilver, you only need the Rainbow Wing, given to you by an old man in Pewter City, as the Clear Bell is unobtainable. Bell Tower itself is a winding 10-floor maze so definitely pack a good number of Repels, but unlike the Whirl Islands, you will not need any HMs or TMs to navigate it. Ho-Oh appears at level 45 in HeartGold and at level 70 in SoulSilver, holding a Sacred Ash in both games.</p> 
+
+<h4>Ho-Oh's Maximum Stats (Level 45)</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>164</td> <td>-</td>
+</tr>
+<tr>
+<td>Atk</td> <td>121</td> <td>135</td> <td>148</td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>89</td> <td>99</td> <td>108</td>
+</tr>
+<tr>
+<td>SpA</td> <td>105</td> <td>117</td> <td>128</td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>141</td> <td>157</td> <td>172</td>
+</tr>
+<tr>
+<td>Spe</td> <td>89</td> <td>99</td> <td>108</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Ho-Oh's Minimum Speed (Level 45)</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Min-</th> <th>Min</th> <th>Min+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>77</td> <td>86</td> <td>94</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Ho-Oh's Moveset (Level 45)</h4>
+<ul>
+	<li><a href="/dp/moves/extrasensory">Extrasensory</a> (30 PP)</li>
+	<li><a href="/dp/moves/sunny_day">Sunny Day</a> (5 PP)</li>
+	<li><a href="/dp/moves/fire_blast">Fire Blast</a> (5 PP)</li>
+	<li><a href="/dp/moves/sacred_fire">Sacred Fire</a> (5 PP)</li>
+	<li>Total PP = 45</li>
+</ul>
+
+<p>Sacred Fire is worth worrying about because of its 50% burn rate, so it will most likely be burning your Pokémon, reducing the damage done by your physical attacks by 50% and wearing down your Pokémon faster. Furthermore if "the sunlight is strong" (thanks to Sunny Day), then Sacred Fire will be inflicting 50% more damage along with its STAB. Fire Blast is worth watching out for due to its sheer power, especially if the sun is shining brightly, and the fact that it can burn your Pokémon as well (even if it is a measly 10% chance).</p>
+
+<h4>Ho-Oh's Maximum Stats (Level 70)</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>250</td> <td>-</td>
+</tr>
+<tr>
+<td>Atk</td> <td>187</td> <td>208</td> <td>228</td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>136</td> <td>152</td> <td>167</td>
+</tr>
+<tr>
+<td>SpA</td> <td>162</td> <td>180</td> <td>198</td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>217</td> <td>242</td> <td>266</td>
+</tr>
+<tr>
+<td>Spe</td> <td>136</td> <td>152</td> <td>167</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Ho-Oh's Minimum Speed (Level 70)</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Min-</th> <th>Min</th> <th>Min+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>117</td> <td>131</td> <td>144</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Ho-Oh's Moveset (Level 70)</h4>
+<ul>
+	<li><a href="/dp/moves/sacred_fire">Sacred Fire</a> (5 PP)</li>
+	<li><a href="/dp/moves/punishment">Punishment</a> (5 PP)</li>
+	<li><a href="/dp/moves/ancientpower">AncientPower</a> (5 PP)</li>
+	<li><a href="/dp/moves/safeguard">Safeguard</a> (25 PP)</li>
+	<li>Total PP = 40</li>
+</ul>
+
+<p>Safeguard prolongs the battle if you are planning on putting Ho-Oh to sleep, and lets it waste more PP. AncientPower is a latent threat, which you should only worry about if it manages to boost Ho-Oh's stats. Sacred Fire is still a major threat that is carried over from Ho-Oh's level 45 set, just without the possible boost from Sunny Day.</p>
+
+<p>Unlike Lugia, Ho-Oh is outside, so if you are planning on using Dusk Balls, you will have to wait until 20:00 – 4:00. When confronting Ho-Oh, remember to bring along a few Full Heals and Full Restores to take care of any burns you may suffer. Once you're done with the Rainbow Pokémon, you can simply use Fly to leave Bell Tower, or if you forgot to bring along a Pokémon that can use Fly, you can use an Escape Rope.</p>
+
+<h3><a name="raikou_entei">Raikou/Entei</a></h3>
+
+<p>Raikou and Entei are found in the basement of Burned Tower alongside the other legendary beast, Suicune. Once you reach the bottom of the second set of stairs, Raikou and Entei will run away from you and start roaming Johto. Raikou and Entei's nature and IVs are set when you approach them at Burned Tower and all the beasts flee, not when you encounter them in the routes of Johto. Furthermore, the IVs and nature of Raikou and Entei are determined simultaneously, so just because you got a good nature/IV combination for Raikou does not mean that Entei will share the same quality. Note that a Synchronizer will not work on any of the roaming beasts. To add to the challenge, each time you encounter Raikou/Entei it will attempt to flee at the start of the battle, so be sure to have a Pokémon with a trapping move like Mean Look or the ability Shadow Tag or Arena Trap at the head of your party.</p>
+
+<p>Once Raikou and Entei are roaming Johto, you can track them using the built-in map on the PokéGear. The beasts will move to a89n adjacent route every time you enter a different area; however, this only applies when you enter an area that does not have a gate (brown building with green roof) as its entrance. Entering a cave also does not cause them to move. Additionally, Flying to a new location will cause Raikou and Entei to move to a random route. Therefore, you have to trap Raikou or Entei on the same route you are in to encounter it and have a chance at capturing it. A good strategy would be to Fly to a city or town that leads to multiple routes, such as Mahogany Town, and move between the town and the routes next to the town until one of the beasts arrives at one of these routes. Then, move to one of the other routes adjacent to the town or city and hopefully Raikou/Entei moves to the same route. Although, if Raikou or Entei are at a route that has a gate as its entrance, then you can just go to that route and capture them. For example, if a legendary beast moves to Route 44 and you're in Mahogany Town, then you would move to Route 42, and if all goes well Raikou or Entei will have moved to the same route, but if your chosen beast is on Route 43 (which has a gate as its entrance), then just go through the gate to enter the route and it will still be there.</p>
+
+<p>Luckily, Raikou and Entei have a high encounter rate whenever you're both in the same route, and they can appear in grass or water, so if they're on a route with water you can Surf to find them. Raikou and Entei are found at level 40, so if your lead Pokémon is below level 40, you can use a Super Repel to have one of the beasts appear quickly; otherwise, search the area until it appears.</p>
+
+<h4>Raikou's Maximum Stats</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>134</td> <td>-</td>
+</tr>
+<tr>
+<td>Atk</td> <td>76</td> <td>85</td> <td>93</td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>69</td> <td>77</td> <td>84</td>
+</tr>
+<tr>
+<td>SpA</td> <td>98</td> <td>109</td> <td>119</td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>87</td> <td>97</td> <td>106</td>
+</tr>
+<tr>
+<td>Spe</td> <td>98</td> <td>109</td> <td>119</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Raikou's Moveset</h4>
+<ul>
+	<li><a href="/dp/moves/roar">Roar</a> (20 PP)</li>
+	<li><a href="/dp/moves/quick_attack">Quick Attack</a> (30 PP)</li>
+	<li><a href="/dp/moves/spark">Spark</a> (20 PP)</li>
+	<li><a href="/dp/moves/reflect">Reflect</a> (20 PP)</li>
+	<li>Total PP = 90</li>
+</ul>
+
+<p>Roar will make this a tough capture since it can end the battle instantly and force you to hunt down Raikou again for another chance. Additionally, Roar ruins the "one under" strategy since it always goes last, so you may need an additional turn to ensure that Raikou has the Speed you want. Reflect can be annoying by prolonging the battle, since it reduces the damage done by your physical attacks, making it harder to whittle down Raikou's HP with False Swipe. Spark can be annoying with its 30% paralysis rate, but other than that it doesn't pose a significant threat.</p>
+
+<h4>Entei's Maximum Stats</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>154</td> <td>-</td>
+</tr>
+<tr>
+<td>Atk</td> <td>98</td> <td>109</td> <td>119</td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>76</td> <td>85</td> <td>93</td>
+</tr>
+<tr>
+<td>SpA</td> <td>80</td> <td>89</td> <td>97</td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>69</td> <td>77</td> <td>84</td>
+</tr>
+<tr>
+<td>Spe</td> <td>87</td> <td>97</td> <td>106</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Entei's Moveset</h4>
+<ul>
+	<li><a href="/dp/moves/roar">Roar</a> (20 PP)</li>
+	<li><a href="/dp/moves/fire_spin">Fire Spin</a> (15 PP)</li>
+	<li><a href="/dp/moves/stomp">Stomp</a> (20 PP)</li>
+	<li><a href="/dp/moves/flamethrower">Flamethrower</a> (15 PP)</li>
+	<li>Total PP = 70</li>
+</ul>
+
+<p>Roar is definitely the move to watch out for, as it forces you to flee and go through the process of tracking Entei again. Additionally, Roar ruins the "one under" strategy since it always goes last, so you may need an additional turn to ensure that Entei has the Speed you want. Fire Spin and Stomp are the more annoying attacks as one reduces your Pokémon's HP every turn and the other flinches your Pokémon 30% of the time, respectively.</p> 
+
+<p>When facing these two legendaries, you will definitely want a way to neutralize Roar. One way is to use Taunt, which Gallade and Mew can learn via TM, to stop them from using it for a few turns. Furthermore, Taunt prevents Raikou from using Reflect to weaken your Pokémon's attacks. Should something happen such that you have to end the battle before you can catch them, do not worry; any damage or status you may have inflicted on it will still be present come your next encounter. Fortunately, its PP will be fully restored on your next encounter, so you don't have to worry if the first battle was a long one.</p>
+
+<p>Finally, if you're planning on soft resetting these two, it is easier to do so the first time you release them from Burned Tower than by re-releasing them by defeating the Elite Four. To this end, you can capture a Gastly early on at Sprout Tower during the night, level it up to learn Mean Look and Night Shade (Night Shade inflicts set damage so its good for gauging Raikou/Entei's HP and ensuring that they aren't KOed accidentally), and it should come with Hypnosis. By the time you get to release the beasts you should have been able to level up Gastly to a high enough level and it should be a Haunter or Gengar, if you are capable of trading with someone. That said, the Gastly line is frail and Hypnosis does have low accuracy, so it won't be an easy capture, but at this point this is one of the best set ups you can have, unless you have access to a Master Ball by trading. RNG abusing Raikou and Entei, however, can be done initially at Burned Tower or at the Pokémon League with relative ease, but you may need a Pokémon like the aforementioned Gastly to ensure you do it successfully at Burned Tower.</p>
+
+<h3><a name="suicune">Suicune</a></h3>
+
+<p>Suicune resides in the basement of Burned Tower, and like in Pokémon Crystal Version, seems to have a general interest in the main character. Like Raikou and Entei, Suicune will flee from Burned Tower when you approach it, but unlike the other beasts, Suicune will appear before you in the overworld multiple times throughout the game. The instances where Suicune appears being: on a ledge on the north side of Cianwood City, behind a small tree on Route 42, on the water in Vermilion Harbor, on the water on Route 14, and finally on top of the hill at the end of Route 25. Suicune will remain atop the hill on Route 25 and give you the opportunity to catch it. Suicune is at level 40 when you finally battle it.</p>
+
+<h4>Suicune's Maximum Stats</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>142</td> <td>-</td>
+</tr>
+<tr>
+<td>Atk</td> <td>69</td> <td>77</td> <td>84</td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>98</td> <td>109</td> <td>119</td>
+</tr>
+<tr>
+<td>SpA</td> <td>80</td> <td>89</td> <td>97</td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>98</td> <td>109</td> <td>119</td>
+</tr>
+<tr>
+<td>Spe</td> <td>76</td> <td>85</td> <td>93</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Suicune's Moveset</h4>
+<ul>
+	<li><a href="/dp/moves/rain_dance">Rain Dance</a> (5 PP)</li>
+	<li><a href="/dp/moves/gust">Gust</a> (35 PP)</li>
+	<li><a href="/dp/moves/aurora_beam">Aurora Beam</a> (20 PP)</li>
+	<li><a href="/dp/moves/mist">Mist</a> (30 PP)</li>
+	<li>Total PP = 90</li>
+</ul>
+
+<p>There isn't anything noteworthy about Suicune's moveset, so it shouldn't give you any problems while you're trying to catch it. Once you've dealt with Suicune, Eusine will accept that you were the one meant to catch Suicune instead of him and leave.</p>
+
+<h3><a name="articuno">Articuno</a></h3>
+
+<p>After being excluded from the original Gold and Silver, Articuno makes a return in HGSS in a place you may remember from the good old days of RBY, and later on in FRLG. Articuno makes its home in the Seafoam Islands on Route 20, specifically on the lowest floor of the Islands, and only appears after you have obtained all 16 badges. Definitely pack some Super Repels when you're planning on going for the Freeze Pokémon, since it is a long way down to the bottom. Furthermore, you will encounter trainers as you make your way to Articuno, so it would be a good idea to bring along a few Pokémon at level 50+ to defeat them. The move Strength is necessary if you're entering the Seafoam Islands from the left of Route 20 (where the entrance to Cinnabar Gym is located); otherwise, you do not need it. Articuno appears at level 50.</p>
+
+<h4>Articuno's Maximum Stats</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>165</td> <td>-</td>
+</tr>
+<tr>
+<td>Atk</td> <td>94</td> <td>105</td> <td>115</td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>108</td> <td>120</td> <td>132</td>
+</tr>
+<tr>
+<td>SpA</td> <td>103</td> <td>115</td> <td>126</td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>130</td> <td>145</td> <td>159</td>
+</tr>
+<tr>
+<td>Spe</td> <td>94</td> <td>105</td> <td>115</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Articuno's Moveset</h4>
+<ul>
+	<li><a href="/dp/moves/ancientpower">AncientPower</a> (5 PP)</li>
+	<li><a href="/dp/moves/agility">Agility</a> (30 PP)</li>
+	<li><a href="/dp/moves/ice_beam">Ice Beam</a> (10 PP)</li>
+	<li><a href="/dp/moves/reflect">Reflect</a> (20 PP)</li>
+	<li>Total PP = 65</li>
+</ul>
+
+<p>Reflect will reduce the damage done by your physical attacks, so if you're using False Swipe to reduce Articuno's HP to 1 you will spend more turns trying to get the job done. Agility will give it the opportunity to outspeed your Pokémon and waste one more PP before you can put it to sleep if that is your strategy. AncientPower can be annoying if it manages to provide Articuno with some boosts.</p>
+
+<p>Once you have captured Articuno, just use an Escape Rope to exit the Seafoam Islands.</p>
+
+<h3><a name="zapdos">Zapdos</a></h3>
+
+<p>Zapdos returns to Kanto after being left out of the original Gold and Silver in the same location it had in RBY and FRLG. Zapdos appears outside the Kanto Power Plant after you have obtained all 16 badges. Reaching this legendary bird Pokémon won't be as daunting as getting to its counterparts; simply spray a Super Repel and Surf down the river next to the Rock Tunnel on Route 10. Zapdos appears at level 50.</p>
+
+<h4>Zapdos's Maximum Stats</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>165</td> <td>-</td>
+</tr>
+<tr>
+<td>Atk</td> <td>99</td> <td>110</td> <td>121</td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>94</td> <td>105</td> <td>115</td>
+</tr>
+<tr>
+<td>SpA</td> <td>130</td> <td>145</td> <td>159</td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>99</td> <td>110</td> <td>121</td>
+</tr>
+<tr>
+<td>Spe</td> <td>108</td> <td>120</td> <td>132</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Zapdos's Moveset</h4>
+<ul>
+	<li><a href="/dp/moves/ancientpower">AncientPower</a> (5 PP)</li>
+	<li><a href="/dp/moves/charge">Charge</a> (20 PP)</li>
+	<li><a href="/dp/moves/agility">Agility</a> (30 PP)</li>
+	<li><a href="/dp/moves/discharge">Discharge</a> (15 PP)</li>
+	<li>Total PP = 70</li>
+</ul>
+
+<p>Discharge can be a pain with its 30% paralysis rate, and its power increases if Zapdos uses Charge on the previous turn. As usual, AncientPower is only an issue if it manages to boosts Zapdos's stats. Agility adds to the difficulty by making Zapdos even faster than its respectable base 100 Speed allows, but becomes a free turn when Zapdos has reached its maximum +6 Speed boost.</p>
+
+<p>Remember to bring a few Full Heals and Full Restores to deal with any paralysis Zapdos may induce on your Pokémon. Another thing to keep in mind is that since Zapdos is outside, unlike the other two Kanto birds, you're going to have to wait until 20:00 – 4:00 to use Dusk Balls to their full capacity. Once you've captured Zapdos simply use Fly to leave the Power Plant.</p>
+
+<h3><a name="moltres">Moltres</a></h3>
+
+<p>Moltres makes an appearance in HeartGold and SoulSilver along with the other two legendary birds, and following tradition, it has been moved to a new area. Moltres has been relocated to a cave above a waterfall in the entrance of the scenic Mt. Silver, and just like the other two legendary birds, to encounter Moltres you must possess all 16 badges. Furthermore, you will need the moves Surf, Rock Climb, and Waterfall to reach Moltres's exact location in Mt. Silver. Moltres is at level 50 when you encounter it.</p>
+
+<h4>Moltres's Maximum Stats</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>165</td> <td>-</td>
+</tr>
+<tr>
+<td>Atk</td> <td>108</td> <td>120</td> <td>132</td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>99</td> <td>110</td> <td>121</td>
+</tr>
+<tr>
+<td>SpA</td> <td>130</td> <td>145</td> <td>159</td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>94</td> <td>105</td> <td>115</td>
+</tr>
+<tr>
+<td>Spe</td> <td>99</td> <td>110</td> <td>121</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Moltres's Moveset</h4>
+<ul>
+	<li><a href="/dp/moves/ancientpower">AncientPower</a> (5 PP)</li>
+	<li><a href="/dp/moves/flamethrower">Flamethrower</a> (15 PP)</li>
+	<li><a href="/dp/moves/safeguard">Safeguard</a> (25 PP)</li>
+	<li><a href="/dp/moves/air_slash">Air Slash</a> (20 PP)</li>
+	<li>Total PP = 65</li>
+</ul>
+
+<p>AncientPower can pose a problem if the AI gets lucky with the boost, but it shouldn't be your immediate concern. Safeguard prevents you from inflicting sleep on Moltres consistently and prolongs the battle, which can cause Moltres to Struggle. Air Slash is definitely a move to keep in mind when battling with the Flame Pokémon, as it is super effective on almost every Pokémon suggested as a catcher. The 30% flinch rate it has doesn't help the situation either, but only applies if Moltres is faster than your Pokémon.</p>
+
+<p>Paralyzing Moltres at the start of the battle would be a good strategy to avoid wasting turns with Safeguard and to slow it down so that it can't flinch your Pokémon. Once you're done with Moltres you can use an Escape Rope to leave Mt. Silver, but don't forget to pick up an Expert Belt in a small cave you passed by on your way to Moltres if you haven't taken it yet.</p>
+
+<h3><a name="mewtwo">Mewtwo</a></h3>
+
+<p>After being absent from Gold and Silver, Cerulean Cave has been restored in HGSS, and Mewtwo made available for capture in Generation IV. Of course unlocking Cerulean Cave won't be easy, as it requires you to have all 16 badges. Cerulean Cave itself is a winding dungeon, so definitely stock up on Super Repels before attempting to navigate it. Additionally, you should have Pokémon with the moves Flash and Surf to get to Mewtwo's precise location on the basement floor of Cerulean Cave. Mewtwo appears at level 70.</p>
+
+<h4>Mewtwo's Maximum Stats</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>250</td> <td>-</td>
+</tr>
+<tr>
+<td>Atk</td> <td>162</td> <td>180</td> <td>198</td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>136</td> <td>152</td> <td>167</td>
+</tr>
+<tr>
+<td>SpA</td> <td>217</td> <td>242</td> <td>266</td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>136</td> <td>152</td> <td>167</td>
+</tr>
+<tr>
+<td>Spe</td> <td>187</td> <td>208</td> <td>228</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Mewtwo's Moveset</h4>
+<ul>
+	<li><a href="/dp/moves/psycho_cut">Psycho Cut</a> (20 PP)</li>
+	<li><a href="/dp/moves/amnesia">Amnesia</a> (20 PP)</li>
+	<li><a href="/dp/moves/power_swap">Power Swap</a> (10 PP)</li>
+	<li><a href="/dp/moves/guard_swap">Guard Swap</a> (10 PP)</li>
+	<li>Total PP = 60</li>
+</ul>
+
+<p>Being a legendary Pokémon, one would expect Mewtwo to have a threatening moveset, but it turns out that the exact opposite has occurred. Psycho Cut is the only attack that deserves consideration due to its high critical hit ratio and the fact that it is the only move that can inflict damage to your Pokémon. However, it is coming from Mewtwo's weaker Attack stat and only has 105 BP after STAB, so you shouldn't fret too much about it.</p>
+
+<p>Once you're done with Mewtwo, simply use an Escape Rope to exit Cerulean Cave, or if you want to conserve items, there is a ladder that leads back to the entrance behind Mewtwo. Alternatively, if you have Pokémon with the moves Rock Smash and Rock Climb, you can go exploring Cerulean Cave and pick some nice items like Black Sludge and Dusk Stone on the basement floor, and others like a Thunderbolt TM on the upper floors.</p>
+
+<h3><a name="latias_latios_35">Latios/Latias (Non-Event)</a></h3>
+
+<p>Latios and Latias are released as roaming Pokémon in Kanto, with Latios being exclusive to SoulSilver and Latias to HeartGold. They are released by obtaining the Copycat's Poké Doll from a man in the Pokémon Fan Club in Vermillion City (you must have spoken to the Copycat in Saffron City after returning the stolen Machine Part to the Power Plant before the man can give you the doll). Upon acquiring the Poké Doll and exiting the Pokémon Fan Club, Steven Stone will appear and notify you that Latios or Latias is roaming Kanto. If you plan on soft resetting or RNGing either of them, you must save inside the Pokémon Fan Club. Latios's and Latias's IVs and nature are determined once you leave the fan club and speak to Steven, not when you encounter it in the wild. When you encounter the Dragon that appears in your version, it will attempt to flee, so it's necessary to have a Pokémon with a trapping move like Mean Look or the ability Shadow Tag to keep it from doing so. Thanks to the Levitate ability, Arena Trap will prove ineffective.</p>
+
+<p>Latios's or Latias's location can be tracked using the PokéGear map. When it is released, your Dragon will appear on a random route. Afterwards, each time you enter a different area that does not have a gate (brown building with green roof) and is not a cave, it will move to an adjacent route. Additionally, Flying to a new location will cause Latios or Latias to move to a random route. Therefore, you have to trap it on the same route you are in to encounter it and have a chance at capturing it. A good strategy would be to Fly to a city or town that leads to multiple routes—Cerulean City would be best—and move between the city and the routes next to the city until your Dragon arrives at one of these routes. Then, move to one of the other routes adjacent to the town or city and hopefully it moves to the same route. However, if Latios or Latias are at a route that has a gate as its entrance then you can just go to that route, and it will remain there so you can encounter it. For example, if Latios or Latias has moved to Route 9 and you're in Cerulean City then you would move to either Route 4 or 5, since you have to enter Route 25 before you can enter the grass at Route 24, and if all goes well it will have moved to the same route.</p>
+
+<p>Latios and Latias appear at level 35. Therefore, if your lead Pokémon is below level 35, you can use a Super Repel to avoid unnecessary wild battles, and they can be encountered in either grass or water.</p>
+
+<h4>Latios's Maximum Stats (Level 35)</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>111</td> <td>-</td>
+</tr>
+<tr>
+<td>Atk</td> <td>70</td> <td>78</td> <td>85</td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>63</td> <td>71</td> <td>78</td>
+</tr>
+<tr>
+<td>SpA</td> <td>95</td> <td>106</td> <td>116</td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>82</td> <td>92</td> <td>101</td>
+</tr>
+<tr>
+<td>Spe</td> <td>82</td> <td>92</td> <td>101</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Latios's Moveset (Level 35)</h4>
+<ul>
+	<li><a href="/dp/moves/dragonbreath">DragonBreath</a> (20 PP)</li>
+	<li><a href="/dp/moves/protect">Protect</a> (10 PP)</li>
+	<li><a href="/dp/moves/refresh">Refresh</a> (20 PP)</li>
+	<li><a href="/dp/moves/luster_purge">Luster Purge</a> (5 PP)</li>
+	<li>Total PP = 55</li>
+</ul>
+
+<p>Refresh will cure Latios of any status conditions, so while facing Latios sleep should be your primary form of status. Luster Purge can be threatening with a 50% chance of lowering your Special Defense, so Latios's attacks will inflict more damage as the battle progresses if the stat decreases accumulate. DragonBreath can get annoying due to its 30% paralysis rate, and with 20 PP, it's more than likely that your Pokémon will get paralyzed. Protect will just cause you to occasionally waste some PP. Furthermore, Protect will ruin the "one under" Speed strategy, so you may have to waste an additional turn to confirm its Speed.</p>
+
+<h4>Latias's Maximum Stats (Level 35)</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>111</td> <td>-</td>
+</tr>
+<tr>
+<td>Atk</td> <td>63</td> <td>71</td> <td>78</td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>70</td> <td>78</td> <td>85</td>
+</tr>
+<tr>
+<td>SpA</td> <td>82</td> <td>92</td> <td>101</td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>95</td> <td>106</td> <td>116</td>
+</tr>
+<tr>
+<td>Spe</td> <td>82</td> <td>92</td> <td>101</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Latias's Moveset (Level 35)</h4>
+<ul>
+	<li><a href="/dp/moves/dragonbreath">DragonBreath</a> (20 PP)</li>
+	<li><a href="/dp/moves/water_sport">Water Sport</a> (15 PP)</li>
+	<li><a href="/dp/moves/refresh">Refresh</a> (20 PP)</li>
+	<li><a href="/dp/moves/mist_ball">Mist Ball</a> (5 PP)</li>
+	<li>Total PP = 60</li>
+</ul>
+
+<p>Refresh will remove any status that doesn't completely incapacitate Latias, like freeze or sleep. DragonBreath has an annoying 30% paralysis rate, so keep a few Full Heals in your Bag just in case.</p>
+
+<p>Since Latios and Latias are roaming Pokémon, they retain any damage or status effect inflicted on it if you happen to flee from one of them and encounter it again later on. However, the PP of all of its moves will be fully restored upon your next encounter. Soft resetting for Latios or Latias is best done when it is initially released after you speak with Steven outside the Pokémon Fan Club, as opposed to re-releasing it by fainting it then defeating the Elite Four and repeating this process until you are satisfied with its IVs and nature. RNG abusing Latios or Latias, however, is a matter of personal preference and can be done at both the Pokémon Fan Club and Pokémon League with a similar level of difficulty.</p>
+
+<h3><a name="groudon_kyogre">Groudon/Kyogre</a></h3>
+
+<p>After nearly destroying Hoenn in RSE, Groudon and Kyogre have moved to their new home in Johto, Embedded Tower on Route 47. Groudon is exclusive to SoulSilver, while Kyogre is exclusive to HeartGold. To unlock Groudon or Kyogre you will need the Red or Blue Orb (in SoulSilver and HeartGold, respectively), which Mr. Pokémon gives you after you have defeated Red and obtained a Kanto starter Pokémon from Prof. Oak. Reaching the entrance to Embedded Tower requires that you have Pokémon with the moves Rock Climb and Surf. Luckily, Embedded Tower isn't a winding multi-floor structure, but a simple cave with Groudon or Kyogre in the middle of the room. Groudon and Kyogre are found at level 50.</p>
+
+<h4>Groudon's Maximum Stats</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>175</td> <td>-</td>
+</tr>
+<tr>
+<td>Atk</td> <td>153</td> <td>170</td> <td>187</td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>144</td> <td>160</td> <td>176</td>
+</tr>
+<tr>
+<td>SpA</td> <td>108</td> <td>120</td> <td>132</td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>99</td> <td>110</td> <td>121</td>
+</tr>
+<tr>
+<td>Spe</td> <td>99</td> <td>110</td> <td>121</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Groudon's Minimum Speed</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Min-</th> <th>Min</th> <th>Min+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>85</td> <td>95</td> <td>104</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Groudon's Moveset</h4>
+<ul>
+	<li><a href="/dp/moves/rest">Rest</a> (10 PP)</li>
+	<li><a href="/dp/moves/earthquake">Earthquake</a> (10 PP)</li>
+	<li><a href="/dp/moves/ancientpower">AncientPower</a> (5 PP)</li>
+	<li><a href="/dp/moves/eruption">Eruption</a> (5 PP)</li>
+	<li>Total PP = 30</li>
+</ul>
+
+<p>Rest is a major issue, since Groudon will use it to fully restore its HP. Furthermore, Rest will remove any status condition inflicted on Groudon by inflicting it with sleep. However, this will provide you with two free turns to reduce Groudon's HP, or to heal your own Pokémon. Earthquake is going to be inflicting a good amount of damage with its 150 BP due to STAB and Groudon's impressive Attack stat. AncientPower can make the capture more difficult if it manages to boost each of Groudon's already impressive stats by 50%. Eruption can pose a threat due to the boost it gets from the perpetual sunlight (thanks to Groudon's Drought ability), and the fact that Groudon can replenish its HP with Rest to use the attack at full power. Therefore, it may be wise to bring along a Pokémon with a move like Rain Dance to change the weather, especially if you're using Parasect or Breloom as your catcher. Rain Dance is recommended over Hail, since Groudon's HP will be reduced each turn for the duration of the weather, and Sandstorm should only be used if you are fighting Groudon with a Pokémon immune to the weather's damaging effects, lest the damage rack up too quickly. If you trade it over from a different game, Kyogre's Drizzle will even act as a foil to Groudon's Drought, putting the battlefield under perpetual rain. However, if used on the first turn, Kyogre must have a lower Speed stat than Groudon to have its weather take precedence.</p>
+
+<h4>Kyogre's Maximum Stats</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>175</td> <td>-</td>
+</tr>
+<tr>
+<td>Atk</td> <td>108</td> <td>120</td> <td>132</td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>99</td> <td>110</td> <td>121</td>
+</tr>
+<tr>
+<td>SpA</td> <td>153</td> <td>170</td> <td>187</td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>144</td> <td>160</td> <td>176</td>
+</tr>
+<tr>
+<td>Spe</td> <td>99</td> <td>110</td> <td>121</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Kyogre's Minimum Speed</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Min-</th> <th>Min</th> <th>Min+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>85</td> <td>95</td> <td>104</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Kyogre's Moveset</h4>
+<ul>
+	<li><a href="/dp/moves/aqua_ring">Aqua Ring</a> (20 PP)</li>
+	<li><a href="/dp/moves/ice_beam">Ice Beam</a> (10 PP)</li>
+	<li><a href="/dp/moves/ancientpower">AncientPower</a> (5 PP)</li>
+	<li><a href="/dp/moves/water_spout">Water Spout</a> (5 PP)</li>
+	<li>Total PP = 40</li>
+</ul>
+
+<p>Aqua Ring will make Kyogre one of the most annoying captures, restoring its HP by 1/16 at the end of each turn means that keeping Kyogre's HP at 1 will be impossible. Additionally, you will have to frequently attack Kyogre to ensure that it doesn't accumulate too much HP. AncientPower can become a problem in the long run if by the 1 in 10 chance it manages to boost all of Kyogre's stats by one stage. Water Spout can be destructive coming off Kyogre's impressive Special Attack, especially if it makes use of it early in the match when it has most of its HP or if it manages to restore its HP with Aqua Ring. The fact that you're playing under perpetual rain (thanks to Drizzle) doesn't help the situation, since it boosts Water Spout's damage by 50%. If Water Spout makes you too nervous, using Sunny Day will reduce its power whenever sunlight is in effect, and will reduce it to normal power at most, once the weather has cleared. Hopefully by this point, Kyogre's HP is at a lower point regardless. Sandstorm and Hail are not recommended, as even though Kyogre has Aqua Ring, they will chip away at its HP every turn. Furthermore, Sandstorm inflicts damage before Aqua Ring heals Kyogre, so it can KO Kyogre if its HP is too low. If you can trade one over, Groudon will also counter Kyogre's rain with its Drought ability, ensuring that Water Spout will always have its power reduced. That said, if it leads, Groudon will only summon sunlight if it is slower than Kyogre.</p>
+
+<p>It may be tempting to use an attack like Taunt to prevent Groudon and Kyogre from using Rest and Aqua Ring respectively, but it would only cause them to start Struggling sooner due to their low total PP. When attempting to capture these two, remember to bring along about 30 or more Heavy Balls (the number of Balls depends on the number of Blk Apricorns you managed to accumulate) along with your stock of Dusk Balls. Net Balls are good backups if you're facing Kyogre, especially if you lack Blk Apricorns to make Heavy Balls. Once you've captured your legendary, the Hiker standing outside will come in and mention that there may be a secret to Embedded Tower and to visit Prof. Oak to learn the entire story behind it. After he leaves, you can exit and use Fly to leave Route 47, but don't forget to pick up the Wave Incense located on a sandy patch at the bottom of the cliff. Rock Climb is necessary to scale the cliff and reach the Incense.</p>
+
+<h3><a name="rayquaza">Rayquaza</a></h3>
+
+<p>Rayquaza is located in Embedded Tower, in the same spot you found Groudon or Kyogre initially. Rayquaza will appear in Embedded Tower once you have acquired the Jade Orb from Prof. Oak, obtained only when you speak to him with both Groudon and Kyogre in your party. Therefore, you have to trade over a Groudon to your HeartGold or a Kyogre to SoulSilver before Prof. Oak will give you the Jade Orb. Furthermore, you cannot use Groudon or Kyogre from RSE; it must be one obtained from Embedded Tower. Rock Climb and Surf are required to reach the entrance to Embedded Tower. When you enter Embedded Tower, you're automatically led straight to Rayquaza and it seems as though the battle will start instantly, but instead Rayquaza just lets out a cry and you're back in control so you can save right in front of it (instead of outside Embedded Tower). Rayquaza appears at level 50.</p>
+
+<h4>Rayquaza's Maximum Stats</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>180</td> <td>-</td>
+</tr>
+<tr>
+<td>Atk</td> <td>153</td> <td>170</td> <td>187</td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>99</td> <td>110</td> <td>121</td>
+</tr>
+<tr>
+<td>SpA</td> <td>153</td> <td>170</td> <td>187</td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>99</td> <td>110</td> <td>121</td>
+</tr>
+<tr>
+<td>Spe</td> <td>103</td> <td>115</td> <td>126</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Rayquaza's Moveset</h4>
+<ul>
+	<li><a href="/dp/moves/rest">Rest</a> (10 PP)</li>
+	<li><a href="/dp/moves/air_slash">Air Slash</a> (20 PP)</li>
+	<li><a href="/dp/moves/ancientpower">AncientPower</a> (5 PP)</li>
+	<li><a href="/dp/moves/outrage">Outrage</a> (15 PP)</li>
+	<li>Total PP = 50</li>
+</ul>
+
+<p>Rest is going to be a problem, as it forces you to reduce Rayquaza's HP again after it's used, despite any prior damage you inflicted on it. Fortunately, Rest puts Rayquaza to sleep for two turns, so you have two free turns to do as you please while it takes a nap. Air Slash is going to inflict serious damage to most of the recommended catchers, and with a 30% flinch rate, expect to get annoyed at times while you attempt to catch Rayquaza. AncientPower is a minor problem because it can boost Rayquaza's stats by 50%, but only has a 10% chance of doing so. Outrage is definitely the move to watch out for when facing Rayquaza. With a Base Power of 180 after STAB, it will definitely make on impact on your Pokémon's HP. The main issue with Outrage, however, is that Rayquaza becomes confused after 2-3 turns of using it, so it can hurt itself (and potentially faint itself) before you can catch it. Furthermore, putting Rayquaza to sleep when it's using Outrage will immediately inflict it with confusion status.</p>
+
+<p>Taunt is a good move to ensure Rayquaza can't use Rest to restore its HP, since iDef
+	t can be taught easily via TM to both Gallade and Mew. The confusion caused by Outrage can be handled in a few ways. One strategy would be to use Trick to give Rayquaza a Persim Berry, although this is only a one-time solution. For a permanent solution, you could bring a Pokémon with the ability Own Tempo, such as Slowpoke and Slowbro, and use Skill Swap to trade abilities with Rayquaza. Then, with Own Tempo as Rayquaza's ability, it will not get confused when using Outrage. Once you have captured Rayquaza, simply exit Embedded Tower and use Fly to leave Route 47.</p>
+
+<h3><a name="latias_latios_40">Latios/Latias (Enigma Stone Event)</a></h3>
+
+<p>Latios is obtainable in HeartGold and Latias is obtainable in SoulSilver through the Enigma Stone event. The Enigma Stone is an item that was given away over Nintendo Wi-Fi Connection from November 11, 2009 to January 11, 2010 for Japanese games and from July 31, 2010 to August 27, 2010 for other regions. Once you pick up the Engima Stone from a PokéMart, head over to Pewter Museum where you will meet Steven Stone. Then, the museum's researcher will take the Engima Stone and reveal that it is the Soul Dew. Once you obtain the Soul Dew from the researcher and leave the museum, Latios or Latias will appear before you. Whether you want to capture it the moment it appears is up to you, since you can leave and come back to it once you are fully prepared. Latios or Latias will be at level 40 when you confront it.</p>
+
+<h4>Latios's Maximum Stats (Level 40)</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>126</td> <td>-</td>
+</tr>
+<tr>
+<td>Atk</td> <td>80</td> <td>89</td> <td>97</td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>72</td> <td>81</td> <td>89</td>
+</tr>
+<tr>
+<td>SpA</td> <td>108</td> <td>121</td> <td>133</td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>94</td> <td>105</td> <td>115</td>
+</tr>
+<tr>
+<td>Spe</td> <td>94</td> <td>105</td> <td>115</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Latios's Moveset (Level 40)</h4>
+<ul>
+	<li><a href="/dp/moves/protect">Protect</a> (10 PP)</li>
+	<li><a href="/dp/moves/refresh">Refresh</a> (20 PP)</li>
+	<li><a href="/dp/moves/luster_purge">Luster Purge</a> (5 PP)</li>
+	<li><a href="/dp/moves/zen_headbutt">Zen Headbutt</a> (15 PP)</li>
+	<li>Total PP = 50</li>
+</ul>
+
+<p>Refresh will cure Latios of any status conditions, so while facing him, sleep should be your primary form of status; Latios can't use Refresh while asleep. Luster Purge can be threatening with a 50% chance of lowering your Special Defense, so Latios's attacks will inflict more damage as the battle progresses if the stat decreases accumulate. Zen Headbutt's 20% flinch rate can be a nuisance if Latios outspeeds your Pokémon.</p>
+
+<h4>Latias's Maximum Stats (Level 40)</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>126</td> <td>-</td>
+</tr>
+<tr>
+<td>Atk</td> <td>72</td> <td>81</td> <td>89</td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>80</td> <td>89</td> <td>97</td>
+</tr>
+<tr>
+<td>SpA</td> <td>94</td> <td>105</td> <td>115</td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>108</td> <td>121</td> <td>133</td>
+</tr>
+<tr>
+<td>Spe</td> <td>94</td> <td>105</td> <td>115</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Latias's Moveset (Level 40)</h4>
+<ul>
+	<li><a href="/dp/moves/water_sport">Water Sport</a> (15 PP)</li>
+	<li><a href="/dp/moves/refresh">Refresh</a> (20 PP)</li>
+	<li><a href="/dp/moves/mist_ball">Mist Ball</a> (5 PP)</li>
+	<li><a href="/dp/moves/zen_headbutt">Zen Headbutt</a> (15 PP)</li>
+	<li>Total PP = 55</li>
+</ul>
+
+<p>Refresh will remove any status that doesn't completely incapacitate Latias, like freeze or sleep. Zen Headbutt can get annoying with a 20% flinch rate, as long as Latias outspeeds your Pokémon; otherwise, it's not a threat.</p>
+
+<h3><a name="dialga_palkia_giratina">Dialga/Palkia/Giratina</a></h3>
+
+<p>After making their premiere in DPP, Dialga, Palkia, and Giratina make a return in HeartGold and SoulSilver in the Sinjoh Ruins to the north of Johto. The Sinjoh Ruins can only be reached through an event at the Ruins of Alph involving Arceus. To initiate the event, you must place Arceus at the head of your party and enter the Ruins Research Center. When you try to enter, the research director will exit and bump into you and notice Arceus, subsequently leading you into the Ruins of Alph; from here you will be transported to the Sinjoh Ruins. At first you will be inside the Sinjoh Ruins; once you exit you will meet a Hiker who will take you to a cabin located in front of the ruins where you will meet Cynthia, who also returns from her debut in DPP. Cynthia will explain how Arceus can create new life and wants to see it perform the feat inside the Sinjoh Ruins, so she leaves and waits for you inside the ruins. Before you head towards the ruins, you must deposit every Pokémon in your party, except for Arceus. There is a PC in the cabin, along with an old man and his Abra who can Teleport you back to the Ruins of Alph. Once you have deposited your Pokémon, head inside the Sinjoh Ruins, where Cynthia will lead you to the center of the Mystri Stage and explain how Arceus can create one of three Pokémon (Dialga, Palkia, or Giratina) based on the circle you select. The blue circle corresponds to Dialga, the purple circle to Palkia, and the red circle to Giratina. Once you select which Pokémon you want Arceus to create, a sequence of images will commence that concludes with Arceus creating an Egg of the legendary Pokémon you selected. When the ritual is over and you have received your legendary Pokémon, the Unown will appear and you will be transported back to the inside of the Ruins of Alph. Dialga, Palkia, or Giratina is received at level 1 and comes with its respective orb attached; Palkia comes with the Lustrous Orb, Dialga with the Adamant Orb, and Giratina with the Griseous Orb. Note that the Sinjoh Ruins event is the only way to obtain the Griseous Orb—the item allowing Giratina to assume its Origin Forme—in HGSS.</p>
+
+<p>The Arceus necessary for this event must be from a Nintendo Event or the one from the Hall of Origin in DPP. This event can be done twice to receive up to two of the three Sinjoh dragons. To activate the event again, you must use the either the Hall of Origin Arceus or one from a Nintendo Event, if you used the Hall of Origin Arceus the first time, then the second would require a Nintendo Event Arceus and vice-versa. Bring the Arceus to the Ruins of Alph, enter the ruins, and you will be transported back to the Sinjoh Ruins.</p>
+
+<p>The following event Arceus unlock the Sinjoh Ruins event in HGSS: TRU (Toys R Us) Arceus, Movie Arceus, and MICHINA Arceus; for a list of the dates and locations these Arceus were distributed at look <a href="/forums/showpost.php?p=2895556&postcount=3">here</a>. The aforementioned Arceus all activate the Sinjoh Ruins event in HGSS. Furthermore, the event is not region specific, so you can use any of the previous event Arceus in any HGSS game to unlock the event. However, you cannot repeat the event a second time with another of these event Arceus if you already used one of them the first time. For example if you used a MICHINA Arceus to unlock the event the first time, then you can't use a TRU Arceus to activate the event a second time.</p>
+
+<h4>Dialga/Palkia's Maximum Stats</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>13</td> <td>-</td>
+</tr>
+<tr>
+<td>Atk</td> <td>6</td> <td>7</td> <td>7</td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>6</td> <td>7</td> <td>7</td>
+</tr>
+<tr>
+<td>SpA</td> <td>7</td> <td>8</td> <td>8</td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>6</td> <td>7</td> <td>7</td>
+</tr>
+<tr>
+<td>Spe</td> <td>6</td> <td>7</td> <td>7</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Giratina's Maximum Stats (Origin and Altered Forme)</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>14</td> <td>-</td>
+</tr>
+<tr>
+<td>Atk</td> <td>6</td> <td>7</td> <td>7</td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>6</td> <td>7</td> <td>7</td>
+</tr>
+<tr>
+<td>SpA</td> <td>6</td> <td>7</td> <td>7</td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>6</td> <td>7</td> <td>7</td>
+</tr>
+<tr>
+<td>Spe</td> <td>6</td> <td>7</td> <td>7</td>
+</tr>
+</tbody>
+</table>

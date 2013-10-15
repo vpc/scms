@@ -1,0 +1,84 @@
+[title]
+Journey Across America Warstories
+[head]
+<script type="text/javascript" src="/media/jquery.js"></script>
+</script>
+<script type="text/javascript">
+jQuery(document).ready(function(){
+$('#sw_image').click(function(e){$('#sw_content').show();$('#sw_image').hide()});})
+</script>
+[page]
+<div style="text-align: center;"><img src="http://users.smogon.com/mingot/media/vgc/stunkworks.png" id="sw_image"></div>
+<div id="sw_content" style="display:none;">
+<h2>Introduction</h2>
+<p>Content</p>
+<h2>Regional Stops</h2>
+<h3>Houston, TX</h3>
+<dl>
+<dt><a href="houston_kongler">Kongler</a> *WINNER*</dt>
+<dd>Father Pokémon battles on an IMAX screen at Space Center Houston.</dd>
+</dl>
+<h3>Denver, CO</h3>
+<dl>
+<dt><a href="denver_obi">Obi</a> *WINNER*</dt>
+<dd>Read as Obi's revolutionary strategy, "Obi Mode", takes Denver by storm.</dd>
+<dt><a href="denver_top">ToP</a></dt>
+<dd>ToP's sad Round 3 loss to an Indian girl is chronicled here.</dd>
+</dl>
+<h3>Chicago, IL</h3>
+<dl>
+<dt><a href="chicago_skarm">skarm</a> *WINNER*</dt>
+<dd>Smogon's resident megalomaniac explodes into a triple Protect and gets disqualified for being Canadian.</dd>
+</dl>
+<h3>Detroit, MI</h3>
+<dl>
+<dt><a href="detroit_jeps">jeps</a> *WINNER*</dt>
+<dd>Read as jeps barely wakes up for the tournament but comes out a winner.</dd>
+<dt><a href="detroit_fivekrunner">FiveKRunner</a></dt>
+<dd>What FiveKRunner doesn't win in Detroit, his dad buys.</dd>
+</dl>
+<h3>Cincinnati, OH</h3>
+<dl>
+<dt><a href="cincinnati_chalkey">Chalkey</a> *WINNER*</dt>
+<dd>After a disappointing finish in Detroit, Chalkey tries again in Cincinnati (written from jeps' point of view).</dd>
+</dl>
+<h3>Raleigh, NC</h3>
+<dl>
+<dt><a href="raleigh_larvi">Larvi</a></dt>
+<dd>Read about Larvi's journey and his solid showing at Raleigh.</dd>
+<dt><a href="raleigh_skyuppercut60">SKYUPPERCUT60</a></dt>
+<dd>SKYUPPERCUT60's humorous take on his trip and tournament.</dd>
+</dl>
+<h3>Washington, DC</h3>
+<dl>
+<dt><a href="washdc_kaolinite">kaolinite</a> *WINNER*</dt>
+<dd>In this tale kaolinite details how he began his journey to being crowned National Champion.</dd>
+<dt><a href="washdc_quaza">Quaza-A</a></dt>
+<dd>Quaza-A does well in DC, but falls to the eventual champion.</dd>
+</dl>
+<h3>Philadelphia, PA</h3>
+<dl>
+<dt><a href="philadelphia_justin8649">Justin8649</a> *WINNER*</dt>
+<dd>Justin feels awful about beating kids and gives out autographs in this gripping tale.</dd>
+<dt><a href="philadelphia_tts">TTS</a></dt>
+<dd>Despite his solid showing read about TTS getting crushed by Nightmare in more ways than one.</dd>
+<dt><a href="philadelphia_nightmare">Nightmare</a></dt>
+<dd>Nightmare's unique team gives other Philly competitors problems.</dd>
+<dt><a href="philadelphia_freaktron">freaktron</a></dt>
+<dd>Freaktron's training was no match for a Talking Toilet Seat.</dd>
+</dl>
+<h3>Nintendo World (NYC, NY)</h3>
+<dl>
+<dt><a href="nintendoworld_blazemxx">blazemxx</a></dt>
+<dd>Read about blazemxx's experiences at that Nintendo World tournament.</dd>
+</dl>
+<h2>Nationals</h2>
+<dl>
+<dt><a href="nyc_kongler">Kongler</a></dt>
+<dd>Father Pokémon returns for the National Championships.</dd>
+<dt><a href="nyc_doommullet">DoomMullet</a></dt>
+<dd>Read DoomMullet's exciting tale of friendship and heartbreak featuring large amounts of pictures and videos.</dd>
+<dt><a href="nyc_amazingampharos">Amazing Ampharos</a></dt>
+<dd>In this story, AA whines about everything under the sun, and even some that are not!</dd>
+</dl>
+</div>

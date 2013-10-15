@@ -1,0 +1,897 @@
+[title]
+Special Moves in Pokemon XD: Gale of Darkness
+[head]
+<meta name="description" content="A guide to efficiently capturing competitive Pokemon with exclusive moves in Pokemon XD, thanks to NixHex and Zari."/>
+[page]
+<div class="author">By <a href="/forums/member.php?u=40064">NixHex</a> with preliminary research by <a href="/forums/member.php?u=29315">Zari</a>.</div>
+<ol class="toc">
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#special_pokemon">Special Pokemon</a></li>
+<li><a href="#capture_guide">Capture Guide</a>
+<ul>
+<li><a href="#how_to_speed">How to Obtain Perfect Speed IVs</a></li>
+<li><a href="#shadow_boost">The Shadow Boost Factor</a></li>
+<li><a href="#how_to_hp">How to Obtain Perfect HP IVs</a></li>
+<li><a href="#how_to_test">How to do Your Own Shadow Boost Tests</a></li>
+<li><a href="#utility">Utility Items and Pokemon</a></li>
+<li><a href="#how_to_nature">How to Deduce your Pokemon's Nature</a></li>
+<li><a href="#protected_save">Protected Save Factor</a></li>
+<li><a href="#ability_factor">Ability Factor</a></li>
+</ul></li>
+<li><a href="#move_tutor">Move Tutor</a>
+<ul>
+<li><a href="#move_nightmare">Nightmare</a></li>
+<li><a href="#move_sky_attack">Sky Attack</a></li>
+<li><a href="#move_selfdestruct">Selfdestruct</a></li>
+<li><a href="#mew_tutor">Mew Move Tutor</a></li>
+</ul></li>
+<li><a href="#conclusion">Conclusion</a></li>
+</ol>
+ 
+<h2><a name="introduction">Introduction</a></h2>
+<p>Pokemon XD: Gale of Darkness is the sequel to Pokemon Colosseum, making it the second fully 3D Pokemon adventure on the GameCube. Casual players were dismayed at the lack of gym leaders and the limited availability of wild Pokemon. However, the game offered unique and invaluable features for competitive players that are still relevant in competitive play. Thanks to the ability to transfer Pokemon from your 4th Generation game to Black and White, these unique monsters can still be used today! This is intended to be an exhaustive tutorial on obtaining Pokemon with unique and useful moves. As such, all Pokemon who obtain Refresh or moves they cannot utilize effectively (such as Marowak with Sing) are absent from  the list. You will also learn, in great detail, the means by which you can work around frustrating game mechanics, namely Shadow Boosts.</p>
+
+<h2><a name="special_pokemon">Special Pokemon</a></h2>
+<p>From very early on in your adventure, you will start catching and purifying Shadow Pokemon. As they are purified, they will typically learn a few Egg moves, and when purification is complete, an exclusive move. Since Emerald and 4th Generation Move Tutors are able to teach some of these moves to those Pokemon, it is no longer advisable to reset for all of the Shadow Pokemon, especially with the advent of RNG Abuse becoming widespread in those games. Still, there are a great number of Pokemon whose attacks are exclusive to this game, the most notable of which are listed below, along with their minimum and maximum stats for all natures and their Shadow Boosts (more on this later).</p>
+
+<h4>Poochyena</h4>
+<p>Lv. 10 - Heal Bell</p>
+<p><img src="/download/sprites/rs/261.png" alt="" /></p>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Hindering Nature</th> <th>Neutral Nature</th> <th>Boosting Nature</th> <th>Shadow Boost</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>27 - 30</td> <td>-</td> <td></td>
+</tr>
+<tr>
+<td>Atk</td> <td>14 - 17</td> <td>16 - 19</td> <td>17 - 20</td> <td></td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>10 - 13</td> <td>12 - 15</td> <td>13 - 16</td> <td></td>
+</tr>
+<tr>
+<td>SpA</td> <td>9 - 12</td> <td>11 - 14</td> <td>12 - 15</td> <td></td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>9 - 12</td> <td>11 - 14</td> <td>12 - 15</td> <td></td>
+</tr>
+<tr>
+<td>Spe</td> <td>10 - 13</td> <td>12 - 15</td> <td>13 - 16</td> <td><strong>+1</strong></td>
+</tr>
+</tbody>
+</table>
+
+<h4>Duskull</h4>
+<p>Lv. 19 - Helping Hand</p>
+<p><img src="/download/sprites/rs/355.png" alt="" /></p>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Hindering Nature</th> <th>Neutral Nature</th> <th>Boosting Nature</th> <th>Shadow Boost</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>36 - 42</td> <td>-</td> <td><strong>+4</strong> to <strong>+5</strong></td>
+</tr>
+<tr>
+<td>Atk</td> <td>18 - 23</td> <td>20 - 26</td> <td>22 - 28</td> <td></td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>35 - 40</td> <td>39 - 45</td> <td>42 - 49</td> <td></td>
+</tr>
+<tr>
+<td>SpA</td> <td>14 - 19</td> <td>16 - 22</td> <td>17 - 24</td> <td></td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>35 - 40</td> <td>39 - 45</td> <td>42 - 49</td> <td></td>
+</tr>
+<tr>
+<td>Spe</td> <td>12 - 18</td> <td>14 - 20</td> <td>15 - 22</td> <td><strong>+2</strong></td>
+</tr>
+</tbody>
+</table>
+
+
+<h4>Snorunt</h4>
+<p>Lv. 20 - Sing</p>
+<p><img src="/download/sprites/rs/361.png" alt="" /></p>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Hindering Nature</th> <th>Neutral Nature</th> <th>Boosting Nature</th> <th>Shadow Boost</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>50 - 56</td> <td>-</td> <td><strong>+4</strong> to <strong>+5</strong></td>
+</tr>
+<tr>
+<td>Atk</td> <td>22 - 27</td> <td>25 - 31</td> <td>27 - 34</td> <td></td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>22 - 27</td> <td>25 - 31</td> <td>27 - 34</td> <td></td>
+</tr>
+<tr>
+<td>SpA</td> <td>22 - 27</td> <td>25 - 31</td> <td>27 - 34</td> <td></td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>22 - 27</td> <td>25 - 31</td> <td>27 - 34</td> <td></td>
+</tr>
+<tr>
+<td>Spe</td> <td>22 - 27</td> <td>25 - 31</td> <td>27 - 34</td> <td><strong>+5</strong></td>
+</tr>
+</tbody>
+</table>
+
+<h4>Natu</h4>
+<p>Lv. 22 - Baton Pass</p>
+<p><img src="/download/sprites/rs/177.png" alt="" /></p>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Hindering Nature</th> <th>Neutral Nature</th> <th>Boosting Nature</th> <th>Shadow Boost</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>49 - 56</td> <td>-</td> <td></td>
+</tr>
+<tr>
+<td>Atk</td> <td>24 - 29</td> <td>27 - 33</td> <td>29 - 36</td> <td></td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>21 - 27</td> <td>24 - 31</td> <td>26 - 34</td> <td></td>
+</tr>
+<tr>
+<td>SpA</td> <td>31 - 37</td> <td>35 - 42</td> <td>38 - 46</td> <td></td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>21 - 27</td> <td>24 - 31</td> <td>26 - 34</td> <td></td>
+</tr>
+<tr>
+<td>Spe</td> <td>31 - 37</td> <td>35 - 42</td> <td>38 - 46</td> <td><strong>+5</strong></td>
+</tr>
+</tbody>
+</table>
+
+<h4>Lunatone</h4>
+<p>Lv. 25 - Baton Pass</p>
+<p><img src="/download/sprites/rs/337.png" alt="" /></p>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Hindering Nature</th> <th>Neutral Nature</th> <th>Boosting Nature</th> <th>Shadow Boost</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>70 - 77</td> <td>-</td> <td></td>
+</tr>
+<tr>
+<td>Atk</td> <td>28 - 36</td> <td>32 - 40</td> <td>35 - 44</td> <td></td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>33 - 40</td> <td>37 - 45</td> <td>40 - 49</td> <td></td>
+</tr>
+<tr>
+<td>SpA</td> <td>46 - 54</td> <td>52 - 60</td> <td>57 - 66</td> <td></td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>42 - 49</td> <td>47 - 55</td> <td>51 - 60</td> <td></td>
+</tr>
+<tr>
+<td>Spe</td> <td>36 - 42</td> <td>40 - 47</td> <td>44 - 51</td> <td><strong>+5</strong></td>
+</tr>
+</tbody>
+</table>
+ 
+<h4>Togepi</h4>
+<p>Lv. 25 - Helping Hand, Tri Attack</p>
+<p><img src="/download/sprites/rs/175.png" alt="" /></p>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Hindering Nature</th> <th>Neutral Nature</th> <th>Boosting Nature</th> <th>Shadow Boost</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>52 - 60</td> <td>-</td> <td></td>
+</tr>
+<tr>
+<td>Atk</td> <td>13 - 19</td> <td>15 - 22</td> <td>16 - 24</td> <td></td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>33 - 40</td> <td>37 - 45</td> <td>40 - 49</td> <td></td>
+</tr>
+<tr>
+<td>SpA</td> <td>22 - 28</td> <td>25 - 32</td> <td>27 - 35</td> <td></td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>33 - 40</td> <td>37 - 45</td> <td>40 - 49</td> <td></td>
+</tr>
+<tr>
+<td>Spe</td> <td>13 - 19</td> <td>15 - 22</td> <td>16 - 24</td> <td><strong>+0</strong></td>
+</tr>
+</tbody>
+</table>
+
+<h4>Beedrill</h4>
+<p>Lv. 30 - Baton Pass</p>
+<p><img src="/download/sprites/rs/15.png" alt="" /></p>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Hindering Nature</th> <th>Neutral Nature</th> <th>Boosting Nature</th> <th>Shadow Boost</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>79 - 88</td> <td>-</td> <td></td>
+</tr>
+<tr>
+<td>Atk</td> <td>47 - 55</td> <td>53 - 62</td> <td>58 - 68</td> <td></td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>26 - 34</td> <td>29 - 38</td> <td>31 - 41</td> <td></td>
+</tr>
+<tr>
+<td>SpA</td> <td>28 - 36</td> <td>32 - 41</td> <td>35 - 45</td> <td></td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>47 - 55</td> <td>53 - 62</td> <td>58 - 68</td> <td></td>
+</tr>
+<tr>
+<td>Spe</td> <td>45 - 53</td> <td>50 - 59</td> <td>55 - 64</td> <td><strong>+6</strong></td>
+</tr>
+</tbody>
+</table>
+
+<h4>Hypno</h4>
+<p>Lv. 34 - Baton Pass</p>
+<p><img src="/download/sprites/rs/97.png" alt="" /></p>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Hindering Nature</th> <th>Neutral Nature</th> <th>Boosting Nature</th> <th>Shadow Boost</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>101 - 112</td> <td>-</td> <td></td>
+</tr>
+<tr>
+<td>Atk</td> <td>48 - 58</td> <td>54 - 65</td> <td>59 - 71</td> <td></td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>46 - 56</td> <td>52 - 63</td> <td>57 - 69</td> <td></td>
+</tr>
+<tr>
+<td>SpA</td> <td>48 - 58</td> <td>54 - 65</td> <td>59 - 71</td> <td></td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>74 - 83</td> <td>83 - 93</td> <td>91 - 102</td> <td></td>
+</tr>
+<tr>
+<td>Spe</td> <td>45 - 54</td> <td>50 - 61</td> <td>55 - 67</td> <td><strong>+5</strong> to <strong>+6</strong></td>
+</tr>
+</tbody>
+</table>
+
+<h4>Sableye</h4>
+<p>Lv. 33 - Helping Hand</p>
+<p><img src="/download/sprites/rs/302.png" alt="" /></p>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Hindering Nature</th> <th>Neutral Nature</th> <th>Boosting Nature</th> <th>Shadow Boost</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>76 - 86</td> <td>-</td> <td><strong>+6</strong></td>
+</tr>
+<tr>
+<td>Atk</td> <td>48 - 67</td> <td>54 - 64</td> <td>59 - 70</td> <td></td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>48 - 67</td> <td>54 - 64</td> <td>59 - 70</td> <td></td>
+</tr>
+<tr>
+<td>SpA</td> <td>42 - 52</td> <td>47 - 58</td> <td>51 - 63</td> <td></td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>42 - 52</td> <td>47 - 58</td> <td>51 - 63</td> <td></td>
+</tr>
+<tr>
+<td>Spe</td> <td>34 - 43</td> <td>38 - 48</td> <td>41 - 52</td> <td></td>
+</tr>
+</tbody>
+</table>
+
+<h4>Dodrio</h4>
+<p>Lv. 34 - Baton Pass</p>
+<p><img src="/download/sprites/rs/85.png" alt="" /></p>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Hindering Nature</th> <th>Neutral Nature</th> <th>Boosting Nature</th> <th>Shadow Boost</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>84 - 95</td> <td>-</td> <td><strong>+6</strong> to <strong>+7</strong></td>
+</tr>
+<tr>
+<td>Atk</td> <td>71 - 81</td> <td>79 - 90</td> <td>86 - 99</td> <td><strong>+7</strong> to <strong>+17</strong></td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>46 - 56</td> <td>52 - 63</td> <td>57 - 69</td> <td></td>
+</tr>
+<tr>
+<td>SpA</td> <td>40 - 50</td> <td>45 - 56</td> <td>49 - 61</td> <td></td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>40 - 50</td> <td>45 - 56</td> <td>49 - 61</td> <td></td>
+</tr>
+<tr>
+<td>Spe</td> <td>65 - 74</td> <td>73 - 83</td> <td>80 - 91</td> <td><strong>+7</strong></td>
+</tr>
+</tbody>
+</table>
+
+
+<h4>Farfetch'd</h4>
+<p>Lv. 36 - Baton Pass</p>
+<p><img src="/download/sprites/rs/83.png" alt="" /></p>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Hindering Nature</th> <th>Neutral Nature</th> <th>Boosting Nature</th> <th>Shadow Boost</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>83 - 94</td> <td>-</td> <td><strong>+4</strong></td>
+</tr>
+<tr>
+<td>Atk</td> <td>45 - 55</td> <td>51 - 62</td> <td>56 - 68</td> <td><strong>+4</strong></td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>39 - 49</td> <td>44 - 55</td> <td>48 - 60</td> <td></td>
+</tr>
+<tr>
+<td>SpA</td> <td>41 - 51</td> <td>46 - 57</td> <td>50 - 62</td> <td></td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>45 - 54</td> <td>49 - 60</td> <td>53 - 66</td> <td></td>
+</tr>
+<tr>
+<td>Spe</td> <td>43 - 53</td> <td>48 - 59</td> <td>52 - 64</td> <td><strong>+4</strong></td>
+</tr>
+</tbody>
+</table>
+
+<h4>Banette</h4>
+<p>Lv. 37 - Helping Hand</p>
+<p><img src="/download/sprites/rs/354.png" alt="" /></p>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Hindering Nature</th> <th>Neutral Nature</th> <th>Boosting Nature</th> <th>Shadow Boost</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>94 - 105</td> <td>-</td> <td></td>
+</tr>
+<tr>
+<td>Atk</td> <td>81 - 90</td> <td>90 - 101</td> <td>99 - 111</td> <td><strong>+3</strong> to <strong>+8</strong></td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>47 - 57</td> <td>53 - 64</td> <td>58 - 70</td> <td></td>
+</tr>
+<tr>
+<td>SpA</td> <td>59 - 69</td> <td>66 - 77</td> <td>72 - 84</td> <td></td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>45 - 56</td> <td>51 - 63</td> <td>56 - 69</td> <td></td>
+</tr>
+<tr>
+<td>Spe</td> <td>47 - 57</td> <td>53 - 64</td> <td>58 - 70</td> <td><strong>+2</strong> to <strong>+4</strong></td>
+</tr>
+</tbody>
+</table>
+
+<h4>Magmar</h4>
+<p>Lv. 36 - Follow Me</p>
+<p><img src="/download/sprites/rs/126.png" alt="" /></p>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Hindering Nature</th> <th>Neutral Nature</th> <th>Boosting Nature</th> <th>Shadow Boost</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>92 - 103</td> <td>-</td> <td><strong>+5</strong> to <strong>+6</strong></td>
+</tr>
+<tr>
+<td>Atk</td> <td>65 - 75</td> <td>73 - 84</td> <td>80 - 92</td> <td><strong>+6</strong></td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>41 - 51</td> <td>46 - 57</td> <td>50 - 62</td> <td></td>
+</tr>
+<tr>
+<td>SpA</td> <td>69 - 79</td> <td>77 - 88</td> <td>84 - 96</td> <td><strong>+0</strong> to <strong>+2</strong></td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>59 - 69</td> <td>66 - 77</td> <td>72 - 84</td> <td></td>
+</tr>
+<tr>
+<td>Spe</td> <td>63 - 74</td> <td>71 - 83</td> <td>78 - 91</td> <td><strong>+6</strong> to <strong>+7</strong></td>
+</tr>
+</tbody>
+</table>
+
+<h4>Pinsir</h4>
+<p>Lv. 35 - Helping Hand</p>
+<p><img src="/download/sprites/rs/127.png" alt="" /></p>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Hindering Nature</th> <th>Neutral Nature</th> <th>Boosting Nature</th> <th>Shadow Boost</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>90 - 101</td> <td>-</td> <td><strong>+6</strong></td>
+</tr>
+<tr>
+<td>Atk</td> <td>82 - 92</td> <td>92 - 103</td> <td>101 - 113</td> <td><strong>+5</strong> to <strong>+9</strong></td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>67 - 76</td> <td>75 - 85</td> <td>82 - 93</td> <td></td>
+</tr>
+<tr>
+<td>SpA</td> <td>38 - 48</td> <td>43 - 54</td> <td>47 - 59</td> <td></td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>48 - 57</td> <td>54 - 64</td> <td>59 - 70</td> <td></td>
+</tr>
+<tr>
+<td>Spe</td> <td>57 - 67</td> <td>64 - 75</td> <td>70 - 82</td> <td><strong>+6</strong></td>
+</tr>
+</tbody>
+</table>
+
+<h4>Rapidash</h4>
+<p>Lv. 40 - Baton Pass</p>
+<p><img src="/download/sprites/rs/78.png" alt="" /></p>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Hindering Nature</th> <th>Neutral Nature</th> <th>Boosting Nature</th> <th>Shadow Boost</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>102 - 114</td> <td>-</td> <td><strong>+2</strong> to <strong>+3</strong></td>
+</tr>
+<tr>
+<td>Atk</td> <td>76 - 87</td> <td>85 - 97</td> <td>93 - 106</td> <td></td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>54 - 65</td> <td>61 - 73</td> <td>67 - 80</td> <td></td>
+</tr>
+<tr>
+<td>SpA</td> <td>62 - 72</td> <td>69 - 81</td> <td>75 - 89</td> <td></td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>62 - 72</td> <td>69 - 81</td> <td>75 - 89</td> <td></td>
+</tr>
+<tr>
+<td>Spe</td> <td>80 - 90</td> <td>89 - 101</td> <td>97 - 111</td> <td><strong>+2</strong> to <strong>+9</strong></td>
+</tr>
+</tbody>
+</table>
+
+<h4>Lickitung</h4>
+<p>Lv. 38 - Helping Hand</p>
+<p><img src="/download/sprites/rs/108.png" alt="" /></p>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Hindering Nature</th> <th>Neutral Nature</th> <th>Boosting Nature</th> <th>Shadow Boost</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>116 - 128</td> <td>-</td> <td><strong>+6</strong> to <strong>+7</strong></td>
+</tr>
+<tr>
+<td>Atk</td> <td>41 - 52</td> <td>46 - 58</td> <td>50 - 63</td> <td></td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>55 - 65</td> <td>62 - 73</td> <td>68 - 80</td> <td></td>
+</tr>
+<tr>
+<td>SpA</td> <td>45 - 55</td> <td>50 - 62</td> <td>55 - 68</td> <td></td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>55 - 65</td> <td>62 - 73</td> <td>68 - 80</td> <td></td>
+</tr>
+<tr>
+<td>Spe</td> <td>24 - 35</td> <td>27 - 39</td> <td>29 - 42</td> <td><strong>+2</strong></td>
+</tr>
+</tbody>
+</table>
+
+
+<h4>Solrock</h4>
+<p>Lv. 41 - Baton Pass</p>
+<p><img src="/download/sprites/rs/338.png" alt="" /></p>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Hindering Nature</th> <th>Neutral Nature</th> <th>Boosting Nature</th> <th>Shadow Boost</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>108 - 121</td> <td>-</td> <td><strong>+6</strong></td>
+</tr>
+<tr>
+<td>Atk</td> <td>73 - 85</td> <td>82 - 95</td> <td>90 - 104</td> <td></td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>66 - 78</td> <td>74 - 87</td> <td>81 - 95</td> <td></td>
+</tr>
+<tr>
+<td>SpA</td> <td>45 - 55</td> <td>50 - 62</td> <td>55 - 68</td> <td></td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>52 - 63</td> <td>58 - 71</td> <td>63 - 78</td> <td></td>
+</tr>
+<tr>
+<td>Spe</td> <td>55 - 67</td> <td>62 - 75</td> <td>68 - 82</td> <td><strong>+5</strong> to <strong>+6</strong></td>
+</tr>
+</tbody>
+</table>
+
+<h4>Electabuzz</h4>
+<p>Lv. 43 - Follow Me</p>
+<p><img src="/download/sprites/rs/125.png" alt="" /></p>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Hindering Nature</th> <th>Neutral Nature</th> <th>Boosting Nature</th> <th>Shadow Boost</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>108 - 122</td> <td>-</td> <td></td>
+</tr>
+<tr>
+<td>Atk</td> <td>68 - 80</td> <td>76 - 89</td> <td>83 - 97</td> <td></td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>48 - 60</td> <td>54 - 67</td> <td>59 - 73</td> <td></td>
+</tr>
+<tr>
+<td>SpA</td> <td>77 - 90</td> <td>86 - 100</td> <td>94 - 110</td> <td></td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>70 - 81</td> <td>78 - 91</td> <td>85 - 100</td> <td></td>
+</tr>
+<tr>
+<td>Spe</td> <td>85 - 97</td> <td>95 - 108</td> <td>104 - 118</td> <td><strong>+4</strong> to <strong>+6</strong></td>
+</tr>
+</tbody>
+</table>
+
+<h4>Swellow</h4>
+<p>Lv. 43 - Baton Pass</p>
+<p><img src="/download/sprites/rs/277.png" alt="" /></p>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Hindering Nature</th> <th>Neutral Nature</th> <th>Boosting Nature</th> <th>Shadow Boost</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>104 - 117</td> <td>-</td> <td></td>
+</tr>
+<tr>
+<td>Atk</td> <td>70 - 81</td> <td>78 - 91</td> <td>85 - 100</td> <td></td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>50 - 62</td> <td>56 - 69</td> <td>61 - 75</td> <td></td>
+</tr>
+<tr>
+<td>SpA</td> <td>43 - 54</td> <td>48 - 61</td> <td>52 - 67</td> <td></td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>43 - 54</td> <td>48 - 61</td> <td>52 - 67</td> <td></td>
+</tr>
+<tr>
+<td>Spe</td> <td>100 - 112</td> <td>112 - 125</td> <td>123 - 137</td> <td><strong>+9</strong> to <strong>+11</strong></td>
+</tr>
+</tbody>
+</table>
+
+<h4>Lugia</h4>
+<p>Lv. 50 - Feather Dance, Psycho Boost</p>
+<p><img src="/download/sprites/rs/249.png" alt="" /></p>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Hindering Nature</th> <th>Neutral Nature</th> <th>Boosting Nature</th> <th>Shadow Boost</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>166 - 181</td> <td>-</td> <td><strong>+10</strong> to <strong>+12</strong></td>
+</tr>
+<tr>
+<td>Atk</td> <td>85 - 99</td> <td>95 - 110</td> <td>104 - 121</td> <td></td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>121 - 135</td> <td>135 - 150</td> <td>148 - 165</td> <td></td>
+</tr>
+<tr>
+<td>SpA</td> <td>85 - 99</td> <td>95 - 110</td> <td>104 - 121</td> <td></td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>143 - 156</td> <td>159 - 174</td> <td>174 - 191</td> <td></td>
+</tr>
+<tr>
+<td>Spe</td> <td>103 - 116</td> <td>115 - 130</td> <td>126 - 143</td> <td><strong>+8</strong> to <strong>+9</strong></td>
+</tr>
+</tbody>
+</table>
+
+<h4>Articuno</h4>
+<p>Lv. 50 - Heal Bell, Extrasensory, Haze</p>
+<p><img src="/download/sprites/rs/144.png" alt="" /></p>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Hindering Nature</th> <th>Neutral Nature</th> <th>Boosting Nature</th> <th>Shadow Boost</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>150 - 165</td> <td>-</td> <td></td>
+</tr>
+<tr>
+<td>Atk</td> <td>81 - 94</td> <td>90 - 105</td> <td>99 - 115</td> <td></td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>94 - 108</td> <td>105 - 120</td> <td>115 - 132</td> <td></td>
+</tr>
+<tr>
+<td>SpA</td> <td>90 - 103</td> <td>100 - 115</td> <td>110 - 126</td> <td></td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>117 - 130</td> <td>130 - 145</td> <td>143 - 159</td> <td></td>
+</tr>
+<tr>
+<td>Spe</td> <td>81 - 94</td> <td>90 - 105</td> <td>99 - 115</td> <td><strong>+0</strong> to <strong>+3*</strong></td>
+</tr>
+</tbody>
+</table>
+
+<h4>Zapdos</h4>
+<p>Lv. 50 - Extrasensory, Metal Sound, Baton Pass</p>
+<p><img src="/download/sprites/rs/145.png" alt="" /></p>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Hindering Nature</th> <th>Neutral Nature</th> <th>Boosting Nature</th> <th>Shadow Boost</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>150 - 165</td> <td>-</td> <td></td>
+</tr>
+<tr>
+<td>Atk</td> <td>85 - 99</td> <td>95 - 110</td> <td>104 - 121</td> <td></td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>81 - 94</td> <td>90 - 105</td> <td>99 - 115</td> <td></td>
+</tr>
+<tr>
+<td>SpA</td> <td>117 - 130</td> <td>130 - 145</td> <td>143 - 159</td> <td></td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>85 - 99</td> <td>95 - 110</td> <td>104 - 121</td> <td></td>
+</tr>
+<tr>
+<td>Spe</td> <td>94 - 108</td> <td>105 - 120</td> <td>115 - 132</td> <td><strong>+0</strong> to <strong>+3*</strong></td>
+</tr>
+</tbody>
+</table>
+
+<h4>Dragonite</h4>
+<p>Lv. 55 - Heal Bell</p>
+<p><img src="/download/sprites/rs/149.png" alt="" /></p>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Hindering Nature</th> <th>Neutral Nature</th> <th>Boosting Nature</th> <th>Shadow Boost</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>165 - 182</td> <td>-</td> <td></td>
+</tr>
+<tr>
+<td>Atk</td> <td>136 - 152</td> <td>152 - 169</td> <td>167 - 185</td> <td></td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>98 - 113</td> <td>109 - 126</td> <td>119 - 138</td> <td></td>
+</tr>
+<tr>
+<td>SpA</td> <td>103 - 118</td> <td>115 - 132</td> <td>126 - 145</td> <td></td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>103 - 118</td> <td>115 - 132</td> <td>126 - 145</td> <td></td>
+</tr>
+<tr>
+<td>Spe</td> <td>83 - 99</td> <td>93 - 110</td> <td>102 - 121</td> <td><strong>+3</strong> to <strong>+4</strong></td>
+</tr>
+</tbody>
+</table>
+
+<p>*Test results show that Greevil's Pokemon most likely do not undergo Shadow Boosts, but this has not been proven.</p>
+
+<h2><a name="capture_guide">Capture Guide</a></h2>
+<h3><a name="how_to_speed">How to Obtain Perfect Speed IVs</a></h3>
+<p>Unlike Emerald and our 4th and 5th Generation RPGs, there is very limited information on the mechanics of the RNG in XD. As such, you will have to resort to resetting and recapturing "the old-fashioned way" to obtain Pokemon with decent IVs. Furthermore, Hidden Power type and power are even more difficult to manipulate. Still, with much patience and a few special methods, you will inevitably obtain a unique Pokemon that is competitively viable.  One technique covered in other guides related to obtaining Pokemon with an ideal Speed stat is just as useful in XD as in the cartridge games. The idea is to use a Pokemon that is one Speed point lower than the Pokemon you are trying to catch, otherwise known as the "one under" Speed. If the Pokemon outspeeds your one under Pokemon, it is guaranteed to have a nearly ideal Speed stat, and is worth capturing. As you'll find out, this isn't as straightforward as it seems.</p>
+
+<h3><a name="shadow_boost">The Shadow Boost Factor</a></h3>
+<p>You may have noticed a + next to the level of the Shadow Pokemon you encounter. The meaning behind this sign refers to a small boost in all of its stats dubbed the Shadow Boost. The Shadow Pokemon loses this boost upon capture, but when doing one-under Speed tests, it is vital to take the Shadow Boost into account. The exact mechanism that determines this amount is currently unknown, but the boosts can be found empirically through rigorous Speed tests. Further complicating matters, several separate files have yielded different Shadow Boost results, so it is still advisable to do your own tests if you are unsure. Some of these ranges have already been found for you, and are marked in bold next to the Pokemon's stat numbers above. Your effective one-under Speed is then:</p>
+<pre>One-Under Speed = Desired Speed + Shadow Boost - 1</pre>
+
+<p>Example: Say you want to capture a Dodrio with a +Spe nature. Take a look at its Speed stat above.</p>
+<p>Spe: (65 - 74) / (73 - 83) / (80 - 91) <strong>+7</strong></p>
+<p>Thus, your one-under Speed stat is equal to 91 + 7 - 1 = 97.</p>
+
+<h3><a name="how_to_hp">How to Obtain Perfect HP IVs</a></h3>
+<p>Though Speed is often considered the most important stat in Pokemon, some Pokemon are bulky and are not counted on for their Speed. Duskull is a perfect candidate for an HP test. It has awesome Defense and Special Defense, but its HP and Speed are very bad; it needs all the HP it can get to make use of those defenses. Unfortunately, the HP Stat also undergoes a Shadow Boost, which also varies from file to file.</p>
+
+<p>One of the most common HP tests in the hand-held adventures involves a variation of the one-under test, where the move Endeavor is used to find out the target Pokemon's exact HP at full health. Endeavor is a very rare move, but Night Shade and Seismic Toss are just as effective. As you may know, Seismic Toss and Night Shade are Fighting- and Ghost-type attacks, respectively, that take away HP from the target Pokemon equal to the user's level. This can be found by the following formula, where T is the Target HP, S is the Shadow Boost, L is the level of the user, and N is the amount of times we will use the attack:</p>
+<pre>N * L ≈ T + S - 1</pre>
+ 
+<p>In other words, we must find N and L in order to get as close to T + S - 1 as possible. Let's say we want to capture Duskull with a maximum HP stat of 42. Duskull's HP Shadow Boost is known to be between 4 and 5; we will use 4 in this example. By the above equation we get:</p>
+
+<pre>N * L ≈ 42 + 4 - 1 = 45</pre>
+
+<p>Since 45 is odd, we need to use a Level 45 Night Shade 1 time to get the most accurate result possible. This is very impractical, since Duskull is found early in the game, well before any Night Shade user should reach Level 45. Instead, you should use a Level 22 Night Shade 2 times to reach 44 damage. You can also use Sonic Boom early on to hit Normal-types, which does a set 20 damage. This is very inefficient for Pokemon with high HP, but if you insist, just substitute 20 for L in the above formula.</p>
+
+<h3><a name="how_to_test">How to do Your Own Speed Boost Tests</a></h3>
+<p>Many of the Shadow Boosts listed above have been found to be static, but there are a few that vary from file to file. Luckily, the range of these variables has been narrowed to a respectable degree. If, however, you are not satisfied with the ranges given, you can find the exact boost in your file by attempting to Speed tie with your target. Simply use a Pokemon with a Speed stat on or around the mid point between the Pokemon's maximum and minimum stats. If you encounter a Speed tie, subtract your Pokemon's Speed by the new Pokemon's actual Speed stat, and that is your Shadow Boost. For example, take Swellow:</p>
+
+<p>Spe: (100 - 112) / (112 - 125) / (123 - 137) <strong>+9</strong> to <strong>+11</strong></p>
+
+<pre>Your Pokemon's Speed = (137 + 100) ÷ 2 = 118</pre>
+<pre>Captured Pokemon's Speed (after Speed-tie) = 108</pre>
+<pre>Swellow's Shadow Boost = 118 - 108 = +10</pre>
+
+<h3><a name="utility">Utility Items and Pokemon</a></h3>
+<p>Macho Brace: Halves the Speed of the Pokemon that holds it.</p>
+<p>The Macho Brace can be obtained very early in your adventure; it only costs 200 Poke Coupons, which you can receive by completing the first round of 10 easy battles in Mt. Battle. This allows you to use stronger Pokemon, such as your starter, to capture Shadow Pokemon while still allowing you to muscle your way through the rest of the game. Simply allow your Pokemon to have double the Shadow Pokemon's target Speed minus 1, attach the Macho Brace, and test away!</p>
+
+<p>Spinarak - Lv. 14 - Night Shade</p>
+<p><img src="/download/sprites/rs/167.png" alt="" /></p>
+<p>Max Speed: 17 <strong>+3</strong></p>
+<p>Spinarak can be found early on, held by Cipher Peon Nexir in Basement 2 of the Cipher Lab. It learns Night Shade at the very early level of 17, and is the first Pokemon you can obtain for HP testing. It is initially very frail, but it evolves into Ariados at level 22.</p>
+
+<p>Pinsir - Lv. 35 - Seismic Toss</p>
+<p><img src="/download/sprites/rs/127.png" alt="" /></p>
+<p>Max Speed: 82 <strong>+6</strong></p>
+<p>Pinsir is found late in the game and takes a while to purify. However, it learns Seismic Toss by the Move Tutor at Mt. Battle, making it a high-level user and also a very powerful Pokemon for your team.</p>
+
+<h3><a name="how_to_nature">How to Deduce your Pokemon's Nature</a></h3>
+<p>You may have noticed that immediately upon capture of a Shadow Pokemon, you are able to view its stats, but its nature appears as question marks. When its Heart Meter depletes to about half way, the nature will be revealed, but this can take a long time, especially with higher leveled Pokemon. For example, take Teddiursa, who is captured at level 11 and receives the move Refresh upon purification.</p>
+
+<p>Stats: 37 HP / 24 Atk / 18 Def / 15 SpA / 17 SpD / 18 Spe</p>
+
+<p>Now, calculate the theoretical stats for Teddiursa with a neutral nature, a hindering nature, and a boosting nature with 0 and 31 IVs and 0 EVs in all stats. Eliminate the ranges that do not contain Teddiursa's actual stat.</p>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Hindering Nature</th> <th>Neutral Nature</th> <th>Boosting Nature</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>34 - 37</td> <td>-</td>
+</tr>
+<tr>
+<td>Atk</td> <td>19 - 23</td> <td>22 - 26</td> <td>24 - 28</td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>14 - 17</td> <td>16 - 19</td> <td>17 - 20</td>
+</tr>
+<tr>
+<td>SpA</td> <td><strong>14 - 17</strong></td> <td>16 - 19</td> <td>17 - 20</td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>14 - 17</td> <td>16 - 19</td> <td>17 - 20</td>
+</tr>
+<tr>
+<td>Spe</td> <td>11 - 15</td> <td>13 - 17</td> <td><strong>14 - 18</strong></td>
+</tr>
+</tbody>
+</table>
+<p>As you can see, its SpA lies exclusively in its hindering range, and its Spe in its boosting range, so you can infer that the nature of this Teddiursa is Jolly! Now, you can safely use a single-level IV Calculator, such as MetalKid's, which yields the following ranges:</p>
+<p>IVs: 26 - 31 HP / 13 - 21 Atk / 19 - 27 Def / 10 - 18 SpA / 10 - 18 SpD / 30 - 31 Spe @ Jolly</p>
+<p>Now, you know that your Teddiursa is Jolly and has decent HP, passable Attack, and excellent Speed. If you are not satisfied with this, restart your game and try again. This method is not perfect, as there are times when only one or no stats lie in a unique range. For example, take this Teddiursa:</p>
+<p>Stats: 36 HP / 24 Atk / 17 Def / 16 SpA / 18 SpD / 18 Spe</p>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Hindering Nature</th> <th>Neutral Nature</th> <th>Boosting Nature</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>34 - 37</td> <td>-</td>
+</tr>
+<tr>
+<td>Atk</td> <td>19 - 23</td> <td><strong>22 - 26</strong></td> <td>24 - 28</td>
+</tr>
+<tr class="a">
+<td>Def</td> <td><strong>14 - 17</strong></td> <td><strong>16 - 19</strong></td> <td>17 - 20</td>
+</tr>
+<tr>
+<td>SpA</td> <td><strong>14 - 17</strong></td> <td><strong>16 - 19</strong></td> <td>17 - 20</td>
+</tr>
+<tr class="a">
+img src=50 - 61
+tdtd  alt=Zapdosp<td>SpD</td> <td>14 - 17</td> <td><strong>16 - 19</strong></td> <td>17 - 20</td>
+</tr>
+<tr>
+<td>Spe</td> <td>11 - 15</td> <td>13 - 17</td> <td><strong>14 - 18</strong></td>
+</tr>
+</tbody>
+</table>
+
+<p>Speed is the only stat that lies between a unique range, while only Defense and Special Attack can possibly lie in the hindering range, so there are only two possibilities: Hasty or Jolly. Plugging these stats into an IV calculator with both sets yields:</p>
+
+<pre>IVs: 17 - 25 / 13 - 21 / 10 - 18 / 19 - 27 / 19 - 27 / 30 - 31 @ Jolly</pre>
+<pre>IVs: 17 - 25 / 13 - 21 / 28 - 31 / 0 - 9 / 19 - 27 / 30 - 31 @ Hasty</pre>
+
+<p>If absolutely none of the Pokemon's stats lie within a unique range, it is safe to assume that it has mediocre stats and possibly a neutral nature. Soft-reset and try again.</p>
+ 
+<h3><a name="protected_save">The Protected Save Factor</a></h3>
+<p>You may have noticed that you are forced to save after snagging Articuno and Zapdos and defeating Greevil. Furthermore, the battle with Greevil starts immediately after the battle with Lugia. The implications of this are, while you can test for Speed and HP numbers in battle, you cannot verify these Pokemon's natures and IVs for their other stats without saving the game; you certainly do not want to play through the entire game just to end up with a Jolly Zapdos with a 0 SpA IV! Furthermore, the save file is protected, meaning that there is no way to duplicate your file to try again. Unfortunately, there is no way to circumvent these issues by traditional methods.</p>
+
+<h3><a name="ability_factor">The Ability Factor</a></h3>
+<p>If you know anything about the mechanics of the generation of a Pokemon, you will know that a Pokemon's ability is generated from a 1-bit number in its PID. Several Pokemon in Generation III that had only one ability gained a new ability upon the advent of Generation IV. Since the ability itself is stored separately from the PID, a Pokemon's ability will not immediately change upon transferring it to a Generation IV game. However, the ability is recalculated on certain events, such as evolution, so the Pokemon may have a different ability than originally intended. This is particularly of concern to Togepi, whose ability may change upon evolution to Togekiss to the unpopular Hustle instead of keeping its rare and incredibly useful Serene Grace ability. Unfortunately, without access to Togepi's PID, there is no way to predict whether or not the ability will change. Finally, it is worth noting that any Pokemon you defeat will retain its IVs when you snag it from Miror B later on, but its ability can just as easily change.</p>
+
+<h2><a name="move_tutor">Move Tutor</a></h2>
+<p>Another noteworthy feature of Pokemon XD is the move tutor. This is the only way you can obtain a Mewtwo with Selfdestruct. Only three moves are exclusive to this game, as others can be taught in the cartridge games. Aside from these three moves, there are 6 moves exclusive to Mew, but only 3 moves can be taught exclusively from this Move Tutor.</p>
+<dl>
+<dt><a name="move_nightmare">Nightmare</a></dt>
+<dd>This move is much too situational and is pretty much worthless. For the sake of completion, here are some relatively bulky Pokemon who might benefit from it. Examples: Celebi, Clefable, Deoxys-D, Hypno, Dusknoir, Jirachi, Lickilicky, Lugia, Mr. Mime, Lapras, Porygon2, Shedinja, Slowbro, Slowking, Umbreon</dd></dl>
+<dl>
+<dt><a name="move_sky_attack">Sky Attack</a></dt>
+<dd>All Pokemon that can make use of this powerful move, such as Aerodactyl and Swellow, learn it by easier methods.</dd>
+<dt><a name="name_selfdestruct">Selfdestruct</a></dt>
+<dd>Many Pokemon who learn Selfdestruct also learn Explosion through level up or the Generation IV TM 64, so only a few Pokemon really benefit from this move tutor. Game Freak blessed Snorlax and Mewtwo with deadly suicide moves, and as a tasteless joke, made Wailord an exploding whale. It is worth noting, however, that a Munchlax with Selfdestruct can be captured on the Pokéwalker with flawless IVs thanks to RNG abuse. Examples: Mewtwo, Snorlax, Wailord</dd></dl>
+<dl>
+<dt><a name="mew_tutor">Mew Move Tutor</a></dt>
+<dd>Mew learns 6 moves through this Move Tutor, but only 3 are unique to XD, listed here. Examples: Fake Out, Night Shade, Zap Cannon</dd>
+</dl>
+<h2><a name="conclusion">Conclusion</a></h2>
+<p>Now that you have a firm grasp on the multitude of special Pokemon you can find in XD, get out there and capture them! They offer several oft-unseen options for your Wi-Fi team, and make your trade thread stand out from the rest!</p>

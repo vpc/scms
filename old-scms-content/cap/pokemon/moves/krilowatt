@@ -1,0 +1,88 @@
+[title]
+Krilowatt
+[head]
+<link rel="stylesheet" type="text/css" href="/media/dex/dex.css" />
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_template.js"></script>
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_database.js"></script>
+[header]
+[page]
+<script language="JavaScript">
+var cap = Krilowatt();
+
+cap.movesLevel[0] = ["Ice Shard", "Bubble", "Charge"];
+cap.movesLevel[5] = "Thundershock";
+cap.movesLevel[11] = "Confuse Ray";
+cap.movesLevel[17] = "Imprison";
+cap.movesLevel[24] = "Mirror Coat";
+cap.movesLevel[28] = "BubbleBeam";
+cap.movesLevel[33] = "Counter";
+cap.movesLevel[39] = "Copycat";
+cap.movesLevel[46] = "Heart Swap";
+cap.movesLevel[51] = "Discharge";
+cap.movesLevel[57] = "Guillotine";
+cap.movesLevel[63] = "Thunder";
+cap.movesLevel[68] = "Muddy Water";
+
+cap.movesTM[3] = "Water Pulse";
+cap.movesTM[6] = "Toxic";
+cap.movesTM[7] = "Hail";
+cap.movesTM[10] = "Hidden Power";
+cap.movesTM[13] = "Ice Beam";
+cap.movesTM[14] = "Blizzard";
+cap.movesTM[15] = "Hyper Beam";
+cap.movesTM[17] = "Protect";
+cap.movesTM[18] = "Rain Dance";
+cap.movesTM[21] = "Frustration";
+cap.movesTM[24] = "Thunderbolt";
+cap.movesTM[25] = "Thunder";
+cap.movesTM[26] = "Earthquake";
+cap.movesTM[27] = "Return";
+cap.movesTM[32] = "Double Team";
+cap.movesTM[34] = "Shock Wave";
+cap.movesTM[41] = "Torment";
+cap.movesTM[42] = "Facade";
+cap.movesTM[43] = "Secret Power";
+cap.movesTM[44] = "Rest";
+cap.movesTM[45] = "Attract";
+cap.movesTM[56] = "Fling";
+cap.movesTM[58] = "Endure";
+cap.movesTM[66] = "Payback";
+cap.movesTM[67] = "Recycle";
+cap.movesTM[68] = "Giga Impact";
+cap.movesTM[70] = "Flash";
+cap.movesTM[73] = "Thunder Wave";
+cap.movesTM[78] = "Captivate";
+cap.movesTM[82] = "Sleep Talk";
+cap.movesTM[83] = "Natural Gift";
+cap.movesTM[90] = "Substitute";
+
+cap.movesHM[1] = "Cut";
+cap.movesHM[3] = "Surf";
+cap.movesHM[5] = "Whirlpool";
+cap.movesHM[7] = "Waterfall";
+
+cap.movesEgg = [
+	"Counter",
+	"Follow Me",
+	"Me First",
+	"Metronome",
+	"Mind Reader",
+	"Mirror Coat",
+	"Sheer Cold"
+];
+
+cap.movesTutor = [
+"Dive",
+"Earth Power",
+"Fury Cutter",
+"Helping Hand",
+"Ice Punch",
+"Icy Wind",
+"Low Kick",
+"Signal Beam",
+"Swift",
+"ThunderPunch"
+];
+
+document.write(composeMovesPage(cap));
+</script>

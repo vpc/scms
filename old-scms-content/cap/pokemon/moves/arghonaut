@@ -1,0 +1,100 @@
+[title]
+Arghonaut
+[head]
+<link rel="stylesheet" type="text/css" href="/media/dex/dex.css" />
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_template.js"></script>
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_database.js"></script>
+[header]
+[page]
+<script language="JavaScript">
+var cap = Arghonaut();
+
+cap.movesLevel[0] = ["Bubble", "Yawn", "Wrap"];
+cap.movesLevel[7] = "SmokeScreen";
+cap.movesLevel[10] = "Yawn";
+cap.movesLevel[16] = "Wrap";
+cap.movesLevel[21] = "Arm Thrust";
+cap.movesLevel[27] = "Aqua Jet";
+cap.movesLevel[32] = "Mach Punch";
+cap.movesLevel[36] = "Taunt";
+cap.movesLevel[41] = "Revenge";
+cap.movesLevel[47] = "Thief";
+cap.movesLevel[55] = "Submission";
+cap.movesLevel[60] = "Punishment";
+cap.movesLevel[67] = "Focus Punch";
+
+cap.movesTM[1] = "Focus Punch";
+cap.movesTM[3] = "Water Pulse";
+cap.movesTM[5] = "Roar";
+cap.movesTM[6] = "Toxic";
+cap.movesTM[7] = "Hail";
+cap.movesTM[10] = "Hidden Power";
+cap.movesTM[12] = "Taunt";
+cap.movesTM[13] = "Ice Beam";
+cap.movesTM[14] = "Blizzard";
+cap.movesTM[15] = "Hyper Beam";
+cap.movesTM[17] = "Protect";
+cap.movesTM[18] = "Rain Dance";
+cap.movesTM[21] = "Frustration";
+cap.movesTM[26] = "Earthquake";
+cap.movesTM[27] = "Return";
+cap.movesTM[31] = "Brick Break";
+cap.movesTM[32] = "Double Team";
+cap.movesTM[36] = "Sludge Bomb";
+cap.movesTM[39] = "Rock Tomb";
+cap.movesTM[41] = "Torment";
+cap.movesTM[42] = "Facade";
+cap.movesTM[43] = "Secret Power";
+cap.movesTM[44] = "Rest";
+cap.movesTM[45] = "Attract";
+cap.movesTM[46] = "Thief";
+cap.movesTM[49] = "Snatch";
+cap.movesTM[52] = "Focus Blast";
+cap.movesTM[55] = "Brine";
+cap.movesTM[56] = "Fling";
+cap.movesTM[58] = "Endure";
+cap.movesTM[60] = "Drain Punch";
+cap.movesTM[63] = "Embargo";
+cap.movesTM[68] = "Giga Impact";
+cap.movesTM[71] = "Stone Edge";
+cap.movesTM[78] = "Captivate";
+cap.movesTM[80] = "Rock Slide";
+cap.movesTM[82] = "Sleep Talk";
+cap.movesTM[83] = "Natural Gift";
+cap.movesTM[87] = "Swagger";
+cap.movesTM[90] = "Substitute";
+
+cap.movesHM[1] = "Cut";
+cap.movesHM[3] = "Surf";
+cap.movesHM[4] = "Strength";
+cap.movesHM[5] = "Whirlpool";
+cap.movesHM[6] = "Rock Smash";
+cap.movesHM[7] = "Waterfall";
+
+cap.movesEgg = [
+	"Bulk Up",
+	"Cross Chop",
+	"Headbutt",
+        "Octazooka",
+        "Recover",
+        "Scary Face"
+];
+
+cap.movesTutor = [
+"Dive",
+"Gunk Shot",
+"Headbutt",
+"Ice Punch",
+"Icy Wind",
+"Knock Off",
+"Low Kick",
+"Mud-Slap",
+"Snore",
+"Superpower",
+"ThunderPunch",
+"Vacuum Wave"
+
+];
+
+document.write(composeMovesPage(cap));
+</script>

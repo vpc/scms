@@ -1,0 +1,31 @@
+[title]
+Voodoom
+[head]
+<link rel="stylesheet" type="text/css" href="/media/dex/dex.css" />
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_template.js"></script>
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_database.js"></script>
+[header]
+[page]
+<script language="JavaScript">
+<!--
+var cap = Voodoom();
+
+cap.heightFeet = 6;
+cap.heightInches = 6;
+cap.weightPounds = 166.6;
+cap.weightKilos = 75.5;
+cap.eggGroup1 = "Humanshape";
+cap.eggGroup2 = "Ground"
+
+cap.topicLeader = "Fuzznip & Deck Knight";
+cap.conceptCreator = "DougJustDoug"
+cap.statSpreadCreator = "Rising_Dusk";
+cap.designArtist = "DougJustDoug";
+cap.spriteArtist = "Aragornbird";
+cap.nameCreator = "DougJustDoug";
+cap.movepoolCreator = "Jibaku";
+cap.playtestChampion = "reyscarface";
+
+document.write(composeDexPage(cap));
+//-->
+</script>

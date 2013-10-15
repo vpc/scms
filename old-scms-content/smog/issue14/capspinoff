@@ -1,0 +1,145 @@
+[title]
+Creation Station: CAP Spinoff Game Design
+[head]
+<link href="/media/smog/smog.css" type="text/css" rel="stylesheet" />
+<style type="text/css">
+.box {
+    position: relative;
+}
+
+.box .speaker {
+    min-height: 80px;
+    height: auto !important;
+    height: 80px;
+    margin: 10px 0;
+    padding: 10px;
+    padding-left: 100px;
+}
+
+.box .speaker img {
+    position: absolute;
+    left: 10px;
+}
+
+.box .cartoons {
+    border: 1px solid #FFBF80;
+    background: #FEE0C6;
+}
+
+.box .deck {
+    border: 1px solid #A7AAE1;
+    background: #D3CCFF;
+    position: relative;
+    margin-left: 15px;
+}
+</style>
+[page]
+<div class="author">By <a href="/forums/member.php?u=653">Deck Knight</a> and <a href="/forums/member.php?u=15181">Cartoons!</a>. Art by Cartoons!.</div>
+<table id="smogheader">
+<tr>
+<td class="left"><a href="teamrating">&laquo; Previous Article</a></td>
+<td class="middle"><a href="/smog/issue14/">Home</a></td>
+<td class="right"><span class="inactive-link">Next Article &raquo;</span></td>
+</tr>
+</table>
+
+<div style="float: right; margin-left: 10px;"><img src="/media/smog/14/capspinoff_voodoom.png" alt="" /></div>
+
+<h2>Introduction:</h2>
+
+<p>The Create-A-Pokemon Project is the brain trust of a lot of Smogon's creative talent. It pulls in every kind of poster from hardcore competitive giants, to artists and spriters, and everyone in between. Recently the forum has been experiencing technical implementation problems with the advent of the Fifth Generation, but that will be changing swiftly as well.</p>
+
+<p>CAP has created two spin-off games based on the cuddly customized creatures. The original was Cartoons! BatCAP Fighting Game. The newest game is the CAP Anime Style Battling (ASB) League.</p>
+
+<div class="box">
+<div class="speaker cartoons"><img src="http://cap.smogon.com/Sprites/frontnormal-mfidgit.png" alt="Fidgit" />
+<h2>Game Overview: Battle Capacity</h2>
+
+<p>Simply, I wanted to make a Street Fighter clone. I started working on CAP Battle during Kitsunoh's gestation period, initially to test the Fighter Maker engine I was using. I was very involved with CAP at the time and figured using these characters would provide for an immediate user base. Fighting games were coming back in vogue, thanks to the recent release of SFIV, and I had some free time on my hands, so it was really just the right time to start on this project.</p>
+
+<p>For people unfamiliar with the genre, the game is set on a 2D plane with one player each controlling a character, with the goal of ripping each other apart using a combination of mental one-upmanship, reflexes, and motor skills. It could also be well described as a series of split-second sets of rock-paper-scissors, played in succession.</p>
+</div>
+<div class="speaker deck"><img src="http://cap.smogon.com/Sprites/frontnormal-mcyclohm.png" alt="Cyclohm" />
+<h2>Game Overview: CAP ASB</h2>
+
+<p>Anime Style Battling has been around for a long time, ever since the original Anime aired. My experience with ASB started way back during the GSC era when I was battling at The Pokemasters. Their base model is what I used to create the CAP ASB.</p>
+
+<p>CAP ASB is a combination of a strong Player vs. Player engine and a Role-Playing experience. You get to choose and expand your team, explore and role-play in shops, and battle your friends and rivals in Pokemon matches. You can also be a shop-owner, a referee, or do all of these things.</p>
+</div>
+
+<div class="speaker cartoons"><img src="http://cap.smogon.com/Sprites/frontnormal-mfidgit.png" alt="Fidgit" />
+<h2>Game Elements:</h2>
+
+<p>The game was going to be played on a keyboard, so I aimed off the bat to keep the control scheme as simple as possible. Traditionally, most 2D fighters work with six or four buttons. BatCap was to make do with three. Special moves could be executed in the standard manner established by its predecessors, though I took care to keep the commands as simple as possible. No 360 rotations or fancy super commands, though the controversial down (charge) up command appears (and I still flak for it).</p>
+
+<p>Abilities would be the game's distinguishing factor. At least I thought it would be, but news came Blazblue would incorporate something similar as well as a few older games that seemingly no one can recall. An important factor in the traditional Pokemon series, my aim was to make each character's Ability unique and serve to enhance their overall concept and design. Syclant's Double Team, for example, makes his mix up game (forcing opponents to guess what kind of defensive posture to take) twice as deadly; Stratagem's Levitate makes an already fast character incredibly mobile and tricky.</p>
+
+<p>The latest addition to the game's mechanics comes in the form of X-Attacks. An obvious reference to Capcom's EX Attacks, X-Attacks justify their name from Pokemon's in-game attack boosting item, and their existence is that they add to every character's selection of options. Every Special Attack has a light, medium, strong, and X variant. The X variant often being either a souped up version of the original, either more damage, or some frame invincibility, or, while staying similar thematically, functions completely differently to the vanilla attack. Where previous games drain Super meter in exchange for the use of X-Attacks, BatCap starts each round with each player having access to one X-Attack each. Getting hit by, or blocking, an X-Attack transfers the capability to you, with the two players essentially playing a game of hot potato with each other (except there are two potatoes and both players want them). The intention of this was to get the players to apply strategic use of their Xs, withholding and hoarding them as necessary, saving them for a time when the transfer would least affect the outcome of the match. The result is people blasting away with their X's the moment they get one, or, matches where they never see any use at all because some players just 'never think to use them.'</p>
+</div>
+<div class="speaker deck"><img src="http://cap.smogon.com/Sprites/frontnormal-mcyclohm.png" alt="Cyclohm" />
+<h2>Game Elements:</h2>
+
+<p>The biggest part of CAP ASB is what goes on in the background. With a unique Stats system, staggeringly exhaustive Attack and Ability Lists, as well as a decently sized Item List, CAP ASB has a lot of depth in its battling system. The battling system is the core of the game, and its integration of basically every element from the cartridge is what sets it apart from other ASB Leagues.</p>
+
+<p>While it is still a young game and its userbase and utility is still expanding, the end goal is to make it marry cartridge, role-playing, and anime elements into a rich whole that can't be found elsewhere. If you have ideas for a business or a Role-playing experience, by all means seek out a person for approval and they'll work with you to get it implemented.</p>
+</div>
+
+<div class="speaker cartoons"><img src="http://cap.smogon.com/Sprites/frontnormal-mfidgit.png" alt="Fidgit" />
+<h2>Game Balance:</h2>
+
+<p>I started making this game because I really enjoy game balance theory (which I first indulged in with the customizable scenarios of Starcraft), or at least my make-it-up-as-you-go version of it. It was also a concern to make each character distinct and specialized, which resulted in a game of extremes, with no 'the Marios', which, although it forces one to pick a trade from the get go, may have been unaccommodating for newcomers to the genre.</p>
+
+<p>The simplest demonstration of the kind of balancing decisions that go into a fighting game is to make the 'slow but powerful giant' versus the 'speedy but fragile nymph' fair. Many games in the past have favored the speed demon by making their low health and damage negligible simply because the big guy spends most of the match in hit stun, never being able to get a punch in. In times when the strongman has had the advantage, it was often due to an almost broken attribute like super armor on everything, or death on contact.</p>
+
+<p>I can't say BatCap is a well balanced game for lack of wide scale playtesting, but as it is, most of the characters seem to stand pretty even. Stratagem, for instance, is able to keep Revenankh on the other side of the map fairly easily. With his bevy of mobility options, and ability to spam the screen with projectiles, Revenankh has to work hard to close the distance. However, once Rev gets that all important knock down, Gem is at his mercy, having no reversals (emergency moves with invincible startup) meaning he has to guess Rev's intentions upon getting up and react accordingly; and few characters play the wakeup game as effectively and mercilessly as Rev.</p>
+</div>
+<div class="speaker deck"><img src="http://cap.smogon.com/Sprites/frontnormal-mcyclohm.png" alt="Cyclohm" />
+<h2>Game Balance:</h2>
+
+<p>With all that data, balancing is a major issue in CAP ASB. The stat system is designed to normalize most pokemon into "average." Thus the only difference between Spinda (All 60 Base) and Kingdra (85 and 95 Bases) is that Kingdra has higher speed. The vast majority of Pokemon land in the middle of the pack, increasing their viability over their catridge counterparts greatly. The primary way attacks are balanced is that each attack has a Base Attack Power and an Energy Cost. Weaker attacks have low energy costs while stronger attacks, stat boosters, and some of the more unique attack effects have higher costs. Same Type Attack Bonus (STAB) also functions differently than in the cartridge, adding three damage to an attack of the same type and reducing it's Energy Cost by one. The additive rather than multiplicative effect of STAB means weaker attacks with side effects can be more attractive than attacks that have higher Base Attack Power. This creates a larger focus on tactical play than just spamming the strongest attacks.</p>
+
+<p>A balance element specific to stat boosters and drops is that Pokemon revert back to their "normal" stage over time. Additionally, stat boosters and drops have the shortest durations when used on the first action and the longest duration when used on the second action. Boosters and drops recieved on the third action have no effect that round and instead apply at the start of the next round. What this means from a practical perspective is the "best" time to use a move like Close Combat or Draco Meteor is on the first action since their negative effects reduce by a stage at the end of that round, while the best time to use a stat booster is the second or third action of a round to maximize its positive duration.</p>
+
+<p>The system itself is on the whole a lot more offensive, and is designed so that the average KO takes 3-5 rounds of alternating sets of three attacks. The player who attacks first is allowed a substitution command (which can be one or all of its actions) to address potential actions the player who attacks second might make. The greater focus on offense combined with variation in the "best" time to issue a certain attack makes attacking second a great advantage to have, as you can more effectively circumvent your opponent's strategy.</p>
+
+<p>The most important balance element, at least in respect to other Anime Style Battling Leagues, is that attacks are learned progressively through battle, rather than becoming usable immediately. Thus, not every Pokemon starts with Toxic, Protect, Facade, Endure, etc. Instead they must be learned by battling with that Pokemon and earning KOs. Additionally, because the ASB is based in the 5th Generation, the easiest moves to get are Level-Up Moves and 5th Generation TMs. There are however no illegal Egg combinations, and a Pokemon can learn every move it has ever learned from every generation. This evens out one of the problems with many ASB Leagues, where being from an earlier generation was an inherent advantage. While it still would be with infinite time and resources, older generations of Pokemon start on the same playing field as 5th Generation Pokemon. The starting package of a Pokemon is every Level-Up move from every generation up through Level 25, 3 Egg Moves, and 3 BW TMs. Otherwise, Levels are not referenced anywhere in the game.</p>
+</div>
+
+<div class="speaker cartoons"><img src="http://cap.smogon.com/Sprites/frontnormal-mfidgit.png" alt="Fidgit" />
+<h2>Game Progression:</h2>
+
+<p>The game was originally designed to be slower paced, with a greater focus on spacing, reading your opponents, and just general mind games. In light of the recent combo video, it would have seemed to have veered a little off course over the past couple of years.</p>
+
+<p>What I've found, though, is that although the average match between two average players (to which group I belong) tends to amount to a lot of flailing aggression and whiffed combos, higher level play begins to look a lot like what I'd envisioned from the beginning. That is, two players measuring each other up, playing with a good mix of respectful caution and bursts of momentum, basically, all the things a 'legit' fighter make.</p>
+</div>
+<div class="speaker deck"><img src="http://cap.smogon.com/Sprites/frontnormal-mcyclohm.png" alt="Cyclohm" />
+<h2>Game Progression:</h2>
+
+<p>CAP ASB is designed to be much more progressive based on the Pokemon rather than the trainer. Basically, you build up your starting Pokemon first, and once they have a decent enough number of moves for their strategy, then might you consider getting another Pokemon. Additionally, the shops and Role-Playing offer additional opportunities outside of battling to increase the strength of your Pokemon. These are still in development as of this writing, but suggestions are welcome for those willing to work through an idea and make a worthwhile experience.</p>
+
+<p>Battling prowess increases over time. The stat-boosting system alone is an element that takes time to master, as well as being aware of your opponents attacks and all the strategies, normal and unorthodox, that they might utilize. As the league is based on Anime Style Battling, many moves can be used for functions other than their intended purpose or cause effects on an attack more in line with real physics than the catridge engine. For example getting Earthquaked during Dig is not a pleasant experience and can throw off the Pokemon's aim if it is close to the target.</p>
+</div>
+
+<div class="speaker cartoons"><img src="http://cap.smogon.com/Sprites/frontnormal-mfidgit.png" alt="Fidgit" />
+<h2>Battle Capacity Conclusion:</h2>
+
+<p>I owe most of what the game has become over time to the player base, whose matches I have scrutinized for hours in order to tweak the game a little closer to an idealized equilibrium. I've consulted for their opinions often and stolen ideas no less than once. In the end, BatCap, much like the project that fathered it, is community driven and relies on the input of many, filtered through a single obsessive mind. Although the game has been in a great state of flux over the months, it is approaching stability, and one can look forward more to the addition of new characters rather than new mechanics or game changing balances in the future.</p>
+<p>~Cartoons!</p>
+</div>
+<div class="speaker deck"><img src="http://cap.smogon.com/Sprites/frontnormal-mcyclohm.png" alt="Cyclohm" />
+<h2>CAP ASB Conclusion:</h2>
+
+<p>CAP ASB is very young and only recently had its release. It's still looking for new talent and is happy to register new members. Come join us and find out what we're all about, and in doing so, join one of the best role-playing and battling experiences I've enjoyed in a long time. Smogon has everything you could want in a player base of this game, and as its designer, I'm happy to take suggestions on how to make it even better.</p>
+
+<p>So get out there and let's make this new game one of our new social draws.</p>
+<p>~Deck Knight</p>
+</div>
+</div>
+
+<table id="smogfooter">
+<tr>
+<td class="left"><a href="teamrating">&laquo; Previous Article</a></td>
+<td class="middle"><a href="/smog/issue14/">Home</a></td>
+<td class="right"><span class="inactive-link">Next Article &raquo;</span></td>
+</tr>
+</table>

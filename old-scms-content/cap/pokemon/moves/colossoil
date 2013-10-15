@@ -1,0 +1,97 @@
+[title]
+Colossoil
+[head]
+<link rel="stylesheet" type="text/css" href="/media/dex/dex.css" />
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_template.js"></script>
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_database.js"></script>
+[header]
+[page]
+<script language="JavaScript">
+var cap = Colossoil();
+
+cap.movesLevel[0] = ["Leer", "Peck"];
+cap.movesLevel[6] = "Horn Attack";
+cap.movesLevel[11] = "Bite";
+cap.movesLevel[17] = "Rapid Spin";
+cap.movesLevel[22] = "Body Slam";
+cap.movesLevel[29] = "Pursuit";
+cap.movesLevel[35] = "Bounce";
+cap.movesLevel[42] = "Magnitude";
+cap.movesLevel[48] = ["Stockpile", "Swallow", "Spit Up"];
+cap.movesLevel[55] = "Crunch";
+cap.movesLevel[63] = "Megahorn";
+cap.movesLevel[70] = "Horn Drill";
+
+cap.movesTM[5] = "Roar";
+cap.movesTM[6] = "Toxic";
+cap.movesTM[10] = "Hidden Power";
+cap.movesTM[11] = "Sunny Day";
+cap.movesTM[12] = "Taunt";
+cap.movesTM[15] = "Hyper Beam";
+cap.movesTM[17] = "Protect";
+cap.movesTM[18] = "Rain Dance";
+cap.movesTM[21] = "Frustration";
+cap.movesTM[23] = "Iron Tail";
+cap.movesTM[26] = "Earthquake";
+cap.movesTM[27] = "Return";
+cap.movesTM[28] = "Dig";
+cap.movesTM[31] = "Brick Break";
+cap.movesTM[32] = "Double Team";
+cap.movesTM[37] = "Sandstorm";
+cap.movesTM[42] = "Facade";
+cap.movesTM[43] = "Secret Power";
+cap.movesTM[44] = "Rest";
+cap.movesTM[45] = "Attract";
+cap.movesTM[49] = "Snatch";
+cap.movesTM[58] = "Endure";
+cap.movesTM[63] = "Embargo";
+cap.movesTM[66] = "Payback";
+cap.movesTM[68] = "Giga Impact";
+cap.movesTM[71] = "Stone Edge";
+cap.movesTM[78] = "Captivate";
+cap.movesTM[79] = "Dark Pulse";
+cap.movesTM[80] = "Rock Slide";
+cap.movesTM[82] = "Sleep Talk";
+cap.movesTM[83] = "Natural Gift";
+cap.movesTM[87] = "Swagger";
+cap.movesTM[89] = "U-turn";
+cap.movesTM[90] = "Substitute";
+
+cap.movesHM[4] = "Strength";
+cap.movesHM[6] = "Rock Smash";
+
+cap.movesEgg = [
+	"Double-Edge",
+	"Encore",
+	"Fake Out",
+        "Fire Fang",
+	"Fissure",
+	"Flail",
+	"Horn Drill",
+	"Sand Tomb",
+        "Screech",
+        "Sucker Punch",
+	"Thunder Fang"
+        
+];
+
+cap.movesTutor = [
+"AncientPower",
+"Aqua Tail",
+"Body Slam",
+"Bounce",
+"Double-Edge",
+"Dive",
+"Earth Power",
+"Knock Off",
+"Mimic",
+"Mud-Slap",
+"Rollout",
+"Snore",
+"Sucker Punch",
+"Superpower"
+
+];
+
+document.write(composeMovesPage(cap));
+</script>

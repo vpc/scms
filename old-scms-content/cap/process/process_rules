@@ -1,0 +1,75 @@
+[title]
+Process Rules
+[page]
+<ol class="toc">
+<li><a href="#submission">Submission Threads</a></li>
+<li><a href="#polling">Polling</a>
+<ul>
+<li><a href="#irv">Instant-Runoff Voting</a></li>
+<li><a href="#bold">Bold Voting</a>
+<ul>
+<li><a href="#mbold">Multiple Bold Voting</a></li>
+</ul></ul></li>
+<li><a href="#ties">Ties</a></li>
+</ol>
+
+<h2><a name="submission">Submission Threads</a></h2>
+
+<p>Prior to the polling step of each stage of CAP, a submission and discussion thread is put up for that stage. In these submission threads, which are typically open for an extended period of time, users may submit their entries for that stage of the CAP and discuss other users' entries. Users may make suggestions for the submitters to consider and they may state which submission they favor the most and why. General think-tanking is encouraged in these threads, as all discussion is to further the quality of the CAP being created. All posts in the submission threads must be fully substantiated with reasoning, otherwise they are liable to be deleted and given a warning by a CAP forum moderator. It is up to the discretion of the CAP's Topic Leader and Topic Leadership Team (TL+TLT) to interpret the content of a submission and discussion thread. In the case of submissions, it is the appropriate Section Leader who decides which submissions move on to the polling stage. The Section Leader will use the rules and his or her own knowledge of the metagame, the CAP, and his or her expectations of the CAP to make this decision.</p>
+
+<h2><a name="polling">Polling</a></h2>
+
+<p>There are three polling styles that get used in CAP.</p>
+
+<ul>
+<li>Instant-Runoff Voting (IRV)</li>
+<li>Bold Voting</li>
+</ul>
+
+<p>IRV is used in polls where there are more than three options in the poll. Bold voting is used when there are three or fewer options remaining. In most cases, IRV will be used first to cut down on the numerous entries in the first poll and then bold voting will be used to select the final winner. Both of these polling options were decided on by the community over others for their resilience to poll manipulation and speed with which they work. All polls are to be open for at least 24 hours so that users from all time zones have the chance to vote. Do not post the current tally for votes in a thread; it will be determined at the end and part of what makes these polls resistant to manipulation is not knowing. Keep in mind that a Section Leader is permitted to adjust the rules presented below in certain situations. For instance, the Section Leader may choose to move more than three entries from the IRV stage to the bold vote stage, or may choose to eliminate the two lowest-scoring entries in a bold vote.</p>
+
+<h3><a name="irv">Instant-Runoff Voting</a></h3>
+
+<p>IRV is a voting style that constantly eliminates the last place contestant until one of the entries in the poll has a majority of the votes. If this brief overview is still confusing, it may be worth it to consult <a href="http://en.wikipedia.org/wiki/Instant_Runoff_Voting">Wikipedia</a>'s in-depth entry on IRV. IRV typically is designed to yield a single winner, but can be easily tailored to yield multiple winners. For CAP, the first winner is chosen based on the IRV method, and then that winner's votes are removed from the system. Once that winner's votes are removed, the system applies IRV again to determine a second winner. This repeats until three of the entries to the poll have been selected. It is possible for an entry to win the stage entirely if it receives more than 50% of the total votes within the top three entries.</p>
+
+<p>The votes for IRV are cast as posts in the poll thread; there is no actual click poll applied to the thread. In order to vote, users will rank from most preferred to least preferred as many poll entries as they choose to rank. This means that if there are five entries in the poll and the user only wants to vote on three of them, he may do that. An example vote is shown below:</p>
+
+<div style="border: solid 1px #adadad; background-color: #ededed; padding: 10px; margin: 10px;">
+<p><strong>Most Preferred<br />
+Second Most Preferred<br />
+Third Most Preferred</strong></p>
+
+<p>Any comments that the voter has would go below the votes in non-bold text. Bold text is used to determine what the user's votes are, so none of the supplementary text should be in bold.</p>
+</div>
+
+<h3><a name="bold">Bold Voting</a></h3>
+
+<p>Bold voting is where each voter chooses a single entry in the poll of however many are left for their single vote. This system is straightforward in that the entry with over 50% of the total votes is the stage winner, in which case no further polls are needed. If no entries have over 50% of the total votes, the entry with the least number of votes at the end of the poll is eliminated and another bold vote poll is posted. Eventually, when there are only two entries left, one will always have over 50% of the total votes. This may not be true for ties, however unlikely they are, but CAP has means of handling ties as explained below. An example vote is provided below:</p>
+
+<div style="border: solid 1px #adadad; background-color: #ededed; padding: 10px; margin: 10px;">
+<p><strong>My Preferred Entry</strong></p>
+
+<p>If the voter wishes, he may post comments on his vote below the actual vote. As with IRV, only the vote itself should be bold and none of the supplementary text should be bold.</p>
+</div>
+
+<h4><a name="mbold">Multiple Bold Voting</a></h4>
+
+<p>A variant of bold voting exists and is used for specific polls in CAP. This variant of bold voting is, in principle, the same as standard bold voting except that you vote for <em>as many</em> entries as you want. You may vote for four of four entries if you like them all, or you may vote for one or two of those four entries if you only like those few. This strategy is typically better than IRV for determining the rank of entries between first and last place for polls with very large submission numbers. This is generally only ever used for the first art poll and the first sprite poll, but may be used for more polls at a Section Leader's discretion. Also, if there are six (6) or fewer entries in a given poll that would use multiple bold voting, IRV will work just as well because there are insufficient entries for multiple bold voting to make a difference. An example vote is provided below:</p>
+
+<div style="border: solid 1px #adadad; background-color: #ededed; padding: 10px; margin: 10px;">
+<p><strong>First Entry I Like<br />
+Second Entry I Like<br />
+Third Entry I Like<br /></strong></p>
+
+<p>If the voter wishes, he may post comments on his vote below the actual vote. As with IRV or normal bold voting, only the votes themselves should be bold and none of the supplementary text should be bold.</p>
+</div>
+
+<h2><a name="ties">Ties</a></h2>
+
+<p>Ties, however unlikely, are handled in a few ways for CAP. At the IRV stage where there are more than three entries, a tie for any of the three winning places results in both of the tied entries moving forward. If a tie occurs in the bold voting step of the poll where a winner would be decided or where an entry would be eliminated, any or all of the following criteria will be used by the Section Leader to decide who the final winner is.</p>
+
+<ul>
+<li>The number of votes received in the single most recent previous poll</li>
+<li>The sum total of all previous votes received in previous polls</li>
+<li>The Section Leader's choice</li>
+</ul>

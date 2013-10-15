@@ -1,0 +1,328 @@
+[Title]
+A Beginner's Guide to Trick Room
+
+[Head]
+<link href="/media/smog/smog-articles.css" type="text/css" rel="stylesheet" />
+
+[Page]
+<div class="author">By <a href="/forums/members/34584/">lucariojr</a>. Art by <a href="/forums/members/73434/">Bummer</a>.</div>
+<table id="smogheader">
+    <tr>
+        <td class="left"><a href="nuteambuilding">« Previous Article</a></td>
+        <td class="middle"><a href="/smog/issue30/">Home</a></td>
+        <td class="right"><a href="dragonsofru">Next Article »</a></td>
+    </tr>
+</table>
+
+<h2>Introduction</h2>
+
+<p>
+    To begin, Trick Room is a Psychic-type move that affects all Pok&eacute;mon on the field. For five turns (the first of which is spent on the same turn Trick Room is used, effectively making Trick Room's duration 4 turns), slower Pok&eacute;mon move before faster Pok&eacute;mon. This, along with the fast-paced nature of the doubles format, has given rise to teams centered around this move.
+</p>
+
+<p>
+    So why use Trick Room? The answer is more complex than one would think. If you know anything about Doubles (and you should because I'm writing this under the assumption that you do), you know that Speed control is an incredibly important factor and that the main forms of Speed control are Thunder Wave, Tailwind, and Icy Wind, all of which are rendered useless and/or detrimental by Trick Room. Even if you didn't know that, the proposition of using a Snorlax with an almost unmatched Speed stat along with astounding bulk and Attack should be incentive enough to use Trick Room. The combination of bulk, power, and virtual immunity to Speed control makes Trick Room a dominant force in the metagame and can mean faster, more unprepared teams will basically automatically lose against them.
+</p>
+<img class="float-right" src="/media/upload/smog/issue30/trickroom.png" alt=""/>
+<p>
+    As for me, I've been using Trick Room in some shape or form since VGC 2009, and have made top cut in two official events with teams featuring the move, and at least got upwards of 16th place (small top cuts are the bane of 6-2-ers' existence) in other events where I used Trick Room. I've seen teams on the Smogon Doubles ladder and on GBU that feature Trick Room, but I can't help but feel that the majority of those teams aren't tapping Trick Room's full potential. Hopefully this guide will help you, an aspiring Trick Room enthusiast, to build stronger and more able Trick Room teams. I would like to note however, that this guide will slant toward Smogon's Doubles metagame since I'm writing this for the Smog and I'll be focusing on full Trick Room teams, but hopefully this guide will be of use to my fellow VGC players as well.
+</p>
+
+<h2>The Mindset</h2>
+
+<p>
+    Like any team with a core strategy, you should have a goal in mind for your Trick Room team. Obviously, an important goal for Trick Room teams is to successfully set up Trick Room once or twice within a match, but to say that should be your only goal would be, to put it bluntly, stupid. Unfortunately this is something that some people tend to do, but I'll discuss this in further detail and give a few tips on how to avoid this later. The second goal of Trick Room should be to take advantage of the reversed turn order. Remember that moving first doesn't really matter when you can't do anything while you're there. How these goals are executed may vary from team to team, but these are the main lessons to be learned here.
+</p>
+
+<p>
+    And now to clear up any misconceptions you might have about Trick Room teams. The first is that when your opponent sees a lot of slow Pok&eacute;mon and a potential Trick Room user (such as Jellicent or Cresselia) on Team Preview, they can and will lead with their Trick Room counters, if any. This means that <strong>if you think you're just going to waltz into every single game you play and flawlessly set up Trick Room, you've got another thing coming.</strong> No matter how well-built your team is, chances are that someone on the ladder will eventually have something that completely screws up your setup, especially when one of your main goals is plainly obvious to a trained eye.
+</p>
+
+<p>
+    The second is that you're going to forgo a fast mode that you might be used to if you've ever used Drizzle or Sand Stream based teams. This one's sort of obvious, but let's examine what "fast mode" means. A fast mode is, by my personal definition, a Pok&eacute;mon combo that can single-handedly dominate lower-end teams and immediately pressure higher-end ones. Against lower-end teams, a fast mode minimizes the amount of hax involved because Pok&eacute;mon are dropping left and right, making it a great, consistent laddering tool. Against higher-end players, you pressure their setup with a lead of an immediately fast and powerful duo of Pok&eacute;mon such as ZapChomp or Double-Genie. That all sounds well and good (in fact, I might've described one of your teams), but the point is that with Trick Room, <strong>you will not have the comfort of a fast mode.</strong> This basically means that your team will be somewhat susceptible to hax (and therefore less consistent for laddering), and that your team will not be applying immediate pressure. You'll still win against the average Joe of course, but don't get too mad when you get a double freeze or your Trick Room user hits itself in confusion.
+</p>
+
+<p>
+    The third isn't so much a misconception but a point I would like to make regardless: <strong>time is not on your side.</strong> As previously mentioned, you have four turns to work with once Trick Room goes up, and this is assuming your opponent doesn't spam Protect. I hope this is obvious by now, but in case it isn't, you had better have a plan of what to do once you get Trick Room up. This is part of the reason why Trick Room can be inconsistent at times: you're probably going to forgo safer options like Flamethrower in favor of immediate power from Fire Blast because safe options usually "only" net 2HKOes, which isn't very effective due to your time constraints. Normally, I'm the kind of guy that will choose Flamethrower, but when you've got a lot to do and little time to do it, you have to go big or go home.
+</p>
+
+<h2>Trick Room Users</h2>
+
+<p>
+    Hopefully I didn't scare people off with that last section, because now we get down to the fun part: the Trick Room users. These Pok&eacute;mon are the lifeblood of your team, and you would do well to get to know their strengths and weaknesses. First thing you should know is that there are two types of Trick Room users; offensive Trick Room and defensive Trick Room. For simplicity's sake, I'll group them in two different mini-sections, but know that some Pok&eacute;mon can take on different roles, such as bulky Chandelure and offensive Jellicent.
+</p>
+
+<h4>Offensive Trick Room</h4>
+
+<p>
+    Key qualities of offensive Trick Room users are 1. the ability to use Trick Room, 2. high base attacking stats and/or access to useful STAB moves that often exceed 100 Base Power, and 3. a (relatively) short life-span. Don't let the last point deter you though, as offensive Trick Room users are incredibly useful to conserve team slots for other functions.
+</p>
+
+<img class="sprite" src="/download/sprites/bw/639.png" alt=""/> <img class="sprite" src="/download/sprites/bw/480.png" alt=""/>
+<p>
+    I'll start off this list by admitting that although Chandelure and Gallade are two of my favorite Pok&eacute;mon, I can be completely serious when I say that they are perhaps the most capable offensive Trick Room users because of their useful STABs and/or access to neat tools like Feint and Imprison. These two should be used at the start of the match to set up Trick Room and deal massive damage to the opponent while offing themselves early to keep the ball rolling with a fresh Trick Room user or another sweeper. These two should hold Focus Sashes to offset their weaknesses to spread moves such as Earthquake and set Trick Room up more consistently, though Gallade does have enough Special Defense to take Muddy Water and Blizzard relatively well. You really need to watch out for Tyranitar and Abomasnow since these Pok&eacute;mon hold Focus Sashes though, as opponents can simply Protect to break Focus Sashes or nab an easy KO with their passive weather damage. Additionally, while Gallade's Close Combat is stronger than that of most Terrakion, its Fighting-type and coverage can prove redundant with a fair few Fake Out users that I'll introduce later. Overall, though, Gallade and Chandelure are the epitome of efficient Trick Room. You shouldn't expect them to set up Trick Room more than once and it would be a mistake to play them conservatively unless you need them to KO a Ferrothorn or a similar Pok&eacute;mon later.
+</p>
+<img class="sprite" src="/download/sprites/bw/609.png" alt=""/> <img class="sprite" src="/download/sprites/bw/199.png" alt=""/>
+<p>
+    Reuniclus and Slowking are more dependable than the last two, and they more closely resemble the definition of a defensive Trick Room Pok&eacute;mon. Both sport base 30 Speed, tying with Amoonguss, and have a few useful moves they can safely spam to abuse their own Trick Room. My personal problems with these two are the fact that Reuniclus has basically only Focus Blast to rely on for coverage (I'm all for power over accuracy but 70% isn't worth it regardless) and that Slowking has trouble dealing the huge amounts of damage I'm used to with Gallade and Chandelure since its STAB moves don't exceed 90 Base Power. Having said that, however, their access to instant recovery, decent bulk, and consistent methods of dealing damage add up to reliable Trick Room leads that aren't dead weight when their partner goes down.
+</p>
+<img class="sprite" src="/download/sprites/bw/486.png" alt=""/><img class="sprite" src="/download/sprites/bw/522.png" alt=""/>
+<p>
+    These two are rather odd choices, but they fit the definition of offensive Trick Room very well. Mesprit has great coverage with Thunderbolt, Blizzard, Grass Knot, and Ice Beam to compliment its respectable base 105 Special Attack, and has Levitate to help your team synergy should you be using an Earthquake user, not to mention its great 80 / 105 / 105 defenses and an good typing. Victini is frailer given its typing and weakness to Earthquake and Rock Slide, but this is mostly offset by V-create, a move that, like Hammer Arm, effectively grants Victini a Speed boost&mdash;though I will say that you shouldn't rely too heavily on it to outspeed some threats like Tyranitar. Both Victini and Mesprit can swap roles by using their extensive physical and special movepools, which only adds to their versatility. Really, the only downside to using these two is that Mesprit doesn't have a nuke like Victini does and Victini can be a tad too fast and frail (at least, without a Focus Sash) for my liking at times.
+</p>
+
+<h4>Defensive Trick Room</h4>
+
+<p>
+    Defensive Trick Room users are depended on to set up Trick Room more than once, but unlike offensive Trick Room users, they probably don't have many options to deal damage with, and instead focus solely on support. With the exception of Jellicent and Slowbro (who are on this list for reasons I'll get to later), don't expect them to OHKO anything important, but rely on them for backup and/or consistent Trick Room setup.
+</p>
+
+<img class="sprite" src="/download/sprites/bw/493.png" alt=""/> <img class="sprite" src="/download/sprites/bw/356.png" alt=""/>
+<p>
+    These two are the bulkiest Trick Room Pok&eacute;mon you'll see in Doubles. Really though, Cresselia is the bigger threat here, but I'm including Dusclops for completion's sake and to illustrate how easily both Pok&eacute;mon are shut down by Taunt. I see many people run Night Shade on their Dusclops to avoid being total Taunt bait, but that isn't a good idea seeing as Dusclops is already total Taunt bait. Cresselia runs Psyshock because it can actually 2HKO Fighting-types (and sometimes Ice Beam for Dragon coverage, which is more effective than you'd think), and being able to do something while Taunted is a plus. Both of these Pok&eacute;mon often use Helping Hand to maintain offensive pressure through their partners or defensive moves like Light Screen and Will-O-Wisp to increase their chances of setting up Trick Room again or simply allow their partners to survive select hits. When using both of these Pok&eacute;mon, just be aware that they're going to be the first thing someone Taunts, regardless of what team they're on, and adjust your support Pok&eacute;mon accordingly.
+</p>
+
+<img class="sprite" src="/download/sprites/bw/442.png" alt=""/> <img class="sprite" src="/download/sprites/bw/200.png" alt=""/><img class="sprite" src="/download/sprites/bw/493.png" alt=""/>
+<p>
+    Levitating Trick Room support is very useful when you're planning on using Pok&eacute;mon such as Rhyperior and Marowak to spam powerful Earthquakes, especially when many Flying-types hover around base 100-120 Speed, which can be a little fast for Trick Room. Levitate also bolsters their defensive capabilities since they can't be easily double targeted through Follow Me via Earthquake and another spread move, which is minor, but a point in their favor regardless. Misdreavus is probably the one you're skeptical about, so I'll give it to you straight: Misdreavus is the only Levitating Ghost-type below base 100 Speed that learns Trick Room, and has roughly the same bulk as Cresselia. Its Ghost typing also means that it is immune to Fake Out, which is a definite plus, but lack of reliable recovery due to the mandatory Eviolite does hurt it defensively, especially when it's weak to Tyranitar.
+</p>
+
+<img class="sprite" src="/download/sprites/bw/546.png" alt=""/> <img class="sprite" src="/download/sprites/bw/606.png" alt=""/>
+<p>
+    Useful niche abilities are enough to consider a Pok&eacute;mon (just look at Misdreavus), especially if their stats are perfect for Trick Room purposes. Musharna is your typical bulky Psychic with lots of supportive moves and neat ability in Telepathy. While Telepathy's usefulness is fairly obvious to combo with Surf and Earthquake (the 'and' is the main selling point, in fact) even after Gravity, Gothitelle can be rather situational. While Shadow Tag isn't by any means bad, it isn't as good as one would hope since many people will send out their anti-Gothitelle Pok&eacute;mon when they see it in Team Preview should you lead with it. Therefore, it's probably best to surround Gothitelle with offensive Pok&eacute;mon to take advantage of trapped Pok&eacute;mon, and load Gothitelle up with supportive moves such as Light Screen to make your own switches safer.
+</p>
+
+<img class="sprite" src="/download/sprites/bw/623.png" alt=""/><img class="sprite" src="/download/sprites/bw/80.png" alt=""/>
+<p>
+    This last group of bulky Trick Room setters could've fit in with the offensive Trick Room crowd, but honestly when I consider them, it's mostly for their defensive qualities. Slowbro's higher Defense makes it slightly better at dealing with Tyranitar than its regal brother Slowking, but otherwise it's the same, and I'm listing it here largely because I know people will ask about it if I don't. Jellicent on the other hand is one of a kind; it can set up Trick Room, is immune to Fake Out, and can wall Politoed + Kingdra combinations with Recover. In fact, I'd say Jellicent is the only Pok&eacute;mon with an instant recovery move not named Rest that's actually good and that I would highly recommend using in Doubles, and I say that in full knowledge of Gastrodon's existence. Recover goes so well with its typing, Cursed Body (Water Absorb isn't very useful since it already resists Water moves, and I can't good conscience condone Surf spam,) and of course Water Spout. Water Spout is the main reason I would even consider listing it with the likes of Chandelure, as it is a powerful STAB 112 Base Power move that hits both opponents, which will still hurt even though Jellicent has only a base 85 Special Attack. Even if you don't invest fully in your Special Attack, nothing particularly enjoys a STAB 100+ Base Power move, especially if you can get it backed by Drizzle. Overall though, you should use Jellicent (and Slowbro I suppose) for its defensive qualities and Recover, though Protect is still a very viable option.
+</p>
+
+<h4>Honorable Mentions</h4>
+
+<p>
+    I'm adding these in mostly because I have some fond memories using them, but I probably wouldn't use them in a serious competition. They might have a place in (our hearts) a team that somehow requires their niche, and I would love to see one of these Pok&eacute;mon in a top match in a serious tournament, aside from Exeggutor and Solrock, which have already done so. I'm not telling you to steer clear of these Pok&eacute;mon or use them; just be aware of their existence.
+</p>
+
+<img class="sprite" src="/download/sprites/bw/575.png" alt=""/>
+<p>
+    Endeavor and an outmatched Speed in Trick Room at level 1 is a cute combination. Cuteness alone never won any battles though, especially when you consider the fact that Whimsicott's Focus Sash is readily broken by sandstorm or hail damage, or even double-targeting. Level 1 Trick Room Whimsicott can still be very punishing for unprepared teams, but the problem lies in the fact that most teams are in fact prepared, so Whimsicott is essentially relegated to trolling people that are lower on the ladder or that snotty kid you met on the bus that boasts about his level 255 Mewtwo.
+</p>
+
+<img class="sprite" src="/download/sprites/bw/338.png" alt=""/>
+<p>
+    Solrock is one of those Pok&eacute;mon I would use in a heartbeat if it had better stats. STAB Stone Edge to take care of Thundurus and Zen Headbutt for Amoonguss and Hitmontop are very appealing, not to mention its access to Sunny Day and Helping Hand. It's a shame it's stuck with its mediocre 70 / 85 / 65 defenses; it's actually a cool Pok&eacute;mon otherwise.
+</p>
+
+<img class="sprite" src="/download/sprites/bw/233.png" alt=""/>
+<p>
+    Porygon2 seems like a pretty cool quack. It's got an Eviolite defensive boost, the BoltBeam combination to deal damage with, and of course Trick Room. The reason why it's never used, however, is because Fighting-types and Fighting-type moves are common due to their great coverage and high Base Power, which undermines its defenses and makes it outclassed by just about every Psychic-type Trick Room user defensively. Also, the fact that it has no useful STAB moves over 100 Base Power undermines its useable base 105 Special Attack. In essence, Porygon2 would be a good Pok&eacute;mon if Cresselia and Musharna didn't exist. Maybe it'll have better luck in Gen 6 when/if Doubles UU is established.
+</p>
+
+<img class="sprite" src="/download/sprites/bw/103.png" alt=""/>
+<p>
+    You might remember Exeggutor from Wolfe Glick's Worlds '12 team. You may also remember, however, that his Exeggutor did not have Trick Room. While Power Swap may be rather clunky when you're trying to abuse twisted dimensions, Exeggutor is capable of OHKOing 252/0 Tyranitar in the sand with a boosted Leaf Storm thanks to its great base 125 Special Attack, which isn't something many Pok&eacute;mon can boast. Harvest combined with Sitrus Berry also makes it incredibly hard to take down without STAB super effective moves, especially in the sunlight, though it isn't required if you're using Protect. With a whole slew of great moves to choose from, consistent recovery thanks to Harvest, and an attractive Special Attack stat, not to mention its impressive resume, Exeggutor would certainly be a Pok&eacute;mon worth having on all of your Trick Room teams, right? Well, the main reason it's not used (or at least the reason I don't use it) is because of its poor Special Defense and only decent physical Defense, along with a long list of common weaknesses, most notably Bug (Scizor), Flying (Tornadus and Thundurus), and Dark (Tyranitar). Offensively, outside of weather teams, Grass isn't all that impressive as a main STAB move as it's easily resisted by common Follow Me users such as Jirachi and Amoonguss. It still has potential, but it certainly doesn't belong on most teams.
+</p>
+
+<h2>Trick Room Support</h2>
+
+<p>
+    If Trick Room users are the lifeblood of Trick Room teams, then their supporters are like white blood cells. Like the split between defensive and offensive Trick Room users, these supporters are typically one of the two, with Follow Me being more defensive and Fake Out being more offensive. If it isn't clear by now, you should have at the very least one of the Pok&eacute;mon listed here on your team if you want to win with Trick Room, no questions asked. I know what you're thinking though; you want to be a cool guy and only use underused, under-the-radar kind of Pok&eacute;mon and your first reaction will be to disregard this advice because I said you have to do it. Never fear, Pok&eacute;-hipsters, as many of these Pok&eacute;mon are pretty underground to begin with (at least by singles standards), you should have no problems winning in style.
+</p>
+
+<h4>Fake Out</h4>
+
+<p>
+    Fake Out is a Normal-type move that, if used on the first turn, has +3 priority (the same as Follow Me; remember this because it's important), and has a guaranteed flinch. The goal of many of these Fake Out users is to incapacitate a Pok&eacute;mon long enough for Trick Room to go up, because even if they don't have Taunt, they can gang up on the Trick Room user and not many Pok&eacute;mon can take more than one super effective hit on the same turn. Fake Out users should have something to do after they've burnt their Fake Out turn, even if it's just status spreading.
+</p>
+
+<img class="sprite" src="/download/sprites/bw/297.png" alt=""/>
+<p>
+    Hariyama has it made. It's the best Guts user in Doubles (Conkeldurr is better off with Iron Fist and Heracross with Moxie), has STAB Close Combat to maul everything, and has good coverage with Ice Punch and Stone Edge. Even with Toxic Orb eating away at its health, Hariyama is capable of surviving Tornadus's Acrobatics (after it consumes its Gem of course) with health to spare for the first turn of poison, along with several other common moves as long as Hariyama hasn't used Close Combat first, which is likely but unavoidable when you're using such a powerful wrecking ball such as Hariyama. Really, I don't have anything bad to say about it other than the fact that Cresselia walls and mauls it with Psychic, and it's pretty ugly in my honest opinion.
+</p>
+
+<img class="sprite" src="/download/sprites/bw/237.png" alt=""/> <img class="sprite" src="/download/sprites/bw/590.png" alt=""/>
+<p>
+    Now that I'm neck-deep in this article, I can't help but think that one of the reasons I like Trick Room so much is because many of my favorites are viable inside it. Regardless though, Hitmontop and Scrafty are two very similar Pok&eacute;mon; they are both very good users of Fake Out and have Intimidate. Their similarities frequently spawn discussions on their differences, which goes to show that you really can't go wrong with either of them. I'll make this short for you though: Hitmontop is used for its Fighting Gem-boosted Close Combat and access to useful tech moves such as Helping Hand, Feint, and Wide Guard, while Scrafty is used for its bulk, longevity thanks to Drain Punch, and STAB Crunch&mdash;with which it can deal with Cresselia with relative ease. Hitmontop is more popular because it synergizes much more easily with more teams, but in my honest opinion (and not just because it's one of my favorites), Scrafty is probably the better Trick Room Pok&eacute;mon, even though I've harped on about how crucial it is for a Trick Room Pok&eacute;mon to have a STAB move over 100 Base Power. STAB Crunch is very useful to deal with the Cresselia that frequently threaten your Trick Room, and its longevity helps ensure more than one Trick Room setup. Really though, the choice depends on your team. If you're using one, it won't hurt to try the other for a while. You might be pleasantly surprised.
+</p>
+
+<img class="sprite" src="/download/sprites/bw/115.png" alt=""/>
+<p>
+    Kangaskhan is really only used for its Scrappy Fake Out, which isn't particularly useful in my opinion, but Fake Out is still Fake Out. People often try to make Kangaskhan bulky with Drain Punch or waste their time with Sucker Punch, but really you should be playing Kangaskhan for Helping Hand and Ice Punch. Double-Edge is also a good move because it has a good chance of KOing bulky Thundurus after a Fake Out. In any case, Kangaskhan should be dealing damage or using Helping Hand or Fake Out at all times. When XY is released (you really can't avoid talking about it this close to launch, can you?), Mega Kangaskhan will likely be a force to reckon with, especially with the ability to use two Rock Slides, provided its Mega Stone is available without an event and there aren't too many other Mega Fake Out Pok&eacute;mon.
+</p>
+
+<img class="sprite" src="/download/sprites/bw/272.png" alt=""/> <img class="sprite" src="/download/sprites/bw/302.png" alt=""/>
+<p>
+    Sableye and Ludicolo are mainly added as Fake Out users to check certain threats. Ludicolo is a very good rain check, although it has a hard time against Thundurus. Sableye has its own problems with Thundurus, which will often Taunt Sableye before it Taunts back, effectively shutting down its main options. Sableye gets bonus points for comboing with Chandelure and Guts Pok&eacute;mon such as Hariyama due to Will-O-Wisp's ability to hit your partner Pok&eacute;mon as well as your opponent's, activating Chandelure's Flash Fire and Hariyama's Guts, assuming it isn't already holding a Toxic Orb. Both of these Pok&eacute;mon don't deal much damage (in one turn), so they're probably best used alongside offensive Trick Room setters.
+</p>
+
+<h4>Follow Me / Rage Powder</h4>
+
+<p>
+    Follow Me is another Normal-type move that redirects single-target moves to the user. With that description, I hope you've already figured out the applications of this in terms of Trick Room support. Redirecting Taunt and moves that can OHKO your Trick Room user is extremely useful, but before you go slapping a Togekiss on your team, consider type synergy, as well as factors I'll list with each Pok&eacute;mon. You don't want to overlap types weaknesses, such as by using Togekiss and Jellicent together, as the opponent can simply use a single super effective move without much risk involved, and you don't want to get stuck with two defensive Pok&eacute;mon on the field at a given moment with no way to economically spend your four turns of Trick Room. And, for future reference, the move Rage Powder has the same effect as Follow Me, so don't let that confuse you when you're looking through these Pok&eacute;mon's movepools.
+</p>
+
+<img class="sprite" src="/download/sprites/bw/621.png" alt=""/>
+<p>
+    Amoonguss has been the premier Trick Room support Pok&eacute;mon for quite some time now. Its bulk and typing allow it to sponge Fighting- and Water-type moves, as well as many commonly used Psychic- and Ice-type moves. Even if you do knock Amoonguss down to low health, it can simply switch to regain health (which leaves its moveslots open), wait a few turns for Leftovers recovery via Protect, or instantly recover a quarter of its health with Sitrus Berry, which frequently allows Amoonguss to avoid 2HKOs. Spore, while not as useful as it is in VGC due to Sleep Clause, is still extremely useful under Trick Room thanks to Amoonguss's base 30 Speed. The main problems Amoonguss has is that it's weak to two of the most common Pok&eacute;mon, Cresselia and Thundurus, but a lot of Pok&eacute;mon have this problem as well. Overall, if you haven't used Amoonguss, I suggest you do as soon as possible, and if you're playing against it, make sure you can OHKO it or it will most definitely give you a hard time.
+</p>
+
+<img class="sprite" src="/download/sprites/bw/47.png" alt=""/> <img class="sprite" src="/download/sprites/bw/470.png" alt=""/>
+<p>
+    Parasect and Tangrowth are often overshadowed by their little brother Amoonguss. Both have Rage Powder and a sleep-inducing move and are rather durable (in Parasect's case, this is because of constant Dry Skin recovery). What sets them apart, however, is their useful STAB moves, X-Scissor and Power Whip respectively, combined with their respectable Attack scores. With these, they can apply offensive pressure, unlike Amoonguss, as well as offer utility with Spore and Sleep Powder. The main problem with these two is the fact that they are incredibly susceptible to being OHKOed by strong super effective special moves, whereas Amoonguss can easily sponge both special and physical moves with minimal support (i.e., rain and Intimidate) or easily forgo Sitrus for an Occa or Coba Berry. That doesn't mean the two are useless; it just means Amoonguss is just generally more useful.
+</p>
+
+<img class="sprite" src="/download/sprites/bw/473.png" alt=""/> <img class="sprite" src="/download/sprites/bw/36.png" alt=""/>
+<p>
+    Now for some actual Follow Me users and not those wannabe Rage Powder Pok&eacute;mon. Togetic and Clefable were two of the first Pok&eacute;mon to receive Follow Me (the other being Furret, which is excluded for obvious reasons), but you might recognize Togekiss's ability Serene Grace, which has caused headaches everywhere it's allowed in conjunction with Air Slash. Besides being bulky and relatively slow, these two Pok&eacute;mon have access to Helping Hand, which powers up your partner's moves, and therefore helps make your precious turns count. They can also pick up a few offensive moves if you so desire; like many Normal-types, they have access to a wide variety of moves such as Aura Sphere, Fire Blast, Ice Beam, and the list goes on. Just be aware that Clefable only has base 85 Special Attack as opposed to Togekiss's 120.
+</p>
+
+<h4>Honorable Mentions</h4>
+
+<p>
+    Again, these Pok&eacute;mon aren't as generally useful, but have shown potential at the top tables, so it would be best to be aware of their existence in case you should require one of their specific niches.
+</p>
+
+<img class="sprite" src="/download/sprites/bw/452.png" alt=""/><img class="sprite" src="/download/sprites/bw/453.png" alt=""/>
+<p>
+    Unfortunately, unlike my other favorites on this list (which, in case you're wondering, are Chandelure, Gallade, Scrafty, and Togekiss), I can't recommend Lucario and Riolu for every team. They are, however, still viable. In fact, Riolu is bar none the most consistent Trick Room support in the game thanks to Prankster boosting Follow Me to +4 priority, which is enough to overtake any Fake Out in the game. If that's not cool enough for you, just wait until Riolu evolves into Lucario; now it's able to OHKO bulky Thundurus with Stone Edge and Chople Berry Tyranitar with Close Combat, as well as redirect Dark-type moves for a Justified boost, or get off a guaranteed Follow Me thanks to Inner Focus&mdash;though it doesn't redirect Fake Out completely, which is unfortunate. As expected, the two have some crippling flaws: the former has absolutely no offensive pressure, is basically dead weight after Trick Room goes up (though it can still spam Feint to help your offensive Trick Room user), and faints very easily, while the latter simply can't be defensive enough to be of much use support-wise, is weak to Mach Punch and Earthquake, and can be rather lacking offensively since it often only has two moveslots to dedicate to attacking as well as the fact that it has a paltry base 110 Attack with no real way to boost it. However, an offensive Follow Me user is rare, with the only other notable Pok&eacute;mon being the speedy Volcarona and the aforementioned Tangrowth and Parasect, while Riolu does get props for consistently getting Trick Room up, along with having access to Sunny Day to help stop Drizzle-based teams. Having used the two myself, I can honestly say that while they have their moments, other Pok&eacute;mon are generally better than them, mostly due to their lackluster stats. Hopefully Mega Lucario will be more viable in doubles, so I can finally make a serious team with my all-time favorite.
+</p>
+
+<img class="sprite" src="/download/sprites/bw/9.png" alt=""/>
+<p>
+    Blastoise has some incredible moves: Fake Out, Follow Me, and Water Spout. Unfortunately for Blastoise, none of them are compatible with each other. While a Follow Me set could be viable, Blastoise lacks key resistances to Fighting- and Electric-type moves to make use of Follow Me at times. The fact that Fire- and Ice-type moves are frequently used in the form of spread moves such as Blizzard and Heat Wave, which can work around Follow Me, defeats the purpose of being resistant to the two types as well. Hydro Pump is viable for a Fake Out set as Blastoise's main offensive move with Ice Beam picking up the slack, but it's hard to settle for that when Water Spout is so enticingly close. Forget Mega Blastoise&mdash;what Blastoise really needs is for Fake Out and Follow Me to be compatible with each other. Otherwise, it's just plain outclassed. 
+</p>
+
+<img class="sprite" src="/download/sprites/bw/126.png" alt=""/> <img class="sprite" src="/download/sprites/bw/472.png" alt=""/>
+<p>
+    Magmar and Magmortar don't seem like very good candidates for Follow Me, but if Volcarona can pull off a Follow Me set, then why not Magmar? The problem is, again, that Magmar and Magmortar don't have a Fighting resistance, though Magmar is only x2 weak to Rock Slide and has better defenses overall thanks to Eviolite. In fact, Magmar made its way to top 8 in Sejun Parks's World Championships team using a more defensive set that utilized Will-O-Wisp and helped set up Trick Room for a (mostly) hard Trick Room mode. Magmortar is frail by comparison, but can utilize STAB Heat Wave and Overheat much like Volcarona, except Magmortar has Thunderbolt, Low Kick, and Mach Punch to keep itself from being a slower, less powerful version of it. Nevertheless, weaknesses to Earthquake and Water moves prevents the two from being premier Trick Room supporters, but if this year's VGC World Championships are any indicator, they're still viable on the right teams.
+</p>
+
+<img class="sprite" src="/download/sprites/bw/385.png" alt=""/>
+<p>
+    This is the last of my favorites on this list, and you might be wondering how in the world Jirachi made its way down to an "honorable mentions" list alongside the likes of Magmar. It has base 100 stats across the board, great typing, Trick Room AND Follow Me, so what's not to like about it? Well, base 100 across the board means that it also has base 100 Speed, which is the cutoff point at which I consider a Trick Room setter to be too fast (with the exception of Victini, though even that's a stretch). To illustrate this point, minimum Speed Jirachi hits 184 Speed, while Metagross and other uninvested base 70s hit 176. This means Jirachi can't outspeed anything below base 77 (Heatran, 190), which includes Tyranitar and Hitmontop, both of which could be flinched to death with Iron Head otherwise. Having both Follow Me and Trick Room might seem like a good idea, considering I've mentioned how taking on multiple roles can be good for a team, but Trick Room and Trick Room support should generally be kept separate, as your Trick Room user (especially bulky setters like Jirachi) needs the support to be kept healthy for another potential setup. Obviously, if you keep redirecting Close Combats, Jirachi won't have enough steam left to set up another Trick Room later, and you might need to dedicate more support to ensure that Jirachi at least stands a chance in that situation. Jirachi is still an incredibly good Pok&eacute;mon; it's just not as viable in full Trick Room.
+</p>
+
+<h2>Trick Room Abusers</h2>
+
+<p>
+    "Trick Room abusers" seems weird to read, but the reason why the word "sweeper" isn't used is because a single Pok&eacute;mon rarely sweeps teams on its own. That said, it certainly doesn't help to have a hard-hitting Pok&eacute;mon on your side to make those precious four turns count. I'll only list a few Pok&eacute;mon here because there are a myriad of Pok&eacute;mon that can fit this role and to give you examples of traits you should look for in your sluggish steamrollers.
+</p>
+
+<img class="sprite" src="/download/sprites/bw/619.png" alt=""/> <img class="sprite" src="/download/sprites/bw/562.png" alt=""/>
+<h4>Bulky Beatsticks</h4>
+
+<p>
+    This sort of Pok&eacute;mon is the kind you might've wanted to use from the beginning; each are capable of taking one or two heavy hits courtesy of a favorable type, ability, or stat combination, and possess a spammable (though perhaps inaccurate), single-targeting, STAB 100+ Base Power move that receives a further boost from an item and/or an ability. Escavalier and Conkeldurr are prime examples of this; both have respectable defenses and a STAB move they can easily throw around thanks to the abundance of common Pok&eacute;mon to attack, such as Cresselia and Tyranitar, and also OHKO Pok&eacute;mon that are around the same general area of bulk as 252/0 Politoed. However, this sort of Pok&eacute;mon can often be predictable as to what they're going to use and can easily be stalled with Protect and smart switching if you're not careful. Gallade, Victini, and Overheat Chandelure could count as this sort of Pok&eacute;mon as well as a Trick Room setter, though none are as bulky as the examples I just listed.
+</p>
+
+<img class="sprite" src="/download/sprites/bw/465.png" alt=""/> <img class="sprite" src="/download/sprites/bw/469.png" alt=""/> <img class="sprite" src="/download/sprites/bw/490.png" alt=""/>
+<h4>The Double Troubles (name pending)</h4>
+
+<p>
+    This group of Pok&eacute;mon has powerful spread moves that aren't as powerful in terms of damaging a single Pok&eacute;mon, but result in more net damage and don't have to worry as much about which Pok&eacute;mon will Protect on their main attacks. Some may even receive boosts from weather, such as Heatran's Eruption, which, with Fire Gem and a Sunny Day boost, OHKOes 252/0 Mew, Hitmontop, bulky Thundurus, and even max Special Defense Occa Berry Metagross, and does upwards of 60-70% to the partner, all while sun shelters it from Hydro Pump OHKOs. Many of these Pok&eacute;mon, however, might have common weaknesses, because if they get STAB on great offensive types such as Ice, chances are they aren't going to take many hits without a resist Berry or Focus Sash. This can be circumvented by good type synergy, such as in the case of Rhyperior and Rotom-W, but you certainly shouldn't let any major weaknesses deter you from using these Pok&eacute;mon. Jellicent and Chandelure can double as this sort of Trick Room attacker, though they might not be hitting as hard without any boosting items.
+</p>
+
+<img class="sprite" src="/download/sprites/bw/665.png" alt=""/> <img class="sprite" src="/download/sprites/bw/683.png" alt=""/>
+<h4>Speedy Safety Nets</h4>
+
+<p>
+    You're probably wondering why you would even consider speedy Pok&eacute;mon on a Trick Room team. Well, this is an optional subgroup that might not tickle your fancy, but that you should consider adding to your team regardless. The idea behind speedy safety nets is that you're not always going to have Trick Room up, so if you have a Pok&eacute;mon that can score some quick KOs on your opponent's slow-ish Pok&eacute;mon, that's just as good as having Trick Room up. Of course, they can be somewhat slow, which is why I listed Hydreigon and Landorus-T as examples; they both fit under the base 100 Speed mark and are fast enough to outspeed Jolly Breloom, which is an important benchmark simply so you can hit it before it uses Spore. Having a single fast Pok&eacute;mon can increase your team's consistency, as it can plow through some Pok&eacute;mon early game to net some quick and easy wins without letting your opponent grab any crippling critical hits or freezes. The balance can be hard to strike sometimes, so you should experiment with several Pok&eacute;mon if you do consider using a safety net. If you forgo a negative Speed nature, Chandelure, Gallade, Mesprit, and Victini can double as this sort of Pok&eacute;mon. I'll even give you a specific benchmark for Gallade; an Adamant nature with 8 Speed IVs underspeeds neutral base 70s and outspeeds Tyranitar outside of Trick Room, which can be important to grab an easy OHKO.
+</p>
+
+<h4>Semi-Trick Room</h4>
+
+<p>
+    On the note of slightly fast Trick Room abusers, I'll talk about the more advanced and more unpredictable way to use Trick Room: semi-Trick Room. Semi-Trick Room is basically a team that includes only one or two sluggish Pok&eacute;mon while the rest run speedy sets. An example of such a team is the common VGC core of Cresselia and Conkeldurr surrounded by Pok&eacute;mon such as Choice Scarf Landorus-T, bulky Thundurus, and Volcarona. These teams aim to be flexible with Trick Room so they can shift into their Trick Room modes if they are pressured by opposing Speed control or faster Pok&eacute;mon, and can get away with going without dedicated support because they don't completely depend on it. Based on its track record, this is probably the best variation of Trick Room to use if you're participating in tournaments, but as I mentioned in the previous paragraph, the balance can be hard to strike, and you should tinker with full Trick Room teams to get a feel for how you should play when shifting into Trick Room mode. If you don't, semi-Trick Room can be very underwhelming.
+</p>
+
+<p>
+    As I said earlier, Cresselia + Conkeldurr or Heatran Trick Room cores have been becoming popular on the VGC scene, so it would be best to learn from it. As you might recall from the previous sections, both of these Pok&eacute;mon have powerful STAB attacks and good typing, and if you've ever used or played against a Trick Room team, you should be familiar with what they do. Of course, alone they would quickly fall prey to Taunt and Fake Out, leaving poor Heatran and Conkeldurr out on their own, but the success of this core comes from the speedy or moderately speedy Pok&eacute;mon surrounding the core. Your opponent might see Conkeldurr or some other slow Pok&eacute;mon and think to themselves "well, that Cresselia could set up Trick Room for that Conkeldurr, but there's a lot of other speedy Pok&eacute;mon around it, so I'd better not lead with my anti-Trick Room," or the thought might not even cross their minds since Heatran is more than capable of running a speedier Substitute set to combo with Skill Swap. Unpredictability and versatility are key to semi-Trick Room teams, though again, striking that balance is hard to do.
+</p>
+
+<p>
+    Before I go on, I'll reiterate some of my earlier points about the mentality when using Trick Room and how they compare with semi-Trick Room.
+</p>
+
+<ol>
+    <li>
+        <strong>You're not always going to be able to set up Trick Room.</strong>
+        <p>
+            While this is true for just about any setup, Trick Room is especially vulnerable to this, no matter how it's used. Even though semi-Trick Room isn't going to use it in every single battle, it can still be easily stopped if key Pok&eacute;mon such as Thundurus and opposing Trick Room Cresselia are still alive and kicking. While losing your Trick Room mode isn't the end of the world, it could mean that your Heatran or Conkledurr is dead weight because it can't outspeed Pok&eacute;mon such as Landorus-T or Tornadus.
+        </p>
+    </li>
+
+    <li>
+        <strong>You will not have the comfort of a fast mode.</strong>
+        <p>
+            Semi-Trick Room is most likely going to have a fast mode, but when you try to shift into your Trick Room mode, you might still be vulnerable to luck. This often comes in the form of a critical hit or full paralysis, so keep that in mind when you try to pull a sweet Conkeldurr switch-in while Cresselia tries to set up Trick Room.
+        </p>
+    </li>
+    <li>
+        <strong>Time is not on your side.</strong>
+        <p>
+            This will always be true of Trick Room. Even if your entire team doesn't depend on it, it's still important to make use of those four turns with powerful STAB moves and the like and to be careful of stalling tactics. To help circumvent this, some people will "turn off" Trick Room when they feel they could get away with switching in a faster, more frail attacker, or even bluff a Trick Room setup, only to reverse it next turn to successfully set up a Swords Dance or a similar move. Even if you try to use Trick Room with your moderately speedy Pok&eacute;mon, you need to be aware that the tables could turn very quickly if you allow your opponent to stall out your Trick Room or even take advantage of it themselves.
+        </p>
+    </li>
+</ol>
+
+<h2>Playing Against Trick Room (AKA: Why you need Support)</h2>
+
+<p>
+    If a team isn't prepared for Trick Room, the game is over the moment the dimensions are twisted. Therefore, any serious team must prepare for Trick Room in some shape or form if they don't want to get spanked by anyone with a strong attacker with Trick Room support. In this section, I'll discuss ways you can prepare for Trick Room, and if you're using Trick Room, be aware of these methods and prepare for them as well.
+</p>
+
+<h4>Method 1: Prevention</h4>
+
+<p>
+    If you want to stay healthy, you don't get sick, right? Prevention is the best medicine, and it can also be a viable anti-Trick Room strategy. A common anti-Trick Room duo is Fake Out + Taunt, which will usually shut down the Trick Room's Follow Me and successfully Taunt the Trick Room user, preventing the move from being used in the first place. Follow Me + Taunt works as well, though it works better against Trick Room that leads with a Fake Out Pok&eacute;mon. In short, Fake Out beats Trick Room's Follow Me, and Follow Me beats Trick Room's Fake Out. Additionally, Spore can work just as well as Taunt as it prevents the Trick Room setter from attacking too. However, you're only guaranteed one turn of sleep, which is often burned the turn you used it since the Trick Room user will move last, which means that it could wake up the next turn and set up Trick Room if you don't start attacking it.
+</p>
+
+<h4>Method 2: Stall</h4>
+
+<p>
+    A wise man once said, "Stall is dead." Of course, that man wasn't talking about Doubles, where stalling can play a key role in just about any team thanks to the omnipresence of Protect. As I've mentioned several times, Trick Room is only active for four turns. This can be a long time if you allow it to be, but through the use of Protect, you can only have to deal with Trick Room for two turns. Defensive switching is also important, especially if your defensive switch-in has Intimidate, which will make it that much harder for Trick Room to operate efficiently. In a similar vein to Intimidate, moves such as Light Screen and Will-O-Wisp cripple the opponent's Trick Room attackers to the point where they can only hope for a knockout during their four turns. Playing defensively is an easy strategy to fall back on as it can help you against other teams as well, but be careful about Pok&eacute;mon that can set up Substitutes or boosts, as they can take advantage of your passive moves once they catch on to what you're doing.
+</p>
+
+<h4>Method 3: Trick Room</h4>
+
+<p>
+    Fighting fire with fire is always kind of a weird strategy. It's the same with Trick Room; it just so happens that using Trick Room while Trick Room is in effect will cancel its effects. Cresselia will often do just that if a team seems especially Trick Room weak, so it will often be the most common Pok&eacute;mon that will reverse your Trick Room, especially because it's also just generally useful. Other teams might opt for different Pok&eacute;mon such as Jirachi to revert the dimensions, but Cresselia will be the main Pok&eacute;mon to worry about if you're playing Trick Room.
+</p>
+
+<p>
+    Semi-Trick Room and full Trick Room often match up evenly, depending on how Trick Room is handled by both teams. The full Trick Room mirror matchup is a slugfest, but this is where Speed creeping gets interesting. Some people may use neutral Speed natures to get the jump on Trick Room teams with negative Speed natures, or even lower their levels to underspeed other Trick Room Pok&eacute;mon, as seen with VGC's level 49 Amoonguss. Lowering your level is interesting because no other playstyle would even consider it, besides the obvious F.E.A.R. strategies. It might be worth toying with Speed IVs and natures if you think you may have trouble with other Trick Room teams, though the Speed creep can work both ways when Trick Room is involved.
+</p>
+
+<h4>Method 4: Ignore it</h4>
+
+<p>
+    Obviously you can't ignore the fact that your Pok&eacute;mon are being outsped, but some Pok&eacute;mon don't care if they're slower or faster in the first place. Examples of this are Metagross, Tyranitar, and Rotom-W, all of which are bulky enough to take some punishment and strong enough to dish it out as well, which make for a Pok&eacute;mon that doesn't care about Trick Room. It's a combination of stall and offense that is easy to replicate with a lot of the Doubles metagame, and easy to pull off in the face of inefficient Trick Room teams. Against more aggressive Trick Room, you might have to be more careful about getting OHKOed of course, but bulky attackers can go a long way in your fight against Trick Room, especially if they don't happen to have an immediate answer to it or their check was knocked out earlier in the game. Using your own slow Pok&eacute;mon isn't out of the question either; running negative Speed natures on each of those Pok&eacute;mon isn't a heartbreaking decision, and priority users such as Scizor and Breloom don't care about turn order unless there's a priority user that's slower than they are. Inefficient Trick Room is easy to take advantage of, so when building your Trick Room teams, make sure that each of your team members are capable of doing something at all times, and avoid having two defensive, low Attack Pok&eacute;mon on the field at once.
+</p>
+
+<h2>Sample Teams</h2>
+
+<p>
+    The following lineups of Pok&eacute;mon are going to be incredibly bare-bones because I don't think you'd learn anything if I just gave you a team to run around with, so I'm only providing a simple lineup of species. What movesets, EVs and IVs you give them is entirely up to you, but feel free to tinker with the Pok&eacute;mon as you see fit. The Pok&eacute;mon might even feel out of place when you actually use them, which is a good thing and you should take note of how they disappoint you, if they do, and replace them accordingly. In doing this, you will become a better teambuilder, and therefore a better player.
+</p>
+
+<h4>Full Trick Room</h4>
+
+<img class="sprite" src="/download/sprites/bw/639.png" alt=""/> <img class="sprite" src="/download/sprites/bw/297.png" alt=""/><img class="sprite" src="/download/sprites/bw/621.png" alt=""/> <img class="sprite" src="/download/sprites/bw/493.png" alt=""/> <img class="sprite" src="/download/sprites/bw/469.png" alt=""/> <img class="sprite" src="/download/sprites/bw/665.png" alt=""/>
+
+<h4>Semi Trick Room</h4>
+
+<img class="sprite" src="/download/sprites/bw/683.png" alt=""/> <img class="sprite" src="/download/sprites/bw/667.png" alt=""/> <img class="sprite" src="/download/sprites/bw/493.png" alt=""/> <img class="sprite" src="/download/sprites/bw/562.png" alt=""/> <img class="sprite" src="/download/sprites/bw/376.png" alt=""/> <img class="sprite" src="/download/sprites/bw/503.png" alt=""/>
+
+<h2>Conclusion</h2>
+
+<p>
+    With these tips in mind, I hope I've helped some aspiring Trick Room trainers build stronger teams. Even though Trick Room isn't the most consistent laddering tool, it's still a wonderful archetype that teaches the importance of efficiency and setup in Doubles, which makes it both a great first team to build and a viable tournament-winning team. Remember to have fun with your builds and don't be afraid to use new things after you've mastered the basics, and please, for both our sakes, don't be that guy on the ladder with three Trick Room users and three non-supportive "sweepers".
+</p>
+
+<table id="smogfooter">
+    <tr>
+        <td class="left"><a href="nuteambuilding">« Previous Article</a></td>
+        <td class="middle"><a href="/smog/issue30/">Home</a></td>
+        <td class="right"><a href="dragonsofru">Next Article »</a></td>
+    </tr>
+</table>

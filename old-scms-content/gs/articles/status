@@ -1,0 +1,382 @@
+[title]
+Introduction to Status in GSC
+[head]
+<meta name="description" content="An introduction to status afflictions in GSC, courtesy of Oglemi, havoc, and Earthworm." />
+[page]
+<div class="author">By <a href="/forums/member.php?u=40358">Oglemi</a> and <a href="/forums/member.php?u=14">havoc</a>, updated by <a href="/forums/member.php?u=15210">Earthworm</a>.</div>
+
+<ol class="toc">
+<li><a href="#intro">Introduction</a>
+<ul>
+<li><a href="#direct">Primary Status</a></li>
+<li><a href="#indirect">Pseudo Status</a></li>
+</ul>
+</li>
+<li><a href="#sleep">Sleep</a></li>
+<li><a href="#paralysis">Paralysis</a></li>
+<li><a href="#poison">Poison</a>
+<ul>
+<li><a href="#toxic">Toxic Poison</a></li>
+</ul>
+</li>
+<li><a href="#freeze">Freeze</a></li>
+<li><a href="#burn">Burn</a></li>
+<li><a href="#confusion">Confusion</a></li>
+<li><a href="#healbell">Heal Bell</a></li>
+</ol>
+
+
+<h2><a name="intro">Introduction</a></h2>
+
+<p>Status afflictions constitute a very key component of GSC play, a role larger than the average GSC player takes into consideration. First, a brief overview of each primary status affliction, and then a deeper look into the three main status afflictions&mdash;sleep, paralysis, and poison&mdash;and the strategic uses for each. The overviews of each status should not be new to experienced Pokemon players, but they will be included for the sake of completeness, in addition to perhaps informing players unfamiliar with some of the GSC generation's battling mechanics, which do differ a bit from other generations. Of the pseudo status afflictions, only confusion will be described. Finally, Heal Bell and its use will be briefly examined.</p>
+
+<p>This article classifies status afflictions as either "primary" or "pseudo." This can be a bit confusing, so I will define these terms here for ease of comprehension.</p>
+
+<h3><a name="direct">Primary Status</a></h3>
+
+<p>A status affliction that is NOT cured upon switching out the afflicted Pokemon. This includes poison, paralysis, sleep, burn, and freeze. A Pokemon can only have one primary status affliction at a time, and it remains unless action is taken to cure the status, which will be discussed later.</p>
+
+<h3><a name="indirect">Pseudo Status</a></h3>
+
+<p>A status affliction that IS cured upon switching out the afflicted Pokemon. This includes confusion and the effects of the following moves: Attract, Leech Seed, Curse (when used by a Ghost-type Pokemon), Nightmare (assuming the afflicted Pokemon is asleep), Encore, and Perish Song. Also included is the "Toxic" aspect of poison via the move Toxic. That is, in GSC, if a Pokemon is hit with Toxic and then switches out, upon switching back in the status downgrades to normal poisoning (a constant loss of 12.5% of the afflicted Pokemon's maximum HP). A Pokemon can simultaneously suffer from multiple pseudo status afflictions at once; for example, a Pokemon can be confused and under the effect of Leech Seed at the same time.</p>
+
+<p>There are two statuses that do not quite fall into either category: the effects of the moves Mean Look/Spider Web and Spikes. The reader is assumed to know what Spikes does, especially in the poison section.</p>
+
+<p>Now, armed with our prerequisite knowledge, let's take an in-depth look at the primary status types.</p>
+
+<h2><a name="sleep">Sleep</a></h2>
+
+<p>Completely incapacitates a Pokemon for 1-6 turns.</p>
+
+<p><strong>Common Sleep Inducers:</strong> Gengar (Hypnosis), Exeggutor (Sleep Powder), Nidoking (Lovely Kiss), Jynx (Lovely Kiss), Snorlax (Lovely Kiss)</p>
+
+<p>Sleep was probably the most important status in RBY: the ability to have an opposing Pokemon completely incapacitated for a number of turns, plus the fact that the opponent could do nothing on the turn it woke up, would in many ways make the average RBY match a 5v5 affair. With the advent of Sleep Talk and Heal Bell, GSC's defensive lean, and the fact that a Pokemon can attack on the turn it wakes up, sleep lost some of its significance from GSC onward.</p>
+
+<p>That is not to say that sleep is worthless; far from it, actually. However, one must be wary as to when to use the sleep-inducing move, lest one "waste" it on a Sleep Talk user, as Sleep Talk is the biggest counter for sleep-inducing moves in GSC. This applies a bit more to GSC than to later generations since, in GSC, if a Pokemon with Rest and Sleep Talk uses Sleep Talk while asleep and it chooses Rest, Rest is used successfully. In later generations, this is not the case. An example:</p>
+
+<p><strong>GSC:</strong><br />
+Heracross: 82% health (Slp)<br />
+Snorlax: 63% health</p>
+
+<p><strong>Begin turn:</strong><br />
+Heracross is fast asleep.<br />
+Heracross used Sleep Talk!<br />
+Heracross used Rest!<br />
+Heracross went to sleep!<br />
+Heracross regained health!</p>
+
+<p>Snorlax used Curse!<br />
+Snorlax's Attack rose!<br />
+Snorlax's Defense rose!<br />
+Snorlax's Speed fell!</p>
+
+<p>Snorlax's Leftovers restored its HP a little!<br />
+Heracross: 100% health (Slp)<br />
+Snorlax: 69% health</p>
+
+<p>In later generations, had this happened, Rest would have failed as "Heracross is already asleep!" and the turn would have continued as if Heracross had done nothing.</p>
+
+<p>The most common Sleep Talk users are pretty well known by most GSC veterans, but for those who may be new to the game, here are a few standards to be well aware of:</p>
+
+<ul class="toc">
+<li><strong>Heracross:</strong> (Sleep Talk / Rest / Megahorn / Earthquake)</li>
+<li><strong>Zapdos:</strong> (Sleep Talk / Rest / Drill Peck / Thunderbolt)</li>
+<li><strong>Marowak:</strong> (Sleep Talk / Rest / Earthquake / Rock Slide)</li>
+<li><strong>Raikou</strong> (Sleep Talk / Rest / Thunderbolt / Crunch)</li>
+<li><strong>Snorlax:</strong> (Sleep Talk / Rest / Curse / Double-Edge)</li>
+</ul>
+
+<p>A few things to note: Sleep Talk is just about always paired with Rest in GSC to promote longevity. The sets listed for each Pokemon are common, but not always the standard&mdash;the main idea is to know what Pokemon to avoid putting to sleep. The Snorlax set is also used by a few Normal-type Pokemon with decently rounded stats, namely Kangaskhan and Ursaring. Finally, one of the unique aspects of GSC is that there are a vast number of Pokemon that can utilize Sleep Talk effectively with multiple sets. A good rule of thumb to use when choosing a potential Sleep Talk user is just noting that if the Pokemon is fairly sturdy defensively, then it can probably use Sleep Talk at least moderately well.</p>
+
+<p>The trick to using sleep-inducing moves is to hold it over the opponent's head to try and force his hand: many times, when a common sleep inducer is seen, the opponent will automatically switch to his Sleep Talk user to avoid having one of his other Pokemon incapacitated&mdash;the aggressor can use that opportunity to perhaps attack or make a switch of their own to put them at an even bigger advantage. The element of surprise is important, and utilizing it well can break open a match. While sleeping anything that isn't a Sleep Talk user is useful, try to lure out a Pokemon that stands out as either the biggest offensive threat to your team or the biggest defensive counter to your offensive strategy.</p>
+
+<p>The following moves can induce sleep:</p>
+<table class="sortable">
+<thead>
+<tr>
+<th>Move</th> <th>Accuracy</th> <th>Chance to Sleep</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td><a href="/gs/moves/hypnosis">Hypnosis</a></td> <td>60%</td> <td>100%</td>
+</tr>
+<tr>
+<td><a href="/gs/moves/lovely_kiss">Lovely Kiss</a></td> <td>75%</td> <td>100%</td>
+</tr>
+<tr class="a">
+<td><a href="/gs/moves/rest">Rest</a></td> <td>-- (Self-induced)</td> <td>100%</td>
+</tr>
+<tr>
+<td><a href="/gs/moves/sing">Sing</a></td> <td>55%</td> <td>100%</td>
+</tr>
+<tr class="a">
+<td><a href="/gs/moves/sleep_powder">Sleep Powder</a></td> <td>75%</td> <td>100%</td>
+</tr>
+<tr>
+<td><a href="/gs/moves/spore">Spore</a></td> <td>100%</td> <td>100%</td>
+</tr>
+</tbody>
+</table>
+
+<h2><a name="paralysis">Paralysis</a></h2>
+
+<p>Lowers a Pokemon's Speed by 75%, with a 25% probability of complete incapacitation every turn</p>
+
+<p>Though the number of common moves that can cause paralysis is not very high, there are still several popular ones that can be utilized effectively by a number of Pokemon. Though the 25% chance of complete incapacitation can certainly be wonderful for lopsided sponges such as Skarmory, the bigger (yet seemingly more underrated) aspect of paralysis is the 75% drop in Speed. This is incredibly helpful for countering fast attackers who also tend to lack good defensive stats, but it is just as useful for other fast Pokemon. GSC may be associated with slow, defensive tanks, but in reality, some of the best GSC defensive Pokemon are fast and rely heavily on their Speed to be effective. Examples include Starmie (328 Speed), often carrying the almost indomitable Reflect/Light Screen, Raikou (also 328 Speed) who often carries Reflect and is a brilliant special defender, and the 298 Speed Growl Miltank (bane of almost all Cursers). Any of these Pokemon getting paralyzed usually exposes an often-surprising weakness in the opponent's defense. Should the opponent have Heal Bell, he will most likely have to use it immediately; if he does not have Heal Bell, the difficulty of the match for him escalates steeply.</p>
+
+<p>In some instances, paralyzing a defensive counter can be as simple as sticking a move with a high chance of causing paralysis (that is, Body Slam or Thunder) on an attacker and using it when the counter appears; for example, forgoing the power of Double-Edge on Snorlax for Body Slam to help cripple Skarmory helps other sweepers such as Marowak come in and clean up. However, remember that there is a bit of luck involved here, and as mentioned, power is often sacrificed in the process.</p>
+
+<p>For moves such as Thunder Wave and Stun Spore, there are a few obstacles preventing our preferred scenario from happening. First, experienced GSC players already know to avoid getting their Pokemon paralyzed. Second, there are a few Pokemon that handle paralysis fairly well, namely the already-slow Snorlax and RestTalk users. However, paralysis is probably the best option to status the latter, so we are actually left with one Pokemon: Snorlax. Which leads us to our third and final problem: most common paralysis inducers can't do very much to Snorlax, making Snorlax an easily repeatable switch-in to them. Indeed, if a team is not planned properly, Snorlax can counter its entire strategy based on the sole fact that it shrugs off paralysis fairly easily. Even when afflicted with a 25% chance of incapacitation every turn, Snorlax is still the most dangerous Pokemon in GSC.</p>
+
+<p>So what is needed is a strategy that coerces the opponent into bringing in the Pokemon that needs to be paralyzed, instead of Snorlax. To do this, it's desired that whatever is chosen as a paralysis inducer can do something notable to Snorlax (and other status sponges) other than just paralyze it, thus reducing the likelihood of a Snorlax switch-in.</p>
+
+<p>Ideally, this "something notable" would be to hit Snorlax directly when it switches in for a good bit of damage, which means hitting with at least a moderately strong physical attack. There are a few options as to how to go about doing this, but many involve either a big risk (the threat of Explosion from Exeggutor) or a dependence on luck (using DynamicPunch); with one notable exception (Porygon2), there just aren't any Pokemon who can damage Snorlax both dependably and repeatedly due to the fact that most Thunder Wave / Stun Spore users are not strong physical attackers. And because Snorlax takes paralysis so well, it would be ideal to skip the paralysis here and hit it with a status that it doesn't take so well, such as poison or sleep (for non-Sleep Talk variants).</p>
+
+<p>So how does one go about surmounting this difficulty? Frankly, it depends on the Pokemon in question as well as the team surrounding it, but there are a few general ideas to keep in mind. If Snorlax is an inevitable switch-in, our sleep-inducing move strategy can work here as well&mdash;that is, use the fact that Snorlax will undoubtedly switch in to do something that would give you an advantage.</p>
+
+<p>There are indeed options, whether it be switching to something that CAN do something to Snorlax, or trying out something that handicaps Snorlax a bit more. Put Toxic on Slowbro instead of Thunder Wave and leave the paralysis to other team members. Maybe put both Toxic AND Thunder Wave on Slowbro, and wait until the opponent thinks he can safely bring in his Starmie; it may Recover or Reflect&mdash;at the cost of getting paralyzed. Slowbro's team ultimately benefits from that exchange. Keep in mind that some ideas may seem strange or unorthodox, but as many GSC players can attest, it often only takes one simple surprise move or exchange to dismantle an entire team.</p>
+
+<p>Paralysis is generally more beneficial to a team that plans to sweep the opponent with hard-hitting (and usually slow) sweepers such as Belly Drum Snorlax or Swords Dance Marowak; as dangerous as these types of Pokemon are already, the negation of an opponent's Speed advantage opens the door to either a clean sweep of an entire team, or the opportunity to take out one or two of your opponent's Pokemon, Rest, and then do it all over again. Doing this effectively involves identifying which of the opponent's Pokemon need to be paralyzed, luring them out for the paralysis, and then enacting your setup/sweep plan as soon as possible before either Heal Bell is used or before the paralyzed opponents can Rest off the status.</p>
+
+<p>The following moves may inflict paralysis:</p>
+<table class="sortable">
+<thead>
+<tr>
+<th>Move</th> <th>Accuracy</th> <th>Chance to Paralyze</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td><a href="/gs/moves/body_slam">Body Slam</a></td> <td>100%</td> <td>30%</td>
+</tr>
+<tr>
+<td><a href="/gs/moves/dragonbreath">DragonBreath</a></td> <td>100%</td> <td>30%</td>
+</tr>
+<tr class="a">
+<td><a href="/gs/moves/glare">Glare</a></td> <td>75%</td> <td>100%</td>
+</tr>
+<tr>
+<td><a href="/gs/moves/lick">Lick</a></td> <td>100%</td> <td>30%</td>
+</tr>
+<tr class="a">
+<td><a href="/gs/moves/spark">Spark</a></td> <td>100%</td> <td>30%</td>
+</tr>
+<tr>
+<td><a href="/gs/moves/stun_spore">Stun Spore</a></td> <td>75%</td> <td>100%</td>
+</tr>
+<tr class="a">
+<td><a href="/gs/moves/thunder">Thunder</a></td> <td>70%</td> <td>30%</td>
+</tr>
+<tr>
+<td><a href="/gs/moves/thunder_wave">Thunder Wave</a></td> <td>100%</td> <td>100%</td>
+</tr>
+<tr class="a">
+<td><a href="/gs/moves/thunderbolt">Thunderbolt</a></td> <td>100%</td> <td>10%</td>
+</tr>
+<tr>
+<td><a href="/gs/moves/thunderpunch">ThunderPunch</a></td> <td>100%</td> <td>10%</td>
+</tr>
+<tr class="a">
+<td><a href="/gs/moves/thundershock">ThunderShock</a></td> <td>100%</td> <td>10%</td>
+</tr>
+<tr>
+<td><a href="/gs/moves/tri_attack">Tri Attack</a></td> <td>100%</td> <td>6.67%</td>
+</tr>
+<tr class="a">
+<td><a href="/gs/moves/zap_cannon">Zap Cannon</a></td> <td>50%</td> <td>100%</td>
+</tr>
+</tbody>
+</table>
+
+<h2><a name="poison">Poison</a></h2>
+
+<p>Deducts 12.5% of the afflicted Pokemon's maximum HP every turn. Poison-types are immune to poison. Steel-types are immune to poison, unless it is induced by Twineedle.</p>
+
+<p>The following moves induce regular poison:</p>
+<table class="sortable">
+<thead>
+<tr>
+<th>Move</th> <th>Accuracy</th> <th>Chance to Poison</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td><a href="/gs/moves/poison_gas">Poison Gas</a></td> <td>55%</td> <td>100%</td>
+</tr>
+<tr>
+<td><a href="/gs/moves/poison_sting">Poison Sting</a></td> <td>100%</td> <td>30%</td>
+</tr>
+<tr class="a">
+<td><a href="/gs/moves/poisonpowder">PoisonPowder</a></td> <td>75%</td> <td>100%</td>
+</tr>
+<tr>
+<td><a href="/gs/moves/sludge">Sludge</a></td> <td>100%</td> <td>30%</td>
+</tr>
+<tr class="a">
+<td><a href="/gs/moves/sludge_bomb">Sludge Bomb</a></td> <td>100%</td> <td>30%</td>
+</tr>
+<tr>
+<td><a href="/gs/moves/smog">Smog</a></td> <td>70%</td> <td>40%</td>
+</tr>
+<tr class="a">
+<td><a href="/gs/moves/twineedle">Twineedle</a></td> <td>100%</td> <td>36% (20% per hit, hits twice)</td>
+</tr>
+</tbody>
+</table>
+
+<h3><a name="toxic">Toxic Poison</a></h3>
+
+<p>Caused by the move Toxic, poison starts by deducting 6.25% of the afflicted Pokemon's maximum HP every turn, and then increases incrementally by 6.25% every turn subsequently.</p>
+
+<p>Toxic is probably one of GSC's defining moves. It helped sustain an era in the GSC metagame that forever put the generation in a negative light as a stalling contest. Many people don't understand why it was ever popular to begin with; after all, unlike later generations, Toxic poisoning reverts to normal poisoning after switching out. Poison may have helped with the now-archaic stall teams that lacked any kind of real offense, but that was in the past; why even consider using it now? The answer is perhaps a bit more detailed than one may think, but to summarize: poison takes away Leftovers recovery, and poison works well with Spikes.</p>
+
+<p>The Leftovers item is perhaps the most glossed-over aspect of why GSC has the defensive lean that it does, and it is difficult to explain to players raised on later generations why it is so important. This is because EVERY Pokemon in GSC is defensive in some way. Unlike the later generations, there are no attacks that 2HKO everything that doesn't resist them. The ability for every stat to be maximized lowers the ability of Pokemon with high Attack scores to make the impact that they do in later generations. There is also no infinite weather around (particularly sandstorm) to nullify Leftovers recovery. There just aren't that many offensive options, when it comes to attacks and Pokemon. All of these factors augment Leftovers' ability to keep a Pokemon alive.</p>
+
+<p>Enter Spikes, which also chips away at the survivability of a Pokemon. When used in tandem, poison and Spikes can soften up an opponent to put it in a favorable KO range. The mechanics of this will be addressed in the Spikes discussion, but keep in mind that poison and Spikes are an effective strategy to wear down the opposition.</p>
+
+<p>Does this mean poison should <em>only</em> be used with Spikes? Not necessarily&mdash;as aforementioned, it is much better to poison Snorlax than to paralyze it, and when the GSC metagame revolves around Snorlax, it certainly makes poison an important status to consider. However, while poison doesn't <em>need</em> to be used with Spikes, it is probably <em>best</em> when used with Spikes, and for the most part, it will almost be assumed that Spikes are being used in conjunction with poison.</p>
+
+<p>Now, with that in mind, if one decides to use poison as their main status strategy, it's important to build a team around taking advantage of poison, which will probably include Spikes and things that cause a lot of switches (to take advantage of the multiple sources of indirect damage). In addition, when deciding what Pokemon to use to deploy Toxic, exactly like in the case of paralysis, it is important to think of what usually switches into that Pokemon. The goal is to put Toxic on things without a definitive switch-in or to put Toxic on a few things that tempt different switch-ins. For example, if both Starmie and Raikou are on a team, putting Toxic on both is not wise; because Snorlax easily switches in on both, one or the other Toxic becomes a wasted moveslot that could be used for much better things&mdash;Roar on Raikou, for example, could take advantage of the telegraphed switch-in and help stack up residual poison and Spikes damage.</p>
+
+<p>Toxic is the only move that can induce intensifying poison:</p>
+<table class="sortable">
+<thead>
+<tr>
+<th>Move</th> <th>Accuracy</th> <th>Chance to Badly Poison</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td><a href="/gs/moves/toxic">Toxic</a></td> <td>85%</td> <td>100%</td>
+</tr>
+</tbody>
+</table>
+
+<h2><a name="freeze">Freeze</a></h2>
+
+<p>Completely incapacitates a Pokemon. There is a 10% chance to defrost at the end of each turn that a frozen Pokemon is active. Ice-types are immune to freeze, unless it is induced by Tri Attack.</p>
+
+<p>Freeze is a rare status, as no move has a freeze chance higher than 10%. In GSC, defrosting occurs 10% of the time as an end-of-turn effect. This makes it significantly stronger than in future generations, where a Pokemon defrosts 20% of the time when attacking. This impacts how one plays with and against a frozen Pokemon in two ways. First, it means that unlike in future generations, you only need to have the Pokemon out at the end of a turn to have a chance to defrost, meaning that a switch to the Pokemon may defrost it. Second, it means that if you are up against a frozen Pokemon, it will not be able to attack you unless you defrost it yourself with a Fire-type attack, or it uses Sacred Fire or Flame Wheel, in which case it defrosts while attacking.</p>
+
+<p>On turns where you are near certain that the opponent will switch and you have, say, a Nidoking with Ice Beam, it may be advantageous to use it just in case you get a lucky freeze on the switch. A frozen Pokemon is often enough to swing a match decidedly in your favor.</p>
+
+<p>The following moves can freeze their target:</p>
+<table class="sortable">
+<thead>
+<tr>
+<th>Move</th> <th>Accuracy</th> <th>Chance to Freeze</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td><a href="/gs/moves/blizzard">Blizzard</a></td> <td>70%</td> <td>10%</td>
+</tr>
+<tr>
+<td><a href="/gs/moves/ice_beam">Ice Beam</a></td> <td>100%</td> <td>10%</td>
+</tr>
+<tr class="a">
+<td><a href="/gs/moves/ice_punch">Ice Punch</a></td> <td>100%</td> <td>10%</td>
+</tr>
+<tr>
+<td><a href="/gs/moves/powder_snow">Powder Snow</a></td> <td>100%</td> <td>10%</td>
+</tr>
+<tr class="a">
+<td><a href="/gs/moves/tri_attack">Tri Attack</a></td> <td>100%</td> <td>6.67%</td>
+</tr>
+</tbody>
+</table>
+
+<h2><a name="burn">Burn</a></h2>
+
+<p>Lowers a Pokemon's Attack by 50% and deducts 12.5% of the afflicted Pokemon's maximum HP when it attempts to attack. Fire-types are immune to burn, unless it is induced by Tri Attack.</p>
+
+<p>Burn is one of the rarest primary status inflictions. Fire moves are not too common, but are still often seen on Alakazam, Exeggutor (though it uses Hidden Power Fire), Gengar, and Tyranitar, as well as the occasional Machamp, Nidoking, and Snorlax. The popularity of Rest will often mean that even when a burn is inflicted, it will not be very useful. The only strategical use that doesn't apply to Poison is to take advantage of the halved Attack stat.</p>
+
+<p>The following moves can burn their target:</p>
+<table class="sortable">
+<thead>
+<tr>
+<th>Move</th> <th>Accuracy</th> <th>Chance to Burn</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td><a href="/gs/moves/ember">Ember</a></td> <td>100%</td> <td>10%</td>
+</tr>
+<tr>
+<td><a href="/gs/moves/fire_blast">Fire Blast</a></td> <td>85%</td> <td>10%</td>
+</tr>
+<tr class="a">
+<td><a href="/gs/moves/fire_punch">Fire Punch</a></td> <td>100%</td> <td>10%</td>
+</tr>
+<tr>
+<td><a href="/gs/moves/flame_wheel">Flame Wheel</a></td> <td>100%</td> <td>10%</td>
+</tr>
+<tr class="a">
+<td><a href="/gs/moves/flamethrower">Flamethrower</a></td> <td>100%</td> <td>10%</td>
+</tr>
+<tr>
+<td><a href="/gs/moves/sacred_fire">Sacred Fire</a></td> <td>95%</td> <td>50%</td>
+</tr>
+<tr class="a">
+<td><a href="/gs/moves/tri_attack">Tri Attack</a></td> <td>100%</td> <td>6.67%</td>
+</tr>
+</tbody>
+</table>
+
+<h2><a name="confusion">Confusion</a></h2>
+
+<p>A Pokemon has a 50% chance of attacking successfully; otherwise, it attacks itself with a 40 power, physical, typeless move. Lasts for 1-4 turns, or until the Pokemon is switched out.</p>
+
+<p>Confusion is a pseudo status, and because there is much less penalty to switching in GSC than in other generations, it is not very commonly utilized. Of moves that can cause confusion, only DynamicPunch sees common use. DynamicPunch is seen on Pokemon such as Tyranitar, Gengar, and Dragonite, because the Fighting-type move significantly improves their coverage. These Pokemon use DynamicPunch in combination with their expansive movepools to make switching in against them more difficult. Confuse Ray is rare, but may be seen on Mean Look users such as Umbreon and Misdreavus to help them buy time against phazers and other Pokemon that would otherwise shut them down. This can be very effective, as it gives Umbreon an 18.75% (0.75*0.5^2: 0.75 is the chance that confusion will end after two turns, and 0.5^2 is the chance of them hitting themselves two turns in a row) chance to remove a would-be counter, and Umbreon will often get multiple attempts to do so.</p>
+
+<p>The following moves can induce confusion:</p>
+<table class="sortable">
+<thead>
+<tr>
+<th>Move</th> <th>Accuracy</th> <th>Chance to Confuse</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td><a href="/gs/moves/confuse_ray">Confuse Ray</a></td> <td>100%</td> <td>100%</td>
+</tr>
+<tr>
+<td><a href="/gs/moves/confusion">Confusion</a></td> <td>100%</td> <td>10%</td>
+</tr>
+<tr class="a">
+<td><a href="/gs/moves/dizzy_punch">Dizzy Punch</a></td> <td>100%</td> <td>20%</td>
+</tr>
+<tr>
+<td><a href="/gs/moves/dynamicpunch">DynamicPunch</a></td> <td>50%</td> <td>100%</td>
+</tr>
+<tr class="a">
+<td><a href="/gs/moves/outrage">Outrage</a></td> <td>-- (Self-induced)</td> <td>100% (After 2-3 turns)</td>
+</tr>
+<tr>
+<td><a href="/gs/moves/petal_dance">Petal Dance</a></td> <td>-- (Self-induced)</td> <td>100% (After 2-3 turns)</td>
+</tr>
+<tr class="a">
+<td><a href="/gs/moves/psybeam">Psybeam</a></td> <td>100%</td> <td>10%</td>
+</tr>
+<tr>
+<td><a href="/gs/moves/supersonic">Supersonic</a></td> <td>55%</td> <td>100%</td>
+</tr>
+<tr class="a">
+<td><a href="/gs/moves/swagger">Swagger</a></td> <td>90%</td> <td>100%</td>
+</tr>
+<tr>
+<td><a href="/gs/moves/sweet_kiss">Sweet Kiss</a></td> <td>75%</td> <td>100%</td>
+</tr>
+<tr class="a">
+<td><a href="/gs/moves/thrash">Thrash</a></td> <td>-- (Self-induced)</td> <td>100% (After 2-3 turns)</td>
+</tr>
+</tbody>
+</table>
+
+<h2><a name="healbell">Heal Bell</a></h2>
+
+<p>Cures your team of all primary status afflictions.</p>
+
+<p>Heal Bell is a move commonly found on more defensive teams that use Rest on several Pokemon. It is only available on two noteworthy Pokemon: Miltank and Blissey. Not only does it allow you to cure the sleep status of Pokemon that used Rest, it also helps against teams that attempt to spread any other status. When using a Heal Bell Pokemon, be wary of the opponent attempting to put you to sleep, because you will then be unable to cure yourself and therefore also unable to cure the rest of your team's status afflictions. Also of note is that once you cure your team, if your opponent had put something to sleep, they are free once more to do so again. This can sometimes be problematic, especially if your intended sleep taker has sustained some damage. In certain situations, it may actually be a wise decision to avoid using Heal Bell if, for example, you have managed to take sleep with something that is not useful against the opponent.</p>

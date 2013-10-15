@@ -1,0 +1,524 @@
+[title]
+Capturing FRLG Legendaries
+[head]
+<meta name="description" content="A guide to effectively capturing legendary Pokémon with competitive natures and IVs in FireRed/LeafGreen." />
+[page]
+<div class="author">By <a href="/forums/member.php?u=5962">Arseus</a>.</div>
+
+<ol class="toc">
+<li><a href="#preparations">Preparations</a>
+	<ul>
+		<li><a href="#capture_rate">Capture Rate</a></li>
+		<li><a href="#ball_capsules">Ball Capsules</a></li>
+		<li><a href="#catcher">The Catcher</a></li>
+		<li><a href="#the_one_under">The &quot;One Under&quot; Pokémon</a></li>
+		<li><a href="#other_items">Other Items and Pokémon</a></li>
+		<li><a href="#tricks">Tricks of the Trade</a></li>
+		<li><a href="#raikou_entei_suicune">The Raikou/Entei/Suicune Factor</a></li>
+      </ul>
+</li>
+<li><a href="#catching">Catching the Legendaries</a>
+      <ul>
+	      <li><a href="#articuno">Articuno</a></li>
+	      <li><a href="#zapdos">Zapdos</a></li>
+	      <li><a href="#moltres">Moltres</a></li>
+	      <li><a href="#mewtwo">Mewtwo</a></li>
+	      <li><a href="#lugia">Lugia</a></li>
+	      <li><a href="#ho_oh">Ho-Oh</a></li>
+	      <li><a href="#deoxys">Deoxys</a></li>
+      </ul>
+</li>
+</ol>
+
+<h2><a name="preparations">Preparations</a></h2>
+
+<h3><a name="capture_rate">Capture Rate</a></h3>
+<p>Each legendary is assigned a numerical catch rate, as are all wild Pokémon. Essentially, the higher the Catch Rate, the higher the chance to capture. The Catch Rate is plugged into a formula, which determines whether the Pokémon will be captured or not. While the actual in-game formula is quite complex, Community Member <a href="/forums/member.php?u=2412">X-Act</a> has made a formula that produces nearly exact results. Note to always round down should you get a decimal.</p>
+
+<pre>(( 1 + ( MaxHP * 3 - CurrentHP * 2 ) * CatchRate * BallRate * Status# ) / ( MaxHP * 3 )) / 256</pre>
+
+<p>Top Poké Ball Rates :</p>
+<ul>
+<li>Master Ball : 255</li>
+<li>Timer Ball (30+ Turns) : 4</li>
+<li>Net Ball (Against a Bug or Water-type) : 3</li>
+<li>Repeat Ball (Against previously caught Pokémon) : 3</li>
+<li>Nest Ball (Against level 1-19 Pokémon) : 3</li>
+<li>Ultra Ball : 2</li>
+<li>Great Ball : 1.5</li>
+</ul>
+
+<p>A Master Ball catches any wild Pokémon without fail, though it may only be obtained once in Silph Co. Timer Balls begin at 1 and increase every 10 turns, with a cap of 4. This means Timer Balls can have the highest catch rate of any Ball other than the Master Ball. Net Balls are ineffective, due to the fact that no competitive legendary caught in FireRed/LeafGreen is a Water or Bug-type (more on this later). Likewise, Nest Balls begin at 3 and decrease every 10 levels the wild Pokémon is, with a low of 1, making them ineffectual against legendaries. All other balls have a catch rate of 1. It is best to use either Timer or Ultra Balls when going for the legendaries.</p>
+
+<p>Status#s :</p>
+<ul>
+<li>Freeze : 2</li>
+<li>Sleep : 2</li>
+<li>Paralysis : 1.5</li>
+<li>Burn : 1.5</li>
+<li>Poison : 1.5</li>
+<li>None : 1</li>
+</ul>
+
+<p>As you can see, sleep is your best bet, due to the lack of reliable freeze moves. Paralysis is a much lower #, so sleep moves are preferred. You should never poison or burn the legend; this sets a time limit on the longevity of your legend's lifespan.</p>
+
+<p>The catch rates of the legendaries are 3; it will be a challenge to keep them in the ball!</p>
+
+<p>Let's say we try and catch a Level 5 Max HP Magikarp with a Timer Ball, having waited over 30 turns for some nigh-incomprehensible reason. Magikarp's Catch Rate is 255.</p>
+
+<pre>
+Capture Rate = (( 1 + ( MaxHP × 3 - CurrentHP × 2 ) × CatchRate × BallRate × Status# ) ÷ ( MaxHP × 3 )) ÷ 256
+= (( 1 + (( 18 × 3 - 18 × 2 ) × 255 × 4 × 1)) ÷ ( 18× 3 )) ÷ 256
+= (( 1 + ( 18 × 255 × 4 × 1 )) ÷ 54) ÷ 256
+= (( 1 + 18360 ) ÷ 54) ÷ 256
+= ( 18361 ÷ 54 ) ÷ 256
+= 340 ÷ 256
+= 1.328125
+= 100%
+</pre>
+<p>Any decimal numbers were not shown, and simply rounded down.</p>
+
+<p>So, if the end result is over 1, you have a 100% chance to capture the Pokémon. However, due to varying IVs, it is difficult to know the Max HP of the legendaries, let alone determine their Current HP. The formula is here for reference, and a little bit of insight on why certain Balls or Status effects are used.</p>
+
+<h3><a name="ball_capsules">Ball Capsules</a></h3>
+
+<p>After you get your first Pokémon, and acquire the PokéDex, what does Professor Oak give you? That's right, Poké Balls. For the purpose of capturing the legendaries, Ultra and Timer Balls are your best bets. Ultra Balls can be picked up at most later-game PokéMarts, and are available before you fight your first legendary. You'll want to stock up on a good number of them; around fifty per legendary (there are four competitive ones that can be caught normally, and an additional three with events) for a total of three hundred fifty should do nicely.</p>
+
+<p>Timer Balls, while not native to Kanto, are sold by a man on the Sevii Islands… eventually. On Boon Island (also known as "Two Island"), there is a Game Corner man who you must deliver Celio's Meteorite to. He will then ask you to find his daughter Lostelle. To do so, defeat the biker gang on Kin Island, also known as Three Island. Travel beyond Bond Bridge, and deep in the Berry Forest is Lostelle, who is terrified of a Hypno; you must deal with the Hypno, and you two shall travel back to Boon Island. Later, defeat the Elite Four at least once. Finally, travel back to Boon Island, and buy 99 of each item he has in his inventory. Walk into a building, then walk out again, and he will, at long last, add Timer Balls and Repeat Balls to his inventory.</p>
+
+<p>If you wish to obtain any other kind of Poké Ball (for whatever reason), you must trade them over from Ruby, Sapphire, or Emerald. Having said that, you could always clone a whole bunch of Master Balls via Pokémon Emerald, if that's what suits your fancy.</p>
+
+<h3><a name="catcher">The Catcher</a></h3>
+
+<p>If you are planning on transferring over unlimited Master Balls from Pokémon Emerald, this section will not be of much use to you. If not, you'll probably need a good capturing Pokémon. What makes a good capturing Pokémon? A Pokémon that can learn both a reliable sleep move and False Swipe fits the bill. False Swipe is a great move to capture legendaries; it allows you to always get them down to 1 HP, without the risk that you may do too much damage and cause them to faint. A list of Pokémon that meet the aforementioned criteria is as follows:</p>
+
+<dl>
+	<dt>Paras, Parasect, Smeargle, and Breloom</dt>
+	<dd>Parasect is probably the easiest to obtain, as it is right in FireRed and LeafGreen, but you must get it up to a very high level, with an Attack boosting nature. Breloom is a good option as well, having better stats than Parasect, and trades Parasect's 4x weakness to Fire for a 2x weakness to Fire and Psychic. However, you must breed False Swipe onto these Pokémon, and pray the legendary does not obtain an undesirable status effect from the ability Effect Spore. Due to the risk associated with Effect Spore, Smeargle is arguably the best option available, despite its rather lackluster base stats. Also worth taking into consideration is the fact that many legendaries have moves that are not too kind to Parasect and Breloom, forcing one to heal more often.</dd>
+</dl>
+
+<h3><a name="the_one_under">The "One Under" Pokémon</a></h3>
+
+<p>An optional Pokémon that you may wish to take with you is the "one under" Pokémon. This is a Pokémon that has a Speed stat one point below the maximum of the legendary you're trying to catch. This is for the Pokémon you really need to have reach a certain speed. It isn't the wisest choice to bring one of these along for every legendary however; the "one under" Pokémon can be a pain to get, but it will be worth it if you don't have Master Balls. The idea is to have your "one under" Pokémon lead, then have it use an attack. If the legendary goes first, switch to the capture Pokémon and continue the battle. If not, reset. This "one under" should preferably be of a high level, and not use any priority moves.</p>
+
+<p>However, there is a catch to using the "one under" Pokémon in the third generation. If you are one of the select few people who read the instruction booklet that accompanies the game, you will notice that once you gain a badge, your Pokémon's stats will increase. However, this is not a visible change; once you collect a badge for a certain stat, all Pokémon you capture will have their appropriate stat permanently given a Badge Modifier of x1.1. This only applies for a Pokémon once it is in your possession; legendaries will not have this modifier in effect whilst you are attempting to capture them. On the other hand, your "one under" Pokémon will. This means that your "one under" Pokémon needs to reach the desired Speed stat after the 1.1 modifier is applied to its stats.</p>
+
+<p>As an example, say you were using a Rapidash to be the "one under" Pokémon for Mewtwo. Assuming absolute maximum Speed, Mewtwo has a Speed stat of 228 at level 70. Rather than aiming for your Rapidash to have a Speed stat of 227, you would need to find what Speed stat it needs after the Badge Modifier modifier is applied. Sounds rather difficult to find out what speed is required, but it is actually quite simple if you use the following formula :</p>
+
+<pre>"One Under" Speed = floor(Legendary Speed / 1.1)</pre>
+
+<p>The operation "floor" simply means to round down whatever number is a result of the operations in brackets.</p>
+
+<p>Let's try this using the example of a 228 Speed Mewtwo.</p>
+
+<pre>
+"One Under" Speed = floor(228 / 1.1)
+"One Under" Speed = 207</pre>
+
+<p>Assuming you had 207 on its summary screen, this Rapidash should have 1 less Speed than a 228 Speed Mewtwo, once the Badge Modifier is in effect. To confirm your result, simply multiply the "One Under" Speed you found by 1.1, rounding down the result (Pokémon does not use decimals in stats).</p>
+
+<pre>floor(207 * 1.1) = 227</pre>
+
+<p>As you can see, calculating the Speed for your "one under" Pokémon is not very difficult at all.</p>
+
+<p>If you are going for a defensive legendary who is not concerned about outpacing certain threats, then you may wish to go for a different variation of the "one under" Pokémon that uses Endeavor. Endeavor is a move that takes the foe's Pokémon's HP down to the HP the Endeavor user currently has, but fails if the Pokémon using Endeavor has more HP than its target. This can be abused by giving your Endeavor Pokémon 1 less HP than the maximum HP of the legendary you are going for. If your "one under" Pokémon's Endeavor attack fails, then you know that the legendary you are fighting does not have the amount of HP you are looking for, so you can reset without having to capture it. If Endeavor takes the legendary's HP down, then you know it is fine to resume trying to capture it. However, this Pokémon must also be faster than the legendary, so it does not risk taking damage, which would result in a false positive. The Badge Modifier does not apply to HP, so finding a "one under" Endeavorer is quite straightforward.</p>
+
+<h3><a name="other_items">Other Items and Pokémon</a></h3>
+
+<p>Take another stop at a PokéMart; you'll want to buy a few Revives and Hyper/Max Potions/Full Restores if you're far enough in the game. Revives are also very useful; they keep your main capture Pokémon alive, as well as the rest of your party. About 30 Super Repels are almost mandatory too (these are actually more cost effective than Max Repels). Five or so Escape Ropes are useful to have, albeit not required. Zapdos likes to paralyze a lot, so Paralyz Heals are worth a mention if you do not wish to spend the money on Full Heals/Restores. You should always bring a team of three high-leveled Pokémon (the other two are HM slaves, but leveling them up is great).</p>
+
+<h3><a name="tricks">Tricks of the Trade</a></h3>
+
+<p>Before you go after even your first legendary, keep in mind a couple of tips:</p>
+<ul>
+<li>Always save before the legendary. For Ho-Oh, save before the last spot on the top of the mountain; it will fly down to you.</li>
+
+<li>Check the stats in the legendary's section before you save, and after you compare the stats and are interested, check them here: <a href="http://www.metalkid.info/Pokemon/OnlineProgram/Calculators/IV.aspx">Metalkid's IV Calculator</a>. You can use some Rare Candies and record the stats for each level if you wish, but for legendaries this is generally not necessary due to the higher base stats.</li>
+
+<li>Make sure you have a maximum of five Pokémon in your party whenever you are about to fight a legendary. This allows you to check the nature and stats of your legendary while it is in your party, saving you a trip back to a Pokémon Center to check Bill's PC.</li>
+
+<li>If you don't like the Pokémon, press A + B + Start + Select simultaneously. This is known as soft resetting. It is less stressful on your system than turning the power off and on again, and it saves time for you as well.</li>
+
+<li>Wait for a different amount of time in the title and menu screens when soft resetting. This helps prevent a repeated seed, and by extension, repeated legendaries. For more information see <a href="/ingame/rng/pid_iv_creation">X-Act's article on PIDs.</a></li>
+
+<li>Keep realistic expectations. If you're only willing to accept a legendary with quadruple 31 IVs, you could be there for a very long time. It is much harder to get a legendary Pokémon with great IVs than a bred one.</li>
+
+<li>Watch the HP bars if you're not using Master Balls. Compare the approximate damages done by your Pokémon to the HP of the legendary once you've caught it, and vice versa, with the legendary's Attack/Special Attack. This should help you out; if you do too much damage on a defensive legendary, you can reset without the battling process. The same goes for if an offensive one doesn't do enough damage to you.</li>
+
+<li>If a legendary runs out of Power Points for all its moves, it will use the move Struggle. Struggle is a typeless attack that causes 50% recoil of the damage done. So once a legendary starts to Struggle, it isn't long for this world, especially if you have previously used False Swipe to lower it to 1 HP. Note that Struggle can miss in this generation, so using accuracy reducing moves like Sand-Attack and Flash can potentially prolong the number of turns the legendary lasts, especially if you didn't reduce its HP to 1.</li>
+
+</ul>
+
+<h3><a name="raikou_entei_suicune">The Raikou/Entei/Suicune Factor</a></h3>
+
+<p>As you may or may not be aware, a member of the legendary trio from the Gold/Silver/Crystal era is available to you after obtaining the National PokéDex. In the vein of your Rival's starter, the legendary you are able to obtain has a type advantage over your starter Pokémon. This means if you chose Bulbasaur you can get Entei, if you chose Squirtle you can get Raikou, and if you chose Charmander, you can get Suicune. This legendary is unlike the others in two ways. The first of which is that it wanders the grasses (in Suicune's case, waters as well) of Kanto.</p>
+
+<p>The second way the legendary G/S/C trio is unique is that their nature and IVs are set upon fixing Celio's Machine on One Island. In addition to the fact that their IVs and nature are set, the IVs of the trio are victims of either an odd programming decision or a glitch; only their HP IV can be random, while the rest are set extremely low (typically in the 0-5 range). Despite what others may tell you, it is impossible to capture a competitive member of the G/S/C legendary trio in Kanto. This is due to the programming, not "luck", so it is a fact that these particular legendaries will always have bad IVs, and very often poor natures as well.</p>
+
+<p>Should you really want a good Raikou/Entei/Suicune in the third generation, your only option is to soft reset for them in Pokémon Colosseum for the GameCube (also compatible with the GCN's successor, the Wii), or obtain them at a special Nintendo event.</p>
+
+<h2><a name="catching">Catching the Legendaries</a></h2>
+
+<p>Now that you have some more knowledge, or at least something to reference, get out a piece of paper and a pencil. Be prepared to make a little tick mark every time a legendary uses a move, and put two ticks if your Pokémon has the ability Pressure. This will be used to reference the amount of PP the legendaries have before Struggling, which is listed in this section. Note that if your sleep-inducing Pokémon is faster than the legendary, it will use a PP (or two with Pressure) the turn it is put to sleep; and of course it still uses PP the turn it wakes. PP is not used up while the legendary is asleep.</p>
+
+<p>So, what order should you catch the legendaries in? The legendary birds are the only ones available before the National PokéDex, so you may wish to pursue them. It's logical to go for the lower-leveled legendaries first, and work your way up. For this guide, the legendaries will be listed in the order they are found in the National PokéDex; Raikou, Entei, and Suicune are excluded due to their non-competitive nature. Having said that, let's get started!</p>
+
+<h3><a name="articuno">Articuno</a></h3>
+
+<p>Like in the original games, Articuno waits in the Seafoam Islands, which can be reached by surfing to the east of Fuschia City. It is highly recommended to bring many Super Repels on the quest to capture Articuno, and use them as you run out. You will come across two large islands, however, only one is accessible at the moment. Enter the island to find a chilly, convoluted cavern. Articuno is hiding on a rock past some rapids, so the idea is to push enough boulders down to the bottom floor to make the water safe for Surfing.</p>
+
+<p>It takes two boulders to access the remaining two, making it four boulders in total you must move to reach Articuno. It awaits you on the bottom floor at level 50.</p>
+
+<h4>Articuno's Maximum Stats</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>165</td> <td>-</td>
+</tr>
+<tr>
+<td>Atk</td> <td>94</td> <td>105</td> <td>115</td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>108</td> <td>120</td> <td>132</td>
+</tr>
+<tr>
+<td>SpA</td> <td>103</td> <td>115</td> <td>126</td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>130</td> <td>145</td> <td>159</td>
+</tr>
+<tr>
+<td>Spe</td> <td>94</td> <td>105</td> <td>115</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Articuno's Moveset</h4>
+<ul>
+<li><a href="/rs/moves/mist">Mist</a> (30 PP)</li>
+<li><a href="/rs/moves/agility">Agility</a> (30 PP)</li>
+<li><a href="/rs/moves/mind_reader">Mind Reader</a> (5 PP)</li>
+<li><a href="/rs/moves/ice_beam">Ice Beam</a> (10 PP)</li>
+<li>Total PP = 75</li>
+</ul>
+
+<p>Articuno's moveset certainly leaves something to be desired. On the other hand, Articuno only has 10 PP to actually do anything to your Pokémon, which makes it pretty easy to just focus on the capture.</p>
+
+<h3><a name="zapdos">Zapdos</a></h3>
+
+<p>Zapdos is arguably the easiest of the legendary birds to find, located in a Power Plant near the Rock Tunnel. To reach it, Fly to the Pokémon Center nearest to the Rock Tunnel. Then, head Northwest to a large bunch of tall grass with a fence. Look for the gap in the fence, and Surf down the river found there. Follow the river down, then left, until you find a large building with a PokéManiac standing outside it. This is the Power Plant; inside is a sort of maze-like area full to bursting with wild Pokémon. The latter problem can easily be fixed using Super Repels. As for the maze itself, it is not too difficult, nor too punishing if you make a wrong turn.</p>
+
+<p>Zapdos is located in the northwestern region of the Power Plant, along with another exit. Whilst traversing the maze, you will want to head all the way east, then north, and finally, west. Zapdos awaits you at level 50.</p>
+
+<h4>Zapdos' Maximum Stats</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>165</td> <td>-</td>
+</tr>
+<tr>
+<td>Atk</td> <td>99</td> <td>110</td> <td>121</td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>94</td> <td>105</td> <td>115</td>
+</tr>
+<tr>
+<td>SpA</td> <td>130</td> <td>145</td> <td>159</td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>99</td> <td>110</td> <td>121</td>
+</tr>
+<tr>
+<td>Spe</td> <td>108</td> <td>120</td> <td>132</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Zapdos' Moveset</h4>
+<ul>
+<li><a href="/rs/moves/thunder_wave">Thunder Wave</a> (20 PP)</li>
+<li><a href="/rs/moves/agility">Agility</a> (30 PP)</li>
+<li><a href="/rs/moves/detect">Detect</a> (5 PP)</li>
+<li><a href="/rs/moves/drill_peck">Drill Peck</a> (20 PP)</li>
+<li>Total PP = 75</li>
+</ul>
+
+<p>Detect can be annoying, but fortunately it runs on a meagre 5 PP, so it shouldn't be a pain for very long. Thunder Wave is a bit more of a problem due to the fact that it has 20 PP, and can cause you to be fully paralyzed when trying to put Zapdos to sleep. Attending to the paralysis problem is necessary when it occurs for the aforementioned reason. Luckily, Drill Peck runs off of Zapdos' weaker Attack stat, so it doesn't reach its full destructive potential.</p>
+
+<h3><a name="moltres">Moltres</a></h3>
+
+<p>Veterans of Red/Blue/Yellow may be surprised to learn that Moltres no longer resides at Victory Road. Rather, it is found on Knot/One Island, at the peak of Mount Ember. Surf from the Southeast section of the island, and continue north until you stumble upon a cave. In here you may heal your Pokémon in the hot spring, and obtain the HM Rock Smash, though neither is required to catch Moltres. It is however, recommended to heal your party before you proceed. Continue heading north, until you reach Mount Ember. Head to the west once you reach a fork in the road, and you will find another cave. Make your way through it, and eventually you will find yourself higher up on the outside of Mt. Ember. Strategically use Strength to move the boulders out of the way, and then save in front of Moltres. It is fought at level 50.</p>
+
+<h4>Moltres' Maximum Stats</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>165</td> <td>-</td>
+</tr>
+<tr>
+<td>Atk</td> <td>108</td> <td>120</td> <td>132</td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>99</td> <td>110</td> <td>121</td>
+</tr>
+<tr>
+<td>SpA</td> <td>130</td> <td>145</td> <td>159</td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>94</td> <td>105</td> <td>115</td>
+</tr>
+<tr>
+<td>Spe</td> <td>99</td> <td>110</td> <td>121</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Moltres' Moveset</h4>
+<ul>
+<li><a href="/rs/moves/fire_spin">Fire Spin</a> (15 PP)</li>
+<li><a href="/rs/moves/agility">Agility</a> (30 PP)</li>
+<li><a href="/rs/moves/endure">Endure</a> (10 PP)</li>
+<li><a href="/rs/moves/flamethrower">Flamethrower</a> (15 PP)</li>
+<li>Total PP = 70</li>
+</ul>
+
+<p>Though you may be tempted to hammer Moltres with your strongest attacks because it has Endure, there is only a one in four chance it will use said move, thus it is safer to weaken it via False Swipe like anything else. While Endure can mess with the "one under" strategy due to its positive priority, Moltres isn't too much of a challenge to deal with, moveset-wise. Full Restores will get rid of burns and damage taken from Flamethrower, and Leftovers can help negate the continual damage taken from Fire Spin.</p>
+
+<h3><a name="mewtwo">Mewtwo</a></h3>
+
+<p>Perhaps the most famous legendary Pokémon of all time, Mewtwo waits in the Cerulean Cave, known as the "Unknown Dungeon" in the original Red/Blue/Yellow games. As the name would suggest, Cerulean Cave is not too far from Cerulean City, and is available to explore upon defeating the Elite Four at least once. To reach it, head up the bridge where you fought the Team Rocket Grunt for the Nugget, then Surf down the water to your left. Continue heading left until you reach a cave.</p>
+
+<p>Once you are inside the cave, surf to the patch of land in the southwestern corner. Climb the rock formation to the right, then pass the ladder on the said rock formation. Instead, proceed up the ladder standing on a lone rock, and follow it to another ladder leading down. You will find yourself in a maze-like floor; take the path leading down, then proceed to take every path leading right, and eventually you will begin heading up. Head to the right, then descend the ladder to end up on the last floor. From here, it is a simple matter of navigating the bottom floor until you reach the large body of water. Surf to another rock formation, where Mewtwo stands, waiting. It is fought at level 70.</p>
+
+<h4>Mewtwo's Maximum Stats</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>250</td> <td>-</td>
+</tr>
+<tr>
+<td>Atk</td> <td>162</td> <td>180</td> <td>198</td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>136</td> <td>152</td> <td>167</td>
+</tr>
+<tr>
+<td>SpA</td> <td>217</td> <td>242</td> <td>266</td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>136</td> <td>152</td> <td>167</td>
+</tr>
+<tr>
+<td>Spe</td> <td>187</td> <td>208</td> <td>228</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Mewtwo's Moveset</h4>
+<ul>
+<li><a href="/rs/moves/swift">Swift</a> (20 PP)</li>
+<li><a href="/rs/moves/recover">Recover</a> (20 PP)</li>
+<li><a href="/rs/moves/safeguard">Safeguard</a> (25 PP)</li>
+<li><a href="/rs/moves/psychic">Psychic</a> (10 PP)</li>
+<li>Total PP = 75</li>
+</ul>
+
+<p>In the original Red/Blue/Yellow games, Mewtwo was often known as the most difficult Pokémon to capture. While its capture rate is identical to that of the legendary birds', and many new legendary Pokémon, its moveset makes catching it a pain. Safeguard will prevent you from putting Mewtwo to sleep for five turns, while it can Recover to restore health. Psychic can also put a nice dent into Pokémon that do not have good Special Defense/HP, or resist it. Luckily, Mewtwo is among the legendaries that have higher PP, so it should not resort to Struggling too quickly, despite the fact that it may be awake more often than one would like.</p>
+
+<h3><a name="lugia">Lugia</a></h3>
+
+<p>Lugia can only be obtained via a special Nintendo event, along with its counterpart Ho-Oh. Once you receive the MysticTicket from said event, talk to the sailor in Vermilion City. He will notice your special ticket, and is able to take you to Navel Rock. Once you arrive there, you will notice an entrance to the Navel Rock. However, there are no wild Pokémon inside, other than Lugia and Ho-Oh, so there is no need to use any Super Repels. Unfortunately, an Escape Rope cannot be used to exit either. Start by heading down the stairs, then down the next set of stairs on the floor below. You will find yourself in a long hallway; head all the way down the hall until you reach the wall at the end, with two paths. One will lead right to Lugia, and the other will lead left to Ho-Oh.</p>
+
+<p>Head to the right, and you will come across a set of stairs heading down. Now you must keep heading down several floors, until eventually, you will find yourself in the watery bottom floor of Navel Rock. Lugia is sitting there patiently, and will let you walk right up to it and save. It is level 70.</p>
+
+<h4>Lugia's Maximum Stats</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>250</td> <td>-</td>
+</tr>
+<tr>
+<td>Atk</td> <td>136</td> <td>152</td> <td>167</td> 
+</tr>
+<tr class="a">
+<td>Def</td> <td>187</td> <td>208</td> <td>228</td>
+</tr>
+<tr>
+<td>SpA</td> <td>136</td> <td>152</td> <td>167</td> 
+</tr>
+<tr class="a">
+<td>SpD</td> <td>217</td> <td>242</td> <td>266</td>
+</tr>
+<tr>
+<td>Spe</td> <td>162</td> <td>180</td> <td>198</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Lugia's Moveset</h4>
+<ul>
+<li><a href="/rs/moves/recover">Recover</a> (20 PP)</li>
+<li><a href="/rs/moves/hydro_pump">Hydro Pump</a> (5 PP)</li>
+<li><a href="/rs/moves/rain_dance">Rain Dance</a> (5 PP)</li>
+<li><a href="/rs/moves/swift">Swift</a> (20 PP)</li>
+<li>Total PP = 50</li>
+</ul>
+
+<p>Recover complements Lugia's ability to shrug off most hits—which is unfortunate for one who is trying to weaken and capture it. Fortunately, Lugia is not too threatening offensively—Swift has low Base Power, and while Hydro Pump under the rain is as powerful as a STAB attack, it has low PP and accuracy. It may be worth it in the long run to boost your catcher's Attack when dealing with Lugia, allowing you to make an investment of time early on, rather than repeatedly spending the time and PP weakening it.</p>
+
+<h3><a name="ho_oh">Ho-Oh</a></h3>
+
+<p>Ho-Oh can only be obtained via a special Nintendo event, along with its counterpart Lugia. Once you receive the MysticTicket from said event, talk to the sailor in Vermilion City. He will notice your special ticket, and is able to take you to Navel Rock. Once you arrive there, you will notice an entrance to the Navel Rock. However, there are no wild Pokémon inside, other than Lugia and Ho-Oh, so there is no need to use any Super Repels. Unfortunately, an Escape Rope cannot be used to exit either. Start by heading down the stairs, then down the next set of stairs on the floor below. You will find yourself in a long hallway; head all the way down the hall until you reach the wall at the end, with two paths. One will lead right to Lugia, and the other will lead left to Ho-Oh.</p>
+
+<p>Head to the left, and you will come across a set of stairs heading up. Now you must keep climbing up several small floors, until eventually, you will find yourself at the peak of Navel Rock. Ho-Oh is nowhere in sight, but there is a rock you can ascend with three spaces to walk. Save on the first space; once you reach the second, Ho-Oh will fly down to battle you. It is at level 70.</p>
+
+<h4>Ho-Oh's Maximum Stats</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>250</td> <td>-</td>
+</tr>
+<tr>
+<td>Atk</td> <td>187</td> <td>208</td> <td>228</td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>136</td> <td>152</td> <td>167</td>
+</tr>
+<tr>
+<td>SpA</td> <td>162</td> <td>180</td> <td>198</td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>217</td> <td>242</td> <td>266</td>
+</tr>
+<tr>
+<td>Spe</td> <td>136</td> <td>152</td> <td>167</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Ho-Oh's Moveset</h4>
+<ul>
+<li><a href="/rs/moves/recover">Recover</a> (20 PP)</li>
+<li><a href="/rs/moves/fire_blast">Fire Blast</a> (5 PP)</li>
+<li><a href="/rs/moves/sunny_day">Sunny Day</a> (5 PP)</li>
+<li><a href="/rs/moves/swift">Swift</a> (20 PP)</li>
+<li>Total PP = 50</li>
+</ul>
+
+<p>While Ho-Oh's Special Attack is its lower offensive stat, it is certainly not weak by anything but Uber standards; even then it would be merely "below average." Having said that, STAB Fire Blast in the sun will definitely hurt anything without a good amount of HP/Special Defense, or that does not resist Fire. Having Full Restores handy is a great idea, even given the below average accuracy and low PP of the move. Despite Ho-Oh's 130 base attack, Swift isn't too powerful. While Ho-Oh has a nice HP stat, its Defense is only passable, making it easier to continually weaken than its counterpart, Lugia.</p>
+
+<h3><a name="deoxys">Deoxys</a></h3>
+
+<p>Deoxys is the newest legendary available in FireRed and LeafGreen, albeit only accessible via a special event. Once you receive the Aurora Ticket from said event, talk to the sailor in Vermilion City. He will notice your special ticket, and is able to take you to Birth Island. Upon arriving there, you will notice an odd, triangular shaped rock. After you touch it by pressing A, it will become hot, and shift to a different place on the island. The objective is to reach the rock in as few steps as possible, then touch it. This will make it shift to a different spot on the island. Once it is glowing bright red, and sitting at the top of the island, head to it as you normally would, but save before touching the rock again. Once you do, it will explode for some reason, and Deoxys will confront you.</p>
+
+<p>Depending on what version you are playing, Deoxys will have a different moveset, and more interesting, different stats after the battle. In FireRed, you will end up with an Attack table class=s Attack when dealing with Lugia, allowing you to make an investment of time early on, rather than repeatedly spending the time and PP weakening it.thForme Deoxys, and in LeafGreen, Deoxys will take on its Defense Forme. During battle however, Deoxys' stats are the same in both versions; it takes all its Formes' HP, and its Attack Forme's Speed. Deoxys is fought at level 30 in both versions.</p>
+
+<h4>Deoxys-A's Maximum Stats</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>79</td> <td>-</td>
+</tr>
+<tr>
+<td>Atk</td> <td>109</td> <td>122</td> <td>134</td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>23</td> <td>26</td> <td>28</td>
+</tr>
+<tr>
+<td>SpA</td> <td>109</td> <td>122</td> <td>134</td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>23</td> <td>26</td> <td>28</td>
+</tr>
+<tr>
+<td>Spe</td> <td>93</td> <td>104</td> <td>114</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Deoxys-A's Moveset</h4>
+<ul>
+<li><a href="/rs/moves/taunt">Taunt</a> (20 PP)</li>
+<li><a href="/rs/moves/pursuit">Pursuit</a> (20 PP)</li>
+<li><a href="/rs/moves/psychic">Psychic</a> (10 PP)</li>
+<li><a href="/rs/moves/superpower">Superpower</a> (5 PP)</li>
+<li>Total PP = 55</li>
+</ul>
+
+<h4>Deoxys-D's Maximum Stats</h4>
+<table class="sortable">
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>79</td> <td>-</td>
+</tr>
+<tr>
+<td>Atk</td> <td>50</td> <td>56</td> <td>61</td>
+</tr>
+<tr class="a">
+<td>Def</td> <td>99</td> <td>110</td> <td>121</td>
+</tr>
+<tr>
+<td>SpA</td> <td>50</td> <td>56</td> <td>61</td>
+</tr>
+<tr class="a">
+<td>SpD</td> <td>99</td> <td>110</td> <td>121</td>
+</tr>
+<tr>
+<td>Spe</td> <td>61</td> <td>68</td> <td>74</td>
+</tr>
+</tbody>
+</table>
+
+<h4>Deoxys-D's Moveset</h4>
+<ul>
+<li><a href="/rs/moves/knock_off">Knock Off</a> (20 PP)</li>
+<li><a href="/rs/moves/psychic">Psychic</a> (10 PP)</li>
+<li><a href="/rs/moves/snatch">Snatch</a> (10 PP)</li>
+<li><a href="/rs/moves/pursuit">Pursuit</a> (20 PP)</li>
+<li>Total PP = 60</li>
+</ul>
+
+<p>Deoxys is generally easier to capture in LeafGreen thanks to its higher PP and lack of Taunt. Taunt prevents you from putting Deoxys to sleep the next turn (or in the same turn if Deoxys is faster), which can be annoying. However, Knock Off is a nuisance.</p>
+
+<p>After catching all of the legendaries that you are able to, feel free to capture whichever Johto legendary corresponds to your starter, for completion's sake. However, the above legendaries are the only ones with competitive viability caught in FireRed and LeafGreen; congratulations if you have caught them all!</p>

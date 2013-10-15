@@ -1,0 +1,167 @@
+[title]
+Applied Planning for Villagers
+[head]
+<link href="/media/smog/smog.css" type="text/css" rel="stylesheet" />
+[page]
+<div class="author"> By <a href="/forums/member.php?u=33438">UncleSam</a>. Art by <a href="/forums/member.php?u=14288">Fatecrashers</a>.</div>
+<table id="smogheader">
+<tr>
+<td class="left"><a href="japanese">&laquo; Previous Article</a></td>
+<td class="middle"><a href="/smog/issue12/">Home</a></td>
+<td class="right"><a href="art">Next Article &raquo;</a></td>
+</tr>
+</table>
+
+<div style="text-align: center;"><p><img src="http://shaym.in/r/mafia_swanna.jpg" alt="" /></p></div>
+ 
+<p><em>Note that this article assumes you are leading the  village, and have collected claims from every player, or nearly every  player. This is also meant to be a more in-depth, intricate, and applied  guide on village leading than Mekkah's excellent basic guide, found  <a  href="http://www.smogon.com/smog/issue6/village">here</a>. If  you are looking for a guide on obtaining the trust of the village, or  for something more basic and general, I highly recommend  it.</em></p>
+
+<h2>Introduction</h2>
+
+If one thinks about it, ultimately the outcome of a given mafia game has  no direct connection to the discussions that many perceive as the  essence of mafia. True, talks lead to actions, and can greatly aid in  determining actions which expedite victory, but the final result of who  wins and who loses is determined solely based on who does what, with  what role, when. Once one refocuses their attention to this fact, it  becomes obvious that abilities and votes are not something to be taken  lightly, just as a chess player would not take his opening moves  lightly, even though he or she is unlikely to seriously alter his or her  chances of victory. With this in mind, planning one's resource use is  imperative. 
+
+<h2>Part I: The Process of Planning</h2>
+
+<h3>1. Determine your immediate goals, and prioritize them.</h3>
+
+<p>This seems like a no-brainer, but it is remarkable how often  people do things in the absence of any plan or goal whatsoever. Your  goals will vary based on the game format you are playing, but some basic  village goals early game include figuring out who is lying about their  role, checking as many roles for validity as possible, and getting the  major roles cleaned without giving away too much to possibly  untrustworthy players. Remember that just because one decides to focus  on cleaning as many roles as possible does not mean that one should give  up on the other priorities they have entirely.</p>
+
+<h3>2. Draft a plan</h3>
+
+<p>This is the most intuitive step to planning, as well as the one  most often overlooked early game: setting up a plan of attack. Most  people in the early game are content to give the inspector a few nights  to "clean" people, while losing hookers and safeguards on random  "suspicious" people, gaining relatively nothing. There are ways apart  from an inspector of checking other's roles, and every bit of  information is vital both in planning the next day's lynch, but in  determining future night actions as well. It is worth noting that  verifying someone's role is not the same as verifying their alliance,  however. Here are a few roles that are easy to check without using up  your inspector, who should generally be checking the important roles  (bodyguard, hooker) during night 1:</p>
+
+<h4>The safeguard + two (or more) others</h4>
+
+<p>This basically entails putting a safeguard claim on someone  random, and putting two or more other roles on that same person. The  idea is to figure out not only if your safeguard can legitimately block  night actions, but also whether or not others actually have a night  action, and targeted the person you told them to. Several outcomes are  possible from this, each of which is highly beneficial to the village.  Firstly, the safeguard could successfully block all actions, which  proves both the safeguard's role, and that each of the other roles  targeted the test subject player with their role. Although boring, this  essentially amounts to a little more information then a regular night  action inspector.</p>
+
+<p>The far more entertaining outcomes are the ones that involve  someone lying, however. Firstly, the safeguard could fail to block any  of the actions, which implies that the safeguard is either lying about  his or her role or targeted someone else. This basically amounts to the  safeguard claim being mafia, and the overall outcome amounts to an  alliance check. Even better is if the safeguard blocks one action but  not the other. This suggests that not only is the safeguard mafia, but  the person whose action was blocked is also mafia, and is covering for  his or her teammate in faking results. Note that the other possibility  here is that the person whose action was not blocked is mafia, and  targeted someone else. This is why it is sometimes helpful to have more  than two roles apart from the safeguard on the test subject, as it is  highly unlikely you will randomly select two or three mafia, and if you  do and mislynch the next day (the worst case scenario), you have  discovered all of them, another beneficial situation. Note that in some  of these cases all that you get is a confirmation or denial of the role  claimed, and not necessarily the alliance.</p>
+
+<h4>The martyr + one other</h4>
+
+<p>This is pretty simple: have the martyr target someone with a  role, preferably something that is distinctive (such as a thief or  silencer), and have the person with that role target someone else. If  the person is not redirected, obviously the martyr is lying. If the  person is redirected, however, is where the fun can begin. Some roles  are indiscernible from the martyr's point of view, such as inspectors or  bodyguards, but some can be confirmed both ways with the martyr, such  as silencers, thieves (if the martyr has an item), or persuaders. Note  that the gains from a plan such as this hinges almost as much on what  the martyr observes from being targeted as the other player being  redirected.</p>
+
+<h4>Multiple inspector claims</h4>
+
+<p>This involves not only a reasonable number of inspector claims,  such as one alliance checker and one full inspector, but something  which could not possibly be true, such as three full inspectors and an  alliance checker, or something along those lines, where you know someone  is lying. Should you allow possible enemy inspectors to be given, and  check for themselves the identities of your most precious commodities as  a village leader? Ultimately much of this comes down to which claims  you believe, something I cover later in this article, but a good rule of  thumb to play by is as follows: build from the bottom up. What I mean  by this is, establish a list of inspector claims based both on how  powerful they are (so full inspector is "more powerful" then ability  checker, who is "more powerful" then flavor checker, etc.) and how much  you believe them. Your "base" is the inspector you believe the most,  whilst at the top of the list is the claim you believe the least. The  inspectors you trust should check the inspector at the very bottom,  while the inspector you do not trust should inspect an unimportant role,  but preferably someone who is being checked in the inspector's area  (ie, have the "alliance checker" check someone whose alliance you are  testing by other means that night, etc.). Ultimately inspectors can be a  guessing game early on; evaluating whom they are checking is the  foundation for a solid strategy at night.</p>
+
+<h4>Vigilante and rogue, BPV, or immunity</h4>
+
+<p>Let me start this option off with a few qualifiers. First,  don't use up vigilante kills in order to clean people unless you have no  good mafia targets and his kills are based on nights in such a way so  that his only other option is to idle and lose his kill. Lastly,  cleaning the rogue will require the rogue knowing your vigilante claim,  so be very careful what you tell the rogue, and make sure to either tell  him the vigilante is a good mafia suspect, or just a rand. Anyhow, this  is fairly self-explanatory: the vigilante will kill someone who is  supposed to survive, and if they survive, they were telling the truth.  This is honestly a pretty bad form of cleaning though, and highly  situational, given the possibility of mafia bodyguards, or wolves using  their BPVs as part of their claim. Nevertheless, it is potentially  useful in some situations, and so should not be dismissed  automatically.</p>
+
+<p>Again, all of these plans carry some amount of risk to them,  and very few of them completely clean someone. Judging risk tends to  come down to a personal preference. There is one thing you should always  do when leading, however: clean someone completely, and designate that  person as your successor (obviously this person should not be the  bodyguard, or a similar role). Nothing is worse then when you have a  plan, and it gets ruined because something you didn't expect kills you,  and no one alive knew anything about what you were doing.</p>
+
+<h4>3. Re-evaluate the plan based on long-term goals</h4>
+
+<p>This is why it is important to establish one's goals for a  given night before anything else; more times than not, one gets  sidetracked and overlooks something incredibly important. There are  several important questions one must ask oneself before finalizing a  plan: What are the risks/worst-case scenarios? Do the benefits outweigh  the risks? Am I sticking to my goals, or am I substituting lesser goals  in for greater ones unwittingly? What will the result be, and how will  it set up my plans for tomorrow, the night after, and beyond? All of  these questions, particularly the last one, are imperative to planning  for a victory.</p>
+
+<h2>Part II: The Role of Trust</h2>
+
+<p>As a village leader you are guaranteed to get some fake claims.  Obviously you will test as many of your claims as possible out, using  some of the methods I described in Part I, but a big part of planning  includes trusting some people over others. There are a few basic rules  of thumb to follow when trying to figure out who is faking:</p>
+
+<h4>Ask the host if the mafias are supplied with fake claims</h4>
+<p>Kinda obvious, but a lot of people don't do this, and it is not  always in the rules. The host(s) will not always tell you, but it is  definitely worth a try.</p>
+<h4>Look for consistencies with your own PM</h4>
+<p>Oftentimes the villagers will have something in their PMs that  links them together, generally in the last sentence of the opening,  flavor paragraph. This, along with the exact formatting of night  actions, exact formatting of host names, pronoun usage, and exact win  conditions can all help determine who is faking and who is legit.  </p>
+<h4>Expect an inspector and bodyguard claim. Be wary of multiple claims of any role</h4>
+<p>Hosts like to have variety among their villages, and very  rarely do they include duplicates of roles, except perhaps in the case  of the inspector (this is something I, for one, have done before as a  host). However, multiple thief, hooker, safeguard, or martyr claims are  generally giveaways that something is amiss, as are too many total kills  (there is often more then one vigilante, but rarely more then about 3  kills per game for the village, maximum).</p>
+<h4>Look for grammar errors, strange role names, or awkwardly phrased sentences out of character for the host</h4>
+<p>This is the part of my advice most often used as a basis for a  lynch, and is also the part most often used as the basis for a mislynch.  This is why I include "for the host" at the end&mdash;it really  dictates which claims are believable, and which are not. Some hosts are  terrible at writing grammatically, and some are nearly perfect; sadly,  it is often a judgment call as to whether a PM is fake based on this,  which is why so many mislynchs are based off of this kind of  evidence.</p>
+<p>Much of knowing how to spot claims is already known, and  honestly, it is something a little practice will teach just about  anyone. Knowing how to apply trust of a claim to planning is a little  harder, however. </p>
+
+<h2>Part III: Case Study, Redwall Mafia</h2>
+
+
+<p>I realize that the last few parts of this piece may have seemed  somewhat contrived or abstract, which is why I would like to give a  real example from my own experience. In Redwall Mafia I found myself in  the peculiar position of having nineteen out of the twenty-three other  players claim to me during Night 0 (just a role description and role  name, not full PM due to the rules), which made it doubly difficult to  plan ahead, as I had no basis of a PM to go on, just vague descriptions.  I was twin and a flavor checker, while my twin was a total night  actions number checker. First, my claims:</p>
+
+<ul>
+<li>zorbees (bodyguard), Fangren (full inspector), DaLetterEl  (miller), assassinfred (priority changer), Bish (safeguard), Crux  (announcer), Xyphang (persuader), Exarius (rogue), Altair (role name  inspector), improbability (seeress, should he die, his target will have  his or her role PM displayed in public), askaninjask (mayor), coolking49  (martyr), hailflameblast (hooker), bunnymaster (redirector), ABT620  (safeguard), Team Aether (killer checker), HD (post restrictor), and  j-sqaured (ability inspector)</li>
+<li>Did not claim: jigglypuffers42, Nook, Kharozz, RaRe555</li>
+</ul>
+
+<p>First of all, that is a lot of information to process, and one  needs to put it into a spreadsheet rather than hope it stays swirling  around in the ethers of one's head, because otherwise one will make  mistakes. I decided to start by determining priorities for  myself:</p>
+
+<ol>
+<li>Find as many mafia as possible</li>
+<li>Prove as many roles as possible</li>
+</ol>
+
+<p>Note that I did not include cleaning anyone because it was Night 0, and so I could not be killed.</p>
+
+<p>In any case, I first listed a few initial observations I had:</p>
+
+<ul>
+<li>I have two safeguard claims.</li>
+<li>I have a full inspector claim, 4 other lesser inspector  claims, and two proven lesser inspectors in myself and my  partner.</li>
+<li>Only one hooker and one bodyguard claim, making both of them likely to be villagers.</li>
+</ul>
+
+<p>Now then, my plan: </p>
+
+<ul>
+<li>Fangren inspects me (he insisted on this; it would have been  nice to have an additional full inspector for use, but it couldn't be  helped)</li>
+<li>Crux given specific instructions for announcement</li>
+<li>Bish safeguards Crux, ABT620 safeguards Team Aether for a chain</li>
+<li>zorbees protects Exarius, bunnymaster redirects zorbees to Team Aether</li>
+<li>Assassinfred told to raise Crux's priority</li>
+<li>HD told to put a posting restriction on Kharozz</li>
+<li>Altair checks DLE for role name, j-squared checks ABT620 for ability, I check Altair for flavor</li>
+</ul>
+
+<p>These were the important aspects of my plan. The first thing to  notice is that I am completely verifying Crux's role, or completely  finding him out: if he is an announcer and succeeds, I will see it,  however, I am putting a safeguard on him to ensure he is not hooked, and  a priority raiser on him just in case the safeguard claim is not  trustworthy, and the mafia try to hook him. Thus, I determine whether or  not Crux is an announcer, under any circumstances. It is worth noting  that just because Crux is an announcer, however, does not guarantee that  he is "clean".</p>
+
+<p>The second thing to notice is the chain ending in the safeguard  on Team Aether, my "test subject". As my only bodyguard claim, zorbees  is among my most trustworthy claims, and so I have few qualms in relying  on him to tell the truth. First, Bunnymaster will redirect him, then he  should be blocked by ABT620, whose role I will check as a result, along  with Bunnymaster's. I will check HD's role by him putting a posting  restriction on Kharozz and seeing what happens, while I will check  ABT620 for his ability in order to have a secondary check on him should  Bunnymaster be lying, and I will personally check Altair in order to  make sure his report on DLE is trustworthy. Thus, I am checking, in all,  8 people (Crux, ABT620, Altair, DLE, J-Squared, Bunnymaster, Bish, HD)  in full, and several others (Assassinfred, Fangren) partially or  conditionally, using only 12 night roles. I was originally planning on  more, but several persons (HFB, coolking49) chose to ignore my orders  and do their own thing. Still, I patted myself on the back after issuing  orders, and went to sleep. I was done, right?</p>
+
+<p>Wrong.</p>
+
+<p>I woke up to see an update with a rather unpleasant surprise  for myself: I was kidnapped! Although my planning had gone decently, I  wasn't there to sort through it, because I hadn't asked myself one  simple question: What could go wrong? I had two safeguard claims, yet  all I was thinking of was clearing people's roles, rather than what  detrimental stuff could happen. I completely ignored the possibility of  loss, and it came back to bite me. Fortunately, however, my oversight  only cost me a cycle out of the game&mdash;after all, the reason I  overlooked it in the first place was that it was not a big threat.  </p>
+
+<p>Fast forward to Night 2.</p>
+
+<p>ABT620 and Bunnymaster had both died during Night 1, and both  had been exactly as they had claimed. I had lynched the mafia mole, HD,  during Day 2. Additionally, through various discussions, I had  determined that Exarius, Team Aether, and Johann (who had been subbed in  for Bish) were on one mafia team, along with an unknown, while Kharozz,  Xyphang, the deceased HD, and an additional unknown were on the other  team. Along with this, the_angry_scientist (who had been subbed in for  assassinfred) was the wolf, with a kill and inspect. I had also gotten  claims from Nook (1-Time vigilante), Jigglypuffers42 (Killer should Nook  die), and RaRe555 (Ability copier, had copied coolking49's martyr). I  had also discovered that Altair was a neutral that needed certain  players dead, including one of the mafia. Now, it had taken quite a bit  of work the past day for me to get to this position, and I was  determined to drive a stake through the heart of all opposition to the  village that night. With this in mind, I again set up some priorities  for myself:</p>
+
+<ol>
+<li>Kill as many mafia as possible.</li>
+<li>Prevent any possibility of an alliance between the mafias or  the wolf from having any conceivable chance of victory.</li>
+</ol>
+
+<p>Fortunately for me, I had made a "deal" with one of the mafia  to control their silencer and safeguard, which gave me an interesting  combination of roles to crush the opposition with. Here was my  plan:</p>
+
+<ul>
+<li>Tell Nook to kill Team Aether, both a confirmed member of Mafia A and known to not be their silencer.</li>
+<li>Have Fangren inspect Improbability (bad role claim), have  Altair check Xyphang for his role name (silencer on one mafia means the  persuader claim is on the other mafia, likely); I check askaninjask for  flavor (mayor should not have flavor).</li>
+<li>Tell Mafia A to Silence Kharozz (will not silence one of their  own if I am commanding them to do it), safeguard me (against kidnaps;  village gets vigilante if I die so they will not kill me).</li>
+<li>Tell Xyphang to persuade Kharozz (set up godkill).</li>
+<li>Tell RaRe555 to martyr improbability (check what role he is).</li>
+<li>zorbees protect hailflameblast (most valuable role not being  safeguarded), hailflameblast to hook Kharozz (could well be  kidnapper).</li>
+<li>Tell wolf to kill j-squared, going back to one of my original observations (too many inspectors). </li>
+</ul>
+
+<p>Now, let's examine the kills I set up first:</p>
+
+<ul>
+<li>Wolf should kill a member of Mafia A, leaving them at 3 men.  Wolf is likely to do this, since he knows I could kill or lynch him at  any time.</li>
+<li>Have my 1-time vigilante kill a member of Mafia A, as I am  godkilling the only known non-persuader on the other mafia  team.</li>
+<li>Godkill Kharozz. Mafia A will silence him because they will  follow our pact, while Mafia B should do it because I have not given  away that I know their persuader is mafia yet, and will want to prove  his role. Tell the persuader (Xyphang) I will put a watcher on him, in  order to make sure he actually persuades Kharozz.</li>
+</ul>
+
+<p>From the looks of this, there will be 2 of each mafia left,  along with one wolf. Then we lynch one of the mafia, and have such a  crushing numbers advantage and information advantage that we will win.  Note that I don't care if I die or not, as my twin becomes a vigilante  in that case, while I have long ago appointed several successors should I  die. The only kill I am not controlling is the kill of Mafia A anyway.  </p>
+
+<p>Also note that I am checking several suspects for the last few  spots in the mafia, while I make the call to kill one of my inspectors,  as I have too many, and the rest have been cleaned. Now, remembering  back to Night 0, I examine the worst case scenarios. What if I die?  Well, I have set up the village for certain victory in that case. Sadly  though... that's all this plan takes into account. The thing I got  bitten for Night 0. Of course, there is more then one thing that can go  wrong with a plan, but, again, what I have overlooked costs me, even if  it doesn't cost me much, and I have overlooked it for that very  reason.</p>
+
+<p>Results: Team Aether and J-Squared die. Both members of Mafia  A. Xyphang and Improbability are inspected as Mafia B. All members of  the mafia, and the wolf, are known.</p>
+
+Now, I was fortunate enough to avoid being killed, and the village  avoided the kill from Mafia A due to priorities. However, something  puzzles me&mdash;why didn't Kharozz, a member of Mafia B, get  godkilled? Did I overlook something? Of course, it is not until RaRe555  posts in the thread that I realize that, again, I have overlooked  something that could have been vitally important: I told him to martyr  Improbability. What didn't occur to me was that Improbability was the  persuader, not Xyphang. Then I reexamined my orders, and realized  something: why did I have RaRe555 martyr Improbability? It served no  purpose; it was essentially a victory random target, yet it had come  back and cost me a kill. Now, the village was routing this game so it  didn't really matter, but in closer games one kill is the difference  between victory and defeat. 
+
+<p>So, what was the purpose of me sharing this little experience  of mine with you all? Well, quite simply, to show that everyone makes  mistakes, and that mistakes are pretty much inevitable. You will  overlook something, and it will cost you. The key, however, is to plan  ahead for as many possibilities as you can, and to make your actions as  efficient as possible; after all, nothing is over until your enemy is  completely defeated. The one person you neglect may be the one who turns  your rout victory into a stunning defeat. Also recognize that, in most  cases, there is something more you can be doing, and should be doing.  </p>
+
+<h2>Conclusion</h2>
+
+<p>When you are in command, put in the time to make a plan.  Nothing runs a village into the ground faster than if the village leader  is disregarding important aspects of his or her team, and letting those  resources go to waste. This also ties in with the need to get organized  as quickly as possible; every night where the village lacks a cohesive  plan is another night wasted. Randoming does not win games, planning  does. Plan well, plan thoroughly, and plan often; if you don't, you may  find what you did not see coming is what smarts the most.</p>
+ 
+<table id="smogfooter">
+<tr>
+<td class="left"><a href="japanese">&laquo; Previous Article</a></td>
+<td class="middle"><a href="/smog/issue12/">Home</a></td>
+<td class="right"><a href="art">Next Article &raquo;</a></td>
+</tr>
+</table>

@@ -1,0 +1,137 @@
+[title]
+Great Moments in Smogon History
+[head]
+<link href="/media/smog/smog.css" type="text/css" rel="stylesheet" />
+<style type="text/css">
+.time {    
+border-bottom: 1px solid #e7ebf2;
+display: block;
+height: 10px;
+margin-left: 10px;
+padding-bottom: 15px;
+}
+
+.inside {
+padding: 10px;
+}
+
+#timeline {
+background: url('/media/upload/smog/issue23/history_bg.png') repeat-y;
+margin-left: 5px;
+padding: 25px 25px 15px 15px;
+}
+
+#timeline .event {
+background-color: #fff;
+border: 1px solid #304fc4;
+margin-bottom: 15px;
+min-width: 375px;
+padding: 5px;
+width: 40%;
+}
+
+#timeline .event .side {
+background: url('/media/upload/smog/issue23/history_side.png');
+height: 15px;
+margin-left: -25px;
+position: absolute;
+width: 20px;
+}
+</style>
+[page]
+<div class="author">By <a href="/forums/member.php?u=14288">Fatecrashers</a>. Art by <a href="/forums/member.php?u=73434">Bummer</a>.</div>
+<table id="smogheader">
+<tr>
+<td class="left"><a href="arterview">« Previous Article</a></td>
+<td class="middle"><a href="/smog/issue23/">Home</a></td>
+<td class="right"><a href="christmas_party">Next Article »</a></td>
+</tr>
+</table>
+ 
+<h2>Timeline</h2>
+
+<div id="timeline">
+
+<div class="event">
+<div class="time"><h3>96 AD</h3></div>
+<div class="side"></div>
+<div class="inside"><p>According to theological scholars, the idea of Smogon has indeed been prophesied in the Bible, as evidenced by Revelations 15:8&mdash;"And the plateau was filled with smoke from the glory of a purple levitating orb and its power; and no man was able to approach the plateau, 'til the eight acts of the eight angels were fulfilled."</p></div>
+</div>
+
+<div class="event">
+<div class="time"><h3>1732</h3></div>
+<div class="side"></div>
+<div class="inside"><p>Benjamin Monsanto publishes <em>Poor Smogon's Almanack</em>, which contains precursors to the modern Smogon Pok&eacute;mon analyses, in addition to the usual calendar, astronomical information, and weather forecasts for gullible people who believed that the weather could be predicted accurately for up to a year in advance. <em>Poor Smogon's Almanack</em> is also remembered for its bounty of aphorisms, such as "One Dragon Dance today is worth two tomorrow" and "Diligence is the mother of good hax".</p></div>
+</div>
+
+<div class="event">
+<div class="time"><h3>1851</h3></div>
+<div class="side"></div>
+<div class="inside"><p>Theodore "Teddy" Monsanto founds Smogon University in order to bring Pok&eacute;mon education to the masses. "The Smog" is also established at this time as a newsletter for the university, with the slogan being "All the Pok&eacute;mon that's fit to print". Teddy Monsanto's hirsute ursine features would eventually make him the inspiration for the name of the bear Pok&eacute;mon Teddiursa.</p></div>
+</div>
+
+<div class="event">
+<div class="time"><h3>1929</h3></div>
+<div class="side"></div>
+<div class="inside"><p>A cash-strapped Smogon is nearly forced to shut down after mass panic selling of significantly overvalued Magikarps triggers the Great Depression. Luckily, the investments in Zigzagoons paid off and Smogon was able to return to fiscal solvency through the judicious use of Pickup.</p></div>
+</div>
+
+<div class="event">
+<div class="time"><h3>1940</h3></div>
+<div class="side"></div>
+<div class="inside"><p>Due to anti-German sentiments in the US, Smogon is forced to change its name to Whismur for the duration of World War II.</p></div>
+</div>
+
+<div class="event">
+<div class="time"><h3>1956</h3></div>
+<div class="side"></div>
+<div class="inside"><p>After a successful campaign by the Smogon lobby, New York officially adopts Koffing as its State Pok&eacute;mon.</p></div>
+</div>
+
+<div class="event">
+<div class="time"><h3>1975</h3></div>
+<div class="side"></div>
+<div class="inside"><p>Smogon's first foray into television, "Smogon Tonight", is short-lived, but during its run it managed to popularize its oft-imitated opening call 'Live from Castelia, it's Smogon Tonight!', as well as launching the careers of Brycen, Sabrina, and Bill Murray.</p></div>
+</div>
+
+<div class="event">
+<div class="time"><h3>1989</h3></div>
+<div class="side"></div>
+<div class="inside"><p>Technology is incredible! The invention of the internet by Tim Berners-Lee means that now you can access your Pok&eacute;mon and Smogon via PC!</p></div>
+</div>
+
+<div class="event">
+<div class="time"><h3>2001</h3></div>
+<div class="side"></div>
+<div class="inside"><p>Halle Berry wins the Academy Award for Best Actress for her performance in Pocket Monster's Ball, thanks Smogon in her acceptance speech.</p></div>
+</div>
+
+<div class="event">
+<div class="time"><h3>2003</h3></div>
+<div class="side"></div>
+<div class="inside"><p>Smogon is the first media outlet to break the shocking news story that would rock the world: that the Cerulean Pok&eacute;mon Fan Club's chairman has been allegedly sexually abusing his Rapidash since at least the early 1990s.</p></div>
+</div>
+
+<div class="event">
+<div class="time"><h3>2011</h3></div>
+<div class="side"></div>
+<div class="inside"><p>Rupert Murdoch acquires Smogon for the price of a backpack full of SlowpokeTails, merging it into his massive News Corp conglomerate. Today Smogon is considered an indispensable branch of the Fox News family.</p></div>
+</div>
+
+<div class="event">
+<div class="side"></div>
+<div class="time"><h3>2012</h3></div>
+<div class="inside"><p>After enjoying more than half a century in the twin spotlights of popular culture and professional sports, Smogon's Battle of the Week is shut down due to a toxic cocktail of massively declining ratings, West Nile virus, and most bizarrely of all, kakistocracy. </p></div>
+</div>
+
+</div>
+
+<p style="margin-left: 15px;"><img src="/media/upload/smog/issue23/history_clock.png" alt="" /></p>
+
+<table id="smogfooter">
+<tr>
+<td class="left"><a href="arterview">« Previous Article</a></td>
+<td class="middle"><a href="/smog/issue23/">Home</a></td>
+<td class="right"><a href="christmas_party">Next Article »</a></td>
+</tr>
+</table>

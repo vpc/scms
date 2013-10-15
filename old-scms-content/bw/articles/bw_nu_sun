@@ -1,0 +1,910 @@
+[title]
+Guide to Sun in BW NU
+[head]
+<meta name="description" content="A guide to using sun in BW NU, thanks to SuperJOCKE, Endorfins, sandshrewz, and sirndpt" />
+[page]
+<div class="author">By <a href="/forums/member.php?u=53214">SuperJOCKE</a>, <a href="/forums/member.php?u=113636">Endorfins</a>, <a href="/forums/member.php?u=67782">sandshrewz</a>, and <a href="/forums/member.php?u=102379">sirndpt</a>.</div>
+
+<ol class="toc">
+  <li><a href="#intro">Introduction</a>
+    <ul>
+      <li><a href="#effects">Effects of Sun</a></li>
+      <li><a href="#heatrock">Heat Rock</a></li>
+    </ul>
+  </li>
+  <li><a href="#inducers">Sun Inducers</a></li>
+  <li><a href="#playstyles">Playstyles</a>
+    <ul>
+      <li><a href="#offensive">Offensive Pokemon</a>
+        <ul>
+          <li><a href="#grass">Chlorophyll Pokemon, Solar Power, &amp; Flower Gift</a></li>
+          <li><a href="#firetypes">The Fire-types</a></li>
+        </ul>
+      </li>
+      <li><a href="#defensive">Defensive Pokemon</a>
+        <ul>
+          <li><a href="#harvest">Harvest &amp; Leaf Guard</a></li>
+        </ul>
+      </li>
+      <li><a href="#teammates">Other Teammates Options</a></li>
+    </ul>
+  </li>
+  <li><a href="#threats">Threats to sun teams</a>
+    <ul>
+      <li><a href="#fast">Choice Scarf and Priority</a></li>
+      <li><a href="#fire">Fire-types</a></li>
+      <li><a href="#dragon">Dragon-types</a></li>
+      <li><a href="#others">Other threats</a></li>
+    </ul>
+  </li>
+  <li><a href="#team">Team Building</a>
+    <ul>
+      <li><a href="#example">Example Team</a></li>
+    </ul>
+  </li>
+  <li><a href="#conclusion">Conclusion</a></li>
+</ol>
+
+<h2><a name="intro">Introduction</a></h2>
+
+<p>Despite sun's status as second fiddle in most other tiers, teams based around this weather playstyle can be extremely effective in NU! This is due to not only the lack of automatic weather inducers, but also the fact that just about all of the good Chlorophyll sweepers, as well as several excellent Fire-types, reside in the depths of NU. Sun is largely used offensively, as it powers up Fire-type attacks, ramps up the Speed and power of Pokemon with the Chlorophyll, Solar Power, and Flower Gift abilities respectively, and enhances the offensive boosting move Growth. Thanks to these boosts to their offenses, if played correctly, Sunny Day teams can easily crush opposing teams of any playstyle with blisteringly fast Chlorophyll sweepers, powerful Growth users, and hard-hitting Fire-types. However, the lack of permanent weather is a significant weakness of sun teams: said sweepers only have a narrow window of 8 turns in which to cause destruction, after which the sun will fade and must be painstakingly restarted again with Sunny Day. Sun can be utilized for a defensive advantage too, though this is slightly more gimmicky. Other than boosting the effectiveness of the recovery moves Synthesis, Moonlight, and Morning Sun, sunny weather also activates Harvest 100% of the time, allowing Pokemon such as Exeggutor and Tropius to reuse their Berries again and again. However, defensive takes on sun are hampered by the fact that many of the sun abusers share typings; this lack of defensive synergy is much more apparent on stall-based teams.</p>
+
+<p>Indeed, there are a few limitations that plague most, if not all sun teams. Therefore, in addition to giving you a basic overview of common inducers and abusers of sun, we will also provide you with a brief account of the common threats to sun teams, as well as a successful sample sun team.</p>
+
+<h3><a name="effects">Effects of Sun</a></h3>
+
+<p>Before beginning to build—or even preparing to play against—a sun team, you should first familiarize yourself with the effects of sun on the battlefield:</p>
+
+<ul>
+  <li>The power of Fire-type moves is increased by 50%.</li>
+  <li>The power of Water-type moves is decreased by 50%.</li>
+  <li>SolarBeam's charge turn is negated.</li>
+  <li>Growth increases Attack and Special Attack by two stages instead of one each.</li>
+  <li>The accuracy of the moves Thunder and Hurricane is reduced to 50%.</li>
+  <li>The move Weather Ball becomes a Fire-type move and has a Base Power of 100 instead of 50.</li>
+  <li>The moves Synthesis, Moonlight, and Morning Sun recover 66% of the user's HP.</li>
+  <li>Pokemon with the ability Chlorophyll have their Speed doubled.</li>
+  <li>Pokemon with the ability Solar Power have their Special Attack increased by 50%, but lose 12.5% of their maximum HP each turn.</li>
+  <li>Pokemon with the ability Leaf Guard become immune to status.</li>
+  <li>Pokemon with the ability Harvest get their Berries restored 100% of the time.</li>
+  <li>Pokemon with the ability Dry Skin lose 12.5% of their maximum HP each turn.</li>
+  <li>The Pokemon Cherrim changes form and its ability Flower Gift increases its team's Attack and Special Defense stats by 50%.</li>
+  <li>The Pokemon Castform changes forme and becomes a Fire-type Pokemon.</li>
+</ul>
+
+<div style="float: left; margin-left: 0px;"><img src="/media/upload/bw/articles/heatrock.png" alt="" /></div>
+<h3><a name="heatrock" href="/bw/items/heat_rock">Heat Rock</a></h3>
+
+<p>With the lack of permanent weather inducers, Heat Rock is the key to sun's success in NU. By extending the duration of intense sunlight from 5 to 8 turns, Heat Rock makes each use of Sunny Day much more worthwhile, giving your sweepers three additional turns to wreak havoc. However, one should bear in mind that Pokemon that hold Heat Rock have to forgo the use of any other item, usually Leftovers or Eviolite, and will lose some of their bulk and survivability. Heat Rock is nonetheless the preferred item in most cases; however, the standard Leftovers or Eviolite can still be used if you feel that granting your Sunny Day inducers greater longevity—hence allowing them to set up sun more often—will better benefit your team.</p>
+
+<h2><a name="inducers">Sun Inducers</a></h2>
+
+<p><img src="/download/sprites/bw/538.png" alt="" /><br />
+<a href="/bw/pokemon/liepard"><strong>Liepard</strong></a><br />
+Type: Dark<br />
+Base Stats: 64 HP / 88 Atk / 50 Def / 88 SpA / 50 SpD / 106 Spe<br />
+Abilities: Limber / Unburden / Prankster (DW)</p>
+
+<p>Liepard might seem like a mediocre choice for a sun inducer and supporter in general, but it is one of the best around. It has access to just the right support moves, as well as one of the best abilities in the game: Prankster, a trait shared with Volbeat, Illumise, and Murkrow. Compare Liepard with these three and you will quickly see that all three have better defenses in some way or another. Volbeat and Illumise have slightly higher HP and Defense stats, while their Special Defense stats greatly exceeds Liepard's, while Murkrow's defenses are boosted by Eviolite; however, Liepard has several advantages over these three. First of all is its moves. Liepard has access to Encore, something it shares with Volbeat and Illumise and something that Murkrow lacks. Taunt is also a part of Liepard's movepool, something it shares with Murkrow but not Volbeat or Illumise. These two moves in tandem with each other provides excellent set-up opportunities for both Liepard and its teammates, as these moves will always go first thanks to Prankster. Thunder Wave is another great support tool Liepard has at its disposal, making it easier for its sweeping teammates to set up or just finish the opponent off. The second benefit for using Liepard over the other three Prankster users are its lack of a Stealth Rock weakness; Volbeat, Illumise, and Murkrow are all weak to Stealth Rock, forcing them to be more careful when switching in. While Murkrow does have access to a reliable recovery move in Roost, unlike the other three, Murkrow can't take a hit without Eviolite, thus it can't hold Heat Rock. Liepard is just one great supporter for sun teams, and is worthy of the ability Prankster.</p>
+
+<p><img src="/download/sprites/bw/313.png" alt="" /><br />
+<a href="/bw/pokemon/volbeat"><strong>Volbeat</strong></a><br />
+Base Stats: 65 HP / 73 Atk / 55 Def / 47 SpA / 75 SpD / 85 Spe<br />
+Abilities: Illuminate / Swarm / Prankster (DW)</p>
+
+<p>This little firefly really likes to play with fire, and is essential for almost every sun team, thanks to its Dream World ability, Prankster. With Prankster, Volbeat can almost guarantee that it will set up Sunny Day as soon as it hits the field. The ability to just set up the weather at any time you wish is just too good to give up. Imagine that you have a sweeper waiting in the wings to trample the opponent's team flat, and all you need is for the weather to turn to your favor once more. Volbeat can easily do that job and ensure that win as long as it switches in safely and gets Pranskter to do the talking. Setting up the weather isn't all that Volbeat can do; it has quite a few tricks up its sleeves with which to support its team. Thunder Wave and Encore can disrupt the opponent's momentum, giving opportunities for your weather abusers to set up. Baton Pass provides Volbeat with another form of support; it can pass Substitutes or even Tail Glow boosts, or just use it to escape and switch out. Although Volbeat has paper-thin defenses, the support it gives to sun teams is just invaluable. Its Prankster ability is one of the factors that leads to the success of sun teams.</p>
+
+<p><img src="/download/sprites/bw/314.png" alt="" /><br />
+<a href="/bw/pokemon/Illumise"><strong>Illumise</strong></a><br />
+Type: Bug<br />
+Base Stats: 65 HP / 47 Atk / 55 Def / 73 SpA / 75 SpD / 85 Spe<br />
+Abilities: Oblivious / Tinted Lens / Prankster (DW)</p>
+
+<p>Illumise is no different from Volbeat. Its roles are as good as identical to Volbeat's. Their stats are hardly different, and so are their movepools. However, Volbeat and Illumise together can do a tango; just when the opponent thought that dealing with one Prankster weather inducer is hard, think again how hard it is to face two of them. Even after either of this pair goes down, it's still not too difficult to keep the weather up all the time, allowing the weather abusers to maintain the offense and wreck the opposition. While Volbeat chooses three support options to complement Sunny Day, Illumise can choose different moves to provide different support options to the team. Imagine having Encore, Wish, Thunder Wave, Substitute, and Tail Glow all in the same team; that would be quite solid offensive support. Substitute and Wish work well in tandem as well, as Illumise can attempt to pass both at the same time or use Substitute to ensure that Wish is successfully passed to its teammate.</p>
+
+<p><img src="/download/sprites/bw/198.png" alt="" /><br />
+<a href="/bw/pokemon/murkrow"><strong>Murkrow</strong></a><br />
+Type: Dark / Flying<br />
+Base Stats: 60 HP / 85 Atk / 42 Def / 85 SpA / 42 SpD / 91 Spe<br />
+Abilities: Insomnia / Super Luck / Prankster (DW)</p>
+
+<p>Murkrow's bulk is terrible and probably even nonexistent. However, it shares the much coveted Dream World ability as Volbeat, Illumise, and Liepard: Prankster. Although it has access to Eviolite, Murkrow often has to forgo it in order to use Heat Rock. Despite having poorer defenses than the aforementioned fellow Pranksters, Murkrow has access to other support moves that helps it differentiate itself from the three. With access to priority Taunt, Murkrow can help to prevent entry hazards, especially Stealth Rock, from being laid. Roost is great for recovery despite its paper-thin defenses and gives it greater longevity. It can support the team further with FeatherDance and Thunder Wave; the former can ease setup by a teammate while the latter can paralyze opponents to help slow Chlorophyll Pokemon such as Exeggutor in the event that the sun fades. Tailwind is a distinct possibility as well, making the sweepers quite impossible to outspeed, especially if they have Chlorophyll. While most sun teams do not carry a phazer, Murkrow can use Haze as a last resort to stop set-up sweepers and even turn the tables. Murkrow is not easy to fit on sun teams, but if you find that Murkrow fills a particular role you need, it is actually a decent Sunny Day user.</p>
+
+<p><img src="/download/sprites/bw/377.png" alt="" /><br />
+<a href="/bw/pokemon/regirock"><strong>Regirock</strong></a><br />
+Type: Rock<br />
+Base Stats: 80 HP / 100 Atk / 200 Def / 50 SpA / 100 SpD / 50 Spe<br />
+Abilities: Clear Body / Sturdy (DW)</p>
+
+<p>Regirock is actually one of the most useful Pokemon to use as a sun inducer. The first deeming quality is its incredible bulk. Regirock's physical bulk is unmatched, which means it doesn't need to invest any EVs into Defense; this allows Regirock to pump up its good Special Defense and HP instead. With sun up, Regirock can take on Gorebyss with ease, as it isn't 2HKOed by a +0 Surf, which means Regirock can go ahead and 2HKO Gorebyss with Stone Edge while it sets up. Regirock can also cripple any other incoming sweeper or Choice Scarf user, such as Absol and Rotom-S, that would otherwise give Regirock's sun sweeping teammates trouble with Thunder Wave. In addition to this, Regirock can also set up Stealth Rock, which any sweeper benefits from. Fire Punch also gives Regirock a greater move against the plethora of Grass-types in the tier, especially Torterra, and it can utilize Explosion to bring in a teammate safely while blowing a huge hole into the opponent.</p>
+
+<p><img src="/download/sprites/bw/481.png" alt="" /><br />
+<a href="/bw/pokemon/probopass"><strong>Probopass</strong></a><br />
+Type: Rock / Steel<br />
+Base Stats: 60 HP / 55 Atk / 145 Def / 75 SpA / 150 SpD / 40 Spe<br />
+Abilities: Sturdy / Magnet Pull / Sand Force (DW)</p>
+
+<p>Probopass has always been used as a team supporter, with its access to Stealth Rock and coveted Steel typing. Probopass can fulfill similar duties on a Sunny Day team; its excellent mixed bulk and Sturdy ability allows it to easily set up both Stealth Rock and Sunny Day. Probopass can then use an extremely slow Volt Switch to almost always bring in a frail sweeper safely. While Probopass itself cannot actively take advantage of the sun, it does remove its weakness to Water-type attacks; Probopass's unique typing lets it switch into Pokemon such as Flareon, Braviary, and most Dragon-types, Pokemon that can easily trouble Sunny Day teams. Although Probopass has a rather poor Special Attack stat, its STAB Power Gem still hits quite hard when striking super effectively, and most Dragon- and Flying-types will be hard pressed to hurt Probopass back. Power Gem and Thunder Wave can both be used to cripple Fire-types hoping to switch in and take advantage of your sun; Charizard hates being paralyzed and detests Power Gem, as well as the Stealth Rock that Probopass sets up. Probopass's plethora of resistances and excellent defenses make it a common supporter on sun teams.</p>
+
+<p><img src="/download/sprites/bw/338.png" alt="" /><br />
+<a href="/bw/pokemon/solrock"><strong>Solrock</strong></a><br />
+Type: Rock / Psychic<br />
+Base Stats: 70 HP / 95 Atk / 85 Def / 55 SpA / 65 SpD / 70 Spe<br />
+Ability: Levitate</p>
+
+<p>Following in the footsteps of the Egyptian God Ra and the Greek God Helios, you would expect Solrock to be a driving force in this metagame. It also appears to be the perfect fit for a Sunny Day supporter; after all, it's shaped like a sun. With access to Stealth Rock, the awesome ability Levitate, and Explosion, Solrock is a perfect all-round sun team supporter. Solrock's Rock typing also means that it can check common threats to sun such as Charizard and Flareon, while its neat Psychic typing and Levitate allows Solrock to survive the common Fighting- and Ground-type attacks in the tier, unlike Regirock and Probopass. Unfortunately, Solrock's base stats are not amazing. While it can easily set up Stealth Rock or Sunny Day, it can rarely set up both before being KOed. If it does survive, than Solrock can go out with a huge Explosion that can wipe out frailer Pokemon while denting most walls. Explosion also lets a sweeper come in safely, with up to 6 turns of sun still remaining. While Solrock is rarely the first choice when selecting Sunny Day setters, its unique typing, movepool, and ability mean that it has a valuable niche that no other Pokemon can accomplish.</p>
+
+<p><img src="/download/sprites/bw/323.png" alt="" /><br />
+<a href="/bw/pokemon/camerupt"><strong>Camerupt</strong></a><br />
+Type: Fire / Ground<br />
+Base Stats: 70 HP / 100 Atk / 70 Def / 105 SpA / 75 SpD / 40 Spe<br />
+Abilities: Magma Armor / Solid Rock / Anger Point (DW)</p>
+
+<p>Despite the fact that its stats points towards bulky offense, Camerupt is more often than not sought for a defensive role. This is because its Fire / Ground typing gives it good resistances to commonly used moves, coupled with the ability Solid Rock which lowers the power of super effective moves directed at Camerupt. Camerupt also has access to Stealth Rock to aid its teammates, while it can utilize other support moves such as Will-O-Wisp and Yawn, as well as firing away strong Lava Plumes and Earth Powers coming of its solid 105 base Special Attack. All of this makes Camerupt an excellent candidate for a sun inducer. Camerupt also benefits from the sun lowering the power of opposing Water-type moves even further, while powering up its already powerful Fire-type moves. Camerupt also pairs well with the common Grass-types on sun teams, with them covering each other's weaknesses. Camerupt also has Explosion at its disposal to bring a teammate in safely, if needed.</p>
+
+<p><img src="/download/sprites/bw/136.png" alt="" /><br />
+<a href="/bw/pokemon/flareon"><strong>Flareon</strong></a><br />
+Type: Fire<br />
+Base Stats: 65 HP / 130 Atk / 60 Def / 95 SpA / 110 SpD / 65 Spe<br />
+Abilities: Flash Fire / Guts (DW)</p>
+
+<p>At first glance, Flareon might not look like much. Sure, it has great Attack, but not many powerful moves to take advantage of it. However, Flareon has many things going for it, especially when it comes to sun. The first two things that might stand out are its great 110 base Special Defense and access to Wish. With these, Flareon makes a great specially defensive Pokemon that can pass Wishes to its sweeping teammates. In addition to this, Flareon also has access to some other key support moves. First of all, there is Heall Bell. With Heal Bell, Flareon can also provide cleric support, something that is extremely useful for any sweeper. Then there is Roar, and with it Flareon can tank a +2 Surf from Gorebyss in the sun and force it out, among many other set-up sweepers. Will-O-Wisp comes in handy for crippling physical attackers, which is beneficial for both Flareon and its teammates. All of this makes Flareon excellent for setting up sun. However, its main selling point is that it counters Charizard, even in the sun. Flareon can switch in on any of Charizard's Fire-type moves without harm thanks to Flash Fire, while a Choice Scarf or Life Orb Air Slash fails to 2HKO. Taking this into account and equipping Flareon with Hidden Power Rock or Return will easily take care of Charizard, a top tier threat.</p>
+
+<p><img src="/download/sprites/bw/324.png" alt="" /><br />
+<a href="/bw/pokemon/torkoal"><strong>Torkoal</strong></a><br />
+Type: Fire<br />
+Base Stats: 70 HP / 85 Atk / 140 Def / 85 SpA / 70 SpD / 20 Spe<br />
+Abilities: White Smoke / Shell Armor (DW)</p>
+
+<p>Torkoal's greatest asset to sun teams is no doubt its access to the coveted Rapid Spin. Sun teams often use many Fire-types to take advantage of the sun, and these Pokemon have a glaring Stealth Rock weakness. Torkoal can keep entry hazards off the field, as well as set up Sunny Day and utilize boosted Lava Plumes. Unfortunately, Torkoal is a Fire-type itself, which means that it loses 25% of its HP every time it comes in to blow away Stealth Rock. Torkoal's typing is also rather poor for a defensive Pokemon, as it leaves it with a weakness to the commonly used EdgeQuake combo, although its Water weakness is alleviated in the sun. Although Torkoal's huge Defense stat can sponge attacks that would otherwise destroy most sun sweepers, its terrible Speed is a major hindrance on a fast paced Sunny Day team; any momentum advantage your team might have obtained is instantly lost when Torkoal enters the field. As Torkoal sets up Stealth Rock, Sunny Day, or Rapid Spin, your opponent can easily heal a weakened wall or set up a sweeper. If you choose to use Torkoal for its valuable Rapid Spin and support capabilities, make sure you can cover its weaknesses or else it will be more of a liability then the amazing supporter it can be.</p>
+
+<p><img src="/download/sprites/bw/638.png" alt="" /><br />
+<a href="/bw/pokemon/lampent"><strong>Lampent</strong></a><br />
+Type: Ghost / Fire<br />
+Base Stats: 60 HP / 40 Atk / 60 Def / 95 SpA / 60 SpD / 55 Spe<br />
+Abilities: Flash Fire / Flame Body / Shadow Tag (DW)</p>
+
+<p>Despite being weak to Stealth Rock, a trait that is undesirable for any Pokemon on sun teams, Lampent makes a decent Sunny Day user with a couple of niches. Thanks to Flash Fire, Lampent can switch into Fire-type attacks with impunity, allowing it to set up on opposing Fire-types bar Camerupt with ease. This gives Lampent free switch-in opportunities against Fire-types when the sun is down and Grass-types are left helpless without Chlorophyll being activated. Lampent also has access to Memento and Trick Room. With Memento, Lampent becomes a good suicide weather setter. Trick Room is a more gimmicky option but lets it support slower Pokemon such as Sunflora. Lampent also has access to support moves such as Taunt and Will-O-Wisp. The former shuts down Pokemon such as Lickilicky that think they can set up on Lampent freely, while the latter cripples physical threats such as Sawk and Samurott. Toxic is a neat option to wear down opponents that are attempting to stall the sun turns. Haze is a viable move to remove stat boosts, though Lampent might not stand a chance against some boosted hits without an Eviolite.</p>
+
+<p><img src="/download/sprites/bw/282.png" alt="" /><br />
+<a href="/bw/pokemon/gardevoir"><strong>Gardevoir</strong></a><br />
+Type: Psychic<br />
+Base Stats: 68 HP / 65 Atk / 65 Def / 125 SpA / 115 SpD / 80 Spe<br />
+Abilities: Synchronize / Trace / Telepathy (DW)</p>
+
+<p>Gardevoir is a wonderful Sunny Day user with a great support movepool. It has many options to choose from besides setting up Sunny Day. It can support offensive sun teams with dual screens and then sacrifice itself to bring in a sweeper safely with Memento. It can even use Healing Wish instead of Memento to bring in a rejuvenated sweeper, forcing terror onto the opponent as they face the aspect of having to take it down all over again. Gardevoir can also take on a more defensive role with options such as Wish, Will-O-Wisp, Taunt, Heal Bell, and Thunder Wave. Wish and Heal Bell allow Gardevoir to heal its teammates, while Thunder Wave and Will-O-Wisp are great ways to cripple foes. Thunder Wave support from Gardevoir is helpful in case the sun fades and slow Chlorophyll users, such as Exeggutor, are vulnerable against faster threats, which will no longer become a problem once they are paralyzed. Will-O-Wisp enables teammates to have an easier time setting up against burned opponents. With respectable Special Defense, great Special Attack, and access to Taunt, Gardevoir is not complete setup bait. With either Reflect or Will-O-Wisp, its low Defense poses less of an issue. Overall, Gardevoir is a great Sunny Day setter with a lot of utility thanks to its great support movepool. It is a jack of all trades but not a master of none and can often provide the support that you might be looking for on a sun team.</p>
+
+<p><img src="/download/sprites/bw/334.png" alt="" /><br />
+<a href="/bw/pokemon/altaria"><strong>Altaria</strong></a><br />
+Type: Dragon / Flying<br />
+Base Stats: 75 HP / 70 Atk / 90 Def / 70 SpA / 105 SpD / 80 Spe<br />
+Abilities: Natural Cure / Cloud Nine (DW)</p>
+
+<p>Altaria's typing grants it useful resistances and an immunity to Ground-type attacks. It pairs quite well with Regirock as it covers several of Regirock's weaknesses. Altaria easily takes on a support role thanks to its excellent movepool. Heal Bell cleanses the team of status and it can further support the team with Roar and Perish Song. It's good natural bulk makes Altaria a great Sunny Day user. Furthermore, Altaria has pretty good synergy with the sun sweepers; it resists Fire-type attacks that often target its Grass-type teammates, and can easily sponge Water-type attacks that drown Fire-type teammates. With Natural Cure, Altaria becomes a status absorber for the team and can even cure itself with Heal Bell. Roost and Rest provide Altaria with two great recovery moves; the latter makes use of Natural Cure to bypass the sleep turns. Cloud Nine is a somewhat gimmicky option that Altaria can use; Cloud Nine can be helpful against opposing rain teams as Altaria can ignore Swift Swim under rain and set up Sunny Day on slow Swift Swim users. Altaria can also sponge Water- and Fire-type attacks better as Cloud Nine ignores the boost granted by the respective weather. It also allows Altaria to check some sun sweepers that use SolarBeam by switching into the move and forcing it to charge for a turn, allowing Altaria to deal with the sweeper as it sponges a SolarBeam thanks to its quadruple resistance to it. Altaria is a fine bulky Sunny Day user that can provide many forms of support to the team as well.</p>
+
+<p><img src="/download/sprites/bw/431.png" alt="" /><br />
+<a href="/bw/pokemon/drifblim"><strong>Drifblim</strong></a><br />
+Type: Ghost / Flying<br />
+Base Stats: 150 HP / 80 Atk / 44 Def / 90 SpA / 54 SpD / 80 Spe<br />
+Abilities: Aftermath / Unburden / Flare Boost (DW)</p>
+
+<p>Although Drifblim can set up sun just as well as any other Pokemon, it has a niche in that it can actively make use it itself. Thanks to its access to the rare move Weather Ball, Drifblim can unleash a 100 Base Power sun-boosted attack that can do a lot of damage. Unfortunately, Drifblim has to choose either Heat Rock or Fire Gem as its item; if it uses the former, it cannot activate Unburden, and if it uses the latter, sun won't be up for as long. Drifblim also has some great moves to get its teammates in safely; Explosion lets it possibly take out an opponent's Pokemon while Memento can let a teammate safely set up. Drifblim's movepool is huge; Acrobatics, Will-O-Wisp, and Shadow Ball are all great options to let Drifblim do damage. Unfortunately, Drifblim is rather frail without investment in its defenses, so don't expect it to be able to set up sun numerous times throughout the match.</p>
+
+<p>Finally, it should be noted that many sun abusers are themselves able to set up or renew sun, and Sunny Day is indeed a good choice to fill a free moveslot should one come up on any of your sweepers.</p>
+
+<h2><a name="playstyles">Playstyles</a></h2>
+
+<h3><a name="offensive">Offensive Pokemon</a></h3>
+
+<p>All-out offense is often how sun is played, as it can be hard to play it any other way. Most sun teams consists of three different types of Pokemon taking advantage of the sun: the common Chlorophyll users, the less common Solar Power and Flower Gift Pokemon, and last but not least the Fire-types. Chlorophyll is the most common way to take advantage of the sun, as the Speed of the Chlorophyll users is doubled in the sun, making them deadly sweepers on their own. Solar Power Pokemon, such as Charizard and Sunflora, get their Special Attack increased by 50% in the sun in exchange for a 12.5% health loss each turn, while Flower Gift, only held by Cherrim, increases the Attack and Special Defense of the entire team by 50% in the sun. The Fire-types are pretty self explanatory. They love the power boost their Fire-type moves get in the sun, allowing them to burn anything in their way to a crisp. Sun is definitely an entity of power in the NU tier.</p>
+
+<h4><a name="grass">Chlorophyll Pokemon, Solar Power, &amp; Flower Gift</a></h4>
+
+<p><img src="/download/sprites/bw/616.png" alt="" /><br />
+<a href="/bw/pokemon/sawsbuck"><strong>Sawsbuck</strong></a><br />
+Type: Normal / Grass<br />
+Base Stats: 80 HP / 100 Atk / 70 Def / 60 SpA / 70 SpD / 95 Spe<br />
+Abilities: Chlorophyll / Sap Sipper / Serene Grace (DW)</p>
+
+<p>One of the most dangerous Pokemon when it comes to sun, Sawsbuck is an absolute terror. While Sawsbuck might look like an average Normal-type Pokemon, its stats are pretty good and it has the tools to boost them further. With a base 95 Speed stat, Sawsbuck is tied with Leafeon as the second fastest Chlorophyll Pokemon in the NU tier. Sawsbuck hits 578 Speed with an Adamant nature in the sun (634 Speed with a Jolly nature), making it outspeed the entire tier most of the time. Sawsbuck also has an even better Attack stat, which it can further boost with Swords Dance. This makes Sawsbuck hit incredibly hard and not many Pokemon can take a Double-Edge from a +2 Sawsbuck. Sawsbuck also has powerful moves at its disposal. The already mentioned Double-Edge is the strongest move in Sawsbuck's repertoire, while it has a great Grass-type move in Leech Horn which restores Sawsbuck's HP by 50% of the damage dealt to the opponent; Horn Leech works great in tandem with Life Orb and makes Sawsbuck even more of a hassle to take down. Sawsbuck is also one of the few sun sweepers not bothered by Absol's Sucker Punch, and that is thanks to one simple move: Nature Power. Nature Power is classified as a status move and bypasses Sucker Punch. Nature Power also turns into Earthquake in a Wi-Fi battle, which allows Sawsbuck to hit Steel-types super effectively as well. These assets make Sawsbuck a deadly force.</p>
+
+<p><img src="/download/sprites/bw/103.png" alt="" /><br />
+<a href="/bw/pokemon/exeggutor"><strong>Exeggutor</strong></a><br />
+Type: Grass / Psychic<br />
+Base Stats: 95 HP / 95 Atk / 85 Def / 125 SpA / 65 SpD / 55 Spe<br />
+Abilities: Chlorophyll / Harvest (DW)</p>
+
+<p>Exeggutor is unique in the fact that it does not need to boost its offensive stats to hit hard. Base 125 Special Attack gives Exeggutor enough power to tear holes in most opponent's, if not OHKOing them right away. STAB SolarBeam coming off such high Special Attack is outright deadly. To round off coverage, Exeggutor uses either Psychic or Hidden Power Fire, or both, to hit the Pokemon that resists SolarBeam; it can even go so far as to use Hidden Power Ice. Exeggutor has a great tool in Sleep Powder as well, with which it can put an opponent to sleep. Sleep Powder works great in tandem with Sunny Day as it allows Exeggutor to put an opponent to sleep on the last turn of sun and then set up sun again while the opponent is asleep; Sleep Powder also helps against Sucker Punch users, mainly Absol, which would otherwise KO Exeggutor. Exeggutor can also seek protection with the use of Substitute, which it greatly benefits from. Exeggutor's typing is both a blessing as well as a curse. Exeggutor resists the common Fighting-, Ground-, and Water-type moves in the tier, as well as Grass- and Psychic-type moves, which allows it to switch in quite easily. However, Exeggutor's typing makes it weak to many common types, such as Dark, Ghost, Fire, Flying, and Ice, which includes the aforementioned Sucker Punch. However, Exeggutor can bypass its weaknesses through various means, and has the bulk to take weaker hits; it is a deadly force indeed.</p>
+
+<p><img src="/download/sprites/bw/71.png" alt="" /><br />
+<a href="/bw/pokemon/victreebel"><strong>Victreebel</strong></a><br />
+Type: Grass / Poison<br />
+Base Stats: 80 HP / 105 Atk / 65 Def / 100 SpA / 60 SpD / 70 Spe<br />
+Abilities: Chlorophyll / Gluttony (DW)</p>
+
+<p>As its appearance suggests, Victreebel is a truly fearsome sweeper, despite its status as an NU Pokemon. While base 105 / 100 / 70 offensive stats might not seem like much, it is actually the perfect candidate for the most deadly sweeper. With Growth, it is easily the best special sweeper available in NU. After a turn of setup, Victreebel can single-handedly sweep almost the entirety of NU. With only a sun-boosted Growth under its belt, Victreebel has all three of its offensive stats doubled. The pure power of Victreebel is ridiculously high. It can muscle its way through almost any wall you care to throw at it. While its main dual STAB moves—SolarBeam and Sludge Bomb—do not offer great coverage, it has access to the coveted Weather Ball, which is actually Victreebel's second strongest attack under the sun. With Weather Ball turning into a Fire-type attack and having its Base Power doubled, Victreebel can easily roast any Steel-type attempting to wall its STAB attacks. Furthermore, Victreebel doesn't have to rely on the irritatingly weak Hidden Power Fire for coverage; Weather Ball also gains a pseudo-STAB under the sun, giving it three STAB moves to work with. Victreebel is indeed arguably the best Chlorophyll sweeper available. It's massive strength isn't the only reason to use Victreebel, though.</p>
+
+<p>Its Grass / Poison typing, while not really great defensively, can be a huge asset to sun teams. Being a grounded Poison-type, Victreebel can absorb the detrimental Toxic Spikes for the team. Without permanent sun, sun teams are already put on a timer of 8 turns, and Toxic Spikes would put the other sun sweepers in an even more limited time frame. This quality that Victreebel possesses is unique to itself; it provides the team with a small form of support by getting rid of Toxic Spikes, while also acting as a dangerous sweeper that can turn the opposing team upside down.</p>
+
+<p><img src="/download/sprites/bw/275.png" alt="" /><br />
+<a href="/bw/pokemon/shiftry"><strong>Shiftry</strong></a><br />
+Type: Grass / Dark<br />
+Base Stats: 90 HP / 100 Atk / 60 Def / 90 SpA / 60 SpD / 80 Spe<br />
+Abilities: Chlorophyll / Early Bird / Pickpocket (DW)</p>
+
+<p>Shiftry is an oddball; it can set up with either Swords Dance or Nasty Plot. Although it has access to Growth, it doesn't make a good mixed sweeper. Regardless, Shiftry is still a great sun sweeper with its high base 80 Speed, which allows it to outspeed Choice Scarf users, particularly Rotom-S, when Chlorophyll is activated. Swords Dance Shiftry is pretty elusive to revenge killing thanks to its blazing Speed and access to Nature Power, which causes Sucker Punch to fail when used against it. The only way to revenge kill it is to use either Mach Punch or ExtremeSpeed. Its coverage isn't too bad either, and that coupled with its invulnerability to common revenge killing methods make Shiftry an appealing option to sun teams. However, it isn't too bad with Nasty Plot too. With Dark Pulse, Shiftry isn't forced to predict against Substitute users that it would rather hit with Sucker Punch despite being faster. Nasty Plot also allows Shiftry to get past physically defensive Grass-types, most notably Tangela. Thus, Shiftry is no longer helpless against some opposing Grass-types, although now it has to make use of its lower offensive stat.</p>
+
+<p><img src="/download/sprites/bw/475.png" alt="" /><br />
+<a href="/bw/pokemon/leafeon"><strong>Leafeon</strong></a><br />
+Type: Grass<br />
+Base Stats: 65 HP / 110 Atk / 130 Def / 60 SpA / 65 SpD / 95 Spe<br />
+Abilities: Leaf Guard / Chlorophyll (DW)</p>
+
+<p>With Sawsbuck in the tier, Leafeon has a hard time fitting in on a sun team. However, Leafeon has some perks over its sworn rival. First of all are its stats. Leafeon has a higher Attack stat, meaning it will hit a bit harder than Sawsbuck, and while they share the same Speed stat, Leafeon also has a higher Defense stat allowing it to set up a bit easier. Leafeon also has a more powerful Grass-type move in Leaf Blade, allowing it to hit even harder without any drawbacks, unlike Sawsbuck's Double-Edge. However, unlike Sawsbuck, Leafeon has a very limited movepool and has no move outside of Dig to hit Steel-types with. X-Scissor allows Leafeon to hit opposing Grass-types harder, while Return covers most other Pokemon resisting the two aforementioned moves. Sadly, this is the end of the line when it comes attacking moves for Leafeon. However, Leafeon does have access to Wish for recovery, unlike Sawsbuck, and can actually make use of the move thanks to its incredible Defense stat. In a similar vein, Leafeon can relieve itself from status with Heal Bell; either of these two moves can go over X-Scissor on a set as Return covers Grass-types as well. Leafeon has few traits over Sawsbuck, but can be deadly offensively in its own right; however, when it comes to sun, Leafeon might be more fit to support its teammates instead, but that is covered in another part of this article.</p>
+
+<p><img src="/download/sprites/bw/189.png" alt="" /><br />
+<a href="/bw/pokemon/jumpluff"><strong>Jumpluff</strong></a><br />
+Type: Grass / Flying<br />
+Base Stats: 75 HP / 55 Atk / 70 Def / 55 SpA / 85 SpD / 110 Spe<br />
+Abilities: Chlorophyll / Leaf Guard / Infiltrator (DW)</p>
+
+<p>Even though Jumpluff is often associated with an annoying Double Powder set, Jumpluff can actually be a fierce sweeper in the sun. Even though it has a pitiful base 55 Attack stat, Swords Dance buffs Jumpluff's offensive capabilities greatly, allowing it to hit hard with STAB Seed Bomb. An incredible Speed stat is also a huge factor for Jumpluff's success, as it's the fastest Pokemon with Chlorophyll in the entire tier, sitting at a huge 110 base Speed stat. This allows Jumpluff to outspeed the entire tier in the sun, reaching a maximum of 700 Speed. However, two of the more determining factors are additions from BW: Acrobatics and Flying Gem. Acrobatics combined with Flying Gem and Swords Dance can KO most Pokemon that don't resist it, as with Flying Gem, Acrobatics's Base Power is tripled. Even after Flying Gem is consumed, Jumpluff is left with a 164 Base Power move to really knock the opponent out with. Don't underestimate Jumpluff. Swords Dance coupled with amazing Speed and two powerful STAB moves is enough for it to tear through an opposing team.</p>
+
+<p><img src="/download/sprites/bw/426.png" alt="" /><br />
+<a href="/bw/pokemon/cherrim"><strong>Cherrim</strong></a><br />
+Type: Grass<br />
+Base Stats: 70 HP / 60 Atk / 70 Def / 87 SpA / 78 SpD / 85 Spe<br />
+Ability: Flower Gift</p>
+
+<p>Cherrim is unique due to its ability: Flower Gift. Flower Gift just doesn't make Cherrim incredibly powerful in the sun, but also makes it a great teamplayer. Flower Gift raises all of the party's Pokemon's Attack and Special Defense stats by 50% in the sun, which makes Cherrim a great partner with Sawsbuck, Shiftry, and Victreebel, to name a few. Flower Gift also gives Cherrim an effective base 115 Attack stat in the sun, making it hit extremely hard when used in conjunction with Growth. Cherrim is no slouch specially either, as a base 87 Special Attack stat is also great. Combine this with moves such as Giga Drain, Weather Ball, and Hidden Power, and Cherrim has all the coverage it needs. When it comes to physical offense, Cherrim has access to the reliable Seed Bomb for STAB, as well as the amazing Nature Power. Nature Power turns into Earthquake in a Wi-Fi battle, allowing Cherrim to hit opposing Steel-types that resist its Grass STAB while also bypassing Sucker Punch. Cherrim has the potential of going on a mixed route as well, patching up the fact that it only has Return to hit Flying-types with when it comes to physical moves. Cherrim also has a reliable recovery move in Morning Sun, which recovers 66% of Cherrim's health in the sun. Other than that, Cherrim's movepool is rather shallow, which makes Cherrim rather limited when it comes to what it can do, making teammates with good synergy crucial. Cherrim doesn't get a Speed boost in the sun either, and while base 85 Speed is good by NU standards, it can end up being outsped by many things. However, specially, physically, and mixed Cherrim can hit hard and is great late-game with all its powerful moves and Growth.</p>
+
+<p><img src="/download/sprites/bw/570.png" alt="" /><br />
+<a href="/bw/pokemon/leavanny"><strong>Leavanny</strong></a><br />
+Type: Bug / Grass<br />
+Base Stats: 75 HP / 103 Atk / 80 Def / 70 SpA / 70 SpD / 92 Spe<br />
+Abilities: Swarm / Chlorophyll / Overcoat (DW)</p>
+
+<p>Leavanny is similar to both Leafeon and Sawsbuck, having some distinct advantages, as well as disadvantages, over the other two. While it has a slightly higher Attack stat than Sawsbuck, Leavanny is a bit slower than both Leafeon and Sawsbuck; Leavanny has a lower Attack than Leafeon as well. Swords Dance is one thing Leavanny shares with both Leafeon and Sawsbuck, utilizing their higher Attack stats. However, much like Leafeon, Leavanny suffers from a shallow physical movepool. Leavanny lacks any move to hit Steel-types with just like Leafeon, though it receives STAB on its Bug-type moves, unlike Sawsbuck and Leafeon, which allows it to take Tangela on more easily. While its Special Attack sits at the rather low base 70, Leavanny has access to Calm Mind and several useful special moves. STAB Bug Buzz is one real selling point, allowing it utterly destroy Tangela, while hitting the troublesome Musharna really hard. SolarBeam is its most powerful STAB move at disposal and takes advantage of the sun nicely. Hidden Power rounds Leavanny's coverage up, allowing it to hit opposing Pokemon resisting its STAB moves with a super effective version. Play to Leavanny's advantages over other special attackers, mainly Bug Buzz, and it will do a good job taking the opponent down; however, it can be difficult to get Leavanny to the much needed +2, so play carefully with it and give a lot of support. Leavanny can also use Baton Pass to pass its boosts to an appropriate teammate, and is also one of the main reasons to use it on a sun team.</p>
+
+<p><img src="/download/sprites/bw/586.png" alt="" /><br />
+<a href="/bw/pokemon/maractus"><strong>Maractus</strong></a><br />
+Type: Grass<br />
+Base Stats: 75 HP / 86 Atk / 67 Def / 106 SpA / 67 SpD / 60 Spe<br />
+Abilities: Water Absorb / Chlorophyll / Storm Drain (DW)</p>
+
+<p>When it comes to Spiking duties on a sun team, one the best options is Maractus. With Chlorophyll boosting its Speed to acceptable levels, Maractus can easily set up two layers of Spikes; not only can Maractus perform entry hazard duties, but it can also be a deadly attacker. SolarBeam coming off base 106 Special Attack is nothing to scoff at, though unfortunately, that's where Maractus's special movepool ends; aside from Hidden Power and Round, Maractus cannot learn a single non-Grass-type special attack. Maractus's poor bulk, similar to that of other Chlorophyll users, is also a major drawback to its Spiking abilities. Maractus can rarely set up all three layers as most Pokemon can 2HKO it, if not flat out annihilate it. What distinguishes Maractus from other bulkier Spikes users is its blazing Speed under the sun, combined with its excellent Special Attack stat which compliments fast-paced Sunny Day teams perfectly. While Maractus might only have a small niche in the NU metagame, it can accomplish it with aplomb.</p>
+
+<p><img src="/download/sprites/bw/357.png" alt="" /><br />
+<a href="/bw/pokemon/tropius"><strong>Tropius</strong></a><br />
+Type: Grass / Flying<br />
+Base Stats: 99 HP / 68 Atk / 83 Def / 72 SpA / 87 SpD / 51 Spe<br />
+Abilities: Chlorophyll / Solar Power / Harvest (DW)</p>
+
+<p>Tropius's stats don't even look like it's suited for sweeping. It's horribly slow and doesn't even have great offenses to begin with. At least it isn't the slowest Chlorophyll user. However, Growth and Chlorophyll are tools that it can make use of to mitigate the challenges it faces. Chlorophyll puts Tropius at 442 Speed maximum, enough to outspeed every non-Choice Scarf Pokemon bar Ninjask. Its dual STAB moves aren't too bad to work with too. Air Slash deals with opposing Grass-types and might occasionally give a lucky break by flinching the opponent. After a single Growth, Tropius hits hard enough, even though it won't be anywhere near the 'premier' sun sweepers. While it does not have that brute strength that most other sweepers possess, it makes up for that with its bulk. Tropius can easily take a couple of non-super effective hits and set up a Growth or two. It can also trade one of its attacking moves for Synthesis to regain health against Pokemon that cannot 2HKO it. It compensates for the lack of initial power with its ease of setup, especially when most people would take offensive Tropius lightly when they see one. Despite having a quarter of its health stripped by Stealth Rock, Tropius will be hard to take down in a single hit without a super effective move.</p>
+
+<p><img src="/download/sprites/bw/192.png" alt="" /><br />
+<a href="/bw/pokemon/sunflora"><strong>Sunflora</strong></a><br />
+Type: Grass<br />
+Base Stats: 75 HP / 75 Atk / 55 Def / 105 SpA / 85 SpD / 30 Spe<br />
+Abilities: Chlorophyll / Solar Power / Early Bird (DW)</p>
+
+<p>Poor Sunflora. It never got a chance to shine, and even in Black and White NU, it remains outclassed in its only niche, sun sweeping. Exeggutor boasts better Special Attack and Speed while also having access to Sleep Powder to incapacitate a counter. The only move that Sunflora has that can differentiate itself is Earth Power, and even then, a Hidden Power Ground from Exeggutor is almost just as strong. If you ever feel like taking on an almost insurmountable challenge, then you can attempt to use Sunflora's only major niche, Solar Power. However, with Sunflora's Speed no longer boosted by Chlorophyll, the only way to make this strategy work is to use Trick Room in conjunction with Sunny Day. Although this strategy is difficult to pull off, having only three turns to do any significant damage, the satisfaction that comes with sweeping with Sunflora is just something that cannot be replicated by any other Sunny Day sweeper.</p>
+
+<img src="/download/sprites/bw/45.png" alt="" /><img src="/download/sprites/bw/114.png" alt="" /><img src="/download/sprites/bw/182.png" alt="" />
+<h4>Other Chlorophyll Users: Vileplume, Tangela, and Bellossom</h4>
+
+<p>Amongst the plethora of strong Chlorophyll users such as Exeggutor and Victreebel in the NU tier, stand three Pokemon left out in the shadows: Vileplume, Tangela, and Bellossom. Vileplume is majorly outclassed as a sun sweeper by Victreebel, who possesses the same typing, as well as better Speed and offensive stats coupled with Growth. While Vileplume can utilize Swords Dance just like Victreebel, its physical offensive movepool is limited and is better left to Victreebel. Tangela and Bellossom sit in a similar position, being outclassed by Exeggutor instead. While both of them possess good Special Attack stats, Exeggutor's 125 base Special Attack and movepool is just out of their league. The three are often better off taking a defensive role, and is often seen doing so. However, they are still good sun sweepers in their own rights and you can still use them to great success, but remember that there are better sun sweepers out there.</p>
+
+<h4>Chlorophyll Speed Table</h4>
+
+<table class="sortable">
+  <thead>
+    <tr>
+      <th>Pokemon</th>
+      <th>Base Speed</th>
+      <th>Max Speed Neutral Nature (Sun)</th>
+      <th>Max Speed Positive Nature (Sun)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Jumpluff</td>
+      <td>110</td>
+      <td>638</td>
+      <td>700</td>
+    </tr>
+    <tr class="a">
+      <td>Leafeon*, Sawsbuck</td>
+      <td>95</td>
+      <td>578</td>
+      <td>634</td>
+    </tr>
+    <tr>
+      <td>Leavanny</td>
+      <td>92</td>
+      <td>566</td>
+      <td>622</td>
+    </tr>
+    <tr class="a">
+      <td>Shiftry</td>
+      <td>80</td>
+      <td>518</td>
+      <td>568</td>
+    </tr>
+    <tr>
+      <td>Victreebel</td>
+      <td>70</td>
+      <td>478</td>
+      <td>524</td>
+    </tr>
+    <tr class="a">
+      <td>Tangela, Maractus</td>
+      <td>60</td>
+      <td>438</td>
+      <td>480</td>
+    </tr>
+    <tr>
+      <td>Exeggutor</td>
+      <td>55</td>
+      <td>418</td>
+      <td>458</td>
+    </tr>
+    <tr class="a">
+      <td>Tropius</td>
+      <td>51</td>
+      <td>402</td>
+      <td>442</td>
+    </tr>
+    <tr>
+      <td>Vileplume, Bellossom</td>
+      <td>50</td>
+      <td>398</td>
+      <td>436</td>
+    </tr>
+    <tr class="a">
+      <td>Sunflora</td>
+      <td>30</td>
+      <td>318</td>
+      <td>348</td>
+    </tr>
+  </tbody>
+</table>
+*Receives Chlorophyll as its Dream World ability
+
+<h4>Speeds to Beat</h4>
+
+<table class="sortable">
+  <thead>
+    <tr>
+      <th>Speed</th>
+      <th>Pokemon</th>
+      <th>Base Speed</th>
+      <th>EVs</th>
+      <th>Nature</th>
+      <th>Speed Boost</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>586</td>
+      <td>Ninjask</td>
+      <td>160</td>
+      <td>0</td>
+      <td>+Spe</td>
+      <td>1</td>
+    </tr>
+    <tr class="a">
+      <td>522</td>
+      <td>Kingler</td>
+      <td>75</td>
+      <td>208</td>
+      <td>+Spe</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>508</td>
+      <td>Electabuzz</td>
+      <td>105</td>
+      <td>252</td>
+      <td>+Spe</td>
+      <td>1</td>
+    </tr>
+    <tr class="a">
+      <td>496</td>
+      <td>Zebstrika</td>
+      <td>116</td>
+      <td>252</td>
+      <td>Neutral</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>492</td>
+      <td>Charizard</td>
+      <td>100</td>
+      <td>252</td>
+      <td>+Spe</td>
+      <td>1</td>
+    </tr>
+    <tr class="a">
+      <td>476</td>
+      <td>Kingler</td>
+      <td>75</td>
+      <td>208</td>
+      <td>Neutral</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>475</td>
+      <td>Haunter</td>
+      <td>95</td>
+      <td>252</td>
+      <td>+Spe</td>
+      <td>1</td>
+    </tr>
+    <tr class="a">
+      <td>463</td>
+      <td>Electabuzz</td>
+      <td>105</td>
+      <td>252</td>
+      <td>Neutral</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>458</td>
+      <td>Ampharos</td>
+      <td>55</td>
+      <td>252</td>
+      <td>+Spe</td>
+      <td>2</td>
+    </tr>
+    <tr class="a">
+      <td>447</td>
+      <td>Rotom-F, Rotom-S</td>
+      <td>86</td>
+      <td>252</td>
+      <td>+Spe</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>446</td>
+      <td>Huntail, Gorebyss</td>
+      <td>52</td>
+      <td>252</td>
+      <td>+Spe</td>
+      <td>2</td>
+    </tr>
+    <tr class="a">
+      <td>442</td>
+      <td>Pinsir, Sawk</td>
+      <td>85</td>
+      <td>252</td>
+      <td>+Spe</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>426</td>
+      <td>Gardevoir, Braviary</td>
+      <td>80</td>
+      <td>252</td>
+      <td>+Spe</td>
+      <td>1</td>
+    </tr>
+    <tr class="a">
+      <td>410</td>
+      <td>Armaldo</td>
+      <td>45</td>
+      <td>252</td>
+      <td>+Spe</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>388</td>
+      <td>Gardevoir, Braviary</td>
+      <td>80</td>
+      <td>252</td>
+      <td>Neutral</td>
+      <td>1</td>
+    </tr>
+    <tr class="a">
+      <td>383</td>
+      <td>Swellow</td>
+      <td>125</td>
+      <td>252</td>
+      <td>+Spe</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>374</td>
+      <td>Armaldo</td>
+      <td>45</td>
+      <td>252</td>
+      <td>Neutral</td>
+      <td>2</td>
+    </tr>
+    <tr class="a">
+      <td>364</td>
+      <td>Zebstrika</td>
+      <td>116</td>
+      <td>252</td>
+      <td>+Spe</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>352</td>
+      <td>Carracosta</td>
+      <td>32</td>
+      <td>252</td>
+      <td>+Spe</td>
+      <td>2</td>
+    </tr>
+    <tr class="a">
+      <td>342</td>
+      <td>Serperior</td>
+      <td>113</td>
+      <td>196</td>
+      <td>+Spe</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4><a name="firetypes">The Fire-types</a></h4>
+
+<p><img src="/download/sprites/bw/6.png" alt="" /><br />
+<a href="/bw/pokemon/charizard"><strong>Charizard</strong></a><br />
+Type: Fire / Flying<br />
+Base Stats: 78 HP / 84 Atk / 78 Def / 109 SpA / 85 SpD / 100 Spe<br />
+Abilities: Blaze / Solar Power (DW)</p>
+
+<p>When it comes to Fire-types to use in the sun, Charizard is by far the most dangerous one. This is due to one simple ability: Solar Power. Solar Power raises Charizard's Special Attack by 50% in the sun in exchange for it losing 12.5% of its HP each turn the sun is shining. This makes Charizard a huge powerhouse, but it also makes Charizard rather frail. While it has respectable defensive stats to take a weaker neutral hit, Charizard's loss of HP each turn and 4x weakness to Stealth Rock really shortens its life span. To make matters even worse, Charizard can't even use Roost with Solar Power. However, with the right support, especially in the form of Rapid Spin, the extra power Charizard receives more than makes up for it. With Choice Specs, Charizard 2HKOes the entire tier with its STAB moves, while Choice Scarf allows it to function as an excellent revenge killer. Only Flareon has a real shot against Charizard; however, a Choice Specs wielding Charizard can 2HKO Flareon with Air Slash, so it needs to pack Hidden Power Rock or Return to quickly take it down and be careful switching in on Air Slash. The phrase "glass cannon" is a perfect fit for Charizard in the sun.</p>
+
+<p><img src="/download/sprites/bw/78.png" alt="" /><br />
+<a href="/bw/pokemon/rapidash"><strong>Rapidash</strong></a><br />
+Type: Fire<br />
+Base Stats: 65 HP / 100 Atk / 70 Def / 80 SpA / 80 SpD / 105 Spe<br />
+Abilities: Run Away / Flash Fire / Flame Body (DW)</p>
+
+<p>In the cutthroat competition between NU Fire-types, one would be hard pressed to use Rapidash over its stronger Fire-type brethren. However, Rapidash instantly separates itself from the pack with its blazing Speed and excellent coverage. Flare Blitz boosted by the sun and either a Choice Band or Life Orb burns most opponents to ashes, while Wild Charge, Drill Run, and Low Kick dispose of Water-, Fire-, and Rock-types, respectively. Rapidash also has the ability to go mixed in the sun, as it can use SolarBeam to decimate common switch-ins such as Quagsire and Golem. The recoil and residual damage that Rapidash takes from its moves and Life Orb can both be remedied by its unique recovery move, Morning Sun, which restores two thirds of its health if the sun is up. Further boosting Rapidash's appeal is its ability, Flash Fire, which not only lets it switch into the boosted Fire-type moves that can be thrown back at you, but also provides a boost to its attacks in the process. If played correctly, Rapidash can prove to be a valuable offensive and defensive asset.</p>
+
+<p><img src="/download/sprites/bw/542.png" alt="" /><br />
+<a href="/bw/pokemon/simisear"><strong>Simisear</strong></a><br />
+Type: Fire<br />
+Base Stats: 75 HP / 98 Atk / 63 Def / 98 SpA / 63 SpD / 101 Spe<br />
+Abilities: Gluttony / Blaze (DW)</p>
+
+<p>Simisear, like the rest of the monkey trio, just seems to always be outclassed. That being said, Simisear is far from being a poor sun sweeper; its excellent Speed stat and decent offenses allow it to be a potent force. With Nasty Plot boosting its Special Attack to sky-high levels, and with a STAB and sun boost, Simisear's Fire Blast decimates even the bulkiest of opposition. Unfortunately, Simisear doesn't really bring anything unique to the already rather generic sun team; its poor bulk means that it is easily revenge killed by priority attacks or faster Pokemon while it is still hopelessly walled by common sun counters such as Mantine. That's not to say that the fiery monkey doesn't have a few tricks up its sleeves; Grass Knot is a move that Charizard lacks and trips up heavy tanks such as Regirock and Golem hoping to switch in on a resisted Fire Blast. Simisear can also run a very effective Choice Specs set which uses its high Speed. A Choice Specs-boosted Fire Blast or Overheat under the sun burns most Pokemon to a crisp, and can weaken walls to the point where Simisear's teammates will be able to clean up. While Simisear might not be the most common Fire-type attacker in the tier, it can easily keep up with the pace and power of sun teams, making it an excellent choice if you just want a fast, powerful, no frills attacker.</p>
+
+<p><img src="/download/sprites/bw/256.png" alt="" /><br />
+<a href="/bw/pokemon/combusken"><strong>Combusken</strong></a><br />
+Type: Fire / Fighting<br />
+Base Stats: 60 HP / 85 Atk / 60 Def / 85 SpA / 60 SpD / 55 Spe<br />
+Abilities: Blaze / Speed Boost (DW)</p>
+
+<p>Speed Boost is notorious for being what tipped Blaziken over the edge and into Ubers. In the depths of NU, Blaziken's little brother Combusken hopes to emulate its older sibling with a combination of power and blistering Speed after just a few turns of sitting around. Combusken has never been able to take the NU metagame by storm mostly because of its rather lackluster attacking stats, but with the sun shining, that issue becomes a non-factor. Combusken can fire off powerful Flare Blitzes or Fire Blasts with impunity, and the longer the opponent waits before trying to revenge kill Combusken, the faster it gets. Combusken's excellent offensive stats mean that it can either go physical or special. Shelgon, a common switch-in to physical sun sweepers, is destroyed by Focus Blast while Mantine takes a lot from even a resisted sun-boosted Flare Blitz. Although Combusken's frailty means that it rarely has a free turn, if it does chance upon that opportunity, it can boost its Attack with Swords Dance. With a Swords Dance boost, a couple of Speed boosts, and the sun shining behind it, Combusken can finally live its dream of decimating all who face it.</p>
+
+<h3><a name="defensive">Defensive Pokemon</a></h3>
+
+<p>While definitely not as common, nor effective, there are some Pokemon that can play defensively in sun. There are two ways to play defensively in the sun: with the use of either the better, Harvest, or the lesser, Leaf Guard. Harvest restores the user's Berry every turn in the sun, which makes stalling out the opponent actually work. Combine this with two Pokemon that actually have the bulk and typing to use this effectively and a decent strategy is found. Leaf Guard works just like Hydration does in the rain: restoring as well as preventing status from being inflicted on the user. However, Leaf Guard does not work as well as Hydration does, mainly as its distribution is limited to Grass-types only, making it almost a no-go. If you aim to try to play defensively in the sun, go with Harvest in that case; Leaf Guard only works for a few Pokemon.</p>
+
+<img src="/download/sprites/bw/103.png" alt="" /><img src="/download/sprites/bw/357.png" alt="" /><img src="/download/sprites/bw/475.png" alt="" />
+<h4><a name="harvest">Harvest and Leaf Guard</a></h4>
+
+<p>Harvest is the main ability when it comes to playing defensively in the sun. However, only two Pokemon get the ability in the entire tier: the superior Exeggutor and the inferior, but still decent, Tropius. Exeggutor's typing and good physical bulk makes Harvest a viable strategy to use. With this strategy, Exeggutor can proceed to stall out the opponent by various means. It an either use the Substitute + Leech Seed combo with a Sitrus Berry or Chesto Berry + Rest to keep itself healthy, or the Chesto Rest combo with Toxic; whichever combination will easily bring the opponent down. Tropius can pretty much do the exact same thing, having access to the same move combinations, but it has an inferior typing dragging it down, beside better overall bulk. Leaf Guard is an ability that works just like Hydration does in the rain: protecting the Pokemon from status in sun. However, there is one factor that prevents Leaf Guard from working as well as Hydration does when it comes to defensive play, mainly stalling: all Pokemon with the ability are Grass-types, which makes it really hard for them to actually do any stalling of the opponent to the same extent as with Hydration. Grass is not nearly as good as Water is defensively, while having the power of opposing Fire-type moves increased is another thorn to the side. However, there is one solid Pokemon that can actually make Leaf Guard work, although not for stalling: Leafeon. Leafeon can easily provide Wish and Heal Bell support in the sun without status preventing it from passing its Wishes, while it can utilize Roar to get rid of opponents boosting their stats.</p>
+
+<h3><a name="teammates">Other Teammate Options</a></h3>
+
+<p>Sun teams do not only consist of Pokemon that set up sun and Pokemon that sweep in the sun. These Pokemon cannot do everything at once, and thus other Pokemon come into play. It is important to carry a backup plan if your sun inducers go down and you can't set up sun anymore, making an offensive Pokemon of great sweeping capabilities outside of sun necessary. Another role they can fulfill is revenge killing with a Choice Scarf, something most sun sweepers can't make use of. Other roles include cleric or Wish support, keeping your team healthy as you keep putting offensive pressure on your opponent, and just a dedicated wall or entry hazard support. The Pokemon featured below are some prime examples of this.</p>
+
+<p><img src="/download/sprites/bw/599.png" alt="" /><br />
+<a href="/bw/pokemon/garbodor"><strong>Garbodor</strong></a><br />
+Type: Poison<br />
+Base Stats: 80 HP / 95 Atk / 82 Def / 60 SpA / 82 SpD / 75 Spe<br />
+Abilities: Stench / Weak Armor / Aftermath (DW)</p>
+
+<p>Garbodor's ability to set up both Spikes and Toxic Spikes is always welcomed to any team, and sun teams are no different. Both Spikes and Toxic Spikes will help greatly in wearing the opposing Pokemon down, especially bulky threats such as Lickilicky and Shelgon. Not only are they good for breaking down bulkier opponents and stall teams, Spikes and Toxic Spikes can also keep the opponent from switching out, giving most sun sweepers an easier time setting up as well. Garbodor can remove the opponent's stat boosts as well with the use of either Clear Smog or Haze, making it easier for its teammates to do their jobs. With Rock Blast, Garbodor can remove troublesome Substitutes the opponent might have set up, while its STAB Gunk Shot will hit most opposing Grass-types that gives some Chlorophyll Pokemon trouble hard.</p>
+
+<p><img src="/download/sprites/bw/42.png" alt="" /><br />
+<a href="/bw/pokemon/golbat"><strong>Golbat</strong></a><br />
+Type: Poison / Flying<br />
+Base Stats: 75 HP / 80 Atk / 70 Def / 65 SpA / 75 SpD / 90 Spe<br />
+Abilities: Inner Focus / Infiltrator (DW)</p>
+
+<p>Golbat itself cannot take advantage of the sun, nor can it opt to be a Sunny Day setter without the loss of Eviolite. However, Golbat can become a useful asset to Sunny Day teams as it can easily take down Pokemon such as Shelgon, Braviary, Absol, and Gurdurr. It can also tear down bulky behemoths such as Lickilicky with Taunt, Super Fang, and Brave Bird, and pave the way for a sweep from one of its teammates. Sun teams often suffer from one-dimensionality, which means that stall teams can often take hits from sun sweepers, especially if walls such as Flareon and Altaria are present. Golbat is excellent at breaking down stall as it can prevent status, entry hazards, and recovery with Taunt and weaken even the bulkiest of walls with Super Fang. Golbat can also keep itself healthy with Roost, which prevents residual damage from wearing it down. Common Pokemon that switch in on Golbat include Rock-types such as Regirock and Golem; these are prime switch-in opportunities for various Grass-types that can set up or destroy a switch-in.</p>
+
+<p><img src="/download/sprites/bw/326.png" alt="" /><br />
+<a href="/bw/pokemon/grumpig"><strong>Grumpig</strong></a><br />
+Type: Psychic<br />
+Base Stats: 80 HP / 45 Atk / 65 Def / 90 SpA / 110 SpD / 80 Spe<br />
+Abilities: Thick Fat / Own Tempo / Gluttony (DW)</p>
+
+<p>Grumpig can provide several forms of support for sun teams thanks to its wide support movepool. It has access to Sunny Day as well, though it is not really adept at using it. Grumping acts as a pure support Pokemon on sun teams. Thunder Wave support is one of the many things Grumpig can provide. With Thunder Wave, it can halt some setup sweepers and other faster Pokemon; this is especially helpful when the sun is down, allowing its teammates to set it up more easily or let slower Chlorophyll users such as Exeggutor outspeed faster but paralyzed threats. Taunt helps prevent entry hazards from being set up, which can be even more helpful for Fire-type teammates if it can keep Stealth Rock off the field. Taunt also helps safeguard the team from status, allowing a sun sweeper to enter the field on common status users without fear. Grumpig takes on a clerical role with Heal Bell, cleansing the team of status if it has failed to protect its team from them. This can give burned physical sweepers such as Sawsbuck another shot at sweeping. Dual screen support is also possible for more offensive sun teams and still spares Grumpig with one moveslot for a support move. Thick Fat is one of the best reasons to use Grumpig. With Thick Fat, Grumpig can tank moderately powerful Fire-type attacks, occasionally even under the sun. Thick Fat cannot completely protect Grumpig from such assaults though, as it can still be obliterated by powerful Fire-type attacks coming from opposing sun sweepers such as Charizard. A pseudo-resistance to Ice-type attacks can help it sponge stray Ice Beams targeting its Grass-type teammates. Though its Psychic typing and lack of recovery are its downfalls, Grumpig is still a great addition to sun teams.</p>
+
+<p><img src="/download/sprites/bw/468.png" alt="" /><br />
+<a href="/bw/pokemon/lickilicky"><strong>Lickilicky</strong></a><br />
+Type: Normal<br />
+Base Stats: 110 HP / 85 Atk / 95 Def / 80 SpA / 95 SpD / 50 Spe<br />
+Abilities: Own Tempo / Oblivious / Cloud Nine (DW)</p>
+
+<p>Much like its pink friends in the tiers above, Lickilicky takes on one important role on a sun team. A high HP, great defenses, and just the right moves make Lickilicky a great supporter. Lickilicky can pass huge Wishes to its teammates, often restoring them to full health, allowing them to keep their assaults going again. Heal Bell is also a part of Lickilicky's movepool, curing any status ailment, such as the highly crippling paralysis, its teammates might suffer from, which can easily turn the tide of the game. Lickilicky can also provide status support through two means: Toxic and Body Slam. Toxic will help Lickilicky's teammates in wearing down walls, while Body Slam will cripple any faster Choice Scarf user, bar Haunter. Lickilicky's movepool is wide and it can use many moves to support its team, but the given examples are the most practical ones. Lickilicky is useful in the way that it draws in Fighting-types, which allows Pokemon such as Exeggutor to switch in with ease.</p>
+
+<p><img src="/download/sprites/bw/241.png" alt="" /><br />
+<a href="/bw/pokemon/miltank"><strong>Miltank</strong></a><br />
+Type: Normal<br />
+Base Stats: 95 HP / 80 Atk / 105 Def / 40 SpA / 70 SpD / 100 Spe<br />
+Abilities: Thick Fat / Scrappy / Sap Sipper (DW)</p>
+
+<p>Miltank is easily one of the best support Pokemon in NU and it is no surprise that she can fit onto sun teams pretty much as easily as any other team. Heal Bell makes her a great cleric and Milk Drink makes her an even more efficient one. With an instant recovery move and great Defense and HP, she becomes a reliable and durable cleric. Miltank can even provide entry hazard support in the form of Stealth Rock, and despite the relative lack of spinblockers on sun teams, she has no problems ensuring that Stealth Rock remains on the field as she can easily set it up as many times as needed. Not only is she a physically defensive terror, her base 80 Attack isn't too bad either; she maintains some offensive presence with Body Slam, paralyzing overly eager targets once in a while. She possesses two great abilities as well: Thick Fat and Sap Sipper. Thick Fat provides her with two useful pseudo-resistances while Sap Sipper gives her an immunity to Grass-type attacks. The latter is useful as Miltank is often a target for Sleep Powder, Spore, and Leech Seed.</p>
+
+<p><img src="/download/sprites/bw/200.png" alt="" /><br />
+<a href="/bw/pokemon/misdreavus"><strong>Misdreavus</strong></a><br />
+Type: Ghost<br />
+Base Stats: 60 HP / 60 Atk / 60 Def / 85 SpA / 85 SpD / 85 Spe<br />
+Ability: Levitate</p>
+
+<p>Misdreavus can take on defensive roles for sun teams thanks to its great bulk with Eviolite. With Eviolite, Misdreavus can wall some of the strongest physical threats, such as Sawk, despite its lower Defense stat. Misdreavus has a gigantic support movepool to take on a defensive role for the team. Misdreavus can provide cleric support with Heal Bell and wear down foes with status by using Will-O-Wisp or Toxic. It can also use Taunt to prevent foes from setting up or attempt to cure their status. Misdreavus can also use Pain Split to regain some health while doing damage to the opponent, and that is feasible due to Misdreavus's low base 60 HP. Misdreavus is a great defensive pivot with its great natural bulk. It also has great synergy with Regirock, a common sun setter, as it is immune to Fighting- and Ground-type attacks. Levitate also grants it a useful immunity to Spikes and Toxic Spikes, allowing Misdreavus to take less residual damage than some of the other Eviolite users, as they often lack reliable recovery. This also means that Misdreavus has an easier time switching in with the aforementioned entry hazards than other clerics such as Miltank.</p>
+
+<p><img src="/download/sprites/bw/177.png" alt="" /><br />
+<a href="/bw/pokemon/natu"><strong>Natu</strong></a><br />
+Type: Psychic / Flying<br />
+Base Stats: 40 HP / 50 Atk / 45 Def / 70 SpA / 45 SpD / 70 Spe<br />
+Abilities: Synchronize / Early Bird / Magic Bounce (DW)</p>
+
+<p>Magic Bounce makes Natu a great asset for sun teams, especially those that do not carry a Rapid Spin user. It bounces back what is probably the most irritating entry hazard to sun teams—Stealth Rock—along with the others and status moves as well. With Eviolite, Natu has decent defenses to take a few hits with the assistance of dual screens that it can set up. Dual screen support can also aid a sun sweeper in setting up. By being able to reflect the plethora of status moves, it reduces the need to have a cleric on the team. Keeping Stealth Rock off the field helps the Fire-type sweepers such as Charizard, and also allows Volbeat to switch in more times. Natu also complements well with Regirock as it has a 4x resistance to Fighting and an immunity to Ground. Natu can heal itself with Roost and act as a scout with U-turn, which is especially helpful as Natu often forces the opponent to switch after bouncing back a move. Natu is a fun option to use on sun teams and can fulfill multiple roles that a sun team might need.</p>
+
+<p><img src="/download/sprites/bw/567.png" alt="" /><br />
+<a href="/bw/pokemon/sawk"><strong>Sawk</strong></a><br />
+Type: Fighting<br />
+Base Stats: 75 HP / 125 Atk / 75 Def / 30 SpA / 75 SpD / 85 Spe<br />
+Abilities: Sturdy / Inner Focus / Mold Breaker (DW)</p>
+
+<p>Sawk seems like a weird addition to sun teams, but it can actually help to clear the way for the sun sweepers to clean up weakened teams. Sawk's great base 125 Attack coupled with a Choice Band allows it to plow through teams and often deals irreversible damage to them. As special sun sweepers might have difficulty getting past some special walls, such as Lickilicky, Sawk is entrusted with the role to demolish them. Thanks to its reputation as a strong physical threat, Sawk attracts physical walls, such as Tangela and Alomomola, like a magnet. This opens up opportunities for specially oriented sweepers to get in and start setting up. Sawk pairs up well with special sun sweepers as they can work together to break down their checks. Though Steel-types are rare in NU, they might give trouble to Grass-type sweepers that lack Hidden Power Fire, Weather Ball, or Nature Power; Sawk can easily get past most of the Steel-types in the tier with a Choice Band-boosted Close Combat. Sawk can work well as a revenge killer with Choice Scarf as well, proving to be useful in cleaning up if the sun has faded and the opposing team is already weakened.</p>
+
+<p><img src="/download/sprites/bw/114.png" alt="" /><br />
+<a href="/bw/pokemon/tangela"><strong>Tangela</strong></a><br />
+Type: Grass<br />
+Base Stats: 65 HP / 55 Atk / 115 Def / 100 SpA / 40 SpD / 60 Spe<br />
+Abilities: Chlorophyll / Leaf Guard / Regenerator (DW)</p>
+
+<p>Tangela is a great asset to a sun team for one solid reason: its incredible physical bulk and its ability to take on many dangerous physical threats. Absol is an extremely powerful Pokemon which can decimate almost any sun sweeper lacking a solid move to bypass Sucker Punch, such as Sleep Powder, or doesn't resist its STAB Sucker Punch. Tangela can wall any Absol lacking Megahorn or Fire Blast, and then easily put it to sleep and drain its HP away with Giga Drain. Golem with its Sturdy intact can also be a major problem for the Fire-type sweepers on a sun team, as its STAB Rock- and Ground-type moves will easily KO any Fire-type in the tier. Tangela resists Golem's Earthquake, while it take little damage from its Stone Edge and Rock Blast. Tangela can then easily OHKO Golem with a 4x super effective Giga Drain. These are only two of the many physical attackers Tangela can deal with for a sun team, and its useful supporting options such as Sleep Powder, Stun Spore, Leech Seed, and Knock Off will greatly aid its sun sweeping teammates. On a final note, it should be noted that even though Tangela has two abilities that make use of sun, Tangela should always stick to Regenerator as it is a huge contributor to its walling capabilities.</p>
+
+<h2><a name="threats">Threats to Sun Teams</a></h2>
+
+<p>After looking at what is available for a sun team, you will notice that there is a lot of power and Speed behind a sun team. You might wonder what's there to stop these Pokemon from tearing everything apart. Unfortunately, a lot of Pokemon in the tier do give sun teams trouble. Most of the Chlorophyll users are slow by nature, and even in the sun they can be outsped by Choice Scarf users. Speed is not the only issue for these sun sweepers; even though they have high offensive stats, some walls can just put a full stop to them. Knowing what stops your sun team from causing utter destruction is one key to success.</p>
+
+<h3><a name="fast">Choice Scarf and Priority</a></h3>
+
+<p><img src="/download/sprites/bw/658.png" alt="" /><br />
+<a href="/bw/pokemon/braviary"><strong>Braviary</strong></a><br />
+Type: Normal / Flying<br />
+Base Stats: 100 HP / 123 Atk / 75 Def / 57 SpA / 75 SpD / 80 Spe<br />
+Abilities: Keen Eye / Sheer Force / Defiant (DW)</p>
+
+<p>Braviary is one of most dangerous Pokemon in the NU tier, and for good reasons: with a Choice Band attached, Braviary can 2HKO the entire tier. However, for sun teams, Choice Band Braviary are hardly no problem, as most sun sweepers will outspeed it, though it can be hard to KO without any boosts thanks to its respectable bulk. With a Choice Scarf, however, Braviary gains a good amount of Speed and can outspeed most sun sweepers, even in the sun. As most sweepers are either really frail or weak to Braviary's Brave Bird, this means trouble. Braviary can decimate most sun teams that lack fast Pokemon such as Victreebel and Shiftry, and even then they need boosts to KO Braviary at full health. This eagle needs proper checking or else it can rip your team in half.</p>
+
+<p><img src="/download/sprites/bw/502.png" alt="" /><img src="/download/sprites/bw/501.png" alt="" /><br />
+<a href="/bw/pokemon/rotom-s"><strong>Rotom-S</strong></a> &amp; <a href="/bw/pokemon/rotom-f"><strong>Rotom-F</strong></a><br />
+Type: Electric / Flying &amp; Electric / Ice<br />
+Base Stats: 50 HP / 65 Atk / 107 Def / 105 SpA / 107 SpD / 86 Spe<br />
+Ability: Levitate</p>
+
+<p>The two Rotom formes in NU are common Choice Scarf users that can wreak havoc on unprepared Sunny Day teams. Both have STAB moves that can hit Grass-types super effectively while their Electric-type attacks can maim Charizard and gain momentum in the form of Volt Switch. Fortunately for sun teams, most Chlorophyll sweepers can outspeed even Choice Scarf Rotom-A and either put them to sleep, or hit them with a high powered move. Fire-type attackers can also roast Rotom-A with Fire Blast if they are able to live through Thunderbolt and Air Slash. Setting up Stealth Rock will also limit the amount of times Rotom-A can switch in and out; in conjunction with powerful Fire- and Grass-type attacks, Rotom-A shouldn't be too troubling.</p>
+
+<p><img src="/download/sprites/bw/282.png" alt="" /><br />
+<a href="/bw/pokemon/gardevoir"><strong>Gardevoir</strong></a><br />
+Type: Psychic<br />
+Base Stats: 68 HP / 65 Atk / 65 Def / 125 SpA / 115 SpD / 80 Spe<br />
+Abilities: Synchronize / Trace / Telepathy (DW)</p>
+
+<p>Gardevoir is a unique threat to sun teams. This is due to one simple little thing: its ability, Trace. Trace copies the opponent's ability, which means Gardevoir is sent in to revenge kill the opposing sun sweeper. A Choice Scarf will ensure it outspeeds every sun sweeper in the tier, even Jumpluff, as it will copy Chlorophyll and gain a Speed boost in the sun as well. Gardevoir's amazing Special Attack stat will also make it deal massive damage, with only Pokemon being hit neutrally by Gardevoir's moves being able to survive if at full health; Cherrim is the only Pokemon that is 3HKOed by Gardevoir's Psychic, and that is in the sun with Flower Gift activated. Gardevoir's extensive movepool gives it the coverage it needs. For Exeggutor, Gardevoir has Shadow Ball; for Victreebel, Gardevoir has Psychic; and for Sawsbuck, Shiftry, and the many supporting Rock-types, Gardevoir has Focus Blast. These three moves are what Gardevoir often uses, as the fourth moveslot is occupied by Trick to cripple any walls or allow Gardevoir to switch between moves against naturally slower Chlorophyll Pokemon. However, Thunderbolt can go in Trick's place, as it will easily KO Charizard with prior damage.</p>
+
+<p><img src="/download/sprites/bw/264.png" alt="" /><br />
+<a href="/bw/pokemon/linoone"><strong>Linoone</strong></a><br />
+Type: Normal<br />
+Base Stats: 78 HP / 70 Atk / 61 Def / 50 SpA / 61 SpD / 100 Spe<br />
+Abilities: Pick Up / Gluttony / Quick Feet (DW)</p>
+
+<p>Linoone does not seem really threatening with that base 70 Attack, but it has two things that make it something for sun teams to fear: Belly Drum and ExtremeSpeed. With Belly Drum, Linoone quickly boosts its poor Attack to terrifying levels. For sun teams that rely on Prankster Encore from Volbeat to deal with set-up sweepers, Linoone is a threat that cannot be overlooked. Thanks to +2 priority ExtremeSpeed, Linoone bypasses Prankster Encore and even Sucker Punch. Once it gets the opportunity to set up, it can easily clean up weakened sun teams with ExtremeSpeed as it cannot be revenge killed. Never let Linoone get a single opportunity to set up as it will certainly do irreversible damage to sun teams. The best way to deal with Linoone is to keep the offensive pressure up. Take note that Prankster Volbeat is easy setup bait for Linoone. Linoone can switch in as Volbeat uses Sunny Day or Tail Glow, then Belly Drum, which Volbeat cannot Encore due to Prankster's +1 priority, and KO Volbeat with ExtremeSpeed. Regirock is one of the few checks sun teams often carry to deal with Linoone; Regirock just survives a +6 Seed Bomb and can easily launch an attack to finish Linoone. Just keep this little terror in mind whenever you build a sun team, as it is easily one of the top threats that will turn sun teams upside down.</p>
+
+<p><img src="/download/sprites/bw/561.png" alt="" /><br />
+<a href="/bw/pokemon/gurdurr"><strong>Gurdurr</strong></a><br />
+Type: Fighting<br />
+Base Stats: 85 HP / 105 Atk / 85 Def / 40 SpA / 50 SpD / 40 Spe<br />
+Abilities: Guts / Sheer Force / Iron Fist (DW)</p>
+
+<p>Despite its rather derpy appearance, Gurdurr is a threat that should not be underestimated. Its excellent bulk with Eviolite means that Gurdurr is extremely hard to take down, and it can retaliate with Drain Punch which can restore its health. With Bulk Up and Mach Punch, Gurdurr can not only increase its attacking power and defensive capabilities, it can also go first with Mach Punch, negating the Speed advantage that sun teams normally have. The best way to take down Gurdurr is to either put it to sleep or keep attacking it with powerful sun- or Growth-boosted attacks. Exeggutor is one of the few sun sweepers that can hit Gurdurr super effectively so it is a great option if your team has trouble with Gurdurr.</p>
+
+<h3><a name="fire">Fire-types</a></h3>
+
+<p><img src="/download/sprites/bw/6.png" alt="" /><br />
+<a href="/bw/pokemon/charizard"><strong>Charizard</strong></a><br />
+Type: Fire / Flying<br />
+Base Stats: 78 HP / 84 Atk / 78 Def / 109 SpA / 85 SpD / 100 Spe<br />
+Abilities: Blaze / Solar Power (DW)</p>
+
+<p>While Charizard is known to be a good sun sweeper, Charizard is also a notable threat to sun teams as it can also sweep against opposing sun teams. Thanks to its typing, it can switch in on Grass-types without fear and threaten to hit back with Fire Blast or Air Slash. Charizard can force out unboosted Grass-types and start launching powerful Fire Blasts. Sun teams often lack safe switch-ins to Charizard other than another Fire-type to take on Fire Blast and SolarBeam. Regirock can take a Fire Blast but has to watch out for SolarBeam and Focus Blast. Nothing can safely wall Charizard in the sun, especially if Stealth Rock is not on the field and Charizard switches in with full health. With hardly any safe switch-ins to Charizard, the best way a sun team can check it is by revenge killing it with a fast Chlorophyll Pokemon such as Victreebel or a Choice Scarf user such as Rotom-S. However, Charizard can also use Choice Scarf to great success itself, outspeeding several sun sweepers even in the sun. One needs to take on Charizard with caution.</p>
+
+<p><img src="/download/sprites/bw/136.png" alt="" /><br />
+<a href="/bw/pokemon/flareon"><strong>Flareon</strong></a><br />
+Type: Fire<br />
+Base Stats: 65 HP / 130 Atk / 60 Def / 95 SpA / 110 SpD / 65 Spe<br />
+Abilities: Flash Fire / Guts (DW)</p>
+
+<p>Flareon has always been mocked for being offensively incapable despite its enormous 130 base Attack stat. Its most powerful physical STAB is the pitiful Fire Fang, and its Speed is nothing to write home about. However, Flareon can combine its excellent Attack stat and unique defenses to become an excellent tank that can stall out common sweepers on sun teams while striking back with a potentially Flash Fire-boosted attack. Flareon flat-out walls common sun sweepers such as Exeggutor and Charizard while sponging hits from the likes of Exeggutor. Flareon also has access to Wish, Protect, and Heal Bell, which means that it is extremely hard to take down and can support its teammates, bringing weakened walls back to full health. Fortunately for Sunny Day teams, Flareon's Defense stat is quite lackluster; Pokemon such as Rapidash, Sawsbuck, and Shiftry can all prey on Flareon's Defense stat with powerful physical moves. However, physical attacking Grass-types have to be wary of Flareon's Fire-type attacks as in the sun, they are likely to OHKO frail Grass-types.</p>
+
+<p><img src="/download/sprites/bw/638.png" alt="" /><br />
+<a href="/bw/pokemon/lampent"><strong>Lampent</strong></a><br />
+Type: Ghost / Fire<br />
+Base Stats: 60 HP / 40 Atk / 60 Def / 95 SpA / 60 SpD / 55 Spe<br />
+Abilities: Flash Fire / Flame Body / Shadow Tag (DW)</p>
+
+<p>Lampent shares many traits with Flareon. Flash Fire allows it to switch in on Fire-type moves from Pokemon such as Charizard and Exeggutor, while Grass-types in general will be hard pressed by it. However, what sets it apart from Flareon consists of two things. The first one is its secondary typing. A Ghost typing allows Lampent to also switch in on any Normal- and Fighting-type moved, often used by Sawsbuck, Leafeon, and Sawk. Lampent can then proceed to burn all three, only fearing Nature Power from Sawsbuck, as Sawk is usually locked in its recently used move. The other huge thing is that sets Lampent apart from its fellow Flash Fire Pokemon is Trick Room. Lampent is often seen as a Pokemon that sets up Trick Room for both itself and its team. In Trick Room, Lampent outspeeds every sun sweeper that might be used, while hitting hard with its two STAB moves coming from a base 95 Special Attack. Trick Room is also lethal for sun teams, as it will make Chlorophyll boosts obsolete.</p>
+
+<h3><a name="dragon">Dragon-types</a></h3>
+
+<p><img src="/download/sprites/bw/334.png" alt="" /><br />
+<a href="/bw/pokemon/altaria"><strong>Altaria</strong></a><br />
+Type: Dragon / Flying<br />
+Base Stats: 75 HP / 70 Atk / 90 Def / 70 SpA / 105 SpD / 80 Spe<br />
+Abilities: Natural Cure / Cloud Nine (DW)</p>
+
+<p>When it comes to walling sun teams, you really can't look past Altaria. Its Dragon / Flying typing gives it a quadruple resistance to Grass-type attacks and a resistance to Fire-type ones. When combined with Altaria's excellent mixed bulk and Natural Cure ability, these handy resistances allow Altaria to effortlessly wall most of a sun team and proceed to either boost up and sweep with Dragon Dance or Toxic stall your team to death. Sun sweepers rarely have STAB moves that can hurt Altaria, so it is often up to a Hidden Power Ice to surprise Altaria and hopefully eliminate it. Exeggutor is one common sun sweeper that can fit Hidden Power Ice onto its sets. Strong neutral STAB attacks such as a boosted Shiftry's Dark Pulse or Victreebel's Sludge Bomb can also leave a sizable dent in Altaria's puffy cloud. Defensively, Regirock can stop Altaria from doing any sweeping, but it can easily be stalled out with a combination of Toxic and Roost.</p>
+
+<p><img src="/download/sprites/bw/664.png" alt="" /><br />
+<a href="/bw/pokemon/zweilous"><strong>Zweilous</strong></a><br />
+Type: Dark / Dragon<br />
+Base Stats: 72 HP / 85 Atk / 70 Def / 65 SpA / 70 SpD / 58 Spe<br />
+Ability: Hustle</p>
+
+<p>Much like Altaria, Zweilous's typing gives it crucial resistances to the Grass- and Fire-type attacks common on sun team. However, it is Zweilous's secondary typing that gives it an even greater edge over many sun sweepers. Its Dark / Dragon typing lets it easily shut down Exeggutor and Shiftry, two staples on sun teams. Another factor that differentiates Zweilous from other Dragons is its sheer attacking power—specifically, its access to the most powerful Outrage in the game. If Zweilous is allowed to enter the field, nothing on a balanced team, let alone a frail sun team, will be safe. To illustrate, not even 252/0 Regirock can avoid the 2HKO from Choice Band Zweilous. However, Zweilous's partial Dark typing is also a double-edged sword when taking on sun teams, as its Bug- and Fighting-type weaknesses can be exploited by Pokemon such as Leavanny, while its Dragon typing still leaves it weak to Ice-type attacks. Zweilous's main victims, Shiftry and Exeggutor, can also fight back&mdash;Shiftry with X-Scissor or Low Kick, and Exeggutor with Hidden Power Ice.</p>
+
+<p><img src="/download/sprites/bw/372.png" alt="" /><br />
+<a href="/bw/pokemon/shelgon"><strong>Shelgon</strong></a><br />
+Type: Dragon<br />
+Base Stats: 65 HP / 95 Atk / 100 Def / 60 SpA / 50 SpD / 50 Spe<br />
+Abilities: Rock Head / Overcoat (DW)</p>
+
+<p>Like its fellow Dragon-types, Shelgon can comfortably switch into most sun sweepers courtesy of its resistances to Fire- and Grass-type attacks. However, Shelgon's superior bulk when compared to other Dragon-types in the tier causes even more problems. Physical attackers such as Rapidash and Sawsbuck find themselves hopelessly walled, while even special attackers such as Exeggutor are hard pressed to deal with Shelgon. Unlike conventional walls, Shelgon is not set up on in any sense of the word. With the powerful boosting move Dragon Dance, it can easily set up in front of resisted attacks and unleash a powerful Outrage. Not even the ubiquitous Sleep Powder can stop Shelgon as it often runs a RestTalk set that shrugs off status and residual damage while slowly setting up. The best way to deal with Shelgon is to hit it with powerful neutral special attacks such as a +2 Victreebel's Sludge Bomb or Exeggutor's Psychic. Encore from the likes of Volbeat can lock Shelgon into a useless move such as Rest or Sleep Talk, rendering it setup fodder to any one of the dangerous sweepers waiting to unleash hell on your opponent.</p>
+
+<h3><a name="others">Other Threats</a></h3>
+
+<p><img src="/download/sprites/bw/42.png" alt="" /><br />
+<a href="/bw/pokemon/golbat"><strong>Golbat</strong></a><br />
+Type: Poison / Flying<br />
+Base Stats: 75 HP / 80 Atk / 70 Def / 65 SpA / 75 SpD / 90 Spe<br />
+Abilities: Inner Focus / Infiltrator (DW)</p>
+
+<p>Widely known for its excellent mixed bulk and unique typing, Golbat is a dangerous threat to Sunny Day teams. While its typing gives it little cover against Fire-type moves, the bat can easily shrug off Grass-type moves and destroy Chlorophyll users with its STAB Brave Bird. However, the biggest threat Golbat poses is not to the sweepers but the Pokemon that are required to set up Sunny Day. Golbat's excellent Speed, even uninvested, along with Taunt, allows it to prevent sun from ever being bought up. Golbat can then whittle down even the bulkiest of Pokemon with Super Fang and Brave Bird. To avoid being rendered helpless against Golbat, it is often wise to run a speedy Sunny Day user or a Pokemon such as Volbeat that has the Prankster ability. If the sun is shining, it isn't hard to break through Golbat with moves such as Exeggutor's Psychic or powerful sun-boosted moves coming from Pokemon such as Charizard.</p>
+
+<p><img src="/download/sprites/bw/352.png" alt="" /><br />
+<a href="/bw/pokemon/kecleon"><strong>Kecleon</strong></a><br />
+Type: Normal<br />
+Base Stats: 60 HP / 90 Atk / 70 Def / 60 SpA / 120 SpD / 40 Spe<br />
+Ability: Color Change</p>
+
+<p>Kecleon is often known as and referred to as the Pokemon that completely stops any Exeggutor. This is the case for most other sun sweepers as well. Kecleon's ability, Color Change, allows it, by smart play, to wall and stall out the opponent with Toxic damage and Recover. As Color Change changes Kecleon's typing to whatever the move last used on it was, most sun sweepers can't use their STAB moves twice in a row. For example, if Exeggutor uses SolarBeam on Kecleon, it needs to use Psychic on the next turn because Kecleon will be a Grass-type Pokemon and resist SolarBeam. In addition to this, Kecleon will have recovered the health it lost from that attack. By stalling out the turns of sun with Recover, Exeggutor is faced with two options: either it switches out and allows Kecleon to poison the incoming Pokemon or it takes the Toxic itself and gets outstalled as it uses Psychic and a weak Hidden Power Fire to attack a health recovering Kecleon. Similar situations can be found against almost any specially oriented sun sweeper, with some exceptions. Victreebel, Tropius, and Leavanny are examples of Pokemon that can take advantage of Color Change and hit it with a strong Grass-type attack, and then hit it super effectively with secondary STAB moves, which are Sludge Bomb, Air Slash, and Bug Buzz, respectively. Kecleon is also extremely weak to physical attacks and cannot withstand attacks from powerhouses such Shiftry and Sawsbuck. Kecleon can be hard do deal with, but it has its flaws.</p>
+
+<p><img src="/download/sprites/bw/468.png" alt="" /><br />
+<a href="/bw/pokemon/lickilicky"><strong>Lickilicky</strong></a><br />
+Type: Normal<br />
+Base Stats: 110 HP / 85 Atk / 95 Def / 80 SpA / 95 SpD / 50 Spe<br />
+Abilities: Own Tempo / Oblivious / Cloud Nine (DW)</p>
+
+<p>Pink blobs have a well-known history in the walling department, and Lickilicky continues the tradition down in NU. Lickilicky's immense bulk allows it to take even sun-boosted Fire-type attacks and Wish + Protect away the damage while simultaneously stalling out precious sun turns. Not only can Lickilicky keep itself healthy, it can also use the combination of Wish and a gigantic HP stat to keep its teammates in perfect condition. Rapidash and Charizard are Pokemon that commonly run Fighting-type attacks, although the lack of a STAB boost means these attacks are unlikely to OHKO the bulky behemoth. As most Lickilicky tend to run a more specially defensive spread, powerful physical Chlorophyll sweepers can also use Lickilicky as setup fodder, potentially rack up a +4 or even +6 boost, and attempt a sweep.</p>
+
+<p><img src="/download/sprites/bw/226.png" alt="" /><br />
+<a href="/bw/pokemon/mantine"><strong>Mantine</strong></a><br />
+Type: Water / Flying<br />
+Base Stats: 65 HP / 40 Atk / 70 Def / 80 SpA / 140 SpD / 70 Spe<br />
+Abilities: Swift Swim / Water Absorb / Water Veil (DW)</p>
+
+<p>Having as much special bulk as Skarmory does physical bulk, it is no surprise that Mantine can effortlessly sponge even sun-boosted Fire-type attacks from powerhouses such as Charizard and Simisear. As the most powerful sun sweepers attack from the special side, Mantine can often bring Sunny Day teams to their knees. Its STAB Air Slash slices through Grass-types while its STAB Scald hits Fire-types super effectively. Although it has no reliable recovery, Mantine can still sponge hits with the aid of Leftovers and sometimes even runs a RestTalk set that is incredibly hard to take down and can also absorb Sleep Powder. Mantine's weaknesses to Electric- and Rock-type attacks are hard to take advantage of as they are rarely seen on Sunny Day teams. However, Mantine's Defense is less than stellar and can easily be taken advantage of. Physical attacking powerhouses such as Rapidash and Sawsbuck can shred Mantine with powerful STAB attacks, and the former can even hit it super effectively with Wild Charge. However, like most Sunny Day team members, they have to be wary of switching into Mantine as its STAB attacks have excellent coverage against Sunny Day teams.</p>
+
+<p><img src="/download/sprites/bw/241.png" alt="" /><br />
+<a href="/bw/pokemon/miltank"><strong>Miltank</strong></a><br />
+Type: Normal<br />
+Base Stats: 95 HP / 80 Atk / 105 Def / 40 SpA / 70 SpD / 100 Spe<br />
+Abilities: Thick Fat / Scrappy / Sap Sipper (DW)</p>
+
+<p>Miltank is an annoyingly bulky Pokemon that can survive attacks from sun sweepers. It has Thick Fat to sponge sun-boosted Fire-type attacks and Sap Sipper to nullify Grass-type attacks. Furthermore, Miltank has access to reliable recovery in Milk Drink, making KOing Miltank harder, and it can attempt to stall out sun turns. It also has little difficulty trying to keep Stealth Rock up to deter Fire-type sweepers as it has no qualms against most Rapid Spin users in the tier. Most sun sweepers will have difficulty in KOing Miltank due to its tremendous bulk and access to Milk Drink and Heal Bell. Sap Sipper also safeguards it from Sleep Powder. Even a +2 Victreebel might have difficulty KOing Miltank as it has to choose between Weather Ball and SolarBeam to KO it. Using Fighting-type attacks is the easiest way to defeat Miltank, but Fighting-type moves aren't too common on sun teams. Wearing it down with status can be quite difficult as well due to Heal Bell. A +1 Sap Sipper Miltank can start denting things with a neutral Body Slam. An untimely paralysis from Body Slam can change the game as well.</p>
+
+<p><img src="/download/sprites/bw/277.png" alt="" /><br />
+<a href="/bw/pokemon/swellow"><strong>Swellow</strong></a><br />
+Type: Normal / Flying<br />
+Base Stats: 60 HP / 85 Atk / 60 Def / 50 SpA / 50 SpD / 125 Spe<br />
+Abilities: Guts / Scrappy (DW)</p>
+
+<p>There's no secret why Swellow is a top threat in the tier, and that it's even more dangerous for sun teams. Swellow is a Flying-type with epic proportions. Blazing Speed and amazing power granted by Guts makes Swellow hit hard and fast, with only a few Pokemon being able to take it on. Brave Bird will obliterate any Grass-type on a sun team, while Facade will take care of all other Fire-types. Against an unprepared sun team, Swellow has no problem taking it down. Most sun inducers will be hard pressed against it, often sacrificing themselves to get sun up to allow their sun sweeping friends to outspeed it. Brave Bird will KO most frail sun inducers when Guts isn't activated, with only the bulkiest Pokemon, such as Drifblim and Altaria, being to live through it the first turn, before Guts unleashes hell.</p>
+
+<p>Though Swellow is dangerous, it's not unstoppable, and one of the best sun inducers out there is a full stop to it: Regirock. Swellow lacks any super effective move to hit Regirock with, while Regirock can make easy work of Swellow. Probopass is in the same boat, while Solrock is only pressed by a super effective, Guts-boosted U-turn. Some sun teams will have trouble with Swellow, some will not. Planning is everything, and if you fear it, pack a suiting Rock-type Pokemon to take it on.</p>
+
+<h3>Entry Hazards</h3>
+
+<p>Entry hazards, more specifically Stealth Rock, have always been a major problem for Sunny Day based teams. Their propensity for running numerous Fire-types to take advantage of the sun gives most sun teams a glaring Stealth Rock weakness. NU has few spinners, so the problem is often worse for NU sun teams than those in other tiers. Spikes are also dangerous if they can be set up, but the lack of Spikes users in NU and the time it takes to set up all three layers makes them less used and less dangerous. Toxic Spikes are also a non-issue if your team has a Poison-type such as Victreebel, but if you don't have a Toxic Spikes absorber, your team will have to be able to strike quickly before poison wears it down. Torkoal is the Rapid Spin user that fits best on a NU sun team but unfortunately carries a Stealth Rock weakness due to its Fire typing. Natu is also a viable choice, as with Magic Bounce it can reflect hazards right back on to your opponent's side; however, Natu is quite frail and easily taken down by common Stealth Rock users such as Golem, so correct prediction is required to use it effectively. Sun teams will often have to make do with Stealth Rock on the field, but that doesn't mean that its damaging effects can't be minimized. Choosing Sunny Day setters that take minimal damage from entry hazards is a good way to minimize their impact on the match.</p>
+
+<h3>Trick Room Teams</h3>
+
+<p>Despite their lack of popularity in NU, Trick Room teams are still a major threat to any sun team. They can use their signature move, Trick Room, to remove the speed advantage that sun teams normally have, while also utilizing powerful sweepers such as Marowak and Rampardos to plow through your team. Due to the frail nature of sun teams, they are rarely able to take on Trick Room sweepers in their own element, so it is mostly up to smart play and predictions to try and stall out Trick Room turns. Priority from the likes of Absol and Victreebel can strike powerful Trick Room sweepers before they can move; Encore from Volbeat and Liepard can lock the opponent into Trick Room, potentially forcing them to cancel out their own field effect! The main tactic to use when facing a Trick Room team is to hit them hard as soon as possible; by putting enough offensive pressure on their team, you can prevent them from setting up Trick Room and counter attacking. Setting up Sunny Day against a Trick Room team can often be counterproductive as it gives them a free turn, and the Speed benefit from Chlorophyll is negated by Trick Room. Instead, you should rely on the sheer power of Chlorophyll and Fire-type sweepers to damage the opponent before they can execute their strategy.</p>
+
+<h2><a name="team">Team Building</a></h2>
+
+<p>When it comes to building a sun team, one must keep certain things in mind. While it might sound obvious enough, one must keep in mind that sun only last a maximum of 8 turns due to the lack of permanent sun in the NU tier. One must then make sure that they can set up sun with relative ease and then get a sweeper in as soon as possible, without it being put into immediate danger. Proper support is also important for any team, and sun teams are no different. First of all, and the most obvious, is plenty of sun inducers. Using only one Pokemon that sets up sun is really hard to pull off, and might not lead your team anywhere. This makes two inducers that work well together a fare minimum, but three, or even four, inducers are the most common way to play with sun. Rapid Spin support is also important. Sun teams suffer really badly from Stealth Rock, as almost all Fire-types are weak to it. Toxic Spikes will also put most Chlorophyll users on a timer, while Spikes will wear your sweepers down. This makes Rapid Spin important on a team like this; however, it's not a necessity due to low amount of good Pokemon with the move.</p>
+
+<h3><a name="example">Example Team</a></h3>
+
+<p>The team below is used to show how a sun team is built. This is by no means the perfect sun team, but is more used to give you, the reader, a better understanding of what a sun team consists of and how it functions. This particular team on display here was made by sandshrewz, one of the authors.</p>
+
+<p><img src="/download/sprites/bw/377.png" alt="" /><br />
+Regirock @ Heat Rock<br />
+Ability: Clear Body<br />
+EVs: 252 HP / 4 Def / 252 SpD<br />
+Nature: Careful (+SpD, -SpA)<br />
+- Sunny Day<br />
+- Thunder Wave<br />
+- Stealth Rock<br />
+- Rock Slide</p>
+
+<p>Regirock is a reliable and durable Pokemon to support the team via various means. It can sponge most of the physical attacks for the team. Regirock serves as the primary Sunny Day user and also lays the important Stealth Rock. Thunder Wave is a great support move in case the sun fades and helps patch up the general lack of Speed in this team without sun. It takes on the role of having to tackle several physical threats by itself, such as Swellow and Braviary. Rock Slide pairs well with Thunder Wave, forming the paraflinch combination that might help once in a while. Rock Slide is used over Stone Edge due to its higher accuracy and its high chance to flinch. However, Regirock has to remain quite healthy throughout a match in order to consistently fulfill its role. Regirock is a team player that often lasts throughout the entire match and is played very cautiously. If Regirock does faint, the team has to go fully offensive with Volbeat as it no longer has the gigantic physical wall to rely on. The given EV spread is used to maximize special bulk as Regirock already has plenty of physical bulk even without investment in EVs.</p>
+
+<p><img src="/download/sprites/bw/313.png" alt="" /><br />
+Volbeat @ Heat Rock<br />
+Ability: Prankster<br />
+EVs: 252 HP / 252 Def / 4 SpD<br />
+Nature: Bold (+Def, -Atk)<br />
+- Sunny Day<br />
+- Substitute<br />
+- Encore<br />
+- Baton Pass</p>
+
+<p>Volbeat is a great emergency Sunny Day user thanks to Prankster. It can practically set up the sun anytime it wants. Volbeat is the best answer to set-up Pokemon as it can Encore them into their setup moves. However, Linoone is an exception due to its +2 priority ExtremeSpeed. Whenever there is an opportunity to start sweeping and the sun is down, Volbeat can switch in and just set up Sunny Day without a chance of being stopped. Substitute is great for scouting the opponent's move and acts like a pseudo-Protect. If the Substitute isn't broken in that turn, Volbeat can proceed to Baton Pass the Substitute to bring in a sweeper safely. Sometimes, Volbeat can even Encore the opponent into an appropriate move to ensure that Substitute will get passed to the incoming teammate. Being able to pass a Substitute to a teammate is very valuable as it can ensure that the teammate gets a chance to set up. For example, once Victreebel comes in unscathed and still has an intact Substitute, it can start setting up with Growth and proceed to sweep teams. Substitute also prevents it from being revenge killed by priority moves such as Sucker Punch. The EV spread used enables Volbeat to switch into Stealth Rock four times and also create a maximum of four Substitutes with 1 HP to spare. The remaining EVs are used to maximize physical bulk and improve its higher Special Defense slightly.</p>
+
+<p><img src="/download/sprites/bw/71.png" alt="" /><br />
+Victreebel @ Life Orb<br />
+Ability: Chlorophyll<br />
+EVs: 4 HP / 252 SpA / 252 Spe<br />
+Nature: Rash (+SpA, -SpD)<br />
+- Giga Drain<br />
+- Weather Ball<br />
+- Sludge Bomb<br />
+- Growth</p>
+
+<p>Victreebel is no doubt the most fearsome sun sweeper in the entire tier as it can 2HKO every Pokemon in NU after a single Growth. Pretty much nothing can stand a chance against a +2 Victreebel thanks to the sheer power it possesses. SolarBeam is the main move to use as it has the highest Base Power and does not require a turn to charge while under sun. Weather Ball is the second strongest move as it receives a pseudo-STAB under the sun to add to its 100 Base Power. It KOes the Grass-types that can survive SolarBeam. Slude Bomb is no slouch either as it deals with Fire-types that can wall both SolarBeam and Weather Ball. It is a reliable STAB move to use when the sun has faded too. Without any Rapid Spin user on the team and the fact that every teammate is grounded, Victreebel helps to absorb Toxic Spikes as poison greatly shortens the lifespan of the teammates and limits their ability to function or sweep. Victreebel, while being able to sweep many teams by itself, is very frail and often has to rely on Volbeat's Substitute in order to secure a Growth boost. However, once that is achieved, the opponent is almost bound to be swept unless there is a priority move coming to take on Victreebel.</p>
+
+<p><img src="/download/sprites/bw/103.png" alt="" /><br />
+Exeggutor @ Leftovers<br />
+Ability: Chlorophyll<br />
+EVs: 4 Def / 252 SpA / 252 Spe<br />
+Nature: Modest (+SpA, -Atk)<br />
+- Substitute<br />
+- Sunny Day<br />
+- SolarBeam<br />
+- Psyshock</p>
+
+<p>Exeggutor doesn't require too much support for the team. All it has to do is to find an opportunity to switch in safely and set up. Once in, Exeggutor can throw up a Substitute as the opponent switches and probably use Sunny Day the next turn. If sun is already up, it can just hide behind a Substitute and start launching powerful SolarBeams and Psyshocks thanks to its huge base 125 Special Attack. Grass and Psychic do not provide good coverage, but Exeggutor makes up for that with brute strength. As the opponent has to spend a turn taking down the Substitute, Exeggutor just needs to be able to outspeed and 2HKO the opponent before making another Substitute. With Substitute, Exeggutor cannot be revenge killed by priority moves, particularly Sucker Punch. With Psyshock and SolarBeam, dedicated physical or special walls often have trouble trying to stop Exeggutor as it can hit them with the appropriate attack for greater damage. Substitute also has the added advantage of being able to block status moves, which is helpful against Pokemon such as Tangela. Exeggutor is an independent sweeper that can open up holes on the opposing team and weaken them enough for another teammate to clean it up.</p>
+
+<p><img src="/download/sprites/bw/567.png" alt="" /><br />
+Sawk @ Choice Band<br />
+Ability: Sturdy<br />
+EVs: 252 Atk / 4 Def / 252 Spe<br />
+Nature: Jolly (+Spe, -SpA)<br />
+- Close Combat<br />
+- Stone Edge<br />
+- Earthquake<br />
+- Toxic</p>
+
+<p>Sawk is a physical powerhouse that deals with many of the threats that the Chlorophyll sweepers might not be able to, such as Lickilicky and Miltank. It rips through many Pokemon with its power and base 125 Attack. Sawk helps to open up opportunities to set up sun and switch in the Chlorophyll sweepers thanks to its tendency to attract physical walls such as Alomomola and Misdreavus. With that, Volbeat can make use of those helpless physical walls and set up Sunny Day. Sawk also wrecks the occasional Steel-types that wall Exeggutor. It acts as a reliable Pokemon that maintains the offensive presence when the sun has faded. Thanks to its ability to tear down most Pokemon that do not resist its attacks, the opponent is often kept on their toes and forces them to bring in an appropriate counter. Thus, opening many opportunities to set up. It also scares away the aforementioned two Normal-types which are a menace to this team. Sawk mainly takes on the role of weakening the opponent's team and luring Pokemon that teammates can set up on. Toxic on Sawk is also helpful in wearing down foes.</p>
+
+<p><img src="/download/sprites/bw/326.png" alt="" /><br />
+Grumpig @ Leftovers<br />
+Ability: Thick Fat<br />
+EVs: 252 HP / 252 Def / 4 SpD<br />
+Nature: Bold (+Def, -Atk)<br />
+- Heal Bell<br />
+- Psychic<br />
+- Thunder Wave<br />
+- Taunt</p>
+
+<p>Grumpig takes on a full support role and is a very important part of this team. It forms the defensive backbone of the team alongside Regirock. Regirock is the physical wall while Grumpig is the special wall and is heavily relied on to take strong hits for the team. Firstly, Grumpig is the cleric for the team and heals off annoying status with Heal Bell. It complements Regirock by providing additional Thunder Wave support, often slowing down many teams by spamming Thunder Wave. Taunt is an amazing move on Grumpig; Grumpig can Thunder Wave opposing clerics such as Miltank and prevent them from healing by using Taunt. Grumpig is also surprisingly fast and can sometimes work as a lead by Taunting Golem and the like, and stop them from using Stealth Rock. Occasionally, Grumpig can help against Trick Room teams by preventing Trick Room from being set up via Taunt. With Thick Fat, Grumpig can sponge Fire- and Ice-type attacks from special attackers easily. It checks Fire-types such as Charizard, which otherwise will pose many problems for the team. Psychic itself, ironically, prevents Grumpig from being complete Taunt bait against faster Taunt users.</p>
+
+<h2><a name="conclusion">Conclusion</a></h2>
+
+<p>While playing with a sun team in NU can be complex at times, we hope this guide has helped you to understand where to begin when building a sun team, as well as how to be successful with a sun team. There are many options when it comes to sun teams, especially in NU, so be creative and find a unique way to play with sun through testing out various things. Sun teams are fun to use, and you will notice the power behind them, as well as that the reward for using one will be equally big.</p>

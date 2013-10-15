@@ -1,0 +1,70 @@
+[title]
+Necturna
+[head]
+<link rel="stylesheet" type="text/css" href="/media/dex/dex.css" />
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_template.js"></script>
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_database.js"></script>
+[header]
+[page]
+<script language="JavaScript">
+var cap = Necturna();
+
+cap.movesLevel[0] = ["Thunder Fang", "Poison Fang", "Super Fang", "Leer", "Vine Whip"];
+cap.movesLevel[7] = "Ominous Wind";
+cap.movesLevel[13] = "Shadow Sneak";
+cap.movesLevel[19] = ["Toxic Spikes", "Will-O-Wisp"];
+cap.movesLevel[25] = "Hex";
+cap.movesLevel[31] = "Horn Leech";
+cap.movesLevel[40] = "Pain Split";
+cap.movesLevel[50] = "Shadow Ball";
+cap.movesLevel[60] = "Power Whip";
+
+cap.movesTM[4] = "Calm Mind";
+cap.movesTM[6] = "Toxic";
+cap.movesTM[10] = "Hidden Power";
+cap.movesTM[11] = "Sunny Day";
+cap.movesTM[15] = "Hyper Beam";
+cap.movesTM[17] = "Protect";
+cap.movesTM[19] = "Telekinesis";
+cap.movesTM[21] = "Frustration";
+cap.movesTM[22] = "SolarBeam";
+cap.movesTM[27] = "Return";
+cap.movesTM[29] = "Psychic";
+cap.movesTM[30] = "Shadow Ball";
+cap.movesTM[32] = "Double Team";
+cap.movesTM[41] = "Torment";
+cap.movesTM[42] = "Facade";
+cap.movesTM[44] = "Rest";
+cap.movesTM[45] = "Attract";
+cap.movesTM[46] = "Thief";
+cap.movesTM[48] = "Round";
+cap.movesTM[53] = "Energy Ball";
+cap.movesTM[61] = "Will-O-Wisp";
+cap.movesTM[65] = "Shadow Claw";
+cap.movesTM[66] = "Payback";
+cap.movesTM[68] = "Giga Impact";
+cap.movesTM[70] = "Flash";
+cap.movesTM[71] = "Stone Edge";
+cap.movesTM[77] = "Psych Up";
+cap.movesTM[85] = "Dream Eater";
+cap.movesTM[86] = "Grass Knot";
+cap.movesTM[87] = "Swagger";
+cap.movesTM[90] = "Substitute";
+
+cap.movesHM[1] = "Cut";
+
+cap.movesEgg = [
+"Curse",
+"Giga Drain",
+"Gravity",
+"Future Sight",
+"Ingrain",
+"Leaf Blade",
+"Leaf Storm",
+"Natural Gift",
+"Nightmare",
+"Sketch"
+];
+
+document.write(composeMovesPage(cap));
+</script>

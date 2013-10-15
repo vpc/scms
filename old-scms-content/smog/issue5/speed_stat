@@ -1,0 +1,5379 @@
+[title]
+Analysis of the Speed Stat
+[head]
+<link href="/media/smog/smog.css" type="text/css" rel="stylesheet" />
+[page]
+
+<div class="author"> By <a href="/forums/member.php?u=2412">X-Act</a>. Art by <a href="/forums/member.php?u=11088">CyzirVisheen</a>.</div>
+<table id="smogheader">
+<tr>
+<td class="left"><a href="mafia_roles">&laquo; Previous Article</a></td>
+<td class="middle"><a href="/smog/issue5/">Home</a></td>
+<td class="right"><a href="ladder">Next Article &raquo;</a></td>
+</tr>
+</table>
+
+        <ol class="toc">
+            <li><a href="#intro">Introduction</a></li>          
+            <li><a href="#standard">The Speed Stat in the Standard Metagame</a></li>
+            <li><a href="#underused">The Speed Stat in the Underused Metagame</a></li>
+            <li><a href="#uber">The Speed Stat in the Uber Metagame</a></li>
+            <li><a href="#notes">Notes</a></li>            
+        </ol>
+        
+
+<div style="text-align: center;"><img src="/media/smog/speed_stat_final.jpg" alt="Fast Pokemon" /></div>
+
+<h2><a name="intro">Introduction</a></h2>
+<p>This article will thoroughly analyze the Speed of Pokémon in the three main metagames: Standard, Underused and Uber. In so doing, interesting things will become apparent about the metagames in question, such as the average Speed stat of the metagame and the percentage of Pokémon in the metagame that will be outsped when a particular Speed stat is attained.</p>
+<p>To do so, the average stat of each Pokémon in the Standard metagame was calculated using DougJustDoug's September Statistics. The Choice Scarf item was also included in the calculation of the average stat. In the calculation, it was assumed that the IV for the Speed stat for every Pokémon was 31.</p>
+<p>Here are three full tables of all the Pokémon used in the Standard, Underused and Uber metagames in September, together with the average Speed stat for every Pokémon. Taking into account also the usage of every particular Pokémon, the percentage of Pokémon being outsped is listed next to every Speed stat.</p>
+
+<h2><a name="standard">The Speed Stat in the Standard Metagame</a></h2>
+ 
+ <table class="sortable">
+     <thead>
+     <tr>
+         <th>Pokémon</th>
+         <th>Average Speed Stat</th>
+         <th>%Pokémon Outsped</th>                  
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>
+        Ninjask</td>
+        <td>
+        422</td>
+        <td>
+        100</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Electrode</td>
+        <td>
+        401</td>
+        <td>
+        99.33</td>
+    </tr>
+    <tr>
+        <td>
+        Flygon</td>
+        <td>
+        394</td>
+        <td>
+        99.14</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Aerodactyl</td>
+        <td>
+        391</td>
+        <td>
+        98.03</td>
+    </tr>
+    <tr>
+        <td>
+        Crobat</td>
+        <td>
+        390</td>
+        <td>
+        97.15</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Jolteon</td>
+        <td>
+        389</td>
+        <td>
+        96.61</td>
+    </tr>
+    <tr>
+        <td>
+        Dugtrio</td>
+        <td>
+        386</td>
+        <td>
+        95.45</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Gengar</td>
+        <td>
+        382</td>
+        <td>
+        95.05</td>
+    </tr>
+    <tr>
+        <td>
+        Latias</td>
+        <td>
+        379</td>
+        <td>
+        92.82</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Azelf, Starmie</td>
+        <td>
+        377</td>
+        <td>
+        89.58</td>
+    </tr>
+    <tr>
+        <td>
+        Ponyta, Primeape, Swellow, Typhlosion, Weavile</td>
+        <td>
+        376</td>
+        <td>
+        86.02</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Kadabra</td>
+        <td>
+        375</td>
+        <td>
+        84.69</td>
+    </tr>
+    <tr>
+        <td>
+        Anorith, Jirachi</td>
+        <td>
+        374</td>
+        <td>
+        84.69</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Furret</td>
+        <td>
+        370</td>
+        <td>
+        82.3</td>
+    </tr>
+    <tr>
+        <td>
+        Diglett</td>
+        <td>
+        366</td>
+        <td>
+        82.27</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Espeon</td>
+        <td>
+        364</td>
+        <td>
+        82.26</td>
+    </tr>
+    <tr>
+        <td>
+        Alakazam, Sceptile</td>
+        <td>
+        361</td>
+        <td>
+        82.07</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Porygon-Z</td>
+        <td>
+        355</td>
+        <td>
+        81.27</td>
+    </tr>
+    <tr>
+        <td>
+        Yanma</td>
+        <td>
+        354</td>
+        <td>
+        80.62</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Staraptor</td>
+        <td>
+        353</td>
+        <td>
+        80.62</td>
+    </tr>
+    <tr>
+        <td>
+        Persian, Raikou</td>
+        <td>
+        352</td>
+        <td>
+        80.44</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Ambipom</td>
+        <td>
+        351</td>
+        <td>
+        80.06</td>
+    </tr>
+    <tr>
+        <td>
+        Jumpluff</td>
+        <td>
+        350</td>
+        <td>
+        79.62</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Lopunny</td>
+        <td>
+        349</td>
+        <td>
+        79.49</td>
+    </tr>
+    <tr>
+        <td>
+        Froslass, Jynx</td>
+        <td>
+        346</td>
+        <td>
+        79.43</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Heracross</td>
+        <td>
+        342</td>
+        <td>
+        79.05</td>
+    </tr>
+    <tr>
+        <td>
+        Rotom</td>
+        <td>
+        339</td>
+        <td>
+        78.47</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Sneasel</td>
+        <td>
+        338</td>
+        <td>
+        78.43</td>
+    </tr>
+    <tr>
+        <td>
+        Purugly</td>
+        <td>
+        337</td>
+        <td>
+        78.42</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Electabuzz</td>
+        <td>
+        335</td>
+        <td>
+        78.41</td>
+    </tr>
+    <tr>
+        <td>
+        Haunter, Tauros</td>
+        <td>
+        334</td>
+        <td>
+        78.39</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Scyther</td>
+        <td>
+        331</td>
+        <td>
+        78.31</td>
+    </tr>
+    <tr>
+        <td>
+        Medicham, Pinsir</td>
+        <td>
+        329</td>
+        <td>
+        78.25</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Slaking</td>
+        <td>
+        328</td>
+        <td>
+        78.03</td>
+    </tr>
+    <tr>
+        <td>
+        Infernape, Manectric</td>
+        <td>
+        327</td>
+        <td>
+        77.94</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Magby</td>
+        <td>
+        322</td>
+        <td>
+        75.42</td>
+    </tr>
+    <tr>
+        <td>
+        Mismagius</td>
+        <td>
+        321</td>
+        <td>
+        75.42</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Magmar</td>
+        <td>
+        320</td>
+        <td>
+        75.1</td>
+    </tr>
+    <tr>
+        <td>
+        Moltres</td>
+        <td>
+        319</td>
+        <td>
+        75.09</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Dodrio, Rapidash</td>
+        <td>
+        317</td>
+        <td>
+        74.95</td>
+    </tr>
+    <tr>
+        <td>
+        Ninetales, Zangoose</td>
+        <td>
+        315</td>
+        <td>
+        74.9</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Raticate</td>
+        <td>
+        314</td>
+        <td>
+        74.77</td>
+    </tr>
+    <tr>
+        <td>
+        Floatzel</td>
+        <td>
+        312</td>
+        <td>
+        74.74</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Heatran, Hitmonlee</td>
+        <td>
+        311</td>
+        <td>
+        74.6</td>
+    </tr>
+    <tr>
+        <td>
+        Raichu</td>
+        <td>
+        307</td>
+        <td>
+        71.19</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Plusle, Rotom-S, Voltorb</td>
+        <td>
+        306</td>
+        <td>
+        71.14</td>
+    </tr>
+    <tr>
+        <td>
+        Golbat, Rotom-H, Rotom-W</td>
+        <td>
+        305</td>
+        <td>
+        70.98</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Poliwag, Volbeat</td>
+        <td>
+        304</td>
+        <td>
+        68.57</td>
+    </tr>
+    <tr>
+        <td>
+        Charizard</td>
+        <td>
+        303</td>
+        <td>
+        68.56</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Chatot, Fearow</td>
+        <td>
+        302</td>
+        <td>
+        68.23</td>
+    </tr>
+    <tr>
+        <td>
+        Xatu</td>
+        <td>
+        300</td>
+        <td>
+        68.21</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Magmortar, Roserade, Salamence</td>
+        <td>
+        299</td>
+        <td>
+        68.19</td>
+    </tr>
+    <tr>
+        <td>
+        Minun, Sharpedo</td>
+        <td>
+        298</td>
+        <td>
+        63.81</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Houndoom</td>
+        <td>
+        297</td>
+        <td>
+        63.74</td>
+    </tr>
+    <tr>
+        <td>
+        Smeargle, Venomoth</td>
+        <td>
+        296</td>
+        <td>
+        63.58</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Murkrow</td>
+        <td>
+        295</td>
+        <td>
+        62.62</td>
+    </tr>
+    <tr>
+        <td>
+        Entei, Magneton</td>
+        <td>
+        294</td>
+        <td>
+        62.62</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Grovyle, Pikachu</td>
+        <td>
+        293</td>
+        <td>
+        62.55</td>
+    </tr>
+    <tr>
+        <td>
+        Poliwhirl</td>
+        <td>
+        292</td>
+        <td>
+        62.46</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Shaymin</td>
+        <td>
+        291</td>
+        <td>
+        62.46</td>
+    </tr>
+    <tr>
+        <td>
+        Electivire</td>
+        <td>
+        288</td>
+        <td>
+        62.26</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Lucario</td>
+        <td>
+        287</td>
+        <td>
+        61.33</td>
+    </tr>
+    <tr>
+        <td>
+        Taillow</td>
+        <td>
+        286</td>
+        <td>
+        58.65</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Meowth, Vigoroth</td>
+        <td>
+        285</td>
+        <td>
+        58.65</td>
+    </tr>
+    <tr>
+        <td>
+        Butterfree, Linoone, Spinda, Yanmega</td>
+        <td>
+        284</td>
+        <td>
+        58.64</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Blaziken, Kingler</td>
+        <td>
+        283</td>
+        <td>
+        58.11</td>
+    </tr>
+    <tr>
+        <td>
+        Gliscor, Leafeon</td>
+        <td>
+        282</td>
+        <td>
+        57.86</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Gabite, Staryu</td>
+        <td>
+        281</td>
+        <td>
+        55.97</td>
+    </tr>
+    <tr>
+        <td>
+        Illumise</td>
+        <td>
+        280</td>
+        <td>
+        55.96</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Arcanine, Luvdisc</td>
+        <td>
+        279</td>
+        <td>
+        55.96</td>
+    </tr>
+    <tr>
+        <td>
+        Feebas</td>
+        <td>
+        276</td>
+        <td>
+        55.62</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Zapdos</td>
+        <td>
+        274</td>
+        <td>
+        55.62</td>
+    </tr>
+    <tr>
+        <td>
+        Girafarig, Ledian, Monferno, Quilava, Rotom-C</td>
+        <td>
+        273</td>
+        <td>
+        54.24</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Kangaskhan</td>
+        <td>
+        272</td>
+        <td>
+        53.63</td>
+    </tr>
+    <tr>
+        <td>
+        Aipom</td>
+        <td>
+        271</td>
+        <td>
+        53.58</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Glameow</td>
+        <td>
+        269</td>
+        <td>
+        53.58</td>
+    </tr>
+    <tr>
+        <td>
+        Drapion, Mr. Mime</td>
+        <td>
+        268</td>
+        <td>
+        53.58</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Gallade, Magnezone</td>
+        <td>
+        267</td>
+        <td>
+        53.31</td>
+    </tr>
+    <tr>
+        <td>
+        Absol, Qwilfish, Wailord</td>
+        <td>
+        265</td>
+        <td>
+        51.63</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Cyndaquil</td>
+        <td>
+        264</td>
+        <td>
+        51.32</td>
+    </tr>
+    <tr>
+        <td>
+        Elekid</td>
+        <td>
+        263</td>
+        <td>
+        51.32</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Abra, Golduck, Magikarp, Pidgeot, Rotom-F, Seadra, Toxicroak, Wingull</td>
+        <td>
+        262</td>
+        <td>
+        51.32</td>
+    </tr>
+    <tr>
+        <td>
+        Hitmonchan</td>
+        <td>
+        260</td>
+        <td>
+        50.95</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Gligar</td>
+        <td>
+        259</td>
+        <td>
+        50.86</td>
+    </tr>
+    <tr>
+        <td>
+        Cherrim, Nidoking</td>
+        <td>
+        257</td>
+        <td>
+        50.86</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Celebi, Mightyena, Staravia</td>
+        <td>
+        256</td>
+        <td>
+        50.74</td>
+    </tr>
+    <tr>
+        <td>
+        Delibird, Mankey</td>
+        <td>
+        255</td>
+        <td>
+        49.53</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Shiftry</td>
+        <td>
+        254</td>
+        <td>
+        49.51</td>
+    </tr>
+    <tr>
+        <td>
+        Cranidos, Mamoswine</td>
+        <td>
+        253</td>
+        <td>
+        49.47</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Beedrill, Gardevoir, Stantler, Uxie</td>
+        <td>
+        252</td>
+        <td>
+        48.68</td>
+    </tr>
+    <tr>
+        <td>
+        Delcatty, Gastly, Lumineon, Vibrava</td>
+        <td>
+        251</td>
+        <td>
+        48.2</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Glalie</td>
+        <td>
+        250</td>
+        <td>
+        48.19</td>
+    </tr>
+    <tr>
+        <td>
+        Kabutops, Togekiss</td>
+        <td>
+        249</td>
+        <td>
+        48.18</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Breloom, Kingdra, Luxio, Skuntank</td>
+        <td>
+        247</td>
+        <td>
+        46.87</td>
+    </tr>
+    <tr>
+        <td>
+        Gyarados</td>
+        <td>
+        246</td>
+        <td>
+        44.38</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Drifblim, Tentacruel</td>
+        <td>
+        245</td>
+        <td>
+        41.03</td>
+    </tr>
+    <tr>
+        <td>
+        Dragonite, Miltank, Regigigas</td>
+        <td>
+        243</td>
+        <td>
+        40.16</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Feraligatr, Mothim</td>
+        <td>
+        242</td>
+        <td>
+        38.96</td>
+    </tr>
+    <tr>
+        <td>
+        Castform</td>
+        <td>
+        241</td>
+        <td>
+        38.69</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Charmeleon, Honchkrow</td>
+        <td>
+        240</td>
+        <td>
+        38.68</td>
+    </tr>
+    <tr>
+        <td>
+        Surskit</td>
+        <td>
+        239</td>
+        <td>
+        38.43</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Misdreavus</td>
+        <td>
+        238</td>
+        <td>
+        38.43</td>
+    </tr>
+    <tr>
+        <td>
+        Articuno</td>
+        <td>
+        236</td>
+        <td>
+        38.42</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Rattata</td>
+        <td>
+        235</td>
+        <td>
+        38.39</td>
+    </tr>
+    <tr>
+        <td>
+        Glaceon, Pachirisu</td>
+        <td>
+        234</td>
+        <td>
+        38.36</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Suicune</td>
+        <td>
+        233</td>
+        <td>
+        38.23</td>
+    </tr>
+    <tr>
+        <td>
+        Mesprit</td>
+        <td>
+        232</td>
+        <td>
+        37.12</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Buizel</td>
+        <td>
+        231</td>
+        <td>
+        37.04</td>
+    </tr>
+    <tr>
+        <td>
+        Roselia</td>
+        <td>
+        230</td>
+        <td>
+        37.04</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Houndour</td>
+        <td>
+        229</td>
+        <td>
+        37.03</td>
+    </tr>
+    <tr>
+        <td>
+        Goldeen</td>
+        <td>
+        228</td>
+        <td>
+        37.03</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Chimchar</td>
+        <td>
+        227</td>
+        <td>
+        37.03</td>
+    </tr>
+    <tr>
+        <td>
+        Pidgeotto</td>
+        <td>
+        226</td>
+        <td>
+        37.03</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Altaria, Drifloon</td>
+        <td>
+        225</td>
+        <td>
+        37.03</td>
+    </tr>
+    <tr>
+        <td>
+        Treecko</td>
+        <td>
+        224</td>
+        <td>
+        36.98</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Carvanha</td>
+        <td>
+        223</td>
+        <td>
+        36.98</td>
+    </tr>
+    <tr>
+        <td>
+        Seviper, Victreebel</td>
+        <td>
+        222</td>
+        <td>
+        36.98</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Claydol, Kricketune</td>
+        <td>
+        221</td>
+        <td>
+        36.93</td>
+    </tr>
+    <tr>
+        <td>
+        Rampardos, Pichu</td>
+        <td>
+        220</td>
+        <td>
+        36.65</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Cresselia, Horsea</td>
+        <td>
+        219</td>
+        <td>
+        36.53</td>
+    </tr>
+    <tr>
+        <td>
+        Dragonair, Seaking, Starly</td>
+        <td>
+        218</td>
+        <td>
+        35.95</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Remoraid, Zigzagoon</td>
+        <td>
+        217</td>
+        <td>
+        35.93</td>
+    </tr>
+    <tr>
+        <td>
+        Ludicolo</td>
+        <td>
+        216</td>
+        <td>
+        35.93</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Luxray, Grumpig</td>
+        <td>
+        215</td>
+        <td>
+        35.51</td>
+    </tr>
+    <tr>
+        <td>
+        Abomasnow, Arbok, Riolu</td>
+        <td>
+        214</td>
+        <td>
+        35.45</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Banette, Beautifly</td>
+        <td>
+        213</td>
+        <td>
+        35.02</td>
+    </tr>
+    <tr>
+        <td>
+        Spearow</td>
+        <td>
+        212</td>
+        <td>
+        34.95</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Buneary</td>
+        <td>
+        211</td>
+        <td>
+        34.95</td>
+    </tr>
+    <tr>
+        <td>
+        Pidgey, Solrock</td>
+        <td>
+        210</td>
+        <td>
+        34.95</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Masquerain</td>
+        <td>
+        209</td>
+        <td>
+        34.92</td>
+    </tr>
+    <tr>
+        <td>
+        Blastoise, Charmander, Growlithe</td>
+        <td>
+        208</td>
+        <td>
+        34.92</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Eevee, Exploud, Milotic, Phione, Venusaur</td>
+        <td>
+        207</td>
+        <td>
+        34.7</td>
+    </tr>
+    <tr>
+        <td>
+        Lunatone, Meganium, Poliwrath</td>
+        <td>
+        205</td>
+        <td>
+        34.12</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Combusken, Psyduck</td>
+        <td>
+        202</td>
+        <td>
+        33.91</td>
+    </tr>
+    <tr>
+        <td>
+        Budew, Crawdaunt, Swinub</td>
+        <td>
+        201</td>
+        <td>
+        33.9</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Combee, Ursaring</td>
+        <td>
+        199</td>
+        <td>
+        33.87</td>
+    </tr>
+    <tr>
+        <td>
+        Whiscash</td>
+        <td>
+        198</td>
+        <td>
+        33.7</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Hoothoot, Magnemite, Metagross, Tyranitar</td>
+        <td>
+        197</td>
+        <td>
+        33.68</td>
+    </tr>
+    <tr>
+        <td>
+        Empoleon, Nuzleaf</td>
+        <td>
+        196</td>
+        <td>
+        27.93</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Mime Jr.</td>
+        <td>
+        195</td>
+        <td>
+        26.8</td>
+    </tr>
+    <tr>
+        <td>
+        Chinchou</td>
+        <td>
+        194</td>
+        <td>
+        26.8</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Chimecho, Vulpix</td>
+        <td>
+        193</td>
+        <td>
+        26.8</td>
+    </tr>
+    <tr>
+        <td>
+        Cacturne, Meditite, Skorupi</td>
+        <td>
+        192</td>
+        <td>
+        26.79</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Hypno, Politoed, Pupitar</td>
+        <td>
+        191</td>
+        <td>
+        26.65</td>
+    </tr>
+    <tr>
+        <td>
+        Onix</td>
+        <td>
+        190</td>
+        <td>
+        26.58</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Bibarel, Farfetch'd</td>
+        <td>
+        189</td>
+        <td>
+        26.58</td>
+    </tr>
+    <tr>
+        <td>
+        Doduo, Omastar, Sandslash, Tentacool</td>
+        <td>
+        188</td>
+        <td>
+        26.46</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Exeggutor, Flareon, Noctowl</td>
+        <td>
+        187</td>
+        <td>
+        26.33</td>
+    </tr>
+    <tr>
+        <td>
+        Hitmontop</td>
+        <td>
+        186</td>
+        <td>
+        26.16</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Ekans, Electrike, Gulpin</td>
+        <td>
+        185</td>
+        <td>
+        25.9</td>
+    </tr>
+    <tr>
+        <td>
+        Relicanth, Stunky</td>
+        <td>
+        184</td>
+        <td>
+        25.9</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Ivysaur, Mantine, Scizor</td>
+        <td>
+        183</td>
+        <td>
+        25.84</td>
+    </tr>
+    <tr>
+        <td>
+        Lanturn, Natu, Nidoqueen, Skarmory</td>
+        <td>
+        181</td>
+        <td>
+        20.44</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Nidorina, Shelgon, Smoochum, Tangela</td>
+        <td>
+        180</td>
+        <td>
+        18.85</td>
+    </tr>
+    <tr>
+        <td>
+        Cloyster, Machoke, Shedinja, Vaporeon, Umbreon</td>
+        <td>
+        179</td>
+        <td>
+        18.85</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Teddiursa, Tropius</td>
+        <td>
+        178</td>
+        <td>
+        16.66</td>
+    </tr>
+    <tr>
+        <td>
+        Barboach, Dewgong</td>
+        <td>
+        177</td>
+        <td>
+        16.64</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Bellsprout, Wartortle</td>
+        <td>
+        176</td>
+        <td>
+        16.63</td>
+    </tr>
+    <tr>
+        <td>
+        Gorebyss</td>
+        <td>
+        175</td>
+        <td>
+        16.62</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Huntail, Lombre, Nidorino, Octillery, Spoink</td>
+        <td>
+        174</td>
+        <td>
+        16.58</td>
+    </tr>
+    <tr>
+        <td>
+        Croagunk, Torchic, Totodile, Walrein</td>
+        <td>
+        173</td>
+        <td>
+        16.54</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Baltoy</td>
+        <td>
+        171</td>
+        <td>
+        16.28</td>
+    </tr>
+    <tr>
+        <td>
+        Dratini, Phanpy</td>
+        <td>
+        170</td>
+        <td>
+        16.28</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Pelipper</td>
+        <td>
+        169</td>
+        <td>
+        16.27</td>
+    </tr>
+    <tr>
+        <td>
+        Ariados, Kabuto, Lapras, Torterra</td>
+        <td>
+        168</td>
+        <td>
+        16.27</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Dustox</td>
+        <td>
+        167</td>
+        <td>
+        15.98</td>
+    </tr>
+    <tr>
+        <td>
+        Numel, Venonat</td>
+        <td>
+        166</td>
+        <td>
+        15.98</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Caterpie</td>
+        <td>
+        164</td>
+        <td>
+        15.98</td>
+    </tr>
+    <tr>
+        <td>
+        Aggron, Machamp, Marowak, Mudkip, Sableye</td>
+        <td>
+        163</td>
+        <td>
+        15.98</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Clefable</td>
+        <td>
+        162</td>
+        <td>
+        14.38</td>
+    </tr>
+    <tr>
+        <td>
+        Bellossom, Loudred</td>
+        <td>
+        161</td>
+        <td>
+        14.03</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Sealeo</td>
+        <td>
+        160</td>
+        <td>
+        14.01</td>
+    </tr>
+    <tr>
+        <td>
+        Seedot</td>
+        <td>
+        159</td>
+        <td>
+        14.01</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Finneon, Krabby, Oddish, Skitty, Weepinbell</td>
+        <td>
+        158</td>
+        <td>
+        14.01</td>
+    </tr>
+    <tr>
+        <td>
+        Prinplup</td>
+        <td>
+        157</td>
+        <td>
+        14</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Ampharos, Bayleef, Kakuna, Shellos, Tangrowth</td>
+        <td>
+        156</td>
+        <td>
+        14</td>
+    </tr>
+    <tr>
+        <td>
+        Porygon2, Wailmer, Weezing</td>
+        <td>
+        155</td>
+        <td>
+        13.74</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Hoppip</td>
+        <td>
+        154</td>
+        <td>
+        13.02</td>
+    </tr>
+    <tr>
+        <td>
+        Snover</td>
+        <td>
+        153</td>
+        <td>
+        13.02</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Bagon</td>
+        <td>
+        152</td>
+        <td>
+        13.01</td>
+    </tr>
+    <tr>
+        <td>
+        Azumarill, Ledyba, Machop, Swampert, Vileplume</td>
+        <td>
+        151</td>
+        <td>
+        13.01</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Armaldo, Mawile, Rhydon</td>
+        <td>
+        150</td>
+        <td>
+        10.54</td>
+    </tr>
+    <tr>
+        <td>
+        Larvitar, Zubat</td>
+        <td>
+        149</td>
+        <td>
+        10.48</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Croconaw</td>
+        <td>
+        148</td>
+        <td>
+        10.48</td>
+    </tr>
+    <tr>
+        <td>
+        Rhyperior, Squirtle, Swalot</td>
+        <td>
+        147</td>
+        <td>
+        10.47</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Blissey, Carnivine, Metang</td>
+        <td>
+        146</td>
+        <td>
+        9.99</td>
+    </tr>
+    <tr>
+        <td>
+        Marill, Seel</td>
+        <td>
+        144</td>
+        <td>
+        7.81</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Clefairy, Gloom, Lotad</td>
+        <td>
+        143</td>
+        <td>
+        7.81</td>
+    </tr>
+    <tr>
+        <td>
+        Golem, Snorunt</td>
+        <td>
+        142</td>
+        <td>
+        7.78</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Piloswine, Piplup</td>
+        <td>
+        141</td>
+        <td>
+        7.75</td>
+    </tr>
+    <tr>
+        <td>
+        Flaaffy, Granbull, Wigglytuff</td>
+        <td>
+        140</td>
+        <td>
+        7.74</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Chikorita, Regirock, Weedle</td>
+        <td>
+        139</td>
+        <td>
+        7.72</td>
+    </tr>
+    <tr>
+        <td>
+        Donphan, Poochyena, Regice</td>
+        <td>
+        138</td>
+        <td>
+        7.61</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Lickilicky, Hariyama, Kirlia</td>
+        <td>
+        137</td>
+        <td>
+        7.17</td>
+    </tr>
+    <tr>
+        <td>
+        Chansey, Mantyke, Muk, Nidoran-M, Registeel</td>
+        <td>
+        136</td>
+        <td>
+        6.92</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Ditto, Unown</td>
+        <td>
+        135</td>
+        <td>
+        6.53</td>
+    </tr>
+    <tr>
+        <td>
+        Gible, Swablu</td>
+        <td>
+        134</td>
+        <td>
+        6.52</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Hippowdon</td>
+        <td>
+        132</td>
+        <td>
+        6.52</td>
+    </tr>
+    <tr>
+        <td>
+        Cleffa</td>
+        <td>
+        131</td>
+        <td>
+        5.77</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Turtwig</td>
+        <td>
+        130</td>
+        <td>
+        5.75</td>
+    </tr>
+    <tr>
+        <td>
+        Bulbasaur, Cherubi, Marshtomp</td>
+        <td>
+        129</td>
+        <td>
+        5.75</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Dunsparce, Porygon</td>
+        <td>
+        128</td>
+        <td>
+        5.74</td>
+    </tr>
+    <tr>
+        <td>
+        Tyrogue</td>
+        <td>
+        127</td>
+        <td>
+        5.71</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Dusknoir</td>
+        <td>
+        126</td>
+        <td>
+        5.7</td>
+    </tr>
+    <tr>
+        <td>
+        Cradily</td>
+        <td>
+        125</td>
+        <td>
+        5</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Exeggcute, Graveler</td>
+        <td>
+        124</td>
+        <td>
+        4.8</td>
+    </tr>
+    <tr>
+        <td>
+        Rhyhorn</td>
+        <td>
+        123</td>
+        <td>
+        4.8</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Sandshrew</td>
+        <td>
+        122</td>
+        <td>
+        4.8</td>
+    </tr>
+    <tr>
+        <td>
+        Camerupt</td>
+        <td>
+        121</td>
+        <td>
+        4.8</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Cacnea, Corphish, Probopass, Sunflora</td>
+        <td>
+        118</td>
+        <td>
+        4.74</td>
+    </tr>
+    <tr>
+        <td>
+        Bidoof, Kecleon, Lairon, Nincada, Shellder, Vespiquen</td>
+        <td>
+        116</td>
+        <td>
+        4.7</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Igglybuff, Shuppet, Togetic, Wormadam</td>
+        <td>
+        115</td>
+        <td>
+        4.64</td>
+    </tr>
+    <tr>
+        <td>
+        Sudowoodo</td>
+        <td>
+        114</td>
+        <td>
+        4.62</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Drowzee</td>
+        <td>
+        113</td>
+        <td>
+        4.6</td>
+    </tr>
+    <tr>
+        <td>
+        Mareep</td>
+        <td>
+        112</td>
+        <td>
+        4.6</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Burmy, Gastrodon, Koffing, Shieldon</td>
+        <td>
+        111</td>
+        <td>
+        4.6</td>
+    </tr>
+    <tr>
+        <td>
+        Grotle, Forretress, Ralts, Wormadam-G</td>
+        <td>
+        110</td>
+        <td>
+        4.48</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Corsola, Omanyte</td>
+        <td>
+        108</td>
+        <td>
+        3.38</td>
+    </tr>
+    <tr>
+        <td>
+        Parasect, Shroomish, Spiritomb</td>
+        <td>
+        107</td>
+        <td>
+        3.37</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Quagsire</td>
+        <td>
+        104</td>
+        <td>
+        2.99</td>
+    </tr>
+    <tr>
+        <td>
+        Wormadam-S</td>
+        <td>
+        102</td>
+        <td>
+        2.9</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Sentret</td>
+        <td>
+        100</td>
+        <td>
+        2.9</td>
+    </tr>
+    <tr>
+        <td>
+        Beldum, Hippopotas, Spinarak</td>
+        <td>
+        99</td>
+        <td>
+        2.9</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Cubone, Metapod, Spheal</td>
+        <td>
+        98</td>
+        <td>
+        2.89</td>
+    </tr>
+    <tr>
+        <td>
+        Happiny, Magcargo, Nosepass</td>
+        <td>
+        97</td>
+        <td>
+        2.89</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Bronzong, Makuhita, Snorlax</td>
+        <td>
+        96</td>
+        <td>
+        2.88</td>
+    </tr>
+    <tr>
+        <td>
+        Aron</td>
+        <td>
+        95</td>
+        <td>
+        0.94</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Slowbro, Sunkern</td>
+        <td>
+        94</td>
+        <td>
+        0.94</td>
+    </tr>
+    <tr>
+        <td>
+        Clamperl, Slowking, Steelix</td>
+        <td>
+        93</td>
+        <td>
+        0.68</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Bastiodon, Lickitung</td>
+        <td>
+        92</td>
+        <td>
+        0.33</td>
+    </tr>
+    <tr>
+        <td>
+        Togepi</td>
+        <td>
+        91</td>
+        <td>
+        0.3</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Grimer</td>
+        <td>
+        89</td>
+        <td>
+        0.3</td>
+    </tr>
+    <tr>
+        <td>
+        Lileep</td>
+        <td>
+        88</td>
+        <td>
+        0.3</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Kricketot</td>
+        <td>
+        86</td>
+        <td>
+        0.3</td>
+    </tr>
+    <tr>
+        <td>
+        Dusclops, Duskull, Paras, Slowpoke</td>
+        <td>
+        85</td>
+        <td>
+        0.3</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Wurmple</td>
+        <td>
+        79</td>
+        <td>
+        0.28</td>
+    </tr>
+    <tr>
+        <td>
+        Bronzor, Geodude</td>
+        <td>
+        77</td>
+        <td>
+        0.28</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Azurill</td>
+        <td>
+        76</td>
+        <td>
+        0.28</td>
+    </tr>
+    <tr>
+        <td>
+        Jigglypuff</td>
+        <td>
+        75</td>
+        <td>
+        0.28</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Wooper</td>
+        <td>
+        74</td>
+        <td>
+        0.27</td>
+    </tr>
+    <tr>
+        <td>
+        Cascoon</td>
+        <td>
+        73</td>
+        <td>
+        0.27</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Silcoon</td>
+        <td>
+        72</td>
+        <td>
+        0.27</td>
+    </tr>
+    <tr>
+        <td>
+        Torkoal</td>
+        <td>
+        71</td>
+        <td>
+        0.27</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Pineco</td>
+        <td>
+        67</td>
+        <td>
+        0.21</td>
+    </tr>
+    <tr>
+        <td>
+        Bonsly</td>
+        <td>
+        57</td>
+        <td>
+        0.2</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Trapinch</td>
+        <td>
+        51</td>
+        <td>
+        0.2</td>
+    </tr>
+    <tr>
+        <td>
+        Munchlax</td>
+        <td>
+        49</td>
+        <td>
+        0.2</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Shuckle</td>
+        <td>
+        46</td>
+        <td>
+        0.2</td>
+    </tr>
+    <tr>
+        <td>
+        <strong>Average</strong></td>
+        <td>
+        <strong>250.37</strong></td>
+        <td>&nbsp;</td>
+    </tr>
+    </tbody>
+</table>
+
+<h2><a name="underused">The Speed Stat in the Underused Metagame</a></h2>
+ 
+ <table class="sortable">
+      <thead>
+     <tr>
+         <th>Pokémon</th>
+         <th>Average Speed Stat</th>
+         <th>%Pokémon Outsped</th>                  
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>
+        Lopunny</td>
+        <td>
+        404</td>
+        <td>
+        100</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Typhlosion</td>
+        <td>
+        403</td>
+        <td>
+        99.57</td>
+    </tr>
+    <tr>
+        <td>
+        Electrode</td>
+        <td>
+        394</td>
+        <td>
+        98.95</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Ponyta</td>
+        <td>
+        393</td>
+        <td>
+        98.33</td>
+    </tr>
+    <tr>
+        <td>
+        Diglett</td>
+        <td>
+        381</td>
+        <td>
+        98.33</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Swellow</td>
+        <td>
+        378</td>
+        <td>
+        98.32</td>
+    </tr>
+    <tr>
+        <td>
+        Primeape</td>
+        <td>
+        375</td>
+        <td>
+        97.47</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Anorith</td>
+        <td>
+        374</td>
+        <td>
+        97.04</td>
+    </tr>
+    <tr>
+        <td>
+        Sceptile</td>
+        <td>
+        367</td>
+        <td>
+        97.04</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Furret</td>
+        <td>
+        363</td>
+        <td>
+        95.71</td>
+    </tr>
+    <tr>
+        <td>
+        Espeon</td>
+        <td>
+        360</td>
+        <td>
+        95.67</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Dugtrio, Mankey, Treecko</td>
+        <td>
+        359</td>
+        <td>
+        94.57</td>
+    </tr>
+    <tr>
+        <td>
+        Ambipom, Persian</td>
+        <td>
+        356</td>
+        <td>
+        93.39</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Purugly</td>
+        <td>
+        355</td>
+        <td>
+        90.46</td>
+    </tr>
+    <tr>
+        <td>
+        Jumpluff</td>
+        <td>
+        350</td>
+        <td>
+        90.41</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Sneasel</td>
+        <td>
+        348</td>
+        <td>
+        89.94</td>
+    </tr>
+    <tr>
+        <td>
+        Manectric</td>
+        <td>
+        347</td>
+        <td>
+        89.87</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Medicham</td>
+        <td>
+        345</td>
+        <td>
+        89.58</td>
+    </tr>
+    <tr>
+        <td>
+        Volbeat</td>
+        <td>
+        344</td>
+        <td>
+        89.18</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Jynx</td>
+        <td>
+        339</td>
+        <td>
+        89.18</td>
+    </tr>
+    <tr>
+        <td>
+        Pinsir, Tauros</td>
+        <td>
+        338</td>
+        <td>
+        88.94</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Haunter</td>
+        <td>
+        336</td>
+        <td>
+        88.24</td>
+    </tr>
+    <tr>
+        <td>
+        Gastly, Slaking</td>
+        <td>
+        335</td>
+        <td>
+        88.16</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Rotom</td>
+        <td>
+        333</td>
+        <td>
+        87.94</td>
+    </tr>
+    <tr>
+        <td>
+        Dodrio, Kadabra</td>
+        <td>
+        332</td>
+        <td>
+        86.36</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Scyther</td>
+        <td>
+        331</td>
+        <td>
+        86.12</td>
+    </tr>
+    <tr>
+        <td>
+        Mismagius</td>
+        <td>
+        330</td>
+        <td>
+        85.13</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Floatzel, Ninetales</td>
+        <td>
+        327</td>
+        <td>
+        81.58</td>
+    </tr>
+    <tr>
+        <td>
+        Rapidash</td>
+        <td>
+        326</td>
+        <td>
+        80.8</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Quilava</td>
+        <td>
+        322</td>
+        <td>
+        80.66</td>
+    </tr>
+    <tr>
+        <td>
+        Hitmonlee</td>
+        <td>
+        319</td>
+        <td>
+        80.66</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Moltres</td>
+        <td>
+        317</td>
+        <td>
+        79.95</td>
+    </tr>
+    <tr>
+        <td>
+        Raichu</td>
+        <td>
+        316</td>
+        <td>
+        78.76</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Minun</td>
+        <td>
+        315</td>
+        <td>
+        78.61</td>
+    </tr>
+    <tr>
+        <td>
+        Gabite</td>
+        <td>
+        314</td>
+        <td>
+        78.58</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Electabuzz</td>
+        <td>
+        311</td>
+        <td>
+        78.51</td>
+    </tr>
+    <tr>
+        <td>
+        Raticate</td>
+        <td>
+        309</td>
+        <td>
+        78.45</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Charizard, Houndoom, Yanma</td>
+        <td>
+        308</td>
+        <td>
+        78.39</td>
+    </tr>
+    <tr>
+        <td>
+        Abra, Fearow, Poliwag</td>
+        <td>
+        307</td>
+        <td>
+        76.37</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Mesprit, Roserade</td>
+        <td>
+        304</td>
+        <td>
+        76.33</td>
+    </tr>
+    <tr>
+        <td>
+        Pikachu, Luvdisc</td>
+        <td>
+        302</td>
+        <td>
+        72.39</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Cranidos</td>
+        <td>
+        301</td>
+        <td>
+        72.2</td>
+    </tr>
+    <tr>
+        <td>
+        Entei, Sharpedo</td>
+        <td>
+        300</td>
+        <td>
+        72.2</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Leafeon, Poliwhirl</td>
+        <td>
+        299</td>
+        <td>
+        71.84</td>
+    </tr>
+    <tr>
+        <td>
+        Golbat, Magmar</td>
+        <td>
+        298</td>
+        <td>
+        71.31</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Aipom, Zangoose</td>
+        <td>
+        295</td>
+        <td>
+        71.28</td>
+    </tr>
+    <tr>
+        <td>
+        Yanmega</td>
+        <td>
+        294</td>
+        <td>
+        71.08</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Buizel, Murkrow, Venomoth</td>
+        <td>
+        293</td>
+        <td>
+        68.54</td>
+    </tr>
+    <tr>
+        <td>
+        Grovyle, Magby</td>
+        <td>
+        292</td>
+        <td>
+        68.34</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Butterfree, Taillow</td>
+        <td>
+        291</td>
+        <td>
+        68.34</td>
+    </tr>
+    <tr>
+        <td>
+        Plusle</td>
+        <td>
+        290</td>
+        <td>
+        68.27</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Elekid</td>
+        <td>
+        289</td>
+        <td>
+        68.22</td>
+    </tr>
+    <tr>
+        <td>
+        Seadra</td>
+        <td>
+        287</td>
+        <td>
+        68.22</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Chatot, Magmortar, Ledian</td>
+        <td>
+        286</td>
+        <td>
+        68.21</td>
+    </tr>
+    <tr>
+        <td>
+        Pidgeot</td>
+        <td>
+        285</td>
+        <td>
+        67.67</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Girafarig</td>
+        <td>
+        284</td>
+        <td>
+        67.65</td>
+    </tr>
+    <tr>
+        <td>
+        Illumise, Mr. Mime</td>
+        <td>
+        283</td>
+        <td>
+        67.54</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Golduck</td>
+        <td>
+        281</td>
+        <td>
+        67.34</td>
+    </tr>
+    <tr>
+        <td>
+        Meowth, Vigoroth</td>
+        <td>
+        279</td>
+        <td>
+        67.26</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Arcanine, Linoone, Staryu</td>
+        <td>
+        278</td>
+        <td>
+        67.22</td>
+    </tr>
+    <tr>
+        <td>
+        Kingler</td>
+        <td>
+        277</td>
+        <td>
+        65.31</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Charmeleon</td>
+        <td>
+        276</td>
+        <td>
+        65.1</td>
+    </tr>
+    <tr>
+        <td>
+        Mime Jr.</td>
+        <td>
+        275</td>
+        <td>
+        65.1</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Drapion</td>
+        <td>
+        274</td>
+        <td>
+        65.1</td>
+    </tr>
+    <tr>
+        <td>
+        Articuno</td>
+        <td>
+        271</td>
+        <td>
+        63.8</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Toxicroak</td>
+        <td>
+        270</td>
+        <td>
+        63.27</td>
+    </tr>
+    <tr>
+        <td>
+        Misdreavus, Uxie</td>
+        <td>
+        269</td>
+        <td>
+        62.12</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Blaziken, Monferno</td>
+        <td>
+        266</td>
+        <td>
+        60.07</td>
+    </tr>
+    <tr>
+        <td>
+        Beedrill</td>
+        <td>
+        265</td>
+        <td>
+        57.97</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Xatu</td>
+        <td>
+        262</td>
+        <td>
+        57.9</td>
+    </tr>
+    <tr>
+        <td>
+        Delibird, Kangaskhan, Qwilfish</td>
+        <td>
+        261</td>
+        <td>
+        57.81</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Gligar</td>
+        <td>
+        259</td>
+        <td>
+        57.08</td>
+    </tr>
+    <tr>
+        <td>
+        Honchkrow, Magikarp, Pachirisu</td>
+        <td>
+        258</td>
+        <td>
+        56.99</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Absol</td>
+        <td>
+        256</td>
+        <td>
+        54.89</td>
+    </tr>
+    <tr>
+        <td>
+        Skuntank</td>
+        <td>
+        254</td>
+        <td>
+        53.79</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Smoochum</td>
+        <td>
+        252</td>
+        <td>
+        53.75</td>
+    </tr>
+    <tr>
+        <td>
+        Gardevoir</td>
+        <td>
+        251</td>
+        <td>
+        53.75</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Feraligatr, Kabutops, Nidoking, Roselia, Shiftry</td>
+        <td>
+        249</td>
+        <td>
+        53.18</td>
+    </tr>
+    <tr>
+        <td>
+        Beautifly</td>
+        <td>
+        248</td>
+        <td>
+        50.06</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Kricketune, Miltank, Rampardos, Stunky</td>
+        <td>
+        247</td>
+        <td>
+        50.05</td>
+    </tr>
+    <tr>
+        <td>
+        Hitmonchan</td>
+        <td>
+        246</td>
+        <td>
+        49.11</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Lumineon</td>
+        <td>
+        244</td>
+        <td>
+        48.89</td>
+    </tr>
+    <tr>
+        <td>
+        Stantler</td>
+        <td>
+        243</td>
+        <td>
+        48.87</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Mightyena</td>
+        <td>
+        242</td>
+        <td>
+        48.84</td>
+    </tr>
+    <tr>
+        <td>
+        Pidgeotto</td>
+        <td>
+        241</td>
+        <td>
+        48.82</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Snubbull, Surskit</td>
+        <td>
+        239</td>
+        <td>
+        48.81</td>
+    </tr>
+    <tr>
+        <td>
+        Arbok, Cherrim, Regigigas</td>
+        <td>
+        238</td>
+        <td>
+        48.81</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Voltorb</td>
+        <td>
+        236</td>
+        <td>
+        48.59</td>
+    </tr>
+    <tr>
+        <td>
+        Cyndaquil, Dragonair, Magneton, Mothim, Seaking</td>
+        <td>
+        235</td>
+        <td>
+        48.59</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Glaceon</td>
+        <td>
+        234</td>
+        <td>
+        47.9</td>
+    </tr>
+    <tr>
+        <td>
+        Luxray</td>
+        <td>
+        233</td>
+        <td>
+        47.59</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Budew, Delcatty</td>
+        <td>
+        230</td>
+        <td>
+        47.46</td>
+    </tr>
+    <tr>
+        <td>
+        Carvanha, Remoraid</td>
+        <td>
+        229</td>
+        <td>
+        47.45</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Drifblim, Pichu</td>
+        <td>
+        227</td>
+        <td>
+        47.45</td>
+    </tr>
+    <tr>
+        <td>
+        Goldeen</td>
+        <td>
+        225</td>
+        <td>
+        46.76</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Combusken, Farfetch'd, Grumpig</td>
+        <td>
+        221</td>
+        <td>
+        46.76</td>
+    </tr>
+    <tr>
+        <td>
+        Castform, Venusaur</td>
+        <td>
+        220</td>
+        <td>
+        46.6</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Riolu, Victreebel, Zigzagoon</td>
+        <td>
+        219</td>
+        <td>
+        45.19</td>
+    </tr>
+    <tr>
+        <td>
+        Altaria, Charmander, Ludicolo</td>
+        <td>
+        217</td>
+        <td>
+        45.03</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Masquerain</td>
+        <td>
+        216</td>
+        <td>
+        42.77</td>
+    </tr>
+    <tr>
+        <td>
+        Magnemite, Rattata</td>
+        <td>
+        213</td>
+        <td>
+        42.76</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Solrock</td>
+        <td>
+        211</td>
+        <td>
+        42.73</td>
+    </tr>
+    <tr>
+        <td>
+        Crawdaunt, Ekans</td>
+        <td>
+        209</td>
+        <td>
+        42.65</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Finneon, Torchic, Venonat</td>
+        <td>
+        208</td>
+        <td>
+        42.46</td>
+    </tr>
+    <tr>
+        <td>
+        Exploud, Spinda, Ursaring</td>
+        <td>
+        207</td>
+        <td>
+        42.46</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Pupitar</td>
+        <td>
+        206</td>
+        <td>
+        41.99</td>
+    </tr>
+    <tr>
+        <td>
+        Drifloon, Milotic, Pidgey</td>
+        <td>
+        205</td>
+        <td>
+        41.98</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Claydol, Glalie</td>
+        <td>
+        204</td>
+        <td>
+        38.53</td>
+    </tr>
+    <tr>
+        <td>
+        Seviper, Wailord</td>
+        <td>
+        203</td>
+        <td>
+        37.02</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Banette, Politoed</td>
+        <td>
+        202</td>
+        <td>
+        36.9</td>
+    </tr>
+    <tr>
+        <td>
+        Phione, Whiscash</td>
+        <td>
+        201</td>
+        <td>
+        36.62</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Blastoise, Exeggutor, Spoink</td>
+        <td>
+        200</td>
+        <td>
+        36.42</td>
+    </tr>
+    <tr>
+        <td>
+        Croagunk, Lunatone, Meganium, Swinub</td>
+        <td>
+        199</td>
+        <td>
+        35.38</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Vibrava</td>
+        <td>
+        196</td>
+        <td>
+        35.11</td>
+    </tr>
+    <tr>
+        <td>
+        Cacturne</td>
+        <td>
+        195</td>
+        <td>
+        35.11</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Larvitar</td>
+        <td>
+        192</td>
+        <td>
+        34.7</td>
+    </tr>
+    <tr>
+        <td>
+        Poliwrath</td>
+        <td>
+        191</td>
+        <td>
+        34.7</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Flareon, Nidoqueen, Prinplup</td>
+        <td>
+        190</td>
+        <td>
+        34.34</td>
+    </tr>
+    <tr>
+        <td>
+        Doduo</td>
+        <td>
+        189</td>
+        <td>
+        33.68</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Gorebyss, Lanturn, Poochyena, Sandslash</td>
+        <td>
+        186</td>
+        <td>
+        33.68</td>
+    </tr>
+    <tr>
+        <td>
+        Relicanth</td>
+        <td>
+        184</td>
+        <td>
+        32.39</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Torterra</td>
+        <td>
+        183</td>
+        <td>
+        32.24</td>
+    </tr>
+    <tr>
+        <td>
+        Eevee</td>
+        <td>
+        182</td>
+        <td>
+        31.52</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Shelgon</td>
+        <td>
+        181</td>
+        <td>
+        31.52</td>
+    </tr>
+    <tr>
+        <td>
+        Bibarel</td>
+        <td>
+        180</td>
+        <td>
+        31.5</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Bellsprout, Gible, Hitmontop, Lapras</td>
+        <td>
+        179</td>
+        <td>
+        31.29</td>
+    </tr>
+    <tr>
+        <td>
+        Huntail, Shedinja, Tropius</td>
+        <td>
+        178</td>
+        <td>
+        28.75</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Growlithe, Mantine, Noctowl</td>
+        <td>
+        177</td>
+        <td>
+        28.47</td>
+    </tr>
+    <tr>
+        <td>
+        Dewgong, Natu, Tentacool</td>
+        <td>
+        176</td>
+        <td>
+        28.2</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Cloyster, Onix</td>
+        <td>
+        174</td>
+        <td>
+        28.14</td>
+    </tr>
+    <tr>
+        <td>
+        Walrein</td>
+        <td>
+        172</td>
+        <td>
+        27.8</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Chimecho, Hypno, Ivysaur, Piplup, Tangela</td>
+        <td>
+        171</td>
+        <td>
+        27.6</td>
+    </tr>
+    <tr>
+        <td>
+        Houndour, Metang, Numel</td>
+        <td>
+        169</td>
+        <td>
+        27.28</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Piloswine, Vulpix</td>
+        <td>
+        167</td>
+        <td>
+        27.25</td>
+    </tr>
+    <tr>
+        <td>
+        Aggron, Bidoof, Pelipper, Skorupi</td>
+        <td>
+        166</td>
+        <td>
+        27.19</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Dustox, Octillery</td>
+        <td>
+        165</td>
+        <td>
+        26.47</td>
+    </tr>
+    <tr>
+        <td>
+        Omastar</td>
+        <td>
+        164</td>
+        <td>
+        26.4</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Ampharos, Chimchar, Clefable, Golem</td>
+        <td>
+        161</td>
+        <td>
+        25.71</td>
+    </tr>
+    <tr>
+        <td>
+        Bellossom, Machoke, Marowak, Tangrowth</td>
+        <td>
+        160</td>
+        <td>
+        23.01</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Lotad, Seedot, Starly</td>
+        <td>
+        159</td>
+        <td>
+        22.12</td>
+    </tr>
+    <tr>
+        <td>
+        Bayleef</td>
+        <td>
+        156</td>
+        <td>
+        22.12</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Mawile, Weezing</td>
+        <td>
+        155</td>
+        <td>
+        22.12</td>
+    </tr>
+    <tr>
+        <td>
+        Ariados, Porygon2</td>
+        <td>
+        154</td>
+        <td>
+        21.22</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Hoothoot</td>
+        <td>
+        153</td>
+        <td>
+        20.65</td>
+    </tr>
+    <tr>
+        <td>
+        Corphish, Wartortle</td>
+        <td>
+        152</td>
+        <td>
+        20.65</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Chikorita</td>
+        <td>
+        151</td>
+        <td>
+        20.64</td>
+    </tr>
+    <tr>
+        <td>
+        Psyduck</td>
+        <td>
+        149</td>
+        <td>
+        20.64</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Luxio, Snover</td>
+        <td>
+        148</td>
+        <td>
+        20.64</td>
+    </tr>
+    <tr>
+        <td>
+        Vileplume</td>
+        <td>
+        147</td>
+        <td>
+        20.47</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Azumarill, Cacnea, Croconaw, Swalot</td>
+        <td>
+        146</td>
+        <td>
+        20.34</td>
+    </tr>
+    <tr>
+        <td>
+        Squirtle</td>
+        <td>
+        145</td>
+        <td>
+        18.32</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Granbull, Rhydon</td>
+        <td>
+        144</td>
+        <td>
+        18.31</td>
+    </tr>
+    <tr>
+        <td>
+        Donphan, Dunsparce, Regice, Sableye</td>
+        <td>
+        141</td>
+        <td>
+        18.19</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Armaldo, Regirock, Sunflora</td>
+        <td>
+        140</td>
+        <td>
+        14.55</td>
+    </tr>
+    <tr>
+        <td>
+        Dratini, Geodude, Hoppip, Weedle</td>
+        <td>
+        139</td>
+        <td>
+        13.57</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Muk, Teddiursa, Wigglytuff</td>
+        <td>
+        137</td>
+        <td>
+        13.57</td>
+    </tr>
+    <tr>
+        <td>
+        Bagon, Chansey, Hariyama, Krabby, Mantyke, Registeel</td>
+        <td>
+        136</td>
+        <td>
+        13.32</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Ditto, Unown</td>
+        <td>
+        135</td>
+        <td>
+        7.78</td>
+    </tr>
+    <tr>
+        <td>
+        Flaaffy, Lickilicky</td>
+        <td>
+        133</td>
+        <td>
+        7.76</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Carnivine</td>
+        <td>
+        131</td>
+        <td>
+        7.55</td>
+    </tr>
+    <tr>
+        <td>
+        Caterpie, Cleffa</td>
+        <td>
+        129</td>
+        <td>
+        7.53</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Bulbasaur, Shellos</td>
+        <td>
+        127</td>
+        <td>
+        7.52</td>
+    </tr>
+    <tr>
+        <td>
+        Cradily</td>
+        <td>
+        125</td>
+        <td>
+        7.51</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Camerupt, Marshtomp, Probopass, Sudowoodo</td>
+        <td>
+        124</td>
+        <td>
+        7.22</td>
+    </tr>
+    <tr>
+        <td>
+        Sealeo, Totodile</td>
+        <td>
+        122</td>
+        <td>
+        6.79</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Vespiquen</td>
+        <td>
+        121</td>
+        <td>
+        6.79</td>
+    </tr>
+    <tr>
+        <td>
+        Mudkip, Ralts</td>
+        <td>
+        119</td>
+        <td>
+        6.76</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Corsola, Gloom, Kecleon, Lairon, Marill, Shellder, Togetic</td>
+        <td>
+        116</td>
+        <td>
+        6.76</td>
+    </tr>
+    <tr>
+        <td>
+        Porygon</td>
+        <td>
+        115</td>
+        <td>
+        6.67</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Shuppet</td>
+        <td>
+        113</td>
+        <td>
+        6.66</td>
+    </tr>
+    <tr>
+        <td>
+        Gastrodon</td>
+        <td>
+        112</td>
+        <td>
+        6.66</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Jigglypuff</td>
+        <td>
+        109</td>
+        <td>
+        6.39</td>
+    </tr>
+    <tr>
+        <td>
+        Grotle, Wormadam, Wormadam-G</td>
+        <td>
+        108</td>
+        <td>
+        6.39</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Parasect</td>
+        <td>
+        107</td>
+        <td>
+        6.38</td>
+    </tr>
+    <tr>
+        <td>
+        Clefairy, Mareep, Phanpy, Omanyte, Spiritomb, Wormadam-S</td>
+        <td>
+        106</td>
+        <td>
+        6.32</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Quagsire</td>
+        <td>
+        105</td>
+        <td>
+        4.87</td>
+    </tr>
+    <tr>
+        <td>
+        Machop</td>
+        <td>
+        104</td>
+        <td>
+        4.4</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Koffing</td>
+        <td>
+        103</td>
+        <td>
+        4.4</td>
+    </tr>
+    <tr>
+        <td>
+        Shieldon</td>
+        <td>
+        102</td>
+        <td>
+        4.4</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Aron, Cubone, Happiny, Hippopotas, Magcargo, Metapod</td>
+        <td>
+        99</td>
+        <td>
+        4.4</td>
+    </tr>
+    <tr>
+        <td>
+        Tyrogue</td>
+        <td>
+        98</td>
+        <td>
+        3.8</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Slowking</td>
+        <td>
+        97</td>
+        <td>
+        3.8</td>
+    </tr>
+    <tr>
+        <td>
+        Slowbro, Sunkern</td>
+        <td>
+        96</td>
+        <td>
+        3.44</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Graveler, Lickitung, Nosepass</td>
+        <td>
+        95</td>
+        <td>
+        2.15</td>
+    </tr>
+    <tr>
+        <td>
+        Bastiodon</td>
+        <td>
+        94</td>
+        <td>
+        2.14</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Clamperl</td>
+        <td>
+        93</td>
+        <td>
+        1.99</td>
+    </tr>
+    <tr>
+        <td>
+        Dusclops, Steelix</td>
+        <td>
+        91</td>
+        <td>
+        1.95</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Duskull</td>
+        <td>
+        89</td>
+        <td>
+        0.54</td>
+    </tr>
+    <tr>
+        <td>
+        Grimer, Paras</td>
+        <td>
+        86</td>
+        <td>
+        0.54</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Bronzor</td>
+        <td>
+        83</td>
+        <td>
+        0.52</td>
+    </tr>
+    <tr>
+        <td>
+        Lileep</td>
+        <td>
+        82</td>
+        <td>
+        0.51</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Rhyhorn</td>
+        <td>
+        77</td>
+        <td>
+        0.51</td>
+    </tr>
+    <tr>
+        <td>
+        Trapinch</td>
+        <td>
+        74</td>
+        <td>
+        0.5</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Torkoal</td>
+        <td>
+        71</td>
+        <td>
+        0.49</td>
+    </tr>
+    <tr>
+        <td>
+        Slowpoke, Wooper</td>
+        <td>
+        66</td>
+        <td>
+        0.3</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Pineco</td>
+        <td>
+        63</td>
+        <td>
+        0.3</td>
+    </tr>
+    <tr>
+        <td>
+        Igglybuff</td>
+        <td>
+        62</td>
+        <td>
+        0.3</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Bonsly</td>
+        <td>
+        56</td>
+        <td>
+        0.3</td>
+    </tr>
+    <tr>
+        <td>
+        Munchlax, Shuckle</td>
+        <td>
+        46</td>
+        <td>
+        0.3</td>
+    </tr>
+    <tr class="a">
+        <td>
+        <strong>Average</strong></td>
+        <td>
+        <strong>236.6</strong></td>
+        <td>&nbsp;</td>
+    </tr>
+    </tbody>
+</table>
+
+<h2><a name="uber">The Speed Stat in the Uber Metagame</a></h2>
+
+ <table class="sortable">
+      <thead>
+     <tr>
+         <th>Pokémon</th>
+         <th>Average Speed Stat</th>
+         <th>%Pokémon Outsped</th>                  
+    </tr>
+    </thead>
+    <tbody>
+     <tr>
+        <td>
+        Deoxys-S</td>
+        <td>
+        503</td>
+        <td>
+        100</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Shaymin-S</td>
+        <td>
+        448</td>
+        <td>
+        97.19</td>
+    </tr>
+    <tr>
+        <td>
+        Persian</td>
+        <td>
+        443</td>
+        <td>
+        95.3</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Haunter</td>
+        <td>
+        434</td>
+        <td>
+        95.27</td>
+    </tr>
+    <tr>
+        <td>
+        Ninjask</td>
+        <td>
+        427</td>
+        <td>
+        95.27</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Deoxys-A</td>
+        <td>
+        424</td>
+        <td>
+        94.99</td>
+    </tr>
+    <tr>
+        <td>
+        Darkrai</td>
+        <td>
+        417</td>
+        <td>
+        92.22</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Mewtwo</td>
+        <td>
+        414</td>
+        <td>
+        86.9</td>
+    </tr>
+    <tr>
+        <td>
+        Deoxys</td>
+        <td>
+        412</td>
+        <td>
+        81.63</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Primeape</td>
+        <td>
+        410</td>
+        <td>
+        81.5</td>
+    </tr>
+    <tr>
+        <td>
+        Electrode, Garchomp</td>
+        <td>
+        399</td>
+        <td>
+        81.13</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Palkia</td>
+        <td>
+        396</td>
+        <td>
+        78.35</td>
+    </tr>
+    <tr>
+        <td>
+        Aerodactyl, Crobat</td>
+        <td>
+        389</td>
+        <td>
+        71.54</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Jolteon</td>
+        <td>
+        379</td>
+        <td>
+        71.43</td>
+    </tr>
+    <tr>
+        <td>
+        Azelf</td>
+        <td>
+        376</td>
+        <td>
+        71.26</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Furret</td>
+        <td>
+        375</td>
+        <td>
+        71.16</td>
+    </tr>
+    <tr>
+        <td>
+        Anorith, Weavile</td>
+        <td>
+        374</td>
+        <td>
+        71.16</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Gengar</td>
+        <td>
+        363</td>
+        <td>
+        70.99</td>
+    </tr>
+    <tr>
+        <td>
+        Flygon</td>
+        <td>
+        356</td>
+        <td>
+        70.74</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Dugtrio, Starmie</td>
+        <td>
+        354</td>
+        <td>
+        70.69</td>
+    </tr>
+    <tr>
+        <td>
+        Rotom-C</td>
+        <td>
+        353</td>
+        <td>
+        70.52</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Latios</td>
+        <td>
+        352</td>
+        <td>
+        70.49</td>
+    </tr>
+    <tr>
+        <td>
+        Swellow</td>
+        <td>
+        351</td>
+        <td>
+        68.5</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Froslass</td>
+        <td>
+        350</td>
+        <td>
+        68.47</td>
+    </tr>
+    <tr>
+        <td>
+        Ambipom</td>
+        <td>
+        347</td>
+        <td>
+        68.39</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Jumpluff, Sceptile, Sneasel, Zubat</td>
+        <td>
+        345</td>
+        <td>
+        68.29</td>
+    </tr>
+    <tr>
+        <td>
+        Raikou</td>
+        <td>
+        341</td>
+        <td>
+        68.03</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Kadabra</td>
+        <td>
+        340</td>
+        <td>
+        67.97</td>
+    </tr>
+    <tr>
+        <td>
+        Luvdisc</td>
+        <td>
+        338</td>
+        <td>
+        67.97</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Mismagius</td>
+        <td>
+        337</td>
+        <td>
+        67.97</td>
+    </tr>
+    <tr>
+        <td>
+        Alakazam</td>
+        <td>
+        334</td>
+        <td>
+        67.86</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Typhlosion</td>
+        <td>
+        333</td>
+        <td>
+        67.8</td>
+    </tr>
+    <tr>
+        <td>
+        Latias, Porygon-Z</td>
+        <td>
+        332</td>
+        <td>
+        67.76</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Tauros</td>
+        <td>
+        330</td>
+        <td>
+        66.08</td>
+    </tr>
+    <tr>
+        <td>
+        Dodrio, Fearow, Manectric</td>
+        <td>
+        329</td>
+        <td>
+        66.06</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Scyther</td>
+        <td>
+        327</td>
+        <td>
+        66.04</td>
+    </tr>
+    <tr>
+        <td>
+        Lopunny</td>
+        <td>
+        325</td>
+        <td>
+        66.02</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Infernape</td>
+        <td>
+        324</td>
+        <td>
+        66.01</td>
+    </tr>
+    <tr>
+        <td>
+        Cranidos</td>
+        <td>
+        323</td>
+        <td>
+        65.82</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Heatran</td>
+        <td>
+        322</td>
+        <td>
+        65.82</td>
+    </tr>
+    <tr>
+        <td>
+        Raichu</td>
+        <td>
+        320</td>
+        <td>
+        65.38</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Espeon, Roserade</td>
+        <td>
+        319</td>
+        <td>
+        65.36</td>
+    </tr>
+    <tr>
+        <td>
+        Jynx, Rapidash</td>
+        <td>
+        318</td>
+        <td>
+        65.2</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Magmortar</td>
+        <td>
+        316</td>
+        <td>
+        65.2</td>
+    </tr>
+    <tr>
+        <td>
+        Rotom</td>
+        <td>
+        314</td>
+        <td>
+        65.17</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Yanmega</td>
+        <td>
+        313</td>
+        <td>
+        65.16</td>
+    </tr>
+    <tr>
+        <td>
+        Sharpedo</td>
+        <td>
+        312</td>
+        <td>
+        65.05</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Plusle, Salamence</td>
+        <td>
+        308</td>
+        <td>
+        65.03</td>
+    </tr>
+    <tr>
+        <td>
+        Abra</td>
+        <td>
+        305</td>
+        <td>
+        64.72</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Poliwag</td>
+        <td>
+        304</td>
+        <td>
+        64.72</td>
+    </tr>
+    <tr>
+        <td>
+        Diglett, Magneton</td>
+        <td>
+        303</td>
+        <td>
+        64.71</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Smeargle, Zangoose</td>
+        <td>
+        302</td>
+        <td>
+        64.7</td>
+    </tr>
+    <tr>
+        <td>
+        Medicham</td>
+        <td>
+        301</td>
+        <td>
+        64.52</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Floatzel, Lugia, Houndoom, Raticate</td>
+        <td>
+        299</td>
+        <td>
+        64.48</td>
+    </tr>
+    <tr>
+        <td>
+        Mew</td>
+        <td>
+        298</td>
+        <td>
+        61.93</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Moltres</td>
+        <td>
+        297</td>
+        <td>
+        60.14</td>
+    </tr>
+    <tr>
+        <td>
+        Golduck, Illumise</td>
+        <td>
+        296</td>
+        <td>
+        60.11</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Kingler, Rayquaza, Slaking</td>
+        <td>
+        293</td>
+        <td>
+        60.11</td>
+    </tr>
+    <tr>
+        <td>
+        Manaphy</td>
+        <td>
+        292</td>
+        <td>
+        55.61</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Staraptor, Venomoth</td>
+        <td>
+        291</td>
+        <td>
+        55.02</td>
+    </tr>
+    <tr>
+        <td>
+        Heracross</td>
+        <td>
+        290</td>
+        <td>
+        54.97</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Elekid</td>
+        <td>
+        289</td>
+        <td>
+        54.79</td>
+    </tr>
+    <tr>
+        <td>
+        Shaymin</td>
+        <td>
+        288</td>
+        <td>
+        54.79</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Monferno</td>
+        <td>
+        287</td>
+        <td>
+        54.75</td>
+    </tr>
+    <tr>
+        <td>
+        Kyogre, Linoone, Lucario, Ninetales</td>
+        <td>
+        286</td>
+        <td>
+        54.75</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Delibird, Electivire</td>
+        <td>
+        281</td>
+        <td>
+        44.72</td>
+    </tr>
+    <tr>
+        <td>
+        Feebas</td>
+        <td>
+        280</td>
+        <td>
+        44.62</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Leafeon, Vigoroth, Zapdos</td>
+        <td>
+        279</td>
+        <td>
+        44.62</td>
+    </tr>
+    <tr>
+        <td>
+        Charizard, Hitmonlee</td>
+        <td>
+        278</td>
+        <td>
+        44.4</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Entei</td>
+        <td>
+        275</td>
+        <td>
+        44.21</td>
+    </tr>
+    <tr>
+        <td>
+        Dialga</td>
+        <td>
+        274</td>
+        <td>
+        44.19</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Arcanine, Rotom-H</td>
+        <td>
+        273</td>
+        <td>
+        39.18</td>
+    </tr>
+    <tr>
+        <td>
+        Pikachu, Pinsir</td>
+        <td>
+        271</td>
+        <td>
+        39.03</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Absol, Kangaskhan, Seviper</td>
+        <td>
+        270</td>
+        <td>
+        38.99</td>
+    </tr>
+    <tr>
+        <td>
+        Beedrill, Ledian, Yanma</td>
+        <td>
+        269</td>
+        <td>
+        38.94</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Togekiss</td>
+        <td>
+        268</td>
+        <td>
+        38.91</td>
+    </tr>
+    <tr>
+        <td>
+        Gliscor, Murkrow, Qwilfish</td>
+        <td>
+        267</td>
+        <td>
+        38.83</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Jirachi</td>
+        <td>
+        266</td>
+        <td>
+        38.7</td>
+    </tr>
+    <tr>
+        <td>
+        Mamoswine</td>
+        <td>
+        264</td>
+        <td>
+        37.84</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Gligar</td>
+        <td>
+        263</td>
+        <td>
+        37.78</td>
+    </tr>
+    <tr>
+        <td>
+        Metapod, Sunkern</td>
+        <td>
+        262</td>
+        <td>
+        37.78</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Blaziken, Girafarig, Magikarp, Rotom-S</td>
+        <td>
+        261</td>
+        <td>
+        37.78</td>
+    </tr>
+    <tr>
+        <td>
+        Celebi</td>
+        <td>
+        260</td>
+        <td>
+        37.71</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Kabutops, Kingdra</td>
+        <td>
+        256</td>
+        <td>
+        37.49</td>
+    </tr>
+    <tr>
+        <td>
+        Shiftry</td>
+        <td>
+        255</td>
+        <td>
+        36.54</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Rotom-W</td>
+        <td>
+        251</td>
+        <td>
+        36.35</td>
+    </tr>
+    <tr>
+        <td>
+        Butterfree, Gardevoir, Nidoking</td>
+        <td>
+        250</td>
+        <td>
+        36.33</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Drifblim, Minun</td>
+        <td>
+        249</td>
+        <td>
+        36.29</td>
+    </tr>
+    <tr>
+        <td>
+        Giratina-O</td>
+        <td>
+        248</td>
+        <td>
+        36.28</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Rattata, Victreebel</td>
+        <td>
+        247</td>
+        <td>
+        33.54</td>
+    </tr>
+    <tr>
+        <td>
+        Gyarados, Kricketot</td>
+        <td>
+        246</td>
+        <td>
+        33.51</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Feraligatr, Miltank, Misdreavus</td>
+        <td>
+        245</td>
+        <td>
+        33.36</td>
+    </tr>
+    <tr>
+        <td>
+        Gallade, Wingull, Xatu</td>
+        <td>
+        244</td>
+        <td>
+        33.29</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Mesprit, Regigigas, Pidgeot</td>
+        <td>
+        243</td>
+        <td>
+        33.21</td>
+    </tr>
+    <tr>
+        <td>
+        Ho-oh</td>
+        <td>
+        242</td>
+        <td>
+        33.13</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Articuno</td>
+        <td>
+        241</td>
+        <td>
+        31.67</td>
+    </tr>
+    <tr>
+        <td>
+        Breloom</td>
+        <td>
+        240</td>
+        <td>
+        31.65</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Pichu</td>
+        <td>
+        238</td>
+        <td>
+        31.57</td>
+    </tr>
+    <tr>
+        <td>
+        Dragonite</td>
+        <td>
+        237</td>
+        <td>
+        31.54</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Hitmonchan, Grumpig, Mr. Mime, Tentacruel</td>
+        <td>
+        236</td>
+        <td>
+        31.42</td>
+    </tr>
+    <tr>
+        <td>
+        Altaria, Drapion, Seaking</td>
+        <td>
+        235</td>
+        <td>
+        31.19</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Buizel, Groudon</td>
+        <td>
+        234</td>
+        <td>
+        31.13</td>
+    </tr>
+    <tr>
+        <td>
+        Toxicroak</td>
+        <td>
+        232</td>
+        <td>
+        25.31</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Mightyena</td>
+        <td>
+        231</td>
+        <td>
+        25.21</td>
+    </tr>
+    <tr>
+        <td>
+        Suicune</td>
+        <td>
+        230</td>
+        <td>
+        25.21</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Charmander, Chatot</td>
+        <td>
+        229</td>
+        <td>
+        25.13</td>
+    </tr>
+    <tr>
+        <td>
+        Dragonair, Uxie</td>
+        <td>
+        228</td>
+        <td>
+        25.12</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Seadra</td>
+        <td>
+        226</td>
+        <td>
+        25.05</td>
+    </tr>
+    <tr>
+        <td>
+        Glalie, Rotom-F</td>
+        <td>
+        222</td>
+        <td>
+        25.05</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Stantler</td>
+        <td>
+        220</td>
+        <td>
+        25.04</td>
+    </tr>
+    <tr>
+        <td>
+        Deoxys-D, Giratina, Meowth</td>
+        <td>
+        219</td>
+        <td>
+        25.04</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Magnezone</td>
+        <td>
+        215</td>
+        <td>
+        23.19</td>
+    </tr>
+    <tr>
+        <td>
+        Mantine, Riolu</td>
+        <td>
+        214</td>
+        <td>
+        22.95</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Sandslash</td>
+        <td>
+        213</td>
+        <td>
+        22.92</td>
+    </tr>
+    <tr>
+        <td>
+        Exeggutor, Rampardos</td>
+        <td>
+        212</td>
+        <td>
+        22.91</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Venusaur</td>
+        <td>
+        211</td>
+        <td>
+        22.77</td>
+    </tr>
+    <tr>
+        <td>
+        Cresselia</td>
+        <td>
+        209</td>
+        <td>
+        22.74</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Blastoise, Castform, Claydol, Metagross</td>
+        <td>
+        208</td>
+        <td>
+        22.43</td>
+    </tr>
+    <tr>
+        <td>
+        Chimchar</td>
+        <td>
+        207</td>
+        <td>
+        21.41</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Banette, Delcatty, Milotic</td>
+        <td>
+        206</td>
+        <td>
+        21.4</td>
+    </tr>
+    <tr>
+        <td>
+        Cacturne, Ursaring</td>
+        <td>
+        204</td>
+        <td>
+        21.29</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Huntail, Omastar</td>
+        <td>
+        203</td>
+        <td>
+        21.23</td>
+    </tr>
+    <tr>
+        <td>
+        Mime Jr., Luxray</td>
+        <td>
+        200</td>
+        <td>
+        21.2</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Arbok, Bellossom</td>
+        <td>
+        199</td>
+        <td>
+        21.16</td>
+    </tr>
+    <tr>
+        <td>
+        Pidgey</td>
+        <td>
+        198</td>
+        <td>
+        21.16</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Phione</td>
+        <td>
+        196</td>
+        <td>
+        21.15</td>
+    </tr>
+    <tr>
+        <td>
+        Natu, Psyduck, Quilava</td>
+        <td>
+        195</td>
+        <td>
+        21.14</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Meganium, Politoed, Vibrava</td>
+        <td>
+        194</td>
+        <td>
+        21.11</td>
+    </tr>
+    <tr>
+        <td>
+        Mankey</td>
+        <td>
+        192</td>
+        <td>
+        21.08</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Magnemite</td>
+        <td>
+        191</td>
+        <td>
+        21.08</td>
+    </tr>
+    <tr>
+        <td>
+        Empoleon</td>
+        <td>
+        190</td>
+        <td>
+        21.07</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Doduo, Octillery, Poliwrath, Relicanth, Tangrowth</td>
+        <td>
+        189</td>
+        <td>
+        20.98</td>
+    </tr>
+    <tr>
+        <td>
+        Exploud</td>
+        <td>
+        187</td>
+        <td>
+        20.86</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Hitmontop</td>
+        <td>
+        186</td>
+        <td>
+        20.85</td>
+    </tr>
+    <tr>
+        <td>
+        Ludicolo</td>
+        <td>
+        185</td>
+        <td>
+        20.82</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Chinchou, Dewgong, Glaceon</td>
+        <td>
+        184</td>
+        <td>
+        20.3</td>
+    </tr>
+    <tr>
+        <td>
+        Bibarel, Lanturn, Lapras, Tyranitar</td>
+        <td>
+        183</td>
+        <td>
+        20.27</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Nidoqueen</td>
+        <td>
+        181</td>
+        <td>
+        19.2</td>
+    </tr>
+    <tr>
+        <td>
+        Honchkrow, Onix, Piplup, Shedinja, Umbreon</td>
+        <td>
+        179</td>
+        <td>
+        19.19</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Cloyster, Farfetch'd, Noctowl, Skarmory</td>
+        <td>
+        176</td>
+        <td>
+        18.4</td>
+    </tr>
+    <tr>
+        <td>
+        Pupitar, Scizor, Spoink</td>
+        <td>
+        175</td>
+        <td>
+        17.93</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Aggron</td>
+        <td>
+        173</td>
+        <td>
+        13.11</td>
+    </tr>
+    <tr>
+        <td>
+        Clefable, Vaporeon</td>
+        <td>
+        172</td>
+        <td>
+        13.09</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Hypno, Solrock, Whiscash</td>
+        <td>
+        170</td>
+        <td>
+        12.87</td>
+    </tr>
+    <tr>
+        <td>
+        Beautifly, Corsola, Flareon, Kakuna, Nidorino, Roselia</td>
+        <td>
+        169</td>
+        <td>
+        12.86</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Machamp, Walrein</td>
+        <td>
+        168</td>
+        <td>
+        12.84</td>
+    </tr>
+    <tr>
+        <td>
+        Dustox, Pelipper</td>
+        <td>
+        166</td>
+        <td>
+        12.62</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Ampharos, Goldeen, Skitty, Togetic</td>
+        <td>
+        165</td>
+        <td>
+        12.62</td>
+    </tr>
+    <tr>
+        <td>
+        Torterra</td>
+        <td>
+        164</td>
+        <td>
+        12.6</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Swampert</td>
+        <td>
+        162</td>
+        <td>
+        12.56</td>
+    </tr>
+    <tr>
+        <td>
+        Ekans, Pidgeotto</td>
+        <td>
+        160</td>
+        <td>
+        12.43</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Growlithe, Larvitar, Rhydon, Starly</td>
+        <td>
+        159</td>
+        <td>
+        12.43</td>
+    </tr>
+    <tr>
+        <td>
+        Nuzleaf</td>
+        <td>
+        158</td>
+        <td>
+        12.43</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Gorebyss, Lombre</td>
+        <td>
+        157</td>
+        <td>
+        12.42</td>
+    </tr>
+    <tr>
+        <td>
+        Bayleef, Tangela</td>
+        <td>
+        156</td>
+        <td>
+        12.4</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Hoothoot, Ivysaur</td>
+        <td>
+        155</td>
+        <td>
+        12.4</td>
+    </tr>
+    <tr>
+        <td>
+        Sudowoodo</td>
+        <td>
+        153</td>
+        <td>
+        12.39</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Porygon2, Vileplume, Wartortle</td>
+        <td>
+        152</td>
+        <td>
+        12.39</td>
+    </tr>
+    <tr>
+        <td>
+        Azumarill, Weezing</td>
+        <td>
+        151</td>
+        <td>
+        12.36</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Combusken, Sealeo, Wailord</td>
+        <td>
+        150</td>
+        <td>
+        12.28</td>
+    </tr>
+    <tr>
+        <td>
+        Eevee</td>
+        <td>
+        149</td>
+        <td>
+        12.26</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Abomasnow</td>
+        <td>
+        147</td>
+        <td>
+        12.26</td>
+    </tr>
+    <tr>
+        <td>
+        Blissey, Regice, Swalot</td>
+        <td>
+        146</td>
+        <td>
+        12.05</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Regirock</td>
+        <td>
+        145</td>
+        <td>
+        9.54</td>
+    </tr>
+    <tr>
+        <td>
+        Tropius</td>
+        <td>
+        144</td>
+        <td>
+        9.52</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Armaldo</td>
+        <td>
+        143</td>
+        <td>
+        9.52</td>
+    </tr>
+    <tr>
+        <td>
+        Donphan</td>
+        <td>
+        142</td>
+        <td>
+        9.5</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Rhyperior</td>
+        <td>
+        141</td>
+        <td>
+        9.46</td>
+    </tr>
+    <tr>
+        <td>
+        Dunsparce</td>
+        <td>
+        140</td>
+        <td>
+        9.4</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Dratini, Hoppip, Weedle</td>
+        <td>
+        139</td>
+        <td>
+        9.38</td>
+    </tr>
+    <tr>
+        <td>
+        Marowak</td>
+        <td>
+        137</td>
+        <td>
+        9.38</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Mawile, Metang, Muk, Registeel</td>
+        <td>
+        136</td>
+        <td>
+        9.36</td>
+    </tr>
+    <tr>
+        <td>
+        Ditto, Hariyama, Unown</td>
+        <td>
+        135</td>
+        <td>
+        9</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Chikorita</td>
+        <td>
+        134</td>
+        <td>
+        8.94</td>
+    </tr>
+    <tr>
+        <td>
+        Chansey</td>
+        <td>
+        133</td>
+        <td>
+        8.94</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Marshtomp</td>
+        <td>
+        132</td>
+        <td>
+        8.92</td>
+    </tr>
+    <tr>
+        <td>
+        Carnivine, Cleffa</td>
+        <td>
+        131</td>
+        <td>
+        8.92</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Hippowdon, Lickilicky</td>
+        <td>
+        130</td>
+        <td>
+        8.91</td>
+    </tr>
+    <tr>
+        <td>
+        Caterpie, Cradily, Vespiquen</td>
+        <td>
+        129</td>
+        <td>
+        8.81</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Seel</td>
+        <td>
+        126</td>
+        <td>
+        8.79</td>
+    </tr>
+    <tr>
+        <td>
+        Mareep</td>
+        <td>
+        125</td>
+        <td>
+        8.79</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Dusknoir, Squirtle</td>
+        <td>
+        123</td>
+        <td>
+        8.79</td>
+    </tr>
+    <tr>
+        <td>
+        Bulbasaur, Golem</td>
+        <td>
+        121</td>
+        <td>
+        8.73</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Bellsprout, Gloom</td>
+        <td>
+        119</td>
+        <td>
+        8.71</td>
+    </tr>
+    <tr>
+        <td>
+        Clefairy</td>
+        <td>
+        118</td>
+        <td>
+        8.71</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Camerupt, Machoke, Porygon, Probopass, Shellder, Torchic</td>
+        <td>
+        116</td>
+        <td>
+        8.67</td>
+    </tr>
+    <tr>
+        <td>
+        Magcargo</td>
+        <td>
+        115</td>
+        <td>
+        8.65</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Forretress, Kecleon</td>
+        <td>
+        114</td>
+        <td>
+        8.65</td>
+    </tr>
+    <tr>
+        <td>
+        Shuppet, Spiritomb</td>
+        <td>
+        113</td>
+        <td>
+        5.44</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Ariados, Phanpy</td>
+        <td>
+        112</td>
+        <td>
+        5.39</td>
+    </tr>
+    <tr>
+        <td>
+        Mudkip, Sunflora</td>
+        <td>
+        110</td>
+        <td>
+        5.39</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Jigglypuff, Shroomish</td>
+        <td>
+        109</td>
+        <td>
+        5.38</td>
+    </tr>
+    <tr>
+        <td>
+        Wormadam</td>
+        <td>
+        108</td>
+        <td>
+        5.38</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Cubone, Machop, Quagsire</td>
+        <td>
+        106</td>
+        <td>
+        5.38</td>
+    </tr>
+    <tr>
+        <td>
+        Gastrodon</td>
+        <td>
+        105</td>
+        <td>
+        5.28</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Snover</td>
+        <td>
+        104</td>
+        <td>
+        5.28</td>
+    </tr>
+    <tr>
+        <td>
+        Pineco, Wobbuffet</td>
+        <td>
+        102</td>
+        <td>
+        5.28</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Hippopotas</td>
+        <td>
+        100</td>
+        <td>
+        0.99</td>
+    </tr>
+    <tr>
+        <td>
+        Bastiodon, Beldum</td>
+        <td>
+        99</td>
+        <td>
+        0.98</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Bidoof</td>
+        <td>
+        98</td>
+        <td>
+        0.97</td>
+    </tr>
+    <tr>
+        <td>
+        Parasect, Snorlax, Steelix</td>
+        <td>
+        97</td>
+        <td>
+        0.96</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Bronzong, Happiny, Shieldon, Slowbro</td>
+        <td>
+        96</td>
+        <td>
+        0.82</td>
+    </tr>
+    <tr>
+        <td>
+        Azurill, Clamperl</td>
+        <td>
+        95</td>
+        <td>
+        0.15</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Slowking</td>
+        <td>
+        91</td>
+        <td>
+        0.14</td>
+    </tr>
+    <tr>
+        <td>
+        Dusclops, Duskull, Togepi</td>
+        <td>
+        89</td>
+        <td>
+        0.13</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Paras</td>
+        <td>
+        86</td>
+        <td>
+        0.12</td>
+    </tr>
+    <tr>
+        <td>
+        Slowpoke, Torkoal</td>
+        <td>
+        85</td>
+        <td>
+        0.11</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Lileep, Wynaut</td>
+        <td>
+        82</td>
+        <td>
+        0.07</td>
+    </tr>
+    <tr>
+        <td>
+        Igglybuff</td>
+        <td>
+        62</td>
+        <td>
+        0.05</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Bonsly</td>
+        <td>
+        59</td>
+        <td>
+        0.05</td>
+    </tr>
+    <tr>
+        <td>
+        Trapinch</td>
+        <td>
+        50</td>
+        <td>
+        0.05</td>
+    </tr>
+    <tr class="a">
+        <td>
+        Munchlax, Shuckle</td>
+        <td>
+        46</td>
+        <td>
+        0.05</td>
+    </tr>
+    <tr>
+        <td>
+        <strong>Average</strong></td>
+        <td>
+        <strong>289.2</strong></td>
+        <td>&nbsp;</td>
+    </tr>
+    </tbody>
+</table>
+
+<h2><a name="notes">Notes</a></h2>
+<p>The above tables can be used to know the average Speed stat of every Pokémon used in each metagame. For example, Salamence's average Speed stat in the Standard metagame is 299, while in the Uber metagame it would have an average Speed stat of 308. Note that this does not mean that if your own Salamence has a greater Speed stat than this, it will outspeed all your opponent's Salamence: it just means that it will outspeed the average Salamence.</p>
+<p>As it can be readily be seen, the Speed stats of the Pokémon in the Uber metagame are the most dispersed of all the metagames, while those of the Underused metagame are the least dispersed.</p>
+<p>We also note that the Speed stat corresponding to the smallest percentage that is at least 50% is the median Speed stat. This is 256, 247 and 286 for the Standard, Underused and Uber metagames respectively. When a Pokémon reaches this particular Speed stat in the respective metagame, it will outspeed half of the metagame on average.</p>
+<p>The above tables can also be used as a quick method to find how much of the metagame your Pokémon outspeeds. For example, if your Pokémon's Speed stat is 300 in the Underused metagame, it will outspeed 72.2% of the metagame on average. If your Pokémon's Speed stat is not listed in the table, the percentage would be the one for the largest Speed stat listed in the table that is less than your Pokémon's Speed stat. For example, if your Pokémon's Speed stat is 310 in the Standard metagame, it will outspeed 71.19% of the metagame, the same percentage that a Pokémon with a 307 Speed stat would outspeed.</p>
+
+<table id="smogfooter">
+<tr>
+<td class="left"><a href="mafia_roles">&laquo; Previous Article</a></td>
+<td class="middle"><a href="/smog/issue5/">Home</a></td>
+<td class="right"><a href="ladder">Next Article &raquo;</a></td>
+</tr>
+</table>

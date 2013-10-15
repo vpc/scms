@@ -1,0 +1,43 @@
+[title]
+The DPP / HGSS RNG Manipulation Guide
+[head]
+<meta name="description" content="Introduction to the DPP / HGSS RNG Manipulation Guide." />
+[page]
+<div class="author">Introduction by <a href="/forums/member.php?u=21459">mingot</a>.</div>
+
+<ul class="toc">
+<li>The DPP / HGSS RNG Manipulation Guide
+<ul>
+<li><a href="#what">What is RNG Manipulation?</a></li>
+<li><a href="#credits">Credits and Thanks</a></li>
+</ul>
+</li>
+<li><a href="dpphgss_rng_part1">DPP / HGSS RNG Manipulation Guide Part 1 - Common Information for Breeding, Capturing, and Receiving Perfect Pokemon</a></li>
+<li><a href="dpphgss_rng_part2">DPP / HGSS RNG Manipulation Guide Part 2 - How to Capture / Receive Perfect Pokemon</a></li>
+<li><a href="dpphgss_rng_part3">DPP / HGSS RNG Manipulation Guide Part 3 - How to Hatch Perfect Pokemon</a></li>
+<li><a href="dpphgss_rng_part4">DPP / HGSS RNG Manipulation Guide Part 4 - How to Abuse for your Desired TID/SID</a></li>
+<li><a href="dpphgss_rng_part5">DPP / HGSS RNG Manipulation Guide Part 5 - Cute Charm TID/SID and Poke Radar Abuse</a></li>
+</ul>
+
+<h2><a name="what">What is RNG Manipulation?</a></h2>
+<p>There are many seemingly random events in Pokemon: the IVs and natures of the Pokemon that you capture or breed, the number of steps an NPC walks before turning, or the odds that your newly hatched Totodile is shiny. As it turns out, these events are all governed by the output of a class of mathematical formulas, which are known as pseudo random number generators. The word "pseudo", often used to paint things as "fraudulent" or "false", is very appropriate in this case. Even though the numbers output by these formulas may appear to be random, they are not. Each sequence begins with a single number, often referred to as a seed, and continues on in a predictable pattern.</p>
+<p>As the seed determines the sequence of numbers that will follow, it is important that it is different each and every time you play. If the same seed was chosen each time, the pattern of numbers, and how they affect the game, would be noticeable over time, breaking the illusion of randomness. To alleviate this potential problem, the developers decided to create the seed using something that should be different every time you play: the date and time on your Nintendo DS, DSi, or 3DS. By doing some light math on the individual components (year, month, hours, etc.) of the date and time, a "unique" seed is created each time you start the game.</p>
+<p>There is an obvious flaw in this technique; we can change the date and time on our Nintendo DS systems before we start the game. With knowledge of how the date and time affect the seed, it is possible to choose a combination that yields a desirable result, allowing us to control the sequence of pseudo-random numbers that is generated. Coupled with the knowledge of how the game uses those numbers to create Pokemon, we become the creators, picking and choosing desirable traits, removing any remaining vestiges of randomicity.</p>
+<h2><a name="credits">Credits and Thanks</a></h2>
+<p>Pioneering research by
+<a href="/forums/member.php?u=2412">X-Act</a>,
+<a href="/forums/member.php?u=1430">Peterko</a>, and
+<a href="/forums/member.php?u=8067">loadingNOW</a> gave us insight into the operation of the PRNG and how its results were used to govern in-game actions. Heavy use was made of SCV's implementation of the reverse PRNG, which was independently derived by X-Act and
+<a href="/member.php?u=15705">tsanth</a>.
+<a href="/member.php?u=19288">=Jonny=</a> spent countless hours scouring and translating Japanese articles to expand our knowledge of the DPPt PRNG specifics, including the method for generating egg PIDs.
+<a href="/forums/member.php?u=4896">Wild Eep</a> delved deep into Pokemon generation, allowing us to capture perfect Pokemon with ease.
+<a href="/forums/member.php?u=5304">OmegaDonut</a> worked tirelessly to refine the process for hatching perfect Pokemon. Testers and researchers such as
+<a href="/forums/member.php?u=30325">LightningFusion</a>,
+<a href="/forums/member.php?u=832">Syberia</a>,
+<a href="/forums/member.php?u=23581">bearsfan092</a>,
+<a href="/forums/member.php?u=13965">Pink</a>, 
+<a href="/forums/member.php?u=33244">Romsstar</a>,
+<a href="/forums/member.php?u=54525">Bond697</a>,
+<a href="/forums/member.php?u=32572">Kaphotics</a>, 
+<a href="/forums/member.php?u=83647">Slashmolder</a>, 
+and many others worked through spotty information and came back with real, verifiable results. Special thanks to <a href="/forums/member.php?u=18585">Everstone</a> for re-writing these guides for DPP, as well as HGSS. Thanks to <a href="/forums/member.php?u=30562">ToastPlusOne</a> for designing EonTimer to assist in the process of RNG manipulation. In short, this product is the culmination of the hard efforts of a large group of people, without whom none of these these articles could exist. Thank you all!</p>

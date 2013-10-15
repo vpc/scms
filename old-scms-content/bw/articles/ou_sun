@@ -1,0 +1,843 @@
+[title]
+Rise and Shine: A Guide to Sun in BW OU
+[head]
+<meta name="description" content="A guide to using sun in BW OU, thanks to Benlisted, sirndpt, and zdrup15" />
+[page]
+<div class="author">by <a href="/forums/member.php?u=48299">Benlisted</a>, <a href="/forums/member.php?u=102379">sirndpt</a>, and <a href="/forums/member.php?u=55559">zdrup15</a>. Art by <a href="/forums/member.php?u=12801">icepick</a>.</div>
+<div style="float: right; margin-left: 50px;"><img src="/media/upload/bw/articles/sun.png" alt="" /></div>
+<ol class="toc">
+<li><a href="#overview">Overview</a></li>
+<li><a href="#effects">Effects of Sun</a></li>
+<li><a href="#sunner">The Sun Summoner</a></li>
+<li><a href="#sweepers">Sun Sweepers</a>
+<ul>
+<li><a href="#chloro">Chlorophyll Pokemon</a></li>
+<li><a href="#fire">Fire-types</a></li>
+<li><a href="#others">Other Sun Sweepers</a></li>
+</ul>
+</li>
+<li><a href="#support">Support Pokemon</a>
+<ul>
+<li><a href="#spinners">Rapid Spinners</a></li>
+<li><a href="#niche">Other Niche Support</a></li>
+</ul>
+</li>
+<li><a href="#stall">Sun Stall</a></li>
+<li><a href="#threats">Threats to Sun Teams</a>
+<ul>
+<li><a href="#sand">Sandstorm Teams</a></li>
+<li><a href="#rain">Rain Teams</a></li>
+<li><a href="#tr">Trick Room Teams</a></li>
+<li><a href="#oppfire">Opposing Fire-types</a></li>
+<li><a href="#dragons">Dragon-types</a></li>
+<li><a href="#scarf">Choice Scarf Users</a></li>
+<li><a href="#other">Other Threats</a></li>
+</ul>
+</li>
+<li><a href="#building">Building a Sun Team</a></li>
+<li><a href="#example">Example Sun Team</a></li>
+<li><a href="#exampleother">Other Sun Teams</a></li>
+<li><a href="#conclusion">Conclusion</a></li>
+</ol>
+
+<h2><a name="overview">Overview</a></h2>
+
+<p>Sun has largely been a forgotten weather in past generations, outclassed by rain and sandstorm in particular. At their inception in GSC, no weather was overtly useful, but when the ability Sand Stream was introduced in ADV, a very sand-dominant OU metagame was created. DPP restored a little diversity to weather thanks to Snow Warning and new boosts to rain abusers such as Kingdra, making rain and hail usable playstyles. However, sun was still left out in the cold, with no OU auto-inducer nor OU-viable sweepers.</p>
+
+<p>BW, however, has given sun a new lease on life, thanks primarily to Dream World, which distributed the abilities Drought, Chlorophyll, and Solar Power to several new Pokemon, and improved the move Growth, turning it into one of the best stat-boosting moves in the game when  used in sun. Several potent new abusers introduced in the new generation have also served to boost sun's viability.</p>
+
+<p>However, sun still faces some obstacles in standard OU, particularly sandstorm and rain teams, which have become far more potent after receiving many new abusers, both offensive and defensive. At the inception of BW, sun was still perceived as inferior to both these more established weathers. As the metagame developed, however, sun evolved  and matured as a playstyle, and has enjoyed enough success as to clearly be an excellent offensive team theme. As such, you can certainly build a great sun team, though a word of caution: building a sun team is still somewhat difficult compared to building a sand or rain one, and can prove especially tough to construct if you are relatively new to the  metagame. However, some people have already had great success with sun  teams and, with just a little more effort, you too can achieve fantastic results!</p>
+
+<h2><a name="effects">Effects of Sun</a></h2>
+
+<p>Taking some time to familiarize yourself with the basic effects of this field condition is a good idea if you plan on building a sun team, so they are listed below for your convenience:</p>
+
+<ul>
+<li>The Base Power of Fire-type moves is increased by 50%</li>
+<li>The Base Power of Water-type moves is decreased by 50%</li>
+<li>SolarBeam's charge turn is removed</li>
+<li>Growth increases Attack and Special Attack by two stages</li>
+<li>Thunder's and Hurricane's accuracy is reduced to 50%</li>
+<li>Weather Ball effectively becomes a 150 Base Power Fire-type move</li>
+<li>Synthesis, Moonlight, and Morning Sun recover 66% of the user's HP</li>
+<li>Pokemon with the ability Chlorophyll have their Speed doubled</li>
+<li>Pokemon with the ability Solar Power have their Special Attack increased by 50% but lose 12.5% of their maximum HP per turn</li>
+<li>Pokemon with the ability Leaf Guard become immune to status</li>
+<li>Pokemon with Dry Skin lose 12.5% of their maximum HP per turn</li>
+<li>Cherrim and Castform change formes</li>
+</ul>
+
+<h2><a name="sunner">The Sun Summoner</a></h2>
+  
+<h4><a href="/bw/pokemon/ninetales">Ninetales</a></h4>
+<img src="/download/sprites/bw/38.png" alt="" />
+
+<p>Ninetales is the biggest blessing sun teams could have asked for in the generation shift. With its Dream World ability, Drought, Ninetales can summon permanent sun, making it the crux of any sun team. Its 500 BST is decent, and with sun boosting its Fire-type attacks, it has a very  strong Fire Blast that puts a dent in everything that doesn't resist it (and isn't named Blissey / Chansey). Its coverage options—primarily Energy Ball and a Hidden Power of choice—leave something to be desired, but Dark Pulse, Shadow Ball, and Extrasensory are available too. Ninetales does learn SolarBeam, but this should only be used in  conjunction with Sunny Day, or with great care; otherwise, you will  likely find yourself in a terrible position when the opponent's weather  inducer switches in.</p>
+
+<p>In the support department, Ninetales has access to Will-O-Wisp, Toxic, and Hypnosis, all of which it can use to cripple a Pokemon or two on the opponent's team. Other less popular options include Roar and Disable, either of which can be combined with Substitute for greater insurance  against Pursuit Tyranitar. Ninetales also learns Power Swap, which, when combined with Overheat, can cripple special attackers attempting to set  up on it, such as Reuniclus, Latias, and Volcarona. Finally, it has access to Nasty Plot and Calm Mind, which let it clean up an opponent's weakened team. However, it must be stressed that Ninetales isn't designed to sweep considering both its stats and movepool, so such sets are generally inferior options.</p>
+
+<p>Air Balloon gives Ninetales useful immunities to Ground-type moves and entry hazards, while Chesto Berry in combination with Rest effectively gives Ninetales a second life; however, Leftovers is always the default option for more reliable recovery. Life Orb is possible on a Nasty Plot set, but depleting your most valuable team member's health is rarely a good idea. Ninetales can also use a Choice item to boost either its  Speed or the power of its attacks to very threatening levels, but this  requires very good prediction because locking Ninetales into the wrong move may mean being trapped and KOed.</p>
+ 
+<p>However, Ninetales does have some major flaws that let it down. While certain variants can wreak havoc with a properly timed Sunny Day,  Ninetales generally fares poorly against the three main other weather inducers—Politoed, Tyranitar, and Hippowdon—and sun teams consequently have a tougher time maintaining the weather advantage. Vulnerability to all forms of entry hazards, Stealth Rock in particular, further exacerbates Ninetales' need for team support and careful play.</p>
+
+<h2><a name="sweepers">Sun Sweepers</a></h2>
+
+<p>Sun's typical abusers are Grass- and Fire-types; some of the former—specifically, those with the ability Chlorophyll—have their Speed doubled, and the latter have their STAB attacks boosted and their Water-type weakness removed. This section will cover the most useful of each type, as you will often want to include at least one of each on  your sun team.</p>
+
+<h3><a name="chloro">Chlorophyll Pokemon</a></h3>
+
+<p>Though sun's Chlorophyll abusers do not have their STAB attacks boosted as rain's Swift Swimmers do, they are still a force to be reckoned with. Many have access to one of this generation's greatest boosting moves, Growth, which doubles both offensive stats in sun. In this section we'll analyze the most common and viable Chlorophyll abusers.</p>
+
+<h4><a href="/bw/pokemon/venusaur">Venusaur</a></h4>
+<img src="/download/sprites/bw/3.png" alt="" />
+ 
+<p>Venusaur receives Chlorophyll through the Dream World; even though it has only been released as a male, which means that it doesn't have access to Egg moves such as Leaf Storm and Power Whip, it still stands out as perhaps the best Chlorophyll abuser. Reasonable bulk, resistances to common priority moves, and good mixed stats make Venusaur an excellent sweeper. Its Grass-type STAB move and Hidden Power Fire grant  it good coverage, and the latter enjoys a pseudo-STAB boost in sun. Sludge Bomb or Earthquake give it further coverage against either Dragon-types or Heatran and Chandelure. This set excels at taking out entire teams once the few things that wall it are eliminated or weakened by Venusaur's teammates. Sleep Powder buys it a turn of setup by crippling its counters, while Synthesis significantly extends its lifespan.</p>
+
+<p>Another possible role for it is that of a very fast and reasonably bulky SubSeeder, but Venusaur is usually more effective simply boosting and destroying an opponent's team. Finally, Venusaur's Poison typing allows it to absorb Toxic Spikes; a great asset when facing stall teams.</p>
+
+<h4><a href="/bw/pokemon/tangrowth">Tangrowth</a></h4>
+<img src="/download/sprites/bw/470.png" alt="" />
+ 
+<p>Although it is one of the slowest Chlorophyll Pokemon, Tangrowth also has the greatest physical bulk, incredible mixed offensive stats, as well as access to powerful physical attacking moves. A Growth sweeper set similar to Venusaur's, with STAB Power Whip or Giga Drain, Hidden Power Fire, and Earthquake is viable; Tangrowth also has access to Rock  Slide, which can be used over Earthquake to hit Dragon-types and Air Balloon users. As with Venusaur, Tangrowth too can try a SubSeed or  Sleep Powder abuse set, though its powerful offensive stats again mean Growth is often the better choice.</p>
+ 
+<p>Tangrowth's low Speed and Special Defense can often prove a hindrance since many Choice Scarf users, such as positive-natured Rotom-W and neutral-natured base 100 Speed Pokemon will outspeed and beat it, so it  needs more support than other Chlorophyll sweepers to pull off game-ending sweeps. Tangrowth can use its bulk to its advantage, however, as it can comfortably switch into physical sweepers such as Gyarados, Landorus, and Terrakion, and threaten them with a Power Whip. Furthermore, a resistance to Ground-type moves means Tangrowth can easily sponge Earthquakes aimed at its Fire-type teammates. It can also  deal excellently with opposing weather inducers outside of sun if EVed to outspeed them, as Power Whip OHKOes Tyranitar, Hippowdon, and Politoed, which sun teams will find most useful.</p>
+ 
+<h4><a href="/bw/pokemon/sawsbuck">Sawsbuck</a></h4>
+<img src="/download/sprites/bw/616.png" alt="" />
+ 
+<p>One of the new Chlorophyll users on the block also happens to be one of  the best. Though defensively frail and burdened with an unfortunate weakness to Mach Punch, Sawsbuck's Normal / Grass typing gives it powerful STAB moves with great neutral coverage to abuse. A moveset consisting of Wood Horn, Return or Double-Edge, and Jump Kick lets Sawsbuck hit everything bar a few frail Ghost-types for neutral damage  at least, and Swords Dance enables it to serve as a powerful sweeper in a  similar vein to Growth abusers.</p>
+
+<p>Its relatively impressive base 95 Speed, which lets it outspeed all common Choice Scarf users, along with many other threats in sun, also gives Sawsbuck the option to serve its team as a revenge killer. As an alternative last move, Megahorn deals with the Lati twins and Reuniclus, Wild Charge provides it with neutral coverage on the Ghost-types that normally wall it, as well as super effective coverage against Skarmory, Nature Power (Earthquake in Wi-Fi battles) covers opposing Fire-types nicely, whilst Aromatherapy lets Sawsbuck act as an offensive Cleric.</p>
+
+<h4><a href="/bw/pokemon/shiftry">Shiftry</a></h4>
+<img src="/download/sprites/bw/275.png" alt="" />
+ 
+<p>Despite sharing a weakness to Mach Punch with Sawsbuck (as opposed to Venusaur's resistance), Shiftry can perform very well as a Growth sweeper. Its Dark STAB is especially useful; Sucker Punch OHKOes the  Lati siblings, which normally plague sun teams, and attains perfect  neutral coverage in combination with its common coverage options Low Kick and Hidden Power Fire. Although Shiftry's STAB Leaf Storm loses out on perfect coverage, the move's sheer power makes it an excellent  option too.</p>
+
+<p>Sadly, since Shiftry is very frail and may have trouble setting up, it can also run a four attacks set instead of a boosting one. This option has the benefit of being able to deal with all opposing weather inducers and several other key threats to sun on a single set; Tyranitar and Heatran are decimated by Low Kick, Hippowdon and Politoed by Leaf Storm, Latios, Latias, and Chandelure by Sucker Punch, and Abomasnow by Hidden Power Fire. Dark Pulse is an alternative for those not keen on Sucker Punch's unreliability, but Psychic-types' superior special bulk means Dark Pulse usually isn't the best choice.</p>
+ 
+<h4><a href="/bw/pokemon/victreebel">Victreebel</a></h4>
+<img src="/download/sprites/bw/71.png" alt="" />
+ 
+<p>Though possessing very high offensive stats, Victreebel is let down by its poor defenses and uninspired typing, and is often overshadowed by Venusaur. However, Victreebel does have its advantages over the plant-bearing dinosaur. The main perk is access to Weather Ball, which in sun becomes the most powerful Fire-type move available to any Chlorophyll sweeper. Furthermore, this allows Victreebel to use a Hidden Power type other than Fire, which gives it excellent type coverage considering it has access to STAB Sludge Bomb as well. Additionally, Sucker Punch can be utilized to KO faster, frail Psychic- and Ghost-type foes.</p>
+ 
+<p>The issues with Victreebel begin with its own frailty, however. First of all, it has troubles acquiring a Growth boost. Like Shiftry, this means it can run a four attacks set well thanks to its relatively superior coverage options, or make use of Sleep Powder. A greater problem, however, is its base 70 Speed; with a neutral Speed nature, Victreebel falls short of outpacing +1 base 100 Speed foes. To remedy this, it has to give up the power boost provided by an offense-boosting nature, which often results in it being just as fast but weaker than other Chlorophyll users.</p>
+
+<h4><a href="/bw/pokemon/exeggutor">Exeggutor</a></h4>
+<img src="/download/sprites/bw/103.png" alt="" />
+ 
+<p>The strange palm tree from the original RBY games has long been a staple of sun teams due to its colossal base 125 Special Attack. Sadly, with the buff to Growth this generation, Exeggutor is no longer the premier specially based sun sweeper, as its damage output is easily eclipsed by that of Growth sweepers after a boost. Its weakness to Pursuit, and to Tyranitar in general, doesn't do it any favors either.</p>
+ 
+<p>Exeggutor does retain a few advantages, however, which makes it a worthwhile choice for some teams. Its STAB Psychic-type moves can prove useful for teams having trouble with the many new Fighting-types, Conkeldurr in particular, especially given Exeggutor's decent base 85 Defense, and resistance to their STAB attacks. Low Kick provides Exeggutor with a way to deal with the Tyranitar that so threatens it, whilst Nature Power (Earthquake in Wi-Fi battles) can be used to dispatch Heatran. Access to such high-powered attacks naturally makes it very dangerous for opponents to switch in on Exeggutor if you make good predictions, but its Pursuit weakness and low Speed makes this a task for none but the most daring.</p>
+
+<h4><a href="/bw/pokemon/jumpluff">Jumpluff</a></h4>
+<img src="/download/sprites/bw/189.png" alt="" />
+ 
+<p>The fastest Chlorophyll Pokemon out there also happens to be the least offensive one. However, this by no means makes Jumpluff useless; it can function excellently as an annoyer with Encore and SubSeed, similar to Whimsicott, but with a few key advantages. Sleep Powder allows the Cottonweed Pokemon to eliminate a threat, and a fast U-turn lets it dodge attacks Whimsicott cannot whilst retaining its scouting ability. A Ground-type immunity will also be helpful to a team packing several Fire-types.</p>
+ 
+<p>The primary issue with Jumpluff is that it doesn't gel well with the largely offensive nature of most sun teams. On a more defensive one it would have a niche, but these teams are very difficult to construct effectively. Competition from bulkier Chlorophyll users as a SubSeeder doesn't help Jumpluff's case either. Nonetheless, Jumpluff should not be overlooked as an option for your sun team, as it can prove very effective if utilized correctly.</p>
+
+<h4><a href="/bw/pokemon/lilligant">Lilligant</a></h4>
+<img src="/download/sprites/bw/577.png" alt="" />
+ 
+<p>Another new addition to the ranks of the Chlorophyll users, Lilligant is a peculiar specimen landing somewhere between a pure supporter like Jumpluff and other, more offensive sweepers. This is primarily because her access to the excellent Quiver Dance (as well as Growth) is offset by her barren offensive movepool, which consists of literally only a Grass STAB and a Hidden Power of choice. The move Sleep Powder goes a long way towards increasing her viability, however, as it lets her put an opponent that walls her to sleep, boost up, and eventually beat it, especially considering recovery from Giga Drain and boosted Special Defense.</p>
+ 
+<p>If lackluster coverage puts you off, Lilligant is also excellent as either a supporting Chlorophyll user or a SubSeeder, performing these duties reliably while simultaneously retaining offensive capability. Sleep Powder is invaluable on Lilligant, crippling one of the many Pokemon that wall her, so be sure to make use of it. Her final ace in the hole over other Chlorophyll users is Healing Wish, which gives another powerful sun sweeper such as Volcarona or Charizard a second chance to cause destruction, fully healing it at the cost of Lilligant's own life.</p>
+
+<table class="sortable">
+                <thead>
+                    <tr>
+                        <th>Pokemon / Speed Group</th>
+                        <th>Base Speed</th>
+                        <th>Speed Stat*</th>
+                    </tr> 
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Base 130s</td>
+                        <td>130</td>
+                        <td>394</td>
+                    </tr> 
+                    <tr class="a">
+                        <td>+1 Heatran</td>
+                        <td>77</td>
+                        <td>417</td>
+                    </tr>
+                    <tr>
+                        <td>+1 Base 80s</td>
+                        <td>80</td>
+                        <td>426</td>
+                    </tr>
+                    <tr class="a">
+                        <td>+1 Gyarados</td>
+                        <td>81</td>
+                        <td>430</td>
+                    </tr>
+                    <tr>
+                        <td>+1 Rotom-A</td>
+                        <td>86</td>
+                        <td>447</td>
+                    </tr>  
+                    <tr class="a">
+                        <td>+1 Base 95s</td>
+                        <td>95</td>
+                        <td>475</td>
+                    </tr>  
+                    <tr>
+                        <td>+1 Hydreigon</td>
+                        <td>100</td>
+                        <td>486</td>
+                    </tr>                   
+                    <tr class="a">
+                        <td>+1 Base 100s</td>
+                        <td>100</td>
+                        <td>492</td>
+                    </tr>
+                    <tr>
+                        <td>+1 Landorus</td>
+                        <td>101</td>
+                        <td>496</td>
+                    </tr>
+                    <tr class="a">
+                        <td>Deoxys-S</td>
+                        <td>180</td>
+                        <td>504</td>
+                    </tr>                     
+                    <tr>
+                        <td>+1 Terrakion</td>
+                        <td>108</td>
+                        <td>519</td>
+                    </tr>                     
+                    <tr class="a">
+                        <td>+1 Latios / Latias</td>
+                        <td>110</td>
+                        <td>525</td>
+                    </tr>                    
+                    <tr>
+                        <td>+2 Volcarona (neutral nature)</td>
+                        <td>100</td>
+                        <td>530</td>
+                    </tr>                     
+                    <tr class="a">
+                        <td>+1 Starmie</td>
+                        <td>115</td>
+                        <td>541</td>
+                    </tr>           
+                    <tr>
+                        <td>+2 Volcarona</td>
+                        <td>100</td>
+                        <td>656</td>
+                    </tr>                                            
+                </tbody>
+            </table>
+* Unless otherwise stated, all speed stats are factoring in 252 EVs and a boosting nature.
+
+<table class="sortable">
+                <thead>
+                    <tr>
+                        <th>Chlorophyll Pokemon(s)</th>
+                        <th>Base Speed</th>
+                        <th>Max Sun Speed (neutral nature)</th>
+                        <th>Max Sun Speed (positive nature)</th>
+                    </tr> 
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Sunflora</td>
+                        <td>30</td>
+                        <td>318</td>
+                        <td>348</td>
+                    </tr> 
+                    <tr class="a">
+                        <td>Vileplume, Bellossom, Tangrowth</td>
+                        <td>50</td>
+                        <td>398</td>
+                        <td>436</td>
+                    </tr>
+                    <tr>
+                        <td>Tropius</td>
+                        <td>51</td>
+                        <td>402</td>
+                        <td>441</td>
+                    </tr>
+                    <tr class="a">
+                        <td>Exeggutor</td>
+                        <td>55</td>
+                        <td>418</td>
+                        <td>458</td>
+                    </tr>                     
+                    <tr>
+                        <td>Maractus</td>
+                        <td>60</td>
+                        <td>438</td>
+                        <td>480</td>
+                    </tr>                     
+                    <tr class="a">
+                        <td>Victreebel</td>
+                        <td>70</td>
+                        <td>478</td>
+                        <td>524</td>
+                    </tr>              
+                    <tr>
+                        <td>Shiftry, Venusaur*</td>
+                        <td>80</td>
+                        <td>518</td>
+                        <td>568</td>
+                    </tr>                     
+                    <tr class="a">
+                        <td>Lilligant</td>
+                        <td>90</td>
+                        <td>558</td>
+                        <td>612</td>
+                    </tr>            
+                    <tr>
+                        <td>Leavanny</td>
+                        <td>92</td>
+                        <td>566</td>
+                        <td>622</td>
+                    </tr>                     
+                    <tr class="a">
+                        <td>Sawsbuck, Leafeon*</td>
+                        <td>95</td>
+                        <td>578</td>
+                        <td>634</td>
+                    </tr>         
+                    <tr>
+                        <td>Jumpluff</td>
+                        <td>110</td>
+                        <td>638</td>
+                        <td>700</td>
+                    </tr>                     
+                    <tr class="a">
+                        <td>Whimsicott*</td>
+                        <td>116</td>
+                        <td>662</td>
+                        <td>728</td>
+                    </tr>                                    
+                </tbody>
+            </table>
+* Chlorophyll as DW ability.         
+  
+<h3><a name="fire">Fire-types</a></h3>
+
+<p>Fire-types benefit both from a boosted STAB in sun, as well as a nullified Water weakness. With this group encompassing several of the most powerful attackers in the game, the offensive boost these Pokemon gain is naturally something every sun team should look to exploit.</p>
+
+<h4><a href="/bw/pokemon/volcarona">Volcarona</a></h4>
+<img src="/download/sprites/bw/667.png" alt="" />
+ 
+<p>Volcarona is a somewhat strange case of phenomenal success in OU. Its huge weakness to Stealth Rock may seem like the last thing you would want on a sun team, but the Atlas moth more than makes up for this with its immense offensive potential. First and foremost, it has magnificent stats for a bulky special sweeper; this is complemented by its access to one of the best boosting moves in existence, Quiver Dance. While Fire Blast has great power under the sun, Fiery Dance has the potential to increase Volcarona's damage output as it attacks, and provides it with excellent dual STAB in conjunction with Bug Buzz. Volcarona can supplement this with a Hidden Power, with the most common choices being Hidden Power Rock for part Flying-type Dragons and Gyarados, or Hidden Power Ground for Heatran. Alternatively, Volcarona can elect to take a more defensive approach with Substitute, Morning Sun, or Rest (with Chesto Berry) for more setup opportunities.</p>
+ 
+<p>Volcarona's biggest obstacle is obviously entry hazards, so it is best run with Rapid Spin support. As alluded to above, it also has to choose between coverage or survivability for its last moveslot. Its poor base 65 Defense and 4x weakness to Rock-type moves makes it vulnerable to common Pokemon such as Landorus, Terrakion, and Gyarados, though they risk being burnt by Volcarona's Flame Body ability. However, Volcarona can easily overcome them with sheer power if it has enough boosts under its belt. Lastly, Heatran can easily check any Volcarona not packing Hidden Power Ground and Roar it out, which may prove disastrous if Stealth Rock is up.</p>
+
+<h4><a href="/bw/pokemon/infernape">Infernape</a></h4>
+<img src="/download/sprites/bw/395.png" alt="" />
+
+<p>While this flaming monkey has received much competition this generation both in terms of its base 108 Speed tier and from the many Fighting-types introduced, Blaziken's ban means that Infernape is once again a unique Pokemon in OU. Its balanced base 104 offenses pair perfectly with powerful STAB moves such as Flare Blitz, Overheat, Close Combat, and Focus Blast. With a wide range of coverage moves and even access to priority, Infernape has everything it needs to shine as a versatile threat on a sun team. If even a sun boosted STAB Flare Blitz—which 2HKOes many bulky Waters—doesn't do enough damage for your liking, fret not, for Infernape has access to boosting moves Nasty Plot and Swords Dance to further augment its damage output. It can also run a mixed set to eliminate its wannabe counters, U-turn to scout, or even serve as a dedicated lead with Fake Out and Stealth Rock.</p>
+ 
+<p>However, Infernape isn't without its flaws. Its defenses are mediocre, and it is easily revenge killed by priority moves after using Close Combat. It is also plagued by four moveslot syndrome; it cannot run everything it would like on one set, and is often reliant on its teammates to eliminate the Pokemon for which it is forced to forgo coverage.</p>
+
+<h4><a href="/bw/pokemon/heatran">Heatran</a></h4>
+<img src="/download/sprites/bw/490.png" alt="" />
+ 
+<p>The most used Pokemon of the DPP metagame remains much the same in BW; unsurprisingly, Heatran is a very dangerous Pokemon to face. Its sky-high base 130 Special Attack, access to strong STAB Fire-type attacks, excellent Fire / Steel typing, and immunity to Fire-type moves combine superbly to make it it virtually the perfect choice for a sun team, in terms of both offense and defense. Heatran also has access to Earth Power to hit other Fire-types and provide reasonable neutral coverage, as well as a Hidden Power, with Ice and Grass being the more useful ones. Dragons are without a doubt some of the biggest threats to sun teams, so Dragon Pulse is also a good option. Alternatively, this legendary beast can also utilize Flame Charge to make up for its sub-par base 77 Speed and attempt a sweep of its own.</p>
+
+<p>Synergy-wise, Heatran brings a much needed sponge for Dragon- and Fire-type attacks that can otherwise threaten sun teams, whilst its crippling Ground-type weakness can be patched up by its fellow Grass-type teammates or through the use of Air Balloon.</p>
+
+<h4><a href="/bw/pokemon/darmanitan">Darmanitan</a></h4>
+<img src="/download/sprites/bw/584.png" alt="" />
+ 
+<p>Darmanitan has something no other Fire-type can boast: a base 140 Attack stat, which lets it rip holes into any team, especially if sun is up. Darmanitan's Sheer Force ability—which boosts any attack with a secondary effect by 30%—is also a great asset. With Flare Blitz, there's no such thing as a safe switch-in; Jellicent, one of the bulkiest Water-types in OU, is cleanly 2HKOed by a Choice Band-, sun-, and STAB-boosted Flare Blitz. Darmanitan also carries Superpower and Rock Slide for coverage against common Pokemon immune to Fire, as well as U-turn to scout for counters. Additionally, Darmanitan's high base 105 HP serves to buffer it against Flare Blitz's recoil damage.</p>
+ 
+<p>However, Darmanitan isn't exactly as great as the aforementioned description may suggest. Its base 95 Speed is quite a letdown, making sweeping a team a difficult task for non-Choice Scarf variants. Darmanitan's Fire typing, despite giving it a good offensive STAB, also causes it to lose 25% of its health when it switches in on Stealth Rock. Despite its good HP, base 55 defenses mean Darmanitan is not that hard to KO once your opponents manage to switch a Pokemon in safely.</p>
+
+<h4><a href="/bw/pokemon/victini">Victini</a></h4>
+<img src="/download/sprites/bw/522.png" alt="" />
+ 
+<p>Victini started this Generation as the cute legendary with good overall stats, but was nothing spectacular in comparison to either its fellow Fire-types or its 600 BST pixie counterparts. However, an event at the 14th Pokemon movie gave Victini exactly what it needed: V-create! This single move makes Victini a huge threat, as, courtesy of its ability Victory Star and sun support, V-create effectively has a monstrous 405 Base Power and perfect accuracy. Therefore, virtually only Pokemon immune to Fire-type moves can switch in without being utterly decimated. Another move fairly unique to Victini is Fusion Bolt, which hits Water-types for super effective damage. In your excitement, however, don't overlook Victini's amazing coverage moves, as well as its capability to use special attacks to surprise its usual counters. U-turn also poses problems for would-be counters by scouting their switch-in and maintaining offensive momentum. Final Gambit along with Victini's high base HP allows it to turn a match into 5v5, while a Flame Charge set is also viable; opponents frequently expect a Choice item, so a Victini at +1 Speed able to choose between coverage moves can be a deadly surprise. V-create's Speed drop usually makes a clean sweep impossible; however, Victini has access to Trick Room to turn this liability into a great boon. As can be seen, its options are nearly limitless.</p>
+ 
+<p>However, Victini has some flaws that keep it from being too overpowered. The first is its weakness to Stealth Rock, entry hazards, and passive damage, which reduces the number of switches Victini can make. The second is its Pursuit weakness, and while Scizor and Metagross can only Pursuit a Victini Choice-locked into one of a select few harmless moves, Tyranitar can switch in on anything except Focus Blast, Brick Break, or U-turn, change the weather, and OHKO with STAB Pursuit. Finally, in a metagame where powerhouses often have offensive stats exceeding base 120, Victini's power may just not cut it, especially without V-create.</p>
+
+<h4><a href="/bw/pokemon/arcanine">Arcanine</a></h4>
+<img src="/download/sprites/bw/59.png" alt="" />
+
+<p>This almost-legendary from the original RBY games takes a different approach to sun offense, forgoing sheer power for greater utility and versatility. Aside from powerful priority in ExtremeSpeed, Arcanine beats Tyranitar and Heatran with Close Combat, decimates bulky Waters with Wild Charge, and even has Crunch for Chandelure and the Lati twins. It cripples Volcarona and Reuniclus with a sun-boosted Flare Blitz, and can sponge Fire-type moves aimed at your Chlorophyll sweepers with Flash Fire. Morning Sun enables it to recover health lost to Flare Blitz and Life Orb recoil; alternatively, Choice Band sets forgo recovery but removes recoil and bring immediate power to the table.</p>
+
+<p>While impressive offensively, Arcanine's defensive drawbacks should be obvious. It unfortunately shares a pure Fire typing with Ninetales and Darmanitan, and, like virtually all other sun abusers, is vulnerable to all entry hazards. Additionally, Arcanine's base 95 Speed means it is not hard to revenge kill. As it fills much the same role as other physically based Fire-type sweepers but possesses somewhat less power, this flaming dog may not find a place on every team.</p>
+
+<h4><a href="/bw/pokemon/charizard">Charizard</a></h4>
+<img src="/download/sprites/bw/6.png" alt="" />
+ 
+<p>Charizard, one of the three iconic RBY starter Pokemon, gained a buff during the generation shift that grants it viability in BW OU. Its Dream World ability, Solar Power, gives it the equivalent of a Choice Specs boost without the move restriction requirement, though at the cost of its health. However, this makes its Fire Blast immensely powerful under sun. In addition to a secondary STAB in Air Slash, Charizard can also use Hidden Power Ice and Focus Blast for perfect neutral coverage and the ability to hit Dragon-types super effectively.</p>
+ 
+<p>However, this great power is not without drawbacks, and Charizard users have to be especially wary of a couple of factors. Solar Power causes Charizard to lose HP every turn, and when coupled with its quadruple Stealth Rock weakness, Charizard will often die quickly. It is therefore of paramount importance to pair Charizard with a spinner to prevent it losing half of its health on the switch in. Non-Choice Specs Charizard are also hard countered by Jellicent, Blissey, and Eviolite Chansey; hence, it is reliant on its teammates to eliminate these threats. While base 100 Speed is by no means shabby, Charizard can nonetheless be easily revenge killed, meaning that it will likely be more useful for punching huge holes in the opponent's team than for outright sweeping.</p>
+
+<h4><a href="/bw/pokemon/rotom-h">Rotom-H</a></h4>
+<img src="/download/sprites/bw/499.png" alt="" />
+
+<p>Despite losing its part-Ghost typing in the generation transition, Rotom-H is another excellent supporting choice for sun teams, with both good bulk and offenses. Its Electric / Fire typing is unique; while Overheat's Special Attack drop holds it back from being a sun sweeper, STAB Electric-type attacks are excellent for taking out rain abusers and Ninetales' nemesis Politoed; an immunity to Ground-type moves, courtesy of Levitate, as well as access to Will-O-Wisp allows Rotom-H to fare well against sand teams too. Shadow Ball takes out Latios and other threatening Psychic-types, while Choice sets can run Trick to cripple stall teams.</p>
+
+<h4><a href="/bw/pokemon/chandelure">Chandelure</a></h4>
+<img src="/download/sprites/bw/639.png" alt="" />
+
+<p>At first glance, Chandelure's unique Ghost / Fire typing and Flash Fire ability give it an impressive set of immunities and resistances. On the other hand, its stats are somewhat of a letdown: its defenses are mediocre, and its sub-par base 80 Speed makes all-out sweeping unfeasible. What stands out, however, is its incredible base 145 Special Attack, which allows Chandelure to force switches and punch holes in teams with ease, making a Substitute set especially attractive. While Chandelure's movepool isn't huge in terms of both offensive and support options, it does include options such as Energy Ball and Hidden Power Fighting, and even Pain Split. Will-O-Wisp is also present as a support option, but be careful; even a burned opponent's STAB Dark-type attacks will hit Chandelure for huge damage. Furthermore, it needs to be sure to differentiate itself from Heatran, who boasts a slew of resistances and far greater bulk. However, Chandelure's excellent typing and STAB Ghost-type attacks give it a valuable niche on sun teams.</p>
+
+<h3><a name="others">Other Sun Sweepers</a></h3>
+
+<p>Despite not fitting into either of the above categories, these offensive behemoths function excellently on sun teams. Aside from high-powered attacks, which add offensive diversity to your team, most of them also provide strong priority, a powerful Pursuit, or even offensive status spreading or Wish passing.</p>
+
+<h4><a href="/bw/pokemon/dragonite">Dragonite</a></h4>
+<img src="/download/sprites/bw/149.png" alt="" />
+
+<p>The original Dragon-type spent the last two generations being outclassed by Salamence and Garchomp, and with the current presence of Latias and Latios in OU, one may worry for Dragonite. Such concern would be misplaced, however: Dragonite is yet another Pokemon given a new lease on life by its Dream World ability, Multiscale. This grants it far easier setup, complementing its naturally impressive special bulk to make it a viable bulky sweeper. A combination of Dragon-type STAB, Fire Punch, and Earthquake provides Dragonite with perfect neutral coverage, but it can forgo the latter for ExtremeSpeed to revenge kill faster threats. While Dragonite doesn't appear to gain much from sun except a marginally stronger Fire Punch, it can make use of sun in a less expected way: the removal of passive damage from sandstorm or hail reduces Dragonite's need for Leftovers, allowing it to run alternative items such as Lum Berry. In return, Dragonite's great set of resistances, especially to Ground- and Fire-type moves, covers many common weaknesses of conventional sun sweepers.</p>
+
+<h4><a href="/bw/pokemon/salamence">Salamence</a></h4>
+<img src="/download/sprites/bw/373.png" alt="" />
+
+<p>Where would any list of offensive threats be without Salamence? While one of the most threatening sweepers of DPP has somewhat fallen from grace over the generation transition, Salamence still holds its own as an offensive wallbreaker with useful defensive capabilities. Many Dragon-types appreciate the boosted Fire Blast or Fire Fang sun grants them, but Salamence is one of the better choices for a sun team. An immunity to Ground-type moves, a resistance to Fighting-type attacks, Intimidate to cushion physical blows, and the base stats to provide both offense and support lets this notorious Dragon-type fill a variety of niches. Given many sun sweepers' vulnerability to hazards and recoil damage, as well as their general frailty, offensive Wish support is invaluable; however, familiar offensive Dragon Dance or MixMence sets work just as well.</p>
+
+<h4><a href="/bw/pokemon/rhyperior">Rhyperior</a></h4>
+<img src="/download/sprites/bw/469.png" alt="" />
+
+<p>Though an uncommon sight, Rhyperior is interestingly enough a decent choice for the role of a sun team's physical tank. It packs a useful resistance to Fire-type moves and an impressive base 130 Defense backed up by base 115 HP, and can even tank the occasional Water-type attack with Solid Rock and sun support. Its possesses a wide range of hard-hitting attacks, typically dual STAB EdgeQuake and Megahorn; additional options such as Substitute, Rock Polish, or Swords Dance, as well as Stealth Rock, make for a fairly versatile threat that can be tailored to cater for your team's individual needs.</p>
+
+<h4><a href="/bw/pokemon/snorlax">Snorlax</a></h4>
+<img src="/download/sprites/bw/143.png" alt="" />
+
+<p>Snorlax can be a hard-hitting special sponge on a sun team, as its base 160 HP, base 110 Special Defense, and Thick Fat ability let it tank special attacks—Fire-type hits in particular—with ease. It has access to powerful physical moves, including Fire Punch to abuse in sun. Pursuit lets it deal with opposing Psychic- and Ghost-types, particularly Latios and Latias. Earthquake supports its sun-abusing teammates by taking care of Tyranitar and Heatran. A solid Fighting-type resistance is a good idea if running Snorlax, however, as it tends to lure in the ubiquitous Fighting-types that can often pose a hazard to your team.</p>
+
+<h4><a href="/bw/pokemon/mamoswine">Mamoswine</a></h4>
+<img src="/download/sprites/bw/478.png" alt="" />
+
+<p>Another interesting offensive choice (despite not actually taking much advantage of sun) is Mamoswine, which nevertheless excels at removing one of sun's major obstacles: Dragon-types. These common Pokemon are huge defensive threats, for they resist the two main attacking types of a sun team, Fire and Grass, and are of course formidable attackers themselves with towering offensive stats and excellent neutral STAB. Mamoswine can easily dispatch these threats with Ice Shard, provide varied coverage with powerful Ice-, Rock-, and Ground-type moves, and also play the role of a Thunder Wave absorber. Lastly, it has access to Stealth Rock, which enables it to provide entry hazard support if required.</p>
+
+<h4><a href="/bw/pokemon/zoroark">Zoroark</a></h4>
+<img src="/download/sprites/bw/601.png" alt="" />
+
+<p>One of the most unusual Pokemon introduced in BW can be an excellent addition to sun teams. Zoroark's ability Illusion, enables it to disguise itself as the last Pokemon in a party. Sun teams can capitalize on Illusion in various ways, for instance, Zoroark disguised as a Chlorophyll sweeper such as Venusaur, can lure in general threats to sun teams such as Latios, Latias, Heatran, and Tyranitar, all of which Zoroark can KO with its Dark-type STAB attacks or Focus Blast, granting the actual Venusaur on your team and any other sun sweepers, an easier time sweeping the opponent's team. When using Zoroark, especially on sun teams, the player must be wary of abnormalities in regards to entry hazards: Zoroark isn't 2x weak to Stealth Rock, or absorbs Toxic Spikes like some of the Pokemon you may want to disguise it as. Zoroark has access to Flamethower, allowing it to abuse the sun, and its strong priority Sucker Punch can prove very useful to sun teams, as it can be used to dispatch Choice Scarf users such as Landorus.</p>
+
+<h2><a name="support">Support Pokemon</a></h2>
+
+<p>A hail team often falls flat on its face if running a mono-Ice build; likewise, sun also needs non-abuser support and reasonable defensive synergy to reach its full potential. While these Pokemon undeniably pale in comparison offensively to the hard-hitting nukes listed above, do not make the mistake of overlooking them; their solid bulk buffers a team of otherwise frail sweepers, and it is their immense support capacity that truly enables your sweepers to shine.</p>
+
+<p>Firstly, though many Chlorophyll sweepers are fast, poor defensive stats and typing may make it difficult for them to grab a Growth or Swords Dance boost; this is where dual screens or status support can prove helpful. Furthermore, sun sweepers largely possess similar typings and consequently share elemental weaknesses, the most common being to Fire-, Ice-, Ground-, and Rock-type attacks. Hence, pivots packing resistances to the aforementioned types are important to provide your sweepers with safe switches, as well as to insure your team against common metagame threats and opposing weather conditions.</p>
+
+<p>Entry hazard control is another vital part of a weather war. While Stealth Rock is the hazard that is easiest to place and has the best distribution, Spikes and Toxic Spikes may be more useful to a sun team, considering the typings of opposing weather inducers. However, it is equally important to clear the field for your own team; Rapid Spin users and Pokemon with the Magic Bounce ability are useful in this regard.</p>
+
+<p>Despite Fire-types' immunity to burn and Poison-types' to Toxic, as well as Venusaur's and Victreebel's ability to remove Toxic Spikes, cleric support may be handy to cure a speedy sweeper of crippling paralysis. Perhaps much more useful, however, is Wish support. Few sun sweepers have room for recovery moves, with many even running recoil-inducing ones; further aggravating this problem is Fire-types' weakness—Ninetales in particular—to Stealth Rock. Healing Wish ramps this form of support up a notch, restoring a Pokemon to full health at the cost of fainting the user. Unlike Wish, this also heals before entry hazard damage, allowing a battered Ninetales, Volcarona, or Charizard a second shot at changing the outcome of the match.</p>
+
+<p>A final option for team support is a secondary Sunny Day user, reducing the pressure on Ninetales to enter the field as often as it would otherwise need to when facing an opposing weather team. This is especially important as, of the three main weathers, sun is typically the most dependent on having the weather advantage; outside of sun, many Chlorophyll and Fire-type sweepers are fairly mediocre Pokemon. While many viable Pokemon learn Sunny Day, some that deserve special mention are Rotom-W, Hitmontop, Roserade, and Breloom, relatively bulky Pokemon that can easily switch in to and threaten Politoed, Tyranitar, and Hippowdon. There are even a number of Prankster Sunny Day users, but unlike rain and Tornadus, none of them abuse sun particularly well. Nonetheless, such support should be considered if your team is extremely sun-dependent or would like an easier time in weather wars.</p>
+
+<p>Indeed, there are a multitude of roles to fill, and even more Pokemon to choose from; the relative merits and shortcomings of the more viable ones are discussed below.</p>
+
+<h4><a href="/bw/pokemon/arcanine">Arcanine</a></h4>
+<img src="/download/sprites/bw/59.png" alt="" />
+
+<p>Though your first instinct may be to think of Arcanine as an offensive sun abuser, it also has its uses as a supporting player for sun-based teams. It has a choice of two fantastic abilities: Flash Fire grants it the capacity to freely absorb Fire-type attacks, while Intimidate synergizes well with its usable 90 / 80 / 80 defenses and access to Will-O-Wisp; additionally, it has Morning Sun to further boost its survivability. However, Arcanine must be careful to avoid being outclassed by Heatran in this role given the latter's multitude of useful resists.</p>
+
+<h4><a href="/bw/pokemon/chansey">Chansey</a> / <a href="/bw/pokemon/blissey">Blissey</a></h4>
+<img src="/download/sprites/bw/113.png" alt="" /><img src="/download/sprites/bw/242.png" alt="" />
+
+<p>The pink blobs return, changed in name but not in function: with the advent of Eviolite, which boosts both defensive stats of NFE Pokemon by 50%, Chansey overtakes Blissey in terms of sheer bulk. While workable Special Attack, and more importantly Leftovers recovery give Blissey an advantage in certain conditions, Chansey is generally the superior choice, as sun removes the residual damage of sandstorm and hail, reducing the need for Leftovers recovery. Nonetheless, whichever you choose, both pink eggs support your team in a similar fashion. Their capacity to sponge special attacks effortlessly make them good insurance against common specially based threats on rain teams, and their gargantuan 350+ HP Wishes give a new lease of life to many of their teammates; cleric support and status inducing moves in Thunder Wave and Toxic are standard options as well. Finally, Healing Wish can be utilized to fully heal a sweeper, potentially setting up a game-winning sweep from a previously hopeless position.</p>
+
+<h4><a href="/bw/pokemon/latias">Latias</a></h4>
+<img src="/download/sprites/bw/380.png" alt="" />
+
+<p>Although the only Fire-type move Latias can abuse in sun is Hidden Power Fire, her real contribution to your team is defensive synergy. She provides a valuable Fighting-type resistance and Ground-type immunity, and her excellent base 130 Special Defense and resistances to Water-, Electric-, and Grass-type moves make her a great switch-in to Politoed and many other rain sweepers. While she is typically seen as a standalone Calm Mind sweeper, don't overlook her great support movepool: Wish is naturally hugely useful for sun, as is the ability to set up dual screens to protect frail sweepers. One last point of note is that Latias is the fastest user of Healing Wish outside of sun.</p>
+
+<h4><a href="/bw/pokemon/jirachi">Jirachi</a></h4>
+<img src="/download/sprites/bw/385.png" alt="" />
+
+<p>Though Jirachi brings weaknesses to Ground- and Fire-type moves, it can perform excellently as a supporter with a decent offensive presence. It provides invaluable support in the form of Stealth Rock along with huge 202 HP Wishes, and also has access to Healing Wish to revitalize a sweeper. Thunder Wave can assist in crippling Choice Scarf users on the opposing team, U-turn is a nice way to grant Ninetales a safe switch-in, while Jirachi's signature Doom Desire can dissuade Tyranitar from coming in, thereby safeguarding Ninetales. Lastly, yet another one of Jirachi's many niches is its ability to decimate rain teams with a specially defensive set consisting of Calm Mind and Thunderbolt, making it a fantastic addition to a team troubled by these threats.</p>
+
+<h4><a href="/bw/pokemon/vaporeon">Vaporeon</a></h4>
+<img src="/download/sprites/bw/134.png" alt="" />
+
+<p>Perhaps the best Wish passer available to sun teams is Vaporeon. Given that most of sun's sweepers lack space for a recovery move, have recoil-inducing moves such as Flare Blitz and Double-Edge, and are weak to all forms of entry hazards, recovery in the form of gigantic 232 HP Wishes can prove invaluable, near-fully revitalizing many Pokemon on a sun team. While Vaporeon's ability and STAB are unfortunately somewhat worthless to sun teams, her ability to Baton Pass both Wishes and 101 HP Subtitutes, particularly to Grass-types that resist her weaknesses, are greatly appreciated. She can make use of Roar to prevent opponents using her as setup bait, run Ice Beam to deal with Dragons, or utilize a Hidden Power for coverage. Though awfully weak under sun, Scald can still be used for its burn chance, but since sun teams often have no shortage of Will-O-Wisp users, this may prove somewhat obsolete.</p>
+
+<h4><a href="/bw/pokemon/slowbro">Slowbro</a></h4>
+<img src="/download/sprites/bw/80.png" alt="" />
+
+<p>Though no longer useful as the only true Blaziken counter, Slowbro nevertheless has great utility as a physical wall. Its Water / Psychic typing provides many useful resistances, including ones to Water-, Fire-, Ice-, and Fighting-type moves, which let it take a variety of attacks with ease and proceed to hit back hard. Among its offensive options are good dual STAB as well as Flamethrower, which gains a pseudo-STAB boost under sun. Slowbro's survivability is increased by Slack Off as well as Regenerator, and it can also support its teammates by inflicting many forms of status through Scald, Thunder Wave, Toxic, and Yawn: pick those that best suit your team.</p>
+
+<h4><a href="/bw/pokemon/bronzong">Bronzong</a></h4>
+<img src="/download/sprites/bw/442.png" alt="" />
+
+<p>Though Steel-types in general tend not to be great choices for sun teams, Bronzong is one of the few who can fill a number of valuable niches, making it the exception to this rule. Its typing is a great asset, contributing to the team a valuable Ground immunity as well as a plethora of resistances to common weaknesses of Grass- and Fire-types; furthermore, its sole Fire-type weakness can be exploited with smart use of a Flash Fire teammate. In addition to excellent bulk, it has access to useful support moves in Stealth Rock and dual screens, both of which greatly benefit sun sweepers, as well as Toxic and Hypnosis, though you will likely find Sleep Powder on a Chlorophyll Pokemon more reliable. Bronzong is no offensive slouch either: STAB Gyro Ball deals with Tyranitar, one of the greatest threats to sun; in fact, Bronzong's aforementioned immunity to Ground and resistance to Rock, along with its access to Gyro Ball and Earthquake, allows it to easily counter common sandstorm threats such as Tyranitar and Landorus. Finally, Hidden Power Ice lets Bronzong maim the Dragon-types that plague sun teams, as well as Gliscor.</p>
+
+<h4><a href="/bw/pokemon/cresselia">Cresselia</a></h4>
+<img src="/download/sprites/bw/493.png" alt="" />
+
+<p>Cresselia is another excellent wall able to tank powerful hits and recover them off with a sun-boosted Moonlight. What differentiates her from Slowbro is her immunity to Ground-type moves, her ability to reliably set up dual screens, and her access to Lunar Dance, which enable her to provide multiple setup opportunities for your powerful sun sweepers. Like most Psychic-types, Cresselia is inherently rather Tyranitar weak. She lacks the ability to beat or even cripple it unless running a Calm Mind + Hidden Power Fighting set, which makes using her a slight challenge since sun already finds the sand titan problematic. However, Cresselia's humongous bulk, as well as her tendency to lure in Tyranitar, in fact makes the move Sunny Day a solid choice on her, which can take some pressure off Ninetales.</p>
+
+<h3><a name="spinners">Rapid Spinners</a></h3>
+
+<p>Despite the release of Magic Bounce alleviating the need for a dedicated Rapid Spinner, even for hazard-weak teams like sun, a Spinner is nonetheless still the more reliable option, reducing dependence on prediction by giving your team the capability to clear your side of the field again and again over the course of the battle. The most viable options for this are discussed below.</p>
+
+<h4><a href="/bw/pokemon/forretress">Forretress</a></h4>
+<img src="/download/sprites/bw/205.png" alt="" />
+
+<p>The only Pokemon to receive all three entry hazards and Rapid Spin makes for a valuable supporter for virtually all team archetypes, and sun is no exception. Its exacerbated Fire-type weakness in sun barely matters when most Fire-type attacks OHKO it, and a buffed Sturdy gives it a chance to survive them for one turn more if nothing else. Forretress' great base 140 Defense along with a resistance to Dragon-type attacks give it a good niche as a defensive supporter, and though it lacks offensive capacity, Earthquake and STAB Gyro Ball off a measly base 40 Speed do deter some Pokemon from setting up on it. Additionally, Volt Switch gives Forretress the ability to escape from Magnezone as well as switch Ninetales or a sweeper in for free if need be, making it a very valuable supporting option.</p>
+
+<h4><a href="/bw/pokemon/donphan">Donphan</a></h4>
+<img src="/download/sprites/bw/232.png" alt="" />
+
+<p>Another physical wall with the Sturdy ability, Donphan has access to both Stealth Rock and Rapid Spin, and enjoys a reduced Water weakness in sun. It has decent offensive prowess with STAB Earthquake and Ice Shard as well, and it can use Assurance or Stone Edge to deal with Ghost-types. In addition, Donphan can resort to Odor Sleuth when it is vital to get rid of entry hazards. While more defensive teams may find Donphan's susceptibility to Spikes and Toxic Spikes worrying, this is less of a concern on offensively based sun teams. Donphan can also abuse the sun with Fire Fang, which can used to KO Gengar without resorting to Stone Edge's shaky accuracy. Fire Fang is also useful for taking on Ferrothron and Forretress, which is usually a stalemate match up. All in all, solid base 120 Defense backed by base 90 HP as well as a handy resistance to Rock-type moves make Donphan a strong, versatile pick that fills many roles in a sun team well.</p>
+
+<h4><a href="/bw/pokemon/claydol">Claydol</a></h4>
+<img src="/download/sprites/bw/344.png" alt="" />
+
+<p>At first glance, Claydol seems somewhat similar to Donphan, boasting Stealth Rock, Rapid Spin, and a Rock-type resistance thanks to its Ground typing. However, it possesses the Levitate ability too, which, when coupled with its resistance to Stealth Rock, means it hardly takes any damage from the entry hazards it can remove. This Ground-type immunity not only gives Claydol many free switch-ins when paired with Fire-type teammates, but also grants it the honor of being one of the few Pokemon to resist both parts of the EdgeQuake attacking combination. Claydol's Psychic typing also grants it a resistance to Fighting-type moves, making it a first-rate physical sponge. However, this same Psychic typing and low Attack stat cripple Claydol in the face of spinblockers, meaning it often has to rely on a teammate to eliminate them. Nonetheless, Claydol's access to dual screens, Stealth Rock, and Rapid Spin may prove valuable to your team.</p>
+
+<h4><a href="/bw/pokemon/hitmontop">Hitmontop</a></h4>
+<img src="/download/sprites/bw/237.png" alt="" />
+
+<p>Another angle to take when looking to guarantee a spin is Hitmontop: with Foresight, it can pull off a sure spin, even against Ghosts. It has two excellent abilities; access to powerful priority in Technician Fake Out and STAB Mach Punch can be abused alongside Hitmontop's Rapid Spinning capabilities to rack up damage. Alternatively, Intimidate can be used to cushion physical blows upon switching in and thereby boost Hitmontop's survivability, whilst retaining its powerful STAB Close Combat to abuse alongside Foresight. If not looking for Rapid Spin support, however, one ought to consider Conkeldurr before Hitmontop due to the former's vastly greater bulk and offensive capability.</p>
+
+<h4><a href="/bw/pokemon/starmie">Starmie</a></h4>
+<img src="/download/sprites/bw/121.png" alt="" />
+
+<p>One of the best offensive spinners in the OU tier also performs excellently on sun teams; excellent BoltBeam coverage along with Psychic STAB means that Starmie's Water STAB will scarcely be missed. Starmie can either wield a Choice Scarf to revenge kill Dragon-types and other threats to sun, or utilize a bulkier build with Recover to provide reliable spinning throughout the entire match. Either way, Starmie can singlehandedly eliminate the typically physically bulky spinblockers (Jellicent, the exception, is dealt with by Thunderbolt) in order to spin, something few other Rapid Spinners can easily do given either their weak offenses or susceptibility to burn: in fact, the latter, along with the effect of Toxic Spikes, is not a problem thanks to Starmie's ability, Natural Cure.</p>
+
+<h4><a href="/bw/pokemon/cloyster">Cloyster</a></h4>
+<img src="/download/sprites/bw/91.png" alt="" />
+
+<p>Though an unusual choice for a sun team, Cloyster brings with it several benefits. A 4x resistance to Ice-type attacks and a huge base 180 Defense greatly assist it in reliably getting a Spin off, and doing so is easy because few Ghost-types can endure Cloyster's onslaught. Given its vulnerability to entry hazards, it may not last the span of an entire battle; however, Cloyster can be counted on to spin a couple of times, which is sufficient for offensive teams looking to get quick victories. Despite lacking a Dragon-type resistance, Cloyster can tank Outrages from the Dragon-types that wall typical sun abusers, and retaliate by breaking Dragonite's Multiscale and OHKOing it with the multi-hit Icicle Spear. Moreover, Cloyster brings incredible offensive presence to the team; Shell Smash instantly turns it into a fantastic sweeper, which in sun even gains the option of a powerful pseudo-STAB Hidden Power Fire.</p>
+
+<h3><a name="niche">Other Niche Support</a></h3>
+
+<p>Thanks to their unique capabilities, these Pokemon can provide irreplaceable forms of support, letting them fill a specialized but nonetheless vital niche and making them key to the success of certain sun teams.</p>
+
+<h4><a href="/bw/pokemon/wobbuffet">Wobbuffet</a></h4>
+<img src="/download/sprites/bw/202.png" alt="" />
+
+<p>Wobbuffet is far from a typical Psychic-type: it possesses the unique ability to trap and kill problematic Pokemon, opposing weather inducers in particular, a service which is incredibly useful because sun teams are especially dependent on dominating and winning the weather war. With Encore and Safeguard, Wobbuffet can force many opposing Pokemon into yielding setup opportunities to your frail sweepers, and can also serve as insurance against sweepers that utilize only one offensive stat. However, beware of power creep: in comparison to the DPP metagame, a greater number of threats in BW OU can potentially OHKO Wobbuffet before it can respond with a Counter or Mirror Coat; examples of these are Choice Band Tyranitar's Crunch and Choice Specs Politoed's rain-boosted Hydro Pump.</p>
+
+<h4><a href="/bw/pokemon/dugtrio">Dugtrio</a></h4>
+<img src="/download/sprites/bw/51.png" alt="" />
+
+<p>Dugtrio provides a virtually surefire way to elimate many severe threats to sun; much like Wobbuffet, it is uncounterable in the normal sense of the word as its ability Arena Trap prevents the opponent from switching. Dugtrio's STAB Ground moves allow it to easily deal with opposing Fire-types (Heatran in particular), Terrakion, and Tyranitar, while the Lati twins are easily dispatched with Sucker Punch. It is often Choice Banded to boost its unimpressive base 80 Attack; however, this runs the risk of turning Dugtrio into setup fodder after it gets a kill, which can be problematic if you do not have solid ways to deal with other threats on the opponent's team. Dugtrio can also utilize a Focus Sash + Reversal strategy, perhaps even providing Stealth Rock support as well, but this is utterly dependent on Stealth Rock being kept off your own side of the field.</p>
+
+<h4><a href="/bw/pokemon/espeon">Espeon</a></h4>
+<img src="/download/sprites/bw/196.png" alt="" />
+
+<p>A team packing several Fire-types will likely be quite Stealth Rock weak; this is where Espeon comes in. With its new ability, Magic Bounce, Espeon can switch into hazard setters such as Deoxys-S and Forretress, or even predicted status or phazing moves (or even Taunt) and reflect them right back at the opponent. However, the main drawback to using Espeon in place of a traditional Rapid Spinner is that if your prediction fails, Stealth Rock will be up for good. Making matters worse is the fact that Espeon is no defensive bulwark: base 65 HP and base 60 Defense as well as a Pursuit weakness make it huge Tyranitar bait. Nonetheless, Espeon's niche is one that no other Pokemon can fill. Immunity to status, phazing, and Taunt allow it to be a reliable dual screen team supporter, or even a Calm Mind Baton Passer. Lastly, it should also be noted that access to Morning Sun somewhat enhances Espeon's survivability in sun, making it especially viable on sun teams.</p>
+
+<h4><a href="/bw/pokemon/xatu">Xatu</a></h4>
+<img src="/download/sprites/bw/178.png" alt="" />
+
+<p>Despite seeming very similar to Espeon, the second Magic Bounce user introduced this generation has a few boons over the poster child of the ability. First of all is its 4x resistance to Fighting- and immunity to Ground-type moves; next is its wider support movepool, which includes Featherdance and Toxic, as well as U-turn, which allows for a safe switch to Ninetales or a frail sweeper. Like Espeon, Xatu can set up dual screens and pass Wishes, though its low base 65 HP along with the new Wish mechanics makes the latter largely inadvisable. Xatu is offensively outclassed by Espeon, however, so be sure to steer clear of that and utilize it solely for its supporting capabilities. Finally, Xatu is also just as, if not even more Tyranitar-weak than Espeon, so be sure to carry a very solid counter to Tyranitar when using Xatu.</p>
+
+<h2><a name="stall">Sun Stall</a></h2>
+
+<img src="/download/sprites/bw/103.png" alt="" /><img src="/download/sprites/bw/357.png" alt="" />
+
+<p>Also introduced in BW is the ability Harvest, which in sun restores a Pokemon's held Berry if consumed the previous turn. However, this tactic is rarely seen, and for good reason. Exeggutor and Tropius are the only two to receive this ability, and while they can theoretically run SubSeed sets with Sitrus Berry granting infinite Substitutes, or Rest in conjunction with Chesto or Lum Berry, they have mediocre defensive stats and are OHKOed by too many threats.</p>
+
+<p>Generally speaking, sun stall isn't very viable in OU, as Grass is a poor defensive typing. While Ground-types such as Donphan appreciate the removal of their Water-type weakness, sun also aggravates one of the main weaknesses of the best defensive type, Steel. This is compounded by the fact that, thanks to powerhouses such as Charizard, Darmanitan, Victini, and Volcarona, sun offense is among the most difficult team archetypes to wall, even for teams that can change the weather to mitigate the onslaught.</p>
+
+<h2><a name="threats">Threats to Sun Teams</a></h2>
+
+<p>Knowing your way around the Pokemon on your own sun team is of course only half the battle: you also need to be aware of the various threats that pose considerable issues for sun teams, and have a plan to remove them from your path. Opposing weathers, Pokemon which commonly wall or outspeed your sweepers, as well as more unusual team strategies—Trick Room in particular—can all pose large obstacles. The following section sums up the reasons why certain Pokemon are threats to sun, and gives suggestions as to how to cope with them.</p>
+
+<h3><a name="sand">Sandstorm Teams</a></h3>
+
+<p>Sand is a very commonly used weather in OU, and for good reason. As its direct impacts are far less significant than sun's or rain's, its inducers fit very well into a number of teams simply looking to check opposing weather teams. Dedicated sandstorm teams are more of an issue, however, as these will be just as protective as you are of their weather, and they typically have a range of deadly abusers to utilize to this end. Overall, a solid strategy against opposing sand teams is a must for any successful sun team.</p>
+
+<h4><a href="/bw/pokemon/tyranitar">Tyranitar</a></h4>
+<img src="/download/sprites/bw/248.png" alt="" />
+
+<p>The pseudo-legendary sand behemoth is possibly the largest threat to almost every sun team: it summons sand upon entering the field, removing the advantages Chlorophyll and Fire-type sweepers alike rely upon. To make matters worse, it possesses excellent bulk: base 100 HP, base 110 Defense, and effectively base 174 Special Defense in sand. Tyranitar also resists Ninetales' STAB Fire-type moves, introduces residual damage from sandstorm, and is an excellent user of Stealth Rock, thereby wearing your team down. Offensively, it wields one of the strongest Pursuits in the game, and an arsenal of usable offensive moves both physical and special. With moves such as Stone Edge, Crunch, Superpower, Fire Blast, Ice Beam, Aqua Tail, and even Focus Punch all being viable possibilities, its immense unpredictability only makes matters worse.</p>
+
+<p>Fortunately, there are a variety of ways to take Tyranitar out of a match, and frankly, all competitive sun teams should pack at least one of these. Naturally, Tyranitar's quadruple Fighting-type weakness is a common target. While its special bulk in sandstorm is so immense that Hidden Power Fighting from the likes of defensive Ninetales is but a 2HKO, a physically based Fighting-type is often a good switch-in that scares Tyranitar out. Other powerful super effective moves, such as Mamoswine's Earthquake or Tangrowth's Power Whip function similarly. Focus Sash + Reversal Dugtrio perhaps does this best of all, but as previously mentioned requires the removal of entry hazards. Wobbuffet is OHKOed by Choice Band Tyranitar's Crunch, and even with perfect prediction is largely helpless against Tyranitar packing special attacks (Mirror Coat is Psychic typed), but is on the whole effective.</p>
+
+<p>Ninetales can mitigate its weakness to Tyranitar with the use of Will-O-Wisp or Substitute + Disable, or simply double switch to protect itself. Wearing it down with burn or Toxic damage along with entry hazards is a reasonable strategy to eliminate Tyranitar given its lack of recovery, as a decent opponent can often predict a Fighting-type attack aimed at Tyranitar. Utilizing a ChestoRest or Wish passing strategy to keep Ninetales alive until Tyranitar is removed may be of use as well. One must always keep in mind its unpredictability, and it is important to determine its set ASAP in order to respond appropriately.</p>
+
+<h4><a href="/bw/pokemon/hippowdon">Hippowdon</a></h4>
+<img src="/download/sprites/bw/455.png" alt="" />
+
+<p>While seeing Hippowdon in Team Preview often causes a sigh of relief because the stress caused by the unpredictable Tyranitar will not be present, this unassuming sand hippopotamus should in no way be underestimated as a threat. Its Sand Stream ability means that eliminating it should be as much of a priority as removing Tyranitar would be, and though Hippowdon is much less likely to tear apart your team, actually KOing it can prove an immensely difficult task due to its huge physical bulk. Unless your team includes a Giga Drain user, Hippowdon will have its way with your team by letting Life Orb and sandstorm damage accumulate while phazing boosting sweepers, or by hitting your Pokemon surprisingly hard off base 112 Attack, wearing your Pokemon down before you can remove it.</p>
+
+<p>Super effective Grass moves will often be your weapon of choice against Hippowdon, as powerful Water- and Ice-type attacks are much less frequently seen on sun sweepers. Tangrowth with Giga Drain is the best option for this role: its huge Defense allows it to tank Ice Fang with ease while regaining health. Inflicting Toxic on Hippowdon is also a good way to deal with it, but do note that stall teams often carry a cleric. Neutral hard-hitting special attacks such as Draco Meteor, Overheat, and Fire Blast are also excellent options.</p>
+
+<h4><a href="/bw/pokemon/landorus">Landorus</a></h4>
+<img src="/download/sprites/bw/675.png" alt="" />
+
+<p>Following the banning of Excadrill, Landorus is now the sand sweeper to watch out for. High base 101 Speed along with excellent offenses—especially in sand—mean it can easily tear through Ninetales and frail sweepers, especially if Landorus packs Hidden Power Ice. Though the Swords Dance variant is incredibly tough to wall, Rock Polish sets are what sun really fears, as the former can at least be revenge killed. A +2 Speed Landorus, however, outruns all Chlorophyll Pokemon, so if your team cannot wall it, you're in for a world of hurt. That's not the limit of its predictability, however; it can also viably run Substitute, Choice Scarf, or Choice Band.</p>
+
+<p>The issue with Landorus is that both its common boosting sets require very different counters and responses. Having something which can wall a +2 Landorus is ideal, but, as mentioned, there's barely anything that can stop a variant with Hidden Power Ice. Starmie can revenge SD Landorus, and strong Chlorophyll Pokemon can do similarly if sun is up. Strong priority moves such as Ice Shard, ExtremeSpeed, or Choice Band Scizor's Bullet Punch are even better ways to ensure a revenge kill on Landorus regardless of its Speed. Cresselia, Slowbro, and Latias are all excellent choices to wall Landorus and remove it with a strong STAB or Ice Beam, but none match Bronzong's ability to wall all bar gimmicky Smack Down variants.</p>
+
+<h3><a name="rain">Rain Teams</a></h3>
+
+<p>The other common weather in OU, and rising in popularity by the minute, rain is truly sun's antithesis. Not only does it cancel out the sun, rain actually reverses many buffs that sun abusers enjoy. Do not get cocky about the gimp to rain offense from the Drizzle + Swift Swim ban: rain teams are perhaps the hardest to keep sun up against, and consequently one of the greatest challenges for any sun team.</p>
+
+<p>Despite losing some of its best abusers, rain offense is a truly threatening playstyle; most rain sweepers have both Water-type moves for your Fire-type sweepers as well as Ice- or Flying-type ones for your Chlorophyll Pokemon. Rain stall is increasingly common too: rain stops your Growth sweepers from boosting efficiently and drastically reduces the damage output of your Fire-type sweepers; meanwhile, the bulky defensive tanks regain health while Toxic stalling your team into oblivion.</p>
+
+<h4><a href="/bw/pokemon/politoed">Politoed</a></h4>
+<img src="/download/sprites/bw/186.png" alt="" />
+
+<p>The second weather that severely threatens sun is rain, and in OU Politoed is its herald. Unchecked, a Politoed's rain will neuter your Fire-type attacks, remove your Chlorophyll sweepers' Speed boost, and let the opponent pummel you with boosted Water-type attacks. In fact, Politoed itself is a potent offensive threat, able to decimate even resists when armed with Choice Specs, outspeed common counters with a Choice Scarf, or run a bulky build for greater survivability, harassing your Pokemon with Scald and its high burn chance, Toxic, Perish Song, and Encore.</p>
+
+<p>One of the best ways to beat Politoed without overspecializing your team is simply to wear it down with residual damage while keeping Ninetales at high health. Laying hazards and inflicting bad poison on it, perhaps from Toxic Spikes or using Toxic as it switches into Ninetales, gives you a significant advantage in the weather war.</p>
+
+<p>Specific checks to Politoed include Chlorophyll Pokemon that can outspeed and OHKO bulky Politoed, such as Tangrowth and Sawsbuck, but beware of Ice Beam. Slowbro threatens Politoed with Toxic or Hidden Power Electric, resists most of Politoed's moves, and can recover health with Regenerator and Slack Off; however, it must itself watch out for Toxic. Vaporeon can do little to hurt Politoed, but this is true vice versa too (again barring Toxic), so Vaporeon can take the opportunity to switch in and heal Ninetales with Wish. Finally, Wobbuffet has an easy time taking out Choice Scarf variants of Politoed, and can set up on defensive ones especially if Wobbuffet has Safeguard, but standard Wobbuffet is OHKOed by Modest Choice Specs Hydro Pump in rain.</p>
+
+<h4><a href="/bw/pokemon/tornadus">Tornadus</a></h4>
+<img src="/download/sprites/bw/671.png" alt="" />
+
+<p>One of the signature threats of rain teams, Tornadus poses a potent threat to sun. STAB Hurricane decimates many Pokemon on offensively based sun teams, and to make matters worse, few things can outpace its base 111 Speed outside of sun. Furthermore, a Tornadus on its last legs can throw out a priority Tailwind, often meaning much of the enemy team will be outspeeding you for 3 turns, sun or no.</p>
+
+<p>As previously mentioned, very few things can safely switch into Tornadus. Heatran sponges Hurricane nicely, but cannot OHKO with Hidden Power Ice, and Hammer Arm pummels it. Specially defensive Rhyperior can wall both moves, but dies to Grass Knot. Sun's best counter to Tornadus is in fact Rotom-H, which resists Hurricane and can OHKO with Thunderbolt, but either a Choice Scarf or some HP investment is necessary. If walling Tornadus is not an option, you can look to revenge killing it; thankfully, even if sun is down and you cannot rely on Chlorophyll Pokemon, there are other options. Arcanine and Dragonite do well with ExtremeSpeed if Tornadus has been previously damaged, as they can prevent a last-ditch Tailwind from being set up. Mamoswine deals heavy damage with Ice Shard, as does Scizor with Bullet Punch, and Starmie outspeeds and OHKOes Tornadus with Thunderbolt or Ice Beam. However, these approaches leave your team open to a counter-sweep since they do not prevent Tailwind.</p>
+  
+<h4><a href="/bw/pokemon/dragonite">Dragonite</a></h4>
+<img src="/download/sprites/bw/149.png" alt="" />
+
+<p>Though its Hurricane lacks the sheer power of Tornadus's, Dragonite has access to the immensely powerful Draco Meteor as well as Surf and Thunder for coverage, making it a potent threat in rain. Its Dream World ability, Multiscale, turns Dragonite into a true defensive behemoth so long as it remains at full health, making it an immense threat to sun teams. However, Dragonite's low Speed and reliance on Multiscale are fairly easy to exploit, especially for a fast-paced team that leaves it no chance to recover; keeping Stealth Rock on the field and pummeling it with powerful neutral moves are excellent ways to check Dragonite.</p>
+
+<h4><a href="/bw/pokemon/toxicroak">Toxicroak</a></h4>
+<img src="/download/sprites/bw/459.png" alt="" />
+
+<p>Toxicroak, while somewhat of a niche Pokemon, is nonetheless a large threat when used on dedicated rain teams. Even  sun begins to drain its health If it manages to get a Substitute up, the combination of Drain Punch and Sucker Punch, possibly after a few Bulk Up boosts, will often claim at least one victim from your team unless your prediction is spot-on. A Fighting-type resist capable of setting up on Toxicroak will easily force it out in sun, however, and a burn will cripple it.</p>
+
+<h3><a name="tr">Trick Room Teams</a></h3>
+
+<p>Though a very rare team archetype, so much so that it usually isn't worth analyzing individual Trick Room threats, Trick Room's speed reversal poses a huge threat to any frail, Speed-reliant team, such as sun. Countering it directly is often incredibly difficult, meaning that in some cases the best you can do is attempt to predict what move they'll throw at you and switch to a resist in order to stall out the five turns of Trick Room's effect. This can be reasonable to deal with for one duration of Trick Room—such as against a lone Reuniclus or Bronzong—but a dedicated Trick Room team will be considerably more difficult to cope with. There are, however, a few options worth considering, which can assist sun in dealing with Trick Room Pokemon and teams as a whole.</p>
+
+<p>Victini is perhaps the most obvious: repeated V-creates will drop Victini's Speed, letting you beat the Trick Room player at their own game for a few turns; Slowbro and Slowking can thwart this, however. Other slow but hard-hitting Pokemon such as Rhyperior, Bronzong, Slowbro, or Snorlax may be able to outspeed some Trick Room abusers, but note that the latter are likely to be running Speed-reducing natures as well as 0 Speed IVs. Taunt is of course a great option to prevent Trick Room setup; Infernape and Heatran are good choices here. Priority too can eliminate some Trick Room sweepers. Generally speaking, a more balanced sun team with walls and pivots will be better equipped to deal with Trick Room than one which purely utilizes fast offensive Pokemon, which is something to bear in mind when crafting your own team.</p>
+
+<h3><a name="oppfire">Opposing Fire-types</a></h3>
+
+<p>Enemy Fire-types are typically an issue for sun teams for two reasons: the first is a great set of resistances, particularly to Fire- and Grass-type moves, which enable them to force out a variety of sun sweepers with ease, and the second is their great offensive potential against the typical components of a sun team, boosted further by your own weather. The good news is that not all Fire-types fit both these criteria, but the bad news is that three of them are some of the most used Fire-types in OU, and for good reason.</p>
+
+<h4><a href="/bw/pokemon/heatran">Heatran</a></h4>
+<img src="/download/sprites/bw/490.png" alt="" />
+
+<p>Heatran is one of the few Pokemon that can wall much of a sun team with unbelievable ease, making it a significant defensive threat. Ninetales and Venusaur are two Pokemon commonly left helpless before it, so great care needs to be taken to promptly remove it. Besides defensive capacity, Heatran also boasts offensive prowess too. It can quite easily turn the tables on you with a Substitute set or with its diverse movepool, and rip apart your frail team with its boosted Fire-type moves; as such, it is imperative that you pack something to deal with it.</p>
+
+<p>Heatran's propensity to run Air Balloon makes countering it somewhat problematic; Ground-type attacks cannot be relied upon unless used by a wall able to tank two hits, such as Snorlax. Fighting-type moves are a common means of dealing with Heatran, as its other weakness, Water, is diminished in sun. Several excellent sweepers can pack a super effective coverage move to scare it away, such as Flash Fire Arcanine (Close Combat), your own Heatran (Earth Power), Sawsbuck (Jump Kick or Nature Power), Dragonite (Earthquake), and Rhyperior (Earthquake) can all either counter or revenge kill it. A Substitute + Hidden Power Fighting Ninetales also takes down offensive Heatran one-on-one. Once again, a strong Mach Punch is useful insurance against Heatran.</p>
+
+<h4><a href="/bw/pokemon/chandelure">Chandelure</a></h4>
+<img src="/download/sprites/bw/639.png" alt="" />
+
+<p>Just as with Heatran, Chandelure too can wall several prominent members of sun teams, which makes removing it a necessity. Despite its poor defensive stats, Chlorophyll users lacking a Ground- or Dark-type move, as well as many Fire-type sweepers, are utterly walled by the haunted chandelier. Like Heatran, it too can furthermore abuse Substitute to tear holes into its counters, or simply nail the switch-in with a Choice Specs-boosted attack thanks to its ridiculously huge Special Attack stat.</p>
+
+<p>Chandelure's counters are somewhat similar to Heatran's as they both tend to use similar moves. Arcanine with Crunch does excellently, as does Heatran with Earth Power. Most Dragon-types resist its moves and make decent switch-ins, but they will nonetheless dislike a sun- and Choice Specs-boosted Fire Blast. Snorlax does an excellent job of walling Chandelure and can even Pursuit it as it leaves, making Snorlax a solid counter. In general, Fire-types that outspeed Choice Scarf Chandelure, as well as Chlorophyll users that can hit it super effectively, will be able to safely revenge kill it.</p>
+
+<h4><a href="/bw/pokemon/volcarona">Volcarona</a></h4>
+<img src="/download/sprites/bw/667.png" alt="" />
+
+<p>One of sun's most prominent sweepers can also prove a deadly threat to it. The ease with which Volcarona can set up on Ninetales can be problematic for sun, given the need to switch your faithful weather inducer in often. Volcarona's versatility can prove problematic, as assuming the wrong set risks letting it attain so many boosts that it simply cannot be stopped.</p>
+
+<p>Ninetales herself has a few tricks up her sleeve to give Volcarona a hard time. Toxic cripples the sweeping potential of all but ChestoRest and Substitute variants, and the combination of Overheat + Power Swap gives Ninetales an excellent chance of beating Volcarona one-on-one by stealing its Special Attack boosts and simultaneously giving it -2 or -4 in that same stat. Alternatively, many physically based Fire-type sweepers can OHKO Volcarona with Flare Blitz; however, fast variants packing Hidden Power Rock or Ground can easily fend off these attempts. Rhyperior can threaten Volcarona before it gains too many boosts, and Snorlax can wall it but needs Stone Edge to really threaten it. Under sun, Sawsbuck can outspeed all bar Timid-natured Volcarona even after two Quiver Dances, but is weak to both of Volcarona's STABs and hence requires perfect prediction to switch in. Finally, Heatran can Roar out any Volcarona without Hidden Power Ground, and set up Stealth Rock as well – which is the best precaution to take against it.</p>
+
+<h3><a name="dragons">Dragon-types</a></h3>
+
+<p>The omnipresent Dragon-types in OU pose both offensive and defensive threats to sun teams in a similar manner to the above Fire-types. Though they can rarely sweep a sun team outright due to a lack of Speed to match that of your Chlorophyll users, a Steel-type can prove invaluable to help sponge their powerful attacks throughout the game. A bigger issue typically comes with a few of the bulkier Dragons, which can pose a rare but large defensive threat to sun teams not equipped to deal with them.</p>
+
+<h4><a href="/bw/pokemon/latias">Latias</a></h4>
+<img src="/download/sprites/bw/380.png" alt="" />
+
+<p>Though a somewhat less common sight in the BW metagame, with her brother's power often being favored over her bulk, Latias is nonetheless a major defensive threat to sun. She resists Grass- and Fire-type moves and is weak to attacks rarely carried by sun sweepers. Huge base 130 Special Defense and a potent Calm Mind / Roar set mean that she can quite easily find the opportunity to grab a boost or two, and rapidly wear down your team.</p>
+
+<p>A strong, super effective hit targeting Latias' weaker base 90 Defense is the easiest way to eliminate her. Megahorn from Sawsbuck or Rhyperior does well, as does Sucker Punch from Shiftry or Houndoom. Your own Dragon-type will be able to threaten her in a similar manner, but risks eating a Dragon Pulse, especially a boosted one. More defensively, Bronzong, Heatran, and Snorlax can all take her hits reasonably well and pose a threat in return. Toxic is another option, but Substitute and Refresh thwarts that.</p>
+
+<h4><a href="/bw/pokemon/hydreigon">Hydreigon</a></h4>
+<img src="/download/sprites/bw/665.png" alt="" />
+
+<p>Hydreigon is another Pokemon that simultaneously poses both a defensive and offensive threat to sun teams. Its unique typing bestows upon it useful resistances to Grass- and Fire-type moves, while its ability grants it an immunity to Ground-type attacks, which it can make use of well with good defenses. Offensively, it can maintain pressure on your team with U-turn, racking up damage while thwarting your attempts to remove it. It has excellent dual STAB in Dark Pulse and Dragon Pulse, and a combination of Draco Meteor, Fire Blast, and Focus Blast can usually OHKO or 2HKO most members of a sun team. Its notorious base 98 Speed becomes less of an issue against sun teams given that there are few common sun sweepers around the base 100 tier anyways (Ninetales barely 2HKOes with Specs Hidden Power Fighting); furthermore, with such a wide movepool backed by an excellent base 125 Special Attack stat, it can make use of Life Orb, Expert Belt, Choice Scarf, and even Choice Specs equally well.</p>
+
+<p>Common special walls such as Blissey and Chansey fare well against Hydreigon. For a more proactive approach, Chlorophyll sweepers can revenge kill it after some prior damage: unboosted Jump Kick from Sawsbuck and Low Kick from Shiftry, as well as most Hidden Power Ice fall just short of an OHKO. Volcarona can either take an unboosted Draco Meteor or sun-boosted Fire Blast with its fantastic Special Defense, or outspeed non-Choice Scarf variants, and OHKO with Bug Buzz. Infernape will have a hard time switching in safely, but can decimate Hydreigon with STAB Close Combat or even Mach Punch / Vacuum Wave.</p>
+
+<h4><a href="/bw/pokemon/salamence">Salamence</a></h4>
+<img src="/download/sprites/bw/373.png" alt="" />
+
+<p>Whilst offensive variants are fairly easily revenge killed by Chlorophyll sweepers, defensive Salamence can pose issues for sun teams due to its great resistances and survivability, along with its access to phazing in Dragon Tail. A powerful super effective hit from something that outspeeds Salamence is the best way to deal with it, though its constant switching combined with Intimidate makes this troublesome if hazards are laid on your side of the field. Nevertheless, Salamence itself is vulnerable to Stealth Rock, so set up your own to cause the same issue for it.</p>
+
+<h3><a name="scarf">Choice Scarf Users</a></h3>
+
+<p>Your Chlorophyll sweepers will typically be able to outpace the vast majority of Choice Scarf users in OU, but unless you choose to sacrifice a great deal of offensive capacity and bulk to cope with the rare base 110 Speed and above Pokemon running Choice Scarf, you'll occasionally find the odd speedy Choice Scarf user threatening your team. Luckily, few Pokemon actually hit these phenomenal speeds, and moreover, they are rarely seen with a Choice Scarf, so the following threats should be less of a priority.</p>
+
+<h4><a href="/bw/pokemon/latios">Latios</a></h4>
+<img src="/download/sprites/bw/381.png" alt="" />
+
+<p>Though less of a defensive threat to sun as compared to the aforementioned Dragon-types, Latios can nonetheless pose issues to an unprepared team due to its sheer speed. Pursuit users are rare on sun teams, and Steel-types risk taking a boosted Hidden Power Fire, leaving Choice Scarf Latios free reign to outspeed and OHKO many Chlorophyll sweepers with ease.</p>
+
+<p>Having a Steel-type to tank its incredibly powerful Choice Specs Draco Meteor is very useful, but risky because Hidden Power Fire is not uncommon (unless, of course, your Steel-type of choice is Heatran). Snorlax is one of the few common Pursuit users feasible on sun, and it can fortunately sponge Latios' hits reasonably well too. It is difficult to revenge kill Choice Scarf variants because Latios will outspeed most Chlorophyll users and threaten to OHKO, however. Sawsbuck earns a mention here as great insurance against Choice Scarf Latios, being able to outspeed and OHKO with Megahorn, or even Double-Edge after Stealth Rock damage. Priority such as Ice Shard, ExtremeSpeed, or Bullet Punch is also very useful for finishing off a weakened Latios.</p>
+
+<h4><a href="/bw/pokemon/starmie">Starmie</a></h4>
+<img src="/download/sprites/bw/121.png" alt="" />
+
+<p>Though standard Rapid Spin support Starmie poses few issues to sun other than removing your hazards, Choice Scarf Starmie can outspeed almost every Chlorophyll user with ease and promptly OHKO with Ice Beam. The fact that it also loves the opportunity to cripple one of your supporting Pokemon, or even a sweeper, with Trick makes matters worse.</p>
+
+<p>The best insurance to take against Starmie is running either strong priority in the form of an ExtremeSpeed or Sucker Punch user, or a Chlorophyll user who outspeeds Choice Scarf variants, such as Sawsbuck. Heatran and Volcarona both do a decent job of walling Starmie under the sun, and don't overly mind being Tricked a Choice item. Cresselia takes its hits well but can do little in return outside of setting up dual screens. Sun generally lacks a good spinblocker to use, however, so be prepared to first remove Starmie if hazards form a vital part of your team's strategy.</p>
+
+<h3><a name="other">Other Threats</a></h3>
+
+<p>Some other Pokemon don't fit into any of the above categories, but are also threats to sun in one way or another and will be discussed briefly here.</p>
+
+<h4><a href="/bw/pokemon/gyarados">Gyarados</a></h4>
+<img src="/download/sprites/bw/130.png" alt="" />
+
+<p>Good defenses and key resistances mean this fearsome sea serpent is not easily OHKOed by most attackers on a sun team, while high base 125 Attack and access to Dragon Dance let it pose a veritable offensive threat in return. Its typing is perfectly suited to this job; STAB Bounce allows Gyarados to destroy frail Grass-types, while access to STAB Waterfall, Stone Edge, and Earthquake give it a multitude of ways to destroy Fire-type sweepers regardless of the weather. Gyarados can utilize Intimidate to complement its base 100 Special Defense and useful set of resistances in order to nab a boost, or choose Moxie to become an ever-increasing threat to your team. It gets Taunt to prevent your walls from recovering and your sweepers from setting up, but be sure to also watch out for its Substitute set: as most sun sweepers are frail, you will often be forced to sacrifice a team member to bring Gyarados down.</p>
+
+<p>Common rain checks and counters, such as Rotom-W and Starmie, or even Latias, Vaporeon, Gastrodon, and Porygon2, fare well against most Gyarados, but note that the first needs an Electric-type move other than Volt Switch to take down Substitute variants. Chlorophyll sweepers can also prey on the fact that Gyarados doesn't resist their STAB Grass-type moves. Stealth Rock provides insurance against most Gyarados; for example, Tangrowth's unboosted Power Whip can OHKO a thus-damaged Gyarados.</p>
+
+<h4><a href="/bw/pokemon/terrakion">Terrakion</a></h4>
+<img src="/download/sprites/bw/669.png" alt="" />
+
+<p>Similar to Landorus in a sandstorm (though much less reliant on one), Terrakion is capable of pulling off both Rock Polish and Swords Dance sets—or even both—as well as Choice sets. Whilst it doesn't typically go mixed and lacks Landorus' Sand Force, its incredible dual STAB combination more than makes up for it. High-powered Rock- and Fighting-type moves decimate nearly the whole metagame, and sun teams too can very easily be swept if precautions are not taken against it.</p>
+
+<p>Fortunately, Terrakion has a poor defensive typing; therefore, preventing it from setting up isn't a hard task. Valuable Pokemon such as Ninetales and hazard setters may put you at risk of a Terrakion sweep, however, but it can be played around. Slowbro and Claydol can wall its dual STAB and force it out, and Bronzong is an excellent answer to Rock Polish variants. Revenge killing is a viable option too, as Close Combat drops its defenses, meaning strong Mach Punches and Bullet Punches will do a number on it after Life Orb recoil and a Defense drop or two.</p>
+
+<h4><a href="/bw/pokemon/dugtrio">Dugtrio</a></h4>
+<img src="/download/sprites/bw/51.png" alt="" />
+
+<p>Though a rare sight in OU, Dugtrio gets a mention in this threat list because it poses an enormous risk to your weather inducer Ninetales. It can easily trap, outspeed, and OHKO Ninetales that are not using Air Balloon or Shed Shell, along with some Fire-types you may be using.</p>
+
+<p>Countering Dugtrio is impossible given the nature of its ability, augmenting the importance of staying on the alert if you see one in Team Preview and your Ninetales is not prepared to deal with it. Ninetales is safe from Dugtrio as long as it uses Substitute as the latter switches in, because a sun-boosted Fire-type move will make short work of Dugtrio. However, all others must either switch directly out after coming in, or always use a move that can OHKO Dugtrio as it switches in, but not the current active Pokemon (because if you KO said active Pokemon, Dugtrio will be free to switch in and pick off Ninetales). However, the second situation is an extremely complicated one, and there is always the threat of the opposing Pokemon U-turning, Volt Switching, or Baton Passing out to Dugtrio, trapping Ninetales. To make a long story short, you need to be very, very careful with Ninetales if Dugtrio is around. Luckily, Dugtrio's awful defenses mean your other members will typically be able to deal with it easily.</p>
+  
+<h4><a href="/bw/pokemon/chansey">Chansey</a> / <a href="/bw/pokemon/blissey">Blissey</a></h4>
+<img src="/download/sprites/bw/113.png" alt="" /><img src="/download/sprites/bw/242.png" alt="" />
+
+<p>The pink blobs make another appearance as major defensive threats to sun teams. Blissey and its new competitor, Eviolite Chansey, both utterly wall several members of sun, including the common specially based Venusaur, Heatran, and Volcarona, as well as numerous supporters. Consequently, the pink blobs often cause sun teams to lose a lot of momentum, and they should therefore be eliminated immediately. Additionally, though taking Toxic is comparatively easy for sun, Thunder Wave will prove a large hindrance to any sweeper. Blissey's propensity to run Flamethrower to hit Ferrothorn or Ice Beam for Dragon-types also unfortunately causes problems for Chlorophyll sweepers.</p>
+
+<p>Having a Ground-type on hand to absorb Thunder Wave can be helpful, but keeping them in afterwards is unadvisable due to the threat of Ice Beam. Rhyperior is probably the best at this, being able to tank an Ice Beam nicely with Solid Rock, absorb Thunder Wave, and KO in return. Strong Fighting-type moves are naturally key to removing the pink eggs, so to this end Hitmontop can be useful. Conkeldurr is also invaluable on teams having large Blissey problems, as it can come in on her with impunity, and possibly even grab a Guts boost. Infernape, Arcanine, or, for that matter, any strong physically based Pokemon will do a great job of forcing her out (be warned that Flare Blitzing Blissey is not going to end well!!), but most hate taking Thunder Wave, so pairing these Pokemon with a Ground-type on your team is a good idea.</p>
+  
+<h4><a href="/bw/pokemon/reuniclus">Reuniclus</a></h4>
+<img src="/download/sprites/bw/609.png" alt="" />
+
+<p>This jelly baby Pokemon is a threat to sun mainly because sun rarely packs super effective physical attacks to take it out. Sun-boosted Fire-type moves require heavy investment to OHKO, and given the recoil Flare Blitz causes, Reuniclus may require a sacrifice to take down. Specially based hits cannot be relied upon since Reuniclus can set up Calm Mind easily against many of sun's support Pokemon, meaning you'll often have to deal with it at +1.</p>
+
+<p>Naturally, strong physical hits are a great way to deal with it. Darmanitan, Arcanine, and even Shiftry can deal huge damage to Reuniclus with either sun-boosted STAB or powerful Dark-type attacks. However, Reuniclus' huge physical bulk means that these attacks may not always OHKO, so you risk losing a Pokemon, especially if Reuniclus attacks rather than sets up. A Dragonite with Multiscale active will do an even better job of dealing with it, as Dragonite can easily survive a hit and 2HKO in return. Jumpluff can ensure you don't lose a team member to Reuniclus if it Encores Reuniclus' Calm Mind, but can't take hits well at all. Lastly, if Reuniclus lacks Shadow Ball, then Chandelure deals with it well.</p>
+
+<h2><a name="building">Building a Sun Team</a></h2>
+
+<p>As with any team archetype, there are a multitude of directions to take when building a sun team, many equally effective. As such, there are very few absolute must-haves for all sun teams, though many can certainly help you out. Things to consider when building a sun team are discussed below.</p>
+<dl>
+<dt>1. Enough sun abusers</dt>
+
+<dd>One would imagine this to be a fairly obvious point, but this is actually more complex than it may appear to be. Essentially, the main reason for this point is that Ninetales is simply a sub-par OU Pokemon individually. While there are many creative ways of forcing it to pull some weight, if you are not taking full advantage of the sun, you are better off using virtually any other Fire-type. Luckily, given the sheer power of Fire-types and the speedy sweeping potential of Chlorophyll Pokemon, it's hardly difficult to make use of the sun, so this should rarely be an issue.</dd>
+
+<dt>2. Maintain some diversity</dt>
+
+<dd>A slightly confusing title boils down to the fact that most of sun's abusers can be one-dimensional in some way or other: some are too slow to pull off clean sweeps, and others lack the coverage to be able to blast through the entire tier. Due to this, a reasonable degree of diversity is generally very helpful to a sun team, offensively as well as defensively. Offensive support involves breaking down common walls such as Heatran or Blissey, while defensive support is useful as your sweepers may be forced out by Pokemon that wall or outspeed them, necessitating that they take a hit. Merely packing Ninetales and a bunch of Chlorophyll users or Fire-types is generally not the best way to go about things.</dd>
+
+<dt>3. Be able to beat the other weather inducers</dt>
+
+<dd>Being able to combat other insta-weather is naturally an incredibly important attribute for your sun team, possibly the most important; you will thus need several solid ways to deal with opposing weather inducers. Packing a lead that beats other common weather inducers is generally a good idea, as Ninetales is undersped by each of them, meaning it will usually fail to get sun up off the bat. Moreover, it is important to preserve Ninetales while you eliminate their inducer, through careful play or team support. Check out the threat list section for help dealing specifically with Tyranitar, Politoed, and Hippowdon.</dd>
+
+<dt>4. Insurance against other weather threats</dt>
+
+<dd>When facing down a skillfully played opposing weather team, it's a fact that you simply will not be able to keep sun up all the time, however well you play. As such, you have to be able to deal with opposing weather specific threats in their own element: Venusaur's Energy Ball is a poor answer to Landorus as Venusaur will be outsped in hostile weather and likely OHKOed. Pokemon that do well against sand or rain, such as Bronzong and Starmie respectively, will naturally serve you well in the battle to regain and maintain the weather advantage.</dd>
+
+<dt>5. Have something to take Fire-typed hits</dt>
+
+<dd>One of your biggest advantages can easily turn on you when some of your best abusers—Grass-type Chlorophyll sweepers—are weak to it. As such, a reliable sponge of sun-boosted STAB Fire-type attacks is always helpful for sun teams. This can take the form of a Flash Fire abuser such as Heatran, or a bulky Fire-type resist. Less vital, given the lower popularity of sun, is a way to guard against opposing Chlorophyll Pokemon, particularly if you are running a relatively defensive sun team; unlike when facing sand or rain teams, regaining the advantage will no longer be a simple matter of changing the weather, so tread carefully.</dd>
+
+<dt>6. Hazards control</dt>
+
+<dd>Given that your faithful sun inducer, as well as many of its fellow Fire-type brethren, is vulnerable to all three forms of entry hazards, a Rapid Spinner is an excellent choice for sun teams, if not virtually mandatory when running a 4x Rock-weak Pokemon such as Volcarona. A Magic Bounce Pokemon—Espeon or Xatu—can also fill this role, but they should not be relied on due to their frailty and inherent dependance on prediction. The other choice, of course, is to simply make your team as resilient to hazards as possible. Wish support, a way to heal Ninetales, few other Stealth Rock weak Pokemon, and a grounded Poison-type Pokemon to absorb Toxic Spikes will probably mean that you can make do without a Rapid Spinner, so use your own judgment.</dd>
+
+<dt>7. General useful support</dt>
+
+<dd>Just as most teams would benefit from some sort of support rather than attempt to blindly bludgeon the opponent to death, sun too appreciates common forms of support. Stealth Rock is the most ubiquitous entry hazard, but Spikes are perhaps more valuable to limit opposing weather inducers' switch-ins. Wish support can go a long way in mitigating entry hazard and sandstorm residual damage on Ninetales, as well as possible Life Orb or Flare Blitz recoil on your sweepers. Aromatherapy / Heal Bell can alleviate the paralysis that plagues Speed-based teams, dual screen support greatly assists frail sweepers as they strive to set up, and strong priority provides insurance against threats, all of which reduce your team's reliance on sun.</dd>
+</dl>
+
+<h2><a name="example">Example Sun Team</a></h2>
+
+<p>The above concepts and analyses, whilst useful alone, may be somewhat bewildering to a new user of a sun team. Therefore, an example of one outstanding sun team, as well as links to many other successful RMTs, have been included to hopefully inspire you and start you off on teambuilding.</p>
+
+<p>In this beautifully formatted <a href="/forums/showthread.php?p=3888463">RMT</a>, Grimm70 takes an unorthodox but undeniably effective approach to sun offense. Centered around setting up a sweep for Bulky Volcarona, this team achieved excellent results during the World Cup and peaked at #3 after an impressive ladder run.</p>
+
+<p>While many conventional sun abusers are present to take advantage of sun's boost to both Fire-type attacks and Venusaur's speed, Grimm70 also demonstrates great inventiveness by tweaking many of these sets to better suit his team's purpose and his own playstyle. The not-uncommon tactic of using Dugtrio to trap and remove Tyranitar and Heatran is taken up a notch with the addition of Magma Storm Heatran, threatening Politoed and Blissey as well. While his lack of a Rapid Spinner may be surprising given Volcarona's vulnerability to hazards, the sheer offensive presence of his team (likely along with his own great playing skill) prevents common hazard setters such as Ferrothorn, Forretress, and Skarmory from performing their designated duties.</p>
+
+<p>Mixed Thundurus features here despite having been since banned as the purpose of this sample team is to showcase the advantages of sun, as well as inspire more usage and creativity in sun teams, rather than provide a team to copy-paste. It may be helpful to consider, however, that Grimm70's initial replacement for Thundurus was Life Orb Deoxys-S.</p>
+
+<p>Anyway, on to the team:</p>
+
+<p><img src="/download/sprites/bw/38.png" alt="" /><br />
+Feunard (Ninetales) @ Leftovers<br />
+Ability: Drought<br />
+EVs: 88 HP / 252 SpA / 168 Spe<br />
+Nature: Timid (+Spe, -Atk)<br />
+- Fire Blast<br />
+- SolarBeam<br />
+- Hidden Power Ice<br />
+- Sunny Day</p>
+
+<p>Sunny Day Ninetales, which at the time seemed unorthodox, has since become a standard thanks to its effectiveness. As Ninetales is the fastest weather inducer in standard play, it will likely fail to establish its own weather when matched up against Tyranitar or Politoed. These two normally risk little by switching directly into Ninetales; Tyranitar is protected by its buffed Special Defense in sand, and Politoed and its rain simply laugh off Ninetales' STAB. As such, using Sunny Day as they switch in secures both a few turns of guaranteed sun during which Ninetales can fire off SolarBeam with impunity, as well as the momentum for Grimm70's team.</p>
+
+<p><img src="/download/sprites/bw/672.png" alt="" /><br />
+Fulguris (Thundurus) @ Expert Belt<br />
+Ability: Prankster<br />
+EVs: 192 Atk / 64 SpA / 252 Spe<br />
+Nature: Timid (+Spe, -Atk)<br />
+- Thunderbolt<br />
+- Hidden Power Ice<br />
+- Hammer Arm<br />
+- Thunder Wave</p>
+
+<p>Here, Grimm70 makes use of an unexpected choice for Sunny Day teams: the Round 5 suspect, Thundurus. While it does not directly abuse sun in any way, Mixed Thundurus serves as the glue to the team, with Prankster Thunder Wave helps to take down speedy threats such as Choice Scarf Terrakion, as well as miscellaneous troublesome Pokemon such as Jirachi. With excellent coverage—Thunderbolt for rain sweepers, Hammer Arm for sand sweepers, and Hidden Power Ice for Gliscor and Dragon-types—it also provides Grimm70's team with insurance against other weather, while maintaining an offensive presence.</p>
+
+<p><img src="/download/sprites/bw/490.png" alt="" /><br />
+Emma-o (Heatran) @ Air Balloon<br />
+Ability: Flash Fire<br />
+EVs: 252 HP / 104 Def / 124 SpA / 28 Spe<br />
+Nature: Modest (+SpA, -Atk)<br />
+- Magma Storm<br />
+- Earth Power<br />
+- Will-O-Wisp<br />
+- Taunt</p>
+
+<p>Yet another unconventional take on a common sun abuser is Magma Storm Heatran. The utility of this Heatran set seems endless; with Magma Storm and Taunt, it lures in and takes out two vital defensive threats to Grimm70's team: Blissey and Eviolite Chansey. It also forms a trapper core with Dugtrio that can take out Politoed, paving the way for an unstoppable Volcarona sweep. As Heatran's natural bulk and good resistances cushion it against Choice Specs Latios' Draco Meteor, Grimm70 has chosen to make it a surprisingly bulky mixed wall; defensive investment helps it greatly against the likes of Superpower Tyranitar, Choice Band Haxorus and Dragonite, and even the offensive behemoths Terrakion and Infernape.</p>
+
+<p><img src="/download/sprites/bw/51.png" alt="" /><br />
+Asura (Dugtrio) @ Focus Sash<br />
+Ability: Arena Trap<br />
+EVs : 252 Atk / 4 Def / 252 Spe<br />
+Nature: Jolly (+Spe, -SpA)<br />
+- Stealth Rock<br />
+- Earthquake<br />
+- Sucker Punch<br />
+- Reversal</p>
+
+<p>Dugtrio's contribution to the team is obvious, straightforward, and most of all, effective. As mentioned above, it forms the second part of Grimm70's trapper core, and additionally takes out Heatran, the best counter to Volcarona. Focus Sash both allows it to function as a reliable Stealth Rock setter and ensures a full-power Reversal after taking a hit from Tyranitar, Politoed, or Heatran that would otherwise OHKO it. While Stone Edge may be the more common choice for coverage against Flying-types, Sucker Punch is preferred here to take out Offensive Trick Room Reuniclus, one of the greatest threats to speedy and frail sun teams.</p>
+
+<p><img src="/download/sprites/bw/3.png" alt="" /><br />
+Florizarre (Venusaur) @ Leftovers<br />
+Ability: Chlorophyll<br />
+EVs: 4 Def / 252 SpA / 252 Spe<br />
+Modest Nature (+SpA, -Atk)<br />
+- Sunny Day<br />
+- Sleep Powder<br />
+- SolarBeam<br />
+- Hidden Power Fire</p>
+
+<p>While specially based Venusaur is by no means a rare sight on sun teams, Grimm70 has once again put his own inventive spin on things. As can be seen from its moveset, this Venusaur is not a full-out attacker, but a supporting player used to facilitate Volcarona's sweep. Like Ninetales, it runs a combination of Sunny Day and SolarBeam to lure in an opponent's weather inducers and rack up damage; Hidden Power Fire gains pseudo-STAB under the sun, and Sleep Powder puts a key opponent out of commission. As an added bonus, Venusaur soaks up the Toxic Spikes that may impede Volcarona's sweep.</p>
+
+<p><img src="/download/sprites/bw/667.png" alt="" /><br />
+Pyrax (Volcarona) @ Leftovers<br />
+Ability: Flame Body<br />
+EVs : 144 HP / 84 Def / 120 SpA / 160 Spe<br />
+Nature: Timid (+Spe, -Atk)<br />
+- Quiver Dance<br />
+- Fire Blast<br />
+- Bug Buzz<br />
+- Morning Sun</p>
+
+<p>The star of the team. While its godly stat spread and excellent dual STAB make it decent on its own, Volcarona truly shines with proper team support. The painstaking detail with which Grimm70's team was crafted is most evident in Volcarona's EV spread. This is detailed further on his RMT, but in short, the Speed investment lets Volcarona outrun Excadrill under neutral weather; the Special Attack EVs give it a good chance of KOing several key threats such as Gliscor, Rotom-A, Tyranitar, and even Blissey; while the defensive investment allows it to take less than 50% from the likes of Choice Specs Rotom-W's Hydro Pump, -2 Choice Specs Latios' Draco Meteor, as well as priority from Choice Band Scizor, all of which are very necessary because this team has no Rapid Spinner nor Magic Bounce Pokemon.</p>
+
+<h2><a name="exampleother">Other Sun Teams</a></h2>
+
+<p>Katakiri's <a href="/forums/showthread.php?t=3447445">"Prelude of Light"</a> has been active since May 2011, and so has virtually chronicled the evolution of sun teams in the OU metagame. That's not to say this team is standard, however; his use of unconventional Pokemon such as Emboar, Durant, and even Garchomp further showcases sun's flexibility. In fact, his use of original or underrated yet effective sets such as Healing Wish Lilligant, Sunny Day Rotom-W, and Safeguard Ninetales has served to popularize them in the metagame.</p>
+
+<p>In <a href="/forums/showthread.php?t=3454288">"Sun + Dragons"</a>, a twist on the popular 4drag2mag strategy of taking out Steel-typed walls to set Dragon-type Pokemon up for unstoppable rampages, Brizznetz makes use of a wallbreaking four attacks Shiftry and an Air Balloon Heatran that also doubles as defensive insurance to support a sweep for DD Lum Dragonite and Choice Scarf Latios. Wish Jirachi is the glue to this team, providing healing, paralysis support, and here even Light Screen support.</p>
+
+<p>With a majority of sun sweepers being very fast but frail, one could be forgiven for thinking that sun is limited to only the most offensive of playstyles. In <a href="/forums/showthread.php?p=3879313">"Cidade do Sol"</a>, however, Blue_Star disproves this thoroughly by presenting to us his greatly successful bulky offense sun team. Specially defensive Roserade, though perhaps a strange pick for a Grass-type on a sun team, checks rain offense while Heatran checks Dragon-types, and Rapid Spin Donphan supports two of the most dangerous sweepers in standard play: Dragonite and Volcarona.</p>
+
+<p>If it ain't broke, don't fix it; Delko's <a href="/forums/showthread.php?t=3454826">"Sunny Days"</a> is a classic example of a relatively balanced sun team. Forretress is his choice of spinner, and in conjunction with Magic Bounce Espeon helps keep his field free for Ninetales, Choice Band Dragonite, and perhaps most importantly Focus Sash Dugtrio. Espeon also serves the fairly original role of Baton Passing Calm Minds to his final sweeper, none other than Venusaur.</p>
+
+<p>Finally, Kinglypuff's <a href="/forums/showthread.php?t=104110">"Sun Means Fun"</a> is perhaps the most successful sun team of the metagame so far, peaking at #1 and consistently being on the leaderboard; furthermore, its formula for success is surprisingly simple! Forretress lays entry hazards that assist in the weather war, and provides Rapid Spin support as well. The sun abuse begins with Choice Scarf Darmanitan and doesn't let up: powerful threats such as Swords Dance Sawsbuck, Growth Venusaur, and Bulky Volcarona mean that once the weather war is won, so is the game.</p>
+
+<h2><a name="conclusion">Conclusion</a></h2>
+
+<p>Hopefully this guide to OU sun has given you a good overview of how a sun team plays, and how to go about constructing one of your own. Once again, it should be stressed that this guide should by no means be taken as an absolute; almost everything is merely a suggestion, however strong. As the example teams show, deviation from the norm can result in great success if done correctly, but be aware that doing so will typically be harder than using standard sets unless you are a fantastic team builder, or have lots of time and patience for extensive testing. Nonetheless, I hope this guide has illustrated to you how this traditional underdog of weather can be a force to be reckoned with in BW OU, as well as a very interesting and fun team style to try out.</p>

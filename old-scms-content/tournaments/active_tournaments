@@ -1,0 +1,122 @@
+[title]
+Active Tournaments
+[head]
+<meta name="description" content="A summary of current and recently finished tournaments." />
+[page]
+
+<p><a href="/forums/forums/tournaments.34/">Tournaments forum</a></p>
+
+<h2>Current Tournaments:</h2>
+<table class="sortable">
+		<thead>
+			<tr>
+				<th>Tournament</th>
+				<th>Creator</th>
+				<th>Current Round</th>
+			</tr>
+		</thead>
+
+		<tbody>
+				<tr class="a">
+					<td><a href="/forums/threads/3487488">Smogon Tour 16</a></td>
+					<td><a href="/forums/forums/members/bloo.29254">Bloo</a></td>
+					<td>Week 7</td>
+				</tr>			
+
+                                <tr>
+					<td><a href="/forums/threads/3489908">Ubers Open II</a></td>
+					<td><a href="/forums/members/furai.50612">Furai</a></td>
+					<td>6</td>
+				</tr>
+
+				<tr class="a" >
+					<td><a href="/forums/threads/3489958">NU Open II</a></td>
+					<td><a href="/forums/members/zebraiken.110102">Zebraiken</a></td>
+					<td>5</td>
+				</tr>
+
+				<tr>
+					<td><a href="/forums/threads/3488969">LC Open II</a></td>
+					<td><a href="/forums/members/blarajan.59999">blarajan</a></td>
+					<td>2</td>
+				</tr>
+
+				<tr class="a">
+					<td><a href="/forums/threads/3489762">The Highlander Tournament</a></td>
+					<td><a href="/forums/members/vinc2612.62037">Vinc2612</a></td>
+					<td>Finals</td>
+				</tr>
+
+				<tr>
+					<td><a href="/forums/threads/3489096">The Ghosting Tournament III</a></td>
+					<td><a href="/forums/members/firemage.129452">FireMage</a></td>
+					<td>3</td>
+				</tr>
+
+				<tr class="a">
+					<td><a href="/forums/threads/3489966">RODAN Cup</a></td>
+					<td><a href="/forums/members/oglemi.40358">Oglemi</a></td>
+					<td>Semifinals</td>
+				</tr>
+
+				<tr>
+					<td><a href="/forums/threads/3489965">DPP UU Meets BW RU</a></td>
+					<td><a href="/forums/members/oglemi.40358">Oglemi</a></td>
+					<td>3</td>
+				</tr>
+
+				<tr class="a">
+					<td><a href="/forums/threads/3489883">STAB Mania</a></td>
+					<td><a href="/forums/members/firemage.129452">FireMage</a></td>
+					<td>3</td>
+				</tr>
+
+				<tr>
+					<td><a href="/forums/threads/3489249">The Most UBER Tournament Ever II</a></td>
+					<td><a href="/forums/members/firemage.129452">FireMage</a> / <a href="/forums/members/furai.50612">Furai</a></td>
+					<td>2</td>
+				</tr>
+
+                                <tr class="a">
+					<td><a href="/forums/threads/3489293">The Doubles Doubles Tournament</a></td>
+					<td><a href="/forums/members/audiosurfer.136301">Audiosurfer</a></td>
+					<td>2</td>
+                                </tr>
+                                
+
+				<tr>
+					<td><a href="/forums/threads/3489906">The Slimming Down GSC Tournament</a></td>
+					<td><a href="/forums/members/jorgen.53302">Jorgen</a></td>
+					<td>2</td>
+                                </tr>
+                                
+		                <tr class="a">
+					<td><a href="/forums/threads/3489100">The Best of 3 Tournament III</a></td>
+					<td><a href="/forums/members/lunar.47924">Lunar.</a></td>
+					<td>1</td>
+				</tr>
+
+                                <tr>
+					<td><a href="/forums/threads/3489146">The No More Legends Tournament</a></td>
+					<td><a href="/forums/members/gcschris.171429">GCSChris</a></td>
+					<td>1</td>
+                                </tr>
+                                
+
+		</tbody>
+</table>
+
+<h2>Recently Finished Tournaments:</h2>
+<table class="sortable">
+		<thead>
+			<tr>
+				<th>Tournament</th>
+				<th>Creator</th>
+				<th>Winner</th>
+			</tr>
+		</thead>
+<!--for some reason validation complains without a row-->
+<tbody>
+<tr><td></td><td></td><td></td></tr>
+</tbody>
+</table>

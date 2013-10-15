@@ -1,0 +1,1939 @@
+[title]
+Capture Mechanics (In-Depth)
+[head]
+<meta name="description" content="A comprehensive look at the mechanics of Pokémon capture, thanks to Nexus." />
+[page]
+<div class="author">By <a href="/forums/member.php?u=35537">Nexus</a>. Art by <a href="/forums/member.php?u=123495">The Knights of Wario Land</a>.</div>
+
+<div style="text-align: center;"><img src="/media/upload/ingame/guides/capturemechanics_phanpy.png" alt="" /></div>
+
+<ul class="toc">
+	<li><a href="#intro">Introduction</a></li>
+	<li><a href="#capture_formula">The Capture Rate Formula</a></li>
+	<li><a href="#technical_information">Technical Information</a>
+		<ul>
+			<li><a href="#maxhp">Max HP</a></li>
+			<li><a href="#current_hp">Current HP</a></li>
+			<li><a href="#catchrate">CatchRate</a></li>
+			<li><a href="#ballrate">BallRate</a></li>
+			<li><a href="#status">Status#</a></li>
+			<li><a href="#staying_in_ball">Staying in the Ball</a></li>
+		</ul>
+	</li>
+	<li><a href="#calculations">Sample Calculations</a></li>
+	<li><a href="#ballrate_values">Poké Balls</a></li>
+	<li><a href="#catchrate_values">CatchRate Values</a>
+		<ul>
+			<li><a href="#catch_kanto">Kanto Dex (001-151)</a></li>
+			<li><a href="#catch_johto">Johto Dex (152-251)</a></li>
+			<li><a href="#catch_hoenn">Hoenn Dex (252-386)</a></li>
+			<li><a href="#catch_sinnoh">Sinnoh Dex (387-493)</a></li>
+			<li><a href="#catch_misc">Miscellaneous CatchRates</a></li>
+		</ul>
+	</li>
+</ul>
+
+<h2><a name="intro">Introduction</a></h2>
+
+<p>The likelihood of capture for wild Pokémon depends on a built-in formula. This formula relies on values such as CatchRate, BallRate, and MaxHP to determine whether a specific Pokémon will be easily caught or will require some effort and patience on behalf of the player. The information in this article focuses on this formula and its application in third and fourth generation Pokémon games.</p>
+
+<h2><a name="capture_formula">The Capture Rate Formula</a></h2>
+
+<p>The Capture Rate Formula determines the probability of successfully capturing a Pokémon. The actual in-game formula is quite complex, so Community Member <a href="/forums/member.php?u=2412">X-Act</a> made a formula that produces nearly exact results:</p>
+
+<pre>Capture Rate = (( 1 + ( MaxHP × 3 - CurrentHP × 2 ) × CatchRate × BallRate × Status# ) ÷ ( MaxHP × 3 )) ÷ 256</pre>
+
+<p>The equation is based on five variables that depend on the Pokémon and the Poké Ball used to catch it. The +1 and division by 256 make the Capture Rate a decimal, which can be multiplied by 100% to produce a percentage of capture. A Capture Rate of 1 or more denotes a guaranteed capture. Since Pokémon games use integers, it is necessary to round down any numbers obtained while using the formula; this applies to all values obtained while calculating the final result (not just the final value). Therefore, you must remember to round down any non-integers before performing the next action to obtain accurate results. This equation is applicable to both third and fourth generation games.</p>
+
+<h2><a name="technical_information">Technical Information</a></h2>
+
+<p>The following is an analysis of the different variables involved in the Capture Rate equation along with some noticeable trends in the Capture Rate based on factors like MaxHP and the type of Poké Ball used on the Pokémon.</p>
+
+<h3><a name="maxhp">MaxHP</a></h3>
+
+<p>MaxHP refers to the maximum Hit Points (HP) of a Pokémon. This value varies depending on the Pokémon's IVs and level. Determining a Pokémon's maximum HP while battling is very difficult; however, thanks to RNG abuse, it's possible to calculate the MaxHP since the abuser knows the HP IV of the Pokémon he or she is attempting to catch.</p>
+
+<p>At first glance it may not be apparent, but the greater the Pokémon's maximum HP, the higher its Capture Rate. Converting the equation into the following makes it more noticeable:</p>
+
+<pre>Capture Rate = [(1÷ MaxHP × 3) + (CatchRate × BallRate × Status#)
+ – ((CurrentHP × 2 × CatchRate × BallRate × Status# )÷ ( MaxHP × 3 ))] ÷ 256</pre>
+
+<p>Since the maximum HP is in the denominator of the expression ((CurrentHP × 2 × CatchRate × BallRate × Status#) ÷ ( MaxHP × 3 )), the larger its value, the smaller the result of the expression. Therefore, the expression's result will have less of an impact when it is subtracted from the rest of the values in the formula. For this to hold true, all other variables in the equation (BallRate, CatchRate, and Status#) must be kept constant when comparing Pokémon with different maximum HP. Furthermore, if the Pokémon is at full health, then the opposite occurs and the lower the MaxHP, the higher the Capture Rate. This is because the fraction ((CurrentHP × 2 × CatchRate × BallRate × Status#) ÷ (MaxHP × 3 )) becomes a constant (all other values are set) when CurrentHP equals MaxHP. Consequently, the only value affecting the capture rate when comparing different MaxHP values is (1÷ MaxHP × 3), which becomes greater as MaxHP decreases.</p>
+
+<h3><a name="current_hp">Current HP</a></h3>
+
+<p>CurrrentHP is the HP a Pokémon has at a point in time. This value changes as the Pokémon takes damage or recovers HP, and has a minimum value of 1 before the Pokémon faints. From the Capture Rate Formula, the greater the CurrentHP, the lower the capture rate, as the CurrentHP is subtracted from the other values in the formula. When the Pokémon's CurrentHP equals its MaxHP (when it is at full health), the equation becomes the following:</p>
+
+<pre>Capture Rate = [(1÷ MaxHP × 3) + ((CatchRate × BallRate × Status#) ÷ 3)] ÷ 256</pre>
+
+<p>Essentially, a Pokémon's Capture Rate is given by the expression ((CatchRate × BallRate × Status#) ÷ 3) ÷ 256 since the value (1÷ MaxHP × 3) ÷ 256 is negligible. Furthermore, the Capture Rate is equal to a third of the Pokémon's CatchRate when it is at full health and the BallRate and Status# are equal to 1. Alternatively, one could say that damaging a Pokémon will at most triple its capture rate.</p>
+
+<h3><a name="catchrate">CatchRate</a></h3>
+
+<p>The CatchRate is a numerical value that ranges from 1-255 and is assigned to each Pokémon to gauge the relative ease of catching that Pokémon. The CatchRate is set for each Pokémon, and as the CatchRate increases, so does the Capture Rate of a Pokémon.</p>
+
+<p>Although the CatchRate is a set value, it can be modified with the effects of the Apricorn Balls in HeartGold and SoulSilver. Most of the Apricorn Balls modify the CatchRate by applying multipliers to it, which can be expressed as the BallRate. However, the Heavy Ball actually adds or subtracts from the CatchRate, which cannot be emulated by the BallRate. Furthermore, the Apricorn Ball modifier is applied before the game adjusts the CatchRate to a value in the range of 1 to 255, so at most an Apricorn Ball will have raised the CatchRate to 255; the BallRate doesn't adhere to that restriction. If the CatchRate exceeds 255, the game brings it back down to 255 when calculating the capture rate. Additionally, if one tries to catch a Pokémon at full health with an Apricorn Ball, the chances of capturing it would not be greater than 1/3 due to the limit on the CatchRate. Mathematically, this can be illustrated by the expression ((CatchRate × BallRate × Status#) ÷ 3) ÷ 256, inserting values for the variables gives the following: (255 × 1 × 1) ÷ 3)) ÷ 256 = (255 ÷ 3) ÷ 256 = 0.332, which is about 33% or 1/3 chance of a successful capture. However, inflicting status or damaging the Pokémon improves the chances of a catching it and brings those odds well above a 1 in 3 chance. Due to the CatchRate's 255 maximum, the Apricorn Balls are best used on Pokémon with a low CatchRate, such as legendary Pokémon, to reap the complete benefit of the Apricorn Ball modifier; using them on Pokémon with high CatchRates would make their effects almost negligible, and their function comparable to a regular Poké Ball.</p>
+
+<h3><a name="ballrate">BallRate</a></h3>
+
+<p>The BallRate is a multiplier, for which the value changes depending on the Poké Ball used for the capture. Every Poké Ball has its own BallRate, though the value of the BallRate for an individual Poké Ball can change depending on the conditions of the battle, such as time of day or location. In HGSS, the Apricorn Balls apply their modifiers to the CatchRate, so their BallRate is considered to be 1. Finally, the BallRate is the only value in the Capture Rate Formula that can be a decimal and not rounded down. However, any value obtained by performing an action with the BallRate, such as CatchRate × BallRate × Status#, must be rounded down.</p>
+
+<h3><a name="status">Status#</a></h3>
+
+<p>The Status# is a modifier that becomes significant when the Pokémon is inflicted with a status condition. The values for each condition are as follows:</p>
+
+<p>Status#s:</p>
+<ul>
+	<li>Freeze : 2</li>
+	<li>Sleep : 2</li>
+	<li>Paralysis : 1.5</li>
+	<li>Burn : 1.5</li>
+	<li>Poison : 1.5</li>
+	<li>None : 1</li>
+</ul>
+
+<p>Sleep and freeze are the most effective status conditions, though all status conditions increase the Capture Rate.</p>
+
+<h3><a name="staying_in_ball">Staying in the Ball</a></h3>
+
+<p>In addition to calculating a Pokémon's Capture Rate, the game also determines the probability of a Pokémon remaining inside any given Poké Ball or breaking out of it. The following equation is used to determine whether it stays inside or breaks out:</p>
+
+<pre>B = 1048560 ÷ √(√(16711680 ÷ Capture Rate))</pre>
+
+<p>B is the probability that the Pokémon will remain inside the Poké Ball. The Capture Rate used for this calculation is the unmodified Capture Rate and can be obtained from the following equation:</p>
+
+<pre>Capture Rate = (( MaxHP × 3 - CurrentHP × 2 ) × CatchRate × BallRate × Status# ) ÷ ( MaxHP × 3 ))</pre>
+
+<p>Once the Capture Rate is calculated from the previous equation, it is inserted into the first equation and a value from 0 to 65535 is produced; 65535 is the maximum value of an unsigned 16-bit integer and is used often in computer systems. The Trainer ID is another value found in Pokémon games that has 65535 as its maximum. Now, once the result is obtained from the equation, it can be treated as the strength of the Poké Ball relative to the Pokémon. The Pokémon makes up to four attempts to break out of the Poké Ball, represented by the Poké Ball wobbling for the first three attempts and possibly sealing on the fourth. For every attempt a random integer between 0 and 65535 will be selected and compared to the value of B. If the random integer is greater than or equal to B, then the Pokémon will break out of the Ball. Conversely, if it is less than B then the Pokémon will remain trapped inside the ball after it wobbles. If all four of the random integers selected at each attempt are smaller than B, then the ball will seal at the fourth attempt and the Pokémon has been captured.</p>
+
+<h2><a name="calculations">Sample Calculations</a></h2>
+
+<p>Mathematical representations and explanations of trends found in the Capture Rate equation, as well as how to use the various equations presented in the article.</p>
+
+<p>Effectiveness of 3 different Balls on Kyogre:</p>
+
+<p>Kyogre: MaxHP = 175, CurrentHP = 1, Status: asleep, CatchRate: 5</p>
+
+<p>Net Ball (BallRate: 3)</p>
+
+<pre>Capture Rate = ((1 + (175 × 3 – 1 × 2) × 5 × 3 × 2) ÷ (175 × 3)) ÷ 256
+
+= ((1 + 523 × 5 × 3 × 2) ÷ (525)) ÷ 256
+
+= (15691 ÷ 525) ÷ 256
+
+= 29 ÷ 256
+
+= 0.1133
+
+= 11.33%</pre>
+
+<p>Dive Ball (BallRate: 3.5); only applicable in RSE</p>
+
+<pre>Capture Rate = ((1 + (175 × 3 – 1 × 2) × 5 × 3.5 × 2) ÷ (175 × 3)) ÷ 256
+
+= ((1 + 523 × 5 × 3.5 × 2) ÷ (525)) ÷ 256
+
+= (18306 ÷ 525) ÷ 256
+
+= 34 ÷ 256
+
+= 0.1328
+
+= 13.28%</pre>
+
+<p>Heavy Ball (CatchRate Modifier: +30)</p>
+
+<pre>Capture Rate = ((1 + (175 × 3 – 1 × 2) × (5 + 30) × 1 × 2) ÷ (175 × 3)) ÷ 256
+
+= ((1 + 523 × (5 + 30) × 1 × 2) ÷ (525)) ÷ 256
+
+= ((1 + 523 × 35 × 1 × 2) ÷ (525)) ÷ 256
+
+= (36611 ÷ 525) ÷ 256
+
+= 69 ÷ 256
+
+= 0.2695
+
+= 26.95%</pre>
+
+<p>Conclusion: Heavy Ball effectively doubles Kyogre's Capture Rate. The difference between the Net and Dive Balls is minimal.</p>
+
+<p>Difference between Apricorn Balls and Poké Balls with a BallRate greater than 1 on Pokémon with high CatchRates:</p>
+
+<p>Natu: MaxHP = 60, CurrentHP = 60, Status: none, CatchRate: 190</p>
+
+<p>Level Ball (CatchRate Modifier: ×8, maximum)</p>
+
+<pre>Capture Rate = ((1 + (60 × 3 – 60 × 2) × (190 × 8) × 1 × 1) ÷ (60 × 3)) ÷ 256
+
+= ((1 + 60 × (190 × 8) × 1 × 1) ÷ (60 × 3)) ÷ 256
+
+= ((1 + 60 × 1520 × 1 × 1) ÷ (60 ×3)) ÷ 256</pre>
+
+<p>CatchRate has a maximum of 255, values higher than 255 are set to 255.</p>
+
+<pre>= ((1 + 60 × 255 × 1 × 1) ÷ (60 × 3)) ÷ 256 
+
+= (15301 ÷ (60 × 3)) ÷ 256
+
+= (15301 ÷ 180) ÷ 256
+
+= 85 ÷ 256
+
+= 0.3321
+
+= 33.21%</pre>
+
+<p>Quick Ball (BallRate: 4, assume used on turn 1)</p>
+
+<pre>Capture Rate = ((1 + (60 × 3 – 60 × 2) × 190 × 4 × 1) ÷ (60 × 3)) ÷ 256
+
+= ((1 + 60 × 190 × 4 × 1) ÷ (60 × 3)) ÷ 256
+
+= (45601 ÷ (60 × 3)) ÷ 256
+
+= (45601 ÷ 180) ÷ 256
+
+= 253 ÷ 256
+
+= 0.9883
+
+= 98.83%</pre>
+
+<p>Conclusion: Apricorn Balls aren't effective in catching Pokémon with high CatchRates due to the 255 maximum. Poké Balls that have BallRate modifiers greater than 1 are best in these situations.</p>
+
+<p>Demonstration of the use of the equation that determines the probability of a Pokémon breaking out of a specific Poké Ball using the unmodified Capture Rate.</p>
+
+<p>Raikou: MaxHP = 134, CurrentHP = 1, Status: sleep, CatchRate: 3</p>
+
+<p>Fast Ball (CatchRate Modifier ×4)</p>
+
+<pre>Capture Rate = (134 × 3 – 1 × 2) × (3 × 4) × 1 × 2) ÷ (134 × 3))
+
+= (400 × (3 × 4) × 1 × 2) ÷ (134 × 3)) 
+
+= (400 × 12 × 1 × 2) ÷ (134 × 3)) 
+
+= (9600) ÷ (134 × 3)
+
+= 9600 ÷ 402
+
+= 23.8806
+
+= 23 (Pokémon games round down values to integers)</pre>
+
+<p>Insert Capture Rate from the previous equation into the equation:</p>
+
+<pre>B = 1048560 ÷ √(√(16711680 ÷ Capture Rate))</pre>
+
+<p>The value of B gives a numerical representation of the probability that the Pokemon being caught will break out of the Ball (in this case the Fast Ball).</p>
+
+<pre>B = 1048560 ÷ √(√(16711680 ÷ 23))
+
+= 1048560 ÷ √(√726594)
+
+= 1048560 ÷ √852
+
+= 1048560 ÷ 29
+
+= 36157</pre>
+
+<p>Conclusion: If the random value selected for each attempt Raikou makes to break out of the Fast Ball is lower than 36157, then the Fast Ball will shake, and Raikou will remain inside. However, if it is greater than 36157, then Raikou will break out. If the random value is lower on all four attempts, then the Fast Ball will seal on the fourth attempt and Raikou will be caught. Essentially, Raikou has less than a 50% chance per attempt of breaking out of a Fast Ball when it is asleep and down to 1 HP.</p>
+
+<h2><a name="ballrate_values">Poké Balls</a></h2>
+
+<p>The following is a complete list of all Poké Balls available in third and fourth generation games, their BallRates, and their effects:</p>
+
+<dl>
+	<dt>Poké Ball</dt>
+	<dd>BallRate: 1</dd>
+	<dt>Great Ball</dt>
+	<dd>BallRate: 1.5</dd>
+	<dt>Ultra Ball</dt>
+	<dd>BallRate: 2</dd>
+	<dt>Safari Ball</dt>
+	<dd>BallRate: 1.5
+		<ul>
+			<li>Can only be obtained and used at the Safari Zone (FRLG, RSE, and HGSS) and at the Great Marsh in DPP.</li>
+		</ul>
+	</dd>
+	<dt>Master Ball</dt>
+	<dd>BallRate: 255
+		<ul>
+			<li>This Poké Ball catches Pokémon 100% of the time.</li>
+		</ul>
+	</dd>
+	<dt>Sport Ball</dt>
+	<dd>BallRate: 1.5
+		<ul>
+			<li>Can only be obtained and used during the Bug Catching Contest held at National Park.</li>
+		</ul>
+	</dd>
+	<dt>Premier Ball</dt>
+	<dd>Ball Rate: 1</dd>
+	<dt>Repeat Ball</dt>
+	<dd>BallRate: 3 (if used on a Pokémon that has been caught and registered in the PokéDex previously); otherwise, 1</dd>
+	<dt>Timer Ball</dt>
+	<dd>BallRate: 1 (increases by 1 every 10 turns for a maximum of 4)</dd>
+	<dt>Nest Ball</dt>
+	<dd>BallRate: (40 – Pokemon's Level) ÷ 10, has a minimum of 1.</dd>
+	<dt>Net Ball</dt>
+	<dd>BallRate: 3 (if used on Bug- or Water-type Pokémon); otherwise, 1</dd>
+	<dt>Dive Ball</dt>
+	<dd>BallRate: 3.5 (if used on Pokémon found underwater in RSE and while Surfing or fishing in FRLG, DPP, and HGSS); otherwise, 1</dd>
+	<dt>Luxury Ball</dt>
+	<dd>BallRate: 1
+		<ul>
+			<li>Adds an extra point to an event that raises the Happiness of a Pokémon in third generation games. In fourth generation games, it provides a separate boost in Happiness.</li>
+		</ul>
+	</dd>
+	<dt>Cherish Ball</dt>
+	<dd>BallRate: 1
+		<ul>
+			<li>Only seen on Nintendo Event Pokémon, otherwise, unobtainable.</li>
+		</ul>
+	</dd>
+	<dt>Heal Ball</dt>
+	<dd>BallRate: 1
+		<ul>
+			<li>Fully restores the captured Pokémon's HP and PP, and removes status.</li>
+		</ul>
+	</dd>
+	<dt>Quick Ball</dt>
+	<dd>BallRate: 4 (becomes 1 after the first turn)</dd>
+	<dt>Dusk Ball</dt>
+	<dd>BallRate: 3.5 (when used at night between 20:00 and 4:00 or dark areas like caves); otherwise, 1</dd>
+	<dt>Park Ball</dt>
+	<dd>BallRate: 255
+		<ul>
+			<li>This Ball catches a Pokémon 100% of the time. Furthermore, it can only be obtained and used at Pal Park during a Catching Show.</li>
+		</ul>
+	</dd>
+</dl>
+
+<p>Apricorn Balls are obtained in HGSS and behave differently to the aforementioned Balls, as they affect the CatchRate of a Pokémon. The following is a list of all the Apricorn Balls available in HGSS and their modifier:</p>
+
+<dl>
+	<dt>Fast Ball</dt>
+	<dd>CatchRate Modifier: ×4 (if the Pokémon has base 100 or higher Speed); otherwise, 1</dd>
+	<dt>Friend Ball</dt>
+	<dd>CatchRate Modifier: ×1
+		<ul>
+			<li>A Pokémon caught in this Ball will have its Base Happiness set to 200.</li>
+		</ul>
+	</dd>
+	<dt>Heavy Ball</dt>
+	<dd>CatchRate Modifier: +20 if the Pokémon weighs more than 451.5lbs, +30 if it weighs over 677.3 lbs, or +40 if it weighs more than 903.0lbs; otherwise, -20 
+	
+	<p>Although subtracting 20 from the CatchRate may result in a negative CatchRate, the game treats it as a CatchRate of 1. Furthermore, since there are no Pokémon with a CatchRate of 20 it is impossible to get 0 as the CatchRate.</p>
+
+	<p>The following table shows which Pokémon have the +20, +30, or +40 applied to them, for all others assume that the -20 modifier is applied (only Pokémon in <strong>bold</strong> can be captured in Apricorn Balls; others only be caught by having Ditto Transform into them in HGSS).</p>
+
+	<table class="sortable">
+	<thead>
+	<tr>
+	<th>+20</th> <th>+30</th> <th>+40</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+	<td>Camerupt</td> <td>Aggron</td> <td>Dialga</td>
+	</tr>
+	<tr class="a">
+	<td>Dragonite</td> <td>Arceus</td> <td>Giratina</td>
+	</tr>
+	<tr>
+	<td>Glalie</td> <td><strong>Kyogre</strong></td> <td><strong>Groudon</strong></td>
+	</tr>
+	<tr class="a">
+	<td>Golem</td> <td>Palkia</td> <td>Heatran</td>
+	</tr>
+	<tr>
+	<td><strong>Gyarados</strong></td> <td>Probopass</td> <td>Metagross</td>
+	</tr>
+	<tr class="a">
+	<td>Hariyama</td> <td><strong>Steelix</strong></td> <td>Regigigas</td>
+	</tr>
+	<tr>
+	<td>Hippowdon</td> <td>Torterra</td> <td><strong>Snorlax</strong></td>
+	</tr>
+	<tr class="a">
+	<td><strong>Lapras</strong></td> <td>Wailord</td> <td>&nbsp;</td>
+	</tr>
+	<tr>
+	<td><strong>Lugia</strong></td> <td>&nbsp;</td> <td>&nbsp;</td>
+	</tr>
+	<tr class="a">
+	<td>Mamoswine</td> <td>&nbsp;</td> <td>&nbsp;</td>
+	</tr>
+	<tr>
+	<td><strong>Mantine</strong></td> <td>&nbsp;</td> <td>&nbsp;</td>
+	</tr>
+	<tr class="a">
+	<td><strong>Onix</strong></td> <td>&nbsp;</td> <td>&nbsp;</td>
+	</tr>
+	<tr>
+	<td><strong>Rayquaza</strong></td> <td>&nbsp;</td> <td>&nbsp;</td>
+	</tr>
+	<tr class="a">
+	<td>Regirock</td> <td>&nbsp;</td> <td>&nbsp;</td>
+	</tr>
+	<tr>
+	<td>Registeel</td> <td>&nbsp;</td> <td>&nbsp;</td>
+	</tr>
+	<tr class="a">
+	<td>Rhyperior</td> <td>&nbsp;</td> <td>&nbsp;</td>
+	</tr>
+	</tbody>
+	</table>
+	</dd>
+	<dt>Level Ball</dt>
+	<dd>BallRate: ×2 if the level of the player's Pokémon is greater than the level of the opposing Pokémon, ×4 if the level of the player's Pokémon divided by two and rounded down is greater than the level of the opposing Pokémon, or ×8 if the level of the player's Pokémon divided by four and rounded down is greater than the level of the opposing Pokémon; otherwise, ×1</dd>
+	<dt>Love Ball</dt>
+	<dd>CatchRate Modifier: ×8 (when used on a Pokemon who is the same species and opposite gender of the opposing Pokémon); otherwise, ×1</dd>
+	<dt>Lure Ball</dt>
+	<dd>CatchRate Modifier: ×3 (when used on Pokémon encountered by fishing); otherwise, ×1</dd>
+	<dt>Moon Ball</dt>
+	<dd>CatchRate Modifier: ×4 (when used on a Pokémon that evolves with a Moon Stone, which include: Nidoran-M, Nidorino, Nidoking, Nidoran-F, Nidorina, Nidoqueen, Cleffa, Clefairy, Clefable, Igglybuff, Jigglypuff, Wigglytuff, Skitty, and Delcatty); otherwise, ×1</dd>
+</dl>
+
+<h2><a name="catchrate_values">CatchRate Values</a></h2> 
+
+<p>The CatchRate is a value between 1 and 255 assigned to each Pokémon that help gauge how difficult it is to catch a certain Pokémon. The following is a list of Pokémon that can be caught in third or fourth generation games, arranged by National Dex number and their respective CatchRate:</p>
+
+<h3><a name="catch_kanto">Kanto Dex (001-151)</a></h3>
+
+<table id="kanto" class="sortable">
+<thead>
+<tr>
+<th>Pokémon</th> <th>Catch Rate</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Caterpie</td> <td>255</td>
+</tr>
+<tr class="a">
+<td>Metapod</td> <td>120</td>
+</tr>
+<tr>
+<td>Butterfree</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Weedle</td> <td>255</td>
+</tr>
+<tr>
+<td>Kakuna</td> <td>120</td>
+</tr>
+<tr class="a">
+<td>Beedrill</td> <td>45</td>
+</tr>
+<tr>
+<td>Pidgey</td> <td>255</td>
+</tr>
+<tr class="a">
+<td>Pidgeotto</td> <td>120</td>
+</tr>
+<tr>
+<td>Rattata</td> <td>255</td>
+</tr>
+<tr class="a">
+<td>Raticate</td> <td>127</td>
+</tr>
+<tr>
+<td>Spearow</td> <td>255</td>
+</tr>
+<tr class="a">
+<td>Fearow</td> <td>90</td>
+</tr>
+<tr>
+<td>Ekans</td> <td>255</td>
+</tr>
+<tr class="a">
+<td>Arbok</td> <td>90</td>
+</tr>
+<tr>
+<td>Pikachu</td> <td>190</td>
+</tr>
+<tr class="a">
+<td>Sandshrew</td> <td>255</td>
+</tr>
+<tr>
+<td>Sandslash</td> <td>90</td>
+</tr>
+<tr class="a">
+<td>Nidoran♀</td> <td>235</td>
+</tr>
+<tr>
+<td>Nidorina</td> <td>120</td>
+</tr>
+<tr class="a">
+<td>Nidoran♂</td> <td>235</td>
+</tr>
+<tr>
+<td>Nidorino</td> <td>120</td>
+</tr>
+<tr class="a">
+<td>Clefairy</td> <td>150</td>
+</tr>
+<tr>
+<td>Vulpix</td> <td>190</td>
+</tr>
+<tr class="a">
+<td>Jigglypuff</td> <td>170</td>
+</tr>
+<tr>
+<td>Zubat</td> <td>255</td>
+</tr>
+<tr class="a">
+<td>Golbat</td> <td>90</td>
+</tr>
+<tr>
+<td>Oddish</td> <td>255</td>
+</tr>
+<tr class="a">
+<td>Gloom</td> <td>120</td>
+</tr>
+<tr>
+<td>Paras</td> <td>190</td>
+</tr>
+<tr class="a">
+<td>Parasect</td> <td>75</td>
+</tr>
+<tr>
+<td>Venonat</td> <td>190</td>
+</tr>
+<tr class="a">
+<td>Venomoth</td> <td>75</td>
+</tr>
+<tr>
+<td>Diglett</td> <td>255</td>
+</tr>
+<tr class="a">
+<td>Dugtrio</td> <td>50</td>
+</tr>
+<tr>
+<td>Meowth</td> <td>255</td>
+</tr>
+<tr class="a">
+<td>Persian</td> <td>90</td>
+</tr>
+<tr>
+<td>Psyduck</td> <td>190</td>
+</tr>
+<tr class="a">
+<td>Golduck</td> <td>75</td>
+</tr>
+<tr>
+<td>Mankey</td> <td>190</td>
+</tr>
+<tr class="a">
+<td>Primeape</td> <td>75</td>
+</tr>
+<tr>
+<td>Growlithe</td> <td>190</td>
+</tr>
+<tr class="a">
+<td>Poliwag</td> <td>255</td>
+</tr>
+<tr>
+<td>Poliwhirl</td> <td>120</td>
+</tr>
+<tr class="a">
+<td>Poliwrath</td> <td>45</td>
+</tr>
+<tr>
+<td>Abra</td> <td>200</td>
+</tr>
+<tr class="a">
+<td>Kadabra</td> <td>100</td>
+</tr>
+<tr>
+<td>Machop</td> <td>180</td>
+</tr>
+<tr class="a">
+<td>Machoke</td> <td>90</td>
+</tr>
+<tr>
+<td>Bellsprout</td> <td>255</td>
+</tr>
+<tr class="a">
+<td>Weepinbell</td> <td>120</td>
+</tr>
+<tr>
+<td>Tentacool</td> <td>190</td>
+</tr>
+<tr class="a">
+<td>Tentacruel</td> <td>60</td>
+</tr>
+<tr>
+<td>Geodude</td> <td>255</td>
+</tr>
+<tr class="a">
+<td>Graveler</td> <td>120</td>
+</tr>
+<tr>
+<td>Ponyta</td> <td>190</td>
+</tr>
+<tr class="a">
+<td>Rapidash</td> <td>60</td>
+</tr>
+<tr>
+<td>Slowpoke</td> <td>190</td>
+</tr>
+<tr class="a">
+<td>Slowbro</td> <td>75</td>
+</tr>
+<tr>
+<td>Magnemite</td> <td>190</td>
+</tr>
+<tr class="a">
+<td>Magneton</td> <td>60</td>
+</tr>
+<tr>
+<td>Farfetch'd</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Doduo</td> <td>190</td>
+</tr>
+<tr>
+<td>Dodrio</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Seel</td> <td>190</td>
+</tr>
+<tr>
+<td>Dewgong</td> <td>75</td>
+</tr>
+<tr class="a">
+<td>Grimer</td> <td>190</td>
+</tr>
+<tr>
+<td>Muk</td> <td>75</td>
+</tr>
+<tr class="a">
+<td>Shellder</td> <td>190</td>
+</tr>
+<tr>
+<td>Gastly</td> <td>190</td>
+</tr>
+<tr class="a">
+<td>Haunter</td> <td>90</td>
+</tr>
+<tr>
+<td>Gengar</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Onix</td> <td>45</td>
+</tr>
+<tr>
+<td>Drowzee</td> <td>190</td>
+</tr>
+<tr class="a">
+<td>Hypno</td> <td>75</td>
+</tr>
+<tr>
+<td>Krabby</td> <td>225</td>
+</tr>
+<tr class="a">
+<td>Kingler</td> <td>60</td>
+</tr>
+<tr>
+<td>Voltorb</td> <td>190</td>
+</tr>
+<tr class="a">
+<td>Electrode</td> <td>120</td>
+</tr>
+<tr>
+<td>Exeggcute</td> <td>90</td>
+</tr>
+<tr class="a">
+<td>Exeggutor</td> <td>45</td>
+</tr>
+<tr>
+<td>Cubone</td> <td>190</td>
+</tr>
+<tr class="a">
+<td>Marowak</td> <td>75</td>
+</tr>
+<tr>
+<td>Hitmonlee</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Hitmonchan</td> <td>45</td>
+</tr>
+<tr>
+<td>Lickitung</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Koffing</td> <td>190</td>
+</tr>
+<tr>
+<td>Weezing</td> <td>60</td>
+</tr>
+<tr class="a">
+<td>Rhyhorn</td> <td>120</td>
+</tr>
+<tr>
+<td>Rhydon</td> <td>60</td>
+</tr>
+<tr class="a">
+<td>Chansey</td> <td>30</td>
+</tr>
+<tr>
+<td>Tangela</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Kangaskhan</td> <td>45</td>
+</tr>
+<tr>
+<td>Horsea</td> <td>225</td>
+</tr>
+<tr class="a">
+<td>Seadra</td> <td>75</td>
+</tr>
+<tr>
+<td>Goldeen</td> <td>225</td>
+</tr>
+<tr class="a">
+<td>Seaking</td> <td>60</td>
+</tr>
+<tr>
+<td>Staryu</td> <td>225</td>
+</tr>
+<tr class="a">
+<td>Starmie</td> <td>60</td>
+</tr>
+<tr>
+<td>Mr. Mime</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Scyther</td> <td>45</td>
+</tr>
+<tr>
+<td>Jynx</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Electabuzz</td> <td>45</td>
+</tr>
+<tr>
+<td>Magmar</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Pinsir</td> <td>45</td>
+</tr>
+<tr>
+<td>Tauros</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Magikarp</td> <td>255</td>
+</tr>
+<tr>
+<td>Gyarados</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Lapras</td> <td>45</td>
+</tr>
+<tr>
+<td>Ditto</td> <td>35</td>
+</tr>
+<tr class="a">
+<td>Eevee</td> <td>45</td>
+</tr>
+<tr>
+<td>Porygon</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Snorlax</td> <td>25</td>
+</tr>
+<tr>
+<td>Articuno</td> <td>3</td>
+</tr>
+<tr class="a">
+<td>Zapdos</td> <td>3</td>
+</tr>
+<tr>
+<td>Moltres</td> <td>3</td>
+</tr>
+<tr class="a">
+<td>Dratini</td> <td>45</td>
+</tr>
+<tr>
+<td>Dragonair</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Dragonite</td> <td>45</td>
+</tr>
+<tr>
+<td>Mewtwo</td> <td>3</td>
+</tr>
+<tr class="a">
+<td>Mew</td> <td>45</td>
+</tr>
+</tbody>
+</table>
+
+<h3><a name="catch_johto">Johto Dex (152-251)</a></h3>
+
+<table id="johto" class="sortable">
+<thead>
+<tr>
+<th>Pokémon</th> <th>Catch Rate</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bayleef</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Quilava</td> <td>45</td>
+</tr>
+<tr>
+<td>Croconaw</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Sentret</td> <td>255</td>
+</tr>
+<tr>
+<td>Furret</td> <td>90</td>
+</tr>
+<tr class="a">
+<td>Hoothoot</td> <td>255</td>
+</tr>
+<tr>
+<td>Noctowl</td> <td>90</td>
+</tr>
+<tr class="a">
+<td>Ledyba</td> <td>255</td>
+</tr>
+<tr>
+<td>Ledian</td> <td>90</td>
+</tr>
+<tr class="a">
+<td>Spinarak</td> <td>255</td>
+</tr>
+<tr>
+<td>Ariados</td> <td>90</td>
+</tr>
+<tr class="a">
+<td>Chinchou</td> <td>190</td>
+</tr>
+<tr>
+<td>Lanturn</td> <td>75</td>
+</tr>
+<tr class="a">
+<td>Pichu</td> <td>190</td>
+</tr>
+<tr>
+<td>Cleffa</td> <td>150</td>
+</tr>
+<tr class="a">
+<td>Igglybuff</td> <td>170</td>
+</tr>
+<tr>
+<td>Togepi</td> <td>190</td>
+</tr>
+<tr class="a">
+<td>Togetic</td> <td>75</td>
+</tr>
+<tr>
+<td>Natu</td> <td>190</td>
+</tr>
+<tr class="a">
+<td>Xatu</td> <td>75</td>
+</tr>
+<tr>
+<td>Mareep</td> <td>235</td>
+</tr>
+<tr class="a">
+<td>Flaaffy</td> <td>120</td>
+</tr>
+<tr>
+<td>Marill</td> <td>190</td>
+</tr>
+<tr class="a">
+<td>Sudowoodo</td> <td>65</td>
+</tr>
+<tr>
+<td>Hoppip</td> <td>255</td>
+</tr>
+<tr class="a">
+<td>Skiploom</td> <td>120</td>
+</tr>
+<tr>
+<td>Jumpluff</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Aipom</td> <td>45</td>
+</tr>
+<tr>
+<td>Sunkern</td> <td>235</td>
+</tr>
+<tr class="a">
+<td>Sunflora</td> <td>120</td>
+</tr>
+<tr>
+<td>Yanma</td> <td>75</td>
+</tr>
+<tr class="a">
+<td>Wooper</td> <td>255</td>
+</tr>
+<tr>
+<td>Quagsire</td> <td>90</td>
+</tr>
+<tr class="a">
+<td>Murkrow</td> <td>30</td>
+</tr>
+<tr>
+<td>Misdreavus</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Unown</td> <td>225</td>
+</tr>
+<tr>
+<td>Wobbuffet</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Girafarig</td> <td>60</td>
+</tr>
+<tr>
+<td>Pineco</td> <td>190</td>
+</tr>
+<tr class="a">
+<td>Forretress</td> <td>75</td>
+</tr>
+<tr>
+<td>Dunsparce</td> <td>190</td>
+</tr>
+<tr class="a">
+<td>Gligar</td> <td>60</td>
+</tr>
+<tr>
+<td>Steelix</td> <td>25</td>
+</tr>
+<tr class="a">
+<td>Snubbull</td> <td>190</td>
+</tr>
+<tr>
+<td>Granbull</td> <td>75</td>
+</tr>
+<tr class="a">
+<td>Qwilfish</td> <td>45</td>
+</tr>
+<tr>
+<td>Shuckle</td> <td>190</td>
+</tr>
+<tr class="a">
+<td>Heracross</td> <td>45</td>
+</tr>
+<tr>
+<td>Sneasel</td> <td>60</td>
+</tr>
+<tr class="a">
+<td>Teddiursa</td> <td>120</td>
+</tr>
+<tr>
+<td>Ursaring</td> <td>60</td>
+</tr>
+<tr class="a">
+<td>Slugma</td> <td>190</td>
+</tr>
+<tr>
+<td>Magcargo</td> <td>75</td>
+</tr>
+<tr class="a">
+<td>Swinub</td> <td>225</td>
+</tr>
+<tr>
+<td>Piloswine</td> <td>75</td>
+</tr>
+<tr class="a">
+<td>Corsola</td> <td>60</td>
+</tr>
+<tr>
+<td>Remoraid</td> <td>190</td>
+</tr>
+<tr class="a">
+<td>Octillery</td> <td>75</td>
+</tr>
+<tr>
+<td>Delibird</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Mantine</td> <td>25</td>
+</tr>
+<tr>
+<td>Skarmory</td> <td>25</td>
+</tr>
+<tr class="a">
+<td>Houndour</td> <td>120</td>
+</tr>
+<tr>
+<td>Houndoom</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Phanpy</td> <td>120</td>
+</tr>
+<tr>
+<td>Donphan</td> <td>60</td>
+</tr>
+<tr class="a">
+<td>Stantler</td> <td>45</td>
+</tr>
+<tr>
+<td>Smeargle</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Tyrogue</td> <td>75</td>
+</tr>
+<tr>
+<td>Hitmontop</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Smoochum</td> <td>45</td>
+</tr>
+<tr>
+<td>Elekid</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Magby</td> <td>45</td>
+</tr>
+<tr>
+<td>Miltank</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Raikou</td> <td>3</td>
+</tr>
+<tr>
+<td>Entei</td> <td>3</td>
+</tr>
+<tr class="a">
+<td>Suicune</td> <td>3</td>
+</tr>
+<tr>
+<td>Larvitar</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Pupitar</td> <td>45</td>
+</tr>
+<tr>
+<td>Tyranitar</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Lugia</td> <td>3</td>
+</tr>
+<tr>
+<td>Ho-Oh</td> <td>3</td>
+</tr>
+</tbody>
+</table>
+
+<h3><a name="catch_hoenn">Hoenn Dex (252-386)</a></h3>
+
+<table id="hoenn" class="sortable">
+<thead>
+<tr>
+<th>Pokémon</th> <th>Catch Rate</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Poochyena</td> <td>255</td>
+</tr>
+<tr class="a">
+<td>Mightyena</td> <td>127</td>
+</tr>
+<tr>
+<td>Zigzagoon</td> <td>255</td>
+</tr>
+<tr class="a">
+<td>Linoone</td> <td>90</td>
+</tr>
+<tr>
+<td>Wurmple</td> <td>255</td>
+</tr>
+<tr class="a">
+<td>Silcoon</td> <td>120</td>
+</tr>
+<tr>
+<td>Beautifly</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Cascoon</td> <td>120</td>
+</tr>
+<tr>
+<td>Dustox</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Lotad</td> <td>255</td>
+</tr>
+<tr>
+<td>Lombre</td> <td>120</td>
+</tr>
+<tr class="a">
+<td>Seedot</td> <td>255</td>
+</tr>
+<tr>
+<td>Nuzleaf</td> <td>120</td>
+</tr>
+<tr class="a">
+<td>Taillow</td> <td>200</td>
+</tr>
+<tr>
+<td>Swellow</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Wingull</td> <td>190</td>
+</tr>
+<tr>
+<td>Pelipper</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Ralts</td> <td>235</td>
+</tr>
+<tr>
+<td>Kirlia</td> <td>120</td>
+</tr>
+<tr class="a">
+<td>Surskit</td> <td>200</td>
+</tr>
+<tr>
+<td>Masquerain</td> <td>75</td>
+</tr>
+<tr class="a">
+<td>Shroomish</td> <td>255</td>
+</tr>
+<tr>
+<td>Breloom</td> <td>90</td>
+</tr>
+<tr class="a">
+<td>Slakoth</td> <td>255</td>
+</tr>
+<tr>
+<td>Vigoroth</td> <td>120</td>
+</tr>
+<tr class="a">
+<td>Nincada</td> <td>255</td>
+</tr>
+<tr>
+<td>Whismur</td> <td>190</td>
+</tr>
+<tr class="a">
+<td>Loudred</td> <td>120</td>
+</tr>
+<tr>
+<td>Makuhita</td> <td>180</td>
+</tr>
+<tr class="a">
+<td>Hariyama</td> <td>200</td>
+</tr>
+<tr>
+<td>Azurill</td> <td>150</td>
+</tr>
+<tr class="a">
+<td>Nosepass</td> <td>255</td>
+</tr>
+<tr>
+<td>Skitty</td> <td>255</td>
+</tr>
+<tr class="a">
+<td>Delcatty</td> <td>60</td>
+</tr>
+<tr>
+<td>Sableye</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Mawile</td> <td>45</td>
+</tr>
+<tr>
+<td>Aron</td> <td>180</td>
+</tr>
+<tr class="a">
+<td>Lairon</td> <td>90</td>
+</tr>
+<tr>
+<td>Meditite</td> <td>180</td>
+</tr>
+<tr class="a">
+<td>Medicham</td> <td>90</td>
+</tr>
+<tr>
+<td>Electrike</td> <td>120</td>
+</tr>
+<tr class="a">
+<td>Manectric</td> <td>45</td>
+</tr>
+<tr>
+<td>Plusle</td> <td>200</td>
+</tr>
+<tr class="a">
+<td>Minun</td> <td>200</td>
+</tr>
+<tr>
+<td>Volbeat</td> <td>150</td>
+</tr>
+<tr class="a">
+<td>Illumise</td> <td>150</td>
+</tr>
+<tr>
+<td>Roselia</td> <td>150</td>
+</tr>
+<tr class="a">
+<td>Gulpin</td> <td>225</td>
+</tr>
+<tr>
+<td>Carvanha</td> <td>225</td>
+</tr>
+<tr class="a">
+<td>Sharpedo</td> <td>60</td>
+</tr>
+Freeze : 2dtnbsp;45Mr. Mimetdtdtr class=<tr>
+<td>Wailmer</td> <td>125</td>
+</tr>
+<tr class="a">
+<td>Wailord</td> <td>60</td>
+</tr>
+<tr>
+<td>Numel</td> <td>255</td>
+</tr>
+<tr class="a">
+<td>Camerupt</td> <td>150</td>
+</tr>
+<tr>
+<td>Torkoal</td> <td>90</td>
+</tr>
+<tr class="a">
+<td>Spoink</td> <td>255</td>
+</tr>
+<tr>
+<td>Spinda</td> <td>255</td>
+</tr>
+<tr class="a">
+<td>Trapinch</td> <td>255</td>
+</tr>
+<tr>
+<td>Vibrava</td> <td>120</td>
+</tr>
+<tr class="a">
+<td>Cacnea</td> <td>190</td>
+</tr>
+<tr>
+<td>Cacturne</td> <td>60</td>
+</tr>
+<tr class="a">
+<td>Swablu</td> <td>255</td>
+</tr>
+<tr>
+<td>Altaria</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Zangoose</td> <td>90</td>
+</tr>
+<tr>
+<td>Seviper</td> <td>90</td>
+</tr>
+<tr class="a">
+<td>Lunatone</td> <td>45</td>
+</tr>
+<tr>
+<td>Solrock</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Barboach</td> <td>190</td>
+</tr>
+<tr>
+<td>Whiscash</td> <td>75</td>
+</tr>
+<tr class="a">
+<td>Corphish</td> <td>205</td>
+</tr>
+<tr>
+<td>Crawdaunt</td> <td>155</td>
+</tr>
+<tr class="a">
+<td>Baltoy</td> <td>255</td>
+</tr>
+<tr>
+<td>Feebas</td> <td>255</td>
+</tr>
+<tr class="a">
+<td>Castform</td> <td>45</td>
+</tr>
+<tr>
+<td>Kecleon</td> <td>200</td>
+</tr>
+<tr class="a">
+<td>Shuppet</td> <td>225</td>
+</tr>
+<tr>
+<td>Banette</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Duskull</td> <td>190</td>
+</tr>
+<tr>
+<td>Dusclops</td> <td>90</td>
+</tr>
+<tr class="a">
+<td>Tropius</td> <td>200</td>
+</tr>
+<tr>
+<td>Chimecho</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Absol</td> <td>30</td>
+</tr>
+<tr>
+<td>Wynaut</td> <td>125</td>
+</tr>
+<tr class="a">
+<td>Snorunt</td> <td>190</td>
+</tr>
+<tr>
+<td>Spheal</td> <td>255</td>
+</tr>
+<tr class="a">
+<td>Sealeo</td> <td>120</td>
+</tr>
+<tr>
+<td>Clamperl</td> <td>255</td>
+</tr>
+<tr class="a">
+<td>Relicanth</td> <td>25</td>
+</tr>
+<tr>
+<td>Luvdisc</td> <td>225</td>
+</tr>
+<tr class="a">
+<td>Bagon</td> <td>45</td>
+</tr>
+<tr>
+<td>Shelgon</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Salamence</td> <td>45</td>
+</tr>
+<tr>
+<td>Beldum</td> <td>3</td>
+</tr>
+<tr class="a">
+<td>Metang</td> <td>3</td>
+</tr>
+<tr>
+<td>Metagross</td> <td>3</td>
+</tr>
+<tr class="a">
+<td>Regirock</td> <td>3</td>
+</tr>
+<tr>
+<td>Regice</td> <td>3</td>
+</tr>
+<tr class="a">
+<td>Registeel</td> <td>3</td>
+</tr>
+<tr>
+<td>Latias</td> <td>3</td>
+</tr>
+<tr class="a">
+<td>Latios</td> <td>3</td>
+</tr>
+<tr>
+<td>Kyogre</td> <td>5</td>
+</tr>
+<tr class="a">
+<td>Groudon</td> <td>5</td>
+</tr>
+<tr>
+<td>Rayquaza</td> <td>3</td>
+</tr>
+<tr class="a">
+<td>Deoxys</td> <td>3</td>
+</tr>
+</tbody>
+</table>
+
+<h3><a name="catch_sinnoh">Sinnoh Dex (387-493)</a></h3>
+
+<table id="sinnoh" class="sortable">
+<thead>
+<tr>
+<th>Pokémon</th> <th>Catch Rate</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Starly</td> <td>255</td>
+</tr>
+<tr class="a">
+<td>Staravia</td> <td>120</td>
+</tr>
+<tr>
+<td>Bidoof</td> <td>255</td>
+</tr>
+<tr class="a">
+<td>Bibarel</td> <td>127</td>
+</tr>
+<tr>
+<td>Kricketot</td> <td>255</td>
+</tr>
+<tr class="a">
+<td>Kricketune</td> <td>45</td>
+</tr>
+<tr>
+<td>Shinx</td> <td>235</td>
+</tr>
+<tr class="a">
+<td>Luxio</td> <td>120</td>
+</tr>
+<tr>
+<td>Budew</td> <td>255</td>
+</tr>
+<tr class="a">
+<td>Burmy</td> <td>120</td>
+</tr>
+<tr>
+<td>Combee</td> <td>120</td>
+</tr>
+<tr class="a">
+<td>Pachirisu</td> <td>200</td>
+</tr>
+<tr>
+<td>Buizel</td> <td>190</td>
+</tr>
+<tr class="a">
+<td>Floatzel</td> <td>75</td>
+</tr>
+<tr>
+<td>Cherubi</td> <td>190</td>
+</tr>
+<tr class="a">
+<td>Shellos</td> <td>190</td>
+</tr>
+<tr>
+<td>Gastrodon</td> <td>75</td>
+</tr>
+<tr class="a">
+<td>Drifloon</td> <td>125</td>
+</tr>
+<tr>
+<td>Buneary</td> <td>190</td>
+</tr>
+<tr class="a">
+<td>Glameow</td> <td>190</td>
+</tr>
+<tr>
+<td>Purugly</td> <td>75</td>
+</tr>
+<tr class="a">
+<td>Chingling</td> <td>120</td>
+</tr>
+<tr>
+<td>Stunky</td> <td>225</td>
+</tr>
+<tr class="a">
+<td>Skuntank</td> <td>60</td>
+</tr>
+<tr>
+<td>Bronzor</td> <td>255</td>
+</tr>
+<tr class="a">
+<td>Bronzong</td> <td>90</td>
+</tr>
+<tr>
+<td>Bonsly</td> <td>255</td>
+</tr>
+<tr class="a">
+<td>Mime Jr.</td> <td>145</td>
+</tr>
+<tr>
+<td>Happiny</td> <td>130</td>
+</tr>
+<tr class="a">
+<td>Chatot</td> <td>30</td>
+</tr>
+<tr>
+<td>Spiritomb</td> <td>100</td>
+</tr>
+<tr class="a">
+<td>Gible</td> <td>45</td>
+</tr>
+<tr>
+<td>Gabite</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Munchlax</td> <td>50</td>
+</tr>
+<tr>
+<td>Riolu</td> <td>75</td>
+</tr>
+<tr class="a">
+<td>Hippopotas</td> <td>140</td>
+</tr>
+<tr>
+<td>Hippowdon</td> <td>60</td>
+</tr>
+<tr class="a">
+<td>Skorupi</td> <td>120</td>
+</tr>
+<tr>
+<td>Drapion</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Croagunk</td> <td>140</td>
+</tr>
+<tr>
+<td>Toxicroak</td> <td>75</td>
+</tr>
+<tr class="a">
+<td>Carnivine</td> <td>200</td>
+</tr>
+<tr>
+<td>Finneon</td> <td>190</td>
+</tr>
+<tr class="a">
+<td>Lumineon</td> <td>75</td>
+</tr>
+<tr>
+<td>Mantyke</td> <td>25</td>
+</tr>
+<tr class="a">
+<td>Snover</td> <td>120</td>
+</tr>
+<tr>
+<td>Abomasnow</td> <td>60</td>
+</tr>
+<tr class="a">
+<td>Rotom</td> <td>45</td>
+</tr>
+<tr>
+<td>Uxie</td> <td>3</td>
+</tr>
+<tr class="a">
+<td>Mesprit</td> <td>3</td>
+</tr>
+<tr>
+<td>Azelf</td> <td>3</td>
+</tr>
+<tr class="a">
+<td>Dialga</td> <td>30</td>
+</tr>
+<tr>
+<td>Palkia</td> <td>30</td>
+</tr>
+<tr class="a">
+<td>Heatran</td> <td>3</td>
+</tr>
+<tr>
+<td>Regigigas</td> <td>3</td>
+</tr>
+<tr class="a">
+<td>Giratina</td> <td>3</td>
+</tr>
+<tr>
+<td>Cresselia</td> <td>3</td>
+</tr>
+<tr class="a">
+<td>Darkrai</td> <td>3</td>
+</tr>
+<tr>
+<td>Shaymin</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Arceus</td> <td>3</td>
+</tr>
+</tbody>
+</table>
+
+<h3><a name="catch_misc">Miscellaneous CatchRates</a></h3>
+
+<p>This list is for Pokémon only caught through Ditto using Transform.</p>
+
+<table id="misc" class="sortable">
+<thead>
+<tr>
+<th>Pokémon</th> <th>Catch Rate</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bulbasaur</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Ivysaur</td> <td>45</td>
+</tr>
+<tr>
+<td>Venusaur</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Charmander</td> <td>45</td>
+</tr>
+<tr>
+<td>Charmeleon</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Charizard</td> <td>45</td>
+</tr>
+<tr>
+<td>Squirtle</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Wartortle</td> <td>45</td>
+</tr>
+<tr>
+<td>Blastoise</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Pidgeot</td> <td>45</td>
+</tr>
+<tr>
+<td>Raichu</td> <td>75</td>
+</tr>
+<tr class="a">
+<td>Nidoqueen</td> <td>45</td>
+</tr>
+<tr>
+<td>Nidoking</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Clefable</td> <td>25</td>
+</tr>
+<tr>
+<td>Ninetales</td> <td>75</td>
+</tr>
+<tr class="a">
+<td>Wigglytuff</td> <td>50</td>
+</tr>
+<tr>
+<td>Vileplume</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Arcanine</td> <td>75</td>
+</tr>
+<tr>
+<td>Alakazam</td> <td>50</td>
+</tr>
+<tr class="a">
+<td>Machamp</td> <td>45</td>
+</tr>
+<tr>
+<td>Victreebel</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Golem</td> <td>45</td>
+</tr>
+<tr>
+<td>Cloyster</td> <td>60</td>
+</tr>
+<tr class="a">
+<td>Vaporeon</td> <td>45</td>
+</tr>
+<tr>
+<td>Jolteon</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Flareon</td> <td>45</td>
+</tr>
+<tr>
+<td>Omanyte</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Omastar</td> <td>45</td>
+</tr>
+<tr>
+<td>Kabuto</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Kabutops</td> <td>45</td>
+</tr>
+<tr>
+<td>Aerodactyl</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Chikorita</td> <td>45</td>
+</tr>
+<tr>
+<td>Meganium</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Cyndaquil</td> <td>45</td>
+</tr>
+<tr>
+<td>Typhlosion</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Totodile</td> <td>45</td>
+</tr>
+<tr>
+<td>Feraligatr</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Crobat</td> <td>90</td>
+</tr>
+<tr>
+<td>Ampharos</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Azumarill</td> <td>150</td>
+</tr>
+<tr>
+<td>Politoed</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Espeon</td> <td>45</td>
+</tr>
+<tr>
+<td>Umbreon</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Slowking</td> <td>70</td>
+</tr>
+<tr>
+<td>Scizor</td> <td>25</td>
+</tr>
+<tr class="a">
+<td>Kingdra</td> <td>45</td>
+</tr>
+<tr>
+<td>Porygon2</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Blissey</td> <td>30</td>
+</tr>
+<tr>
+<td>Celebi</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Treecko</td> <td>45</td>
+</tr>
+<tr>
+<td>Grovyle</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Sceptile</td> <td>45</td>
+</tr>
+<tr>
+<td>Torchic</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Combusken</td> <td>45</td>
+</tr>
+<tr>
+<td>Blaziken</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Mudkip</td> <td>45</td>
+</tr>
+<tr>
+<td>Marshtomp</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Swampert</td> <td>45</td>
+</tr>
+<tr>
+<td>Ludicolo</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Shiftry</td> <td>45</td>
+</tr>
+<tr>
+<td>Gardevoir</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Slaking</td> <td>45</td>
+</tr>
+<tr>
+<td>Ninjask</td> <td>120</td>
+</tr>
+<tr class="a">
+<td>Shedinja</td> <td>45</td>
+</tr>
+<tr>
+<td>Exploud</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Aggron</td> <td>45</td>
+</tr>
+<tr>
+<td>Swalot</td> <td>75</td>
+</tr>
+<tr class="a">
+<td>Grumpig</td> <td>60</td>
+</tr>
+<tr>
+<td>Flygon</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Claydol</td> <td>90</td>
+</tr>
+<tr>
+<td>Lileep</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Cradily</td> <td>45</td>
+</tr>
+<tr>
+<td>Anorith</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Armaldo</td> <td>45</td>
+</tr>
+<tr>
+<td>Milotic</td> <td>60</td>
+</tr>
+<tr class="a">
+<td>Glalie</td> <td>75</td>
+</tr>
+<tr>
+<td>Walrein</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Huntail</td> <td>60</td>
+</tr>
+<tr>
+<td>Gorebyss</td> <td>60</td>
+</tr>
+<tr class="a">
+<td>Jirachi</td> <td>3</td>
+</tr>
+<tr>
+<td>Turtwig</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Grotle</td> <td>45</td>
+</tr>
+<tr>
+<td>Torterra</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Chimchar</td> <td>45</td>
+</tr>
+<tr>
+<td>Monferno</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Infernape</td> <td>45</td>
+</tr>
+<tr>
+<td>Piplup</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Prinplup</td> <td>45</td>
+</tr>
+<tr>
+<td>Empoleon</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Staraptor</td> <td>45</td>
+</tr>
+<tr>
+<td>Luxray</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Roserade</td> <td>75</td>
+</tr>
+<tr>
+<td>Cranidos</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Rampardos</td> <td>45</td>
+</tr>
+<tr>
+<td>Shieldon</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Bastiodon</td> <td>45</td>
+</tr>
+<tr>
+<td>Wormadam</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Mothim</td> <td>45</td>
+</tr>
+<tr>
+<td>Vespiquen</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Cherrim</td> <td>75</td>
+</tr>
+<tr>
+<td>Drifblim</td> <td>60</td>
+</tr>
+<tr class="a">
+<td>Lopunny</td> <td>60</td>
+</tr>
+<tr>
+<td>Mismagius</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Honchkrow</td> <td>30</td>
+</tr>
+<tr>
+<td>Garchomp</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Lucario</td> <td>45</td>
+</tr>
+<tr>
+<td>Weavile</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Magnezone</td> <td>30</td>
+</tr>
+<tr>
+<td>Lickilicky</td> <td>30</td>
+</tr>
+<tr class="a">
+<td>Rhyperior</td> <td>30</td>
+</tr>
+<tr>
+<td>Tangrowth</td> <td>30</td>
+</tr>
+<tr class="a">
+<td>Electivire</td> <td>30</td>
+</tr>
+<tr>
+<td>Magmortar</td> <td>30</td>
+</tr>
+<tr class="a">
+<td>Togekiss</td> <td>30</td>
+</tr>
+<tr>
+<td>Yanmega</td> <td>30</td>
+</tr>
+<tr class="a">
+<td>Leafeon</td> <td>45</td>
+</tr>
+<tr>
+<td>Glaceon</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Gliscor</td> <td>30</td>
+</tr>
+<tr>
+<td>Mamoswine</td> <td>50</td>
+</tr>
+<tr class="a">
+<td>Porygon-Z</td> <td>30</td>
+</tr>
+<tr>
+<td>Gallade</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Probopass</td> <td>60</td>
+</tr>
+<tr>
+<td>Dusknoir</td> <td>45</td>
+</tr>
+<tr class="a">
+<td>Froslass</td> <td>75</td>
+</tr>
+<tr>
+<td>Phione</td> <td>30</td>
+</tr>
+<tr class="a">
+<td>Manaphy</td> <td>3</td>
+</tr>
+</tbody>
+</table>

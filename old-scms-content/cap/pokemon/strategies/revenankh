@@ -1,0 +1,112 @@
+[title]
+Revenankh
+[head]
+<link rel="stylesheet" type="text/css" href="/media/dex/dex.css" />
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_template.js"></script>
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_database.js"></script>
+[header]
+[page]
+<script language="JavaScript">
+document.write(strategyTabs("Revenankh"));
+document.write(topHeaderInfo(Revenankh()));
+</script>
+
+<h2>Overview</h2>
+
+<h4>DPP</h4>
+
+<p>Revenankh is a premier special wall and the best spinblocker in the metagame with his fantastic 94 / 90 / 120 defenses and neutrality to Dark-type attacks, the bane of many other spinblockers. He can take a beating from nearly any special attacker and set up on them or return fire with his unresisted STABs and base 110 Attack stat. Shed Skin with Rest as a reliable form of healing, and a respectable movepool, including many great supporting and offensive options, round out Revenankh as a durable, consistent, and powerful Pokemon.</p>
+
+<p>This mummy has his fair share of issues, though, as he's deathly afraid of being Tricked a Choice item, hates being Taunted, and still has trouble with the most powerful special and physical attackers in the metagame. Not a lot outside of these things can really faze this ghost, however, and virtually every team has to adjust in order to handle him by using one of his counters. Revenankh is a menacing Pokemon to face down, regardless of his few and easily handled problems, and should be considered for a spot on offensive and defensive teams alike.</p>
+
+<script language="JavaScript"> 
+var set = new CAPSet(); 
+set.name = "DPP Bulk Up"; 
+set.move[1] = "Bulk Up"; 
+set.move[2] = ["Shadow Sneak", "Payback"]; 
+set.move[3] = "Hammer Arm"; 
+set.move[4] = "Rest"; 
+set.item = "Leftovers"; 
+set.ability = "Shed Skin"; 
+set.nature = "Careful"; 
+set.evs.HP = 252; 
+set.evs.Def = 4; 
+set.evs.SpD = 252; 
+document.write(composeSet(set)); 
+</script> 
+
+<p>Revenankh can easily come in on his many resistances and immunities. Taking advantage of the switches he causes, Bulk Up makes him all but impregnable to physical attacks, as well as boosting his already decent Attack stat to make him a greater threat. As such, it is recommended that you invest heavily in his Special Defense. Rest allows him to switch into Toxic Spikes or Will-O-Wisp with impunity and remove the status with his ability, Shed Skin. Unlike most Rest users, Sleep Talk is not necessary on this set, as there is a 51% chance of Revenankh waking up early with Shed Skin.</p>
+
+<p>As for your offensive moves, Hammer Arm is a strong and reliable Fighting-type move, allowing him to put the hurt on many Pokemon who are neutral to it after a Bulk Up or two. Because of the Speed drop, Shadow Sneak is recommended in tandem with Hammer Arm. Shadow Sneak has priority, negating the Speed drop somewhat, and after a couple of Bulk Ups, it will easily OHKO Azelf and Gengar and severely dent the Rotom formes and other Revenankh. Shadow Punch is a stronger option if you don't care about priority, but you might find that Revenankh can be too easily revenge killed by powerful sweepers, such as Gengar and Azelf. However, you can also use Mach Punch and Shadow Punch if you would like to get the jump on Pokemon like Weavile and Choice Scarf Tyranitar. Sadly, Mach Punch and Shadow Sneak are illegal together. Payback is also a useful option that is stronger than STAB Shadow Punch if Revenankh moves last, which is almost guaranteed with Hammer Arm, and hits most of the same targets. If you're not sold on Hammer Arm's accuracy and Speed drops, use Brick Break instead. This also gets rid of pesky screens in your way.</p>
+
+<p>This set functions very well on his own, and requires very little team support. Revenankh can take hits, set up, and instantly heal himself. Normally, the only things that can stop a Revenankh sweep are Trick users and phazers. Having a designated Trick absorber, such as Heatran or Flygon, will help against the first group. Roar users are a bit varied, but they are commonly weak to either Fire or Grass, such as Skarmory, Swampert, and Hippowdon. Celebi is a handy Pokemon to use against these. Generally, the only offensive threats to this set are powerful special attackers, particularly Togekiss and Zapdos. To that end, Blissey makes a good choice for a teammate, as she can cover the majority of the Pokemon that give Revenankh a hard time. The only physical attackers who can normally handle Revenankh without being setup bait are Taunt Gyarados and Zen Headbutt Metagross. Celebi will be of much use against these Pokemon as well.</p>
+
+<p>However, Revenankh is not a Pokemon one would normally build a team around. Revenankh is often placed on teams that require his services to support the rest of the team, as he can shut down a surprisingly high number of Pokemon. Special attackers work very well with Revenankh, as Revenankh is a virtually infinite switch-in to Blissey and Snorlax. He makes a good partner to the likes of Porygon-Z. Another bonus is that Revenankh is generally very good at switching into Scizor, as he is doubly resistant to Bug- and immune to Fighting-type moves. As he takes neutral damage from Steel-type attacks, consider pairing Revenankh with a Pokemon that can take advantage of Choice Band Bullet Punch, such as Empoleon or Magnezone. Other common Pokemon stopped cold by Revenankh include Machamp, Heracross, and Bronzong, so if your team needs an answer to any of these, Revenankh is an excellent choice.</p>
+
+<p>Revenankh also functions as one of the best spinblockers available. His solid defenses and ability to seriously hurt Starmie while setting up on most other Rapid Spin users is what sets him apart from other Ghost-types. If you intend to keep Skarmory's or Roserade's entry hazards on the opponent's side, Revenankh is a safe bet.</p>
+
+<script language="JavaScript"> 
+var set = new CAPSet(); 
+set.name = "DPP Physical Attacker"; 
+set.move[1] = "Hammer Arm"; 
+set.move[2] = ["Shadow Sneak", "Payback"]; 
+set.move[3] = ["Ice Punch", "Power Whip"]; 
+set.move[4] = ["Rest", "Bulk Up"]; 
+set.item = ["Life Orb", "Leftovers"]; 
+set.ability = "Shed Skin"; 
+set.nature = "Adamant"; 
+set.evs.HP = 252; 
+set.evs.Atk = 252; 
+set.evs.Spe = 4; 
+document.write(composeSet(set)); 
+</script> 
+
+<p>This set has an advantage over the Bulk Up set in the extra moveslot, giving much better coverage and making him more of an immediate threat. Hammer Arm returns as the reliable STAB attack. Shadow Sneak and Shadow Claw are both viable and the choice is largely one of preference. The final attack can either be Ice Punch to deal with Dragon-types and Flying-types, such as Dragonite, Togekiss, and Zapdos, or Power Whip to take down bulky Water- and Ground-types, such as Vaporeon, Hippowdon, and Swampert.</p>
+
+<p>Rest is the main option in the last slot to allow Revenankh to heal off the recoil damage of Life Orb, but Bulk Up is also viable if you wish to set up on some threats. Leftovers is also a viable option if you wish to trade some power for bulkiness, and is recommended if you aren't using Rest.</p>
+
+<p>This set poses much less of a long-term threat to the opponent's team; in exchange, it uses the surprise value gained by running three attacks to function as a lure. Normally, this set is used if you need to remove one of your opponent's Pokemon from the battle. For example, if you intend to sweep with an Agility Metagross, this set can lure in phazers such as Swampert and Hippowdon and do major damage with Power Whip. If Flying-types are more of a threat to your chosen late-game sweeper, Ice Punch can take care of them. For example, many battlers rely on Zapdos or Gliscor to handle Lucario. Neither of those Pokemon normally hesitates to switch into Revenankh (provided Gliscor has Taunt). If using Ice Punch, Stealth Rock support is absolutely vital. Gliscor has about a 50% chance of surviving a Life Orb Ice Punch before Stealth Rock. A +1 Ice Punch will fail to KO physically defensive Zapdos, even after Stealth Rock. You will need to force Zapdos to switch into Stealth Rock more than once to finish him off, but be sure that you don't Ice Punch while he Roosts. Offensive Zapdos will be OHKOed most of the time by a Life Orb Ice Punch after Stealth Rock. Another thing to keep in mind is that this set works extremely well on paralysis-based teams, so Pokemon such as Celebi and Blissey (with Thunder Wave) and Jirachi (with Body Slam) are fantastic partners.</p>
+
+<h2>Team Options</h2>
+
+<h4>DPP</h4>
+
+<p>Bulk Up Revenankh normally finds his place on stall or balanced teams. He needs very little support himself, and serves as a highly effective Rapid Spin blocker. Wall Revenankh is all about supporting his team, so he functions well almost anywhere. The other sets should be used on offensively-inclined teams.</p>
+
+<p>In general, the Pokemon who can stop a Revenankh sweep are those who can hit him with powerful special attacks, or those that can survive his hits and use Trick or a phazing move. The first group includes Pokemon such as Togekiss, Calm Mind Jirachi, and Zapdos. Blissey will be able to cover these, especially with Toxic or Thunder Wave. Stealth Rock also helps quite a bit when using Revenankh, as many of his common switch-ins are Flying-types. Trick users, such as Rotom-A or Jirachi, will often hold their item once they've seen Revenankh until he has begun setting up. Tyranitar or Scizor can use a powerful Pursuit to remove many Trick users. Phazers are often bulky, and therefore difficult to remove, but a Magnezone with Hidden Power Grass can trap Skarmory and surprise Swampert.</p>
+
+<p>Defensively, Revenankh is very fortunate in that none of his three weaknesses are common. Flying-, Ghost-, and Psychic-type moves are very easy to handle on any given team. Tyranitar resists all three, and Pursuit is very helpful in taking out some of Revenankh's checks like Celebi, Rotom-A, and Gengar. Magnezone resists all three as well, and is very helpful in taking out Roar or Whirlwind users, as well as Flying-types in general. Heatran and Empoleon are examples of Pokemon who resist Ghost, Psychic, and Flying and will be able to take advantage of Revenankh's ability to force Blissey out. Steel- and Dark-type Pokemon in general resist most moves that worry Revenankh, so those are the Pokemon who should be kept in mind. Umbreon gets special mention because if he can successfully Baton Pass a Mean Look to Revenankh, the game is usually over. Until then, Revenankh is great at taking the U-turns that Umbreon loathes so deeply.</p>
+
+<h2>Other Options</h2> 
+
+<h4>DPP</h4>
+
+<p>Like many Fighting-types, Revenankh has a wide selection of STAB moves to choose from, but Hammer Arm is almost always chosen. Probably the most useful alternative is Mach Punch, which sacrifices power for the ability to hit before your opponent. Force Palm comes with a 30% paralysis chance, which can be highly crippling to many of Revenankh's usual counters and a great boon to paralysis-themed teams, but it has a low Base Power and is illegal with Shadow Sneak. Substitute and Focus Punch can be used if you want an alternate way to protect yourself from status as well as a stronger Fighting attack, but it saps Revenankh of the HP he so dearly relies on; Focus Punch is even viable on its own, but will require perfect prediction to use effectively. Drain Punch can be used to restore Revenankh's health, however, it isn't very powerful and has low PP, and therefore shouldn't be used outside of a Bulk Up + 3 Attacks set.</p>
+
+<p>Ice Punch and Mach Punch can be used on the Bulk Up set to hit a lot of Revenankh's counters. Sleep Talk can be used on any set that includes Rest, but with Shed Skin, Revenankh has a 51% chance of waking up early, so it may not see much use. Note that Shed Skin cures status at the end of a turn, so there is no chance of using Sleep Talk and wasting a turn due to waking up. Taunt and Knock Off are great utility moves which can be used to stop enemy tanks, stat-uppers, and Choice users. Toxic will catch many of Revenankh's counters off-guard, such as Zapdos and Togekiss, but Revenankh almost always has better things to be doing. Likewise, Mean Look would be a good option if Revenankh had space for it, but Revenankh is extremely hard-pressed for moveslots as it is. One could try a gimmick Nasty Plot set with Vacuum Wave and Shadow Ball, but don't expect to have any success with it. Revenankh's secondary ability, Mold Breaker, has virtually no practical use.</p>
+
+<p>When using Bulk Up, Special Defense and HP should be given priority. Careful, 252 HP and 216 Special Defense EVs gives Revenankh a free Special Defense point and protects you against many common threats. For example, that spread will not be 2HKOed by a Choice Scarf Heatran's Fire Blast or OHKOed by either Timid Life Orb Gengar's Shadow Ball or Empoleon's Surf after Torrent and Petaya Berry. However, that spread is not fixed; any Special Defense between 136 and 252 is fine. Generally, the numbers to hit are 136, 176, or 216 for free stat points. Max Attack can also be used to OHKO Gengar and Azelf with Shadow Sneak after a Bulk Up. On any defensive set without Bulk Up, more EVs could be invested into Defense. Maximum HP should not be tampered with as it reaches optimal Leftovers recovery. Offensive sets should often just max HP and Attack.</p>
+
+<p>Revenankh now has access to Trick, making a Choice set viable.</p>
+
+<h2>CAP Metagame</h2>
+
+<h4>DPP</h4>
+
+<p>The CAP metagame, unfortunately, is not as kind to Revenankh as standard OU is. The metagame is dominated by two of Revenankh's very best counters: Fidgit and Arghonaut. Fidgit takes little damage from all of Revenankh's attacks and can Encore Bulk Up, then set up on him or switch out to let another Pokemon do so. Arghonaut takes very little damage from any of Revenankh's moves, and has no reason to be afraid of Bulk Up thanks to Unaware. All of this leaves Revenankh with only the potential to lure and KO these two with Ice Punch or Power Whip, but even then, it's not easy to do so. Mold Breaker sounds like it has potential against Arghonaut, but it is not worth it; Shed Skin is far better against every other opponent. Kitsunoh and Cyclohm can also be a pain for Revenankh. ShadowStrike's high chance of a Defense drop means that Kitsunoh will most often beat Revenankh one-on-one. Cyclohm has solid Defense, and between Life Orb Thunderbolt and Draco Meteor, Revenankh will take around 90%. Colossoil will rarely be seen switching in to Revenankh, due to his powerful Fighting-type moves, but with Life Orb, Revenankh will take a hefty chunk of damage from one of his Earthquakes, making him difficult to switch in.</p>
+
+<p>The other CAP Pokemon are not as threatening; however, they aren't as common, either. Syclant can't do more than 70% to Revenankh, even with a +2 Ice Beam. Either STAB priority move means that Revenankh will most likely come out on top. Leech Seed and other bulky Pyroak will usually end up being setup bait for Bulk Up variants. Stratagem can't hit Revenankh nearly hard enough, while Revenankh easily hits his low Defense with strong Fighting-type moves, or better yet, Mach Punch.</p>
+
+<p>However, not everything is bad news for Revenankh. In a metagame riddled with Spikes, a spinblocker who has excellent defenses and isn't Dark-weak is extremely welcome. If played correctly, even Fidgit can have a hard time using Rapid Spin. Further, Revenankh makes a great partner to the big special attacking threats of CAP. Stratagem and Cyclohm in particular are highly appreciative of Revenankh's ability to switch into special walls.</p>
+
+<p>The only real difference to any of Revenankh's movesets in the CAP metagame is the increased viability of Force Palm as a Fighting-type STAB move. It has low power and is generally an inferior choice, but it has the advantage of terrifying Fidgit and Krilowatt with the 30% paralysis chance. On the other hand, Cyclohm doesn't care about Force Palm, but Cyclohm rarely cares about Revenankh's attacks—other than the occasional Ice Punch—until he's got a couple of Bulk Ups anyway.</p>
+
+<h2>Counters</h2> 
+
+<h4>DPP</h4>
+
+<p>Because Revenankh is constantly boosting his physical Defense with Bulk Up, some of his best checks and counters are special attackers. Togekiss is the best Revenankh check as it packs STAB Air Slash to beat him down, and it doesn't have to worry as much about 2HKOing Revenankh due to the flinch rate, though it takes neutral damage from Hammer Arm and double damage while Roosting. Zapdos with Metal Sound will threaten a 2HKO on Revenankh with Thunderbolt after a Special Defense drop. Zapdos can also use Hidden Power Flying, although he will need a significant investment in Special Attack to ensure a 2HKO on even 252 HP / 96 SpD Revenankh. Calm Mind Jirachi with Psychic can switch in on Revenankh with virtual impunity and threaten to set up and sweep. Psychic Celebi, Slowbro, and Cresselia are similar; however, they have to be more wary, as unlike Jirachi, Revenankh hits them super effectively with his Ghost STAB. Choice Specs Heatran can switch into any move that isn't a Fighting-type attack (or Substitute) and can inflict upwards of 75% with Overheat.</p>
+
+<p>Some physical attackers can hit hard enough to bypass Revenankh's Defense boosts and force him out. Choice Band Staraptor is a serious threat to Revenankh, as he is immune to Shadow Sneak and will OHKO with Brave Bird even after a Bulk Up. Even Mach Punch isn't a problem thanks to Intimidate. Choice Band Metagross will easily 2HKO Revenankh with Zen Headbutt after a Bulk Up, and without one it will OHKO. Bulky Gyarados is one of the best switch-ins to Revenankh, as he has Intimidate to neutralize an Attack boost and has Taunt to stop it from setting up further.</p>
+
+<p>Some Pokemon can hinder or prevent Revenankh from sweeping through methods other than brute force. Any faster user of Trick can force a Choice item onto Revenankh anywhere in the middle of his setup, severely crippling his ability to sweep. Skarmory can come in and Whirlwind him away, or deal heavy damage with Brave Bird. He also has the ability to Taunt, if need be, and if he doesn't switch in on a Bulk Up, Brave Bird will 2HKO. Bulky Suicune can also set up on Revenankh and Roar him out, or exploit his unboosted Special Defense with powerful Surfs. Gliscor takes very little damage from the standard set (watch out for Ice Punch), and can Taunt Revenankh before wearing him down with repeated Earthquakes. Defensive Celebi doesn't mind Shadow Sneak too much and can force Revenankh out with Perish Song.</p>

@@ -1,0 +1,330 @@
+[title]
+Stat Ratings
+[page]
+<div class="author">Written by <a href="/forums/member.php?u=2412">X-Act</a>, revised by <a href="/forums/member.php?u=16017">tennisace</a>. </div>
+
+<ol class="toc">
+<li><a href="#intro">Introduction</a></li>
+<li><a href="#stats">Physical Tankiness, Special Tankiness, Physical Sweepiness, Special Sweepiness</a></li>
+<li><a href="#odb">Offense/Defense Balance</a></li>
+<li><a href="#psb">Physical/Special Balance</a></li>
+<li><a href="#overall">Overall Rating</a></li>
+<li><a href="#example">Example</a></li>
+</ol>
+
+<h2><a name="intro">Introduction</a></h2>
+
+<p>Hereunder is a collection of ratings of a Pokemon, in particular:</p>
+
+<ul><li><strong>Physical Tankiness</strong> (PT) and <strong>Special Tankiness</strong> (ST) of a Pokemon, which provide the physical and special defensive prowess of a Pokemon</li>
+<li><strong>Physical Sweepiness</strong> (PS) and <strong>Special Sweepiness</strong> (SS) of a Pokemon, which provide the physical and special offensive capabilities of a Pokemon</li>
+<li><strong>Offense/Defense Balance</strong> (ODB) of a Pokemon, providing whether or not a Pokemon's stats are geared towards offense (Atk/SpA/Spe), defense (HP/Def/SpD), or neither.</li>
+<li><strong>Physical/Special Balance</strong> (PSB) of a Pokemon, providing whether or not a Pokemon's stats are geared towards physical stats (Atk/Def), special stats (SpA/SpD), or neither.</li>
+<li><strong>Overall Rating</strong> of a Pokemon (BSR), providing a rating from each of the Pokemon's stats.</li></ul>
+
+<p>Note that a Pokemon having high attacking stats but low defense and speed stats is NOT deemed to be offensive, as it can't do enough damage before it is KOed. An example of such a Pokemon is Camerupt.</p>
+
+<h2><a name="stats">Physical Tankiness, Special Tankiness, Physical Sweepiness, Special Sweepiness</a></h2>
+
+<p>The formulae for calculating the various components are as follows:</p>
+<p><pre>Physical Tankiness (PT) = HP × Def ÷ 35
+ 
+Special Tankiness (ST) = HP × SpD ÷ 35
+ 
+Physical Sweepiness (PS) = Atk × (Atk × SF + 315) ÷ (Atk × (1-SF) + 315)
+ 
+Special Sweepiness (SS) = SpA × (SpA × SF + 315) ÷ (SpA × (1-SF) + 315)
+ 
+where HP is the normalized Base HP
+      Atk is the normalized Base Attack
+      Def is the normalized Base Defense
+      SpA is the normalized Base Special Attack
+      SpD is the normalized Base Special Defense
+      SF is the Speed Factor of the Base Speed</pre></p>
+
+<p>PT and ST are divided by 35 to normalize their values.</p>
+
+<p>A tankiness (physical or special) of 100 means that the Pokemon has average (physical or special) defense. A tankiness of more than 100 means it's pretty defensive (the more the better), while a tankiness of less than 100 means that it can't take hits well.</p>
+
+<p>A sweepiness (physical or special) of 100 means that the Pokemon has average (physical or special) offense. A sweepiness of more than 100 means it's pretty offensive (the more the better), while a sweepiness of less than 100 means it cannot attack well.</p>
+
+<h2><a name="odb">Offense/Defense Balance</a></h2>
+
+<p><pre>ODB = 55 × ln(max(PS,SS) ÷ max(PT,ST)), rounded to one decimal place.
+ 
+where max(a,b) returns the larger of a and b
+      ln(x) is the natural logarithm of x</pre></p>
+
+<p>If the ODB is negative, then the Pokemon's stats are geared towards defense. If the ODB is positive, then the Pokemon's stats are geared towards offense. If it is near zero, then the stats are balanced, having roughly the same amount of tankiness as it has sweepiness.</p>
+
+<p>A small chart can give us the degree of offense/defense:</p>
+              
+            <table class="sortable">
+                <thead>
+                    <tr>
+                        <th>ODB is</th>
+                        <th>Pokemon's stats are geared</th>                                                
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>                    
+                          <td>More than 40</td>                      
+                          <td>Absolutely towards offense.</td>
+                    </tr>
+                    <tr class="a">
+                          <td>Between 30 and 40</td>                      
+                          <td>Strongly towards offense.</td>
+                    </tr>
+                    <tr>                    
+                          <td>Between 20 and 30</td>
+                          <td>Towards offense.</td>
+                    </tr>
+                    <tr class="a">
+                          <td>Between 10 and 20</td>
+                          <td>Moderately towards offense.</td>
+                    </tr>
+                    <tr>                    
+                          <td>Between 5 and 10</td>                      
+                          <td>Slightly towards offense.</td>
+                    </tr>
+                    <tr class="a">
+                          <td>Between -5 and 5</td>
+                          <td>Equally in offense and defense.</td>
+                    </tr>
+                    <tr>                    
+                          <td>Between -10 and -5</td>                      
+                          <td>Slightly towards defense.</td>                        
+                    </tr>
+                    <tr class="a">
+                          <td>Between -20 and -10</td>                      
+                          <td>Moderately towards defense.</td>                        
+                    </tr>
+                    <tr>                    
+                          <td>Between -30 and -20</td>                      
+                          <td>Towards defense.</td>                   
+                    </tr>
+                    <tr class="a">
+                          <td>Between -40 and -30</td>                      
+                          <td>Strongly towards defense.</td>                     
+                    </tr>
+                    <tr>                    
+                          <td>Less than -40</td>                      
+                          <td>Absolutely towards defense.</td>
+                    </tr>
+                </tbody>
+            </table> 
+
+<h2><a name="psb">Physical/Special Balance</a></h2>
+
+<p><pre>PSB = 55 × ln((PT × PS) ÷ (ST × SS)), rounded to one decimal place
+ 
+where ln(x) is the natural logarithm of x</pre></p>
+
+<p>If the PSB is negative, then the Pokemon's stats are geared towards the special stats. If the PSB is positive, the Pokemon's stats are geared towards the physical stats.</p>
+
+<p>A small chart can give us the degree of physical/special disparity:</p>
+
+<table class="sortable">
+                <thead>
+                    <tr>
+                        <th>PSB is</th>
+                        <th>Pokemon's stats are geared</th>                                                
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>                    
+                          <td>More than 40</td>                      
+                          <td>Absolutely towards physical.</td>
+                    </tr>
+                    <tr class="a">
+                          <td>Between 30 and 40</td>                      
+                          <td>Strongly towards physical.</td>                        
+                    </tr>
+                    <tr>                    
+                          <td>Between 20 and 30</td>                      
+                          <td>Towards physical.</td>                        
+                    </tr>
+                    <tr class="a">
+                          <td>Between 10 and 20</td>                      
+                          <td>Moderately towards physical.</td>                       
+                    </tr>
+                    <tr>                    
+                          <td>Between 5 and 10</td>                      
+                          <td>Slightly towards physical.</td>                        
+                    </tr>
+                    <tr class="a">
+                          <td>Between -5 and 5</td>                      
+                          <td>Equally in physical and special.</td>           
+                    </tr>
+                    <tr>                    
+                          <td>Between -10 and -5</td>                      
+                          <td>Slightly towards special.</td>                        
+                    </tr>
+                    <tr class="a">
+                          <td>Between -20 and -10</td>                      
+                          <td>Moderately towards special.</td>                        
+                    </tr>
+                    <tr>                    
+                          <td>Between -30 and -20</td>                      
+                          <td>Towards special.</td>                   
+                    </tr>
+                    <tr class="a">
+                          <td>Between -40 and -30</td>                      
+                          <td>Strongly towards special.</td>                     
+                    </tr>
+                    <tr>                    
+                          <td>Less than -40</td>                      
+                          <td>Absolutely towards special.</td>
+                    </tr>
+                </tbody>
+            </table> 
+
+<h2><a name="overall">Overall Rating</a></h2>
+
+<p><strong>Part 1: The Rating Modifier</strong></p>
+
+<p>The <strong>Rating Modifier</strong> (M) is used in the Overall Rating of a Pokemon, to reward Pokemon having outstanding PT, PS, ST, and/or SS. Each modifier increases slowly from 1 for a rating (tankiness or sweepiness) of 100, to 1.375 for a rating of 180 (about 2 standard deviations from the mean), to 2.5 for a rating of 260 (about 4 standard deviations from the mean).</p>
+
+<p><pre>Modifier for PT (MPT) = (3 × PT^2 - 600 × PT + 81200) ÷ 51200, if PT > 100
+                      = 1, otherwise
+ 
+Modifier for PS (MPS) = (3 × PS^2 - 600 × PS + 81200) ÷ 51200, if PS > 100
+                      = 1, otherwise
+ 
+Modifier for ST (MST) = (3 × ST^2 - 600 × ST + 81200) ÷ 51200, if ST > 100
+                      = 1, otherwise
+ 
+Modifier for SS (MSS) = (3 × SS^2 - 600 × SS + 81200) ÷ 51200, if SS > 100
+                      = 1, otherwise
+ 
+M = MPT × MPS × MST × MSS</pre></p>
+
+<p><strong>Part 2: The Overall Rating Formula</strong></p>
+
+<p><pre>Overall Rating = PT × ST × (PS + SS) × M ÷ (56 × (PT + ST)), rounded to the nearest whole number.</pre></p>
+
+<p>The rating can be used as follows:</p>
+
+<table class="sortable">
+                <thead>
+                    <tr>
+                        <th>Rating is</th>
+                        <th>Pokemon's stats are</th>                                                
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>                    
+                          <td>more than 1400.</td>                      
+                          <td>Exaggerated</td>
+                    </tr>
+                    <tr class="a">
+                          <td>between 900 and 1399.</td>                      
+                          <td>Too Good</td>                        
+                    </tr>
+                    <tr>                    
+                          <td>between 580 and 899.</td>                      
+                          <td>Fantastic</td>                        
+                    </tr>
+                    <tr class="a">
+                          <td>between 420 and 579.</td>                      
+                          <td>Excellent</td>                       
+                    </tr>
+                    <tr>                    
+                          <td>Between 300 and 419</td>                      
+                          <td>Very Good</td>                        
+                    </tr>
+                    <tr class="a">
+                          <td>Between 250 and 299</td>                      
+                          <td>Quite Good</td>           
+                    </tr>
+                    <tr>                    
+                          <td>Between 210 and 249</td>                      
+                          <td>Good</td>                        
+                    </tr>
+                    <tr class="a">
+                          <td>Between 175 and 209</td>                      
+                          <td>Average</td>                        
+                    </tr>
+                    <tr>                    
+                          <td>Between 143 and 174</td>                      
+                          <td>Below Average</td>                   
+                    </tr>
+                    <tr class="a">
+                          <td>Between 127 and 142</td>                      
+                          <td>Poor</td>                     
+                    </tr>
+                    <tr>                    
+                          <td>Between 100 and 126</td>                      
+                          <td>Bad</td>
+                    </tr>
+                    <tr class="a">
+                          <td>Less than 99</td>
+                          <td>Horrible</td>
+                    </tr>
+                </tbody>
+            </table> 
+
+<h2><a name="example">Example</a></h2>
+
+<p>Let's say we are considering creating a hypothetical Pokemon having the following Base Stats:</p>
+
+<p><pre>52/117/93/80/67/101</pre></p>
+
+<p><strong>First we find the normalized stats and the Speed Factor:</strong></p>
+
+<p><pre>HP: 52/4 + 18 = 31
+Atk: 117 + 18 = 135
+Def: 93 + 18 = 111
+SpA: 80 + 18 = 98
+SpD: 67 + 18 = 85
+SF: 0.92</pre></p>
+
+<p><strong>Now we find PT, ST, PS, SS:</strong></p>
+
+<p><pre>Physical Tankiness = 31 x 111 / 35 = <strong>98.31</strong> (average defense)
+Special Tankiness = 31 x 85 / 35 = <strong>75.29</strong> (below average special defense)
+Physical Sweepiness = 135 x (135 x 0.92 + 315) / (135 x 0.08 + 315) 
+                    = 135 x 439.2 / 325.8 = <strong>181.99</strong> (very high physical offense)
+Special Sweepiness = 98 x (98 x 0.92 + 315) / (98 x 0.08 + 315)
+                   = 98 x 405.16 / 322.84 = <strong>122.99</strong> (above average special offense)</pre></p>
+
+<p><strong>Offense/Defense Balance:</strong></p>
+
+<p>The higher from PT and ST is 98.31; that from PS and SS is 181.99.</p>
+
+<p><pre>ODB = 55 x ln(181.99 / 98.31) = 55 x ln(1.851) 
+    = 55 x 0.616 = <strong>33.9</strong></pre></p>
+
+<p>Looking at the chart, this translates to a Pokemon that is geared strongly towards offense.</p>
+
+<p><strong>Physical/Special Balance:</strong></p>
+
+<p><pre>PSB = 55 x ln((98.31 x 181.99) / (75.29 x 122.99))
+    = 55 x ln(17891.44 / 9259.92)
+    = 55 x ln(1.932) = 55 x 0.659 = <strong>36.2</strong></pre></p>
+
+<p>Looking at the chart, this means that the Pokemon is geared strongly towards the physical stats.</p>
+
+<p><strong>Overall Rating:</strong></p>
+
+<p>Now, for the overall rating, we first need to find the rating modifier M, which is made up of four mini modifiers, one each for PT, PS, ST and SS.</p>
+
+<p>PT and ST are both not greater than 100, so MPT and MST are both 1.</p>
+
+<p><pre>For PS, MPS = (3 x 181.99^2 - 600x181.99 + 81200) / 51200 
+            = (3 x 33120.36 - 109194 + 81200) / 51200 
+            = (99361.08 - 109194 + 81200) / 51200 = 71367.08 / 51200 = 1.394
+
+For SS, MSS = (3 x 122.99^2 - 600x122.99 + 81200) / 51200 
+            = (3 x 15126.54 - 73794 + 81200) / 51200 
+            = (45379.62 - 73794 + 81200) / 51200 = 52785.62 / 51200 = 1.031
+
+Hence M = 1 x 1 x 1.394 x 1.031 = <strong>1.437</strong></pre></p>
+
+<p>Finally, the overall rating! Note that ODB and PSB are not needed for the evaluation of the overall rating.</p>
+
+<p><pre>Overall Rating = 98.31 x 75.29 x (181.99 + 122.99) x 1.437 / (56 x (98.31 + 75.29))
+               = 98.31 x 75.29 x 304.98 x 1.437 / (56 x 173.6)
+               = 3243867.61 / 9721.6 = <strong>334</strong></pre></p>
+
+<p>From the chart, a rating of 334 means that the stats are <strong>very good</strong>.</p>

@@ -1,0 +1,129 @@
+[title]
+Create-A-Pokemon
+
+[header]
+
+[head]
+<!--
+WARNING: Do not modify this page unless you actually know what you are doing!
+-->
+
+<style type="text/css">
+h1 {
+font: bold 50px "Trebuchet MS";
+background: none;
+text-align: center;
+border-bottom: 1px solid #b8b8db;
+}
+h2 {
+font: bold 30px "Trebuchet MS";
+background: none;
+text-align: center;
+}
+h3 {
+font: bold 25px "Trebuchet MS";
+background: none;
+text-align: center;
+}
+#content tr {
+width: 100%;
+}
+#content td {
+width: 33%;
+}
+.left {
+float: left;
+}
+#border {
+border: 1px solid #adadad;
+background-color: #ededed;
+margin: 10px;
+padding: 10px;
+}
+.right {
+float: right;
+}
+#resources {
+text-align: center;
+}
+#resources ul {
+margin: 0;
+padding: 0;
+list-style-type: none;
+list-style-image: none;
+}
+#resources li {
+padding-left: 5px;
+padding-right: 5px;
+display: inline;
+}
+</style>
+
+[page]
+<h1>The Create-A-Pokemon Project</h1>
+
+<h2>Current CAP 3 Stage: <a href="/forums/showthread.php?t=3465731">Threat Discussion</a></h2>
+
+<table id="content">
+<tr>
+<td>
+<!-- BEGIN DYNAMIC CONTENT -->
+<img class="left" src="/media/upload/hub/arghonaut.png" alt="" />
+<!-- END DYNAMIC CONTENT -->
+</td>
+<td>
+<div id="border">
+<h3>Other CAP Current Events</h3>
+<ul>
+<li>
+<dl>
+<!-- BEGIN DYNAMIC CONTENT -->
+<dt><a href="/forums/showthread.php?t=3465809">CAP 3 - Art Submissions</a></dt>
+<dd>It's that time of year once again; we're making art for CAP 3!  Swing on by to check out some awesome designs.  If you're feeling artsy, then join in the fun and get doodling!</dd>
+<!-- END DYNAMIC CONTENT -->
+</dl>
+</li>
+<li>
+<dl>
+<!-- BEGIN DYNAMIC CONTENT -->
+<dt><a href="/forums/showthread.php?t=3464513">CAP Metagame Discussion</a></dt>
+<dd>Come discover the recently revived CAP metagame on our new simulator: <a href="http://play.pokemonshowdown.com/lobby">Pokemon Showdown!</a></dd>
+<!-- END DYNAMIC CONTENT -->
+</dl>
+</li>
+<li>
+<dl>
+<!-- BEGIN DYNAMIC CONTENT -->
+<dt><a href="/forums/showthread.php?t=86078">CaPmon Sprite Revamping</a></dt>
+<dd>Help out our CAP community spriters in creating updates to accommodate for the shift go Generation 5 by providing feedback and your own sprites.</dd>
+<!-- END DYNAMIC CONTENT -->
+</dl>
+</li>
+<li>
+<dl>
+<!-- BEGIN DYNAMIC CONTENT -->
+<dt><a href="/forums/showthread.php?t=3464351">Open Thread: What should the main CAP Forum look like?</a></dt>
+<dd>What else are YOU looking for out of CAP? Pitch us your ideas here.</dd>
+<!-- END DYNAMIC CONTENT -->
+</dl>
+</li>
+</ul>
+</div>
+</td>
+<td>
+<!-- BEGIN DYNAMIC CONTENT -->
+<img class="right" src="/media/upload/hub/kitsunoh.png" alt="" />
+<!-- END DYNAMIC CONTENT -->
+</td>
+</tr>
+</table>
+
+<div id="resources">
+<ul>
+<!-- BEGIN DYNAMIC CONTENT -->
+<li><a href="/cap/">Official CAP Site</a></li>
+<li><a href="/forums/forumdisplay.php?f=201">CAP Process Archive</a></li>
+<li><a href="/forums/showthread.php?t=3463255">Ask a Simple Question, Get a Simple Answer</a></li>
+<!-- END DYNAMIC CONTENT -->
+</ul>
+</div>

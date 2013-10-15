@@ -1,0 +1,131 @@
+[Title]
+PPRNG Guide - Breeding Perfect (and Shiny) Pokemon
+
+[Head]
+<style type="text/css">
+	.centered-left { text-align:center; padding-right:40%}
+	img { max-width:100%; }
+	ol { list-style-type: upper-roman; }
+	ol ol { list-style-type: lower-roman; }
+	dl dl { margin-left:2em; }
+	dl dl dt { font-size:.85em; }
+</style>
+ 
+[Page]
+<div class="author">By <a href="/forums/members/65876/">religiousjedi</a>.</div>
+
+<ol class="toc"> 
+	<li><a href="/ingame/rng/pprng_gen5_01_intro">Introduction</a></li>
+	<li><a href="/ingame/rng/pprng_gen5_02_basics">The Basics of RNG Abuse</a></li>
+	<li><a href="/ingame/rng/pprng_gen5_03_id_abuse">How to RNG Abuse your TID/SID combo</a></li>
+	<li><a href="/ingame/rng/pprng_gen5_04_capture_abuse">Capturing/Receiving Perfect (and Shiny) Pokemon</a></li>
+	<li>
+		<strong>Breeding Perfect (and Shiny) Pokemon</strong>
+		<ol>
+			<li><a href="#s1-finding-seed">Finding your seed</a></li>
+			<li><a href="#s2-receive-egg">Receiving your desired Egg</a></li>
+			<li><a href="#s3-with-chatot">Using Chatot's Chatter to Confirm</a></li>
+			<li><a href="#s4-without-chatot">Without recognizing Chatot pitches</a></li>
+		</ol>
+	</li>
+	<li><a href="/ingame/rng/pprng_gen5_06_wondercard">Receiving Perfect Wondercard Pokemon</a></li>
+	<li><a href="/ingame/rng/pprng_gen5_07_roamers">Capturing Roaming Pokemon</a></li>
+	<li><a href="/ingame/rng/pprng_gen5_08_hidden_grottos">Controlling Encounters in Hidden Grottoes</a></li>
+	<li><a href="/ingame/rng/pprng_gen5_09_dream_radar">Receiving Perfect Dream Radar Pokemon</a></li>
+	<li><a href="/ingame/rng/pprng_gen5_10_entralink">Capturing Perfect Entralink Pokemon</a></li>
+</ol>
+ 
+<p>
+	<strong>Note:</strong> Before you even ask, no, RNG breeding is never going to be available in Pokemon Black 2 and White 2.
+</p>
+
+<p>
+	<strong>Note:</strong> <a href="https://hotfile.com/dl/153113922/5c77858/eggseeds.dat.zip.html">Egg Seed Data File 1.0</a>
+</p>
+<p>
+	Not necessary for searching, but it enables faster searches for egg  seeds. For more details, read about it over at the <a  href="/forums/threads/102901">PPRNG thread</a>.
+</p>
+
+<p>
+	With capturing now out of the way, we move on to the next project:  breeding Pokemon. The majority of Pokemon able to breed have desirable  benefits to them in the form of Egg moves. Sometimes, it even makes it  easier to receive a shiny Pokemon at a lower frame than capturing  allows. Before moving on, some things must be accounted for:
+</p>
+
+<ul>
+	<li>Using Ditto advances the PID frame by 2 upon picking up the Egg.</li>
+	<li>If  you are using a Ditto, it will always the opposite gender of the  Pokemon you are mating it with. In terms of breeding with a genderless  Pokemon, Ditto is considered the mother.</li>
+	<li>The mother determines  the species, the father passes on the Egg move, except in the case of  Ditto; the species will be of the non-Ditto parent. If both parents have  the same moves, the baby will receive the moves too.</li>
+	<li>Hidden Abilities may be passed, but the female Pokemon must have it to pass it.</li>
+	<li>A Ditto parent prevents the passing of a Hidden Ability. And no, a Ditto with its Hidden Ability does not circumvent this.</li>
+	<li>When breeding a Shellos from two Shellos / Gastrodon, the baby will have the form of the mother. When breeding a Shellos / Gastrodon and a Ditto, the baby will have the Shellos / Gastrodon form used for the breeding.</li>
+	<li>Nidoran♀  and Illumise produce offspring that are either Nidoran♀ or Nidoran ♂ in  the case of the former and Volbeat or Illumise in the case of the  latter. PPRNG accounts for these specialized instances with a dropdown  menu.</li>
+	<li>International Parents make use of what is known as the  Masuda Method. When using such parents, this means that the odds of  finding a shiny seed possessing a lower PID frame increase dramatically.  However, simply having a Pokemon with a name in a different language in  your save file does not constitute to being an International Pokemon;  rather, this refers to a Pokemon originating from a save that is of a  different language. If you are breeding from two International Parents  (such as two Japanese Pokemon), the Masuda Method <strong>will not  work</strong> as they will not be considered International  Parents.</li>
+	<li>If you are breeding Eggs and plan to send them to  another game to hatch as a shiny, you cannot use International Parents.  The Masuda Method checks the TID/SID combo for the shiny seed against  the game the Egg is produced, not the game it will hatch in.</li>
+</ul>
+
+<h3 id="s1-finding-seed">Finding your seed</h3>
+
+<p>
+	Open PPRNG and select Egg Seed Searcher. In order to get the best  possible results, you will need to have the exact IVs of the parent  Pokemon. You will also need your TID/SID combo if you hope to find a  shiny seed.
+</p>
+
+<div class="centered-left">
+	<img src="http://i.imgur.com/ZmrfnSo.png" alt=""/>
+</div>
+
+<p>
+	In the Parents box, insert the IVs of the parents, making sure to put  them in the proper row. If you are using a Nidoran♀ or Illumise to  breed, be sure to specify so in the drop down menu labeled "♀ Species."  If you are using a(n) Everstone, Ditto, or International Parent, be sure  to click on the appropriate box. Over in the Held Buttons box, it is  advised to check all held buttons if you are searching for a shiny seed  (and subsequently expand the date range) to increase the odds of finding  one. The Frames box can be largely left alone as the default values are  in the right range; the PID Frame min / max values are set in a range that is easy to reach and / or  wide enough to give ample time to hit while the default IV frame for  Eggs is 8; you have no reason to increase the IV frame because the Day  Care Center is located in an area with various WNPCs who, as we know, advance the PID frame.
+</p>
+
+<p>
+	The Desired Egg box specifies the end result of breeding. If you want a  shiny Pokemon, be sure the box is checked. Depending on the "♀ Species"  from the Parents box, the "Egg Species" box will be whited out if left  at Other. Otherwise, the dropdown menu will be enabled in order for you  to choose what Pokemon hatches. Nature and Ability should be  self-explanatory by now, but as a reminder, Ability 0 refers to the  first ability a Pokemon can get while Ability 1 refers to the second  ability. If you are breeding for a Hidden Ability (remember that only a  female can pass a Hidden Ability and Ditto prevents this from passing),  check the labeled box. In terms of Gender, select the desired Gender (or  Genderless if it's a genderless Pokemon you are breeding) and be sure  to select the right Gender Ratio to get accurate results. The desired  IVs can be filled in, but the dropdown menu labeled Pattern auto fills  the min / max values according to the spread you desire. Hit Search when you've filled in your desired traits.
+</p>
+
+<div class="centered-left">
+	<img src="http://i.imgur.com/TGXFwkp.png" alt=""/>
+</div>
+
+<p>
+	In this example, we searched for a flawless physical spread, no  Everstone (to ease our tracking of natures), no Ditto and no  International Parents, a female gender and one that possess its Hidden  Ability. For first timers in RNG breeding, you'll want to choose a good  distance between initial PID frame and target PID frame; in this case,  our target PID frame is 75. It is guaranteed that the initial PID frame  will be shifted too due to the WNPCs  on Route 3. Click on a desired seed to open the Standard Seed  Inspector; the window will automatically switch over to the Eggs tab  with the info filled in. You will now go for your desired Egg.
+</p>
+
+<div class="centered-left">
+	<img src="http://i.imgur.com/tqw2vlS.png" alt=""/>
+</div>
+
+<h3 id="s2-receive-egg">Receiving your desired Egg</h3>
+
+<p>
+	If you have not done so, deposit the parents into the Day Care and move  around until the parents produce an Egg, signified when the Day-Care Man  calls you over. Your party should also consist of at least one Chatot  with the move Chatter (in order to advance the PID frame) and a Pokemon  with the ability Magma Armor or Flame Body; such Pokemon with these  abilities cut the amount of steps it takes to hatch an Egg in half. Once  ready, save in front of the Day-Care Man without picking up the Egg.
+</p>
+
+<p>
+	Proceed to hitting your seed by hitting the right time and date and  pressing the correct keypresses. While the game loads after pressing  continue, be sure to bring up the menu quickly by pressing the X button.  Depending on experience, there are two ways to confirm if you hit your  seed:
+</p>
+
+<h3 id="s3-with-chatot">Using Chatot's Chatter to Confirm</h3>
+
+<p>
+	With Chatot's Chatter move, players can record a custom cry through use  of the microphone. A note or sound that is easy to distinguish different  pitches should be recorded. As soon as the game loads from the main  menu, press X to bring up the menu. Proceed to Pokemon summary and view  Chatot's summary. Listen to the pitch of the cry it makes and compare it  to the pitches listed in the Eggs tab. If they don't match a string,  then you hit the wrong Timer0.
+</p>
+
+<div class="centered-left">
+	<img src="http://i.imgur.com/xxJGvnI.png" alt=""/>
+</div>
+
+<p>
+	In this example, we discovered that the WNPCs shifted the initial PID  frame to 55 based on the string of pitches (Low, High, Low-Medium). So  if we were to pick up the Pokemon now, it would have the IVs of frame  58. Knowing this info, if my target is on frame 75, then a simple  equation of target - initial = #advancements. If Ditto was a parent,  then we'd subtract an additional 2 frames to hit our target frame. With  that said, we need a total of 20 frame advancements in order to hit our  target.
+</p>
+
+<h3 id="s4-without-chatot">Without recognizing Chatot pitches</h3>
+
+<p>
+	An older way of doing things, yet no less viable if one has trouble  ascertaining pitches, the following must be done: simply pick up the Egg and hatch it, checking the IVs and characteristic of the Pokemon. When  we did this, we found out that our Shifted Starting Frame was indeed 55. Once again, we simply need to do 20 advancements by using Chatot with a  recorded cry.
+</p>
+
+<p>
+	If we want to confirm we hit our Timer0, we would shift the window from  the Eggs tab to the Frames tab. Hit Generate on the IV frame side and  scroll down to IV frame 14. After picking up an Egg from the Day-Care  Man, the IV frame jumps over to frame 14, so to confirm you hit the  right frame, you would catch a Pokemon immediately and check the IVs,  trying to match them to frame 14 up to the amount of Pokemon you have in  your party, in case you trip the steps counter. If you find that none  of IVs match to the frames range, you may want to switch to the Adjacents tab to ascertain you hit your correct Timer0.
+</p>
+
+<div class="centered-left">
+	<img src="http://i.imgur.com/8kRWt6h.png" alt=""/>
+</div>

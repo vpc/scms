@@ -1,0 +1,103 @@
+[title]
+CAP4 Report: Aurumoth
+[head]
+<link href="/media/smog/smog.css" type="text/css" rel="stylesheet" />
+<style type="text/css">
+blockquote {
+margin: 20px 10px 20px 10px;
+padding: 1em;
+background-color: #ededed;
+border: 1px solid #adadad;
+-webkit-border-radius: 12px;
+-moz-border-radius: 12px;
+border-radius: 12px;
+}
+blockquote p { margin:0; }
+blockquote p+p { margin-top:1em; }
+</style>
+[page]
+<div class="author">By <a href="/forums/member.php?u=32648">capefeather</a>. Art by <a href="/forums/member.php?u=146684">CBMeadow</a>.</div>
+<table id="smogheader">
+<tr>
+<td class="left"><a href="battle_capacity">« Previous Article</a></td>
+<td class="middle"><a href="/smog/issue23/">Home</a></td>
+<td class="right"><a href="competitor">Next Article »</a></td>
+</tr>
+</table>
+
+<div class="align-center"><img src="/media/upload/smog/issue23/cap4_aurumoth.png" alt="" /></div>
+ 
+<h2>Introduction</h2>
+
+<p><a href="/forums/showthread.php?t=3474773">Aurumoth</a> is the most recent end product of the Create-a-Pok&eacute;mon (CAP) project, and the first to be developed within the context of the BW2 OU metagame. It was an uncertain time for many due to the new threats that BW2 had created, leading to the resurgence of rain offense and the fateful rise of Genesect. Through the divining process commonly known as "bold voting," the CAP community anointed bugmaniacbob Topic Leader and entered a bold new era with a bold concept that was literally "risky." However, the community found itself wrestling between fulfilling the concept and fitting into the new metagame. At the end of it all, a powerful Quiver Dance sweeper descended from the heavens, and everybody was left wondering what had happened.</p>
+
+<h2>The Concept</h2>
+
+<blockquote><p><strong>Name</strong>: Risky Business <span style="font-size: 8pt;">(formerly "Living On the Edge")</span></p>
+
+<p><strong>General Description</strong>: This Pok&eacute;mon is very risky to play, but very rewarding if played correctly.</p>
+
+<p><strong>Justification</strong>: Many of the Pok&eacute;mon that are successful in OU are relatively easy to play or have great "safe" options (e.g. U-turn). Yet, many other Pok&eacute;mon look very powerful, but are less successful than they could be because of some large risks involved (e.g. Hydreigon), and some aren't successful at all (e.g. Honchkrow). This self-balancing concept intends to explore what it takes for a risky Pok&eacute;mon to be successful, and how much inherent risk a Pok&eacute;mon can get away with. It should be emphasized that this concept is NOT about luck management, but rather, it is about what the user can afford to do given his/her opponent's options, and vice versa.</p>
+
+<p><strong>Questions to Be Answered</strong>:</p>
+
+<ul>
+<li>What is the relationship between risk and potential consequences, both positive and negative?</li>
+<li>What kinds of inherently risky tactics are successful in the OU metagame?</li>
+<li>Do risky Pok&eacute;mon need some form of safe options (e.g. switch-ins) to be successful in OU, or can it get away with having few really safe options?</li>
+<li>How does Substitute, a well-known "safe" move with nearly universal distribution, impact how this Pok&eacute;mon is built and played?</li>
+<li>How do existing Pok&eacute;mon use and deal with risky situations?</li>
+<li>Can risky Pok&eacute;mon be played well in the early game, or are they better off put into action later on?</li>
+<li>How do different playstyles interact with risky situations?</li>
+</ul></blockquote>
+<p style="text-align: right;">&mdash;<a href="/forums/showthread.php?p=4391555#post4391555">capefeather</a></p>
+
+<p>"What is risk?" The main goal of the concept was to answer that question. "Risk" is a word that is thrown around a lot, often in conjunction with other words like "skill" and "prediction." Yet, there seemed to be no consensus as to what people meant by it. The community grappled with a concept that is at the very heart of competitive Pok&eacute;mon. What role does risk play? Does it play any role at all? Maybe we look at mediocre Pok&eacute;mon like Staraptor and Honchkrow, which we feel embody risk, and thus blind ourselves to a metagame rich in potential risk-reward situations. Or perhaps we are wasting our time with a degenerate crapshoot and are better off looking elsewhere for a game of skill.</p>
+
+<p>Here was my take on risk when I submitted the concept. In a turn-based game of skill, each player has a set of decisions in a given turn, and the resolution of that turn depends on the decisions of both players as well as, in cases like Pok&eacute;mon and poker, a bit of luck. These scenarios can be organized into what game theory calls a "payoff matrix," and the payoffs of each scenario can be analyzed to determine the optimal move. A large component of being good at these games is to have high awareness of the payoffs of each possibility. On the other hand, at high levels of play, where everybody can make these calls accurately, they might take the opportunity to shake things up. To take "risks" like these may be an attempt to change the long-term projection of the game, or to exploit a predictable pattern by the opponent. There are also stories in some game communities of people who seem to be able to read minds. Whether you believe in such stories is up to you, though it so often happens that people mistake simple high awareness with prediction.</p>
+
+<h2>The Process</h2>
+
+<p>So you may have looked at Aurumoth's abilities, stats, and movepool, and you may be wondering, "What is this? What happened here?" A lot of things happened. The discussions were marred by vagueness and indecisiveness against a myriad of different opinions as to how to make a risky, but viable, Pok&eacute;mon. Many of the early discussions led to conclusions that were not very specific. In the threat discussion, for example, some people suggested having no hard counters but many designated checks.</p>
+
+<blockquote><p>If we want the risk of using a Bug / Psychic type to be justified, we want a substantial reward. So I am going to go with no counters, a number of checks. Most of these potential checks have already been brought up (Terrakion, Scizor), but there should absolutely be no solid answer to this CAP once it is safely in - it should function like Salamence did in Gen IV, as much as that is possible with a Bug / Psychic type.</p></blockquote>
+<p style="text-align: right;">&mdash;<a href="/forums/showthread.php?p=4406032#post4406032">FlareBlitz</a></p>
+
+<blockquote><p>This mon is SR weak, pursuit weak, u-turn weak, and has two of the most commonly resisted STABs in OU...that's a lot of risk. There would need to be pretty incredible rewards to justify it.</p></blockquote>
+<p style="text-align: right;">&mdash;<a href="/forums/showthread.php?p=4406888#post4406888">FlareBlitz</a></p>
+
+<p>The idea was to have something along the lines of Hydreigon, a Pok&eacute;mon that is well-known for having no true counters, but struggles regardless due to an unfortunate base 98 Speed, combined with weaknesses to Fighting (making it a magnet for Terrakion and Keldeo) and Bug (making it bait for the then-unbanned Genesect). Really, having no hard counters was not, in itself, a huge deal, and was not difficult to achieve without going overboard and trying to beat everything. However, the discussion pretty much concluded "no counters, only checks" without much deliberation as to what would check Aurumoth and how they would do so.</p>
+
+<p>The process continued to show lack of direction by trying to appease everybody. Cases were made for Weak Armor, Illusion, and No Guard. Aurumoth got all three. Some wanted a physical attacker, others a special attacker, and still others a mixed attacker. Aurumoth got all of that. Different people wanted different coverage moves, and a fear of powerful Choice Scarf users like Genesect led to a push for Quiver Dance. Again, Aurumoth got pretty much everything. Everybody got what they asked for, but in the end, nobody really got what they wanted. It is not the kind of phenomenon that is easy to realize before everything is done and it is already too late. The CAP 4 process suffered not from one large failure but from several small, subtle ones.</p>
+
+<h2>The Playtest</h2>
+
+<blockquote><p>Aurumoth is not risky to play, by any stretch of the imagination. You can, quite simply, chuck it onto a team and do well, heck, most of my teams included Aurumoth because it was so good, simply adding it to my team made my team much more better. (Some people will know that currently this argument has been brought up a lot of times in reference to Genesect.) Aurumoth has downsides, being weak to SR is the obvious one, but its bulk, Illusion, and Quiver Dance provide me with such a safety net in battle, that I honestly don't worry in the battle, heck, often its like, 'yep, im facing a Scarf Hydreigon here, but I have rain up and it cannot OHKO me even if it knew I was Moth so im sweet here and can set up and sweep now'. I don't really know how else to describe just how risk free Aurumoth feels when you use it, especially when its flaws can be handled so easily (Illusion can discourage super effective attacks (and your not setting up on a mon with super effective moves mostly anyway) and Starmie / Tenta can spin away SR which pretty much makes it near impossible to revenge you (for example Scarf Terrakion needs SR to guarentee the KO with SE iirc)).</p></blockquote>
+<p style="text-align: right;">&mdash;<a href="/forums/showthread.php?p=4406888#post4406888">ginganinja</a></p>
+
+<p>The playtest was, in some ways, a wake-up call. Although many different sets were tried, there was a clear winner in Quiver Dance Aurumoth, which constituted 48.569% of all Aurumoth and appeared in about 41% of all teams. Heatran skyrocketed to #2 usage for the sake of checking both Aurumoth and Genesect while also being a decent teammate for both. Though Quiver Dance was the order of the day, physical sets occasionally appeared nonetheless, and Dragon Dance was briefly hyped even more than Quiver Dance was in the beginning. Tail Glow and Will-O-Wisp also saw some use. In the end, although the community aimed to make a sweeper that would be risky to set up, it ended up making a versatile, dominating Quiver Dance sweeper, from which there was little intrinsic risk to be found without going out of one's way not to use this powerful move.</p>
+
+<blockquote><p>Anyways, one of the coolest parts about this metagame in my opinion was how adding Aurumoth to the mix (and the fact that it appeared on the vast majority of the playtest teams that I encountered) created a game where far more situations involving the base concept behind Aurumoth - risk and reward - are touched upon. Due to the huge amount of Aurumoth, I had the lovely chance to play a number of games that really came down to which player was better at reading the opponent, or which player was capable of thinking long-term and determining their win condition more effectively. In other words, many of the games I played really did come down to skill, which was definitely a nice breather from some other tiers. In addition, the fact that the metagame allowed for so many situations where weighing every single move was important, I found the metagame very useful in teaching my battling101 and other Pokemon tutees about the general concept of risk vs reward and choosing the best move in any given situation. This was extremely helpful for me, as it allowed me to cut what is easily ~5 hours spent over the course of tutoring with newer players discussing win conditions and risk/reward in different situations down to a significantly smaller timeframe, as games with the many factors Aurumoth provided really helped them understand it.</p></blockquote>
+<p style="text-align: right;">&mdash;<a href="/forums/showthread.php?p=4492887#post4492887">Windsong</a></p>
+
+<p>On the other hand, there was a silver lining. By many accounts, the metagame felt riskier. Part of this was due to Aurumoth's sheer versatility, which could exploit the fact that the typical expectation was of a standard Quiver Dance sweeper. On top of this, the presence of Illusion meant that just about every switch-in was a guessing game. Unless entry hazards narrowed it down, a given switch-in had the opponent figuring out how much he or she could afford to guess wrong on any given possibility. So one could argue that Aurumoth failed so spectacularly at fulfilling the concept that it made the metagame itself fulfill the concept in a different way.</p>
+
+<h2>Lessons</h2>
+
+<p>Perhaps the biggest lesson to take out of this is that the goal of a CAP project should not be to appease everyone. It may look like everyone gets what they want if a Pok&eacute;mon gets many options, but in the cruel reality of the playtest metagame, some of the options will lose out, resulting in something that the community did not want after all. This ironically makes it look as if the project was focused, just in a direction that was contrary to what the community wanted. Every stage of the project should be an opportunity to focus the concept more, a process that the Topic Leader is supposed to facilitate, which is especially needed for a concept as abstract as Risky Business. In an effort to help to make this happen, the CAP forum is planning to attempt a new leadership model that spreads the task of discussion leadership among several different people, so as not to overload one person with heavy expectations.</p>
+
+<p>Another lesson to take away from this is that there is always an opportunity to learn something. Even if the building process dropped the ball, the playtest still ended up putting the concept of risk at the forefront, albeit in a way that nobody really expected. This is not to say that we should stop caring about how CAP Pok&eacute;mon are built, because the building process is itself a place to gain insight about the metagame. Instead, it is a call for people not to throw up their hands and declare a CAP project a failure, because there is always something to squeeze out of it.</p>
+
+<h2>Conclusion</h2>
+
+<p>The Aurumoth project marks a turning point in the Create-a-Pok&eacute;mon project. The CAP community entered the BW2 era not quite knowing what it would take to make a Pok&eacute;mon viable or balanced. Perhaps Aurumoth was meant to be a savior from the Law of the BW2 metagame, but it replaced it with its own Law. With that experience behind us, we must look toward the future with what we have learned from the past, and make something great together.</p>
+
+<p>If you want to learn more about the Create-a-Pok&eacute;mon Project, you can hit up the <a href="/cap/">CAP site</a>, which has been recently updated to include the Pok&eacute;mon that have been made for this generation. The project also, of course, has a <a href="/forums/forumdisplay.php?f=66">forum</a> to itself, where all the action happens. We are always looking for new contributors bringing their various talents to this community, so don't be afraid to get in there and participate!</p>
+
+<table id="smogfooter">
+<tr>
+<td class="left"><a href="battle_capacity">« Previous Article</a></td>
+<td class="middle"><a href="/smog/issue23/">Home</a></td>
+<td class="right"><a href="competitor">Next Article »</a></td>
+</tr>
+</table>

@@ -1,0 +1,104 @@
+[title]
+The Competitor's Top 3 Tournaments
+[head]
+<link rel="stylesheet" type="text/css" href="/media/competitor/articles-section.css" />
+<style type="text/css">
+.button a {
+    vertical-align: middle;
+    padding: 6px 6px;
+    font-size: 11px;
+    color: #ffffff;
+    text-decoration: none;
+    background: url('http://www.smogon.com/media/competitor/gradient_ie.png') repeat-x; /* Fallback Image */
+    background-image: -webkit-linear-gradient(top, #cccccc, #717275);
+    background-image:    -moz-linear-gradient(top, #cccccc, #717275);
+    background-image:      -o-linear-gradient(top, #cccccc, #717275);
+    -webkit-border-radius: 15px;
+       -moz-border-radius: 15px;
+            border-radius: 15px;
+}
+
+.button a:hover {
+    color: #f0e8f0;
+    background-color: #e85252;
+}
+
+.button a:active {
+    background-color: #9e2c2c;
+}
+div.border
+{
+border: 6px solid #D3D3D3;
+border-style: outset;
+padding:20px 40px; 
+background:#f6f6f6;
+width:650px;
+margin-bottom: 45px;
+border-radius:25px;
+-moz-border-radius:25px; /* Firefox 3.6 and earlier */
+box-shadow: 8px 8px 8px #97999c;
+}
+a.link
+{
+color:#000000;
+}
+</style>
+[page]
+<div class="author">By <a href="/forums/member.php?u=28543">Eraddd</a>.</div>
+<table id="comp-header">
+    <tr>
+        <td class="home"><a href="/competitor/">Home Page</a></td>
+        <td class="index"><a href="/competitor/archive">Articles Index</a></td>
+    </tr>
+</table>
+
+<h2>Introduction</h2>
+
+<p>In the first installment of the Top 3 Tournaments, the BW2 OU Team Tournament, the OU Calvary: BW Edition and From Start To Finish tournaments are explored. With the rather interesting twists in these tournaments, how will competitors fare in these new unfamiliar environments and what can they do to optimize their chances of victory? With the helpful input of Earthworm and Stone_Cold, two respected tournament players, this installment aims to bring you an introduction and insight into these three tournaments! </p>
+
+<h3>BW2 OU Team Tournament - Hosted by <a href="/forums/member.php?u=13130" class="link">locopoke</a></h3> 
+
+<div class="border">
+<p>This tournament, hosted by locopoke, seems to be the standard team tournament: standard BW2 OU rules, teams of five, etc. Yet, there's an element within this tournament that completely changes how the tournament functions: the winning team has to swap out a teammate for someone on the losing squad. With this new twist added in, this tournament seems to take the definition of teamwork and backstabbing beyond its normal limits seen on Smogon.</p>
+
+<p>At first glance, it seems your starting teammates are fairly crucial; in a team tournament, playing depth is highly important. Having a team of <a href="/forums/member.php?u=15210">Earthworm</a>, and four <a href="/forums/member.php?u=7964">Lonelynesses</a> will probably net you one win and a knockout. Rather, having a team that has good depth will get your far. But be sure not to be the one on the lower part of the skill spectrum on your team, or you risk being kicked out at the end of the round if you lose your match or don't play at all (an additional incentive for johns to play).</p>
+
+<p>Secondly, it seems that the first matchup is fairly important in succeeding in the tournament; playing against a team of scrubs will net you a rather easy win, but it won't supply the needed component and depth for your team to go deep into the tournament. Rather, playing a team with at least one decent player is crucial, since your next opposing team is more likely than not to have improved from its previous match. Matchups in future rounds are critical to your team's success as it allows you to slowly round your team out into championship form.</p>
+
+<p>Finally, after speaking with World Cup runner-up captain <a href="/forums/member.php?u=14910">Stone_Cold</a>, he feels that teamwork is another crucial part of success in this tournament. He stresses communication between teammates and strategy building before going into matchups; a team that rushes in to play their matches won't be as nearly as successful as the one that sits back and strategizes before playing their games. However, don't get too attached, as your fickle teammates might kick you out after winning a round!</p>
+
+<div class="button"><a href="/forums/showthread.php?t=3472280">Visit the Thread</a></div>
+</div>
+
+<h3>OU Cavalry: BW Edition - Hosted by <a href="/forums/member.php?u=115149" class="link">Sayonara</a></h3>
+
+<div class="border">
+<p>An old favourite coming back, the OU Calvary tournaments introduces one or more OU Pokemon into the BW2 UU metagame each round. A strong awareness of the UU metagame, along with good teambuilding, seems to be the obvious keys in winning matches here. A good knowledge of the UU metagame will allow you to successfully identify holes within teams that an OU pokemon can easily exploit with its generally stronger stats and movepool. Knowing the OU metagame also helps immensely, as not only will it allow you to predict what your opponents might use, it'll also help you counter some of these newly-released Pokemon. Along with this metagame knowledge comes teambuilding; fitting in an OU Pokemon into a UU team can prove unwieldy to a players. Proper fit and creativity are elements needed to design a coherent UU team with OU Pokemon thrown into the mix.</p>
+
+<div class="button"><a href="/forums/showthread.php?t=3472317">Visit the Thread</a></div>
+</div>
+
+<h3>From Start To Finish - Hosted by <a href="/forums/member.php?u=1668" class="link">Giga Punch</a></h3>
+
+<div class="border">
+<p>A tournament where the old farts of Smogon can feel at home finally. Giga Punch, with his general hatred of the newer metagames, brings back the old school days with a new school twist: Team Preview is turned on for all matches. The metagames played in this tournament are GSC, ADV, and DPP OU, all of which have not had Team Preview previously. With the metagame forming around the lack of Team Preview, how will this new change affect teams?</p>
+
+<p>In ADV OU, we turn to Head Tournament Director Earthworm. While Team Preview makes "lead-only" Pokemon obsolete, Earthworm argues that it won't make that big of an impact as leads don't play as big of a role in ADV OU due to the lack of Stealth Rock. However, the knowledge of the opposing obviously helps with prediction in terms of Choiced Pokemon, trappers etc. Also, it prevents being completely swept by the last Pokemon on the opposing team such as Suicune, Dragon Dance Tyranitar etc.</p>
+
+<p>Earthworm contends that in GSC OU, Team Preview will have even less of an impact. The only impact it'll make in the metagame he asserts is that as scouting is already done, there are far fewer surprises waiting for you on the battlefield, lessening the need to spam Roar. With leads being even less important than ADV OU, it's clear Team Preview doesn't make a huge impact on this metagame.</p>
+
+<p>In DPP OU, celebrated player Stone_Cold offers his take on this tournament. He asserts that with Team Preview, one defining element of DPP OU, the lead Stealth Rock Pokemon, is now worthless; while BW2 OU teams have a preferred lead, they aren't forced to start with it, making the team more versatile and the concept of lead-only Pokemon obsolete, a rather large contrast from ADV OU and GSC OU. Furthermore, he contends that the matches will be similar to those in the Weatherless BW OU Tournament.</p>
+
+<p>In terms of match ups, the obvious one that stands out early is <a href="/forums/member.php?u=79509">Ojama</a> and <a href="/forums/member.php?u=14109">Nachos</a>. Ojama, a member of the France WCOP team and a previous Frontier Brain, is a player known for his battling prowess on Smogon. Nachos was also a previous Frontier Brain and also is a writer for The Competitor, which obviously gives him the edge in this match up. Other than that, other strong competitors are The Competitor's own <a href="/forums/member.php?u=9718">Eo Ut Mortus</a>, <a href="/forums/member.php?u=1794">Floppy</a>, <a href="/forums/member.php?u=26018">6A9 Ace Matador</a>, and <a href="/forums/member.php?u=59679">McMeghan</a>, all of whom have shown success in tournaments in the past.</p>
+
+<div class="button"><a href="/forums/showthread.php?t=3472051">Visit the Thread</a></div>
+</div>
+
+
+
+<table id="comp-footer">
+    <tr>
+        <td class="home"><a href="/competitor/">Home Page</a></td>
+        <td class="index"><a href="/competitor/archive">Articles Index</a></td>
+    </tr>
+</table>

@@ -1,0 +1,721 @@
+[title]
+Capturing DP Legendaries
+[head]
+<meta name="description" content="A guide on effectively catching legendary Pokémon of requisite stats and nature in Diamond/Pearl." />
+[page]
+<div class="author">By <a href="/forums/member.php?u=5962">Arseus</a>, with help from <a href="/forums/member.php?u=7273">StrangerDanger</a>.</div>
+
+
+<ol class="toc">
+<li><a href="#preparations">Preparations</a>
+      <ul>
+		<li><a href="#capture_rate">Capture Rate</a></li>
+		<li><a href="#ball_capsules">Ball Capsules</a></li>
+		<li><a href="#synchronizer">The Synchronizer</a></li>
+		<li><a href="#catcher">The Catcher</a></li>
+		<li><a href="#the_one_under">The &quot;One Under&quot; Pokémon</a></li>
+		<li><a href="#other_items">Other Items and Pokémon</a></li>
+		<li><a href="#tricks">Tricks of the Trade</a></li>
+      </ul>
+</li>
+<li><a href="#catching">Catching the Legendaries</a>
+      <ul>
+	      <li><a href="#dialga_palkia">Dialga/Palkia</a></li>
+	      <li><a href="#uxie">Uxie</a></li>
+	      <li><a href="#mesprit">Mesprit</a></li>
+	      <li><a href="#azelf">Azelf</a></li>
+	      <li><a href="#heatran">Heatran</a></li>
+	      <li><a href="#slow_start">Regigigas</a></li>
+	      <li><a href="#giratina">Giratina</a></li>
+	      <li><a href="#cresselia">Cresselia</a></li>
+	      <li><a href="#manaphy">Manaphy</a></li>
+	      <li><a href="#darkrai">Darkrai</a></li>
+	      <li><a href="#shaymin">Shaymin</a></li>
+	      <li><a href="#arceus">Arceus</a></li>
+      </ul>
+</li>
+</ol>
+
+<h2><a name="preparations">Preparations</a></h2>
+
+<h3><a name="capture_rate">Capture Rate</a></h3>
+<p>Each legendary is assigned a numerical catch rate, as are all wild Pokémon. Essentially, the higher the Catch Rate, the higher the chance to capture. The Catch Rate is plugged into a formula, which determines whether the Pokémon will be captured or not. While the actual in-game formula is quite complex, Community Member <a href="/forums/member.php?u=2412">X-Act</a> has made a formula that produces nearly exact results.  Note to always round down should you get a decimal.</p>
+
+<pre>(( 1 + ( MaxHP * 3 - CurrentHP * 2 ) * CatchRate * BallRate * Status# ) / ( MaxHP * 3 )) / 256</pre>
+
+<p>Top Poké Ball Rates :</p>
+<ul>
+<li>Master Ball : 255</li>	
+<li>Timer Ball (30+ Turns) : 4</li>
+<li>Dusk Ball (In darkness) : 3.5</li>
+<li>Net Ball (Against a Bug- or Water-type) : 3</li>
+<li>Repeat Ball (Against previously caught Pokémon) : 3</li>
+<li>Ultra Ball : 2</li>
+<li>Great Ball : 1.5</li>
+</ul>
+
+<p>A Master Ball catches any wild Pokémon without fail, though it may only be obtained once through Cyrus, or winning the lottery in Jubilife City. Timer Balls begin at 1 and increase every 10 turns, with a cap of 4. Quick Balls begin at 4, and decrease to 1 after the first turn. Although these Balls can potentially lead to an easier capture than a Dusk Ball, they are more circumstantial.  All other Balls have a catch rate of 1 against the legendaries.  It is preferred to use either Dusk or Ultra Balls, keeping some Timer Balls in reserve.</p>
+
+<p>Status#s :</p>
+<ul>
+<li>Freeze : 2</li>
+<li>Sleep : 2</li>
+<li>Paralysis : 1.5</li>
+<li>Burn : 1.5</li>
+<li>Poison : 1.5</li>
+<li>None : 1</li>
+</ul>
+
+<p>As you can see, sleep is your best bet, due to the lack of reliable Freeze moves. Paralysis is a much lower #, so sleep moves are preferred. You should never poison or burn the legend; this sets a time limit on the longevity of your legend's lifespan.</p>
+
+<p>The catch rates of the legendaries are 3, except for Manaphy, which is obtained in an Egg, Dialga and Palkia, which are 30, and Shaymin, which is 45.</p>
+
+<p>Let's say we try and catch a Level 5 Max HP Magikarp with a Dusk Ball.  Magikarp's Catch Rate is 255.</p>
+
+<pre>
+Capture Rate = (( 1 + ( MaxHP × 3 - CurrentHP × 2 ) × CatchRate × BallRate × Status# ) ÷ ( MaxHP × 3 )) ÷ 256
+= (( 1 + ( 18 × 3 - 18 × 2 ) × 255 × 3.5 × 1 ) ÷ ( 18 × 3 )) ÷ 256
+= (( 1 + ( 54 - 36 ) × 255 × 3.5 × 1 ) ÷ ( 54 )) ÷ 256
+= (( 1 + 16065 ) ÷ 54 ) ÷ 256
+= ( 16066 ÷ 54 ) ÷ 256
+= 297 ÷ 256
+= 1.162181712962963
+= 100%
+</pre>
+<p>Any decimal numbers were not shown, and simply rounded down.</p>
+
+<p>So, if the end result is over 1, you have a 100% chance to capture the Pokémon.  However, due to varying IVs, it is difficult to know the Max HP of the legendaries, let alone determine their Current HP. The formula is nonetheless here for reference, and a little bit of insight on why certain Balls or status effects are used.</p>
+ 
+<h3><a name="ball_capsules">Ball Capsules</a></h3>
+
+<p>Just like you wouldn't go into the woods without proper equipment, you can't expect to catch the legendary Pokémon of Sinnoh without being prepared. You'll need to stock up on Poké Balls, as explained above, Dusk being the most effective. These can be picked up at most later-game PokéMarts, and are available before you fight your first legendary. You'll  want to have at least 50 Dusk Balls on you for each encounter, and there are 11 legendaries that are obtainable per game cartridge that are caught in Poké Balls (including event Pokémon). That totals 550 Dusk Balls, and you'll probably want to have at least 50 Ultra and/or Timer Balls in reserve.</p>
+ 
+<p>Granted, it wouldn't be most cost effective to go out and buy 600 Poké Balls at once, so it is best to only carry around 100 Dusk Balls and 50 Timer/Ultra Balls at one time. This is great if say, Uxie is caught on the first Dusk Ball thrown, whereas Azelf takes 65. If you haven't beaten the Elite Four yet, and you are in the forced battle with either Dialga or Palkia, 60 Ultra/Dusk Balls will do fine; they have the second highest catch rate for legendaries caught, and Ultra Balls could be your primary weapon if you don't want to wait for night. Shaymin can also be caught with Ultra Balls if need be. Timer Balls are a viable option if you are not battling in a cave, and if you wait long enough, which you typically shouldn't have to. Palkia has the added advantage of being easy to catch with Net Balls if you so choose. For the legendaries, bar Dialga/Palkia and the "runners" Mesprit and Cresselia, as well as the ones obtained in events, you can use Dusk Balls without worry; they are all conveniently located in caves, which boost Dusk Ball effectiveness. For the other legendaries, you'll have to wait until between 20:00 and 4:00 on your DS clock for the Dusk Balls to work to their full potential. Or, you could always clone a whole bunch of Master Balls via the GTS glitch or Pokémon Emerald.</p>
+
+<h3><a name="synchronizer">The Synchronizer</a></h3>
+
+<p>After you get yourself some Balls, you'll want to get a Synchronizer. "What's a Synchronizer?" you may ask. Well, when you have a Pokémon with the Synchronize in the first slot of your party, all wild Pokémon have a 50% chance of inheriting the nature of that Pokémon. An even better trait is that the Pokémon doesn't have to be alive for Synchronize to work its magic, so you can have a fainted Synchronizer at the start of your party, and the effects are intact. This way, you can have an increased chance of getting the nature you want, which is something you'll have to decide on your own; it is a trainer's personal preference on what nature to use. Refer to the analyses in the SmogonDex for ideas if you're stuck.</p>
+
+<p>Now, where will you find these Pokémon that Synchronize? Well, the list of all Pokémon that can have this trait is as follows:</p>
+ 
+<dl>
+	<dt>Abra, Kadabra, Alakazam, Mew, Natu, Xatu, Espeon, Umbreon, Ralts, Kirlia, and Gardevoir</dt>
+	<dd>If you're trying to catch Dialga or Palkia, you can pretty much limit that to Abra, Kadabra, or Alakazam. Unless you trade with somebody else who already has them, you cannot get the rest of the listed Pokémon before you beat the Elite 4 and obtain the National PokéDex. Abra and Kadabra can be found on Routes 203 (Abra only) and 215, but keep in mind, they might not have the nature you want, or even have the Synchronize ability. It's a pain for this little pre-National Dex portion of time, so the best you can do is probably convince someone to trade with you, or breed/catch an Abra/Kadabra/Alakazam with the nature you want for Dialga or Palkia.</dd>
+</dl>
+ 
+<p>After the National PokéDex (which is when it's the best time to capture the rest of the legendaries, as the version mascot will already be caught), it is considerably easier to get Synchronizers. You can soft reset at the Game Corner Prize Shop in FireRed/LeafGreen for Abra, or transfer over Synchronizers you had in the previous generation for catching Ditto in Emerald. You can also capture Natu, Ralts, and Kirlia in the wild, but it's not as time efficient as the other methods.</p>
+ 
+<h3><a name="catcher">The Catcher</a></h3>
+
+<p>Get your Synchronizer, and if you are planning on transferring over unlimited Master Balls from your previous generation games, feel free to read the little blurb about Manaphy and be on your way to the next section. If not, you'll probably need a good capturing Pokémon. What makes a good capturing Pokémon? A Pokémon that can learn both a reliable sleep move (70 accuracy and up) and False Swipe (a TM found in the Veilstone Department Store that keeps the wild Pokémon at 1 HP if it would have fainted) will do the job nicely. True, Dialga, Heatran, and Giratina in particular all laugh at the thought False Swipe, and the rest of the legendaries aren't going to be crippled by it, it's still great to get the HP of the legends' as low as possible before throwing your Balls. A list of Pokémon that meet the above criteria is as follows:</p>
+ 
+<dl>
+	<dt>Paras, Parasect, Mew, Smeargle, Breloom, and Gallade</dt>
+	<dd>Parasect is probably the easiest to obtain, but you must get it up to a very high level, with an Attack-boosting nature.  If you do end up using Parasect, make sure you obtain it in Diamond or Pearl, so it has the ability Dry Skin, rather than Effect Spore, which could give the legendary an undesired status ailment. Mew only learns Hypnosis via Pokémon XD and My Pokémon Ranch, and Gallade can only learn Hypnosis while it is Ralts or Kirlia, and False Swipe only once it is evolved into Gallade. However, Gallade also learns Mean Look as an Egg move, so it can be used to trap the runners as well.  Breloom is a good option as well, learning Spore, the most accurate sleep move available.  However, you must breed False Swipe onto it as an Egg move, and, like Parasect, avoid the Ability Effect Spore.  While Smeargle has access to Spore and a STAB- and potentially Technician-boosted False Swipe, its stats are poor, and it must Sketch the aforementioned moves from other Pokémon.  In conclusion, Gallade is probably the best, it's just a bit of a pain to get Ralts/Kirlia a high level to get Hypnosis, and even more of a pain to get a male one in the first place. Mind, your catcher should be of a high level anyway, hopefully level 50 (but not higher) if you are using it to catch Mesprit and Cresselia, and 80+ otherwise.  If you're aiming to catch Dialga or Palkia, you cannot get both False Swipe and a good high-levelled sleeping move on one Pokémon without trading, so your best bet is to get a Pokémon with Hypnosis, and whittle down its health a little. Luckily they are easier to catch anyway. A list of Pokémon who learn Hypnosis in Sinnoh naturally would be:</dd>
+ 
+	<dt>Gastly, Haunter, Gengar, Bronzor, Bronzong, Hoothoot, Noctowl, and Spiritomb</dt>
+	<dd>Out of this bunch, the best would arguably be Haunter/Gengar, as it is a good Pokémon that would be worth raising to help you in-game anyway. Gastly can be found in the Lost Tower near Solaceon Town.</dd>
+</dl>
+
+<h3><a name="the_one_under">The "One Under" Pokémon</a></h3>
+
+<p>An optional Pokémon that you may wish to take with you is the "one under" Pokémon. This is a Pokémon that has a Speed stat one point below the maximum of the legendary you're trying to catch. This is for the Pokémon you really need to have reach a certain speed. It isn't the wisest choice to bring one of these along for every legendary however; the "one under" Pokémon can be a pain to get, but it will be worth it if you don't have Master Balls. The idea is to switch your Synchronizer to the "one under", then have the latter use an attack. If the legendary goes first, switch to the capture Pokémon and continue the battle. If not, reset. This "one under" should either be of a high level or be holding a Focus Sash (which can be obtained from the man in the house west of the Pal Park the third time you show him a Pokémon).</p>  
+
+<p>If you are going for a defensive legendary who is not concerned about outspeeding certain threats, then you may wish to go for a different variation of the "one under" Pokémon that uses Endeavor.  Endeavor is a move that takes the foe's Pokémon's HP down to the HP the Endeavor user currently has, but fails if the Pokémon using Endeavor has more HP than its target.  This can be abused by giving your Endeavor Pokémon 1 less HP than the maximum HP of the legendary you are going for.  If your "one under" Pokémon's Endeavor attack fails, then you know that the legendary you are fighting does not have the amount of HP you are looking for, so you can reset without having to capture it.  If Endeavor takes the legendary's HP down, then you know it is fine to resume trying to capture it.  However, this Pokémon must also be faster than the legendary, so it does not risk taking damage, which would result in a false positive.  Unfortunately, Endeavor is a normal type move, which renders it ineffectual against Giratina, who is one of the Pokémon that could benefit from this strategy.</p>
+ 
+<h3><a name="other_items">Other Items and Pokémon</a></h3>
+
+<p>Take another stop at a PokéMart; you'll want to buy a few Revives and Hyper Potions/Max/Full Restores if you're far enough in the game. Revives are also found in the Underground fairly easily, along with their more powerful variant, Max Revives. These are mainly for keeping your main capture Pokémon alive, as well as the remainder of your party. About 30 Super Repels are almost mandatory too (these are actually more cost effective than Max Repels). 5 or so Escape Ropes are great (and almost necessary for after Heatran). You should always bring a team of 3 high-levelled Pokémon (the other two are HM slaves, but levelling them up is great) with your Synchronizer in the lead. The only exceptions are when you are catching Mesprit or Cresselia. In this case, you could use Wobbuffet in your first slot in order to trap them, or use Mean Look Gallade (this is recommended, as Gallade is an excellent catcher).</p>
+ 
+<p>If you are going to capture Regigigas, you will need to bring along Regirock, Regice, and Registeel, otherwise it will not enter battle with you. When going to catch Giratina, remember to bring a Pokémon with Defog, and optionally, one with the move Foresight, so that you may hit Giratina with Normal moves (notably, Endeavor and False Swipe). With Manaphy, you will need two Nintendo DS or DS Lite (or a combination of the two) systems, one with a copy of your game, and one with a completed Pokémon Ranger game that has not yet given out a Manaphy. If you don't own two systems, try borrowing one from a friend, as the actual act of transferring Manaphy doesn't take too long. Just be sure to beat Pokémon Ranger in advance. You will also need a random Pokémon, preferably with a different nature than the one you desire for Manaphy, and two boxes with empty spaces.</p>
+ 
+<h3><a name="tricks">Tricks of the Trade</a></h3>
+
+<p>So, before you go after even your first legendary (Dialga or Palkia), keep in mind a couple tips:</p>
+<ul>
+<li>Always save before the legendary. For Dialga/Palkia, save at least seven steps before you talk to them, as your character will walk straight up to them. With Arceus, you must save before you reach the top of the stairs.</li>
+ 
+<li>Check the stats in the legendary's section before you save, and after you compare the stats and are interested, check them with <a href="http://www.metalkid.info/Pokemon/OnlineProgram/Calculators/IV.aspx">Metalkid's IV Calculator</a>.  You can use some Rare Candies and record the stats for each level if you wish, but for legendaries this is generally not necessary due to the higher base stats.</li>
+ 
+<li>Learn about characteristics, as they can usually help you determine the exact IV of at least one stat when combined with an IV calculator and the stat list.</li>
+
+<li>Make sure you have a maximum of five Pokémon in your party whenever you are about to fight a legendary.  This allows you to check the nature and stats of your legendary while it is in your party, saving you a trip back to a Pokémon Center to check Bebe's PC.</li>
+
+<li>If you don't like the Pokémon, press L + R + Start + Select simultaneously.  This process is known as soft resetting.  It is less stressful on your system than turning the power off and on again, and it saves time for you as well.</li>
+
+<li>Keep realistic expectations. If you're only willing to accept a legendary with quadruple 31 IVs, you could be there for a very long time. It is much harder to get a legendary Pokémon with great IVs than a bred one.  That said, a process known as RNG manipulation can help you control what Pokémon will appear to you—see the full article on <a href="http://www.smogon.com/ingame/rng/dpp_rng_intro">RNG Manipulation</a> for more information.</li>
+ 
+<li>If you see an alternate-colored version of a legendary (accompanied by a blue sparkle), you may want to capture it, regardless of whether it has the nature and IVs you desire. Even if you don't care much for "shinies" at the moment, you'll probably end up regretting soft resetting later.</li>
+
+<li>Watch the HP bars if you're not using Master Balls. Compare the approximate damages done by your Pokémon to the HP of the legendary once you've caught it, and vice versa, with the legendary's Attack/Special Attack. This should help you out; if you do too much damage on a defensive legendary, you can reset without the battling process. The same goes for if an offensive one doesn't do enough damage to you.</li>
+ 
+<li>Future Sight, an attack used by quite a few Diamond and Pearl legendaries, has damage determined by the Special Defense of the Pokémon that is targeted. So if Azelf uses Future Sight against a level 1 Bidoof, and you switch to a level 100 Blissey, you'll still take massive damage when the attack hits.</li>
+
+<li>If a legendary runs out of Power Points for all its moves, it will use the move Struggle. Struggle is a typeless attack that causes 25% recoil of the user's maximum HP. So once a legendary starts to Struggle, it isn't long for this world, especially if you have previously used False Swipe to lower it to 1 HP.</li>
+
+<li>Unlike in later games such as Platinum and HeartGold/SoulSilver, there is no way to respawn a legendary if you flee from it or knock it out.  Thus, in Diamond and Pearl, you only have one shot to catch each legendary Pokémon, and you must capture either Dialga or Palkia respectively to advance.</li>
+</ul>
+
+<h2><a name="catching">Catching the Legendaries</a></h2>
+ 
+<p>Now that you have some more knowledge, or at least something to reference, get out a piece of paper and a pencil. Be prepared to make a little tick mark every time a legendary uses a move, and put two ticks if your Pokémon has the Ability Pressure.  This will be used to reference the amount of PP the legendaries have before Struggling, which is listed in this section.  Note that if your sleep-inducing Pokémon is faster than the legendary, it will use a PP (or two with Pressure) the turn it is put to sleep, and naturally it still uses PP the turn it wakes.  PP is not used up while the legendary is asleep.</p>
+ 
+<p>So, in what order should you catch the legendaries? Dialga/Palkia is first of course, but after you have obtained the National PokéDex it's a matter of personal preference. It's logical to go for the lower-levelled legendaries first, and work your way up. Doing the two "runners" (Mesprit and Cresselia) consecutively is likely going to be stressful however, and is not recommended. It is important to note that the IVs of the runners are set when you see their image after talking to them, so be sure to save then. So let's get started!</p>
+
+<h3><a name="dialga_palkia">Dialga/Palkia</a></h3>
+
+<p>The stars of Diamond and Pearl respectively, Dialga and Palkia are fairly easy to capture, by legendary standards. They are located at the top of Mt. Coronet, and you must either capture or defeat them to advance in the storyline. After you have beaten the head honcho of Team Galactic, Cyrus, Dialga/Palkia will wait for you to battle them. Be sure to heal any of your Pokémon that have fainted or been wounded from your heroic battles against Team Galactic, and save at least seven steps before the legendaries. If you are going to use Dusk Balls however, you must wait until 20:00-4:00, as Dialga and Palkia are not encountered in a dark area, unlike the majority of legendaries.  Both Dialga and Palkia are battled at level 47. As mentioned before, they are the among easiest to capture, and you probably won't get to the point of either needing to use Struggle. Their catch rate is 30, which is the same as Chatot's to put it in perspective.</p>
+
+<h4>Dialga's Maximum Stats</h4>
+<table class="sortable">		
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>	
+</thead>	
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>165</td> <td>-</td> 
+</tr>
+<tr>
+<td>Atk</td> <td>118</td> <td>132</td> <td>145</td> 
+</tr>
+<tr class="a">
+<td>Def</td> <td>118</td> <td>132</td> <td>145</td> 
+</tr>
+<tr>
+<td>SpA</td> <td>144</td> <td>160</td> <td>176</td> 
+</tr>
+<tr class="a">
+<td>SpD</td> <td>101</td> <td>113</td> <td>124</td> 
+</tr>
+<tr>
+<td>Spe</td> <td>93</td> <td>104</td> <td>114</td> 
+</tr>
+</tbody>
+</table>
+
+<h4>Dialga's Moveset</h4>
+<ul>
+<li><a href="/dp/moves/metal_claw">Metal Claw</a> (35 PP)</li>
+<li><a href="/dp/moves/ancientpower">AncientPower</a> (5 PP)</li>
+<li><a href="/dp/moves/dragon_claw">Dragon Claw</a> (15 PP)</li>
+<li><a href="/dp/moves/roar_of_time">Roar of Time</a> (5 PP)</li>
+<li>Total PP = 60</li>
+</ul>
+
+<p>Nothing really special here, but Roar of Time could be a problem if your team is underlevelled in the storyline, and AncientPower can annoy if it ups stats.</p>
+
+<h4>Palkia's Maximum Stats</h4>
+<table class="sortable">		
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>	
+</thead>	
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>156</td> <td>-</td> 
+</tr>
+<tr>
+<td>Atk</td> <td>118</td> <td>132</td> <td>145</td> 
+</tr>
+<tr class="a">
+<td>Def</td> <td>101</td> <td>113</td> <td>124</td> 
+</tr>
+<tr>
+<td>SpA</td> <td>144</td> <td>160</td> <td>176</td> 
+</tr>
+<tr class="a">
+<td>SpD</td> <td>118</td> <td>132</td> <td>145</td> 
+</tr>
+<tr>
+<td>Spe</td> <td>101</td> <td>113</td> <td>124</td> 
+</tr>
+</tbody>
+</table>
+
+<h4>Palkia's Moveset</h4>
+<ul>
+<li><a href="/dp/moves/water_pulse">Water Pulse</a> (20 PP)</li>
+<li><a href="/dp/moves/ancientpower">AncientPower</a> (5 PP)</li>
+<li><a href="/dp/moves/dragon_claw">Dragon Claw</a> (15 PP)</li>
+<li><a href="/dp/moves/spacial_rend">Spacial Rend</a> (5 PP)</li>
+<li>Total PP = 45</li>
+</ul>
+
+<p>Like Dialga, AncientPower can be a pain, but Spacial Rend's power and critical hit rate are nothing to laugh at.</p>
+ 
+<p>Palkia has less Power Points than Dialga, but can also be caught in Net Balls if it's not night.  There's nothing really important to keep in mind during the battle against Dialga/Palkia, but be careful not to make them faint; you likely won't have a good capture Pokémon yet. However, be sure to turn straight around and take the Adamant/Lustrous Orb that is behind the legendary before you leave.</p>
+ 
+<p>After you capture the version mascot, gather up the rest of your supplies and prepare to catch the legendaries in whatever order you choose. How do you get the National Dex without catching the Psychic trio first? Lose against Uxie and Azelf, and trade for Mesprit. If you can't do this, you will be limited to what you can use for Synchronize and capture.</p> 
+ 
+<h3><a name="uxie">Uxie</a></h3>
+
+<p>Uxie is found in Acuity Cavern, which is, guess where, in the middle of Lake Acuity. This is the lake just west of Snowpoint City. Simply spray a few Super Repels as you're on your way, and Surf onto the little rocky island that houses a cave. Inside is the defensive one of the Psychic trio, Uxie. You can walk/bike right up to Uxie without it attacking you, so go ahead and go into the space in front of it to save.  Uxie is fought at level 50.</p>
+
+<h4>Uxie's Maximum Stats</h4>
+<table class="sortable">		
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>	
+</thead>	
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>150</td> <td>-</td> 
+</tr>
+<tr>
+<td>Atk</td> <td>85</td> <td>95</td> <td>104</td> 
+</tr>
+<tr class="a">
+<td>Def</td> <td>135</td> <td>150</td> <td>165</td> 
+</tr>
+<tr>
+<td>SpA</td> <td>85</td> <td>95</td> <td>104</td> 
+</tr>
+<tr class="a">
+<td>SpD</td> <td>135</td> <td>150</td> <td>165</td> 
+</tr>
+<tr>
+<td>Spe</td> <td>103</td> <td>115</td> <td>126</td> 
+</tr>
+</tbody>
+</table>
+
+<h4>Uxie's Moveset</h4>
+<ul>
+<li><a href="/dp/moves/confusion">Confusion</a> (25 PP)</li>
+<li><a href="/dp/moves/yawn">Yawn</a> (10 PP)</li>
+<li><a href="/dp/moves/future_sight">Future Sight</a> (15 PP)</li>
+<li><a href="/dp/moves/amnesia">Amnesia</a> (20 PP)</li>
+<li>Total PP = 70</li>
+</ul>
+
+<p>Yawn can be a bother, but if you switch your Pokémon out, it will negate its effects. Being confused is never fun, but a 10% (or maybe 20% for the AI) confusion chance isn't anything to live in fear about. Before you leave Lake Acuity for good, check the land in the northeastern corner for a Poké Ball containing a TM14 Blizzard.</p>
+ 
+<h3><a name="mesprit">Mesprit</a></h3>
+
+<p>Unlike most legendaries, Synchronize will not work on Mesprit.  It is hiding at Lake Verity, but it won't stay there for long. Be sure check the land in the southwestern corner for a TM25 Thunder, and set the Pokétch Map Application as your current App. This is obtained from the Pokétch Creator in Jubilife City, after you have won 3 Gym Badges. Go to Twinleaf Town, using a Super Repel as you're on your way, and Surf onto the little rocky island that houses a cave. Inside is the balanced one of the trio, Mesprit. You can walk/bike right up to Mesprit without it attacking you, so go ahead and go into the space in front of it to save. Mesprit's nature and IVs are set when you talk to it. However, it will run off, and you'll have to go through a dialogue with Professor Rowan every time it does. If you're not using Master Balls, be sure it's between 20:00 and 4:00.</p>
+ 
+<p>Mesprit will jump to a random route on the map. It cannot appear at lakes, in cities, or in caves, but everywhere else is fair game. If you Fly somewhere, Mesprit appears to jump to a random route, but if you move onto a different route (or in longer routes, a different section of the same route) Mesprit will move to an adjacent route. If it tries to move through a city, cave, or any of the lakes, it may jump to a random location as well. Instead of chasing the thing all across Sinnoh, Fly to Jubilife city.</p>
+ 
+<p>Now, get on your Bike and switch to the faster gear, if you aren't on it already. Watch Mesprit's location on the Pokétch (it's marked by a little Pikachu head) and go from a route branching out from Jubilife back in. What you are doing is making Mesprit change location. Eventually, it will either appear in your route, or in a route around Jubilife. Remember that moving to the adjacent route will force Mesprit to switch, so if you're in Jubilife and it's in the route to the left, try heading into one of the other routes and hope it ends up there. A word of precaution : the route just above Jubilife has a cave in the middle, and the two sections of plain land are separate locations. If Mesprit is in the part of the route directly linked to Jubilife, it will appear right above the city, without a space. If your lead Pokémon is level 50 or below, spray a Super Repel to keep other wild Pokémon away. If your lead is over level 50, do not use any Repels, as that would prevent Mesprit from showing up.  Luckily, Mesprit will have an increased chance of showing up in any area it's in.  Mesprit is fought at level 50.</p>
+
+<h4>Mesprit's Maximum Stats</h4>
+<table class="sortable">		
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>	
+</thead>	
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>155</td> <td>-</td> 
+</tr>
+<tr>
+<td>Atk</td> <td>112</td> <td>125</td> <td>137</td> 
+</tr>
+<tr class="a">
+<td>Def</td> <td>112</td> <td>125</td> <td>137</td> 
+</tr>
+<tr>
+<td>SpA</td> <td>112</td> <td>125</td> <td>137</td> 
+</tr>
+<tr class="a">
+<td>SpD</td> <td>112</td> <td>125</td> <td>137</td> 
+</tr>
+<tr>
+<td>Spe</td> <td>90</td> <td>100</td> <td>110</td> 
+</tr>
+</tbody>
+</table>
+
+<h4>Mesprit's Moveset</h4>
+<ul>
+<li><a href="/dp/moves/confusion">Confusion</a> (25 PP)</li>
+<li><a href="/dp/moves/lucky_chant">Lucky Chant</a> (30 PP)</li>
+<li><a href="/dp/moves/future_sight">Future Sight</a> (15 PP)</li>
+<li><a href="/dp/moves/charm">Charm</a> (20 PP)</li>
+<li>Total PP = 90</li>
+</ul>
+
+<p>Be sure to trap Mesprit right away; it will attempt to flee the very first turn of battle. Chances are you'll have to soft reset a fair bit to get a Mesprit with a good nature and decent IVs.</p>
+
+<h3><a name="azelf">Azelf</a></h3>
+
+<p>Azelf is found in Valor Cavern, in the middle of Lake Valor. In case you're too lazy to check the town map, this is the lake just southwest of Veilstone City. Simply spray a few Super Repels as you're on your way, and Surf onto the little rocky island that houses a cave. The offensive one of the trio, Azelf resides here. You can walk/bike right up to Azelf without it attacking you, so go ahead and go into the space in front of it to save.  Azelf is fought at level 50.</p>
+
+<h4>Azelf's Maximum Stats</h4>
+<table class="sortable">		
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>	
+</thead>	
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>150</td> <td>-</td> 
+</tr>
+<tr>
+<td>Atk</td> <td>130</td> <td>145</td> <td>159</td> 
+</tr>
+<tr class="a">
+<td>Def</td> <td>81</td> <td>90</td> <td>99</td> 
+</tr>
+<tr>
+<td>SpA</td> <td>130</td> <td>145</td> <td>159</td> 
+</tr>
+<tr class="a">
+<td>SpD</td> <td>81</td> <td>90</td> <td>99</td> 
+</tr>
+<tr>
+<td>Spe</td> <td>121</td> <td>135</td> <td>148</td> 
+</tr>
+</tbody>
+</table>
+ 
+<h4>Azelf's Moveset</h4>
+<ul>
+<li><a href="/dp/moves/confusion">Confusion</a> (25 PP)</li>
+<li><a href="/dp/moves/uproar">Uproar</a> (10 PP)</li>
+<li><a href="/dp/moves/future_sight">Future Sight</a> (15 PP)</li>
+<li><a href="/dp/moves/nasty_plot">Nasty Plot</a> (20 PP)</li>
+<li>Total PP = 70</li>
+</ul>
+
+<p>Uproar prevents sleep status for 2 to 5 turns, though luckily it's only 1 PP for that amount of time (2 under Pressure), and with Nasty Plot it can rip through your team if it's underlevelled.  Before you depart from Lake Valor, check the land in the southeastern corner for a Poké Ball containing a TM38 Fire Blast.</p>
+ 
+<h3><a name="heatran">Heatran</a></h3>
+
+<p>Heatran is the only legendary at this time to have a random gender. To be able to capture this Pokémon however, you need to complete a side quest. Go to Stark Mountain, which is the northmost location of the island with the Battle, Survival, and Resort Areas. You will then enter the mountain, and team up with someone named Buck to get through. Super Repels are very useful; Stark Mountain is so huge the in-game camera occasionally zooms out. Once you bring Buck to the room Heatran appears in later, he will take an item called the Magma Rock and cause a disturbance.</p>
+ 
+<p>Now you must head to the Survival Area, and talk to Buck in one of the houses. He'll bring Heatran the rock back, but the legendary would still like to fight someone. So, head back to Stark Mountain, making sure you still have lots of Super Repels and an HM Slave with Rock Smash, Strength and Rock Climb.  Go back to the room you took Buck into, to find Heatran. It is at level 70.</p>
+
+<h4>Heatran's Maximum Stats</h4>
+<table class="sortable">		
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Maat beaten the Elite Four yet, and you are in the forced battle with either Dialga or Palkia, 60 UltraKirlia a high level to get Hypnosis, and even more of a pain to get a male one in the first place. Mind, your catcher should be of a high level anyway, hopefully level 50 (but not higher) if you are using it to catch Mesprit and Cresselia, and 80+ otherwise.  If youx+</th>
+</tr>	
+</thead>	
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>229</td> <td>-</td> 
+</tr>
+<tr>
+<td>Atk</td> <td>136</td> <td>152</td> <td>167</td> 
+</tr>
+<tr class="a">
+<td>Def</td> <td>157</td> <td>175</td> <td>192</td> 
+</tr>
+<tr>
+<td>SpA</td> <td>187</td> <td>208</td> <td>228</td> 
+</tr>
+<tr class="a">
+<td>SpD</td> <td>157</td> <td>175</td> <td>192</td> 
+</tr>
+<tr>
+<td>Spe</td> <td>120</td> <td>134</td> <td>147</td> 
+</tr>
+</tbody>
+</table>
+ 
+<h4>Heatran's Moveset</h4>
+<ul>
+<li><a href="/dp/moves/scary_face">Scary Face</a> (10 PP)</li>
+<li><a href="/dp/moves/lava_plume">Lava Plume</a> (15 PP)</li>
+<li><a href="/dp/moves/fire_spin">Fire Spin</a> (15 PP)</li>
+<li><a href="/dp/moves/iron_head">Iron Head</a> (15 PP)</li>
+<li>Total PP = 55</li>
+</ul>
+
+<p>Heatran isn't too problematic, but Scary Face can throw off the "one under" strategy mentioned earlier, and Fire Spin will trap your Pokémon unless it is holding a Shed Shell (which it doesn't really need to). Use an Escape Rope to get out of Stark Mountain afterwards.</p>
+ 
+<h3><a name="slow_start">Regigigas</a></h3>
+
+<p>To capture Regigigas you'll need the three Regis in your party, and only an HM slave that knows Rock Smash. Regigigas is located in Snowpoint Temple, right above Snowpoint City, so you can easily just walk to the Pokémon Center. You will however, need to bring some Super Repels. This is because the temple contains ice puzzles, which you can solve by sliding on the right tiles, in the right directions. Once you reach the "King of Regis," you can save right in front of it. You will also have to go through longer than usual dialogue every time you soft reset, due to the forced reading of an inscription on this "statue".  Regigigas is at level 70, but it can't get it going because of its Slow Start, and its Attack and Speed are halved for 5 turns.</p>
+
+<h4>Regigigas's Maximum Stats</h4>
+<table class="sortable">		
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>	
+</thead>	
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>255</td> <td>-</td> 
+</tr>
+<tr>
+<td>Atk</td> <td>225</td> <td>250</td> <td>275</td> 
+</tr>
+<tr class="a">
+<td>Def</td> <td>162</td> <td>180</td> <td>198</td> 
+</tr>
+<tr>
+<td>SpA</td> <td>124</td> <td>138</td> <td>151</td> 
+</tr>
+<tr class="a">
+<td>SpD</td> <td>162</td> <td>180</td> <td>198</td> 
+</tr>
+<tr>
+<td>Spe</td> <td>149</td> <td>166</td> <td>182</td> 
+</tr>
+</tbody>
+</table>
+
+ 
+<h4>Regigigas's Moveset</h4>
+<ul>
+<li><a href="/dp/moves/confuse_ray">Confuse Ray</a> (10 PP)</li>
+<li><a href="/dp/moves/stomp">Stomp</a> (20 PP)</li>
+<li><a href="/dp/moves/superpower">Superpower</a> (5 PP)</li>
+<li><a href="/dp/moves/zen_headbutt">Zen Headbutt</a>(15 PP)</li>
+<li>Total PP = 50</li>
+</ul>
+
+<p>Confuse Ray can be annoying, but really, Regigigas doesn't pose much of a threat, with Slow Start taken into account.  Superpower works against it in the long run, especially if Regigigas uses it while under the effects of Slow Start.</p>
+ 
+<h3><a name="giratina">Giratina (Altered Forme)</a></h3>
+
+<p>In Pokémon Diamond and Pearl, Giratina hides away during the main storyline, taking the time to level up to level 70.  It has Ghost as one of its types, so it is immune to Normal moves such as False Swipe and Endeavor, unless you use Foresight against it.  Whether you bring a Pokémon with Foresight or not, bring lots of Super Repels. Giratina uncovers its lake after you get the National PokéDex, and it can be seen on the map southeast of Veilstone City.   Find the entrance to Turnback Cave, spray some Super Repels, and enter. You must now stumble through the cave (preferably using Defog first) and find Giratina within 30 rooms. Despite the name of the cave, don't turn back, as doing so will take you back to the entrance. Once you find the room with the Ghost/Dragon, walk right up to it and save.  Giratina is fought at level 70, and knows Shadow Force, a strong Ghost-type Fly-esque attack to which Normal types are immune.  However, whenever Giratina vanishes during the use of Shadow Force, you will be unable to throw a Poké Ball until it reappears.</p>
+
+<h4>Giratina's Maximum Stats</h4>
+<table class="sortable">		
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>	
+</thead>	
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>311</td> <td>-</td> 
+</tr>
+<tr>
+<td>Atk</td> <td>149</td> <td>166</td> <td>182</td> 
+</tr>
+<tr class="a">
+<td>Def</td> <td>174</td> <td>194</td> <td>213</td> 
+</tr>
+<tr>
+<td>SpA</td> <td>149</td> <td>166</td> <td>182</td> 
+</tr>
+<tr class="a">
+<td>SpD</td> <td>174</td> <td>194</td> <td>213</td> 
+</tr>
+<tr>
+<td>Spe</td> <td>136</td> <td>152</td> <td>167</td> 
+</tr>
+</tbody>
+</table>
+ 
+<h4>Giratina's Moveset</h4>
+<ul>
+<li><a href="/dp/moves/shadow_force">Shadow Force</a> (5 PP)</li>
+<li><a href="/dp/moves/heal_block">Heal Block</a> (15 PP)</li>
+<li><a href="/dp/moves/earth_power">Earth Power</a> (10 PP)</li>
+<li><a href="/dp/moves/slash">Slash</a> (20 PP)</li>
+<li>Total PP = 50</li>
+</ul>
+
+<p>In Diamond and Pearl, Giratina is in its defensive forme, and has the ability Pressure, meaning it will be susceptible to Ground attacks, but will drain your PP faster than its Origin Forme in Platinum.  It has a very strong attack in Shadow Force, but luckily it has few PP, and Normal Types are immune to it. Slash's critical hit rate can be a bother, as can Earth Power's Special Defense drop (though luckily Earth Power is Giratina's only special attack). Combine this with Heal Block preventing any natural healing, and you'll probably need to switch out a fair bit.</p>
+ 
+<h3><a name="cresselia">Cresselia</a></h3>
+
+<p>Like Mesprit, Synchronize doesn't work on Cresseila.  In the same vein as Shaymin, she also only gets the regular Pokémon battle music. To get to Cresselia, first go to Canalave City and enter the Sailor's house. Talk to the sick boy, and then have the Sailor take you to Fullmoon Island. Set Pokétch Map Application as your current App. This is obtained from the Pokétch Creator in Jubilife City, after you have won 3 Gym Badges, and is used for tracking down Mesprit, who is usually caught first. Go to Fullmoon Island, then walk into Cresselia's little grove. Keep in mind you must be on the main island to use Fly. You can walk/bike right up to Cresselia without it attacking you, so go ahead and go into the space in front of it to save. Cresselia's nature and IVs are set when you talk to it. However, it will run off, not unlike Mesprit. Be sure to pick up the Lunar Wing it drops. If you're not using Master Balls, be sure it's between 20:00 and 4:00 when you go to hunt Cresselia down.</p>
+ 
+<p>Cresselia will jump to a random route on the map. It cannot appear at lakes, in cities, or in caves, but everywhere else is fair game. If you Fly somewhere, Cresselia appears to jump to a random route, but if you move onto a different route (or in longer routes, a different section of the same route) Cresselia will move to an adjacent route. If it tries to move through a city, cave, or any of the lakes, it may jump to a random location as well. Instead of chasing her all across Sinnoh, Fly to Jubilife city.</p>
+ 
+<p>Get on your Bike and switch to the faster gear, if you aren't on it already. Now, watch Cresselia's location on the Pokétch (it's marked by a little Pikachu head) and go from a route branching out from Jubilife back in. What you are doing is making Cresselia change location. Eventually, it will either appear in your route, or in a route around Jubilife. Remember that moving to the adjacent route will force Cresselia to switch, so if you're in Jubilife and it's in the route to the left, try heading into one of the other routes and hope it ends up there. In case you forgot: the route just above Jubilife has a cave in the middle, and the two sections of plain land are separate locations. If Cresselia is in the part of the route directly linked to Jubilife, it will appear right above the city, without a space. If your lead Pokémon is level 50 or below, spray a Super Repel to keep other wild Pokémon away. If your lead is over level 50, do not use any Repels, as that would prevent Cresselia from showing up.  Luckily, Cresselia will have an increased chance of showing up in any area it's in.  Cresselia is fought at level 50.</p>
+
+<h4>Cresselia's Maximum Stats</h4>
+<table class="sortable">		
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>	
+</thead>	
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>195</td> <td>-</td> 
+</tr>
+<tr>
+<td>Atk</td> <td>81</td> <td>90</td> <td>99</td> 
+</tr>
+<tr class="a">
+<td>Def</td> <td>126</td> <td>140</td> <td>154</td> 
+</tr>
+<tr>
+<td>SpA</td> <td>85</td> <td>95</td> <td>104</td> 
+</tr>
+<tr class="a">
+<td>SpD</td> <td>135</td> <td>150</td> <td>165</td> 
+</tr>
+<tr>
+<td>Spe</td> <td>94</td> <td>105</td> <td>115</td> 
+</tr>
+</tbody>
+</table>
+ 
+<h4>Cresselia's Moveset</h4>
+<ul>
+<li><a href="/dp/moves/mist">Mist</a> (30 PP)</li>
+<li><a href="/dp/moves/aurora_beam">Aurora Beam</a> (20 PP)</li>
+<li><a href="/dp/moves/future_sight">Future Sight</a> (15 PP)</li>
+<li><a href="/dp/moves/slash">Slash</a> (20 PP)</li>
+<li>Total PP = 85</li>
+</ul>
+
+<p>Cresselia's moveset shouldn't give you much trouble, and she has plenty of Power Points to use before she Struggles.  Remember to cure the little boy from his Bad Dreams once you're done.</p>
+ 
+<p>That's it for the orthodox legendaries. Now, it's time to learn about legendaries that cannot be obtained normally in-game.</p>
+ 
+<h3><a name="manaphy">Manaphy</a></h3>
+
+<p>Manaphy is a special event Pokémon, and can be obtained in many different ways.  This is the way to get it from the Pokémon Ranger games.  This form of Manaphy is an Egg, so be sure to have a Pokémon with Magma Body or Flame Armor in your party; Slugma and Magcargo can only have the two abilities, so it's easiest to use it.</p>
+
+<p>First, you must unlock the Manaphy mission in your Pokémon Ranger game.  In Shadows of Almia and Guardian Signs, this is done by downloading and completing a special mission when it is broadcast over Wi-Fi.  In the original Pokémon Ranger, the Manaphy mission can be unlocked at any time by going to the Ranger Net upon completing the game.  When "Play a special mission" is displayed on the bottom screen, press the R and X buttons, as well as left on the directional pad simultaneously.  The game will then tell you "Enter the password has been added."  Tap the touch screen, and the game will save.  The password menu is now unlocked, and can be found under the "Play a special mission" option.  Upon choosing the new "Enter the password." option, you will be prompted to enter the password for the Manaphy mission.  For the North American version of the game the password is P8M2-9D6F-43H7 and for the European version it is Mg35-Cpb8-4FW8.  In Japan, you must download the mission via a special event.</p>
+
+<p>After entering the code, the game will save and must be turned off.  Restart your Pokémon Ranger game, and return to the Ranger Net.  Go to the "Play a special mission" option, and select the mission "Recover the Precious Egg!".  Complete this mission to obtain Manaphy's Egg in the Pokémon Ranger game.  Now, go to the Ranger Net once again, and select the new "Check the Egg" option.  This is the part where the second DS system and your Pokémon Diamond or Pearl game comes in.</p>
+
+<p>Turn on Pokémon Diamond/Pearl in your other DS system, and leave it at the main menu.  Now, tap the screen in your Pokémon Ranger game, and press Send Message.  A message saying Pokémon Ranger is trying to communicate will appear on Diamond/Pearl, so press the A button to confirm.  Next, select "Link with Pokémon Ranger" on the main menu.  On Pokémon Ranger, you should now see the option to transfer.  Select this option, and the Manaphy Egg will be transferred to Diamond/Pearl.  Ranger is no longer required.</p>
+
+<p>Once you go to a PokéMart in Diamond/Pearl, you will find a man in a green uniform. This is the delivery man—the same man that gives you the items you transfer from Pokémon Battle Revolution, or the event Pokémon items. Save before talking to him; once you do, you receive the Manaphy Egg, and its IVs and Nature are set.</p>
+ 
+<p>Next, go to a Pokémon Center computer, select "Bebe's PC", then "Move Pokémon".  Have a random Pokémon in the first slot of any box, then put your Manaphy Egg in the first slot of the box that either directly proceeds or succeeds it.  Go back to the first Pokémon, and let the hand cursor hover over it. Wait until its type is displayed in the bottom left corner of the screen for about three seconds, then press L (if the Egg is in the preceding box) or R (if it is in the succeeding box).  If you timed it correctly, you should see a flash of Manaphy's nature. If it's no good, soft reset and get the Egg again. If you like it, then hatch it and Rare Candy it up to check IVs. If it's no good again, soft reset, but if they're good enough for you, take it! However, due to Manaphy being level 1, it is best you still Rare Candy it up a bit and put its stats in the IV Calculator. Since it is obtained in an Egg, Manaphy's catch rate does not apply.</p>
+ 
+<h3><a name="darkrai">Darkrai</a></h3>
+ 
+<p>Darkrai is a special event Pokémon, and can be given out in multiple ways. This is the way to get it via the Member's Card Event. First, you must receive the Member's Card from the Nintendo Event, via the Mystery Gift. You may then go to any Pokémart in Sinnoh and talk to the delivery man to get the item in your bag. Then, go to Canalave City, and go to the Harbor Inn, which is the last building to the north of the Pokémon Center. After talking to the man there, take a rest. When you wake up, you will be on Newmoon island, where Darkrai resides. It is found in a clearing, much like Cresselia. Darkrai is at level 40 when you battle it, and has a sleep-inducing move, so be careful.</p>
+
+<h4>Darkrai's Maximum Stats</h4>
+<table class="sortable">		
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>	
+</thead>	
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>118</td> <td>-</td> 
+</tr>
+<tr>
+<td>Atk</td> <td>80</td> <td>89</td> <td>97</td> 
+</tr>
+<tr class="a">
+<td>Def</td> <td>80</td> <td>89</td> <td>97</td> 
+
+</tr>
+<tr>
+<td>SpA</td> <td>112</td> <td>125</td> <td>137</td> 
+</tr>
+<tr class="a">
+<td>SpD</td> <td>80</td> <td>89</td> <td>97</td> 
+</tr>
+<tr>
+<td>Spe</td> <td>105</td> <td>117</td> <td>128</td> 
+</tr>
+</tbody>
+</table>
+ 
+<h4>Darkrai's Moveset</h4>
+<ul> 
+<li><a href="/dp/moves/quick_attack">Quick Attack</a> (30 PP)</li>
+<li><a href="/dp/moves/hypnosis">Hypnosis</a> (20 PP)</li>
+<li><a href="/dp/moves/pursuit">Pursuit</a> (20 PP)</li>
+<li><a href="/dp/moves/nightmare">Nightmare</a> (15 PP)</li> 
+<li>Total PP = 85</li>
+</ul>
+
+<p>Hypnosis combined with Nightmare can be a bit of a pain, as can Pursuit if you ever need to switch a Pokémon out. Luckily however, Darkrai is only level 40, lower than most other legendaries, making it somewhat easier to deal with.</p>
+ 
+<h3><a name="shaymin">Shaymin (Land Forme)</a></h3>
+ 
+<p>Shaymin is a special event Pokémon, and can be given out in multiple ways. This is the way to get it via the Oak's Letter Event. First, you must receive Oak's Letter from the Nintendo Event, via the Mystery Gift. You may then go to any PokéMart in Sinnoh and talk to the delivery man to get the item in your bag. Then, fly to the upper Pokémon League. Surf back down to Victory Road, and follow the path that was once blocked. Here you team up with a trainer named Marley to get through. Once you reach Route 224, you will find Professor Oak at a stone tablet. He will ask you to write the name of the person that helped you most throughout your adventures on the tablet. You can put whatever you want here and it will extend the route, causing lots of flowers to appear. Shaymin will pop out to say hi, then run away. Follow the rather long Seabreak Path up to Flower Paradise. Shaymin will be standing atop a hill.  Shaymin is level 30 when you battle it, and is the easiest to capture of all the legendaries. For whatever reason, it does not get the legendary music. Perhaps this is because it has a catch rate of 45, which is the highest of all legendaries, and equal to Kricketune.</p>
+
+<h4>Shaymin's Maximum Stats</h4>
+<table class="sortable">		
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>	
+</thead>	
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>109</td> <td>-</td> 
+</tr>
+<tr>
+<td>Atk</td> <td>66</td> <td>74</td> <td>81</td> 
+</tr>
+<tr class="a">
+<td>Def</td> <td>66</td> <td>74</td> <td>81</td> 
+</tr>
+<tr>
+<td>SpA</td> <td>66</td> <td>74</td> <td>81</td> 
+</tr>
+<tr class="a">
+<td>SpD</td> <td>66</td> <td>74</td> <td>81</td> 
+</tr>
+<tr>
+<td>Spe</td> <td>66</td> <td>74</td> <td>81</td> 
+</tr>
+</tbody>
+</table>
+
+ 
+<h4>Shaymin's Moveset</h4>
+<ul>
+<li><a href="/dp/moves/defense_curl">Defense Curl</a> (40 PP)</li>
+<li><a href="/dp/moves/magical_leaf">Magical Leaf</a> (20 PP)</li>
+<li><a href="/dp/moves/leech_seed">Leech Seed</a> (10 PP)</li>
+<li><a href="/dp/moves/synthesis">Synthesis</a> (5 PP)</li>
+<li>Total PP = 75</li></ul>
+ 
+<p>Leech Seed and Synthesis may be a bit of a pain, but Shaymin, at level 30, doesn't pose much of a threat. It can also be captured by Ultra Balls if you don't want to wait until 20:00-4:00.</p>
+ 
+<h3><a name="arceus">Arceus</a></h3>
+ 
+<p>Arceus is a very special event Pokémon, and can be given out in multiple ways. This is the way to get it via the Azure Flute Event. First, you must receive the Azure Flute from the Nintendo Event, via the Mystery Gift. You may then go to any PokéMart in Sinnoh and talk to the delivery man to get the item in your bag. Then, you must climb Mt. Coronet once again, up to the Spear Pillar. Immediately, you will notice a mystic symbol, and the Azure Flute will begin making a noise. Play a melody with it, and a glowing stairway will appear. Climb it, but be sure to save before you reach the top; you will automatically approach Arceus in a scripted event as soon as you touch the upper platform. There, the Alpha Pokémon awaits.  Arceus is level 80, the highest wild Pokémon that you can capture to this date. As such, your party should be prepared.</p>
+
+<h4>Arceus's Maximum Stats</h4>
+<table class="sortable">		
+<thead>
+<tr>
+<th>Stat</th> <th>Max-</th> <th>Max</th> <th>Max+</th>
+</tr>	
+</thead>	
+<tbody>
+<tr class="a">
+<td>HP</td> <td>-</td> <td>306</td> <td>-</td> 
+</tr>
+<tr>
+<td>Atk</td> <td>198</td> <td>221</td> <td>243</td> 
+</tr>
+<tr class="a">
+<td>Def</td> <td>198</td> <td>221</td> <td>243</td> 
+</tr>
+<tr>
+<td>SpA</td> <td>198</td> <td>221</td> <td>243</td> 
+</tr>
+<tr class="a">
+<td>SpD</td> <td>198</td> <td>221</td> <td>243</td> 
+</tr>
+<tr>
+<td>Spe</td> <td>198</td> <td>221</td> <td>243</td> 
+</tr>
+</tbody>
+</table>
+ 
+<h4>Arceus's Moveset</h4>
+<ul>
+<li><a href="/dp/moves/refresh">Refresh</a> (20 PP)</li>
+<li><a href="/dp/moves/future_sight">Future Sight</a> (15 PP)</li>
+<li><a href="/dp/moves/recover">Recover</a> (10 PP)</li>
+<li><a href="/dp/moves/hyper_beam">Hyper Beam</a> (5 PP)</li>
+<li>Total PP = 50</li>
+</ul>
+ 
+<p>Yes, the Alpha Pokémon does indeed use Hyper Beam. While it can cause massive damage to your Pokémon, Arceus also must recharge the next turn, giving you time to heal or lull it to sleep again. Future Sight is nothing to laugh at either, but not as much of a threat if your Pokémon are appropriately levelled. Recover can get annoying, but Refresh is pretty much a free turn for you; after all, you should be using the Sleep status, which cannot be cured with Refresh. The battle with the Alpha Pokémon will likely be the most difficult, but it's nothing a high-leveled party can't handle.</p>
+
+<p>Note that Manaphy, Darkrai, Shaymin, and Arceus may all be given out as trades (making it impossible to soft reset), or Wondercard events.  For a Wondercard event, if the legendary is not assigned a specific nature (it would be wise to research the event you are attending or downloading over Wi-Fi), you may reset in front of the man in green like you would for a Manaphy Egg.  The IVs and nature are set when you pick up the Pokémon; Synchronize does not work in this situation.  These Pokémon may also be given out at different levels than the stats in their respective section may suggest; it is recommended to consult an online stat calculator when you learn the level your legendary will be at.</p>

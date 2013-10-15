@@ -1,0 +1,173 @@
+[title]
+Featured OU RMT
+[head]
+<link href="/media/smog/smog.css" type="text/css" rel="stylesheet" />
+<style type="text/css">
+#border {
+   border-style:solid;
+   border-width:1px;
+   border-color:#adadad;
+   background-color:#ededed;
+   margin:10px;
+   padding:10px;
+}   
+
+.center {
+    text-align:center;
+}    
+</style>
+[page]
+<div class="author">Team by <a href="/forums/member.php?u=29308">Iconic</a>, with commentary by <a href="/forums/member.php?u=41971">Aerrow</a>.</div>
+<table id="smogheader">
+<tr>
+<td class="left"><a href="lcteamstyles">&laquo; Previous Article</a></td>
+<td class="middle"><a href="/smog/issue14/">Home</a></td>
+<td class="right"><a href="featured_rmt_lc">Next Article &raquo;</a></td>
+</tr>
+</table>
+
+<div id="border">
+<div class="center"><h2>Layla</h2></div>
+
+<h2>Introduction</h2>
+
+<p>It's safe to say that throughout the last testing period, the OU metagame was in a very unstable state. The sparse banlist that was chosen by the majority of Policy Review members meant that amazingly powerful offensive Pokemon like Deoxys-A, Darkrai and Shaymin-S were fair game in standard play. In addition, new threats introduced in Black and White, specifically the obscure users of the ability Inconsistent, further added to the unbalanced nature of the metagame. Despite this, my experiences with Generation V so far have been mainly positive, not due to the fact that the metagame is enjoyable, but simply because a young Generation is a time for new sets to be discovered and for creativity to thrive. While this team is by no means revolutionary, I did my best to figure out which overlooked Pokemon work well in this metagame dominated by a select few offensive and defensive threats.</p>
+
+<p>For a while I was convinced that offensive was an inferior playing style with the advent of amazing defensive Pokemon like Burungeru and Nattorei, who made spikestacking stall teams more viable than ever. I used a team with that exact core for a few weeks simply because every attempt I made at running offense failed. To be honest, this team was more or less made in the attempts to prove to myself that I could get offense to work for me after having seen other players have success with it. Although the team isn't exactly offense in it's purest sense since some of its members are fairly bulky, I play it just as if it were a hyperoffensive team, relying on resistances and overwhelming attacks to open up and opportunity to sweep rather than using the bulk to counter every relevant threat.</p>
+
+<p>I've had a pretty good degree of success with this team, using it to qualify three of my accounts for voting rights, although admittedly I tested other teams with them. After the qualifying period was over, I used this team to bring my alt Layla to a rating of 1509, good enough for #1 on the ladder, which explains the team's name. I'm the first to say that ladder rankings don't really matter, I just included them to show the team's effectiveness since there haven't been any formal Gen 5 tournaments. I've spread the team around a little bit, and I think Bloo and DJXO9 have had some success with it, so I guess I may as well retire it. Moreover, I figure now would be a good time to post my team since once this testing period ends, numerous Pokemon will be banned and the nature of the metagame will inevitably shift once again.</p> 
+
+<div class="center">
+<p><img src="/download/sprites/dp/248.png" alt="Tyranitar" /><img src="/download/sprites/dp/477.png" alt="Gliscor" /><img src="/download/sprites/dp/212.png" alt="Scizor" /><img src="/download/sprites/dp/503.png" alt="Rotom-W" /><img src="/download/sprites/dp/505.png" alt="Shaymin-S" /><img src="/media/smog/14/featuredourmt_terrakion.png" alt="Terrakion" /></p>
+</div>
+
+<h3>The Team</h3>
+
+<p><img src="/download/sprites/dp/248.png" alt="Tyranitar" /><br />
+Tyranitar (M) @ Leftovers<br />
+Trait: Sand Stream<br />
+EVs: 252 HP / 180 SAtk / 76 SDef<br />
+Sassy Nature (+SDef, -Spd)<br />
+- Flamethrower<br />
+- Ice Beam<br />
+- Crunch<br />
+- Stealth Rock</p>
+
+<p>This is without a doubt the weirdest set on the team, and probably the strangest thing I've ever used, but I swear it works. Rain has been everywhere since the release of Drizzle Politoed, so naturally I needed a weather inducer to deal with the archetypal Politoed + Manaphy + Swift Swinmer teams. I settled on your average Tyranitar, but with a few tweaks. Thanks to Ice Beam, Flamethrower and the Special Attack investment, I'm able to easily deal with Gliscor, Nattorei and Skarmory, who are incredibly common in the current metagame. I opted for Crunch as the final move at the suggestion of many users, and it lets me hit Lati@s and Rankurusu harder than Dark Pulse, which is what I was previously using. Since I only needed a small investment to ensure the OHKO on Gliscor and 2HKO on Nattorei and Skarmory, I was able to load up Tyranitar's already stellar Special Defense to help with absorbing attacks.</p>
+
+<p>Tyranitar is the closest thing I have to a lead, seeing as the position was made obsolete due to Team Preview. I needed Stealth Rock somewhere on my team, and Tyranitar was the only one who had room for it. I've tried Superpower over Stealth Rock but I found I really needed it to keep Shaymin-S at bay since I'm already quite weak to it. Even though it was banned, Stealth Rock helps wear down offensive teams, putting them into KO range for Shaymin-S or Terrakion to clean up. I also tried Lum Berry to deal with Darkrai better, but they usually just Focus Blast right off the bat, and Leftovers is far more useful mid-game.</p>
+
+<p><img src="/download/sprites/dp/477.png" alt="Gliscor" /><br />
+Gliscor (M) @ Toxic Orb<br />
+Trait: Poison Heal<br />
+EVs: 252 HP / 236 Def / 20 Spd<br />
+Impish Nature (+Def, -SAtk)<br />
+- Swords Dance<br />
+- Taunt<br />
+- Facade<br />
+- Earthquake</p>
+
+<p>The Iconicscor (although I guess Iris deserves some of the credit)! This is another weird set, but it's extremely effective and is currently my favourite thing to use in the entire metagame.</p>
+
+<p>This is your classic Poison Heal Gliscor with a few unique changes. When I used Gliscor on my old team, Iris recommended I try Taunt over Protect to prevent Nattorei and Skarmory from setting up Spikes. The more I though about it, the more I realized how brilliant the idea was, so I began using Taunt Gliscor with Swords Dance to give me a way of actually damaging them after they've been hit with Taunt. Without room for Fling and Acrobat, I figured I'd use Facade for consistent neutral damage on just about everything. I guess Ice Fang would help against opposing Gliscor, but Swords Dance let's me beat most of them anyways, and Facade is surprisingly stronger than Ice Fang on a lot of things like Skarmory and the Lati twins.</p>
+
+<p>Gliscor is my go-to guy for a lot of common physical threats. All the EVs in Defense are to let me reliably counter Roobushin and Doryuuzu, and it also makes it easier to set up on various Pokemon (Skarmory does something like 10% with Brave Bird). With Poison Heal and immunity to Sandstorm damage, Gliscor is incredibly hard to take down. The small investment in Speed let me outrun a few insignificant things like bulky Rotom-A as well as most other Gliscor.</p> 
+
+<p><img src="/download/sprites/dp/212.png" alt="Scizor" /><br />
+Scizor (M) @ Lum Berry<br />
+Trait: Technician<br />
+EVs: 240 HP / 16 Atk / 252 SDef<br />
+Adamant Nature (+Atk, -SAtk)<br />
+- Swords Dance<br />
+- Bug Bite<br />
+- Bullet Punch<br />
+- Roost</p>
+
+<p>I started using this Scizor after Jabba straight up 6-0ed me with it... twice. I think it was initially created by locopoke though, but regardless, credits to both of them for this great set. Lum Berry Scizor is a really cool way of beating Darkrai, especially since the bulk let's me survive everything it can throw at me bar a +2 Life Orb Focus Blast. I made up the EVs myself, and I'm sure someone out there has a better spread for me, but I just made sure I could OHKO Darkrai with Bug Bite and then put the rest in its Special Defense to sponge Latios' and Sazandora's attacks. I think the Attack EVs are to ensure I can OHKO Darkrai with Bug Bite, and it lets me 3HKO Shaymin-S with Bullet Punch after Stealth Rock.</p>
+
+<p>Scizor is the second of my bulky Swords Dance sweepers, and it works extremely well with Gliscor. On one hand, Gliscor is great at setting up against slow sturdy things like Skarmory, Pokemon that Scizor can't reliably defeat. On the other hand, Scizor can set up on the likes of Darkrai and Burungeru, Roosting off most damage it sustains, which Gliscor greatly benefits from. I've always been a fan of strategies which involve luring and killing counters for another team member to pave the way for a sweep, and Gliscor and Scizor do this exceedingly well.</p> 
+
+<p><img src="/download/sprites/dp/503.png" alt="Rotom-W" /><br />
+Rotom-W @ Leftovers<br />
+Trait: Levitate<br />
+EVs: 164 HP / 252 SAtk / 92 Spd<br />
+Modest Nature (+SAtk, -Atk)<br />
+- Hydro Pump<br />
+- Thunderbolt<br />
+- Hidden Power [Fire]<br />
+- Pain Split</p>
+
+<p>In my opinion, Rotom-W is one of the most valuable Pokemon in the current metagame. I'm sure its usefulness will decrease if Drizzle is banned, but as it stands, Rotom-W is all I really need to deal with Rain teams. Thanks to its new typing, it brings to the table resistances to Water- and Ice-type attacks, the two types Rain teams primarily rely on. My thought process against Rain teams is simple: predict a Swift Swimmer and Thunderbolt, predict anything else and unleash a STAB Rain boosted Hydro Pump. Rotom-W's dual STAB yields amazing coverage, but it's unfortunately resisted by Nattorei. Since most Rain teams are usually paired with Nattorei, I decided to use Hidden Power Fire instead of Will-O-Wisp. As long as it's not raining, which I ensure by playing Tyranitar strategically when I see Nattorei on a Rain team, Rotom-W will always 2HKO it.</p>
+
+<p>Rotom-W is one of my main offensive powerhouses, but I gave it Leftovers instead of something like Life Orb or Choice Specs because I found the increased survivability to be more alluring than extra power. I never really considered Specs because I needed the freedom to change attacks in order to lure Nattorei, and Life Orb plus Sandstorm damage would mean Rotom-W dies too quickly. Pain Split doesn't get a lot of use, but it's there in case of emergencies, and it can be useful if I predict Blissey or Chansey switching in.</p>
+
+<p><img src="/download/sprites/dp/505.png" alt="Shaymin-S" /><br />
+Shaymin-S @ Leftovers<br />
+Trait: Serene Grace<br />
+EVs: 4 Def / 252 SAtk / 252 Spd<br />
+Timid Nature (+Spd, -Atk)<br />
+- Substitute<br />
+- Leech Seed<br />
+- Seed Flare<br />
+- Air Slash</p>
+
+<p>Shaymin-S is the Pokemon I decided to base my entire team around. I knew from DP Suspect Testing that SubSeed Shaymin-S was really good, and since BW revolves mainly around bulky teams, I figured Shaymin-S would have a lot of opportunities to get a Substitute up and flinch its way to victory. I honestly don't find myself using Leech Seed very often, as I'm usually just flinching everything left and right with Air Slash. Seed Flare is cool if I don't have a Sub up and I want to either kill something or dent whatever switches in. The great thing about SubSeed Shaymin-S is that if a counter comes in on a Seed Flare, because I'm not restricted by a Choice item, I can usually flinch my way past it if I get the Special Defense drop.</p>
+
+<p>Strangely enough, Shaymin-S is my answer to both offensive and bulky teams thanks to its blazing Speed. It is amazing against Rain teams as long as I'm conservative with Tyranitar, but it is equally as good versus the standard Nattorei and Burungeru defensive core. Since Shaymin-S was recently banned, I'll be needing to replace this little guy. Its presence in OU made Standard extremely difficult to play, as its combination of speed and power in addition to the luck it introduced was extremely overwhelming. Although it has been a great asset to my team, I'm very glad Shaymin-S is gone.</p> 
+
+<p><img src="/media/smog/14/featuredourmt_terrakion.png" alt="Terrakion" /><br />
+Terrakion @ Choice Scarf<br />
+Trait: Justice Heart<br />
+EVs: 252 Atk / 4 Def / 252 Spd<br />
+Jolly Nature (+Spd, -SAtk)<br />
+- Close Combat<br />
+- Stone Edge<br />
+- Earthquake<br />
+- X-Scissor</p>
+
+<p>After I put together the previous five members of the team, I looked at it and noticed how it was relatively slow. Seeing as I had most things covered between the other five Pokemon, I settled on a dedicated revenge killer as my final team member. Terrakion is a really good Scarfer because it checks the majority of the obvious Suspects, such as Darkrai, Shaymin-S and Deoxys. Granted it can't really switch in to any of their attacks, it can OHKO them all and usually nets a surprise kill since Terrakion is naturally slower than all three.</p>
+
+<p>Terrakion is really good to bring in late game and simply clean everything up with Close Combat. Since most physical walls fall to Gliscor, Terrakion is really hard to stop as long as I don't reveal him early. Sometimes I'm forced to do just that if it means I can kill off something threatening like Darkrai, but it's usually well worth it. STAB Close Combat and Stone Edge are amazing assets to any Pokemon, and Terrakion's amazing Speed thanks to Choice Scarf lets him abuse this to the fullest. Earthquake and X-Scissor are never really touched, they're just nice for coverage moves if I really need something dead. I decided to go for Jolly instead of Adamant because the ability to beat Scarf Garchomp is really useful, and the slight loss in power is really not that big of a deal.</p>
+
+<h2>Conclusion</h2>
+
+<p>In closing, I'd like to extend a big thank you to everyone who helped me with the team, whether it was suggesting changes or testing it. There are too many people to list, but you know who you are! I'm hoping to continue using at least a variation of this team for the rest of Gen 5, but I'll obviously need to change things like Shaymin-S as the metagame develops. I hope you enjoyed reading this RMT [...].</p>
+</div>
+
+<h2>Overview</h2>
+
+<p>If you played in Round 1 of Suspect Testing, you'll know what I mean when I state that the metagame was really, and I mean <em>really</em>, unstable. Only the most skilled and competent players were able to make successful teams, as team building got very complicated, since you had to prepare your teams for not only vicious newcomers such as Terrakion and Excadrill, but also frightening Generation 4 Ubers, including the Deoxys forms, Darkrai, and, of course, Shaymin-S. Iconic was one of the few players who successfully built a team that was able to deal with most of (and I say “most of” since in the first round of testing, it was pretty much impossible to build a team of six Pokemon that could deal with every possible threat) the threats that he would likely be running into. Team Layla is based around one of the very Pokemon that found itself banned by <em>all</em> of the suspect test voters: Shaymin-S. Iconic's team specifically abuses SubSeed Shaymin-S and hopes to defeat Shaymin-S's primary counters by creating a decent amount of momentum and simultaneously checking the metagame's top threats like Deoxys-A, Darkrai, and opposing Shaymin-S, allowing Iconic's own Shaymin-S to pull off a late-game sweep.</p>
+
+<h2>Lead</h2>
+
+<p>Although the new Team Preview feature of Generation 5 has pretty much decimated what we knew to be the definition of a conventional lead Pokemon, Team Layla's Tyranitar seems to fit this role best, as Iconic himself has stated that this is the closest thing he had to a lead. Iconic runs a specially defensive, supporting MixTar, or in simpler words a tweaked, Mixed Tyranitar suited for his team's needs. Not only does this Pokemon help form the defensive backbone of the team by absorbing deadly assaults such as Latios's Draco Meteor, but it also acts as a wallbreaker, as it lures in and defeats Pokemon such as Nattorei and Skarmory, both of which give Shaymin-S problems while sweeping. Lastly, Tyranitar provides the team with Stealth Rock support, which is much needed in a metagame infested with countless Shaymin-S; also, it simply helps the team's offensive core in breaking down an opponent's team at a faster rate.</p>
+
+<h2>Core</h2>
+
+<p>Team Layla's unique core consists of Tyranitar, Scizor, Gliscor, and Rotom-W, which together, have amazing synergy. It is this synergy that helps break down the opponent's offensive and defensive cores, while simultaneously presenting a powerful offensive threat. Tyranitar provides the ever-so necessary special sponging, as well as checking and defeating Pokemon such as Latios and Latias, both of which threaten this team. Swords Dance Gliscor is part one of the two-stage offensive backbone of Team Layla; it helps greatly when it comes to dealing with defensive Steel-types including Ferrothorn and Skarmory, which may threaten Shaymin-S and Terrakion. Gliscor is more or less this team's physical wall as its defensive EV spread and natural bulk, coupled with Poison Heal makes the scorpion really difficult to defeat on the physical side; simultaneously, Gliscor does well at presenting an offensive threat, as after it has shut down Pokemon like Ferrothorn through Taunt, it's free to set up Swords Dance in preparation for a potential sweep.</p>
+
+<p>Scizor is the second piece of this team's offensive backbone. Unlike Gliscor, which generally shuts down helpless defensive Pokemon like Skarmory and then sets up, Scizor strives to defeat (and set up on) fast, offensive Pokemon including Darkrai and Deoxys-A through its powerful Technician-boosted, STAB Bullet Punch. Scizor is also able to set up on and defeat certain defensive Pokemon that Gliscor has trouble with, including Jellicent, as thanks to Lum Berry, Scizor can easily defeat it without worrying about a burn. Last, but certainly not least, Rotom-W completes the core of this team, providing useful Electric- and Water-type resistances, which help greatly when it comes to dealing with the abundance of rain teams infesting the metagame; Rotom-W also presents a great offensive threat courtesy of its amazing STAB attacks and respectable base 105 Special Attack stat, while threatening defensive Pokemon like Chansey and Blissey through Pain Split at the same time. Hidden Power Fire allows Rotom-W to also effectively deal with Ferrothorn, as long as it isn't raining. As is clear, this team's core is quite offensively-based, yet with an unique defensive pivot.</p>
+
+<h2>Sweepers</h2>
+
+<p>By definition, every member on this team would be classified as a sweeper, as they all have a certain offensively-orientated role that they are expected to fulfill in a battle; however, for the sake of simplicity, I'll just be talking about the "main sweepers" of this team: Choice Scarf Terrakion and SubSeed Shaymin-S. As well as being this team's revenge killer, Terrakion also plays the special role of assisting Shaymin-S's sweep late-game by cleaning up after the Gratitude Pokemon has done its job, as the majority of Terrakion's checks&mdash;physical walls&mdash;will have fallen by that time, allowing it to wrap up a battle through either repeated Close Combats or Stone Edges. However, as a revenge killer, Terrakion experiences action way before Shaymin-S comes onto the field, as Terrakion plays a huge role in defeating Pokemon such as Deoxys-A, Darkrai, and opposing Shaymin-S, which can all cause irreversible damage to Team Layla's core.</p>
+
+<p>Shaymin-S, the well known pest that can flinch even the likes of specially defensive behemoth Blissey to death, had been chosen by Iconic to be the center of his team, and for good reason. On top of its amazing ability, Serene Grace, which doubles the chance of secondary effects (like flinches from Air Slash and Special Defense drops from Seed Flare), Shaymin-S boasts an amazing base 120 Special Attack stat as well as a lightning fast base 127 Speed stat, which magnifies its offensive capabilities. Late-game, when the majority of its counters and checks have been eliminated by the rest of its team, Shaymin-S can wreak havoc on a weakened team. If Shaymin-S is behind a Substitute, it's extremely likely that it'll be flinching its way past most switch-ins through Air Slash, especially if its opponent has received a Special Defense drop courtesy of Seed Flare.</p>
+
+<h2>Threats</h2>
+
+<p>Although Team Layla was quite solid and had most of the threats it would encounter covered, there were still a couple of Pokemon that would undoubtedly cause this team a great deal of trouble if they found the opportunity to come in (and set up, if applicable). Stallbreaking Thundurus sets were the foremost of these threats as any variant carrying Thunderbolt, Hammer Arm, Thunder Wave, and Hidden Power Ice would be able to blow a major hole in this team since in most cases, a Pokemon would have to be sacrificed; even revenge killing efforts would result in either Terrakion or Shaymin-S being heavily crippled by priority Thunder Wave. Porygon2 will also be harassing this team a lot, as Iconic will need to try one of three things to defeat Porygon2: get Scizor to set up on it (at least two Swords Dances are required to defeat Porygon2), hope that Terrakion's Close Combat KOes, or try to flinch it to death with Shaymin-S.</p>
+
+<p>Swords Dance Speed Boost Blaziken is also a problem for this team as if it is able to get a Swords Dance up (which is easily obtainable against Scizor and Tyranitar), as well as a couple of Speed boosts, there would be practically nothing that Team Layla could do to save itself, other than to hope for a Hi Jump Kick miss. Swords Dance Garchomp also seems to be a significant threat to this team, as a boosted Garchomp would likely force Iconic to sacrifice a Pokemon (most probably Gliscor), allowing Terrakion or even Shaymin-S to come in and revenge kill the land shark. What makes Garchomp even more threatening is the fact that Iconic's Tyranitar activates Garchomp's dreadful Sand Veil ability, which makes just simply attacking it a nightmare. Lastly, opposing weather teams, most notably, rain teams, will be a huge problem if Iconic's Tyranitar has been defeated, so when using this team, Iconic must play conservatively with Tyranitar, as a hasty move may cost him the game.</p>
+
+<h2>Conclusion</h2>
+
+<p>Team Layla has undoubtedly been one of the best teams that Generation 5 has seen so far, and is probably going to be the candle that will light up several more successful teams to come in the future. The sets that Iconic designed have increased drastically in terms of popularity, and for good reason too, as they're quite effective in what they do. Although it's a shame to see this team go, especially after the success it has brought its user(s) and the game-breaking impacts it had on the standard metagame, it's heartening to see how one person's ingenuity can revolutionize the metagame at such a substantial level. Being a distinctively unique team featuring several previously thought unorthodox strategies, Team Layla is sure to have inspired many other interesting teams in its wake.</p> 
+
+<table id="smogfooter">
+<tr>
+<td class="left"><a href="lcteamstyles">&laquo; Previous Article</a></td>
+<td class="middle"><a href="/smog/issue14/">Home</a></td>
+<td class="right"><a href="featured_rmt_lc">Next Article &raquo;</a></td>
+</tr>
+</table>

@@ -1,0 +1,5002 @@
+[title]
+Attaques
+[head]
+<meta name="description" content="Index French articles." />
+[page]
+
+    <table class="sortable">
+    <thead>
+    <tr>
+        <th>Nom français</th>
+        <th>Nom anglais</th>
+        <th>Puissance</th>
+        <th>Précision</th>
+        <th>PP</th>
+        <th>Cible</th>
+        <th>Description</th>
+    </tr>
+    </thead>
+    <tbody>
+<tr class="a">
+        <td><a href="/fr/moves/a_la_queue">A la Queue</a></td>
+		<td><a href="/bw/moves/quash">Quash</a></td>
+        <td>-</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Force la cible à attaquer en dernier.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/abime">Abime</a></td>
+		<td><a href="/bw/moves/fissure">Fissure</a></td>
+        <td>1</td>
+        <td>30%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>OHKO la cible.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/aboiement">Aboiement</a></td>
+		<td><a href="/bw/moves/snarl">Snarl</a></td>
+        <td>55</td>
+        <td>95%</td>
+        <td>15</td>
+        <td>Tous les ennemis</td>
+        <td>Baisse l'Attaque Spéciale de la cible d'1 niveau.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/abri">Abri</a></td>
+		<td><a href="/bw/moves/protect">Protect</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>10</td>
+        <td>Lanceur</td>
+        <td>Protège le lanceur des attaques.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/acidarmure">Acidarmure</a></td>
+    	<td><a href="/bw/moves/acid_armor">Acid Armor</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>40</td>
+        <td>Lanceur</td>
+        <td>Augmente la Défense du lanceur de 2 niveaux.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/acide">Acide</a></td>
+    	<td><a href="/bw/moves/acid">Acid</a></td>
+        <td>40</td>
+        <td>100%</td>
+        <td>30</td>
+        <td>Tous les ennemis</td>
+        <td>10% de chances de baisser la Défense Spéciale d'1 niveau.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/acrobatie">Acrobatie</a></td>
+    	<td><a href="/bw/moves/acrobatics">Acrobatics</a></td>
+        <td>55</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Puissance doublée si le lanceur ne tient pas d'objet.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/acupression">Acupression</a></td>
+    	<td><a href="/bw/moves/acupressure">Acupressure</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>30</td>
+        <td>Lanceur ou allié</td>
+        <td>Augmente une stat aléatoire de 2 niveaux.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/adaptation">Adaptation</a></td>
+		<td><a href="/bw/moves/conversion">Conversion</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>30</td>
+        <td>Lanceur</td>
+        <td>Change le type du lanceur en fonction de ses autres attaques.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/aeroblast">Aeroblast</a></td>
+    	<td><a href="/bw/moves/aeroblast">Aeroblast</a></td>
+        <td>100</td>
+        <td>95%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>Taux de critiques élevé.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/aeropique">Aeropique</a></td>
+    	<td><a href="/bw/moves/aerial_ace">Aerial Ace</a></td>
+        <td>60</td>
+        <td>-</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Ignore les changements de précision.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/affutage">Affutage</a></td>
+		<td><a href="/bw/moves/sharpen">Sharpen</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>30</td>
+        <td>Lanceur</td>
+        <td>Augmente l'Attaque du lanceur d'1 niveau.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/aiguisage">Aiguisage</a></td>
+		<td><a href="/bw/moves/hone_claws">Hone Claws</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>15</td>
+        <td>Lanceur</td>
+        <td>Augmente l'Attaque et la précision du lanceur d'1 niveau.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/aile_d_acier">Aile d'Acier</a></td>
+		<td><a href="/bw/moves/steel_wing">Steel Wing</a></td>
+        <td>70</td>
+        <td>90%</td>
+        <td>25</td>
+        <td>Unique hors lanceur</td>
+        <td>10% de chances d'augmenter la Défense du lanceur d'1 niveau.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/air_veinard">Air Veinard</a></td>
+		<td><a href="/bw/moves/lucky_chant">Lucky Chant</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>30</td>
+        <td>Équipe du lanceur</td>
+        <td>Empêche les coups critiques.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/aire_d_eau">Aire d'Eau</a></td>
+		<td><a href="/bw/moves/water_pledge">Water Pledge</a></td>
+        <td>50</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Utiliser avec Aire de Feu et Aire d'Herbe pour plus d'effets.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/aire_dherbe">Aire d'Herbe</a></td>
+		<td><a href="/bw/moves/grass_pledge">Grass Pledge</a></td>
+        <td>50</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Utiliser avec Aire d'Eau et Aire de Feu pour plus d'effets.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/aire_de_feu">Aire de Feu</a></td>
+		<td><a href="/bw/moves/fire_pledge">Fire Pledge</a></td>
+        <td>50</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Utiliser avec Aire d'Eau et Aire d'Herbe pour plus d'effets.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/allegement">Allegement</a></td>
+		<td><a href="/bw/moves/autotomize">Autotomize</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>15</td>
+        <td>Lanceur</td>
+        <td>Augmente de 2 niveaux la Vitesse du lanceur. Divise son poids par 2.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/amnesie">Amnesie</a></td>
+		<td><a href="/bw/moves/amnesia">Amnesia</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>20</td>
+        <td>Lanceur</td>
+        <td>Augmente la Défense Spéciale du lanceur de 2 niveaux.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/ampleur">Ampleur</a></td>
+		<td><a href="/bw/moves/magnitude">Magnitude</a></td>
+        <td>1</td>
+        <td>100%</td>
+        <td>30</td>
+        <td>Toutes hors lanceur</td>
+        <td>Inflige des dégâts variables. Les cibles utilisant Tunnel sont touchées avec une Puissance doublée.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/anneau_hydro">Anneau Hydro</a></td>
+		<td><a href="/bw/moves/aqua_ring">Aqua Ring</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>20</td>
+        <td>Lanceur</td>
+        <td>Le lanceur régénère 1/16 de ses PV Max chaque tour.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/anti_air">Anti-Air</a></td>
+		<td><a href="/bw/moves/smack_down">Smack Down</a></td>
+        <td>50</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Supprime le type Vol de la cible. Touche les Pokémon lançant Rebond ou Vol.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/anti_brume">Anti-Brume</a></td>
+		<td><a href="/bw/moves/defog">Defog</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Baisse l'esquive de la cible d'1 niveau. Retire certains effets de terrain.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/anti_soin">Anti-Soin</a></td>
+		<td><a href="/bw/moves/heal_block">Heal Block</a></td>
+        <td>-</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Tous les ennemis</td>
+        <td>Empêche les ennemis d'utiliser des attaques pour se soigner pendant 5 tours.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/appel_attak">Appel Attak</a></td>
+		<td><a href="/bw/moves/attack_order">Attack Order</a></td>
+        <td>90</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Taux de critiques élevé.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/appel_defens">Appel Defens</a></td>
+		<td><a href="/bw/moves/defend_order">Defend Order</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>10</td>
+        <td>Lanceur</td>
+        <td>Augmente la Défense et la Défense Spéciale du lanceur d'1 niveau.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/appel_soins">Appel Soins</a></td>
+		<td><a href="/bw/moves/heal_order">Heal Order</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>10</td>
+        <td>Lanceur</td>
+        <td>Soigne le lanceur de 50% de ses PV Max.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/apres_vous">Apres Vous</a></td>
+    	<td><a href="/bw/moves/after_you">After You</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>La cible attaquera automatiquement après le lanceur durant ce tour.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/aqua_jet">Aqua-Jet</a></td>
+		<td><a href="/bw/moves/aqua_jet">Aqua Jet</a></td>
+        <td>40</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Attaque à priorité +1.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/aromatherapi">Aromatherapi</a></td>
+		<td><a href="/bw/moves/aromatherapy">Aromatherapy</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>5</td>
+        <td>Équipe du lanceur</td>
+        <td>Soigne les statuts dans l'équipe du lanceur.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/armure">Armure</a></td>
+		<td><a href="/bw/moves/harden">Harden</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>30</td>
+        <td>Lanceur</td>
+        <td>Augmmente la Défense du lanceur d'1 niveau.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/assistance">Assistance</a></td>
+		<td><a href="/bw/moves/assist">Assist</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>20</td>
+        <td>Lanceur</td>
+        <td>Utilise une attaque aléatoire de l'équipe du lanceur.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/assurance">Assurance</a></td>
+		<td><a href="/bw/moves/assurance">Assurance</a></td>
+        <td>50</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Puissance doublée si la cible a déjà subit des dégâts durant le tour.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/astuce_force">Astuce Force</a></td>
+		<td><a href="/bw/moves/power_trick">Power Trick</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>10</td>
+        <td>Lanceur</td>
+        <td>Echange les stats d'Attaque et de Défense.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/atout">Atout</a></td>
+		<td><a href="/bw/moves/trump_card">Trump Card</a></td>
+        <td>1</td>
+        <td>-</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>La Puissance augmente quand les PP de l'attaque diminuent.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/atterrissage">Atterrissage</a></td>
+		<td><a href="/bw/moves/roost">Roost</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>10</td>
+        <td>Lanceur</td>
+        <td>Soigne 50% des PV Max du lanceur. Fait perdre temporairement au lanceur son type Vol.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/attraction">Attraction</a></td>
+		<td><a href="/bw/moves/attract">Attract</a></td>
+        <td>-</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Rend amoureux une cible du sexe opposée. La cible amoureuse a 50% de chances de ne pas attaquer chaque tour.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/attrition">Attrition</a></td>
+		<td><a href="/bw/moves/chip_away">Chip Away</a></td>
+        <td>70</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>N'est pas affectée par les changements de stats de la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/aurasphere">Aurasphere</a></td>
+		<td><a href="/bw/moves/aura_sphere">Aura Sphere</a></td>
+        <td>90</td>
+        <td>-</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Ignore les modifications d'esquive.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/aurore">Aurore</a></td>
+		<td><a href="/bw/moves/morning_sun">Morning Sun</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>5</td>
+        <td>Lanceur</td>
+        <td>Soigne le lanceur en fonction de la météo.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/avalanche">Avalanche</a></td>
+		<td><a href="/bw/moves/avalanche">Avalanche</a></td>
+        <td>60</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Puissance doublée si le lanceur a subit des dégâts de la cible ce tour-ci.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/avale">Avale</a></td>
+		<td><a href="/bw/moves/swallow">Swallow</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>10</td>
+        <td>Lanceur</td>
+        <td>Soigne le lanceur en fonction du nombre de fois où Stockage a été utilisée.</td>
+</tr>
+
+<tr>
+        <td><a href="/fr/moves/babil">Babil</a></td>
+		<td><a href="/bw/moves/chatter">Chatter</a></td>
+        <td>60</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Rend confus la cible.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/baillement">Baillement</a></td>
+		<td><a href="/bw/moves/yawn">Yawn</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Endort la cible à la fin du prochain tour.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/bain_de_smog">Bain de Smog</a></td>
+		<td><a href="/bw/moves/clear_smog">Clear Smog</a></td>
+        <td>50</td>
+        <td>-</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Elimine tous les changements de stats.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/balance">Balance</a></td>
+		<td><a href="/bw/moves/pain_split">Pain Split</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Partage équitablement les PV du lanceur et de la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/balayage">Balayage</a></td>
+		<td><a href="/bw/moves/low_kick">Low Kick</a></td>
+        <td>1</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Dégâts en fonctions du poids du lanceur.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/balayette">Balayette</a></td>
+		<td><a href="/bw/moves/low_sweep">Low Sweep</a></td>
+        <td>60</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Baisse la Vitesse de la cible d'1 niveau.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/ball_brume">Ball'Brume</a></td>
+		<td><a href="/bw/moves/mist_ball">Mist Ball</a></td>
+        <td>70</td>
+        <td>100%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>50% de chances de baisser l'Attaque Spéciale de la cible d'1 niveau.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/balle_glace">Ball'Glace</a></td>
+		<td><a href="/bw/moves/ice_ball">Ice Ball</a></td>
+        <td>30</td>
+        <td>90%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Double de puissance à chaque tour. Dure 5 tours.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/ball_meteo">Ball'Meteo</a></td>
+		<td><a href="/bw/moves/weather_ball">Weather Ball</a></td>
+        <td>50</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Le type de l'attaque varie en fonction du climat.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/ball_ombre">Ball'Ombre</a></td>
+		<td><a href="/bw/moves/shadow_ball">Shadow Ball</a></td>
+        <td>80</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>10% de chances de baisser la Défense Spéciale de la cible d'1 niveau.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/balle_graine">Balle Graine</a></td>
+		<td><a href="/bw/moves/bullet_seed">Bullet Seed</a></td>
+        <td>25</td>
+        <td>100%</td>
+        <td>30</td>
+        <td>Unique hors lanceur</td>
+        <td>Touche 2 à 5 fois en un tour.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/barrage">Barrage</a></td>
+		<td><a href="/bw/moves/block">Block</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>La cible ne peut pas s'enfuir.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/baston">Baston</a></td>
+		<td><a href="/bw/moves/beat_up">Beat Up</a></td>
+        <td>1</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Tous les Pokémon en forme blessent la cible.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/bec_vrille">Bec Vrille</a></td>
+		<td><a href="/bw/moves/drill_peck">Drill Peck</a></td>
+        <td>80</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Aucun effet additionnel.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/belier">Belier</a></td>
+		<td><a href="/bw/moves/take_down">Take Down</a></td>
+        <td>90</td>
+        <td>85%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>1/4 de dégâts de recul.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/berceuse">Berceuse</a></td>
+		<td><a href="/bw/moves/sing">Sing</a></td>
+        <td>-</td>
+        <td>55%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Endort la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/blabla_dodo">Blabla Dodo</a></td>
+		<td><a href="/bw/moves/sleep_talk">Sleep Talk</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>10</td>
+        <td>Lanceur</td>
+        <td>Lance aléatoirement une attaque du lanceur. Ne peut être utilisée que lorsque le lanceur est endormi.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/blizzard">Blizzard</a></td>
+		<td><a href="/bw/moves/blizzard">Blizzard</a></td>
+        <td>120</td>
+        <td>70%</td>
+        <td>5</td>
+        <td>Tous les ennemis</td>
+        <td>10% de chances de geler la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/bluff">Bluff</a></td>
+		<td><a href="/bw/moves/fake_out">Fake Out</a></td>
+        <td>40</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Le lanceur attaque en premier, et apeurt la cible. Ne peut être utilisée que lors du premier tour.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/bombe_acide">Bombe Acide</a></td>
+    	<td><a href="/bw/moves/acid_spray">Acid Spray</a></td>
+        <td>40</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Baisse la Défense Spéciale de la cible de 2 niveaux.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/boost">Boost</a></td>
+		<td><a href="/bw/moves/psych_up">Psych Up</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Copie les changements de stats de la cible.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/bomb_oeuf">Bomb'Oeuf</a></td>
+		<td><a href="/bw/moves/egg_bomb">Egg Bomb</a></td>
+        <td>100</td>
+        <td>75%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Aucun effet additionnel.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/bombaimant">Bombaimant</a></td>
+		<td><a href="/bw/moves/magnet_bomb">Magnet Bomb</a></td>
+        <td>60</td>
+        <td>-</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Ignore les modifications de précision.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/bomb_beurk">Bomb-Beurk</a></td>
+		<td><a href="/bw/moves/sludge_bomb">Sludge Bomb</a></td>
+        <td>90</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>30% de chances d'empoisonner la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/bouclier">Bouclier</a></td>
+		<td><a href="/bw/moves/barrier">Barrier</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>30</td>
+        <td>Lanceur</td>
+        <td>Augmente la Défense du lanceur de 2 niveaux.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/boue_bombe">Boue-Bombe</a></td>
+		<td><a href="/bw/moves/mud_bomb">Mud Bomb</a></td>
+        <td>65</td>
+        <td>85%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>30% de chances de baisser la précision de la cible d'1 niveau.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/boul_armure">Boul'Armure</a></td>
+		<td><a href="/bw/moves/defense_curl">Defense Curl</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>40</td>
+        <td>Lanceur</td>
+        <td>Augmente la Défense du lanceur d'1 niveau.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/boule_elek">Boule Elek</a></td>
+		<td><a href="/bw/moves/electro_ball">Electro Ball</a></td>
+        <td>1</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Inflige plus de dégâts si le lanceur est plus rapide que la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/boule_roc">Boule Roc</a></td>
+		<td><a href="/bw/moves/rock_blast">Rock Blast</a></td>
+        <td>25</td>
+        <td>90%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Touche 2 à 5 fois en un tour.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/boutefeu">Boutefeu</a></td>
+		<td><a href="/bw/moves/flare_blitz">Flare Blitz</a></td>
+        <td>120</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>1/3 de dégâts de recul. 10% de chances de brûler la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/bourdon">Bourdon</a></td>
+		<td><a href="/bw/moves/bug_buzz">Bug Buzz</a></td>
+        <td>90</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>10% de chances de baisser la Défense Spéciale de la cible d'1 niveau.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/brouhaha">Brouhaha</a></td>
+		<td><a href="/bw/moves/uproar">Uproar</a></td>
+        <td>90</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Adversaire aléatoire</td>
+        <td>Dure 3 tours, pendant lesquels aucun Pokémon ne peut dormir.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/brouillard">Brouillard</a></td>
+		<td><a href="/bw/moves/smokescreen">SmokeScreen</a></td>
+        <td>-</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Baisse la précision de la cible d'1 niveau.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/brume">Brume</a></td>
+		<td><a href="/bw/moves/mist">Mist</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>30</td>
+        <td>Équipe du lanceur</td>
+        <td>Empêche la réduction de stats pendant 5 tours.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/buee_noire">Buee Noire</a></td>
+		<td><a href="/bw/moves/haze">Haze</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>30</td>
+        <td>Toutes</td>
+        <td>Annule tous les changements de stats.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/bulldoboule">Bulldoboule</a></td>
+		<td><a href="/bw/moves/steamroller">Steamroller</a></td>
+        <td>65</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>30% de chances d'apeurer la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/bulles_do">Bulles D'O</a></td>
+		<td><a href="/bw/moves/bubblebeam">BubbleBeam</a></td>
+        <td>65</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>10% de chances de baisser la Vitesse de la cible d'1 niveau.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/cadeau">Cadeau</a></td>
+		<td><a href="/bw/moves/present">Present</a></td>
+        <td>1</td>
+        <td>90%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Inflige des dégâts ou soigne 80 PV.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/cage_eclair">Cage-Eclair</a></td>
+		<td><a href="/bw/moves/thunder_wave">Thunder Wave</a></td>
+        <td>-</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Paralyze la cible.</td>
+</tr>
+<tr class="a">
+        <td><a href=/fr/moves/calcination">Calcination</a></td>
+		<td><a href="/bw/moves/incinerate">Incinerate</a></td>
+        <td>30</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Tous les ennemis</td>
+        <td>Détruit la Baie de la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/camouflage">Camouflage</a></td>
+		<td><a href="/bw/moves/camouflage">Camouflage</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>20</td>
+        <td>Lanceur</td>
+        <td>Change le type du lanceur en fonction du terrain.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/canicule">Canicule</a></td>
+		<td><a href="/bw/moves/heat_wave">Heat Wave</a></td>
+        <td>100</td>
+        <td>90%</td>
+        <td>10</td>
+        <td>Tous les ennemis</td>
+        <td>10% de chances de brûler la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/canon_graine">Canon Graine</a></td>
+		<td><a href="/bw/moves/seed_bomb">Seed Bomb</a></td>
+        <td>80</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Aucun effet additionnel.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/carnareket">Carnareket</a></td>
+		<td><a href="/bw/moves/doom_desire">Doom Desire</a></td>
+        <td>140</td>
+        <td>100%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>Touche 2 tours après avoir été lancée.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/cascade">Cascade</a></td>
+		<td><a href="/bw/moves/waterfall">Waterfall</a></td>
+        <td>80</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>20% de chances d'apeurer la cible.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/casse_brique">Casse-Brique</a></td>
+		<td><a href="/bw/moves/brick_break">Brick Break</a></td>
+        <td>75</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Détruit Protection et Mur Lumière. Ne détruit pas les murs si la cible est immunisée à l'attaque.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/cauchemar">Cauchemar</a></td>
+		<td><a href="/bw/moves/nightmare">Nightmare</a></td>
+        <td>-</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Fait perdre 1/4 de ses PV Max chaque tour à une cible endormie.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/changeeclair">ChangeEclair</a></td>
+		<td><a href="/bw/moves/volt_switch">Volt Switch</a></td>
+        <td>70</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Oblige le lanceur à switcher.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/chant_canon">Chant Canon</a></td>
+		<td><a href="/bw/moves/round">Round</a></td>
+        <td>60</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Puissance doublée si un équipier lance Chant Canon le même tour.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/chantantique">ChantAntique</a></td>
+		<td><a href="/bw/moves/relic_song">Relic Song</a></td>
+        <td>75</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Tous les ennemis</td>
+        <td>10% de chances d'endormir la cible. Si utilisé par Meloetta, le fait changer de forme.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/charge">Charge</a></td>
+		<td><a href="/bw/moves/tackle">Tackle</a></td>
+        <td>50</td>
+        <td>100%</td>
+        <td>35</td>
+        <td>Unique hors lanceur</td>
+        <td>Aucun effet additionnel.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/charge_os">Charge-Os</a></td>
+		<td><a href="/bw/moves/bone_rush">Bone Rush</a></td>
+        <td>25</td>
+        <td>80%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Touche 2 à 5 fois en un tour.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/chargefoudre">ChargeFoudre</a></td>
+		<td><a href="/bw/moves/bolt_strike">Bolt Strike</a></td>
+        <td>130</td>
+        <td>85%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>20% de chances de paralyser la cible.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/chargeur">Chargeur</a></td>
+		<td><a href="/bw/moves/charge">Charge</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>20</td>
+        <td>Lanceur</td>
+        <td>Double la puissance d'une attaque Electrique lancée le tour suivant. Augmente la Défense Spéciale du lanceur d'1 niveau.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/charme">Charme</a></td>
+		<td><a href="/bw/moves/charm">Charm</a></td>
+        <td>-</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Baisse l'Attaque de la cible de 2 niveaux.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/chatiment">Chatiment</a></td>
+		<td><a href="/bw/moves/hex">Hex</a></td>
+        <td>50</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Puissance doublée si la cible est affectée par un statut.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/chatouille">Chatouille</a></td>
+		<td><a href="/bw/moves/tickle">Tickle</a></td>
+        <td>-</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Baisse l'Attaque et la Défense de la cible d'1 niveau.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/chgt_vitesse">Chgt Vitesse</a></td>
+		<td><a href="/bw/moves/shift_gear">Shift Gear</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>10</td>
+        <td>Lanceur</td>
+        <td>Augmente la Vitesse du lanceur de 2 niveaux, et son Attaque d'1 niveau.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/choc_mental">Choc Mental</a></td>
+		<td><a href="/bw/moves/confusion">Confusion</a></td>
+        <td>50</td>
+        <td>100%</td>
+        <td>25</td>
+        <td>Unique hors lanceur</td>
+        <td>10% de chances de rendre confus la cible.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/choc_psy">Choc Psy</a></td>
+		<td><a href="/bw/moves/psyshock">Psyshock</a></td>
+        <td>80</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Utilise la Défense de la cible pour le calcul des dégâts.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/choc_venin">Choc Venin</a></td>
+		<td><a href="/bw/moves/venoshock">Venoshock</a></td>
+        <td>65</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Frappe les Pokémon empoisonnés avec une puissance doublée.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/chute_glace">Chute Glace</a></td>
+		<td><a href="/bw/moves/icicle_crash">Icicle Crash</a></td>
+        <td>85</td>
+        <td>90%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>30% de chances d'apeurer la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/chute_libre">Chute Libre</a></td>
+		<td><a href="/bw/moves/sky_drop">Sky Drop</a></td>
+        <td>60</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Frappe un tour après avoir été lancé. La cible ne peut pas attaquer quand elle est dans les airs.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/clairvoyance">Clairvoyance</a></td>
+		<td><a href="/bw/moves/foresight">Foresight</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>40</td>
+        <td>Unique hors lanceur</td>
+        <td>Empêche les modifications d'esquive. Les attaques Normal et Combat du lanceur touchent la cible si elle est de type Spectre.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/claquoir">Claquoir</a></td>
+		<td><a href="/bw/moves/clamp">Clamp</a></td>
+        <td>35</td>
+        <td>85%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Piège et inflige des dégâts sur plusieurs tours.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/clonage">Clonage</a></td>
+		<td><a href="/bw/moves/substitute">Substitute</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>10</td>
+        <td>Lanceur</td>
+        <td>Utilise 1/4 des PV Max du lanceur pour créer un clone et le protéger.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/close_combat">Close Combat</a></td>
+		<td><a href="/bw/moves/close_combat">Close Combat</a></td>
+        <td>120</td>
+        <td>100%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>Baisse la Défense et la Défense Spéciale du lanceur d'1 niveau.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/cogne">Cogne</a></td>
+		<td><a href="/bw/moves/arm_thrust">Arm Thrust</a></td>
+        <td>15</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Touche 2 à 5 fois en un tour.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/cognobidon">Cognobidon</a></td>
+		<td><a href="/bw/moves/belly_drum">Belly Drum</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>10</td>
+        <td>Lanceur</td>
+        <td>Le lanceur perd 50% de ses PV Max. Maximise l'Attaque.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/colere">Colere</a></td>
+		<td><a href="/bw/moves/outrage">Outrage</a></td>
+        <td>120</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Adversaire aléatoire</td>
+        <td>Dure 2 à 3 tours, et rend confus le lanceur à la fin.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/combo_griffe">Combo-Griffe</a></td>
+		<td><a href="/bw/moves/fury_swipes">Fury Swipes</a></td>
+        <td>18</td>
+        <td>80%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Touche 2 à 5 fois en un tour.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/constriction">Constriction</a></td>
+		<td><a href="/bw/moves/constrict">Constrict</a></td>
+        <td>10</td>
+        <td>100%</td>
+        <td>35</td>
+        <td>Unique hors lanceur</td>
+        <td>10% de chances de baisser la Vitesse de la cible d'1 niveau.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/contre">Contre</a></td>
+		<td><a href="/bw/moves/reversal">Reversal</a></td>
+        <td>1</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Inflige plus de dégâts quand les PV diminuent.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/conversion_2">Conversion 2</a></td>
+		<td><a href="/bw/moves/conversion_2">Conversion 2</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>30</td>
+        <td>Unique hors lanceur</td>
+        <td>Change le type du lanceur en un type qui résiste à la dernière attaque l'ayant touché.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/copie">Copie</a></td>
+		<td><a href="/bw/moves/mimic">Mimic</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Copies la dernière attaque de la cible.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/copie_type">Copie Type</a></td>
+		<td><a href="/bw/moves/reflect_type">Reflect Type</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Le lanceur devient du même type que la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/coquilame">Coquilame</a></td>
+		<td><a href="/bw/moves/razor_shell">Razor Shell</a></td>
+        <td>75</td>
+        <td>95%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>50% de chances de baisser la Défense de la cible d'1 niveau.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/corps_perdu">Corps Perdu</a></td>
+		<td><a href="/bw/moves/vital_throw">Vital Throw</a></td>
+        <td>70</td>
+        <td>-</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Ignore les modifications d'esquive</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/cotogarde">Cotogarde</a></td>
+		<td><a href="/bw/moves/cotton_guard">Cotton Guard</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>10</td>
+        <td>Lanceur</td>
+        <td>Augmente la Défense du lanceur de 3 niveaux.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/coud_boue">Coud'Boue</a></td>
+		<td><a href="/bw/moves/mud-slap">Mud-Slap</a></td>
+        <td>20</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Baisse la précision de la cible d'1 niveau.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/coud_krane">Coud'Krane</a></td>
+		<td><a href="/bw/moves/skull_bash">Skull Bash</a></td>
+        <td>100</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Charge le premier tour, attaque le second. Augmente la Défense du lanceur d'1 niveau.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/coup_bas">Coup Bas</a></td>
+		<td><a href="/bw/moves/sucker_punch">Sucker Punch</a></td>
+        <td>80</td>
+        <td>100%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>Le lanceur attaque toujours en premier. Echoue si la cible n'attaque pas lors du même tour.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/coup_djus">Coup d'jus</a></td>
+		<td><a href="/bw/moves/discharge">Discharge</a></td>
+        <td>80</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Toutes hors lanceur</td>
+        <td>30% de chances de paralyser la cible.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/coup_dmain">Coup d'Main</a></td>
+		<td><a href="/bw/moves/helping_hand">Helping Hand</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>20</td>
+        <td>Allié</td>
+        <td>Augmente de 50% la puissance des attaques d'un allié.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/coup_double">Coup Double</a></td>
+		<td><a href="/bw/moves/double_hit">Double Hit</a></td>
+        <td>35</td>
+        <td>90%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Touche 2 fois en un tour.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/coup_croix">Coup-Croix</a></td>
+		<td><a href="/bw/moves/cross_chop">Cross Chop</a></td>
+        <td>100</td>
+        <td>80%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>Taux de critiques élevé.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/coup_dboule">Coup d'Boule</a></td>
+		<td><a href="/bw/moves/headbutt">Headbutt</a></td>
+        <td>70</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>30% de chances d'apeurer la cible.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/coupe">Coupe</a></td>
+		<td><a href="/bw/moves/cut">Cut</a></td>
+        <td>50</td>
+        <td>95%</td>
+        <td>30</td>
+        <td>Unique hors lanceur</td>
+        <td>Aucun effet additionnel.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/coupe_psycho">Coupe Psycho</a></td>
+		<td><a href="/bw/moves/psycho_cut">Psycho Cut</a></td>
+        <td>70</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Taux de critiques élevé.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/coupe_vent">Coupe-Vent</a></td>
+		<td><a href="/bw/moves/razor_wind">Razor Wind</a></td>
+        <td>80</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Tous les ennemis</td>
+        <td>Charge le premier tour, attaque le second. Taux de critiques élevé.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/coupvictoire">CoupVictoire</a></td>
+		<td><a href="/bw/moves/v-create">V-create</a></td>
+        <td>180</td>
+        <td>95%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>Baisse la Défense, la Défense Spéciale et la Vitesse du lanceur d'1 niveau.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/cradovague">Cradovague</a></td>
+		<td><a href="/bw/moves/sludge_wave">Sludge Wave</a></td>
+        <td>95</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Toutes hors lanceur</td>
+        <td>10% de chances d'empoisonner la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/crevecoeur">Crevecoeur</a></td>
+		<td><a href="/bw/moves/heart_stamp">Heart Stamp</a></td>
+        <td>60</td>
+        <td>100%</td>
+        <td>25</td>
+        <td>Unique hors lanceur</td>
+        <td>30% de chances d'apeurer la cible.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/croc_de_mort">Croc De Mort</a></td>
+		<td><a href="/bw/moves/hyper_fang">Hyper Fang</a></td>
+        <td>80</td>
+        <td>90%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>10% de chances d'apeurer la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/croc_fatal">Croc Fatal</a></td>
+		<td><a href="/bw/moves/super_fang">Super Fang</a></td>
+        <td>1</td>
+        <td>90%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Inflige des dégâts égaux à la moitié des PV de la cible.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/crochetvenin">Crochetvenin</a></td>
+		<td><a href="/bw/moves/poison_fang">Poison Fang</a></td>
+        <td>50</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>30% de chances d'empoisonner gravement la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/croco_larme">Croco Larme</a></td>
+		<td><a href="/bw/moves/fake_tears">Fake Tears</a></td>
+        <td>-</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Baisse la Défense Spéciale de la cible de 2 niveaux.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/crocs_eclair">Crocs Eclair</a></td>
+		<td><a href="/bw/moves/thunder_fang">Thunder Fang</a></td>
+        <td>65</td>
+        <td>95%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>10% de chances de paralyser la cible. 10% de chances d'apeurer la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/crocs_feu">Crocs Feu</a></td>
+		<td><a href="/bw/moves/fire_fang">Fire Fang</a></td>
+        <td>65</td>
+        <td>95%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>10% de chances d'apeurer la cible. 10% de chances de brûler la cible.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/crocs_givre">Crocs Givre</a></td>
+		<td><a href="/bw/moves/ice_fang">Ice Fang</a></td>
+        <td>65</td>
+        <td>95%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>10% de chances de geler la cible. 10% de chances d'apeurer la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/cru_aile">Cru-Aile</a></td>
+		<td><a href="/bw/moves/wing_attack">Wing Attack</a></td>
+        <td>60</td>
+        <td>100%</td>
+        <td>35</td>
+        <td>Unique hors lanceur</td>
+        <td>Aucun effet additionnel.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/cyclone">Cyclone</a></td>
+		<td><a href="/bw/moves/whirlwind">Whirlwind</a></td>
+        <td>-</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Oblige la cible à switcher avec un Pokémon aléatoire.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/damocles">Damocles</a></td>
+		<td><a href="/bw/moves/double_edge">Double-Edge</a></td>
+        <td>120</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>1/3 de dégâts de recul.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/danse_du_feu">Danse du Feu</a></td>
+		<td><a href="/bw/moves/fiery_dance">Fiery Dance</a></td>
+        <td>80</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Augmente l'Attaque Spéciale du lanceur d'1 niveau.</td>
+</tr>
+
+<tr>
+        <td><a href="/fr/moves/danse_fleur">Danse-Fleur</a></td>
+		<td><a href="/bw/moves/petal_dance">Petal Dance</a></td>
+        <td>120</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Adversaire aléatoire</td>
+        <td>Dure 2-3 tours et rend confus le lanceur à la fin.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/danse_folle">Danse-Folle</a></td>
+		<td><a href="/bw/moves/teeter_dance">Teeter Dance</a></td>
+        <td>-</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Toutes hors lanceur</td>
+        <td>Rend la cible confus.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/danse_lames">Danse-Lames</a></td>
+		<td><a href="/bw/moves/swords_dance">Swords Dance</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>30</td>
+        <td>Lanceur</td>
+        <td>Augmente l'Attaque du lanceur de 2 niveaux.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/dansse_lune">Danse-Lune</a></td>
+		<td><a href="/bw/moves/lunar_dance">Lunar Dance</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>10</td>
+        <td>Lanceur</td>
+        <td>Faints the user, but the replacement is healed completely.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/danse_plume">Danse-Plume</a></td>
+		<td><a href="/bw/moves/featherdance">FeatherDance</a></td>
+        <td>-</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Baisse l'Attaque de la cible de 2 niveaux.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/danse_draco">Danse Draco</a></td>
+		<td><a href="/bw/moves/dragon_dance">Dragon Dance</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>20</td>
+        <td>Lanceur</td>
+        <td>Augmente l'Attaque et la Vitesse du lanceur d'1 niveau.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/danseflamme">Danseflamme</a></td>
+		<td><a href="/bw/moves/fire_spin">Fire Spin</a></td>
+        <td>35</td>
+        <td>85%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Piège et inflige des dégâts sur plusieurs tours.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/dard_nuee">Dard-Nuee</a></td>
+		<td><a href="/bw/moves/pin_missile">Pin Missile</a></td>
+        <td>14</td>
+        <td>85%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Touche 2 à 5 fois en un tour.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/dard_venin">Dard-Venin</a></td>
+		<td><a href="/bw/moves/poison_sting">Poison Sting</a></td>
+        <td>15</td>
+        <td>100%</td>
+        <td>35</td>
+        <td>Unique hors lanceur</td>
+        <td>30% de chances d'empoisonner la cible.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/depit">Depit</a></td>
+		<td><a href="/bw/moves/spite">Spite</a></td>
+        <td>-</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Baisse les PP de la dernière attaque utilisée par la cible de 4.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/deflagration">Deflagration</a></td>
+		<td><a href="/bw/moves/fire_blast">Fire Blast</a></td>
+        <td>120</td>
+        <td>85%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>10% de chances de brûler la cible.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/degommage">Degommage</a></td>
+		<td><a href="/bw/moves/fling">Fling</a></td>
+        <td>1</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Lance l'objet tenu du lanceur sur la cible. La puissance et les effets dépendent de l'objet lancé.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/demi_tour">Demi-Tour</a></td>
+		<td><a href="/bw/moves/u-turn">U-turn</a></td>
+        <td>70</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Oblige le lanceur à switcher.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/dernierecour">Dernierecour</a></td>
+		<td><a href="/bw/moves/last_resort">Last Resort</a></td>
+        <td>140</td>
+        <td>100%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>Ne peut être utilisée que si toutes les autres attaques ont été utilisées au moins une fois.</td>
+</tr>
+
+<tr>
+        <td><a href="/fr/moves/destruction">Destruction</a></td>
+		<td><a href="/bw/moves/selfdestruct">Selfdestruct</a></td>
+        <td>200</td>
+        <td>100%</td>
+        <td>5</td>
+        <td>Toutes hors lanceur</td>
+        <td>Met le lanceur K.O.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/detection">Detection</a></td>
+		<td><a href="/bw/moves/detect">Detect</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>5</td>
+        <td>Lanceur</td>
+        <td>Empêche la plupart des attaques de toucher le lanceur durant ce tour.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/detrempage">Detrempage</a></td>
+		<td><a href="/bw/moves/soak">Soak</a></td>
+        <td>-</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Change le type de la cible en Eau.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/detricanon">Detricanon</a></td>
+		<td><a href="/bw/moves/gunk_shot">Gunk Shot</a></td>
+        <td>120</td>
+        <td>70%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>30% de chances d'empoisonner la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/detritus">Detritus</a></td>
+		<td><a href="/bw/moves/sludge">Sludge</a></td>
+        <td>65</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>30% de chances d'empoisonner la cible.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/devoreve">Devoreve</a></td>
+		<td><a href="/bw/moves/dream_eater">Dream Eater</a></td>
+        <td>100</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Absorbe 50% des dégâts infligés. Ne fonctionne que si la cible est endormie.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/direct_toxik">Direct Toxik</a></td>
+		<td><a href="/bw/moves/poison_jab">Poison Jab</a></td>
+        <td>80</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>30% de chances d'empoisonner la cible.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/distorsion">Distorsion</a></td>
+		<td><a href="/bw/moves/trick_room">Trick Room</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>5</td>
+        <td>Toutes</td>
+        <td>Les Pokémon les plus lents attaquent en premier pendant 5 tours.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/don_naturel">Don Naturel</a></td>
+		<td><a href="/bw/moves/natural_gift">Natural Gift</a></td>
+        <td>1</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Le Pouvoir et le Type de l'attaque varient en fonction de la Baie tenue.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/double_baffe">Double Baffe</a></td>
+		<td><a href="/bw/moves/dual_chop">Dual Chop</a></td>
+        <td>40</td>
+        <td>90%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Touche 2 fois en un tour.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/double_pied">Double Pied</a></td>
+		<td><a href="/bw/moves/double_kick">Double Kick</a></td>
+        <td>30</td>
+        <td>100%</td>
+        <td>30</td>
+        <td>Unique hors lanceur</td>
+        <td>Touche 2 fois en un tour.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/double_dard">Double-Dard</a></td>
+		<td><a href="/bw/moves/twineedle">Twineedle</a></td>
+        <td>25</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Touche 2 fois avec 20% de chances d'empoisonner la cible à chaque coup.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/doux_baiser">Doux Baiser</a></td>
+		<td><a href="/bw/moves/sweet_kiss">Sweet Kiss</a></td>
+        <td>-</td>
+        <td>75%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Rend la cible confus.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/doux_parfum">Doux Parfum</a></td>
+		<td><a href="/bw/moves/sweet_scent">Sweet Scent</a></td>
+        <td>-</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Tous les ennemis</td>
+        <td>Baisse l'esquive de la cible d'1 niveau.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/draco_meteor">Draco Meteor</a></td>
+		<td><a href="/bw/moves/draco_meteor">Draco Meteor</a></td>
+        <td>140</td>
+        <td>90%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>Baisse l'Attaque Spéciale du lanceur de 2 niveaux.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/draco_queue">Draco-Queue</a></td>
+		<td><a href="/bw/moves/dragon_tail">Dragon Tail</a></td>
+        <td>60</td>
+        <td>90%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Force la cible à switcher.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/draco_rage">Draco-Rage</a></td>
+		<td><a href="/bw/moves/dragon_rage">Dragon Rage</a></td>
+        <td>1</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Inflige toujours 40 dégâts.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/dracocharge">Dracocharge</a></td>
+		<td><a href="/bw/moves/dragon_rush">Dragon Rush</a></td>
+        <td>100</td>
+        <td>75%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>20% de chances d'apeurer la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/dracochoc">Dracochoc</a></td>
+		<td><a href="/bw/moves/dragon_pulse">Dragon Pulse</a></td>
+        <td>90</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Aucun effet additionnel.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/dracogriffe">Dracogriffe</a></td>
+		<td><a href="/bw/moves/dragon_claw">Dragon Claw</a></td>
+        <td>80</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Aucun effet additionnel.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/dracosouffle">Dracosouffle</a></td>
+		<td><a href="/bw/moves/dragonbreath">DragonBreath</a></td>
+        <td>60</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>30% de chances de paralyser la cible.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/dynamopoing">Dynamopoing</a></td>
+		<td><a href="/bw/moves/dynamicpunch">DynamicPunch</a></td>
+        <td>100</td>
+        <td>50%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>Rend la cible confus.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/e_coque">E-Coque</a></td>
+		<td><a href="/bw/moves/softboiled">Softboiled</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>10</td>
+        <td>Lanceur</td>
+        <td>Soigne 50% des PV Max du lanceur</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/eboulement">Eboulement</a></td>
+		<td><a href="/bw/moves/rock_slide">Rock Slide</a></td>
+        <td>75</td>
+        <td>90%</td>
+        <td>10</td>
+        <td>Tous les ennemis</td>
+        <td>30% de chances d'apeurer la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/ebullilave">Ebullilave</a></td>
+		<td><a href="/bw/moves/lava_plume">Lava Plume</a></td>
+        <td>80</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Toutes hors lanceur</td>
+        <td>30% de chances de brûler la cible.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/ebullition">Ebullition</a></td>
+		<td><a href="/bw/moves/scald">Scald</a></td>
+        <td>80</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>30% de chances de brûler la cible. Dégèle le lanceur.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/eclair_croix">Eclair Croix</a></td>
+		<td><a href="/bw/moves/fusion_bolt">Fusion Bolt</a></td>
+        <td>100</td>
+        <td>100%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>Puissance doublée si lancée après Flamme Croix.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/eclair_gele">Eclair Gele</a></td>
+		<td><a href="/bw/moves/ice_burn">Ice Burn</a></td>
+        <td>140</td>
+        <td>90%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>Frappe un tour après avoir été lancé. 30% de chances de brûler la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/eclate_roc">Eclate-Roc</a></td>
+		<td><a href="/bw/moves/rock_smash">Rock Smash</a></td>
+        <td>40</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>50% de chances de baisser la Défense de la cible d'1 niveau.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/eclats_glace">Eclats Glace</a></td>
+		<td><a href="/bw/moves/ice_shard">Ice Shard</a></td>
+        <td>40</td>
+        <td>100%</td>
+        <td>30</td>
+        <td>Unique hors lanceur</td>
+        <td>Le lanceur attaque toujours en premier.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/eco_sphere">Eco-Sphere</a></td>
+		<td><a href="/bw/moves/energy_ball">Energy Ball</a></td>
+        <td>80</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>10% de chances de baisser la Défense Spéciale de la cible d'1 niveau.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/echo">Echo</a></td>
+		<td><a href="/bw/moves/echoed_voice">Echoed Voice</a></td>
+        <td>40</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>La puissance augmente lorsque l'attaque est lancée consécutivement.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/eclair">Eclair</a></td>
+		<td><a href="/bw/moves/thundershock">ThunderShock</a></td>
+        <td>40</td>
+        <td>100%</td>
+        <td>30</td>
+        <td>Unique hors lanceur</td>
+        <td>10% de chances de paralyser la cible.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/eclair_fou">Eclair Fou</a></td>
+		<td><a href="/bw/moves/wild_charge">Wild Charge</a></td>
+        <td>90</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>1/4 de dégâts de recul.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/eclategriffe">Eclategriffe</a></td>
+		<td><a href="/bw/moves/crush_claw">Crush Claw</a></td>
+        <td>75</td>
+        <td>95%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>50% de chances de baisser la Défense de la cible d'1 niveau.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/electacle">Eclectacle</a></td>
+		<td><a href="/bw/moves/volt_tackle">Volt Tackle</a></td>
+        <td>120</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>1/3 de dégâts de recul et 10% de chances de paralyser la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/echange">Echange</a></td>
+		<td><a href="/bw/moves/skill_sMegafouetwap">Skill Swap</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Le lanceur et la cible échangent de capacité.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/echange_psy">Echange Psy</a></td>
+		<td><a href="/bw/moves/psycho_shift">Psycho Shift</a></td>
+        <td>-</td>
+        <td>90%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Transfère son statut à la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/ecras_face">Ecras'Face</a></td>
+		<td><a href="/bw/moves/pound">Pound</a></td>
+        <td>40</td>
+        <td>100%</td>
+        <td>35</td>
+        <td>Unique hors lanceur</td>
+        <td>Aucun effet additionnel.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/ecrasement">Ecrasement</a></td>
+		<td><a href="/bw/moves/stomp">Stomp</a></td>
+        <td>65</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>30% de chances d'apeurer la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/ecume">Ecume</a></td>
+		<td><a href="/bw/moves/bubble">Bubble</a></td>
+        <td>20</td>
+        <td>100%</td>
+        <td>30</td>
+        <td>Tous les ennemis</td>
+        <td>10% de chances de baisser la Vitesse de la cible d'1 niveau.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/effort">Effort</a></td>
+		<td><a href="/bw/moves/endeavor">Endeavor</a></td>
+        <td>1</td>
+        <td>100%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>Baisse les PV de la cible au niveau des PV du lanceur.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/elecanon">Elecanon</a></td>
+		<td><a href="/bw/moves/zap_cannon">Zap Cannon</a></td>
+        <td>120</td>
+        <td>50%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>Paralyse la cible.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/embargo">Embargo</a></td>
+		<td><a href="/bw/moves/embargo">Embargo</a></td>
+        <td>-</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Interdit l'utilisation d'objets pendant 5 tours.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/empal_korne">Empal'Korne</a></td>
+		<td><a href="/bw/moves/horn_drill">Horn Drill</a></td>
+        <td>1</td>
+        <td>30%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>OHKO la cible.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/encore">Encore</a></td>
+		<td><a href="/bw/moves/encore">Encore</a></td>
+        <td>-</td>
+        <td>100%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>La cible doit répéter sa dernière attaque pendant 3 tours.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/encornebois">Encornebois</a></td>
+		<td><a href="/bw/moves/horn_leech">Horn Leech</a></td>
+        <td>75</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Absorbe 50% des dégâts infligés.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/enroulement">Enroulement</a></td>
+		<td><a href="/bw/moves/coil">Coil</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>20</td>
+        <td>Lanceur</td>
+        <td>Augmente l'Attaque, la Défense et la précision du lanceur d'1 niveau.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/entrave">Entrave</a></td>
+		<td><a href="/bw/moves/disable">Disable</a></td>
+        <td>-</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Empêche la dernière attaque d'être utilisée pendant 4 à 7 tours.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/etonnement">Etonnement</a></td>
+		<td><a href="/bw/moves/astonish">Astonish</a></td>
+        <td>30</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>30% de chances d'apeurer la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/etreinte">Etreinte</a></td>
+		<td><a href="/bw/moves/bind">Bind</a></td>
+        <td>15</td>
+        <td>85%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Piège et inflige des dégâts sur plusieurs tours.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/ereglaciaire">EreGlaciaire</a></td>
+		<td><a href="/bw/moves/glaciate">Glaciate</a></td>
+        <td>65</td>
+        <td>95%</td>
+        <td>10</td>
+        <td>Tous les ennemis</td>
+        <td>Baisse la Vitesse de la cible d'1 niveau.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/eruption">Eruption</a></td>
+		<td><a href="/bw/moves/eruption">Eruption</a></td>
+        <td>150</td>
+        <td>100%</td>
+        <td>5</td>
+        <td>Tous les ennemis</td>
+        <td>Inflige des dégâts en fonction des PV restants de la cible.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/escalade">Escalade</a></td>
+		<td><a href="/bw/moves/rock_climb">Rock Climb</a></td>
+        <td>90</td>
+        <td>85%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>20% de chances de rendre la cible confus.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/essorage">Essorage</a></td>
+		<td><a href="/bw/moves/wring_out">Wring Out</a></td>
+        <td>1</td>
+        <td>100%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>La Puissance dépend des PV restants de la cible.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/etincelle">Etincelle</a></td>
+		<td><a href="/bw/moves/spark">Spark</a></td>
+        <td>65</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>30% de chances de paralyser la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/exploforce">Exploforce</a></td>
+		<td><a href="/bw/moves/focus_blast">Focus Blast</a></td>
+        <td>120</td>
+        <td>70%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>10% de chances de baisser la Défense Spéciale de la cible d'1 niveau.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/explonuit">Explonuit</a></td>
+		<td><a href="/bw/moves/night_daze">Night Daze</a></td>
+        <td>85</td>
+        <td>95%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>40% de chances de baisser la précision de la cible d'1 niveau.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/explosion">Explosion</a></td>
+		<td><a href="/bw/moves/explosion">Explosion</a></td>
+        <td>250</td>
+        <td>100%</td>
+        <td>5</td>
+        <td>Toutes hors lanceur</td>
+        <td>Met le lanceur K.O.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/extrasenseur">Extrasenseur</a></td>
+		<td><a href="/bw/moves/extrasensory">Extrasensory</a></td>
+        <td>80</td>
+        <td>100%</td>
+        <td>30</td>
+        <td>Unique hors lanceur</td>
+        <td>10% de chances d'apeurer la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/exuviation">Exuviation</a></td>
+		<td><a href="/bw/moves/shell_smash">Shell Smash</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>15</td>
+        <td>Lanceur</td>
+        <td>Augmente l'Attaque, l'Attaque Spéciale et la Vitesse du lanceur de 2 niveaux, baisse sa Défense et sa Défense Spéciale d'1 niveau.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/facade">Facade</a></td>
+		<td><a href="/bw/moves/facade">Facade</a></td>
+        <td>70</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Puissance de 140 quand le lanceur est brûlé, empoisonné ou paralysé.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/fatal_foudre">Fatal-Foudre</a></td>
+		<td><a href="/bw/moves/thunder">Thunder</a></td>
+        <td>120</td>
+        <td>70%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>30% de chances de paralyser la cible.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/faux_chage">Faux-Chage</a></td>
+		<td><a href="/bw/moves/false_swipe">False Swipe</a></td>
+        <td>40</td>
+        <td>100%</td>
+        <td>40</td>
+        <td>Unique hors lanceur</td>
+        <td>Laisse toujours la cible à 1 PV.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/feinte">Feinte</a></td>
+		<td><a href="/bw/moves/faint_attack">Faint Attack</a></td>
+        <td>60</td>
+        <td>-</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Ignore les modifications d'esquive ou de précision.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/feu_denfer">Feu d'Enfer</a></td>
+		<td><a href="/bw/moves/inferno">Inferno</a></td>
+        <td>100</td>
+        <td>50%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>Brûle la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/feu_follet">Feu Follet</a></td>
+		<td><a href="/bw/moves/will-o-wisp">Will-O-Wisp</a></td>
+        <td>-</td>
+        <td>75%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Brûle la cible.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/feu_glace">Feu Glace</a></td>
+		<td><a href="/bw/moves/freeze_shock">Freeze Shock</a></td>
+        <td>140</td>
+        <td>90%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>Touche un tour après avoir été lancée. 30% de chances de paralyser la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/feu_sacre">Feu Sacré</a></td>
+		<td><a href="/bw/moves/sacred_fire">Sacred Fire</a></td>
+        <td>100</td>
+        <td>95%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>50% de chances de brûler la cible. Dégèle le lanceur.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/feuillemagik">Feuillemagik</a></td>
+		<td><a href="/bw/moves/magical_leaf">Magical Leaf</a></td>
+        <td>60</td>
+        <td>-</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Ignore les modifications de précision.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/flair">Flair</a></td>
+		<td><a href="/bw/moves/odor_sleuth">Odor Sleuth</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>40</td>
+        <td>Unique hors lanceur</td>
+        <td>Empêche les modifications d'esquive. Permet aux attaques Normal du lanceur de toucher les Pokémon de type Spectre.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/flamme_bleue">Flamme Bleue</a></td>
+		<td><a href="/bw/moves/blue_flare">Blue Flare</a></td>
+        <td>130</td>
+        <td>85%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>20% de chances de brûler la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/flamme_croix">Flamme Croix</a></td>
+		<td><a href="/bw/moves/fusion_flare">Fusion Flare</a></td>
+        <td>100</td>
+        <td>100%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>Puissance doublée si lancée après Eclair Croix.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/flammeche">Flammeche</a></td>
+		<td><a href="/bw/moves/ember">Ember</a></td>
+        <td>40</td>
+        <td>100%</td>
+        <td>25</td>
+        <td>Unique hors lanceur</td>
+        <td>10% de chances de brûler la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/flash">Flash</a></td>
+		<td><a href="/bw/moves/flash">Flash</a></td>
+        <td>-</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Baisse la précision de la cible d'1 niveau.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/fleau">Fleau</a></td>
+		<td><a href="/bw/moves/flail">Flail</a></td>
+        <td>1</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Inflige plus de dégâts quand les PV du lanceur baissent.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/force">Force</a></td>
+		<td><a href="/bw/moves/strength">Strength</a></td>
+        <td>80</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Aucun effet additionnel.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/force_cachee">Force Cachée</a></td>
+		<td><a href="/bw/moves/secret_power">Secret Power</a></td>
+        <td>70</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Les effets varient selon le terrain. 30% de chances de baisser la précision de l'adversaire en combat Wi-Fi.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/force_cosmik">Force Cosmik</a></td>
+		<td><a href="/bw/moves/cosmic_power">Cosmic Power</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>20</td>
+        <td>Lanceur</td>
+        <td>Augmente la Défense et la Défense Spéciale du lanceur d'1 niveau.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/force_poigne">Force Poigne</a></td>
+		<td><a href="/bw/moves/vicegrip">ViceGrip</a></td>
+        <td>55</td>
+        <td>100%</td>
+        <td>30</td>
+        <td>Unique hors lanceur</td>
+        <td>Aucun effet additionnel.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/force_nature">Force-Nature</a></td>
+		<td><a href="/bw/moves/nature_power">Nature Power</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>20</td>
+        <td>Aucune</td>
+        <td>L'attaque change en fonction du terrain. Se transforme en Seisme lors des combats Wi-Fi.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/forceajoutee">ForceAjoutee</a></td>
+		<td><a href="/bw/moves/stored_power">Stored Power</a></td>
+        <td>20</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>La puissance dépend du nombre de boosts de stats du lanceur.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/forte_paume">Forte-Paume</a></td>
+		<td><a href="/bw/moves/force_palm">Force Palm</a></td>
+        <td>60</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>30% de chances de paralyser la cible.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/fouet_lianes">Fouet Lianes</a></td>
+		<td><a href="/bw/moves/vine_whip">Vine Whip</a></td>
+        <td>35</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Aucun effet additionnel.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/fracass_tete">Fracass'Tete</a></td>
+		<td><a href="/bw/moves/head_smash">Head Smash</a></td>
+        <td>150</td>
+        <td>80%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>50% dé dégâts de recul.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/frappe_atlas">Frappe Atlas</a></td>
+		<td><a href="/bw/moves/seismic_toss">Seismic Toss</a></td>
+        <td>1</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Inflige des dégâts égaux au niveau du lanceur.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/frappe_psy">Frappe Psy</a></td>
+		<td><a href="/bw/moves/psystrike">Psystrike</a></td>
+        <td>100</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Utilise la Défense de la cible pour le calcul des dégâts.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/frenesie">Frenesie</a></td>
+		<td><a href="/bw/moves/rage">Rage</a></td>
+        <td>20</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Augmente l'Attaque du lanceur d'1 niveau s'il est touché./td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/frustration">Frustration</a></td>
+		<td><a href="/bw/moves/frustration">Frustration</a></td>
+        <td>1</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Aucun effet additionnel.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/fulmifer">Fulmifer</a></td>
+		<td><a href="/bw/moves/metal_burst">Metal Burst</a></td>
+        <td>1</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Aucune</td>
+        <td>Renvoie l'attaque adverse avec 1,5 fois sa force.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/fulmigraine">Fulmigraine</a></td>
+		<td><a href="/bw/moves/seed_flare">Seed Flare</a></td>
+        <td>120</td>
+        <td>85%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>40% de chances de baisser la Défense Spéciale de la cible de 2 niveaux.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/furie">Furie</a></td>
+		<td><a href="/bw/moves/fury_attack">Fury Attack</a></td>
+        <td>15</td>
+        <td>85%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Touche 2 à 5 fois en un tour.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/garde_large">Garde Large</a></td>
+		<td><a href="/bw/moves/wide_guard">Wide Guard</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>10</td>
+        <td>Équipe du lanceur</td>
+        <td>Protège le lanceur et ses alliés des attaques multi-cibles.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/gaz_toxik">Gaz Toxik</a></td>
+		<td><a href="/bw/moves/poison_gas">Poison Gas</a></td>
+        <td>-</td>
+        <td>90%</td>
+        <td>40</td>
+        <td>Tous les ennemis</td>
+        <td>Empoisonne la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/gicledo">Gicledo</a></td>
+		<td><a href="/bw/moves/water_spout">Water Spout</a></td>
+        <td>150</td>
+        <td>100%</td>
+        <td>5</td>
+        <td>Tous les ennemis</td>
+        <td>La Puissance de l'attaque dépend des PV restants du lanceur.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/giga_sangsue">Giga-Sangsue</a></td>
+		<td><a href="/bw/moves/giga_drain">Giga Drain</a></td>
+        <td>75</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Absorbe 50% des dégâts infligés.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/giga_impact">Giga Impact</a></td>
+		<td><a href="/bw/moves/giga_impact">Giga Impact</a></td>
+        <td>150</td>
+        <td>90%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>Le lanceur ne peut pas attaquer lors du prochain tour.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/glaciation">Glaciation</a></td>
+		<td><a href="/bw/moves/sheer_cold">Sheer Cold</a></td>
+        <td>1</td>
+        <td>30%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>OHKO la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/glas_de_soin">Glas de Soin</a></td>
+		<td><a href="/bw/moves/heal_bell">Heal Bell</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>5</td>
+        <td>Équipe du lanceur</td>
+        <td>Soigne tous les statuts de l'équipe du lanceur.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/gonflette">Gonflette</a></td>
+		<td><a href="/bw/moves/bulk_up">Bulk Up</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>20</td>
+        <td>Lanceur</td>
+        <td>Augmente l'Attaque et la Défense du lanceur d'1 niveau.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/gravite">Gravite</a></td>
+		<td><a href="/bw/moves/gravity">Gravity</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>5</td>
+        <td>Toutes</td>
+        <td>Empêche de voler ou sauter pendant 5 tours. Annule les immunités Sol.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/grele">Grele</a></td>
+		<td><a href="/bw/moves/hail">Hail</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>10</td>
+        <td>Toutes</td>
+        <td>Fait tomber la grêle pendant 5 tours.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/gribouille">Gribouille</a></td>
+		<td><a href="/bw/moves/sketch">Sketch</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>1</td>
+        <td>Unique hors lanceur</td>
+        <td>Copie de manière permanente la dernière attaque de la cible.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/griffe">Griffe</a></td>
+		<td><a href="/bw/moves/scratch">Scratch</a></td>
+        <td>40</td>
+        <td>100%</td>
+        <td>35</td>
+        <td>Unique hors lanceur</td>
+        <td>Aucun effet additionnel.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/griffe_acier">Griffe Acier</a></td>
+		<td><a href="/bw/moves/metal_claw">Metal Claw</a></td>
+        <td>50</td>
+        <td>95%</td>
+        <td>35</td>
+        <td>Unique hors lanceur</td>
+        <td>10% de chance d'augmenter l'Attaque du lanceur d'1 niveau.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/griffe_ombre">Griffe Ombre</a></td>
+		<td><a href="/bw/moves/shadow_claw">Shadow Claw</a></td>
+        <td>70</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Taux de critiques élevé.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/grimace">Grimace</a></td>
+		<td><a href="/bw/moves/scary_face">Scary Face</a></td>
+        <td>-</td>
+        <td>90%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Baisse la Vitesse de la cible de 2 niveaux.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/grincement">Grincement</a></td>
+		<td><a href="/bw/moves/screech">Screech</a></td>
+        <td>-</td>
+        <td>85%</td>
+        <td>40</td>
+        <td>Unique hors lanceur</td>
+        <td>Baisse la Défense de la cible de 2 niveaux.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/grobisou">Grobisou</a></td>
+		<td><a href="/bw/moves/lovely_kiss">Lovely Kiss</a></td>
+        <td>-</td>
+        <td>75%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Endors la cible.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/grondement">Grondement</a></td>
+		<td><a href="/bw/moves/howl">Howl</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>40</td>
+        <td>Lanceur</td>
+        <td>Augmente l'Attaque du lanceur d'1 niveau.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/groz_yeux">Groz'Yeux</a></td>
+		<td><a href="/bw/moves/leer">Leer</a></td>
+        <td>-</td>
+        <td>100%</td>
+        <td>30</td>
+        <td>Tous les ennemis</td>
+        <td>Baisse la Défense de l'adversaire d'1 niveau.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/guillotine">Guillotine</a></td>
+		<td><a href="/bw/moves/guillotine">Guillotine</a></td>
+        <td>1</td>
+        <td>30%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>OHKO la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/gyroballe">Gyroballe</a></td>
+		<td><a href="/bw/moves/gyro_ball">Gyro Ball</a></td>
+        <td>1</td>
+        <td>100%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>Inflige des dégâts en fonction de la Vitesse du lanceur et de la cible.</td>
+</tr>
+
+<tr class="a">
+        <td><a href="/fr/moves/hate">Hâte</a></td>
+    	<td><a href="/bw/moves/agility">Agility</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>30</td>
+        <td>Lanceur</td>
+        <td>Augmente la Vitesse du lanceur de 2 niveaux.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/hurle_temps">Hurle-Temps</a></td>
+		<td><a href="/bw/moves/roar_of_time">Roar of Time</a></td>
+        <td>150</td>
+        <td>90%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>Le lanceur ne peut pas attaquer au prochain tour.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/hydroblast">Hydroblast</a></td>
+		<td><a href="/bw/moves/hydro_cannon">Hydro Cannon</a></td>
+        <td>150</td>
+        <td>90%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>Le lanceur ne peut attaquer au prochain tour.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/hydrocanon">Hydrocanon</a></td>
+		<td><a href="/bw/moves/hydro_pump">Hydro Pump</a></td>
+        <td>120</td>
+        <td>80%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>Aucun effet additionnel.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/hydroqueue">Hydroqueue</a></td>
+		<td><a href="/bw/moves/aqua_tail">Aqua Tail</a></td>
+        <td>90</td>
+        <td>90%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Aucun effet additionnel.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/hypnose">Hypnose</a></td>
+		<td><a href="/bw/moves/hypnosis">Hypnosis</a></td>
+        <td>-</td>
+        <td>60%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Endort la cible.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/imitation">Imitation</a></td>
+		<td><a href="/bw/moves/role_play">Role Play</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Remplace la capacité du lanceur par celle de la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/implore">Implore</a></td>
+		<td><a href="/bw/moves/covet">Covet</a></td>
+        <td>60</td>
+        <td>100%</td>
+        <td>40</td>
+        <td>Unique hors lanceur</td>
+        <td>Vole l'objet de la cible.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/incendie">Incendie</a></td>
+		<td><a href="/bw/moves/searing_shot">Searing Shot</a></td>
+        <td>100</td>
+        <td>100%</td>
+        <td>5</td>
+        <td>Toutes hors lanceur</td>
+        <td>30% de chances de brûler la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/interversion">Interversion</a></td>
+		<td><a href="/bw/moves/ally_switch">Ally Switch</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>15</td>
+        <td>Lanceur</td>
+        <td>Change de position avec un autre Pokémon du côté du lanceur.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/intimidation">Intimidation</a></td>
+		<td><a href="/bw/moves/glare">Glare</a></td>
+        <td>-</td>
+        <td>90%</td>
+        <td>30</td>
+        <td>Unique hors lanceur</td>
+        <td>Paralyse la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/jackpot">Jackpot</a></td>
+		<td><a href="/bw/moves/pay_day">Pay Day</a></td>
+        <td>40</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Fait tomber des pièces.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/jet_de_sable">Jet de Sable</a></td>
+		<td><a href="/bw/moves/sand_attack">Sand-Attack</a></td>
+        <td>-</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Baisse la précision de la cible d'1 niveau.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/jet_pierres">Jet-Pierres</a></td>
+		<td><a href="/bw/moves/rock_throw">Rock Throw</a></td>
+        <td>50</td>
+        <td>90%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Aucun effet additionnel.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/jugement">Jugement</a></td>
+		<td><a href="/bw/moves/judgment">Judgment</a></td>
+        <td>100</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Le type change en fonction de la plaque tenue.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/koud_korne">Koud'Korne</a></td>
+		<td><a href="/bw/moves/horn_attack">Horn Attack</a></td>
+        <td>65</td>
+        <td>100%</td>
+        <td>25</td>
+        <td>Unique hors lanceur</td>
+        <td>Aucun effect additionnel.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/lait_a_boire">Lait A Boire</a></td>
+		<td><a href="/bw/moves/milk_drink">Milk Drink</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>10</td>
+        <td>Lanceur</td>
+        <td>Soigne 50% des PV Max du lanceur.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/lame_d_air">Lame d'Air</a></td>
+    	<td><a href="/bw/moves/air_slash">Air Slash</a></td>
+        <td>75</td>
+        <td>95%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>30% d'apeurer la cible.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/lame_de_roc">Lame De Roc</a></td>
+		<td><a href="/bw/moves/stone_edge">Stone Edge</a></td>
+        <td>100</td>
+        <td>80%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>Taux de critiques élevé.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/lame_oine">Lame Ointe</a></td>
+		<td><a href="/bw/moves/secret_sword">Secret Sword</a></td>
+        <td>85</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Utilise la Défense de la cible lors du calcul des dégâts.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/lame_sainte">Lame Sainte</a></td>
+		<td><a href="/bw/moves/sacred_sword">Sacred Sword</a></td>
+        <td>90</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Ignore les changements de stats adverses.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/lame-feuille">Lame-Feuille</a></td>
+		<td><a href="/bw/moves/leaf_blade">Leaf Blade</a></td>
+        <td>90</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Taux de critiques élevé.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/lance_boue">Lance-Boue</a></td>
+		<td><a href="/bw/moves/mud_sport">Mud Sport</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>15</td>
+        <td>Toutes</td>
+        <td>Les attaques Electrique infligent 50% de dégâts en moins.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/lance_flamme">Lance-flamme</a></td>
+		<td><a href="/bw/moves/flamethrower">Flamethrower</a></td>
+        <td>95</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>10% de chances de brûler la cible.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/lance_soleil">Lance-Soleil</a></td>
+		<td><a href="/bw/moves/solarbeam">SolarBeam</a></td>
+        <td>120</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Charge au premier tour, frappe au second.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/lancecrou">Lancecrou</a></td>
+		<td><a href="/bw/moves/gear_grind">Gear Grind</a></td>
+        <td>50</td>
+        <td>85%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Touche 2 fois en un tour.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/larcin">Larcin</a></td>
+		<td><a href="/bw/moves/thief">Thief</a></td>
+        <td>40</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Vole l'objet tenu de la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/laser_glace">Laser Glace</a></td>
+		<td><a href="/bw/moves/ice_beam">Ice Beam</a></td>
+        <td>95</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>10% de chances de geler la cible.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/lechouille">Lechouille</a></td>
+		<td><a href="/bw/moves/lick">Lick</a></td>
+        <td>20</td>
+        <td>100%</td>
+        <td>30</td>
+        <td>Unique hors lanceur</td>
+        <td>30% de chances de paralyser l'adversaire.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/levikinesie">Levikinesie</a></td>
+		<td><a href="/bw/moves/telekinesis">Telekinesis</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Toutes les attaques touchent la cible pendant 3 tours. Rend la cible immunisée aux attaques Sol.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/lilliput">Lilliput</a></td>
+		<td><a href="/bw/moves/minimize">Minimize</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>20</td>
+        <td>Lanceur</td>
+        <td>Augmente l'esquive de 2 niveaux.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/ligotage">Ligotage</a></td>
+		<td><a href="/bw/moves/wrap">Wrap</a></td>
+        <td>15</td>
+        <td>90%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Piège et inflige des dégâts pendant 4-5 tours.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/lire_esprit">Lire-Esprit</a></td>
+		<td><a href="/bw/moves/mind_reader">Mind Reader</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>La prochaine attaque touchera à coup sur.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/lumi-eclat">Lumi-Eclat</a></td>
+		<td><a href="/bw/moves/luster_purge">Luster Purge</a></td>
+        <td>70</td>
+        <td>100%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>50% de chances de baisser la Défense Spéciale de la cible d'1 niveau.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/luminocanon">Luminocanon</a></td>
+		<td><a href="/bw/moves/flash_cannon">Flash Cannon</a></td>
+        <td>80</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>10% de chances de baisser la Défense Spéciale de la cible d'1 niveau.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/lumiqueue">Lumiqueue</a></td>
+		<td><a href="/bw/moves/tail_glow">Tail Glow</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>20</td>
+        <td>Lanceur</td>
+        <td>Augmente l'Attaque Spéciale du lanceur de 3 niveaux.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/lutte">Lutte</a></td>
+		<td><a href="/bw/moves/struggle">Struggle</a></td>
+        <td>50</td>
+        <td>-</td>
+        <td>1</td>
+        <td>Unique hors lanceur</td>
+        <td>Lanceur perd 25% de ses PV en dégâts de recul.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/mach_punch">Mach Punch</a></td>
+		<td><a href="/bw/moves/mach_punch">Mach Punch</a></td>
+        <td>40</td>
+        <td>100%</td>
+        <td>30</td>
+        <td>Unique hors lanceur</td>
+        <td>Le lanceur attaque en premier.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/machination">Machination</a></td>
+		<td><a href="/bw/moves/nasty_plot">Nasty Plot</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>20</td>
+        <td>Lanceur</td>
+        <td>Augmente l'Attaque Spéciale du lanceur de 2 niveaux.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/machouille">Machouille</a></td>
+		<td><a href="/bw/moves/crunch">Crunch</a></td>
+        <td>80</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>20% de chances de baisser la Défense de la cible d'1 niveau.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/malediction">Malediction</a></td>
+		<td><a href="/bw/moves/curse">Curse</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>10</td>
+        <td>Aucune</td>
+        <td>Fait perdre 1/4 des PV par tour en échange de la moitié des PV du lanceur s'il est de type Spectre. Augmente l'Attaque et la Défense et baisse la Vitesse d'1 niveau du lanceur sinon.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/mania">Mania</a></td>
+		<td><a href="/bw/moves/thrash">Thrash</a></td>
+        <td>120</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Adversaire aléatoire</td>
+        <td>Dure 2 à 3 tours, rend confus le lanceur après.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/marto_poing">Marto-Poing</a></td>
+		<td><a href="/bw/moves/hammer_arm">Hammer Arm</a></td>
+        <td>100</td>
+        <td>90%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Baisse la Vitesse du lanceur d'1 niveau.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/martobois">Martobois</a></td>
+		<td><a href="/bw/moves/wood_hammer">Wood Hammer</a></td>
+        <td>120</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>1/3 de dégâts de recul.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/massd_os">Massd'Os</a></td>
+		<td><a href="/bw/moves/bone_club">Bone Club</a></td>
+        <td>65</td>
+        <td>85%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>10% de chances d'apeurer la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/mega_sangsue">Mega-Sangsue</a></td>
+		<td><a href="/bw/moves/mega_drain">Mega Drain</a></td>
+        <td>40</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Absorbe 50% des dégâts infligés.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/megacorne">Megacorne</a></td>
+		<td><a href="/bw/moves/megahorn">Megahorn</a></td>
+        <td>120</td>
+        <td>85%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Aucun effet additionnel.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/megafouet">Megafouet</a></td>
+		<td><a href="/bw/moves/power_whip">Power Whip</a></td>
+        <td>120</td>
+        <td>85%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Aucun effet additionnel.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/megaphone">Megaphone</a></td>
+		<td><a href="/bw/moves/hyper_voice">Hyper Voice</a></td>
+        <td>90</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Tous les ennemis</td>
+        <td>Aucun effet additionnel.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/meteores">Meteores</a></td>
+		<td><a href="/bw/moves/swift">Swift</a></td>
+        <td>60</td>
+        <td>-</td>
+        <td>20</td>
+        <td>Tous les ennemis</td>
+        <td>Ignore les modifications d'esquive</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/metronome">Metronome</a></td>
+		<td><a href="/bw/moves/metronome">Metronome</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>10</td>
+        <td>Lanceur</td>
+        <td>Lance une attaque aléatoire.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/mimi_queue">Mimi-Queue</a></td>
+		<td><a href="/bw/moves/tail_whip">Tail Whip</a></td>
+        <td>-</td>
+        <td>100%</td>
+        <td>30</td>
+        <td>Tous les ennemis</td>
+        <td>Baisse la Défense des cibles d'1 niveau.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/mimique">Mimique</a></td>
+		<td><a href/fr/moves/voeu_soin="/bw/moves/mirror_move">Mirror Move</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Utilise la dernière attaque qui a ciblé le lanceur.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/miroi_tir">Miroi-Tir</a></td>
+		<td><a href="/bw/moves/mirror_shot">Mirror Shot</a></td>
+        <td>65</td>
+        <td>85%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>30% de chances de baisser la précision de la cible d'1 niveau.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/mitra_poing">Mitra-Poing</a></td>
+		<td><a href="/bw/moves/focus_punch">Focus Punch</a></td>
+        <td>150</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Échoue si le lanceur est touché avant l'attaque.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/moi_dabord">Moi d'Abord</a></td>
+		<td><a href="/bw/moves/me_first">Me First</a></td>
+        <td>1</td>
+        <td>-</td>
+        <td>20</td>
+        <td>Adversaire unique</td>
+        <td>Utilise l'attaque de la cible avec une Puissance multipliée par 1,5. Le lanceur doit attaquer avant la cible pour que l'attaque réussisse.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/morphing">Morphing</a></td>
+		<td><a href="/bw/moves/transform">Transform</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Copie l'apparence de la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/morsure">Morsure</a></td>
+		<td><a href="/bw/moves/bite">Bite</a></td>
+        <td>60</td>
+        <td>100%</td>
+        <td>25</td>
+        <td>Unique hors lanceur</td>
+        <td>30% de chances d'apeurer la cible.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/mur_de_fer">Mur de Fer</a></td>
+		<td><a href="/bw/moves/iron_defense">Iron Defense</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>15</td>
+        <td>Lanceur</td>
+        <td>Augmente la Défense du lanceur de 2 niveaux.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/mur_lumiere">Mur Lumiere</a></td>
+		<td><a href="/bw/moves/light_screen">Light Screen</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>30</td>
+        <td>Équipe du lanceur</td>
+        <td>Double la Défense Spéciale de votre équipe pendant 5 tours.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/nitrocharge">Nitrocharge</a></td>
+		<td><a href="/bw/moves/flame_charge">Flame Charge</a></td>
+        <td>50</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Augmente la Vitesse du lanceur d'1 niveau.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/noeud_herbe">Noeud'Herbe</a></td>
+		<td><a href="/bw/moves/grass_knot">Grass Knot</a></td>
+        <td>1</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Inflige des dégâts en fonction du poids de la cible.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/ocroupi">Ocroupi</a></td>
+		<td><a href="/bw/moves/muddy_water">Muddy Water</a></td>
+        <td>95</td>
+        <td>85%</td>
+        <td>10</td>
+        <td>Tous les ennemis</td>
+        <td>30% de chances de baisser la précision de la cible d'1 niveau.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/octazooka">Octazooka</a></td>
+		<td><a href="/bw/moves/octazooka">Octazooka</a></td>
+        <td>65</td>
+        <td>85%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>50% de chances de baisser la précision de la cible d'1 niveau.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/oeil_miracle">Oeil Miracle</a></td>
+		<td><a href="/bw/moves/miracle_eye">Miracle Eye</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>40</td>
+        <td>Unique hors lanceur</td>
+        <td>Empêche les modifications d'esquive. Permet aux attaques Psy du lanceur de toucher les type Tenebres.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/ombre_portee">Ombre Portee</a></td>
+		<td><a href="/bw/moves/shadow_sneak">Shadow Sneak</a</td>
+        <td>40</td>
+        <td>100%</td>
+        <td>30</td>
+        <td>Unique hors lanceur</td>
+        <td>Le lanceur attaque en premier.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/onde_boreale">Onde Boreale</a></td>
+		<td><a href="/bw/moves/aurora_beam">Aurora Beam</a></td>
+        <td>65</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>10% de chances de baisser l'Attaque de la cible d'1 niveau.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/onde_de_choc">Onde De Choc</a></td>
+		<td><a href="/bw/moves/shock_wave">Shock Wave</a></td>
+        <td>60</td>
+        <td>-</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Ignore les modifications d'esquive</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/onde_folie">Onde Folie</a></td>
+		<td><a href="/bw/moves/confuse_ray">Confuse Ray</a></td>
+        <td>-</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Rend la cible confus.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/onde_vide">Onde Vide</a></td>
+		<td><a href="/bw/moves/vacuum_wave">Vacuum Wave</a></td>
+        <td>40</td>
+        <td>100%</td>
+        <td>30</td>
+        <td>Unique hors lanceur</td>
+        <td>Le lanceur attaque en premier.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/osmerang">Osmerang</a></td>
+		<td><a href="/bw/moves/bonemerang">Bonemerang</a></td>
+        <td>50</td>
+        <td>90%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Touche 2 fois en un tour.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/ouragan">Ouragan</a></td>
+		<td><a href="/bw/moves/twister">Twister</a></td>
+        <td>40</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Tous les ennemis</td>
+        <td>20% de chances d'apeurer la cible.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/papillodanse">Papillodanse</a></td>
+		<td><a href="/bw/moves/quiver_dance">Quiver Dance</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>20</td>
+        <td>Lanceur</td>
+        <td>Augmente l'Attaque Spéciale, la Défense Spéciale et la Vitesse du lanceur d'1 niveau.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/par_ici">Par Ici</a></td>
+		<td><a href="/bw/moves/follow_me">Follow Me</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>20</td>
+        <td>Lanceur</td>
+        <td>Toutes les attaques touchent le lanceur.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/para_spore">Para Spore</a></td>
+		<td><a href="/bw/moves/stun_spore">Stun Spore</a></td>
+        <td>-</td>
+        <td>75%</td>
+        <td>30</td>
+        <td>Unique hors lanceur</td>
+        <td>Paralyse la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/paresse">Paresse</a></td>
+		<td><a href="/bw/moves/slack_off">Slack Off</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>10</td>
+        <td>Lanceur</td>
+        <td>Soigne 50% des PV Max du lanceur.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/partageforce">PartageForce</a></td>
+		<td><a href="/bw/moves/power_split">Power Split</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Equilibre l'Attaque et l'Attaque Spéciale avec la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/partagarde">PartaGarde</a></td>
+		<td><a href="/bw/moves/guard_split">Guard Split</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Egalise la Défense et la Défense Spéciale du lanceur et de la cible.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/passe_cadeau">Passe-Cadeau</a></td>
+		<td><a href="/bw/moves/bestow">Bestow</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Le lanceur donne son objet à la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/passe_passe">Passe-Passe</a></td>
+		<td><a href="/bw/moves/switcheroo">Switcheroo</a></td>
+        <td>-</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Echange d'objet avec la cible.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/patience">Patience</a></td>
+		<td><a href="/bw/moves/bide">Bide</a></td>
+        <td>1</td>
+        <td>-</td>
+        <td>10</td>
+        <td>Lanceur</td>
+        <td>Charge pendant deux tours; renvoie le double des dégâts subits pendant les tours de chargement.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/peignee">Peignee</a></td>
+		<td><a href="/bw/moves/head_charge">Head Charge</a></td>
+        <td>120</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>25% de dégâts de recul.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/permucoeur">Permucoeur</a></td>
+		<td><a href="/bw/moves/heart_swap">Heart Swap</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Échange les stats du lanceur avec celles de la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/permuforce">Permuforce</a></td>
+		<td><a href="/bw/moves/power_swap">Power Swap</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Echange l'Attaque et l'Attaque Spéciale avec la cible.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/permugarde">Permugarde</a></td>
+		<td><a href="/bw/moves/guard_swap">Guard Swap</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Echange les boosts de Défense et Défense Spéciale entre la cible et le lanceur.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/photocopie">Photocopie</a></td>
+		<td><a href="/bw/moves/copycat">Copycat</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>20</td>
+        <td>Lanceur</td>
+        <td>Utilise la dernière attaque lancée dans le combat.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/phytomixeur">Phytomixeur</a></td>
+		<td><a href="/bw/moves/leaf_tornado">Leaf Tornado</a></td>
+        <td>65</td>
+        <td>90%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>30% de chances de baisser la précision de la cible d'1 niveau.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/picanon">Picanon</a></td>
+		<td><a href="/bw/moves/spike_cannon">Spike Cannon</a></td>
+        <td>20</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Touche 2 à 5 fois en un tour.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/picore">Picore</a></td>
+		<td><a href="/bw/moves/pluck">Pluck</a></td>
+        <td>60</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Le lanceur vole l'effet de la Baie tenue par l'adversaire.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/picots">Picots</a></td>
+		<td><a href="/bw/moves/spikes">Spikes</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>20</td>
+        <td>Terrain adverse</td>
+        <td>Inflige des dégâts aux Pokémon adverses quand ils entrent sur le terrain.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/picpic">Picpic</a></td>
+		<td><a href="/bw/moves/peck">Peck</a></td>
+        <td>35</td>
+        <td>100%</td>
+        <td>35</td>
+        <td>Unique hors lanceur</td>
+        <td>Aucun effet additionnel.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/pics_toxik">Pics Toxik</a></td>
+		<td><a href="/bw/moves/toxic_spikes">Toxic Spikes</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>20</td>
+        <td>Terrain adverse</td>
+        <td>Empoisonne l'adversaire quand il rentre sur le terrain.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/pied_bruleur">Pied Bruleur</a></td>
+		<td><a href="/bw/moves/blaze_kick">Blaze Kick</a></td>
+        <td>85</td>
+        <td>90%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Taux de critiques élevé. 10% de chances de brûler la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/pied_saute">Pied Saute</a></td>
+		<td><a href="/bw/moves/jump_kick">Jump Kick</a></td>
+        <td>100</td>
+        <td>95%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Le lanceur subit 50% de dégâts de recul si l'attaque rate.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/pied_voltige">Pied Voltige</a></td>
+		<td><a href="/bw/moves/hi_jump_kick">Hi Jump Kick</a></td>
+        <td>130</td>
+        <td>90%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Le lanceur subit 50% de dégâts de recul si l'attaque rate.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/piege_de_roc">Piege De Roc</a></td>
+		<td><a href="/bw/moves/stealth_rock">Stealth Rock</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>20</td>
+        <td>Terrain adverse</td>
+        <td>Inflige des dégâts aux adversaires quand il entrent sur le terrain.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/pietisol">Pietisol</a></td>
+		<td><a href="/bw/moves/bulldoze">Bulldoze</a></td>
+        <td>60</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Toutes hors lanceur</td>
+        <td>Baisse la Vitesse de la cible d'1 niveau.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/pilonnage">Pilonnage</a></td>
+		<td><a href="/bw/moves/barrage">Barrage</a></td>
+        <td>15</td>
+        <td>85%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Touche 2 à 5 fois en un tour.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/pince_masse">Pince-Masse</a></td>
+		<td><a href="/bw/moves/crabhammer">Crabhammer</a></td>
+        <td>90</td>
+        <td>90%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Taux de critiques élevé.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/pique">Pique</a></td>
+		<td><a href="/bw/moves/sky_attack">Sky Attack</a></td>
+        <td>140</td>
+        <td>90%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>Frappe un tour après avoir été lancé. 30% de chances d'apeurer la cible.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/piqure">Piqure</a></td>
+		<td><a href="/bw/moves/bug_bite">Bug Bite</a></td>
+        <td>60</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Le lanceur vole l'effet de la Baie de la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/pisto_poing">Pisto-Poing</a></td>
+		<td><a href="/bw/moves/bullet_punch">Bullet Punch</a></td>
+        <td>40</td>
+        <td>100%</td>
+        <td>30</td>
+        <td>Unique hors lanceur</td>
+        <td>Le lanceur attaque en premier.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/pistolet_a_o">Pistolet A O</a></td>
+		<td><a href="/bw/moves/water_gun">Water Gun</a></td>
+        <td>40</td>
+        <td>100%</td>
+        <td>25</td>
+        <td>Unique hors lanceur</td>
+        <td>Aucun effet additionnel.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/plaie-croix">Plaie-Croix</a></td>
+		<td><a href="/bw/moves/x-scissor">X-Scissor</a></td>
+        <td>80</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Aucun effet additionnel.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/plaquage">Plaquage</a></td>
+		<td><a href="/bw/moves/body_slam">Body Slam</a></td>
+        <td>85</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>30% de chances de paralyser la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/plenitude">Plenitude</a></td>
+		<td><a href="/bw/moves/calm_mind">Calm Mind</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>20</td>
+        <td>Lanceur</td>
+        <td>Augmente l'Attaque Spéciale et la Défense Spéciale du lanceur d'1 niveau.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/plongee">Plongee</a></td>
+		<td><a href="/bw/moves/dive">Dive</a></td>
+        <td>80</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Le lanceur est invulnérable pendant un tour, et frappe le tour suivant.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/plumo_queue">Plumo-Queue</a></td>
+		<td><a href="/bw/moves/tail_slap">Tail Slap</a></td>
+        <td>25</td>
+        <td>85%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Touche 2 à 5 fois.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/poing_comete">Poing Comete</a></td>
+		<td><a href="/bw/moves/comet_punch">Comet Punch</a></td>
+        <td>18</td>
+        <td>85%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Touche 2 à 5 fois en un tour.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/poing_dard">Poing Dard</a></td>
+		<td><a href="/bw/moves/needle_arm">Needle Arm</a></td>
+        <td>60</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>30% de chances d'apeurer la cible.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/poing_de_feu">Poing de Feu</a></td>
+		<td><a href="/bw/moves/fire_punch">Fire Punch</a></td>
+        <td>75</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>10% de chances de brûler la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/poing_meteor">Poing Meteor</a></td>
+		<td><a href="/bw/moves/meteor_mash">Meteor Mash</a></td>
+        <td>100</td>
+        <td>85%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>20% de chances d'augmenter l'Attaque du lanceur d'1 niveau.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/poing_ombre">Poing Ombre</a></td>
+		<td><a href="/bw/moves/shadow_punch">Shadow Punch</a></td>
+        <td>60</td>
+        <td>-</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Ignore les modifications d'esquive.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/poing_eclair">Poing-Eclair</a></td>
+		<td><a href="/bw/moves/thunderpunch">ThunderPunch</a></td>
+        <td>75</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>10% de chances de paralyser la cible.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/poing_karate">Poing-Karate</a></td>
+		<td><a href="/bw/moves/karate_chop">Karate Chop</a></td>
+        <td>50</td>
+        <td>100%</td>
+        <td>25</td>
+        <td>Unique hors lanceur</td>
+        <td>Taux de critiques élevé.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/poinglace">Poinglace</a></td>
+		<td><a href="/bw/moves/ice_punch">Ice Punch</a></td>
+        <td>75</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>10% de chances de geler la cible.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/poison_croix">Poison-Croix</a></td>
+		<td><a href="/bw/moves/cross_poison">Cross Poison</a></td>
+        <td>70</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Taux de critiques élevé. 10% de chances d'empoisonner la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/poliroche">Poliroche</a></td>
+		<td><a href="/bw/moves/rock_polish">Rock Polish</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>20</td>
+        <td>Lanceur</td>
+        <td>Augmente la Vitesse du lanceur de 2 niveaux.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/possesif">Possesif</a></td>
+		<td><a href="/bw/moves/imprison">Imprison</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>10</td>
+        <td>Lanceur</td>
+        <td>Aucun adversaire ne peut utiliser une attaque du lanceur.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/poudre_dodo">Poudre Dodo</a></td>
+		<td><a href="/bw/moves/sleep_powder">Sleep Powder</a></td>
+        <td>-</td>
+        <td>75%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Endort la cible.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/poudre_toxik">Poudre Toxik</a></td>
+		<td><a href="/bw/moves/poisonpowder">PoisonPowder</a></td>
+        <td>-</td>
+        <td>75%</td>
+        <td>35</td>
+        <td>Unique hors lanceur</td>
+        <td>Empoisonne la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/poudrefureur">PoudreFureur</a></td>
+		<td><a href="/bw/moves/rage_powder">Rage Powder</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>20</td>
+        <td>Lanceur</td>
+        <td>Toutes les attaques touchent le lanceur./td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/poudreuse">Poudreuse</a></td>
+		<td><a href="/bw/moves/powder_snow">Powder Snow</a></td>
+        <td>40</td>
+        <td>100%</td>
+        <td>25</td>
+        <td>Tous les ennemis</td>
+        <td>10% de chances de geler la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/poursuite">Poursuite</a></td>
+		<td><a href="/bw/moves/pursuit">Pursuit</a></td>
+        <td>40</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Puissance doublée si l'adversaire switche.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/pouv_antique">Pouv.Antique</a></td>
+		<td><a href="/bw/moves/ancientpower">AncientPower</a></td>
+        <td>60</td>
+        <td>100%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>10% de chances de booster toutes les stats du lanceur d'1 niveau.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/presse">Presse</a></td>
+		<td><a href="/bw/moves/crush_grip">Crush Grip</a></td>
+        <td>1</td>
+        <td>100%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>La puissance dépend des PV restants de la cible.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/prescience">Prescience</a></td>
+		<td><a href="/bw/moves/future_sight">Future Sight</a></td>
+        <td>100</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Inflige des dégâts après trois tours.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/prevention">Prevention</a></td>
+		<td><a href="/bw/moves/quick_guard">Quick Guard</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>15</td>
+        <td>Équipe du lanceur</td>
+        <td>Empêche l'utilisation d'attaques à priorités contre le camp du lanceur.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/prlvt_destin">Prlvt Destin</a></td>
+		<td><a href="/bw/moves/destiny_bond">Destiny Bond</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>5</td>
+        <td>Lanceur</td>
+        <td>Si le lanceur est mis K.O., la cible l'est aussi.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/projection">Projection</a></td>
+		<td><a href="/bw/moves/circle_throw">Circle Throw</a></td>
+        <td>60</td>
+        <td>90%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Force la cible à switcher avec un autre Pokémon.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/protection">Protection</a></td>
+		<td><a href="/bw/moves/reflect">Reflect</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>20</td>
+        <td>Équipe du lanceur</td>
+        <td>Baisse les dégâts physiques infligés à l'équipe du lanceur pendant 5 tours.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/provoc">Provoc</a></td>
+		<td><a href="/bw/moves/taunt">Taunt</a></td>
+        <td>-</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>La cible ne peut utiliser que des attaques offensives pendant 3 tours.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/psycho_boost">Psycho Boost</a></td>
+		<td><a href="/bw/moves/psycho_boost">Psycho Boost</a></td>
+        <td>140</td>
+        <td>90%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>Baisse l'Attaque Spéciale du lanceur de 2 niveaux.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/psyko">Psyko</a></td>
+		<td><a href="/bw/moves/psychic">Psychic</a></td>
+        <td>90</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>10% de chances de baisser la Défense Spéciale de la cible d'1 niveau.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/psykoud_boul">Psykoud'Boul</a></td>
+		<td><a href="/bw/moves/zen_headbutt">Zen Headbutt</a></td>
+        <td>80</td>
+        <td>90%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>20% de chances d'apeurer la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/puis_cachee">Puis. Cachee</a></td>
+		<td><a href="/bw/moves/hidden_power">Hidden Power</a></td>
+        <td>1</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Dépend des IV du lanceur. Peut être de n'importe quel type sauf Normal, et de Puissance entre 30 et 70.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/puissnce">Puissance</a></td>
+		<td><a href="/bw/moves/focus_energy">Focus Energy</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>30</td>
+        <td>Lanceur</td>
+        <td>Augmente le taux de critiques de 2 niveaux.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/punition">Punition</a></td>
+		<td><a href="/bw/moves/punishment">Punishment</a></td>
+        <td>1</td>
+        <td>100%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>Inflige plus de dégâts si la cible possède des boosts de stats.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/puredpois">Puredpois</a></td>
+		<td><a href="/bw/moves/smog">Smog</a></td>
+        <td>20</td>
+        <td>70%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>40% de chances d'empoisonner la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/queue_de_fer">Queue de Fer</a></td>
+		<td><a href="/bw/moves/iron_tail">Iron Tail</a></td>
+        <td>100</td>
+        <td>75%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>10% de chances de baisser la Défense de la cible d'1 niveau.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/queue_poison">Queue-Poison</a></td>
+		<td><a href="/bw/moves/poison_tail">Poison Tail</a></td>
+        <td>50</td>
+        <td>100%</td>
+        <td>25</td>
+        <td>Unique hors lanceur</td>
+        <td>Taux de critiques élevé. 10% de chances d'empoisonner la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/racines">Racines</a></td>
+		<td><a href="/bw/moves/ingrain">Ingrain</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>20</td>
+        <td>Lanceur</td>
+        <td>Soigne 1/16 des PV Max chaque tour. Empêche le lanceur de switcher.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/rafale_psy">Rafale Psy</a></td>
+		<td><a href="/bw/moves/psybeam">Psybeam</a></td>
+        <td>65</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>10% de chances de rendre confus la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/rancune">Rancune</a></td>
+		<td><a href="/bw/moves/grudge">Grudge</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>5</td>
+        <td>Lanceur</td>
+        <td>Si le lanceur est mis K.O., l'adversaire perd tous ses PP.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/rafale_feu">Rafale Feu</a></td>
+		<td><a href="/bw/moves/blast_burn">Blast Burn</a></td>
+        <td>150</td>
+        <td>90%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>Le lanceur ne peut attaquer le tour suivant.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/rapace">Rapace</a></td>
+		<td><a href="/bw/moves/brave_bird">Brave Bird</a></td>
+        <td>120</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Inflige 1/3 de dégâts de recul.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/rayon_charge">Rayon Charge</a></td>
+		<td><a href="/bw/moves/charge_beam">Charge Beam</a></td>
+        <td>50</td>
+        <td>90%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>70% de chances d'augmenter l'Attaque Spéciale du lanceur d'1 niveau.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/rayon_lune">Rayon Lune</a></td>
+		<td><a href="/bw/moves/moonlight">Moonlight</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>5</td>
+        <td>Lanceur</td>
+        <td>Soigne le lanceur en fonction de la météo.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/rayon_gemme">Rayon Gemme</a></td>
+		<td><a href="/bw/moves/power_gem">Power Gem</a></td>
+        <td>70</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Aucun effet additionnel.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/rayon_signal">Rayon Signal</a></td>
+		<td><a href="/bw/moves/signal_beam">Signal Beam</a></td>
+        <td>75</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>10% de chances de rendre la cible confus.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/rayon_simple">Rayon Simple</a></td>
+		<td><a href="/bw/moves/simple_beam">Simple Beam</a></td>
+        <td>-</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Change la capacité de la cible en Simple.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/rebond">Rebond</a></td>
+		<td><a href="/bw/moves/bounce">Bounce</a></td>
+        <td>85</td>
+        <td>85%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>Le lanceur est invunérable pendant un tour, et attaque le tour suivant. 30% de chances de paralyser la cible.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/rebondifeu">Rebondifeu</a></td>
+		<td><a href="/bw/moves/flame_burst">Flame Burst</a></td>
+        <td>70</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Inflige des dégâts aux Pokémon situés à côté du lanceur.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/recyclage">Recyclage</a></td>
+		<td><a href="/bw/moves/recycle">Recycle</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>10</td>
+        <td>Lanceur</td>
+        <td>Restaure un objet utilisé.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/reflet">Reflet</a></td>
+		<td><a href="/bw/moves/double_team">Double Team</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>15</td>
+        <td>Lanceur</td>
+        <td>Augmente l'esquive d'1 niveau.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/reflet_magik">Reflet Magik</a></td>
+		<td><a href="/bw/moves/magic_coat">Magic Coat</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>15</td>
+        <td>Lanceur</td>
+        <td>Renvoie certaines attaques non offensives.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/regard_noir">Regard Noir</a></td>
+		<td><a href="/bw/moves/mean_look">Mean Look</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>La cible ne peut pas switcher.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/regeneration">Regeneration</a></td>
+		<td><a href="/bw/moves/refresh">Refresh</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>20</td>
+        <td>Lanceur</td>
+        <td>Soigne le lanceur de ses statuts.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/relache">Relache</a></td>
+		<td><a href="/bw/moves/spit_up">Spit Up</a></td>
+        <td>1</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>La puissance dépend du nombre de fois qu'a été lancé Stockage</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/relais">Relais</a></td>
+		<td><a href="/bw/moves/baton_pass">Baton Pass</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>40</td>
+        <td>Lanceur</td>
+        <td>Le lanceur switche, et transmet au Pokémon suivant les changements de stats et certaines conditions spéciales.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/rengorgement">Rengorgement</a></td>
+		<td><a href="/bw/moves/work_up">Work Up</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>30</td>
+        <td>Lanceur</td>
+        <td>Augmente l'Attaque et l'Attaque Spéciale du lanceur d'1 niveau.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/repli">Repli</a></td>
+		<td><a href="/bw/moves/withdraw">Withdraw</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>40</td>
+        <td>Lanceur</td>
+        <td>Augmente la Défense du lanceur d'1 niveau.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/repos">Repos</a></td>
+		<td><a href="/bw/moves/rest">Rest</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>10</td>
+        <td>Lanceur</td>
+        <td>Le lanceur s'endort pendant 2 tours et restaure tous ses PV.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/represailles">Represailles</a></td>
+		<td><a href="/bw/moves/payback">Payback</a></td>
+        <td>50</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Puissance doublée si le lanceur a subit des dégâts durant ce tour.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/requiem">Requiem</a></td>
+		<td><a href="/bw/moves/perish_song">Perish Song</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>5</td>
+        <td>Toutes</td>
+        <td>Tous les Pokémon qui entendent le Requiem sont mis K.O. au bout de 3 tours.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/retour">Retour</a></td>
+		<td><a href="/bw/moves/return">Return</a></td>
+        <td>1</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>La Puissance augmente en fonciton du bonheur du lanceur.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/reveil_force">Reveil Force</a></td>
+		<td><a href="/bw/moves/wake-up_slap">Wake-Up Slap</a></td>
+        <td>60</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Puissance doublée si la cible est endormie.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/revenant">Revenant</a></td>
+		<td><a href="/bw/moves/shadow_force">Shadow Force</a></td>
+        <td>120</td>
+        <td>100%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>Le lanceur devient invulnérable, et frappe au tour suivant. Evite Abri et Detection.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/ripose">Riposte</a></td>
+		<td><a href="/bw/moves/counter">Counter</a></td>
+        <td>1</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Aucune</td>
+        <td>Si touché par une attaque physique, renvoie le double des dégâts.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/roc_boulet">Roc-Boulet</a></td>
+		<td><a href="/bw/moves/rock_wrecker">Rock Wrecker</a></td>
+        <td>150</td>
+        <td>90%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>Le lanceur ne peut pas attaquer lors du prochain tour.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/ronflement">Ronflement</a></td>
+		<td><a href="/bw/moves/snore">Snore</a></td>
+        <td>40</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Ne peut être lancé que quand le lanceur dort. 30% de chances d'apeurer la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/roue_de_feu">Roue de Feu</a></td>
+		<td><a href="/bw/moves/flame_wheel">Flame Wheel</a></td>
+        <td>60</td>
+        <td>100%</td>
+        <td>25</td>
+        <td>Unique hors lanceur</td>
+        <td>10% de chances de brûler la cible. Dégèle le lanceur.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/roulade">Roulade</a></td>	
+		<td><a href="/bw/moves/rollout">Rollout</a></td>
+        <td>30</td>
+        <td>90%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Puissance doublée à chaque fois que l'attaque touche. Dure 5 tours.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/rugissement">Rugissement</a></td>
+		<td><a href="/bw/moves/growl">Growl</a></td>
+        <td>-</td>
+        <td>100%</td>
+        <td>40</td>
+        <td>Tous les ennemis</td>
+        <td>Baisse l'Attaque de la cible d'1 niveau.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/rune_protect">Rune Protect</a></td>
+		<td><a href="/bw/moves/safeguard">Safeguard</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>25</td>
+        <td>Équipe du lanceur</td>
+        <td>Protège l'équipe du lanceur des status pendant 5 tours.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/ruse">Ruse</a></td>
+		<td><a href="/bw/moves/feint">Feint</a></td>
+        <td>50</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Nullifie les effets de Detection ou Abri.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/sabotage">Sabotage</a></td>
+		<td><a href="/bw/moves/knock_off">Knock Off</a></td>
+        <td>20</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Fait perdre à la cible son objet tenu.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/sacrifice">Sacrifice</a></td>
+		<td><a href="/bw/moves/submission">Submission</a></td>
+        <td>80</td>
+        <td>80%</td>
+        <td>25</td>
+        <td>Unique hors lanceur</td>
+        <td>1/4 de dégâts de recul.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/saisie">Saisie</a></td>
+		<td><a href="/bw/moves/snatch">Snatch</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>10</td>
+        <td>Lanceur</td>
+        <td>Si certaines attaques sont utilisées, le lanceur de Saisie lance ces attaques à la place.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/saumure">Saumure</a></td>
+		<td><a href="/bw/moves/brine">Brine</a></td>
+        <td>65</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Puissance doublée si la cible a moins de 50% de ses PV.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/secretion">Secretion</a></td>
+		<td><a href="/bw/moves/string_shot">String Shot</a></td>
+        <td>-</td>
+        <td>95%</td>
+        <td>40</td>
+        <td>Tous les ennemis</td>
+        <td>Baisse la Vitesse de la cible d'1 niveau.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/seduction">Seduction</a></td>
+		<td><a href="/bw/moves/captivate">Captivate</a></td>
+        <td>-</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Tous les ennemis</td>
+        <td>Baisse de 2 niveaux l'Attaque Spéciale d'une cible de sexe opposé.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/seisme">Seisme</a></td>
+		<td><a href="/bw/moves/earthquake">Earthquake</a></td>
+        <td>100</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Toutes hors lanceur</td>
+        <td>Puissance doublée si la cible lance Tunnel.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/sifflherbe">Siffl'Herbe</a></td>
+		<td><a href="/bw/moves/grasswhistle">GrassWhistle</a></td>
+        <td>-</td>
+        <td>55%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Endort la cible.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/siphon">Siphon</a></td>
+		<td><a href="/bw/moves/whirlpool">Whirlpool</a></td>
+        <td>35</td>
+        <td>85%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Piège et inflige des dégâts pendant 4-5 tours.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/soin">Soin</a></td>
+		<td><a href="/bw/moves/recover">Recover</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>10</td>
+        <td>Lanceur</td>
+        <td>Soigne 50% des PV Max du lanceur.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/sonicboom">Sonicboom</a></td>
+		<td><a href="/bw/moves/sonicboom">SonicBoom</a></td>
+        <td>1</td>
+        <td>90%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Inflige 20 dégâts. Les Spectre y sont immunisés.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/soucigraine">Soucigraine</a></td>
+		<td><a href="/bw/moves/worry_seed">Worry Seed</a></td>
+        <td>-</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Change la capacité de la cible en Insomnia.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/souffleglace">SouffleGlace</a></td>
+		<td><a href="/bw/moves/frost_breath">Frost Breath</a></td>
+        <td>40</td>
+        <td>90%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Fait obligatoirement un coup critique.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/souplesse">Souplesse</a></td>
+		<td><a href="/bw/moves/slam">Slam</a></td>
+        <td>80</td>
+        <td>75%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Aucun effet additionnel.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/souvenir">Souvenir</a></td>
+		<td><a href="/bw/moves/memento">Memento</a></td>
+        <td>-</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Le lanceur est mis K.O. Baisse l'Attaque et l'Attaque Spéciale de la cible de 2 niveaux.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/spore">Spore</a></td>
+		<td><a href="/bw/moves/spore">Spore</a></td>
+        <td>-</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Endort la cible.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/spore_coton">Spore Coton</a></td>	
+		<td><a href="/bw/moves/cotton_spore">Cotton Spore</a></td>
+        <td>-</td>
+        <td>100%</td>
+        <td>40</td>
+        <td>Unique hors lanceur</td>
+        <td>Baisse la Vitesse de la cible de 2 niveaux.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/spatio_rift">Spatio-Rift</a></td>
+		<td><a href="/bw/moves/spacial_rend">Spacial Rend</a></td>
+        <td>100</td>
+        <td>95%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>Taux de critiques élevé.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/stalagtite">Stalagtite</a></td>
+		<td><a href="/bw/moves/icicle_spear">Icicle Spear</a></td>
+        <td>25</td>
+        <td>100%</td>
+        <td>30</td>
+        <td>Unique hors lanceur</td>
+        <td>Touche 2 à 5 fois.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/stimulant">Stimulant</a></td>
+		<td><a href="/bw/moves/smellingsalt">SmellingSalt</a></td>
+        <td>60</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Puissance de 120 sur une cible paralysée, mais la soigne de sa paralysie.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/stockage">Stockage</a></td>
+		<td><a href="/bw/moves/stockpile">Stockpile</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>20</td>
+        <td>Lanceur</td>
+        <td>Augmente la Défense et la Défense Spéciale du lanceur d'1 niveau. Permet au lanceur d'utiliser Relache ou Avale.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/stratopercut">Stratopercut</a></td>
+		<td><a href="/bw/moves/sky_uppercut">Sky Uppercut</a></td>
+        <td>85</td>
+        <td>90%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Touche les Pokémon lançant Rebond ou Vol.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/strido_son">Strido-Son</a></td>
+		<td><a href="/bw/moves/metal_sound">Metal Sound</a></td>
+        <td>-</td>
+        <td>85%</td>
+        <td>40</td>
+        <td>Unique hors lanceur</td>
+        <td>Baisse la Défense Spéciale de la cible de 2 niveaux.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/suc_digestif">Suc Digestif</a></td>
+		<td><a href="/bw/moves/gastro_acid">Gastro Acid</a></td>
+        <td>-</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Annule la capacité de la cible.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/surchauffe">Surchauffe</a></td>
+		<td><a href="/bw/moves/overheat">Overheat</a></td>
+        <td>140</td>
+        <td>90%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>Baisse l'Attaque Spéciale du lanceur de 2 niveaux.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/surf">Surf</a></td>
+		<td><a href="/bw/moves/surf">Surf</a></td>
+        <td>95</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Toutes hors lanceur</td>
+        <td>Touche les Pokémon utilisant Plongee avec une Puissance doublée.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/surpuissance">Surpuissance</a></td>
+		<td><a href="/bw/moves/superpower">Superpower</a></td>
+        <td>120</td>
+        <td>100%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>Baisse l'Attaque et la Défense du lanceur d'1 niveau.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/survinsecte">Survinsecte</a></td>
+		<td><a href="/bw/moves/struggle_bug">Struggle Bug</a></td>
+        <td>30</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Tous les ennemis</td>
+        <td>Baisse l'Attaque Spéciale de la cible d'1 niveau.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/synchropeine">Synchropeine</a></td>
+		<td><a href="/bw/moves/synchronoise">Synchronoise</a></td>
+        <td>70</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Toutes hors lanceur</td>
+        <td>Ne touche que les cibles du même type que le lanceur.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/synthese">Synthese</a></td>
+		<td><a href="/bw/moves/synthesis">Synthesis</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>5</td>
+        <td>Lanceur</td>
+        <td>Restaure des PV en fonction du climat.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/tacle_feu">Tacle Feu</a></td>
+		<td><a href="/bw/moves/heat_crash">Heat Crash</a></td>
+        <td>1</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Inflige des dégâts basés sur le poids du lanceur et de la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/tacle_lourd">Tacle Lourd</a></td>
+		<td><a href="/bw/moves/heavy_slam">Heavy Slam</a></td>
+        <td>1</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Inflige des dégâts basés sur le poids du lanceur et de la cible.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/taillade">Taillade</a></td>
+		<td><a href="/bw/moves/fury_cutter">Fury Cutter</a></td>
+        <td>20</td>
+        <td>95%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Puissance doublée à chaque fois que l'attaque touche.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/technobuster">TechnoBuster</a></td>
+		<td><a href="/bw/moves/techno_blast">Techno Blast</a></td>
+        <td>85</td>
+        <td>100%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>Le type de l'attaque change en fonction du type de Module tenu.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/tenebres">Tenebres</a></td>
+		<td><a href="/bw/moves/night_shade">Night Shade</a></td>
+        <td>1</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Inflige des dégâts égaux au niveau du lanceur.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/tete_de_fer">Tete de Fer</a></td>
+		<td><a href="/bw/moves/iron_head">Iron Head</a></td>
+        <td>80</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>30% de chances d'apeurer la cible.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/telekinesie">Telekinesie</a></td>
+		<td><a href="/bw/moves/kinesis">Kinesis</a></td>
+        <td>-</td>
+        <td>80%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Baisse la précision de la cible d'1 niveau.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/teleport">Teleport</a></td>
+		<td><a href="/bw/moves/teleport">Teleport</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>20</td>
+        <td>Lanceur</td>
+        <td>Permet de s'échapper des combats contre les Pokémon sauvages.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/telluriforce">Telluriforce</a></td>
+		<td><a href="/bw/moves/earth_power">Earth Power</a></td>
+        <td>90</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>10% de chances de baisser la Défense Spéciale de la cible d'1 niveau.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/tempetesable">Tempetesable</a></td>
+		<td><a href="/bw/moves/sandstorm">Sandstorm</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>10</td>
+        <td>Toutes</td>
+        <td>Invoque une tempête de sable pendant 5 tours.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/tempeteverte">Tempeteverte</a></td>
+		<td><a href="/bw/moves/leaf_storm">Leaf Storm</a></td>
+        <td>140</td>
+        <td>90%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>Baisse l'Attaque Spéciale du lanceur de 2 niveaux.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/ten_danse">Ten-Danse</a></td>
+		<td><a href="/bw/moves/entrainment">Entrainment</a></td>
+        <td>-</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>La capacité de la cible devient la même que celle du lanceur.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/tenacite">Tenacite</a></td>
+		<td><a href="/bw/moves/endure">Endure</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>10</td>
+        <td>Lanceur</td>
+        <td>Le lanceur survit toujours avec au moins 1 PV.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/tir_de_boue">Tir De Boue</a></td>
+		<td><a href="/bw/moves/mud_shot">Mud Shot</a></td>
+        <td>55</td>
+        <td>95%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Baisse la Vitesse de la cible d'1 niveau.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/toile">Toile</a></td>
+		<td><a href="/bw/moves/spider_web">Spider Web</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>La cible ne peut plus être retiré du terrain.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/toile_elek">Toile Elek</a></td>
+		<td><a href="/bw/moves/electroweb">Electroweb</a></td>
+        <td>55</td>
+        <td>95%</td>
+        <td>15</td>
+        <td>Tous les ennemis</td>
+        <td>Baisse la Vitesse de la cible d'1 niveau.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/tomberoche">Tomberoche</a></td>
+		<td><a href="/bw/moves/rock_tomb">Rock Tomb</a></td>
+        <td>50</td>
+        <td>80%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Baisse la Vitesse de la cible d'1 niveau.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/tonnerre">Tonnerre</a></td>
+		<td><a href="/bw/moves/thunderbolt">Thunderbolt</a></td>
+        <td>95</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>10% de chances de paralyser la cible.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/tornade">Tornade</a></td>
+		<td><a href="/bw/moves/gust">Gust</a></td>
+        <td>40</td>
+        <td>100%</td>
+        <td>35</td>
+        <td>Unique hors lanceur</td>
+        <td>Aucun effet additionnel.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/torgnoles">Torgnoles</a></td>
+		<td><a href="/bw/moves/doubleslap">DoubleSlap</a></td>
+        <td>15</td>
+        <td>85%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Touche 2 à 5 fois en un tour.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/tour_rapide">Tour Rapide</a></td>
+		<td><a href="/bw/moves/rapid_spin">Rapid Spin</a></td>
+        <td>20</td>
+        <td>100%</td>
+        <td>40</td>
+        <td>Unique hors lanceur</td>
+        <td>Retire Picots, Pics Toxik, Piege de Roc et Vampigraine du côté du lanceur.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/tourbi_sable">Tourbi-Sable</a></td>
+		<td><a href="/bw/moves/sand_tomb">Sand Tomb</a></td>
+        <td>35</td>
+        <td>85%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Piège et inflige des dégâts pendant 4 à 5 tours.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/tourmagik">Tourmagik</a></td>
+		<td><a href="/bw/moves/trick">Trick</a></td>
+        <td>-</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Echange d'objet avec la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/tourmente">Tourmente</a></td>
+		<td><a href="/bw/moves/torment">Torment</a></td>
+        <td>-</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>La cible ne peut pas utiliser deux fois de suite la même attaque.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/tourniquet">Tourniquet</a></td>
+		<td><a href="/bw/moves/water_sport">Water Sport</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>15</td>
+        <td>Toutes</td>
+        <td>Réduit la puissance des attaques Feu de 50%.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/tout_ou_rien">Tout ou Rien</a></td>
+		<td><a href="/bw/moves/final_gambit">Final Gambit</a></td>
+        <td>1</td>
+        <td>100%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>Met K.O. le lanceur. La cible subit autant de dégâts que le lanceur avait de PV.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/toxik">Toxik</a></td>
+		<td><a href="/bw/moves/toxic">Toxic</a></td>
+        <td>-</td>
+        <td>90%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Empoisonne gravement la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/tranch_air">Tranch'Air</a></td>
+    	<td><a href="/bw/moves/air_cutter">Air Cutter</a></td>
+        <td>55</td>
+        <td>95%</td>
+        <td>25</td>
+        <td>Tous les ennemis</td>
+        <td>Taux de critiques élevé.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/tranch_herbe">Tranch'Herbe</a></td>
+		<td><a href="/bw/moves/razor_leaf">Razor Leaf</a></td>
+        <td>55</td>
+        <td>95%</td>
+        <td>25</td>
+        <td>Tous les ennemis</td>
+        <td>Taux de critiques élevé.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/tranche">Tranche</a></td>
+		<td><a href="/bw/moves/slash">Slash</a></td>
+        <td>70</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Taux de critiques élevé.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/tranche_nuit">Tranche-Nuit</a></td>
+		<td><a href="/bw/moves/night_slash">Night Slash</a></td>
+        <td>70</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Taux de critiques élevé.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/trempette">Trempette</a></td>
+		<td><a href="/bw/moves/splash">Splash</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>40</td>
+        <td>Lanceur</td>
+        <td>Aucun effet.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/tricherie">Tricherie</a></td>
+		<td><a href="/bw/moves/foul_play">Foul Play</a></td>
+        <td>95</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Utilise l'Attaque du lanceur lors du calcul des dégâts.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/triplattaque">Triplattaque</a></td>
+		<td><a href="/bw/moves/tri_attack">Tri Attack</a></td>
+        <td>80</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>20% de chances de paralyser, brûler ou geler la cible.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/triple_pied">Triple Pied</a></td>
+		<td><a href="/bw/moves/triple_kick">Triple Kick</a></td>
+        <td>10</td>
+        <td>90%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Touche 3 fois avec une Puissance qui augmente à chaque coup.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/trou_noir">Trou Noir</a></td>
+		<td><a href="/bw/moves/dark_void">Dark Void</a></td>
+        <td>-</td>
+        <td>80%</td>
+        <td>10</td>
+        <td>Tous les ennemis</td>
+        <td>Endort la cible.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/tunnel">Tunnel</a></td>
+		<td><a href="/bw/moves/dig">Dig</a></td>
+        <td>80</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Le lanceur est invulnérable pendant un tour, et frappe le tour suivant.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/tunnelier">Tunnelier</a></td>
+		<td><a href="/bw/moves/drill_run">Drill Run</a></td>
+        <td>80</td>
+        <td>95%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Taux de critiques élevé.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/ultimapoing">Ultimapoing</a></td>
+		<td><a href="/bw/moves/mega_punch">Mega Punch</a></td>
+        <td>80</td>
+        <td>85%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Aucun effet additionnel.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/ultimawashi">Ultimawashi</a></td>
+		<td><a href="/bw/moves/mega_kick">Mega Kick</a></td>
+        <td>120</td>
+        <td>75%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>Aucun effet additionnel.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/ultralaser">Ultralaser</a></td>
+		<td><a href="/bw/moves/hyper_beam">Hyper Beam</a></td>
+        <td>150</td>
+        <td>90%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>Le lanceur ne peut attaquer au prochai tour.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/ultrason">Ultrason</a></td>
+		<td><a href="/bw/moves/supersonic">Supersonic</a></td>
+        <td>-</td>
+        <td>55%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>Rend la cible confus.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/uppercut">Uppercut</a></td>
+		<td><a href="/bw/moves/dizzy_punch">Dizzy Punch</a></td>
+        <td>70</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>20% de chances de rendre la cible confus.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/vantardise">Vantardise</a></td>
+		<td><a href="/bw/moves/swagger">Swagger</a></td>
+        <td>-</td>
+        <td>90%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Rend la cible confus et augmente son Attaque de 2 niveaux.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/vague_psy">Vague Psy</a></td>
+		<td><a href="/bw/moves/psywave">Psywave</a></td>
+        <td>1</td>
+        <td>80%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Inflige des dégâts aléatoires entre x.5 et x1.5 le niveau du lanceur.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/vampirisme">Vampirisme</a></td>
+		<td><a href="/bw/moves/leech_life">Leech Life</a></td>
+        <td>20</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Absorbe 50% des dégâts infligés.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/vampipoing">Vampipoing</a></td>
+		<td><a href="/bw/moves/drain_punch">Drain Punch</a></td>
+        <td>75</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Leeches 50% of the damage dealt.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/vege_attak">Vege-Attak</a></td>
+		<td><a href="/bw/moves/frenzy_plant">Frenzy Plant</a></td>
+        <td>150</td>
+        <td>90%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>Le lanceur ne peut attaquer lors du prochain tour.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/vendetta">Vendetta</a></td>
+		<td><a href="/bw/moves/revenge">Revenge</a></td>
+        <td>60</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Puissance doublée si le lanceur est touché par la cible en premier.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/vengeance">Vengeance</a></td>
+		<td><a href="/bw/moves/retaliate">Retaliate</a></td>
+        <td>70</td>
+        <td>100%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>Puissance doublée si un allié a été mis K.O. le tour précédent.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/vent_argente">Vent Argente</a></td>
+		<td><a href="/bw/moves/silver_wind">Silver Wind</a></td>
+        <td>60</td>
+        <td>100%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>10% de chances d'augmenter toutes les stats du lanceur d'1 niveau.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/vent_arriere">Vent Arriere</a></td>
+		<td><a href="/bw/moves/tailwind">Tailwind</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>30</td>
+        <td>Équipe du lanceur</td>
+        <td>Double la Vitesse de l'équipe du lanceur pendant 4 tours.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/vent_glace">Vent Glace</a></td>
+		<td><a href="/bw/moves/icy_wind">Icy Wind</a></td>
+        <td>55</td>
+        <td>95%</td>
+        <td>15</td>
+        <td>Tous les ennemis</td>
+        <td>Baisse la Vitesse de la cible d'1 niveau.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/vent_mauvais">Vent Mauvais</a></td>
+		<td><a href="/bw/moves/ominous_wind">Ominous Wind</a></td>
+        <td>60</td>
+        <td>100%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>10% de chances d'augmenter toutes les stats du lanceur d'1 niveau.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/vent_violent">Vent Violent</a></td>
+		<td><a href="/bw/moves/hurricane">Hurricane</a></td>
+        <td>120</td>
+        <td>70%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>30% de chances de rendre la cible confus.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/verrouillage">Verrouillage</a></td>
+		<td><a href="/bw/moves/lock_on">Lock-On</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>La prochaine attaque n'échouera pas.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/vibra_soin">Vibra Soin</a></td>
+		<td><a href="/bw/moves/heal_pulse">Heal Pulse</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Soigne la cible de 50% de ses PV Max.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/vibraqua">Vibraqua</a></td>
+		<td><a href="/bw/moves/water_pulse">Water Pulse</a></td>
+        <td>60</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Unique hors lanceur</td>
+        <td>20% de chances de rendre la cible confus.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/vibrobscur">Vibrobscur</a></td>
+		<td><a href="/bw/moves/dark_pulse">Dark Pulse</a></td>
+        <td>80</td>
+        <td>100%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>20% de chances d'apeurer la cible.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/vit_extreme">Vit.Extreme</a></td>
+		<td><a href="/bw/moves/extremespeed">ExtremeSpeed</a></td>
+        <td>80</td>
+        <td>100%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>Le lanceur attaque toujours en premier.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/vive_attaque">Vive-Attaque</a></td>
+		<td><a href="/bw/moves/quick_attack">Quick Attack</a></td>
+        <td>40</td>
+        <td>100%</td>
+        <td>30</td>
+        <td>Unique hors lanceur</td>
+        <td>Le lanceur attaque en premier.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/voeu">Voeu</a></td>
+		<td><a href="/bw/moves/wish">Wish</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>10</td>
+        <td>Lanceur</td>
+        <td>Soigne la moitié des PV Max du lanceur au tour suivant.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/voeu_soin">Voeu Soin</a></td>
+		<td><a href="/bw/moves/healing_wish">Healing Wish</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>10</td>
+        <td>Lanceur</td>
+        <td>Met le lanceur K.O., soigne son remplaçant.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/voile_miroir">Voile Miroir</a></td>
+		<td><a href="/bw/moves/mirror_coat">Mirror Coat</a></td>
+        <td>1</td>
+        <td>100%</td>
+        <td>20</td>
+        <td>Aucune</td>
+        <td>Si touché par une attaque spéciale, renvoie le double de dégâts.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/vol">Vol</a></td>
+		<td><a href="/bw/moves/fly">Fly</a></td>
+        <td>90</td>
+        <td>95%</td>
+        <td>15</td>
+        <td>Unique hors lanceur</td>
+        <td>Le lanceur est invulnérable pendant un tour, et frappe le tour suivant.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/vol_magnetik">Vol Magnetik</a></td>
+		<td><a href="/bw/moves/magnet_rise">Magnet Rise</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>10</td>
+        <td>Lanceur</td>
+        <td>Le Lanceur est immunisé aux attaques Sol pendant 5 tours.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/vol_vie">Vol-Vie"</a></td>
+       	<td><a href="/bw/moves/absorb">Absorb</a></td>
+        <td>20</td>
+        <td>100%</td>
+        <td>25</td>
+        <td>Unique hors lanceur</td>
+        <td>Absorbe 50% des dégâts infligés.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/vortex_magma">Vortex Magma</a></td>
+		<td><a href="/bw/moves/magma_storm">Magma Storm</a></td>
+        <td>120</td>
+        <td>75%</td>
+        <td>5</td>
+        <td>Unique hors lanceur</td>
+        <td>Piège la cible et lui inflige des dégâts à chaque tour.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/yama_arashi">Yama Arashi</a></td>
+		<td><a href="/bw/moves/storm_throw">Storm Throw</a></td>
+        <td>40</td>
+        <td>100%</td>
+        <td>10</td>
+        <td>Unique hors lanceur</td>
+        <td>Fait toujours un coup critique.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/yoga">Yoga</a></td>
+		<td><a href="/bw/moves/meditate">Meditate</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>40</td>
+        <td>Lanceur</td>
+        <td>Augmente l'Attaque du lanceur d'1 niveau.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/zenith">Zenith</a></td>
+		<td><a href="/bw/moves/sunny_day">Sunny Day</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>5</td>
+        <td>Toutes</td>
+        <td>Invoque le soleil pendant 5 tours.</td>
+</tr>
+<tr>
+        <td><a href="/fr/moves/zone_etrange">Zone Etrange</a></td>
+		<td><a href="/bw/moves/wonder_room">Wonder Room</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>10</td>
+        <td>Toutes</td>
+        <td>Echange la Défense et la Défense Spéciale de tous les Pokémon en jeu.</td>
+</tr>
+<tr class="a">
+        <td><a href="/fr/moves/zone_magique">Zone Magique</a></td>
+		<td><a href="/bw/moves/magic_room">Magic Room</a></td>
+        <td>-</td>
+        <td>-</td>
+        <td>10</td>
+        <td>Toutes</td>
+        <td>Les objets tenus n'ont pas d'effet pendant 5 tours.</td>
+</tr>
+    </tbody>
+    </table>

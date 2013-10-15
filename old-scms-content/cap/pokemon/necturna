@@ -1,0 +1,31 @@
+[title]
+Necturna
+[head]
+<link rel="stylesheet" type="text/css" href="/media/dex/dex.css" />
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_template.js"></script>
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_database.js"></script>
+[header]
+[page]
+<script language="JavaScript">
+<!--
+var cap = Necturna();
+
+cap.heightFeet = 5;
+cap.heightInches = 05;
+cap.weightPounds = 109.3;
+cap.weightKilos = 49.6;
+cap.eggGroup1 = "Plant";
+cap.eggGroup2 = "Ground"
+
+cap.topicLeader = "Rising_Dusk";
+cap.conceptCreator = "Korski"
+cap.statSpreadCreator = "capefeather";
+cap.designArtist = "Yilx";
+cap.spriteArtist = "elementalpenguin";
+cap.nameCreator = "Rediamond";
+cap.movepoolCreator = "Deck Knight";
+cap.playtestChampion = "Rising_Dusk";
+
+document.write(composeDexPage(cap));
+//-->
+</script>

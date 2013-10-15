@@ -1,0 +1,360 @@
+[title]
+CAP1 Report: Tomohawks Take Flight
+[head]
+<link href="/media/smog/smog.css" type="text/css" rel="stylesheet" />
+<style type="text/css">
+.sidebyside {
+margin-top: -1em;
+width: 50%;
+}
+
+td.sprite {
+height: 80px;
+}
+</style>
+[page]
+<div class="author"> By <a href="/forums/member.php?u=43161">Rising_Dusk</a>. Art by <a 
+
+href="/forums/member.php?u=15181">Cartoons!</a>.</div>
+<table id="smogheader">
+<tr>
+<td class="left"><a href="mop">&laquo; Previous Article</a></td>
+<td class="middle"><a href="/smog/issue16/">Home</a></td>
+<td class="right"><a href="cnc">Next Article &raquo;</a></td>
+</tr>
+</table>
+
+<div style="float: right; margin-left: 10px;"><img src="/media/smog/16/capreport_tomohawk.png" alt="" /></div>
+
+<h2>Introduction</h2>
+
+<p><a href="/forums/showthread.php?t=3446739">Tomohawk</a> is the most recently created Pokemon by the 
+
+Create-A-Pokemon (CAP) project. Tomohawk is the first Pokemon output by the CAP project for the fifth generation, 
+
+and what a first Pokemon it was. In the voting stages for the Topic Leader (TL), a lot of emphasis was given to 
+
+the tumultuous metagame shifts of BW OU, and so the TL was chosen such that he would be able to handle the 
+
+shifting metagame with gusto. reachzero, a frequent player of BW OU, was chosen as our TL, and immediately a 
+
+massive competitive focus was given to our CAP, more so than usual. Unlike some past CAPs, where much focus was 
+
+given to analyzing interesting concepts, this focus was totally focused upon merging into the BW OU metagame and 
+
+giving an already restless metagame something to chew on while not changing the game too much. The goal was to 
+
+inject a Pokemon into the game without making too much of a paradigm shift, and see how that concept operated.</p>
+
+<h2>What it was supposed to do</h2>
+
+<p>Tomohawk was built on a concept that no one really understood that well. It's something that competitive 
+
+Pokemon players talk about a lot, but when confronted about what it means, usually can't muster an adequate 
+
+response. Korski was the one that supplied this CAP's concept, and that concept is as follows:</p>
+
+<div style="border: solid 1px #adadad; background-color: #ededed; padding: 10px; margin: 10px;">
+<p><strong>Concept:</strong><br />
+Momentum</p>
+
+<p><strong>General Description:</strong><br />
+This will be a Pokemon that can be utilized to gain or regain momentum for a player's team at any point in the 
+
+match as its primary function.</p>
+
+<p><strong>Justification:</strong><br />
+Gen. 5 is a very powerful metagame. As such, most battles are won by the smarter strategist who can best maneuver 
+
+around his/her opponent's onslaught to gain even a single turn's advantage, potentially clinching them the match. 
+
+This process of gaining and regaining momentum is most often the defining element that makes a winner and a loser 
+
+out of a single Pokemon battle. Any top player in this metagame should agree that momentum is the most crucial 
+
+element in any given match; however, "momentum" itself is a rather vaguely defined term that is never really 
+
+explored in concrete terms. Is it keeping opposing teams on the defensive? Forcing switches? Good prediction? 
+
+Spamming U-turn? These have all been approaches to achieving momentum, but they are also player-side and largely 
+
+synonymous with "strategy," as opposed to Pokemon-side and regarding a Pokemon's role on the team. Certainly there 
+
+are threats like Ferrothorn/Gliscor (defensive) and Scizor/Latios/Voltlos, etc., etc. (offensive) that can achieve 
+
+momentum as we know it, but there is no current niche for a "momentum Pokemon" because the concept has been purely 
+
+delegated to players and not to Pokemon.</p>
+
+<p><strong>Questions To Be Answered:</strong></p>
+<ul>
+<li>How do we define momentum in terms of competitive Pokemon? What factors make current Pokemon able to achieve 
+
+momentum and how can we incorporate that information into a successful CAP?</li>
+<li>How do different styles of play (Weather-based offense, stall, bulky offense, etc.) use momentum to achieve 
+
+their goals and how can our CAP play to those strategies in an effort to take their momentum away?</li>
+<li>What type of traditional role (sweeper, tank, wall, support) would a Pokemon like this most resemble? Would it 
+
+have to be able to fit more than one of these roles to fit in a variety of teams?</li>
+<li>How will the different playstyles be affected by the addition of a Pokemon that can regain offensive/defensive 
+
+momentum at any given point? Will offensive teams play more conservatively? Will defensive teams play more 
+
+recklessly? Will everything simply adapt to a new threat and move on normally?</li>
+</ul>
+</div>
+
+<p>The concept was momentum. Everyone knows that when your Scizor scores a U-turn against a switch-in, it 
+
+maintains momentum. Everyone knows that when you limit your opponent's options against you, you are gaining 
+
+momentum. But virtually no one knew how you could <em>build</em> a Pokemon so that it's sole purpose was to steal 
+
+and gain momentum for you at any point in the game. Since so few people understood what exactly momentum was, a 
+
+huge discussion took place with the TL and ATL at the head, trying to wrap the public's mind around the concept 
+
+and get them acquainted with the idea that killing your opponent's entire team wasn't the kind of momentum that we 
+
+wanted. Similarly, we didn't want a generic U-turn spammer, since that merely preserves momentum, it doesn't gain 
+
+more for you. For what we had set out to create, we needed something that could come in on a swath of the 
+
+metagame, threaten it out with its options, achieve something for your team, and do so reliably throughout the 
+
+match.</p>
+
+<p>And so we set out to create the beast that ended up being Tomohawk. Through much discussion, we decided that 
+
+Tomohawk should be threatened by many of the special sweeping attacking types and many of the popular special 
+
+sweepers of the game. Tomohawk should then have a typing appropriate for switching into and threatening the many 
+
+physical attackers of the tier, so that it has numerous opportunities to come in on the likes of Garchomp, 
+
+Excadrill, Landorus, Terrakion, and so forth. With that in mind, let's see what Tomohawk <em>actually</em> 
+
+did..</p>
+
+<h2>What it did</h2>
+
+<p>Tomohawk worked and worked well. When it entered into the metagame, it operated as intended. Tomohawk's ability 
+
+to use Rapid Spin made it excel at stealing momentum immediately against teams that used the ever-popular 
+
+Ferrothorn or Skarmory. Access to Intimidate and Taunt let it come in and pretty much do whatever it wanted 
+
+against the Pokemon it checked without issue. Pokemon like Reuniclus, Thundurus, and Tornadus would switch into 
+
+Tomohawk reliably, either letting the player score a KO with a sneak attack, set up his or her strategy and get 
+
+out to a check, or double switch to gain and keep momentum. For all intents and purposes, Tomohawk was a success, 
+
+and the people rejoiced. The most popular Tomohawk set for the playtest used both Taunt and Roost to keep itself 
+
+healthy and shut its opponents down, while it smashed its enemies with a combination of either Aura Sphere and 
+
+Hurricane or Aura Sphere and Air Slash. A second popular set that really put a spin on momentum grabber was the 
+
+Toxic stalling set, where Tomohawk would poison vulnerable Pokemon and stall them out with ease, or hit the 
+
+Pokemon immune to Toxic hard with its STAB attacks. Coupled with Prankster, Tomohawk could nearly always go first 
+
+and keep itself healthy with Roost, protected with Substitute, or poisoning the entire team with Toxic. Below, the 
+
+leftmost set is the typical TauntRoost bulky attacker set, while the rightmost set is the Toxic stalling set. Both 
+
+of these achieved the goal of the concept expertly.</p>
+
+<table class="sidebyside">
+<tr>
+<td class="sprite">
+<img src="/media/smog/16/capreport_tomosprite.png" alt="" />
+</td>
+<td class="sprite">
+<img src="/media/smog/16/capreport_tomosprite.png" alt="" />
+</td>
+</tr>
+<tr>
+<td>Tomohawk @ Leftovers<br />
+Ability: Intimidate / Prankster<br />
+EVs: 252 HP / 24 SpA / 232 Spe<br />
+Modest nature (+SpA, -Atk)<br />
+- Aura Sphere<br />
+- Air Slash / Hurricane<br />
+- Roost<br />
+- Taunt / Rapid Spin / Hidden Power Ice</td>
+<td>Tomohawk @ Leftovers<br />
+Ability: Prankster<br />
+EVs: 252 HP / 252 Def / 4 Spe<br />
+Bold nature (+Def, -Atk)<br />
+- Toxic<br />
+- Substitute<br />
+- Roost<br />
+- Aura Sphere / Air Slash / Taunt</td>
+</tr>
+</table>
+
+<div style="float: right; margin-left: 10px;"><img src="/media/smog/16/capreport_clothes.png" alt="" /></div>
+
+<p>Tomohawk also had some other interesting options that players abused, such as a Baton Pass set that prioritized 
+
+passing away very bulky Substitutes to other Pokemon, like Thundurus, that appreciate the coverage turn to set up 
+
+a Nasty Plot. All of these things secured momentum for the team on a whim, which was really cool to see play out 
+
+on the ladder. My personal experience showed the greatest success with the bulky attacker set, while I also 
+
+personally used the Toxic stalling set to great success too. </p>
+
+<p>One of the options that Tomohawk had that some people felt made it not fit the concept was the move Hurricane. 
+
+Hurricane with STAB made Tomohawk a potent threat on a team with Drizzle Politoed, especially combined with a 
+
+powerful secondary STAB in Fighting that something like Tornadus lacks. Still, in practice, the threat of the 
+
+Choice Specs sweeper Tomohawk was alleviated by how opposing rain threats destroyed it. Opposing Tornadus were not 
+
+only faster, but stronger. Similarly, Thundurus and rain-boosted Water-type attacks simply ripped through Tomohawk 
+
+and didn't give it a chance to switch in. Tomohawk, in terms of the weather war, paired best with Tyranitar, since 
+
+it neutralized opposing sand-based physical threats. Ultimately, despite the threat of strong-arm Tomohawk, it 
+
+just didn't pan out as well in practice against opponent's of equal skill. Of course, sometimes it was nice to 
+
+back Tomohawk up with rain on a new alt to shred some newcomers, but that's beside the point, right?</p>
+
+<h2>The Verdict</h2>
+
+<p>To all the nay-sayers I say: Tomohawk succeeded. Some people would say that achieving a momentum concept is in 
+
+itself suspect since any good Pokemon achieves momentum, but we not only achieved momentum with Tomohawk, we 
+
+achieved the right <em>kind</em> of momentum that we set out to achieve. We focused on offensive momentum that 
+
+wasn't all about just murdering Pokemon, but getting in, doing a job, and getting out. Tomohawk did just that. In 
+
+order to really analyze what about the concept succeeded through Tomohawk, let's answer those lovely questions 
+
+provided to us by the concept itself.</p>
+
+<ul>
+<li><strong>How do we define momentum in terms of competitive Pokemon? What factors make current Pokemon able to 
+
+achieve momentum and how can we incorporate that information into a successful CAP?</strong><br />
+<p>It's interesting that sometimes in a concept, the success of the concept isn't necessarily in creating a 
+
+Pokemon that has all of the desired qualities, but <em>through</em> the creation of the Pokemon teaching the 
+
+player base what exactly it is the concept is even about in the first place. Tomohawk helped players understand 
+
+that momentum isn't just about KOing Pokemon or spamming U-turn, but achieving temporary strategies successfully 
+
+that play into your grand strategy of cornering the opponent, limiting their options, and ultimately breaking 
+
+their 6 Pokemon. Discussions were had along the way that helped users grasp the concept of momentum, and through 
+
+those discussions I can say that the above questions were answered. Because I know you're dying for a straight 
+
+answer, I'll give you one: momentum is an abstract concept that, when possessed, literally means that you have 
+
+more options available to you than your opponent, and ultimately will lead to your victory if you can maintain it 
+
+throughout the battle. Giving yourself the cards that let you beat your opponent is what it's all about.</p>
+</li>
+<li><strong>How do different styles of play (Weather-based offense, stall, bulky offense, etc.) use momentum to 
+
+achieve their goals and how can our CAP play to those strategies in an effort to take their momentum 
+
+away?</strong><br />
+<p>Even through the rain-based teams that abused Tomohawk to sweep, we found that every type of team uses momentum 
+
+differently. Whether it be that you need Tomohawk to check opposing physical threats and then smash switch-ins, 
+
+stall through defensive walls with Toxic, or generally harass an opposing balanced team with a combination of 
+
+Taunt and strong attacking options, it had the options necessary to pull off the momentum-grabber role. And let's 
+
+not forget Rapid Spin, no; Rapid Spin during the playtest led many a team to victory thanks to the ultimate of 
+
+momentum-grabbing moves' removing an opponent's hard-placed Spikes or Stealth Rock. These are the strategies that 
+
+our CAP could use to secure momentum, and through using Tomohawk, we now better understand how <em>other</em> 
+
+Pokemon can use these strategies to build momentum.</p>
+</li>
+<li><strong>What type of traditional role (sweeper, tank, wall, support) would a Pokemon like this most resemble? 
+
+Would it have to be able to fit more than one of these roles to fit in a variety of teams?</strong><br />
+<p>It turned out in our case that the traditional role that Tomohawk would best fit into is bulky special 
+
+attacker, or tank. Sort of like a retooled DPP Swampert, Tomohawk had options to get in, execute its strategy, and 
+
+be a general annoyance and cornerstone to the team that an opponent would have to get by in order to be able to 
+
+gain their own momentum. Also, we can now say that Tomohawk doesn't have to have a billion options in order to fit 
+
+into a variety of teams. I want to say that having Prankster helped Tomohawk a lot and gave it necessary options 
+
+in order to be able to successfully corner an opponent. A one-dimensional Pokemon is not very good at scoring 
+
+momentum; it's quite the opposite, in-fact, it cedes a lot of momentum. (Just take a look at Gliscor!)</p>
+</li>
+<li><strong>How will the different playstyles be affected by the addition of a Pokemon that can regain 
+
+offensive/defensive momentum at any given point? Will offensive teams play more conservatively? Will defensive 
+
+teams play more recklessly? Will everything simply adapt to a new threat and move on normally?</strong><br />
+<p>This is probably my favorite of all of the questions. How did the metagame react? I want to say that, like all 
+
+threats, Pokemon raised and fell in usage to beat the addition of a new one. Defensive teams did have to adjust 
+
+their archetype in order to be able to punch through a bulky Toxic-stalling Tomohawk, and offensive teams often 
+
+had to switch more in order to keep their sweepers safe until a Tomohawk had been removed. This isn't really a 
+
+surprise in hindsight, but before the playtest, few people could really pinpoint exactly how the metagame would 
+
+react. Like I always say, now we know the rest of the story.</p>
+</li>
+</ul>
+
+<h2>Conclusion</h2>
+
+<p>Since I played such a big role in Tomohawk's creation as ATL, I'm sure you're expecting me by now to pat all of 
+
+CAP on the back for such a successful CAP. Well, I won't do quite that, but if you asked me if I felt that 
+
+Tomohawk succeeded at its goal, I would say that it had. I know that I, personally, understand competitive 
+
+Pokemon's version of momentum a lot better than I did at the outset of this CAP, and I know that others in the 
+
+community feel the same way. Not all CAPs are successful, and yeah, a few of our past creations are amusingly 
+
+erroneous in how we went about creating them to fit their concepts. That said, it's all a learning process, and so 
+
+long as we remember that it's all about the process and not necessarily the result, you'll see what I mean when I 
+
+say that CAP did a good job here.</p>
+
+<p>Hopefully the next CAP is as successful as this past one was, and I hope, now that you've read a bit about the 
+
+learning process, you'll think of participating in it! If you ever want to learn more about the process, the <a 
+
+href="/cap/">CAP site</a> is a good place to start, and when the next one begins, it'll be posted and detailed in 
+
+the <a href="">CAP forum</a>. I know that the CAP site isn't really updated, but that is unavoidable given how 
+
+busy everyone has been with everything else in Smogon. It'll be updated in due time. Either way, I hope to see you 
+
+in the CAP forum for the next CAP when it kicks off!</p>
+
+<table id="smogfooter">
+<tr>
+<td class="left"><a href="mop">&laquo; Previous Article</a></td>
+<td class="middle"><a href="/smog/issue16/">Home</a></td>
+<td class="right"><a href="cnc">Next Article &raquo;</a></td>
+</tr>
+</table>

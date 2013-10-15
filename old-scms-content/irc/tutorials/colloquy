@@ -1,0 +1,24 @@
+[title]
+Colloquy Tutorial
+[head]
+<meta name="description" content="A tutorial describing how to use Colloquy to connect to #smogon and #Pokemon." />
+[page]
+<div class="author"> by <a href="/forums/member.php?u=22604">Alaka</a></div>		
+<p>Colloquy is a free and easy to use Mac IRC client; this tutorial will help you download it and set it up.</p>
+
+<h2>1. Downloading</h2>
+<p>Colloquy is up for download <a href="http://colloquy.info/downloads.html">here</a>. Simply click, let it download, locate it in Finder, and drag it into your applications.</p>
+
+<h2>2. Configuration</h2>
+<p>As you attempt to open Colloquy, a window will pop up alerting you this is an application from the internet; go ahead and click open to continue. A small connections box, as shown below, will pop up. Click the yellow lightning bolt on the top left that says new.</p>
+<div><img src="/media/irc/ColloquySMGN-0.png" height="285" width="376" alt="screenshot" /></div>
+<p>Once you have clicked that a new box will pop up asking you for some information. First, fill in your nickname, which is what you will be seen as in the chat. Leave the middle box alone and type in irc.synirc.net in the bottom box. Make sure the Remember connection box is checked.</p>
+<div><img src="/media/irc/ColloquySMGN1.png" height="261" width="404" alt="screenshot" /></div>
+
+<h2>3. Connecting</h2>
+<p>Once you do all of that the connection will be shown in the connection window (if you can't find it, go to Window&gt;Connections). Make sure the correct connection is highlighted and hit the blue and white "Join Room" button. A small box will pop up; type the channel name into the second box as shown below and then hit "Join".</p>
+<div><img src="/media/irc/ColloquySMGN-2.png" height="303" width="410" alt="screenshot" /></div>
+<p>To join another channel, type /join #channel. This can be used to join channels such as #Pokemon. Most of the Smogon IRC channels have a small security measure to prevent flooding from bots, so before you can join the channels it will require you to type /msg nickserv register password e-mail into the console. Join any channel (such as #help) to open the console and allow you to enter the above line. Password is a five character or more case sensitive password and e-mail is the e-mail that your activation key will be sent to. Enter the line provided in the email and your nick will be successfully registered. Every time you attempt to join #smogon or #Pokemon you will need to identify yourself with the line /msg nickserv identify password. To skip that step however you can right click on the connection and click "Get Info" to pull up the box below. Then type your password in the box and Colloquy will automatically identify you every time you join the server. </p>
+<div><img src="/media/irc/ColloquySMGN-3.png" height="415" width="345" alt="screenshot" /></div>
+<p>Now you're ready to chat and have fun! Just be sure to follow the rules.</p>
+<div><img src="/media/irc/ColloquySMGN-4.png" height="586" width="785" alt="screenshot" /></div>

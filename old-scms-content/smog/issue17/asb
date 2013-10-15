@@ -1,0 +1,124 @@
+[title]
+CAP ASB Update & Mechanics Discussion
+[head]
+<link href="/media/smog/smog.css" type="text/css" rel="stylesheet" />
+[page]
+<div class="author"> By <a href="/forums/member.php?u=653">Deck Knight</a>. Art by <a href="/forums/member.php?u=31311">Rocket Grunt</a>.</div>
+
+<!-- heading -->
+
+<table id="smogheader">
+<tr>
+<td class="left"><a href="analysis">&laquo; Previous Article</a></td>
+<td class="middle"><a href="/smog/issue17/">Home</a></td>
+<td class="right"><a href="cnc">Next Article &raquo;</a></td>
+</tr>
+</table>
+
+<!-- article body start -->
+
+<div style="float: right; margin-left: 1em;">
+  <p><img src="/media/smog/17/capasb_group.png" alt="" /></p>
+</div>
+ 
+<h2>Introduction:</h2>
+
+<p>I'm here again with another article on one of our newest socialization opportunities, CAP ASB. In this article I'll go over the game in a little more detail and explain what makes it unique, and some of the balancing decisions that have been made along the way.</p>
+
+<h2>Game History:</h2>
+
+<h3>What is ASB?</h3>
+<p>ASB Stands for Anime Style Battling. The goal of an ASB system is to develop a game that mimic battles in the Pokemon Anime. Now for those of you who still watch, and find some of them ridiculous, that's understood ("AIM FOR THE HORN") and so it condenses down to battles that follow closer to in-game mechanics, but contain more role playing elements to them. This ranges from unique game commands to utilizing attacks in combination for both stated and unorthodox effects (like grounding an Electric-type down with a String Shot net to reduce the power of Electric attacks, for example).</p>
+
+<p>Anime Style Battling Leagues have existed in some form almost since the introduction of the Pokemon Games, and several exist now on the internet. Smogon's CAP ASB is unique among them, implementing entirely different systems for trainer growth and management. It is by far the most complex system, but it also provides the most consistent results as it is tailored with Smogon's competitive player base in mind.</p>
+
+<p>CAP ASB was formulated in February as a side-project I was developing to breathe a little life back into the forum. It currently resides in Socialization in the Empire under Circus Maximus as a Subforum. Since its inception, major shifts in the game mechanics have occurred from shifting stat tiers, to status mechanics, and even to more expansive systems like capture mechanics, roleplays, and gyms.</p>
+
+<h3>What makes our ASB different?</h3>
+<p>When I initially set out to make the ASB, I thought of all the things I loved about previous iterations of the game. Before this endeavor, the last time I was heavily involved in an ASB League was at the (now defunct) Pokemon Fan Universe. This was back during the ADV Generation, and it collapsed shortly after DP came out.</p>
+
+<p>Most of the changes come in codification and clarity. The heart of ASB is creativity, but because it's supposed to use a more realistic sense of physics, and because Pokemon is such a data driven game engine, it is usually carried subjectivity too far. There were more than just occasional complaints about biased refereeing, bad interpretations, etc. My goal was to create a data background that just let the ref interpret any special properties a player might come up with rather than fiddle endlessly with a range of damages, which are hassling with how much damage something "should" do. In short, refs don't have to worry about math, they just have to worry about creativity.</p>
+
+<p>The other big change is the progressive growth system. Rather than having access to every move all at once, trainers select new attacks as they go along, and as they either do work for the ASB in reffing or the shops, they get a chance to grow their Pokemon faster than they ordinarily could by just battling. Instead of a catch/evolve prize upon completing a match, the Pokemon involved in the battle grows, and the rewards usually allow for the purchase of a new unevolved Pokemon.</p>
+
+<h2>Game Mechanics:</h2>
+
+<h3>General:</h3>
+<p>Most of the game mechanics take Pokemon's game engine full of multipliers and make them additive. STAB for example is not a 1.5x boost in power, it's a +3 Base Attack Power, -1 Energy Cost adjustment. This flattens the usefulness of moves so that weaker moves are still somewhat competent while remaining more efficient than their stronger counterparts. Critical Hits also still exist, but rather than doubling damage, they add +3 to Base Attack Power and cause the attack to ignore any applicable conditions that would reduce damage, such as burn, dual screens, or stat boosts to defenses. In general, the battle system rewards strategic, long-term thinking rather than attack spamming. That being said, the damage system in place heavily biases offense. Often the best way through an opponent is relentlessly attacking them by alternating your strongest attacks. Why alternating? Because there is an energy cost penalty for using the same attack consecutively that rises geometrically, at four additional energy multiplied by each consecutive use. Therefore, it's fairly common to repeat an attack once, but usually not twice.</p>
+
+<h3>Stats:</h3>
+<p>CAP ASB is the only ASB that uses a normalized version of the Base Stats pulled from the in-game cartridge. A recent addition is also a normalized size and weight statistic. This allows referees the freedom to focus on creative uses of attacks or arenas without always wondering "how much should an Absol do to a Steelix? If Steelix uses a Body Slam on something, how much more should it do because Steelix is a fatass? How easily could I hide my Blaziken behind a Torterra?" to name a few examples this resolves.</p>
+
+<p>The two most important stats are HP and Energy. HP is normalized like the rest of the stats, but each Pokemon starts with 100 Energy. As they utilize attacks, the Pokemon's Energy goes down, and if it hits zero, the Pokemon faints regardless of its HP.</p>
+
+<p>In general the normalization makes more Pokemon viable than in OU, since the cutoffs in combination with other mechanics make mixed attacking much more viable, therefore making every offensive and defensive stat important.</p>
+
+<p>Finally, every attack is given a Base Attack Power equal to the in-game power divided by 10, then rounded up. The minimum Base Attack Power on any attack is 4. Therefore elemental punches have 8 BAP, Elemental Fangs have 7 BAP, and Absorb has 4 BAP. Some attacks have also been boosted for the purposes of game balance, like Leech Life and Mega Drain being boosted to 6 BAP.</p>
+
+<h3>Attacks:</h3>
+<p>Another unique aspect of CAP ASB is we use a progressive attacks learning system. Although a Pokemon can use any attack it has ever had in any generation, it only starts with its Level-up moves through Level 25 (all generations), 3 Egg Moves, and 3 BW TMs. As the Pokemon battles it gains counters which can be used on either evolving the Pokemon, getting new moves, or unlocking their hidden ability. During this process the trainer also gets counters it can spend on items their Pokemon can use in battle, some permanent, some temporary.</p>
+
+<p>Attacks are also differentiated from each other, even if they have the same in-game effect. Therefore Iron Defense, Barrier, and Acid Armor each have their own unique defensive properties to the action they are used in addition to a +2 increase to the Pokemon's defense (Iron Defense can cause an opponent recoil, Barrier can nullify a contact attack, Acid Armor can melt into a liquid substance to avoid an attack). Some of these choices are made for game balance and others because they provide at least something unique.</p>
+
+<p>Finally, Attack effects are charted to the maximum extent possible of their in-game effect. Because we have two battle methods in regards to switching (Switch = KO and Switch = OK), phazing attacks like Roar and Circle Throw have two different interpretations. Where switching is not allowed they apply a phazing effect immediately without switching an opposing Pokemon (so Roar will wipe out a Substitute in addition to clearing the effects of Taunt, stat boosts, etc.), in matches where switching is allowed the targeted Pokemon is switched out with another of the trainer's Pokemon at random, and the player that phazed their opponent's Pokemon must attack first next round.</p>
+
+<h3>Abilities:</h3>
+<p>Abilities are mostly pulled from in-game and then adapted towards game balance and the further normalization of Pokemon. Almost every ability that applies a multiplier instead increases Base Attack Power on attacks (usually 2). Since the ASB allows battles with All Abilities a Pokemon can have in effect at once, some Abilities even have clauses for how they interact with other Abilities. The other common alteration with this in mind is that most abilities don't prevent a status from being inflicted, but rather from having a negative effect. In this way Zangoose, for example, can be immune to poison damage through Immunity, but still utilize Toxic Boost.</p>
+
+<h3>Natures:</h3>
+<p>Natures are just as important in ASB as they are in the cartridge, if not moreso. Because stats have been scaled down effectively to 5 stars (with obscene stats having a lesser, but still noticeable impact than in the 5 star range), a nature allows you to boost one of those stats and reduce another one. Therefore (due to cutoffs) you can have a Quiet Machamp with Rank 4 SpA and Rank 5 Atk, and the evasion drop it would have is basically rendered irrelevant by No Guard anyway.</p>
+
+<h3>Commands:</h3>
+<p>In addition to the list of 570+ attacks, ASB also has several commands a trainer can use in battle. The most common of these are Bodyblock, Chill, Dodge, and Take Cover. Bodyblock and Take Cover are similar commands that can be used in multiple battles to have a Pokemon block for/hide behind an ally. Chill is the only command that restores Energy, increasing the Pokemon's Energy by 12. In longer battles, energy management is essential, and Chills are almost always limited by the match rules.</p>
+
+<h3>Combinations:</h3>
+<p>A codified combination system is what makes CAP ASB truly unique. Rather than a signature move system that was common in Gen I and Gen II ASBs, there are enough different attacks to make combinations a much more valuable way to further balance the game. Combination attacks are generally quite inefficient for their energy cost, but their best usage is pulling in targeting effects of attacks, or else being used with weaker moves that have been codified into specific combinations. Moreover, a combination will combine two moves and generally attack at a lower priority bracket for combinations with most moves. The Pokemon experiences a cool down during the following action where it cannot use an attack or a command. Any given combination is allowed at referee discretion, but the system makes it clear what the outcome of that attack will be as far as type and Base Attack Power.</p>
+
+<p>The best example of a combination that illustrates the system's flexibility in lieu of a single custom attack is the combination of the moves Twister and Leaf Storm (Leaf Tornado?). Only Five Pokemon (6 with Smeargle) can get this combination of moves: Shiftry, Tropius, and the Snivy line. The way the attacks are written, Twister doubles the combined Base Attack Power of a combination with a few specific moves, and among these are weather moves, Gust, and Leaf Tornado. Twister also has a multi-targeting property (hits all foes in a multi-battle), and its Combination Type (a system the defines what the end typing of a combination is) is a higher order than Leaf Tornado's.</p>
+
+<p>Thus the result is a 22 BAP Dragon-type move (16.5 BAP in a multi-battle) that hits all opponents, has a 20% chance to flinch an opponent (somewhat nullified by -2 priority on the combination), a 50% chance to lower the opponent's accuracy, and 95 accuracy, with an energy cost of 12.</p>
+
+<p>Basically combinations ensure that if a Pokemon gets a unique movepool, it can usually find ways around poorer stats or abilities than its counterpart, and the same holds true for Pokemon with shallow movepools who have good abilities or stats. And the refs don't have to worry about messing around with calculating damage, since the effects of the moves are clear, concise, and offer a consistent mathematical result. The fixed combinations are also designed to make sense anyway - "Twister + Tornado" for example.</p>
+
+<h3>Capturing:</h3>
+<p>Another fairly new mechanic in ASB is a capture system. In certain Roleplaying games in the forum you can capture Pokemon, and the formula is ripped straight from the game, though Ball capture rates have been modified somewhat. The ordinary way to get a new Pokemon is to purchase one in the Prize Claim Thread (each first stage Pokemon has its own cost, usually 2.)</p>
+
+<h3>Items:</h3>
+<p>CAP ASB also has an items system, with items largely mapped to their in-game functions, adjusted for the differing mechanics. Items were slow to be implemented and are popular in some battles, though many have them off. Most of the items have been balanced to be roughly equal in usefullness depending on the Pokemon, though obviously some still shine more than others.</p>
+
+<h3>Roleplaying:</h3>
+<p>Roleplaying is how the creativity of users is unleashed. We have several Roleplays in CAP ASB, some recreating catridge challenges like the Battle Subway and Battle Hall, while others like The Legend Run give trainers a chance to capture Legendary Pokemon, which generally aren't made available in other ASBs.</p>
+
+<h2>Tournament Updates/Results:</h2>
+
+<p>CAP ASB recently held its first Singles Tournament. Each trainer registered 4 Pokemon and fought through four rounds of 2 vs 2 battles to arrive at the finals, which would be 3 simultaneous 3 vs 3 battles. After five rounds I was finally victorious after defeating iiMKUltra and drawing danmantincan, leaving me with a 1 Win, 1 Tie record that put me over my opponent's 1 Win, 1 Loss (iiMKultra), and 1 Tie, 1 Loss (danmantincan) records in the final round's three simultaneous matches.</p>
+
+<p>My winning team was Beedrill, Gastrodon, Steelix, and Grotle.<br />
+In the finals I used Beedrill (lead), Gastrodon, and Steelix.</p>
+
+<p>iiMKultra used Rotom-Fridge, Kitsunoh, Emboar, and Kingler.<br />
+In the finals iiMKUltra used Rotom-Fridge (lead), Kitsunoh, and Emboar.</p>
+
+<p>danmantincan used Dragonite, Pyroak, Darmanitan, and Lucario.<br />
+In the finals danmantincan used Pyroak (lead), Darmanitan, and Dragonite.</p>
+
+<p>We also had a Tournaments prediction tournament. The tournaments prediction tournament's ultimate victor was Galladiator, who triumphed with 99 points, followed by Dummy007 with 95 points, Temperantia with 92 points, and danmantincan / Terrador with 91 points.</p>
+
+<h2>Up and Coming Features:</h2>
+
+<p>We're currently in the process of revamping CAP Pokemon with 5th Gen ASB moves, and implementing a Gym League. We also have a few new Roleplaying opportunities on the horizon. Most of our major systems have been established, and we're always looking for new players.</p>
+
+<h2>Conclusion:</h2>
+
+<p>The game has changed a lot since its initial publication in February. It is constantly evolving and we're trying to perfect the data behind the game and mechanics that make it more enjoyable. The ultimate goal is to create an offshoot of the Pokemon cartridge data and make it a more enjoyable, creative battling experience for all participants. Pokemon is a deep game full of complexities, and we try to integrate those complexities into our system.</p>
+
+<!-- article body end -->
+
+<!-- footer -->
+<table id="smogfooter">
+<tr>
+<td class="left"><a href="analysis">&laquo; Previous Article</a></td>
+<td class="middle"><a href="/smog/issue17/">Home</a></td>
+<td class="right"><a href="cnc">Next Article &raquo;</a></td>
+</tr>
+</table>

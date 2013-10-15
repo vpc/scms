@@ -1,0 +1,18 @@
+[title]
+Create-A-Pokémon Art Gallery
+[head]
+<meta name="description" content="Create-A-Pokémon Art Gallery" />
+
+<link rel="stylesheet" type="text/css" href="http://cap.smogon.com/web/cap.css" />
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_template.js"></script>
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_gallery.js"></script>
+[page]
+<div class="capart_pageTop">
+<p>The CAP project receives amazing submissions from some of the most talented artists in the Smogon community. Unfortunately, only one art design and one sprite can win in a given project. This gallery showcases some of the best art and sprite submissions from past CAP projects, and features some of the most prolific and successful artists in CAP history.<p>
+<p>Click an image or gallery name below to go to an individual gallery page.</p>
+</div>
+
+<script language="JavaScript">
+document.write(composeGallerySection(PastProjectsSection()));
+document.write(composeGallerySection(FeaturedArtistsSection()));
+</script>

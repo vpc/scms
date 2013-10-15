@@ -1,0 +1,100 @@
+[title]
+The Smog community web-zine
+
+[head]
+<link href="/media/smog/smog-issue.css" type="text/css" rel="stylesheet" />
+<style type="text/css">
+    /* Do not touch this line */
+       h1 { display: none; }
+    /* ********************* */
+</style>
+
+[page]
+<div id="smog-main-header">
+    <a href="/smog/"><img src="/media/smog/thesmog.png" alt="The Smog Logo" /></a>
+    <p>Smogon's Web-zine</p>
+    <div>Released May 9th, 2013</div>
+</div>
+
+<!-- Begin #page-wrapper -->
+<div id="page-wrapper" class="full">
+    
+    <div id="current-issue">
+        <img src="/media/upload/smog/issue27/smog27.png" title="Cover Art" alt="" />
+        <div id="contribs">
+            This issue of The Smog is brought to you by <a href="http://www.smogon.com/smog/issue27/contributors">these contributors</a>.
+        </div>
+    </div>
+
+        <!-- Begin #issue-contents -->
+        <div id="issue-contents">
+
+            <!-- Begin first column -->
+            <div class="column">
+                <div class="section general">
+                    <h3>General</h3>
+                    <a href="note_from_editor">Note from the Editor</a>
+                    <a href="interview">Interview with Vader</a>
+                    <a href="trivia">Trivia</a>
+                </div>
+
+                <div class="section battling-strategy">
+                    <h3>Battling Strategy</h3>
+                    <a href="elemental_gems">Diamonds Aren't Forever: The Elemental Gems in Singles Part II</a>
+                    <a href="ru_spotlight_slowking">RU Spotlight: Slowking</a>
+                    <a href="adv_spotlight_tyranitar">ADV OU Spotlight: Tyranitar</a>
+                </div>
+
+                <div class="section metagame">
+                    <h3>Metagame</h3>
+                    <a href="suspect">Suspect Testing Round 10</a>
+                    <a href="ou_playstyle">OU Playstyle Analysis: Rain Offense</a>
+                    <a href="weatherless_offense">Everything You've Been Told Is a Lie: Weatherless Offense in BW2 OU</a>
+                    <a href="ru_theorymon">RU Theorymon</a>
+                    <a href="nu">NU's Newest Additions</a>
+                    <a href="nu_underrated_movesets">Underrated NU Movesets</a>
+                    <a href="nu_priority">Priority in NU</a>
+                    <a href="lc_parents">LC Pok&eacute;mon That Take After Their OU Parents</a>
+                    <a href="vgc_antirain">Stay Afloat: Simple VGC Anti-Rain Tips</a>
+                    <a href="doubles_fallen">Glory Hogs: Fallen Stars in the Doubles Metagame</a>
+                    <a href="tier_shift_weather">War of the Weathers: A Look at Weather in Tier Shift</a>
+                    <a href="tier_shift_threats">Equality for All? Common Tier Shift Threats Explained</a>
+                    <a href="dpp_bw_underdogs">DPP and BW Underdogs That Would Have Hit Big in RBY</a>
+                    <a href="rby_moves">What Moves You: Later Gen Moves that Would Redefine RBY</a>
+                    <a href="mechanical_changes">The Top 10 Mechanical Changes to Competitive Pok&eacute;mon</a>
+                    <a href="ruined">Top 10 Things That Ruined Pok&eacute;mon</a>
+                </div>
+            </div>
+
+            <!-- Begin second column -->
+            <div class="column">
+                <div class="section arts-and-recreation">
+                    <h3>Arts &amp; Recreation</h3>
+                    <a href="smeargle">Smeargle's Studio Update</a>
+                    <a href="movie_panel">Movie Critics - The Panel: Golden Oldies</a>
+                </div>
+
+                <div class="section entertainment">
+                    <h3>Entertainment</h3>
+                    <a href="gym_guide">Do You Even Lift: Sinnoh Sweat</a>
+                    <a href="pokemon_biology">Pok&eacute;mon Biology: Baby Boomers</a>
+                    <a href="poketour">PokéTour: Fuchsia City</a>
+                    <a href="gary_oak">Looking Back: Blue aka Gary Oak, the Best Rival Ever</a>
+                </div>
+
+                <div class="section other">
+                    <h3>Other Features</h3>
+                    <a href="cnc">Vis-&agrave;-vis with Contributions &amp; Corrections</a>
+                    <a href="glitch">Inside the ROM: The Deepest Secrets of MissingNo. and Glitch Pok&eacute;mon</a>
+                    <a href="pmd">Pok&eacute;mon Mystery Dungeon: Moves in the Dungeons</a>
+                    <a href="nupl">A Look Back on NU's Premier League</a>
+                </div>
+            </div>
+        </div> <!-- /end #issue-contents -->
+
+        <div class="clear"></div>
+</div> <!-- /end #page-wrapper -->
+
+<!-- Do NOT modify anything after this line. ~Setsuna -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="/media/smog/smog.js"></script>

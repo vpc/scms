@@ -1,0 +1,85 @@
+[title]
+Malaconda
+[head]
+<link rel="stylesheet" type="text/css" href="/media/dex/dex.css" />
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_template.js"></script>
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_database.js"></script>
+[header]
+[page]
+<script language="JavaScript">
+var cap = Malaconda();
+
+cap.movesLevel[0] = ["Rapid Spin", "Vine Whip", "Pursuit", "Wrap"];
+cap.movesLevel[6] = "Pursuit";
+cap.movesLevel[12] = "Wrap";
+cap.movesLevel[18] = "Grass Knot";
+cap.movesLevel[25] = "Sucker Punch";
+cap.movesLevel[30] = "Slam";
+cap.movesLevel[36] = "Leaf Blade";
+cap.movesLevel[42] = "Crunch";
+cap.movesLevel[48] = "Wring Out";
+cap.movesLevel[57] = "Power Whip";
+cap.movesLevel[66] = "Punishment";
+
+cap.movesTM[5] = "Roar";
+cap.movesTM[6] = "Toxic";
+cap.movesTM[10] = "Hidden Power";
+cap.movesTM[11] = "Sunny Day";
+cap.movesTM[12] = "Taunt";
+cap.movesTM[15] = "Hyper Beam";
+cap.movesTM[17] = "Protect";
+cap.movesTM[21] = "Frustration";
+cap.movesTM[22] = "SolarBeam";
+cap.movesTM[27] = "Return";
+cap.movesTM[32] = "Double Team";
+cap.movesTM[42] = "Facade";
+cap.movesTM[44] = "Rest";
+cap.movesTM[45] = "Attract";
+cap.movesTM[46] = "Thief";
+cap.movesTM[48] = "Round";
+cap.movesTM[53] = "Energy Ball";
+cap.movesTM[66] = "Payback";
+cap.movesTM[67] = "Retaliate";
+cap.movesTM[68] = "Giga Impact";
+cap.movesTM[82] = "Dragon Tail";
+cap.movesTM[86] = "Grass Knot";
+cap.movesTM[87] = "Swagger";
+cap.movesTM[89] = "U-turn";
+cap.movesTM[90] = "Substitute";
+cap.movesTM[93] = "Wild Charge";
+cap.movesTM[95] = "Snarl";
+
+cap.movesHM[1] = "Cut";
+cap.movesHM[4] = "Strength";
+
+cap.movesEgg = [
+        "Aromatherapy",
+        "Beat Up",
+        "Glare",
+        "Haze",
+        "Night Slash",
+        "PoisonPowder",
+        "Scary Face",
+        "Screech",
+        "Sweet Scent",
+        "Stun Spore",
+];
+
+cap.movesTutor = [
+        "Bind",
+        "Dark Pulse",
+        "Foul Play",
+        "Giga Drain",
+        "Heal Bell",
+        "Iron Tail",
+        "Knock Off",
+        "Seed Bomb",
+        "Sleep Talk",
+        "Snore",
+        "Spite",
+        "Synthesis",
+        "Worry Seed",
+];
+
+document.write(composeMovesPage(cap));
+</script>

@@ -1,0 +1,137 @@
+[title]
+Cyclohm
+[head]
+<link rel="stylesheet" type="text/css" href="/media/dex/dex.css" />
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_template.js"></script>
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_database.js"></script>
+[header]
+[page]
+<script language="JavaScript">
+document.write(strategyTabs("Cyclohm"));
+document.write(topHeaderInfo(Cyclohm()));
+</script>
+
+<h2>Overview</h2>
+
+<h4>DPP</h4>
+
+<p>Due to Cyclohm's base 112 Special Attack, it hits like a truck. With offensive options that boast a high Base Power, such as Hydro Pump, Draco Meteor, and Thunderbolt, it is able to put a major dent into most of the OU metagame. Even Pokemon that resist Draco Meteor, such as Scizor, will take a huge chunk of damage from it when it's backed by Choice Specs; nearly 65% of its health will be depleted. On the other hand, Cyclohm performs exceptionally well as a tank due to its high defensive stats and numerous resistances. Shield Dust and Slack Off only further Cyclohm's ability to take hits from the likes of Jirachi (a Pokemon that relies on the flinch chance from Iron Head to make a mark on the opponent), Metagross, and Scizor.</p>
+
+<p>However, Cyclohm is not all sunshine and rainbows (just look at the thing). Cyclohm sports three weaknesses to the game's most common attacking types: Ground, Ice, and Dragon. Due to this, it can be difficult to fit Cyclohm into a team or switch it into play. Cyclohm also takes full damage from all entry hazards, further limiting its ability to wall threats like U-turn Scizor. It also doesn't help that Tyranitar, one of the most common Pokemon in the game, can switch into defensive sets with impunity due to sandstorm's Special Defense boost and threaten to either OHKO it or set up on it. Like most Pokemon, Cyclohm requires some support from its teammates to be used to its fullest potential.</p>
+
+<script language="JavaScript"> 
+var set = new CAPSet(); 
+set.name = "DPP Life Orb"; 
+set.move[1] = "Draco Meteor"; 
+set.move[2] = "Thunderbolt"; 
+set.move[3] = ["Hydro Pump", "Fire Blast"]; 
+set.move[4] = "Slack Off"; 
+set.item = "Life Orb"; 
+set.nature = "Timid"; 
+set.ability = "Shield Dust"; 
+set.evs.HP = 4; 
+set.evs.SpA = 252; 
+set.evs.Spe = 252; 
+document.write(composeSet(set)); 
+</script> 
+
+<p>With an amazing movepool and a base 112 Special Attack stat, Cyclohm is an offensive threat who is not simply dealt with. Not many OU Pokemon are able to easily switch into Cyclohm without being hit hard by this set. Life Orb further increases Cyclohm's offensive potential, and with its excellent overall bulk and Slack Off, it won't mind the 10% recoil from each attack. Cyclohm's typing also provides numerous resistances to switch into and shrug off, allowing it to give your opponent a scare with its fantastic dual STAB combo of Draco Meteor and Thunderbolt, only resisted by Magnezone in OU.</p>
+
+<p>Hydro Pump's high power and great type coverage makes it an excellent attack to use in tandem with Cyclohm's STAB attacks. It's strong enough to 2HKO max HP Tyranitar, who would otherwise pose a threat due to its high Special Defense from the sandstorm it summons. Although Hydro Pump is the preferred option in this set, Fire Blast is viable for covering other threats better. It deals more damage to Steel-types like Jirachi and Metagross than Thunderbolt can, and is Cyclohm's most reliable option against Celebi. If you dislike Hydro Pump's shaky accuracy, however, Surf is an acceptable alternative, and likewise, Flamethrower can be used over Fire Blast. Slack Off is used to give this set a longer lasting presence in the game, allowing it to constantly switch in, hit a few Pokemon quite hard, and switch out. This Cyclohm is essentially a hit-and-run attacker, which is why Draco Meteor is preferred over Dragon Pulse.</p>
+
+<p>Timid Cyclohm can outrun everything below 284 Speed, including Adamant Lucario, the standard Dragon Dance Kingdra, and Heatran. This also allows Cyclohm to Speed tie with Mamoswine, and other base 80 Speed Pokemon who would usually run max Speed.</p>
+
+<p>When using Cyclohm, Pokemon that do exceptionally well in weakening foes and crippling the opponent will make its job much easier. Scizor, in particular, can switch into many of Cyclohm's counters and checks, such as Blissey and Latias, respectively, and threaten them. Scizor can also scout and significantly weaken the opposing team with U-turn when paired with Stealth Rock. Likewise, Scizor can lure in Fire-type attacks coming from the likes of Heatran, allowing Cyclohm switch-in with minimal damage done. Jirachi is also a good Pokemon to pair Cyclohm with, as it can paralyze foes with Body Slam or Thunder Wave while taking Ice- and Dragon-type attacks aimed at Cyclohm. Close Combat and U-turn Infernape also does an excellent job of weakening or KOing Latias and Blissey, while being another offensive presence on your team. Entry hazard support is strongly recommended for use with this set, since it will make Cyclohm more likely to score 2HKOs or OHKOs against the opponent's Pokemon, such as Draco Meteor against Machamp, Swampert, and Celebi. Skarmory and Swampert easily set up their respective entry hazards thanks to their high defensive bulk and great typing.</p>
+
+<script language="JavaScript"> 
+var set = new CAPSet(); 
+set.name = "DPP Physical Wall"; 
+set.move[1] = ["Discharge", "Thunderbolt"]; 
+set.move[2] = "Dragon Pulse"; 
+set.move[3] = ["Flamethrower", "Roar"]; 
+set.move[4] = "Slack Off"; 
+set.item = "Leftovers"; 
+set.nature = "Bold"; 
+set.ability = "Shield Dust"; 
+set.evs.HP = 252; 
+set.evs.Def = 252; 
+set.evs.Spe = 4; 
+document.write(composeSet(set)); 
+</script> 
+
+<p>With impressive HP and Defense, excellent typing, Slack Off, and Shield Dust, Cyclohm is more than capable of sponging hits from many of the OU metagame's top threats. Cyclohm can take several hits from Scizor, Metagross, Jirachi, and Gyarados, and retaliate with an attack launched from a base 112 Special Attack. For example, Choice Band Scizor can only do 31% - 37% to Cyclohm with U-turn. Jirachi cannot rely on Iron Head to flinch Cyclohm due to Shield Dust, which prevents any secondary effects from activating. Unlike Zapdos, Cyclohm is not Stealth Rock weak and can therefore switch in more easily against the aforementioned threats. Cyclohm can normally switch in against Metagross with impunity, although it must be careful when faced with Life Orb or Choice Band Metagross using Earthquake, as it will definitely be harmful. As a testament to Cyclohm's bulk, Adamant Life Orb Lucario will never OHKO Cyclohm with a +2 Close Combat, as it only manages 76% - 89% damage. Cyclohm is capable of always OHKOing Lucario with Flamethrower after it drops its defenses with Close Combat. Cyclohm also makes a good switch-in against Infernape due to its high Defense and resistance to Grass Knot and Fire Blast, though Cyclohm must be wary of Hidden Power Ice.</p>
+
+<p>Due to Cyclohm's great Special Attack, it can easily prove a major threat to the previously mentioned Pokemon. Discharge is the recommended Electric-type STAB option due to its 30% paralysis chance, which can be very helpful in allowing Cyclohm to outpace threats. The power drop is largely insignificant due to the fact that Cyclohm is being used defensively, so it doesn’t need much offensive power. If you do want Cyclohm to hit harder, feel free to use Thunderbolt instead. Dragon Pulse is commonly used to hit switch-ins such as Tyranitar, Mamoswine, and Flygon for at least neutral damage, with the latter being hit super effectively. Flamethrower is chosen over Fire Blast because the greater reliability is needed more, and allows Cyclohm to dispose of Scizor, Metagross, and Jirachi, while being Cyclohm's most reliable option against Celebi and Bronzong. Roar can be used over Flamethrower if you want Cyclohm to serve as a reliable phazer for your team. Finally, Slack Off enhances Cyclohm's defensive ability and makes it a constant defensive threat to the opponent.</p>
+
+<p>The EV spread optimizes Cyclohm's high HP and Defense stats so it can take as many physical hits as possible without worry. The remaining 4 EVs are put into Speed so Cyclohm can outpace neutral natured base 80s that don't run any Speed.</p>
+
+<p>Defensively, Bronzong is Cyclohm's best partner due to its resistance or immunity to Dragon-, Ground-, and Ice-type attacks, its ability to set up Stealth Rock and dual screens, and its ability to counter Mamoswine, one of Cyclohm's biggest checks. Cresselia also performs adequately in this department and can be an effective switch-in to Flygon, aPokemon that immediately threatens Cyclohm once successfully switched in. RestTalk Gyarados makes a decent counter to Mamoswine. Scizor is an excellent answer to Latias, being able to switch into the STAB attacks aimed at Cyclohm and threaten her back with Bullet Punch or Pursuit. It's also capable of threatening Mamoswine, who falls under a OHKO from Bullet Punch. Skarmory laughs at Ground- and Dragon-type attacks and has the added advantage of setting up multiple layers of Spikes, which work exceptionally well with Roar should you choose to use it.</p>
+
+<script language="JavaScript"> 
+var set = new CAPSet(); 
+set.name = "DPP Choice Specs"; 
+set.move[1] = "Draco Meteor"; 
+set.move[2] = "Thunderbolt"; 
+set.move[3] = ["Surf", "Hydro Pump"]; 
+set.move[4] = ["Flamethrower", "Fire Blast"]; 
+set.item = "Choice Specs"; 
+set.nature = "Timid"; 
+set.ability = "Shield Dust"; 
+set.evs.HP = 4; 
+set.evs.SpA = 252; 
+set.evs.Spe = 252; 
+document.write(composeSet(set)); 
+</script> 
+
+<p>This set aims to take advantage of Cyclohm's natural bulk, decent base 80 Speed, and most importantly, its excellent base 112 Special Attack. This set can rip a huge hole in almost any Pokemon with its raw power. Cyclohm's main attack choice is Draco Meteor, which is more powerful than the same move from a Choice Specs Latias. Its power allows it to tear through walls like Celebi and Swampert, and penetrates other frail sweepers without question. Here are some calculations against common switch-ins towards Cyclohm:</p>
+
+<pre>Draco Meteor vs. 252 HP Celebi: 76% - 90%
+Draco Meteor vs. 252 HP Swampert: 83% - 98%
+Draco Meteor vs. 32 HP Scizor: 64% - 76%
+Draco Meteor vs. 176 HP Tyranitar: 53% - 63%
+Draco Meteor vs. 4 HP Tyranitar: 60% - 71%
+Draco Meteor vs. 252 HP / 120 SpD Calm Rotom-A: 78% - 92%</pre>
+
+<p>What truly sets Cyclohm apart from Choice Specs Latias, though, is its STAB Thunderbolt and lack of a Pursuit weakness. Thunderbolt obliterates the usual switch-ins to most Dragon-types, namely bulky Water-types such as Suicune, Vaporeon, and Empoleon. It also provides fantastic coverage, hitting everything bar Magnezone for neutral or super effective damage in the OU metagame. Surf and Flamethrower provide great coverage in tandem with Cyclohm's STAB moves, which is essential on a good Choice item set. Surf hits Ground-, Fire-, and Rock-type switch-ins for super effective damage, mainly Tyranitar and Heatran, while Flamethrower puts the hurt in Steel-types who dare to switch in expecting a Draco Meteor, scorching Metagross, Jirachi, and Bronzong. Hydro Pump and Fire Blast are alternative options, respectively, for added power in exchange for lower accuracy.</p>
+
+<p>The EVs allow Cyclohm to tie, at worst, with Jolly Mamoswine, one of its biggest threats. With that being said, Cyclohm can safely outrun Adamant Mamoswine and even outpaces Adamant Gyarados before a Dragon Dance. If you wish, you can run a bulkier spread with a Modest nature; this is not recommended, however, as you won't be gaining any relevant 2HKOs.</p>
+
+<p>Choice Specs Cyclohm should be paired at all times with Pokemon that cover its weaknesses, namely those who are able to get around the likes of Snorlax and Blissey, while also being able to sponge Ground-, Ice-, and Dragon-type attacks. Bronzong is unable to beat Blissey or Snorlax without Explosion, but it easily walls threats such as Mamoswine, in addition to being able to set up Stealth Rock and dual screens. Cresselia can perform the same role, while also shutting down Flygon which is large threats to Cyclohm once he has switched in. Scizor, Metagross, and Jirachi are great Pokemon who resist Ice- and Dragon-type attacks while maintaining the ability to defeat Snorlax and Blissey. A defensive Machamp may not resist Dragon- and Ground-type attacks, but it is able to recover any damage taken with Rest, and absolutely destroys all of Cyclohm's main checks.</p>
+
+<h2>Team Options</h2>
+
+<h4>DPP</h4>
+
+<p>There are two very distinctive ways to play Cyclohm, and each method requires different team members to suit Cyclohm's needs. The first way to play Cyclohm is defensively, as a physical tank. When using Cyclohm defensively, it is best to use Pokemon that complement and cover Cyclohm's type strengths and weaknesses instead of focusing on Pokemon that weaken Cyclohm's counters. Bronzong is the best choice to fill such a roll due to its high overall defenses, resistance or immunity to all of Cyclohm's weaknesses, and ability to set up Stealth Rock successfully. Bronzong can also handle Mamoswine and Flygon. All of the aforementioned Pokemon threaten Cyclohm with their powerful STAB attacks, but Bronzong is capable of switching into them with impunity and threatening them back with Gyro Ball. Bulky Steel-types, such as Jirachi, Metagross, and Scizor, also pair very well with Cyclohm due to their resistances to Cyclohm's Dragon- and Ice-type weaknesses, though they usually will share Cyclohm's Ground-type weakness. Scizor and Metagross can revenge-kill Mamoswine and Flygon, with Bullet Punch, while Jirachi can flinch all four to death with Iron Head. Another excellent teammate is Skarmory, as its typing and bulk allows it to shrug off Dragon-, Ground-, and weak physical Ice-type attacks. It can also set up Spikes to further weaken the Pokemon Cyclohm is up against. Rapid Spin support is also crucial, as Cyclohm is vulnerable to all three forms of entry hazards, which severely hinders its ability to switch into threats. Forretress and Starmie are both excellent options, the former being more reliable on defensive teams, while the latter is more appropriate on balanced teams.</p>
+
+<p>The second way to play Cyclohm, of course, is offensively. This can be accomplished by using either the Choice Specs or Life Orb sets. Both sets rely strongly on hit-and-run tactics. That being said, it is strongly advised that you pair Cyclohm with a Pokemon that is able to weaken or eliminate Cyclohm's counters. Scizor can easily dispose of Latias and Blissey, two of Cyclohm's biggest counters, with Bullet Punch and Superpower, respectively. However, Scizor should be wary of Choice Specs Surf or Thunderbolt from Latias and Flamethrower from Blissey when switching in. Calm Mind Jirachi or Suicune also work well, due to their ability to set up in the face of Blissey. Choice Scarf Heatran resists Dragon- and Ice-type moves and can lure Blissey in to play before taking it out of the game with Explosion. Lucario can also perform adequately as a partner due to its resistances to Ice- and Dragon-type attacks, allowing it to set up a Swords Dance and attempt to wreak havoc. Machamp can take out Blissey and Tyranitar with DynamicPunch and Latias with Payback, and can recover off any damage taken with Rest. Life Orb Metagross can also eliminate Latias, Blissey, and Tyranitar, and works great in tandem with Cyclohm, as they both can destroy each other's counters. Stealth Rock and Spikes are also recommended for use alongside Cyclohm due to their ability to turn some 2HKOs into OHKOs. Forretress, Skarmory, and Bronzong are excellent users of Stealth Rock, and the former two can set up Spikes as well.</p>
+
+<h2>Other Options</h2>
+
+<h4>DPP</h4>
+
+<p>Cyclohm's secondary ability, Static, can be used if you want added chances to paralyze physical attackers instead of relying on Discharge or Thunderbolt. It is particularly useful for punishing Pokemon that tend to U-turn early and use more powerful attacks later, neutering U-turners (commonly seen holding Choice Scarf) like Flygon and Jirachi for the rest of the match unless the opponent has a cleric. It is generally lackluster once Cyclohm has switched in, however, as virtually all moves that will be used against it are non-contact.</p> 
+
+<p>Charge Beam is an effective means of boosting Cyclohm's Special Attack while maintaining the defensive characteristics Cyclohm uses, allowing it to sweep teams under the right conditions.</p>
+
+<p>Cyclohm has a multitude of viable support options that normally will not find their way onto a standard set due to four-moveslot syndrome. Instead of using Discharge to induce paralysis, Thunder Wave can be used to allow Cyclohm to paralyze incoming foes practically every time. Heal Bell is a useful little tool that allows Cyclohm to act as a cleric. Trick Room is a rare field effect, but Cyclohm's fantastic overall bulk and recovery moves make it a prime candidate to set it up. Light Screen can cover Cyclohm's weaker Special Defense, and Safeguard can prevent Cyclohm, and its teammates, from being hit by status for several turns. Rain Dance is notable for boosting both Thunder and Hydro Pump's usefulness, while Sunny Day and Fire Blast make life much more difficult for Steel- and Grass-types that switch into Cyclohm's Dragon- and Electric-type move, respectively.</p>
+
+<p>It is possible, although not highly recommended, to use a much bulkier Life Orb or Choice Specs EV spread. Simply run max Special Attack and enough Speed EVs to outrun standard Agility Metagross before it uses Agility. The remaining EVs should be funneled into HP or one of Cyclohm's defenses, whichever you prefer.</p>
+
+<h2>CAP Metagame</h2>
+
+<h4>DPP</h4>
+
+<p>Cyclohm is unique in that it takes hits better on the physical side, but fires off attacks from its special side. It's extremely difficult for it to take down nearly every CAP Pokemon, though. Syclant, Fidgit, Stratagem, and Colossoil are all very threatening, able to outspeed Cyclohm and exploit its weaknesses. Syclant can revenge-kill Cyclohm with its STAB super effective Ice Beam. Fidgit can switch into a predicted Thunderbolt or Slack Off and cripple Cyclohm with Encore, allowing it to start spilling out entry hazards, or it can just use Earth Power for heavy damage. Stratagem can hit Cyclohm very hard with a powerful Earth Power, while Colossoil can come in on a predicted Thunderbolt, and even neutral attacks (bar Draco Meteor) thanks to its high HP and retaliate with an OHKO from its Earthquake.</p>
+
+<p>Cyclohm does have its uses against the other CAP Pokemon, however. Cyclohm can easily switch into Revenankh, Pyroak, Arghonaut, and Kitsunoh. With all of them being primarily physically offensive, each of them will have a very hard time eliminating Cyclohm. Revenankh will be hit repeatedly by powerful Thunderbolts or Draco Meteors, preventing it from safely using Bulk Up. Cyclohm is resistant to both of Pyroak's STAB attacks, meaning it can switch into Pyroak with impunity and threaten it with one of its Dragon-type attacks. Arghonaut is deathly afraid of being faced with Cyclohm, due to the fact that it can't threaten it at all and will be OHKOed by Thunderbolt. Kitsunoh's primary attacking option, ShadowStrike, will fail to score a Defense drop due to Cyclohm's Shield Dust, allowing Cyclohm to switch in and immediately threaten Kitsunoh with Flamethrower.</p>
+
+<h2>Counters</h2>
+
+<h4>DPP</h4>
+
+<p>Given Cyclohm's powerful attacks, incredible type coverage, and respectable base 112 Special Attack, very little can afford to keep coming in on the more offensive sets. Blissey, like the trooper she is, can sponge up Cyclohm's attacks indefinitely, and can keep Cyclohm on a timer with Toxic. Snorlax can take a few hits, though it will require heavy Special Defense investment to avoid being 2HKOed by a Life Orbed Draco Meteor, and hit back with Earthquake. Swampert can switch into a predicted Thunderbolt and retaliate with its Ice Beam on Cyclohm's weaker Special Defense or a STAB Earthquake, but it must watch out for Hydro Pump and Draco Meteor.</p>
+
+<p>Mamoswine can come in on a predicted Thunderbolt and OHKO all but the bulkiest Cyclohm with its powerful Earthquake, though it should be wary of the Speed tie with max Speed Cyclohm. Dugtrio can trap Cyclohm and hit it with Earthquake as well, though Cyclohm's bulk usually necessitates a little weakening before Dugtrio can safely knock it out. A specially defensive Tyranitar can usually afford to take a hit from Cyclohm and fight back with Earthquake, though it should be wary of Hydro Pump and Surf.</p>
+
+<p>Latias can absorb non-Dragon moves and hit Cyclohm on its weaker defensive side with a Dragon-type attack of its own. Various other Pokemon with a strong super effective move can revenge-kill Cyclohm, such as Starmie and Heatran, but should be careful to ensure that Cyclohm is within KO range before attempting to take it out.</p>

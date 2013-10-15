@@ -1,0 +1,56 @@
+[title]
+The Concept of Lures
+[head]
+<link href="/media/smog/smog.css" type="text/css" rel="stylesheet" />
+[page]
+<div class="author">By <a href="/forums/member.php?u=12630">Aldaron</a>, with revisions and additions by <a href="/forums/member.php?u=19319">Caelum</a>.</div>
+<table id="smogheader">
+<tr>
+<td class="left"><a href="inverse_metagames">&laquo; Previous Article</a></td>
+<td class="middle"><a href="/smog/issue1/">Home</a></td>
+<td class="right"><a href="introduction_to_prediction">Next Article &raquo;</a></td>
+</tr>
+</table>
+<p>Firstly, what exactly is a lure and why are they useful? To address those questions, we must first examine some aspects about sweepers. Specifically, what prevents a sweeper from, well, sweeping? Prior to DPP, physical and special walls were the primary roadblocks to sweepers; but with the addition of new Pokémon, changes in game mechanics between generations, and the addition of items such as Focus Sash and Choice Scarf, the list has greatly expanded. No longer do people solely need counters: "checks" are now viable ways of preventing a sweep. A check is not something that can truly counter a particular Pokémon, in the sense it can switch in with minimal risk, but it can prevent a Pokémon from sweeping. All of that said, how can we even effectively use sweepers against skilled players? Won't they have the necessary checks or counters to eliminate your sweepers? Absolutely. Thus, to allow my Swords Dance Lucario or Dragon Dance Tyranitar to properly sweep, I need to remove those checks or counters. One of the most effective ways of doing so is by using a lure.</p>
+ 
+<p>For the purpose of this article, a lure is defined as any Pokémon that manages to draw out (or "lure") and eliminate an opponent's Pokémon which serves as a potential roadblock to the sweeper of your choice. Now that you know what a lure is and why they are useful, how exactly would you go about building an effective one?</p>
+ 
+<p>For a lure to be effective, it has to both lure the troublesome Pokémon in and deal significant damage back, or cripple it in some way to open up the sweep for your sweeper of choice; the latter case is often accomplished via paralysis support to nullify the effects of an opponent's Choice Scarf or other Speed boosts. To lure in a Pokémon, your opponent must be led to believe that they have a safe switch-in. Thus, lures usually have some element of surprise on their side.</p> 
+ 
+<p>Knowing the basics of what a lure is and what it does is all nice, but I'm sure you want to know how to apply this knowledge to actually incorporate a lure into one of your teams. This is best taught by example.</p>
+ 
+<p>Let's say for my particular team I have chose to utilize a Swords Dance Lucario as my sweeper.</p>
+ 
+<pre>Lucario @ Life Orb
+Ability: Inner Focus
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant nature 
+- Swords Dance
+- Close Combat
+- ExtremeSpeed
+- Crunch</pre>
+ 
+<p>Now, I wish to design my lure. Remember, a lure must be able to draw out Pokémon that give Lucario problems and remove them from the picture. So, what exactly gives Lucario problems? Some notable issues that stick out are bulky Ground-type Pokémon, in particular Gliscor, who can easily halt my sweep. Pokémon such as Hippowdon and Donphan can also inhibit my sweeping abilities. Bulky Salamence with Roost and Jirachi can also pose decent threats to my Lucario. While this list of potential threats is by no means exhaustive (things like Choice Scarf Gengar and Heatran can also check me effectively), this is a good starting point. A single lure will almost never be able to effectively deal with all of your sweeper's potential checks; luckily for you, you have four other Pokémon to use.</p> 
+ 
+<p>Looking at my list of counters and checks, I notice some common factors: they normally act as physical walls; they have relatively low Special Defense; and they share an Ice weakness (Gliscor, Hippowdon, Salamence). This leads to believe that my lure should be a Pokémon who normally behaves as a physical attacker with access to an Ice move. To preserve my luring abilities, I also will not want to utilize a Pokémon who has STAB on either Water- or Ice-type moves. After searching through the Smogon PokéDex, I come to find that Tyranitar could be an excellent choice to lure these Pokémon in.</p>
+ 
+<p>One option could be to make Tyranitar bulky enough to withstand an Earthquake from defensive versions of Gliscor and Hippowdon, yet maintain enough Special Attack to OHKO and 2HKO Gliscor and Hippowdon, respectively, with Ice Beam. Additionally, Tyranitar also learns Fire Blast; if Jirachi were to believe Tyranitar was Choice-locked on Ice Beam, it might switch in unsuspectingly, taking a lot of damage from Fire Blast. The additional advantage of eliminating Skarmory and Forretress is nice too. The question is, how exactly would we convince Jirachi (or any other Pokémon for that matter) we are Choice-locked on a particular move? For the remaining move-set, Crunch seems like an appropriate choice due to STAB and helps against Cresselia in some respects, who can pose problems to Lucario. Also, Earthquake fits as my next choice to prevent Heatran from walling my move set entirely. To further this lure strategy, we conclude that neither Leftovers or Life Orb are acceptable. The ideal item appears to be an Expert Belt as this feigns the image that we are holding a Choice-item (likely a Choice Scarf due to the reduced damage output). Now, we need to determine an ideal EV spread.</p>
+ 
+<p>After running some damage calculations, I would require a minimum of 264 Special Attack to OHKO 334 HP / 176 SpD Skarmory with an Expert Belt Fire Blast, and thus be able to OHKO Gliscor and 2HKO most Hippowdon with Ice Beam. However, since this is intended to be a check against Gliscor as well, I want to be able to comfortably survive an Earthquake while remaining viable on average. An EV spread of 184 HP / 36 Atk / 108 Def / 152 SpA / 28 Spe with a Relaxed nature gives me 387 HP / 313 Atk / 311 Def / 264 SpA / 236 SpD / 148 Spe. The HP and Defense allow Tyranitar to always survive an Adamant Life Orb Earthquake from Gliscor after Stealth Rock, and the Special Attack allows me to OHKO Gliscor. The Speed EVs allows me to always outrun 4 Speed EVs Machamp and Blissey. The remaining EVs are placed into Attack for good measure.</p>
+ 
+<p>So let me review this lure Pokémon. We have a mixed Tyranitar with a viable moveset and acceptable EVs that are geared for a specific purpose, yet not overly centralized. By carrying Expert Belt, I create the facade of carrying a Choice item, falsely luring the opponent into being comfortable with keeping in his Gliscor after he switches into a Crunch or Earthquake.</p>
+ 
+<p>Since Ice Beam always OHKOs Gliscor and Fire Blast will OHKO Skarmory on average, and since I create a facade of holding a Choice-item, I think this mixed Tyranitar helps me effectively lure in some potential threats to my Lucario, and it also helps me offensively and defensively against other Pokémon that may trouble Lucario, such as Cresselia and Celebi, or Heatran and Hippowdon.</p>
+ 
+<p>Now that you know how to create a lure, how do you go about using one? Could you mindlessly click buttons and just aim for the super effective message to appear on the screen? Sure, but there are more efficient ways to use your lure. One of the main things about lures is that they utilize the element of surprise. To be effective, it is necessary for a player to keep their surprise hidden until the right moment. This is best developed through experience, and no article or guide could really ever instruct you entirely on the finer aspects of this. However, to give a general idea, let's return to the example of my Tyranitar and Lucario.</p>
+ 
+<p>Let's say you are facing a team and you have seen thus far Gliscor and Blissey. You have your Tyranitar out against his or her Blissey. You strongly suspect that your opponent will switch in Gliscor, whom you need weakened or eliminated for Lucario to properly sweep. You could straight out Ice Beam, but what if your opponent has another switch-in to Tyranitar? You have just blown your surprise and you will not have another opportunity to effectively remove Gliscor from the battle. The proper behavior would be to use Tyranitar normally and just Crunch and see what your opponent is going to bring in. If he brings in Gliscor, just reveal your surprise and remove Gliscor as a potential check to Lucario. If not, just switch out and prepare to use him later. While this was obviously a simplified example, it outlines the general thinking of hiding your surprise until you are ready to spring it so you do not tip off your opponent.</p>
+ 
+<p>Lures can be an effective means to remove many potential counters and checks against your sweepers of choice. Proper construction and use of a lure on a team should never be underestimated by an opponent and should always be considered when you are designing an offensive team.</p>
+<table id="smogheader">
+<tr>
+<td class="left"><a href="inverse_metagames">&laquo; Previous Article</a></td>
+<td class="middle"><a href="/smog/issue1/">Home</a></td>
+<td class="right"><a href="introduction_to_prediction">Next Article &raquo;</a></td>
+</tr>
+</table>

@@ -1,0 +1,117 @@
+[title]
+Mollux
+[head]
+<link rel="stylesheet" type="text/css" href="/media/dex/dex.css" />
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_template.js"></script>
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_database.js"></script>
+[header]
+[page]
+<script language="JavaScript">
+document.write(strategyTabs("Mollux"));
+document.write(topHeaderInfo(Mollux()));
+</script>
+
+<h2>Overview</h2>
+
+<p>Mollux is much more than your average cute Pokemon. Sporting 95 / 83 / 105 defenses, a great set of resistances, an unusually high Special Attack stat of 131 for a defensive Pokemon, and an amazing ability in Dry Skin, it can be hard to take down easily, especially in the rain. Not only that, but it also counters practically every Water-type Pokemon out there other than Psyshock Starmie and Rock Blast Cloyster. Its resistances to Bug-, Fire-, Fighting-, Grass-, Ice-, Poison-, Steel-, and Water-type attacks are very appealing, leaving it taking half or less damage from a huge number of attacks. It is also a significant boon against VoltTurn teams, having both the special bulk to tank Volt Switch and a quadruple resistance to U-turn. It is also a great answer to top-tier threats such as Scizor, as few of them can break past Mollux's defenses and typing. On top of all of this, Mollux also has access to the monumental, game-changing moves of Rapid Spin, Stealth Rock, and Toxic Spikes. Just one of these moves would be good enough and make a Pokemon worth using, but Mollux has access to all three. Finally, it also has access to Recover, which is a godsend for any defensive Pokemon.</p>
+
+<p>Unfortunately, Mollux also has some pretty nasty flaws, such as taking extra damage in the sun each turn due to Dry Skin and having only a one-half Fire resistance thanks to Dry Skin and being weak to both parts of the EdgeQuake combo, thus losing to the fearsome Terrakion almost every time. To make matters worse, it takes a whooping 25% every time it comes onto the field when Stealth Rock is up. However, if you can look past these weaknesses, you'll see a cute lava lamp of a companion who will be happy to brighten up your battles, one who will endure attacks for you all day so long as they aren't Ground- or Salt-type!</p>
+
+<script language="JavaScript">
+var set = new CAPSet();
+set.name = "Toxic Stall";
+set.move[1] = ["Toxic", "Toxic Spikes"];
+set.move[2] = "Protect";
+set.move[3] = "Flamethrower";
+set.move[4] = ["Rapid Spin", "Recover", "Substitute"];
+set.item = "Black Sludge";
+set.ability = "Dry Skin";
+set.nature = "Modest";
+set.evs.HP = 252;
+set.evs.SpA = 24;
+set.evs.Spe = 232;
+document.write(composeSet(set));
+</script>
+
+<p>This Mollux set attempts to stall out the opponent by using a combination of Toxic, Dry Skin, Protect, and Black Sludge. Thanks to the fact that Mollux will be recovering a huge portion of its HP every turn from the combination of Dry Skin; Black Sludge; and possibly Recover, as well as the fact that it can block attacks every other turn with Protect, the opponent's Pokemon will be hard-pressed to even scratch it.</p>
+
+<p>The first move, Toxic, brings a lot of passive damage to the table; it plus entry hazards and damage caused by teammates really pressures the opposing team. You can also use Toxic Spikes for a more high-risk, higher-reward option. Protect allows you to block almost every single form of direct damage for a turn, allowing Mollux to get even more recovery while scouting the opponent's team. Flamethrower is used in the third slot to avoid being Taunt bait and to roast Scizor and Ferrothorn. What you run in the fourth slot is your choice; Rapid Spin is preferred due to how important removing entry hazards is. Recover can be used to tank more and heavier hits. Substitute allows Mollux to, if you can predict properly, stall almost indefinitely in the rain with the Toxic + Substitute + Protect combo made famous by Gliscor. </p>
+
+<p>This Mollux set should only be considered for a rain team due to its reliance on Dry Skin recovery. It should also not be considered if you lack a way of dealing with sun, as in the sun Dry Skin will actually cause Mollux to take damage every turn instead of recovering It's also important to watch out for Heatran while using this set, as it completely walls this variant of Mollux. In addition, specially defensive Jirachi can take hits from this set all day long in the rain, and Bronzong threatens to annihilate Mollux with Earthquake.</p>
+
+<p>It is important to note that this Mollux is perfect in Fire / Water / Grass cores on rain teams, which is always handy thanks to the synergy such cores bring to the table,. Finally, it is important to note why the EVs aren't set to the standard 252 / 252 / 4 used on most Pokemon sets: they maximize bulk and allow Mollux to outspeed uninvested base 100s as well as Adamant Breloom. The rest are thrown into Special Attack for just a touch more power.</p>
+
+<p>Good partners for this set include Gyarados, who really enjoys Rapid Spin removing Stealth Rock; Tentacruel, who is useful if you do not wish to use Mollux as a spinner; Politoed, who is absolutely mandatory due to Drizzle; and Ferrothorn, who can absorb Ground- and Rock-type attacks as well as set up Stealth Rock.</p>
+
+<script language="JavaScript">
+var set = new CAPSet();
+set.name = "Tank";
+set.move[1] = "Fire Blast";
+set.move[2] = ["Thunderbolt", "Thunder"];
+set.move[3] = ["Hidden Power Ice", "Hidden Power Water", "Hidden Power Grass"];
+set.move[4] = ["Recover", "Rapid Spin"];
+set.item = ["Black Sludge", "Life Orb"];
+set.ability = "Dry Skin";
+set.nature = "Modest";
+set.evs.HP = 252;
+set.evs.SpA = 252;
+set.evs.Spe = 4;
+document.write(composeSet(set));
+</script>
+
+<p>This Mollux set attempts to be an offensive tank by using a combination of firepower and recovery to punch holes in the enemy team and soak up attacks. Black Sludge and Dry Skin recovery is very nice to have, as is access to Recover, which will keep Mollux healthy throughout the match. Life Orb is an alternate option, which is actually usable thanks to Dry Skin recovering the recoil damage that the item inflicts.</p>
+
+<p>The first move is Fire Blast, which is useful as a high-powered STAB move, but Flamethrower is also an option if Fire Blast's shaky accuracy is unappealing. Thunderbolt should be used if you are not using this Mollux in the rain; however, if you are using it on a rain team, then Thunder is the superior option. Your choice of Hidden Power will depend on what you want Mollux to kill; Hidden Power Ice is great if you're afraid of Dragon-types, Hidden Power Water takes care of Ground-types and Heatran, who would otherwise wall this set, and Hidden Power Grass handles Rotom-W and Gastrodon. Finally, Recover is the preferred move in the last slot for keeping Mollux healthy, but if your team is hurting for a spinner, then Rapid Spin is a solid option.</p>
+
+<p>Good partners for this set include Tentacruel to remove Stealth Rock, which Mollux detests if it is not running Rapid Spin; Politoed, which is almost mandatory due to Drizzle; and Ferrothorn, as it can absorb Ground- and Rock-type attacks as well as set up Stealth Rock.</p>
+
+<script language="JavaScript">
+var set = new CAPSet();
+set.name = "Choice Scarf";
+set.move[1] = "Fire Blast";
+set.move[2] = ["Thunderbolt", "Thunder"];
+set.move[3] = ["Hidden Power Ice", "Hidden Power Water", "Hidden Power Grass"];
+set.move[4] = ["Trick", "Eruption", "Sludge Wave"];
+set.item = "Choice Scarf";
+set.nature = "Modest";
+set.evs.HP = 252;
+set.evs.SpA = 252;
+set.evs.Spe = 4;
+document.write(composeSet(set));
+</script>
+
+<p>With a workable Speed stat and a very high Special Attack, Mollux can make for a decent revenge killer with a Choice Scarf set. It can also absorb Toxic Spikes, which is a huge advantage over other Choice Scarf users. Fire Blast is the primary attacking option, as its high power plus the usefulness of Fire-type STAB is a great combination. The second move will depend on if you plan to use Mollux in the rain; Thunder is preferred if you are, and Thunderbolt should be used in all other scenarios. They are used to nail Water-types. The third slot, Hidden Power, will depend entirely on what you need Mollux to hit; Ice if Dragon-types are a concern, Water if Fire types such as Heatran are particularly threatening, and Grass if Gastrodon and Swampert are a thorn in your side. Hidden Power Ice is usually the best option, however, as Dragon-types are a real menace in this metagame. Finally, the last slot should usually be Trick to cripple walls and get around Blissey and Chansey; however, Eruption can provide an insanely high-power attack, though it does require Rapid Spin support to be effective. Sludge Wave can also be utilized as a backup STAB option.</p>
+
+<p>Good partners for this set include Tentacruel to remove Stealth Rock, which Mollux detests if it is not running Rapid Spin; Politoed, which is almost mandatory due to Drizzle; and Ferrothorn, as it can absorb Ground- and Rock-type attacks as well as set up Stealth Rock.</p>
+
+<script language="JavaScript">
+var set = new CAPSet();
+set.name = "Rapid Spin";
+set.move[1] = "Rapid Spin";
+set.move[2] = ["Recover", "Protect"];
+set.move[3] = ["Stealth Rock", "Toxic Spikes"];
+set.move[4] = ["Lava Plume", "Thunder"];
+set.item = "Black Sludge";
+set.ability = "Dry Skin";
+set.nature = "Calm";
+set.evs.HP = 252;
+set.evs.SpD = 252;
+set.evs.Spe = 4;
+document.write(composeSet(set));
+</script>
+
+<p>This Mollux set has amazing special bulk and surprising physical bulk due to its resistances. To make it better, Mollux is also immune to both burn and Toxic, two big threats to defensive Pokemon. All of this, in addition to benefiting from rain while being a Fire-type, makes it a great support Pokemon on rain teams. Sadly, it also has a weaknesses to the common EdgeQuake coverage combo that is found on many Pokemon. Due to the fact that it enjoys excellent regenerative capabilities in the rain, this variant of Mollux should typically only  be considered for teams with a user of Drizzle on board. However, Drought teams also enjoy this variant of Mollux, as it provides them with a spinner which can go toe-to-toe with their arch-nemeses, Water-types. While this may seem counter-productive at first due to Mollux taking damage due to Dry Skin every turn on Drought teams, absorbing Water-type attacks is far too great to pass up.</p>
+
+<p>The first move, Rapid Spin, is the most important part of the set, as it removes all entry hazards from Mollux's side of the field. The second slot can be filled by Recover if you wish to have reliable, immediate recovery or Protect if you wish to scout out the enemy team or attempt to stall them out. The third slot should typically contain some sort of entry hazard, either Stealth Rock or Toxic Spike, but if you already have a hazard setter, feel free to use a status-inflicting move such as  Will-O-Wisp or Toxic. The final slot is occupied by Lava Plume so that Mollux isn't total setup and Taunt bait, but Thunder is an acceptable alternative given Lava Plume's low Base Power.</p>
+
+<p>Good partners for this set include Gyarados, who really enjoys Rapid Spin removing Stealth Rock; Politoed to set up rain; Ninetales for use on sun teams; and Ferrothorn to absorb Ground- and Rock-type attacks as well as set up Stealth Rock.</p>
+
+<h2>Other Options</h2>
+
+<p>While a Choice Specs set can be utilized for the sheer power it brings to the table, Mollux both slow and lacks in the coverage that makes for an optimal user of Choice Specs. Final Gambit works as a decent surprise on most sets due to Mollux's high max HP and reliable recovery, but it's nothing more then a gimmick the second time around. Air Balloon is tempting but a horrible option, as while it does enable Mollux to avoid killer Earthquakes, it keeps Mollux from absorbing Toxic Spikes, which is a great asset. Finally, Illuminate should never be considered, even on sun teams, as Dry Skin's absorption of Water-type attacks is far too useful to pass up.</p>
+
+<p>Mollux does not need very much team support, as it typically does the supporting. However as its biggest three checks&mdash;Ground-types, Rock-types, and Heatran&mdash;all share a common weakness to Water-type attacks (with very rare exceptions such as Gastrodon), it is advised to run Mollux with some sort of Water-type. If you are using it on a rain team, then Politoed fills this role just fine. Tentacruel also makes for a good supporter, as it has access to Rapid Spin as well, a move which is an godsend for Mollux, who does not enjoy taking entry hazard damage in the slightest. Other good teammates include Pokemon that enjoy entry hazards being on the enemy's side of the field and require them being removed from theirs, such as Dragonite and Volcarona.</p>
+
+<h2>Checks and Counters</h2>
+
+<p>Any strong Ground- or Rock-type attack will quickly spell an end for poor Mollux, with Dugtrio, Mamoswine, and Terrakion being notable offenders. Dugtrio can trap and kill Mollux in a single hit, Mamoswine doesn't take terribly much damage from any move except Hidden Power Water thanks to Thick Fat and a Ground typing, and Terrakion just ruins its day with a strong STAB Stone Edge and can even use it as setup fodder. None of them can switch into a Lava Plume safely, however, without risking being burned. Heatran is another hard counter to Mollux, as it can wall any attack Mollux can throw out easily and 2HKO at worst with Earth Power. Gyarados can use sets which lack Electric-type attacks as complete setup fodder as well; sets with Substitute can even avoid lucky burns. Calm Mind Latias can also use Mollux as complete setup fodder, doesn't particularly mind being burned, and can Recover away any damage Mollux tries to inflict. Defensive and Substitute + Quiver Dance Volcarona can easily use Mollux as setup fodder and don't even have to worry about burns. Choice Scarf variants suffer from being slower then most +1 setup sweepers, who can kill Mollux with powerful Rock-, Psychic-, and Ground-type attacks. Blissey and Chansey both completely hard wall any set that lacks Toxic or Trick. Any Pokemon with access to a moderately-powerful Hidden Power Ground will also bring a swift end to Mollux's HP. Finally, any Dragon-type with Dragon Dance and Substitute can use Mollux as setup fodder, with Substitute allowing it to avoid burns.</p>

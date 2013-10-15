@@ -1,0 +1,31 @@
+[title]
+Krilowatt
+[head]
+<link rel="stylesheet" type="text/css" href="/media/dex/dex.css" />
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_template.js"></script>
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_database.js"></script>
+[header]
+[page]
+<script language="JavaScript">
+<!--
+var cap = Krilowatt();
+
+cap.heightFeet = 2;
+cap.heightInches = 4;
+cap.weightPounds = 23.4;
+cap.weightKilos = 10.6;
+cap.eggGroup1 = "Water 1";
+cap.eggGroup2 = "Fairy"
+
+cap.topicLeader = "Beej";
+cap.conceptCreator = "reachzero"
+cap.statSpreadCreator = "Deck Knight";
+cap.designArtist = "Aragornbird";
+cap.spriteArtist = "DougJustDoug";
+cap.nameCreator = "Gamer128";
+cap.movepoolCreator = "Jibaku";
+cap.playtestChampion = "reyscarface";
+
+document.write(composeDexPage(cap));
+//-->
+</script>

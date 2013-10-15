@@ -1,0 +1,981 @@
+[title]
+DP Battle Tower Pokémon
+[head]
+<meta name="description" content="" />
+[page]
+<div class="author">By <a href="/forums/member.php?u=12">Jumpman16</a>.</div>
+<p>This table shows the 950 regenerated Pokemon you're likely to encounter throughout your Battle Tower challenge. These Pokemon are sorted into four distinct "tiers", only appearing at certain points throughout your challenge. The only tiers that will overlap are tiers 3 and 4, starting from battle 50 (49 is the Tower Tycoon).</p>
+
+<ul>
+<li>Pokemon 1 - 150 appear from battles 1 to 13.</li>
+<li>Pokemon 151 - 350 appear from battles 14 - 20.</li>
+<li>Pokemon 351 - 895 appear from battle 21 onwards.</li>
+<li>Pokemon 895 - 950 appear from battle 49 onwards.</li>
+</ul>
+
+<table class="sortable">
+<thead>
+<tr>
+<th></th>
+<th>Pokémon</th>
+<th>Item</th>
+<th>Move 1</th>
+<th>Move 2</th>
+<th>Move 3</th>
+<th>Move 4</th>
+<th>EVs</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>Bulbasaur</td><td>Brightpowder</td><td>Razor Leaf</td><td>Take Down</td><td>Sleep Powder</td><td>Sweet Scent</td><td>HP/Atk</td></tr>
+<tr class="a"><td>2</td><td>Charmander</td><td>Scope Lens</td><td>Fire Fang</td><td>Metal Claw</td><td>SmokeScreen</td><td>Scary Face</td><td>HP/Atk</td></tr>
+<tr><td>3</td><td>Squirtle</td><td>Focus Band</td><td>Aqua Jet</td><td>Bite</td><td>Withdraw</td><td>Protect</td><td>HP/Atk</td></tr>
+<tr class="a"><td>4</td><td>Chikorita</td><td>Brightpowder</td><td>Secret Power</td><td>Bullet Seed</td><td>Growl</td><td>Light Screen</td><td>HP/Atk</td></tr>
+<tr><td>5</td><td>Cyndaquil</td><td>Focus Sash</td><td>Flame Wheel</td><td>Swift</td><td>Quick Attack</td><td>SmokeScreen</td><td>HP/SpA</td></tr>
+<tr class="a"><td>6</td><td>Totodile</td><td>Scope Lens</td><td>Slash</td><td>Water Pulse</td><td>Screech</td><td>Scary Face</td><td>HP/SpA</td></tr>
+<tr><td>7</td><td>Treecko</td><td>Big Root</td><td>Mega Drain</td><td>Aerial Ace</td><td>Flash</td><td>Double Team</td><td>HP/SpA</td></tr>
+<tr class="a"><td>8</td><td>Torchic</td><td>Shuca Berry</td><td>Fire Spin</td><td>Quick Attack</td><td>Sand Attack</td><td>Double Team</td><td>HP/SpA</td></tr>
+<tr><td>9</td><td>Mudkip</td><td>Rindo Berry</td><td>Whirlpool</td><td>Endeavor</td><td>Mud Sport</td><td>Mud-slap</td><td>HP/SpA</td></tr>
+<tr class="a"><td>10</td><td>Turtwig</td><td>Occa Berry</td><td>Grass Knot</td><td>Bite</td><td>Curse</td><td>Withdraw</td><td>HP/Atk</td></tr>
+<tr><td>11</td><td>Chimchar</td><td>Passho Berry</td><td>Ember</td><td>Fury Swipes</td><td>Nasty Plot</td><td>Fake Out</td><td>Atk/SpA</td></tr>
+<tr class="a"><td>12</td><td>Piplup</td><td>Wacan Berry</td><td>BubbleBeam</td><td>Peck</td><td>Growl</td><td>Mist</td><td>HP/SpA</td></tr>
+<tr><td>13</td><td>Kricketot</td><td>Sticky Barb</td><td>Bide</td><td>Growl</td><td>-</td><td>-</td><td>HP/Def/SpD</td></tr>
+<tr class="a"><td>14</td><td>Happiny</td><td>Lucky Punch</td><td>Sweet Kiss</td><td>Pound</td><td>Refresh</td><td>Charm</td><td>HP/Def</td></tr>
+<tr><td>15</td><td>Burmy</td><td>Choice Scarf</td><td>Tackle</td><td>Protect</td><td>-</td><td>-</td><td>HP/Atk</td></tr>
+<tr class="a"><td>16</td><td>Shedinja</td><td>Lax Incense</td><td>Shadow Sneak</td><td>Confuse Ray</td><td>X-Scissor</td><td>Sand Attack</td><td>Atk/Spe</td></tr>
+<tr><td>17</td><td>Starly</td><td>Sharp Beak</td><td>Wing Attack</td><td>Quick Attack</td><td>Growl</td><td>Endeavor</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>18</td><td>Combee</td><td>Quick Claw</td><td>Sweet Scent</td><td>Gust</td><td>-</td><td>-</td><td>SpA/Spe</td></tr>
+<tr><td>19</td><td>Bidoof</td><td>Focus Band</td><td>Headbutt</td><td>Pluck</td><td>Growl</td><td>Yawn</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>20</td><td>Shinx</td><td>King's Rock</td><td>Spark</td><td>Bite</td><td>Roar</td><td>Leer</td><td>Atk/Spe</td></tr>
+<tr><td>21</td><td>Cherubi</td><td>Occa Berry</td><td>Magical Leaf</td><td>Leech Seed</td><td>Helping Hand</td><td>Take Down</td><td>SpA/Spe</td></tr>
+<tr class="a"><td>22</td><td>Budew</td><td>Big Root</td><td>Mega Drain</td><td>Stun Spore</td><td>Growth</td><td>Worry Seed</td><td>SpA/Spe</td></tr>
+<tr><td>23</td><td>Chingling</td><td>Grip Claw</td><td>Wrap</td><td>Confusion</td><td>Uproar</td><td>Growl</td><td>Atk/SpA</td></tr>
+<tr class="a"><td>24</td><td>Riolu</td><td>Expert Belt</td><td>Force Palm</td><td>Counter</td><td>Foresight</td><td>Screech</td><td>SpA/Spe</td></tr>
+<tr><td>25</td><td>Bonsly</td><td>Passho Berry</td><td>Fake Tears</td><td>Rock Throw</td><td>Copycat</td><td>Low Kick</td><td>HP/Atk</td></tr>
+<tr class="a"><td>26</td><td>Shuppet</td><td>Rawst Berry</td><td>Will-O-Wisp</td><td>Shadow Sneak</td><td>Grudge</td><td>Knock Off</td><td>HP/Atk</td></tr>
+<tr><td>27</td><td>Duskull</td><td>Spell Tag</td><td>Shadow Sneak</td><td>Will-O-Wisp</td><td>Disable</td><td>Confuse Ray</td><td>HP/Spe</td></tr>
+<tr class="a"><td>28</td><td>Vulpix</td><td>Focus Sash</td><td>Will-O-Wisp</td><td>Confuse Ray</td><td>Fire Spin</td><td>Quick Attack</td><td>HP/SpA</td></tr>
+<tr><td>29</td><td>Pikachu</td><td>Light Ball</td><td>ThunderPunch</td><td>Thunder Wave</td><td>Double Team</td><td>Quick Attack</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>30</td><td>Sandshrew</td><td>Soft Sand</td><td>Dig</td><td>Rock Tomb</td><td>Sandstorm</td><td>Sand Attack</td><td>HP/Atk</td></tr>
+<tr><td>31</td><td>Geodude</td><td>Focus Band</td><td>Magnitude</td><td>Rock Blast</td><td>Strength</td><td>Protect</td><td>HP/Atk</td></tr>
+<tr class="a"><td>32</td><td>Dratini</td><td>Persim Berry</td><td>Outrage</td><td>Thunder Wave</td><td>Supersonic</td><td>Water Pulse</td><td>HP/SpA</td></tr>
+<tr><td>33</td><td>Snubbull</td><td>Scope Lens</td><td>Bite</td><td>Charm</td><td>Swagger</td><td>Scary Face</td><td>HP/Atk</td></tr>
+<tr class="a"><td>34</td><td>Remoraid</td><td>Petaya Berry</td><td>BubbleBeam</td><td>Aurora Beam</td><td>Psybeam</td><td>Protect</td><td>SpA/Spe</td></tr>
+<tr><td>35</td><td>Larvitar</td><td>Persim Berry</td><td>Thrash</td><td>Rock Slide</td><td>Dig</td><td>Dragon Dance</td><td>HP/Atk</td></tr>
+<tr class="a"><td>36</td><td>Baltoy</td><td>TwistedSpoon</td><td>Psybeam</td><td>AncientPower</td><td>Light Screen</td><td>Mud-slap</td><td>Atk/SpA</td></tr>
+<tr><td>37</td><td>Snorunt</td><td>King's Rock</td><td>Icy Wind</td><td>Headbutt</td><td>Leer</td><td>Bite</td><td>HP/Atk</td></tr>
+<tr class="a"><td>38</td><td>Bagon</td><td>Liechi Berry</td><td>Dragonbreath</td><td>Headbutt</td><td>Brick Break</td><td>Scary Face</td><td>HP/Atk</td></tr>
+<tr><td>39</td><td>Bronzor</td><td>Sitrus Berry</td><td>Confusion</td><td>Hypnosis</td><td>Confuse Ray</td><td>Gyro Ball</td><td>Atk/SpA</td></tr>
+<tr class="a"><td>40</td><td>Gible</td><td>Soft Sand</td><td>Dragon Rage</td><td>Dig</td><td>Sand Tomb</td><td>Sand Attack</td><td>HP/Atk</td></tr>
+<tr><td>41</td><td>Croagunk</td><td>Black Sludge</td><td>Poison Jab</td><td>Mud-slap</td><td>Taunt</td><td>Swagger</td><td>HP/Atk</td></tr>
+<tr class="a"><td>42</td><td>Venonat</td><td>Sitrus Berry</td><td>Psybeam</td><td>Supersonic</td><td>Stun Spore</td><td>Skill Swap</td><td>HP/SpA</td></tr>
+<tr><td>43</td><td>Machop</td><td>Scope Lens</td><td>Seismic Toss</td><td>Revenge</td><td>Rock Tomb</td><td>Scary Face</td><td>HP/Atk</td></tr>
+<tr class="a"><td>44</td><td>Smoochum</td><td>Brightpowder</td><td>Sweet Kiss</td><td>Sing</td><td>Confusion</td><td>Fake Out</td><td>HP/SpA</td></tr>
+<tr><td>45</td><td>Carvahna</td><td>Shell Bell</td><td>Bite</td><td>Screech</td><td>Scary Face</td><td>Swagger</td><td>HP/SpA</td></tr>
+<tr class="a"><td>46</td><td>Numel</td><td>Lax Incense</td><td>Ember</td><td>Magnitude</td><td>Rock Tomb</td><td>Sandstorm</td><td>HP/Atk</td></tr>
+<tr><td>47</td><td>Corphish</td><td>Mystic Water</td><td>Crabhammer</td><td>Water Pulse</td><td>Vicegrip</td><td>Protect</td><td>HP/SpA</td></tr>
+<tr class="a"><td>48</td><td>Doduo</td><td>Liechi Berry</td><td>Fury Attack</td><td>Uproar</td><td>Quick Attack</td><td>Faint Attack</td><td>HP/Spe</td></tr>
+<tr><td>49</td><td>Swablu</td><td>Mental Herb</td><td>Take Down</td><td>Dream Eater</td><td>Sing</td><td>Attract</td><td>Atk/SpA</td></tr>
+<tr class="a"><td>50</td><td>Glameow</td><td>Quick Claw</td><td>Fake Out</td><td>Fury Swipes</td><td>Captivate</td><td>Attract</td><td>HP/Atk</td></tr>
+<tr><td>51</td><td>Mime Jr.</td><td>Lax Incense</td><td>Copycat</td><td>Confusion</td><td>Barrier</td><td>Light Screen</td><td>HP/Def</td></tr>
+<tr class="a"><td>52</td><td>Slowpoke</td><td>Sitrus Berry</td><td>Confusion</td><td>Disable</td><td>Water Pulse</td><td>Yawn</td><td>HP/SpA</td></tr>
+<tr><td>53</td><td>Oddish</td><td>Pecha Berry</td><td>Acid</td><td>Stun Spore</td><td>Sweet Scent</td><td>Moonlight</td><td>HP/Atk</td></tr>
+<tr class="a"><td>54</td><td>Psyduck</td><td>Persim Berry</td><td>Confusion</td><td>Fury Swipes</td><td>Aerial Ace</td><td>Disable</td><td>Atk/SpA</td></tr>
+<tr><td>55</td><td>Cubone</td><td>Soft Sand</td><td>Bone Club</td><td>Headbutt</td><td>Brick Break</td><td>Aerial Ace</td><td>HP/Atk</td></tr>
+<tr class="a"><td>56</td><td>Goldeen</td><td>Petaya Berry</td><td>Waterfall</td><td>Fury Attack</td><td>Agility</td><td>Psybeam</td><td>HP/SpA</td></tr>
+<tr><td>57</td><td>Natu</td><td>TwistedSpoon</td><td>Night Shade</td><td>Future Sight</td><td>Ominous Wind</td><td>Flash</td><td>HP/SpA</td></tr>
+<tr class="a"><td>58</td><td>Clefairy</td><td>Lax Incense</td><td>Follow Me</td><td>Return</td><td>Encore</td><td>Sing</td><td>HP/Atk</td></tr>
+<tr><td>59</td><td>Magnemite</td><td>Rawst Berry</td><td>Shock Wave</td><td>Supersonic</td><td>Metal Sound</td><td>Reflect</td><td>SpA/Spe</td></tr>
+<tr class="a"><td>60</td><td>Seel</td><td>Aspear</td><td>Aurora Beam</td><td>Dive</td><td>Encore</td><td>Fake Out</td><td>HP/SpA</td></tr>
+<tr><td>61</td><td>Grimer</td><td>Black Sludge</td><td>Sludge</td><td>Rock Tomb</td><td>Acid Armor</td><td>Minimize</td><td>HP/Def/SpD</td></tr>
+<tr class="a"><td>62</td><td>Krabby</td><td>Focus Sash</td><td>Crabhammer</td><td>Mud Shot</td><td>Flail</td><td>Knock Off</td><td>HP/Atk</td></tr>
+<tr><td>63</td><td>Exeggcute</td><td>Persim Berry</td><td>Confusion</td><td>AncientPower</td><td>Leech Seed</td><td>Light Screen</td><td>HP/SpA</td></tr>
+<tr class="a"><td>64</td><td>Eevee</td><td>Salac Berry</td><td>Charm</td><td>Attract</td><td>Flail</td><td>Endure</td><td>HP/Spe</td></tr>
+<tr><td>65</td><td>Shellos</td><td>Lax Incense</td><td>Water Pulse</td><td>Mud-slap</td><td>Harden</td><td>Rain Dance</td><td>HP/Def/SpD</td></tr>
+<tr class="a"><td>66</td><td>Drowzee</td><td>Sitrus Berry</td><td>Confusion</td><td>Headbutt</td><td>Disable</td><td>Barrier</td><td>HP/Atk</td></tr>
+<tr><td>67</td><td>Stunky</td><td>Poison Barb</td><td>Poison Gas</td><td>Fury Swipes</td><td>Screech</td><td>SmokeScreen</td><td></td></tr>
+<tr class="a"><td>68</td><td>Voltorb</td><td>Lax Incense</td><td>Spark</td><td>Screech</td><td>Rollout</td><td>Light Screen</td><td>HP/SpA</td></tr>
+<tr><td>69</td><td>Chinchou</td><td>Lax Incense</td><td>Spark</td><td>BubbleBeam</td><td>Confuse Ray</td><td>Take Down</td><td>Atk/SpA</td></tr>
+<tr class="a"><td>70</td><td>Teddiursa</td><td>Chesto Berry</td><td>Secret Power</td><td>Fake Tears</td><td>Faint Attack</td><td>Rest</td><td>HP/Atk</td></tr>
+<tr><td>71</td><td>Delibird</td><td>Nevermeltice</td><td>Present</td><td>Ice Ball</td><td>Aerial Ace</td><td>Hail</td><td>HP/SpA</td></tr>
+<tr class="a"><td>72</td><td>Houndour</td><td>Charcoal</td><td>Crunch</td><td>Ember</td><td>Roar</td><td>Protect</td><td>HP/SpA</td></tr>
+<tr><td>73</td><td>Phanpy</td><td>Lax Incense</td><td>Rollout</td><td>Defense Curl</td><td>Rock Tomb</td><td>Sandstorm</td><td>HP/Atk</td></tr>
+<tr class="a"><td>74</td><td>Aron</td><td>Metal Coat</td><td>Metal Claw</td><td>Aerial Ace</td><td>Metal Sound</td><td>Roar</td><td>HP/Atk</td></tr>
+<tr><td>75</td><td>Spoink</td><td>Sitrus Berry</td><td>Psywave</td><td>Bounce</td><td>Magic Coat</td><td>Confuse Ray</td><td>HP/SpA</td></tr>
+<tr class="a"><td>76</td><td>Luvdisc</td><td>Quick Claw</td><td>Sweet Kiss</td><td>Attract</td><td>Water Pulse</td><td>Rain Dance</td><td>HP/SpA</td></tr>
+<tr><td>77</td><td>Buizel</td><td>Wacan Berry</td><td>Aqua Jet</td><td>Quick Attack</td><td>Pursuit</td><td>Growl</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>78</td><td>Hippopotas</td><td>Passho Berry</td><td>Bite</td><td>Sand Attack</td><td>Sand Tomb</td><td>Yawn</td><td>HP/Atk</td></tr>
+<tr><td>79</td><td>Skorupi</td><td>Payapa Berry</td><td>Poison Sting</td><td>Bite</td><td>Scary Face</td><td>Toxic Spikes</td><td>HP/SpD</td></tr>
+<tr class="a"><td>80</td><td>Finneon</td><td>Wave Incense</td><td>Water Pulse</td><td>Silver Wind</td><td>Attract</td><td>Aqua Ring</td><td>SpA/Spe</td></tr>
+<tr><td>81</td><td>Snover</td><td>Icy Rock</td><td>Razor Leaf</td><td>Icy Wind</td><td>GrassWhistle</td><td>Hail</td><td>HP/Def</td></tr>
+<tr class="a"><td>82</td><td>Tentacool</td><td>Pecha Berry</td><td>BubbleBeam</td><td>Acid</td><td>Barrier</td><td>Wrap</td><td>HP/Atk</td></tr>
+<tr><td>83</td><td>Cacnea</td><td>Sitrus Berry</td><td>Needle Arm</td><td>Faint Attack</td><td>Cotton Spore</td><td>Sand Attack</td><td>HP/Atk</td></tr>
+<tr class="a"><td>84</td><td>Koffing</td><td>Poison Barb</td><td>Sludge</td><td>SmokeScreen</td><td>Torment</td><td>Haze</td><td>HP/Atk</td></tr>
+<tr><td>85</td><td>Staryu</td><td>Shell Bell</td><td>BubbleBeam</td><td>Minimize</td><td>Swift</td><td>Light Screen</td><td>HP/SpA</td></tr>
+<tr class="a"><td>86</td><td>Skiploom</td><td>Big Root</td><td>Mega Drain</td><td>Confusion</td><td>Cotton Spore</td><td>Synthesis</td><td>HP/SpA</td></tr>
+<tr><td>87</td><td>Lombre</td><td>Yache Berry</td><td>Water Pulse</td><td>Fake Out</td><td>Brick Break</td><td>Absorb</td><td>HP/Atk</td></tr>
+<tr class="a"><td>88</td><td>Nuzleaf</td><td>Sitrus Berry</td><td>Extrasensory</td><td>Fake Out</td><td>Razor Wind</td><td>Faint Attack</td><td>Atk/SpA</td></tr>
+<tr><td>89</td><td>Vibrava</td><td>Cheri Berry</td><td>Dragonbreath</td><td>Dig</td><td>Screech</td><td>Rock Tomb</td><td>HP/Atk</td></tr>
+<tr class="a"><td>90</td><td>Staravia</td><td>Charti Berry</td><td>Endeavor</td><td>Aerial Ace</td><td>Whirlwind</td><td>Quick Attack</td><td>Atk/Spe</td></tr>
+<tr><td>91</td><td>Rhyhorn</td><td>Focus Band</td><td>Rock Blast</td><td>Dig</td><td>Scary Face</td><td>Roar</td><td>HP/Atk/Def</td></tr>
+<tr class="a"><td>92</td><td>Clamperl</td><td>Deepseascale</td><td>Toxic</td><td>Protect</td><td>Iron Defense</td><td>Double Team</td><td>HP/Def/SpD</td></tr>
+<tr><td>93</td><td>Mantyke</td><td>Brightpowder</td><td>BubbleBeam</td><td>Agility</td><td>Aqua Ring</td><td>Confuse Ray</td><td>HP/Def</td></tr>
+<tr class="a"><td>94</td><td>Drifloon</td><td>Grip Claw</td><td>Ominous Wind</td><td>Constrict</td><td>Gust</td><td>Astonish</td><td>Def/SpD</td></tr>
+<tr><td>95</td><td>Pidgeotto</td><td>White Herb</td><td>Aerial Ace</td><td>Quick Attack</td><td>FeatherDance</td><td>Sand Attack</td><td>HP/Atk</td></tr>
+<tr class="a"><td>96</td><td>Growlithe</td><td>Shuca Berry</td><td>Flame Wheel</td><td>Bite</td><td>Roar</td><td>Agility</td><td>HP/Atk</td></tr>
+<tr><td>97</td><td>Cranidos</td><td>King's Rock</td><td>Headbutt</td><td>Pursuit</td><td>Scary Face</td><td>Leer</td><td>HP/Atk</td></tr>
+<tr class="a"><td>98</td><td>Shieldon</td><td>Focus Sash</td><td>Take Down</td><td>Protect</td><td>Iron Defense</td><td>Metal Sound</td><td>HP/SpD</td></tr>
+<tr><td>99</td><td>Buneary</td><td>Black Belt</td><td>Jump Kick</td><td>Quick Attack</td><td>Charm</td><td>Splash</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>100</td><td>Farfetch'd</td><td>Stick</td><td>Slash</td><td>Knock Off</td><td>Swords Dance</td><td>Agility</td><td>HP/Def/SpD</td></tr>
+<tr><td>101</td><td>Omanyte</td><td>Sitrus Berry</td><td>Mud Shot</td><td>Water Gun</td><td>AncientPower</td><td>Tickle</td><td>HP/SpA</td></tr>
+<tr class="a"><td>102</td><td>Kabuto</td><td>Sitrus Berry</td><td>Mega Drain</td><td>AncientPower</td><td>Sand Attack</td><td>Protect</td><td>Atk/SpA</td></tr>
+<tr><td>103</td><td>Lileep</td><td>Lax Incense</td><td>AncientPower</td><td>Acid</td><td>Ingrain</td><td>Confuse Ray</td><td>HP/Atk</td></tr>
+<tr class="a"><td>104</td><td>Anorith</td><td>Scope Lens</td><td>Metal Claw</td><td>Fury Cutter</td><td>AncientPower</td><td>Water Gun</td><td>HP/Atk</td></tr>
+<tr><td>105</td><td>Aipom</td><td>Silk Scarf</td><td>Fury Swipes</td><td>Sand Attack</td><td>Baton Pass</td><td>Agility</td><td>HP/Atk</td></tr>
+<tr class="a"><td>106</td><td>Elekid</td><td>Cheri Berry</td><td>ThunderPunch</td><td>Quick Attack</td><td>Swift</td><td>Light Screen</td><td>HP/Atk</td></tr>
+<tr><td>107</td><td>Loudred</td><td>Focus Band</td><td>Stomp</td><td>Howl</td><td>Astonish</td><td>Supersonic</td><td>HP/Atk</td></tr>
+<tr class="a"><td>108</td><td>Spinda</td><td>Silk Scarf</td><td>Dizzy Punch</td><td>Teeter Dance</td><td>Psybeam</td><td>Faint Attack</td><td>HP/Atk</td></tr>
+<tr><td>109</td><td>Luxio</td><td>Magnet</td><td>Spark</td><td>Bite</td><td>Roar</td><td>Swagger</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>110</td><td>Nidorina</td><td>Focus Band</td><td>Double Kick</td><td>Bite</td><td>Aerial Ace</td><td>Flatter</td><td>HP/Atk</td></tr>
+<tr><td>111</td><td>Nidorino</td><td>Focus Band</td><td>Double Kick</td><td>Water Pulse</td><td>Toxic Spikes</td><td>Flatter</td><td>HP/Atk</td></tr>
+<tr class="a"><td>112</td><td>Flaafy</td><td>Shuca Berry</td><td>Shock Wave</td><td>Thunder Wave</td><td>Cotton Spore</td><td>Light Screen</td><td>HP/SpA</td></tr>
+<tr><td>113</td><td>Magby</td><td>Lax Incense</td><td>Fire Punch</td><td>SmokeScreen</td><td>Confuse Ray</td><td>Smog</td><td>HP/Atk</td></tr>
+<tr class="a"><td>114</td><td>Nosepass</td><td>Hard Stone</td><td>Rock Slide</td><td>Shock Wave</td><td>Thunder Wave</td><td>Sandstorm</td><td>HP/SpD</td></tr>
+<tr><td>115</td><td>Corsola</td><td>Focus Sash</td><td>BubbleBeam</td><td>Mirror Coat</td><td>Attract</td><td>AncientPower</td><td>HP/Def/SpD</td></tr>
+<tr class="a"><td>116</td><td>Delcatty</td><td>Sitrus Berry</td><td>Secret Power</td><td>Faint Attack</td><td>Double Team</td><td>Heal Bell</td><td>HP/Atk</td></tr>
+<tr><td>117</td><td>Sableye</td><td>BlackGlasses</td><td>Faint Attack</td><td>Confuse Ray</td><td>Knock Off</td><td>Fake Out</td><td>HP/Atk</td></tr>
+<tr class="a"><td>118</td><td>Mawile</td><td>Brightpowder</td><td>Crunch</td><td>Fake Tears</td><td>Iron Defense</td><td>Baton Pass</td><td>HP/Atk</td></tr>
+<tr><td>119</td><td>Kricketune</td><td>Metronome</td><td>Fury Cutter</td><td>Leech Life</td><td>Sing</td><td>Growl</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>120</td><td>Butterfree</td><td>Pecha Berry</td><td>Silver Wind</td><td>Psybeam</td><td>Toxic</td><td>Whirlwind</td><td>HP/SpA</td></tr>
+<tr><td>121</td><td>Beedrill</td><td>Scope Lens</td><td>Twineedle</td><td>Pursuit</td><td>Endeavor</td><td>Agility</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>122</td><td>Poliwhirl</td><td>Petaya Berry</td><td>Water Pulse</td><td>DoubleSlap</td><td>Hypnosis</td><td>Rain Dance</td><td>HP/SpA</td></tr>
+<tr><td>123</td><td>Onix</td><td>Sitrus Berry</td><td>Rock Slide</td><td>Bind</td><td>Dragonbreath</td><td>Sandstorm</td><td>HP/Def/SpD</td></tr>
+<tr class="a"><td>124</td><td>Lickitung</td><td>Sitrus Berry</td><td>Slam</td><td>Brick Break</td><td>Lick</td><td>Screech</td><td>HP/Atk</td></tr>
+<tr><td>125</td><td>Beautifly</td><td>Mental Herb</td><td>Silver Wind</td><td>Mega Drain</td><td>Attract</td><td>Whirlwind</td><td>HP/Spe</td></tr>
+<tr class="a"><td>126</td><td>Dustox</td><td>SilverPowder</td><td>Silver Wind</td><td>Toxic</td><td>Psybeam</td><td>Whirlwind</td><td>HP/Spe</td></tr>
+<tr><td>127</td><td>Weepinbell</td><td>Scope Lens</td><td>Razor Leaf</td><td>Acid</td><td>Wrap</td><td>Sweet Scent</td><td>HP/SpA</td></tr>
+<tr class="a"><td>128</td><td>Graveler</td><td>Focus Band</td><td>Magnitude</td><td>Rock Throw</td><td>Defense Curl</td><td>Brick Break</td><td>HP/Atk/SpD</td></tr>
+<tr><td>129</td><td>Ledian</td><td>Focus Band</td><td>Comet Punch</td><td>Baton Pass</td><td>Swords Dance</td><td>Agility</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>130</td><td>Ariados</td><td>Occa Berry</td><td>Signal Beam</td><td>Spider Web</td><td>Night Shade</td><td>Toxic</td><td>HP/Atk</td></tr>
+<tr><td>131</td><td>Yanma</td><td>Lax Incense</td><td>Signal Beam</td><td>Aerial Ace</td><td>Double Team</td><td>Detect</td><td>Def/SpD</td></tr>
+<tr class="a"><td>132</td><td>Munchlax</td><td>Sitrus Berry</td><td>Metronome</td><td>Recycle</td><td>Stockpile</td><td>Swallow</td><td>Def/SpD</td></tr>
+<tr><td>133</td><td>Gloom</td><td>Persim Berry</td><td>Petal Dance</td><td>Acid</td><td>Stun Spore</td><td>Moonlight</td><td>HP/SpA</td></tr>
+<tr class="a"><td>134</td><td>Porygon</td><td>Sitrus Berry</td><td>Psybeam</td><td>Signal Beam</td><td>Recycle</td><td>Agility</td><td>HP/SpA</td></tr>
+<tr><td>135</td><td>Kadabra</td><td>TwistedSpoon</td><td>Confusion</td><td>Role Play</td><td>Future Sight</td><td>Disable</td><td>HP/Def</td></tr>
+<tr class="a"><td>136</td><td>Volbeat</td><td>Liechi Berry</td><td>Silver Wind</td><td>Confuse Ray</td><td>Quick Attack</td><td>Helping Hand</td><td>Atk/Spe</td></tr>
+<tr><td>137</td><td>Illumise</td><td>Liechi Berry</td><td>Silver Wind</td><td>Wish</td><td>Quick Attack</td><td>Helping Hand</td><td>HP/Atk</td></tr>
+<tr class="a"><td>138</td><td>Roselia</td><td>Black Sludge</td><td>Magical Leaf</td><td>Toxic</td><td>GrassWhistle</td><td>Cotton Spore</td><td>HP/Def</td></tr>
+<tr><td>139</td><td>Wailmer</td><td>Mystic Water</td><td>Whirlpool</td><td>Roar</td><td>Defense Curl</td><td>Rollout</td><td>Def/SpD</td></tr>
+<tr class="a"><td>140</td><td>Parasect</td><td>Sticky Barb</td><td>Slash</td><td>Psybeam</td><td>Stun Spore</td><td>Flash</td><td>Def/SpD</td></tr>
+<tr><td>141</td><td>Machoke</td><td>Focus Band</td><td>Low Kick</td><td>Rock Tomb</td><td>Foresight</td><td>Scary Face</td><td>HP/Atk</td></tr>
+<tr class="a"><td>142</td><td>Haunter</td><td>Persim Berry</td><td>Shadow Punch</td><td>Confuse Ray</td><td>Spite</td><td>Grudge</td><td>HP/Atk</td></tr>
+<tr><td>143</td><td>Togetic</td><td>Lax Incense</td><td>Aerial Ace</td><td>Magical Leaf</td><td>Wish</td><td>Follow Me</td><td>HP/Def</td></tr>
+<tr class="a"><td>144</td><td>Murkrow</td><td>Wacan Berry</td><td>Faint Attack</td><td>Fly</td><td>Torment</td><td>Taunt</td><td>HP/Def/SpD</td></tr>
+<tr><td>145</td><td>Wobbuffet</td><td>Focus Sash</td><td>Counter</td><td>Mirror Coat</td><td>Charm</td><td>Safeguard</td><td>HP/Def/SpD</td></tr>
+<tr class="a"><td>146</td><td>Plusle</td><td>Petaya Berry</td><td>Spark</td><td>Fake Tears</td><td>Quick Attack</td><td>Helping Hand</td><td>HP/Def</td></tr>
+<tr><td>147</td><td>Minun</td><td>Salac Berry</td><td>Spark</td><td>Charm</td><td>Encore</td><td>Helping Hand</td><td>HP/Def</td></tr>
+<tr class="a"><td>148</td><td>Pachirisu</td><td>Shuca Berry</td><td>Discharge</td><td>Sweet Kiss</td><td>Quick Attack</td><td>Charm</td><td>SpA/Spe</td></tr>
+<tr><td>149</td><td>Ponyta</td><td>Passho Berry</td><td>Fire Spin</td><td>Bounce</td><td>Take Down</td><td>Tail Whip</td><td>HP/Atk</td></tr>
+<tr class="a"><td>150</td><td>Azumarill</td><td>Sitrus Berry</td><td>BubbleBeam</td><td>Facade</td><td>Dig</td><td>Protect</td><td>Def/SpD</td></tr>
+<tr><td>151</td><td>Ivysaur</td><td>Persim Berry</td><td>Petal Dance</td><td>Growth</td><td>Sweet Scent</td><td>Take Down</td><td>HP/SpA</td></tr>
+<tr class="a"><td>152</td><td>Charmeleon</td><td>Scope Lens</td><td>Slash</td><td>Fire Spin</td><td>Swords Dance</td><td>Aerial Ace</td><td>HP/Atk</td></tr>
+<tr><td>153</td><td>Wartortle</td><td>Focus Band</td><td>Aqua Tail</td><td>Bite</td><td>Rapid Spin</td><td>Yawn</td><td>HP/Atk</td></tr>
+<tr class="a"><td>154</td><td>Bayleef</td><td>Brightpowder</td><td>Razor Leaf</td><td>Toxic</td><td>Safeguard</td><td>Light Screen</td><td>HP/SpA</td></tr>
+<tr><td>155</td><td>Quilava</td><td>Focus Band</td><td>Flame Wheel</td><td>Fury Swipes</td><td>Swift</td><td>SmokeScreen</td><td>HP/Atk</td></tr>
+<tr class="a"><td>156</td><td>Croconaw</td><td>Scope Lens</td><td>Slash</td><td>Water Pulse</td><td>Bite</td><td>Scary Face</td><td>Atk/SpA</td></tr>
+<tr><td>157</td><td>Grovyle</td><td>Brightpowder</td><td>Fury Cutter</td><td>Endeavor</td><td>Brick Break</td><td>Double Team</td><td>HP/Atk</td></tr>
+<tr class="a"><td>158</td><td>Combusken</td><td>Scope Lens</td><td>Ember</td><td>Double Kick</td><td>Quick Attack</td><td>Sand Attack</td><td>Atk/SpA</td></tr>
+<tr><td>159</td><td>Marshtomp</td><td>Focus Band</td><td>Mud Shot</td><td>Water Gun</td><td>Rock Tomb</td><td>Mud-slap</td><td>Atk/SpA</td></tr>
+<tr class="a"><td>160</td><td>Grotle</td><td>Big Root</td><td>Mega Drain</td><td>Bite</td><td>Leech Seed</td><td>Synthesis</td><td></td></tr>
+<tr><td>161</td><td>Monferno</td><td>Coba Berry</td><td>Mach Punch</td><td>Feint</td><td>Torment</td><td>U-turn</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>162</td><td>Prinplup</td><td>Wacan Berry</td><td>Whirlpool</td><td>Metal Claw</td><td>Peck</td><td>Double Team</td><td>HP/Def/SpD</td></tr>
+<tr><td>163</td><td>Sudowoodo</td><td>Hard Stone</td><td>Rock Slide</td><td>Faint Attack</td><td>Sandstorm</td><td>Block</td><td>HP/SpD</td></tr>
+<tr class="a"><td>164</td><td>Magcargo</td><td>Lax Incense</td><td>Rock Slide</td><td>Ember</td><td>Acid Armor</td><td>Sandstorm</td><td>HP/SpD</td></tr>
+<tr><td>165</td><td>Pupitar</td><td>Soft Sand</td><td>Dig</td><td>Bite</td><td>Scary Face</td><td>Sandstorm</td><td>HP/Atk</td></tr>
+<tr class="a"><td>166</td><td>Sealeo</td><td>Icy Rock</td><td>Ice Ball</td><td>Hail</td><td>Snore</td><td>Rest</td><td>HP/Def/SpD</td></tr>
+<tr><td>167</td><td>Bibarel</td><td>Powerful Herb</td><td>Take Down</td><td>Dig</td><td>Water Pulse</td><td>Yawn</td><td>Atk/SpA</td></tr>
+<tr class="a"><td>168</td><td>Gabite</td><td>Yache Berry</td><td>Dragon Rage</td><td>Take Down</td><td>Sand Attack</td><td>Roar</td><td>Atk/SpA</td></tr>
+<tr><td>169</td><td>Chatot</td><td>Yache Berry</td><td>Chatter</td><td>Torment</td><td>Sing</td><td>U-turn</td><td>SpA/Spe</td></tr>
+<tr class="a"><td>170</td><td>Raticate</td><td>Silk Scarf</td><td>Endeavor</td><td>Pursuit</td><td>Scary Face</td><td>Quick Attack</td><td>HP/Atk/Spe</td></tr>
+<tr><td>171</td><td>Masquerain</td><td>Cheri Berry</td><td>Silver Wind</td><td>Aerial Ace</td><td>Ominous Wind</td><td>Stun Spore</td><td>Atk/Def</td></tr>
+<tr class="a"><td>172</td><td>Furret</td><td>Liechi Berry</td><td>Slam</td><td>Protect</td><td>Helping Hand</td><td>Follow Me</td><td>Def/SpD</td></tr>
+<tr><td>173</td><td>Dunsparce</td><td>Lax Incense</td><td>Headbutt</td><td>Glare</td><td>Defense Curl</td><td>Rollout</td><td>HP/Atk</td></tr>
+<tr class="a"><td>174</td><td>Cherrim</td><td>Miracle Seed</td><td>Petal Dance</td><td>Worry Seed</td><td>Leech Seed</td><td>Sunny Day</td><td>Def/SpD</td></tr>
+<tr><td>175</td><td>Dragonair</td><td>Cheri Berry</td><td>Dragonbreath</td><td>Leer</td><td>Wrap</td><td>Safeguard</td><td>HP/SpD</td></tr>
+<tr class="a"><td>176</td><td>Mightyena</td><td>Mental Herb</td><td>Bite</td><td>Poison Fang</td><td>Taunt</td><td>Roar</td><td>Atk/SpA</td></tr>
+<tr><td>177</td><td>Linoone</td><td>White Herb</td><td>Secret Power</td><td>Sand Attack</td><td>Covet</td><td>Tickle</td><td>HP/Atk</td></tr>
+<tr class="a"><td>178</td><td>Castform</td><td>Persim Berry</td><td>Ember</td><td>Water Pulse</td><td>Shock Wave</td><td>Weather Ball</td><td>HP/SpA</td></tr>
+<tr><td>179</td><td>Shelgon</td><td>Cheri Berry</td><td>Headbutt</td><td>Dragonbreath</td><td>Protect</td><td>Scary Face</td><td>HP/Atk/SpD</td></tr>
+<tr class="a"><td>180</td><td>Metang</td><td>Focus Band</td><td>Metal Claw</td><td>Confusion</td><td>Pursuit</td><td>Scary Face</td><td>Atk/SpD</td></tr>
+<tr><td>181</td><td>Wormadam</td><td>Coba Berry</td><td>Razor Leaf</td><td>Psybeam</td><td>Protect</td><td>Captivate</td><td>Def/SpA</td></tr>
+<tr class="a"><td>182</td><td>Mothim</td><td>Coba Berry</td><td>Psybeam</td><td>Gust</td><td>PoisonPowder</td><td>Camouflage</td><td>SpA/Spe</td></tr>
+<tr><td>183</td><td>Wigglytuff</td><td>Silk Scarf</td><td>Sing</td><td>Disable</td><td>Wish</td><td>Secret Power</td><td>Def/SpD</td></tr>
+<tr class="a"><td>184</td><td>Sunflora</td><td>Persim Berry</td><td>Petal Dance</td><td>Ingrain</td><td>Leech Seed</td><td>Light Screen</td><td>HP/Def</td></tr>
+<tr><td>185</td><td>Chimecho</td><td>TwistedSpoon</td><td>Psywave</td><td>Take Down</td><td>Heal Bell</td><td>Safeguard</td><td>HP/SpA</td></tr>
+<tr class="a"><td>186</td><td>Gligar</td><td>Scope Lens</td><td>Metal Claw</td><td>Dig</td><td>Aerial Ace</td><td>Quick Attack</td><td>HP/SpD</td></tr>
+<tr><td>187</td><td>Qwilfish</td><td>Cheri Berry</td><td>BubbleBeam</td><td>Pin Missile</td><td>Spikes</td><td>Minimize</td><td>SpA/SpD</td></tr>
+<tr class="a"><td>188</td><td>Sneasel</td><td>Persim Berry</td><td>Faint Attack</td><td>Fake Out</td><td>Icy Wind</td><td>Quick Attack</td><td>HP/Def/SpD</td></tr>
+<tr><td>189</td><td>Swellow</td><td>King's Rock</td><td>Fly</td><td>Endeavor</td><td>Facade</td><td>Quick Attack</td><td>HP/SpD</td></tr>
+<tr class="a"><td>190</td><td>Pelipper</td><td>Sitrus Berry</td><td>Water Pulse</td><td>Aerial Ace</td><td>Stockpile</td><td>Swallow</td><td>HP/SpD</td></tr>
+<tr><td>191</td><td>Lairon</td><td>Metal Coat</td><td>Metal Claw</td><td>Rock Tomb</td><td>Iron Defense</td><td>Protect</td><td>HP/SpD</td></tr>
+<tr class="a"><td>192</td><td>Tangela</td><td>Lax Incense</td><td>Mega Drain</td><td>Slam</td><td>Toxic</td><td>Bind</td><td>HP/SpD</td></tr>
+<tr><td>193</td><td>Misdreavus</td><td>Focus Band</td><td>Pain Split</td><td>Shadow Ball</td><td>Confuse Ray</td><td>Thunder Wave</td><td>HP/Def</td></tr>
+<tr class="a"><td>194</td><td>Arbok</td><td>Persim Berry</td><td>Poison Fang</td><td>Dig</td><td>Bite</td><td>Glare</td><td>HP/Atk</td></tr>
+<tr><td>195</td><td>Persian</td><td>Silk Scarf</td><td>Fake Out</td><td>Slash</td><td>Torment</td><td>Swagger</td><td>HP/Def/SpD</td></tr>
+<tr class="a"><td>196</td><td>Seadra</td><td>Mystic Water</td><td>Aurora Beam</td><td>SmokeScreen</td><td>Water Gun</td><td>Rain Dance</td><td>HP/SpA</td></tr>
+<tr><td>197</td><td>Vigoroth</td><td>Focus Band</td><td>Slash</td><td>Counter</td><td>Encore</td><td>Uproar</td><td>HP/Atk</td></tr>
+<tr class="a"><td>198</td><td>Lunatone</td><td>Sitrus Berry</td><td>Confusion</td><td>Cosmic Power</td><td>Light Screen</td><td>Sandstorm</td><td>HP/Def</td></tr>
+<tr><td>199</td><td>Solrock</td><td>Sitrus Berry</td><td>Confusion</td><td>Fire Spin</td><td>Light Screen</td><td>Sandstorm</td><td>HP/SpD</td></tr>
+<tr class="a"><td>200</td><td>Kecleon</td><td>Focus Band</td><td>Secret Power</td><td>Psybeam</td><td>Magic Coat</td><td>Shadow Sneak</td><td>HP/Atk/Def</td></tr>
+<tr><td>201</td><td>Rotom</td><td>Cheri Berry</td><td>ThunderShock</td><td>Astonish</td><td>Thunder Wave</td><td>Confuse Ray</td><td>SpA/Spe</td></tr>
+<tr class="a"><td>202</td><td>Fearow</td><td>Sharp Beak</td><td>Drill Peck</td><td>Tri Attack</td><td>Facade</td><td>Roost</td><td>Atk/Spe</td></tr>
+<tr><td>203</td><td>Noctowl</td><td>Persim Berry</td><td>Confusion</td><td>Aerial Ace</td><td>Faint Attack</td><td>Reflect</td><td>HP/Def</td></tr>
+<tr class="a"><td>204</td><td>Sandslash</td><td>Sitrus Berry</td><td>Crush Claw</td><td>Rock Slide</td><td>Swift</td><td>Sandstorm</td><td>HP/SpD</td></tr>
+<tr><td>205</td><td>Venomoth</td><td>Persim Berry</td><td>Silver Wind</td><td>Psybeam</td><td>Sleep Powder</td><td>Skill Swap</td><td>HP/Spe</td></tr>
+<tr class="a"><td>206</td><td>Chansey</td><td>Sitrus Berry</td><td>Metronome</td><td>Refresh</td><td>Defense Curl</td><td>Minimize</td><td>Def/SpD</td></tr>
+<tr><td>207</td><td>Seaking</td><td>Sitrus Berry</td><td>Water Pulse</td><td>Psybeam</td><td>Poison Jab</td><td>Agility</td><td>HP/SpD</td></tr>
+<tr class="a"><td>208</td><td>Jumpluff</td><td>Lax Incense</td><td>Aerial Ace</td><td>Swagger</td><td>Psych Up</td><td>Synthesis</td><td>HP/Spe</td></tr>
+<tr><td>209</td><td>Piloswine</td><td>Soft Sand</td><td>Ice Fang</td><td>AncientPower</td><td>Hail</td><td>Light Screen</td><td>HP/Atk</td></tr>
+<tr class="a"><td>210</td><td>Purugly</td><td>Silk Scarf</td><td>Slash</td><td>Faint Attack</td><td>Attract</td><td>Fake Out</td><td>Atk/Spe</td></tr>
+<tr><td>211</td><td>Carnivine</td><td>Rose Incense</td><td>Vine Whip</td><td>Bite</td><td>Sweet Scent</td><td>Ingrain</td><td>HP/Def/SpD</td></tr>
+<tr class="a"><td>212</td><td>Golbat</td><td>Scope Lens</td><td>Air Cutter</td><td>Confuse Ray</td><td>Toxic</td><td>Steel Wing</td><td>HP/Atk</td></tr>
+<tr><td>213</td><td>Primeape</td><td>Scope Lens</td><td>Karate Chop</td><td>Counter</td><td>Swagger</td><td>Screech</td><td>HP/Def/SpD</td></tr>
+<tr class="a"><td>214</td><td>Hitmonlee</td><td>Black Belt</td><td>Rolling Kick</td><td>Brick Break</td><td>Focus Energy</td><td>Facade</td><td>HP/Def</td></tr>
+<tr><td>215</td><td>Hitmonchan</td><td>King's Rock</td><td>Mach Punch</td><td>Sky Uppercut</td><td>Detect</td><td>Counter</td><td>HP/Def</td></tr>
+<tr class="a"><td>216</td><td>Girafarig</td><td>Petaya Berry</td><td>Psybeam</td><td>Stomp</td><td>Wish</td><td>Skill Swap</td><td>HP/SpA</td></tr>
+<tr><td>217</td><td>Hitmontop</td><td>Liechi Berry</td><td>Triple Kick</td><td>Dig</td><td>Mach Punch</td><td>Quick Attack</td><td>HP/Atk</td></tr>
+<tr class="a"><td>218</td><td>Banette</td><td>Rawst Berry</td><td>Night Shade</td><td>Will-O-Wisp</td><td>Spite</td><td>Knock Off</td><td>HP/Def/SpD</td></tr>
+<tr><td>219</td><td>Dusclops</td><td>Leftovers</td><td>Will-O-Wisp</td><td>Shadow Sneak</td><td>Pain Split</td><td>Confuse Ray</td><td>HP/Def/SpD</td></tr>
+<tr class="a"><td>220</td><td>Ninjask</td><td>Petaya Berry</td><td>Baton Pass</td><td>Swords Dance</td><td>Endure</td><td>Dig</td><td>HP/Def/SpD</td></tr>
+<tr><td>221</td><td>Zangoose</td><td>Persim Berry</td><td>Slash</td><td>Double Kick</td><td>Roar</td><td>Quick Attack</td><td>HP/Atk</td></tr>
+<tr class="a"><td>222</td><td>Seviper</td><td>Scope Lens</td><td>Poison Tail</td><td>Bite</td><td>Glare</td><td>Screech</td><td>HP/Atk</td></tr>
+<tr><td>223</td><td>Dodrio</td><td>Chesto Berry</td><td>Drill Peck</td><td>Tri Attack</td><td>Sleep Talk</td><td>Rest</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>224</td><td>Sharpedo</td><td>Scope Lens</td><td>Slash</td><td>Bite</td><td>Water Pulse</td><td>Scary Face</td><td>Atk/SpD</td></tr>
+<tr><td>225</td><td>Camerupt</td><td>Focus Band</td><td>Magnitude</td><td>Protect</td><td>Sandstorm</td><td>Rock Slide</td><td>HP/Atk</td></tr>
+<tr class="a"><td>226</td><td>Tropius</td><td>Sitrus Berry</td><td>Magical Leaf</td><td>Whirlwind</td><td>Aerial Ace</td><td>Steel Wing</td><td>HP/Atk</td></tr>
+<tr><td>227</td><td>Lumineon</td><td>Rindo Berry</td><td>Water Gun</td><td>Gust</td><td>Captivate</td><td>U-turn</td><td>SpA/Spe</td></tr>
+<tr class="a"><td>228</td><td>Magneton</td><td>Cheri Berry</td><td>Shock Wave</td><td>Sonicboom</td><td>Thunder Wave</td><td>Supersonic</td><td>SpA/Spe</td></tr>
+<tr><td>229</td><td>Mantine</td><td>Mystic Water</td><td>BubbleBeam</td><td>Aerial Ace</td><td>Rain Dance</td><td>Psybeam</td><td>HP/SpD</td></tr>
+<tr class="a"><td>230</td><td>Stantler</td><td>TwistedSpoon</td><td>Extrasensory</td><td>Confuse Ray</td><td>Stomp</td><td>Sand Attack</td><td>HP/SpA</td></tr>
+<tr><td>231</td><td>Swalot</td><td>Lax Incense</td><td>Stockpile</td><td>Swallow</td><td>Spit Up</td><td>Sludge</td><td>Def/SpD</td></tr>
+<tr class="a"><td>232</td><td>Crawdaunt</td><td>Persim Berry</td><td>BubbleBeam</td><td>Vicegrip</td><td>Knock Off</td><td>Protect</td><td>HP/Def/SpD</td></tr>
+<tr><td>233</td><td>Pidgeot</td><td>Sharp Beak</td><td>Aerial Ace</td><td>FeatherDance</td><td>Sand Attack</td><td>Faint Attack</td><td>HP/Atk</td></tr>
+<tr class="a"><td>234</td><td>Xatu</td><td>Sharp Beak</td><td>Drill Peck</td><td>Night Shade</td><td>Wish</td><td>Future Sight</td><td>HP/Atk/SpA</td></tr>
+<tr><td>235</td><td>Torkoal</td><td>Sitrus Berry</td><td>Ember</td><td>Fire Spin</td><td>SmokeScreen</td><td>Amnesia</td><td>HP/SpD</td></tr>
+<tr class="a"><td>236</td><td>Grumpig</td><td>Petaya Berry</td><td>Psybeam</td><td>Confuse Ray</td><td>Future Sight</td><td>Magic Coat</td><td>HP/SpA</td></tr>
+<tr><td>237</td><td>Clefable</td><td>Leftovers</td><td>Metronome</td><td>Double Team</td><td>Reflect</td><td>Follow Me</td><td>Def/SpD</td></tr>
+<tr class="a"><td>238</td><td>Kingler</td><td>Scope Lens</td><td>Crabhammer</td><td>Metal Claw</td><td>Mud Shot</td><td>Protect</td><td>HP/SpD</td></tr>
+<tr><td>239</td><td>Cacturne</td><td>Scope Lens</td><td>Needle Arm</td><td>Faint Attack</td><td>Acid</td><td>Revenge</td><td>HP/Spe</td></tr>
+<tr class="a"><td>240</td><td>Bellossom</td><td>Persim Berry</td><td>Petal Dance</td><td>Safeguard</td><td>Sunny Day</td><td>Synthesis</td><td>HP/SpA</td></tr>
+<tr><td>241</td><td>Octillery</td><td>Shell Bell</td><td>Octazooka</td><td>Aurora Beam</td><td>Psybeam</td><td>Rock Blast</td><td>Atk/SpA</td></tr>
+<tr class="a"><td>242</td><td>Huntail</td><td>Persim Berry</td><td>Whirlpool</td><td>Scary Face</td><td>Screech</td><td>Bite</td><td>HP/Atk</td></tr>
+<tr><td>243</td><td>Gorebyss</td><td>Persim Berry</td><td>Whirlpool</td><td>Amnesia</td><td>Captivate</td><td>Confusion</td><td>HP/SpA</td></tr>
+<tr class="a"><td>244</td><td>Relicanth</td><td>Liechi Berry</td><td>AncientPower</td><td>Water Pulse</td><td>Harden</td><td>Amnesia</td><td>HP/SpA/SpD</td></tr>
+<tr><td>245</td><td>Electabuzz</td><td>Cheri Berry</td><td>Thunderbolt</td><td>Thunder Wave</td><td>Brick Break</td><td>Light Screen</td><td>HP/Def/SpA</td></tr>
+<tr class="a"><td>246</td><td>Magmar</td><td>Rawst Berry</td><td>Flamethrower</td><td>SmokeScreen</td><td>Brick Break</td><td>Barrier</td><td>HP/Def/SpA</td></tr>
+<tr><td>247</td><td>Omastar</td><td>Shell Bell</td><td>BubbleBeam</td><td>Spike Cannon</td><td>Tickle</td><td>AncientPower</td><td>HP/SpA</td></tr>
+<tr class="a"><td>248</td><td>Kabutops</td><td>Scope Lens</td><td>Slash</td><td>Dig</td><td>Night Slash</td><td>Metal Sound</td><td>HP/Atk</td></tr>
+<tr><td>249</td><td>Scyther</td><td>Liechi Berry</td><td>Fury Cutter</td><td>Aerial Ace</td><td>Light Screen</td><td>Double Team</td><td>HP/Atk</td></tr>
+<tr class="a"><td>250</td><td>Cloyster</td><td>Nevermeltice</td><td>Aurora Beam</td><td>Spike Cannon</td><td>Supersonic</td><td>Protect</td><td>HP/SpD</td></tr>
+<tr><td>251</td><td>Ivysaur</td><td>Brightpowder</td><td>Giga Drain</td><td>Sludge Bomb</td><td>Sleep Powder</td><td>Leech Seed</td><td>HP/SpA</td></tr>
+<tr class="a"><td>252</td><td>Charmeleon</td><td>Scope Lens</td><td>Flamethrower</td><td>Slash</td><td>AncientPower</td><td>Dragon Rage</td><td>Atk/Spe</td></tr>
+<tr><td>253</td><td>Wartortle</td><td>Shell Bell</td><td>Surf</td><td>Ice Beam</td><td>Rapid Spin</td><td>Protect</td><td>HP/SpA</td></tr>
+<tr class="a"><td>254</td><td>Bayleef</td><td>Chesto Berry</td><td>Giga Drain</td><td>Body Slam</td><td>GrassWhistle</td><td>Rest</td><td>HP/Def/SpD</td></tr>
+<tr><td>255</td><td>Quilava</td><td>Brightpowder</td><td>Flamethrower</td><td>Crush Claw</td><td>Quick Attack</td><td>SmokeScreen</td><td>Atk/SpA</td></tr>
+<tr class="a"><td>256</td><td>Croconaw</td><td>Focus Band</td><td>Crunch</td><td>Aerial Ace</td><td>Rock Slide</td><td>Dig</td><td>HP/Atk</td></tr>
+<tr><td>257</td><td>Grovyle</td><td>Lum Berry</td><td>Giga Drain</td><td>Crush Claw</td><td>Screech</td><td>Rock Tomb</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>258</td><td>Combusken</td><td>Scope Lens</td><td>Flamethrower</td><td>Sky Uppercut</td><td>Slash</td><td>Sand Attack</td><td>Atk/SpA/Spe</td></tr>
+<tr><td>259</td><td>Marshtomp</td><td>Focus Band</td><td>Muddy Water</td><td>Earthquake</td><td>Mud-slap</td><td>Protect</td><td>Atk/SpA</td></tr>
+<tr class="a"><td>260</td><td>Grotle</td><td>Occa Berry</td><td>Giga Drain</td><td>Crunch</td><td>Flash</td><td>Synthesis</td><td>HP/SpA</td></tr>
+<tr><td>261</td><td>Monferno</td><td>Muscle Band</td><td>Close Combat</td><td>Fire Spin</td><td>Aerial Ace</td><td>Rock Slide</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>262</td><td>Prinplup</td><td>Quick Claw</td><td>Surf</td><td>Drill Peck</td><td>Metal Claw</td><td>Hail</td><td>Atk/SpA</td></tr>
+<tr><td>263</td><td>Sudowoodo</td><td>Focus Band</td><td>Double-Edge</td><td>Earthquake</td><td>Low Kick</td><td>Selfdestruct</td><td>HP/Atk</td></tr>
+<tr class="a"><td>264</td><td>Magcargo</td><td>Quick Claw</td><td>Overheat</td><td>Earthquake</td><td>Rock Slide</td><td>Body Slam</td><td>Atk/SpA</td></tr>
+<tr><td>265</td><td>Pupitar</td><td>Chople Berry</td><td>Earthquake</td><td>Rock Slide</td><td>Crunch</td><td>Scary Face</td><td>HP/Atk</td></tr>
+<tr class="a"><td>266</td><td>Sealeo</td><td>Sitrus Berry</td><td>Ice Beam</td><td>Surf</td><td>Body Slam</td><td>Hail</td><td>HP/SpA</td></tr>
+<tr><td>267</td><td>Bibarel</td><td>Shell Bell</td><td>Hyper Fang</td><td>Super Fang</td><td>Superpower</td><td>Yawn</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>268</td><td>Gabite</td><td>Muscle Band</td><td>Dragon Claw</td><td>Slash</td><td>Earthquake</td><td>Sand Tomb</td><td>Atk/Spe</td></tr>
+<tr><td>269</td><td>Chatot</td><td>Silk Scarf</td><td>Chatter</td><td>Hyper Voice</td><td>Sing</td><td>FeatherDance</td><td>SpA/Spe</td></tr>
+<tr class="a"><td>270</td><td>Raticate</td><td>Focus Band</td><td>Super Fang</td><td>Hyper Fang</td><td>Shadow Ball</td><td>Scary Face</td><td>Atk/SpA/Spe</td></tr>
+<tr><td>271</td><td>Masquerain</td><td>Lax Incense</td><td>Hydro Pump</td><td>Ice Beam</td><td>Energy Ball</td><td>Stun Spore</td><td>SpA/Spe</td></tr>
+<tr class="a"><td>272</td><td>Furret</td><td>Choice Band</td><td>Trick</td><td>Frustration</td><td>Shadow Ball</td><td>Follow Me</td><td>Atk/Spe</td></tr>
+<tr><td>273</td><td>Dunsparce</td><td>Quick Claw</td><td>Ice Beam</td><td>Rock Tomb</td><td>Bite</td><td>Shadow Ball</td><td>Def/SpD</td></tr>
+<tr class="a"><td>274</td><td>Cherrim</td><td>Powerful Herb</td><td>Solar Beam</td><td>Sunny Day</td><td>Helping Hand</td><td>Lucky Chant</td><td>HP/SpA</td></tr>
+<tr><td>275</td><td>Dragonair</td><td>Chesto Berry</td><td>Return</td><td>Rest</td><td>Thunder Wave</td><td>Dragon Dance</td><td>HP/SpD</td></tr>
+<tr class="a"><td>276</td><td>Mightyena</td><td>Chople Berry</td><td>Crunch</td><td>Shadow Ball</td><td>Sucker Punch</td><td>Assurance</td><td>Def/SpA</td></tr>
+<tr><td>277</td><td>Linoone</td><td>Choice Band</td><td>Trick</td><td>Frustration</td><td>Thunder Wave</td><td>Sand Attack</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>278</td><td>Castform</td><td>Wise Glasses</td><td>Thunderbolt</td><td>Flamethrower</td><td>Ice Beam</td><td>Water Pulse</td><td>HP/SpA</td></tr>
+<tr><td>279</td><td>Shelgon</td><td>Focus Band</td><td>Frustration</td><td>Dragon Dance</td><td>Crunch</td><td>Scary Face</td><td>HP/Def/SpD</td></tr>
+<tr class="a"><td>280</td><td>Metang</td><td>Shuca Berry</td><td>Meteor Mash</td><td>Psychic</td><td>Bullet Punch</td><td>Scary Face</td><td>HP/SpA</td></tr>
+<tr><td>281</td><td>Wormadam</td><td>Coba Berry</td><td>Giga Drain</td><td>Psychic</td><td>Attract</td><td>Captivate</td><td>Def/SpA</td></tr>
+<tr class="a"><td>282</td><td>Mothim</td><td>Coba Berry</td><td>Bug Buzz</td><td>Psychic</td><td>Air Slash</td><td>PoisonPowder</td><td>Atk/SpA/Spe</td></tr>
+<tr><td>283</td><td>Wigglytuff</td><td>Sitrus Berry</td><td>Fake Tears</td><td>Sing</td><td>Dream Eater</td><td>Brick Break</td><td>Def/SpD</td></tr>
+<tr class="a"><td>284</td><td>Sunflora</td><td>Leftovers</td><td>Giga Drain</td><td>GrassWhistle</td><td>Growth</td><td>Double Team</td><td>HP/Def</td></tr>
+<tr><td>285</td><td>Chimecho</td><td>TwistedSpoon</td><td>Psychic</td><td>Hypnosis</td><td>Dream Eater</td><td>Heal Bell</td><td>HP/Def/SpD</td></tr>
+<tr class="a"><td>286</td><td>Gligar</td><td>Quick Claw</td><td>Earthquake</td><td>Aerial Ace</td><td>Guillotine</td><td>Screech</td><td>HP/SpD</td></tr>
+<tr><td>287</td><td>Qwilfish</td><td>Focus Band</td><td>Revenge</td><td>Sludge Bomb</td><td>Shadow Ball</td><td>Destiny Bond</td><td>HP/SpD</td></tr>
+<tr class="a"><td>288</td><td>Sneasel</td><td>King's Rock</td><td>Crush Claw</td><td>Brick Break</td><td>Aerial Ace</td><td>Screech</td><td>HP/Def/Spe</td></tr>
+<tr><td>289</td><td>Swellow</td><td>King's Rock</td><td>Facade</td><td>Aerial Ace</td><td>Pursuit</td><td>Double Team</td><td>HP/SpD</td></tr>
+<tr class="a"><td>290</td><td>Pelipper</td><td>Shell Bell</td><td>Surf</td><td>Blizzard</td><td>Aerial Ace</td><td>Protect</td><td>HP/SpD</td></tr>
+<tr><td>291</td><td>Lairon</td><td>Sitrus Berry</td><td>Earthquake</td><td>Iron Tail</td><td>Roar</td><td>Protect</td><td>HP/SpD</td></tr>
+<tr class="a"><td>292</td><td>Tangela</td><td>Chesto Berry</td><td>Giga Drain</td><td>Stun Spore</td><td>Rest</td><td>Amnesia</td><td>HP/SpD</td></tr>
+<tr><td>293</td><td>Misdreavus</td><td>Leftovers</td><td>Psychic</td><td>Attract</td><td>Thunder Wave</td><td>Confuse Ray</td><td>Def/SpA</td></tr>
+<tr class="a"><td>294</td><td>Arbok</td><td>Lum Berry</td><td>Sludge Bomb</td><td>Earthquake</td><td>Iron Tail</td><td>Glare</td><td>HP/Def</td></tr>
+<tr><td>295</td><td>Persian</td><td>Silk Scarf</td><td>Frustration</td><td>Shadow Ball</td><td>Roar</td><td>Fake Out</td><td>HP/Def/SpD</td></tr>
+<tr class="a"><td>296</td><td>Seadra</td><td>Shell Bell</td><td>Hydro Pump</td><td>Frustration</td><td>Dragonbreath</td><td>Dragon Dance</td><td>HP/SpD</td></tr>
+<tr><td>297</td><td>Vigoroth</td><td>Salac Berry</td><td>Crush Claw</td><td>Reversal</td><td>Endure</td><td>Shadow Ball</td><td>Atk/SpD</td></tr>
+<tr class="a"><td>298</td><td>Lunatone</td><td>Lax Incense</td><td>Psychic</td><td>Ice Beam</td><td>Cosmic Power</td><td>Calm Mind</td><td>HP/Def</td></tr>
+<tr><td>299</td><td>Solrock</td><td>White Herb</td><td>Earthquake</td><td>Rock Slide</td><td>Cosmic Power</td><td>Overheat</td><td>HP/SpD</td></tr>
+<tr class="a"><td>300</td><td>Kecleon</td><td>Choice Band</td><td>Trick</td><td>Brick Break</td><td>Shadow Ball</td><td>Skill Swap</td><td>HP/Def</td></tr>
+<tr><td>301</td><td>Rotom</td><td>Magnet</td><td>Discharge</td><td>Ominous Wind</td><td>Thunder Wave</td><td>Double Team</td><td>SpA/Spe</td></tr>
+<tr class="a"><td>302</td><td>Fearow</td><td>Focus Band</td><td>Drill Peck</td><td>Tri Attack</td><td>Attract</td><td>Pursuit</td><td>Atk/Spe</td></tr>
+<tr><td>303</td><td>Noctowl</td><td>Persim Berry</td><td>Psychic</td><td>Faint Attack</td><td>Aerial Ace</td><td>Reflect</td><td>Def/SpA</td></tr>
+<tr class="a"><td>304</td><td>Sandslash</td><td>Quick Claw</td><td>Earthquake</td><td>Rock Slide</td><td>Crush Claw</td><td>Sandstorm</td><td>HP/SpD</td></tr>
+<tr><td>305</td><td>Venomoth</td><td>Lum Berry</td><td>Signal Beam</td><td>Psychic</td><td>Sludge Bomb</td><td>Giga Drain</td><td>HP/Spe</td></tr>
+<tr class="a"><td>306</td><td>Chansey</td><td>Lucky Punch</td><td>Sing</td><td>Egg Bomb</td><td>Softboiled</td><td>Focus Punch</td><td>HP/Def</td></tr>
+<tr><td>307</td><td>Seaking</td><td>Quick Claw</td><td>Megahorn</td><td>Poison Jab</td><td>Horn Drill</td><td>Aqua Ring</td><td>HP/Atk</td></tr>
+<tr class="a"><td>308</td><td>Jumpluff</td><td>Big Root</td><td>Giga Drain</td><td>Sleep Powder</td><td>Synthesis</td><td>U-turn</td><td>HP/SpA</td></tr>
+<tr><td>309</td><td>Piloswine</td><td>Muscle Band</td><td>Ice Fang</td><td>Earthquake</td><td>AncientPower</td><td>Stone Edge</td><td>HP/Atk</td></tr>
+<tr class="a"><td>310</td><td>Purugly</td><td>BlackGlasses</td><td>Payback</td><td>Shadow Claw</td><td>Attract</td><td>Fake Out</td><td>HP/Atk</td></tr>
+<tr><td>311</td><td>Carnivine</td><td>Occa Berry</td><td>Power Whip</td><td>Wring Out</td><td>Crunch</td><td>Flash</td><td>HP/Def/SpD</td></tr>
+<tr class="a"><td>312</td><td>Golbat</td><td>Black Sludge</td><td>Poison Fang</td><td>Air Slash</td><td>Confuse Ray</td><td>Roost</td><td>Atk/Spe</td></tr>
+<tr><td>313</td><td>Primeape</td><td>Expert Belt</td><td>Cross Chop</td><td>Earthquake</td><td>Stone Edge</td><td>Aerial Ace</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>314</td><td>Hitmonlee</td><td>Focus Sash</td><td>Close Combat</td><td>Blaze Kick</td><td>Earthquake</td><td>Stone Edge</td><td>Atk/Spe</td></tr>
+<tr><td>315</td><td>Hitmonchan</td><td>King's Rock</td><td>Close Combat</td><td>Mach Punch</td><td>Detect</td><td>Counter</td><td>HP/Def</td></tr>
+<tr class="a"><td>316</td><td>Girafarig</td><td>Lum Berry</td><td>Psychic</td><td>Crunch</td><td>Baton Pass</td><td>Agility</td><td>Def/SpD</td></tr>
+<tr><td>317</td><td>Hitmontop</td><td>Focus Band</td><td>Gyro Ball</td><td>Rolling Kick</td><td>Rock Slide</td><td>Counter</td><td>HP/Def</td></tr>
+<tr class="a"><td>318</td><td>Banette</td><td>Lax Incense</td><td>Shadow Ball</td><td>Frustration</td><td>Screech</td><td>Will-O-Wisp</td><td>Def/SpD</td></tr>
+<tr><td>319</td><td>Dusclops</td><td>Leftovers</td><td>Toxic</td><td>Confuse Ray</td><td>Double Team</td><td>Protect</td><td>HP/Def/SpD</td></tr>
+<tr class="a"><td>320</td><td>Ninjask</td><td>Focus Band</td><td>Slash</td><td>Shadow Ball</td><td>Swords Dance</td><td>Baton Pass</td><td>HP/Def/SpD</td></tr>
+<tr><td>321</td><td>Zangoose</td><td>Scope Lens</td><td>Crush Claw</td><td>Shadow Ball</td><td>Brick Break</td><td>Aerial Ace</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>322</td><td>Seviper</td><td>Quick Claw</td><td>Sludge Bomb</td><td>Earthquake</td><td>Crunch</td><td>Giga Drain</td><td>HP/Def/SpD</td></tr>
+<tr><td>323</td><td>Dodrio</td><td>King's Rock</td><td>Drill Peck</td><td>Tri Attack</td><td>Faint Attack</td><td>Protect</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>324</td><td>Sharpedo</td><td>Scope Lens</td><td>Double-Edge</td><td>Crunch</td><td>Earthquake</td><td>Surf</td><td>Atk/SpA/Spe</td></tr>
+<tr><td>325</td><td>Camerupt</td><td>Lax Incense</td><td>Earthquake</td><td>Eruption</td><td>Body Slam</td><td>Growl</td><td>Atk/SpA</td></tr>
+<tr class="a"><td>326</td><td>Tropius</td><td>Focus Band</td><td>Solar Beam</td><td>Sunny Day</td><td>Synthesis</td><td>Body Slam</td><td>Atk/SpA</td></tr>
+<tr><td>327</td><td>Lumineon</td><td>Shell Bell</td><td>Surf</td><td>Silver Wind</td><td>Attract</td><td>Aqua Ring</td><td>SpA/Spe</td></tr>
+<tr class="a"><td>328</td><td>Magneton</td><td>Lum Berry</td><td>Thunder</td><td>Rain Dance</td><td>Thunder Wave</td><td>Metal Sound</td><td>HP/SpD</td></tr>
+<tr><td>329</td><td>Mantine</td><td>Shell Bell</td><td>Surf</td><td>Ice Beam</td><td>Rain Dance</td><td>Confuse Ray</td><td>HP/Def</td></tr>
+<tr class="a"><td>330</td><td>Stantler</td><td>Lax Incense</td><td>Frustration</td><td>Shadow Ball</td><td>Thunder Wave</td><td>Confuse Ray</td><td>Atk/Spe</td></tr>
+<tr><td>331</td><td>Swalot</td><td>Leftovers</td><td>Sludge Bomb</td><td>Shadow Ball</td><td>Body Slam</td><td>Yawn</td><td>HP/Atk</td></tr>
+<tr class="a"><td>332</td><td>Crawdaunt</td><td>Quick Claw</td><td>Guillotine</td><td>Frustration</td><td>AncientPower</td><td>Aerial Ace</td><td>HP/SpD</td></tr>
+<tr><td>333</td><td>Pidgeot</td><td>Scope Lens</td><td>Secret Power</td><td>Aerial Ace</td><td>Steel Wing</td><td>U-turn</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>334</td><td>Xatu</td><td>Leftovers</td><td>Fly</td><td>Toxic</td><td>Confuse Ray</td><td>Attract</td><td>HP/Def/SpD</td></tr>
+<tr><td>335</td><td>Torkoal</td><td>White Herb</td><td>Overheat</td><td>Body Slam</td><td>SmokeScreen</td><td>Protect</td><td>HP/SpD</td></tr>
+<tr class="a"><td>336</td><td>Grumpig</td><td>Petaya Berry</td><td>Psychic</td><td>Confuse Ray</td><td>Future Sight</td><td>Magic Coat</td><td>HP/SpA</td></tr>
+<tr><td>337</td><td>Clefable</td><td>Focus Band</td><td>Meteor Mash</td><td>Cosmic Power</td><td>Double Team</td><td>Follow Me</td><td>Atk/Def</td></tr>
+<tr class="a"><td>338</td><td>Kingler</td><td>Salac Berry</td><td>Guillotine</td><td>Rock Tomb</td><td>Flail</td><td>Endure</td><td>HP/SpD</td></tr>
+<tr><td>339</td><td>Cacturne</td><td>Persim Berry</td><td>Payback</td><td>Teeter Dance</td><td>Faint Attack</td><td>Sandstorm</td><td>Def/SpD</td></tr>
+<tr class="a"><td>340</td><td>Bellossom</td><td>Brightpowder</td><td>Solar Beam</td><td>Attract</td><td>Sunny Day</td><td>Synthesis</td><td>Def/SpA</td></tr>
+<tr><td>341</td><td>Octillery</td><td>Lax Incense</td><td>Octazooka</td><td>Fireblast</td><td>Gunk Shot</td><td>Thunder Wave</td><td>HP/Def/SpD</td></tr>
+<tr class="a"><td>342</td><td>Huntail</td><td>Shell Bell</td><td>Surf</td><td>Rain Dance</td><td>Crunch</td><td>Body Slam</td><td>HP/SpD</td></tr>
+<tr><td>343</td><td>Gorebyss</td><td>Shell Bell</td><td>Surf</td><td>Rain Dance</td><td>Psychic</td><td>Body Slam</td><td>HP/SpD</td></tr>
+<tr class="a"><td>344</td><td>Relicanth</td><td>Chesto Berry</td><td>Earthquake</td><td>Rock Slide</td><td>Amnesia</td><td>Rest</td><td>HP/SpD</td></tr>
+<tr><td>345</td><td>Electabuzz</td><td>Leftovers</td><td>Thunder</td><td>Rain Dance</td><td>Attract</td><td>Focus Punch</td><td>Atk/SpA/Spe</td></tr>
+<tr class="a"><td>346</td><td>Magmar</td><td>Quick Claw</td><td>Fireblast</td><td>SmokeScreen</td><td>ThunderPunch</td><td>Confuse Ray</td><td>SpA/Spe</td></tr>
+<tr><td>347</td><td>Omastar</td><td>Sitrus Berry</td><td>Hydro Pump</td><td>Rain Dance</td><td>Ice Beam</td><td>Protect</td><td>HP/SpD</td></tr>
+<tr class="a"><td>348</td><td>Kabutops</td><td>Salac Berry</td><td>Slash</td><td>Rock Slide</td><td>Flail</td><td>Endure</td><td>Atk/SpD</td></tr>
+<tr><td>349</td><td>Scyther</td><td>Brightpowder</td><td>Silver Wind</td><td>Aerial Ace</td><td>Swords Dance</td><td>Double Team</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>350</td><td>Cloyster</td><td>Leftovers</td><td>Whirlpool</td><td>Toxic</td><td>Double Team</td><td>Protect</td><td>HP/SpD</td></tr>
+<tr><td>351</td><td>Venusaur</td><td>Powerful Herb</td><td>Skull Bash</td><td>Worry Seed</td><td>Earthquake</td><td>Return</td><td>Atk/SpD</td></tr>
+<tr class="a"><td>352</td><td>Charizard</td><td>Charti Berry</td><td>Flamethrower</td><td>Sunny Day</td><td>Focus Blast</td><td>AncientPower</td><td>SpA/Spe</td></tr>
+<tr><td>353</td><td>Blastoise</td><td>Iron Ball</td><td>Double Team</td><td>Focus Punch</td><td>Aqua Jet</td><td>Gyro Ball</td><td>HP/Atk</td></tr>
+<tr class="a"><td>354</td><td>Meganium</td><td>Leftovers</td><td>Giga Drain</td><td>Leech Seed</td><td>Toxic</td><td>Substitute</td><td>HP/Def/SpD</td></tr>
+<tr><td>355</td><td>Typhlosion</td><td>Wide Lens</td><td>Will-O-Wisp</td><td>Focus Blast</td><td>Double Team</td><td>Fireblast</td><td>SpA/Spe</td></tr>
+<tr class="a"><td>356</td><td>Feraligatr</td><td>King's Rock</td><td>Scary Face</td><td>Waterfall</td><td>Rock Slide</td><td>Ice Fang</td><td>HP/Def/SpD</td></tr>
+<tr><td>357</td><td>Sceptile</td><td>Leftovers</td><td>Leech Seed</td><td>Double Team</td><td>Toxic</td><td>Giga Drain</td><td>HP/Def/SpD</td></tr>
+<tr class="a"><td>358</td><td>Blaziken</td><td>Shell Bell</td><td>Aerial Ace</td><td>Blaze Kick</td><td>Will-O-Wisp</td><td>Bulk Up</td><td>HP/Atk/Def/Spe</td></tr>
+<tr><td>359</td><td>Swampert</td><td>Quick Claw</td><td>AncientPower</td><td>Muddy Water</td><td>Avalanche</td><td>Focus Blast</td><td>Atk/Def/SpA</td></tr>
+<tr class="a"><td>360</td><td>Torterra</td><td>Heat Rock</td><td>Sunny Day</td><td>Synthesis</td><td>Solar Beam</td><td>Stone Edge</td><td>HP/Atk/Def/SpA</td></tr>
+<tr><td>361</td><td>Infernape</td><td>Coba Berry</td><td>Fake Out</td><td>Mach Punch</td><td>U-turn</td><td>Overheat</td><td>HP/Atk/SpA/Spe</td></tr>
+<tr class="a"><td>362</td><td>Empoleon</td><td>Chesto Berry</td><td>Aqua Ring</td><td>Double Team</td><td>Whirlpool</td><td>Rest</td><td>HP/Def/SpD</td></tr>
+<tr><td>363</td><td>Dugtrio</td><td>Grip Claw</td><td>Sand Tomb</td><td>Toxic</td><td>Rock Slide</td><td>Dig</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>364</td><td>Marowak</td><td>Grip Claw</td><td>Sandstorm</td><td>Toxic</td><td>Bone Rush</td><td>Protect</td><td>Atk/Spe</td></tr>
+<tr><td>365</td><td>Medicham</td><td>Focus Band</td><td>Force Palm</td><td>ThunderPunch</td><td>Rock Slide</td><td>Reversal</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>366</td><td>Quagsire</td><td>Leftovers</td><td>Body Slam</td><td>Rock Slide</td><td>Ice Beam</td><td>Brick Break</td><td>Atk/SpA</td></tr>
+<tr><td>367</td><td>Granbull</td><td>Razor Claw</td><td>Thunder Wave</td><td>Bite</td><td>Rock Slide</td><td>Giga Impact</td><td>HP/Atk</td></tr>
+<tr class="a"><td>368</td><td>Jynx</td><td>Brightpowder</td><td>Mean Look</td><td>Perish Song</td><td>Protect</td><td>Lovely Kiss</td><td>HP/Def/SpD</td></tr>
+<tr><td>369</td><td>Mr. Mime</td><td>Colbur Berry</td><td>DoubleSlap</td><td>Meditate</td><td>Copycat</td><td>Mimic</td><td>Def/SpD</td></tr>
+<tr class="a"><td>370</td><td>Lanturn</td><td>Rindo Berry</td><td>Water Gun</td><td>Spark</td><td>Attract</td><td>Double Team</td><td>HP/SpA/SpD</td></tr>
+<tr><td>371</td><td>Breloom</td><td>Toxic Orb</td><td>Protect</td><td>Spore</td><td>Leech Seed</td><td>Double Team</td><td>HP/Def/SpD</td></tr>
+<tr class="a"><td>372</td><td>Forretress</td><td>Occa Berry</td><td>Gyro Ball</td><td>Counter</td><td>Spikes</td><td>Mirror Shot</td><td>HP/Def/SpD</td></tr>
+<tr><td>373</td><td>Skarmory</td><td>Occa Berry</td><td>Spikes</td><td>Roar</td><td>Drill Peck</td><td>Double Team</td><td>HP/SpD</td></tr>
+<tr class="a"><td>374</td><td>Absol</td><td>White Herb</td><td>Slash</td><td>Pursuit</td><td>Double Team</td><td>Taunt</td><td>Def/SpD</td></tr>
+<tr><td>375</td><td>Whiscash</td><td>Leftovers</td><td>Mud-slap</td><td>Water Pulse</td><td>Tickle</td><td>Sandstorm</td><td>HP/Def/SpD</td></tr>
+<tr class="a"><td>376</td><td>Hariyama</td><td>Brightpowder</td><td>Sand Attack</td><td>Focus Punch</td><td>Rock Tomb</td><td>Fake Out</td><td>HP/Atk</td></tr>
+<tr><td>377</td><td>Vespiquen</td><td>Razor Claw</td><td>Attack Order</td><td>Slash</td><td>Defend Order</td><td>Heal Order</td><td>HP/Atk</td></tr>
+<tr class="a"><td>378</td><td>Raichu</td><td>Wide Lens</td><td>Thunderbolt</td><td>Quick Attack</td><td>Slam</td><td>Iron Tail</td><td>Atk/SpA</td></tr>
+<tr><td>379</td><td>Dewgong</td><td>Razor Fang</td><td>Aqua Jet</td><td>Ice Shard</td><td>Fake Out</td><td>Protect</td><td>Atk/Def</td></tr>
+<tr class="a"><td>380</td><td>Manectric</td><td>Magnet</td><td>Spark</td><td>Ice Fang</td><td>Bite</td><td>Howl</td><td>Atk/Spe</td></tr>
+<tr><td>381</td><td>Staraptor</td><td>King's Rock</td><td>Return</td><td>Aerial Ace</td><td>Double Team</td><td>Roost</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>382</td><td>Gastrodon</td><td>Focus Sash</td><td>Mirror Coat</td><td>Recover</td><td>Waterfall</td><td>Earthquake</td><td>HP/SpD</td></tr>
+<tr><td>383</td><td>Skuntank</td><td>Brightpowder</td><td>Swagger</td><td>Punishment</td><td>Double Team</td><td>Poison Gas</td><td>Def/Spe</td></tr>
+<tr class="a"><td>384</td><td>Vileplume</td><td>Big Root</td><td>PoisonPowder</td><td>Sleep Powder</td><td>Stun Spore</td><td>Giga Drain</td><td>Def/SpD</td></tr>
+<tr><td>385</td><td>Victreebel</td><td>Wide Lens</td><td>Grass Knot</td><td>Wrap</td><td>Sleep Powder</td><td>Gastro Acid</td><td>Def/Spe</td></tr>
+<tr class="a"><td>386</td><td>Electrode</td><td>Sitrus Berry</td><td>Toxic</td><td>Protect</td><td>Double Team</td><td>Light Screen</td><td>HP/Spe</td></tr>
+<tr><td>387</td><td>Ludicolo</td><td>Muscle Band</td><td>Waterfall</td><td>Razor Leaf</td><td>Drain Punch</td><td>Swords Dance</td><td>HP/Atk</td></tr>
+<tr class="a"><td>388</td><td>Shiftry</td><td>Leftovers</td><td>Double Team</td><td>Leech Seed</td><td>Swagger</td><td>Synthesis</td><td>Def/SpD</td></tr>
+<tr><td>389</td><td>Exploud</td><td>Focus Band</td><td>Sunny Day</td><td>Fireblast</td><td>Solar Beam</td><td>Focus Blast</td><td>Def/SpA/SpD</td></tr>
+<tr class="a"><td>390</td><td>Glalie</td><td>Iron Ball</td><td>Avalanche</td><td>Payback</td><td>Gyro Ball</td><td>Ice Shard</td><td>Atk/Def/SpD</td></tr>
+<tr><td>391</td><td>Lopunny</td><td>Brightpowder</td><td>Thunder Wave</td><td>Attract</td><td>Sweet Kiss</td><td>Focus Punch</td><td>HP/Atk</td></tr>
+<tr class="a"><td>392</td><td>Froslass</td><td>Focus Band</td><td>Swagger</td><td>Psych Up</td><td>Ice Fang</td><td>Crunch</td><td>Atk/Spe</td></tr>
+<tr><td>393</td><td>Ambipom</td><td>Brightpowder</td><td>Double Team</td><td>Baton Pass</td><td>Agility</td><td>Double Hit</td><td>HP/Def/SpD</td></tr>
+<tr class="a"><td>394</td><td>Hypno</td><td>Leftovers</td><td>ThunderPunch</td><td>Zen Headbutt</td><td>Headbutt</td><td>Drain Punch</td><td>HP/Def/SpD</td></tr>
+<tr><td>395</td><td>Golem</td><td>Liechi Berry</td><td>Endure</td><td>Earthquake</td><td>Flail</td><td>Rock Tomb</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>396</td><td>Rhydon</td><td>Wise Glasses</td><td>Ice Beam</td><td>Thunderbolt</td><td>Dragon Pulse</td><td>Surf</td><td>SpA/SpD</td></tr>
+<tr><td>397</td><td>Slowbro</td><td>Shell Bell</td><td>Thunder Wave</td><td>Focus Blast</td><td>Avalanche</td><td>Surf</td><td>HP/Atk/SpA</td></tr>
+<tr class="a"><td>398</td><td>Weezing</td><td>Leftovers</td><td>Will-O-Wisp</td><td>Double Team</td><td>Sludge Bomb</td><td>Substitute</td><td>HP/SpD</td></tr>
+<tr><td>399</td><td>Kangaskhan</td><td>Pecha Berry</td><td>Comet Punch</td><td>Focus Punch</td><td>Mega Punch</td><td>Drain Punch</td><td>SpD/Spe</td></tr>
+<tr class="a"><td>400</td><td>Tauros</td><td>Lum Berry</td><td>Thrash</td><td>Zen Headbutt</td><td>Earthquake</td><td>Giga Impact</td><td>HP/SpD/Spe</td></tr>
+<tr><td>401</td><td>Alakazam</td><td>Iron Ball</td><td>Psycho Cut</td><td>Disable</td><td>Recover</td><td>Trick Room</td><td>HP/Def/SpA</td></tr>
+<tr class="a"><td>402</td><td>Slowking</td><td>Wise Glasses</td><td>Confusion</td><td>Water Pulse</td><td>Trick Room</td><td>Ice Beam</td><td>HP/SpA/SpD</td></tr>
+<tr><td>403</td><td>Miltank</td><td>Muscle Band</td><td>Toxic</td><td>Stealth Rock</td><td>Protect</td><td>Gyro Ball</td><td>Def/SpA/Spe</td></tr>
+<tr class="a"><td>404</td><td>Altaria</td><td>Petaya Berry</td><td>Take Down</td><td>Pluck</td><td>Perish Song</td><td>Protect</td><td>HP/Def/SpA</td></tr>
+<tr><td>405</td><td>Toxicroak</td><td>BlackGlasses</td><td>Pursuit</td><td>Faint Attack</td><td>Sucker Punch</td><td>Flatter</td><td>SpA/Spe</td></tr>
+<tr class="a"><td>406</td><td>Abomasnow</td><td>Scope Lens</td><td>Ice Beam</td><td>Earthquake</td><td>Brick Break</td><td>Giga Drain</td><td>HP/SpA</td></tr>
+<tr><td>407</td><td>Nidoqueen</td><td>Salac Berry</td><td>Endure</td><td>Brick Break</td><td>Aerial Ace</td><td>Shadow Claw</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>408</td><td>Nidoking</td><td>Brightpowder</td><td>Substitute</td><td>Focus Punch</td><td>Water Pulse</td><td>Horn Drill</td><td>HP/Atk</td></tr>
+<tr><td>409</td><td>Cradily</td><td>Focus Band</td><td>Stockpile</td><td>Spit Up</td><td>Swallow</td><td>Swagger</td><td>HP/SpD</td></tr>
+<tr class="a"><td>410</td><td>Armaldo</td><td>Wide Lens</td><td>Toxic</td><td>Slash</td><td>X-Scissor</td><td>Iron Tail</td><td>Atk/SpD</td></tr>
+<tr><td>411</td><td>Bastiodon</td><td>Focus Sash</td><td>Metal Burst</td><td>Taunt</td><td>Swagger</td><td>Stone Edge</td><td>HP/SpD</td></tr>
+<tr class="a"><td>412</td><td>Floatzel</td><td>Destiny Knot</td><td>Swift</td><td>Quick Attack</td><td>Agility</td><td>Water Pulse</td><td>HP/Spe</td></tr>
+<tr><td>413</td><td>Mismagius</td><td>Colbur Berry</td><td>Psywave</td><td>Confuse Ray</td><td>Perish Song</td><td>Mean Look</td><td>Atk/SpA</td></tr>
+<tr class="a"><td>414</td><td>Drifblim</td><td>Lum Berry</td><td>Hypnosis</td><td>Dream Eater</td><td>Rest</td><td>Charge Beam</td><td>HP/SpA</td></tr>
+<tr><td>415</td><td>Golduck</td><td>Pecha Berry</td><td>Water Sport</td><td>Disable</td><td>Surf</td><td>Brick Break</td><td>Atk/SpD/Spe</td></tr>
+<tr class="a"><td>416</td><td>Poliwrath</td><td>Rindo Berry</td><td>Surf</td><td>Ice Beam</td><td>Focus Blast</td><td>Mud Bomb</td><td>HP/SpA</td></tr>
+<tr><td>417</td><td>Rapidash</td><td>Chesto Berry</td><td>Sunny Day</td><td>Fireblast</td><td>Solar Beam</td><td>Rest</td><td>SpA/Spe</td></tr>
+<tr class="a"><td>418</td><td>Muk</td><td>Black Sludge</td><td>Stockpile</td><td>Minimize</td><td>Toxic</td><td>Focus Punch</td><td>HP/Def/SpD</td></tr>
+<tr><td>419</td><td>Gengar</td><td>Scope Lens</td><td>Shadow Ball</td><td>Psychic</td><td>Energy Ball</td><td>Skill Swap</td><td>SpA/Spe</td></tr>
+<tr class="a"><td>420</td><td>Ampharos</td><td>Toxic Orb</td><td>Thunder Wave</td><td>Facade</td><td>Fling</td><td>Rest</td><td>Def/Spe</td></tr>
+<tr><td>421</td><td>Politoed</td><td>Quick Claw</td><td>Perish Song</td><td>Bounce</td><td>Focus Punch</td><td>Hypnosis</td><td>HP/Def</td></tr>
+<tr class="a"><td>422</td><td>Pinsir</td><td>Toxic Orb</td><td>Facade</td><td>Feint</td><td>Earthquake</td><td>Swords Dance</td><td>Atk/SpD/Spe</td></tr>
+<tr><td>423</td><td>Scizor</td><td>Shell Bell</td><td>Cut</td><td>Fury Cutter</td><td>Night Slash</td><td>Slash</td><td>HP/Atk/Def</td></tr>
+<tr class="a"><td>424</td><td>Heracross</td><td>Focus Band</td><td>Focus Punch</td><td>Stone Edge</td><td>Swagger</td><td>Attract</td><td>HP/Def/SpD</td></tr>
+<tr><td>425</td><td>Ursaring</td><td>Liechi Berry</td><td>Arm Hammer</td><td>Avalanche</td><td>Counter</td><td>Payback</td><td>HP/Def/SpD</td></tr>
+<tr class="a"><td>426</td><td>Houndoom</td><td>Focus Sash</td><td>Counter</td><td>Roar</td><td>Crunch</td><td>Thunder Fang</td><td>HP/Spe</td></tr>
+<tr><td>427</td><td>Donphan</td><td>Lum Berry</td><td>Double Team</td><td>Rock Polish</td><td>Earthquake</td><td>Last Resort</td><td>Atk/SpD</td></tr>
+<tr class="a"><td>428</td><td>Wailord</td><td>Wacan Berry</td><td>Defense Curl</td><td>Rollout</td><td>Waterfall</td><td>Avalanche</td><td>HP/Atk/SpD</td></tr>
+<tr><td>429</td><td>Claydol</td><td>Hard Stone</td><td>Rock Polish</td><td>Earthquake</td><td>Rock Slide</td><td>Psychic</td><td>HP/Spe</td></tr>
+<tr class="a"><td>430</td><td>Rampardos</td><td>Persim Berry</td><td>Thrash</td><td>Headbutt</td><td>Zen Headbutt</td><td>Head Smash</td><td>HP/Atk</td></tr>
+<tr><td>431</td><td>Bronzong</td><td>TwistedSpoon</td><td>Trick Room</td><td>Dream Eater</td><td>Flash Cannon</td><td>Hypnosis</td><td>HP/SpA</td></tr>
+<tr class="a"><td>432</td><td>Drapion</td><td>Rawst Berry</td><td>Acupressure</td><td>Toxic Spikes</td><td>Crunch</td><td>Cross Poison</td><td>Atk/SpD</td></tr>
+<tr><td>433</td><td>Luxray</td><td>Shuca Berry</td><td>Charge</td><td>Charge Beam</td><td>Thunderbolt</td><td>Flash</td><td>SpA/SpD/Spe</td></tr>
+<tr class="a"><td>434</td><td>Ninetales</td><td>Rawst Berry</td><td>Captivate</td><td>Disable</td><td>Will-O-Wisp</td><td>Flamethrower</td><td>Def/Spe</td></tr>
+<tr><td>435</td><td>Machamp</td><td>Focus Sash</td><td>Counter</td><td>Revenge</td><td>Payback</td><td>Earthquake</td><td>HP/Atk</td></tr>
+<tr class="a"><td>436</td><td>Shuckle</td><td>Chesto Berry</td><td>Withdraw</td><td>Protect</td><td>Swagger</td><td>Rest</td><td>Def</td></tr>
+<tr><td>437</td><td>Roserade</td><td>Big Root</td><td>Leech Seed</td><td>Ingrain</td><td>Giga Drain</td><td>Substitute</td><td>Atk/SpA</td></tr>
+<tr class="a"><td>438</td><td>Honchkrow</td><td>Expert Belt</td><td>Night Slash</td><td>Dark Pulse</td><td>Shadow Ball</td><td>Payback</td><td>HP/Def/Spe</td></tr>
+<tr><td>439</td><td>Steelix</td><td>Occa Berry</td><td>Thunder Fang</td><td>Fire Fang</td><td>Ice Fang</td><td>Crunch</td><td>SpA</td></tr>
+<tr class="a"><td>440</td><td>Weavile</td><td>Razor Claw</td><td>Night Slash</td><td>Metal Claw</td><td>Slash</td><td>Shadow Claw</td><td>HP/Atk</td></tr>
+<tr><td>441</td><td>Gliscor</td><td>Smooth Rock</td><td>Sandstorm</td><td>Double Team</td><td>Toxic</td><td>Dig</td><td>HP/SpD</td></tr>
+<tr class="a"><td>442</td><td>Tentacruel</td><td>Leftovers</td><td>Acupressure</td><td>Rest</td><td>Sleep Talk</td><td>Surf</td><td>HP/Def/Spe</td></tr>
+<tr><td>443</td><td>Aerodactyl</td><td>Leftovers</td><td>Swagger</td><td>Attract</td><td>Rock Slide</td><td>Roost</td><td>Def/SpD/Spe</td></tr>
+<tr class="a"><td>444</td><td>Porygon2</td><td>Leftovers</td><td>Magnet Rise</td><td>Conversion</td><td>Recover</td><td>Charge Beam</td><td>Def/SpD</td></tr>
+<tr><td>445</td><td>Lickilicky</td><td>Chesto Berry</td><td>Belly Drum</td><td>Rest</td><td>Return</td><td>Earthquake</td><td>Def/SpD</td></tr>
+<tr class="a"><td>446</td><td>Yanmega</td><td>Charti Berry</td><td>Aerial Ace</td><td>Bug Bite</td><td>Night Slash</td><td>U-turn</td><td>Atk/SpD</td></tr>
+<tr><td>447</td><td>Gardevoir</td><td>Lum Berry</td><td>Psychic</td><td>Shadow Ball</td><td>Thunder Wave</td><td>Confuse Ray</td><td>SpA/Spe</td></tr>
+<tr class="a"><td>448</td><td>Gallade</td><td>King's Rock</td><td>Psycho Cut</td><td>Poison Jab</td><td>Thunder Wave</td><td>Confuse Ray</td><td>Atk/Spe</td></tr>
+<tr><td>449</td><td>Exeggutor</td><td>Leftovers</td><td>Curse</td><td>Leech Seed</td><td>Double Team</td><td>Substitute</td><td>HP/SpD</td></tr>
+<tr class="a"><td>450</td><td>Starmie</td><td>Wide Lens</td><td>Hydro Pump</td><td>Thunder</td><td>Blizzard</td><td>Light Screen</td><td>HP/Def/SpD</td></tr>
+<tr><td>451</td><td>Flygon</td><td>Soft Sand</td><td>Sand Attack</td><td>Sand Tomb</td><td>Sandstorm</td><td>Dig</td><td>Def/SpA</td></tr>
+<tr class="a"><td>452</td><td>Vaporeon</td><td>Leftovers</td><td>Aqua Ring</td><td>Tail Whip</td><td>Acid Armor</td><td>Last Resort</td><td>HP/Atk/Spe</td></tr>
+<tr><td>453</td><td>Jolteon</td><td>Leftovers</td><td>Thunder Wave</td><td>Tail Whip</td><td>Sand Attack</td><td>Last Resort</td><td>HP/Atk/SpD</td></tr>
+<tr class="a"><td>454</td><td>Flareon</td><td>Leftovers</td><td>Will-O-Wisp</td><td>Tail Whip</td><td>Sand Attack</td><td>Last Resort</td><td>HP/Atk/Spe</td></tr>
+<tr><td>455</td><td>Espeon</td><td>Leftovers</td><td>Morning Sun</td><td>Tail Whip</td><td>Sand Attack</td><td>Last Resort</td><td>HP/Atk/SpD</td></tr>
+<tr class="a"><td>456</td><td>Umbreon</td><td>Leftovers</td><td>Moonlight</td><td>Screech</td><td>Double Team</td><td>Last Resort</td><td>HP/Atk/SpD</td></tr>
+<tr><td>457</td><td>Leafeon</td><td>Leftovers</td><td>GrassWhistle</td><td>Tail Whip</td><td>Sand Attack</td><td>Last Resort</td><td>HP/Atk/Spe</td></tr>
+<tr class="a"><td>458</td><td>Glaceon</td><td>Leftovers</td><td>Mirror Coat</td><td>Tail Whip</td><td>Sand Attack</td><td>Last Resort</td><td>HP/Atk/SpD</td></tr>
+<tr><td>459</td><td>Lucario</td><td>Brightpowder</td><td>Dark Pulse</td><td>Dragon Pulse</td><td>Aura Sphere</td><td>Force Palm</td><td>Atk/Def/Spe</td></tr>
+<tr class="a"><td>460</td><td>Hippowdon</td><td>Passho Berry</td><td>Yawn</td><td>Stealth Rock</td><td>Roar</td><td>Ice Fang</td><td>HP/SpD</td></tr>
+<tr><td>461</td><td>Probopass</td><td>Rock Incense</td><td>Rock Polish</td><td>Stealth Rock</td><td>Lock-On</td><td>Stone Edge</td><td>HP/Atk</td></tr>
+<tr class="a"><td>462</td><td>Dusknoir</td><td>Ganlon Berry</td><td>Curse</td><td>Pain Split</td><td>Substitute</td><td>Protect</td><td>Def/SpD</td></tr>
+<tr><td>463</td><td>Aggron</td><td>Chople Berry</td><td>Rock Polish</td><td>Iron Head</td><td>Headbutt</td><td>Dragon Rush</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>464</td><td>Walrein</td><td>Quick Claw</td><td>Curse</td><td>Avalanche</td><td>Waterfall</td><td>Body Slam</td><td>Atk/SpD</td></tr>
+<tr><td>465</td><td>Mamoswine</td><td>Icy Rock</td><td>Hail</td><td>Blizzard</td><td>Mud Shot</td><td>AncientPower</td><td>Def/SpD</td></tr>
+<tr class="a"><td>466</td><td>Lapras</td><td>Lum Berry</td><td>Dragon Dance</td><td>Body Slam</td><td>Waterfall</td><td>Confuse Ray</td><td>HP/Atk</td></tr>
+<tr><td>467</td><td>Crobat</td><td>King's Rock</td><td>Bite</td><td>Zen Headbutt</td><td>Cross Poison</td><td>U-turn</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>468</td><td>Magnezone</td><td>Quick Claw</td><td>Swagger</td><td>Psych Up</td><td>Charge Beam</td><td>Magnet Bomb</td><td>Atk/Def</td></tr>
+<tr><td>469</td><td>Rhyperior</td><td>Expert Belt</td><td>Rock Wrecker</td><td>Ice Beam</td><td>Thunderbolt</td><td>Flamethrower</td><td>Atk/SpA</td></tr>
+<tr class="a"><td>470</td><td>Tangrowth</td><td>Big Root</td><td>Leech Seed</td><td>Double Team</td><td>Toxic</td><td>Giga Drain</td><td>SpA/SpD</td></tr>
+<tr><td>471</td><td>Porygon-Z</td><td>Sitrus Berry</td><td>Tri Attack</td><td>Shadow Ball</td><td>Recycle</td><td>Conversion2</td><td>HP/Def</td></tr>
+<tr class="a"><td>472</td><td>Gyarados</td><td>Quick Claw</td><td>Avalanche</td><td>Payback</td><td>Endure</td><td>Flail</td><td>HP/Def/SpD</td></tr>
+<tr><td>473</td><td>Snorlax</td><td>Zoom Lens</td><td>Rollout</td><td>Defense Curl</td><td>Curse</td><td>Yawn</td><td>HP/Atk/Def</td></tr>
+<tr class="a"><td>474</td><td>Kingdra</td><td>Razor Claw</td><td>Waterfall</td><td>Focus Energy</td><td>Dragon Dance</td><td>Yawn</td><td>Def/Spe</td></tr>
+<tr><td>475</td><td>Blissey</td><td>Leftovers</td><td>Counter</td><td>Toxic</td><td>Softboiled</td><td>Double Team</td><td>HP/Def</td></tr>
+<tr class="a"><td>476</td><td>Milotic</td><td>Salac Berry</td><td>Hydro Pump</td><td>Dragon Pulse</td><td>Recover</td><td>Hypnosis</td><td>Def/Spe</td></tr>
+<tr><td>477</td><td>Electivire</td><td>Cheri Berry</td><td>ThunderPunch</td><td>Cross Chop</td><td>Thunder Wave</td><td>Screech</td><td>HP/Def</td></tr>
+<tr class="a"><td>478</td><td>Magmortar</td><td>White Herb</td><td>Overheat</td><td>Focus Punch</td><td>Confuse Ray</td><td>SmokeScreen</td><td>Atk/Def</td></tr>
+<tr><td>479</td><td>Togekiss</td><td>Wide Lens</td><td>ExtremeSpeed</td><td>Aerial Ace</td><td>Steel Wing</td><td>Roost</td><td>Atk/Def</td></tr>
+<tr class="a"><td>480</td><td>Arcanine</td><td>Lum Berry</td><td>Flamethrower</td><td>Dragon Pulse</td><td>Will-O-Wisp</td><td>ExtremeSpeed</td><td>SpA/Spe</td></tr>
+<tr><td>481</td><td>Dragonite</td><td>Wide Lens</td><td>Dragon Rush</td><td>Aqua Tail</td><td>Iron Tail</td><td>Stone Edge</td><td>HP/Atk</td></tr>
+<tr class="a"><td>482</td><td>Tyranitar</td><td>Expert Belt</td><td>Dark Pulse</td><td>Ice Beam</td><td>Flamethrower</td><td>AncientPower</td><td>HP/SpA</td></tr>
+<tr><td>483</td><td>Salamence</td><td>Cheri Berry</td><td>Fly</td><td>Aerial Ace</td><td>Steel Wing</td><td>Roost</td><td>HP/Atk</td></tr>
+<tr class="a"><td>484</td><td>Metagross</td><td>Occa Berry</td><td>Magnet Rise</td><td>Rock Polish</td><td>Zen Headbutt</td><td>Meteor Mash</td><td>HP/Atk/Spe</td></tr>
+<tr><td>485</td><td>Garchomp</td><td>Persim Berry</td><td>Outrage</td><td>Swords Dance</td><td>Stealth Rock</td><td>Earthquake</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>486</td><td>Slaking</td><td>Sitrus Berry</td><td>Counter</td><td>Encore</td><td>Captivate</td><td>Slack Off</td><td>HP/SpD</td></tr>
+<tr><td>487</td><td>Venusaur</td><td>Big Root</td><td>Leech Seed</td><td>Ingrain</td><td>Giga Drain</td><td>Sleep Powder</td><td>HP/Def/SpD</td></tr>
+<tr class="a"><td>488</td><td>Charizard</td><td>Scope Lens</td><td>Flare Blitz</td><td>Aerial Ace</td><td>Crunch</td><td>Dragon Claw</td><td>Atk/Spe</td></tr>
+<tr><td>489</td><td>Blastoise</td><td>Powerful Herb</td><td>Skull Bash</td><td>Earthquake</td><td>Waterfall</td><td>Aqua Jet</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>490</td><td>Meganium</td><td>Occa Berry</td><td>Solar Beam</td><td>Sunny Day</td><td>Synthesis</td><td>AncientPower</td><td>SpA/Spe</td></tr>
+<tr><td>491</td><td>Typhlosion</td><td>Salac Berry</td><td>Blast Burn</td><td>Earthquake</td><td>Endure</td><td>Reversal</td><td>Atk/SpA</td></tr>
+<tr class="a"><td>492</td><td>Feraligatr</td><td>Wise Glasses</td><td>Hydro Pump</td><td>Ice Beam</td><td>Dragon Pulse</td><td>AncientPower</td><td>SpA/Spe</td></tr>
+<tr><td>493</td><td>Sceptile</td><td>Brightpowder</td><td>Energy Ball</td><td>Dragon Pulse</td><td>Focus Blast</td><td>Agility</td><td>SpA/Spe</td></tr>
+<tr class="a"><td>494</td><td>Blaziken</td><td>Salac Berry</td><td>Endure</td><td>Reversal</td><td>Sand Attack</td><td>Double Team</td><td>Atk/Spe</td></tr>
+<tr><td>495</td><td>Swampert</td><td>Lum Berry</td><td>Earthquake</td><td>Waterfall</td><td>Arm Hammer</td><td>Curse</td><td>HP/Atk/SpD</td></tr>
+<tr class="a"><td>496</td><td>Torterra</td><td>White Herb</td><td>Leaf Storm</td><td>Worry Seed</td><td>Earthquake</td><td>Bite</td><td>HP/Atk/SpA</td></tr>
+<tr><td>497</td><td>Infernape</td><td>Muscle Band</td><td>Blaze Kick</td><td>Shadow Claw</td><td>Brick Break</td><td>Bulk Up</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>498</td><td>Empoleon</td><td>Wacan Berry</td><td>Drill Peck</td><td>Brick Break</td><td>Aqua Jet</td><td>Ice Beam</td><td>HP/Atk/SpA</td></tr>
+<tr><td>499</td><td>Dugtrio</td><td>Brightpowder</td><td>Swagger</td><td>Attract</td><td>Sand Attack</td><td>Sucker Punch</td><td>HP/Atk/Spe</td></tr>
+<tr class="a"><td>500</td><td>Marowak</td><td>Thick Club</td><td>Earthquake</td><td>Double-Edge</td><td>Aerial Ace</td><td>Brick Break</td><td>Atk/Spe</td></tr>
+<tr><td>501</td><td>Medicham</td><td>Salac Berry</td><td>Endure</td><td>Reversal</td><td>Psycho Cut</td><td>ThunderPunch</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>502</td><td>Quagsire</td><td>Focus Sash</td><td>Counter</td><td>Focus Punch</td><td>Yawn</td><td>Ice Beam</td><td>HP/SpD</td></tr>
+<tr><td>503</td><td>Granbull</td><td>Muscle Band</td><td>Fire Fang</td><td>Frustration</td><td>Brick Break</td><td>Thunder Fang</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>504</td><td>Jynx</td><td>Odd Incense</td><td>Lovely Kiss</td><td>Dream Eater</td><td>Wake-up Slap</td><td>Energy Ball</td><td>HP/Spe</td></tr>
+<tr><td>505</td><td>Mr. Mime</td><td>Light Clay</td><td>Psybeam</td><td>Reflect</td><td>Light Screen</td><td>Role Play</td><td>HP/Atk/SpA</td></tr>
+<tr class="a"><td>506</td><td>Lanturn</td><td>Expert Belt</td><td>Thunderbolt</td><td>Charge</td><td>Take Down</td><td>Surf</td><td>Atk/SpD/Spe</td></tr>
+<tr><td>507</td><td>Breloom</td><td>Big Root</td><td>Sky Uppercut</td><td>Focus Punch</td><td>Drain Punch</td><td>Swords Dance</td><td>Atk/SpD/Spe</td></tr>
+<tr class="a"><td>508</td><td>Forretress</td><td>Sitrus Berry</td><td>Payback</td><td>Toxic Spikes</td><td>Stealth Rock</td><td>Spikes</td><td>SpA/SpD</td></tr>
+<tr><td>509</td><td>Skarmory</td><td>Occa Berry</td><td>Swift</td><td>Metal Sound</td><td>Double Team</td><td>Sand Attack</td><td>HP/Def/Spe</td></tr>
+<tr class="a"><td>510</td><td>Absol</td><td>Focus Sash</td><td>Swagger</td><td>Punishment</td><td>Sucker Punch</td><td>Taunt</td><td>HP/Atk</td></tr>
+<tr><td>511</td><td>Whiscash</td><td>Chesto Berry</td><td>Fissure</td><td>Amnesia</td><td>Spark</td><td>Rest</td><td>HP/Def</td></tr>
+<tr class="a"><td>512</td><td>Hariyama</td><td>Quick Claw</td><td>Belly Drum</td><td>Brick Break</td><td>Earthquake</td><td>Stone Edge</td><td>Def/SpD</td></tr>
+<tr><td>513</td><td>Vespiquen</td><td>Leftovers</td><td>Double Team</td><td>Defend Order</td><td>Heal Order</td><td>Toxic</td><td>HP/Def/SpD</td></tr>
+<tr class="a"><td>514</td><td>Raichu</td><td>Focus Band</td><td>ThunderPunch</td><td>Feint</td><td>Brick Break</td><td>Double Team</td><td>Atk/Spe</td></tr>
+<tr><td>515</td><td>Dewgong</td><td>Chesto Berry</td><td>Encore</td><td>Disable</td><td>Rest</td><td>Ice Beam</td><td>Def/SpD</td></tr>
+<tr class="a"><td>516</td><td>Manectric</td><td>Shuca Berry</td><td>Thunderbolt</td><td>Crunch</td><td>Roar</td><td>Thunder Wave</td><td>Atk/SpA/Spe</td></tr>
+<tr><td>517</td><td>Staraptor</td><td>Razor Claw</td><td>Brave Bird</td><td>Roost</td><td>Endure</td><td>Endeavor</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>518</td><td>Gastrodon</td><td>Brightpowder</td><td>Mud Bomb</td><td>Surf</td><td>Ice Beam</td><td>Yawn</td><td>Def/SpA/SpD</td></tr>
+<tr><td>519</td><td>Skuntank</td><td>Leftovers</td><td>Dark Pulse</td><td>Flamethrower</td><td>Toxic</td><td>Double Team</td><td>Def/Spe</td></tr>
+<tr class="a"><td>520</td><td>Vileplume</td><td>Black Sludge</td><td>Toxic</td><td>Grass Knot</td><td>Double Team</td><td>Attract</td><td>HP/Def/SpD</td></tr>
+<tr><td>521</td><td>Victreebel</td><td>Scope Lens</td><td>Razor Leaf</td><td>Leaf Storm</td><td>Swords Dance</td><td>Stun Spore</td><td>Def/Spe</td></tr>
+<tr class="a"><td>522</td><td>Electrode</td><td>Shuca Berry</td><td>Magnet Rise</td><td>Charge Beam</td><td>Hyper Beam</td><td>Thunder Wave</td><td>SpA/Spe</td></tr>
+<tr><td>523</td><td>Ludicolo</td><td>Leftovers</td><td>Leech Seed</td><td>Double Team</td><td>Toxic</td><td>Substitute</td><td>Def/SpD</td></tr>
+<tr class="a"><td>524</td><td>Shiftry</td><td>Quick Claw</td><td>Explosion</td><td>Fake Out</td><td>X-Scissor</td><td>Faint Attack</td><td>Atk/Def/SpD</td></tr>
+<tr><td>525</td><td>Exploud</td><td>Leftovers</td><td>Rest</td><td>Sleep Talk</td><td>Return</td><td>Double Team</td><td>Def/SpD</td></tr>
+<tr class="a"><td>526</td><td>Glalie</td><td>Leftovers</td><td>Double Team</td><td>Sheer Cold</td><td>Rest</td><td>Sleep Talk</td><td>Def/SpD</td></tr>
+<tr><td>527</td><td>Lopunny</td><td>Focus Band</td><td>Return</td><td>Charm</td><td>Encore</td><td>Captivate</td><td>HP/Spe</td></tr>
+<tr class="a"><td>528</td><td>Froslass</td><td>Wise Glasses</td><td>Ominous Wind</td><td>Blizzard</td><td>Attract</td><td>Captivate</td><td>SpA/Spe</td></tr>
+<tr><td>529</td><td>Ambipom</td><td>Wise Glasses</td><td>Shadow Ball</td><td>Thunderbolt</td><td>Swift</td><td>Nasty Plot</td><td>SpA/SpD/Spe</td></tr>
+<tr class="a"><td>530</td><td>Hypno</td><td>Focus Band</td><td>Psychic</td><td>Focus Blast</td><td>Thunder Wave</td><td>Calm Mind</td><td>HP/Def/SpA</td></tr>
+<tr><td>531</td><td>Golem</td><td>Focus Band</td><td>Sandstorm</td><td>Defense Curl</td><td>Rock Blast</td><td>Gyro Ball</td><td>HP/Def/SpD</td></tr>
+<tr class="a"><td>532</td><td>Rhydon</td><td>Smooth Rock</td><td>Rock Blast</td><td>Fire Fang</td><td>Sandstorm</td><td>Avalanche</td><td>HP/Atk/SpD</td></tr>
+<tr><td>533</td><td>Slowbro</td><td>Lum Berry</td><td>Yawn</td><td>Zen Headbutt</td><td>Earthquake</td><td>Brick Break</td><td>HP/Atk</td></tr>
+<tr class="a"><td>534</td><td>Weezing</td><td>Brightpowder</td><td>Sludge</td><td>Screech</td><td>Will-O-Wisp</td><td>Swagger</td><td>HP/SpD</td></tr>
+<tr><td>535</td><td>Kangaskhan</td><td>Focus Sash</td><td>Endure</td><td>Reversal</td><td>Leer</td><td>Double Hit</td><td>HP/Atk</td></tr>
+<tr class="a"><td>536</td><td>Tauros</td><td>Leftovers</td><td>Take Down</td><td>Payback</td><td>Stone Edge</td><td>Substitute</td><td>HP/Atk/Def</td></tr>
+<tr><td>537</td><td>Alakazam</td><td>Colbur Berry</td><td>Psychic</td><td>Calm Mind</td><td>Shadow Ball</td><td>Future Sight</td><td>Def/SpA/SpD</td></tr>
+<tr class="a"><td>538</td><td>Slowking</td><td>Wave Incense</td><td>Headbutt</td><td>Zen Headbutt</td><td>Brine</td><td>Flamethrower</td><td>Def/SpA/Spe</td></tr>
+<tr><td>539</td><td>Miltank</td><td>Silk Scarf</td><td>Body Slam</td><td>Giga Impact</td><td>Earthquake</td><td>Heal Bell</td><td>HP/Atk/SpD</td></tr>
+<tr class="a"><td>540</td><td>Altaria</td><td>White Herb</td><td>Draco Meteor</td><td>Hyper Beam</td><td>Ice Beam</td><td>Flamethrower</td><td>HP/SpA</td></tr>
+<tr><td>541</td><td>Toxicroak</td><td>Light Ball</td><td>Fling</td><td>Me First</td><td>Taunt</td><td>Sucker Punch</td><td>Atk/SpA</td></tr>
+<tr class="a"><td>542</td><td>Abomasnow</td><td>Leftovers</td><td>Wood Hammer</td><td>Ingrain</td><td>Substitute</td><td>Avalanche</td><td>HP/Atk</td></tr>
+<tr><td>543</td><td>Nidoqueen</td><td>Wide Lens</td><td>Earth Power</td><td>Sludge Bomb</td><td>Fireblast</td><td>Blizzard</td><td>HP/SpA</td></tr>
+<tr class="a"><td>544</td><td>Nidoking</td><td>Wise Glasses</td><td>Earth Power</td><td>Dragon Pulse</td><td>Sludge Bomb</td><td>Sandstorm</td><td>SpA/Spe</td></tr>
+<tr><td>545</td><td>Cradily</td><td>Quick Claw</td><td>Sandstorm</td><td>AncientPower</td><td>Giga Drain</td><td>Hyper Beam</td><td>HP/SpA</td></tr>
+<tr class="a"><td>546</td><td>Armaldo</td><td>Focus Sash</td><td>Rock Polish</td><td>Rock Blast</td><td>Cross Poison</td><td>X-Scissor</td><td>Atk/Spe</td></tr>
+<tr><td>547</td><td>Bastiodon</td><td>Quick Claw</td><td>Sandstorm</td><td>Thunder</td><td>Blizzard</td><td>Fireblast</td><td>HP/SpA</td></tr>
+<tr class="a"><td>548</td><td>Floatzel</td><td>Sitrus Berry</td><td>Crunch</td><td>Pursuit</td><td>Whirlpool</td><td>Razor Wind</td><td>Atk/SpD/Spe</td></tr>
+<tr><td>549</td><td>Mismagius</td><td>Leftovers</td><td>Shadow Ball</td><td>Dark Pulse</td><td>Charge Beam</td><td>Imprison</td><td>Def/Spe</td></tr>
+<tr class="a"><td>550</td><td>Drifblim</td><td>Apicot Berry</td><td>Natural Gift</td><td>Explosion</td><td>Memento</td><td>Destiny Bond</td><td>Atk/SpD/Spe</td></tr>
+<tr><td>551</td><td>Golduck</td><td>Wide Lens</td><td>Hydro Pump</td><td>Zen Headbutt</td><td>Shadow Claw</td><td>Brine</td><td>HP/Atk/Spe</td></tr>
+<tr class="a"><td>552</td><td>Poliwrath</td><td>Quick Claw</td><td>Waterfall</td><td>Brick Break</td><td>Earthquake</td><td>Hypnosis</td><td>HP/Atk</td></tr>
+<tr><td>553</td><td>Rapidash</td><td>Focus Band</td><td>Bounce</td><td>Megahorn</td><td>Horn Drill</td><td>Poison Jab</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>554</td><td>Muk</td><td>Focus Sash</td><td>Gunk Shot</td><td>Brick Break</td><td>Mud Bomb</td><td>Rock Slide</td><td>HP/Atk/SpD</td></tr>
+<tr><td>555</td><td>Gengar</td><td>Payapa Berry</td><td>Explosion</td><td>ThunderPunch</td><td>Poison Jab</td><td>Shadow Claw</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>556</td><td>Ampharos</td><td>Light Clay</td><td>Reflect</td><td>Double Team</td><td>Focus Punch</td><td>ThunderPunch</td><td>Atk/SpD</td></tr>
+<tr><td>557</td><td>Politoed</td><td>Brightpowder</td><td>Surf</td><td>Focus Blast</td><td>Mud Bomb</td><td>Payback</td><td>HP/Def/SpD</td></tr>
+<tr class="a"><td>558</td><td>Pinsir</td><td>Brightpowder</td><td>Bulk Up</td><td>Earthquake</td><td>X-Scissor</td><td>Stone Edge</td><td>SpD/Spe</td></tr>
+<tr><td>559</td><td>Scizor</td><td>Brightpowder</td><td>Swords Dance</td><td>Double Team</td><td>Steel Wing</td><td>Baton Pass</td><td>HP/SpD/Spe</td></tr>
+<tr class="a"><td>560</td><td>Heracross</td><td>Scope Lens</td><td>Close Combat</td><td>Aerial Ace</td><td>Night Slash</td><td>Bulk Up</td><td>HP/Atk/SpD</td></tr>
+<tr><td>561</td><td>Ursaring</td><td>Chesto Berry</td><td>Facade</td><td>Aerial Ace</td><td>Bulk Up</td><td>Rest</td><td>HP/SpD</td></tr>
+<tr class="a"><td>562</td><td>Houndoom</td><td>Passho Berry</td><td>Fire Fang</td><td>Thunder Fang</td><td>Crunch</td><td>Will-O-Wisp</td><td>HP/Atk/Spe</td></tr>
+<tr><td>563</td><td>Donphan</td><td>Focus Band</td><td>Counter</td><td>Stealth Rock</td><td>Roar</td><td>Fire Fang</td><td>HP/Def/SpD</td></tr>
+<tr class="a"><td>564</td><td>Wailord</td><td>Mystic Water</td><td>Water Spout</td><td>Brine</td><td>Whirlpool</td><td>Surf</td><td>HP/Spe</td></tr>
+<tr><td>565</td><td>Claydol</td><td>Wise Glasses</td><td>Calm Mind</td><td>Psychic</td><td>Charge Beam</td><td>Ice Beam</td><td>HP/SpA</td></tr>
+<tr class="a"><td>566</td><td>Rampardos</td><td>Focus Sash</td><td>Rock Polish</td><td>Stone Edge</td><td>Earthquake</td><td>Giga Impact</td><td>HP/Atk/Spe</td></tr>
+<tr><td>567</td><td>Bronzong</td><td>Occa Berry</td><td>Imprison</td><td>Psychic</td><td>Shadow Ball</td><td>Earthquake</td><td>HP/Def/SpD</td></tr>
+<tr class="a"><td>568</td><td>Drapion</td><td>Leftovers</td><td>Toxic Spikes</td><td>Double Team</td><td>Roar</td><td>Payback</td><td>HP/Def</td></tr>
+<tr><td>569</td><td>Luxray</td><td>Muscle Band</td><td>Rain Dance</td><td>Thunder</td><td>Crunch</td><td>Iron Tail</td><td>Atk/SpA/Spe</td></tr>
+<tr class="a"><td>570</td><td>Ninetales</td><td>White Herb</td><td>Nasty Plot</td><td>Overheat</td><td>Dark Pulse</td><td>Grudge</td><td>HP/Def</td></tr>
+<tr><td>571</td><td>Machamp</td><td>Wide Lens</td><td>Rock Slide</td><td>Rock Smash</td><td>Rock Climb</td><td>Rock Tomb</td><td>HP/Atk/Def</td></tr>
+<tr class="a"><td>572</td><td>Shuckle</td><td>Brightpowder</td><td>Power Trick</td><td>Double Team</td><td>Stone Edge</td><td>Earthquake</td><td>HP/Def</td></tr>
+<tr><td>573</td><td>Roserade</td><td>Miracle Seed</td><td>Water Sport</td><td>Worry Seed</td><td>Grass Knot</td><td>Toxic</td><td>HP/SpA/SpD</td></tr>
+<tr class="a"><td>574</td><td>Honchkrow</td><td>Sharp Beak</td><td>Defog</td><td>Pluck</td><td>Aerial Ace</td><td>Roost</td><td>SpA/SpD/Spe</td></tr>
+<tr><td>575</td><td>Steelix</td><td>Passho Berry</td><td>Sandstorm</td><td>Rock Tomb</td><td>Stone Edge</td><td>Rock Slide</td><td>Def/SpA</td></tr>
+<tr class="a"><td>576</td><td>Weavile</td><td>Chople Berry</td><td>Night Slash</td><td>Ice Shard</td><td>X-Scissor</td><td>Poison Jab</td><td>Atk/Spe</td></tr>
+<tr><td>577</td><td>Gliscor</td><td>Yache Berry</td><td>Earthquake</td><td>Guillotine</td><td>Poison Jab</td><td>Thunder Fang</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>578</td><td>Tentacruel</td><td>Black Sludge</td><td>Poison Sting</td><td>Toxic Spikes</td><td>Poison Jab</td><td>Toxic</td><td>HP/Def</td></tr>
+<tr><td>579</td><td>Aerodactyl</td><td>Yache Berry</td><td>Giga Impact</td><td>Crunch</td><td>Rock Slide</td><td>Earthquake</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>580</td><td>Porygon2</td><td>Wise Glasses</td><td>Conversion2</td><td>Defense Curl</td><td>Recover</td><td>Tri Attack</td><td>SpA/SpD</td></tr>
+<tr><td>581</td><td>Lickilicky</td><td>Expert Belt</td><td>Surf</td><td>Ice Beam</td><td>Thunderbolt</td><td>Shadow Ball</td><td>HP/SpA</td></tr>
+<tr class="a"><td>582</td><td>Yanmega</td><td>Liechi Berry</td><td>Endure</td><td>Reversal</td><td>Bug Bite</td><td>Return</td><td>Atk/Spe</td></tr>
+<tr><td>583</td><td>Gardevoir</td><td>Chesto Berry</td><td>Calm Mind</td><td>Psychic</td><td>Thunderbolt</td><td>Rest</td><td>Def/SpA</td></tr>
+<tr class="a"><td>584</td><td>Gallade</td><td>Kasib Berry</td><td>Psycho Cut</td><td>Brick Break</td><td>Leaf Blade</td><td>Destiny Bond</td><td>Atk/Spe</td></tr>
+<tr><td>585</td><td>Exeggutor</td><td>Miracle Seed</td><td>Leech Seed</td><td>Worry Seed</td><td>Bullet Seed</td><td>Egg Bomb</td><td>SpD/Spe</td></tr>
+<tr class="a"><td>586</td><td>Starmie</td><td>Damp Rock</td><td>Rain Dance</td><td>Hydro Pump</td><td>Thunder</td><td>Confuse Ray</td><td>HP/SpA</td></tr>
+<tr><td>587</td><td>Flygon</td><td>Heat Rock</td><td>Sunny Day</td><td>Solar Beam</td><td>Fireblast</td><td>U-turn</td><td>SpA/Spe</td></tr>
+<tr class="a"><td>588</td><td>Vaporeon</td><td>Rindo Berry</td><td>Surf</td><td>Aqua Ring</td><td>Acid Armor</td><td>Baton Pass</td><td>HP/SpD</td></tr>
+<tr><td>589</td><td>Jolteon</td><td>Razor Claw</td><td>Thunder Wave</td><td>Thunderbolt</td><td>Iron Tail</td><td>Flash</td><td>Atk/SpA/Spe</td></tr>
+<tr class="a"><td>590</td><td>Flareon</td><td>White Herb</td><td>Overheat</td><td>Giga Impact</td><td>Iron Tail</td><td>Quick Attack</td><td>Atk/SpA</td></tr>
+<tr><td>591</td><td>Espeon</td><td>Brightpowder</td><td>Reflect</td><td>Shadow Ball</td><td>Future Sight</td><td>Morning Sun</td><td>SpA/Spe</td></tr>
+<tr class="a"><td>592</td><td>Umbreon</td><td>Brightpowder</td><td>Toxic</td><td>Attract</td><td>Protect</td><td>Pursuit</td><td>HP/Def/SpD</td></tr>
+<tr><td>593</td><td>Leafeon</td><td>Shed Shell</td><td>Grass Knot</td><td>Aerial Ace</td><td>Energy Ball</td><td>Bite</td><td>HP/Atk</td></tr>
+<tr class="a"><td>594</td><td>Glaceon</td><td>Focus Sash</td><td>Hyper Beam</td><td>Mirror Coat</td><td>Avalanche</td><td>Last Resort</td><td>Atk/Spe</td></tr>
+<tr><td>595</td><td>Lucario</td><td>Razor Fang</td><td>Me First</td><td>Agility</td><td>Force Palm</td><td>Flash Cannon</td><td>HP/Atk/SpA</td></tr>
+<tr class="a"><td>596</td><td>Hippowdon</td><td>Leftovers</td><td>Earthquake</td><td>Ice Fang</td><td>Curse</td><td>Yawn</td><td>Atk/SpD</td></tr>
+<tr><td>597</td><td>Probopass</td><td>King's Rock</td><td>Rock Polish</td><td>Magnet Bomb</td><td>Stone Edge</td><td>Explosion</td><td>HP/Spe</td></tr>
+<tr class="a"><td>598</td><td>Dusknoir</td><td>Brightpowder</td><td>Double Team</td><td>Rest</td><td>Sleep Talk</td><td>Payback</td><td>HP/Def</td></tr>
+<tr><td>599</td><td>Aggron</td><td>Shuca Berry</td><td>Stone Edge</td><td>Avalanche</td><td>Payback</td><td>Earthquake</td><td>HP/Atk</td></tr>
+<tr class="a"><td>600</td><td>Walrein</td><td>Leftovers</td><td>Hail</td><td>Stockpile</td><td>Blizzard</td><td>Protect</td><td>Def/SpD</td></tr>
+<tr><td>601</td><td>Mamoswine</td><td>Leftovers</td><td>Substitute</td><td>Double Team</td><td>Avalanche</td><td>Earthquake</td><td>HP/Def/SpD</td></tr>
+<tr class="a"><td>602</td><td>Lapras</td><td>Leppa Berry</td><td>Sheer Cold</td><td>Sleep Talk</td><td>Rest</td><td>Double Team</td><td>HP/Def/SpD</td></tr>
+<tr><td>603</td><td>Crobat</td><td>Sharp Beak</td><td>Air Cutter</td><td>Air Slash</td><td>Aerial Ace</td><td>U-turn</td><td>Atk/SpA</td></tr>
+<tr class="a"><td>604</td><td>Magnezone</td><td>Brightpowder</td><td>Magnet Rise</td><td>Rain Dance</td><td>Thunder</td><td>Flash Cannon</td><td>Def/SpA</td></tr>
+<tr><td>605</td><td>Rhyperior</td><td>Zoom Lens</td><td>Stone Edge</td><td>Megahorn</td><td>Dragon Rush</td><td>Avalanche</td><td>Atk/SpD</td></tr>
+<tr class="a"><td>606</td><td>Tangrowth</td><td>Expert Belt</td><td>Power Whip</td><td>Earthquake</td><td>Sludge Bomb</td><td>Focus Blast</td><td>Atk/SpA/SpD</td></tr>
+<tr><td>607</td><td>Porygon-Z</td><td>Brightpowder</td><td>Charge Beam</td><td>Ice Beam</td><td>Signal Beam</td><td>Conversion2</td><td>SpA/Spe</td></tr>
+<tr class="a"><td>608</td><td>Gyarados</td><td>Leftovers</td><td>Rest</td><td>Earthquake</td><td>Thrash</td><td>Giga Impact</td><td>HP/Atk</td></tr>
+<tr><td>609</td><td>Snorlax</td><td>Leftovers</td><td>Focus Punch</td><td>Curse</td><td>Substitute</td><td>Yawn</td><td>HP/Def</td></tr>
+<tr class="a"><td>610</td><td>Kingdra</td><td>Wide Lens</td><td>Hydro Pump</td><td>Ice Beam</td><td>Signal Beam</td><td>Rain Dance</td><td>Def/SpA/Spe</td></tr>
+<tr><td>611</td><td>Blissey</td><td>Chople Berry</td><td>Stealth Rock</td><td>Gravity</td><td>Heal Wish</td><td>Fireblast</td><td>HP/Def</td></tr>
+<tr class="a"><td>612</td><td>Milotic</td><td>Leftovers</td><td>Surf</td><td>Ice Beam</td><td>Aqua Ring</td><td>Haze</td><td>HP/Def</td></tr>
+<tr><td>613</td><td>Electivire</td><td>Wide Lens</td><td>Thunder</td><td>Dynamicpunch</td><td>Rock Slide</td><td>Iron Tail</td><td>Atk/Def</td></tr>
+<tr class="a"><td>614</td><td>Magmortar</td><td>Sitrus Berry</td><td>Earthquake</td><td>Flamethrower</td><td>SmokeScreen</td><td>Will-O-Wisp</td><td>Def/SpD</td></tr>
+<tr><td>615</td><td>Togekiss</td><td>Leftovers</td><td>Toxic</td><td>Double Team</td><td>Substitute</td><td>Air Slash</td><td>HP/Def/SpD</td></tr>
+<tr class="a"><td>616</td><td>Arcanine</td><td>Salac Berry</td><td>Endure</td><td>Reversal</td><td>Fire Fang</td><td>Thunder Fang</td><td>Atk/Spe</td></tr>
+<tr><td>617</td><td>Dragonite</td><td>Persim Berry</td><td>Outrage</td><td>Earthquake</td><td>ThunderPunch</td><td>Brick Break</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>618</td><td>Tyranitar</td><td>Quick Claw</td><td>Earthquake</td><td>Dragon Claw</td><td>Shadow Claw</td><td>Iron Head</td><td>HP/Atk</td></tr>
+<tr><td>619</td><td>Salamence</td><td>King's Rock</td><td>Dragon Dance</td><td>Fire Fang</td><td>Thunder Fang</td><td>Zen Headbutt</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>620</td><td>Metagross</td><td>Wise Glasses</td><td>Psychic</td><td>Flash Cannon</td><td>Shadow Ball</td><td>Sludge Bomb</td><td>HP/SpA</td></tr>
+<tr><td>621</td><td>Garchomp</td><td>Razor Claw</td><td>Dragon Pulse</td><td>Flamethrower</td><td>Surf</td><td>Roar</td><td>SpA/Spe</td></tr>
+<tr class="a"><td>622</td><td>Slaking</td><td>Wide Lens</td><td>Hyper Beam</td><td>Blizzard</td><td>Fireblast</td><td>Thunderbolt</td><td>SpA/Spe</td></tr>
+<tr><td>623</td><td>Venusaur</td><td>Quick Claw</td><td>Earthquake</td><td>Seed Bomb</td><td>Return</td><td>Curse</td><td>Atk/SpD</td></tr>
+<tr class="a"><td>624</td><td>Charizard</td><td>King's Rock</td><td>Fire Fang</td><td>Air Slash</td><td>Dragon Rush</td><td>Dragon Dance</td><td>Atk/Spe</td></tr>
+<tr><td>625</td><td>Blastoise</td><td>Quick Claw</td><td>Hydro Pump</td><td>Ice Beam</td><td>Focus Blast</td><td>Rain Dance</td><td>HP/SpA</td></tr>
+<tr class="a"><td>626</td><td>Meganium</td><td>Light Clay</td><td>Wring Out</td><td>Leaf Storm</td><td>Light Screen</td><td>Reflect</td><td>HP/SpA</td></tr>
+<tr><td>627</td><td>Typhlosion</td><td>Shuca Berry</td><td>Flare Blitz</td><td>Earthquake</td><td>Shadow Claw</td><td>Aerial Ace</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>628</td><td>Feraligatr</td><td>Wacan Berry</td><td>Waterfall</td><td>Earthquake</td><td>Ice Fang</td><td>Dragon Dance</td><td>Atk/Spe</td></tr>
+<tr><td>629</td><td>Sceptile</td><td>Occa Berry</td><td>Leaf Storm</td><td>Aerial Ace</td><td>Leaf Blade</td><td>Focus Blast</td><td>HP/Atk/Def/SpA/SpD/Spe</td></tr>
+<tr class="a"><td>630</td><td>Blaziken</td><td>Passho Berry</td><td>Flamethrower</td><td>Focus Blast</td><td>Sand Attack</td><td>Night Slash</td><td>SpA/Spe</td></tr>
+<tr><td>631</td><td>Swampert</td><td>Expert Belt</td><td>Surf</td><td>Mud Bomb</td><td>Ice Beam</td><td>Counter</td><td>HP/SpA</td></tr>
+<tr class="a"><td>632</td><td>Torterra</td><td>Brightpowder</td><td>Frenzy Plant</td><td>Double Team</td><td>Hyper Beam</td><td>Leech Seed</td><td>SpA/SpD</td></tr>
+<tr><td>633</td><td>Infernape</td><td>Wise Glasses</td><td>Flamethrower</td><td>Focus Blast</td><td>Calm Mind</td><td>Grass Knot</td><td>SpA/Spe</td></tr>
+<tr class="a"><td>634</td><td>Empoleon</td><td>Chople Berry</td><td>Waterfall</td><td>Steel Wing</td><td>Avalanche</td><td>Earthquake</td><td>HP/Atk</td></tr>
+<tr><td>635</td><td>Dugtrio</td><td>Razor Claw</td><td>Fissure</td><td>Giga Impact</td><td>Aerial Ace</td><td>Night Slash</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>636</td><td>Marowak</td><td>Thick Club</td><td>Giga Impact</td><td>Thrash</td><td>Earthquake</td><td>Double-Edge</td><td>HP/Atk/Def</td></tr>
+<tr><td>637</td><td>Medicham</td><td>Brightpowder</td><td>Attract</td><td>Focus Punch</td><td>Drain Punch</td><td>Ice Punch</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>638</td><td>Quagsire</td><td>Quick Claw</td><td>Amnesia</td><td>Surf</td><td>Sludge Bomb</td><td>Mud Bomb</td><td>HP/SpA</td></tr>
+<tr><td>639</td><td>Granbull</td><td>Quick Claw</td><td>Ice Fang</td><td>Stone Edge</td><td>Crunch</td><td>Earthquake</td><td>HP/Atk</td></tr>
+<tr class="a"><td>640</td><td>Jynx</td><td>Wise Glasses</td><td>Ice Beam</td><td>Psychic</td><td>Focus Blast</td><td>Shadow Ball</td><td>SpA/Spe</td></tr>
+<tr><td>641</td><td>Mr. Mime</td><td>Metronome</td><td>Psychic</td><td>Safeguard</td><td>Calm Mind</td><td>Substitute</td><td>Def/SpA/Spe</td></tr>
+<tr class="a"><td>642</td><td>Lanturn</td><td>Quick Claw</td><td>Charge</td><td>Charge Beam</td><td>Hydro Pump</td><td>Ice Beam</td><td>SpA/SpD</td></tr>
+<tr><td>643</td><td>Breloom</td><td>Shell Bell</td><td>Spore</td><td>Mind Reader</td><td>Focus Blast</td><td>Energy Ball</td><td>HP/Def/SpA</td></tr>
+<tr class="a"><td>644</td><td>Forretress</td><td>Occa Berry</td><td>Double-Edge</td><td>Earthquake</td><td>Toxic</td><td>Double Team</td><td>Atk/SpA/SpD</td></tr>
+<tr><td>645</td><td>Skarmory</td><td>Life Orb</td><td>Air Cutter</td><td>Steel Wing</td><td>Roost</td><td>Pluck</td><td>Atk/SpD/Spe</td></tr>
+<tr class="a"><td>646</td><td>Absol</td><td>Scope Lens</td><td>Night Slash</td><td>Psycho Cut</td><td>Perish Song</td><td>Me First</td><td>HP/Atk/Spe</td></tr>
+<tr><td>647</td><td>Whiscash</td><td>Zoom Lens</td><td>Hydro Pump</td><td>Blizzard</td><td>Mud Bomb</td><td>Future Sight</td><td>HP/SpA</td></tr>
+<tr class="a"><td>648</td><td>Hariyama</td><td>Salac Berry</td><td>Endure</td><td>Reversal</td><td>Earthquake</td><td>Rock Tomb</td><td>Atk/Spe</td></tr>
+<tr><td>649</td><td>Vespiquen</td><td>Wise Glasses</td><td>Silver Wind</td><td>Sludge Bomb</td><td>Power Gem</td><td>Heal Order</td><td>HP/SpA</td></tr>
+<tr class="a"><td>650</td><td>Raichu</td><td>Focus Sash</td><td>Nasty Plot</td><td>Focus Blast</td><td>Grass Knot</td><td>Thunder</td><td>SpA/Spe</td></tr>
+<tr><td>651</td><td>Dewgong</td><td>Leftovers</td><td>Sheer Cold</td><td>Horn Drill</td><td>Rest</td><td>Sleep Talk</td><td>HP/Def/SpD</td></tr>
+<tr class="a"><td>652</td><td>Manectric</td><td>Damp Rock</td><td>Rain Dance</td><td>Thunder</td><td>Thunder Wave</td><td>Hyper Beam</td><td>SpA/Spe</td></tr>
+<tr><td>653</td><td>Staraptor</td><td>Muscle Band</td><td>Brave Bird</td><td>Return</td><td>U-turn</td><td>FeatherDance</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>654</td><td>Gastrodon</td><td>Rindo Berry</td><td>Surf</td><td>Mud Bomb</td><td>Recover</td><td>Counter</td><td>HP/Def</td></tr>
+<tr><td>655</td><td>Skuntank</td><td>Shuca Berry</td><td>Night Slash</td><td>Poison Jab</td><td>Return</td><td>Flamethrower</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>656</td><td>Vileplume</td><td>Quick Claw</td><td>Drain Punch</td><td>Sludge Bomb</td><td>Swords Dance</td><td>Tickle</td><td>Atk/Def</td></tr>
+<tr><td>657</td><td>Victreebel</td><td>Powerful Herb</td><td>Sludge Bomb</td><td>Energy Ball</td><td>Solar Beam</td><td>Synthesis</td><td>Def/Spe</td></tr>
+<tr class="a"><td>658</td><td>Electrode</td><td>Damp Rock</td><td>Magnet Rise</td><td>Thunder</td><td>Swift</td><td>Rain Dance</td><td>SpA/Spe</td></tr>
+<tr><td>659</td><td>Ludicolo</td><td>Lum Berry</td><td>Hydro Pump</td><td>Ice Beam</td><td>Grass Knot</td><td>Focus Blast</td><td>HP/SpA</td></tr>
+<tr class="a"><td>660</td><td>Shiftry</td><td>Focus Band</td><td>Energy Ball</td><td>Dark Pulse</td><td>Focus Blast</td><td>Nasty Plot</td><td>Def/SpA/SpD</td></tr>
+<tr><td>661</td><td>Exploud</td><td>Quick Claw</td><td>Body Slam</td><td>Earthquake</td><td>Avalanche</td><td>Crunch</td><td>Atk/Def/SpD</td></tr>
+<tr class="a"><td>662</td><td>Glalie</td><td>Scope Lens</td><td>Ice Beam</td><td>Shadow Ball</td><td>Water Pulse</td><td>Safeguard</td><td>HP/SpA</td></tr>
+<tr><td>663</td><td>Lopunny</td><td>Focus Band</td><td>Mirror Coat</td><td>Return</td><td>Charm</td><td>Drain Punch</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>664</td><td>Froslass</td><td>Lax Incense</td><td>Hail</td><td>Blizzard</td><td>Shadow Ball</td><td>Psychic</td><td>HP/SpA</td></tr>
+<tr><td>665</td><td>Ambipom</td><td>Life Orb</td><td>Double Hit</td><td>Shadow Claw</td><td>Brick Break</td><td>Screech</td><td>Atk/Def/Spe</td></tr>
+<tr class="a"><td>666</td><td>Hypno</td><td>Quick Claw</td><td>Zen Headbutt</td><td>Brick Break</td><td>Swagger</td><td>Psych Up</td><td>HP/Atk</td></tr>
+<tr><td>667</td><td>Golem</td><td>Passho Berry</td><td>Substitute</td><td>Focus Punch</td><td>Earthquake</td><td>Secret Power</td><td>HP/Atk/SpD</td></tr>
+<tr class="a"><td>668</td><td>Rhydon</td><td>Passho Berry</td><td>Earthquake</td><td>Arm Hammer</td><td>Shadow Claw</td><td>Stone Edge</td><td>HP/Atk</td></tr>
+<tr><td>669</td><td>Slowbro</td><td>Quick Claw</td><td>Calm Mind</td><td>Psychic</td><td>Shadow Ball</td><td>Flamethrower</td><td>HP/SpA</td></tr>
+<tr class="a"><td>670</td><td>Weezing</td><td>Quick Claw</td><td>Sludge Bomb</td><td>Fireblast</td><td>Dark Pulse</td><td>Destiny Bond</td><td>HP/SpA</td></tr>
+<tr><td>671</td><td>Kangaskhan</td><td>Salac Berry</td><td>Endure</td><td>Reversal</td><td>Crunch</td><td>Earthquake</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>672</td><td>Tauros</td><td>Chesto Berry</td><td>Earthquake</td><td>Facade</td><td>Iron Tail</td><td>Rest</td><td>Atk/Spe</td></tr>
+<tr><td>673</td><td>Alakazam</td><td>Sitrus Berry</td><td>Psychic</td><td>Shadow Ball</td><td>Charge Beam</td><td>Energy Ball</td><td>SpA/Spe</td></tr>
+<tr class="a"><td>674</td><td>Slowking</td><td>Brightpowder</td><td>Psychic</td><td>Surf</td><td>Nasty Plot</td><td>Swagger</td><td>HP/Def/SpA</td></tr>
+<tr><td>675</td><td>Miltank</td><td>Salac Berry</td><td>Endure</td><td>Reversal</td><td>Return</td><td>Rock Slide</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>676</td><td>Altaria</td><td>Dragon Fang</td><td>Dragon Dance</td><td>Dragon Pulse</td><td>Dragonbreath</td><td>Dragon Claw</td><td>HP/Atk/Def</td></tr>
+<tr><td>677</td><td>Toxicroak</td><td>Scope Lens</td><td>Poison Jab</td><td>X-Scissor</td><td>Giga Impact</td><td>Focus Blast</td><td>HP/Atk</td></tr>
+<tr class="a"><td>678</td><td>Abomasnow</td><td>Zoom Lens</td><td>GrassWhistle</td><td>Sheer Cold</td><td>Focus Blast</td><td>Water Pulse</td><td>HP/SpA</td></tr>
+<tr><td>679</td><td>Nidoqueen</td><td>Brightpowder</td><td>Stone Edge</td><td>Avalanche</td><td>Iron Tail</td><td>Aerial Ace</td><td>HP/Atk/Spe</td></tr>
+<tr class="a"><td>680</td><td>Nidoking</td><td>Expert Belt</td><td>Earth Power</td><td>Sludge Bomb</td><td>Ice Beam</td><td>Shadow Ball</td><td>HP/SpA</td></tr>
+<tr><td>681</td><td>Cradily</td><td>Lum Berry</td><td>Mirror Coat</td><td>Energy Ball</td><td>Stone Edge</td><td>Ingrain</td><td>HP/Def/SpD</td></tr>
+<tr class="a"><td>682</td><td>Armaldo</td><td>Focus Band</td><td>Sandstorm</td><td>Brick Break</td><td>Aerial Ace</td><td>Giga Impact</td><td>Atk/Def</td></tr>
+<tr><td>683</td><td>Bastiodon</td><td>Muscle Band</td><td>Iron Head</td><td>Iron Tail</td><td>Metal Burst</td><td>Stone Edge</td><td>HP/Atk/Def</td></tr>
+<tr class="a"><td>684</td><td>Floatzel</td><td>Brightpowder</td><td>Waterfall</td><td>Ice Fang</td><td>Crunch</td><td>Rain Dance</td><td>HP/Atk</td></tr>
+<tr><td>685</td><td>Mismagius</td><td>Spell Tag</td><td>Shadow Ball</td><td>Payback</td><td>Energy Ball</td><td>Psychic</td><td>HP/Def/SpD</td></tr>
+<tr class="a"><td>686</td><td>Drifblim</td><td>Wise Glasses</td><td>Hypnosis</td><td>Dream Eater</td><td>Charge Beam</td><td>Shadow Ball</td><td>Def/SpA/SpD</td></tr>
+<tr><td>687</td><td>Golduck</td><td>Muscle Band</td><td>Swagger</td><td>Psych Up</td><td>Waterfall</td><td>Cross Chop</td><td>Atk/Def</td></tr>
+<tr class="a"><td>688</td><td>Poliwrath</td><td>King's Rock</td><td>Focus Punch</td><td>Strength</td><td>Giga Impact</td><td>Earthquake</td><td>HP/Atk/Def</td></tr>
+<tr><td>689</td><td>Rapidash</td><td>Focus Band</td><td>Fury Attack</td><td>Megahorn</td><td>Horn Drill</td><td>Poison Jab</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>690</td><td>Muk</td><td>Quick Claw</td><td>Gunk Shot</td><td>Fling</td><td>Explosion</td><td>Shadow Punch</td><td>HP/Atk</td></tr>
+<tr><td>691</td><td>Gengar</td><td>Brightpowder</td><td>Hypnosis</td><td>Dream Eater</td><td>Shadow Ball</td><td>Focus Blast</td><td>SpA/Spe</td></tr>
+<tr class="a"><td>692</td><td>Ampharos</td><td>Chesto Berry</td><td>Thunder Wave</td><td>Charge Beam</td><td>Signal Beam</td><td>Rest</td><td>HP/Def/SpD</td></tr>
+<tr><td>693</td><td>Politoed</td><td>Salac Berry</td><td>Belly Drum</td><td>Waterfall</td><td>Earthquake</td><td>Rest</td><td>HP/Def/SpD</td></tr>
+<tr class="a"><td>694</td><td>Pinsir</td><td>Salac Berry</td><td>Endure</td><td>Flail</td><td>X-Scissor</td><td>Superpower</td><td>Atk/Spe</td></tr>
+<tr><td>695</td><td>Scizor</td><td>Occa Berry</td><td>X-Scissor</td><td>Iron Head</td><td>Aerial Ace</td><td>Night Slash</td><td>HP/Atk</td></tr>
+<tr class="a"><td>696</td><td>Heracross</td><td>Coba Berry</td><td>Megahorn</td><td>Stone Edge</td><td>Facade</td><td>Shadow Claw</td><td>Atk/Spe</td></tr>
+<tr><td>697</td><td>Ursaring</td><td>Toxic Orb</td><td>Facade</td><td>Protect</td><td>Earthquake</td><td>Crunch</td><td>HP/Atk/Spe</td></tr>
+<tr class="a"><td>698</td><td>Houndoom</td><td>White Herb</td><td>Sunny Day</td><td>Overheat</td><td>Solar Beam</td><td>Dark Pulse</td><td>SpA/Spe</td></tr>
+<tr><td>699</td><td>Donphan</td><td>Brightpowder</td><td>Earthquake</td><td>Stone Edge</td><td>Thunder Fang</td><td>Ice Shard</td><td>Atk/SpD</td></tr>
+<tr class="a"><td>700</td><td>Wailord</td><td>Leftovers</td><td>Curse</td><td>Earthquake</td><td>Waterfall</td><td>Double Team</td><td>HP/Atk/SpD</td></tr>
+<tr><td>701</td><td>Claydol</td><td>Quick Claw</td><td>Explosion</td><td>Earthquake</td><td>Stone Edge</td><td>Gyro Ball</td><td>HP/Atk</td></tr>
+<tr class="a"><td>702</td><td>Rampardos</td><td>Salac Berry</td><td>Endure</td><td>Stone Edge</td><td>Earthquake</td><td>Giga Impact</td><td>Atk/Spe</td></tr>
+<tr><td>703</td><td>Bronzong</td><td>Macho Brace</td><td>Trick Room</td><td>Gyro Ball</td><td>Earthquake</td><td>Explosion</td><td>HP/Atk</td></tr>
+<tr class="a"><td>704</td><td>Drapion</td><td>King's Rock</td><td>Poison Fang</td><td>Fire Fang</td><td>Thunder Fang</td><td>Ice Fang</td><td>Atk/Spe</td></tr>
+<tr><td>705</td><td>Luxray</td><td>Shuca Berry</td><td>Attract</td><td>Swagger</td><td>Thunder Wave</td><td>Ice Fang</td><td>HP/Def/SpD</td></tr>
+<tr class="a"><td>706</td><td>Ninetales</td><td>Grip Claw</td><td>Fire Spin</td><td>Hypnosis</td><td>Fireblast</td><td>Dream Eater</td><td>Def/SpA</td></tr>
+<tr><td>707</td><td>Machamp</td><td>Chesto Berry</td><td>Brick Break</td><td>Earthquake</td><td>ThunderPunch</td><td>Rest</td><td>HP/Atk</td></tr>
+<tr class="a"><td>708</td><td>Shuckle</td><td>Leftovers</td><td>Double Team</td><td>Substitute</td><td>Toxic</td><td>Sandstorm</td><td>HP/Def/SpD</td></tr>
+<tr><td>709</td><td>Roserade</td><td>Coba Berry</td><td>Sleep Powder</td><td>Sludge Bomb</td><td>Shadow Ball</td><td>Giga Drain</td><td>Def/SpA</td></tr>
+<tr class="a"><td>710</td><td>Honchkrow</td><td>Quick Claw</td><td>Sucker Punch</td><td>Drill Peck</td><td>Frustration</td><td>Roost</td><td>Atk/SpD</td></tr>
+<tr><td>711</td><td>Steelix</td><td>Metal Coat</td><td>Flash Cannon</td><td>Gyro Ball</td><td>Iron Tail</td><td>Stealth Rock</td><td>HP/Def/SpA</td></tr>
+<tr class="a"><td>712</td><td>Weavile</td><td>Choice Band</td><td>Night Slash</td><td>Ice Shard</td><td>Aerial Ace</td><td>Brick Break</td><td>Atk/Spe</td></tr>
+<tr><td>713</td><td>Gliscor</td><td>Focus Sash</td><td>Counter</td><td>Guillotine</td><td>U-turn</td><td>Payback</td><td>HP/Spe</td></tr>
+<tr class="a"><td>714</td><td>Tentacruel</td><td>Focus Sash</td><td>Mirror Coat</td><td>Surf</td><td>Sludge Bomb</td><td>Giga Drain</td><td>HP/SpA</td></tr>
+<tr><td>715</td><td>Aerodactyl</td><td>King's Rock</td><td>Rock Slide</td><td>Iron Head</td><td>Ice Fang</td><td>Thunder Fang</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>716</td><td>Porygon2</td><td>Quick Claw</td><td>Tri Attack</td><td>Ice Beam</td><td>Signal Beam</td><td>Shadow Ball</td><td>HP/SpA</td></tr>
+<tr><td>717</td><td>Lickilicky</td><td>Lum Berry</td><td>Curse</td><td>Rest</td><td>Return</td><td>Gyro Ball</td><td>HP/Atk</td></tr>
+<tr class="a"><td>718</td><td>Yanmega</td><td>Quick Claw</td><td>Bug Buzz</td><td>Air Slash</td><td>AncientPower</td><td>Shadow Ball</td><td>SpA/SpD</td></tr>
+<tr><td>719</td><td>Gardevoir</td><td>Brightpowder</td><td>Psychic</td><td>Thunderbolt</td><td>Energy Ball</td><td>Focus Blast</td><td>Def/SpA</td></tr>
+<tr class="a"><td>720</td><td>Gallade</td><td>Iron Ball</td><td>Trick Room</td><td>Close Combat</td><td>Aerial Ace</td><td>Stone Edge</td><td>Atk/Def</td></tr>
+<tr><td>721</td><td>Exeggutor</td><td>Expert Belt</td><td>Sunny Day</td><td>Solar Beam</td><td>Psychic</td><td>Sludge Bomb</td><td>HP/SpA/Spe</td></tr>
+<tr class="a"><td>722</td><td>Starmie</td><td>Expert Belt</td><td>Psychic</td><td>Thunderbolt</td><td>Ice Beam</td><td>Surf</td><td>SpA/Spe</td></tr>
+<tr><td>723</td><td>Flygon</td><td>Scope Lens</td><td>Dragon Pulse</td><td>Flamethrower</td><td>Silver Wind</td><td>Giga Drain</td><td>SpA/Spe</td></tr>
+<tr class="a"><td>724</td><td>Vaporeon</td><td>Damp Rock</td><td>Rain Dance</td><td>Hydro Pump</td><td>Shadow Ball</td><td>Yawn</td><td>Def/SpA</td></tr>
+<tr><td>725</td><td>Jolteon</td><td>Brightpowder</td><td>Thunderbolt</td><td>Shadow Ball</td><td>Captivate</td><td>Yawn</td><td>SpA/Spe</td></tr>
+<tr class="a"><td>726</td><td>Flareon</td><td>Charcoal</td><td>Fire Fang</td><td>Return</td><td>Bite</td><td>Will-O-Wisp</td><td>HP/Atk</td></tr>
+<tr><td>727</td><td>Espeon</td><td>Razor Claw</td><td>Calm Mind</td><td>Psychic</td><td>Shadow Ball</td><td>Hyper Beam</td><td>SpA/Spe</td></tr>
+<tr class="a"><td>728</td><td>Umbreon</td><td>Scope Lens</td><td>Confuse Ray</td><td>Assurance</td><td>Last Resort</td><td>Shadow Ball</td><td>HP/Atk</td></tr>
+<tr><td>729</td><td>Leafeon</td><td>Wide Lens</td><td>GrassWhistle</td><td>Giga Impact</td><td>Iron Tail</td><td>Leaf Blade</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>730</td><td>Glaceon</td><td>Brightpowder</td><td>Yawn</td><td>Water Pulse</td><td>Ice Beam</td><td>Shadow Ball</td><td>SpA/SpD</td></tr>
+<tr><td>731</td><td>Lucario</td><td>Salac Berry</td><td>Endure</td><td>Reversal</td><td>Earthquake</td><td>Stone Edge</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>732</td><td>Hippowdon</td><td>Sitrus Berry</td><td>Sand Tomb</td><td>Yawn</td><td>Ice Fang</td><td>Fissure</td><td>HP/SpD</td></tr>
+<tr><td>733</td><td>Probopass</td><td>Hard Stone</td><td>Thunder Wave</td><td>Rock Tomb</td><td>Rock Slide</td><td>Rollout</td><td>HP/Atk</td></tr>
+<tr class="a"><td>734</td><td>Dusknoir</td><td>Spell Tag</td><td>Trick Room</td><td>Shadow Punch</td><td>Earthquake</td><td>Ice Punch</td><td>HP/Atk</td></tr>
+<tr><td>735</td><td>Aggron</td><td>Quick Claw</td><td>Iron Tail</td><td>Stone Edge</td><td>Earthquake</td><td>Sandstorm</td><td>Atk/SpD</td></tr>
+<tr class="a"><td>736</td><td>Walrein</td><td>Brightpowder</td><td>Sheer Cold</td><td>Fissure</td><td>Rest</td><td>Sleep Talk</td><td>Def/SpD</td></tr>
+<tr><td>737</td><td>Mamoswine</td><td>Brightpowder</td><td>Hail</td><td>Earthquake</td><td>Fissure</td><td>Ice Fang</td><td>Def/SpD</td></tr>
+<tr class="a"><td>738</td><td>Lapras</td><td>Chople Berry</td><td>Surf</td><td>Thunderbolt</td><td>Ice Beam</td><td>Psychic</td><td>SpA/SpD</td></tr>
+<tr><td>739</td><td>Crobat</td><td>Lum Berry</td><td>Hypnosis</td><td>Roost</td><td>Sludge Bomb</td><td>Dark Pulse</td><td>HP/Spe</td></tr>
+<tr class="a"><td>740</td><td>Magnezone</td><td>Shuca Berry</td><td>Magnet Rise</td><td>Charge Beam</td><td>Flash Cannon</td><td>Thunder Wave</td><td>Def/SpA</td></tr>
+<tr><td>741</td><td>Rhyperior</td><td>Choice Scarf</td><td>Earthquake</td><td>Megahorn</td><td>Rock Wrecker</td><td>Horn Drill</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>742</td><td>Tangrowth</td><td>Focus Sash</td><td>Sunny Day</td><td>Solar Beam</td><td>Wring Out</td><td>Sludge Bomb</td><td>SpA/Spe</td></tr>
+<tr><td>743</td><td>Porygon-Z</td><td>Leftovers</td><td>Charge Beam</td><td>Tri Attack</td><td>Magnet Rise</td><td>Conversion</td><td>SpA/Spe</td></tr>
+<tr class="a"><td>744</td><td>Gyarados</td><td>King's Rock</td><td>Waterfall</td><td>Ice Fang</td><td>Bite</td><td>Dragon Dance</td><td>Def/SpD/Spe</td></tr>
+<tr><td>745</td><td>Snorlax</td><td>Iron Ball</td><td>Last Resort</td><td>Fling</td><td>Recycle</td><td>Yawn</td><td>HP/Atk/Def</td></tr>
+<tr class="a"><td>746</td><td>Kingdra</td><td>Haban Berry</td><td>Dragon Pulse</td><td>Hydro Pump</td><td>Ice Beam</td><td>Dragon Dance</td><td>SpA/Spe</td></tr>
+<tr><td>747</td><td>Blissey</td><td>Brightpowder</td><td>Counter</td><td>Hyper Beam</td><td>Shadow Ball</td><td>Snatch</td><td>HP/Def</td></tr>
+<tr class="a"><td>748</td><td>Milotic</td><td>Wide Lens</td><td>Hydro Pump</td><td>Ice Beam</td><td>Mirror Coat</td><td>Recover</td><td>HP/Def</td></tr>
+<tr><td>749</td><td>Electivire</td><td>Wise Glasses</td><td>Thunderbolt</td><td>Psychic</td><td>Focus Blast</td><td>Barrier</td><td>Def/SpA</td></tr>
+<tr class="a"><td>750</td><td>Magmortar</td><td>Passho Berry</td><td>Flare Blitz</td><td>ThunderPunch</td><td>Earthquake</td><td>Brick Break</td><td>Atk/Def</td></tr>
+<tr><td>751</td><td>Togekiss</td><td>Scope Lens</td><td>Water Pulse</td><td>Flamethrower</td><td>Silver Wind</td><td>AncientPower</td><td>HP/SpA</td></tr>
+<tr class="a"><td>752</td><td>Arcanine</td><td>White Herb</td><td>Overheat</td><td>Thunder Fang</td><td>Crunch</td><td>Iron Tail</td><td>HP/Atk/Spe</td></tr>
+<tr><td>753</td><td>Dragonite</td><td>White Herb</td><td>Draco Meteor</td><td>Thunder</td><td>Hyper Beam</td><td>Safeguard</td><td>HP/SpA</td></tr>
+<tr class="a"><td>754</td><td>Tyranitar</td><td>Choice Scarf</td><td>Crunch</td><td>Stone Edge</td><td>Earthquake</td><td>Aerial Ace</td><td>Atk/Spe</td></tr>
+<tr><td>755</td><td>Salamence</td><td>Petaya Berry</td><td>Dragon Pulse</td><td>Hydro Pump</td><td>Flamethrower</td><td>Substitute</td><td>SpA/Spe</td></tr>
+<tr class="a"><td>756</td><td>Metagross</td><td>Quick Claw</td><td>Meteor Mash</td><td>Earthquake</td><td>Zen Headbutt</td><td>Arm Hammer</td><td>HP/Atk</td></tr>
+<tr><td>757</td><td>Garchomp</td><td>White Herb</td><td>Draco Meteor</td><td>Earthquake</td><td>Crunch</td><td>Poison Jab</td><td>HP/Atk/SpA</td></tr>
+<tr class="a"><td>758</td><td>Slaking</td><td>Expert Belt</td><td>Return</td><td>Arm Hammer</td><td>Shadow Claw</td><td>Earthquake</td><td>Atk/Spe</td></tr>
+<tr><td>759</td><td>Venusaur</td><td>Quick Claw</td><td>Frenzy Plant</td><td>Sludge Bomb</td><td>Hyper Beam</td><td>Synthesis</td><td>HP/SpA</td></tr>
+<tr class="a"><td>760</td><td>Charizard</td><td>Brightpowder</td><td>Blast Burn</td><td>Air Slash</td><td>Dragon Pulse</td><td>AncientPower</td><td>SpA/Spe</td></tr>
+<tr><td>761</td><td>Blastoise</td><td>Quick Claw</td><td>Hydro Cannon</td><td>Ice Beam</td><td>Hyper Beam</td><td>Focus Blast</td><td>HP/SpA</td></tr>
+<tr class="a"><td>762</td><td>Meganium</td><td>Quick Claw</td><td>Frenzy Plant</td><td>AncientPower</td><td>Hyper Beam</td><td>Light Screen</td><td>HP/SpA</td></tr>
+<tr><td>763</td><td>Typhlosion</td><td>White Herb</td><td>Overheat</td><td>Eruption</td><td>Focus Blast</td><td>Sunny Day</td><td>SpA/Spe</td></tr>
+<tr class="a"><td>764</td><td>Feraligatr</td><td>Quick Claw</td><td>Hydro Cannon</td><td>Ice Beam</td><td>Focus Blast</td><td>AncientPower</td><td>HP/SpA</td></tr>
+<tr><td>765</td><td>Sceptile</td><td>Scope Lens</td><td>Leaf Blade</td><td>X-Scissor</td><td>Dragon Claw</td><td>Crunch</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>766</td><td>Blaziken</td><td>Leftovers</td><td>Brave Bird</td><td>Flare Blitz</td><td>Brick Break</td><td>Stone Edge</td><td>Atk/Spe</td></tr>
+<tr><td>767</td><td>Swampert</td><td>Rindo Berry</td><td>Earthquake</td><td>Waterfall</td><td>Stone Edge</td><td>Mirror Coat</td><td>HP/Atk</td></tr>
+<tr class="a"><td>768</td><td>Torterra</td><td>Quick Claw</td><td>Earthquake</td><td>Stone Edge</td><td>Wood Hammer</td><td>Curse</td><td>HP/Atk</td></tr>
+<tr><td>769</td><td>Infernape</td><td>King's Rock</td><td>Flare Blitz</td><td>Close Combat</td><td>Earthquake</td><td>ThunderPunch</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>770</td><td>Empoleon</td><td>Zoom Lens</td><td>Hydro Cannon</td><td>Blizzard</td><td>Hyper Beam</td><td>Grass Knot</td><td>HP/SpA/Spe</td></tr>
+<tr><td>771</td><td>Dugtrio</td><td>Muscle Band</td><td>Earthquake</td><td>Stone Edge</td><td>Slash</td><td>Shadow Claw</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>772</td><td>Marowak</td><td>Thick Club</td><td>Earthquake</td><td>Stone Edge</td><td>Iron Head</td><td>Fling</td><td>HP/Atk/SpD</td></tr>
+<tr><td>773</td><td>Medicham</td><td>Wise Glasses</td><td>Calm Mind</td><td>Focus Blast</td><td>Psychic</td><td>Shadow Ball</td><td>SpA/Spe</td></tr>
+<tr class="a"><td>774</td><td>Quagsire</td><td>Muscle Band</td><td>Earthquake</td><td>Curse</td><td>Stone Edge</td><td>Waterfall</td><td>HP/Atk</td></tr>
+<tr><td>775</td><td>Granbull</td><td>Quick Claw</td><td>Return</td><td>Close Combat</td><td>Earthquake</td><td>Stone Edge</td><td>HP/Atk</td></tr>
+<tr class="a"><td>776</td><td>Jynx</td><td>Leftovers</td><td>Mean Look</td><td>Lovely Kiss</td><td>Perish Song</td><td>Drain Punch</td><td>HP/Def/SpD</td></tr>
+<tr><td>777</td><td>Mr. Mime</td><td>Leftovers</td><td>Psychic</td><td>Charge Beam</td><td>Shadow Ball</td><td>Focus Blast</td><td>HP/SpD</td></tr>
+<tr class="a"><td>778</td><td>Lanturn</td><td>Leftovers</td><td>Surf</td><td>Thunderbolt</td><td>Ice Beam</td><td>Confuse Ray</td><td>HP/SpA</td></tr>
+<tr><td>779</td><td>Breloom</td><td>Focus Sash</td><td>Spore</td><td>Focus Punch</td><td>Seed Bomb</td><td>Counter</td><td>HP/Atk</td></tr>
+<tr class="a"><td>780</td><td>Forretress</td><td>Quick Claw</td><td>Explosion</td><td>Double-Edge</td><td>Rock Slide</td><td>Earthquake</td><td>Atk/SpA/Spe</td></tr>
+<tr><td>781</td><td>Skarmory</td><td>Metal Coat</td><td>Night Slash</td><td>Air Slash</td><td>X-Scissor</td><td>Flash Cannon</td><td>HP/Atk/Spe</td></tr>
+<tr class="a"><td>782</td><td>Absol</td><td>Choice Scarf</td><td>Night Slash</td><td>Shadow Claw</td><td>Slash</td><td>Zen Headbutt</td><td>Atk/Spe</td></tr>
+<tr><td>783</td><td>Whiscash</td><td>Muscle Band</td><td>Earthquake</td><td>Aqua Tail</td><td>Zen Headbutt</td><td>Stone Edge</td><td>HP/Atk</td></tr>
+<tr class="a"><td>784</td><td>Hariyama</td><td>Scope Lens</td><td>Focus Energy</td><td>Cross Chop</td><td>Poison Jab</td><td>Stone Edge</td><td>HP/Atk</td></tr>
+<tr><td>785</td><td>Vespiquen</td><td>Sharp Beak</td><td>Power Gem</td><td>X-Scissor</td><td>Aerial Ace</td><td>U-turn</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>786</td><td>Raichu</td><td>Shell Bell</td><td>Volt Tackle</td><td>Iron Tail</td><td>Brick Break</td><td>Light Screen</td><td>Atk/SpD/Spe</td></tr>
+<tr><td>787</td><td>Dewgong</td><td>Chesto Berry</td><td>Surf</td><td>Ice Beam</td><td>Signal Beam</td><td>Rest</td><td>HP/SpA</td></tr>
+<tr class="a"><td>788</td><td>Manectric</td><td>Brightpowder</td><td>Thunderbolt</td><td>Flamethrower</td><td>Thunder Wave</td><td>Captivate</td><td>SpA/Spe</td></tr>
+<tr><td>789</td><td>Staraptor</td><td>Choice Band</td><td>Brave Bird</td><td>Close Combat</td><td>Frustration</td><td>Steel Wing</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>790</td><td>Gastrodon</td><td>Quick Claw</td><td>Earthquake</td><td>Waterfall</td><td>Stone Edge</td><td>Curse</td><td>HP/SpD</td></tr>
+<tr><td>791</td><td>Skuntank</td><td>Muscle Band</td><td>Explosion</td><td>Night Slash</td><td>Crunch</td><td>Poison Jab</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>792</td><td>Vileplume</td><td>Powerful Herb</td><td>Sludge Bomb</td><td>Energy Ball</td><td>Solar Beam</td><td>Synthesis</td><td>Def/SpA</td></tr>
+<tr><td>793</td><td>Victreebel</td><td>Focus Sash</td><td>Solar Beam</td><td>Sludge Bomb</td><td>Wring Out</td><td>Sunny Day</td><td>SpA/Spe</td></tr>
+<tr class="a"><td>794</td><td>Electrode</td><td>Focus Sash</td><td>Magnet Rise</td><td>Gyro Ball</td><td>Screech</td><td>Explosion</td><td>Atk/Def</td></tr>
+<tr><td>795</td><td>Ludicolo</td><td>Damp Rock</td><td>Surf</td><td>Ice Beam</td><td>Giga Drain</td><td>Rain Dance</td><td>Def/SpA</td></tr>
+<tr class="a"><td>796</td><td>Shiftry</td><td>Brightpowder</td><td>Sunny Day</td><td>Explosion</td><td>Solar Beam</td><td>Dark Pulse</td><td>HP/SpA</td></tr>
+<tr><td>797</td><td>Exploud</td><td>White Herb</td><td>Hyper Voice</td><td>Overheat</td><td>Surf</td><td>Ice Beam</td><td>Def/SpA/SpD</td></tr>
+<tr class="a"><td>798</td><td>Glalie</td><td>Quick Claw</td><td>Hail</td><td>Blizzard</td><td>Dark Pulse</td><td>Explosion</td><td>HP/SpA</td></tr>
+<tr><td>799</td><td>Lopunny</td><td>Scope Lens</td><td>Charge Beam</td><td>Ice Beam</td><td>Shadow Ball</td><td>Grass Knot</td><td>SpA/Spe</td></tr>
+<tr class="a"><td>800</td><td>Froslass</td><td>Expert Belt</td><td>Ice Beam</td><td>Shadow Ball</td><td>Thunderbolt</td><td>Destiny Bond</td><td>SpA/Spe</td></tr>
+<tr><td>801</td><td>Ambipom</td><td>Metronome</td><td>Last Resort</td><td>Fake Out</td><td>Protect</td><td>Agility</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>802</td><td>Hypno</td><td>Iron Ball</td><td>Trick Room</td><td>Psychic</td><td>Shadow Ball</td><td>Hypnosis</td><td>HP/SpA</td></tr>
+<tr><td>803</td><td>Golem</td><td>Quick Claw</td><td>Explosion</td><td>Earthquake</td><td>Stone Edge</td><td>Brick Break</td><td>HP/Atk</td></tr>
+<tr class="a"><td>804</td><td>Rhydon</td><td>Quick Claw</td><td>Earthquake</td><td>Megahorn</td><td>Stone Edge</td><td>Horn Drill</td><td>HP/Atk</td></tr>
+<tr><td>805</td><td>Slowbro</td><td>Leftovers</td><td>Trick Room</td><td>Surf</td><td>Psychic</td><td>Ice Beam</td><td>HP/SpA</td></tr>
+<tr class="a"><td>806</td><td>Weezing</td><td>Payapa Berry</td><td>Explosion</td><td>Payback</td><td>Double Hit</td><td>Gyro Ball</td><td>Atk/SpD</td></tr>
+<tr><td>807</td><td>Kangaskhan</td><td>Wide Lens</td><td>Dizzy Punch</td><td>Giga Impact</td><td>Crunch</td><td>Outrage</td><td>HP/Atk/Def</td></tr>
+<tr class="a"><td>808</td><td>Tauros</td><td>Choice Band</td><td>Return</td><td>Stone Edge</td><td>Earthquake</td><td>Zen Headbutt</td><td>Atk/Spe</td></tr>
+<tr><td>809</td><td>Alakazam</td><td>Brightpowder</td><td>Psychic</td><td>Shadow Ball</td><td>Energy Ball</td><td>Focus Blast</td><td>SpA/Spe</td></tr>
+<tr class="a"><td>810</td><td>Slowking</td><td>Leftovers</td><td>Calm Mind</td><td>Psychic</td><td>Surf</td><td>Ice Beam</td><td>HP/SpA</td></tr>
+<tr><td>811</td><td>Miltank</td><td>Quick Claw</td><td>Curse</td><td>Milk Drink</td><td>Return</td><td>Earthquake</td><td>HP/SpD</td></tr>
+<tr class="a"><td>812</td><td>Altaria</td><td>Chesto Berry</td><td>Dragon Dance</td><td>Dragon Claw</td><td>Earthquake</td><td>Rest</td><td>HP/SpD</td></tr>
+<tr><td>813</td><td>Toxicroak</td><td>Muscle Band</td><td>Earthquake</td><td>Brick Break</td><td>X-Scissor</td><td>Stone Edge</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>814</td><td>Abomasnow</td><td>Wise Glasses</td><td>Blizzard</td><td>Shadow Ball</td><td>Energy Ball</td><td>Hyper Beam</td><td>HP/SpA</td></tr>
+<tr><td>815</td><td>Nidoqueen</td><td>Scope Lens</td><td>Earthquake</td><td>Shadow Claw</td><td>Crunch</td><td>Superpower</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>816</td><td>Nidoking</td><td>Muscle Band</td><td>Shadow Claw</td><td>Avalanche</td><td>Earthquake</td><td>Megahorn</td><td>Atk/Spe</td></tr>
+<tr><td>817</td><td>Cradily</td><td>Leftovers</td><td>Stockpile</td><td>Toxic</td><td>Ingrain</td><td>Double Team</td><td>HP/Def/SpD</td></tr>
+<tr class="a"><td>818</td><td>Armaldo</td><td>Quick Claw</td><td>Swords Dance</td><td>Stone Edge</td><td>X-Scissor</td><td>Earthquake</td><td>Atk/SpD</td></tr>
+<tr><td>819</td><td>Bastiodon</td><td>Shuca Berry</td><td>Iron Tail</td><td>Stone Edge</td><td>Earthquake</td><td>Giga Impact</td><td>HP/Atk</td></tr>
+<tr class="a"><td>820</td><td>Floatzel</td><td>Wave Incense</td><td>Ice Fang</td><td>Aqua Jet</td><td>Rain Dance</td><td>Dig</td><td>HP/Def/Spe</td></tr>
+<tr><td>821</td><td>Mismagius</td><td>Focus Sash</td><td>Shadow Ball</td><td>Thunderbolt</td><td>Energy Ball</td><td>Destiny Bond</td><td>SpA/Spe</td></tr>
+<tr class="a"><td>822</td><td>Drifblim</td><td>Liechi Berry</td><td>Explosion</td><td>Endure</td><td>Return</td><td>Hypnosis</td><td>Atk/Spe</td></tr>
+<tr><td>823</td><td>Golduck</td><td>Wacan Berry</td><td>Hydro Pump</td><td>Psychic</td><td>Ice Beam</td><td>Calm Mind</td><td>Def/SpA</td></tr>
+<tr class="a"><td>824</td><td>Poliwrath</td><td>Black Belt</td><td>Brick Break</td><td>Surf</td><td>Focus Blast</td><td>Bulk Up</td><td>HP/Def/SpA</td></tr>
+<tr><td>825</td><td>Rapidash</td><td>Passho Berry</td><td>Flare Blitz</td><td>Megahorn</td><td>Hypnosis</td><td>Sunny Day</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>826</td><td>Muk</td><td>Zoom Lens</td><td>Curse</td><td>Gunk Shot</td><td>Payback</td><td>Shadow Sneak</td><td>HP/Atk</td></tr>
+<tr><td>827</td><td>Gengar</td><td>Life Orb</td><td>Shadow Ball</td><td>Sludge Bomb</td><td>Thunderbolt</td><td>Destiny Bond</td><td>SpA/Spe</td></tr>
+<tr class="a"><td>828</td><td>Ampharos</td><td>Zoom Lens</td><td>Thunder</td><td>Focus Blast</td><td>Charge Beam</td><td>Power Gem</td><td>HP/SpA</td></tr>
+<tr><td>829</td><td>Politoed</td><td>Wacan Berry</td><td>Hydro Pump</td><td>Hypnosis</td><td>Ice Beam</td><td>Payback</td><td>SpA/SpD</td></tr>
+<tr class="a"><td>830</td><td>Pinsir</td><td>Choice Scarf</td><td>X-Scissor</td><td>Earthquake</td><td>Close Combat</td><td>Guillotine</td><td>HP/Atk</td></tr>
+<tr><td>831</td><td>Scizor</td><td>Salac Berry</td><td>Endure</td><td>Reversal</td><td>X-Scissor</td><td>Iron Head</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>832</td><td>Heracross</td><td>Salac Berry</td><td>Endure</td><td>Reversal</td><td>Megahorn</td><td>Earthquake</td><td>Atk/Spe</td></tr>
+<tr><td>833</td><td>Ursaring</td><td>Quick Claw</td><td>Return</td><td>Earthquake</td><td>Arm Hammer</td><td>Counter</td><td>HP/Atk</td></tr>
+<tr class="a"><td>834</td><td>Houndoom</td><td>Shuca Berry</td><td>Flamethrower</td><td>Dark Pulse</td><td>Sludge Bomb</td><td>Attract</td><td>SpA/Spe</td></tr>
+<tr><td>835</td><td>Donphan</td><td>Quick Claw</td><td>Fissure</td><td>Earthquake</td><td>Poison Jab</td><td>Gyro Ball</td><td>HP/SpD</td></tr>
+<tr class="a"><td>836</td><td>Wailord</td><td>Quick Claw</td><td>Hydro Pump</td><td>Ice Beam</td><td>Fissure</td><td>Captivate</td><td>HP/SpA</td></tr>
+<tr><td>837</td><td>Claydol</td><td>Macho Brace</td><td>Trick Room</td><td>Gyro Ball</td><td>Earthquake</td><td>Explosion</td><td>HP/Atk</td></tr>
+<tr class="a"><td>838</td><td>Rampardos</td><td>Choice Scarf</td><td>Head Smash</td><td>Earthquake</td><td>Giga Impact</td><td>Iron Tail</td><td>Atk/Spe</td></tr>
+<tr><td>839</td><td>Bronzong</td><td>Chesto Berry</td><td>Psychic</td><td>Shadow Ball</td><td>Rest</td><td>Calm Mind</td><td>HP/Def</td></tr>
+<tr class="a"><td>840</td><td>Drapion</td><td>Scope Lens</td><td>Night Slash</td><td>Cross Poison</td><td>Earthquake</td><td>Aerial Ace</td><td>Atk/Spe</td></tr>
+<tr><td>841</td><td>Luxray</td><td>Muscle Band</td><td>Thunder Fang</td><td>Attract</td><td>Crunch</td><td>Ice Fang</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>842</td><td>Ninetales</td><td>Shuca Berry</td><td>Calm Mind</td><td>Flamethrower</td><td>Energy Ball</td><td>Extrasensory</td><td>SpA/Spe</td></tr>
+<tr><td>843</td><td>Machamp</td><td>Choice Scarf</td><td>Dynamicpunch</td><td>Rock Slide</td><td>Earthquake</td><td>Ice Punch</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>844</td><td>Shuckle</td><td>Razor Fang</td><td>Power Trick</td><td>Earthquake</td><td>Stone Edge</td><td>Gyro Ball</td><td>HP/Def</td></tr>
+<tr><td>845</td><td>Roserade</td><td>Rose Incense</td><td>Sludge Bomb</td><td>Shadow Ball</td><td>Energy Ball</td><td>Hyper Beam</td><td>SpA/SpD/Spe</td></tr>
+<tr class="a"><td>846</td><td>Honchkrow</td><td>Scope Lens</td><td>Sucker Punch</td><td>Dark Pulse</td><td>Drill Peck</td><td>Night Slash</td><td>Atk/SpA/Spe</td></tr>
+<tr><td>847</td><td>Steelix</td><td>Quick Claw</td><td>Gyro Ball</td><td>Explosion</td><td>Screech</td><td>Stone Edge</td><td>HP/Atk</td></tr>
+<tr class="a"><td>848</td><td>Weavile</td><td>Focus Sash</td><td>Night Slash</td><td>Ice Punch</td><td>Aerial Ace</td><td>Brick Break</td><td>Atk/Spe</td></tr>
+<tr><td>849</td><td>Gliscor</td><td>Quick Claw</td><td>Earthquake</td><td>Stone Edge</td><td>X-Scissor</td><td>Aerial Ace</td><td>Atk/SpD</td></tr>
+<tr class="a"><td>850</td><td>Tentacruel</td><td>Scope Lens</td><td>Hydro Pump</td><td>Wring Out</td><td>Sludge Bomb</td><td>Ice Beam</td><td>SpA/Spe</td></tr>
+<tr><td>851</td><td>Aerodactyl</td><td>Choice Band</td><td>Earthquake</td><td>Iron Head</td><td>Stone Edge</td><td>Dragon Claw</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>852</td><td>Porygon2</td><td>Macho Brace</td><td>Trick Room</td><td>Tri Attack</td><td>Ice Beam</td><td>Recover</td><td>HP/SpA</td></tr>
+<tr><td>853</td><td>Lickilicky</td><td>Quick Claw</td><td>Body Slam</td><td>Power Whip</td><td>Earthquake</td><td>Explosion</td><td>HP/Atk</td></tr>
+<tr class="a"><td>854</td><td>Yanmega</td><td>Brightpowder</td><td>Sunny Day</td><td>Solar Beam</td><td>Psychic</td><td>Bug Buzz</td><td>SpA/SpD</td></tr>
+<tr><td>855</td><td>Gardevoir</td><td>Choice Specs</td><td>Psychic</td><td>Shadow Ball</td><td>Thunderbolt</td><td>Hyper Beam</td><td>Def/SpA</td></tr>
+<tr class="a"><td>856</td><td>Gallade</td><td>Scope Lens</td><td>Leaf Blade</td><td>Psycho Cut</td><td>Night Slash</td><td>X-Scissor</td><td>Atk/Def</td></tr>
+<tr><td>857</td><td>Exeggutor</td><td>Focus Sash</td><td>Sunny Day</td><td>Explosion</td><td>Egg Bomb</td><td>Wood Hammer</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>858</td><td>Starmie</td><td>Lum Berry</td><td>Hydro Pump</td><td>Psychic</td><td>Thunderbolt</td><td>Power Gem</td><td>SpA/Spe</td></tr>
+<tr><td>859</td><td>Flygon</td><td>Yache Berry</td><td>Earthquake</td><td>Dragon Claw</td><td>Crunch</td><td>Stone Edge</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>860</td><td>Vaporeon</td><td>Leftovers</td><td>Surf</td><td>Ice Beam</td><td>Shadow Ball</td><td>Acid Armor</td><td>HP/SpA</td></tr>
+<tr><td>861</td><td>Jolteon</td><td>Razor Fang</td><td>Charge Beam</td><td>Hyper Beam</td><td>Shadow Ball</td><td>Thunder Wave</td><td>SpA/Spe</td></tr>
+<tr class="a"><td>862</td><td>Flareon</td><td>Quick Claw</td><td>Fire Fang</td><td>Bite</td><td>Return</td><td>Curse</td><td>HP/Atk</td></tr>
+<tr><td>863</td><td>Espeon</td><td>Lum Berry</td><td>Psychic</td><td>Shadow Ball</td><td>Swift</td><td>Charm</td><td>SpA/Spe</td></tr>
+<tr class="a"><td>864</td><td>Umbreon</td><td>Leftovers</td><td>Swagger</td><td>Mean Look</td><td>Screech</td><td>Moonlight</td><td>Def/SpD</td></tr>
+<tr><td>865</td><td>Leafeon</td><td>Quick Claw</td><td>Curse</td><td>Leaf Blade</td><td>X-Scissor</td><td>Last Resort</td><td>HP/Atk</td></tr>
+<tr class="a"><td>866</td><td>Glaceon</td><td>Wise Glasses</td><td>Hail</td><td>Blizzard</td><td>Shadow Ball</td><td>Mirror Coat</td><td>SpA/SpD</td></tr>
+<tr><td>867</td><td>Lucario</td><td>Scope Lens</td><td>Aura Sphere</td><td>Flash Cannon</td><td>Psychic</td><td>Dragon Pulse</td><td>SpA/Spe</td></tr>
+<tr class="a"><td>868</td><td>Hippowdon</td><td>Quick Claw</td><td>Earthquake</td><td>Stone Edge</td><td>Thunder Fang</td><td>Crunch</td><td>Atk/SpD</td></tr>
+<tr><td>869</td><td>Probopass</td><td>Chople Berry</td><td>Magnet Rise</td><td>Flash Cannon</td><td>Discharge</td><td>Stealth Rock</td><td>HP/SpA</td></tr>
+<tr class="a"><td>870</td><td>Dusknoir</td><td>Muscle Band</td><td>Earthquake</td><td>ThunderPunch</td><td>Shadow Punch</td><td>Fire Punch</td><td>HP/Atk</td></tr>
+<tr><td>871</td><td>Aggron</td><td>Quick Claw</td><td>Stone Edge</td><td>Iron Head</td><td>Shadow Claw</td><td>Earthquake</td><td>HP/Atk</td></tr>
+<tr class="a"><td>872</td><td>Walrein</td><td>Leftovers</td><td>Surf</td><td>Ice Beam</td><td>Signal Beam</td><td>Encore</td><td>Def/SpA</td></tr>
+<tr><td>873</td><td>Mamoswine</td><td>Salac Berry</td><td>Earthquake</td><td>Endure</td><td>Ice Fang</td><td>Stone Edge</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>874</td><td>Lapras</td><td>Wacan Berry</td><td>Rain Dance</td><td>Dragon Pulse</td><td>Thunder</td><td>Hydro Pump</td><td>HP/SpA</td></tr>
+<tr><td>875</td><td>Crobat</td><td>Payapa Berry</td><td>Brave Bird</td><td>Cross Poison</td><td>X-Scissor</td><td>Confuse Ray</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>876</td><td>Magnezone</td><td>Silk Scarf</td><td>Thunderbolt</td><td>Tri Attack</td><td>Flash Cannon</td><td>Explosion</td><td>HP/SpA</td></tr>
+<tr><td>877</td><td>Rhyperior</td><td>Quick Claw</td><td>Stone Edge</td><td>Megahorn</td><td>Earthquake</td><td>Arm Hammer</td><td>Atk/SpD</td></tr>
+<tr class="a"><td>878</td><td>Tangrowth</td><td>Quick Claw</td><td>Power Whip</td><td>Earthquake</td><td>Payback</td><td>Sleep Powder</td><td>Atk/SpD</td></tr>
+<tr><td>879</td><td>Porygon-Z</td><td>Expert Belt</td><td>Tri Attack</td><td>Shadow Ball</td><td>Thunderbolt</td><td>Recover</td><td>HP/SpA</td></tr>
+<tr class="a"><td>880</td><td>Gyarados</td><td>Chesto Berry</td><td>Waterfall</td><td>Earthquake</td><td>Rest</td><td>Dragon Dance</td><td>Atk/Spe</td></tr>
+<tr><td>881</td><td>Snorlax</td><td>Chesto Berry</td><td>Return</td><td>Rock Slide</td><td>Curse</td><td>Rest</td><td>HP/Def</td></tr>
+<tr class="a"><td>882</td><td>Kingdra</td><td>Lum Berry</td><td>Surf</td><td>Dragon Pulse</td><td>Ice Beam</td><td>Rain Dance</td><td>HP/SpA</td></tr>
+<tr><td>883</td><td>Blissey</td><td>Sitrus Berry</td><td>Counter</td><td>Ice Beam</td><td>Thunderbolt</td><td>Double Team</td><td>HP/Def</td></tr>
+<tr class="a"><td>884</td><td>Milotic</td><td>Lum Berry</td><td>Surf</td><td>Ice Beam</td><td>Dragon Pulse</td><td>Recover</td><td>HP/SpA</td></tr>
+<tr><td>885</td><td>Electivire</td><td>Shuca Berry</td><td>ThunderPunch</td><td>Fire Punch</td><td>Ice Punch</td><td>Earthquake</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>886</td><td>Magmortar</td><td>Shuca Berry</td><td>Fireblast</td><td>Psychic</td><td>Focus Blast</td><td>Confuse Ray</td><td>Def/SpA</td></tr>
+<tr><td>887</td><td>Togekiss</td><td>Expert Belt</td><td>Air Slash</td><td>Aura Sphere</td><td>Psychic</td><td>Shadow Ball</td><td>HP/SpA</td></tr>
+<tr class="a"><td>888</td><td>Arcanine</td><td>Focus Band</td><td>Flare Blitz</td><td>Crunch</td><td>Thunder Fang</td><td>ExtremeSpeed</td><td>Atk/Spe</td></tr>
+<tr><td>889</td><td>Dragonite</td><td>Brightpowder</td><td>Dragon Claw</td><td>Aerial Ace</td><td>Waterfall</td><td>Dragon Dance</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>890</td><td>Tyranitar</td><td>Chople Berry</td><td>Stone Edge</td><td>Crunch</td><td>Thunder Fang</td><td>Dragon Dance</td><td>Atk/Spe</td></tr>
+<tr><td>891</td><td>Salamence</td><td>Yache Berry</td><td>Dragon Claw</td><td>Earthquake</td><td>Aerial Ace</td><td>Dragon Dance</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>892</td><td>Metagross</td><td>Quick Claw</td><td>Explosion</td><td>Meteor Mash</td><td>Earthquake</td><td>Zen Headbutt</td><td>HP/Atk</td></tr>
+<tr><td>893</td><td>Garchomp</td><td>Focus Sash</td><td>Earthquake</td><td>Dragon Claw</td><td>Fire Fang</td><td>Crunch</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>894</td><td>Slaking</td><td>Choice Band</td><td>Giga Impact</td><td>Earthquake</td><td>Shadow Claw</td><td>Aerial Ace</td><td>HP/Atk</td></tr>
+<tr><td>895</td><td>Articuno</td><td>Icy Rock</td><td>Swagger</td><td>Hail</td><td>Roost</td><td>Blizzard</td><td>HP/Def</td></tr>
+<tr class="a"><td>896</td><td>Zapdos</td><td>Brightpowder</td><td>Double Team</td><td>Roost</td><td>Discharge</td><td>Pluck</td><td>HP/Spe</td></tr>
+<tr><td>897</td><td>Moltres</td><td>Heat Rock</td><td>Sunny Day</td><td>Flamethrower</td><td>Solar Beam</td><td>Endure</td><td>Def/Spe</td></tr>
+<tr class="a"><td>898</td><td>Raikou</td><td>Magnet</td><td>Rain Dance</td><td>Thunder</td><td>Calm Mind</td><td>Iron Tail</td><td>HP/SpA</td></tr>
+<tr><td>899</td><td>Entei</td><td>Wise Glasses</td><td>Lava Plume</td><td>Fire Spin</td><td>Flamethrower</td><td>Overheat</td><td>HP/Def/SpA</td></tr>
+<tr class="a"><td>900</td><td>Suicune</td><td>Icy Rock</td><td>Hail</td><td>Aurora Beam</td><td>Ice Beam</td><td>Blizzard</td><td>Def/SpA</td></tr>
+<tr><td>901</td><td>Regirock</td><td>Passho Berry</td><td>Superpower</td><td>AncientPower</td><td>Secret Power</td><td>Strength</td><td>HP/SpD</td></tr>
+<tr class="a"><td>902</td><td>Regice</td><td>Shell Bell</td><td>Ice Beam</td><td>Thunderbolt</td><td>Hyper Beam</td><td>Flash Cannon</td><td>HP/SpA</td></tr>
+<tr><td>903</td><td>Registeel</td><td>Chesto Berry</td><td>Curse</td><td>Rest</td><td>Flash Cannon</td><td>Metal Claw</td><td>HP/Def/SpD</td></tr>
+<tr class="a"><td>904</td><td>Latias</td><td>Colbur Berry</td><td>Psychic</td><td>Energy Ball</td><td>Grass Knot</td><td>Recover</td><td>SpA/Spe</td></tr>
+<tr><td>905</td><td>Latios</td><td>Lum Berry</td><td>Dragon Dance</td><td>Recover</td><td>Dragon Claw</td><td>Shadow Claw</td><td>HP/Atk</td></tr>
+<tr class="a"><td>906</td><td>Heatran</td><td>Focus Sash</td><td>Fire Fang</td><td>Earthquake</td><td>Stone Edge</td><td>Crunch</td><td>HP/Atk/SpD</td></tr>
+<tr><td>907</td><td>Cresselia</td><td>Focus Band</td><td>Lunar Dance</td><td>Safeguard</td><td>Future Sight</td><td>Psychic</td><td>HP/Def/SpD</td></tr>
+<tr class="a"><td>908</td><td>Regigigas</td><td>Lum Berry</td><td>Substitute</td><td>Double Team</td><td>Thunder Wave</td><td>Return</td><td>HP/Atk/Def</td></tr>
+<tr><td>909</td><td>Articuno</td><td>Chesto Berry</td><td>Agility</td><td>Ice Beam</td><td>Water Pulse</td><td>Rest</td><td>Def/SpA</td></tr>
+<tr class="a"><td>910</td><td>Zapdos</td><td>Focus Band</td><td>Detect</td><td>Toxic</td><td>Drill Peck</td><td>Thunderbolt</td><td>HP/Def/SpD</td></tr>
+<tr><td>911</td><td>Moltres</td><td>King's Rock</td><td>Air Slash</td><td>Agility</td><td>Heat Wave</td><td>Pluck</td><td>HP/SpD/Spe</td></tr>
+<tr class="a"><td>912</td><td>Raikou</td><td>Lax Incense</td><td>Crunch</td><td>Thunder Fang</td><td>Leer</td><td>Double Team</td><td>Atk/Spe</td></tr>
+<tr><td>913</td><td>Entei</td><td>Heat Rock</td><td>Sunny Day</td><td>Flamethrower</td><td>Solar Beam</td><td>Extrasensory</td><td>HP/SpA</td></tr>
+<tr class="a"><td>914</td><td>Suicune</td><td>Wacan Berry</td><td>Tailwind</td><td>Extrasensory</td><td>Calm Mind</td><td>Hydro Pump</td><td>HP/SpA</td></tr>
+<tr><td>915</td><td>Regirock</td><td>Leftovers</td><td>Stone Edge</td><td>Earthquake</td><td>Brick Break</td><td>Sandstorm</td><td>Atk/SpD</td></tr>
+<tr class="a"><td>916</td><td>Regice</td><td>Ganlon Berry</td><td>Focus Blast</td><td>Natural Gift</td><td>Giga Impact</td><td>Rock Polish</td><td>SpA/SpD/Spe</td></tr>
+<tr><td>917</td><td>Registeel</td><td>Occa Berry</td><td>Iron Defense</td><td>Toxic</td><td>Substitute</td><td>Earthquake</td><td>HP/Atk</td></tr>
+<tr class="a"><td>918</td><td>Latias</td><td>Lum Berry</td><td>Calm Mind</td><td>Dragon Pulse</td><td>Psychic</td><td>Roost</td><td>HP/Def</td></tr>
+<tr><td>919</td><td>Latios</td><td>Expert Belt</td><td>Psychic</td><td>Dragon Pulse</td><td>Ice Beam</td><td>Shadow Ball</td><td>SpA/Spe</td></tr>
+<tr class="a"><td>920</td><td>Heatran</td><td>Shuca Berry</td><td>Flamethrower</td><td>Earth Power</td><td>Dragon Pulse</td><td>AncientPower</td><td>HP/SpA</td></tr>
+<tr><td>921</td><td>Cresselia</td><td>Lum Berry</td><td>Double Team</td><td>Moonlight</td><td>Toxic</td><td>Psychic</td><td>HP/Def/SpD</td></tr>
+<tr class="a"><td>922</td><td>Regigigas</td><td>Brightpowder</td><td>Swagger</td><td>Psych Up</td><td>Crush Grip</td><td>Aerial Ace</td><td>Atk/Spe</td></tr>
+<tr><td>923</td><td>Articuno</td><td>Brightpowder</td><td>Tailwind</td><td>Ice Beam</td><td>Water Pulse</td><td>Double Team</td><td>HP/SpA/Spe</td></tr>
+<tr class="a"><td>924</td><td>Zapdos</td><td>King's Rock</td><td>Drill Peck</td><td>U-turn</td><td>Steel Wing</td><td>AncientPower</td><td>Atk/Spe</td></tr>
+<tr><td>925</td><td>Moltres</td><td>Brightpowder</td><td>Overheat</td><td>Sky Attack</td><td>Fireblast</td><td>U-turn</td><td>Atk/SpA/SpD</td></tr>
+<tr class="a"><td>926</td><td>Raikou</td><td>Wise Glasses</td><td>Discharge</td><td>Spark</td><td>Thunderbolt</td><td>Charge Beam</td><td>HP/SpA/Spe</td></tr>
+<tr><td>927</td><td>Entei</td><td>Leftovers</td><td>Fireblast</td><td>Extrasensory</td><td>Shadow Ball</td><td>Calm Mind</td><td>SpA/Spe</td></tr>
+<tr class="a"><td>928</td><td>Suicune</td><td>Nevermeltice</td><td>Ice Fang</td><td>Bite</td><td>Mist</td><td>Leer</td><td>Def/SpD</td></tr>
+<tr><td>929</td><td>Regirock</td><td>Smooth Rock</td><td>Sandstorm</td><td>Stone Edge</td><td>Earthquake</td><td>Iron Defense</td><td>Atk/SpD/Spe</td></tr>
+<tr class="a"><td>930</td><td>Regice</td><td>Chesto Berry</td><td>Ice Beam</td><td>Flash Cannon</td><td>AncientPower</td><td>Rest</td><td>HP/SpA</td></tr>
+<tr><td>931</td><td>Registeel</td><td>Damp Rock</td><td>Rain Dance</td><td>Thunder</td><td>Stealth Rock</td><td>Protect</td><td>Def/SpA</td></tr>
+<tr class="a"><td>932</td><td>Latias</td><td>Brightpowder</td><td>Psychic</td><td>Dragon Pulse</td><td>Thunderbolt</td><td>Surf</td><td>SpA/Spe</td></tr>
+<tr><td>933</td><td>Latios</td><td>Haban Berry</td><td>Luster Purge</td><td>Water Pulse</td><td>Dragonbreath</td><td>Recover</td><td>Def/SpA</td></tr>
+<tr class="a"><td>934</td><td>Heatran</td><td>Quick Claw</td><td>Explosion</td><td>Fire Fang</td><td>Crunch</td><td>Iron Head</td><td>HP/Atk</td></tr>
+<tr><td>935</td><td>Cresselia</td><td>Wise Glasses</td><td>Psychic</td><td>Ice Beam</td><td>Shadow Ball</td><td>Energy Ball</td><td>HP/SpA</td></tr>
+<tr class="a"><td>936</td><td>Regigigas</td><td>Shell Bell</td><td>Thunderbolt</td><td>Focus Blast</td><td>Earthquake</td><td>Drain Punch</td><td>HP/Atk/SpA</td></tr>
+<tr><td>937</td><td>Articuno</td><td>Wacan Berry</td><td>Sheer Cold</td><td>Ice Beam</td><td>Aerial Ace</td><td>Roar</td><td>HP/Def</td></tr>
+<tr class="a"><td>938</td><td>Zapdos</td><td>Sharp Beak</td><td>Rain Dance</td><td>Thunder</td><td>Charge Beam</td><td>Drill Peck</td><td>SpA/Spe</td></tr>
+<tr><td>939</td><td>Moltres</td><td>Brightpowder</td><td>Flamethrower</td><td>Air Slash</td><td>Will-O-Wisp</td><td>Double Team</td><td>SpA/Spe</td></tr>
+<tr class="a"><td>940</td><td>Raikou</td><td>Shuca Berry</td><td>Thunderbolt</td><td>Extrasensory</td><td>Shadow Ball</td><td>Calm Mind</td><td>SpA/Spe</td></tr>
+<tr><td>941</td><td>Entei</td><td>Passho Berry</td><td>Fire Fang</td><td>Iron Tail</td><td>Bite</td><td>Double Team</td><td>Atk/Spe</td></tr>
+<tr class="a"><td>942</td><td>Suicune</td><td>Chesto Berry</td><td>Calm Mind</td><td>Rest</td><td>Surf</td><td>Ice Beam</td><td>HP/Def</td></tr>
+<tr><td>943</td><td>Regirock</td><td>Quick Claw</td><td>Explosion</td><td>Stone Edge</td><td>Earthquake</td><td>Brick Break</td><td>Atk/SpD</td></tr>
+<tr class="a"><td>944</td><td>Regice</td><td>Leftovers</td><td>Ice Beam</td><td>Thunderbolt</td><td>Protect</td><td>Toxic</td><td>Def/SpA</td></tr>
+<tr><td>945</td><td>Registeel</td><td>Quick Claw</td><td>Explosion</td><td>Double Team</td><td>Swagger</td><td>Substitute</td><td>HP/Def/SpD</td></tr>
+<tr class="a"><td>946</td><td>Latias</td><td>Leftovers</td><td>Mist Ball</td><td>Draco Meteor</td><td>Calm Mind</td><td>Safeguard</td><td>HP/Def</td></tr>
+<tr><td>947</td><td>Latios</td><td>White Herb</td><td>Draco Meteor</td><td>Psychic</td><td>Thunder</td><td>Hyper Beam</td><td>HP/SpA</td></tr>
+<tr class="a"><td>948</td><td>Heatran</td><td>Brightpowder</td><td>Explosion</td><td>Magma Storm</td><td>Dark Pulse</td><td>Flash Cannon</td><td>HP/Atk/SpA</td></tr>
+<tr><td>949</td><td>Cresselia</td><td>Leftovers</td><td>Calm Mind</td><td>Moonlight</td><td>Psychic</td><td>Shadow Ball</td><td>HP/Def</td></tr>
+<tr class="a"><td>950</td><td>Regigigas</td><td>Chople Berry</td><td>Crush Grip</td><td>Ice Punch</td><td>Stone Edge</td><td>Brick Break</td><td>HP/Atk</td></tr>
+</tbody>
+</table>

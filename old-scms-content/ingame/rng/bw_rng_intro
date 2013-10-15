@@ -1,0 +1,46 @@
+[title]
+The BW RNG Manipulation Guide
+[head]
+<meta name="description" content="Introduction to the BW RNG Manipulation Guide." />
+[page]
+<div class="author">By <a href="/forums/member.php?u=32572">Kaphotics</a>.</div>
+
+<ul class="toc">
+<li><a href="bw_rng_intro">The BW RNG Manipulation Guide</a>
+<ul>
+<li><a href="#what">What is RNG Manipulation?</a></li>
+<li><a href="#credits">Credits and Thanks</a></li>
+</ul>
+</li>
+<li><a href="bw_rng_part1">BW RNG Manipulation Guide Part 1 - Common Information for Breeding, Capturing, and Receiving Perfect Pokemon</a></li> 
+<li><a href="bw_rng_part2">BW RNG Manipulation Guide Part 2 - How to RNG a Perfect Pokemon</a></li>
+<li><a href="bw_rng_part3">BW RNG Manipulation Guide Part 3 - How to Capture Perfect and / or Shiny Pokemon by Controlling the PIDRNG</a></li>
+<li><a href="bw_rng_part4">BW RNG Manipulation Guide Part 4 - How to Abuse your IDs</a></li> 
+<li><a href="bw_rng_part5">BW RNG Manipulation Guide Part 5 - How to Hatch Shiny (and Perfect) Pokemon</a></li> 
+<li><a href="bw_rng_part6">BW RNG Manipulation Guide Part 6 - Receiving Perfect Wondercard Pokemon</a></li>
+<li><a href="bw_rng_part7">BW RNG Manipulation Guide Part 7 - Capturing Perfect Roaming Pokemon</a></li> 
+</ul> 
+
+<h2><a name="what">What is RNG Manipulation?</a></h2> 
+
+<p>There are many seemingly random events in Pokemon: the IVs and natures of the Pokemon that you capture or breed, the number of steps an NPC walks before turning, or the odds that your newly hatched Oshawott is shiny. As it turns out, these events are all governed by the output of a class of mathematical formulas, which are known as pseudo random number generators. The word "pseudo", often used to paint things as "fraudulent" or "false," is very appropriate in this case. Even though the numbers output by these formulas may appear to be random, they are not. Each sequence begins with a single number, often referred to as a seed, and continues on in a predictable pattern.</p> 
+
+<p>Since the seed determines the sequence of numbers that will follow, it is important that it is different each and every time you play. If the same seed was chosen each time, the pattern of numbers and how they affect the game would be noticeable over time, breaking the illusion of randomness. To alleviate this potential problem, the game developers decided to create the seed by using something that should be different every time you play: the date and time on your Nintendo DS. By doing some light math on the individual components (year, month, hour, etc.) of the date and time, a "unique" seed is created each time you start the game.</p>
+
+<p>There is an obvious flaw in this technique-we can change the date and time on our Nintendo DS systems before we start the game. With knowledge of how the date and time affect the seed, it is possible to choose a combination that yields a desirable result, allowing us to control the sequence of pseudo-random numbers that is generated. Coupled with the knowledge of how the game uses those numbers to create Pokemon, we become the creators, picking and choosing desirable traits, removing any remaining vestiges of randomness.</p>
+
+<h2><a name="credits">Credits and Thanks</a></h2> 
+<p><a href="http://www.smogon.com/forums/member.php?u=5304">OmegaDonut</a>, 
+<a href="http://www.smogon.com/forums/member.php?u=32572">Kaphotics</a>, 
+<a href="http://www.smogon.com/forums/member.php?u=54525">Bond697</a>, 
+<a href="http://www.smogon.com/forums/member.php?u=69906">chiizu</a>,
+<a href="http://www.smogon.com/forums/member.php?u=30562">ToastPlusOne</a>, 
+<a href="http://www.smogon.com/forums/member.php?u=21459">mingot</a>, 
+Rusted Coil, XYZ Wing, hos1519, Guested, PokeDuck, 
+<a href="http://www.smogon.com/forums/member.php?u=35269">xElite</a>, 
+<a href="http://www.smogon.com/forums/member.php?u=49192">musicmeister</a>, 
+<a href="http://www.smogon.com/forums/member.php?u=31302">mattj</a>, 
+<a href="http://www.smogon.com/forums/member.php?u=35537">Nexus</a>, 
+<a href="http://www.smogon.com/forums/member.php?u=32374">Sephirona</a>, 
+<a href="http://www.smogon.com/forums/member.php?u=88143">Tomxc</a>, 
+Blyde, MrFixIt, all of the RNG Reporter / PPRNG testers, and researchers and contributors from past generations.</p>

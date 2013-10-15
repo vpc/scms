@@ -1,0 +1,119 @@
+[title]
+The Essential Guide to Voltorb Flip
+
+[head]
+
+[page]
+
+<h2>Voltorb Flip: A Brief Introduction</h2>
+
+<p>A man looks up at you and smiles as you walk into the room. Quickly seating yourself at the table opposite him, you reach into your pocket and pull out of your wallet thick wads of notes, pilfered from hapless trainers who were unfortunate enough to run into you.</p>
+
+<p>The man is evidently slightly confused. "What's all the money for? Come, put it all away and play my lovely game!"</p>
+
+<p>"I'm just here for the goods," you say, jabbing your thumb towards a Porygon in a Pokeball near the entrance, "so cut the bull and let's get this deal done."</p>
+
+<p>"Silly lad!" the man exclaims, with another of his sinisterly warm grins. "You cannot buy coins here; you must earn them!" He gestures to the table in front of him.</p>
+
+<p>Looking down at the table, you realize that a game board has been carved into the elegant mahogany tabletop. You find on this game board twenty-five striking red cards, with a small notepad and a pen beside the array of cards.</p>
+
+<p>And so, your torture begins...</p>
+
+<p>Welcome to Voltorb Flip, possibly the most frustrating minigame in the entirety of Pokemon! Before you start, there are a few terms you need to understand:</p>
+
+<p><dl>
+<dt>Dud row/column</dt>
+<dd>A row or column where all of the tiles conceal either a Voltorb or a card bearing the number '1'.</dd>
+<dt>Dud tile</dt>
+<dd>A tile concealing either a Voltorb or a card bearing the number '1'.
+<dt>Safe row/column</dt>
+<dd>A row or column where none of the tiles conceal a Voltorb.</dd>
+<dt>Safe tile</dt>
+<dd>A tile which does not conceal a Voltorb.
+</dl></p>
+
+<p>These terms will feature prominently in this guide, so it is advised that you remember them.</p>
+
+<h2>The Controls</h2>
+
+<p>Before you begin, you should familiarize yourself with the various parts that make up Voltorb Flip. In this section, we will cover the use of the game board and the memo, as well as the rewards of Voltorb Flip.</p>
+
+<h3>The Game board</h3>
+
+<p> A typical Voltorb Flip game board will look something like this:</p>
+
+<p><img src="http://www.smogon.com/media/upload/oi/flip1.png" alt="" /></p>
+
+<p>The Voltorb Flip game board is made up of a 5-by-5 array of squares. These squares may conceal a '1', a '2', a '3', or a Voltorb. Your goal for the game is to uncover all tiles bearing either a '2' or a '3'. As you will see later, a number of strategies take advantage of the fact that the '1's need not be opened in order to win a game. Furthermore, should you uncover a Voltorb, you instantly lose the game.</p>
+
+<p>Of course, it would be unrealistic to expect anyone to win by simply opening cards at random. As such, there are 10 panels at the right-hand side and bottom of the game board, one for each row and column. These panels display the sum of all the numbers present in the row or column, as well as the number of Voltorbs present in the row or column. In this guide, panels will be referred to as x;y panels, where x is the sum displayed on the panel, and y is the number of Voltorbs as displayed on the panel.</p>
+
+<h3>The Memo</h3>
+
+<p>The memo, while not mandatory in one's gameplay, plays a pivotal role in decision-making throughout the game. While it is simply a marking system for the tiles, with symbols for '1', '2', '3', and the Voltorb, it can help players to remember which tiles they have ascertained to be unsafe, or simply those which do not need to be opened. The memo will be referenced often during this guide.</p>
+
+<h3>After the Game</h3>
+
+<p>So you've won a level of Voltorb Flip. What now? After each level you play, you go to the next level of Voltorb Flip, where there are more coins at stake. This continues until eventually you lose one too many times. This leads you to be "demoted" to a lower level; however, you are free to try to make your way back up again.</p>
+
+<p>If Voltorb Flip is such an infuriating game, why play it? Despite what you may think, the Game Corner provides many advantages both during the main storyline as well as after the game. For example, it is much easier to procure an Abra from the Goldenrod Game Corner than to attempt to capture one from the nearby routes during your playthrough; furthermore, the Celadon Game Corner is the only place where one can obtain a Porygon. These, as well as many other monopolies the Game Corners have established, cause Mr. Game to have no shortage of unwilling visitors.</p>
+
+<h2>Gameplay Techniques</h2>
+
+<p>As stated above, Voltorb Flip isn't just about dumb luck. One can employ numerous strategies to help them win, as outlined below.</p>
+
+<h3>Preliminary Moves</h3>
+
+<p>Facing an empty board may be somewhat disconcerting at times, but try to take it step by step. For starters, there are two moves you should begin with. Firstly, open up all the tiles in all the safe rows. Next, mark all the unconcealed tiles in all the dud rows with a 'Voltorb' and a '1' marking. For the purposes of this guide, this will be referred to as a 'dud marking'. After you're done with this, the board should look something like this:</p>
+
+<p><img src="http://www.smogon.com/media/upload/oi/flip2.png" alt="" /></p>
+
+<h3>Subsequent Safe Moves</h3>
+
+<p>After you have made the opening moves, consider the rest of the board, row by row and column by column. There is a mathematical formula for checking if the remainder of a partially-opened row is safe:</p>
+
+<p><img src="http://www.iaza.com/work/121107C/iaza17834283250300.gif" alt="" /></p>
+
+<p>Essentially, find the sum of the two numbers displayed at the side of the row. Subtract from this the number of coins exposed, then add to this the number of tiles exposed. If you arrive at the number 5 after all this, then the rest of the row is dud. Mark all remaining tiles with a dud marking. Usually, this will trigger a small chain reaction, allowing you to clear about one-third to half of the board. However, sometimes this strategy fails to work, and you'll be forced to make a few guesses. This brings me to my next section.</p>
+
+<h3>When and How to Take Risks</h3>
+
+<p>Eventually, you'll come to a position where you can no longer make a "rational" move. At this point, it is necessary to undergo a few risks to complete a level. Before you start randomly clicking, though, there are a few things to note. Firstly, should you even be taking a risk? Suppose you're near the end of the level; you have a 50-50 chance of winning. Now suppose you're on a high level&mdash;say, rank 5. By now, you almost certainly would have collected a high number of coins. Is it worth it to take the risk? You may think that 50-50 odds to double or even triple your coins would be worth it; however, losing the game will contribute more to you dropping ranks than quitting will. Thus, it is advisable to quit and try again, possibly on a more favorable board.</p>
+
+<p>Now suppose that you're going to take a risk on a board. Look at the board from the earlier picture:</p>
+
+<p><img src="http://www.smogon.com/media/upload/oi/flip3.png" alt="" /></p>
+
+<p>The 7;1 column, as highlighted in red, is a good choice for opening. Given the high point value of the 9;2 row at the top, we first go for the top tile. After this, we go for a 50-50 chance and open the fourth tile in the column. Lucky us&mdash;this seems to be safe! The board thus far now looks like this:</p>
+
+<p><img src="http://www.smogon.com/media/upload/oi/flip4.png" alt="" /></p>
+
+<p>Now we look over the column again. Obviously, the Voltorb has to be in one of the two dud tiles. This is because if both tiles were '1's, then the last tile would have to be a Voltorb. The point value of the column would then be 6, which is not equal to the panel's declaration of 7. Thus, the Voltorb is in one of the two dud tiles, and the bottom tile must be safe to open. After it is opened, the board looks like this:</p>
+
+<p><img src="http://www.smogon.com/media/upload/oi/flip5.png" alt="" /></p>
+
+<p>Excellent, we have a '2' in the bottom row. This means that we can place dud markings on the last two unmarked tiles in the bottom 5;1 row.</p>
+
+<p><img src="http://www.smogon.com/media/upload/oi/flip6.png" alt="" /></p>
+
+<p>It looks like we're gonna have to take another risk. We choose the 9;1 row, as highlighted in red, because it has a high point payout as opposed to Voltorbs, meaning that we have a high chance of opening up a required card.</p>
+
+<p><img src="http://www.smogon.com/media/upload/oi/flip7.png" alt="" /></p>
+
+<p>Now, we have to choose which column to open a card from. Obviously, the 5;1 column is safer than the 5;2 column; let's try that and see how it goes.</p>
+
+<p><img src="http://www.smogon.com/media/upload/oi/flip8.png" alt="" /></p>
+
+<p>So, we've opened a '1'. At least we now know that the card all the way on the right of the 9;1 row must be safe, so we can open that.</p>
+
+<p><img src="http://www.smogon.com/media/upload/oi/flip9.png" alt="" /></p>
+
+<p>We're almost done! Thanks to the '3' in the 9;1 row, we find that the rest of the 5;2 column is composed solely of dud tiles. This leaves just the fourth tile in the 5;1 column to open.</p>
+
+<p><img src="http://www.smogon.com/media/upload/oi/flip10.png" alt="" /></p>
+
+<p>And that's it! You'll notice that we had quite a lot of luck when working our way through this level; you won't always be so lucky in practice. Don't worry though; practice will make you burn through levels so fast it won't really matter if you lose a few times!</p>
+
+<h2>Conclusion</h2>
+
+<p>While Voltorb Flip is often infuriating thanks to the great element of luck involved in it, one should realize that this element of luck can be mostly eliminated by approaching each puzzle with appropriate tactics. Voltorb Flip is also a central aspect of competitive playing in HeartGold and SoulSilver, providing some incredibly important Pokemon and TMs. Just remember not to stress yourself out unnecessarily over this, no matter how infuriating shock losses can be. Good luck; have fun!</p>

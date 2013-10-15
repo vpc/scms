@@ -1,0 +1,188 @@
+[title]
+NU: What Works and How to Beat It
+[head]
+<link href="/media/smog/smog.css" type="text/css" rel="stylesheet" />
+[page]
+<div class="author">By <a href="/forums/member.php?u=42668">Vaz</a>, with assistance from <a href="/forums/member.php?u=28462">Sceats</a>.</div>
+<table id="smogheader">
+<tr>
+<td class="left"><a href="tcg_bw">&laquo; Previous Article</a></td>
+<td class="middle"><a href="/smog/issue12/">Home</a></td>
+<td class="right"><a href="dreamworld">Next Article &raquo;</a></td>
+</tr>
+</table>
+
+<h2>Introduction</h2>
+
+<p>Generation V has brought with it tons of discussion and even the writing of competitive analyses for its new metagame. In the shadow of the new generation, however, exists the decaying form of DPP. At the bottom of the barrel, underneath all other tiers, the NU tier stands defiant to the winds of change. This article will likely be the last of a long series of articles discussing the NU metagame before generation V swallows Smogon whole.</p>
+
+<p>Of all of DPP's metagames, NU has been the most neglected; it was never even made into an official tier and given suspect tests. Because all truly good Pokemon are absent from the tier, strategies employed by the weaker surviving Pokemon become viable and meaningful. In this article, we will explore the tier and try to make sense of what works and what doesn't work in NU.</p>
+
+<h3>Weather</h3>
+
+<p>Weather plays a massive role in NU, being one of the most used and most difficult team types to overcome, especially when you are someone has has little knowledge about the metagame and had no clue it was coming.</p>
+
+<h3>Sunny Day</h3>
+<p>Sunny Day teams are tough to stop in NU. The basic idea of this team is to set up Sunny Day and then use Chlorophyll Pokemon and Fire-types to sweep the opposing team. One of the best sweepers available to the tier is Shiftry.</p>
+
+<p><img src="/download/sprites/dp/275.png" alt="Shiftry" /><br />
+Shiftry @ Life Orb / Heat Rock<br />
+Ability: Chlorophyll<br />
+EVs: 252 SpA / 4 SpD / 252 Spe<br />
+Nature: Modest / Rash<br />
+- Sunny Day<br />
+- SolarBeam<br />
+- Hidden Power Fire<br />
+- Dark Pulse / Explosion</p>
+
+<p>There exist few reliable ways to stop Sunny Day teams, but these counters are very effective at what they do. The Flareon shown below is a hard stop to most Sunny Day teams if they can't Explode on it or remove it by some other means. Flareon resists both Grass- and Fire-type attacks and can Toxic stall the sun sweepers.</p>
+
+<p><img src="/download/sprites/dp/136.png" alt="Flareon" /><br />
+Flareon @ Leftovers<br />
+Ability: Flash Fire<br />
+EVs: 252 HP / 4 SpA / 252 SpD<br />
+Nature: Calm<br />
+- Wish<br />
+- Toxic<br />
+- Lava Plume<br />
+- Protect</p>
+
+<h3>Rain</h3>
+
+<p>Like sun teams, rain teams focus on Speed-boosting abilities and boosted STAB attacks under the appropriate weather conditions. Rain has a major asset over sun, though, in that it has one of the best Rain Dance setup Pokemon that exist in the tier to help it on its way. Electrode is fantastic at setting up Rain Dance with its blistering 140 base Speed and then abusing it with perfectly accurate Thunder. Once Electrode has done its job, as it always does, it can Explode to bring in a rain sweeper with no downtime. Gorebyss, as shown below, is one such sweeper and can do very terrible things to your team if you're not prepared for it.</p>
+
+<p><img src="/download/sprites/dp/101.png" alt="Electrode" /><br />
+Electrode @ Damp Rock<br />
+Ability: Soundproof<br />
+EVs: 252 Atk / 48 SpA / 208 Spe<br />
+Nature: Hasty<br />
+- Rain Dance<br />
+- Explosion<br />
+- Taunt<br />
+- Thunder</p>
+
+<p><img src="/download/sprites/dp/368.png" alt="Gorebyss" /><br />
+Gorebyss @ Life Orb<br />
+Ability: Swift Swim<br />
+EVs: 36 HP / 252 SpA / 220 Spe<br />
+Nature: Timid<br />
+- Surf / Hydro Pump<br />
+- Ice Beam<br />
+- Hidden Power Grass<br />
+- Psychic / Rain Dance</p>
+
+<p>Rain is so difficult to stop because, unlike sun, the Speed-boosting ability, Swift Swim, is found on Pokemon that also get a pseudo-STAB boost from rain. This boost makes attacks such as Surf hit like a truck, even when resisted, and usually resistances alone cannot save you from a rain sweep. The best strategy to take out these teams is to stall turns with Protect and use Pokemon that are immune to Water-type attacks, like Quagsire, Politoed, and even Parasect.</p>
+<h3>Hail</h3>
+
+<p>Despite substantial lack of popularity in the higher tiers, hail is immensely dangerous in NU with Snover support. Very few commonly used Pokemon have the ability to take perfectly accurate Blizzards from very powerful sweepers. Speaking of the hail sweepers, they are not weak by any means; the only reason that they are NU is because Ice typing affords few resistances and numerous crippling weaknesses. Take Glaceon, for example, which wields a Blizzard with the equivalent strength of Heatran's Fire Blast.</p>
+
+<p><img src="/download/sprites/dp/476.png" alt="Glaceon" /><br />
+Glaceon @ Choice Specs / Choice Scarf<br />
+Ability: Snow Cloak<br />
+EVs: 4 HP / 252 SpA / 252 Spe<br />
+Nature: Timid / Modest<br />
+- Ice Beam<br />
+- Shadow Ball<br />
+- Hidden Power Fighting<br />
+- Sleep Talk</p>
+
+<p>As if the show-stopping power of Glaceon weren't enough to show you what makes hail so dangerous, there's always Walrein to consider. Walrein is the backbone of a strategy known as hail stall, which focuses on whittling down opposing Pokemon with a combination of poison damage and hail damage. This is especially dangerous in NU, where Walrein's respectable defensive stats make it very difficult to KO or even threaten at all in some cases.</p>
+
+<p><img src="/download/sprites/dp/365.png" alt="Walrein" /><br />
+Walrein @ Leftovers<br />
+Ability: Ice Body<br />
+EVs: 220 HP / 252 Def / 36 SpD<br />
+Nature: Bold<br />
+- Protect<br />
+- Substitute<br />
+- Toxic / Roar / Super Fang<br />
+- Surf / Blizzard</p>
+
+<p>Hail is a deadly force in the right hands, but you've got to remember exactly what brought all of these effective Pokemon to NU in the first place: their Ice typing. Ice-type Pokemon suffer from the worst possible collection of weaknesses in the game, including vulnerabilities to Fire-, Rock-, Fighting-, and Steel-type attacks. This also means that Stealth Rock pretty enormously debilitates hail teams that focus on Ice-type Pokemon, which substantially helps in keeping those teams in line.</p>
+
+<h3>Sandstorm</h3>
+
+<p>Sandstorm teams, while more commonly seen in OU due to the prevalence of Tyranitar and Hippowdon, are still quite excellent in NU. Hippopotas starts the perpetual sandstorm, and can also set up Stealth Rock for your team, making it not that much of dead weight. After that, there are many very defensive Pokemon, like Cradily and Regirock, can take advantage of the Special Defense boost and sweep wit their immense bulk. There also exist a few useful Pokemon like Sandslash and Gabite that can use the sandstorm to give them a bit of evasion.</p>
+
+<p><img src="/download/sprites/dp/346.png" alt="Cradily" /><br />
+Cradily @ Leftovers<br />
+Ability: Suction Cups<br />
+EVs: 252 HP / 4 Def / 252 SpD<br />
+Nature: Careful<br />
+- Rest<br />
+- Sleep Talk<br />
+- Curse<br />
+- Rock Slide</p>
+
+<p>Sand teams are probably the least immediately threatening of all weather teams, but it's important to not let your guard down around them. If you lack powerful Fighting-, Steel-, or Ice-type attacks, Cradily will be able to set up with impunity on your team and sweep at +6. Regirock's immense bulk lets it function in largely the same way, although it can be phazed by Whirlwind or Roar at least. Beating these teams requires powerful super effective attacking Pokemon, and pretty much leaves classic stall out of the question.</p>
+
+<h3>Trick Room</h3>
+
+<p>Trick Room isn't a weather effect, but it's so close that we'll pretend that it is for purposes of organization. There are many, many Pokémon that have fallen into NU due to their mediocre speed, yet have immense power. Glass cannon sweepers like Sneasel and Haunter are completely beaten by Trick Room. Trick Room sweepers and setup Pokemon come in many forms, though, and so no two Trick Room teams will be exactly the same. As you might imagine, this only makes them more difficult to reliably counter.</p>
+
+<p><img src="/download/sprites/dp/369.png" alt="Relicanth" /><br />
+Relicanth @ Life Orb<br />
+Ability: Rock Head<br />
+EVs: 240 HP / 252 Atk / 16 Def<br />
+Nature: Adamant<br />
+- Head Smash<br />
+- Waterfall<br />
+- Earthquake<br />
+- Double-Edge</p>
+
+<p>Relicanth packs STAB Head Smash and the ability, Rock Head, which come together to enable Relicanth to hit like a truck. Relicanth is also pretty slow, meaning that it serves to gain a lot from being used in Trick Room. Because Trick Room cannot be set up permanently like weather conditions, the easiest way to beat teams that use it are to stall out the 5 turns and then hit back hard before the opponent gets another chance to set it up again.</p>
+
+<h3>Baton Passing</h3>
+<p>Baton Pass is a pretty terrible strategy in the higher tiers due to the prevalence of fast Taunt and phazing, but in a tier with those Pokemon removed, the strategy can actually be viable. Unfortunately for Baton Pass teams, many of the best passers, such as Smeargle and Vaporeon, are absent from NU. That said, Gligar and Mr. Mime are still around, so there is plenty to use. NU is also home to a Pokemon with the most abusable ability for Baton Pass teams, Simple Bibarel.</p>
+
+<p><img src="/download/sprites/dp/403.png" alt="Bibarel" /><br />
+Bibarel @ Life Orb<br />
+Ability: Simple<br />
+EVs: 4 HP / 252 Atk / 252 Def<br />
+Nature: Adamant<br />
+- Return<br />
+- Waterfall / Aqua Tail<br />
+- Superpower<br />
+- Quick Attack</p>
+
+<p>With Simple, whenever it receives a boost, the boost's effect is doubled. If passed a Swords Dance from the following Gligar, it picks up a +4 boost that it can abuse to beat down the opposition. As if this weren't enough, Bibarel has STAB priority in Quick Attack that it can use to beat faster threats. And the icing on top of the cake is that Water and Normal coverage hits everything in the tier outside of Shedinja for neutral damage.</p>
+
+<p><img src="/download/sprites/dp/207.png" alt="Gligar" /><br />
+Gligar @ Yache Berry<br />
+Ability: Hyper Cutter<br />
+EVs: 252 HP / 4 Def / 252 Spe<br />
+Nature: Jolly<br />
+- Swords Dance<br />
+- Agility<br />
+- Baton Pass<br />
+- Taunt</p>
+
+<p>Gligar can pass Agility, Swords Dance, or Substitute to Bibarel very easily. If supported by dual screens, this strategy can be incredibly dangerous when played at the right point in the game.</p>
+
+<h3>Stealth Rock</h3>
+
+<p>All NU Pokemon are NU for a good reason; in many cases, this is due to a serious weakness to Stealth Rock that cripples them. For this reason, controlling the presence of Stealth Rock in the game is absolutely critical for success. Rapid Spinning is that much more important as well to support your own Pokemon, like Articuno and Charizard. Let's look at Charizard and see what it can do and why you might want to Rapid Spin to support it.</p>
+<p><img src="/download/sprites/dp/6.png" alt="Charizard" /><br />
+Charizard @ Salac Berry<br />
+Ability: Blaze<br />
+EVs: 252 Atk / 4 Def / 252 Spe<br />
+Nature: Adamant / Jolly<br />
+IVs: 30 HP<br />
+- Belly Drum<br />
+- Substitute / Endure<br />
+- Fire Punch<br />
+- Earthquake / ThunderPunch</p>
+
+<p>Charizard can get in, Belly Drum, and sweep... up until it switches into Stealth Rock. Without Stealth Rock, though, it can get in, Substitute, and then Belly Drum down to activate Salac Berry and sweep. Pretty much the only thing that can stop BellyZard once its set up is priority or faster Choice Scarf Pokemon.</p>
+
+<h2>Conclusion</h2>
+
+<p>As can be seen above, there are various strategies and play styles that work very effectively in the NU metagame. What's even more dangerous is that these strategies really don't have to deal with the problems of the higher tiers. Hopefully now that you've familiarized yourself with some common strategies, you'll be better prepared for taking on these strategies when you see them or using them yourself.</p>
+
+<table id="smogfooter">
+<tr>
+<td class="left"><a href="tcg_bw">&laquo; Previous Article</a></td>
+<td class="middle"><a href="/smog/issue12/">Home</a></td>
+<td class="right"><a href="dreamworld">Next Article &raquo;</a></td>
+</tr>
+</table>

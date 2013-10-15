@@ -1,0 +1,344 @@
+[title]
+Baton Pass Chain
+[head]
+<meta name="description" content="Analysis and applications of the move Baton Pass." />
+[page]
+<div class="author">By <a href="/forums/member.php?u=273">Mekkah</a>, rewritten by <a href="/forums/member.php?u=1923">darkie</a> and <a href="/forums/member.php?u=1098">david stone</a>.</div>
+
+<ol class="toc">
+	<li><a href="#introduction">Introduction</a></li>
+	<li><a href="#mechanics">The Mechanics</a></li>
+	<li>
+		<a href="#strategy">The Strategy</a>
+		<ul>
+			<li><a href="#commonpassers">Common Baton Passers</a></li>
+			<li><a href="#recipient">Your Recipient</a></li>
+			<li><a href="#alternatives">Alternative Baton Passers</a></li>
+		</ul>
+	</li>
+	<li><a href="#counters">Counters</a></li>
+	<li><a href="#finalwords">Final Words</a></li>
+</ol>
+
+<h2><a name="introduction">Introduction</a></h2>
+<p>The move Baton Pass has been around in Pokemon since the release of GSC, but really increased in usefulness in Advance for several reasons. More Pokemon learn it, more Pokemon learn stat-up moves, and more handy goodies have been handed to several Pokemon to decrease the difficulty of getting a boost in and getting out alive.</p>
+
+<p>What Baton Pass is, how it works, and how you can dominate opponents with it will be analyzed in this guide.</p>
+
+<h2><a name="introduction">The Mechanics</a></h2>
+
+<p>Baton Pass is essentially a move that makes you switch out while keeping the effects the user has activated in play. Unlike switching, whether you go before or after your opponent is determined by Speed, like with every other move. For a complete description of the move check <a href="/rs/moves/baton_pass">here.</a></p>
+
+<h2><a name="introduction">The Strategy</a></h2>
+
+<p>So, how is Baton Passing going to help you? The prime use is using one Pokemon to set up another on your team. The most common use for Baton Pass is to build a chain of Pokemon to Baton Pass to each other. The boosts are cumulative; everything can be passed on forever as long as nothing breaks the chain by dying or switching out without the aid of Baton Pass.</p>
+
+<p>The following set-up is a standard one. If you're looking for a team that is both very easy to use (after a few practice matches) and gets a big amount of wins, go ahead and steal it. Nearly every regular player has used this type of team at least once.</p>
+
+<ol>
+	<li>Ninjask</li>
+	<li>Vaporeon</li>
+	<li>Scizor</li>
+	<li>Smeargle</li>
+	<li>Celebi / Mr. Mime</li>
+	<li><em>recipient</em></li>
+</ol>
+
+<p>This team is not required to go in a specific order, but rather as a chain; eventually, you should pass to every Pokemon. The only exception is that you'll want to start with Ninjask generally, as Speed is the most important stat to have.</p>
+
+<p>First, the five Baton Passers will be analyzed.</p>
+
+<h3><a name="commonpassers">Common Baton Passers</a></h3>
+
+<p>When putting in an alternative move, you'll always want to keep Baton Pass (obviously), and keeping Substitute in there is strongly recommended to keep status in check, as well as removing the biggest threat in the game to Baton Pass teams: critical hits, due to the fact that critical hits bypass any defensive stat boosts that you may have accrued through the chain.</p>
+<pre>
+<a href="/rs/pokemon/ninjask">Ninjask</a> @ Leftovers
+~ Baton Pass
+~ Substitute
+~ Swords Dance / Silver Wind
+~ Hidden Power Flying
+</pre>
+
+<p>Ninjask is the starter of this chain nearly all the time. It passes on Speed extremely easily, simply by using Substitute about three times until every Pokemon on your team is faster than your opponent's. This is because Ninjask's ability, Speed Boost, gives +1 Speed for every turn Ninjask is in. Everything with 264 Speed takes one Speed Boost to beat everything standard, 198 takes two Speed Boosts and 158 takes three. Swords Dance is for later, when the rest of the team has set up some defenses and Ingrain for Ninjask so it can start to tank and make Substitutes that take two hits to break. When that time has come, you can alternate Substitute and Swords Dance to your heart's content. The alternative to Swords Dance is if you are passing Attack on to another Pokemon or are using a special attacker as your recipient. Ninjask's standard attacking move is Hidden Power Flying; this is your best bet to take on Heracross and Medicham. Because of your lack of attacking moves, these two with Focus Punch can be big nuisances that totally destroy your team. Despite its 4x resistance, Ninjask is not very keen on taking those hits and should get rid of these two as soon as possible. Hidden Power Flying should also shut down any opposing Ninjask, which is why giving it max Speed and Attack is not a bad idea.</p>
+
+<h4>Alternatives</h4>
+<p>Protect makes it easier to get in Speed Boosts and stalls for more Leftovers / Ingrain recovery. Sand-Attacking your opponent can win you time. You either force them to switch out, and if they don't want to or cannot, they have a chance of missing every time you put up a Substitute, which everyone of your team can take advantage of. Hidden Power Rock gets rid of opposing Ninjask guaranteed as well as Charizard. You almost never see Charizard, but when you see one, your team gets destroyed, unless you can get in Vaporeon in time and Surf it, and this is providing you still have a nearly max health Surfing Vaporeon. Silver Wind or Hidden Power Bug is helpful for STAB and mostly used for Celebi and Tyranitar. The latter is extremely annoying to deal with early on. Either you face a Dragon Dancing set with Substitute or Taunt, preventing you from statusing it, or you are battling Tyraniboah, who can get a super effective hit on every Baton Passer on your team except Scizor. If your recipient cannot deal with Tyranitar well, this is a good option. Swords Dance is a replaceable move, as you can always have that on Scizor (or Belly Drum on Smeargle, or even Swords Dance on a Celebi / Mawile), but so is Hidden Power Flying.</p>
+
+<h4>EVs</h4>
+<p>If you want to beat other Ninjask to the punch, max Speed and Attack with Jolly to ensure the KO with Hidden Power Flying. Hidden Power Rock KOs too, but that lowers your Speed IV. If you want to play it safe just switch (not Baton Pass) out of them to Vaporeon and play from there. 397 Speed is the absolute minimum. If you're paranoid about Electrode use 420 or so; this will also outspeed minimum Speed Kingdra after Rain Dance (at 412).</p>
+
+<p>A good midway between the above options is 88 HP / 252 Def / 108 Spe with Jolly nature, with Hidden Power Rock in the set. This ensures you will beat every enemy leading Ninjask that doesn't switch out. This spread allows you to survive any Hidden Power Flying from Jolly Ninjask, while you will outspeed any Adamant ones. Hidden Power Rock allows you to OHKO them. You have 60 leftover EVs in this spread to put wherever you want.</p>
+
+<pre>
+<a href="/rs/pokemon/smeargle">Smeargle</a> @ Lum Berry / Salac Berry / Leftovers
+~ Baton Pass
+~ Ingrain
+~ Substitute / Spider Web
+~ Spore / Spider Web
+</pre>
+
+<p>Smeargle is the ONLY thing in the game that can Baton Pass Ingrain, and trust me when I say Ingrain is a godsend; it makes your Pokemon immune to Whirlwind and Roar, eliminating the need for something like Magneton for Skarmory or overspecific Suicune / Weezing counters. In addition, it gives you 1/16 of your max HP back after every turn—a secondary Leftovers. This helps a lot against Sand Stream, Leech Seed, and burn / poison. In short terms, Ingrain is essential for the success of your chain. To get in Smeargle, pass a Substitute to it that won't break against a slow Pokemon or on a switch by your opponent. Watch out for Dugtrio and enemies with Substitute; always play it safe if your opponent has these. All Smeargle should be relied upon for is Ingraining and getting the hell out. Spore can help in giving you a free turn, it will usually give even two if you Spore a slower Pokemon while you have a Substitute up.</p>
+
+<h4>Alternatives</h4>
+<p>Spider Web is the best one (as it has more PP than both Block or Mean Look), but the only slot you may free up for it is Spore, or Substitute if you feel like being risky. If you remove Substitute and you do manage to pull off Spore + Spider Web, you're in the money. You can set up everything you want while the opponent is asleep as long as you are behind a Substitute, and if it wakes up, just pass the Substitute to Smeargle and sleep the opponent again. Smeargle can pass everything the other Pokemon can too, but he has too few moveslots already and everyone is a better Baton Passer than Smeargle when going by typing and stats. The only exception is Belly Drum, and the above-mentioned Ingrain, which nothing else can pass. It is a very risky bet, but also the quick way to win. Just pass Belly Drum to Salamence or Medicham and you have won. You don't really need a Baton Pass chain around Belly Drum Smeargle, though.</p>
+
+<h4>EVs</h4>
+<p>The obvious move would be max Speed and HP, as Smeargle doesn't even use his attacking stats and rarely should rely on his defenses. However, with 128 HP and 152 Special Defense EVs, you will always live through a Modest max Special Attack Zapdos Thunderbolt, which is the most powerful common unboosted special attack in the standard metagame. This knowledge will help you against other things like Starmie as well. You will still have 267 Speed with Jolly and the rest of your EVs in Speed, so you'll outspeed Aerodactyl and Jolteon after one Speed Boost or Salac Berry. This is merely an alternative spread, nothing is wrong with max HP and Speed. You can optionally stick to 56 Speed EVs and rely on two Speed Boosts as well, though as Smeargle is so fragile, this may not be the best idea.</p>
+
+<p>Note that Smeargle has superior defenses with 96 HP / 120 Def / 40 SpD / 252 Spe Jolly than 252 HP / 4 Def / 252 Spe Jolly. However, this also means your Substitute has less HP, so you won't be passing as good of a Substitute.</p>
+
+<pre>
+<a href="/rs/pokemon/vaporeon">Vaporeon</a> @ Leftovers
+~ Baton Pass
+~ Substitute
+~ Acid Armor
+~ Wish
+</pre>
+
+<p>If you're not using Scizor but something like Umbreon, you will need this mermaid a lot, as Vaporeon is your main bet against physical attackers and Fire-types. Generally, if you are met up with a Snorlax, Salamence, or some other physical threat on your Ninjask, get three Speed Boosts to make sure Vaporeon is faster than anything, and get either Scizor or Vaporeon in to outpace their physical stat boosting with your additional Defense. If you smell status or your opponent is doing less than 25% damage, always use Substitute before doing anything else—this prevents you from getting screwed up by a critical hit. This goes for every one of your Pokemon. Use Vaporeon to keep the other Pokemon's health high with Wish, but of course its own health has to stay high as well.</p>
+
+<h4>Alternatives</h4>
+<p>Roar works against other Baton Passing chains (though you will be annoyed by Mr. Mime and Ingrain Smeargle once they catch on), but of course it's not a good idea to Roar away Pokemon that you have trapped using Smeargle or Umbreon. Roar also stops Curselax from setting up on you. Charm and Acid Armor together shut down physical opponents 100%. Charm makes opponents switch, which means free turns for you. Roar is almost always going to be a better option, however, as it also removes their defensive boosts. Charm's advantage is that it works with a Pokemon that is trapped. Surf is a 2HKO on Tyranitar, OHKO if you're pumped with Calm Minds. Ice Beam is for Salamence and Flygon which can be very annoying to take care of, whether they have Choice Band or not. Vaporeon needs all the moves suggested, though: Substitute and Baton Pass are obligatory. Wish is extremely useful if you're not using another Wisher (and the best one is Umbreon, which is not in the standard line-up). Acid Armor would be the most replaceable one since Scizor can have Iron Defense, but still you'll miss that when you don't have it, or something like Choice Band or Dragon Dance Salamence with Flamethrower will murder you.</p>
+
+<h4>EVs</h4>
+<p>Max Defense with Bold makes it very easy to set up Acid Armor in combination with the high HP. Maxing HP isn't a bad idea as that gives you really big Substitutes to pass around to the team. You need 136 Speed EVs to outspeed Aerodactyl and Jolteon after two Speed Boosts and beat base 100 Speed Pokemon after one Speed Boost, which isn't worth it as you can just go for three. You will find Special Attack EVs mostly useless. Tyranitar will always be 2HKOed by Surf from Vaporeon's minimum of 256 Special Attack, unless Tyranitar has nearly max HP and Special Defense, which means it doesn't hurt you. For a guaranteed OHKO on Tyranitar (252 HP / 0 SpD) with Surf you'll need 463 Special Attack. To get that after one Calm Mind, you'll need to start with 308 Special Attack, which you need 208 Special Attack EVs for (no need for Modest). Surf after two Calm Minds will always OHKO Tyranitar. If you use Ice Beam, putting 80 Special Attack EVs to make 276 isn't a bad idea as this is a guaranteed OHKO on 369 HP, no Special Defense Salamence.</p>
+
+<pre>
+<a href="/rs/pokemon/scizor">Scizor</a> @ Leftovers
+~ Baton Pass
+~ Substitute
+~ Iron Defense
+~ Swords Dance / Hidden Power Bug
+</pre>
+
+<p>Without Scizor, you wouldn't stand a chance against a leading Tauros or Dodrio. It's the only Normal-resisting Baton Passer besides Mawile, and takes other physical hits quite well too. Together with Vaporeon, they should protect you against Snorlax and Salamence (beware of Fire Blast!) and several other dangerous Pokemon. Scizor can also take care of Tyranitar to an extent with Hidden Power Bug—an OHKO when Scizor gets in Swarm range or when you have a Swords Dance under your belt, a 2HKO otherwise. If you have Surf on Vaporeon or your recipient is Medicham, Swords Dance is a good choice. Scizor is easier to set up than Ninjask when you don't have all your defenses set up.</p>
+
+<h4>Alternatives</h4>
+<p>Scizor gets Agility as well, but that's something Ninjask already provides. Steel Wing and Silver Wind are alternative attacks. They have less power than Hidden Power Bug (or even Hidden Power Steel), but the side-effect may save you someday. If you have to rely on it, however, you have made an error somewhere. When replacing something, obviously take out Hidden Power Bug when putting in a new attacking move. Vaporeon's Acid Armor may seem to urge you to take out Iron Defense, but this is the only thing between you and a Tauros sweep, unless you can KO Tauros.</p>
+
+<h4>EVs</h4>
+<p>Max out HP, and put 136 or 140 EVs in Speed depending on whether you have a Hidden Power that requires a 30 Speed IV, to hit 200 Speed. This means you outspeed Jolteon and Aerodactyl after 2 Speed Boosts or one Agility, and you beat all the base 100 Speed Pokemon without a positive Speed nature after one Speed Boost. Stack your Defense with the rest, and use Impish. Alternately, you can use absolutely no Speed EVs whatsoever, as with 3 boosts, you are faster than everything, much like with Vaporeon. This allows you to max HP, and boost your defenses more.</p>
+
+<pre>
+<a href="/rs/pokemon/celebi">Celebi</a> @ Leftovers
+~ Baton Pass
+~ Substitute
+~ Calm Mind
+~ Recover
+</pre>
+
+<p>Celebi contributes Calm Mind as well as high HP Substitutes. Calm Mind should be here, even if you have a physical recipient, because the Special Defense boost keeps your Substitutes (or actually your Pokemon) from being broken by special attackers like Raikou and Zapdos. There really isn't much else to add to it. Celebi is an extremely good Baton Passer thanks to sturdy defenses, Natural Cure, and Recover, which makes it less reliant on Wish and Substitute, giving Vaporeon some breathing room.</p>
+
+<h4>Alternatives</h4>
+<p>Celebi is pretty flexible. You can of course put Psychic or a Grass move like Giga Drain or Hidden Power Grass on it to make use of Calm Mind. Psychic would help against Heracross and other Fighting-types (Focus Punching ones really hurt) as well as Taunt Gyarados to an extent, and a Grass move protects against Tyranitar and also Dugtrio to an extent. Psychic will especially help against Weezing, who if not Spored, will be extremely difficult to beat otherwise, considering it carries Haze and a STAB Sludge Bomb that will be Celebi's bane when the Acid Armors / Iron Defenses are Hazed away. Besides Celebi's / Mr. Mime's Psychic and / or a premature reliance upon your recipient's attacks, Vaporeon's Surf is the only actual attack on a Baton Pass team that threatens Weezing, who laughs at Scizor's Hidden Power Bug and Ninjask's Hidden Power Flying. Celebi can also Baton Pass Swords Dance, but since you have Ninjask and Scizor for that you won't really need that, plus Celebi is much more limited to physical attacking options. You can use Heal Bell in case one of your other Pokemon gets statused or Reflect / Light Screen to throw up a temporary barrier before you get enough Acid Armors / Iron Defenses / Calm Minds in, but Substitute and smart play are much better ways to get around these problems.</p>
+
+<h4>EVs</h4>
+<p>Max out HP for the best Substitutes, and put 264 Speed (112 EVs). You can also just neglect Speed and get 2 Speed Boosts beforehand to outspeed anything (Celebi's minimum 236 Speed is more than enough for that). Build up either Special Defense or Defense with what you have left, preferably Special Defense to tank better with Calm Mind.</p>
+
+<h4>OR</h4>
+
+<pre>
+<a href="/rs/pokemon/mr_mime">Mr. Mime</a> @ Leftovers
+~ Baton Pass
+~ Encore
+~ Calm Mind
+~ Psychic / Substitute
+</pre>
+
+<p>Mr. Mime has some wonderful abilities but extremely lame HP and Defense, unlike Celebi, who can take a load of hits and Recover them off. Mr. Mime's Soundproof allows it to come in on Roar from Pokemon like Suicune and perhaps Encore it and Calm Mind up in its face. Try to get Ingrain up sooner or later though because your other Pokemon don't have Soundproof. Soundproof also helps against Pokemon using Perish Song, but if they Perish Song against another Pokemon and you Baton Pass to Mr. Mime it won't go away. If you're Ingrained and someone Perish Songs on you, you will lose a Pokemon no matter what. Encore is a great tool, especially if you trap the opponent. It's one of the few things Baton Pass chains can do against Raikou. Psychic lets you take on Pokemon with Haze, although this will only be effective if you have a trap passer on your team.</p>
+
+<h4>Alternatives</h4>
+<p>Mr. Mime gets a LOT of handy stuff. Barrier is there for obvious reasons. Taunt helps against Whirlwinders. Thunderbolt can make use of Calm Mind and can hurt phazers. Trick + Choice Band is a long-term but much riskier Encore. If you trap something and Trickband it into a not-too-dangerous move, it's game over for them. Hypnosis puts something to sleep, but why would you when you have Spore Smeargle? You can contribute with Meditate, but you have 3 better Swords Dancers at your disposal.</p>
+
+<h4>EVs</h4>
+<p>Max out Mr. Mime's horrible HP to gain more overall defense. 264 Speed and the rest in Special Defense with a Calm nature is probably your best bet.</p>
+
+<h3><a name="recipient">Your Recipient</a></h3>
+
+<p>There are a couple of good recipients in the game, but the following are considered the best of the best. Your best bet is something that can kill everything in the game with high accuracy, preferably in one hit. Lum Berry on them isn't a bad idea so you can switch them in on a Thunder Wave or something, but Leftovers saves them against Sand Stream. You should have Ingrain and Substitute up though, but these are just-in-case scenarios. The best candidate for this is Medicham.</p>
+
+<pre>
+<a href="/rs/pokemon/medicham">Medicham</a> @ Lum Berry / Leftovers
+~ Baton Pass / Substitute
+~ Brick Break
+~ Shadow Ball
+~ Return
+</pre>
+
+<p>Absolutely nothing can take on this Medicham with +6 Attack and +1 Speed, except maybe a series of Quick Attack Pokemon, which is what Defense boosts are for. Medicham doesn't need to be Calm Minded to the max, and it can be brought in on Tyranitar (if you're faster and have a Substitute up and Tyranitar doesn't have one, of course) to kill it before Baton Passing out again. This is more useful when Tyranitar is trapped, but sometimes you have no choice. Every single one of Medicham's attacking moves are 100% accurate and they hit everything in the game. Even Skarmory is OHKOed by Brick Break. The only thing that survives both Brick Break and Shadow Ball in standard play is Weezing (and Muk sometimes), who is OHKOed by Return. Aside from Medicham's fragility, Medicham is the best recipient you could wish for. Baton Pass is generally the most useful move, as it allows Medicham to come in on problem Pokemon (Tyranitar) before you are through boosting, and scare them off / kill them before they destroy your team, and then Baton Pass out to finish boosting up.</p>
+
+<h4>EVs</h4>
+<p>Max Attack and Speed with Jolly lets you try and sweep in the worst-case scenario of only one Speed Boost. However, 242 HP / 252 Atk / 16 Spe Adamant gets you to 200 Speed, beating most things in OU after one Speed boost, and maximizing Medicham's ability to come in on things like Tyranitar. It's rare to not get at least two Speed boosts. Note that Jolly makes it so you cannot OHKO 252 HP / 252 Def Impish Groudon, whereas Adamant stands a good chance to OHKO. Jolly also doesn't have a guaranteed OHKO on 252 HP / 252 Def positively natured Shuckle, Forretress, Suicune, Metagross, and Donphan whereas Adamant does. All other Pokemon are OHKOed regardless.</p>
+
+<pre>
+<a href="/rs/pokemon/zapdos">Zapdos</a> @ Lum Berry / Leftovers
+~ Thunderbolt
+~ Hidden Power Grass
+~ Baton Pass
+~ Drill Peck / Roar / Substitute
+</pre>
+
+<p>Zapdos isn't bad either. Like Medicham, it can Baton Pass out so you don't have to save Zapdos for the end. Zapdos can take a few Tyraniboah hits, unlike most Baton Pass chain Pokemon, and Zapdos takes on Gyarados with ease, a huge plus. Drill Peck needs a large EV investment to OHKO Blissey after +6 Attack, and even more to take down Snorlax, so Drill Peck may not be worth it, as Thunderbolt from +6 Special Attack is going to 2HKO them anyway, so go ahead and use another filler. Roar can beat other stat-uppers and Substitute protects you from status (like Snorlax's Body Slam or Blissey's Thunder Wave). Zapdos isn't as fragile as Medicham, but doesn't have as much instant power, and does give you another nasty Rock weakness. If you really want, you can make Zapdos your Agility passer as well, and stick that in the last slot.</p>
+
+<h4>EVs</h4>
+<p>You need 291 Attack (196 EVs + nature) to OHKO 500 HP / 200 Defense Snorlax 100% of the time (with 6 Attack boosts obviously), which is a little too much. I'd settle with 270 Attack at max (216 EVs without nature) to guarantee the OHKO on 252 HP / 252 Def Blissey, but less is acceptable. 264 Speed makes you outspeed everything even if you only have one Speed Boost, if you don't put any EVs you'll need 2 Speed Boosts, even if you use a negative Speed nature. 297 is an option for outspeeding Heracross but it costs a lot of EVs. Stack Special Attack with your leftover EVs, or work on HP and defenses to take on threats such as Tyranitar better. If you're not working on defenses, use a negative Defense or negative Special Defense nature. If you're not stacking Speed to 264, use a negative Speed one.</p>
+
+<pre>
+<a href="/rs/pokemon/salamence">Salamence</a> @ Lum Berry / Leftovers
+~ Flamethrower
+~ Dragon Claw
+~ Hidden Power Flying
+~ Earthquake / Roar / Substitute
+</pre>
+
+<p>You will probably get the most mileage out of Earthquake in the last slot, even if Pokemon like Aggron, Muk, and Arcanine aren't exactly huge metagame threats. Otherwise, nothing survives the first three offered attacking moves once fully powered up, and Intimidate can be very handy. Like Zapdos, Salamence can Roar out enemy Baton Passers, gives another Rock weakness, and needs to rely on mixed attacking. Salamence helps the Fighting weakness most Baton Pass teams have.</p>
+
+<h4>EVs</h4>
+<p>For Speed, same as with Zapdos: use 264, 297, or just don't put any EVs at all and use negative Speed. Max out Special Attack and put the rest in Attack.</p>
+
+<p>In theory you can use almost anything, even Nidoking or freaking Aipom to sweep your opponents with, because fully boosted Pokemon are nearly impossible to stop. However, when fighting for a tournament and you must use a Baton Pass team, might as well use the best of the best.</p>
+
+<h3><a name="alternatives">Alternative Baton Passers</a></h3>
+
+<p>Now, the above chain isn't the only Baton Passing chain. There are a LOT of other possibilities; I'll list some of the best.</p>
+
+<pre>
+<a href="/rs/pokemon/zapdos">Zapdos</a> @ Leftovers
+~ Substitute
+~ Baton Pass
+~ Agility
+~ Thunderbolt
+</pre>
+
+<p>If Zapdos isn't your recipient, it can be your Baton Passer. Ninjask is a very frail Pokemon, and Zapdos can at least take care of Weezing, Skarmory, and Suicune, so this is an acceptable solution. Very easy to set up and pass with, but you'll have to put an Attack booster somewhere else.</p>
+
+<h4>Alternatives</h4>
+<p>Hidden Power Grass or Hidden Power Ice can mess up Ground-types and Drill Peck kills Heracross. Then again you don't really have room for anything.</p>
+
+<h4>EVs</h4>
+<p>Doesn't necessarily need any Speed EVs, but 244 Speed can be nice to beat all Tyranitar. Max out HP for Substitute, and put the rest in your defenses. Thunderbolt should hurt the phazers decently enough.</p>
+
+<pre>
+<a href="/rs/pokemon/mawile">Mawile</a> @ Leftovers
+~ Substitute
+~ Baton Pass
+~ Iron Defense / Swords Dance
+~ Taunt
+</pre>
+
+<p>Scizor's little sister. She trades a lot of good stats and attacking potential for a Flying resistance, Taunt (!), and Intimidate. Most importantly, Mawile is the only Baton Passer that resists Rock (other than the frail Medicham). Not bad per se, but much more vulnerable than Scizor, thanks to the lower Special Defense and weakness to Earthquake. Pick which stat booster you need. Like with Scizor, Iron Defense helps a lot against Normal-types, but Swords Dance is good if you don't have a Swords Dancing Ninjask or something else that boosts Attack.</p>
+
+<h4>Alternatives</h4>
+<p>Substitute AND Taunt may seem a little overkill, so you may want both Iron Defense and Swords Dance. You can attack with a random physical Hidden Power, like STAB Hidden Power Steel for Tyranitar. Sing can win you a turn but is unreliable, and you won't need it with Spore on Smeargle. Tickle can be fun to toy with, and it goes through Substitute, which can be handy against something like Tyraniboah.</p>
+
+<h4>EVs</h4>
+<p>Max HP always. Mawile can reach 198 Speed, but you need 248 Speed EVs for it. To realize her tanking potential, you can stick with 158 Speed, which is more than enough as you can just get 3 Speed Boosts and outspeed Aerodactyl and Jolteon that way. Put what you have left in Defense and go for Impish.</p>
+
+<pre>
+<a href="/rs/pokemon/umbreon">Umbreon</a> @ Leftovers
+~ Substitute
+~ Baton Pass
+~ Wish
+~ Mean Look
+</pre>
+
+<p>This thing used to be standard on Baton Pass chains. Very good defenses allow it to soak up some hits, and it can do a lot of things Vaporeon can do too, like Wish and Charm. The main selling point is Mean Look. The only other Trappassers are Ariados and Smeargle, where the former blows and the latter has other things to do. A trapped opponent is much more predictable and easier to stall out. Umbreon isn't a bad choice if you have a leftover slot.</p>
+
+<h4>Alternatives</h4>
+<p>As said before Umbreon is a bit like Vaporeon, but it doesn't get Acid Armor, Roar, Ice Beam, or Surf. Don't bother attacking with it; stick with Charm, Sand-Attack, or Taunt. Taunt stops stat-uppers and Substitute to an extent if you're faster, as well as status and Ingrain, but you may find it overkill with Substitute and Ingrain at your disposal. Wish is expendable if you already have it on Vaporeon.</p>
+
+<h4>EVs</h4>
+<p>Max HP, as you might have guessed. Put the defenses how you like it; you won't need any Speed (going to 198 with 128 EVs is optional but not worth it). 252 HP / 120 Def / 136 SpD is probably your best bet for a somewhat balanced spread.</p>
+
+<pre>
+<a href="/rs/pokemon/jolteon">Jolteon</a> @ Leftovers
+~ Substitute
+~ Baton Pass
+~ Agility
+~ Thunderbolt
+</pre>
+
+<p>Basically this is Zapdos without the awesome typing and great stat balance, more Speed, Volt Absorb, and some cool other options. It counters other Electric-types to an extent, which is always nice.</p>
+
+<h4>Alternatives</h4>
+<p>Like Zapdos it can Roar out other Baton Pass chains, and like the other Eeveelutions it can Charm, Sand-Attack, and Wish. The defensive Eeveelutions are better at those though.</p>
+
+<h4>EVs</h4>
+<p>374 Speed minimum for beating Alakazam, Sceptile, and Dugtrio; 384 if you fear Swellow. Max out HP and put the rest in Special Defense for taking Hidden Powers better; you won't need Special Attack.</p>
+
+<pre>
+<a href="/rs/pokemon/gorebyss">Gorebyss</a> / <a href="/rs/pokemon/huntail">Huntail</a> @ Leftovers
+~ Substitute
+~ Baton Pass
+~ Iron Defense
+~ Amnesia
+</pre>
+
+<p>Basically a mini-Vaporeon with the possibility to pass Agility or Amnesia. They aren't too good as Pokemon themselves, but if you have a physical recipient you may as well use Amnesia, though Calm Mind Mr. Mime and Celebi do a better job at standing up to Electric-types. Their low HP and Special Defense really keeps them from being a staple on Baton Pass teams.</p>
+
+<h4>Alternatives</h4>
+<p>As said, these two can use Agility, and of course you can use Surf / Ice Beam (use Gorebyss if you're doing so because she has better Special Attack). Huntail can also go physical if you must, but there's no good options available other than the generic Hidden Power or Return.</p>
+
+<h4>EVs</h4>
+<p>Like with about anything, max HP. To spare EVs you can use the 158 Speed stat, but that means you won't outspeed everything after Agility or 2 Speed Boosts, which is crucial for Pokemon with Agility. It takes nearly the maximum to get them to the 198 threshold. Put your leftover EVs in Defense, and use Bold (or Impish if you're using Huntail with physical attacks).</p>
+
+<pre>
+<a href="/rs/pokemon/espeon">Espeon</a> @ Leftovers
+~ Substitute
+~ Baton Pass
+~ Calm Mind
+~ Psychic
+</pre>
+
+<p>Known as EspyJump. The fastest Calm Mind passer, if you ever need one. Sadly Espeon doesn't outspeed max Speed Raikou, which would be the main reason to use her over Celebi or Mr. Mime (besides the 130 Special Attack stat). Not a bad special tank, but usually you're better off with Celebi or Mr. Mime, given she has neither that Earthquake / Surf / Thunderbolt resistance with Recover and Natural Cure, nor Soundproof and an impressive movepool. Espeon is a good lone Baton Passer, but doesn't fill any useful resistance roles on a full Baton Pass chain.</p>
+
+<h4>Alternatives</h4>
+<p>Sand-Attack, like on Jolteon and Ninjask, can be used in combination with Substitute to scout for a miss. Charm is better on Vaporeon / Umbreon, but it's there. Same for Wish. Dual screens deserve a mention, but no more than that. These would go over Psychic if anything, but sadly you'll be wasting that nice 130 Special Attack stat.</p>
+
+<h4>EVs</h4>
+<p>Max HP and a lot of Special Defense should do the trick. About 301 or 332 Speed is plenty, especially considering you'll be Speed boosting. Use a Calm nature.</p>
+
+<p>Every other Pokemon with Baton Pass is UU and nearly unusable, except Medicham which is just too good as a recipient to pass up, sorry for the pun. Pick your team accordingly, with the goal to get all boosts you need and covering the problems.</p>
+
+<p>The question is, which problems? What beats a well-played Baton Pass team?</p>
+
+<h2><a name="introduction">Counters</a></h2>
+
+<p>Baton Pass teams are nearly unbeatable. You need insane luck, specific counters, or an error by your opponent. Some things that have a shot:</p>
+
+<dl>
+	<dt>Phazers</dt>
+	<dd>These are on nearly every team, and can make it a little harder to get the chain going. However, after Ingrain is set up these are worthless. The most dangerous phazer is one that actually OHKOes Smeargle. A good example would be Roar Aggron. It can Focus Punch Smeargle, Substitute to block Spore, and Roar out everything else. You'll almost never see it, but when I did, I did have a really difficult time. Remember that Mr. Mime can block Roar, but he is really fragile on the physical side as well. Raikou or Zapdos with Roar can be very annoying as well; Encore Mr. Mime should help but he takes surprisingly few predicted Thunderbolts to bring down.</dd>
+
+	<dt>Exploders</dt>
+	<dd>Substitute protects your Pokemon from dying against these, but they are wonderful for escaping a trap, and really threatening if you don't have a Substitute. In combination with Spikes, status, and / or Sand Stream, Explosion can force Wish Vaporeon or maybe Umbreon to get on low HP, making it really difficult to keep everything else healthy. Scizor or Mawile can make their life difficult.</dd>
+
+	<dt>Perish Song</dt>
+	<dd>As mentioned before, they force you to switch out or die. If you're Ingrained, you cannot escape Perish Song death without Baton Passing to Mr. Mime BEFORE it's used. Baton Passing to Mr. Mime after you are hit by Perish Song will not help.</dd>
+
+	<dt>Belly Drum</dt>
+	<dd>An instant killer move from Charizard or Linoone can spell death. Surf Vaporeon can handle both to an extent, but sometimes you will have to sacrifice. Really deadly, but also really rare.</dd>
+
+	<dt>Psych Up</dt>
+	<dd>Regice, for example, hits really hard if it steals your boosts. Medicham as a recipient can kill it off, but is 2HKOed by Ice Beam. Mr. Mime with Trickband or Encore can halt this, as long as you pass straight to Mr. Mime when Regice comes out, so you can Encore the Psych Up. Tricking Thunderbolt still spells doom, lots of Baton Passers are weak to Thunderbolt.</dd>
+
+	<dt>Other Baton Passers</dt>
+	<dd>Things like Ninjask passing to Marowak that are built to hit hard really quickly, as opposed to the usual Baton Pass chains which slowly work towards the recipient's invulnerability. Those are big threats and good reasons to max Ninjask's Speed or to put Surf on Vaporeon.</dd>
+
+	<dt>Choice Band Fighting-types</dt>
+	<dd>Against a lot of Baton Passers, you are free to Focus Punch at will as they cannot attack you. Without defense boosts, even the 4x resistant Ninjask falls to it eventually, though Hidden Power Flying will scare Heracross and Medicham to death. Acid Armor / Charm Vaporeon cannot even stand up to this.</dd>
+
+	<dt>Smeargle Death</dt>
+	<dd>Smeargle is the most vulnerable Pokemon in a Baton Pass chain. If he doesn't have that precious Speed Boost he can be trapped by Dugtrio, and OHKOed if he doesn't have Defense boosts yet. Substitutes can surprise him and block Spore, and if he Ingrains at the wrong time he is up for a lot of pain. Mach Punch, ExtremeSpeed, Fake Out, and Quick Attack spell his doom as well sometimes. You should be really careful when using Smeargle.</dd>
+
+	<dt>Tauros / Dodrio leads</dt>
+	<dd>Without Scizor or Mawile, a Choice Band-boosted Return / Double-Edge is going to hurt badly, even on Vaporeon and Umbreon.</dd>
+	<dd>If anything in the Baton Pass chain dies, you should take your chances and sweep your opponent before he renews his set-up. The longer you take, the more boosts the chain gathers. If you don't give them a chance to put up a Substitute, you can repeatedly hit them until you get a critical hit.</dd>
+
+	<dt>Trick + Choice Band</dt>
+	<dd>Thankfully for Baton Pass chains, Substitute blocks Trick. However, if they don't have a Substitute up and if Alakazam or Mr. Mime manages to Trick a Choice Band onto anything your opponent 100% needs for success, most notably Ninjask or Smeargle, you will have rendered the chain effectively useless. Even if you Trick Band something like Umbreon or Scizor, it is remarkably easy for your opponent to forget that one of his Pokemon has been Trickbanded after a few turns have passed. It is an automatic loss if they don't Baton Pass right away if they Baton Pass it in again to take a hit (or if they've forgotten it is holding a Choice Band and not Leftovers). If your opponent has a Trick Mime of his own and is smart, however, he can see this strategy coming a mile away and nullify it the first time, though he will eventually have to have something permanently take the Choice Band, especially if he needs his Mime's services for the success of his chain.</dd>
+</dl>
+
+<h2><a name="introduction">Final Words</a></h2>
+
+<p>Baton Pass teams are dangerous. They can pop up anywhere and really make your life sour, because a 100% counter to them doesn't exist, not even the above "counters." Contrary to popular belief, Haze, Roar, Whirlwind, and Perish Song are not enough to scare them. However, the advantage against Baton Pass teams is that they have no offense early on, and that one surprise at the right time can totally mess them up. If someone is building up +6 across the board, you may as well forfeit though.</p>

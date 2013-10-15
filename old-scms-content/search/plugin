@@ -1,0 +1,43 @@
+[title]
+Get Search Plugin
+[head]
+<meta name="description" content="Instructions for adding the Smogon search engine to your browser toolbar." />
+[breadcrumb]
+Get Plugin
+[page]
+<p>Thanks to the wonders of <a href="http://www.opensearch.org/">OpenSearch</a>, our Smogon search engine is available as a browser plugin for Firefox 2+ and Internet Explorer 7+.</p>
+
+<div class="image_caption">
+<img src="/media/search/autodiscover.png" alt="" />
+Browsers (pictured: Firefox 2) that support plugin auto-discovery can easily add Smogon search to their browser by opening their plugin list and selecting "Add Smogon".
+</div>
+
+<p>
+<script type="text/javascript"><!--
+document.write("Alternatively, you can try clicking this ");
+document.write("<a href=\"javascript:window.external.AddSearchProvider('http://www.smogon.com/search.xml');\">link</a>.");
+-->
+</script>
+</p>
+
+<div>
+<script type="text/javascript"><!--
+google_ad_client = "pub-1662150425711399";
+google_ad_width = 468;
+google_ad_height = 60;
+google_ad_format = "468x60_as_rimg";
+google_cpa_choice = "CAEQ8aaVzgEaCK-mObEa-YnxKOm293M";
+//-->
+</script>
+<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+
+<noscript>
+<p>Other browsers require JavaScript to add the search plugin. Please enable JavaScript and refresh this page.</p>
+</noscript>
+
+<div class="image_caption">
+<img src="/media/search/installed.png" alt="" />
+An installed search plugin. Happy searching! For tips and tricks, try the <a href="help">help page</a>.
+</div>

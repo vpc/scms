@@ -1,0 +1,100 @@
+[title]
+The Smog community web-zine
+[header]
+[head]
+<link href="/media/smog/smog.css" type="text/css" rel="stylesheet" />
+[page]
+
+<div style="text-align: center;">
+<img src="/media/upload/smog/issue19/smog19.png" alt="Cover Art" />
+
+<p>Smogon's Web-zine</p>
+
+<h2>Issue #19</h2>
+<h4>Released March 15, 2012</h4>
+
+<table id="smogfront">
+<tr>
+  <td class="col1">
+	<h3>General</h3>
+	<ul>
+		<li><a href="note_from_editor">Note from the Editor</a></li>
+		<li><a href="trivia">Trivia</a></li>
+		<li><a href="interview">Interview with Seven Deadly Sins</a></li>
+		<li><a href="tournaments">Tournaments Coverage</a></li>
+		<li><a href="smog_awards">The Smog Awards 2011</a></li>
+	</ul>
+  </td>
+
+  <td class="col2">
+	<h3>Battling Strategy</h3>
+	<ul>
+		<li><a href="featured_pokemon">Featured Pokémon: Jirachi</a></li>
+		<li><a href="featured_pokemon_uber">Featured Uber Pokémon: Groudon</a></li>
+		<li><a href="featured_pokemon_uu">Featured UU Pokémon: Roserade</a></li>
+		<li><a href="featured_pokemon_lc">Featured LC Pokémon: Chinchou</a></li>
+		<li><a href="featured_pokemon_ru">Featured RU Pokémon: Honchkrow</a></li>
+		<li><a href="featured_pokemon_nu">Featured NU Pokémon: Gorebyss</a></li>
+		<li><a href="type_analysis">Type Analysis: Flying</a></li>
+		<li><a href="vgc_core">Featured VGC 2012 Core: Metagross and Rotom-W</a></li>
+		<li><a href="viable_nfes">Viable NFEs</a></li>
+		<li><a href="forgotten_strategies">Forgotten Strategies</a></li>
+		<li><a href="rapid_spin">Rapid Spinning Among the Tiers</a></li>
+	</ul>
+  </td>
+
+  <td class="col3">
+	<h3>Metagame</h3>
+	<ul>
+		<li><a href="featured_rmt_ou">Featured OU RMT</a></li>
+		<li><a href="featured_rmt_uu">Featured UU RMT</a></li>
+		<li><a href="featured_rmt_lc">Featured LC RMT</a></li>
+		<li><a href="featured_rmt_ru">Featured RU RMT</a></li>
+		<li><a href="featured_rmt_nu">Featured NU RMT</a></li>
+		<li><a href="dreamworld">Welcome to Dream World</a></li>
+		<li><a href="weather">Weather in Lower Tiers</a></li>
+		<li><a href="ru_suspect">RU Suspect Results</a></li>
+		<li><a href="lc_eviolite">Eviolite in LC</a></li>
+		<li><a href="uber_threats">Dealing With Ubers Threats</a></li>
+		<li><a href="lc">What's New(er) in LC?</a></li>
+		<li><a href="nu">What's New in NU?</a></li>
+	</ul>
+  </td>
+</tr>
+
+<tr>
+  <td class="col1">
+	<h3>Arts & Recreation</h3>
+	<ul>
+		<li><a href="art_panel">Judge a Pokemon: The Smog's 7th Art Panel</a></li>
+		<li><a href="smeargle">Smeargle's Studio Update</a></li>
+		<li><a href="arterview">The Arterview: Zracknel</a></li>
+	</ul>
+  </td>
+
+  <td class="col2">
+	<h3>Entertainment</h3>
+	<ul>
+		<li><a href="ladder_fail">Race to the Bottom</a></li>
+		<li><a href="fabulous_pokemon">Top 10 Fabulous Pokemon</a></li>
+		<li><a href="spl_drama">SPL Drama</a></li>
+		<li><a href="vgc_dynasties">VGC Dynasties</a></li>
+		<li><a href="moves">How Moves Work</a></li>
+	</ul>
+  </td>
+
+  <td class="col3">
+	<h3>Other Features</h3>
+	<ul>
+		<li><a href="irc">Guide to Smogon IRC</a></li>
+		<li><a href="translation">Lost in Translation: Smogon Translation Projects</a></li>
+		<li><a href="cap">CAP2 Report: The Essence of Necturna</a></li>
+		<li><a href="challengecup">Challenge Cup: Rotom-S @ Air Balloon</a></li>
+	</ul>
+  </td>
+</tr>
+</table>
+
+</div>
+
+<div style="text-align: center;"><h3>This issue of The Smog is brought to you by <a href="/smog/issue19/contributors">these contributors</a>.</h3></div>

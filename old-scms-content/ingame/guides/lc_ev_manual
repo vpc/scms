@@ -1,0 +1,548 @@
+[title]
+The Little Cup EVing Manual
+[head]
+<meta name="description" content="A guide that explains the basics of effectively EV Training Pokemon for Little Cup." />
+[page] 		
+<div class="author"> by <a href="/forums/member.php?u=12694">eric the espeon</a> with art by <a href="/forums/member.php?u=26964">Komodo</a>.</div>
+<img src="http://i.imgur.com/edmfo.png" class="right" alt="" />
+<ol class="toc">
+<li><a href="#intro">Introduction</a></li>
+<li><a href="#spare">Spare EXP</a> 
+<ul> 
+<li><a href="#different">Fluctuating Pokémon</a></li>
+<li><a href="#fast">Fast Pokémon</a></li>
+<li><a href="#mslow">Medium Slow Pokémon</a></li> 
+<li><a href="#mfast">Medium Fast Pokémon</a></li> 
+<li><a href="#slow">Slow Pokémon</a></li> 
+<li><a href="#odd">Erratic Pokémon</a></li> 
+</ul> 
+</li> 
+<li><a href="#bnft">Battles Needed to Fully Train</a> 
+<ul> 
+<li><a href="#maximizing">Minimizing EXP Gain Per Battle</a></li> 
+
+<li><a href="#magikarp">Magikarp</a> 
+<ul> 
+<li><a href="#home1">Home Grown</a></li> 
+<li><a href="#Pal">Pal Parked</a></li> 
+<li><a href="#traded">Traded</a></li> 
+</ul>
+</li>
+
+<li><a href="#star">Starly</a> 
+<ul> 
+<li><a href="#home2">Home Grown</a></li> 
+<li><a href="#Pal2">Pal Parked</a></li> 
+<li><a href="#traded2">Traded</a></li> 
+</ul> 
+</li> 
+
+<li><a href="#bug">Kricketot</a> 
+<ul> 
+<li><a href="#home3">Home Grown</a></li> 
+<li><a href="#Pal3">Pal Parked</a></li> 
+<li><a href="#traded3">Traded</a></li> 
+</ul>
+</li> 
+
+</ul> 
+</li>
+
+<li><a href="#use">Useful Information</a></li> 
+<li><a href="#demo1">Demonstration A</a></li> 
+<li><a href="#demo2">Demonstration B</a></li> 
+</ol>
+
+<h2><a name="intro">Introduction</a></h2> 
+<p>As the Little Cup metagame is played at level 5 rather than the usual level 100, there are some unique difficulties in fully EV training a Pokémon without bringing it over the level 5 limit. This guide will help you to overcome these difficulties and allow you to give your Pokémon any EV spread you want, while staying at or below level 5. This guide will assume that you have a basic knowledge of how EVs and EV training works, and if you do not have this knowledge already, please refer to the EV Training Manual. This guide will not attempt to teach you how to construct and choose EV spreads for Little Cup. For that, please refer to the <a href="/dp/articles/little_cup_guide#EVs">EV Distribution section of the Little Cup Guide</a>.</p>
+ 
+<p>In short, to fully EV train a Pokémon without letting it grow too many levels, adhere to two simple principles:</p>
+<ol>
+<li>Gain as few Experience Points per battle as possible</li>
+<li>Gain as many EVs per battle as possible</li>
+</ol>
+
+<p>In practice it's quite hard to stick to those, and even though the math will be kept to a minimum in this article, some understanding will be required.</p>
+
+<p>Before you start: always, always remember to keep an untouched clone in case you make a mistake. EVs can be undone with the right Berries, but there is no way to level down a Pokémon. Breeding the perfect Pokémon and then having it ruined permanently by poor EV training is not something that you want to happen.</p>
+ 
+<h2><a name="spare">"Spare" EXP before you hit Level 6</a></h2>
+
+<p>Each Pokémon has a Base EXP rate which determines how quickly it levels up. Depending on which category your Pokémon falls into, you will have a different amount of EXP to use before it reaches level 6. If you deposit a Pokémon in the Box, its stats will be recalculated and EVs taken into account (normally you would have to wait for a level up for stat recalculation). This is called the "Box Trick" and it means you can finish training while at level 5. Despite what some rumors may say, the Box Trick does work in DPP as long as you are not at level 100, so don't worry about not being able to train your Emerald hatched Pokémon. The Box Trick lets you safely train until you are one EXP from hitting level 6.</p>
+
+<p>Below is a list of all Pokémon eligible for Little Cup ordered by their Base EXP groups, with the maximum amount of EXP they can gain without reaching level 6 from level 1 (DPP hatching) and level 5 (ADV hatching). Beware that if you use your full quota as listed here, you will be a single point from leveling up and becoming ineligible for Little Cup.</p>
+ 
+<h3><a name="different">Fluctuating</a></h3> 
+<p>From level 1: 111</p>
+<p> From level 5: 46</p>
+<ul>
+<li><a href="/dp/pokemon/corphish">Corphish</a></li>
+<li><a href="/dp/pokemon/drifloon">Drifloon</a></li>
+<li><a href="/dp/pokemon/gulpin">Gulpin</a></li>
+<li><a href="/dp/pokemon/makuhita">Makuhita</a></li>
+<li><a href="/dp/pokemon/shroomish">Shroomish</a></li>
+<li><a href="/dp/pokemon/wailmer"> Wailmer</a></li>
+</ul>
+ 
+<h3><a name="fast">Fast</a></h3>
+<p>From level 1: 171</p>
+<p> From level 5: 71</p>
+<ul>
+<li><a href="/dp/pokemon/aipom">Aipom</a></li>
+<li><a href="/dp/pokemon/azurill">Azurill</a></li>
+<li><a href="/dp/pokemon/azurill">Chingling</a></li>
+<li><a href="/dp/pokemon/cleffa">Cleffa</a></li>
+<li><a href="/dp/pokemon/duskull">Duskull</a></li>
+<li><a href="/dp/pokemon/glameow">Glameow</a></li>
+<li><a href="/dp/pokemon/happiny">Happiny</a></li>
+<li><a href="/dp/pokemon/igglybuff">Igglybuff</a></li>
+<li><a href="/dp/pokemon/ledyba">Ledyba</a></li>
+<li><a href="/dp/pokemon/misdreavus">Misdreavus</a></li>
+<li><a href="/dp/pokemon/purugly">Purugly</a></li>
+<li><a href="/dp/pokemon/shuppet">Shuppet</a></li>
+<li><a href="/dp/pokemon/skitty">Skitty</a></li>
+<li><a href="/dp/pokemon/snubbull">Snubbull</a></li>
+<li><a href="/dp/pokemon/spinarak">Spinarak</a></li>
+<li><a href="/dp/pokemon/spoink">Spoink</a></li>
+<li><a href="/dp/pokemon/togepi">Togepi</a></li>
+</ul>
+ 
+<h3><a name="mslow">Medium Slow</a></h3>
+<p>From level 1: 178</p>
+<p>From level 5: 43</p>
+<ul>
+<li><a href="/dp/pokemon/abra">Abra</a></li>
+<li><a href="/dp/pokemon/bellsprout">Bellsprout</a></li>
+<li><a href="/dp/pokemon/bulbasaur">Bulbasaur</a></li>
+<li><a href="/dp/pokemon/charmander">Charmander</a></li>
+<li><a href="/dp/pokemon/chikorita">Chikorita</a></li>
+<li><a href="/dp/pokemon/cyndaquil">Cyndaquil</a></li>
+<li><a href="/dp/pokemon/gastly">Gastly</a></li>
+<li><a href="/dp/pokemon/geodude">Geodude</a></li>
+<li><a href="/dp/pokemon/machop">Machop</a></li>
+<li><a href="/dp/pokemon/nidoran-f">Nidoran-f</a></li>
+<li><a href="/dp/pokemon/nidoran-m">Nidoran-m</a></li>
+<li><a href="/dp/pokemon/oddish">Oddish</a></li>
+<li><a href="/dp/pokemon/pidgey">Pidgey</a></li>
+<li><a href="/dp/pokemon/poliwag">Poliwag</a></li>
+<li><a href="/dp/pokemon/squirtle">Squirtle</a></li>
+</ul> 
+
+<h3><a name="mfast">Medium Fast</a></h3>
+<p>From level 1: 215</p>
+<p> From level 5: 90</p>
+<ul> 
+<li><a href="/dp/pokemon/caterpie">Caterpie</a></li>
+<li><a href="/dp/pokemon/diglett">Diglett</a></li>
+<li><a href="/dp/pokemon/doduo">Doduo</a></li>
+<li><a href="/dp/pokemon/ekans">Ekans</a></li>
+<li><a href="/dp/pokemon/grimer">Grimer</a></li>
+<li><a href="/dp/pokemon/magnemite">Magnemite</a></li>
+<li><a href="/dp/pokemon/mankey">Mankey</a></li>
+<li><a href="/dp/pokemon/meowth">Meowth</a></li>
+<li><a href="/dp/pokemon/onix">Onix</a></li>
+<li><a href="/dp/pokemon/paras">Paras</a></li>
+<li><a href="/dp/pokemon/ponyta">Ponyta</a></li>
+<li><a href="/dp/pokemon/psyduck">Psyduck</a></li>
+<li><a href="/dp/pokemon/rattata">Rattata</a></li>
+<li><a href="/dp/pokemon/sandshrew">Sandshrew</a></li>
+<li><a href="/dp/pokemon/scyther">Scyther</a></li>
+<li><a href="/dp/pokemon/seel">Seel</a></li>
+<li><a href="/dp/pokemon/slowpoke">Slowpoke</a></li>
+<li><a href="/dp/pokemon/spearow">Spearow</a></li>
+<li><a href="/dp/pokemon/venoat">Venonat</a></li>
+<li><a href="/dp/pokemon/vulpix">Vulpix</a></li>
+<li><a href="/dp/pokemon/weedle">Weedle</a></li>
+<li><a href="/dp/pokemon/zubat">Zubat</a></li>
+</ul>
+ 
+<h3><a name="slow">Slow</a></h3>
+
+<p>From level 1: 269</p>
+<p>From level 5: 113</p>
+
+<ul>
+<li><a href="/dp/pokemon/chinchou">Chinchou</a></li>
+<li><a href="/dp/pokemon/dratini">Dratini</a></li>
+<li><a href="/dp/pokemon/exeggcute">Exeggcute</a></li>
+<li><a href="/dp/pokemon/houndour">Houndour</a></li>
+<li><a href="/dp/pokemon/larvitar">Larvitar</a></li>
+<li><a href="/dp/pokemon/magikarp">Magikarp</a></li>
+<li><a href="/dp/pokemon/ralts">Ralts</a></li>
+<li><a href="/dp/pokemon/rhyhorn">Rhyhorn</a></li>
+<li><a href="/dp/pokemon/shellder">Shellder</a></li>
+<li><a href="/dp/pokemon/staryu">Staryu</a></li>
+<li><a href="/dp/pokemon/swinub">Swinub</a></li>
+<li><a href="/dp/pokemon/tentacool">Tentacool</a></li>
+</ul>
+ 
+<h3><a name="odd">Erratic</a></h3>
+
+<p>From level 1: 405</p>
+<p> From level 5: 168</p>
+
+<ul>
+<li><a href="/dp/pokemon/anorith">Anorith</a></li>
+<li><a href="/dp/pokemon/clamperl">Clamperl</a></li>
+<li><a href="/dp/pokemon/feebas">Feebas</a></li>
+<li><a href="/dp/pokemon/lileep">Lileep</a></li>
+<li><a href="/dp/pokemon/nincada">Nincada</a></li>
+<li><a href="/dp/pokemon/swablu">Swablu</a></li> 
+</ul>
+ 
+<h2><a name="bnft">Battles Needed To Fully Train</a></h2>
+
+<p>To know how many battles you will need, and therefore how many EXP you can afford to gain per battle (and whether you need 
+Pokérus) it is advised that you perform a calculation to check how many EVs you will need to gain in battle.</p>
+
+<p>This section assumes you will be using Magikarp or Starly to train; if you use something else check what EVs it gives, if it gives one Speed the following steps are the same and you have nothing to worry about. If the Pokémon gives one EV for any other stat, apply the steps (shown below), but replace the differences for Speed with whatever the Pokémon you are training against gives and EV in. You should not be training against something that gives more than one EV as they all give too many EXP to be practical.</p>
+
+<p>Choose your EV spread, then take 100 points away from each stat you are investing more than 100 EVs in, and for stats you are investing less than 100 EVs in take away the largest multiple of 10 that you can without dropping into negative numbers. This represents using Vitamins on these stats; yes, it will be expensive.</p>
+
+<p>The next part is complicated by Magikarp/Starly giving one Speed EV as well as the four EVs per battle you get from the correct Power Item, so it may be slightly tricky to follow:</p>
+
+<ol>
+<li>Divide needed EVs for each non-Speed stat by eight (four without Pokérus)</li>
+<li>Round each up</li>
+<li>Add up the total then multiply by two (unless you lack Pokérus, in which case don't multiply) and take it away from the needed Speed (if the number drops below 0 you must add multiples of 10 until the result is greater than 0, these are Tamato Berries to compensate for gaining too many Speed EVs while training for other stats).</li>
+<li>Divide the remaining needed Speed by ten (five without Pokérus)</li>
+<li>Round Speed up</li>
+<li>Add the Speed number to each of the other stats. This is the number of battles you will need.</li>
+</ol>
+<p>As an example let's use an Abra which wants a spread of 76 HP / 236 SpA / 196 Spe. Using the correct amount of Vitamins on each leaves 6 HP / 136 SpA / 96 Spe to be earned in battle.</p>
+ 
+<p>For our Abra (which does not have Pokérus) this means the following:</p> 
+ 
+<ol>
+<li>Divide each non-Speed stat by 4: 1.5 HP / 34 SpA / 96 Spe</li>
+<li>Round up: 2 HP / 34 SpA / 96 Spe</li>
+<li>Take the non-Speed total away from the Speed: 96 - 36 = 60 so: 2 HP / 3. SpA / 60 Spe</li>
+<li>Divide the Speed by 5: 2 HP / 34 SpA / 12 Spe</li>
+<li>Round up Speed (not needed in this case)</li>
+<li>Add up total: 2 + 34 + 12 = 48</li>
+</ol> 
+
+<p>So Abra will need 48 battles to be fully EV trained. If you look back to step 4 you can see which Power Items it will need to hold, and for how many battles each. Two Battles with a + HP Item, 34 with a + SpA Item and 12 with a + Spe Item.</p>
+
+<p>For an example of a Pokémon that does not need Speed EVs see <a href="#demo1">Demonstration A</a>.</p>
+
+<p>It is worth noting that whenever you round down a number, you will gain 2 more EVs than you need. For our Abra it will have a final spread of 78 HP / 136 SpA / 96 Spe, which is still inside the 510 limit. A vast majority of the time this does not matter, but when repeatedly rounding down on EV spreads with a total very close to 510 EVs you may run into problems. Careful use of EV reducing Berries and planning out/keeping exact track of EVs given, and in some cases reducing Vitamin use, will always be able to get you out of this. For an example see <a href="#demo2">Demonstration B</a>.</p>
+
+<p>Now, check the spare EXP from the previous section against the number of battles you need to win to fully EV train your 
+Pokémon. This gives you an indication of how many EXP you can afford to gain per battle. If the number of battles is greater than the spare EXP then you will need to catch Pokérus (if your Pokémon is or was infected with Pokérus then it will gain double EVs) and go through the steps again in order to get the desired spread. If not then you are in the clear! It is well worth catching Pokérus if it is available as it speeds up the actual training process massively.</p>
+ 
+<h2><a name="maximizing">Minimizing EXP Gain Per Battle</a></h2> 
+
+<p>The main difference between EV Training for Little Cup and for any other metagame is that you must be extraordinarily careful not to gain too much EXP. This section will teach you how to have your Pokémon gain only a single experience point per battle.</p>
+
+<p>Since you will be gaining most of your EVs via Power Items, it's best to just look for Pokémon that give few EXP per battle, unlike the EVing hotspots used for normal EV training. Wild Magikarp give the lowest EXP of any Pokémon that can be found, and are easy to find, even if fishing is slightly slow. Simply fish anywhere with the Old Rod. In Diamond or Pearl they range in level from three to 10, and in Platinum from three to 15. In HeartGold and SoulSilver they are found from level 2 to 20 when Surfing in a variety of places, Blackthorn City being an easy to access example. Depending on how you received the Pokémon you intend to train (via Trade, Pal Park, or Home Grown) and how many spare EXP Shares you have, you will have to run from Magikarp above a certain level, because beating all Magikarp you encounter will often lead to gaining too many EXP and missing the level 5 limit.</p>
+
+<p>By making one of your Pokémon (other than the one you are EV training) hold an EXP Share, you will halve the EXP that the Pokémon in training receives. To split the EXP further, you will need to switch in multiple Pokémon; the total number of Pokémon needed in the battle to hit the magic one EXP Gain for your baby depends on how you obtained the Pokémon and the level of the Pokémon you are battling.</p>
+
+<p>Another option is to chain low level Pokémon (for information on how to chain please consult the <a href="/ingame/guides/chaining">Chaining Guide</a>); this has the advantage of keeping the level consistent and being relatively quick once the chain starts. However, the lowest EXP per battle from a chained Pokémon in Diamond and Pearl for Pal Parked or Traded Pokémon is two, so some spreads may require Magikarp training or Platinum. The PokéRadar is also unavailable in HGSS, so it will not be an option for all EV training jobs.</p>
+
+<p>The best option for chaining is generally Starly which can be found at level 2 on Route 201 (both DP and Pt) and has a 50% encounter rate. Starly gives two EXP to Home Grown Pokémon if all six Pokémon participate in the battle, but will give a minimum of four to both Pal Parked and Traded Pokémon. Another option is Kricketot, which is rarer (10% on Route 201) and can only be found at level 2 on Platinum at night. It gives slightly lower EXP than Starly; two at minimum.</p>
+
+<h3><a name="magikarp">Magikarp</a></h3>
+<h4><a name="home1">Home Grown</a></h4> ﻿ 
+ 
+<table class="sortable">
+	<thead>
+		<tr>
+			<th>Experience Gained</th>
+			<th>Level of Pokémon</th>
+			<th>Number of Pokémon needed to be sent out</th> 
+		</tr>
+	</thead>
+	<tbody>
+	<tr><td>1</td><td>2</td><td>2</td></tr> 
+	<tr class="a"><td>1</td><td>3</td><td>3</td></tr> 
+	<tr><td>1</td><td>4</td><td>3</td></tr> 
+	<tr class="a"><td>1</td><td>5</td><td>4</td></tr> 
+	<tr><td>1</td><td>6</td><td>5</td></tr> 
+	<tr class="a"><td>1</td><td>7</td><td>6</td></tr> 
+	<tr><td>1</td><td>8</td><td>6</td></tr> 
+	<tr class="a"><td>1</td><td>&gt;9</td><td>N/A</td></tr>
+	<tr><td>2</td><td>2</td><td>1</td></tr> 
+ 	<tr class="a"><td>2</td><td>3</td><td>2</td></tr> 
+ 	<tr><td>2</td><td>4</td><td>3</td></tr> 
+	<tr class="a"><td>2</td><td>5</td><td>3</td></tr> 
+	<tr><td>2</td><td>6</td><td>3</td></tr> 
+	<tr class="a"><td>2</td><td>7</td><td>4</td></tr> 
+	<tr><td>2</td><td>8</td><td>4</td></tr> 
+	<tr class="a"><td>2</td><td>9</td><td>5</td></tr> 
+	<tr><td>2</td><td>10</td><td>5</td></tr> 
+	<tr class="a"><td>2</td><td>11</td><td>6</td></tr> 
+	<tr><td>2</td><td>12</td><td>6</td></tr> 
+	<tr class="a"><td>3</td><td>5</td><td>2</td></tr> 
+	<tr><td>3</td><td>7</td><td>3</td></tr> 
+	<tr class="a"><td>3</td><td>8</td><td>3</td></tr>
+	<tr><td>3</td><td>9</td><td>4</td></tr> 
+	<tr class="a"><td>3</td><td>10</td><td>4</td></tr>
+ 	<tr><td>3</td><td>11</td><td>4-5</td></tr> 
+	<tr class="a"><td>3</td><td>12</td><td>5</td></tr> 
+	<tr><td>3</td><td>13</td><td>5-6</td></tr> 
+	<tr class="a"><td>3</td><td>14</td><td>6</td></tr> 
+	<tr><td>3</td><td>14</td><td>6</td></tr>
+	<tr class="a"><td>4</td><td>6</td><td>2</td></tr> 
+	<tr><td>4</td><td>9</td><td>3</td></tr> 
+	<tr class="a"><td>4</td><td>10</td><td>3</td></tr> 
+	<tr><td>4</td><td>12</td><td>4</td></tr> 
+	<tr class="a"><td>4</td><td>13</td><td>4</td></tr> 
+	<tr><td>4</td><td>14</td><td>5</td></tr> 
+	<tr class="a"><td>4</td><td>15</td><td>5</td></tr> 
+	<tr><td>5</td><td>7</td><td>2</td></tr> 
+	<tr class="a"><td>5</td><td>8</td><td>2</td></tr> 
+	<tr><td>5</td><td>11</td><td>3</td></tr> 
+	<tr class="a"><td>5</td><td>12</td><td>3</td></tr> 
+	<tr><td>5</td><td>14</td><td>4</td></tr> 
+	<tr class="a"><td>5</td><td>15</td><td>4</td></tr> 
+	</tbody>
+</table> 
+ 
+<h4><a name="Pal">Pal Parked</a></h4> <table class="sortable">
+ <thead>
+ <tr>
+ <th>Experience Gained</th>
+ <th>Level of Pokémon</th>
+ <th>Number of Pokémon needed to be sent out</th> 
+</tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>3</td><td>4-6</td></tr> 
+<tr class="a"><td>1</td><td>4</td><td>5-6</td></tr> 
+<tr><td>1</td><td>5</td><td>6</td></tr> 
+<tr class="a"><td>1</td><td>&gt;6</td><td>N/A</td></tr> 
+<tr><td>2</td><td>3</td><td>3</td></tr> 
+<tr class="a"><td>2</td><td>4</td><td>3-4</td></tr> 
+<tr><td>2</td><td>5</td><td>4-5</td></tr> 
+<tr class="a"><td>2</td><td>6</td><td>5-6</td></tr> 
+<tr><td>2</td><td>7</td><td>6</td></tr> 
+<tr class="a"><td>2</td><td>8</td><td>6</td></tr> 
+<tr><td>2</td><td>9</td><td>5-6</td></tr>
+<tr class="a"><td>3</td><td>3</td><td>4-5</td></tr> 
+<tr><td>3</td><td>5</td><td>3</td></tr> 
+<tr class="a"><td>3</td><td>6</td><td>4</td></tr> 
+<tr><td>3</td><td>7</td><td>4-5</td></tr> 
+<tr class="a"><td>3</td><td>8</td><td>5</td></tr> 
+<tr><td>3</td><td>9</td><td>4</td></tr> 
+<tr class="a"><td>3</td><td>10</td><td>6</td></tr> 
+<tr><td>3</td><td>11</td><td>6</td></tr>
+<tr class="a"><td>4</td><td>4</td><td>2</td></tr> 
+<tr><td>4</td><td>6</td><td>3</td></tr> 
+<tr class="a"><td>4</td><td>8</td><td>4</td></tr> 
+<tr><td>4</td><td>10</td><td>5</td></tr> 
+<tr class="a"><td>4</td><td>11</td><td>5</td></tr> 
+<tr><td>4</td><td>12</td><td>5-6</td></tr> 
+<tr class="a"><td>4</td><td>13</td><td>6</td></tr> 
+<tr><td>5</td><td>5</td><td>2</td></tr> 
+<tr class="a"><td>4</td><td>7</td><td>3</td></tr> 
+<tr><td>4</td><td>8</td><td>3</td></tr> 
+<tr class="a"><td>4</td><td>10</td><td>4</td></tr>
+<tr><td>4</td><td>11</td><td>4</td></tr> 
+<tr class="a"><td>4</td><td>13</td><td>5</td></tr> 
+<tr><td>4</td><td>14</td><td>6</td></tr> 
+</tbody> 
+</table> 
+ 
+<h4><a name="traded">Traded</a></h4> <table class="sortable">
+ <thead>
+ <tr>
+ <th>Experience Gained</th>
+ <th>Level of Pokémon</th>
+ <th>Number of Pokémon needed to be sent out</th> 
+ </tr>
+ </thead>
+ <tbody>
+
+<tr><td>1</td><td>3</td><td>4-6</td></tr> 
+<tr class="a"><td>1</td><td>4</td><td>5-6</td></tr> 
+<tr><td>1</td><td>5</td><td>6</td></tr> 
+<tr class="a"><td>1</td><td>&gt;6</td><td>N/A</td></tr> 
+<tr><td>2</td><td>3</td><td>3</td></tr> 
+<tr class="a"><td>2</td><td>4</td><td>4</td></tr> 
+<tr><td>2</td><td>5</td><td>4-5</td></tr> 
+<tr class="a"><td>2</td><td>6</td><td>5-6</td></tr> 
+<tr><td>2</td><td>7</td><td>6</td></tr>
+<tr class="a"><td>3</td><td>3</td><td>2</td></tr> 
+<tr><td>3</td><td>4</td><td>3</td></tr> 
+<tr class="a"><td>3</td><td>5</td><td>3</td></tr> 
+<tr><td>3</td><td>6</td><td>4</td></tr> 
+<tr class="a"><td>3</td><td>7</td><td>5</td></tr> 
+<tr><td>3</td><td>8</td><td>5-6</td></tr> 
+<tr class="a"><td>3</td><td>9</td><td>6</td></tr> 
+<tr><td>3</td><td>10</td><td>6</td></tr> 
+<tr class="a"><td>4</td><td>4</td><td>2</td></tr> 
+<tr><td>4</td><td>6</td><td>3</td></tr> 
+<tr class="a"><td>4</td><td>4</td><td>4</td></tr> 
+<tr><td>4</td><td>8</td><td>4</td></tr> 
+<tr class="a"><td>4</td><td>9</td><td>5</td></tr> 
+<tr><td>4</td><td>10</td><td>5</td></tr> 
+<tr class="a"><td>4</td><td>11</td><td>6</td></tr> 
+<tr><td>4</td><td>12</td><td>6</td></tr>
+ <tr class="a"><td>5</td><td>5</td><td>2</td></tr> 
+ <tr><td>5</td><td>7</td><td>3</td></tr> 
+ <tr class="a"><td>5</td><td>9</td><td>4</td></tr> 
+ <tr><td>5</td><td>10</td><td>4</td></tr> 
+ <tr class="a"><td>5</td><td>11</td><td>5</td></tr> 
+ <tr><td>5</td><td>12</td><td>5</td></tr> 
+ <tr class="a"><td>5</td><td>13</td><td>6</td></tr> 
+ <tr><td>5</td><td>14</td><td>6</td></tr> 
+ </tbody> </table>
+
+ 
+<h3><a name="star">Level 2 Starly</a></h3>
+ 
+<h4><a name="home2">Home Grown</a></h4> <table class="sortable">
+ <thead>
+ <tr>
+ <th>Experience Gained</th>
+ <th>Number of Pokémon needed to be sent out</th> 
+ </tr>
+ </thead>
+ <tbody>
+ <tr><td>1</td><td>5</td></tr> 
+ <tr class="a"><td>2</td><td>3</td></tr> 
+ <tr><td>4</td><td>2</td></tr> 
+ </tbody>
+ </table> 
+ 
+ <h4><a name="Pal2">Pal Parked</a></h4> 
+ 
+<table class="sortable">
+<thead>
+<tr>
+<th>Experience Gained</th>
+<th>Number of Pokémon needed to be sent out</th> 
+</tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>N/A</td></tr> 
+<tr class="a"><td>2</td><td>5</td></tr>
+<tr><td>3</td><td>4</td></tr> 
+<tr class="a"><td>4</td><td>3</td></tr> 
+<tr><td>6</td><td>2</td></tr> 
+</tbody> </table>
+ 
+<h4><a name="traded2">Traded</a></h4> 
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Experience Gained</th>
+<th>Number of Pokémon needed to be sent out</th> 
+</tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>N/A</td></tr>
+<tr class="a"><td>2</td><td>5</td></tr> 
+<tr><td>3</td><td>4</td></tr> 
+<tr class="a"><td>4</td><td>3</td></tr> 
+<tr><td>6</td><td>2</td></tr> </tbody> </table>
+ 
+<h3><a name="bug">Level 2 Kricketot</a></h3>
+ 
+<h4><a name="home3">Home Grown</a></h4> 
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Experience Gained</th>
+<th>Number of Pokémon needed to be sent out</th> 
+</tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>4</td></tr>
+<tr class="a"><td>2</td><td>3</td></tr> 
+<tr><td>3</td><td>2</td></tr> 
+</tbody> </table> 
+ 
+<h4><a name="Pal3">Pal Parked</a></h4> 
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Experience Gained</th>
+<th>Number of Pokémon needed to be sent out</th> 
+</tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>6</td></tr> 
+<tr class="a"><td>2</td><td>5</td></tr> 
+<tr><td>3</td><td>3</td></tr> 
+<tr class="a"><td>4</td><td>3</td></tr> 
+<tr><td>5</td><td>2</td></tr> 
+</tbody> </table>
+ 
+<h4><a name="traded3">Traded</a></h4> 
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Experience Gained</th>
+<th>Number of Pokémon needed to be sent out</th> 
+</tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>N/A</td></tr> 
+<tr class="a"><td>2</td><td>5</td></tr>
+<tr><td>3</td><td>4</td></tr> 
+<tr class="a"><td>4</td><td>3</td></tr> 
+<tr><td>6</td><td>2</td></tr> 
+</tbody> </table> 
+
+<h2><a name="use">Useful Information</a></h2> 
+
+<p>If your Pokémon does not want Speed EVs, or you already have as many as you want, use Tamato Berries every 10 battles (5 with 
+Pokérus), or less when nearing the EV limit, to get rid of the Speed EVs that Magikarp give and to make room for more useful EVs. Always keep a careful count of EVs and make sure you have the correct Power Item.</p>
+
+<p>The larger the difference between your Pokémon's spare EXP and the number of battles needed to fully train it, the more EXP you can get away with gaining per battle. However, you must be very careful to keep count of how much EXP you have received and how much more you can gain before level 6, as well as how many more battles you need to fully train.</p>
+
+<p>This may seem arduous, but once you get in practice neither method is particularly difficult, but it is still harder than standard EV training. The extra time spent EV training a Little Cup Pokémon is more than compensated by the time you save breeding one due to lower IVs being required for a "perfect" Pokémon, as seen in the Little Cup Breeding Guide.</p>
+ 
+<h2><a name="demo1">Demonstration A</a></h2>
+ 
+<p>This demonstrates EV training a Pokémon which does not want Speed. Munchlax, who wants a spread of 236 HP / 36 Def / 236 SpD, is used in the example.</p>
+
+<p>First, take 100 points away from each stat you are investing more than 100 EVs in, and for stats you are investing less than 100 EVs in take away the largest multiple of 10 that you can without dropping into negative numbers. This gives: 136 HP / 6 Def / 136 SpD</p>
+
+<p>For our Munchlax (which has Pokérus)</p> 
+
+<ul>
+<li>Since there is no Speed, divide each stat by 4: 34 HP / 1.5 Def / 34 SpD</li>
+<li>Round up: 34 HP / 2 Def / 34 SpD</li>
+</ul> 
+ 
+<p>Steps 3, 4 and 5 can be skipped as they only relate directly to Speed.</p> 
+<ul>
+<li>Add up total: 34 + 2 + 34 = 70</li> 
+</ul>
+
+<p>So Munchlax will need 70 battles to be fully EV trained. If you look at step 2 you can see which Power Items it will need to hold, and for how many battles each. Two Battles with a + Def Item, 34 with a + Def Item, and another 34 with a + SpD Item.</p>
+
+<p>The important thing to remember with no, or very low, Speed spreads is to use plenty of Tamato Berries (which reduce your Speed EVs by 10). Use one Tamato Berry every 5 battles (10 without Pokérus) and near the end. If your spread can't afford to have a few useless EVs in Speed use them every battle. For low Speed spreads (where you would naturally gain more Speed EVs from just Magikarp/Starly than you need), simply wait until there are enough battles remaining to give you the correct amount of Speed EVs, and then use Tamato Berries to cut your Speed to zero. Continue battling, and let Magikarp/Starly give you all of the Speed you need.</p>
+ 
+<h2><a name="demo2">Demonstration B</a></h2>
+ 
+<p>In the previous demonstrations I have tried to use competitively reasonable spreads, however since the following problem is so rare I have had to resort to using specific non max IVs to find an example that works. The issues brought up below should not worry EV trainers, as it will hardly ever happen and is only included for completeness sake. The times when you may need to understand the information below are when you are aiming for an EV spread that uses almost every one of the 510 allowed (508 and some unusual 504 spreads), and invests a number less than 100 ending in 2, 4, or 6 in several stats.</p>
+
+<p>To demonstrate the possible problems rounding up can cause, a Gulpin who wants a spread of 116 HP / 252 Atk / 12 Def / 12 SpA / 12 SpD / 104 Spe (hits 11 Spe with a IV of 14), total 508 and has Pokérus.</p>
+
+<p>Now, following through the steps gives us:</p> 
+
+<ol>
+<li>Remove up to 10 multiples of 10 to reduce each stat: 16 HP / 152 Atk / 2 Def / 2 SpA / 2 SpD / 4 Spe</li>
+<li>Divide needed EVs for each non-Speed stat by eight: 2 HP / 19 Atk / 0.25 Def / 0.25 SpA / 0.25 SpD</li>
+<li>Round each up: 2 HP / 19 Atk / 1 Def / 1 SpA / 1 SpD</li>
+<li>Add up the total then multiply by two, and take it away from the needed Speed (if the number drops below 0 you must add multiples of 10 until the result is greater than 0, these are Tamato Berries to compensate for gaining too many Speed EVs while training for other stats): 4-48=-44 may not go below 0, so -44+(5*10)=6</li>
+<li>Divide the remaining needed Speed by ten: 0.6</li>
+<li>Round Speed up: 1</li>
+<li>Add the Speed number to each of the other stats. This is the number of battles you will need: 25</li> </ol>
+ 
+<p>However, there is a problem. If you try to do this in-game, you will end up with 116 HP (100 from Vitamins, two battles at 8 EVs each) / 252 Atk (100 from Vitamins, 19 battles at 8 EVs each) / 18 Def (10 from Vitamins, one battle for 8 EVs) / 18 SpA (10 from Vitamins, one battle for 8 EVs) / 18 SpD (10 from Vitamins, one battle for 8 EVs) / 108 Spe (100 from Vitamins, 48 from Magikarp while training for other stats, 50 removed by Tamato.</p>
+
+<p>The total is 530, which as we all know is well above the 510 limit for all EVs. Why is this you ask? None of the stats gained more points! Because too many of the stats use more EVs than they need for the stats that they want. This is because with Pokérus you gain 8 EVs per battle forcing you off the minimum needed EVs on numbers that end with 2, 4, and 6 in which you want less than 104 EVs and use Vitamins on. Stats which require more than 104 in should be no problem, (unless they have an even IV you are correcting as this causes you to add a number of EVs that does not divide by 8) because they will always need an exact multiple of 8 EVs. In a vast majority of cases the two "buffer" points between the 508 that are useful and the 510 that is possible will remove any problems you encounter, but occasionally something similar to this example will occur.</p>
+
+<p>Even in the worst case scenario it should be possible to work around, but it can be very messy and will take a few extra battles. In this case you will need to not use any Vitamins on Def, SpA, and SpD, do four battles for each (32 EVs) and then use two Tamato Berries, which will bring them to 12 EVs each. This will reduce the EVs for each of those stats by 6 and the total by 18, which is not enough as the spread total would still be 512. Speed is the stat causing this problem, and unfortunately it is much harder to solve as each battle will give the same Speed EVs that you can remove with Tamato, so you can't use them together to adjust the number the EVs you end with. One way to get around this is to do your first few battles without Pokérus, keeping track of how this will effect then other stats, and bring your Speed down like that. A generally better and easier to understand way is to use the Macho Brace instead of the Speed Power Item. One battle against Magikarp with the Macho Brace will give 4 Speed EVs, to add to the 98 it has from other battles and Vitamins, so it needs two to reach or pass 104. With two battles holding the Macho Brace you hit 106 Spe, still more than you need but low enough to put you at the 510 limit. This will leave you with a spread of: 116 HP / 252 Atk / 12 Def / 12 SpA / 12 SpD / 106 Spe, which has a total of 510. Perfect.</p>
+
+<p>Together these actions will cause you to do four more battles than you would otherwise have to do, but the minimum EXP you can gain is still well within what is possible without leveling over 5. You will still need to be extraordinarily careful in this kind of situation, using EV reducing Berries at exactly the right times, and occasionally waiting until the end before applying the last Vitamin (allowing room for Speed to accumulate 10 extra EVs before you erase them), but in theory every spread is attainable.</p>

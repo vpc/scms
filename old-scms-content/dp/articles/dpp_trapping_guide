@@ -1,0 +1,568 @@
+[title]
+Which Way Out? A DPP Guide to Trapping Opponents
+[head]
+<meta name="description" content="A guide explaining the various Trapping strategies in the fourth generation metagame, by Erodent." />
+[page]
+<div class="author">By <a href="/forums/member.php?u=24169">Erodent</a>.</div>
+
+<ol class="toc">
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#fundoftrapping">The Fundamentals of Trapping</a></li>
+<li><a href="#methodsoftrapping">Methods of Trapping</a></li>
+<li><a href="#trappingabilities">Pokemon with Trapping Abilities</a></li>
+<li><a href="#pursuit">Pursuit</a></li>
+<li><a href="#permpreventescape">Moves that can "Permanently" Prevent Escape</a>
+<ul>
+<li><a href="#batonpasstrappers">Baton Pass Trappers</a></li>
+<li><a href="#perishtrappers">Perish Song Trappers</a></li>
+</ul>
+</li>
+<li><a href="#temppreventescape">Moves that can Temporarily Prevent Escape</a></li>
+<li><a href="#bringingittogether">Bringing it All Together (Trapping Review & Examples of Trapping Strategies)</a></li>
+<li><a href="#additionalresources">Additional Useful Resources</a></li>
+</ol>
+
+<h2><a name="introduction">Introduction</a></h2>
+
+<p>The transition from the third generation (RSE) to the fourth generation (DPP) has experienced several noteworthy changes, such as the physical-special split, the introduction of Choice Specs and Choice Scarf, and, of course, a myriad of new and deadly threats. Despite all of these new additions, some concepts have remained the same. Traditional strategies such as Baton Pass and setting up Substitutes are still very much seen today. More importantly, however, the concept of Trapping in Pokemon is still extremely viable in DPP play. By executing Trapping-related strategies at correct and specific times, it is usually possible for you to emerge in an advantageous position over your opponent. This guide describes and highlights effective methods of Trapping an opponent, in addition to explaining why Trapping is such a big part of any competitive Pokemon metagame.</p>
+
+<h2><a name="fundoftrapping">The Fundamentals of Trapping</a></h2>
+
+<p>In order to understand how to Trap, we must first understand what exactly Trapping is. Here are some thematic ideas that relate to this tactic:</p>
+
+<ul>
+<li>Trapping should make it difficult (or impossible) for an opponent to switch out.</li>
+<li>A player that attempts Trapping should benefit from doing so.</li>
+<li>On some occasions, Trapping should remove problematic opponents from a match.</li>
+<li>On other occasions, Trapping should be used to set up on opponents.</li>
+</ul>
+
+<p>Keep these ideas in mind as you read this guide. The four bullet points above provide a general idea of the purposes and goals of Trapping. An important term that is closely associated to Trapping is Revenge Killing. To put it simply (courtesy of The Pokemon Dictionary, an essential glossary of competitive terms), Revenge Killing is to KO an opposing Pokemon immediately after one of your own Pokemon has fainted, therefore avoiding the risk of switching into an attack. From the definitions of both the terms "Revenge Kill" and "Trapper", you can probably infer that some revenge killers are Trappers.</p>
+
+<p>While this is true, remember that this is not always the case! In many situations, Trapping is far from Revenge Killing at all. Therefore, it is essential to realize the differences between Revenge Killing and certain types of Trapping.</p>
+
+<p>This brings us to the question, "Why Trap at all?" To answer this question, let us further investigate the four bullet points listed earlier in this section.</p>
+
+<strong>1. "Trapping makes it difficult (or impossible) for an opponent to switch out."</strong>
+
+<p>As the word "Trap" suggests, Trapping should make an opponent rethink their decision to switch out. The opponent will often find themselves asking, "Should I stay in or switch out?" Obviously, both actions have their consequences. The player that predicts correctly will usually emerge triumphant - for example, let's assume that you have a Scizor at 100% and your opponent has a Celebi at 50%. Since Scizor is usually able to survive anything Celebi fires at it except Hidden Power Fire, the obvious choice to make is to use Pursuit to finish the Celebi off - it is as good as dead. More information on this style of trapping is provided in the section titled "Pursuit."</p>
+
+<p>Even better is if it is impossible for an opponent to switch out (as long as your Trapper stays alive). More information on how to do this is provided in the "Moves that can "Permanently" Prevent Escape" section.</p>
+
+<strong>2. "A player that attempts Trapping should benefit from doing so."</strong>
+
+<p>This goal is rather obvious - after all, why bother Trapping if you don't gain anything useful from it? This goal is highly related to the upcoming ones. In order to "benefit from Trapping," you must achieve productive results from any Trapping process you might execute. This comes in the form of either knocking out an opponent from play, or setting up on one. The next two goals explore this in a more thorough manner.</p>
+
+<strong>3. "On some occasions, Trapping should remove problematic opponents from a match."</strong>
+
+<p>This is one of the most important aims of Trapping. Is that Skarmory troubling you by setting up layers and layers of Spikes that cripple your switch-ins? Is that Tyranitar ruining your Rain Dance team? Well, Trap them to get rid of them once and for all! There is no doubt that by eliminating some of these unbelievably annoying threats, your team will function more effectively as a whole. What makes Trapping so worthwhile is that by doing so, you can check potential threats and prevent them from ever making your life difficult again (at least for the duration of one match). Details on how to Trap will be explained in the upcoming sections.</p>
+
+<strong>4. "On other occasions, Trapping should be used to set up on opponents."</strong>
+
+<p>Sometimes, the goal of Trapping might not be to KO an opponent, but to take advantage of it in all ways possible. In other words, you should not KO it just yet, but "use" it to set up! Consider the following situation as an example. Let's say that you have an Umbreon with heavy physical defensive EV investment. Your opponent switches out into a Choice Band Scizor, and you use Mean Look on the Scizor. The Scizor will now keep using Superpower, but its Attack will continuously decrease, and it can't 2HKO Umbreon just yet, because let's assume that your Umbreon has Wish + Protect. Anyway, now that you've Trapped Scizor and it's doing pitiful damage due to the Attack drops from Superpower, Baton Pass is to something that can set up! In this example we will assume that you Baton Pass to Gyarados. Since Baton Passing Mean Look makes Scizor unable to switch, your Gyarados can now set up 6 full Dragon Dances, while Scizor is forced to use Superpower! The conclusion: since you've successfully Trapped your opponent and set up 6 Dragon Dances, you are now free to sweep your entire opponent's team at +6 Atk and +6 Spe. For more information on various Trapping methods, please read the upcoming sections.</p>
+
+<p>While the situation described in the previous paragraph is terrific, don't underestimate your opponents. Trapping is not always easy to execute; precise steps must be taken to guarantee success. The next number of sections will present different techniques with which you can Trap opponents. Make sure you are able to achieve your goal, though. Never rely on luck or chance to help your Trapping strategy do well.</p>
+
+<h2><a name="methodsoftrapping">Methods of Trapping</a></h2>
+
+<p>As has been explained in the previous section, Trapping has different goals: to KO opponents, to set up on them, and to prevent or make it hard for them to switch. How, then, do we ensure that we achieve these objectives? Diamond and Pearl has a number of useful methods that can be used to Trap opponents:</p>
+
+<ul>
+<li>The use of certain abilities. Some abilities prevent opponents from switching out. See the section titled "Pokemon with Trapping Abilities" for in-depth information.</li>
+<li>The use of the move Pursuit. Pursuit is a 40 Base Power Dark-type move that doubles in power and hits an opponent if it switches out. See the "Pursuit" section for more information.</li>
+<li>The use of permanent Trapping moves. As long as the user of such moves is alive and remains in play, the opponent will be unable to switch. See the "Moves that can "Permanently" Prevent Escape" section for in-depth information.</li>
+<li>The use of temporary Trapping moves. As long as the user of such moves is alive and remains in play, the opponent will be unable to switch for as long as the effect of the temporary Trapping moves remain. See the "Moves that can Temporarily Prevent Escape" section for in-depth information.</li>
+</ul>
+
+<p>The four methods mentioned above are the primarily recognized Trapping tactics. Additional strategies that can help players in battles are provided in their respective sections. However, I would like to encourage you to be creative. Trapping is an Art; its execution displays creativity. By coming up with individual and effective strategies of your own, it is more likely that your opponent will fall for your Trap. Travel through the corners of your mind and don't be limited to what is listed in this guide - it should not be used as a manual; it should be used as a series of ideas.</p>
+
+<h2><a name="trappingabilities">Pokemon with Trapping Abilities</a></h2>
+
+<p>Disregarding NFEs, there are five Pokemon with Trapping abilities in the game. To make this worse, one of them is Uber. This means that you really don't have many options to work with, and this method of Trapping is extremely predictable. However, that doesn't mean it's ineffective. Your opponent may know what's coming, but by preventing them from switching out, the chances of them being unable to do much are good. Three of these Pokemon are commonly used in competitive Pokemon and will be the focus of this discussion:</p>
+
+<img src="/download/sprites/dp/51.png" alt="Dugtrio" />
+<strong><a href="/dp/pokemon/dugtrio">Dugtrio</a></strong>
+<p>Since the Advance generation, Dugtrio has been one of the best revenge killers and Trappers available. Its Arena Trap ability prevents all Pokemon, except Flying-types and Pokemon with the Levitate ability, from switching. As such, Dugtrio is often sent in to prey on foes like Magnezone, Heatran, Electivire, Infernape, and other similar threats that it can OHKO. Dugtrio relies on OHKOing opponents to win - its 35/50/75 defenses ensures that it will rarely survive powerful hits. While base 80 Attack might sound shabby, Dugtrio has reasonably powerful moves to work with. It gets STAB on Earthquake, elevating the Base Power of the Ground-type move from 100 to 150. Combine that with Stone Edge and Dugtrio now wields the EdgeQuake combo, resisted by only a small number of Pokemon in the game. Dugtrio also has base 120 Speed, enabling it to outrun many threats in the OU and UU metagame, including all versions of Magnezone, Tyranitar, and non-Choice Scarf Blaziken. What happens next is unavoidable - Dugtrio blasts them all away with a super effective Earthquake, essentially ridding the field of them once and for all (make sure they have taken some prior damage, though; Dugtrio isn't always able to OHKO all versions of them)! Dugtrio can generally be used to Trap opponents that fall into the specially bulky category, like Tyranitar and Blissey.</p>
+
+<p>An example of an effective Dugtrio moveset is something along the lines of:</p>
+
+<p>Dugtrio @ Choice Band<br />
+Ability: Arena Trap<br />
+EVs: 4 HP / 252 Atk / 252 Spe<br />
+Nature: Jolly (+Spe, -SpA)<br />
+- Earthquake<br />
+- Stone Edge<br />
+- Sucker Punch<br />
+- Aerial Ace</p>
+
+<p>In addition, Dugtrio's pre-evolution, Diglett, is equally as menacing in the Little Cup metagame. A Dugtrio-Magnezone combo is excellent in terms of Trapping; Dugtrio can remove Pokemon like Blissey and Tyranitar from the match, while Magnezone can remove Pokemon like Skarmory and Forretress.</p>
+
+<img src="/download/sprites/dp/467.png" alt="Magnezone" />
+<strong><a href="/dp/pokemon/magnezone">Magnezone</a></strong>
+<p>In Advance, players had to use Magneton to Trap opposing Steel-types. In DPP, however, Magneton was given an evolution - Magnezone! Although Magneton is viable in the lower tiers and is a little faster than Magnezone, Magnezone has superior stats in just about everything else. Magnezone has one main purpose in terms of Trapping - its ability might give you a hint. Magnet Pull prevents Steel-types from switching out! In addition, Magnezone has a 4x resistance to Steel-type moves, making switching into Bullet Punches and Meteor Mashes tenfold easier. At first glance, Magnezone seems to be a flawless Steel-type Trapper with that insane Special Attack stat. However, it must be extremely cautious when attempting to combat Steel-types. For example, Metagross can survive a Thunderbolt and use Earthquake to OHKO Magnezone. This resulted in the popularization of two sets: the Magnet Rise Steel Trapper and the Choice Scarf Steel Trapper. The first has an extremely easy time with the likes of Metagross and Bronzong; the second has a field day with the likes of Scizor and Empoleon. However, if played correctly, Magnezone is an excellent candidate for Trapping all kinds of Steel-types. Most Steel-types tend to have high Defense stats and can be problematic for a physically-based team. Magnezone can easily come in and remove opposing Steel-types from a match, allowing your physical attackers to shine.</p>
+
+<p>Here is the Magnet Rise Steel Trapper set:</p>
+
+<p>Magnezone @ Leftovers<br />
+Ability: Magnet Pull<br />
+EVs: 172 HP / 252 SpA / 84 Spe<br />
+Nature: Modest (+SpA, -Atk)<br />
+- Substitute<br />
+- Magnet Rise<br />
+- Thunderbolt<br />
+- Hidden Power Ice / Hidden Power Grass / Hidden Power Fire</p>
+
+<p>The Choice Scarf set is similar, but with Flash Cannon and Explosion over Substitute and Magnet Rise. Either way, Magnezone can still dispatch Skarmory (without a Shed Shell), whichever set it chooses to use. The rest is about personal preference - Magnezone will have a safer time against Steel-types that can use Earthquake if it uses the Magnet Rise set; however, the extra Speed might be beneficial if it decides to use the Choice Scarf set. Like Dugtrio, Magnezone's first evolutionary form, Magnemite, is a prevalent force in Little Cup. Also, to complete the Magnet Trapping family, Magneton is viable in lower tier play to get rid of threats like Registeel and Steelix. Magnezone is for the most part walled by Blissey, so something like Machamp can help Magnezone out.</p>
+
+<img src="/download/sprites/dp/202.png" alt="Wobbuffet" />
+<strong><a href="/dp/pokemon/wobbuffet">Wobbuffet</a></strong>
+<p>Wobbuffet is an Uber Pokemon whose ability is arguably the best, as far as Trapping goes. To put it briefly, Shadow Tag prevents anything without a Shed Shell from switching out! This, along with Wobbuffet's strange movepool, is the major contributing factor that banished Wobbuffet into Uber play. One thing that can be said about Wobbuffet is that it absolutely loves Choice Pokemon. It can simply come in on a Choice Pokemon and use either Counter or Mirror Coat to hopefully OHKO it. Wobbuffet's major downfall is that it lacks a recovery move. Unable to use Rest, Wobbuffet must rely on Leftovers healing instead. Still, Wobbuffet's usefulness definitely speaks louder than its poor defenses, and it remains a solid Trapper in the Uber metagame.</p>
+
+<p>Here is Wobbuffet's Standard set:</p>
+
+<p>Wobbuffet @ Leftovers<br />
+Ability: Shadow Tag<br />
+EVs: 28 HP / 228 Def / 252 SpD Nature<br />
+Nature: Bold (+Def, -Atk) / Calm (+SpD, -Atk)<br />
+~ Counter<br />
+~ Mirror Coat<br />
+~ Encore<br />
+~ Safeguard / Tickle</p>
+
+<p>In case you were wondering, Wobbuffet's pre-evolution, Wynaut, is Uber as well.</p>
+
+<p>As has been mentioned at the beginning of this section, the selection of Pokemon with Trapping abilities is extremely limited. The next section will describe an alternative form of Trapping - not through specific Pokemon abilities, but through the godsend of a move known as Pursuit.</p>
+
+<h2><a name="pursuit">Pursuit</a></h2>
+
+<p><em>Opponent withdrew Celebi!<br />
+Tyranitar used Pursuit!<br />
+It's super effective!<br />
+The foe's Celebi fainted!</em></p>
+
+<p>You may have heard of the curious move "Pursuit" that seems to be able to cripple an opponent's team severely. What makes Pursuit unique is that it is the only move in the game with a special Trapping effect. This effect is identical to the effect in the scenario described above. But how does Pursuit work?</p>
+
+<p>In the Advance generation, Pursuit was a special move. With DPP's physical-special split, however, Pursuit experienced a serious change that brought fame and recognition to some of today's most dangerous threats - it became physical instead. In terms of its other aspects, though, not much has changed. Pursuit is still a 40 Base Power Dark-type move with an accuracy of 100% and a base PP of 20. Descriptions of effective Pursuit users will not be provided just yet, though. To use Pursuit to its fullest potential, we must first understand several of the mechanics that piece Pursuit together:</p>
+<ul>
+
+<li>Pursuit doubles in base power if it hits a Pokemon that withdraws.</li>
+<li>Pursuit hits opponents that use U-turn as well. (However, slow U-turn users do not take double power from Pursuit).</li>
+<li>Pursuit does not hit opponents that use Baton Pass.</li>
+<li>A glitch in the Japanese versions of DP allows Choiced Pokemon to use Pusuit on a target Pokemon that is switching out, and then proceed to change its move on the next turn. This glitch was fixed in the translated versions.</li>
+</ul>
+<p>Despite all this, you might still be unconvinced of the true extent of Pursuit's power. The answer that explains its popularity is simple - because Pursuit is a Dark-type move, it can be most effectively used to Trap Ghost- and Psychic-types for good. A good number of these Pokemon are dangerous threats, and by eliminating them, the Trapper's team will often have the edge. Because Pursuit was a special move in Advance, Pokemon like Alakazam and Gengar, who have significantly higher Special Defense than Defense, could take advantage of this. Now, however, circumstances have changed.</p>
+
+<p>Additionally, Pursuit can also be used to finish off Pokemon that are too weak to survive it or are low on health. Since Pursuit prevents opponents from switching (unless they wish to take even more damage), such Pokemon are as good as dead.</p>
+
+<p>Let us now observe some of the most successful users of Pursuit in the game.</p>
+
+<img src="/download/sprites/dp/212.png" alt="Scizor" />
+<strong><a href="/dp/pokemon/scizor">Scizor</a></strong>
+<p>There is a high probability that any player associated with competitive DPP play is familiar with Scizor and what it does. Scizor is more than just a fantastic Pursuit user; it's one of the best Trappers in the game. The main reason for this is that Scizor's high base 130 Attack is combined with a number of tricky moves that seem to be exclusively designed for it! Scizor has excellent typing that grants it a useful number of resistances and excellent offensive dual-STAB. With U-turn, Bullet Punch, and Pursuit, Scizor just dares its opponent to play guessing games with it - for example, a Starmie has to wonder if Scizor will use U-turn or Pursuit against it! Scizor's reasonable bulk and access to the three previously mentioned moves allow it to keep threats like Celebi and Gengar at bay (provided that they do not have Hidden Power Fire).</p>
+
+<p>This is the Choice Band Scizor set, a classic example of a terrorizing Trapper:</p>
+
+<p>Scizor @ Choice Band<br />
+Ability: Technician<br />
+EVs: 248 HP / 252 Atk / 8 Spe<br />
+Nature: Adamant  <br />
+- Pursuit<br />
+- Bullet Punch<br />
+- U-turn<br />
+- Superpower</p>
+
+<p>One thing to note about Scizor is that it is an established Trapper in the Uber tier as well! Next, Scizor's pre-evolution, Scyther, is actually faster than it and is even deemed too powerful for Little Cup play. Hence, Scyther can commonly be seen in the lower tiers instead. Scizor's attacks do pitiful damage to the likes of Skarmory, Forretress, and the Rotom formes. Flamethrower/Toxic Wish Blissey can deal with some of these threats, while being able to heal Scizor up along the way.</p>
+
+<img src="/download/sprites/dp/248.png" alt="Tyranitar" />
+<strong><a href="/dp/pokemon/tyranitar">Tyranitar</a></strong>
+<p>Like Scizor, Tyranitar is one of the best Pursuit users in the game. Although Tyranitar's Pursuit doesn't get a Technician boost, it does get STAB. Pair this with Tyranitar's incredible base 134 Attack and you have a monster at your hands. Tyranitar has the unique Sand Stream ability, which summons a permanent sandstorm unless the weather is overridden by another. Since Tyranitar is part Rock-type, it gains a 1.5x Special Defense boost in the sand, allowing it to take hits from specially based Psychic-types (which happens to be the majority of them) particularly well. Tyranitar also has a Dark typing, which allows it to switch into Psychic-type moves like Azelf's and Alakazam's Psychic with ease and Trap them with Pursuit. There are several ways to go about using Pursuit Tyranitar, but one of the most common versions is the Choice Scarf set:</p>
+
+<p>Tyranitar @ Choice Scarf<br />
+Ability: Sand Stream<br />
+EVs: 4 HP / 252 Atk / 252 Spe<br />
+Nature: Jolly (+Spe, -SpA)<br />
+- Stone Edge<br />
+- Crunch<br />
+- Pursuit<br />
+- Earthquake / Superpower</p>
+
+<p>The Pokemon that evolve into Tyranitar unfortunately lack both its typing and ability, making them lesser-used options in competitive play. Larvitar can still make use of a Dragon Dance set in Little Cup, though. Tyranitar generally has problems with bulky Water-types like Swampert. A Pokemon like Zapdos can seriously help it out.</p>
+
+<img src="/download/sprites/dp/466.png" alt="Weavile" />
+<strong><a href="/dp/pokemon/weavile">Weavile</a></strong>
+<p>Enough with the bulky Pursuit users already! Are you looking for a more offensive assassin? Weavile is undoubtedly the Pokemon for the job. Excellent Attack and Speed make Weavile an obvious candidate to use Pursuit, and its Pursuit is powered up even more by STAB. What makes Weavile an excellent Trapper is that if a Choice Band is equipped onto it, its Pursuit will be powerful enough to OHKO Gengar, Alakazam, and some Azelf even if they stay in. This is obviously a big deal; Weavile is immune to Psychic and resists Shadow Ball, meaning that it can come in on either of these threats without too many problems. It also has access to Ice Shard, enabling it to OHKO Dragon-types that already have several Speed and Attack boosts under their belts, like Dragon Dance Dragonite or Dragon Dance Salamence. All of these qualities make Weavile an appealing Trapper and Revenge Killer.</p>
+
+<p>This is the renowned Choice Band Weavile set:</p>
+
+<p>Weavile @ Choice Band<br />
+Ability: Pressure<br />
+EVs: 40 HP / 252 Atk / 216 Spe<br />
+Nature: Jolly (+Spe, -SpA)<br />
+- Pursuit<br />
+- Ice Shard<br />
+- Brick Break<br />
+- Ice Punch / Night Slash</p>
+
+<p>Weavile's Pursuit can also OHKO Starmie if it switches. Needless to say, Night Slash OHKOes Azelf, Gengar, Alakazam, and Starmie, while putting nice dents in the likes of Celebi and Cresselia. The aid of Magnezone as a partner can help remove bulky Steel-types like Metagross and Skarmory from the match, and Weavile can be thankful for this.</p>
+
+<img src="/download/sprites/dp/376.png" alt="Metagross" />
+<strong><a href="/dp/pokemon/metagross">Metagross</a></strong>
+<p>Metagross has neither Technician nor STAB to elevate the power of its Pursuit. What, then, makes it an effective Trapper? First is its bulk - its excellent Steel/Psychic typing comes together with 80/130/90 defenses, which can be insanely difficult to penetrate. Next is its whole arsenal of useful moves, including the powerful Meteor Mash, Explosion, and even Bullet Punch. These let Metagross play a similar role to Scizor, but without U-turn and a little less power. Metagross is a sturdy Pokemon that is not only offensive, but also defensive, making it a tempting choice of Pursuit Trapper. What differentiates Metagross from Scizor is that Metagross has superior bulk, especially on the special side. Finally, Metagross isn't 4x weak to Fire-type moves.</p>
+
+<p>Try out a bulky Pursuit Trapping Metagross that can make use of Bullet Punch as well:</p>
+
+<p>Metagross @ Leftovers<br />
+Ability: Clear Body<br />
+EVs: 252 HP / 236 Atk / 12 Def / 8 Spe<br />
+Nature: Adamant (+Atk, -SpA)<br />
+- Pursuit<br />
+- Bullet Punch<br />
+- Explosion<br />
+- Meteor Mash / Earthquake</p>
+
+<p>In terms of its pre-evolutions, Beldum and Metang are unfortunately significantly weaker than Metagross, whose base stats completely overshadow theirs. Like Weavile, Metagross will appreciate Magnezone's support as a partner, as Metagross is rather Forretress and Skarmory weak.</p>
+
+<img src="/download/sprites/dp/214.png" alt="Heracross" />
+<strong><a href="/dp/pokemon/heracross">Heracross</a></strong>
+<p>Heracross doesn't have too great a Pursuit, but it can still be used effectively. One attribute that makes Heracross an efficient Revenge Killer is its number of extremely powerful moves. Heracross has STAB in both Close Combat and Megahorn, powering these moves up to a Base Power of 180. Furthermore, it has base 125 Attack, which allows it to use rather effective Pursuits at times. With decent HP and Special Defense, Heracross can come in on the likes of Gengar, Celebi, and Starmie, use Pursuit on them, and remove them from the match. Starmie and Celebi in particular will be expecting Megahorn, so Pursuit can nail them on the switch. Heracross must, however, beware of Psychic-type attacks; it is one of the viable Pursuit users that is weak to the likes of Psychic and Psycho Cut. However, with both Megahorn and Pursuit, it can leave an opponent guessing whether to switch out from a Megahorn that will definitely OHKO, or stay in for fear of Pursuit. Close Combat is used to hit Steel-types that resist both of the mentioned moves.</p>
+
+<p>Heracross can effectively use a Choice Band:</p>
+
+<p>Heracross @ Choice Band<br />
+Ability: Guts / Swarm<br />
+EVs: 96 HP / 252 Atk / 160 Spe<br />
+Nature: Adamant (+Atk, -SpA)<br />
+- Pursuit<br />
+- Megahorn<br />
+- Close Combat<br />
+- Stone Edge</p>
+
+<p>Heracross is extremely weak to Skarmory, so partnering it up with Magnezone can help it spectacularly.</p>
+
+<img src="/download/sprites/dp/143.png" alt="Snorlax" />
+<strong><a href="/dp/pokemon/snorlax">Snorlax</a></strong>
+<p>Pursuit Snorlax is unquestionably one of the bulkiest Trappers out there with excellent defenses of 160/65/110. With Thick Fat and a glorious Special Defense stat, Snorlax can take little damage from Pokemon like Gengar and Starmie while hitting them with Pursuit coming off a decent base 110 Attack. Snorlax is very simple to use; come in on Psychic- or Ghost-type Pokemon and blast them away with either Return, Crunch, or Pursuit. Don't forget that even though it's weak to Fighting-type moves, Snorlax can still take Focus Blast and Hidden Power Fighting, making it a consistent check to Psychic- and Ghost-types that are specially oriented (watch out for Trick, though!).</p>
+
+<p>An offensive yet bulky Snorlax proves to be a useful Trapper:</p>
+
+<p>Snorlax @ Leftovers<br />
+Ability: Thick Fat<br />
+EVs: 4 HP / 252 Atk / 252 SpD<br />
+Nature: Adamant (+Atk, -SpA)<br />
+- Pursuit<br />
+- Fire Punch<br />
+- Return<br />
+- Crunch / Earthquake</p>
+
+<p>Munchlax in the Little Cup Metagame follows the footsteps of Snorlax - it is designed to take special hits while Trapping foes with Pursuit. Snorlax does have problems with Ghost-types and Skarmory, so something similar to Tyraniboah can help clear its path.</p>
+
+<img src="/download/sprites/dp/457.png" alt="Drapion" />
+<strong><a href="/dp/pokemon/drapion">Drapion</a></strong>
+<p>Drapion is yet another competent choice to assume the role of Pursuit Trapper, though mainly in UU. Drapion's unique Dark/Poison typing makes it weak to only Ground-type moves; at the same time, it is immune to Psychic-type moves, can absorb Toxic Spikes, and is resistant to Ghost-type moves. All these characteristics construct a fine Pursuit user, and Drapion is no exception. Drapion is also reasonably bulky, with 70/110/75 defenses. While its special defensive stats of 70/75 may sound low, they are actually deceptively bulky! With enough Special Defense EV investment, Drapion can come in on Pokemon like Mismagius and Life Orb Alakazam. From there, it can launch a STAB-boosted Crunch or Pursuit, based on what is assumed that the opponent will do, from a decent base 90 Attack. Don't forget its base 95 Speed, too!</p>
+
+<p>Drapion can attempt a Choice set:</p>
+
+<p>Drapion @ Choice Band<br />
+Ability: Sniper<br />
+EVs: 252 Atk / 4 Def / 252 Spe<br />
+Nature: Jolly (+Spe, -SpA)<br />
+- Pursuit<br />
+- Night Slash / Crunch<br />
+- Earthquake<br />
+- Poison Jab / Fire Fang</p>
+
+<p>Drapion mainly experiences problems with bulky Ground- and Steel-types. Magnet Rise/Hidden Power Ice Magneton can help it out to some degree.</p>
+
+<p>Only nine Pursuit users have been listed, but you are by no means limited to using them. As I mentioned before, elements of creativity are important building blocks in the Art of Trapping. Please go beyond what is listed and try out the many other Pursuit users out there, however predictable or unpredictable they may be. For example, Spiritomb and Skuntank are rather interesting options for Pursuit users. The only way to successfully use Pursuit is to practice and experiment, so do open the way to explore new frontiers.</p>
+
+<p>What else can you do with Pursuit?</p>
+
+<p>If you have been reading the information about Pursuit, you're probably wondering about some specific strategies that can be used to "abuse Pursuit." Well, think about it. In order for Pursuit to become more threatening, it is expected that your opponent must switch. How do you make your opponents switch? The answer is simple: moves that lower the opponent's Defense will put it at a very uncomfortable spot - it is extremely prone to getting KOed by Pursuit, whether it switches or not. An example of a set that employs such a tactic is as follows:</p>
+
+<p><img src="/download/sprites/dp/440.png" alt="Skuntank" /><br />
+<strong><a href="/dp/pokemon/skuntank">Skuntank</a></strong> @Leftovers<br />
+Ability: Aftermath<br />
+EVs: 24 HP / 252 Atk / 232 Spe<br />
+Nature: Adamant (+Atk, -SpA)<br />
+- Pursuit<br />
+- Screech<br />
+- Explosion<br />
+- Crunch / Sucker Punch</p>
+
+<p>With 103/67/61 defenses, Skuntank can be classified as being fairly bulky. The idea of this set is for Skuntank to tank around and repeatedly use Screech on an opponent until they try to flee in fear due to their reduced physical Defense. When you are certain that the opponent will flee, Pursuit hammers them on the switch; a STAB Pursuit coming off 93 Attack that hits a -6 Def Pokemon is sure to either OHKO or put a massive dent in anything that becomes victimized by this Defense-lowering Move + Pursuit combination.</p>
+
+<p>For your reference, these are the moves that lower an opponent's Defense: Leer (-1 Def), Tail Whip (-1 Def), Tickle (-1 Atk -1 Def), and Screech (-2 Def). Rock Smash and Crush Claw can lower an opponent's Defense by (-1 Def) 50% of the time, Crunch can lower an opponent's Defense by (-1 Def) 20% of the time, and Iron Tail can lower an opponent's Defense by (-1 Def) 30% of the time. If opponents use Close Combat (-1 Def -1 SpD) or Superpower (-1 Def -1 Atk), they will receive self-induced Defense drops as well.</p>
+
+<p>More information and examples of this strategy can be found in the "Bringing it All Together (Trapping Review & Examples of Trapping Strategies)" section.</p>
+
+<h2><a name="permpreventescape">Moves that can "Permanently" Prevent Escape</a></h2>
+
+<p>Maybe you're scratching your head and thinking that Pursuit just isn't your thing. Maybe you want to shame your victim by setting up on it and giving it a sense of hopelessness. Or maybe you just want to be unique by staying away from the bog-standard Pokemon with Trapping abilities or Pursuit Trappers. Well, this section will teach you yet another way of Trapping an opponent that doesn't necessarily involve having a Trapper deal the damage.</p>
+
+<p>There are three moves in the game that can be used to "permanently" Trap an opponent. These non-damaging moves do one simple thing: prevent an opponent from switching. Also, you may have noticed that the word "permanently" is in quotation marks. This is because there are a few exceptions to this rule:</p>
+
+<ul>
+<li>Opponents holding a Shed Shell may still switch out.</li>
+<li>Opponents may still switch out via U-turn or Baton Pass.</li>
+<li>The effect of such "Permanent-Trapping Moves" is lost if the user switches out or faints.</li>
+</ul>
+
+<p>Bullet point 3 is without a doubt the most important one to consider. Does it make this strategy ineffective altogether? Fortunately, there are ways to get around this. By having the user of the "Permanent-Trap Move" Baton Pass to another team member, the effect of the "Permanent-Trap Move" remains in effect.</p>
+
+<p>What then, are the three mysterious moves that can "Permanently" Trap an opponent? The first one is by far the most common - Mean Look. Mean Look is a Normal-type move that has a base PP of 5. Next comes Spider Web, a Bug-type move with a base PP of 10. Finally comes Block. Block and Mean Look are basically identical - Block is also a Normal-type move with a base PP of 5. All of these moves ignore evasion modifiers, meaning that they will never, ever miss.</p>
+
+<p>Disregarding NFEs, there are 26 Pokemon in the game that can make use of the three moves. Out of these 26, only 4 can use Baton Pass. While this fact appears discouraging, remember that all 26 of these Pokemon do not necessarily need to use Baton Pass; they can simply Trap an opponent and attack it from there.</p>
+
+<h3><a name="batonpasstrappers">Baton Pass Trappers</a></h3>
+
+<p>The main purpose of Baton Pass Trapping is to use Mean Look / Spider Web / Block, preventing the opponent from switching, and subsequently Baton Passing to a team member that can take advantage of the Trapped opponent.</p>
+
+<img src="/download/sprites/dp/197.png" alt="Umbreon" />
+<strong><a href="/dp/pokemon/umbreon">Umbreon</a></strong>
+<p>Umbreon is the true definition of team support. With access to Baton Pass and valuable moves like Tickle, Curse, Wish, and Yawn, Umbreon can be used as a scout, cleric, or even as a set-up Pokemon. More importantly, however, Umbreon can Baton Pass Mean Look, and it can do this rather effortlessly. Umbreon is among the bulkiest of the Eeveelutions with great defensive stats of 95/110/130. These stats allow it to survive even relatively well-powered Fighting- and Bug-type moves like Brick Break and X-Scissor. All of the previously mentioned supportive moves make Umbreon a fantastic candidate to pave the way for a teammate to come in and possibly set up on an opponent. One of Umbreon's drawbacks, however, is its mediocre Speed. This often allows it to be preyed upon by the move Taunt, forcing it to attack an opponent with its rather pitiful offensive stats.</p>
+
+<p>Various Umbreon sets are designed to Baton Pass many different effects, but for the sake of this guide we shall examine a Baton Pass Trapper set:</p>
+
+<p>Umbreon @ Leftovers<br />
+Ability: Synchronize<br />
+EVs: 252 HP / 212 Def / 44 Spe<br />
+Nature: Careful (+SpD, -SpA)<br />
+- Mean Look<br />
+- Baton Pass<br />
+- Wish<br />
+- Protect / Yawn / Taunt</p>
+
+<p>Make sure to realize that Umbreon hates facing powerful Fighting- and Bug-type moves. Putting it up against moves like Close Combat and Megahorn is overestimating its defensive capabilities, and that is never a good idea.</p>
+
+<img src="/download/sprites/dp/235.png" alt="Smeargle" />
+<strong><a href="/dp/pokemon/smeargle">Smeargle</a></strong>
+<p>Because it can learn each and every move in the game except Struggle and Chatter, Smeargle is one of the most versatile Pokemon in the game. It can use a diverse series of move combinations that can leave an opponent guessing as to what tricks a particular Smeargle has up its sleeve. Due to the limited number of "Permanent Trap-Move" users that can also use Baton Pass, none other than Smeargle can do this job. Smeargle also has the fastest Spore in the game, guaranteeing to put an opponent to sleep if Smeargle is faster than it. However, note that Smeargle is a one-trick pony. Don't expect your opponent to fall for a Trap two times in a match; chances are, they will counter Smeargle before it can repeat a strategy. Furthermore, with defenses of 55/35/45, Smeargle isn't going to survive many attacks anytime soon.</p>
+
+<p>Try a Spider Web Smeargle:</p>
+
+<p>Smeargle @ Focus Sash / Lum Berry / Leftovers<br />
+Ability: Own Tempo<br />
+EVs: 96 HP / 120 Def / 40 SpD / 252 Spe<br />
+Nature: Jolly (+Spe, -SpA)<br />
+- Spider Web<br />
+- Baton Pass<br />
+- Spore<br />
+- Substitute / Encore</p>
+
+<p>Spider Web is generally preferred over Mean Look due to its higher PP. If and when Smeargle successfully Baton Passes Spider Web to a team member, make sure the same team member can abuse the Trapped opponent to the fullest extent.</p>
+
+<h3><a name="perishtrappers">Perish Song Trappers</a></h3>
+
+<p>The main purpose of Perish Song Trapping is to use Mean Look / Spider Web, preventing an opponent from switching, and subsequently using Perish Song to stall three turns out. Perish Song is a move that KOes all Pokemon in play within three turns of its usage, including the user. By preventing an opponent from switching, Perish Song can effortlessly KO them after three turns, while the user can safely switch out.</p>
+
+<img src="/download/sprites/dp/94.png" alt="Gengar" />
+<strong><a href="/dp/pokemon/gengar">Gengar</a></strong> 
+<p>With three immunities, Gengar is an excellent choice to function as a Perish Trapper, even if it isn't incredibly bulky. Gengar also has high Speed, a quality that allows it to stall out turns with the use of Substitute and/or Protect. Bring Gengar in on something that can't do anything to it (or something it scares out), and work your way from there. Beware of priority moves, however; those are what tend to ruin this set! The following is an example of a Perish Trapping Gengar set:</p>
+
+<p>Gengar @ Leftovers<br />
+Ability: Levitate<br />
+EVs: 252 HP / 4 Def / 252 Spe<br />
+Nature: Timid (+Spe, -Atk)<br />
+- Mean Look<br />
+- Perish Song<br />
+- Substitute / Protect<br />
+- Protect / Hypnosis</p>
+
+<p>As stated before, Gengar encounters problems with Priority users like Scizor and Mamoswine, so eliminating anything that is faster than Gengar can help it out immensely. Ideal supportive team members include Metagross and Heatran.</p>
+
+<img src="/download/sprites/dp/434.png" alt="Mismagius" />
+<strong><a href="/dp/pokemon/mismagius">Mismagius</a></strong>
+<p>Mismagius is simply another Gengar with a different distribution of stats. Mismagius is generally bulkier than Gengar, and thus, is EVed to focus on its defenses rather than its Speed. While it may seem that Mismagius can only be effectively used in the lower tiers, this accusation cannot be further away from the truth - some battlers even argue that Mismagius is better than Gengar at this job! Don't be discouraged by false statements that present Mismagius in a negative light - Gengar and Mismagius are played differently, and you should select the more suitable choice for your team. Here is a Perish Trapping Mismagius set:</p>
+
+<p>Mismagius @ Leftovers<br />
+Ability: Levitate<br />
+EVs: 252 HP / 216 SpD / 40 Spe<br />
+Nature: Calm Nature<br />
+- Mean Look<br />
+- Perish Song<br />
+- Protect<br />
+- Taunt / Substitute / Pain Split</p>
+
+<p>While Mismagius is typically walled by Chansey, Clefable, and even some Steel-types, this set remedies the problem. Mismagius can simply set up the Perish Song Trap and stall three turns out with the appropriate moves.</p>
+
+<p>Pokemon with "Permanent" Trapping moves can be used in other ways as well. For example, let's say you send in a Snorlax against a Starmie. The Starmie will stay in because it is afraid of Pursuit and hopes to deal damage before it goes down. Your Snorlax can then use Mean Look and possibly set up on the same Starmie with Curse. This is an example of a strategy that involves neither Perish Trapping or Baton Passing.</p>
+
+<h2><a name="temppreventescape">Moves that can Temporarily Prevent Escape</a></h2>
+
+<p>The simple truth about moves that temporarily prevent escape is that few players bother using them. However, this is not to say that they are not effective. Since not many players use temporary Trapping moves, a wide range of opponents don't even know they exist. You can use this to your advantage, especially if your opponents don't know the effects of the appropriate temporary Trapping moves.</p>
+
+<p>There are seven moves in the game that are classified as temporary Trapping moves - Bind, Clamp, Wrap, Fire Spin, Whirlpool, Sand Tomb, and Magma Storm. The characteristics and effects of these moves can be found in the following list:</p>
+<ul>
+<li>Each move lasts only 2-5 turns.</li>
+<li>Each turn, the move takes away 1/16 of an opponent's HP.</li>
+<li>If the user of temporary Trapping moves holds a Grip Claw, the duration of the Trap is always 5 turns.</li>
+</ul>
+<p>It should be noted that each turn, no matter how many temporary Trapping moves you use on your opponent, only 1/16 of your opponent's health will be sapped. Therefore, do not even consider trying to use 4 temporary Trapping moves on your opponent while expecting them to do 4/16 (1/4) damage to your opponent every turn.</p>
+
+<p>Only one user of temporary Trapping moves will be examined. This user is possibly the most "viable" user of such moves due to its interesting movepool:</p>
+
+<img src="/download/sprites/dp/213.png" alt="Shuckle" />
+<strong><a href="/dp/pokemon/shuckle">Shuckle</a></strong>
+<p>Shuckle has pitiful HP, but it also has monstrous defenses to compensate for that. It works especially well in the sand, where it can be extremely aggravating to take down. Shuckle is an effective user of Wrap because it has access to Encore, which can transform it into something following the footsteps of Wobbuffet, except without Shadow Tag:</p>
+
+<p>Shuckle @ Grip Claw<br />
+Ability: Gluttony<br />
+EVs: 248 HP / 44 Def / 216 SpD<br />
+Nature: Careful (+SpD, -SpA) / Impish (+Def, -SpA)<br />
+- Wrap<br />
+- Encore<br />
+- Bide<br />
+- Rest / Toxic</p>
+
+<p>The idea of this set is simple - first, use Wrap on your opponent to prevent it from switching out. Next, have Shuckle use Encore - hopefully your opponent's attacks deal little damage to Shuckle. From there, you can use Bide to counter any damage that might have been done to Shuckle, Rest to heal, or use Toxic to do more damage to the same opponent. You can also use a Wrap + Toxic + Rest set to simply stall your opponent out until it faints.</p>
+
+<p>Another option for the job of using a temporary Trapping move is Heatran, who has the exclusive Magma Storm. Magma Storm can be used to Trap Blissey; Heatran can OHKO it with Explosion if its health has been reduced through various forms of prior damage.</p>
+
+<h2><a name="bringingittogether">Bringing it All Together (Trapping Review & Examples of Trapping Strategies)</a></h2>
+
+<p>Before we proceed, let us observe this table, which is a summary of the methods of Trapping highlighted in the previous sections. Hopefully this table gives you a clear idea of the purposes and effective subjects of different types of Trapping.</p>
+
+<p>To get ourselves on the same page, let's briefly analyze the types of Trapping again:</p>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Trapping Type</th> 
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Trapping via Abilities</td>
+<td>The use of Pokemon with Trapping abilities.</td>
+</tr>
+<tr class="a">
+<td>Pursuit</td>
+<td>The use of Pursuit to deal damage to an opponent that doubles if it switches out.</td>
+</tr>
+<tr>
+<td>"Permanent" Trapping</td>
+<td>The use of Mean Look, Block, and Spider Web to prevent an opponent from switching.</td>
+</tr>
+<tr class="a">
+<td>Temporary Trapping</td>
+<td>The use of Bind, Clamp, Whirlpool, Fire Spin, Sand Tomb, Magma Storm, and Wrap to prevent an opponent from switching.</td>
+</tr>
+</tbody>
+</table>
+
+<p>If you are a skeptical person, chances are you will still be asking questions. Possibly the most important one is "Why Trap at All"? This perennial question has been discussed throughout the guide, but this table exists to summarize the answer to the question.</p>
+
+<table class="sortable">
+<thead>
+<tr>
+<th>Trapping Type</th>
+<th>Why Use It</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Trapping via Abilities</td> 
+<td>To remove specific opponents - for example, Dugtrio can eliminate many special walls; Magnezone can eliminate many physical walls.</td>
+</tr>
+<tr class="a">
+<td>Pursuit</td> 
+<td>To deal damage to opponents regardless of whether they stay in or switch out; Pursuit is used mainly against Psychic- or Ghost-type opponents. For example, Tyranitar uses Pursuit to finish off Alakazam that is locked onto Psychic&mdash;it is OHKOed even if it switches out.</td>
+</tr>
+<tr>
+<td>"Permanent" Trapping</td> 
+<td>To Baton Pass, set up on, attack, or use Perish Song against an opponent once it is Trapped. For example, Umbreon sets up Mean Look + Yawn on an opponent and Baton Passes to a teammate that can easily set up on or eliminate the opponent.</td>
+</tr>
+<tr class="a">
+<td>Temporary Trapping</td>
+<td>To either set up on, attack, or stall out an opponent once it is Trapped. For example, Shuckle sets up Wrap + Encore to Trap an opponent and stalls it out with Toxic + Rest.</td>
+</tr>
+</tbody>
+</table>
+
+<p>Now that we are associated and are hopefully knowledgeable enough about each method of Trapping, it's time to take it one step further. The next part of this section will provide examples of Trapping strategies that you can use in everyday matches. Remember, don't use whatever is provided in front of you&mdash;think up of new Trapping strategies by yourself!</p>
+
+<strong>1. Screech / Swords Dance + Pursuit</strong>
+
+<p>Idea: Use Screech to lower an opponent's Defense (or Swords Dance to increase the user's Attack), and then use Pursuit when it switches out. Sucker Punch can be used to really make your opponent think.</p>
+
+<p>Essential Candidates:</p>
+
+<img src="/download/sprites/dp/466.png" alt="Weavile" />
+<p><strong>Weavile</strong> - Swords Dance + Pursut</p>
+
+<img src="/download/sprites/dp/457.png" alt="Drapion" />
+<p><strong>Drapion</strong> - Swords Dance + Pursuit</p>
+
+<img src="/download/sprites/dp/212.png" alt="Scizor" />
+<p><strong>Scizor</strong> - Swords Dance + Pursuit</p>
+
+<img src="/download/sprites/dp/440.png" alt="Skuntank" />
+<p><strong>Skuntank</strong> - Screech + Pursuit + Sucker Punch</p>
+
+<img src="/download/sprites/dp/248.png" alt="Tyranitar" />
+<p><strong>Tyranitar</strong> - Dragon Dance + Pursuit</p>
+
+<strong>2. Trap Move + Set Up/Status Move + Baton Pass</strong>
+
+<p>Idea: Use a Trap move to prevent an opponent from switching, set up on it or put it to sleep, and then Baton Pass to an appropriate team member with the Trap move's effect still in play.</p>
+
+<p>Essential Candidates:</p>
+
+<img src="/download/sprites/dp/197.png" alt="Umbreon" />
+<p><strong>Umbreon</strong> - Mean Look + Baton Pass + Yawn + Wish + Curse</p>
+
+<img src="/download/sprites/dp/235.png" alt="Smeargle" />
+<p><strong>Smeargle</strong> - Spider Web + Baton Pass + Spore + Any Set-Up Move</p>
+
+<strong>3. Trap Move + Perish Song/Other Sure-to-KO Moves</strong>
+
+<p>Idea: Use a Trap move to prevent an opponent from switching and eliminate it with the use of moves that are guaranteed to do so.</p>
+
+<p>Essential Candidates:</p>
+
+<img src="/download/sprites/dp/94.png" alt="Gengar" />
+<p><strong>Gengar</strong> - Mean Look + Perish Song + Destiny Bond + Counter</p>
+
+<img src="/download/sprites/dp/434.png" alt="Mismagius" />
+<p><strong>Mismagius</strong> - Mean Look + Perish Song + Destiny Bond</p>
+
+<img src="/download/sprites/dp/480.png" alt="Gallade" />
+<p><strong>Gallade</strong> - Mean Look + Destiny Bond</p>
+
+<strong>4. Trap (Move) + Dual Screens</strong>
+
+<p>Idea: Use Pokemon with Trapping abilities or Pokemon with Trap moves to set up dual screens on the opponent. Having Selfdestruct or Explosion is a plus.</p>
+
+<p>Essential Candidates:</p>
+
+<img src="/download/sprites/dp/467.png" alt="Magnezone" />
+<p><strong>Magnezone</strong> - Reflect + Light Screen + Explosion (Magnet Pull)</p>
+
+<img src="/download/sprites/dp/282.png" alt="Gardevoir" />
+<p><strong>Gardevoir</strong> - Mean Look + Reflect + Light Screen + Healing Wish + Destiny Bond</p>
+
+<img src="/download/sprites/dp/442.png" alt="Bronzong" />
+<p><strong>Bronzong</strong> - Block + Reflect + Light Screen + Explosion</p>
+
+<strong>5. Temporary Trap Move + Bide/Other Annoying Moves</strong>
+
+<p>Idea: Use a Trap move that slowly inflicts damage to the opponent until they can be KOed with a stronger move, such as Explosion.</p>
+
+<img src="/download/sprites/dp/213.png" alt="Shuckle" />
+<p><strong>Shuckle</strong> - Wrap + Bide + Encore</p>
+
+<img src="/download/sprites/dp/490.png" alt="Heatran" />
+<p><strong>Heatran</strong> - Magma Storm + Explosion</p>
+
+<p>All five strategies above are a collection of ideas that you can use and implement. Many might sound "gimmicky," but can be perfected with a little bit of work. I cannot stress how important it is to follow the path of nonconformity and use sets that are bizarre yet effective. As Einstein once said, "If at first the idea is not absurd, then there is no hope for it."</p>
+
+<h2><a name="additionalresources">Additional Useful Resources</a></h2>
+
+<p>Are you still feeling doubtful about some of the content covered in this guide? Do you want to tackle some related readings that can handily work alongside this guide? Try a few of these other resources, then!</p>
+
+<p><a href="/dp/articles/team_support">DP Team Support Guide</a> - This is a very effective guide that describes the various ways of supporting teams. Ideas for using Trappers can be based on the many supportive options available in the article.</p>
+
+<p><a href="/forums/showthread.php?t=40480">Featured Trap Team</a> - This team, built by <a href="/forums/member.php?u=12321">Giant Enemy Crab</a>, is a perfect example of trapping in action. The team's triumphs are largely based on its concept of eliminating threats one by one with the use of trappers. Giant Enemy Crab also makes use of moves such as U-turn and Baton Pass to seriously confuse opponents. This model RMT should be used as a guideline when building a trap team of your own - proof of this excellent team's success lies in Giant Enemy Crab's 91% win record. It is rather outdated, but its ideas should be used as the building blocks of trap teams players intend to create!</p>
+
+<p>This concludes the guide. I hope that you have learnt a thing or two about Trapping. I also hope that you will use this knowledge to increase the productivity of your battling skills. Good luck!</p>

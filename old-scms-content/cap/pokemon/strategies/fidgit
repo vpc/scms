@@ -1,0 +1,130 @@
+[title]
+Fidgit
+[head]
+<link rel="stylesheet" type="text/css" href="/media/dex/dex.css" />
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_template.js"></script>
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_database.js"></script>
+[header]
+[page]
+<script language="JavaScript">
+document.write(strategyTabs("Fidgit"));
+document.write(topHeaderInfo(Fidgit()));
+</script>
+
+<h2>Overview</h2> 
+
+<h4>DPP</h4>
+
+<p>Fidgit is undoubtedly one of the best supporting Pokemon in the game; whether it be setting up a full layer of Spikes or locking the opponent into one move with Encore, Fidgit does it very well. Fidgit has the Speed, bulk, and abilities to pose a significant defensive threat to the opponent. Fidgit's typing also provides it the ability to absorb Toxic Spikes on your side of the field as necessary. One of the great things about Fidgit is that its moveset can be tailored to what your team needs. For example, should your team need entry hazard and Wish support, Fidgit can perform that role admirably. Finally, its numerous resistances and immunities give it many opportunities to switch in and initiate its supporting of your team.</p>
+
+<p>Unfortunately, since Fidgit is designed to support its team, it has many of the same glaring weaknesses of other such Pokemon. Most of Fidgit's movesets utilize two to three supporting moves, meaning that it suffers significantly by being Taunted. Pokemon such as Aerodactyl, Azelf, and Gyarados, all of whom pack an immunity to Fidgit's Earth Power, can Taunt Fidgit and set up on it. Being offensively weak and lacking reliable recovery outside of the two-turn Wish does not help it either, as any strong attacker that doesn't take a lot of damage from Fidgit's Earth Power can take it down without much trouble. A problem of lesser concern is that with all of the great supporting options Fidgit has, it's usually impossible to fit everything you want onto one set.</p>
+
+<script language="JavaScript"> 
+var set = new CAPSet(); 
+set.name = "DPP Support"; 
+set.move[1] = "Spikes"; 
+set.move[2] = ["Rapid Spin", "Toxic Spikes"]; 
+set.move[3] = "Encore"; 
+set.move[4] = "Earth Power"; 
+set.item = "Leftovers"; 
+set.ability = "Vital Spirit"; 
+set.evs.HP = 252; 
+set.evs.Def = 4; 
+set.evs.Spe = 252; 
+set.nature = "Timid"; 
+document.write(composeSet(set)); 
+</script> 
+
+<p>Fidgit is an incredibly successful supporter in the OU metagame, due to its defensive typing, great overall bulk, and gargantuan support movepool. Not many Pokemon can boast the sheer versatility of Fidgit, making it a reliable Pokemon for nearly any team. Its aforementioned characteristics give it many opportunities to switch in and spill out entry hazards onto the opponent's field or Rapid Spin entry hazards set up by the opponent, contributing to the threatening supporting Pokemon Fidgit is.</p>
+
+<p>Spikes is the primary entry hazard to use because it's capable of scraping off up to 25% health from the majority of the metagame. As for the second slot, it really depends on your team. Fidgit is one of the few effective Rapid Spinners in the OU metagame because of the amount of opportunities it has to switch in, and so its the most important option to have at your disposal. On the other hand, Toxic Spikes is useful for Pokemon on your team that have more stall-oriented sets, such as Calm Mind Jirachi, SubRoost Zapdos, or RestTalk Gyarados, since the constant poison damage will aid them in scoring more KOs. It's possible to use Stealth Rock as an alternative to one of the entry hazards, since Stealth Rock is perhaps the most effective entry hazard; however, because there are already a large number of effective Stealth Rock users to choose from, it's recommended to capitalize on Fidgit's access to the other entry hazards, as it's one of the few Pokemon that set them up well.</p>
+
+<p>The third moveslot is open to Encore, which makes Fidgit more threatening as a supporter and helps it further achieve its ability to set up entry hazards and Rapid Spin. For example, it can switch into Blissey's Softboiled, Rotom-A's Thunderbolt, Snorlax's Curse, or Jirachi's Calm Mind and threaten to force them into using that same move for up to eight turns, buying Fidgit time to set up or Rapid Spin. However, this strategy comes at its own cost, because your opponent can just as easily suspect Encore and switch out to a Pokemon to threaten Fidgit, leaving it to accomplish nothing. Finally, the last moveslot is for Earth Power so it won't be completely vulnerable to Taunt. If you do use Rapid Spin, Shadow Ball is an option in the fourth slot to hit incoming Ghost-types that try to absorb Rapid Spin. Fidgit's EVs and Timid nature are chosen to optimize its Speed and bulk so it can support as much as possible while at worst Speed tying with opposing Fidgit.</p>
+
+<p>Fidgit is one of those Pokemon that can fit into virtually any team and be successful at its job, but there are a variety of team options to consider for Fidgit on defensive teams or on offensive teams. On defensive teams, Fidgit can benefit from Wish support, due to the fact that it lacks an instant recovery move outside of Rest. With the help of Wish, Fidgit can be more effective at setting up multiple layers of entry hazards or Rapid Spinning, since it now has the ability to stick around longer. Vaporeon is a great Wish passer, thanks to its excellent overall bulk. Also, Vaporeon can easily take on Gyarados if it uses Hidden Power Electric, a Pokemon that Fidgit does not want to be up against. Blissey is another excellent Wish passer, as she can easily sponge up special attacks fired at Fidgit thanks to her amazing HP and Special Defense stats. With defensive teams commonly being weak to big set-up threats like Suicune or Jirachi, Fidgit can stop them by Encoring their Calm Mind to force them out. Also, this is especially useful because these Pokemon are likely to be the final Pokemon on the opponent's team. With offensive teams, on the other hand, Fidgit's ability to set up multiple entry hazards will aid sweepers such as Gyarados to turn some their 2HKOs into OHKOs. These two Pokemon are also weak to Stealth Rock, which Fidgit can remove. To aid Fidgit in Rapid Spinning successfully, especially if you don't run Shadow Ball, Pursuit users are recommended. Choice Scarf Tyranitar is a great candidate for disposing of Ghost-types such as Gengar and Rotom-A who commonly switch into Fidgit, and, like Gyarados, Tyranitar benefits from Fidgit's entry hazards. Furthermore, Fidgit's typing and ability allow it to be immune to sleep, poison, and Electric-type attacks that induce paralysis status, which the aforementioned sweepers hate to be affected by.</p>
+
+<script language="JavaScript"> 
+var set = new CAPSet(); 
+set.name = "DPP Field Effect Support"; 
+set.move[1] = ["Trick Room", "Gravity"]; 
+set.move[2] = "U-turn"; 
+set.move[3] = "Wish"; 
+set.move[4] = "Earth Power"; 
+set.item = "Leftovers"; 
+set.ability = "Persistent"; 
+set.evs.HP = 252; 
+set.evs.Def = 4; 
+set.evs.Spe = 252; 
+set.nature = "Timid"; 
+document.write(composeSet(set)); 
+</script> 
+
+<p>Fidgit has several qualities that make it a great candidate for setting up Trick Room or Gravity, the greatest of which is Persistent, which increases the duration of field-effect moves by two turns. Its solid defensive typing, stats, and a massive support movepool further its ability to set-up these field-effects.</p>
+
+<p>Fidgit's moveset is dedicated to setting up one of the field-effect moves and supporting the team at the same time. Trick Room and Gravity are the two most competitively viable field-effecting moves, since they can be extremely threatening if used correctly. U-turn is an excellent scouting move, especially once you use Trick Room or Gravity, to let you scout the opponent's switch-in if they attempt to counter the respective field-effect move. Wish lets Fidgit heal its teammates upon switching in, which is particularly useful when bringing in your sweepers. Lastly, Earth Power serves as a reliable offensive STAB attack so Fidgit won't be too vulnerable to Taunt. Trick Room and Gravity aren't the only field-effecting moves Fidgit can use, though; Tailwind is also an option. Even though it may not be as viable as the others considering how short it is, only lasting for five turns even with the help of Persistent, it has the potential to be put to use by some teams.</p>
+
+<p>If you opt to use Trick Room, you may think that it's counter-productive to invest in maximum Speed, since Fidgit will be moving last most of the time. There is one big benefit from moving after the opponent, though, and that is that Fidgit can use U-turn after the opponent moves to get the sweeper that will be abusing Trick Room into combat untouched. If you feel that Fidgit isn't bulky enough, there's no harm in using a defensive EV spread to improve Fidgit's survivability so it can set up more often.</p>
+
+<p>Depending on which field-effect move you use, different team members should be considered. For Trick Room, it's obvious to use Pokemon that are extremely slow so that they are guaranteed to move first. Some of the most common and viable Trick Room sweepers are Snorlax, Slowbro, Marowak, Rhyperior, and Tyranitar. Snorlax is one of the slowest Pokemon in the whole game, reaching a pathetic Speed stat of 86, which means that it will nearly always be the one moving first under Trick Room. Slowbro is capable of using a threatening sweeping set with Calm Mind and Slack Off, and is the slowest Pokemon that retains a high base Special Attack stat of 100. Slowbro can also set up its own Trick Room to keep it going. Marowak holds the title as the strongest physical attacker, hitting a massive Attack stat of 568 with Thick Club that can be boosted further with Swords Dance. Rhyperior functions similarly to Marowak, but has a larger movepool that includes Megahorn and grater general bulk with Solid Rock. Lastly, Tyranitar is a fantastic mixed sweeper, being able to rip through stall with its huge offensive movepool. Gravity, on the other hand, is interesting in that it can be used either offensively or defensively. By playing Gravity offensively, using Pokemon that have access to moves like Hydro Pump, Thunder, Blizzard, and Fire Blast are worth considering. Starmie is a good example of a Pokemon that has high-powered, low accuracy moves, and can be a huge offensive threat with Life Orb. Rotom-F and Rotom-W can abuse perfectly accurate STAB Thunder attacks, with the former able to take advantage of Blizzard, and the latter Hydro Pump. Pokemon with Ground-type moves are also recommended, as they gain the ability to hit Flying-types and Levitators when Gravity is in play. As for using Gravity with a defensive bias, setting up Toxic Spikes and Spikes will punish even Pokemon that are normally immune to them. Pokemon like Zapdos and Flygon will be poisoned from Toxic Spikes and will take up to 25% damage from Spikes. Roserade and Skarmory are two choices for setting up Toxic Spikes and Spikes, respectively. Roserade's high Speed and access to Sleep Powder almost always guarantees it to set up a full layer of Toxic Spikes, while Skarmory's fantastic Defense gives it many opportunities to lay down several layers of Spikes. Skarmory also has access to Whirlwind, which it can use repeatedly to constantly damage all Pokemon on the opponent's team with Gravity in play.</p>
+
+<script language="JavaScript"> 
+var set = new CAPSet(); 
+set.name = "DPP Dual Screens"; 
+set.move[1] = "Reflect"; 
+set.move[2] = "Light Screen"; 
+set.move[3] = ["Wish", "Taunt", "Encore"]; 
+set.move[4] = ["U-turn", "Earth Power"]; 
+set.item = ["Light Clay", "Leftovers"]; 
+set.ability = "Vital Spirit"; 
+set.evs.HP = 252; 
+set.evs.Def = 4; 
+set.evs.Spe = 252; 
+set.nature = ["Jolly", "Timid"]; 
+document.write(composeSet(set)); 
+</script> 
+
+<p>Fidgit has all of the essentials to run a successful dual screen set. Its amazing defensive typing and solid stat spread give it many opportunities to switch in and set up Reflect and Light Screen. In addition, its gigantic support movepool comes into play once more to aid its team. This also differentiates Fidgit from other common dual screeners like Bronzong and Jirachi as they just don't have the same breadth of support moves as Fidgit.</p>
+
+<p>The third moveslot is open for whatever your team needs most, though Wish, Taunt, and Encore stand out the most as the most helpful. With Wish, Fidgit can reliably heal itself and its teammates. It also works fantastically in conjunction with dual screens because with the defensive support they provide, Fidgit doesn’t have to worry about the fact that Wish takes two turns to activate. When someone is up against a dual screener, they tend to react to it by sending in a Pokemon that can either set up or phaze it. With that said, Fidgit can eliminate this risk by using Taunt to disable the opposing Pokemon from using these types of moves. Lastly, Encore gives Fidgit additional opportunities to set up Reflect and Light Screen while letting Fidgit defensively threaten users of non-damaging moves, such as Blissey's Thunder Wave and Suicune's Calm Mind. To keep Fidgit from being vulnerable to Taunt, the last moveslot is filled with either U-turn or Earth Power. U-turn is recommended to give Fidgit the ability to scout the opponent’s switch-ins and deal a bit of damage as it switches out, while Earth Power is an excellent STAB attack to use when needed.</p>
+
+<p>Light Clay is the superior item for this Fidgit, since it provides an extra three turns to both Light Screen and Reflect, which can be crucial for winning the battle. However, if you feel that Fidgit needs extra survivability, Leftovers is still a great choice. As for the nature, it really depends on what move you use in the last moveslot. U-turn works well in tandem with Jolly, because it doesn't lower Fidgit's Attack like Timid does, while Timid is the better way to go when using Earth Power.</p>
+
+<p>Teaming up Fidgit with Pokemon that can abuse the dual screens is mandatory. Pokemon like Jirachi, and Gyarados can take advantage of the screens with their stat boosting moves. Jirachi can set up an extremely sturdy Substitute, allowing it to further set up Calm Minds with ease. Gyarados can gather multiple Dragon Dance boosts, enough for them to rip even prepared teams to shreds. Besides Pokemon that stat boost and sweep, using Baton Passing Pokemon is also a great way to abuse Reflect and Light Screen. For instance, Pure Baton Passer Gliscor will be very hard to take down under screens, buying it enough time to set up multiple Speed and Attack boosts. It can then Baton Pass them onto a sweeper like Metagross with a couple of turns of dual screens left for the sweeper to abuse.</p>
+
+<h2>Team Options</h2>
+
+<h4>DPP</h4>
+
+<p>Fidgit is useful on a variety of teams, ranging from stall teams to teams that take a more offensive approach. That being said, its team options can be divided into two categories: defensive and offensive.</p>
+
+<p>Fidgit plays a significant role on defensive teams, mostly because of its ability to counter common stall threats like Substitute + Calm Mind Jirachi, Calm Mind Suicune, and Swords Dance Lucario. Since Fidgit almost always uses entry hazards in its movesets, it's best to use Pokemon with phazing moves, such as Whirlwind Skarmory, Roar Swampert, or Perish Song Celebi. Skarmory boasts a high Defense stat, can set up Spikes if Fidgit isn't already using it, and can spam Whirlwind to force the opponent to take constant entry hazard damage. Swampert works the same way, except it uses Stealth Rock and Roar instead. Celebi takes a slightly different approach, using Perish Song to force switches. It can also take on many versions of Gyarados, which Fidgit definitely hates being up against. It's good to note that if you use Swampert and Skarmory for Stealth Rock and Spikes support, respectively, Fidgit can complete the three different types of entry hazards by using Toxic Spikes. Using Pokemon that can lure in Pokemon Fidgit handles is also worth considering. For example, Blissey can lure in Calm Mind Suicune or Toxic stalling Zapdos, allowing Fidgit to switch right into their Calm Mind or Toxic, respectively, Encore, and force a switch, giving Fidgit the perfect opportunity to lay down more entry hazards or Rapid Spin. Speaking of Rapid Spin, Fidgit is an extremely viable entry hazard remover (also absorbing Toxic Spikes), because it has so many opportunities to do so with its solid typing and stat distribution. With entry hazards removed, its teammates will have an easier time stalling, especially when using Pokemon like Blissey, Vaporeon, and Celebi that hate Toxic Spikes.</p>
+
+<p>Offensively, Fidgit normally doesn't receive any support from its teammates, but rather its teammates enjoy Fidgit's support instead. Many sweepers can use Fidgit's entry hazards to great effect as they will turn some 3HKOs into 2HKOs or 2HKOs into OHKOs. Gyarados is an excellent Pokemon to consider pairing Fidgit with, as they cover each other's weaknesses well. Gyarados hates being hit by Electric- and Rock-type moves, but Fidgit can switch into them with impunity and force a switch with Encore, while Gyarados can gain a free switch-in from Water- and Ground-type attacks fired at Fidgit. Sweepers often find themselves being faced with a defensive wall that pack moves that may cripple the sweeper, such as Thunder Wave or Toxic. Fidgit will happily switch into these Pokemon, such as Blissey and Cresselia, and momentarily cripple them with Encore. This makes Fidgit a very beneficial defensive pivot for your sweepers. Besides setting up entry hazards on the field, Fidgit's ability to reliably remove entry hazards will be very helpful for Stealth Rock-weak sweepers such as Gyarados. One form of support that Fidgit appreciates from offensive teams is Pursuit. Pursuit users like Tyranitar can easily demolish the Ghost-types that like to switch into Fidgit's Earth Power and Rapid Spin, particularly Rotom-A. With these eliminated, Fidgit's job becomes that much easier.</p>
+
+<h2>Other Options</h2> 
+
+<h4>DPP</h4>
+
+<p>Fidgit commonly uses support sets, as its role is dedicated to supporting its team and itself. This does not mean Fidgit can't be used offensively, however, because it can potentially surprise its opponents by hitting reasonably hard with a Choice Specs or Life Orb set. Even though it may not have the best special movepool around, it does have moves such as Earth Power, Shadow Ball, and Sludge Bomb. Fidgit has a usable physical movepool, but its poor Attack stat makes it hard for Fidgit to take advantage of such options. It's highly recommended to steer away from using Fidgit offensively, though, as there are better Pokemon for the job and Fidgit has more important things to be doing.</p>
+
+<p>When it comes to additional support moves, Fidgit has a wide array of moves to choose from. Knock Off is useful in removing an important item from the foe, such as Tyranitar's Choice Band or Blissey's Leftovers. Safeguard can be used to protect Fidgit's team from status for several turns, but Fidgit is already immune to paralysis that comes from Electric-type attacks, poison, and sleep (assuming it has Vital Spirit). Fidgit can make good use of Whirlwind, being able to force the opponent to take damage from the entry hazards it has set up. Whirlwind also works well with Encore, as Fidgit can use Whirlwind once it forces the opponent out by Encore, racking up even more residual damage. Lastly, RestTalk Fidgit with Spikes and Toxic Spikes is a possibility, but is highly susceptible to being Taunted, so it is recommended to use at least one attacking option.<p>
+
+<p>Rain Dance and Sunny Day are viable options that Fidgit can run on the Field-Effect Supporter set. Since Fidgit packs a multitude of support options, fantastic typing, and a great stat spread, many rain and sun sweepers will enjoy having Fidgit aid them in their sweep. Sadly, Persistent doesn't increase the duration of Rain Dance or Sunny Day, meaning Fidgit will have to use Damp Rock or Heat Rock to set up eight turns of rain or sun, respectively.</p>
+
+<p>Torment is an interesting move Fidgit can put to use. Since it stops the opponent from selecting the same move twice, it can easily force the opposing Pokemon to switch out if they have been Encored. On top of that, Fidgit's defensive typing has a large number of resistances and immunities, it has an easier time setting up entry hazards, since the opponent may not have run two moves that hit Fidgit super effectively in their moveset at once. As a bonus, it can force switches from Choiced users as they are no longer capable of attacking twice with their selected attack.</p>
+
+<p>Block can potentially trap a Pokemon that doesn't harm Fidgit in any way and set up full layers of entry hazards. Not only can it trap the opposing Pokemon, but Fidgit can use it in tandem with Encore to further render the opponent unable to stop it accomplishing its goal.</p>
+
+<h2>CAP Metagame</h2>
+
+<h4>DPP</h4>
+
+<p>Fidgit's supporting capabilities, typing, and stat spread help it threaten many CAP Pokemon. Revenankh, Arghonaut, Kitsunoh, and Cyclohm are examples of CAP Pokemon that generally dislike being against Fidgit. With Revenankh's common movesets containing Rest and Bulk Up, it easily falls into the trap of Encore, forcing it to switch out and lose all of its gathered boosts. Arghonaut works in the same way as Revenankh because Fidgit can Encore Arghonaut's Recover, STAB Fighting-type attack, Substitute, and the occasionally seen Bulk Up. Fidgit's great physical bulk and access to Earth Power give it the ability to threaten almost all variations of Kitsunoh, only needing to watch out for Ice Punch. Lastly, Fidgit can fearlessly switch into Cyclohm's Thunderbolt or Slack Off and either use Encore or hit it for heavy damage right away with Earth Power. All of these forced switches Fidgit causes against the aforementioned Pokemon give it many opportunities to lay down more entry hazards.</p>
+
+<p>Colossoil, Stratagem, and Syclant are the three Pokemon Fidgit absolutely hates being put up against, mainly because Fidgit can't seriously threaten them. Colossoil's high base HP allows it to take Fidgit's Earth Power with ease and retaliate with a super effective Earthquake or dispose of any entry hazards Fidgit has set up with Rapid Spin. Stratagem with Levitate are immune to Earth Power and defeat Fidgit with their own Earth Power. Lastly, Syclant's STAB Ice-type attacks and resistance to Earth Power spell doom for Fidgit. Syclant can also set up Spikes should it predict Fidgit switching out.</p>
+
+<h2>Counters</h2>
+
+<h4>DPP</h4>
+
+<p>Fidgit is a very versatile Pokemon, but there exist several ways to cripple it. Taunt is a big issue for Fidgit because it will shut down nearly its entire moveset in most cases, forcing it to attack the opponent with a weak attack. Gyarados is a good example of a Taunt user that makes Fidgit completely useless, gaining a free Dragon Dance boost as Fidgit switches out. For Taunt users to deal with Fidgit leads, Aerodactyl and Azelf are excellent candidates, both of whom are immune to Earth Power and can set up Stealth Rock. Trick coming from the likes of Jirachi or Rotom-A is another common problem Fidgit encounters, as Fidgit with a Choice item hinders its ability to do its job and makes it easy set-up bait. One of the biggest issues Fidgit has is its lack of reliable recovery (Wish still isn't good enough), which generally results in Fidgit falling prey to repeated, powerful attacks.</p>

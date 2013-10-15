@@ -1,0 +1,1067 @@
+[title]
+屬性
+[head]
+<meta name="d​​escription" content="Types in traditional characters." />
+[head]
+<link rel="stylesheet" type="text/css" href="/media/dex/dex.css" />
+<link href="/media/smog/smog.css" type="text/css" rel="stylesheet" />
+
+[page]
+
+<table id="smogheader">
+<tr>
+<td class="middle"><a href="/cn/simp/types/">简体字</a></td>
+</tr>
+</table>
+
+<table class="dex_effectiveness_table">
+<thead>
+<tr>
+<td> </td>
+<th>蟲</th>
+<th>惡</th>
+<th>龍</th>
+<th>電</th>
+<th>格鬥</th>
+<th>炎</th>
+<th>飛行</th>
+<th>幽靈</th>
+<th>草</th>
+<th>地上</th>
+<th>冰</th>
+<th>一般</th>
+<th>毒</th>
+<th>超能力</th>
+<th>岩石</th>
+<th>鋼</th>
+<th>水</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<th><a href="/bw/types/bug">蟲</a></th>
+
+<td class="dex_mod1">
+1
+</td>
+
+<td class="dex_mod2">
+2
+</td>
+
+<td class="dex_mod1" >
+1
+</td>
+
+<td class="dex_mod1">
+1
+</td>
+
+<td class="dex_mod05">
+1/2
+</td>
+
+<td class="dex_mod05">
+1/2
+</td>
+
+<td class="dex_mod05">
+1/2
+</td>
+
+<td class="dex_mod05">
+1/2
+</td>
+
+<td class="dex_mod2">
+2
+</td>
+
+<td class="dex_mod1">
+1
+</td>
+
+<td class="dex_mod1">
+1
+</td>
+
+<td class="dex_mod1">
+1
+</td>
+
+<td class="dex_mod05">
+1/2
+</td>
+
+<td class="dex_mod2">
+2
+</td>
+
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod05">
+1/2
+</td>
+<td class="dex_mod1">
+1
+</td>
+</tr>
+
+<tr>
+<th><a href="/bw/types/dark">惡</a></th>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod05">
+1/2
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod05">
+1/2
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod2">
+2
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod2">
+2
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod05">
+1/2
+</td>
+<td class="dex_mod1">
+
+1
+</td>
+</tr>
+<tr>
+<th><a href="/bw/types/dragon">龍</a></th>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+
+1
+</td>
+<td class="dex_mod2">
+2
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod05">
+
+1/2
+</td>
+<td class="dex_mod1">
+1
+</td>
+</tr>
+<tr>
+<th><a href="/bw/types/electric">電</a></th>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod05">
+1/2
+</td>
+<td class="dex_mod05">
+1/2
+
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod2">
+2
+</td>
+<td class="dex_mod1">
+
+1
+</td>
+<td class="dex_mod05">
+1/2
+</td>
+<td class="dex_mod0">
+0
+</td>
+<td class="dex_mod1">
+1
+
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod2">
+2
+</td>
+</tr>
+<tr>
+
+<th><a href="/bw/types/fighting">格鬥</a></th>
+<td class="dex_mod05">
+1/2
+</td>
+<td class="dex_mod2">
+2
+</td>
+<td class="dex_mod1">
+1
+
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod05">
+
+1/2
+</td>
+<td class="dex_mod0">
+0
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+
+</td>
+<td class="dex_mod2">
+2
+</td>
+<td class="dex_mod2">
+2
+</td>
+<td class="dex_mod05">
+1/2
+</td>
+<td class="dex_mod05">
+
+1/2
+</td>
+<td class="dex_mod2">
+2
+</td>
+<td class="dex_mod2">
+2
+</td>
+<td class="dex_mod1">
+1
+
+</td>
+</tr>
+<tr>
+<th><a href="/bw/types/fire">炎</a></th>
+<td class="dex_mod2">
+2
+</td>
+<td class="dex_mod1">
+1
+
+</td>
+<td class="dex_mod05">
+1/2
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod05">
+
+1/2
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod2">
+2
+
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod2">
+2
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod05">
+1/2
+</td>
+<td class="dex_mod2">
+2
+
+</td>
+<td class="dex_mod05">
+1/2
+</td>
+</tr>
+<tr>
+<th><a href="/bw/types/flying">飛行</a></th>
+<td class="dex_mod2">
+2
+
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod05">
+1/2
+</td>
+<td class="dex_mod2">
+
+2
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+
+</td>
+<td class="dex_mod2">
+2
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod05">
+1/2
+
+</td>
+<td class="dex_mod05">
+1/2
+</td>
+<td class="dex_mod1">
+1
+</td>
+</tr>
+<tr>
+<th><a href="/bw/types/ghost">幽靈</a></th>
+
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod05">
+1/2
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+
+</td>
+<td class="dex_mod2">
+2
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+
+1
+</td>
+<td class="dex_mod0">
+0
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod2">
+2
+
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod05">
+1/2
+</td>
+<td class="dex_mod1">
+1
+</td>
+</tr>
+
+<tr>
+<th><a href="/bw/types/grass">草</a></th>
+<td class="dex_mod05">
+1/2
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod05">
+
+1/2
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod05">
+1/2
+
+</td>
+<td class="dex_mod05">
+1/2
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod05">
+1/2
+</td>
+<td class="dex_mod2">
+
+2
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod05">
+1/2
+
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod2">
+2
+</td>
+<td class="dex_mod05">
+1/2
+</td>
+<td class="dex_mod2">
+
+2
+</td>
+</tr>
+<tr>
+<th><a href="/bw/types/ground">​​地上</a></th>
+<td class="dex_mod05">
+1/2
+</td>
+<td class="dex_mod1">
+
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod2">
+2
+</td>
+<td class="dex_mod1">
+1
+
+</td>
+<td class="dex_mod2">
+2
+</td>
+<td class="dex_mod0">
+0
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod05">
+
+1/2
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+
+</td>
+<td class="dex_mod2">
+2
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod2">
+2
+</td>
+<td class="dex_mod2">
+
+2
+</td>
+<td class="dex_mod1">
+1
+</td>
+</tr>
+<tr>
+<th><a href="/bw/types/ice">冰</a></th>
+<td class="dex_mod1">
+
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod2">
+2
+</td>
+<td class="dex_mod1">
+1
+
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod05">
+1/2
+</td>
+<td class="dex_mod2">
+2
+</td>
+<td class="dex_mod1">
+
+1
+</td>
+<td class="dex_mod2">
+2
+</td>
+<td class="dex_mod2">
+2
+</td>
+<td class="dex_mod05">
+1/2
+
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+
+1
+</td>
+<td class="dex_mod05">
+1/2
+</td>
+<td class="dex_mod05">
+1/2
+</td>
+</tr>
+<tr>
+
+<th><a href="/bw/types/normal">一般</a></th>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+
+1
+</td>
+<td class="dex_mod0">
+0
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+
+1
+</td>
+<td class="dex_mod05">
+1/2
+</td>
+<td class="dex_mod05">
+1/2
+</td>
+<td class="dex_mod1">
+1
+
+</td>
+</tr>
+<tr>
+<th><a href="/bw/types/poison">毒</a></th>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod05">
+1/2
+</td>
+<td class="dex_mod2">
+2
+
+</td>
+<td class="dex_mod05">
+1/2
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod05">
+
+1/2
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod05">
+1/2
+</td>
+<td class="dex_mod0">
+0
+
+</td>
+<td class="dex_mod1">
+1
+</td>
+</tr>
+<tr>
+<th><a href="/bw/types/psychic">超能力</a></th>
+<td class="dex_mod1">
+1
+
+</td>
+<td class="dex_mod0">
+0
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod2">
+
+2
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+
+1
+</td>
+<td class="dex_mod2">
+2
+</td>
+<td class="dex_mod05">
+1/2
+</td>
+<td class="dex_mod1">
+1
+
+</td>
+<td class="dex_mod05">
+1/2
+</td>
+<td class="dex_mod1">
+1
+</td>
+</tr>
+<tr>
+<th><a href="/bw/types/rock">岩石</a></th>
+
+<td class="dex_mod2">
+2
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+
+1
+</td>
+<td class="dex_mod05">
+1/2
+</td>
+<td class="dex_mod2">
+2
+</td>
+<td class="dex_mod2">
+2
+
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod05">
+1/2
+</td>
+<td class="dex_mod2">
+
+2
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod05">
+1/2
+</td>
+<td class="dex_mod1">
+1
+</td>
+</tr>
+
+<tr>
+<th><a href="/bw/types/steel">鋼</a></th>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+
+1
+</td>
+<td class="dex_mod05">
+1/2
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod05">
+1/2
+
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+
+1
+</td>
+<td class="dex_mod2">
+2
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod2">
+2
+</td>
+<td class="dex_mod05">
+1/2
+</td>
+<td class="dex_mod05">
+
+1/2
+</td>
+</tr>
+<tr>
+<th><a href="/bw/types/water">水</a></th>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+
+1
+</td>
+<td class="dex_mod05">
+1/2
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+
+</td>
+<td class="dex_mod2">
+2
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod05">
+
+1/2
+</td>
+<td class="dex_mod2">
+2
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod1">
+1
+</td>
+<td class="dex_mod2">
+2
+</td>
+<td class="dex_mod1">
+
+1
+</td>
+<td class="dex_mod05">
+1/2
+</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</td>
+</tr>
+</table>
+
+<table id="smogfooter">
+<tr>
+<td class="middle"><a href="/cn/simp/types/">简体字</a></td>
+</tr>
+</table>

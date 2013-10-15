@@ -1,0 +1,286 @@
+[title]
+Technician Hidden Powers
+
+[head]
+<meta name="description" content="A guide to the different Technician-boosted Hidden Powers." />
+
+[page]
+<div class="author">By <a href="/forums/member.php?u=127">Toothache</a>.</div>
+
+<ol class="toc">
+<li><a href="#intro">Getting Started:</a></li>
+<li><a href="#hp">Hidden Power:</a>
+<ul>
+<li><a href="#hp_fire">Fire</a></li>
+<li><a href="#hp_water">Water</a></li>
+<li><a href="#hp_grass">Grass</a></li>
+<li><a href="#hp_electric">Electric</a></li>
+<li><a href="#hp_ice">Ice</a></li>
+<li><a href="#hp_fighting">Fighting</a></li>
+<li><a href="#hp_poison">Poison</a></li>
+<li><a href="#hp_ground">Ground</a></li>
+<li><a href="#hp_flying">Flying</a></li>
+<li><a href="#hp_psychic">Psychic</a></li>
+<li><a href="#hp_bug">Bug</a></li>
+<li><a href="#hp_rock">Rock</a></li>
+<li><a href="#hp_ghost">Ghost</a></li>
+<li><a href="#hp_dragon">Dragon</a></li>
+<li><a href="#hp_dark">Dark</a></li>
+<li><a href="#hp_steel">Steel</a></li>
+</ul>
+</li>
+</ol>
+
+<h2><a name="intro">Getting Started</a></h2>
+
+<p>One of the more interesting and useful abilities in Diamond and Pearl is Technician. This ability increases the power of all moves with a Base Power of 60 or less, increasing the damage by an extra 50%. Believe it or not, it also works on moves with variable powers, such as Natural Gift, Magnitude, and so on. This includes the move Hidden Power.
+</p>
+
+<p>To this end this list was created for those who wish to use a Hidden Power with Technician, getting a stronger base damage overall than it would normally reach (up to 90 Base Power after the Technician boost, much stronger than the 70 base maximum normally reached with Hidden Power).
+</p>
+
+<p>Sadly when making a Hidden Power of power strength 60, a lot of stats are reduced in order to accommodate a lower strength. In total, four of the six IVs are reduced to make a Power of exactly 60 strength. It would seem that using Technician in this way would not be worth the trade off.
+</p>
+
+<p>But if the power is reduced to 59, only one of the six IVs are affected. This unfortunately happens to be Special Attack, and since Hidden Power is based off Special Attack, it affects the base damage granted ever so slightly. Reducing the power to 59 however has two main advantages over a power of 60:
+</p>
+
+<h3>Maximum Speed:</h3>
+<p>This is especially important for those who wish to sweep with the Hidden Power. Technician raises the Base Power effectively to 89, not much different from other common special-based moves, such as Psychic (90 Base Power) and Ice Beam (95 Base Power), and since it's possible to sweep with a 70 Base Power move after a Nasty Plot or two, this is worth considering.
+</p>
+
+<h3>Better Defenses:</h3>
+<p>While Special Defense in the case of either 59 strength or 60 strength Hidden Power is not affected, the HP and Defense are affected. Using a 59 strength HP allows you to retain both maximum HP and Defense for that Hidden Power, giving you an extra edge in survivability. The difference is minimal, but those minimal changes are often crucial.
+</p>
+
+<p>Also consider that the two main special Technician users - Ambipom and Persian - also have access to Nasty Plot, so lowering the Special Attack by 2 will be negligible after the Special Attack is raised.
+</p>
+
+<p>Just a final thing to note, after checking what the Hidden Power strength would be if both SpA and Speed were maximized it turns out this lowers the Base Power to unusable levels, since it can only reach at best 49 Base Power even with Technician, you'd only get a marginal boost in damage (49 x 1.5 = 74) over the normal base damage of 70.
+</p>
+
+<h2><a name="hp">Hidden Power:</a></h2>
+
+<p>For those of you wishing to use a slower Speed for purposes of Trick Room, you can subtract 28 from the Speed to get the lowest possible number (so 31 Spe IV would go down to 3 Spe IV and keep the same HP strength, and so on).
+</p>
+
+<p>The IVs for the Hidden Power combinations are listed in this order: HP/Atk/Def/SpA/SpD/Spe.
+</p>
+
+<h3><a name="hp_fire">Fire</a></h3>
+
+<dl>
+<dt>59 Power</dt>
+<dd>31/30/31/28/31/30</dd>
+<dd>31/31/30/28/31/30</dd>
+<dd>30/30/31/28/31/30</dd>
+<dd>30/31/30/28/31/30</dd>
+
+<dt>60 Power</dt>
+<dd>29/28/29/30/31/28</dd>
+<dd>29/29/28/30/31/28</dd>
+<dd>28/28/29/30/31/28</dd>
+<dd>28/29/28/30/31/28</dd>
+</dl>
+
+<h3><a name="hp_water">Water</a></h3>
+
+<dl>
+<dt>59 Power</dt>
+<dd>31/31/31/28/31/30</dd>
+<dd>31/30/30/28/31/31</dd>
+<dd>30/31/31/28/31/30</dd>
+<dd>30/30/30/28/31/31</dd>
+
+<dt>60 Power</dt>
+<dd>29/29/29/30/31/28</dd>
+<dd>29/28/29/30/31/29</dd>
+<dd>28/29/29/30/31/28</dd>
+<dd>28/28/28/30/31/29</dd>
+</dl>
+
+<h3><a name="hp_grass">Grass</a></h3>
+
+<dl>
+<dt>59 Power</dt>
+<dd>31/30/31/28/31/31</dd>
+<dd>31/31/30/28/31/31</dd>
+<dd>30/31/31/28/31/31</dd>
+
+<dt>60 Power</dt>
+<dd>29/28/29/30/31/29</dd>
+<dd>29/29/28/30/31/29</dd>
+<dd>28/29/29/30/31/29</dd>
+</dl>
+
+<h3><a name="hp_electric">Electric</a></h3>
+
+<dl>
+<dt>59 Power</dt>
+<dd>31/31/31/28/31/31</dd>
+<dd>31/30/30/29/31/30</dd>
+<dd>30/31/30/29/31/30</dd>
+
+<dt>60 Power</dt>
+<dd>29/29/29/30/31/29</dd>
+<dd>29/28/28/31/31/28</dd>
+<dd>28/29/28/31/31/28</dd>
+</dl>
+
+<h3><a name="hp_ice">Ice</a></h3>
+
+<dl>
+<dt>59 Power</dt>
+<dd>31/30/30/29/31/31</dd>
+<dd>31/31/31/29/31/30</dd>
+<dd>30/30/30/29/31/31</dd>
+
+<dt>60 Power</dt>
+<dd>29/28/28/31/31/29</dd>
+<dd>29/29/29/31/31/28</dd>
+<dd>28/28/28/31/31/29</dd>
+</dl>
+
+<h3><a name="hp_fighting">Fighting</a></h3>
+
+<dl>
+<dt>59 Power</dt>
+<dd>31/31/30/28/30/30</dd>
+<dd>30/30/31/28/30/30</dd>
+<dd>30/31/30/28/30/30</dd>
+
+<dt>60 Power</dt>
+<dd>29/29/28/30/30/28</dd>
+<dd>28/28/29/30/30/28</dd>
+<dd>28/29/28/30/30/28</dd>
+</dl>
+
+<h3><a name="hp_poison">Poison</a></h3>
+
+<dl>
+<dt>59 Power</dt>
+<dd>31/31/30/28/30/31</dd>
+<dd>30/31/30/28/30/31</dd>
+
+<dt>60 Power</dt>
+<dd>29/29/28/30/30/29</dd>
+<dd>28/29/28/30/30/29</dd>
+</dl>
+
+<h3><a name="hp_ground">Ground</a></h3>
+
+<dl>
+<dt>59 Power</dt>
+<dd>31/31/31/28/30/31</dd>
+<dd>30/30/30/29/30/30</dd>
+
+<dt>60 Power</dt>
+<dd>29/29/29/30/30/29</dd>
+<dd>28/28/28/31/30/28</dd>
+</dl>
+
+<h3><a name="hp_flying">Flying</a></h3>
+
+<dl>
+<dt>59 Power</dt>
+<dd>31/31/31/30/30/30</dd>
+<dd>30/30/30/30/30/31</dd>
+
+<dt>60 Power</dt>
+<dd>29/29/29/30/30/28</dd>
+<dd>28/28/28/30/30/29</dd>
+</dl>
+
+<h3><a name="hp_psychic">Psychic</a></h3>
+
+<dl>
+<dt>59 Power</dt>
+<dd>31/30/31/29/31/30</dd>
+<dd>31/31/30/29/31/30</dd>
+<dd>30/31/31/29/31/30</dd>
+
+<dt>60 Power</dt>
+<dd>29/28/29/31/31/28</dd>
+<dd>29/29/28/31/31/28</dd>
+<dd>28/29/29/31/31/28</dd>
+</dl>
+
+<h3><a name="hp_bug">Bug</a></h3>
+
+<dl>
+<dt>59 Power</dt>
+<dd>31/31/31/29/30/30</dd>
+<dd>31/30/30/29/30/31</dd>
+<dd>30/31/31/29/30/30</dd>
+<dd>30/30/30/29/30/31</dd>
+
+<dt>60 Power</dt>
+<dd>29/29/29/31/30/28</dd>
+<dd>29/28/28/31/30/29</dd>
+<dd>28/29/29/31/30/28</dd>
+<dd>28/28/28/31/30/29</dd>
+</dl>
+
+<h3><a name="hp_rock">Rock</a></h3>
+
+<dl>
+<dt>59 Power</dt>
+<dd>31/31/30/29/30/30</dd>
+<dd>30/30/31/29/30/30</dd>
+
+<dt>60 Power</dt>
+<dd>29/29/28/31/30/28</dd>
+<dd>28/28/29/31/30/28</dd>
+</dl>
+
+<h3><a name="hp_ghost">Ghost</a></h3>
+
+<dl>
+<dt>59 Power</dt>
+<dd>31/31/30/29/30/31</dd>
+<dd>31/30/31/29/30/31</dd>
+<dd>30/31/30/29/30/31</dd>
+<dd>30/30/31/29/30/31</dd>
+
+<dt>60 Power</dt>
+<dd>29/29/28/31/30/29</dd>
+<dd>29/28/29/31/30/29</dd>
+<dd>28/29/28/31/30/29</dd>
+<dd>28/28/29/31/30/29</dd>
+</dl>
+
+<h3><a name="hp_dragon">Dragon</a></h3>
+
+<dl>
+<dt>59 Power</dt>
+<dd>31/30/31/29/31/31</dd>
+<dd>31/31/30/29/31/31</dd>
+<dd>30/31/31/29/31/31</dd>
+
+<dt>60 Power</dt>
+<dd>29/28/29/31/31/29</dd>
+<dd>29/29/28/31/31/29</dd>
+<dd>28/29/29/31/31/29</dd>
+</dl>
+
+<h3><a name="hp_dark">Dark</a></h3>
+
+<dl>
+<dt>59 Power</dt>
+<dd>31/31/31/29/31/31</dd>
+
+<dt>60 Power</dt>
+<dd>29/29/29/31/31/29</dd>
+</dl>
+
+<h3><a name="hp_steel">Steel</a></h3>
+
+<dl>
+<dt>59 Power</dt>
+<dd>31/31/31/29/30/31</dd>
+<dd>30/30/30/28/31/30</dd>
+
+<dt>60 Power</dt>
+<dd>29/29/29/31/30/29</dd>
+<dd>28/28/28/30/31/28</dd>
+</dl>

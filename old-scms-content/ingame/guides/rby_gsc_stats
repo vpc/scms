@@ -1,0 +1,735 @@
+[title]
+All About Stats, Training, and Breeding in RBY / GSC
+[head]
+<meta name="description" content="A guide on stats, training, and breeding in RBY/GSC by NixHex." />
+[page]
+<div class="author">by <a href="/forums/member.php?u=40064">NixHex</a>, with help from <a href="/forums/member.php?u=5304">ΩDonut</a> and <a href="/forums/member.php?u=29595">.Maguss.</a>.</div>
+
+<ol class="toc">
+  <li><a href="#howstatswork">How stats work in RBY / GSC</a>
+      <ul>
+      <li>Stat formulas for HP and all other stats</li>
+      <li>DVs
+          <ul>
+              <li><a href="#specialdv">The Special DV</a></li>
+              <li><a href="#hpdv">The HP DV</a></li>
+              <li><a href="#gender">Pokemon sexism: How DVs determine gender</a></li>
+              <li><a href="#shiny">Practical, not Pretty: How DVs determine shininess</a></li>
+              <li><a href="#hiddenpower">Hidden Power</a></li>
+              <li><a href="#marowak">Marowak / Thick Club</a></li>
+          </ul>
+      </li>
+      <li><a href="#statexp">Stat Exp. and how to obtain it.</a>
+          <ul>
+              <li><a href="#vitamins">Vitamins</a></li>
+              <li><a href="#pokerus">Pokérus</a></li>
+              <li><a href="#training">Stat Exp. Training</a></li>
+          </ul>
+      </li>
+      </ul>
+    </li>
+    <li><a href="#greatdvs">Like No One Ever Was: Obtaining Pokemon with great DVs</a>
+      <ul>
+          <li><a href="#softreset">Soft Resetting w/ Badge modifiers</a></li>
+          <li><a href="#breeding">Breeding Stat Mechanics</a></li>
+          <li><a href="#ditto">Ditto: The Perfect Parent</a></li>
+      </ul>
+    </li>
+</ol>
+
+<h2><a name="howstatswork">How Stats Work</a></h2>
+
+<p>Although the base stats in the first two generations have remained the same since their inception and although the maximum stats of an individual Pokemon are similar to those in later generations, the calculations involved are quite different. What we now call IVs are generally referred to in generations I and II as DVs, or diversification values. Similarly, an analog to EVs is used, called stat experience or stat exp., to determine the growth of a Pokemon's stats. Unlike the later generations, however, there is no cap on EVs and no natures to influence a Pokemon's stats.</p>
+
+<p>DVs range from 0 to 15, and stat exp. can reach up to 65535 in all stats of the same Pokemon. These numbers, along with the Pokemon's base stats and level, are used in the following stat formulae:</p>
+
+<pre>STAT = int(((BaseStat + DV)*2+StatPoint)*Level/100)+E
+
+where E = Level + 10 for HP
+E = 5 for any other stat.
+
+And StatPoint = int((SQRT(StatExp-1)+1)/4)</pre>
+
+<p>Hence, the Stat Exp. caps at 65025. Because the amount is rounded down during calculation, only 63002 are necessary.</p>
+
+<h3><a name="specialdv">The Special DV</a></h3>
+
+<p>Although the Special stat in RBY was split into Special Attack and Special Defense in GSC, they still hold a special bond in regards to their DVs. In order to keep reverse compatibility with RBY, Special Attack and Special Defense actually share the same DV. For instance, a flawless Pokemon caught or bred in GSC will remain flawless when it is traded back to RBY.</p>
+
+<h3><a name="hpdv">The HP DV</a></h3>
+
+<p>Not to be outdone, the HP stat undergoes some quirks. In the Pokemon's data structure, only four DVs are stored: Attack, Defense, Speed, and Special. The HP DV is determined by the last bit of each of these four DVs. An odd Attack DV adds 8, Defense adds 4, Speed adds 2, and Special adds 1. For example, a Lugia with the DVs 5 Atk, 15 Def, 13 Spe, and 13 Spc will have the following HP:</p>
+
+<p>Attack = Odd, HP += 8<br />
+Defense = Odd, HP += 4<br />
+Speed = Odd, HP += 2<br />
+Special = Odd, HP += 1<br />
+resulting in an HP stat of 15.</p>
+
+<p>On the other hand, a Dragonite with 15 Atk, 3 Def, 10 Spe, and 11 Spc will have 8 + 4 + 0 + 1, or 13 HP.</p>
+
+<h3><a name="gender">Pokemon Sexism</a></h3>
+
+<p>A Pokemon's gender is determined quite differently in GSC than in the later generations: it is determined by the Pokemon's Attack DV alone rather than by a PID. This relationship is determined by the Pokemon's gender ratio, listed as follows:</p>
+
+<table class="sortable">
+  <thead>
+    <tr>
+      <th>Female:Male Gender Ratio</th>
+      <th>Female Attack IV range</th>
+    </tr>
+  </thead>
+   <tbody>
+     <tr>
+       <td>1:7</td>
+       <td>0,1</td>
+     </tr>
+     <tr class="a">
+       <td>1:3</td>
+       <td>0-4</td>
+     </tr>
+     <tr>
+       <td>1:1</td>
+       <td>0-6</td>
+     </tr>
+     <tr class="a">
+       <td>3:1</td>
+       <td>0-11</td>
+     </tr>
+     <tr>
+       <td>All Female / Genderless</td>
+       <td>0-15</td>
+     </tr>
+    </tbody>
+</table>
+
+<p>Therefore, a female Eevee, who is in the 1:7 group, cannot have an Attack IV above 1; a female Pidgey, being of the 1:1 gender ratio, cannot have an Attack DV above 6; a Nidoqueen, being all female, can have up to 15 Attack. Since gender is determined by the Pokemon's DVs, a Pokemon traded from RBY to GSC will have the correct gender based on the above ratios.</p>
+
+<h3><a name="shiny">Practicality over Beauty</a></h3>
+
+<p>In generations after GSC, shininess is a highly desired trait among competitive players and collectors. However, in GSC, shininess is the sign of an uncompetitive Pokemon. This is due to its direct relationship to IVs. The following criteria must be satisfied to make a Pokemon shiny:</p>
+
+<ol>
+  <li>Its Attack DV must be equal to 2, 3, 6, 7, 10, 11, 14, or 15</li>
+  <li>Its Defense, Speed, and Special DV <em>must</em>be equal to 10.</li>
+</ol>
+
+<p>One point of interest is that a shiny female with a 1M:7F ratio, such as Eevee and its evolutions, cannot exist, since the required Attack IV for shiny Pokemon lies outside of the range for the gender range. The probability of a Pokemon is therefore calculated as follows:</p>
+
+<p>P(shiny) = P(Atk)P(Def)P(Spe)P(Spc) = 1/2 x 1/16 x 1/16 x 1/16, or 1/8192, which is equivalent to the probability in later generations. Similarly to gender, a Pokemon caught in RBY that satisfies the above criteria will be shiny upon being traded to GSC.</p>
+
+<h3><a name="hiddenpower">Hidden Power</a></h3>
+
+<p>Hidden Power was introduced in GSC to serve as an emergency coverage move—or even an emergency STAB in some cases—should a Pokemon's movepool be sparse. As in future generations, a Hidden Power's type and Base Power depend on the Pokemon's DVs. Its Base Power is determined by the following formula:</p>
+
+<pre>Base Power = floor(((5 × X + Y) ÷ 2) + 31)</pre>
+
+<p>To find X, consider the Pokemon's DVs in the order of Attack, Defense, Speed, and Special. Each DV will influence 4-bit number, represented in binary. If the DV is 7 or less, its corresponding bit is 0; otherwise, it is 1. For example, a Pokemon with 14 Atk / 15 Def / 13 Spe / 6 Spc will have the value X = 1110, or in decimal, 14.</p>
+
+<p>Y is equal to the last two bits of the Special DV. In other words:</p>
+
+<p>Y = 0 if the Special DV is 0, 4, 8 or 12<br />
+Y = 1 if the Special DV is 1, 5, 9 or 13<br />
+Y = 2 if the Special DV is 2, 6, 10 or 14<br />
+Y = 3 if the Special DV is 3, 7, 11 or 15 </p>
+
+<p>In this case, since the Special DV is 6, y is equal to 2.</p>
+
+<p>Plugging these values into the above Base Power equation yields:</p>
+
+<pre>Base Power = floor((5 x 14 + 3) ÷ 2 + 31) = floor(67.5) = 67</pre>
+
+<p>The type of Hidden Power is determined by the Pokemon's Attack and Defense DVs. Convert them to binary, take the last two bits of each number, and place them side by side. This is called the Type Value, which determines the type based on the following table:</p>
+
+<table class="sortable">
+  <thead>
+    <tr>
+      <th>Binary Number</th>
+      <th>Type</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0000</td>
+      <td>Fighting</td>
+    </tr>
+    <tr class="a">
+      <td>0001</td>
+      <td>Flying</td>
+    </tr>
+    <tr>
+      <td>0010</td>
+      <td>Poison</td>
+    </tr>
+    <tr class="a">
+      <td>0011</td>
+      <td>Ground</td>
+    </tr>
+    <tr>
+      <td>0100</td>
+      <td>Rock</td>
+    </tr>
+    <tr class="a">
+      <td>0110</td>
+      <td>Ghost</td>
+    </tr>
+    <tr>
+      <td>0111</td>
+      <td>Steel</td>
+    </tr>
+    <tr class="a">
+      <td>1000</td>
+      <td>Fire</td>
+    </tr>
+    <tr>
+      <td>1001</td>
+      <td>Water</td>
+    </tr>
+    <tr class="a">
+      <td>1010</td>
+      <td>Grass</td>
+    </tr>
+    <tr>
+      <td>1011</td>
+      <td>Electric</td>
+    </tr>
+    <tr class="a">
+      <td>1100</td>
+      <td>Psychic</td>
+    </tr>
+    <tr>
+      <td>1101</td>
+      <td>Ice</td>
+    </tr>
+    <tr class="a">
+      <td>1110</td>
+      <td>Dragon</td>
+    </tr>
+    <tr>
+      <td>1111</td>
+      <td>Dark</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Continuing from the example above:</p>
+
+<p>Attack: 14 / 11<strong>10</strong>
+Defense: 15 / <strong>1111</strong>
+Type Value = 1011</p>
+
+<p>The type value corresponds to Electric. Therefore, the Hidden Power of this Pokemon is 67, Electric.</p>
+
+<h3><a name="marowak">Marowak and Thick Club</a></h3>
+
+<p>When GSC hit the scene, Game Freak granted one of its most intimidating but underpowered Pokemon, Marowak, the Thick Club, which doubles its Attack stat during battle. With the Thick Club attached, Marowak reaches an astounding 516 Attack. One of Marowak's most potent strategies is simply to boost with Swords Dance and sweep. In theory, Marowak could reach an Attack stat of 1032. However, the maximum Attack stat allowed in GSC is 999, but the game can read the amount up to 1024. Because of this, the Attack stat would roll over to 8. To rectify this, Marowak can use an Attack DV of 13, which will allow it to have 996 Attack after a Swords Dance.</p>
+
+<h2><a name="statexp">Stat Exp. and How to Obtain It</a></h2>
+
+<p>As in future generations, Stat Exp. is gained upon the defeat of an opposing Pokemon. The amount by which it increases is equal to the opposing Pokemon's base stats. As with the DVs, the Special Stat Exp. increases based on the Pokemon's base Special Attack. Thus, defeating a Golbat grants 75 HP, 80 Attack, 70 Defense, 65 Special, and 90 Speed. Due to the nature of how Stat Exp. is gained and the fact that there is no cap, training is a bit different than in later generations; you are allowed quite a bit more leniency because you benefit from every battle</p>
+
+<h3><a name="vitamins">Vitamins</a></h3>
+
+<p>Vitamins are some of the most useful items in Pokemon. In RBY and GSC, the vitamins add 2560 Stat Exp. to its particular stat, but cannot boost it beyond 25600 (hence, a maximum of 10 can be used in each stat). The vitamins can be purchased at the Celadon Dept. Store in RBY and the Goldenrod Dept. Store in GSC, for 9,800 Poké Dollars, and are listed as follows:</p>
+
+<table class="sortable">
+  <thead>
+    <tr>
+      <th>Vitamin</th>
+      <th>Stat Boosted</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HP Up</td>
+      <td>HP</td>
+    </tr>
+    <tr class="a">
+      <td>Protein</td>
+      <td>Attack</td>
+    </tr>
+    <tr>
+      <td>Iron</td>
+      <td>Defense</td>
+    </tr>
+    <tr class="a">
+      <td>Calcium</td>
+      <td>Special</td>
+    </tr>
+    <tr>
+      <td>Carbos</td>
+      <td>Speed</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3><a name="pokerus">Pokérus</a></h3>
+
+<p>In GSC and later generations, the Pokérus is a virus that exists solely to help you in Stat Exp. training. A Pokemon that has been infected with the Pokérus virus will gain twice the normal value of Stat Exp. from a battle. For instance, in the example listed above, the wild Golbat would instead grant your Pokemon 150 HP, 160 Attack, 140 Defense, 130 Special, and 180 Speed if your Pokemon was infected with the virus. Unfortunately, the virus is extremely rare; the probability of contracting the virus from fighting a wild Pokemon is 3:65536, less than that of obtaining a wild shiny Pokemon. Once you have obtained it, the host Pokemon can carry it for any time between 1 and 4 days, depending on the strand number (which is outside of the scope of this article). When the game's clock reaches midnight, the Pokérus counter decreases; when it reaches 0, the host is cured of the Pokerus. It still gains the benefit of doubling the Stat Exp. gained each battle, but you are unable to infect other Pokemon. To preserve the Pokérus, you may deposit the host in your PC, where it is no longer affected by the clock. As long as the host is in the PC when the clock reaches midnight, it will keep the Pokérus indefinitely. This technique is highly recommended so that you can infect multiple Pokemon in the future.</p>
+
+<h3><a name="training">Stat Exp. Training</a></h3>
+
+<p>Training for Stat Exp. in GSC is a grueling task, but with patience and a lot of time, it is very much possible. First, give Vitamins to the Pokemon you wish to train until you receive the message "It won't have any effect." This should take 10 or fewer Vitamins. Now, you must find a good place to train your Pokemon. Ideally, you sould find a place with only one wild Pokemon so you can easily keep track of your stats. To make the process even easier, you need to choose a Pokemon that is weak enough to be OHKOed by your Pokemon. Ruins of Alph satisfies this requirement; only Unown are to be found, and they are so pathetically weak and slow that your Pokemon should be able to OHKO them every turn. Recall that Unown's base stats are 48 HP / 72 Atk / 48 Def / 72 Spc / 48 Spe. These numbers are very low, but remember, this area is ideal for its ease of use. Finally, find out how many grueling battles you will need to plow through to maximize your Pokemon's Stat Exp. The remaining Stat Exp. you need is 63504 - 25600, or 37904. Hence, the amount of Unown you must face are:</p>
+
+<p>HP, Def, Spe: 37904 / 48 = 790 battles<br />
+Atk, Spc: 37904 / 72 = 527 battles</p>
+
+<p>Say that the Pokemon that you are raising has two attacking moves with 15 PP each. This allows you to defeat 30 Unown before you have to go back to the Pokemon Center to restore the Pokémon's PP. To put this into perspective, you will need to travel to Ruins of Alph 27 times for HP, Defense, and Speed, and 18 times for Attack and Special for each Pokemon you train.</p>
+
+<h2><a name="greatdvs">Like No One Ever Was: Obtaining Pokemon with Great DVs</a></h2>
+
+<p>As a trainer and competitor, you desire Pokemon that will work at their maximum potential. A Pokemon with maximum stats will obviously perform better than one without maximum stats. This means that ideally, your Pokemon will have 63504 Stat Exp. and 15 DVs in every stat. So far, you have learned how to manipulate a Pokemon's Stat Exp., but DVs are a completely different story. DVs, unlike raw stats, are not visible to the player, and unlike Stat Exp., cannot be modified by the player. You must, therefore, obtain Pokemon with ideal DVs before doing any training. In later generations, RNG manipulation allows you to predict what IVs a Pokemon will receive and aim for the most ideal spread possible. Unfortunately, any theorized form of RNG abuse in RBY and GSC is completely impractical, so soft resetting is actually the optimal method.</p>
+
+<h3><a name="softreset">Soft Resetting for Speed</a></h3>
+
+<p>Unless you are stacked with Master Balls, soft resetting requires hours of capturing Pokemon with undesirable DVs, hoping that the next catch will be better. Speed resetting is a technique formerly used in later generations that was made obsolete by RNG abuse, but remains useful here. With this method, you will attempt to predict the Speed DV of a stationary Pokemon by using a Pokemon that will only be slower than the stationary Pokemon at the stationary Pokemon's highest possible Speed stat. Say, for example, that you want to capture Ho-oh at the Tin Tower in Pokemon Silver. Ho-Oh comes at level 70; here are its possible stats for high Speed DVs:</p>
+
+<table class="sortable">
+  <thead>
+    <tr>
+      <th>DV</th>
+      <th>Stat</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>15</td>
+      <td>152</td>
+    </tr>
+    <tr class="a">
+      <td>14</td>
+      <td>150</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>149</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>You want Ho-Oh only to outspeed your Pokemon at its maximum Speed possible. Now, raise a Pokemon with a Speed stat of 151. Put it at the front of your party, save your game before Ho-Oh, then attempt to attack it. If your Pokemon moves before Ho-Oh, its Speed is definitely not 152. In a certain scenario, where the difference between 15 DVs and 14 DVs results in two adjacent Speed stat values, you will have to keep attacking and make sure that the stationary Pokémon never moves second, because there may be a Speed tie.</p>
+
+<p>There is one hitch, however. In RBY and GSC, the Speed stat of your Pokemon is modified by what is called a Badge modifier. If you have obtained the Thunder Badge in RBY or the Plain Badge in GSC, the Speed of your Pokemon in-game is boosted by 9/8. Hence, you must actually have a Speed stat that, when multiplied by 9/8 and rounded down, is equal to 177. This can be calculated as follows:</p>
+
+<pre>Actual Speed = ceil(8/9 x Desired Stat), = ceil(134.222) = 135</pre>
+
+<p>To verify this, we see that 135 * 9/8 = 151.875 = 151</p>
+
+<p>The minimum and maximum stats of available legendary Pokemon, as well as the required Badge modifier Speed, are listed below by version.Note that it is impossible for any Badge modifier to result in a Speed stat that ends with a 9. Therefore, if a Pokemon's maximum Speed is divisible by 10 (meaning it ends with a 0), you will have to aim for the next best thing: a stat that ends with an 8. Unfortunately, this widens the margin of error, so a Pokemon that outspeeds yours is not guaranteed to have 15 DVs.</p>
+
+<h4>Gold Version</h4>
+
+<p><strong>Ho-Oh</strong></p>
+
+<p>After receiving the Rainbow Wing, climb to the top of the Tin Tower in Ecruteak City where you will face Ho-Oh. In Gold Version, Ho-Oh is found at level 40 and has the following stats:</p>
+
+<table class="sortable">
+  <thead>
+    <tr>
+      <th>Stat</th>
+      <th>Min</th>
+      <th>Max</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HP</td>
+      <td>134</td>
+      <td>146</td>
+    </tr>
+    <tr class="a">
+      <td>Atk</td>
+      <td>109</td>
+      <td>121</td>
+    </tr>
+    <tr>
+      <td>Def</td>
+      <td>77</td>
+      <td>89</td>
+    </tr>
+    <tr class="a">
+      <td>SpA</td>
+      <td>93</td>
+      <td>105</td>
+    </tr>
+    <tr>
+      <td>SpD</td>
+      <td>128</td>
+      <td>140</td>
+    </tr>
+    <tr class="a">
+      <td>Spe</td>
+      <td>77</td>
+      <td>89 (79)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Lugia</strong></p>
+
+<p>After receiving the Silver Wing, head over to the Whirl Islands between Cianwood and Olivine and face Lugia at the bottom floor. In Gold Version, Lugia is found at level 70 and has the following stats:</p>
+
+<table class="sortable">
+  <thead>
+    <tr>
+      <th>Stat</th>
+      <th>Min</th>
+      <th>Max</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HP</td>
+      <td>228</td>
+      <td>249</td>
+    </tr>
+    <tr class="a">
+      <td>Atk</td>
+      <td>131</td>
+      <td>152</td>
+    </tr>
+    <tr>
+      <td>Def</td>
+      <td>187</td>
+      <td>208</td>
+    </tr>
+    <tr class="a">
+      <td>SpA</td>
+      <td>131</td>
+      <td>152</td>
+    </tr>
+    <tr>
+      <td>SpD</td>
+      <td>220</td>
+      <td>241</td>
+    </tr>
+    <tr class="a">
+      <td>Spe</td>
+      <td>159</td>
+      <td>180 (159)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4>Silver Version</h4>
+
+<p><strong>Lugia</strong></p>
+
+<p>After receiving the Silver Wing, head over to the Whirl Islands between Cianwood and Olivine and face Lugia at the bottom floor. In Silver Version, Lugia is found at level 40 and has the following stats:</p>
+
+<table class="sortable">
+  <thead>
+    <tr>
+      <th>Stat</th>
+      <th>Min</th>
+      <th>Max</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HP</td>
+      <td>134</td>
+      <td>146</td>
+    </tr>
+    <tr class="a">
+      <td>Atk</td>
+      <td>77</td>
+      <td>89</td>
+    </tr>
+    <tr>
+      <td>Def</td>
+      <td>109</td>
+      <td>121</td>
+    </tr>
+    <tr class="a">
+      <td>SpA</td>
+      <td>77</td>
+      <td>89</td>
+    </tr>
+    <tr>
+      <td>SpD</td>
+      <td>128</td>
+      <td>140</td>
+    </tr>
+    <tr class="a">
+      <td>Spe</td>
+      <td>93</td>
+      <td>105 (93)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Ho-Oh</strong></p>
+
+<p>After receiving the Rainbow Wing, climb to the top of the Tin Tower in Ecruteak City where you will face Ho-Oh. In Silver Version, Ho-Oh is found at level 70 and has the following stats:</p>
+
+<table class="sortable">
+  <thead>
+    <tr>
+      <th>Stat</th>
+      <th>Min</th>
+      <th>Max</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HP</td>
+      <td>228</td>
+      <td>249</td>
+    </tr>
+    <tr class="a">
+      <td>Atk</td>
+      <td>187</td>
+      <td>208</td>
+    </tr>
+    <tr>
+      <td>Def</td>
+      <td>131</td>
+      <td>151</td>
+    </tr>
+    <tr class="a">
+      <td>SpA</td>
+      <td>159</td>
+      <td>180</td>
+    </tr>
+    <tr>
+      <td>SpD</td>
+      <td>220</td>
+      <td>241</td>
+    </tr>
+    <tr class="a">
+      <td>Spe</td>
+      <td>131</td>
+      <td>152 (135)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4>Crystal Version</h4>
+
+<p><strong>Ho-Oh</strong></p>
+
+<p>After capturing Suicune, Raikou, and Entei, head to the Tin Tower in Ecruteak. The three sages will give you the Rainbow Wing. Climb to the top of the Tin Tower to encounter Ho-Oh. In Crystal Version, Ho-Oh is found at level 60 and has the following stats:</p>
+
+<table class="sortable">
+  <thead>
+    <tr>
+      <th>Stat</th>
+      <th>Min</th>
+      <th>Max</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HP</td>
+      <td>197</td>
+      <td>215</td>
+    </tr>
+    <tr class="a">
+      <td>Atk</td>
+      <td>161</td>
+      <td>179</td>
+    </tr>
+    <tr>
+      <td>Def</td>
+      <td>113</td>
+      <td>131</td>
+    </tr>
+    <tr class="a">
+      <td>SpA</td>
+      <td>137</td>
+      <td>155</td>
+    </tr>
+    <tr>
+      <td>SpD</td>
+      <td>189</td>
+      <td>207</td>
+    </tr>
+    <tr class="a">
+      <td>Spe</td>
+      <td>113</td>
+      <td>131 (93)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Lugia</strong></p>
+
+<p>After receiving the Silver Wing, head over to the Whirl Islands between Cianwood and Olivine and face Lugia at the bottom floor. In Crystal Version, Lugia is found at level 60 and has the following stats:</p>
+
+<table class="sortable">
+  <thead>
+    <tr>
+      <th>Stat</th>
+      <th>Min</th>
+      <th>Max</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HP</td>
+      <td>197</td>
+      <td>215</td>
+    </tr>
+    <tr class="a">
+      <td>Atk</td>
+      <td>113</td>
+      <td>131</td>
+    </tr>
+    <tr>
+      <td>Def</td>
+      <td>131</td>
+      <td>151</td>
+    </tr>
+    <tr class="a">
+      <td>SpA</td>
+      <td>113</td>
+      <td>180</td>
+    </tr>
+    <tr>
+      <td>SpD</td>
+      <td>189</td>
+      <td>207</td>
+    </tr>
+    <tr class="a">
+      <td>Spe</td>
+      <td>137</td>
+      <td>155 (137)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Suicune</strong></p>
+
+<p>After receiving the Clear Bell from the Radio Director in Goldenrod, head to the Tin Tower where you will encounter Suicune upon entry. Remember to save right outside of the Tin Tower. In Crystal Version, Suicune is found at level 40 and has the following stats:</p>
+
+<table class="sortable">
+  <thead>
+    <tr>
+      <th>Stat</th>
+      <th>Min</th>
+      <th>Max</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HP</td>
+      <td>130</td>
+      <td>142</td>
+    </tr>
+    <tr class="a">
+      <td>Atk</td>
+      <td>65</td>
+      <td>77</td>
+    </tr>
+    <tr>
+      <td>Def</td>
+      <td>97</td>
+      <td>109</td>
+    </tr>
+    <tr class="a">
+      <td>SpA</td>
+      <td>77</td>
+      <td>89</td>
+    </tr>
+    <tr>
+      <td>SpD</td>
+      <td>97</td>
+      <td>109</td>
+    </tr>
+    <tr class="a">
+      <td>Spe</td>
+      <td>73</td>
+      <td>85 (75)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3><a name="breeding">Breeding Stat Mechanics</a></h3>
+
+<p>In GSC, breeding is quite different than in later generations because the baby inherits certain DVs from the parent of the opposite gender, or Ditto if it is used. Note that a Ditto with desired Defense and Special DVs should always be used, because the baby will always inherit these DVs from it. DV inheritance is outlined as follows:</p>
+
+<p>Attack: Generated completely at random, independent of the parents.<br />
+Defense: Always inherited from the relevant parent.<br />
+Special: Inherited from the relevant parent 50% of the time. If it is not inherited, the DV generated is the parent's Special stat +-8 (minus if the parent's DV is between 8 and 15, and otherwiseplus).<br />
+Speed: Generated completely at random, independent of the parents.<br />
+HP: As always, is generated from the formula described earlier in the article.</p>
+
+<p>As an example, consider breeding a Ditto with 13 DVs in Defense and 15 DVs in Special with a physical attacker such as Cubone. Let's say we are aiming for a Cubone with 13 DVs in Attack and Defense to receive Hidden Power Bug, as explained above.</p>
+
+<p>Ditto's DVs:<br />
+Attack: (Irrelevant)<br />
+Defense: 13<br />
+Special: 15<br />
+Speed: (Irrelevant)</p>
+
+<p>The baby Cubone will hatch with the following DVs:<br />
+Attack: X<br />
+Defense: 13<br />
+Special: 7 or 15<br />
+Speed: Y</p>
+
+<p>Where X and Y are randomly generated. The probability of receiving an ideal Cubone is:</p>
+
+<pre>P = P(Y = 15) x P(X = 13) x P(Special = 15) = 1/16 x 1/16 x 1/2 = 1/512</pre>
+
+<p>Because all of the DVs in this scenario are odd, the HP DV is guaranteed to be 15.</p>
+
+<p>Now, consider a Ditto bred with a pure special attacker such as Alakazam. We desire an Alakazam with flawless stats in everything but Attack, which we only need to be odd for maximum HP.</p>
+
+<p>Ditto's DVs:<br />
+Attack: (Irrelevant)<br />
+Defense: 15<br />
+Special: 7 or 15<br />
+Speed: (Irrelevant)</p>
+
+<p>The baby Abra will hatch with the following DVs:<br />
+Attack: X<br />
+Defense: 15<br />
+Special: 7 or 15<br />
+Speed: Y</p>
+
+<p>Where X and Y are randomly generated. We desire a Speed DV of 15 and a flawless HP DV. The latter requires the Attack DV to be odd. The probability of receiving an ideal Abra is:</p>
+
+<pre>P = P(Y = 15) x P(X = Odd) x P(Special = 15) = 1/16 x 1/2 x 1/2 = 1/64</pre>
+
+<p>As you can see, the probability of receiving an ideal special attacker is much higher than that of a mixed or physical attacker, because a mixed or physical attacker must also have a perfect Attack DV.</p>
+
+<h3><a name="ditto">Ditto: The Perfect Parent</a></h3>
+
+<p>Ditto is an ideal parent because the baby Pokemon will always inherit DVs from Ditto, regardless of its gender. All we need is a Ditto with ideal Defense and Special DVs. In Alakazam's case, its Defense DV must be equal to 15, and its Special DV must be equal to 15 or 7. In Pokémon Yellow, head to Cerulean Cave with a Pokemon at level 60 in the front of your party. Use a Max Repel and you will almost always encounter Ditto. The probability that a captured Ditto will have this combination is 1/128. The IVs are easy to check since Ditto's base stats are equal:</p>
+
+<table class="sortable">
+  <thead>
+    <tr>
+      <th>Stat</th>
+      <th>DV</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>80</td>
+      <td>15</td>
+    </tr>
+    <tr class="a">
+      <td>79</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <td>78</td>
+      <td>13</td>
+    </tr>
+    <tr class="a">
+      <td>77</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <td>74</td>
+      <td>10</td>
+    </tr>
+    <tr class="a">
+      <td>71</td>
+      <td>7</td>
+    </tr>
+  </tbody>
+</table>

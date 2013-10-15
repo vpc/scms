@@ -1,0 +1,55 @@
+[title]
+BW RNG Manipulation Guide Part 7 - Catching Perfect Roaming Pokemon
+[head]
+<meta name="description" content="Catching Perfect Roaming Pokemon" />
+[page]
+<div class="author">By <a href="/forums/member.php?u=32572">Kaphotics</a>.</div>
+
+
+<ul class="toc">
+<li><a href="bw_rng_intro">The BW RNG Manipulation Guide</a></li>
+<li><a href="bw_rng_part1">BW RNG Manipulation Guide Part 1 - Common Information for Breeding, Capturing, and Receiving Perfect Pokemon</a></li> 
+<li><a href="bw_rng_part2">BW RNG Manipulation Guide Part 2 - How to RNG a Perfect Pokemon</a></li>
+<li><a href="bw_rng_part3">BW RNG Manipulation Guide Part 3 - How to Capture Perfect and / or Shiny Pokemon by Controlling the PIDRNG</a></li>
+<li><a href="bw_rng_part4">BW RNG Manipulation Guide Part 4 - How to Abuse your IDs</a></li> 
+<li><a href="bw_rng_part5">BW RNG Manipulation Guide Part 5 - How to Hatch Shiny (and Perfect) Pokemon</a></li> 
+<li><a href="bw_rng_part6">BW RNG Manipulation Guide Part 6 - Receiving Perfect Wondercard Pokemon</a></li>
+<li><a href="bw_rng_part7">BW RNG Manipulation Guide Part 7 - Catching Perfect Roaming Pokemon</a></li>
+<ul>
+<li><a href="#finding">Finding Roaming Pokemon Seeds</a></li>
+<li><a href="#getting">Getting your Desired Roamer</a></li>
+</ul>
+</li>
+</ul> 
+
+<p>Manipulating the roamer you get is hands down the most difficult type of Standard Seed abuse. This is because the ambient weather advances the PIDRNG, and you are unable to prevent this advancement. This results in an unpredictable starting frame, so it will require a fair amount of attempts to home in on your target. There is no reliable way to abuse the Roamer that you revive by beating the Elite Four; therefore you must not have released it previously.</p>
+
+<h2><a name="finding">Finding Roaming Pokemon Seeds</a></h2> 
+
+<p>When looking for a usable seed in Time Finder's Capture Tab, select Method 5 (Standard Seed) and select the Roaming Pokemon as your encounter method. Set your min / max frame to 1 so that you'll only need to do PIDRNG advances. If you're looking for a shiny, set max shiny frame to 1000, because you will need to find a frame at or above 650. Enter your desired IVs and generate results.</p>
+
+<p><img src="/media/ingame/images/ingame_bwrng_tfroam.png" alt="" /></p>
+
+<p>If you intend to RNG a shiny roamer, consider ID / SID abuse if you can't easily find a usable shiny seed. This requires you to have a Roaming PID frame that you want to make shiny. You will need to RNG your IDs with Pandora's Box, while making sure that the frame you chose will give you shiny IDs.</p>
+
+<p>The rain that the roamer summons advances the PIDRNG frame at a rate of approximately 60 frames per second. Snow advances it more slowly, but it still advances your PIDRNG frame. There are also Wandering NPCs on Route 7, so the advancement is pretty erratic. Before saving in the house, check if there's weather outside on that date. Summer (February, June, October) doesn't have any weather, so you might want to search for those months. It is recommended to find a seed with a target frame of 650 or above. Encounter any season change screen before you reach the house, otherwise this will mess with the consistency of your results.</p>
+
+<p>Now that you are ready, save inside the house.</p>
+
+<h2><a name="getting">Getting your Desired Roamer</a></h2> 
+
+<p>To find what frame you are initially on, hit your seed and go outside. Mash the A button until you regain control of your character. Go and catch the roamer, verify the IVs and find the nature. If you are able to find the characteristic of your roamer (via RNG Reporter or the PID%6 method), it should help narrow down the possible frames you hit.</p>
+
+<p>If you have not yet found what frame you start on, hit your seed again and do 10 Chatot calls, and see what you get. Repeat this step, adding Chatot calls in increments of 10 so that you can find your Shifted Starting Frame. Depending on the season and if there is weather already present, you will have different Shifted Starting Frames.</p>
+
+<ul class="toc">
+<li>No Weather Present: 550-750</li>
+<li>Rain Present: 1500-1900</li>
+<li>Snow Present (Winter Only): 260-300</li>
+</ul>
+
+<p>You may need to check outside of these ranges, however these are the most common.</p>
+
+<p>Once you have found your Shifted Starting Frame, you can now determine how many advances you need to hit your Target Frame. Hit your seed and do your advances. Catch the roamer and adjust your advances as necessary. If you are trying to RNG your roamer shiny, it will appear shiny in your Pok&eacute;Dex only if you succeeded.</p>
+
+<p><img src="/media/ingame/images/ingame_bwrng_sroam.png" alt="" /></p>

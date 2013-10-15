@@ -1,0 +1,174 @@
+[title]
+Designing and Hosting a Mafia Game
+[head]
+<link href="/media/smog/smog.css" type="text/css" rel="stylesheet" />
+[page]
+<div class="author"> By <a href="/forums/member.php?u=273">Mekkah</a>.</div>
+<table id="smogheader">
+<tr>
+<td class="left"><a href="cookie_tips">&laquo; Previous Article</a></td>
+<td class="middle"><a href="/smog/issue8/">Home</a></td>
+<td class="right"><a href="mops_musings">Next Article &raquo;</a></td>
+</tr>
+</table>
+ 
+<p>Ever played a game of mafia and suddenly wanted to host your own? Perhaps because you were inspired to try out a certain game mechanic or role, or maybe you just like the idea of being omniscient? Then this guide is for you. The supply of games and hosts has always been bigger than the amount Circus Maximus allows, but thankfully the further upcoming changes will add some more room for hosts eager to have a shot at it.</p>
+
+<p>The entire process of hosting a mafia can be laid out in two steps.</p>
+
+<ol>
+<li>Designing the game</li>
+<li>Hosting the game</li>
+</ol>
+
+<p>There are some additional small steps, such as getting the game approved, gathering players, and writing a postgame. I will dedicate some time to those too, but the core of this article is about designing and hosting.</p>
+
+<h2>Designing the Game</h2>
+
+<p>When you get the idea to design a game, it's usually because you want to incorporate a certain unusual concept. That can be almost anything: a role you want to try out, a way of splitting up factions, a way of handling win conditions: you name it. Of course, it's also possible you just wanted to create a nice basic game.</p>
+
+<p>Before you do anything else, you will probably want to find a co-host. A second opinion can usually catch flaws that a first glance cannot. Try to involve your co-host as early in the process as possible. Half the fun of hosting a game is designing it, and by involving a co-host very late in the process you're depriving him of also making this his/her game.</p>
+
+<p>But either way, you will want your game to be balanced. Balancing a game is harder than it might seem, and it's unrealistic to expect your game to be perfectly balanced, because the way it will be played out will rarely be according to your expectations due to the large variety of possible actions.</p>
+
+<h2>The Numbers Game</h2>
+
+<p>A good way to start designing a game is to make a layout of the game in Word or Notepad. Put the total amount of players, and how you wish to distribute them over factions. A very basic set-up would be:</p>
+
+<ul style="list-style-type: none;">
+<li><strong>23 players</strong></li>
+<li>14 villagers</li>
+<li>4 mafia #1</li>
+<li>4 mafia #2</li>
+<li>1 wolf</li>
+</ul>
+
+<p>Note the following properties about this basic set-up:</p>
+
+<ul>
+<li>Each individual mafia is significantly outnumbered by the village: for each of them, there are between 3 and 4 villagers.</li>
+<li>If all non-villagers vote against the village, they are still 5 votes short. This means that even after a mislynch and a night of 3 kills against the village, they still couldn't overtake the lynch.</li>
+</ul>
+
+<p>The number of people obviously isn't everything there is to it. You have to think about whether to put in a Night 0 (first night in the game where all kills fail), how many kills per night each evil side will have, and what vote-altering roles there will be in play, such as silencer, persuader, or mayor. For example, if one mafia has a persuader and the other a silencer, suddenly the evil sides could take over the lynch very quickly if they all worked together (though this can also be counteracted slightly with the village's safeguard and bodyguard). Thankfully, this rarely happens, as the mafia will likely prefer to keep themselves hidden.</p>
+
+<p>The best way to figure out how to distribute kills and roles that affect the numbers in another way is to make scenarios of how the game could go. As noted earlier, the game will never go exactly as you planned, even if you make up a thousand scenarios. The game might end up being played out in an imbalanced way, but the least you can do is make sure that it isn't flawed by design.</p>
+
+<p>In the above, if you give a kill to each evil side (and no vigilante), that means there will be three kills every night until one evil side is eliminated. Assuming they are targeted completely randomly, the chance for an individual mafia to kill a villager on night one is 14/19, or ~73%. The chance both of them do so is 54%. The chance for a wolf to kill a villager is significantly lower, since unlike the mafia he does not have three teammates to write off as non-villagers: 14/22, or ~63%. The chance of a triple villager kill is around 34%, which is considerably likely, but there's a large chance of crossfire (one evil side hitting another).</p>
+
+<p>Here's an example of a somewhat likely game scenario, to give you an idea of how to write it out:</p>
+
+<pre>Night 1 - 14 / 4 / 4 / 1
+mafia 1 kill a villager, mafia 2 kill a villager, wolf kills a mafia 1
+Day 1 - 12 / 3 / 4 / 1
+villagers lynch a mafia 2
+Night 2 - 12 / 3 / 3 / 1
+mafia 1 kill a villager, mafia 2 kill a villager, wolf kills a villager
+Day 2 - 9 / 3 / 3 / 1
+villagers lynch a mafia 1
+Night 3 - 9 / 2 / 3 / 1
+mafia 1 kill a mafia 2, mafia 2 kill a villager, wolf kill fails
+Day 3 - 8 / 2 / 2 / 1
+villagers lynch the wolf (wolf is eliminated)
+Night 4 - 8 / 2 / 2
+mafia 1 kill a villager, mafia 2 kill a villager
+Day 4 - 6 / 2 / 2
+villagers lynch a mafia 1
+Night 5 - 6 / 1 / 2
+mafia 1 kill a villager, mafia 2 kill a villager
+Day 5 - 4 / 1 / 2
+villagers lynch a mafia 1 (mafia 1 is eliminated)
+Night 6 - 4 / 2
+mafia 2 kills a villager
+Day 6 - 3 / 2</pre>
+
+<p>At this point, if the village lynches right twice more, they win; otherwise, they lose. This scenario had one failed kill and two crossfires, with the wolf being found out and lynched at day 3, which are all "lucky" things in the village's favor. And if mafia 2 had a silencer alive during Night 6, they would have won.</p>
+
+<p>So you could make an educated guess that this game is close to balanced, but adding a slight amount of power to the village would be welcome. Either by adding a Night 0, where the village essentially get an extra lynch and more time to gather information, a mayor, or just one or two extra villagers. None of these solutions are perfect, though: the mayor could be silenced, persuaded, or killed before the days where every vote matters, for example. Try adding one village addition at a time and change your scenario.</p>
+
+<p>A sign of a balanced game can be that the game ends in a <a href="http://en.wikipedia.org/wiki/Kingmaker_scenario">kingmaker scenario</a>, where the winner between two is decided by a third faction who cannot win. A good example of a kingmaker scenario in mafia would be where a villager with no significant night role is up against a wolf and the last remaining member of a mafia faction. It's daytime, and everyone's vote counts for one. Assuming one of the evil sides has a higher killing priority than the other (in this example we'll assume that is the wolf), the villager cannot possibly win. The wolf wins if either of the opposing sides votes the other, as then he can seal that person's fate with a vote of his own, then safely kill the other. The mafia only wins if the villager votes for the wolf. As you can see, the villager is the deciding factor between the mafia and the wolf win here, but has no chance of using it to his own team's advantage.</p>
+
+<p>While such an ending is undesirable for your game, it's a relatively good thing to reach to when sketching balanced scenarios, since it's a sign of a game where each side can win. The game's numbers are balancing itself out, so the remaining deciding factors involve smart voting, targeting, and predicting. Of course, part of this will still be luck.</p>
+
+<h2>Increasing the Game Balance's Predictability</h2>
+
+<p>A game is more likely to happen the way it is designed if you set more things in stone. In the above format, you can reasonably expect the mafia and the wolf to attack the village until their numbers have diminished enough to start crossfiring.</p>
+
+<p>However, a game can become more unpredictable if you include more neutrals, or variable win conditions. Games with these elements are tougher to balance, and not recommended for beginning hosts. Oftentimes, they are done wrong, and the result is an easy win for a "harmless" neutral, and sometimes they even influence the outcome for the other factions through voting. Generally, a harmless neutral will align themselves with the faction which has the most of their friends in it, or the ones that helped him the most... but sometimes they'll just ruin or help a faction for the fun of it, which ruins the competitive element of mafia. Despite this having occurred multiple times in mafia history, the most notable example being the big You-Choose-It game, some hosts still choose to include neutrals with easy conditions such as "You win if you survive".</p>
+
+<p>A better way to go about neutrals is, for example, giving them a win condition like "You win if the village loses". This means you will know beforehand he will try to work against the village, but nobody knows whether he will stick with a mafia group, or perhaps a wolf. It can still result in a bad position endgame (such as mafia vs wolf vs said neutral), but the chance of something like this happening has significantly decreased, since we eliminated the possibility of him siding with the village in a position such as villager vs mafia vs neutral.</p>
+
+<h2>Faction Ingredients</h2>
+
+<p>For a village, I'm of the opinion that they absolutely need inspections. Most games simply have a full role PM inspector, but you can easily go creative on this one. A duo of inspectors, one of which gets role name, the other of which gets alliance, works fine too. Or a whole bunch of very weak inspections (such as getting only night command flavor), etc.</p>
+
+<p>A bodyguard is also no superfluous luxury in today's mafia metagame of village leaders. A BPV role or item is not a replacement for a bodyguard, as the protection cannot be put onto someone as easily.</p>
+
+<p>Everything else is custom. Many games use a vigilante for the village, but keep in mind to restrict its ability to be significantly harder to use than the killing abilities on the evil side. Limiting it through ammo, not being able to use it as often, or being more vulnerable to death or blocking than other roles is the best way to go about this.</p>
+
+<p>The mafia just need a way to kill, and otherwise you can be creative there as well. They have less need for night protection, though this can be a good addition regardless to prevent unlucky crossfires earlygame, as well as to give a mafia team a lategame advantage over other evil sides. Don't under any circumstances give an evil side a lynchproof or lynchblock without very significant drawbacks. Such drawbacks can be having to idle the kill, or only being able to use it once.</p>
+
+<p>If your game has items, keep in mind how much control over items you want each faction to have, and change roles and rules accordingly. If you put an automatic scavenger (picks up all items on dead people automatically) on the village, both mafia teams absolutely require a thief. A common way of handling item control is to give each team a thief and allow them to target dead people to take their items.</p>
+
+<h2>Flavor</h2>
+
+<p>A lot of people who want to host a game do it because they want to see a game with a certain theme. However, to keep people interested, you'll want to make sure this theme isn't too obscure. A good way to integrate people into your game when they're unfamiliar with your theme is to include roles that do not fit into your theme (for example, Wargreymon in a Futurama themed game). Alternatively, you can just have an open-themed game where everything can be in the game. This has been done in the past and has been very enjoyable for the most part.</p>
+
+<p>When writing role PMs, keep in mind short role PMs will be easier for people to fake, while long ones will give your game more flavor. I heavily recommend not including initial pictures of your role in your role PMs. If you want to show those, do it when people are eliminated.</p>
+
+<h2>Rules</h2>
+
+<p>The easiest way to get a ruleset up is to copy one of the standard sets (originally written by Fishin for <a href="/forums/showthread.php?t=60698">Minor Character Mafia</a>, and changed slightly by every host since). Make absolutely sure the ruleset fits your game. You may want to show the ruleset in the sign-ups so people know what they sign up for, though some hosts choose not to do this.</p>
+
+<h2>Between Creation and Execution</h2>
+
+<p>Somewhere during your design, contact either Mekkah or Earthworm (the current Circus staff) with your ideas. Make a spreadsheet of your game on Google Docs and share it with them, making sure every role that needs explanation has one.</p>
+
+<p>A spreadsheet should be easy on the eye. Use colors to make it easy to distinguish between factions, and make sure that every row has the same amount of lines (one is preferred). A good example of a well-managed spreadsheet is the <a href="http://spreadsheets.google.com/pub?key=t5BfMBy-Tb5_tltIHM5iryQ&output=html">Double Alias Mafia</a> one. Every faction has a (light) color, you can quickly see which players have been eliminated, which active and passive roles are in play, etc. Take a look at the night actions sheet too, as that is something you really need to do correctly if you want to avoid mistakes during hosting.</p>
+
+<p>Once the staff member says your game is ready, it will be put on the Game Listing. You can start inviting people for your 7 reserved spots, and of course writing role PMs. When your game is up next and the staff member has given a green light, post a thread for sign-ups and follow the process described in the <a href="/forums/showthread.php?t=66788
+">rules</a>.</p>
+
+<h2>Hosting the Game</h2>
+
+<p>Now the real hard work begins! While the designing phase has no real deadlines, and you can work on it whenever you like, hosting often has a very large amount of work crammed into a small amount of time, also known as the updates. This is when people realize: "Wow, hosting isn't as easy as I thought!" When making an update for a game involving 25 players, take a moment to appreciate hard work of the hosts of past big games of over 50.</p>
+
+<h2>Game Launch</h2>
+
+<p>When a staff member has randomized a player list for you and you assigned these players to the roles you think suit them (you might want to check out <a href="/forums/showthread.php?t=69022">this thread</a> for ideas on that), it's time for the big launch. You'll want to make a new thread, and preferably post 2-4 times in that thread, so you can divide sections such as rules, player list, FAQ and, of course, your story introduction over them, making them easy to edit. If either you or your co-host has the ability to edit other people's posts in Circus Maximus (moderator, super mod, admin), have the other host post these, so both of you can edit as necessary.</p>
+
+<p>Sending out role PMs is a lot of work, especially if the flood limit bogs you down. Make sure to do this carefully, as sending a role PM to the wrong guy can be pretty disastrous. Once all role PMs are out, make a post in the thread saying so.</p>
+
+<h2>Updates</h2>
+
+<p>Once the launch is done, you get to sit back and enjoy for a bit... but know that within 48 hours (some people do 72 for the first night), you have an update to do. You can prepare an update even if you do not have all the needed PMs yet, which reduces your stress at deadline. Talk to the players in the game to get an idea of what they are planning, and encourage them to send in their PMs early. Keep proper track of night actions in a sheet, making sure to keep role priority in account when devising the consequences. Make sure you know who needs a results PM.</p>
+
+<p>When all night actions are in, or deadline has struck, make a post saying so and start doing the update. I like to use a Notepad file to quickly check who needs which night results, which also makes it easier to see if one person needs multiple results (for example, an inspector who is having his item stolen needs to get his inspection result, and an indication he no longer has his item). Make sure you also have a list of things that go in the update. Deaths are logical, but there's also announcements, kidnapping (and returning from kidnapping), and perhaps other flavor that serves as a hint of something.</p>
+
+<p>Updates from night to day are usually more work than day to night, since you only have one death during the day, and usually most power roles are used at night. I don't recommend making an exception to this, but if you do, put it down somewhere. The one difficult thing about the day to night update is the vote tally, especially if stealth lynches are involved. Make sure to count votes carefully and be consistent with your rules about format, bolding, and changing votes. Ask a moderator for help to check post editing times if needed. And while you are bothering them anyway, get your thread title changed to reflect what cycle you are in (for example, Night 2).</p>
+
+<p>To make sending in actions easier, I introduced the possibility of indicating targets over IRC instead of over Smogon PMs. I heavily recommend doing this as well, especially if you are one of these poor souls with limited PM inbox space.</p>
+
+<p>Always proofread your updates before posting them. If you included team members or other private information of a mafian who has died, make sure to snip that out. Make sure you are offing the right people with the right PMs.</p>
+
+<h2>When to End Your Game</h2>
+
+<p>A game should be ended when there is only one possible outcome. The classic example of when to end it is once a number of villagers without protecting or killing roles are left against an equal or higher number of mafia members of one faction (they should be able to kill, obviously). The village can no longer win the lynch, and the mafia can off villagers at night, effectively making them the only possible winners. Ending your game early is good because it removes the "drag" feeling of a game that's practically over and allows for a new game to be launched sooner. However, you have to be extremely sure before you announce the game over. Talking it over with your co-host (and perhaps a Circus staff member who is not playing) is recommended.</p>
+
+<h2>Postgame</h2>
+
+<p>A postgame is a summary of how the game was from different perspectives: individual players, hosts, whole factions, etc. The best (and easiest) way to write one up is to talk to players during the game, learning what their thoughts, suspicions and plans are. Every time a player is eliminated, put their role PM in a postgame document, and explain their role and how they played. Contrary to popular host belief, someone's night targets and votes are not a sufficient summary of how they played, especially not if they were under command of a mafia or village leader. What matters is the conversations they had with other people, the thoughts they had, what they believed to be true or false. While Smogon mafia is largely a game of tactics and good use of targeting, it's also one of information management, and of lies and deceit. Leaving that off is compromising a large part of what makes the game so fun!</p>
+
+<p>If you write your postgame this way, you can post it very soon after your game ended, and make edits while the game is still fresh in your mind.</p>
+
+<h2>Closing Words</h2>
+
+<p>This is the process of designing and hosting a mafia game in a nutshell. There's definitely a lot more that has not been said, but the most important hurdles and beginner mistakes have been outlined. If you have more to say on this subject, please visit the recently created <a href="/forums/forumdisplay.php?f=123">Office of Strategic Influence</a> forum to discuss the many facets of this subject. There's a lot hosts can learn from each other.</p>
+ 
+<table id="smogfooter">
+<tr>
+<td class="left"><a href="cookie_tips">&laquo; Previous Article</a></td>
+<td class="middle"><a href="/smog/issue8/">Home</a></td>
+<td class="right"><a href="mops_musings">Next Article &raquo;</a></td>
+</tr>
+</table>

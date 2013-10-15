@@ -1,0 +1,87 @@
+[title]
+The Smog Interviews chaos
+[head]
+<link href="/media/smog/smog.css" type="text/css" rel="stylesheet" />
+[page]
+<div class="author">By <a href="/forums/member.php?u=14445">Jimbo</a> and <a href="/forums/member.php?u=597">Sarenji</a>.</div>
+<table id="smogheader">
+<tr>
+<td class="left"><a href="rejected_names">&laquo; Previous Article</a></td></td>
+<td class="middle"><a href="/smog/issue1/">Home</a></td>
+<td class="right"><a href="active_tournaments">Next Article &raquo;</a></td>
+</tr></table>
+<div align="center"><img alt="Executive Ursaring" src="/media/smog/chaoslarge.png" /></div>
+
+<p><em>The door opens before I can knock a second time. A faint breeze rustles from inside. Jimbo and I glance at each other, swallow, and step through the door. In the dim light dangling above, we see a masked man, aged twenty-one years, at a table. He motions for us to sit.</em></p>
+ 
+<p><em>As I try to get comfortable, I realize with a start that he isn’t wearing a mask at all&mdash;instead, his face is almost entirely swallowed by hair. And upon closer inspection, the hair almost seems to be</em> breathing<em>.</em></p>
+ 
+<p><em>This is Christopher Monsanto, otherwise known as chaos, administrator of administrators.</em></p>
+ 
+<h2>chaos, thanks for making the time to let us interview you. To start us off, could you tell us about your life outside Smogon and Pok&eacute;mon?</h2>
+ 
+<p>I go to a liberal arts school in Kentucky, Transylvania&mdash;it’s nice because it’s close to home and I have working relationships with my professors, they read my research, et cetera&mdash;one of the advantages of a really small school. I’ve also done research at Auburn University, where I met Acura and StrangerDanger.</p>
+ 
+<p>I’m a junior in college, studying computer science, mathematics and music. I research programming languages, partly for fun, partly for work. I’m a web developer (one of two) for my university, and I do freelance web stuff in my free time. I keep myself pretty busy.</p>
+ 
+<h2>Wow, impressive. Could you tell us more about your programming background?</h2>
+ 
+<p>Sure. I taught myself Visual Basic and HTML when I was eleven, because I wanted to make a kickass Dragon Ball Z website. Obviously I’ve progressed since then… I know nearly every programming language out there as a result of my research. Smogon has been a huge help in my education too, ironically. Managing the site has honed my system administration skills, and of course, my Python and PHP skills. I also picked up a lot of SQL, primarily using MySQL and SQLite.</p>
+ 
+<p>I got into compilers when I was working with Articuno64 on a game in RPGMaker 2000. It was horrible. You had to select commands out of a GUI dropdown. It was the slowest thing ever&mdash;I’m not sure how he managed to write a soccer AI. I ended up writing a compiler at fourteen, and it was shown to the Kentucky government to get me an internship. They said they were impressed, but couldn't hire me for legal reasons&mdash;I had to be sixteen or something. But anyway, RM2K’s bad experience made me really interested in programming language design&mdash;at the heart of everything you write is your language, which is why I don’t know why people are satisfied with nonsense like Java&mdash;it slows down the project and kills the morale of the people involved. Also, Haskell is my favorite language.</p>
+ 
+<h2>That reminds me of one of your programming projects, Sly. Do you have anything to say about future projects like Sly, Bananavine, and Competitor?</h2>
+ 
+<p>The mere presence of Competitor makes this a loaded question.</p>
+ 
+<p><em>chaos laughs, a cold, cruel laugh that sends hair follicles waving.</em></p>
+ 
+<p>I’m a busy person in general but I’ll address these individually.</p>
+ 
+<p>Sly won’t happen for years. I already know I can write a compiler; I’ve written three. So actually implementing the language isn’t a giant concern for me. The big concern is making a language that fully satisfies me&mdash;a language that changes the way you think about things. Sly will be a pure functional language, like Haskell, but programs written in it are “extensible by construction.” Basically, you can extend a running program any way you like without the author specifically thinking about how users might want to extend the program. Take something like vBulletin. Littered throughout the source code are “hook” points&mdash;places you can extend the program. There are like 500 of them. They obfuscate the actual logic of the forum and they take up the programmer’s time thinking about where people want to extend the program. I want to avoid all of that.</p>
+ 
+<p>Bananavine is related to Sly: it’s my testbed for extensibility by construction. It’s also my honors thesis for next semester. I want to prove the concept can work in a language like Python before I think of how to design a language around the principle. So Bananavine won’t end up like my other projects: it’ll have to be completed, or I won’t get an A. Bananavine was inspired by XChat&mdash;the nicklist for XChat has little colored spheres next to names. I hate that shit. I miss how mIRC would show @ +. But it’s impossible to extend XChat to do that unless you modify the source altogether, which is silly because XChat has a scripting language. That got me thinking: obviously XChat’s author doesn’t think that’s important, but who cares what he thinks is important? Why should extensibility be dictated by the program author? If the author wants something, he or she should just code it. So Bananavine, a (primarily-)Linux, Python, GTK IRC client was born. It’s usable at the moment, and I’m thinking my ideas are going to work out.</p>
+ 
+<p>Now, Competitor. Nobody should ever blame <em>me</em> for Competitor’s slow release. I wrote both the client and the server. Both work. All I asked was for someone to do the Pok&eacute;mon engine. I don’t have the time or the patience to do all three parts of Competitor. So I refuse to work on Competitor until someone helps me with the Pok&eacute;mon engine. That’s all I have to say about that.</p>
+ 
+<p><em>But little did we know an alliance with ShoddyBattle would be upcoming!</em></p>
+ 
+<h2>So anyone complaining about the lack of Competitor should start helping with it! By the sound of things, you’ve done an enormous amount of work already, not to mention all the work you’ve done for Smogon. Speaking of that, Smogon is now one of the most successful Pok&eacute;mon sites out there&mdash;mind telling us how it all got started?</h2>
+ 
+<p>I like to trace our roots back to around 2001, when Pok&eacute;mon was primarily played on IRC. Our “elite core of old schoolers” date from around that time period, some before, like how gk and ls are from 1998/1999. Anyway, early 2004 in #rs, we had this gimmick about Nazi Pok&eacute;mon, Smogon of course being the German name for Koffing. Koffing has been a popular mascot in the competitive community. We decided to start up a forum for the #rs’ers, Brain hosted it on my personal domain, linear.cc, and it was called Smogon. Hardly anyone remembers that forum anymore.</p>
+ 
+<p>It eventually was deleted (by me) for lack of interest. It was never archived, except maybe by Brain once. Later on, around November, some people from Tafop, a NetBattle server, wanted to start a Pok&eacute;mon site&mdash;Glalie, fm, Vineon was there, I think. We asked for names and such&mdash;that’s where the infamous quote from PaperFairy is from: “Pok&eacute;mon Grand Central Station&mdash;for all your battling desires!” After belittling him and eventually abandoning him, we went with the name Smogon, because we all remembered the forum and liked the name. Since I was the only person there who had a clue about making websites I became the leader of the group. Smogon was put up December 17th, 2004, and the forums opened the 18th. Originally Smogon was just a Pok&eacute;dex, written by Brain, and a phpBB board with two forums. Oh, how we’ve grown.</p>
+ 
+<p><em>The man’s beard bristles with a smile.</em></p>
+ 
+<h2>And it’s grown into a large, not to mention fantastic, community. How does it feel to be the main developer and the king of Smogon, on the forefront of competitive Pok&eacute;mon?</h2>
+ 
+<p>I have mixed feelings. Pros: Smogon has been a huge part of my life, and developing it has taught me many valuable things about programming, and life in general. I’m proud to serve what I think is one of the best communities on the internet. But on the other hand, I feel bad that I haven’t had as much time to work on Smogon. It’s been shoved aside for, arguably, much more important things like schoolwork and research. I feel like I’ve let some people down by not being here as much as I could be, but I hope that they remember what I’ve contributed to this community. A lot of newer users don’t, mainly because I no longer participate in Pok&eacute;mon discussions.</p>
+ 
+<h2>All your hard work has resulted in a community that can pretty much support itself. How do you feel about the current direction Smogon is heading? And, perhaps, how do you see it in three to five years?</h2>
+ 
+<p>Again, mixed feelings. It can support itself, but it deserves better. I’m hoping once I apply to graduate schools that I’ll have much more time to work. I like the direction Smogon is going in&mdash;empirically testing our metagame. It feels like a real university! (He chuckles.) My ideas for a more open contribution system have been realized. After all, that’s what the SCMS was written for. It makes me happy to see Contributions and Corrections boom. Or at least, I think it’s booming. It used to have no activity at all. And when I see recent news updates, I smile inside.</p>
+ 
+<p>However, on the technical side, we are decaying somewhat. We need to update our databases and implement some stuff long coming&mdash;like the tournament system. I hope to eventually teach other members of the community how to code for the site, so we can “really” be defined by our community. Or at least, so everyone isn’t so reliant on me. Of course, I will retain my position as lead developer and hopefully contribute and oversee development when I get some more time. But until then, that’s all uncertain.</p>
+ 
+<h2>I must mention a pressing concern, one that is no doubt asked by many a user of Smogon. What is your favorite Pok&eacute;mon?</h2>
+ 
+<p><em>He laughs, and for a moment I see his eyes&mdash;glittering with glee from bygone days.</em></p>
+ 
+<p>Hardest question of the night. Tough to decide between Victreebel and Ho-oh&mdash;they are amazing together with Sunny Day! If it’s a standard OU match, then probably Ho-oh, because I’m the owner of Smogon and can do whatever I want, including pissing people off by breaking the rules. If it’s an Uber match, Victreebel, because fuck you, I can use UUs in Uber matches if I want to. Victreebel is that cool.</p>
+ 
+<h2>I hear Victreebel is also a good shaving appliance. Speaking of which, we heard from a reputable source that your beard is, in fact, sentient. Is this true?</h2>
+ 
+<p><em>As it hears this, chaos’s beard bridles threateningly. Jimbo and I trade looks.</em></p>
+ 
+<p>There’s a reason I haven’t shaved it: it’s probably smarter than I am. Rumor is it’s going for its PhD as well, which means it’ll probably take the spot I was going to get. <em>(He looks sad.)</em> In retrospect, I should probably shave it. But I think someday it’ll solve P=NP or something. Or at least solve, once and for all, the mystery of why WiFiers are so stupid.</p>
+ 
+<h2>I see. Thanks for taking the time to have an interview with us, chaos. We really appreciate it.</h2>
+ 
+<p><em>We get up and leave, relieved to be out of sight of his beard.</em></p>
+<table id="smogheader">
+<tr>
+<td class="left"><a href="rejected_names">&laquo; Previous Article</a></td></td>
+<td class="middle"><a href="/smog/issue1/">Home</a></td>
+<td class="right"><a href="active_tournaments">Next Article &raquo;</a></td>
+</tr></table>

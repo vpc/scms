@@ -1,0 +1,1007 @@
+[title]
+Attacking Types
+[head]
+<link href="/media/smog/smog.css" type="text/css" rel="stylesheet" />
+[page]
+<div class="author">By <a href="/forums/member.php?u=2412">X-Act</a>.</div>
+<table id="smogheader">
+<tr>
+<td class="left"><a href="using_surprise">&laquo; Previous Article</a></td>
+<td class="middle"><a href="/smog/issue3/">Home</a></td>
+<td class="right"><a href="uu_analysis">Next Article &raquo;</a></td>
+</tr>
+</table>
+
+<h2>Overview</h2>
+
+<p>You’ve all heard that Fire and Ice are great attacking types, while Poison and Normal are bad ones. This article will attempt to justify these claims mathematically.</p>
+
+<h2>What makes an attack type great?</h2>
+
+<p>In order to tackle this problem mathematically, it is important to know what makes an attacking type good or bad. What makes Fire a better attacking type than, say, Bug? The answer is that the more common Pokemon in the metagame are dealt more damage by the better attacking types.</p>
+
+<p>This suggests that we need to look into the following aspects of Pokemon:</p>
+
+<ol>
+<li>Their <strong>usage</strong>.</li>
+<li>Their <strong>type effectiveness</strong>.</li>
+<li>Their <strong>defensive stats</strong>.</li>
+</ol>
+
+<p>This means that all of the above need to be in a hypothetical mathematical formula if we need to solve this problem.</p>
+
+<h2>The damage dealt to a Pokemon</h2>
+
+<p>Of course, to quantify the amount of damage dealt to a Pokemon, we need to resort to the damage formula. Here, we are going to use a simplified version, because we can assume that all Pokemon are at level 100 and have 31 IVs in all stats. Let us further assume that the Pokemon that is going to deal damage has 300 Atk (or SpA) stat and is using a move having 80 Base Power. One final assumption is that we will always deal the maximum amount of damage, i.e. the random factor in the damage formula is ignored.</p>
+
+<p>The damage dealt to a Pokemon would then be equal to</p>
+
+<pre>Damage = 0.84 * 300 * 80 * TypeEffectiveness / (OppHP * OppDef/SpD)</pre>
+
+<p>Where TypeEffectiveness is 4, 2, 1, 0.5, 0.25 or 0 depending on how effective that move is on the foe, OppHP is the average HP stat of the foe and OppDef/SpD is the average Def or SpD stat of the foe.</p>
+
+<p>This can be simplified to</p>
+
+<pre>Damage = 20160 * TypeEffectiveness / (OppHP * OppDef/SpD)</pre>
+
+<p>However, since the damage dealt cannot be greater than 100% (or 1), the formula needs to be slightly modified:</p>
+
+<pre>Damage = min(1, 20160 * TypeEffectiveness / (OppHP * OppDef/SpD))</pre>
+
+<p>Notice that we have already used points 2) and 3) above. The only thing that remains is incorporating the usage of the Pokemon. We are simply going to weigh the damage done by the usage percentage of the Pokemon in question:</p>
+
+<pre>DamageUsage = Damage * PercentageUsage</pre>
+
+<p>where PercentageUsage is the percentage usage of the foe. This can be written as</p>
+
+<pre>DamageUsage = min(PercentageUsage, 20160 * PercentageUsage * TypeEffectiveness / (OppHP * OppDef/SpD))</pre>
+
+<p>We thus have a formula that incorporates all three aspects we’re looking for. Note, however, that the formula above is really two formulae in one. One formula looks at the physical aspect of the type, while the other looks at the special aspect of the type. So what we really have are the following two formulae:</p>
+
+<pre>PhysicalDamageUsage = min(PercentageUsage, 20160 * PercentageUsage * TypeEffectiveness / (OppHP * OppDef))</pre>
+
+<pre>SpecialDamageUsage = min(PercentageUsage, 20160 * PercentageUsage * TypeEffectiveness / (OppHP * OppSpD))</pre>
+
+
+<h2>Attacking Type Effectiveness (ATE)</h2>
+
+<p>To get to our final attacking type effectiveness, which we shall call ATE for short, all we need to do is to sum up all the damage done to all the Pokemon in existence. That is:</p>
+
+<pre>ATE = DamageUsage_1 + DamageUsage_2 + … +DamageUsage_n</pre>
+
+<p>where n is the number of Pokemon available (in DPP this is equal to 505).</p>
+
+<p>We can either find the physical ATE only (PATE), the special one only (SATE), or combine them together. If we want to combine them together, we just find the average of the physical and special attacking type effectiveness.</p>
+
+<h2>Attacking Type Modifier Estimate (ATME)</h2>
+
+<p>Sometimes, we wish to know an estimate as to how much damage a move would deal to the metagame on average. For this purpose, the Attacking Type Modifier Estimate (ATME) can be used.</p>
+
+<p>We basically want the ATME to replace the part in the damage formula where we divide by the product of the opponent’s HP and Def/SpD, like so:</p>
+
+<pre>Average Damage done by move = 0.84 * Atk/SpA * MovePower * STAB / ATME</pre>
+
+<p>It turns out that the ATME for a particular type can be found easily from the attacking type effectiveness of the move as follows:</p>
+
+<pre>ATME = 24000 / ATE</pre>
+
+<p>Again we can find the physical ATME (PATME), the special ATME (SATME) or a combination of both, by using the appropriate ATE in the formula above.</p>
+
+<h2>Attacking Type Effectiveness in the various Metagames</h2>
+
+<p>I have endeavored to calculate the ATE and ATME for the standard, underused and uber metagames. Credits go to DougJustDoug’s Smogon server statistics, without which I could not have done this. From Doug’s statistics, I extracted the average HP, average Def and average SpD stats of every Pokemon, taking into account also item bonuses. Then I calculated the type effectiveness of every Pokemon, remembering that a few abilities can also modify it (for example Water Absorb, Thick Fat and Wonder Guard). Of course, I had to do the above separately for each of the three metagames.</p>
+
+<p>Following are two tables for each metagame. The first table lists, in descending order, the physical and special ATEs and ATMEs for all types. I also included a hypothetical type called ‘typeless’, which does neutral damage to every type, for comparison purposes. The second table lists the combined ATEs and ATMEs for all types.</p>
+
+<h3>Standard Metagame:</h3>
+
+<table class="sortable">
+<thead>
+<tr class="a">
+<th>Type </th>
+<th>ATE </th>
+<th>ATME </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Special Fire </td>
+<td>34.04% </td>
+<td>70506 </td>
+</tr>
+<tr class="a">
+<td>Physical Fire </td>
+<td>33.50% </td>
+<td>71638 </td>
+</tr>
+<tr>
+<td>Physical Ice </td>
+<td>33.07% </td>
+<td>72572 </td>
+</tr>
+<tr class="a">
+<td>Special Ice </td>
+<td>32.64% </td>
+<td>73534 </td>
+</tr>
+<tr>
+<td>Physical Rock </td>
+<td>31.60% </td>
+<td>75955 </td>
+</tr>
+<tr class="a">
+<td>Special Rock </td>
+<td>30.64% </td>
+<td>78330 </td>
+</tr>
+<tr>
+<td>Physical Flying </td>
+<td>30.51% </td>
+<td>78651 </td>
+</tr>
+<tr class="a">
+<td>Physical Electric </td>
+<td>30.29% </td>
+<td>79227 </td>
+</tr>
+<tr>
+<td>Physical Fighting </td>
+<td>30.12% </td>
+<td>79681 </td>
+</tr>
+<tr class="a">
+<td>Special Water </td>
+<td>30.03% </td>
+<td>79914 </td>
+</tr>
+<tr>
+<td>Special Electric </td>
+<td>29.90% </td>
+<td>80264 </td>
+</tr>
+<tr class="a">
+<td>Special Flying </td>
+<td>29.84% </td>
+<td>80417 </td>
+</tr>
+<tr>
+<td>Physical Dark </td>
+<td>29.80% </td>
+<td>80550 </td>
+</tr>
+<tr class="a">
+<td>Special Fighting </td>
+<td>29.74% </td>
+<td>80696 </td>
+</tr>
+<tr>
+<td>Physical Water </td>
+<td>29.56% </td>
+<td>81203 </td>
+</tr>
+<tr class="a">
+<td>Physical Ghost </td>
+<td>28.89% </td>
+<td>83063 </td>
+</tr>
+<tr>
+<td>Physical Typeless </td>
+<td>28.83% </td>
+<td>83261 </td>
+</tr>
+<tr class="a">
+<td>Special Dark </td>
+<td>28.80% </td>
+<td>83326 </td>
+</tr>
+<tr>
+<td>Physical Dragon </td>
+<td>28.75% </td>
+<td>83466 </td>
+</tr>
+<tr class="a">
+<td>Physical Ground </td>
+<td>28.74% </td>
+<td>83498 </td>
+</tr>
+<tr>
+<td>Special Typeless </td>
+<td>28.52% </td>
+<td>84150 </td>
+</tr>
+<tr class="a">
+<td>Special Ghost </td>
+<td>28.40% </td>
+<td>84510 </td>
+</tr>
+<tr>
+<td>Special Ground </td>
+<td>28.26% </td>
+<td>84931 </td>
+</tr>
+<tr class="a">
+<td>Special Dragon </td>
+<td>27.64% </td>
+<td>86821 </td>
+</tr>
+<tr>
+<td>Physical Psychic </td>
+<td>27.51% </td>
+<td>87241 </td>
+</tr>
+<tr class="a">
+<td>Special Psychic </td>
+<td>26.90% </td>
+<td>89206 </td>
+</tr>
+<tr>
+<td>Physical Bug </td>
+<td>26.05% </td>
+<td>92137 </td>
+</tr>
+<tr class="a">
+<td>Special Grass </td>
+<td>25.71% </td>
+<td>93357 </td>
+</tr>
+<tr>
+<td>Physical Grass </td>
+<td>25.63% </td>
+<td>93632 </td>
+</tr>
+<tr class="a">
+<td>Special Bug </td>
+<td>24.99% </td>
+<td>96037 </td>
+</tr>
+<tr>
+<td>Physical Steel </td>
+<td>23.89% </td>
+<td>100468 </td>
+</tr>
+<tr class="a">
+<td>Special Steel </td>
+<td>23.05% </td>
+<td>104103 </td>
+</tr>
+<tr>
+<td>Physical Normal </td>
+<td>22.84% </td>
+<td>105087 </td>
+</tr>
+<tr class="a">
+<td>Special Normal </td>
+<td>22.22% </td>
+<td>107999 </td>
+</tr>
+<tr>
+<td>Physical Poison </td>
+<td>21.07% </td>
+<td>113896 </td>
+</tr>
+<tr class="a">
+<td>Special Poison </td>
+<td>19.84% </td>
+<td>120991 </td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<thead>
+<tr class="a">
+<th>Type </th>
+<th>ATE </th>
+<th>ATME </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fire </td>
+<td>33.77% </td>
+<td>71068 </td>
+</tr>
+<tr class="a">
+<td>Ice </td>
+<td>32.85% </td>
+<td>73050 </td>
+</tr>
+<tr>
+<td>Rock </td>
+<td>31.12% </td>
+<td>77124 </td>
+</tr>
+<tr class="a">
+<td>Flying </td>
+<td>30.18% </td>
+<td>79524 </td>
+</tr>
+<tr>
+<td>Electric </td>
+<td>30.10% </td>
+<td>79742 </td>
+</tr>
+<tr class="a">
+<td>Fighting </td>
+<td>29.93% </td>
+<td>80185 </td>
+</tr>
+<tr>
+<td>Water </td>
+<td>29.79% </td>
+<td>80554 </td>
+</tr>
+<tr class="a">
+<td>Dark </td>
+<td>29.30% </td>
+<td>81914 </td>
+</tr>
+<tr>
+<td>Typeless </td>
+<td>28.67% </td>
+<td>83703 </td>
+</tr>
+<tr class="a">
+<td>Ghost </td>
+<td>28.65% </td>
+<td>83780 </td>
+</tr>
+<tr>
+<td>Ground </td>
+<td>28.50% </td>
+<td>84208 </td>
+</tr>
+<tr class="a">
+<td>Dragon </td>
+<td>28.20% </td>
+<td>85110 </td>
+</tr>
+<tr>
+<td>Psychic </td>
+<td>27.21% </td>
+<td>88212 </td>
+</tr>
+<tr class="a">
+<td>Grass </td>
+<td>25.67% </td>
+<td>93494 </td>
+</tr>
+<tr>
+<td>Bug </td>
+<td>25.52% </td>
+<td>94046 </td>
+</tr>
+<tr class="a">
+<td>Steel </td>
+<td>23.47% </td>
+<td>102253 </td>
+</tr>
+<tr>
+<td>Normal </td>
+<td>22.53% </td>
+<td>106523 </td>
+</tr>
+<tr class="a">
+<td>Poison </td>
+<td>20.45% </td>
+<td>117337 </td>
+</tr>
+</tbody>
+</table>
+
+<h3>Underused Metagame:</h3>
+
+<table class="sortable">
+<thead>
+<tr class="a">
+<th>Type </th>
+<th>ATE </th>
+<th>ATME </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Physical Flying </td>
+<td>38.60% </td>
+<td>62175 </td>
+</tr>
+<tr class="a">
+<td>Special Flying </td>
+<td>36.83% </td>
+<td>65157 </td>
+</tr>
+<tr>
+<td>Physical Ice </td>
+<td>36.75% </td>
+<td>65311 </td>
+</tr>
+<tr class="a">
+<td>Physical Rock </td>
+<td>36.69% </td>
+<td>65421 </td>
+</tr>
+<tr>
+<td>Special Ice </td>
+<td>36.01% </td>
+<td>66656 </td>
+</tr>
+<tr class="a">
+<td>Special Rock </td>
+<td>34.76% </td>
+<td>69036 </td>
+</tr>
+<tr>
+<td>Physical Psychic </td>
+<td>33.64% </td>
+<td>71349 </td>
+</tr>
+<tr class="a">
+<td>Physical Fire </td>
+<td>33.42% </td>
+<td>71812 </td>
+</tr>
+<tr>
+<td>Physical Dark </td>
+<td>33.24% </td>
+<td>72191 </td>
+</tr>
+<tr class="a">
+<td>Special Water </td>
+<td>32.53% </td>
+<td>73782 </td>
+</tr>
+<tr>
+<td>Physical Water </td>
+<td>32.43% </td>
+<td>74010 </td>
+</tr>
+<tr class="a">
+<td>Special Fire </td>
+<td>32.43% </td>
+<td>74014 </td>
+</tr>
+<tr>
+<td>Physical Electric </td>
+<td>32.28% </td>
+<td>74357 </td>
+</tr>
+<tr class="a">
+<td>Special Psychic </td>
+<td>31.82% </td>
+<td>75419 </td>
+</tr>
+<tr>
+<td>Special Dark </td>
+<td>31.72% </td>
+<td>75656 </td>
+</tr>
+<tr class="a">
+<td>Special Electric </td>
+<td>31.59% </td>
+<td>75962 </td>
+</tr>
+<tr>
+<td>Physical Typeless </td>
+<td>31.58% </td>
+<td>75997 </td>
+</tr>
+<tr class="a">
+<td>Physical Dragon </td>
+<td>31.23% </td>
+<td>76843 </td>
+</tr>
+<tr>
+<td>Special Fighting </td>
+<td>31.14% </td>
+<td>77069 </td>
+</tr>
+<tr class="a">
+<td>Physical Fighting </td>
+<td>31.10% </td>
+<td>77175 </td>
+</tr>
+<tr>
+<td>Physical Ground </td>
+<td>30.96% </td>
+<td>77509 </td>
+</tr>
+<tr class="a">
+<td>Physical Ghost </td>
+<td>30.60% </td>
+<td>78427 </td>
+</tr>
+<tr>
+<td>Special Typeless </td>
+<td>30.58% </td>
+<td>78473 </td>
+</tr>
+<tr class="a">
+<td>Special Ground </td>
+<td>30.19% </td>
+<td>79486 </td>
+</tr>
+<tr>
+<td>Special Grass </td>
+<td>30.11% </td>
+<td>79715 </td>
+</tr>
+<tr class="a">
+<td>Special Dragon </td>
+<td>30.06% </td>
+<td>79841 </td>
+</tr>
+<tr>
+<td>Physical Grass </td>
+<td>30.02% </td>
+<td>79960 </td>
+</tr>
+<tr class="a">
+<td>Physical Bug </td>
+<td>29.71% </td>
+<td>80770 </td>
+</tr>
+<tr>
+<td>Special Ghost </td>
+<td>29.08% </td>
+<td>82519 </td>
+</tr>
+<tr class="a">
+<td>Special Bug </td>
+<td>28.97% </td>
+<td>82848 </td>
+</tr>
+<tr>
+<td>Physical Poison </td>
+<td>28.04% </td>
+<td>85580 </td>
+</tr>
+<tr class="a">
+<td>Physical Normal </td>
+<td>27.34% </td>
+<td>87793 </td>
+</tr>
+<tr>
+<td>Physical Steel </td>
+<td>27.24% </td>
+<td>88110 </td>
+</tr>
+<tr class="a">
+<td>Special Poison </td>
+<td>26.61% </td>
+<td>90181 </td>
+</tr>
+<tr>
+<td>Special Normal </td>
+<td>26.55% </td>
+<td>90409 </td>
+</tr>
+<tr class="a">
+<td>Special Steel </td>
+<td>26.52% </td>
+<td>90509 </td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<thead>
+<tr class="a">
+<th>Type </th>
+<th>ATE </th>
+<th>ATME </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Flying </td>
+<td>37.72% </td>
+<td>63631 </td>
+</tr>
+<tr class="a">
+<td>Ice </td>
+<td>36.38% </td>
+<td>65977 </td>
+</tr>
+<tr>
+<td>Rock </td>
+<td>35.72% </td>
+<td>67180 </td>
+</tr>
+<tr class="a">
+<td>Fire </td>
+<td>32.92% </td>
+<td>72896 </td>
+</tr>
+<tr>
+<td>Psychic </td>
+<td>32.73% </td>
+<td>73327 </td>
+</tr>
+<tr class="a">
+<td>Dark </td>
+<td>32.48% </td>
+<td>73883 </td>
+</tr>
+<tr>
+<td>Water </td>
+<td>32.48% </td>
+<td>73896 </td>
+</tr>
+<tr class="a">
+<td>Electric </td>
+<td>31.94% </td>
+<td>75151 </td>
+</tr>
+<tr>
+<td>Fighting </td>
+<td>31.12% </td>
+<td>77122 </td>
+</tr>
+<tr class="a">
+<td>Typeless </td>
+<td>31.08% </td>
+<td>77215 </td>
+</tr>
+<tr>
+<td>Dragon </td>
+<td>30.65% </td>
+<td>78313 </td>
+</tr>
+<tr class="a">
+<td>Ground </td>
+<td>30.58% </td>
+<td>78485 </td>
+</tr>
+<tr>
+<td>Grass </td>
+<td>30.06% </td>
+<td>79837 </td>
+</tr>
+<tr class="a">
+<td>Ghost </td>
+<td>29.84% </td>
+<td>80421 </td>
+</tr>
+<tr>
+<td>Bug </td>
+<td>29.34% </td>
+<td>81796 </td>
+</tr>
+<tr class="a">
+<td>Poison </td>
+<td>27.33% </td>
+<td>87820 </td>
+</tr>
+<tr>
+<td>Normal </td>
+<td>26.94% </td>
+<td>89082 </td>
+</tr>
+<tr class="a">
+<td>Steel </td>
+<td>26.88% </td>
+<td>89293 </td>
+</tr>
+</tbody>
+</table>
+
+<h3>Uber Metagame</h3>
+
+<table class="sortable">
+<thead>
+<tr class="a">
+<th>Type </th>
+<th>ATE </th>
+<th>ATME </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Physical Ice </td>
+<td>36.87% </td>
+<td>65092 </td>
+</tr>
+<tr class="a">
+<td>Special Ice </td>
+<td>35.79% </td>
+<td>67063 </td>
+</tr>
+<tr>
+<td>Physical Dragon </td>
+<td>32.35% </td>
+<td>74192 </td>
+</tr>
+<tr class="a">
+<td>Physical Dark </td>
+<td>31.06% </td>
+<td>77276 </td>
+</tr>
+<tr>
+<td>Physical Bug </td>
+<td>30.59% </td>
+<td>78455 </td>
+</tr>
+<tr class="a">
+<td>Special Dragon </td>
+<td>30.22% </td>
+<td>79414 </td>
+</tr>
+<tr>
+<td>Physical Ghost </td>
+<td>30.20% </td>
+<td>79458 </td>
+</tr>
+<tr class="a">
+<td>Physical Rock </td>
+<td>29.63% </td>
+<td>80987 </td>
+</tr>
+<tr>
+<td>Special Fire </td>
+<td>29.11% </td>
+<td>82434 </td>
+</tr>
+<tr class="a">
+<td>Special Dark </td>
+<td>29.09% </td>
+<td>82494 </td>
+</tr>
+<tr>
+<td>Special Ghost </td>
+<td>28.80% </td>
+<td>83329 </td>
+</tr>
+<tr class="a">
+<td>Physical Fire </td>
+<td>28.65% </td>
+<td>83775 </td>
+</tr>
+<tr>
+<td>Special Bug </td>
+<td>28.55% </td>
+<td>84062 </td>
+</tr>
+<tr class="a">
+<td>Physical Flying </td>
+<td>28.41% </td>
+<td>84475 </td>
+</tr>
+<tr>
+<td>Special Rock </td>
+<td>27.90% </td>
+<td>86031 </td>
+</tr>
+<tr class="a">
+<td>Physical Typeless </td>
+<td>27.66% </td>
+<td>86752 </td>
+</tr>
+<tr>
+<td>Physical Electric </td>
+<td>27.33% </td>
+<td>87800 </td>
+</tr>
+<tr class="a">
+<td>Special Flying </td>
+<td>27.12% </td>
+<td>88504 </td>
+</tr>
+<tr>
+<td>Special Typeless </td>
+<td>26.52% </td>
+<td>90498 </td>
+</tr>
+<tr class="a">
+<td>Physical Fighting </td>
+<td>26.14% </td>
+<td>91828 </td>
+</tr>
+<tr>
+<td>Special Electric </td>
+<td>25.24% </td>
+<td>95087 </td>
+</tr>
+<tr class="a">
+<td>Physical Ground </td>
+<td>25.21% </td>
+<td>95196 </td>
+</tr>
+<tr>
+<td>Physical Grass </td>
+<td>25.12% </td>
+<td>95541 </td>
+</tr>
+<tr class="a">
+<td>Special Fighting </td>
+<td>24.77% </td>
+<td>96876 </td>
+</tr>
+<tr>
+<td>Special Ground </td>
+<td>24.57% </td>
+<td>97670 </td>
+</tr>
+<tr class="a">
+<td>Physical Normal </td>
+<td>24.07% </td>
+<td>99727 </td>
+</tr>
+<tr>
+<td>Special Grass </td>
+<td>23.67% </td>
+<td>101404 </td>
+</tr>
+<tr class="a">
+<td>Special Water </td>
+<td>23.23% </td>
+<td>103330 </td>
+</tr>
+<tr>
+<td>Physical Water </td>
+<td>23.17% </td>
+<td>103584 </td>
+</tr>
+<tr class="a">
+<td>Physical Steel </td>
+<td>22.96% </td>
+<td>104515 </td>
+</tr>
+<tr>
+<td>Physical Poison </td>
+<td>22.73% </td>
+<td>105606 </td>
+</tr>
+<tr class="a">
+<td>Special Normal </td>
+<td>22.66% </td>
+<td>105923 </td>
+</tr>
+<tr>
+<td>Special Steel </td>
+<td>22.03% </td>
+<td>108965 </td>
+</tr>
+<tr class="a">
+<td>Special Poison </td>
+<td>20.68% </td>
+<td>116073 </td>
+</tr>
+<tr>
+<td>Physical Psychic </td>
+<td>20.36% </td>
+<td>117885 </td>
+</tr>
+<tr class="a">
+<td>Special Psychic </td>
+<td>19.21% </td>
+<td>124966 </td>
+</tr>
+</tbody>
+</table>
+
+<table class="sortable">
+<thead>
+<tr class="a">
+<th>Type </th>
+<th>ATE </th>
+<th>ATME </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ice </td>
+<td>36.33% </td>
+<td>66063 </td>
+</tr>
+<tr class="a">
+<td>Dragon </td>
+<td>31.28% </td>
+<td>76715 </td>
+</tr>
+<tr>
+<td>Dark </td>
+<td>30.08% </td>
+<td>79800 </td>
+</tr>
+<tr class="a">
+<td>Bug </td>
+<td>29.57% </td>
+<td>81162 </td>
+</tr>
+<tr>
+<td>Ghost </td>
+<td>29.50% </td>
+<td>81347 </td>
+</tr>
+<tr class="a">
+<td>Fire </td>
+<td>28.88% </td>
+<td>83099 </td>
+</tr>
+<tr>
+<td>Rock </td>
+<td>28.77% </td>
+<td>83433 </td>
+</tr>
+<tr class="a">
+<td>Flying </td>
+<td>27.76% </td>
+<td>86443 </td>
+</tr>
+<tr>
+<td>Typeless </td>
+<td>27.09% </td>
+<td>88585 </td>
+</tr>
+<tr class="a">
+<td>Electric </td>
+<td>26.29% </td>
+<td>91298 </td>
+</tr>
+<tr>
+<td>Fighting </td>
+<td>25.45% </td>
+<td>94285 </td>
+</tr>
+<tr class="a">
+<td>Ground </td>
+<td>24.89% </td>
+<td>96418 </td>
+</tr>
+<tr>
+<td>Grass </td>
+<td>24.39% </td>
+<td>98385 </td>
+</tr>
+<tr class="a">
+<td>Normal </td>
+<td>23.36% </td>
+<td>102731 </td>
+</tr>
+<tr>
+<td>Water </td>
+<td>23.20% </td>
+<td>103457 </td>
+</tr>
+<tr class="a">
+<td>Steel </td>
+<td>22.49% </td>
+<td>106693 </td>
+</tr>
+<tr>
+<td>Poison </td>
+<td>21.70% </td>
+<td>110593 </td>
+</tr>
+<tr class="a">
+<td>Psychic </td>
+<td>19.78% </td>
+<td>121322 </td>
+</tr>
+</tbody>
+</table>
+
+<h2>Examples of how to use ATME</h2>
+
+<p>For our first example, say we want to see the difference in damage between Thunderbolt and Sludge Bomb on Gengar in the Standard metagame.</p>
+
+<p>Sludge Bomb has 90 base power and gets STAB. Its ATME is 120991. Hence its estimated power in the Standard metagame would be 90 * 1.5 / 120991 = 0.00112.</p>
+
+<p>Thunderbolt has 95 base power. Its ATME is 80264. Hence its estimated power in the Standard metagame would be 95 / 80264 = 0.00118.
+Hence the use of Thunderbolt over Sludge Bomb on Gengar is justified, even though Gengar gets STAB on the move.</p>
+
+<p>For a second example, suppose we have a mixed Blaziken in UU and we’re pondering whether to use ThunderPunch or Hidden Power Electric. We’ll assume that it has 324 Atk stat and 350 SpA stat.</p>
+
+<p>ThunderPunch has 75 base power. Its ATME is 74357. Hence its estimated power in the UU metagame would be 324 * 75 / 74357 = 0.3268 (32.68%).</p>
+
+<p>Hidden Power Electric has 70 base power. Its ATME is 75962. Hence its estimated power in the UU metagame would be 350 * 70 / 75962 = 0.3225 (32.25%).</p>
+
+<p>Hence they are basically equivalent as far as average damage is concerned. The choice of the moves would then go down to what you’re going to use your Electric move against, whether against physically-defensive Pokemon or specially-defensive ones. Note also that the percentages produced by the above calculations are the estimated average damage that the moves would deal in the UU metagame by that particular Blaziken.</p>
+
+<table id="smogheader">
+<tr>
+<td class="left"><a href="using_surprise">&laquo; Previous Article</a></td>
+<td class="middle"><a href="/smog/issue3/">Home</a></td>
+<td class="right"><a href="uu_analysis">Next Article &raquo;</a></td>
+</tr>
+</table>

@@ -1,0 +1,30 @@
+[title]
+Aurumoth
+[head]
+<link rel="stylesheet" type="text/css" href="/media/dex/dex.css" />
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_template.js"></script>
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_database.js"></script>
+[header]
+[page]
+<script language="JavaScript">
+<!--
+var cap = Aurumoth();
+
+cap.heightFeet = 6;
+cap.heightInches = 11;
+cap.weightPounds = 425.5;
+cap.weightKilos = 193;
+cap.eggGroup1 = "Bug";
+
+cap.topicLeader = "bugmaniacbob";
+cap.conceptCreator = "capefeather"
+cap.statSpreadCreator = "capefeather";
+cap.designArtist = "KoA";
+cap.spriteArtist = "Ice-cold Claws";
+cap.nameCreator = "Unitas";
+cap.movepoolCreator = "Korski";
+cap.playtestChampion = "Windsong";
+
+document.write(composeDexPage(cap));
+//-->
+</script>

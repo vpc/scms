@@ -1,0 +1,607 @@
+[title]
+The Pokemon Dictionary
+[head]
+<meta name="description" content="An explanation of commonly used terminology by competitive Pokémon players." />
+[page] 
+<div class="author">By <a href="/forums/member.php?u=1">chaos</a> and <a href="/forums/member.php?u=8840">Tangerine</a>, maintained by various contributors.  Art by <a href="/forums/member.php?u=26964">Komodo</a>.</div>
+
+<div style="float: right; margin-left: 10px;"><img src="http://i.imgur.com/NVgmA.png" alt="" /></div>
+
+<ol class="toc">
+<li><a href="#gens">Generations</a></li>
+<li><a href="#playstyles">Styles of Play</a></li>
+<li><a href="#roles">Commonly Used Roles</a></li>
+<li><a href="#gensets">General Movesets</a></li>
+<li><a href="#terms">Competitive Abbreviations and Commonly Used Terms</a></li>
+<li><a href="#abbrev">Move and Item Abbreviations</a></li>
+<li><a href="#nameabbr">Pokémon Name Abbreviations</a></li>
+<li><a href="#sets">Specific Sets and Pokémon Combinations</a></li>
+</ol>
+
+<h2><a name="gens">Generations</a></h2>
+
+<p>In competitive play, the cartridge games are segregated into generations, or groups of games with similar game mechanics. Generations generally correspond to Nintendo's handhelds and are named after the initial two games released on the platform.</p>
+
+<p>Here are the currently recognized generations:</p>
+
+<h3>RBY (Red, Blue, and Yellow)</h3>
+<p>The games Red, Green, Blue and Yellow make up the first generation. The first generation is defined by its heavy centralization around a few Pokemon, due to the small number of available Pokemon and unbalanced mechanics. The generation was largely Speed oriented, which lead to the popularity of paralysis-inflicting moves, such as Thunder Wave and Body Slam. RBY also had many glitches that may be implemented in a battling simulator.</p>
+
+<h3>GSC (Gold, Silver, and Crystal)</h3>
+<p>Gold / Silver / Crystal is the second generation, most notable for its splitting of the Special stat into Special Attack and Special Defense, in addition to adding two new types of Pokemon: Steel and Dark. The generation also introduced items, such as Leftovers, which helped promote the slow pace and defensively oriented nature it is famous for. Despite the stall-ish nature of the game, stallbreaking tactics can still be effective.</p>
+
+<h3>ADV (Advance, or Ruby, Sapphire, and Emerald)</h3>
+<p>The games Ruby / Sapphire / Emerald / FireRed / LeafGreen make up the third generation; it introduced abilities, natures, revamped the IV system, and made stat experience into Effort Values. The introduction of items, such as Choice Band, led to more varied strategies. Introduction of many new Pokemon also made it more difficult to cover every threat. The metagame never truly stabilized despite the heavy usage of certain key Pokemon, such as Blissey, Skarmory, Tyranitar, Celebi, and Swampert.</p>
+
+<h3>DPP (Diamond, Pearl, and Platinum)</h3>
+<p>Diamond, Pearl, and Platinum make up the fourth generation and it is famous for changing attacking mechanics so that physical and special moves were differentiated individually rather than by their type. It introduced a particularly large number of quality Pokemon by giving many lackluster Pokemon new evolutions, while introducing many new attacks that gave many Pokemon from previous generations a chance to shine. This large number of Pokemon to choose from also meant that there were too many threats to prepare for, making it impossible to counter everything your opponent attempts to do. Team advantage also became more significant, with many players gaining advantages before the battle even begins.</p>
+
+<h3>BW (Black and White)</h3>
+<p>Black and White is the current generation of Pokemon and, while it introduced no new (well, known) game mechanincs, it brought with it 155 brand-spanking new Pokemon.  It also upgraded a lot of Pokemon through the Dream World, which gave many past Pokemon a second or third ability they previously did not have access to.  A new battle mechanic, the Team Preview, has also revolutionized the lead metagame, inadvertingly making some of the most staple leads of DPP obsolete.  All of this, combined with even more new moves, abilities, and items, have expanded the metagame almost exponentially.</p>  
+
+<h2><a name="playstyles">Styles of Play</a></h2>
+
+<h3>Offense</h3>
+<p>Offensive teams rely on outspeeding and outdamaging the opponent directly. Players using this style of play will often utilize hard-hitting Pokemon and use resistances and immunities to switch into attacks as opposed to defined walls to take hits. Tactics include: lures to eliminate counters, using stat boosters, and utilizing a quick Stealth Rock in order to facilitate kills. The suicide lead is an expansion of the quick Stealth Rock concept and is often used by offensive teams. A suicide lead is essentially a Pokemon in the lead position whose role is to stop the opponent from setting up Stealth Rock and at the same time set up its own Stealth Rock, such as Aerodactyl and Azelf.</p>
+
+<h3>Stall</h3>
+<p>Stall teams are based off of residual damage. This damage can come in many forms, including: sandstorm, hail, Toxic Spikes, Spikes, and Stealth Rock. The majority of Pokemon on a team like this will have good defenses and contribute to the overall goal of indirectly fainting the opponent's team. Tactics include using Ghosts to block Rapid Spin (a move which can eliminate entry hazards), setting up entry hazards as fast as possible, and using Pseudo-Hazing (Phazing) moves, such as Perish Song, Whirlwind, and Roar.</p>
+
+<h3>Balance</h3>
+<p>This type of team does not rely on any single type of Pokemon. Generally speaking, balanced teams have a couple of sweepers, backed up by a number of walls and/or tanks. Most teams of this type will utilize a form or two of entry hazards. The most successful balanced teams often revolve around a certain threat, while the other teammates seek to help guarantee a sweep by the said threat.</p>
+
+<h2><a name="roles">Commonly Used Roles</a></h2>
+
+<p>All of the definitions of the commonly used roles are listed below, along with an example to gain a better understanding of the definition.</p>
+
+<dl>
+<dt>Attacking Lead</dt>
+<dd>A Pokemon in the lead position who attacks immediately and generally does not do any setting up whatsoever.</dd>
+<dd><em>Machamp is the most reliable and terrifying attacking lead in the metagame particularly due to DynamicPunch's confusion.</em></dd>
+
+<dt>Baton Passer</dt>
+<dd>A Pokemon who uses Baton Pass to pass the boosts it accumulates through setup moves such as Swords Dance and Agility to a more suitable teammate.</dd>
+<dd><em>Access to Taunt, Swords Dance, and Rock Polish, in addition to its great Speed and bulk, make Gliscor a great Baton Passer.</em></dd>
+
+<dt>Cleric</dt>
+<dd>A Pokemon who uses Aromatherapy or Heal Bell to cure itself and its team of status.</dd>
+<dd><em>With Blissey's fantastic Special Defense and HP stats, she has many opportunities to help her team out with Aromatherapy, making her a great cleric.</em></dd>
+
+<dt>Dedicated Lead</dt>
+<dd>A Pokemon used mostly or only as a lead in BW, to the general exclusion of the other five team members from the lead role.</dd>
+<dd><em>Aerodactyl is a dedicated lead that can reliably set up Stealth Rock due to its very high Speed and access to Taunt.</em></dd>
+
+<dt>Dual Screener</dt>
+<dd>A Pokemon who uses moves like Reflect, Light Screen, and Wish with the intent of passing them to another Pokemon.</dd>
+<dd><em>Bronzong's great bulkiness, typing, and access to Explosion make it one of the most durable and reliable of dual screeners to choose from.</em></dd>
+
+<dt>Glass Cannon</dt>
+<dd>A Pokemon who has high offensive power but is very defensively frail.</dd>
+<dd><em>Gengar's high base 130 Special Attack, yet pathetic defensive stats, make it a prominent specially-oriented glass cannon.</em></dd>
+
+<dt>Mixed Sweeper</dt> 
+<dd>A sweeper who uses both physical and special offensive moves to do damage. Mixed sweepers are referred to with the Mix prefix.</dd>
+<dd><em>Infernape's ability to use both physical and special attacks (referred to as MixApe) in one set makes it one of the most common and effective mixed sweepers available.</em></dd>
+
+<dt>Phazer / Pseudo-hazer / Shuffler</dt>
+<dd>A Pokemon who uses moves that may force the opponent to switch, such as Roar, Whirlwind, Perish Song, and Yawn.</dd>
+<dd><em>Perish Song Celebi is commonly seen on stall-oriented teams in order to eliminate set-up sweepers that can cause a severe amount of trouble to its team.</em></dd>
+
+<dt>Pivot (Defensive / Offensive)</dt>
+<dd>A pivot is a Pokemon that is generally only used for switching. Due to good defensive stats and a solid defensive typing, they can usually take little damage as they switch in, and the opposing switch they force allows the player to switch again safely to another Pokemon. An offensive pivot will force a switch by threatening KO on the opponent, thus obtaining momentum, whereas a defensive pivot will be difficult to break past, and thus will slow the opponent's momentum.</dd>
+
+<dt>Physical Sweeper</dt>
+<dd>A Pokemon who uses physically offensive moves to do damage and bring down an opponent's team. Many carry Attack boosting moves, like Swords Dance or Dragon Dance.</dd>
+<dd><em>Swords Dance Lucario is a very prominent physical sweeper. Having access to Close Combat, Crunch, Ice Punch, and ExtremeSpeed, it is capable of sweeping an entire unprepared team with ease after one Swords Dance boost.</em></dd>
+
+<dt>Rapid Spinner / Spinner</dt>
+<dd>A Pokemon who uses Rapid Spin to remove entry hazards.</dd>
+<dd><em>Boasting a high Speed stat and powerful attacks, Starmie is considered the best offensive Rapid Spinner in the game. No Ghost-type (the only type of Pokemon that ignores Rapid Spin) will enjoy taking a hard-hitting Hydro Pump from the spinning star.</em></dd>
+
+<dt>Revenge Killer</dt>
+<dd>A Pokemon whose main purpose on a team is to revenge kill or trap certain threats, usually those who your team lacks a solid defense against. Generally characterized by high Speed and frailty.</dd>
+<dd><em>Mamoswine's access to Ice Shard allows it to be known as a very effective revenge killer to Flygon.</em></dd>
+
+<dt>Special Sweeper</dt>
+<dd>A Pokemon who uses specially offensive moves to do damage and bring down an opponent's team. Many carry Special Attack boosting moves, like Nasty Plot or Calm Mind.</dd> 
+<dd><em>Porygon-Z's access to Nasty Plot and power-increasing abilities give it excellent special sweeping capabilities. Its STAB Tri Attack and other powerful attacks, such as Thunderbolt and Ice Beam, are ridiculously powerful when boosted, ripping entire unprepared teams to shreds.</em></dd>
+
+<dt>Spinblocker</dt>
+<dd>A Ghost-type Pokemon who is used to stop the opponent from using Rapid Spin successfully.</dd>
+<dd><em>Rotom-A is the most common spinblocker, thanks to its excellent typing, movepool, and stats.</em></dd>
+
+<dt>Stallbreaker</dt>
+<dd>A Pokemon that immediately threatens stall not for breaking down walls, rather for preventing the Pokemon commonly found on those teams from executing their standard strategies and thus hindering or entirely shutting down the team's defensive core.</dd>
+<dd><em>Gliscor has all of the necessary tools to be an effective stallbreaker, in particular Taunt, Roost, high Speed, select immunities, and an excellent STAB type.</em></dd>
+
+<dt>Status Absorber</dt> 
+<dd>A Pokemon who can avoid, remove, or use to its advantage one or more status effects, usually by using the RestTalk combination or specific abilities.</dd>
+<dd><em>Heracross is a common Pokemon that takes advantage of status, most notably poison or burn. Teams that have problems with sleep leads often carry sleep absorbers with Rest and Sleep Talk.</em></dd>
+
+<dt>Suicide Lead</dt>
+<dd>A lead Pokemon, who usually pack low defenses, that tries to set up entry hazards quickly and prevent opponents from doing the same, usually by Taunt, before dying.</dd>
+<dd><em>With access to Taunt, Stealth Rock, Explosion, and high offensive and Speed stats, Azelf is by far the most commonly used and successful suicide lead.</em></dd>
+
+<dt>Supporter</dt> 
+<dd>A Pokemon who uses non-offensive moves which benefit the team.</dd>
+<dd><em>Cresselia has various supportive options in her movepool that can be helpful for her team. Some of these include: Thunder Wave, Toxic, Reflect, Light Screen, and Lunar Dance.</em></dd>
+
+<dt>Tank</dt>
+<dd>A Pokemon intended to take either physical or special attacks and hit back, but does not have to do so consistently over the entire course of a match.</dd>
+<dd><em>Bronzong is a very potent tank. With Gyro Ball, Explosion, and massive defenses, it can hit enemies hard and take many hits effectively over the course of a match.</em></dd>
+
+<dt>Trapper</dt>
+<dd>A Pokemon intended to corner the opponent and put them into a "lose-lose" situation, where it is dangerous for them to both switch out or stay in and attack, through the use of moves like Pursuit, Sucker Punch, or the aid of a Choice Scarf.</dd>
+<dd><em>ScarfTar is a very effective trapper that can essentially eliminate the opponent's Ghost-type, such as Rotom-A, through the use of a quick Pursuit.</em></dd>
+
+<dt>Utility Pokemon</dt>
+<dd>A Pokemon who is capable of performing a large variety of tasks, and is usually tailored to one specific task that the team requires. Often, this will be because of a combination of good base stats and a wide movepool.</dd>
+<dd><em>Jirachi is an excellent utility Pokemon, as it is capable of functioning as an effective lead, a defensive supporter, or an offensive sweeper, both physical and special. However, it can only be one of these positions at a time.</em></dd>
+
+<dt>Utility Counter</dt>
+<dd>A defensive Pokemon capable of being tailored to switch in and counter a variety of different threats, but not all at once. Primarily added to a team to counter a specific threat while also dealing with miscellaneous other threats.</dd>
+<dd><em>Bronzong is an effective utility counter, as its wide array of options allow it to take on a variety of different opponents, but it must configure its options for certain threats.</em></dd>
+
+<dt>Wall</dt>
+<dd>A Pokemon intended to take either physical or special attacks extremely effectively and consistently over the course of a battle.</dd>
+<dd><em>Skarmory's enormous physical Defense makes it one of the most sturdy physical wall in the game. It also has access to Spikes, Roost, and Whirlwind, three moves that Skarmory has many opportunities to use.</em></dd>
+
+<dt>Wallbreaker</dt>
+<dd>An offensively oriented Pokemon meant specifically for crushing walls rather than sweeping. This is usually done with extra powerful offensive stats and commonly use both physical and special moves in their moveset.</dd>
+<dd><em>With Infernape's ideally placed stats and STABs almost specifically designed to tear down many of the most common walls in the game, he makes for an excellent wallbreaker.</em></dd>
+</dl>
+
+<h2><a name="gensets">General Movesets</a></h2>
+
+<dl>
+<dt>BoltBeam</dt> 
+<dd>Thunderbolt and Ice Beam. Any meshing of Electric- and Ice-type coverage is generally referred to as pseudo-BoltBeam coverage.</dd>
+
+<dt>ChestoRest</dt>
+<dd>Using a Chesto Berry and Rest in tandem to wake up instantly after using Rest.</dd>
+
+<dt>EdgeQuake</dt> 
+<dd>Stone Edge and Earthquake. Any meshing of Rock- and Ground-type coverage is generally referred to as pseudo-EdgeQuake coverage.</dd>
+
+<dt>EndFlail</dt>
+<dd>Endure and Flail.</dd>
+
+<dt>EndRev</dt> 
+<dd>Endure and Reversal.</dd>
+
+<dt>EndSalac</dt> 
+<dd>Endure and a Salac Berry.</dd>
+
+<dt>Paraflinch</dt> 
+<dd>Utilizing both paralysis and flinches to keep an enemy Pokémon from being able to attack.</dd>
+
+<dt>Parafusion</dt> 
+<dd>Utilizing both paralysis and confusion to keep an enemy Pokémon from being able to attack.</dd>
+
+<dt>QuakeEdge</dt>
+<dd>A synonym to EdgeQuake.</dd>
+
+<dt>RestTalk</dt>
+<dd>Rest and Sleep Talk.</dd>
+
+<dt>SlideQuake</dt>
+<dd>Rock Slide and Earthquake.</dd>
+
+<dt>SmashPass</dt>
+<dd>Shell Smash and Baton Pass.</dd>
+
+<dt>SubCM</dt> 
+<dd>Substitute and Calm Mind.</dd>
+
+<dt>SubPunch</dt> 
+<dd>Substitute and Focus Punch.</dd>
+
+<dt>SubRoost</dt> 
+<dd>Substitute and Roost.</dd>
+
+<dt>SubSalac / SubLiechi / SubPetaya</dt> 
+<dd>Substitute and either a Salac Berry, Liechi Berry, or Petaya Berry, respectively.</dd>
+
+<dt>SubSeed</dt>
+<dd>Substitute and Leech Seed.</dd>
+
+<dt>SubSplit</dt>
+<dd>Substitute and Pain Split.</dd>
+</dl>
+
+<h2><a name="terms">Competitive Abbreviations and Commonly Used Terms</a></h2>
+
+<p>This section is a series of abbreviations and commonly used terms related to the competitive metagames or competitive Pokemon in general. Set or Pokemon related abbreviations are below. All of the definitions of the commonly used terms and abbreviations are listed below, along with an example of how they are used to gain a better understanding of the definition.</p>
+
+<dl>
+<dt>4drag2mag</dt>
+<dd>The use of four Dragon-type Pokemon and two Pokemon with the ability Magnet Pull. The Magnet Pull users often carry Hidden Power Fire or Ground to easily defeat opposing Steel-types, the only Pokemon resistant to Dragon-type moves. Once the Steel Pokemon are removed, the Dragon-types are free to sweep the opposing team. This name is a coined term, and oftentimes is used even when talking about using a single Dragon-type Pokemon alongside a single Magnet Pull Pokemon.</dd>
+<dd><em>A DP OU team consisting of Flygon, Latias, Dragonite, Salamence, Magnezone, and Magneton would be considered a 4Drag2Mag team.</em></dd>
+
+<dt>Auto-Weather</dt>
+<dd>A Pokemon whose ability creates a weather effect, such as sand, rain, hail, or sun, when they are brought into play.</dd>
+<dd><em>Tyranitar's ability, Sand Stream, allows it to set up an auto-weather effect in the form of a sandstorm.</em></dd>
+
+<dt>BlizzSpam</dt>
+<dd>Using Abomasnow or Snover to abuse their Snow Warning ability to constantly use 100% accurate Blizzards.</dd>
+
+<dt>BP</dt>
+<dd>Base Power of a move.</dd>
+<dd><em>Dragonite's Outrage has a BP of 120.</em></dd>
+
+<dt>BST</dt>
+<dd>Refers to the total number of a Pokemon's base stats.</dd>
+<dd><em>Celebi has a BST of 600.</em></dd>
+
+<dt>Double Dragon</dt>
+<dd>A strategy revolving around using two or even three Pokemon with a similar set of checks. The idea is that while one of the Pokemon can be used to weaken the enemy's checks, the other(s) can power through the weakened checks and sweep. Although the name originated with multiple Dragon-types on a team strategies in DPP, some people extend it to other types of Pokemon as well.</dd>
+<dd><em>Using Rayquaza and Salamence on the same DPP Ubers team is a very effective strategy to pummel the opponent with one, and finish the job with the other.</em></dd> 
+
+<dt>Dual Screens</dt>
+<dd>Refers to Light Screen and Reflect together.</dd>
+<dd><em>Azelf is very effective at setting up dual screens with its high Speed stat and escape move in Explosion.</em></dd>
+
+<dt>Entry Hazards</dt>
+<dd>Any of the attacks which deal damage as a Pokemon switches in - Stealth Rock, Spikes, and Toxic Spikes.</dd>
+<dd><em>Forretress can set up all three forms of entry hazards.</em></dd>
+
+<dt>EVs</dt>
+<dd>Effort Values.</dd>
+<dd><em>The maximum amount of EVs a Pokemon can have in total is 510.</em></dd>
+
+<dt>Goodstuff</dt>
+<dd>A VGC term used to describe a team composed of various Pokemon that function effectively on their own, with no set theme.</dd>
+
+<dt>Hax</dt>
+<dd>An event which has a low probability of happening which critically affects the outcome of a match. Also referred to as luck in general.</dd>
+<dd><em>Togekiss's ability, Serene Grace, increases its chance at causing hax on the opponent.</em></dd>
+
+<dt>HO</dt>
+<dd>HO stands for hyper offense and sometimes for heavy offense, which is the same thing. It's typically used to describe a very offensively oriented team, with only minimal type synergy for defense. Teams usually consist of Pokemon with high Speed and Attack and/or Special Attacks stats and only moderate defenses. Oftentimes, these teams are supplemented with dual screens leads that allow the sweepers to set up multiple times before rampaging through the opposition.</dd>
+<dd><em>Gyarados and Infernape are common Pokemon seen on heavy offense teams due to their wide movepools, immense threat posed once setup, and high Speed.</em></dd>
+
+<dt>IVs</dt>
+<dd>Individual Values.</dd>
+<dd><em>The highest number of IVs a Pokemon can have in one stat is 31.</em></dd>
+
+<dt>LC</dt>
+<dd>Little Cup, a competitive metagame that only allows the usage of Pokemon that are in their most basic form. More information can be found <a href="/dp/articles/little_cup_guide">here</a>.</dd>
+<dd><em>Dratini is an excellent LC sweeper because of its high Attack stat and access to Dragon Dance.</em></dd>
+
+<dt>NFE</dt>
+<dd>Not Fully Evolved, a Pokemon that is not in its final evolution stage.</dd>
+<dd><em>Chansey is one of the few viable NFE Pokemon that is used in OU.</em></dd> 
+
+<dt>NVE</dt>
+<dd>Not Very Effective, a move that does lower damage due to a Pokemon's resistances.</dd>
+<dd><em>Ice Beam is NVE against Vaporeon.</em></dd>
+
+<dt>OHKO</dt>
+<dd>Short for "One-Hit Knockout", though it can also refer to moves that KO the opponent in one hit, such as Sheer Cold and Horn Drill.</dd> 
+<dd><em>Magnezone can OHKO Gyarados with Thunderbolt.</em></dd>
+
+<dt>OTR</dt>
+<dd>Short for "Offensive Trick Room," which commonly refers to a Pokemon that can set not only set up Trick Room, but also use it to sweep itself, instead of switching out to a teammate to sweep.</dd>
+<dd><em>Reuniclus can use an extremely effective OTR set to sweep the opposition late-game.</em></dd>
+
+<dt>Pinch Berry</dt>
+<dd>A stat-boosting Berry that activates when the holder falls below 25% health. Often used in conjunction with Substitute, as Substituting three times activates the Berry if you have an odd HP stat.</dd> 
+<dd><em>The most common Pinch Berries are: Salac (boosts Speed), Petaya (boosts Special Attack), and Liechi (boosts Attack).</em></dd> 
+
+<dt>Priority</dt>
+<dd>Any attack which will make the user always move first, unless the opposing Pokemon has a higher Speed stat and uses a priority move as well.</dd>
+<dd><em>Sucker Punch and ExtremeSpeed are two of the strongest priority moves in the game.</em></dd>
+
+<dt>Residual Damage</dt>
+<dd>Damage taken by a Pokemon without having been attacked, whether by recoil (Life Orb or otherwise), weather (hail or sandstorm), status effects (poison or burn), and/or entry hazards.</dd>
+<dd><em>One of Salamence's biggest problems is dealing with the amount of residual damage it is vulnerable to.</em></dd> 
+
+<dt>Revenge Kill</dt>
+<dd>KOing an opposing Pokemon immediately after one of your own Pokemon has fainted, therefore avoiding the risk of switching into an attack.</dd>
+<dd><em>Jolteon revenge killed Gyarados after Gyarados KOed Heatran.</em></dd>
+
+<dt>SS</dt>
+<dd>Sandstorm, usually induced by Sand Stream.</dd>
+
+<dt>STAB</dt>
+<dd>Same Type Attack Bonus, which increases the power of a direct attack by 50% if the one of the user's types is the same as the attack's type.</dd>
+<dd><em>Rotom-A's STAB Thunderbolt and Shadow Ball nearly provide perfect type coverage.</em></dd>
+
+<dt>Team Preview</dt>
+<dd>The main constituent of the Wi-Fi Clause. Players will be able to see the species of the 6 Pokemon the opponent has on their team before the battle commences. <em>NB: Zoroark is revealed as Zoroark in Team Preview</em></dd>
+
+<dt>VGC</dt>
+<dd>Video Game Championships. The official, Nintendo-sponsored events where players take their own game carts and Pokemon and compete for the title of World Champion in a series of national and international events.</dd>
+</dl>
+
+<h2><a name="abbrev">Move and Item Abbreviations</a></h2>
+
+<p>This section is a series of abbreviations for moves and items in competitive Pokemon. Move abbreviations that relate to groups of moves when talked about together are listed in the Competitive Abbreviations section above.</p>
+
+<dl>
+<dt>BB</dt>
+<dd>Brick Break or Brave Bird.</dd>
+
+<dt>BP</dt>
+<dd>Bullet Punch or Baton Pass.</dd>
+
+<dt>BU</dt>
+<dd>Bulk Up.</dd>
+
+<dt>CB / Band</dt>
+<dd>Choice Band.</dd>
+
+<dt>CC</dt>
+<dd>Close Combat in DPP or Cross Chop in ADV.</dd> 
+
+<dt>CM</dt>
+<dd>Calm Mind.</dd>
+
+<dt>DD</dt>
+<dd>Dragon Dance.</dd>
+
+<dt>DM</dt>
+<dd>Draco Meteor.</dd>
+
+<dt>DP</dt>
+<dd>DynamicPunch.</dd>
+
+<dt>DPulse</dt>
+<dd>Dragon Pulse, though sometimes Dark Pulse depending on context.</dd>
+
+<dt>EQ</dt>
+<dd>Earthquake.</dd>
+
+<dt>EP</dt>
+<dd>Earth Power.</dd>
+
+<dt>ESpeed</dt>
+<dd>ExtremeSpeed.</dd>
+
+<dt>Evio</dt>
+<dd>Eviolite.</dd>
+
+<dt>FB</dt>
+<dd>Fire Blast or Focus Blast.</dd>
+
+<dt>FP</dt>
+<dd>Focus Punch.</dd>
+
+<dt>GK</dt>
+<dd>Grass Knot.</dd>
+
+<dt>HP</dt>
+<dd>Hidden Power.</dd>
+
+<dt>HJK</dt>
+<dd>Hi Jump Kick.</dd>
+
+<dt>Lefties</dt>
+<dd>Leftovers.</dd>
+
+<dt>LK</dt>
+<dd>Low Kick or Lovely Kiss in GSC.</dd>
+
+<dt>LO</dt>
+<dd>Life Orb.</dd>
+
+<dt>MM</dt>
+<dd>Meteor Mash.</dd>
+
+<dt>NP</dt>
+<dd>Nasty Plot.</dd>
+
+<dt>Para</dt>
+<dd>Paralysis.</dd>
+
+<dt>RD</dt>
+<dd>Rain Dance.</dd>
+
+<dt>RP</dt>
+<dd>Rock Polish.</dd>
+
+<dt>RS</dt>
+<dd>Rapid Spin.</dd>
+
+<dt>Scarf / Scarfed</dt>
+<dd>Choice Scarf.</dd>
+
+<dt>SD</dt>
+<dd>Swords Dance.</dd>
+
+<dt>SE</dt>
+<dd>Stone Edge.</dd>
+
+<dt>SP</dt>
+<dd>Sucker Punch or Superpower.</dd>
+
+<dt>Specs</dt>
+<dd>Choice Specs.</dd>
+
+<dt>SR</dt>
+<dd>Stealth Rock.</dd>
+
+<dt>SToss</dt>
+<dd>Seismic Toss.</dd>
+
+<dt>Sub</dt>
+<dd>Substitute.</dd>
+
+<dt>TBolt</dt>
+<dd>Thunderbolt.</dd>
+
+<dt>TR</dt>
+<dd>Trick Room.</dd>
+
+<dt>TSpikes</dt>
+<dd>Toxic Spikes.</dd>
+
+<dt>TWave</dt>
+<dd>Thunder Wave.</dd>
+
+<dt>WoW / Wisp</dt>
+<dd>Will-O-Wisp.</dd>
+
+<dt>WW</dt>
+<dd>Whirlwind.</dd>
+</dl>
+
+<h2><a name="nameabbr">Pokémon Name Abbreviations</a></h2>
+
+<p>Shortened names for Pokemon will be listed here.<br />
+<em>NB: Not all are listed here, as names are often used colloquially, and this list only factors major Pokemon.</em></p>
+
+<dl>
+<dt>Alakazam</dt>
+<dd>Commonly referred to as: Zam, Alaka.</dd>
+
+<dt>Blissey</dt>
+<dd>Commonly referred to as: Bliss.</dd>
+
+<dt>Conkeldurr</dt>
+<dd>Commonly referred to as: Conk.</dd>
+
+<dt>Donphan</dt>
+<dd>Commonly referred to as: Phan.</dd>
+
+<dt>Dragonite</dt>
+<dd>Commonly referred to as: Dnite, Nite.</dd>
+
+<dt>Ferrothorn</dt>
+<dd>Commonly referred to as: Ferro, Thorn, Ferry</dd>
+
+<dt>Forretress</dt>
+<dd>Commonly referred to as: Forry.</dd>
+
+<dt>Gyarados</dt>
+<dd>Commonly referred to as: Gyara, Dos.</dd>
+
+<dt>Haxorus</dt>
+<dd>Commonly referred to as: Hax. (Not to be confused with "hax" as in luck in battles).</dd>
+
+<dt>Infernape</dt>
+<dd>Commonly referred to as: Nape, Ape.</dd>
+
+<dt>Jellicent</dt>
+<dd>Commonly referred to as: Jelli, Jelly.</dd>
+
+<dt>Jirachi</dt>
+<dd>Commonly referred to as: Rachi.</dd>
+
+<dt>Landorus</dt>
+<dd>Commonly referred to as: Lando.</dd>
+
+<dt>Lucario</dt>
+<dd>Commonly referred to as: Luke.</dd>
+
+<dt>Magnezone</dt>
+<dd>Commonly referred to as: Mag, Zone, Magna.</dd>
+
+<dt>Mamoswine</dt>
+<dd>Commonly referred to as: Mamo.</dd>
+
+<dt>Metagross</dt>
+<dd>Commonly referred to as: Gross.</dd>
+
+<dt>Reuniclus</dt>
+<dd>Commonly referred to as: Reuni, Rank.</dd>
+
+<dt>Salamence</dt>
+<dd>Commonly referred to as: Mence, Sala.</dd>
+
+<dt>Skarmory</dt>
+<dd>Commonly referred to as: Skarm.</dd>
+
+<dt>Toxicroak</dt>
+<dd>Commonly referred to as: Croak.</dd>
+
+<dt>Tyranitar</dt>
+<dd>Commonly referred to as: TTar, Tar.</dd>
+
+<dt>Volcarona</dt>
+<dd>Commonly referred to as: Volc, Volca.</dd>
+</dl>
+
+<h2><a name="sets">Specific Sets and Pokémon Combinations</a></h2>
+
+<p>Specific Set names that are unique and do not conform with the typical competitive Pokemon roles are listed here. Common Pokemon combinations that are frequently referred to together are listed here as well.</p>
+
+<dl>
+<dt>AgiliGross</dt> 
+<dd>Metagross with Agility.</dd>
+
+<dt>BellyZard</dt> 
+<dd>Charizard with Belly Drum.</dd>
+
+<dt>Britscor</dt>
+<dd>A typical stallbreaker Gliscor paired with Tyranitar and generally annoying to take down due to Sand Veil abuse and reliable healing. The set is named after a British user that won many matches with it during a Smogon Tour.</dd>
+
+<dt>BulkyGyara</dt> 
+<dd>Gyarados with defensive EVs. It's aimed to take hits to set up Dragon Dance easier.</dd>
+
+<dt>CeleTran</dt> 
+<dd>Celebi and Heatran being used together as a defensive core. Celebi is resistant to Heatran's Water-, Ground-, and Fighting-type weaknesses. Heatran is resistant to Celebi's Dark-, Ice-, Bug-, Ghost-, and Flying-type weaknesses and is immune to its Fire-type weakness.</dd>
+
+<dt>CroCune</dt> 
+<dd>Suicune with Surf, Calm Mind, Rest, and Sleep Talk. It's called "CroCune" because the user Cromat was the one who popularized it.</dd>
+
+<dt>CurseLax</dt> 
+<dd>Snorlax with Curse.</dd>
+
+<dt>DrizzleToed</dt>
+<dd>Politoed with the ability Drizzle.</dd>
+
+<dt>DroughtTales</dt>
+<dd>Ninetales with the ability Drought.</dd>
+
+<dt>GyaraJolt / GyaraVire</dt> 
+<dd>Gyarados and Jolteon / Electivire being used together as an offensive core. Jolteon switches into Gyarados's Electric-type weakness to recover 25% of its health, thanks to Volt Absorb, while Electivire gains a +1 Speed boost from Motor Drive. Gyarados switches into Ground attacks aimed at the Electric-type.</dd>
+
+<dt>Lati@s</dt> 
+<dd>Latias and Latios collectively.</dd>
+
+<dt>MixMence</dt>
+<dd>Either of two mixed Salamence movesets with Life Orb. Classic MixMence is Rash with Draco Meteor, Fire Blast, Brick Break, and Roost and New MixMence is Naive with Draco Meteor, Earthquake, Flamethrower, and Outrage.</dd>
+
+<dt>MixApe</dt>
+<dd>Any one of various mixed Infernape sets, with the distinguishing feature of the moveset being the moves Close Combat and Fire Blast.</dd>
+
+<dt>MixPert</dt> 
+<dd>Swampert that takes advantage of his respectable mixed offenses to prevent common Pokémon from setting up as he sets up.</dd>
+
+<dt>MixVire</dt>
+<dd>An Electivire that takes advantage of his powerful mixed sweeping stats in order to be very difficult to wall.</dd>
+
+<dt>RegiBro</dt>
+<dd>Registeel and Slowbro being used together as a defensive core. Registeel is resistant to Slowbro's Ghost-, Dark-, Bug-, and Grass-type weaknesses and takes Electric-type attacks relatively well. Slowbro takes Registeel's Fire- and Fighting-type weaknesses and takes Ground-type attacks relatively well.</dd>
+
+<dt>ScarfTar</dt>
+<dd>Tyranitar holding a Choice Scarf, often utilized as an effective revenge killer and trapper.</dd>
+
+<dt>SkarmBliss</dt> 
+<dd>Skarmory and Blissey being used together as a defensive core. Skarmory takes the physical attacks that Blissey can't take. Blissey takes the special attacks Skarmory can't take.</dd>
+
+<dt>StallRein</dt>
+<dd>Walrein using Substitute and Protect under hail to stall for up to 32 turns. Also uses Leftovers and its ability, Ice Body, to fully replenish the HP lost from Substitute over two turns.</dd>
+
+<dt>TechniLoom</dt>
+<dd>A Breloom with the ability, Technician (which it obtained through the Dream World in BW), and a set with low Base Powered moves, such as Bullet Seed and Mach Punch.</dd>
+
+<dt>TechniTop</dt>
+<dd>Hitmontop with the ability, Technician, and a set with low Base Powered priority moves, such as Bullet Punch, Fake Out, and Mach Punch.</dd>
+
+<dt>Tinkerbell</dt>
+<dd>Celebi that mixes its offensive and defensive talents into one set that is both difficult to KO and difficult to take repeated attacks from.</dd>
+
+<dt>TormenTran</dt>
+<dd>Heatran with Torment and moves that waste turns, such as Substitute and Protect.</dd>
+
+<dt>Tyraniboah</dt>
+<dd>Tyranitar with Substitute, Focus Punch, Crunch / Dark Pulse, and Thunderbolt / Flamethrower / Ice Beam.</dd>
+
+<dt>Vadergunk</dt>
+<dd>Any Croagunk with four attacking moves thrown on the end of a team in LC.</dd>
+
+<dt>Energy Ball Jellicent</dt>
+<dd>supidest shit ever.</dd>
+</dl>

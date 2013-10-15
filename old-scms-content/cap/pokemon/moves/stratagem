@@ -1,0 +1,84 @@
+[title]
+Stratagem
+[head]
+<link rel="stylesheet" type="text/css" href="/media/dex/dex.css" />
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_template.js"></script>
+<script language="JavaScript" src="http://cap.smogon.com/web/cap_database.js"></script>
+[header]
+[page]
+<script language="JavaScript">
+var cap = Stratagem();
+
+cap.movesCustom = [ PaleoWave() ];
+
+cap.movesLevel[0] = ["Weather Ball", "Tackle", "Defense Curl", "Rollout"];
+cap.movesLevel[5] = "Defense Curl";
+cap.movesLevel[8] = "Rollout";
+cap.movesLevel[15] = "Rock Blast";
+cap.movesLevel[17] = "Disable";
+cap.movesLevel[20] = "Acupressure";
+cap.movesLevel[25] = "Mud Shot";
+cap.movesLevel[29] = "Power Gem";
+cap.movesLevel[32] = "Double-Edge";
+cap.movesLevel[37] = "Metal Sound";
+cap.movesLevel[42] = "Paleo Wave";
+cap.movesLevel[50] = "Head Smash";
+
+cap.movesTM[4] = "Calm Mind";
+cap.movesTM[6] = "Toxic";
+cap.movesTM[10] = "Hidden Power";
+cap.movesTM[11] = "Sunny Day";
+cap.movesTM[15] = "Hyper Beam";
+cap.movesTM[17] = "Protect";
+cap.movesTM[18] = "Rain Dance";
+cap.movesTM[19] = "Giga Drain";
+cap.movesTM[21] = "Frustration";
+cap.movesTM[26] = "Earthquake";
+cap.movesTM[27] = "Return";
+cap.movesTM[30] = "Shadow Ball";
+cap.movesTM[32] = "Double Team";
+cap.movesTM[35] = "Flamethrower";
+cap.movesTM[37] = "Sandstorm";
+cap.movesTM[38] = "Fire Blast";
+cap.movesTM[39] = "Rock Tomb";
+cap.movesTM[40] = "Aerial Ace";
+cap.movesTM[42] = "Facade";
+cap.movesTM[43] = "Secret Power";
+cap.movesTM[44] = "Rest";
+cap.movesTM[53] = "Energy Ball";
+cap.movesTM[54] = "False Swipe";
+cap.movesTM[58] = "Endure";
+cap.movesTM[63] = "Embargo";
+cap.movesTM[64] = "Explosion";
+cap.movesTM[68] = "Giga Impact";
+cap.movesTM[69] = "Rock Polish";
+cap.movesTM[70] = "Flash";
+cap.movesTM[71] = "Stone Edge";
+cap.movesTM[76] = "Stealth Rock";
+cap.movesTM[80] = "Rock Slide";
+cap.movesTM[82] = "Sleep Talk";
+cap.movesTM[83] = "Natural Gift";
+cap.movesTM[90] = "Substitute";
+
+cap.movesHM[1] = "Cut";
+cap.movesHM[6] = "Rock Smash";
+cap.movesHM[8] = "Rock Climb";
+
+cap.movesTutor = [
+
+"AncientPower",
+"Earth Power",
+"Headbutt",
+"Heat Wave",
+"Mud-Slap",
+"Ominous Wind",
+"Rollout",
+"Snore",
+"Swift",
+"Trick",
+"Vacuum Wave"
+
+];
+
+document.write(composeMovesPage(cap));
+</script>

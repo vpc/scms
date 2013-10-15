@@ -1,0 +1,605 @@
+[title]
+Status in Black and White
+[head]
+<meta name="description" content="A guide to status effects in Black and White, thanks to mien and Arseus"/>
+[page]
+<div class="author">By <a href="/forums/member.php?u=22481">mien</a> and <a href="/forums/member.php?u=5962">Arseus</a>. Art by <a href="/forums/member.php?u=173056">andrew3391</a>.</div>
+
+<div style="text-align: center;"><img src="/media/upload/bw/articles/bw_status_liepard.png" alt="" /></div>
+
+<ol class="toc">
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#inducing_preventing">Inducing and Preventing Status</a></li>
+<li><a href="#primary_status">Primary Status</a>
+<ul>
+<li><a href="#burn">Burn (BRN)</a></li>
+<li><a href="#freeze">Freeze (FRZ)</a></li>
+<li><a href="#paralysis">Paralysis (PAR)</a></li>
+<li><a href="#poison">Poison (PSN)</a></li>
+<li><a href="#sleep">Sleep (SLP)</a></li>
+</ul></li>
+<li><a href="#removing_effects">Removing Primary Status Effects</a></li>
+<li><a href="#pseudo_status">Pseudo Status Effects</a>
+<ul>
+<li><a href="#confusion">Confusion</a></li>
+<li><a href="#flinch">Flinch</a></li>
+<li><a href="#infatuation">Infatuation</a></li>
+<li><a href="#trapped">Trapped</a></li>
+</ul></li>
+<li><a href="#veto">Vetoing Effects</a></li>
+</ol>
+<h2><a name="introduction">Introduction</a></h2>
+<p>Like many RPGs, Pokemon plays host to a number of different conditions that may affect your team. Unlike many RPGs, however, Pokemon's status effects are equally usable by both you and your opponent, and therefore, the infliction of status is an incredibly viable tactic. These status effects are found in a respectable quantity, and may be organized into two broad categories.</p>
+<p>The first category is made up of the afflictions that appear next to a Pokemon's HP bar in battle, subtly altering its idle animation. Each of these status effects has been given an official three-letter abbreviation set in a specially-colored box; as these afflictions have been officially identified by GameFreak as status effects, they are here termed "Primary Status." Only one of these status effects can be given to a Pokemon at any time; a Pokemon must be relieved of one Primary Status effect before it can be given another. The category of Primary Status encompasses such familiar afflictions as sleep and burn, typically encountered by a trainer on his or her adventures.</p>
+<p>However, this official set of effects excludes other conditions that resemble status, such as confusion or infatuation. These would-be status effects, or "Pseudo Statuses," as they shall be called from this point forth, deserve a mention in spite of their unofficial status. These effects, like Primary Status effects, are distinct afflictions induced in a number of ways. Thus, we may separate a unique condition, such as Leech Seed, from an effect like confusion. The mentioned Pseudo Statuses also exclude phenomena contained within pre-existing categories, such as Field Effects, and are not mentioned here. Pseudo Status effects are also notable for stacking both with other Pseudo Status effects and Primary Status effects, and are almost always relieved when a Pokemon exits battle by means other than Baton Pass.</p>
+<p>That said, the only way to truly define status is to look at each effect individually&mdash;what causes it, how it functions, and ultimately, how it is removed.</p>
+
+<h2><a name="inducing_preventing">Inducing and Preventing Status</a></h2>
+<p>Before examining each status effect and how it is induced, some general observations may be made about status effects as a category. First, the vast majority of moves that induce status bring it about through a secondary effect; there are comparatively few moves dedicated to inducing status. For attacks with a secondary chance to induce a status effect, the ability Serene Grace doubles the general effect rate. For example, a Pokemon with Serene Grace will have a 20% chance of freezing its foe with Ice Beam, as opposed to the regular 10%; naturally, this chance will never exceed 100%. Note that the effects of items such as King's Rock do not stack with Serene Grace. That said, the ability Shield Dust negates any secondary effects, so its users will be immune from chance status.</p>
+<p>Status effects that are not brought about as a secondary effect will be the result of a non-attacking move. Thus, they will be blocked if the foe's Pokemon uses Taunt&mdash;an established strategy of keeping harmful status effects at bay. However, they may also benefit from the ability Prankster, which boosts the priority of all non-attacking moves by one. This benefit extends to many of the moves designed to purge status effects as well. On the other hand, the ability Wonder Skin reduces the success rate of a status-inducing move by 50%; this does not apply to moves that induce status as a secondary effect.</p>
+<p>While all status effects can be removed, as shall be explored in detail later on, some Pokemon can deflect or reflect a status effect onto the attacker. The former is achieved through the ability Magic Bounce and its equivalent move, Magic Coat. Magic Bounce sends dedicated status-inflicting moves, including many Pseudo Statuses (except for Teeter Dance's confusion) back at the user, and Magic Coat is a +4 priority move that achieves the same effect. As for the second category, when a Pokemon with the ability Synchronize is given a status effect, the same effect is given to the attacker. As of the fifth generation, bad poison will be passed on if it is inflicted, instead of its regular counterpart.</p>
+<p>Two other general conditions prevent Primary Status effects from being given to affected Pokemon. The move Safeguard creates a veil around the user's side of the field, preventing any Pokemon from being given a Primary Status for five turns. The ability Leaf Guard also prevents any Primary Status from affecting its bearer while the sunlight is strong; this will also prevent the use of Rest, since it must put the user to sleep to work. Many other abilities prevent specific status effects, and shall be addressed in the section of their relevant status.</p>
+<p>Finally, as mentioned above, a Pokemon already afflicted by a Primary Status is unable to receive another one. This may be used to your (or your opponent's) advantage by allowing one Pokemon to take a status effect and using it to "absorb" any further effects directed at your team. Alternatively, you can simply let a Pokemon take a status effect that will not detract too much from its role, while preventing it from being subjected to a less desirable affliction.</p>
+<p>Without further ado, let us look at each of the different status effects:</p>
+
+<h2><a name="primary_status">Primary Status</a></h2>
+<h3><a name="burn">Burn (BRN)</a></h3>
+<p>The burn status is among the best lines of defense against physical attackers, short of knocking them out altogether. In addition to decreasing the affected Pokemon's HP by 12.5% of its maximum at the end of each turn, the burn status invokes a special modifier in the damage formula, reducing the Pokemon's physical damage output by half. For that reason, the burn status is frequently utilized&mdash;a burned physical attacker is a lamed one.</p>
+<p>However, the burn status is not universally effective; a burned special attacker is unfazed by a loss of physical power, and is now unaffected by a more debilitating Primary Status such as paralysis or sleep. In the same vein, Pokemon with the ability Guts actually benefit from a burn, as said ability ignores the attack drop and instead causes a 50% increase in physical power. Flare Boost operates in much the same manner on the special side. All three of these Pokemon will still suffer the HP reduction caused by a burn.</p>
+<p>Conversely, Fire-type Pokemon and Pokemon with the ability Water Veil are entirely immune to burns. That said, if a Fire-type Pokemon is given another type (such as through Soak), it will not be relieved of its burn if it regains its old typing. On the other hand, Water Veil grants an immunity to the burn condition itself; if a burned Pokemon somehow gains Water Veil (such as through Trace), it will be relieved of its affliction. The final abilities which decrease the effectiveness of a burn are Heatproof and Magic Guard; the former reduces the damage taken from a burn to 6.25% each turn, whereas the latter negates the HP loss entirely. However, neither ability counteracts the Attack reduction burn gives.</p>
+<p>The following moves can burn their target(s):</p>
+<table class="sortable">
+<thead>
+<tr>
+<th>Move</th> <th>Accuracy</th> <th>Chance to Burn</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td><a href="/bw/moves/blaze_kick">Blaze Kick</a></td> <td>90%</td> <td>10%</td>
+</tr>
+<tr>
+<td><a href="/bw/moves/blue_flair">Blue Flare</a></td> <td>85%</td> <td>20%</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/moves/ember">Ember</a></td> <td>100%</td> <td>10%</td>
+</tr>
+<tr>
+<td><a href="/bw/moves/fire_blast">Fire Blast</a></td> <td>85%</td> <td>10%</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/moves/fire_fang">Fire Fang</a></td> <td>95%</td> <td>10%</td>
+</tr>
+<tr>
+<td><a href="/bw/moves/fire_punch">Fire Punch</a></td> <td>100%</td> <td>10%</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/moves/flame_wheel">Flame Wheel</a></td> <td>100%</td> <td>10%</td>
+</tr>
+<tr>
+<td><a href="/bw/moves/flamethrower">Flamethrower</a></td> <td>100%</td> <td>10%</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/moves/flare_blitz">Flare Blitz</a></td> <td>100%</td> <td>10%</td>
+</tr>
+<tr>
+<td><a href="/bw/moves/heat_wave">Heat Wave</a></td> <td>90%</td> <td>10%</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/moves/ice_burn">Ice Burn</a></td> <td>90%</td> <td>30%</td>
+</tr>
+<tr>
+<td><a href="/bw/moves/inferno">Inferno</a></td> <td>50%</td> <td>100%</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/moves/lava_plume">Lava Plume</a></td> <td>100%</td> <td>30%</td>
+</tr>
+<tr>
+<td><a href="/bw/moves/sacred_fire">Sacred Fire</a></td> <td>95%</td> <td>50%</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/moves/scald">Scald</a></td> <td>100%</td> <td>30%</td>
+</tr>
+<tr>
+<td><a href="/bw/moves/searing_shot">Searing Shot</a></td> <td>100%</td> <td>30%</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/moves/tri_attack">Tri Attack</a></td> <td>100%</td> <td>6.67%</td>
+</tr>
+<tr>
+<td><a href="/bw/moves/will-o-wisp">Will-O-Wisp</a></td> <td>75%</td> <td>100%</td>
+</tr>
+</tbody>
+</table>
+<p>Finally, a burn may be induced by an item or ability. If an attacker uses a contact move against a Pokemon with the ability Flame Body, there is a 30% chance for the attacker to be inflicted with a burn. The item Flame Orb will also inflict a burn; it burns its holder at the end of the turn, or any Pokemon that is hit with the Flame Orb by the move Fling.</p>
+<p>It is important to remember that the burn status is designed to counter physical attackers; special attackers and walls are best badly poisoned if their HP is to be reduced, or put to sleep if their offense must be stopped. An attempt to induce a burn is also a potential benefit to Pokemon with the ability Flash Fire; because the vast majority of burn-inducing moves are Fire-type, including the often-used Will-O-Wisp, the Flash Fire user can switch in on a predicted burn for a boost in firepower. As such, the burn status must be employed wisely.</p>
+<h3><a name="freeze">Freeze (FRZ)</a></h3>
+<p>What may be the most potent of status effects is fortunately the most difficult to inflict. A frozen Pokemon is unable to attack until it thaws&mdash;each turn it tries to attack, it has a 20% chance of thawing out. While a Pokemon can theoretically thaw before it loses a turn to being frozen, it may also remain encased in ice indefinitely. This unpredictability, combined with potential length of immobility, is what makes the freeze status so deadly.</p>
+<p>Ice-types are immune to being frozen, as are Pokemon with the ability Magma Armor. A frozen Pokemon that acquires Magma Armor will instantly thaw out, similarly to the situation of burned Pokemon acquiring Water Veil. In addition, because there is no dedicated freezing move, the ability Shield Dust effectively prevents a Pokemon from being frozen, thanks to its immunity to secondary effects. Finally, strong sunlight prevents all Pokemon on the field from being frozen.</p>
+<p>The following moves can potentially freeze their target(s):</p>
+<table class="sortable">
+<thead>
+<tr>
+<th>Move</th> <th>Accuracy</th> <th>Chance to Freeze</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td><a href="/bw/moves/blizzard">Blizzard</a></td> <td>70% (-- in hail)</td> <td>10%</td>
+</tr>
+<tr>
+<td><a href="/bw/moves/ice_beam">Ice Beam</a></td> <td>100%</td> <td>10%</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/moves/ice_fang">Ice Fang</a></td> <td>95%</td> <td>10%</td>
+</tr>
+<tr>
+<td><a href="/bw/moves/ice_punch">Ice Punch</a></td> <td>100%</td> <td>10%</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/moves/powder_snow">Powder Snow</a></td> <td>100%</td> <td>10%</td>
+</tr>
+<tr>
+<td><a href="/bw/moves/tri_attack">Tri Attack</a></td> <td>100%</td> <td>6.67%</td>
+</tr>
+</tbody>
+</table>
+<p>The prevalence of Ice Beam, and to a lesser extent, Ice Punch, dictates that you will probably encounter a freeze sooner or later. However, it is rarely seen, and should be neither relied upon nor forgotten about completely in the midst of battle.</p>
+<h3><a name="paralysis">Paralysis (PAR)</a></h3>
+<p>Although paralysis, like freeze, is a very useful status effect, it is considerably more common. Paralysis reduces the affected Pokemon's Speed to 25% of its former number, accounting for all boosts and drops. It also gives a 25% chance each turn for the victim to be fully paralyzed&mdash;unable to attack that turn. Thus, attackers that would not mind a Speed reduction, such as Trick Room sweepers, are still faced with the prospect of giving the foe a free turn when they succumb to paralysis. For this reason, paralysis is a useful status to inflict upon many Pokemon.</p>
+<p>Naturally, you cannot paralyze Pokemon that are immune to such a status, such as those with the ability Limber. Limber grants total immunity to its status effect, meaning that if a paralyzed Pokemon is given the ability Limber (such as through Skill Swap), it will recover from paralysis. The ability Quick Feet overrides the Speed drop from paralysis, boosting its users speed instead; however, it does not prevent a Pokemon from being fully paralyzed.</p>
+<p>The following moves may inflict paralysis:</p>
+<table class="sortable">
+<thead>
+<tr>
+<th>Move</th> <th>Accuracy</th> <th>Chance to Paralyze</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td><a href="/bw/moves/body_slam">Body Slam</a></td> <td>100%</td> <td>30%</td>
+</tr>
+<tr>
+<td><a href="/bw/moves/bolt_strike">Bolt Strike</a></td> <td>85%</td> <td>20%</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/moves/bounce">Bounce</a></td> <td>85%</td> <td>30%</td>
+</tr>
+<tr>
+<td><a href="/bw/moves/discharge">Discharge</a></td> <td>100%</td> <td>30%</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/moves/dragon_breath">Dragon Breath</a></td> <td>100%</td> <td>30%</td>
+</tr>
+<tr>
+<td><a href="/bw/moves/force_palm">Force Palm</a></td> <td>100%</td> <td>30%</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/moves/freeze_shock">Freeze Shock</a></td> <td>90%</td> <td>30%</td>
+</tr>
+<tr>
+<td><a href="/bw/moves/glare">Glare</a></td> <td>90%</td> <td>100%</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/moves/lick">Lick</a></td> <td>100%</td> <td>30%</td>
+</tr>
+<tr>
+<td><a href="/bw/moves/spark">Spark</a></td> <td>100%</td> <td>30%</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/moves/stun_spore">Stun Spore</a></td> <td>75%</td> <td>100%</td>
+</tr>
+<tr>
+<td><a href="/bw/moves/thunder">Thunder</a></td> <td>70% (-- in rain, 50% in sun)</td> <td>30%</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/moves/thunderbolt">Thunderbolt</a></td> <td>100%</td> <td>10%</td>
+</tr>
+<tr>
+<td><a href="/bw/moves/thunderpunch">ThunderPunch</a></td> <td>100%</td> <td>10%</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/moves/thundershock">ThunderShock</a></td> <td>100%</td> <td>10%</td>
+</tr>
+<tr>
+<td><a href="/bw/moves/thunder_fang">Thunder Fang</a></td> <td>95%</td> <td>10%</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/moves/thunder_wave">Thunder Wave</a></td> <td>100%</td> <td>100%</td>
+</tr>
+<tr>
+<td><a href="/bw/moves/tri_attack">Tri Attack</a></td> <td>100%</td> <td>6.67%</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/moves/volt_tackle">Volt Tackle</a></td> <td>100%</td> <td>10%</td>
+</tr>
+<tr>
+<td><a href="/bw/moves/zap_cannon">Zap Cannon</a></td> <td>50%</td> <td>100%</td>
+</tr>
+</tbody>
+</table>
+<p>Most of the paralyzing moves are Electric-type, and accordingly, Pokemon with the ability Lightningrod or Motor Drive can acquire a boost to their Special Attack or Speed, respectively, by switching in at the right moment. This also means that Ground-types are immune to many paralysis-inducing moves. Pokemon with the ability Normalize can avoid this immunity, but are subsequently walled by Ghost-types.</p>
+<p>Paralysis may also be inflicted through certain abilities and an item. Effect Spore and Static have a 10% and 30% chance, respectively, to paralyze the opponent when contact is made with a Pokemon with one of those abilities; however, the former has a 20% chance of inflicting sleep or poison instead. Finally, a Pokemon hit with a Light Ball thrown by Fling will become paralyzed.</p>
+<p>Paralysis is a condition best inflicted against swift sweepers, in order to strip them of their Speed advantage. However, the one-in-four chance of gaining a free turn makes paralysis a helpful tool, especially in longer battles.</p>
+
+<h3><a name="poison">Poison (PSN)</a></h3>
+<p>One status effect that has the chance to truly shine in drawn-out battles is poison. There are two types of poison&mdash;normal poison and bad poison. Normal poison reduces the victim's HP by 12.5% of its maximum each turn, with no added effects (essentially making it a lesser burn.) The second variety, bad poison&mdash;also named "toxic poisoning," after the move that typically induces it&mdash;is the useful addition to a stall team's arsenal. Bad poison gradually increases its end-of-turn damage in accordance with the following formula:</p>
+<pre>Damage = max(floor(max HP ÷ 16), 1) × min(# of turns Pokemon has taken bad poison damage, 15)</pre>
+<p>In other words, bad poison begins at 6.25% damage, increasing by 6.25% each turn until eventually capping at 93.75%, or 15/16 of the victim's maximum HP. The counter will reset to one whenever the badly poisoned Pokemon leaves the field.</p>
+<p>As with any status, many Pokemon have immunities to, or benefit from poison (of either variety). Both Poison- and Steel-type Pokemon are unaffected by poison; that said, if their type is somehow altered, they are vulnerable, and will not be cured if the original type is regained. Pokemon with the ability Immunity are also unaffected by poison, and unlike the case with typing, acquiring Immunity will relieve the victim of its poison status.</p>
+<p>On another note, a Pokemon with Magic Guard may be poisoned, but it will not lose any HP as a result. The ability Poison Heal actually turns poison into an advantageous condition, healing the user by 12.5% of its maximum HP each turn. However, the bad poison counter will still run in the background for Pokemon with either of these abilities, meaning if Magic Guard or Poison Heal is lost, the Pokemon will immediately start taking the appropriate amount of damage.</p>
+<p>Finally, the ability Toxic Boost will increase a Pokemon's Attack by 50% when poisoned, albeit without preventing damage. Despite the ability's name, the poisoning in question does not have to be induced by Toxic.</p>
+<p>With that said, the following moves induce regular poison:</p>
+<table class="sortable">
+<thead>
+<tr>
+<th>Move</th> <th>Accuracy</th> <th>Chance to Poison</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td><a href="/bw/moves/cross_poison">Cross Poison</a></td> <td>100%</td> <td>10%</td>
+</tr>
+<tr>
+<td><a href="/bw/moves/gunk_shot">Gunk Shot</a></td> <td>70%</td> <td>30%</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/moves/poison_gas">Poison Gas</a></td> <td>80%</td> <td>100%</td>
+</tr>
+<tr>
+<td><a href="/bw/moves/poison_jab">Poison Jab</a></td> <td>100%</td> <td>30%</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/moves/poison_sting">Poison Sting</a></td> <td>100%</td> <td>30%</td>
+</tr>
+<tr>
+<td><a href="/bw/moves/poison_tail">Poison Tail</a></td> <td>100%</td> <td>10%</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/moves/poisonpowder">PoisonPowder</a></td> <td>75%</td> <td>100%</td>
+</tr>
+<tr>
+<td><a href="/bw/moves/sludge">Sludge</a></td> <td>100%</td> <td>30%</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/moves/sludge_bomb">Sludge Bomb</a></td> <td>100%</td> <td>30%</td>
+</tr>
+<tr>
+<td><a href="/bw/moves/sludge_wave">Sludge Wave</a></td> <td>100%</td> <td>10%</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/moves/smog">Smog</a></td> <td>70%</td> <td>40%</td>
+</tr>
+<tr>
+<td><a href="/bw/moves/toxic_spikes">Toxic Spikes</a>*</td> <td>--(field effect)</td> <td>100%</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/moves/twineedle">Twineedle</a></td> <td>100%</td> <td>36% (20% per hit, hits twice)</td>
+</tr>
+</tbody>
+</table>
+<p>*After one layer.</p>
+<p>Hitting a Pokemon with Black Sludge or Poison Barb thrown with Fling will also cause poison. Typical immunities still apply, despite the fact that Fling is a Dark-type move.</p>
+<p>The ability Effect Spore also has a 10% chance to poison any Pokemon that makes contact with its bearer, but there is a 20% chance paralysis or sleep will be randomly chosen instead. The ability Poison Touch gives all the ability bearer's contact moves a 30% chance of poisoning, even if the move in question already has a secondary effect; the added chance to poison from Poison Touch stacks with any existing move effects.</p>
+<p>These moves can induce bad poison:</p>
+<table class="sortable">
+<thead>
+<tr>
+<th>Move</th> <th>Accuracy</th> <th>Chance to Badly Poison</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td><a href="/bw/moves/poison_fang">Poison Fang</a></td> <td>100%</td> <td>30%</td>
+</tr>
+<tr>
+<td><a href="/bw/moves/toxic">Toxic</a></td> <td>90%</td> <td>100%</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/moves/toxic_spikes">Toxic Spikes</a>*</td> <td>-- (field effect)</td> <td>100%</td>
+</tr>
+</tbody>
+</table>
+<p>*After two layers.</p>
+<p>Holding a Toxic Orb will also result in bad poison at the end of the turn; getting hit by the same item by Fling is also a cause of bad poison. Immunities to Poison still apply even though Fling is Dark-type. The move Venoshock will deal double damage against a poisoned target, but it is otherwise situational.</p>
+<p>Though there are many Pokemon immune to poison, it is not a status to be overlooked&mdash;the bad variety can be quite potent. Putting a bad poison counter on a Pokemon provides an extra incentive to switch frequently&mdash;a fact the poison user can use to his or her advantage.</p>
+
+<h3><a name="sleep">Sleep (SLP)</a></h3>
+<p>Last&mdash;but by no means the least&mdash;of Primary Statuses is sleep. The existence of sleep clause&mdash;a common competitive rule effectively stating that only one Pokemon on each team may be asleep at a time&mdash;might suggest that sleep is a very dangerous status effect. As logic may suggest, a sleeping Pokemon is unable to use any moves, save Sleep Talk and Snore; the former is situational, while the latter is useless.</p>
+<p>The amount of turns a Pokemon will be asleep is set randomly&mdash;with the exception of Rest, which lasts two turns&mdash;when the Pokemon initially succumbs to slumber. As with bad poison, a counter is put into effect, this time assigning a number between two and four inclusive (one fewer than the previous generation). Each time the "fast asleep" message is displayed, the counter decreases by one, until the counter reaches zero and the Pokemon wakes up. In other words, a Pokemon will be asleep for one to three turns, with an equal chance (33.3% or 1/3) for each result. Like bad poison, the sleep counter also resets upon switching out to whatever number was initially chosen; for example, Rest, lasting two turns, will always have its counter reset to three.</p>
+<p>The ability Early Bird reduces the duration of sleep&mdash;for Pokemon with the ability, the "fast asleep" message decreases the sleep counter by two rather than one. As the counter can be set to two, three, or four, an initial counter of two will lead to an immediate awakening, while a counter of three or four results in a single turn of sleep. Therefore, an Early Bird Pokemon has a 33.3% chance of waking up immediately, and a 66.7% chance of sleeping only a single turn.</p>
+<p>Furthermore, the abilities Insomnia and Vital Spirit prevent sleep entirely; acquisition of these abilities will also permit a snoozing Pokemon to awaken. The move Uproar also awakens all Pokemon on the field, keeping them awake for the move's three-turn duration. This holds true even if the move is used against a Ghost-type Pokemon, doing no damage.</p>
+<p>The following moves can induce sleep:</p>
+<table class="sortable">
+<thead>
+<tr>
+<th>Move</th> <th>Accuracy</th> <th>Chance to Sleep</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td><a href="/bw/moves/dark_void">Dark Void</a></td> <td>80%</td> <td>100%</td>
+</tr>
+<tr>
+<td><a href="/bw/moves/grasswhistle">GrassWhistle</a></td> <td>55%</td> <td>100%</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/moves/hypnosis">Hypnosis</a></td> <td>60%</td> <td>100%</td>
+</tr>
+<tr>
+<td><a href="/bw/moves/lovely_kiss">Lovely Kiss</a></td> <td>75%</td> <td>100%</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/moves/relic_song">Relic Song</a></td> <td>100%</td> <td>10%</td>
+</tr>
+<tr>
+<td><a href="/bw/moves/rest">Rest</a></td> <td>-- (Self-induced)</td> <td>100%</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/moves/sing">Sing</a></td> <td>55%</td> <td>100%</td>
+</tr>
+<tr>
+<td><a href="/bw/moves/sleep_powder">Sleep Powder</a></td> <td>75%</td> <td>100%</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/moves/spore">Spore</a></td> <td>100%</td> <td>100%</td>
+</tr>
+<tr>
+<td><a href="/bw/moves/yawn">Yawn</a>*</td> <td>--</td> <td>100%</td>
+</tr>
+</tbody>
+</table>
+<p>*Targeted Pokemon falls asleep the turn after the move is used.</p>
+<p>Making contact with a Pokemon that has the ability Effect Spore has a 10% chance of causing sleep, but paralysis and poison together have a 20% chance of occurring instead. Darkrai's ability Bad Dreams increases a sleeping Pokemon's misery by causing it to lose 12.5% of its maximum HP for every turn it is asleep. The move Nightmare has a similar effect, taking away 25% of the target's maximum HP each turn.</p>
+<p>An interesting note about this status that it prevents confusion from Outrage, Petal Dance, or Thrash if the move ends while the user is asleep.</p>
+
+<h2><a name="removing_effects">Removing Primary Status Effects</a></h2>
+<p>Now that each of the Primary Status effects has been covered, you should learn how to remove them from your Pokemon. However, keep in mind that status effects may actually be beneficial to certain members of your team. Many abilities have been mentioned as giving some benefit to a Pokemon suffering from a status effect; Guts, Marvel Scale, and Quick Feet are examples of abilities that boost a certain stat when their bearer is given a status effect. While Marvel Scale boosts Defense, a stat which no status threatens to drop, Guts will negate the attack-deducting effect of a burn, and Quick Feet the speed drop from paralysis, making their benefits more apparent. Statused Pokemon or Pokemon with such abilities can function as "status absorbers," which can take the status-inducing moves directed at other members of your team, thus alleviating the need for status to be removed.</p>
+<p>However, there are many cases in which a Pokemon will be dealt a detrimental status effect, such as if your physical sweeper contracts a burn. In such instances, you may use the following moves to relieve some or all types of Primary Status effects:</p>
+<dl>
+<dt>Aromatherapy</dt>
+<dd>Removes all Primary Status effects from your team, including the user.</dd>
+<dt>Heal Bell</dt>
+<dd>Removes all Primary Status effects from your team, including the user (Soundproof does not block Heal Bell in the fifth generation).</dd>
+<dt>Healing Wish</dt>
+<dd>Instantly KOs the user and relieves any status effect from the Pokemon switching in.</dd>
+<dt>Lunar Dance</dt>
+<dd>Instantly KOs the user and relieves any status effect from the Pokemon switching in.</dd>
+<dt>Psycho Shift</dt>
+<dd>Shifts any Primary Status from the user to the target.</dd>
+<dt>Refresh</dt>
+<dd>Removes a burn, paralysis, or poison from the user.</dd>
+<dt>Rest</dt>
+<dd>Removes any Primary Status from the user, at the cost of inducing two-turn sleep.</dd>
+<dt>SmellingSalt</dt>
+<dd>Has 120 base power on a paralyzed target, while relieving the target of paralysis.</dd>
+<dt>Uproar</dt>
+<dd>Awakens all sleeping Pokemon on the field, and prevents any Pokemon from falling asleep for three turns.</dd>
+<dt>Wake-Up Slap</dt>
+<dd>Instantly awakens a sleeping target, while taking on 120 base power.</dd>
+</dl>
+<p>Additionally, all Fire-type moves&mdash;except for Will-O-Wisp&mdash;will thaw a frozen target.</p>
+<p>The moves Flame Wheel, Flare Blitz, Fusion Flare, Sacred Fire, and Scald will all cause the user to thaw if it is frozen. A sleeping Pokemon may awaken itself if it has a status-healing move such as Heal Bell, and selects this move using Sleep Talk. With these exceptions aside, there is no way for a frozen or sleeping Pokemon to remove its own status.</p>
+<p>Aromatherapy and Heal Bell are arguably the most effective status-relieving moves. They will alleviate the status effects of an entire team, and can be used well on a Pokemon such as Blissey, whose ability Natural Cure can also relieve her of status effects when she switches out. However, these moves relieve status effects indiscriminately; any status effects that benefit a Pokemon, such as one with Guts, will be removed as well. You must therefore plan your status-removing strategy such that it does not interfere with your other teammates. Individual Pokemon can use Rest or Psycho Shift to remove any status effect they are given, but Rest induces sleep, and Psycho Shift must be used with the same consideration as any status-inducing move.</p>
+<p>However, moves are not the only means by which a Pokemon can be relieved of a status effect. The following abilities can remove status as well:</p>
+<dl>
+<dt>Healer</dt>
+<dd>Has a 30% chance at the end of each turn to relieve an ally of Primary Status if it is directly adjacent to the Pokemon (Doubles and Triples only).</dd>
+<dt>Hydration</dt>
+<dd>Removes any Primary Status at the end of the turn if it is raining.</dd>
+<dt>Natural Cure</dt>
+<dd>Removes any Primary Status when the Pokemon leaves the field.</dd>
+<dt>Shed Skin</dt>
+<dd>Has a 30% chance to relive Primary Status at the end of each turn.</dd>
+</dl>
+<p>Finally, the following items will relieve their holder of certain status effects:</p>
+<dl>
+<dt>Aspear Berry</dt>
+<dd>Thaws a frozen Pokemon.</dd>
+<dt>Cheri Berry</dt>
+<dd>Cures a paralyzed Pokemon.</dd>
+<dt>Chesto Berry</dt>
+<dd>Awakens a sleeping Pokemon.</dd>
+<dt>Lum Berry</dt>
+<dd>Relieves a Pokemon of any Primary Status.</dd>
+<dt>Pecha Berry</dt>
+<dd>Cures a Pokemon of poison or bad poison.</dd>
+<dt>Rawst Berry</dt>
+<dd>Cures a burned Pokemon.</dd>
+</dl>
+<p>A Lum Berry is effective against all Primary Status effects, but you may wish to guard a Pokemon against a more specific status. For example, a Pokemon with Rest might be equipped with a Chesto Berry, which, unlike Lum Berry, would not activate if the Pokemon was burned or poisoned. Lum Berry is best used as a catch-all guard against status, from paralysis to a random freeze, while the other berries must be more deliberately used. Furthermore, in metagames without Sleep Clause, such as VGC, Chesto Berry may be more useful than Lum. When Item Clause is in effect, berries must be distributed with even more care.</p>
+<p>That said, note that in the majority of cases, berries can only be used once. The ability Harvest allows its bearer to reuse berries indefinitely, and each use of the move Recycle will restore a consumed berry to its holder. In many cases, it is more beneficial to give a Pokemon a hold item such as a Choice Band or Leftovers, or even a different damage-reducing berry, meaning that status-healing berries are not seen on most Pokemon.</p>
+
+<h2><a name="pseudo_status">Pseudo Status</a></h2>
+<p>We now arrive at the different Pseudo Status effects, much fewer in number than their Primary counterparts. For the most part, Pseudo Status effects are relieved if the affected Pokemon leaves the field by means other than Baton Pass; because they are unofficially related, as opposed to Primary Status effects, each Pseudo Status has both its induction and removal covered in its own section.</p>
+<h3><a name="confusion">Confusion</a></h3>
+<p>A confused Pokemon has a 50% chance of attacking itself on its turn; the self-harming attack is a typeless physical attack with 40 base power. Some specially-based Pokemon may use an Attack IV of 0 in order to keep confusion damage to a minimum, but confusion's rarity makes this practice similarly scarce. Confusion lasts for two to five turns, with the counter being decreased each time the message "[Pokemon] is confused!" is displayed. Confusion is cured when a Pokemon switches out, so unlike bad poison or sleep, the confusion counter is never restored.</p>
+<p>Pokemon with the ability Own Tempo are completely immune to confusion; if a confused Pokemon is given Own Tempo, it will find its confusion removed. Additionally, the ability Tangled Feet will grant a Pokemon a 50% boost in evasion for every turn during which it is confused.</p>
+<p>The following moves can induce confusion:</p>
+<table class="sortable">
+<thead>
+<tr>
+<th>Move</th> <th>Accuracy</th> <th>Chance to Confuse</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td><a href="/bw/moves/chatter">Chatter</a></td> <td>100%</td> <td>31%</td>
+</tr>
+<tr>
+<td><a href="/bw/moves/confuse_ray">Confuse Ray</a></td> <td>100%</td> <td>100%</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/moves/confusion">Confusion</a></td> <td>100%</td> <td>10%</td>
+</tr>
+<tr>
+<td><a href="/bw/moves/dizzy_punch">Dizzy Punch</a></td> <td>100%</td> <td>20%</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/moves/dynamicpunch">DynamicPunch</a></td> <td>50%</td> <td>100%</td>
+</tr>
+<tr>
+<td><a href="/bw/moves/flatter">Flatter</a></td> <td>100%</td> <td>100%</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/moves/hurricane">Hurricane</a></td> <td>70% (-- in rain, 50% in sun)</td> <td>30%</td>
+</tr>
+<tr>
+<td><a href="/bw/moves/outrage">Outrage</a></td> <td>-- (Self-induced)</td> <td>100% (After 2-3 turns)</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/moves/petal_dance">Petal Dance</a></td> <td>-- (Self-induced)</td> <td>100% (After 2-3 turns)</td>
+</tr>
+<tr>
+<td><a href="/bw/moves/psybeam">Psybeam</a></td> <td>100%</td> <td>10%</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/moves/rock_climb">Rock Climb</a></td> <td>85%</td> <td>20%</td>
+</tr>
+<tr>
+<td><a href="/bw/moves/signal_beam">Signal Beam</a></td> <td>100%</td> <td>10%</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/moves/supersonic">Supersonic</a></td> <td>55%</td> <td>100%</td>
+</tr>
+<tr>
+<td><a href="/bw/moves/swagger">Swagger</a></td> <td>90%</td> <td>100%</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/moves/sweet_kiss">Sweet Kiss</a></td> <td>75%</td> <td>100%</td>
+</tr>
+<tr>
+<td><a href="/bw/moves/teeter_dance">Teeter Dance</a></td> <td>100%</td> <td>100%</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/moves/thrash">Thrash</a></td> <td>-- (Self-induced)</td> <td>100% (After 2-3 turns)</td>
+</tr>
+<tr>
+<td><a href="/bw/moves/water_pulse">Water Pulse</a></td> <td>100%</td> <td>20%</td>
+</tr>
+</tbody>
+</table>
+<p>Certain berries can also confuse their users if they are consumed by certain Pokemon. Each of the following berries will activate when their holder is at 25% or less, or 50% if the holder has the ability Gluttony.</p>
+<dl>
+<dt>Aguav Berry</dt>
+<dd>Confuses a holder with a Special Defense-hindering or Quirky nature.</dd>
+<dt>Figy Berry</dt>
+<dd>Confuses a holder with a Attack-hindering or Hardy nature.</dd>
+<dt>Iapapa Berry</dt>
+<dd>Confuses a holder with a Defense-hindering or Docile nature.</dd>
+<dt>Mago Berry</dt>
+<dd>Confuses a holder with a Speed-hindering or Serious nature.</dd>
+<dt>Wiki Berry</dt>
+<dd>Confuses a holder with a Special Attack-hindering or Bashful nature.</dd>
+</dl>
+<p>While a Pokemon with the applicable natures will still recover health, they will also become confused upon consuming the corresponding berries. However, these berries are not useful items, either for consumption or Tricking onto another Pokemon, and are all but unseen in competitive play.</p>
+<p>Confusion can be relieved in a number of ways, the most obvious of which are letting it run its natural course or switching out. Without leaving the field, a Persim Berry or, oddly enough, a Lum Berry will cure its holder of confusion. Confusion is not terribly common, mostly seen from a No Guard DynamicPunch or the self-induced variety that comes with Outrage.</p>
+
+<h3><a name="flinch">Flinch</a></h3>
+<p>When a Pokemon flinches, it is unable to move for the duration of the turn. For this reason, flinching cannot be "cured," only prevented. A Pokemon can only flinch if it is struck by a flinch-inducing move before it can carry out an attack in that turn; flinching does not carry over across multiple turns. Additionally, Pokemon that have the ability Inner Focus are immune to flinching. Pokemon with the ability Steadfast may still flinch, but their Speed is boosted by one stage each time they do so.</p>
+<p>The following moves may cause the target to flinch:</p>
+<table class="sortable">
+<thead>
+<tr>
+<th>Move</th> <th>Accuracy</th> <th>Chance to Flinch</th>
+</tr>
+</thead>
+<tbody>
+<tr class="a">
+<td><a href="/bw/moves/air_slash">Air Slash</a></td> <td>95%</td> <td>30%</td>
+</tr>
+<tr>
+<td><a href="/bw/moves/astonish">Astonish</a></td> <td>100%</td> <td>30%</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/moves/bite">Bite</a></td> <td>100</td> <td>30%</td>
+</tr>
+<tr>
+<td><a href="/bw/moves/bone_club">Bone Club</a></td> <td>85%</td> <td>10%</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/moves/dark_pulse">Dark Pulse</a></td> <td>100%</td> <td>20%</td>
+</tr>
+<tr>
+<td><a href="/bw/moves/dragon_rush">Dragon Rush</a></td> <td>75%</td> <td>20%</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/moves/extrasensory">Extrasensory</a></td> <td>100%</td> <td>10%</td>
+</tr>
+<tr>
+<td><a href="/bw/moves/fake_out">Fake Out</a></td> <td>100%</td> <td>100%</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/moves/fire_fang">Fire Fang</a></td> <td>95%</td> <td>10%</td>
+</tr>
+<tr>
+<td><a href="/bw/moves/headbutt">Headbutt</a></td> <td>100%</td> <td>30%</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/moves/heart_stamp">Heart Stamp</a></td> <td>100%</td> <td>30%</td>
+</tr>
+<tr>
+<td><a href="/bw/moves/hyper_fang">Hyper Fang</a></td> <td>90%</td> <td>10%</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/moves/ice_fang">Ice Fang</a></td> <td>95%</td> <td>10%</td>
+</tr>
+<tr>
+<td><a href="/bw/moves/icicle_crash">Icicle Crash</a></td> <td>90%</td> <td>30%</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/moves/iron_head">Iron Head</a></td> <td>100%</td> <td>30%</td>
+</tr>
+<tr>
+<td><a href="/bw/moves/needle_arm">Needle Arm</a></td> <td>100%</td> <td>30%</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/moves/rock_slide">Rock Slide</a></td> <td>90%</td> <td>30%</td>
+</tr>
+<tr>
+<td><a href="/bw/moves/rolling_kick">Rolling Kick</a></td> <td>85%</td> <td>30%</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/moves/sky_attack">Sky Attack</a></td> <td>90%</td> <td>30%</td>
+</tr>
+<tr>
+<td><a href="/bw/moves/snore">Snore</a></td> <td>100%</td> <td>30%</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/moves/steamroller">Steamroller</a></td> <td>100%</td> <td>30%</td>
+</tr>
+<tr>
+<td><a href="/bw/moves/stomp">Stomp</a></td> <td>100%</td> <td>30%</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/moves/thunder_fang">Thunder Fang</a></td> <td>95%</td> <td>10%</td>
+</tr>
+<tr>
+<td><a href="/bw/moves/twister">Twister</a></td> <td>100%</td> <td>20%</td>
+</tr>
+<tr class="a">
+<td><a href="/bw/moves/waterfall">Waterfall</a></td> <td>100%</td> <td>20%</td>
+</tr>
+<tr>
+<td><a href="/bw/moves/zen_headbutt">Zen Headbutt</a></td> <td>90%</td> <td>20%</td>
+</tr>
+</tbody>
+</table>
+<p>If a Pokemon is hit by a King's Rock or Razor Fang thrown by Fling, it will also flinch; since Fake Out is a Normal-type move, Fling is the only way&mdash;short of Foresight or Odor Sleuth&mdash;to score a guaranteed flinch on a Ghost-type.</p>
+<p>Pokemon with the ability Stench now have a 10% chance of causing a flinch with any of their damage-dealing moves. Additionally, the items King's Rock and Razor Fang will add a 10% chance of flinching to most damaging moves. However, neither item stacks with Stench, nor will they combine with Serene Grace to give a boosted chance of flinching. However, King's Rock, Razor Fang, and Stench each provide a 10% chance of making the target flinch on each hit of a multi-hit move. For instance, if Fury Swipes hits three times, there is a 27.1% chance of the target flinching.</p>
+
+<h3><a name="infatuation">Infatuation</a></h3>
+<p>Infatuation is the least common Pseudo Status, dependent on the target being the opposite gender of the attacker. Given the abundance of genderless Pokemon, as well as the unpredictable genders of most others, this is not an easy feat in and of itself. An infatuated Pokemon has a 50% chance of being too lovestruck to move for every turn that both it and the Pokemon with which it is infatuated remain on the field.</p>
+<p>Infatuation is induced by one of two ways: either by the move Attract, or by a 30% chance when contact is made with a Pokemon that has the ability Cute Charm. However, Pokemon with the ability Oblivious are completely immune to infatuation, as is any genderless Pokemon or one that is not the opposite gender of its foe.</p>
+<p>Holding the item Destiny Knot will cause an infatuated Pokemon to give the Pseudo Status to its attractor as well, and Mental Herb is a one-time use item that relieves a Pokemon of its infatuation. However, this affliction is too uncommon to make either of these items worth holding; the conditions required to induce infatuation are far too uncommon to make this Pseudo Status useful.</p>
+
+<h3><a name="trapped">Trapped</a></h3>
+<p>When a Pokemon is trapped, it is unable to switch out except by special means. The moves Baton Pass, U-turn, and Volt Switch allow the user to switch to another Pokemon. Holding a Shed Shell will always allow the Pokemon to switch out, and an Escape Button makes the holder switch out as soon as it is hit.</p>
+<p>The moves Block, Mean Look, and Spider Web all trap the target, whereas the move Ingrain traps the user while restoring health. A number of binding moves will also trap the target for a set duration of time&mdash;four to five turns, dealing damage at the end of each turn. These temporary trapping moves are Bind, Clamp, Fire Spin, Magma Storm, Sand Tomb, Whirlpool, and Wrap. Holding a Grip Claw will make all of these temporary trapping moves last for the maximum of five turns.</p>
+<p>The ability Shadow Tag will trap all Pokemon on the other side of the field; Magnet Pull and Arena Trap work in the same manner. However, Shadow Tag does not work on Pokemon with the same ability, and Arena Trap cannot trap Flying-type Pokemon or Pokemon with the ability Levitate. Holding the item Air Balloon will also allow a Pokemon to escape from Arena Trap if the Air Balloon has not been popped. Finally, Magnet Pull will only trap Steel-type Pokemon.</p>
+<p>Lock-in moves provide a trapping effect, but also prevent the user from choosing a move entirely; holding a Shed Shell will not save a Pokemon from their effects. There are two categories of "lock-in" moves: recharge moves, and multi-turn moves. Recharge moves prevent the user from making a move selection after they are used; Blast Burn, Frenzy Plant, Giga Impact, Hydro Cannon, Hyper Beam, and Roar of Time are all classified as recharge moves. Multi-turn moves, on the other hand, last for a set duration, during which the user automatically uses the same move for one PP. Petal Dance, Outrage, and Thrash all last for two to three turns, while Ice Ball and Rollout last for five.</p>
+
+<h2><a name="veto">Vetoing Effects</a></h2>
+<p>Thanks to the separation of Primary Status and Pseudo Status, a Pokemon can contract more than one "status condition" at a time. For this reason, the game has an internal "veto" list, which indicates the order in which it will perform a check to see if a particular effect takes hold of a Pokemon. That is, the effect at the top of the list is checked, and if it prevents a Pokemon from making a move, the effects below are effectively vetoed. This list contains a number of non-status effects as well, but for now, let us look at the list as it pertains to status:</p>
+<p>Freeze / Sleep - Confuse - Flinch - Infatuation - Paralysis</p>
+<p>This means that the game will first check for a thaw or awakening, then perform a confusion check, and so on. Familiarity with this list allows you to determine the chances of specific outcomes when more than one status effect is in effect. For instance, if a confused Pokemon with Steadfast is hit by Dark Pulse, there will be a 50% chance of the Pokemon hurting itself in its confusion, followed by a 20% chance of the Pokemon flinching. Because the check for confusion occurs before the flinch, the Pokemon will not receive a Speed boost if either confusion takes effect or Dark Pulse fails to make the Pokemon flinch. Disregarding the duration of confusion, there would therefore be a 10% chance that the Pokemon will flinch and receive the Speed boost.</p>
