@@ -213,8 +213,6 @@ function xysprites(viewingmon) {
 	}
 }
 $(document).ready(function() {
-	var title = $('h1')[0].outerHTML;
-	$('#titleholder')[0].outerHTML = title;
 	$('h1')[0].outerHTML = '';
 	$('#choosemon').change(findsprite);
 	$('#genchange').change(findsprite);
@@ -233,7 +231,7 @@ $(document).ready(function() {
 </script>
 [page]
 	<div class="wrapper">
-		<div id="titleholder"></div>
+		<h1>Smogon Sprite Generator</h1>
 		<div class="line"></div>
 		<table>
 		<tr>
