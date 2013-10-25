@@ -2,9 +2,6 @@
 Smogon Sprite Generator
 [head]
 <style type="text/css">
-#choosemon, #genchange, #choosexy, #xyformat {
-	width: 100px;
-}
 .wrapper {
 		margin: 10px auto;
 		padding: 15px 15px;
@@ -45,6 +42,9 @@ h1 {
 }
 input, select {
 	font-weight: normal !important;
+}
+#choosemon, #genchange, .fullurl, .htmlurl, .bbcodeurl, #choosexy, #xyformat {
+    width: 100px;
 }
 .xycredits {
 	font-weight: normal !important;
@@ -213,8 +213,6 @@ function xysprites(viewingmon) {
 	}
 }
 $(document).ready(function() {
-	var title = $('h1')[0].outerHTML;
-	$('#titleholder')[0].outerHTML = title;
 	$('h1')[0].outerHTML = '';
 	$('#choosemon').change(findsprite);
 	$('#genchange').change(findsprite);
@@ -233,7 +231,7 @@ $(document).ready(function() {
 </script>
 [page]
 	<div class="wrapper">
-		<div id="titleholder"></div>
+		<h1>Smogon Sprite Generator</h1>
 		<div class="line"></div>
 		<table>
 		<tr>
