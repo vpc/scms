@@ -182,7 +182,7 @@ function xysprites(viewingmon) {
 		$($('.spriteholder')[1]).html('<img src="' + url + '" alt="" />');
 		$($('.fullurl')[1]).val(url);
 		$($('.htmlurl')[1]).val('<img src="/media/sprites/xy/' + animated + side + '/' + filename + '" alt="" />');
-		$($('.bbcodeurl')[1]).val('[IMG]' + url + '[IMG]');	
+		$($('.bbcodeurl')[1]).val('[IMG]' + url + '[/IMG]');	
 	}
 	else {
 		if ($('#ani:checked').length) {
@@ -209,7 +209,7 @@ function xysprites(viewingmon) {
 		$($('.spriteholder')[1]).html('<img src="' + url + '" alt="" />');
 		$($('.fullurl')[1]).val(url);
 		$($('.htmlurl')[1]).val('<img src="/media/sprites/xy/' + animated + side + '/' + filename + '" alt="" />');
-		$($('.bbcodeurl')[1]).val('[IMG]' + url + '[IMG]');
+		$($('.bbcodeurl')[1]).val('[IMG]' + url + '[/IMG]');
 	}
 }
 $(document).ready(function() {
