@@ -2,6 +2,19 @@
 The XY Hub Main Page
 
 [head]
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+
+<script type="text/javascript">
+//<![CDATA[
+    $(function() {
+        $('#tabs').tabs();
+    });
+//]]>
+</script>
+
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+
 <style type="text/css">
 h3 {
     margin-bottom: 10px;
@@ -37,12 +50,42 @@ h4 {
 
 <p>This hub has material relating to the latest installment of Pokémon&mdash;XY. Announcements will be posted semi-frequently with news on game mechanics and data, as well as early tier developments. There are resources here to keep you informed on the latest in Pokemon XY.</p>
 
-<div class="announcement">
-    <h3>Blaziken and Deoxys-N Quick-Banned from XY and PokéBank OU.</h3>
-        <h4>Posted by Jukain on <strong>November 13, 2013</strong></h4>
-            <p>The OU council has concluded that Blaziken and Deoxys-N, two Pokémon allowed initially in XY, will be quick-banned from both current XY OU and PokéBank OU. This means that there will be no public vote; the council has simply decided that this is necessary. Both have been preeminent threats since XY's inception, and are detrimental to the balance of the tier. Blaziken is simply a monster sweeper. Its power is unparalleled, being virtually impossible to counter or even check if the player lacks a Talonflame or Azumarill on his or her offensive team. Defensive teams can opt for Slowbro, defensive Gyrados, or in PokéBank Jellicent, but these Pokemon just are not cut out for any other team in this metagame. With the addition of Baton Pass to its movepool and thus the ability to passed the boost it gains from Swords Dance and Speed Boost, it can pass to a teammate that could handle it.</p>
-            
-            <p>Deoxys-N is also way too powerful for OU to handle. Its dual 150 offenses in addition to Speed give it plenty of power to work with, and a devastating STAB Psycho Boost as well as a list of coverage moves that goes on for days make it virtually impossible to handle with any Pokemon&mdash;conventional or not. Deoxys-N was so obviously broken that there were some people who did not even realize it had been excluded from the initial banlist in the first place. It was not a Pokemon OU could adequately deal with in any way. Therefore, it was banned.</p>
-            
-            <p>Actual suspect tests will likely not begin until PokéBank OU is released, so these will probably be the last bans until that time. Stay tuned for the latest XY!</p>
+<div id="tabs">
+    <ul>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#tiers">Tiering</a></li>
+        <li><a href="#in-game">In-Game</a></li>
+    </ul>
+    <div id="research">
+        <div class="announcement">
+            <h3>XY Battle Mechanics: 11/17/13</h3>
+                <h4>Posted by Jukain</h4>
+                    <p>Many developments have occurred in the research forum over the past few days. Get the latest scoop on game mechanics right here!</p>
+                    <ul class="long-list">
+                        <li>Protect and Detect no longer block Roar and Whirlwind. - <a href="/forums/members/popemonniac.202648/">popeMonniac</a></li>
+                        <li>Knock Off activates Weakness Policy before knocking it off - <a href="/forums/members/stellar.22173/">Stellar</a></li>
+                        <li>If a Pok&eacute;mon gains a new item after receiving an Unburden boost, the boost is removed. - <a href="http://www.smogon.com/forums/members/popemonniac.202648/">popeMonniac</a></li>
+                        <li>Flying-types are not vulnerable to Spikes in Inverse Battles - <a href="http://www.smogon.com/forums/members/lord-jesseus.36032/">Lord Jesseus</a></li>
+                        <li>Flower Veil works on the Pok&eacute;mon with the ability. - <a href="/forums/members/sb879.6028/">sb879</a></li>
+                        <li>Parting Shot still switches the user out even if the stat drops do not occur, is a sound-based, non-contact move, and is completely blocked by Protect. - <a href="/forums/members/sb879.6028/">sb879</a></li>
+                        <li>The ability Competitive raises Special Attack two stages when activated&mdash;not two as stated on various sites, such as Serebii. - <a href="/forums/members/onicon.73598/">Onicon</a></li>
+                        <li>Play Nice cannot miss and bypasses Substitutes. It is not a sound-based move and is bounced back by Magic Bounce. - <a href="/forums/members/sb879.6028/">sb879</a></li>
+                        <li>Keen Eye does not ignore Sand Veil or Snow Cloak. - <a href="/forums/members/sb879.6028/">sb879</a></li>
+                        <li>Run Away does not ignore trapping abilities or moves. - <a href="/forums/members/sb879.6028/">sb879</a></li>
+                        <li>Chansey holding Lucky Punch has the chance of a critical hit by any of its moves doubled. - <a href="/forums/members/stellar.22173/">Stellar</a></li>
+                    </ul>
+                    <p>Check back throughout the coming days for the latest in XY research!
+        </div>
+    </div>
+    <div id="tiers">
+        <div class="announcement">
+            <h3>Blaziken and Deoxys-N Quick-Banned from XY and PokéBank OU.</h3>
+                <h4>Posted by Jukain on <strong>November 13, 2013</strong></h4>
+                    <p>The OU council has concluded that Blaziken and Deoxys-N, two Pokémon allowed initially in XY, will be quick-banned from both current XY OU and PokéBank OU. This means that there will be no public vote; the council has simply decided that this is necessary. Both have been preeminent threats since XY's inception, and are detrimental to the balance of the tier. Blaziken is simply a monster sweeper. Its power is unparalleled, being virtually impossible to counter or even check if the player lacks a Talonflame or Azumarill on his or her offensive team. Defensive teams can opt for Slowbro, defensive Gyrados, or in PokéBank Jellicent, but these Pokemon just are not cut out for any other team in this metagame. With the addition of Baton Pass to its movepool and thus the ability to passed the boost it gains from Swords Dance and Speed Boost, it can pass to a teammate that could handle it.</p>
+                    
+                    <p>Deoxys-N is also way too powerful for OU to handle. Its dual 150 offenses in addition to Speed give it plenty of power to work with, and a devastating STAB Psycho Boost as well as a list of coverage moves that goes on for days make it virtually impossible to handle with any Pokemon&mdash;conventional or not. Deoxys-N was so obviously broken that there were some people who did not even realize it had been excluded from the initial banlist in the first place. It was not a Pokemon OU could adequately deal with in any way. Therefore, it was banned.</p>
+                    
+                    <p>Actual suspect tests will likely not begin until PokéBank OU is released, so these will probably be the last bans until that time. Stay tuned for the latest XY!</p>
+        </div>
+    </div>
 </div>
